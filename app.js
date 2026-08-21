@@ -23976,6 +23976,7 @@ const registerEntries = [
   { term: "Wolfgang Amadeus Mozart Krankheitsporträt", route: "krankheitsportraets-wolfgang-amadeus-mozart", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · fieberhafte Erkrankung mit Nierenversagen, Tod mit 35 Jahren" },
   { term: "Karl Lagerfeld Krankheitsporträt", route: "krankheitsportraets-karl-lagerfeld", description: "Portrait: SO3w4 · Sozialer Typ 3 · Krebserkrankung, fast vier Jahre lang geheim gehalten" },
   { term: "Robert Schumann Krankheitsporträt", route: "krankheitsportraets-robert-schumann", description: "Portrait: SX7w8 · Sexueller Typ 7 · Psychische Erkrankung, Rheinsprung 1854, Tod in der Heilanstalt 1856" },
+  { term: "Francis Bacon Krankheitsporträt", route: "krankheitsportraets-francis-bacon", description: "Portrait: SE7w8 · Selbsterhaltender Typ 7 · Chronische Gicht, tödliches Hühnchen-Experiment 1626" },
   { term: "Pablo Escobar", route: "kriminalpsychologie-pablo-escobar", description: "Kriminalpsychologisches Portr\xe4t: Selbsterhaltender Typ 3, Medell\xedn-Kartell, Akkumulation und T\xe4uschung" },
   { term: "Medell\xedn-Kartell", route: "kriminalpsychologie-pablo-escobar", description: "Pablo Escobar und das Medell\xedn-Kartell \u2013 SE3 Analyse" },
   { term: "Luka Magnotta", route: "kriminalpsychologie-luka-magnotta", description: "Kriminalpsychologisches Portr\xe4t: Sexueller Typ 3, Mord als Selbstinszenierung, SX3-Analyse" },
@@ -31419,6 +31420,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexueller Typ 6", krankheit:"Lungentuberkulose", teaser:"SX6w5 – Dichter, Dramatiker und Historiker, 1759–1805. Seit der Kindheit fragile Konstitution, ab 1791 wiederkehrende lebensbedrohliche Fieber- und Hustenanfälle, vierzehn Jahre kompromissloser Arbeit gegen den eigenen Verfall. Starb 1805 mit 45 Jahren an akuter Lungenentzündung – die Obduktion zeigte einen vollständig zerstörten Lungenflügel." , land:"Deutschland", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexueller Typ 7", krankheit:"Psychische Erkrankung (retrospektiv diskutiert: bipolare Störung, schizoaffektive Erkrankung oder neurologische Spätfolge einer Syphilis-Infektion)", teaser:"SX7w8 – Komponist und Musikkritiker, 1810–1856. Sprang 1854 in einem Anfall völliger Verzweiflung in den Rhein, bat danach selbst um Einweisung in eine Heilanstalt bei Bonn und starb dort 1856, weitgehend isoliert von seiner Frau Clara bis kurz vor seinem Tod." , land:"Deutschland", gender:"m", jahre:"1810–1856"},
+  { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Selbsterhaltender Typ 7", krankheit:"Chronische Gicht und Nierensteine, tödliche Bronchitis/Lungenentzündung nach einem selbst durchgeführten Kälte-Experiment", teaser:"SE7w8 – Philosoph, Staatsmann und Begründer des modernen Empirismus, 1561–1626. Litt jahrzehntelang an Gicht und Nierensteinen, starb 1626 an einer Erkältung, die er sich zuzog, als er im Winter ein Hühnchen mit Schnee ausstopfte, um Kälte als Konservierungsmethode zu testen." , land:"Großbritannien", gender:"m", jahre:"1561–1626"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -47489,12 +47491,15 @@ function francisBaconPortraitPage() {
           <p class="vb-intro">Genau das tat Bacon in seinen letzten f\u00fcnf Lebensjahren nach dem Sturz: von \u00f6ffentlichen \u00c4mtern befreit, widmete er sich fast ausschlie\u00dflich dem Schreiben und vollendete einige seiner bedeutendsten Werke. Sein Tod im April 1626 passt zu keinem anderen Subtyp so gut wie zur SE7w8: Auf einer Kutschfahrt kam ihm die Idee, ob K\u00e4lte F\u00e4ulnis verz\u00f6gern k\u00f6nnte &ndash; er hielt an, kaufte ein H\u00e4hnchen, stopfte es eigenh\u00e4ndig mit Schnee aus und erk\u00e4ltete sich dabei t\u00f6dlich. Der Gorilla, der bis zum letzten Atemzug nach der n\u00e4chsten Entdeckung griff &ndash; und im Sterben noch ein Experiment machte.</p>
         </blockquote>
 
+        <p class="vb-intro">Die jahrzehntelange Gicht und die genauen Umst\u00e4nde des t\u00f6dlichen H\u00fchnchen-Experiments werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-francis-bacon">Krankheitsportr\u00e4t zu Bacon</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-francis-bacon", label:"Krankheitsportr\u00e4t: Francis Bacon (SE7w8)"},
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
       ])}
@@ -70524,6 +70529,182 @@ function robertSchumannKrankheitsportraetPage() {
         {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function francisBaconKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Francis Bacon" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis Bacon</p>
+        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel · 1561–1626</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Tierentsprechung: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Francis Bacon</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-francis-bacon">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein philosophisches Lebenswerk, seinen
+        politischen Aufstieg und Fall. Hier geht es ausschließlich um ein Kapitel, das dort nur
+        gestreift wird: eine über Jahrzehnte chronische Gesundheit voller Gicht, Nierensteinen
+        und Verdauungsbeschwerden – und einen Tod, der sich wie die letzte, tödliche Konsequenz
+        seines eigenen Forscherdrangs liest.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bacon</strong> ist der <strong>selbsterhaltenden Sieben mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp die "versteckte Acht": eine Sieben, die ihre
+        Neugier und Genussfähigkeit mit der Durchsetzungskraft und Direktheit der Acht
+        verbindet, ohne diese offen zur Schau zu stellen. Genau diese Kombination aus
+        unstillbarem Forscherdrang und der Weigerung, vor körperlichen Grenzen
+        zurückzuschrecken, prägte auch seinen Umgang mit der eigenen Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine fragile Konstitution von Jugend an:</strong>
+        Zeitgenössische Berichte beschreiben Bacon bereits als jungen Mann als kränklich und
+        anfällig – eine körperliche Zerbrechlichkeit, die in auffälligem Kontrast zu seinem
+        unermüdlichen intellektuellen und politischen Tatendrang stand.</p>
+        <p class="vb-intro"><strong>b) Wiederkehrende Gichtanfälle seit dem mittleren Lebensalter:</strong>
+        Ab seinen Vierzigern litt Bacon zunehmend an schmerzhaften Gichtschüben, die ihn
+        zeitweise ans Bett fesselten – eine Erkrankung, die damals eng mit übermäßigem Genuss
+        von Fleisch und Wein in Verbindung gebracht wurde, dem Lebensstil eines Mannes, der am
+        Hof und in der Politik nie zurückhaltend auftrat.</p>
+        <p class="vb-intro"><strong>c) Nierensteine als ständiger Begleiter:</strong>
+        Parallel zur Gicht dokumentieren Bacons eigene Aufzeichnungen wiederkehrende, quälende
+        Nierenstein-Koliken, die ihn über Jahre begleiteten und seine juristische wie
+        wissenschaftliche Arbeit immer wieder unterbrachen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Krankheit als Randnotiz im überfüllten Terminkalender:</strong>
+        Trotz der wiederkehrenden Beschwerden finden sich in Bacons Briefen kaum Klagen über
+        die eigene Gesundheit – Krankheit wurde knapp erwähnt und dann zur nächsten Aufgabe
+        übergegangen, nie zum zentralen Thema gemacht.</p>
+        <p class="vb-intro"><strong>b) Ein Mann, der seine eigene Medizin praktizierte:</strong>
+        Bacon experimentierte selbst mit Ernährung, Heilkräutern und Lebensweisen, um seine
+        Beschwerden zu lindern – seine "Sylva Sylvarum", eine posthum veröffentlichte Sammlung
+        naturkundlicher Beobachtungen, enthält zahlreiche Notizen zu Gesundheit, Langlebigkeit
+        und Körperpflege, die vermutlich auch aus eigener Betroffenheit entstanden.</p>
+        <p class="vb-intro"><strong>c) Finanzielle Sorgen als zusätzliche Last:</strong>
+        Zeit seines Lebens verschuldet trotz hoher Ämter und beträchtlicher Einkünfte, lebte
+        Bacon in einem chronischen Spannungsfeld zwischen Repräsentationszwang und
+        finanzieller Unsicherheit – ein Dauerstress, der seine körperliche Verfassung
+        vermutlich zusätzlich belastete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Sturz von 1621 als zusätzliche Belastung:</strong>
+        Die Anklage wegen Bestechlichkeit, die Amtsenthebung und die kurze Haft im Tower
+        trafen einen bereits gesundheitlich angeschlagenen Mann in seinen Sechzigern –
+        Zeitgenossen berichteten von einem sichtbaren körperlichen Verfall in den Monaten nach
+        dem politischen Fall.</p>
+        <p class="vb-intro"><strong>b) Rückzug aufs Land, nicht Rückzug von der Arbeit:</strong>
+        Nach dem Verlust seiner Ämter zog sich Bacon auf sein Landgut Gorhambury zurück – doch
+        statt sich zu schonen, arbeitete er in den folgenden fünf Jahren so intensiv wie kaum
+        zuvor an seinen wissenschaftlichen Werken, oft bis in die frühen Morgenstunden.</p>
+        <p class="vb-intro"><strong>c) Die letzte Kutschfahrt im Winter 1626:</strong>
+        Auf dem Weg nach Highgate bei London kam Bacon im eisigen Winterwetter die Idee, ob
+        Kälte den Verwesungsprozess verzögern könnte – ein Gedanke, dem er sofort, ohne
+        Rücksicht auf die Witterung, experimentell nachging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Das Hühnchen-Experiment:</strong>
+        Bacon hielt die Kutsche an, kaufte ein Hühnchen von einer Bäuerin und stopfte es
+        eigenhändig mit Schnee aus, um zu testen, ob Kälte Fäulnis verhindern könne – ein
+        früher, ernsthafter Versuch zur Lebensmittelkonservierung, Jahrhunderte vor der
+        modernen Kühltechnik.</p>
+        <p class="vb-intro"><strong>b) Zu krank für die Heimreise:</strong>
+        Bei dem Experiment zog sich Bacon eine schwere Erkältung zu, die sich rasch
+        verschlimmerte. Er war zu geschwächt, um zu seinem eigenen Haus zurückzukehren, und
+        wurde stattdessen ins nahegelegene Haus von Lord Arundel gebracht.</p>
+        <p class="vb-intro"><strong>c) Tod innerhalb weniger Tage:</strong>
+        Am 9. April 1626 starb Francis Bacon in Arundels Haus an einer Bronchitis oder
+        Lungenentzündung, die aus der Erkältung entstanden war – nur wenige Tage nach dem
+        Experiment, das seinen Tod auslöste.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der auch die eigene Schwäche ignorierte:</strong>
+        Dieselbe Durchsetzungskraft, die Bacon durch politische Ämter und wissenschaftliche
+        Großprojekte trug, ließ ihn auch über die eigenen körperlichen Warnsignale
+        hinweggehen – Gicht, Nierensteine und ein bereits geschwächter Zustand hielten ihn
+        nicht davon ab, sich im Winter einem spontanen Experiment auszusetzen.</p>
+        <p class="vb-intro"><strong>b) Neugier ohne eingebaute Notbremse:</strong>
+        Die selbsterhaltende Sieben sucht Sicherheit normalerweise durch Vorsicht und
+        praktische Vorsorge – bei Bacon wich diese Vorsicht in seinem letzten Lebensjahrzehnt
+        zunehmend der reinen Entdeckerlust, die keine Rücksicht mehr auf die eigene
+        Verfassung nahm.</p>
+        <p class="vb-intro"><strong>c) Arbeit als einziges verbliebenes Terrain:</strong>
+        Nach dem Verlust seiner politischen Macht verlagerte sich die ganze Energie der SE7w8
+        auf das letzte Feld, das ihm blieb – die eigene Forschung –, mit einer Intensität, die
+        keine Grenze mehr zu kennen schien.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben in chronischem Schmerz, kaum thematisiert:</strong>
+        Jahrzehntelange Gicht und Nierensteine begleiteten Bacon durch seine gesamte
+        politische und wissenschaftliche Karriere, ohne dass er ihnen in seinen Schriften
+        nennenswerten Raum gab – Krankheit war für ihn ein Hindernis, das man umging, nicht
+        ein Thema, das man auslebte.</p>
+        <p class="vb-intro"><strong>b) Ein Tod, der zum Sinnbild des ganzen Lebens wurde:</strong>
+        Kaum ein anderes Krankheitsporträt dieses Kompasses zeigt eine derart wörtliche
+        Übereinstimmung zwischen Lebensmuster und Todesursache: Bacon starb nicht trotz,
+        sondern wegen seines unstillbaren Forscherdrangs – die gleiche Eigenschaft, die sein
+        gesamtes Werk trug, wurde ihm im entscheidenden Moment zum Verhängnis.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet eine Erkältung?</strong>
+        Für eine selbsterhaltende Sieben mit Achterflügel, deren Sicherheit traditionell aus
+        praktischer Vorsorge und körperlicher Robustheit gespeist wird, liegt eine Deutung
+        nahe: Ausgerechnet eine banale, vermeidbare Erkältung – kein dramatisches Leiden,
+        sondern eine Nachlässigkeit im Angesicht der eigenen Neugier – wurde zur tödlichen
+        Konsequenz einer Lebenshaltung, die praktische Vorsicht der Entdeckerfreude
+        systematisch unterordnete. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Sieben zwangsläufig zu
+        derartigen Unfällen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Bacons Fall zeigen lässt, ist ein Muster,
+        das bei ungebremster Neugier in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Bacons</strong> letzten Lebensjahren lässt sich die selbsterhaltende Sieben
+        mit Achterflügel in ihrer konsequentesten Form ablesen: eine über Jahrzehnte
+        chronische, kaum beklagte körperliche Bürde, die der unstillbaren Entdeckerfreude nie
+        wirklich Einhalt gebot – bis ein einziges spontanes Experiment im eisigen Winter zum
+        letzten wurde. Der Gorilla, der bis zum letzten Atemzug nach der nächsten Entdeckung
+        griff – und im Sterben noch ein Experiment machte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-francis-bacon", label:"Porträt: Francis Bacon (SE7w8) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se7", label:"Subtyp-Profil SE7"},
       ])}
     </div>
   `);
@@ -99554,6 +99735,7 @@ function render() {
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
+      "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
