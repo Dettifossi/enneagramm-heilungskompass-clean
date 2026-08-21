@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=51";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=52";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -215,6 +215,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Self-Preservation Type 7", krankheit:"Chronic gout and kidney stones, fatal bronchitis/pneumonia after a self-conducted cold experiment", teaser:"SE7w8 – philosopher, statesman, and founder of modern empiricism, 1561–1626. Suffered decades of gout and kidney stones, died in 1626 of a chill caught while stuffing a chicken with snow in winter to test cold as a preservation method." , land:"United Kingdom", gender:"m", jahre:"1561–1626"},
   { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Social Type 8", krankheit:"Chronic, severe boils and carbuncles (likely hidradenitis suppurativa), accompanied by bronchitis, liver complaints, and rheumatism", teaser:"SO8w9 – philosopher, economist, founder of Marxism, 1818–1883. Suffered for over four decades from painful carbuncles that at times kept him from sitting and repeatedly delayed work on 'Capital.' Died in 1883 from the effects of chronic bronchitis." , land:"Germany/United Kingdom", gender:"m", jahre:"1818–1883"},
+  { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Self-Preservation Type 9", krankheit:"Decades-long progressive Parkinson's disease with severe accompanying back injuries", teaser:"SE9w1 – conductor and pianist, 1943–2021. First tremor symptoms as early as the 1990s, kept private for years, a severe fall in 2011 with spinal injury, increasing reliance on a wheelchair. Died in 2021 from complications of his long-standing illness." , land:"USA", gender:"m", jahre:"1943–2021"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -18494,12 +18495,14 @@ function jamesLevinePortraitPage() {
         <h2 class="vb-section">6. The Elephant Who Inhabited the House</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">James Levine shaped the Metropolitan Opera like no other. He gave it an unmistakable sound. He mentored generations of singers and musicians. And he demonstrated what the self-preservation Nine looks like at its best: total immersion, long endurance, and a presence that requires no explanation. In its darkest form, it also shows how an appetite without bounds can destroy everything it built. The elephant does not forget. And neither does history.</p>
+          <p class="vb-intro">His decades-long, initially concealed Parkinson's disease is explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-james-levine">Illness Portrait of Levine</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
         ${relatedLinks([
+          {route:"krankheitsportraets-james-levine", label:"Illness Portrait: James Levine (SE9w1)"},
           {route:"beruehmte-baerbel-bas", label:"Portrait: B\xe4rbel Bas (SE9w1)"},
           {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
@@ -43892,6 +43895,166 @@ function karlMarxKrankheitsportraetPage() {
   `);
 }
 
+function jamesLevineKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-james-levine-portrait.jpg" alt="James Levine" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Levine</p>
+        <p class="krim-portrait-typ">SE9w1 · Self-Preservation Type 9 with One-wing · 1943–2021</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Elephant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>James Levine</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-james-levine">portrait under Famous Personalities</a>
+        in this Compass – that page covers his musical life's work at the Metropolitan Opera
+        and, in its final section, the abuse allegations that became public in 2017. This
+        portrait is devoted to a separate chapter: a Parkinson's disease that progressed over
+        decades, along with severe back injuries, which increasingly limited him physically
+        while he kept conducting.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Levine</strong> is classified as the <strong>self-preservation Nine with
+        One-wing</strong>. Naranjo called the self-preservation Nine <em>Appetite</em>: the
+        longing to dwell completely in something that nourishes and sustains. The One-wing
+        gives that longing an inner standard that tolerates no shortcuts. It was exactly this
+        combination of deep rootedness and an unyielding demand on himself that also shaped how
+        Levine handled a body that increasingly took control away from him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First tremor symptoms as early as the 1990s:</strong>
+        Colleagues and orchestra members noticed a slight shaking in Levine's hands early on,
+        which he largely concealed for years and did not address publicly.</p>
+        <p class="vb-intro"><strong>b) Back problems as an early warning sign:</strong>
+        Alongside the first neurological signs, Levine increasingly suffered from severe back
+        complaints that required several surgical procedures and repeatedly kept him off the
+        podium for extended periods.</p>
+        <p class="vb-intro"><strong>c) A fall in 2006 as a first serious blow:</strong>
+        In a fall during a concert in Boston, Levine tore his rotator cuff – an incident that
+        made his growing physical vulnerability publicly visible for the first time.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The Parkinson's diagnosis, kept private for years:</strong>
+        Levine likely received his Parkinson's diagnosis as early as the 1990s but did not make
+        it public until 2013 – a pattern of secrecy that ran through much of his career.</p>
+        <p class="vb-intro"><strong>b) A severe fall in 2011 as a turning point:</strong>
+        A fall during the 2011 summer break led to a serious spinal injury requiring emergency
+        surgery and kept Levine off the podium entirely for almost two years.</p>
+        <p class="vb-intro"><strong>c) Growing reliance on technical aids:</strong>
+        The Metropolitan Opera built a special motorized wheelchair lift to bring Levine to the
+        podium – a visible sign of how far his body had become uncoupled from his will to keep
+        conducting.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Conducting seated, with minimal hand movement:</strong>
+        In his last active years, Levine conducted seated, with severely limited arm mobility –
+        he communicated with the orchestra increasingly through eye contact and facial
+        expression rather than classical conducting gestures.</p>
+        <p class="vb-intro"><strong>b) Not withdrawal, but adaptation:</strong>
+        Rather than stepping back from active leadership, Levine kept adjusting his working
+        method to the progressing illness – a pattern that held for decades, until his physical
+        limits allowed no further adaptation.</p>
+        <p class="vb-intro"><strong>c) Public reticence despite visible symptoms:</strong>
+        Even after the tremor and limited mobility had become unmistakable to audiences, Levine
+        himself rarely spoke publicly about his illness – a silence that fits the
+        self-preservation Nine, which would rather carry weakness within than voice it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Return after a two-year break:</strong>
+        In 2013, Levine, now permanently using a wheelchair, returned to the Metropolitan
+        Opera – a comeback celebrated in the classical music world as a remarkable expression of
+        persistence.</p>
+        <p class="vb-intro"><strong>b) The end of his active career in 2017/2018:</strong>
+        Levine's contract with the Met ended in 2018 – officially in connection with the abuse
+        investigations, though his progressing illness had already noticeably limited his
+        ability to lead the orchestra before that.</p>
+        <p class="vb-intro"><strong>c) Death in 2021 from the effects of Parkinson's disease:</strong>
+        James Levine died on March 9, 2021, in Palm Springs, California, officially from
+        complications of his long-standing Parkinson's disease.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The One-wing that made no compromise with illness:</strong>
+        Levine's inner demand for musical precision remained intact even as his body made that
+        precision increasingly difficult – his will toward correctness did not soften under the
+        illness.</p>
+        <p class="vb-intro"><strong>b) Appetite that adapted to changed conditions:</strong>
+        The self-preservation Nine seeks wholeness in the familiar – Levine kept finding that
+        wholeness in music even as access to it grew ever more limited, and preserved through it
+        a form of inner stability.</p>
+        <p class="vb-intro"><strong>c) A territory he defended to the last:</strong>
+        Like the elephant that does not give up its territory without a fight, the Met remained
+        Levine's home until the forced end – the retreat came not from his own decision, but was
+        imposed on him from outside and by his own body at once.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A quarter-century of quiet adaptation:</strong>
+        From the first tremor symptoms in the 1990s to his death in 2021, the progressing
+        Parkinson's disease runs like a red thread through Levine's entire late career –
+        accompanied by severe, repeated back injuries.</p>
+        <p class="vb-intro"><strong>b) Secrecy as a consistent pattern:</strong>
+        As with other Illness Portraits in this Compass, Levine kept his diagnosis private for
+        years – a behavior that shows especially clearly in the self-preservation Nine:
+        maintaining outward stability even when something had long since begun to falter
+        inside.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, control over one's own body?</strong>
+        For a self-preservation Nine with One-wing, whose deepest need is complete, undisturbed
+        fusion with its territory, one reading suggests itself: precisely an illness that
+        gradually robs one of control over one's own movements struck a man whose entire
+        identity hinged on the precise, physical command of an orchestra. This reading is
+        explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        This does not mean the self-preservation Nine's pattern inevitably leads to Parkinson's
+        disease – <strong>every person can develop any illness, regardless of subtype.</strong>
+        What Levine's case can show is a pattern that stands out again and again in practice
+        wherever quiet, adaptable persistence exists alongside progressive loss of control – one
+        possible explanation among many, not a verdict. The corresponding condition will be
+        developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Levine's</strong> decades-long Parkinson's disease, the self-preservation
+        Nine with One-wing reveals itself at its most persistent: a quiet, long-concealed
+        adaptation to progressive loss of control, an unyielding inner standard that the illness
+        never softened, and a territory given up only when no remaining could still be possible.
+        The elephant that inhabited its house until its own body and outside circumstances left
+        it no other choice.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se9", label:"Subtype Profile SE9"},
+      ])}
+    </div>
+  `);
+}
+
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -65299,6 +65462,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
       "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
+      "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
