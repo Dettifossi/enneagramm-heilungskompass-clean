@@ -31427,6 +31427,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Sozialer Typ 8", krankheit:"Chronische, schwere Furunkel und Karbunkel (vermutlich Hidradenitis suppurativa), begleitet von Bronchitis, Leberbeschwerden und Rheuma", teaser:"SO8w9 – Philosoph, Ökonom, Begründer des Marxismus, 1818–1883. Litt über vier Jahrzehnte an schmerzhaften Karbunkeln, die ihn zeitweise am Sitzen hinderten und die Arbeit am 'Kapital' immer wieder verzögerten. Starb 1883 an den Folgen chronischer Bronchitis." , land:"Deutschland/Vereinigtes Königreich", gender:"m", jahre:"1818–1883"},
   { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Selbsterhaltender Typ 9", krankheit:"Über Jahrzehnte fortschreitende Parkinson-Erkrankung mit schweren begleitenden Rückenverletzungen", teaser:"SE9w1 – Dirigent und Pianist, 1943–2021. Erste Tremorsymptome bereits in den 1990er-Jahren, jahrelang privat gehalten, ein schwerer Sturz 2011 mit Rückenmarksverletzung, zunehmende Rollstuhlpflicht. Starb 2021 an den Komplikationen der langjährigen Erkrankung." , land:"USA", gender:"m", jahre:"1943–2021"},
   { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Selbsterhaltender Typ 9", krankheit:"Chronische Darmerkrankung (vermutlich Darmkarzinom oder schwere chronisch-entzündliche Erkrankung), stetig fortschreitend über gut vier Jahre", teaser:"SE9w8 – schottischer Philosoph, 1711–1776. Erste Verdauungsbeschwerden ab 1772, stetiger Gewichtsverlust, verfasste kurz vor dem Tod die gelassene Autobiografie 'My Own Life'. Starb 1776 in Edinburgh mit bemerkenswerter philosophischer Ruhe." , land:"Schottland", gender:"m", jahre:"1711–1776"},
+  { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexueller Typ 9", krankheit:"Jahrzehntelange, nie eindeutig diagnostizierte chronische Krankheit (vermutlich Wirbelsäulenleiden und/oder frühe Lungenerkrankung) mit begleitender lebenslanger Opiumabhängigkeit", teaser:"SX9w8 – englische Dichterin, 1806–1861. Chronische Beschwerden ab der Jugend, früh verordnetes Laudanum mit jahrzehntelanger Abhängigkeit, über zwanzig Jahre fast völlige Isolation im Vaterhaus. Gesundheitliche Besserung erst nach der heimlichen Flucht nach Italien 1846." , land:"Großbritannien", gender:"f", jahre:"1806–1861"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -54749,6 +54750,8 @@ function elizabethBarrettBrowningPortraitPage() {
           <p class="vb-intro">Zurück bleibt das Bild einer Frau, deren äußere Bewegungslosigkeit über Jahrzehnte hinweg eine ungeahnte innere Kraft verbarg &ndash; die sich, als es darauf ankam, mit aller Entschlossenheit an die eine Bindung klammerte, die ihr Leben rettete.</p>
         </blockquote>
 
+        <p class="vb-intro">Ihre jahrzehntelange, nie eindeutig diagnostizierte chronische Krankheit und die begleitende Opiumabhängigkeit werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-elizabeth-barrett-browning">Krankheitsporträt</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -54760,6 +54763,7 @@ function elizabethBarrettBrowningPortraitPage() {
         {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8)"},
         {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
         {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
+        {route:"krankheitsportraets-elizabeth-barrett-browning", label:"Krankheitsporträt: Elizabeth Barrett Browning (SX9w8)"},
       ])}
     </div>
   `);
@@ -71296,6 +71300,186 @@ function davidHumeKrankheitsportraetPage() {
         {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function elizabethBarrettBrowningKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-elizabeth-barrett-browning-portrait.jpg" alt="Elizabeth Barrett Browning" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elizabeth Barrett Browning</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel &middot; 1806&ndash;1861</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Faultier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elizabeth Barrett Browning</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-elizabeth-barrett-browning">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr dichterisches Lebenswerk und die
+        Flucht nach Italien. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift
+        wird: eine jahrzehntelange, nie eindeutig diagnostizierte chronische Krankheit, verbunden
+        mit einer über Jahrzehnte fortgeführten Opiumbehandlung – und die Frage, was es bedeutet,
+        wenn eine sexuelle Neun buchstäblich gegen die eigene Bewusstlosigkeit ankämpfen muss.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Barrett Browning</strong> ist der <strong>sexuellen Neun mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte die sexuelle Neun <em>Verschmelzung</em>: die Sehnsucht, in
+        einem einzigen Gegenüber vollständig aufzugehen. Der Achterflügel gibt dieser
+        Verschmelzung eine Kraft, die sich notfalls kämpferisch behauptet, statt sich einfach nur
+        anzupassen. Genau dieses Wechselspiel – jahrzehntelange, medikamentös vertiefte
+        Bewusstlosigkeit gegenüber dem eigenen Leben, unterbrochen von einem einzigen, radikal
+        wachen Akt der Selbstbehauptung – prägte Barrett Brownings gesamten Krankheitsverlauf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste chronische Beschwerden in der Jugend:</strong>
+        Ab etwa ihrem fünfzehnten Lebensjahr litt Elizabeth Barrett an anhaltenden Schmerzen,
+        vermutlich im Zusammenhang mit einer Rückenverletzung – möglicherweise Folge eines
+        Reitunfalls –, die bis heute medizinhistorisch nicht abschließend geklärt ist.</p>
+        <p class="vb-intro"><strong>b) Frühe Verordnung von Opium:</strong>
+        Schon als junge Frau verschrieben ihr die Ärzte Laudanum (Opiumtinktur) gegen die
+        Schmerzen – ein damals gängiges, aber stark abhängig machendes Mittel, das sie bis an ihr
+        Lebensende begleiten sollte.</p>
+        <p class="vb-intro"><strong>c) Verschlechterung durch eine Lungenerkrankung:</strong>
+        Parallel zu den Rückenbeschwerden entwickelte sich eine chronische Lungenschwäche, die
+        die Familie 1838 dazu bewog, sie zur Kur in das mildere Klima von Torquay an der
+        englischen Südküste zu schicken.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine bis heute nicht eindeutig rekonstruierbare Diagnose:</strong>
+        Medizinhistoriker diskutieren als mögliche Ursachen unter anderem eine Wirbelsäulenerkrankung,
+        eine frühe Form der Tuberkulose oder eine funktionelle, durch chronischen Schmerz und
+        familiäre Enge verstärkte Erkrankung – eine moderne, eindeutige Diagnose lässt sich aus
+        den historischen Quellen nicht mehr gewinnen.</p>
+        <p class="vb-intro"><strong>b) Jahrzehntelange Opiumabhängigkeit als eigenständiges Krankheitsbild:</strong>
+        Anders als bei den meisten Krankheitsporträts dieses Kompasses trat neben die ursprüngliche
+        körperliche Erkrankung ein zweites, selbst erzeugtes Leiden: die medikamentöse
+        Dauerbehandlung mit Opium führte zu einer physischen Abhängigkeit, die ihr Leben über
+        Jahrzehnte mitbestimmte.</p>
+        <p class="vb-intro"><strong>c) Ein Trauma, das die Krankheit vertiefte:</strong>
+        1840 ertrank ihr geliebter Bruder Edward bei einem Segelunglück vor Torquay – wenige
+        Wochen, nachdem er gegen den Willen ihres Vaters bei ihr geblieben war, um sie zu
+        pflegen. Elizabeth machte sich für seinen Tod mitverantwortlich und zog sich danach für
+        Jahre noch weiter aus dem Leben zurück.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Über zwanzig Jahre fast ohne das eigene Zimmer:</strong>
+        Nach dem Tod ihres Bruders verschärfte sich ihre Isolation im Elternhaus in der Londoner
+        Wimpole Street erheblich – Zeitgenossen beschrieben sie als eine Frau, die kaum noch das
+        Bett verließ und Besuch fast nur noch liegend empfing.</p>
+        <p class="vb-intro"><strong>b) Ein Leben, das sich zunehmend im Halbschlaf abspielte:</strong>
+        Die tägliche Opiumdosis dämpfte nicht nur den Schmerz, sondern auch die Wachheit – Barrett
+        selbst beschrieb in Briefen Phasen benommener Müdigkeit, die sie von ihrer Umwelt
+        abschnitten, lange bevor irgendjemand das Wort Abhängigkeit dafür benutzt hätte.</p>
+        <p class="vb-intro"><strong>c) Und mitten darin: eine ungebrochene literarische Produktivität:</strong>
+        Ausgerechnet aus diesem Zustand heraus entstanden einige ihrer bekanntesten Werke – ein
+        Befund, der Ärzte und Biografen bis heute beschäftigt, wie viel geistige Klarheit neben
+        der körperlichen und medikamentösen Schwäche erhalten blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Die Flucht 1846 als körperlicher Wendepunkt:</strong>
+        Nach der heimlichen Heirat und der Übersiedlung nach Italien besserte sich Barrett
+        Brownings Gesundheit spürbar – wärmeres Klima, ein selbstbestimmtes Leben und die
+        Distanz zum Vaterhaus wirkten sich messbar positiv aus, auch wenn die Opiumeinnahme
+        bestehen blieb.</p>
+        <p class="vb-intro"><strong>b) Vier Fehlgeburten und ein überlebendes Kind:</strong>
+        In Italien erlitt sie mehrere Fehlgeburten, bevor 1849 ihr Sohn Robert Wiedeman Barrett
+        Browning (genannt „Pen“) gesund zur Welt kam – für eine Frau ihres damaligen
+        Gesundheitszustands ein medizinisch bemerkenswertes Ereignis.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahrzehnt zwischen Schaffenskraft und Verfall:</strong>
+        Die 1850er-Jahre brachten sowohl ihr politisch engagiertestes Werk als auch einen
+        erneuten, schleichenden gesundheitlichen Verfall, der sich in den letzten Lebensjahren
+        deutlich beschleunigte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der aus dem Nebel heraus handelte:</strong>
+        Die Entscheidung zur Flucht 1846 traf eine Frau, die seit Jahren in einem Zustand
+        medikamentöser Gedämpftheit lebte – und die trotzdem in der Lage war, einen
+        hochriskanten, monatelang geheim gehaltenen Plan bis ins Detail durchzuziehen. Das ist
+        die Signatur des Achterflügels: Kraft, die auch durch Nebel hindurch handlungsfähig
+        bleibt.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung, die sich gegen die eigene Bewusstlosigkeit richtete:</strong>
+        Die sexuelle Neun sucht Verschmelzung – bei Barrett Browning geschah das über zwanzig
+        Jahre lang vor allem als Verschmelzung mit der eigenen Passivität, dem Krankenzimmer, der
+        Dämpfung. Die Bindung an Robert Browning war die erste Verschmelzung, die sie aus dieser
+        Bewusstlosigkeit heraus- statt weiter hineinzog.</p>
+        <p class="vb-intro"><strong>c) Eine Wachheit, die nur im äußersten Ernstfall auftauchte:</strong>
+        Auffällig ist, wie punktuell sich ihre Kraft zeigte – nicht als dauerhafte Rebellion gegen
+        die eigene Situation, sondern als ein einziger, hochkonzentrierter Ausbruch, wenn wirklich
+        alles auf dem Spiel stand. Dazwischen blieb die vertraute Dämpfung bestehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die zur wörtlichen Bewusstlosigkeit wurde:</strong>
+        Die sexuelle Neun trägt als Schattenseite die Gefahr, sich so vollständig anzupassen und
+        zu verschmelzen, dass die eigene Wachheit dem Leben gegenüber verloren geht – bei kaum
+        einem anderen Porträt dieses Kompasses wird dieses Muster so konkret körperlich, wie bei
+        einer Frau, deren tägliche Opiumdosis genau diese Unbewusstheit über Jahrzehnte hinweg
+        buchstäblich chemisch verstärkte.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel als der Teil, der aufwachte:</strong>
+        Wäre Elizabeth Barrett eine sexuelle Neun ohne ausgeprägten Achterflügel gewesen, hätte
+        diese jahrzehntelange Dämpfung vermutlich bis zum Ende angehalten. Stattdessen brach
+        genau in dem Moment, in dem die eine Bindung – die einzige, die für sie zählte – bedroht
+        war, eine Entschlossenheit durch, die stark genug war, den eigenen Nebel zu durchbrechen
+        und einen Fluchtplan bis zum letzten Detail umzusetzen. Die Krankheit forderte den
+        Achterflügel geradezu heraus, sich zu zeigen.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Opium?</strong>
+        Für eine sexuelle Neun, deren tiefstes Muster die Verschmelzung mit dem Anderen bis zur
+        Auflösung der eigenen Grenzen ist, liegt eine Deutung nahe: Opium erzeugt chemisch genau
+        jenen Zustand der Entgrenzung und gedämpften Wachheit, den die sexuelle Neun psychisch
+        ohnehin anstrebt – eine Substanz, die dem eigenen Muster nicht entgegenwirkt, sondern es
+        potenziert. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu Abhängigkeitserkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Barrett Brownings Fall zeigen lässt, ist ein Muster, das bei tiefer
+        Verschmelzungsneigung in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Barrett Brownings</strong> Krankengeschichte lässt sich die sexuelle Neun mit
+        Achterflügel in einer besonders klaren Zuspitzung ablesen: eine über Jahrzehnte
+        vertiefte, auch chemisch erzeugte Bewusstlosigkeit gegenüber dem eigenen Leben – und ein
+        einziger, radikal wacher Akt, der genau diese Dämpfung durchbrach, als die eine Bindung
+        auf dem Spiel stand, die zählte. Das Faultier, das die meiste Zeit im Halbschlaf hängt –
+        und in dem einen Moment, in dem es darauf ankommt, mit aller Kraft zugreift.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Porträt: Elizabeth Barrett Browning (SX9w8) – Lebenswerk"},
+        {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
       ])}
     </div>
   `);
@@ -100331,6 +100515,7 @@ function render() {
       "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
       "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
       "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
+      "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
