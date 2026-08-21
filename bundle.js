@@ -95322,7 +95322,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn – die Frage, wohin er darf",
         varianten: [
-          { code: "SE1", text: "Bei der selbsterhaltenden Eins richtet sich der Zorn am radikalsten nach innen: Selbstkontrolle wird zum obersten Lebensprinzip, jede Regung muss geprüft, gerechtfertigt, ins Korsett des Richtigen gepresst werden. Ein typisches Bild ist die Person, die selbst in akuter Wut noch mit ruhiger Stimme spricht, während innerlich alles vibriert – nach außen Contenance, nach innen ein Kessel unter Dauerdruck. Kardiologisch ist genau dieses Muster gut untersucht: chronisch unterdrückte Feindseligkeit gilt als einer der stärksten psychologischen Prädiktoren für koronare Ereignisse, stärker sogar als offen ausgelebter Ärger, weil dem Körper nie eine physiologische Entladung gestattet wird. Das Herz pumpt gegen einen Widerstand an, der nie als solcher benannt werden darf." },
+      { code: "SE1", text: "Bei der selbsterhaltenden Eins richtet sich der Zorn am radikalsten nach innen: Selbstkontrolle wird zum obersten Lebensprinzip, jede Regung muss geprüft, gerechtfertigt, ins Korsett des Richtigen gepresst werden. Ein typisches Bild ist die Person, die selbst in akuter Wut noch mit ruhiger Stimme spricht, während innerlich alles vibriert – nach außen Contenance, nach innen ein Kessel unter Dauerdruck. Kardiologisch ist genau dieses Muster gut untersucht: chronisch unterdrückte Feindseligkeit gilt als einer der stärksten psychologischen Prädiktoren für koronare Ereignisse, stärker sogar als offen ausgelebter Ärger, weil dem Körper nie eine physiologische Entladung gestattet wird. Das Herz pumpt gegen einen Widerstand an, der nie als solcher benannt werden darf." },
           { code: "SO1", text: "Die soziale Eins verwandelt persönlichen Ärger in ein Anliegen der Gemeinschaft – aus „Das macht mich wütend“ wird „Das ist ungerecht und muss sich ändern“. Diese Übersetzung schützt vor dem Gefühl, selbstsüchtig zu sein, kostet aber Kraft: Die Reformerin trägt nicht nur die eigene Empörung, sondern die gefühlte Verantwortung für den Zustand der ganzen Welt, ohne je fertig zu sein. Anders als bei der selbsterhaltenden Variante findet der Ärger zwar ein Ventil in Worten, Petitionen, Engagement – doch die Belastung wirkt eher über kognitive Dauererschöpfung und das nagende Gefühl unerledigter Missstände als über klassische muskuläre Anspannung. Das Herz erschöpft sich hier weniger am Druck als an der schieren Menge dessen, was noch zu richten wäre." },
           { code: "SX1", text: "Bei der sexuellen Eins entlädt sich Zorn am direktesten dort, wo es am meisten wehtut – in der Nähe: intensive, fordernde Erwartungen an den Partner, Eifersucht, der stille Anspruch, gemeinsam an einer vollkommenen Beziehung zu arbeiten, koste es, was es wolle. Kleine Enttäuschungen werden schnell zu Beweisen mangelnder Hingabe, und aus Verletzung wird binnen Sekunden scharfe Kritik. Das schafft ein unmittelbareres Ventil als bei den anderen beiden Einser-Varianten – dadurch potenziell weniger stille Dauerspannung im Alltag, dafür aber eine emotionale Achterbahn mit intensiven, episodischen Belastungsspitzen genau in den Momenten, die eigentlich am meisten Sicherheit geben sollten." },
         ],
@@ -95330,7 +95330,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Stolz – wessen Bedürfnisse zählen",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten von allen drei Varianten: Sie sorgt praktisch, unauffällig, oft im engsten familiären Kreis – kocht, organisiert, hält den Laden am Laufen – und würde eher zusammenbrechen, als offen um Hilfe zu bitten. Die Belastung entsteht hier nicht aus Wettbewerb um Anerkennung, sondern aus einem stillen, nie ausgesprochenen Ungleichgewicht: Sie deckt andere ab, ohne selbst je gedeckt zu werden. Das eigene Herz – im wörtlichen wie im übertragenen Sinn – wird über Jahrzehnte schlicht nicht gehört, weil niemand danach fragt und sie selbst es nie einfordert." },
+      { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten von allen drei Varianten: Sie sorgt praktisch, unauffällig, oft im engsten familiären Kreis – kocht, organisiert, hält den Laden am Laufen – und würde eher zusammenbrechen, als offen um Hilfe zu bitten. Die Belastung entsteht hier nicht aus Wettbewerb um Anerkennung, sondern aus einem stillen, nie ausgesprochenen Ungleichgewicht: Sie deckt andere ab, ohne selbst je gedeckt zu werden. Das eigene Herz – im wörtlichen wie im übertragenen Sinn – wird über Jahrzehnte schlicht nicht gehört, weil niemand danach fragt und sie selbst es nie einfordert." },
           { code: "SO2", text: "Die soziale Zwei sucht ihren Stolz über öffentliche Unentbehrlichkeit: Sie ist die Person, die im Verein, in der Nachbarschaft, im Kollegenkreis für alles ansprechbar ist, die nie „Nein“ sagt, weil Gebrauchtwerden ihre stärkste Bestätigung ist. Chronische Überlastung entsteht hier weniger durch stille Selbstverleugnung im Privaten als durch die schiere Zahl an Verpflichtungen, die sich unbemerkt aufsummieren – eine Erschöpfungsform, die dem sogenannten Helfersyndrom nahesteht und sich oft erst zeigt, wenn buchstäblich niemand mehr da ist, der ihr hilft, während sie allen anderen hilft." },
           { code: "SX2", text: "Die sexuelle Zwei sucht Stolz nicht über die Masse, sondern über die eine, unwiderstehliche Wirkung auf einen einzigen Menschen – Verführung, intensive Aufmerksamkeit, ein Geben, das schnell possessive Züge annehmen kann, weil die eigene Bedeutung an dieser einen Bindung hängt. Emotionale Volatilität, Eifersucht und die ständige, unausgesprochene Frage „Bin ich noch genug?“ wirken hier als eigenständiger Dauerstressor – kardiologisch relevant weniger über klassische Erschöpfung durch Überarbeitung, sondern über die episodischen, aber intensiven Stressspitzen einer Beziehung, die nie ganz zur Ruhe kommt." },
         ],
@@ -95347,7 +95347,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Neid – wenn Sehnsucht statt Wut das Herz belastet",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp innerhalb der Vieren, zeigt selten das erwartete dramatische Leiden – sie funktioniert, kümmert sich, hält durch, oft über Jahrzehnte, während innerlich eine tiefe, nie eingestandene Sehnsucht nach dem eigentlichen, authentischen Leben mitläuft. Die Verbindung zum Herzinfarkt-Muster liegt hier weniger in offener Wut als in chronisch unterdrückter Trauer: ein Leben, das leise und pflichtbewusst weiterläuft, während im Inneren viel unausgesprochen bleibt und sich als stille, nie thematisierte Last auf das Herz legt." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden dagegen sichtbar – es wird Teil dessen, wie sie sich der Gruppe zeigt, manchmal fast wie ein Ausweis besonderer Tiefe. Diese dramatische emotionale Intensität findet damit tatsächlich ein Ventil nach außen, was der stillen, verborgenen Selbstüberforderung anderer Subtypen entgegenwirkt – kardiologisch relevant zeigt sich die Belastung hier trotzdem, aber eher in Phasen ausgeprägter Erschöpfung nach emotionalen Hochphasen als in der gleichmäßigen, chronisch verdeckten Anspannung, wie sie das klassische Typ-A-Muster beschreibt." },
+          { code: "SO4", text: "Die soziale Vier trägt ihren Schmerz nach außen, spricht offen über Erschöpfung und Überforderung, statt sie hinter einer Fassade zu verbergen – dieser Ausdruck wirkt wie ein Sicherheitsventil, das dem Herzen zumindest einen Teil des Drucks nimmt, den die stille Erschöpfung anderer Subtypen ungebremst ansammelt. Kardiologisch zeigt sich die Belastung trotzdem, aber eher in Phasen ausgeprägter Erschöpfung nach emotionalen Hochphasen als in der gleichmäßigen, chronisch verdeckten Anspannung, wie sie das klassische Typ-A-Muster beschreibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der einen Beziehung, oft begleitet von einem ständigen, quälenden Vergleich – mit früheren Partnern, mit einem imaginierten Ideal, mit dem, was die Liebe sein könnte, aber gerade nicht ist. Heftige emotionale Ausschläge und eine potenziell konfliktreiche, auf-und-ab-Beziehungsdynamik sind hier der wahrscheinlichere Belastungsfaktor als eine stille Dauerspannung – das Herz wird weniger durch andauernden Druck als durch wiederkehrende, intensive emotionale Erschütterungen beansprucht." },
         ],
       },
@@ -95415,7 +95415,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn, der sich zu Ablagerungen verdichtet",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält den eigenen Ärger über Jahrzehnte diszipliniert unter Kontrolle – nichts darf nach außen dringen, alles bleibt innerlich verwaltet, geordnet, gerechtfertigt. Typisch ist die Person, die sich noch bei der zehnten Zurücksetzung im Leben höflich bedankt, während innerlich längst ein Register geführt wird. Genau diese Dauerverwaltung von Spannung, die nie eine echte Entladung findet, liest die Psychosomatik als plausibles Sinnbild für einen Prozess, der sich Schicht für Schicht in den Gefäßwänden ablagert: nicht ein einzelner Schock, sondern die stille, jahrzehntelange Summe unzähliger kleiner, nie gelöster Spannungsmomente." },
+      { code: "SE1", text: "Nichts darf nach außen dringen: Der Ärger der selbsterhaltenden Eins bleibt über Jahrzehnte innerlich verwaltet, geordnet, gerechtfertigt. Typisch ist die Person, die sich noch bei der zehnten Zurücksetzung im Leben höflich bedankt, während innerlich längst ein Register geführt wird. Genau diese Dauerverwaltung von Spannung, die nie eine echte Entladung findet, liest die Psychosomatik als plausibles Sinnbild für einen Prozess, der sich Schicht für Schicht in den Gefäßwänden ablagert: nicht ein einzelner Schock, sondern die stille, jahrzehntelange Summe unzähliger kleiner, nie gelöster Spannungsmomente." },
           { code: "SO1", text: "Die soziale Eins verwandelt Ärger in moralisches Engagement für die Gruppe – der Zorn bekommt ein Ventil in Worten, Reformwillen und dem Gefühl, für das Richtige zu kämpfen. Doch das zugrunde liegende Gefühl, dass die Welt permanent korrigiert werden muss, dass immer irgendwo etwas nicht in Ordnung ist, bleibt ein chronischer, nie ganz gelöster innerer Spannungszustand. Anders als bei der selbsterhaltenden Variante liegt die Last hier weniger in unterdrückter persönlicher Wut als in der schieren Dauerhaftigkeit eines Kampfes, der nie endgültig gewonnen werden kann." },
           { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – ein scharfes Wort, ein enttäuschter Blick, die unmissverständliche Ansage, wenn etwas nicht ihren Vorstellungen entspricht. Dadurch entsteht potenziell weniger stille Dauerverhärtung als bei den anderen beiden Varianten, dafür aber wiederkehrende Episoden intensiver emotionaler Anspannung in genau jener Beziehung, die eigentlich Rückzugsort sein sollte – Episoden, die sich über die Jahre kumulieren können, auch wenn jede einzelne für sich genommen vorübergeht." },
         ],
@@ -95423,7 +95423,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Stolz, der niemanden hereinlässt",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei verdrängt eigene Bedürfnisse über Jahrzehnte zugunsten anderer – ein stilles, nie geäußertes Geben, bei dem buchstäblich nichts zurückfließt, weil sie sich selbst das Bitten um Gegenleistung verbietet. Dieses einseitige, nie erwiderte Strömen lässt sich psychosomatisch unmittelbar als Bild für Gefäße lesen, die sich verengen, weil der Kreislauf von Geben und Nehmen über eine ganze Lebensspanne hinweg aus dem Gleichgewicht ist: Ein System, das dauerhaft nur in eine Richtung fließt, verliert irgendwann die Elastizität, die für gesunden Austausch nötig wäre." },
+      { code: "SE2", text: "Buchstäblich nichts fließt zurück, weil sie sich selbst das Bitten um Gegenleistung verbietet: So verdrängt die selbsterhaltende Zwei eigene Bedürfnisse über Jahrzehnte zugunsten anderer. Dieses einseitige, nie erwiderte Strömen lässt sich psychosomatisch unmittelbar als Bild für Gefäße lesen, die sich verengen, weil der Kreislauf von Geben und Nehmen über eine ganze Lebensspanne hinweg aus dem Gleichgewicht ist: Ein System, das dauerhaft nur in eine Richtung fließt, verliert irgendwann die Elastizität, die für gesunden Austausch nötig wäre." },
           { code: "SO2", text: "Die soziale Zwei sucht Bedeutung über permanente Verfügbarkeit für die Gemeinschaft – sie ist diejenige, die immer erreichbar ist, die nie absagt, deren Selbstwert direkt daran hängt, gebraucht zu werden. Die Unfähigkeit, Nein zu sagen, erzeugt so eine chronische Überlastung, die sich über Jahre zu einer stillen Dauerbelastung des gesamten Kreislaufsystems verdichten kann – nicht durch einen dramatischen Moment, sondern durch die schiere Anzahl an Verpflichtungen, die sich nie wirklich erschöpft, weil immer noch jemand da ist, der sie braucht." },
           { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – Aufmerksamkeit, Fürsorge, das ständige Bemühen, für den geliebten Menschen unentbehrlich zu sein. Emotionale Volatilität und Eifersucht wirken hier eher als episodische Belastungsspitzen denn als gleichmäßige Dauerverengung: Phasen intensiver Nähe wechseln sich mit Phasen der Angst ab, nicht genug zu sein, was das Gefäßsystem eher in Wellen als in konstantem Druck beansprucht." },
         ],
@@ -95440,7 +95440,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die sich festsetzt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahrzehnte unausgesprochene Sehnsucht, die sich nie in Bewegung, sondern nur in innerer Verhärtung entlädt. Sie funktioniert nach außen unauffällig, fast tapfer, während innerlich ein tiefes Gefühl des Andersseins, des Nicht-ganz-Dazugehörens mitläuft, das nie Raum bekommt, sich zu zeigen oder zu lösen. Dieses stille Tragen ohne Ventil passt zum Bild einer Ablagerung, die sich Schicht für Schicht verfestigt, weil sie nie an die Oberfläche darf." },
-          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar und zum Teil der eigenen Identität – sie zeigt sich der Gruppe als die Empfindsame, die Tiefgründige, deren Schmerz sichtbar und damit auch mitteilbar ist. Die emotionale Intensität findet zumindest ein Ventil nach außen, wodurch die stille Verfestigung hier weniger ausgeprägt sein kann als beim Kontratyp: Der Ausdruck selbst wirkt bereits teilweise entlastend, auch wenn das zugrunde liegende Gefühl der Sehnsucht bestehen bleibt." },
+          { code: "SO4", text: "Wo andere Subtypen ihre Erschöpfung verbergen, stellt die soziale Vier ihre Verletzlichkeit offen zur Schau, macht sie fast zu einem Teil ihrer Identität in der Gruppe – dieses Zeigen ist zugleich ein Ventil: Die Anspannung staut sich weniger lange an, weil sie regelmäßig einen Ausweg findet. Die zugrunde liegende Sehnsucht nach Vollständigkeit bleibt trotzdem bestehen, auch wenn sie hier immerhin ausgesprochen wird." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – nichts fühlt sich je vollständig genug an, immer schwingt die Ahnung mit, dass es woanders intensiver, echter, tiefer sein könnte. Heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige, lautlose Verhärtung: Die Gefäße erleben weniger konstanten Druck als wiederkehrende, intensive emotionale Wellen." },
         ],
       },
@@ -95508,7 +95508,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn, der gar nicht erst zu Druck aufgebaut wird",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält jede Regung von Ärger diszipliniert unter Kontrolle – nichts darf sichtbar werden, selbst der kleinste Anflug von Wut wird sofort ins innere Regelwerk einsortiert und neutralisiert. Sie ist die Person, die auch bei himmelschreiender Ungerechtigkeit ruhig bleibt, während innerlich ein Druckkessel unter Volllast arbeitet. Genau dieses konsequente Zurückhalten, ohne je ein Ventil zu finden, liest die Psychosomatik als eines der plausibelsten Bilder für einen chronisch erhöhten inneren Druck, der sich nie entladen darf – der Blutdruck als messbares Echo einer Kontrolle, die keine Ausnahme kennt." },
+      { code: "SE1", text: "Selbst der kleinste Anflug von Wut wird bei der selbsterhaltenden Eins sofort ins innere Regelwerk einsortiert und neutralisiert, nichts darf sichtbar werden. Sie ist die Person, die auch bei himmelschreiender Ungerechtigkeit ruhig bleibt, während innerlich ein Druckkessel unter Volllast arbeitet. Genau dieses konsequente Zurückhalten, ohne je ein Ventil zu finden, liest die Psychosomatik als eines der plausibelsten Bilder für einen chronisch erhöhten inneren Druck, der sich nie entladen darf – der Blutdruck als messbares Echo einer Kontrolle, die keine Ausnahme kennt." },
           { code: "SO1", text: "Die soziale Eins verwandelt Ärger in moralisches Engagement für die Gruppe – ein Teil des Drucks findet ein Ventil in Worten und Reformwillen, doch die Grundspannung, dass die Welt permanent korrigiert werden muss, bleibt bestehen. Sie kämpft für Gerechtigkeit, für bessere Regeln, für das, was richtig ist – und trägt dabei die Last, dass diese Arbeit nie fertig wird, weil immer irgendwo noch etwas nicht stimmt." },
           { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – dadurch potenziell weniger chronischer Dauerdruck, dafür wiederkehrende, episodische Drucksteigerungen in intensiven Momenten. Ein enttäuschender Blick, eine unausgesprochene Erwartung, und binnen Sekunden ist die Spannung spürbar da – kurz, heftig, aber immerhin mit einem Ventil, das den anderen beiden Varianten fehlt." },
         ],
@@ -95516,7 +95516,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Stolz, der niemanden um Hilfe bittet",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten – stille Selbstaufopferung, bei der die eigene Erschöpfung nie ausgesprochen wird, weil das Bitten um Hilfe sich anfühlt wie ein Eingeständnis von Schwäche. Ein System, das dauerhaft mehr gibt, als es empfängt, gerät leicht selbst unter erhöhten Druck: Sie versorgt alle um sich herum, während sie selbst innerlich zunehmend unter Spannung steht, ohne dass es je jemand bemerkt – auch sie selbst nicht." },
+      { code: "SE2", text: "Das Bitten um Hilfe fühlt sich für die selbsterhaltende Zwei an wie ein Eingeständnis von Schwäche – ihre Erschöpfung bleibt deshalb in stiller Selbstaufopferung meist unausgesprochen. Ein System, das dauerhaft mehr gibt, als es empfängt, gerät leicht selbst unter erhöhten Druck: Sie versorgt alle um sich herum, während sie selbst innerlich zunehmend unter Spannung steht, ohne dass es je jemand bemerkt – auch sie selbst nicht." },
           { code: "SO2", text: "Die soziale Zwei sucht Bedeutung über permanente Verfügbarkeit für die Gemeinschaft – die Unfähigkeit, Nein zu sagen, erzeugt eine chronische Überlastung, die sich über Jahre zu einer stillen Dauerbelastung des gesamten Kreislaufsystems verdichten kann. Sie sagt immer zu, auch wenn der Terminkalender längst überquillt, weil das Gefühl, gebraucht zu werden, wichtiger ist als das eigene Wohlergehen." },
           { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – emotionale Volatilität und Eifersucht erzeugen hier eher episodische Drucksteigerungen als eine gleichmäßige Dauerspannung. Die Frage, ob sie noch genug ist, ob der geliebte Mensch sich nicht doch abwendet, treibt den inneren Druck in Wellen hoch, die so schnell kommen, wie sie wieder abklingen können." },
         ],
@@ -95533,7 +95533,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die sich als Anspannung festsetzt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht, die sich nie in Worte, sondern nur in innerer Anspannung entlädt. Sie funktioniert pflichtbewusst, fast unauffällig, während innerlich ein tiefes Gefühl des Nicht-ganz-Angekommenseins mitläuft, das nie Raum bekommt, sich zu äußern." },
-          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar und zum Teil der eigenen Identität – die emotionale Intensität findet zumindest ein Ventil nach außen, wodurch der innere Druck hier weniger verdeckt bleibt als beim Kontratyp. Sie zeigt ihre Verletzlichkeit, spricht über ihre Kämpfe, und dieser Ausdruck selbst wirkt bereits teilweise entlastend." },
+          { code: "SO4", text: "Die soziale Vier lässt ihre innere Anspannung selten lange unbemerkt – sie zeigt Verletzlichkeit, spricht über ihre Kämpfe, sucht in der Gruppe Resonanz für das eigene Leiden. Dieser fortlaufende Ausdruck kann verhindern, dass sich der innere Druck so unbemerkt aufbaut wie bei stiller gehaltenen Subtypen, auch wenn die zugrunde liegende Sehnsucht selbst davon unberührt bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige Dauerspannung. Der innere Druck steigt und fällt mit der Intensität des Gefühlslebens, statt sich als konstante Grundspannung zu halten." },
         ],
       },
@@ -95601,7 +95601,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn, der die eigene Kraft über Jahre aufgebraucht hat",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält jahrzehntelang eine innere Kontrolle aufrecht, die enorme Kraft bindet, ohne je zu ruhen – jede Regung wird geprüft, jede Abweichung vom eigenen Regelwerk sofort korrigiert. Diese Dauerdisziplin, die nie Erholung zulässt, liest die Psychosomatik als plausibles Bild für eine Kraftquelle, die sich über Jahre unbemerkt erschöpft: Anders als beim akuten Zusammenbruch geht hier nichts plötzlich kaputt, sondern die Substanz schwindet Stück für Stück, während die Fassade makellos bleibt." },
+      { code: "SE1", text: "Jede Regung wird geprüft, jede Abweichung vom eigenen Regelwerk sofort korrigiert: Die selbsterhaltende Eins hält jahrzehntelang eine innere Kontrolle aufrecht, die enorme Kraft bindet, ohne je zu ruhen. Diese Dauerdisziplin, die nie Erholung zulässt, liest die Psychosomatik als plausibles Bild für eine Kraftquelle, die sich über Jahre unbemerkt erschöpft: Anders als beim akuten Zusammenbruch geht hier nichts plötzlich kaputt, sondern die Substanz schwindet Stück für Stück, während die Fassade makellos bleibt." },
           { code: "SO1", text: "Die soziale Eins investiert ihre Energie fortlaufend in die moralische Verbesserung der Gruppe – das Engagement gibt dem Ärger ein Ventil, zehrt aber gleichzeitig kontinuierlich an den eigenen Reserven, ohne dass dies je als Erschöpfung benannt wird. Sie kämpft für eine bessere Welt und merkt dabei kaum, wie viel von ihrer eigenen Kraft in diesem endlosen Ringen um Verbesserung aufgeht." },
           { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – dadurch potenziell weniger chronische Dauererschöpfung, dafür wiederkehrende, intensive Kraftanstrengungen in emotional aufgeladenen Momenten. Jeder Konflikt, jede Versöhnung kostet volle Hingabe, sodass die Erschöpfung hier eher in Wellen als in gleichmäßiger Auszehrung kommt." },
         ],
@@ -95609,7 +95609,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Stolz, der sich selbst leer gegeben hat",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten – ein stilles, nie erwidertes Geben über Jahrzehnte. Ein Herz, das immer nur gibt und nie empfängt, ist psychosomatisch eines der unmittelbarsten Bilder für eine allmählich erschöpfte Kraftquelle: Sie sorgt für alle um sich herum, während niemand – sie selbst eingeschlossen – je fragt, wer für sie sorgt." },
+      { code: "SE2", text: "Ein stilles, nie erwidertes Geben über Jahrzehnte prägt die selbsterhaltende Zwei, die den Satz „Ich brauche niemanden“ am wörtlichsten lebt. Ein Herz, das immer nur gibt und nie empfängt, ist psychosomatisch eines der unmittelbarsten Bilder für eine allmählich erschöpfte Kraftquelle: Sie sorgt für alle um sich herum, während niemand – sie selbst eingeschlossen – je fragt, wer für sie sorgt." },
           { code: "SO2", text: "Die soziale Zwei sucht Bedeutung über permanente Verfügbarkeit für die Gemeinschaft – die Unfähigkeit, Nein zu sagen, führt über Jahre zu einer schleichenden, nie eingestandenen Auszehrung der eigenen Kraft. Sie ist für alle da, gerade weil das Gebrauchtwerden ihr das Gefühl gibt, wertvoll zu sein – bis die Substanz, die sie dafür verausgabt, irgendwann nicht mehr nachwächst." },
           { code: "SX2", text: "Die sexuelle Zwei investiert intensives, oft possessives Geben in die eine Beziehung – die Erschöpfung entsteht hier eher episodisch, in Phasen besonders intensiver emotionaler Investition, als gleichmäßig über die Jahre. Sie gibt sich in kurzen, hochintensiven Phasen fast vollständig hin, was punktuell mehr auszehrt als konstant." },
         ],
@@ -95626,7 +95626,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die die Kraft langsam auszehrt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht kann sich als stille, nie thematisierte Erschöpfung im Körper niederschlagen. Sie funktioniert nach außen tapfer, während innerlich ein tiefes Gefühl der Unerfülltheit an ihrer Substanz zehrt, ohne dass es je einen Namen bekommt." },
-          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar und zum Teil der eigenen Identität – die emotionale Intensität findet zumindest ein Ventil nach außen, was der reinen körperlichen Auszehrung möglicherweise entgegenwirkt. Ihr Ausdruck von Schmerz ist zugleich ein Stück Selbstfürsorge, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier identifiziert sich stark mit ihrem Schmerz und trägt ihn sichtbar in die Gemeinschaft – dieses Zurschaustellen ist zugleich ein Stück Selbstfürsorge, weil es verhindert, dass die eigene Erschöpfung völlig unbemerkt bleibt. Anders als bei stillen Subtypen findet die Auszehrung hier wenigstens einen Resonanzraum, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Kraftanstrengungen prägen hier das Bild eher als eine gleichmäßige Auszehrung. Jede Beziehungskrise wird mit voller emotionaler Wucht durchlebt, was punktuell erschöpft, statt gleichmäßig zu zehren." },
         ],
       },
@@ -95694,7 +95694,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn, der den Takt durcheinanderbringt, sobald die Kontrolle kippt",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält den eigenen Rhythmus über strikte Routine, feste Abläufe, akribische Kontrolle des Alltags zusammen – solange dieses selbstgebaute Korsett hält, wirkt sie ruhig und geordnet. Kippt jedoch etwas außerhalb ihrer Kontrolle, wenn Pläne durchkreuzt werden oder Fehler auftauchen, die sie nicht verhindern konnte, kann genau dieser Kontrollverlust psychosomatisch zum Bild werden für einen Herzschlag, der seinen geordneten Takt verliert: Die äußere Ordnung war nie mehr als eine Stütze für eine innere Unruhe, die bei jeder Störung sofort spürbar wird." },
+      { code: "SE1", text: "Solange das selbstgebaute Korsett aus strikter Routine, festen Abläufen und akribischer Kontrolle hält, wirkt die selbsterhaltende Eins ruhig und geordnet. Kippt jedoch etwas außerhalb ihrer Kontrolle, wenn Pläne durchkreuzt werden oder Fehler auftauchen, die sie nicht verhindern konnte, kann genau dieser Kontrollverlust psychosomatisch zum Bild werden für einen Herzschlag, der seinen geordneten Takt verliert: Die äußere Ordnung war nie mehr als eine Stütze für eine innere Unruhe, die bei jeder Störung sofort spürbar wird." },
           { code: "SO1", text: "Die soziale Eins kämpft unermüdlich für Verbesserung, Gerechtigkeit, die richtige Ordnung der Dinge in ihrer Gemeinschaft – ein Engagement, das viele gleichzeitige Baustellen offen hält und selten wirklich zur Ruhe kommt. Die Vielzahl an Missständen, die sie gleichzeitig im Blick behält und korrigieren möchte, kann sich als ein Zuviel an gleichzeitigen inneren Reizen niederschlagen, das dem eigenen Herzschlag seinen ruhigen Takt nimmt." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch an Perfektion direkt in die Beziehung ein, mit Intensität, oft mit missionarischem Eifer, den anderen verbessern zu wollen – dieser konzentrierte, hochaufgeladene Fokus auf eine einzige Person kann in emotional zugespitzten Momenten zu plötzlichen, heftigen inneren Ausschlägen führen, die sich als ein aus dem Takt geratener Herzschlag zeigen, statt als gleichmäßige Dauerbelastung." },
         ],
@@ -95702,7 +95702,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Zerstreute Zuwendung, die den eigenen Rhythmus verliert",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei kümmert sich, oft im Stillen, um sehr viele verschiedene Menschen und Aufgaben gleichzeitig – ein permanentes inneres Jonglieren zwischen den Bedürfnissen anderer, das kaum je zur Ruhe kommt. Diese Zersplitterung der eigenen Aufmerksamkeit auf unzählige gleichzeitige Fürsorgeaufgaben liest die Psychosomatik als plausibles Bild für einen Herzrhythmus, der seinen geordneten Takt an zu viele gleichzeitige Anforderungen verliert." },
+      { code: "SE2", text: "Ein permanentes inneres Jonglieren zwischen den Bedürfnissen anderer, das kaum je zur Ruhe kommt: So kümmert sich die selbsterhaltende Zwei, oft im Stillen, um sehr viele verschiedene Menschen und Aufgaben gleichzeitig. Diese Zersplitterung der eigenen Aufmerksamkeit auf unzählige gleichzeitige Fürsorgeaufgaben liest die Psychosomatik als plausibles Bild für einen Herzrhythmus, der seinen geordneten Takt an zu viele gleichzeitige Anforderungen verliert." },
           { code: "SO2", text: "Die soziale Zwei ist für die gesamte Gruppe verfügbar, springt von einer Bitte zur nächsten, hält den Überblick über die Bedürfnisse vieler zugleich – ein Leben, das strukturell kaum Raum für den eigenen, ruhigen Takt lässt. Sie reagiert auf jeden Ruf, jede Anfrage, jede stille Erwartung, bis der eigene innere Rhythmus in der schieren Menge untergeht." },
           { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre gesamte Zuwendung auf die eine geliebte Person, oft mit verführerischer Intensität – dieser fokussierte, aber sehr intensive Einsatz kann in Phasen emotionaler Zuspitzung, etwa bei drohendem Verlust der Aufmerksamkeit des anderen, zu plötzlichen, heftigen inneren Ausschlägen führen." },
         ],
@@ -95719,7 +95719,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Gefühlsflut, die den geordneten Takt sprengt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält innere Gefühlsstürme meist zurück und funktioniert nach außen erstaunlich beherrscht – doch genau diese unterdrückte, nie kanalisierte emotionale Intensität kann sich psychosomatisch als ein plötzlich aus dem Takt geratener Herzschlag entladen, wenn der innere Druck irgendwann die äußere Fassade übersteigt." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar, teilt intensive Gefühle offen mit der Gruppe – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das dem inneren Chaos zumindest teilweise eine Richtung gibt, auch wenn die zugrunde liegende emotionale Überflutung selbst bestehen bleibt und den eigenen Takt weiterhin gefährdet." },
+          { code: "SO4", text: "Die soziale Vier teilt intensive Gefühle offen mit der Gruppe, lässt niemanden im Unklaren über ihren inneren Zustand – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das dem inneren Chaos zumindest teilweise eine Richtung gibt, auch wenn die zugrunde liegende emotionale Überflutung selbst bestehen bleibt und den eigenen Takt weiterhin gefährdet." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung – genau diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Herzrhythmus, der in emotional zugespitzten Momenten seinen geordneten Takt verliert und ins Chaotische kippt." },
         ],
       },
@@ -95787,7 +95787,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn, der die eigene Belastungsgrenze verleugnet",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins arbeitet konsequent bis an die eigene Leistungsgrenze und darüber hinaus – Pausen gelten als Nachlässigkeit, Erschöpfung als etwas, das man mit genug Disziplin überwinden kann. Genau dieses beharrliche Übergehen der eigenen körperlichen Warnsignale liest die Psychosomatik als plausibles Bild für die Angina pectoris: einen Schmerz, der bei einer bestimmten Belastungsschwelle zuverlässig Einspruch erhebt, weil die Person selbst diesen Einspruch nie freiwillig äußern würde." },
+      { code: "SE1", text: "Pausen gelten als Nachlässigkeit, Erschöpfung als etwas, das man mit genug Disziplin überwinden kann – so arbeitet die selbsterhaltende Eins konsequent bis an die eigene Leistungsgrenze und darüber hinaus. Genau dieses beharrliche Übergehen der eigenen körperlichen Warnsignale liest die Psychosomatik als plausibles Bild für die Angina pectoris: einen Schmerz, der bei einer bestimmten Belastungsschwelle zuverlässig Einspruch erhebt, weil die Person selbst diesen Einspruch nie freiwillig äußern würde." },
           { code: "SO1", text: "Die soziale Eins setzt sich unermüdlich für die Verbesserung ihrer Gemeinschaft ein, oft über die eigenen Kräfte hinaus, weil das Gefühl, noch nicht genug getan zu haben, kaum je nachlässt. Diese permanente selbstauferlegte Überforderung im Dienst einer höheren Sache kann sich als eine körperliche Grenze zeigen, die sich immer wieder meldet, sobald der moralische Anspruch das eigene Leistungsvermögen übersteigt." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Verbesserungsanspruch mit voller Intensität in die eine Beziehung ein – der Wunsch, den geliebten Menschen und sich selbst zugleich zu vervollkommnen, erzeugt punktuelle, aber sehr heftige innere Anspannungsspitzen, die sich eher in akuten Belastungsmomenten als in gleichmäßiger Dauerüberforderung zeigen." },
         ],
@@ -95795,7 +95795,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Grenzenloses Geben, das die eigene Grenze übersieht",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei gibt im Verborgenen, oft ohne je um etwas zu bitten, weit über die eigene Kapazität hinaus – die Vorstellung, eine eigene Belastungsgrenze zu haben, widerspricht ihrem Selbstbild fundamental. Ein Schmerz, der genau bei dieser überschrittenen Grenze zuverlässig auftritt, kann psychosomatisch als der Körper gelesen werden, der eine Grenze markiert, die die Person selbst nie anerkennen würde." },
+      { code: "SE2", text: "Die Vorstellung, eine eigene Belastungsgrenze zu haben, widerspricht dem Selbstbild der selbsterhaltenden Zwei fundamental – sie gibt im Verborgenen, oft ohne je um etwas zu bitten, weit über die eigene Kapazität hinaus. Ein Schmerz, der genau bei dieser überschrittenen Grenze zuverlässig auftritt, kann psychosomatisch als der Körper gelesen werden, der eine Grenze markiert, die die Person selbst nie anerkennen würde." },
           { code: "SO2", text: "Die soziale Zwei steht der gesamten Gemeinschaft zur Verfügung und übernimmt fortlaufend neue Aufgaben, ohne je die eigene Erschöpfung offen einzugestehen – ein Leben, das strukturell keine anerkannte Belastungsgrenze kennt. Die Angina pectoris kann hier wie ein Signal wirken, das genau dort ansetzt, wo die soziale Verpflichtung die eigene Kraft überschreitet." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich mit großer Intensität in die eine Beziehung, verausgabt sich in einzelnen, hochemotionalen Phasen fast vollständig – die punktuelle Anspannung solcher Beziehungsmomente kann sich körperlich eher als plötzlicher, akuter Druck zeigen denn als schleichend akkumulierte Dauerüberforderung." },
         ],
@@ -95812,7 +95812,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Emotionale Wucht, die die körperliche Grenze überschreitet",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid meist zäh und nach außen kontrolliert – diese unterdrückte emotionale Wucht kann sich, statt einen Ausdruck zu finden, körperlich als ein Schmerz zeigen, der genau dann auftritt, wenn die innere Anspannung eine bestimmte Schwelle überschreitet." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden öffentlich sichtbar und findet darin zumindest teilweise ein Ventil – der Ausdruck der eigenen emotionalen Intensität kann helfen, die innere Belastung nicht ausschließlich körperlich austragen zu müssen, auch wenn die zugrunde liegende Sehnsucht nach Vollständigkeit bestehen bleibt." },
+          { code: "SO4", text: "Anders als viele andere Subtypen hält die soziale Vier ihre Belastungsgrenze nicht geheim – sie spricht über Erschöpfung, zeigt sich verletzlich vor der Gruppe, findet darin zumindest teilweise ein Ventil. Der Ausdruck der eigenen emotionalen Intensität kann helfen, die innere Belastung nicht ausschließlich körperlich austragen zu müssen, auch wenn die zugrunde liegende Sehnsucht nach Vollständigkeit bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Nähe und Verzweiflung – gerade diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Schmerz, der in emotional zugespitzten Momenten seine eigene, unsichtbare Grenze markiert." },
         ],
       },
@@ -95880,7 +95880,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Pflichtlast, die sich staut, weil Loslassen wie Nachlässigkeit wirkt",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins trägt Verantwortung und Pflichten oft über Jahre still weiter, ohne sich je bewusst zu entlasten – Loslassen fühlt sich wie ein Kontrollverlust an, den sie sich nicht gestattet. Genau dieses Muster, eine Last zu tragen, ohne sie je wirklich abzugeben, liest die Psychosomatik als naheliegendes Bild für Krampfadern: ein Rückfluss, der nie stattfindet, weil das System darauf ausgelegt ist, alles festzuhalten." },
+      { code: "SE1", text: "Loslassen fühlt sich wie ein Kontrollverlust an, den sich die selbsterhaltende Eins nicht gestattet – Verantwortung und Pflichten werden deshalb oft über Jahre still weitergetragen, ohne sich je bewusst zu entlasten. Genau dieses Muster, eine Last zu tragen, ohne sie je wirklich abzugeben, liest die Psychosomatik als naheliegendes Bild für Krampfadern: ein Rückfluss, der nie stattfindet, weil das System darauf ausgelegt ist, alles festzuhalten." },
           { code: "SO1", text: "Die soziale Eins übernimmt fortlaufend neue Aufgaben im Dienst einer besseren Gemeinschaft, ohne alte je bewusst abzuschließen – ein Berg an moralischer Verantwortung, der sich über die Jahre anhäuft, statt sich zu erleichtern. Diese ständig wachsende, nie wirklich abgetragene Last kann sich körperlich als ein Stau im Rückfluss zeigen." },
           { code: "SX1", text: "Die sexuelle Eins investiert ihre Verbesserungsenergie konzentriert in die eine Beziehung, oft mit dem Anspruch, alles perfekt zu regeln – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Anspannung in einzelnen Beziehungsphasen als eine über Jahre gleichmäßig akkumulierte Stauung." },
         ],
@@ -95888,7 +95888,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Geben ohne Rückfluss",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei gibt im Verborgenen, ohne je um etwas zu bitten oder etwas zurückzunehmen – ein einseitiger Fluss, der über Jahrzehnte nie umgekehrt wird. Ein Venensystem, das Blut nur in eine Richtung transportiert und dessen Rückfluss gestört ist, liest sich als eines der unmittelbarsten Bilder für diesen niemals erwiderten Kreislauf des Gebens." },
+      { code: "SE2", text: "Ein einseitiger Fluss, der über Jahrzehnte nie umgekehrt wird: Die selbsterhaltende Zwei gibt im Verborgenen, ohne je um etwas zu bitten oder etwas zurückzunehmen. Ein Venensystem, das Blut nur in eine Richtung transportiert und dessen Rückfluss gestört ist, liest sich als eines der unmittelbarsten Bilder für diesen niemals erwiderten Kreislauf des Gebens." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft und nimmt selten selbst etwas an – dieses strukturelle Ungleichgewicht zwischen Geben und Empfangen kann sich körperlich als ein gestörter Rückfluss zeigen, bei dem die eigene Erleichterung nie eintritt, weil sie schlicht nicht vorgesehen ist." },
           { code: "SX2", text: "Die sexuelle Zwei gibt sich in einzelnen, intensiven Beziehungsphasen fast vollständig hin – diese punktuelle, hochemotionale Investition erzeugt eher lokale, episodische Anspannungsspitzen als eine gleichmäßig über den Alltag verteilte Stauung." },
         ],
@@ -95905,7 +95905,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die nie zur Erleichterung findet",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt ihr Leid zäh und stumm, ohne es je auszudrücken – eine über Jahre unausgesprochene Sehnsucht, die nie ein Ventil findet. Dieses fortgesetzte Zurückhalten kann sich körperlich als eine Stauung zeigen: Gefühle, die nie fließen dürfen, wie Blut, das nie zurückfließt." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das der reinen körperlichen Stauung zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier hält Groll und Enttäuschung selten lange zurück – sie spricht sie aus, trägt sie sichtbar in die Gemeinschaft, statt sie im Verborgenen anzustauen. Dieser regelmäßige Ausdruck kann der reinen körperlichen Stauung zumindest teilweise entgegenwirken, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos in der Beziehung aus – diese heftigen, aber episodischen Ausschläge zwischen Verschmelzung und Verzweiflung erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Stauung." },
         ],
       },
@@ -95973,7 +95973,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Starre Prinzipien, die zur unbeweglichen Blockade werden",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält an einmal festgelegten Regeln und Abläufen fest, auch wenn die Situation längst eine Anpassung verlangen würde – aus einer anfänglichen, gesunden Disziplin kann über Jahre eine starre Unbeweglichkeit werden, die keine Ausnahme mehr zulässt. Genau diese Erstarrung, ein Prinzip, das sich nicht mehr bewegt, liest die Psychosomatik als naheliegendes Bild für die Thrombose: aus dem bloßen Stau wird ein fester, nicht mehr auflösbarer Block." },
+      { code: "SE1", text: "Aus einer anfänglichen, gesunden Disziplin kann bei der selbsterhaltenden Eins über Jahre eine starre Unbeweglichkeit werden, die keine Ausnahme mehr zulässt – sie hält an einmal festgelegten Regeln und Abläufen fest, auch wenn die Situation längst eine Anpassung verlangen würde. Genau diese Erstarrung, ein Prinzip, das sich nicht mehr bewegt, liest die Psychosomatik als naheliegendes Bild für die Thrombose: aus dem bloßen Stau wird ein fester, nicht mehr auflösbarer Block." },
           { code: "SO1", text: "Die soziale Eins verhärtet sich in ihrem Kampf für die richtige Ordnung zunehmend gegenüber Kompromissen – was als Engagement für Gerechtigkeit begann, kann sich zu einer unbeweglichen moralischen Position verfestigen, die keinen Widerspruch mehr duldet. Diese fortschreitende Erstarrung passt zum Bild einer Blockade, die sich über die Zeit verfestigt hat." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Verbesserungsanspruch mit großer Intensität in die Beziehung ein – in einzelnen zugespitzten Konflikten kann sich diese Haltung kurzfristig zu völliger Unnachgiebigkeit verhärten, wobei die Erstarrung hier eher punktuell auftritt als sich über Jahre gleichmäßig zu verfestigen." },
         ],
@@ -95981,7 +95981,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Zurückgehaltener Groll, der sich verfestigt",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei gibt fortwährend, ohne je etwas zurückzufordern – doch tief im Inneren kann sich über Jahre ein nie ausgesprochener, immer wieder verdrängter Groll ansammeln, der sich schließlich zu einer festen inneren Blockade verhärtet, weil er nie einen Ausdruck finden durfte." },
+      { code: "SE2", text: "Tief im Inneren kann sich bei der selbsterhaltenden Zwei über Jahre ein nie ausgesprochener, immer wieder verdrängter Groll ansammeln, während sie fortwährend gibt, ohne je etwas zurückzufordern. Dieser Groll verhärtet sich schließlich zu einer festen inneren Blockade, weil er nie einen Ausdruck finden durfte." },
           { code: "SO2", text: "Die soziale Zwei stellt sich unermüdlich in den Dienst der Gemeinschaft und verdrängt dabei eigene Enttäuschungen darüber, selten selbst gesehen zu werden – dieser über die Jahre angehäufte, nie benannte Groll kann sich zu einer festen, kaum mehr auflösbaren inneren Blockade verdichten." },
           { code: "SX2", text: "Die sexuelle Zwei erlebt in intensiven Beziehungsphasen oft heftige, aber kurzzeitige emotionale Verhärtungen, etwa bei gefühlter Zurückweisung – diese punktuellen, episodischen Erstarrungen unterscheiden sich von der langsamen, gleichmäßigen Verfestigung anderer Subtypen." },
         ],
@@ -95998,7 +95998,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Erstarrtes Leid, das sich nie löst",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält ihr inneres Leid über Jahre zurück, ohne es je auszudrücken – aus einem lebendigen, fließenden Gefühl kann so eine feste, erstarrte innere Blockade werden, die nie die Chance bekam, sich zu lösen, weil sie nie nach außen durfte." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser fortlaufende Ausdruck nach außen kann verhindern, dass sich das Gefühl zu einer völlig unbeweglichen inneren Blockade verfestigt, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+          { code: "SO4", text: "Wo andere Subtypen ihr Leid stumm mit sich herumtragen, bringt die soziale Vier es fortlaufend zur Sprache, macht es zum Teil ihrer sozialen Präsenz – dieser Ausdruck nach außen kann verhindern, dass sich das Gefühl zu einer völlig unbeweglichen inneren Blockade verfestigt, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, mit heftigen Ausschlägen zwischen Nähe und Verzweiflung – in besonders zugespitzten Momenten kann sich diese Intensität kurzzeitig zu völliger emotionaler Erstarrung verdichten, bevor sie sich wieder löst." },
         ],
       },
@@ -96066,7 +96066,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn, der sich nach innen entlädt, bis er nach außen bricht",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält Zorn über Jahrzehnte konsequent nach innen gerichtet, kontrolliert jede Regung, lässt nie erkennen, wie viel Spannung sich tatsächlich aufbaut. Genau dieses Muster einer über lange Zeit aufgestauten inneren Fülle, die sich irgendwann nicht mehr halten lässt und sich schlagartig entlädt, liest die TCM im Bild des inneren Windes – eine plötzliche, gewaltsame Entladung dessen, was nie einen ruhigen Ausweg finden durfte." },
+      { code: "SE1", text: "Wie viel Spannung sich tatsächlich aufbaut, lässt die selbsterhaltende Eins nie erkennen – sie hält Zorn über Jahrzehnte konsequent nach innen gerichtet und kontrolliert jede Regung. Genau dieses Muster einer über lange Zeit aufgestauten inneren Fülle, die sich irgendwann nicht mehr halten lässt und sich schlagartig entlädt, liest die TCM im Bild des inneren Windes – eine plötzliche, gewaltsame Entladung dessen, was nie einen ruhigen Ausweg finden durfte." },
           { code: "SO1", text: "Die soziale Eins kämpft unermüdlich und mit wachsender innerer Anspannung für die Verbesserung ihrer Gemeinschaft – wird dieser Kampf über Jahre nie durch echte Erfolge oder Anerkennung erleichtert, kann sich die aufgestaute moralische Empörung zu einer inneren Fülle verdichten, die psychosomatisch als plötzliche, dramatische Entladung gelesen wird." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Verbesserungsanspruch mit großer, oft konfrontativer Intensität in die Beziehung ein – diese wiederkehrenden, heftigen Zuspitzungen erzeugen eher episodische innere Drucksteigerungen als eine gleichmäßig über Jahrzehnte akkumulierte Fülle." },
         ],
@@ -96074,7 +96074,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Nie gesagte Bedürftigkeit, die sich schlagartig Bahn bricht",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei verleugnet die eigenen Bedürfnisse über ein ganzes Leben hinweg so konsequent, dass sie selbst kaum noch weiß, was sie eigentlich braucht – diese radikalste Form der Selbstverleugnung unter den 27 Subtypen kann sich als eine innere Fülle ansammeln, die, wenn sie sich löst, besonders dramatisch und plötzlich ausfällt." },
+      { code: "SE2", text: "Diese radikalste Form der Selbstverleugnung unter den 27 Subtypen zeigt sich, wenn die selbsterhaltende Zwei die eigenen Bedürfnisse über ein ganzes Leben hinweg so konsequent verleugnet, dass sie selbst kaum noch weiß, was sie eigentlich braucht. Diese Verleugnung kann sich als eine innere Fülle ansammeln, die, wenn sie sich löst, besonders dramatisch und plötzlich ausfällt." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft, ohne je die eigene Erschöpfung oder den eigenen unerfüllten Wunsch nach Anerkennung auszusprechen – dieser über Jahre nie artikulierte innere Druck kann sich zu einer Fülle verdichten, die sich irgendwann unkontrolliert entlädt." },
           { code: "SX2", text: "Die sexuelle Zwei erlebt in intensiven Beziehungsphasen heftige emotionale Zuspitzungen, wenn ihre Zuwendung nicht erwidert wird – diese punktuellen, episodischen Drucksteigerungen unterscheiden sich von der langsamen, über Jahrzehnte aufgebauten Fülle anderer Subtypen." },
         ],
@@ -96091,7 +96091,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Verstummte Sehnsucht, die sich gewaltsam Ausdruck verschafft",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid über Jahre zäh und stumm, ohne es je auszudrücken – diese fortgesetzte Verleugnung einer eigentlich sehr lebendigen emotionalen Welt kann sich als aufgestaute Fülle zeigen, die sich, wenn sie sich löst, mit besonderer Wucht Bahn bricht, weil sie nie einen anderen Ausweg gefunden hat." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden öffentlich sichtbar und findet darin einen fortlaufenden Ausdruck – dieses Ventil kann helfen, die innere emotionale Fülle über die Jahre eher abzuleiten als anzustauen, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier stellt ihr Leiden bewusst zur Schau, sucht in der Gruppe Resonanz für ihren Schmerz – dieses fortlaufende Ventil kann helfen, die innere emotionale Fülle über die Jahre eher abzuleiten als anzustauen, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung – diese dramatischen, aber ausgelebten Wendungen entladen sich eher fortlaufend als sich über Jahrzehnte zu einer einzigen großen Fülle aufzustauen." },
         ],
       },
@@ -96159,7 +96159,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn, der sich nie als eigene Kraft zeigen durfte",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält Zorn und Antrieb so konsequent unter Kontrolle, dass am Ende oft kaum noch spürbare Energie übrig bleibt, um sich selbst nach außen zu behaupten – die permanente Selbstzügelung verbraucht genau jene Kraft, die eigentlich für den eigenen Auftritt in der Welt gebraucht würde. Ein System, dem es an aufgebautem innerem Druck fehlt, weil dieser Druck ständig gedämpft wurde, passt zum Bild der Hypotonie." },
+      { code: "SE1", text: "Die permanente Selbstzügelung verbraucht bei der selbsterhaltenden Eins genau jene Kraft, die eigentlich für den eigenen Auftritt in der Welt gebraucht würde – Zorn und Antrieb werden so konsequent unter Kontrolle gehalten, dass am Ende oft kaum noch spürbare Energie übrig bleibt, um sich selbst nach außen zu behaupten. Ein System, dem es an aufgebautem innerem Druck fehlt, weil dieser Druck ständig gedämpft wurde, passt zum Bild der Hypotonie." },
           { code: "SO1", text: "Die soziale Eins richtet ihre gesamte Energie auf die Verbesserung der Gemeinschaft, oft ohne je für die eigene Sache, die eigene Position einzustehen – dieses fortgesetzte Zurückstellen der eigenen Interessen zugunsten des Kollektivs kann zu einem chronischen Mangel an selbstbezogenem Antrieb führen." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch mit direkter Intensität in die Beziehung ein – hier fehlt es seltener an Kraft, sich zu behaupten, eher zeigt sich Erschöpfung episodisch, nach besonders intensiven Auseinandersetzungen, als chronischer Mangel an Grundenergie." },
         ],
@@ -96167,7 +96167,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Geben, das die eigene Kraft nie für sich selbst nutzt",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei richtet jede verfügbare Energie auf die Bedürfnisse anderer, ohne je etwas für sich selbst zurückzubehalten – dieses radikale, nie erwiderte Geben kann dazu führen, dass für die eigene Selbstbehauptung schlicht keine Kraft mehr übrig ist. Ein Körper, dem konstant der Antrieb fehlt, sich selbst nach vorne zu bringen, liest sich als naheliegendes Bild für diesen chronischen Mangel." },
+      { code: "SE2", text: "Für die eigene Selbstbehauptung bleibt schlicht keine Kraft mehr übrig, wenn die selbsterhaltende Zwei jede verfügbare Energie auf die Bedürfnisse anderer richtet, ohne je etwas für sich selbst zurückzubehalten. Ein Körper, dem konstant der Antrieb fehlt, sich selbst nach vorne zu bringen, liest sich als naheliegendes Bild für diesen chronischen Mangel." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft und lernt früh, die eigene Bedeutung nur über das Gebrauchtwerden zu erfahren – dieses Muster, den eigenen Wert nie unabhängig von anderen zu behaupten, kann sich als ein fehlender innerer Antrieb zeigen, der eigenen Sache Gewicht zu geben." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Phasen fast vollständig in die eine Beziehung – nach solchen Phasen kann eine spürbare, aber eher vorübergehende Erschöpfung folgen, die punktueller ist als der chronische, gleichmäßig verteilte Kraftmangel anderer Subtypen." },
         ],
@@ -96184,7 +96184,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die die eigene Lebenskraft nach innen zieht",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält ihr inneres Leid zurück und funktioniert nach außen erstaunlich beherrscht – doch die Energie, die es kostet, dieses Leid ständig zu verbergen, kann an anderer Stelle fehlen: der Kraft, sich selbst mit Nachdruck in der Welt zu behaupten." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und identifiziert sich stark damit – diese Identifikation mit dem eigenen Schmerz kann paradoxerweise Energie binden, die für eine kraftvolle Selbstbehauptung im Alltag fehlt, weil der Fokus stärker auf dem Ausdruck des Leids liegt als auf dem eigenen Antrieb." },
+          { code: "SO4", text: "Die soziale Vier bezieht einen Teil ihrer Identität aus dem sichtbar gemachten Leid – diese Identifikation mit dem eigenen Schmerz kann paradoxerweise Energie binden, die für eine kraftvolle Selbstbehauptung im Alltag fehlt, weil der Fokus stärker auf dem Ausdruck des Leids liegt als auf dem eigenen Antrieb." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese Intensität selbst ist eine Form von Kraft, auch wenn sie sich nicht als stabiler, gleichmäßiger Antrieb zeigt, sondern in heftigen Wellen zwischen Aufschwung und Erschöpfung." },
         ],
       },
@@ -96252,7 +96252,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Starre Prinzipien, die keine Abnutzung eingestehen",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins wiederholt über Jahrzehnte dieselben, streng kontrollierten Bewegungsabläufe und Routinen – Abweichung fühlt sich falsch an, Anpassung wie Nachlässigkeit. Genau dieses immer gleiche, nie variierte Muster, das keine Flexibilität zulässt, liest die Psychosomatik als plausibles Bild für die Arthrose: ein Gelenk, das sich abnutzt, weil es nie die Chance bekam, sich auf neue Weise zu bewegen." },
+      { code: "SE1", text: "Abweichung fühlt sich falsch an, Anpassung wie Nachlässigkeit: Über Jahrzehnte wiederholt die selbsterhaltende Eins dieselben, streng kontrollierten Bewegungsabläufe und Routinen. Genau dieses immer gleiche, nie variierte Muster, das keine Flexibilität zulässt, liest die Psychosomatik als plausibles Bild für die Arthrose: ein Gelenk, das sich abnutzt, weil es nie die Chance bekam, sich auf neue Weise zu bewegen." },
           { code: "SO1", text: "Die soziale Eins hält an ihren moralischen Grundsätzen zur Verbesserung der Gemeinschaft mit großer Beharrlichkeit fest, oft ohne sie je zu hinterfragen – diese über Jahre unveränderte innere Haltung kann sich als eine Rigidität zeigen, die sich körperlich in den Gelenken niederschlägt, die ebenso wenig Beweglichkeit zeigen." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Verbesserungsanspruch mit Intensität in die eine Beziehung ein – diese fokussierte, aber wechselhafte Dynamik zwischen Anspruch und Nachgeben erzeugt weniger die gleichmäßige, über Jahrzehnte akkumulierte Reibung, die für Arthrose typisch ist, sondern eher episodische Anspannung." },
         ],
@@ -96260,7 +96260,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Immer gleiches Geben, das keine neue Bewegung zulässt",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei wiederholt über Jahrzehnte dasselbe Muster des stillen, nie erwiderten Gebens, ohne es je zu hinterfragen oder zu verändern – diese unveränderte Rolle, immer für andere da zu sein, kann sich als eine Art körperliche Erstarrung zeigen, bei der die eigene Beweglichkeit zugunsten der immer gleichen Fürsorgehaltung abgenutzt wird." },
+      { code: "SE2", text: "Immer für andere da zu sein, ohne diese Rolle je zu hinterfragen: So wiederholt die selbsterhaltende Zwei über Jahrzehnte dasselbe Muster des stillen, nie erwiderten Gebens. Diese unveränderte Haltung kann sich als eine Art körperliche Erstarrung zeigen, bei der die eigene Beweglichkeit zugunsten der immer gleichen Fürsorgehaltung abgenutzt wird." },
           { code: "SO2", text: "Die soziale Zwei wiederholt in der Gemeinschaft fortlaufend dieselbe Rolle der unermüdlich Verfügbaren, ohne sie je infrage zu stellen – diese über Jahre gleichbleibende Position kann zu einer Rigidität führen, die sich in mangelnder Anpassungsfähigkeit auch auf körperlicher Ebene zeigen kann." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich in wechselnden, intensiven Beziehungsphasen unterschiedlich stark – diese Variabilität steht der starren Wiederholung entgegen, die für Arthrose typisch ist, auch wenn einzelne Phasen selbst sehr fordernd sein können." },
         ],
@@ -96277,7 +96277,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Festgehaltene Sehnsucht, die keine neue Bewegung erlaubt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält an ihrem stillen, zähen Umgang mit Leid über Jahre unverändert fest – dieses immer gleiche innere Muster, nie auszudrücken, was eigentlich gefühlt wird, kann sich als eine Rigidität zeigen, die sich in mangelnder Flexibilität auch auf körperlicher Ebene niederschlägt." },
-          { code: "SO4", text: "Die soziale Vier variiert ihren Ausdruck von Leid und Sehnsucht durchaus, je nach Kontext und Publikum – diese gewisse Beweglichkeit im emotionalen Ausdruck kann der starren, immer gleichen Wiederholung entgegenwirken, die für Arthrose besonders typisch ist." },
+          { code: "SO4", text: "Die soziale Vier hält an keiner starren Rolle fest, zeigt sich der Gruppe mal verletzlich, mal kämpferisch, je nachdem, was die Situation verlangt – diese Beweglichkeit im emotionalen Ausdruck kann der starren, immer gleichen Wiederholung entgegenwirken, die für Arthrose besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Beziehung zu Beziehung, von Moment zu Moment stark verändert – diese hohe emotionale Variabilität steht dem starren, wiederholten Muster entgegen, das die Arthrose psychosomatisch besonders kennzeichnet." },
         ],
       },
@@ -96345,7 +96345,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Pflichtlast, die sich niemand teilen darf",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins trägt die Verantwortung für den korrekten Ablauf des eigenen Lebens über Jahre allein, ohne je Hilfe anzufordern – Unterstützung anzunehmen fühlt sich wie Kontrollverlust an. Genau diese über Jahrzehnte allein getragene Last liest die Psychosomatik als naheliegendes Bild für den Rückenschmerz: ein Rücken, der eine Verantwortung schultert, die eigentlich auf mehr Schultern gehört hätte." },
+      { code: "SE1", text: "Unterstützung anzunehmen fühlt sich für die selbsterhaltende Eins wie Kontrollverlust an – sie trägt die Verantwortung für den korrekten Ablauf des eigenen Lebens deshalb über Jahre allein, ohne je Hilfe anzufordern. Genau diese über Jahrzehnte allein getragene Last liest die Psychosomatik als naheliegendes Bild für den Rückenschmerz: ein Rücken, der eine Verantwortung schultert, die eigentlich auf mehr Schultern gehört hätte." },
           { code: "SO1", text: "Die soziale Eins übernimmt fortlaufend die moralische Verantwortung für die Verbesserung ihrer Gemeinschaft, oft ohne dass diese Last je geteilt wird – dieser wachsende Berg an selbstauferlegter Verantwortung kann sich körperlich als Rückenschmerz zeigen, dort, wo Lasten getragen werden." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch mit Intensität in die eine Beziehung ein, oft mit dem Gefühl, allein für die Richtigkeit der Beziehung verantwortlich zu sein – diese fokussierte, aber punktuelle Last erzeugt eher episodische Anspannung als eine über Jahre gleichmäßig akkumulierte Rückenbelastung." },
         ],
@@ -96353,7 +96353,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Fürsorge, die die eigene Last nie sichtbar macht",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei trägt die Bedürfnisse anderer, ohne je die eigenen zu benennen oder um Entlastung zu bitten – ein Rücken, der buchstäblich alles trägt, was andere brauchen, während die eigene Last nie sichtbar wird, ist psychosomatisch eines der unmittelbarsten Bilder für diesen chronisch unbemerkten Druck." },
+      { code: "SE2", text: "Ein Rücken, der buchstäblich alles trägt, was andere brauchen, während die eigene Last nie sichtbar wird: So trägt die selbsterhaltende Zwei die Bedürfnisse anderer, ohne je die eigenen zu benennen oder um Entlastung zu bitten. Das ist psychosomatisch eines der unmittelbarsten Bilder für diesen chronisch unbemerkten Druck." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft und übernimmt dabei viele Aufgaben gleichzeitig, ohne je Unterstützung einzufordern – diese unsichtbare, nie geteilte Last kann sich körperlich als Rückenschmerz zeigen." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Beziehungsphasen fast vollständig – diese punktuelle, hochemotionale Anstrengung erzeugt eher lokale Belastungsspitzen als eine gleichmäßig über den Alltag verteilte Rückenlast." },
         ],
@@ -96370,7 +96370,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Emotionale Last, die sich nie aufrichten durfte",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm, ohne es je auszudrücken – ein Rücken, der sich unter dieser über Jahre unausgesprochenen Sehnsucht buchstäblich krümmt, kann psychosomatisch als eines der plausibelsten Bilder für diesen niemals abgelegten emotionalen Druck gelesen werden." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das der reinen körperlichen Rückenlast zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier spricht offen über die Lasten, die sie trägt, statt sie schweigend mit sich herumzuschleppen – dieser Ausdruck nach außen kann als Ventil wirken, das der reinen körperlichen Rückenlast zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese heftigen, aber ausgelebten Ausschläge zwischen Nähe und Verzweiflung erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Rückenlast." },
         ],
       },
@@ -96438,7 +96438,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Selbstkritik, die sich gegen den eigenen Körper wendet",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins richtet ihre strenge innere Kritik konsequent gegen sich selbst, prüft jede eigene Regung auf Fehler – diese permanente Selbstverurteilung, nie an äußeren Feinden, sondern an der eigenen Unzulänglichkeit ausgerichtet, liest die Psychosomatik als eines der unmittelbarsten Bilder für die rheumatoide Arthritis: ein Immunsystem, das sich mit derselben Kompromisslosigkeit gegen den eigenen Körper wendet, mit der die Eins sich selbst beurteilt." },
+      { code: "SE1", text: "Nie an äußeren Feinden, sondern an der eigenen Unzulänglichkeit ausgerichtet: So richtet die selbsterhaltende Eins ihre strenge innere Kritik konsequent gegen sich selbst und prüft jede eigene Regung auf Fehler. Diese permanente Selbstverurteilung liest die Psychosomatik als eines der unmittelbarsten Bilder für die rheumatoide Arthritis: ein Immunsystem, das sich mit derselben Kompromisslosigkeit gegen den eigenen Körper wendet, mit der die Eins sich selbst beurteilt." },
           { code: "SO1", text: "Die soziale Eins kämpft nach außen für die Verbesserung ihrer Gemeinschaft, richtet ihren hohen moralischen Anspruch aber auch fortlaufend gegen sich selbst, wenn sie das Gefühl hat, nicht genug getan zu haben – dieser innere Selbstangriff kann sich körperlich als eine Erkrankung zeigen, bei der das System sich selbst als Ziel wählt." },
           { code: "SX1", text: "Die sexuelle Eins richtet ihre Kritik eher nach außen, auf den geliebten Menschen und die Beziehung, als konsequent gegen sich selbst – diese Externalisierung kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis psychosomatisch typisch ist, zumindest teilweise abmildern." },
         ],
@@ -96446,7 +96446,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Verleugnete Bedürftigkeit, die sich gegen den eigenen Körper richtet",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei verleugnet die eigenen Bedürfnisse so konsequent, dass die eigene Fürsorge nie beim eigenen Körper ankommt – dieses radikale Sich-selbst-Übergehen kann sich als ein Immunsystem zeigen, das buchstäblich gegen den eigenen Körper vorgeht, weil es nie gelernt hat, ihn als schützenswert zu behandeln." },
+      { code: "SE2", text: "Die eigene Fürsorge kommt bei der selbsterhaltenden Zwei nie beim eigenen Körper an – sie verleugnet die eigenen Bedürfnisse so konsequent, dass dieses radikale Sich-selbst-Übergehen sich als ein Immunsystem zeigen kann, das buchstäblich gegen den eigenen Körper vorgeht, weil es nie gelernt hat, ihn als schützenswert zu behandeln." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft und übergeht dabei systematisch die eigenen Grenzen – dieser chronische Selbstverzicht zugunsten anderer kann sich körperlich als ein System zeigen, das die eigene Fürsorge konsequent nach außen richtet und dabei sich selbst angreift." },
           { code: "SX2", text: "Die sexuelle Zwei richtet ihre Fürsorge intensiv auf die eine geliebte Person, was zumindest an dieser Stelle eine Form von emotionalem Austausch und Rückfluss ermöglicht – diese fokussierte Zuwendung kann den vollständigen Selbstangriff, der bei anderen Zwei-Varianten möglich ist, etwas abmildern." },
         ],
@@ -96463,7 +96463,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Selbstverurteilung, die aus unerfüllter Sehnsucht entsteht",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält ihr Leid zurück und richtet ihre Enttäuschung über die eigene vermeintliche Unzulänglichkeit oft gegen sich selbst – diese nach innen gerichtete Selbstverurteilung, nie nach außen ausgesprochen, passt besonders genau zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und richtet ihre emotionale Intensität eher nach außen als konsequent gegen sich selbst – dieser Ausdruck kann den vollständigen Selbstangriff, der bei anderen Vier-Varianten möglich ist, etwas abmildern, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier richtet ihre emotionale Intensität eher nach außen als konsequent gegen sich selbst, spricht ihr Leiden offen aus, statt es innerlich zu verurteilen – dieser Ausdruck kann den vollständigen Selbstangriff, der bei anderen Vier-Varianten möglich ist, etwas abmildern, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich stark nach außen richtet, in die Beziehung – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der für rheumatoide Arthritis psychosomatisch besonders typisch ist." },
         ],
       },
@@ -96531,7 +96531,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Selbstdisziplin, die keine Selbstfürsorge kennt",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält über Jahrzehnte strikte Disziplin gegenüber sich selbst aufrecht, achtet penibel auf Regeln und Kontrolle, doch echte, weiche Selbstfürsorge – sich selbst etwas gönnen, sich selbst nähren, ohne es sich verdienen zu müssen – bleibt oft unterentwickelt. Diese über Jahre unsichtbar fehlende innere Nährung liest die Psychosomatik als plausibles Bild für die Osteoporose: eine Substanz, die schwindet, weil sie nie genug Fürsorge erhielt." },
+      { code: "SE1", text: "Echte, weiche Selbstfürsorge – sich selbst etwas gönnen, sich selbst nähren, ohne es sich verdienen zu müssen – bleibt bei der selbsterhaltenden Eins oft unterentwickelt, auch wenn sie über Jahrzehnte strikte Disziplin gegenüber sich selbst aufrechterhält und penibel auf Regeln und Kontrolle achtet. Diese über Jahre unsichtbar fehlende innere Nährung liest die Psychosomatik als plausibles Bild für die Osteoporose: eine Substanz, die schwindet, weil sie nie genug Fürsorge erhielt." },
           { code: "SO1", text: "Die soziale Eins investiert ihre gesamte Energie in die Verbesserung der Gemeinschaft und stellt die eigene Selbstfürsorge dabei konsequent hintan – dieses über Jahrzehnte fortgesetzte Muster, für andere zu sorgen, aber nie für sich selbst, kann sich als eine langsam schwindende innere Substanz zeigen." },
           { code: "SX1", text: "Die sexuelle Eins investiert ihre Energie konzentriert in die eine Beziehung, was zumindest an dieser Stelle einen gewissen emotionalen Austausch und Rückfluss ermöglicht – diese fokussierte Zuwendung kann die vollständig fehlende Selbstfürsorge, die bei anderen Eins-Varianten möglich ist, etwas abmildern." },
         ],
@@ -96539,7 +96539,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Geben, das die eigene Substanz nie auffüllt",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei gibt im Verborgenen, über Jahrzehnte, ohne je etwas zurückzunehmen – ein Leben, das ausschließlich der Fürsorge für andere gewidmet ist, während die eigene innere Substanz nie aufgefüllt wird. Ein Skelett, das über Jahre unbemerkt an Dichte verliert, weil ihm die Nährstoffe fehlen, ist psychosomatisch eines der unmittelbarsten Bilder für diesen niemals erwiderten Fluss." },
+      { code: "SE2", text: "Ein Leben, das ausschließlich der Fürsorge für andere gewidmet ist, während die eigene innere Substanz nie aufgefüllt wird: So gibt die selbsterhaltende Zwei im Verborgenen, über Jahrzehnte, ohne je etwas zurückzunehmen. Ein Skelett, das über Jahre unbemerkt an Dichte verliert, weil ihm die Nährstoffe fehlen, ist psychosomatisch eines der unmittelbarsten Bilder für diesen niemals erwiderten Fluss." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft und vergisst dabei über Jahrzehnte, sich selbst mit derselben Fürsorge zu behandeln, die sie anderen entgegenbringt – dieses strukturelle Ungleichgewicht kann sich als eine langsam schwindende innere Substanz zeigen." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Beziehungsphasen fast vollständig – innerhalb dieser Phasen findet zumindest ein gewisser emotionaler Austausch statt, was der vollständigen, nie erwiderten Auszehrung anderer Zwei-Varianten entgegenwirkt." },
         ],
@@ -96556,7 +96556,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die die eigene Substanz nie satt macht",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, funktioniert nach außen tapfer, während innerlich eine tiefe, nie gestillte Sehnsucht nach Vollständigkeit über Jahre unbemerkt an ihrer Substanz zehrt – dieses stille, nie geäußerte Fehlen kann sich als eine langsam schwindende innere Dichte zeigen, ganz ähnlich der Osteoporose, die sich ebenfalls erst spät zu erkennen gibt." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck, der zumindest teilweise eine Form von Aufmerksamkeit und Zuwendung von außen erzeugt – dies kann der vollständigen, unbemerkten Auszehrung anderer Vier-Varianten etwas entgegenwirken." },
+          { code: "SO4", text: "Die soziale Vier verbirgt ihre innere Leere nicht, sondern zeigt sie – dieser fortlaufende, oft unbewusst wirksame Ausdruck erzeugt zumindest eine Form von Aufmerksamkeit und Zuwendung von außen, was der vollständigen, unbemerkten Auszehrung anderer Vier-Varianten etwas entgegenwirkt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, ein lebendiger, wenn auch wechselhafter Austausch mit dem geliebten Menschen – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, die der stillen Auszehrung anderer Subtypen entgegensteht." },
         ],
       },
@@ -96624,7 +96624,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Diffuse Überlastung, weil Beschwerde keinen Ort finden darf",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält jede Regung von Unzufriedenheit oder Erschöpfung konsequent unter Kontrolle, lässt sie nirgends an einer konkreten Stelle sichtbar werden – ein Schmerz, der sich an keiner einzelnen Struktur festmachen lässt, sondern den ganzen Körper durchzieht, liest sich als naheliegendes Bild für ein System, dem nie erlaubt wurde, seine Überlastung an einem einzigen Ort zu benennen." },
+      { code: "SE1", text: "Nirgends an einer konkreten Stelle sichtbar: So hält die selbsterhaltende Eins jede Regung von Unzufriedenheit oder Erschöpfung konsequent unter Kontrolle. Ein Schmerz, der sich an keiner einzelnen Struktur festmachen lässt, sondern den ganzen Körper durchzieht, liest sich als naheliegendes Bild für ein System, dem nie erlaubt wurde, seine Überlastung an einem einzigen Ort zu benennen." },
           { code: "SO1", text: "Die soziale Eins kämpft unermüdlich für die Verbesserung ihrer Gemeinschaft, verausgabt sich dabei auf vielen gleichzeitigen Baustellen – diese über die gesamte Person verteilte Anspannung, nie an einem Punkt konzentriert, passt zum Bild eines diffusen, überall spürbaren Schmerzes." },
           { code: "SX1", text: "Die sexuelle Eins richtet ihre Intensität konzentriert auf die eine Beziehung – diese Fokussierung auf einen einzigen Bereich steht dem diffusen, über den ganzen Körper verteilten Muster entgegen, das für Fibromyalgie besonders typisch ist." },
         ],
@@ -96632,7 +96632,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Verausgabung, die sich nirgends konkret zeigen darf",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei gibt sich über Jahrzehnte in unzähligen kleinen, unbenannten Gesten auf – eine Erschöpfung, die sich nie an einer Aufgabe, einem Menschen oder einem Moment festmachen lässt, weil sie überall gleichzeitig stattfindet. Ein Körper, der an vielen Stellen zugleich Schmerz meldet, ohne dass sich eine einzelne Ursache finden lässt, passt zu diesem über die ganze Existenz verteilten Geben." },
+      { code: "SE2", text: "Eine Erschöpfung, die sich nie an einer Aufgabe, einem Menschen oder einem Moment festmachen lässt, weil sie überall gleichzeitig stattfindet: So gibt sich die selbsterhaltende Zwei über Jahrzehnte in unzähligen kleinen, unbenannten Gesten auf. Ein Körper, der an vielen Stellen zugleich Schmerz meldet, ohne dass sich eine einzelne Ursache finden lässt, passt zu diesem über die ganze Existenz verteilten Geben." },
           { code: "SO2", text: "Die soziale Zwei stellt sich der gesamten Gemeinschaft zur Verfügung, springt zwischen unzähligen Bitten und Bedürfnissen hin und her – diese über viele gleichzeitige Fürsorgeaufgaben verteilte Erschöpfung, nirgends konzentriert, liest sich als plausibles Bild für einen diffusen, überall spürbaren Schmerz." },
           { code: "SX2", text: "Die sexuelle Zwei konzentriert ihre Zuwendung auf die eine geliebte Person – diese Fokussierung auf einen einzigen Bereich steht dem diffusen, über den ganzen Körper verteilten Erschöpfungsmuster entgegen." },
         ],
@@ -96649,7 +96649,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Unbenannte Gefühlsflut, die sich im ganzen Körper zeigt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält intensive innere Gefühlsstürme zurück und lässt sie nie an einer konkreten Stelle erkennbar werden – diese über den ganzen Körper diffundierte, nie lokalisierte emotionale Wucht passt besonders genau zum Bild der Fibromyalgie: ein Schmerz, der überall spürbar ist, weil er nirgends explizit ausgesprochen werden durfte." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen konkreten, benennbaren Ausdruck – dieser fokussierte Ausdruck steht dem diffusen, über den ganzen Körper verteilten Schmerzmuster entgegen, das eher bei weniger ausgedrückten Formen von Leid auftritt." },
+          { code: "SO4", text: "Die soziale Vier benennt ihren Schmerz konkret, statt ihn diffus im Körper zu verteilen – dieser fokussierte, klar artikulierte Ausdruck steht dem diffusen, über den ganzen Körper verteilten Schmerzmuster entgegen, das eher bei weniger ausgedrückten Formen von Leid auftritt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung – diese fokussierte, wenn auch heftige Intensität konzentriert sich auf einen Bereich, statt sich diffus über den ganzen Körper zu verteilen." },
         ],
       },
@@ -96717,7 +96717,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Festhalten an Kontrolle, bis der Kanal sich verengt",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält an Kontrolle über die Details des eigenen Alltags mit großer Beharrlichkeit fest, greift zu, ordnet, korrigiert – über Jahre wiederholte, feste Handbewegungen, verbunden mit dem Zwang, alles selbst im Griff zu behalten. Genau dieses übermäßige, nie nachlassende Zugreifen liest die Psychosomatik als naheliegendes Bild für das Karpaltunnelsyndrom: ein Kanal, der sich zu eng anfühlt, weil das Greifen nie eine Pause bekommt." },
+      { code: "SE1", text: "Zugreifen, ordnen, korrigieren – über Jahre wiederholte, feste Handbewegungen, verbunden mit dem Zwang, alles selbst im Griff zu behalten: So hält die selbsterhaltende Eins an Kontrolle über die Details des eigenen Alltags mit großer Beharrlichkeit fest. Genau dieses übermäßige, nie nachlassende Zugreifen liest die Psychosomatik als naheliegendes Bild für das Karpaltunnelsyndrom: ein Kanal, der sich zu eng anfühlt, weil das Greifen nie eine Pause bekommt." },
           { code: "SO1", text: "Die soziale Eins packt fortlaufend neue Aufgaben im Dienst der Gemeinschaft an, hält an ihrer moralischen Verantwortung mit großer Beharrlichkeit fest – dieses ständige Zugreifen nach immer neuen Verbesserungsprojekten, ohne Erholung, kann sich als eine überlastete, eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX1", text: "Die sexuelle Eins hält an der einen Beziehung mit großer Intensität fest, greift emotional zu – diese fokussierte, aber punktuelle Intensität erzeugt eher episodische Anspannung als eine über Jahre gleichmäßig wiederholte, mechanische Überlastung der Hand." },
         ],
@@ -96725,7 +96725,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Zupacken für andere, das die eigene Kapazität übersteigt",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei packt fortlaufend Aufgaben für andere an, hält Haushalt und Fürsorge zusammen, oft mit den eigenen Händen – dieses über Jahrzehnte wiederholte Zugreifen für andere, nie für sich selbst, passt besonders genau zum Bild eines Kanals, der sich einengt, weil er nie eine eigene Pause bekommt." },
+      { code: "SE2", text: "Haushalt und Fürsorge zusammenhalten, oft mit den eigenen Händen: Die selbsterhaltende Zwei packt fortlaufend Aufgaben für andere an. Dieses über Jahrzehnte wiederholte Zugreifen für andere, nie für sich selbst, passt besonders genau zum Bild eines Kanals, der sich einengt, weil er nie eine eigene Pause bekommt." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft, greift zu unzähligen Aufgaben gleichzeitig – diese Vielfachbelastung der eigenen Handlungsfähigkeit, nie durch Erholung ausgeglichen, kann sich als eine eingeengte, überlastete Hand zeigen." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Beziehungsphasen fast vollständig – diese punktuelle, hochemotionale Anstrengung erzeugt eher episodische Belastungsspitzen als eine gleichmäßig wiederholte mechanische Überlastung." },
         ],
@@ -96742,7 +96742,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Festhalten an Sehnsucht, die die Hand nicht loslässt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält an ihrem stillen inneren Leid fest, funktioniert nach außen beherrscht, oft mit angespannten, kontrollierten Händen – dieses über Jahre unausgesprochene, aber körperlich festgehaltene Muster kann sich als eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen Ausdruck, der nicht zwangsläufig über mechanische Handbewegungen läuft – dieser emotionale statt körperliche Ausdruck steht der rein mechanischen Überlastung, die für Karpaltunnelsyndrom typisch ist, eher entgegen." },
+          { code: "SO4", text: "Die soziale Vier trägt inneren Schmerz vor allem als emotionalen, nicht als mechanischen Ausdruck in die Gruppe – dieser primär sprachlich-emotionale statt körperliche Ausdruck steht der rein mechanischen Überlastung, die für Karpaltunnelsyndrom typisch ist, eher entgegen." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese emotionale, nicht primär körperlich-mechanische Intensität erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
         ],
       },
@@ -96810,7 +96810,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Zorn, der sich lange staut, bevor er explodiert",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger und Unzufriedenheit über lange Zeit konsequent unter Kontrolle, lässt äußerlich nichts erkennen – doch genau diese über Wochen und Monate angesammelte, nie ausgesprochene Spannung liest die Psychosomatik als naheliegendes Bild für die Gicht: eine stille Ansammlung, die sich irgendwann nicht mehr halten lässt und sich in einem einzigen, scharfen Moment entlädt." },
+      { code: "SE1", text: "Äußerlich lässt die selbsterhaltende Eins nichts erkennen, wenn sie Ärger und Unzufriedenheit über lange Zeit konsequent unter Kontrolle hält – doch genau diese über Wochen und Monate angesammelte, nie ausgesprochene Spannung liest die Psychosomatik als naheliegendes Bild für die Gicht: eine stille Ansammlung, die sich irgendwann nicht mehr halten lässt und sich in einem einzigen, scharfen Moment entlädt." },
           { code: "SO1", text: "Die soziale Eins hält ihre moralische Empörung über Missstände oft lange zurück, bevor sie sich in einem einzigen, heftigen Ausbruch Bahn bricht – diese über Zeit angesammelte, dann plötzlich entladene Intensität passt zum Bild eines Gichtanfalls, der scheinbar aus dem Nichts, aber tatsächlich nach langer stiller Ansammlung auftritt." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Ärger direkter und häufiger zum Ausdruck, in der Beziehung selbst – diese regelmäßigere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht psychosomatisch besonders typisch ist." },
         ],
@@ -96818,7 +96818,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Zurückgehaltener Groll, der sich schließlich entlädt",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei gibt über Jahre, ohne je etwas zurückzufordern – tief im Inneren kann sich dabei ein nie ausgesprochener Groll ansammeln, der sich, wenn er sich löst, mit besonderer Schärfe entlädt. Genau dieses Muster einer lange verborgenen, dann plötzlich hervorbrechenden Intensität passt zum Bild des Gichtanfalls." },
+      { code: "SE2", text: "Wenn er sich löst, entlädt sich mit besonderer Schärfe, was sich bei der selbsterhaltenden Zwei tief im Inneren über Jahre angesammelt hat: ein nie ausgesprochener Groll, während sie über Jahre gibt, ohne je etwas zurückzufordern. Genau dieses Muster einer lange verborgenen, dann plötzlich hervorbrechenden Intensität passt zum Bild des Gichtanfalls." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft und verdrängt dabei über Jahre eigene Enttäuschungen – dieser über die Zeit angehäufte, nie benannte Groll kann sich schließlich in einem einzigen, scharfen Moment entladen." },
           { code: "SX2", text: "Die sexuelle Zwei erlebt in intensiven Beziehungsphasen heftige, aber unmittelbar ausgedrückte emotionale Reaktionen – diese direktere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
         ],
@@ -96835,7 +96835,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Angestaute Sehnsucht, die sich schließlich Bahn bricht",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält intensives inneres Leid über Jahre zurück, ohne es je auszudrücken – diese lange, stille Ansammlung, die nie einen Ausweg findet, passt besonders genau zum Bild der Gicht: eine Intensität, die sich, wenn sie sich löst, scharf und unübersehbar entlädt." },
-          { code: "SO4", text: "Die soziale Vier drückt ihr Leiden fortlaufend aus, statt es lange anzusammeln – dieser regelmäßige Ausdruck steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier lässt aufgestaute Enttäuschung selten lange in sich gären, sondern bringt sie zeitnah in der Gruppe zur Sprache – dieser regelmäßige Ausdruck steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos und unmittelbar aus – diese direkte, fortlaufende Entladung steht der langen Ansammlung entgegen, die für die Gicht psychosomatisch typisch ist." },
         ],
       },
@@ -96903,7 +96903,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Immer derselbe verkrampfte Kontrollgriff",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins wiederholt über Jahre denselben angespannten Griff nach Kontrolle über den eigenen Alltag – jede Aufgabe wird mit derselben verkniffenen Sorgfalt angepackt, nie entspannt, immer mit demselben inneren Anspruch an Korrektheit. Genau diese immer gleiche, nie variierte Anspannung liest die Psychosomatik als naheliegendes Bild für den Tennisarm: ein Ansatzpunkt der Kraft, der erschöpft ist, weil er nie eine andere, entspanntere Bewegung kennenlernen durfte." },
+      { code: "SE1", text: "Jede Aufgabe wird mit derselben verkniffenen Sorgfalt angepackt, nie entspannt, immer mit demselben inneren Anspruch an Korrektheit: So wiederholt die selbsterhaltende Eins über Jahre denselben angespannten Griff nach Kontrolle über den eigenen Alltag. Genau diese immer gleiche, nie variierte Anspannung liest die Psychosomatik als naheliegendes Bild für den Tennisarm: ein Ansatzpunkt der Kraft, der erschöpft ist, weil er nie eine andere, entspanntere Bewegung kennenlernen durfte." },
           { code: "SO1", text: "Die soziale Eins wiederholt über Jahre denselben angespannten Einsatz für die Verbesserung ihrer Gemeinschaft, immer mit demselben moralischen Nachdruck – diese unveränderte, verkrampfte Anstrengung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch mit wechselnder Intensität in die Beziehung ein, je nach Situation – diese Variabilität steht der immer gleichen, monotonen Wiederholung entgegen, die für den Tennisarm psychosomatisch besonders typisch ist." },
         ],
@@ -96911,7 +96911,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Immer dieselbe zupackende Fürsorgegeste",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei wiederholt über Jahrzehnte dieselbe stille, zupackende Fürsorgegeste für andere, ohne sie je zu variieren oder für sich selbst zu unterbrechen – dieses immer gleiche, nie entspannte Muster des Gebens passt besonders genau zum Bild eines Sehnenansatzes, der unter der ständigen Wiederholung derselben Bewegung erschöpft ist." },
+      { code: "SE2", text: "Ohne sie je zu variieren oder für sich selbst zu unterbrechen: So wiederholt die selbsterhaltende Zwei über Jahrzehnte dieselbe stille, zupackende Fürsorgegeste für andere. Dieses immer gleiche, nie entspannte Muster des Gebens passt besonders genau zum Bild eines Sehnenansatzes, der unter der ständigen Wiederholung derselben Bewegung erschöpft ist." },
           { code: "SO2", text: "Die soziale Zwei wiederholt in der Gemeinschaft fortlaufend dieselbe Geste des Zur-Verfügung-Stehens, ohne sie je zu variieren – diese über Jahre unveränderte, angespannte Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich in wechselnden, intensiven Beziehungsphasen unterschiedlich – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm typisch ist." },
         ],
@@ -96928,7 +96928,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Immer dieselbe festgehaltene innere Anspannung",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält über Jahre dieselbe innere Anspannung fest, funktioniert nach außen beherrscht, mit angespannten, kontrollierten Händen – diese unveränderte, nie gelöste körperliche Haltung passt zum Bild eines Sehnenansatzes, der unter ständiger, nie variierter Anspannung erschöpft ist." },
-          { code: "SO4", text: "Die soziale Vier variiert ihren emotionalen Ausdruck durchaus, je nach Kontext – diese gewisse Beweglichkeit im Ausdruck kann der starren, immer gleichen körperlichen Anspannung entgegenwirken, die für den Tennisarm besonders typisch ist." },
+          { code: "SO4", text: "Die soziale Vier passt ihre emotionale Selbstdarstellung an das jeweilige Publikum an, wiederholt selten dieselbe Geste zweimal genau gleich – diese Beweglichkeit im Ausdruck kann der starren, immer gleichen körperlichen Anspannung entgegenwirken, die für den Tennisarm besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Moment zu Moment stark verändert – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das den Tennisarm psychosomatisch kennzeichnet." },
         ],
       },
@@ -96996,7 +96996,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Kontrolle, die auch Umarmung erschwert",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält ihren Körper und ihre Gefühle unter strikter Kontrolle, auch Nähe wird selten spontan zugelassen, sondern immer erst geprüft – diese über Jahre gehaltene innere Anspannung gerade an der Schulter, dem Ort der Umarmung, kann sich als eine zunehmende Erstarrung zeigen, die genau dort ansetzt, wo Offenheit eigentlich möglich wäre." },
+      { code: "SE1", text: "Nähe wird selten spontan zugelassen, sondern immer erst geprüft – die selbsterhaltende Eins hält ihren Körper und ihre Gefühle unter strikter Kontrolle. Diese über Jahre gehaltene innere Anspannung gerade an der Schulter, dem Ort der Umarmung, kann sich als eine zunehmende Erstarrung zeigen, die genau dort ansetzt, wo Offenheit eigentlich möglich wäre." },
           { code: "SO1", text: "Die soziale Eins hält an ihrer moralischen Haltung fest und lässt selten unkontrollierte Nähe zu, selbst innerhalb der eigenen Gemeinschaft – diese über Jahre gehaltene Distanz kann sich körperlich als eine Versteifung genau des Gelenks zeigen, das für Umarmung und Offenheit zuständig wäre." },
           { code: "SX1", text: "Die sexuelle Eins lässt in der einen Beziehung durchaus intensive Nähe zu, auch wenn sie mit hohem Anspruch verbunden ist – diese fokussierte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder besonders typisch ist." },
         ],
@@ -97004,7 +97004,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Umarmung, die nie erwidert zurückkehrt",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei umarmt und gibt fortwährend, ohne je selbst umarmt zu werden – ein Arm, der sich ständig ausstreckt, aber nie eine Umarmung zurückerhält, kann sich über Jahre als eine Erschöpfung genau dieses Gelenks zeigen, das für das Geben von Nähe zuständig ist." },
+      { code: "SE2", text: "Ein Arm, der sich ständig ausstreckt, aber nie eine Umarmung zurückerhält: So umarmt und gibt die selbsterhaltende Zwei fortwährend, ohne je selbst umarmt zu werden. Das kann sich über Jahre als eine Erschöpfung genau dieses Gelenks zeigen, das für das Geben von Nähe zuständig ist." },
           { code: "SO2", text: "Die soziale Zwei streckt sich fortlaufend nach der gesamten Gemeinschaft aus, ohne je selbst aufgefangen zu werden – diese einseitige, nie erwiderte Geste des Gebens kann sich körperlich als eine zunehmende Versteifung der Schulter zeigen." },
           { code: "SX2", text: "Die sexuelle Zwei erhält in intensiven Beziehungsphasen durchaus Nähe zurück – dieser wechselseitige Austausch, zumindest an einer Stelle, steht der vollständigen, nie erwiderten Erschöpfung anderer Zwei-Varianten entgegen." },
         ],
@@ -97089,7 +97089,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Kontrolle, die bis zum letzten Tropfen durchhält",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins hält ihre Verantwortung über lange Zeit still und diszipliniert, ohne je nachzugeben – bis eine einzige, oft geringfügige zusätzliche Belastung genügt, damit das längst überlastete System plötzlich einschießt. Genau dieser Moment, in dem eine lange zurückgehaltene Anspannung sich nicht länger kontrollieren lässt, liest die Psychosomatik als naheliegendes Bild für den Hexenschuss." },
+      { code: "SE1", text: "Bis eine einzige, oft geringfügige zusätzliche Belastung genügt, damit das längst überlastete System plötzlich einschießt: So still und diszipliniert hält die selbsterhaltende Eins ihre Verantwortung über lange Zeit, ohne je nachzugeben. Genau dieser Moment, in dem eine lange zurückgehaltene Anspannung sich nicht länger kontrollieren lässt, liest die Psychosomatik als naheliegendes Bild für den Hexenschuss." },
           { code: "SO1", text: "Die soziale Eins kämpft unermüdlich für die Verbesserung ihrer Gemeinschaft, oft über die eigenen Kräfte hinaus, ohne dies je offen einzugestehen – wenn diese lange angesammelte Überlastung sich schließlich löst, geschieht dies oft plötzlich und heftig, ganz im Bild der akuten Ischialgie." },
           { code: "SX1", text: "Die sexuelle Eins bringt Anspannung eher direkt und regelmäßig in der Beziehung zum Ausdruck, statt sie lange anzusammeln – diese fortlaufende Entladung steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
         ],
@@ -97097,7 +97097,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Geben, das bis zur plötzlichen Erschöpfung durchhält",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei gibt über Jahre, ohne je um Entlastung zu bitten – bis ein letzter, oft unscheinbarer zusätzlicher Handgriff genügt, damit der längst überlastete Rücken plötzlich nachgibt. Dieser Moment, in dem eine lange verleugnete Erschöpfung sich schließlich unübersehbar zeigt, passt besonders genau zum Bild des Hexenschusses." },
+      { code: "SE2", text: "Bis ein letzter, oft unscheinbarer zusätzlicher Handgriff genügt, damit der längst überlastete Rücken plötzlich nachgibt: So gibt die selbsterhaltende Zwei über Jahre, ohne je um Entlastung zu bitten. Dieser Moment, in dem eine lange verleugnete Erschöpfung sich schließlich unübersehbar zeigt, passt besonders genau zum Bild des Hexenschusses." },
           { code: "SO2", text: "Die soziale Zwei stellt sich fortlaufend in den Dienst der Gemeinschaft, oft über die eigenen Kräfte hinaus, ohne dies je zu benennen – wenn diese lange angesammelte Last sich schließlich löst, geschieht dies oft plötzlich und heftig." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich in intensiven Beziehungsphasen fast vollständig – diese punktuelle, bereits sehr intensive Anstrengung erzeugt eher unmittelbare Erschöpfung als eine lange zurückgehaltene, dann plötzlich einschießende Überlastung." },
         ],
@@ -97114,7 +97114,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Zurückgehaltenes Leid, das plötzlich einschießt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm, ohne es je auszudrücken – bis ein einziger, oft nichtiger Anlass genügt, damit sich die lange zurückgehaltene Anspannung körperlich Bahn bricht. Dieses plötzliche, blitzartige Einschießen nach langer stiller Ansammlung passt besonders genau zum Bild des Hexenschusses." },
-          { code: "SO4", text: "Die soziale Vier drückt ihr Leiden fortlaufend aus, statt es lange anzusammeln – dieser regelmäßige Ausdruck steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
+          { code: "SO4", text: "Die soziale Vier neigt dazu, Anspannung zeitnah zu artikulieren, statt sie über Wochen anzusammeln – dieser regelmäßige Ausdruck steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos und unmittelbar aus – diese direkte, fortlaufende Entladung steht der langen Ansammlung entgegen, die für den Hexenschuss psychosomatisch typisch ist." },
         ],
       },
@@ -97182,7 +97182,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 1, titel: "Immer dieselbe kontrollierte Bewegung, bis die Hülle sich entzündet",
         varianten: [
-          { code: "SE1", text: "Die selbsterhaltende Eins wiederholt über Jahre denselben kontrollierten, korrekten Handgriff, ohne ihn je zu variieren oder bewusst zu pausieren – diese monotone, nie unterbrochene Anspannung liest die Psychosomatik als naheliegendes Bild für die Sehnenscheidenentzündung: eine schützende Hülle, die sich entzündet, weil die Bewegung, die sie eigentlich erleichtern sollte, nie eine Pause bekam." },
+      { code: "SE1", text: "Ohne ihn je zu variieren oder bewusst zu pausieren, wiederholt die selbsterhaltende Eins über Jahre denselben kontrollierten, korrekten Handgriff. Diese monotone, nie unterbrochene Anspannung liest die Psychosomatik als naheliegendes Bild für die Sehnenscheidenentzündung: eine schützende Hülle, die sich entzündet, weil die Bewegung, die sie eigentlich erleichtern sollte, nie eine Pause bekam." },
           { code: "SO1", text: "Die soziale Eins wiederholt über Jahre denselben angespannten Einsatz für die Verbesserung ihrer Gemeinschaft, oft mit denselben konkreten, sich wiederholenden Handlungen – diese unveränderte Anstrengung kann sich als eine entzündete Schutzhülle zeigen, die unter der ständigen gleichen Reibung leidet." },
           { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch mit wechselnder Intensität in die Beziehung ein – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung psychosomatisch besonders typisch ist." },
         ],
@@ -97190,7 +97190,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 2, titel: "Immer dieselbe zupackende Geste des Gebens",
         varianten: [
-          { code: "SE2", text: "Die selbsterhaltende Zwei wiederholt über Jahrzehnte dieselbe stille, zupackende Fürsorgegeste für andere, ohne sie je zu variieren – dieses immer gleiche, nie unterbrochene Muster des Gebens passt besonders genau zum Bild einer Schutzhülle, die sich unter der ständigen Wiederholung derselben Bewegung entzündet." },
+      { code: "SE2", text: "Ohne sie je zu variieren: So wiederholt die selbsterhaltende Zwei über Jahrzehnte dieselbe stille, zupackende Fürsorgegeste für andere. Dieses immer gleiche, nie unterbrochene Muster des Gebens passt besonders genau zum Bild einer Schutzhülle, die sich unter der ständigen Wiederholung derselben Bewegung entzündet." },
           { code: "SO2", text: "Die soziale Zwei wiederholt in der Gemeinschaft fortlaufend dieselbe Geste des Zur-Verfügung-Stehens – diese über Jahre unveränderte, konkrete körperliche Anstrengung kann sich als eine entzündete Sehnenscheide zeigen." },
           { code: "SX2", text: "Die sexuelle Zwei investiert sich in wechselnden, intensiven Beziehungsphasen unterschiedlich – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
         ],
@@ -97207,7 +97207,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Immer dieselbe festgehaltene innere Bewegung",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält über Jahre dieselbe innere Anspannung fest, oft mit denselben angespannten, kontrollierten Handbewegungen – diese unveränderte, nie gelöste körperliche Haltung passt zum Bild einer Sehnenscheide, die unter ständiger, nie variierter Anspannung erschöpft." },
-          { code: "SO4", text: "Die soziale Vier variiert ihren emotionalen wie körperlichen Ausdruck durchaus – diese gewisse Beweglichkeit kann der starren, immer gleichen Anspannung entgegenwirken, die für die Sehnenscheidenentzündung besonders typisch ist." },
+          { code: "SO4", text: "Die soziale Vier wechselt zwischen verschiedenen Formen des Ausdrucks – mal Worte, mal Gestik, mal Rückzug ins Künstlerische –, statt eine einzige Bewegung endlos zu wiederholen. Diese Beweglichkeit kann der starren, immer gleichen Anspannung entgegenwirken, die für die Sehnenscheidenentzündung besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Moment zu Moment stark verändert – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das die Sehnenscheidenentzündung psychosomatisch kennzeichnet." },
         ],
       },
