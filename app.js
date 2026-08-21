@@ -68571,7 +68571,7 @@ function friedrichSchillerKrankheitsportraetPage() {
         <strong>Friedrich Schiller</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-friedrich-schiller">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        Allgemeinen. Hier steht ein Kapitel im Mittelpunkt, das dort kaum zur Sprache kommt:
         eine seit der Kindheit anfällige Konstitution, ein vermutlich während des
         Medizinstudiums erworbener Tuberkulose-Keim und vierzehn Jahre Arbeit gegen einen
         Körper, der bereits 1791 lebensbedrohlich zusammengebrochen war.
@@ -68756,7 +68756,7 @@ function konradAdenauerKrankheitsportraetPage() {
         <strong>Konrad Adenauer</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-konrad-adenauer">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort weitgehend außen vor bleibt:
         ein schwerer Autounfall 1917, der sein Gesicht lebenslang veränderte, gefolgt von
         Verfolgung und Haft unter den Nationalsozialisten sowie den gesundheitlichen
         Einbrüchen seines letzten Lebensjahres.
@@ -68938,7 +68938,7 @@ function johannSebastianBachKrankheitsportraetPage() {
         <strong>Johann Sebastian Bach</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-johann-sebastian-bach">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        Allgemeinen. Hier wird ausführlich ein Kapitel beleuchtet, das dort nur eine Randnotiz bleibt:
         eine über Jahre fortschreitende Erblindung, zwei missglückte Augenoperationen und Bachs
         Tod wenige Monate danach im Jahr 1750.
       </p>
@@ -69114,7 +69114,7 @@ function napoleonBonaparteKrankheitsportraetPage() {
         <strong>Napoleon Bonaparte</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-napoleon-bonaparte">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        Allgemeinen. Hier steht ein Kapitel im Zentrum, das dort nur eine Fußnote ist:
         über Jahrzehnte wiederkehrende Magenbeschwerden, ihre dramatische Zuspitzung im Exil
         auf St. Helena und Napoleons Tod 1821 an einem Magenkarzinom – derselben Krankheit,
         an der wahrscheinlich auch sein Vater starb.

@@ -41687,7 +41687,7 @@ function friedrichSchillerKrankheitsportraetPage() {
         <strong>Friedrich Schiller</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-friedrich-schiller">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with a chapter only briefly touched on there: a fragile
+        This page focuses on a chapter that page barely mentions: a fragile
         constitution since childhood, a tuberculosis germ likely contracted during his medical
         studies, and fourteen years of work against a body that had already collapsed,
         life-threateningly, in 1791.
@@ -41862,7 +41862,7 @@ function konradAdenauerKrankheitsportraetPage() {
         <strong>Konrad Adenauer</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-konrad-adenauer">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with a chapter only briefly touched on there: a severe
+        This page is devoted to a chapter that page leaves largely untouched: a severe
         car accident in 1917 that permanently changed his face, followed by persecution and
         imprisonment under the National Socialists, and the health decline of his final year.
       </p>
@@ -42037,7 +42037,7 @@ function johannSebastianBachKrankheitsportraetPage() {
         <strong>Johann Sebastian Bach</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-johann-sebastian-bach">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with a chapter only briefly touched on there: a
+        This page explores in depth a chapter that page treats only in passing: a
         years-long progressive blindness, two failed eye operations, and Bach's death only
         months later in 1750.
       </p>
@@ -42207,7 +42207,7 @@ function napoleonBonaparteKrankheitsportraetPage() {
         <strong>Napoleon Bonaparte</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-napoleon-bonaparte">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with a chapter only briefly touched on there: decades of
+        This page centers on a chapter that page reduces to a footnote: decades of
         recurring stomach ailments, their dramatic escalation during his exile on St. Helena,
         and Napoleon's death in 1821 from gastric cancer – the same disease that likely
         killed his father.
