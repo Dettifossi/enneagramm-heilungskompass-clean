@@ -95324,7 +95324,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Bei der selbsterhaltenden Eins richtet sich der Zorn am radikalsten nach innen: Selbstkontrolle wird zum obersten Lebensprinzip, jede Regung muss geprüft, gerechtfertigt, ins Korsett des Richtigen gepresst werden. Ein typisches Bild ist die Person, die selbst in akuter Wut noch mit ruhiger Stimme spricht, während innerlich alles vibriert – nach außen Contenance, nach innen ein Kessel unter Dauerdruck. Kardiologisch ist genau dieses Muster gut untersucht: chronisch unterdrückte Feindseligkeit gilt als einer der stärksten psychologischen Prädiktoren für koronare Ereignisse, stärker sogar als offen ausgelebter Ärger, weil dem Körper nie eine physiologische Entladung gestattet wird. Das Herz pumpt gegen einen Widerstand an, der nie als solcher benannt werden darf." },
       { code: "SO1", text: "Die soziale Eins verwandelt persönlichen Ärger in ein Anliegen der Gemeinschaft – aus „Das macht mich wütend“ wird „Das ist ungerecht und muss sich ändern“. Diese Übersetzung schützt vor dem Gefühl, selbstsüchtig zu sein, kostet aber Kraft: Die Reformerin trägt nicht nur die eigene Empörung, sondern die gefühlte Verantwortung für den Zustand der ganzen Welt, ohne je fertig zu sein. Anders als bei der selbsterhaltenden Variante findet der Ärger zwar ein Ventil in Worten, Petitionen, Engagement – doch die Belastung wirkt eher über kognitive Dauererschöpfung und das nagende Gefühl unerledigter Missstände als über klassische muskuläre Anspannung. Das Herz erschöpft sich hier weniger am Druck als an der schieren Menge dessen, was noch zu richten wäre." },
-          { code: "SX1", text: "Bei der sexuellen Eins entlädt sich Zorn am direktesten dort, wo es am meisten wehtut – in der Nähe: intensive, fordernde Erwartungen an den Partner, Eifersucht, der stille Anspruch, gemeinsam an einer vollkommenen Beziehung zu arbeiten, koste es, was es wolle. Kleine Enttäuschungen werden schnell zu Beweisen mangelnder Hingabe, und aus Verletzung wird binnen Sekunden scharfe Kritik. Das schafft ein unmittelbareres Ventil als bei den anderen beiden Einser-Varianten – dadurch potenziell weniger stille Dauerspannung im Alltag, dafür aber eine emotionale Achterbahn mit intensiven, episodischen Belastungsspitzen genau in den Momenten, die eigentlich am meisten Sicherheit geben sollten." },
+      { code: "SX1", text: "Bei der sexuellen Eins entlädt sich Zorn am direktesten dort, wo es am meisten wehtut – in der Nähe: intensive, fordernde Erwartungen an den Partner, Eifersucht, der stille Anspruch, gemeinsam an einer vollkommenen Beziehung zu arbeiten, koste es, was es wolle. Kleine Enttäuschungen werden schnell zu Beweisen mangelnder Hingabe, und aus Verletzung wird binnen Sekunden scharfe Kritik. Das schafft ein unmittelbareres Ventil als bei den anderen beiden Einser-Varianten – dadurch potenziell weniger stille Dauerspannung im Alltag, dafür aber eine emotionale Achterbahn mit intensiven, episodischen Belastungsspitzen genau in den Momenten, die eigentlich am meisten Sicherheit geben sollten." },
         ],
       },
       {
@@ -95417,7 +95417,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Nichts darf nach außen dringen: Der Ärger der selbsterhaltenden Eins bleibt über Jahrzehnte innerlich verwaltet, geordnet, gerechtfertigt. Typisch ist die Person, die sich noch bei der zehnten Zurücksetzung im Leben höflich bedankt, während innerlich längst ein Register geführt wird. Genau diese Dauerverwaltung von Spannung, die nie eine echte Entladung findet, liest die Psychosomatik als plausibles Sinnbild für einen Prozess, der sich Schicht für Schicht in den Gefäßwänden ablagert: nicht ein einzelner Schock, sondern die stille, jahrzehntelange Summe unzähliger kleiner, nie gelöster Spannungsmomente." },
       { code: "SO1", text: "Ein Ventil in Worten, Reformwillen und dem Gefühl, für das Richtige zu kämpfen, findet der Zorn der sozialen Eins, wenn sie ihn in moralisches Engagement für die Gruppe verwandelt. Doch das zugrunde liegende Gefühl, dass die Welt permanent korrigiert werden muss, dass immer irgendwo etwas nicht in Ordnung ist, bleibt ein chronischer, nie ganz gelöster innerer Spannungszustand. Anders als bei der selbsterhaltenden Variante liegt die Last hier weniger in unterdrückter persönlicher Wut als in der schieren Dauerhaftigkeit eines Kampfes, der nie endgültig gewonnen werden kann." },
-          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – ein scharfes Wort, ein enttäuschter Blick, die unmissverständliche Ansage, wenn etwas nicht ihren Vorstellungen entspricht. Dadurch entsteht potenziell weniger stille Dauerverhärtung als bei den anderen beiden Varianten, dafür aber wiederkehrende Episoden intensiver emotionaler Anspannung in genau jener Beziehung, die eigentlich Rückzugsort sein sollte – Episoden, die sich über die Jahre kumulieren können, auch wenn jede einzelne für sich genommen vorübergeht." },
+      { code: "SX1", text: "Ein scharfes Wort, ein enttäuschter Blick, die unmissverständliche Ansage, wenn etwas nicht ihren Vorstellungen entspricht: So lebt die sexuelle Eins Ärger direkter aus, in der Beziehung selbst. Dadurch entsteht potenziell weniger stille Dauerverhärtung als bei den anderen beiden Varianten, dafür aber wiederkehrende Episoden intensiver emotionaler Anspannung in genau jener Beziehung, die eigentlich Rückzugsort sein sollte – Episoden, die sich über die Jahre kumulieren können, auch wenn jede einzelne für sich genommen vorübergeht." },
         ],
       },
       {
@@ -95510,7 +95510,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Selbst der kleinste Anflug von Wut wird bei der selbsterhaltenden Eins sofort ins innere Regelwerk einsortiert und neutralisiert, nichts darf sichtbar werden. Sie ist die Person, die auch bei himmelschreiender Ungerechtigkeit ruhig bleibt, während innerlich ein Druckkessel unter Volllast arbeitet. Genau dieses konsequente Zurückhalten, ohne je ein Ventil zu finden, liest die Psychosomatik als eines der plausibelsten Bilder für einen chronisch erhöhten inneren Druck, der sich nie entladen darf – der Blutdruck als messbares Echo einer Kontrolle, die keine Ausnahme kennt." },
       { code: "SO1", text: "Ein Teil des Drucks findet ein Ventil in Worten und Reformwillen, wenn die soziale Eins ihren Ärger in moralisches Engagement für die Gruppe verwandelt, doch die Grundspannung, dass die Welt permanent korrigiert werden muss, bleibt bestehen. Sie kämpft für Gerechtigkeit, für bessere Regeln, für das, was richtig ist – und trägt dabei die Last, dass diese Arbeit nie fertig wird, weil immer irgendwo noch etwas nicht stimmt." },
-          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – dadurch potenziell weniger chronischer Dauerdruck, dafür wiederkehrende, episodische Drucksteigerungen in intensiven Momenten. Ein enttäuschender Blick, eine unausgesprochene Erwartung, und binnen Sekunden ist die Spannung spürbar da – kurz, heftig, aber immerhin mit einem Ventil, das den anderen beiden Varianten fehlt." },
+      { code: "SX1", text: "Ein enttäuschender Blick, eine unausgesprochene Erwartung, und binnen Sekunden ist die Spannung spürbar da – kurz, heftig, aber immerhin mit einem Ventil, das den anderen beiden Varianten fehlt: So lebt die sexuelle Eins Ärger direkter aus, in der Beziehung selbst." },
         ],
       },
       {
@@ -95603,7 +95603,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Jede Regung wird geprüft, jede Abweichung vom eigenen Regelwerk sofort korrigiert: Die selbsterhaltende Eins hält jahrzehntelang eine innere Kontrolle aufrecht, die enorme Kraft bindet, ohne je zu ruhen. Diese Dauerdisziplin, die nie Erholung zulässt, liest die Psychosomatik als plausibles Bild für eine Kraftquelle, die sich über Jahre unbemerkt erschöpft: Anders als beim akuten Zusammenbruch geht hier nichts plötzlich kaputt, sondern die Substanz schwindet Stück für Stück, während die Fassade makellos bleibt." },
       { code: "SO1", text: "Ohne dass dies je als Erschöpfung benannt wird, investiert die soziale Eins ihre Energie fortlaufend in die moralische Verbesserung der Gruppe – das Engagement gibt dem Ärger ein Ventil, zehrt aber gleichzeitig kontinuierlich an den eigenen Reserven. Sie kämpft für eine bessere Welt und merkt dabei kaum, wie viel von ihrer eigenen Kraft in diesem endlosen Ringen um Verbesserung aufgeht." },
-          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter aus, in der Beziehung selbst – dadurch potenziell weniger chronische Dauererschöpfung, dafür wiederkehrende, intensive Kraftanstrengungen in emotional aufgeladenen Momenten. Jeder Konflikt, jede Versöhnung kostet volle Hingabe, sodass die Erschöpfung hier eher in Wellen als in gleichmäßiger Auszehrung kommt." },
+      { code: "SX1", text: "Jeder Konflikt, jede Versöhnung kostet volle Hingabe: So lebt die sexuelle Eins Ärger direkter aus, in der Beziehung selbst, sodass die Erschöpfung hier eher in Wellen als in gleichmäßiger Auszehrung kommt, statt in chronischer Dauererschöpfung." },
         ],
       },
       {
@@ -95696,7 +95696,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Solange das selbstgebaute Korsett aus strikter Routine, festen Abläufen und akribischer Kontrolle hält, wirkt die selbsterhaltende Eins ruhig und geordnet. Kippt jedoch etwas außerhalb ihrer Kontrolle, wenn Pläne durchkreuzt werden oder Fehler auftauchen, die sie nicht verhindern konnte, kann genau dieser Kontrollverlust psychosomatisch zum Bild werden für einen Herzschlag, der seinen geordneten Takt verliert: Die äußere Ordnung war nie mehr als eine Stütze für eine innere Unruhe, die bei jeder Störung sofort spürbar wird." },
       { code: "SO1", text: "Viele gleichzeitige Baustellen offen halten, selten wirklich zur Ruhe kommen: So kämpft die soziale Eins unermüdlich für Verbesserung, Gerechtigkeit, die richtige Ordnung der Dinge in ihrer Gemeinschaft. Die Vielzahl an Missständen, die sie gleichzeitig im Blick behält und korrigieren möchte, kann sich als ein Zuviel an gleichzeitigen inneren Reizen niederschlagen, das dem eigenen Herzschlag seinen ruhigen Takt nimmt." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch an Perfektion direkt in die Beziehung ein, mit Intensität, oft mit missionarischem Eifer, den anderen verbessern zu wollen – dieser konzentrierte, hochaufgeladene Fokus auf eine einzige Person kann in emotional zugespitzten Momenten zu plötzlichen, heftigen inneren Ausschlägen führen, die sich als ein aus dem Takt geratener Herzschlag zeigen, statt als gleichmäßige Dauerbelastung." },
+      { code: "SX1", text: "Mit missionarischem Eifer, den anderen verbessern zu wollen, bringt die sexuelle Eins ihren Anspruch an Perfektion direkt in die Beziehung ein – dieser konzentrierte, hochaufgeladene Fokus auf eine einzige Person kann in emotional zugespitzten Momenten zu plötzlichen, heftigen inneren Ausschlägen führen, die sich als ein aus dem Takt geratener Herzschlag zeigen, statt als gleichmäßige Dauerbelastung." },
         ],
       },
       {
@@ -95789,7 +95789,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Pausen gelten als Nachlässigkeit, Erschöpfung als etwas, das man mit genug Disziplin überwinden kann – so arbeitet die selbsterhaltende Eins konsequent bis an die eigene Leistungsgrenze und darüber hinaus. Genau dieses beharrliche Übergehen der eigenen körperlichen Warnsignale liest die Psychosomatik als plausibles Bild für die Angina pectoris: einen Schmerz, der bei einer bestimmten Belastungsschwelle zuverlässig Einspruch erhebt, weil die Person selbst diesen Einspruch nie freiwillig äußern würde." },
       { code: "SO1", text: "Oft über die eigenen Kräfte hinaus setzt sich die soziale Eins unermüdlich für die Verbesserung ihrer Gemeinschaft ein, weil das Gefühl, noch nicht genug getan zu haben, kaum je nachlässt. Diese permanente selbstauferlegte Überforderung im Dienst einer höheren Sache kann sich als eine körperliche Grenze zeigen, die sich immer wieder meldet, sobald der moralische Anspruch das eigene Leistungsvermögen übersteigt." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Verbesserungsanspruch mit voller Intensität in die eine Beziehung ein – der Wunsch, den geliebten Menschen und sich selbst zugleich zu vervollkommnen, erzeugt punktuelle, aber sehr heftige innere Anspannungsspitzen, die sich eher in akuten Belastungsmomenten als in gleichmäßiger Dauerüberforderung zeigen." },
+      { code: "SX1", text: "Der Wunsch, den geliebten Menschen und sich selbst zugleich zu vervollkommnen, treibt die sexuelle Eins, ihren Verbesserungsanspruch mit voller Intensität in die eine Beziehung einzubringen – das erzeugt punktuelle, aber sehr heftige innere Anspannungsspitzen, die sich eher in akuten Belastungsmomenten als in gleichmäßiger Dauerüberforderung zeigen." },
         ],
       },
       {
@@ -95882,7 +95882,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Loslassen fühlt sich wie ein Kontrollverlust an, den sich die selbsterhaltende Eins nicht gestattet – Verantwortung und Pflichten werden deshalb oft über Jahre still weitergetragen, ohne sich je bewusst zu entlasten. Genau dieses Muster, eine Last zu tragen, ohne sie je wirklich abzugeben, liest die Psychosomatik als naheliegendes Bild für Krampfadern: ein Rückfluss, der nie stattfindet, weil das System darauf ausgelegt ist, alles festzuhalten." },
       { code: "SO1", text: "Ohne alte je bewusst abzuschließen, übernimmt die soziale Eins fortlaufend neue Aufgaben im Dienst einer besseren Gemeinschaft – ein Berg an moralischer Verantwortung, der sich über die Jahre anhäuft, statt sich zu erleichtern. Diese ständig wachsende, nie wirklich abgetragene Last kann sich körperlich als ein Stau im Rückfluss zeigen." },
-          { code: "SX1", text: "Die sexuelle Eins investiert ihre Verbesserungsenergie konzentriert in die eine Beziehung, oft mit dem Anspruch, alles perfekt zu regeln – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Anspannung in einzelnen Beziehungsphasen als eine über Jahre gleichmäßig akkumulierte Stauung." },
+      { code: "SX1", text: "Oft mit dem Anspruch, alles perfekt zu regeln, investiert die sexuelle Eins ihre Verbesserungsenergie konzentriert in die eine Beziehung – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Anspannung in einzelnen Beziehungsphasen als eine über Jahre gleichmäßig akkumulierte Stauung." },
         ],
       },
       {
@@ -95975,7 +95975,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Aus einer anfänglichen, gesunden Disziplin kann bei der selbsterhaltenden Eins über Jahre eine starre Unbeweglichkeit werden, die keine Ausnahme mehr zulässt – sie hält an einmal festgelegten Regeln und Abläufen fest, auch wenn die Situation längst eine Anpassung verlangen würde. Genau diese Erstarrung, ein Prinzip, das sich nicht mehr bewegt, liest die Psychosomatik als naheliegendes Bild für die Thrombose: aus dem bloßen Stau wird ein fester, nicht mehr auflösbarer Block." },
       { code: "SO1", text: "Was als Engagement für Gerechtigkeit begann, kann sich bei der sozialen Eins zu einer unbeweglichen moralischen Position verfestigen, die keinen Widerspruch mehr duldet – sie verhärtet sich in ihrem Kampf für die richtige Ordnung zunehmend gegenüber Kompromissen. Diese fortschreitende Erstarrung passt zum Bild einer Blockade, die sich über die Zeit verfestigt hat." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Verbesserungsanspruch mit großer Intensität in die Beziehung ein – in einzelnen zugespitzten Konflikten kann sich diese Haltung kurzfristig zu völliger Unnachgiebigkeit verhärten, wobei die Erstarrung hier eher punktuell auftritt als sich über Jahre gleichmäßig zu verfestigen." },
+      { code: "SX1", text: "In einzelnen zugespitzten Konflikten kann sich der Verbesserungsanspruch, den die sexuelle Eins mit großer Intensität in die Beziehung einbringt, kurzfristig zu völliger Unnachgiebigkeit verhärten – wobei die Erstarrung hier eher punktuell auftritt als sich über Jahre gleichmäßig zu verfestigen." },
         ],
       },
       {
@@ -96068,7 +96068,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Wie viel Spannung sich tatsächlich aufbaut, lässt die selbsterhaltende Eins nie erkennen – sie hält Zorn über Jahrzehnte konsequent nach innen gerichtet und kontrolliert jede Regung. Genau dieses Muster einer über lange Zeit aufgestauten inneren Fülle, die sich irgendwann nicht mehr halten lässt und sich schlagartig entlädt, liest die TCM im Bild des inneren Windes – eine plötzliche, gewaltsame Entladung dessen, was nie einen ruhigen Ausweg finden durfte." },
       { code: "SO1", text: "Wird ihr Kampf über Jahre nie durch echte Erfolge oder Anerkennung erleichtert, kann sich die aufgestaute moralische Empörung der sozialen Eins, die unermüdlich und mit wachsender innerer Anspannung für die Verbesserung ihrer Gemeinschaft kämpft, zu einer inneren Fülle verdichten, die psychosomatisch als plötzliche, dramatische Entladung gelesen wird." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Verbesserungsanspruch mit großer, oft konfrontativer Intensität in die Beziehung ein – diese wiederkehrenden, heftigen Zuspitzungen erzeugen eher episodische innere Drucksteigerungen als eine gleichmäßig über Jahrzehnte akkumulierte Fülle." },
+      { code: "SX1", text: "Wiederkehrende, heftige Zuspitzungen erzeugen eher episodische innere Drucksteigerungen als eine gleichmäßig über Jahrzehnte akkumulierte Fülle, wenn die sexuelle Eins ihren Verbesserungsanspruch mit großer, oft konfrontativer Intensität in die Beziehung einbringt." },
         ],
       },
       {
@@ -96161,7 +96161,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Die permanente Selbstzügelung verbraucht bei der selbsterhaltenden Eins genau jene Kraft, die eigentlich für den eigenen Auftritt in der Welt gebraucht würde – Zorn und Antrieb werden so konsequent unter Kontrolle gehalten, dass am Ende oft kaum noch spürbare Energie übrig bleibt, um sich selbst nach außen zu behaupten. Ein System, dem es an aufgebautem innerem Druck fehlt, weil dieser Druck ständig gedämpft wurde, passt zum Bild der Hypotonie." },
       { code: "SO1", text: "Ohne je für die eigene Sache, die eigene Position einzustehen, richtet die soziale Eins ihre gesamte Energie auf die Verbesserung der Gemeinschaft – dieses fortgesetzte Zurückstellen der eigenen Interessen zugunsten des Kollektivs kann zu einem chronischen Mangel an selbstbezogenem Antrieb führen." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch mit direkter Intensität in die Beziehung ein – hier fehlt es seltener an Kraft, sich zu behaupten, eher zeigt sich Erschöpfung episodisch, nach besonders intensiven Auseinandersetzungen, als chronischer Mangel an Grundenergie." },
+      { code: "SX1", text: "Seltener fehlt es der sexuellen Eins an Kraft, sich zu behaupten, wenn sie ihren Anspruch mit direkter Intensität in die Beziehung einbringt – eher zeigt sich Erschöpfung episodisch, nach besonders intensiven Auseinandersetzungen, als chronischer Mangel an Grundenergie." },
         ],
       },
       {
@@ -96254,7 +96254,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Abweichung fühlt sich falsch an, Anpassung wie Nachlässigkeit: Über Jahrzehnte wiederholt die selbsterhaltende Eins dieselben, streng kontrollierten Bewegungsabläufe und Routinen. Genau dieses immer gleiche, nie variierte Muster, das keine Flexibilität zulässt, liest die Psychosomatik als plausibles Bild für die Arthrose: ein Gelenk, das sich abnutzt, weil es nie die Chance bekam, sich auf neue Weise zu bewegen." },
       { code: "SO1", text: "Oft ohne sie je zu hinterfragen, hält die soziale Eins an ihren moralischen Grundsätzen zur Verbesserung der Gemeinschaft mit großer Beharrlichkeit fest – diese über Jahre unveränderte innere Haltung kann sich als eine Rigidität zeigen, die sich körperlich in den Gelenken niederschlägt, die ebenso wenig Beweglichkeit zeigen." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Verbesserungsanspruch mit Intensität in die eine Beziehung ein – diese fokussierte, aber wechselhafte Dynamik zwischen Anspruch und Nachgeben erzeugt weniger die gleichmäßige, über Jahrzehnte akkumulierte Reibung, die für Arthrose typisch ist, sondern eher episodische Anspannung." },
+      { code: "SX1", text: "Zwischen Anspruch und Nachgeben wechselhaft: Diese Dynamik prägt die sexuelle Eins, wenn sie ihren Verbesserungsanspruch mit Intensität in die eine Beziehung einbringt – sie erzeugt weniger die gleichmäßige, über Jahrzehnte akkumulierte Reibung, die für Arthrose typisch ist, sondern eher episodische Anspannung." },
         ],
       },
       {
@@ -96347,7 +96347,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Unterstützung anzunehmen fühlt sich für die selbsterhaltende Eins wie Kontrollverlust an – sie trägt die Verantwortung für den korrekten Ablauf des eigenen Lebens deshalb über Jahre allein, ohne je Hilfe anzufordern. Genau diese über Jahrzehnte allein getragene Last liest die Psychosomatik als naheliegendes Bild für den Rückenschmerz: ein Rücken, der eine Verantwortung schultert, die eigentlich auf mehr Schultern gehört hätte." },
       { code: "SO1", text: "Oft ohne dass diese Last je geteilt wird, übernimmt die soziale Eins fortlaufend die moralische Verantwortung für die Verbesserung ihrer Gemeinschaft – dieser wachsende Berg an selbstauferlegter Verantwortung kann sich körperlich als Rückenschmerz zeigen, dort, wo Lasten getragen werden." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch mit Intensität in die eine Beziehung ein, oft mit dem Gefühl, allein für die Richtigkeit der Beziehung verantwortlich zu sein – diese fokussierte, aber punktuelle Last erzeugt eher episodische Anspannung als eine über Jahre gleichmäßig akkumulierte Rückenbelastung." },
+      { code: "SX1", text: "Oft mit dem Gefühl, allein für die Richtigkeit der Beziehung verantwortlich zu sein, bringt die sexuelle Eins ihren Anspruch mit Intensität in die eine Beziehung ein – diese fokussierte, aber punktuelle Last erzeugt eher episodische Anspannung als eine über Jahre gleichmäßig akkumulierte Rückenbelastung." },
         ],
       },
       {
@@ -96440,7 +96440,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Nie an äußeren Feinden, sondern an der eigenen Unzulänglichkeit ausgerichtet: So richtet die selbsterhaltende Eins ihre strenge innere Kritik konsequent gegen sich selbst und prüft jede eigene Regung auf Fehler. Diese permanente Selbstverurteilung liest die Psychosomatik als eines der unmittelbarsten Bilder für die rheumatoide Arthritis: ein Immunsystem, das sich mit derselben Kompromisslosigkeit gegen den eigenen Körper wendet, mit der die Eins sich selbst beurteilt." },
       { code: "SO1", text: "Nach außen kämpft die soziale Eins für die Verbesserung ihrer Gemeinschaft, richtet ihren hohen moralischen Anspruch aber auch fortlaufend gegen sich selbst, wenn sie das Gefühl hat, nicht genug getan zu haben – dieser innere Selbstangriff kann sich körperlich als eine Erkrankung zeigen, bei der das System sich selbst als Ziel wählt." },
-          { code: "SX1", text: "Die sexuelle Eins richtet ihre Kritik eher nach außen, auf den geliebten Menschen und die Beziehung, als konsequent gegen sich selbst – diese Externalisierung kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis psychosomatisch typisch ist, zumindest teilweise abmildern." },
+      { code: "SX1", text: "Eher nach außen, auf den geliebten Menschen und die Beziehung, richtet die sexuelle Eins ihre Kritik als konsequent gegen sich selbst – diese Externalisierung kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis psychosomatisch typisch ist, zumindest teilweise abmildern." },
         ],
       },
       {
@@ -96533,7 +96533,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Echte, weiche Selbstfürsorge – sich selbst etwas gönnen, sich selbst nähren, ohne es sich verdienen zu müssen – bleibt bei der selbsterhaltenden Eins oft unterentwickelt, auch wenn sie über Jahrzehnte strikte Disziplin gegenüber sich selbst aufrechterhält und penibel auf Regeln und Kontrolle achtet. Diese über Jahre unsichtbar fehlende innere Nährung liest die Psychosomatik als plausibles Bild für die Osteoporose: eine Substanz, die schwindet, weil sie nie genug Fürsorge erhielt." },
       { code: "SO1", text: "Konsequent hintangestellt bleibt die eigene Selbstfürsorge, wenn die soziale Eins ihre gesamte Energie in die Verbesserung der Gemeinschaft investiert – dieses über Jahrzehnte fortgesetzte Muster, für andere zu sorgen, aber nie für sich selbst, kann sich als eine langsam schwindende innere Substanz zeigen." },
-          { code: "SX1", text: "Die sexuelle Eins investiert ihre Energie konzentriert in die eine Beziehung, was zumindest an dieser Stelle einen gewissen emotionalen Austausch und Rückfluss ermöglicht – diese fokussierte Zuwendung kann die vollständig fehlende Selbstfürsorge, die bei anderen Eins-Varianten möglich ist, etwas abmildern." },
+      { code: "SX1", text: "Was zumindest an dieser Stelle einen gewissen emotionalen Austausch und Rückfluss ermöglicht: So investiert die sexuelle Eins ihre Energie konzentriert in die eine Beziehung – diese fokussierte Zuwendung kann die vollständig fehlende Selbstfürsorge, die bei anderen Eins-Varianten möglich ist, etwas abmildern." },
         ],
       },
       {
@@ -96626,7 +96626,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Nirgends an einer konkreten Stelle sichtbar: So hält die selbsterhaltende Eins jede Regung von Unzufriedenheit oder Erschöpfung konsequent unter Kontrolle. Ein Schmerz, der sich an keiner einzelnen Struktur festmachen lässt, sondern den ganzen Körper durchzieht, liest sich als naheliegendes Bild für ein System, dem nie erlaubt wurde, seine Überlastung an einem einzigen Ort zu benennen." },
       { code: "SO1", text: "Auf vielen gleichzeitigen Baustellen verausgabt sich die soziale Eins, die unermüdlich für die Verbesserung ihrer Gemeinschaft kämpft – diese über die gesamte Person verteilte Anspannung, nie an einem Punkt konzentriert, passt zum Bild eines diffusen, überall spürbaren Schmerzes." },
-          { code: "SX1", text: "Die sexuelle Eins richtet ihre Intensität konzentriert auf die eine Beziehung – diese Fokussierung auf einen einzigen Bereich steht dem diffusen, über den ganzen Körper verteilten Muster entgegen, das für Fibromyalgie besonders typisch ist." },
+      { code: "SX1", text: "Auf einen einzigen Bereich konzentriert richtet die sexuelle Eins ihre Intensität – diese Fokussierung steht dem diffusen, über den ganzen Körper verteilten Muster entgegen, das für Fibromyalgie besonders typisch ist." },
         ],
       },
       {
@@ -96719,7 +96719,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Zugreifen, ordnen, korrigieren – über Jahre wiederholte, feste Handbewegungen, verbunden mit dem Zwang, alles selbst im Griff zu behalten: So hält die selbsterhaltende Eins an Kontrolle über die Details des eigenen Alltags mit großer Beharrlichkeit fest. Genau dieses übermäßige, nie nachlassende Zugreifen liest die Psychosomatik als naheliegendes Bild für das Karpaltunnelsyndrom: ein Kanal, der sich zu eng anfühlt, weil das Greifen nie eine Pause bekommt." },
       { code: "SO1", text: "Ohne Erholung packt die soziale Eins fortlaufend neue Aufgaben im Dienst der Gemeinschaft an, hält an ihrer moralischen Verantwortung mit großer Beharrlichkeit fest – dieses ständige Zugreifen nach immer neuen Verbesserungsprojekten kann sich als eine überlastete, eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SX1", text: "Die sexuelle Eins hält an der einen Beziehung mit großer Intensität fest, greift emotional zu – diese fokussierte, aber punktuelle Intensität erzeugt eher episodische Anspannung als eine über Jahre gleichmäßig wiederholte, mechanische Überlastung der Hand." },
+      { code: "SX1", text: "Emotional greift die sexuelle Eins zu, hält an der einen Beziehung mit großer Intensität fest – diese fokussierte, aber punktuelle Intensität erzeugt eher episodische Anspannung als eine über Jahre gleichmäßig wiederholte, mechanische Überlastung der Hand." },
         ],
       },
       {
@@ -96812,7 +96812,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Äußerlich lässt die selbsterhaltende Eins nichts erkennen, wenn sie Ärger und Unzufriedenheit über lange Zeit konsequent unter Kontrolle hält – doch genau diese über Wochen und Monate angesammelte, nie ausgesprochene Spannung liest die Psychosomatik als naheliegendes Bild für die Gicht: eine stille Ansammlung, die sich irgendwann nicht mehr halten lässt und sich in einem einzigen, scharfen Moment entlädt." },
       { code: "SO1", text: "Bevor sie sich in einem einzigen, heftigen Ausbruch Bahn bricht, hält die soziale Eins ihre moralische Empörung über Missstände oft lange zurück – diese über Zeit angesammelte, dann plötzlich entladene Intensität passt zum Bild eines Gichtanfalls, der scheinbar aus dem Nichts, aber tatsächlich nach langer stiller Ansammlung auftritt." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Ärger direkter und häufiger zum Ausdruck, in der Beziehung selbst – diese regelmäßigere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht psychosomatisch besonders typisch ist." },
+      { code: "SX1", text: "Direkter und häufiger als andere Eins-Varianten bringt die sexuelle Eins ihren Ärger zum Ausdruck, in der Beziehung selbst – diese regelmäßigere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht psychosomatisch besonders typisch ist." },
         ],
       },
       {
@@ -96905,7 +96905,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Jede Aufgabe wird mit derselben verkniffenen Sorgfalt angepackt, nie entspannt, immer mit demselben inneren Anspruch an Korrektheit: So wiederholt die selbsterhaltende Eins über Jahre denselben angespannten Griff nach Kontrolle über den eigenen Alltag. Genau diese immer gleiche, nie variierte Anspannung liest die Psychosomatik als naheliegendes Bild für den Tennisarm: ein Ansatzpunkt der Kraft, der erschöpft ist, weil er nie eine andere, entspanntere Bewegung kennenlernen durfte." },
       { code: "SO1", text: "Immer mit demselben moralischen Nachdruck wiederholt die soziale Eins über Jahre denselben angespannten Einsatz für die Verbesserung ihrer Gemeinschaft – diese unveränderte, verkrampfte Anstrengung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch mit wechselnder Intensität in die Beziehung ein, je nach Situation – diese Variabilität steht der immer gleichen, monotonen Wiederholung entgegen, die für den Tennisarm psychosomatisch besonders typisch ist." },
+      { code: "SX1", text: "Je nach Situation wechselnd bringt die sexuelle Eins ihren Anspruch mit unterschiedlicher Intensität in die Beziehung ein – diese Variabilität steht der immer gleichen, monotonen Wiederholung entgegen, die für den Tennisarm psychosomatisch besonders typisch ist." },
         ],
       },
       {
@@ -96998,7 +96998,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Nähe wird selten spontan zugelassen, sondern immer erst geprüft – die selbsterhaltende Eins hält ihren Körper und ihre Gefühle unter strikter Kontrolle. Diese über Jahre gehaltene innere Anspannung gerade an der Schulter, dem Ort der Umarmung, kann sich als eine zunehmende Erstarrung zeigen, die genau dort ansetzt, wo Offenheit eigentlich möglich wäre." },
       { code: "SO1", text: "Selten unkontrollierte Nähe zulassend, selbst innerhalb der eigenen Gemeinschaft, hält die soziale Eins an ihrer moralischen Haltung fest – diese über Jahre gehaltene Distanz kann sich körperlich als eine Versteifung genau des Gelenks zeigen, das für Umarmung und Offenheit zuständig wäre." },
-          { code: "SX1", text: "Die sexuelle Eins lässt in der einen Beziehung durchaus intensive Nähe zu, auch wenn sie mit hohem Anspruch verbunden ist – diese fokussierte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder besonders typisch ist." },
+      { code: "SX1", text: "Auch wenn sie mit hohem Anspruch verbunden ist, lässt die sexuelle Eins in der einen Beziehung durchaus intensive Nähe zu – diese fokussierte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder besonders typisch ist." },
         ],
       },
       {
@@ -97091,7 +97091,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Bis eine einzige, oft geringfügige zusätzliche Belastung genügt, damit das längst überlastete System plötzlich einschießt: So still und diszipliniert hält die selbsterhaltende Eins ihre Verantwortung über lange Zeit, ohne je nachzugeben. Genau dieser Moment, in dem eine lange zurückgehaltene Anspannung sich nicht länger kontrollieren lässt, liest die Psychosomatik als naheliegendes Bild für den Hexenschuss." },
       { code: "SO1", text: "Ohne dies je offen einzugestehen, kämpft die soziale Eins unermüdlich für die Verbesserung ihrer Gemeinschaft, oft über die eigenen Kräfte hinaus – wenn diese lange angesammelte Überlastung sich schließlich löst, geschieht dies oft plötzlich und heftig, ganz im Bild der akuten Ischialgie." },
-          { code: "SX1", text: "Die sexuelle Eins bringt Anspannung eher direkt und regelmäßig in der Beziehung zum Ausdruck, statt sie lange anzusammeln – diese fortlaufende Entladung steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
+      { code: "SX1", text: "Statt sie lange anzusammeln, bringt die sexuelle Eins Anspannung eher direkt und regelmäßig in der Beziehung zum Ausdruck – diese fortlaufende Entladung steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
         ],
       },
       {
@@ -97184,7 +97184,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Ohne ihn je zu variieren oder bewusst zu pausieren, wiederholt die selbsterhaltende Eins über Jahre denselben kontrollierten, korrekten Handgriff. Diese monotone, nie unterbrochene Anspannung liest die Psychosomatik als naheliegendes Bild für die Sehnenscheidenentzündung: eine schützende Hülle, die sich entzündet, weil die Bewegung, die sie eigentlich erleichtern sollte, nie eine Pause bekam." },
       { code: "SO1", text: "Oft mit denselben konkreten, sich wiederholenden Handlungen wiederholt die soziale Eins über Jahre denselben angespannten Einsatz für die Verbesserung ihrer Gemeinschaft – diese unveränderte Anstrengung kann sich als eine entzündete Schutzhülle zeigen, die unter der ständigen gleichen Reibung leidet." },
-          { code: "SX1", text: "Die sexuelle Eins bringt ihren Anspruch mit wechselnder Intensität in die Beziehung ein – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung psychosomatisch besonders typisch ist." },
+      { code: "SX1", text: "Mit wechselnder Intensität bringt die sexuelle Eins ihren Anspruch in die Beziehung ein – diese Variabilität steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung psychosomatisch besonders typisch ist." },
         ],
       },
       {
