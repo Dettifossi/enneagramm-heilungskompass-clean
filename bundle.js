@@ -95338,7 +95338,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistung – wo das Herz mitläuft",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei misst den eigenen Wert am nächsten konkreten Ergebnis: der abgeschlossenen Aufgabe, der sauber geführten Buchhaltung, dem Garten, der besser aussieht als der der Nachbarn. Sie glänzt selten öffentlich – ihre Bestätigung holt sie sich in stiller, effizienter Betriebsamkeit, oft ohne dass jemand außer ihr selbst überhaupt bemerkt, wie viel sie leistet. Erschöpfung wird dabei konsequent uminterpretiert: nicht als Warnsignal, sondern als Charakterschwäche, die es zu überwinden gilt. Das Herz pumpt im Takt selbst gesetzter Zielvorgaben lange weiter, nachdem der Körper längst deutliche Zeichen gesendet hat, kürzerzutreten." },
+      { code: "SE3", text: "Die selbsterhaltende Drei misst den eigenen Wert am nächsten konkreten Ergebnis: der abgeschlossenen Aufgabe, der sauber geführten Buchhaltung, dem Garten, der besser aussieht als der der Nachbarn. Sie glänzt selten öffentlich – ihre Bestätigung holt sie sich in stiller, effizienter Betriebsamkeit, oft ohne dass jemand außer ihr selbst überhaupt bemerkt, wie viel sie leistet. Erschöpfung wird dabei konsequent uminterpretiert: nicht als Warnsignal, sondern als Charakterschwäche, die es zu überwinden gilt. Das Herz pumpt im Takt selbst gesetzter Zielvorgaben lange weiter, nachdem der Körper längst deutliche Zeichen gesendet hat, kürzerzutreten." },
           { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im Vergleich: Karriere, Titel, das Auto vor der Tür, die Anerkennung des Publikums. Sie kommt dem klassischen Bild der kardiologisch beschriebenen Typ-A-Persönlichkeit am nächsten von allen 27 Subtypen – ehrgeizig, zeitgetrieben, in einem inneren Wettlauf, der nie wirklich endet, weil der nächste Vergleich, der nächste Konkurrent, die nächste Bestleistung schon wartet. Das Herz arbeitet hier gegen eine Uhr, die nur in ihrem eigenen Kopf tickt, aber real genug ist, um Blutdruck und Puls dauerhaft zu erhöhen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Leistungskraft gezielt im Beziehungskontext ein: Attraktivität, Charisma, permanente Selbstoptimierung, um für den einen wichtigen Menschen unübertroffen zu sein – „der oder die Beste“, nicht in einem Wettbewerb, sondern im Auge des Geliebten. Die Erschöpfung entsteht hier weniger aus öffentlichem Vergleich als aus dem privaten, nie endenden Druck, auch im intimsten Bereich keine Schwäche, keine Nachlässigkeit, kein Nachlassen zu zeigen – ein Anspruch, der gerade dort am meisten Kraft kostet, wo eigentlich Entspannung möglich sein sollte." },
         ],
@@ -95346,7 +95346,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Neid – wenn Sehnsucht statt Wut das Herz belastet",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp innerhalb der Vieren, zeigt selten das erwartete dramatische Leiden – sie funktioniert, kümmert sich, hält durch, oft über Jahrzehnte, während innerlich eine tiefe, nie eingestandene Sehnsucht nach dem eigentlichen, authentischen Leben mitläuft. Die Verbindung zum Herzinfarkt-Muster liegt hier weniger in offener Wut als in chronisch unterdrückter Trauer: ein Leben, das leise und pflichtbewusst weiterläuft, während im Inneren viel unausgesprochen bleibt und sich als stille, nie thematisierte Last auf das Herz legt." },
+      { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp innerhalb der Vieren, zeigt selten das erwartete dramatische Leiden – sie funktioniert, kümmert sich, hält durch, oft über Jahrzehnte, während innerlich eine tiefe, nie eingestandene Sehnsucht nach dem eigentlichen, authentischen Leben mitläuft. Die Verbindung zum Herzinfarkt-Muster liegt hier weniger in offener Wut als in chronisch unterdrückter Trauer: ein Leben, das leise und pflichtbewusst weiterläuft, während im Inneren viel unausgesprochen bleibt und sich als stille, nie thematisierte Last auf das Herz legt." },
           { code: "SO4", text: "Die soziale Vier trägt ihren Schmerz nach außen, spricht offen über Erschöpfung und Überforderung, statt sie hinter einer Fassade zu verbergen – dieser Ausdruck wirkt wie ein Sicherheitsventil, das dem Herzen zumindest einen Teil des Drucks nimmt, den die stille Erschöpfung anderer Subtypen ungebremst ansammelt. Kardiologisch zeigt sich die Belastung trotzdem, aber eher in Phasen ausgeprägter Erschöpfung nach emotionalen Hochphasen als in der gleichmäßigen, chronisch verdeckten Anspannung, wie sie das klassische Typ-A-Muster beschreibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der einen Beziehung, oft begleitet von einem ständigen, quälenden Vergleich – mit früheren Partnern, mit einem imaginierten Ideal, mit dem, was die Liebe sein könnte, aber gerade nicht ist. Heftige emotionale Ausschläge und eine potenziell konfliktreiche, auf-und-ab-Beziehungsdynamik sind hier der wahrscheinlichere Belastungsfaktor als eine stille Dauerspannung – das Herz wird weniger durch andauernden Druck als durch wiederkehrende, intensive emotionale Erschütterungen beansprucht." },
         ],
@@ -95431,7 +95431,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistung, die den Fluss nie unterbricht",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert – Erschöpfung wird als Schwäche gedeutet, nicht als Signal, das ernst zu nehmen wäre. Sie ist die Person, die den Feierabend nutzt, um noch die Steuererklärung fertigzustellen, während andere sich entspannen, und die dieses Verhalten nicht als Getriebenheit, sondern als schlichte Selbstverständlichkeit empfindet. Über Jahrzehnte verdichtet sich diese ständige Selbstüberforderung zu einem Bild, in dem auch die Gefäße nie zur Ruhe kommen – ein System im Dauerbetrieb, dem die Regenerationsphasen fehlen, die für gesunde Gefäßelastizität notwendig wären." },
+      { code: "SE3", text: "Erschöpfung wird bei der selbsterhaltenden Drei als Schwäche gedeutet, nicht als Signal, das ernst zu nehmen wäre – sie arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert. Sie ist die Person, die den Feierabend nutzt, um noch die Steuererklärung fertigzustellen, während andere sich entspannen, und die dieses Verhalten nicht als Getriebenheit, sondern als schlichte Selbstverständlichkeit empfindet. Über Jahrzehnte verdichtet sich diese ständige Selbstüberforderung zu einem Bild, in dem auch die Gefäße nie zur Ruhe kommen – ein System im Dauerbetrieb, dem die Regenerationsphasen fehlen, die für gesunde Gefäßelastizität notwendig wären." },
           { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im Vergleich mit anderen – ein Leben im ständigen Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt und über Jahre kaum echte Erholungsphasen kennt. Jeder Erfolg wird sofort relativiert durch den nächsten möglichen Vergleich, jede Anerkennung ist nur so lange gültig, bis jemand anderes sie übertrifft – ein Zustand permanenter, selbst erzeugter Alarmbereitschaft, der dem Gefäßsystem über Jahrzehnte kaum Gelegenheit zur Entspannung lässt." },
           { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, erzeugt eine Anspannung, die selten offen benannt, aber über Jahre mitgetragen wird. Attraktivität, Anpassungsfähigkeit, die ständige Bereitschaft, sich für den einen Menschen neu zu erfinden – all das kostet Kraft, die selten als Erschöpfung erkannt wird, weil sie hinter dem Gefühl versteckt bleibt, geliebt werden zu müssen, um wertvoll zu sein." },
         ],
@@ -95439,7 +95439,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die sich festsetzt",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahrzehnte unausgesprochene Sehnsucht, die sich nie in Bewegung, sondern nur in innerer Verhärtung entlädt. Sie funktioniert nach außen unauffällig, fast tapfer, während innerlich ein tiefes Gefühl des Andersseins, des Nicht-ganz-Dazugehörens mitläuft, das nie Raum bekommt, sich zu zeigen oder zu lösen. Dieses stille Tragen ohne Ventil passt zum Bild einer Ablagerung, die sich Schicht für Schicht verfestigt, weil sie nie an die Oberfläche darf." },
+      { code: "SE4", text: "Nie in Bewegung, sondern nur in innerer Verhärtung entlädt sich die über Jahrzehnte unausgesprochene Sehnsucht der selbsterhaltenden Vier, dem Kontratyp, der Leid zäh und nach außen kaum sichtbar trägt. Sie funktioniert nach außen unauffällig, fast tapfer, während innerlich ein tiefes Gefühl des Andersseins, des Nicht-ganz-Dazugehörens mitläuft, das nie Raum bekommt, sich zu zeigen oder zu lösen. Dieses stille Tragen ohne Ventil passt zum Bild einer Ablagerung, die sich Schicht für Schicht verfestigt, weil sie nie an die Oberfläche darf." },
           { code: "SO4", text: "Wo andere Subtypen ihre Erschöpfung verbergen, stellt die soziale Vier ihre Verletzlichkeit offen zur Schau, macht sie fast zu einem Teil ihrer Identität in der Gruppe – dieses Zeigen ist zugleich ein Ventil: Die Anspannung staut sich weniger lange an, weil sie regelmäßig einen Ausweg findet. Die zugrunde liegende Sehnsucht nach Vollständigkeit bleibt trotzdem bestehen, auch wenn sie hier immerhin ausgesprochen wird." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – nichts fühlt sich je vollständig genug an, immer schwingt die Ahnung mit, dass es woanders intensiver, echter, tiefer sein könnte. Heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige, lautlose Verhärtung: Die Gefäße erleben weniger konstanten Druck als wiederkehrende, intensive emotionale Wellen." },
         ],
@@ -95524,7 +95524,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistung, die den inneren Druck erhöht",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert – Erschöpfung wird als Schwäche gedeutet, nicht als Signal. Der innere Druck, ständig funktionieren zu müssen, wird selten bewusst wahrgenommen, geschweige denn geäußert: Sie erledigt eine Aufgabe nach der anderen, ohne sich je die Frage zu stellen, ob das Tempo ihr selbst noch guttut." },
+      { code: "SE3", text: "Der innere Druck, ständig funktionieren zu müssen, wird bei der selbsterhaltenden Drei selten bewusst wahrgenommen, geschweige denn geäußert – sie arbeitet still und effizient weiter, auch wenn der Körper längst Pause fordert. Sie erledigt eine Aufgabe nach der anderen, ohne sich je die Frage zu stellen, ob das Tempo ihr selbst noch guttut." },
           { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im ständigen Vergleich mit anderen – ein Leben im Wettbewerbsmodus, das dem klassischen Bild der Typ-A-Persönlichkeit am nächsten kommt und kaum echte Entspannungsphasen kennt. Jeder Erfolg wird sofort zur neuen Ausgangslage für den nächsten Vergleich, sodass echte Ruhe strukturell kaum vorgesehen ist." },
           { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, wird selten offen benannt, aber über Jahre mitgetragen. Sie will für den einen Menschen makellos sein, in jeder Hinsicht, und dieser Anspruch lässt selbst die vertrauteste Beziehung zu einem Ort werden, an dem Anspannung nie ganz weicht." },
         ],
@@ -95532,7 +95532,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die sich als Anspannung festsetzt",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht, die sich nie in Worte, sondern nur in innerer Anspannung entlädt. Sie funktioniert pflichtbewusst, fast unauffällig, während innerlich ein tiefes Gefühl des Nicht-ganz-Angekommenseins mitläuft, das nie Raum bekommt, sich zu äußern." },
+      { code: "SE4", text: "Pflichtbewusst, fast unauffällig funktioniert die selbsterhaltende Vier, der Kontratyp, während innerlich ein tiefes Gefühl des Nicht-ganz-Angekommenseins mitläuft, das nie Raum bekommt, sich zu äußern – eine über Jahre unausgesprochene Sehnsucht, die sich nie in Worte, sondern nur in innerer Anspannung entlädt." },
           { code: "SO4", text: "Die soziale Vier lässt ihre innere Anspannung selten lange unbemerkt – sie zeigt Verletzlichkeit, spricht über ihre Kämpfe, sucht in der Gruppe Resonanz für das eigene Leiden. Dieser fortlaufende Ausdruck kann verhindern, dass sich der innere Druck so unbemerkt aufbaut wie bei stiller gehaltenen Subtypen, auch wenn die zugrunde liegende Sehnsucht selbst davon unberührt bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige Dauerspannung. Der innere Druck steigt und fällt mit der Intensität des Gefühlslebens, statt sich als konstante Grundspannung zu halten." },
         ],
@@ -95617,7 +95617,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistung, die die eigene Substanz verbraucht",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient weiter, auch wenn der Körper längst um Pause bittet – Erschöpfung wird als Schwäche gedeutet, die es zu überwinden gilt, nicht als Warnsignal. Über Jahrzehnte kann dieses konsequente Ignorieren der eigenen Grenzen die Substanz selbst erschöpfen: Sie funktioniert, bis buchstäblich nichts mehr geht, weil Innehalten sich nie wie eine echte Option angefühlt hat." },
+      { code: "SE3", text: "Über Jahrzehnte kann konsequentes Ignorieren der eigenen Grenzen bei der selbsterhaltenden Drei die Substanz selbst erschöpfen – Erschöpfung wird als Schwäche gedeutet, die es zu überwinden gilt, nicht als Warnsignal. Sie funktioniert, bis buchstäblich nichts mehr geht, weil Innehalten sich nie wie eine echte Option angefühlt hat." },
           { code: "SO3", text: "Die soziale Drei sucht Erfolg sichtbar und im ständigen Vergleich mit anderen – ein Leben im Wettbewerbsmodus, das kaum echte Regenerationsphasen kennt und die eigene Kraft über Jahre kontinuierlich beansprucht. Jeder Erfolg treibt sie zum nächsten, sodass echte Erholung strukturell kaum vorgesehen ist." },
           { code: "SX3", text: "Die sexuelle Drei setzt permanente Selbstoptimierung im Beziehungskontext ein – der Druck, auch im Intimsten nie nachzulassen, zehrt über Jahre an einer Substanz, die selten bewusst geschont wird. Sie investiert ihre gesamte Energie in das Bild, das der geliebte Mensch von ihr haben soll, und vergisst dabei, wie viel diese ständige Selbstinszenierung tatsächlich kostet." },
         ],
@@ -95625,7 +95625,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die die Kraft langsam auszehrt",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht kann sich als stille, nie thematisierte Erschöpfung im Körper niederschlagen. Sie funktioniert nach außen tapfer, während innerlich ein tiefes Gefühl der Unerfülltheit an ihrer Substanz zehrt, ohne dass es je einen Namen bekommt." },
+      { code: "SE4", text: "Nach außen tapfer funktioniert die selbsterhaltende Vier, der Kontratyp, während innerlich ein tiefes Gefühl der Unerfülltheit an ihrer Substanz zehrt, ohne dass es je einen Namen bekommt – eine über Jahre unausgesprochene Sehnsucht kann sich so als stille, nie thematisierte Erschöpfung im Körper niederschlagen." },
           { code: "SO4", text: "Die soziale Vier identifiziert sich stark mit ihrem Schmerz und trägt ihn sichtbar in die Gemeinschaft – dieses Zurschaustellen ist zugleich ein Stück Selbstfürsorge, weil es verhindert, dass die eigene Erschöpfung völlig unbemerkt bleibt. Anders als bei stillen Subtypen findet die Auszehrung hier wenigstens einen Resonanzraum, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen – heftige, episodische Kraftanstrengungen prägen hier das Bild eher als eine gleichmäßige Auszehrung. Jede Beziehungskrise wird mit voller emotionaler Wucht durchlebt, was punktuell erschöpft, statt gleichmäßig zu zehren." },
         ],
@@ -95710,7 +95710,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Vielfachtakt, der den eigenen Rhythmus überlagert",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei jongliert meist mehrere parallele Projekte gleichzeitig, arbeitet effizient, aber ständig auf mehreren Ebenen zugleich – ein Leben im Multitasking-Modus, das dem eigenen Herzen kaum je erlaubt, in einem einzigen, ruhigen Takt zu schlagen. Sie wechselt fließend zwischen Aufgaben, ohne zwischendurch je wirklich abzuschalten, bis die innere Taktung selbst durcheinandergerät." },
+      { code: "SE3", text: "Ein Leben im Multitasking-Modus, das dem eigenen Herzen kaum je erlaubt, in einem einzigen, ruhigen Takt zu schlagen: So jongliert die selbsterhaltende Drei meist mehrere parallele Projekte gleichzeitig, arbeitet effizient, aber ständig auf mehreren Ebenen zugleich. Sie wechselt fließend zwischen Aufgaben, ohne zwischendurch je wirklich abzuschalten, bis die innere Taktung selbst durcheinandergerät." },
           { code: "SO3", text: "Die soziale Drei orientiert sich an mehreren Erfolgsmaßstäben gleichzeitig – Karriere, Status, Anerkennung in verschiedenen sozialen Kreisen –, was einen ständig wechselnden inneren Takt erzeugt, je nachdem, welchem Publikum sie sich gerade zuwendet. Diese ständige Anpassung an unterschiedliche Erwartungen kann den eigenen, verlässlichen Rhythmus regelrecht auflösen." },
           { code: "SX3", text: "Die sexuelle Drei bündelt ihren Ehrgeiz auf die eine Beziehung, in der sie begehrenswert und erfolgreich erscheinen will – ein intensiver, aber konzentrierter Einsatz, der eher zu punktuellen, heftigen inneren Ausschlägen in besonders zugespitzten Beziehungsmomenten führt als zu chronischer, breitflächiger Zersplitterung." },
         ],
@@ -95718,7 +95718,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Gefühlsflut, die den geordneten Takt sprengt",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält innere Gefühlsstürme meist zurück und funktioniert nach außen erstaunlich beherrscht – doch genau diese unterdrückte, nie kanalisierte emotionale Intensität kann sich psychosomatisch als ein plötzlich aus dem Takt geratener Herzschlag entladen, wenn der innere Druck irgendwann die äußere Fassade übersteigt." },
+      { code: "SE4", text: "Erstaunlich beherrscht funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen, während sie innere Gefühlsstürme meist zurückhält – doch genau diese unterdrückte, nie kanalisierte emotionale Intensität kann sich psychosomatisch als ein plötzlich aus dem Takt geratener Herzschlag entladen, wenn der innere Druck irgendwann die äußere Fassade übersteigt." },
           { code: "SO4", text: "Die soziale Vier teilt intensive Gefühle offen mit der Gruppe, lässt niemanden im Unklaren über ihren inneren Zustand – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das dem inneren Chaos zumindest teilweise eine Richtung gibt, auch wenn die zugrunde liegende emotionale Überflutung selbst bestehen bleibt und den eigenen Takt weiterhin gefährdet." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung – genau diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Herzrhythmus, der in emotional zugespitzten Momenten seinen geordneten Takt verliert und ins Chaotische kippt." },
         ],
@@ -95803,7 +95803,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistungsanspruch, der die eigene Grenze überrennt",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert effizient und diszipliniert, auch wenn der Körper längst deutliche Warnsignale sendet – Innehalten fühlt sich wie ein Versagen an, das sie sich nicht erlaubt. Ein wiederkehrender Schmerz, der genau an der Belastungsgrenze auftaucht, kann so zum einzigen Signal werden, das sie überhaupt noch ernst nimmt, weil rein rationale Warnungen längst ignoriert wurden." },
+      { code: "SE3", text: "Innehalten fühlt sich bei der selbsterhaltenden Drei wie ein Versagen an, das sie sich nicht erlaubt – sie funktioniert effizient und diszipliniert, auch wenn der Körper längst deutliche Warnsignale sendet. Ein wiederkehrender Schmerz, der genau an der Belastungsgrenze auftaucht, kann so zum einzigen Signal werden, das sie überhaupt noch ernst nimmt, weil rein rationale Warnungen längst ignoriert wurden." },
           { code: "SO3", text: "Die soziale Drei misst sich fortlaufend am Erfolg anderer und treibt sich selbst zu immer höherer Leistung an, um im Vergleich zu bestehen – dieser äußere Maßstab kennt keine natürliche Obergrenze, wodurch die eigene körperliche Belastungsgrenze regelmäßig überschritten wird, bevor sie überhaupt wahrgenommen wird." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung begehrenswert und erfolgreich zu erscheinen – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine über den ganzen Alltag verteilte, chronische Überforderung." },
         ],
@@ -95811,7 +95811,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Emotionale Wucht, die die körperliche Grenze überschreitet",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid meist zäh und nach außen kontrolliert – diese unterdrückte emotionale Wucht kann sich, statt einen Ausdruck zu finden, körperlich als ein Schmerz zeigen, der genau dann auftritt, wenn die innere Anspannung eine bestimmte Schwelle überschreitet." },
+      { code: "SE4", text: "Statt einen Ausdruck zu finden, kann sich das intensive innere Leid, das die selbsterhaltende Vier, der Kontratyp, meist zäh und nach außen kontrolliert trägt, körperlich als ein Schmerz zeigen, der genau dann auftritt, wenn die innere Anspannung eine bestimmte Schwelle überschreitet." },
           { code: "SO4", text: "Anders als viele andere Subtypen hält die soziale Vier ihre Belastungsgrenze nicht geheim – sie spricht über Erschöpfung, zeigt sich verletzlich vor der Gruppe, findet darin zumindest teilweise ein Ventil. Der Ausdruck der eigenen emotionalen Intensität kann helfen, die innere Belastung nicht ausschließlich körperlich austragen zu müssen, auch wenn die zugrunde liegende Sehnsucht nach Vollständigkeit bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Nähe und Verzweiflung – gerade diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Schmerz, der in emotional zugespitzten Momenten seine eigene, unsichtbare Grenze markiert." },
         ],
@@ -95896,7 +95896,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Erfolgsdruck, der keine Entlastung kennt",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient weiter, auch wenn der Körper längst um Pause bittet – Erholung wird als verlorene Zeit erlebt, nicht als notwendiger Ausgleich. Über Jahre kann dieses Fehlen echter Erleichterungsphasen sich körperlich als ein System zeigen, das ständig unter Druck steht, ohne je wirklich zu entspannen." },
+      { code: "SE3", text: "Erholung wird bei der selbsterhaltenden Drei als verlorene Zeit erlebt, nicht als notwendiger Ausgleich – sie arbeitet effizient weiter, auch wenn der Körper längst um Pause bittet. Über Jahre kann dieses Fehlen echter Erleichterungsphasen sich körperlich als ein System zeigen, das ständig unter Druck steht, ohne je wirklich zu entspannen." },
           { code: "SO3", text: "Die soziale Drei sammelt Erfolge und Anerkennung fortlaufend an, ohne sich je zurückzulehnen und das Erreichte wirklich zu genießen – dieser endlose Vergleich mit dem nächsten Ziel verhindert die innere Erleichterung, die eigentlich auf jeden Erfolg folgen sollte." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte, oft intensive Einsatz kann in besonders zugespitzten Beziehungsmomenten zu punktuellen Belastungsspitzen führen, statt sich gleichmäßig über die Zeit zu stauen." },
         ],
@@ -95904,7 +95904,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die nie zur Erleichterung findet",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt ihr Leid zäh und stumm, ohne es je auszudrücken – eine über Jahre unausgesprochene Sehnsucht, die nie ein Ventil findet. Dieses fortgesetzte Zurückhalten kann sich körperlich als eine Stauung zeigen: Gefühle, die nie fließen dürfen, wie Blut, das nie zurückfließt." },
+      { code: "SE4", text: "Ohne es je auszudrücken trägt die selbsterhaltende Vier, der Kontratyp, ihr Leid zäh und stumm – eine über Jahre unausgesprochene Sehnsucht, die nie ein Ventil findet. Dieses fortgesetzte Zurückhalten kann sich körperlich als eine Stauung zeigen: Gefühle, die nie fließen dürfen, wie Blut, das nie zurückfließt." },
           { code: "SO4", text: "Die soziale Vier hält Groll und Enttäuschung selten lange zurück – sie spricht sie aus, trägt sie sichtbar in die Gemeinschaft, statt sie im Verborgenen anzustauen. Dieser regelmäßige Ausdruck kann der reinen körperlichen Stauung zumindest teilweise entgegenwirken, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos in der Beziehung aus – diese heftigen, aber episodischen Ausschläge zwischen Verschmelzung und Verzweiflung erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Stauung." },
         ],
@@ -95989,7 +95989,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Unbeugsamer Erfolgswille, der keine Bewegung mehr zulässt",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei hält an ihrem einmal eingeschlagenen Kurs fest, auch wenn er längst nicht mehr passt – Innehalten oder Kurswechsel fühlen sich wie Versagen an. Diese Starrheit, die selbst dann nicht nachgibt, wenn der Körper klare Warnsignale sendet, kann sich als eine feste, unbewegliche innere Blockade zeigen." },
+      { code: "SE3", text: "Innehalten oder Kurswechsel fühlen sich bei der selbsterhaltenden Drei wie Versagen an – sie hält an ihrem einmal eingeschlagenen Kurs fest, auch wenn er längst nicht mehr passt. Diese Starrheit, die selbst dann nicht nachgibt, wenn der Körper klare Warnsignale sendet, kann sich als eine feste, unbewegliche innere Blockade zeigen." },
           { code: "SO3", text: "Die soziale Drei verhärtet ihre Position im ständigen Wettbewerb um Anerkennung zunehmend – der Vergleich mit anderen lässt kaum Raum für Flexibilität oder Nachgiebigkeit, was sich über Jahre zu einer festen inneren Blockade verfestigen kann." },
           { code: "SX3", text: "Die sexuelle Drei verhärtet sich in einzelnen Beziehungskrisen, wenn ihr Bild als erfolgreiche, begehrenswerte Partnerin bedroht scheint – diese Erstarrung tritt eher punktuell und intensiv auf als gleichmäßig über die Zeit verteilt." },
         ],
@@ -95997,7 +95997,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Erstarrtes Leid, das sich nie löst",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält ihr inneres Leid über Jahre zurück, ohne es je auszudrücken – aus einem lebendigen, fließenden Gefühl kann so eine feste, erstarrte innere Blockade werden, die nie die Chance bekam, sich zu lösen, weil sie nie nach außen durfte." },
+      { code: "SE4", text: "Aus einem lebendigen, fließenden Gefühl kann eine feste, erstarrte innere Blockade werden, wenn die selbsterhaltende Vier, der Kontratyp, ihr inneres Leid über Jahre zurückhält, ohne es je auszudrücken – eine Blockade, die nie die Chance bekam, sich zu lösen, weil sie nie nach außen durfte." },
           { code: "SO4", text: "Wo andere Subtypen ihr Leid stumm mit sich herumtragen, bringt die soziale Vier es fortlaufend zur Sprache, macht es zum Teil ihrer sozialen Präsenz – dieser Ausdruck nach außen kann verhindern, dass sich das Gefühl zu einer völlig unbeweglichen inneren Blockade verfestigt, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, mit heftigen Ausschlägen zwischen Nähe und Verzweiflung – in besonders zugespitzten Momenten kann sich diese Intensität kurzzeitig zu völliger emotionaler Erstarrung verdichten, bevor sie sich wieder löst." },
         ],
@@ -96082,7 +96082,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Erfolgsfassade, hinter der sich die Erschöpfung staut",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert effizient weiter, auch wenn der Körper längst deutliche Warnsignale sendet – jedes Signal von Schwäche wird konsequent übergangen. Diese über Jahre fortgesetzte Verleugnung der eigenen Erschöpfung kann sich als innere Fülle ansammeln, die sich, wenn der Damm bricht, besonders unvermittelt entlädt." },
+      { code: "SE3", text: "Jedes Signal von Schwäche wird bei der selbsterhaltenden Drei konsequent übergangen – sie funktioniert effizient weiter, auch wenn der Körper längst deutliche Warnsignale sendet. Diese über Jahre fortgesetzte Verleugnung der eigenen Erschöpfung kann sich als innere Fülle ansammeln, die sich, wenn der Damm bricht, besonders unvermittelt entlädt." },
           { code: "SO3", text: "Die soziale Drei hält die Fassade des Erfolgs auch dann noch aufrecht, wenn innerlich längst nichts mehr zusammenpasst – dieser wachsende Widerspruch zwischen äußerem Bild und innerer Realität kann sich über Jahre zu einer aufgestauten Spannung verdichten, die sich plötzlich entlädt." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre gesamte Energie darauf, in der Beziehung als erfolgreich und begehrenswert zu erscheinen – diese fokussierte, aber intensive Anstrengung erzeugt eher punktuelle Drucksteigerungen in einzelnen Beziehungskrisen als eine gleichmäßig akkumulierte Fülle." },
         ],
@@ -96090,7 +96090,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Verstummte Sehnsucht, die sich gewaltsam Ausdruck verschafft",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid über Jahre zäh und stumm, ohne es je auszudrücken – diese fortgesetzte Verleugnung einer eigentlich sehr lebendigen emotionalen Welt kann sich als aufgestaute Fülle zeigen, die sich, wenn sie sich löst, mit besonderer Wucht Bahn bricht, weil sie nie einen anderen Ausweg gefunden hat." },
+      { code: "SE4", text: "Diese fortgesetzte Verleugnung einer eigentlich sehr lebendigen emotionalen Welt entsteht, wenn die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid über Jahre zäh und stumm trägt, ohne es je auszudrücken. Sie kann sich als aufgestaute Fülle zeigen, die sich, wenn sie sich löst, mit besonderer Wucht Bahn bricht, weil sie nie einen anderen Ausweg gefunden hat." },
           { code: "SO4", text: "Die soziale Vier stellt ihr Leiden bewusst zur Schau, sucht in der Gruppe Resonanz für ihren Schmerz – dieses fortlaufende Ventil kann helfen, die innere emotionale Fülle über die Jahre eher abzuleiten als anzustauen, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung – diese dramatischen, aber ausgelebten Wendungen entladen sich eher fortlaufend als sich über Jahrzehnte zu einer einzigen großen Fülle aufzustauen." },
         ],
@@ -96175,7 +96175,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistungsdruck, der die eigene Kraft für andere aufbraucht",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet still und effizient, oft im Hintergrund, ohne den eigenen Beitrag sichtbar zu behaupten – anders als die soziale Drei sucht sie kaum Anerkennung nach außen, was langfristig dazu führen kann, dass ihr die Energie fehlt, für die eigene Position überhaupt einzustehen." },
+      { code: "SE3", text: "Anders als die soziale Drei sucht die selbsterhaltende Drei kaum Anerkennung nach außen – sie arbeitet still und effizient, oft im Hintergrund, ohne den eigenen Beitrag sichtbar zu behaupten, was langfristig dazu führen kann, dass ihr die Energie fehlt, für die eigene Position überhaupt einzustehen." },
           { code: "SO3", text: "Die soziale Drei bezieht ihren Antrieb fast ausschließlich aus äußerer Anerkennung – bleibt diese aus oder wird der Erfolg nicht bemerkt, kann die innere Energiequelle regelrecht versiegen, weil sie nie gelernt hat, Kraft aus sich selbst heraus zu schöpfen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – der Kraftmangel zeigt sich hier eher punktuell, wenn diese Anstrengung über einen längeren Zeitraum nicht die erhoffte Bestätigung findet." },
         ],
@@ -96183,7 +96183,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die die eigene Lebenskraft nach innen zieht",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält ihr inneres Leid zurück und funktioniert nach außen erstaunlich beherrscht – doch die Energie, die es kostet, dieses Leid ständig zu verbergen, kann an anderer Stelle fehlen: der Kraft, sich selbst mit Nachdruck in der Welt zu behaupten." },
+      { code: "SE4", text: "Die Energie, die es kostet, inneres Leid ständig zu verbergen, kann der selbsterhaltenden Vier, dem Kontratyp, an anderer Stelle fehlen: der Kraft, sich selbst mit Nachdruck in der Welt zu behaupten, während sie nach außen erstaunlich beherrscht funktioniert." },
           { code: "SO4", text: "Die soziale Vier bezieht einen Teil ihrer Identität aus dem sichtbar gemachten Leid – diese Identifikation mit dem eigenen Schmerz kann paradoxerweise Energie binden, die für eine kraftvolle Selbstbehauptung im Alltag fehlt, weil der Fokus stärker auf dem Ausdruck des Leids liegt als auf dem eigenen Antrieb." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese Intensität selbst ist eine Form von Kraft, auch wenn sie sich nicht als stabiler, gleichmäßiger Antrieb zeigt, sondern in heftigen Wellen zwischen Aufschwung und Erschöpfung." },
         ],
@@ -96268,7 +96268,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Immer gleicher Erfolgsweg, der keine Kurskorrektur zulässt",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei hält an einem einmal bewährten, effizienten Arbeitsmuster fest, wiederholt dieselben Bewegungsabläufe über Jahre, weil sie funktionieren – diese Weigerung, etwas zu verändern, das noch läuft, kann genau die einseitige, wiederholte Belastung erzeugen, die Gelenke mechanisch am stärksten abnutzt." },
+      { code: "SE3", text: "Weil es funktioniert, wird es nie verändert: Die selbsterhaltende Drei hält an einem einmal bewährten, effizienten Arbeitsmuster fest und wiederholt dieselben Bewegungsabläufe über Jahre. Diese Weigerung kann genau die einseitige, wiederholte Belastung erzeugen, die Gelenke mechanisch am stärksten abnutzt." },
           { code: "SO3", text: "Die soziale Drei verfolgt über Jahre denselben Erfolgspfad, das immer gleiche Muster von Leistung und Anerkennung, ohne es zu variieren – diese unveränderte Ausrichtung kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Anpassungsfähigkeit zulässt." },
           { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung und deren Erwartungen an – diese Anpassungsfähigkeit im Beziehungskontext kann der starren Wiederholung, die für Arthrose typisch ist, zumindest teilweise entgegenwirken." },
         ],
@@ -96276,7 +96276,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Festgehaltene Sehnsucht, die keine neue Bewegung erlaubt",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält an ihrem stillen, zähen Umgang mit Leid über Jahre unverändert fest – dieses immer gleiche innere Muster, nie auszudrücken, was eigentlich gefühlt wird, kann sich als eine Rigidität zeigen, die sich in mangelnder Flexibilität auch auf körperlicher Ebene niederschlägt." },
+      { code: "SE4", text: "Nie auszudrücken, was eigentlich gefühlt wird: An diesem immer gleichen inneren Muster hält die selbsterhaltende Vier, der Kontratyp, über Jahre unverändert fest. Es kann sich als eine Rigidität zeigen, die sich in mangelnder Flexibilität auch auf körperlicher Ebene niederschlägt." },
           { code: "SO4", text: "Die soziale Vier hält an keiner starren Rolle fest, zeigt sich der Gruppe mal verletzlich, mal kämpferisch, je nachdem, was die Situation verlangt – diese Beweglichkeit im emotionalen Ausdruck kann der starren, immer gleichen Wiederholung entgegenwirken, die für Arthrose besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Beziehung zu Beziehung, von Moment zu Moment stark verändert – diese hohe emotionale Variabilität steht dem starren, wiederholten Muster entgegen, das die Arthrose psychosomatisch besonders kennzeichnet." },
         ],
@@ -96361,7 +96361,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistungslast, die keine Unterstützung zulässt",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient und allein weiter, auch wenn der Rücken längst um Entlastung bittet – Hilfe anzunehmen widerspricht ihrem Selbstbild der eigenständigen Leistungsfähigkeit. Dieses konsequente Alleintragen kann sich über Jahre als chronischer Rückenschmerz zeigen." },
+      { code: "SE3", text: "Hilfe anzunehmen widerspricht dem Selbstbild der eigenständigen Leistungsfähigkeit – die selbsterhaltende Drei arbeitet effizient und allein weiter, auch wenn der Rücken längst um Entlastung bittet. Dieses konsequente Alleintragen kann sich über Jahre als chronischer Rückenschmerz zeigen." },
           { code: "SO3", text: "Die soziale Drei trägt den Druck, im ständigen Vergleich mit anderen zu bestehen, meist ohne dies je offen zu zeigen – diese unsichtbare Last des permanenten Leistungsanspruchs kann sich körperlich als Rückenschmerz niederschlagen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung erfolgreich zu erscheinen – dieser fokussierte Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine chronische, gleichmäßig verteilte Last." },
         ],
@@ -96369,7 +96369,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Emotionale Last, die sich nie aufrichten durfte",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm, ohne es je auszudrücken – ein Rücken, der sich unter dieser über Jahre unausgesprochenen Sehnsucht buchstäblich krümmt, kann psychosomatisch als eines der plausibelsten Bilder für diesen niemals abgelegten emotionalen Druck gelesen werden." },
+      { code: "SE4", text: "Ein Rücken, der sich unter über Jahre unausgesprochener Sehnsucht buchstäblich krümmt: So trägt die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid zäh und stumm, ohne es je auszudrücken. Das kann psychosomatisch als eines der plausibelsten Bilder für diesen niemals abgelegten emotionalen Druck gelesen werden." },
           { code: "SO4", text: "Die soziale Vier spricht offen über die Lasten, die sie trägt, statt sie schweigend mit sich herumzuschleppen – dieser Ausdruck nach außen kann als Ventil wirken, das der reinen körperlichen Rückenlast zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese heftigen, aber ausgelebten Ausschläge zwischen Nähe und Verzweiflung erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Rückenlast." },
         ],
@@ -96454,7 +96454,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistungsanspruch, der keine eigene Schwäche duldet",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei verlangt von sich selbst kompromisslose Leistung, auch wenn der Körper längst Erschöpfung signalisiert – jedes Zeichen von Schwäche wird als persönliches Versagen gewertet und entsprechend hart mit sich selbst ins Gericht gegangen. Diese innere Härte gegen sich selbst passt zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
+      { code: "SE3", text: "Jedes Zeichen von Schwäche wird als persönliches Versagen gewertet und entsprechend hart mit sich selbst ins Gericht gegangen: So verlangt die selbsterhaltende Drei von sich selbst kompromisslose Leistung, auch wenn der Körper längst Erschöpfung signalisiert. Diese innere Härte gegen sich selbst passt zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
           { code: "SO3", text: "Die soziale Drei misst sich unaufhörlich am Erfolg anderer und wertet die eigene Person hart ab, sobald sie im Vergleich zurückbleibt – diese fortlaufende innere Selbstabwertung kann sich körperlich als ein System niederschlagen, das sich selbst als Ziel wählt." },
           { code: "SX3", text: "Die sexuelle Drei richtet ihren Perfektionsanspruch stark auf die Beziehung und das Bild, das der geliebte Mensch von ihr hat – diese Ausrichtung nach außen kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis typisch ist, zumindest teilweise abmildern." },
         ],
@@ -96462,7 +96462,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Selbstverurteilung, die aus unerfüllter Sehnsucht entsteht",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält ihr Leid zurück und richtet ihre Enttäuschung über die eigene vermeintliche Unzulänglichkeit oft gegen sich selbst – diese nach innen gerichtete Selbstverurteilung, nie nach außen ausgesprochen, passt besonders genau zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
+      { code: "SE4", text: "Nie nach außen ausgesprochen, sondern gegen sich selbst gerichtet: So hält die selbsterhaltende Vier, der Kontratyp, ihr Leid zurück und richtet ihre Enttäuschung über die eigene vermeintliche Unzulänglichkeit gegen sich selbst. Diese Selbstverurteilung passt besonders genau zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
           { code: "SO4", text: "Die soziale Vier richtet ihre emotionale Intensität eher nach außen als konsequent gegen sich selbst, spricht ihr Leiden offen aus, statt es innerlich zu verurteilen – dieser Ausdruck kann den vollständigen Selbstangriff, der bei anderen Vier-Varianten möglich ist, etwas abmildern, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich stark nach außen richtet, in die Beziehung – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der für rheumatoide Arthritis psychosomatisch besonders typisch ist." },
         ],
@@ -96547,7 +96547,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistungsstreben, das die eigene Substanz übergeht",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient weiter, über Jahre, ohne sich je bewusst Erholung oder echte Selbstfürsorge zu gönnen – Leistung wird höher bewertet als das eigene Wohlergehen. Diese über Jahrzehnte fortgesetzte Vernachlässigung der eigenen Substanz zugunsten der Funktion kann sich als eine still schwindende Knochendichte zeigen." },
+      { code: "SE3", text: "Leistung wird höher bewertet als das eigene Wohlergehen: Die selbsterhaltende Drei arbeitet effizient weiter, über Jahre, ohne sich je bewusst Erholung oder echte Selbstfürsorge zu gönnen. Diese über Jahrzehnte fortgesetzte Vernachlässigung der eigenen Substanz zugunsten der Funktion kann sich als eine still schwindende Knochendichte zeigen." },
           { code: "SO3", text: "Die soziale Drei misst sich fortlaufend am Erfolg anderer und investiert ihre gesamte Energie in äußere Anerkennung, während die innere Substanz, die eigene Selbstfürsorge, über Jahre unbeachtet bleibt – dieser äußere Fokus kann sich körperlich als schwindende Substanz zeigen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte, aber emotional lebendige Einsatz unterscheidet sich von der reinen Funktionsorientierung anderer Drei-Varianten und kann etwas mehr innere Nährung ermöglichen." },
         ],
@@ -96555,7 +96555,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die die eigene Substanz nie satt macht",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, funktioniert nach außen tapfer, während innerlich eine tiefe, nie gestillte Sehnsucht nach Vollständigkeit über Jahre unbemerkt an ihrer Substanz zehrt – dieses stille, nie geäußerte Fehlen kann sich als eine langsam schwindende innere Dichte zeigen, ganz ähnlich der Osteoporose, die sich ebenfalls erst spät zu erkennen gibt." },
+      { code: "SE4", text: "Über Jahre unbemerkt zehrt eine tiefe, nie gestillte Sehnsucht nach Vollständigkeit an der Substanz der selbsterhaltenden Vier, dem Kontratyp, die nach außen tapfer funktioniert. Dieses stille, nie geäußerte Fehlen kann sich als eine langsam schwindende innere Dichte zeigen, ganz ähnlich der Osteoporose, die sich ebenfalls erst spät zu erkennen gibt." },
           { code: "SO4", text: "Die soziale Vier verbirgt ihre innere Leere nicht, sondern zeigt sie – dieser fortlaufende, oft unbewusst wirksame Ausdruck erzeugt zumindest eine Form von Aufmerksamkeit und Zuwendung von außen, was der vollständigen, unbemerkten Auszehrung anderer Vier-Varianten etwas entgegenwirkt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, ein lebendiger, wenn auch wechselhafter Austausch mit dem geliebten Menschen – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, die der stillen Auszehrung anderer Subtypen entgegensteht." },
         ],
@@ -96640,7 +96640,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Vielfachbelastung, die sich in keinem einzelnen Projekt zeigt",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei jongliert meist mehrere parallele Projekte gleichzeitig, arbeitet auf vielen Ebenen zugleich – diese über den gesamten Alltag verteilte Anspannung, nirgends an einem einzelnen Punkt konzentriert, passt zum Bild eines Schmerzes, der den ganzen Körper durchzieht, ohne dass sich eine einzelne Struktur dafür verantwortlich zeigt." },
+      { code: "SE3", text: "Diese über den gesamten Alltag verteilte Anspannung, nirgends an einem einzelnen Punkt konzentriert, entsteht, wenn die selbsterhaltende Drei meist mehrere parallele Projekte gleichzeitig jongliert und auf vielen Ebenen zugleich arbeitet. Das passt zum Bild eines Schmerzes, der den ganzen Körper durchzieht, ohne dass sich eine einzelne Struktur dafür verantwortlich zeigt." },
           { code: "SO3", text: "Die soziale Drei orientiert sich an mehreren Erfolgsmaßstäben gleichzeitig, in verschiedenen sozialen Kreisen – diese ständige Verteilung der eigenen Energie auf viele Fronten kann sich als ein System zeigen, das insgesamt überlastet ist, ohne dass sich eine einzelne Ursache benennen lässt." },
           { code: "SX3", text: "Die sexuelle Drei bündelt ihren Ehrgeiz auf die eine Beziehung – diese Fokussierung auf einen konzentrierten Bereich steht dem diffusen, über die ganze Existenz verteilten Erschöpfungsmuster entgegen." },
         ],
@@ -96648,7 +96648,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Unbenannte Gefühlsflut, die sich im ganzen Körper zeigt",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält intensive innere Gefühlsstürme zurück und lässt sie nie an einer konkreten Stelle erkennbar werden – diese über den ganzen Körper diffundierte, nie lokalisierte emotionale Wucht passt besonders genau zum Bild der Fibromyalgie: ein Schmerz, der überall spürbar ist, weil er nirgends explizit ausgesprochen werden durfte." },
+      { code: "SE4", text: "Nie an einer konkreten Stelle erkennbar: So hält die selbsterhaltende Vier, der Kontratyp, intensive innere Gefühlsstürme zurück. Diese über den ganzen Körper diffundierte, nie lokalisierte emotionale Wucht passt besonders genau zum Bild der Fibromyalgie: ein Schmerz, der überall spürbar ist, weil er nirgends explizit ausgesprochen werden durfte." },
           { code: "SO4", text: "Die soziale Vier benennt ihren Schmerz konkret, statt ihn diffus im Körper zu verteilen – dieser fokussierte, klar artikulierte Ausdruck steht dem diffusen, über den ganzen Körper verteilten Schmerzmuster entgegen, das eher bei weniger ausgedrückten Formen von Leid auftritt." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der Beziehung – diese fokussierte, wenn auch heftige Intensität konzentriert sich auf einen Bereich, statt sich diffus über den ganzen Körper zu verteilen." },
         ],
@@ -96733,7 +96733,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Zugriff, der nie zur Ruhe kommt",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient und mit den eigenen Händen weiter, auch wenn der Körper längst um Pause bittet – wiederholte, monotone Arbeitsbewegungen ohne ausreichende Erholung passen besonders genau zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
+      { code: "SE3", text: "Wiederholte, monotone Arbeitsbewegungen ohne ausreichende Erholung: So arbeitet die selbsterhaltende Drei effizient und mit den eigenen Händen weiter, auch wenn der Körper längst um Pause bittet. Das passt besonders genau zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
           { code: "SO3", text: "Die soziale Drei greift fortlaufend nach neuen Erfolgen und Projekten, um im Vergleich mit anderen zu bestehen – dieser endlose Zugriff auf immer neue Aufgaben, ohne echte Regenerationsphasen, kann sich als überlastete, eingeengte Handlungsfähigkeit zeigen." },
           { code: "SX3", text: "Die sexuelle Drei setzt ihre Energie konzentriert darauf, in der Beziehung begehrenswert zu erscheinen – dieser fokussierte Einsatz erzeugt eher punktuelle Anspannung als eine chronische, mechanisch wiederholte Überlastung der Hand." },
         ],
@@ -96741,7 +96741,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Festhalten an Sehnsucht, die die Hand nicht loslässt",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält an ihrem stillen inneren Leid fest, funktioniert nach außen beherrscht, oft mit angespannten, kontrollierten Händen – dieses über Jahre unausgesprochene, aber körperlich festgehaltene Muster kann sich als eingeengte Handlungsfähigkeit zeigen." },
+      { code: "SE4", text: "Oft mit angespannten, kontrollierten Händen funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen beherrscht, während sie an ihrem stillen inneren Leid festhält – dieses über Jahre unausgesprochene, aber körperlich festgehaltene Muster kann sich als eingeengte Handlungsfähigkeit zeigen." },
           { code: "SO4", text: "Die soziale Vier trägt inneren Schmerz vor allem als emotionalen, nicht als mechanischen Ausdruck in die Gruppe – dieser primär sprachlich-emotionale statt körperliche Ausdruck steht der rein mechanischen Überlastung, die für Karpaltunnelsyndrom typisch ist, eher entgegen." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – diese emotionale, nicht primär körperlich-mechanische Intensität erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
         ],
@@ -96826,7 +96826,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Angesammelter Druck hinter der Erfolgsfassade",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei hält die Fassade der Funktionsfähigkeit über lange Zeit aufrecht, verdrängt Erschöpfung und Frustration konsequent – dieser über Monate angesammelte innere Druck kann sich schließlich in einem einzigen, dramatischen Zusammenbruch entladen, ganz im Bild des scheinbar plötzlichen Gichtanfalls." },
+      { code: "SE3", text: "Über Monate angesammelter innerer Druck kann sich bei der selbsterhaltenden Drei schließlich in einem einzigen, dramatischen Zusammenbruch entladen – sie hält die Fassade der Funktionsfähigkeit über lange Zeit aufrecht und verdrängt Erschöpfung und Frustration konsequent, ganz im Bild des scheinbar plötzlichen Gichtanfalls." },
           { code: "SO3", text: "Die soziale Drei hält den Druck des ständigen Vergleichs mit anderen lange zurück, bevor sich angestaute Frustration über ausbleibenden Erfolg schließlich Bahn bricht – diese Dynamik aus langer Ansammlung und plötzlicher Entladung passt zum psychosomatischen Bild der Gicht." },
           { code: "SX3", text: "Die sexuelle Drei drückt Frustration über ausbleibende Anerkennung in der Beziehung eher direkt und zeitnah aus – diese unmittelbarere Reaktion steht der langen, stillen Ansammlung entgegen, die für die Gicht typisch ist." },
         ],
@@ -96834,7 +96834,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Angestaute Sehnsucht, die sich schließlich Bahn bricht",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält intensives inneres Leid über Jahre zurück, ohne es je auszudrücken – diese lange, stille Ansammlung, die nie einen Ausweg findet, passt besonders genau zum Bild der Gicht: eine Intensität, die sich, wenn sie sich löst, scharf und unübersehbar entlädt." },
+      { code: "SE4", text: "Diese lange, stille Ansammlung, die nie einen Ausweg findet, entsteht, wenn die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid über Jahre zurückhält, ohne es je auszudrücken. Sie passt besonders genau zum Bild der Gicht: eine Intensität, die sich, wenn sie sich löst, scharf und unübersehbar entlädt." },
           { code: "SO4", text: "Die soziale Vier lässt aufgestaute Enttäuschung selten lange in sich gären, sondern bringt sie zeitnah in der Gruppe zur Sprache – dieser regelmäßige Ausdruck steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
           { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos und unmittelbar aus – diese direkte, fortlaufende Entladung steht der langen Ansammlung entgegen, die für die Gicht psychosomatisch typisch ist." },
         ],
@@ -96919,7 +96919,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Immer derselbe angespannte Leistungsgriff",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei wiederholt über Jahre dieselben effizienten, aber verkrampften Arbeitsbewegungen, ohne je bewusst zu entspannen – diese monotone, nie variierte Anstrengung passt besonders direkt zum mechanischen Entstehungsmuster des Tennisarms: ein Ansatzpunkt, der unter der ständigen Wiederholung derselben Bewegung erschöpft ist." },
+      { code: "SE3", text: "Ohne je bewusst zu entspannen, wiederholt die selbsterhaltende Drei über Jahre dieselben effizienten, aber verkrampften Arbeitsbewegungen. Diese monotone, nie variierte Anstrengung passt besonders direkt zum mechanischen Entstehungsmuster des Tennisarms: ein Ansatzpunkt, der unter der ständigen Wiederholung derselben Bewegung erschöpft ist." },
           { code: "SO3", text: "Die soziale Drei wiederholt über Jahre denselben angespannten Griff nach Erfolg und Anerkennung, immer mit demselben inneren Druck – diese unveränderte Anstrengung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
           { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung an – diese Anpassungsfähigkeit steht der starren, monotonen Wiederholung entgegen, die für den Tennisarm besonders typisch ist." },
         ],
@@ -96927,7 +96927,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Immer dieselbe festgehaltene innere Anspannung",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält über Jahre dieselbe innere Anspannung fest, funktioniert nach außen beherrscht, mit angespannten, kontrollierten Händen – diese unveränderte, nie gelöste körperliche Haltung passt zum Bild eines Sehnenansatzes, der unter ständiger, nie variierter Anspannung erschöpft ist." },
+      { code: "SE4", text: "Mit angespannten, kontrollierten Händen funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen beherrscht und hält über Jahre dieselbe innere Anspannung fest. Diese unveränderte, nie gelöste körperliche Haltung passt zum Bild eines Sehnenansatzes, der unter ständiger, nie variierter Anspannung erschöpft ist." },
           { code: "SO4", text: "Die soziale Vier passt ihre emotionale Selbstdarstellung an das jeweilige Publikum an, wiederholt selten dieselbe Geste zweimal genau gleich – diese Beweglichkeit im Ausdruck kann der starren, immer gleichen körperlichen Anspannung entgegenwirken, die für den Tennisarm besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Moment zu Moment stark verändert – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das den Tennisarm psychosomatisch kennzeichnet." },
         ],
@@ -97012,7 +97012,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistungshaltung, die keine Entspannung der Schulter zulässt",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei hält ihre Schultern buchstäblich und im übertragenen Sinne straff, immer bereit für die nächste Aufgabe – echte Entspannung, echtes Loslassen der Anspannung, gelingt selten. Diese über Jahre gehaltene Grundspannung passt zum Bild einer zunehmenden Erstarrung des Schultergelenks." },
+      { code: "SE3", text: "Immer bereit für die nächste Aufgabe hält die selbsterhaltende Drei ihre Schultern buchstäblich und im übertragenen Sinne straff – echte Entspannung, echtes Loslassen der Anspannung, gelingt selten. Diese über Jahre gehaltene Grundspannung passt zum Bild einer zunehmenden Erstarrung des Schultergelenks." },
           { code: "SO3", text: "Die soziale Drei hält eine aufrechte, leistungsbereite Körperhaltung auch dann noch, wenn Erschöpfung längst eingesetzt hat – diese unveränderte, nie entspannte Haltung kann sich als eine Versteifung der Schulter zeigen." },
           { code: "SX3", text: "Die sexuelle Drei lässt in der Beziehung durchaus emotionale Nähe und Berührung zu, um begehrenswert zu erscheinen – diese Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
@@ -97020,7 +97020,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht nach Nähe, die sich selbst blockiert",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, sehnt sich nach Umarmung und Verbindung, hält den eigenen Körper aber oft unbewusst angespannt, um das Leid nicht zu zeigen – diese unaufgelöste Spannung zwischen Sehnsucht und Kontrolle kann sich genau an der Schulter zeigen, jenem Gelenk, das für Umarmung zuständig wäre." },
+      { code: "SE4", text: "Die Sehnsucht nach Umarmung und Verbindung bleibt bei der selbsterhaltenden Vier, dem Kontratyp, oft unerfüllt – sie hält den eigenen Körper unbewusst angespannt, um das Leid nicht zu zeigen. Diese unaufgelöste Spannung zwischen Sehnsucht und Kontrolle kann sich genau an der Schulter zeigen, jenem Gelenk, das für Umarmung zuständig wäre." },
           { code: "SO4", text: "Die soziale Vier drückt ihre Sehnsucht nach Nähe offen aus und sucht durchaus Berührung und Verbindung – dieser Ausdruck steht der stillen, nie gelösten Erstarrung entgegen, die für die Frozen Shoulder besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale und körperliche Intensität in der Beziehung, mit viel direkter Nähe – diese ausgelebte Intensität steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
@@ -97105,7 +97105,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Leistung, die bis zum plötzlichen Zusammenbruch durchhält",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet effizient weiter, auch wenn der Körper längst um Pause bittet – bis ein einziger zusätzlicher Handgriff, ein letztes Bücken, genügt, damit der überlastete Rücken plötzlich nachgibt. Dieses Muster, bis zum Zusammenbruch durchzuhalten, ohne vorher nachzugeben, passt besonders genau zum Bild des Hexenschusses." },
+      { code: "SE3", text: "Bis ein einziger zusätzlicher Handgriff, ein letztes Bücken, genügt, damit der überlastete Rücken plötzlich nachgibt: So arbeitet die selbsterhaltende Drei effizient weiter, auch wenn der Körper längst um Pause bittet. Dieses Muster, bis zum Zusammenbruch durchzuhalten, ohne vorher nachzugeben, passt besonders genau zum Bild des Hexenschusses." },
           { code: "SO3", text: "Die soziale Drei hält den Druck des ständigen Vergleichs mit anderen lange durch, ohne die eigene Erschöpfung je zu zeigen – wenn diese lange angesammelte Überforderung sich schließlich löst, geschieht dies oft plötzlich und unübersehbar." },
           { code: "SX3", text: "Die sexuelle Drei zeigt Erschöpfung in der Beziehung eher direkt, wenn ihr Bild als erfolgreiche Partnerin bedroht scheint – diese unmittelbarere Reaktion steht dem lange zurückgehaltenen, dann plötzlich einschießenden Muster entgegen." },
         ],
@@ -97113,7 +97113,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Zurückgehaltenes Leid, das plötzlich einschießt",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm, ohne es je auszudrücken – bis ein einziger, oft nichtiger Anlass genügt, damit sich die lange zurückgehaltene Anspannung körperlich Bahn bricht. Dieses plötzliche, blitzartige Einschießen nach langer stiller Ansammlung passt besonders genau zum Bild des Hexenschusses." },
+      { code: "SE4", text: "Bis ein einziger, oft nichtiger Anlass genügt, damit sich lange zurückgehaltene Anspannung körperlich Bahn bricht: So trägt die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid zäh und stumm, ohne es je auszudrücken. Dieses plötzliche, blitzartige Einschießen nach langer stiller Ansammlung passt besonders genau zum Bild des Hexenschusses." },
           { code: "SO4", text: "Die soziale Vier neigt dazu, Anspannung zeitnah zu artikulieren, statt sie über Wochen anzusammeln – dieser regelmäßige Ausdruck steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt ihre emotionale Intensität kompromisslos und unmittelbar aus – diese direkte, fortlaufende Entladung steht der langen Ansammlung entgegen, die für den Hexenschuss psychosomatisch typisch ist." },
         ],
@@ -97198,7 +97198,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 3, titel: "Immer dieselbe effiziente Bewegung ohne Pause",
         varianten: [
-          { code: "SE3", text: "Die selbsterhaltende Drei wiederholt über Jahre dieselben effizienten, aber monotonen Arbeitsbewegungen, ohne je bewusst zu pausieren – diese ständige, nie unterbrochene Anstrengung passt besonders direkt zum mechanischen Entstehungsmuster der Sehnenscheidenentzündung: eine Hülle, die sich entzündet, weil sie nie eine Erholungspause bekam." },
+      { code: "SE3", text: "Ohne je bewusst zu pausieren, wiederholt die selbsterhaltende Drei über Jahre dieselben effizienten, aber monotonen Arbeitsbewegungen. Diese ständige, nie unterbrochene Anstrengung passt besonders direkt zum mechanischen Entstehungsmuster der Sehnenscheidenentzündung: eine Hülle, die sich entzündet, weil sie nie eine Erholungspause bekam." },
           { code: "SO3", text: "Die soziale Drei wiederholt über Jahre denselben angespannten Griff nach Erfolg, oft mit denselben konkreten Handlungen – diese unveränderte Anstrengung kann sich als eine entzündete Schutzhülle zeigen." },
           { code: "SX3", text: "Die sexuelle Drei passt ihr Verhalten stark an die jeweilige Beziehung an – diese Anpassungsfähigkeit steht der starren, monotonen Wiederholung entgegen, die für die Sehnenscheidenentzündung besonders typisch ist." },
         ],
@@ -97206,7 +97206,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Immer dieselbe festgehaltene innere Bewegung",
         varianten: [
-          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, hält über Jahre dieselbe innere Anspannung fest, oft mit denselben angespannten, kontrollierten Handbewegungen – diese unveränderte, nie gelöste körperliche Haltung passt zum Bild einer Sehnenscheide, die unter ständiger, nie variierter Anspannung erschöpft." },
+      { code: "SE4", text: "Oft mit denselben angespannten, kontrollierten Handbewegungen hält die selbsterhaltende Vier, der Kontratyp, über Jahre dieselbe innere Anspannung fest. Diese unveränderte, nie gelöste körperliche Haltung passt zum Bild einer Sehnenscheide, die unter ständiger, nie variierter Anspannung erschöpft." },
           { code: "SO4", text: "Die soziale Vier wechselt zwischen verschiedenen Formen des Ausdrucks – mal Worte, mal Gestik, mal Rückzug ins Künstlerische –, statt eine einzige Bewegung endlos zu wiederholen. Diese Beweglichkeit kann der starren, immer gleichen Anspannung entgegenwirken, die für die Sehnenscheidenentzündung besonders typisch ist." },
           { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität, die sich von Moment zu Moment stark verändert – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das die Sehnenscheidenentzündung psychosomatisch kennzeichnet." },
         ],
