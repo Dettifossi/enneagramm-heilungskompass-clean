@@ -60992,6 +60992,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to atrial fibrillation, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates with its own inner rhythm in its own way – some through tight control that eventually slips, others through scattering, overstimulation, or a rhythm of their own that was never found. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  koronare_herzkrankheit: {
+    titel: "Coronary Artery Disease / Angina Pectoris",
+    kategorie: "herz-kreislauf",
+    icon: "&#9889;",
+    kurz: "When the body marks the same invisible limit every time it is pushed.",
+    definition: "Coronary artery disease (CAD) refers to the narrowing of the coronary arteries, caused by atherosclerosis, that supply blood to the heart muscle. When blood flow under exertion is no longer sufficient, angina pectoris results (Latin for &bdquo;chest tightness&ldquo;): an episodic, usually pressure-like pain behind the breastbone. In stable angina pectoris, the pain occurs reproducibly at a certain exertion threshold and eases within a few minutes at rest or after taking nitroglycerin. In unstable angina pectoris, the pain is new, worsening, longer-lasting, or already occurring at rest – a medical emergency, since it can directly precede a heart attack.",
+    symptome: [
+      "Pressure, tightness, or a burning sensation behind the breastbone, typically under physical or emotional exertion",
+      "Pain radiating into the left arm, jaw, neck, back, or upper abdomen",
+      "Symptoms easing within a few minutes at rest or after taking nitroglycerin (stable angina pectoris)",
+      "Shortness of breath or a sense of being winded under exertion",
+      "In women, older adults, and diabetics, often less typical: a diffuse feeling of pressure, nausea, or exhaustion instead of classic chest pain",
+      "Increasing symptoms at ever lower levels of exertion as a warning sign of worsening disease",
+    ],
+    notfall: "In the case of new, worsening, chest pain lasting longer than 5 minutes, or chest pain already occurring at rest, especially if it does not respond to nitroglycerin: call emergency services immediately. This can indicate unstable angina pectoris or the onset of a heart attack – here every minute counts, this is not the moment for psychosomatic interpretation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Unlike the one-time, catastrophic heart attack or the decades-long silent progression of atherosclerosis, angina pectoris shows up as a recurring, almost reliable signal: at a certain exertion threshold, the pain announces itself, disappears again at rest – and returns with the next exertion. Traditional Chinese Medicine describes a related state as Xiong Bi, the &bdquo;painful obstruction syndrome of the chest&ldquo;: a stagnation of Qi and Blood in the chest that intensifies precisely when more flow is demanded than the system can release. Psychosomatic medicine often reads this recurring pattern as the picture of an always-the-same, invisible limit – a point at which the body reliably objects the moment the demand exceeds a certain measure.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that shows up right at one's own limit",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps anger disciplined and under control – up to a certain point. Psychosomatically, the recurring, exertion-dependent onset of angina pectoris fits the picture of a control that works up to a fixed threshold and hits its limit noticeably right there." },
+          { code: "SO1", text: "The social One is continually engaged in the moral improvement of the group – the point at which this engagement exceeds its own strength reliably announces itself as a physical warning sign." },
+          { code: "SX1", text: "The sexual One lives anger more directly within the relationship – episodic, intense moments here mark specific peaks of strain rather than a regularly recurring threshold." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that refuses to ask for a break",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two gives quietly until its own strength is exhausted – without ever asking to slow down. The body then takes on the role its own voice refuses: it marks the limit with pain." },
+          { code: "SO2", text: "The social Two stays available to the community up to the point of its own overload – the inability to say no means its own limit is repeatedly crossed and marked by the body." },
+          { code: "SX2", text: "The sexual Two invests intense giving into the one relationship – the peaks of strain here tend to arise episodically, in phases of especially intense emotional investment." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that keeps hitting the same invisible wall",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three works efficiently right up to its own limit – and repeatedly runs into a physical wall there, which it reads as weakness rather than as a clear signal to pause." },
+          { code: "SO3", text: "The social Three drives itself forward in constant competition – angina pectoris can here be read as a recurring, unmistakable stop sign that appears exactly where its own ambition exceeds the body's limits." },
+          { code: "SX3", text: "The sexual Three optimizes itself permanently within the relational context – the pressure to never let up even in the most intimate sphere can produce a similar, recurring threshold of strain." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that shows up as recurring tightness",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a recurring physical tightness can here be the only place where the unspoken longing shows itself at all." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – the emotional intensity at least finds an outward outlet, which may soften the purely physical tightness." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – intense, episodic swings shape the picture here more than a regularly recurring threshold of strain." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that seeks to avoid strain from the outset",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and minimizes demands – behavior that rarely tests its own limit, which may mean warning signs show up later or more subtly here." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – a mixture of participation and withdrawal that rarely names its own strain clearly." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow, deep connection that overall produces fewer outward peaks of strain." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that announces itself as tightness in the chest",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness – this baseline tension can, under additional strain, show up as noticeable, recurring tightness in the chest once the capacity limit is reached." },
+          { code: "SO6", text: "The social Six carries ongoing worry for the collective – the limit here is often reached only when responsibility for others becomes too great." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation – this mixture of fear and anger tends to produce episodic peaks of strain rather than a regular, predictable threshold." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that repeatedly crosses its own limit",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel options and activities – a lifestyle that repeatedly tests and crosses its own limits fits especially directly with the picture of a threshold of strain reached again and again." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own limit is often only recognized once the body marks it unmistakably." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – here the more plausible link is often not the inner tension itself but the lifestyle: smoking and other stimulants as recognized, well-documented risk factors for coronary artery disease." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that allows no pause until the body forces one",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – the need for rest is experienced as a point of attack. Angina pectoris can here be read as the one place where the body forces a pause that the will would never have granted itself." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – its own limit is often reached only when responsibility for others becomes unbearable." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up in extreme, episodic swings rather than in a regularly recurring threshold." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting whose limit the body keeps marking",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – outwardly much looks relaxed, but when demands exceed its own capacity, the body can draw a line with recurring tightness exactly where its own voice never would." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a chronic self-erasure in which the limit is regularly crossed before the body intervenes." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a heart that only feels its own limit once the pain makes it unmistakable." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to coronary artery disease or angina pectoris, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes reaches its own, often invisible limit in its own way – some through control pushed to the max, others through quiet giving, excess, or a need of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -60999,7 +61092,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Stroke", "Coronary Artery Disease / Angina Pectoris", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": ["Stroke", "Varicose Veins", "Thrombosis", "Low Blood Pressure (Hypotension)"],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],

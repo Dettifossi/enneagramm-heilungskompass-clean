@@ -413,6 +413,7 @@ export const registerEntries = [
   { term: "Bluthochdruck (Psychosomatik)", route: "psychosomatik/bluthochdruck", description: "Psychosomatische Deutung: innerer Druck, TCM Leber-Yang-Fülle, Enneagramm alle 27 Subtypen" },
   { term: "Herzinsuffizienz (Psychosomatik)", route: "psychosomatik/herzinsuffizienz", description: "Psychosomatische Deutung: chronische Erschöpfung, TCM Herz-Qi-Mangel, Enneagramm alle 27 Subtypen" },
   { term: "Vorhofflimmern (Psychosomatik)", route: "psychosomatik/vorhofflimmern", description: "Psychosomatische Deutung: verlorener innerer Rhythmus, TCM Herz-Shen-Störung, Enneagramm alle 27 Subtypen" },
+  { term: "Koronare Herzkrankheit / Angina Pectoris (Psychosomatik)", route: "psychosomatik/koronare_herzkrankheit", description: "Psychosomatische Deutung: wiederkehrende Belastungsgrenze, TCM Xiong Bi, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1500,6 +1501,7 @@ export const registerEntriesEN = [
   { term: "High Blood Pressure (Psychosomatics)", route: "psychosomatik/bluthochdruck", description: "Psychosomatic interpretation: inner pressure, TCM Liver Yang excess, Enneagram all 27 subtypes" },
   { term: "Heart Failure (Psychosomatics)", route: "psychosomatik/herzinsuffizienz", description: "Psychosomatic interpretation: chronic exhaustion, TCM Heart Qi deficiency, Enneagram all 27 subtypes" },
   { term: "Atrial Fibrillation (Psychosomatics)", route: "psychosomatik/vorhofflimmern", description: "Psychosomatic interpretation: lost inner rhythm, TCM Heart Shen disturbance, Enneagram all 27 subtypes" },
+  { term: "Coronary Artery Disease / Angina Pectoris (Psychosomatics)", route: "psychosomatik/koronare_herzkrankheit", description: "Psychosomatic interpretation: recurring limit under strain, TCM Xiong Bi, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
