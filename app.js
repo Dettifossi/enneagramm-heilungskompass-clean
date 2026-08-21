@@ -32702,6 +32702,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lucy Cooke \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 britische Zoologin, Bestseller-Autorin (\u201eThe Truth About Animals\u201c), Gr\u00fcnderin der Sloth Appreciation Society. Verschmolz ihr Leben mit dem Faultier \u2013 und macht dessen tr\u00e4gen Ruf mit spr\u00fchender, humorvoller Verve zunichte.",
     land:"Großbritannien", tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", added:"2026-08-21", subtyp:"SX9w8",
+    heading:"Elizabeth Barrett Browning – Sexueller Typ 9",
+    teaser:"SX9w8 · 1806–1861. Englische Dichterin, jahrzehntelang chronisch krank und im Väterhaus isoliert. Verschmolz ihr Leben radikal mit einem einzigen Menschen – der geheimen Liebe zu Robert Browning – und trotzte dafür der völligen Verstoßung durch den eigenen Vater.",
+    land:"Großbritannien", tags:["Literatur"], gender:"f"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -54561,6 +54565,7 @@ function heikeMakatschPortraitPage() {
         {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-keanu-reeves", label:"Portr\u00e4t: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portr\u00e4t: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
       ])}
     </div>
   `);
@@ -54626,6 +54631,7 @@ function marioBarthPortraitPage() {
           {route:"beruehmte-heike-makatsch", label:"Portr\u00e4t: Heike Makatsch (SX9w8)"},
           {route:"beruehmte-dakota-johnson", label:"Portr\u00e4t: Dakota Johnson (SX9w8)"},
           {route:"beruehmte-lucy-cooke", label:"Portr\u00e4t: Lucy Cooke (SX9w8)"},
+          {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
         ])}
       </div>
     </div>
@@ -54689,10 +54695,72 @@ function lucyCookePortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
         {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Porträt: Elizabeth Barrett Browning (SX9w8)"},
         {route:"beruehmte-ana-salceda", label:"Porträt: Ana Salceda (SX9w1) – ebenfalls Faultier-Übereinstimmung"},
         {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-lucy-cooke")}
+    </div>
+  `);
+}
+
+function elizabethBarrettBrowningPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-elizabeth-barrett-browning-portrait.jpg" alt="Elizabeth Barrett Browning – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elizabeth Barrett Browning</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Englische Dichterin (1806&ndash;1861) &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Ein Leben, das sich in ein Zimmer zurückzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über zwanzig Jahre lang verließ Elizabeth Barrett kaum ihr Zimmer im Haus der Familie in der Londoner Wimpole Street. Eine chronische Krankheit, vermutlich eine Kombination aus einer Lungenerkrankung und einer nie ganz geklärten Rückenverletzung aus der Jugend, hatte sie an ihr Bett und an das strenge Regiment ihres Vaters Edward Moulton-Barrett gefesselt &ndash; ein Mann, der keinem seiner zwölf Kinder erlaubte, zu heiraten, und der seine kränkelnde älteste Tochter mit einer Mischung aus Fürsorge und Kontrolle fest an sich band.</p>
+          <p class="vb-intro">Aus diesem winzigen, abgeschotteten Radius heraus wurde Elizabeth Barrett dennoch zur berühmtesten englischen Dichterin ihrer Zeit &ndash; berühmter, als es ihr späterer Ehemann Robert Browning zu Lebzeiten je war. Ihr Werk entstand nicht trotz der Isolation, sondern mitten in ihr: Verse, geschrieben im Halbdunkel eines Krankenzimmers, das zugleich zur Werkstatt einer der eigenwilligsten Stimmen der viktorianischen Literatur wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Alles auf eine einzige Bindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nicht die Zugehörigkeit zu einer Gruppe, sondern die vollständige Verschmelzung mit einem einzigen Wesen. 1845 begann ein Briefwechsel, der dieses Muster in Reinform zeigt: Der junge Dichter Robert Browning schrieb ihr nach der Lektüre ihrer Gedichte einen bewundernden Brief &ndash; und aus diesem einen Kontakt entwickelte sich, fast ausschließlich über Briefe, binnen zwanzig Monaten die zentrale Bindung ihres restlichen Lebens. 574 Briefe wechselten die beiden, bevor sie sich 1846 heimlich das Ja-Wort gaben.</p>
+          <p class="vb-intro">Es ist bezeichnend, dass diese Liebe nicht öffentlich, sondern im Verborgenen wuchs &ndash; unter Ausschluss der eigenen Familie, ohne dass der Vater auch nur ahnte, was in seinem eigenen Haus geschah. Die SX9 investiert ihre gesamte Energie in die eine Beziehung, die zählt, und lässt alles andere &ndash; auch die eigene Sicherheit &ndash; dahinter zurücktreten. Barretts berühmteste Gedichtsammlung, <em>Sonnets from the Portuguese</em> (deutsch: »Sonette aus dem Portugiesischen«), ist genau dieser Verschmelzung gewidmet: 44 Liebessonette an Robert, die sie ihm erst nach der Hochzeit zeigte, aus Scheu vor der Intimität, die darin lag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die Flucht als Akt des Widerstands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> zeigt sich bei Elizabeth Barrett Browning nicht in Lautstärke, sondern in einer stillen, unerschütterlichen Entschlossenheit, sobald die eine Bindung auf dem Spiel steht. Als klar wurde, dass ihr Vater eine Heirat niemals erlauben würde, traf die 40-jährige, gesundheitlich fragile Frau eine Entscheidung, die für eine SX9 mit schwach ausgeprägtem Achterflügel kaum denkbar gewesen wäre: Sie floh 1846 heimlich aus dem Elternhaus, heiratete Robert Browning ohne Wissen ihrer Familie und verließ wenige Tage später England in Richtung Italien &ndash; wohl wissend, dass ihr Vater sie danach lebenslang verstieß und ihr bis zu seinem Tod nie wieder schrieb.</p>
+          <p class="vb-intro">Das ist kein impulsiver Bruch, sondern ein kalkulierter, mutiger Kampf um die eine Bindung, die zählte &ndash; getragen von einer Kraft, die unter der zerbrechlichen Fassade der chronisch kranken Dichterin lag. Später, in Italien, setzte sich dieselbe Härte fort: In <em>Casa Guidi Windows</em> (1851) und dem noch schärferen <em>Poems Before Congress</em> (1860) bezog sie unverblümt politisch Stellung für die italienische Unabhängigkeit &ndash; und in <em>The Cry of the Children</em> (1843) prangerte sie die Kinderarbeit in britischen Fabriken und Bergwerken mit einer Direktheit an, die Teile der Öffentlichkeit empörte. Kein Rückzug ins Private, sondern ein Kämpfen mit der Feder, wo der Körper längst keine anderen Waffen mehr hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 ist die Fähigkeit, <strong>eine einzige, tiefe Bindung zur Quelle einer Lebenswende zu machen</strong> &ndash; und für sie notfalls entschlossen zu kämpfen, statt sich in Rücksichtnahme oder Krankheit zu verlieren. Die Ehe mit Robert Browning brachte, nach Jahrzehnten der Isolation, eine Phase gesundheitlicher Stabilisierung, literarischer Reife (ihr Versroman <em>Aurora Leigh</em>, 1856, gilt bis heute als eines der bedeutendsten Werke der viktorianischen Frauenliteratur) und eines Lebens in Florenz, das sie sich selbst nie zugetraut hätte.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der radikalen Enge dieser Verschmelzung: Ein Leben lang war Elizabeth Barrett Browning fast vollständig von einer einzigen Bindung abhängig &ndash; erst von der (kranken) Symbiose mit dem Vaterhaus, dann von der Ehe mit Robert. Der Preis der Flucht war der endgültige, nie geheilte Bruch mit dem eigenen Vater, der sie bis zu seinem Tod 1857 keines Briefes würdigte. Die SX9w8 gewinnt die eine Bindung &ndash; und verliert dabei oft unwiderruflich alle anderen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Faultier, das erst in Florenz erwachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> wirkt reglos, bis es sich mit aller Kraft an das eine Ästgeflecht klammert, das für sein Überleben zählt &ndash; und genau das ist das Bild, das Elizabeth Barrett Brownings Leben hinterlässt. Über zwanzig Jahre lang ein Leben im abgedunkelten Zimmer, geprägt von Krankheit und väterlicher Kontrolle. Dann, binnen weniger Monate, eine Flucht, eine Heirat, ein neues Land &ndash; und fünfzehn Jahre in Florenz, in denen sie zur meistgelesenen Dichterin ihrer Epoche wurde, bevor sie 1861 in den Armen ihres Mannes starb.</p>
+          <p class="vb-intro">Zurück bleibt das Bild einer Frau, deren äußere Bewegungslosigkeit über Jahrzehnte hinweg eine ungeahnte innere Kraft verbarg &ndash; die sich, als es darauf ankam, mit aller Entschlossenheit an die eine Bindung klammerte, die ihr Leben rettete.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8)"},
+        {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
+      ])}
     </div>
   `);
 }
@@ -100075,6 +100143,7 @@ function render() {
     "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
     "beruehmte-mario-barth": marioBarthPortraitPage,
     "beruehmte-lucy-cooke": lucyCookePortraitPage,
+    "beruehmte-elizabeth-barrett-browning": elizabethBarrettBrowningPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
     "beruehmte-ludwig-erhard": ludwigErhardPortraitPage,
