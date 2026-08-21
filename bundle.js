@@ -96045,6 +96045,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Thrombose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Stillstand, Bewegung und dem Lösen von Blockaden verhandelt – manche über erstarrte Kontrolle, andere über stille Erschöpfung, Rastlosigkeit oder ein nie bewegtes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  schlaganfall: {
+    titel: "Schlaganfall",
+    kategorie: "herz-kreislauf",
+    icon: "&#9889;",
+    kurz: "Wenn ein plötzlicher Schlag verstummen lässt, was sich nie aussprechen durfte.",
+    definition: "Ein Schlaganfall (Apoplex) bezeichnet die plötzliche Unterbrechung der Blutversorgung eines Teils des Gehirns. In rund 85 Prozent der Fälle handelt es sich um einen ischämischen Schlaganfall, bei dem ein Blutgerinnsel ein hirnversorgendes Gefäß verstopft – häufig als Folge von Arteriosklerose, Vorhofflimmern oder einer verschleppten Thrombose. In den übrigen Fällen liegt ein hämorrhagischer Schlaganfall vor, bei dem ein Gefäß im Gehirn reißt und blutet, meist als Folge von unbehandeltem Bluthochdruck. In beiden Fällen sterben Hirnzellen innerhalb von Minuten ab, wenn die Versorgung nicht rasch wiederhergestellt wird – ein Schlaganfall ist immer ein medizinischer Notfall, bei dem jede Minute über das Ausmaß der bleibenden Schäden entscheidet.",
+    symptome: [
+      "Plötzliche Lähmung oder Taubheitsgefühl, meist einseitig in Gesicht, Arm oder Bein (Face-Arm-Speech-Test: hängender Mundwinkel, herabsinkender Arm)",
+      "Plötzliche Sprach- oder Sprachverständnisstörung, verwaschene oder unverständliche Sprache",
+      "Plötzliche Sehstörung auf einem oder beiden Augen, Doppelbilder",
+      "Plötzlicher, heftigster Kopfschmerz ohne erkennbare Ursache (Warnzeichen besonders für eine Hirnblutung)",
+      "Plötzlicher Schwindel, Gangunsicherheit oder Verlust des Gleichgewichts",
+      "Plötzliche Verwirrtheit oder Bewusstseinstrübung",
+    ],
+    notfall: "Bei jedem Verdacht auf einen Schlaganfall – auch bei nur kurz auftretenden oder scheinbar wieder verschwindenden Symptomen – sofort den Notruf 112 wählen. Jede Minute ohne Behandlung kostet Hirngewebe: &bdquo;Time is brain&ldquo;. Auf keinen Fall abwarten, ob sich die Symptome von selbst bessern, und nicht selbst ins Krankenhaus fahren – der Rettungsdienst kann bereits auf dem Weg die Klinik vorbereiten. Dieser Abschnitt dient ausschließlich der Deutung nach einem überstandenen Ereignis, niemals der Einschätzung im akuten Moment.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Der deutsche Name trägt die Deutung bereits im Wort: ein &bdquo;Schlag&ldquo;, ein plötzliches, gewaltsames Ereignis, das genau dort trifft, wo Sprache, Bewegung und Ausdruck ihren Ursprung haben. Die Traditionelle Chinesische Medizin beschreibt den Schlaganfall häufig als inneren Wind (Nei Feng): eine über Jahre aufgestaute Leber-Yang-Fülle, die sich plötzlich nach oben entlädt und das Gehirn wie ein Sturm erfasst – eine unmittelbare Fortsetzung des Bildes, das bereits beim Bluthochdruck beschrieben wurde. Die Psychosomatik liest im Schlaganfall deshalb oft die dramatischste Zuspitzung eines Musters, das sich in den anderen Krankheitsbildern dieses Registers bereits ankündigt: Ein Leben, ein Gefühl oder eine Stimme, die sich nie aussprechen durfte, bis der Körper selbst zum Schweigen gebracht wird – manchmal buchstäblich, durch den Verlust der Sprache.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich plötzlich Bahn bricht, statt sich zu äußern",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über Jahrzehnte diszipliniert unter Kontrolle, ohne ihn je zu äußern – bricht diese Kontrolle irgendwann abrupt zusammen, liest die Psychosomatik darin die dramatischste Form eines lange verwehrten Ausdrucks: ein plötzliches Ereignis anstelle unzähliger kleiner, nie erlaubter Entladungen." },
+          { code: "SO1", text: "Die soziale Eins engagiert sich fortlaufend für die moralische Verbesserung der Gruppe – eine Grundüberzeugung, dass die Welt korrigiert werden muss, die sich über Jahrzehnte zu unerschütterlicher innerer Spannung verdichten kann." },
+          { code: "SX1", text: "Die sexuelle Eins lebt Ärger direkter in der Beziehung aus – dadurch potenziell mehr Ventile über die Jahre, weniger vollständig aufgestaute Spannung." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der bis zum plötzlichen Zusammenbruch nie um Hilfe bat",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei lebt den Satz „Ich brauche niemanden“ am wörtlichsten – ein Leben, das nie um Unterstützung bat, kann sich in einem plötzlichen körperlichen Zusammenbruch entladen, der genau das erzwingt, was die eigene Stimme sich nie erlaubt hätte: abhängig von der Hilfe anderer zu sein." },
+          { code: "SO2", text: "Die soziale Zwei bleibt permanent für die Gemeinschaft verfügbar – ein Leben im Dienst anderer, das nie eine eigene Pause einforderte, bevor der Körper sie erzwingt." },
+          { code: "SX2", text: "Die sexuelle Zwei investiert intensives Geben in die eine Beziehung – die Belastung zeigt sich hier eher episodisch als in einer über Jahrzehnte aufgestauten Erschöpfung." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die abrupt zum vollständigen Stillstand gezwungen wird",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei arbeitet ununterbrochen weiter, identifiziert sich vollständig über Funktionieren – ein Schlaganfall trifft dieses Selbstbild besonders hart, weil er genau die Fähigkeit bedroht, auf der der eigene Wert zu ruhen scheint." },
+          { code: "SO3", text: "Die soziale Drei bleibt im ständigen Wettbewerbsmodus – ein plötzlicher, erzwungener Stillstand widerspricht diametral dem gesamten öffentlichen Selbstverständnis." },
+          { code: "SX3", text: "Die sexuelle Drei optimiert sich permanent im Beziehungskontext – körperliche Einschränkungen nach einem Schlaganfall können hier besonders die Frage nach dem eigenen Wert jenseits von Attraktivität und Leistung aufwerfen." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich nie aussprechen konnte, bis die Sprache selbst betroffen ist",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt Leid zäh und nach außen kaum sichtbar – eine über Jahre unausgesprochene Sehnsucht, die sich in einem Ereignis entlädt, das buchstäblich die Fähigkeit betreffen kann, sich überhaupt auszudrücken." },
+          { code: "SO4", text: "Die soziale Vier macht das eigene Leiden sichtbar – die emotionale Bewegung nach außen wirkt einer vollständigen inneren Aufstauung eher entgegen als beim Kontratyp." },
+          { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität – heftige, episodische Ausschläge, die eher Ventile schaffen als eine über Jahrzehnte aufgestaute Blockade." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der sich zum vollständigen Verstummen zuspitzt",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich radikal zurück und bewegt sich oft wenig – Bewegungsarmut und soziale Isolation gelten medizinisch als eigenständige Risikofaktoren, die das Schlaganfallrisiko über andere Gefäßerkrankungen hinaus zusätzlich erhöhen können." },
+          { code: "SO5", text: "Die soziale Fünf hält auch im sozialen Kontext innere Distanz – ein Zustand, der weniger körperliche als geistige Zurückgezogenheit bedeutet." },
+          { code: "SX5", text: "Die sexuelle Fünf teilt sich intensiv, aber nur mit sehr wenigen Menschen – eine schmale Verbindung, die trotz Rückzug echten Austausch ermöglicht." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich zum plötzlichen Zusammenbruch der Kontrolle steigert",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Alarmbereitschaft – diese chronische Anspannung liest die Psychosomatik als möglichen Nährboden für einen inneren Zustand, der sich irgendwann nicht mehr kontrolliert entlädt, sondern schlagartig durchbricht." },
+          { code: "SO6", text: "Die soziale Sechs trägt fortlaufend Sorge um das Kollektiv – diese Sorge wird selten offen ausgesprochen oder abgegeben." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch Konfrontation statt Erstarrung – dadurch eher episodische Anspannung als eine dauerhaft aufgestaute Blockade." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die abrupt gebremst wird",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über viele parallele Optionen und Aktivitäten ab – ein Lebensstil in ständiger Bewegung, der bei einem Schlaganfall besonders hart auf eine erzwungene, absolute Ruhe trifft." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück – die eigene Erschöpfung wird lange nicht als Warnsignal gelesen." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – Rauchen und andere Risikofaktoren, die sich über die vorherigen Gefäßerkrankungen dieses Registers bereits gezeigt haben, gelten auch für das Schlaganfallrisiko als anerkannt." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die mit einem Schlag versagt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht hält Kontrolle über die eigenen Ressourcen straff aufrecht – ein Schlaganfall trifft dieses Selbstbild besonders hart, weil er mit einem einzigen Ereignis genau die Kontrolle nimmt, die zeitlebens verteidigt wurde." },
+          { code: "SO8", text: "Die soziale Acht trägt permanente Führungsspannung für die Gruppe – ein plötzlicher Ausfall wird hier oft als Versagen der eigenen Schutzfunktion für andere erlebt." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich in extremen, episodischen Ausschlägen statt in dauerhafter, langsam aufgestauter Anspannung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die sich zur vollständigen Stimmlosigkeit zuspitzt",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine – die über Jahrzehnte fortgesetzte Selbstvergessenheit bedeutet, dass die eigene Stimme über ein ganzes Leben nie wirklich gehört wurde. Ein Schlaganfall, der die Sprache selbst betrifft, kann dieses Muster auf besonders eindrückliche, körperliche Weise sichtbar machen." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Meinung konsequent der Gruppe unter – eine chronische Selbstauslöschung, bei der die eigene Position über Jahre nie eingefordert wird." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Selbst, das nie eine eigene, unabhängige Stimme fand." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor einem Schlaganfall gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit aufgestauter Spannung, verweigertem Ausdruck und plötzlichem Kontrollverlust verhandelt – manche über Dauerkontrolle, die irgendwann bricht, andere über stilles Geben, Rastlosigkeit oder eine nie gehörte eigene Stimme. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -96053,7 +96146,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // (Definition, Notfall-Hinweis falls zutreffend, Disclaimer, alle 27 Subtypen). Bis dahin
 // erscheinen sie auf der Übersichtsseite als "in Vorbereitung" ohne eigene Detailseite.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Schlaganfall", "Niedriger Blutdruck (Hypotonie)"],
+  "herz-kreislauf": ["Niedriger Blutdruck (Hypotonie)"],
   "bewegungsapparat": ["Rückenschmerzen / Bandscheibenvorfall", "Arthrose", "Rheumatoide Arthritis", "Osteoporose", "Fibromyalgie", "Karpaltunnelsyndrom", "Gicht", "Tennisarm (Epicondylitis)", "Frozen Shoulder / Schulter-Impingement", "Ischialgie / Hexenschuss", "Sehnenscheidenentzündung"],
   "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],

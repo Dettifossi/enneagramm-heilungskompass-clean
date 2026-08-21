@@ -61271,6 +61271,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to thrombosis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates standstill, movement, and the release of blockages in its own way – some through hardened control, others through quiet exhaustion, restlessness, or a need of their own that was never set into motion. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  schlaganfall: {
+    titel: "Stroke",
+    kategorie: "herz-kreislauf",
+    icon: "&#9889;",
+    kurz: "When a sudden blow silences what was never allowed to speak.",
+    definition: "A stroke refers to the sudden interruption of blood supply to part of the brain. About 85 percent of cases are ischemic strokes, in which a blood clot blocks a vessel supplying the brain – often as a consequence of atherosclerosis, atrial fibrillation, or an untreated thrombosis. The remaining cases are hemorrhagic strokes, in which a vessel in the brain ruptures and bleeds, usually as a result of untreated high blood pressure. In both cases, brain cells die within minutes if the supply is not quickly restored – a stroke is always a medical emergency, in which every minute determines the extent of lasting damage.",
+    symptome: [
+      "Sudden paralysis or numbness, usually on one side of the face, arm, or leg (Face-Arm-Speech test: a drooping corner of the mouth, a sagging arm)",
+      "Sudden difficulty speaking or understanding speech, slurred or incomprehensible speech",
+      "Sudden vision problems in one or both eyes, double vision",
+      "Sudden, severe headache with no apparent cause (a warning sign especially of a brain hemorrhage)",
+      "Sudden dizziness, unsteady gait, or loss of balance",
+      "Sudden confusion or clouded consciousness",
+    ],
+    notfall: "For any suspected stroke – even with symptoms that appear only briefly or seem to resolve on their own – call emergency services immediately. Every minute without treatment costs brain tissue: &bdquo;Time is brain.&ldquo; Never wait to see if symptoms improve on their own, and do not drive to the hospital yourself – emergency services can prepare the hospital while already on the way. This section serves purely to interpret an event after it has been survived, never to assess the acute moment.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The German name already carries the interpretation within it: a &bdquo;Schlag&ldquo; – a blow, a sudden, violent event that strikes exactly where speech, movement, and expression have their origin. Traditional Chinese Medicine often describes stroke as internal wind (Nei Feng): a Liver Yang excess built up over years that suddenly discharges upward and sweeps through the brain like a storm – a direct continuation of the picture already described for high blood pressure. Psychosomatic medicine therefore often reads stroke as the most dramatic culmination of a pattern already announced in the other conditions of this register: a life, a feeling, or a voice that was never allowed to speak, until the body itself is silenced – sometimes literally, through the loss of speech.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that suddenly breaks through instead of being voiced",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps anger disciplined and under control for decades, without ever voicing it – if this control eventually breaks down abruptly, psychosomatic medicine reads in it the most dramatic form of long-denied expression: a single sudden event in place of countless small, never-permitted discharges." },
+          { code: "SO1", text: "The social One is continually engaged in the moral improvement of the group – a core conviction that the world needs correcting, which can condense over decades into unshakeable inner tension." },
+          { code: "SX1", text: "The sexual One lives anger more directly within the relationship – potentially more outlets over the years, less fully pent-up tension." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that never asked for help until the sudden collapse",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two lives the sentence &bdquo;I need no one&ldquo; most literally – a life that never asked for support can discharge in a sudden physical collapse that forces exactly what its own voice would never have allowed: depending on the help of others." },
+          { code: "SO2", text: "The social Two stays permanently available to the community – a life in service to others that never demanded a break of its own before the body forces one." },
+          { code: "SX2", text: "The sexual Two invests intense giving into the one relationship – the strain here tends to be episodic rather than a decades-long, pent-up exhaustion." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that is abruptly forced into complete standstill",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps working without break, identifying completely with functioning – a stroke hits this self-image especially hard because it threatens the very capacity on which its own worth seems to rest." },
+          { code: "SO3", text: "The social Three stays in constant competition mode – a sudden, forced standstill diametrically contradicts the entire public self-image." },
+          { code: "SX3", text: "The sexual Three optimizes itself permanently within the relational context – physical limitations after a stroke can raise, in particular, the question of self-worth beyond attractiveness and achievement." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that could never be spoken, until speech itself is affected",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries suffering doggedly and with little outward visibility – a years-long, unspoken longing that discharges in an event that can literally affect the ability to express oneself at all." },
+          { code: "SO4", text: "The social Four makes its own suffering visible – the outward emotional movement works against a complete inner pent-up state more than in the counter-type." },
+          { code: "SX4", text: "The sexual Four lives uncompromising emotional intensity – intense, episodic swings that tend to create outlets rather than a decades-long, pent-up blockage." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that intensifies into complete silence",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five withdraws radically and often moves little – low physical activity and social isolation are recognized medical risk factors that can additionally raise stroke risk beyond other vascular disease." },
+          { code: "SO5", text: "The social Five keeps inner distance even in social contexts – a state that means more mental than physical withdrawal." },
+          { code: "SX5", text: "The sexual Five shares intensely, but only with very few people – a narrow connection that, despite the withdrawal, allows for real exchange." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that escalates into a sudden loss of control",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant alertness – psychosomatic medicine reads this chronic tension as a possible breeding ground for an inner state that eventually discharges not in a controlled way but abruptly, all at once." },
+          { code: "SO6", text: "The social Six carries ongoing worry for the collective – this worry is rarely voiced openly or handed off." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through confrontation rather than rigidity – producing episodic tension rather than a permanently pent-up blockage." },
+        ],
+      },
+      {
+        typ: 7, titel: "Gluttony that is abruptly brought to a halt",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures itself through many parallel options and activities – a lifestyle in constant motion that, in a stroke, collides especially hard with an enforced, absolute stillness." },
+          { code: "SO7", text: "The social Seven, the counter-type, puts its own needs aside in favor of others – its own exhaustion is not read as a warning sign for a long time." },
+          { code: "SX7", text: "The sexual Seven lives enthusiasm boundlessly and impulsively – smoking and other risk factors already seen in the earlier vascular conditions of this register are also recognized risk factors for stroke." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that fails with a single blow",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight keeps tight control over its own resources – a stroke hits this self-image especially hard because a single event takes away exactly the control that was defended throughout a lifetime." },
+          { code: "SO8", text: "The social Eight carries permanent leadership tension for the group – a sudden incapacity is often experienced here as a failure of its own protective function for others." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control within the pair-bond, pure intensity, nothing halfway – the strain shows up in extreme, episodic swings rather than in permanent, slowly pent-up tension." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that intensifies into complete voicelessness",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine flees into comfort and routine – the decades-long continued self-forgetting means its own voice was never really heard over a whole lifetime. A stroke that affects speech itself can make this pattern visible in an especially striking, physical way." },
+          { code: "SO9", text: "The social Nine consistently subordinates its own opinion to the group – a chronic self-erasure in which its own position is never demanded over the years." },
+          { code: "SX9", text: "The sexual Nine merges with the partner, its own identity dissolving into the other. In its purest form, this may be the clearest expression of a self that never found a voice of its own, independent of the other." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to stroke, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates pent-up tension, denied expression, and sudden loss of control in its own way – some through sustained control that eventually breaks, others through quiet giving, restlessness, or a voice of their own that was never heard. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -61278,7 +61371,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
-  "herz-kreislauf": ["Stroke", "Low Blood Pressure (Hypotension)"],
+  "herz-kreislauf": ["Low Blood Pressure (Hypotension)"],
   "bewegungsapparat": ["Back Pain / Herniated Disc", "Osteoarthritis", "Rheumatoid Arthritis", "Osteoporosis", "Fibromyalgia", "Carpal Tunnel Syndrome", "Gout", "Tennis Elbow (Epicondylitis)", "Frozen Shoulder / Shoulder Impingement", "Sciatica", "Tendinitis"],
   "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
