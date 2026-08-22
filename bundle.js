@@ -95439,9 +95439,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die sich festsetzt",
         varianten: [
-      { code: "SE4", text: "Nie in Bewegung, sondern nur in innerer Verhärtung entlädt sich die über Jahrzehnte unausgesprochene Sehnsucht der selbsterhaltenden Vier, dem Kontratyp, der Leid zäh und nach außen kaum sichtbar trägt. Sie funktioniert nach außen unauffällig, fast tapfer, während innerlich ein tiefes Gefühl des Andersseins, des Nicht-ganz-Dazugehörens mitläuft, das nie Raum bekommt, sich zu zeigen oder zu lösen. Dieses stille Tragen ohne Ventil passt zum Bild einer Ablagerung, die sich Schicht für Schicht verfestigt, weil sie nie an die Oberfläche darf." },
-      { code: "SO4", text: "Wo andere Subtypen ihre Erschöpfung verbergen, stellt die soziale Vier ihre Verletzlichkeit offen zur Schau, macht sie fast zu einem Teil ihrer Identität in der Gruppe – dieses Zeigen ist zugleich ein Ventil: Die Anspannung staut sich weniger lange an, weil sie regelmäßig einen Ausweg findet. Die zugrunde liegende Sehnsucht nach Vollständigkeit bleibt trotzdem bestehen, auch wenn sie hier immerhin ausgesprochen wird." },
-      { code: "SX4", text: "Nichts fühlt sich je vollständig genug an, immer schwingt die Ahnung mit, dass es woanders intensiver, echter, tiefer sein könnte: So lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen. Heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige, lautlose Verhärtung: Die Gefäße erleben weniger konstanten Druck als wiederkehrende, intensive emotionale Wellen." },
+      { code: "SE4", text: "Statt sich wie andere Vierer über auffällige Melancholie zu zeigen, überkompensiert die selbsterhaltende Vier ihr Mangelgefühl durch Tüchtigkeit und beständige Leistung – eine Strategie, die zwar nach außen erfolgreich wirkt, aber der eigenen Bedürftigkeit nie erlaubt, sich zu zeigen. Über die Jahre kann sich diese doppelte Anstrengung, gleichzeitig zu funktionieren und nichts zu brauchen, in den Gefäßwänden als beständig fortschreitende Verhärtung niederschlagen." },
+      { code: "SO4", text: "Der Wert der sozialen Vier hängt spürbar davon ab, ob die Gruppe ihr Leiden auch wirklich wahrnimmt – bleibt die erhoffte Resonanz aus, kippt das Gefühl schnell in Scham über das eigene Zukurzkommen. Diese ständige Abhängigkeit von äußerer Spiegelung, verbunden mit dem leisen Vergleich mit anderen, die scheinbar mühelos dazugehören, hält den Kreislauf in einer Wechselspannung, die sich über die Jahre in den Arterien als schleichende Ablagerung niederschlagen kann." },
+      { code: "SX4", text: "Die sexuelle Vier reagiert auf empfundene Zurückweisung in der einen wichtigen Beziehung oft mit einer Mischung aus Neid und Wut, die sich gegen die vermeintlich glücklicheren anderen richtet – dieser aggressive Zug, weniger bekannt als die stille Melancholie der Vier, kann sich über Jahre in den Arterien als fortschreitende Verhärtung zeigen, die aus wiederholten Episoden akuter emotionaler Erregung entsteht." },
         ],
       },
       {
@@ -95464,8 +95464,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Maßlosigkeit, die die Gefäße überfordert",
         varianten: [
       { code: "SE7", text: "Rastlosigkeit und ein Lebensstil, der auf permanente Zerstreuung statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für Gefäßveränderungen – die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab, unabhängig von innerer Anspannung. Sie hat immer einen Plan B, C und D, und genau dieses ständige Offenhalten von Möglichkeiten verhindert, dass sie je wirklich zur Ruhe kommt." },
-      { code: "SO7", text: "Sie kümmert sich um alle, außer um sich selbst, und wundert sich dann, wenn der Körper irgendwann Grenzen setzt: So stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet." },
-      { code: "SX7", text: "Unabhängig davon, wie glücklich oder unglücklich diese Person sich fühlt, wird der Reiz der Intensität selbst zum Gesundheitsrisiko, wenn die sexuelle Sieben Begeisterung grenzenlos und impulsiv lebt: Nikotin, Alkohol oder andere Genussmittel sind hier anerkannte, medizinisch gut belegte Risikofaktoren für Arteriosklerose." },
+      { code: "SO7", text: "Der Antrieb der sozialen Sieben, der Kontratyp, sich für eine größere Sache oder Gruppe einzusetzen, kann sich so weit steigern, dass sie beständig über die eigenen Kapazitäten hinaus arbeitet – dieses idealistisch begründete Übermaß an Engagement zehrt über Jahre an den Gefäßen, ohne dass die betroffene Person selbst es als Erschöpfung benennen würde." },
+      { code: "SX7", text: "Die sexuelle Sieben verbindet ihre Energie meist mit genau einer Person oder einem Projekt, dem sie sich mit grenzenloser Begeisterung hingibt – diese Bündelung, gepaart mit einer erhöhten Anfälligkeit für Nikotin, Alkohol oder andere intensitätssteigernde Mittel, zählt zu den medizinisch gut belegten Risikofaktoren für Arteriosklerose." },
         ],
       },
       {
@@ -95480,7 +95480,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, die sich lautlos verhärtet",
         varianten: [
       { code: "SE9", text: "Wenig sichtbare Anspannung nach außen, aber eine über Jahrzehnte fortgesetzte Selbstvergessenheit, bei der die eigenen Bedürfnisse nie gehört werden: So flüchtet die selbsterhaltende Neun in Komfort, Routine und Konfliktvermeidung. Genau dieses lautlose Sich-Verhärten passt womöglich am unmittelbarsten zum Bild einer Krankheit, die selbst über Jahre symptomfrei bleibt: Beide entwickeln sich im Verborgenen, ohne dass jemand – auch die betroffene Person selbst nicht – wirklich hinschaut." },
-      { code: "SO9", text: "Aus Angst, damit Unruhe zu stiften, sagt die soziale Neun selten, was sie wirklich denkt, sucht Harmonie um jeden Preis innerhalb der Gruppe – und verliert dabei über die Jahre zunehmend den Kontakt zu dem, was sie selbst eigentlich möchte." },
+      { code: "SO9", text: "Die soziale Neun richtet ihre Aufmerksamkeit so beständig auf das Gruppenwohl, dass die eigene Position darüber diffus wird – nicht aus Angst allein, sondern weil das größere Ganze für sie tatsächlich wichtiger erscheint als die eigene Stimme. Diese schleichende Verschmelzung mit dem Kollektiv kann sich über Jahre in den Gefäßwänden als eine ebenso schleichende Ablagerung niederschlagen." },
       { code: "SX9", text: "Nicht weil es keine Kraft dazu hätte, sondern weil die tiefste Erfüllung für diesen Subtyp gerade im Verschwinden im Anderen liegt: So findet das System der sexuellen Neun, die mit dem Partner verschmilzt, über Jahrzehnte nie eine eigene, unabhängige Bewegung, selbst wenn das bedeutet, die eigene Richtung nie zu finden." },
         ],
       },
@@ -95532,9 +95532,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die sich als Anspannung festsetzt",
         varianten: [
-      { code: "SE4", text: "Pflichtbewusst, fast unauffällig funktioniert die selbsterhaltende Vier, der Kontratyp, während innerlich ein tiefes Gefühl des Nicht-ganz-Angekommenseins mitläuft, das nie Raum bekommt, sich zu äußern – eine über Jahre unausgesprochene Sehnsucht, die sich nie in Worte, sondern nur in innerer Anspannung entlädt." },
-      { code: "SO4", text: "Die soziale Vier lässt ihre innere Anspannung selten lange unbemerkt – sie zeigt Verletzlichkeit, spricht über ihre Kämpfe, sucht in der Gruppe Resonanz für das eigene Leiden. Dieser fortlaufende Ausdruck kann verhindern, dass sich der innere Druck so unbemerkt aufbaut wie bei stiller gehaltenen Subtypen, auch wenn die zugrunde liegende Sehnsucht selbst davon unberührt bleibt." },
-      { code: "SX4", text: "Der innere Druck steigt und fällt mit der Intensität des Gefühlslebens, statt sich als konstante Grundspannung zu halten – so lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen." },
+      { code: "SE4", text: "Wird die selbsterhaltende Vier in einem Moment tatsächlicher Bedürftigkeit übersehen, weil sie selbst diese nie zeigt, kann sich die angestaute Enttäuschung als ein plötzlicher, scheinbar grundloser Druckanstieg entladen – gerade weil die Erwartung, versorgt zu werden, nie ausgesprochen werden durfte." },
+      { code: "SO4", text: "Wird die eigene Not von der Gruppe nicht ausreichend gewürdigt, kann bei der sozialen Vier binnen Minuten eine tiefe Kränkung entstehen, aus der sich ein plötzlicher innerer Druckanstieg entwickelt – der Vergleich mit anderen, die anscheinend leichter Gehör finden, wirkt dabei wie ein ständiger Verstärker der eigenen Anspannung." },
+      { code: "SX4", text: "Wird die sexuelle Vier in der einen wichtigen Beziehung nicht mit der erwarteten Intensität erwidert, kann sich dieses Gefühl des Zukurzkommens innerhalb von Minuten in einen akuten Erregungszustand verwandeln – ein plötzlicher Blutdruckanstieg, der die Wucht der emotionalen Kränkung widerspiegelt." },
         ],
       },
       {
@@ -95557,7 +95557,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Maßlosigkeit, die das System überreizt",
         varianten: [
       { code: "SE7", text: "Ein Lebensstil, der auf permanente Reizsuche statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für erhöhten Blutdruck – so sichert sich die selbsterhaltende Sieben über Optionen, Netzwerke und Genussmittel ab, unabhängig von innerer Anspannung. Sie füllt jede freie Minute mit einer neuen Möglichkeit, und genau diese Fülle wird selbst zur Belastung für ein System, das nie zur Ruhe kommt." },
-      { code: "SO7", text: "Intensiv kümmert sich die soziale Sieben, der Kontratyp, um andere und übersieht dabei konsequent, wie sehr sie selbst am Limit ist – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet." },
+      { code: "SO7", text: "Wird der soziale Kontratyp der Sieben in seiner selbstgewählten Pflicht gestört oder infrage gestellt, kann eine plötzliche innere Alarmreaktion entstehen – die sonst so stabile Fassade der Selbstlosigkeit gerät kurzzeitig unter Druck, was sich als akuter Blutdruckanstieg zeigen kann." },
       { code: "SX7", text: "Der Wunsch nach Intensität selbst wird zum körperlichen Risiko, wenn die sexuelle Sieben Begeisterung grenzenlos und impulsiv lebt: Nikotin, Alkohol oder andere Genussmittel sind hier anerkannte, medizinisch gut belegte Risikofaktoren für erhöhten Blutdruck." },
         ],
       },
@@ -95573,7 +95573,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, deren Druck sich nach außen zeigt",
         varianten: [
       { code: "SE9", text: "Nach außen wirkt vieles entspannt, doch der eigene innere Druck wird bei der selbsterhaltenden Neun nie bewusst wahrgenommen, geschweige denn geäußert – sie flüchtet in Komfort, Routine und Konfliktvermeidung, und dieser Druck bleibt stattdessen als messbarer Blutdruck bestehen. Sie wirkt nach außen die Ruhigste von allen, während der Körper eine andere Geschichte erzählt." },
-      { code: "SO9", text: "Weil Widerspruch sich riskanter anfühlt als das eigene Verschwinden, stimmt die soziale Neun zu, auch wenn sie innerlich anderer Meinung ist – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit aufbaut." },
+      { code: "SO9", text: "Gerät die Gruppe, in der sich die soziale Neun eingebettet fühlt, unerwartet in Streit oder Auflösung, kann das für sie eine akute Bedrohung ihrer eigenen Identität bedeuten – ein plötzlicher innerer Alarm, der sich als kurzfristiger Blutdruckanstieg entladen kann, obwohl von außen alles ruhig wirkt." },
       { code: "SX9", text: "Nie einen anderen Ausdrucksort als genau diese eine Verschmelzung fand die Spannung, die sich still im Körper der sexuellen Neun hält, während sie mit dem Partner verschmilzt und die eigene Identität im Anderen aufgeht – über Jahrzehnte nie eine eigene, unabhängige Stimme." },
         ],
       },
@@ -95625,9 +95625,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die die Kraft langsam auszehrt",
         varianten: [
-      { code: "SE4", text: "Nach außen tapfer funktioniert die selbsterhaltende Vier, der Kontratyp, während innerlich ein tiefes Gefühl der Unerfülltheit an ihrer Substanz zehrt, ohne dass es je einen Namen bekommt – eine über Jahre unausgesprochene Sehnsucht kann sich so als stille, nie thematisierte Erschöpfung im Körper niederschlagen." },
-      { code: "SO4", text: "Die soziale Vier identifiziert sich stark mit ihrem Schmerz und trägt ihn sichtbar in die Gemeinschaft – dieses Zurschaustellen ist zugleich ein Stück Selbstfürsorge, weil es verhindert, dass die eigene Erschöpfung völlig unbemerkt bleibt. Anders als bei stillen Subtypen findet die Auszehrung hier wenigstens einen Resonanzraum, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
-      { code: "SX4", text: "Jede Beziehungskrise wird mit voller emotionaler Wucht durchlebt, was punktuell erschöpft, statt gleichmäßig zu zehren – so lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen." },
+      { code: "SE4", text: "Die permanente Anstrengung, allen Anforderungen gerecht zu werden und dabei nach außen mühelos zu wirken, kostet die selbsterhaltende Vier eine Kraft, die sie sich selbst nie eingesteht – über Jahre kann diese verdeckte Überforderung die Pumpleistung des Herzens genauso erschöpfen, wie sie zuvor die eigene Substanz erschöpft hat." },
+      { code: "SO4", text: "Statt die eigene Traurigkeit zu verwandeln, pflegt die soziale Vier sie oft über Jahre als vertrauten Teil ihrer Identität in der Gruppe – dieses Festhalten am Mangelgefühl, mehr als das Erleben selbst, kann dem Herzen auf Dauer die Kraft entziehen, die es für seine eigentliche Pumpleistung bräuchte." },
+      { code: "SX4", text: "Die sexuelle Vier investiert so viel Kraft in die eine Beziehung, dass für die eigene Regeneration danach oft wenig übrig bleibt – nach jeder durchlebten Krise folgt eine erschöpfte Leere, die sich über Jahre der wiederkehrenden emotionalen Erschütterungen als nachlassende Herzleistung zeigen kann." },
         ],
       },
       {
@@ -95650,8 +95650,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Maßlosigkeit, die die Reserven überzieht",
         varianten: [
       { code: "SE7", text: "Rastlosigkeit und viele parallele Projekte führen bei der selbsterhaltenden Sieben zu einer Erschöpfung durch Zerstreuung, die selten als Warnsignal ernst genommen wird – sie sichert sich über Optionen, Netzwerke und Genussmittel ab. Sie hat immer ein weiteres Vorhaben in der Hinterhand, und genau diese Fülle verhindert, dass ihre Reserven sich je wirklich auffüllen." },
-      { code: "SO7", text: "Hingebungsvoll kümmert sich die soziale Sieben, der Kontratyp, um andere und übersieht dabei beharrlich, wie erschöpft sie selbst längst ist – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet." },
-      { code: "SX7", text: "Unabhängig davon, wie erfüllend sie sich anfühlt, wird die Intensität selbst zum Kraftverzehr, wenn die sexuelle Sieben Begeisterung grenzenlos und impulsiv lebt – ein Lebensstil, der Substanz verbraucht statt sie zu erhalten, verschärft durch mögliches Suchtpotenzial gegenüber Nikotin, Alkohol oder anderen Genussmitteln, die die Herzfunktion zusätzlich belasten können." },
+      { code: "SO7", text: "Weil sie ihre eigentliche Leichtigkeit hinter Pflichtgefühl und Verantwortung verbirgt, fehlt der sozialen Sieben, dem Kontratyp, oft gerade jene spielerische Erholung, die dem reinen Typ so viel Kraft gibt – dieser dauerhafte Verzicht auf echte Entlastung kann die Herzleistung über Jahre schwächen." },
+      { code: "SX7", text: "Wird die eine intensive Bindung oder Begeisterung der sexuellen Sieben infrage gestellt, reagiert sie oft mit einer impulsiven Suche nach noch stärkerer Ablenkung – ein Muster, das häufig über erhöhten Nikotin- oder Alkoholkonsum läuft und das Herz zusätzlich zu der ohnehin verbrauchten Substanz belastet." },
         ],
       },
       {
@@ -95666,7 +95666,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessenheit, deren Kraft irgendwann aufgebraucht ist",
         varianten: [
       { code: "SE9", text: "Die eigene Erschöpfung wird bei der selbsterhaltenden Neun nie bewusst wahrgenommen, bis die Kraft irgendwann tatsächlich nicht mehr ausreicht – sie flüchtet in Komfort, Routine und Konfliktvermeidung. Sie wirkt bis zuletzt gelassen, während der Körper längst eine andere Sprache spricht." },
-      { code: "SO9", text: "Bis kaum noch Energie übrig ist, um sie überhaupt noch zu finden, verzichtet die soziale Neun immer wieder auf die eigene Stimme, sucht Harmonie um jeden Preis innerhalb der Gruppe – eine chronische Selbstauslöschung, die sich still über lange Zeit auf die eigene Kraft auswirkt." },
+      { code: "SO9", text: "Weil die soziale Neun ihre eigenen Prioritäten fortlaufend hinter denen der Gemeinschaft zurückstellt, verbraucht sie einen erheblichen Teil ihrer Energie im Abgleich mit fremden Erwartungen – über Jahre kann diese diffuse Daueranstrengung die Pumpkraft des Herzens ebenso auszehren, wie sie zuvor die eigene Klarheit ausgezehrt hat." },
       { code: "SX9", text: "Nicht aus Selbstaufgabe, sondern weil das eigene Wohlergehen sich für diesen Subtyp untrennbar an das des geliebten Menschen geknüpft anfühlt, schlug das Herz der sexuellen Neun über Jahrzehnte für den anderen, bevor es die eigene Erschöpfung überhaupt bemerkte – sie verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf." },
         ],
       },
@@ -95718,9 +95718,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Gefühlsflut, die den geordneten Takt sprengt",
         varianten: [
-      { code: "SE4", text: "Erstaunlich beherrscht funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen, während sie innere Gefühlsstürme meist zurückhält – doch genau diese unterdrückte, nie kanalisierte emotionale Intensität kann sich psychosomatisch als ein plötzlich aus dem Takt geratener Herzschlag entladen, wenn der innere Druck irgendwann die äußere Fassade übersteigt." },
-      { code: "SO4", text: "Die soziale Vier teilt intensive Gefühle offen mit der Gruppe, lässt niemanden im Unklaren über ihren inneren Zustand – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das dem inneren Chaos zumindest teilweise eine Richtung gibt, auch wenn die zugrunde liegende emotionale Überflutung selbst bestehen bleibt und den eigenen Takt weiterhin gefährdet." },
-      { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – genau diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Herzrhythmus, der in emotional zugespitzten Momenten seinen geordneten Takt verliert und ins Chaotische kippt." },
+      { code: "SE4", text: "Dass die selbsterhaltende Vier so tut, als bräuchte sie nichts, während innerlich eine intensive Vierer-Gefühlswelt tobt, erzeugt eine Kluft zwischen äußerer Fassade und innerem Erleben – ausgerechnet in unbeobachteten Momenten, wenn die Kontrolle selbst nicht gefragt ist, kann sich diese Kluft als unregelmäßiger Herzschlag zeigen." },
+      { code: "SO4", text: "Ob die soziale Vier gerade als vollwertiges Mitglied der Gruppe erlebt wird oder sich ausgeschlossen fühlt, entscheidet oft binnen kurzer Zeit über ihre ganze innere Verfassung – dieses Kippen zwischen Zugehörigkeit und Scham kann sich als ein Herzrhythmus zeigen, der ebenso unvermittelt aus dem Takt gerät." },
+      { code: "SX4", text: "Die sexuelle Vier braucht das Gefühl, für den geliebten Menschen unersetzlich zu sein – gerät diese Gewissheit ins Wanken, kann die Angst vor dem Verlassenwerden einen inneren Ausnahmezustand auslösen, der sich als ein Herzrhythmus zeigt, der seinen geordneten Takt verliert und ins Chaotische kippt." },
         ],
       },
       {
@@ -95743,7 +95743,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Zerstreuung, die den eigenen Takt in viele Richtungen zieht",
         varianten: [
       { code: "SE7", text: "Nie ganz bei einer Sache: So hält sich die selbsterhaltende Sieben zahlreiche Optionen und Fluchtwege gleichzeitig offen, springt zwischen Projekten, Genüssen und Möglichkeiten. Dieses Leben in ständiger paralleler Vielfalt ist psychosomatisch eines der plausibelsten Bilder für einen Herzrhythmus, der seinen geordneten Takt an zu viele gleichzeitige Impulse verliert." },
-      { code: "SO7", text: "Oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl: So stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse zugunsten anderer zurück – diese selbstauferlegte Vielfachbelastung kann, anders als die freudige Zerstreuung des reinen Typs, zu einer stillen, aber ebenso wirksamen inneren Überforderung führen." },
+      { code: "SO7", text: "Anders als der reine Typ, der Belastendes gedanklich schnell hinter sich lässt, hält der soziale Kontratyp der Sieben an seiner selbstgewählten Verantwortung auch dann fest, wenn sie längst zur Last geworden ist – dieses Ausbleiben des sonst so typischen Rhythmuswechsels kann sich als ein Herzschlag zeigen, der seinen eigenen Takt verliert." },
       { code: "SX7", text: "Von einem Enthusiasmus zum nächsten springt die sexuelle Sieben, lebt Begeisterung grenzenlos und mit voller Intensität – diese impulsive, oft suchtnahe Vielfalt an Reizen und Erlebnissen liest die Psychosomatik als eines der unmittelbarsten Bilder für ein chaotisches, viel zu schnelles inneres Zittern anstelle eines ruhigen Takts." },
         ],
       },
@@ -95759,7 +95759,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Innere Zersplitterung hinter äußerer Ruhe",
         varianten: [
       { code: "SE9", text: "Um bloß nicht bei der eigenen, dringenden Frage ankommen zu müssen, verliert sich die selbsterhaltende Neun innerlich oft in vielen kleinen, unwichtigen Beschäftigungen gleichzeitig, wirkt nach außen entspannt und behäbig – dieses stille, aber ständige Zerstreuen der eigenen Aufmerksamkeit auf Nebensächliches kann sich als ein inneres Flimmern niederschlagen, das der äußeren Ruhe widerspricht." },
-      { code: "SO9", text: "Ohne je die eigene Position klar zu benennen, verfolgt die soziale Neun innerlich viele verschiedene Rücksichtnahmen gleichzeitig, ordnet die eigenen Anliegen fortlaufend den Bedürfnissen der Gruppe unter – dieses gleichzeitige Abwägen vieler fremder Interessen kann den eigenen inneren Rhythmus in unzählige Richtungen ziehen." },
+      { code: "SO9", text: "Weil sie sich innerlich gleichzeitig an vielen fremden Standpunkten ausrichtet, ohne selbst eine feste Position zu beziehen, verliert die soziale Neun leicht ihren eigenen Takt – ein diffuses Mitschwingen mit der Gruppe, das sich als unregelmäßiger Herzschlag ohne erkennbaren Auslöser zeigen kann." },
       { code: "SX9", text: "Fast vollständig als den eigenen übernimmt die sexuelle Neun den Rhythmus des Partners, verschmilzt mit ihm – verändert sich der Takt des anderen plötzlich, etwa durch Streit, Distanz oder Verlustangst, kann genau dieser fremdbestimmte innere Rhythmus aus dem Gleichgewicht geraten, weil die Neun nie wirklich ihren eigenen, unabhängigen Takt gefunden hat." },
         ],
       },
@@ -95811,9 +95811,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Emotionale Wucht, die die körperliche Grenze überschreitet",
         varianten: [
-      { code: "SE4", text: "Statt einen Ausdruck zu finden, kann sich das intensive innere Leid, das die selbsterhaltende Vier, der Kontratyp, meist zäh und nach außen kontrolliert trägt, körperlich als ein Schmerz zeigen, der genau dann auftritt, wenn die innere Anspannung eine bestimmte Schwelle überschreitet." },
-      { code: "SO4", text: "Anders als viele andere Subtypen hält die soziale Vier ihre Belastungsgrenze nicht geheim – sie spricht über Erschöpfung, zeigt sich verletzlich vor der Gruppe, findet darin zumindest teilweise ein Ventil. Der Ausdruck der eigenen emotionalen Intensität kann helfen, die innere Belastung nicht ausschließlich körperlich austragen zu müssen, auch wenn die zugrunde liegende Sehnsucht nach Vollständigkeit bestehen bleibt." },
-      { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – gerade diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Schmerz, der in emotional zugespitzten Momenten seine eigene, unsichtbare Grenze markiert." },
+      { code: "SE4", text: "Weil sie sich selbst kaum erlaubt, als bedürftig zu gelten, übernimmt die selbsterhaltende Vier oft stillschweigend mehr Verantwortung, als ihr guttut – diese über Jahre verdeckte Überlastung kann sich als ein Engegefühl zeigen, das genau dort ansetzt, wo die eigene Erschöpfung längst hätte anerkannt werden müssen." },
+      { code: "SO4", text: "Der ständige innere Vergleich, wer in der Gruppe mehr Tiefe, mehr Anerkennung oder mehr Zugehörigkeit für sich beansprucht, kostet die soziale Vier eine Energie, die sich messen lässt: ein Wettbewerb um Bedeutung, der nie offen ausgetragen wird und der die Herzkranzgefäße über Jahre so beansprucht wie eine nie endende, leise geführte Konkurrenz." },
+      { code: "SX4", text: "Der ständige innere Vergleich mit einem idealisierten Bild von Liebe, an dem die reale Beziehung fast zwangsläufig scheitert, erzeugt bei der sexuellen Vier eine Enttäuschung, die sich immer wieder erneuert – dieser wiederkehrende Schmerz kann sich körperlich als ein Engegefühl zeigen, das in genau jenen zugespitzten Momenten auftritt, in denen das Ideal am deutlichsten verfehlt wird." },
         ],
       },
       {
@@ -95836,7 +95836,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Rastlosigkeit, die keine echte Grenze kennt",
         varianten: [
       { code: "SE7", text: "Ein Leben ohne bewusst gesetzte Pausen kennt kaum eine anerkannte Belastungsgrenze – so hält sich die selbsterhaltende Sieben ständig neue Optionen und Aktivitäten offen, springt von einem Projekt zum nächsten, bis der Körper selbst, oft überraschend, genau diese Grenze in Form eines wiederkehrenden Schmerzes markiert." },
-      { code: "SO7", text: "Aus Pflichtgefühl übernimmt die soziale Sieben, der Kontratyp, Verantwortung für andere und stellt eigene Bedürfnisse zurück – diese selbstauferlegte, oft übersehene Überforderung kann sich körperlich als ein Signal zeigen, das genau dort ansetzt, wo die idealistische Opferbereitschaft die eigene Kraft überschreitet." },
+      { code: "SO7", text: "Der soziale Kontratyp der Sieben bewegt sich oft ungewöhnlich lange auf engem Raum, gebunden an Verpflichtungen, denen sie sich moralisch verpflichtet fühlt, statt sich – wie der reine Typ – frei zwischen Optionen zu bewegen. Dieser Mangel an selbstgewählter Bewegung kann sich in den Beinen als Stauung zeigen." },
       { code: "SX7", text: "Oft mit erhöhtem Risiko für Nikotin- oder Alkoholkonsum, die die Herzkranzgefäße zusätzlich belasten können, lebt die sexuelle Sieben Begeisterung grenzenlos und impulsiv – diese Kombination aus rastloser Intensität und stoffgebundenem Risikoverhalten liest die Psychosomatik als eines der direkteren Bilder für eine wiederkehrend überschrittene körperliche Grenze." },
         ],
       },
@@ -95852,7 +95852,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Selbstvergessene Anpassung, die die eigene Grenze verschweigt",
         varianten: [
       { code: "SE9", text: "Diese Strategie schont kurzfristig, verhindert aber auch, dass die selbsterhaltende Neun je bewusst lernt, wo ihre eigene Belastungsgrenze tatsächlich liegt: Sie flüchtet in Komfort und Routine, um Konflikten und Anforderungen aus dem Weg zu gehen, bis der Körper sie unmissverständlich markiert." },
-      { code: "SO9", text: "Jede offene Auseinandersetzung um die eigene Belastbarkeit vermeidet die soziale Neun, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich körperlich als ein Schmerz zeigen, der genau dort ansetzt, wo die eigene, nie geäußerte Grenze längst überschritten wurde." },
+      { code: "SO9", text: "Ihre Trägheit gegenüber eigenen Anliegen zeigt sich besonders deutlich, wenn eine Entscheidung fällig wäre, die sie selbst betrifft – die soziale Neun schiebt genau diese Momente lange vor sich her, aus Sorge, damit den Gruppenfrieden zu gefährden, was den Herzkranzgefäßen über Jahre eine stille, nie abgeschlossene Belastung aufbürdet." },
       { code: "SX9", text: "Oft als die eigenen übernimmt die sexuelle Neun Tempo und Anforderungen des Partners, verschmilzt mit ihm – gerät der andere unter Druck oder verlangt mehr, als die Neun eigentlich leisten kann, kann genau diese fremdbestimmte Überforderung zur eigenen körperlichen Belastungsgrenze werden, ohne dass sie je als solche benannt wird." },
         ],
       },
@@ -95904,9 +95904,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die nie zur Erleichterung findet",
         varianten: [
-      { code: "SE4", text: "Ohne es je auszudrücken trägt die selbsterhaltende Vier, der Kontratyp, ihr Leid zäh und stumm – eine über Jahre unausgesprochene Sehnsucht, die nie ein Ventil findet. Dieses fortgesetzte Zurückhalten kann sich körperlich als eine Stauung zeigen: Gefühle, die nie fließen dürfen, wie Blut, das nie zurückfließt." },
-      { code: "SO4", text: "Die soziale Vier hält Groll und Enttäuschung selten lange zurück – sie spricht sie aus, trägt sie sichtbar in die Gemeinschaft, statt sie im Verborgenen anzustauen. Dieser regelmäßige Ausdruck kann der reinen körperlichen Stauung zumindest teilweise entgegenwirken, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
-      { code: "SX4", text: "Zwischen Verschmelzung und Verzweiflung schwankt die kompromisslose emotionale Intensität, die die sexuelle Vier in der Beziehung auslebt – diese heftigen, aber episodischen Ausschläge erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Stauung." },
+      { code: "SE4", text: "Die selbsterhaltende Vier hält an ihrer Rolle als verlässliche Stütze fest, selbst wenn die eigene Erschöpfung längst spürbar ist – dieses Beharren, weiter zu funktionieren, ohne je um Entlastung zu bitten, kann sich in den Beinvenen als eine Stauung zeigen, die entsteht, weil der Rückfluss nie zugelassen wird." },
+      { code: "SO4", text: "Wenn die soziale Vier sich in der Gruppe übersehen fühlt, zieht sie sich innerlich oft ebenso demonstrativ zurück, wie sie zuvor ihr Leiden gezeigt hat – dieses Wechselspiel aus Suchen und Rückzug kann sich in den Beinvenen als eine Stauung zeigen, die genau dort entsteht, wo die Bewegung zur Gruppe hin unterbrochen wird." },
+      { code: "SX4", text: "Die sexuelle Vier zieht sich nach einer erlittenen Kränkung oft demonstrativ zurück, um die eigene Verletzung sichtbar zu machen – dieses rhythmische Wechselspiel aus Nähe suchen und sich entziehen kann sich in den Beinvenen als eine Stauung zeigen, die entsteht, wenn der Rückzug länger dauert als die anschließende Versöhnung." },
         ],
       },
       {
@@ -95929,7 +95929,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Fluchtbewegung, die die eigene Last nie ablegt",
         varianten: [
       { code: "SE7", text: "Diese permanente Bewegung nach vorn verhindert, dass die selbsterhaltende Sieben je innehält und eine Last wirklich hinter sich lässt – sie hält sich ständig neue Optionen offen und springt von einer Ablenkung zur nächsten. Was nie verarbeitet wird, staut sich, auch wenn die Oberfläche leicht und beweglich wirkt." },
-      { code: "SO7", text: "Selten eine bewusste Erleichterungsphase kennt die selbstauferlegte Opferbereitschaft, mit der die soziale Sieben, der Kontratyp, aus Pflichtgefühl Verantwortung für andere übernimmt und eigene Bedürfnisse zurückstellt – was sich als stille, aber wirksame Stauung zeigen kann." },
+      { code: "SO7", text: "Wird die soziale Sieben, der Kontratyp, in ihrer selbstauferlegten Pflicht plötzlich unterbrochen oder mit einer Situation konfrontiert, die sie nicht kontrollieren kann, bricht die sonst stabile Fassade abrupt – ein plötzliches Ereignis, das so unvorbereitet wirkt, wie die zugrunde liegende Überforderung lange verdeckt war." },
       { code: "SX7", text: "Selbst wenn jeder einzelne Moment zunächst befreiend wirkt, verhindert die rastlose Vielfalt, mit der die sexuelle Sieben Begeisterung grenzenlos auslebt und impulsiv von einer Intensität zur nächsten springt, echtes Ankommen und damit auch echte Erleichterung." },
         ],
       },
@@ -95945,7 +95945,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängte Last, die sich unbemerkt staut",
         varianten: [
       { code: "SE9", text: "Diese Vermeidung verhindert, dass eine innere Last je bewusst wahrgenommen und dadurch erleichtert wird, wenn die selbsterhaltende Neun in Komfort und Routine flüchtet, um eigenen Anliegen und Konflikten aus dem Weg zu gehen. Sie wirkt entspannt, während sich im Verborgenen etwas anstaut, das nie ausgesprochen wurde." },
-      { code: "SO9", text: "Immer wieder verzichtet die soziale Neun auf die eigene Stimme, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich körperlich als ein Stau zeigen, der nie zur Sprache kommt und deshalb nie fließt." },
+      { code: "SO9", text: "Die soziale Neun bewegt sich lieber im Windschatten der Gruppe, statt eigene Wege zu gehen – dieses dauerhafte Zurückstellen der eigenen Richtung kann sich in den Beinvenen als eine Stauung zeigen, wo eigentlich ein selbstbestimmter Fluss nötig wäre." },
       { code: "SX9", text: "Während die eigenen Anliegen zurücktreten, übernimmt die sexuelle Neun die des Partners als die eigenen, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe zugunsten des anderen kann bedeuten, dass die eigene Last nie wirklich als solche erkannt wird, weil sie hinter der des Partners verschwindet." },
         ],
       },
@@ -95997,8 +95997,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Erstarrtes Leid, das sich nie löst",
         varianten: [
-      { code: "SE4", text: "Aus einem lebendigen, fließenden Gefühl kann eine feste, erstarrte innere Blockade werden, wenn die selbsterhaltende Vier, der Kontratyp, ihr inneres Leid über Jahre zurückhält, ohne es je auszudrücken – eine Blockade, die nie die Chance bekam, sich zu lösen, weil sie nie nach außen durfte." },
-      { code: "SO4", text: "Wo andere Subtypen ihr Leid stumm mit sich herumtragen, bringt die soziale Vier es fortlaufend zur Sprache, macht es zum Teil ihrer sozialen Präsenz – dieser Ausdruck nach außen kann verhindern, dass sich das Gefühl zu einer völlig unbeweglichen inneren Blockade verfestigt, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+      { code: "SE4", text: "Wenn eine intensive innere Kränkung auf eine nach außen unerschütterlich wirkende Fassade trifft, kann bei der selbsterhaltenden Vier genau dieser Widerspruch zwischen Fühlen und Zeigen sich als ein plötzliches Ereignis entladen, das so abrupt wirkt, wie es sich lange und unbemerkt angebahnt hat." },
+      { code: "SO4", text: "Bleibt die erhoffte Anerkennung für das eigene Leiden über längere Zeit aus, kann sich bei der sozialen Vier eine tiefe, fast lähmende Kränkung festsetzen – ein plötzliches Gefühl von Wertlosigkeit, das die Psychosomatik als naheliegendes Bild für ein abrupt unterbrochenes Fließen liest." },
       { code: "SX4", text: "In besonders zugespitzten Momenten kann sich die emotionale Intensität, mit der die sexuelle Vier zwischen Nähe und Verzweiflung schwankt, kurzzeitig zu völliger emotionaler Erstarrung verdichten, bevor sie sich wieder löst." },
         ],
       },
@@ -96022,7 +96022,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Erzwungene Erstarrung nach jahrelanger Flucht",
         varianten: [
       { code: "SE7", text: "Um bloß nicht stillzustehen, hält sich die selbsterhaltende Sieben ständig in Bewegung, springt von einer Option zur nächsten – gerade wenn diese Fluchtbewegung durch äußere Umstände erzwungen unterbrochen wird, etwa durch Krankheit oder Immobilität, kann sich das System in einer für sie besonders widersprüchlichen, abrupten Erstarrung wiederfinden." },
-      { code: "SO7", text: "Auch wenn die eigene Erschöpfung längst Grenzen setzt, hält die soziale Sieben, der Kontratyp, an ihrer selbstauferlegten Pflicht fest, für andere da zu sein – diese Unfähigkeit, die eigene Position aufzugeben, kann sich über Jahre zu einer starren inneren Haltung verfestigen." },
+      { code: "SO7", text: "Der Idealismus, mit dem die soziale Sieben, der Kontratyp, ihre eigene Bedürftigkeit ignoriert, kann in Momenten akuter Überforderung ins Gegenteil kippen – ein plötzlicher Einbruch, bei dem der Körper genau die Warnung sendet, die der wache, pflichtbewusste Verstand konsequent überhört hat." },
       { code: "SX7", text: "Am ehesten in den seltenen Momenten, in denen sie sich gezwungen sieht, bei einer einzigen Sache zu verharren, tritt echte Erstarrung bei der sexuellen Sieben auf, die Begeisterung grenzenlos auslebt und impulsiv zwischen Intensitäten wechselt." },
         ],
       },
@@ -96038,7 +96038,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verdrängte Erstarrung hinter äußerer Trägheit",
         varianten: [
       { code: "SE9", text: "Um bloß keine Entscheidung treffen zu müssen, verharrt die selbsterhaltende Neun in Routine und Komfort – diese fortgesetzte Unbeweglichkeit, ein Leben, das sich nicht mehr bewegt, weil Bewegung Konflikt bedeuten könnte, passt besonders genau zum Bild einer festen, erstarrten Blockade." },
-      { code: "SO9", text: "Jede Position, die zu Reibung führen könnte, vermeidet die soziale Neun, ordnet die eigene Meinung fortlaufend der Gruppe unter – diese chronische Unentschlossenheit kann sich über Jahre zu einer festen inneren Blockade verhärten, die selbst dann nicht nachgibt, wenn eine Entscheidung längst überfällig wäre." },
+      { code: "SO9", text: "Wird die soziale Neun plötzlich gezwungen, sich gegen die Gruppe zu positionieren, kann dieser abrupte Bruch mit ihrer gewohnten Anpassung eine akute innere Erschütterung auslösen – ein Ereignis, das so plötzlich wirkt, wie die zugrunde liegende Vermeidung lange unbemerkt blieb." },
       { code: "SX9", text: "Oft als die eigene übernimmt die sexuelle Neun die Position des Partners, verschmilzt mit ihm – bleibt der Partner starr, kann diese übernommene Starrheit sich auch bei der Neun selbst festsetzen, ohne dass sie je als eigene erkannt wird." },
         ],
       },
@@ -96090,8 +96090,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Verstummte Sehnsucht, die sich gewaltsam Ausdruck verschafft",
         varianten: [
-      { code: "SE4", text: "Diese fortgesetzte Verleugnung einer eigentlich sehr lebendigen emotionalen Welt entsteht, wenn die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid über Jahre zäh und stumm trägt, ohne es je auszudrücken. Sie kann sich als aufgestaute Fülle zeigen, die sich, wenn sie sich löst, mit besonderer Wucht Bahn bricht, weil sie nie einen anderen Ausweg gefunden hat." },
-      { code: "SO4", text: "Die soziale Vier stellt ihr Leiden bewusst zur Schau, sucht in der Gruppe Resonanz für ihren Schmerz – dieses fortlaufende Ventil kann helfen, die innere emotionale Fülle über die Jahre eher abzuleiten als anzustauen, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+      { code: "SE4", text: "Weil sie ihre Bedürftigkeit dauerhaft hinter Tüchtigkeit versteckt, bemerkt die selbsterhaltende Vier eigene Warnzeichen oft spät – gerade die Fähigkeit, über eine kritische Grenze hinweg zu funktionieren, kann verhindern, dass ein akutes Ereignis rechtzeitig erkannt wird." },
+      { code: "SO4", text: "Die feine, oft schmerzhafte Wahrnehmung dafür, wie andere in der Gruppe scheinbar mühelos dazugehören, während sie selbst außen vor bleibt, hält die soziale Vier in einer chronischen inneren Anspannung – ein Zustand des Zukurzkommens, der sich still über Jahre aufbaut, bevor er sich körperlich Bahn bricht." },
       { code: "SX4", text: "Dramatisch, aber ausgelebt: So entladen sich die Wendungen der kompromisslosen emotionalen Intensität, mit der die sexuelle Vier zwischen Verschmelzung und Verzweiflung schwankt, eher fortlaufend als sich über Jahrzehnte zu einer einzigen großen Fülle aufzustauen." },
         ],
       },
@@ -96115,7 +96115,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 7, titel: "Rastlosigkeit, die eine tiefere Erschöpfung überdeckt",
         varianten: [
       { code: "SE7", text: "Diese permanente Zerstreuung kann verhindern, dass die selbsterhaltende Sieben je bei der eigenen, tieferen Erschöpfung ankommt – sie hält sich ständig in Bewegung, springt von einem Projekt, einem Genuss, einer Ablenkung zur nächsten. Diese Erschöpfung staut sich unbemerkt auf, bis sie sich unvermittelt zeigt, oft verstärkt durch Alkohol, Nikotin oder andere Risikofaktoren." },
-      { code: "SO7", text: "Ohne die eigene wachsende Erschöpfung je zuzugeben, stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse aus Pflichtgefühl fortlaufend zurück – diese selbstauferlegte, nie eingestandene Überforderung kann sich über Jahre zu einer inneren Fülle verdichten." },
+      { code: "SO7", text: "Weil der soziale Kontratyp der Sieben Erholung selbst als eine Art Pflichtverletzung erlebt, fehlt ihm regelmäßig genau die Regenerationsphase, die ein überlasteter Kreislauf bräuchte – ein struktureller Mangel an echter Entspannung, der sich als dauerhaft zu geringer Antrieb zeigen kann." },
       { code: "SX7", text: "Oft mit erhöhtem Risiko für Suchtverhalten lebt die sexuelle Sieben Begeisterung grenzenlos und impulsiv aus – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine plötzliche, dramatische Entladung." },
         ],
       },
@@ -96131,7 +96131,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Verstummte Stimme, die sich zuletzt Gehör verschafft",
         varianten: [
       { code: "SE9", text: "Über Jahrzehnte fortgesetzte Selbstvergessenheit prägt die selbsterhaltende Neun, die in Komfort und Routine flüchtet, um Konflikten und der eigenen dringenden Frage aus dem Weg zu gehen. Diese Selbstvergessenheit kann sich als eine innere Fülle ansammeln, die sich, wenn sie sich löst, besonders unvermittelt zeigt, weil sie nie zuvor bewusst wahrgenommen wurde." },
-      { code: "SO9", text: "Immer wieder verzichtet die soziale Neun darauf, die eigene Position zu vertreten, ordnet die eigene Stimme fortlaufend der Gruppe unter – diese chronische Selbstauslöschung zugunsten des sozialen Friedens kann sich über Jahre zu einer inneren Fülle verdichten, die sich schließlich gewaltsam Ausdruck verschafft, gerade weil die eigene Stimme nie freiwillig gehört wurde." },
+      { code: "SO9", text: "Wie sehr die soziale Neun sich selbst aus dem Blick verliert, zeigt sich oft erst, wenn niemand mehr da ist, der ihre Zustimmung braucht – ein plötzlicher Ausfall der gewohnten Ausrichtung an anderen, der sich als scheinbar unvermittelter neurologischer Einbruch zeigen kann." },
       { code: "SX9", text: "Fast vollständig zugunsten des anderen gibt die sexuelle Neun die eigene Identität auf, verschmilzt mit dem Partner – diese wohl radikalste Form der Selbstaufgabe unter den 27 Subtypen bedeutet auch: eine eigene Stimme, die über Jahrzehnte nie wirklich existierte, kann sich, wenn sie sich doch einmal zeigt, nur noch schlagartig und dramatisch Bahn brechen." },
         ],
       },
@@ -96183,7 +96183,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 4, titel: "Sehnsucht, die die eigene Lebenskraft nach innen zieht",
         varianten: [
-      { code: "SE4", text: "Die Energie, die es kostet, inneres Leid ständig zu verbergen, kann der selbsterhaltenden Vier, dem Kontratyp, an anderer Stelle fehlen: der Kraft, sich selbst mit Nachdruck in der Welt zu behaupten, während sie nach außen erstaunlich beherrscht funktioniert." },
+      { code: "SE4", text: "Weil so viel Kraft darauf verwendet wird, keine Schwäche zu zeigen, bleibt der selbsterhaltenden Vier oft wenig übrig, um für die eigene Erholung tatsächlich einzustehen – ein struktureller Energiemangel, der sich in einem dauerhaft zu niedrigen Antrieb des Kreislaufs widerspiegeln kann." },
       { code: "SO4", text: "Die soziale Vier bezieht einen Teil ihrer Identität aus dem sichtbar gemachten Leid – diese Identifikation mit dem eigenen Schmerz kann paradoxerweise Energie binden, die für eine kraftvolle Selbstbehauptung im Alltag fehlt, weil der Fokus stärker auf dem Ausdruck des Leids liegt als auf dem eigenen Antrieb." },
       { code: "SX4", text: "Diese Intensität selbst ist eine Form von Kraft, auch wenn sie sich nicht als stabiler, gleichmäßiger Antrieb zeigt, sondern in heftigen Wellen zwischen Aufschwung und Erschöpfung: So lebt die sexuelle Vier kompromisslose emotionale Intensität." },
         ],
@@ -96302,7 +96302,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Dem Unangenehmen ausweichen, zur nächsten Option springen: Dieses Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine Rigidität zeigen, die sich auch körperlich niederschlägt." },
       { code: "SO7", text: "Ohne sie zu variieren, übernimmt die soziale Sieben, der Kontratyp, über Jahre dieselbe selbstlose, pflichtbewusste Rolle für andere – diese unveränderte Position kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Flexibilität zulässt." },
-      { code: "SX7", text: "Zwischen Begeisterungen wechselt die sexuelle Sieben impulsiv, lebt tatsächliche, spontane Vielfalt – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für Arthrose psychosomatisch besonders typisch ist." },
+      { code: "SX7", text: "Das nächste außergewöhnliche Erlebnis erscheint der sexuellen Sieben oft glänzender als das, was der eigene Körper gerade tatsächlich leisten kann – diese Idealisierung des Kommenden auf Kosten der nüchternen Gegenwart kann dazu führen, dass Warnsignale eines belasteten Gelenks überhört werden, bis der Schaden bereits eingesetzt hat." },
         ],
       },
       {
@@ -96310,7 +96310,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Selten weicht die selbsterhaltende Acht von ihrem Kurs ab, hält über Jahre an derselben kraftvollen, kontrollierten Haltung fest – diese Unnachgiebigkeit, die sich selbst dann nicht anpasst, wenn Flexibilität klüger wäre, passt zum Bild einer über Jahrzehnte akkumulierten mechanischen Abnutzung." },
       { code: "SO8", text: "Ohne sie zu variieren, übernimmt die soziale Acht über Jahre dieselbe Führungs- und Beschützerrolle – diese unveränderte Position der Verantwortung kann sich als Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
-      { code: "SX8", text: "Heftig, aber wechselnd: So zeigen sich die Ausschläge zwischen Kontrolle und Hingabe, mit denen die sexuelle Acht totale Intensität in der Beziehung lebt – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für Arthrose besonders typisch ist." },
+      { code: "SX8", text: "Ständig auf der Suche nach dem nächsten Beweis für das eigene ganz Echte rebelliert die sexuelle Acht gegen Grenzen, auch die des eigenen Körpers – dieses rastlose Ausreizen der eigenen Belastungsfähigkeit, statt auf Warnsignale eines Gelenks zu hören, passt zum Bild eines Verschleißes, der lange ignoriert wird." },
         ],
       },
       {
@@ -96387,7 +96387,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Oft ohne diese Angst je offen zu benennen, trägt die selbsterhaltende Sechs ständige Sorge um mögliche Gefahren mit sich – ein Nervensystem in Daueralarmbereitschaft, das nie wirklich entlastet wird, passt zum Bild eines Rückens, der unter unbenannter Sorge steht." },
       { code: "SO6", text: "Selten geteilt wird die Last, die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, die die soziale Sechs trägt – diese kollektive, nie erleichterte Sorge kann sich über Jahre als Rückenschmerz zeigen." },
-      { code: "SX6", text: "Im Außen entlädt sich die Angst, der die sexuelle Sechs gegenphobisch durch aktive Konfrontation begegnet – das kann verhindern, dass sich die innere Last zu einer gleichmäßig akkumulierten Rückenspannung aufstaut." },
+      { code: "SX6", text: "Ständig kampfbereit, den Rücken nie wirklich entspannt: So hält sich die sexuelle Sechs, prüfend und stellungsbezogen wie im Wolfsrudel, für die nächste Konfrontation gewappnet – diese chronische Kampfhaltung, nie wirklich niedergelegt, kann sich genau an der Stelle festsetzen, die für Rückenschmerzen prädestiniert ist." },
         ],
       },
       {
@@ -96573,7 +96573,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Ohne dass dieser Verbrauch je durch bewusste Selbstfürsorge ausgeglichen wird, verausgabt die selbsterhaltende Sechs über Jahre viel innere Energie auf Sorge und Vorbereitung, lebt in ständiger Alarmbereitschaft – dieses stille, nie thematisierte Ungleichgewicht kann sich als schwindende innere Substanz zeigen." },
       { code: "SO6", text: "Ohne dass es je bewusst bemerkt wird, kann die Last, die gefühlte Verantwortung für das Wohlergehen ihrer Gruppe, über Jahre an der eigenen Substanz der sozialen Sechs zehren, die diese Last selten teilt." },
-      { code: "SX6", text: "Im Außen entlädt sich die Angst, der die sexuelle Sechs gegenphobisch durch aktive Konfrontation begegnet – das kann verhindern, dass sich die innere Erschöpfung zu einer gleichmäßig über Jahre akkumulierten Substanzauszehrung entwickelt." },
+      { code: "SX6", text: "Bindung und Loyalität werden von der sexuellen Sechs immer wieder bis an die Belastungsgrenze getestet, statt ihnen einfach zu vertrauen – dieser fortgesetzte Prüfmodus, nie zur Ruhe kommend, lässt kaum eine Phase echter, entspannter Regeneration zu, in der sich Knochensubstanz aufbauen könnte." },
         ],
       },
       {
@@ -96597,7 +96597,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Kaum je bewusst wahrgenommen oder genährt wird der eigene Körper der selbsterhaltenden Neun über Jahrzehnte, so konsequent übergeht sie die eigenen Bedürfnisse – diese fortgesetzte Selbstvergessenheit ist psychosomatisch eines der unmittelbarsten Bilder für die Osteoporose: eine Substanz, die schwindet, weil ihr über Jahre schlicht keine Aufmerksamkeit geschenkt wurde." },
       { code: "SO9", text: "So klein macht sich die soziale Neun innerlich, dass die eigene Selbstfürsorge kaum je Raum findet, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich als schwindende innere Substanz zeigen." },
-      { code: "SX9", text: "Oft als die eigenen übernimmt die sexuelle Neun die Bedürfnisse des Partners, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe bedeutet auch: die eigene Substanz wird selten als eigenständig erkannt und genährt, weil sie hinter der des Partners verschwindet." },
+      { code: "SX9", text: "Die Bedürfnisse des Partners werden für die sexuelle Neun oft zu den eigenen, so sehr verschmilzt sie mit ihm – diese fortgesetzte Selbstaufgabe bedeutet auch: die eigene Substanz wird selten als eigenständig erkannt und genährt, weil sie hinter der des Partners verschwindet." },
         ],
       },
     ],
@@ -96782,8 +96782,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Stilles Zupacken, das nie als Überlastung erkannt wird",
         varianten: [
       { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie ihre Hände dabei beansprucht, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, wiederholte Belastung passt besonders genau zum schleichenden Entstehungsmuster des Karpaltunnelsyndroms." },
-      { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend praktische Aufgaben für die Gruppe – diese chronische, unbemerkte körperliche Überlastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
-      { code: "SX9", text: "Oft als die eigenen übernimmt die sexuelle Neun praktische Aufgaben und Handgriffe des Partners, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
+      { code: "SO9", text: "Praktische Aufgaben für die Gruppe übernimmt die soziale Neun fortlaufend, ohne die eigene Belastung je zu benennen – diese chronische, unbemerkte körperliche Überlastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
+      { code: "SX9", text: "Praktische Aufgaben und Handgriffe des Partners übernimmt die sexuelle Neun oft als wären es die eigenen, so sehr verschmilzt sie mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
     ],
@@ -96953,7 +96953,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Schnell zugreifen, schnell weiter: Dieses angespannte Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
       { code: "SO7", text: "Ohne sie zu variieren, übernimmt die soziale Sieben, der Kontratyp, über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere – diese unveränderte Position kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-      { code: "SX7", text: "Zwischen Begeisterungen wechselt die sexuelle Sieben impulsiv, lebt tatsächliche, spontane Vielfalt – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für den Tennisarm psychosomatisch besonders typisch ist." },
+      { code: "SX7", text: "Sinnlich und lebenshungrig greift die sexuelle Sieben nach immer neuen Erfahrungen, Tätigkeiten und Werkzeugen, statt bei einer einzigen Handbewegung zu bleiben – dieser rasche Wechsel des Betätigungsfelds erzeugt seltener die eng eingegrenzte, monotone Überlastung, die für den Tennisarm typisch ist." },
         ],
       },
       {
@@ -96961,15 +96961,15 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Über Jahre wiederholt die selbsterhaltende Acht denselben festen, kontrollierten Zugriff auf ihr Terrain, packt buchstäblich zu, wo andere zögern würden – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild eines Sehnenansatzes, der unter permanenter mechanischer Anspannung erschöpft ist." },
       { code: "SO8", text: "Immer mit demselben festen Zugriff wiederholt die soziale Acht über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe – diese unveränderte, körperlich fordernde Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-      { code: "SX8", text: "Heftig, aber wechselnd: So zeigen sich die Ausschläge zwischen Kontrolle und Hingabe, mit denen die sexuelle Acht totale Intensität in der Beziehung lebt – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für den Tennisarm typisch ist." },
+      { code: "SX8", text: "Magnetisch und mitreißend zieht die sexuelle Acht andere in ihren Bann, greift mit voller Kraft nach dem, was sie begehrt – dieser besitzergreifende Zugriff, oft ruckartig statt gleichmäßig dosiert, kann genau die Sehne überlasten, die für die Bewegung des Zugreifens zuständig ist." },
         ],
       },
       {
         typ: 9, titel: "Immer dieselbe unbemerkte Routinebewegung",
         varianten: [
-      { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie dabei denselben Punkt belastet, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, monotone Wiederholung passt besonders genau zum schleichenden Entstehungsmuster des Tennisarms." },
-      { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend dieselbe praktische Aufgabe für die Gruppe – diese chronische, unbemerkte körperliche Wiederholung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-      { code: "SX9", text: "Über Jahre unverändert übernimmt die sexuelle Neun oft praktische Handgriffe des Partners als die eigenen, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
+      { code: "SE9", text: "Dieselben ruhigen, oft manuellen Routinetätigkeiten verrichtet die selbsterhaltende Neun über Jahrzehnte, ohne den belasteten Punkt je bewusst zu bemerken – diese unbemerkte, monotone Wiederholung passt besonders genau zum schleichenden Entstehungsmuster des Tennisarms." },
+      { code: "SO9", text: "Dieselbe praktische Aufgabe übernimmt die soziale Neun fortlaufend für die Gruppe, die eigene Belastung dabei nie benannt – diese chronische, unbemerkte körperliche Wiederholung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
+      { code: "SX9", text: "Praktische Handgriffe des Partners werden über Jahre unverändert zu den eigenen der sexuellen Neun, so sehr verschmilzt sie mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
     ],
@@ -97155,7 +97155,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Bis eine einzige, oft harmlose Bewegung genügt, damit lange verdrängte innere Last sich körperlich Bahn bricht: So flüchtet die selbsterhaltende Neun in Komfort und Routine, um eigenen Anliegen und Konflikten aus dem Weg zu gehen. Dieses plötzliche, unerwartete Einschießen nach langer stiller Ansammlung passt besonders genau zum Bild des Hexenschusses." },
       { code: "SO9", text: "Immer wieder verzichtet die soziale Neun auf die eigene Stimme, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – wenn diese chronische Selbstzurücknahme sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unübersehbar." },
-      { code: "SX9", text: "Oft als die eigenen übernimmt die sexuelle Neun die Lasten des Partners, verschmilzt mit ihm – gerät der Partner unter Druck oder verlangt mehr, als sie eigentlich leisten kann, kann sich diese fremdbestimmte Überlastung plötzlich und unerwartet körperlich zeigen." },
+      { code: "SX9", text: "Die Lasten des Partners trägt die sexuelle Neun oft, als wären es die eigenen, so sehr verschmilzt sie mit ihm – gerät er unter Druck oder verlangt mehr, als sie eigentlich leisten kann, kann sich diese fremdbestimmte Überlastung plötzlich und unerwartet körperlich zeigen." },
         ],
       },
     ],
@@ -97246,8 +97246,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 9, titel: "Immer dieselbe unbemerkte Routinebewegung",
         varianten: [
-      { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie dabei denselben Punkt belastet, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, monotone Wiederholung passt besonders genau zum schleichenden Entstehungsmuster der Sehnenscheidenentzündung." },
-      { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend dieselbe praktische Aufgabe für die Gruppe – diese chronische, unbemerkte körperliche Wiederholung kann sich als eine entzündete Schutzhülle zeigen." },
+      { code: "SE9", text: "Jahrzehntelang wiederholte, ruhige Routinetätigkeiten prägen den Alltag der selbsterhaltenden Neun, der belastete Punkt bleibt ihr dabei meist unbewusst – diese unbemerkte, monotone Wiederholung passt besonders genau zum schleichenden Entstehungsmuster der Sehnenscheidenentzündung." },
+      { code: "SO9", text: "Fortlaufend übernimmt die soziale Neun dieselbe praktische Aufgabe für die Gruppe, die eigene Belastung bleibt dabei unbenannt – diese chronische, unbemerkte körperliche Wiederholung kann sich als eine entzündete Schutzhülle zeigen." },
       { code: "SX9", text: "Über Jahre unverändert übernimmt die sexuelle Neun oft praktische Handgriffe des Partners als die eigenen, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
@@ -97300,7 +97300,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die die Luft zum Stocken bringt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm, ohne es je auszudrücken – dieses fortgesetzte Zurückhalten kann sich körperlich als eine Atmung zeigen, die ins Stocken gerät, wenn die unausgesprochene Sehnsucht sich nicht länger vollständig unterdrücken lässt." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das der reinen körperlichen Atemenge zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier vergleicht das eigene Erleben ständig mit dem anderer – auch die eigene Atemnot wird so zu einem Beweis dafür, wie viel schwerer und intensiver das eigene Leiden im Vergleich zur scheinbar mühelos atmenden Mehrheit wirklich ist. Genau dieses Vergleichen kann die Aufmerksamkeit so sehr auf die eigene Enge lenken, dass sich die Anspannung um den Atem noch verstärkt, statt sich zu lösen." },
           { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – gerade diese dramatischen inneren Wendungen können sich als plötzliche, episodische Atemnot zeigen, die in emotional zugespitzten Momenten auftritt." },
         ],
       },
@@ -97309,7 +97309,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE5", text: "Die selbsterhaltende Fünf reduziert ihr Leben systematisch auf das Nötigste, auch den eigenen Raum, den sie beansprucht – dieser konsequente Minimalismus kann sich körperlich als eine Atmung zeigen, die sich selbst nur knapp bemisst, als traue sie sich nicht, mehr von der Luft zu nehmen, als unbedingt nötig." },
           { code: "SO5", text: "Die soziale Fünf hält sich mit ihrem Wissen für die Gruppe verfügbar, wahrt aber innerlich Distanz – diese Mischung aus Teilhabe und Rückzug kann sich als eine Atmung zeigen, die selten wirklich frei und offen wird, weil echte Nähe, auch zum eigenen Körper, vermieden wird." },
-          { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus freies Atmen möglich sein – was der generellen Enge entgegenwirkt, die für andere Fünfer-Varianten typischer ist." },
+          { code: "SX5", text: "Die sexuelle Fünf sehnt sich nach der einen tiefen Verbindung, fürchtet aber zugleich, sich in ihr aufzulösen – gerade in Momenten wachsender Nähe zu dieser einen Person kann diese Spannung zwischen Sehnsucht und Rückzugsimpuls sich als akute Atemenge zeigen, punktuell und an die konkrete Beziehungssituation gebunden." },
         ],
       },
       {
@@ -97323,9 +97323,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Maßlosigkeit, die den Atem zerstreut",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über eine Vielzahl paralleler Optionen ab, springt zwischen Möglichkeiten, ohne je wirklich bei einer anzukommen – diese permanente Zerstreuung kann sich körperlich als eine flatterhafte, nie zur vollen Tiefe findende Atmung zeigen, die kaum je wirklich zur Ruhe kommt." },
+          { code: "SE7", text: "Zwischen Möglichkeiten springt die selbsterhaltende Sieben, ohne je wirklich bei einer anzukommen, immer mit einer Vielzahl paralleler Optionen im Rücken – diese permanente Zerstreuung kann sich körperlich als eine flatterhafte, nie zur vollen Tiefe findende Atmung zeigen." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – diese selbstauferlegte Überforderung kann sich als eine Atmung zeigen, die sich selbst kaum je die nötige Pause zum Durchatmen gönnt." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, oft verbunden mit erhöhtem Risiko für Rauchen oder andere Reizstoffe, die die Atemwege zusätzlich belasten können – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine gereizte, überlastete Lunge." },
+          { code: "SX7", text: "Erhöhtes Risiko für Rauchen oder andere Reizstoffe, die die Atemwege zusätzlich belasten können, begleitet oft die grenzenlose, impulsive Begeisterung der sexuellen Sieben – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine gereizte, überlastete Lunge." },
         ],
       },
       {
@@ -97341,7 +97341,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, feste Routinen und die konsequente Vermeidung jeglichen Konflikts – auch der eigene Atem wird dabei selten bewusst wahrgenommen, funktioniert einfach im Hintergrund, ohne dass sich die Person je fragt, ob er wirklich frei und tief ist. Diese Selbstvergessenheit kann sich psychosomatisch als eine Atmung zeigen, die sich selbst nie wirklich Raum gibt." },
           { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Stimme so konsequent unter, dass sie irgendwann kaum noch weiß, was sie selbst eigentlich braucht – diese chronische Selbstauslöschung kann sich als eine Atmung zeigen, die sich selbst nie wirklich Gehör verschafft." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass die eigene Identität im Anderen aufgeht – in ihrer reinsten Ausprägung ist das womöglich die deutlichste Version eines Atems, der nie ganz zu seinem eigenen, unabhängigen Rhythmus fand, weil er sich freiwillig dem des geliebten Menschen anpasste." },
+          { code: "SX9", text: "So vollständig geht die eigene Identität der sexuellen Neun im Partner auf, dass sich sogar der Atem freiwillig dessen Rhythmus anpasst, statt zu seinem eigenen, unabhängigen Takt zu finden." },
         ],
       },
     ],
@@ -97402,7 +97402,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE5", text: "Über Jahrzehnte reduziert die selbsterhaltende Fünf ihr Leben auf immer dasselbe Minimum, ohne das eigene Muster je zu erweitern – dieser über eine ganze Lebensspanne fortgesetzte, nie revidierte Rückzug kann sich körperlich als eine Lunge zeigen, die sich strukturell an einen dauerhaft eingeschränkten Radius angepasst hat." },
           { code: "SO5", text: "Jahrzehntelang hält die soziale Fünf dieselbe Mischung aus intellektueller Teilhabe und innerer Distanz durch, ohne das Muster je zu verändern – diese über sehr lange Zeit fortgesetzte Haltung passt zum Bild einer strukturell veränderten, dauerhaft eingeschränkten Atmung." },
-          { code: "SX5", text: "Innerhalb der schmalen, aber über Jahrzehnte gepflegten Verbindung, die die sexuelle Fünf eingeht, kann durchaus lebendiger Austausch stattfinden – was der vollständigen strukturellen Erstarrung anderer Fünfer-Varianten entgegenwirkt." },
+          { code: "SX5", text: "Über Jahrzehnte bewahrt die sexuelle Fünf ihre Offenheit fast ausschließlich für die eine ausgewählte Verbindung, während sie sich gegenüber allem und jedem anderen ebenso konsequent verschließt wie die übrigen Fünfer-Varianten – diese über ein ganzes Leben aufrechterhaltene Doppelstruktur aus enger Bindung und weiträumiger Abschottung passt zum Bild einer Lunge, die sich strukturell an eine dauerhafte, nur punktuell durchbrochene Enge angepasst hat." },
         ],
       },
       {
@@ -97486,7 +97486,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die sich als anhaltender Reiz zeigt",
         varianten: [
           { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm, ohne es je auszudrücken – dieses fortgesetzte Zurückhalten kann sich körperlich als ein anhaltender Reiz in den Atemwegen zeigen, der sich als Husten meldet, wo Worte fehlen." },
-          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen sprachlichen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das dem rein körperlichen Husten zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier neigt dazu, das eigene Leiden eher zu vertiefen und in eine Geschichte zu fassen, als konsequent an seiner Auflösung zu arbeiten – ein wiederkehrender Husten kann so zu einem festen Teil dieser Erzählung werden, weil das Loswerden des Symptoms zugleich bedeuten würde, ein Stück der eigenen, mühsam gepflegten Bedeutsamkeit aufzugeben." },
           { code: "SX4", text: "Mit heftigen, aber ausgelebten Ausschlägen zwischen Nähe und Verzweiflung entlädt sich die emotionale Intensität der sexuellen Vier eher direkt in der Beziehung als über einen stellvertretenden, chronischen Husten." },
         ],
       },
@@ -97495,7 +97495,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE5", text: "Die selbsterhaltende Fünf hält auch körperliche Beschwerden konsequent für sich, sucht selten ärztlichen Rat, solange es irgendwie geht – dieses stille Aushalten eines anhaltenden Hustens, ohne ihn ernsthaft zu behandeln, passt zum Bild einer chronischen Bronchitis, die sich über Jahre unbehandelt festsetzen konnte." },
           { code: "SO5", text: "Die soziale Fünf hält emotionale Nähe hinter intellektueller Distanz auf Abstand – auch ein wiederkehrender Husten kann so eher als abstraktes Faktum registriert als als echtes körperliches Signal ernst genommen werden." },
-          { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus offen über körperliche Beschwerden gesprochen werden – was der stillen Verdrängung anderer Fünfer-Varianten entgegenwirkt." },
+          { code: "SX5", text: "Als Kontratyp wechselt die sexuelle Fünf zwischen intensiver Sehnsucht nach der einen Verbindung und plötzlichem Rückzug, sobald die Nähe zu groß wird – dieses ständige Pendeln kostet viel Energie und kann sich als ein nervös wiederkehrender Husten zeigen, der genau dort ansetzt, wo die innere Spannung zwischen Öffnen und Schließen nie ganz zur Ruhe kommt." },
         ],
       },
       {
@@ -97509,9 +97509,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Genussmittel, die die Atemwege direkt reizen",
         varianten: [
-          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen und Genussmittel ab, oft verbunden mit Rauchen als Mittel der Selbstberuhigung – dieser direkte Griff zu Reizstoffen liest die Psychosomatik als eines der unmittelbarsten Bilder für die chronische Bronchitis: eine Schleimhaut, die sich an wiederholte äußere Reizung gewöhnt hat." },
+          { code: "SE7", text: "Rauchen als Mittel der Selbstberuhigung gehört bei der selbsterhaltenden Sieben oft mit zu ihrem Repertoire an Absicherungen – dieser direkte Griff zu Reizstoffen liest die Psychosomatik als eines der unmittelbarsten Bilder für die chronische Bronchitis: eine Schleimhaut, die sich an wiederholte äußere Reizung gewöhnt hat." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – ein wiederkehrender Husten kann dabei leicht übersehen werden, weil die Aufmerksamkeit konsequent bei den Bedürfnissen anderer liegt." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, oft verbunden mit intensivem Konsum von Genussmitteln – diese impulsive Intensität liest die Psychosomatik als einen der direkteren Wege zu einer gereizten, chronisch entzündeten Bronchialschleimhaut." },
+          { code: "SX7", text: "Intensiver Konsum von Genussmitteln begleitet bei der sexuellen Sieben oft die grenzenlos gelebte Begeisterung – diese impulsive Intensität liest die Psychosomatik als einen der direkteren Wege zu einer gereizten, chronisch entzündeten Bronchialschleimhaut." },
         ],
       },
       {
@@ -97527,7 +97527,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine und nimmt auch den eigenen Husten oft kaum bewusst wahr – dieses Übersehen eines ständig wiederkehrenden körperlichen Signals passt besonders genau zum Bild einer chronischen Bronchitis, die sich über Jahre unbemerkt entwickeln konnte." },
           { code: "SO9", text: "Die soziale Neun ordnet die eigene Stimme so konsequent der Gruppenharmonie unter, dass auch ein eigener Husten selten wirklich Beachtung findet – diese chronische Selbstzurücknahme kann sich als ein nie ernst genommenes, aber ständig wiederkehrendes Signal zeigen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen Wahrnehmung der eigenen Gesundheit als Maßstab – bemerkt der Partner den Husten nicht, bemerkt die Neun ihn oft ebenfalls nicht, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
+          { code: "SX9", text: "Dessen Wahrnehmung der eigenen Gesundheit übernimmt die sexuelle Neun oft als Maßstab, sobald sie mit dem Partner verschmilzt – bemerkt er den Husten nicht, bemerkt die Neun ihn oft ebenfalls nicht, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
         ],
       },
     ],
@@ -97557,7 +97557,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "Leistung, die die eigene Reaktion überspielt", varianten: [
         { code: "SE3", text: "Die selbsterhaltende Drei funktioniert am liebsten reibungslos und hat für eine tränende, laufende Nase in der Pollensaison wenig Verständnis – sie stört das Bild der Leistungsfähigkeit, das mühsam aufrechterhalten wird. Gerade dieser Widerstand gegen das ›Schwächezeichen‹ verhindert oft, frühzeitig gegenzusteuern, sodass sich die Reaktion Saison für Saison verstärkt." },
         { code: "SO3", text: "Vor Publikum niesen und mit geröteten Augen dastehen widerspricht dem Bild, das die soziale Drei von sich zeigen möchte, und so wird die Allergie oft heruntergespielt oder mit Antihistaminika notdürftig überdeckt, statt ihr Raum zu geben. Das Symptom bleibt so ein ungeliebter blinder Fleck im ansonsten makellos inszenierten Auftritt." },
-        { code: "SX3", text: "Die sexuelle Drei will auch im Reiz unwiderstehlich wirken, und eine juckende, geschwollene Nase passt nicht ins Bild. Die Anstrengung, die allergische Reaktion zu überspielen oder zu ignorieren, kostet zusätzliche Energie – Energie, die eigentlich für Erholung und echte Regulation der überreizten Schleimhaut gebraucht würde." },
+        { code: "SX3", text: "Unwiderstehlich zu wirken bleibt für die sexuelle Drei auch bei einer juckenden, geschwollenen Nase das Ziel – diese passt schlicht nicht ins Bild. Sie zu überspielen oder zu ignorieren kostet zusätzliche Energie, die eigentlich für Erholung und echte Regulation der überreizten Schleimhaut gebraucht würde." },
       ]},
       { typ: 4, titel: "Sehnsucht, die die eigene Empfindsamkeit betont", varianten: [
         { code: "SE4", text: "Die selbsterhaltende Vier erlebt körperliches Unwohlsein oft als weiteren Beleg dafür, dass sie empfindsamer ist als andere – und tatsächlich neigt dieser Subtyp dazu, Umweltreize intensiver wahrzunehmen. Die überschießende Reaktion der Nasenschleimhaut fügt sich in ein Selbstbild ein, in dem das eigene Erleben grundsätzlich stärker, feiner, verletzlicher ist als das der anderen." },
@@ -97644,7 +97644,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Die sexuelle Acht begegnet Widerstand, auch dem eigenen Körper gegenüber, mit derselben Konfrontationshaltung, mit der sie allem anderen begegnet. Ein anhaltender Druck im Kopf wird eher niedergerungen als beachtet – bis die Erschöpfung diese Strategie irgendwann untergräbt." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die den eigenen Stau übergeht", varianten: [
-        { code: "SE9", text: "Die selbsterhaltende Neun gewöhnt sich an fast jeden Zustand, auch an einen dauerhaft schweren Kopf, und schiebt die eigentliche Ursachenklärung gerne auf später. So bleibt der Stau in den Nebenhöhlen manchmal über Jahre bestehen, ohne dass ihm ernsthaft nachgegangen wird." },
+        { code: "SE9", text: "Selbst ein dauerhaft schwerer Kopf wird von der selbsterhaltenden Neun irgendwann als Normalzustand hingenommen, die eigentliche Ursachenklärung auf später verschoben. So bleibt der Stau in den Nebenhöhlen manchmal über Jahre bestehen, ohne dass ihm ernsthaft nachgegangen wird." },
         { code: "SO9", text: "Die soziale Neun möchte den Gruppenfrieden nicht mit eigenen Beschwerden stören und trägt einen chronischen Druck im Kopf oft klaglos mit sich herum. Erst wenn die Beeinträchtigung nicht mehr zu übersehen ist, erlaubt sie sich, die eigene Gesundheit zum Thema zu machen." },
         { code: "SX9", text: "Die sexuelle Neun geht so vollständig in der geliebten Person oder Beziehung auf, dass eigene körperliche Signale leicht übersehen werden – ein anhaltender Druck im Kopf wird häufig erst bemerkt, wenn das Gegenüber besorgt darauf hinweist, dass etwas nicht stimmt." },
       ]},
@@ -97685,12 +97685,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der auch im Schlaf wachsam bleibt", varianten: [
         { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich gerne früh zurück, um Energie zu sparen – doch auch im Schlaf bleibt oft ein wachsamer, beobachtender Teil aktiv, der verhindert, wirklich vollständig loszulassen. Die Atemaussetzer können ein körperliches Echo dieser nie ganz aufgegebenen inneren Distanz sein." },
         { code: "SO5", text: "Die soziale Fünf denkt auch abends noch über komplexe Zusammenhänge nach und lässt den Verstand selten ganz zur Ruhe kommen. Diese mentale Aktivität bis tief in die Nacht hinein kann körperlich eine tiefe, entspannte Atmung erschweren." },
-        { code: "SX5", text: "Die sexuelle Fünf öffnet sich selten vollständig, auch im Schlaf neben einer geliebten Person bleibt oft eine feine innere Wachheit bestehen. Diese unbewusste Zurückhaltung kann sich körperlich als eine Atmung zeigen, die nie ganz zur vollständigen Tiefe findet." },
+        { code: "SX5", text: "Selbst im Schlaf neben einer geliebten Person bleibt bei der sexuellen Fünf oft eine feine innere Wachheit bestehen, die volle Öffnung bleibt selten. Diese unbewusste Zurückhaltung kann sich körperlich als eine Atmung zeigen, die nie ganz zur vollständigen Tiefe findet." },
       ]},
       { typ: 6, titel: "Angst, die im Schlaf in Bereitschaft bleibt", varianten: [
         { code: "SE6", text: "Die selbsterhaltende Sechs bleibt auch nachts in einer Art Bereitschaftsmodus, um auf mögliche Gefahren reagieren zu können. Dieser latente Alarmzustand des Nervensystems kann sich körperlich in einem unruhigen, von Weckreaktionen durchsetzten Schlaf niederschlagen." },
         { code: "SO6", text: "Die soziale Sechs sorgt sich häufig um das Wohl der Gruppe und trägt diese Sorgen mit in den Schlaf hinein. Die vielen kurzen, unbemerkten Weckreaktionen der Apnoe können körperlich abbilden, wie schwer es fällt, das ständige innere Wachsein wirklich ganz abzulegen." },
-        { code: "SX6", text: "Die sexuelle Sechs bewegt sich zwischen mutiger Hingabe und plötzlichem Misstrauen – auch im Schlaf kann dieses Wechselspiel bestehen bleiben, sodass der Körper nie ganz zur Ruhe findet. Der unterbrochene Atem kann diese innere Uneinigkeit zwischen Vertrauen und Vorsicht widerspiegeln." },
+        { code: "SX6", text: "Zwischen mutiger Hingabe und plötzlichem Misstrauen pendelt die sexuelle Sechs auch im Schlaf, sodass der Körper nie ganz zur Ruhe findet. Der unterbrochene Atem kann diese innere Uneinigkeit zwischen Vertrauen und Vorsicht widerspiegeln." },
       ]},
       { typ: 7, titel: "Maßlosigkeit, die den Schlaf verkürzt", varianten: [
         { code: "SE7", text: "Die selbsterhaltende Sieben füllt den Tag gern mit angenehmen Aktivitäten und geht abends oft erst spät und übermüdet ins Bett, um bloß nichts zu verpassen. Diese chronische Unterversorgung mit ausreichend Schlaf kann die Symptome einer bestehenden Apnoe zusätzlich verschärfen." },
@@ -97703,8 +97703,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Die sexuelle Acht lebt Intensität mit voller Wucht und empfindet die Vorstellung, im Schlaf hilflos nach Luft zu schnappen, als besonders unangenehm. Diese Abneigung gegen die eigene Verletzlichkeit im Schlaf kann dazu führen, dass Beschwerden lange verdrängt werden." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die den eigenen Schlaf übergeht", varianten: [
-        { code: "SE9", text: "Die selbsterhaltende Neun gewöhnt sich an Müdigkeit als Dauerzustand und stellt selten die Frage, ob dahinter eine behandelbare Ursache steckt. So bleibt eine bestehende Schlafapnoe bei diesem Subtyp oft über Jahre unentdeckt und unbehandelt." },
-        { code: "SO9", text: "Die soziale Neun möchte niemandem zur Last fallen, auch nicht mit der Bitte, das eigene Schnarchen ärztlich abklären zu lassen. Die Tagesmüdigkeit wird lieber stillschweigend hingenommen, als das eigene Anliegen aktiv zu verfolgen." },
+        { code: "SE9", text: "Müdigkeit als Dauerzustand hinzunehmen fällt der selbsterhaltenden Neun leicht, die Frage nach einer behandelbaren Ursache stellt sie selten. So bleibt eine bestehende Schlafapnoe bei diesem Subtyp oft über Jahre unentdeckt und unbehandelt." },
+        { code: "SO9", text: "Niemandem zur Last fallen, auch nicht mit der Bitte um eine ärztliche Abklärung des eigenen Schnarchens – die soziale Neun nimmt die Tagesmüdigkeit lieber stillschweigend hin, als ihr Anliegen aktiv zu verfolgen." },
         { code: "SX9", text: "Die sexuelle Neun verschmilzt so vollständig mit dem Partner oder der Partnerin, dass eigene körperliche Symptome oft erst bemerkt werden, wenn dieser oder diese sie beim gemeinsamen Schlaf besorgt anspricht. Die eigene Erschöpfung selbst wahrzunehmen fällt diesem Subtyp häufig deutlich schwerer als beim Gegenüber." },
       ]},
     ],
@@ -97733,16 +97733,16 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Leistung, die bis zum Zusammenbruch funktioniert", varianten: [
         { code: "SE3", text: "Die selbsterhaltende Drei arbeitet auch mit ersten Krankheitszeichen oft noch weiter, weil ein Ausfall sich wie Versagen anfühlt. Genau dieses Ignorieren früher Warnsignale kann aus einem harmlosen Infekt eine ausgewachsene, schwere Pneumonie werden lassen." },
-        { code: "SO3", text: "Vor anderen möchte die soziale Drei stets leistungsfähig erscheinen und verschleppt Krankheitszeichen deshalb oft, statt sich rechtzeitig ärztlich behandeln zu lassen. Eine schwere Lungenentzündung zwingt sie zu einer Auszeit, die sie sich freiwillig kaum genehmigt hätte." },
-        { code: "SX3", text: "Die sexuelle Drei will auch im Krankheitsfall attraktiv und stark wirken und neigt dazu, erste Symptome herunterzuspielen. Erst wenn Fieber und Atemnot nicht mehr zu überspielen sind, gesteht sie sich ein, dass der Körper dringend Ruhe braucht." },
+        { code: "SO3", text: "Krankheitszeichen werden von der sozialen Drei gern verschleppt, statt sich rechtzeitig ärztlich behandeln zu lassen – Leistungsfähigkeit soll ja weiterhin nach außen sichtbar bleiben. Eine schwere Lungenentzündung erzwingt schließlich eine Auszeit, die sie sich freiwillig kaum genehmigt hätte." },
+        { code: "SX3", text: "Erste Symptome werden von der sexuellen Drei gern heruntergespielt, denn attraktiv und stark soll sie auch im Krankheitsfall wirken. Erst wenn Fieber und Atemnot nicht mehr zu überspielen sind, gesteht sie sich ein, dass der Körper dringend Ruhe braucht." },
       ]},
       { typ: 4, titel: "Sehnsucht, die die eigenen Kräfte erschöpft", varianten: [
         { code: "SE4", text: "Die selbsterhaltende Vier erlebt körperliche Erschöpfung oft als vertrauten Zustand und übersieht dabei leicht den Übergang von normaler Müdigkeit zu einem ernsten Infekt. Eine Pneumonie kann sich in dieser Wahrnehmungsverschiebung erst spät als das zeigen, was sie ist." },
-        { code: "SO4", text: "Für die soziale Vier kann eine schwere Erkrankung wie die Pneumonie unbewusst zum Beleg dafür werden, wie sehr sich das eigene Leiden von dem anderer unterscheidet. Gleichzeitig zwingt die Krankheit zu einer Ruhe, die dem sonst oft rastlosen inneren Vergleich mit anderen entgegenwirkt." },
+        { code: "SO4", text: "Wie sehr sich das eigene Leiden von dem anderer unterscheidet, kann sich der sozialen Vier gerade bei einer schweren Erkrankung wie der Pneumonie unbewusst bestätigen – ein Vergleich, der sich hier fast von selbst aufdrängt." },
         { code: "SX4", text: "Die sexuelle Vier lebt emotionale Erschöpfung nach intensiven Beziehungsphasen oft körperlich mit aus – tiefe Erschöpfung, die sich in solchen Phasen einstellt, kann die Abwehrkräfte schwächen und einen Infekt begünstigen, der sich bis in die Lunge ausbreitet." },
       ]},
       { typ: 5, titel: "Rückzug, der die eigene Schwäche verbirgt", varianten: [
-        { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich bei Erschöpfung zurück, statt aktiv ärztliche Hilfe zu suchen, und beobachtet die eigenen Symptome oft lange, bevor sie handelt. Diese Verzögerung kann dazu führen, dass sich eine beginnende Lungenentzündung ungehindert weiterentwickelt." },
+        { code: "SE5", text: "Statt aktiv ärztliche Hilfe zu suchen, beobachtet die selbsterhaltende Fünf bei Erschöpfung oft lange die eigenen Symptome, bevor sie handelt. Diese Verzögerung kann dazu führen, dass sich eine beginnende Lungenentzündung ungehindert weiterentwickelt." },
         { code: "SO5", text: "Die soziale Fünf recherchiert bei Krankheitszeichen zunächst gründlich, bevor sie ärztliche Hilfe in Anspruch nimmt – wertvolle Zeit, die bei einer sich rasch verschlimmernden Pneumonie fehlen kann. Vertrauen in schnelles ärztliches Handeln fällt diesem Subtyp oft schwerer als das eigene Studium der Fakten." },
         { code: "SX5", text: "Die sexuelle Fünf öffnet sich nur wenigen Menschen wirklich und neigt dazu, auch körperliche Schwäche möglichst zu verbergen. Eine schwere Pneumonie kann diesen Rückzug unterbrechen, weil die körperliche Not stärker ist als der gewohnte Schutzmechanismus der Zurückhaltung." },
       ]},
@@ -97758,13 +97758,13 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Kontrolle, die die eigene Erschöpfung verleugnet", varianten: [
         { code: "SE8", text: "Die selbsterhaltende Acht ignoriert Krankheitszeichen bewusst, um keine Schwäche zu zeigen, und arbeitet oft bis zur Erschöpfung weiter. Eine sich entwickelnde Pneumonie wird dadurch häufig erst erkannt, wenn sie bereits ein ernstes Ausmaß erreicht hat." },
-        { code: "SO8", text: "Wer wie die soziale Acht Verantwortung für andere trägt, stellt die eigene Gesundheit gerne hintenan, bis der Körper keine andere Wahl mehr lässt. Eine schwere Lungenentzündung zwingt zu einer Kapitulation vor der eigenen Verletzlichkeit, die diesem Subtyp besonders schwerfällt." },
+        { code: "SO8", text: "Die eigene Gesundheit stellt die soziale Acht gerne hintenan, solange sie Verantwortung für andere trägt, bis der Körper keine andere Wahl mehr lässt. Eine schwere Lungenentzündung zwingt zu einer Kapitulation vor der eigenen Verletzlichkeit, die diesem Subtyp besonders schwerfällt." },
         { code: "SX8", text: "Die sexuelle Acht begegnet auch Krankheit zunächst mit Konfrontation statt mit Nachgeben – Symptome werden niedergerungen statt beachtet. Erst wenn eine Pneumonie die körperliche Kraft massiv einschränkt, erlaubt sie sich widerwillig, Hilfe anzunehmen." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die die eigene Erschöpfung übersieht", varianten: [
         { code: "SE9", text: "Die selbsterhaltende Neun schiebt die Auseinandersetzung mit ersten Krankheitszeichen gerne hinaus und hofft, dass sich alles von selbst löst. Eine sich verschlimmernde Pneumonie kann so leider erst spät als ernstzunehmend erkannt werden." },
-        { code: "SO9", text: "Die soziale Neun möchte niemandem zur Last fallen und verschweigt eigene Krankheitszeichen oft, um den Alltag der anderen nicht zu stören. Erst eine schwere Lungenentzündung macht deutlich, dass die eigene Gesundheit ebenso viel Aufmerksamkeit verdient wie die der anderen." },
-        { code: "SX9", text: "Die sexuelle Neun geht so vollständig in der geliebten Person auf, dass die eigenen körperlichen Warnsignale leicht übersehen werden. Eine Pneumonie wird bei diesem Subtyp mitunter erst bemerkt, wenn das Gegenüber eingreift und auf eine ärztliche Abklärung besteht." },
+        { code: "SO9", text: "Eigene Krankheitszeichen verschweigt die soziale Neun oft, um niemandem zur Last zu fallen und den Alltag der anderen nicht zu stören. Erst eine schwere Lungenentzündung macht deutlich, dass die eigene Gesundheit ebenso viel Aufmerksamkeit verdient wie die der anderen." },
+        { code: "SX9", text: "In der geliebten Person geht die sexuelle Neun oft so vollständig auf, dass eigene körperliche Warnsignale leicht übersehen werden. Eine Pneumonie wird bei diesem Subtyp mitunter erst bemerkt, wenn das Gegenüber eingreift und auf eine ärztliche Abklärung besteht." },
       ]},
     ],
     abschluss: "Eine Lungenentzündung ist immer ein akutes Geschehen, das ärztlicher Behandlung bedarf. Psychosomatisch betrachtet kann sie zugleich auf eine Phase hinweisen, in der die eigenen Widerstandskräfte bereits vor dem Infekt erschöpft waren – ein Anlass, die eigene Erschöpfung ernst zu nehmen, statt sie erst dann zuzulassen, wenn der Körper keine Wahl mehr lässt."
@@ -97782,7 +97782,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     typen: [
       { typ: 1, titel: "Zorn, der sich plötzlich über den Atem entlädt", varianten: [
         { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger und Anspannung meist diszipliniert unter Kontrolle, bis der innere Druck irgendwann keinen anderen Weg mehr findet als über die Atmung zu entweichen. Ein Hyperventilationsanfall kann so der Moment sein, in dem die sonst so straffe Selbstkontrolle kurzzeitig die Oberhand verliert." },
-        { code: "SO1", text: "Wer wie die soziale Eins ständig darüber wacht, dass alles richtig läuft, gerät bei plötzlicher Überforderung leicht in eine Spirale aus Anspannung, die sich unmittelbar auf die Atmung überträgt. Der Körper reagiert dort, wo der Verstand die Kontrolle nicht mehr aufrechterhalten kann." },
+        { code: "SO1", text: "Plötzliche Überforderung trifft die soziale Eins besonders hart, weil ihr eigentliches Kontrollbedürfnis dann keinen Halt mehr findet – die Anspannung sucht sich stattdessen den direkten Weg über die Atmung." },
         { code: "SX1", text: "Die sexuelle Eins lebt Empörung über Unvollkommenes mit großer Intensität, und wenn diese Intensität keinen Ausweg findet, kann sie sich in einem akuten Hyperventilationsanfall entladen – der Körper atmet gewissermaßen die aufgestaute Erregung ab, weil sie sich verbal nicht ausdrücken durfte." },
       ]},
       { typ: 2, titel: "Stolz, der plötzliche Angst nicht zeigen darf", varianten: [
@@ -97792,7 +97792,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Leistung, die unter akutem Druck zusammenbricht", varianten: [
         { code: "SE3", text: "Die selbsterhaltende Drei treibt sich selbst zu hoher Leistung an und ignoriert dabei oft die eigenen Belastungsgrenzen, bis der Körper mit einem akuten Anfall abrupt Pause erzwingt. Die Atmung wird hier zur unkontrollierbaren Instanz, wo Kontrolle sonst überall herrscht." },
-        { code: "SO3", text: "Vor anderen möchte die soziale Drei stets souverän wirken, weshalb ein sichtbarer Hyperventilationsanfall für sie besonders beschämend ist – gerade das Bemühen, keine Schwäche zu zeigen, kann die innere Anspannung jedoch so weit steigern, dass sie sich genau dort entlädt." },
+        { code: "SO3", text: "Ein sichtbarer Hyperventilationsanfall ist für die soziale Drei besonders beschämend, weil er genau das Bild von Souveränität durchbricht, das sie nach außen pflegt – und gerade dieses Bemühen, keine Schwäche zu zeigen, kann die innere Anspannung erst so weit steigern, dass sie sich dort entlädt." },
         { code: "SX3", text: "Die sexuelle Drei steht unter dem ständigen Druck, im Kontakt zu glänzen, und kann diesen Druck unter starkem Stress kaum noch kompensieren. Ein akuter Anfall kann der Moment sein, in dem der aufrechterhaltene Glanz kurzzeitig zusammenbricht." },
       ]},
       { typ: 4, titel: "Sehnsucht, die den Atem plötzlich überwältigt", varianten: [
@@ -97803,12 +97803,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der unter plötzlicher Nähe zusammenbricht", varianten: [
         { code: "SE5", text: "Die selbsterhaltende Fünf hält Gefühle meist auf Abstand und reagiert erst dann körperlich, wenn die innere Anspannung nicht mehr kontrolliert werden kann. Ein Hyperventilationsanfall kann so der seltene Moment sein, in dem die sonst so beherrschte Distanz zusammenbricht." },
         { code: "SO5", text: "Die soziale Fünf analysiert Belastungen häufig gedanklich, statt sie emotional zu verarbeiten, und kann bei plötzlicher Überforderung in einen Zustand geraten, in dem der Verstand die Kontrolle verliert – ein Zustand, der sich unmittelbar auf die Atmung überträgt." },
-        { code: "SX5", text: "Die sexuelle Fünf öffnet sich selten vollständig, und wenn in einer intensiven Verbindung dennoch starke Gefühle aufbrechen, kann diese ungewohnte emotionale Durchlässigkeit den Körper überfordern und sich in einem akuten Anfall entladen." },
+        { code: "SX5", text: "Wenn in einer intensiven Verbindung dennoch starke Gefühle aufbrechen, obwohl vollständige Öffnung sonst selten vorkommt, kann diese ungewohnte emotionale Durchlässigkeit den Körper der sexuellen Fünf überfordern und sich in einem akuten Anfall entladen." },
       ]},
       { typ: 6, titel: "Angst, die sich unmittelbar über den Atem entlädt", varianten: [
         { code: "SE6", text: "Die selbsterhaltende Sechs lebt oft in latenter Sorge um mögliche Gefahren, und akute Angst kann diesen Zustand plötzlich verstärken, bis sich die Anspannung unmittelbar in einem Hyperventilationsanfall entlädt – eine der häufigsten Konstellationen für dieses Symptom überhaupt." },
         { code: "SO6", text: "Die soziale Sechs sorgt sich intensiv um das Wohl der Gruppe und gerät bei akuten Konflikten oder Unsicherheiten leicht in einen Zustand erhöhter Alarmbereitschaft, der sich körperlich in beschleunigter, unregelmäßiger Atmung äußern kann." },
-        { code: "SX6", text: "Die sexuelle Sechs bewegt sich zwischen mutiger Konfrontation der eigenen Ängste und plötzlicher Überwältigung durch sie – gerade dieser abrupte Wechsel kann einen akuten Hyperventilationsanfall auslösen, wenn die Angst kurzzeitig die Oberhand gewinnt." },
+        { code: "SX6", text: "Mutige Konfrontation der eigenen Ängste kann bei der sexuellen Sechs abrupt in plötzliche Überwältigung durch sie umschlagen – gerade dieser Wechsel kann einen akuten Hyperventilationsanfall auslösen, wenn die Angst kurzzeitig die Oberhand gewinnt." },
       ]},
       { typ: 7, titel: "Maßlosigkeit, die an ihre plötzliche Grenze stößt", varianten: [
         { code: "SE7", text: "Die selbsterhaltende Sieben weicht unangenehmen Gefühlen meist geschickt aus, doch wenn diese Vermeidung an ihre Grenzen stößt, kann sich die aufgestaute Angst in einem akuten Anfall entladen – dem einzigen Moment, in dem das sonst so wendige Ausweichen nicht mehr funktioniert." },
@@ -97817,13 +97817,13 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Kontrolle, die unter akutem Druck kurzzeitig bricht", varianten: [
         { code: "SE8", text: "Die selbsterhaltende Acht lässt sich Angst nur ungern anmerken und unterdrückt sie meist konsequent – gerade diese Unterdrückung kann jedoch dazu führen, dass sich die Anspannung unkontrolliert über die Atmung entlädt, wenn der innere Druck zu groß wird." },
-        { code: "SO8", text: "Wer wie die soziale Acht Verantwortung und Stärke ausstrahlt, erlaubt sich selten, Angst offen zu zeigen. Ein Hyperventilationsanfall kann der einzige Moment sein, in dem diese Stärke sichtbar bricht und die verborgene Verletzlichkeit zum Vorschein kommt." },
+        { code: "SO8", text: "Angst offen zu zeigen erlaubt sich die soziale Acht selten, solange sie Verantwortung und Stärke ausstrahlen muss. Ein Hyperventilationsanfall kann der einzige Moment sein, in dem diese Stärke sichtbar bricht und die verborgene Verletzlichkeit zum Vorschein kommt." },
         { code: "SX8", text: "Die sexuelle Acht begegnet Bedrohung meist mit sofortiger Konfrontation, doch wenn eine Situation außer Kontrolle gerät und selbst diese Strategie versagt, kann sich die aufgestaute Erregung in einem akuten Anfall entladen." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die plötzlich Angst zeigt", varianten: [
         { code: "SE9", text: "Die selbsterhaltende Neun verdrängt unangenehme Spannungen meist geschickt, doch wenn sich zu viel Ungesagtes angestaut hat, kann sich diese innere Spannung plötzlich und unkontrolliert über die Atmung entladen." },
         { code: "SO9", text: "Die soziale Neun hält den Frieden in der Gruppe oft um den Preis eigener Anspannung aufrecht, die sich lange unbemerkt aufbaut. Ein akuter Hyperventilationsanfall kann der Moment sein, in dem diese verdrängte Anspannung unübersehbar wird." },
-        { code: "SX9", text: "Die sexuelle Neun geht so vollständig in der geliebten Beziehung auf, dass eigene Ängste selten benannt werden – wenn diese verdrängte Angst sich dennoch Bahn bricht, geschieht dies mitunter abrupt, in Form eines akuten Anfalls, der die sonst so verschmolzene Ruhe durchbricht." },
+        { code: "SX9", text: "Eigene Ängste werden von der sexuellen Neun selten benannt, so sehr geht sie in der geliebten Beziehung auf – wenn diese verdrängte Angst sich dennoch Bahn bricht, geschieht dies mitunter abrupt, in Form eines akuten Anfalls, der die sonst so verschmolzene Ruhe durchbricht." },
       ]},
     ],
     abschluss: "Das Hyperventilationssyndrom erinnert daran, dass akute innere Anspannung, wenn sie keinen anderen Ausdruck findet, sich unmittelbar über die Atmung entladen kann. Die psychosomatische Arbeit daran kann helfen, Angst und Stress frühzeitiger und bewusster wahrzunehmen, statt sie erst im akuten Anfall zuzulassen."
@@ -97841,7 +97841,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     typen: [
       { typ: 1, titel: "Zorn, der hinuntergeschluckt wird", varianten: [
         { code: "SE1", text: "Die selbsterhaltende Eins hält scharfe Kritik oft zurück, weil ein offener Vorwurf nicht zu ihrem Bild von Beherrschtheit passt. Diese ständig hinuntergeschluckte Korrektur kann sich körperlich in einem Rachenraum niederschlagen, der chronisch gereizt und entzündet bleibt." },
-        { code: "SO1", text: "Wer wie die soziale Eins ständig darüber wacht, dass alles richtig läuft, unterdrückt oft den Impuls, andere unmittelbar zu korrigieren, um die Harmonie der Gruppe nicht zu gefährden. Die zurückgehaltenen Belehrungen können sich als anhaltender Reiz im Rachen bemerkbar machen." },
+        { code: "SO1", text: "Den Impuls, andere sofort zu korrigieren, unterdrückt die soziale Eins meist zugunsten der Gruppenharmonie. Genau diese zurückgehaltenen Belehrungen können sich als anhaltender Reiz im Rachen bemerkbar machen." },
         { code: "SX1", text: "Die sexuelle Eins lebt Empörung intensiv, hält jedoch besonders im engen Beziehungskontext manches zurück, um nicht als übermäßig kritisch zu gelten. Dieses Zurückhalten scharfer Worte im Moment größter emotionaler Nähe kann den Rachenraum chronisch belasten." },
       ]},
       { typ: 2, titel: "Stolz, der eigene Worte zurückhält", varianten: [
@@ -97851,7 +97851,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Leistung, die eigene Zweifel verschweigt", varianten: [
         { code: "SE3", text: "Die selbsterhaltende Drei schluckt eigene Erschöpfung meist hinunter, um weiter leistungsfähig zu erscheinen – Worte wie ›Ich schaffe das gerade nicht‹ werden selten laut, sondern bleiben im Rachen stecken." },
-        { code: "SO3", text: "Vor anderen möchte die soziale Drei stets makellos wirken und unterdrückt Selbstzweifel entsprechend konsequent. Das ständige Zurückhalten der eigenen Unsicherheit kann sich als chronisch gereizter Rachen bemerkbar machen." },
+        { code: "SO3", text: "Selbstzweifel werden von der sozialen Drei konsequent unterdrückt, damit das Bild von Makellosigkeit nach außen bestehen bleibt. Dieses ständige Zurückhalten der eigenen Unsicherheit kann sich als chronisch gereizter Rachen bemerkbar machen." },
         { code: "SX3", text: "Die sexuelle Drei möchte im Kontakt stets strahlend erscheinen und schluckt eigene Enttäuschungen oft hinunter, statt sie zu benennen. Diese unausgesprochenen Gefühle können den Rachenraum dauerhaft belasten." },
       ]},
       { typ: 4, titel: "Sehnsucht, die unausgesprochen bleibt", varianten: [
@@ -97862,7 +97862,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der eigene Gedanken zurückhält", varianten: [
         { code: "SE5", text: "Die selbsterhaltende Fünf hält eigene Gedanken meist lieber zurück, als sie ungefragt zu äußern. Diese über Jahre trainierte Zurückhaltung kann sich körperlich in einem Rachenraum niederschlagen, der viel zu oft nicht zum Sprechen kommt." },
         { code: "SO5", text: "Die soziale Fünf teilt ihr Wissen gezielt und dosiert, hält aber viel mehr zurück, als sie preisgibt. Dieses bewusste Zurückhalten von Gedanken und Einschätzungen kann sich als chronische Belastung im Rachen bemerkbar machen." },
-        { code: "SX5", text: "Die sexuelle Fünf öffnet sich selten vollständig und verschweigt oft gerade die intensivsten Gedanken und Gefühle. Diese seltene, aber intensive Zurückhaltung kann sich körperlich in wiederkehrenden Halsentzündungen zeigen." },
+        { code: "SX5", text: "Gerade die intensivsten Gedanken und Gefühle verschweigt die sexuelle Fünf oft am konsequentesten. Diese seltene, aber intensive Zurückhaltung kann sich körperlich in wiederkehrenden Halsentzündungen zeigen." },
       ]},
       { typ: 6, titel: "Angst, die zurückgehaltene Zweifel verschluckt", varianten: [
         { code: "SE6", text: "Die selbsterhaltende Sechs behält Zweifel und Sorgen oft für sich, um andere nicht zu beunruhigen. Dieses ständige Herunterschlucken der eigenen Ängste kann sich körperlich als chronisch gereizter Rachen zeigen." },
@@ -97876,7 +97876,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Kontrolle, die die eigene Verletzlichkeit verschweigt", varianten: [
         { code: "SE8", text: "Die selbsterhaltende Acht spricht die meisten Dinge direkt aus, hält jedoch eigene Verletzlichkeit fast immer zurück. Genau diese eine, konsequent verschwiegene Wahrheit – die eigene Verwundbarkeit – kann sich im Rachenraum niederschlagen." },
-        { code: "SO8", text: "Wer wie die soziale Acht Verantwortung für andere übernimmt, zeigt selten die eigene Erschöpfung oder Unsicherheit. Dieses eine konsequent zurückgehaltene Eingeständnis kann sich als anhaltende Reizung im Hals bemerkbar machen." },
+        { code: "SO8", text: "Eigene Erschöpfung oder Unsicherheit zeigt die soziale Acht selten, solange Verantwortung für andere ihre Rolle bestimmt. Dieses konsequent zurückgehaltene Eingeständnis kann sich als anhaltende Reizung im Hals bemerkbar machen." },
         { code: "SX8", text: "Die sexuelle Acht spricht Begehren und Ärger meist ungefiltert aus, verschweigt aber oft die zarteren, verletzlicheren Gefühle dahinter. Genau diese verborgene Zärtlichkeit kann sich körperlich im Rachenraum stauen." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die die eigene Stimme verschluckt", varianten: [
@@ -97900,7 +97900,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     typen: [
       { typ: 1, titel: "Zorn, der sich als Husten entlädt", varianten: [
         { code: "SE1", text: "Die selbsterhaltende Eins unterdrückt Ärger meist konsequent, und ein trockener, wiederkehrender Husten kann sich als kleines, unwillkürliches Ventil für genau diesen zurückgehaltenen Unmut zeigen – ein kurzer, kontrollierter Ausbruch, wo ein offener Vorwurf sich verbietet." },
-        { code: "SO1", text: "Wer wie die soziale Eins ständig über die Richtigkeit von Abläufen wacht, hustet manchmal genau dann, wenn eine Korrektur auf der Zunge liegt, aber ungesagt bleibt. Der Husten kann so zu einem hörbaren, aber verbal folgenlosen Zeichen des inneren Widerspruchs werden." },
+        { code: "SO1", text: "Eine Korrektur, die auf der Zunge liegt, aber ungesagt bleibt, verwandelt sich bei der sozialen Eins manchmal in genau diesem Moment in einen Hustenreiz – ein hörbares, aber verbal folgenloses Zeichen des inneren Widerspruchs." },
         { code: "SX1", text: "Die sexuelle Eins lebt Ärger meist mit Wucht, hält ihn jedoch im engen persönlichen Kontakt manchmal zurück. Ein chronischer Husten kann in solchen Momenten zum stellvertretenden, kurzen Ausbruch werden, der die zurückgehaltene Intensität wenigstens teilweise entlädt." },
       ]},
       { typ: 2, titel: "Stolz, der Bedürfnisse durch Husten anzeigt", varianten: [
@@ -97919,14 +97919,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX4", text: "Die sexuelle Vier lebt Sehnsucht und Enttäuschung intensiv, und ein Husten kann in emotional aufgeladenen Momenten zum kurzen, körperlichen Ausdruck eines Zuviels werden, für das gerade keine Worte gefunden werden." },
       ]},
       { typ: 5, titel: "Rückzug, der sich als Husten meldet", varianten: [
-        { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich bei Belastung zurück, statt sie zu besprechen, und ein anhaltender Husten kann diesem Rückzug einen körperlichen, unaufdringlichen Ausdruck verleihen – ein leises Signal, ohne den geschätzten Rückzugsraum aufgeben zu müssen." },
+        { code: "SE5", text: "Statt Belastung zu besprechen, zieht sich die selbsterhaltende Fünf zurück – und ein anhaltender Husten kann diesem Rückzug einen körperlichen, unaufdringlichen Ausdruck verleihen, ein leises Signal, ohne den geschätzten Rückzugsraum aufgeben zu müssen." },
         { code: "SO5", text: "Die soziale Fünf hält viele Gedanken zurück, bis der richtige Moment gekommen scheint – ein wiederkehrender Husten kann körperlich abbilden, wie viel angesammeltes, ungesagtes Wissen noch keinen Weg nach draußen gefunden hat." },
-        { code: "SX5", text: "Die sexuelle Fünf öffnet sich selten vollständig, und ein hartnäckiger Husten kann in intensiven, seltenen Momenten der Nähe unbewusst eine kleine, kontrollierte Distanz herstellen." },
+        { code: "SX5", text: "In intensiven, seltenen Momenten der Nähe kann bei der sexuellen Fünf ein hartnäckiger Husten unbewusst eine kleine, kontrollierte Distanz herstellen, wo vollständige Öffnung sonst kaum vorkommt." },
       ]},
       { typ: 6, titel: "Angst, die sich als Husten entlädt", varianten: [
         { code: "SE6", text: "Die selbsterhaltende Sechs grübelt oft ausdauernd über Sorgen, die sie nicht ausspricht – ein chronischer Husten kann körperlicher Ausdruck dieser nie ganz zur Ruhe kommenden inneren Anspannung sein." },
         { code: "SO6", text: "Die soziale Sechs hält Zweifel an gemeinsamen Entscheidungen oft zurück, um die Gruppe nicht zu verunsichern – ein anhaltender Husten kann unbewusst zum Ventil für diese unterdrückte Unsicherheit werden." },
-        { code: "SX6", text: "Die sexuelle Sechs bewegt sich zwischen Vertrauen und Misstrauen, und ein hartnäckiger Husten kann in Momenten größter innerer Zerrissenheit als körperlicher Ausdruck dieser Spannung auftreten." },
+        { code: "SX6", text: "In Momenten größter innerer Zerrissenheit zwischen Vertrauen und Misstrauen kann bei der sexuellen Sechs ein hartnäckiger Husten als körperlicher Ausdruck dieser Spannung auftreten." },
       ]},
       { typ: 7, titel: "Maßlosigkeit, die Ernstes wegzuhusten sucht", varianten: [
         { code: "SE7", text: "Die selbsterhaltende Sieben überspielt Unangenehmes gern mit der nächsten angenehmen Ablenkung – ein anhaltender Husten lässt sich jedoch nicht so leicht wegschieben und erinnert sie unweigerlich an eine Grenze, die sie sonst gern ignoriert." },
@@ -97935,13 +97935,13 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Kontrolle, die Husten als einzige Lücke zulässt", varianten: [
         { code: "SE8", text: "Die selbsterhaltende Acht ignoriert körperliche Beschwerden meist konsequent, bis sie sich nicht mehr überspielen lassen – ein chronischer Husten kann so lange unbeachtet bleiben, bis er sich als hartnäckiges, kaum zu ignorierendes Problem etabliert hat." },
-        { code: "SO8", text: "Wer wie die soziale Acht Verantwortung für andere trägt, hat wenig Geduld für einen lästigen Husten, der die eigene Handlungsfähigkeit nicht wirklich einschränkt – erst wenn er zur echten Belastung wird, wird er ernst genommen." },
+        { code: "SO8", text: "Wenig Geduld hat die soziale Acht für einen lästigen Husten, der ihre Handlungsfähigkeit als Verantwortungsträgerin nicht wirklich einschränkt – erst wenn er zur echten Belastung wird, wird er ernst genommen." },
         { code: "SX8", text: "Die sexuelle Acht begegnet auch dem eigenen Husten zunächst mit Ungeduld statt mit Fürsorge – ein Symptom, das sich der direkten Konfrontation entzieht und gerade dadurch besonders lange bestehen bleibt." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die den eigenen Husten übergeht", varianten: [
-        { code: "SE9", text: "Die selbsterhaltende Neun gewöhnt sich an einen anhaltenden Husten oft, ohne die eigentliche Ursache je konsequent klären zu lassen – ein weiteres Beispiel dafür, wie leicht sie sich mit unbequemen Zuständen arrangiert, statt aktiv zu werden." },
+        { code: "SE9", text: "Ein anhaltender Husten wird von der selbsterhaltenden Neun oft einfach hingenommen, ohne die eigentliche Ursache je konsequent klären zu lassen – ein weiteres Beispiel dafür, wie leicht sie sich mit unbequemen Zuständen arrangiert, statt aktiv zu werden." },
         { code: "SO9", text: "Die soziale Neun möchte mit einem lästigen Husten niemanden stören und schluckt ihn oft klaglos herunter, statt die eigentliche Ursache konsequent abklären zu lassen." },
-        { code: "SX9", text: "Die sexuelle Neun geht so vollständig in der geliebten Beziehung auf, dass ein eigener, anhaltender Husten oft erst bemerkt wird, wenn das Gegenüber besorgt darauf hinweist, dass er nicht von selbst verschwindet." },
+        { code: "SX9", text: "Ein eigener, anhaltender Husten wird von der sexuellen Neun oft erst bemerkt, wenn das Gegenüber besorgt darauf hinweist, dass er nicht von selbst verschwindet – so vollständig geht sie sonst in der geliebten Beziehung auf." },
       ]},
     ],
     abschluss: "Chronischer Husten ohne eindeutige organische Ursache kann darauf hinweisen, dass ein wiederkehrender, kurzer Ausdruck fehlt, der anders keinen Platz findet. Die psychosomatische Auseinandersetzung damit kann helfen, das, wofür der Husten stellvertretend steht, bewusster und direkter Ausdruck finden zu lassen."
@@ -98039,7 +98039,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der die eigene Bitterkeit für sich behält", varianten: [
         { code: "SE5", text: "Ärztlichen Rat sucht die selbsterhaltende Fünf erst, wenn es sich gar nicht mehr vermeiden lässt – auch ein wiederkehrendes Brennen wird lieber still ausgehalten. Dieses Aushalten, ohne es ernsthaft zu behandeln, passt zum Bild einer Refluxerkrankung, die sich über Jahre unbehandelt festsetzen konnte." },
         { code: "SO5", text: "Hinter intellektueller Distanz hält die soziale Fünf emotionale Nähe auf Abstand – auch ein wiederkehrendes Brennen im Brustbein wird so eher als abstraktes Faktum registriert denn als echtes körperliches Signal ernst genommen." },
-        { code: "SX5", text: "Nur mit einer einzigen, ausgewählten Person lässt die sexuelle Fünf sich wirklich auf Tiefe ein – doch innerhalb dieser Verbindung kann durchaus offen über ein wiederkehrendes Brennen gesprochen werden, was der stillen Verdrängung anderer Fünfer-Varianten entgegenwirkt." },
+        { code: "SX5", text: "Kontrolle über die eigene Nähe behält die sexuelle Fünf auch in ihrer einen tiefen Verbindung – wird ihr die Intensität zu groß, zieht sie sich unbemerkt zurück, und genau dieses stille Zurückweichen kann sich als saures Aufsteigen in die Speiseröhre zeigen." },
       ]},
       { typ: 6, titel: "Angst, die sich als saures Aufstoßen zeigt", varianten: [
         { code: "SE6", text: "Innere Anspannung ist der selbsterhaltenden Sechs ein vertrauter Dauerzustand – vorsichtiges Abwägen jeder Situation gehört zu ihrem Grundmuster. Körperlich kann sich das als ein Magen zeigen, der überempfindlich reagiert und Säure produziert, die sich ihren Weg nach oben bahnt." },
@@ -98098,7 +98098,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der die eigene Verletzung für sich behält", varianten: [
         { code: "SE5", text: "Konsequent für sich behält die selbsterhaltende Fünf auch körperliche Beschwerden, solange es irgendwie geht, ohne ärztlichen Rat zu suchen. Dieses stille Aushalten eines bohrenden Magenschmerzes passt zum Bild eines Geschwürs, das sich über Zeit unbemerkt vertiefen konnte." },
         { code: "SO5", text: "Emotionale Nähe bleibt bei der sozialen Fünf hinter intellektueller Distanz auf Abstand – ein wiederkehrender Magenschmerz wird so eher als abstraktes Faktum registriert denn als echtes körperliches Signal ernst genommen." },
-        { code: "SX5", text: "Innerhalb einer einzigen, ausgewählten Verbindung kann die sexuelle Fünf tatsächlich über Magenschmerzen sprechen, während sie sich anderswo verschließt – ein Gegengewicht zur stillen, nach innen gerichteten Selbstkritik, die anderen Fünfer-Varianten näherliegt." },
+        { code: "SX5", text: "Ständige Wachsamkeit begleitet die sexuelle Fünf selbst innerhalb ihrer einen ausgewählten Verbindung – die Sorge, zu viel von sich preiszugeben, hält eine Grundanspannung aufrecht, die sich als gereizte Magenschleimhaut festsetzen kann." },
       ]},
       { typ: 6, titel: "Angst, die sich als innere Selbstanklage zeigt", varianten: [
         { code: "SE6", text: "Nicht nur nach außen, auch gegen die eigenen vermeintlichen Fehler richtet die selbsterhaltende Sechs ihre ständige Wachsamkeit. Dieser innere Ankläger kann sich körperlich als ein Magen zeigen, der sich selbst nicht ausreichend schützt." },
@@ -98118,7 +98118,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 9, titel: "Selbstvergessenheit, die die eigene Verletzung übersieht", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen werden bei der selbsterhaltenden Neun oft die eigenen Warnsignale von Magenschmerz, während sie sich in Komfort und Routine flüchtet. Dieses Übersehen passt besonders genau zum Bild eines Geschwürs, das sich über Jahre unbemerkt entwickeln konnte." },
         { code: "SO9", text: "Selten wirklich Beachtung findet bei der sozialen Neun auch ein eigener Magenschmerz, so konsequent ordnet sie ihre Stimme der Gruppenharmonie unter. Diese chronische Selbstauslöschung kann sich als ein nie ernst genommenes, aber ständig wiederkehrendes Signal zeigen." },
-        { code: "SX9", text: "Oft übernimmt die sexuelle Neun die Wahrnehmung ihres Partners als Maßstab für die eigene Gesundheit, so vollständig verschmilzt sie mit ihm – bemerkt der Partner den Magenschmerz nicht, bemerkt die Neun ihn oft ebenfalls nicht, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
+        { code: "SX9", text: "Eigene Bedürfnisse zu formulieren fällt der sexuellen Neun schwer, so vollständig geht ihre Identität im Anderen auf – ein nie ausgesprochener innerer Widerstand gegen fremdbestimmte Wünsche kann sich als ätzender, ungerichteter Magenschmerz zeigen." },
       ]},
     ],
     abschluss: "Kein Subtyp ist vor einem Magengeschwür gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit innerer Härte, Selbstkritik und übergangenen Signalen verhandelt – manche über unerbittliche Selbstansprüche, andere über Rückzug, stoffgebundene Selbstberuhigung oder eine nie ernst genommene eigene Verletzung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
@@ -98157,7 +98157,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der die eigene Grenze absichern soll", varianten: [
         { code: "SE5", text: "Die eigenen Ressourcen zu schützen ist der Grund, warum sich die selbsterhaltende Fünf zurückzieht – doch gerade diese Wachsamkeit gegenüber allem, was von außen eindringen könnte, kann sich paradox als ein Immunsystem zeigen, das übervorsichtig gegen die eigene innerste Grenze reagiert." },
         { code: "SO5", text: "Teilhabe und Rückzug halten sich bei der sozialen Fünf die Waage – mit ihrem Wissen bleibt sie für die Gruppe verfügbar, wahrt aber innerlich Distanz. Diese Mischung kann sich als chronische innere Anspannung zeigen, die sich gegen die eigene Darmwand richtet, weil echte Nähe vermieden wird." },
-        { code: "SX5", text: "Wo andere Fünfer-Varianten schweigen, kann die sexuelle Fünf innerhalb ihrer einen tiefen Verbindung offen über Bauchbeschwerden und deren Ursachen sprechen – eine seltene, aber wirksame Ausnahme von ihrer sonstigen Zurückhaltung." },
+        { code: "SX5", text: "Zwischen der Sehnsucht nach ihrer einen tiefen Verbindung und der Angst, sich darin aufzulösen, pendelt die sexuelle Fünf innerlich hin und her – dieses ständige Schwanken kann sich körperlich als eine Darmschleimhaut zeigen, die zwischen Anspannung und Entzündung wechselt." },
       ]},
       { typ: 6, titel: "Angst, die die eigene Abwehr fehlleitet", varianten: [
         { code: "SE6", text: "Selten wirklich ab schaltet das innere Frühwarnsystem der selbsterhaltenden Sechs, ihre ständige Vorsicht kennt kaum Pausen. Dieser Zustand der Daueralarmbereitschaft kann sich körperlich als ein Immunsystem zeigen, das seine Abwehr fehlleitet und die eigene Darmschleimhaut als Gefahr behandelt." },
@@ -98216,7 +98216,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der sich seit Langem verfestigt hat", varianten: [
         { code: "SE5", text: "Seit vielen Jahren gehört der Rückzug fest zur Lebensweise der selbsterhaltenden Fünf – ein Muster, das so tief verwurzelt ist, dass es kaum noch als bewusste Entscheidung erlebt wird. Diese strukturell gewordene Distanz kann sich körperlich als eine tiefgreifende Darmerkrankung zeigen." },
         { code: "SO5", text: "Über Jahre hat sich bei der sozialen Fünf eine Distanz verfestigt, die echte Nähe kaum noch vorstellbar erscheinen lässt – mit ihrem Wissen bleibt sie für die Gruppe verfügbar, innerlich aber auf Abstand. Diese strukturelle Distanz kann sich als eine Darmerkrankung zeigen, die tief unter die Oberfläche reicht." },
-        { code: "SX5", text: "Der strukturell verfestigten Distanz, die andere Fünfer-Varianten kennzeichnet, entkommt die sexuelle Fünf zumindest innerhalb ihrer einen tiefen Verbindung – dort kann sie durchaus offen über körperliche Beschwerden sprechen." },
+        { code: "SX5", text: "Über Jahre hinweg eifersüchtig gehütet wird von der sexuellen Fünf die eine Verbindung, die ihr wirklich etwas bedeutet – diese lang anhaltende, strukturelle Wachsamkeit gegenüber Verlust kann sich körperlich als eine tief in der Darmwand verwurzelte Erkrankung zeigen." },
       ]},
       { typ: 6, titel: "Angst, die schon lange strukturell geworden ist", varianten: [
         { code: "SE6", text: "Seit Jahrzehnten prägt ein Zustand der Vorsicht den Alltag der selbsterhaltenden Sechs, so tief eingegraben, dass er kaum noch als eigenständige Angst erkennbar ist. Dieser strukturell gewordene Alarmzustand kann sich körperlich als eine tiefgreifende Darmerkrankung zeigen." },
@@ -98334,7 +98334,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der auch körperlich nichts hergibt", varianten: [
         { code: "SE5", text: "Auf das Nötigste reduziert die selbsterhaltende Fünf ihr Leben systematisch, hält Ressourcen und Energie konsequent zurück. Dieser generelle Minimalismus kann sich körperlich als ein Darm zeigen, der ebenso zurückhaltend agiert wie sie selbst." },
         { code: "SO5", text: "Selten wirklich öffnet sich der Darm der sozialen Fünf – so wie sie sich der Gruppe mit ihrem Wissen zwar verfügbar zeigt, innerlich aber Distanz wahrt. Diese Mischung aus Teilhabe und Rückzug kann sich körperlich niederschlagen, weil echte Freigabe vermieden wird." },
-        { code: "SX5", text: "Ein entspannter, gelöster Körper ist der sexuellen Fünf nicht grundsätzlich fremd – innerhalb ihrer einen tiefen, geschützten Verbindung kann er sich durchaus einstellen, anders als bei der generellen Zurückhaltung der übrigen Fünfer-Varianten." },
+        { code: "SX5", text: "Auch innerhalb ihrer einen geschützten Verbindung fällt es der sexuellen Fünf schwer, wirklich loszulassen, sobald die Nähe zu intensiv wird – dieses reflexhafte Festhalten kann sich körperlich als ein Darm zeigen, der sich nur zögerlich löst." },
       ]},
       { typ: 6, titel: "Angst, die den Darm in Habachtstellung hält", varianten: [
         { code: "SE6", text: "Vorsicht ist das Grundprinzip, mit dem die selbsterhaltende Sechs der Welt begegnet – ihr inneres Frühwarnsystem schaltet selten wirklich ab. Dieser Zustand der Daueralarmbereitschaft hält auch die Bauchmuskulatur angespannt, was das natürliche Loslassen erschwert." },
@@ -98349,7 +98349,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Kontrolle, die nichts unwillkürlich freigibt", varianten: [
         { code: "SE8", text: "Nach dem eigenen Willen soll bei der selbsterhaltenden Acht auch der Körper funktionieren, nicht unkontrolliert – handfeste Kontrolle über materielle und körperliche Ressourcen sichert ihr die Existenz. Diese permanente Kontrolle kann sich körperlich als ein Darm zeigen, der sich nur widerwillig löst." },
         { code: "SO8", text: "Kontrolle gilt bei der sozialen Acht selten sich selbst, sondern der Gruppe, oft in einer selbst auferlegten Beschützerrolle. Diese permanente Führungsspannung lässt selten Raum für einen wirklich entspannten, gelösten Körper." },
-        { code: "SX8", text: "In der einen Zweierbeziehung, in totaler Hingabe und Kontrolle, findet die sexuelle Acht einen geschützten Rahmen – hier kann durchaus eine gewisse körperliche Lösung stattfinden, die der generellen Kontrollhaltung anderer Achter-Varianten entgegenwirkt." },
+        { code: "SX8", text: "Besitzergreifend und herausfordernd zugleich lebt die sexuelle Acht ihre eine Zweierbeziehung – gerade weil Kontrolle hier zur Machtprobe werden kann, entsteht eine Grundanspannung, die sich als widerwillig funktionierender Darm zeigen kann, sobald der Beziehungsalltag ruhiger wird." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die den eigenen Körperrhythmus übergeht", varianten: [
         { code: "SE9", text: "Selten bewusst wahrgenommen und häufig aufgeschoben wird bei der selbsterhaltenden Neun auch der eigene Stuhldrang, während Komfort, feste Routinen und Konfliktvermeidung ihren Alltag bestimmen, bis er verstummt. Diese Selbstvergessenheit kann sich als chronische Verstopfung zeigen." },
@@ -98393,7 +98393,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der kleine Themen für sich behält", varianten: [
         { code: "SE5", text: "Selten offen angesprochen werden bei der selbsterhaltenden Fünf auch kleine, alltägliche Beschwerden – sie landen still in aufeinanderfolgenden inneren Fächern. Dieses Ablegen unbearbeiteter Themen passt zum Bild von Divertikeln, die sich über Jahre unbemerkt bilden können." },
         { code: "SO5", text: "Abstrakt registriert statt aktiv bearbeitet werden bei der sozialen Fünf auch kleine, alltägliche Verletzungen, während emotionale Nähe hinter intellektueller Distanz bleibt. So sammeln sie sich in stillen Nischen an." },
-        { code: "SX5", text: "Kleine Kränkungen müssen bei der sexuellen Fünf nicht zwangsläufig in stillen Nischen verschwinden – innerhalb ihrer einen ausgewählten, tiefen Verbindung kann durchaus offen darüber gesprochen werden, anders als bei den verschlosseneren Fünfer-Varianten." },
+        { code: "SX5", text: "Außerhalb ihrer einen ausgewählten Verbindung sammelt die sexuelle Fünf kleine Kränkungen lieber in sich an, statt sie überall zu teilen – über Jahre können sich diese unbearbeiteten, verschlossenen Nischen körperlich als Divertikel zeigen." },
       ]},
       { typ: 6, titel: "Angst, die kleine Sorgen in Nischen ablegt", varianten: [
         { code: "SE6", text: "Kleine Sorgen sammeln sich bei der selbsterhaltenden Sechs in großer Zahl an – zu viele, um sie gleichzeitig zu bearbeiten, weshalb sie einzeln in stillen inneren Winkeln abgelegt werden. Diese Ansammlung nie ganz geklärter Ängste kann sich körperlich als Divertikel zeigen, die sich mit der Zeit entzünden können." },
@@ -98452,7 +98452,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der über Jahre keine Beschwerde äußert", varianten: [
         { code: "SE5", text: "Über Jahre andauernde Erschöpfung wird von der selbsterhaltenden Fünf konsequent für sich behalten, ärztlicher Rat kommt erst spät ins Spiel. Dieses stille Aushalten passt zum Bild einer Fettleber, die sich über Jahre unbemerkt entwickeln konnte." },
         { code: "SO5", text: "Als abstraktes Faktum, nicht als echtes körperliches Signal, registriert die soziale Fünf gern auch ihre eigene, über Jahre andauernde Erschöpfung – emotionale Nähe bleibt hinter intellektueller Distanz auf Abstand." },
-        { code: "SX5", text: "Körperliche Erschöpfung bleibt bei der sexuellen Fünf innerhalb ihrer einen tiefen Verbindung nicht zwangsläufig unausgesprochen – im Gegensatz zur stillen Verdrängung, die für die anderen Fünfer-Varianten typischer ist, findet hier durchaus offener Austausch statt." },
+        { code: "SX5", text: "Der ständige innere Wechsel zwischen intensiver Sehnsucht nach ihrer einen Verbindung und schützendem Rückzug kostet die sexuelle Fünf über Jahre viel Energie – diese stille, chronische Erschöpfung kann sich in einer belasteten Leber niederschlagen." },
       ]},
       { typ: 6, titel: "Angst, die sich über Jahre still im Körper ablagert", varianten: [
         { code: "SE6", text: "Offen benannt wird die ständige Vorsicht der selbsterhaltenden Sechs so gut wie nie, auch wenn sie über Jahre anhält. Dieser fortgesetzte Alarmzustand kann sich still, ohne Warnsignale, körperlich als Fetteinlagerung in der Leber zeigen." },
@@ -98472,7 +98472,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 9, titel: "Selbstvergessenheit, die über Jahre die eigene Überlastung übersieht", varianten: [
         { code: "SE9", text: "Die eigene, sich langsam aufbauende Überlastung nimmt die selbsterhaltende Neun oft kaum bewusst wahr, während sie sich über Jahre in Komfort und Routine flüchtet. Dieses Übersehen passt besonders genau zum Bild einer Fettleber, die sich über Jahre unbemerkt entwickeln konnte." },
         { code: "SO9", text: "Über Jahre so konsequent ordnet die soziale Neun ihre Stimme der Gruppenharmonie unter, dass auch die eigene Erschöpfung selten wirklich Beachtung findet. Diese chronische Selbstauslöschung kann sich als eine über lange Zeit stille, unbemerkte Überlastung der Leber zeigen." },
-        { code: "SX9", text: "Mit dem Partner verschmilzt die sexuelle Neun so vollständig, dass die eigene Wahrnehmung von Erschöpfung sich oft an der des Anderen orientiert statt an den eigenen Signalen – eine Fusion, die es über Jahre erschwert, die eigene, stille Überlastung überhaupt erst wahrzunehmen." },
+        { code: "SX9", text: "Als Verstärkungstyp lebt die sexuelle Neun die Trägheit am tiefsten – die eigene Klarheit über das, was sie selbst braucht, tritt so weit zurück, dass eine über Jahre gewachsene innere Erschöpfung leicht unbemerkt bleibt, bis sich die Leber bereits verändert hat." },
       ]},
     ],
     abschluss: "Kein Subtyp ist vor einer Fettleber gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit stiller, über Jahre angesammelter Überlastung verhandelt – manche über schweigende Selbstkontrolle, andere über Rückzug, stoffgebundene Selbstberuhigung oder eine nie ernst genommene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
@@ -98505,7 +98505,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Sehnsucht, die sich in grundlegender Unverträglichkeit zeigt", varianten: [
         { code: "SE4", text: "Empfindsamer als andere reagiert der Körper der selbsterhaltenden Vier – so erlebt sie es zumindest, und körperliches Unwohlsein wird zum weiteren Beleg dafür. Bei Zöliakie fügt sich diese fundamentale Unverträglichkeit fast folgerichtig in ein Selbstbild ein, in dem das eigene Erleben grundsätzlich anders verläuft als das der Mehrheit." },
-        { code: "SO4", text: "Für die soziale Vier kann eine diagnostizierte Zöliakie unbewusst zum weiteren Beleg für die eigene Andersartigkeit werden – ein Leiden, das sie von der scheinbar unbeschwerten Mehrheit abhebt, die Brot und Nudeln ohne Nachdenken genießt." },
+        { code: "SO4", text: "Eine diagnostizierte Zöliakie kann die soziale Vier unbewusst als weiteren Beleg der eigenen Andersartigkeit lesen – ein Leiden, das sie von der scheinbar unbeschwerten Mehrheit abhebt, die Brot und Nudeln ohne Nachdenken genießt." },
         { code: "SX4", text: "Volle Wucht statt gedämpfter Reaktion – so lebt die sexuelle Vier ihre Gefühle. Eine notwendige Ernährungsumstellung kann für diesen Subtyp zunächst wie ein weiterer Verlust erlebt werden, bevor sie zu einer bewussten, selbstfürsorglichen Entscheidung wird." },
       ]},
       { typ: 5, titel: "Rückzug, der grundlegende Beschwerden lange für sich behält", varianten: [
@@ -98570,7 +98570,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Rückzug, der die eigene Beschwerde für sich behält", varianten: [
         { code: "SE5", text: "Solange es irgendwie geht, verzichtet die selbsterhaltende Fünf auf ärztlichen Rat, auch bei körperlichen Beschwerden – ein wiederkehrender Druck im Enddarm wird still ausgehalten. Dieses Aushalten passt zum Bild eines Hämorrhoidalleidens, das sich über Jahre unbemerkt entwickeln konnte." },
         { code: "SO5", text: "Hinter intellektueller Distanz bleibt bei der sozialen Fünf emotionale Nähe auf Abstand – auch ein wiederkehrender Druck im Enddarm wird so eher als abstraktes Faktum registriert denn als echtes körperliches Signal ernst genommen." },
-        { code: "SX5", text: "Eine frühere Behandlung wird bei der sexuellen Fünf begünstigt, wenn innerhalb ihrer einen tiefen Verbindung offen über einen wiederkehrenden Druck im Enddarm gesprochen werden kann – anders als bei der stillen Verdrängung, die für andere Fünfer-Varianten typischer ist." },
+        { code: "SX5", text: "Auch innerhalb ihrer einen tiefen Verbindung bleibt bei der sexuellen Fünf eine unterschwellige Wachsamkeit bestehen, die sich nie ganz lösen lässt – dieser anhaltende innere Druck kann sich körperlich als Hämorrhoidalleiden zeigen." },
       ]},
       { typ: 6, titel: "Angst, die den Körper unter Dauerdruck hält", varianten: [
         { code: "SE6", text: "Selten wirklich abschalten kann die selbsterhaltende Sechs ihre innere Anspannung, ständige Vorsicht prägt ihren Alltag. Dieser Zustand der Daueralarmbereitschaft hält auch die Bauch- und Beckenbodenmuskulatur in ständiger Anspannung, was sich als Hämorrhoidalleiden zeigen kann." },
@@ -98584,13 +98584,13 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Kontrolle, die sich selbst nicht entlasten lässt", varianten: [
         { code: "SE8", text: "Mit Kraft und nach eigenem Willen soll bei der selbsterhaltenden Acht auch der Stuhlgang funktionieren, statt dem Körper Zeit zu geben – handfeste Kontrolle über materielle und körperliche Ressourcen sichert ihr die Existenz. Diese permanente Anspannung kann sich als Hämorrhoidalleiden zeigen." },
-        { code: "SO8", text: "Eine selbst auferlegte Beschützerrolle prägt die soziale Acht, deren Kontrolle der Gruppe gilt, nicht ihr selbst. Diese permanente Führungsspannung und der damit verbundene Dauerdruck lassen selten Raum für echte körperliche Entlastung." },
-        { code: "SX8", text: "In der einen Zweierbeziehung, in totaler Hingabe und Kontrolle, findet die sexuelle Acht einen geschützten Rahmen – hier kann durchaus eine gewisse körperliche Entspannung stattfinden, die der generellen Dauerspannung anderer Achter-Varianten entgegenwirkt." },
+        { code: "SO8", text: "Der Gruppe, nicht sich selbst, gilt die Kontrolle der sozialen Acht in ihrer selbst auferlegten Beschützerrolle. Diese permanente Führungsspannung und der damit verbundene Dauerdruck lassen selten Raum für echte körperliche Entlastung." },
+        { code: "SX8", text: "Verletzlichkeit zuzulassen fällt der sexuellen Acht selbst in ihrer einen intensiven Beziehung schwer, obwohl sie dort loyal und beschützend ist – dieser ständige Kraftaufwand, souverän zu bleiben, kann sich als anhaltender Druck im Enddarm niederschlagen." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die den eigenen Druck übersieht", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen werden bei der selbsterhaltenden Neun oft die eigenen Warnsignale von Druck und Anspannung, während sie sich in Komfort und Routine flüchtet. Dieses Übersehen passt besonders genau zum Bild eines Hämorrhoidalleidens, das sich über Jahre unbemerkt entwickeln konnte." },
         { code: "SO9", text: "Die eigene körperliche Belastung findet bei der sozialen Neun selten wirklich Beachtung, so konsequent ordnet sie ihre Stimme der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als ein nie ernst genommenes, aber ständig wiederkehrendes Signal zeigen." },
-        { code: "SX9", text: "Dessen Wahrnehmung der eigenen Gesundheit übernimmt die sexuelle Neun oft als Maßstab, sobald sie mit dem Partner verschmilzt – bemerkt der Partner die Beschwerde nicht, bemerkt die Neun sie oft ebenfalls nicht, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
+        { code: "SX9", text: "Als Verstärkungstyp lebt die sexuelle Neun die Selbstvergessenheit am tiefsten – die eigene Aufmerksamkeit ist so vollständig auf den geliebten Menschen gerichtet, dass wiederholtes Pressen und ein wachsender Druck im Enddarm über lange Zeit schlicht nicht ins Bewusstsein dringen." },
       ]},
     ],
     abschluss: "Kein Subtyp ist vor Hämorrhoiden gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Druck, Last und übergangenen Signalen verhandelt – manche über Dauerkontrolle, andere über Rückzug, unregelmäßige Selbstfürsorge oder eine nie ernst genommene eigene Überlastung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
@@ -98761,7 +98761,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Verletzlichkeit, die kontrolliert durchbricht", varianten: [
         { code: "SE8", text: "Über ihren Körper beansprucht die selbsterhaltende Acht konsequente Kontrolle, Schwäche darf sich darin kaum zeigen. Ein Hautausbruch, der sich dieser Kontrolle entzieht, erlebt sie als besonders kränkende Erinnerung daran, dass nicht alles beherrschbar ist." },
-        { code: "SO8", text: "Eine selbst auferlegte Beschützerrolle prägt die soziale Acht, deren Stärke stets nach außen gerichtet ist – sichtbare Akne, die Verletzlichkeit verrät, wird ungern gezeigt. Der Druck, sie zu verbergen, kann die zugrunde liegende Anspannung eher verstärken als lindern." },
+        { code: "SO8", text: "Nach außen gerichtete Stärke bestimmt die selbst auferlegte Beschützerrolle der sozialen Acht – sichtbare Akne, die Verletzlichkeit verrät, wird ungern gezeigt. Der Druck, sie zu verbergen, kann die zugrunde liegende Anspannung eher verstärken als lindern." },
         { code: "SX8", text: "Macht und Nähe verhandelt die sexuelle Acht in ihrer einen Beziehung oft körperlich statt verbal, ein stiller Ringkampf um Einfluss, der zugleich Verbindung schafft. Dieses ständige Aushandeln kann körperlich mehr Anspannung erzeugen, als die Nähe selbst eigentlich lindert." },
       ]},
       { typ: 9, titel: "Ein Stau, der lange unbemerkt bleibt", varianten: [
