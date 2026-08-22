@@ -451,6 +451,7 @@ export const registerEntries = [
   { term: "Zöliakie (Psychosomatik)", route: "psychosomatik/zoeliakie", description: "Psychosomatische Deutung: fundamentale Unverträglichkeit von Grundlegendem, Enneagramm alle 27 Subtypen" },
   { term: "Hämorrhoiden (Psychosomatik)", route: "psychosomatik/haemorrhoiden", description: "Psychosomatische Deutung: chronischer Druck und getragene Last, TCM abgesunkenes Milz-Qi, Enneagramm alle 27 Subtypen" },
   { term: "Neurodermitis (Psychosomatik)", route: "psychosomatik/neurodermitis", description: "Psychosomatische Deutung: gestörte Grenze zur Welt, TCM Wind-Hitze/Lunge-Haut, Enneagramm alle 27 Subtypen" },
+  { term: "Schuppenflechte (Psychosomatik)", route: "psychosomatik/schuppenflechte", description: "Psychosomatische Deutung: Selbstkritik, die sich gegen den eigenen Körper richtet, TCM Blut-Hitze, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
