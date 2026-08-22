@@ -97828,6 +97828,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Das Hyperventilationssyndrom erinnert daran, dass akute innere Anspannung, wenn sie keinen anderen Ausdruck findet, sich unmittelbar über die Atmung entladen kann. Die psychosomatische Arbeit daran kann helfen, Angst und Stress frühzeitiger und bewusster wahrzunehmen, statt sie erst im akuten Anfall zuzulassen."
   },
+  chronische_mandelentzuendung: {
+    titel: "Chronische Mandelentzündung",
+    kategorie: "atemwege",
+    icon: "🗣️",
+    kurz: "Wiederkehrende oder anhaltende Entzündung der Gaumenmandeln mit Halsschmerzen, Schluckbeschwerden und geschwollenen Lymphknoten.",
+    definition: "Von chronischer Mandelentzündung (chronischer Tonsillitis) spricht man, wenn die Gaumenmandeln immer wieder akut entzündet sind oder dauerhaft vergrößert, gerötet und mit weißlichen Belägen versehen bleiben. Die Mandeln gehören zum lymphatischen Abwehrsystem am Eingang von Mund- und Rachenraum und filtern normalerweise Krankheitserreger heraus, bevor diese tiefer in den Körper eindringen. Bei chronischer Entzündung sind sie jedoch selbst dauerhaft überlastet, verlieren ihre Filterfunktion und werden zum Ausgangspunkt wiederkehrender Infekte. Typische Beschwerden sind anhaltende Halsschmerzen, Schluckbeschwerden, Mundgeruch und geschwollene Halslymphknoten. Bei häufig wiederkehrenden akuten Schüben (mehrmals jährlich) wird oft die operative Entfernung der Mandeln erwogen.",
+    symptome: ["Anhaltende oder wiederkehrende Halsschmerzen", "Schluckbeschwerden", "Weißliche Beläge oder Eiterpfröpfe auf den Mandeln", "Mundgeruch", "Geschwollene, druckempfindliche Halslymphknoten", "Leichtes, anhaltendes Krankheitsgefühl und Abgeschlagenheit"],
+    notfall: "Bei sehr starken Schluckbeschwerden mit Speichelfluss, kloßiger Sprache, einseitiger starker Schwellung im Rachen oder Atemnot sofort ärztliche Notfallversorgung aufsuchen (Hinweis auf einen möglichen Mandelabszess). Bei hohem Fieber, das über mehrere Tage anhält, ärztlich abklären lassen.",
+    disclaimer: "Diese psychosomatische Deutung ersetzt keine HNO-ärztliche Diagnostik und keine Entscheidung über eine mögliche operative Mandelentfernung.",
+    einleitung: "Die Mandeln liegen an einem symbolisch bedeutsamen Ort: dem Eingang, an dem entschieden wird, was in den Körper hineingelassen und was abgewehrt wird – und zugleich unmittelbar am Ausgang der Stimme, dort, wo Worte den Körper verlassen. Psychosomatisch wird der Rachenraum traditionell mit dem in Verbindung gebracht, was gesagt werden möchte, aber nicht gesagt werden darf oder kann. Eine chronisch entzündete Mandel kann so als ein Ort gelesen werden, an dem sich zurückgehaltene Worte, unterdrückter Widerspruch oder ein ständiges Zuvielschlucken körperlich niederschlagen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche Worte hier besonders häufig hinuntergeschluckt werden.",
+    typen: [
+      { typ: 1, titel: "Die Reformerin / der Reformer", varianten: [
+        { code: "SE_1", text: "Die selbsterhaltende Eins hält scharfe Kritik oft zurück, weil ein offener Vorwurf nicht zu ihrem Bild von Beherrschtheit passt. Diese ständig hinuntergeschluckte Korrektur kann sich körperlich in einem Rachenraum niederschlagen, der chronisch gereizt und entzündet bleibt." },
+        { code: "SO_1", text: "Wer wie die soziale Eins ständig darüber wacht, dass alles richtig läuft, unterdrückt oft den Impuls, andere unmittelbar zu korrigieren, um die Harmonie der Gruppe nicht zu gefährden. Die zurückgehaltenen Belehrungen können sich als anhaltender Reiz im Rachen bemerkbar machen." },
+        { code: "SX_1", text: "Die sexuelle Eins lebt Empörung intensiv, hält jedoch besonders im engen Beziehungskontext manches zurück, um nicht als übermäßig kritisch zu gelten. Dieses Zurückhalten scharfer Worte im Moment größter emotionaler Nähe kann den Rachenraum chronisch belasten." },
+      ]},
+      { typ: 2, titel: "Die Geberin / der Geber", varianten: [
+        { code: "SE_2", text: "Die selbsterhaltende Zwei schluckt eigene Bedürfnisse regelmäßig hinunter, um anderen nicht zur Last zu fallen. Dieses ständige Zurückstellen des eigenen Wollens kann sich körperlich in einem Rachenraum spiegeln, der chronisch gereizt bleibt, weil so viel Ungesagtes dort verharrt." },
+        { code: "SO_2", text: "Die soziale Zwei hält eigene Erschöpfung oder Enttäuschung oft zurück, um weiterhin als verlässliche Stütze für viele zu gelten. Was nicht ausgesprochen werden darf, staut sich im übertragenen wie im wörtlichen Sinn im Hals." },
+        { code: "SX_2", text: "Die sexuelle Zwei verschweigt eigene Zweifel an der Beziehung oft, aus Angst, die Nähe zur geliebten Person zu gefährden. Diese zurückgehaltenen Wahrheiten können sich als anhaltende Reizung im Rachenraum manifestieren." },
+      ]},
+      { typ: 3, titel: "Die Erfolgreiche / der Erfolgreiche", varianten: [
+        { code: "SE_3", text: "Die selbsterhaltende Drei schluckt eigene Erschöpfung meist hinunter, um weiter leistungsfähig zu erscheinen – Worte wie ›Ich schaffe das gerade nicht‹ werden selten laut, sondern bleiben im Rachen stecken." },
+        { code: "SO_3", text: "Vor anderen möchte die soziale Drei stets makellos wirken und unterdrückt Selbstzweifel entsprechend konsequent. Das ständige Zurückhalten der eigenen Unsicherheit kann sich als chronisch gereizter Rachen bemerkbar machen." },
+        { code: "SX_3", text: "Die sexuelle Drei möchte im Kontakt stets strahlend erscheinen und schluckt eigene Enttäuschungen oft hinunter, statt sie zu benennen. Diese unausgesprochenen Gefühle können den Rachenraum dauerhaft belasten." },
+      ]},
+      { typ: 4, titel: "Die Individualistin / der Individualist", varianten: [
+        { code: "SE_4", text: "Die selbsterhaltende Vier erlebt oft, dass ihr emotionales Innenleben von anderen nicht verstanden würde, und behält vieles deshalb lieber für sich. Dieses chronische Verschweigen intensiver Gefühle kann sich körperlich als anhaltende Reizung im Rachen zeigen." },
+        { code: "SO_4", text: "Für die soziale Vier bleibt vieles vom eigenen Erleben ungesagt, weil sie fürchtet, damit auf Unverständnis zu stoßen. Was innerlich als zu besonders oder zu verletzlich erscheint, um es auszusprechen, kann sich als dauerhafte Belastung im Rachenraum niederschlagen." },
+        { code: "SX_4", text: "Die sexuelle Vier lebt Sehnsucht mit großer Intensität, verschweigt jedoch manchmal die verletzlichsten Wünsche aus Angst vor Zurückweisung. Dieses Zurückhalten der tiefsten Wahrheit kann den Rachenraum chronisch reizen." },
+      ]},
+      { typ: 5, titel: "Die Beobachterin / der Beobachter", varianten: [
+        { code: "SE_5", text: "Die selbsterhaltende Fünf hält eigene Gedanken meist lieber zurück, als sie ungefragt zu äußern. Diese über Jahre trainierte Zurückhaltung kann sich körperlich in einem Rachenraum niederschlagen, der viel zu oft nicht zum Sprechen kommt." },
+        { code: "SO_5", text: "Die soziale Fünf teilt ihr Wissen gezielt und dosiert, hält aber viel mehr zurück, als sie preisgibt. Dieses bewusste Zurückhalten von Gedanken und Einschätzungen kann sich als chronische Belastung im Rachen bemerkbar machen." },
+        { code: "SX_5", text: "Die sexuelle Fünf öffnet sich selten vollständig und verschweigt oft gerade die intensivsten Gedanken und Gefühle. Diese seltene, aber intensive Zurückhaltung kann sich körperlich in wiederkehrenden Halsentzündungen zeigen." },
+      ]},
+      { typ: 6, titel: "Die Loyale / der Loyale", varianten: [
+        { code: "SE_6", text: "Die selbsterhaltende Sechs behält Zweifel und Sorgen oft für sich, um andere nicht zu beunruhigen. Dieses ständige Herunterschlucken der eigenen Ängste kann sich körperlich als chronisch gereizter Rachen zeigen." },
+        { code: "SO_6", text: "Die soziale Sechs hält kritische Fragen an Autoritäten oder Gruppenentscheidungen manchmal zurück, um nicht als illoyal zu gelten. Diese unterdrückten Einwände können sich im Rachenraum bemerkbar machen, wo sie festzusitzen scheinen." },
+        { code: "SX_6", text: "Die sexuelle Sechs schwankt zwischen mutiger Konfrontation und ängstlichem Zurückhalten der eigenen Meinung – gerade das häufige Zurückhalten in unsicheren Momenten kann sich als anhaltende Reizung im Hals niederschlagen." },
+      ]},
+      { typ: 7, titel: "Die Enthusiastin / der Enthusiast", varianten: [
+        { code: "SE_7", text: "Die selbsterhaltende Sieben spricht Unangenehmes nur ungern direkt an und lenkt lieber ab, statt ernste Themen anzusprechen. Diese vermiedenen Gespräche können sich als anhaltende Reizung im Rachenraum zeigen." },
+        { code: "SO_7", text: "Die soziale Sieben hält kritische oder schwere Themen oft aus der geselligen Runde heraus, um die Stimmung nicht zu trüben. Was so konsequent unausgesprochen bleibt, kann sich körperlich im Rachen niederschlagen." },
+        { code: "SX_7", text: "Die sexuelle Sieben spricht selten offen über tiefere Ängste oder Enttäuschungen und lenkt stattdessen zur nächsten Anregung. Dieses Vermeiden ernster Worte kann den Rachenraum chronisch belasten." },
+      ]},
+      { typ: 8, titel: "Die Chefin / der Chef", varianten: [
+        { code: "SE_8", text: "Die selbsterhaltende Acht spricht die meisten Dinge direkt aus, hält jedoch eigene Verletzlichkeit fast immer zurück. Genau diese eine, konsequent verschwiegene Wahrheit – die eigene Verwundbarkeit – kann sich im Rachenraum niederschlagen." },
+        { code: "SO_8", text: "Wer wie die soziale Acht Verantwortung für andere übernimmt, zeigt selten die eigene Erschöpfung oder Unsicherheit. Dieses eine konsequent zurückgehaltene Eingeständnis kann sich als anhaltende Reizung im Hals bemerkbar machen." },
+        { code: "SX_8", text: "Die sexuelle Acht spricht Begehren und Ärger meist ungefiltert aus, verschweigt aber oft die zarteren, verletzlicheren Gefühle dahinter. Genau diese verborgene Zärtlichkeit kann sich körperlich im Rachenraum stauen." },
+      ]},
+      { typ: 9, titel: "Die Vermittlerin / der Vermittler", varianten: [
+        { code: "SE_9", text: "Die selbsterhaltende Neun hält eigene Wünsche meist zurück, um keinen Konflikt zu riskieren. Dieses chronische Verschweigen des eigenen Willens kann sich körperlich in einem dauerhaft gereizten Rachen zeigen." },
+        { code: "SO_9", text: "Die soziale Neun hält abweichende Meinungen oft zurück, um den Gruppenfrieden zu wahren. Was so konsequent ungesagt bleibt, kann sich als anhaltende Belastung im Rachenraum bemerkbar machen." },
+        { code: "SX_9", text: "Die sexuelle Neun verschmilzt so sehr mit der geliebten Person, dass eigene, abweichende Bedürfnisse selten laut werden. Dieses fast vollständige Verschweigen des eigenen Standpunkts kann sich körperlich im Rachen niederschlagen, wo die eigene Stimme kaum Raum findet." },
+      ]},
+    ],
+    abschluss: "Chronische Mandelentzündung erinnert daran, wo Worte über längere Zeit hinuntergeschluckt statt ausgesprochen wurden. Die psychosomatische Auseinandersetzung mit dem Rachenraum kann helfen, dem eigenen ungesagten Anteil bewusster Raum und Sprache zu geben."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97838,7 +97897,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Chronische Mandelentzündung", "Chronischer Husten"],
+  "atemwege": ["Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
