@@ -55,7 +55,7 @@ async function hybridRetrieve(question, { knowledge, knowledgeByCode, vectorizeI
 
   try {
     const qVector = await embedQuery(question, apiKey);
-    const result = await vectorizeIndex.query(qVector, { topK: 6, returnMetadata: "indexed" });
+    const result = await vectorizeIndex.query(qVector, { topK: 6, returnMetadata: "all" });
     const vectorHits = (result.matches || [])
       .map((m) => knowledgeByCode.get(m.metadata?.code))
       .filter(Boolean);
@@ -89,7 +89,7 @@ async function retrieveEncyclopedia(question, { vectorizeIndex, apiKey }) {
   if (!vectorizeIndex) return [];
   try {
     const qVector = await embedQuery(question, apiKey);
-    const result = await vectorizeIndex.query(qVector, { topK: 4, returnMetadata: "indexed" });
+    const result = await vectorizeIndex.query(qVector, { topK: 4, returnMetadata: "all" });
     return (result.matches || [])
       .filter((m) => m.metadata?.text)
       .map((m) => ({ source: m.metadata.source, text: m.metadata.text }));
