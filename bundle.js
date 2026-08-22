@@ -98359,6 +98359,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor chronischer Verstopfung gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Kontrolle, Festhalten und dem eigenen Rhythmus verhandelt – manche über Dauerkontrolle, andere über Rückzug, Selbstvergessenheit oder eine nie beachtete eigene Regelmäßigkeit. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  divertikulitis: {
+    titel: "Divertikulitis",
+    kategorie: "verdauung",
+    icon: "🕳️",
+    kurz: "Entzündung kleiner Ausstülpungen der Darmwand, in denen sich Kot festsetzt und ablagert, statt weitertransportiert zu werden.",
+    definition: "Divertikel sind kleine, sackartige Ausstülpungen der Darmwand, die vor allem im absteigenden und im S-förmigen Teil des Dickdarms entstehen, meist als Folge von jahrelang erhöhtem Innendruck bei ballaststoffarmer Ernährung. Die meisten Menschen mit Divertikeln (Divertikulose) haben nie Beschwerden. Problematisch wird es, wenn sich in einem oder mehreren dieser Ausstülpungen Kotreste festsetzen, die Schleimhaut sich entzündet und eine Divertikulitis entsteht – mit der Gefahr von Abszessen, Durchbrüchen (Perforation) oder Fistelbildung in Nachbarorgane. Divertikulitis nimmt mit dem Alter deutlich zu und betrifft in westlichen Industrienationen einen Großteil der Menschen über 70 in irgendeiner Form.",
+    symptome: ["Anhaltende oder krampfartige Schmerzen im linken Unterbauch", "Druckschmerz beim Abtasten des Bauches", "Fieber und allgemeines Krankheitsgefühl", "Veränderte Stuhlgewohnheiten – Verstopfung oder Durchfall", "Übelkeit und Appetitlosigkeit", "Blähungen und Völlegefühl"],
+    notfall: "Bei starken, plötzlich einsetzenden Bauchschmerzen mit hartem, brettartigem Bauch, hohem Fieber oder Anzeichen eines akuten Abdomens sofort ärztliche Notfallversorgung aufsuchen – dies kann auf einen Durchbruch (Perforation) mit Bauchfellentzündung hinweisen, einen lebensbedrohlichen Notfall.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Divertikel entstehen dort, wo die Darmwand über Jahre einem erhöhten Innendruck nachgibt und kleine Taschen bildet, in denen sich festsetzt, was eigentlich weitertransportiert werden sollte. Psychosomatisch lässt sich darin ein Bild lesen, das über die reine Verstopfungsthematik hinausgeht: nicht nur allgemeines Festhalten, sondern das gezielte Ablegen und Verstecken von Dingen in kleinen, abgeschotteten inneren Kammern – Erinnerungen, Kränkungen oder Aufgaben, die nicht wirklich verarbeitet, sondern beiseitegeschoben und dort belassen werden, bis sie sich entzünden. In der TCM gilt eine geschwächte Milz-Funktion in Kombination mit lang anhaltendem inneren Druck als Nährboden für solche &bdquo;feuchten&ldquo; Ablagerungen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, was hier besonders häufig in solchen inneren Nischen abgelegt und vergessen wird.",
+    typen: [
+      { typ: 1, titel: "Zorn, der in kleinen inneren Nischen abgelegt wird", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über kleine Unzulänglichkeiten diszipliniert zurück, legt ihn gewissermaßen in einer stillen inneren Schublade ab, statt ihn zu bearbeiten. Über Jahre angesammelt, kann sich dieses Muster körperlich als kleine Ausstülpungen der Darmwand zeigen, in denen sich unbearbeitete Spannung festsetzt." },
+        { code: "SO1", text: "Wer wie die soziale Eins ständig über die Richtigkeit der Dinge wacht, legt kleine, alltägliche moralische Verstimmungen oft beiseite, statt sie einzeln zu klären – über die Jahre kann sich diese Ansammlung nie ganz bearbeiteter Verstimmungen körperlich als Divertikel zeigen." },
+        { code: "SX1", text: "Die sexuelle Eins lebt ihren Verbesserungsanspruch in der Beziehung mit großer Intensität aus – dieser direktere, sofortige Ausdruck steht dem stillen Ablegen kleiner unbearbeiteter Ärgernisse eher entgegen, das für die anderen Einser-Varianten typischer ist." },
+      ]},
+      { typ: 2, titel: "Stolz, der kleine Kränkungen beiseitelegt", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei sammelt über Jahre kleine Kränkungen, die sie beim Kümmern um andere hinnimmt, ohne sie einzeln zu verarbeiten – jede für sich zu klein, um darüber zu sprechen, aber in der Summe ein stiller Vorrat unbearbeiteter Verletzungen. Dieser Vorrat kann sich körperlich als kleine Ausstülpungen zeigen, die sich entzünden können." },
+        { code: "SO2", text: "Für die soziale Zwei ist es selbstverständlich, für viele Menschen gleichzeitig unentbehrlich zu sein – kleine tägliche Zurücksetzungen werden dabei achselzuckend zur Seite gelegt, statt sie zu benennen. Diese Ansammlung kleiner, nie geklärter Kränkungen kann sich als Divertikel zeigen." },
+        { code: "SX2", text: "In intensiven Beziehungsphasen drückt die sexuelle Zwei ihre Bedürfnisse durchaus direkter aus – dieser unmittelbarere Ausdruck steht dem stillen Beiseitelegen kleiner Kränkungen entgegen, das bei den anderen Zweier-Varianten typischer ist." },
+      ]},
+      { typ: 3, titel: "Leistung, die kleine Probleme aufschiebt", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei schiebt kleine, unangenehme Aufgaben oder Konflikte gerne auf später, um im Hauptprojekt nicht ausgebremst zu werden – diese Ansammlung kleiner, aufgeschobener Angelegenheiten kann sich körperlich als kleine, mit der Zeit gefüllte Ausstülpungen zeigen, die sich irgendwann entzünden." },
+        { code: "SO3", text: "Im ständigen Vergleich mit anderen legt die soziale Drei kleine Selbstzweifel routinemäßig beiseite, um das eigene makellose Bild nicht zu gefährden – diese über Jahre angesammelten, nie bearbeiteten Zweifel können sich körperlich als Divertikel zeigen." },
+        { code: "SX3", text: "Um in der Beziehung makellos zu erscheinen, überspielt die sexuelle Drei kleine Unstimmigkeiten gerne so lange wie möglich – dieser fokussierte Wille zur Kontrolle des äußeren Bildes verzögert oft, kleinen ungelösten Themen überhaupt Beachtung zu schenken." },
+      ]},
+      { typ: 4, titel: "Sehnsucht, die sich in kleinen Nischen sammelt", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm mit sich, legt dabei kleine, unausgesprochene Enttäuschungen in stillen inneren Winkeln ab, statt sie zu bearbeiten. Diese Ansammlung kann sich körperlich als kleine Ausstülpungen zeigen, die sich mit der Zeit entzünden." },
+        { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das dem rein körperlichen Ablegen unbearbeiteter kleiner Kränkungen zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+        { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – dieser direktere emotionale Ausdruck steht dem stillen Ablegen kleiner Kränkungen anderer Vierer-Varianten eher entgegen." },
+      ]},
+      { typ: 5, titel: "Rückzug, der kleine Themen für sich behält", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf hält auch kleine, alltägliche Beschwerden konsequent für sich, spricht selten offen über sie – dieses stille Ablegen kleiner unbearbeiteter Themen in aufeinanderfolgenden inneren Fächern passt zum Bild von Divertikeln, die sich über Jahre unbemerkt bilden können." },
+        { code: "SO5", text: "Die soziale Fünf hält emotionale Nähe hinter intellektueller Distanz auf Abstand – auch kleine, alltägliche Verletzungen können so eher abstrakt registriert als aktiv bearbeitet werden, wobei sie sich in stillen Nischen ansammeln." },
+        { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus offen über kleine Kränkungen gesprochen werden – was der stillen Verdrängung anderer Fünfer-Varianten entgegenwirkt." },
+      ]},
+      { typ: 6, titel: "Angst, die kleine Sorgen in Nischen ablegt", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs sammelt viele kleine Sorgen, die sie nicht alle gleichzeitig bearbeiten kann und deshalb einzeln in stillen inneren Winkeln ablegt. Diese Ansammlung kleiner, nie ganz geklärter Ängste kann sich körperlich als Divertikel zeigen, die sich mit der Zeit entzünden können." },
+        { code: "SO6", text: "Die soziale Sechs trägt eine oft unausgesprochene Sorge um das Wohlergehen ihrer Gruppe mit sich – kleine, einzelne Bedenken werden dabei häufig beiseitegelegt, um die Gruppe nicht mit jedem einzelnen zu belasten. Diese Ansammlung kann sich als Divertikel zeigen." },
+        { code: "SX6", text: "Durch aktive Konfrontation klärt die sexuelle Sechs kleine Ängste eher direkt und sofort, statt sie beiseitezulegen – diese unmittelbarere Bearbeitung steht dem stillen Ablegen kleiner Sorgen anderer Sechser-Varianten entgegen." },
+      ]},
+      { typ: 7, titel: "Maßlosigkeit, die kleine Verpflichtungen ablegt", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben schiebt kleine, unangenehme Verpflichtungen gerne beiseite, um sich stattdessen der nächsten angenehmen Aktivität zuzuwenden – diese Ansammlung kleiner, aufgeschobener Angelegenheiten kann sich körperlich als kleine Ausstülpungen zeigen, die sich mit der Zeit füllen und entzünden." },
+        { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – kleine eigene Anliegen werden dabei häufig ganz beiseitegelegt, statt ihnen überhaupt Raum zu geben." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, springt schnell von einem Thema zum nächsten – kleine, unbearbeitete Angelegenheiten bleiben dabei oft in stillen Ecken liegen, während die Aufmerksamkeit längst weitergezogen ist." },
+      ]},
+      { typ: 8, titel: "Kontrolle, die kleine Schwächen versteckt", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht übergeht kleine körperliche Warnsignale konsequent, weil Schwäche einzugestehen ihrem Selbstverständnis widerspricht – diese kleinen, verdrängten Signale können sich über Jahre in stillen inneren Nischen ansammeln, die sich körperlich als Divertikel zeigen." },
+        { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig und stellt kleine eigene Anliegen dabei oft hintan – diese Ansammlung übergangener kleiner Themen kann sich strukturell festsetzen und als Divertikel zeigen." },
+        { code: "SX8", text: "In extremen, aber episodischen Ausschlägen lebt die sexuelle Acht ihre Intensität in der Beziehung – diese punktuelle Dynamik unterscheidet sich vom stillen, über Jahre fortgesetzten Ablegen kleiner Themen, das eher bei den anderen Achter-Varianten typisch ist." },
+      ]},
+      { typ: 9, titel: "Selbstvergessenheit, die kleine Themen im Verborgenen ansammelt", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine und schiebt kleine, unangenehme Themen gerne auf später – über Jahre kann sich diese Gewohnheit körperlich als kleine Ausstülpungen zeigen, in denen sich Unbearbeitetes sammelt, bis es sich entzündet." },
+        { code: "SO9", text: "Die soziale Neun ordnet die eigene Stimme so konsequent der Gruppenharmonie unter, dass auch kleine eigene Anliegen selten wirklich Beachtung finden – diese Ansammlung kleiner, nie geäußerter Themen kann sich als Divertikel zeigen." },
+        { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass kleine eigene Bedürfnisse selten überhaupt formuliert werden – diese über Jahre angesammelten, nie ausgesprochenen kleinen Anliegen können sich körperlich als Divertikel zeigen." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor Divertikulitis gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit kleinen, unbearbeiteten Themen verhandelt – manche über verschluckten Ärger, andere über Rückzug, aufgeschobene Verpflichtungen oder eine nie ganz zur Sprache gekommene kleine Kränkung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -98370,7 +98429,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
+  "verdauung": ["Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
