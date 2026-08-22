@@ -98623,7 +98623,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Empfindsamkeit, die sich in der Haut spiegelt", varianten: [
         { code: "SE4", text: "Über Jahre hinweg trägt die selbsterhaltende Vier, der Kontratyp, ihr Leid zäh und stumm mit sich, ohne es auszusprechen. Diese unausgedrückte Empfindsamkeit findet über eine besonders reizbare, dünnhäutige Reaktion der Haut einen stellvertretenden Ausdruck." },
-        { code: "SO4", text: "Ihr Anderssein macht die soziale Vier eher zum Thema, als es zu verbergen – auch eine sichtbare Hautveränderung wird bei ihr seltener versteckt als offen als Teil der eigenen, besonderen Geschichte erzählt. Dieser Ausdruck nach außen kann dem inneren Druck ein Ventil geben, ohne den Juckreiz selbst verschwinden zu lassen." },
+        { code: "SO4", text: "Ihr Leiden inszeniert die soziale Vier gern in einer Form, die von der Gruppe bemerkt und gewürdigt wird – nicht rohes Ausbrechen, sondern kuratierter Ausdruck. Diese sorgfältig gestaltete Sichtbarkeit sagt wenig darüber aus, ob der zugrunde liegende Juckreiz sich dadurch tatsächlich löst." },
         { code: "SX4", text: "Mit großer Intensität lebt die sexuelle Vier Nähe und Rückzug in ihren Beziehungen aus – dieser dramatische, nach außen gerichtete Ausdruck steht dem stillen, nach innen gerichteten Leid der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Rückzug, der die eigene Grenze verhärtet", varianten: [
@@ -98644,7 +98644,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Verwundbarkeit, die die Haut sichtbar macht", varianten: [
         { code: "SE8", text: "Kontrolle über die eigenen Ressourcen und den eigenen Körper beansprucht die selbsterhaltende Acht mit großer Konsequenz. Eine Haut, die sich dieser Kontrolle entzieht und unaufgefordert reagiert, empfindet sie als besonders unangenehme Erinnerung an eigene Verwundbarkeit." },
         { code: "SO8", text: "Stärke nach außen zu zeigen gehört für die soziale Acht zur selbst auferlegten Beschützerrolle – sichtbare Hautprobleme, die Schwäche verraten könnten, werden ungern zugelassen. Der Druck, sie zu verbergen, kann die zugrunde liegende Anspannung eher verstärken." },
-        { code: "SX8", text: "In der einen Beziehung, der sie sich mit voller Intensität hingibt, kann sich die sexuelle Acht auch verwundbar zeigen – dort findet die Haut eher Entlastung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre Loyalität testet die sexuelle Acht in der intensiven Beziehung, der sie sich hingibt, oft unbewusst immer wieder, bevor sie wirklich Vertrauen zulässt. Dieses ständige Prüfen kostet Kraft, die dem eigentlichen Juckreiz eher zugutekäme als der Kontrolle über die Bindung." },
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die die Haut übernimmt", varianten: [
         { code: "SE9", text: "In Routine und Komfort verliert sich die selbsterhaltende Neun oft so vollständig, dass eigene Warnsignale kaum durchdringen. Ein zunehmender Juckreiz wird auf diese Weise lange nicht ernst genommen, bis die Haut selbst die Aufmerksamkeit erzwingt, die sie sich sonst nicht gönnt." },
@@ -98682,7 +98682,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Selbstablehnung, die sich in der Haut zeigt", varianten: [
         { code: "SE4", text: "Über Jahre trägt die selbsterhaltende Vier, der Kontratyp, ihr Gefühl des Andersseins zäh und stumm mit sich, ohne es je zu benennen. Diese nach innen gerichtete Selbstablehnung findet in einer Haut, die sich gegen sich selbst wendet, eine körperliche Entsprechung." },
-        { code: "SO4", text: "Ihr Leiden verschweigt die soziale Vier selten – sie macht es zum Thema, spricht offen darüber. Dieser Ausdruck nach außen kann der zugrunde liegenden Selbstablehnung ein Ventil geben, ohne dass die Haut selbst davon unmittelbar profitiert." },
+        { code: "SO4", text: "Ihre Selbstablehnung ist für die soziale Vier über die Jahre so eng mit dem eigenen Selbstbild verwoben, dass ein einfaches Loslassen fast wie ein Identitätsverlust wirkt. Genau diese Verschmelzung von Leiden und Wertgefühl kann die Haut ebenso hartnäckig festhalten wie sie selbst." },
         { code: "SX4", text: "Zwischen intensiver Nähe und ebenso intensiver Verzweiflung schwankt die sexuelle Vier in ihren Beziehungen offen und dramatisch. Dieser nach außen gerichtete emotionale Ausbruch steht der stillen, nach innen gerichteten Selbstkritik anderer Vierer-Varianten entgegen." },
       ]},
       { typ: 5, titel: "Rückzug vor dem eigenen, sichtbaren Körper", varianten: [
@@ -98703,7 +98703,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Kontrollverlust, den der eigene Körper zeigt", varianten: [
         { code: "SE8", text: "Über ihren Körper und ihre Ressourcen beansprucht die selbsterhaltende Acht konsequente Kontrolle. Eine Haut, die sich dieser Kontrolle entzieht und sich selbst angreift, erlebt sie als besonders kränkende Erinnerung daran, dass nicht alles beherrschbar ist." },
         { code: "SO8", text: "Stärke nach außen zu demonstrieren gehört für die soziale Acht zur selbst auferlegten Beschützerrolle – sichtbare Schuppenflechte, die Verletzlichkeit verrät, wird ungern gezeigt. Der Druck, sie zu verbergen, kann die zugrunde liegende Anspannung eher verstärken als lindern." },
-        { code: "SX8", text: "Verletzlichkeit erlaubt sich die sexuelle Acht durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet der Körper eher Entlastung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Über den Körper der Partnerin oder des Partners wacht die sexuelle Acht fast so eng wie über ihren eigenen, Fürsorge und Kontrolle verschmelzen bei ihr in der einen intensiven Bindung. Dieses ausgedehnte Wachen kann eigene Erschöpfung länger verdecken, als es ihr guttut." },
       ]},
       { typ: 9, titel: "Ein Körperkonflikt, der übersehen wird", varianten: [
         { code: "SE9", text: "Innere Spannungen dringen bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort. Eine fortschreitende Hautveränderung wird auf diese Weise häufig lange nicht ernst genommen." },
@@ -98741,7 +98741,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Intensität, die sich einen Weg nach außen sucht", varianten: [
         { code: "SE4", text: "Zäh und stumm hält die selbsterhaltende Vier, der Kontratyp, an ihren inneren Regungen fest, ohne ihnen je Worte zu geben. Genau diese unausgesprochene Intensität sucht sich in einem entzündlichen Hautprozess einen stellvertretenden Weg nach außen." },
-        { code: "SO4", text: "Ihre innere Aufruhr macht die soziale Vier eher zum Thema, als sie zu verbergen – sie spricht offen über das, was sie bewegt. Dieser Ausdruck nach außen kann dem inneren Druck ein Ventil geben, ohne den Hautprozess selbst vollständig aufzulösen." },
+        { code: "SO4", text: "Ihre innere Aufruhr deutet die soziale Vier gern als Zeichen besonderer Tiefe, nicht als etwas, das es zu lösen gilt. Diese stille Aufwertung des eigenen Leidens kann verhindern, dass die zugrunde liegende Anspannung tatsächlich abklingt, auch wenn viel darüber gesprochen wird." },
         { code: "SX4", text: "Heftige Ausschläge zwischen Nähe und Verzweiflung gehören zum Beziehungsalltag der sexuellen Vier, ungebremst und offen ausgelebt – dieser dramatische, unmittelbare Ausdruck steht dem stillen, nach innen gerichteten Stau der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Rückzug, der die innere Spannung nicht entlädt", varianten: [
@@ -98762,7 +98762,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Verletzlichkeit, die kontrolliert durchbricht", varianten: [
         { code: "SE8", text: "Über ihren Körper beansprucht die selbsterhaltende Acht konsequente Kontrolle, Schwäche darf sich darin kaum zeigen. Ein Hautausbruch, der sich dieser Kontrolle entzieht, erlebt sie als besonders kränkende Erinnerung daran, dass nicht alles beherrschbar ist." },
         { code: "SO8", text: "Eine selbst auferlegte Beschützerrolle prägt die soziale Acht, deren Stärke stets nach außen gerichtet ist – sichtbare Akne, die Verletzlichkeit verrät, wird ungern gezeigt. Der Druck, sie zu verbergen, kann die zugrunde liegende Anspannung eher verstärken als lindern." },
-        { code: "SX8", text: "Nur innerhalb der einen Beziehung, der sie sich mit voller Hingabe widmet, lässt die sexuelle Acht auch Schwäche zu, die sie sonst konsequent verbirgt. Dort findet die Haut eher Entlastung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Macht und Nähe verhandelt die sexuelle Acht in ihrer einen Beziehung oft körperlich statt verbal, ein stiller Ringkampf um Einfluss, der zugleich Verbindung schafft. Dieses ständige Aushandeln kann körperlich mehr Anspannung erzeugen, als die Nähe selbst eigentlich lindert." },
       ]},
       { typ: 9, titel: "Ein Stau, der lange unbemerkt bleibt", varianten: [
         { code: "SE9", text: "Innere Anspannung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort. Ein fortschreitender Hautausbruch wird auf diese Weise häufig lange nicht ernst genommen." },
@@ -98800,7 +98800,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Gefühl, das im Moment zu viel wird", varianten: [
         { code: "SE4", text: "Ein plötzlicher, unerwarteter Schmerz trifft die selbsterhaltende Vier, den Kontratyp, oft mitten in einem stillen Moment – ausgesprochen wird er auch dann nicht, sondern zäh weggesteckt. Diese augenblickliche Unterdrückung kann sich rasch als Quaddelschub zeigen." },
-        { code: "SO4", text: "Ein plötzliches Gefühl der Kränkung spricht die soziale Vier meist sofort aus, statt es zu verschlucken – sie macht ihre Verletzung zum Thema. Dieser unmittelbare Ausdruck kann dem körperlichen Ausbruch zumindest teilweise vorbeugen, auch wenn das Gefühl selbst bleibt." },
+        { code: "SO4", text: "Eine plötzliche Kränkung erzählt die soziale Vier später gern mehrfach nach, in wechselnden Runden ihrer Gruppe. Dieses wiederholte Nacherzählen hält den ursprünglichen Stich oft eher wach, als ihn wirklich abklingen zu lassen." },
         { code: "SX4", text: "Mit einer heftigen, augenblicklichen emotionalen Welle reagiert die sexuelle Vier auf plötzliche Zurückweisung oder Enttäuschung, unmittelbar und ungefiltert im Kontakt. Dieser direkte, dramatische Ausbruch steht dem stillen Wegstecken der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Übergriff, der die Grenze im Moment sprengt", varianten: [
@@ -98821,7 +98821,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kränkung, die im Moment nicht sein darf", varianten: [
         { code: "SE8", text: "Ein plötzlicher Kontrollverlust – über Ressourcen, über eine Situation, über den eigenen Körper – kann bei der selbsterhaltenden Acht im Moment eine heftige innere Reaktion auslösen, die nach außen kaum sichtbar wird. Dieser augenblicklich unterdrückte Widerstand kann sich rasch als Quaddelschub zeigen." },
         { code: "SO8", text: "Wird ihre Autorität in einem konkreten Moment infrage gestellt, reagiert die soziale Acht innerlich heftig, lässt sich das aber selten sofort anmerken, um ihre Beschützerrolle nicht zu gefährden. Dieser augenblicklich überspielte Ärger kann sich körperlich Bahn brechen." },
-        { code: "SX8", text: "Innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt, zeigt die sexuelle Acht plötzliche Kränkung durchaus offen und unmittelbar. Dieser direkte Ausdruck im Moment selbst steht dem generellen Überspielen der übrigen Achter-Varianten entgegen." },
+        { code: "SX8", text: "Eifersucht auf jede Aufmerksamkeit, die die geliebte Person anderswo empfängt, zeigt die sexuelle Acht selten offen, verarbeitet sie aber intensiv innerlich. Diese verdeckte Anspannung kann sich im Gesicht als anhaltende Rötung zeigen, gerade wenn die Eifersucht ausgerechnet dort sichtbar würde." },
       ]},
       { typ: 9, titel: "Ein Reiz, der im Moment gar nicht erst ankommt", varianten: [
         { code: "SE9", text: "Ein plötzlicher, unangenehmer Reiz wird von der selbsterhaltenden Neun im Moment oft gar nicht bewusst registriert, so schnell weicht sie in Komfort und Ablenkung aus. Erst der körperliche Quaddelausbruch macht rückblickend sichtbar, was innerlich tatsächlich als Überforderung erlebt wurde." },
@@ -98859,7 +98859,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Erregung, die im Gesicht bleibt", varianten: [
         { code: "SE4", text: "Über Jahre hält die selbsterhaltende Vier, der Kontratyp, ihre innere Erregung zäh und stumm zurück, ohne sie je auszusprechen. Genau diese unausgedrückte Intensität kann sich als dauerhafte Rötung im Gesicht zeigen, das eigentlich unbeteiligt wirken soll." },
-        { code: "SO4", text: "Ihre innere Bewegtheit macht die soziale Vier eher zum Thema, als sie zu verbergen – ihr Gesicht darf zeigen, was sie fühlt. Dieser offene Ausdruck kann dem chronischen Erröten teilweise entgegenwirken, auch wenn die zugrunde liegende Intensität bleibt." },
+        { code: "SO4", text: "Ihr Erröten will die soziale Vier von der Gruppe wirklich bemerkt und gedeutet wissen, ein flüchtiger Blick reicht ihr selten. Bleibt diese Bezeugung aus, kann sich die Erregung im Gesicht gerade deshalb chronisch festsetzen, weil sie nie wirklich gesehen wurde." },
         { code: "SX4", text: "Mit voller Wucht zeigt die sexuelle Vier ihre Erregung im direkten Kontakt, dramatisch und unmittelbar. Dieser offene, punktuelle Ausdruck steht dem stillen, chronisch werdenden Erröten der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Eine Nähe, die das Gesicht nicht verbergen kann", varianten: [
@@ -98880,7 +98880,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Blöße, die das Gesicht nicht verstecken kann", varianten: [
         { code: "SE8", text: "Kontrolle über den eigenen Körper beansprucht die selbsterhaltende Acht konsequent, Schwäche darf sich darin kaum zeigen. Eine Gesichtsrötung, die sich dieser Kontrolle entzieht, erlebt sie als besonders kränkende Erinnerung daran, dass nicht alles beherrschbar ist." },
         { code: "SO8", text: "Nach außen demonstriert die soziale Acht unbedingte Stärke, das gehört zu ihrer selbst auferlegten Beschützerrolle – eine sichtbare Rötung, die Erregung oder Verletzlichkeit verrät, wird ungern zugelassen. Der Druck, sie zu überspielen, kann die zugrunde liegende Anspannung eher verstärken." },
-        { code: "SX8", text: "Erregung und Verletzlichkeit im Gesicht lässt die sexuelle Acht durchaus offen zu – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Hingabe widmet. Dort findet die Anspannung eher Entlastung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Verschmelzung statt bloße Nähe sucht die sexuelle Acht in ihrer einen Beziehung, ein Übergehen der eigenen Grenzen in die der geliebten Person hinein. Dieses Verwischen der eigenen Umrisse kann sich im Bild eines fortschreitenden Farbverlusts wiederfinden." },
       ]},
       { typ: 9, titel: "Eine Erregung, die selten bewusst ankommt", varianten: [
         { code: "SE9", text: "Innere Erregung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort. Eine fortschreitende Gesichtsrötung wird auf diese Weise häufig lange nicht ernst genommen." },
@@ -98918,7 +98918,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Verlust, der sich in Farbe zeigt", varianten: [
         { code: "SE4", text: "Ihren inneren Verlust und ihre Sehnsucht verschließt die selbsterhaltende Vier, der Kontratyp, tief in sich, ohne je ein Wort darüber zu verlieren. Ausgerechnet ein sichtbarer Verlust von Farbe kann als äußere Entsprechung dieses inneren, unausgesprochenen Verlusts erlebt werden." },
-        { code: "SO4", text: "Ihre Verletzung und ihr Andersein verschweigt die soziale Vier selten vollständig – sie spricht offen darüber, auch sichtbare Flecken werden bei ihr seltener versteckt als zum Teil der eigenen, besonderen Geschichte gemacht. Dieser Ausdruck nach außen kann helfen, den Verlust in die eigene Identität zu integrieren." },
+        { code: "SO4", text: "Ihren sichtbaren Verlust vergleicht die soziale Vier unwillkürlich mit dem Leid anderer in ihrer Gruppe – mal fühlt sie sich zu wenig, mal zu sehr betroffen. Dieser ständige innere Abgleich kostet oft mehr Kraft, als er der eigentlichen Trauer über den Verlust selbst zusteht." },
         { code: "SX4", text: "Ihre Beziehungen lebt die sexuelle Vier in großen, dramatischen Ausschlägen zwischen Nähe und Verzweiflung, offen und ungebremst. Dieser nach außen gerichtete emotionale Ausdruck steht dem stillen, nach innen gerichteten Verlusterleben der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Rückzug, der die eigene Farbe mitnimmt", varianten: [
@@ -98939,7 +98939,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle, die dem Körper nicht folgt", varianten: [
         { code: "SE8", text: "Konsequente Kontrolle beansprucht die selbsterhaltende Acht über ihren Körper, jede unkontrollierbare Veränderung wird als Angriff auf die eigene Souveränität erlebt. Ein fortschreitender Pigmentverlust, der sich dieser Kontrolle vollständig entzieht, trifft sie besonders hart." },
         { code: "SO8", text: "Unbedingte Stärke nach außen zu zeigen gehört zur selbst auferlegten Beschützerrolle der sozialen Acht – sichtbare, nicht kontrollierbare Veränderungen wie Vitiligo werden ungern zugelassen. Der Druck, sie zu ignorieren, kann die eigentliche Auseinandersetzung damit erschweren." },
-        { code: "SX8", text: "Verwundbarkeit und Veränderung offen zulassen kann die sexuelle Acht durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie eher Halt, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Erst wenn ihre Loyalität mehrfach auf die Probe gestellt und bestanden wurde, lässt die sexuelle Acht die geliebte Person wirklich nah an sich heran. Dieser lange Vertrauensaufbau vor jeder echten Verwundbarkeit kann Erschütterungen ungewöhnlich lange im Körper konservieren." },
       ]},
       { typ: 9, titel: "Eine Veränderung, die lange unbeachtet bleibt", varianten: [
         { code: "SE9", text: "Eine langsam fortschreitende Veränderung der eigenen Haut wird von der selbsterhaltenden Neun lange kaum registriert, so vollständig verliert sie sich in Routine und Komfort. Erst wenn die Flecken deutlich sichtbar geworden sind, wird die Auseinandersetzung damit unumgänglich." },
@@ -98977,7 +98977,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Bruch, der sichtbar wird", varianten: [
         { code: "SE4", text: "Ihren tiefen, oft alten Verlustschmerz verschließt die selbsterhaltende Vier, der Kontratyp, still in sich, ohne ihn je zu benennen. Ein plötzlicher kreisrunder Haarausfall kann als äußeres Echo dieses lange verschlossenen inneren Bruchs erlebt werden." },
-        { code: "SO4", text: "Ihre Erschütterung über einen plötzlichen Verlust spricht die soziale Vier meist offen aus, statt sie zu verschweigen – sie macht ihren Schmerz zum Thema. Dieser Ausdruck nach außen kann helfen, den Schock zu verarbeiten, auch wenn der Haarausfall selbst davon unberührt bleibt." },
+        { code: "SO4", text: "Als besonders offen und mitteilsam gilt die soziale Vier in ihrer Gruppe, doch genau dieser Ruf kann verdecken, wie allein sie sich mit dem eigentlichen Schock tatsächlich fühlt. Diese Lücke zwischen Außenbild und innerer Erschütterung bleibt oft unbemerkt bestehen." },
         { code: "SX4", text: "Ungefiltert und unmittelbar bricht bei plötzlichem Verlust eine heftige emotionale Welle aus der sexuellen Vier hervor, direkt im Kontakt selbst. Dieser dramatische Ausbruch steht dem stillen, tief verschlossenen Verlustschmerz der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Einbruch in die geschützte Ordnung", varianten: [
@@ -98998,7 +98998,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Ohnmacht, die nicht sein darf", varianten: [
         { code: "SE8", text: "Ein plötzlicher Kontrollverlust – über eine Situation, über den eigenen Körper – trifft die selbsterhaltende Acht besonders hart, wird aber nach außen kaum sichtbar. Dieser augenblicklich unterdrückte Widerstand kann sich rasch als kreisrunder Haarausfall zeigen." },
         { code: "SO8", text: "Wird ihre Schutzfunktion für die Gruppe plötzlich infrage gestellt oder überflüssig, kann das die soziale Acht innerlich schwer treffen, ohne dass sie sich das sofort anmerken lässt. Dieser augenblicklich überspielte Schock kann sich körperlich Bahn brechen." },
-        { code: "SX8", text: "Plötzliche Ohnmacht offen zu zeigen erlaubt sich die sexuelle Acht durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie eher Halt, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre eigene Erschütterung überspielt die sexuelle Acht zunächst mit Aktivität in der Beziehung, bevor sie sich – meist verzögert und nur der einen vertrauten Person gegenüber – wirklich zeigt. Diese Verzögerung kann den Schock länger im Körper festhalten, als ein sofortiger Ausdruck es täte." },
       ]},
       { typ: 9, titel: "Ein Schock, der lange nicht ankommt", varianten: [
         { code: "SE9", text: "Ein plötzlicher Schreck wird von der selbsterhaltenden Neun im Moment oft gar nicht bewusst registriert, so schnell weicht sie in Komfort und Ablenkung aus. Erst der kreisrunde Haarausfall macht rückblickend sichtbar, was innerlich tatsächlich als Erschütterung erlebt wurde." },
@@ -99036,7 +99036,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Erregung, die durch die Poren entweicht", varianten: [
         { code: "SE4", text: "Ihre innere Intensität hält die selbsterhaltende Vier, der Kontratyp, zäh unter Verschluss, ohne ihr je Ausdruck zu geben. Dieser dauerhaft aufgestaute innere Druck kann körperlich einen Ausweg über die Schweißdrüsen finden." },
-        { code: "SO4", text: "Ihre innere Bewegtheit spricht die soziale Vier meist offen aus, statt sie zu verschweigen – ihr Gesicht und ihre Worte dürfen zeigen, was in ihr vorgeht. Dieser offene Ausdruck kann dem übermäßigen Schwitzen teilweise entgegenwirken, auch wenn die zugrunde liegende Intensität bleibt." },
+        { code: "SO4", text: "Ihre Bewegtheit sichtbar zu zeigen kostet die soziale Vier selbst Energie, weil sie dabei zugleich beobachtet, wie diese Regung bei anderen ankommt. Dieses doppelte Innehalten – fühlen und zugleich die Wirkung prüfen – kann die eigene Anspannung eher verlängern als lösen." },
         { code: "SX4", text: "Mit voller Wucht lebt die sexuelle Vier ihre emotionale Erregung im direkten Kontakt aus, dramatisch und unmittelbar. Dieser offene, punktuelle Ausdruck steht dem stillen, dauerhaft aufgestauten Druck der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Eine Alarmbereitschaft, die sich hinter Ruhe verbirgt", varianten: [
@@ -99057,7 +99057,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kraftanstrengung, die niemand bemerken soll", varianten: [
         { code: "SE8", text: "Kontrolle über ihren Körper und ihre Umgebung mit ständiger Wachsamkeit zu behaupten kostet die selbsterhaltende Acht kontinuierlich Energie. Diese permanente innere Kraftanstrengung kann sich körperlich als anhaltendes Schwitzen zeigen, das sie selbst kaum wahrnimmt." },
         { code: "SO8", text: "Ihre selbst auferlegte Beschützerrolle verlangt von der sozialen Acht, jederzeit Stärke zu demonstrieren – der damit verbundene Dauereinsatz lässt selten Raum für echte körperliche Entspannung, was sich als übermäßiges Schwitzen zeigen kann." },
-        { code: "SX8", text: "Körperliche Anspannung lösen und loslassen kann die sexuelle Acht durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie eher Entlastung, anders als bei der generellen Dauerspannung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Kontrolle über die geliebte Person zu behalten kostet die sexuelle Acht in ihrer intensiven Bindung mindestens so viel Energie wie Kontrolle über sich selbst. Dieser doppelte Kraftaufwand kann sich körperlich als anhaltendes Schwitzen zeigen, das über die eigene Anspannung hinausgeht." },
       ]},
       { typ: 9, titel: "Eine Anspannung, die selten bewusst ankommt", varianten: [
         { code: "SE9", text: "Bis ins Bewusstsein dringt innere Anspannung bei der selbsterhaltenden Neun selten durch, so vollständig verliert sie sich in Routine und Komfort. Anhaltendes Schwitzen kann so zum einzigen sichtbaren Hinweis auf eine innerlich längst bestehende Alarmbereitschaft werden." },
@@ -99095,7 +99095,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Schmerz, der am Mund sichtbar wird", varianten: [
         { code: "SE4", text: "Ihren tiefen inneren Schmerz verschließt die selbsterhaltende Vier, der Kontratyp, still in sich, ohne ihn je auszusprechen. Ein Lippenherpes-Ausbruch kann als äußeres Echo dieses lange unausgesprochenen, latenten Schmerzes erlebt werden, besonders in erschöpften Phasen." },
-        { code: "SO4", text: "Ihren Schmerz spricht die soziale Vier meist offen aus, statt ihn zu verschweigen – sie macht ihr Leiden zum Thema. Dieser Ausdruck nach außen kann helfen, innere Anspannung abzubauen, auch wenn das Virus selbst davon unberührt bleibt." },
+        { code: "SO4", text: "Ihr Leiden kehrt bei der sozialen Vier oft in denselben immer wieder erzählten Bildern zurück, vor allem dann, wenn die Aufmerksamkeit der Gruppe nachlässt. Dieses zyklische Nacherzählen ist weniger Verarbeitung als ein wiederkehrender Ruf nach erneuter Bezeugung." },
         { code: "SX4", text: "Ihre emotionale Achterbahn zwischen tiefer Nähe und tiefer Verzweiflung lebt die sexuelle Vier offen aus, ohne sie zu verbergen. Dieser nach außen gerichtete Ausdruck steht dem stillen, tief verschlossenen Schmerz der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Rückzug, der die eigene Erschöpfung verbirgt", varianten: [
@@ -99116,7 +99116,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Schwäche, die niemand sehen soll", varianten: [
         { code: "SE8", text: "Schwäche darf sich bei der selbsterhaltenden Acht kaum zeigen, so konsequent hält sie Kontrolle über ihren eigenen Körper. Ein Lippenherpes-Ausbruch, der sich dieser Kontrolle entzieht, erlebt sie als besonders kränkende Erinnerung daran, dass nicht alles beherrschbar ist." },
         { code: "SO8", text: "Zu ihrer selbst auferlegten Beschützerrolle gehört es für die soziale Acht, unbedingte Stärke zu zeigen, auch wenn die eigenen Kräfte längst erschöpft sind. Der Druck, diese Erschöpfung zu verbergen, kann sich als wiederkehrender Ausbruch zeigen." },
-        { code: "SX8", text: "Erschöpfung und Schwäche offen zuzulassen gelingt der sexuellen Acht durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie eher Regeneration, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Besitzergreifend hält die sexuelle Acht an der einen Bindung fest, aus der sie ihre Sicherheit bezieht, jede Bedrohung dieser Bindung wird mit voller Kraft abgewehrt. Diese ständige Verteidigungsbereitschaft kann sich als wiederkehrender, kraftraubender Ausbruch zeigen." },
       ]},
       { typ: 9, titel: "Eine Erschöpfung, die selten bewusst ankommt", varianten: [
         { code: "SE9", text: "Innere Erschöpfung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort. Ein wiederkehrender Lippenherpes-Ausbruch kann so zum einzigen sichtbaren Hinweis auf eine längst bestehende Kraftlosigkeit werden." },
@@ -99154,7 +99154,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Kontakt, der zu viel Nähe oder zu viel Fremdheit bringt", varianten: [
         { code: "SE4", text: "Ihre Abneigung gegen einen bestimmten, sie belastenden Kontakt verschließt die selbsterhaltende Vier, der Kontratyp, still in sich, ohne sie je auszusprechen. Ein Ekzem an genau dieser Kontaktstelle kann als äußeres Echo dieser unausgesprochenen Abneigung erlebt werden." },
-        { code: "SO4", text: "Ihre Abneigung gegen einen bestimmten Kontakt spricht die soziale Vier meist offen aus, statt sie zu verschweigen – sie macht ihr Unbehagen zum Thema. Dieser Ausdruck nach außen kann helfen, die eigene Grenze klarer zu ziehen, auch wenn das Ekzem selbst davon unberührt bleibt." },
+        { code: "SO4", text: "Wie ihre Umgebung auf ihr Unbehagen reagiert, beschäftigt die soziale Vier oft mehr als der ursprüngliche Kontakt selbst. Bleibt die erhoffte Anteilnahme aus, kann sich die eigentliche Unverträglichkeit an der Kontaktstelle dadurch eher verstärken als lindern." },
         { code: "SX4", text: "Ihre Reaktionen auf unerwünschten Kontakt zeigt die sexuelle Vier dramatisch und unmittelbar, mit klarer emotionaler Intensität. Dieser offene Ausdruck steht dem stillen, tief verschlossenen Unbehagen der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Kontakt, der die Grenze zu weit öffnet", varianten: [
@@ -99175,7 +99175,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Ein Kontakt, der sich der Kontrolle entzieht", varianten: [
         { code: "SE8", text: "Über die Stoffe und Kontakte, denen sich ihr Körper aussetzt, behält die selbsterhaltende Acht meist konsequent die Kontrolle. Ein Ekzem, das trotz dieser Vorsicht auftritt, erlebt sie als besonders kränkende Erinnerung daran, dass nicht alles beherrschbar ist." },
         { code: "SO8", text: "Kontakte, die ihre Schutzfunktion für die Gruppe infrage stellen, erträgt die soziale Acht nur mit spürbarer innerer Härte, die sie nach außen kaum zeigt. Dieser augenblicklich überspielte Widerstand kann sich körperlich Bahn brechen." },
-        { code: "SX8", text: "Unangenehmen Kontakt offen benennen, statt ihn stillschweigend zu ertragen, gelingt der sexuellen Acht durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie eher Klärung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre eigenen Reaktionen prüft die sexuelle Acht in ihrer intensiven Bindung oft daran, ob die Partnerin oder der Partner sie ernst nimmt, mehr als daran, was der ursprüngliche Kontakt tatsächlich ausgelöst hat. Diese Verlagerung kann die eigentliche Unverträglichkeit an der Kontaktstelle eher verlängern." },
       ]},
       { typ: 9, titel: "Ein Kontakt, der lange nicht bemerkt wird", varianten: [
         { code: "SE9", text: "Unangenehme Substanzen oder Kontakte nimmt die selbsterhaltende Neun oft lange gar nicht bewusst wahr, so sehr verliert sie sich in Routine und Komfort. Ein Ekzem an der Kontaktstelle wird auf diese Weise häufig erst spät ernst genommen." },
@@ -99213,7 +99213,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein alter Schmerz, der lange geruht hat", varianten: [
         { code: "SE4", text: "Ihr ganzes Leben lang trägt die selbsterhaltende Vier, der Kontratyp, einen tiefen, nie ausgesprochenen Schmerz zäh mit sich. Genau dieser jahrzehntealte, verschlossene Schmerz kann sich, wenn die Kraft ihn zu halten nachlässt, als brennender Ausschlag entlang eines Nervs zeigen." },
-        { code: "SO4", text: "Über Jahrzehnte hinweg macht die soziale Vier ihren Schmerz eher zum Thema, als ihn zu verschweigen. Dieser fortlaufende Ausdruck kann der langen, stillen Aufstauung entgegenwirken, die für andere Vierer-Varianten typischer ist." },
+        { code: "SO4", text: "Über Jahrzehnte hat sich der Schmerz der sozialen Vier so eng mit ihrer Identität verwoben, dass ihn wirklich loszulassen fast wie das Aufgeben eines Teils ihrer selbst wirkt. Diese Verschmelzung von altem Leid und Selbstbild kann sich im Alter als Gürtelrose zeigen." },
         { code: "SX4", text: "Mit großer, wiederkehrender Intensität lebt die sexuelle Vier ihre emotionalen Ausschläge zwischen Nähe und Verzweiflung, statt sie über Jahrzehnte in sich zu verschließen. Dieser fortlaufende, dramatische Ausdruck steht dem stillen, alten Schmerz der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein alter Rückzug, der Kraft kostet", varianten: [
@@ -99234,7 +99234,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine alte Kontrolle, die endlich nachgibt", varianten: [
         { code: "SE8", text: "Ihr ganzes Leben lang behält die selbsterhaltende Acht konsequente Kontrolle über ihren Körper und ihre Ressourcen. Ein Nachlassen dieser über Jahrzehnte gehaltenen Kontrolle im Alter erlebt sie als besonders kränkend – und genau dort kann sich eine Gürtelrose zeigen." },
         { code: "SO8", text: "Ihr Leben lang demonstriert die soziale Acht unbedingte Stärke im Dienst ihrer selbst auferlegten Beschützerrolle. Lässt diese über Jahrzehnte aufrechterhaltene Kraft nach, kann sich der lange verborgene Verschleiß als schmerzhafter Ausschlag zeigen." },
-        { code: "SX8", text: "Schon früh im Leben lässt die sexuelle Acht auch Verletzlichkeit zu, statt sie über Jahrzehnte zu verbergen – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie fortlaufend Entlastung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre alte, tief verschlossene Verletzung öffnet die sexuelle Acht nur der einen Person gegenüber, der sie über Jahrzehnte vollständig vertraut hat. Wird dieses Vertrauen erschüttert oder fehlt es, kann sich die alte Last als besonders hartnäckiger Ausbruch zeigen." },
       ]},
       { typ: 9, titel: "Eine alte Erschöpfung, die nie bewusst wurde", varianten: [
         { code: "SE9", text: "Ihr ganzes Leben lang verliert sich die selbsterhaltende Neun in Routine und Komfort, ohne eigene Erschöpfung je bewusst wahrzunehmen. Eine Gürtelrose im Alter kann so zum ersten wirklich unübersehbaren Hinweis auf eine lebenslang übergangene Kraftlosigkeit werden." },
@@ -99272,7 +99272,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Sehnsucht, die über Jahre zehrt", varianten: [
         { code: "SE4", text: "Ihre tiefe, nie ausgesprochene Sehnsucht trägt die selbsterhaltende Vier, der Kontratyp, über Jahre zäh mit sich. Dieser andauernde innere Substanzverlust kann sich als allmähliche Ausdünnung des Haars zeigen." },
-        { code: "SO4", text: "Ihre Sehnsucht spricht die soziale Vier über Jahre hinweg eher offen aus, statt sie in sich zu verschließen. Dieser fortlaufende Ausdruck kann dem stillen Substanzverlust entgegenwirken, der bei anderen Vierer-Varianten typischer ist." },
+        { code: "SO4", text: "Ihre Sehnsucht erzählt die soziale Vier über die Jahre in immer denselben vertrauten Bildern, ohne dass sich am eigentlichen Zustand viel ändert. Dieses ritualisierte Erzählen kann sich verselbstständigen, während die Haarausdünnung selbst unbeeinflusst weiter fortschreitet." },
         { code: "SX4", text: "Mit wiederkehrender Intensität lebt die sexuelle Vier ihre emotionalen Schwankungen offen aus, statt sie über Jahre in sich aufzustauen. Dieser fortlaufende Ausdruck steht dem stillen, andauernden Substanzverlust der selbsterhaltenden Variante entgegen." },
       ]},
       { typ: 5, titel: "Ein Rückzug, der über Jahre Substanz kostet", varianten: [
@@ -99293,7 +99293,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kraft, die sich unbemerkt verbraucht", varianten: [
         { code: "SE8", text: "Über Jahre setzt die selbsterhaltende Acht ihre Kraft konsequent für Kontrolle über Körper und Ressourcen ein, ohne echte Erholungsphasen einzuplanen. Diesen andauernden Substanzverbrauch erlebt sie als besonders kränkend, wenn er sich sichtbar am eigenen Haar zeigt." },
         { code: "SO8", text: "Über Jahre demonstriert die soziale Acht unbedingte Stärke im Dienst ihrer Beschützerrolle, ohne sich selbst dabei zu schonen. Dieser andauernde, verborgene Substanzverlust kann sich als allmähliche Haarausdünnung zeigen." },
-        { code: "SX8", text: "Erholung und Verletzlichkeit zulassen kann die sexuelle Acht über Jahre hinweg durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie fortlaufend Regeneration, anders als bei der generellen Dauerbeanspruchung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Kontrolle über den eigenen Körper an die geliebte Person abzugeben, und sei es nur zeitweise, fällt der sexuellen Acht ungewöhnlich schwer, selbst in der einen tiefen Bindung. Wird dieser Widerstand irgendwann doch aufgegeben, kann echte Erholung eintreten – bleibt er bestehen, eher nicht." },
       ]},
       { typ: 9, titel: "Eine Erschöpfung, die nie an erster Stelle steht", varianten: [
         { code: "SE9", text: "Über Jahre verliert sich die selbsterhaltende Neun in Routine und Komfort, ohne die eigene schleichende Erschöpfung je bewusst wahrzunehmen. Ein allmählich dünner werdendes Haar kann so zum ersten wirklich bemerkten Hinweis auf eine lange übergangene Kraftlosigkeit werden." },
@@ -99331,7 +99331,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Sehnsucht, die sich nicht stillen lässt", varianten: [
         { code: "SE4", text: "Ihre tiefe Sehnsucht nach Erfüllung trägt die selbsterhaltende Vier, der Kontratyp, zäh und stumm mit sich, ohne sie je wirklich zu stillen. Dieses chronische Ungestillt-Sein kann sich stoffwechselseitig als nachlassende Reaktion auf das eigene Insulin zeigen." },
-        { code: "SO4", text: "Ihre Sehnsucht spricht die soziale Vier offen aus, statt sie zu verschweigen – auch wenn das allein sie nicht stillt. Dieser Ausdruck kann der zugrunde liegenden Leere zumindest teilweise entgegenwirken, auch wenn der Stoffwechsel selbst davon unberührt bleibt." },
+        { code: "SO4", text: "Ihre Sehnsucht zu benennen fällt der sozialen Vier leicht, sie tatsächlich stillen zu lassen dagegen deutlich schwerer – zwischen Aussprechen und Annehmen liegt bei ihr oft eine eigene, unüberbrückte Distanz. Dieser Unterschied kann sich stoffwechselseitig als nachlassende Insulinwirkung zeigen." },
         { code: "SX4", text: "Mit großer Intensität sucht die sexuelle Vier Erfüllung im direkten Kontakt zur begehrten Person. Dieser aktive, unmittelbare Zugang unterscheidet sich vom stillen, chronischen Ungestillt-Sein der selbsterhaltenden Variante." },
       ]},
       { typ: 5, titel: "Ein Rückzug, der Nahrung fernhält", varianten: [
@@ -99340,9 +99340,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung nimmt die sexuelle Fünf Nähe und Zuwendung durchaus bewusst an, statt sie fernzuhalten – anders als bei der generellen Zurückhaltung der übrigen Fünfer-Varianten." },
       ]},
       { typ: 6, titel: "Eine Anspannung, die keine Ruhe zulässt", varianten: [
-        { code: "SE6", text: "Ständige Wachsamkeit prägt den Alltag der selbsterhaltenden Sechs, ihr Nervensystem findet selten wirklich Ruhe. Dieser Dauerstress zählt zu den bekanntesten Mitverursachern einer sich entwickelnden Insulinresistenz." },
+        { code: "SE6", text: "Ihr Nervensystem findet selten wirklich Ruhe, so sehr prägt Wachsamkeit den Alltag der selbsterhaltenden Sechs. Dieser Dauerstress zählt zu den bekanntesten Mitverursachern einer sich entwickelnden Insulinresistenz." },
         { code: "SO6", text: "Ihre eigene Sorge stellt die soziale Sechs meist hinter die Sorge um ihre Gruppe zurück, ohne echte innere Entlastung zu finden. Dieser unaufgelöste Stress kann sich als schleichend steigender Blutzucker zeigen." },
-        { code: "SX6", text: "Der Angst begegnet die sexuelle Sechs, der Kontratyp, mit unmittelbarer Konfrontation statt mit stiller Dauerspannung. Diese nach außen gerichtete Entladung kann die innere Stressbelastung senken, die bei anderen Sechser-Varianten eher chronisch bleibt." },
+        { code: "SX6", text: "Statt in stiller Dauerspannung zu verharren, begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit unmittelbarer Konfrontation. Diese nach außen gerichtete Entladung kann die innere Stressbelastung senken, die bei anderen Sechser-Varianten eher chronisch bleibt." },
       ]},
       { typ: 7, titel: "Ein Genuss, der nie wirklich sättigt", varianten: [
         { code: "SE7", text: "Von einem angenehmen Genuss zum nächsten springt die selbsterhaltende Sieben, ohne bei einem einzigen wirklich zu verweilen. Diese ständige Suche nach neuer Süße, ohne dass eine davon wirklich sättigt, kann sich stoffwechselseitig als nachlassende Insulinwirkung zeigen." },
@@ -99350,14 +99350,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX7", text: "Mit voller, ungebremster Begeisterung lässt sich die sexuelle Sieben auf intensive Erfahrungen wirklich ein, statt ständig weiterzuspringen. Dieses tiefere Verweilen unterscheidet sich vom rastlosen Genusshopping anderer Siebener-Varianten." },
       ]},
       { typ: 8, titel: "Eine Kontrolle, die Genuss verdrängt", varianten: [
-        { code: "SE8", text: "Kontrolle über ihren Körper und ihre Ressourcen beansprucht die selbsterhaltende Acht mit großer Konsequenz, echter Genuss bleibt dabei oft auf der Strecke. Diese permanente Anspannung kann sich stoffwechselseitig als nachlassende Insulinempfindlichkeit zeigen." },
+        { code: "SE8", text: "Genuss und Selbstbestimmung verträgt sich für die selbsterhaltende Acht nur schwer mit Kontrollverlust, echte Erholung wird deshalb selten wirklich zugelassen. Diese permanente Anspannung kann sich stoffwechselseitig als nachlassende Insulinempfindlichkeit zeigen." },
         { code: "SO8", text: "Stärke und Kontrolle im Dienst ihrer Gruppe demonstriert die soziale Acht durchgehend, eigene Bedürfnisse treten dabei zurück. Diese permanente Führungsspannung kann sich als schleichend steigender Blutzucker zeigen." },
-        { code: "SX8", text: "Innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt, lässt die sexuelle Acht sich auch auf echten Genuss ein. Dort findet sie Entlastung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre Wachsamkeit gilt in der intensiven Beziehung, der sie sich hingibt, oft ebenso stark der geliebten Person wie sich selbst – ein ständiges Prüfen, ob die Bindung noch sicher ist. Diese doppelte Wachsamkeit kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
       ]},
       { typ: 9, titel: "Ein Signal, das nie wirklich ankommt", varianten: [
-        { code: "SE9", text: "In Routine und Komfort verliert sich die selbsterhaltende Neun so vollständig, dass innere Körpersignale kaum je bewusst registriert werden. Ein schleichend steigender Blutzucker kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
+        { code: "SE9", text: "Hunger- und Sättigungssignale registriert die selbsterhaltende Neun oft nur beiläufig, so vollständig verliert sie sich in Routine und Komfort. Ein schleichend steigender Blutzucker kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
         { code: "SO9", text: "Die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Sättigungsgefühl gerät dabei aus dem Blick. Diese chronische Selbstzurücknahme kann sich als schleichend steigender Blutzucker zeigen." },
-        { code: "SX9", text: "Die Wahrnehmung der eigenen Gesundheit übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Isst dieser unbedacht, isst die Neun oft ebenso unbedacht mit, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
+        { code: "SX9", text: "Wie viel und wie bewusst der Partner isst, prägt bei der sexuellen Neun oft auch ihr eigenes Essverhalten, sobald sie mit ihm verschmilzt. Isst dieser unbedacht, isst die Neun oft ebenso unbedacht mit, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
       ]},
     ],
     abschluss: "Keine Zellen sind vor Insulinresistenz gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit angebotener, aber nicht angenommener Süße auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, rastlose Suche oder ein chronisch übergangenes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
@@ -99376,42 +99376,42 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Eine Stimme, die sich selbst zügelt", varianten: [
         { code: "SE1", text: "Ihre spontanen Impulse zügelt die selbsterhaltende Eins ständig zugunsten von Disziplin und Kontrolle, echte Lebendigkeit wird selten frei gelassen. Diese permanente Selbstbremsung kann sich stoffwechselseitig als verlangsamte Schilddrüsenfunktion zeigen." },
         { code: "SO1", text: "Ihre eigentliche Meinung über Fehlverhalten hält die soziale Eins oft zurück, um die eigene Fassung nicht zu gefährden. Dieses jahrelange Zügeln der eigenen Stimme kann sich als schleichend nachlassende Energie und Antriebslosigkeit zeigen." },
-        { code: "SX1", text: "Ihre Meinung spricht die sexuelle Eins meist unmittelbar aus, statt sie zurückzuhalten. Dieser direktere Ausdruck steht der generellen Selbstbremsung anderer Einser-Varianten deutlich entgegen." },
+        { code: "SX1", text: "Ihre Meinung äußert die sexuelle Eins meist im selben Moment, in dem sie entsteht, statt sie zurückzuhalten. Dieser direktere Ausdruck steht der generellen Selbstbremsung anderer Einser-Varianten deutlich entgegen." },
       ]},
       { typ: 2, titel: "Ein Antrieb, der sich selbst zurücknimmt", varianten: [
         { code: "SE2", text: "Ihre eigenen Bedürfnisse nimmt die selbsterhaltende Zwei konsequent zurück, um für andere da sein zu können. Dieses chronische Sich-selbst-Zurücknehmen kann sich stoffwechselseitig als gedrosselte Schilddrüsenfunktion zeigen." },
-        { code: "SO2", text: "Ihre eigene Erschöpfung übergeht die soziale Zwei zugunsten des Einsatzes für die Gruppe immer wieder, bis die eigenen Ressourcen spürbar knapp werden. Dieser jahrelange Substanzabfluss kann sich als schleichende Antriebslosigkeit zeigen." },
+        { code: "SO2", text: "Zugunsten ihres Einsatzes für andere schiebt die soziale Zwei die eigene Erschöpfung immer wieder beiseite, bis die eigenen Ressourcen spürbar knapp werden. Dieser jahrelange Substanzabfluss kann sich als schleichende Antriebslosigkeit zeigen." },
         { code: "SX2", text: "In der einen wichtigen Beziehung fordert die sexuelle Zwei durchaus auch Zuwendung für sich selbst ein, statt sich nur zurückzunehmen. Dieses aktivere Einfordern kann dem chronischen Substanzabfluss anderer Zweier-Varianten entgegenwirken." },
       ]},
       { typ: 3, titel: "Ein Tempo, das plötzlich versiegt", varianten: [
         { code: "SE3", text: "Ihr Tempo hält die selbsterhaltende Drei über Jahre ohne echte Pausen durch, bis der Körper irgendwann selbst die Bremse zieht. Dieser plötzliche Einbruch nach langer Überanstrengung kann sich als Schilddrüsenunterfunktion zeigen." },
         { code: "SO3", text: "Ihr makelloses, dynamisches öffentliches Bild hält die soziale Drei über Jahre aufrecht, bis die Erschöpfung dahinter nicht mehr zu verbergen ist. Eine spürbar nachlassende Energie trifft sie besonders hart, weil sie ihrem Selbstbild widerspricht." },
-        { code: "SX3", text: "Vor der einen wichtigen Person lässt die sexuelle Drei auch Erschöpfung eher zu, statt sie ein Leben lang zu überspielen. Dieses frühere Eingeständnis unterscheidet sich vom über Jahre aufrechterhaltenen Tempo anderer Dreier-Varianten." },
+        { code: "SX3", text: "Erschöpfung darf bei der sexuellen Drei durchaus sichtbar werden, wenn auch nur vor der einen wichtigen Person, statt ein Leben lang verborgen zu bleiben. Dieses frühere Eingeständnis unterscheidet sich von der über Jahre aufrechterhaltenen Fassade anderer Dreier-Varianten." },
       ]},
       { typ: 4, titel: "Ein Ausdruck, der verstummt", varianten: [
-        { code: "SE4", text: "Ihren tiefen inneren Schmerz verschließt die selbsterhaltende Vier, der Kontratyp, still in sich, ohne ihm je eine Stimme zu geben. Dieses lange Verstummen kann sich stoffwechselseitig als gedrosselte Schilddrüsenfunktion zeigen." },
-        { code: "SO4", text: "Ihren Schmerz spricht die soziale Vier meist offen aus, statt ihn zu verschweigen. Dieser fortlaufende Ausdruck kann dem stillen Verstummen entgegenwirken, das für andere Vierer-Varianten typischer ist." },
-        { code: "SX4", text: "Mit großer Intensität lebt die sexuelle Vier ihre emotionalen Ausschläge offen aus, statt sie zu verschließen. Dieser dramatische, hörbare Ausdruck steht dem stillen Verstummen der selbsterhaltenden Variante deutlich entgegen." },
+        { code: "SE4", text: "Ihren tiefen, nie ausgesprochenen Schmerz behält die selbsterhaltende Vier, der Kontratyp, konsequent für sich, ohne ihn je in Worte zu fassen. Diese über Jahre verschlossene Stimme kann sich als schleichend nachlassende Energie und Antriebslosigkeit zeigen." },
+        { code: "SO4", text: "Ihr Schmerz gilt in der Gruppe der sozialen Vier oft als ihr bekanntestes Thema, fast schon als Markenzeichen. Diese öffentliche Rolle als Leidende kann paradoxerweise verhindern, dass sie selbst noch offen für eine echte Linderung bleibt." },
+        { code: "SX4", text: "Ihre emotionalen Höhen und Tiefen zeigt die sexuelle Vier ungefiltert, während sie geschehen, statt sie zurückzuhalten. Dieser fortlaufende, hörbare Ausdruck steht der generellen Selbstbremsung anderer Vierer-Varianten deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Rückzug, der Wärme fernhält", varianten: [
         { code: "SE5", text: "Ihre Bedürfnisse und ihren Kontakt zur Welt reduziert die selbsterhaltende Fünf konsequent auf ein Minimum. Dieses generelle Herunterfahren kann sich stoffwechselseitig als tatsächlich gedrosselte Körperfunktion zeigen." },
-        { code: "SO5", text: "Ihr Wissen teilt die soziale Fünf bereitwillig, emotionale Wärme hält sie dabei auf sichere Distanz. Diese innere Distanzierung von echter Nähe kann sich als schleichende Antriebslosigkeit zeigen." },
-        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung lässt die sexuelle Fünf echte Wärme und Nähe zu, statt sich generell zurückzuziehen – anders als bei der übrigen Zurückhaltung anderer Fünfer-Varianten." },
+        { code: "SO5", text: "Emotionale Wärme hält die soziale Fünf auf sichere Distanz, während sie ihr Wissen der Gruppe gegenüber freizügig teilt. Diese Asymmetrie zwischen intellektueller Offenheit und gefühlter Zurückhaltung kann sich als schleichende Antriebslosigkeit zeigen." },
+        { code: "SX5", text: "Echte Wärme lässt die sexuelle Fünf durchaus zu, allerdings ausschließlich innerhalb ihrer einen tiefen Verbindung, nicht darüber hinaus. Diese punktuelle Öffnung unterscheidet sich von der generellen Zurückhaltung der übrigen Fünfer-Varianten." },
       ]},
       { typ: 6, titel: "Eine Anspannung, die den Körper erschöpft", varianten: [
-        { code: "SE6", text: "Selten wirklich zur Ruhe kommt das Nervensystem der selbsterhaltenden Sechs, ihre Wachsamkeit begleitet sie durch jeden Tag. Diese über Jahre aufrechterhaltene Anspannung kann den Körper so sehr erschöpfen, dass er sich schließlich selbst drosselt." },
-        { code: "SO6", text: "Loyalität zur Gruppe gibt der sozialen Sechs Halt, ihre eigene Sorge bleibt dabei meist unausgesprochen und ungelindert. Dieser unaufgelöste Dauerstress kann sich als schleichende Schilddrüsenunterfunktion zeigen." },
+        { code: "SE6", text: "Wirkliche Ruhe findet das Nervensystem der selbsterhaltenden Sechs selten, ihr Alltag bleibt von ständiger Wachsamkeit geprägt – auch das Gesicht zeigt diese Daueranspannung. Dieser Zustand zählt zu den zuverlässigsten Auslösern einer chronischen Gesichtsrötung." },
+        { code: "SO6", text: "Halt findet die soziale Sechs vor allem in der Loyalität zur Gruppe, ihre eigene Sorge bleibt dabei meist unausgesprochen. Dieser Zustand chronischer Anspannung zählt zu den zuverlässigsten Auslösern eines Lippenherpes-Rückfalls." },
         { code: "SX6", text: "Statt stiller Dauerspannung begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit unmittelbarer Konfrontation. Diese nach außen gerichtete Entladung kann die chronische Erschöpfung senken, die bei anderen Sechser-Varianten eher bestehen bleibt." },
       ]},
       { typ: 7, titel: "Eine Rastlosigkeit, die plötzlich einbricht", varianten: [
-        { code: "SE7", text: "Von einer angenehmen Aktivität zur nächsten springt die selbsterhaltende Sieben, ohne echte Ruhephasen einzulegen. Wenn diese permanente Betriebsamkeit den Körper erschöpft, kann sich das als plötzlich einbrechende Antriebslosigkeit zeigen." },
-        { code: "SO7", text: "Die eigenen Grenzen übergeht die soziale Sieben, der Kontratyp, zugunsten der Gruppe immer wieder, bis zur eigenen Erschöpfung. Dieses chronische Übergehen kann sich als schleichende Schilddrüsenunterfunktion zeigen." },
+        { code: "SE7", text: "Erschöpfung wird von der selbsterhaltenden Sieben reflexhaft mit der nächsten angenehmen Aktivität überspielt, statt ihr nachzugehen. Diese chronische Vermeidung von Ruhe kann sich im Alter als Gürtelrose zeigen." },
+        { code: "SO7", text: "Bis zur eigenen Erschöpfung stellt die soziale Sieben, der Kontratyp, ihre Grenzen immer wieder hinter das Wohl der Gruppe zurück. Diese über Jahre wiederholte Selbstüberforderung kann sich als schmerzhafter Ausschlag entlang eines Nervs zeigen." },
         { code: "SX7", text: "Mit voller, ungebremster Begeisterung verweilt die sexuelle Sieben durchaus auch einmal wirklich bei einer Erfahrung, statt ständig weiterzuspringen. Dieses Innehalten unterscheidet sich von der rastlosen Betriebsamkeit anderer Siebener-Varianten." },
       ]},
       { typ: 8, titel: "Eine Kraft, die sich selbst erschöpft", varianten: [
-        { code: "SE8", text: "Über ihren Körper und ihre Ressourcen beansprucht die selbsterhaltende Acht konsequente Kontrolle, echte Erholung gesteht sie sich dabei selten zu. Diese permanente Kraftanstrengung kann den Körper so sehr auszehren, dass er sich schließlich selbst drosselt." },
+        { code: "SE8", text: "Kontrolle über Körper und Ressourcen beansprucht die selbsterhaltende Acht mit großer Konsequenz, echte Erholung wird ihr dabei selten wirklich zugestanden. Diese permanente Kraftanstrengung kann den Körper so sehr auszehren, dass er sich schließlich selbst drosselt." },
         { code: "SO8", text: "Ihre Beschützerrolle verlangt von der sozialen Acht durchgehend Stärke und Kontrolle im Dienst der Gruppe, eigene Erschöpfung tritt dabei zurück. Diese permanente Führungsspannung kann sich als schleichende Schilddrüsenunterfunktion zeigen." },
-        { code: "SX8", text: "Auf Erholung und Verletzlichkeit lässt sich die sexuelle Acht durchaus ein – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie echte Regeneration, anders als bei der generellen Dauerbeanspruchung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre Stimme richtet die sexuelle Acht in erster Linie an die eine Person, der sie vollständig vertraut, seltener an eine größere Gruppe. Bleibt genau diese eine Person das einzige echte Gegenüber, kann sich der innere Selbstangriff trotz dieses begrenzten Sprechens fortsetzen." },
       ]},
       { typ: 9, titel: "Ein Antrieb, der nie bewusst wahrgenommen wird", varianten: [
         { code: "SE9", text: "Ihr eigener Antrieb dringt bei der selbsterhaltenden Neun kaum je ins Bewusstsein, so vollständig verliert sie sich in Routine und Komfort. Eine schleichende Schilddrüsenunterfunktion kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
@@ -99439,7 +99439,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 2, titel: "Eine Unruhe, die keine Pause kennt", varianten: [
         { code: "SE2", text: "Ohne innezuhalten sorgt die selbsterhaltende Zwei fortlaufend für andere, echte Ruhe gönnt sie sich dabei kaum. Dieses ständige Auf-Trab-Sein kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
-        { code: "SO2", text: "Unentbehrlich zu bleiben treibt die soziale Zwei in einem fort an, ihr Nervensystem findet selten echte Entspannung. Dieser andauernde innere Antrieb kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SO2", text: "Ohne echte Erholung zu finden, treibt das Bestreben, unentbehrlich zu bleiben, die soziale Zwei kontinuierlich an. Dieser andauernde innere Antrieb kann sich als Schilddrüsenüberfunktion zeigen." },
         { code: "SX2", text: "In der einen wichtigen Beziehung erlaubt sich die sexuelle Zwei durchaus auch Ruhephasen, statt sich ununterbrochen zu verausgaben. Diese bewusste Erholung kann dem permanenten Antrieb anderer Zweier-Varianten entgegenwirken." },
       ]},
       { typ: 3, titel: "Ein Tempo, das keine Bremse kennt", varianten: [
@@ -99448,33 +99448,33 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX3", text: "In der einen wichtigen Beziehung lässt sich die sexuelle Drei durchaus auch auf Verlangsamung ein, statt das Tempo ständig hochzuhalten. Diese bewusste Drosselung unterscheidet sich vom rastlosen Tempo anderer Dreier-Varianten." },
       ]},
       { typ: 4, titel: "Eine Intensität, die sich nicht beruhigt", varianten: [
-        { code: "SE4", text: "Ihre innere Intensität hält die selbsterhaltende Vier, der Kontratyp, ohne Ausdruck unter Hochspannung, ohne ihr je ein Ventil zu geben. Dieser permanente innere Sog kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
-        { code: "SO4", text: "Ihre innere Bewegtheit spricht die soziale Vier offen aus, statt sie unter Spannung zu halten. Dieser Ausdruck kann der permanenten inneren Hochspannung entgegenwirken, die für andere Vierer-Varianten typischer ist." },
-        { code: "SX4", text: "Mit voller Wucht lebt die sexuelle Vier ihre emotionale Erregung im direkten Kontakt aus. Dieser offene, punktuelle Ausdruck steht der dauerhaften, unausgedrückten inneren Hochspannung der selbsterhaltenden Variante entgegen." },
+        { code: "SE4", text: "Ohne ihr je ein Ventil zu geben, hält die selbsterhaltende Vier, der Kontratyp, ihre innere Intensität dauerhaft unter Hochspannung. Dieser permanente innere Sog kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SO4", text: "Ihre innere Bewegtheit trägt die soziale Vier gern dramatisch nach außen, oft schneller, als sie sie selbst wirklich verarbeitet hat. Dieses beschleunigte Zurschaustellen kann die zugrunde liegende Erregung eher anheizen als tatsächlich entladen." },
+        { code: "SX4", text: "Im direkten Kontakt entlädt sich die emotionale Erregung der sexuellen Vier mit voller Wucht, unmittelbar und ungebremst. Dieser offene, punktuelle Ausdruck steht der dauerhaften, unausgedrückten inneren Hochspannung der selbsterhaltenden Variante entgegen." },
       ]},
       { typ: 5, titel: "Eine Alarmbereitschaft hinter äußerer Ruhe", varianten: [
-        { code: "SE5", text: "Nach außen wirkt die selbsterhaltende Fünf meist gefasst, innerlich bleibt ihr Nervensystem jedoch oft in stiller Alarmbereitschaft gegenüber der Welt. Diese verborgene Daueranspannung kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SE5", text: "Innerlich bleibt das Nervensystem der selbsterhaltenden Fünf oft in stiller Alarmbereitschaft, auch wenn sie nach außen gefasst wirkt. Diese verborgene Daueranspannung kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
         { code: "SO5", text: "Sachlich und kontrolliert wirkt die soziale Fünf in Diskussionen, während innerlich eine ständige Wachsamkeit mitläuft. Dieser innere Widerspruch kann sich als Schilddrüsenüberfunktion zeigen." },
-        { code: "SX5", text: "Innerhalb ihrer einen tiefen, geschützten Verbindung kann die sexuelle Fünf ihre Alarmbereitschaft ablegen und sich wirklich entspannen – anders als bei der generellen inneren Wachsamkeit der übrigen Fünfer-Varianten." },
+        { code: "SX5", text: "Arousal und Anspannung offen zeigen kann die sexuelle Fünf durchaus, aber nur innerhalb ihrer einen tiefen, geschützten Verbindung, nicht darüber hinaus. Anders als bei der generellen Reserve der übrigen Fünfer-Varianten." },
       ]},
       { typ: 6, titel: "Ein Alarmsystem, das nie abschaltet", varianten: [
-        { code: "SE6", text: "Wachsamkeit gegenüber möglichen Gefahren begleitet die selbsterhaltende Sechs durch jeden Tag, ihr Nervensystem bleibt dauerhaft in Bereitschaft. Dieser Zustand ist psychosomatisch geradezu das Lehrbuchbild für eine sich aufschaukelnde Schilddrüsenüberfunktion." },
-        { code: "SO6", text: "Ihre Sorge um das Wohlergehen der Gruppe hält die soziale Sechs innerlich fortlaufend beschäftigt, auch wenn keine akute Bedrohung vorliegt. Diese diffuse, kollektiv getragene Anspannung kann sich als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SE6", text: "Durch jeden Tag begleitet Wachsamkeit gegenüber möglichen Gefahren die selbsterhaltende Sechs, ihr Nervensystem bleibt dauerhaft in Bereitschaft. Dieser Zustand ist psychosomatisch geradezu das Lehrbuchbild für eine sich aufschaukelnde Schilddrüsenüberfunktion." },
+        { code: "SO6", text: "Selbst wenn keine akute Bedrohung vorliegt, hält die Sorge um das Wohlergehen der Gruppe die soziale Sechs innerlich fortlaufend beschäftigt. Diese diffuse, kollektiv getragene Anspannung kann sich als beschleunigte Schilddrüsenfunktion zeigen." },
         { code: "SX6", text: "Statt dauerhafter innerer Alarmbereitschaft begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit demonstrativer Furchtlosigkeit. Diese nach außen gerichtete Kompensation kann die innere Daueranspannung senken, die bei anderen Sechser-Varianten eher bestehen bleibt." },
       ]},
       { typ: 7, titel: "Eine Rastlosigkeit, die den Körper erhitzt", varianten: [
         { code: "SE7", text: "In ständiger Erregung und Bewegung bleibt der Körper der selbsterhaltenden Sieben, die von einer angenehmen Aktivität zur nächsten springt. Diese permanente Betriebsamkeit ohne echte Ruhephasen kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
-        { code: "SO7", text: "Zugunsten der Gruppe stellt die soziale Sieben, der Kontratyp, ihre eigenen Grenzen immer wieder zurück, ihr System bleibt dabei dauerhaft überdreht. Dieses chronische Übergehen kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SO7", text: "Ihr System bleibt dauerhaft überdreht, weil die soziale Sieben, der Kontratyp, ihre eigenen Grenzen zugunsten der Gruppe immer wieder zurückstellt. Dieses chronische Übergehen kann sich als Schilddrüsenüberfunktion zeigen." },
         { code: "SX7", text: "Mit voller, aber punktueller Intensität lässt sich die sexuelle Sieben auf einzelne intensive Erfahrungen ein, statt in Dauererregung zu verharren. Dieses Innehalten zwischen den Erfahrungen unterscheidet sich von der permanenten Betriebsamkeit anderer Siebener-Varianten." },
       ]},
       { typ: 8, titel: "Eine Kraft, die sich selbst überhitzt", varianten: [
         { code: "SE8", text: "Ohne echte Drosselung kostet ständige Wachsamkeit über Körper und Umgebung die selbsterhaltende Acht kontinuierlich Energie. Diese permanente innere Hochspannung kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
-        { code: "SO8", text: "Stärke nach außen zu demonstrieren gehört für die soziale Acht zur selbst auferlegten Beschützerrolle, ein Innehalten kommt darin selten vor. Diese permanente Führungsspannung kann sich als Schilddrüsenüberfunktion zeigen." },
-        { code: "SX8", text: "Ihre Anspannung tatsächlich lösen und zur Ruhe kommen kann die sexuelle Acht durchaus – allerdings innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie echte Entlastung, anders als bei der generellen Dauerspannung der übrigen Achter-Varianten." },
+        { code: "SO8", text: "Ein Innehalten kommt in der selbst auferlegten Beschützerrolle der sozialen Acht kaum vor, Stärke nach außen zu demonstrieren gehört fest dazu. Diese permanente Führungsspannung kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SX8", text: "Genuss erlaubt sich die sexuelle Acht am ehesten dort, wo sie zugleich die Kontrolle über die Situation behält – meist innerhalb der einen Bindung, die sie selbst mitgestaltet. Außerhalb dieses vertrauten Rahmens bleibt echte Entspannung für sie eher die Ausnahme." },
       ]},
       { typ: 9, titel: "Eine Anspannung, die selten bewusst ankommt", varianten: [
-        { code: "SE9", text: "Innere Anspannung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch, so vollständig verliert sie sich in Routine und Komfort. Herzrasen und innere Unruhe können so zum einzigen sichtbaren Hinweis auf eine unbemerkte Schilddrüsenüberfunktion werden." },
-        { code: "SO9", text: "Beständig ordnet die soziale Neun ihre eigene Anspannung der Gruppenharmonie unter, kaum dass ein Konflikt am Horizont auftaucht. Diese chronische Selbstzurücknahme kann sich als beschleunigte, aber lange übersehene Schilddrüsenfunktion zeigen." },
+        { code: "SE9", text: "Kaum bewusst wahrgenommen wird innere Anspannung von der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Herzrasen und innere Unruhe können so zum einzigen sichtbaren Hinweis auf eine unbemerkte Schilddrüsenüberfunktion werden." },
+        { code: "SO9", text: "Sobald sich ein Konflikt andeutet, ordnet die soziale Neun ihre eigene Anspannung der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als beschleunigte, aber lange übersehene Schilddrüsenfunktion zeigen." },
         { code: "SX9", text: "Wie angespannt oder ruhig der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Unruhe nicht, übersieht die Neun ihre eigene innere Alarmbereitschaft häufig ebenfalls." },
       ]},
     ],
@@ -99508,12 +99508,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Ausdruck, der sich gegen sich selbst wendet", varianten: [
         { code: "SE4", text: "Zäh und wortlos hält die selbsterhaltende Vier, der Kontratyp, an ihrem tiefen inneren Schmerz fest, ohne ihm je eine Stimme zu geben. Diese über Jahre verschlossene Stimme kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
-        { code: "SO4", text: "Ihren Schmerz macht die soziale Vier zum Thema, statt ihn zu verschweigen, und spricht offen darüber. Dieser fortlaufende Ausdruck kann dem stillen Selbstangriff entgegenwirken, der bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SO4", text: "Ihren Schmerz spricht die soziale Vier zwar aus, doch richtet sich dieser Ausdruck oft an eine Gruppe, die ihn nur teilweise wirklich hört. Bleibt echtes Gehörtwerden aus, kann sich der innere Selbstangriff trotz allen Redens fortsetzen." },
         { code: "SX4", text: "Ihre emotionalen Ausschläge trägt die sexuelle Vier offen nach außen, statt sie in sich zu verschließen. Dieser dramatische, hörbare Ausdruck steht dem stillen Verschließen der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Ausdruck, der lieber gar nicht erst entsteht", varianten: [
         { code: "SE5", text: "Ihre Gedanken behält die selbsterhaltende Fünf oft lieber für sich, statt sie auszusprechen und damit angreifbar zu machen. Dieses generelle Zurückhalten des eigenen Ausdrucks kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
-        { code: "SO5", text: "Bereitwillig gibt die soziale Fünf ihr Wissen weiter, die eigene emotionale Stimme hält sie dabei auf sichere Distanz. Diese selektive Zurückhaltung kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
+        { code: "SO5", text: "Während sie ihr Wissen großzügig weitergibt, hält die soziale Fünf ihre eigene emotionale Stimme konsequent auf Distanz. Diese selektive Zurückhaltung kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
         { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung spricht die sexuelle Fünf durchaus offen über sich selbst, statt sich generell zurückzuhalten – anders als bei der übrigen Zurückhaltung anderer Fünfer-Varianten." },
       ]},
       { typ: 6, titel: "Eine Sorge, die nie ausgesprochen wird", varianten: [
@@ -99522,19 +99522,19 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX6", text: "Statt stummer Sorge begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit direkter, hörbarer Konfrontation. Diese nach außen gerichtete Entladung unterscheidet sich vom verschwiegenen Alarm anderer Sechser-Varianten." },
       ]},
       { typ: 7, titel: "Ein Unbehagen, das übertönt wird", varianten: [
-        { code: "SE7", text: "Von einer angenehmen Ablenkung zur nächsten springt die selbsterhaltende Sieben, sobald ein unangenehmes Gefühl aufkommt, statt es auszusprechen. Dieses ständige Übertönen des eigenen Unbehagens kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SE7", text: "Sobald ein unangenehmes Gefühl aufkommt, sucht die selbsterhaltende Sieben reflexhaft die nächste angenehme Ablenkung. Dieses ständige Übertönen des eigenen Unbehagens kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
         { code: "SO7", text: "Die eigenen Grenzen spricht die soziale Sieben, der Kontratyp, selten aus, solange die Gruppe sie noch braucht. Dieses chronische Verschweigen kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
         { code: "SX7", text: "Mit voller Begeisterung spricht die sexuelle Sieben durchaus auch über eigenes Unbehagen, statt es zu übertönen. Dieses Aussprechen unterscheidet sich vom permanenten Ablenken anderer Siebener-Varianten." },
       ]},
       { typ: 8, titel: "Eine Verletzlichkeit, die verschwiegen wird", varianten: [
         { code: "SE8", text: "Schwäche spricht die selbsterhaltende Acht so gut wie nie aus, ihre Kontrolle über Körper und Ressourcen soll unangefochten bleiben. Diese permanente Verweigerung eigener Verletzlichkeit kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
         { code: "SO8", text: "Ihre eigene Erschöpfung spricht die soziale Acht selten aus, im Dienst ihrer selbst auferlegten Beschützerrolle. Dieses jahrelange Verschweigen kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
-        { code: "SX8", text: "Verletzlichkeit offen auszusprechen gelingt der sexuellen Acht durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie echte Entlastung, anders als bei der generellen Verschwiegenheit der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre Stärke stellt die sexuelle Acht der geliebten Person gegenüber selten wirklich infrage, selbst wenn genau dort echte Entlastung möglich wäre. Dieses Festhalten an der eigenen Rolle kann verhindern, dass sich die Verletzlichkeit, die die Bindung eigentlich trägt, körperlich löst." },
       ]},
       { typ: 9, titel: "Eine Stimme, die nie an erster Stelle steht", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigene Stimme der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Ein schleichender Angriff auf die eigene Schilddrüse kann so über Jahre unbemerkt bleiben." },
-        { code: "SO9", text: "Die eigene Stimme ordnet die soziale Neun beständig der Gruppenharmonie unter, kaum dass ein Konflikt am Horizont auftaucht. Diese chronische Selbstzurücknahme kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
-        { code: "SX9", text: "Sobald sie mit dem Partner verschmilzt, macht die sexuelle Neun dessen Wahrnehmung zum Maßstab für die eigene Gesundheit. Bemerkt der Partner die eigenen Warnsignale nicht, übersieht die Neun ihre eigene Stimme oft ebenso lange." },
+        { code: "SO9", text: "Kaum dass ein eigenes Bedürfnis am Horizont auftaucht, ordnet die soziale Neun ihre eigene Stimme der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als ein nie priorisiertes, aber stetig wiederkehrendes Hautproblem zeigen." },
+        { code: "SX9", text: "Ihre eigene Wahrnehmung tritt bei der sexuellen Neun zugunsten der Wahrnehmung des Partners zurück, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigenen Warnsignale nicht, übersieht die Neun ihre eigene Stimme oft ebenso lange." },
       ]},
     ],
     abschluss: "Keine Schilddrüse ist vor Hashimoto gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit dem eigenen Ausdruck und Selbstangriff auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, offenen Ausdruck oder eine chronisch übergangene eigene Stimme. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
@@ -99567,7 +99567,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Leere, die gefüllt werden soll", varianten: [
         { code: "SE4", text: "Ihre tiefe innere Leere versucht die selbsterhaltende Vier, der Kontratyp, mitunter über Essen zu füllen, ohne dass es die zugrunde liegende Sehnsucht wirklich stillt. Dieses wiederkehrende Muster kann sich über Zeit als zusätzliches Gewicht zeigen." },
-        { code: "SO4", text: "Ihre Sehnsucht macht die soziale Vier zum Thema, statt sie über Essen zu betäuben. Dieser Ausdruck kann dem Versuch entgegenwirken, innere Leere körperlich zu füllen, der bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SO4", text: "Ihre Sehnsucht in Worte zu fassen fällt der sozialen Vier leicht, sie damit tatsächlich zu stillen dagegen deutlich schwerer. Das Sprechen darüber kann selbst zu einer Art Ersatzhandlung werden, während die eigentliche Leere unverändert bestehen bleibt." },
         { code: "SX4", text: "Erfüllung sucht die sexuelle Vier im direkten Kontakt zur begehrten Person, mit großer Intensität, statt sie über Essen zu ersetzen. Dieser aktive, zwischenmenschliche Zugang unterscheidet sich von der stillen Selbstfüllung der selbsterhaltenden Variante." },
       ]},
       { typ: 5, titel: "Ein Vorrat gegen eine unsichere Welt", varianten: [
@@ -99588,7 +99588,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Masse, die Stärke demonstriert", varianten: [
         { code: "SE8", text: "Kontrolle über ihre Ressourcen beansprucht die selbsterhaltende Acht mit großer Konsequenz, auch reichlicher Genuss kann Teil dieser selbstbestimmten Kontrolle sein. Körperliche Masse kann für sie unbewusst auch Stärke und Unangreifbarkeit symbolisieren." },
         { code: "SO8", text: "Stärke und Präsenz demonstriert die soziale Acht durchgehend im Dienst ihrer Beschützerrolle, körperliche Größe kann dabei unbewusst zum Ausdruck dieser Stärke werden. Diese Symbolik kann sich als zusätzliches Gewicht zeigen." },
-        { code: "SX8", text: "Ihre Stärke muss die sexuelle Acht nicht körperlich demonstrieren – nicht innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie echte Nähe, anders als bei der generellen Machtdemonstration der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre Wachsamkeit gilt der sexuellen Acht in der intensiven Bindung oft mehr dem Wohl der geliebten Person als dem eigenen – ein Schutzinstinkt, der die eigene Erschöpfung leicht übersieht. Dieses Muster kann sich metabolisch als beginnende Insulinresistenz zeigen." },
       ]},
       { typ: 9, titel: "Ein Körpergefühl, das selten bewusst wird", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen werden Hunger- und Sättigungsgefühl bei der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende Körperwahrnehmung kann sich über Jahre als zusätzliches Gewicht zeigen." },
@@ -99626,7 +99626,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Zu viele Gefühle, die gleichzeitig ungehört bleiben", varianten: [
         { code: "SE4", text: "Ihre Sehnsucht, ihren Schmerz und ihre Erschöpfung trägt die selbsterhaltende Vier, der Kontratyp, alle gleichzeitig unausgesprochen mit sich. Diese gleichzeitige innere Überlastung kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
-        { code: "SO4", text: "Ihre vielschichtigen Gefühle spricht die soziale Vier offen aus, statt sie alle gleichzeitig in sich aufzustauen. Dieser Ausdruck kann der gleichzeitigen Überlastung entgegenwirken, die bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SO4", text: "Über mehrere Kreise ihrer Gruppe verteilt erzählt die soziale Vier verschiedene Facetten ihrer vielschichtigen Gefühle, ohne dass eine dieser Erzählungen wirklich vollständig gehört wird. Diese narrative Zerstreuung kann zur gleichzeitigen Überforderung beitragen, die sie eigentlich lindern sollte." },
         { code: "SX4", text: "Nacheinander und einzeln durchlebt die sexuelle Vier ihre großen emotionalen Ausschläge, statt sie alle gleichzeitig zu tragen. Dieser sequenzielle Ausdruck unterscheidet sich von der gleichzeitigen Überlastung der selbsterhaltenden Variante." },
       ]},
       { typ: 5, titel: "Zu viele Anforderungen, die gleichzeitig eindringen", varianten: [
@@ -99647,7 +99647,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Zu viele Fronten, die gleichzeitig kontrolliert werden", varianten: [
         { code: "SE8", text: "Kontrolle über mehrere Ressourcenbereiche gleichzeitig beansprucht die selbsterhaltende Acht mit großer Konsequenz, echte Erholung findet auf keiner dieser Ebenen statt. Diese gleichzeitige Kraftanstrengung kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
         { code: "SO8", text: "Stärke und Kontrolle demonstriert die soziale Acht gleichzeitig in mehreren Bereichen ihrer Beschützerrolle, eigene Erschöpfung tritt dabei überall zurück. Diese gleichzeitige Führungsspannung kann sich als metabolisches Syndrom zeigen." },
-        { code: "SX8", text: "Ihre Kontrolle konzentriert die sexuelle Acht auf die eine Beziehung, der sie sich mit voller Intensität hingibt, statt sie auf viele Fronten zu verteilen. Diese Fokussierung unterscheidet sich von der gleichzeitigen Dauerbeanspruchung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre Kraft bündelt die sexuelle Acht fast ausschließlich für die eine Bindung, in die sie sich mit voller Intensität hineingibt, andere Lebensbereiche treten dahinter zurück. Diese einseitige Konzentration kann trotzdem zur gleichzeitigen Überforderung mehrerer Systeme beitragen, wenn die Bindung selbst unter Druck gerät." },
       ]},
       { typ: 9, titel: "Zu viele Signale, die gleichzeitig übersehen werden", varianten: [
         { code: "SE9", text: "Mehrere Warnsignale des Körpers bleiben bei der selbsterhaltenden Neun gleichzeitig unbemerkt, so vollständig verliert sie sich in Routine und Komfort. Ein metabolisches Syndrom kann sich so über Jahre auf mehreren Ebenen zugleich unbemerkt entwickeln." },
@@ -99685,7 +99685,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Sehnsucht, die nie ganz zur Welt kommt", varianten: [
         { code: "SE4", text: "Ihre tiefsten kreativen Impulse trägt die selbsterhaltende Vier, der Kontratyp, oft lange in sich, ohne sie je wirklich in die Welt zu bringen. Dieses chronische Zurückhalten der eigenen Kreativität kann sich als PCOS zeigen." },
-        { code: "SO4", text: "Ihre kreativen Ausdrucksformen teilt die soziale Vier offen mit anderen, statt sie zurückzuhalten. Dieser Ausdruck kann dem chronischen Zurückhalten entgegenwirken, das bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SO4", text: "Über ihre kreativen Vorhaben spricht die soziale Vier oft ausführlich, ohne sie deshalb schon tatsächlich abzuschließen und freizugeben. Das Reden über das Werk kann so selbst zu einer Form des Zurückhaltens werden, die der eigentlichen Freigabe im Weg steht." },
         { code: "SX4", text: "Mit voller Intensität lässt die sexuelle Vier ihre kreativen und emotionalen Impulse in der Beziehung frei, statt sie zurückzuhalten. Dieser offene Ausdruck steht dem chronischen Zurückhalten der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Wissen, das nicht ganz freigegeben wird", varianten: [
@@ -99706,7 +99706,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Verletzlichkeit, die nie ganz gezeigt wird", varianten: [
         { code: "SE8", text: "Ihre eigentliche Verletzlichkeit lässt die selbsterhaltende Acht so gut wie nie vollständig zu, Kontrolle über den eigenen Körper bleibt oberstes Gebot. Dieses ständige Zurückhalten kann sich hormonell als gestörte Follikelreifung zeigen." },
         { code: "SO8", text: "Ihre eigentliche Erschöpfung zeigt die soziale Acht selten vollständig, im Dienst ihrer selbst auferlegten Beschützerrolle. Dieses jahrelange Zurückhalten kann sich als PCOS zeigen." },
-        { code: "SX8", text: "Ihre Verletzlichkeit zeigt die sexuelle Acht durchaus vollständig – aber nur innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet echte Freigabe statt, anders als bei der generellen Zurückhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre Verletzlichkeit zeigt die sexuelle Acht der geliebten Person gegenüber durchaus, verlangt dafür aber unausgesprochen absolute Verlässlichkeit zurück. Wird diese Erwartung nicht erfüllt, kann sich die eigentliche Freigabe, die PCOS lindern könnte, wieder verschließen." },
       ]},
       { typ: 9, titel: "Ein eigener Wunsch, der nie ganz reift", varianten: [
         { code: "SE9", text: "Kaum bis zur Reife gelangen eigene Wünsche bei der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende Vollendung kann sich über Jahre als PCOS zeigen." },
@@ -99744,7 +99744,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Trauer, die endlich Raum bekommt", varianten: [
         { code: "SE4", text: "Ihre tiefe Trauer über das, was in dieser Lebensphase endgültig zu Ende geht, trägt die selbsterhaltende Vier, der Kontratyp, oft still in sich. Diese unausgesprochene Trauer kann sich als besonders intensive Wechseljahresbeschwerden zeigen." },
-        { code: "SO4", text: "Ihre Trauer über das Ende dieser Lebensphase spricht die soziale Vier offen aus, statt sie zu verschweigen. Dieser Ausdruck kann der Beschwerdeintensität entgegenwirken, die bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SO4", text: "Ihre Trauer über diese Lebensphase vergleicht die soziale Vier unwillkürlich mit der ihrer Altersgenossinnen – mal fühlt sie sich zu wenig, mal zu sehr betroffen. Dieser ständige innere Abgleich kann die eigentliche Auseinandersetzung mit dem Übergang eher erschweren als erleichtern." },
         { code: "SX4", text: "Mit großer emotionaler Intensität durchlebt die sexuelle Vier diesen Übergang offen und dramatisch, statt ihn still zu verschließen. Dieser offene Ausdruck steht der stillen Trauer der selbsterhaltenden Variante deutlich entgegen." },
       ]},
       { typ: 5, titel: "Ein Übergang, der von außen betrachtet wird", varianten: [
@@ -99765,7 +99765,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Ein Übergang, der Verletzlichkeit erzwingt", varianten: [
         { code: "SE8", text: "Kontrolle über ihren Körper beansprucht die selbsterhaltende Acht mit großer Konsequenz, die hormonelle Eigendynamik dieser Phase entzieht sich dieser Kontrolle jedoch grundlegend. Diese erzwungene Verletzlichkeit kann die Beschwerden verstärken." },
         { code: "SO8", text: "Stärke demonstriert die soziale Acht auch in dieser Übergangsphase durchgehend, echte Verletzlichkeit lässt sie dabei kaum zu. Dieser Widerstand gegen die eigene Wandlung kann sich als intensivere Wechseljahresbeschwerden zeigen." },
-        { code: "SX8", text: "Die Verletzlichkeit dieser Wandlung lässt die sexuelle Acht durchaus zu – aber nur innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie Halt, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Die Wandlung dieser Lebensphase verhandelt die sexuelle Acht am liebsten gemeinsam mit der einen Person, der sie vollständig vertraut, seltener allein oder öffentlich. Fehlt dieses vertraute Gegenüber gerade in dieser Zeit, kann die Auseinandersetzung mit der Wandlung besonders schwerfallen." },
       ]},
       { typ: 9, titel: "Ein Übergang, der leise vorübergeht", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigentliche Bedeutung dieser Lebensphase von der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende bewusste Auseinandersetzung kann die Wechseljahresbeschwerden verlängern." },
@@ -99803,7 +99803,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Gefühl, das sich monatlich Bahn bricht", varianten: [
         { code: "SE4", text: "Über den ganzen Zyklus hinweg trägt die selbsterhaltende Vier, der Kontratyp, ihre Gefühle zäh und stumm mit sich. In der letzten Zykluswoche können diese aufgestauten Gefühle plötzlich mit voller Wucht hervorbrechen." },
-        { code: "SO4", text: "Ihre Gefühle spricht die soziale Vier fortlaufend offen aus, statt sie über den Zyklus aufzustauen. Dieser kontinuierliche Ausdruck kann dem monatlichen Wuchtausbruch entgegenwirken, der bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SO4", text: "In der prämenstruellen Woche kehrt bei der sozialen Vier oft dieselbe altbekannte Erzählung ihrer Gefühle zurück, vor vertrautem Publikum wiederholt. Ob dieses monatliche Nacherzählen wirklich entlastet oder die Anspannung eher am Leben hält, bleibt für sie selbst oft unklar." },
         { code: "SX4", text: "Ihre emotionalen Ausschläge verteilt die sexuelle Vier mit großer Intensität über den ganzen Zyklus, statt sie auf eine Woche zu konzentrieren. Dieser verteilte Ausdruck unterscheidet sich vom monatlichen Rückstau der selbsterhaltenden Variante." },
       ]},
       { typ: 5, titel: "Ein Rückzug, der sich monatlich löst", varianten: [
@@ -99824,11 +99824,11 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle, die sich monatlich lockert", varianten: [
         { code: "SE8", text: "Über den ganzen Zyklus hinweg hält die selbsterhaltende Acht konsequente Kontrolle über Körper und Ressourcen aufrecht. In der letzten Zykluswoche kann sich diese permanente Anspannung plötzlich als spürbare Reizbarkeit zeigen." },
         { code: "SO8", text: "Im Dienst ihrer Beschützerrolle demonstriert die soziale Acht über den ganzen Zyklus hinweg durchgehend Stärke und Kontrolle. In der prämenstruellen Woche kann diese Dauerspannung plötzlich schwerer aufrechtzuerhalten sein." },
-        { code: "SX8", text: "Ihre Anspannung lässt die sexuelle Acht fortlaufend über den Zyklus los – aber nur innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dieses kontinuierliche Loslassen unterscheidet sich vom monatlichen Rückstau der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Ihre Anspannung entlädt die sexuelle Acht am ehesten körperlich, in unmittelbarer Nähe zur geliebten Person, seltener durch Worte allein. Fehlt diese körperliche Nähe gerade in der prämenstruellen Woche, kann sich die Anspannung entsprechend länger halten." },
       ]},
       { typ: 9, titel: "Ein Signal, das sich monatlich meldet", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen werden eigene Bedürfnisse bei der selbsterhaltenden Neun, so vollständig verliert sie sich über den ganzen Zyklus hinweg in Routine und Komfort. In der letzten Zykluswoche kann sich dieses übergangene Bedürfnis plötzlich unübersehbar melden." },
-        { code: "SO9", text: "Der Gruppenharmonie ordnet die soziale Neun ihre eigenen Bedürfnisse über den ganzen Zyklus hinweg beständig unter. In der prämenstruellen Woche kann sich diese angesammelte Selbstzurücknahme plötzlich deutlich zeigen." },
+        { code: "SO9", text: "Kaum tritt ein eigenes Bedürfnis in den Vordergrund, ordnet es die soziale Neun über den ganzen Zyklus hinweg beständig der Gruppenharmonie unter. In der prämenstruellen Woche kann sich diese angesammelte Selbstzurücknahme plötzlich deutlich zeigen." },
         { code: "SX9", text: "Die Wahrnehmung des eigenen Zyklus übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner ihre zunehmende Anspannung nicht, übersieht die Neun sie in der prämenstruellen Woche oft ebenfalls." },
       ]},
     ],
@@ -99862,7 +99862,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Sehnsucht, an die man sich gewöhnt", varianten: [
         { code: "SE4", text: "An ihre eigene, nie gestillte Sehnsucht hat sich die selbsterhaltende Vier, der Kontratyp, über Jahre so gewöhnt, dass sie kaum noch als eigenständiges Gefühl wahrgenommen wird. Diese schleichende Gewöhnung kann sich hormonell als beginnende Insulinresistenz zeigen." },
-        { code: "SO4", text: "Ihre Sehnsucht bleibt für die soziale Vier auch nach Jahren spürbar lebendig, weil sie sie immer wieder ausspricht, statt sich an sie zu gewöhnen. Dieser fortlaufende Ausdruck kann der Abstumpfung entgegenwirken, die bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SO4", text: "Ihre Sehnsucht wiederholt die soziale Vier über die Jahre in immer denselben vertrauten Wendungen, bis selbst das Aussprechen zur Routine wird, die kaum noch berührt. Diese Gewöhnung an die eigene Erzählung kann sich hormonell als beginnende Insulinresistenz zeigen." },
         { code: "SX4", text: "Mit unverminderter Intensität lebt die sexuelle Vier ihre Sehnsucht auch nach Jahren aus, statt sich an sie zu gewöhnen. Diese anhaltende Wachheit unterscheidet sich von der schleichenden Gewöhnung der selbsterhaltenden Variante." },
       ]},
       { typ: 5, titel: "Ein Rückzug, an den man sich gewöhnt", varianten: [
@@ -99883,7 +99883,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Härte, an die man sich gewöhnt", varianten: [
         { code: "SE8", text: "An ihre eigene permanente Kontrollhaltung hat sich die selbsterhaltende Acht so gewöhnt, dass sie deren Kraftaufwand kaum noch registriert. Diese schleichende Gewöhnung kann sich hormonell als beginnende Insulinresistenz zeigen." },
         { code: "SO8", text: "An das dauerhafte Zurückstellen eigener Erschöpfung hat sich die soziale Acht so gewöhnt, dass sie diese kaum noch wahrnimmt. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
-        { code: "SX8", text: "Für die eigene Erschöpfung wach zu bleiben, statt sich an sie zu gewöhnen, gelingt der sexuellen Acht durchaus – aber nur innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Diese anhaltende Sensibilität unterscheidet sich von der generellen Abstumpfung der übrigen Achter-Varianten." },
+        { code: "SX8", text: "Für die Erschöpfung der geliebten Person bleibt die sexuelle Acht in der einen intensiven Bindung oft wacher als für ihre eigene. Diese nach außen gerichtete Aufmerksamkeit kann dazu beitragen, dass die eigene, schleichende Gewöhnung an innere Warnsignale besonders lange unbemerkt bleibt." },
       ]},
       { typ: 9, titel: "Eine Selbstvergessenheit, an die man sich gewöhnt", varianten: [
         { code: "SE9", text: "An ihr eigenes Verlorensein in Routine und Komfort hat sich die selbsterhaltende Neun so vollständig gewöhnt, dass ihr diese Selbstvergessenheit selbst nicht mehr auffällt. Diese besonders tiefe Gewöhnung kann sich hormonell als lange unbemerkte Insulinresistenz zeigen." },
