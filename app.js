@@ -99657,6 +99657,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Stoffwechsel ist vor gleichzeitiger Überforderung mehrerer Systeme gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit Belastung auf vielen Ebenen zugleich auf seine eigene Weise umgeht – manche über Kontrolle, andere über Fokussierung, gleichzeitige Zerstreuung oder ein chronisch übergangenes eigenes Warnsignal. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  pcos: {
+    titel: "PCOS (Polyzystisches Ovarialsyndrom)",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🌙",
+    kurz: "Follikel reifen heran, werden aber nicht losgelassen – ein monatlicher Zyklus, der immer wieder an derselben Stelle steckenbleibt.",
+    definition: "PCOS ist eine der häufigsten hormonellen Störungen bei Frauen im gebärfähigen Alter und beruht auf einem Zusammenspiel aus erhöhten männlichen Hormonspiegeln (Androgenen), einer oft begleitenden Insulinresistenz und einer gestörten Reifung der Eibläschen (Follikel) in den Eierstöcken. Statt dass ein Follikel pro Zyklus vollständig heranreift und beim Eisprung freigesetzt wird, bleiben bei PCOS mehrere Follikel unreif in den Eierstöcken zurück – im Ultraschall sichtbar als perlschnurartig angeordnete kleine Zysten. Die Folge ist häufig ein unregelmäßiger oder ganz ausbleibender Eisprung, was sich in unregelmäßigen oder fehlenden Regelblutungen, Fruchtbarkeitsproblemen und, durch die erhöhten Androgenspiegel, auch in vermehrter Körper- und Gesichtsbehaarung, Akne und Haarausfall zeigen kann. PCOS ist damit weniger eine einzelne Störung als ein Zyklus, der immer wieder an derselben Stelle – kurz vor der eigentlichen Freisetzung – ins Stocken gerät.",
+    symptome: ["Unregelmäßige oder ausbleibende Regelblutungen", "Vermehrte Körper- und Gesichtsbehaarung (Hirsutismus)", "Akne und fettige Haut durch erhöhte Androgenspiegel", "Ungewollte Gewichtszunahme, häufig begleitet von Insulinresistenz", "Kinderwunschprobleme durch ausbleibenden Eisprung", "Diffuser Haarausfall am Kopf trotz vermehrter Körperbehaarung"],
+    notfall: "Kein akuter Notfall. Bei starken, anhaltenden Unterbauchschmerzen (Verdacht auf eine Zystenruptur oder Stieldrehung) zeitnah ärztlich abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "PCOS erzählt eine besondere Geschichte des Zyklus: Etwas reift heran, wird vorbereitet, kommt der Freisetzung nahe – und wird dann doch nicht losgelassen. Statt eines vollendeten monatlichen Rhythmus aus Aufbau und Freigabe entstehen mehrere unreife, zurückgehaltene Ansätze. In der TCM wird PCOS häufig mit einer Kombination aus Nieren-Yang-Schwäche und angesammelter &bdquo;Feuchtigkeit und Schleim&ldquo; verbunden – Substanzen, die sich stauen, statt sich in einem geregelten Rhythmus zu bewegen. Psychosomatisch liegt bei PCOS eine Deutung nahe, die sich um das Thema des Loslassens dreht: um Potenzial, Kreativität oder ein inneres Reifen, das sich vorbereitet, aber aus Kontrolle, Angst oder äußerem Druck nicht vollständig zur Entfaltung und Freigabe kommt. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, was hier heranreift, aber nicht losgelassen wird.",
+    typen: [
+      { typ: 1, titel: "Eine Reifung, die perfekt sein muss, bevor sie freigegeben wird", varianten: [
+        { code: "SE1", text: "Bevor sie etwas nach außen gibt, will die selbsterhaltende Eins es bis zur Perfektion durchdenken – lieber hält sie zurück, als etwas Unfertiges freizugeben. Dieses Zurückhalten bis zur vermeintlichen Perfektion kann sich hormonell als gestörte Follikelreifung zeigen." },
+        { code: "SO1", text: "Ihre Ideen und Projekte prüft die soziale Eins gründlich auf moralische Korrektheit, bevor sie sie freigibt – oft so gründlich, dass die Freigabe selbst ausbleibt. Dieses ständige Zurückhalten kann sich als PCOS zeigen." },
+        { code: "SX1", text: "Ihre Impulse setzt die sexuelle Eins unmittelbarer in Handlung um, statt sie endlos zu prüfen. Dieser direktere Zugang zur Freigabe unterscheidet sich vom ständigen Zurückhalten anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Eine Fürsorge, die sich selbst nie freigibt", varianten: [
+        { code: "SE2", text: "Ihre eigenen kreativen oder persönlichen Vorhaben stellt die selbsterhaltende Zwei immer wieder hinter die Bedürfnisse anderer zurück, ohne sie je wirklich zu verfolgen. Dieses chronische Zurückhalten des eigenen Reifeprozesses kann sich als PCOS zeigen." },
+        { code: "SO2", text: "Ihre eigenen Wünsche gibt die soziale Zwei selten wirklich frei, solange die Gruppe sie noch braucht. Dieses jahrelange Zurückstellen kann sich hormonell als gestörte Follikelreifung zeigen." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung verfolgt die sexuelle Zwei ihre eigenen Wünsche durchaus aktiv, statt sie zugunsten anderer zurückzustellen. Dieses aktivere Verfolgen kann dem chronischen Zurückhalten anderer Zweier-Varianten entgegenwirken." },
+      ]},
+      { typ: 3, titel: "Ein Erfolg, der nie ganz losgelassen wird", varianten: [
+        { code: "SE3", text: "An mehreren Projekten gleichzeitig arbeitet die selbsterhaltende Drei, ohne eines davon je wirklich abzuschließen und loszulassen. Dieses ständige Vorbereiten ohne Vollendung kann sich hormonell als gestörte Follikelreifung zeigen." },
+        { code: "SO3", text: "Ihre Erfolge zeigt die soziale Drei erst, wenn sie makellos sind – oft so lange, dass die Präsentation selbst ausbleibt. Dieses ständige Zurückhalten bis zur Perfektion kann sich als PCOS zeigen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person zeigt sich die sexuelle Drei auch mit Unfertigem, statt alles bis zur Perfektion zurückzuhalten. Dieses frühere Zeigen unterscheidet sich vom ständigen Zurückhalten anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Sehnsucht, die nie ganz zur Welt kommt", varianten: [
+        { code: "SE4", text: "Ihre tiefsten kreativen Impulse trägt die selbsterhaltende Vier, der Kontratyp, oft lange in sich, ohne sie je wirklich in die Welt zu bringen. Dieses chronische Zurückhalten der eigenen Kreativität kann sich als PCOS zeigen." },
+        { code: "SO4", text: "Ihre kreativen Ausdrucksformen teilt die soziale Vier offen mit anderen, statt sie zurückzuhalten. Dieser Ausdruck kann dem chronischen Zurückhalten entgegenwirken, das bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SX4", text: "Mit voller Intensität lässt die sexuelle Vier ihre kreativen und emotionalen Impulse in der Beziehung frei, statt sie zurückzuhalten. Dieser offene Ausdruck steht dem chronischen Zurückhalten der selbsterhaltenden Variante deutlich entgegen." },
+      ]},
+      { typ: 5, titel: "Ein Wissen, das nicht ganz freigegeben wird", varianten: [
+        { code: "SE5", text: "Ihre eigenen Erkenntnisse und Ideen behält die selbsterhaltende Fünf oft für sich, statt sie vollständig mit der Welt zu teilen. Dieses generelle Zurückhalten kann sich hormonell als gestörte Follikelreifung zeigen." },
+        { code: "SO5", text: "Mit der Gruppe teilt die soziale Fünf ihr Wissen, die eigenen tieferen persönlichen Reifungsprozesse hält sie dabei zurück. Diese selektive Freigabe kann sich als PCOS zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung gibt die sexuelle Fünf sich vollständiger preis, statt generell zurückzuhalten – anders als bei der übrigen Zurückhaltung anderer Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine Entscheidung, die nie ganz gefällt wird", varianten: [
+        { code: "SE6", text: "Bevor sie eine Entscheidung wirklich trifft, wägt die selbsterhaltende Sechs so lange ab, dass die eigentliche Entscheidung oft ausbleibt. Dieses ständige Abwägen ohne Vollendung kann sich hormonell als gestörte Follikelreifung zeigen." },
+        { code: "SO6", text: "Ihre eigene Meinung hält die soziale Sechs oft zurück, bis die Gruppe eine klare Richtung vorgibt. Dieses ständige Zurückhalten der eigenen Position kann sich als PCOS zeigen." },
+        { code: "SX6", text: "Statt endlosem Abwägen begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit schneller, unmittelbarer Entscheidung. Diese direktere Entschlossenheit unterscheidet sich vom ständigen Zurückhalten anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Eine Fülle, die sich nie ganz entlädt", varianten: [
+        { code: "SE7", text: "Mehrere Möglichkeiten hält sich die selbsterhaltende Sieben gleichzeitig offen, ohne sich je vollständig auf eine festzulegen und sie auszuschöpfen. Dieses ständige Offenhalten ohne Vollendung kann sich hormonell als gestörte Follikelreifung zeigen." },
+        { code: "SO7", text: "Ihre eigenen Wünsche stellt die soziale Sieben, der Kontratyp, im Dienst der Gruppe immer wieder zurück, statt sie zu verfolgen. Dieses chronische Zurückhalten kann sich als PCOS zeigen." },
+        { code: "SX7", text: "Mit voller, fokussierter Intensität schöpft die sexuelle Sieben einzelne Erfahrungen tatsächlich aus, statt sie nur anzureißen. Dieses Ausschöpfen unterscheidet sich vom ständigen Offenhalten anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Verletzlichkeit, die nie ganz gezeigt wird", varianten: [
+        { code: "SE8", text: "Ihre eigentliche Verletzlichkeit lässt die selbsterhaltende Acht so gut wie nie vollständig zu, Kontrolle über den eigenen Körper bleibt oberstes Gebot. Dieses ständige Zurückhalten kann sich hormonell als gestörte Follikelreifung zeigen." },
+        { code: "SO8", text: "Ihre eigentliche Erschöpfung zeigt die soziale Acht selten vollständig, im Dienst ihrer selbst auferlegten Beschützerrolle. Dieses jahrelange Zurückhalten kann sich als PCOS zeigen." },
+        { code: "SX8", text: "Ihre Verletzlichkeit zeigt die sexuelle Acht durchaus vollständig – aber nur innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet echte Freigabe statt, anders als bei der generellen Zurückhaltung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein eigener Wunsch, der nie ganz reift", varianten: [
+        { code: "SE9", text: "Kaum bis zur Reife gelangen eigene Wünsche bei der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende Vollendung kann sich über Jahre als PCOS zeigen." },
+        { code: "SO9", text: "Ihre eigenen Wünsche ordnet die soziale Neun beständig der Gruppenharmonie unter, ohne sie je vollständig zu verfolgen. Diese chronische Selbstzurücknahme kann sich hormonell als gestörte Follikelreifung zeigen." },
+        { code: "SX9", text: "Ihre eigenen Wünsche übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt, statt sie selbst zur Reife zu bringen. Verfolgt der Partner seine Wünsche nicht, verfolgt die Neun ihre eigenen oft ebenso wenig." },
+      ]},
+    ],
+    abschluss: "Kein Zyklus ist vor PCOS gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit Reifung und Loslassen auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, offenen Ausdruck oder ein chronisch zurückgehaltenes eigenes Potenzial. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99670,7 +99729,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
