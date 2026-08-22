@@ -65119,12 +65119,779 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No cells are immune to insulin resistance, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes grows accustomed to certain inner signals in its own way – some through control, others through ongoing alertness, withdrawal, or a gradually numbed perception of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
+  migraene: {
+    titel: "Migraine",
+    kategorie: "nerven-psyche",
+    icon: "⚡",
+    kurz: "A head that pulls the emergency brake – with a pain that forces every further processing of stimuli to a halt for hours.",
+    definition: "Migraine is a neurological condition marked by attacks of usually one-sided, throbbing headache, often accompanied by nausea, vomiting, and a pronounced sensitivity to light, sound, and smell. In some sufferers the attack is preceded by an aura – temporary visual, speech, or sensory disturbances caused by a brief wave of altered electrical activity in the brain. Triggers vary widely from person to person, ranging from sleep deprivation, stress or the sudden easing of stress, hormonal fluctuations, and certain foods to changes in weather. The exact mechanism is not yet fully understood, but is considered an interplay of genetic predisposition and an oversensitive processing of stimuli in the brain that, when overloaded, essentially pulls the ripcord.",
+    symptome: ["Usually one-sided, throbbing to pounding headache", "Intensifies with physical activity", "Nausea and vomiting", "Sensitivity to light, sound, and smell", "In some sufferers, a preceding aura (visual disturbances, tingling)", "A need to withdraw into a dark, quiet room", "Attack duration from several hours up to three days"],
+    notfall: "Call emergency services immediately for a sudden, never-before-experienced thunderclap headache, fever, neck stiffness, paralysis, or clouded consciousness – these can indicate another, acutely dangerous cause.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Migraine forces a standstill where willpower alone cannot – a stimulus-processing system that eventually pulls its own emergency brake because too much is being asked of it at once. In TCM, this attack-like headache pattern, often paired with nausea, is frequently attributed to rising Liver Yang or Liver Fire – pent-up energy that discharges explosively upward once it has been suppressed for too long. Psychosomatically, migraine often reads as the image of a head asked to carry, control, or process too much at once, until it finally shuts itself down to force some rest. Each of the 27 subtypes shows its own pattern of which overload here pulls the emergency brake.",
+    typen: [
+      { typ: 1, titel: "A head that never gets a break", varianten: [
+        { code: "SE1", text: "The self-preservation One conscientiously checks every detail of daily life before letting it pass as correct. This constant fine-tuning in the head can discharge as a migraine attack once the tension reaches its peak." },
+        { code: "SO1", text: "As a role model for others, the social One keeps a high inner standard continuously in place, never falling short of it herself. When outer circumstances call this standard into question, the pent-up tension can release as a throbbing migraine attack." },
+        { code: "SX1", text: "Anger over injustice erupts immediately and audibly in the sexual One, rather than building up inside. This direct outward discharge sets her apart from the quiet, ongoing tension of the other One variants." },
+      ]},
+      { typ: 2, titel: "A head that wants to disappoint no one", varianten: [
+        { code: "SE2", text: "The self-preservation Two prefers to voice wishes so casually and charmingly that no one experiences them as a demand – a constant calculation running in the background. This ongoing calculation can discharge as a migraine attack once too many wishes remain open at the same time." },
+        { code: "SO2", text: "Across countless contacts, the social Two keeps constant track of who currently needs which kind of support. This continual social bookkeeping in the head can show up as a migraine attack when too many threads must be held at once." },
+        { code: "SX2", text: "The sexual Two focuses her whole attention on the one important person, rather than spreading it across many. This bundling relieves the head compared to the broad, ongoing calculation of the other Two variants." },
+      ]},
+      { typ: 3, titel: "A head that never goes offline", varianten: [
+        { code: "SE3", text: "The self-preservation Three plans tasks efficiently down to the last detail, with an inner to-do list constantly running in her head. When this list overflows, the pressure can discharge as a migraine attack." },
+        { code: "SO3", text: "The social Three continually calculates her public image, checking every situation for its outward effect. This constant tracking of her own impression can show up as a throbbing headache." },
+        { code: "SX3", text: "The sexual Three lets her carefully calculated image drop only in front of the one important person, instead of maintaining it constantly. This occasional relief sets her apart from the ongoing calculation of the other Three variants." },
+      ]},
+      { typ: 4, titel: "A head that holds feelings back", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries her pain silently and persistently rather than showing it outwardly. This very quiet endurance can break through physically as a migraine attack." },
+        { code: "SO4", text: "How special and misunderstood she feels often circles for hours in the head of the social Four, without ever resolving. This endless mental circling can discharge as a migraine attack." },
+        { code: "SX4", text: "The sexual Four lives out her intensity directly in the encounter, rather than turning it over in her head. This immediate expression sets her apart from the endless inner circling of the other Four variants." },
+      ]},
+      { typ: 5, titel: "A head that processes too much", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently filters stimuli from the outside world to get by with her limited resources. When this filtering no longer suffices, the head can pull its own ripcord with a migraine attack." },
+        { code: "SO5", text: "The social Five works through entire fields of knowledge with great stamina before sharing her expertise with others. This sustained mental heavy lifting can discharge as a pounding headache." },
+        { code: "SX5", text: "The sexual Five does allow closeness and exchange quite intensely, rather than retreating purely into thought – though only within her one deep connection. This felt balance sets her apart from the pure cerebral overload of the other Five variants." },
+      ]},
+      { typ: 6, titel: "A head that plays out every risk", varianten: [
+        { code: "SE6", text: "The self-preservation Six thoroughly thinks through possible dangers in advance, so as to be prepared for every case. This constant running through of scenarios can discharge as a migraine attack once too many contingencies remain open at once." },
+        { code: "SO6", text: "The social Six keeps a close eye on the rules and expectations of the group, so as not to step out of line anywhere. This continual cross-checking can show up as a throbbing headache when conflicting expectations collide." },
+        { code: "SX6", text: "Immediate action instead of endless mental rehearsal is how the sexual Six, the counter-type, answers fear. This orientation toward action can lower the head's overload, which tends to persist longer in the other Six variants." },
+      ]},
+      { typ: 7, titel: "A head that holds too much at once", varianten: [
+        { code: "SE7", text: "The self-preservation Seven happily plans several pleasant options in parallel, so as not to miss out on any of them. When juggling too many threads overflows, the head can pull the emergency brake with a migraine attack." },
+        { code: "SO7", text: "The social Seven, the counter-type, continually subordinates her own interests to those of the group, never quite finding rest herself. This ongoing self-denial can discharge as a pounding headache." },
+        { code: "SX7", text: "The sexual Seven genuinely concentrates on a single intense experience, rather than mentally keeping several options open at once. This focus relieves the head compared to the constant juggling of the other Seven variants." },
+      ]},
+      { typ: 8, titel: "A head that will not let go of control", varianten: [
+        { code: "SE8", text: "The self-preservation Eight watches over her resources and territory with great vigilance, hardly ever allowing control to slacken. This permanent pressure to control can discharge as a migraine attack." },
+        { code: "SO8", text: "The social Eight constantly keeps an overview of possible threats to her group from outside. This ongoing state of watchfulness can show up as a throbbing headache once the tension reaches its peak." },
+        { code: "SX8", text: "The sexual Eight opens up with full intensity to the one person she trusts, rather than maintaining control at all times. This occasional opening sets her apart from the permanent pressure to control of the other Eight variants." },
+      ]},
+      { typ: 9, titel: "A head that swallows too much", varianten: [
+        { code: "SE9", text: "The self-preservation Nine prefers to push uncomfortable topics aside, so as not to jeopardize her everyday peace. What remains unprocessed this way can break through as a migraine attack once it can no longer be pushed away." },
+        { code: "SO9", text: "The social Nine usually sets her own opinion aside within the group, so that conflicts never even arise. This constant swallowing of her own position can discharge as a pounding headache." },
+        { code: "SX9", text: "In the intense merging with her partner, the sexual Nine often takes on his tension as well, without recognizing it as her own. If this borrowed tension lingers in her own head, it can discharge there as a migraine attack." },
+      ]},
+    ],
+    abschluss: "No head is immune to migraine, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with mental overload in its own way – some through constant calculation, others through control, endless circling, or a chronically swallowed concern of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  spannungskopfschmerz: {
+    titel: "Tension Headache",
+    kategorie: "nerven-psyche",
+    icon: "🎗️",
+    kurz: "A vice of muscular tension that quietly tightens around forehead and neck until the pressure becomes hard to ignore.",
+    definition: "Tension headache is by far the most common type of headache and presents as a dull, pressing, usually bilateral pain often described as a band or a vice around the head. Unlike migraine, it generally does not worsen with physical activity and rarely comes with nausea. Common triggers include chronic tension in the neck, shoulder, and head muscles, frequently combined with stress, poor posture, screen work, or too little fluid intake. Episodic forms occur occasionally, chronic courses on more than half the days of the month – often without those affected ever consciously noticing the underlying muscle tension until the pain itself becomes the issue.",
+    symptome: ["Dull, pressing, bilateral headache", "Sensation of a tight band or vice around the head", "Tense neck and shoulder muscles", "Possible mild sensitivity to light or sound", "No significant worsening with physical activity", "Difficulty concentrating during the episode", "In chronic cases, headache on more than 15 days per month"],
+    notfall: "Call emergency services immediately for a sudden, unusually severe headache, fever, neck stiffness, or neurological deficits – these can indicate another, acutely dangerous cause.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Unlike the attack-like migraine, tension headache usually builds gradually – muscles that tighten a little more each day until the pressure eventually becomes constant. In TCM, such a picture is often linked to stagnant Liver Qi that cannot move freely and instead settles in the neck and shoulders. Psychosomatically, tension headache often reads as the image of a posture held literally too long – physically as much as inwardly – without the underlying tension ever being consciously released. Each of the 27 subtypes shows its own pattern of which posture is held on to for too long here.",
+    typen: [
+      { typ: 1, titel: "A posture that never loosens", varianten: [
+        { code: "SE1", text: "The self-preservation One holds her posture upright and controlled almost constantly, rarely letting her shoulders consciously drop. This sustained muscular tension can show up as classic tension headache." },
+        { code: "SO1", text: "The social One moves in a disciplined, upright manner even when no one is watching, because her own standard allows no exception. This constant physical bearing can settle into tense neck and shoulder muscles." },
+        { code: "SX1", text: "The sexual One's tension discharges through direct expression rather than lodging in the muscles. This outward release sets her apart from the physically held discipline of the other One variants." },
+      ]},
+      { typ: 2, titel: "A neck carrying too much weight", varianten: [
+        { code: "SE2", text: "The self-preservation Two readily takes on practical tasks for others, often quite literally with tense shoulders and a stooped posture. This physical burden-taking can show up as tension headache." },
+        { code: "SO2", text: "The social Two sustains being there for many people at once over long stretches, without noticing her own physical tension. This constant carrying can show up as a pressing, band-like headache." },
+        { code: "SX2", text: "Within the one important relationship, the sexual Two can also let herself be carried and fall, instead of always carrying herself. This role reversal relieves the muscles compared to the constant carrying of the other Two variants." },
+      ]},
+      { typ: 3, titel: "A back that shows no weakness", varianten: [
+        { code: "SE3", text: "Even when exhausted, the self-preservation Three keeps her posture upright and ready to perform, unwilling to show any visible decline. This muscular constant readiness can discharge as tension headache." },
+        { code: "SO3", text: "In front of an audience, the social Three keeps her posture and expression flawless even when her neck and shoulders have long since started to hurt. This maintained outward appearance can settle into chronic muscle tension." },
+        { code: "SX3", text: "Her posture can drop for once with the sexual Three in front of the one important person, rather than staying constantly performance-ready. This occasional relaxation sets her apart from the sustained facade of the other Three variants." },
+      ]},
+      { typ: 4, titel: "A neck carrying heaviness", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, quite literally carries her burden through the day with raised shoulders, never setting it down. This quiet carrying can show up as a dull, band-like headache." },
+        { code: "SO4", text: "The social Four often lingers for hours in a hunched, inward-turned posture while dwelling on her melancholy. This bodily posture can settle muscularly into ongoing tension headache." },
+        { code: "SX4", text: "The sexual Four expresses her intensity vividly through facial expression and gesture, rather than freezing it into a rigid posture. This bodily mobility sets her apart from the frozen posture of the other Four variants." },
+      ]},
+      { typ: 5, titel: "A neck that shuts itself off", varianten: [
+        { code: "SE5", text: "The self-preservation Five often hunches over her desk for hours, lost entirely in thought, without noticing her own posture. This held posture can show up as tension headache." },
+        { code: "SO5", text: "While concentrating on working through knowledge, the social Five often stays in the same tense posture until the neck is literally burning. This prolonged holding can discharge as a pressing headache." },
+        { code: "SX5", text: "Within her one deep connection, the sexual Five does relax physically, rather than staying permanently tense. This occasional loosening sets her apart from the general holding pattern of the other Five variants." },
+      ]},
+      { typ: 6, titel: "Shoulders that never fully drop", varianten: [
+        { code: "SE6", text: "The self-preservation Six moves through daily life in a state of near-constant slight alert, her shoulders staying continuously raised. This muscular state of permanent alarm readiness can show up as tension headache." },
+        { code: "SO6", text: "Loyal to the group, the social Six sustains her position for a long time, even once her own tension has long been noticeable. This holding out can settle into tense neck and shoulder muscles." },
+        { code: "SX6", text: "The sexual Six, the counter-type, discharges her tension through immediate physical activity rather than storing it in the muscles. This release can lower the tension that tends to persist in the other Six variants." },
+      ]},
+      { typ: 7, titel: "A neck that never comes to rest", varianten: [
+        { code: "SE7", text: "Constantly moving from one pleasant activity to the next, the self-preservation Seven rarely finds true physical rest. This restlessness without real pause can paradoxically discharge as tension headache." },
+        { code: "SO7", text: "The social Seven, the counter-type, repeatedly overrides her own exhaustion for the sake of the group, her muscles remaining permanently tense. This overriding can show up as a pressing headache." },
+        { code: "SX7", text: "The sexual Seven does linger physically in a single intense experience, rather than staying constantly in motion. This pausing sets her apart from the restless busyness of the other Seven variants." },
+      ]},
+      { typ: 8, titel: "A neck demonstrating strength", varianten: [
+        { code: "SE8", text: "The self-preservation Eight holds herself physically present and tense almost constantly, rarely allowing genuine muscular relaxation. This constant tone can discharge as tension headache." },
+        { code: "SO8", text: "As a protective figure for her group, the social Eight sustains her posture and presence continuously, even once her own muscles have long been aching. This permanent readiness can show up as a band-like headache." },
+        { code: "SX8", text: "With the one person she trusts, the sexual Eight does let her physical tension drop, rather than constantly demonstrating it. This occasional relaxation sets her apart from the constant tone of the other Eight variants." },
+      ]},
+      { typ: 9, titel: "A neck that holds everything", varianten: [
+        { code: "SE9", text: "The self-preservation Nine happily sinks into a comfortable but often unfavorable posture for hours, without noticing her own muscular tension. This unnoticed poor posture can show up as tension headache." },
+        { code: "SO9", text: "To avoid conflict in the group, the social Nine often holds her own position, and with it her muscles, motionless for hours. This holding back can discharge as a pressing headache." },
+        { code: "SX9", text: "The sexual Nine often unconsciously absorbs her partner's physical tension into her own posture as soon as she merges with him. If this adopted tension lingers in her own neck, it can show up there as headache." },
+      ]},
+    ],
+    abschluss: "No neck is immune to tension headache, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles physically held tension in its own way – some through posture, others through control, quiet carrying, or a chronically unnoticed holding pattern of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  depression: {
+    titel: "Depression",
+    kategorie: "nerven-psyche",
+    icon: "🌧️",
+    kurz: "A lowered mood that settles like a filter over everything that once gave joy, meaning, or drive.",
+    definition: "Depression is a serious mental illness that goes far beyond temporary sadness. Its hallmarks are a lowered mood persisting for at least two weeks, a marked loss of interest and pleasure in previously enjoyable activities, and a noticeable lack of drive. Often added to this are changes in sleep and appetite, difficulty concentrating, feelings of worthlessness or guilt, and, in severe cases, thoughts of death or suicide. Neurobiologically, an imbalance of certain neurotransmitters in the brain, genetic predisposition, stressful life events, and chronic stress all play a role; it is usually an interplay of several factors that favors its onset. Depression can occur episodically or run a chronic course, and affects not only mood but thinking, body, and behavior alike.",
+    symptome: ["Persistently lowered mood for at least two weeks", "Marked loss of interest and pleasure", "Lack of drive and rapid exhaustion", "Sleep disturbances or increased need for sleep", "Changes in appetite with weight loss or gain", "Difficulty concentrating and making decisions", "Feelings of worthlessness, excessive guilt"],
+    notfall: "For acute thoughts of suicide or self-harm, contact a crisis helpline immediately or call emergency services without delay.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Depression draws a filter over life through which hardly any color or meaning still gets through – a state in which inner reserves no longer refill, only deplete. In TCM, such exhaustion is linked to stagnant Liver Qi combined with weakened Heart Qi – a combination of blocked flow and missing warmth at the center. Psychosomatically, depression often reads as the image of an inner drive exhausted over a long time, one that eventually strikes its own sails because too much was suppressed, held back, or left unresolved. Each of the 27 subtypes shows its own pattern of which inner drive becomes exhausted here.",
+    typen: [
+      { typ: 1, titel: "A standard that is never met", varianten: [
+        { code: "SE1", text: "The self-preservation One continually measures herself against her own strict standard, never actually reaching it. This chronic sense of falling short can settle into a lowered, joyless mood." },
+        { code: "SO1", text: "The social One forgives herself for mistakes far less readily than she forgives others, her inner critic rarely falling silent. This ongoing self-condemnation can lead into a depressive episode." },
+        { code: "SX1", text: "The sexual One directs her anger over wrongs immediately outward, rather than turning it against herself. This externalizing protects her more than the inward-directed self-condemnation of the other One variants." },
+      ]},
+      { typ: 2, titel: "A worth that doesn't show itself", varianten: [
+        { code: "SE2", text: "Being needed gives the self-preservation Two her footing, but should this confirmation fail to appear even once, she quickly feels superfluous. This dependence on her own usefulness can tip into a depressive mood." },
+        { code: "SO2", text: "The social Two's self-worth hinges strongly on how indispensable she feels to many people. Once this indispensability fades, a deep inner emptiness and lowered mood can spread." },
+        { code: "SX2", text: "Her worth the sexual Two experiences directly and immediately in the one important relationship, rather than having to earn it through many people. This directness cushions the crises of self-worth that hit the other Two variants more often." },
+      ]},
+      { typ: 3, titel: "A worth tied to success", varianten: [
+        { code: "SE3", text: "The self-preservation Three measures her worth heavily by what she has actually accomplished. When visible success fails to appear, a deep sense of emptiness and lack of drive can result." },
+        { code: "SO3", text: "Public recognition continually feeds the self-image of the social Three; when it falls away, the underlying self-worth often collapses with it. This collapse can show up as a depressive episode." },
+        { code: "SX3", text: "The sexual Three is allowed to fail and still remain loved within the one important relationship, rather than defining worth solely through success. This more unconditional experience cushions the collapses that hit the other Three variants harder." },
+      ]},
+      { typ: 4, titel: "A longing that turns to heaviness", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, processes her longing through persistent action rather than surrendering passively to it. If this action remains unsuccessful for a long time, the held-back heaviness can tip into a depressive episode." },
+        { code: "SO4", text: "The social Four knows her melancholy well and names it openly, which does not automatically mean she frees herself from it. If she stays caught in it too long, a full-blown depression can develop." },
+        { code: "SX4", text: "The sexual Four actively seeks intense feelings in contact with the desired person, rather than losing herself in quiet gloom. This active approach sets her apart from the more passive dwelling of the other Four variants." },
+      ]},
+      { typ: 5, titel: "A withdrawal that goes too far", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently reduces contact with others to the bare minimum, to conserve her resources. If this withdrawal goes too far, a lasting inner emptiness and depressive mood can develop." },
+        { code: "SO5", text: "The social Five stays connected to the world through knowledge, while keeping emotional closeness at a distance. If even this intellectual connection loses its meaning, genuine isolation and depression can follow." },
+        { code: "SX5", text: "Genuine emotional closeness is something the sexual Five allows herself within her one deep connection, rather than withdrawing completely. This one connection can protect against the total isolation that more readily threatens the other Five variants." },
+      ]},
+      { typ: 6, titel: "A security that is never fully reached", varianten: [
+        { code: "SE6", text: "Despite all her caution, a basic sense of insecurity persists in the self-preservation Six, one that rarely dissolves entirely. If this insecurity continues for years, an exhausted, depressive baseline mood can result." },
+        { code: "SO6", text: "The social Six finds her footing mainly in her group; should this loyalty ever break down, her inner footing often collapses with it. This collapse can show up as a depressive episode." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets her insecurity with active action rather than resigned exhaustion. This orientation toward action can protect against the depressive exhaustion that more often affects the other Six variants." },
+      ]},
+      { typ: 7, titel: "A lightness that collapses", varianten: [
+        { code: "SE7", text: "The self-preservation Seven reflexively covers uncomfortable feelings with the next pleasant distraction. If the pain can no longer be papered over at some point, the collapse into depression can hit especially hard." },
+        { code: "SO7", text: "The social Seven, the counter-type, permanently overrides her own needs for the sake of the group, until her inner reserve is exhausted. This chronic self-denial can lead into a depressive episode." },
+        { code: "SX7", text: "The sexual Seven does allow painful feelings within the intense relationship, rather than constantly papering over them. This willingness can cushion the sudden collapse that hits the other Seven variants harder." },
+      ]},
+      { typ: 8, titel: "A strength that collapses", varianten: [
+        { code: "SE8", text: "The self-preservation Eight almost never shows weakness, not even to herself. Should her control ever truly break down, the fall into a deep, barely visible depression can be especially severe." },
+        { code: "SO8", text: "The social Eight remains strong for her group even once her own strength has long been exhausted. This overriding of her own exhaustion can show up as a depressive episode." },
+        { code: "SX8", text: "Her vulnerability is something the sexual Eight does show to the one person she trusts. If this vulnerability is received there, it can protect against the hidden depression that more often affects the other Eight variants." },
+      ]},
+      { typ: 9, titel: "A drive that dissolves", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that her own drive rarely even forms. If this state persists for years, a hard-to-recognize, chronic depression can develop." },
+        { code: "SO9", text: "The social Nine continually subordinates her own opinion to group harmony, until she barely knows what she actually wants herself. This loss of her own voice can lead into a depressive episode." },
+        { code: "SX9", text: "In merging with her partner, the sexual Nine often takes on his mood as her own. If the partner is down, her own mood can follow along unfiltered, without being recognized as not her own." },
+      ]},
+    ],
+    abschluss: "No one is immune to depression, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with an exhausted inner drive in its own way – some through withdrawal, others through control, unfulfilled longing, or a chronically overridden need of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  generalisierte_angststoerung: {
+    titel: "Generalized Anxiety Disorder",
+    kategorie: "nerven-psyche",
+    icon: "🌀",
+    kurz: "A worry that no longer needs a fixed target – it wanders from one topic to the next, always finding fresh ground to take root in.",
+    definition: "Generalized anxiety disorder is marked by excessive, hard-to-control worry that extends across many different areas of life at once for at least six months – health, finances, family, work. Unlike panic disorder, the anxiety here does not appear in attacks but as a constant, diffuse background state. It is frequently accompanied by physical restlessness, muscle tension, rapid fatigue, difficulty concentrating, irritability, and sleep disturbances. Those affected usually know themselves that their worries are exaggerated, yet still find it hard to break the mental cycle. Neurobiologically, heightened excitability in certain brain regions responsible for assessing danger plays a role, often fostered by genetic predisposition and chronic, never fully processed stress.",
+    symptome: ["Excessive, hard-to-control worry across many areas of life", "Constant inner restlessness and nervousness", "Rapid fatigue despite tension", "Muscle tension, often in the neck and jaw", "Difficulty concentrating, mental blankness", "Irritability", "Trouble falling and staying asleep"],
+    notfall: "For acute suicidal thoughts or a feeling of complete overwhelm, contact a crisis helpline immediately or call emergency services.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Generalized anxiety disorder needs no concrete target – the worry wanders from one topic to the next as soon as the previous one seems settled, as if something must always remain open to stay alert. In TCM, such a state is often associated with a weakness of Kidney Water, which normally sets limits on the inner fire – without this boundary, worry keeps burning unchecked. Psychosomatically, generalized anxiety disorder often reads as the image of a vigilance that no longer needs a fixed object, because the underlying feeling of worry sits deeper than any single occasion for it. Each of the 27 subtypes shows its own pattern of what this freely wandering vigilance fixes on here.",
+    typen: [
+      { typ: 1, titel: "A worry that never quite settles", varianten: [
+        { code: "SE1", text: "Whether everything was really done correctly gets checked over and over in the mind of the self-preservation One, even when objectively everything has long been finished. This endless re-checking can widen into generalized anxiety disorder." },
+        { code: "SO1", text: "Whether her conduct was truly beyond reproach is something the social One questions again and again throughout the day. This ongoing moral self-examination can show up as a diffuse, persistent worry." },
+        { code: "SX1", text: "The sexual One usually voices her worry about correctness immediately and concretely about a single issue, rather than letting it wander across many areas. This focus sets her apart from the broadly scattered rumination of the other One variants." },
+      ]},
+      { typ: 2, titel: "A worry for everyone but herself", varianten: [
+        { code: "SE2", text: "Whether the people around her are doing well drives the self-preservation Two into a constant, barely graspable worry. This diffuse worry about others can grow into generalized anxiety disorder." },
+        { code: "SO2", text: "Whether she is truly doing enough for the many people she cares for occupies the social Two continually. This spreading worry about many people at once can show up as constant inner restlessness." },
+        { code: "SX2", text: "The sexual Two bundles her worry onto the one important person, rather than spreading it across many. This focus offers relief compared to the broadly scattered worry of the other Two variants." },
+      ]},
+      { typ: 3, titel: "A worry about her own image", varianten: [
+        { code: "SE3", text: "Whether enough has been achieved to secure her status keeps the self-preservation Three engaged in a continual inner accounting. This never-closed ledger can show up as generalized anxiety disorder." },
+        { code: "SO3", text: "Whether her public image remains truly flawless is something the social Three checks with constant, diffuse vigilance toward others' opinions. This ongoing worry can show up as inner restlessness and tension." },
+        { code: "SX3", text: "A flawless image does not need to be maintained by the sexual Three in front of the one important person, sparing her the constant worry about it. This relief sets her apart from the broad image management of the other Three variants." },
+      ]},
+      { typ: 4, titel: "A worry about never being enough", varianten: [
+        { code: "SE4", text: "Whether she is really managing her daily life despite inner emptiness drives the self-preservation Four, the counter-type, into a quiet, ongoing worry. This hidden worry can widen into generalized anxiety disorder." },
+        { code: "SO4", text: "Whether she will ever truly be understood in her difference circles continually in the mind of the social Four. This mental circling can show up as a diffuse, barely graspable, persistent worry." },
+        { code: "SX4", text: "The sexual Four shows her worry about the relationship directly and intensely to the desired person, rather than turning it over diffusely in her own head. This direct expression sets her apart from the quiet circling of the other Four variants." },
+      ]},
+      { typ: 5, titel: "A worry about not having enough", varianten: [
+        { code: "SE5", text: "Whether her own resources will suffice for every eventuality occupies the self-preservation Five in a constant, quiet calculation running in the background. This persistent worry about scarcity can show up as generalized anxiety disorder." },
+        { code: "SO5", text: "Whether her knowledge is truly sufficient to appear competent drives the social Five into continual inner scrutiny. This worry can show up as constant inner restlessness and tension." },
+        { code: "SX5", text: "Feeling adequately provided for is possible for the sexual Five within her one deep connection, rather than constantly circling around scarcity. This sense of security offers relief compared to the general worry of the other Five variants." },
+      ]},
+      { typ: 6, titel: "A worry that is her home", varianten: [
+        { code: "SE6", text: "The vigilance of the self-preservation Six almost never fully settles; something in the background is constantly being checked for what could go wrong. This continuous state is virtually the textbook picture of generalized anxiety disorder." },
+        { code: "SO6", text: "Whether she meets her group's expectations is something the social Six checks with constant, diffuse worry in the background. This worry can show up as ongoing inner restlessness and tension." },
+        { code: "SX6", text: "Instead of diffuse, ongoing worry, the sexual Six, the counter-type, responds to her fear with concrete, immediate action. This orientation toward action can lower the freely wandering worry that more chronically accompanies the other Six variants." },
+      ]},
+      { typ: 7, titel: "A worry beneath the cheer", varianten: [
+        { code: "SE7", text: "Beneath her practical busyness, the self-preservation Seven often hides a diffuse worry that her own needs might come up short. This hidden worry can show up as generalized anxiety disorder." },
+        { code: "SO7", text: "Whether she has truly given her group enough drives the social Seven, the counter-type, into a quiet, ongoing worry, while she appears positive on the outside. This contradiction can show up as constant inner restlessness." },
+        { code: "SX7", text: "The sexual Seven bundles her worry onto the one intense relationship, rather than scattering it diffusely across many areas of life. This focus sets her apart from the broadly scattered rumination of the other Seven variants." },
+      ]},
+      { typ: 8, titel: "A worry behind the control", varianten: [
+        { code: "SE8", text: "Whether her control over her own resources is truly sufficient occupies the self-preservation Eight in a constant, barely admitted worry. This hidden, persistent worry can show up as generalized anxiety disorder." },
+        { code: "SO8", text: "Whether she is truly protecting her group enough drives the social Eight into continual inner vigilance. This worry can show up as ongoing tension and inner restlessness." },
+        { code: "SX8", text: "The sexual Eight openly voices her worry about the one person she trusts, rather than hiding it behind control. This openness sets her apart from the hidden worry of the other Eight variants." },
+      ]},
+      { typ: 9, titel: "A worry with no clear object", varianten: [
+        { code: "SE9", text: "A vague unease often accompanies the self-preservation Nine, without her being able to attach it to any concrete topic. This objectless worry is a particularly typical picture of generalized anxiety disorder." },
+        { code: "SO9", text: "Whether she is truly doing justice to group harmony occupies the social Nine in constant, diffuse worry in the background. This worry can show up as ongoing inner restlessness." },
+        { code: "SX9", text: "Her partner's worries get absorbed unfiltered by the sexual Nine as her own, as soon as she merges with him. If the partner is anxious, this anxiety can transfer onto her unnoticed." },
+      ]},
+    ],
+    abschluss: "No mind is immune to generalized anxiety disorder, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles freely wandering worry in its own way – some through control, others through caretaking, mental circling, or a chronically hidden worry of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  panikattacken: {
+    titel: "Panic Attacks",
+    kategorie: "nerven-psyche",
+    icon: "💥",
+    kurz: "A wave of fear that puts the body on maximum alert within minutes, even though no real danger is present.",
+    definition: "A panic attack is a sudden episode of intense fear, usually peaking within a few minutes, accompanied by strong physical symptoms such as a racing heart, shortness of breath, sweating, trembling, dizziness, and a feeling of impending loss of control or even fear of dying. Physically, this is usually driven by a massive, inappropriate activation of the sympathetic nervous system – the body switches into fight-or-flight mode even though there is no real external danger. When panic attacks recur, combined with persistent fear of the next attack, this is called panic disorder. The attacks themselves, while extremely uncomfortable physically, are not dangerous; what tends to become the real burden is the fear of the fear itself, which can lead to avoidance behavior and social withdrawal.",
+    symptome: ["Sudden onset of a racing or pounding heart", "Shortness of breath or a feeling of suffocation", "Dizziness, lightheadedness, a sense of unreality", "Sweating and trembling", "Tightness or pressure in the chest", "Fear of losing control or dying", "Tingling or numbness in the hands and face"],
+    notfall: "For a first-time occurrence of severe chest pain radiating outward, shortness of breath, or loss of consciousness, call emergency services as a precaution to rule out a heart attack – even though most such episodes turn out to be panic attacks.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Panic attacks seem to strike out of a clear blue sky – yet almost always something had already built up beforehand that found no other outlet than this sudden, overwhelming discharge. In TCM, such a picture is often associated with rising Heart Fire combined with weakened Heart Qi – a center that briefly overheats because it lacks the stabilizing substance to contain it. Psychosomatically, a panic attack often reads as the image of a long-held-back fear or tension that eventually becomes uncontrollable and breaks through explosively. Each of the 27 subtypes shows its own pattern of which held-back tension suddenly discharges here.",
+    typen: [
+      { typ: 1, titel: "A control that suddenly tips", varianten: [
+        { code: "SE1", text: "The self-preservation One maintains her self-control with iron discipline over long stretches, never allowing weakness to show. Should this control ever break, the pent-up tension can discharge as a severe panic attack." },
+        { code: "SO1", text: "The social One usually suppresses her anger over her own or others' misconduct to the point of exhaustion. This anger, held back for years, can suddenly break through as a panic attack." },
+        { code: "SX1", text: "The sexual One's indignation discharges immediately and directly, rather than building up over years. This ongoing release protects her more than the sudden, overwhelming attack of the other One variants." },
+      ]},
+      { typ: 2, titel: "A fear of being left alone", varianten: [
+        { code: "SE2", text: "The self-preservation Two usually pushes her fear of no longer being needed successfully into the background. If this fear ever breaks through unchecked, it can discharge as a panic attack." },
+        { code: "SO2", text: "The social Two keeps her fear of no longer being indispensable to many hidden behind constant activity. Should this fear suddenly break through, it can show up as a severe panic attack." },
+        { code: "SX2", text: "The sexual Two addresses her fear about the one relationship directly, rather than suppressing it over a long time. This direct address sets her apart from the hidden fear of the other Two variants." },
+      ]},
+      { typ: 3, titel: "A facade that suddenly cracks", varianten: [
+        { code: "SE3", text: "The self-preservation Three continually papers over exhaustion with even more activity, rather than attending to it. If the body ever truly breaks through, this overload can show up as a severe panic attack." },
+        { code: "SO3", text: "The social Three maintains her flawless public facade without a visible crack for long stretches. Should this facade suddenly crack, the tension underneath can discharge as a panic attack." },
+        { code: "SX3", text: "The sexual Three can let her facade drop for once in front of the one important person, rather than maintaining it constantly. This occasional relief sets her apart from the sudden collapse of the other Three variants." },
+      ]},
+      { typ: 4, titel: "A feeling that overwhelms", varianten: [
+        { code: "SE4", text: "Staying functional requires the self-preservation Four, the counter-type, to keep intense feelings mostly locked away. Should this control ever break, the held-back intensity can discharge as a panic attack." },
+        { code: "SO4", text: "The social Four often experiences her moods with great intensity, without being able to regulate them consistently. Should this intensity suddenly tip into the overwhelming, it can show up as a panic attack." },
+        { code: "SX4", text: "The sexual Four discharges her intensity continuously and directly in contact, rather than letting it build up over time. This continuous expression can soften the sudden overwhelm that more often hits the other Four variants." },
+      ]},
+      { typ: 5, titel: "A withdrawal that gets overrun", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently keeps stimuli at a distance to protect her limited resources. Should this distance ever be breached, say by too much closeness or demand, it can discharge as a panic attack." },
+        { code: "SO5", text: "Intellectual exchange lets the social Five keep emotional closeness safely at arm's length. Should that distance suddenly become impossible, say through unexpected closeness, a panic attack can result." },
+        { code: "SX5", text: "The sexual Five consciously allows closeness within her one deep connection, rather than constantly keeping it at a distance. This practiced closeness can protect against the sudden overwhelm that more often hits the other Five variants." },
+      ]},
+      { typ: 6, titel: "A fear that discharges", varianten: [
+        { code: "SE6", text: "The self-preservation Six sustains her vigilance continuously, without the underlying fear ever really resolving. When this tension reaches its peak, it can discharge as a panic attack." },
+        { code: "SO6", text: "The social Six usually sets her own fear aside behind concern for her group. Should this set-aside fear suddenly break through, it can show up as a severe panic attack." },
+        { code: "SX6", text: "The sexual Six, the counter-type, responds to fear with immediate, direct confrontation, rather than letting it build up inside for long. This immediate release can soften the sudden attack that more often hits the other Six variants." },
+      ]},
+      { typ: 7, titel: "A fear behind the distraction", varianten: [
+        { code: "SE7", text: "Instead of tracing uncomfortable feelings, the self-preservation Seven reflexively reaches for the next pleasant activity. If the fear underneath can no longer be papered over at some point, it can discharge as a panic attack." },
+        { code: "SO7", text: "Her own exhaustion gets overridden again and again by the social Seven, the counter-type, for the sake of the group, until no reserve remains. This point can show up as a sudden panic attack." },
+        { code: "SX7", text: "The sexual Seven does allow intense, even uncomfortable feelings within the relationship, rather than constantly papering over them. This willingness can soften the sudden overwhelm that more often hits the other Seven variants." },
+      ]},
+      { typ: 8, titel: "A control that gets broken through", varianten: [
+        { code: "SE8", text: "The self-preservation Eight avoids loss of control at almost any cost, physically as much as situationally. Should she ever truly lose control, this can trigger an especially severe panic attack." },
+        { code: "SO8", text: "Even under extreme strain, the social Eight remains steadfast for her group. Should this strain ever grow too great, the held-back exhaustion can discharge as a panic attack." },
+        { code: "SX8", text: "The sexual Eight does show her fear openly to the one person she trusts. This openness can protect against the sudden, uncontrolled discharge that more often hits the other Eight variants." },
+      ]},
+      { typ: 9, titel: "A pressure that suddenly breaks through", varianten: [
+        { code: "SE9", text: "Uncomfortable topics are consistently pushed aside by the self-preservation Nine, to preserve her peace. If the pent-up pressure can no longer be pushed away at some point, it can break through as a panic attack." },
+        { code: "SO9", text: "Her own position gets set aside by the social Nine in the group, so as to avoid conflict from ever arising. If this held-back anger accumulates for too long, it can discharge as a panic attack." },
+        { code: "SX9", text: "The sexual Nine often takes on her partner's fear unfiltered as her own, as soon as she merges with him. Should the partner fall into panic, it can transfer onto her immediately." },
+      ]},
+    ],
+    abschluss: "No one is immune to panic attacks, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles suddenly discharged tension in its own way – some through control, others through withdrawal, distraction, or a chronically held-back feeling of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  burnout_syndrom: {
+    titel: "Burnout Syndrome",
+    kategorie: "nerven-psyche",
+    icon: "🕯️",
+    kurz: "A candle burned at both ends, until nothing is left that could still be lit.",
+    definition: "Burnout is a state of emotional, mental, and physical exhaustion that usually develops over a longer period of chronic, often work-related overload. It is marked by a triad of deep exhaustion, growing detachment or cynicism toward one's own activity, and a sense of reduced effectiveness despite continued or even increasing effort. Unlike ordinary tiredness, burnout cannot be resolved with a weekend of rest; the exhaustion runs deeper and often affects motivation, sense of meaning, and the ability to still feel enthusiastic about anything. The actual collapse is often preceded by a long phase of excessive commitment, during which the body's warning signs were systematically overridden – until the reserves are eventually used up completely.",
+    symptome: ["Deep, persistent physical and emotional exhaustion", "Growing inner detachment from one's own work", "Cynicism or indifference toward previously important tasks", "A sense of reduced effectiveness despite high effort", "Difficulty concentrating and remembering", "Sleep disturbances despite exhaustion", "Physical complaints such as headaches, back pain, or stomach pain with no clear findings"],
+    notfall: "For acute suicidal thoughts, complete collapse, or a feeling of no longer being able to manage daily life, contact a crisis helpline immediately or seek medical help.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Burnout is rarely a sudden event – usually it is the result of a long path along which more and more was given and less and less replenished, until one's own substance is exhausted. In TCM, such a state is often described as depletion of Spleen Qi and Kidney Essence (Jing) – that deepest reserve which does not regenerate overnight but is built up, and just as slowly used up, over years. Psychosomatically, burnout often reads as the image of a drive that has given beyond its own limits for too long, without pulling back in time. Each of the 27 subtypes shows its own pattern of what its own substance was spent on here for too long.",
+    typen: [
+      { typ: 1, titel: "An effort that knows no limit", varianten: [
+        { code: "SE1", text: "The self-preservation One handles her tasks with unyielding discipline, a deliberate pause feeling almost like negligence to her. This limitless sense of duty is one of the most reliable paths into burnout." },
+        { code: "SO1", text: "The social One gives her best as a role model for others, never once granting herself a breather. This years-long overachievement of her own standard can lead directly into exhaustion." },
+        { code: "SX1", text: "The sexual One voices her displeasure over being overloaded immediately, rather than silently accepting it. This earlier boundary-setting protects her more than the gradual burnout of the other One variants." },
+      ]},
+      { typ: 2, titel: "A giving that never believes itself exhausted", varianten: [
+        { code: "SE2", text: "The self-preservation Two cares for others until her own reserves are long since used up, without noticing it in time. This chronic overstepping of her own limits leads straight into burnout." },
+        { code: "SO2", text: "Staying indispensable drives the social Two for years, even once her own exhaustion has long been noticeable. This sustained strain can lead into a complete collapse." },
+        { code: "SX2", text: "The sexual Two also allows herself, within the one important relationship, to be cared for rather than only giving. This balance protects against the one-sided drain of substance that the other Two variants face." },
+      ]},
+      { typ: 3, titel: "A pace that wears down her own substance", varianten: [
+        { code: "SE3", text: "The self-preservation Three sustains her workload for years without genuine recovery breaks, until the body eventually pulls its own emergency brake. This sudden collapse after long overexertion is the classic picture of burnout." },
+        { code: "SO3", text: "The social Three keeps up her dynamic public image even once her inner exhaustion has long become overwhelming. This gap between appearance and actual substance can lead into a severe collapse." },
+        { code: "SX3", text: "Exhaustion is allowed to show early on for the sexual Three in front of the one important person, rather than being hidden for years. This earlier admission can avert the complete collapse of the other Three variants." },
+      ]},
+      { typ: 4, titel: "A meaning that runs dry", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, holds out silently and persistently for years, never asking for relief. This quiet endurance can lead into a severe, barely noticed burnout." },
+        { code: "SO4", text: "Being recognized as suffering costs the social Four a particular kind of emotional energy over time, paradoxical as that may sound. This ongoing investment in her own role can be exhausting." },
+        { code: "SX4", text: "The sexual Four invests her energy primarily in the one intense relationship, not diffusely across many roles at once. This bundling can protect against the broad exhaustion that more often hits the other Four variants." },
+      ]},
+      { typ: 5, titel: "A withdrawal that comes too late", varianten: [
+        { code: "SE5", text: "The self-preservation Five normally rations her resources carefully, but should she ever get caught in a commitment that overwhelms this protection, an especially deep burnout can result." },
+        { code: "SO5", text: "The social Five readily passes on her knowledge, until her own inner reserve unnoticeably runs low. This slow depletion behind ongoing competence can lead into burnout." },
+        { code: "SX5", text: "Accepting support, rather than managing everything alone, is something the sexual Five does allow herself within her one deep connection. This support can protect against the quiet exhaustion that more often hits the other Five variants." },
+      ]},
+      { typ: 6, titel: "A vigilance that uses everything up", varianten: [
+        { code: "SE6", text: "Vigilance continually costs the self-preservation Six energy over the years, without her being aware of it, because she has grown used to this state. This unnoticed constant drain leads straight into burnout." },
+        { code: "SO6", text: "The social Six still stands by her group even once her own strength has long been exhausted. This loyalty beyond her own limits can lead into a complete collapse." },
+        { code: "SX6", text: "The sexual Six, the counter-type, invests her strength in focused, courageous actions, rather than dispersing it into constant vigilance. This bundling can soften the gradual loss of substance that the other Six variants face." },
+      ]},
+      { typ: 7, titel: "An enthusiasm that abruptly goes out", varianten: [
+        { code: "SE7", text: "The self-preservation Seven leaps from one project to the next with seemingly inexhaustible energy, until that energy actually runs out one day. This abrupt collapse can appear especially surprising as burnout." },
+        { code: "SO7", text: "Her own limits get overridden repeatedly by the social Seven, the counter-type, for the sake of the group, until nothing is left to give. This chronic self-neglect is one of the most direct paths into burnout." },
+        { code: "SX7", text: "The sexual Seven stays with a single intense pursuit with full devotion, rather than spending herself across many projects at once. This focus can protect against the broad exhaustion that more often hits the other Seven variants." },
+      ]},
+      { typ: 8, titel: "A strength that overtaxes itself", varianten: [
+        { code: "SE8", text: "The self-preservation Eight repeatedly proves her resilience, admitting real exhaustion being almost out of the question for her. This permanent overriding of her own limits eventually leads into burnout all the same." },
+        { code: "SO8", text: "As protector of her group, the social Eight stays active even once her own substance has long been exhausted. This self-overextension in service of others can lead into a severe collapse." },
+        { code: "SX8", text: "Exhaustion, unlike control, is something the sexual Eight will show to the one person she trusts. If this exhaustion is taken seriously there, it can protect against the complete collapse that more often hits the other Eight variants." },
+      ]},
+      { typ: 9, titel: "An exhaustion noticed too late", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often only registers her own limits once they have long been crossed, losing herself that completely in routine and tasks. A burnout can build up unnoticed over years this way." },
+        { code: "SO9", text: "Group harmony continually takes precedence over the social Nine's own exhaustion, her own warning sign lost sight of in the process. This chronic self-neglect can lead into burnout." },
+        { code: "SX9", text: "Her partner's strain becomes her own for the sexual Nine, often taken on as soon as she merges with him. If the partner is overloaded, this overload can transfer onto her unnoticed." },
+      ]},
+    ],
+    abschluss: "No one is immune to burnout, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles overridden limits of their own in its own way – some through control, others through giving, pace, or a chronically overlooked warning sign of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  schlafstoerungen_insomnie: {
+    titel: "Sleep Disorders (Insomnia)",
+    kategorie: "nerven-psyche",
+    icon: "🌙",
+    kurz: "A mind that cannot truly let go even at night – while the body has long been asking for rest.",
+    definition: "Insomnia refers to persistent difficulty falling or staying asleep, or waking too early without being able to fall back asleep, combined with a noticeable impairment of daytime functioning. Chronic insomnia is diagnosed when the symptoms occur at least three nights a week for three months or longer. A common underlying factor is excessive nighttime activation of the nervous system – the body stays in wake mode even though rest would objectively be called for. This state is fostered by stress, rumination, irregular sleep schedules, evening screen use, and by the fear of sleeplessness itself, which often becomes a vicious circle of its own: whoever fears being unable to fall asleep becomes, precisely through that worry, even more awake.",
+    symptome: ["Significantly prolonged time to fall asleep", "Frequent nighttime awakenings with difficulty falling back asleep", "Waking too early in the morning", "Daytime fatigue despite adequate time in bed", "Difficulty concentrating and remembering during the day", "Irritability and lowered mood", "Rumination and mental circling at bedtime"],
+    notfall: "For acute severe fatigue with microsleep episodes, such as while driving, or accompanying suicidal thoughts, seek medical help immediately or contact a crisis helpline.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "The body calls for rest, yet something inside keeps standing watch – a nervous system that has not really finished the day, even though night has long begun. In TCM, sleeplessness is frequently associated with restless Heart Shen – the spirit that resides in the heart and must come to rest for genuine sleep to be possible, but cannot because of unresolved inner issues. Psychosomatically, insomnia often reads as the image of a letting-go that does not succeed – as if something still needs to be thought through, controlled, or guarded before vigilance is allowed to settle. Each of the 27 subtypes shows its own pattern of what still cannot be let go of at night here.",
+    typen: [
+      { typ: 1, titel: "A mind that reviews the day once more", varianten: [
+        { code: "SE1", text: "In bed, the self-preservation One often goes back through the day once more in her mind, to make sure everything was truly done correctly. This nightly re-checking can significantly delay falling asleep." },
+        { code: "SO1", text: "Whether she truly acted beyond reproach today is something the social One questions especially thoroughly right at bedtime. This late moral re-checking can lead to chronic difficulty falling asleep." },
+        { code: "SX1", text: "Her anger about the day gets aired by the sexual One directly that same evening, rather than carried into bed. This earlier release makes falling asleep easier compared to the nighttime rumination of the other One variants." },
+      ]},
+      { typ: 2, titel: "A mind circling around others", varianten: [
+        { code: "SE2", text: "Whether the people she cares for are truly doing well often occupies the self-preservation Two right as she is falling asleep. This nighttime worry about others can significantly disturb her own sleep." },
+        { code: "SO2", text: "Who might have come up short today is something the social Two goes through once more in bed. This late aftercare for many people can lead to recurring difficulty falling asleep." },
+        { code: "SX2", text: "The sexual Two's thoughts before falling asleep circle around the one important person, not diffusely around many. This focus can make falling asleep easier compared to the broad worrying of the other Two variants." },
+      ]},
+      { typ: 3, titel: "A mind that refuses to switch off", varianten: [
+        { code: "SE3", text: "Even in bed, the self-preservation Three often still runs through her inner to-do list for the next day. This ongoing planning can significantly delay falling asleep." },
+        { code: "SO3", text: "How her performance came across today is something the social Three often replays mentally at bedtime. This nightly review of her own impression can lead to difficulty falling asleep." },
+        { code: "SX3", text: "The sexual Three lets her pace drop in the evening in front of the one important person, rather than carrying it into bed. This occasional relaxation makes falling asleep easier compared to the constant pace of the other Three variants." },
+      ]},
+      { typ: 4, titel: "A mind that won't release feelings", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, often carries her deep, unstilled longing into the night without ever giving it room. This quiet unrest can significantly disturb her sleep." },
+        { code: "SO4", text: "The social Four's thoughts about her own otherness circle especially intensely in the evening. This nighttime rumination can lead to chronic difficulty falling asleep." },
+        { code: "SX4", text: "Direct contact during the day is where the sexual Four expresses her intensity, rather than processing it in bed at night. This ongoing expression makes falling asleep easier compared to the nighttime circling of the other Four variants." },
+      ]},
+      { typ: 5, titel: "A mind that keeps thinking", varianten: [
+        { code: "SE5", text: "Even in bed, the self-preservation Five often keeps calculating whether her resources will last through the coming days. This nighttime calculation can significantly delay falling asleep." },
+        { code: "SO5", text: "Interesting thoughts do not let go of the social Five even in the evening, thinking itself becoming her preferred activity before sleep. This ongoing mental work can favor difficulty falling asleep." },
+        { code: "SX5", text: "The sexual Five can consciously relax emotionally in the evening within her one deep connection, rather than continuing to think. This relaxation makes falling asleep easier compared to the pure cerebral overload of the other Five variants." },
+      ]},
+      { typ: 6, titel: "A mind that keeps watch at night", varianten: [
+        { code: "SE6", text: "Possible dangers for the next day are often thoroughly thought through by the self-preservation Six while still in bed. This nighttime vigilance is one of the most reliable causes of difficulty falling asleep." },
+        { code: "SO6", text: "Meeting her group's expectations tomorrow often occupies the social Six right at bedtime. This late worry can significantly disturb her sleep." },
+        { code: "SX6", text: "The sexual Six's tension, the counter-type, discharges through immediate action during the day, rather than being carried into bed. This earlier release makes falling asleep easier compared to the nighttime vigilance of the other Six variants." },
+      ]},
+      { typ: 7, titel: "A mind that keeps options open", varianten: [
+        { code: "SE7", text: "Possible plans for tomorrow and the day after are often still worked through with visible anticipation by the self-preservation Seven at bedtime. This mental busyness can delay sleep." },
+        { code: "SO7", text: "Even in the evening, the social Seven, the counter-type, keeps setting her own needs behind the group's, genuine rest hardly ever setting in. This ongoing self-postponement can lead to difficulty falling asleep." },
+        { code: "SX7", text: "The sexual Seven lingers mentally in the evening on a single intense experience of the day, rather than keeping many options open for tomorrow. This focus makes falling asleep easier compared to the option-juggling of the other Seven variants." },
+      ]},
+      { typ: 8, titel: "A mind that won't hand off the watch", varianten: [
+        { code: "SE8", text: "Even at night, the self-preservation Eight keeps half-conscious watch over her resources and territory. This permanent pressure to control can significantly disturb her sleep." },
+        { code: "SO8", text: "Even in the evening, the social Eight stays mentally on duty for her group, truly switching off her vigilance being difficult for her. This ongoing readiness can lead to difficulty falling asleep." },
+        { code: "SX8", text: "In the evening, with the one person she trusts, the sexual Eight does let her vigilance drop. This occasional relaxation makes falling asleep easier compared to the constant tone of the other Eight variants." },
+      ]},
+      { typ: 9, titel: "A mind that comes to rest too late", varianten: [
+        { code: "SE9", text: "The self-preservation Nine likes to delay the transition into bed with small routines and distractions, until she finally falls asleep overtired. This postponed bedtime can develop into chronic insomnia." },
+        { code: "SO9", text: "The social Nine still sets her own opinion about the day aside even in the evening, so as not to let any conflict arise. This constant holding back can significantly disturb her sleep." },
+        { code: "SX9", text: "The sexual Nine often unconsciously takes on her partner's sleep rhythm as her own, as soon as she merges with him. If the partner sleeps restlessly, this restlessness can transfer directly onto her own sleep." },
+      ]},
+    ],
+    abschluss: "No one is immune to sleep disorders, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles nighttime vigilance in its own way – some through control, others through worry, mental circling, or a chronically adopted feeling not their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
 // (Germany/Europe), categorized like PSYCHOSOMATIK_KATEGORIEN. Written up one at a time
 // and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
 // page as "in preparation" without their own detail page.
+  narkolepsie: {
+    titel: "Narcolepsy",
+    kategorie: "nerven-psyche",
+    icon: "😴",
+    kurz: "The boundary between waking and sleeping loses its edge – consciousness switches off without the person being able to prevent it.",
+    definition: "Narcolepsy is a neurological disorder in which the regulation of the sleep-wake rhythm is disturbed. The cause is usually a deficiency of orexin (hypocretin), a brain messenger that stabilizes wakefulness and governs the transition between states of consciousness. When this regulator is missing, elements of REM sleep break uncontrollably into the waking state: sudden daytime sleep attacks, often accompanied by cataplexy (a brief loss of muscle tone during strong emotions), sleep paralysis, and vivid hallucinations when falling asleep or waking up. Nighttime sleep architecture is, paradoxically, often fragmented and restless despite the massive daytime sleepiness. Narcolepsy is a chronic, usually lifelong condition that can be managed well with medication and structured daily planning, but not cured.",
+    symptome: ["Excessive daytime sleepiness with sudden, barely suppressible sleep attacks", "Cataplexy – sudden loss of muscle tone during strong emotions like laughter or fright", "Sleep paralysis when falling asleep or waking up", "Hypnagogic hallucinations while falling asleep", "Fragmented, restless nighttime sleep despite daytime tiredness", "Automatic behavior during brief microsleep episodes", "Concentration and memory problems from the chronic sleepiness"],
+    notfall: "Not an acute emergency in the classic sense, but sleep attacks can become life-threatening in traffic or during dangerous activities – if suspected, seek prompt neurological evaluation.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Narcolepsy dissolves a boundary that everyday life usually takes for granted: the one between being awake and being asleep. Where this boundary becomes porous, unconsciousness breaks into moments where it was never meant to be – often exactly when strong emotions are involved. In TCM, such a tipping between states of consciousness is often linked to a weakness of Heart or Spleen Qi, which leaves the spirit (Shen) without stable anchoring. Psychosomatically, narcolepsy often reads as the picture of a control that ends at one very specific point: however carefully a person may steer the rest of their life, the transition into consciousness itself escapes that steering entirely. For each of the 27 subtypes, its own pattern shows exactly where in life this control over one's own wakefulness is put under the greatest strain.",
+    typen: [
+      { typ: 1, titel: "A control that ends at the threshold of sleep", varianten: [
+        { code: "SE1", text: "The control the self-preservation One keeps over her orderly daily life ends precisely at the threshold of consciousness itself – there the brain switches off without her consent. Because she otherwise governs so much, this one uncontrollable point can feel especially humiliating." },
+        { code: "SO1", text: "For years the social One keeps up her public bearing of correctness and self-command, even when exhaustion has long since set in underneath. It is often in the presence of other people that this facade then gets involuntarily broken by a sudden sleep attack." },
+        { code: "SX1", text: "The sexual One lives out her outrage over injustice immediately and intensely, rather than holding it back. It is exactly these strong emotional outbursts that, given the right predisposition, can trigger cataplectic episodes – the body giving way at the very moment arousal peaks." },
+      ]},
+      { typ: 2, titel: "A wakefulness reserved for others", varianten: [
+        { code: "SE2", text: "Her own exhaustion the self-preservation Two overrides for so long that hardly any reserve is left for genuine, restorative wakefulness. The body can then take that pause for itself, in the middle of the day, regardless of whether someone happens to need her right then." },
+        { code: "SO2", text: "For the needs of the group, the social Two stays awake and available, far beyond her own limits. If this constant vigilance is never interrupted by real replenishment, the accumulated exhaustion can break through as uncontrollable sleep attacks." },
+        { code: "SX2", text: "A strong feeling of affection or attraction can become immediately physical for the sexual Two. When this emotional intensity meets an already unstable sleep regulation, it is exactly such moments of high arousal in which cataplexy is most likely to appear." },
+      ]},
+      { typ: 3, titel: "A pace that leaves no room for a pause", varianten: [
+        { code: "SE3", text: "Without real recovery breaks, the self-preservation Three keeps up her working pace for years, efficient and functional right up to the point of exhaustion. It is exactly this chronically suppressed tiredness that can become the ground for pronounced daytime sleepiness." },
+        { code: "SO3", text: "Her flawless public appearance leaves the social Three barely showing any weakness, even once exhaustion has become critical. If the tiredness still breaks through as a sleep attack in front of an audience, she often experiences it as especially humiliating." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three puts her full attractiveness on display, even when it costs energy that would actually be needed for recovery. It is exactly in such intense moments that, given the right predisposition, a sudden loss of tone can occur." },
+      ]},
+      { typ: 4, titel: "A feeling that tips wakefulness over", varianten: [
+        { code: "SE4", text: "Her intense inner feelings the self-preservation Four, the counter-type, mostly carries tenaciously and silently, barely visible from the outside. If this pent-up emotional charge does break through once, it can shake the fragile transition between waking and sleep along with it." },
+        { code: "SO4", text: "When the social Four puts her suffering into words in front of a trusted audience, the emotional force of that moment itself can turn out surprisingly strong. It is exactly this intense expression that, given the right neurological predisposition, can become the trigger for a cataplectic episode." },
+        { code: "SX4", text: "With great intensity, the sexual Four lives out her feelings immediately, without dampening them. This high emotional amplitude – whether infatuation, jealousy, or sudden delight – is among the classic triggers of cataplectic episodes." },
+      ]},
+      { typ: 5, titel: "A withdrawal that does not protect wakefulness", varianten: [
+        { code: "SE5", text: "Contact and stimulation the self-preservation Five consistently reduces to a minimum, in order to conserve her limited energy reserves. It is exactly this protective mechanism that can run into a dead end with narcolepsy, because the sleepiness occurs independently of how much stimulation is actually present." },
+        { code: "SO5", text: "Her knowledge the social Five willingly shares with others, while keeping emotional closeness at a safe distance most of the time. A sudden moment of falling asleep in the middle of a professional conversation can involuntarily and publicly break through this carefully guarded distance." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five allows closeness and intensity that she otherwise consistently avoids. It is exactly this rare, all the more powerful emotional opening that can become the physical trigger for a sudden loss of tone." },
+      ]},
+      { typ: 6, titel: "An alertness that will not switch off", varianten: [
+        { code: "SE6", text: "A watchful inner state of alarm keeps the self-preservation Six on edge throughout the day, even when no danger is objectively present. Nighttime sleep often remains just as fragmented as the daytime rhythm, which can additionally worsen the daytime sleepiness." },
+        { code: "SO6", text: "Her loyalty to the group the social Six often shows through steady, reliable presence – which is exactly why an uncontrollable sleep attack in front of the group feels to her like an especially uncomfortable loss of control." },
+        { code: "SX6", text: "Her fear the sexual Six, the counter-type, meets with immediate, often impulsive confrontation rather than withdrawal. This high emotional arousal in moments of confrontation is among the situations in which cataplexy is most likely to become visible." },
+      ]},
+      { typ: 7, titel: "A restlessness that tolerates no pause", varianten: [
+        { code: "SE7", text: "From one pleasant activity to the next, the self-preservation Seven keeps moving, so that discomfort never really gets the chance to arise. If this permanent busyness is never interrupted by real recovery, the body can take that pause for itself in the form of a sleep attack." },
+        { code: "SO7", text: "For the group, the social Seven, the counter-type, keeps pushing her own limits back, often to the point of exhaustion. This self-overextension in the service of others can lay the ground for a chronic, barely controllable daytime sleepiness." },
+        { code: "SX7", text: "With full enthusiasm, the sexual Seven throws herself into intense new experiences, without holding herself back. It is exactly these moments of high positive arousal – laughter, surprise, infatuation – that count among the most frequent triggers of cataplectic episodes." },
+      ]},
+      { typ: 8, titel: "A strength that must show no weakness", varianten: [
+        { code: "SE8", text: "Consistent control over body and resources the self-preservation Eight maintains, if necessary even over her own exhaustion. An uncontrollable microsleep in the middle of the day contradicts this self-image so fundamentally that it is especially hard for her to accept." },
+        { code: "SO8", text: "Strength and presence the social Eight demonstrates continuously in her protector role toward the outside, even when her own strength has long since run out. If the tiredness still breaks through in front of the group, she often experiences it as a betrayal by her own body." },
+        { code: "SX8", text: "Her intensity the sexual Eight discharges most readily in immediate physical form, in close contact with the person she loves. It is exactly this high physical and emotional arousal that is among the typical triggers of a sudden loss of muscle tone." },
+      ]},
+      { typ: 9, titel: "A wakefulness that overrides itself", varianten: [
+        { code: "SE9", text: "So completely does the self-preservation Nine lose herself in routine and comfort that her own warning signs of exhaustion are barely registered anymore. This deep self-forgetting can contribute to a beginning daytime sleepiness staying unnoticed for a long time before it becomes impossible to overlook." },
+        { code: "SO9", text: "Her own needs the social Nine steadily subordinates to group harmony, including the need for adequate sleep and rest. If this setting-aside becomes habitual, the accumulated sleep deficit can discharge as uncontrollable sleep attacks." },
+        { code: "SX9", text: "With her partner, the sexual Nine merges so completely that she often takes on his energy and state of wakefulness instead of perceiving her own. If the partner is tired or absent, her own wakefulness can sink along with his, unnoticed." },
+      ]},
+    ],
+    abschluss: "No nervous system is immune to narcolepsy, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with the loss of control over their own wakefulness in their own way – some through outer discipline, others through emotional intensity, withdrawal, or a chronically overridden need for rest. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  tinnitus: {
+    titel: "Tinnitus",
+    kategorie: "nerven-psyche",
+    icon: "🔔",
+    kurz: "A tone that no one but the person affected can hear – often the audible continuation of an inner voice that never quite falls silent.",
+    definition: "Tinnitus refers to the perception of sounds – ringing, whistling, hissing, humming – without any corresponding external sound source. It is not a disease in its own right, but a symptom that can be triggered by very different causes: noise damage, sudden hearing loss, stress, cervical spine complaints, high blood pressure, or changes in the neural processing within the auditory system itself. Acute tinnitus (lasting up to three months) is distinguished from chronic tinnitus, which persists longer and in which the brain increasingly focuses on the disturbing sound, often intensifying the distress regardless of the objective loudness. What often determines the course is less the intensity of the tone itself than the inner attitude toward it: if it is perceived as a threat, attention to it grows, and with it its felt weight in daily life.",
+    symptome: ["Persistent or recurring ringing, whistling, hissing, or humming in the ear", "Heightened perception in silence, such as when falling asleep", "Concentration and sleep disturbances from the constant sound", "Increased irritability and inner tension", "Sometimes accompanying hearing loss or a feeling of pressure in the ear", "Increased sensitivity to sound (hyperacusis)", "In chronic cases, possible accompanying symptoms such as exhaustion or low mood"],
+    notfall: "Sudden-onset tinnitus, especially with hearing loss or dizziness, should be evaluated by an ENT specialist within 24 to 48 hours (possible sudden hearing loss).",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Tinnitus is a tone without an external source – and for that very reason a particularly striking image for something that comes from within and cannot simply be switched off. In TCM, tinnitus is frequently linked to a weakness of Kidney essence or to rising Liver fire, which makes itself known in the most sensitive of all sense organs. Psychosomatically, tinnitus invites a reading centered on an inner voice that never quite falls silent: a thought, a worry, an unheard need, or an ongoing inner commentary that finds no room in the outer world and instead makes itself heard as a persistent sound in the inner ear. For each of the 27 subtypes, its own pattern shows which inner voice makes itself unmistakably heard in this way.",
+    typen: [
+      { typ: 1, titel: "A voice that never quite falls silent", varianten: [
+        { code: "SE1", text: "Small everyday mistakes are registered by the self-preservation One with an inner voice that constantly corrects and admonishes. If this voice no longer finds an addressee in the outer world, it can make itself known as a persistent ringing in the ear." },
+        { code: "SO1", text: "Her criticism of other people's misconduct the social One mostly holds back, to appear morally composed – but inwardly the commentary often keeps running. It is exactly this unspoken inner judging that can continue as a constant hissing in the ear." },
+        { code: "SX1", text: "Her outrage the sexual One mostly voices immediately, rather than letting it keep running inwardly. If, in some particular situation, direct expression is exceptionally denied to her, this pent-up intensity can make itself known unusually as a ringing in the ear." },
+      ]},
+      { typ: 2, titel: "A need that goes unheard", varianten: [
+        { code: "SE2", text: "About her own need for attention, the self-preservation Two barely speaks; she sets it aside in favor of others. If this need stays permanently unspoken, it can gain an indirect voice as a persistent tone in the ear." },
+        { code: "SO2", text: "Her own contribution the social Two rarely names openly; she rather hopes it will be noticed on its own. If this recognition stays permanently absent, the resulting inner restlessness can show up as a lasting hiss." },
+        { code: "SX2", text: "Her needs the sexual Two demands directly and immediately within the one important relationship, rather than holding back. If this demanding is nonetheless overheard within one particular relationship, the resulting disappointment can settle physically as a sound in the ear." },
+      ]},
+      { typ: 3, titel: "A voice beneath the facade", varianten: [
+        { code: "SE3", text: "Her exhaustion the self-preservation Three barely tells anyone; she would rather keep functioning. What finds no voice on the outside in this way can make itself known inwardly as a persistent ringing, especially in the rare quiet moments." },
+        { code: "SO3", text: "Behind her flawless public image, the social Three usually keeps doubt and exhaustion consistently hidden. It is exactly this concealed inner voice that, when everything runs smoothly on the surface, can make itself known as tinnitus in the silence." },
+        { code: "SX3", text: "Letting her exhaustion become visible in front of the one important person comes naturally to the sexual Three, rather than hiding it behind a facade. If this showing exceptionally finds no resonance, the resulting inner tension can make itself known as a sound in the ear." },
+      ]},
+      { typ: 4, titel: "A feeling searching for resonance", varianten: [
+        { code: "SE4", text: "Her intense feelings the self-preservation Four, the counter-type, mostly carries silently, without showing them openly. If this silent feeling goes without any resonance for a long stretch of time, it can make itself audible as a persistent inner tone." },
+        { code: "SO4", text: "Her suffering the social Four often narrates in familiar words in front of a trusted audience, hoping for understanding. If this narration exceptionally finds no real hearing, the resulting disappointment can show up as a persistent ringing in the ear." },
+        { code: "SX4", text: "Nothing about her feelings stays held back with the sexual Four; every wave finds immediate expression. If this intense expression meets silence or incomprehension from the surroundings, the disappointed expectation can continue physically as a sound in the ear." },
+      ]},
+      { typ: 5, titel: "A voice in the protected inner room", varianten: [
+        { code: "SE5", text: "Contact and exchange the self-preservation Five consistently reduces to a minimum; her thoughts mostly remain unspoken in her inner room. It is exactly in this chosen silence that an inner tone can step forward especially clearly." },
+        { code: "SO5", text: "Professional knowledge the social Five willingly shares, while her own doubts mostly stay unspoken in the background. If no room is left for these unspoken doubts, they can make themselves known as a persistent hiss in the ear." },
+        { code: "SX5", text: "Only within the one deep bond does the sexual Five truly open up mentally, more openly than anywhere else. If this one bond exceptionally goes without real listening, the resulting disappointment can make itself known as a sound in the ear." },
+      ]},
+      { typ: 6, titel: "A voice of worry", varianten: [
+        { code: "SE6", text: "Possible problems the self-preservation Six replays in her mind again and again, a circling that rarely truly settles. This inner circling can continue physically as a persistent ringing in the ear." },
+        { code: "SO6", text: "About the group, the social Six worries constantly, mostly without voicing it aloud. If this worry stays permanently unspoken, it can gain its own voice as a persistent hiss in the ear." },
+        { code: "SX6", text: "Instead of processing fear mentally, the sexual Six, the counter-type, mostly seeks immediate, loud confrontation. If this direct confrontation is denied to her in some particular situation, the pent-up tension can show up as a sound in the ear." },
+      ]},
+      { typ: 7, titel: "A voice in the silence", varianten: [
+        { code: "SE7", text: "Silence and discomfort the self-preservation Seven prevents from properly arising through constant distraction. If real silence does become unavoidable, a previously drowned-out inner tone can make itself known within it." },
+        { code: "SO7", text: "Left unspoken with the social Seven, the counter-type, is usually her own exhaustion, while she keeps pushing her limits back for the group. This unspoken exhaustion can gain its own voice as a persistent hiss in the ear." },
+        { code: "SX7", text: "Barely held back is what excites the sexual Seven about new experiences – she addresses it immediately. If one particularly intense experience exceptionally finds no echo in others, the resulting disappointment can make itself known as a sound in the ear." },
+      ]},
+      { typ: 8, titel: "A voice behind the strength", varianten: [
+        { code: "SE8", text: "Weakness the self-preservation Eight rarely shows; her own exhaustion or doubt she almost never addresses openly. What finds no voice on the outside in this way can make itself known inwardly as a persistent ringing in the ear." },
+        { code: "SO8", text: "Left unspoken with the social Eight is usually her own exhaustion, while she demonstrates strength in her protector role. This hidden exhaustion, when everything looks under control publicly, can show up as a lasting hiss in the ear." },
+        { code: "SX8", text: "Physical closeness to the person she loves is for the sexual Eight the most immediate expression of her intensity. If this physical outlet is missing in some particular situation, the pent-up tension can make itself known as a sound in the ear." },
+      ]},
+      { typ: 9, titel: "A voice passed over", varianten: [
+        { code: "SE9", text: "Barely recognizing her own needs as such is more the rule than the exception for the self-preservation Nine, so deeply does she dissolve into routine and comfort. It is exactly this overridden own need that, if it finds no other voice for a long time, can make itself known as a persistent ringing in the ear." },
+        { code: "SO9", text: "Bringing her own opinion in openly is something the social Nine can rarely do; she steadily subordinates it to group harmony. This permanently held-back voice can seek an indirect path as a persistent hiss in the ear." },
+        { code: "SX9", text: "More often voiced by the sexual Nine are her partner's concerns rather than her own, so completely does she merge with him. If her own voice stays permanently unheard, even by herself, it can seek its own unmistakable form as a sound in the ear." },
+      ]},
+    ],
+    abschluss: "No hearing is immune to tinnitus, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with an inner voice that finds no room in the outer world in their own way – some through restraint, others through open expression, withdrawal, or a chronically overridden concern of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  schwindel_vertigo: {
+    titel: "Dizziness (Vertigo)",
+    kategorie: "nerven-psyche",
+    icon: "🌀",
+    kurz: "The ground one believed to be standing on securely starts to sway – a loss of orientation that can feel physical and emotional at once.",
+    definition: "Dizziness (vertigo) refers to a disturbed perception of one's own position and movement in space – a feeling of spinning, swaying, or an impending fall, without any actual movement taking place. The causes are varied: disorders of the inner ear's balance organ (such as benign paroxysmal positional vertigo or Ménière's disease), circulatory problems, tension in the cervical spine, neurological conditions, or – especially often – psychogenic or phobic postural vertigo, in which no clear organic cause can be found even though the dizziness is real and distressing. It is exactly this functional dizziness that is often connected to stress, anxiety, or overload: the balance system reacts sensitively to inner tension, even when the balance mechanism in the inner ear itself is intact. The dizziness is frequently intensified further by fear of the next episode – a cycle that keeps itself going.",
+    symptome: ["Spinning or swaying dizziness, sometimes in episodes, sometimes constant", "Feeling of unsteadiness when walking or standing", "Nausea and vomiting during stronger episodes", "Visual disturbances or the feeling that the surroundings are moving", "Fear of the next dizzy spell (anticipatory anxiety)", "Frequently accompanying tension in the neck and shoulders", "Racing heart or a feeling of tightness with psychogenic dizziness"],
+    notfall: "Sudden, very severe dizziness with speech, vision, or movement disturbances, numbness, or severe headache should be evaluated by emergency medical services immediately (possible stroke).",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Dizziness takes away something very fundamental: the certainty of where up and down are. In TCM, dizziness is frequently associated with rising Liver wind or a weakness of Spleen Qi, in which the body lacks stable inner grounding. Psychosomatically, dizziness invites a reading centered on orientation and ground: where in life is a reliable foothold, a clear standpoint, a secure position currently missing – so that this uncertainty shows up physically as a loss of balance? For each of the 27 subtypes, its own pattern shows exactly where in life this ground begins to sway.",
+    typen: [
+      { typ: 1, titel: "A ground that suddenly stops holding", varianten: [
+        { code: "SE1", text: "Fixed routines and clear rules give the self-preservation One reliable footing in everyday life. If this order gets thrown into disarray for whatever reason, this unsettlement can make itself known physically as a feeling of dizziness." },
+        { code: "SO1", text: "Her moral certainty about right and wrong gives the social One a firm standpoint in dealing with others. If this standpoint starts to sway due to conflicting views, that can show up as a genuine sensation of postural dizziness." },
+        { code: "SX1", text: "Her convictions the sexual One voices immediately and forcefully, without hesitating for long. If this certainty is ever fundamentally shaken, say by someone close to her, this shock can express itself unusually as physical dizziness." },
+      ]},
+      { typ: 2, titel: "A footing that depends on others", varianten: [
+        { code: "SE2", text: "Her own footing the self-preservation Two often seeks in being indispensable to others. If this role is questioned or no longer needed, the resulting loss of ground under her feet can make itself known as dizziness." },
+        { code: "SO2", text: "Her usefulness to the community forms an essential part of the social Two's inner footing. If recognition for it stays absent over a longer period, the resulting inner insecurity can express itself physically as postural dizziness." },
+        { code: "SX2", text: "Her footing the sexual Two finds above all in the one important relationship, on which she concentrates intensely. If this one bond starts to sway, say through distance or conflict, that can settle immediately and physically as dizziness." },
+      ]},
+      { typ: 3, titel: "A ground built from achievement", varianten: [
+        { code: "SE3", text: "Her footing the self-preservation Three finds above all in functioning capability and visible success. If this capability ever breaks down, say through exhaustion, the associated loss of ground can show up as dizziness." },
+        { code: "SO3", text: "Her public image of success gives the social Three an essential part of her outward standpoint. If this image starts to sway due to a visible setback, this shock can make itself known physically as postural dizziness." },
+        { code: "SX3", text: "Her footing the sexual Three seeks above all in the attraction she exerts on the one important person. If this attraction ever noticeably fades, the underlying insecurity can express itself physically as a feeling of dizziness." },
+      ]},
+      { typ: 4, titel: "A ground that depends on feeling", varianten: [
+        { code: "SE4", text: "Tenaciously and persistently, the self-preservation Four, the counter-type, holds onto her everyday functioning despite an inner longing. If this laboriously maintained facade ever does break down, the loss of ground underneath it can show up as dizziness." },
+        { code: "SO4", text: "Her identity the social Four often rests on the story of her own suffering, told in front of a trusted audience. If this story loses its footing, say because it is no longer heard, the resulting disorientation can express itself physically as dizziness." },
+        { code: "SX4", text: "Her footing the sexual Four finds above all in the intensity of her feelings themselves, less in outward stability. If this intensity tips from euphoria into deep despair, this inner swing can settle physically as postural dizziness." },
+      ]},
+      { typ: 5, titel: "A ground built from withdrawal", varianten: [
+        { code: "SE5", text: "Her footing the self-preservation Five finds in a clearly delimited, manageable retreat space. If this space is disturbed or threatened from the outside, the resulting unsettlement can make itself known physically as dizziness." },
+        { code: "SO5", text: "Through her knowledge and expertise, the social Five gains an essential part of her standpoint within the group. If this knowledge is ever fundamentally called into question, the resulting shock can express itself as postural dizziness." },
+        { code: "SX5", text: "A rare, genuine footing the sexual Five finds precisely where she otherwise keeps the most distance: in the one deep bond. If this one bond starts to sway, that can make itself known immediately and physically as dizziness." },
+      ]},
+      { typ: 6, titel: "A ground built from safety", varianten: [
+        { code: "SE6", text: "Familiar, predictable structures give the self-preservation Six reliable footing in everyday life. If one of these structures suddenly falls away, the resulting loss of control can express itself physically as dizziness." },
+        { code: "SO6", text: "Belonging to a reliable group forms an essential part of the social Six's inner footing. If this belonging starts to sway, say through a conflict within the group, that can make itself known physically as postural dizziness." },
+        { code: "SX6", text: "Courage and immediate confrontation replace withdrawal into familiar safety for the sexual Six, the counter-type. If this built-up strength suddenly tips into exhaustion, the ground beneath her can quite literally begin to sway." },
+      ]},
+      { typ: 7, titel: "A ground that avoids standing still", varianten: [
+        { code: "SE7", text: "Standstill is something the self-preservation Seven hardly ever allows; the next pleasant opportunity is always in sight. If she is forced to pause after all, the resulting disorientation can show up physically as dizziness." },
+        { code: "SO7", text: "Barely any fixed standpoint of her own is left for the social Seven, the counter-type, once she keeps pushing her limits back for the group. This self-overextension can express itself physically as a persistent feeling of postural dizziness." },
+        { code: "SX7", text: "Hardly weighed for long is anything before the sexual Seven throws herself into a new, intense experience. If this euphoria is followed by an abrupt crash, say through disappointment, this swing can express itself physically as dizziness." },
+      ]},
+      { typ: 8, titel: "A ground built from control", varianten: [
+        { code: "SE8", text: "A reliable standpoint the self-preservation Eight secures for herself through consistent control of her environment. If this control ever slips away unexpectedly, say through illness or dependence on others, that can settle physically as dizziness." },
+        { code: "SO8", text: "Firm and forceful, the social Eight appears outwardly in her protector role, a deliberately constructed standpoint. If this role is ever fundamentally called into question, the underlying insecurity can make itself known as postural dizziness." },
+        { code: "SX8", text: "Above all in the intense bond to the person she loves does the sexual Eight find her real footing. If this one bond starts to sway, that can express itself physically and immediately as dizziness, more strongly than in other Eight variants." },
+      ]},
+      { typ: 9, titel: "A ground that overrides itself", varianten: [
+        { code: "SE9", text: "Barely perceptible remains the self-preservation Nine's own standpoint, so completely does she dissolve into routine and comfort. If this routine is unexpectedly interrupted, the missing footing of her own can show up as dizziness." },
+        { code: "SO9", text: "Barely recognizable as her own remains the social Nine's standpoint, because she steadily subordinates it to group harmony. If the group itself starts to sway, she often lacks her own firm ground as a result, which can express itself as postural dizziness." },
+        { code: "SX9", text: "Adopted rather than formed on her own is often the standpoint of the sexual Nine, taken from the partner she merges with. If the partner starts to sway or grows distant, the Nine also noticeably loses her own footing, which can show up physically as dizziness." },
+      ]},
+    ],
+    abschluss: "No sense of balance is immune to dizziness, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes seeks their inner footing in different places – some in control, others in relationship, achievement, or a carefully guarded routine – and reacts correspondingly differently when that footing starts to sway. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  restless_legs_syndrom: {
+    titel: "Restless Legs Syndrome",
+    kategorie: "nerven-psyche",
+    icon: "🦵",
+    kurz: "Of all times, it is in rest that an urge to move appears that cannot be ignored – strongest exactly where stillness was supposed to take over.",
+    definition: "Restless Legs Syndrome (RLS) is a neurological condition characterized by an unpleasant urge to move the legs, often described as tingling, pulling, or electrifying. Characteristically, the symptoms appear above all during periods of rest – in the evening and at night, while sitting or lying down – and are temporarily relieved by movement, only to return once stillness sets in again. The exact cause is not fully understood; disturbances in the brain's dopamine metabolism and an iron deficiency in the central nervous system are discussed as contributing factors. RLS occurs primarily (often running in families) or secondarily in connection with pregnancy, iron deficiency, kidney insufficiency, or certain medications. The condition frequently disrupts sleep significantly, since the urge to move is strongest exactly when falling asleep.",
+    symptome: ["Unpleasant urge to move the legs, especially in the evening and at night", "Tingling, pulling, or electrifying sensation in the calves or thighs", "Temporary relief through movement, walking, or stretching", "Worsening during rest – while sitting, lying down, or falling asleep", "Falling and staying asleep difficulties caused by the nighttime symptoms", "Involuntary, periodic leg movements during sleep", "Daytime tiredness as a result of the disrupted sleep"],
+    notfall: "Not an acute emergency. For pronounced symptoms with significant sleep disturbance or sudden new onset, medical evaluation is advisable (including iron levels and kidney function).",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Restless Legs Syndrome has a striking peculiarity: it appears exactly when the body is supposed to settle into rest, and disappears the moment movement resumes. In TCM, such an inner wind in the legs is often interpreted as a combination of Blood and Yin deficiency, in which the body lacks the calming, anchoring element. Psychosomatically, RLS invites a reading centered on held-back movement or held-back drive: an energy, an impulse, or an unresolved concern that could find expression through action during the day but finds no room there of all places – and so makes itself known exactly when stillness is demanded. For each of the 27 subtypes, its own pattern shows which daytime drive finds too little room and reports back at night as restlessness in the legs.",
+    typen: [
+      { typ: 1, titel: "A drive that reports back at night", varianten: [
+        { code: "SE1", text: "During the day, the self-preservation One keeps her movements disciplined and controlled, every action having its ordered place. It is exactly this control that can return at night, once no task remains, as a restless urge to move in the legs." },
+        { code: "SO1", text: "Her energy the social One directs consistently during the day toward whatever seems right and necessary. If a remainder of unused energy is left over in the evening once this direction falls away, it can show up as restlessness in the legs." },
+        { code: "SX1", text: "Her anger and energy the sexual One mostly lives out immediately during the day, rather than holding them back. If this direct discharge is denied to her on some particular day, the pent-up tension can make itself known in the legs at night." },
+      ]},
+      { typ: 2, titel: "A giving that does not come to rest", varianten: [
+        { code: "SE2", text: "For others, the self-preservation Two is practically constantly in motion during the day, hardly a movement belonging to herself alone. Once her body finally comes to rest in the evening, exactly there an unmet impulse to move can become noticeable in the legs." },
+        { code: "SO2", text: "Her energy the social Two puts above all into her engagement for the community during the day. If no conscious time is left for herself in the evening, this overridden energy of her own can make itself known as restlessness in the legs." },
+        { code: "SX2", text: "Her energy the sexual Two directs intensely during the day toward the one important relationship, physical closeness included. If this closeness is missing on a particular evening, the leftover tension can show up as restlessness in the legs." },
+      ]},
+      { typ: 3, titel: "A pace that does not switch off", varianten: [
+        { code: "SE3", text: "Her high working pace the self-preservation Three keeps up all day without real breaks, her body staying in near-constant motion. Once she finally lies down in the evening, exactly this sudden stillness can be what makes the urge to move truly noticeable." },
+        { code: "SO3", text: "Her visible success demands constant activity and presence from the social Three during the day. Once her body comes to rest in the evening, the busyness built up during the day can continue as restlessness in the legs." },
+        { code: "SX3", text: "Her full attractiveness the sexual Three prefers to display where the one important person can see it. If this audience is missing in the evening, the leftover, now unused energy can make itself known as restlessness in the legs." },
+      ]},
+      { typ: 4, titel: "A feeling that wants to move", varianten: [
+        { code: "SE4", text: "Tenacious, functional control is what the self-preservation Four, the counter-type, imposes on her intense feelings all day long. Once her body comes to rest in the evening, exactly this suppressed emotional charge can discharge as restlessness in the legs." },
+        { code: "SO4", text: "Her emotional world the social Four gladly narrates in words in front of a trusted audience during the day. If a remainder of unspoken inner movement is left over in the evening, alone and without an audience, it can make itself known in the legs." },
+        { code: "SX4", text: "Barely a single impulse stays unlived with the sexual Four during the day; every feeling finds its immediate expression. If the usual intense discharge is missing on one evening, the leftover tension can show up as restlessness in the legs." },
+      ]},
+      { typ: 5, titel: "A withdrawal that piles up energy", varianten: [
+        { code: "SE5", text: "Contact and outward movement the self-preservation Five deliberately keeps low during the day, in order to conserve energy. This conserved, unspent energy can report back exactly during the evening's rest as restlessness in the legs." },
+        { code: "SO5", text: "Intellectual exchange takes up broad room in the social Five's day, while physical movement often falls short. In the evening, once the intellectual exchange ends, the movement deficit accumulated over the day can show up as restlessness in the legs." },
+        { code: "SX5", text: "Physical closeness is something the sexual Five also allows, but almost exclusively within her one deep bond. If this one bond is missing on a particular evening, the resulting inner tension can make itself known as restlessness in the legs." },
+      ]},
+      { typ: 6, titel: "A tension that wants to move", varianten: [
+        { code: "SE6", text: "The self-preservation Six's body stays in constant muscular tension during the day, a physical echo of her inner vigilance. Once her body comes to rest in the evening, this constant tension can continue as a noticeable urge to move in the legs." },
+        { code: "SO6", text: "Rarely worked off physically during the day is the social Six's worry about the group; it mostly stays in her head. This unexpressed worry can make itself known in the evening, when rest is supposed to set in, as restlessness in the legs." },
+        { code: "SX6", text: "Physical, immediate confrontation is for the sexual Six, the counter-type, the most natural way of dealing with fear during the day. If this discharge is denied to her on a particular day, the pent-up energy can show up in the legs at night." },
+      ]},
+      { typ: 7, titel: "A restlessness that will not settle", varianten: [
+        { code: "SE7", text: "Hardly a moment stays motionless for the self-preservation Seven during the day; her body is active in some form or another almost constantly. If her body finally has to hold still in the evening, exactly this resistance can show up as restlessness in the legs." },
+        { code: "SO7", text: "Overridden during the day is her own exhaustion for the social Seven, the counter-type, almost continuously, while she stays active for the group. Once her body comes to rest in the evening, this overridden exhaustion can paradoxically make itself known as an urge to move." },
+        { code: "SX7", text: "Intense new experiences fill the sexual Seven's day almost seamlessly, entirely following her enthusiasm. If the usual intensity is missing in the evening, the leftover, now unused excitement can discharge as restlessness in the legs." },
+      ]},
+      { typ: 8, titel: "A force that knows no standstill", varianten: [
+        { code: "SE8", text: "Hardly a movement stays unused for the self-preservation Eight during the day; her physical strength is constantly at work. If she has to hold still in the evening, this accumulated bodily force can make itself known as restlessness in the legs." },
+        { code: "SO8", text: "Physically present and ready for action stays the social Eight during the day, entirely in the service of her protector role. Once her body comes to rest in the evening, this readiness built up during the day can continue as an urge to move in the legs." },
+        { code: "SX8", text: "Most readily immediate and physical, in close contact with the person she loves, is how the sexual Eight discharges her intensity during the day. If this physical outlet is missing in the evening, the leftover tension can show up as restlessness in the legs." },
+      ]},
+      { typ: 9, titel: "An energy that overrides itself", varianten: [
+        { code: "SE9", text: "Her own impulses to move easily get lost for the self-preservation Nine, so deeply does she dissolve into routine and comfort. Exactly this overridden energy can report back in the evening, once silence sets in, as restlessness in the legs." },
+        { code: "SO9", text: "Left unlived during the day are often the social Nine's own impulses, because she steadily subordinates her concerns to group harmony. These unlived impulses can make themselves known in the evening as a noticeable urge to move in the legs." },
+        { code: "SX9", text: "The partner's rhythm the sexual Nine follows during the day rather than her own, so completely does she merge with him. Once she comes to rest in the evening, her own rhythm, overridden all day, can speak up as restlessness in the legs." },
+      ]},
+    ],
+    abschluss: "No pair of legs is immune to Restless Legs Syndrome, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes finds different amounts of room for their own drive during the day – and reacts correspondingly differently when this drive finds no outlet left by evening. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  zaehneknirschen_bruxismus: {
+    titel: "Teeth Grinding (Bruxism)",
+    kategorie: "nerven-psyche",
+    icon: "🦷",
+    kurz: "What was held back during the day presses itself unconsciously through the jaw at night – tension that found no other way out.",
+    definition: "Bruxism refers to the unconscious clenching or grinding of teeth, usually at night during sleep, more rarely also during the day. The jaw muscles develop forces far beyond what is needed for chewing, which over the long term can lead to tooth wear, jaw joint complaints, tension in the chewing and neck muscles, and headaches. Today the main cause is considered to be less a purely dental misalignment and more psychological stress and inner tension: nighttime grinding is often understood as a kind of unconscious valve through which tension accumulated during the day is released, once conscious control eases off during sleep. Certain lifestyle factors such as caffeine, alcohol, or smoking can also promote bruxism. A bite guard can protect the teeth but does not address the underlying tension itself.",
+    symptome: ["Nighttime, often unnoticed grinding or clenching of the teeth", "Worn, shortened, or sensitive teeth", "Tension and pain in the chewing muscles, especially in the morning", "Jaw joint complaints with clicking or restricted mouth opening", "Tension headaches, often in the temple area", "Neck and shoulder tension", "Sometimes accompanying earache or tinnitus due to the proximity of the jaw joint"],
+    notfall: "Not an acute emergency. For severe jaw pain, significantly restricted mouth opening, or visible tooth wear, dental evaluation is advisable.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Bruxism happens in sleep, exactly where conscious control over one's own behavior is loosened the most – and it is exactly there that something presses itself through the jaw that apparently found no other outlet during the day. In TCM, teeth grinding is frequently linked to stagnant Liver Qi, which, much like a clenched jaw, seeks its way through tension rather than free flow. Psychosomatically, bruxism invites a reading centered on held-back anger or held-back words: something that wanted to be said or expressed during the day but was held back – and discharges at night, unconsciously and uncontrolled, in the literal clenching of the teeth. For each of the 27 subtypes, its own pattern shows which held-back impulse breaks through the jaw at night.",
+    typen: [
+      { typ: 1, titel: "An anger that asserts itself at night", varianten: [
+        { code: "SE1", text: "Small irritations the self-preservation One disciplines away during the day rather than voicing them. In sleep, once this self-control eases, the accumulated anger can unconsciously assert itself as teeth grinding." },
+        { code: "SO1", text: "Whatever moral outrage stays hidden behind a composed facade during the day almost never leaves the social One directly. It is exactly this held-back anger that can show up at night, without conscious control, as a firm clenching of the teeth." },
+        { code: "SX1", text: "Her anger the sexual One mostly voices immediately during the day, rather than holding it back. If this direct expression is exceptionally denied to her on some particular day, the leftover tension can discharge in the jaw at night." },
+      ]},
+      { typ: 2, titel: "A claim that breaks through at night", varianten: [
+        { code: "SE2", text: "Her own need for recognition the self-preservation Two hardly addresses openly during the day; she sets it aside. At night, once this restraint eases, this overridden need can make itself known unconsciously as teeth grinding." },
+        { code: "SO2", text: "Her own effort for others the social Two rarely names openly during the day; she rather hopes it will be seen. If this recognition stays absent, the resulting quiet disappointment can show up at night as a firm clenching of the teeth." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two hardly leaves a need of her own unspoken. If she is nonetheless overridden within this one particular relationship, the pent-up disappointment can discharge in the jaw at night." },
+      ]},
+      { typ: 3, titel: "A pressure that releases at night", varianten: [
+        { code: "SE3", text: "Showing exhaustion during the day is something the self-preservation Three avoids; she would rather keep functioning flawlessly. At night, once functioning is no longer required, this hidden tension can discharge as teeth grinding." },
+        { code: "SO3", text: "Hardly a crack in the image of success is allowed to show for the social Three during the day, not even under inner pressure. It is exactly this hidden pressure that can show up at night, without conscious control, as a firm clenching of the teeth." },
+        { code: "SX3", text: "Her exhaustion is most visible for the sexual Three exactly in front of the one important person, rather than hidden behind a facade. If this person stays away on a particular evening, the resulting tension can show up in the jaw at night." },
+      ]},
+      { typ: 4, titel: "A feeling that asserts itself at night", varianten: [
+        { code: "SE4", text: "Tenaciously and functionally, the self-preservation Four, the counter-type, holds onto her everyday routine during the day, while her actual emotional state barely shows on the outside. At night, once this laboriously maintained control eases, the pent-up emotional charge can discharge as teeth grinding." },
+        { code: "SO4", text: "In front of a trusted audience, her own pain stays a recurring topic of conversation for the social Four during the day. If this narration exceptionally finds no resonance, the resulting disappointment can show up at night as a firm clenching of the teeth." },
+        { code: "SX4", text: "Her feelings the sexual Four expresses unfiltered and without detour during the day, rather than storing them up. If this discharge is exceptionally denied to her on some particular day, the leftover tension can make itself known in the jaw at night." },
+      ]},
+      { typ: 5, titel: "A withdrawal that gives way at night", varianten: [
+        { code: "SE5", text: "Contact and closeness the self-preservation Five consistently keeps at a distance during the day, to protect her energy. At night, once this deliberate boundary eases, the tension behind it can show up as teeth grinding." },
+        { code: "SO5", text: "Whatever doubts she carries during the day, the social Five hardly voices them, while her professional knowledge circulates freely. These unspoken doubts can show up at night, without conscious control, as a firm clenching of the teeth." },
+        { code: "SX5", text: "Genuine closeness stays foreign to the sexual Five almost everywhere – except within the one deep bond she preserves for herself. If this one bond stays distant on a particular evening, the resulting tension can discharge in the jaw at night." },
+      ]},
+      { typ: 6, titel: "A tension that releases at night", varianten: [
+        { code: "SE6", text: "Physically, the self-preservation Six keeps her vigilance firmly in check during the day, hardly a muscle group staying truly relaxed. At night, when this vigilance could theoretically ease off, the remaining tension instead often presses through as teeth grinding." },
+        { code: "SO6", text: "Rarely openly voiced during the day is the social Six's worry about the group; it mostly remains an inner undertone. This unspoken worry can show up at night as a firm clenching of the teeth." },
+        { code: "SX6", text: "Barely able to hold back her fear during the day, the sexual Six, the counter-type, seeks immediate confrontation instead. If this discharge is denied to her on a particular day, the pent-up tension can show up in the jaw at night." },
+      ]},
+      { typ: 7, titel: "A restlessness that carries on at night", varianten: [
+        { code: "SE7", text: "Discomfort the self-preservation Seven barely lets arise during the day, through constant distraction. At night, once this distraction falls away, the overridden discomfort can make itself known as teeth grinding." },
+        { code: "SO7", text: "Pushed back again and again during the day are the social Seven's own limits, the counter-type, in favor of the group. This accumulated self-overextension can discharge at night as a firm clenching of the teeth." },
+        { code: "SX7", text: "If the sexual Seven misses her usual intense experience during the day, a noticeable gap stays behind. If the usual intensity stays absent on a particular day, the leftover, now unused excitement can discharge in the jaw at night." },
+      ]},
+      { typ: 8, titel: "A control that releases at night", varianten: [
+        { code: "SE8", text: "Over herself and her environment, the self-preservation Eight keeps consistent control during the day. At night, when this conscious control could theoretically ease off, the remaining tension instead presses through as teeth grinding." },
+        { code: "SO8", text: "Strength is what the social Eight shows outwardly in her protector role during the day; her own exhaustion stays unspoken. This hidden exhaustion can show up at night as a firm clenching of the teeth." },
+        { code: "SX8", text: "In close physical contact with the person she loves, the sexual Eight finds her favorite outlet for intensity during the day. If this outlet is missing on a particular day, the leftover tension can show up in the jaw at night." },
+      ]},
+      { typ: 9, titel: "A resistance that shows itself at night", varianten: [
+        { code: "SE9", text: "Barely consciously perceived during the day is the self-preservation Nine's own inner resistance, so deeply does she dissolve into routine and comfort. Exactly this overridden resistance can report back at night as teeth grinding." },
+        { code: "SO9", text: "Being of a different opinion inwardly and still subordinating that to group harmony belongs almost to habit for the social Nine during the day. This quiet inner contradiction can show up at night as a firm clenching of the teeth." },
+        { code: "SX9", text: "Barely voiced is the sexual Nine's own resistance to her partner's wishes, with whom she merges during the day. If this resistance stays unspoken all day, it can break through the jaw unconsciously at night." },
+      ]},
+    ],
+    abschluss: "No jaw is immune to bruxism, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes holds back different amounts of anger, claim, or resistance during the day – and this held-back impulse breaks through the jaw at night, without conscious control, in its own particular way. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  chronisches_erschoepfungssyndrom_mecfs: {
+    titel: "Chronic Fatigue Syndrome (ME/CFS)",
+    kategorie: "nerven-psyche",
+    icon: "🪫",
+    kurz: "An exhaustion that no longer knows recovery – any exertion, even the smallest, can noticeably worsen the condition for days.",
+    definition: "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome (ME/CFS) is a severe, complex multisystem illness that goes far beyond ordinary tiredness. It is characterized by profound exhaustion not improved by sleep, along with what is known as post-exertional malaise (PEM): physical, mental, or emotional exertion – even minor exertion – leads, often only after hours or days, to a massive, multi-day worsening of all symptoms. Frequently added to this are cognitive impairments (so-called brain fog), sleep disturbances despite exhaustion, muscle and joint pain, and disrupted circulatory regulation. The exact causes are not yet fully understood; disturbances of the immune system, the autonomic nervous system, and cellular energy metabolism are discussed, often triggered by a preceding infection. ME/CFS is a recognized neurological illness, not merely ›exhaustion from stress‹ – its central diagnostic feature, PEM, clearly distinguishes it from ordinary tiredness or burnout.",
+    symptome: ["Profound exhaustion not improved by sleep, lasting at least six months", "Post-exertional malaise (PEM) – delayed, multi-day worsening after exertion", "Unrefreshing sleep despite pronounced tiredness", "Cognitive impairments (brain fog), concentration and word-finding difficulties", "Muscle and joint pain without detectable inflammation", "Orthostatic symptoms – dizziness or racing heart on standing", "Significantly reduced everyday resilience, sometimes to the point of being bedridden"],
+    notfall: "Not an acute emergency in the classic sense. For severe worsening with circulatory problems or suspicion of another serious underlying condition, seek prompt medical evaluation.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "ME/CFS sets a hard limit where resilience previously seemed self-evident: every exertion, however small, is answered with a delayed, often days-long worsening. In TCM, such a deep exhaustion barely relieved by rest is frequently linked to a massive weakness of Kidney and Spleen Qi – the body's actual energy reserve itself is affected, not just its daily form. Psychosomatically, ME/CFS invites a reading centered less on a single overload than on a foundational reserve exhausted over a long stretch of time: a way of living, a pattern, or a role that demanded more than it replenished for years, until the body itself pulls the emergency brake and answers every further expenditure with withdrawal. For each of the 27 subtypes, its own pattern shows which reserve, exhausted over years, shows up here as this particularly deep, persistent exhaustion.",
+    typen: [
+      { typ: 1, titel: "A reserve consumed by discipline", varianten: [
+        { code: "SE1", text: "For years, the self-preservation One keeps up her self-discipline without any notable breaks, every lapse corrected immediately. Once this permanent tension has exhausted the actual energy reserve, even the smallest exertion can trigger a days-long worsening." },
+        { code: "SO1", text: "Her responsibility for the bigger picture the social One carries steadily for years, without admitting overextension to herself. Once this foundational reserve is exhausted, it can, especially with her, who rarely allows weakness, escalate unnoticed for an especially long time." },
+        { code: "SX1", text: "Her energy the sexual One deploys immediately and with full intensity for her convictions, without holding it back over the years. Once this continuously deployed energy is finally exhausted, the crash can turn out correspondingly abrupt and deep." },
+      ]},
+      { typ: 2, titel: "A reserve used up in giving", varianten: [
+        { code: "SE2", text: "For years, the self-preservation Two consistently puts her own needs behind those of others, without regularly refilling herself. Once this reserve is eventually completely exhausted, that can show up as a particularly deep exhaustion that hardly responds to rest." },
+        { code: "SO2", text: "Her effort for the community the social Two provides for years, often without genuinely demanding balance for herself. If this balance stays permanently absent, the resulting exhaustion can condense into a state that no longer responds to any rest." },
+        { code: "SX2", text: "All her energy the sexual Two directs for years toward the one important relationship, often with high intensity. If this one source has remained her only source of energy for a long time, its running dry can be felt with particular depth." },
+      ]},
+      { typ: 3, titel: "A reserve consumed by achievement", varianten: [
+        { code: "SE3", text: "Functioning, no matter how exhausted the state underneath actually is – the self-preservation Three sticks to this for years as if it were a basic rule. Once the underlying limit is crossed, that can show up as an exhaustion that no longer responds even to ample sleep." },
+        { code: "SO3", text: "Her flawless public image the social Three maintains for years, even when the actual energy reserve has long been compromised. When the exhaustion finally breaks through, it contradicts her self-image so fundamentally that she fights against it for an especially long time." },
+        { code: "SX3", text: "Full intensity is what the sexual Three deploys for years in front of the one important person, to keep her attractiveness. Once this reserve is eventually exhausted, the crash can end her usual functioning particularly abruptly." },
+      ]},
+      { typ: 4, titel: "A reserve claimed by feeling", varianten: [
+        { code: "SE4", text: "For years, the self-preservation Four, the counter-type, carries her longing tenaciously and functionally, without letting it paralyze her. It is exactly this constant countering that can, over a long time, wear down a deep foundational reserve, which then shows up as ME/CFS." },
+        { code: "SO4", text: "Her suffering the social Four keeps alive for years in familiar narratives, which bind psychically without bringing real relief. If this binding persists over a long time, it can contribute to the deep, unrefreshing exhaustion characteristic of ME/CFS." },
+        { code: "SX4", text: "Every impulse is lived by the sexual Four for years at full strength, never throttled. Once this reserve of emotional intensity is eventually exhausted, the physical crash can turn out correspondingly deep and long-lasting." },
+      ]},
+      { typ: 5, titel: "A reserve that dwindles despite withdrawal", varianten: [
+        { code: "SE5", text: "Contact and needs the self-preservation Five consistently reduces for years, to protect her limited energy. Once this protection eventually no longer suffices, the remaining exhaustion can turn out especially deep and stubborn." },
+        { code: "SO5", text: "Cognitive heavy lifting the social Five willingly provides for the group for years, even though it is more taxing than it looks from the outside. Once this mental reserve is eventually exhausted, it often shows up first as the brain fog typical of ME/CFS." },
+        { code: "SX5", text: "Considerable emotional energy the sexual Five puts for years into the one deep bond that she otherwise consistently denies herself. If this one source runs dry, the resulting exhaustion can feel especially profound." },
+      ]},
+      { typ: 6, titel: "A reserve consumed by vigilance", varianten: [
+        { code: "SE6", text: "Vigilance that never fully lets up demands a high, barely visible toll from the self-preservation Six's nervous system for years. It is exactly this ongoing strain on the nervous system that counts among the most plausible pathways to a deep, unrefreshing exhaustion." },
+        { code: "SO6", text: "Never fully relieved does the social Six feel from worry about her group, year after year. If this worry persists over a long time, it can contribute to the foundational-reserve exhaustion characteristic of ME/CFS." },
+        { code: "SX6", text: "Draining, immediate confrontation is preferred by the sexual Six, the counter-type, over cautious withdrawal, for years. Once this strength is eventually used up, the crash can turn out especially abrupt and deep." },
+      ]},
+      { typ: 7, titel: "A reserve consumed by distraction", varianten: [
+        { code: "SE7", text: "Real recovery the self-preservation Seven barely allows close to herself for years; the next pleasant activity is always waiting. Once the underlying foundational reserve is eventually exhausted, even the smallest exertion can trigger a multi-day worsening." },
+        { code: "SO7", text: "Barely a genuine break of her own is left for the social Seven, the counter-type, for years, because she keeps pushing her limits back for the group. This ongoing self-overextension counts among the most plausible pathways to a chronic fatigue syndrome." },
+        { code: "SX7", text: "Unchecked, the sexual Seven strings one intense experience after another for years, without real pauses to catch her breath. Once this reserve of arousability is eventually exhausted, the crash can turn out especially unexpected and deep for her." },
+      ]},
+      { typ: 8, titel: "A reserve consumed by control", varianten: [
+        { code: "SE8", text: "Her own signs of exhaustion the self-preservation Eight overrides for years if necessary, as long as control over body and resources remains intact. If these signs are overridden long enough, an especially deep, treatment-resistant exhaustion can develop from it." },
+        { code: "SO8", text: "Continuously present and strong, the social Eight presents herself in her protector role for years, even once her own strength has long been compromised. When the exhaustion finally breaks through, she often experiences it as an especially shattering loss of control." },
+        { code: "SX8", text: "Barely throttled over the years is how much physical intensity the sexual Eight brings into the bond with the person she loves. Once this reserve is eventually exhausted, the physical crash can turn out correspondingly abrupt and deep." },
+      ]},
+      { typ: 9, titel: "A reserve that has overridden itself", varianten: [
+        { code: "SE9", text: "Barely ever consciously registered for years are the self-preservation Nine's own signs of exhaustion, so deeply does she dissolve into routine and comfort. This especially deep self-forgetting can mean that a chronic fatigue syndrome stays unnoticed in her longest of all, before it becomes impossible to overlook." },
+        { code: "SO9", text: "Even the need for real recovery the social Nine steadily subordinates to group harmony for years. If this setting-aside becomes habitual over a long time, a deep, barely restorative exhaustion can develop from it." },
+        { code: "SX9", text: "The partner's energy level, rather than her own, is what the sexual Nine perceives for years, so completely does she merge with him. If the partner himself is exhausted or absent over a long time, the Nine's own, long overridden exhaustion can show up correspondingly deep." },
+      ]},
+    ],
+    abschluss: "No energy reserve is immune to ME/CFS, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes draws on their foundational reserve over the years in different ways – some through discipline, others through giving, vigilance, or a chronically overridden need for rest. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
@@ -65132,7 +65899,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "verdauung": [],
   "haut": ["Hair Loss (Androgenetic / Diffuse)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": [],
-  "nerven-psyche": ["Migraine", "Tension Headache", "Depression", "Generalized Anxiety Disorder", "Panic Attacks", "Burnout Syndrome", "Insomnia", "Narcolepsy", "Tinnitus", "Vertigo / Dizziness", "Restless Legs Syndrome", "Teeth Grinding (Bruxism)", "Chronic Fatigue Syndrome (ME/CFS)"],
+  "nerven-psyche": [],
   "immunsystem": ["Multiple Sclerosis", "Frequent Infections / Weak Immune System", "Long COVID / Post-Viral Syndrome", "Post-Vaccination Syndrome", "Lupus", "Food Allergies", "Sarcoidosis"],
   "onkologie": ["Breast Cancer", "Prostate Cancer", "Colorectal Cancer", "Lung Cancer", "Skin Cancer (Melanoma)", "Stomach Cancer", "Pancreatic Cancer", "Leukemia"],
   "sonstige": ["Chronic Kidney Disease", "Erectile Dysfunction", "Infertility", "Periodontitis", "Chronic Bladder Infection (Cystitis)", "Glaucoma", "Endometriosis", "Urinary Incontinence"],
