@@ -63821,6 +63821,596 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to hemorrhoids, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates pressure, burden, and overridden signals in its own way – some through permanent control, others through withdrawal, irregular self-care, or an overload of their own that is never taken seriously. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
+  neurodermitis: {
+    titel: "Atopic Dermatitis",
+    kategorie: "haut",
+    icon: "🧴",
+    kurz: "A chronic inflammatory skin condition with tormenting itch, in which the skin as a boundary organ to the outside world falls out of balance.",
+    definition: "Atopic dermatitis (eczema) is a chronic, relapsing inflammation of the skin that usually begins in childhood and often lasts a lifetime. It is marked by an impaired skin barrier, through which the skin retains moisture less well and reacts more sensitively to outside irritants – at the same time, the skin's immune system is overactive and responds to essentially harmless stimuli with inflammation. Typical is the itch-scratch cycle: tormenting itch invites scratching, scratching worsens the inflammation, which in turn intensifies the itch. Flare triggers are diverse – stress, certain fabrics, sweat, weather changes, allergens – but psychological state has long been considered one of the most reliable triggers.",
+    symptome: ["Intense, often unbearable itching", "Dry, red, scaling patches of skin", "Weeping or crusted eczema during acute flares", "Thickened, coarsened skin (lichenification) from chronic scratching", "Preferential involvement of joint flexures, neck, and face", "Sleep disruption from nighttime itching"],
+    notfall: "In case of signs of bacterial superinfection (strong redness, pus, fever) or sudden, painful blisters over larger areas of skin (possible eczema herpeticum), seek prompt medical evaluation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The skin is the body's largest organ and at the same time its boundary to the world – here it is negotiated what is let in and what is warded off, here what moves within becomes visible without. In TCM, the skin stands in close relation to the Lung, the organ that draws boundaries and lets go; an imbalance is often described as &bdquo;Wind-Heat&ldquo; or &bdquo;Blood Dryness&ldquo; – an excess of inner irritation that lacks the substance to calm itself. Psychosomatic medicine often reads atopic dermatitis as the story of a disturbed boundary: too much closeness that could not be warded off, too little touch that the body longs for, or an inner irritant that finds no other expression than through the skin itself. For each of the 27 subtypes, its own pattern shows how this boundary to the world comes under pressure.",
+    typen: [
+      { typ: 1, titel: "Control that breaks through the skin", varianten: [
+        { code: "SE1", text: "The self-preservation One tolerates flaws in her own skin as little as flaws anywhere else – every rough, reddened patch becomes an occasion for even stricter care routines. The anger that builds up behind this self-control finds a way out through the itch that she otherwise never allows herself." },
+        { code: "SO1", text: "Visible imperfection on her own skin contradicts the image the social One wants to represent in public. The suppressed frustration over her own inadequacy frequently intensifies exactly the itch she would most like to make invisible." },
+        { code: "SX1", text: "The sexual One reacts to injustice in her closest relationship with palpable intensity – this direct, episodic outburst discharges more within the contact itself than through a chronically smoldering skin reaction." },
+      ]},
+      { typ: 2, titel: "Touch that stays one-sided", varianten: [
+        { code: "SE2", text: "The self-preservation Two hardly ever openly asks for affection for herself – she would rather quietly provide for others. This lack of received touch can show up as skin that itself visibly craves contact and relief." },
+        { code: "SO2", text: "The social Two is constantly in contact with the needs of others, her own skin rarely receiving attention in the process. This chronic self-neglect in service of the group can show up as persistent itching that is taken seriously only late." },
+        { code: "SX2", text: "The sexual Two seeks complete closeness to a single person with great intensity – when this closeness is reciprocated, it tends to have a relieving effect on the skin, unlike the general undersupply of other Two variants." },
+      ]},
+      { typ: 3, titel: "Flawlessness that the skin will not play along with", varianten: [
+        { code: "SE3", text: "The self-preservation Three's body is meant to function at all times, a skin flare does not fit into her tightly scheduled day. Trying to simply work the symptom away instead of giving it room can extend the itch-scratch cycle rather than end it." },
+        { code: "SO3", text: "A flawless outward image is a central pillar of the social Three's success – visible eczema on the face or hands feels especially threatening to this image. The pressure to hide it can intensify the stress, and with it the flare itself." },
+        { code: "SX3", text: "The sexual Three wants to appear attractive and flawless in the one important relationship – a skin flare is here less often publicly negotiated, but concealed with all the more quiet shame." },
+      ]},
+      { typ: 4, titel: "Sensitivity that mirrors itself in the skin", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries her suffering stubbornly and silently over years, without ever expressing it. This unexpressed sensitivity finds a stand-in expression through a particularly reactive, thin-skinned response of the skin." },
+        { code: "SO4", text: "The social Four makes her otherness a topic rather than concealing it – a visible skin change, too, is with her less often hidden than openly told as part of her own, special story. This outward expression can give the inner pressure a valve, without making the itch itself disappear." },
+        { code: "SX4", text: "The sexual Four lives closeness and withdrawal in her relationships with great intensity – this dramatic, outward-directed expression stands clearly against the quiet, inward-directed suffering of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "Withdrawal that hardens the boundary", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently reduces contact to a minimum, physical closeness included. This general withdrawal from the world can show up as skin that itself reacts oversensitively to every stimulus from outside." },
+        { code: "SO5", text: "The social Five readily shares knowledge with her group, while keeping emotional closeness at a safe distance. This split between participation and inner withdrawal can express itself in skin that oscillates between irritation and shutdown." },
+        { code: "SX5", text: "Within her one deeply protected bond, the sexual Five allows closeness that would be unthinkable elsewhere – there the skin tends to calm down, unlike the general reactivity of other Five variants." },
+      ]},
+      { typ: 6, titel: "Fear that gets under the skin", varianten: [
+        { code: "SE6", text: "Constant caution shapes the self-preservation Six's daily life, her nervous system rarely finding real rest. This state of permanent alertness favors irritated, oversensitive skin that responds immediately to every stress impulse." },
+        { code: "SO6", text: "Loyalty to the group gives the social Six a sense of footing, her own diffuse tension often staying unspoken. This collectively carried but never fully resolved worry can show up as itching that reliably increases under strain." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with demonstrative fearlessness and confrontation rather than withdrawal. This outward-directed compensation can overplay the inner tension without visibly relieving the skin." },
+      ]},
+      { typ: 7, titel: "Distraction that drowns out the itch", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant activity to the next as soon as discomfort arises. The itch, too, gets played over and planned away for as long as possible, until the scratching returns unchecked in quiet moments." },
+        { code: "SO7", text: "The social Seven, the counter-type, usually puts her own complaints behind the well-being of the group – a noticeable itch, too, is frequently overridden until exhaustion can no longer cover it up." },
+        { code: "SX7", text: "The sexual Seven throws herself into new experiences with contagious, boundless enthusiasm – this intensity can briefly distract from the itch, but leaves little room for the rest an irritated skin actually needs." },
+      ]},
+      { typ: 8, titel: "Vulnerability that the skin makes visible", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims control over her own resources and body with great consistency. Skin that escapes this control and reacts unbidden feels to her like a particularly unpleasant reminder of her own vulnerability." },
+        { code: "SO8", text: "Showing strength outward is part of the social Eight's self-imposed protector role – visible skin problems that might reveal weakness are rarely allowed to show. The pressure to hide them can rather intensify the underlying tension." },
+        { code: "SX8", text: "In the one relationship to which she devotes herself with full intensity, the sexual Eight can also show vulnerability – there the skin tends to find relief, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that takes over the skin", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that her own warning signals barely get through. A growing itch is thus often not taken seriously for a long time, until the skin itself forces the attention she otherwise never grants herself." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own voice to group harmony, her own discomfort receding along with it. This chronic self-erasure can show up as a skin problem that is never prioritized yet keeps steadily recurring." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of her own health from her partner as soon as she merges with him – if the partner does not notice the itch, the Nine often does not notice it either, because her own bodily awareness recedes behind the merging." },
+      ]},
+    ],
+    abschluss: "No skin is immune to atopic dermatitis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates the boundary to the world in its own way – some through control, others through withdrawal, distraction, or a chronically overridden sensitivity of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  schuppenflechte: {
+    titel: "Psoriasis",
+    kategorie: "haut",
+    icon: "🩶",
+    kurz: "An autoimmune condition in which the immune system attacks the skin itself, producing sharply defined, scaling plaques.",
+    definition: "In psoriasis, a malfunction of the immune system massively accelerates skin cell renewal: instead of the usual four weeks, this cycle takes only a few days, the skin cannot shed the excess cells fast enough, and characteristic silvery-scaling, sharply demarcated plaques form – usually on the elbows, knees, scalp, and lower back. Unlike a classic allergy, the immune system here turns against the body itself. In some of those affected, the inflammation additionally spreads to the joints (psoriatic arthritis). The course is chronic with phases of varying intensity, and stress is among the most reliably documented triggers of a flare.",
+    symptome: ["Sharply demarcated, reddened patches of skin with silvery-white scaling", "Itching and a feeling of tightness in the affected areas", "Small, pinpoint bleeding when scales are removed (Auspitz sign)", "Thickened, ridged, or brittle nails", "Additional joint pain and swelling in some of those affected", "Flares that typically coincide in time with periods of stress"],
+    notfall: "In case of sudden, widespread redness with fever and a feeling of being generally unwell (possible psoriatic erythroderma or pustular form), seek medical help immediately – these rare forms can become life-threatening.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "In hardly any other skin condition does the interpretation lie so close to the physiology itself: the body's own immune system turns against its own skin, an inner attack that becomes visible on the outside. In TCM, psoriasis is frequently linked to &bdquo;Blood Heat&ldquo; – an excess of inner agitation that finds no way out other than breaking through the skin. Psychosomatic medicine often reads psoriasis as the picture of self-criticism that no longer directs itself only at thoughts or feelings, but literally at the body itself – an inner judge who has become so strict that he no longer recognizes his own cells as worth protecting. For each of the 27 subtypes, its own pattern shows how this inner harshness toward oneself arises.",
+    typen: [
+      { typ: 1, titel: "The inner judge who attacks his own skin", varianten: [
+        { code: "SE1", text: "The self-preservation One shows no leniency toward her own mistakes, her inner standard staying equally strict in every area of life. This permanent self-correction can show up as skin that literally attacks itself before it even needs an outward occasion to do so." },
+        { code: "SO1", text: "The social One continually measures herself against high moral standards – inwardly too, usually unnoticed from the outside. When this demand is chronically unmet, the pent-up self-criticism can show up as a flare-up worsening of the skin." },
+        { code: "SX1", text: "The sexual One expresses her outrage over injustice directly and immediately, rather than sealing it inside herself. This direct route outward often relieves exactly the inner harshness that, in other One variants, tends to turn against the body itself." },
+      ]},
+      { typ: 2, titel: "Care that stops at her own skin", varianten: [
+        { code: "SE2", text: "The self-preservation Two gives her strength for others unreservedly, never demanding anything in return. This systematic self-neglect combined with a high inner standard for herself can show up as skin that attacks itself while remaining outwardly caring." },
+        { code: "SO2", text: "The social Two commits herself to the group's well-being beyond her own limits, being indispensable becoming a constant yardstick. The unspoken resentment about never getting enough care back herself can discharge in flare-ups of the skin." },
+        { code: "SX2", text: "The sexual Two turns to a single person with full intensity and does indeed demand affection in return. This active claiming stands clearly against the silent self-denial of other Two variants." },
+      ]},
+      { typ: 3, titel: "A flaw that attacks the success image", varianten: [
+        { code: "SE3", text: "The self-preservation Three cannot allow herself any weakness, her self-worth hanging on functioning. Visible plaques that disturb this smooth image are often papered over with even more activity, instead of addressing her own overload." },
+        { code: "SO3", text: "Public recognition is the fuel of the social Three, and a flawless appearance is inseparable from it. Visible psoriasis on the hands or face feels like a direct attack on exactly this image, which can additionally raise the already existing performance pressure." },
+        { code: "SX3", text: "In the one crucial relationship, the sexual Three wants to appear attractive – a visible skin change is here less often publicly negotiated, concealed instead with all the more quiet tension." },
+      ]},
+      { typ: 4, titel: "Self-rejection that shows up in the skin", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries her feeling of otherness stubbornly and silently over years, without ever naming it. This inward-directed self-rejection finds a bodily counterpart in skin that turns against itself." },
+        { code: "SO4", text: "The social Four rarely conceals her suffering – she makes it a topic, speaks about it openly. This outward expression can give the underlying self-rejection a valve, without the skin itself immediately benefiting." },
+        { code: "SX4", text: "The sexual Four swings between intense closeness and equally intense despair in her relationships, openly and dramatically. This outward-directed emotional outburst stands clearly against the quiet, inward-directed self-criticism of other Four variants." },
+      ]},
+      { typ: 5, titel: "Withdrawal from her own, visible body", varianten: [
+        { code: "SE5", text: "The self-preservation Five reduces her needs and her contact with the world to a minimum, keeping a noticeable distance from her own body too. Visible skin changes are thus often noticed or taken seriously only late." },
+        { code: "SO5", text: "The social Five gladly shares knowledge with her group, while keeping physical closeness and vulnerability at a safe distance. This intellectual rather than bodily way of processing strain can show up as skin that attacks itself while the mind has long moved on." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five does allow physical vulnerability – there the skin tends to calm down, unlike the general distancing of other Five variants." },
+      ]},
+      { typ: 6, titel: "Tension that turns against her own skin", varianten: [
+        { code: "SE6", text: "Constant watchfulness shapes the self-preservation Six's daily life, her nervous system rarely finding real rest. This state of permanent alertness is among the most reliable triggers of a psoriasis flare." },
+        { code: "SO6", text: "The social Six usually puts her own diffuse worry behind loyalty to the group, rarely voicing it. This unresolved collective stress can show up in recurring skin flares that often coincide exactly with the group's periods of strain." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with demonstrative fearlessness rather than withdrawal. This outward-directed compensation can overplay inner tension without the underlying strain visibly easing for the skin." },
+      ]},
+      { typ: 7, titel: "Restlessness that overwhelms the body", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant option to the next as soon as discomfort arises. A beginning skin change is thus readily overlooked or planned away, until the body forces attention with a more pronounced flare." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently overrides her own limits in favor of the group – to the point of her own exhaustion. This chronic overriding of her own tolerance can show up in recurring flares." },
+        { code: "SX7", text: "The sexual Seven throws herself from one intense experience into the next with boundless, contagious enthusiasm. This constant search for stimulation leaves hardly any rest phases that an overactive, self-attacking skin actually needs." },
+      ]},
+      { typ: 8, titel: "Loss of control that the body reveals", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims consistent control over her body and her resources. Skin that escapes this control and attacks itself feels to her like a particularly wounding reminder that not everything is masterable." },
+        { code: "SO8", text: "Demonstrating strength outward is part of the social Eight's self-imposed protector role – visible psoriasis that betrays vulnerability is rarely shown willingly. The pressure to hide it can rather intensify the underlying tension than relieve it." },
+        { code: "SX8", text: "In the one relationship to which she devotes herself with full intensity, the sexual Eight can also show vulnerability – there the body tends to find relief, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A bodily conflict that gets overlooked", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that inner tensions barely reach the surface of her awareness. A progressing skin change is thus frequently not taken seriously for a long time." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own voice and her own needs to group harmony. This chronic self-erasure can show up as a skin problem that is never prioritized yet steadily recurring, and only taken real notice of late." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of her own health from her partner as soon as she merges with him – if the partner does not notice the skin change, the Nine often does not notice it either, because her own bodily awareness recedes behind the merging." },
+      ]},
+    ],
+    abschluss: "No skin is immune to psoriasis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with inner self-criticism and self-attack in its own way – some through moral strictness, others through withdrawal, restlessness, or a chronically overridden vulnerability of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  akne: {
+    titel: "Acne",
+    kategorie: "haut",
+    icon: "🫧",
+    kurz: "An inflammatory condition of the sebaceous glands, in which something builds up beneath the skin's surface and finally breaks through visibly.",
+    definition: "Acne arises when the skin's sebaceous glands, under hormonal influence – above all androgens, but also stress hormones such as cortisol – produce increased sebum, the pore outlets become blocked by keratinization, and bacteria can multiply unhindered in this enclosed space. The result is an inflammation that can range from inconspicuous blackheads to painful, deep-seated nodules. Best known is the acne of puberty, in which the hormonal upheaval sends sebum production into overdrive, but acne also occurs in adulthood, often closely tied to periods of stress and hormonal fluctuation. Characteristic is that something builds up under the skin's surface over weeks and finally breaks through visibly.",
+    symptome: ["Blackheads (open or closed) on the face, back, or décolletage", "Inflamed, reddened papules and pustules", "Painful, deep-seated nodules in more severe forms", "Oily, shiny skin from excess sebum production", "Scarring after more intense inflammations", "Flares clustering during periods of stress or around the menstrual cycle"],
+    notfall: "In case of very pronounced, painful, deeply inflamed nodules with fever or signs of a spreading infection, seek prompt medical evaluation, as well as in case of significant psychological distress caused by the skin condition.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Hardly any skin condition carries its psychosomatic picture so openly in its name: something builds up beneath the surface until it breaks through visibly. In TCM, acne is frequently linked to &bdquo;heat in the Lung and Stomach meridian&ldquo; – an inner excess that finds no calm outlet and instead forces its way out explosively. Psychosomatic medicine sees an obvious parallel to a pent-up inner impulse – anger, shame, an unmet longing for recognition – that cannot be expressed openly and instead discharges at the skin's surface. That acne clusters especially in puberty, that phase of the greatest inner upheaval and still untrained impulse regulation, fits this picture just as well as its flaring up again in adults during especially stressful life phases. For each of the 27 subtypes, its own pattern shows what builds up here and how it breaks through.",
+    typen: [
+      { typ: 1, titel: "Anger simmering beneath a controlled facade", varianten: [
+        { code: "SE1", text: "The self-preservation One relentlessly demands perfect-looking skin of herself – every pimple becomes proof of a supposed failure. The anger over this own imperfection builds up exactly where it becomes visible: on the skin itself." },
+        { code: "SO1", text: "Outwardly the social One strives for a flawless, exemplary appearance, while the inner frustration over her own and others' shortcomings usually stays unspoken. This pent-up displeasure can show up as a stubborn inflammation beneath the skin's surface." },
+        { code: "SX1", text: "Outrage breaks from the sexual One with palpable force the moment injustice is in the air – this immediate outburst discharges more within direct contact than through a chronically smoldering skin process." },
+      ]},
+      { typ: 2, titel: "Resentment hidden behind care", varianten: [
+        { code: "SE2", text: "The self-preservation Two passes her attention on to others unconditionally, without ever openly demanding anything in return. The unspoken resentment over this one-sidedness can show up as an inflammatory reaction beneath the skin's surface, where it burdens no one else." },
+        { code: "SO2", text: "Being indispensable to the group drives the social Two to constant effort, her own exhaustion barely allowed to show. This suppressed frustration over insufficient recognition can force its way out in recurring skin flares." },
+        { code: "SX2", text: "The sexual Two actively demands affection from the one important person with full intensity, rather than only silently giving it. This open claiming stands clearly against the hidden resentment of other Two variants." },
+      ]},
+      { typ: 3, titel: "A flare-up that threatens the success image", varianten: [
+        { code: "SE3", text: "The self-preservation Three's body has to function, a skin flare-up does not fit into her tightly scheduled performance routine. Instead of addressing her own stress level, often only the symptom is fought – which tends to prolong the underlying pressure." },
+        { code: "SO3", text: "A flawless appearance is a central part of the social Three's public success. Visible acne on the face feels to her like a direct attack on this image, which can additionally sharpen the already high inner performance pressure." },
+        { code: "SX3", text: "In the one crucial relationship, the sexual Three wants to appear attractive – a skin flare-up is here less often publicly discussed, concealed instead with all the more quiet tension and makeup." },
+      ]},
+      { typ: 4, titel: "Intensity seeking a way outward", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries her inner stirrings stubbornly and silently over years, without ever expressing them. This unexpressed intensity finds a stand-in path outward through an inflammatory skin process." },
+        { code: "SO4", text: "The social Four makes her inner turmoil a topic rather than concealing it – she speaks openly about what moves her. This outward expression can give the inner pressure a valve, without fully resolving the skin process itself." },
+        { code: "SX4", text: "The sexual Four lives closeness and withdrawal in her relationships with great intensity, openly – this dramatic, immediate expression stands clearly against the quiet, inward-directed buildup of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "Withdrawal that doesn't release the inner tension", varianten: [
+        { code: "SE5", text: "The self-preservation Five reduces her contact with the world and her own needs to a minimum. Inner tension that thus rarely finds a way out can instead show up as a stubborn skin inflammation." },
+        { code: "SO5", text: "The social Five readily shares her knowledge with the group, while keeping emotional stirrings at a safe distance. This intellectual rather than felt way of processing tension can force its way out in recurring skin flares." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five does allow emotion and closeness – there inner tension tends to release, unlike the general reserve of other Five variants." },
+      ]},
+      { typ: 6, titel: "Tension that discharges hormonally", varianten: [
+        { code: "SE6", text: "Constant watchfulness shapes the self-preservation Six's daily life, her cortisol level rarely staying truly low as a result. This state of permanent tension is among the most reliable hormonal triggers of an acne flare." },
+        { code: "SO6", text: "The social Six usually puts her own diffuse worry behind loyalty to the group, rarely voicing it. This unresolved collective stress can show up in skin flares that often coincide exactly with the group's periods of strain." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with confrontation rather than withdrawal. This outward-directed compensation can overplay tension without noticeably lowering the underlying hormonal stress." },
+      ]},
+      { typ: 7, titel: "Overstimulation that gives the skin no rest", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant distraction to the next as soon as discomfort arises – sweet or fatty treats are often part of it too. This combination of diet and constant overstimulation can favor skin flares that are taken seriously only late." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently overrides her own limits in favor of the group – to the point of her own exhaustion. This chronic overriding of her own tolerance can show up in recurring skin flares." },
+        { code: "SX7", text: "The sexual Seven throws herself from one intense experience into the next with boundless, contagious enthusiasm. This constant search for stimulation and the inner state of exception that comes with it leave hardly any rest phases that irritated skin actually needs." },
+      ]},
+      { typ: 8, titel: "Vulnerability that breaks through under control", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims consistent control over her body, hardly allowing weakness to show within it. A skin flare-up that escapes this control feels to her like a particularly wounding reminder that not everything is masterable." },
+        { code: "SO8", text: "Demonstrating strength outward is part of the social Eight's self-imposed protector role – visible acne that betrays vulnerability is rarely shown willingly. The pressure to hide it can rather intensify the underlying tension than relieve it." },
+        { code: "SX8", text: "Vulnerability is something the sexual Eight does allow herself – but exclusively within the one relationship to which she devotes herself with full intensity. There the skin tends to find relief, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A buildup that stays unnoticed for a long time", varianten: [
+        { code: "SE9", text: "Inner tension barely reaches the self-preservation Nine's awareness – too completely does she lose herself in routine and comfort. A progressing skin flare-up is thus frequently not taken seriously for a long time." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own voice and her own needs to group harmony. This chronic self-erasure can show up as a skin problem that is never prioritized yet steadily recurring, and only taken real notice of late." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of her own health from her partner as soon as she merges with him – if the partner does not notice the skin flare-up, the Nine often does not notice it either, because her own bodily awareness recedes behind the merging." },
+      ]},
+    ],
+    abschluss: "No skin is immune to acne, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with a pent-up inner impulse in its own way – some through control, others through withdrawal, overstimulation, or a chronically overridden tension of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  nesselsucht: {
+    titel: "Hives (Urticaria)",
+    kategorie: "haut",
+    icon: "⚡",
+    kurz: "Suddenly appearing, itchy welts that can vanish again within hours – an acute reaction to something that could not be digested in the moment.",
+    definition: "In hives (urticaria), mast cells in the skin suddenly release histamine, blood vessels become more permeable, fluid moves into the tissue, and itchy, reddened welts form that look reminiscent of contact with stinging nettles – hence the name. Characteristic is the rapid change: one welt can subside completely within a few hours, while the next is already forming elsewhere. A distinction is made between acute urticaria, which usually has a clear trigger (food, medication, infection, insect sting, but also cold, pressure, or stress), and chronic urticaria, in which flares keep recurring over weeks or months without a clear trigger being identifiable. In a substantial share of chronic cases, the cause remains unclear despite thorough diagnostics.",
+    symptome: ["Suddenly appearing, itchy, reddened welts", "Welts that typically subside within hours and reappear elsewhere", "A burning or stinging sensation on the skin", "Swelling of the lips, eyelids, or mucous membranes (angioedema) in stronger reactions", "Recurring flares with no identifiable external trigger in the chronic form", "Worsening of symptoms in emotionally charged or stressful moments"],
+    notfall: "In case of swelling in the throat or larynx area, shortness of breath, circulatory problems, or dizziness, call emergency services immediately – these can be signs of an allergic reaction up to and including anaphylaxis.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Unlike the more chronically creeping skin conditions before it, hives is a flash: a sudden, intense outbreak that often vanishes again just as quickly as it came. In TCM, it is frequently linked to a sudden invasion of &bdquo;Wind&ldquo; – an outer or inner irritant that overwhelms the skin's defenses within the shortest time. Psychosomatic medicine often reads urticaria as the picture of an acute, momentary overload: something – a word, a situation, a hurt, a contact – that could not be &bdquo;digested&ldquo; or swallowed in the moment and instead pushes immediately and directly to the surface. Where atopic dermatitis, psoriasis, and acne tend to speak of slowly built-up, chronic pressure, urticaria speaks of the acute overload of the moment. For each of the 27 subtypes, its own pattern shows what could not be tolerated in that moment.",
+    typen: [
+      { typ: 1, titel: "Outrage that discharges instantly", varianten: [
+        { code: "SE1", text: "A sudden rule violation in her own daily life – a mistake, disorder, a loss of control – can trigger outrage in the self-preservation One that she hardly lets show on the outside. This abruptly suppressed reaction can show up minutes later as a sudden outbreak of welts." },
+        { code: "SO1", text: "A situation perceived as unjust in her social environment can trigger spontaneous, but rarely openly shown, anger in the social One. Exactly this frustration swallowed in the moment often finds a bodily outlet through the skin a little later." },
+        { code: "SX1", text: "The sexual One's outrage over perceived injustice usually breaks out immediately and visibly, rather than being swallowed. This direct expression in the moment itself can often make the bodily detour through the skin unnecessary." },
+      ]},
+      { typ: 2, titel: "Rejection that cannot be digested in the moment", varianten: [
+        { code: "SE2", text: "An unexpected rejection of her quiet care hits the self-preservation Two harder than she shows – outwardly she stays friendly, inwardly she swallows the hurt immediately. This instant suppression can show up right away as a welt flare." },
+        { code: "SO2", text: "If her commitment to the group goes unacknowledged in a specific moment, the social Two finds that surprisingly painful, though she rarely addresses it immediately. This sudden, unspoken resentment can show up quickly as physical welts." },
+        { code: "SX2", text: "If rejected in the very moment she fully gives herself, the sexual Two often reacts with immediate, open hurt rather than silent suppression. This direct emotional outburst discharges more in the contact itself than through a bodily detour." },
+      ]},
+      { typ: 3, titel: "A setback that must not happen in the moment", varianten: [
+        { code: "SE3", text: "A sudden failure in the middle of her tightly scheduled day hits the self-preservation Three hard, but is immediately pushed aside to keep the rhythm going. This abrupt suppression in the moment can show up minutes later as a spontaneous skin rash." },
+        { code: "SO3", text: "A public embarrassment or a visible setback can shake the social Three inwardly in the moment, even though she keeps functioning outwardly right away. This instantly overplayed shock can force its way out bodily as a sudden welt outbreak." },
+        { code: "SX3", text: "If exposed in front of the one important person, the sexual Three often reacts with noticeable, immediate tension rather than pure outward composure. This more direct emotional reaction in the moment itself stands against the general overplaying of other Three variants." },
+      ]},
+      { typ: 4, titel: "A feeling that becomes too much in the moment", varianten: [
+        { code: "SE4", text: "A sudden, unexpected pain hits the self-preservation Four, the counter-type, often right in a quiet moment – and is still not expressed, but stubbornly pushed down. This instant suppression can show up quickly as a welt flare." },
+        { code: "SO4", text: "The social Four usually speaks a sudden feeling of hurt out loud right away, rather than swallowing it – she makes her hurt a topic. This immediate expression can somewhat forestall the bodily outbreak, even though the feeling itself remains." },
+        { code: "SX4", text: "The sexual Four reacts to sudden rejection or disappointment with a fierce, instant emotional wave, immediate and unfiltered in contact. This direct, dramatic outburst stands clearly against the quiet pushing-down of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A trespass that shatters the boundary in the moment", varianten: [
+        { code: "SE5", text: "An unexpected, too-close contact or a sudden demand can trigger an inner alarm reaction in the self-preservation Five in the moment, without her letting it show outwardly. This instant boundary violation can show up quickly as a welt outbreak." },
+        { code: "SO5", text: "If suddenly put on the spot in a discussion or pushed unprepared into an emotional stance, the social Five often reacts in the moment with visible unease, before withdrawing again behind factual composure. This brief shock moment can force its way out bodily." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five can well allow sudden emotional closeness without going into alarm mode – unlike the general jumpiness of other Five variants toward unexpected closeness." },
+      ]},
+      { typ: 6, titel: "A shock moment that gets under the skin instantly", varianten: [
+        { code: "SE6", text: "A sudden, unforeseen threat – a loud sound, a surprising message – can trigger a startle reaction in the self-preservation Six that leaves her nervous system reverberating long after. This moment of acute alertness is among the classic triggers of a urticaria flare." },
+        { code: "SO6", text: "A sudden breach of trust within her group hits the social Six hard in the moment, but is rarely addressed openly right away. This instant, unspoken shock can force its way out bodily as a welt flare." },
+        { code: "SX6", text: "The sexual Six, the counter-type, reacts to sudden threat with immediate confrontation rather than silent shock. This direct, outward-directed reaction in the moment itself can often make the bodily detour through the skin unnecessary." },
+      ]},
+      { typ: 7, titel: "A discomfort that gets suppressed instantly", varianten: [
+        { code: "SE7", text: "A sudden discomfort – pain, bad news, an unpleasant feeling – gets reflexively pushed aside by the self-preservation Seven in the moment, in favor of the next pleasant distraction. This instant suppression can show up minutes later bodily as a welt outbreak." },
+        { code: "SO7", text: "A sudden conflict within the group is usually overridden by the social Seven, the counter-type, in the moment in favor of harmony, rather than addressed immediately. This instantly swallowed frustration can force its way out bodily quickly." },
+        { code: "SX7", text: "The sexual Seven reacts to a sudden disappointment with noticeable, immediate intensity, rather than smiling it away right away. This more direct emotional reaction in the moment itself stands against the reflexive suppression of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A hurt that must not happen in the moment", varianten: [
+        { code: "SE8", text: "A sudden loss of control – over resources, over a situation, over her own body – can trigger a fierce inner reaction in the self-preservation Eight in the moment, which barely shows outwardly. This instantly suppressed resistance can show up quickly as a welt flare." },
+        { code: "SO8", text: "If her authority is challenged in a specific moment, the social Eight reacts fiercely inside, but rarely lets it show right away, to protect her protector role. This instantly overplayed anger can force its way out bodily." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight does show sudden hurt openly and immediately. This direct expression in the moment itself stands against the general overplaying of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A stimulus that never really arrives in the moment", varianten: [
+        { code: "SE9", text: "A sudden, unpleasant stimulus often does not even get consciously registered by the self-preservation Nine in the moment, so quickly does she slip into comfort and distraction. Only the bodily welt outbreak retrospectively reveals what was actually experienced inwardly as overload." },
+        { code: "SO9", text: "A sudden conflict in the group makes the social Nine mediate and appease reflexively in the moment, her own instant distress staying unnoticed. This immediate self-erasure can show up bodily as a welt flare." },
+        { code: "SX9", text: "The sexual Nine often only notices her own reaction once it is mirrored in her partner's reaction – if he does not react to a sudden stimulus, the Nine frequently overlooks it in the moment too." },
+      ]},
+    ],
+    abschluss: "No skin is immune to hives, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with the sudden, acute moment in its own way – some through instant suppression, others through direct expression, withdrawal, or a momentarily overridden distress of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  rosacea: {
+    titel: "Rosacea",
+    kategorie: "haut",
+    icon: "🌹",
+    kurz: "A chronic vascular condition of the face with persistent redness and visible vessels – a blush that no longer fades.",
+    definition: "Rosacea is a chronic inflammatory condition of the facial skin in which the blood vessels of the cheeks, nose, and forehead become oversensitive to stimuli and repeatedly dilate. What begins as temporary flushing with heat, alcohol, spicy food, sun, or emotional arousal turns over time into persistent redness with visibly dilated small vessels; as it progresses, inflammatory papules and pustules resembling acne but with a different cause can additionally develop. Unlike almost any other skin condition, rosacea affects almost exclusively the face – the part of the body that is most immediately visible in social contact and by which people read one another. The course is chronic, with flares closely tied to emotional and autonomic triggers.",
+    symptome: ["Persistent redness of cheeks, nose, forehead, and chin", "Visibly dilated small blood vessels (telangiectasia)", "Inflammatory papules and pustules that can resemble acne", "Burning, tight, or sensitive facial skin", "Thickening of the nasal skin in advanced cases (rhinophyma)", "Worsening of symptoms with heat, alcohol, spicy food, sun, or emotional arousal"],
+    notfall: "In case of additional eye involvement with redness, a foreign-body sensation, or visual disturbances (ocular rosacea), as well as rapid, painful thickening of the nose, seek medical evaluation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "No other skin condition is so tightly bound to the face itself as rosacea – that surface by which people read one another in the first instant, where shame, arousal, and embarrassment have always shown up immediately. In TCM, persistent facial redness is often linked to &bdquo;rising heat&ldquo; in the upper body, frequently triggered by pent-up emotion that finds no other way upward. Psychosomatic medicine often reads rosacea as a blush that has become permanent – as if a recurring inner arousal that once became visible only momentarily has now settled permanently into the vessels of the face. For each of the 27 subtypes, its own pattern shows what kind of arousal or exposure shows up chronically in the face here.",
+    typen: [
+      { typ: 1, titel: "Self-control that visibly cracks in the face", varianten: [
+        { code: "SE1", text: "The self-preservation One stays outwardly composed even under inner tension – her face is not supposed to betray her own discipline. Exactly where this control matters most, chronic redness can show up that she herself can control the least." },
+        { code: "SO1", text: "Keeping public composure is, for the social One, part of her own moral standard, even when inward anger over perceived mistakes is simmering. This pent-up tension finds an uncontrollable expression particularly in the face, her most visible surface." },
+        { code: "SX1", text: "The sexual One usually shows her outrage directly in her facial expression itself, briefly and intensely, rather than suppressing it permanently. This direct, temporary reaction differs from the chronically frozen redness that tends to arise with quiet self-control." },
+      ]},
+      { typ: 2, titel: "A blush that betrays her own care", varianten: [
+        { code: "SE2", text: "Embarrassment over her own, barely admitted neediness can repeatedly make the self-preservation Two blush, while she outwardly keeps caring for others unwaveringly. From this repeated blushing, a persistent facial redness can develop over time." },
+        { code: "SO2", text: "Public praise for her commitment often triggers a visible mixture of pride and embarrassment in the social Two, which she immediately downplays. This recurring emotional arousal in the face can settle into lasting redness over the long term." },
+        { code: "SX2", text: "The sexual Two shows her arousal openly and intensely near the one desired person, without concealing it. This deliberately shown, momentary blushing differs from the suppressed, chronically forming variant of other Two variants." },
+      ]},
+      { typ: 3, titel: "An image showing cracks in the face", varianten: [
+        { code: "SE3", text: "The self-preservation Three's face is meant to appear functional at all times, any visible tension felt as a disruption in her own operation. Trying to simply overlook an emerging redness can let it become chronic over time." },
+        { code: "SO3", text: "A flawless public appearance is a central pillar of the social Three's success, the face her most important stage. Persistent redness feels to her like a particularly threatening attack on exactly this image, additionally raising the already high pressure." },
+        { code: "SX3", text: "In front of the one crucial person, the sexual Three wants to appear flawless – visible redness is here less often publicly discussed, concealed instead with all the more quiet tension." },
+      ]},
+      { typ: 4, titel: "An arousal that stays in the face", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, holds back her inner arousal stubbornly and silently over years, without ever expressing it. Exactly this unexpressed intensity can show up as persistent redness in a face meant to appear uninvolved." },
+        { code: "SO4", text: "The social Four makes her inner turmoil a topic rather than concealing it – her face is allowed to show what she feels. This open expression can partly counteract the chronic blushing, even though the underlying intensity remains." },
+        { code: "SX4", text: "The sexual Four shows her arousal with full force in direct contact, dramatically and immediately. This open, momentary expression stands clearly against the quiet, chronically forming blush of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A closeness the face cannot hide", varianten: [
+        { code: "SE5", text: "Unexpected social contact or sudden attention can trigger a noticeable inner alarm reaction in the self-preservation Five, which shows in her face despite her outward composure. If this moment repeats often enough, it can turn into persistent redness." },
+        { code: "SO5", text: "If suddenly pushed into the spotlight in a group, the social Five often reacts with visible embarrassment, before quickly withdrawing again behind factual composure. This recurring exposure can settle chronically into the face." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five can show closeness and arousal openly without going into alarm mode – unlike the general shyness of other Five variants toward unexpected attention." },
+      ]},
+      { typ: 6, titel: "A tension that does not spare the face", varianten: [
+        { code: "SE6", text: "Constant watchfulness shapes the self-preservation Six's daily life, her nervous system rarely staying truly calm – her face shows this permanent tension too, whether intended or not. This state is among the most reliable triggers of chronic facial redness." },
+        { code: "SO6", text: "A sudden confrontation within her group can make the social Six visibly blush, even though she would rather leave the underlying worry unspoken. If this repeats often enough, the reaction can settle permanently into the face." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with demonstrative fearlessness rather than visible embarrassment. This outward-directed compensation can overplay inner tension without the redness settling permanently into the face." },
+      ]},
+      { typ: 7, titel: "An overstimulation that reaches the face", varianten: [
+        { code: "SE7", text: "Indulgent stimuli – good food, warmth, one glass of wine too many – are part of the self-preservation Seven's daily life, moderation rarely her focus. This combination of overstimulation and avoidance of discomfort is among the best-known triggers of a rosacea flare." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently overrides her own limits in favor of the group – her own overstimulation, too, is rarely taken seriously. This chronic overriding can show up as persistent facial redness." },
+        { code: "SX7", text: "The sexual Seven shows her arousal openly in her face with contagious, boundless enthusiasm, immediate and unfiltered. This constant search for stimulation can briefly lead to visible redness, without necessarily settling in chronically." },
+      ]},
+      { typ: 8, titel: "An exposure the face cannot hide", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims consistent control over her body, hardly allowing weakness to show within it. Facial redness that escapes this control feels to her like a particularly wounding reminder that not everything is masterable." },
+        { code: "SO8", text: "Demonstrating strength outward is part of the social Eight's self-imposed protector role – visible redness that betrays arousal or vulnerability is rarely allowed to show. The pressure to overplay it can rather intensify the underlying tension." },
+        { code: "SX8", text: "Only within the one relationship to which she devotes herself with full devotion does the sexual Eight openly allow arousal and vulnerability in her face too. There tension tends to find relief, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "An arousal that rarely arrives consciously", varianten: [
+        { code: "SE9", text: "Inner arousal barely reaches the self-preservation Nine's awareness – too completely does she lose herself in routine and comfort. A progressing facial redness is thus often not taken seriously for a long time." },
+        { code: "SO9", text: "The instant a conflict looms on the horizon, the social Nine subordinates her own arousal reflexively to group harmony. This chronic self-erasure can show up as a facial redness that is never prioritized yet becomes steadily more visible." },
+        { code: "SX9", text: "How aroused or embarrassed her partner appears often becomes the real yardstick for the sexual Nine, once she merges with him. If the partner does not notice her own redness, the Nine often overlooks it too." },
+      ]},
+    ],
+    abschluss: "No skin is immune to rosacea, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with arousal and visibility in the face in its own way – some through control, others through withdrawal, overstimulation, or a chronically overridden embarrassment of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  vitiligo: {
+    titel: "Vitiligo",
+    kategorie: "haut",
+    icon: "🤍",
+    kurz: "An autoimmune condition in which the skin's pigment-producing cells are destroyed and irregularly distributed white patches form.",
+    definition: "In vitiligo, the body's own immune system destroys the melanocytes – the cells that give the skin its color through the pigment melanin. Sharply demarcated white patches of varying size form, appearing mostly symmetrically and preferentially on the hands, face, around body openings, and in skin folds. Unlike almost all other skin conditions, vitiligo usually causes neither itching, pain, nor inflammation – the color is simply missing. The course is unpredictable: some patches stay stable for years, others slowly spread, occasionally in flares that coincide with especially stressful life phases. A cure in the sense of full repigmentation cannot so far be guaranteed, though stabilization and partial repigmentation are possible.",
+    symptome: ["Sharply demarcated, white, pigment-free patches of skin", "Mostly symmetrical distribution, often on the hands, face, and body openings", "Premature graying of hair in affected areas", "Usually no pain, no itching, no scaling", "Increased sun sensitivity of the depigmented areas", "Unpredictable course with possible progression during stressful life phases"],
+    notfall: "Vitiligo itself is not an acute emergency. Consistently protect sunburn-prone depigmented, especially sensitive areas from the sun; significant psychological distress caused by the changed appearance should be taken just as seriously and treated as a physical symptom.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Among the skin conditions in this compass, vitiligo is a special case: here nothing breaks out, nothing inflames, nothing itches – something quietly disappears. One's own color, one's own coloring, what makes the skin individual, gives way to a quiet white. In TCM, such pigment loss is frequently linked to a weakness of Blood and Kidney Essence (Jing) – a deep, slowly developed exhaustion of one's own substance. Psychosomatic medicine suggests a different direction of interpretation for vitiligo than for the previous skin conditions: not an excess that breaks through, but a deficiency, a quiet retreat of one's own color – sometimes tied to a deep loss, a grief, or the feeling of having lost visibility or one's own coloring somewhere in life. For each of the 27 subtypes, its own pattern shows what color and individuality recede here.",
+    typen: [
+      { typ: 1, titel: "Color that yields to the norm", varianten: [
+        { code: "SE1", text: "The self-preservation One wants her own appearance, too, to be flawless and even – deviation is rarely allowed, even when it arises involuntarily. The pigment-free patches of vitiligo, of all things, escape any control she otherwise imposes everywhere." },
+        { code: "SO1", text: "A flawless, orderly appearance matters to the social One, to count as exemplary. Depigmented spots that escape her control can be experienced as a particularly wounding reminder that not everything can be arranged to her own standard." },
+        { code: "SX1", text: "The sexual One usually shows her reactions immediately and intensely in direct contact, without concealing much. She tends to deal more openly with visible bodily changes than the more quietly controlling One variants." },
+      ]},
+      { typ: 2, titel: "Individual color fading behind care for others", varianten: [
+        { code: "SE2", text: "The self-preservation Two's attention turns so strongly outward to others' needs that her own appearance, her own coloring, is barely perceived as its own thing anymore. This years-long receding of her own person can show up figuratively too, as an actual loss of skin color." },
+        { code: "SO2", text: "The social Two often defines herself more through her role as supporter of the group than through her own, distinctive identity. Where her own color recedes in favor of the group, this can show up especially clearly in the picture of vitiligo." },
+        { code: "SX2", text: "The sexual Two presents herself with full intensity in the one important relationship, her own presence remaining clearly noticeable. This active showing of her own person stands clearly against the quiet fading of other Two variants." },
+      ]},
+      { typ: 3, titel: "A flaw no success can cover", varianten: [
+        { code: "SE3", text: "The self-preservation Three's body is meant to appear functional and flawless, a visible, unfixable flaw does not fit this image. The wish to simply overlook or conceal the patches can rather delay the actual reckoning with the loss." },
+        { code: "SO3", text: "A flawless public appearance is a central pillar of the social Three's success. Depigmented patches that cannot be trained or worked away feel to her like a particularly hard-to-integrate attack on this image." },
+        { code: "SX3", text: "For the one crucial person, the sexual Three wants above all to appear as flawless as possible – visible patches are here less often publicly discussed, concealed instead with all the more quiet care." },
+      ]},
+      { typ: 4, titel: "A loss that shows up in color", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries her inner loss and longing stubbornly and wordlessly over years. A visible loss of color, of all things, can be experienced as the outward counterpart of this inner, unexpressed loss." },
+        { code: "SO4", text: "The social Four makes her otherness a topic rather than concealing it – visible patches, too, are with her less often hidden than openly told as part of her own, special story. This outward expression can help integrate the loss into her own identity." },
+        { code: "SX4", text: "The sexual Four lives her emotional roller coaster between closeness and despair openly, dramatically and immediately. This outward-directed emotional expression stands clearly against the quiet, inward-directed loss experience of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A withdrawal that takes the color with it", varianten: [
+        { code: "SE5", text: "The self-preservation Five reduces her presence in the world to a minimum, holding back wherever possible. This general receding of her own person can be figuratively mirrored in the quiet fading of skin color." },
+        { code: "SO5", text: "The social Five gladly shares knowledge with her group, while consciously keeping her own, personal color in the background. This distance from her own visibility can be mirrored in the picture of a quiet pigment loss." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five does show her own color and presence clearly – unlike the general reserve of other Five variants in public." },
+      ]},
+      { typ: 6, titel: "A security that fades along with the color", varianten: [
+        { code: "SE6", text: "Familiarity and predictability give the self-preservation Six a sense of footing, an unpredictable, progressing change to her own body directly undermines exactly this security. This chronic uncertainty can accompany the spreading of the depigmented areas." },
+        { code: "SO6", text: "Belonging to the group gives the social Six security, visible otherness through patches can make this belonging feel at risk. This unspoken worry about exclusion often stays unnamed for a long time." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets her own uncertainty with demonstrative fearlessness, including regarding her own appearance. This outward-directed stance stands clearly against the quiet worry about exclusion of other Six variants." },
+      ]},
+      { typ: 7, titel: "A boundary that cannot be planned away", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant option to the next as soon as discomfort arises – but a permanent, unplannable-away change like vitiligo cannot be overplayed this way. Exactly this inescapability can be especially hard to integrate." },
+        { code: "SO7", text: "The social Seven, the counter-type, usually puts her own issues behind the well-being of the group – her own engagement with visible changes gets postponed this way too, until it can no longer be avoided." },
+        { code: "SX7", text: "The sexual Seven often integrates even unexpected changes into her self-image with boundless, contagious enthusiasm surprisingly quickly. This adaptability differs from the more avoidant handling of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A control that the body will not follow", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims consistent control over her body, any uncontrollable change experienced as an attack on her own sovereignty. A progressing pigment loss that entirely escapes this control hits her especially hard." },
+        { code: "SO8", text: "Demonstrating unconditional strength outward is part of the social Eight's self-imposed protector role – visible, uncontrollable changes like vitiligo are rarely allowed to show. The pressure to ignore them can make the actual reckoning with them harder." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight can openly allow vulnerability and change too. There she finds more support, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A change that stays unnoticed for a long time", varianten: [
+        { code: "SE9", text: "A slowly progressing change to her own skin is barely registered for a long time by the self-preservation Nine, so completely does she lose herself in routine and comfort. Only once the patches have become clearly visible does engaging with them become unavoidable." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own appearance and her own needs to group harmony. This chronic self-erasure can show up as a never-prioritized but steadily more visible progression of the vitiligo." },
+        { code: "SX9", text: "How her partner reacts to the visible changes often becomes the real yardstick for the sexual Nine, once she merges with him. If the partner takes the patches in stride, it becomes easier for the Nine too to integrate them into her self-image." },
+      ]},
+    ],
+    abschluss: "No skin is immune to vitiligo, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with loss and the visibility of their own color in its own way – some through control, others through withdrawal, open expression, or a chronically overridden shock of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  kreisrunder_haarausfall: {
+    titel: "Alopecia Areata",
+    kategorie: "haut",
+    icon: "⭕",
+    kurz: "Autoimmune hair loss that produces round, bald patches overnight or within a few days.",
+    definition: "In alopecia areata, the body's own immune system attacks the hair roots without fully destroying them – the follicles survive but temporarily stop producing hair. Characteristic is the often shockingly sudden onset: within a few days, sometimes overnight, one or more sharply defined, round, bald patches appear, usually on the scalp, more rarely on the eyebrows, eyelashes, or beard. The course is unpredictable: in most of those affected, the hair regrows on its own within months, in some the loss spreads further, and in rare, severe cases it can progress to complete loss of all scalp or body hair. A clear trigger often cannot be named, but a sudden shock, an incisive experience of loss, or a phase of intense stress strikingly often immediately precede the onset.",
+    symptome: ["Suddenly appearing, sharply defined, round bald patches", "Mostly painless hair loss, often noticed overnight", "Short, broken &bdquo;exclamation-mark hairs&ldquo; at the edge of the bald patches as an early sign", "Occasional pitting or ridging of the fingernails", "Possible loss of eyebrow or eyelash hair", "Frequent onset following a sudden shock or incisive experience"],
+    notfall: "Alopecia areata itself is not an acute emergency, but should be medically evaluated to rule out other causes of hair loss. In case of rapidly progressing, extensive loss or significant psychological distress, seek prompt specialist and, if needed, psychological support.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Hardly any symptom in this compass begins as abruptly as alopecia areata – a hole that forms literally overnight, exactly where everything was intact the day before. Hair has long been a symbol of strength, vitality, and life energy; its sudden, round loss is often read psychosomatically as the picture of an equally sudden shock, an abrupt loss of strength, or an incisive event that shook one's composure from one moment to the next. In TCM, hair stands in close connection to the Blood and to Kidney Essence; a sudden loss is often associated with a &bdquo;Blood shock&ldquo; or an acute exhaustion of this substance. Unlike the slowly creeping color loss of vitiligo, alopecia areata tells of the moment itself – of the tear that suddenly appears. For each of the 27 subtypes, its own pattern shows what shock or loss of strength shows up here in a circle.",
+    typen: [
+      { typ: 1, titel: "A tear in the flawless facade", varianten: [
+        { code: "SE1", text: "The self-preservation One tolerates no disorder in her tightly planned daily life – if a sudden, uncontrollable shock hits her, it rarely finds any immediate expression. A few days later, this unprocessed fright, of all things, can show up as a round bald patch." },
+        { code: "SO1", text: "Keeping her composure outward even in crisis moments usually goes remarkably well for the social One, the inner turmoil staying invisible. Exactly this abruptly suppressed shock can force its way out bodily as sudden, round hair loss." },
+        { code: "SX1", text: "The sexual One usually shows her shock immediately and intensely within contact itself, rather than sealing it away. This direct expression in the moment can often make the bodily detour through sudden hair loss unnecessary." },
+      ]},
+      { typ: 2, titel: "A loss that drains her own strength", varianten: [
+        { code: "SE2", text: "A sudden, painful withdrawal of love or an unexpected rejection hits the self-preservation Two deeply, but is rarely spoken about right away. This abrupt, unspoken loss of strength can show up days later as a round bald patch." },
+        { code: "SO2", text: "If her previously irreplaceable role in the group suddenly falls away, that can shake the social Two deeply, even though she rarely admits this shock immediately. This unnamed inner crisis can force its way out bodily quickly." },
+        { code: "SX2", text: "If suddenly rejected by the one person to whom she has fully devoted herself, the sexual Two usually reacts with immediate, open despair rather than silent suppression. This direct emotional outburst discharges more within the contact itself." },
+      ]},
+      { typ: 3, titel: "A loss that damages the success image", varianten: [
+        { code: "SE3", text: "A sudden, public failure hits the self-preservation Three hard, but is immediately pushed aside so as not to jeopardize her own functioning. This abrupt suppression can show up days later as alopecia areata, which she can control just as little as the trigger itself." },
+        { code: "SO3", text: "Visible hair loss hits the social Three particularly hard, because it directly attacks her public appearance, on which her success significantly depends. The shock over it can additionally intensify the already high pressure to keep everything under control." },
+        { code: "SX3", text: "In front of the one crucial person, the sexual Three wants to appear flawless – sudden hair loss is here less often publicly negotiated, concealed instead with all the more quiet worry." },
+      ]},
+      { typ: 4, titel: "A break that becomes visible", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, seals her deep, often old grief silently away inside herself, without ever naming it. Sudden, round hair loss can be experienced as the outward echo of this long-sealed inner break." },
+        { code: "SO4", text: "The social Four usually speaks openly about her shock over a sudden loss, rather than concealing it – she makes her pain a topic. This outward expression can help process the shock, even though the hair loss itself remains unaffected by it." },
+        { code: "SX4", text: "The sexual Four lives her relationships in large, dramatic swings between closeness and despair, openly and unrestrained. This outward-directed expression stands clearly against the quiet, deeply sealed grief of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A breach into her protected order", varianten: [
+        { code: "SE5", text: "A sudden, uncontrollable loss – of a resource, of a familiar structure – can hit the self-preservation Five at her core without her letting it show outwardly. This sealed-away shock can force its way out quickly as alopecia areata." },
+        { code: "SO5", text: "If her expertise is suddenly publicly challenged, that can deeply unsettle the social Five, even though she quickly withdraws again behind factual composure. This brief, hidden shock moment can continue bodily." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five can openly share a sudden shock with her partner rather than processing it alone – unlike the general guardedness of other Five variants." },
+      ]},
+      { typ: 6, titel: "A fright that throws the system off track", varianten: [
+        { code: "SE6", text: "A sudden, unforeseen threat can trigger a fierce startle reaction in the self-preservation Six that leaves her already alert nervous system reverberating long after. This acute alarm state is among the classic triggers of an alopecia areata flare." },
+        { code: "SO6", text: "A sudden breach of trust within her group hits the social Six deeply, but is rarely named openly right away. This instant, unspoken shock can force its way out bodily quickly." },
+        { code: "SX6", text: "The sexual Six, the counter-type, reacts to a sudden fright with immediate confrontation rather than silent shock. This direct, outward-directed reaction in the moment itself can often make the bodily detour unnecessary." },
+      ]},
+      { typ: 7, titel: "A pain that cannot be planned away", varianten: [
+        { code: "SE7", text: "A sudden, severe loss gets reflexively suppressed by the self-preservation Seven in the first moment, in favor of the next pleasant distraction. This instant suppression can show up days later as alopecia areata, once the pain no longer finds another outlet." },
+        { code: "SO7", text: "A sudden loss within her group is usually overridden by the social Seven, the counter-type, in favor of the shared mood, rather than mourned immediately. This instantly swallowed pain can force its way out bodily quickly." },
+        { code: "SX7", text: "The sexual Seven reacts to a sudden loss with noticeable, immediate intensity, rather than smiling it away right away. This more direct emotional reaction in the moment itself stands against the reflexive suppression of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A helplessness that must not be", varianten: [
+        { code: "SE8", text: "A sudden loss of control – over a situation, over her own body – hits the self-preservation Eight especially hard, but barely shows outwardly. This instantly suppressed resistance can show up quickly as alopecia areata." },
+        { code: "SO8", text: "If her protective function for the group is suddenly called into question or made redundant, that can hit the social Eight hard inwardly, without her letting it show right away. This instantly overplayed shock can force its way out bodily." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight can openly show sudden helplessness too. There she finds more support, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A shock that arrives late", varianten: [
+        { code: "SE9", text: "A sudden fright often does not even get consciously registered by the self-preservation Nine in the moment, so quickly does she slip into comfort and distraction. Only the round hair loss retrospectively reveals what was actually experienced inwardly as shock." },
+        { code: "SO9", text: "A sudden conflict in the group makes the social Nine mediate and appease reflexively, her own instant distress staying unnoticed. This immediate self-erasure can show up bodily as sudden hair loss." },
+        { code: "SX9", text: "The sexual Nine often only notices her own shock once it is mirrored in her partner's reaction – if he does not visibly react to a shared shock, the Nine frequently overlooks her own distress too." },
+      ]},
+    ],
+    abschluss: "No head is protected from alopecia areata by subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with a sudden shock or loss of strength in its own way – some through instant suppression, others through direct expression, withdrawal, or a momentarily overridden shock of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  hyperhidrose: {
+    titel: "Hyperhidrosis (Excessive Sweating)",
+    kategorie: "haut",
+    icon: "💧",
+    kurz: "Sweating far beyond what the body actually needs for cooling – as if the inner alarm system stood permanently on standby.",
+    definition: "In hyperhidrosis, the sweat glands produce significantly more sweat than is needed to regulate body temperature – often with no recognizable outer cause such as heat or physical exertion. Usually affected are specific body regions: palms, soles, armpits, or the face (focal hyperhidrosis), more rarely the whole body (generalized form). The cause is frequently an overactivity of the sympathetic nervous system, the part of the body's control system normally responsible for fight-or-flight reactions – in hyperhidrosis, however, this system stays in a kind of permanent standby, even when there is objectively no danger. Emotional arousal, nervousness, and social tension are among the most reliable triggers of acute flares. The burden of suffering is often considerable, since wet hands or drenched clothing are hard to hide in everyday and social contact.",
+    symptome: ["Excessive sweating with no recognizable outer cause", "Preferential involvement of palms, soles, armpits, or face", "Worsening with emotional arousal, nervousness, or social pressure", "Cold, moist hands despite normal ambient temperature", "Skin changes from the constant moisture (maceration, irritation)", "Considerable psychological distress from the social visibility of the symptom"],
+    notfall: "Suddenly setting in, heavy sweating together with chest pain, shortness of breath, dizziness, or confusion can indicate an acute internal-medicine emergency and requires immediate medical evaluation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Sweat is by nature a safety valve of the body – in hyperhidrosis, however, this valve stays permanently open, regardless of whether there is actually danger or exertion. In TCM, excessive sweating is often linked to a weakness of Wei Qi, the protective defensive energy at the body's surface – a system that can no longer reliably hold its boundary to the outer world. Psychosomatic medicine often reads hyperhidrosis as the picture of a nervous system standing permanently at attention: an inner alertness that rarely truly switches off, even when nothing objectively threatens. For each of the 27 subtypes, its own pattern shows through what this inner readiness is kept permanently maintained.",
+    typen: [
+      { typ: 1, titel: "A tension that never quite switches off", varianten: [
+        { code: "SE1", text: "Maintaining self-control in every area of life costs the self-preservation One ongoing energy, her body staying in constant readiness as a result. This permanent muscular and nervous tension is among the most reliable triggers of excessive sweating." },
+        { code: "SO1", text: "Keeping public composure while inwardly watching unceasingly over right and wrong challenges the social Two over time. This never quite ending inner vigil can show up bodily as persistently damp hands or armpits." },
+        { code: "SX1", text: "The sexual One's tension discharges episodically and intensely, rather than building up permanently. This pointed discharge differs from the chronically even state of arousal that tends to lead to permanent sweating in other One variants." },
+      ]},
+      { typ: 2, titel: "An effort no one is meant to see", varianten: [
+        { code: "SE2", text: "The self-preservation Two reliably conceals her own exhaustion behind quiet care for others, without ever asking for a break. This permanent inner strain can show up bodily as persistent sweating that she herself would rather overlook." },
+        { code: "SO2", text: "Appearing indispensable costs the social Two more energy than she admits, her nervous system staying permanently on duty as a result. This hidden constant effort can show up as persistently damp hands at social occasions." },
+        { code: "SX2", text: "The sexual Two openly shows her full arousal and devotion in the one important relationship, without concealing it. This open showing differs from the quiet, hidden constant effort of other Two variants." },
+      ]},
+      { typ: 3, titel: "An operation that never shifts into idle", varianten: [
+        { code: "SE3", text: "Keeping her pace consistently high without real breaks is part of the self-preservation Three's functioning daily life. This permanently elevated inner operating pressure can show up bodily as persistent sweating, especially in performance situations." },
+        { code: "SO3", text: "Being under observation while appearing flawless is part of the social Three's daily life – exactly in such moments, visible sweating can feel like a particularly threatening loss of control that additionally raises the pressure." },
+        { code: "SX3", text: "Being tense in front of the one crucial person can lead to noticeable sweating for the sexual Three – unlike the general, public performance tension of the social variant, this reaction tends to stay in the private sphere." },
+      ]},
+      { typ: 4, titel: "An arousal escaping through the pores", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, keeps her inner intensity stubbornly under wraps, without ever giving it expression. This permanently pent-up inner pressure can find a bodily outlet through the sweat glands." },
+        { code: "SO4", text: "The social Four usually speaks openly about her inner turmoil, rather than concealing it – her face and words are allowed to show what is going on inside her. This open expression can partly counteract excessive sweating, even though the underlying intensity remains." },
+        { code: "SX4", text: "The sexual Four lives out her emotional arousal in direct contact with full force, dramatically and immediately. This open, pointed expression stands clearly against the quiet, permanently pent-up pressure of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "An alertness hiding behind calm", varianten: [
+        { code: "SE5", text: "The self-preservation Five appears mostly composed and reserved outwardly, her nervous system nonetheless often staying in quiet alertness toward unwanted closeness. This hidden permanent tension can show up bodily as persistently damp hands." },
+        { code: "SO5", text: "If unexpectedly drawn into a discussion, the social Five can react with strong inner tension while presenting herself factually on the outside. This inner contradiction between outward calm and inner tension can show up as sudden sweating." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five can show arousal and tension openly without concealing them – unlike the general reserve of other Five variants." },
+      ]},
+      { typ: 6, titel: "A nervous system that never truly gives the all-clear", varianten: [
+        { code: "SE6", text: "Watchfulness toward possible dangers accompanies the self-preservation Six through every day, her sympathetic nervous system rarely finding real rest. This state of permanent alertness is virtually the textbook picture for chronic, excessive sweating." },
+        { code: "SO6", text: "Her worry for the group's well-being keeps the social Six occupied inwardly on an ongoing basis, even when no acute threat is present. This diffuse, collectively carried tension can show up as persistent sweating at social occasions." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with demonstrative fearlessness rather than visible nervousness. This outward-directed compensation can overplay inner tension without the sweating noticeably easing as a result." },
+      ]},
+      { typ: 7, titel: "A restlessness that heats up the body", varianten: [
+        { code: "SE7", text: "Jumping from one pleasant activity to the next keeps the self-preservation Seven's body in constant motion and arousal. This permanent busyness without real rest phases can show up bodily as persistent sweating." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently overrides her own limits in favor of the group, to the point of her own exhaustion. This chronic overriding of her own tolerance can settle bodily as persistent sweating." },
+        { code: "SX7", text: "The sexual Seven throws herself from one intense experience into the next with boundless, contagious enthusiasm. This constant search for stimulation can briefly lead to noticeable sweating, without necessarily becoming chronic." },
+      ]},
+      { typ: 8, titel: "An exertion no one is meant to notice", varianten: [
+        { code: "SE8", text: "Continuously asserting control over her body and her environment with constant watchfulness costs the self-preservation Eight ongoing energy. This permanent inner exertion can show up bodily as persistent sweating that she herself barely notices." },
+        { code: "SO8", text: "Demonstrating unconditional strength outward is part of the social Eight's self-imposed protector role – the constant effort that comes with it leaves little room for real physical relaxation, which can show up as excessive sweating." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight can release and let go of physical tension too. There she tends to find relief, unlike the general permanent tension of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A tension that rarely arrives consciously", varianten: [
+        { code: "SE9", text: "Inner tension barely reaches the self-preservation Nine's awareness, so completely does she lose herself in routine and comfort. Persistent sweating can thus become the only visible sign of an alertness that has long existed inwardly." },
+        { code: "SO9", text: "The instant a conflict looms on the horizon, the social Nine consistently subordinates her own tension to group harmony. This chronic self-erasure can show up as a never-prioritized but constantly noticeable excessive sweating." },
+        { code: "SX9", text: "How tense or relaxed her partner appears often becomes the real yardstick for the sexual Nine, once she merges with him. If the partner does not notice her own tension, the Nine frequently overlooks her own inner alertness too." },
+      ]},
+    ],
+    abschluss: "No sweat gland is immune to hyperhidrosis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with inner alertness in its own way – some through control, others through withdrawal, restlessness, or a chronically overridden tension of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  lippenherpes: {
+    titel: "Cold Sores (Herpes Simplex)",
+    kategorie: "haut",
+    icon: "👄",
+    kurz: "A virus that, after the first infection, stays dormant in the body for life and breaks out again exactly when one's own strength is weakest.",
+    definition: "Cold sores are caused by the herpes simplex virus type 1, with which most people become infected already in childhood. After the first infection, the virus withdraws into a nerve ganglion near the spine and remains there for life in an inactive, dormant state – the immune system keeps it in check but can never fully eliminate it. Certain triggers such as fever, sun exposure, hormonal fluctuation, strong stress, or a general weakening of the immune system can reactivate the virus: it then travels back along the nerve pathway to the skin's surface, usually at the lip, and causes the typical, painful blisters there. Characteristic, then, is a recurring pattern – the same latent event that keeps becoming visible exactly when one's own defenses are least available.",
+    symptome: ["Tingling, tightness, or itching at the lip as a warning sign, often hours before the visible outbreak", "Clustered, painful blisters at the lip or around the mouth", "Crusting and healing of the blisters within about one to two weeks", "Recurring outbreaks, often at the same spot", "Flares clustering with fever, sun exposure, stress, or exhaustion", "Occasional accompanying swollen lymph nodes or mild malaise with the first outbreak"],
+    notfall: "In case of spreading of the blisters over large areas of skin, into the eye (risk of corneal damage), or signs of herpes encephalitis (severe headache, confusion, fever), seek medical help immediately.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Cold sores are a special case among the skin conditions in this compass: they do not arise anew, but break out of something that has been resting latently in the body all along – usually exactly when one's own strength is exhausted. Their location, too, is no coincidence: the mouth, the organ of speaking, kissing, eating, of the closest physical closeness. In TCM, a herpes outbreak is frequently linked to &bdquo;latent heat&ldquo; that stays hidden in the body until a weakness of the defensive energy allows it to rise to the surface. Psychosomatic medicine often reads cold sores as the picture of an unresolved inner theme – often around closeness, unspoken words, or suppressed exhaustion – that does not disappear but only rests, until the moment of weakness comes. For each of the 27 subtypes, its own pattern shows what stays latent here and when it breaks out again.",
+    typen: [
+      { typ: 1, titel: "Unspoken words breaking out at the mouth itself", varianten: [
+        { code: "SE1", text: "What she would actually like to say, the self-preservation One often prefers to hold back, so as not to jeopardize her own composure. Exactly in phases of exhaustion, when this self-control is thinnest, a cold sore outbreak can show up." },
+        { code: "SO1", text: "The social One often does not openly voice her actual opinion about others' perceived misbehavior, to keep her composure. In phases of heightened strain, when this restraint costs particularly much energy, the virus can reactivate." },
+        { code: "SX1", text: "The sexual One usually speaks her opinion immediately, rather than holding it back – her mouth rarely staying closed for long. This more direct communication can at least partly defuse one of the classic triggers of cold sore reactivation." },
+      ]},
+      { typ: 2, titel: "A closeness that costs strength too", varianten: [
+        { code: "SE2", text: "The self-preservation Two passes physical and emotional closeness on to others unreservedly, without taking her own exhaustion seriously in the process. Exhaustion phases in which this one-sided care has cost especially much can reliably reactivate the herpes." },
+        { code: "SO2", text: "The social Two repeatedly overrides her own exhaustion in favor of her commitment to the group, until her own resources become noticeably scarce. Exactly in such phases, the latent virus can force its way out again." },
+        { code: "SX2", text: "The sexual Two seeks intense physical closeness in the one important relationship, without denying her own exhaustion in the process. This more aware noticing of her own limits can at least partly prevent reactivations." },
+      ]},
+      { typ: 3, titel: "An outbreak that becomes visible of all times", varianten: [
+        { code: "SE3", text: "The self-preservation Three overplays her exhaustion for as long as possible with even more activity, instead of addressing it. Exactly in such excessive performance phases, a cold sore outbreak can show up that she can hardly hide." },
+        { code: "SO3", text: "A visible outbreak on the face hits the social Three particularly badly, because it tends to occur exactly in stressful, publicly exposed phases – exactly when her appearance matters most. The pressure to cover it up can rather prolong the underlying exhaustion." },
+        { code: "SX3", text: "In front of the one crucial person, the sexual Three wants to appear flawless – an outbreak is here less often publicly discussed, concealed instead with all the more quiet worry." },
+      ]},
+      { typ: 4, titel: "A pain that becomes visible at the mouth", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, seals her deep inner pain silently away inside herself, without ever expressing it. A cold sore outbreak can be experienced as the outward echo of this long-unexpressed, latent pain, especially in exhausted phases." },
+        { code: "SO4", text: "The social Four usually speaks openly about her pain, rather than concealing it – she makes her suffering a topic. This outward expression can help release inner tension, even though the virus itself stays unaffected by it." },
+        { code: "SX4", text: "The sexual Four lives her relationships in large, dramatic swings between closeness and despair, openly and unrestrained. This outward-directed expression stands clearly against the quiet, deeply sealed pain of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A withdrawal that conceals her own exhaustion", varianten: [
+        { code: "SE5", text: "The self-preservation Five often only notices her own exhaustion once it is already far advanced, so consistently does she reduce her needs. Exactly in such unnoticed exhaustion phases, the virus can reactivate." },
+        { code: "SO5", text: "The social Five readily shares knowledge with her group, while mostly keeping her own exhaustion hidden. This distance from her own physical state can mean that a latent reactivation flare is noticed only late." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five can openly show her own exhaustion rather than concealing it – unlike the general reserve of other Five variants." },
+      ]},
+      { typ: 6, titel: "A tension that weakens the body", varianten: [
+        { code: "SE6", text: "Constant watchfulness shapes the self-preservation Six's daily life, her immune system standing under permanent strain as a result. This state of chronic tension is among the most reliable triggers of a cold sore relapse." },
+        { code: "SO6", text: "The social Six usually puts her own exhaustion behind her worry for the group's well-being, rarely voicing it. This unresolved collective stress can weaken the immune system enough for the virus to become active again." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with demonstrative fearlessness rather than visible exhaustion. This outward-directed compensation can overplay inner tension without actually relieving the underlying immune system." },
+      ]},
+      { typ: 7, titel: "An exhaustion that gets overlooked", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant activity to the next as soon as exhaustion arises, instead of addressing it. This chronic avoidance of rest can show up as a recurring cold sore outbreak, when the body forces the pause itself." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently overrides her own limits of exhaustion in favor of the group, to the point of complete exhaustion. Exactly at this point, the latent virus can become active again." },
+        { code: "SX7", text: "The sexual Seven often overplays even her own exhaustion remarkably long with boundless, contagious enthusiasm. This adaptability frequently delays the underlying depletion from being taken seriously in time." },
+      ]},
+      { typ: 8, titel: "A weakness no one is meant to see", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims consistent control over her body, exhaustion hardly allowed to show within it. A cold sore outbreak that escapes this control feels to her like a particularly wounding reminder that not everything is masterable." },
+        { code: "SO8", text: "Demonstrating unconditional strength outward is part of the social Eight's self-imposed protector role, even when her own strength has long been exhausted. The pressure to hide this exhaustion can show up as a recurring outbreak." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight can openly allow exhaustion and weakness too. There she finds more regeneration, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "An exhaustion that rarely arrives consciously", varianten: [
+        { code: "SE9", text: "Inner exhaustion barely reaches the self-preservation Nine's awareness – too completely does she lose herself in routine and comfort. A recurring cold sore outbreak can thus become the only visible sign of a long-existing depletion." },
+        { code: "SO9", text: "The instant her strength noticeably fades, the social Nine consistently subordinates her own exhaustion to group harmony. This chronic self-erasure can show up as a never-prioritized but steadily recurring outbreak." },
+        { code: "SX9", text: "How exhausted her partner appears often becomes the real yardstick for the sexual Nine, once she merges with him. If the partner does not notice her own exhaustion, the Nine frequently overlooks her own depletion too." },
+      ]},
+    ],
+    abschluss: "No lip is immune to herpes, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with exhaustion and unspoken themes in its own way – some through control, others through withdrawal, open expression, or a chronically overridden depletion of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  kontaktekzem: {
+    titel: "Contact Dermatitis",
+    kategorie: "haut",
+    icon: "🧤",
+    kurz: "A skin inflammation that arises exactly where a particular substance or contact meets the skin that it cannot tolerate.",
+    definition: "Contact dermatitis arises when the skin comes into contact with a substance it cannot tolerate – either through direct, toxic irritation (irritant contact dermatitis, for instance from cleaning agents or frequent handwashing) or through a genuine allergic reaction of the immune system to an otherwise harmless substance such as nickel, certain fragrances, preservatives, or plants (allergic contact dermatitis). Characteristic is the exact local boundary: the inflammation arises exactly where the contact took place, often in a shape that reveals the trigger itself – for instance a ring around a finger with a nickel allergy from jewelry. Unlike atopic dermatitis, whose boundary disturbance tends to be constitutional and diffuse, the triggering outer contact in contact dermatitis can usually be concretely named and often even avoided.",
+    symptome: ["Reddened, itchy, sometimes weeping skin exactly at the contact site", "Sharp demarcation of the inflammation that can trace the shape of the trigger", "Blister formation with an acute, strong reaction", "Dry, cracked, scaling skin with chronic, irritant contact", "A burning or painful sensation in addition to the itching", "Symptoms subsiding with consistent avoidance of the triggering contact"],
+    notfall: "In case of rapid, extensive swelling, breathing difficulties, or circulatory problems after contact with a known or new substance, call emergency services immediately – these can be signs of a severe allergic reaction.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Contact dermatitis is the most concrete of the skin conditions in this compass: it does not arise diffusely, but exactly where something specific from outside meets the skin that it cannot tolerate. In TCM, such a locally confined reaction is often linked to an external pathogenic factor that penetrates the body at a specific point and generates local heat and dampness there. Psychosomatic medicine suggests an obvious parallel to a concrete outer influence – a person, a task, a situation – that one's own boundary cannot tolerate at exactly this one point, even if it is well tolerated elsewhere in life. Unlike the constitutional, general boundary disturbance of atopic dermatitis, contact dermatitis tells of a pointed intolerance that can usually be traced to a concrete trigger. For each of the 27 subtypes, its own pattern shows which concrete contact is not tolerated here.",
+    typen: [
+      { typ: 1, titel: "A contact violating her own order", varianten: [
+        { code: "SE1", text: "Certain substances or working conditions that contradict her strict sense of order are hard for the self-preservation One to tolerate – frequent, controlling handwashing, for instance, can additionally burden her own skin barrier. Exactly at this contact site, an eczema can show up." },
+        { code: "SO1", text: "Contact with people or situations that contradict her moral standard is tolerable for the social One only with noticeable inner tension. This repeated, unspoken resistance can show up locally as a skin reaction exactly at the contact site." },
+        { code: "SX1", text: "The sexual One usually shows her rejection of a particular contact immediately and clearly, rather than silently enduring it. This direct expression can often make the bodily detour through an eczema unnecessary." },
+      ]},
+      { typ: 2, titel: "A contact demanding too much", varianten: [
+        { code: "SE2", text: "The self-preservation Two tolerates physical contact with others' tasks and needs almost without limit, without naming her own limits. Exactly on the hands that carry this care, an eczema can show up as a quiet protest." },
+        { code: "SO2", text: "The social Two demands tireless commitment to the group of herself, even when certain tasks or contacts have long overwhelmed her. This unnamed overload can show up locally exactly at the burdensome contact site." },
+        { code: "SX2", text: "The sexual Two does name her limits in contact with the one important person, even if not always immediately. This more active boundary-setting differs from the quieter self-overload of other Two variants." },
+      ]},
+      { typ: 3, titel: "A contact damaging the success image", varianten: [
+        { code: "SE3", text: "The self-preservation Three often accepts burdensome work substances or frequent skin contact to function in daily life, without addressing her own reaction. An eczema at the strained contact sites can thus be overlooked for a long time." },
+        { code: "SO3", text: "A visible eczema on the face or hands hits the social Three particularly hard, because it directly attacks her public appearance. The pressure to hide it can additionally sharpen her already high demand for control." },
+        { code: "SX3", text: "In front of the one crucial person, the sexual Three wants to appear flawless – an eczema is here less often publicly discussed, treated instead with all the more quiet concern." },
+      ]},
+      { typ: 4, titel: "A contact bringing too much closeness or too much foreignness", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, seals her aversion to a particular, burdensome contact silently away inside herself, without ever expressing it. An eczema at exactly this contact site can be experienced as the outward echo of this unexpressed aversion." },
+        { code: "SO4", text: "The social Four usually speaks openly about her aversion to a particular contact, rather than concealing it – she makes her discomfort a topic. This outward expression can help draw her own boundary more clearly, even though the eczema itself stays unaffected by it." },
+        { code: "SX4", text: "The sexual Four shows her reactions to unwanted contact dramatically and immediately, with clear emotional intensity. This open expression stands clearly against the quiet, deeply sealed discomfort of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A contact opening the boundary too far", varianten: [
+        { code: "SE5", text: "Unwanted contact or substances that violate her carefully guarded distance from the world are hard for the self-preservation Five to tolerate. Exactly at this contact site, an eczema can show up that makes her actual boundary violation visible." },
+        { code: "SO5", text: "Professional or social contacts that go beyond pure knowledge-sharing often cost the social Five more energy than she admits. This hidden overload can show up locally as a skin reaction." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five does allow physical contact without experiencing it as a boundary violation – unlike the general contact shyness of other Five variants." },
+      ]},
+      { typ: 6, titel: "A contact alarming the nervous system", varianten: [
+        { code: "SE6", text: "Unfamiliar substances or unfamiliar contacts often trigger heightened alertness in the self-preservation Six even before an actual intolerance is established. This state of chronic caution can favor the development of an eczema at strained contact sites." },
+        { code: "SO6", text: "Contacts that test the trust of her group often unsettle the social Six deeply, even though she rarely names this worry openly. This unresolved stress can show up locally as a skin reaction." },
+        { code: "SX6", text: "The sexual Six, the counter-type, confronts unwelcome contact directly, rather than silently enduring it. This outward-directed stance can overplay inner tension without actually resolving the underlying intolerance." },
+      ]},
+      { typ: 7, titel: "A contact whose consequences get overridden", varianten: [
+        { code: "SE7", text: "The self-preservation Seven happily and light-heartedly tries out pleasant new substances or experiences, without dwelling long on possible intolerances. An eczema at the contact site is thus frequently connected to the actual trigger only late." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently overrides burdensome contacts in favor of the group's well-being, until her own body clearly protests. Exactly at this point, an eczema can show up." },
+        { code: "SX7", text: "The sexual Seven seeks ever new contacts and experiences with boundless, contagious enthusiasm, even at the risk of an intolerance. This openness differs from the more cautious approach of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A contact escaping control", varianten: [
+        { code: "SE8", text: "The self-preservation Eight usually keeps consistent control over the substances and contacts to which her body is exposed. An eczema that occurs despite this caution feels to her like a particularly wounding reminder that not everything is masterable." },
+        { code: "SO8", text: "Contacts that call her protective function for the group into question are tolerable for the social Eight only with noticeable inner hardness, which she barely shows outwardly. This instantly overplayed resistance can force its way out bodily." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight can openly name unpleasant contact too, rather than silently enduring it. There she finds more clarity, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A contact that stays unnoticed for a long time", varianten: [
+        { code: "SE9", text: "Unpleasant substances or contacts often go entirely unnoticed for a long time by the self-preservation Nine, so completely does she lose herself in routine and comfort. An eczema at the contact site is thus frequently taken seriously only late." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own intolerances to group harmony, even when a particular contact visibly burdens her. This chronic self-erasure can show up as a never-prioritized but steadily recurring eczema." },
+        { code: "SX9", text: "How her partner reacts to a particular contact often becomes the real yardstick for the sexual Nine, once she merges with him. If the partner does not notice her own intolerance, the Nine often overlooks it too." },
+      ]},
+    ],
+    abschluss: "No skin is immune to contact dermatitis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with a concrete outer intolerance in its own way – some through control, others through withdrawal, open expression, or a chronically overridden boundary of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
