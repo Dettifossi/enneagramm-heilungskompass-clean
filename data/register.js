@@ -461,6 +461,7 @@ export const registerEntries = [
   { term: "Lippenherpes (Psychosomatik)", route: "psychosomatik/lippenherpes", description: "Psychosomatische Deutung: latentes Thema, das bei Erschöpfung wieder aufbricht, TCM latente Hitze, Enneagramm alle 27 Subtypen" },
   { term: "Kontaktekzem (Psychosomatik)", route: "psychosomatik/kontaktekzem", description: "Psychosomatische Deutung: konkrete äußere Unverträglichkeit an der Kontaktstelle, TCM eindringender pathogener Faktor, Enneagramm alle 27 Subtypen" },
   { term: "Gürtelrose (Psychosomatik)", route: "psychosomatik/guertelrose", description: "Psychosomatische Deutung: sehr alte, jahrzehntelang getragene Last entlang einer Nervenbahn, TCM gestautes Leber-Feuer, Enneagramm alle 27 Subtypen" },
+  { term: "Haarausfall androgenetisch/diffus (Psychosomatik)", route: "psychosomatik/haarausfall_diffus", description: "Psychosomatische Deutung: schleichender Vitalitätsverlust über Jahre, TCM Nieren-Essenz-Erschöpfung, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 

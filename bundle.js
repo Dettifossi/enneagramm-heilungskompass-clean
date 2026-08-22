@@ -99244,6 +99244,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Keine Nervenbahn ist vor Gürtelrose gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen eine sehr alte, über Jahrzehnte getragene Last auf seine eigene Weise hält – manche über Kontrolle, andere über Rückzug, fortlaufenden Ausdruck oder eine lebenslang übergangene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  haarausfall_diffus: {
+    titel: "Haarausfall (androgenetisch / diffus)",
+    kategorie: "haut",
+    icon: "🪮",
+    kurz: "Kein plötzlicher Schock, sondern ein leises, über Jahre fortschreitendes Weniger-Werden – oft zuerst von anderen bemerkt als von einem selbst.",
+    definition: "Anders als der kreisrunde, autoimmun bedingte Haarausfall verläuft androgenetischer und diffuser Haarausfall schleichend über Monate bis Jahre. Bei der androgenetischen Form reagieren genetisch prädisponierte Haarfollikel überempfindlich auf das Hormon Dihydrotestosteron (DHT), das die Wachstumsphase der Haare Zyklus für Zyklus verkürzt, bis die Follikel schließlich verkümmern – bei Männern meist beginnend an Geheimratsecken und Scheitel, bei Frauen typischerweise als Lichtung entlang des Mittelscheitels. Diffuser Haarausfall betrifft dagegen den ganzen Kopf gleichmäßig und hat oft andere Ursachen: Eisenmangel, Schilddrüsenfunktionsstörungen, hormonelle Umstellungen (etwa nach der Geburt), chronischer Stress oder Nährstoffdefizite. Gemeinsam ist beiden Formen das langsame Tempo – anders als beim kreisrunden Haarausfall gibt es keinen dramatischen Auslösemoment, sondern eine allmähliche, oft erst spät bewusst wahrgenommene Verdünnung.",
+    symptome: ["Langsam fortschreitende Ausdünnung der Haare über Monate bis Jahre", "Bei androgenetischer Form: Geheimratsecken und Scheitelbereich (Männer) oder Scheitellichtung (Frauen)", "Bei diffuser Form: gleichmäßige Ausdünnung über den gesamten Kopf", "Vermehrter Haarausfall beim Kämmen oder Waschen, oft zuerst von anderen bemerkt", "Feiner werdende, kürzere Haare durch verkürzte Wachstumszyklen", "Sichtbar werdende Kopfhaut bei fortgeschrittenem Verlauf"],
+    notfall: "Kein akuter Notfall. Bei plötzlich stark zunehmendem Haarausfall zusammen mit anderen Symptomen (Erschöpfung, Gewichtsveränderung, Zyklusstörungen) sollte eine mögliche Schilddrüsen- oder Eisenmangel-Ursache ärztlich abgeklärt werden.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wo kreisrunder Haarausfall vom plötzlichen Riss erzählt, erzählt androgenetischer und diffuser Haarausfall vom genauen Gegenteil: von einem so langsamen Weniger-Werden, dass man es selbst oft erst bemerkt, wenn andere schon länger etwas gesehen haben. In der TCM steht das Haar in enger Verbindung zur Nieren-Essenz (Jing) und zum Blut – ein allmählicher Haarverlust wird traditionell als Zeichen einer sich über Jahre erschöpfenden Grundsubstanz gedeutet, nicht als akutes Ereignis. Psychosomatisch liest sich diese Form des Haarausfalls oft als Bild einer Vitalität, die sich still zurückzieht – nicht durch einen Schlag, sondern durch ein über Jahre andauerndes Zuwenig an Erneuerung, Pause oder echter Regeneration. Weil das eigene Haar zugleich eng mit Jugendlichkeit, Attraktivität und Selbstbild verknüpft ist, berührt dieser langsame Verlust häufig auch die Frage, wie sehr man sich mit einem bestimmten Bild von sich selbst identifiziert. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, wie sich diese Vitalität über die Jahre erschöpft.",
+    typen: [
+      { typ: 1, titel: "Eine Erschöpfung, die niemand zugeben darf", varianten: [
+        { code: "SE1", text: "Über Jahre hält die selbsterhaltende Eins ihre Disziplin ohne sichtbare Pause durch, echte Erschöpfung darf in ihrem strengen Selbstbild kaum vorkommen. Diese nie zugelassene, stille Auszehrung kann sich über die Zeit als allmählich dünner werdendes Haar zeigen." },
+        { code: "SO1", text: "Ihre eigene Erschöpfung stellt die soziale Eins über Jahre hinter den Anspruch zurück, moralisch vorbildlich zu funktionieren. Dieser nie eingestandene Substanzverlust kann sich langsam als diffuse Ausdünnung zeigen." },
+        { code: "SX1", text: "Ihre Erschöpfung zeigt die sexuelle Eins durchaus in der engen Beziehung, statt sie über Jahre zu verleugnen. Dieses frühere Eingeständnis kann der schleichenden Substanzerschöpfung anderer Einser-Varianten entgegenwirken." },
+      ]},
+      { typ: 2, titel: "Eine Substanz, die stetig an andere geht", varianten: [
+        { code: "SE2", text: "Über Jahre gibt die selbsterhaltende Zwei ihre Kraft kontinuierlich an andere weiter, ohne sich selbst je wirklich aufzufüllen. Dieser andauernde Substanzabfluss kann sich über die Zeit als allmähliche Haarausdünnung zeigen." },
+        { code: "SO2", text: "Unentbehrlich zu bleiben kostet die soziale Zwei über Jahre kontinuierlich Kraft, die selten durch echte Erholung ausgeglichen wird. Dieser schleichende Substanzverlust kann sich als diffuser Haarausfall zeigen." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung erhält die sexuelle Zwei durchaus auch Zuwendung zurück, statt nur kontinuierlich zu geben. Dieser Ausgleich kann dem andauernden Substanzabfluss anderer Zweier-Varianten entgegenwirken." },
+      ]},
+      { typ: 3, titel: "Ein Tempo, das über Jahre zehrt", varianten: [
+        { code: "SE3", text: "Über Jahre hält die selbsterhaltende Drei ein hohes Arbeitstempo durch, ohne sich echte Regenerationsphasen zuzugestehen. Dieser andauernde Substanzverlust kann sich als allmählich dünner werdendes Haar zeigen, lange bevor sie selbst innehält." },
+        { code: "SO3", text: "Ihr öffentliches Bild von Erfolg und Vitalität hält die soziale Drei über Jahre aufrecht, während die eigentliche Erschöpfung dahinter unsichtbar bleibt. Sichtbar werdender Haarausfall trifft sie besonders empfindlich, weil er genau dieses Bild infrage stellt." },
+        { code: "SX3", text: "Vor der einen wichtigen Person gesteht sich die sexuelle Drei Erschöpfung eher ein, statt sie über Jahre zu verbergen. Dieses frühere Eingeständnis unterscheidet sich vom öffentlich aufrechterhaltenen Bild anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Sehnsucht, die über Jahre zehrt", varianten: [
+        { code: "SE4", text: "Ihre tiefe, nie ausgesprochene Sehnsucht trägt die selbsterhaltende Vier, der Kontratyp, über Jahre zäh mit sich. Dieser andauernde innere Substanzverlust kann sich als allmähliche Ausdünnung des Haars zeigen." },
+        { code: "SO4", text: "Ihre Sehnsucht spricht die soziale Vier über Jahre hinweg eher offen aus, statt sie in sich zu verschließen. Dieser fortlaufende Ausdruck kann dem stillen Substanzverlust entgegenwirken, der bei anderen Vierer-Varianten typischer ist." },
+        { code: "SX4", text: "Mit wiederkehrender Intensität lebt die sexuelle Vier ihre emotionalen Schwankungen offen aus, statt sie über Jahre in sich aufzustauen. Dieser fortlaufende Ausdruck steht dem stillen, andauernden Substanzverlust der selbsterhaltenden Variante entgegen." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der über Jahre Substanz kostet", varianten: [
+        { code: "SE5", text: "Über Jahre reduziert die selbsterhaltende Fünf ihre Bedürfnisse konsequent auf ein Minimum, auch bei der eigenen Regeneration. Diese andauernde Sparsamkeit gegenüber sich selbst kann sich als allmähliche Haarausdünnung zeigen." },
+        { code: "SO5", text: "Ihr Wissen gibt die soziale Fünf über Jahre bereitwillig weiter, während die eigene emotionale Auffüllung dabei zu kurz kommt. Dieser stille Substanzverlust kann sich als diffuser Haarausfall zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung lässt sich die sexuelle Fünf über Jahre hinweg durchaus auffüllen und nähren, statt sich nur zurückzuziehen – anders als bei der generellen Sparsamkeit der übrigen Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine Anspannung, die über Jahre zehrt", varianten: [
+        { code: "SE6", text: "Über Jahre hält die selbsterhaltende Sechs eine wache innere Anspannung aufrecht, ihr Nervensystem findet selten echte Ruhe. Diese andauernde Alarmbereitschaft zählt zu den bekannten Auslösern eines schleichenden, diffusen Haarausfalls." },
+        { code: "SO6", text: "Über Jahre trägt die soziale Sechs eine stille Sorge um ihre Gruppe mit sich, ohne echte innere Entlastung zu finden. Dieser andauernde Substanzverlust kann sich als allmähliche Haarausdünnung zeigen." },
+        { code: "SX6", text: "Statt dauerhafter innerer Anspannung begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst über Jahre hinweg mit unmittelbarer Konfrontation. Diese fortlaufend nach außen gerichtete Haltung unterscheidet sich vom schleichenden Substanzverlust anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Eine Erschöpfung, die übertönt wird", varianten: [
+        { code: "SE7", text: "Über Jahre überspielt die selbsterhaltende Sieben eigene Erschöpfung mit immer neuen angenehmen Ablenkungen. Diese andauernde Vermeidung echter Erholung kann sich als allmähliche Haarausdünnung zeigen, wenn der Körper sich die Pause selbst nimmt." },
+        { code: "SO7", text: "Über Jahre stellt die soziale Sieben, der Kontratyp, die eigenen Grenzen hinter das Wohl der Gruppe zurück, bis zur andauernden Erschöpfung. Dieser wiederholte Substanzverlust kann sich als diffuser Haarausfall zeigen." },
+        { code: "SX7", text: "Erschöpfung überspielt die sexuelle Sieben über Jahre bemerkenswert lange, getragen von grenzenloser, ansteckender Begeisterung. Diese fortlaufende Vitalität kann den stillen Substanzverlust anderer Siebener-Varianten hinauszögern." },
+      ]},
+      { typ: 8, titel: "Eine Kraft, die sich unbemerkt verbraucht", varianten: [
+        { code: "SE8", text: "Über Jahre setzt die selbsterhaltende Acht ihre Kraft konsequent für Kontrolle über Körper und Ressourcen ein, ohne echte Erholungsphasen einzuplanen. Diesen andauernden Substanzverbrauch erlebt sie als besonders kränkend, wenn er sich sichtbar am eigenen Haar zeigt." },
+        { code: "SO8", text: "Über Jahre demonstriert die soziale Acht unbedingte Stärke im Dienst ihrer Beschützerrolle, ohne sich selbst dabei zu schonen. Dieser andauernde, verborgene Substanzverlust kann sich als allmähliche Haarausdünnung zeigen." },
+        { code: "SX8", text: "Erholung und Verletzlichkeit zulassen kann die sexuelle Acht über Jahre hinweg durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie fortlaufend Regeneration, anders als bei der generellen Dauerbeanspruchung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Eine Erschöpfung, die nie an erster Stelle steht", varianten: [
+        { code: "SE9", text: "Über Jahre verliert sich die selbsterhaltende Neun in Routine und Komfort, ohne die eigene schleichende Erschöpfung je bewusst wahrzunehmen. Ein allmählich dünner werdendes Haar kann so zum ersten wirklich bemerkten Hinweis auf eine lange übergangene Kraftlosigkeit werden." },
+        { code: "SO9", text: "Über Jahre ordnet die soziale Neun ihre eigene Erschöpfung beständig der Gruppenharmonie unter, ohne sie je in den Vordergrund zu stellen. Diese andauernde Selbstzurücknahme kann sich als diffuser Haarausfall zeigen." },
+        { code: "SX9", text: "Über Jahre übernimmt die sexuelle Neun die Wahrnehmung der eigenen Vitalität vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Erschöpfung nicht, übersieht die Neun ihre eigene Kraftlosigkeit oft ebenso lange." },
+      ]},
+    ],
+    abschluss: "Kein Haar ist vor allmählichem Ausfall gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit langsamem, über Jahre andauerndem Substanzverlust auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, fortlaufenden Ausdruck oder eine lange übergangene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99256,7 +99315,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "bewegungsapparat": [],
   "atemwege": [],
   "verdauung": [],
-  "haut": ["Haarausfall (androgenetisch / diffus)"],
+  "haut": [],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
