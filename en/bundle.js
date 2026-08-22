@@ -63644,6 +63644,124 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to diverticulitis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates small, unprocessed matters in its own way – some through swallowed irritation, others through withdrawal, deferred obligations, or a small hurt that never quite gets voiced. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
+  fettleber: {
+    titel: "Fatty Liver Disease",
+    kategorie: "verdauung",
+    icon: "🫒",
+    kurz: "When quiet excess accumulates in liver cells over years, without the liver itself ever raising the alarm.",
+    definition: "Fatty liver disease (hepatic steatosis) is diagnosed when fat accumulates in more than five percent of liver cells. A distinction is made between alcoholic fatty liver, caused by regular alcohol consumption, and non-alcoholic fatty liver disease (NAFLD), closely linked to excess weight, insulin resistance, type 2 diabetes, and an unfavorable metabolic profile, and now the most common liver disease in Western industrialized nations. The liver itself has almost no pain receptors, which is why fatty liver disease can go unnoticed for years – only once inflammation (steatohepatitis) and, further along, scarring (fibrosis, up to cirrhosis) develop do noticeable complaints arise. The good news: in early stages, fatty liver disease is well reversible through changes in diet and lifestyle.",
+    symptome: ["Usually no noticeable complaints at first", "Occasional pressure or dull pain in the right upper abdomen", "Persistent fatigue and exhaustion", "Fullness after eating", "In advanced inflammation: elevated liver values in blood tests", "In advanced disease: weight gain in the abdominal area, skin changes"],
+    notfall: "In case of sudden yellowing of skin and eyes, severe abdominal pain, confusion, or fluid retention in the abdomen, seek prompt medical evaluation – these signs can point to advanced liver damage. Fatty liver disease itself is usually a silent finding that should nonetheless be taken seriously and followed up medically.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The liver is the quietest of all the major organs – it has almost no pain receptors, never complains, and keeps working even when it is already overloaded. In TCM, the Liver is considered the seat of the Hun, the planning, forward-looking force of the soul, and the storehouse of Blood; an overloaded Liver is traditionally linked to a long-unheeded excess that accumulates over years unnoticed. Psychosomatic medicine often reads fatty liver disease as the picture of an organ that quietly and loyally absorbs everything it is asked to bear – abundance, overload, worry – without ever protesting, until the quiet excess itself becomes the burden. For each of the 27 subtypes, its own pattern shows what accumulates here quietly over years.",
+    typen: [
+      { typ: 1, titel: "Anger accumulated quietly over years", varianten: [
+        { code: "SE1", text: "The self-preservation One holds anger under disciplined, quiet control for years, without it ever visibly surfacing – this silent accumulation of tension, never protested, fits the picture of a liver that wordlessly stores over years what should actually be processed." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over the correctness of things, accumulates quiet moral exhaustion over years, without ever openly complaining. This loyal, never-voiced overload can show up quietly, without warning signs, physically as fat deposits in the liver." },
+        { code: "SX1", text: "The sexual One lives her demand with great, visible intensity – this more direct, audible expression counters the quiet, unnoticed accumulating more typical of other One variants." },
+      ]},
+      { typ: 2, titel: "Pride that quietly accepts overload for years", varianten: [
+        { code: "SE2", text: "The self-preservation Two tirelessly looks after others for years, never loudly protesting when her own burden grows too great. This quiet, loyal overload, which never raises the alarm, fits almost perfectly the picture of a liver that uncomplainingly stores what is asked of it." },
+        { code: "SO2", text: "Being indispensable to many people at once demands of the social Two a quiet self-overload over years, one that is never openly named. This chronically quiet overload can accumulate quietly in the liver." },
+        { code: "SX2", text: "In intense relationship phases, the sexual Two invests herself almost completely, but more episodically than over a long, sustained span of time – this pointed pattern differs from the quiet, over-years accumulated overload pattern of other Two variants." },
+      ]},
+      { typ: 3, titel: "Achievement that must show no exhaustion for years", varianten: [
+        { code: "SE3", text: "The self-preservation Three keeps functioning efficiently for years, never publicly admitting exhaustion – this quiet overload, sustained over a long lifespan, can show up physically as a liver that uncomplainingly stores what the mind never admits." },
+        { code: "SO3", text: "In constant comparison with others, the social Three keeps up a pace over years that is never publicly named as too much – this permanent, but quiet, pressure to perform can show up physically as an overloaded liver." },
+        { code: "SX3", text: "To appear flawless in the relationship, the sexual Three plays down exhaustion more in individual, pointed moments – this episodic playing-down differs from the quiet, over-years sustained pattern of other Three variants." },
+      ]},
+      { typ: 4, titel: "Longing that quietly accumulates over years", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently for years, without ever expressing it – this sustained, quiet carrying can show up physically as a liver that uncomplainingly stores over a long time what was never voiced emotionally." },
+        { code: "SO4", text: "The social Four makes her suffering visible and finds a certain expression in it – this outward expression can act as a valve that at least partly counteracts the purely quiet, physical accumulation, even though the underlying longing itself remains." },
+        { code: "SX4", text: "With fierce but visible swings between closeness and despair, the sexual Four lives her emotional intensity within the relationship – this more direct, audible expression counters the quiet, over-years sustained accumulating more typical of other Four variants." },
+      ]},
+      { typ: 5, titel: "Withdrawal that voices no complaint for years", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently keeps even years-long exhaustion to herself, rarely seeking medical advice as long as it is at all possible – this quiet enduring over a long span fits the picture of a fatty liver that was able to develop over years unnoticed." },
+        { code: "SO5", text: "The social Five keeps emotional closeness at a distance behind intellectual detachment – her own, years-long exhaustion, too, can thus be registered as an abstract fact rather than taken seriously as a genuine physical signal." },
+        { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, physical exhaustion can well be discussed openly – which counteracts the quiet suppression more typical of other Five variants." },
+      ]},
+      { typ: 6, titel: "Fear that settles quietly in the body over years", varianten: [
+        { code: "SE6", text: "The self-preservation Six lives in constant caution for years, without ever openly naming this tension – this state of alarm, sustained over a long span, can show up quietly, without warning signs, physically as fat deposits in the liver." },
+        { code: "SO6", text: "The social Six carries an often years-long, unspoken worry for the well-being of her group – this diffuse, never openly named tension can accumulate quietly in the liver." },
+        { code: "SX6", text: "Through active, visible confrontation, the sexual Six discharges fear more directly – this more immediate reaction counters the quiet, over-years sustained accumulating more typical of other Six variants." },
+      ]},
+      { typ: 7, titel: "Indulgences that quietly burden the liver over years", varianten: [
+        { code: "SE7", text: "The self-preservation Seven secures herself over years through a variety of culinary comforts, often paired with regular alcohol or sugar consumption as a means of self-soothing – psychosomatic medicine reads this sustained, substance-linked way of handling inner restlessness as one of the more direct pictures of fatty liver disease." },
+        { code: "SO7", text: "The social Seven, the counter-type, sets her own needs aside in favor of others over years, often to the point of her own exhaustion – this chronic, quiet self-overload can show up physically as an overloaded liver." },
+        { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly over years, often paired with rich meals and regular indulgence – this sustained, substance-linked intensity is read by psychosomatic medicine as one of the more direct paths to an overloaded liver." },
+      ]},
+      { typ: 8, titel: "Control that allows no exhaustion of its own for years", varianten: [
+        { code: "SE8", text: "The self-preservation Eight tolerates no weakness for years, not even her own, and consistently overrides signs of exhaustion – this refusal, sustained over a long lifespan, to show herself leniency can show up quietly, without warning signs, physically as fat deposits in the liver." },
+        { code: "SO8", text: "The social Eight takes on responsibility for many people at once over years and always puts her own exhaustion last – this chronic, quiet overload can accumulate in the liver." },
+        { code: "SX8", text: "In extreme but episodic swings, the sexual Eight lives her intensity within the relationship – this pointed dynamic differs from the quiet, over-years sustained accumulation pattern of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overlooks its own overload for years", varianten: [
+        { code: "SE9", text: "The self-preservation Nine takes refuge in comfort and routine for years and often barely consciously registers her own, slowly building overload – this overlooking over a long span fits especially closely with the picture of a fatty liver that was able to develop over years unnoticed." },
+        { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony over years that even her own exhaustion rarely finds real attention – this chronic self-erasure can show up as a years-long, quiet, unnoticed overload of the liver." },
+        { code: "SX9", text: "The sexual Nine merges with her partner so completely that her own perception of exhaustion often orients itself by the other's rather than by her own signals – a fusion that makes it harder over years to notice her own quiet overload in the first place." },
+      ]},
+    ],
+    abschluss: "No subtype is immune to fatty liver disease, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates quiet, over-years accumulated overload in its own way – some through silent self-control, others through withdrawal, substance-linked self-soothing, or an exhaustion of their own that is never taken seriously. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  zoeliakie: {
+    titel: "Celiac Disease",
+    kategorie: "verdauung",
+    icon: "🌾",
+    kurz: "An autoimmune disease in which the body treats gluten – actually a staple food – as a threat and attacks its own small-intestine lining.",
+    definition: "Celiac disease is an autoimmune disease in which the immune system responds to gluten, the protein found in wheat, rye, and barley, with an inflammatory reaction that turns against the body's own small-intestine lining. The fine intestinal villi responsible for nutrient absorption are progressively broken down, which can lead to deficiency symptoms despite adequate food intake. Celiac disease is genetically determined and can first appear at any age, often triggered by infections, pregnancy, or other physical strain. The only currently effective treatment is a consistent, lifelong gluten-free diet – even the smallest amounts of gluten can trigger a renewed inflammatory reaction in someone with celiac disease.",
+    symptome: ["Chronic diarrhea or changing bowel habits", "Bloating and fullness after gluten-containing meals", "Weight loss despite normal or increased food intake", "Fatigue and iron deficiency from impaired nutrient absorption", "Skin changes (dermatitis herpetiformis) in some patients", "In children: growth delay and a distended abdomen"],
+    notfall: "Celiac disease itself is not an acute emergency, but persistent digestive complaints, unintended weight loss, or unexplained deficiency symptoms should be medically evaluated (blood test, possibly small-intestine biopsy). Important: gluten should not be independently removed from the diet before testing, as this can distort the test result.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Bread has for millennia stood as a symbol of the most basic, most nourishing thing a person can take in – &bdquo;daily bread&ldquo;. In celiac disease, the body turns against exactly this staple food and treats it as a threat. Psychosomatically, this can carefully be read as the picture of something fundamentally intolerable – a deep, often long-standing difficulty accepting something that should actually belong to basic sustenance, whether that is food in the literal sense or care in the figurative sense. Important throughout: celiac disease is a genetically determined autoimmune disease, not a matter of character, and no one is &bdquo;responsible&ldquo; for it. For each of the 27 subtypes, its own pattern shows how this fundamental intolerance can express itself.",
+    typen: [
+      { typ: 1, titel: "Anger that strictly scrutinizes even the most basic things", varianten: [
+        { code: "SE1", text: "The self-preservation One strictly scrutinizes everything she takes in against her own high standards – in celiac disease, this strictness shows up physically at an even more fundamental level: even the most basic food gets classified by the immune system as unacceptable." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over the correctness of things, often also has a strict inner standard for what is good and right for her own body – in celiac disease, this strict standard physically extends to something as basic as grain." },
+        { code: "SX1", text: "The sexual One lives her demand for perfection with great intensity – here too, celiac disease shows an especially unyielding physical reaction as soon as even the smallest amounts of the intolerable substance are ingested." },
+      ]},
+      { typ: 2, titel: "Pride that overrides even basic needs of its own", varianten: [
+        { code: "SE2", text: "The self-preservation Two frequently overrides her own basic needs for the sake of others – in celiac disease, it shows up physically that even the most basic form of self-care, eating, is disrupted when the usual staple food cannot be tolerated." },
+        { code: "SO2", text: "Being indispensable to many people at once demands of the social Two that she often set her own basic needs aside – in celiac disease, this theme shows up especially clearly physically, once even eating itself becomes a challenge." },
+        { code: "SX2", text: "In intense relationship phases, the sexual Two invests herself almost completely in her beloved – her own, basic self-care through an adapted diet requires conscious attention here, which can easily recede in favor of the relationship." },
+      ]},
+      { typ: 3, titel: "Achievement that allows no pause even for basic needs", varianten: [
+        { code: "SE3", text: "The self-preservation Three keeps functioning efficiently even when her body has long been sending clear signals – in celiac disease, this tendency to override warning signs can delay diagnosis, because digestive complaints get dismissed for a long time as mere strain from a busy schedule." },
+        { code: "SO3", text: "In constant comparison with others, the social Three does not want to stand out as a special case – a gluten-free diet, visibly deviating from the norm, can pose a particular challenge for this subtype, because it sets her apart from the seemingly effortless majority." },
+        { code: "SX3", text: "To appear flawless in the relationship, the sexual Three might initially experience special dietary needs as an annoying restriction that contradicts the desired image of easygoingness." },
+      ]},
+      { typ: 4, titel: "Longing that shows up as fundamental intolerance", varianten: [
+        { code: "SE4", text: "The self-preservation Four often experiences physical discomfort as further proof that her body reacts more sensitively than others' – in celiac disease, this fundamental intolerance fits almost logically into a self-image in which her own experience fundamentally runs differently from the majority's." },
+        { code: "SO4", text: "For the social Four, a diagnosed celiac disease can unconsciously become further evidence of her own being different – a suffering that sets her apart from the seemingly carefree majority who enjoy bread and pasta without a second thought." },
+        { code: "SX4", text: "The sexual Four lives feelings with full force – a necessary dietary change can, for this subtype, initially feel like a further loss before it becomes a conscious, self-caring decision." },
+      ]},
+      { typ: 5, titel: "Withdrawal that keeps basic complaints to itself for a long time", varianten: [
+        { code: "SE5", text: "The self-preservation Five keeps even persistent digestive complaints to herself for a long time, rarely seeking medical advice early – this quiet enduring can delay a celiac disease diagnosis for years, even though the complaints have long been noticeably limiting daily life." },
+        { code: "SO5", text: "The social Five researches persistent complaints thoroughly at first before seeking medical help – this analytical approach can well be helpful in the complex diagnostic workup for celiac disease, but sometimes delays the first step." },
+        { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, physical complaints can well be discussed openly – which counteracts the quiet suppression more typical of other Five variants and favors earlier evaluation." },
+      ]},
+      { typ: 6, titel: "Fear that suspiciously scrutinizes basic food", varianten: [
+        { code: "SE6", text: "The self-preservation Six meets the world with caution, including regarding food – after a celiac diagnosis, this already-present vigilance can become helpful in consistently ensuring a gluten-free diet, but can also tip into excessive worry over hidden traces." },
+        { code: "SO6", text: "The social Six orients herself by shared rules and recommendations, even when it comes to health – with celiac disease, this can mean following medical advice and dietary guidelines especially conscientiously once the diagnosis is confirmed." },
+        { code: "SX6", text: "The sexual Six meets challenges counterphobically, through active confrontation – a celiac diagnosis can, for this subtype, become the occasion to acquire the necessary knowledge about gluten-free eating especially determinedly." },
+      ]},
+      { typ: 7, titel: "Excess that overrides basic restrictions", varianten: [
+        { code: "SE7", text: "The self-preservation Seven is reluctant to let restrictions spoil her enjoyment – the necessity of a consistently gluten-free diet can initially be especially hard for this subtype to accept, because it limits a beloved variety of options." },
+        { code: "SO7", text: "The social Seven wants to infect everyone with her lightness and has little patience for a condition that cannot be joked away – symptoms sometimes get talked down instead of consistently implementing the necessary dietary change." },
+        { code: "SX7", text: "The sexual Seven throws herself into culinary experiences with full enthusiasm – a celiac diagnosis requires this subtype to consciously redirect that enthusiasm toward the many gluten-free possibilities, rather than experiencing it as pure restriction." },
+      ]},
+      { typ: 8, titel: "Control that allows no compromise even in its own diet", varianten: [
+        { code: "SE8", text: "The self-preservation Eight tolerates no weakness, not even her own – with celiac disease, this will to control can prove an advantage when directed toward a consistent, uncompromising adherence to a gluten-free diet." },
+        { code: "SO8", text: "The social Eight takes control not for herself but for the group – with her own celiac diagnosis, this subtype can find it hard to acknowledge her own neediness and grant herself the same consistent care she otherwise gives others." },
+        { code: "SX8", text: "The sexual Eight lives pure intensity – with a necessary dietary change, this intensity can prove an advantage when it translates into an equally uncompromising implementation of the new way of eating." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overlooks basic signals for a long time", varianten: [
+        { code: "SE9", text: "The self-preservation Nine grows accustomed to almost anything, including chronic digestive complaints, and happily postpones the actual evaluation – this tendency toward quiet accommodation can delay a celiac disease diagnosis for years." },
+        { code: "SO9", text: "The social Nine does not want to be a burden to anyone, not even with health complaints, and often swallows symptoms without complaint – so the obvious diagnostic evaluation remains conspicuously unused for a long time." },
+        { code: "SX9", text: "The sexual Nine merges so completely with her beloved that her own physical signals easily recede into the background – persistent digestive complaints, too, are sometimes only noticed once her partner points them out with concern." },
+      ]},
+    ],
+    abschluss: "No subtype is immune to celiac disease, and no pattern is a verdict or an accusation of blame – celiac disease is a genetically determined autoimmune disease. What emerges is simply that each of the 27 subtypes negotiates basic self-care, adaptation, and overridden signals in its own way. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance – complementing, not replacing, the necessary, lifelong gluten-free diet that remains essential in celiac disease."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -63654,7 +63772,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
+  "verdauung": ["Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
   "nerven-psyche": ["Migraine", "Tension Headache", "Depression", "Generalized Anxiety Disorder", "Panic Attacks", "Burnout Syndrome", "Insomnia", "Narcolepsy", "Tinnitus", "Vertigo / Dizziness", "Restless Legs Syndrome", "Teeth Grinding (Bruxism)", "Chronic Fatigue Syndrome (ME/CFS)"],
