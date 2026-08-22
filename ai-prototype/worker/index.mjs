@@ -17,10 +17,93 @@ Answer questions EXCLUSIVELY based on the provided source texts.
 If the answer is not contained in the sources, say so honestly instead of speculating or inventing information.
 Answer in English, friendly and clear. At the end, cite the subtype codes used as sources in parentheses.`;
 
-async function askGemini(question, chunks, apiKey, lang) {
-  const context = chunks
-    .map((c) => `--- Quelle: ${c.code} (${c.source}) ---\n${c.text}`)
-    .join("\n\n");
+const EMBED_MODEL = "gemini-embedding-001";
+const EMBED_DIMENSIONS = 768;
+
+// Lookup-Tabellen code -> vollständiger Chunk, einmalig pro Worker-Instanz gebaut
+// (nicht pro Request), damit Vectorize-Treffer (die nur gekürzten Text als
+// Metadaten tragen) wieder den vollen Originaltext bekommen.
+const knowledgeByCodeDE = new Map(knowledgeDE.map((c) => [c.code, c]));
+const knowledgeByCodeEN = new Map(knowledgeEN.map((c) => [c.code, c]));
+
+async function embedQuery(question, apiKey) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${EMBED_MODEL}:embedContent?key=${apiKey}`;
+  const body = {
+    model: `models/${EMBED_MODEL}`,
+    content: { parts: [{ text: question }] },
+    outputDimensionality: EMBED_DIMENSIONS,
+  };
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(`Embedding-Fehler ${res.status}: ${await res.text()}`);
+  const data = await res.json();
+  return data.embedding.values;
+}
+
+// Hybrid-Retrieval: semantische Vektorsuche (versteht Bedeutung, nicht nur
+// Wort-Overlap) ergänzt um die bisherige Keyword-Suche (sehr präzise bei
+// exakten Codes/Namen, z.B. "SE1", Länder-Sammelfragen). Fällt bei jedem
+// Fehler (Vectorize/Embedding nicht erreichbar) sauber auf reine
+// Keyword-Suche zurück, statt die Anfrage scheitern zu lassen.
+async function hybridRetrieve(question, { knowledge, knowledgeByCode, vectorizeIndex, apiKey }) {
+  const keywordHits = retrieveRelevantChunks(question, knowledge, 5);
+
+  if (!vectorizeIndex) return keywordHits;
+
+  try {
+    const qVector = await embedQuery(question, apiKey);
+    const result = await vectorizeIndex.query(qVector, { topK: 6, returnMetadata: "indexed" });
+    const vectorHits = (result.matches || [])
+      .map((m) => knowledgeByCode.get(m.metadata?.code))
+      .filter(Boolean);
+
+    const merged = [];
+    const seen = new Set();
+    for (const c of vectorHits) {
+      if (!seen.has(c.code)) {
+        merged.push(c);
+        seen.add(c.code);
+      }
+    }
+    for (const c of keywordHits) {
+      if (!seen.has(c.code)) {
+        merged.push(c);
+        seen.add(c.code);
+      }
+    }
+    return merged.slice(0, 10);
+  } catch (err) {
+    console.error("Vectorize-Suche fehlgeschlagen, nutze Keyword-Fallback:", err.message);
+    return keywordHits;
+  }
+}
+
+// Enzyklopädie-Chunks tragen keinen Subtyp-Code (kommen nicht aus
+// knowledge.json, sondern direkt aus den Vectorize-Metadaten, da die
+// Rohdaten/knowledge-Datei absichtlich nie ins Repo/den Worker-Bundle
+// gelangen - siehe .gitignore). Nur Deutsch, kein knowledgeByCode-Join nötig.
+async function retrieveEncyclopedia(question, { vectorizeIndex, apiKey }) {
+  if (!vectorizeIndex) return [];
+  try {
+    const qVector = await embedQuery(question, apiKey);
+    const result = await vectorizeIndex.query(qVector, { topK: 4, returnMetadata: "indexed" });
+    return (result.matches || [])
+      .filter((m) => m.metadata?.text)
+      .map((m) => ({ source: m.metadata.source, text: m.metadata.text }));
+  } catch (err) {
+    console.error("Enzyklopädie-Suche fehlgeschlagen:", err.message);
+    return [];
+  }
+}
+
+async function askGemini(question, chunks, encyclopediaChunks, apiKey, lang) {
+  const context = [
+    ...chunks.map((c) => `--- Quelle: ${c.code} (${c.source}) ---\n${c.text}`),
+    ...encyclopediaChunks.map((c) => `--- Quelle: Profiling-Enzyklopädie (${c.source}) ---\n${c.text}`),
+  ].join("\n\n");
 
   const systemInstruction = lang === "en" ? SYSTEM_INSTRUCTION_EN : SYSTEM_INSTRUCTION_DE;
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${apiKey}`;
@@ -76,20 +159,40 @@ export default {
         });
       }
 
-      const knowledge = lang === "en" ? knowledgeEN : knowledgeDE;
-      const relevant = retrieveRelevantChunks(question, knowledge, 5);
-      if (relevant.length === 0) {
-        const noMatch =
-          lang === "en"
-            ? "I couldn't find matching content in the knowledge base for that."
-            : "Dazu finde ich in der Wissensbasis keine passenden Inhalte.";
+      const isEN = lang === "en";
+      const knowledge = isEN ? knowledgeEN : knowledgeDE;
+      const knowledgeByCode = isEN ? knowledgeByCodeEN : knowledgeByCodeDE;
+      const vectorizeIndex = isEN ? env.VECTORIZE_EN : env.VECTORIZE_DE;
+
+      const relevant = await hybridRetrieve(question, {
+        knowledge,
+        knowledgeByCode,
+        vectorizeIndex,
+        apiKey: env.GEMINI_API_KEY,
+      });
+
+      // Enzyklopädie ist bisher nur auf Deutsch aufbereitet.
+      const encyclopediaChunks = isEN
+        ? []
+        : await retrieveEncyclopedia(question, {
+            vectorizeIndex: env.VECTORIZE_ENZYKLOPAEDIE,
+            apiKey: env.GEMINI_API_KEY,
+          });
+
+      if (relevant.length === 0 && encyclopediaChunks.length === 0) {
+        const noMatch = isEN
+          ? "I couldn't find matching content in the knowledge base for that."
+          : "Dazu finde ich in der Wissensbasis keine passenden Inhalte.";
         return new Response(JSON.stringify({ answer: noMatch, sources: [] }), {
           headers: { ...corsHeaders(request), "Content-Type": "application/json" },
         });
       }
 
-      const answer = await askGemini(question, relevant, env.GEMINI_API_KEY, lang);
-      const sources = [...new Set(relevant.map((c) => c.code))];
+      const answer = await askGemini(question, relevant, encyclopediaChunks, env.GEMINI_API_KEY, lang);
+      const sources = [
+        ...new Set(relevant.map((c) => c.code)),
+        ...encyclopediaChunks.map((c) => c.source),
+      ];
 
       return new Response(JSON.stringify({ answer, sources }), {
         headers: { ...corsHeaders(request), "Content-Type": "application/json" },

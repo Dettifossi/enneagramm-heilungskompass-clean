@@ -4,3 +4,8 @@ node_modules/
 .wrangler/
 ai-prototype/worker/.wrangler/
 .DS_Store
+
+# Profiling-Enzyklopädie: geschütztes geistiges Eigentum, niemals ins
+# öffentliche Repo. Extrahierter Text, Chunks und Embeddings bleiben lokal
+# und werden nur direkt per wrangler zu Cloudflare Vectorize hochgeladen.
+ai-prototype/enzyklopaedie-private/

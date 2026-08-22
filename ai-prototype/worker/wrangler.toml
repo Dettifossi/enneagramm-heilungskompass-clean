@@ -4,3 +4,19 @@ compatibility_date = "2026-08-01"
 
 # GEMINI_API_KEY wird NICHT hier eingetragen, sondern als Secret gesetzt:
 #   npx wrangler secret put GEMINI_API_KEY
+
+# Vektor-Indizes für semantische Suche (Embeddings via Gemini text-embedding-004,
+# 768 Dimensionen). Gefüllt per ai-prototype/embed-and-upsert.mjs.
+[[vectorize]]
+binding = "VECTORIZE_DE"
+index_name = "kompass-wissen-de"
+
+[[vectorize]]
+binding = "VECTORIZE_EN"
+index_name = "kompass-wissen-en"
+
+# Profiling-Enzyklopädie (privates Wissen, nie im Repo). Gefüllt per
+# ai-prototype/embed-enzyklopaedie.mjs, Upload direkt via wrangler, nie über git.
+[[vectorize]]
+binding = "VECTORIZE_ENZYKLOPAEDIE"
+index_name = "kompass-enzyklopaedie-de"
