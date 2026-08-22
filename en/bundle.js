@@ -63762,6 +63762,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to celiac disease, and no pattern is a verdict or an accusation of blame – celiac disease is a genetically determined autoimmune disease. What emerges is simply that each of the 27 subtypes negotiates basic self-care, adaptation, and overridden signals in its own way. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance – complementing, not replacing, the necessary, lifelong gluten-free diet that remains essential in celiac disease."
   },
+  haemorrhoiden: {
+    titel: "Hemorrhoids",
+    kategorie: "verdauung",
+    icon: "🔴",
+    kurz: "Pathologically enlarged vascular cushions in the rectum that form when too much pressure is placed on them over years.",
+    definition: "Hemorrhoids are a naturally present vascular cushion at the junction of rectum and anus that helps provide fine sealing. One speaks of the condition only once this cushion becomes pathologically enlarged – usually through chronically elevated pressure in the abdomen, often caused by persistent, strong straining with constipation, prolonged sitting on the toilet, pregnancy, excess weight, or a family predisposition to connective-tissue weakness. Four degrees of severity are distinguished, from internal, non-visible nodules (grade 1) to permanently prolapsed external nodules (grade 4). Hemorrhoidal disease is among the most common proctological complaints overall, but is often kept silent for a long time out of shame before medical help is sought.",
+    symptome: ["Bright red blood traces on toilet paper or in the stool", "Itching and burning in the anal area", "A weeping sensation or feeling of a foreign body at the anus", "Pain, especially in advanced stages or with complications", "Externally prolapsing nodules with more pronounced disease", "A feeling of incomplete emptying after a bowel movement"],
+    notfall: "In case of sudden, severe pain with a hard, bluish nodule at the anus (a sign of thrombosis), or with stronger, persistent bleeding, seek prompt medical evaluation. Blood in the stool should always be medically investigated to reliably rule out other, more serious causes.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Hemorrhoids arise from chronically elevated pressure – a picture that opens itself up almost immediately to psychosomatic reading: where too much has been pressed, too much burden carried, or too much endured over years without finding a counterbalance, this pressure can show up exactly at the place where the body is meant to let go, quite literally. In TCM, a &bdquo;sinking Spleen Qi&ldquo; is traditionally linked to a weakness in holding the inner organs in place – an image of exhaustion that shows up in the body's lowest region. Psychosomatic medicine often reads hemorrhoidal disease as a sign of a person who withstands too much pressure over a long time, carries too much responsibility, or grants herself too little relief. For each of the 27 subtypes, its own pattern shows what pressure especially often builds up here.",
+    typen: [
+      { typ: 1, titel: "Anger that builds up as pressure in the body", varianten: [
+        { code: "SE1", text: "The self-preservation One literally presses herself together to maintain her own discipline and control – even bowel movements often proceed with excessive tension rather than giving the body time. This pressure, exerted over years, can show up physically as enlarged vascular cushions in the rectum." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over the correctness of things, carries a permanent inner tension that affects the whole body – including the abdominal muscles, which rarely truly relax. This chronic pressure can show up as hemorrhoidal disease." },
+        { code: "SX1", text: "The sexual One lives her demand with great intensity – this more direct, episodic expression of tension differs from the chronically even pressure more typical of other One variants." },
+      ]},
+      { typ: 2, titel: "Pride that will not give up its own burden", varianten: [
+        { code: "SE2", text: "The self-preservation Two carries the burdens of others without ever asking for relief – this constant carrying, without ever giving up her own burden, can show up physically as pressure in the lowest part of the body that manifests as hemorrhoidal disease." },
+        { code: "SO2", text: "Being indispensable to many people at once demands of the social Two that she constantly carry more than she actually can, without ever openly admitting it. This chronic overload pressure can show up as enlarged vascular cushions." },
+        { code: "SX2", text: "In intense relationship phases, the sexual Two invests herself almost completely – this pointed self-sacrifice tends to show up as a temporary complaint rather than as a chronically even pressure." },
+      ]},
+      { typ: 3, titel: "Achievement that grants itself no relief", varianten: [
+        { code: "SE3", text: "The self-preservation Three presses herself through daily life without allowing herself breaks – no time is ever set aside for going to the bathroom either, and the natural rhythm gets replaced by haste and pressure. This self-overload, sustained over years, can show up as hemorrhoidal disease." },
+        { code: "SO3", text: "In constant comparison with others, the social Three keeps up a pace that leaves her body no genuine relief – this permanent pressure to perform can show up physically as enlarged vascular cushions in the rectum." },
+        { code: "SX3", text: "To appear flawless in the relationship, the sexual Three happily plays down physical complaints like hemorrhoids for as long as possible, out of shame over a topic perceived as unattractive – this focused will to control her outward image often delays necessary treatment." },
+      ]},
+      { typ: 4, titel: "Longing that shows up as physical pressure", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently, without ever expressing it – this sustained withholding can show up physically as pressure in the lowest part of the body that manifests as hemorrhoidal disease." },
+        { code: "SO4", text: "The social Four makes her suffering visible and finds a certain expression in it – this outward expression can act as a valve that at least partly counteracts the purely physical pressure, even though the underlying longing itself remains." },
+        { code: "SX4", text: "With fierce swings between closeness and despair, the sexual Four lives uncompromising emotional intensity in the relationship – this more direct expression tends to counteract the quiet, chronic pressure more typical of other Four variants." },
+      ]},
+      { typ: 5, titel: "Withdrawal that keeps its own complaint to itself", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently keeps even physical complaints to herself, rarely seeking medical advice as long as it is at all possible – this quiet enduring of a recurring pressure in the rectum, without ever seriously treating it, fits the picture of hemorrhoidal disease that was able to develop over years unnoticed." },
+        { code: "SO5", text: "The social Five keeps emotional closeness at a distance behind intellectual detachment – a recurring pressure in the rectum, too, can thus be registered as an abstract fact rather than taken seriously as a genuine physical signal." },
+        { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, physical complaints can well be discussed openly – which counteracts the quiet suppression more typical of other Five variants and favors earlier treatment." },
+      ]},
+      { typ: 6, titel: "Fear that keeps the body under permanent pressure", varianten: [
+        { code: "SE6", text: "The self-preservation Six lives in constant caution and an inner tension that rarely truly switches off – this state of permanent alertness also keeps the abdominal and pelvic-floor muscles in constant tension, which can show up as hemorrhoidal disease." },
+        { code: "SO6", text: "The social Six carries an often unspoken worry for the well-being of her group – this diffuse, collective tension can show up physically as a chronically tense pelvic-floor area." },
+        { code: "SX6", text: "The sexual Six meets fear counterphobically, through active confrontation rather than withdrawal – this more direct discharge tends to counteract the chronically even pressure more typical of other Six variants." },
+      ]},
+      { typ: 7, titel: "Excess that leaves the body no regularity", varianten: [
+        { code: "SE7", text: "The self-preservation Seven plans her comforts carefully, yet often eats irregularly and with little fiber – this lack of regularity can lead to constipation with strong straining, which can show up over the long term as hemorrhoidal disease." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently sets her own needs aside in favor of others, often to the point of her own exhaustion – her own urge to defecate, too, is frequently overridden in the process, which can raise the pressure in the rectum." },
+        { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly and impulsively, often paired with irregular eating habits – this combination can disrupt the natural digestive rhythm and favor excessive straining." },
+      ]},
+      { typ: 8, titel: "Control that will not let itself be relieved", varianten: [
+        { code: "SE8", text: "The self-preservation Eight secures her own existence through firm control over material and physical resources – even bowel movements are meant to function according to her own will and with force, rather than giving the body time. This permanent tension can show up as hemorrhoidal disease." },
+        { code: "SO8", text: "The social Eight takes control not for herself but for the group, often in a self-imposed protector role – this permanent leadership tension and the ongoing pressure that comes with it leave little room for genuine physical relief." },
+        { code: "SX8", text: "The sexual Eight lives total devotion and control in the one intimate bond – within this protected setting, a certain physical relaxation can well take place, counteracting the general permanent tension more typical of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overlooks its own pressure", varianten: [
+        { code: "SE9", text: "The self-preservation Nine takes refuge in comfort and routine and often barely consciously registers her own warning signs of pressure and tension – this overlooking of a constantly recurring physical signal fits especially closely with the picture of hemorrhoidal disease that was able to develop over years unnoticed." },
+        { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony that even her own physical burden rarely finds real attention – this chronic self-erasure can show up as a signal that is never taken seriously yet keeps recurring." },
+        { code: "SX9", text: "The sexual Nine merges with her partner and often adopts his or her perception of her own health as the standard – if the partner does not notice the complaint, the Nine often does not notice it either, because her own bodily awareness recedes behind the merging." },
+      ]},
+    ],
+    abschluss: "No subtype is immune to hemorrhoids, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates pressure, burden, and overridden signals in its own way – some through permanent control, others through withdrawal, irregular self-care, or an overload of their own that is never taken seriously. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -63772,7 +63831,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Hemorrhoids"],
+  "verdauung": [],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
   "nerven-psyche": ["Migraine", "Tension Headache", "Depression", "Generalized Anxiety Disorder", "Panic Attacks", "Burnout Syndrome", "Insomnia", "Narcolepsy", "Tinnitus", "Vertigo / Dizziness", "Restless Legs Syndrome", "Teeth Grinding (Bruxism)", "Chronic Fatigue Syndrome (ME/CFS)"],
