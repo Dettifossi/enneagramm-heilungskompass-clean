@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1331", date: "2026-08-22", text: "Neues Krankheitsbild im Psychosomatik-Register: Asthma bronchiale (Atemwege & Lunge) – Definition, Symptome, Notfallhinweis und psychosomatische Deutung für alle 27 Subtypen.", text_en: "New condition in the Psychosomatics Register: Asthma (Respiratory System & Lungs) – definition, symptoms, emergency note and psychosomatic interpretation for all 27 subtypes.", route: "psychosomatik/asthma_bronchiale" },
     { version: "v1330", date: "2026-08-22", text: "Psychosomatik-Register: englische Ausgabe der Subtyp-Texte für alle Krankheitsbilder überarbeitet.", text_en: "Psychosomatics Register: English edition of the subtype texts revised for all conditions.", route: "psychosomatik-subtyp/SO4" },
     { version: "v1329", date: "2026-08-22", text: "Lebensmusterkompass: Elizabeth Barrett Browning, Johann Wolfgang von Goethe und Friedrich Schiller ergänzt.", text_en: "Life Pattern Compass: added Elizabeth Barrett Browning, Johann Wolfgang von Goethe and Friedrich Schiller.", route: "lebensmusterkompass/SX9" },
     { version: "v1328", date: "2026-08-22", text: "Psychosomatik-Register: die Subtyp-Texte aller Krankheitsbilder sprachlich weiter verfeinert und vereinheitlicht.", text_en: "Psychosomatics Register: the subtype texts for all conditions further refined and made more consistent.", route: "psychosomatik-subtyp/SO4" },
