@@ -98300,6 +98300,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Gallensteinen gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Bitterkeit, Groll und ungelösten Entscheidungen verhandelt – manche über verschluckten Zorn, andere über Rückzug, stoffgebundene Selbstbelohnung oder eine nie aufgelöste eigene Bitterkeit. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  chronische_verstopfung: {
+    titel: "Chronische Verstopfung",
+    kategorie: "verdauung",
+    icon: "🚫",
+    kurz: "Anhaltend seltener, erschwerter Stuhlgang – der Darm hält fest, was eigentlich losgelassen werden müsste.",
+    definition: "Von chronischer Verstopfung (Obstipation) spricht man, wenn über mindestens drei Monate weniger als drei Stuhlgänge pro Woche stattfinden, verbunden mit starkem Pressen, hartem oder klumpigem Stuhl, dem Gefühl unvollständiger Entleerung oder dem Bedürfnis nach manueller Unterstützung. Ursachen sind vielfältig: ballaststoffarme Ernährung, zu wenig Flüssigkeit und Bewegung, bestimmte Medikamente, hormonelle Veränderungen, eine gestörte Darm-Beckenboden-Koordination oder – seltener – organische Ursachen wie Verengungen. Chronische Verstopfung ist eine der häufigsten Verdauungsbeschwerden überhaupt und betrifft Frauen deutlich häufiger als Männer.",
+    symptome: ["Weniger als drei Stuhlgänge pro Woche", "Harter, klumpiger oder sehr fester Stuhl", "Starkes Pressen beim Stuhlgang", "Gefühl der unvollständigen Entleerung", "Blähungen und Völlegefühl", "Bauchschmerzen oder -krämpfe, die sich nach Stuhlgang oft bessern"],
+    notfall: "Bei plötzlich einsetzender, schwerer Verstopfung mit starken Bauchschmerzen, Erbrechen, Blut im Stuhl oder aufgeblähtem, hartem Bauch zeitnah ärztlich abklären lassen, um einen Darmverschluss oder andere ernste Ursachen auszuschließen. Bei neu aufgetretener Verstopfung nach dem 50. Lebensjahr sollte ebenfalls eine ärztliche Abklärung erfolgen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Kaum ein Verdauungssymptom trägt seine psychosomatische Lesart so offen vor sich her wie die Verstopfung: Der Darm hält fest, was eigentlich seinen natürlichen Weg nach draußen finden sollte. In der TCM steht die Fähigkeit, loszulassen, in enger Verbindung mit dem Dickdarm und dem Element Metall – demselben Element, das auch für Klarheit und das bewusste Abgeben von nicht mehr Gebrauchtem steht. Psychosomatisch liest sich chronische Verstopfung häufig als Bild eines generellen Musters von Festhalten: an Kontrolle, an alten Gewohnheiten, an Ordnung, an Besitz oder an Gefühlen, die eigentlich losgelassen werden müssten. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, was hier besonders hartnäckig festgehalten wird.",
+    typen: [
+      { typ: 1, titel: "Zorn, der nichts unkontrolliert loslassen will", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins hält an strikter Kontrolle über den eigenen Körper fest – auch der Stuhlgang soll geordnet, zur richtigen Zeit und ohne Kontrollverlust ablaufen. Diese Weigerung, den eigenen Körper einfach machen zu lassen, kann sich körperlich als ein Darm zeigen, der nichts freigibt, das nicht vorher bewusst kontrolliert wurde." },
+        { code: "SO1", text: "Wer wie die soziale Eins ständig über die Richtigkeit der Dinge wacht, hält auch im eigenen Körper an strengen Regeln fest, statt dem natürlichen Rhythmus zu vertrauen. Dieser innere Ordnungsanspruch kann sich als ein Darm zeigen, der sich nur widerstrebend löst." },
+        { code: "SX1", text: "Die sexuelle Eins lebt ihren Perfektionsanspruch mit großer Intensität – dieser Anspruch richtet sich mitunter auch gegen die eigene Verdauung, die ›richtig‹ funktionieren soll, was den natürlichen Loslass-Prozess paradoxerweise zusätzlich erschwert." },
+      ]},
+      { typ: 2, titel: "Stolz, der nichts Eigenes abgeben will", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei gibt im Alltag ständig für andere, hält aber unbewusst an dem fest, was ihr selbst noch geblieben ist – als würde sie sich fürchten, auch das Letzte noch herzugeben. Dieses stille Festhalten kann sich körperlich als ein Darm zeigen, der sich nur schwer löst." },
+        { code: "SO2", text: "Für viele Menschen gleichzeitig unentbehrlich zu sein, verlangt der sozialen Zwei ständiges Geben ab – im Verborgenen hält sie dabei aber häufig an der eigenen Erschöpfung fest, statt sie zuzugeben. Dieses unbewusste Festhalten kann sich als ein Darm zeigen, der sich nicht entspannt löst." },
+        { code: "SX2", text: "In intensiven Beziehungsphasen gibt die sexuelle Zwei sich fast vollständig hin – dieses Geben nach außen steht dem Bild des Festhaltens eher entgegen, das bei den anderen Zweier-Varianten typischer ist." },
+      ]},
+      { typ: 3, titel: "Leistung, die dem Körper keine Zeit zum Loslassen lässt", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei funktioniert effizient weiter, auch wenn der Körper eine Pause bräuchte – für den Toilettengang wird oft keine Zeit eingeplant, der natürliche Drang wird unterdrückt, bis er verstummt. Diese über Jahre fortgesetzte Missachtung des eigenen Rhythmus kann sich als chronische Verstopfung zeigen." },
+        { code: "SO3", text: "Im ständigen Vergleich mit anderen hält die soziale Drei ein Tempo durch, das dem Körper kaum Raum für seine eigenen Bedürfnisse lässt – dieser permanente Leistungsdruck kann sich körperlich als ein träger, wenig kooperativer Darm zeigen." },
+        { code: "SX3", text: "Um in der Beziehung makellos zu erscheinen, ignoriert die sexuelle Drei körperliche Signale wie den Stuhldrang gerne so lange wie möglich – dieser fokussierte Wille zur Kontrolle des äußeren Bildes verzögert oft, dem eigenen Körper überhaupt Beachtung zu schenken." },
+      ]},
+      { typ: 4, titel: "Sehnsucht, die sich an Vergangenem festhält", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm mit sich, ohne es je auszudrücken – dieses fortgesetzte Festhalten an vergangenem Schmerz kann sich körperlich als ein Darm zeigen, der ebenso wenig loslässt wie die eigene Seele." },
+        { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das dem rein körperlichen Festhalten zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+        { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – dieser direktere emotionale Ausdruck steht dem stillen Festhalten anderer Vierer-Varianten eher entgegen." },
+      ]},
+      { typ: 5, titel: "Rückzug, der auch körperlich nichts hergibt", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf reduziert ihr Leben systematisch auf das Nötigste, hält auch Ressourcen und Energie konsequent zurück – dieser generelle Minimalismus kann sich körperlich als ein Darm zeigen, der ebenso zurückhaltend agiert wie sie selbst." },
+        { code: "SO5", text: "Die soziale Fünf hält sich mit ihrem Wissen für die Gruppe verfügbar, wahrt aber innerlich Distanz – diese Mischung aus Teilhabe und Rückzug kann sich als ein Darm zeigen, der sich selten wirklich öffnet, weil echte Freigabe, auch körperlich, vermieden wird." },
+        { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus ein entspannter, gelöster Körper erlebt werden – was der generellen Zurückhaltung entgegenwirkt, die für andere Fünfer-Varianten typischer ist." },
+      ]},
+      { typ: 6, titel: "Angst, die den Darm in Habachtstellung hält", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs begegnet der Welt mit Vorsicht und einem inneren Frühwarnsystem, das selten wirklich abschaltet – dieser Zustand der Daueralarmbereitschaft hält auch die Bauchmuskulatur angespannt, was das natürliche Loslassen erschwert." },
+        { code: "SO6", text: "Die soziale Sechs trägt eine oft unausgesprochene Sorge um das Wohlergehen ihrer Gruppe mit sich – diese diffuse, kollektive Anspannung kann sich körperlich als ein Darm zeigen, der sich nicht wirklich entspannen kann." },
+        { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Rückzug – diese direktere Entladung kann eine gewisse körperliche Lösung fördern, die bei den anderen, stärker zurückgehaltenen Sechser-Varianten seltener ist." },
+      ]},
+      { typ: 7, titel: "Maßlosigkeit, die dem Körper keine Regelmäßigkeit lässt", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben plant sich ihre Annehmlichkeiten sorgfältig, isst dabei aber oft unregelmäßig und springt zwischen verschiedenen Aktivitäten – diese fehlende Regelmäßigkeit kann sich körperlich als ein Darm zeigen, der keinen verlässlichen eigenen Rhythmus findet." },
+        { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – auch der eigene Stuhldrang wird dabei häufig übergangen, weil die Aufmerksamkeit ganz bei anderen liegt." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, oft verbunden mit unregelmäßigem Essverhalten – diese Kombination aus rastloser Intensität und fehlender Routine kann den natürlichen Verdauungsrhythmus zusätzlich durcheinanderbringen." },
+      ]},
+      { typ: 8, titel: "Kontrolle, die nichts unwillkürlich freigibt", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch handfeste Kontrolle über materielle und körperliche Ressourcen – auch der eigene Körper soll sich nicht unkontrolliert entleeren, sondern nach dem eigenen Willen funktionieren. Diese permanente Kontrolle kann sich körperlich als ein Darm zeigen, der sich nur widerwillig löst." },
+        { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe, oft in einer selbst auferlegten Beschützerrolle – diese permanente Führungsspannung lässt selten Raum für einen wirklich entspannten, gelösten Körper." },
+        { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der einen Zweierbeziehung – in diesem geschützten Rahmen kann durchaus eine gewisse körperliche Lösung stattfinden, die der generellen Kontrollhaltung anderer Achter-Varianten entgegenwirkt." },
+      ]},
+      { typ: 9, titel: "Selbstvergessenheit, die den eigenen Körperrhythmus übergeht", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, feste Routinen und die konsequente Vermeidung jeglichen Konflikts – auch der eigene Stuhldrang wird dabei selten bewusst wahrgenommen und häufig aufgeschoben, bis er verstummt. Diese Selbstvergessenheit kann sich als chronische Verstopfung zeigen." },
+        { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Stimme so konsequent unter, dass sie irgendwann kaum noch weiß, was sie selbst eigentlich braucht – diese chronische Selbstauslöschung kann sich als ein Darm zeigen, der sich selbst nie wirklich Gehör verschafft." },
+        { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass die eigene Wahrnehmung von Körpersignalen sich oft an der des Anderen orientiert statt an den eigenen – eine Fusion, die es erschwert, den eigenen Stuhldrang überhaupt erst wahrzunehmen." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor chronischer Verstopfung gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Kontrolle, Festhalten und dem eigenen Rhythmus verhandelt – manche über Dauerkontrolle, andere über Rückzug, Selbstvergessenheit oder eine nie beachtete eigene Regelmäßigkeit. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -98311,7 +98370,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
+  "verdauung": ["Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
