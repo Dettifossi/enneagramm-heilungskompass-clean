@@ -65892,6 +65892,419 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No energy reserve is immune to ME/CFS, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes draws on their foundational reserve over the years in different ways – some through discipline, others through giving, vigilance, or a chronically overridden need for rest. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
+  multiple_sklerose: {
+    titel: "Multiple Sclerosis",
+    kategorie: "immunsystem",
+    icon: "🧵",
+    kurz: "An autoimmune disease in which the body's own defense system attacks the protective sheath of the nerve pathways – with symptoms that come, go, and can hardly be predicted.",
+    definition: "Multiple sclerosis (MS) is a chronic inflammatory autoimmune disease of the central nervous system in which the body's own immune system attacks the myelin sheath – the protective covering around nerve fibers in the brain and spinal cord that enables fast signal transmission. This misdirected immune response creates inflammatory lesions that, depending on their location in the nervous system, can trigger very different symptoms – from visual disturbances to sensory problems, paralysis, fatigue, and coordination difficulties. In most people the course is initially relapsing-remitting: symptoms appear in flares, then partially or fully recede before the next flare follows – often with years of unpredictability about when and where the next lesion will form. The exact causes are not yet fully understood; a genetic predisposition likely combines with environmental factors such as vitamin D deficiency, smoking, or a past Epstein-Barr virus infection to trigger the misdirected immune response.",
+    symptome: ["Visual disturbances, often one-sided with pain on eye movement (optic neuritis)", "Numbness, tingling, or sensory disturbances", "Muscle weakness and spastic paralysis", "Pronounced fatigue that does not improve through ordinary rest", "Coordination and balance problems", "Bladder and bowel dysfunction", "Cognitive impairments such as concentration and word-finding difficulties"],
+    notfall: "For sudden severe neurological deficits (marked paralysis, loss of vision, speech disturbances), seek prompt medical evaluation to rule out other acute causes such as a stroke.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "In multiple sclerosis, the body's own defense system turns against the protective sheath of its own nerve pathways – an image that reads psychosomatically as an attack turned inward, aimed at precisely the structure meant to guarantee fast, reliable transmission. In TCM, a condition marked by shifting neurological deficits is often linked to a deep depletion of Kidney essence and Liver blood – the substance that nourishes nerves and tendons and guards against Wind attacking from within. Psychosomatically, MS often reads as an image of ongoing inner contradiction, where control, reliability, or one's own functioning become a central theme that never feels fully secured – the unpredictability of the flares often mirroring a life situation in which safety can never be finally achieved. Each of the 27 subtypes shows its own pattern of which inner contradiction turns here against its own protective substance.",
+    typen: [
+      { typ: 1, titel: "A body that escapes control", varianten: [
+        { code: "SE1", text: "The self-preservation One guards her own bodily discipline with great strictness, correcting any slip in daily routine. Because control over her own body matters so much to her, a condition that undermines exactly that control unpredictably can shake her especially deeply." },
+        { code: "SO1", text: "The social One wants to function as a reliable role model whose dependability is never in question. A relapsing course that defies any planning puts precisely that dependability to a constant, ongoing test." },
+        { code: "SX1", text: "Anger over injustice shows immediately in the sexual One, rather than staying permanently suppressed as it does in other One variants. This more direct emotional release can ease some of the chronic inner tension that lingering suppressed anger tends to reinforce." },
+      ]},
+      { typ: 2, titel: "A body that needs help where she usually gives it", varianten: [
+        { code: "SE2", text: "The self-preservation Two would rather provide practical support than accept it, hardly allowing herself to feel needy. Suddenly and lastingly depending on help, as MS can bring about, fundamentally contradicts this deeply anchored role." },
+        { code: "SO2", text: "Being available to many people at once matters to the social Two over the years, her own physical reliability having never been in question. When that reliability collapses through unpredictable flares, it strikes her sense of self in a particularly sensitive spot." },
+        { code: "SX2", text: "Within the one relationship that matters, the sexual Two allows herself to be cared for too, not only to give. This openness to dependency can ease living with a chronic illness compared to the pure giver role other Two variants maintain." },
+      ]},
+      { typ: 3, titel: "A body that derails the performance plan", varianten: [
+        { code: "SE3", text: "The self-preservation Three wants to get through every day efficiently and functioning, with no room in her inner planning for breakdowns. A disease course that follows no plan and suddenly withdraws capability hits her at her most sensitive point." },
+        { code: "SO3", text: "The social Three carefully tends her public image of success and competence, into which visible limitations fit only with difficulty. Unpredictable symptoms not always explainable from the outside can bring this image into contradiction with her own reality." },
+        { code: "SX3", text: "The sexual Three manages to let her flawless facade drop, at least in front of the one important person, rather than keeping it up constantly. This protected space for retreat can help her deal more openly with limitations than the sustained performance facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "A body that becomes the exception", varianten: [
+        { code: "SE4", text: "Stubbornly and almost wordlessly, the self-preservation Four, the counter-type, carries her suffering through daily life rather than turning it into identity. A disease with such a changeable course demands that she keep readjusting this quiet endurance to unpredictable new limits." },
+        { code: "SO4", text: "The social Four often experiences herself as different and misunderstood even without any physical illness. A diagnosis that genuinely marks a state of exception can confirm this deeply anchored feeling of being different in a painfully concrete way." },
+        { code: "SX4", text: "The sexual Four seeks intensity directly in the encounter, rather than defining herself through suffering. This outward-directed expressiveness differs from the stronger inward focus with which other Four variants process illness as part of their identity." },
+      ]},
+      { typ: 5, titel: "A body that threatens autonomy", varianten: [
+        { code: "SE5", text: "The self-preservation Five allocates her scarce resources with exact precision, so as to depend on no one. A disease that decides independently over her strength and abilities intervenes directly in her central survival strategy." },
+        { code: "SO5", text: "Competence and knowledge matter to the social Five to keep an acknowledged place in the group. Cognitive symptoms that suddenly make that knowledge harder to access can strike her sense of self particularly hard." },
+        { code: "SX5", text: "Within the one deep bond, the sexual Five genuinely allows closeness and vulnerability, rather than purely withdrawing. This willingness can help her accept support where other Five variants tend to remain more consistently on their own." },
+      ]},
+      { typ: 6, titel: "A body that embodies uncertainty", varianten: [
+        { code: "SE6", text: "The self-preservation Six makes provisions in advance for every conceivable emergency, in order to establish safety. A disease whose next flare simply cannot be predicted escapes exactly this strategy of safeguarding and can fuel the underlying core fear especially strongly." },
+        { code: "SO6", text: "The social Six orients herself toward reliable authorities and group structures to find safety within the collective. An unpredictable diagnosis of her own can undermine this outer safeguard, because this time the uncertainty sits in her own body rather than in the outside world." },
+        { code: "SX6", text: "Courageous, immediate action, not endless mental risk-scenarios, is the counter-type sexual Six's answer to fear. This readiness to act can be more relieving when facing an uncertain diagnosis than the persistent worry-circling of other Six variants." },
+      ]},
+      { typ: 7, titel: "A body that forces a standstill", varianten: [
+        { code: "SE7", text: "Keeping several pleasant options open secures the self-preservation Seven's mobility in everyday life. A flare that restricts mobility and options from one moment to the next fundamentally contradicts this core strategy and can be especially hard to accept." },
+        { code: "SO7", text: "The social Seven, the counter-type, often subordinates her own limits to the expectations of the group, rather than perceiving them herself. When the illness itself sets those limits, it can make especially difficult her habit of playing down her own exhaustion." },
+        { code: "SX7", text: "The sexual Seven does genuinely concentrate on a single intense experience, rather than constantly searching for new options. This capacity for focus can help her adapt to a changed daily life, where other Seven variants tend to fight against any restriction." },
+      ]},
+      { typ: 8, titel: "A body experienced as betrayal", varianten: [
+        { code: "SE8", text: "The self-preservation Eight watches over her physical resources with great vigilance, seeing any loosening of control as weakness. When her own body eludes control unpredictably, that can feel like an inner betrayal of her own strength." },
+        { code: "SO8", text: "The social Eight consistently holds the protective, strong position for her group, rarely allowing room to show her own vulnerability. Visible neurological deficits can call this protector role into question in a way that is especially hard to bear." },
+        { code: "SX8", text: "The sexual Eight opens up with her vulnerability too, toward the one person she trusts, rather than maintaining control at all times. This protected space for weakness can ease living with a chronic illness compared to the constant pressure to control other Eight variants carry." },
+      ]},
+      { typ: 9, titel: "A body whose signals get overridden", varianten: [
+        { code: "SE9", text: "The self-preservation Nine likes to push uncomfortable bodily signals aside, so as not to endanger her everyday comfort. Early, still-diffuse MS symptoms can stay unnoticed especially long this way, before a flare makes them impossible to overlook." },
+        { code: "SO9", text: "The social Nine usually puts her own position last in the group to preserve harmony – even where her own health is concerned. Matters like a necessary treatment can unconsciously slip further back this way, until the symptoms themselves can no longer be ignored." },
+        { code: "SX9", text: "In merging with her partner, the sexual Nine often senses his state more intensely than her own. Her own signs of illness can therefore stay in the background especially long, until they push themselves unmistakably into the foreground." },
+      ]},
+    ],
+    abschluss: "No immune system is safe from multiple sclerosis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with loss of control, unpredictability, and its own vulnerability in its own way – some through discipline, others through withdrawal, caregiving, or a long-overridden warning signal of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  haeufige_infekte_immunschwaeche: {
+    titel: "Frequent Infections / Weakened Immunity",
+    kategorie: "immunsystem",
+    icon: "🤧",
+    kurz: "A defense system in constant struggle – each cold turns into the next before the last has fully cleared.",
+    definition: "Increased susceptibility to infection is diagnosed when someone catches infections of the respiratory tract, digestive system, or skin noticeably more often than usual, or when infections last longer or run a more severe course than in most other people. In adults, more than four to six feverish respiratory infections per year are considered conspicuous. A wide range of factors can be responsible: chronic stress and a persistently elevated cortisol level, which suppresses immune defense over time, sleep deprivation, nutrient deficiencies, an unbalanced gut microbiome, lack of exercise, or, in rarer cases, an actual primary or secondary immune deficiency. In most cases this is not a disease of the immune system in itself, but a defense system chronically overloaded over a longer period, which can therefore maintain its protective function only to a limited extent.",
+    symptome: ["Conspicuously frequent, rapidly recurring respiratory infections", "Unusually long recovery times after otherwise harmless infections", "Recurring herpes or canker sore outbreaks under stress", "Persistent exhaustion even between infections", "Frequent gastrointestinal infections or digestive complaints", "Slow wound healing", "Swollen lymph nodes with recurring infections"],
+    notfall: "For very severe, unusual, or life-threatening infections, high fever lasting several days, or suspicion of a pronounced immune deficiency, seek prompt medical evaluation.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Frequent infections show a defense system that can no longer reliably hold its watch – not because any single pathogen is especially strong, but because the baseline defense is chronically weakened. In TCM, such susceptibility is usually attributed to Wei Qi, the protective energy circulating just beneath the skin that normally prevents external pathogenic factors from entering – when this protective energy is weakened by prolonged exhaustion of Lung and Spleen, pathogens penetrate far more easily. Psychosomatically, a persistently increased susceptibility to infection often reads as an image of a boundary that has been too little cared for over a long time – too much opening, overexertion, or ongoing tension leaves the protective shell no time to recover. Each of the 27 subtypes shows its own pattern of which kind of boundary remains too little protected here over an extended period.",
+    typen: [
+      { typ: 1, titel: "A boundary that allows no exception", varianten: [
+        { code: "SE1", text: "Even at the first signs of illness, the self-preservation One maintains her usual routine, quick to feel a pause as neglecting herself. When the body is repeatedly denied the recovery break it needs this way, it can show up as recurring infections." },
+        { code: "SO1", text: "The social One does not let her responsibility for others rest even when she really ought to fall ill herself. This sustained dutifulness without genuine time off can noticeably weaken her defenses over time." },
+        { code: "SX1", text: "Anger is discharged directly in the moment by the sexual One, rather than kept under permanent control as in other One variants. This immediate release can prevent chronic tension from settling in as deeply as it would otherwise burden the immune system further." },
+      ]},
+      { typ: 2, titel: "A boundary that dissolves in giving", varianten: [
+        { code: "SE2", text: "The self-preservation Two still offers practical help even when her own cold is already noticeable – saying no does not come easily to her. This constant overriding of her own limit can put chronic pressure on the immune system." },
+        { code: "SO2", text: "The social Two keeps herself available to many people at once, even once her own body has long been asking for rest. This ongoing disregard of her own exhaustion signals can show up as recurring infections." },
+        { code: "SX2", text: "Letting herself be cared for, rather than only giving, is something the sexual Two manages at least within the one relationship that matters. This balance can relieve the immune system compared to the sustained giving of other Two variants." },
+      ]},
+      { typ: 3, titel: "A boundary that yields to functioning", varianten: [
+        { code: "SE3", text: "Despite early cold symptoms, the self-preservation Three keeps working efficiently, since a breakdown does not fit her daily plan. This systematic pushing through prevents full recovery and can favor new infections." },
+        { code: "SO3", text: "The social Three keeps up her high-performing public image even when she actually feels ill – a visible breakdown contradicts that image. This denial of her own weakness can exhaust her defenses over the long run." },
+        { code: "SX3", text: "Being allowed to look exhausted and unwell, not just flawless, is a rare privilege the sexual Three grants herself in front of the one important person. This protected space for retreat can ease recovery compared to the sustained facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "A boundary that is too porous", varianten: [
+        { code: "SE4", text: "Functional and stubborn is how the self-preservation Four, the counter-type, keeps carrying her burden, even once her body is already exhausted. This persistent carrying-on without genuine recovery breaks can chronically weaken the immune system." },
+        { code: "SO4", text: "The social Four often absorbs other people's feelings with great sensitivity, finding it hard to draw a clear boundary. This strong emotional permeability can mirror itself physically as increased susceptibility to infection." },
+        { code: "SX4", text: "Rather than letting intensity build up inside, the sexual Four discharges it directly in the encounter itself. This direct expression can lower the inner tension that tends to linger longer in other Four variants." },
+      ]},
+      { typ: 5, titel: "A boundary meant to be protected through withdrawal", varianten: [
+        { code: "SE5", text: "The self-preservation Five deliberately reduces social contact to conserve her limited energy reserves. If this withdrawal eventually stops being enough to offset the exhaustion, the immune system can remain weakened all the same." },
+        { code: "SO5", text: "The social Five builds her expertise with great stamina, often well past her own point of exhaustion. This sustained mental heavy lifting without real physical recovery can show up as recurring infections." },
+        { code: "SX5", text: "Genuine closeness, not constant withdrawal, becomes possible for the sexual Five within her one deep bond. This emotional balance can lower the baseline tension that tends to persist in other Five variants." },
+      ]},
+      { typ: 6, titel: "A boundary permanently on watch", varianten: [
+        { code: "SE6", text: "Near-constant alert is where the self-preservation Six's nervous system tends to sit, as she makes provisions in advance for every conceivable danger. This sustained tension can burden immune defense over a long period and favor infections." },
+        { code: "SO6", text: "The social Six keeps a close eye on the group's expectations so as never to fall out of line – a kind of ongoing vigilance that rarely settles. This lasting social tension can show up physically as frequent infections." },
+        { code: "SX6", text: "Immediate action, rather than endlessly playing scenarios out in her head, is how the sexual Six, the counter-type, answers fear. This action orientation can lower the sustained tension that tends to burden the immune system more in other Six variants." },
+      ]},
+      { typ: 7, titel: "A boundary overlooked in the rush", varianten: [
+        { code: "SE7", text: "The self-preservation Seven likes to schedule several pleasant activities in parallel, and early signs of illness get talked past readily along the way. Overriding these early warning signals this way can favor infections that could otherwise have been avoided." },
+        { code: "SO7", text: "Rest is something the social Seven, the counter-type, keeps postponing, her own limits consistently placed behind those of the group. This ongoing self-deferral can noticeably weaken her defenses over time." },
+        { code: "SX7", text: "Rather than constantly chasing new stimuli, the sexual Seven bundles her attention into one single intense experience. This focus can give the body more genuine recovery phases than the constant juggling of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A boundary treated as weakness", varianten: [
+        { code: "SE8", text: "The self-preservation Eight overrides early exhaustion signals if needed, as long as control over her daily life stays intact. When such signals are repeatedly ignored, it can show up as recurring infections that force her to stop." },
+        { code: "SO8", text: "The social Eight stays consistently present and strong for her group, a retreat due to her own illness hardly fitting her self-image. This sustained functioning without pause can wear down her defenses over time." },
+        { code: "SX8", text: "The sexual Eight does not have to constantly assert strength toward the one person she trusts – there, vulnerability is allowed to show too. This protected space can allow genuine recovery, where other Eight variants tend to need to keep functioning throughout." },
+      ]},
+      { typ: 9, titel: "A boundary that barely registers", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often only registers her own exhaustion signals late, so thoroughly does she merge into familiar routine. This delayed awareness can let infections settle in longer untreated before they are even noticed." },
+        { code: "SO9", text: "Preventing conflicts from arising at all matters so much to the social Nine within the group that she sets aside her own recovery needs for it. This ongoing deferral can weaken the immune system over time." },
+        { code: "SX9", text: "In the intense merging with her partner, the sexual Nine often takes on his tension or susceptibility to illness too. If this outside burden stays lodged in her own system, it can show up as recurring infections." },
+      ]},
+    ],
+    abschluss: "No immune system is safe from frequent infections, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes neglects its own protective boundary in a different way – some through sustained duty, others through giving, withdrawal, or a long-overlooked exhaustion signal of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  long_covid_post_viral_syndrom: {
+    titel: "Long COVID / Post-Viral Syndrome",
+    kategorie: "immunsystem",
+    icon: "🌫️",
+    kurz: "The infection itself is long over, yet the body never returns to its old resilience – as if the acute illness triggered a second, silent aftershock.",
+    definition: "Long COVID and other post-viral syndromes describe a complex of symptoms that persists or newly appears weeks or months after a viral infection that was, in principle, already overcome – most familiar after a COVID-19 infection, but in principle also possible after other viral infections such as Epstein-Barr virus. Characteristic features are persistent, often severe fatigue, frequently accompanied by post-exertional malaise (PEM), in which exertion causes a delayed worsening, along with cognitive impairment (brain fog), breathing difficulties, cardiovascular problems, disturbances of smell and taste, and muscle and joint pain. The exact mechanisms are still being researched; under discussion are persistent low-grade inflammatory processes, immune system dysregulation, microclots, a disturbance of the autonomic nervous system, and possible viral remnants in the body. Unlike an acute infection, Long COVID is not a closed event but a state in which the body fails to reach the full recovery that was actually expected.",
+    symptome: ["Persistent, often severe fatigue for weeks to months after the infection", "Post-exertional malaise (PEM) – worsening after physical or mental exertion", "Cognitive impairment (brain fog), concentration and memory problems", "Breathing difficulties and reduced exercise tolerance", "Heart racing or circulatory problems on standing", "Persistent disturbances of smell or taste", "Muscle and joint pain with no identifiable acute cause"],
+    notfall: "For acute shortness of breath, severe chest pain, or signs of cardiac involvement, seek immediate medical evaluation – this can indicate a serious complication.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Long COVID marks a gap between what the calendar records as ›over‹ and what the body actually still has to manage – the acute illness has passed, yet the old resilience does not return on its own. In TCM, such a state is often interpreted as incompletely cleared residual heat or as weakened Lung and Spleen Qi following an external pathogenic factor – the pathogen itself is gone, yet the vital force's actual recovery fails to follow. Psychosomatically, Long COVID often reads as an image of a return that does not succeed: the expectation of functioning ›like before‹ meets a body that, right now, precisely cannot deliver that. Each of the 27 subtypes shows its own pattern of how it handles this gap between expected and actual recovery.",
+    typen: [
+      { typ: 1, titel: "A shortfall discipline cannot close", varianten: [
+        { code: "SE1", text: "Once the infection has passed, the self-preservation One wants to resume her usual routine seamlessly, and as soon as possible. If her resilience lags behind that expectation, she can experience it as her own failure at self-discipline, which makes recovery even harder." },
+        { code: "SO1", text: "The social One wants to carry her responsibility for others fully again immediately after recovering from illness. A body not yet up to that demand can trigger especially strong inner resistance against her own recovery time." },
+        { code: "SX1", text: "The sexual One puts her energy to use immediately and at full intensity as soon as she feels reasonably fit again, rather than pacing herself carefully. This unbraked restart can unknowingly worsen an existing post-exertional malaise." },
+      ]},
+      { typ: 2, titel: "A shortfall that blocks giving", varianten: [
+        { code: "SE2", text: "The self-preservation Two loves to resume practical tasks for others the moment the acute fever passes. A persistent fatigue that prevents exactly that can trigger in her a deep feeling of no longer living up to her real role." },
+        { code: "SO2", text: "For her wide network of contacts, the social Two wants to become available again as soon as possible after recovering from illness. If the energy for that is missing, she can experience it as an especially painful loss of her usual connections." },
+        { code: "SX2", text: "During recovery, the sexual Two is quite able to let herself be cared for by the one important person, rather than caring for others again right away. This permission for her own neediness can ease recovery compared to the quick re-entry of other Two variants." },
+      ]},
+      { typ: 3, titel: "A shortfall that threatens self-image", varianten: [
+        { code: "SE3", text: "Functioning is a cornerstone of daily life for the self-preservation Three, one she wants to quickly restore after an infection. A persistent PEM that prevents exactly that can be especially hard for her to accept, because it fundamentally contradicts her self-image." },
+        { code: "SO3", text: "The social Three wants to restore her high-performing public image as fast as possible after recovering from an illness, a visible lag coming at an inconvenient time. This push toward a quick return can unconsciously delay genuine recovery." },
+        { code: "SX3", text: "The sexual Three can most readily show her exhaustion to the one important person, rather than functioning flawlessly again right away. This protected space can support genuine recovery more than the sustained facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "A shortfall that becomes a loss", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, barely visibly mourns her former resilience while stubbornly carrying on all the same. This quiet carrying-on without genuine grieving can make the necessary recovery harder." },
+        { code: "SO4", text: "The social Four often experiences the loss of her former capacity as further proof of her feeling of being hit especially hard by life. Dwelling in this loss can tie up recovery rather than moving it forward." },
+        { code: "SX4", text: "The sexual Four puts her remaining energy intensely into the one meaningful encounter, rather than grieving over the loss. This targeted expression differs from the longer dwelling in loss of other Four variants." },
+      ]},
+      { typ: 5, titel: "A shortfall that upends her energy economy", varianten: [
+        { code: "SE5", text: "The self-preservation Five normally rations her energy very precisely to protect reserves. An illness that throws this economy completely off from the outside can be especially unsettling, because the usual control over her own strength is missing." },
+        { code: "SO5", text: "The social Five wants her expertise quickly accessible again after recovering from an infection, to keep her place in the group. Persistent brain fog that prevents exactly that can strike her especially hard." },
+        { code: "SX5", text: "Accepting support during recovery is something the sexual Five allows herself within her one deep bond, rather than withdrawing entirely. This exchange can ease recovery compared to the isolated withdrawal of other Five variants." },
+      ]},
+      { typ: 6, titel: "A shortfall that sows mistrust in her own body", varianten: [
+        { code: "SE6", text: "The self-preservation Six normally seeks safety through careful precaution. A body that fails to find its way back to its old reliability despite recovering from infection can trigger a deep mistrust of her own bodily signals." },
+        { code: "SO6", text: "The social Six likes to orient herself toward clear medical statements to find safety. A still-poorly-researched condition like Long COVID, for which few definitive answers exist, can especially intensify her uncertainty." },
+        { code: "SX6", text: "Courageous forward motion, not waiting it out, is how the sexual Six, the counter-type, answers her uncertainty. This readiness to act can help her actively seek support, where other Six variants tend to remain stuck in worry." },
+      ]},
+      { typ: 7, titel: "A shortfall that derails every plan", varianten: [
+        { code: "SE7", text: "The self-preservation Seven likes to lay out several pleasant plans far in advance. A persistent exhaustion that follows no schedule can be especially frustrating for her, since it fundamentally contradicts her core strategy of open possibilities." },
+        { code: "SO7", text: "The social Seven, the counter-type, rarely allows herself a genuine break under normal circumstances. An illness that forces this break on her from the outside can trigger an inner conflict between exhaustion and her habitual commitment to others." },
+        { code: "SX7", text: "The sexual Seven focuses on the one remaining possible intense experience, rather than clinging simultaneously to many old plans. This focus can ease dealing with limited energy compared to the broad option-thinking of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A shortfall treated as loss of control", varianten: [
+        { code: "SE8", text: "The self-preservation Eight normally keeps full control over her strength and her daily life. An exhaustion that cannot simply be pushed away can be especially hard for her to bear, because it shakes her basic understanding of strength." },
+        { code: "SO8", text: "The social Eight wants to remain consistently present and strong for her group, a retreat because of her own exhaustion hardly fitting this self-image. This stance can trigger especially strong resistance in her before she even grants herself the necessary recovery time." },
+        { code: "SX8", text: "The sexual Eight can most readily show her exhaustion openly to the one person she trusts, rather than constantly asserting strength. This protected space can allow genuine recovery, where other Eight variants tend to fight against their own weakness." },
+      ]},
+      { typ: 9, titel: "A shortfall that becomes the new normal", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often only consciously notices changes in her condition late, so thoroughly does she merge into her usual routine. A creeping, persistent exhaustion after recovering from infection can quietly settle into a permanent state this way." },
+        { code: "SO9", text: "The social Nine gladly sets her own exhaustion aside within the group, so as not to burden anyone with her changed state. This deferral can prevent her from ever seeking the support genuine recovery would need." },
+        { code: "SX9", text: "The sexual Nine orients herself more toward her partner's energy level than her own once she merges with him. If the partner himself remains unaffected, her own persistent exhaustion can go unnoticed especially long this way." },
+      ]},
+    ],
+    abschluss: "No body is safe from Long COVID, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles the gap between expected and actual recovery in its own way – some through discipline, others through grief, control, or a long-overlooked exhaustion signal of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  impffolgen_post_vac_syndrom: {
+    titel: "Vaccine Aftereffects / Post-Vac Syndrome",
+    kategorie: "immunsystem",
+    icon: "💉",
+    kurz: "A rare but medically recognized condition in which the body does not recover as expected after a vaccination – the body reacting unexpectedly to something it had actually trusted.",
+    definition: "Vaccinations are among the most effective and most thoroughly studied measures in preventive medicine and demonstrably prevent severe illness and death on a large scale. Like any medical measure, however, they are not entirely free of side effects: alongside the common, usually harmless, and quickly resolving vaccine reactions such as pain at the injection site, fever, or fatigue, a rare, longer-lasting condition is also documented that can occur following certain vaccinations and is discussed under terms such as Post-Vac syndrome. Those affected report symptoms persisting for weeks to months, such as fatigue, exercise intolerance, neurological sensory disturbances, or circulatory problems, which partly resemble the pictures of ME/CFS or Long COVID. The exact mechanisms are not yet scientifically settled and are the subject of active research; what is recognized is that this is a rare but real phenomenon – as well as an immune system dysregulation in individual cases, not a general consequence of vaccination. This medically differentiated framing clearly distinguishes Post-Vac syndrome from blanket vaccine skepticism or unsubstantiated claims.",
+    symptome: ["Persistent fatigue for weeks to months after a vaccination", "Exercise intolerance, comparable to post-exertional malaise in ME/CFS", "Neurological sensory disturbances such as tingling or numbness", "Heart racing or circulatory problems on standing", "Cognitive impairment (brain fog)", "Muscle and joint pain with no identifiable other cause", "Sleep disturbances despite pronounced exhaustion"],
+    notfall: "For acute severe reactions after a vaccination (e.g. shortness of breath, severe circulatory reactions, pronounced neurological deficits), seek immediate medical help; persistent complaints lasting weeks should be evaluated by a specialist.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner. This text takes no position for or against vaccination; it describes exclusively the psychosomatic handling of a rare, genuinely documented condition.",
+    einleitung: "Post-Vac syndrome represents a distinctive psychological situation: the body reacts unexpectedly to something that was consciously chosen, in good trust, as a protective measure – unlike an infection that simply happens, the vaccination was an active, often carefully considered decision. In TCM, such a picture could be read as weakened Wei Qi following an additional strain on defensive energy, which turns temporarily into exhaustion instead of the expected strengthening. Psychosomatically, Post-Vac syndrome is less about the vaccination itself than about the inner processing of a trust that was disappointed – the question of how to relate to a body that responded differently than expected to a medically trustworthy measure. Each of the 27 subtypes shows its own pattern of how this break between expectation and actual bodily reaction gets processed.",
+    typen: [
+      { typ: 1, titel: "A trust built on duty", varianten: [
+        { code: "SE1", text: "The self-preservation One usually got vaccinated out of a clear sense of duty, as the right and responsible decision. When the body then reacts unexpectedly, it can trigger an inner conflict between knowing she acted correctly and her own persistent exhaustion." },
+        { code: "SO1", text: "As a role model for others, the social One advocates responsible action in the interest of the community, which for her usually included vaccination too. If her own health then unexpectedly breaks down afterward, it can shake her deeply, on top of the physical strain itself." },
+        { code: "SX1", text: "The sexual One voices her displeasure over an unexpected reaction directly and immediately, rather than keeping it under permanent control as other One variants do. This more direct processing can help her deal more openly with her own disappointment." },
+      ]},
+      { typ: 2, titel: "A trust that was for others' sake", varianten: [
+        { code: "SE2", text: "The self-preservation Two often made her vaccination decision to protect people close to her and spare them worry. Playing down persistent complaints afterward so as not to alarm anyone can make her own necessary recovery harder." },
+        { code: "SO2", text: "The social Two often championed the vaccination decision especially for the community's sake, out of genuine concern for others. If her own body then reacts unexpectedly, the feeling of having neglected herself in the process can add to the burden." },
+        { code: "SX2", text: "The sexual Two can quite let herself be looked after within the one important relationship after persistent post-vaccination complaints, rather than staying only there for others. This permission for her own neediness can ease the processing compared to the pure consideration for others shown by other Two variants." },
+      ]},
+      { typ: 3, titel: "A trust that contradicted her image", varianten: [
+        { code: "SE3", text: "The self-preservation Three wanted to get the vaccination behind her efficiently and without much downtime, like one more item checked off a list. A persistent condition that derails this plan can be especially hard for her to accept." },
+        { code: "SO3", text: "The social Three keeps up a flawless, high-functioning image as seamlessly as possible even after a vaccination. Persistent exhaustion that visibly calls this image into question can lead her to deny or play down her own symptoms for an especially long time." },
+        { code: "SX3", text: "Admitting exhaustion after vaccination comes easiest for the sexual Three in front of the one important person, rather than appearing flawless again right away. This protected space can ease the processing compared to the sustained facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "A trust that became another exception", varianten: [
+        { code: "SE4", text: "Complaint rarely accompanies the self-preservation Four's, the counter-type's, reaction, which she carries stubbornly and wordlessly instead. Precisely this quiet endurance without being heard can make processing the unexpected breach of trust even harder." },
+        { code: "SO4", text: "Being among the rare cases with persistent complaints can confirm the social Four's already deeply anchored feeling of being hit especially hard or unjustly by fate. This dwelling in the sense of exception can tie up the processing." },
+        { code: "SX4", text: "The sexual Four expresses her disappointment over the unexpected reaction immediately and intensely in conversation with people she trusts, rather than brooding over it internally. This direct expression differs from the longer, silent dwelling of other Four variants." },
+      ]},
+      { typ: 5, titel: "A trust built on research", varianten: [
+        { code: "SE5", text: "The self-preservation Five usually researched thoroughly before her vaccination, to make a well-weighed, resource-conscious decision. An unexpected reaction anyway can feel especially wounding, because it contradicts her own careful control over information." },
+        { code: "SO5", text: "The social Five often readily shared her expertise on vaccination with others, to give the group a well-founded assessment. If her own body then reacts differently than expected, it can strike her self-understanding as a reliable source of knowledge in a sensitive spot." },
+        { code: "SX5", text: "Accepting support during recovery comes fairly easily to the sexual Five within her one deep bond, rather than withdrawing entirely alone with the processing. This exchange can ease the processing compared to the isolated withdrawal of other Five variants." },
+      ]},
+      { typ: 6, titel: "A trust placed in authority", varianten: [
+        { code: "SE6", text: "The self-preservation Six usually sought safety in her vaccination decision through a careful personal weighing of risk and benefit. An unexpected reaction can still trigger deep insecurity, because even this careful caution could not guarantee full protection." },
+        { code: "SO6", text: "The social Six usually trusted the recommendations of recognized medical authorities readily in her vaccination decision. If her own body then reacts unexpectedly, it can shake this basic trust in authority and trigger a profound uncertainty about who can still be trusted on health matters." },
+        { code: "SX6", text: "A targeted search for support and active engagement, rather than dwelling in worry, is how the sexual Six, the counter-type, answers her uncertainty after vaccination. This readiness to act can ease the processing compared to the ongoing worry-circling of other Six variants." },
+      ]},
+      { typ: 7, titel: "A trust that promised freedom", varianten: [
+        { code: "SE7", text: "The self-preservation Seven often linked the vaccination with the hope of a quick return to carefree activities and open options. An unexpected, limiting reaction can turn this hope into its opposite in an especially painful way." },
+        { code: "SO7", text: "A sense of responsibility for the group, more than personal certainty, often drove the social Seven's, the counter-type's, vaccination decision, her own reservations set aside. If her body then reacts unexpectedly, it can reinforce her habitual pattern of putting her own complaints behind the well-being of others." },
+        { code: "SX7", text: "Rather than clinging to many original plans, the sexual Seven puts her focus on the one remaining intense experience. This focus can ease dealing with an unexpected restriction compared to the broad option-thinking of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A trust whose breach feels like betrayal", varianten: [
+        { code: "SE8", text: "The self-preservation Eight usually made her vaccination decision independently and after her own weighing, in the awareness of keeping control over the consequences. A reaction that unpredictably undermines that control can feel like an especially sensitive inner betrayal of trust." },
+        { code: "SO8", text: "The social Eight often championed vaccination from a protective stance, for the sake of her group. If her own body then reacts unexpectedly strongly, it can shake her protector role in a way that is especially hard to bear." },
+        { code: "SX8", text: "The sexual Eight only lets her unexpected exhaustion become visible at all in front of the one person she trusts, rather than constantly asserting strength. This protected space can ease the processing compared to the permanent pressure to control other Eight variants carry." },
+      ]},
+      { typ: 9, titel: "A breach of trust that gets overridden", varianten: [
+        { code: "SE9", text: "Everyday comfort takes priority for the self-preservation Nine, who likes to push her persistent post-vaccination complaints aside. This tendency to downplay can lead necessary further evaluation to be postponed especially long." },
+        { code: "SO9", text: "The social Nine tends to bring up her own reaction to the vaccination only cautiously within the group, so as not to trigger discussion or unrest. This deferral of her own complaints can prevent her from ever seeking the support recovery needs." },
+        { code: "SX9", text: "The sexual Nine often notices his reaction to the vaccination more attentively than her own, so completely does she merge with her partner. If the partner himself remains unaffected, her own genuinely present exhaustion can go unnoticed especially long this way." },
+      ]},
+    ],
+    abschluss: "No immune system is safe from an unexpected vaccine reaction, regardless of subtype, and no pattern is a verdict – just as this interpretation takes no position for or against vaccination in general. What emerges is simply that each of the 27 subtypes processes a disappointed trust in the body in its own way – some through dutifulness, others through concern for others, control, or a long-overridden complaint of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  lupus_erythematodes: {
+    titel: "Lupus Erythematosus",
+    kategorie: "immunsystem",
+    icon: "🦋",
+    kurz: "An immune system that can no longer tell its own body apart from an attacker – and turns itself into the target.",
+    definition: "Lupus erythematosus, more precisely systemic lupus erythematosus (SLE), is a chronic inflammatory autoimmune disease in which the immune system forms antibodies against the body's own tissue. These autoantibodies can target cell nuclei, connective tissue, joints, skin, kidneys, heart, or the nervous system, so the condition takes a very different course from patient to patient. Typical is a relapsing course with symptom-free phases and acute flares that can be triggered by sunlight, infections, hormonal shifts, or stress. The disease is named for the often butterfly-shaped skin rash on the face, but the real danger lies in possible involvement of internal organs, above all the kidneys. The exact cause is not fully understood but is considered an interplay of genetic predisposition, hormonal, and environmental factors.",
+    symptome: ["Butterfly-shaped redness across the cheeks and bridge of the nose", "Joint pain and inflammation, often migrating", "Persistent exhaustion barely improved by sleep", "Fever spikes of unclear cause", "Light sensitivity of the skin", "Hair loss in flares", "Kidney involvement with protein in the urine"],
+    notfall: "For pronounced swelling, markedly reduced urine output, chest pain, shortness of breath, or neurological deficits such as confusion or seizures, seek immediate emergency medical care – this can indicate organ involvement.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Lupus represents one of the most radical forms in which inner conflict can express itself physically: the immune system, actually there for protection, turns against its own substance. In TCM, such a picture is often linked to an imbalance between heat in the blood and weakened Yin – a system overheating itself and consuming its own resources in the process. Psychosomatically, lupus frequently reads as the expression of a long-internalized conflict between what is shown outwardly and what is inwardly experienced as threatening or unbearable – a self-directed struggle that begins exactly where self-protection and self-denial blur into each other. Each of the 27 subtypes shows its own pattern of how this inner contradiction breaks through physically.",
+    typen: [
+      { typ: 1, titel: "A system that judges itself", varianten: [
+        { code: "SE1", text: "The self-preservation One spots her own flaws with unsparing precision and works tirelessly on fixing them. This permanent self-correction can mirror the image of an immune system that targets its own cells with similarly relentless focus." },
+        { code: "SO1", text: "The social One readily takes on responsibility for the greater good, even while her own exhaustion stays invisible in the process. If this quiet self-sacrifice goes unrecognized for years, the pent-up tension can discharge as flares of inflammation." },
+        { code: "SX1", text: "Anger over perceived injustice is carried directly outward by the sexual One, rather than turned against herself. This direct discharge can lower the risk of chronic self-directed struggle that tends to build up more in other, more restrained One variants." },
+      ]},
+      { typ: 2, titel: "A system that misjudges its own limits", varianten: [
+        { code: "SE2", text: "The self-preservation Two postpones her own needs so consistently that they barely register anymore, quietly caring for others in the meantime. This ongoing disregard of her own boundaries can mirror a body that loses the distinction between self and other altogether." },
+        { code: "SO2", text: "The social Two keeps track of others' needs across many relationships at once, while her own exhaustion grows unnoticed alongside. This sustained strain can show up in relapsing phases of illness whenever caring for others is not balanced by care for herself." },
+        { code: "SX2", text: "For the one person she is pursuing, the sexual Two devotes herself with full intensity, rather than spreading herself across many. This concentration can ease the exhaustion that tends to become chronic in the broader caretaking of other Two variants." },
+      ]},
+      { typ: 3, titel: "A system that talks over its own exhaustion", varianten: [
+        { code: "SE3", text: "Despite noticeable exhaustion, the self-preservation Three keeps functioning efficiently, since letting up would feel to her like failure. This talking-over of physical warning signals can contribute to inner exhaustion showing up only later as concrete flare symptoms." },
+        { code: "SO3", text: "The social Three maintains her image as high-performing even when exhaustion already reigns within. This gap between outward appearance and inner state can show up as a butterfly-shaped rash – visible on the face, right where the image sits." },
+        { code: "SX3", text: "In front of the one person who matters to her, the sexual Three lets her facade drop more readily, rather than keeping it up constantly. This occasional relief differs from the continuous functioning of other Three variants." },
+      ]},
+      { typ: 4, titel: "A system that never forgives itself", varianten: [
+        { code: "SE4", text: "Never granting her own suffering legitimacy, the self-preservation Four, the counter-type, carries it stubbornly and silently instead. This inner self-denial can mirror physically as a system that fails to recognize its own substance as worth protecting." },
+        { code: "SO4", text: "The social Four often feels different and unbelonging, a feeling she reinforces through hours of brooding over her own perceived deficiency. This ongoing self-judgment can settle into relapsing phases of illness." },
+        { code: "SX4", text: "The sexual Four directs her intensity outward, into the encounter with others, rather than against herself. This outward-directed expression differs from the inwardly directed self-doubt of other Four variants." },
+      ]},
+      { typ: 5, titel: "A system that withdraws instead of fighting back", varianten: [
+        { code: "SE5", text: "Simply pushing burdensome things aside instead of working through them is part of the strict resource management of the self-preservation Five. Whatever stays unprocessed this way can break through as a sudden flare." },
+        { code: "SO5", text: "The social Five withdraws into her field of expertise rather than confronting difficult feelings directly. This avoidance through the intellect can contribute to unprocessed tension showing up physically instead." },
+        { code: "SX5", text: "Intense closeness, rather than pure retreat into thought, is something the sexual Five genuinely allows – though only within her one deep bond. This felt balance differs from the pure withdrawal of other Five variants." },
+      ]},
+      { typ: 6, titel: "A system that cannot switch off the threat", varianten: [
+        { code: "SE6", text: "The self-preservation Six keeps possible dangers constantly in view, her nervous system rarely finding full relaxation. This ongoing state of inner alarm can mirror an overactive immune system turned against itself." },
+        { code: "SO6", text: "The social Six maintains loyalty to the group, even while her own doubts keep resonating internally and rarely find peace. This continuous inner weighing can discharge in flares of inflammation." },
+        { code: "SX6", text: "With courage and direct confrontation, the sexual Six, the counter-type, meets her fear, rather than mulling it over endlessly. This action orientation can lower the sustained tension that tends to stay chronic in other Six variants." },
+      ]},
+      { typ: 7, titel: "A system that sidesteps pain", varianten: [
+        { code: "SE7", text: "Unpleasant sensations are quickly distracted away by the self-preservation Seven with pleasant alternatives, rather than being sat with. Whatever is never truly processed this way can escape avoidance and show up physically instead as a flare." },
+        { code: "SO7", text: "Never granting herself exhaustion, the social Seven, the counter-type, consistently puts her own needs behind those of the group. This ongoing self-deferral can discharge as a sudden phase of illness." },
+        { code: "SX7", text: "The sexual Seven genuinely allows herself one single intense experience, rather than sidestepping every pain immediately. This capacity for depth differs from the constant sidestepping of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A system that allows no weakness", varianten: [
+        { code: "SE8", text: "The self-preservation Eight consistently blocks out her own vulnerability, admitting weakness hardly an option for her. This lasting denial of her own need for protection can mirror an immune system that no longer recognizes the body itself as worth protecting." },
+        { code: "SO8", text: "The social Eight positions herself protectively against threats to her group, while her own exhaustion stays invisible in the process. This ongoing watchkeeping for others can show up in relapsing phases of illness." },
+        { code: "SX8", text: "Only in front of the one person she trusts does the sexual Eight allow vulnerability too, rather than hiding it constantly. This occasional opening differs from the permanent denial of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A system that does not know its own anger", varianten: [
+        { code: "SE9", text: "The self-preservation Nine prefers to push conflicts with herself aside into everyday routines, rather than working through them. Whatever remains unexpressed this way can break through as a sudden flare once it can no longer be pushed away." },
+        { code: "SO9", text: "Harmony takes precedence for the social Nine, who usually gives up her own position within the group – her own anger about it often staying completely unconscious. This constant swallowing can show up as recurring flares of inflammation." },
+        { code: "SX9", text: "The sexual Nine takes on his tension once she merges with her partner, without ever clearly recognizing her own. If this borrowed tension stays lodged in her own body, it can show up there as a flare." },
+      ]},
+    ],
+    abschluss: "No one is safe from lupus, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles the inner conflict between self-protection and self-denial in its own way – some through self-criticism, others through exhaustion, withdrawal, or a chronically swallowed concern of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  nahrungsmittelallergien: {
+    titel: "Food Allergies",
+    kategorie: "immunsystem",
+    icon: "🥜",
+    kurz: "An immune system that senses a threat in the very thing meant to nourish.",
+    definition: "In a food allergy, the immune system reacts to otherwise harmless protein components of certain foods with an excessive defense response, usually mediated by specific IgE antibodies. On renewed contact with the allergen, histamine and other messenger substances are released within minutes to hours, which can trigger symptoms in the skin, mucous membranes, gastrointestinal tract, or airways. Common triggers are nuts, milk, egg, fish, soy, wheat, and certain fruits, with sensitivity varying widely between individuals. A true allergy must be distinguished from a food intolerance, which does not involve an immune mechanism but rather, for example, an enzyme deficiency. The reasons for the markedly rising frequency in recent decades are suspected to include, among other things, changed eating habits, excessive hygiene, and correspondingly less-trained gut flora.",
+    symptome: ["Itching and tingling in the mouth and throat", "Hives (wheals) and skin redness", "Nausea, abdominal cramps, diarrhea", "Swelling of lips, tongue, or throat", "Sneezing and runny nose", "Breathing difficulties up to a feeling of chest tightness", "In severe cases, anaphylactic shock"],
+    notfall: "For shortness of breath, swelling of the tongue or throat, circulatory collapse, or loss of consciousness, call emergency services immediately – this can be a life-threatening anaphylactic shock requiring emergency medication (adrenaline).",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "A food allergy sharpens, in a way, the basic question behind every defense reaction: what may enter, and what must stay out? When the immune system sounds the alarm over something as fundamental as food, it is often, in a figurative sense, about the capacity to accept, take in, and digest something – literally as well as metaphorically. In TCM, an excessive defense response of the body is often linked to a weakened Center (Spleen Qi) that can no longer properly transform and sort incoming stimuli. Psychosomatically, a food allergy often reads as an image of an inner boundary that has become oversensitive – exactly where closeness, nourishment, or belonging should be accepted, the body instead signals danger. Each of the 27 subtypes shows its own pattern of what this oversensitive boundary consists of.",
+    typen: [
+      { typ: 1, titel: "A boundary that tolerates no deviation", varianten: [
+        { code: "SE1", text: "What lands on her plate is checked conscientiously down to the last detail by the self-preservation One, so as never to make a mistake. This high standard of control over her own diet can go along with a bodily response that reacts especially sensitively to the smallest deviation." },
+        { code: "SO1", text: "The social One champions the common good, often forgoing her own culinary preferences in favor of what counts as correct. This inner renunciation can mirror a body that reacts especially sensitively to individual foods of all things." },
+        { code: "SX1", text: "Anger over unfairness shows immediately and directly in the sexual One, without first being suppressed in daily life. This direct outward discharge differs from the quiet, ongoing control of other One variants." },
+      ]},
+      { typ: 2, titel: "A boundary hard to set", varianten: [
+        { code: "SE2", text: "Whose wishes take priority is constantly calculated by the self-preservation Two, even in something as simple as choosing what to eat. This deferring of her own preference can mirror an oversensitive reaction to exactly what she actually wanted to allow herself." },
+        { code: "SO2", text: "In social settings, the social Two happily eats what suits everyone, rather than insisting on her own tolerance. If her own boundary is repeatedly overridden this way, the body can end up drawing that boundary itself, sharply." },
+        { code: "SX2", text: "The sexual Two does make an exception to her own preferences when it concerns the one important person – consciously and with full commitment, not out of habit. This deliberate choice differs from the unconscious deferral of other Two variants." },
+      ]},
+      { typ: 3, titel: "A boundary that yields to the image", varianten: [
+        { code: "SE3", text: "The self-preservation Three optimizes her diet efficiently for performance, gladly overriding her own intolerances along the way. This ignoring of bodily signals can show up as a sudden, pronounced allergic reaction." },
+        { code: "SO3", text: "Whatever counts as healthy and trendy is eaten along by the social Three to keep her image consistent, even when her body reacts differently. This adaptation to the outer image can reinforce an inner oversensitivity." },
+        { code: "SX3", text: "The sexual Three drops her culinary facade as soon as the one important person is watching, rather than maintaining it constantly. This occasional honesty differs from the sustained adaptation of other Three variants." },
+      ]},
+      { typ: 4, titel: "A boundary seeking distinctiveness", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, often accepts her own suffering without complaint, even once her body has long been sending clear signals. This overriding of her own sensitivity can show up as a fierce, hard-to-ignore allergic reaction." },
+        { code: "SO4", text: "The social Four often experiences her special sensitivity as part of her identity, something that sets her apart from others. This identification with being different can mirror physically in a genuinely unusually sensitive immune reaction." },
+        { code: "SX4", text: "Rather than routing it through physical symptoms, the sexual Four seeks intensity directly in the encounter. This immediate expression differs from the identity-forming suffering of other Four variants." },
+      ]},
+      { typ: 5, titel: "A boundary that seals itself off", varianten: [
+        { code: "SE5", text: "The self-preservation Five likes to reduce her diet to a manageable, safe set of foods, to keep effort and risk low. This narrow selection can paradoxically contribute to the body reacting especially sensitively to anything new or unknown." },
+        { code: "SO5", text: "The social Five researches food intolerances thoroughly before sharing her knowledge with others – her own bodily experience sometimes staying in the background. This prioritizing of knowledge over sensing can let an existing sensitivity go overlooked until it shows up clearly." },
+        { code: "SX5", text: "The sexual Five is quite open to new and shared things, as long as they are shared with her one deep bond, rather than sealing herself off. This openness differs from the narrow selection of other Five variants." },
+      ]},
+      { typ: 6, titel: "A boundary that senses every danger", varianten: [
+        { code: "SE6", text: "The self-preservation Six checks possible risks in her diet especially thoroughly, out of concern about taking in something wrong. This heightened vigilance toward food can go along with an immune system that likewise reacts especially watchfully, at times overcautiously." },
+        { code: "SO6", text: "The social Six orients her own diet, too, toward what counts as safe and accepted in the group, even when her own body reacts differently. This reliance on outer authority over her own bodily sense can leave an existing sensitivity unnoticed for a long time." },
+        { code: "SX6", text: "Even trying new foods, the sexual Six, the counter-type, meets her fear with courageous direct confrontation rather than caution. This willingness to take risks differs from the cautious checking of other Six variants." },
+      ]},
+      { typ: 7, titel: "A boundary unwilling to limit enjoyment", varianten: [
+        { code: "SE7", text: "The self-preservation Seven actively and variously seeks out pleasant culinary experiences, gladly suppressing restrictions from intolerances along the way. This talking-over of unpleasant bodily signals can show up as a suddenly fierce allergic reaction that can no longer be ignored." },
+        { code: "SO7", text: "During shared meals with the group, the social Seven, the counter-type, gladly sets her own concerns aside, so as not to dampen the mood. This deferral of her own sensitivity can break through as a pronounced physical reaction." },
+        { code: "SX7", text: "The sexual Seven consciously allows herself one single intense culinary experience, rather than constantly searching for the next option. This capacity for depth differs from the suppression of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A boundary no one else gets to set", varianten: [
+        { code: "SE8", text: "What she eats is decided by the self-preservation Eight entirely by her own will, warnings or restrictions from outside gladly ignored. This independence from outside advice can mean an existing sensitivity is noticed only late, and then fiercely." },
+        { code: "SO8", text: "The social Eight provides for her group at shared meals too, her own tolerance often taking a back seat. This deferral of her own needs in favor of others can mirror physically as oversensitivity." },
+        { code: "SX8", text: "The sexual Eight readily admits physical sensitivity to the one person she trusts, rather than hiding it. This occasional openness differs from the general disregard of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A boundary unwilling to contradict anyone", varianten: [
+        { code: "SE9", text: "Whatever comes to the table is usually accepted by the self-preservation Nine without much question of whether it actually agrees with her. This overriding of her own reaction can show up as a sudden, hard-to-overlook allergic flare." },
+        { code: "SO9", text: "To avoid causing trouble at shared meals, the social Nine prefers to keep quiet about her own intolerances rather than voice a special request. This constant swallowing of her own needs can show up as recurring bodily reactions." },
+        { code: "SX9", text: "The sexual Nine often adopts her partner's eating habits unquestioned in the intense merging, without considering her own tolerance in the process. If this unnoticed discrepancy persists, it can show up as an allergic reaction in her own body." },
+      ]},
+    ],
+    abschluss: "No one is safe from food allergies, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles its own bodily boundary toward food in its own way – some through control, others through adaptation, withdrawal, or a chronically overridden sense of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  sarkoidose: {
+    titel: "Sarcoidosis",
+    kategorie: "immunsystem",
+    icon: "🫁",
+    kurz: "A silent inflammation that settles into small nodules in tissue – often unnoticed for years.",
+    definition: "Sarcoidosis is an inflammatory systemic disease in which small clusters of immune cells, called granulomas, form in various organs. Most often affected are the lungs and lymph nodes in the chest, but skin, eyes, liver, heart, or the nervous system can also be involved. The disease is thought to arise from an excessive immune response to a trigger not yet reliably identified, in people with a corresponding genetic predisposition. Many courses are mild and heal on their own within a few years, while others become chronic and can lead to lasting scarring in the tissue. Characteristic is that the disease often initially causes barely noticeable, nonspecific complaints and is frequently discovered only by chance, for instance during an X-ray.",
+    symptome: ["Dry cough and breathing difficulties", "Persistent tiredness and fatigue", "Swollen lymph nodes", "Mild fever and night sweats", "Skin changes, such as painful reddish nodules on the shins", "Joint pain", "Visual disturbances with eye involvement"],
+    notfall: "For sudden severe shortness of breath, cardiac arrhythmia, marked visual disturbances, or neurological deficits, seek prompt medical evaluation – call emergency services immediately if acute heart or nerve involvement is suspected.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Sarcoidosis often runs its course hidden for a long time before it is even noticed – small foci of inflammation depositing themselves unnoticed in the tissue, much like unspoken tension that settles into the body over years without ever being recognized as such. In TCM, such a silent, condensed deposit is often linked to a stagnation of Qi and Phlegm (Tan) – something that no longer flows, but hardens and settles instead. Psychosomatically, sarcoidosis often reads as an image of something long held back and never spoken, condensing quietly into the tissue instead, most often in the lungs – the organ of breathing, but also of letting go and of grief. Each of the 27 subtypes shows its own pattern of what is being held back here over a long time.",
+    typen: [
+      { typ: 1, titel: "Something that hardens quietly", varianten: [
+        { code: "SE1", text: "The self-preservation One usually holds back her own displeasure over shortcomings and instead keeps working quietly to improve daily life. What stays unspoken this way for years can settle into the tissue as a creeping inflammation." },
+        { code: "SO1", text: "The social One barely mentions her own exhaustion in service of the greater good, worried about being seen as unable to cope. This long-standing holding-back can show up as silent, often incidentally discovered foci of inflammation." },
+        { code: "SX1", text: "The sexual One speaks her displeasure immediately, rather than holding it back for years. This direct outward discharge differs from the quiet holding-back of other One variants." },
+      ]},
+      { typ: 2, titel: "Something that is never claimed", varianten: [
+        { code: "SE2", text: "The self-preservation Two rarely voices her own needs directly, instead quietly hoping others will notice them on their own. If this quiet hoping stays unmet for years, the accumulated disappointment can show up as a creeping tissue change." },
+        { code: "SO2", text: "The social Two rarely mentions her own exhaustion after years of giving to many, worried about seeming ungrateful. This unspoken exhaustion can settle into silent, long-unnoticed inflammatory processes." },
+        { code: "SX2", text: "The sexual Two voices her needs to the one important person clearly rather than holding them back quietly. This more direct communication differs from the quiet hoping of other Two variants." },
+      ]},
+      { typ: 3, titel: "Something hidden behind the facade", varianten: [
+        { code: "SE3", text: "The self-preservation Three efficiently hides her own exhaustion behind continued performance, admitting weakness feeling to her like failure. What stays hidden this way for years can show up as a quietly progressing tissue change." },
+        { code: "SO3", text: "Behind her successful public image, the social Three often hides a deep, never-admitted exhaustion. This long-standing hiding can settle into incidentally discovered foci of inflammation." },
+        { code: "SX3", text: "The sexual Three lets her facade drop once she is alone with the one important person, rather than maintaining it for years. This occasional honesty differs from the continuous hiding of other Three variants." },
+      ]},
+      { typ: 4, titel: "Something never fully spoken", varianten: [
+        { code: "SE4", text: "Wordlessly and for a long time, pain gets carried by the self-preservation Four, the counter-type, rather than spoken. This stubborn silent endurance can show up as a creeping condensation in the tissue." },
+        { code: "SO4", text: "How misunderstood and different she feels is often shared only in fragments by the social Four, worried she won't really be heard anyway. This incomplete voicing can settle over years into a silent inflammation." },
+        { code: "SX4", text: "The sexual Four speaks her feelings immediately in the intense encounter, rather than holding them back for years. This direct expression differs from the incomplete voicing of other Four variants." },
+      ]},
+      { typ: 5, titel: "Something kept entirely to herself", varianten: [
+        { code: "SE5", text: "The self-preservation Five mostly keeps her inner burdens entirely to herself, to get by with her limited resources. What is never shared this way can settle over years into a silent tissue change." },
+        { code: "SO5", text: "The social Five readily shares her knowledge with others, but hardly her own feelings. This split between head and inner life can contribute to unspoken tension showing up physically instead." },
+        { code: "SX5", text: "The sexual Five does open up emotionally too, toward her one deep bond, rather than keeping everything purely to herself. This opening differs from the sustained holding-back of other Five variants." },
+      ]},
+      { typ: 6, titel: "Something that is never fully calmed", varianten: [
+        { code: "SE6", text: "The self-preservation Six often keeps her worries to herself, so as not to burden others further, while she keeps brooding inside. This years of quiet brooding can show up as a creeping inflammation in the tissue." },
+        { code: "SO6", text: "The social Six rarely voices her doubts about the group openly, worried about jeopardizing belonging. This years-long holding-back can settle into incidentally discovered foci of inflammation." },
+        { code: "SX6", text: "The sexual Six, the counter-type, voices her fear immediately through courageous action, rather than holding it back for years. This action orientation differs from the quiet brooding of other Six variants." },
+      ]},
+      { typ: 7, titel: "Something that vanishes behind distraction", varianten: [
+        { code: "SE7", text: "Unpleasant feelings are readily talked over by the self-preservation Seven with pleasant alternatives, rather than being voiced. What never really gets put into words this way over years can settle into a silent tissue change." },
+        { code: "SO7", text: "The social Seven, the counter-type, barely brings up her own exhaustion, so as not to burden the group's mood. This years-long deferral can show up as incidentally discovered foci of inflammation." },
+        { code: "SX7", text: "In the one intense experience, the sexual Seven speaks difficult things openly too, rather than hiding them behind distraction. This openness differs from the talking-over of other Seven variants." },
+      ]},
+      { typ: 8, titel: "Something never shown as weakness", varianten: [
+        { code: "SE8", text: "The self-preservation Eight all but never shows her own vulnerability, admitting weakness fundamentally contradicting her self-image. This years of hiding can show up as a silent, often late-discovered tissue change." },
+        { code: "SO8", text: "The social Eight always presents herself as strong and protective for her group, her own exhaustion staying unspoken for years in the process. This hiding can settle into incidentally discovered foci of inflammation." },
+        { code: "SX8", text: "The sexual Eight does show vulnerability, when it concerns the one person she trusts, rather than hiding it for years. This occasional openness differs from the sustained hiding of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Something that never becomes a conflict", varianten: [
+        { code: "SE9", text: "The self-preservation Nine pushes uncomfortable topics into her everyday routines, rather than addressing them. What stays unprocessed this way for years can break through as a creeping tissue change." },
+        { code: "SO9", text: "The social Nine usually gives up her own opinion within the group, to prevent conflicts from ever arising. This years of swallowing her own position can show up as quietly progressing foci of inflammation." },
+        { code: "SX9", text: "The sexual Nine often takes on her partner's unspoken tension once she merges with him, without recognizing it as her own. If this outside tension stays lodged in her own body for years, it can show up there as a silent tissue change." },
+      ]},
+    ],
+    abschluss: "No one is safe from sarcoidosis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with what has long been held back in its own way – some through quiet self-correction, others through hiding, distraction, or a chronically swallowed concern of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
@@ -65900,7 +66313,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "haut": ["Hair Loss (Androgenetic / Diffuse)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": [],
   "nerven-psyche": [],
-  "immunsystem": ["Multiple Sclerosis", "Frequent Infections / Weak Immune System", "Long COVID / Post-Viral Syndrome", "Post-Vaccination Syndrome", "Lupus", "Food Allergies", "Sarcoidosis"],
+  "immunsystem": [],
   "onkologie": ["Breast Cancer", "Prostate Cancer", "Colorectal Cancer", "Lung Cancer", "Skin Cancer (Melanoma)", "Stomach Cancer", "Pancreatic Cancer", "Leukemia"],
   "sonstige": ["Chronic Kidney Disease", "Erectile Dysfunction", "Infertility", "Periodontitis", "Chronic Bladder Infection (Cystitis)", "Glaucoma", "Endometriosis", "Urinary Incontinence"],
 };
