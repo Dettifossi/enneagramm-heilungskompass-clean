@@ -435,6 +435,7 @@ export const registerEntries = [
   { term: "Heuschnupfen / Allergische Rhinitis (Psychosomatik)", route: "psychosomatik/heuschnupfen", description: "Psychosomatische Deutung: überreizte Grenze zwischen Innen und Außen, TCM Wei-Qi der Lunge, Enneagramm alle 27 Subtypen" },
   { term: "Chronische Sinusitis (Psychosomatik)", route: "psychosomatik/chronische_sinusitis", description: "Psychosomatische Deutung: ungelöster innerer Stau, TCM Lunge/Metall-Element, Enneagramm alle 27 Subtypen" },
   { term: "Schlafapnoe (Psychosomatik)", route: "psychosomatik/schlafapnoe", description: "Psychosomatische Deutung: Schwierigkeit, im Schlaf loszulassen, Enneagramm alle 27 Subtypen" },
+  { term: "Lungenentzündung / Pneumonie (Psychosomatik)", route: "psychosomatik/lungenentzuendung", description: "Psychosomatische Deutung: akute Erschöpfung der Widerstandskräfte, TCM Lunge/Trauer, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1544,6 +1545,7 @@ export const registerEntriesEN = [
   { term: "Hay Fever / Allergic Rhinitis (Psychosomatics)", route: "psychosomatik/heuschnupfen", description: "Psychosomatic interpretation: an oversensitive boundary between self and world, TCM Lung Wei-Qi, Enneagram all 27 subtypes" },
   { term: "Chronic Sinusitis (Psychosomatics)", route: "psychosomatik/chronische_sinusitis", description: "Psychosomatic interpretation: an unresolved inner backlog, TCM Lung/Metal element, Enneagram all 27 subtypes" },
   { term: "Sleep Apnea (Psychosomatics)", route: "psychosomatik/schlafapnoe", description: "Psychosomatic interpretation: difficulty letting go during sleep, Enneagram all 27 subtypes" },
+  { term: "Pneumonia (Psychosomatics)", route: "psychosomatik/lungenentzuendung", description: "Psychosomatic interpretation: acute exhaustion of resistance, TCM Lung/grief, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
