@@ -470,6 +470,7 @@ export const registerEntries = [
   { term: "Metabolisches Syndrom (Psychosomatik)", route: "psychosomatik/metabolisches_syndrom", description: "Psychosomatische Deutung: gleichzeitige Überforderung mehrerer Lebensbereiche, TCM Milz-Qi-/Nieren-Yang-Erschöpfung, Enneagramm alle 27 Subtypen" },
   { term: "PCOS (Psychosomatik)", route: "psychosomatik/pcos", description: "Psychosomatische Deutung: Reifung, die nicht losgelassen wird, TCM Nieren-Yang-Schwäche und Feuchtigkeit-Stau, Enneagramm alle 27 Subtypen" },
   { term: "Wechseljahresbeschwerden (Psychosomatik)", route: "psychosomatik/wechseljahresbeschwerden", description: "Psychosomatische Deutung: biologische Schwelle und inneres Übergangsfeuer, TCM Nieren-Yin-Abnahme, Enneagramm alle 27 Subtypen" },
+  { term: "PMS / Prämenstruelles Syndrom (Psychosomatik)", route: "psychosomatik/pms", description: "Psychosomatische Deutung: monatlich aufgestaute Spannung, die sich zyklisch entlädt, TCM gestautes Leber-Qi, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 

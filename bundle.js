@@ -99775,6 +99775,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Jede Frau durchläuft die Wechseljahre auf ihre eigene Weise, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen diese biologische Schwelle unterschiedlich durchlebt – manche über Kontrolle, andere über Rückzug, offenen Ausdruck oder eine chronisch übergangene eigene Wandlung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  pms: {
+    titel: "Prämenstruelles Syndrom (PMS)",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🌘",
+    kurz: "Was den ganzen Zyklus über zurückgehalten wurde, meldet sich in der letzten Woche unübersehbar zurück – eine monatlich wiederkehrende Rechnung.",
+    definition: "Das prämenstruelle Syndrom bezeichnet eine Gruppe körperlicher und emotionaler Symptome, die typischerweise in der zweiten Zyklushälfte (Lutealphase) auftreten und mit Einsetzen der Menstruation abklingen. Auslöser ist die natürliche hormonelle Schwankung von Östrogen und Progesteron nach dem Eisprung, auf die manche Frauen besonders empfindlich reagieren – vermutlich durch eine erhöhte Sensitivität des Nervensystems gegenüber diesen normalen Hormonveränderungen, nicht durch eine eigentliche hormonelle Störung. Die Bandbreite reicht von leichten Beschwerden bis zur prämenstruellen dysphorischen Störung (PMDS), einer schweren Form mit deutlich beeinträchtigender Stimmungsveränderung. Charakteristisch ist der klare zyklische Rhythmus: ein wiederkehrender Aufbau von Spannung über etwa zwei Wochen, gefolgt von einer Entladung, die mit der Blutung selbst einsetzt – Monat für Monat aufs Neue.",
+    symptome: ["Reizbarkeit, Stimmungsschwankungen, erhöhte emotionale Empfindlichkeit", "Brustspannen und Unterleibsziehen", "Wassereinlagerungen und Blähbauch", "Heißhunger, insbesondere auf Süßes oder Salziges", "Kopfschmerzen und Müdigkeit", "Schlafstörungen und verminderte Konzentrationsfähigkeit in der Woche vor der Blutung"],
+    notfall: "Kein akuter Notfall. Bei sehr ausgeprägten Stimmungsveränderungen mit Suizidgedanken (mögliches Anzeichen einer PMDS) zeitnah professionelle Hilfe suchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "PMS folgt einem monatlichen Rhythmus, der psychosomatisch eine eigene Sprache spricht: Über zwei Wochen baut sich etwas auf, das in der letzten Woche unübersehbar wird, bevor es sich mit der Blutung wieder löst. In der TCM wird PMS häufig mit gestautem Leber-Qi in Verbindung gebracht – Energie, die sich über den Zyklus hinweg staut, weil sie im Alltag keinen ausreichenden Fluss findet, und sich dann in der zweiten Zyklushälfte spürbar Bahn bricht. Psychosomatisch liest sich PMS oft als Bild eines monatlichen Kontos: Was während des restlichen Zyklus an Bedürfnissen, Grenzen oder Gefühlen zurückgestellt wurde, meldet sich in dieser einen Woche mit erhöhter Dringlichkeit zurück – eine Art zyklische Rechnung für unaufgelöste Spannung. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, was hier über den Monat hinweg zurückgehalten wird und in der letzten Woche hervorbricht.",
+    typen: [
+      { typ: 1, titel: "Ein Ärger, der sich monatlich entlädt", varianten: [
+        { code: "SE1", text: "Über den ganzen Zyklus hinweg hält die selbsterhaltende Eins ihre Selbstdisziplin makellos aufrecht, kleine Ärgernisse werden diszipliniert weggesteckt. In der letzten Zykluswoche kann sich dieser angesammelte Unmut plötzlich ungewohnt scharf entladen." },
+        { code: "SO1", text: "Ihre Kritik an fremdem Fehlverhalten hält die soziale Eins über den Zyklus hinweg meist zurück, um moralisch gefasst zu wirken. In der prämenstruellen Woche kann dieser zurückgehaltene Ärger deutlich spürbarer an die Oberfläche kommen." },
+        { code: "SX1", text: "Ihren Ärger lebt die sexuelle Eins meist unmittelbar aus, statt ihn über den Zyklus zurückzuhalten. Diese fortlaufende Entladung unterscheidet sich vom monatlich aufgestauten Unmut anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Ein Bedürfnis, das sich monatlich meldet", varianten: [
+        { code: "SE2", text: "Über den ganzen Zyklus hinweg stellt die selbsterhaltende Zwei die Bedürfnisse anderer über ihre eigenen. In der letzten Zykluswoche kann dieses aufgestaute eigene Bedürfnis plötzlich unübersehbar werden." },
+        { code: "SO2", text: "Zugunsten ihres Einsatzes für andere übergeht die soziale Zwei ihre eigene Erschöpfung über den ganzen Zyklus hinweg. In der prämenstruellen Woche kann sich dieser angesammelte Erschöpfungsstau plötzlich deutlich zeigen." },
+        { code: "SX2", text: "Fortlaufend, statt sie über den Zyklus aufzustauen, fordert die sexuelle Zwei ihre eigenen Bedürfnisse in der einen wichtigen Beziehung ein. Dieses kontinuierliche Einfordern unterscheidet sich vom monatlichen Rückstau anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Ein Tempo, das sich monatlich rächt", varianten: [
+        { code: "SE3", text: "Über den ganzen Zyklus hinweg hält die selbsterhaltende Drei ihr hohes Tempo ohne echte Pausen durch. In der letzten Zykluswoche kann sich diese angesammelte Erschöpfung plötzlich unübersehbar Bahn brechen." },
+        { code: "SO3", text: "Ihr makelloses öffentliches Bild hält die soziale Drei über den Zyklus hinweg konsequent aufrecht. In der prämenstruellen Woche kann die dahinterliegende Erschöpfung plötzlich deutlich sichtbarer werden." },
+        { code: "SX3", text: "Erschöpfung lässt die sexuelle Drei fortlaufend zu, statt sie über den Zyklus zurückzuhalten – besonders vor der einen wichtigen Person. Dieses kontinuierliche Zulassen unterscheidet sich vom monatlichen Rückstau anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein Gefühl, das sich monatlich Bahn bricht", varianten: [
+        { code: "SE4", text: "Über den ganzen Zyklus hinweg trägt die selbsterhaltende Vier, der Kontratyp, ihre Gefühle zäh und stumm mit sich. In der letzten Zykluswoche können diese aufgestauten Gefühle plötzlich mit voller Wucht hervorbrechen." },
+        { code: "SO4", text: "Ihre Gefühle spricht die soziale Vier fortlaufend offen aus, statt sie über den Zyklus aufzustauen. Dieser kontinuierliche Ausdruck kann dem monatlichen Wuchtausbruch entgegenwirken, der bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SX4", text: "Ihre emotionalen Ausschläge verteilt die sexuelle Vier mit großer Intensität über den ganzen Zyklus, statt sie auf eine Woche zu konzentrieren. Dieser verteilte Ausdruck unterscheidet sich vom monatlichen Rückstau der selbsterhaltenden Variante." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der sich monatlich löst", varianten: [
+        { code: "SE5", text: "Über den ganzen Zyklus hinweg reduziert die selbsterhaltende Fünf Kontakt und Bedürfnisse konsequent auf ein Minimum. In der letzten Zykluswoche kann diese über Wochen gehaltene Zurückhaltung plötzlich nachgeben und sich spürbar entladen." },
+        { code: "SO5", text: "Über den ganzen Zyklus hinweg teilt die soziale Fünf ihr Wissen bereitwillig, emotionale Nähe hält sie dabei auf sichere Distanz. In der prämenstruellen Woche kann diese Distanz plötzlich schwerer aufrechtzuerhalten sein." },
+        { code: "SX5", text: "Nähe lässt die sexuelle Fünf fortlaufend über den ganzen Zyklus zu, statt sie zurückzuhalten – innerhalb ihrer einen tiefen Verbindung. Dieses kontinuierliche Zulassen unterscheidet sich vom monatlichen Rückstau übriger Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine Anspannung, die sich monatlich zuspitzt", varianten: [
+        { code: "SE6", text: "Über den ganzen Zyklus hinweg hält die selbsterhaltende Sechs eine wache innere Anspannung aufrecht. In der letzten Zykluswoche kann sich diese Daueranspannung plötzlich zu spürbarer Reizbarkeit zuspitzen." },
+        { code: "SO6", text: "Ihre stille Sorge um das Wohl der Gruppe trägt die soziale Sechs über den ganzen Zyklus hinweg mit sich. In der prämenstruellen Woche kann diese angesammelte Sorge plötzlich deutlich spürbarer werden." },
+        { code: "SX6", text: "Statt sie über den Zyklus aufzustauen, begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst fortlaufend mit unmittelbarer Konfrontation. Diese kontinuierliche Entladung unterscheidet sich vom monatlichen Rückstau anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Eine Rastlosigkeit, die sich monatlich erschöpft", varianten: [
+        { code: "SE7", text: "Über den ganzen Zyklus hinweg springt die selbsterhaltende Sieben von einer angenehmen Ablenkung zur nächsten. In der letzten Zykluswoche kann diese permanente Betriebsamkeit plötzlich in spürbarer Erschöpfung und Reizbarkeit münden." },
+        { code: "SO7", text: "Ihre eigenen Grenzen stellt die soziale Sieben, der Kontratyp, im Dienst der Gruppe über den ganzen Zyklus hinweg immer wieder zurück. In der prämenstruellen Woche kann sich diese angesammelte Selbstüberforderung plötzlich deutlich zeigen." },
+        { code: "SX7", text: "Mit voller Begeisterung lässt sich die sexuelle Sieben fortlaufend über den ganzen Zyklus auf intensive Erfahrungen ein, statt sich eine Woche lang zurückzuhalten. Dieses kontinuierliche Ausleben unterscheidet sich vom monatlichen Erschöpfungsstau anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Kontrolle, die sich monatlich lockert", varianten: [
+        { code: "SE8", text: "Über den ganzen Zyklus hinweg hält die selbsterhaltende Acht konsequente Kontrolle über Körper und Ressourcen aufrecht. In der letzten Zykluswoche kann sich diese permanente Anspannung plötzlich als spürbare Reizbarkeit zeigen." },
+        { code: "SO8", text: "Im Dienst ihrer Beschützerrolle demonstriert die soziale Acht über den ganzen Zyklus hinweg durchgehend Stärke und Kontrolle. In der prämenstruellen Woche kann diese Dauerspannung plötzlich schwerer aufrechtzuerhalten sein." },
+        { code: "SX8", text: "Ihre Anspannung lässt die sexuelle Acht fortlaufend über den Zyklus los – aber nur innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dieses kontinuierliche Loslassen unterscheidet sich vom monatlichen Rückstau der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Signal, das sich monatlich meldet", varianten: [
+        { code: "SE9", text: "Kaum bewusst wahrgenommen werden eigene Bedürfnisse bei der selbsterhaltenden Neun, so vollständig verliert sie sich über den ganzen Zyklus hinweg in Routine und Komfort. In der letzten Zykluswoche kann sich dieses übergangene Bedürfnis plötzlich unübersehbar melden." },
+        { code: "SO9", text: "Der Gruppenharmonie ordnet die soziale Neun ihre eigenen Bedürfnisse über den ganzen Zyklus hinweg beständig unter. In der prämenstruellen Woche kann sich diese angesammelte Selbstzurücknahme plötzlich deutlich zeigen." },
+        { code: "SX9", text: "Die Wahrnehmung des eigenen Zyklus übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner ihre zunehmende Anspannung nicht, übersieht die Neun sie in der prämenstruellen Woche oft ebenfalls." },
+      ]},
+    ],
+    abschluss: "Kein Zyklus ist vor PMS gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit monatlich aufgestauter Spannung auf seine eigene Weise umgeht – manche über Kontrolle, andere über fortlaufenden Ausdruck, Rückzug oder ein chronisch übergangenes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99788,7 +99847,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
