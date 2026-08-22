@@ -99421,6 +99421,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Keine Schilddrüse ist vor einer Unterfunktion gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit gedrosseltem inneren Tempo auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, plötzlichen Einbruch oder eine chronisch übergangene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  morbus_basedow: {
+    titel: "Schilddrüsenüberfunktion (Morbus Basedow)",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🔥",
+    kurz: "Ein inneres Feuer, das nicht mehr gedrosselt werden kann – der Motor läuft heiß, während der Körper zusieht, wie seine eigenen Reserven verbrennen.",
+    definition: "Morbus Basedow ist die häufigste Ursache einer Schilddrüsenüberfunktion und eine Autoimmunerkrankung: Das körpereigene Immunsystem bildet Antikörper, die die Schilddrüse zur permanenten Überproduktion der Hormone T3 und T4 antreiben. Diese Hormone beschleunigen praktisch jeden Stoffwechselvorgang – der Körper gerät in einen Zustand ständiger innerer Hochleistung, der auf Dauer erschöpft, statt zu beflügeln. Charakteristisch ist bei einem Teil der Betroffenen zudem eine Beteiligung der Augen (endokrine Orbitopathie), bei der das Gewebe hinter den Augen anschwillt und die Augen hervortreten lässt – ein Blick, der buchstäblich weiter aufgerissen wirkt, oft verbunden mit erhöhter Alarmbereitschaft und innerer Unruhe. Anders als bei der Unterfunktion, bei der sich alles verlangsamt, rast hier alles – Herzschlag, Gedanken, Stoffwechsel –, bis der Körper diesen Zustand nicht mehr durchhalten kann.",
+    symptome: ["Herzrasen und Herzklopfen, auch in Ruhe", "Ungewollter Gewichtsverlust trotz normalem oder gesteigertem Appetit", "Innere Unruhe, Nervosität, Reizbarkeit", "Hitzeunverträglichkeit und übermäßiges Schwitzen", "Zittern der Hände", "Hervortretende Augen, Lidschwellung (bei endokriner Orbitopathie)", "Schlafstörungen trotz körperlicher Erschöpfung"],
+    notfall: "Bei extrem hohem Puls, hohem Fieber, starker Unruhe bis hin zu Verwirrtheit (Verdacht auf thyreotoxische Krise, eine seltene, lebensbedrohliche Extremform) sofort den Notruf wählen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wo die Schilddrüsenunterfunktion vom gedrosselten inneren Tempo erzählt, erzählt Morbus Basedow vom genauen Gegenteil: von einem Motor, der nicht mehr abschalten kann, obwohl seine Reserven längst zur Neige gehen. In der TCM wird dieses Bild häufig mit aufsteigendem Leber-Yang oder innerer Hitze in Verbindung gebracht – einer Energie, die sich nicht mehr beruhigen lässt und den ganzen Organismus in Alarmbereitschaft versetzt. Psychosomatisch liest sich Morbus Basedow oft als Bild einer inneren Anspannung, die keinen Ausweg mehr findet als über ständige Beschleunigung – eine Wachsamkeit, die buchstäblich die Augen weit aufreißt, weil sie nirgends mehr zur Ruhe kommt. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche innere Anspannung sich hier zu einem nicht mehr zu bremsenden Tempo aufschaukelt.",
+    typen: [
+      { typ: 1, titel: "Eine Anspannung, die niemals abschaltet", varianten: [
+        { code: "SE1", text: "Ihre eigene Disziplin treibt die selbsterhaltende Eins ohne echte Pause voran, Nachlässigkeit darf sich nirgends zeigen. Dieser permanente innere Antrieb ohne Ventil kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SO1", text: "Über die Richtigkeit der Dinge wacht die soziale Eins in einem fort, ohne der eigenen inneren Unruhe je Raum zu geben. Diese ständige, unausgesprochene Alarmbereitschaft kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SX1", text: "Ihre Empörung entlädt sich bei der sexuellen Eins episodisch und intensiv, statt sich zu einem Dauerzustand aufzuschaukeln. Diese punktuelle Entladung unterscheidet sich vom permanenten inneren Antrieb anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Eine Unruhe, die keine Pause kennt", varianten: [
+        { code: "SE2", text: "Ohne innezuhalten sorgt die selbsterhaltende Zwei fortlaufend für andere, echte Ruhe gönnt sie sich dabei kaum. Dieses ständige Auf-Trab-Sein kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SO2", text: "Unentbehrlich zu bleiben treibt die soziale Zwei in einem fort an, ihr Nervensystem findet selten echte Entspannung. Dieser andauernde innere Antrieb kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung erlaubt sich die sexuelle Zwei durchaus auch Ruhephasen, statt sich ununterbrochen zu verausgaben. Diese bewusste Erholung kann dem permanenten Antrieb anderer Zweier-Varianten entgegenwirken." },
+      ]},
+      { typ: 3, titel: "Ein Tempo, das keine Bremse kennt", varianten: [
+        { code: "SE3", text: "Ohne echte Verschnaufpausen hetzt die selbsterhaltende Drei von einer Aufgabe zur nächsten. Dieses ständig hochgefahrene Tempo kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen, die sich selbst nicht mehr bremsen lässt." },
+        { code: "SO3", text: "Ihr Erfolgstempo hält die soziale Drei ohne echte Unterbrechung durch, Stillstand fühlt sich für sie bedrohlich an. Diese permanente Hochleistung kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SX3", text: "In der einen wichtigen Beziehung lässt sich die sexuelle Drei durchaus auch auf Verlangsamung ein, statt das Tempo ständig hochzuhalten. Diese bewusste Drosselung unterscheidet sich vom rastlosen Tempo anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Intensität, die sich nicht beruhigt", varianten: [
+        { code: "SE4", text: "Ihre innere Intensität hält die selbsterhaltende Vier, der Kontratyp, ohne Ausdruck unter Hochspannung, ohne ihr je ein Ventil zu geben. Dieser permanente innere Sog kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SO4", text: "Ihre innere Bewegtheit spricht die soziale Vier offen aus, statt sie unter Spannung zu halten. Dieser Ausdruck kann der permanenten inneren Hochspannung entgegenwirken, die für andere Vierer-Varianten typischer ist." },
+        { code: "SX4", text: "Mit voller Wucht lebt die sexuelle Vier ihre emotionale Erregung im direkten Kontakt aus. Dieser offene, punktuelle Ausdruck steht der dauerhaften, unausgedrückten inneren Hochspannung der selbsterhaltenden Variante entgegen." },
+      ]},
+      { typ: 5, titel: "Eine Alarmbereitschaft hinter äußerer Ruhe", varianten: [
+        { code: "SE5", text: "Nach außen wirkt die selbsterhaltende Fünf meist gefasst, innerlich bleibt ihr Nervensystem jedoch oft in stiller Alarmbereitschaft gegenüber der Welt. Diese verborgene Daueranspannung kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SO5", text: "Sachlich und kontrolliert wirkt die soziale Fünf in Diskussionen, während innerlich eine ständige Wachsamkeit mitläuft. Dieser innere Widerspruch kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen, geschützten Verbindung kann die sexuelle Fünf ihre Alarmbereitschaft ablegen und sich wirklich entspannen – anders als bei der generellen inneren Wachsamkeit der übrigen Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Ein Alarmsystem, das nie abschaltet", varianten: [
+        { code: "SE6", text: "Wachsamkeit gegenüber möglichen Gefahren begleitet die selbsterhaltende Sechs durch jeden Tag, ihr Nervensystem bleibt dauerhaft in Bereitschaft. Dieser Zustand ist psychosomatisch geradezu das Lehrbuchbild für eine sich aufschaukelnde Schilddrüsenüberfunktion." },
+        { code: "SO6", text: "Ihre Sorge um das Wohlergehen der Gruppe hält die soziale Sechs innerlich fortlaufend beschäftigt, auch wenn keine akute Bedrohung vorliegt. Diese diffuse, kollektiv getragene Anspannung kann sich als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SX6", text: "Statt dauerhafter innerer Alarmbereitschaft begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit demonstrativer Furchtlosigkeit. Diese nach außen gerichtete Kompensation kann die innere Daueranspannung senken, die bei anderen Sechser-Varianten eher bestehen bleibt." },
+      ]},
+      { typ: 7, titel: "Eine Rastlosigkeit, die den Körper erhitzt", varianten: [
+        { code: "SE7", text: "In ständiger Erregung und Bewegung bleibt der Körper der selbsterhaltenden Sieben, die von einer angenehmen Aktivität zur nächsten springt. Diese permanente Betriebsamkeit ohne echte Ruhephasen kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SO7", text: "Zugunsten der Gruppe stellt die soziale Sieben, der Kontratyp, ihre eigenen Grenzen immer wieder zurück, ihr System bleibt dabei dauerhaft überdreht. Dieses chronische Übergehen kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SX7", text: "Mit voller, aber punktueller Intensität lässt sich die sexuelle Sieben auf einzelne intensive Erfahrungen ein, statt in Dauererregung zu verharren. Dieses Innehalten zwischen den Erfahrungen unterscheidet sich von der permanenten Betriebsamkeit anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Kraft, die sich selbst überhitzt", varianten: [
+        { code: "SE8", text: "Ohne echte Drosselung kostet ständige Wachsamkeit über Körper und Umgebung die selbsterhaltende Acht kontinuierlich Energie. Diese permanente innere Hochspannung kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
+        { code: "SO8", text: "Stärke nach außen zu demonstrieren gehört für die soziale Acht zur selbst auferlegten Beschützerrolle, ein Innehalten kommt darin selten vor. Diese permanente Führungsspannung kann sich als Schilddrüsenüberfunktion zeigen." },
+        { code: "SX8", text: "Ihre Anspannung tatsächlich lösen und zur Ruhe kommen kann die sexuelle Acht durchaus – allerdings innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie echte Entlastung, anders als bei der generellen Dauerspannung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Eine Anspannung, die selten bewusst ankommt", varianten: [
+        { code: "SE9", text: "Innere Anspannung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch, so vollständig verliert sie sich in Routine und Komfort. Herzrasen und innere Unruhe können so zum einzigen sichtbaren Hinweis auf eine unbemerkte Schilddrüsenüberfunktion werden." },
+        { code: "SO9", text: "Beständig ordnet die soziale Neun ihre eigene Anspannung der Gruppenharmonie unter, kaum dass ein Konflikt am Horizont auftaucht. Diese chronische Selbstzurücknahme kann sich als beschleunigte, aber lange übersehene Schilddrüsenfunktion zeigen." },
+        { code: "SX9", text: "Wie angespannt oder ruhig der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Unruhe nicht, übersieht die Neun ihre eigene innere Alarmbereitschaft häufig ebenfalls." },
+      ]},
+    ],
+    abschluss: "Keine Schilddrüse ist vor einer Überfunktion gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit innerer Alarmbereitschaft und Beschleunigung auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, punktuelle Entladung oder eine chronisch übergangene eigene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99434,7 +99493,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
