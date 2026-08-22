@@ -99303,6 +99303,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Haar ist vor allmählichem Ausfall gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit langsamem, über Jahre andauerndem Substanzverlust auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, fortlaufenden Ausdruck oder eine lange übergangene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  diabetes_typ_2: {
+    titel: "Diabetes mellitus Typ 2",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🍬",
+    kurz: "Die Körperzellen hören auf, auf das eigene Insulin zu reagieren – ein Signal, das gegeben, aber nicht mehr angenommen wird.",
+    definition: "Bei Diabetes mellitus Typ 2 verlieren die Körperzellen zunehmend ihre Empfindlichkeit gegenüber Insulin, dem Hormon, das normalerweise Zucker aus dem Blut in die Zellen schleust (Insulinresistenz). Die Bauchspeicheldrüse produziert zunächst kompensatorisch mehr Insulin, erschöpft sich aber mit der Zeit zunehmend. Der Blutzuckerspiegel bleibt dauerhaft erhöht, was auf Dauer Gefäße, Nerven, Augen und Nieren schädigen kann. Anders als Typ 1 entwickelt sich Typ 2 meist schleichend über Jahre, begünstigt durch Übergewicht, Bewegungsmangel, genetische Veranlagung und chronischen Stress. Viele Betroffene bemerken die Erkrankung lange nicht, da die Symptome zu Beginn oft unspezifisch oder ganz abwesend sind – der Zuckerspiegel steigt still, bevor der Körper wirklich Alarm schlägt.",
+    symptome: ["Starkes Durstgefühl und häufiges Wasserlassen", "Anhaltende Müdigkeit und Antriebslosigkeit", "Schlecht heilende Wunden", "Verschwommenes Sehen", "Häufige Infekte, insbesondere Harnwegs- und Pilzinfektionen", "Kribbeln oder Taubheitsgefühl in Händen und Füßen bei fortgeschrittenem Verlauf"],
+    notfall: "Bei extrem hohem Blutzucker mit Bewusstseinstrübung, starkem Durst, Übelkeit und beschleunigter Atmung (Verdacht auf diabetische Ketoazidose oder hyperosmolares Koma) sofort den Notruf wählen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Diabetes Typ 2 erzählt eine besondere Geschichte: Der Körper sendet ein Signal – Insulin –, aber die Zellen hören zunehmend auf, darauf zu reagieren. Etwas wird angeboten, aber nicht mehr wirklich angenommen. In der TCM wird diese Krankheitsgruppe traditionell als &bdquo;Xiaoke&ldquo; (Auszehrungs-Durst-Syndrom) beschrieben, verbunden mit einer Erschöpfung von Milz und Nieren-Yin – einem System, das über Jahre zu viel verarbeiten musste, ohne sich ausreichend zu regenerieren. Psychosomatisch liegt bei Diabetes Typ 2 oft ein Bild von Süße nahe, die zwar reichlich vorhanden, aber innerlich nicht mehr aufgenommen wird – sei es Zuneigung, Anerkennung oder Freude, die zwar angeboten wird, aber nicht mehr wirklich ankommt, weil zu viele andere Themen im Weg stehen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welches Signal hier gegeben, aber nicht mehr angenommen wird.",
+    typen: [
+      { typ: 1, titel: "Eine Strenge, die keine Süße zulässt", varianten: [
+        { code: "SE1", text: "Genuss und Nachsicht gestattet sich die selbsterhaltende Eins nur in streng kontrollierten Dosen, selbst kleine Freuden werden diszipliniert gerechnet und gerechtfertigt. Diese permanente innere Rationierung kann sich stoffwechselseitig als nachlassende Insulinempfindlichkeit zeigen." },
+        { code: "SO1", text: "Ihre eigene Belohnung stellt die soziale Eins beständig hinter den Anspruch zurück, moralisch korrekt zu handeln. Diese jahrelange Selbstverweigerung kann sich als schleichend steigender Blutzucker zeigen, den sie selbst am wenigsten ernst nimmt." },
+        { code: "SX1", text: "Ihre Freude und ihren Ärger lebt die sexuelle Eins unmittelbar aus, statt sie diszipliniert zu rationieren. Dieser direktere Zugang zu eigenen Bedürfnissen unterscheidet sich von der strengen Selbstkontrolle anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Eine Süße, die nie bei einem selbst ankommt", varianten: [
+        { code: "SE2", text: "Zuwendung gibt die selbsterhaltende Zwei rückhaltlos an andere weiter, für sich selbst bleibt dabei kaum je etwas übrig. Diese chronische Selbstunterversorgung kann sich stoffwechselseitig als nachlassende Reaktion auf das eigene Insulin zeigen." },
+        { code: "SO2", text: "Anerkennung für ihren Einsatz erhält die soziale Zwei oft reichlich, nimmt sie innerlich aber selten wirklich an, weil ihr Wert sich für sie über beständiges Geben definiert. Dieses Nicht-Annehmen-Können kann sich als schleichend erhöhter Blutzucker zeigen." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung nimmt die sexuelle Zwei Zuwendung durchaus auch für sich an, statt sie nur weiterzugeben. Dieses Annehmen-Können kann der generellen Selbstunterversorgung anderer Zweier-Varianten entgegenwirken." },
+      ]},
+      { typ: 3, titel: "Ein Erfolg, der innerlich nicht satt macht", varianten: [
+        { code: "SE3", text: "Von einer Aufgabe zur nächsten hetzt die selbsterhaltende Drei, ohne sich je die Zeit zu nehmen, einen Erfolg wirklich zu genießen. Diese permanente Weiterjagd, bei der nichts innerlich ankommt, kann sich stoffwechselseitig als nachlassende Insulinwirkung zeigen." },
+        { code: "SO3", text: "Öffentliche Anerkennung sammelt die soziale Drei reichlich, lässt sie aber selten wirklich an sich heran, weil der nächste Erfolg bereits wartet. Dieses Nicht-wirklich-Ankommen-Lassen kann sich als schleichend steigender Blutzucker zeigen." },
+        { code: "SX3", text: "Von der einen wichtigen Person lässt sich die sexuelle Drei Anerkennung durchaus wirklich zu Herzen gehen, statt sofort weiterzuziehen. Dieses tiefere Annehmen unterscheidet sich vom rastlosen Weiterjagen anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Sehnsucht, die sich nicht stillen lässt", varianten: [
+        { code: "SE4", text: "Ihre tiefe Sehnsucht nach Erfüllung trägt die selbsterhaltende Vier, der Kontratyp, zäh und stumm mit sich, ohne sie je wirklich zu stillen. Dieses chronische Ungestillt-Sein kann sich stoffwechselseitig als nachlassende Reaktion auf das eigene Insulin zeigen." },
+        { code: "SO4", text: "Ihre Sehnsucht spricht die soziale Vier offen aus, statt sie zu verschweigen – auch wenn das allein sie nicht stillt. Dieser Ausdruck kann der zugrunde liegenden Leere zumindest teilweise entgegenwirken, auch wenn der Stoffwechsel selbst davon unberührt bleibt." },
+        { code: "SX4", text: "Mit großer Intensität sucht die sexuelle Vier Erfüllung im direkten Kontakt zur begehrten Person. Dieser aktive, unmittelbare Zugang unterscheidet sich vom stillen, chronischen Ungestillt-Sein der selbsterhaltenden Variante." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der Nahrung fernhält", varianten: [
+        { code: "SE5", text: "Ihre Bedürfnisse reduziert die selbsterhaltende Fünf konsequent auf das Nötigste, auch emotionale Nahrung wird kaum je bewusst aufgenommen. Dieses generelle Sich-selbst-Verwehren kann sich stoffwechselseitig als nachlassende Insulinempfindlichkeit zeigen." },
+        { code: "SO5", text: "Wissen nimmt die soziale Fünf bereitwillig auf und gibt es weiter, emotionale Nähe hält sie dabei auf sichere Distanz. Diese selektive Aufnahmefähigkeit kann sich als schleichend steigender Blutzucker zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung nimmt die sexuelle Fünf Nähe und Zuwendung durchaus bewusst an, statt sie fernzuhalten – anders als bei der generellen Zurückhaltung der übrigen Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine Anspannung, die keine Ruhe zulässt", varianten: [
+        { code: "SE6", text: "Ständige Wachsamkeit prägt den Alltag der selbsterhaltenden Sechs, ihr Nervensystem findet selten wirklich Ruhe. Dieser Dauerstress zählt zu den bekanntesten Mitverursachern einer sich entwickelnden Insulinresistenz." },
+        { code: "SO6", text: "Ihre eigene Sorge stellt die soziale Sechs meist hinter die Sorge um ihre Gruppe zurück, ohne echte innere Entlastung zu finden. Dieser unaufgelöste Stress kann sich als schleichend steigender Blutzucker zeigen." },
+        { code: "SX6", text: "Der Angst begegnet die sexuelle Sechs, der Kontratyp, mit unmittelbarer Konfrontation statt mit stiller Dauerspannung. Diese nach außen gerichtete Entladung kann die innere Stressbelastung senken, die bei anderen Sechser-Varianten eher chronisch bleibt." },
+      ]},
+      { typ: 7, titel: "Ein Genuss, der nie wirklich sättigt", varianten: [
+        { code: "SE7", text: "Von einem angenehmen Genuss zum nächsten springt die selbsterhaltende Sieben, ohne bei einem einzigen wirklich zu verweilen. Diese ständige Suche nach neuer Süße, ohne dass eine davon wirklich sättigt, kann sich stoffwechselseitig als nachlassende Insulinwirkung zeigen." },
+        { code: "SO7", text: "Die eigenen Bedürfnisse übergeht die soziale Sieben, der Kontratyp, zugunsten der Gruppe immer wieder, bis zur eigenen Erschöpfung. Dieses chronische Übergehen kann sich als schleichend steigender Blutzucker zeigen." },
+        { code: "SX7", text: "Mit voller, ungebremster Begeisterung lässt sich die sexuelle Sieben auf intensive Erfahrungen wirklich ein, statt ständig weiterzuspringen. Dieses tiefere Verweilen unterscheidet sich vom rastlosen Genusshopping anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Kontrolle, die Genuss verdrängt", varianten: [
+        { code: "SE8", text: "Kontrolle über ihren Körper und ihre Ressourcen beansprucht die selbsterhaltende Acht mit großer Konsequenz, echter Genuss bleibt dabei oft auf der Strecke. Diese permanente Anspannung kann sich stoffwechselseitig als nachlassende Insulinempfindlichkeit zeigen." },
+        { code: "SO8", text: "Stärke und Kontrolle im Dienst ihrer Gruppe demonstriert die soziale Acht durchgehend, eigene Bedürfnisse treten dabei zurück. Diese permanente Führungsspannung kann sich als schleichend steigender Blutzucker zeigen." },
+        { code: "SX8", text: "Innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt, lässt die sexuelle Acht sich auch auf echten Genuss ein. Dort findet sie Entlastung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Signal, das nie wirklich ankommt", varianten: [
+        { code: "SE9", text: "In Routine und Komfort verliert sich die selbsterhaltende Neun so vollständig, dass innere Körpersignale kaum je bewusst registriert werden. Ein schleichend steigender Blutzucker kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
+        { code: "SO9", text: "Die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Sättigungsgefühl gerät dabei aus dem Blick. Diese chronische Selbstzurücknahme kann sich als schleichend steigender Blutzucker zeigen." },
+        { code: "SX9", text: "Die Wahrnehmung der eigenen Gesundheit übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Isst dieser unbedacht, isst die Neun oft ebenso unbedacht mit, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
+      ]},
+    ],
+    abschluss: "Keine Zellen sind vor Insulinresistenz gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit angebotener, aber nicht angenommener Süße auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, rastlose Suche oder ein chronisch übergangenes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99316,7 +99375,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
