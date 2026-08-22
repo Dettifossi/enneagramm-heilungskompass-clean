@@ -457,6 +457,7 @@ export const registerEntries = [
   { term: "Rosacea (Psychosomatik)", route: "psychosomatik/rosacea", description: "Psychosomatische Deutung: chronisch gewordenes Erröten im Gesicht, TCM aufsteigende Hitze, Enneagramm alle 27 Subtypen" },
   { term: "Vitiligo (Psychosomatik)", route: "psychosomatik/vitiligo", description: "Psychosomatische Deutung: stiller Verlust der eigenen Farbe, TCM Blut-/Nieren-Essenz-Schwäche, Enneagramm alle 27 Subtypen" },
   { term: "Kreisrunder Haarausfall (Psychosomatik)", route: "psychosomatik/kreisrunder_haarausfall", description: "Psychosomatische Deutung: plötzlicher Schock und Kraftverlust, TCM Blut-Schock, Enneagramm alle 27 Subtypen" },
+  { term: "Hyperhidrose (Psychosomatik)", route: "psychosomatik/hyperhidrose", description: "Psychosomatische Deutung: Nervensystem in Dauerbereitschaft, TCM Wei-Qi-Schwäche, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
