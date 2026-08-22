@@ -171,13 +171,10 @@ export default {
         apiKey: env.GEMINI_API_KEY,
       });
 
-      // Enzyklopädie-Quelltext ist nur Deutsch, aber Gemini übersetzt beim
-      // Formulieren der Antwort ohnehin in die Zielsprache (siehe
-      // SYSTEM_INSTRUCTION_EN) - keine separate Vorab-Übersetzung nötig.
-      const encyclopediaChunks = await retrieveEncyclopedia(question, {
-        vectorizeIndex: env.VECTORIZE_ENZYKLOPAEDIE,
-        apiKey: env.GEMINI_API_KEY,
-      });
+      // Enzyklopädie-Anbindung bewusst deaktiviert (nicht gelöscht): Premium-
+      // Wissensbasis wird erst zusammen mit der Bezahlschranke live geschaltet,
+      // nicht vorher. Bis dahin bleibt sie für alle Nutzer unsichtbar.
+      const encyclopediaChunks = [];
 
       if (relevant.length === 0 && encyclopediaChunks.length === 0) {
         const noMatch = isEN
