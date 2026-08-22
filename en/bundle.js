@@ -63526,6 +63526,124 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to gallstones, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates bitterness, resentment, and unresolved decisions in its own way – some through swallowed anger, others through withdrawal, substance-linked self-reward, or a bitterness of their own that is never resolved. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
+  chronische_verstopfung: {
+    titel: "Chronic Constipation",
+    kategorie: "verdauung",
+    icon: "🚫",
+    kurz: "Persistently infrequent, difficult bowel movements – the gut holds on to what should actually be let go.",
+    definition: "Chronic constipation is diagnosed when fewer than three bowel movements occur per week for at least three months, combined with strong straining, hard or lumpy stool, a feeling of incomplete emptying, or the need for manual assistance. Causes are varied: a low-fiber diet, too little fluid and exercise, certain medications, hormonal changes, a disturbed coordination between gut and pelvic floor, or – less often – organic causes such as narrowings. Chronic constipation is one of the most common digestive complaints overall and affects women markedly more often than men.",
+    symptome: ["Fewer than three bowel movements per week", "Hard, lumpy, or very firm stool", "Strong straining during bowel movements", "A feeling of incomplete emptying", "Bloating and fullness", "Abdominal pain or cramping that often eases after a bowel movement"],
+    notfall: "In case of suddenly onset, severe constipation with strong abdominal pain, vomiting, blood in the stool, or a hard, distended abdomen, seek prompt medical evaluation to rule out a bowel obstruction or other serious causes. Newly appearing constipation after age 50 should likewise be medically evaluated.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Hardly any digestive symptom wears its psychosomatic reading as openly as constipation: the gut holds on to what should actually find its natural way out. In TCM, the ability to let go stands in close connection with the large intestine and the Metal element – the same element that also stands for clarity and the conscious releasing of what is no longer needed. Psychosomatic medicine often reads chronic constipation as the picture of a general pattern of holding on: to control, to old habits, to order, to possessions, or to feelings that should actually be let go. For each of the 27 subtypes, its own pattern shows what especially stubbornly gets held on to here.",
+    typen: [
+      { typ: 1, titel: "Anger that will let nothing go uncontrolled", varianten: [
+        { code: "SE1", text: "The self-preservation One holds on to strict control over her own body – bowel movements, too, are meant to proceed in an orderly way, at the right time and without loss of control. This refusal to simply let her own body do its thing can show up physically as a gut that releases nothing not previously consciously controlled." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over the correctness of things, holds on to strict rules even within her own body, rather than trusting the natural rhythm. This inner demand for order can show up as a gut that lets go only reluctantly." },
+        { code: "SX1", text: "The sexual One lives her demand for perfection with great intensity – this demand sometimes directs itself against her own digestion, which is meant to function &bdquo;correctly&ldquo;, which paradoxically makes the natural process of letting go even harder." },
+      ]},
+      { typ: 2, titel: "Pride that will give up nothing of its own", varianten: [
+        { code: "SE2", text: "The self-preservation Two gives constantly to others in everyday life, yet unconsciously holds on to what little remains hers – as if fearing to give away even the last of it. This quiet holding-on can show up physically as a gut that lets go only with difficulty." },
+        { code: "SO2", text: "Being indispensable to many people at once demands of the social Two constant giving – in private, though, she often holds on to her own exhaustion rather than admitting it. This unconscious holding-on can show up as a gut that does not release with ease." },
+        { code: "SX2", text: "In intense relationship phases, the sexual Two gives herself almost completely – this outward giving tends to counteract the pattern of holding-on more typical of other Two variants." },
+      ]},
+      { typ: 3, titel: "Achievement that leaves the body no time to let go", varianten: [
+        { code: "SE3", text: "The self-preservation Three keeps functioning efficiently even when her body needs a break – no time is ever set aside for going to the bathroom, and the natural urge gets suppressed until it falls silent. This disregard, sustained over years, for her own rhythm can show up as chronic constipation." },
+        { code: "SO3", text: "In constant comparison with others, the social Three keeps up a pace that leaves her body hardly any room for its own needs – this permanent pressure to perform can show up physically as a sluggish, uncooperative gut." },
+        { code: "SX3", text: "To appear flawless in the relationship, the sexual Three happily ignores physical signals like the urge to defecate for as long as possible – this focused will to control her outward image often delays paying her own body any attention at all." },
+      ]},
+      { typ: 4, titel: "Longing that holds on to what is past", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently, without ever expressing it – this sustained holding-on to past pain can show up physically as a gut that lets go just as little as her soul does." },
+        { code: "SO4", text: "The social Four makes her suffering visible and finds a certain expression in it – this outward expression can act as a valve that at least partly counteracts the purely physical holding-on, even though the underlying longing itself remains." },
+        { code: "SX4", text: "With fierce swings between closeness and despair, the sexual Four lives uncompromising emotional intensity in the relationship – this more direct emotional expression tends to counteract the quiet holding-on of other Four variants." },
+      ]},
+      { typ: 5, titel: "Withdrawal that gives up nothing physically either", varianten: [
+        { code: "SE5", text: "The self-preservation Five systematically reduces her life to the essentials, consistently holding back resources and energy too – this general minimalism can show up physically as a gut that acts just as reserved as she does." },
+        { code: "SO5", text: "The social Five makes herself available to the group through her knowledge, while inwardly keeping her distance – this mixture of participation and withdrawal can show up as a gut that rarely truly opens, because genuine release, even physically, is avoided." },
+        { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, a genuinely relaxed, released body can well be experienced – which counteracts the general reserve more typical of other Five variants." },
+      ]},
+      { typ: 6, titel: "Fear that keeps the gut at high alert", varianten: [
+        { code: "SE6", text: "The self-preservation Six meets the world with caution and an inner early-warning system that rarely truly switches off – this state of permanent alertness also keeps the abdominal muscles tense, making natural letting-go harder." },
+        { code: "SO6", text: "The social Six carries an often unspoken worry for the well-being of her group – this diffuse, collective tension can show up physically as a gut that cannot truly relax." },
+        { code: "SX6", text: "The sexual Six meets fear counterphobically, through active confrontation rather than withdrawal – this more direct discharge can foster a certain physical release less common in the other, more restrained Six variants." },
+      ]},
+      { typ: 7, titel: "Excess that leaves the body no regularity", varianten: [
+        { code: "SE7", text: "The self-preservation Seven plans her comforts carefully, yet often eats irregularly and jumps between different activities – this lack of regularity can show up physically as a gut that finds no reliable rhythm of its own." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently sets her own needs aside in favor of others, often to the point of her own exhaustion – her own urge to defecate, too, is frequently overridden in the process, because attention lies entirely with others." },
+        { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly and impulsively, often paired with irregular eating habits – this combination of restless intensity and lacking routine can further disrupt the natural digestive rhythm." },
+      ]},
+      { typ: 8, titel: "Control that releases nothing involuntarily", varianten: [
+        { code: "SE8", text: "The self-preservation Eight secures her own existence through firm control over material and physical resources – her body, too, is meant not to empty uncontrolled but to function according to her own will. This permanent control can show up physically as a gut that lets go only reluctantly." },
+        { code: "SO8", text: "The social Eight takes control not for herself but for the group, often in a self-imposed protector role – this permanent leadership tension leaves little room for a genuinely relaxed, released body." },
+        { code: "SX8", text: "The sexual Eight lives total devotion and control in the one intimate bond – within this protected setting, a certain physical release can well take place, counteracting the general control stance more typical of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overrides its own body rhythm", varianten: [
+        { code: "SE9", text: "The self-preservation Nine takes refuge in comfort, fixed routines, and the consistent avoidance of any conflict – her own urge to defecate, too, is rarely consciously noticed in the process and often postponed until it falls silent. This self-forgetting can show up as chronic constipation." },
+        { code: "SO9", text: "The social Nine seeks harmony within the group at any cost and subordinates her own voice so consistently that, eventually, she barely knows what she herself actually needs – this chronic self-erasure can show up as a gut that never really makes itself heard." },
+        { code: "SX9", text: "The sexual Nine merges with her partner so completely that her own perception of bodily signals often orients itself by the other's rather than by her own – a fusion that makes it harder to notice her own urge to defecate in the first place." },
+      ]},
+    ],
+    abschluss: "No subtype is immune to chronic constipation, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates control, holding on, and its own rhythm in its own way – some through permanent control, others through withdrawal, self-forgetting, or an unnoticed regularity of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  divertikulitis: {
+    titel: "Diverticulitis",
+    kategorie: "verdauung",
+    icon: "🕳️",
+    kurz: "Inflammation of small pouches in the gut wall in which stool settles and lodges instead of being carried onward.",
+    definition: "Diverticula are small, sac-like pouches in the gut wall, forming mainly in the descending and S-shaped part of the colon, usually as a result of years of elevated internal pressure combined with a low-fiber diet. Most people with diverticula (diverticulosis) never have symptoms. It becomes a problem when stool residue settles in one or more of these pouches, the lining becomes inflamed, and diverticulitis develops – with the risk of abscesses, ruptures (perforation), or fistula formation into neighboring organs. Diverticulitis increases markedly with age and affects a large share of people over 70 in Western industrialized nations in some form.",
+    symptome: ["Persistent or cramp-like pain in the lower left abdomen", "Tenderness on palpating the abdomen", "Fever and a general feeling of illness", "Altered bowel habits – constipation or diarrhea", "Nausea and loss of appetite", "Bloating and fullness"],
+    notfall: "In case of severe, suddenly onset abdominal pain with a hard, board-like abdomen, high fever, or signs of an acute abdomen, seek emergency medical care immediately – this can indicate a rupture (perforation) with peritonitis, a life-threatening emergency.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Diverticula form where the gut wall gives way over years to elevated internal pressure, forming small pockets in which what should actually be carried onward settles instead. Psychosomatic medicine reads in this an image that goes beyond the simple theme of holding on: not just general holding-on, but the deliberate tucking away and hiding of things in small, sealed-off inner chambers – memories, hurts, or tasks that are not truly processed but pushed aside and left there until they become inflamed. In TCM, a weakened Spleen function combined with long-lasting inner pressure is considered fertile ground for such &bdquo;damp&ldquo; deposits. For each of the 27 subtypes, its own pattern shows what especially often gets tucked away and forgotten in such inner niches.",
+    typen: [
+      { typ: 1, titel: "Anger tucked away in small inner niches", varianten: [
+        { code: "SE1", text: "The self-preservation One holds back anger over small shortcomings in a disciplined way, tucking it away in a quiet inner drawer, so to speak, rather than working through it. Accumulated over years, this pattern can show up physically as small pouches in the gut wall in which unprocessed tension settles." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over the correctness of things, often sets small, everyday moral irritations aside rather than clearing them one by one – over the years, this accumulation of never-fully-processed irritations can show up physically as diverticula." },
+        { code: "SX1", text: "The sexual One lives her demand for improvement in the relationship with great intensity – this more direct, immediate expression counters the quiet tucking-away of small unprocessed grievances more typical of other One variants." },
+      ]},
+      { typ: 2, titel: "Pride that sets small hurts aside", varianten: [
+        { code: "SE2", text: "The self-preservation Two accumulates small hurts over years while caring for others, without processing them individually – each too small on its own to speak about, but together a quiet store of unprocessed injuries. This store can show up physically as small pouches that can become inflamed." },
+        { code: "SO2", text: "For the social Two, it is only natural to be indispensable to many people at once – small everyday slights get shrugged off and set aside rather than named. This accumulation of small, never-clarified hurts can show up as diverticula." },
+        { code: "SX2", text: "In intense relationship phases, the sexual Two does express her needs more directly – this more immediate expression counters the quiet setting-aside of small hurts more typical of other Two variants." },
+      ]},
+      { typ: 3, titel: "Achievement that postpones small problems", varianten: [
+        { code: "SE3", text: "The self-preservation Three happily postpones small, unpleasant tasks or conflicts, so as not to be slowed down in her main project – this accumulation of small, deferred matters can show up physically as small pouches that fill over time and eventually become inflamed." },
+        { code: "SO3", text: "In constant comparison with others, the social Three routinely sets small self-doubts aside, so as not to endanger her own flawless image – these doubts, accumulated over years and never worked through, can show up physically as diverticula." },
+        { code: "SX3", text: "To appear flawless in the relationship, the sexual Three happily plays down small inconsistencies for as long as possible – this focused will to control her outward image often delays paying small, unresolved issues any attention at all." },
+      ]},
+      { typ: 4, titel: "Longing that gathers in small niches", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently, tucking small, unspoken disappointments away in quiet inner corners rather than working through them. This accumulation can show up physically as small pouches that become inflamed over time." },
+        { code: "SO4", text: "The social Four makes her suffering visible and finds a certain expression in it – this outward expression can act as a valve that at least partly counteracts the purely physical tucking-away of unprocessed small hurts, even though the underlying longing itself remains." },
+        { code: "SX4", text: "With fierce swings between closeness and despair, the sexual Four lives uncompromising emotional intensity in the relationship – this more direct emotional expression tends to counteract the quiet tucking-away of small hurts more typical of other Four variants." },
+      ]},
+      { typ: 5, titel: "Withdrawal that keeps small matters to itself", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently keeps even small, everyday complaints to herself, rarely speaking openly about them – this quiet tucking-away of small, unprocessed matters into successive inner compartments fits the picture of diverticula that can form over years unnoticed." },
+        { code: "SO5", text: "The social Five keeps emotional closeness at a distance behind intellectual detachment – small, everyday hurts, too, can thus be registered abstractly rather than actively worked through, settling instead into quiet niches." },
+        { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, small hurts can well be discussed openly – which counteracts the quiet suppression more typical of other Five variants." },
+      ]},
+      { typ: 6, titel: "Fear that tucks small worries into niches", varianten: [
+        { code: "SE6", text: "The self-preservation Six accumulates many small worries that she cannot all process at once and therefore tucks away individually into quiet inner corners. This accumulation of small, never-fully-clarified fears can show up physically as diverticula that can become inflamed over time." },
+        { code: "SO6", text: "The social Six carries an often unspoken worry for the well-being of her group – small, individual concerns often get set aside, so as not to burden the group with each one. This accumulation can show up as diverticula." },
+        { code: "SX6", text: "Through active confrontation, the sexual Six clears small fears more directly and immediately rather than setting them aside – this more immediate processing counters the quiet tucking-away of small worries more typical of other Six variants." },
+      ]},
+      { typ: 7, titel: "Excess that tucks away small obligations", varianten: [
+        { code: "SE7", text: "The self-preservation Seven happily sets small, unpleasant obligations aside in order to turn to the next pleasant activity instead – this accumulation of small, deferred matters can show up physically as small pouches that fill and become inflamed over time." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently sets her own needs aside in favor of others, often to the point of her own exhaustion – small concerns of her own are frequently set aside entirely, without ever being given room at all." },
+        { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly and impulsively, jumping quickly from one topic to the next – small, unprocessed matters often get left in quiet corners while attention has long since moved on." },
+      ]},
+      { typ: 8, titel: "Control that hides small weaknesses", varianten: [
+        { code: "SE8", text: "The self-preservation Eight consistently overrides small physical warning signs, because admitting weakness contradicts her self-image – these small, suppressed signals can accumulate over years in quiet inner niches that show up physically as diverticula." },
+        { code: "SO8", text: "The social Eight takes on responsibility for many people at once and often puts small concerns of her own last in the process – this accumulation of overridden small matters can settle structurally and show up as diverticula." },
+        { code: "SX8", text: "In extreme but episodic swings, the sexual Eight lives her intensity within the relationship – this pointed dynamic differs from the quiet, over-years tucking-away of small matters more typical of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that gathers small matters out of sight", varianten: [
+        { code: "SE9", text: "The self-preservation Nine takes refuge in comfort and routine and happily postpones small, unpleasant matters – over years, this habit can show up physically as small pouches in which unprocessed matters gather until they become inflamed." },
+        { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony that even small concerns of her own rarely find real attention – this accumulation of small, never-voiced matters can show up as diverticula." },
+        { code: "SX9", text: "The sexual Nine merges with her partner so completely that small needs of her own are rarely even formulated – these small, accumulated, never-voiced matters, gathered over years, can show up physically as diverticula." },
+      ]},
+    ],
+    abschluss: "No subtype is immune to diverticulitis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates small, unprocessed matters in its own way – some through swallowed irritation, others through withdrawal, deferred obligations, or a small hurt that never quite gets voiced. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -63536,7 +63654,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
+  "verdauung": ["Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
   "nerven-psyche": ["Migraine", "Tension Headache", "Depression", "Generalized Anxiety Disorder", "Panic Attacks", "Burnout Syndrome", "Insomnia", "Narcolepsy", "Tinnitus", "Vertigo / Dizziness", "Restless Legs Syndrome", "Teeth Grinding (Bruxism)", "Chronic Fatigue Syndrome (ME/CFS)"],
