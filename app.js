@@ -97592,6 +97592,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Heuschnupfen zeigt an, wo die eigene Grenze zwischen Innen und Außen zu empfindlich reagiert oder zu wenig geschützt ist. Die psychosomatische Arbeit an der Allergie kann helfen, die eigene Abgrenzungsfähigkeit – im Denken, Fühlen und im Alltag – bewusster zu gestalten, ohne sich dabei zu verhärten oder ganz zu öffnen."
   },
+  chronische_sinusitis: {
+    titel: "Chronische Sinusitis",
+    kategorie: "atemwege",
+    icon: "😤",
+    kurz: "Über Wochen oder Monate anhaltende Entzündung der Nasennebenhöhlen mit Druckgefühl, verstopfter Nase und beeinträchtigtem Riechvermögen.",
+    definition: "Von chronischer Sinusitis spricht man, wenn eine Entzündung der Nasennebenhöhlenschleimhaut länger als zwölf Wochen anhält oder immer wiederkehrt. Anders als der akute Schnupfeninfekt heilt sie nicht von selbst aus, weil die Schleimhaut dauerhaft geschwollen bleibt, der natürliche Sekretabfluss aus den Nebenhöhlen behindert ist und sich Sekret staut. Typisch sind ein dumpfer Druck über Stirn, Wangen oder zwischen den Augen, eine dauerhaft behinderte Nasenatmung, eingeschränktes Riechvermögen und ein zäher, oft in den Rachen abfließender Schleim (›postnasal drip‹). Häufige Ursachen sind anatomische Engstellen, Nasenpolypen, chronische Allergien oder wiederholte bakterielle Infekte, die die Schleimhaut nie vollständig zur Ruhe kommen lassen.",
+    symptome: ["Anhaltender Druck oder Schmerz über Stirn, Wangen oder Augen", "Chronisch verstopfte, behinderte Nasenatmung", "Vermindertes oder fehlendes Riechvermögen", "Zäher Schleim, der in den Rachen abläuft", "Druckgefühl, das sich beim Bücken verstärkt", "Anhaltende Müdigkeit und verminderte Leistungsfähigkeit"],
+    notfall: "Bei starken, einseitigen Kopfschmerzen mit Fieber, Sehstörungen, Schwellung um das Auge oder Verwirrtheit sofort ärztliche Hilfe suchen (Hinweis auf mögliche Ausbreitung der Entzündung in Richtung Auge oder Gehirn). Bei anhaltendem, blutigem Sekret aus nur einer Nasenseite ärztlich abklären lassen.",
+    disclaimer: "Diese psychosomatische Deutung ersetzt keine HNO-ärztliche Diagnostik und Behandlung, insbesondere nicht bei Verdacht auf Polypen oder bakterielle Superinfektion.",
+    einleitung: "Die Nasennebenhöhlen sind luftgefüllte Hohlräume im Schädel, die in der TCM eng mit der Lunge und ihrem Element Metall verbunden sind – dem Bereich, der auch für Klarheit, Unterscheidungsvermögen und das ›Loslassen‹ nicht mehr Gebrauchtem steht. Wo sich Schleim über Wochen staut und nicht abfließen kann, lässt sich psychosomatisch oft ein ähnlicher Stau im übertragenen Sinn finden: ungelöste Gedanken, aufgeschobene Entscheidungen, ein Gefühl von Enge und Druck, das sich nicht klärt. Der dumpfe Druck hinter Stirn und Wangen kann so zum körperlichen Echo eines mentalen ›Nicht-durchatmen-Könnens‹ werden. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, worin dieser Stau begründet liegt.",
+    typen: [
+      { typ: 1, titel: "Die Reformerin / der Reformer", varianten: [
+        { code: "SE_1", text: "Die selbsterhaltende Eins trägt oft über Jahre unausgesprochenen Ärger über Unzulänglichkeiten mit sich herum, ohne ihm Raum zu geben – ein innerer Stau, der sich im Körper spiegeln kann, wenn sich Sekret in den Nebenhöhlen ansammelt, statt frei abzufließen. Die Erleichterung, die eintritt, wenn der Druck endlich nachlässt, entspricht oft genau jenem Moment, in dem sie sich selbst einmal Nachsicht erlaubt." },
+        { code: "SO_1", text: "Wer wie die soziale Eins ständig abwägt, was richtig und was falsch ist, trägt viele unausgesprochene Urteile mit sich herum, die selten offen ausgesprochen werden. Dieser innere Vorrat an zurückgehaltener Kritik kann sich körperlich als anhaltender Druck niederschlagen – ein Kopf, der buchstäblich zu voll ist mit dem, was eigentlich gesagt werden müsste." },
+        { code: "SX_1", text: "Die sexuelle Eins lebt ihren Perfektionsanspruch mit großer Intensität und reagiert entsprechend heftig, wenn die Realität nicht ihren hohen Maßstäben entspricht. Diese aufgestaute Empörung kann sich in einem chronischen Druckgefühl in Stirn und Nebenhöhlen manifestieren, das erst nachlässt, wenn der innere Ärger tatsächlich ausgesprochen oder produktiv umgeleitet wird." },
+      ]},
+      { typ: 2, titel: "Die Geberin / der Geber", varianten: [
+        { code: "SE_2", text: "Die selbsterhaltende Zwei sammelt über Jahre kleine Kränkungen, die sie beim Kümmern um andere hinnimmt, ohne sie zur Sprache zu bringen. Wie ein Sekret, das sich in den Nebenhöhlen staut, weil es nirgends abfließen kann, staut sich auch dieser unausgesprochene eigene Bedarf – bis der Druck spürbar wird." },
+        { code: "SO_2", text: "Für die soziale Zwei ist es selbstverständlich, in vielen Beziehungen gleichzeitig unentbehrlich zu sein – doch die eigenen Bedürfnisse bleiben dabei oft ungeklärt liegen, wie Schleim, der sich in mehreren Nebenhöhlen gleichzeitig staut. Klarheit über das eigene Wollen entsteht erst, wenn sie sich erlaubt, für sich selbst genauso präsent zu sein wie für andere." },
+        { code: "SX_2", text: "Die sexuelle Zwei verschmilzt so intensiv mit der geliebten Person, dass eigene, abweichende Wünsche oft gar nicht erst formuliert werden. Dieser unausgesprochene Konflikt zwischen eigenem Begehren und dem Wunsch, gebraucht zu werden, kann sich als chronischer Druck im Kopf zeigen – ein Nicht-klar-Sehen-Können der eigenen Position." },
+      ]},
+      { typ: 3, titel: "Die Erfolgreiche / der Erfolgreiche", varianten: [
+        { code: "SE_3", text: "Die selbsterhaltende Drei arbeitet effizient weiter, auch wenn der Kopf längst schwer und dumpf ist – Symptome werden wegorganisiert statt ernst genommen. Genau diese Weigerung, innezuhalten, kann verhindern, dass sich der Stau in den Nebenhöhlen jemals wirklich löst." },
+        { code: "SO_3", text: "Vor anderen möchte die soziale Drei stets makellos und leistungsfähig wirken, auch mit einem drückenden Kopf, den sie hinter geschickter Fassade verbirgt. Der ständige Druck, keine Schwäche zu zeigen, erzeugt einen zweiten, unsichtbaren Druck – im Kopf selbst." },
+        { code: "SX_3", text: "Die sexuelle Drei will auch im Kontakt strahlend und makellos wirken und übergeht körperliche Warnsignale wie ein dumpfes Druckgefühl gerne so lange wie möglich. Erst wenn die Beeinträchtigung des Riechvermögens oder der Stimme die eigene Attraktivität sichtbar bedroht, wird der Zustand endlich ernst genommen." },
+      ]},
+      { typ: 4, titel: "Die Individualistin / der Individualist", varianten: [
+        { code: "SE_4", text: "Die selbsterhaltende Vier trägt oft ein diffuses Gefühl von Schwere mit sich, das sie kaum in Worte fassen kann – ein chronischer Druck im Kopf passt sich fast nahtlos in dieses vertraute Empfinden von Belastung ein, ohne dass die eigentliche Ursache klar benannt wird." },
+        { code: "SO_4", text: "Für die soziale Vier kann eine anhaltende Sinusitis zum stillen Sinnbild eines Lebens werden, in dem sich vieles staut, ohne einen echten Ausweg zu finden – ein Gefühl, ständig unter Druck zu stehen, das nicht recht abfließen will, ähnlich der eigenen, oft unausgesprochenen emotionalen Fülle." },
+        { code: "SX_4", text: "Die sexuelle Vier lebt ihre Gefühle intensiv, doch manche Sehnsüchte und Enttäuschungen bleiben ungesagt und stauen sich innerlich an. Der dumpfe Druck der Nebenhöhlen kann körperlich spiegeln, was seelisch keinen klaren Ausdruck findet – ein Zuviel, das sich nicht entladen kann." },
+      ]},
+      { typ: 5, titel: "Die Beobachterin / der Beobachter", varianten: [
+        { code: "SE_5", text: "Die selbsterhaltende Fünf zieht sich bei Belastung zurück, statt Kontakt und Austausch zu suchen – und genau dieser Rückzug kann auf körperlicher Ebene zu einem Stau führen, weil auch Gedanken und Gefühle nicht abfließen, sondern in sich gekapselt bleiben, ähnlich dem stehenden Sekret in den Nebenhöhlen." },
+        { code: "SO_5", text: "Die soziale Fünf sammelt Wissen, um es an ausgewählte Personen weiterzugeben, hält aber viele eigene Einschätzungen zurück, bis der richtige Moment gekommen scheint. Dieses Zurückhalten kann sich als anhaltender Druck im Kopf äußern – zu viel Angesammeltes, das noch keinen Weg nach draußen gefunden hat." },
+        { code: "SX_5", text: "Die sexuelle Fünf öffnet sich nur selten vollständig, meist gegenüber einer einzigen ausgewählten Person oder einem einzigen Thema. In der Zwischenzeit staut sich innerlich viel an, das nicht geteilt wird – ein Zustand, der sich körperlich als chronischer Druck in Stirn und Nebenhöhlen zeigen kann." },
+      ]},
+      { typ: 6, titel: "Die Loyale / der Loyale", varianten: [
+        { code: "SE_6", text: "Die selbsterhaltende Sechs grübelt ausdauernd über mögliche Gefahren und Absicherungen, ohne die eigenen Sorgen jemals ganz zur Ruhe zu bringen. Dieses endlose gedankliche Kreisen kann sich körperlich als anhaltender Druck im Kopf spiegeln – ein System, das nie ganz zur Entspannung findet." },
+        { code: "SO_6", text: "Die soziale Sechs sucht Sicherheit in gemeinsamen Regeln und Autoritäten, hält aber eigene Zweifel oft zurück, um die Gruppe nicht zu verunsichern. Diese unausgesprochene innere Unsicherheit kann sich als chronischer Stau im Kopfbereich zeigen, der erst nachlässt, wenn Vertrauen in die eigene Urteilskraft wächst." },
+        { code: "SX_6", text: "Die sexuelle Sechs bewegt sich zwischen mutigem Vorpreschen und plötzlichem Zweifel, ohne dass sich diese innere Spannung je ganz löst. Der wechselnde Druck im Kopf, mal stärker, mal schwächer, kann diese ständige innere Achterbahn zwischen Kontrolle und Loslassen widerspiegeln." },
+      ]},
+      { typ: 7, titel: "Die Enthusiastin / der Enthusiast", varianten: [
+        { code: "SE_7", text: "Die selbsterhaltende Sieben plant sich ihr Leben so, dass unangenehme Gefühle möglichst wenig Raum bekommen – auch ein drückender Kopf wird gern überspielt und mit der nächsten angenehmen Aktivität übertönt, statt der eigentlichen Ursache nachzugehen." },
+        { code: "SO_7", text: "Die soziale Sieben hält die Stimmung in der Gruppe lieber leicht und positiv, auch wenn ihr selbst der Kopf schwer ist – eigene Beschwerden werden kleingeredet, damit die gute Laune anderer nicht getrübt wird. Der unbearbeitete Druck bleibt so bestehen, gut versteckt hinter einem Lächeln." },
+        { code: "SX_7", text: "Die sexuelle Sieben stürzt sich mit voller Begeisterung von einer Anregung zur nächsten und überhört dabei leicht die leiseren Warnsignale eines langsam zunehmenden Drucks im Kopf. Erst wenn die Beschwerden die ersehnte Intensität des Erlebens selbst beeinträchtigen, rückt die eigene Gesundheit in den Fokus." },
+      ]},
+      { typ: 8, titel: "Die Chefin / der Chef", varianten: [
+        { code: "SE_8", text: "Die selbsterhaltende Acht ignoriert körperliche Beschwerden so lange wie möglich, um ja keine Schwäche zu zeigen – ein dumpfer Druck im Kopf wird notfalls weggedrückt, bis er sich nicht mehr ignorieren lässt und die sonst so verlässliche Handlungsfähigkeit spürbar einschränkt." },
+        { code: "SO_8", text: "Wer wie die soziale Acht viel Verantwortung für andere trägt, hat selten Zeit für die eigene Gesundheit – ein chronischer Druck im Kopf wird so lange wie möglich beiseitegeschoben, bis er zur unübersehbaren Belastung wird, die auch die Beschützerrolle einschränkt." },
+        { code: "SX_8", text: "Die sexuelle Acht begegnet Widerstand, auch dem eigenen Körper gegenüber, mit derselben Konfrontationshaltung, mit der sie allem anderen begegnet. Ein anhaltender Druck im Kopf wird eher niedergerungen als beachtet – bis die Erschöpfung diese Strategie irgendwann untergräbt." },
+      ]},
+      { typ: 9, titel: "Die Vermittlerin / der Vermittler", varianten: [
+        { code: "SE_9", text: "Die selbsterhaltende Neun gewöhnt sich an fast jeden Zustand, auch an einen dauerhaft schweren Kopf, und schiebt die eigentliche Ursachenklärung gerne auf später. So bleibt der Stau in den Nebenhöhlen manchmal über Jahre bestehen, ohne dass ihm ernsthaft nachgegangen wird." },
+        { code: "SO_9", text: "Die soziale Neun möchte den Gruppenfrieden nicht mit eigenen Beschwerden stören und trägt einen chronischen Druck im Kopf oft klaglos mit sich herum. Erst wenn die Beeinträchtigung nicht mehr zu übersehen ist, erlaubt sie sich, die eigene Gesundheit zum Thema zu machen." },
+        { code: "SX_9", text: "Die sexuelle Neun geht so vollständig in der geliebten Person oder Beziehung auf, dass eigene körperliche Signale leicht übersehen werden – ein anhaltender Druck im Kopf wird häufig erst bemerkt, wenn das Gegenüber besorgt darauf hinweist, dass etwas nicht stimmt." },
+      ]},
+    ],
+    abschluss: "Chronische Sinusitis erinnert daran, wo im Leben ein Stau entstanden ist, der keinen natürlichen Abfluss mehr findet – gedanklich, emotional oder in ungesagten Worten. Die psychosomatische Auseinandersetzung mit dem Druckgefühl kann helfen, diesen Stau bewusst zu erkennen und ihm Wege zu öffnen, statt ihn dauerhaft zu verdrängen."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97602,7 +97661,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
+  "atemwege": ["Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
