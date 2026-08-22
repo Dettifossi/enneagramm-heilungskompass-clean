@@ -99362,6 +99362,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Keine Zellen sind vor Insulinresistenz gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit angebotener, aber nicht angenommener Süße auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, rastlose Suche oder ein chronisch übergangenes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  hypothyreose: {
+    titel: "Schilddrüsenunterfunktion (Hypothyreose)",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🐢",
+    kurz: "Die Schilddrüse, Taktgeberin des Stoffwechsels direkt am Hals, drosselt sich selbst – und mit ihr scheinbar das ganze innere Tempo eines Lebens.",
+    definition: "Bei einer Schilddrüsenunterfunktion produziert die Schilddrüse zu wenig der Hormone T3 und T4, die den Grundumsatz nahezu jeder Körperzelle steuern. Häufigste Ursache in Deutschland ist die Hashimoto-Thyreoiditis, eine Autoimmunerkrankung, bei der das körpereigene Immunsystem die Schilddrüse selbst angreift; seltener liegen angeborene Fehlfunktionen, Jodmangel oder eine operative Entfernung der Schilddrüse zugrunde. Da die Schilddrüsenhormone praktisch jeden Stoffwechselvorgang beeinflussen, verlangsamt sich bei einer Unterfunktion der gesamte Organismus spürbar: Herzschlag, Verdauung, Denken, Stimmung und Energie geraten gleichermaßen in eine Art Zeitlupe. Der Verlauf ist meist schleichend, weshalb die Erkrankung oft erst nach Monaten oder Jahren erkannt wird – viele der ersten Anzeichen werden zunächst als normale Erschöpfung oder als Älterwerden fehlgedeutet.",
+    symptome: ["Anhaltende Müdigkeit und Antriebslosigkeit", "Ungewollte Gewichtszunahme trotz unveränderter Ernährung", "Kälteempfindlichkeit und ständig kalte Hände und Füße", "Trockene Haut, brüchige Nägel, vermehrter Haarausfall", "Verstopfung und verlangsamte Verdauung", "Niedergeschlagene Stimmung, verlangsamtes Denken, Konzentrationsschwierigkeiten"],
+    notfall: "Bei extremer Kälteempfindlichkeit, starker Verlangsamung, Verwirrtheit und niedriger Körpertemperatur (Verdacht auf Myxödem-Koma, eine seltene, lebensbedrohliche Extremform) sofort den Notruf wählen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Schilddrüse liegt direkt am Hals, dort, wo die eigene Stimme entsteht und der Atem seinen Weg nach draußen findet – kein Zufall, dass psychosomatische Deutungen dieses Organ seit jeher mit dem eigenen Ausdruck in Verbindung bringen. In der TCM wird eine träge, kälteempfindliche Konstitution häufig mit einer Schwäche des Nieren-Yang und des Milz-Yang assoziiert – einem inneren Feuer, das zu schwach brennt, um den Körper ausreichend zu wärmen und in Bewegung zu halten. Psychosomatisch liest sich eine Schilddrüsenunterfunktion oft als Bild eines gedrosselten inneren Tempos: als hätte sich ein Teil der eigenen Lebendigkeit, des eigenen Ausdrucks oder des eigenen Antriebs über Zeit selbst zurückgenommen, gebremst oder verstummen lassen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welcher innere Antrieb hier gedrosselt wird.",
+    typen: [
+      { typ: 1, titel: "Eine Stimme, die sich selbst zügelt", varianten: [
+        { code: "SE1", text: "Ihre spontanen Impulse zügelt die selbsterhaltende Eins ständig zugunsten von Disziplin und Kontrolle, echte Lebendigkeit wird selten frei gelassen. Diese permanente Selbstbremsung kann sich stoffwechselseitig als verlangsamte Schilddrüsenfunktion zeigen." },
+        { code: "SO1", text: "Ihre eigentliche Meinung über Fehlverhalten hält die soziale Eins oft zurück, um die eigene Fassung nicht zu gefährden. Dieses jahrelange Zügeln der eigenen Stimme kann sich als schleichend nachlassende Energie und Antriebslosigkeit zeigen." },
+        { code: "SX1", text: "Ihre Meinung spricht die sexuelle Eins meist unmittelbar aus, statt sie zurückzuhalten. Dieser direktere Ausdruck steht der generellen Selbstbremsung anderer Einser-Varianten deutlich entgegen." },
+      ]},
+      { typ: 2, titel: "Ein Antrieb, der sich selbst zurücknimmt", varianten: [
+        { code: "SE2", text: "Ihre eigenen Bedürfnisse nimmt die selbsterhaltende Zwei konsequent zurück, um für andere da sein zu können. Dieses chronische Sich-selbst-Zurücknehmen kann sich stoffwechselseitig als gedrosselte Schilddrüsenfunktion zeigen." },
+        { code: "SO2", text: "Ihre eigene Erschöpfung übergeht die soziale Zwei zugunsten des Einsatzes für die Gruppe immer wieder, bis die eigenen Ressourcen spürbar knapp werden. Dieser jahrelange Substanzabfluss kann sich als schleichende Antriebslosigkeit zeigen." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung fordert die sexuelle Zwei durchaus auch Zuwendung für sich selbst ein, statt sich nur zurückzunehmen. Dieses aktivere Einfordern kann dem chronischen Substanzabfluss anderer Zweier-Varianten entgegenwirken." },
+      ]},
+      { typ: 3, titel: "Ein Tempo, das plötzlich versiegt", varianten: [
+        { code: "SE3", text: "Ihr Tempo hält die selbsterhaltende Drei über Jahre ohne echte Pausen durch, bis der Körper irgendwann selbst die Bremse zieht. Dieser plötzliche Einbruch nach langer Überanstrengung kann sich als Schilddrüsenunterfunktion zeigen." },
+        { code: "SO3", text: "Ihr makelloses, dynamisches öffentliches Bild hält die soziale Drei über Jahre aufrecht, bis die Erschöpfung dahinter nicht mehr zu verbergen ist. Eine spürbar nachlassende Energie trifft sie besonders hart, weil sie ihrem Selbstbild widerspricht." },
+        { code: "SX3", text: "Vor der einen wichtigen Person lässt die sexuelle Drei auch Erschöpfung eher zu, statt sie ein Leben lang zu überspielen. Dieses frühere Eingeständnis unterscheidet sich vom über Jahre aufrechterhaltenen Tempo anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein Ausdruck, der verstummt", varianten: [
+        { code: "SE4", text: "Ihren tiefen inneren Schmerz verschließt die selbsterhaltende Vier, der Kontratyp, still in sich, ohne ihm je eine Stimme zu geben. Dieses lange Verstummen kann sich stoffwechselseitig als gedrosselte Schilddrüsenfunktion zeigen." },
+        { code: "SO4", text: "Ihren Schmerz spricht die soziale Vier meist offen aus, statt ihn zu verschweigen. Dieser fortlaufende Ausdruck kann dem stillen Verstummen entgegenwirken, das für andere Vierer-Varianten typischer ist." },
+        { code: "SX4", text: "Mit großer Intensität lebt die sexuelle Vier ihre emotionalen Ausschläge offen aus, statt sie zu verschließen. Dieser dramatische, hörbare Ausdruck steht dem stillen Verstummen der selbsterhaltenden Variante deutlich entgegen." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der Wärme fernhält", varianten: [
+        { code: "SE5", text: "Ihre Bedürfnisse und ihren Kontakt zur Welt reduziert die selbsterhaltende Fünf konsequent auf ein Minimum. Dieses generelle Herunterfahren kann sich stoffwechselseitig als tatsächlich gedrosselte Körperfunktion zeigen." },
+        { code: "SO5", text: "Ihr Wissen teilt die soziale Fünf bereitwillig, emotionale Wärme hält sie dabei auf sichere Distanz. Diese innere Distanzierung von echter Nähe kann sich als schleichende Antriebslosigkeit zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung lässt die sexuelle Fünf echte Wärme und Nähe zu, statt sich generell zurückzuziehen – anders als bei der übrigen Zurückhaltung anderer Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine Anspannung, die den Körper erschöpft", varianten: [
+        { code: "SE6", text: "Selten wirklich zur Ruhe kommt das Nervensystem der selbsterhaltenden Sechs, ihre Wachsamkeit begleitet sie durch jeden Tag. Diese über Jahre aufrechterhaltene Anspannung kann den Körper so sehr erschöpfen, dass er sich schließlich selbst drosselt." },
+        { code: "SO6", text: "Loyalität zur Gruppe gibt der sozialen Sechs Halt, ihre eigene Sorge bleibt dabei meist unausgesprochen und ungelindert. Dieser unaufgelöste Dauerstress kann sich als schleichende Schilddrüsenunterfunktion zeigen." },
+        { code: "SX6", text: "Statt stiller Dauerspannung begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit unmittelbarer Konfrontation. Diese nach außen gerichtete Entladung kann die chronische Erschöpfung senken, die bei anderen Sechser-Varianten eher bestehen bleibt." },
+      ]},
+      { typ: 7, titel: "Eine Rastlosigkeit, die plötzlich einbricht", varianten: [
+        { code: "SE7", text: "Von einer angenehmen Aktivität zur nächsten springt die selbsterhaltende Sieben, ohne echte Ruhephasen einzulegen. Wenn diese permanente Betriebsamkeit den Körper erschöpft, kann sich das als plötzlich einbrechende Antriebslosigkeit zeigen." },
+        { code: "SO7", text: "Die eigenen Grenzen übergeht die soziale Sieben, der Kontratyp, zugunsten der Gruppe immer wieder, bis zur eigenen Erschöpfung. Dieses chronische Übergehen kann sich als schleichende Schilddrüsenunterfunktion zeigen." },
+        { code: "SX7", text: "Mit voller, ungebremster Begeisterung verweilt die sexuelle Sieben durchaus auch einmal wirklich bei einer Erfahrung, statt ständig weiterzuspringen. Dieses Innehalten unterscheidet sich von der rastlosen Betriebsamkeit anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Kraft, die sich selbst erschöpft", varianten: [
+        { code: "SE8", text: "Über ihren Körper und ihre Ressourcen beansprucht die selbsterhaltende Acht konsequente Kontrolle, echte Erholung gesteht sie sich dabei selten zu. Diese permanente Kraftanstrengung kann den Körper so sehr auszehren, dass er sich schließlich selbst drosselt." },
+        { code: "SO8", text: "Ihre Beschützerrolle verlangt von der sozialen Acht durchgehend Stärke und Kontrolle im Dienst der Gruppe, eigene Erschöpfung tritt dabei zurück. Diese permanente Führungsspannung kann sich als schleichende Schilddrüsenunterfunktion zeigen." },
+        { code: "SX8", text: "Auf Erholung und Verletzlichkeit lässt sich die sexuelle Acht durchaus ein – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie echte Regeneration, anders als bei der generellen Dauerbeanspruchung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Antrieb, der nie bewusst wahrgenommen wird", varianten: [
+        { code: "SE9", text: "Ihr eigener Antrieb dringt bei der selbsterhaltenden Neun kaum je ins Bewusstsein, so vollständig verliert sie sich in Routine und Komfort. Eine schleichende Schilddrüsenunterfunktion kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
+        { code: "SO9", text: "Kaum tritt der eigene Antrieb in den Vordergrund, ordnet die soziale Neun ihn beständig der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als schleichende Antriebslosigkeit zeigen." },
+        { code: "SX9", text: "Die Wahrnehmung der eigenen Energie übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Erschöpfung nicht, übersieht die Neun ihre eigene Antriebslosigkeit oft ebenso lange." },
+      ]},
+    ],
+    abschluss: "Keine Schilddrüse ist vor einer Unterfunktion gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit gedrosseltem inneren Tempo auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, plötzlichen Einbruch oder eine chronisch übergangene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99375,7 +99434,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
