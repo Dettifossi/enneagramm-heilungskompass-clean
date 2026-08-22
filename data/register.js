@@ -449,6 +449,7 @@ export const registerEntries = [
   { term: "Divertikulitis (Psychosomatik)", route: "psychosomatik/divertikulitis", description: "Psychosomatische Deutung: unbearbeitete kleine Kränkungen in inneren Nischen, Enneagramm alle 27 Subtypen" },
   { term: "Fettleber (Psychosomatik)", route: "psychosomatik/fettleber", description: "Psychosomatische Deutung: still angesammelte Überlastung ohne Protest, TCM Leber/Hun, Enneagramm alle 27 Subtypen" },
   { term: "Zöliakie (Psychosomatik)", route: "psychosomatik/zoeliakie", description: "Psychosomatische Deutung: fundamentale Unverträglichkeit von Grundlegendem, Enneagramm alle 27 Subtypen" },
+  { term: "Hämorrhoiden (Psychosomatik)", route: "psychosomatik/haemorrhoiden", description: "Psychosomatische Deutung: chronischer Druck und getragene Last, TCM abgesunkenes Milz-Qi, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1572,6 +1573,7 @@ export const registerEntriesEN = [
   { term: "Diverticulitis (Psychosomatics)", route: "psychosomatik/divertikulitis", description: "Psychosomatic interpretation: unprocessed small hurts tucked away in inner niches, Enneagram all 27 subtypes" },
   { term: "Fatty Liver (Psychosomatics)", route: "psychosomatik/fettleber", description: "Psychosomatic interpretation: silently accumulated overload without complaint, TCM Liver/Hun, Enneagram all 27 subtypes" },
   { term: "Celiac Disease (Psychosomatics)", route: "psychosomatik/zoeliakie", description: "Psychosomatic interpretation: a fundamental intolerance of what should be basic nourishment, Enneagram all 27 subtypes" },
+  { term: "Hemorrhoids (Psychosomatics)", route: "psychosomatik/haemorrhoiden", description: "Psychosomatic interpretation: chronic pressure and carried burden, TCM sinking Spleen Qi, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },

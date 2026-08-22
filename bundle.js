@@ -98536,6 +98536,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Zöliakie gefeit, und kein Muster ist ein Urteil oder eine Schuldzuweisung – Zöliakie ist eine genetisch bedingte Autoimmunerkrankung. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit grundlegender Selbstfürsorge, Anpassung und übergangenen Signalen verhandelt. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps – ergänzend zur notwendigen, lebenslangen glutenfreien Ernährung, die bei Zöliakie unverzichtbar bleibt."
   },
+  haemorrhoiden: {
+    titel: "Hämorrhoiden",
+    kategorie: "verdauung",
+    icon: "🔴",
+    kurz: "Krankhaft vergrößerte Gefäßpolster im Enddarm, die entstehen, wenn über Jahre zu viel Druck auf sie ausgeübt wird.",
+    definition: "Hämorrhoiden sind ein natürlich vorhandenes Gefäßpolster am Übergang von Enddarm zu After, das zur feinen Abdichtung beiträgt. Von der Erkrankung spricht man erst, wenn sich dieses Polster krankhaft vergrößert – meist durch chronisch erhöhten Druck im Bauchraum, häufig verursacht durch anhaltendes, starkes Pressen bei Verstopfung, langes Sitzen auf der Toilette, Schwangerschaft, Übergewicht oder eine familiäre Bindegewebsschwäche. Man unterscheidet vier Schweregrade, von innen liegenden, nicht sichtbaren Knoten (Grad 1) bis zu dauerhaft nach außen vorfallenden Knoten (Grad 4). Hämorrhoidalleiden gehören zu den häufigsten proktologischen Beschwerden überhaupt, werden aus Scham aber oft lange verschwiegen, bevor ärztliche Hilfe gesucht wird.",
+    symptome: ["Hellrote Blutspuren auf dem Toilettenpapier oder im Stuhl", "Juckreiz und Brennen im Analbereich", "Nässendes Gefühl oder Fremdkörpergefühl am After", "Schmerzen, besonders bei fortgeschrittenen Stadien oder Komplikationen", "Nach außen vorfallende Knoten bei stärkerer Ausprägung", "Gefühl der unvollständigen Entleerung nach dem Stuhlgang"],
+    notfall: "Bei starken, plötzlich einsetzenden Schmerzen mit hartem, bläulichem Knoten am After (Hinweis auf eine Thrombose) oder bei stärkerer, anhaltender Blutung zeitnah ärztlich abklären lassen. Blut im Stuhl sollte grundsätzlich ärztlich untersucht werden, um andere, ernstere Ursachen sicher auszuschließen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Hämorrhoiden entstehen durch chronisch erhöhten Druck – ein Bild, das sich psychosomatisch fast unmittelbar erschließt: Wo über Jahre zu stark gepresst, zu viel Last getragen oder zu lange durchgehalten wird, ohne einen Ausgleich zu finden, kann sich dieser Druck genau an der Stelle zeigen, an der der Körper buchstäblich loslassen soll. In der TCM wird ein &bdquo;abgesunkenes Milz-Qi&ldquo; traditionell mit einer Schwäche verbunden, die inneren Organe an ihrem Platz zu halten – ein Bild von Erschöpfung, die sich in der untersten Körperregion niederschlägt. Psychosomatisch liest sich das Hämorrhoidalleiden häufig als Zeichen einer Person, die über lange Zeit zu viel Druck aushält, zu viel Verantwortung trägt oder sich selbst zu wenig Entlastung gönnt. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welcher Druck sich hier besonders häufig staut.",
+    typen: [
+      { typ: 1, titel: "Zorn, der sich als Druck im Körper staut", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins presst sich buchstäblich zusammen, um die eigene Disziplin und Kontrolle aufrechtzuerhalten – auch beim Stuhlgang wird oft mit übermäßiger Anspannung gearbeitet, statt dem Körper Zeit zu lassen. Dieser über Jahre ausgeübte Druck kann sich körperlich als vergrößerte Gefäßpolster im Enddarm zeigen." },
+        { code: "SO1", text: "Wer wie die soziale Eins ständig über die Richtigkeit der Dinge wacht, trägt eine permanente innere Anspannung mit sich, die sich auf den gesamten Körper auswirkt – auch auf die Bauchmuskulatur, die sich selten wirklich entspannt. Dieser chronische Druck kann sich als Hämorrhoidalleiden zeigen." },
+        { code: "SX1", text: "Die sexuelle Eins lebt ihren Anspruch mit großer Intensität – dieser direktere, episodische Ausdruck von Anspannung unterscheidet sich vom chronisch-gleichmäßigen Druck, der bei den anderen Einser-Varianten typischer ist." },
+      ]},
+      { typ: 2, titel: "Stolz, der die eigene Last nicht abgeben will", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei trägt die Lasten anderer, ohne je um Entlastung zu bitten – dieses ständige Tragen, ohne die eigene Belastung je abzugeben, kann sich körperlich als Druck im untersten Körperbereich zeigen, der sich als Hämorrhoidalleiden manifestiert." },
+        { code: "SO2", text: "Für viele Menschen gleichzeitig unentbehrlich zu sein, verlangt der sozialen Zwei ab, ständig mehr zu tragen, als sie eigentlich könnte, ohne dies je offen zuzugeben. Dieser chronische Überlastungsdruck kann sich als vergrößerte Gefäßpolster zeigen." },
+        { code: "SX2", text: "In intensiven Beziehungsphasen investiert sich die sexuelle Zwei fast vollständig – diese punktuelle Selbstaufopferung kann sich eher als vorübergehende Beschwerde zeigen denn als chronisch gleichmäßiger Druck." },
+      ]},
+      { typ: 3, titel: "Leistung, die sich selbst keine Entlastung gönnt", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei presst sich durch den Alltag, ohne sich Pausen zu gönnen – auch für den Toilettengang wird oft keine Zeit eingeplant, der natürliche Rhythmus wird durch Eile und Druck ersetzt. Diese über Jahre fortgesetzte Selbstüberforderung kann sich als Hämorrhoidalleiden zeigen." },
+        { code: "SO3", text: "Im ständigen Vergleich mit anderen hält die soziale Drei ein Tempo durch, das dem Körper keine echte Entlastung lässt – dieser permanente Leistungsdruck kann sich körperlich als vergrößerte Gefäßpolster im Enddarm zeigen." },
+        { code: "SX3", text: "Um in der Beziehung makellos zu erscheinen, überspielt die sexuelle Drei körperliche Beschwerden wie Hämorrhoiden gerne so lange wie möglich, aus Scham vor einem als unattraktiv empfundenen Thema – dieser fokussierte Wille zur Kontrolle des äußeren Bildes verzögert oft die notwendige Behandlung." },
+      ]},
+      { typ: 4, titel: "Sehnsucht, die sich als körperlicher Druck zeigt", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm mit sich, ohne es je auszudrücken – dieses fortgesetzte Zurückhalten kann sich körperlich als Druck im untersten Körperbereich zeigen, der sich als Hämorrhoidalleiden äußert." },
+        { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das dem rein körperlichen Druck zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+        { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – dieser direktere Ausdruck steht dem stillen, chronischen Druck anderer Vierer-Varianten eher entgegen." },
+      ]},
+      { typ: 5, titel: "Rückzug, der die eigene Beschwerde für sich behält", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf hält auch körperliche Beschwerden konsequent für sich, sucht selten ärztlichen Rat, solange es irgendwie geht – dieses stille Aushalten eines wiederkehrenden Drucks im Enddarm, ohne ihn ernsthaft behandeln zu lassen, passt zum Bild eines Hämorrhoidalleidens, das sich über Jahre unbemerkt entwickeln konnte." },
+        { code: "SO5", text: "Die soziale Fünf hält emotionale Nähe hinter intellektueller Distanz auf Abstand – auch ein wiederkehrender Druck im Enddarm kann so eher als abstraktes Faktum registriert als als echtes körperliches Signal ernst genommen werden." },
+        { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus offen über körperliche Beschwerden gesprochen werden – was der stillen Verdrängung anderer Fünfer-Varianten entgegenwirkt und eine frühere Behandlung begünstigt." },
+      ]},
+      { typ: 6, titel: "Angst, die den Körper unter Dauerdruck hält", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Vorsicht und einer inneren Anspannung, die selten wirklich abschaltet – dieser Zustand der Daueralarmbereitschaft hält auch die Bauch- und Beckenbodenmuskulatur in ständiger Anspannung, was sich als Hämorrhoidalleiden zeigen kann." },
+        { code: "SO6", text: "Die soziale Sechs trägt eine oft unausgesprochene Sorge um das Wohlergehen ihrer Gruppe mit sich – diese diffuse, kollektive Anspannung kann sich körperlich als ein chronisch angespannter Beckenbodenbereich zeigen." },
+        { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Rückzug – diese direktere Entladung steht dem chronisch gleichmäßigen Druck anderer Sechser-Varianten eher entgegen." },
+      ]},
+      { typ: 7, titel: "Maßlosigkeit, die dem Körper keine Regelmäßigkeit lässt", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben plant sich ihre Annehmlichkeiten sorgfältig, isst dabei aber oft unregelmäßig und mit wenig Ballaststoffen – diese fehlende Regelmäßigkeit kann zu Verstopfung mit starkem Pressen führen, was sich langfristig als Hämorrhoidalleiden zeigen kann." },
+        { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – auch der eigene Stuhldrang wird dabei häufig übergangen, was den Druck im Enddarm erhöhen kann." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, oft verbunden mit unregelmäßigem Essverhalten – diese Kombination kann den natürlichen Verdauungsrhythmus durcheinanderbringen und übermäßiges Pressen begünstigen." },
+      ]},
+      { typ: 8, titel: "Kontrolle, die sich selbst nicht entlasten lässt", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch handfeste Kontrolle über materielle und körperliche Ressourcen – auch beim Stuhlgang soll alles nach eigenem Willen und mit Kraft funktionieren, statt dem Körper Zeit zu geben. Diese permanente Anspannung kann sich als Hämorrhoidalleiden zeigen." },
+        { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe, oft in einer selbst auferlegten Beschützerrolle – diese permanente Führungsspannung und der damit verbundene Dauerdruck lassen selten Raum für echte körperliche Entlastung." },
+        { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der einen Zweierbeziehung – in diesem geschützten Rahmen kann durchaus eine gewisse körperliche Entspannung stattfinden, die der generellen Dauerspannung anderer Achter-Varianten entgegenwirkt." },
+      ]},
+      { typ: 9, titel: "Selbstvergessenheit, die den eigenen Druck übersieht", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine und nimmt die eigenen Warnsignale von Druck und Anspannung oft kaum bewusst wahr – dieses Übersehen eines ständig wiederkehrenden körperlichen Signals passt besonders genau zum Bild eines Hämorrhoidalleidens, das sich über Jahre unbemerkt entwickeln konnte." },
+        { code: "SO9", text: "Die soziale Neun ordnet die eigene Stimme so konsequent der Gruppenharmonie unter, dass auch die eigene körperliche Belastung selten wirklich Beachtung findet – diese chronische Selbstzurücknahme kann sich als ein nie ernst genommenes, aber ständig wiederkehrendes Signal zeigen." },
+        { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen Wahrnehmung der eigenen Gesundheit als Maßstab – bemerkt der Partner die Beschwerde nicht, bemerkt die Neun sie oft ebenfalls nicht, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor Hämorrhoiden gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Druck, Last und übergangenen Signalen verhandelt – manche über Dauerkontrolle, andere über Rückzug, unregelmäßige Selbstfürsorge oder eine nie ernst genommene eigene Überlastung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -98547,7 +98606,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Hämorrhoiden"],
+  "verdauung": [],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
