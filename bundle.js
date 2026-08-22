@@ -95347,7 +95347,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Neid – wenn Sehnsucht statt Wut das Herz belastet",
         varianten: [
       { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp innerhalb der Vieren, zeigt selten das erwartete dramatische Leiden – sie funktioniert, kümmert sich, hält durch, oft über Jahrzehnte, während innerlich eine tiefe, nie eingestandene Sehnsucht nach dem eigentlichen, authentischen Leben mitläuft. Die Verbindung zum Herzinfarkt-Muster liegt hier weniger in offener Wut als in chronisch unterdrückter Trauer: ein Leben, das leise und pflichtbewusst weiterläuft, während im Inneren viel unausgesprochen bleibt und sich als stille, nie thematisierte Last auf das Herz legt." },
-          { code: "SO4", text: "Die soziale Vier trägt ihren Schmerz nach außen, spricht offen über Erschöpfung und Überforderung, statt sie hinter einer Fassade zu verbergen – dieser Ausdruck wirkt wie ein Sicherheitsventil, das dem Herzen zumindest einen Teil des Drucks nimmt, den die stille Erschöpfung anderer Subtypen ungebremst ansammelt. Kardiologisch zeigt sich die Belastung trotzdem, aber eher in Phasen ausgeprägter Erschöpfung nach emotionalen Hochphasen als in der gleichmäßigen, chronisch verdeckten Anspannung, wie sie das klassische Typ-A-Muster beschreibt." },
+      { code: "SO4", text: "Die soziale Vier trägt ihren Schmerz nach außen, spricht offen über Erschöpfung und Überforderung, statt sie hinter einer Fassade zu verbergen – dieser Ausdruck wirkt wie ein Sicherheitsventil, das dem Herzen zumindest einen Teil des Drucks nimmt, den die stille Erschöpfung anderer Subtypen ungebremst ansammelt. Kardiologisch zeigt sich die Belastung trotzdem, aber eher in Phasen ausgeprägter Erschöpfung nach emotionalen Hochphasen als in der gleichmäßigen, chronisch verdeckten Anspannung, wie sie das klassische Typ-A-Muster beschreibt." },
       { code: "SX4", text: "Die sexuelle Vier lebt kompromisslose emotionale Intensität in der einen Beziehung, oft begleitet von einem ständigen, quälenden Vergleich – mit früheren Partnern, mit einem imaginierten Ideal, mit dem, was die Liebe sein könnte, aber gerade nicht ist. Heftige emotionale Ausschläge und eine potenziell konfliktreiche, auf-und-ab-Beziehungsdynamik sind hier der wahrscheinlichere Belastungsfaktor als eine stille Dauerspannung – das Herz wird weniger durch andauernden Druck als durch wiederkehrende, intensive emotionale Erschütterungen beansprucht." },
         ],
       },
@@ -95440,7 +95440,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die sich festsetzt",
         varianten: [
       { code: "SE4", text: "Nie in Bewegung, sondern nur in innerer Verhärtung entlädt sich die über Jahrzehnte unausgesprochene Sehnsucht der selbsterhaltenden Vier, dem Kontratyp, der Leid zäh und nach außen kaum sichtbar trägt. Sie funktioniert nach außen unauffällig, fast tapfer, während innerlich ein tiefes Gefühl des Andersseins, des Nicht-ganz-Dazugehörens mitläuft, das nie Raum bekommt, sich zu zeigen oder zu lösen. Dieses stille Tragen ohne Ventil passt zum Bild einer Ablagerung, die sich Schicht für Schicht verfestigt, weil sie nie an die Oberfläche darf." },
-          { code: "SO4", text: "Wo andere Subtypen ihre Erschöpfung verbergen, stellt die soziale Vier ihre Verletzlichkeit offen zur Schau, macht sie fast zu einem Teil ihrer Identität in der Gruppe – dieses Zeigen ist zugleich ein Ventil: Die Anspannung staut sich weniger lange an, weil sie regelmäßig einen Ausweg findet. Die zugrunde liegende Sehnsucht nach Vollständigkeit bleibt trotzdem bestehen, auch wenn sie hier immerhin ausgesprochen wird." },
+      { code: "SO4", text: "Wo andere Subtypen ihre Erschöpfung verbergen, stellt die soziale Vier ihre Verletzlichkeit offen zur Schau, macht sie fast zu einem Teil ihrer Identität in der Gruppe – dieses Zeigen ist zugleich ein Ventil: Die Anspannung staut sich weniger lange an, weil sie regelmäßig einen Ausweg findet. Die zugrunde liegende Sehnsucht nach Vollständigkeit bleibt trotzdem bestehen, auch wenn sie hier immerhin ausgesprochen wird." },
       { code: "SX4", text: "Nichts fühlt sich je vollständig genug an, immer schwingt die Ahnung mit, dass es woanders intensiver, echter, tiefer sein könnte: So lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen. Heftige, episodische Ausschläge prägen hier das Bild eher als eine gleichmäßige, lautlose Verhärtung: Die Gefäße erleben weniger konstanten Druck als wiederkehrende, intensive emotionale Wellen." },
         ],
       },
@@ -95533,7 +95533,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die sich als Anspannung festsetzt",
         varianten: [
       { code: "SE4", text: "Pflichtbewusst, fast unauffällig funktioniert die selbsterhaltende Vier, der Kontratyp, während innerlich ein tiefes Gefühl des Nicht-ganz-Angekommenseins mitläuft, das nie Raum bekommt, sich zu äußern – eine über Jahre unausgesprochene Sehnsucht, die sich nie in Worte, sondern nur in innerer Anspannung entlädt." },
-          { code: "SO4", text: "Die soziale Vier lässt ihre innere Anspannung selten lange unbemerkt – sie zeigt Verletzlichkeit, spricht über ihre Kämpfe, sucht in der Gruppe Resonanz für das eigene Leiden. Dieser fortlaufende Ausdruck kann verhindern, dass sich der innere Druck so unbemerkt aufbaut wie bei stiller gehaltenen Subtypen, auch wenn die zugrunde liegende Sehnsucht selbst davon unberührt bleibt." },
+      { code: "SO4", text: "Die soziale Vier lässt ihre innere Anspannung selten lange unbemerkt – sie zeigt Verletzlichkeit, spricht über ihre Kämpfe, sucht in der Gruppe Resonanz für das eigene Leiden. Dieser fortlaufende Ausdruck kann verhindern, dass sich der innere Druck so unbemerkt aufbaut wie bei stiller gehaltenen Subtypen, auch wenn die zugrunde liegende Sehnsucht selbst davon unberührt bleibt." },
       { code: "SX4", text: "Der innere Druck steigt und fällt mit der Intensität des Gefühlslebens, statt sich als konstante Grundspannung zu halten – so lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen." },
         ],
       },
@@ -95626,7 +95626,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die die Kraft langsam auszehrt",
         varianten: [
       { code: "SE4", text: "Nach außen tapfer funktioniert die selbsterhaltende Vier, der Kontratyp, während innerlich ein tiefes Gefühl der Unerfülltheit an ihrer Substanz zehrt, ohne dass es je einen Namen bekommt – eine über Jahre unausgesprochene Sehnsucht kann sich so als stille, nie thematisierte Erschöpfung im Körper niederschlagen." },
-          { code: "SO4", text: "Die soziale Vier identifiziert sich stark mit ihrem Schmerz und trägt ihn sichtbar in die Gemeinschaft – dieses Zurschaustellen ist zugleich ein Stück Selbstfürsorge, weil es verhindert, dass die eigene Erschöpfung völlig unbemerkt bleibt. Anders als bei stillen Subtypen findet die Auszehrung hier wenigstens einen Resonanzraum, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+      { code: "SO4", text: "Die soziale Vier identifiziert sich stark mit ihrem Schmerz und trägt ihn sichtbar in die Gemeinschaft – dieses Zurschaustellen ist zugleich ein Stück Selbstfürsorge, weil es verhindert, dass die eigene Erschöpfung völlig unbemerkt bleibt. Anders als bei stillen Subtypen findet die Auszehrung hier wenigstens einen Resonanzraum, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
       { code: "SX4", text: "Jede Beziehungskrise wird mit voller emotionaler Wucht durchlebt, was punktuell erschöpft, statt gleichmäßig zu zehren – so lebt die sexuelle Vier kompromisslose emotionale Intensität, oft im ständigen Vergleich mit Idealen oder anderen Beziehungen." },
         ],
       },
@@ -95719,7 +95719,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Gefühlsflut, die den geordneten Takt sprengt",
         varianten: [
       { code: "SE4", text: "Erstaunlich beherrscht funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen, während sie innere Gefühlsstürme meist zurückhält – doch genau diese unterdrückte, nie kanalisierte emotionale Intensität kann sich psychosomatisch als ein plötzlich aus dem Takt geratener Herzschlag entladen, wenn der innere Druck irgendwann die äußere Fassade übersteigt." },
-          { code: "SO4", text: "Die soziale Vier teilt intensive Gefühle offen mit der Gruppe, lässt niemanden im Unklaren über ihren inneren Zustand – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das dem inneren Chaos zumindest teilweise eine Richtung gibt, auch wenn die zugrunde liegende emotionale Überflutung selbst bestehen bleibt und den eigenen Takt weiterhin gefährdet." },
+      { code: "SO4", text: "Die soziale Vier teilt intensive Gefühle offen mit der Gruppe, lässt niemanden im Unklaren über ihren inneren Zustand – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das dem inneren Chaos zumindest teilweise eine Richtung gibt, auch wenn die zugrunde liegende emotionale Überflutung selbst bestehen bleibt und den eigenen Takt weiterhin gefährdet." },
       { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Verschmelzung und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – genau diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Herzrhythmus, der in emotional zugespitzten Momenten seinen geordneten Takt verliert und ins Chaotische kippt." },
         ],
       },
@@ -95812,7 +95812,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Emotionale Wucht, die die körperliche Grenze überschreitet",
         varianten: [
       { code: "SE4", text: "Statt einen Ausdruck zu finden, kann sich das intensive innere Leid, das die selbsterhaltende Vier, der Kontratyp, meist zäh und nach außen kontrolliert trägt, körperlich als ein Schmerz zeigen, der genau dann auftritt, wenn die innere Anspannung eine bestimmte Schwelle überschreitet." },
-          { code: "SO4", text: "Anders als viele andere Subtypen hält die soziale Vier ihre Belastungsgrenze nicht geheim – sie spricht über Erschöpfung, zeigt sich verletzlich vor der Gruppe, findet darin zumindest teilweise ein Ventil. Der Ausdruck der eigenen emotionalen Intensität kann helfen, die innere Belastung nicht ausschließlich körperlich austragen zu müssen, auch wenn die zugrunde liegende Sehnsucht nach Vollständigkeit bestehen bleibt." },
+      { code: "SO4", text: "Anders als viele andere Subtypen hält die soziale Vier ihre Belastungsgrenze nicht geheim – sie spricht über Erschöpfung, zeigt sich verletzlich vor der Gruppe, findet darin zumindest teilweise ein Ventil. Der Ausdruck der eigenen emotionalen Intensität kann helfen, die innere Belastung nicht ausschließlich körperlich austragen zu müssen, auch wenn die zugrunde liegende Sehnsucht nach Vollständigkeit bestehen bleibt." },
       { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – gerade diese dramatischen inneren Wendungen liest die Psychosomatik als naheliegendes Bild für einen Schmerz, der in emotional zugespitzten Momenten seine eigene, unsichtbare Grenze markiert." },
         ],
       },
@@ -95905,7 +95905,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die nie zur Erleichterung findet",
         varianten: [
       { code: "SE4", text: "Ohne es je auszudrücken trägt die selbsterhaltende Vier, der Kontratyp, ihr Leid zäh und stumm – eine über Jahre unausgesprochene Sehnsucht, die nie ein Ventil findet. Dieses fortgesetzte Zurückhalten kann sich körperlich als eine Stauung zeigen: Gefühle, die nie fließen dürfen, wie Blut, das nie zurückfließt." },
-          { code: "SO4", text: "Die soziale Vier hält Groll und Enttäuschung selten lange zurück – sie spricht sie aus, trägt sie sichtbar in die Gemeinschaft, statt sie im Verborgenen anzustauen. Dieser regelmäßige Ausdruck kann der reinen körperlichen Stauung zumindest teilweise entgegenwirken, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+      { code: "SO4", text: "Die soziale Vier hält Groll und Enttäuschung selten lange zurück – sie spricht sie aus, trägt sie sichtbar in die Gemeinschaft, statt sie im Verborgenen anzustauen. Dieser regelmäßige Ausdruck kann der reinen körperlichen Stauung zumindest teilweise entgegenwirken, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
       { code: "SX4", text: "Zwischen Verschmelzung und Verzweiflung schwankt die kompromisslose emotionale Intensität, die die sexuelle Vier in der Beziehung auslebt – diese heftigen, aber episodischen Ausschläge erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Stauung." },
         ],
       },
@@ -95998,7 +95998,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Erstarrtes Leid, das sich nie löst",
         varianten: [
       { code: "SE4", text: "Aus einem lebendigen, fließenden Gefühl kann eine feste, erstarrte innere Blockade werden, wenn die selbsterhaltende Vier, der Kontratyp, ihr inneres Leid über Jahre zurückhält, ohne es je auszudrücken – eine Blockade, die nie die Chance bekam, sich zu lösen, weil sie nie nach außen durfte." },
-          { code: "SO4", text: "Wo andere Subtypen ihr Leid stumm mit sich herumtragen, bringt die soziale Vier es fortlaufend zur Sprache, macht es zum Teil ihrer sozialen Präsenz – dieser Ausdruck nach außen kann verhindern, dass sich das Gefühl zu einer völlig unbeweglichen inneren Blockade verfestigt, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+      { code: "SO4", text: "Wo andere Subtypen ihr Leid stumm mit sich herumtragen, bringt die soziale Vier es fortlaufend zur Sprache, macht es zum Teil ihrer sozialen Präsenz – dieser Ausdruck nach außen kann verhindern, dass sich das Gefühl zu einer völlig unbeweglichen inneren Blockade verfestigt, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
       { code: "SX4", text: "In besonders zugespitzten Momenten kann sich die emotionale Intensität, mit der die sexuelle Vier zwischen Nähe und Verzweiflung schwankt, kurzzeitig zu völliger emotionaler Erstarrung verdichten, bevor sie sich wieder löst." },
         ],
       },
@@ -96091,7 +96091,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Verstummte Sehnsucht, die sich gewaltsam Ausdruck verschafft",
         varianten: [
       { code: "SE4", text: "Diese fortgesetzte Verleugnung einer eigentlich sehr lebendigen emotionalen Welt entsteht, wenn die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid über Jahre zäh und stumm trägt, ohne es je auszudrücken. Sie kann sich als aufgestaute Fülle zeigen, die sich, wenn sie sich löst, mit besonderer Wucht Bahn bricht, weil sie nie einen anderen Ausweg gefunden hat." },
-          { code: "SO4", text: "Die soziale Vier stellt ihr Leiden bewusst zur Schau, sucht in der Gruppe Resonanz für ihren Schmerz – dieses fortlaufende Ventil kann helfen, die innere emotionale Fülle über die Jahre eher abzuleiten als anzustauen, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+      { code: "SO4", text: "Die soziale Vier stellt ihr Leiden bewusst zur Schau, sucht in der Gruppe Resonanz für ihren Schmerz – dieses fortlaufende Ventil kann helfen, die innere emotionale Fülle über die Jahre eher abzuleiten als anzustauen, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
       { code: "SX4", text: "Dramatisch, aber ausgelebt: So entladen sich die Wendungen der kompromisslosen emotionalen Intensität, mit der die sexuelle Vier zwischen Verschmelzung und Verzweiflung schwankt, eher fortlaufend als sich über Jahrzehnte zu einer einzigen großen Fülle aufzustauen." },
         ],
       },
@@ -96184,7 +96184,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die die eigene Lebenskraft nach innen zieht",
         varianten: [
       { code: "SE4", text: "Die Energie, die es kostet, inneres Leid ständig zu verbergen, kann der selbsterhaltenden Vier, dem Kontratyp, an anderer Stelle fehlen: der Kraft, sich selbst mit Nachdruck in der Welt zu behaupten, während sie nach außen erstaunlich beherrscht funktioniert." },
-          { code: "SO4", text: "Die soziale Vier bezieht einen Teil ihrer Identität aus dem sichtbar gemachten Leid – diese Identifikation mit dem eigenen Schmerz kann paradoxerweise Energie binden, die für eine kraftvolle Selbstbehauptung im Alltag fehlt, weil der Fokus stärker auf dem Ausdruck des Leids liegt als auf dem eigenen Antrieb." },
+      { code: "SO4", text: "Die soziale Vier bezieht einen Teil ihrer Identität aus dem sichtbar gemachten Leid – diese Identifikation mit dem eigenen Schmerz kann paradoxerweise Energie binden, die für eine kraftvolle Selbstbehauptung im Alltag fehlt, weil der Fokus stärker auf dem Ausdruck des Leids liegt als auf dem eigenen Antrieb." },
       { code: "SX4", text: "Diese Intensität selbst ist eine Form von Kraft, auch wenn sie sich nicht als stabiler, gleichmäßiger Antrieb zeigt, sondern in heftigen Wellen zwischen Aufschwung und Erschöpfung: So lebt die sexuelle Vier kompromisslose emotionale Intensität." },
         ],
       },
@@ -96277,7 +96277,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Festgehaltene Sehnsucht, die keine neue Bewegung erlaubt",
         varianten: [
       { code: "SE4", text: "Nie auszudrücken, was eigentlich gefühlt wird: An diesem immer gleichen inneren Muster hält die selbsterhaltende Vier, der Kontratyp, über Jahre unverändert fest. Es kann sich als eine Rigidität zeigen, die sich in mangelnder Flexibilität auch auf körperlicher Ebene niederschlägt." },
-          { code: "SO4", text: "Die soziale Vier hält an keiner starren Rolle fest, zeigt sich der Gruppe mal verletzlich, mal kämpferisch, je nachdem, was die Situation verlangt – diese Beweglichkeit im emotionalen Ausdruck kann der starren, immer gleichen Wiederholung entgegenwirken, die für Arthrose besonders typisch ist." },
+      { code: "SO4", text: "Die soziale Vier hält an keiner starren Rolle fest, zeigt sich der Gruppe mal verletzlich, mal kämpferisch, je nachdem, was die Situation verlangt – diese Beweglichkeit im emotionalen Ausdruck kann der starren, immer gleichen Wiederholung entgegenwirken, die für Arthrose besonders typisch ist." },
       { code: "SX4", text: "Von Beziehung zu Beziehung, von Moment zu Moment stark verändert sich die kompromisslose emotionale Intensität der sexuellen Vier – diese hohe emotionale Variabilität steht dem starren, wiederholten Muster entgegen, das die Arthrose psychosomatisch besonders kennzeichnet." },
         ],
       },
@@ -96370,7 +96370,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Emotionale Last, die sich nie aufrichten durfte",
         varianten: [
       { code: "SE4", text: "Ein Rücken, der sich unter über Jahre unausgesprochener Sehnsucht buchstäblich krümmt: So trägt die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid zäh und stumm, ohne es je auszudrücken. Das kann psychosomatisch als eines der plausibelsten Bilder für diesen niemals abgelegten emotionalen Druck gelesen werden." },
-          { code: "SO4", text: "Die soziale Vier spricht offen über die Lasten, die sie trägt, statt sie schweigend mit sich herumzuschleppen – dieser Ausdruck nach außen kann als Ventil wirken, das der reinen körperlichen Rückenlast zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+      { code: "SO4", text: "Die soziale Vier spricht offen über die Lasten, die sie trägt, statt sie schweigend mit sich herumzuschleppen – dieser Ausdruck nach außen kann als Ventil wirken, das der reinen körperlichen Rückenlast zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
       { code: "SX4", text: "Heftig, aber ausgelebt: So zeigen sich die Ausschläge zwischen Nähe und Verzweiflung, die die kompromisslose emotionale Intensität der sexuellen Vier prägen – sie erzeugen eher punktuelle innere Anspannung als eine gleichmäßig über Jahre akkumulierte Rückenlast." },
         ],
       },
@@ -96463,7 +96463,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Selbstverurteilung, die aus unerfüllter Sehnsucht entsteht",
         varianten: [
       { code: "SE4", text: "Nie nach außen ausgesprochen, sondern gegen sich selbst gerichtet: So hält die selbsterhaltende Vier, der Kontratyp, ihr Leid zurück und richtet ihre Enttäuschung über die eigene vermeintliche Unzulänglichkeit gegen sich selbst. Diese Selbstverurteilung passt besonders genau zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
-          { code: "SO4", text: "Die soziale Vier richtet ihre emotionale Intensität eher nach außen als konsequent gegen sich selbst, spricht ihr Leiden offen aus, statt es innerlich zu verurteilen – dieser Ausdruck kann den vollständigen Selbstangriff, der bei anderen Vierer-Varianten möglich ist, etwas abmildern, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+      { code: "SO4", text: "Die soziale Vier richtet ihre emotionale Intensität eher nach außen als konsequent gegen sich selbst, spricht ihr Leiden offen aus, statt es innerlich zu verurteilen – dieser Ausdruck kann den vollständigen Selbstangriff, der bei anderen Vierer-Varianten möglich ist, etwas abmildern, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
       { code: "SX4", text: "Stark nach außen, in die Beziehung gerichtet ist die kompromisslose emotionale Intensität, die die sexuelle Vier lebt – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der für rheumatoide Arthritis psychosomatisch besonders typisch ist." },
         ],
       },
@@ -96556,7 +96556,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht, die die eigene Substanz nie satt macht",
         varianten: [
       { code: "SE4", text: "Über Jahre unbemerkt zehrt eine tiefe, nie gestillte Sehnsucht nach Vollständigkeit an der Substanz der selbsterhaltenden Vier, dem Kontratyp, die nach außen tapfer funktioniert. Dieses stille, nie geäußerte Fehlen kann sich als eine langsam schwindende innere Dichte zeigen, ganz ähnlich der Osteoporose, die sich ebenfalls erst spät zu erkennen gibt." },
-          { code: "SO4", text: "Die soziale Vier verbirgt ihre innere Leere nicht, sondern zeigt sie – dieser fortlaufende, oft unbewusst wirksame Ausdruck erzeugt zumindest eine Form von Aufmerksamkeit und Zuwendung von außen, was der vollständigen, unbemerkten Auszehrung anderer Vierer-Varianten etwas entgegenwirkt." },
+      { code: "SO4", text: "Die soziale Vier verbirgt ihre innere Leere nicht, sondern zeigt sie – dieser fortlaufende, oft unbewusst wirksame Ausdruck erzeugt zumindest eine Form von Aufmerksamkeit und Zuwendung von außen, was der vollständigen, unbemerkten Auszehrung anderer Vierer-Varianten etwas entgegenwirkt." },
       { code: "SX4", text: "Ein lebendiger, wenn auch wechselhafter Austausch mit dem geliebten Menschen prägt die kompromisslose emotionale Intensität, die die sexuelle Vier lebt – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, die der stillen Auszehrung anderer Subtypen entgegensteht." },
         ],
       },
@@ -96649,7 +96649,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Unbenannte Gefühlsflut, die sich im ganzen Körper zeigt",
         varianten: [
       { code: "SE4", text: "Nie an einer konkreten Stelle erkennbar: So hält die selbsterhaltende Vier, der Kontratyp, intensive innere Gefühlsstürme zurück. Diese über den ganzen Körper diffundierte, nie lokalisierte emotionale Wucht passt besonders genau zum Bild der Fibromyalgie: ein Schmerz, der überall spürbar ist, weil er nirgends explizit ausgesprochen werden durfte." },
-          { code: "SO4", text: "Die soziale Vier benennt ihren Schmerz konkret, statt ihn diffus im Körper zu verteilen – dieser fokussierte, klar artikulierte Ausdruck steht dem diffusen, über den ganzen Körper verteilten Schmerzmuster entgegen, das eher bei weniger ausgedrückten Formen von Leid auftritt." },
+      { code: "SO4", text: "Die soziale Vier benennt ihren Schmerz konkret, statt ihn diffus im Körper zu verteilen – dieser fokussierte, klar artikulierte Ausdruck steht dem diffusen, über den ganzen Körper verteilten Schmerzmuster entgegen, das eher bei weniger ausgedrückten Formen von Leid auftritt." },
       { code: "SX4", text: "Fokussiert, wenn auch heftig konzentriert sich die kompromisslose emotionale Intensität, die die sexuelle Vier in der Beziehung lebt, auf einen Bereich, statt sich diffus über den ganzen Körper zu verteilen." },
         ],
       },
@@ -96742,7 +96742,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Festhalten an Sehnsucht, die die Hand nicht loslässt",
         varianten: [
       { code: "SE4", text: "Oft mit angespannten, kontrollierten Händen funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen beherrscht, während sie an ihrem stillen inneren Leid festhält – dieses über Jahre unausgesprochene, aber körperlich festgehaltene Muster kann sich als eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SO4", text: "Die soziale Vier trägt inneren Schmerz vor allem als emotionalen, nicht als mechanischen Ausdruck in die Gruppe – dieser primär sprachlich-emotionale statt körperliche Ausdruck steht der rein mechanischen Überlastung, die für Karpaltunnelsyndrom typisch ist, eher entgegen." },
+      { code: "SO4", text: "Die soziale Vier trägt inneren Schmerz vor allem als emotionalen, nicht als mechanischen Ausdruck in die Gruppe – dieser primär sprachlich-emotionale statt körperliche Ausdruck steht der rein mechanischen Überlastung, die für Karpaltunnelsyndrom typisch ist, eher entgegen." },
       { code: "SX4", text: "Emotional, nicht primär körperlich-mechanisch: So ist die kompromisslose Intensität, die die sexuelle Vier lebt, geartet – sie erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
         ],
       },
@@ -96835,7 +96835,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Angestaute Sehnsucht, die sich schließlich Bahn bricht",
         varianten: [
       { code: "SE4", text: "Diese lange, stille Ansammlung, die nie einen Ausweg findet, entsteht, wenn die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid über Jahre zurückhält, ohne es je auszudrücken. Sie passt besonders genau zum Bild der Gicht: eine Intensität, die sich, wenn sie sich löst, scharf und unübersehbar entlädt." },
-          { code: "SO4", text: "Die soziale Vier lässt aufgestaute Enttäuschung selten lange in sich gären, sondern bringt sie zeitnah in der Gruppe zur Sprache – dieser regelmäßige Ausdruck steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+      { code: "SO4", text: "Die soziale Vier lässt aufgestaute Enttäuschung selten lange in sich gären, sondern bringt sie zeitnah in der Gruppe zur Sprache – dieser regelmäßige Ausdruck steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
       { code: "SX4", text: "Direkt und fortlaufend entlädt sich die kompromisslose, unmittelbar ausgelebte emotionale Intensität der sexuellen Vier – diese direkte Entladung steht der langen Ansammlung entgegen, die für die Gicht psychosomatisch typisch ist." },
         ],
       },
@@ -96928,7 +96928,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Immer dieselbe festgehaltene innere Anspannung",
         varianten: [
       { code: "SE4", text: "Mit angespannten, kontrollierten Händen funktioniert die selbsterhaltende Vier, der Kontratyp, nach außen beherrscht und hält über Jahre dieselbe innere Anspannung fest. Diese unveränderte, nie gelöste körperliche Haltung passt zum Bild eines Sehnenansatzes, der unter ständiger, nie variierter Anspannung erschöpft ist." },
-          { code: "SO4", text: "Die soziale Vier passt ihre emotionale Selbstdarstellung an das jeweilige Publikum an, wiederholt selten dieselbe Geste zweimal genau gleich – diese Beweglichkeit im Ausdruck kann der starren, immer gleichen körperlichen Anspannung entgegenwirken, die für den Tennisarm besonders typisch ist." },
+      { code: "SO4", text: "Die soziale Vier passt ihre emotionale Selbstdarstellung an das jeweilige Publikum an, wiederholt selten dieselbe Geste zweimal genau gleich – diese Beweglichkeit im Ausdruck kann der starren, immer gleichen körperlichen Anspannung entgegenwirken, die für den Tennisarm besonders typisch ist." },
       { code: "SX4", text: "Von Moment zu Moment stark verändert sich die kompromisslose emotionale Intensität der sexuellen Vier – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das den Tennisarm psychosomatisch kennzeichnet." },
         ],
       },
@@ -97021,7 +97021,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Sehnsucht nach Nähe, die sich selbst blockiert",
         varianten: [
       { code: "SE4", text: "Die Sehnsucht nach Umarmung und Verbindung bleibt bei der selbsterhaltenden Vier, dem Kontratyp, oft unerfüllt – sie hält den eigenen Körper unbewusst angespannt, um das Leid nicht zu zeigen. Diese unaufgelöste Spannung zwischen Sehnsucht und Kontrolle kann sich genau an der Schulter zeigen, jenem Gelenk, das für Umarmung zuständig wäre." },
-          { code: "SO4", text: "Die soziale Vier drückt ihre Sehnsucht nach Nähe offen aus und sucht durchaus Berührung und Verbindung – dieser Ausdruck steht der stillen, nie gelösten Erstarrung entgegen, die für die Frozen Shoulder besonders typisch ist." },
+      { code: "SO4", text: "Die soziale Vier drückt ihre Sehnsucht nach Nähe offen aus und sucht durchaus Berührung und Verbindung – dieser Ausdruck steht der stillen, nie gelösten Erstarrung entgegen, die für die Frozen Shoulder besonders typisch ist." },
       { code: "SX4", text: "Mit viel direkter Nähe lebt die sexuelle Vier kompromisslose emotionale und körperliche Intensität in der Beziehung – diese ausgelebte Intensität steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
       },
@@ -97114,7 +97114,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Zurückgehaltenes Leid, das plötzlich einschießt",
         varianten: [
       { code: "SE4", text: "Bis ein einziger, oft nichtiger Anlass genügt, damit sich lange zurückgehaltene Anspannung körperlich Bahn bricht: So trägt die selbsterhaltende Vier, der Kontratyp, intensives inneres Leid zäh und stumm, ohne es je auszudrücken. Dieses plötzliche, blitzartige Einschießen nach langer stiller Ansammlung passt besonders genau zum Bild des Hexenschusses." },
-          { code: "SO4", text: "Die soziale Vier neigt dazu, Anspannung zeitnah zu artikulieren, statt sie über Wochen anzusammeln – dieser regelmäßige Ausdruck steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
+      { code: "SO4", text: "Die soziale Vier neigt dazu, Anspannung zeitnah zu artikulieren, statt sie über Wochen anzusammeln – dieser regelmäßige Ausdruck steht dem plötzlichen, blitzartigen Einschießen entgegen, das für den Hexenschuss besonders typisch ist." },
       { code: "SX4", text: "Direkt und fortlaufend entlädt sich die kompromisslose, unmittelbar ausgelebte emotionale Intensität der sexuellen Vier – diese direkte Entladung steht der langen Ansammlung entgegen, die für den Hexenschuss psychosomatisch typisch ist." },
         ],
       },
@@ -97207,7 +97207,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Immer dieselbe festgehaltene innere Bewegung",
         varianten: [
       { code: "SE4", text: "Oft mit denselben angespannten, kontrollierten Handbewegungen hält die selbsterhaltende Vier, der Kontratyp, über Jahre dieselbe innere Anspannung fest. Diese unveränderte, nie gelöste körperliche Haltung passt zum Bild einer Sehnenscheide, die unter ständiger, nie variierter Anspannung erschöpft." },
-          { code: "SO4", text: "Die soziale Vier wechselt zwischen verschiedenen Formen des Ausdrucks – mal Worte, mal Gestik, mal Rückzug ins Künstlerische –, statt eine einzige Bewegung endlos zu wiederholen. Diese Beweglichkeit kann der starren, immer gleichen Anspannung entgegenwirken, die für die Sehnenscheidenentzündung besonders typisch ist." },
+      { code: "SO4", text: "Die soziale Vier wechselt zwischen verschiedenen Formen des Ausdrucks – mal Worte, mal Gestik, mal Rückzug ins Künstlerische –, statt eine einzige Bewegung endlos zu wiederholen. Diese Beweglichkeit kann der starren, immer gleichen Anspannung entgegenwirken, die für die Sehnenscheidenentzündung besonders typisch ist." },
       { code: "SX4", text: "Von Moment zu Moment stark verändert sich die kompromisslose emotionale Intensität der sexuellen Vier – diese hohe Variabilität steht dem starren, wiederholten Muster entgegen, das die Sehnenscheidenentzündung psychosomatisch kennzeichnet." },
         ],
       },
