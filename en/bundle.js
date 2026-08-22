@@ -62877,6 +62877,124 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Chronic sinusitis is a reminder of where in life a backup has formed that no longer finds a natural outlet – mentally, emotionally, or in unspoken words. Psychosomatic engagement with the feeling of pressure can help consciously recognize this backup and open paths for it, instead of permanently suppressing it."
   },
+  schlafapnoe: {
+    titel: "Sleep Apnea",
+    kategorie: "atemwege",
+    icon: "😴",
+    kurz: "Repeated pauses in breathing during sleep that lead to oxygen deprivation, arousal reactions, and pronounced daytime fatigue.",
+    definition: "In obstructive sleep apnea, the muscles of the throat relax so much during sleep that the upper airway repeatedly narrows or closes completely. The result is pauses in breathing lasting from ten seconds to over a minute, often occurring dozens to hundreds of times per night, followed by brief, usually unnoticed arousal reactions with which the body restarts breathing. Those affected have no memory of these micro-arousals, yet sleep loses almost all of its restorative depth. Typical consequences are loud, irregular snoring, morning headaches, pronounced daytime fatigue, and an increased risk of high blood pressure and cardiovascular disease. The rarer central sleep apnea, by contrast, arises from a disturbance in the brain's own breathing control.",
+    symptome: ["Loud, irregular snoring with audible pauses in breathing", "Abrupt nighttime startling or gasping for air", "Pronounced daytime fatigue despite adequate sleep duration", "Morning headaches", "Difficulty concentrating and memory problems", "Irritability and low mood"],
+    notfall: "In case of observed, prolonged pauses in breathing, bluish lips, or severe shortness of breath during sleep, seek prompt medical evaluation. Untreated sleep apnea increases the risk of microsleep while driving – with pronounced daytime fatigue, refrain from operating vehicles or machinery until an evaluation has taken place.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "In almost every healing tradition, sleep is considered the state of greatest surrender of control – the moment when the waking self lets go and gives itself over to the unconscious, to the body, to trust in the night. When, of all moments, breathing itself falters right here, it is worth asking psychosomatically where in life a similar pattern exists: a deep, mostly unconscious difficulty in truly letting go, without control – here, over one's own breath – appearing immediately at risk. For each of the 27 subtypes, its own pattern shows how this struggle between letting go and control finds expression in sleep.",
+    typen: [
+      { typ: 1, titel: "Control that will not let go even in sleep", varianten: [
+        { code: "SE1", text: "The self-preservation One keeps everything under strict control during the day and correspondingly struggles to truly let go in sleep. The body, which functions so disciplined while awake, falls paradoxically out of step at night – as if control were failing exactly where it can least be consciously exercised." },
+        { code: "SO1", text: "Whoever, like the social One, carries the responsibility during the day for everything running correctly in the group finds it hard to switch off that vigilance at night as well. The breathing pauses of sleep apnea can be read as a physical picture of how much sleep, too, remains pervaded by an inner authority of control that never fully rests." },
+        { code: "SX1", text: "The sexual One lives tension with great intensity and often carries muscular tension in the throat and jaw into the night as well, which can further narrow the airway. The body seems reluctant to allow itself the full relaxation it would need, even at night." },
+      ]},
+      { typ: 2, titel: "Pride that stays awake even in sleep", varianten: [
+        { code: "SE2", text: "The self-preservation Two often stays in a kind of standby posture well into sleep, in case someone should need her during the night. This unconscious vigilance, paired with the frequent weight gain that results from constantly setting herself aside, favors, both physically and emotionally, sleep that never turns out fully relaxed." },
+        { code: "SO2", text: "The social Two is present for many people at once during the day and rarely truly lets go – even at night, part of her attention often stays with the needs of others. The disturbed sleep depth of apnea can physically mirror how hard it is for her to look after herself first." },
+        { code: "SX2", text: "The sexual Two often seeks physical closeness to her beloved even in sleep and rarely allows herself to settle entirely for herself alone. This unconscious orientation toward the other can prevent her own breath from truly flowing freely and independently during sleep." },
+      ]},
+      { typ: 3, titel: "Achievement that turns sleep into a function", varianten: [
+        { code: "SE3", text: "The self-preservation Three optimizes even sleep as a performance factor and struggles to experience it as a time of pure surrender. This inner tension of still having to &bdquo;function&ldquo; even in sleep can go hand in hand physically with shallower, more disturbed breathing." },
+        { code: "SO3", text: "Whoever, like the social Three, maintains a flawless image all day often carries this tension unconsciously into the night. Loud snoring and visible breathing pauses contradict this image especially clearly – one reason the diagnosis is often delayed for a long time in this subtype." },
+        { code: "SX3", text: "The sexual Three wants to appear attractive even in sleep, in the presence of a partner – the thought of snoring loudly or visibly gasping for air fundamentally contradicts this aspiration. This shame can delay an honest engagement with the problem for a long time." },
+      ]},
+      { typ: 4, titel: "Longing that keeps sleep restless", varianten: [
+        { code: "SE4", text: "The self-preservation Four often experiences sleep disturbances as further proof of a life that feels heavier than that of others. Morning exhaustion fits almost seamlessly into a self-image in which even the night brings no genuine recovery." },
+        { code: "SO4", text: "For the social Four, constant daytime fatigue can become a quiet piece of evidence for how different and burdened her life is compared to others who seem effortlessly rested. Physical exhaustion thus unconsciously reinforces a feeling of separateness." },
+        { code: "SX4", text: "The sexual Four lives closeness and intensity with great force, including in the shared bed – and sometimes carries emotional tension into the night that shows up physically. Restless, interrupted sleep can mirror her constant struggle between longing for merging and fear of being left." },
+      ]},
+      { typ: 5, titel: "Withdrawal that stays watchful even in sleep", varianten: [
+        { code: "SE5", text: "The self-preservation Five likes to withdraw early to conserve energy – yet even in sleep, a watchful, observing part often stays active, preventing true, complete letting go. The breathing pauses can be a physical echo of this inner distance that is never quite given up." },
+        { code: "SO5", text: "The social Five keeps thinking through complex matters even in the evening and rarely lets her mind fully settle. This mental activity extending deep into the night can physically make deep, relaxed breathing harder." },
+        { code: "SX5", text: "The sexual Five rarely opens up fully; even asleep next to a beloved person, a fine inner watchfulness often remains. This unconscious reserve can show up physically as breathing that never quite reaches its full depth." },
+      ]},
+      { typ: 6, titel: "Fear that stays on standby in sleep", varianten: [
+        { code: "SE6", text: "The self-preservation Six stays in a kind of standby mode even at night, ready to react to possible dangers. This latent state of alarm in the nervous system can show up physically in restless sleep interspersed with arousal reactions." },
+        { code: "SO6", text: "The social Six frequently worries about the well-being of her group and carries these worries into sleep. The many brief, unnoticed arousal reactions of apnea can physically depict how hard it is to truly lay down her constant inner wakefulness." },
+        { code: "SX6", text: "The sexual Six moves between courageous devotion and sudden mistrust – this interplay can persist even in sleep, so the body never quite finds rest. Interrupted breathing can mirror this inner disagreement between trust and caution." },
+      ]},
+      { typ: 7, titel: "Excess that shortens sleep", varianten: [
+        { code: "SE7", text: "The self-preservation Seven likes to fill the day with pleasant activities and often only goes to bed late and overtired, so as not to miss out on anything. This chronic under-supply of adequate sleep can further worsen the symptoms of an existing apnea." },
+        { code: "SO7", text: "The social Seven wants to still appear present and entertaining even after a long, sociable evening, and often pushes tiredness aside. Only once daytime fatigue begins to slow down her own sparkling energy is the subject of sleep taken seriously." },
+        { code: "SX7", text: "The sexual Seven keeps seeking intense experiences even in the evening and gladly avoids rest periods. The recovery she actually needs is thereby chronically shortened, which can further intensify existing breathing problems during sleep." },
+      ]},
+      { typ: 8, titel: "Control that allows no surrender in sleep", varianten: [
+        { code: "SE8", text: "The self-preservation Eight does not really want to give up control even in sleep and reacts correspondingly indignantly when someone tells her about loud snoring or breathing pauses. This defensive stance toward her own vulnerability frequently delays the necessary diagnosis." },
+        { code: "SO8", text: "Whoever, like the social Eight, carries a great deal of responsibility has little patience for nighttime complaints, which get dismissed as a tiresome side issue. Only once daytime fatigue noticeably undermines her own assertiveness is the problem taken seriously." },
+        { code: "SX8", text: "The sexual Eight lives intensity with full force and finds the idea of gasping helplessly for air during sleep especially unpleasant. This aversion to her own vulnerability in sleep can lead to complaints being suppressed for a long time." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overrides its own sleep", varianten: [
+        { code: "SE9", text: "The self-preservation Nine grows accustomed to fatigue as a permanent state and rarely asks whether a treatable cause lies behind it. So an existing sleep apnea in this subtype often goes undetected and untreated for years." },
+        { code: "SO9", text: "The social Nine does not want to be a burden to anyone, not even with the request to have her own snoring medically evaluated. Daytime fatigue is rather accepted in silence than actively pursued as her own concern." },
+        { code: "SX9", text: "The sexual Nine merges so completely with her partner that her own physical symptoms are often only noticed once he or she raises them with concern during shared sleep. Perceiving her own exhaustion tends to be considerably harder for this subtype than perceiving it in her partner." },
+      ]},
+    ],
+    abschluss: "Sleep apnea is a reminder of how hard it can sometimes be to truly let go, even in sleep. Psychosomatic engagement with the breathing pauses can help meet one's own need for control more consciously, even at night – without replacing the necessary sleep-medicine treatment."
+  },
+  lungenentzuendung: {
+    titel: "Pneumonia",
+    kategorie: "atemwege",
+    icon: "🫁",
+    kurz: "Acute inflammation of lung tissue, usually caused by bacteria or viruses, with fever, cough, and shortness of breath.",
+    definition: "Pneumonia is an acute inflammation of lung tissue, usually triggered by bacteria, less often by viruses or fungi. The pathogens invade the alveoli, which then fill with inflammatory secretion – gas exchange is impaired, and the body responds with high fever, chills, a productive cough, and increasing shortness of breath. A distinction is made between community-acquired pneumonia, which arises in everyday life, and the hospital-acquired form, which often runs a more severe course. Older people, people with a weakened immune system, and people with pre-existing lung conditions are especially at risk. Unlike the chronic respiratory conditions in this category, pneumonia is an acute, potentially life-threatening event that requires prompt medical intervention.",
+    symptome: ["High fever and chills", "Productive cough with yellowish-green or rust-colored sputum", "Increasing shortness of breath, even at rest", "Stabbing pain when breathing (when the pleura is involved)", "Accelerated pulse and breathing rate", "Pronounced weakness and confusion, especially in older people"],
+    notfall: "In case of high fever combined with shortness of breath, bluish lips, severe confusion, or very rapid breathing, seek emergency medical care immediately. Pneumonia can be life-threatening, especially in older or immunocompromised people, and must be treated medically without delay.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "While the chronic respiratory conditions in this category often mirror fixed patterns grown over years, pneumonia is an acute event – a body that reacts suddenly and with full force once its own defenses can no longer withstand a pathogen. In TCM, the lung is considered the organ most sensitive to outer influences, but also the seat of grief. Acute pneumonia psychosomatically often falls into phases of life in which one's own powers of resistance were already weakened by exhaustion, overload, or unprocessed grief – the pathogen meets ground that no longer has the strength to stand up to it. For each of the 27 subtypes, its own pattern shows how this exhaustion may have come about.",
+    typen: [
+      { typ: 1, titel: "Anger that holds out until exhaustion", varianten: [
+        { code: "SE1", text: "The self-preservation One often keeps working until utter exhaustion, because pausing feels like negligence – it is precisely this exhaustion that can weaken her defenses so far that an infection can spread unhindered into the lung. Pneumonia forces the body to take the break her mind would never have permitted." },
+        { code: "SO1", text: "Whoever, like the social One, carries responsibility over a long time for everything running correctly in the group, rarely grants herself a genuine breather. An acute pneumonia can, in such phases, be the moment the body pulls the emergency brake, because self-care was long overdue." },
+        { code: "SX1", text: "The sexual One lives tension and expectation with great intensity and often ignores physical exhaustion until it can no longer be played down. A severe pneumonia can, in this constellation, become an unmistakable signal that her own uncompromising stance toward herself needs limits." },
+      ]},
+      { typ: 2, titel: "Pride that overrides its own exhaustion", varianten: [
+        { code: "SE2", text: "The self-preservation Two often cares for others until her own reserves of strength are used up – pneumonia hits, in such moments, an immune system already weakened by chronic self-neglect." },
+        { code: "SO2", text: "The social Two is there for many people at once and easily overlooks her own warning signs of exhaustion. An acute pneumonia can be the moment the body unmistakably demands to finally be cared for herself." },
+        { code: "SX2", text: "The sexual Two invests her entire energy in her beloved and sometimes neglects her own physical regeneration in the process. A severe illness like pneumonia can thus become the one situation in which she allows herself to actually be cared for, instead of caring for someone else." },
+      ]},
+      { typ: 3, titel: "Achievement that keeps functioning until collapse", varianten: [
+        { code: "SE3", text: "The self-preservation Three often keeps working even with first signs of illness, because being sidelined feels like failure. This very ignoring of early warning signs can let a harmless infection grow into a full-blown, severe pneumonia." },
+        { code: "SO3", text: "In front of others, the social Three wants to appear capable at all times and therefore often delays signs of illness rather than seeking timely medical treatment. A severe pneumonia forces her into a time-out she would hardly have granted herself voluntarily." },
+        { code: "SX3", text: "The sexual Three wants to appear attractive and strong even when ill and tends to play down initial symptoms. Only once fever and shortness of breath can no longer be masked does she admit to herself that her body urgently needs rest." },
+      ]},
+      { typ: 4, titel: "Longing that exhausts its own strength", varianten: [
+        { code: "SE4", text: "The self-preservation Four often experiences physical exhaustion as a familiar state and easily overlooks the transition from ordinary tiredness to a serious infection. A pneumonia can, in this shift of perception, only late reveal itself for what it is." },
+        { code: "SO4", text: "For the social Four, a severe illness like pneumonia can unconsciously become evidence of how much her own suffering differs from that of others. At the same time, the illness forces a rest that counteracts her otherwise often restless inner comparing with others." },
+        { code: "SX4", text: "The sexual Four often lives emotional exhaustion after intense relationship phases physically as well – the deep exhaustion that sets in during such phases can weaken her defenses and favor an infection that spreads into the lung." },
+      ]},
+      { typ: 5, titel: "Withdrawal that conceals its own weakness", varianten: [
+        { code: "SE5", text: "The self-preservation Five withdraws when exhausted rather than actively seeking medical help, and often observes her own symptoms for a long time before acting. This delay can allow an emerging pneumonia to progress unhindered." },
+        { code: "SO5", text: "The social Five researches signs of illness thoroughly before turning to medical help – valuable time that can be missing with a rapidly worsening pneumonia. Trusting swift medical action tends to be harder for this subtype than her own study of the facts." },
+        { code: "SX5", text: "The sexual Five truly opens up to only a few people and tends to conceal physical weakness as much as possible. A severe pneumonia can interrupt this withdrawal, because physical distress outweighs her habitual protective mechanism of reserve." },
+      ]},
+      { typ: 6, titel: "Fear that wears down its own strength", varianten: [
+        { code: "SE6", text: "The self-preservation Six usually takes conscientious care of her health, yet ongoing worry and tension can exhaust her defenses over time. A pneumonia then meets an immune system already weakened by chronic inner alarm." },
+        { code: "SO6", text: "The social Six frequently worries intensely about the well-being of others and sets her own warning signs aside in the process. An acute pneumonia can, in this constellation, be the moment care must finally be directed at herself." },
+        { code: "SX6", text: "The sexual Six lives in constant alarm between trust and mistrust, which can over time exhaust the nervous system and, with it, her defenses. A severe illness can thus also be an expression of an inner reserve used up over a long time." },
+      ]},
+      { typ: 7, titel: "Excess that plays down its own exhaustion", varianten: [
+        { code: "SE7", text: "The self-preservation Seven happily plays down first signs of illness with the next pleasant activity, instead of granting herself the necessary rest. This avoidance of the unpleasant can let a harmless infection grow into a pneumonia that needs to be taken seriously." },
+        { code: "SO7", text: "The social Seven does not want to dampen the good mood even while ill and frequently delays her own symptoms so as not to burden others. Only a severe illness like pneumonia forces her into the pause she otherwise only reluctantly takes." },
+        { code: "SX7", text: "The sexual Seven keeps throwing herself into new experiences, even when her body has long been asking for rest, because pausing feels like a loss. An acute pneumonia interrupts this pull toward intensity with unmistakable clarity." },
+      ]},
+      { typ: 8, titel: "Control that denies its own exhaustion", varianten: [
+        { code: "SE8", text: "The self-preservation Eight deliberately ignores signs of illness in order to show no weakness, and often keeps working until exhaustion. A developing pneumonia is therefore frequently only recognized once it has already reached a serious extent." },
+        { code: "SO8", text: "Whoever, like the social Eight, carries responsibility for others gladly puts her own health last, until her body leaves her no other choice. A severe pneumonia forces a surrender to her own vulnerability that is especially hard for this subtype." },
+        { code: "SX8", text: "The sexual Eight meets even illness first with confrontation rather than giving in – symptoms get fought down rather than attended to. Only once a pneumonia massively restricts her physical strength does she reluctantly allow herself to accept help." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overlooks its own exhaustion", varianten: [
+        { code: "SE9", text: "The self-preservation Nine happily postpones engaging with first signs of illness and hopes everything will resolve on its own. A worsening pneumonia can, unfortunately, thus be recognized as serious only late." },
+        { code: "SO9", text: "The social Nine does not want to be a burden to anyone and often conceals her own signs of illness, so as not to disturb the daily lives of others. Only a severe pneumonia makes clear that her own health deserves just as much attention as that of others." },
+        { code: "SX9", text: "The sexual Nine merges so completely with her beloved that her own physical warning signs easily go unnoticed. A pneumonia in this subtype is sometimes only noticed once her partner intervenes and insists on medical evaluation." },
+      ]},
+    ],
+    abschluss: "Pneumonia is always an acute event that requires medical treatment. Seen psychosomatically, it can at the same time point to a phase in which one's own powers of resistance were already exhausted before the infection – an occasion to take one's own exhaustion seriously, rather than allowing it only once the body has no choice left."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -62886,7 +63004,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
+  "atemwege": ["Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
