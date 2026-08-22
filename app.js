@@ -97651,6 +97651,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Chronische Sinusitis erinnert daran, wo im Leben ein Stau entstanden ist, der keinen natürlichen Abfluss mehr findet – gedanklich, emotional oder in ungesagten Worten. Die psychosomatische Auseinandersetzung mit dem Druckgefühl kann helfen, diesen Stau bewusst zu erkennen und ihm Wege zu öffnen, statt ihn dauerhaft zu verdrängen."
   },
+  schlafapnoe: {
+    titel: "Schlafapnoe",
+    kategorie: "atemwege",
+    icon: "😴",
+    kurz: "Wiederholte Atemaussetzer während des Schlafs, die zu Sauerstoffmangel, Weckreaktionen und starker Tagesmüdigkeit führen.",
+    definition: "Bei der obstruktiven Schlafapnoe erschlafft die Muskulatur im Rachenraum während des Schlafs so stark, dass die oberen Atemwege sich wiederholt verengen oder vollständig verschließen. Die Folge sind Atempausen von zehn Sekunden bis über einer Minute, oft dutzende bis hunderte Male pro Nacht, gefolgt von kurzen, meist unbemerkten Weckreaktionen, mit denen der Körper die Atmung wieder in Gang setzt. Betroffene erinnern sich an diese Mikroweckreaktionen nicht, doch der Schlaf verliert seine erholsame Tiefe fast vollständig. Typische Folgen sind lautes, unregelmäßiges Schnarchen, morgendliche Kopfschmerzen, ausgeprägte Tagesmüdigkeit und ein erhöhtes Risiko für Bluthochdruck und Herz-Kreislauf-Erkrankungen. Die seltenere zentrale Schlafapnoe entsteht dagegen durch eine gestörte Atemsteuerung im Gehirn selbst.",
+    symptome: ["Lautes, unregelmäßiges Schnarchen mit hörbaren Atempausen", "Nächtliches abruptes Aufschrecken oder Luftschnappen", "Ausgeprägte Tagesmüdigkeit trotz ausreichender Schlafdauer", "Morgendliche Kopfschmerzen", "Konzentrations- und Gedächtnisprobleme", "Gereiztheit und depressive Verstimmung"],
+    notfall: "Bei beobachteten, längeren Atemaussetzern, blau anlaufenden Lippen oder starker Atemnot im Schlaf zeitnah ärztlich abklären lassen. Unbehandelte Schlafapnoe erhöht das Risiko für Sekundenschlaf am Steuer – bei ausgeprägter Tagesmüdigkeit auf das Führen von Fahrzeugen oder Maschinen verzichten, bis eine Abklärung erfolgt ist.",
+    disclaimer: "Diese psychosomatische Deutung ersetzt keine schlafmedizinische Diagnostik (Polysomnografie) und keine Behandlung, etwa mittels CPAP-Therapie.",
+    einleitung: "Schlaf ist in fast allen Heiltraditionen der Zustand größter Kapitulation vor der Kontrolle – der Moment, in dem das wache Ich loslässt und sich dem Unbewussten, dem Körper, dem Vertrauen in die Nacht überlässt. Wenn ausgerechnet in diesem Moment die Atmung selbst ins Stocken gerät, lässt sich psychosomatisch fragen, wo im Leben ein ähnliches Muster besteht: eine tiefe, meist unbewusste Schwierigkeit, wirklich loszulassen, ohne dass unmittelbar die Kontrolle – hier: über den eigenen Atem – gefährdet erscheint. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, worin dieses Ringen zwischen Loslassen und Kontrolle im Schlaf seinen Ausdruck findet.",
+    typen: [
+      { typ: 1, titel: "Die Reformerin / der Reformer", varianten: [
+        { code: "SE_1", text: "Die selbsterhaltende Eins hält tagsüber alles unter strikter Kontrolle und tut sich entsprechend schwer, im Schlaf wirklich loszulassen. Der Körper, der wach so diszipliniert funktioniert, gerät in der Nacht paradox aus dem Takt – als würde die Kontrolle genau dort versagen, wo sie am wenigsten bewusst ausgeübt werden kann." },
+        { code: "SO_1", text: "Wer wie die soziale Eins tagsüber die Verantwortung trägt, dass in der Gruppe alles richtig läuft, kann diese Wachsamkeit auch nachts nur schwer abschalten. Die Atemaussetzer der Schlafapnoe können als körperliches Bild dafür gelesen werden, wie sehr auch der Schlaf noch von einer nie ganz ruhenden inneren Kontrollinstanz durchzogen ist." },
+        { code: "SX_1", text: "Die sexuelle Eins lebt Anspannung mit großer Intensität und trägt oft auch in der Nacht noch muskuläre Spannung im Rachen- und Kieferbereich mit sich, die den Atemweg zusätzlich einengen kann. Der Körper scheint sich selbst nachts nicht die vollständige Entspannung zu erlauben, die er bräuchte." },
+      ]},
+      { typ: 2, titel: "Die Geberin / der Geber", varianten: [
+        { code: "SE_2", text: "Die selbsterhaltende Zwei bleibt oft bis in den Schlaf hinein in einer Art Bereitschaftshaltung, falls jemand sie in der Nacht braucht. Diese unbewusste Wachsamkeit, gepaart mit häufigem Übergewicht als Folge des ständigen Sich-Zurückstellens, begünstigt körperlich wie seelisch, dass der Schlaf nie vollständig entspannt ausfällt." },
+        { code: "SO_2", text: "Die soziale Zwei ist tagsüber für viele Menschen gleichzeitig präsent und lässt selten wirklich los – auch nachts bleibt ein Teil der Aufmerksamkeit oft bei den Bedürfnissen anderer. Die gestörte Schlaftiefe der Apnoe kann körperlich widerspiegeln, wie schwer es fällt, sich selbst als Erste zu versorgen." },
+        { code: "SX_2", text: "Die sexuelle Zwei sucht auch im Schlaf oft körperliche Nähe zur geliebten Person und erlaubt sich selten, ganz für sich allein zur Ruhe zu kommen. Diese unbewusste Ausrichtung auf das Gegenüber kann verhindern, dass der eigene Atem im Schlaf wirklich frei und eigenständig fließt." },
+      ]},
+      { typ: 3, titel: "Die Erfolgreiche / der Erfolgreiche", varianten: [
+        { code: "SE_3", text: "Die selbsterhaltende Drei optimiert selbst den Schlaf als Leistungsfaktor und tut sich schwer, ihn als Zeit reiner Kapitulation zu erleben. Diese innere Anspannung, auch im Schlaf noch ›funktionieren‹ zu müssen, kann körperlich mit einer flacheren, gestörteren Atmung einhergehen." },
+        { code: "SO_3", text: "Wer wie die soziale Drei den ganzen Tag ein makelloses Bild aufrechterhält, trägt diese Anspannung oft unbewusst bis in die Nacht. Lautes Schnarchen und sichtbare Atemaussetzer widersprechen diesem Bild besonders deutlich – ein Grund, warum die Diagnose von diesem Subtyp oft lange hinausgezögert wird." },
+        { code: "SX_3", text: "Die sexuelle Drei möchte auch im Schlaf, im Beisein einer Partnerin oder eines Partners, attraktiv wirken – die Vorstellung, laut zu schnarchen oder sichtbar nach Luft zu schnappen, widerspricht diesem Anspruch fundamental. Diese Scham kann eine ehrliche Auseinandersetzung mit dem Problem lange verzögern." },
+      ]},
+      { typ: 4, titel: "Die Individualistin / der Individualist", varianten: [
+        { code: "SE_4", text: "Die selbsterhaltende Vier erlebt Schlafstörungen oft als weiteren Beleg für ein Leben, das sich schwerer anfühlt als das anderer. Die morgendliche Erschöpfung fügt sich fast nahtlos in ein Selbstbild ein, in dem selbst die Nacht keine echte Erholung bringt." },
+        { code: "SO_4", text: "Für die soziale Vier kann die ständige Tagesmüdigkeit zum stillen Beleg dafür werden, wie anders und belastet ihr Leben im Vergleich zu scheinbar mühelos ausgeruhten anderen verläuft. Die körperliche Erschöpfung verstärkt so unbewusst ein Gefühl von Getrenntsein." },
+        { code: "SX_4", text: "Die sexuelle Vier lebt Nähe und Intensität mit großer Wucht, auch im gemeinsamen Bett – und trägt mitunter emotionale Anspannung mit in die Nacht, die sich körperlich niederschlägt. Der unruhige, unterbrochene Schlaf kann das ständige Ringen zwischen Sehnsucht nach Verschmelzung und Angst vor Verlassenwerden spiegeln." },
+      ]},
+      { typ: 5, titel: "Die Beobachterin / der Beobachter", varianten: [
+        { code: "SE_5", text: "Die selbsterhaltende Fünf zieht sich gerne früh zurück, um Energie zu sparen – doch auch im Schlaf bleibt oft ein wachsamer, beobachtender Teil aktiv, der verhindert, wirklich vollständig loszulassen. Die Atemaussetzer können ein körperliches Echo dieser nie ganz aufgegebenen inneren Distanz sein." },
+        { code: "SO_5", text: "Die soziale Fünf denkt auch abends noch über komplexe Zusammenhänge nach und lässt den Verstand selten ganz zur Ruhe kommen. Diese mentale Aktivität bis tief in die Nacht hinein kann körperlich eine tiefe, entspannte Atmung erschweren." },
+        { code: "SX_5", text: "Die sexuelle Fünf öffnet sich selten vollständig, auch im Schlaf neben einer geliebten Person bleibt oft eine feine innere Wachheit bestehen. Diese unbewusste Zurückhaltung kann sich körperlich als eine Atmung zeigen, die nie ganz zur vollständigen Tiefe findet." },
+      ]},
+      { typ: 6, titel: "Die Loyale / der Loyale", varianten: [
+        { code: "SE_6", text: "Die selbsterhaltende Sechs bleibt auch nachts in einer Art Bereitschaftsmodus, um auf mögliche Gefahren reagieren zu können. Dieser latente Alarmzustand des Nervensystems kann sich körperlich in einem unruhigen, von Weckreaktionen durchsetzten Schlaf niederschlagen." },
+        { code: "SO_6", text: "Die soziale Sechs sorgt sich häufig um das Wohl der Gruppe und trägt diese Sorgen mit in den Schlaf hinein. Die vielen kurzen, unbemerkten Weckreaktionen der Apnoe können körperlich abbilden, wie schwer es fällt, das ständige innere Wachsein wirklich ganz abzulegen." },
+        { code: "SX_6", text: "Die sexuelle Sechs bewegt sich zwischen mutiger Hingabe und plötzlichem Misstrauen – auch im Schlaf kann dieses Wechselspiel bestehen bleiben, sodass der Körper nie ganz zur Ruhe findet. Der unterbrochene Atem kann diese innere Uneinigkeit zwischen Vertrauen und Vorsicht widerspiegeln." },
+      ]},
+      { typ: 7, titel: "Die Enthusiastin / der Enthusiast", varianten: [
+        { code: "SE_7", text: "Die selbsterhaltende Sieben füllt den Tag gern mit angenehmen Aktivitäten und geht abends oft erst spät und übermüdet ins Bett, um bloß nichts zu verpassen. Diese chronische Unterversorgung mit ausreichend Schlaf kann die Symptome einer bestehenden Apnoe zusätzlich verschärfen." },
+        { code: "SO_7", text: "Die soziale Sieben möchte auch nach einem langen, geselligen Abend noch präsent und unterhaltsam wirken und schiebt Müdigkeit oft beiseite. Erst wenn die Tagesmüdigkeit sie selbst in ihrer sprühenden Energie ausbremst, wird das Thema Schlaf ernsthaft angegangen." },
+        { code: "SX_7", text: "Die sexuelle Sieben sucht auch abends noch nach intensiven Erlebnissen und geht Ruhephasen gern aus dem Weg. Die eigentlich notwendige Erholung wird dadurch chronisch verkürzt, was bestehende Atemprobleme im Schlaf zusätzlich verstärken kann." },
+      ]},
+      { typ: 8, titel: "Die Chefin / der Chef", varianten: [
+        { code: "SE_8", text: "Die selbsterhaltende Acht will auch im Schlaf nicht wirklich die Kontrolle abgeben und reagiert entsprechend ungehalten, wenn ihr jemand von lautem Schnarchen oder Atemaussetzern berichtet. Diese Abwehrhaltung gegenüber der eigenen Verletzlichkeit verzögert häufig die notwendige Diagnostik." },
+        { code: "SO_8", text: "Wer wie die soziale Acht viel Verantwortung trägt, hat wenig Geduld für nächtliche Beschwerden, die als lästige Randerscheinung abgetan werden. Erst wenn die Tagesmüdigkeit die eigene Durchsetzungskraft spürbar untergräbt, wird das Problem ernst genommen." },
+        { code: "SX_8", text: "Die sexuelle Acht lebt Intensität mit voller Wucht und empfindet die Vorstellung, im Schlaf hilflos nach Luft zu schnappen, als besonders unangenehm. Diese Abneigung gegen die eigene Verletzlichkeit im Schlaf kann dazu führen, dass Beschwerden lange verdrängt werden." },
+      ]},
+      { typ: 9, titel: "Die Vermittlerin / der Vermittler", varianten: [
+        { code: "SE_9", text: "Die selbsterhaltende Neun gewöhnt sich an Müdigkeit als Dauerzustand und stellt selten die Frage, ob dahinter eine behandelbare Ursache steckt. So bleibt eine bestehende Schlafapnoe bei diesem Subtyp oft über Jahre unentdeckt und unbehandelt." },
+        { code: "SO_9", text: "Die soziale Neun möchte niemandem zur Last fallen, auch nicht mit der Bitte, das eigene Schnarchen ärztlich abklären zu lassen. Die Tagesmüdigkeit wird lieber stillschweigend hingenommen, als das eigene Anliegen aktiv zu verfolgen." },
+        { code: "SX_9", text: "Die sexuelle Neun verschmilzt so vollständig mit dem Partner oder der Partnerin, dass eigene körperliche Symptome oft erst bemerkt werden, wenn dieser oder diese sie beim gemeinsamen Schlaf besorgt anspricht. Die eigene Erschöpfung selbst wahrzunehmen fällt diesem Subtyp häufig deutlich schwerer als beim Gegenüber." },
+      ]},
+    ],
+    abschluss: "Schlafapnoe erinnert daran, wie schwer es mitunter fällt, auch im Schlaf wirklich loszulassen. Die psychosomatische Auseinandersetzung mit den Atemaussetzern kann helfen, dem eigenen Kontrollbedürfnis auch nachts bewusster zu begegnen – ohne die notwendige schlafmedizinische Behandlung zu ersetzen."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97661,7 +97720,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
+  "atemwege": ["Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
