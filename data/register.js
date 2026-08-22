@@ -459,6 +459,7 @@ export const registerEntries = [
   { term: "Kreisrunder Haarausfall (Psychosomatik)", route: "psychosomatik/kreisrunder_haarausfall", description: "Psychosomatische Deutung: plötzlicher Schock und Kraftverlust, TCM Blut-Schock, Enneagramm alle 27 Subtypen" },
   { term: "Hyperhidrose (Psychosomatik)", route: "psychosomatik/hyperhidrose", description: "Psychosomatische Deutung: Nervensystem in Dauerbereitschaft, TCM Wei-Qi-Schwäche, Enneagramm alle 27 Subtypen" },
   { term: "Lippenherpes (Psychosomatik)", route: "psychosomatik/lippenherpes", description: "Psychosomatische Deutung: latentes Thema, das bei Erschöpfung wieder aufbricht, TCM latente Hitze, Enneagramm alle 27 Subtypen" },
+  { term: "Kontaktekzem (Psychosomatik)", route: "psychosomatik/kontaktekzem", description: "Psychosomatische Deutung: konkrete äußere Unverträglichkeit an der Kontaktstelle, TCM eindringender pathogener Faktor, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
