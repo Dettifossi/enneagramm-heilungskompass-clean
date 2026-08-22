@@ -37847,7 +37847,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -37862,7 +37862,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'"
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
@@ -37874,12 +37874,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Fear is not avoided but confronted head-on – strength as counter-fear (Naranjo: countertype of the Six)",
-    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith"],
+    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller"],
     fingerabdruecke: [
       {
         titel: "Fear is not avoided, but confronted head-on",
         beschreibung: "Unlike the other Six subtypes, this expression seeks security not through adaptation or retreat, but through directly confronting one's own fear – strength becomes the counter-reaction to a deep-seated insecurity.",
-        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world."
+        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness."
       },
       {
         titel: "Direct eye contact and plain speech instead of retreat or diplomacy",
@@ -38338,12 +38338,12 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Merging with a single being, work, or style instead of belonging to a group",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning"],
     fingerabdruecke: [
       {
         titel: "The one bond instead of many contacts",
         beschreibung: "Life repeatedly centers not around a network, an institution, or an audience, but around a single, often non-human or very private relationship, or a single work or role. This one merging becomes the pivot of the entire further biography – up to a dissolving of the boundary between self and other.",
-        beleg: "Foster and his nameless octopus, Goodall and the chimpanzee David Greybeard, Salceda and the sloth Velcro; Velázquez in 'Las Meninas,' where 'the boundary between viewer and viewed blurs'; Beltracchi, whose art forgeries are described as 'merging with the spirit of dead masters'; Carl Rogers' unconditionally accepting therapeutic presence for the person before him; Mario Barth, who since his stage debut in 2001 'merged from then on with a stage persona that spoke to a mass audience' – the Berlin working-class guy character; Keanu Reeves' merging with individual iconic roles (Neo, John Wick), without ever living out the star facade that comes with them."
+        beleg: "Foster and his nameless octopus, Goodall and the chimpanzee David Greybeard, Salceda and the sloth Velcro; Velázquez in 'Las Meninas,' where 'the boundary between viewer and viewed blurs'; Beltracchi, whose art forgeries are described as 'merging with the spirit of dead masters'; Carl Rogers' unconditionally accepting therapeutic presence for the person before him; Mario Barth, who since his stage debut in 2001 'merged from then on with a stage persona that spoke to a mass audience' – the Berlin working-class guy character; Keanu Reeves' merging with individual iconic roles (Neo, John Wick), without ever living out the star facade that comes with them; Elizabeth Barrett Browning, whose twenty years of isolation in her father's house dissolved, within twenty months of correspondence, into the one central bond of the rest of her life – 'the SX9 invests her entire energy in the one relationship that counts, letting everything else – even her own safety – fall away.'"
       },
       {
         titel: "Apparent sluggishness that turns, when needed, into full, precise intensity",

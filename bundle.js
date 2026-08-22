@@ -42894,7 +42894,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe"],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
@@ -42909,7 +42909,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Dienst an etwas Größerem als sich selbst, statt persönlichem Ruhm",
         beschreibung: "Das eigene Werk wird nicht als Selbstdarstellung verstanden, sondern als Beitrag zu einer Gemeinschaft, einer Idee oder einem System, das größer ist als die eigene Person.",
-        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹"
+        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹; Goethe, der sich 1775 auf dem Höhepunkt seines literarischen Ruhms für fast fünfzig Jahre einer Verwaltungsarbeit für Herzog Carl August verpflichtete, die seiner eigentlichen künstlerischen Natur oft diametral entgegenstand – Dienst am Weimarer Gemeinwesen statt am eigenen Künstlerruhm."
       },
       {
         titel: "Wenn die perfekte, dienende Fassade eine maßlose, zerstörerische Realität verbirgt (Schattenform)",
@@ -42921,12 +42921,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
-    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith"],
+    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller"],
     fingerabdruecke: [
       {
         titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
         beschreibung: "Anders als die anderen Sechser-Subtypen sucht diese Ausprägung Sicherheit nicht durch Anpassung oder Rückzug, sondern durch das direkte Konfrontieren der eigenen Angst – Stärke wird zur Gegenreaktion auf eine tief sitzende Unsicherheit.",
-        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen; Scarlett Johansson, deren Rollen – die kühle Black Widow, die kontrollierte KI-Stimme in ›Her‹ – immer wieder Stärke performen, während darunter etwas Verletzliches, Suchendes liegt; Moses, der sich der Berufung am Dornbusch viermal widersetzte, dann aber wiederholt und ohne erkennbares Zögern vor den mächtigsten Herrscher der bekannten Welt trat."
+        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen; Scarlett Johansson, deren Rollen – die kühle Black Widow, die kontrollierte KI-Stimme in ›Her‹ – immer wieder Stärke performen, während darunter etwas Verletzliches, Suchendes liegt; Moses, der sich der Berufung am Dornbusch viermal widersetzte, dann aber wiederholt und ohne erkennbares Zögern vor den mächtigsten Herrscher der bekannten Welt trat; Friedrich Schiller, der als Kadett heimlich ›Die Räuber‹ gegen die Zensur seines Herzogs verfasste und schließlich mittellos aus Württemberg floh, statt sich der Willkürherrschaft zu beugen – und der später mit derselben Härte, mit der er einst dem Herzog begegnet war, vierzehn Jahre gegen den eigenen, tödlich fortschreitenden Krankheitsverfall arbeitete."
       },
       {
         titel: "Direkter Blickkontakt und Klartext statt Rückzug oder Diplomatie",
@@ -43385,12 +43385,12 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
     kernthema: "Verschmelzung mit einem einzelnen Wesen, Werk oder Stil statt Zugehörigkeit zu einer Gruppe",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning"],
     fingerabdruecke: [
       {
         titel: "Die eine Bindung statt der vielen Kontakte",
         beschreibung: "Immer wieder zentriert sich das Leben nicht um ein Netzwerk, eine Institution oder ein Publikum, sondern um eine einzelne, oft nicht-menschliche oder sehr private Beziehung bzw. ein einzelnes Werk oder eine einzelne Rolle. Diese eine Verschmelzung wird zum Dreh- und Angelpunkt der gesamten weiteren Biografie – bis hin zur Auflösung der Grenze zwischen dem eigenen Ich und dem Gegenüber.",
-        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber; Mario Barth, der seit seinem Bühnendebüt 2001 ›von da an mit einer Bühnenfigur verschmolz, die zum Millionenpublikum sprach‹ – dem Berliner Kumpeltyp; Keanu Reeves' Verschmelzung mit einzelnen ikonischen Rollen (Neo, John Wick), ohne die dazugehörige Star-Fassade je mitzuleben."
+        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber; Mario Barth, der seit seinem Bühnendebüt 2001 ›von da an mit einer Bühnenfigur verschmolz, die zum Millionenpublikum sprach‹ – dem Berliner Kumpeltyp; Keanu Reeves' Verschmelzung mit einzelnen ikonischen Rollen (Neo, John Wick), ohne die dazugehörige Star-Fassade je mitzuleben; Elizabeth Barrett Browning, deren zwanzig Jahre Isolation im Vaterhaus sich binnen zwanzig Monaten Briefwechsel in die eine zentrale Bindung ihres restlichen Lebens verwandelten – ›die SX9 investiert ihre gesamte Energie in die eine Beziehung, die zählt, und lässt alles andere – auch die eigene Sicherheit – dahinter zurücktreten‹."
       },
       {
         titel: "Scheinbare Trägheit, die sich bei Bedarf in volle, präzise Intensität verwandelt",
