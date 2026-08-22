@@ -485,6 +485,13 @@ export const registerEntries = [
   { term: "Restless-Legs-Syndrom (Psychosomatik)", route: "psychosomatik/restless_legs_syndrom", description: "Psychosomatische Deutung: Bewegungsdrang ausgerechnet in der Ruhe, Enneagramm alle 27 Subtypen" },
   { term: "Zähneknirschen / Bruxismus (Psychosomatik)", route: "psychosomatik/zaehneknirschen_bruxismus", description: "Psychosomatische Deutung: tagsüber Zurückgehaltenes presst sich nachts durch den Kiefer, Enneagramm alle 27 Subtypen" },
   { term: "Chronisches Erschöpfungssyndrom / ME/CFS (Psychosomatik)", route: "psychosomatik/chronisches_erschoepfungssyndrom_mecfs", description: "Psychosomatische Deutung: Erschöpfung ohne Erholung, jede Anstrengung verschärft den Zustand, Enneagramm alle 27 Subtypen" },
+  { term: "Multiple Sklerose (Psychosomatik)", route: "psychosomatik/multiple_sklerose", description: "Psychosomatische Deutung: Abwehrsystem greift die schützende Nervenhülle an, Enneagramm alle 27 Subtypen" },
+  { term: "Häufige Infekte / Immunschwäche (Psychosomatik)", route: "psychosomatik/haeufige_infekte_immunschwaeche", description: "Psychosomatische Deutung: ein Abwehrsystem, das ständig zu kämpfen hat, Enneagramm alle 27 Subtypen" },
+  { term: "Long-COVID / Post-Viral-Syndrom (Psychosomatik)", route: "psychosomatik/long_covid_post_viral_syndrom", description: "Psychosomatische Deutung: der Körper kehrt nach überstandener Infektion nicht zur alten Belastbarkeit zurück, Enneagramm alle 27 Subtypen" },
+  { term: "Impffolgen / Post-Vac-Syndrom (Psychosomatik)", route: "psychosomatik/impffolgen_post_vac_syndrom", description: "Psychosomatische Deutung: der Körper reagiert unerwartet auf eine vertraute medizinische Maßnahme, Enneagramm alle 27 Subtypen" },
+  { term: "Lupus erythematodes (Psychosomatik)", route: "psychosomatik/lupus_erythematodes", description: "Psychosomatische Deutung: das Immunsystem unterscheidet den eigenen Körper nicht mehr vom Angreifer, Enneagramm alle 27 Subtypen" },
+  { term: "Nahrungsmittelallergien (Psychosomatik)", route: "psychosomatik/nahrungsmittelallergien", description: "Psychosomatische Deutung: das Immunsystem erkennt in der Nahrung selbst eine Bedrohung, Enneagramm alle 27 Subtypen" },
+  { term: "Sarkoidose (Psychosomatik)", route: "psychosomatik/sarkoidose", description: "Psychosomatische Deutung: stille Entzündung, die sich über Jahre in kleinen Knötchen festsetzt, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
