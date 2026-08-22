@@ -62995,6 +62995,183 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Pneumonia is always an acute event that requires medical treatment. Seen psychosomatically, it can at the same time point to a phase in which one's own powers of resistance were already exhausted before the infection – an occasion to take one's own exhaustion seriously, rather than allowing it only once the body has no choice left."
   },
+  hyperventilationssyndrom: {
+    titel: "Hyperventilation Syndrome",
+    kategorie: "atemwege",
+    icon: "💨",
+    kurz: "Sudden bouts of breathing too fast and too deep, usually triggered by acute anxiety or chronic stress, with tingling, dizziness, and tightness.",
+    definition: "In hyperventilation syndrome, the affected person breathes noticeably faster and deeper than the body needs for its current oxygen demand. This causes too much carbon dioxide to be exhaled, shifting the blood's acid-base balance, and leads to symptoms such as tingling in the hands, feet, and around the mouth, dizziness, tightness in the chest, a racing heart, and, in pronounced cases, cramping of the hands (carpopedal spasm). Triggers are usually acute anxiety, panic, or ongoing psychological stress; organic causes must, however, be medically ruled out before the diagnosis is made. Unlike asthma, the problem here is not narrowing of the airways but a misregulation of breathing depth and rate itself.",
+    symptome: ["Fast, shallow or noticeably deep breathing", "Tingling or numbness in the hands, feet, and around the mouth", "Dizziness and lightheadedness", "Tightness or pressure in the chest", "Racing heart and trembling", "In pronounced cases, cramping of the hands (carpopedal spasm)"],
+    notfall: "On first occurrence, or with additional symptoms such as severe chest pain, one-sided weakness, or altered consciousness, seek emergency medical care immediately to reliably rule out other, more serious causes. Only after a medically confirmed diagnosis should breathing into a bag or into cupped hands be used as a self-help measure.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Breathing is the only vital bodily function that is both involuntary and voluntary at once – it runs automatically, yet can be consciously influenced at any moment. It is precisely at this interface between conscious and unconscious that hyperventilation syndrome takes hold: acute fear or pent-up stress that finds no other expression reaches directly into breathing and throws its natural rhythm off balance. Unlike the chronic conditions in this category, what shows up here is usually not a pattern grown over years but an acute overload of the nervous system that discharges immediately in the body. For each of the 27 subtypes, its own pattern shows where this acute overload has its origin.",
+    typen: [
+      { typ: 1, titel: "Anger that suddenly discharges through the breath", varianten: [
+        { code: "SE1", text: "The self-preservation One usually keeps anger and tension under disciplined control, until the inner pressure eventually finds no other way out than through breathing. A hyperventilation attack can thus be the moment her otherwise so taut self-control briefly loses the upper hand." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over everything running correctly, easily slips into a spiral of tension under sudden overload that transfers directly to her breathing. The body reacts exactly where the mind can no longer maintain control." },
+        { code: "SX1", text: "The sexual One lives outrage at imperfection with great intensity, and when this intensity finds no outlet, it can discharge in an acute hyperventilation attack – the body, in a sense, breathes off the pent-up arousal that was not allowed to express itself in words." },
+      ]},
+      { typ: 2, titel: "Pride that must not show sudden fear", varianten: [
+        { code: "SE2", text: "The self-preservation Two sets her own needs aside for so long that the inner pressure eventually can no longer be held – a hyperventilation attack can, in such moments, be the point at which the body unmistakably signals that the limit of self-sacrifice has been reached." },
+        { code: "SO2", text: "The social Two tries to be indispensable to many people at once and, under overload, easily slips into a state of inner breathlessness that discharges physically as actual breathlessness." },
+        { code: "SX2", text: "The sexual Two often fears the loss of her beloved so intensely that acute relationship anxiety can transfer directly onto her breathing. A hyperventilation attack can, in this constellation, be a direct physical expression of an overwhelming fear of loss." },
+      ]},
+      { typ: 3, titel: "Achievement that collapses under acute pressure", varianten: [
+        { code: "SE3", text: "The self-preservation Three drives herself to high achievement and often ignores her own limits of strain, until her body abruptly forces a pause with an acute attack. Breathing becomes the one uncontrollable authority in a life otherwise ruled by control." },
+        { code: "SO3", text: "In front of others, the social Three wants to appear composed at all times, which is why a visible hyperventilation attack is especially embarrassing for her – yet it is precisely the effort to show no weakness that can build inner tension so far that it discharges right there." },
+        { code: "SX3", text: "The sexual Three stands under constant pressure to shine in contact with others and can barely compensate for this pressure under heavy stress. An acute attack can be the moment her maintained brilliance briefly collapses." },
+      ]},
+      { typ: 4, titel: "Longing that suddenly overwhelms the breath", varianten: [
+        { code: "SE4", text: "The self-preservation Four often experiences feelings with great intensity without finding a reliable way to regulate them. A hyperventilation attack can be the physical expression of an emotional flooding for which everyday life offers no other channel." },
+        { code: "SO4", text: "For the social Four, the feeling of being alone with her own emotional intensity can, in acute moments of overload, transfer directly onto her breathing – the body reacts to an emotional loneliness that finds no verbal expression." },
+        { code: "SX4", text: "The sexual Four lives longing and despair with full force, and when these feelings overwhelm her in an intense relationship situation, the emotional overwhelm can discharge in an acute attack in which breath can no longer keep pace with the intensity of feeling." },
+      ]},
+      { typ: 5, titel: "Withdrawal that collapses under sudden closeness", varianten: [
+        { code: "SE5", text: "The self-preservation Five usually keeps feelings at a distance and only reacts physically once the inner tension can no longer be controlled. A hyperventilation attack can thus be the rare moment in which her otherwise so composed distance collapses." },
+        { code: "SO5", text: "The social Five frequently analyzes burdens mentally rather than processing them emotionally, and can, under sudden overload, slip into a state in which the mind loses control – a state that transfers directly onto her breathing." },
+        { code: "SX5", text: "The sexual Five rarely opens up fully, and when strong feelings nonetheless break through in an intense bond, this unfamiliar emotional permeability can overwhelm her body and discharge in an acute attack." },
+      ]},
+      { typ: 6, titel: "Fear that discharges directly through the breath", varianten: [
+        { code: "SE6", text: "The self-preservation Six often lives in latent worry over possible dangers, and acute fear can suddenly intensify this state until the tension discharges directly in a hyperventilation attack – one of the most common constellations for this symptom overall." },
+        { code: "SO6", text: "The social Six worries intensely about the well-being of her group and, under acute conflict or uncertainty, easily slips into a state of heightened alertness that can show up physically as accelerated, irregular breathing." },
+        { code: "SX6", text: "The sexual Six moves between courageous confrontation of her own fears and sudden being overwhelmed by them – it is precisely this abrupt shift that can trigger an acute hyperventilation attack, when fear briefly gains the upper hand." },
+      ]},
+      { typ: 7, titel: "Excess that hits its sudden limit", varianten: [
+        { code: "SE7", text: "The self-preservation Seven usually skillfully sidesteps unpleasant feelings, but when this avoidance hits its limits, the pent-up fear can discharge in an acute attack – the one moment in which her otherwise so nimble evasion no longer works." },
+        { code: "SO7", text: "The social Seven happily plays down her own worries with optimism, but under heavy pressure this facade can crack, and the withheld fear discharges directly through her breathing." },
+        { code: "SX7", text: "The sexual Seven seeks intensity to stay ahead of unpleasant feelings, but when a situation overwhelms her anyway, sudden confrontation with her own fear can trigger an acute hyperventilation attack." },
+      ]},
+      { typ: 8, titel: "Control that briefly breaks under acute pressure", varianten: [
+        { code: "SE8", text: "The self-preservation Eight is reluctant to let fear show and usually suppresses it consistently – yet it is precisely this suppression that can cause tension to discharge uncontrolled through her breathing once the inner pressure grows too great." },
+        { code: "SO8", text: "Whoever, like the social Eight, radiates responsibility and strength, rarely allows herself to show fear openly. A hyperventilation attack can be the one moment in which this strength visibly breaks and hidden vulnerability comes to light." },
+        { code: "SX8", text: "The sexual Eight usually meets threat with immediate confrontation, but when a situation spins out of control and even this strategy fails, the pent-up arousal can discharge in an acute attack." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that suddenly shows fear", varianten: [
+        { code: "SE9", text: "The self-preservation Nine usually skillfully suppresses uncomfortable tensions, but when too much unspoken has accumulated, this inner tension can discharge suddenly and uncontrolled through her breathing." },
+        { code: "SO9", text: "The social Nine often maintains peace in the group at the cost of her own tension, which builds up unnoticed over a long time. An acute hyperventilation attack can be the moment this suppressed tension becomes impossible to overlook." },
+        { code: "SX9", text: "The sexual Nine merges so completely with her beloved relationship that her own fears are rarely named – when this suppressed fear breaks through nonetheless, it sometimes happens abruptly, in the form of an acute attack that breaks through her otherwise so merged calm." },
+      ]},
+    ],
+    abschluss: "Hyperventilation syndrome is a reminder that acute inner tension, when it finds no other expression, can discharge directly through breathing. Psychosomatic work on it can help notice fear and stress earlier and more consciously, instead of allowing them only in an acute attack."
+  },
+  chronische_mandelentzuendung: {
+    titel: "Chronic Tonsillitis",
+    kategorie: "atemwege",
+    icon: "🗣️",
+    kurz: "Recurring or persistent inflammation of the tonsils with a sore throat, difficulty swallowing, and swollen lymph nodes.",
+    definition: "Chronic tonsillitis is diagnosed when the tonsils are repeatedly acutely inflamed or remain permanently enlarged, reddened, and coated with whitish deposits. The tonsils belong to the lymphatic defense system at the entrance of the mouth and throat and normally filter out pathogens before they penetrate deeper into the body. In chronic inflammation, however, they themselves become permanently overloaded, lose their filtering function, and become the starting point of recurring infections. Typical complaints are persistent sore throat, difficulty swallowing, bad breath, and swollen neck lymph nodes. With frequently recurring acute flare-ups (several times a year), surgical removal of the tonsils is often considered.",
+    symptome: ["Persistent or recurring sore throat", "Difficulty swallowing", "Whitish deposits or plugs of pus on the tonsils", "Bad breath", "Swollen, tender neck lymph nodes", "Mild, persistent feeling of illness and fatigue"],
+    notfall: "In case of very severe difficulty swallowing with drooling, muffled speech, marked one-sided swelling in the throat, or shortness of breath, seek emergency medical care immediately (a sign of a possible tonsillar abscess). In case of high fever lasting several days, seek medical evaluation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The tonsils sit at a symbolically significant place: the entrance where it is decided what is let into the body and what is fended off – and, at the same time, right at the exit of the voice, the place where words leave the body. Psychosomatically, the throat is traditionally associated with what wants to be said but is not allowed to be said, or cannot be said. A chronically inflamed tonsil can thus be read as a place where withheld words, suppressed objection, or a constant swallowing of too much settle physically. For each of the 27 subtypes, its own pattern shows which words are especially often swallowed here.",
+    typen: [
+      { typ: 1, titel: "Anger that gets swallowed", varianten: [
+        { code: "SE1", text: "The self-preservation One often holds back sharp criticism, because an open accusation does not fit her image of composure. This constantly swallowed correction can settle physically in a throat that stays chronically irritated and inflamed." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over everything running correctly, often suppresses the impulse to correct others directly, so as not to endanger the group's harmony. Withheld lessons can make themselves noticeable as a persistent irritation in the throat." },
+        { code: "SX1", text: "The sexual One lives outrage intensely, yet holds some of it back especially in close relationships, so as not to be seen as overly critical. This withholding of sharp words at moments of greatest emotional closeness can chronically burden the throat." },
+      ]},
+      { typ: 2, titel: "Pride that holds back its own words", varianten: [
+        { code: "SE2", text: "The self-preservation Two regularly swallows her own needs, so as not to be a burden to others. This constant setting-aside of her own wanting can mirror itself physically in a throat that stays chronically irritated, because so much unsaid lingers there." },
+        { code: "SO2", text: "The social Two often holds back her own exhaustion or disappointment, in order to keep being seen as a reliable support for many. What is not allowed to be voiced backs up in the throat, both figuratively and literally." },
+        { code: "SX2", text: "The sexual Two often conceals her own doubts about the relationship, out of fear of endangering closeness to her beloved. These withheld truths can manifest as persistent irritation in the throat." },
+      ]},
+      { typ: 3, titel: "Achievement that conceals its own doubts", varianten: [
+        { code: "SE3", text: "The self-preservation Three usually swallows her own exhaustion, in order to keep appearing capable – words like &bdquo;I can't manage this right now&ldquo; rarely get voiced, but stay stuck in the throat." },
+        { code: "SO3", text: "In front of others, the social Three wants to appear flawless at all times and correspondingly consistently suppresses self-doubt. This constant holding back of her own insecurity can make itself noticeable as a chronically irritated throat." },
+        { code: "SX3", text: "The sexual Three wants to appear radiant at all times in contact with others and often swallows her own disappointments rather than naming them. These unspoken feelings can permanently burden the throat." },
+      ]},
+      { typ: 4, titel: "Longing that stays unspoken", varianten: [
+        { code: "SE4", text: "The self-preservation Four often experiences the sense that her emotional inner life would not be understood by others, and therefore prefers to keep much to herself. This chronic concealing of intense feelings can show up physically as persistent irritation in the throat." },
+        { code: "SO4", text: "For the social Four, much of her own experience remains unsaid, because she fears meeting incomprehension with it. What inwardly seems too special or too vulnerable to say out loud can settle as a persistent burden in the throat." },
+        { code: "SX4", text: "The sexual Four lives longing with great intensity, yet sometimes conceals her most vulnerable wishes out of fear of rejection. This withholding of the deepest truth can chronically irritate the throat." },
+      ]},
+      { typ: 5, titel: "Withdrawal that holds back its own thoughts", varianten: [
+        { code: "SE5", text: "The self-preservation Five usually prefers to hold her own thoughts back rather than voice them unprompted. This restraint, trained over years, can settle physically in a throat that far too often does not get to speak." },
+        { code: "SO5", text: "The social Five shares her knowledge selectively and in measured doses, but holds back far more than she reveals. This deliberate holding-back of thoughts and assessments can make itself noticeable as a chronic burden in the throat." },
+        { code: "SX5", text: "The sexual Five rarely opens up fully and often conceals precisely her most intense thoughts and feelings. This rare but intense restraint can show up physically as recurring throat infections." },
+      ]},
+      { typ: 6, titel: "Fear that swallows withheld doubts", varianten: [
+        { code: "SE6", text: "The self-preservation Six often keeps doubts and worries to herself, so as not to alarm others. This constant swallowing of her own fears can show up physically as a chronically irritated throat." },
+        { code: "SO6", text: "The social Six sometimes holds back critical questions about authorities or group decisions, so as not to appear disloyal. These suppressed objections can make themselves noticeable in the throat, where they seem to get stuck." },
+        { code: "SX6", text: "The sexual Six oscillates between courageous confrontation and fearful withholding of her own opinion – it is precisely this frequent holding-back in uncertain moments that can settle as persistent irritation in the throat." },
+      ]},
+      { typ: 7, titel: "Excess that avoids serious words", varianten: [
+        { code: "SE7", text: "The self-preservation Seven only reluctantly addresses unpleasant things directly and prefers to distract rather than bring up serious topics. These avoided conversations can show up as persistent irritation in the throat." },
+        { code: "SO7", text: "The social Seven often keeps critical or heavy topics out of a sociable gathering, so as not to dampen the mood. What consistently stays unspoken in this way can settle physically in the throat." },
+        { code: "SX7", text: "The sexual Seven rarely speaks openly about deeper fears or disappointments and instead turns to the next stimulus. This avoidance of serious words can chronically burden the throat." },
+      ]},
+      { typ: 8, titel: "Control that conceals its own vulnerability", varianten: [
+        { code: "SE8", text: "The self-preservation Eight speaks most things directly, yet withholds her own vulnerability almost always. It is precisely this one, consistently concealed truth – her own vulnerability – that can settle in the throat." },
+        { code: "SO8", text: "Whoever, like the social Eight, takes on responsibility for others, rarely shows her own exhaustion or insecurity. This one consistently withheld admission can make itself noticeable as persistent irritation in the throat." },
+        { code: "SX8", text: "The sexual Eight usually voices desire and anger unfiltered, yet often conceals the tenderer, more vulnerable feelings behind them. It is precisely this hidden tenderness that can back up physically in the throat." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that swallows its own voice", varianten: [
+        { code: "SE9", text: "The self-preservation Nine usually holds back her own wishes, so as not to risk conflict. This chronic concealing of her own will can show up physically as a permanently irritated throat." },
+        { code: "SO9", text: "The social Nine often holds back differing opinions, in order to preserve group peace. What stays so consistently unsaid can make itself noticeable as a persistent burden in the throat." },
+        { code: "SX9", text: "The sexual Nine merges so completely with her beloved that her own diverging needs rarely get voiced. This near-complete concealing of her own standpoint can settle physically in the throat, where her own voice finds hardly any room." },
+      ]},
+    ],
+    abschluss: "Chronic tonsillitis is a reminder of where words were swallowed rather than spoken over an extended time. Psychosomatic engagement with the throat can help give one's own unspoken part more conscious room and voice."
+  },
+  chronischer_husten: {
+    titel: "Chronic Cough",
+    kategorie: "atemwege",
+    icon: "😮‍💨",
+    kurz: "A cough lasting more than eight weeks without an acute infection, often without a clear single cause and with considerable impact on daily life.",
+    definition: "Chronic cough is diagnosed when it persists for more than eight weeks without an acute infection being present. Unlike the productive cough of bronchitis or the fit-like cough of asthma, the cause of chronic cough often remains unclear at first – possible causes include postnasal drip from the sinuses, reflux of stomach acid into the esophagus, a hidden form of asthma, medication side effects, or a not-yet-recognized irritation of the airways. In a relevant proportion of cases, no clear organic cause is found despite thorough diagnostics – this is then called idiopathic chronic cough. The cough itself often becomes an independent, self-reinforcing reflex: the constant mechanical irritation from coughing further irritates the mucous membrane and provokes renewed urge to cough.",
+    symptome: ["Persistent, often dry cough lasting more than eight weeks", "A scratchy or tickling sensation in the throat as a trigger", "Worsening of the cough with cold, speaking, or laughing", "Exhaustion from disturbed nighttime sleep", "Sore muscles in the chest and abdomen from frequent coughing", "Occasional hoarseness"],
+    notfall: "In case of chronic cough with blood in the sputum, unintended weight loss, night sweats, or increasing shortness of breath, seek prompt medical evaluation to rule out more serious causes. A newly appearing chronic cough should always be medically examined.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Coughing is originally a protective reflex that clears the airways of foreign bodies or secretion – a sudden, forceful expulsion of air. When this reflex, however, takes on a life of its own over weeks and months without a clear outer cause being identifiable, it is worth asking psychosomatically what this recurring, abrupt expulsion might still stand for. Coughing interrupts a conversation, buys a brief pause, draws attention to itself without requiring words – a nonverbal channel for something that finds no other expression. For each of the 27 subtypes, its own pattern shows what this cough can stand in for when no purely organic cause is found.",
+    typen: [
+      { typ: 1, titel: "Anger that discharges as a cough", varianten: [
+        { code: "SE1", text: "The self-preservation One usually suppresses anger consistently, and a dry, recurring cough can show up as a small, involuntary valve for exactly this withheld resentment – a brief, controlled outburst where an open accusation is forbidden." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over the correctness of processes, sometimes coughs exactly when a correction is on the tip of her tongue but stays unsaid. The cough can thus become an audible but verbally consequence-free sign of inner disagreement." },
+        { code: "SX1", text: "The sexual One usually lives anger with force, yet sometimes holds it back in close personal contact. A chronic cough can, in such moments, become a substitute, brief outburst that at least partly discharges the withheld intensity." },
+      ]},
+      { typ: 2, titel: "Pride that signals needs through coughing", varianten: [
+        { code: "SE2", text: "The self-preservation Two rarely reports her own exhaustion directly and instead lets a lingering cough speak for her – an involuntary signal that something is wrong, without having to openly demand her own needs." },
+        { code: "SO2", text: "The social Two sometimes unconsciously draws attention to herself with a persistent cough, in a role in which she is otherwise almost exclusively there for others. The cough can thus become the quiet, physical expression of a need for care." },
+        { code: "SX2", text: "The sexual Two often conceals doubts about the relationship, and a lingering cough can, in intense moments of closeness, unconsciously create distance where no verbal boundary is voiced." },
+      ]},
+      { typ: 3, titel: "Achievement that pauses briefly for a cough", varianten: [
+        { code: "SE3", text: "The self-preservation Three often keeps working even with an irritated throat, rather than allowing herself rest – it is precisely this ignoring that can let the cough become chronic, because the necessary recovery never happens." },
+        { code: "SO3", text: "In front of an audience, a cough can uncomfortably interrupt the social Three's flawless facade – yet at the same time it provides a brief, innocuous pause in which she can catch her breath without openly admitting weakness." },
+        { code: "SX3", text: "The sexual Three does not want to show any vulnerability in contact with others, and a lingering cough can unconsciously create exactly the brief distance needed to gather herself before the next composed appearance." },
+      ]},
+      { typ: 4, titel: "Longing that shows up as a cough", varianten: [
+        { code: "SE4", text: "The self-preservation Four often experiences a persistent cough as further proof of how tough and resistant everything in her own body feels – a chronic symptom that fits almost like a familiar companion into a life that rarely feels easy anyway." },
+        { code: "SO4", text: "For the social Four, a lingering cough can unconsciously become a sign of how different and burdened her own experience is compared to seemingly effortlessly healthy others." },
+        { code: "SX4", text: "The sexual Four lives longing and disappointment intensely, and a cough can, in emotionally charged moments, become the brief, physical expression of too much for which no words are found right then." },
+      ]},
+      { typ: 5, titel: "Withdrawal that announces itself as a cough", varianten: [
+        { code: "SE5", text: "The self-preservation Five withdraws under strain rather than discussing it, and a lingering cough can give this withdrawal a physical, unobtrusive expression – a quiet signal, without having to give up her cherished retreat." },
+        { code: "SO5", text: "The social Five holds many thoughts back until the right moment seems to have arrived – a recurring cough can physically depict how much accumulated, unsaid knowledge has not yet found its way out." },
+        { code: "SX5", text: "The sexual Five rarely opens up fully, and a persistent cough can, in intense, rare moments of closeness, unconsciously establish a small, controlled distance." },
+      ]},
+      { typ: 6, titel: "Fear that discharges as a cough", varianten: [
+        { code: "SE6", text: "The self-preservation Six often mulls persistently over worries she does not voice – a chronic cough can be the physical expression of this inner tension that never quite settles." },
+        { code: "SO6", text: "The social Six often holds back doubts about shared decisions, so as not to unsettle the group – a lingering cough can unconsciously become a valve for this suppressed uncertainty." },
+        { code: "SX6", text: "The sexual Six moves between trust and mistrust, and a persistent cough can, in moments of greatest inner conflict, appear as a physical expression of this tension." },
+      ]},
+      { typ: 7, titel: "Excess that tries to cough away what is serious", varianten: [
+        { code: "SE7", text: "The self-preservation Seven happily plays down unpleasant things with the next pleasant distraction – yet a lingering cough cannot be pushed aside so easily and inevitably reminds her of a limit she otherwise likes to ignore." },
+        { code: "SO7", text: "The social Seven usually keeps burdensome topics out of a sociable gathering – a cough that interrupts the mood mid-conversation can unconsciously be exactly the moment when serious words would actually have been due." },
+        { code: "SX7", text: "The sexual Seven rarely speaks openly about deeper fears and prefers to turn to the next stimulus – a persistent cough can, in such moments, involuntarily draw attention to exactly where she should actually pause." },
+      ]},
+      { typ: 8, titel: "Control that allows coughing as its only gap", varianten: [
+        { code: "SE8", text: "The self-preservation Eight usually consistently ignores physical complaints until they can no longer be played down – a chronic cough can go unattended for so long that it establishes itself as a persistent, hard-to-ignore problem." },
+        { code: "SO8", text: "Whoever, like the social Eight, carries responsibility for others, has little patience for a nagging cough that does not really restrict her ability to act – only once it becomes a genuine burden is it taken seriously." },
+        { code: "SX8", text: "The sexual Eight meets even her own cough first with impatience rather than care – a symptom that evades direct confrontation and, precisely because of that, persists especially long." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overrides its own cough", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often grows accustomed to a persistent cough without ever having its actual cause consistently clarified – a further example of how easily she accommodates uncomfortable states instead of becoming active." },
+        { code: "SO9", text: "The social Nine does not want to disturb anyone with a nagging cough and often swallows it without complaint, rather than having its actual cause consistently evaluated." },
+        { code: "SX9", text: "The sexual Nine goes so completely into her beloved relationship that her own lingering cough is often only noticed once her partner points out with concern that it isn't going away on its own." },
+      ]},
+    ],
+    abschluss: "Chronic cough without a clear organic cause can point to a recurring, brief expression that otherwise finds no place. Psychosomatic engagement with it can help give what the cough stands in for a more conscious and direct expression."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -63004,7 +63181,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
+  "atemwege": [],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
