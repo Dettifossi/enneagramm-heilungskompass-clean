@@ -97946,6 +97946,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Chronischer Husten ohne eindeutige organische Ursache kann darauf hinweisen, dass ein wiederkehrender, kurzer Ausdruck fehlt, der anders keinen Platz findet. Die psychosomatische Auseinandersetzung damit kann helfen, das, wofür der Husten stellvertretend steht, bewusster und direkter Ausdruck finden zu lassen."
   },
+  reizdarmsyndrom: {
+    titel: "Reizdarmsyndrom",
+    kategorie: "verdauung",
+    icon: "🌀",
+    kurz: "Wiederkehrende Bauchschmerzen und veränderte Stuhlgewohnheiten ohne organisch fassbare Ursache – der Darm reagiert überempfindlich auf Reize aller Art.",
+    definition: "Das Reizdarmsyndrom ist eine chronische, funktionelle Störung des Darms, bei der wiederkehrende Bauchschmerzen oder -krämpfe mit veränderten Stuhlgewohnheiten einhergehen – Durchfall, Verstopfung oder ein Wechsel zwischen beidem –, ohne dass sich in Untersuchungen eine organische Ursache wie Entzündung, Geschwür oder Tumor finden lässt. Die Diagnose wird gestellt, wenn die Beschwerden über mindestens drei Monate bestehen und andere Erkrankungen ausgeschlossen wurden. Charakteristisch ist eine erhöhte Empfindlichkeit der Darmnerven (viszerale Hypersensitivität) sowie eine enge Kopplung an das vegetative Nervensystem: Stress, Aufregung und emotionale Anspannung verschlimmern die Symptome häufig unmittelbar, während sich der Darm in ruhigen, entspannten Phasen oft beruhigt.",
+    symptome: ["Wiederkehrende, krampfartige Bauchschmerzen, die sich nach dem Stuhlgang oft bessern", "Blähungen und ein Gefühl von Völlegefühl", "Durchfall, Verstopfung oder ein Wechsel zwischen beidem", "Schleimbeimengungen im Stuhl", "Gefühl der unvollständigen Entleerung", "Deutliche Verschlechterung der Symptome bei Stress oder emotionaler Belastung"],
+    notfall: "Bei Blut im Stuhl, ungewolltem Gewichtsverlust, nächtlichen Schmerzen, die aus dem Schlaf reißen, Fieber oder Symptombeginn erst nach dem 50. Lebensjahr zeitnah ärztlich abklären lassen – diese Warnzeichen sprechen gegen ein reines Reizdarmsyndrom und müssen andere Ursachen ausschließen lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Der Darm wird in der Forschung längst als &bdquo;zweites Gehirn&ldquo; bezeichnet – über die Darm-Hirn-Achse steht er in unmittelbarem, zweiseitigem Austausch mit dem zentralen Nervensystem, und ein Großteil der körpereigenen Botenstoffe für Stimmung und Anspannung wird im Darm selbst gebildet. In der TCM gilt ein harmonisches Zusammenspiel von Leber und Milz als Voraussetzung für eine ruhige Verdauung: Staut sich Leber-Qi durch zurückgehaltenen Ärger oder ungelöste Anspannung, &bdquo;greift&ldquo; es die Milz an und stört deren Aufgabe, Nahrung geordnet zu verarbeiten. Psychosomatisch liest sich das Reizdarmsyndrom häufig als ein Darm, der buchstäblich verdauen muss, was der Kopf nicht verarbeiten kann – jede ungelöste Spannung wird unmittelbar an ihn weitergereicht. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche Art von Spannung hier besonders häufig im Bauch landet.",
+    typen: [
+      { typ: 1, titel: "Zorn, der im Bauch verdaut werden muss", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über Unordnung und Fehler diszipliniert zurück, lässt ihn nach außen kaum je erkennbar werden. Der Darm übernimmt, was der Kopf nicht zulässt, und reagiert mit Krämpfen genau dann, wenn die äußere Beherrschtheit am größten ist." },
+        { code: "SO1", text: "Wer wie die soziale Eins ständig über die Richtigkeit der Dinge wacht, trägt viel zurückgehaltene Empörung über Missstände mit sich herum, die selten direkt ausgesprochen wird. Diese chronisch verdaute Kritik kann sich als wiederkehrende Bauchkrämpfe zeigen, die genau dann auftreten, wenn wieder etwas als falsch empfunden, aber nicht angesprochen wird." },
+        { code: "SX1", text: "Die sexuelle Eins lebt ihren Verbesserungsanspruch in der Beziehung mit großer Intensität aus – gerade in Momenten der Zuspitzung, wenn Kritik zurückgehalten werden muss, kann sich diese Anspannung als akuter, episodischer Krampf im Bauch zeigen, statt als gleichmäßige Dauerbelastung." },
+      ]},
+      { typ: 2, titel: "Stolz, der die eigene Anspannung verschluckt", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei kümmert sich unermüdlich um andere und übergeht dabei die eigenen Warnsignale von Erschöpfung und Anspannung. Der Darm registriert, was der Verstand ausblendet, und reagiert mit Krämpfen dort, wo eigentlich eine Pause fällig gewesen wäre." },
+        { code: "SO2", text: "Für viele Menschen gleichzeitig unentbehrlich zu sein, verlangt der sozialen Zwei eine ständige innere Anspannung ab, die selten offen benannt wird. Diese diffuse, nie ganz aufgelöste Belastung kann sich als ein Darm zeigen, der ebenso wenig zur Ruhe kommt wie sie selbst." },
+        { code: "SX2", text: "In intensiven Beziehungsphasen investiert sich die sexuelle Zwei fast vollständig, ohne für sich selbst zu sorgen – diese punktuelle, hochemotionale Anspannung kann sich eher als akuter Krampf zeigen denn als gleichmäßig verteilte, chronische Beschwerde." },
+      ]},
+      { typ: 3, titel: "Leistung, die dem Bauch keine Pause lässt", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei isst oft nebenbei, zwischen zwei Terminen, ohne dem Verdauungsprozess die nötige Ruhe zu geben. Diese über Jahre fortgesetzte Weigerung, sich selbst eine Pause zuzugestehen, kann sich als ein Darm zeigen, der nie wirklich zur Ruhe findet, weil dafür schlicht keine Zeit eingeplant wird." },
+        { code: "SO3", text: "Im ständigen Vergleich mit anderen hält die soziale Drei ein Tempo durch, das dem Verdauungssystem kaum Erholung lässt – dieser permanente Leistungsdruck kann sich körperlich als ein nervöser, gereizter Darm zeigen, der selten zur Ruhe kommt." },
+        { code: "SX3", text: "Um in der Beziehung erfolgreich und makellos zu erscheinen, überspielt die sexuelle Drei körperliche Warnsignale wie Bauchschmerzen gerne so lange wie möglich – dieser fokussierte Wille zur Kontrolle des äußeren Bildes verzögert oft, dem eigenen Bauch überhaupt Beachtung zu schenken." },
+      ]},
+      { typ: 4, titel: "Sehnsucht, die sich im Bauch verkrampft", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm mit sich, ohne es je auszudrücken – dieses fortgesetzte Zurückhalten kann sich körperlich als ein Darm zeigen, der sich verkrampft, wenn die unausgesprochene Sehnsucht keinen anderen Weg findet." },
+        { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das der rein körperlichen Verdauungsbeschwerde zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+        { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – gerade diese dramatischen inneren Wendungen können sich als plötzliche, episodische Bauchkrämpfe zeigen, die in emotional zugespitzten Momenten auftreten." },
+      ]},
+      { typ: 5, titel: "Rückzug, der die eigene Anspannung im Bauch hält", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich bei Belastung zurück, statt Kontakt und Austausch zu suchen – und genau dieser Rückzug kann auf körperlicher Ebene zu einem Darm führen, der die nicht besprochene Anspannung stellvertretend verarbeitet." },
+        { code: "SO5", text: "Die soziale Fünf hält sich mit ihrem Wissen für die Gruppe verfügbar, wahrt aber innerlich Distanz – diese Mischung aus Teilhabe und Rückzug kann sich als ein Darm zeigen, der selten wirklich entspannt, weil echte Nähe, auch zum eigenen Körper, vermieden wird." },
+        { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus offen über körperliche Beschwerden gesprochen werden – was der stillen Verdrängung anderer Fünfer-Varianten entgegenwirkt." },
+      ]},
+      { typ: 6, titel: "Angst, die den Bauch in Alarmbereitschaft hält", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs begegnet der Welt mit Vorsicht und einem inneren Frühwarnsystem, das selten wirklich abschaltet – dieser Zustand der Daueralarmbereitschaft hält auch den Darm in ständiger Anspannung, was sich als chronische Verdauungsbeschwerden zeigen kann." },
+        { code: "SO6", text: "Die soziale Sechs trägt eine oft unausgesprochene Sorge um das Wohlergehen ihrer Gruppe mit sich – diese diffuse, kollektive Anspannung kann sich körperlich als ein nie ganz gelöster Darm zeigen, der auf jede Unsicherheit empfindlich reagiert." },
+        { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Rückzug – diese direktere Entladung erzeugt eher punktuelle, intensive Bauchkrämpfe in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, chronische Beschwerde." },
+      ]},
+      { typ: 7, titel: "Maßlosigkeit, die den Darm überfordert", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über eine Vielzahl an Annehmlichkeiten ab, isst oft hastig und unregelmäßig zwischen Terminen und Vergnügungen – diese permanente Zerstreuung kann sich körperlich als ein Darm zeigen, der nie wirklich zur Ruhe kommt, weil er ständig mit wechselnden Reizen konfrontiert wird." },
+        { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – diese selbstauferlegte Überforderung kann sich als ein Darm zeigen, der sich selbst kaum je die nötige Pause zur Erholung gönnt." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, oft verbunden mit unregelmäßigem Essen und intensivem Genussmittelkonsum – diese Kombination aus rastloser Intensität und stoffgebundener Reizung liest die Psychosomatik als eines der direkteren Bilder für einen gereizten, überlasteten Darm." },
+      ]},
+      { typ: 8, titel: "Kontrolle, die keine Verletzlichkeit im Bauch zulässt", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch handfeste Kontrolle über materielle und körperliche Ressourcen – Bauchschmerzen als Zeichen von Verletzlichkeit werden zunächst ignoriert, bis sie sich nicht mehr wegdrücken lassen und die sonst so verlässliche Handlungsfähigkeit einschränken." },
+        { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe, oft in einer selbst auferlegten Beschützerrolle – diese permanente Führungsspannung lässt selten Raum für einen wirklich entspannten Darm." },
+        { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der einen Zweierbeziehung, Intensität pur, nichts Halbes – diese extremen emotionalen Ausschläge können sich eher als plötzliche, heftige Bauchkrämpfe in zugespitzten Beziehungsmomenten zeigen als als gleichmäßige Dauerspannung." },
+      ]},
+      { typ: 9, titel: "Selbstvergessenheit, die den eigenen Bauch übergeht", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, feste Routinen und die konsequente Vermeidung jeglichen Konflikts – auch die eigenen Verdauungssignale werden dabei selten bewusst wahrgenommen, bis sie sich als chronisches, kaum mehr zu ignorierendes Muster festgesetzt haben." },
+        { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Stimme so konsequent unter, dass sie irgendwann kaum noch weiß, was sie selbst eigentlich braucht – diese chronische Selbstauslöschung kann sich als ein Darm zeigen, der sich selbst nie wirklich Gehör verschafft." },
+        { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass die eigene Wahrnehmung von Hunger, Sättigung und Verdauung sich oft an der des Anderen orientiert statt an den eigenen Signalen – eine Fusion, die es erschwert, den eigenen Bauch überhaupt erst wahrzunehmen." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor dem Reizdarmsyndrom gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Anspannung, Ärger und ungelösten Gefühlen verhandelt – manche über Dauerkontrolle, andere über Rückzug, Selbstvergessenheit oder eine nie bemerkte eigene Überforderung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97957,7 +98016,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
+  "verdauung": ["Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],

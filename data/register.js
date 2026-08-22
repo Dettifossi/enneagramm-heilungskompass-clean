@@ -439,6 +439,7 @@ export const registerEntries = [
   { term: "Hyperventilationssyndrom (Psychosomatik)", route: "psychosomatik/hyperventilationssyndrom", description: "Psychosomatische Deutung: akute innere Anspannung ohne Ausdruck, Enneagramm alle 27 Subtypen" },
   { term: "Chronische Mandelentzündung (Psychosomatik)", route: "psychosomatik/chronische_mandelentzuendung", description: "Psychosomatische Deutung: hinuntergeschluckte Worte, Enneagramm alle 27 Subtypen" },
   { term: "Chronischer Husten (Psychosomatik)", route: "psychosomatik/chronischer_husten", description: "Psychosomatische Deutung: ein Ausdruck, der anders keinen Platz findet, Enneagramm alle 27 Subtypen" },
+  { term: "Reizdarmsyndrom (Psychosomatik)", route: "psychosomatik/reizdarmsyndrom", description: "Psychosomatische Deutung: ungelöste Spannung, die im Bauch verdaut wird, TCM Leber-Milz-Disharmonie, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1552,6 +1553,7 @@ export const registerEntriesEN = [
   { term: "Hyperventilation Syndrome (Psychosomatics)", route: "psychosomatik/hyperventilationssyndrom", description: "Psychosomatic interpretation: acute inner tension without outlet, Enneagram all 27 subtypes" },
   { term: "Chronic Tonsillitis (Psychosomatics)", route: "psychosomatik/chronische_mandelentzuendung", description: "Psychosomatic interpretation: swallowed words, Enneagram all 27 subtypes" },
   { term: "Chronic Cough (Psychosomatics)", route: "psychosomatik/chronischer_husten", description: "Psychosomatic interpretation: an expression finding no other outlet, Enneagram all 27 subtypes" },
+  { term: "Irritable Bowel Syndrome (Psychosomatics)", route: "psychosomatik/reizdarmsyndrom", description: "Psychosomatic interpretation: unresolved tension digested by the gut, TCM Liver-Spleen disharmony, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
