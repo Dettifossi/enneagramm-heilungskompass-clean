@@ -454,6 +454,7 @@ export const registerEntries = [
   { term: "Schuppenflechte (Psychosomatik)", route: "psychosomatik/schuppenflechte", description: "Psychosomatische Deutung: Selbstkritik, die sich gegen den eigenen Körper richtet, TCM Blut-Hitze, Enneagramm alle 27 Subtypen" },
   { term: "Akne (Psychosomatik)", route: "psychosomatik/akne", description: "Psychosomatische Deutung: aufgestaute innere Regung, die sichtbar durchbricht, TCM Hitze im Lungen-/Magen-Meridian, Enneagramm alle 27 Subtypen" },
   { term: "Nesselsucht (Psychosomatik)", route: "psychosomatik/nesselsucht", description: "Psychosomatische Deutung: akute Reaktion auf einen unverdaulichen Moment, TCM eindringender Wind, Enneagramm alle 27 Subtypen" },
+  { term: "Rosacea (Psychosomatik)", route: "psychosomatik/rosacea", description: "Psychosomatische Deutung: chronisch gewordenes Erröten im Gesicht, TCM aufsteigende Hitze, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
