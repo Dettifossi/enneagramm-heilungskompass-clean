@@ -97440,6 +97440,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor COPD gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit über Jahrzehnte fortgesetzten, selten hinterfragten Mustern verhandelt – manche über starre Kontrolle, andere über Rückzug, stilles Geben oder eine nie bemerkte eigene Anpassung an dauerhaften Druck. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  chronische_bronchitis: {
+    titel: "Chronische Bronchitis",
+    kategorie: "atemwege",
+    icon: "&#129444;",
+    kurz: "Wenn ständiges Husten zur einzigen erlaubten Form wird, sich Luft zu verschaffen.",
+    definition: "Von chronischer Bronchitis spricht man, wenn ein produktiver Husten mit Auswurf an den meisten Tagen über mindestens drei Monate in zwei aufeinanderfolgenden Jahren besteht. Ursache ist eine anhaltende Reizung der Bronchialschleimhaut, in den allermeisten Fällen durch Zigarettenrauch, seltener durch Luftschadstoffe oder wiederholte Atemwegsinfekte. Die Schleimhaut reagiert mit vermehrter Schleimproduktion und einer chronischen Entzündung, die die Atemwege langfristig verengen kann. Chronische Bronchitis gilt als Vorstufe oder Bestandteil der COPD, kann aber auch eigenständig über Jahre bestehen, ohne dass bereits eine relevante Einschränkung der Lungenfunktion vorliegt.",
+    symptome: [
+      "Anhaltender Husten mit Auswurf, an den meisten Tagen über Monate hinweg",
+      "Morgens verstärkter Husten, oft direkt nach dem Aufstehen",
+      "Zäher, weißlicher bis gelblich-grünlicher Auswurf, bei Infekten verstärkt",
+      "Leichte bis mäßige Atemnot bei Anstrengung",
+      "Wiederkehrende Atemwegsinfekte, die sich langsamer zurückbilden als bei Gesunden",
+      "Gelegentliches pfeifendes Atemgeräusch, besonders bei zusätzlicher Verengung der Bronchien",
+    ],
+    notfall: "Chronische Bronchitis selbst ist kein akuter Notfall. Bei plötzlich stark zunehmender Atemnot, hohem Fieber, blutigem Auswurf oder starker Erschöpfung: zeitnah ärztliche Hilfe aufsuchen, um eine Lungenentzündung oder eine akute Verschlechterung auszuschließen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Der Husten bei chronischer Bronchitis hat etwas eigentümlich Beharrliches: Er kommt nicht als einmaliges Ereignis, sondern als treuer Begleiter, der sich Tag für Tag zurückmeldet, oft gerade dann, wenn der Körper gerade erst zur Ruhe gekommen ist. Die Traditionelle Chinesische Medizin ordnet übermäßige Schleimproduktion häufig einer Schwäche von Milz und Lunge zu – die Milz gilt als &bdquo;Quelle des Schleims&ldquo;, die Lunge als das Organ, das ihn &bdquo;lagert&ldquo; und letztlich wieder abgeben muss. Die Psychosomatik liest im ständigen Husten oft das Bild eines Versuchs, sich immer wieder Luft und Ausdruck zu verschaffen – ein wiederkehrendes, fast rituelles Sich-Räuspern, das dort ansetzt, wo eine direktere Form, sich Gehör zu verschaffen, offenbar nicht zur Verfügung steht.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der sich in ständigem Husten Bahn bricht",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger und Kritik konsequent zurück, lässt sie nie in Worten heraus – stattdessen findet sich ein anderer, körperlicher Kanal: ein trockenes, immer wiederkehrendes Räuspern oder Husten, das genau dann auftritt, wenn innere Anspannung sich sonst nicht entladen darf. Dieses stellvertretende Ventil liest die Psychosomatik als naheliegendes Bild für die chronische Bronchitis." },
+          { code: "SO1", text: "Wenn die soziale Eins ihre moralische Empörung über Missstände nicht direkt äußern kann oder will, kann sich diese zurückgehaltene Energie als ein ständiges, fast reflexhaftes Husten zeigen – ein körperlicher Kommentar, der dort ansetzt, wo Worte fehlen oder unterdrückt werden." },
+          { code: "SX1", text: "Da die sexuelle Eins ihren Ärger direkter in Worten in der Beziehung ausdrückt, findet sich seltener dieses stellvertretende körperliche Ventil – die Anspannung entlädt sich eher unmittelbar als über einen ständigen, chronischen Husten." },
+        ],
+      },
+      {
+        typ: 2, titel: "Verschlucktes Bedürfnis, das sich als Husten zeigt",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei schluckt eigene Bedürfnisse und Enttäuschungen buchstäblich hinunter, spricht sie nie aus – dieses ständige Herunterschlucken kann sich körperlich als ein Reiz in Hals und Bronchien zeigen, der sich immer wieder als Husten Bahn bricht, weil das, was eigentlich gesagt werden müsste, nie den Weg nach draußen findet." },
+          { code: "SO2", text: "Die soziale Zwei stellt eigene Enttäuschung über mangelnde Anerkennung selten offen zur Schau – dieses ständige Herunterschlucken echter Gefühle kann sich als ein chronischer Reizhusten zeigen, der sich dort meldet, wo eigentlich eine offene Aussprache hingehört hätte." },
+          { code: "SX2", text: "In intensiven Beziehungsphasen drückt die sexuelle Zwei ihre Bedürfnisse durchaus direkter aus – dieser unmittelbarere Ausdruck steht dem ständigen, stellvertretenden Husten entgegen, der bei stärker verschluckten Gefühlen typischer ist." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die keine Zeit für einen klärenden Ausdruck lässt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert effizient weiter, auch wenn Reizung oder Erschöpfung längst spürbar sind – ein kurzes Husten zwischendurch wird kaum wahrgenommen, geschweige denn als Signal ernst genommen. Dieses beiläufige Übergehen eines ständig wiederkehrenden Hustens passt zum Bild einer chronischen Bronchitis, die sich über Jahre unbeachtet entwickeln konnte." },
+          { code: "SO3", text: "Im ständigen Vergleich mit anderen bleibt für die soziale Drei kaum Raum, einem wiederkehrenden Husten wirklich Beachtung zu schenken – dieses Übergehen körperlicher Signale zugunsten äußerer Leistung kann sich langfristig als chronische Reizung der Atemwege zeigen." },
+          { code: "SX3", text: "Um in der Beziehung makellos zu erscheinen, könnte die sexuelle Drei einen störenden Husten eher unterdrücken oder kaschieren wollen – dieser Wunsch nach Kontrolle über das äußere Bild steht dem offenen, ständigen Husten anderer Dreier-Varianten eher entgegen." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich als anhaltender Reiz zeigt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm, ohne es je auszudrücken – dieses fortgesetzte Zurückhalten kann sich körperlich als ein anhaltender Reiz in den Atemwegen zeigen, der sich als Husten meldet, wo Worte fehlen." },
+          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen sprachlichen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das dem rein körperlichen Husten zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+          { code: "SX4", text: "Mit heftigen, aber ausgelebten Ausschlägen zwischen Nähe und Verzweiflung entlädt sich die emotionale Intensität der sexuellen Vier eher direkt in der Beziehung als über einen stellvertretenden, chronischen Husten." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der den eigenen Reiz für sich behält",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf hält auch körperliche Beschwerden konsequent für sich, sucht selten ärztlichen Rat, solange es irgendwie geht – dieses stille Aushalten eines anhaltenden Hustens, ohne ihn ernsthaft zu behandeln, passt zum Bild einer chronischen Bronchitis, die sich über Jahre unbehandelt festsetzen konnte." },
+          { code: "SO5", text: "Die soziale Fünf hält emotionale Nähe hinter intellektueller Distanz auf Abstand – auch ein wiederkehrender Husten kann so eher als abstraktes Faktum registriert als als echtes körperliches Signal ernst genommen werden." },
+          { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus offen über körperliche Beschwerden gesprochen werden – was der stillen Verdrängung anderer Fünfer-Varianten entgegenwirkt." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die sich als nervöser Husten zeigt",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Vorsicht und innerer Anspannung – dieser Dauerzustand kann sich körperlich als ein nervöses, immer wiederkehrendes Räuspern oder Husten zeigen, das sich besonders in Momenten erhöhter Anspannung meldet." },
+          { code: "SO6", text: "Die soziale Sechs trägt eine oft unausgesprochene Sorge um das Wohlergehen ihrer Gruppe mit sich – diese diffuse, nie ganz erleichterte Anspannung kann sich als ein chronischer Reiz in den Atemwegen zeigen." },
+          { code: "SX6", text: "Durch aktive Konfrontation entlädt die sexuelle Sechs Angst eher direkt, statt sie über einen stellvertretenden Husten zu verarbeiten – diese unmittelbarere Reaktion steht dem chronischen, nervösen Husten anderer Sechser-Varianten entgegen." },
+        ],
+      },
+      {
+        typ: 7, titel: "Genussmittel, die die Atemwege direkt reizen",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Optionen und Genussmittel ab, oft verbunden mit Rauchen als Mittel der Selbstberuhigung – dieser direkte Griff zu Reizstoffen liest die Psychosomatik als eines der unmittelbarsten Bilder für die chronische Bronchitis: eine Schleimhaut, die sich an wiederholte äußere Reizung gewöhnt hat." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – ein wiederkehrender Husten kann dabei leicht übersehen werden, weil die Aufmerksamkeit konsequent bei den Bedürfnissen anderer liegt." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, oft verbunden mit intensivem Konsum von Genussmitteln – diese impulsive Intensität liest die Psychosomatik als einen der direkteren Wege zu einer gereizten, chronisch entzündeten Bronchialschleimhaut." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die Husten als Schwäche übergeht",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht übergeht körperliche Warnsignale konsequent, weil Schwäche einzugestehen ihrem Selbstverständnis widerspricht – ein anhaltender Husten wird schlicht ignoriert, bis er sich als chronisches Muster festgesetzt hat." },
+          { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig und stellt die eigene Gesundheit dabei oft hintan – ein wiederkehrender Husten bleibt so lange unbeachtet, bis er sich strukturell festgesetzt hat." },
+          { code: "SX8", text: "In extremen, aber episodischen Ausschlägen lebt die sexuelle Acht ihre Intensität in der Beziehung – diese punktuelle Dynamik unterscheidet sich vom chronisch-strukturellen Husten-Muster, das eher bei dauerhaft übergangenen Warnsignalen typisch ist." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die den eigenen Husten übergeht",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine und nimmt auch den eigenen Husten oft kaum bewusst wahr – dieses Übersehen eines ständig wiederkehrenden körperlichen Signals passt besonders genau zum Bild einer chronischen Bronchitis, die sich über Jahre unbemerkt entwickeln konnte." },
+          { code: "SO9", text: "Die soziale Neun ordnet die eigene Stimme so konsequent der Gruppenharmonie unter, dass auch ein eigener Husten selten wirklich Beachtung findet – diese chronische Selbstzurücknahme kann sich als ein nie ernst genommenes, aber ständig wiederkehrendes Signal zeigen." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen Wahrnehmung der eigenen Gesundheit als Maßstab – bemerkt der Partner den Husten nicht, bemerkt die Neun ihn oft ebenfalls nicht, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor chronischer Bronchitis gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit zurückgehaltenem Ausdruck, übergangenen Signalen und der eigenen Stimme verhandelt – manche über verschluckten Ärger, andere über Rückzug, stoffgebundene Selbstberuhigung oder eine nie ernst genommene eigene Warnung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97450,7 +97543,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
+  "atemwege": ["Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
