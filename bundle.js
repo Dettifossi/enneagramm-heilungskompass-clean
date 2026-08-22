@@ -97347,6 +97347,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Asthma bronchiale gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Raum, Atem und dem eigenen Rhythmus verhandelt – manche über Dauerkontrolle, andere über Rückzug, Selbstverkleinerung oder eine nie bemerkte eigene Enge. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  copd: {
+    titel: "COPD (Chronisch obstruktive Lungenerkrankung)",
+    kategorie: "atemwege",
+    icon: "&#128168;",
+    kurz: "Wenn jahrzehntelanges Ausatmen unter Widerstand die Lunge Stück für Stück umbaut.",
+    definition: "COPD (Chronic Obstructive Pulmonary Disease) bezeichnet eine chronische, fortschreitende Verengung der Atemwege, die meist auf einer Kombination aus chronischer Bronchitis und einem Abbau des Lungengewebes (Emphysem) beruht. Anders als beim Asthma ist die Verengung bei COPD nur teilweise oder gar nicht rückbildungsfähig – die Lunge selbst verändert sich strukturell. Hauptursache in den westlichen Industrienationen ist in den allermeisten Fällen langjähriges Rauchen, seltener berufliche Schadstoffbelastung oder ein genetischer Alpha-1-Antitrypsin-Mangel. COPD entwickelt sich meist über Jahrzehnte schleichend, wird häufig erst spät diagnostiziert und schreitet ohne konsequente Behandlung – vor allem Rauchstopp – kontinuierlich fort.",
+    symptome: [
+      "Chronischer Husten, oft morgens verstärkt, mit oder ohne Auswurf (&bdquo;Raucherhusten&ldquo;)",
+      "Zunehmende Atemnot, zunächst nur bei Belastung, im fortgeschrittenen Stadium auch in Ruhe",
+      "Pfeifende oder brummende Atemgeräusche, verlängerte Ausatmung",
+      "Verminderte körperliche Belastbarkeit, die sich schleichend über Jahre entwickelt",
+      "Häufige Atemwegsinfekte, die sich langsamer als bei Gesunden zurückbilden",
+      "Im fortgeschrittenen Stadium: Gewichtsverlust, bläuliche Lippen, Fassthorax durch überblähte Lunge",
+    ],
+    notfall: "Bei plötzlich stark zunehmender Atemnot, bläulich verfärbten Lippen, Verwirrtheit oder starker Erschöpfung: sofort den Notruf 112 wählen. Eine akute COPD-Exazerbation kann lebensbedrohlich sein – hier zählt jede Minute, kein Raum für psychosomatische Deutung.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wo Asthma sich anfallsartig zeigt und zwischen den Attacken oft wieder löst, ist COPD das Bild eines Zustands, der sich über Jahrzehnte langsam und bleibend verändert hat – die Lunge selbst baut sich um, gewöhnt sich an einen dauerhaft eingeschränkten Zustand. Die Traditionelle Chinesische Medizin beschreibt einen verwandten Zustand oft als chronischen Lungen-Qi-Mangel, verstärkt durch wiederholtes Eindringen äußerer Reize (Rauch, Kälte) in ein bereits geschwächtes System. Die Psychosomatik liest in COPD häufig ein Bild eines Lebens, das über sehr lange Zeit mit einem inneren Widerstand geatmet hat, ohne dass dieser Widerstand je verändert wurde – bis der Körper sich an die Einschränkung so sehr angepasst hat, dass sie zum bleibenden Zustand wird.",
+    typen: [
+      {
+        typ: 1, titel: "Kontrolle, die über Jahrzehnte gegen Widerstand atmet",
+        varianten: [
+          { code: "SE1", text: "Über Jahrzehnte hält die selbsterhaltende Eins an denselben strengen Routinen und Kontrollmustern fest, auch wenn der Körper längst deutliche Zeichen sendet, dass eine Anpassung nötig wäre – dieses beharrliche Festhalten an alten Mustern, selbst gegen wachsenden inneren Widerstand, passt zum Bild einer Lunge, die sich über Jahre an eine dauerhafte Enge gewöhnt hat, statt sie zu verändern." },
+          { code: "SO1", text: "Jahrzehntelang kämpft die soziale Eins unermüdlich für dieselbe moralische Sache, oft ohne den eigenen Kurs je grundlegend zu überdenken – diese über sehr lange Zeit fortgesetzte, nie revidierte Anstrengung kann sich körperlich als eine Lunge zeigen, die sich strukturell an einen dauerhaften inneren Widerstand angepasst hat." },
+          { code: "SX1", text: "Mit wechselnder Intensität, aber stets erneuertem Anspruch bringt die sexuelle Eins ihre Kritik in die Beziehung ein – diese episodische, aber nie über Jahrzehnte gleichbleibende Anspannung unterscheidet sich vom chronisch-strukturellen Muster, das für COPD besonders typisch ist." },
+        ],
+      },
+      {
+        typ: 2, titel: "Geben, das über Jahrzehnte die eigene Substanz umbaut",
+        varianten: [
+          { code: "SE2", text: "Über Jahrzehnte hinweg gibt die selbsterhaltende Zwei, ohne je etwas zurückzunehmen, ohne dass sich an diesem Muster je etwas ändert – dieses über eine ganze Lebensspanne fortgesetzte, nie revidierte Geben kann sich körperlich als eine Lunge zeigen, die sich strukturell an einen dauerhaften Mangel an eigener Erholung angepasst hat." },
+          { code: "SO2", text: "Jahrzehntelang stellt sich die soziale Zwei unverändert in den Dienst der Gemeinschaft, ohne das eigene Muster je grundlegend zu hinterfragen – diese über sehr lange Zeit fortgesetzte Selbstvergessenheit kann sich als eine bleibend eingeschränkte Atmung zeigen." },
+          { code: "SX2", text: "In wechselnden, aber punktuellen Beziehungsphasen investiert sich die sexuelle Zwei intensiv – diese episodische, nicht über Jahrzehnte gleichbleibende Anstrengung unterscheidet sich vom chronisch-strukturellen Muster, das COPD kennzeichnet." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die über Jahrzehnte keine Pause zulässt",
+        varianten: [
+          { code: "SE3", text: "Über Jahrzehnte funktioniert die selbsterhaltende Drei effizient weiter, ohne das eigene Tempo je grundlegend zu drosseln – diese über eine ganze Lebensspanne fortgesetzte Weigerung, sich selbst Erholung zuzugestehen, kann sich körperlich als eine Lunge zeigen, die sich strukturell an dauerhafte Überforderung angepasst hat." },
+          { code: "SO3", text: "Jahrzehntelang hält die soziale Drei denselben Wettbewerbsmodus durch, ohne das eigene Muster je zu verändern – diese über sehr lange Zeit fortgesetzte, nie revidierte Anspannung passt zum Bild einer strukturell veränderten, dauerhaft eingeschränkten Atmung." },
+          { code: "SX3", text: "In einzelnen, zugespitzten Beziehungsmomenten setzt die sexuelle Drei ihre Energie konzentriert ein – diese punktuelle, nicht über Jahrzehnte gleichbleibende Anspannung unterscheidet sich vom chronisch-strukturellen Muster, das für COPD typisch ist." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die sich über Jahrzehnte nie löst",
+        varianten: [
+          { code: "SE4", text: "Über Jahrzehnte trägt die selbsterhaltende Vier, der Kontratyp, dieselbe unausgesprochene Sehnsucht mit sich, ohne dass sich an diesem Muster je etwas ändert – diese über eine ganze Lebensspanne fortgesetzte, nie gelöste innere Last kann sich körperlich als eine Lunge zeigen, die sich strukturell an einen dauerhaften inneren Druck angepasst hat." },
+          { code: "SO4", text: "Die soziale Vier macht ihr Leiden zwar sichtbar, doch wenn sich an der zugrunde liegenden Sehnsucht über Jahrzehnte nichts ändert, kann sich auch dieser wiederkehrende Ausdruck langfristig als eine strukturell veränderte Atmung zeigen, die sich an die immer gleiche emotionale Grundspannung angepasst hat." },
+          { code: "SX4", text: "In heftigen, aber episodischen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier ihre emotionale Intensität – diese punktuelle, nicht über Jahrzehnte gleichbleibende Dynamik unterscheidet sich vom chronisch-strukturellen Muster, das COPD kennzeichnet." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der sich über Jahrzehnte verfestigt",
+        varianten: [
+          { code: "SE5", text: "Über Jahrzehnte reduziert die selbsterhaltende Fünf ihr Leben auf immer dasselbe Minimum, ohne das eigene Muster je zu erweitern – dieser über eine ganze Lebensspanne fortgesetzte, nie revidierte Rückzug kann sich körperlich als eine Lunge zeigen, die sich strukturell an einen dauerhaft eingeschränkten Radius angepasst hat." },
+          { code: "SO5", text: "Jahrzehntelang hält die soziale Fünf dieselbe Mischung aus intellektueller Teilhabe und innerer Distanz durch, ohne das Muster je zu verändern – diese über sehr lange Zeit fortgesetzte Haltung passt zum Bild einer strukturell veränderten, dauerhaft eingeschränkten Atmung." },
+          { code: "SX5", text: "Innerhalb der schmalen, aber über Jahrzehnte gepflegten Verbindung, die die sexuelle Fünf eingeht, kann durchaus lebendiger Austausch stattfinden – was der vollständigen strukturellen Erstarrung anderer Fünfer-Varianten entgegenwirkt." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die über Jahrzehnte den Atem eng hält",
+        varianten: [
+          { code: "SE6", text: "Über Jahrzehnte begegnet die selbsterhaltende Sechs der Welt mit demselben Muster aus Vorsicht und innerer Alarmbereitschaft, ohne dass sich daran je etwas ändert – diese über eine ganze Lebensspanne fortgesetzte Daueranspannung kann sich körperlich als eine Lunge zeigen, die sich strukturell an einen dauerhaften Alarmzustand angepasst hat." },
+          { code: "SO6", text: "Jahrzehntelang trägt die soziale Sechs dieselbe kollektive Sorge um das Wohlergehen ihrer Gruppe mit sich, ohne dass sich am Muster je etwas ändert – diese über sehr lange Zeit fortgesetzte, nie erleichterte Anspannung passt zum Bild einer strukturell veränderten Atmung." },
+          { code: "SX6", text: "Durch aktive, punktuelle Konfrontation begegnet die sexuelle Sechs Angst gegenphobisch – diese episodische, nicht über Jahrzehnte gleichbleibende Entladung unterscheidet sich vom chronisch-strukturellen Muster, das für COPD typisch ist." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die über Jahrzehnte die Lunge reizt",
+        varianten: [
+          { code: "SE7", text: "Über Jahrzehnte sichert sich die selbsterhaltende Sieben über dieselben Muster aus Optionen und Genussmitteln ab, oft verbunden mit langjährigem Rauchen als Mittel der Selbstberuhigung – dieser über eine ganze Lebensspanne fortgesetzte, stoffgebundene Umgang mit innerer Unruhe liest die Psychosomatik als eines der direkteren Bilder für COPD: eine Lunge, die sich über Jahrzehnte strukturell an wiederholte äußere Reizung angepasst hat." },
+          { code: "SO7", text: "Jahrzehntelang stellt die soziale Sieben, der Kontratyp, dieselben eigenen Bedürfnisse zugunsten anderer zurück, ohne das Muster je zu verändern – diese über sehr lange Zeit fortgesetzte, selbstauferlegte Überforderung kann sich körperlich als eine strukturell veränderte Atmung zeigen." },
+          { code: "SX7", text: "In impulsiven, aber wechselnden Phasen lebt die sexuelle Sieben Begeisterung grenzenlos aus – diese variable, nicht über Jahrzehnte in exakt demselben Muster verharrende Intensität unterscheidet sich von der chronisch-strukturellen Konstanz, die COPD kennzeichnet, auch wenn Risikoverhalten wie Rauchen ebenfalls eine Rolle spielen kann." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die über Jahrzehnte keine Schwäche zulässt",
+        varianten: [
+          { code: "SE8", text: "Über Jahrzehnte sichert die selbsterhaltende Acht ihre Existenz durch dieselbe handfeste Kontrolle, ohne das Muster je zu hinterfragen – diese über eine ganze Lebensspanne fortgesetzte Weigerung, Schwäche einzugestehen, kann sich körperlich als eine Lunge zeigen, die sich strukturell an dauerhaften inneren Druck angepasst hat." },
+          { code: "SO8", text: "Jahrzehntelang übernimmt die soziale Acht dieselbe Beschützerrolle für ihre Gruppe, ohne das Muster je zu verändern – diese über sehr lange Zeit fortgesetzte Führungsspannung passt zum Bild einer strukturell veränderten, dauerhaft eingeschränkten Atmung." },
+          { code: "SX8", text: "In extremen, aber episodischen Ausschlägen zwischen Kontrolle und Hingabe lebt die sexuelle Acht ihre Intensität – diese punktuelle, nicht über Jahrzehnte gleichbleibende Dynamik unterscheidet sich vom chronisch-strukturellen Muster, das für COPD typisch ist." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die sich über Jahrzehnte in den Körper einschreibt",
+        varianten: [
+          { code: "SE9", text: "Über Jahrzehnte flüchtet die selbsterhaltende Neun in dieselbe komfortable Routine, ohne das eigene Muster je zu hinterfragen – diese über eine ganze Lebensspanne fortgesetzte Selbstvergessenheit ist psychosomatisch eines der unmittelbarsten Bilder für COPD: eine Lunge, die sich über Jahrzehnte strukturell an einen nie bemerkten, nie veränderten Zustand angepasst hat." },
+          { code: "SO9", text: "Jahrzehntelang ordnet die soziale Neun die eigene Stimme derselben Gruppenharmonie unter, ohne das Muster je zu verändern – diese über sehr lange Zeit fortgesetzte Selbstauslöschung passt zum Bild einer strukturell veränderten, dauerhaft eingeschränkten Atmung." },
+          { code: "SX9", text: "Über Jahrzehnte verschmilzt die sexuelle Neun mit demselben Partner, übernimmt dessen Rhythmus als den eigenen – bleibt diese Verschmelzung über eine ganze Lebensspanne bestehen, kann die fehlende eigene, unabhängige Atmung sich ebenfalls als eine strukturell dauerhafte Einschränkung zeigen." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor COPD gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit über Jahrzehnte fortgesetzten, selten hinterfragten Mustern verhandelt – manche über starre Kontrolle, andere über Rückzug, stilles Geben oder eine nie bemerkte eigene Anpassung an dauerhaften Druck. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97357,7 +97450,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
+  "atemwege": ["Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
