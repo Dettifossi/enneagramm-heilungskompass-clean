@@ -97769,6 +97769,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Eine Lungenentzündung ist immer ein akutes Geschehen, das ärztlicher Behandlung bedarf. Psychosomatisch betrachtet kann sie zugleich auf eine Phase hinweisen, in der die eigenen Widerstandskräfte bereits vor dem Infekt erschöpft waren – ein Anlass, die eigene Erschöpfung ernst zu nehmen, statt sie erst dann zuzulassen, wenn der Körper keine Wahl mehr lässt."
   },
+  hyperventilationssyndrom: {
+    titel: "Hyperventilationssyndrom",
+    kategorie: "atemwege",
+    icon: "💨",
+    kurz: "Anfallsartige, zu schnelle und zu tiefe Atmung, meist ausgelöst durch akute Angst oder chronischen Stress, mit Kribbeln, Schwindel und Beklemmung.",
+    definition: "Beim Hyperventilationssyndrom atmet die betroffene Person deutlich schneller und tiefer, als der Körper es für seinen aktuellen Sauerstoffbedarf benötigt. Dadurch wird zu viel Kohlendioxid abgeatmet, der Säure-Basen-Haushalt des Blutes verschiebt sich, und es kommt zu Symptomen wie Kribbeln in Händen, Füßen und um den Mund, Schwindel, Engegefühl in der Brust, Herzrasen und in ausgeprägten Fällen zu Muskelkrämpfen der Hände (Pfötchenstellung). Auslöser sind meist akute Angst, Panik oder anhaltender psychischer Stress; organische Ursachen müssen jedoch ärztlich ausgeschlossen werden, bevor die Diagnose gestellt wird. Anders als bei Asthma ist hier nicht die Atemwegsverengung das Problem, sondern eine Fehlsteuerung der Atemtiefe und -frequenz selbst.",
+    symptome: ["Schnelle, flache oder auffällig tiefe Atmung", "Kribbeln oder Taubheitsgefühl in Händen, Füßen und um den Mund", "Schwindel und Benommenheit", "Engegefühl oder Druck in der Brust", "Herzrasen und Zittern", "In ausgeprägten Fällen krampfartige Verkrampfung der Hände"],
+    notfall: "Bei erstmaligem Auftreten oder bei zusätzlichen Symptomen wie starkem Brustschmerz, einseitiger Schwäche oder Bewusstseinsstörung sofort ärztliche Notfallversorgung aufsuchen, um andere, ernstere Ursachen sicher auszuschließen. Erst nach ärztlich bestätigter Diagnose sollte die Rückatmung in eine Tüte oder die Hände als Selbsthilfemaßnahme eingesetzt werden.",
+    disclaimer: "Diese psychosomatische Deutung ersetzt keine ärztliche Abklärung. Symptome wie Brustschmerz oder Kribbeln müssen zunächst organisch ausgeschlossen werden, bevor sie dem Hyperventilationssyndrom zugeordnet werden.",
+    einleitung: "Die Atmung ist die einzige lebenswichtige Körperfunktion, die zugleich unwillkürlich und willkürlich gesteuert werden kann – sie läuft automatisch, lässt sich aber jederzeit bewusst beeinflussen. Genau an dieser Schnittstelle zwischen Bewusstem und Unbewusstem setzt das Hyperventilationssyndrom an: Akute Angst oder aufgestauter Stress, die keinen anderen Ausdruck finden, greifen unmittelbar auf die Atmung durch und bringen ihren natürlichen Rhythmus aus dem Gleichgewicht. Anders als bei den chronischen Erkrankungen dieser Kategorie zeigt sich hier meist kein über Jahre gewachsenes Muster, sondern eine akute Überforderung des Nervensystems, die sich unmittelbar körperlich entlädt. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, worin diese akute Überforderung ihren Ursprung hat.",
+    typen: [
+      { typ: 1, titel: "Die Reformerin / der Reformer", varianten: [
+        { code: "SE_1", text: "Die selbsterhaltende Eins hält Ärger und Anspannung meist diszipliniert unter Kontrolle, bis der innere Druck irgendwann keinen anderen Weg mehr findet als über die Atmung zu entweichen. Ein Hyperventilationsanfall kann so der Moment sein, in dem die sonst so straffe Selbstkontrolle kurzzeitig die Oberhand verliert." },
+        { code: "SO_1", text: "Wer wie die soziale Eins ständig darüber wacht, dass alles richtig läuft, gerät bei plötzlicher Überforderung leicht in eine Spirale aus Anspannung, die sich unmittelbar auf die Atmung überträgt. Der Körper reagiert dort, wo der Verstand die Kontrolle nicht mehr aufrechterhalten kann." },
+        { code: "SX_1", text: "Die sexuelle Eins lebt Empörung über Unvollkommenes mit großer Intensität, und wenn diese Intensität keinen Ausweg findet, kann sie sich in einem akuten Hyperventilationsanfall entladen – der Körper atmet gewissermaßen die aufgestaute Erregung ab, weil sie sich verbal nicht ausdrücken durfte." },
+      ]},
+      { typ: 2, titel: "Die Geberin / der Geber", varianten: [
+        { code: "SE_2", text: "Die selbsterhaltende Zwei stellt eigene Bedürfnisse so lange zurück, bis der innere Druck sich nicht mehr halten lässt – ein Hyperventilationsanfall kann in solchen Momenten der Punkt sein, an dem der Körper unmissverständlich signalisiert, dass die Grenze der Selbstaufopferung erreicht ist." },
+        { code: "SO_2", text: "Die soziale Zwei versucht, für viele Menschen gleichzeitig unentbehrlich zu sein, und gerät bei Überforderung leicht in einen Zustand innerer Atemlosigkeit, der sich körperlich in tatsächlicher Atemlosigkeit entlädt." },
+        { code: "SX_2", text: "Die sexuelle Zwei fürchtet den Verlust der geliebten Person oft so intensiv, dass akute Beziehungsangst sich unmittelbar auf die Atmung niederschlagen kann. Ein Hyperventilationsanfall kann in dieser Konstellation direkter körperlicher Ausdruck einer überwältigenden Verlustangst sein." },
+      ]},
+      { typ: 3, titel: "Die Erfolgreiche / der Erfolgreiche", varianten: [
+        { code: "SE_3", text: "Die selbsterhaltende Drei treibt sich selbst zu hoher Leistung an und ignoriert dabei oft die eigenen Belastungsgrenzen, bis der Körper mit einem akuten Anfall abrupt Pause erzwingt. Die Atmung wird hier zur unkontrollierbaren Instanz, wo Kontrolle sonst überall herrscht." },
+        { code: "SO_3", text: "Vor anderen möchte die soziale Drei stets souverän wirken, weshalb ein sichtbarer Hyperventilationsanfall für sie besonders beschämend ist – gerade das Bemühen, keine Schwäche zu zeigen, kann die innere Anspannung jedoch so weit steigern, dass sie sich genau dort entlädt." },
+        { code: "SX_3", text: "Die sexuelle Drei steht unter dem ständigen Druck, im Kontakt zu glänzen, und kann diesen Druck unter starkem Stress kaum noch kompensieren. Ein akuter Anfall kann der Moment sein, in dem der aufrechterhaltene Glanz kurzzeitig zusammenbricht." },
+      ]},
+      { typ: 4, titel: "Die Individualistin / der Individualist", varianten: [
+        { code: "SE_4", text: "Die selbsterhaltende Vier erlebt Gefühle oft mit großer Intensität, ohne einen verlässlichen Weg zu finden, sie zu regulieren. Ein Hyperventilationsanfall kann körperlicher Ausdruck einer emotionalen Überflutung sein, für die im Alltag kein anderer Kanal zur Verfügung steht." },
+        { code: "SO_4", text: "Für die soziale Vier kann sich das Gefühl, mit der eigenen emotionalen Intensität allein zu sein, in akuten Momenten der Überforderung unmittelbar auf die Atmung übertragen – der Körper reagiert auf eine seelische Einsamkeit, die verbal keinen Ausdruck findet." },
+        { code: "SX_4", text: "Die sexuelle Vier lebt Sehnsucht und Verzweiflung mit voller Wucht, und wenn diese Gefühle in einer intensiven Beziehungssituation überhandnehmen, kann sich die emotionale Überwältigung in einem akuten Anfall entladen, bei dem der Atem der Gefühlsintensität nicht mehr folgen kann." },
+      ]},
+      { typ: 5, titel: "Die Beobachterin / der Beobachter", varianten: [
+        { code: "SE_5", text: "Die selbsterhaltende Fünf hält Gefühle meist auf Abstand und reagiert erst dann körperlich, wenn die innere Anspannung nicht mehr kontrolliert werden kann. Ein Hyperventilationsanfall kann so der seltene Moment sein, in dem die sonst so beherrschte Distanz zusammenbricht." },
+        { code: "SO_5", text: "Die soziale Fünf analysiert Belastungen häufig gedanklich, statt sie emotional zu verarbeiten, und kann bei plötzlicher Überforderung in einen Zustand geraten, in dem der Verstand die Kontrolle verliert – ein Zustand, der sich unmittelbar auf die Atmung überträgt." },
+        { code: "SX_5", text: "Die sexuelle Fünf öffnet sich selten vollständig, und wenn in einer intensiven Verbindung dennoch starke Gefühle aufbrechen, kann diese ungewohnte emotionale Durchlässigkeit den Körper überfordern und sich in einem akuten Anfall entladen." },
+      ]},
+      { typ: 6, titel: "Die Loyale / der Loyale", varianten: [
+        { code: "SE_6", text: "Die selbsterhaltende Sechs lebt oft in latenter Sorge um mögliche Gefahren, und akute Angst kann diesen Zustand plötzlich verstärken, bis sich die Anspannung unmittelbar in einem Hyperventilationsanfall entlädt – eine der häufigsten Konstellationen für dieses Symptom überhaupt." },
+        { code: "SO_6", text: "Die soziale Sechs sorgt sich intensiv um das Wohl der Gruppe und gerät bei akuten Konflikten oder Unsicherheiten leicht in einen Zustand erhöhter Alarmbereitschaft, der sich körperlich in beschleunigter, unregelmäßiger Atmung äußern kann." },
+        { code: "SX_6", text: "Die sexuelle Sechs bewegt sich zwischen mutiger Konfrontation der eigenen Ängste und plötzlicher Überwältigung durch sie – gerade dieser abrupte Wechsel kann einen akuten Hyperventilationsanfall auslösen, wenn die Angst kurzzeitig die Oberhand gewinnt." },
+      ]},
+      { typ: 7, titel: "Die Enthusiastin / der Enthusiast", varianten: [
+        { code: "SE_7", text: "Die selbsterhaltende Sieben weicht unangenehmen Gefühlen meist geschickt aus, doch wenn diese Vermeidung an ihre Grenzen stößt, kann sich die aufgestaute Angst in einem akuten Anfall entladen – dem einzigen Moment, in dem das sonst so wendige Ausweichen nicht mehr funktioniert." },
+        { code: "SO_7", text: "Die soziale Sieben überspielt eigene Sorgen gerne mit Optimismus, doch unter starkem Druck kann diese Fassade brüchig werden, und die zurückgehaltene Angst entlädt sich unmittelbar in der Atmung." },
+        { code: "SX_7", text: "Die sexuelle Sieben sucht Intensität, um unangenehmen Gefühlen zuvorzukommen, doch wenn eine Situation trotzdem überfordert, kann die plötzliche Konfrontation mit der eigenen Angst einen akuten Hyperventilationsanfall auslösen." },
+      ]},
+      { typ: 8, titel: "Die Chefin / der Chef", varianten: [
+        { code: "SE_8", text: "Die selbsterhaltende Acht lässt sich Angst nur ungern anmerken und unterdrückt sie meist konsequent – gerade diese Unterdrückung kann jedoch dazu führen, dass sich die Anspannung unkontrolliert über die Atmung entlädt, wenn der innere Druck zu groß wird." },
+        { code: "SO_8", text: "Wer wie die soziale Acht Verantwortung und Stärke ausstrahlt, erlaubt sich selten, Angst offen zu zeigen. Ein Hyperventilationsanfall kann der einzige Moment sein, in dem diese Stärke sichtbar bricht und die verborgene Verletzlichkeit zum Vorschein kommt." },
+        { code: "SX_8", text: "Die sexuelle Acht begegnet Bedrohung meist mit sofortiger Konfrontation, doch wenn eine Situation außer Kontrolle gerät und selbst diese Strategie versagt, kann sich die aufgestaute Erregung in einem akuten Anfall entladen." },
+      ]},
+      { typ: 9, titel: "Die Vermittlerin / der Vermittler", varianten: [
+        { code: "SE_9", text: "Die selbsterhaltende Neun verdrängt unangenehme Spannungen meist geschickt, doch wenn sich zu viel Ungesagtes angestaut hat, kann sich diese innere Spannung plötzlich und unkontrolliert über die Atmung entladen." },
+        { code: "SO_9", text: "Die soziale Neun hält den Frieden in der Gruppe oft um den Preis eigener Anspannung aufrecht, die sich lange unbemerkt aufbaut. Ein akuter Hyperventilationsanfall kann der Moment sein, in dem diese verdrängte Anspannung unübersehbar wird." },
+        { code: "SX_9", text: "Die sexuelle Neun geht so vollständig in der geliebten Beziehung auf, dass eigene Ängste selten benannt werden – wenn diese verdrängte Angst sich dennoch Bahn bricht, geschieht dies mitunter abrupt, in Form eines akuten Anfalls, der die sonst so verschmolzene Ruhe durchbricht." },
+      ]},
+    ],
+    abschluss: "Das Hyperventilationssyndrom erinnert daran, dass akute innere Anspannung, wenn sie keinen anderen Ausdruck findet, sich unmittelbar über die Atmung entladen kann. Die psychosomatische Arbeit daran kann helfen, Angst und Stress frühzeitiger und bewusster wahrzunehmen, statt sie erst im akuten Anfall zuzulassen."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97779,7 +97838,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
+  "atemwege": ["Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
