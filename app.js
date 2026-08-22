@@ -97710,6 +97710,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Schlafapnoe erinnert daran, wie schwer es mitunter fällt, auch im Schlaf wirklich loszulassen. Die psychosomatische Auseinandersetzung mit den Atemaussetzern kann helfen, dem eigenen Kontrollbedürfnis auch nachts bewusster zu begegnen – ohne die notwendige schlafmedizinische Behandlung zu ersetzen."
   },
+  lungenentzuendung: {
+    titel: "Lungenentzündung (Pneumonie)",
+    kategorie: "atemwege",
+    icon: "🫁",
+    kurz: "Akute Entzündung des Lungengewebes, meist durch Bakterien oder Viren verursacht, mit Fieber, Husten und Atemnot.",
+    definition: "Eine Lungenentzündung (Pneumonie) ist eine akute Entzündung des Lungengewebes, meist ausgelöst durch Bakterien, seltener durch Viren oder Pilze. Die Erreger befallen die Lungenbläschen, die sich daraufhin mit entzündlichem Sekret füllen – der Gasaustausch wird behindert, und der Körper reagiert mit hohem Fieber, Schüttelfrost, produktivem Husten und zunehmender Atemnot. Man unterscheidet die ambulant erworbene Pneumonie, die im normalen Alltag entsteht, von der im Krankenhaus erworbenen Form, die oft schwerer verläuft. Besonders gefährdet sind ältere Menschen, Menschen mit geschwächtem Immunsystem und Menschen mit Vorerkrankungen der Lunge. Anders als die chronischen Atemwegserkrankungen dieser Kategorie ist die Pneumonie ein akutes, potenziell lebensbedrohliches Geschehen, das rasches ärztliches Eingreifen erfordert.",
+    symptome: ["Hohes Fieber und Schüttelfrost", "Produktiver Husten mit gelblich-grünlichem oder rostbraunem Auswurf", "Zunehmende Atemnot, auch in Ruhe", "Stechender Schmerz beim Atmen (bei Beteiligung des Brustfells)", "Beschleunigter Puls und Atemfrequenz", "Ausgeprägte Schwäche und Verwirrtheit, besonders bei älteren Menschen"],
+    notfall: "Bei hohem Fieber in Kombination mit Atemnot, bläulich verfärbten Lippen, starker Verwirrtheit oder sehr schneller Atmung umgehend ärztliche Notfallversorgung aufsuchen. Eine Pneumonie kann insbesondere bei älteren oder immungeschwächten Menschen lebensbedrohlich verlaufen und muss zeitnah ärztlich behandelt werden.",
+    disclaimer: "Diese psychosomatische Deutung ersetzt keine ärztliche Diagnostik und Behandlung. Eine Pneumonie ist ein akutes Krankheitsbild, das immer ärztlich abgeklärt und in der Regel mit Antibiotika behandelt werden muss.",
+    einleitung: "Während die chronischen Atemwegserkrankungen dieser Kategorie oft über Jahre gewachsene, feste Muster spiegeln, ist die Lungenentzündung ein akutes Ereignis – ein Körper, der plötzlich und mit voller Wucht reagiert, wenn die eigenen Abwehrkräfte einem Erreger nicht mehr standhalten. In der TCM gilt die Lunge als das Organ, das am empfindlichsten auf äußere Einflüsse reagiert, aber auch als Sitz der Trauer. Eine akute Pneumonie fällt psychosomatisch oft in Lebensphasen, in denen die eigenen Widerstandskräfte bereits durch Erschöpfung, Überforderung oder unverarbeiteten Kummer geschwächt waren – der Erreger trifft auf einen Boden, der keine Kraft mehr hat, ihm entgegenzutreten. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, wie diese Erschöpfung entstanden sein kann.",
+    typen: [
+      { typ: 1, titel: "Die Reformerin / der Reformer", varianten: [
+        { code: "SE_1", text: "Die selbsterhaltende Eins arbeitet oft bis zur völligen Erschöpfung weiter, weil Innehalten sich wie Nachlässigkeit anfühlt – genau diese Erschöpfung kann die Abwehrkräfte so weit schwächen, dass ein Infekt sich ungehindert bis in die Lunge ausbreiten kann. Die Pneumonie zwingt den Körper zu der Pause, die der Verstand sich nicht erlaubt hätte." },
+        { code: "SO_1", text: "Wer wie die soziale Eins über lange Zeit die Verantwortung trägt, dass in der Gruppe alles richtig läuft, gönnt sich selten eine echte Verschnaufpause. Eine akute Lungenentzündung kann in solchen Phasen der Moment sein, in dem der Körper die Reißleine zieht, weil die Selbstfürsorge längst überfällig war." },
+        { code: "SX_1", text: "Die sexuelle Eins lebt Anspannung und Anspruch mit großer Intensität und ignoriert körperliche Erschöpfung oft, bis sie sich nicht mehr überspielen lässt. Eine schwere Pneumonie kann in dieser Konstellation zum unübersehbaren Signal werden, dass der eigene Kompromisslosigkeit gegenüber sich selbst Grenzen gesetzt werden müssen." },
+      ]},
+      { typ: 2, titel: "Die Geberin / der Geber", varianten: [
+        { code: "SE_2", text: "Die selbsterhaltende Zwei kümmert sich oft so lange um andere, bis die eigenen Kraftreserven aufgebraucht sind – eine Pneumonie trifft in solchen Momenten auf ein Immunsystem, das durch chronisches Sich-Zurückstellen bereits geschwächt ist." },
+        { code: "SO_2", text: "Die soziale Zwei ist für viele Menschen gleichzeitig da und übersieht dabei leicht die eigenen Warnsignale von Erschöpfung. Eine akute Lungenentzündung kann der Moment sein, in dem der Körper unmissverständlich einfordert, endlich selbst umsorgt zu werden." },
+        { code: "SX_2", text: "Die sexuelle Zwei investiert ihre gesamte Energie in die geliebte Person und vernachlässigt dabei mitunter die eigene körperliche Regeneration. Eine schwere Erkrankung wie die Pneumonie kann so zur einzigen Situation werden, in der sie sich erlaubt, tatsächlich umsorgt zu werden, statt selbst zu sorgen." },
+      ]},
+      { typ: 3, titel: "Die Erfolgreiche / der Erfolgreiche", varianten: [
+        { code: "SE_3", text: "Die selbsterhaltende Drei arbeitet auch mit ersten Krankheitszeichen oft noch weiter, weil ein Ausfall sich wie Versagen anfühlt. Genau dieses Ignorieren früher Warnsignale kann aus einem harmlosen Infekt eine ausgewachsene, schwere Pneumonie werden lassen." },
+        { code: "SO_3", text: "Vor anderen möchte die soziale Drei stets leistungsfähig erscheinen und verschleppt Krankheitszeichen deshalb oft, statt sich rechtzeitig ärztlich behandeln zu lassen. Eine schwere Lungenentzündung zwingt sie zu einer Auszeit, die sie sich freiwillig kaum genehmigt hätte." },
+        { code: "SX_3", text: "Die sexuelle Drei will auch im Krankheitsfall attraktiv und stark wirken und neigt dazu, erste Symptome herunterzuspielen. Erst wenn Fieber und Atemnot nicht mehr zu überspielen sind, gesteht sie sich ein, dass der Körper dringend Ruhe braucht." },
+      ]},
+      { typ: 4, titel: "Die Individualistin / der Individualist", varianten: [
+        { code: "SE_4", text: "Die selbsterhaltende Vier erlebt körperliche Erschöpfung oft als vertrauten Zustand und übersieht dabei leicht den Übergang von normaler Müdigkeit zu einem ernsten Infekt. Eine Pneumonie kann sich in dieser Wahrnehmungsverschiebung erst spät als das zeigen, was sie ist." },
+        { code: "SO_4", text: "Für die soziale Vier kann eine schwere Erkrankung wie die Pneumonie unbewusst zum Beleg dafür werden, wie sehr sich das eigene Leiden von dem anderer unterscheidet. Gleichzeitig zwingt die Krankheit zu einer Ruhe, die dem sonst oft rastlosen inneren Vergleichen mit anderen entgegenwirkt." },
+        { code: "SX_4", text: "Die sexuelle Vier lebt emotionale Erschöpfung nach intensiven Beziehungsphasen oft körperlich mit aus – tiefe Erschöpfung, die sich in solchen Phasen einstellt, kann die Abwehrkräfte schwächen und einen Infekt begünstigen, der sich bis in die Lunge ausbreitet." },
+      ]},
+      { typ: 5, titel: "Die Beobachterin / der Beobachter", varianten: [
+        { code: "SE_5", text: "Die selbsterhaltende Fünf zieht sich bei Erschöpfung zurück, statt aktiv ärztliche Hilfe zu suchen, und beobachtet die eigenen Symptome oft lange, bevor sie handelt. Diese Verzögerung kann dazu führen, dass sich eine beginnende Lungenentzündung ungehindert weiterentwickelt." },
+        { code: "SO_5", text: "Die soziale Fünf recherchiert bei Krankheitszeichen zunächst gründlich, bevor sie ärztliche Hilfe in Anspruch nimmt – wertvolle Zeit, die bei einer sich rasch verschlimmernden Pneumonie fehlen kann. Vertrauen in schnelles ärztliches Handeln fällt diesem Subtyp oft schwerer als das eigene Studium der Fakten." },
+        { code: "SX_5", text: "Die sexuelle Fünf öffnet sich nur wenigen Menschen wirklich und neigt dazu, auch körperliche Schwäche möglichst zu verbergen. Eine schwere Pneumonie kann diesen Rückzug unterbrechen, weil die körperliche Not stärker ist als der gewohnte Schutzmechanismus der Zurückhaltung." },
+      ]},
+      { typ: 6, titel: "Die Loyale / der Loyale", varianten: [
+        { code: "SE_6", text: "Die selbsterhaltende Sechs sorgt in der Regel gewissenhaft für ihre Gesundheit, doch anhaltende Sorgen und Anspannung können die eigenen Abwehrkräfte über Zeit erschöpfen. Eine Pneumonie trifft dann auf ein Immunsystem, das durch chronische innere Alarmbereitschaft bereits geschwächt ist." },
+        { code: "SO_6", text: "Die soziale Sechs sorgt sich häufig intensiv um das Wohl anderer und stellt eigene Warnsignale dabei zurück. Eine akute Lungenentzündung kann in dieser Konstellation der Moment sein, in dem endlich Fürsorge auf die eigene Person gerichtet werden muss." },
+        { code: "SX_6", text: "Die sexuelle Sechs lebt in ständiger Alarmbereitschaft zwischen Vertrauen und Misstrauen, was auf Dauer das Nervensystem und mit ihm die Abwehrkräfte erschöpfen kann. Eine schwere Erkrankung kann so auch Ausdruck einer über lange Zeit aufgebrauchten inneren Reserve sein." },
+      ]},
+      { typ: 7, titel: "Die Enthusiastin / der Enthusiast", varianten: [
+        { code: "SE_7", text: "Die selbsterhaltende Sieben überspielt erste Krankheitszeichen gern mit der nächsten angenehmen Aktivität, statt sich die notwendige Ruhe zu gönnen. Diese Vermeidung des Unangenehmen kann aus einem harmlosen Infekt eine ernstzunehmende Pneumonie werden lassen." },
+        { code: "SO_7", text: "Die soziale Sieben möchte auch krank noch die gute Stimmung nicht trüben und verschleppt eigene Symptome häufig, um andere nicht zu belasten. Erst eine schwere Erkrankung wie die Pneumonie zwingt sie zu der Pause, die sie sich sonst nur ungern nimmt." },
+        { code: "SX_7", text: "Die sexuelle Sieben stürzt sich weiter in neue Erlebnisse, auch wenn der Körper längst um Ruhe bittet, weil das Innehalten sich wie ein Verlust anfühlt. Eine akute Pneumonie unterbricht diesen Sog nach Intensität mit unmissverständlicher Deutlichkeit." },
+      ]},
+      { typ: 8, titel: "Die Chefin / der Chef", varianten: [
+        { code: "SE_8", text: "Die selbsterhaltende Acht ignoriert Krankheitszeichen bewusst, um keine Schwäche zu zeigen, und arbeitet oft bis zur Erschöpfung weiter. Eine sich entwickelnde Pneumonie wird dadurch häufig erst erkannt, wenn sie bereits ein ernstes Ausmaß erreicht hat." },
+        { code: "SO_8", text: "Wer wie die soziale Acht Verantwortung für andere trägt, stellt die eigene Gesundheit gerne hintenan, bis der Körper keine andere Wahl mehr lässt. Eine schwere Lungenentzündung zwingt zu einer Kapitulation vor der eigenen Verletzlichkeit, die diesem Subtyp besonders schwerfällt." },
+        { code: "SX_8", text: "Die sexuelle Acht begegnet auch Krankheit zunächst mit Konfrontation statt mit Nachgeben – Symptome werden niedergerungen statt beachtet. Erst wenn eine Pneumonie die körperliche Kraft massiv einschränkt, erlaubt sie sich widerwillig, Hilfe anzunehmen." },
+      ]},
+      { typ: 9, titel: "Die Vermittlerin / der Vermittler", varianten: [
+        { code: "SE_9", text: "Die selbsterhaltende Neun schiebt die Auseinandersetzung mit ersten Krankheitszeichen gerne hinaus und hofft, dass sich alles von selbst löst. Eine sich verschlimmernde Pneumonie kann so leider erst spät als ernstzunehmend erkannt werden." },
+        { code: "SO_9", text: "Die soziale Neun möchte niemandem zur Last fallen und verschweigt eigene Krankheitszeichen oft, um den Alltag der anderen nicht zu stören. Erst eine schwere Lungenentzündung macht deutlich, dass die eigene Gesundheit ebenso viel Aufmerksamkeit verdient wie die der anderen." },
+        { code: "SX_9", text: "Die sexuelle Neun geht so vollständig in der geliebten Person auf, dass die eigenen körperlichen Warnsignale leicht übersehen werden. Eine Pneumonie wird bei diesem Subtyp mitunter erst bemerkt, wenn das Gegenüber eingreift und auf eine ärztliche Abklärung besteht." },
+      ]},
+    ],
+    abschluss: "Eine Lungenentzündung ist immer ein akutes Geschehen, das ärztlicher Behandlung bedarf. Psychosomatisch betrachtet kann sie zugleich auf eine Phase hinweisen, in der die eigenen Widerstandskräfte bereits vor dem Infekt erschöpft waren – ein Anlass, die eigene Erschöpfung ernst zu nehmen, statt sie erst dann zuzulassen, wenn der Körper keine Wahl mehr lässt."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97720,7 +97779,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
+  "atemwege": ["Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
