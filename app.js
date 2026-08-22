@@ -99834,6 +99834,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Zyklus ist vor PMS gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit monatlich aufgestauter Spannung auf seine eigene Weise umgeht – manche über Kontrolle, andere über fortlaufenden Ausdruck, Rückzug oder ein chronisch übergangenes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  insulinresistenz: {
+    titel: "Insulinresistenz / Prädiabetes",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🔕",
+    kurz: "Ein Signal wird über Zeit immer leiser gehört – nicht durch einen einzelnen Vorfall, sondern durch stille Gewöhnung, die sich noch umkehren lässt.",
+    definition: "Insulinresistenz ist die frühe, oft jahrelang unbemerkte Vorstufe von Diabetes Typ 2: Die Körperzellen reagieren zunehmend schwächer auf das vom Körper ausgeschüttete Insulin, sodass die Bauchspeicheldrüse mit immer mehr Insulin gegensteuern muss, um den Blutzucker im Normbereich zu halten. Solange diese Kompensation gelingt, bleiben die Blutzuckerwerte lange unauffällig – erst wenn sie nicht mehr ausreicht, zeigen sich leicht erhöhte Nüchternblutzucker- oder Langzeitzuckerwerte (Prädiabetes). Anders als der bereits manifeste Diabetes ist dieses Stadium in der Regel noch vollständig reversibel: Durch Bewegung, veränderte Ernährung und Stressreduktion kann sich die Insulinempfindlichkeit der Zellen häufig wieder normalisieren. Gerade weil in dieser Phase noch kaum spürbare Beschwerden auftreten, wird sie leicht übersehen – ein schleichender Prozess der Gewöhnung, lange bevor daraus eine manifeste Erkrankung wird.",
+    symptome: ["Meist keine spürbaren Beschwerden im Frühstadium", "Leicht erhöhter Nüchternblutzucker oder Langzeitzucker (HbA1c) im Grenzbereich", "Zunehmende Müdigkeit nach kohlenhydratreichen Mahlzeiten", "Heißhungerattacken, besonders auf Süßes", "Dunkle, samtige Hautverfärbungen in Hautfalten (Acanthosis nigricans) bei stärkerer Ausprägung", "Bauchbetonte Gewichtszunahme"],
+    notfall: "Kein akuter Notfall. Insulinresistenz sollte dennoch ärztlich überwacht werden, um den Übergang zu einem manifesten Diabetes Typ 2 möglichst früh zu erkennen und aufzuhalten.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Insulinresistenz beginnt nicht mit einem dramatischen Ereignis, sondern mit einer stillen Gewöhnung: Ein Signal, das anfangs klar gehört wurde, wird über Zeit immer leiser wahrgenommen, bis die Reaktion darauf spürbar nachlässt. In der TCM wird dieses Frühstadium oft mit einer beginnenden Schwäche des Milz-Qi assoziiert, die sich lange kompensieren lässt, bevor sichtbare Zeichen auftreten. Psychosomatisch liegt bei Insulinresistenz eine Deutung nahe, die sich um Gewöhnung statt um Verweigerung dreht: nicht ein bewusstes Nicht-Annehmen, sondern ein allmähliches Sich-daran-Gewöhnen, dass etwas ständig angeboten oder verlangt wird, bis die eigene Empfänglichkeit dafür nachlässt – sei es Anerkennung, Zuwendung, Ruhe oder ein anderes wiederkehrendes inneres Bedürfnis. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, an welches Signal er sich hier zunehmend gewöhnt, statt es weiter deutlich wahrzunehmen.",
+    typen: [
+      { typ: 1, titel: "Eine Strenge, an die man sich gewöhnt", varianten: [
+        { code: "SE1", text: "An ihre eigene permanente Selbstkontrolle hat sich die selbsterhaltende Eins über Jahre so gewöhnt, dass sie deren Belastung kaum noch bewusst spürt. Diese schleichende Gewöhnung an Dauerdisziplin kann sich hormonell als beginnende Insulinresistenz zeigen." },
+        { code: "SO1", text: "An das ständige innere Wachen über Richtig und Falsch hat sich die soziale Eins so gewöhnt, dass sie den damit verbundenen Druck kaum noch wahrnimmt. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
+        { code: "SX1", text: "Ihre Reaktionen bleiben bei der sexuellen Eins auch nach Jahren spürbar frisch und unmittelbar, statt sich an Dauerkontrolle zu gewöhnen. Diese anhaltende Wachheit unterscheidet sich von der schleichenden Gewöhnung anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Eine Selbstlosigkeit, an die man sich gewöhnt", varianten: [
+        { code: "SE2", text: "An das ständige Zurückstellen der eigenen Bedürfnisse hat sich die selbsterhaltende Zwei so gewöhnt, dass ihr das eigene Fehlen kaum noch auffällt. Diese schleichende Gewöhnung kann sich hormonell als beginnende Insulinresistenz zeigen." },
+        { code: "SO2", text: "An das dauerhafte Geben ohne echten Ausgleich hat sich die soziale Zwei so gewöhnt, dass sie den fehlenden Ausgleich kaum noch bemerkt. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung bleibt die sexuelle Zwei für den fehlenden Ausgleich wach und aufmerksam, statt sich daran zu gewöhnen. Diese anhaltende Sensibilität unterscheidet sich von der schleichenden Gewöhnung anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Ein Tempo, an das man sich gewöhnt", varianten: [
+        { code: "SE3", text: "An ihr eigenes Dauertempo hat sich die selbsterhaltende Drei so gewöhnt, dass sie die zugrunde liegende Erschöpfung kaum noch registriert. Diese schleichende Gewöhnung kann sich hormonell als beginnende Insulinresistenz zeigen." },
+        { code: "SO3", text: "An den ständigen Vergleich mit anderen hat sich die soziale Drei so gewöhnt, dass ihr der damit verbundene Druck kaum noch bewusst wird. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person bleibt die sexuelle Drei für die eigene Erschöpfung wach, statt sich an sie zu gewöhnen. Diese anhaltende Wahrnehmung unterscheidet sich von der schleichenden Gewöhnung anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Sehnsucht, an die man sich gewöhnt", varianten: [
+        { code: "SE4", text: "An ihre eigene, nie gestillte Sehnsucht hat sich die selbsterhaltende Vier, der Kontratyp, über Jahre so gewöhnt, dass sie kaum noch als eigenständiges Gefühl wahrgenommen wird. Diese schleichende Gewöhnung kann sich hormonell als beginnende Insulinresistenz zeigen." },
+        { code: "SO4", text: "Ihre Sehnsucht bleibt für die soziale Vier auch nach Jahren spürbar lebendig, weil sie sie immer wieder ausspricht, statt sich an sie zu gewöhnen. Dieser fortlaufende Ausdruck kann der Abstumpfung entgegenwirken, die bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SX4", text: "Mit unverminderter Intensität lebt die sexuelle Vier ihre Sehnsucht auch nach Jahren aus, statt sich an sie zu gewöhnen. Diese anhaltende Wachheit unterscheidet sich von der schleichenden Gewöhnung der selbsterhaltenden Variante." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, an den man sich gewöhnt", varianten: [
+        { code: "SE5", text: "An ihre eigene, konsequente Bedürfnislosigkeit hat sich die selbsterhaltende Fünf so gewöhnt, dass sie sie kaum noch als Verzicht empfindet. Diese schleichende Gewöhnung kann sich hormonell als beginnende Insulinresistenz zeigen." },
+        { code: "SO5", text: "An die eigene emotionale Distanz zur Gruppe hat sich die soziale Fünf so gewöhnt, dass ihr diese Distanz selbst kaum noch bewusst wird. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung bleibt die sexuelle Fünf für Nähe und Bedürfnisse wach, statt sich an Distanz zu gewöhnen. Diese anhaltende Sensibilität unterscheidet sich von der generellen Gewöhnung übriger Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine Wachsamkeit, an die man sich gewöhnt", varianten: [
+        { code: "SE6", text: "An ihre eigene ständige innere Alarmbereitschaft hat sich die selbsterhaltende Sechs so gewöhnt, dass sie diese kaum noch als Belastung wahrnimmt. Diese schleichende Gewöhnung an Daueranspannung ist einer der bekanntesten Wegbereiter einer beginnenden Insulinresistenz." },
+        { code: "SO6", text: "An die eigene, nie ganz aufgelöste Sorge um ihre Gruppe hat sich die soziale Sechs so gewöhnt, dass sie diese kaum noch bewusst spürt. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
+        { code: "SX6", text: "Immer wieder frisch und unmittelbar begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst, statt sich an eine dauerhafte innere Alarmbereitschaft zu gewöhnen. Diese anhaltende Wachheit unterscheidet sich von der schleichenden Gewöhnung anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Eine Rastlosigkeit, an die man sich gewöhnt", varianten: [
+        { code: "SE7", text: "An ihr eigenes ständiges Ausweichen vor Unbehagen hat sich die selbsterhaltende Sieben so gewöhnt, dass ihr das Ausmaß dieser Vermeidung kaum noch auffällt. Diese schleichende Gewöhnung kann sich hormonell als beginnende Insulinresistenz zeigen." },
+        { code: "SO7", text: "An das dauerhafte Zurückstellen der eigenen Grenzen hat sich die soziale Sieben, der Kontratyp, so gewöhnt, dass sie es kaum noch bemerkt. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
+        { code: "SX7", text: "Mit unveränderter Intensität nimmt die sexuelle Sieben auch nach Jahren jede neue Erfahrung wach wahr, statt sich an Ablenkung zu gewöhnen. Diese anhaltende Frische unterscheidet sich von der schleichenden Gewöhnung anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Härte, an die man sich gewöhnt", varianten: [
+        { code: "SE8", text: "An ihre eigene permanente Kontrollhaltung hat sich die selbsterhaltende Acht so gewöhnt, dass sie deren Kraftaufwand kaum noch registriert. Diese schleichende Gewöhnung kann sich hormonell als beginnende Insulinresistenz zeigen." },
+        { code: "SO8", text: "An das dauerhafte Zurückstellen eigener Erschöpfung hat sich die soziale Acht so gewöhnt, dass sie diese kaum noch wahrnimmt. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
+        { code: "SX8", text: "Für die eigene Erschöpfung wach zu bleiben, statt sich an sie zu gewöhnen, gelingt der sexuellen Acht durchaus – aber nur innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Diese anhaltende Sensibilität unterscheidet sich von der generellen Abstumpfung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Eine Selbstvergessenheit, an die man sich gewöhnt", varianten: [
+        { code: "SE9", text: "An ihr eigenes Verlorensein in Routine und Komfort hat sich die selbsterhaltende Neun so vollständig gewöhnt, dass ihr diese Selbstvergessenheit selbst nicht mehr auffällt. Diese besonders tiefe Gewöhnung kann sich hormonell als lange unbemerkte Insulinresistenz zeigen." },
+        { code: "SO9", text: "An das dauerhafte Unterordnen ihrer eigenen Bedürfnisse unter die Gruppenharmonie hat sich die soziale Neun so gewöhnt, dass ihr dieses Muster kaum noch bewusst wird. Diese allmähliche Abstumpfung kann sich als Prädiabetes zeigen." },
+        { code: "SX9", text: "Die Wahrnehmung ihrer eigenen Körpersignale übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Gewöhnt sich der Partner an bestimmte Signale, gewöhnt sich auch die Neun oft in gleichem Maß daran, sie nicht mehr wahrzunehmen." },
+      ]},
+    ],
+    abschluss: "Keine Zellen sind vor Insulinresistenz gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen sich an bestimmte innere Signale auf seine eigene Weise gewöhnt – manche über Kontrolle, andere über fortlaufende Wachheit, Rückzug oder eine schleichend abgestumpfte eigene Wahrnehmung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99847,7 +99906,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": [],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
