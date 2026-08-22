@@ -95372,7 +95372,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über eine Vielzahl paralleler Optionen ab – mehrere Projekte, mehrere Kontakte, mehrere mögliche Fluchtwege, falls einer davon sich nicht auszahlt. Diese praktische Absicherung fühlt sich nach Freiheit an, erzeugt aber eine Erschöpfung eigener Art: nicht durch klassische Anspannung, sondern durch die schiere Zerstreuung, das ständige Springen zwischen Möglichkeiten, ohne je bei einer wirklich anzukommen. Das Herz erlebt hier weniger Druck als permanente Reizüberflutung, ein Nervensystem, das selten zur Ruhe findet, weil immer eine weitere Option lockt." },
       { code: "SO7", text: "Die soziale Sieben, der Kontratyp unter den Siebenern, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die von außen kaum als Siebener-Muster erkennbar ist, weil die sonst typische Leichtigkeit fehlt. Die eigene Erschöpfung wird dabei lange verleugnet, oft mit dem Argument, dass andere es dringender bräuchten – bis der Körper irgendwann eine Rechnung präsentiert, die der wache Verstand lange nicht sehen wollte." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, „alles, sofort“ – ein Lebensstil, der auf Intensität statt auf Mäßigung setzt. Hier ist der plausibelste Zusammenhang zum Herzinfarkt-Risiko oft nicht die innere Anspannung selbst, sondern der gelebte Alltag: eine erhöhte Anfälligkeit für Nikotin, Alkohol oder andere Genussmittel als Mittel, die eigene Intensität noch zu steigern – medizinisch anerkannte, gut belegte Risikofaktoren, die hier weniger aus Vermeidung als aus einem grundsätzlichen Zuviel entstehen." },
+      { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, „alles, sofort“ – ein Lebensstil, der auf Intensität statt auf Mäßigung setzt. Hier ist der plausibelste Zusammenhang zum Herzinfarkt-Risiko oft nicht die innere Anspannung selbst, sondern der gelebte Alltag: eine erhöhte Anfälligkeit für Nikotin, Alkohol oder andere Genussmittel als Mittel, die eigene Intensität noch zu steigern – medizinisch anerkannte, gut belegte Risikofaktoren, die hier weniger aus Vermeidung als aus einem grundsätzlichen Zuviel entstehen." },
         ],
       },
       {
@@ -95380,7 +95380,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch handfeste Kontrolle über materielle und körperliche Ressourcen – Geld, Besitz, körperliche Kraft, alles, was Unabhängigkeit garantiert. Rückzug oder das Eingestehen eines Ruhebedürfnisses werden dabei nicht als legitime menschliche Regung erlebt, sondern als Angriffsfläche, die man sich nicht erlauben darf. Das Herz läuft dauerhaft auf Hochspannung, weil im inneren Selbstbild schlicht kein Platz für ein Herunterschalten vorgesehen ist – Stärke bedeutet hier, niemals sichtbar müde zu wirken." },
       { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe, oft in einer selbst auferlegten Beschützerrolle: „Niemand in meinem Umfeld darf schwach sein, solange ich stark sein kann.“ Verantwortungsdruck und permanente Führungsspannung sind hier der zentrale Belastungsfaktor – ein Herz, das nicht nur für die eigene, sondern gefühlt für die Sicherheit aller anderen mitschlagen muss, findet selten einen Moment, in dem es wirklich nur für sich selbst da sein darf." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der einen Zweierbeziehung, Intensität pur, nichts Halbes – jede Geste, jeder Konflikt, jede Versöhnung wird mit voller Wucht durchlebt. Die Belastung zeigt sich hier folgerichtig nicht in gleichmäßiger Dauerspannung, sondern in extremen emotionalen und körperlichen Ausschlägen: kurze, hochintensive Phasen, in denen Puls und Blutdruck deutlich ausschlagen, gefolgt von ebenso intensiven Phasen der Nähe, in einem Rhythmus, der selten Mittelmaß kennt." },
+      { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der einen Zweierbeziehung, Intensität pur, nichts Halbes – jede Geste, jeder Konflikt, jede Versöhnung wird mit voller Wucht durchlebt. Die Belastung zeigt sich hier folgerichtig nicht in gleichmäßiger Dauerspannung, sondern in extremen emotionalen und körperlichen Ausschlägen: kurze, hochintensive Phasen, in denen Puls und Blutdruck deutlich ausschlagen, gefolgt von ebenso intensiven Phasen der Nähe, in einem Rhythmus, der selten Mittelmaß kennt." },
         ],
       },
       {
@@ -95388,7 +95388,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, feste Routinen und die konsequente Vermeidung jeglichen Konflikts – auf den ersten Blick ein Bild geringer akuter Stressbelastung. Doch „Selbstvergessenheit“ bedeutet hier wörtlich, was es sagt: Die eigenen Herzenswünsche werden über Jahrzehnte hinweg nie wirklich gehört, weder von anderen noch von der Person selbst, weil das eigene Wollen dem Frieden im Außen konsequent untergeordnet wird. Das ist vielleicht die wörtlichste Entsprechung zur Kernthese dieses Eintrags überhaupt – ein Leben, das über Jahrzehnte am eigenen Herzen vorbeigelebt wird, ohne dass es je als Verlust benannt würde." },
       { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Meinung so konsequent unter, dass sie irgendwann kaum noch weiß, was sie selbst eigentlich denkt oder will. Diese chronische Selbstauslöschung zugunsten des sozialen Friedens wirkt nach außen wie Anpassungsfähigkeit, kostet aber über die Jahre erheblich: ein Herz, das dem Kollektiv zuliebe immer wieder auf seine eigene Stimme verzichtet, verliert genau jene Klarheit, die für Selbstfürsorge notwendig wäre." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass die eigene Identität im Anderen aufgeht – nicht aus Schwäche, sondern als tiefste Form von Hingabe, die diesem Subtyp eigen ist. In ihrer reinsten Ausprägung ist das womöglich die deutlichste Version eines Herzens, das nie eine eigene, unabhängige Stimme fand: Nicht weil es zum Schweigen gebracht wurde, sondern weil es sich freiwillig, Schritt für Schritt, in die Stimme des geliebten Menschen auflöste, bis zwischen beiden kaum noch eine Grenze spürbar war." },
+      { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass die eigene Identität im Anderen aufgeht – nicht aus Schwäche, sondern als tiefste Form von Hingabe, die diesem Subtyp eigen ist. In ihrer reinsten Ausprägung ist das womöglich die deutlichste Version eines Herzens, das nie eine eigene, unabhängige Stimme fand: Nicht weil es zum Schweigen gebracht wurde, sondern weil es sich freiwillig, Schritt für Schritt, in die Stimme des geliebten Menschen auflöste, bis zwischen beiden kaum noch eine Grenze spürbar war." },
         ],
       },
     ],
@@ -95465,7 +95465,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Rastlosigkeit und ein Lebensstil, der auf permanente Zerstreuung statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für Gefäßveränderungen – die selbsterhaltende Sieben sichert sich über Optionen, Netzwerke und Genussmittel ab, unabhängig von innerer Anspannung. Sie hat immer einen Plan B, C und D, und genau dieses ständige Offenhalten von Möglichkeiten verhindert, dass sie je wirklich zur Ruhe kommt." },
       { code: "SO7", text: "Sie kümmert sich um alle, außer um sich selbst, und wundert sich dann, wenn der Körper irgendwann Grenzen setzt: So stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse zugunsten anderer zurück – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Nikotin, Alkohol oder andere Genussmittel als anerkannte, medizinisch gut belegte Risikofaktoren für Arteriosklerose. Der Reiz der Intensität selbst wird hier zum Gesundheitsrisiko, unabhängig davon, wie glücklich oder unglücklich diese Person sich fühlt." },
+      { code: "SX7", text: "Unabhängig davon, wie glücklich oder unglücklich diese Person sich fühlt, wird der Reiz der Intensität selbst zum Gesundheitsrisiko, wenn die sexuelle Sieben Begeisterung grenzenlos und impulsiv lebt: Nikotin, Alkohol oder andere Genussmittel sind hier anerkannte, medizinisch gut belegte Risikofaktoren für Arteriosklerose." },
         ],
       },
       {
@@ -95473,7 +95473,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Als Angriffsfläche, nicht als legitimes Bedürfnis erlebt die selbsterhaltende Acht ihr Ruhebedürfnis – sie sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat: Wer einmal schwach wirkt, so die unausgesprochene Überzeugung, verliert die Kontrolle über alles, wofür er oder sie gekämpft hat." },
       { code: "SO8", text: "Nicht nur die eigene Last, sondern gefühlt auch die Verantwortung dafür, dass es allen anderen gut geht, trägt die soziale Acht, die Verantwortung und Führung für die Gruppe übernimmt – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerverhärtung. Konflikte werden mit voller Wucht ausgetragen, Versöhnung ebenso, in einem Rhythmus, der wenig Raum für ruhige Zwischentöne lässt." },
+      { code: "SX8", text: "Mit voller Wucht ausgetragen werden Konflikte, Versöhnung ebenso: So lebt die sexuelle Acht totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – ein Rhythmus, der wenig Raum für ruhige Zwischentöne lässt." },
         ],
       },
       {
@@ -95481,7 +95481,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Wenig sichtbare Anspannung nach außen, aber eine über Jahrzehnte fortgesetzte Selbstvergessenheit, bei der die eigenen Bedürfnisse nie gehört werden: So flüchtet die selbsterhaltende Neun in Komfort, Routine und Konfliktvermeidung. Genau dieses lautlose Sich-Verhärten passt womöglich am unmittelbarsten zum Bild einer Krankheit, die selbst über Jahre symptomfrei bleibt: Beide entwickeln sich im Verborgenen, ohne dass jemand – auch die betroffene Person selbst nicht – wirklich hinschaut." },
       { code: "SO9", text: "Aus Angst, damit Unruhe zu stiften, sagt die soziale Neun selten, was sie wirklich denkt, sucht Harmonie um jeden Preis innerhalb der Gruppe – und verliert dabei über die Jahre zunehmend den Kontakt zu dem, was sie selbst eigentlich möchte." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene, unabhängige Bewegung fand – nicht weil es keine Kraft dazu hätte, sondern weil die tiefste Erfüllung für diesen Subtyp gerade im Verschwinden im Anderen liegt, selbst wenn das bedeutet, die eigene Richtung nie zu finden." },
+      { code: "SX9", text: "Nicht weil es keine Kraft dazu hätte, sondern weil die tiefste Erfüllung für diesen Subtyp gerade im Verschwinden im Anderen liegt: So findet das System der sexuellen Neun, die mit dem Partner verschmilzt, über Jahrzehnte nie eine eigene, unabhängige Bewegung, selbst wenn das bedeutet, die eigene Richtung nie zu finden." },
         ],
       },
     ],
@@ -95558,7 +95558,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Ein Lebensstil, der auf permanente Reizsuche statt Ruhe setzt, gilt medizinisch als eigenständiger Risikofaktor für erhöhten Blutdruck – so sichert sich die selbsterhaltende Sieben über Optionen, Netzwerke und Genussmittel ab, unabhängig von innerer Anspannung. Sie füllt jede freie Minute mit einer neuen Möglichkeit, und genau diese Fülle wird selbst zur Belastung für ein System, das nie zur Ruhe kommt." },
       { code: "SO7", text: "Intensiv kümmert sich die soziale Sieben, der Kontratyp, um andere und übersieht dabei konsequent, wie sehr sie selbst am Limit ist – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung und die damit verbundenen körperlichen Warnsignale lange verleugnet." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – hier ist der plausibelste Zusammenhang oft nicht die innere Anspannung selbst, sondern der Lebensstil: Nikotin, Alkohol oder andere Genussmittel als anerkannte, medizinisch gut belegte Risikofaktoren für erhöhten Blutdruck. Der Wunsch nach Intensität selbst wird hier zum körperlichen Risiko." },
+      { code: "SX7", text: "Der Wunsch nach Intensität selbst wird zum körperlichen Risiko, wenn die sexuelle Sieben Begeisterung grenzenlos und impulsiv lebt: Nikotin, Alkohol oder andere Genussmittel sind hier anerkannte, medizinisch gut belegte Risikofaktoren für erhöhten Blutdruck." },
         ],
       },
       {
@@ -95566,7 +95566,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Schwäche zu zeigen fühlt sich für die selbsterhaltende Acht an, als würde man sich selbst preisgeben – sie sichert die eigene Existenz durch Kontrolle über materielle und körperliche Ressourcen. Das System läuft dauerhaft auf Hochspannung, weil Herunterschalten im inneren Selbstbild keinen Platz hat." },
       { code: "SO8", text: "Ohne sich selbst je diese Fürsorge zuzugestehen, trägt die soziale Acht gefühlt die Verantwortung für alle um sich herum, übernimmt Verantwortung und Führung für die Gruppe – permanente Führungsspannung und die Überzeugung, niemals schwach sein zu dürfen, sind hier der zentrale, über Jahre wirkende Belastungsfaktor." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Dauerspannung. Konflikte und Versöhnung werden mit voller Wucht durchlebt, in einem Rhythmus, der selten ruhige Zwischenphasen kennt." },
+      { code: "SX8", text: "Mit voller Wucht durchlebt die sexuelle Acht Konflikte und Versöhnung, lebt totale Hingabe und Kontrolle in der Zweierbeziehung – ein Rhythmus, der selten ruhige Zwischenphasen kennt." },
         ],
       },
       {
@@ -95574,7 +95574,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Nach außen wirkt vieles entspannt, doch der eigene innere Druck wird bei der selbsterhaltenden Neun nie bewusst wahrgenommen, geschweige denn geäußert – sie flüchtet in Komfort, Routine und Konfliktvermeidung, und dieser Druck bleibt stattdessen als messbarer Blutdruck bestehen. Sie wirkt nach außen die Ruhigste von allen, während der Körper eine andere Geschichte erzählt." },
       { code: "SO9", text: "Weil Widerspruch sich riskanter anfühlt als das eigene Verschwinden, stimmt die soziale Neun zu, auch wenn sie innerlich anderer Meinung ist – eine chronische Selbstauslöschung zugunsten des sozialen Friedens, die sich still und über lange Zeit aufbaut." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Systems, das über Jahrzehnte nie eine eigene, unabhängige Stimme fand – und dessen Spannung sich still im Körper hält, weil es nie einen anderen Ausdrucksort dafür gab als genau diese eine Verschmelzung." },
+      { code: "SX9", text: "Nie einen anderen Ausdrucksort als genau diese eine Verschmelzung fand die Spannung, die sich still im Körper der sexuellen Neun hält, während sie mit dem Partner verschmilzt und die eigene Identität im Anderen aufgeht – über Jahrzehnte nie eine eigene, unabhängige Stimme." },
         ],
       },
     ],
@@ -95651,7 +95651,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Rastlosigkeit und viele parallele Projekte führen bei der selbsterhaltenden Sieben zu einer Erschöpfung durch Zerstreuung, die selten als Warnsignal ernst genommen wird – sie sichert sich über Optionen, Netzwerke und Genussmittel ab. Sie hat immer ein weiteres Vorhaben in der Hinterhand, und genau diese Fülle verhindert, dass ihre Reserven sich je wirklich auffüllen." },
       { code: "SO7", text: "Hingebungsvoll kümmert sich die soziale Sieben, der Kontratyp, um andere und übersieht dabei beharrlich, wie erschöpft sie selbst längst ist – eine idealistische, oft pflichtbewusste Opferbereitschaft, die eigene Erschöpfung lange verleugnet." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv – ein Lebensstil, der Substanz verbraucht statt sie zu erhalten, verschärft durch mögliches Suchtpotenzial gegenüber Nikotin, Alkohol oder anderen Genussmitteln, die die Herzfunktion zusätzlich belasten können. Ihre Intensität selbst wird zum Kraftverzehr, unabhängig davon, wie erfüllend sie sich anfühlt." },
+      { code: "SX7", text: "Unabhängig davon, wie erfüllend sie sich anfühlt, wird die Intensität selbst zum Kraftverzehr, wenn die sexuelle Sieben Begeisterung grenzenlos und impulsiv lebt – ein Lebensstil, der Substanz verbraucht statt sie zu erhalten, verschärft durch mögliches Suchtpotenzial gegenüber Nikotin, Alkohol oder anderen Genussmitteln, die die Herzfunktion zusätzlich belasten können." },
         ],
       },
       {
@@ -95659,7 +95659,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Sie kämpft weiter, lange nachdem andere längst aufgegeben hätten, weil Aufgeben für die selbsterhaltende Acht keine Option zu sein scheint – Ruhebedürfnis wird als Schwäche erlebt, nicht als legitimes Bedürfnis. Das System läuft dauerhaft auf Hochspannung, bis die Kraft irgendwann erschöpft ist." },
       { code: "SO8", text: "Nicht nur ihre eigene Last trägt die soziale Acht, sondern gefühlt auch die aller, für die sie sich verantwortlich fühlt – sie übernimmt Verantwortung und Führung für die Gruppe, oft in einer Beschützerrolle, und die permanente Führungsspannung verbraucht über Jahre erhebliche Kraft." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Zweierbeziehung, Intensität pur, nichts Halbes – die Belastung zeigt sich eher in extremen Ausschlägen als in gleichmäßiger Erschöpfung. Sie gibt sich völlig, ohne Vorbehalt, was punktuell enorme Kraft kostet, statt sich gleichmäßig über die Zeit zu verteilen." },
+      { code: "SX8", text: "Ohne Vorbehalt gibt sich die sexuelle Acht völlig hin, lebt totale Hingabe und Kontrolle in der Zweierbeziehung – was punktuell enorme Kraft kostet, statt sich gleichmäßig über die Zeit zu verteilen." },
         ],
       },
       {
@@ -95667,7 +95667,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Die eigene Erschöpfung wird bei der selbsterhaltenden Neun nie bewusst wahrgenommen, bis die Kraft irgendwann tatsächlich nicht mehr ausreicht – sie flüchtet in Komfort, Routine und Konfliktvermeidung. Sie wirkt bis zuletzt gelassen, während der Körper längst eine andere Sprache spricht." },
       { code: "SO9", text: "Bis kaum noch Energie übrig ist, um sie überhaupt noch zu finden, verzichtet die soziale Neun immer wieder auf die eigene Stimme, sucht Harmonie um jeden Preis innerhalb der Gruppe – eine chronische Selbstauslöschung, die sich still über lange Zeit auf die eigene Kraft auswirkt." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf. In ihrer reinsten Form ist das womöglich die deutlichste Ausprägung eines Herzens, das über Jahrzehnte für den anderen schlug, bevor es die eigene Erschöpfung überhaupt bemerkte – nicht aus Selbstaufgabe, sondern weil das eigene Wohlergehen sich für diesen Subtyp untrennbar an das des geliebten Menschen geknüpft anfühlt." },
+      { code: "SX9", text: "Nicht aus Selbstaufgabe, sondern weil das eigene Wohlergehen sich für diesen Subtyp untrennbar an das des geliebten Menschen geknüpft anfühlt, schlug das Herz der sexuellen Neun über Jahrzehnte für den anderen, bevor es die eigene Erschöpfung überhaupt bemerkte – sie verschmilzt mit dem Partner, die eigene Identität geht im Anderen auf." },
         ],
       },
     ],
@@ -95744,7 +95744,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Nie ganz bei einer Sache: So hält sich die selbsterhaltende Sieben zahlreiche Optionen und Fluchtwege gleichzeitig offen, springt zwischen Projekten, Genüssen und Möglichkeiten. Dieses Leben in ständiger paralleler Vielfalt ist psychosomatisch eines der plausibelsten Bilder für einen Herzrhythmus, der seinen geordneten Takt an zu viele gleichzeitige Impulse verliert." },
       { code: "SO7", text: "Oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl: So stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse zugunsten anderer zurück – diese selbstauferlegte Vielfachbelastung kann, anders als die freudige Zerstreuung des reinen Typs, zu einer stillen, aber ebenso wirksamen inneren Überforderung führen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und mit voller Intensität, springt von einem Enthusiasmus zum nächsten – diese impulsive, oft suchtnahe Vielfalt an Reizen und Erlebnissen liest die Psychosomatik als eines der unmittelbarsten Bilder für ein chaotisches, viel zu schnelles inneres Zittern anstelle eines ruhigen Takts." },
+      { code: "SX7", text: "Von einem Enthusiasmus zum nächsten springt die sexuelle Sieben, lebt Begeisterung grenzenlos und mit voller Intensität – diese impulsive, oft suchtnahe Vielfalt an Reizen und Erlebnissen liest die Psychosomatik als eines der unmittelbarsten Bilder für ein chaotisches, viel zu schnelles inneres Zittern anstelle eines ruhigen Takts." },
         ],
       },
       {
@@ -95752,7 +95752,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Ständiges, gleichzeitiges Wachsamsein über mehrere Fronten hinweg kann den inneren Rhythmus der selbsterhaltenden Acht überfordern – sie kontrolliert gleichzeitig viele Bereiche ihres materiellen und körperlichen Terrains, hält alles fest im Griff, bis er unter der Last der Dauerkontrolle aus dem Takt gerät." },
       { code: "SO8", text: "Führt, beschützt, entscheidet in mehreren Konflikten parallel: So übernimmt die soziale Acht Verantwortung für viele Menschen gleichzeitig – diese Vielfachbelastung durch gleichzeitige Führungsaufgaben kann sich als ein Zuviel an gleichzeitiger innerer Anspannung niederschlagen, das dem Herzen seinen ruhigen Takt erschwert." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Zweierbeziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen inneren Entladungen führen, statt sich gleichmäßig zu verteilen." },
+      { code: "SX8", text: "Zwischen Kontrolle und Hingabe schlagen die heftigen Ausschläge aus, mit denen die sexuelle Acht totale Intensität in der Zweierbeziehung lebt – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen inneren Entladungen führen, statt sich gleichmäßig zu verteilen." },
         ],
       },
       {
@@ -95760,7 +95760,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Um bloß nicht bei der eigenen, dringenden Frage ankommen zu müssen, verliert sich die selbsterhaltende Neun innerlich oft in vielen kleinen, unwichtigen Beschäftigungen gleichzeitig, wirkt nach außen entspannt und behäbig – dieses stille, aber ständige Zerstreuen der eigenen Aufmerksamkeit auf Nebensächliches kann sich als ein inneres Flimmern niederschlagen, das der äußeren Ruhe widerspricht." },
       { code: "SO9", text: "Ohne je die eigene Position klar zu benennen, verfolgt die soziale Neun innerlich viele verschiedene Rücksichtnahmen gleichzeitig, ordnet die eigenen Anliegen fortlaufend den Bedürfnissen der Gruppe unter – dieses gleichzeitige Abwägen vieler fremder Interessen kann den eigenen inneren Rhythmus in unzählige Richtungen ziehen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Rhythmus fast vollständig als den eigenen – verändert sich der Takt des anderen plötzlich, etwa durch Streit, Distanz oder Verlustangst, kann genau dieser fremdbestimmte innere Rhythmus aus dem Gleichgewicht geraten, weil die Neun nie wirklich ihren eigenen, unabhängigen Takt gefunden hat." },
+      { code: "SX9", text: "Fast vollständig als den eigenen übernimmt die sexuelle Neun den Rhythmus des Partners, verschmilzt mit ihm – verändert sich der Takt des anderen plötzlich, etwa durch Streit, Distanz oder Verlustangst, kann genau dieser fremdbestimmte innere Rhythmus aus dem Gleichgewicht geraten, weil die Neun nie wirklich ihren eigenen, unabhängigen Takt gefunden hat." },
         ],
       },
     ],
@@ -95805,7 +95805,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Innehalten fühlt sich bei der selbsterhaltenden Drei wie ein Versagen an, das sie sich nicht erlaubt – sie funktioniert effizient und diszipliniert, auch wenn der Körper längst deutliche Warnsignale sendet. Ein wiederkehrender Schmerz, der genau an der Belastungsgrenze auftaucht, kann so zum einzigen Signal werden, das sie überhaupt noch ernst nimmt, weil rein rationale Warnungen längst ignoriert wurden." },
       { code: "SO3", text: "Um im Vergleich zu bestehen, misst sich die soziale Drei fortlaufend am Erfolg anderer und treibt sich selbst zu immer höherer Leistung an – dieser äußere Maßstab kennt keine natürliche Obergrenze, wodurch die eigene körperliche Belastungsgrenze regelmäßig überschritten wird, bevor sie überhaupt wahrgenommen wird." },
-      { code: "SX3", text: "Um in der Beziehung begehrenswert und erfolgreich zu erscheinen, setzt die sexuelle Drei ihre gesamte Energie ein – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine über den ganzen Alltag verteilte, chronische Überforderung." },
+      { code: "SX3", text: "Begehrenswert und erfolgreich in der Beziehung zu erscheinen: Darauf setzt die sexuelle Drei ihre gesamte Energie – dieser fokussierte, aber intensive Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine über den ganzen Alltag verteilte, chronische Überforderung." },
         ],
       },
       {
@@ -95837,7 +95837,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Ein Leben ohne bewusst gesetzte Pausen kennt kaum eine anerkannte Belastungsgrenze – so hält sich die selbsterhaltende Sieben ständig neue Optionen und Aktivitäten offen, springt von einem Projekt zum nächsten, bis der Körper selbst, oft überraschend, genau diese Grenze in Form eines wiederkehrenden Schmerzes markiert." },
       { code: "SO7", text: "Aus Pflichtgefühl übernimmt die soziale Sieben, der Kontratyp, Verantwortung für andere und stellt eigene Bedürfnisse zurück – diese selbstauferlegte, oft übersehene Überforderung kann sich körperlich als ein Signal zeigen, das genau dort ansetzt, wo die idealistische Opferbereitschaft die eigene Kraft überschreitet." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, oft mit erhöhtem Risiko für Nikotin- oder Alkoholkonsum, die die Herzkranzgefäße zusätzlich belasten können – diese Kombination aus rastloser Intensität und stoffgebundenem Risikoverhalten liest die Psychosomatik als eines der direkteren Bilder für eine wiederkehrend überschrittene körperliche Grenze." },
+      { code: "SX7", text: "Oft mit erhöhtem Risiko für Nikotin- oder Alkoholkonsum, die die Herzkranzgefäße zusätzlich belasten können, lebt die sexuelle Sieben Begeisterung grenzenlos und impulsiv – diese Kombination aus rastloser Intensität und stoffgebundenem Risikoverhalten liest die Psychosomatik als eines der direkteren Bilder für eine wiederkehrend überschrittene körperliche Grenze." },
         ],
       },
       {
@@ -95845,7 +95845,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Schwäche oder Erschöpfung einzugestehen widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie kämpft und arbeitet weiter, lange nachdem andere längst aufgegeben hätten. Ein Schmerz, der zuverlässig bei Belastung auftritt, kann hier zum einzigen Signal werden, das diese Person überhaupt ernst nimmt, weil sie jede subtilere Warnung konsequent überhört." },
       { code: "SO8", text: "Keine eigene Erschöpfung zulässt die Beschützerrolle, in der die soziale Acht Führung und Verantwortung für viele Menschen gleichzeitig übernimmt – diese permanente Führungsspannung kann sich als ein Schmerz zeigen, der genau an der Grenze zwischen Verantwortung und eigener Kraft auftritt." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Zweierbeziehung, mit heftigen Ausschlägen zwischen Kontrolle und völliger Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen Belastungsspitzen führen, statt sich gleichmäßig zu verteilen." },
+      { code: "SX8", text: "Zwischen Kontrolle und völliger Hingabe schlagen die heftigen Ausschläge aus, mit denen die sexuelle Acht totale Intensität in der Zweierbeziehung lebt – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen Belastungsspitzen führen, statt sich gleichmäßig zu verteilen." },
         ],
       },
       {
@@ -95853,7 +95853,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Diese Strategie schont kurzfristig, verhindert aber auch, dass die selbsterhaltende Neun je bewusst lernt, wo ihre eigene Belastungsgrenze tatsächlich liegt: Sie flüchtet in Komfort und Routine, um Konflikten und Anforderungen aus dem Weg zu gehen, bis der Körper sie unmissverständlich markiert." },
       { code: "SO9", text: "Jede offene Auseinandersetzung um die eigene Belastbarkeit vermeidet die soziale Neun, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich körperlich als ein Schmerz zeigen, der genau dort ansetzt, wo die eigene, nie geäußerte Grenze längst überschritten wurde." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen Tempo und Anforderungen als die eigenen – gerät der andere unter Druck oder verlangt mehr, als die Neun eigentlich leisten kann, kann genau diese fremdbestimmte Überforderung zur eigenen körperlichen Belastungsgrenze werden, ohne dass sie je als solche benannt wird." },
+      { code: "SX9", text: "Oft als die eigenen übernimmt die sexuelle Neun Tempo und Anforderungen des Partners, verschmilzt mit ihm – gerät der andere unter Druck oder verlangt mehr, als die Neun eigentlich leisten kann, kann genau diese fremdbestimmte Überforderung zur eigenen körperlichen Belastungsgrenze werden, ohne dass sie je als solche benannt wird." },
         ],
       },
     ],
@@ -95898,7 +95898,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Erholung wird bei der selbsterhaltenden Drei als verlorene Zeit erlebt, nicht als notwendiger Ausgleich – sie arbeitet effizient weiter, auch wenn der Körper längst um Pause bittet. Über Jahre kann dieses Fehlen echter Erleichterungsphasen sich körperlich als ein System zeigen, das ständig unter Druck steht, ohne je wirklich zu entspannen." },
       { code: "SO3", text: "Ohne sich je zurückzulehnen und das Erreichte wirklich zu genießen, sammelt die soziale Drei Erfolge und Anerkennung fortlaufend an – dieser endlose Vergleich mit dem nächsten Ziel verhindert die innere Erleichterung, die eigentlich auf jeden Erfolg folgen sollte." },
-      { code: "SX3", text: "Um in der Beziehung begehrenswert zu erscheinen, setzt die sexuelle Drei ihre gesamte Energie ein – dieser fokussierte, oft intensive Einsatz kann in besonders zugespitzten Beziehungsmomenten zu punktuellen Belastungsspitzen führen, statt sich gleichmäßig über die Zeit zu stauen." },
+      { code: "SX3", text: "Begehrenswert in der Beziehung zu erscheinen: Darauf setzt die sexuelle Drei ihre gesamte Energie – dieser fokussierte, oft intensive Einsatz kann in besonders zugespitzten Beziehungsmomenten zu punktuellen Belastungsspitzen führen, statt sich gleichmäßig über die Zeit zu stauen." },
         ],
       },
       {
@@ -95914,7 +95914,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Auch die eigene Erleichterung fällt unter das Minimieren, das die selbsterhaltende Fünf sich auferlegt: Sie zieht sich zurück und hält Bedürfnisse, auch emotionale, konsequent zurück. Sie erlaubt sich selten, sich fallenzulassen oder loszulassen, weil das wie Kontrollverlust wirkt. Ein Rückfluss, der strukturell nicht vorgesehen ist, passt zu diesem Muster besonders genau." },
       { code: "SO5", text: "Ohne sich je wirklich damit zufrieden zu geben, sammelt die soziale Fünf fortlaufend Wissen an – dieses endlose intellektuelle Anhäufen, ohne inneren Abschluss, kann sich als ein Stau ohne Entlastung niederschlagen." },
-      { code: "SX5", text: "Anders als bei der breiteren Zurückhaltung der anderen Fünf-Varianten findet innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, zumindest an einer Stelle echter emotionaler Austausch und damit auch Erleichterung statt." },
+      { code: "SX5", text: "Anders als bei der breiteren Zurückhaltung der anderen Fünfer-Varianten findet innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, zumindest an einer Stelle echter emotionaler Austausch und damit auch Erleichterung statt." },
         ],
       },
       {
@@ -95930,7 +95930,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Diese permanente Bewegung nach vorn verhindert, dass die selbsterhaltende Sieben je innehält und eine Last wirklich hinter sich lässt – sie hält sich ständig neue Optionen offen und springt von einer Ablenkung zur nächsten. Was nie verarbeitet wird, staut sich, auch wenn die Oberfläche leicht und beweglich wirkt." },
       { code: "SO7", text: "Selten eine bewusste Erleichterungsphase kennt die selbstauferlegte Opferbereitschaft, mit der die soziale Sieben, der Kontratyp, aus Pflichtgefühl Verantwortung für andere übernimmt und eigene Bedürfnisse zurückstellt – was sich als stille, aber wirksame Stauung zeigen kann." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv von einer Intensität zur nächsten – diese rastlose Vielfalt verhindert echtes Ankommen und damit auch echte Erleichterung, selbst wenn jeder einzelne Moment zunächst befreiend wirkt." },
+      { code: "SX7", text: "Selbst wenn jeder einzelne Moment zunächst befreiend wirkt, verhindert die rastlose Vielfalt, mit der die sexuelle Sieben Begeisterung grenzenlos auslebt und impulsiv von einer Intensität zur nächsten springt, echtes Ankommen und damit auch echte Erleichterung." },
         ],
       },
       {
@@ -95938,7 +95938,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Als Schwäche, die sie sich nicht erlaubt, gelten Ruhebedürfnis oder Erleichterung für die selbsterhaltende Acht – sie sichert ihr Terrain durch permanente Kontrolle und lässt sich nie wirklich fallen. Ein System, das dauerhaft auf Spannung gehalten wird, ohne je loszulassen, passt zum Bild des gestörten venösen Rückflusses." },
       { code: "SO8", text: "Nie geteilt und nie abgelegt wird die permanente Last, die die soziale Acht trägt, die Verantwortung für viele Menschen gleichzeitig übernimmt, oft in einer Beschützerrolle, die keine eigene Schwäche zulässt – das kann sich körperlich als eine Stauung zeigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der Beziehung, mit heftigen Ausschlägen zwischen beidem – diese extreme, aber konzentrierte Intensität erzeugt eher punktuelle Belastungsspitzen als eine gleichmäßig akkumulierte Dauerlast." },
+      { code: "SX8", text: "Zwischen totaler Hingabe und totaler Kontrolle schlagen die heftigen Ausschläge aus, mit denen die sexuelle Acht Intensität in der Beziehung lebt – diese extreme, aber konzentrierte Intensität erzeugt eher punktuelle Belastungsspitzen als eine gleichmäßig akkumulierte Dauerlast." },
         ],
       },
       {
@@ -95946,7 +95946,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Diese Vermeidung verhindert, dass eine innere Last je bewusst wahrgenommen und dadurch erleichtert wird, wenn die selbsterhaltende Neun in Komfort und Routine flüchtet, um eigenen Anliegen und Konflikten aus dem Weg zu gehen. Sie wirkt entspannt, während sich im Verborgenen etwas anstaut, das nie ausgesprochen wurde." },
       { code: "SO9", text: "Immer wieder verzichtet die soziale Neun auf die eigene Stimme, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich körperlich als ein Stau zeigen, der nie zur Sprache kommt und deshalb nie fließt." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Anliegen als die eigenen, während die eigenen zurücktreten – diese fortgesetzte Selbstaufgabe zugunsten des anderen kann bedeuten, dass die eigene Last nie wirklich als solche erkannt wird, weil sie hinter der des Partners verschwindet." },
+      { code: "SX9", text: "Während die eigenen Anliegen zurücktreten, übernimmt die sexuelle Neun die des Partners als die eigenen, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe zugunsten des anderen kann bedeuten, dass die eigene Last nie wirklich als solche erkannt wird, weil sie hinter der des Partners verschwindet." },
         ],
       },
     ],
@@ -96007,7 +96007,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Über Jahre kann ein anfangs schützender Rückzug zu einer festen, kaum mehr auflösbaren inneren Isolation erstarren – so zieht sich die selbsterhaltende Fünf konsequent zurück und hält Kontakt wie Bedürfnisse auf ein Minimum, selbst dann, wenn Nähe eigentlich möglich wäre." },
       { code: "SO5", text: "Zunehmend verschanzt sich die soziale Fünf hinter ihrem Wissen und hält emotionale Nähe auf Distanz – diese intellektuelle Position kann sich über die Zeit zu einer starren, kaum mehr beweglichen Haltung verfestigen, die echten Austausch erschwert." },
-      { code: "SX5", text: "Echte Bewegung und echter Austausch bleiben innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt, meist erhalten – was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Echte Bewegung und echter Austausch bleiben innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt, meist erhalten – was der vollständigen Erstarrung der anderen Fünfer-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96023,7 +96023,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Um bloß nicht stillzustehen, hält sich die selbsterhaltende Sieben ständig in Bewegung, springt von einer Option zur nächsten – gerade wenn diese Fluchtbewegung durch äußere Umstände erzwungen unterbrochen wird, etwa durch Krankheit oder Immobilität, kann sich das System in einer für sie besonders widersprüchlichen, abrupten Erstarrung wiederfinden." },
       { code: "SO7", text: "Auch wenn die eigene Erschöpfung längst Grenzen setzt, hält die soziale Sieben, der Kontratyp, an ihrer selbstauferlegten Pflicht fest, für andere da zu sein – diese Unfähigkeit, die eigene Position aufzugeben, kann sich über Jahre zu einer starren inneren Haltung verfestigen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus und wechselt impulsiv zwischen Intensitäten – echte Erstarrung tritt hier seltener auf, am ehesten in den seltenen Momenten, in denen sie sich gezwungen sieht, bei einer einzigen Sache zu verharren." },
+      { code: "SX7", text: "Am ehesten in den seltenen Momenten, in denen sie sich gezwungen sieht, bei einer einzigen Sache zu verharren, tritt echte Erstarrung bei der sexuellen Sieben auf, die Begeisterung grenzenlos auslebt und impulsiv zwischen Intensitäten wechselt." },
         ],
       },
       {
@@ -96031,7 +96031,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Auch wenn Nachgeben klüger wäre, hält die selbsterhaltende Acht ihre Position mit aller Kraft – Schwäche zeigen oder eine Kontrolle abgeben widerspricht ihrem Selbstverständnis fundamental. Diese Unnachgiebigkeit, die sich selbst gegen bessere Einsicht nicht bewegt, kann sich als eine feste, unbewegliche innere Blockade zeigen." },
       { code: "SO8", text: "Besonders wenn sie sich in ihrer Verantwortung infrage gestellt sieht, verhärtet die soziale Acht ihre Position als Beschützerin der Gruppe zunehmend – diese Sturheit kann sich über Jahre zu einer festen, kaum mehr auflösbaren inneren Haltung verfestigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – in Momenten des Machtkampfs kann sich diese Intensität kurzzeitig zu völliger Unnachgiebigkeit verhärten, bevor sie sich wieder löst." },
+      { code: "SX8", text: "In Momenten des Machtkampfs kann sich die Intensität, mit der die sexuelle Acht zwischen Kontrolle und Hingabe schwankt, kurzzeitig zu völliger Unnachgiebigkeit verhärten, bevor sie sich wieder löst." },
         ],
       },
       {
@@ -96039,7 +96039,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Um bloß keine Entscheidung treffen zu müssen, verharrt die selbsterhaltende Neun in Routine und Komfort – diese fortgesetzte Unbeweglichkeit, ein Leben, das sich nicht mehr bewegt, weil Bewegung Konflikt bedeuten könnte, passt besonders genau zum Bild einer festen, erstarrten Blockade." },
       { code: "SO9", text: "Jede Position, die zu Reibung führen könnte, vermeidet die soziale Neun, ordnet die eigene Meinung fortlaufend der Gruppe unter – diese chronische Unentschlossenheit kann sich über Jahre zu einer festen inneren Blockade verhärten, die selbst dann nicht nachgibt, wenn eine Entscheidung längst überfällig wäre." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Position oft als die eigene – bleibt der Partner starr, kann diese übernommene Starrheit sich auch bei der Neun selbst festsetzen, ohne dass sie je als eigene erkannt wird." },
+      { code: "SX9", text: "Oft als die eigene übernimmt die sexuelle Neun die Position des Partners, verschmilzt mit ihm – bleibt der Partner starr, kann diese übernommene Starrheit sich auch bei der Neun selbst festsetzen, ohne dass sie je als eigene erkannt wird." },
         ],
       },
     ],
@@ -96084,7 +96084,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Jedes Signal von Schwäche wird bei der selbsterhaltenden Drei konsequent übergangen – sie funktioniert effizient weiter, auch wenn der Körper längst deutliche Warnsignale sendet. Diese über Jahre fortgesetzte Verleugnung der eigenen Erschöpfung kann sich als innere Fülle ansammeln, die sich, wenn der Damm bricht, besonders unvermittelt entlädt." },
       { code: "SO3", text: "Auch wenn innerlich längst nichts mehr zusammenpasst, hält die soziale Drei die Fassade des Erfolgs aufrecht – dieser wachsende Widerspruch zwischen äußerem Bild und innerer Realität kann sich über Jahre zu einer aufgestauten Spannung verdichten, die sich plötzlich entlädt." },
-      { code: "SX3", text: "Um in der Beziehung als erfolgreich und begehrenswert zu erscheinen, setzt die sexuelle Drei ihre gesamte Energie ein – diese fokussierte, aber intensive Anstrengung erzeugt eher punktuelle Drucksteigerungen in einzelnen Beziehungskrisen als eine gleichmäßig akkumulierte Fülle." },
+      { code: "SX3", text: "Erfolgreich und begehrenswert in der Beziehung zu erscheinen: Darauf setzt die sexuelle Drei ihre gesamte Energie – diese fokussierte, aber intensive Anstrengung erzeugt eher punktuelle Drucksteigerungen in einzelnen Beziehungskrisen als eine gleichmäßig akkumulierte Fülle." },
         ],
       },
       {
@@ -96100,7 +96100,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Nicht nur Bedürfnisse, auch Gedanken und Gefühle hält die selbsterhaltende Fünf konsequent für sich, zieht sich radikal zurück – eine über Jahre nie geteilte innere Welt, die sich als aufgestaute Fülle ansammeln kann, ohne dass je jemand von ihrer Existenz erfährt." },
       { code: "SO5", text: "Hinter intellektuellem Wissen hält die soziale Fünf emotionale Nähe auf Distanz – diese fortgesetzte Trennung von Denken und Fühlen kann über Jahre zu einer inneren Fülle führen, die sich der bewussten Wahrnehmung weitgehend entzieht, bis sie sich unvermittelt zeigt." },
-      { code: "SX5", text: "Zumindest an einer Stelle findet echter Austausch statt innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen inneren Aufstauung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, findet zumindest an einer Stelle echter Austausch statt – was der vollständigen inneren Aufstauung der anderen Fünfer-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96116,7 +96116,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Diese permanente Zerstreuung kann verhindern, dass die selbsterhaltende Sieben je bei der eigenen, tieferen Erschöpfung ankommt – sie hält sich ständig in Bewegung, springt von einem Projekt, einem Genuss, einer Ablenkung zur nächsten. Diese Erschöpfung staut sich unbemerkt auf, bis sie sich unvermittelt zeigt, oft verstärkt durch Alkohol, Nikotin oder andere Risikofaktoren." },
       { code: "SO7", text: "Ohne die eigene wachsende Erschöpfung je zuzugeben, stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse aus Pflichtgefühl fortlaufend zurück – diese selbstauferlegte, nie eingestandene Überforderung kann sich über Jahre zu einer inneren Fülle verdichten." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, oft mit erhöhtem Risiko für Suchtverhalten – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine plötzliche, dramatische Entladung." },
+      { code: "SX7", text: "Oft mit erhöhtem Risiko für Suchtverhalten lebt die sexuelle Sieben Begeisterung grenzenlos und impulsiv aus – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine plötzliche, dramatische Entladung." },
         ],
       },
       {
@@ -96124,7 +96124,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Weit über das hinaus, was andere ertragen würden, kämpft und kontrolliert die selbsterhaltende Acht bis an die eigene Grenze – Schwäche einzugestehen widerspricht ihrem tiefsten Selbstverständnis. Diese Unnachgiebigkeit, die selbst dann nicht nachgibt, wenn der Körper längst Alarm schlägt, kann sich als aufgestaute Fülle zeigen, die sich mit besonderer Wucht entlädt." },
       { code: "SO8", text: "Nie geteilt wird die permanente Führungsspannung, die keine eigene Erschöpfung zulässt, in der Beschützerrolle, in der die soziale Acht Verantwortung für viele Menschen gleichzeitig trägt – sie kann sich über Jahre zu einer inneren Fülle verdichten." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen Ausschlägen zwischen Kontrolle und Hingabe – diese extreme, aber konzentrierte emotionale Wucht kann in besonders zugespitzten Beziehungsmomenten zu plötzlichen inneren Entladungen führen." },
+      { code: "SX8", text: "In besonders zugespitzten Beziehungsmomenten kann die extreme, aber konzentrierte emotionale Wucht, mit der die sexuelle Acht zwischen Kontrolle und Hingabe schwankt, zu plötzlichen inneren Entladungen führen." },
         ],
       },
       {
@@ -96132,7 +96132,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Über Jahrzehnte fortgesetzte Selbstvergessenheit prägt die selbsterhaltende Neun, die in Komfort und Routine flüchtet, um Konflikten und der eigenen dringenden Frage aus dem Weg zu gehen. Diese Selbstvergessenheit kann sich als eine innere Fülle ansammeln, die sich, wenn sie sich löst, besonders unvermittelt zeigt, weil sie nie zuvor bewusst wahrgenommen wurde." },
       { code: "SO9", text: "Immer wieder verzichtet die soziale Neun darauf, die eigene Position zu vertreten, ordnet die eigene Stimme fortlaufend der Gruppe unter – diese chronische Selbstauslöschung zugunsten des sozialen Friedens kann sich über Jahre zu einer inneren Fülle verdichten, die sich schließlich gewaltsam Ausdruck verschafft, gerade weil die eigene Stimme nie freiwillig gehört wurde." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und gibt die eigene Identität fast vollständig zugunsten des anderen auf – diese wohl radikalste Form der Selbstaufgabe unter den 27 Subtypen bedeutet auch: eine eigene Stimme, die über Jahrzehnte nie wirklich existierte, kann sich, wenn sie sich doch einmal zeigt, nur noch schlagartig und dramatisch Bahn brechen." },
+      { code: "SX9", text: "Fast vollständig zugunsten des anderen gibt die sexuelle Neun die eigene Identität auf, verschmilzt mit dem Partner – diese wohl radikalste Form der Selbstaufgabe unter den 27 Subtypen bedeutet auch: eine eigene Stimme, die über Jahrzehnte nie wirklich existierte, kann sich, wenn sie sich doch einmal zeigt, nur noch schlagartig und dramatisch Bahn brechen." },
         ],
       },
     ],
@@ -96193,7 +96193,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Bewusst reduziert die selbsterhaltende Fünf ihren Energieverbrauch, minimiert Bedürfnisse und äußere Reize – diese Strategie schont knappe Ressourcen, kann aber gleichzeitig bedeuten, dass der Körper sich an ein dauerhaft niedriges Energieniveau gewöhnt, das dann auch dort fehlt, wo tatsächlich Kraft gebraucht würde." },
       { code: "SO5", text: "Auch wenn sie äußerlich an der Gruppe teilnimmt, zieht sich die soziale Fünf innerlich hinter ihr Wissen zurück – diese Distanzierung von echtem emotionalem Engagement kann dazu führen, dass ihr die Energie fehlt, sich mit vollem Nachdruck für die eigene Position einzusetzen." },
-      { code: "SX5", text: "Durchaus lebendige Energie kann innerhalb der schmalen Verbindung fließen, die die sexuelle Fünf pflegt – was den chronischen Kraftmangel der anderen Fünf-Varianten hier abmildert." },
+      { code: "SX5", text: "Durchaus lebendige Energie kann innerhalb der schmalen Verbindung fließen, die die sexuelle Fünf pflegt – was den chronischen Kraftmangel der anderen Fünfer-Varianten hier abmildert." },
         ],
       },
       {
@@ -96209,7 +96209,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Nirgends kommt genug konzentrierte Kraft für eine wirklich nachdrückliche Selbstbehauptung an, obwohl insgesamt viel Aktivität stattfindet – so verteilt die selbsterhaltende Sieben ihre Energie auf viele parallele Optionen und Projekte gleichzeitig." },
       { code: "SO7", text: "Anders als bei der ungebremsten Sieben richtet der Kontratyp ihre Energie fortlaufend auf die Bedürfnisse anderer aus, oft aus Pflichtgefühl – diese selbstlose Ausrichtung kann zu einem Mangel an Energie führen, die für die eigene Sache reserviert bleibt." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und intensiv – ihr fehlt es selten an akuter Energie, doch die ständige Suche nach dem nächsten Impuls kann verhindern, dass diese Kraft je in eine stabile, dauerhafte Selbstbehauptung mündet." },
+      { code: "SX7", text: "Selten fehlt es der sexuellen Sieben an akuter Energie, die Begeisterung grenzenlos und intensiv lebt – doch die ständige Suche nach dem nächsten Impuls kann verhindern, dass diese Kraft je in eine stabile, dauerhafte Selbstbehauptung mündet." },
         ],
       },
       {
@@ -96217,7 +96217,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Bei der selbsterhaltenden Acht ist Energiemangel selten – ihre Kraft ist meist beträchtlich. Tritt Hypotonie dennoch auf, etwa nach Phasen extremer Überforderung, kann sie als seltener, aber deutlicher Hinweis gelesen werden, dass selbst diese scheinbar unerschöpfliche Kraftquelle Grenzen hat, die konsequent überschritten wurden." },
       { code: "SO8", text: "Fortlaufend setzt die soziale Acht ihre Kraft für den Schutz und die Führung anderer ein – wird diese Energie nie durch eigene Regeneration ausgeglichen, kann sich über Jahre eine Erschöpfung einschleichen, die untypisch für diesen sonst kraftvollen Subtyp ist." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – Energiemangel zeigt sich hier, wenn überhaupt, eher als kurzzeitiger Einbruch nach besonders erschöpfenden emotionalen Zuspitzungen, nicht als chronischer Grundzustand." },
+      { code: "SX8", text: "Wenn überhaupt, eher als kurzzeitiger Einbruch nach besonders erschöpfenden emotionalen Zuspitzungen zeigt sich Energiemangel bei der sexuellen Acht, die totale Intensität in der Beziehung lebt – nicht als chronischer Grundzustand." },
         ],
       },
       {
@@ -96225,7 +96225,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "In einer Art Grundberuhigung lebt die selbsterhaltende Neun, zeigt den eigenen Antrieb selten mit Nachdruck – dieses Muster, sich selbst nie mit voller Kraft zu behaupten, sondern lieber im Komfortablen zu verharren, passt besonders genau zum Bild eines chronisch niedrigen inneren Drucks." },
       { code: "SO9", text: "Auf Nachdruck bei eigenen Anliegen verzichtet die soziale Neun, ordnet die eigene Position fortlaufend der Gruppe unter – diese chronische Zurückhaltung kann sich als ein fehlender Antrieb zeigen, für sich selbst einzustehen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und bezieht ihre Energie fast ausschließlich aus dieser Verbindung – fehlt dem Partner selbst Antrieb oder zieht er sich zurück, kann sich dieser Mangel unmittelbar auch auf die eigene, ohnehin nie unabhängig aufgebaute Kraft übertragen." },
+      { code: "SX9", text: "Fast ausschließlich aus der Verbindung mit dem Partner bezieht die sexuelle Neun ihre Energie, verschmilzt mit ihm – fehlt dem Partner selbst Antrieb oder zieht er sich zurück, kann sich dieser Mangel unmittelbar auch auf die eigene, ohnehin nie unabhängig aufgebaute Kraft übertragen." },
         ],
       },
     ],
@@ -96286,7 +96286,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Wenig Bewegung, wenig Variation über Jahrzehnte: So zieht sich die selbsterhaltende Fünf in dieselben, minimalistischen Routinen zurück, verändert wenig, meidet neue Anforderungen. Diese über die Zeit unveränderte Lebensweise passt besonders genau zum Bild eines Gelenks, das sich durch immer gleiche, nie variierte Muster abnutzt." },
       { code: "SO5", text: "Ohne sie durch neue körperliche oder emotionale Erfahrungen zu ergänzen, wiederholt die soziale Fünf über Jahre dasselbe intellektuelle Terrain, dieselben Denkmuster – diese einseitige, unveränderte Ausrichtung kann sich als Rigidität auch körperlich zeigen." },
-      { code: "SX5", text: "Zumindest an einer Stelle bleiben Bewegung und Veränderung erhalten innerhalb der schmalen, aber lebendigen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Bewegung und Veränderung bleiben zumindest an einer Stelle erhalten, innerhalb der schmalen, aber lebendigen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Erstarrung der anderen Fünfer-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96302,7 +96302,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Dem Unangenehmen ausweichen, zur nächsten Option springen: Dieses Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine Rigidität zeigen, die sich auch körperlich niederschlägt." },
       { code: "SO7", text: "Ohne sie zu variieren, übernimmt die soziale Sieben, der Kontratyp, über Jahre dieselbe selbstlose, pflichtbewusste Rolle für andere – diese unveränderte Position kann sich als eine Rigidität zeigen, die auch körperlich zunehmend weniger Flexibilität zulässt." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für Arthrose psychosomatisch besonders typisch ist." },
+      { code: "SX7", text: "Zwischen Begeisterungen wechselt die sexuelle Sieben impulsiv, lebt tatsächliche, spontane Vielfalt – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für Arthrose psychosomatisch besonders typisch ist." },
         ],
       },
       {
@@ -96310,7 +96310,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Selten weicht die selbsterhaltende Acht von ihrem Kurs ab, hält über Jahre an derselben kraftvollen, kontrollierten Haltung fest – diese Unnachgiebigkeit, die sich selbst dann nicht anpasst, wenn Flexibilität klüger wäre, passt zum Bild einer über Jahrzehnte akkumulierten mechanischen Abnutzung." },
       { code: "SO8", text: "Ohne sie zu variieren, übernimmt die soziale Acht über Jahre dieselbe Führungs- und Beschützerrolle – diese unveränderte Position der Verantwortung kann sich als Rigidität zeigen, die sich auch körperlich in mangelnder Anpassungsfähigkeit niederschlägt." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für Arthrose besonders typisch ist." },
+      { code: "SX8", text: "Heftig, aber wechselnd: So zeigen sich die Ausschläge zwischen Kontrolle und Hingabe, mit denen die sexuelle Acht totale Intensität in der Beziehung lebt – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für Arthrose besonders typisch ist." },
         ],
       },
       {
@@ -96318,7 +96318,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Über Jahrzehnte verharrt die selbsterhaltende Neun in derselben komfortablen Routine, meidet jede Veränderung, jede neue Bewegung – dieses fortgesetzte Verharren im Immergleichen ist psychosomatisch eines der unmittelbarsten Bilder für die Arthrose: ein Gelenk, das sich abnutzt, weil es nie die Chance bekam, sich auf neue Weise zu bewegen." },
       { code: "SO9", text: "Jede Positionsänderung, die zu Reibung führen könnte, vermeidet die soziale Neun, ordnet sich über Jahre fortlaufend derselben Rolle in der Gruppe unter – diese chronische Unbeweglichkeit kann sich als eine Rigidität zeigen, die sich auch körperlich niederschlägt." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen Lebensrhythmus als den eigenen, über Jahre unverändert – bleibt diese Verschmelzung über Jahrzehnte bestehen, kann die fehlende eigene, unabhängige Bewegung sich ebenfalls als eine Form der Erstarrung niederschlagen." },
+      { code: "SX9", text: "Über Jahre unverändert übernimmt die sexuelle Neun oft den Lebensrhythmus des Partners als den eigenen, verschmilzt mit ihm – bleibt diese Verschmelzung über Jahrzehnte bestehen, kann die fehlende eigene, unabhängige Bewegung sich ebenfalls als eine Form der Erstarrung niederschlagen." },
         ],
       },
     ],
@@ -96363,7 +96363,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Hilfe anzunehmen widerspricht dem Selbstbild der eigenständigen Leistungsfähigkeit – die selbsterhaltende Drei arbeitet effizient und allein weiter, auch wenn der Rücken längst um Entlastung bittet. Dieses konsequente Alleintragen kann sich über Jahre als chronischer Rückenschmerz zeigen." },
       { code: "SO3", text: "Meist ohne dies je offen zu zeigen, trägt die soziale Drei den Druck, im ständigen Vergleich mit anderen zu bestehen – diese unsichtbare Last des permanenten Leistungsanspruchs kann sich körperlich als Rückenschmerz niederschlagen." },
-      { code: "SX3", text: "Um in der Beziehung erfolgreich zu erscheinen, konzentriert die sexuelle Drei ihre Energie – dieser fokussierte Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine chronische, gleichmäßig verteilte Last." },
+      { code: "SX3", text: "Erfolgreich in der Beziehung zu erscheinen: Darauf konzentriert die sexuelle Drei ihre Energie – dieser fokussierte Einsatz erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine chronische, gleichmäßig verteilte Last." },
         ],
       },
       {
@@ -96379,7 +96379,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Ohne je um Unterstützung zu bitten, trägt die selbsterhaltende Fünf ihre Sorgen allein und zieht sich zurück – diese konsequente Selbstisolation, gerade in Bezug auf emotionale Lasten, passt zum Bild eines Rückens, der eine Bürde trägt, die nie geteilt wurde." },
       { code: "SO5", text: "Hinter intellektueller Distanz verbirgt die soziale Fünf die eigene innere Last, hält sich mit ihrem Wissen für die Gruppe verfügbar – dieses ständige Zurückhalten kann sich körperlich als Rückenschmerz zeigen, wo verdrängte Anspannung sich niederschlägt." },
-      { code: "SX5", text: "Zumindest an einer Stelle kann echte Entlastung stattfinden innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Isolation der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Echte Entlastung kann zumindest an einer Stelle stattfinden, innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Isolation der anderen Fünfer-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96395,7 +96395,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Sobald das Tempo einmal nachlässt, zeigt sich, was die permanente Zerstreuung der selbsterhaltenden Sieben – ständig in Bewegung, springt von Option zu Option – bisher verhindert hat: dass sie je bei der eigenen, tieferen Erschöpfung ankommt, die sich unbemerkt aufstaut und sich dann körperlich als Rückenschmerz zeigt." },
       { code: "SO7", text: "Oft ohne diese Last je einzugestehen, übernimmt die soziale Sieben, der Kontratyp, aus Pflichtgefühl Verantwortung für andere – diese selbstlose, nie ausgesprochene Überforderung kann sich über Jahre als chronischer Rückenschmerz zeigen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv von einer Intensität zur nächsten – echte, akkumulierte Last zeigt sich hier seltener, am ehesten in den seltenen Momenten, in denen sie gezwungen ist, bei einer Verpflichtung zu verharren." },
+      { code: "SX7", text: "Am ehesten in den seltenen Momenten, in denen sie gezwungen ist, bei einer Verpflichtung zu verharren, zeigt sich echte, akkumulierte Last bei der sexuellen Sieben, die Begeisterung grenzenlos auslebt und impulsiv von einer Intensität zur nächsten springt." },
         ],
       },
       {
@@ -96403,7 +96403,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Hilfe anzunehmen widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie sichert ihr Terrain und trägt die volle Verantwortung dafür allein. Dieses konsequente Alleintragen einer oft erheblichen Last passt besonders genau zum Bild des chronischen Rückenschmerzes." },
       { code: "SO8", text: "Keine eigene Erschöpfung zulässt die Beschützerrolle, in der die soziale Acht Verantwortung für viele Menschen gleichzeitig trägt – diese permanente, nie geteilte Last kann sich über Jahre als Rückenschmerz zeigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – diese extreme, aber konzentrierte emotionale Wucht erzeugt eher punktuelle Belastungsspitzen in zugespitzten Beziehungsmomenten als eine gleichmäßig akkumulierte Rückenlast." },
+      { code: "SX8", text: "In zugespitzten Beziehungsmomenten erzeugt die extreme, aber konzentrierte emotionale Wucht, mit der die sexuelle Acht totale Intensität lebt, eher punktuelle Belastungsspitzen als eine gleichmäßig akkumulierte Rückenlast." },
         ],
       },
       {
@@ -96411,7 +96411,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Um eigenen Anliegen und Konflikten aus dem Weg zu gehen, flüchtet die selbsterhaltende Neun in Komfort und Routine – diese fortgesetzte Vermeidung verhindert, dass eine innere Last je bewusst wahrgenommen und dadurch erleichtert wird, und kann sich stattdessen körperlich als Rückenschmerz niederschlagen." },
       { code: "SO9", text: "Immer wieder verzichtet die soziale Neun auf die eigene Stimme, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich als ein Rücken zeigen, der sich unter fremden Erwartungen nie aufrichtet." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Lasten oft als die eigenen, während die eigenen zurücktreten – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene Last nie wirklich als solche erkannt wird, weil sie hinter der des Partners verschwindet." },
+      { code: "SX9", text: "Während die eigenen Lasten zurücktreten, übernimmt die sexuelle Neun die des Partners als die eigenen, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene Last nie wirklich als solche erkannt wird, weil sie hinter der des Partners verschwindet." },
         ],
       },
     ],
@@ -96448,7 +96448,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Die eigene Fürsorge kommt bei der selbsterhaltenden Zwei nie beim eigenen Körper an – sie verleugnet die eigenen Bedürfnisse so konsequent, dass dieses radikale Sich-selbst-Übergehen sich als ein Immunsystem zeigen kann, das buchstäblich gegen den eigenen Körper vorgeht, weil es nie gelernt hat, ihn als schützenswert zu behandeln." },
       { code: "SO2", text: "Systematisch übergeht die soziale Zwei die eigenen Grenzen, während sie sich fortlaufend in den Dienst der Gemeinschaft stellt – dieser chronische Selbstverzicht zugunsten anderer kann sich körperlich als ein System zeigen, das die eigene Fürsorge konsequent nach außen richtet und dabei sich selbst angreift." },
-      { code: "SX2", text: "Zumindest an dieser Stelle eine Form von emotionalem Austausch und Rückfluss ermöglicht die Fürsorge, die die sexuelle Zwei intensiv auf die eine geliebte Person richtet – diese fokussierte Zuwendung kann den vollständigen Selbstangriff, der bei anderen Zwei-Varianten möglich ist, etwas abmildern." },
+      { code: "SX2", text: "Zumindest an dieser Stelle eine Form von emotionalem Austausch und Rückfluss ermöglicht die Fürsorge, die die sexuelle Zwei intensiv auf die eine geliebte Person richtet – diese fokussierte Zuwendung kann den vollständigen Selbstangriff, der bei anderen Zweier-Varianten möglich ist, etwas abmildern." },
         ],
       },
       {
@@ -96463,7 +96463,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Selbstverurteilung, die aus unerfüllter Sehnsucht entsteht",
         varianten: [
       { code: "SE4", text: "Nie nach außen ausgesprochen, sondern gegen sich selbst gerichtet: So hält die selbsterhaltende Vier, der Kontratyp, ihr Leid zurück und richtet ihre Enttäuschung über die eigene vermeintliche Unzulänglichkeit gegen sich selbst. Diese Selbstverurteilung passt besonders genau zum Bild eines Immunsystems, das sich gegen den eigenen Körper wendet." },
-          { code: "SO4", text: "Die soziale Vier richtet ihre emotionale Intensität eher nach außen als konsequent gegen sich selbst, spricht ihr Leiden offen aus, statt es innerlich zu verurteilen – dieser Ausdruck kann den vollständigen Selbstangriff, der bei anderen Vier-Varianten möglich ist, etwas abmildern, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
+          { code: "SO4", text: "Die soziale Vier richtet ihre emotionale Intensität eher nach außen als konsequent gegen sich selbst, spricht ihr Leiden offen aus, statt es innerlich zu verurteilen – dieser Ausdruck kann den vollständigen Selbstangriff, der bei anderen Vierer-Varianten möglich ist, etwas abmildern, auch wenn die zugrunde liegende Sehnsucht bestehen bleibt." },
       { code: "SX4", text: "Stark nach außen, in die Beziehung gerichtet ist die kompromisslose emotionale Intensität, die die sexuelle Vier lebt – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der für rheumatoide Arthritis psychosomatisch besonders typisch ist." },
         ],
       },
@@ -96472,7 +96472,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Mit derselben Härte, mit der sie äußere Zumutungen abwehrt, behandelt die selbsterhaltende Fünf oft auch die eigenen emotionalen Bedürfnisse – sie zieht sich radikal zurück. Diese innere Feindseligkeit gegenüber der eigenen Verletzlichkeit passt zum Bild eines Systems, das sich selbst als Bedrohung behandelt." },
       { code: "SO5", text: "Auch sich selbst gegenüber hält die soziale Fünf emotionale Bedürftigkeit hinter intellektueller Distanz auf Abstand – diese fortgesetzte Selbstverleugnung kann sich körperlich als ein System zeigen, das sich selbst konsequent abwehrt." },
-      { code: "SX5", text: "Zumindest an einer Stelle kann echte Selbstakzeptanz stattfinden innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen inneren Abwehr der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Echte Selbstakzeptanz kann zumindest an einer Stelle stattfinden, innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen inneren Abwehr der anderen Fünfer-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96480,7 +96480,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Nicht nur gegen äußere Gefahren, auch gegen sich selbst richtet die selbsterhaltende Sechs oft ihre harte Selbstkritik, wenn sie glaubt, nicht ausreichend vorbereitet zu sein – diese nach innen gerichtete Härte passt zum Bild eines Immunsystems, das sich selbst als potenzielle Bedrohung behandelt." },
       { code: "SO6", text: "Wenn sie das Gefühl hat, die Gemeinschaft nicht ausreichend geschützt zu haben, macht sich die soziale Sechs selbst oft Vorwürfe, während sie sich um die Sicherheit ihrer Gruppe sorgt – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
-      { code: "SX6", text: "Nach außen, nicht gegen sich selbst richtet sich die aktive Konfrontation, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sechs-Varianten möglich ist." },
+      { code: "SX6", text: "Nach außen, nicht gegen sich selbst richtet sich die aktive Konfrontation, mit der die sexuelle Sechs gegenphobisch auf Angst reagiert – diese Externalisierung steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sechser-Varianten möglich ist." },
         ],
       },
       {
@@ -96488,7 +96488,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Zugunsten der nächsten Ablenkung ignoriert die selbsterhaltende Sieben Erschöpfungssignale konsequent – diese fortgesetzte Verleugnung des eigenen Zustands kann bedeuten, dass der Körper sich selbst überlassen bleibt, ohne die Fürsorge zu erhalten, die er eigentlich bräuchte, was sich als ein System zeigen kann, das sich selbst nicht schützt, sondern angreift." },
       { code: "SO7", text: "Wenn sie nicht genug für andere getan hat, macht sich die soziale Sieben, der Kontratyp, innerlich Vorwürfe, während sie eigene Bedürfnisse aus Pflichtgefühl zurückstellt – diese Selbstverurteilung passt zum Bild eines Immunsystems, das sich gegen sich selbst richtet." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv nach außen aus – diese Externalisierung von Energie und Intensität steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Sieben-Varianten möglich ist." },
+      { code: "SX7", text: "Nach außen, nicht gegen sich selbst gerichtet lebt die sexuelle Sieben ihre Begeisterung grenzenlos und impulsiv – diese Externalisierung von Energie und Intensität steht dem konsequent nach innen gerichteten Selbstangriff entgegen, der bei anderen Siebener-Varianten möglich ist." },
         ],
       },
       {
@@ -96496,7 +96496,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Mit derselben Härte, mit der sie äußeren Widerständen begegnet, bekämpft die selbsterhaltende Acht Schwäche in sich selbst – so fundamental widerspricht ihrem Selbstverständnis, Schwäche einzugestehen, dass sie sich selbst dafür verurteilt. Diese innere Kompromisslosigkeit gegen sich selbst passt zum Bild eines Systems, das sich gegen den eigenen Körper wendet." },
       { code: "SO8", text: "Wenn sie das Gefühl hat, ihre Beschützerrolle nicht vollständig erfüllt zu haben, macht sich die soziale Acht innerlich harte Vorwürfe, während sie Führung für ihre Gruppe übernimmt – diese Selbstbeschuldigung kann sich körperlich als ein System zeigen, das sich gegen sich selbst richtet." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, richtet ihre Härte eher nach außen, in den Machtkampf mit dem geliebten Menschen – diese Externalisierung kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis typisch ist, zumindest teilweise abmildern." },
+      { code: "SX8", text: "Eher nach außen, in den Machtkampf mit dem geliebten Menschen richtet sich die Härte, mit der die sexuelle Acht totale Intensität in der Beziehung lebt – diese Externalisierung kann den nach innen gerichteten Selbstangriff, der für rheumatoide Arthritis typisch ist, zumindest teilweise abmildern." },
         ],
       },
       {
@@ -96504,7 +96504,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "So konsequent übergeht die selbsterhaltende Neun die eigenen Bedürfnisse, dass der eigene Körper über Jahrzehnte kaum je bewusst wahrgenommen wird – diese fortgesetzte Selbstvergessenheit kann sich als ein Immunsystem zeigen, das den eigenen Körper wie etwas Fremdes behandelt, weil er der Person selbst nie wirklich vertraut wurde." },
       { code: "SO9", text: "Wenn sie das Gefühl hat, zu viel Raum einzunehmen, macht sich die soziale Neun innerlich klein, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich körperlich als ein System zeigen, das sich selbst als überflüssig behandelt." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und gibt die eigene Identität fast vollständig zugunsten des anderen auf – diese radikale Selbstaufgabe bedeutet auch: der eigene Körper wird kaum je als eigenständig und schützenswert erlebt, was sich als ein System zeigen kann, das sich selbst nicht als Teil des Ichs behandelt." },
+      { code: "SX9", text: "Fast vollständig zugunsten des anderen gibt die sexuelle Neun die eigene Identität auf, verschmilzt mit dem Partner – diese radikale Selbstaufgabe bedeutet auch: der eigene Körper wird kaum je als eigenständig und schützenswert erlebt, was sich als ein System zeigen kann, das sich selbst nicht als Teil des Ichs behandelt." },
         ],
       },
     ],
@@ -96533,7 +96533,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Echte, weiche Selbstfürsorge – sich selbst etwas gönnen, sich selbst nähren, ohne es sich verdienen zu müssen – bleibt bei der selbsterhaltenden Eins oft unterentwickelt, auch wenn sie über Jahrzehnte strikte Disziplin gegenüber sich selbst aufrechterhält und penibel auf Regeln und Kontrolle achtet. Diese über Jahre unsichtbar fehlende innere Nährung liest die Psychosomatik als plausibles Bild für die Osteoporose: eine Substanz, die schwindet, weil sie nie genug Fürsorge erhielt." },
       { code: "SO1", text: "Konsequent hintangestellt bleibt die eigene Selbstfürsorge, wenn die soziale Eins ihre gesamte Energie in die Verbesserung der Gemeinschaft investiert – dieses über Jahrzehnte fortgesetzte Muster, für andere zu sorgen, aber nie für sich selbst, kann sich als eine langsam schwindende innere Substanz zeigen." },
-      { code: "SX1", text: "Was zumindest an dieser Stelle einen gewissen emotionalen Austausch und Rückfluss ermöglicht: So investiert die sexuelle Eins ihre Energie konzentriert in die eine Beziehung – diese fokussierte Zuwendung kann die vollständig fehlende Selbstfürsorge, die bei anderen Eins-Varianten möglich ist, etwas abmildern." },
+      { code: "SX1", text: "Was zumindest an dieser Stelle einen gewissen emotionalen Austausch und Rückfluss ermöglicht: So investiert die sexuelle Eins ihre Energie konzentriert in die eine Beziehung – diese fokussierte Zuwendung kann die vollständig fehlende Selbstfürsorge, die bei anderen Einser-Varianten möglich ist, etwas abmildern." },
         ],
       },
       {
@@ -96541,7 +96541,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ein Leben, das ausschließlich der Fürsorge für andere gewidmet ist, während die eigene innere Substanz nie aufgefüllt wird: So gibt die selbsterhaltende Zwei im Verborgenen, über Jahrzehnte, ohne je etwas zurückzunehmen. Ein Skelett, das über Jahre unbemerkt an Dichte verliert, weil ihm die Nährstoffe fehlen, ist psychosomatisch eines der unmittelbarsten Bilder für diesen niemals erwiderten Fluss." },
       { code: "SO2", text: "Über Jahrzehnte vergisst die soziale Zwei, sich selbst mit derselben Fürsorge zu behandeln, die sie anderen entgegenbringt, während sie sich fortlaufend in den Dienst der Gemeinschaft stellt – dieses strukturelle Ungleichgewicht kann sich als eine langsam schwindende innere Substanz zeigen." },
-      { code: "SX2", text: "Innerhalb intensiver Beziehungsphasen, in die sich die sexuelle Zwei fast vollständig investiert, findet zumindest ein gewisser emotionaler Austausch statt – was der vollständigen, nie erwiderten Auszehrung anderer Zwei-Varianten entgegenwirkt." },
+      { code: "SX2", text: "Innerhalb intensiver Beziehungsphasen, in die sich die sexuelle Zwei fast vollständig investiert, findet zumindest ein gewisser emotionaler Austausch statt – was der vollständigen, nie erwiderten Auszehrung anderer Zweier-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96549,14 +96549,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Leistung wird höher bewertet als das eigene Wohlergehen: Die selbsterhaltende Drei arbeitet effizient weiter, über Jahre, ohne sich je bewusst Erholung oder echte Selbstfürsorge zu gönnen. Diese über Jahrzehnte fortgesetzte Vernachlässigung der eigenen Substanz zugunsten der Funktion kann sich als eine still schwindende Knochendichte zeigen." },
       { code: "SO3", text: "Über Jahre unbeachtet bleibt die innere Substanz, die eigene Selbstfürsorge, wenn die soziale Drei ihre gesamte Energie in äußere Anerkennung investiert und sich fortlaufend am Erfolg anderer misst – dieser äußere Fokus kann sich körperlich als schwindende Substanz zeigen." },
-      { code: "SX3", text: "Fokussiert, aber emotional lebendig setzt die sexuelle Drei ihre Energie darauf, in der Beziehung begehrenswert zu erscheinen – dieser Einsatz unterscheidet sich von der reinen Funktionsorientierung anderer Drei-Varianten und kann etwas mehr innere Nährung ermöglichen." },
+      { code: "SX3", text: "Fokussiert, aber emotional lebendig setzt die sexuelle Drei ihre Energie darauf, in der Beziehung begehrenswert zu erscheinen – dieser Einsatz unterscheidet sich von der reinen Funktionsorientierung anderer Dreier-Varianten und kann etwas mehr innere Nährung ermöglichen." },
         ],
       },
       {
         typ: 4, titel: "Sehnsucht, die die eigene Substanz nie satt macht",
         varianten: [
       { code: "SE4", text: "Über Jahre unbemerkt zehrt eine tiefe, nie gestillte Sehnsucht nach Vollständigkeit an der Substanz der selbsterhaltenden Vier, dem Kontratyp, die nach außen tapfer funktioniert. Dieses stille, nie geäußerte Fehlen kann sich als eine langsam schwindende innere Dichte zeigen, ganz ähnlich der Osteoporose, die sich ebenfalls erst spät zu erkennen gibt." },
-          { code: "SO4", text: "Die soziale Vier verbirgt ihre innere Leere nicht, sondern zeigt sie – dieser fortlaufende, oft unbewusst wirksame Ausdruck erzeugt zumindest eine Form von Aufmerksamkeit und Zuwendung von außen, was der vollständigen, unbemerkten Auszehrung anderer Vier-Varianten etwas entgegenwirkt." },
+          { code: "SO4", text: "Die soziale Vier verbirgt ihre innere Leere nicht, sondern zeigt sie – dieser fortlaufende, oft unbewusst wirksame Ausdruck erzeugt zumindest eine Form von Aufmerksamkeit und Zuwendung von außen, was der vollständigen, unbemerkten Auszehrung anderer Vierer-Varianten etwas entgegenwirkt." },
       { code: "SX4", text: "Ein lebendiger, wenn auch wechselhafter Austausch mit dem geliebten Menschen prägt die kompromisslose emotionale Intensität, die die sexuelle Vier lebt – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, die der stillen Auszehrung anderer Subtypen entgegensteht." },
         ],
       },
@@ -96565,7 +96565,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Nicht nur äußere Bedürfnisse, auch die eigene körperliche Selbstfürsorge minimiert die selbsterhaltende Fünf – ein Leben in bewusster Reduktion, das über Jahrzehnte unbemerkt an der eigenen Substanz zehren kann, ganz im Bild der stillen, lange unbemerkten Osteoporose." },
       { code: "SO5", text: "Vernachlässigt bleibt oft die körperliche Ebene der Selbstfürsorge, während die soziale Fünf fortlaufend intellektuelles Wissen sammelt – dieses einseitige Fokussieren auf den Kopf, unter Vernachlässigung des Körpers, kann sich als schwindende körperliche Substanz zeigen." },
-      { code: "SX5", text: "Durchaus echte Nährung kann stattfinden innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Auszehrung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Durchaus echte Nährung kann stattfinden innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Auszehrung der anderen Fünfer-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -96581,7 +96581,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Ohne je wirklich innezuhalten und sich bewusst zu nähren, springt die selbsterhaltende Sieben ständig von einer Ablenkung zur nächsten – diese permanente Zerstreuung kann verhindern, dass die eigene Substanz je wirklich aufgefüllt wird, was sich über Jahrzehnte als schwindende innere Dichte zeigen kann." },
       { code: "SO7", text: "Oft ohne die eigene, allmählich schwindende Substanz je zu bemerken, stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse aus Pflichtgefühl zurück – diese selbstlose Ausrichtung kann sich über Jahre als stille Auszehrung zeigen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und intensiv aus – diese emotionale Lebendigkeit kann eine gewisse innere Nährung ermöglichen, auch wenn die rastlose Suche nach dem nächsten Impuls echte Regeneration erschwert." },
+      { code: "SX7", text: "Auch wenn die rastlose Suche nach dem nächsten Impuls echte Regeneration erschwert, kann die emotionale Lebendigkeit, mit der die sexuelle Sieben Begeisterung grenzenlos und intensiv auslebt, eine gewisse innere Nährung ermöglichen." },
         ],
       },
       {
@@ -96589,7 +96589,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Selbstfürsorge, die auch das eigene Bedürfnis nach Nähe und Nahrung anerkennt, widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – sie kämpft und kontrolliert über Jahrzehnte, ohne sich je Schwäche oder Verletzlichkeit einzugestehen. Diese fortgesetzte Härte gegen sich selbst kann sich als eine still schwindende innere Substanz zeigen." },
       { code: "SO8", text: "Keine eigene Bedürftigkeit zulässt die Beschützerrolle, in der die soziale Acht Verantwortung für viele Menschen gleichzeitig trägt – diese permanente, nie eingestandene Selbstvernachlässigung kann sich über Jahre als schwindende Substanz zeigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit einer Hingabe, die zumindest an dieser Stelle echten emotionalen Austausch ermöglicht – diese fokussierte Verbindung kann die vollständige Selbstvernachlässigung anderer Acht-Varianten etwas abmildern." },
+      { code: "SX8", text: "Zumindest an dieser Stelle echten emotionalen Austausch ermöglicht die Hingabe, mit der die sexuelle Acht totale Intensität in der Beziehung lebt – diese fokussierte Verbindung kann die vollständige Selbstvernachlässigung anderer Achter-Varianten etwas abmildern." },
         ],
       },
       {
@@ -96597,7 +96597,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Kaum je bewusst wahrgenommen oder genährt wird der eigene Körper der selbsterhaltenden Neun über Jahrzehnte, so konsequent übergeht sie die eigenen Bedürfnisse – diese fortgesetzte Selbstvergessenheit ist psychosomatisch eines der unmittelbarsten Bilder für die Osteoporose: eine Substanz, die schwindet, weil ihr über Jahre schlicht keine Aufmerksamkeit geschenkt wurde." },
       { code: "SO9", text: "So klein macht sich die soziale Neun innerlich, dass die eigene Selbstfürsorge kaum je Raum findet, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich als schwindende innere Substanz zeigen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Bedürfnisse oft als die eigenen – diese fortgesetzte Selbstaufgabe bedeutet auch: die eigene Substanz wird selten als eigenständig erkannt und genährt, weil sie hinter der des Partners verschwindet." },
+      { code: "SX9", text: "Oft als die eigenen übernimmt die sexuelle Neun die Bedürfnisse des Partners, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe bedeutet auch: die eigene Substanz wird selten als eigenständig erkannt und genährt, weil sie hinter der des Partners verschwindet." },
         ],
       },
     ],
@@ -96666,7 +96666,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE6", text: "Den gesamten Körper in einer diffusen, nirgends konzentrierten Anspannung hält das parallele Durchspielen unterschiedlicher Bedrohungsbilder, mit dem sich die selbsterhaltende Sechs gedanklich auf viele mögliche Gefahren gleichzeitig vorbereitet – das kommt dem Bild der Fibromyalgie, einem System in genereller Überforderung, besonders nahe." },
       { code: "SO6", text: "Sorgt sich um das Wohlergehen der gesamten Gruppe, überwacht fortlaufend viele soziale Signale gleichzeitig: So kann sich das gleichzeitige Verarbeiten vielfacher sozialer Reize durch die soziale Sechs als diffuse, über das gesamte System verteilte Überlastung zeigen." },
-      { code: "SX6", text: "Aktiv und punktuell konfrontiert sich die sexuelle Sechs mit dem, was Angst macht – diese fokussierte Entladung steht der diffusen, über viele gleichzeitige Sorgen verteilten Anspannung anderer Sechs-Varianten entgegen." },
+      { code: "SX6", text: "Aktiv und punktuell konfrontiert sich die sexuelle Sechs mit dem, was Angst macht – diese fokussierte Entladung steht der diffusen, über viele gleichzeitige Sorgen verteilten Anspannung anderer Sechser-Varianten entgegen." },
         ],
       },
       {
@@ -96674,7 +96674,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Ohne dass sich die Erschöpfung je an einer einzelnen Stelle konzentriert, beansprucht ein Leben in ständiger paralleler Vielfalt den gesamten Körper der selbsterhaltenden Sieben gleichzeitig – sie hält sich zahlreiche Optionen und Aktivitäten gleichzeitig offen, springt zwischen Projekten und Genüssen. Das passt zum diffusen Schmerzbild der Fibromyalgie." },
       { code: "SO7", text: "Über viele Bereiche verteilt übernimmt die soziale Sieben, der Kontratyp, oft mehrere Verpflichtungen gleichzeitig aus Pflichtgefühl – diese selbstauferlegte Vielfachbelastung kann sich als eine diffuse, generelle Überforderung des gesamten Systems zeigen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv, springt von einer Intensität zur nächsten – diese rastlose, aber fokussierte Intensität in jedem einzelnen Moment steht dem gleichmäßig diffusen Erschöpfungsmuster der Fibromyalgie eher entgegen." },
+      { code: "SX7", text: "Fokussiert in jedem einzelnen Moment, aber rastlos zwischen den Momenten: So springt die sexuelle Sieben, die Begeisterung grenzenlos und impulsiv lebt, von einer Intensität zur nächsten – dies steht dem gleichmäßig diffusen Erschöpfungsmuster der Fibromyalgie eher entgegen." },
         ],
       },
       {
@@ -96682,7 +96682,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Diese ständige, gleichzeitige Wachsamkeit über mehrere Fronten hinweg kann den gesamten Körper der selbsterhaltenden Acht in einer diffusen, nirgends konzentrierten Anspannung halten – sie kontrolliert gleichzeitig viele Bereiche ihres materiellen und körperlichen Terrains, hält alles gleichzeitig im Griff, was dem Schmerzbild der Fibromyalgie entspricht." },
       { code: "SO8", text: "Führt und entscheidet in mehreren Konflikten parallel: So übernimmt die soziale Acht Verantwortung für viele Menschen gleichzeitig – diese Vielfachbelastung durch gleichzeitige Führungsaufgaben kann sich als eine diffuse, über das gesamte System verteilte Überlastung zeigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, konzentriert auf einen Bereich – diese fokussierte, wenn auch extreme Intensität steht dem diffusen, über den ganzen Körper verteilten Erschöpfungsmuster anderer Acht-Varianten entgegen." },
+      { code: "SX8", text: "Auf einen Bereich konzentriert lebt die sexuelle Acht totale Intensität in der Beziehung – diese fokussierte, wenn auch extreme Intensität steht dem diffusen, über den ganzen Körper verteilten Erschöpfungsmuster anderer Achter-Varianten entgegen." },
         ],
       },
       {
@@ -96690,7 +96690,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Über den gesamten Alltag verteilt, nirgends an einem Punkt konzentriert: So verliert sich die selbsterhaltende Neun in vielen kleinen, unwichtigen Beschäftigungen gleichzeitig, um bloß nicht bei der eigenen, dringenden Frage ankommen zu müssen. Das passt besonders genau zum diffusen, überall spürbaren Schmerzbild der Fibromyalgie." },
       { code: "SO9", text: "Ohne je die eigene Position klar zu benennen, verfolgt die soziale Neun innerlich viele verschiedene Rücksichtnahmen gleichzeitig – dieses gleichzeitige Abwägen vieler fremder Interessen kann den gesamten Körper in eine diffuse, nirgends lokalisierte Anspannung versetzen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner, verliert die eigene Identität im Anderen – diese fortgesetzte Selbstaufgabe bedeutet auch: ein eigener Schmerz, der nie klar benannt werden durfte, kann sich über den ganzen Körper verteilen, statt an einer konkreten Stelle zu bleiben." },
+      { code: "SX9", text: "Im Anderen verliert die sexuelle Neun ihre eigene Identität, verschmilzt mit dem Partner – diese fortgesetzte Selbstaufgabe bedeutet auch: ein eigener Schmerz, der nie klar benannt werden durfte, kann sich über den ganzen Körper verteilen, statt an einer konkreten Stelle zu bleiben." },
         ],
       },
     ],
@@ -96735,7 +96735,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE3", text: "Wiederholte, monotone Arbeitsbewegungen ohne ausreichende Erholung: So arbeitet die selbsterhaltende Drei effizient und mit den eigenen Händen weiter, auch wenn der Körper längst um Pause bittet. Das passt besonders genau zum mechanischen Entstehungsmuster des Karpaltunnelsyndroms." },
       { code: "SO3", text: "Um im Vergleich mit anderen zu bestehen, greift die soziale Drei fortlaufend nach neuen Erfolgen und Projekten – dieser endlose Zugriff auf immer neue Aufgaben, ohne echte Regenerationsphasen, kann sich als überlastete, eingeengte Handlungsfähigkeit zeigen." },
-      { code: "SX3", text: "Um in der Beziehung begehrenswert zu erscheinen, konzentriert die sexuelle Drei ihre Energie – dieser fokussierte Einsatz erzeugt eher punktuelle Anspannung als eine chronische, mechanisch wiederholte Überlastung der Hand." },
+      { code: "SX3", text: "Begehrenswert in der Beziehung zu erscheinen: Darauf konzentriert die sexuelle Drei ihre Energie – dieser fokussierte Einsatz erzeugt eher punktuelle Anspannung als eine chronische, mechanisch wiederholte Überlastung der Hand." },
         ],
       },
       {
@@ -96767,7 +96767,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Oft mit den eigenen Händen aktiv greift die selbsterhaltende Sieben fortlaufend nach neuen Optionen und Aktivitäten, springt von einem Projekt zum nächsten – diese permanente, nie pausierte Betriebsamkeit passt zum mechanischen Überlastungsmuster des Karpaltunnelsyndroms." },
       { code: "SO7", text: "Oft mit den eigenen Händen übernimmt die soziale Sieben, der Kontratyp, aus Pflichtgefühl viele konkrete Aufgaben für andere – diese selbstauferlegte, körperlich wiederholte Verpflichtung kann sich als eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, springt impulsiv zwischen Intensitäten – diese emotionale, nicht primär manuell-repetitive Intensität erzeugt seltener die spezifische mechanische Überlastung des Karpaltunnelsyndroms." },
+      { code: "SX7", text: "Emotional, nicht primär manuell-repetitiv: So ist die Intensität geartet, mit der die sexuelle Sieben Begeisterung grenzenlos auslebt und impulsiv zwischen Intensitäten springt – sie erzeugt seltener die spezifische mechanische Überlastung des Karpaltunnelsyndroms." },
         ],
       },
       {
@@ -96775,7 +96775,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Buchstäblich zu, wo andere zögern würden: So kontrolliert die selbsterhaltende Acht ihr Terrain mit festem Zugriff – diese dauerhaft angespannte Greifkraft, nie bewusst gelockert, passt besonders genau zum Bild eines Kanals, der sich unter permanenter mechanischer Belastung einengt." },
       { code: "SO8", text: "Oft mit konkretem, tatkräftigem Zugreifen übernimmt die soziale Acht Führung und praktische Verantwortung für viele Menschen gleichzeitig – diese kontinuierliche körperliche Beanspruchung kann sich als eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung – diese emotionale, nicht primär mechanisch-repetitive Intensität erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
+      { code: "SX8", text: "Emotional, nicht primär mechanisch-repetitiv: So ist die totale Intensität geartet, die die sexuelle Acht in der Beziehung lebt – sie erzeugt seltener die Art wiederholter Handbelastung, die für das Karpaltunnelsyndrom ursächlich ist." },
         ],
       },
       {
@@ -96783,7 +96783,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie ihre Hände dabei beansprucht, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, wiederholte Belastung passt besonders genau zum schleichenden Entstehungsmuster des Karpaltunnelsyndroms." },
       { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend praktische Aufgaben für die Gruppe – diese chronische, unbemerkte körperliche Überlastung kann sich als eingeengte Handlungsfähigkeit zeigen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen praktische Aufgaben und Handgriffe als die eigenen – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
+      { code: "SX9", text: "Oft als die eigenen übernimmt die sexuelle Neun praktische Aufgaben und Handgriffe des Partners, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
     ],
@@ -96812,7 +96812,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE1", text: "Äußerlich lässt die selbsterhaltende Eins nichts erkennen, wenn sie Ärger und Unzufriedenheit über lange Zeit konsequent unter Kontrolle hält – doch genau diese über Wochen und Monate angesammelte, nie ausgesprochene Spannung liest die Psychosomatik als naheliegendes Bild für die Gicht: eine stille Ansammlung, die sich irgendwann nicht mehr halten lässt und sich in einem einzigen, scharfen Moment entlädt." },
       { code: "SO1", text: "Bevor sie sich in einem einzigen, heftigen Ausbruch Bahn bricht, hält die soziale Eins ihre moralische Empörung über Missstände oft lange zurück – diese über Zeit angesammelte, dann plötzlich entladene Intensität passt zum Bild eines Gichtanfalls, der scheinbar aus dem Nichts, aber tatsächlich nach langer stiller Ansammlung auftritt." },
-      { code: "SX1", text: "Direkter und häufiger als andere Eins-Varianten bringt die sexuelle Eins ihren Ärger zum Ausdruck, in der Beziehung selbst – diese regelmäßigere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht psychosomatisch besonders typisch ist." },
+      { code: "SX1", text: "Direkter und häufiger als andere Einser-Varianten bringt die sexuelle Eins ihren Ärger zum Ausdruck, in der Beziehung selbst – diese regelmäßigere Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht psychosomatisch besonders typisch ist." },
         ],
       },
       {
@@ -96844,7 +96844,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Auch Unmut und Ärger hält die selbsterhaltende Fünf konsequent für sich und zieht sich zurück – diese über lange Zeit im Verborgenen angesammelte, nie geäußerte Spannung passt zum Bild einer Intensität, die sich, wenn sie sich löst, unerwartet scharf entlädt." },
       { code: "SO5", text: "Statt sie direkt zu äußern, hält die soziale Fünf Frustration über die Gruppe oft hinter intellektueller Distanz zurück – diese lange Ansammlung ohne Entladung passt zum psychosomatischen Bild der Gicht." },
-      { code: "SX5", text: "Zumindest an einer Stelle findet echter emotionaler Austausch statt innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen, langen Ansammlung entgegenwirkt." },
+      { code: "SX5", text: "Echter emotionaler Austausch findet zumindest an einer Stelle statt, innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen, langen Ansammlung entgegenwirkt." },
         ],
       },
       {
@@ -96860,7 +96860,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Als Belohnung für sich selbst genießt die selbsterhaltende Sieben Essen, Trinken und Vergnügen oft ausgiebig – wiederholter, purinreicher Genuss über Jahre, verbunden mit der Weigerung, echte Grenzen zu setzen, passt besonders direkt zum mechanischen Entstehungsmuster der Gicht: eine Ansammlung, die sich irgendwann als scharfer Anfall Bahn bricht." },
       { code: "SO7", text: "Oft zurückgehalten werden eigene Genüsse und Bedürfnisse aus Pflichtgefühl bei der sozialen Sieben, dem Kontratyp – dieser gebremste, nie ausgelebte Genuss unterscheidet sich vom eher direkten Konsummuster der ungebremsten Sieben und kann seltener zur klassischen Ansammlung führen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, oft verbunden mit intensivem Konsum von Nahrung, Alkohol oder anderen Genussmitteln – diese impulsive, wiederholte Intensität liest die Psychosomatik als eines der direkteren Bilder für eine Ansammlung, die sich irgendwann explosionsartig entlädt." },
+      { code: "SX7", text: "Oft verbunden mit intensivem Konsum von Nahrung, Alkohol oder anderen Genussmitteln lebt die sexuelle Sieben Begeisterung grenzenlos aus – diese impulsive, wiederholte Intensität liest die Psychosomatik als eines der direkteren Bilder für eine Ansammlung, die sich irgendwann explosionsartig entlädt." },
         ],
       },
       {
@@ -96868,7 +96868,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Dann entlädt sich angesammelte Intensität mit voller, unmittelbarer Wucht: Die selbsterhaltende Acht hält Frustration und Ärger oft lange zurück, bis eine Grenze überschritten ist. Diese Dynamik aus langer Ansammlung und plötzlicher, scharfer Entladung passt besonders genau zum Bild des Gichtanfalls." },
       { code: "SO8", text: "Bevor sie eingreift, trägt die soziale Acht Verantwortung und Ärger über die Grenzen anderer oft lange mit sich – diese angesammelte, dann plötzlich freigesetzte Intensität passt zum psychosomatischen Bild der Gicht." },
-          { code: "SX8", text: "Die sexuelle Acht lebt Intensität in der Beziehung meist unmittelbar und direkt aus, statt sie anzusammeln – diese direkte Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
+      { code: "SX8", text: "Meist unmittelbar und direkt, statt sie anzusammeln, lebt die sexuelle Acht Intensität in der Beziehung aus – diese direkte Entladung steht der langen, stillen Ansammlung entgegen, die für die Gicht besonders typisch ist." },
         ],
       },
       {
@@ -96876,7 +96876,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "So konsequent verdrängt die selbsterhaltende Neun Ärger und Unzufriedenheit über Jahrzehnte, dass sie selbst kaum noch weiß, was sie eigentlich stört – diese radikalste Form der Verdrängung unter den 27 Subtypen kann sich als eine Ansammlung zeigen, die, wenn sie sich löst, besonders unerwartet und scharf ausfällt." },
       { code: "SO9", text: "Um den sozialen Frieden zu wahren, verdrängt die soziale Neun eigenen Ärger, ordnet die eigene Meinung fortlaufend der Gruppe unter – diese chronische Verdrängung kann sich über Jahre zu einer Ansammlung verdichten, die sich schließlich unkontrolliert entlädt." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und verdrängt eigenen Ärger zugunsten der Harmonie in der Beziehung – bricht dieser verdrängte Ärger dennoch irgendwann durch, geschieht dies oft überraschend heftig, weil er nie zuvor einen Ausdruck gefunden hat." },
+      { code: "SX9", text: "Zugunsten der Harmonie in der Beziehung verdrängt die sexuelle Neun eigenen Ärger, verschmilzt mit dem Partner – bricht dieser verdrängte Ärger dennoch irgendwann durch, geschieht dies oft überraschend heftig, weil er nie zuvor einen Ausdruck gefunden hat." },
         ],
       },
     ],
@@ -96953,7 +96953,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Schnell zugreifen, schnell weiter: Dieses angespannte Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
       { code: "SO7", text: "Ohne sie zu variieren, übernimmt die soziale Sieben, der Kontratyp, über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere – diese unveränderte Position kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für den Tennisarm psychosomatisch besonders typisch ist." },
+      { code: "SX7", text: "Zwischen Begeisterungen wechselt die sexuelle Sieben impulsiv, lebt tatsächliche, spontane Vielfalt – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für den Tennisarm psychosomatisch besonders typisch ist." },
         ],
       },
       {
@@ -96961,7 +96961,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Über Jahre wiederholt die selbsterhaltende Acht denselben festen, kontrollierten Zugriff auf ihr Terrain, packt buchstäblich zu, wo andere zögern würden – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild eines Sehnenansatzes, der unter permanenter mechanischer Anspannung erschöpft ist." },
       { code: "SO8", text: "Immer mit demselben festen Zugriff wiederholt die soziale Acht über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe – diese unveränderte, körperlich fordernde Haltung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für den Tennisarm typisch ist." },
+      { code: "SX8", text: "Heftig, aber wechselnd: So zeigen sich die Ausschläge zwischen Kontrolle und Hingabe, mit denen die sexuelle Acht totale Intensität in der Beziehung lebt – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für den Tennisarm typisch ist." },
         ],
       },
       {
@@ -96969,7 +96969,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie dabei denselben Punkt belastet, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, monotone Wiederholung passt besonders genau zum schleichenden Entstehungsmuster des Tennisarms." },
       { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend dieselbe praktische Aufgabe für die Gruppe – diese chronische, unbemerkte körperliche Wiederholung kann sich als ein erschöpfter Ansatzpunkt körperlicher Kraft zeigen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen praktische Handgriffe als die eigenen, über Jahre unverändert – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
+      { code: "SX9", text: "Über Jahre unverändert übernimmt die sexuelle Neun oft praktische Handgriffe des Partners als die eigenen, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
     ],
@@ -97006,7 +97006,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE2", text: "Ein Arm, der sich ständig ausstreckt, aber nie eine Umarmung zurückerhält: So umarmt und gibt die selbsterhaltende Zwei fortwährend, ohne je selbst umarmt zu werden. Das kann sich über Jahre als eine Erschöpfung genau dieses Gelenks zeigen, das für das Geben von Nähe zuständig ist." },
       { code: "SO2", text: "Ohne je selbst aufgefangen zu werden, streckt sich die soziale Zwei fortlaufend nach der gesamten Gemeinschaft aus – diese einseitige, nie erwiderte Geste des Gebens kann sich körperlich als eine zunehmende Versteifung der Schulter zeigen." },
-      { code: "SX2", text: "Durchaus zurückerhält die sexuelle Zwei in intensiven Beziehungsphasen Nähe – dieser wechselseitige Austausch, zumindest an einer Stelle, steht der vollständigen, nie erwiderten Erschöpfung anderer Zwei-Varianten entgegen." },
+      { code: "SX2", text: "Durchaus zurückerhält die sexuelle Zwei in intensiven Beziehungsphasen Nähe – dieser wechselseitige Austausch, zumindest an einer Stelle, steht der vollständigen, nie erwiderten Erschöpfung anderer Zweier-Varianten entgegen." },
         ],
       },
       {
@@ -97030,7 +97030,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Konsequent auf Abstand hält die selbsterhaltende Fünf auch körperliche Nähe und zieht sich radikal zurück – ein Körper, der sich über Jahre daran gewöhnt hat, Umarmung zu vermeiden, kann sich genau an der Schulter, dem Ort der Umarmung, als Erstarrung zeigen, die sich selbst dann nicht mehr löst, wenn Nähe eigentlich möglich wäre." },
       { code: "SO5", text: "Hinter intellektueller Distanz hält die soziale Fünf emotionale und körperliche Nähe auf Abstand – diese fortgesetzte Trennung kann sich über Jahre als eine Versteifung der Schulter zeigen, die für Offenheit zuständig wäre." },
-      { code: "SX5", text: "Echte körperliche Nähe bleibt erhalten innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Erstarrung der anderen Fünf-Varianten entgegenwirkt." },
+      { code: "SX5", text: "Echte körperliche Nähe bleibt erhalten innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen Erstarrung der anderen Fünfer-Varianten entgegenwirkt." },
         ],
       },
       {
@@ -97046,7 +97046,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Ironischerweise kann genau die permanente Betriebsamkeit, mit der sich die selbsterhaltende Sieben ständig in Bewegung hält und von einer Aktivität zur nächsten springt, verhindern, dass Schultern und Arme je bewusst entspannt werden – was sich über Jahre als eine unerwartete Erstarrung zeigen kann, sobald das Tempo einmal nachlässt." },
       { code: "SO7", text: "Ohne sich je bewusst zu entspannen, übernimmt die soziale Sieben, der Kontratyp, aus Pflichtgefühl viele körperlich fordernde Aufgaben für andere – diese selbstlose, nie unterbrochene Anspannung kann sich über Jahre als Versteifung der Schulter zeigen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, mit viel körperlicher Nähe und Bewegung – diese ausgelebte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
+      { code: "SX7", text: "Mit viel körperlicher Nähe und Bewegung lebt die sexuelle Sieben Begeisterung grenzenlos aus – diese ausgelebte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
       },
       {
@@ -97054,7 +97054,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Bereit zur Verteidigung ihres Terrains hält die selbsterhaltende Acht ihre Schultern buchstäblich und im übertragenen Sinne kraftvoll und angespannt – echte Entspannung, echtes Sich-Öffnen für Umarmung, widerspricht ihrem Selbstverständnis fundamental. Diese fortgesetzte Härte kann sich als eine zunehmende Erstarrung der Schulter zeigen." },
       { code: "SO8", text: "Oft mit körperlich spürbarer, nie gelöster Anspannung in Schulter und Nacken trägt die soziale Acht Verantwortung für viele Menschen gleichzeitig – diese permanente Führungsspannung kann sich über Jahre als Versteifung zeigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit viel direkter körperlicher Nähe und Hingabe – diese ausgelebte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
+      { code: "SX8", text: "Mit viel direkter körperlicher Nähe und Hingabe lebt die sexuelle Acht totale Intensität in der Beziehung – diese ausgelebte Offenheit steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist." },
         ],
       },
       {
@@ -97062,7 +97062,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Oft unbewusst hält die selbsterhaltende Neun körperliche Spannung, die nie bewusst wahrgenommen oder gelöst wird, während sie nach außen entspannt wirkt – dieses stille, nie thematisierte Muster passt besonders genau zum Bild der Frozen Shoulder, die sich ebenfalls schleichend und lange unbemerkt entwickelt." },
       { code: "SO9", text: "Oft unbewusst hält die soziale Neun körperliche Spannung zurück, die nie geäußert wird, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – diese chronische Selbstzurücknahme kann sich als Versteifung der Schulter zeigen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und lässt dabei durchaus viel körperliche Nähe zu – diese ausgelebte Verbindung steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist, auch wenn die eigene Identität dabei zurücktritt." },
+      { code: "SX9", text: "Durchaus viel körperliche Nähe lässt die sexuelle Neun zu, verschmilzt mit dem Partner – diese ausgelebte Verbindung steht der generellen Erstarrung entgegen, die für die Frozen Shoulder typisch ist, auch wenn die eigene Identität dabei zurücktritt." },
         ],
       },
     ],
@@ -97123,7 +97123,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE5", text: "Bis ein einziger zusätzlicher Reiz genügt, damit das längst überforderte System plötzlich Einspruch erhebt: So zieht sich die selbsterhaltende Fünf zurück und trägt körperliche wie emotionale Belastung lange allein. Dieses Muster, lange durchzuhalten, ohne je um Hilfe zu bitten, passt zum Bild des plötzlich einschießenden Hexenschusses." },
       { code: "SO5", text: "Lange verborgen hält die soziale Fünf Erschöpfung hinter intellektueller Distanz – wenn diese verdrängte Belastung sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unerwartet." },
-      { code: "SX5", text: "Zumindest an einer Stelle findet echte Entlastung statt innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen, langen Ansammlung entgegenwirkt." },
+      { code: "SX5", text: "Echte Entlastung findet zumindest an einer Stelle statt, innerhalb der schmalen Verbindung, die die sexuelle Fünf pflegt – was der vollständigen, langen Ansammlung entgegenwirkt." },
         ],
       },
       {
@@ -97139,7 +97139,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Bis eine einzige, oft ungeschickte Bewegung genügt, damit lange verleugnete körperliche Überlastung plötzlich einschießt: So ignoriert die selbsterhaltende Sieben Erschöpfungssignale konsequent zugunsten der nächsten Ablenkung, hält sich ständig in Bewegung. Dieses Muster passt besonders genau zum Bild des scheinbar aus dem Nichts auftretenden Hexenschusses." },
       { code: "SO7", text: "Ohne die eigene wachsende Erschöpfung je einzugestehen, stellt die soziale Sieben, der Kontratyp, eigene Bedürfnisse aus Pflichtgefühl zurück – wenn diese sich schließlich löst, geschieht dies oft plötzlich und unerwartet." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, mit viel Bewegung und körperlicher Aktivität – diese ausgelebte Energie kann zu punktuellen Überlastungen führen, die eher direkt als nach langer stiller Ansammlung auftreten." },
+      { code: "SX7", text: "Mit viel Bewegung und körperlicher Aktivität lebt die sexuelle Sieben Begeisterung grenzenlos aus – diese ausgelebte Energie kann zu punktuellen Überlastungen führen, die eher direkt als nach langer stiller Ansammlung auftreten." },
         ],
       },
       {
@@ -97147,7 +97147,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Bis ein einziger zusätzlicher Kraftakt genügt, damit das längst überlastete System plötzlich nachgibt: So kämpft und arbeitet die selbsterhaltende Acht weiter, lange nachdem andere längst aufgegeben hätten. Dieses Muster, bis zum Bruchpunkt durchzuhalten, ohne vorher nachzugeben, passt besonders genau zum Bild des Hexenschusses." },
       { code: "SO8", text: "Oft mit körperlich spürbarer, nie gelöster Anspannung trägt die soziale Acht Verantwortung für viele Menschen gleichzeitig – wenn diese permanente Führungsspannung sich schließlich löst, geschieht dies oft plötzlich und heftig." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung meist unmittelbar aus, statt sie anzusammeln – diese direkte Entladung steht der lange zurückgehaltenen, dann plötzlich einschießenden Überlastung entgegen." },
+      { code: "SX8", text: "Meist unmittelbar, statt sie anzusammeln, lebt die sexuelle Acht totale Intensität in der Beziehung aus – diese direkte Entladung steht der lange zurückgehaltenen, dann plötzlich einschießenden Überlastung entgegen." },
         ],
       },
       {
@@ -97155,7 +97155,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Bis eine einzige, oft harmlose Bewegung genügt, damit lange verdrängte innere Last sich körperlich Bahn bricht: So flüchtet die selbsterhaltende Neun in Komfort und Routine, um eigenen Anliegen und Konflikten aus dem Weg zu gehen. Dieses plötzliche, unerwartete Einschießen nach langer stiller Ansammlung passt besonders genau zum Bild des Hexenschusses." },
       { code: "SO9", text: "Immer wieder verzichtet die soziale Neun auf die eigene Stimme, ordnet die eigenen Bedürfnisse fortlaufend denen der Gruppe unter – wenn diese chronische Selbstzurücknahme sich schließlich körperlich zeigt, geschieht dies oft plötzlich und unübersehbar." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt dessen Lasten oft als die eigenen – gerät der Partner unter Druck oder verlangt mehr, als sie eigentlich leisten kann, kann sich diese fremdbestimmte Überlastung plötzlich und unerwartet körperlich zeigen." },
+      { code: "SX9", text: "Oft als die eigenen übernimmt die sexuelle Neun die Lasten des Partners, verschmilzt mit ihm – gerät der Partner unter Druck oder verlangt mehr, als sie eigentlich leisten kann, kann sich diese fremdbestimmte Überlastung plötzlich und unerwartet körperlich zeigen." },
         ],
       },
     ],
@@ -97232,7 +97232,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Schnell zugreifen, schnell weiter: Dieses angespannte Muster wiederholt sich im Kern über Jahre, auch wenn die selbsterhaltende Sieben nach außen abwechslungsreich wirkt. Diese strukturelle Wiederholung unter der Oberfläche der Vielfalt kann sich als eine entzündete Sehnenscheide zeigen." },
       { code: "SO7", text: "Oft mit denselben konkreten Handgriffen übernimmt die soziale Sieben, der Kontratyp, über Jahre dieselbe selbstlose, körperlich fordernde Rolle für andere – diese unveränderte Position kann sich als eine entzündete Schutzhülle zeigen." },
-          { code: "SX7", text: "Die sexuelle Sieben lebt tatsächliche, spontane Vielfalt und wechselt impulsiv zwischen Begeisterungen – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für die Sehnenscheidenentzündung psychosomatisch besonders typisch ist." },
+      { code: "SX7", text: "Zwischen Begeisterungen wechselt die sexuelle Sieben impulsiv, lebt tatsächliche, spontane Vielfalt – diese echte Variabilität steht der starren, wiederholten Bewegung entgegen, die für die Sehnenscheidenentzündung psychosomatisch besonders typisch ist." },
         ],
       },
       {
@@ -97240,7 +97240,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE8", text: "Über Jahre wiederholt die selbsterhaltende Acht denselben festen, kontrollierten Zugriff auf ihr Terrain – diese dauerhaft angespannte, nie bewusst gelockerte Greifkraft passt besonders genau zum Bild einer Sehnenscheide, die unter permanenter mechanischer Anspannung erschöpft." },
       { code: "SO8", text: "Immer mit demselben festen Zugriff wiederholt die soziale Acht über Jahre dieselbe tatkräftige Führungsgeste für ihre Gruppe – diese unveränderte, körperlich fordernde Haltung kann sich als eine entzündete Schutzhülle zeigen." },
-          { code: "SX8", text: "Die sexuelle Acht lebt totale Intensität in der Beziehung, mit heftigen, aber wechselnden Ausschlägen zwischen Kontrolle und Hingabe – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
+      { code: "SX8", text: "Heftig, aber wechselnd: So zeigen sich die Ausschläge zwischen Kontrolle und Hingabe, mit denen die sexuelle Acht totale Intensität in der Beziehung lebt – diese emotionale Variabilität steht der starren, immer gleichen Wiederholung entgegen, die für die Sehnenscheidenentzündung typisch ist." },
         ],
       },
       {
@@ -97248,7 +97248,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE9", text: "Ohne je bewusst zu bemerken, wie sehr sie dabei denselben Punkt belastet, verrichtet die selbsterhaltende Neun über Jahrzehnte dieselben ruhigen, oft manuellen Routinetätigkeiten – diese unbemerkte, monotone Wiederholung passt besonders genau zum schleichenden Entstehungsmuster der Sehnenscheidenentzündung." },
       { code: "SO9", text: "Ohne je die eigene Belastung zu benennen, übernimmt die soziale Neun fortlaufend dieselbe praktische Aufgabe für die Gruppe – diese chronische, unbemerkte körperliche Wiederholung kann sich als eine entzündete Schutzhülle zeigen." },
-          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen praktische Handgriffe als die eigenen, über Jahre unverändert – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
+      { code: "SX9", text: "Über Jahre unverändert übernimmt die sexuelle Neun oft praktische Handgriffe des Partners als die eigenen, verschmilzt mit ihm – diese fortgesetzte Selbstaufgabe kann bedeuten, dass die eigene körperliche Überlastung nie als eigenständig erkannt wird." },
         ],
       },
     ],
