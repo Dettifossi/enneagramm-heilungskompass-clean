@@ -98241,6 +98241,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Morbus Crohn gefeit, und kein Muster ist ein Urteil oder eine Schuldzuweisung – Autoimmunerkrankungen entstehen aus einem komplexen Zusammenspiel genetischer, immunologischer und äußerer Faktoren. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit tief verwurzelten, oft schon lange bestehenden Mustern verhandelt – manche über strukturelle Selbstkontrolle, andere über verfestigten Rückzug, Selbstaufgabe oder eine seit Langem eingegrabene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich lindern, statt nur oberflächlich unterdrückt zu werden."
   },
+  gallensteine: {
+    titel: "Gallensteine",
+    kategorie: "verdauung",
+    icon: "🪨",
+    kurz: "Feste Ablagerungen in der Gallenblase, die entstehen, wenn sich Bestandteile der Galle verhärten, statt frei zu fließen.",
+    definition: "Gallensteine entstehen, wenn sich Bestandteile der Gallenflüssigkeit – vor allem Cholesterin, seltener Bilirubin – in der Gallenblase zu festen Ablagerungen verhärten, statt in gelöster Form zu bleiben. Begünstigt wird dies durch Übergewicht, fettreiche Ernährung, rasche Gewichtsabnahme, hormonelle Faktoren, familiäre Veranlagung sowie eine Gallenblase, die sich nur unzureichend entleert. Viele Gallensteine bleiben stumm und werden zufällig entdeckt; problematisch werden sie, wenn sie den Gallengang verlegen und die Gallenblase sich krampfartig gegen das Hindernis zusammenzieht (Gallenkolik) oder wenn sich die Gallenblase dadurch entzündet (Cholezystitis). Ein in den Hauptgallengang gewanderter Stein kann zudem eine Gelbsucht oder eine gefährliche Bauchspeicheldrüsenentzündung auslösen.",
+    symptome: ["Plötzliche, krampfartige Schmerzen im rechten Oberbauch (Gallenkolik), oft nach fettreichem Essen", "Ausstrahlung der Schmerzen in die rechte Schulter oder den Rücken", "Übelkeit und Erbrechen während einer Kolik", "Völlegefühl und Unverträglichkeit fettiger Speisen", "Gelbfärbung von Haut und Augen bei verlegtem Gallengang", "Heller Stuhl und dunkler Urin bei Gallenabflussstörung"],
+    notfall: "Bei anhaltenden starken Schmerzen im rechten Oberbauch mit Fieber und Schüttelfrost, Gelbsucht oder einer Kolik, die länger als wenige Stunden anhält, umgehend ärztliche Notfallversorgung aufsuchen – dies kann auf eine Gallenblasenentzündung, einen verlegten Gallengang oder eine Bauchspeicheldrüsenentzündung hinweisen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Galle steht sprachlich wie symbolisch seit Jahrhunderten für Bitterkeit und zurückgehaltenen Ärger – wer &bdquo;Galle spuckt&ldquo; oder dem &bdquo;etwas in die Galle steigt&ldquo;, drückt genau jenen Groll aus, der sich nicht auflöst, sondern sich festsetzt. In der TCM ist die Gallenblase eng mit der Leber gekoppelt, dem Organ der Entscheidungskraft, des klaren Sehens und des ungehinderten Qi-Flusses; stockt dieser Fluss durch aufgestaute Frustration oder chronische Unentschlossenheit, kann sich das laut TCM als Verhärtung im Gallensystem zeigen. Psychosomatisch liest sich der Gallenstein oft als Bild von Bitterkeit, die sich nicht mehr auflöst, sondern über Zeit verhärtet – ein Groll, der stehen bleibt, statt zu fließen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche Art von Bitterkeit sich hier besonders häufig festsetzt.",
+    typen: [
+      { typ: 1, titel: "Zorn, der sich zu Bitterkeit verhärtet", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger über Unzulänglichkeiten diszipliniert zurück, lässt ihn nie offen fließen. Dieser über Jahre nicht aufgelöste, sondern stets kontrollierte Groll kann sich körperlich als eine Galle zeigen, die sich verhärtet, statt frei zu fließen." },
+        { code: "SO1", text: "Wer wie die soziale Eins ständig über die Richtigkeit der Dinge wacht, trägt viel moralische Empörung mit sich herum, die selten direkt ausgesprochen wird. Diese chronisch nicht aufgelöste Bitterkeit über Missstände kann sich als wiederkehrende Gallenprobleme zeigen." },
+        { code: "SX1", text: "Die sexuelle Eins lebt ihren Verbesserungsanspruch in der Beziehung mit großer Intensität aus – dieser direktere, episodische Ausdruck von Ärger steht der langsamen, stillen Verhärtung entgegen, die für die anderen Einser-Varianten typischer ist." },
+      ]},
+      { typ: 2, titel: "Stolz, der die eigene Bitterkeit verschweigt", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei schluckt eigene Kränkungen über Jahre hinunter, ohne sie je zur Sprache zu bringen. Diese nie aufgelöste, stille Bitterkeit über das eigene Zurückstehen kann sich körperlich als Verhärtung in der Gallenblase zeigen." },
+        { code: "SO2", text: "Für die soziale Zwei ist es selbstverständlich, für viele Menschen gleichzeitig unentbehrlich zu sein – die eigene Enttäuschung über mangelnde Anerkennung wird dabei selten offen gezeigt. Diese stille, nie aufgelöste Bitterkeit kann sich als wiederkehrende Gallenbeschwerden zeigen." },
+        { code: "SX2", text: "In intensiven Beziehungsphasen drückt die sexuelle Zwei ihre Bedürfnisse durchaus direkter aus – dieser unmittelbarere Ausdruck steht der stillen, über Jahre verhärtenden Bitterkeit entgegen, die bei stärker verschluckten Gefühlen typischer ist." },
+      ]},
+      { typ: 3, titel: "Leistung, die keine Zeit zum Auflösen von Groll lässt", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei funktioniert effizient weiter, auch wenn innerer Groll längst spürbar ist – Innehalten, um ihn wirklich aufzulösen, fühlt sich wie verlorene Zeit an. Diese über Jahre fortgesetzte Weigerung, sich mit der eigenen Bitterkeit auseinanderzusetzen, kann sich als Gallensteine zeigen, die sich in aller Stille festsetzen." },
+        { code: "SO3", text: "Im ständigen Vergleich mit anderen hält die soziale Drei ein Tempo durch, das keinen Raum lässt, alten Groll wirklich zu klären – dieser permanente Leistungsdruck kann sich körperlich als ein Gallensystem zeigen, das sich selbst nie wirklich entlastet." },
+        { code: "SX3", text: "Um in der Beziehung makellos zu erscheinen, überspielt die sexuelle Drei innere Bitterkeit gerne so lange wie möglich – dieser fokussierte Wille zur Kontrolle des äußeren Bildes verzögert oft, dem eigenen inneren Groll überhaupt Beachtung zu schenken." },
+      ]},
+      { typ: 4, titel: "Sehnsucht, die sich zu Bitterkeit verhärtet", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm mit sich, ohne es je auszudrücken – dieses fortgesetzte Zurückhalten kann sich körperlich als eine Verhärtung im Gallensystem zeigen, die sich über Jahre aus unausgesprochener Enttäuschung bildet." },
+        { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das der rein körperlichen Verhärtung zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+        { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – dieser direktere Ausdruck steht der stillen, über Jahre verhärtenden Bitterkeit anderer Vierer-Varianten eher entgegen." },
+      ]},
+      { typ: 5, titel: "Rückzug, der die eigene Bitterkeit für sich behält", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf hält auch alten Groll konsequent für sich, spricht selten offen über vergangene Kränkungen – dieses stille Aushalten von nie aufgelöster Bitterkeit passt zum Bild von Gallensteinen, die sich über Jahre unbemerkt festsetzen konnten." },
+        { code: "SO5", text: "Die soziale Fünf hält emotionale Nähe hinter intellektueller Distanz auf Abstand – auch alter Groll kann so eher als abstraktes Faktum registriert als als echtes, aufzulösendes Gefühl behandelt werden." },
+        { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus offen über Enttäuschung und Groll gesprochen werden – was der stillen Verhärtung anderer Fünfer-Varianten entgegenwirkt." },
+      ]},
+      { typ: 6, titel: "Angst, die sich zu chronischer Unentschlossenheit verhärtet", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Vorsicht und einer oft chronischen Unentschlossenheit, wichtige Entscheidungen wirklich zu treffen. Diese über Jahre nicht aufgelöste Unentschlossenheit passt zum TCM-Bild eines stockenden Leber-Gallenblasen-Qi und kann sich körperlich als Gallensteine zeigen." },
+        { code: "SO6", text: "Die soziale Sechs trägt eine oft unausgesprochene Sorge um das Wohlergehen ihrer Gruppe mit sich – diese diffuse, nie ganz erleichterte Anspannung kann sich als Verhärtung im Gallensystem zeigen, das sich nie wirklich entlastet." },
+        { code: "SX6", text: "Durch aktive Konfrontation entscheidet sich die sexuelle Sechs eher schnell und direkt, statt in Unentschlossenheit zu verharren – diese unmittelbarere Klärung steht der stillen, verhärtenden Unentschlossenheit anderer Sechser-Varianten entgegen." },
+      ]},
+      { typ: 7, titel: "Genussmittel, die die Galle direkt belasten", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über eine Vielzahl kulinarischer Annehmlichkeiten ab, oft verbunden mit fettreichem Essen als Mittel der Selbstbelohnung – dieser direkte Griff zu gallenreizenden Genüssen liest die Psychosomatik als eines der unmittelbarsten Bilder für Gallensteine." },
+        { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – aufgestaute Bitterkeit über diesen Verzicht kann dabei leicht übersehen werden, weil die Aufmerksamkeit konsequent bei den Bedürfnissen anderer liegt." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos aus, oft verbunden mit üppigem, fettreichem Essen und schnellen Diäten dazwischen – diese Kombination aus Exzess und raschem Gewichtswechsel liest die Psychosomatik als einen der direkteren Wege zu Gallensteinen." },
+      ]},
+      { typ: 8, titel: "Kontrolle, die keine eigene Bitterkeit zulässt", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht duldet keine Schwäche, auch nicht die eigene Bitterkeit, und übergeht innere Kränkung konsequent, statt sie aufzulösen. Diese Weigerung, sich mit dem eigenen Groll auseinanderzusetzen, kann sich körperlich als ein verhärtetes Gallensystem zeigen." },
+        { code: "SO8", text: "Die soziale Acht übernimmt Verantwortung für viele Menschen gleichzeitig und stellt die eigene Bitterkeit dabei oft hintan – aufgestauter Groll bleibt so lange unbeachtet, bis er sich strukturell festgesetzt hat." },
+        { code: "SX8", text: "In extremen, aber episodischen Ausschlägen lebt die sexuelle Acht ihre Intensität in der Beziehung – diese punktuelle Entladung unterscheidet sich vom chronisch-strukturellen Verhärtungsmuster, das eher bei dauerhaft übergangener eigener Bitterkeit typisch ist." },
+      ]},
+      { typ: 9, titel: "Selbstvergessenheit, die die eigene Bitterkeit übergeht", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort und Routine und nimmt eigenen Groll oft kaum bewusst wahr – dieses Übersehen einer nie aufgelösten inneren Bitterkeit passt besonders genau zum Bild von Gallensteinen, die sich über Jahre unbemerkt entwickeln konnten." },
+        { code: "SO9", text: "Die soziale Neun ordnet die eigene Stimme so konsequent der Gruppenharmonie unter, dass auch eigener Groll selten wirklich Beachtung findet – diese chronische Selbstzurücknahme kann sich als ein nie aufgelöstes, aber stetig verhärtendes Muster zeigen." },
+        { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner und übernimmt oft dessen Sichtweise auf Konflikte als Maßstab – eigener, unbemerkter Groll kann sich so über Jahre unbemerkt festsetzen, weil die eigene Wahrnehmung hinter der Verschmelzung zurücktritt." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor Gallensteinen gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Bitterkeit, Groll und ungelösten Entscheidungen verhandelt – manche über verschluckten Zorn, andere über Rückzug, stoffgebundene Selbstbelohnung oder eine nie aufgelöste eigene Bitterkeit. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -98252,7 +98311,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
+  "verdauung": ["Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
