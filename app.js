@@ -98418,6 +98418,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor Divertikulitis gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit kleinen, unbearbeiteten Themen verhandelt – manche über verschluckten Ärger, andere über Rückzug, aufgeschobene Verpflichtungen oder eine nie ganz zur Sprache gekommene kleine Kränkung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  fettleber: {
+    titel: "Fettleber",
+    kategorie: "verdauung",
+    icon: "🫒",
+    kurz: "Wenn sich in den Leberzellen über Jahre stiller Überschuss ansammelt, ohne dass die Leber selbst je Alarm schlägt.",
+    definition: "Von einer Fettleber (Steatosis hepatis) spricht man, wenn sich in mehr als fünf Prozent der Leberzellen Fett einlagert. Man unterscheidet die alkoholische Fettleber, die durch regelmäßigen Alkoholkonsum entsteht, von der nichtalkoholischen Fettlebererkrankung (NAFLD), die eng mit Übergewicht, Insulinresistenz, Typ-2-Diabetes und einem ungünstigen Stoffwechselprofil verbunden ist und mittlerweile die häufigste Lebererkrankung in westlichen Industrienationen darstellt. Die Leber selbst besitzt kaum Schmerzrezeptoren, weshalb eine Fettleber über Jahre unbemerkt bleiben kann – erst wenn sich daraus eine Entzündung (Steatohepatitis) und im weiteren Verlauf eine Vernarbung (Fibrose bis hin zur Leberzirrhose) entwickelt, treten spürbare Beschwerden auf. Die gute Nachricht: In frühen Stadien ist eine Fettleber durch Ernährungs- und Lebensstiländerungen gut rückbildungsfähig.",
+    symptome: ["Meist zunächst keine spürbaren Beschwerden", "Gelegentliches Druckgefühl oder dumpfer Schmerz im rechten Oberbauch", "Anhaltende Müdigkeit und Abgeschlagenheit", "Völlegefühl nach dem Essen", "Bei fortgeschrittener Entzündung: erhöhte Leberwerte im Blutbild", "Bei fortgeschrittener Erkrankung: Gewichtszunahme im Bauchbereich, Hautveränderungen"],
+    notfall: "Bei plötzlicher Gelbfärbung von Haut und Augen, starken Bauchschmerzen, Verwirrtheit oder Wassereinlagerungen im Bauch zeitnah ärztlich abklären lassen – diese Zeichen können auf eine fortgeschrittene Leberschädigung hinweisen. Eine Fettleber selbst ist meist ein stiller Befund, der jedoch ärztlich ernst genommen und begleitet werden sollte.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Leber ist das stillste aller großen Organe – sie hat kaum Schmerzrezeptoren, beschwert sich nicht und arbeitet weiter, selbst wenn sie längst überlastet ist. In der TCM gilt die Leber als Sitz des Hun, der planenden, vorausschauenden Kraft der Seele, und als Speicher des Blutes; eine überlastete Leber wird traditionell mit einem lange nicht beachteten Übermaß in Verbindung gebracht, das sich über Jahre unbemerkt ansammelt. Psychosomatisch liest sich die Fettleber oft als Bild eines Organs, das leise und loyal alles wegsteckt, was ihm zugemutet wird – Überfluss, Überforderung, Sorgen –, ohne je zu protestieren, bis der stille Überschuss selbst zur Belastung wird. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, was hier über Jahre still angesammelt wird.",
+    typen: [
+      { typ: 1, titel: "Zorn, der leise und über Jahre angesammelt wird", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins hält Ärger diszipliniert und über Jahre still unter Kontrolle, ohne dass er je sichtbar zutage tritt – dieses lautlose Ansammeln von Anspannung, ohne jemals zu protestieren, passt zum Bild einer Leber, die über Jahre wortlos einlagert, was eigentlich verarbeitet werden müsste." },
+        { code: "SO1", text: "Wer wie die soziale Eins ständig über die Richtigkeit der Dinge wacht, sammelt über Jahre stille moralische Erschöpfung an, ohne je offen zu klagen. Diese loyale, nie beschwerte Überlastung kann sich still, ohne Warnsignale, körperlich als Fetteinlagerung in der Leber zeigen." },
+        { code: "SX1", text: "Die sexuelle Eins lebt ihren Anspruch mit großer, sichtbarer Intensität aus – dieser direktere, hörbare Ausdruck steht dem stillen, unbemerkten Ansammeln entgegen, das für die anderen Einser-Varianten typischer ist." },
+      ]},
+      { typ: 2, titel: "Stolz, der über Jahre schweigend Überlastung annimmt", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei kümmert sich über Jahre unermüdlich um andere, ohne je laut zu protestieren, wenn die eigene Belastung zu groß wird. Diese stille, loyale Überlastung, die niemals Alarm schlägt, passt fast idealtypisch zum Bild einer Leber, die klaglos einlagert, was ihr zugemutet wird." },
+        { code: "SO2", text: "Für viele Menschen gleichzeitig unentbehrlich zu sein, verlangt der sozialen Zwei über Jahre eine stille Selbstüberforderung ab, die nie offen benannt wird. Diese chronisch stille Überlastung kann sich still in der Leber ansammeln." },
+        { code: "SX2", text: "In intensiven Beziehungsphasen investiert sich die sexuelle Zwei fast vollständig, doch eher episodisch als über eine lange, gleichbleibende Zeitspanne – dieses punktuelle Muster unterscheidet sich vom stillen, über Jahre angesammelten Überlastungsmuster anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Leistung, die über Jahre keine Erschöpfung zeigen darf", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei funktioniert über Jahre effizient weiter, ohne je öffentlich Erschöpfung zuzugeben – diese über eine lange Lebensspanne fortgesetzte, stille Überforderung kann sich körperlich als eine Leber zeigen, die klaglos einlagert, was der Verstand nie zugibt." },
+        { code: "SO3", text: "Im ständigen Vergleich mit anderen hält die soziale Drei über Jahre ein Tempo durch, das nie öffentlich als zu viel benannt wird – dieser permanente, aber stille Leistungsdruck kann sich körperlich als eine überlastete Leber zeigen." },
+        { code: "SX3", text: "Um in der Beziehung makellos zu erscheinen, überspielt die sexuelle Drei Erschöpfung eher in einzelnen, zugespitzten Momenten – dieses episodische Überspielen unterscheidet sich vom stillen, über Jahre fortgesetzten Muster anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Sehnsucht, die sich über Jahre still ansammelt", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid über Jahre zäh und stumm mit sich, ohne es je auszudrücken – dieses fortgesetzte, stille Tragen kann sich körperlich als eine Leber zeigen, die über lange Zeit klaglos einlagert, was seelisch nie ausgesprochen wurde." },
+        { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als Ventil wirken, das der rein stillen, körperlichen Ansammlung zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+        { code: "SX4", text: "Mit heftigen, aber sichtbaren Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier ihre emotionale Intensität in der Beziehung – dieser direktere, hörbare Ausdruck steht dem stillen, über Jahre fortgesetzten Ansammeln anderer Vierer-Varianten eher entgegen." },
+      ]},
+      { typ: 5, titel: "Rückzug, der über Jahre keine Beschwerde äußert", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf hält auch über Jahre andauernde Erschöpfung konsequent für sich, sucht selten ärztlichen Rat, solange es irgendwie geht – dieses stille Aushalten über eine lange Zeitspanne passt zum Bild einer Fettleber, die sich über Jahre unbemerkt entwickeln konnte." },
+        { code: "SO5", text: "Die soziale Fünf hält emotionale Nähe hinter intellektueller Distanz auf Abstand – auch die eigene, über Jahre andauernde Erschöpfung kann so eher als abstraktes Faktum registriert als als echtes körperliches Signal ernst genommen werden." },
+        { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus offen über körperliche Erschöpfung gesprochen werden – was der stillen Verdrängung anderer Fünfer-Varianten entgegenwirkt." },
+      ]},
+      { typ: 6, titel: "Angst, die sich über Jahre still im Körper ablagert", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs lebt über Jahre in ständiger Vorsicht, ohne diese Anspannung je offen zu benennen – dieser über eine lange Zeitspanne fortgesetzte Alarmzustand kann sich still, ohne Warnsignale, körperlich als Fetteinlagerung in der Leber zeigen." },
+        { code: "SO6", text: "Die soziale Sechs trägt eine oft über Jahre unausgesprochene Sorge um das Wohlergehen ihrer Gruppe mit sich – diese diffuse, nie offen benannte Anspannung kann sich still in der Leber ansammeln." },
+        { code: "SX6", text: "Durch aktive, sichtbare Konfrontation entlädt die sexuelle Sechs Angst eher direkt – diese unmittelbarere Reaktion steht dem stillen, über Jahre fortgesetzten Ansammeln anderer Sechser-Varianten entgegen." },
+      ]},
+      { typ: 7, titel: "Genussmittel, die die Leber über Jahre still belasten", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über Jahre über eine Vielzahl kulinarischer Annehmlichkeiten ab, oft verbunden mit regelmäßigem Alkohol- oder Zuckerkonsum als Mittel der Selbstberuhigung – dieser über lange Zeit fortgesetzte, direkte Griff zu leberbelastenden Genüssen liest die Psychosomatik als eines der unmittelbarsten Bilder für eine Fettleber." },
+        { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse über Jahre zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – diese chronische, stille Selbstüberforderung kann sich körperlich als eine überlastete Leber zeigen." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung über Jahre grenzenlos aus, oft verbunden mit reichhaltigem Essen und regelmäßigem Genussmittelkonsum – diese über lange Zeit fortgesetzte, stoffgebundene Intensität liest die Psychosomatik als einen der direkteren Wege zu einer überlasteten Leber." },
+      ]},
+      { typ: 8, titel: "Kontrolle, die über Jahre keine eigene Erschöpfung zulässt", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht duldet über Jahre keine Schwäche, auch nicht die eigene, und übergeht Erschöpfungssignale konsequent – diese über eine lange Lebensspanne fortgesetzte Weigerung, Nachsicht mit sich selbst zu haben, kann sich still, ohne Warnsignale, körperlich als Fetteinlagerung in der Leber zeigen." },
+        { code: "SO8", text: "Die soziale Acht übernimmt über Jahre Verantwortung für viele Menschen gleichzeitig und stellt die eigene Erschöpfung dabei stets hintan – diese chronische, stille Überlastung kann sich in der Leber ansammeln." },
+        { code: "SX8", text: "In extremen, aber episodischen Ausschlägen lebt die sexuelle Acht ihre Intensität in der Beziehung – diese punktuelle Dynamik unterscheidet sich vom stillen, über Jahre fortgesetzten Ansammlungsmuster anderer Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Selbstvergessenheit, die über Jahre die eigene Überlastung übersieht", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun flüchtet über Jahre in Komfort und Routine und nimmt die eigene, sich langsam aufbauende Überlastung oft kaum bewusst wahr – dieses Übersehen über eine lange Zeitspanne passt besonders genau zum Bild einer Fettleber, die sich über Jahre unbemerkt entwickeln konnte." },
+        { code: "SO9", text: "Die soziale Neun ordnet die eigene Stimme über Jahre so konsequent der Gruppenharmonie unter, dass auch die eigene Erschöpfung selten wirklich Beachtung findet – diese chronische Selbstauslöschung kann sich als eine über lange Zeit stille, unbemerkte Überlastung der Leber zeigen." },
+        { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass die eigene Wahrnehmung von Erschöpfung sich oft an der des Anderen orientiert statt an den eigenen Signalen – eine Fusion, die es über Jahre erschwert, die eigene, stille Überlastung überhaupt erst wahrzunehmen." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor einer Fettleber gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit stiller, über Jahre angesammelter Überlastung verhandelt – manche über schweigende Selbstkontrolle, andere über Rückzug, stoffgebundene Selbstberuhigung oder eine nie ernst genommene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -98429,7 +98488,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Fettleber", "Zöliakie", "Hämorrhoiden"],
+  "verdauung": ["Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
