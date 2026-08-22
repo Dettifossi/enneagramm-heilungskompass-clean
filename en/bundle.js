@@ -62480,6 +62480,285 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No subtype is immune to tendinitis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates repetition, tension, and recovery in its own way – some through repetitive overload, others through control, withdrawal, or a tension of their own that was never noticed. This is exactly where this Compass's Enneagram homeopathy begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptom picture can resolve holistically, instead of merely being suppressed on the surface.",
   },
+  asthma_bronchiale: {
+    titel: "Asthma",
+    kategorie: "atemwege",
+    icon: "&#127788;&#65039;",
+    kurz: "When breathing can no longer be taken freely, but has to be fought for.",
+    definition: "Asthma is a chronic inflammatory disease of the airways in which the bronchi react hypersensitively to a wide range of triggers – allergens, cold air, exertion, infections, or stress. During an acute attack the bronchi narrow through a combination of muscle spasm, swelling of the mucous membrane, and increased mucus production, which makes exhaling in particular much harder. A distinction is made between allergic (extrinsic) asthma, which usually begins in childhood and occurs alongside other atopic conditions such as eczema or hay fever, and non-allergic (intrinsic) asthma, which often first appears in adulthood. Between attacks, those affected can be symptom-free for long stretches – yet the underlying inflammatory readiness of the airways persists.",
+    symptome: [
+      "Attacks of shortness of breath, usually with labored, prolonged exhalation",
+      "Wheezing or whistling breath sounds, often audible from a distance",
+      "Tightness or pressure in the chest",
+      "Dry, often nocturnal cough, sometimes the only symptom (cough-variant asthma)",
+      "Worsening of symptoms with cold, exertion, allergens, infections, or strong smells",
+      "Anxiety and restlessness during an acute attack, often accompanied by an upright, forward-leaning posture",
+    ],
+    notfall: "In case of severe shortness of breath that does not improve despite emergency medication, bluish lips, inability to speak full sentences, or rapidly increasing exhaustion: call emergency services immediately. A severe asthma attack (status asthmaticus) is a life-threatening emergency – every minute counts here, and there is no room for psychosomatic interpretation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Hardly any bodily function is as directly bound to life itself as breathing – and hardly any symptom wears its psychosomatic reading as openly as the labored exhalation of asthma: air is still taken in, but letting go becomes difficult. Traditional Chinese Medicine assigns the lung to the Metal element and to grief – an organ that regulates not only oxygen but also connection to the world and separation from it, in constant exchange between outer and inner. When this exchange falls out of balance, for instance through withheld grief or chronically suppressed feelings, TCM holds that this can show up as tightness of breath. Psychosomatic medicine often reads asthma as an image of spaces, relationships, or expectations that have become so narrow that one's own breath – literally and figuratively – is no longer allowed to flow freely.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that holds its own breath",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One keeps not only her anger but her very breath under disciplined control – deep, free breathing feels to her almost like a loss of control she does not permit herself. Psychosomatic medicine reads this unconscious withholding of one's own breath, bound up with the constant inner tension of keeping her surroundings and herself correct, as an apt image for the tightness of asthma: a lung that is never allowed to fully open, because openness is experienced as a risk." },
+          { code: "SO1", text: "The social One fights for the right order of things with palpable inner tension, often never granting herself a genuine breather – this struggle without recovery can show up as breathing that rarely truly settles, but instead remains in a constant, tense state of readiness." },
+          { code: "SX1", text: "The sexual One brings her demand for improvement into the one relationship with great intensity – precisely in moments of escalation, when criticism and disappointment collide, this tension can show up as sudden, episodic breathlessness rather than as chronic, ongoing strain." },
+        ],
+      },
+      {
+        typ: 2, titel: "Pride that claims no space of its own",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two literally takes up little space for herself – she cares for others, steps back, makes herself small so that no one is crowded by her presence. This self-diminishment, lived out over years, can show up psychosomatically in a lung that is equally reluctant to fully expand and claim its own share of the air." },
+          { code: "SO2", text: "The social Two makes herself available to the whole community, often without ever demanding a pause to catch her own breath – this constant deferral of her own recovery can show up as breathing that rarely reaches its full, free depth." },
+          { code: "SX2", text: "In intense relationship phases, the sexual Two invests almost completely – this pointed, highly emotional tension tends to show up as acute, episodic shortness of breath rather than as an evenly distributed, chronic tightness." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that knows no breather",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps functioning efficiently even when her body has long been demanding a break – pausing to breathe deeply feels like lost time. This refusal, sustained over years, to grant herself recovery can show up as breathing that never truly reaches full depth, simply because no time is ever set aside for it." },
+          { code: "SO3", text: "In constant comparison with others, the social Three keeps up a pace that allows for hardly any real recovery phases – this permanent pressure to perform can show up physically as shallow breathing that is never truly freed and rarely settles." },
+          { code: "SX3", text: "To appear successful and desirable in the relationship, the sexual Three throws in her entire energy – this focused effort can lead to pointed episodes of breathlessness in especially charged relationship moments, rather than to chronically narrowed breathing." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that makes the breath catch",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently, without ever expressing it – this sustained withholding can show up physically as breathing that catches when the unspoken longing can no longer be fully suppressed." },
+          { code: "SO4", text: "The social Four makes her suffering visible and finds a certain expression in it – this outward expression can act as a kind of valve that at least partly counteracts the purely physical tightness of breath, even though the underlying longing itself remains." },
+          { code: "SX4", text: "With fierce swings between closeness and despair, the sexual Four lives uncompromising emotional intensity in the relationship – precisely these dramatic inner turns can show up as sudden, episodic breathlessness that arises in emotionally charged moments." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that keeps its own air scarce",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five systematically reduces her life to the essentials, including the very space she claims for herself – this consistent minimalism can show up physically as breathing that measures itself sparingly, as if she did not trust herself to take more of the air than absolutely necessary." },
+          { code: "SO5", text: "The social Five makes herself available to the group through her knowledge, while inwardly keeping her distance – this mixture of participation and withdrawal can show up as breathing that rarely becomes truly free and open, because genuine closeness, even to her own body, is avoided." },
+          { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, genuinely free breathing can well be possible – which counteracts the general tightness more typical of the other Five variants." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that keeps the breath on alert",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six meets the world with caution and an inner early-warning system that rarely truly switches off – this state of permanent alertness also keeps her breathing in constant tension, shallow and ready rather than deep and released." },
+          { code: "SO6", text: "The social Six seeks security through belonging to a group or an authority, carrying along an often unspoken worry for the collective's well-being – this diffuse, collective tension can show up physically as a chest that never quite lets go of its tightness." },
+          { code: "SX6", text: "The sexual Six meets fear counterphobically, through active confrontation rather than withdrawal – this more direct discharge tends to produce pointed, intense breathlessness in concrete moments of trial rather than an evenly distributed, chronic tightness." },
+        ],
+      },
+      {
+        typ: 7, titel: "Excess that scatters the breath",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures herself through a multitude of parallel options, jumping between possibilities without ever really arriving at one – this permanent scattering can show up physically as a flighty breathing that never reaches full depth and rarely truly settles." },
+          { code: "SO7", text: "The social Seven, the counter-type, consistently sets her own needs aside in favor of others, often to the point of her own exhaustion – this self-imposed overload can show up as breathing that hardly ever grants itself the necessary pause to catch its breath." },
+          { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly and impulsively, often paired with a heightened risk for smoking or other irritants that place additional strain on the airways – psychosomatic medicine reads this combination of restless intensity and substance-linked risk as one of the more direct pictures of an irritated, overburdened lung." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that allows no vulnerability in breathing",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight secures her own existence through firm control over material and physical resources – showing vulnerability, and that includes truly letting go while breathing, fundamentally contradicts her self-image. This permanent tension can show up physically as a tightness that never quite releases." },
+          { code: "SO8", text: "The social Eight takes control not for herself but for the group, often in a self-imposed protector role – this permanent leadership tension leaves little room for genuinely relaxed, deep breathing." },
+          { code: "SX8", text: "The sexual Eight lives total devotion and control in the one intimate bond, pure intensity, nothing halfway – these extreme emotional swings tend to show up as sudden, intense breathlessness in charged relationship moments rather than as an even, ongoing tension." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that overlooks its own breath",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine takes refuge in comfort, fixed routines, and the consistent avoidance of any conflict – her own breath, too, is rarely consciously noticed in the process; it simply runs in the background, without the person ever asking whether it is truly free and deep. This self-forgetting can show up psychosomatically as breathing that never really gives itself space." },
+          { code: "SO9", text: "The social Nine seeks harmony within the group at any cost and subordinates her own voice so consistently that, eventually, she barely knows what she herself actually needs – this chronic self-erasure can show up as breathing that never really makes itself heard." },
+          { code: "SX9", text: "The sexual Nine merges with her partner so completely that her own identity dissolves into the other – in its purest expression, this may be the clearest version of a breath that never quite found its own, independent rhythm, because it willingly adapted to that of the beloved." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to asthma, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates space, breath, and its own rhythm in its own way – some through permanent control, others through withdrawal, self-diminishment, or a tightness that goes unnoticed by themselves. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface.",
+  },
+  copd: {
+    titel: "COPD (Chronic Obstructive Pulmonary Disease)",
+    kategorie: "atemwege",
+    icon: "&#128168;",
+    kurz: "When decades of exhaling against resistance rebuild the lung piece by piece.",
+    definition: "COPD (Chronic Obstructive Pulmonary Disease) refers to a chronic, progressive narrowing of the airways, usually based on a combination of chronic bronchitis and a breakdown of lung tissue (emphysema). Unlike asthma, the narrowing in COPD is only partially reversible or not reversible at all – the lung itself changes structurally. In Western industrialized nations, the main cause in the vast majority of cases is long-term smoking, less often occupational exposure to pollutants or a genetic alpha-1 antitrypsin deficiency. COPD usually develops insidiously over decades, is often diagnosed only late, and progresses continuously without consistent treatment – above all, quitting smoking.",
+    symptome: [
+      "Chronic cough, often worse in the morning, with or without sputum (&bdquo;smoker's cough&ldquo;)",
+      "Increasing shortness of breath, at first only on exertion, in advanced stages also at rest",
+      "Wheezing or whistling breath sounds, prolonged exhalation",
+      "Reduced physical stamina that develops gradually over years",
+      "Frequent respiratory infections that resolve more slowly than in healthy people",
+      "In advanced stages: weight loss, bluish lips, barrel chest from an overinflated lung",
+    ],
+    notfall: "In case of suddenly, sharply worsening shortness of breath, bluish lips, confusion, or severe exhaustion: call emergency services immediately. An acute COPD exacerbation can be life-threatening – every minute counts here, and there is no room for psychosomatic interpretation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Where asthma shows itself in attacks and often resolves again between episodes, COPD is the picture of a condition that has slowly and permanently changed over decades – the lung itself rebuilds, adapting to a permanently limited state. Traditional Chinese Medicine often describes a related condition as chronic Lung Qi deficiency, intensified by the repeated intrusion of outer irritants (smoke, cold) into an already weakened system. Psychosomatic medicine often reads COPD as the picture of a life that has breathed against an inner resistance for a very long time without that resistance ever being changed – until the body has adapted so thoroughly to the restriction that it becomes a permanent condition.",
+    typen: [
+      {
+        typ: 1, titel: "Control that breathes against resistance for decades",
+        varianten: [
+          { code: "SE1", text: "For decades, the self-preservation One clings to the same strict routines and control patterns, even when her body has long been sending clear signs that adaptation is needed – this persistent holding onto old patterns, even against growing inner resistance, fits the picture of a lung that has spent years adapting to permanent tightness instead of changing it." },
+          { code: "SO1", text: "For decades, the social One fights tirelessly for the same moral cause, often without ever fundamentally reconsidering her own course – this effort, sustained over a very long time and never revised, can show up physically as a lung that has structurally adapted to a permanent inner resistance." },
+          { code: "SX1", text: "With varying intensity but ever-renewed demands, the sexual One brings her criticism into the relationship – this episodic tension, never constant over decades, differs from the chronic, structural pattern especially typical of COPD." },
+        ],
+      },
+      {
+        typ: 2, titel: "Giving that rebuilds one's own substance over decades",
+        varianten: [
+          { code: "SE2", text: "For decades, the self-preservation Two keeps giving without ever taking anything back, without this pattern ever changing – this giving, sustained over an entire lifespan and never revised, can show up physically as a lung that has structurally adapted to a permanent lack of her own recovery." },
+          { code: "SO2", text: "For decades, the social Two places herself unchangingly in the service of the community, without ever fundamentally questioning this pattern – this self-forgetting, sustained over a very long time, can show up as breathing that remains permanently restricted." },
+          { code: "SX2", text: "In changing but pointed relationship phases, the sexual Two invests herself intensely – this episodic effort, not constant over decades, differs from the chronic, structural pattern that characterizes COPD." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that allows no pause for decades",
+        varianten: [
+          { code: "SE3", text: "For decades, the self-preservation Three keeps functioning efficiently without ever fundamentally slowing her own pace – this refusal, sustained over an entire lifespan, to grant herself recovery can show up physically as a lung that has structurally adapted to permanent overload." },
+          { code: "SO3", text: "For decades, the social Three keeps up the same competitive mode without ever changing this pattern – this tension, sustained over a very long time and never revised, fits the picture of a structurally altered, permanently restricted breathing." },
+          { code: "SX3", text: "In individual, charged relationship moments, the sexual Three focuses her energy intensely – this pointed tension, not constant over decades, differs from the chronic, structural pattern typical of COPD." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that never resolves over decades",
+        varianten: [
+          { code: "SE4", text: "For decades, the self-preservation Four, the counter-type, carries the same unspoken longing with her, without this pattern ever changing – this inner burden, sustained over an entire lifespan and never resolved, can show up physically as a lung that has structurally adapted to a permanent inner pressure." },
+          { code: "SO4", text: "The social Four does make her suffering visible, yet if the underlying longing remains unchanged for decades, this recurring expression, too, can in the long run show up as breathing that has structurally adapted to the same underlying emotional tension." },
+          { code: "SX4", text: "In fierce but episodic swings between closeness and despair, the sexual Four lives her emotional intensity – this pointed dynamic, not constant over decades, differs from the chronic, structural pattern that characterizes COPD." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that hardens over decades",
+        varianten: [
+          { code: "SE5", text: "For decades, the self-preservation Five reduces her life to the same minimum, without ever expanding this pattern – this withdrawal, sustained over an entire lifespan and never revised, can show up physically as a lung that has structurally adapted to a permanently restricted radius." },
+          { code: "SO5", text: "For decades, the social Five maintains the same mix of intellectual participation and inner distance, without ever changing this pattern – this stance, sustained over a very long time, fits the picture of a structurally altered, permanently restricted breathing." },
+          { code: "SX5", text: "Within the narrow but, over decades, carefully tended bond that the sexual Five maintains, genuinely lively exchange can well take place – which counteracts the full structural rigidity seen in other Five variants." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that keeps the breath tight for decades",
+        varianten: [
+          { code: "SE6", text: "For decades, the self-preservation Six meets the world with the same pattern of caution and inner alertness, without this ever changing – this permanent tension, sustained over an entire lifespan, can show up physically as a lung that has structurally adapted to a permanent state of alarm." },
+          { code: "SO6", text: "For decades, the social Six carries the same collective worry for the well-being of her group, without this pattern ever changing – this tension, sustained over a very long time and never relieved, fits the picture of a structurally altered breathing." },
+          { code: "SX6", text: "Through active, pointed confrontation, the sexual Six meets fear counterphobically – this episodic discharge, not constant over decades, differs from the chronic, structural pattern typical of COPD." },
+        ],
+      },
+      {
+        typ: 7, titel: "Excess that irritates the lung for decades",
+        varianten: [
+          { code: "SE7", text: "For decades, the self-preservation Seven secures herself through the same patterns of options and indulgences, often paired with long-term smoking as a means of self-soothing – psychosomatic medicine reads this substance-linked way of handling inner restlessness, sustained over an entire lifespan, as one of the more direct pictures of COPD: a lung that has structurally adapted over decades to repeated outer irritation." },
+          { code: "SO7", text: "For decades, the social Seven, the counter-type, sets the same needs of her own aside in favor of others, without ever changing this pattern – this self-imposed overload, sustained over a very long time, can show up physically as a structurally altered breathing." },
+          { code: "SX7", text: "In impulsive but changing phases, the sexual Seven lives out enthusiasm boundlessly – this variable intensity, not remaining in exactly the same pattern for decades, differs from the chronic, structural constancy that characterizes COPD, even though risk behaviors like smoking can also play a role." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that allows no weakness for decades",
+        varianten: [
+          { code: "SE8", text: "For decades, the self-preservation Eight secures her existence through the same firm control, without ever questioning this pattern – this refusal, sustained over an entire lifespan, to admit weakness can show up physically as a lung that has structurally adapted to permanent inner pressure." },
+          { code: "SO8", text: "For decades, the social Eight takes on the same protector role for her group, without ever changing this pattern – this leadership tension, sustained over a very long time, fits the picture of a structurally altered, permanently restricted breathing." },
+          { code: "SX8", text: "In extreme but episodic swings between control and devotion, the sexual Eight lives her intensity – this pointed dynamic, not constant over decades, differs from the chronic, structural pattern typical of COPD." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that inscribes itself into the body over decades",
+        varianten: [
+          { code: "SE9", text: "For decades, the self-preservation Nine takes refuge in the same comfortable routine, without ever questioning this pattern – this self-forgetting, sustained over an entire lifespan, is psychosomatically one of the most direct pictures of COPD: a lung that has structurally adapted over decades to a state that was never noticed and never changed." },
+          { code: "SO9", text: "For decades, the social Nine subordinates her own voice to the same group harmony, without ever changing this pattern – this self-erasure, sustained over a very long time, fits the picture of a structurally altered, permanently restricted breathing." },
+          { code: "SX9", text: "For decades, the sexual Nine merges with the same partner, taking on his or her rhythm as her own – if this merging persists over an entire lifespan, the missing independent breath of her own can likewise show up as a structurally permanent restriction." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to COPD, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates patterns sustained over decades and rarely questioned in its own way – some through rigid control, others through withdrawal, quiet giving, or an unnoticed adaptation to permanent pressure. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface.",
+  },
+  chronische_bronchitis: {
+    titel: "Chronic Bronchitis",
+    kategorie: "atemwege",
+    icon: "&#129444;",
+    kurz: "When constant coughing becomes the only permitted way of making room for air.",
+    definition: "Chronic bronchitis is diagnosed when a productive cough with sputum is present on most days for at least three months in two consecutive years. The cause is persistent irritation of the bronchial mucous membrane, in the vast majority of cases through cigarette smoke, less often through air pollutants or repeated respiratory infections. The mucous membrane responds with increased mucus production and chronic inflammation, which can narrow the airways over the long term. Chronic bronchitis is considered a precursor to or component of COPD, but it can also persist independently for years without a relevant impairment of lung function yet being present.",
+    symptome: [
+      "Persistent cough with sputum, on most days over months",
+      "Cough worse in the morning, often right after getting up",
+      "Thick, whitish to yellowish-green sputum, worse during infections",
+      "Mild to moderate shortness of breath on exertion",
+      "Recurring respiratory infections that resolve more slowly than in healthy people",
+      "Occasional wheezing breath sound, especially with additional narrowing of the bronchi",
+    ],
+    notfall: "Chronic bronchitis itself is not an acute emergency. In case of suddenly, sharply worsening shortness of breath, high fever, bloody sputum, or severe exhaustion: seek medical help promptly to rule out pneumonia or an acute worsening.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The cough of chronic bronchitis has something oddly persistent about it: it does not arrive as a single event but as a faithful companion that reports back day after day, often precisely when the body has only just settled. Traditional Chinese Medicine often attributes excessive mucus production to a weakness of the Spleen and Lung – the Spleen is considered the &bdquo;source of phlegm&ldquo;, the Lung the organ that &bdquo;stores&ldquo; it and must ultimately release it again. Psychosomatic medicine often reads constant coughing as the picture of a repeated attempt to make room for air and expression – a recurring, almost ritual clearing of the throat that steps in where a more direct way of making oneself heard is apparently unavailable.",
+    typen: [
+      {
+        typ: 1, titel: "Anger that breaks through in constant coughing",
+        varianten: [
+          { code: "SE1", text: "The self-preservation One consistently holds back anger and criticism, never releasing them in words – instead, a different, physical channel opens up: a dry, ever-recurring throat-clearing or cough that arises exactly when inner tension is otherwise not allowed to discharge. Psychosomatic medicine reads this substitute valve as an apt image for chronic bronchitis." },
+          { code: "SO1", text: "When the social One cannot or will not voice her moral outrage over injustice directly, this withheld energy can show up as a constant, almost reflexive cough – a physical comment that steps in where words are missing or suppressed." },
+          { code: "SX1", text: "Since the sexual One expresses her anger more directly in words within the relationship, this substitute physical valve appears less often – the tension tends to discharge immediately rather than through a constant, chronic cough." },
+        ],
+      },
+      {
+        typ: 2, titel: "A swallowed need that shows up as coughing",
+        varianten: [
+          { code: "SE2", text: "The self-preservation Two literally swallows her own needs and disappointments, never voicing them – this constant swallowing can show up physically as an irritation in the throat and bronchi that keeps breaking through as coughing, because what actually needs to be said never finds its way out." },
+          { code: "SO2", text: "The social Two rarely displays her disappointment over a lack of recognition openly – this constant swallowing of genuine feelings can show up as a chronic irritant cough that reports in exactly where an open conversation should have taken place." },
+          { code: "SX2", text: "In intense relationship phases, the sexual Two does express her needs more directly – this more immediate expression counters the constant, substitute coughing more typical of more thoroughly swallowed feelings." },
+        ],
+      },
+      {
+        typ: 3, titel: "Achievement that leaves no time for a clarifying expression",
+        varianten: [
+          { code: "SE3", text: "The self-preservation Three keeps functioning efficiently even when irritation or exhaustion is already palpable – a brief cough here and there goes barely noticed, let alone taken seriously as a signal. This casual overriding of a constantly recurring cough fits the picture of chronic bronchitis that was able to develop over years unnoticed." },
+          { code: "SO3", text: "In constant comparison with others, the social Three has little room left to truly attend to a recurring cough – this overriding of physical signals in favor of outward achievement can, over the long term, show up as chronic irritation of the airways." },
+          { code: "SX3", text: "To appear flawless in the relationship, the sexual Three would rather suppress or mask a disruptive cough – this desire for control over her outward image tends to counteract the open, constant coughing seen in other Three variants." },
+        ],
+      },
+      {
+        typ: 4, titel: "Longing that shows up as a lingering irritation",
+        varianten: [
+          { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently, without ever expressing it – this sustained withholding can show up physically as a lingering irritation in the airways that reports in as coughing where words are missing." },
+          { code: "SO4", text: "The social Four makes her suffering visible and finds a verbal expression in it – this outward expression can act as a valve that at least partly counteracts the purely physical coughing, even though the underlying longing itself remains." },
+          { code: "SX4", text: "With fierce but openly lived swings between closeness and despair, the sexual Four's emotional intensity tends to discharge directly within the relationship rather than through a substitute, chronic cough." },
+        ],
+      },
+      {
+        typ: 5, titel: "Withdrawal that keeps its own irritation to itself",
+        varianten: [
+          { code: "SE5", text: "The self-preservation Five consistently keeps even physical complaints to herself, rarely seeking medical advice as long as it is at all possible – this quiet enduring of a lingering cough, without ever seriously treating it, fits the picture of chronic bronchitis that was able to settle in over years untreated." },
+          { code: "SO5", text: "The social Five keeps emotional closeness at a distance behind intellectual detachment – a recurring cough, too, can thus be registered as an abstract fact rather than taken seriously as a genuine physical signal." },
+          { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, physical complaints can well be discussed openly – which counteracts the quiet suppression seen in other Five variants." },
+        ],
+      },
+      {
+        typ: 6, titel: "Fear that shows up as a nervous cough",
+        varianten: [
+          { code: "SE6", text: "The self-preservation Six lives in constant caution and inner tension – this permanent state can show up physically as a nervous, ever-recurring throat-clearing or cough that reports in especially in moments of heightened tension." },
+          { code: "SO6", text: "The social Six carries an often unspoken worry for the well-being of her group – this diffuse tension, never fully relieved, can show up as a chronic irritation of the airways." },
+          { code: "SX6", text: "Through active confrontation, the sexual Six discharges fear more directly rather than processing it through a substitute cough – this more immediate reaction counters the chronic, nervous cough seen in other Six variants." },
+        ],
+      },
+      {
+        typ: 7, titel: "Indulgences that irritate the airways directly",
+        varianten: [
+          { code: "SE7", text: "The self-preservation Seven secures herself through options and indulgences, often paired with smoking as a means of self-soothing – psychosomatic medicine reads this direct reach for irritants as one of the most immediate pictures of chronic bronchitis: a mucous membrane that has grown accustomed to repeated outer irritation." },
+          { code: "SO7", text: "The social Seven, the counter-type, sets her own needs aside in favor of others, often to the point of her own exhaustion – a recurring cough can easily be overlooked in the process, because attention consistently lies with the needs of others." },
+          { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly, often paired with intense indulgence in stimulants – psychosomatic medicine reads this impulsive intensity as one of the more direct paths to an irritated, chronically inflamed bronchial mucous membrane." },
+        ],
+      },
+      {
+        typ: 8, titel: "Control that dismisses coughing as weakness",
+        varianten: [
+          { code: "SE8", text: "The self-preservation Eight consistently overrides physical warning signs, because admitting weakness contradicts her self-image – a lingering cough is simply ignored until it has settled in as a chronic pattern." },
+          { code: "SO8", text: "The social Eight takes on responsibility for many people at once and often puts her own health last in the process – a recurring cough remains unattended until it has structurally settled in." },
+          { code: "SX8", text: "In extreme but episodic swings, the sexual Eight lives her intensity within the relationship – this pointed dynamic differs from the chronic, structural coughing pattern more typical of permanently overridden warning signs." },
+        ],
+      },
+      {
+        typ: 9, titel: "Self-forgetting that overrides its own cough",
+        varianten: [
+          { code: "SE9", text: "The self-preservation Nine takes refuge in comfort and routine and often barely consciously registers her own cough – this overlooking of a constantly recurring physical signal fits especially closely with the picture of chronic bronchitis that was able to develop over years unnoticed." },
+          { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony that even her own cough rarely finds real attention – this chronic self-effacement can show up as a signal that is never taken seriously yet keeps recurring." },
+          { code: "SX9", text: "The sexual Nine merges with her partner and often adopts his or her perception of her own health as the standard – if the partner does not notice the cough, the Nine often does not notice it either, because her own bodily awareness recedes behind the merging." },
+        ],
+      },
+    ],
+    abschluss: "No subtype is immune to chronic bronchitis, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates withheld expression, overridden signals, and its own voice in its own way – some through swallowed anger, others through withdrawal, substance-linked self-soothing, or a warning of their own that is never taken seriously. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface.",
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -62489,7 +62768,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Asthma", "COPD", "Chronic Bronchitis", "Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
+  "atemwege": ["Hay Fever (Allergic Rhinitis)", "Chronic Sinusitis", "Sleep Apnea", "Pneumonia", "Hyperventilation Syndrome", "Chronic Tonsillitis", "Chronic Cough"],
   "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
