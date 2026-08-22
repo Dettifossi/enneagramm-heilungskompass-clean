@@ -64529,6 +64529,596 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No hair is immune to gradual loss, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with slow, years-long substance loss in its own way – some through control, others through withdrawal, ongoing expression, or a long-overridden exhaustion of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
+  diabetes_typ_2: {
+    titel: "Type 2 Diabetes",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🍬",
+    kurz: "The body's cells stop responding to their own insulin – a signal that is given but no longer received.",
+    definition: "In type 2 diabetes, the body's cells increasingly lose their sensitivity to insulin, the hormone that normally moves sugar from the blood into the cells (insulin resistance). The pancreas initially compensates by producing more insulin, but exhausts itself increasingly over time. Blood sugar stays persistently elevated, which over time can damage blood vessels, nerves, eyes, and kidneys. Unlike type 1, type 2 usually develops gradually over years, favored by overweight, lack of exercise, genetic predisposition, and chronic stress. Many of those affected do not notice the condition for a long time, since the symptoms are often nonspecific or entirely absent at the start – blood sugar rises quietly, before the body truly sounds the alarm.",
+    symptome: ["Intense thirst and frequent urination", "Persistent tiredness and lack of drive", "Poorly healing wounds", "Blurred vision", "Frequent infections, especially urinary tract and fungal infections", "Tingling or numbness in hands and feet in advanced cases"],
+    notfall: "In case of extremely high blood sugar with clouded consciousness, intense thirst, nausea, and accelerated breathing (possible diabetic ketoacidosis or hyperosmolar coma), call emergency services immediately.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Type 2 diabetes tells a particular story: the body sends a signal – insulin – but the cells increasingly stop responding to it. Something is offered but is no longer truly received. In TCM, this group of conditions is traditionally described as &bdquo;Xiaoke&ldquo; (wasting-thirst syndrome), linked to an exhaustion of the Spleen and Kidney Yin – a system that has had to process too much over the years without regenerating sufficiently. Psychosomatic medicine often finds a picture of sweetness in type 2 diabetes that, while abundantly available, is no longer inwardly received – be it affection, recognition, or joy that is offered but no longer truly gets through, because too many other issues stand in the way. For each of the 27 subtypes, its own pattern shows which signal is given here but no longer received.",
+    typen: [
+      { typ: 1, titel: "A strictness that allows no sweetness", varianten: [
+        { code: "SE1", text: "The self-preservation One permits herself indulgence and leniency only in strictly controlled doses, even small pleasures being disciplined into calculation and justification. This permanent inner rationing can show up metabolically as declining insulin sensitivity." },
+        { code: "SO1", text: "The social One consistently puts her own reward behind the demand to act morally correctly. This years-long self-denial can show up as a gradually rising blood sugar level that she herself takes least seriously." },
+        { code: "SX1", text: "The sexual One lives out her joy and her anger immediately, rather than rationing them with discipline. This more direct access to her own needs differs from the strict self-control of other One variants." },
+      ]},
+      { typ: 2, titel: "A sweetness that never reaches herself", varianten: [
+        { code: "SE2", text: "The self-preservation Two passes affection on to others unreservedly, hardly anything remaining for herself. This chronic self-undersupply can show up metabolically as declining response to her own insulin." },
+        { code: "SO2", text: "Recognition for her commitment often reaches the social Two in abundance, yet she rarely truly receives it inwardly, because her worth is defined for her through constant giving. This inability to receive can show up as gradually elevated blood sugar." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two does receive affection for herself, rather than only passing it on. This ability to receive can counteract the general self-undersupply of other Two variants." },
+      ]},
+      { typ: 3, titel: "A success that never inwardly satisfies", varianten: [
+        { code: "SE3", text: "The self-preservation Three rushes from one task to the next, never taking the time to truly enjoy a success. This permanent onward chase, in which nothing inwardly arrives, can show up metabolically as declining insulin effect." },
+        { code: "SO3", text: "The social Three collects public recognition in abundance, yet rarely lets it truly reach her, because the next success is already waiting. This never-truly-arriving can show up as gradually rising blood sugar." },
+        { code: "SX3", text: "From the one important person, the sexual Three does let recognition truly touch her, rather than moving on immediately. This deeper receiving differs from the restless onward chase of other Three variants." },
+      ]},
+      { typ: 4, titel: "A longing that cannot be stilled", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries her deep longing for fulfillment stubbornly and silently, without ever truly stilling it. This chronic unstilled state can show up metabolically as declining response to her own insulin." },
+        { code: "SO4", text: "The social Four speaks her longing openly, rather than concealing it – even though this alone does not still it. This expression can at least partly counteract the underlying emptiness, even though the metabolism itself remains unaffected." },
+        { code: "SX4", text: "With great intensity, the sexual Four seeks fulfillment in direct contact with the desired person. This active, immediate access differs from the quiet, chronic unstilled state of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A withdrawal that keeps nourishment at bay", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently reduces her needs to the essentials, emotional nourishment too being hardly ever consciously received. This general self-denial can show up metabolically as declining insulin sensitivity." },
+        { code: "SO5", text: "The social Five readily takes in and passes on knowledge, while keeping emotional closeness at a safe distance. This selective receptiveness can show up as gradually rising blood sugar." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five does consciously receive closeness and affection, rather than keeping them at bay – unlike the general reserve of other Five variants." },
+      ]},
+      { typ: 6, titel: "A tension that allows no rest", varianten: [
+        { code: "SE6", text: "Constant watchfulness shapes the self-preservation Six's daily life, her nervous system rarely finding real rest. This permanent stress is among the best-known co-drivers of a developing insulin resistance." },
+        { code: "SO6", text: "The social Six usually puts her own worry behind the worry for her group, without finding genuine inner relief. This unresolved stress can show up as gradually rising blood sugar." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with immediate confrontation rather than silent permanent tension. This outward-directed discharge can lower the inner stress load that tends to stay chronic in other Six variants." },
+      ]},
+      { typ: 7, titel: "A pleasure that never truly satisfies", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant indulgence to the next, without truly lingering with any single one. This constant search for new sweetness, none of which truly satisfies, can show up metabolically as declining insulin effect." },
+        { code: "SO7", text: "The social Seven, the counter-type, overrides her own needs in favor of the group again and again, to the point of her own exhaustion. This chronic overriding can show up as gradually rising blood sugar." },
+        { code: "SX7", text: "With full, unbridled enthusiasm, the sexual Seven truly engages with intense experiences, rather than constantly jumping onward. This deeper lingering differs from the restless pleasure-hopping of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A control that displaces pleasure", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims control over her body and her resources with great consistency, real pleasure often falling by the wayside. This permanent tension can show up metabolically as declining insulin sensitivity." },
+        { code: "SO8", text: "Strength and control in service of her group are something the social Eight demonstrates continuously, her own needs receding in the process. This permanent leadership tension can show up as gradually rising blood sugar." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight does engage with real pleasure. There she finds relief, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A signal that never truly arrives", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that inner bodily signals are barely consciously registered. Gradually rising blood sugar can thus stay unnoticed for years, until the body sounds a clearer alarm." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own needs to group harmony, her own sense of satiety receding from view along with it. This chronic self-erasure can show up as gradually rising blood sugar." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of her own health from her partner, once she merges with him. If he eats carelessly, the Nine often eats along just as carelessly, because her own bodily awareness recedes behind the merging." },
+      ]},
+    ],
+    abschluss: "No cells are immune to insulin resistance, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with offered but unreceived sweetness in its own way – some through control, others through withdrawal, restless searching, or a chronically overridden need of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  hypothyreose: {
+    titel: "Hypothyroidism",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🐢",
+    kurz: "The thyroid, pacemaker of the metabolism sitting directly at the throat, throttles itself – and with it, seemingly, the entire inner pace of a life.",
+    definition: "In hypothyroidism, the thyroid produces too little of the hormones T3 and T4, which regulate the baseline metabolic rate of nearly every cell in the body. The most common cause in developed countries is Hashimoto's thyroiditis, an autoimmune condition in which the body's own immune system attacks the thyroid itself; less commonly, congenital malfunctions, iodine deficiency, or surgical removal of the thyroid are the cause. Because thyroid hormones influence practically every metabolic process, the entire organism visibly slows down in an underactive state: heartbeat, digestion, thinking, mood, and energy all shift into a kind of slow motion together. The course is usually gradual, which is why the condition is often only recognized after months or years – many of the early signs are initially misread as ordinary exhaustion or simply as getting older.",
+    symptome: ["Persistent tiredness and lack of drive", "Unwanted weight gain despite unchanged diet", "Sensitivity to cold and constantly cold hands and feet", "Dry skin, brittle nails, increased hair loss", "Constipation and slowed digestion", "Low mood, slowed thinking, difficulty concentrating"],
+    notfall: "In case of extreme cold sensitivity, marked slowing, confusion, and low body temperature (possible myxedema coma, a rare, life-threatening extreme form), call emergency services immediately.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "The thyroid sits directly at the throat, exactly where one's own voice originates and the breath finds its way outward – it is no coincidence that psychosomatic readings have long linked this organ to one's own expression. In TCM, a sluggish, cold-sensitive constitution is frequently associated with a weakness of Kidney Yang and Spleen Yang – an inner fire burning too weakly to sufficiently warm the body and keep it in motion. Psychosomatic medicine often reads hypothyroidism as the picture of a throttled inner pace: as if part of one's own vitality, one's own expression, or one's own drive had, over time, drawn back, braked, or been allowed to fall silent. For each of the 27 subtypes, its own pattern shows which inner drive is throttled here.",
+    typen: [
+      { typ: 1, titel: "A voice that reins itself in", varianten: [
+        { code: "SE1", text: "The self-preservation One continually reins in her spontaneous impulses in favor of discipline and control, real vitality rarely allowed to run free. This permanent self-braking can show up metabolically as a slowed thyroid function." },
+        { code: "SO1", text: "The social One often holds back her actual opinion of others' misbehavior, to protect her own composure. This years-long reining in of her own voice can show up as gradually declining energy and lack of drive." },
+        { code: "SX1", text: "The sexual One usually speaks her opinion immediately, rather than holding it back. This more direct access to her own expression differs from the permanent self-restraint of other One variants." },
+      ]},
+      { typ: 2, titel: "A drive that reins itself in", varianten: [
+        { code: "SE2", text: "The self-preservation Two consistently reins in her own needs in order to be there for others. This chronic self-reining-in can show up metabolically as throttled thyroid function." },
+        { code: "SO2", text: "The social Two overrides her own exhaustion again and again in favor of her commitment to the group, until her own resources grow noticeably scarce. This years-long outflow of substance can show up as gradually creeping lack of drive." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two does demand affection for herself, rather than only reining herself in. This more active claiming can counteract the chronic outflow of substance of other Two variants." },
+      ]},
+      { typ: 3, titel: "A pace that suddenly runs dry", varianten: [
+        { code: "SE3", text: "The self-preservation Three sustains her pace for years without real pauses, until the body eventually pulls the brake itself. This sudden collapse after prolonged overexertion can show up as hypothyroidism." },
+        { code: "SO3", text: "The social Three sustains her flawless, dynamic public image for years, until the exhaustion behind it can no longer be hidden. Noticeably declining energy hits her particularly hard, because it contradicts her self-image." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three allows exhaustion to show more readily, rather than overplaying it for a lifetime. This earlier admission differs from the pace other Three variants sustain for years." },
+      ]},
+      { typ: 4, titel: "An expression that falls silent", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, seals her deep inner pain silently away inside herself, without ever giving it a voice. This long silence can show up metabolically as throttled thyroid function." },
+        { code: "SO4", text: "The social Four usually speaks her pain openly, rather than concealing it. This ongoing expression can counteract the silence more typical of other Four variants." },
+        { code: "SX4", text: "With great intensity, the sexual Four lives out her emotional swings openly, rather than sealing them away. This dramatic, audible expression stands clearly against the silence of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "An expression that would rather not arise at all", varianten: [
+        { code: "SE5", text: "The self-preservation Five often prefers to keep her thoughts to herself, rather than voicing them and thereby becoming vulnerable. This general holding-back of her own expression can show up metabolically as throttled thyroid function." },
+        { code: "SO5", text: "The social Five readily shares her knowledge, while keeping her own emotional voice at a safe distance. This selective restraint can show up as gradually declining thyroid function." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five does speak openly about herself, rather than holding back in general – unlike the general reserve of other Five variants." },
+      ]},
+      { typ: 6, titel: "A worry that never gets voiced", varianten: [
+        { code: "SE6", text: "Constant watchfulness shapes the self-preservation Six's daily life, this worry rarely being voiced. This constant, silent alarming can show up metabolically as throttled thyroid function." },
+        { code: "SO6", text: "The social Six carries her worry for her group's well-being often unspoken, to avoid alarming anyone. This years-long unspoken worry can show up as gradually declining thyroid function." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with direct, audible confrontation rather than silent worry. This outward-directed discharge differs from the unspoken alarm of other Six variants." },
+      ]},
+      { typ: 7, titel: "A discomfort that gets drowned out", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant distraction to the next as soon as an unpleasant feeling arises, rather than voicing it. This constant drowning-out of her own discomfort can show up metabolically as throttled thyroid function." },
+        { code: "SO7", text: "The social Seven, the counter-type, rarely voices her own limits, as long as the group still needs her. This chronic concealment can show up as gradually declining thyroid function." },
+        { code: "SX7", text: "With full enthusiasm, the sexual Seven does speak about her own discomfort too, rather than drowning it out. This voicing differs from the permanent distraction of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A vulnerability that stays unspoken", varianten: [
+        { code: "SE8", text: "The self-preservation Eight rarely voices weakness, her control over body and resources meant to stay unchallenged. This permanent refusal of her own vulnerability can show up metabolically as throttled thyroid function." },
+        { code: "SO8", text: "The social Eight rarely voices her own exhaustion, in service of her self-imposed protector role. This years-long concealment can show up as gradually declining thyroid function." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight does voice vulnerability openly. There she finds real relief, unlike the general silence of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A voice that never comes first", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that her own voice is barely consciously perceived. A gradual attack on her own thyroid can thus stay unnoticed for years." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own voice to group harmony, the instant a conflict looms on the horizon. This chronic self-erasure can show up as gradually declining thyroid function." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of her own health from her partner, once she merges with him. If the partner does not notice her warning signs, the Nine often overlooks her own voice just as long." },
+      ]},
+    ],
+    abschluss: "No thyroid is immune to underactivity, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with a throttled inner pace in its own way – some through control, others through withdrawal, sudden collapse, or a chronically overridden exhaustion of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  morbus_basedow: {
+    titel: "Hyperthyroidism (Graves' Disease)",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🔥",
+    kurz: "An inner fire that can no longer be throttled – the engine runs hot while the body watches its own reserves burn.",
+    definition: "Graves' disease is the most common cause of hyperthyroidism and an autoimmune condition: the body's own immune system forms antibodies that drive the thyroid into permanent overproduction of the hormones T3 and T4. These hormones accelerate practically every metabolic process – the body enters a state of constant inner high performance that, over time, exhausts rather than energizes. Characteristic in some of those affected is additional involvement of the eyes (thyroid eye disease), in which the tissue behind the eyes swells and pushes the eyes forward – a gaze that literally appears to widen further, often paired with heightened alertness and inner restlessness. Unlike hypothyroidism, where everything slows down, here everything races – heartbeat, thoughts, metabolism – until the body can no longer sustain this state.",
+    symptome: ["Racing heart and palpitations, even at rest", "Unwanted weight loss despite normal or increased appetite", "Inner restlessness, nervousness, irritability", "Heat intolerance and excessive sweating", "Trembling hands", "Protruding eyes, eyelid swelling (with thyroid eye disease)", "Sleep disturbances despite physical exhaustion"],
+    notfall: "In case of extremely high pulse, high fever, severe restlessness up to confusion (possible thyroid storm, a rare, life-threatening extreme form), call emergency services immediately.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Where hypothyroidism tells of a throttled inner pace, Graves' disease tells the exact opposite: of an engine that can no longer switch off, even though its reserves are already running low. In TCM, this picture is frequently linked to rising Liver Yang or inner heat – an energy that can no longer calm itself and puts the entire organism on alert. Psychosomatic medicine often reads Graves' disease as the picture of an inner tension that finds no outlet other than constant acceleration – a watchfulness that literally widens the eyes, because it never comes to rest anywhere. For each of the 27 subtypes, its own pattern shows what inner tension builds here into an unstoppable pace.",
+    typen: [
+      { typ: 1, titel: "A tension that never switches off", varianten: [
+        { code: "SE1", text: "The self-preservation One drives her own discipline forward without a real pause, laxity not allowed to show anywhere. This permanent inner drive with no outlet can show up metabolically as an accelerated thyroid function." },
+        { code: "SO1", text: "The social One watches unceasingly over the correctness of things, never giving her own inner restlessness room. This constant, unspoken alertness can show up as hyperthyroidism." },
+        { code: "SX1", text: "The sexual One's tension discharges episodically and intensely, rather than building into a permanent state. This pointed discharge differs from the permanent inner drive of other One variants." },
+      ]},
+      { typ: 2, titel: "A restlessness that knows no pause", varianten: [
+        { code: "SE2", text: "Without pausing, the self-preservation Two continuously provides for others, rarely allowing herself real rest. This constant being-on-the-go can show up metabolically as an accelerated thyroid function." },
+        { code: "SO2", text: "Staying indispensable drives the social Two on continuously, her nervous system rarely finding real relaxation. This ongoing inner drive can show up as hyperthyroidism." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two does allow herself rest phases, rather than continuously exhausting herself. This conscious recovery can counteract the permanent drive of other Two variants." },
+      ]},
+      { typ: 3, titel: "A pace that knows no brake", varianten: [
+        { code: "SE3", text: "The self-preservation Three rushes from one task to the next without real breathing room. This constantly revved-up pace can show up metabolically as an accelerated thyroid function that no longer brakes itself." },
+        { code: "SO3", text: "The social Three sustains her success pace without real interruption, standstill feeling threatening to her. This permanent high performance can show up as hyperthyroidism." },
+        { code: "SX3", text: "In the one important relationship, the sexual Three does allow herself to slow down, rather than constantly keeping up the pace. This conscious throttling differs from the restless pace of other Three variants." },
+      ]},
+      { typ: 4, titel: "An intensity that does not calm down", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, keeps her inner intensity under permanent tension without expression, never giving it an outlet. This permanent inner pull can show up metabolically as an accelerated thyroid function." },
+        { code: "SO4", text: "The social Four speaks her inner turmoil openly, rather than keeping it under tension. This expression can counteract the permanent inner high tension more typical of other Four variants." },
+        { code: "SX4", text: "With full force, the sexual Four lives out her emotional arousal in direct contact. This open, pointed expression stands against the permanent, unexpressed inner high tension of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "An alertness behind outward calm", varianten: [
+        { code: "SE5", text: "Outwardly the self-preservation Five mostly appears composed, while inwardly her nervous system often stays in quiet alertness toward the world. This hidden permanent tension can show up metabolically as an accelerated thyroid function." },
+        { code: "SO5", text: "The social Five appears factual and composed in discussions, while an ongoing watchfulness runs along inwardly. This inner contradiction can show up as hyperthyroidism." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five can shed her alertness and truly relax – unlike the general inner watchfulness of other Five variants." },
+      ]},
+      { typ: 6, titel: "An alarm system that never switches off", varianten: [
+        { code: "SE6", text: "Watchfulness toward possible dangers accompanies the self-preservation Six through every day, her nervous system staying permanently on standby. This state is virtually the textbook picture for an escalating hyperthyroidism." },
+        { code: "SO6", text: "Her worry for the group's well-being keeps the social Six occupied inwardly on an ongoing basis, even when no acute threat is present. This diffuse, collectively carried tension can show up as an accelerated thyroid function." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with demonstrative fearlessness rather than permanent inner alertness. This outward-directed compensation can lower the permanent inner tension that tends to stay chronic in other Six variants." },
+      ]},
+      { typ: 7, titel: "A restlessness that heats the body", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant activity to the next, her body staying in constant arousal and motion. This permanent busyness without real rest phases can show up metabolically as an accelerated thyroid function." },
+        { code: "SO7", text: "The social Seven, the counter-type, overrides her own limits in favor of the group again and again, her system staying permanently overdriven. This chronic overriding can show up as hyperthyroidism." },
+        { code: "SX7", text: "With full but pointed intensity, the sexual Seven engages with individual intense experiences, rather than staying in permanent arousal. This pausing between experiences differs from the permanent busyness of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A strength that overheats itself", varianten: [
+        { code: "SE8", text: "Asserting control over her body and environment with constant watchfulness costs the self-preservation Eight ongoing energy with no real throttling. This permanent inner high tension can show up metabolically as an accelerated thyroid function." },
+        { code: "SO8", text: "Demonstrating strength outward is part of the social Eight's self-imposed protector role, pausing rarely occurring within it. This permanent leadership tension can show up as hyperthyroidism." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight can actually release her tension and come to rest. There she finds real relief, unlike the general permanent tension of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A tension that rarely arrives consciously", varianten: [
+        { code: "SE9", text: "Inner tension barely reaches the self-preservation Nine's awareness, so completely does she lose herself in routine and comfort. Racing heart and inner restlessness can thus become the only visible sign of an unnoticed hyperthyroidism." },
+        { code: "SO9", text: "The instant a conflict looms on the horizon, the social Nine consistently subordinates her own tension to group harmony. This chronic self-erasure can show up as an accelerated but long-overlooked thyroid function." },
+        { code: "SX9", text: "How tense or calm her partner appears often becomes the real yardstick for the sexual Nine, once she merges with him. If the partner does not notice her own restlessness, the Nine frequently overlooks her own inner alertness too." },
+      ]},
+    ],
+    abschluss: "No thyroid is immune to overactivity, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with inner alertness and acceleration in its own way – some through control, others through withdrawal, pointed discharge, or a chronically overridden tension of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  hashimoto: {
+    titel: "Hashimoto's Thyroiditis",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🗡️",
+    kurz: "The immune system attacks, of all things, the organ closest to one's own voice and expression.",
+    definition: "Hashimoto's thyroiditis is an autoimmune condition and, in developed countries, the most common cause of hypothyroidism. The body's own immune system forms antibodies (including against thyroid peroxidase, TPO) that gradually inflame and eventually destroy thyroid tissue over years. The course is typically wave-like: phases with unremarkable or even slightly elevated values initially alternate with a gradually progressing underactivity, often over years, before the condition is clearly diagnosed. Many of those affected go through a long phase of diffuse, hard-to-pin-down complaints, in which blood values still appear borderline while the immune system has already turned against the body's own tissue. Unlike plain hypothyroidism, Hashimoto's is thus primarily a story of the immune system turning against the thyroid itself – not just an organ receiving too little drive from outside, but one being attacked from within.",
+    symptome: ["Fluctuating, often initially unclear complaints (exhaustion, mood swings)", "Later increasingly symptoms of underactivity: tiredness, weight gain, cold sensitivity", "A feeling of pressure or slight tightness in the throat area", "Dry skin, hair loss, brittle nails", "Difficulty concentrating, tendency to rumination, low mood", "Detectable thyroid antibodies in the blood, often already present before clear functional disturbances"],
+    notfall: "Not an acute emergency. In case of sudden, marked deterioration of general well-being, strong swelling in the throat area, or breathing difficulties, seek medical evaluation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Hashimoto's is a special case among thyroid conditions: nothing here merely brakes itself, and nothing races uncontrollably – here the body directly attacks its own organ of speech. Of all places, the thyroid, which sits at the throat, exactly where one's own voice originates, becomes the target of the body's own immune system. In TCM, such an inner self-destruction is frequently linked to a deep exhaustion of Kidney and Spleen Qi, intensified by inner, unresolved conflict that can no longer discharge outward. Psychosomatic medicine often reads Hashimoto's as the picture of an inner judge turning against one's own expression – a self-criticism grown over years that no longer directs itself only at thoughts or words, but at the very organ that makes those words possible in the first place. For each of the 27 subtypes, its own pattern shows how this inner harshness turns against one's own expression.",
+    typen: [
+      { typ: 1, titel: "An inner judge attacking his own voice", varianten: [
+        { code: "SE1", text: "Before speaking, the self-preservation One strictly checks her own words for correctness, spontaneous expression rarely allowed. This permanent self-censorship can show up immunologically as an attack on her own thyroid." },
+        { code: "SO1", text: "The social One often holds back her actual opinion of others' misbehavior, to appear morally correct. This years-long suppressed voice can show up as gradual self-destruction of her own thyroid tissue." },
+        { code: "SX1", text: "The sexual One usually speaks her opinion immediately, rather than censoring it strictly. This more direct access to her own expression differs from the permanent self-scrutiny of other One variants." },
+      ]},
+      { typ: 2, titel: "A voice that lets itself fall silent", varianten: [
+        { code: "SE2", text: "The self-preservation Two hardly ever voices her own needs, so as not to burden others. This chronic falling-silent of her own voice can show up immunologically as an attack on her own thyroid." },
+        { code: "SO2", text: "Criticism of her own exhaustion is something the social Two almost never voices, out of fear of appearing less indispensable. This years-long silence can show up as gradual self-destruction of her own tissue." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two does voice her own needs, rather than keeping silent. This more active speaking can counteract the chronic falling-silent of other Two variants." },
+      ]},
+      { typ: 3, titel: "An image that must not voice weakness", varianten: [
+        { code: "SE3", text: "Doubt or exhaustion is something the self-preservation Three almost never voices aloud, so as not to jeopardize her own functioning. This permanent suppression of her own discomfort can show up immunologically as an attack on her own thyroid." },
+        { code: "SO3", text: "The social Three defends her flawless public image even against her own inner voice, which has long since been signaling exhaustion. This years-long drowning-out of her own warning signs can show up as gradual self-destruction." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three does voice doubt and exhaustion more readily, rather than suppressing them for a lifetime. This earlier admission differs from the publicly defended image of other Three variants." },
+      ]},
+      { typ: 4, titel: "An expression that turns against itself", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, seals her deep inner pain silently away inside herself, without ever giving it a voice. This years-long sealed voice can show up immunologically as an attack on her own thyroid." },
+        { code: "SO4", text: "The social Four usually speaks her pain openly, rather than concealing it. This ongoing expression can counteract the silent self-attack more typical of other Four variants." },
+        { code: "SX4", text: "With great intensity, the sexual Four lives out her emotional swings openly, rather than sealing them away. This dramatic, audible expression stands clearly against the silent sealing of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "An expression that would rather not arise at all", varianten: [
+        { code: "SE5", text: "The self-preservation Five often prefers to keep her thoughts to herself, rather than voicing them and thereby becoming vulnerable. This general holding-back of her own expression can show up immunologically as an attack on her own thyroid." },
+        { code: "SO5", text: "The social Five readily shares her knowledge, while keeping her own emotional voice at a safe distance. This selective restraint can show up as gradual self-destruction of her own tissue." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five does speak openly about herself, rather than holding back in general – unlike the general reserve of other Five variants." },
+      ]},
+      { typ: 6, titel: "A worry that never gets voiced", varianten: [
+        { code: "SE6", text: "Constant inner watchfulness shapes the self-preservation Six's daily life, this worry rarely being voiced. This constant, silent alarming can show up immunologically as an attack on her own thyroid." },
+        { code: "SO6", text: "Her worry for her group's well-being is something the social Six often carries unspoken, so as not to alarm anyone. This years-long unspoken worry can show up as gradual self-destruction of her own tissue." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with direct, audible confrontation rather than silent worry. This outward-directed discharge differs from the unspoken alarm of other Six variants." },
+      ]},
+      { typ: 7, titel: "A discomfort that gets drowned out", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant distraction to the next as soon as an unpleasant feeling arises, rather than voicing it. This constant drowning-out of her own discomfort can show up immunologically as an attack on her own thyroid." },
+        { code: "SO7", text: "The social Seven, the counter-type, rarely voices her own limits, as long as the group still needs her. This chronic concealment can show up as gradual self-destruction of her own tissue." },
+        { code: "SX7", text: "With full enthusiasm, the sexual Seven does speak about her own discomfort too, rather than drowning it out. This voicing differs from the permanent distraction of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A vulnerability kept unspoken", varianten: [
+        { code: "SE8", text: "Weakness is something the self-preservation Eight almost never voices, her control over body and resources meant to stay unchallenged. This permanent refusal of her own vulnerability can show up immunologically as an attack on her own thyroid." },
+        { code: "SO8", text: "Her own exhaustion is something the social Eight rarely voices, in service of her self-imposed protector role. This years-long concealment can show up as gradual self-destruction of her own tissue." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight does voice vulnerability openly. There she finds real relief, unlike the general silence of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A voice that never comes first", varianten: [
+        { code: "SE9", text: "Her own voice is barely consciously perceived by the self-preservation Nine, so completely does she lose herself in routine and comfort. A gradual attack on her own thyroid can thus stay unnoticed for years." },
+        { code: "SO9", text: "The instant a conflict looms on the horizon, the social Nine consistently subordinates her own voice to group harmony. This chronic self-erasure can show up as gradual self-destruction of her own tissue." },
+        { code: "SX9", text: "Once she merges with the partner, the sexual Nine makes his perception the yardstick for her own health. If the partner does not notice her own warning signs, the Nine often overlooks her own voice just as long." },
+      ]},
+    ],
+    abschluss: "No thyroid is immune to Hashimoto's, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with her own expression and self-attack in its own way – some through control, others through withdrawal, open expression, or a chronically overridden voice of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  adipositas: {
+    titel: "Overweight / Obesity",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🛡️",
+    kurz: "The body adds an extra layer – sometimes as a reserve, sometimes as a cushion, sometimes as a quiet buffer between itself and the world.",
+    definition: "Obesity refers to an accumulation of body fat beyond a healthy measure, usually defined via the body mass index (BMI of 30 or above). The causes are multi-layered: a sustained imbalance between energy intake and expenditure plays a central role, but is itself influenced by a wide range of factors – genetic predisposition, hormonal regulation of hunger and satiety, sleep quality, chronic stress, medications, and social as well as emotional patterns around eating. Obesity is thus rarely an expression of pure lack of willpower, but the visible result of a complex interplay of biology, environment, and individual history. In the long run, significant obesity raises the risk for cardiovascular disease, type 2 diabetes, joint complaints, and other consequential conditions, which is why sustainable weight regulation matters for health – lasting change, experience shows, is more likely achieved through understanding the underlying patterns than through sheer restriction.",
+    symptome: ["Body mass index of 30 or above", "Shortness of breath under physical exertion", "Joint complaints, especially knees and hips", "Increased tiredness and reduced resilience", "Frequently accompanying metabolic changes (elevated blood sugar, blood lipids, high blood pressure)", "Social withdrawal or altered self-worth in some of those affected"],
+    notfall: "Not an acute emergency in the narrower sense. In case of sudden, unexplained weight gain, severe shortness of breath, or signs of cardiovascular disease, seek medical evaluation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Body fat is biologically, first of all, a store – energy laid down for times when it might become scarce. Psychosomatic medicine therefore suggests an obvious first reading: a body arming itself preventively, even though there is objectively no shortage right now. In TCM, such an accumulation is frequently associated with a weakness of the Spleen, which is responsible for converting food into usable energy – when this conversion is disturbed, &bdquo;dampness and phlegm&ldquo; accumulate in the body instead. Psychosomatic medicine often reads obesity as an extra cushion – sometimes an unconscious buffer between oneself and an environment experienced as threatening, sometimes a reserve against a felt, not always real, scarcity, sometimes a quiet way of taking up more space where setting verbal boundaries is difficult. For each of the 27 subtypes, its own pattern shows what this extra weight stands for.",
+    typen: [
+      { typ: 1, titel: "A cushion against her own strictness", varianten: [
+        { code: "SE1", text: "The self-preservation One exercises control over nearly every area of her life, yet around eating this very control can paradoxically slip most easily, once the tension grows too great. Eating then becomes the one permitted valve against her own strictness." },
+        { code: "SO1", text: "The social One tolerates her own imperfection only with difficulty; eating can become the one quiet exception to this high standard. This secret permission can show up over time as extra weight." },
+        { code: "SX1", text: "The sexual One lives out her needs more directly and immediately, rather than only permitting them secretly around food. This more direct access differs from the hidden exception of other One variants." },
+      ]},
+      { typ: 2, titel: "A reserve never meant for herself", varianten: [
+        { code: "SE2", text: "The self-preservation Two cares for others tirelessly, for herself often only eating remains as the one reliable form of self-care. This one remaining valve can show up over time as extra weight." },
+        { code: "SO2", text: "Recognition often reaches the social Two in abundance, yet she rarely truly receives it inwardly. Eating can become the one form of affection she can give herself without having to ask." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two does receive affection for herself, rather than only giving. This ability to receive can counteract the substitute function eating takes on for other Two variants." },
+      ]},
+      { typ: 3, titel: "An image that allows no pause", varianten: [
+        { code: "SE3", text: "Between appointments, the self-preservation Three often eats hastily and in passing, without really noticing what or how much she takes in. This unconscious eating amid constant activity can show up over time as extra weight." },
+        { code: "SO3", text: "The social Three measures her success mostly by outward metrics, her own bodily sense easily slipping from view. This decoupling from genuine bodily awareness can show up as gradual weight gain." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three pays more conscious attention to her bodily sense, rather than overriding it amid constant activity. This focused attention differs from the decoupling of other Three variants." },
+      ]},
+      { typ: 4, titel: "An emptiness meant to be filled", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, sometimes tries to fill her deep inner emptiness through eating, without it ever truly stilling the underlying longing. This recurring pattern can show up over time as extra weight." },
+        { code: "SO4", text: "The social Four speaks her longing openly, rather than numbing it through eating. This expression can counteract the attempt to bodily fill inner emptiness that would be more typical of other Four variants." },
+        { code: "SX4", text: "With great intensity, the sexual Four seeks fulfillment in direct contact with the desired person, rather than replacing it through eating. This active, interpersonal access differs from the quiet self-filling of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A reserve against an uncertain world", varianten: [
+        { code: "SE5", text: "The self-preservation Five hoards resources of all kinds as a precaution, out of a deep worry that there might one day not be enough. This stockpiling can also show up bodily as extra weight." },
+        { code: "SO5", text: "The social Five readily shares her knowledge, her own bodily provisioning easily slipping from view. This neglect of her own bodily sense can show up as gradual weight change." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five feels provided for enough to hoard less preventively – unlike the general caution of other Five variants." },
+      ]},
+      { typ: 6, titel: "A cushion against constant threat", varianten: [
+        { code: "SE6", text: "Constant watchfulness shapes the self-preservation Six's daily life, eating able to become quick, reliable comfort in such moments of tension. This recurring reach for eating as a comfort strategy can show up as extra weight." },
+        { code: "SO6", text: "Her worry for her group's well-being is something the social Six often carries unspoken, shared eating able to become the one permitted relaxation. This recurring soothing strategy can show up as gradual weight gain." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with direct confrontation rather than comfort through eating. This more active coping differs from the quiet reach for eating of other Six variants." },
+      ]},
+      { typ: 7, titel: "A pleasure that will not be contained", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasure to the next, without setting herself natural limits. This unbridled pursuit of pleasure can show up over time as extra weight." },
+        { code: "SO7", text: "The social Seven, the counter-type, overrides her own needs in favor of the group again and again, until eating becomes the one permitted pleasure of her own. This one remaining valve can show up as gradual weight gain." },
+        { code: "SX7", text: "With full but conscious intensity, the sexual Seven truly enjoys individual experiences, rather than endlessly jumping onward. This conscious enjoyment differs from the unbridled pursuit of pleasure of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A mass that demonstrates strength", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims control over her resources with great consistency, ample indulgence too able to be part of this self-determined control. Physical mass can unconsciously symbolize strength and invulnerability for her." },
+        { code: "SO8", text: "Strength and presence are something the social Eight demonstrates continuously in service of her protector role, physical size able to unconsciously become an expression of this strength. This symbolism can show up as extra weight." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight need not demonstrate her strength physically. There she finds real closeness, unlike the general power display of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A bodily sense rarely made conscious", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that hunger and satiety are barely consciously perceived. This missing bodily awareness can show up over years as extra weight." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own needs to group harmony, her own sense of satiety receding from view along with it. This chronic self-erasure can show up as gradual weight gain." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of her own body from her partner, once she merges with him. If he eats carelessly, the Nine often eats along just as carelessly, because her own bodily awareness recedes behind the merging." },
+      ]},
+    ],
+    abschluss: "No body is immune to extra weight, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with some form of cushion, reserve, or unstilled longing in its own way – some through control, others through withdrawal, pursuit of pleasure, or a chronically overridden bodily sense of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  metabolisches_syndrom: {
+    titel: "Metabolic Syndrome",
+    kategorie: "hormone-stoffwechsel",
+    icon: "⚖️",
+    kurz: "Not a single system falls out of step, but several at once – as if the body had eventually given way on too many fronts simultaneously.",
+    definition: "Metabolic syndrome is not a single illness but the joint occurrence of several metabolic disturbances: abdominal obesity, elevated blood pressure, elevated blood lipids (especially triglycerides, lowered HDL cholesterol), and elevated fasting blood sugar or a beginning insulin resistance. From as few as three of these factors onward, one speaks of metabolic syndrome, which together carries a markedly higher risk of heart attack, stroke, and type 2 diabetes than any single factor alone. The cause is usually a years-long imbalance between energy intake, exercise, chronic stress, and genetic predisposition that is not confined to a single organ but throws several of the body's regulatory systems out of balance at once. Unlike a single condition, metabolic syndrome thus tells a story of simultaneous overload across several systems, not just one.",
+    symptome: ["Abdominal obesity (increased waist circumference)", "Elevated blood pressure", "Elevated triglyceride levels and lowered HDL cholesterol", "Elevated fasting blood sugar or beginning insulin resistance", "Frequently accompanying tiredness and reduced resilience", "Often long without noticeable complaints, detectable only in blood tests"],
+    notfall: "Not an acute emergency in the narrower sense. In case of signs of a heart attack (chest pain, radiating into arm or jaw, shortness of breath) or stroke (sudden paralysis, speech disturbance), call emergency services immediately.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Metabolic syndrome is a special case among the metabolic conditions: not just one system falls out of step here, but several at once – as if the body had eventually given way on too many fronts simultaneously, rather than concentrating on just one. In TCM, such a simultaneous failure of several functional circles is frequently associated with a deep, comprehensive exhaustion of Spleen Qi and Kidney Yang – a system that has had to carry too many tasks at once over the years, without ever truly recovering anywhere. Psychosomatic medicine often reads metabolic syndrome as the picture of a life in which too many areas were under pressure simultaneously for too long – professionally, within the family, emotionally – without real relief being found anywhere. For each of the 27 subtypes, its own pattern shows on how many levels at once this overload shows up.",
+    typen: [
+      { typ: 1, titel: "Too many fronts that all have to be perfect", varianten: [
+        { code: "SE1", text: "On all areas of her life at once, the self-preservation One demands perfection of herself, never granting herself a real pause anywhere. This simultaneous overload of several life areas can show up metabolically as metabolic syndrome." },
+        { code: "SO1", text: "The social One pursues her moral standards simultaneously in work, family, and community, never allowing herself leniency anywhere. This overload on multiple levels at once can show up as metabolic syndrome." },
+        { code: "SX1", text: "The sexual One concentrates her energy above all on the one important relationship, rather than spreading it across many fronts simultaneously. This focus differs from the simultaneous overload of other One variants." },
+      ]},
+      { typ: 2, titel: "Too many cared for at once", varianten: [
+        { code: "SE2", text: "The self-preservation Two often cares for several people simultaneously and in parallel, never granting herself relief anywhere. This simultaneous overload on many fronts can show up metabolically as metabolic syndrome." },
+        { code: "SO2", text: "The social Two stays indispensable simultaneously in several social roles, her own recovery falling by the wayside. This overload on multiple levels at once can show up as metabolic syndrome." },
+        { code: "SX2", text: "The sexual Two bundles her strength above all in the one important relationship, rather than spreading it across many parallel obligations. This focus can counteract the simultaneous overload of other Two variants." },
+      ]},
+      { typ: 3, titel: "Too many successes pursued at once", varianten: [
+        { code: "SE3", text: "The self-preservation Three pushes several projects forward simultaneously with full effort, real pauses not occurring on any level. This simultaneous overload of several life areas can show up metabolically as metabolic syndrome." },
+        { code: "SO3", text: "The social Three measures her success simultaneously by career, status, and outward appearance, never truly recovering anywhere. This overload on multiple levels at once can show up as metabolic syndrome." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three concentrates her energy, rather than spreading it across many parallel fields of success. This focus differs from the simultaneous overload of other Three variants." },
+      ]},
+      { typ: 4, titel: "Too many feelings that go unheard at once", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries her longing, her pain, and her exhaustion all at once, unspoken. This simultaneous inner overload can show up metabolically as metabolic syndrome." },
+        { code: "SO4", text: "The social Four speaks her many-layered feelings openly, rather than piling them all up simultaneously inside herself. This expression can counteract the simultaneous overload more typical of other Four variants." },
+        { code: "SX4", text: "With great intensity, the sexual Four lives out her emotional swings one at a time and in sequence, rather than carrying them all at once. This sequential expression differs from the simultaneous overload of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "Too many demands intruding at once", varianten: [
+        { code: "SE5", text: "The self-preservation Five keeps several of the world's demands at bay simultaneously, this general withdrawal costing energy on multiple levels at once. This overload can show up metabolically as metabolic syndrome." },
+        { code: "SO5", text: "The social Five makes her knowledge available to several areas simultaneously, her own recovery falling by the wayside on multiple levels at once. This overload can show up as metabolic syndrome." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five concentrates her energy, rather than spreading it across many parallel demands. This focus differs from the general overload of other Five variants." },
+      ]},
+      { typ: 6, titel: "Too many dangers kept in view at once", varianten: [
+        { code: "SE6", text: "The self-preservation Six keeps several possible dangers in view simultaneously, her nervous system staying on alert on multiple levels at once as a result. This state is among the best-known co-drivers of metabolic syndrome." },
+        { code: "SO6", text: "The social Six often worries about several group members' well-being simultaneously, never granting herself real relief anywhere. This simultaneous worry on multiple levels can show up as metabolic syndrome." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear in one situation at a time in a targeted way, rather than staying alert on many levels simultaneously. This focused confrontation differs from the simultaneous alertness of other Six variants." },
+      ]},
+      { typ: 7, titel: "Too many options kept open at once", varianten: [
+        { code: "SE7", text: "The self-preservation Seven keeps several pleasant options open simultaneously, real commitment on any single one being hard for her. This simultaneous scattering across many fronts can show up metabolically as metabolic syndrome." },
+        { code: "SO7", text: "In favor of several group concerns simultaneously, the social Seven, the counter-type, overrides her own limits again and again. This simultaneous overload on many levels can show up as metabolic syndrome." },
+        { code: "SX7", text: "With full but focused intensity, the sexual Seven devotes herself to one intense experience after another, rather than keeping many open simultaneously. This sequential experiencing differs from the simultaneous scattering of other Seven variants." },
+      ]},
+      { typ: 8, titel: "Too many fronts controlled at once", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims control over several resource areas simultaneously with great consistency, real recovery not happening on any of these levels. This simultaneous exertion can show up metabolically as metabolic syndrome." },
+        { code: "SO8", text: "Strength and control are something the social Eight demonstrates simultaneously in several areas of her protector role, her own exhaustion receding everywhere in the process. This simultaneous leadership tension can show up as metabolic syndrome." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight concentrates her control, rather than spreading it across many fronts. This focus differs from the simultaneous permanent strain of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Too many signals overlooked at once", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that several of the body's warning signals stay unnoticed simultaneously. Metabolic syndrome can thus develop unnoticed over years on multiple levels at once." },
+        { code: "SO9", text: "The social Nine subordinates several of her own needs simultaneously to group harmony, never bringing them individually to the foreground. This simultaneous self-erasure on many levels can show up as metabolic syndrome." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of several of her own bodily signals simultaneously from her partner, once she merges with him. If the partner does not notice these signals, the Nine overlooks them on multiple levels at once." },
+      ]},
+    ],
+    abschluss: "No metabolism is immune to simultaneous overload of several systems, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with strain on many levels at once in its own way – some through control, others through focus, simultaneous scattering, or a chronically overridden warning sign of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  pcos: {
+    titel: "PCOS (Polycystic Ovary Syndrome)",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🌙",
+    kurz: "Follicles mature but are never released – a monthly cycle that keeps getting stuck at the same point.",
+    definition: "PCOS is one of the most common hormonal disorders in women of reproductive age and rests on an interplay of elevated male hormone levels (androgens), often accompanying insulin resistance, and a disturbed maturation of the egg follicles in the ovaries. Instead of one follicle per cycle maturing fully and being released at ovulation, several follicles remain immature in the ovaries in PCOS – visible on ultrasound as small cysts arranged like a string of pearls. The consequence is often an irregular or entirely absent ovulation, which can show up as irregular or absent periods, fertility problems, and, through the elevated androgen levels, also increased body and facial hair growth, acne, and hair loss. PCOS is thus less a single disturbance than a cycle that repeatedly stalls at the same point – shortly before the actual release.",
+    symptome: ["Irregular or absent periods", "Increased body and facial hair growth (hirsutism)", "Acne and oily skin from elevated androgen levels", "Unwanted weight gain, often accompanied by insulin resistance", "Fertility problems from absent ovulation", "Diffuse hair loss on the scalp despite increased body hair growth"],
+    notfall: "Not an acute emergency. In case of severe, persistent lower abdominal pain (possible cyst rupture or ovarian torsion), seek prompt medical evaluation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "PCOS tells a particular story of the cycle: something matures, is prepared, comes close to release – and then, after all, is not released. Instead of a completed monthly rhythm of build-up and release, several immature, held-back attempts arise. In TCM, PCOS is frequently linked to a combination of Kidney Yang weakness and accumulated &bdquo;dampness and phlegm&ldquo; – substances that stagnate rather than moving in a regulated rhythm. Psychosomatic medicine suggests a reading of PCOS that revolves around the theme of letting go: around potential, creativity, or an inner maturing that prepares itself but, out of control, fear, or outside pressure, does not fully come to unfolding and release. For each of the 27 subtypes, its own pattern shows what matures here but is not released.",
+    typen: [
+      { typ: 1, titel: "A maturing that must be perfect before release", varianten: [
+        { code: "SE1", text: "Before giving anything outward, the self-preservation One wants to think it through to perfection – she would rather hold back than release something unfinished. This holding-back until supposed perfection can show up hormonally as disturbed follicle maturation." },
+        { code: "SO1", text: "The social One examines her ideas and projects thoroughly for moral correctness before releasing them – often so thoroughly that the release itself never happens. This constant holding-back can show up as PCOS." },
+        { code: "SX1", text: "The sexual One translates her impulses more immediately into action, rather than endlessly examining them. This more direct route to release differs from the constant holding-back of other One variants." },
+      ]},
+      { typ: 2, titel: "A care that never releases herself", varianten: [
+        { code: "SE2", text: "The self-preservation Two keeps putting her own creative or personal projects behind others' needs, without ever truly pursuing them. This chronic holding-back of her own maturing process can show up as PCOS." },
+        { code: "SO2", text: "The social Two rarely truly releases her own wishes, as long as the group still needs her. This years-long postponement can show up hormonally as disturbed follicle maturation." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two does actively pursue her own wishes, rather than putting them behind others'. This more active pursuit can counteract the chronic holding-back of other Two variants." },
+      ]},
+      { typ: 3, titel: "A success never fully released", varianten: [
+        { code: "SE3", text: "The self-preservation Three works on several projects simultaneously, without ever truly completing and releasing one of them. This constant preparing without completion can show up hormonally as disturbed follicle maturation." },
+        { code: "SO3", text: "The social Three shows her successes only once they are flawless – often so long that the presentation itself never happens. This constant holding-back until perfection can show up as PCOS." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three does show herself with the unfinished too, rather than holding everything back until perfection. This earlier showing differs from the constant holding-back of other Three variants." },
+      ]},
+      { typ: 4, titel: "A longing that never fully comes into the world", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, often carries her deepest creative impulses for a long time, without ever truly bringing them into the world. This chronic holding-back of her own creativity can show up as PCOS." },
+        { code: "SO4", text: "The social Four shares her creative expressions openly with others, rather than holding them back. This expression can counteract the chronic holding-back more typical of other Four variants." },
+        { code: "SX4", text: "With full intensity, the sexual Four releases her creative and emotional impulses in the relationship, rather than holding them back. This open expression stands clearly against the chronic holding-back of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A knowledge never fully released", varianten: [
+        { code: "SE5", text: "The self-preservation Five often keeps her own insights and ideas to herself, rather than fully sharing them with the world. This general holding-back can show up hormonally as disturbed follicle maturation." },
+        { code: "SO5", text: "The social Five shares her knowledge with the group, while holding back her own deeper personal maturing processes. This selective release can show up as PCOS." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five reveals herself more fully, rather than holding back in general – unlike the general reserve of other Five variants." },
+      ]},
+      { typ: 6, titel: "A decision never fully made", varianten: [
+        { code: "SE6", text: "Before truly making a decision, the self-preservation Six weighs it for so long that the actual decision often never happens. This constant weighing without completion can show up hormonally as disturbed follicle maturation." },
+        { code: "SO6", text: "The social Six often holds back her own opinion, until the group gives a clear direction. This constant holding-back of her own position can show up as PCOS." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with quick, immediate decision rather than endless weighing. This more direct decisiveness differs from the constant holding-back of other Six variants." },
+      ]},
+      { typ: 7, titel: "A fullness never fully discharged", varianten: [
+        { code: "SE7", text: "The self-preservation Seven keeps several possibilities open simultaneously, without ever fully committing to one and exhausting it. This constant keeping-open without completion can show up hormonally as disturbed follicle maturation." },
+        { code: "SO7", text: "The social Seven, the counter-type, overrides her own wishes in service of the group again and again, rather than pursuing them. This chronic holding-back can show up as PCOS." },
+        { code: "SX7", text: "With full, focused intensity, the sexual Seven actually exhausts individual experiences, rather than merely dipping into them. This exhausting-fully differs from the constant keeping-open of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A vulnerability never fully shown", varianten: [
+        { code: "SE8", text: "The self-preservation Eight almost never fully allows her actual vulnerability, control over her own body remaining the top priority. This constant holding-back can show up hormonally as disturbed follicle maturation." },
+        { code: "SO8", text: "The social Eight rarely fully shows her actual exhaustion, in service of her self-imposed protector role. This years-long holding-back can show up as PCOS." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight does show her vulnerability fully. There real release takes place, unlike the general restraint of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A wish of her own that never fully matures", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that her own wishes rarely reach maturity. This lack of completion can show up over years as PCOS." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own wishes to group harmony, without ever fully pursuing them. This chronic self-erasure can show up hormonally as disturbed follicle maturation." },
+        { code: "SX9", text: "The sexual Nine often takes over her own wishes from her partner, once she merges with him, rather than bringing them to maturity herself. If the partner does not pursue his wishes, the Nine often pursues her own just as little." },
+      ]},
+    ],
+    abschluss: "No cycle is immune to PCOS, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with maturing and letting go in its own way – some through control, others through withdrawal, open expression, or a chronically held-back potential of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  wechseljahresbeschwerden: {
+    titel: "Menopause Symptoms",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🌗",
+    kurz: "A biological threshold being crossed – often accompanied by an inner fire that makes visible the true transitional energy of this life phase.",
+    definition: "Menopause (and the years before and after it) marks the natural end of the fertile life phase, during which the ovaries gradually stop producing estrogen and progesterone. This hormonal reorganization affects far more than the reproductive organs: it influences temperature regulation, sleep, mood, bone density, skin, and mucous membranes. Typical are hot flashes and night sweats, arising from the hormonal shift in the brain's temperature-regulation center, as well as sleep disturbances, mood swings, and altered libido. The course and intensity of symptoms differ greatly from woman to woman – some pass through this phase almost unnoticed, others experience it as a profound physical and emotional upheaval. Biologically speaking, menopause is not a deficiency but a natural transition into a new hormonal state.",
+    symptome: ["Hot flashes and night sweats", "Sleep disturbances", "Mood swings, irritability, occasionally low mood", "Vaginal dryness and altered libido", "Difficulty concentrating and memory issues", "Joint complaints and changes in skin and hair structure"],
+    notfall: "Not an acute emergency. In case of severe bleeding disturbances, unexplained bleeding after menopause, or significant psychological distress, seek medical evaluation.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Menopause is not an illness in the strict sense, but a biological threshold – the transition from one life phase into another. Precisely for this reason, a somewhat different lens is worthwhile here than for the other conditions in this compass: it is less about a system out of balance than about the energy such a transition itself carries. In TCM, this life phase is associated with a gradual decline of Kidney Yin, through which the relatively stronger Yang – inner heat – comes forward more clearly; hot flashes are seen there as a visible expression of exactly this natural reorganization. Psychosomatic medicine often reads this phase as the picture of an inner fire becoming visible during a great transformation – sometimes accompanied by unspoken grief over what is ending, sometimes by newly freed energy for what may now begin. For each of the 27 subtypes, its own pattern shows how this threshold is inwardly lived through.",
+    typen: [
+      { typ: 1, titel: "A transition that calls control into question", varianten: [
+        { code: "SE1", text: "The self-preservation One keeps her usual strict control over her body, yet the hormonal dynamic of menopause is unimpressed by it. This loss of control over her own body can additionally intensify the symptoms of this phase." },
+        { code: "SO1", text: "The social One maintains her composure outward through this transitional phase too, the inner upheaval often staying unspoken. This quiet tension during the transformation can show up as especially intense menopause symptoms." },
+        { code: "SX1", text: "The sexual One shows her feelings during this life phase immediately, rather than hiding them behind composure. This more direct expression can ease the tension that tends to persist in other One variants during this transition." },
+      ]},
+      { typ: 2, titel: "A transition that questions her own role", varianten: [
+        { code: "SE2", text: "Her identity as a caregiver comes under scrutiny in this life phase, without the self-preservation Two admitting this unsettlement to herself. This unspoken identity question can intensify menopause symptoms." },
+        { code: "SO2", text: "Her role as indispensable visibly shifts in this life phase, occupying the social Two inwardly more than she shows. This unspoken unsettlement can show up as more intense menopause symptoms." },
+        { code: "SX2", text: "The sexual Two openly addresses her own transformation in the one important relationship, rather than concealing it. This exchange can ease the unspoken unsettlement that tends to persist in other Two variants." },
+      ]},
+      { typ: 3, titel: "A transition that shakes the image of youth", varianten: [
+        { code: "SE3", text: "The self-preservation Three defines her capability through outward vitality, the hormonal shift of this phase able to hit this self-image especially hard. This inner resistance to the change can intensify the symptoms." },
+        { code: "SO3", text: "The social Three defends her public image of youthfulness and success even during this transitional phase, rather than opening to the transformation. This resistance can show up as especially intense menopause symptoms." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three shows herself with the signs of this transformation too, rather than concealing them. This openness differs from the publicly defended image of youth of other Three variants." },
+      ]},
+      { typ: 4, titel: "A grief that finally gets room", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, often carries her deep grief over what definitively ends in this life phase silently within herself. This unspoken grief can show up as especially intense menopause symptoms." },
+        { code: "SO4", text: "The social Four speaks her grief over the end of this life phase openly, rather than concealing it. This expression can counteract the intensity of symptoms more typical of other Four variants." },
+        { code: "SX4", text: "With great emotional intensity, the sexual Four lives through this transition openly and dramatically, rather than sealing it silently away. This open expression stands clearly against the silent grief of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A transition observed from a distance", varianten: [
+        { code: "SE5", text: "The self-preservation Five often observes her own bodily changes rather distantly and analytically, rather than truly living through them. This distance from her own experience can intensify menopause symptoms." },
+        { code: "SO5", text: "The social Five informs herself thoroughly about the hormonal processes of this phase, keeping her own emotional experience at a safe distance. This intellectual rather than felt processing can intensify the symptoms." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five allows her experience of this transformation to be emotional too, rather than only analyzing it. This emotional involvement differs from the general distance of other Five variants." },
+      ]},
+      { typ: 6, titel: "A transition that awakens uncertainty", varianten: [
+        { code: "SE6", text: "The unpredictability of the hormonal shift deeply unsettles the self-preservation Six, her nervous system responding with heightened alertness. This tension during the transformation is among the known intensifiers of menopause symptoms." },
+        { code: "SO6", text: "The social Six rarely shares her own unsettlement during this life phase openly with her group. This unspoken struggle can show up as especially intense menopause symptoms." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets the uncertainty of this life phase with active engagement rather than silent worry. This more direct coping differs from the alertness of other Six variants." },
+      ]},
+      { typ: 7, titel: "A transition meant to be skipped over", varianten: [
+        { code: "SE7", text: "The self-preservation Seven jumps from one pleasant distraction to the next, to avoid truly facing the actual transformation of this phase. This avoidance can prolong menopause symptoms rather than ease them." },
+        { code: "SO7", text: "The social Seven, the counter-type, overrides her own engagement with this life phase in favor of the group again and again. This chronic avoidance can show up as more intense menopause symptoms." },
+        { code: "SX7", text: "With open curiosity, the sexual Seven does genuinely engage with this transformation, rather than avoiding it. This willingness differs from the general avoidance of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A transition that forces vulnerability", varianten: [
+        { code: "SE8", text: "The self-preservation Eight claims control over her body with great consistency, yet the hormonal dynamic of this phase fundamentally escapes this control. This forced vulnerability can intensify the symptoms." },
+        { code: "SO8", text: "The social Eight demonstrates strength continuously through this transitional phase too, rarely allowing real vulnerability. This resistance to her own transformation can show up as more intense menopause symptoms." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight does allow the vulnerability of this transformation. There she finds support, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A transition that passes by quietly", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that the actual significance of this life phase is barely consciously registered. This missing conscious engagement can prolong menopause symptoms." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own transformation to group harmony, without truly facing it consciously. This chronic self-erasure can show up as more intense menopause symptoms." },
+        { code: "SX9", text: "How her partner reacts to this life phase often becomes the real yardstick for the sexual Nine, once she merges with him. If the partner takes the transformation calmly, it becomes easier for the Nine to accept it too." },
+      ]},
+    ],
+    abschluss: "Every woman goes through menopause in her own way, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes lives through this biological threshold differently – some through control, others through withdrawal, open expression, or a chronically overridden transformation of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  pms: {
+    titel: "Premenstrual Syndrome (PMS)",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🌘",
+    kurz: "What was held back throughout the whole cycle returns unmistakably in the final week – a recurring monthly bill coming due.",
+    definition: "Premenstrual syndrome refers to a group of physical and emotional symptoms that typically appear in the second half of the cycle (luteal phase) and subside with the onset of menstruation. The trigger is the natural hormonal fluctuation of estrogen and progesterone after ovulation, to which some women react with particular sensitivity – likely through an increased sensitivity of the nervous system to these normal hormonal changes, not through an actual hormonal disorder. The range extends from mild complaints to premenstrual dysphoric disorder (PMDD), a severe form with markedly impairing mood changes. Characteristic is the clear cyclical rhythm: a recurring buildup of tension over about two weeks, followed by a discharge that begins with the bleeding itself – month after month anew.",
+    symptome: ["Irritability, mood swings, heightened emotional sensitivity", "Breast tenderness and lower abdominal cramping", "Water retention and bloating", "Cravings, especially for sweet or salty foods", "Headaches and tiredness", "Sleep disturbances and reduced ability to concentrate in the week before bleeding"],
+    notfall: "Not an acute emergency. In case of very pronounced mood changes with suicidal thoughts (a possible sign of PMDD), seek prompt professional help.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "PMS follows a monthly rhythm that speaks its own psychosomatic language: over two weeks, something builds up that becomes unmistakable in the final week, before it releases again with the bleeding. In TCM, PMS is frequently linked to stagnant Liver Qi – energy that accumulates over the cycle because it finds no sufficient flow in daily life, and then noticeably forces its way through in the second half of the cycle. Psychosomatic medicine often reads PMS as the picture of a monthly account: whatever needs, boundaries, or feelings were set aside during the rest of the cycle report back with heightened urgency in this one week – a kind of cyclical bill for unresolved tension. For each of the 27 subtypes, its own pattern shows what gets held back over the month here and breaks through in the final week.",
+    typen: [
+      { typ: 1, titel: "An anger that discharges monthly", varianten: [
+        { code: "SE1", text: "Throughout the whole cycle, the self-preservation One upholds her self-discipline flawlessly, small frustrations disciplined away. In the final week of the cycle, this accumulated resentment can suddenly discharge with unusual sharpness." },
+        { code: "SO1", text: "The social One usually holds back her criticism of others' misbehavior throughout the cycle, to appear composed. In the premenstrual week, this held-back anger can come to the surface noticeably more clearly." },
+        { code: "SX1", text: "The sexual One lives out her anger immediately, rather than holding it back over the cycle. This ongoing discharge differs from the monthly buildup of resentment of other One variants." },
+      ]},
+      { typ: 2, titel: "A need that reports back monthly", varianten: [
+        { code: "SE2", text: "Throughout the whole cycle, the self-preservation Two puts others' needs above her own. In the final week of the cycle, this pent-up own need can suddenly become unmistakable." },
+        { code: "SO2", text: "The social Two overrides her own exhaustion throughout the cycle in favor of her commitment to others. In the premenstrual week, this accumulated backlog of exhaustion can suddenly show up clearly." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two continuously asserts her own needs, rather than letting them build up over the cycle. This continuous asserting differs from the monthly backlog of other Two variants." },
+      ]},
+      { typ: 3, titel: "A pace that takes its monthly toll", varianten: [
+        { code: "SE3", text: "Throughout the whole cycle, the self-preservation Three sustains her high pace without real pauses. In the final week of the cycle, this accumulated exhaustion can suddenly break through unmistakably." },
+        { code: "SO3", text: "The social Three consistently maintains her flawless public image throughout the cycle. In the premenstrual week, the exhaustion behind it can suddenly become noticeably more visible." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three continuously allows exhaustion to show, rather than holding it back over the cycle. This continuous allowing differs from the monthly backlog of other Three variants." },
+      ]},
+      { typ: 4, titel: "A feeling that breaks through monthly", varianten: [
+        { code: "SE4", text: "Throughout the whole cycle, the self-preservation Four, the counter-type, carries her feelings stubbornly and silently. In the final week of the cycle, these pent-up feelings can suddenly break through with full force." },
+        { code: "SO4", text: "The social Four continuously speaks her feelings openly, rather than letting them build up over the cycle. This continuous expression can counteract the monthly forceful outburst more typical of other Four variants." },
+        { code: "SX4", text: "With great intensity, the sexual Four lives out her emotional swings continuously throughout the whole cycle, rather than concentrating them into one week. This distributed expression differs from the monthly backlog of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A withdrawal that releases monthly", varianten: [
+        { code: "SE5", text: "Throughout the whole cycle, the self-preservation Five consistently reduces contact and needs to a minimum. In the final week of the cycle, this weeks-long restraint can suddenly give way and discharge noticeably." },
+        { code: "SO5", text: "The social Five readily shares her knowledge throughout the cycle, while keeping emotional closeness at a safe distance. In the premenstrual week, this distance can suddenly become harder to maintain." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five continuously allows closeness throughout the whole cycle, rather than holding it back. This continuous allowing differs from the monthly backlog of other Five variants." },
+      ]},
+      { typ: 6, titel: "A tension that comes to a monthly head", varianten: [
+        { code: "SE6", text: "Throughout the whole cycle, the self-preservation Six sustains a watchful inner tension. In the final week of the cycle, this permanent tension can suddenly come to a head as noticeable irritability." },
+        { code: "SO6", text: "The social Six carries her quiet worry for her group's well-being throughout the whole cycle. In the premenstrual week, this accumulated worry can suddenly become noticeably more palpable." },
+        { code: "SX6", text: "The sexual Six, the counter-type, continuously meets fear with immediate confrontation, rather than letting it build up over the cycle. This continuous discharge differs from the monthly backlog of other Six variants." },
+      ]},
+      { typ: 7, titel: "A restlessness that exhausts itself monthly", varianten: [
+        { code: "SE7", text: "Throughout the whole cycle, the self-preservation Seven jumps from one pleasant distraction to the next. In the final week of the cycle, this permanent busyness can suddenly turn into noticeable exhaustion and irritability." },
+        { code: "SO7", text: "The social Seven, the counter-type, overrides her own limits throughout the cycle in favor of the group again and again. In the premenstrual week, this accumulated self-overload can suddenly show up clearly." },
+        { code: "SX7", text: "With full enthusiasm, the sexual Seven continuously engages with intense experiences throughout the whole cycle, rather than holding back for one week. This continuous living-out differs from the monthly exhaustion backlog of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A control that loosens monthly", varianten: [
+        { code: "SE8", text: "Throughout the whole cycle, the self-preservation Eight sustains consistent control over body and resources. In the final week of the cycle, this permanent tension can suddenly show up as noticeable irritability." },
+        { code: "SO8", text: "The social Eight demonstrates strength and control continuously throughout the whole cycle in service of her protector role. In the premenstrual week, this permanent tension can suddenly become harder to maintain." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight continuously releases her tension over the cycle. This continuous releasing differs from the monthly backlog of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A signal that reports back monthly", varianten: [
+        { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort throughout the whole cycle that her own needs are barely consciously registered. In the final week of the cycle, this overridden need can suddenly become unmistakable." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own needs to group harmony throughout the whole cycle. In the premenstrual week, this accumulated self-erasure can suddenly show up clearly." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of her own cycle from her partner, once she merges with him. If the partner does not notice her rising tension, the Nine often overlooks it too in the premenstrual week." },
+      ]},
+    ],
+    abschluss: "No cycle is immune to PMS, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with monthly accumulated tension in its own way – some through control, others through continuous expression, withdrawal, or a chronically overridden need of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  insulinresistenz: {
+    titel: "Insulin Resistance / Prediabetes",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🔕",
+    kurz: "A signal is heard more and more faintly over time – not through a single incident, but through quiet habituation that can still be reversed.",
+    definition: "Insulin resistance is the early, often unnoticed-for-years precursor to type 2 diabetes: the body's cells respond increasingly weakly to the insulin the body releases, so that the pancreas must counteract with ever more insulin to keep blood sugar within the normal range. As long as this compensation succeeds, blood sugar values stay unremarkable for a long time – only once compensation is no longer sufficient do slightly elevated fasting or long-term blood sugar values appear (prediabetes). Unlike manifest diabetes, this stage is usually still fully reversible: through exercise, dietary change, and stress reduction, the cells' insulin sensitivity can often normalize again. Precisely because hardly any noticeable complaints occur in this phase, it is easily overlooked – a gradual process of habituation, long before it becomes a manifest illness.",
+    symptome: ["Usually no noticeable complaints in the early stage", "Slightly elevated fasting blood sugar or long-term blood sugar (HbA1c) in the borderline range", "Increasing tiredness after carbohydrate-rich meals", "Cravings, especially for sweets", "Dark, velvety skin discoloration in skin folds (acanthosis nigricans) in more pronounced cases", "Abdominal weight gain"],
+    notfall: "Not an acute emergency. Insulin resistance should nonetheless be medically monitored, to recognize and halt the transition to manifest type 2 diabetes as early as possible.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Insulin resistance does not begin with a dramatic event, but with quiet habituation: a signal that was initially heard clearly is perceived more and more faintly over time, until the response to it noticeably weakens. In TCM, this early stage is often associated with a beginning weakness of Spleen Qi, which can be compensated for a long time before visible signs appear. Psychosomatic medicine suggests a reading of insulin resistance centered on habituation rather than refusal: not a conscious not-receiving, but a gradual growing-accustomed to something being constantly offered or demanded, until one's own receptiveness to it fades – be it recognition, affection, rest, or another recurring inner need. For each of the 27 subtypes, its own pattern shows which signal is being increasingly grown accustomed to here, rather than continuing to be clearly perceived.",
+    typen: [
+      { typ: 1, titel: "A strictness one grows accustomed to", varianten: [
+        { code: "SE1", text: "The self-preservation One has grown so accustomed to her own permanent self-control over the years that she barely still consciously feels its burden. This gradual habituation to permanent discipline can show up metabolically as beginning insulin resistance." },
+        { code: "SO1", text: "The social One has grown so accustomed to constantly watching inwardly over right and wrong that she barely still perceives the associated pressure. This gradual numbing can show up as prediabetes." },
+        { code: "SX1", text: "The sexual One's reactions stay noticeably fresh and immediate even after years, rather than growing accustomed to permanent control. This lasting alertness differs from the gradual habituation of other One variants." },
+      ]},
+      { typ: 2, titel: "A selflessness one grows accustomed to", varianten: [
+        { code: "SE2", text: "The self-preservation Two has grown so accustomed to constantly setting aside her own needs that her own absence barely strikes her anymore. This gradual habituation can show up metabolically as beginning insulin resistance." },
+        { code: "SO2", text: "The social Two has grown so accustomed to permanent giving without real balance that she barely still notices the missing balance. This gradual numbing can show up as prediabetes." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two stays alert and attentive to the missing balance, rather than growing accustomed to it. This lasting sensitivity differs from the gradual habituation of other Two variants." },
+      ]},
+      { typ: 3, titel: "A pace one grows accustomed to", varianten: [
+        { code: "SE3", text: "The self-preservation Three has grown so accustomed to her own permanent pace that she barely still registers the underlying exhaustion. This gradual habituation can show up metabolically as beginning insulin resistance." },
+        { code: "SO3", text: "The social Three has grown so accustomed to constant comparison with others that the associated pressure barely still reaches her consciousness. This gradual numbing can show up as prediabetes." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three stays alert to her own exhaustion, rather than growing accustomed to it. This lasting awareness differs from the gradual habituation of other Three variants." },
+      ]},
+      { typ: 4, titel: "A longing one grows accustomed to", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, has over the years grown so accustomed to her own, never-stilled longing that it is barely still perceived as a distinct feeling. This gradual habituation can show up metabolically as beginning insulin resistance." },
+        { code: "SO4", text: "The social Four's longing stays noticeably alive even after years, because she keeps voicing it, rather than growing accustomed to it. This ongoing expression can counteract the numbing more typical of other Four variants." },
+        { code: "SX4", text: "With undiminished intensity, the sexual Four lives out her longing even after years, rather than growing accustomed to it. This lasting alertness differs from the gradual habituation of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A withdrawal one grows accustomed to", varianten: [
+        { code: "SE5", text: "The self-preservation Five has grown so accustomed to her own consistent needlessness that she barely still experiences it as renunciation. This gradual habituation can show up metabolically as beginning insulin resistance." },
+        { code: "SO5", text: "The social Five has grown so accustomed to her own emotional distance from the group that this distance itself barely still reaches her awareness. This gradual numbing can show up as prediabetes." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five stays alert to closeness and needs, rather than growing accustomed to distance. This lasting sensitivity differs from the general habituation of other Five variants." },
+      ]},
+      { typ: 6, titel: "A watchfulness one grows accustomed to", varianten: [
+        { code: "SE6", text: "The self-preservation Six has grown so accustomed to her own constant inner alertness that she barely still perceives it as a burden. This gradual habituation to permanent tension is among the best-known co-drivers of a beginning insulin resistance." },
+        { code: "SO6", text: "The social Six has grown so accustomed to her own never-fully-resolved worry for her group that she barely still consciously feels it. This gradual numbing can show up as prediabetes." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear again and again freshly and immediately, rather than growing accustomed to permanent inner alertness. This lasting alertness differs from the gradual habituation of other Six variants." },
+      ]},
+      { typ: 7, titel: "A restlessness one grows accustomed to", varianten: [
+        { code: "SE7", text: "The self-preservation Seven has grown so accustomed to her own constant avoidance of discomfort that the extent of this avoidance barely still strikes her. This gradual habituation can show up metabolically as beginning insulin resistance." },
+        { code: "SO7", text: "The social Seven, the counter-type, has grown so accustomed to permanently overriding her own limits that she barely still notices it. This gradual numbing can show up as prediabetes." },
+        { code: "SX7", text: "With unchanged intensity, the sexual Seven perceives every new experience alertly even after years, rather than growing accustomed to distraction. This lasting freshness differs from the gradual habituation of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A hardness one grows accustomed to", varianten: [
+        { code: "SE8", text: "The self-preservation Eight has grown so accustomed to her own permanent controlling stance that she barely still registers its exertion. This gradual habituation can show up metabolically as beginning insulin resistance." },
+        { code: "SO8", text: "The social Eight has grown so accustomed to permanently setting aside her own exhaustion that she barely still perceives it. This gradual numbing can show up as prediabetes." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight stays alert to her own exhaustion, rather than growing accustomed to it. This lasting sensitivity differs from the general numbing of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A self-forgetting one grows accustomed to", varianten: [
+        { code: "SE9", text: "The self-preservation Nine has grown so completely accustomed to being lost in routine and comfort that this self-forgetting itself no longer strikes her. This especially deep habituation can show up metabolically as long-unnoticed insulin resistance." },
+        { code: "SO9", text: "The social Nine has grown so accustomed to permanently subordinating her own needs to group harmony that this pattern barely still reaches her awareness. This gradual numbing can show up as prediabetes." },
+        { code: "SX9", text: "The sexual Nine often takes over her perception of her own bodily signals from her partner, once she merges with him. If the partner grows accustomed to certain signals, the Nine often grows just as accustomed to no longer perceiving them." },
+      ]},
+    ],
+    abschluss: "No cells are immune to insulin resistance, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes grows accustomed to certain inner signals in its own way – some through control, others through ongoing alertness, withdrawal, or a gradually numbed perception of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -64541,7 +65131,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": ["Hair Loss (Androgenetic / Diffuse)", "Shingles (Herpes Zoster)"],
-  "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
+  "hormone-stoffwechsel": [],
   "nerven-psyche": ["Migraine", "Tension Headache", "Depression", "Generalized Anxiety Disorder", "Panic Attacks", "Burnout Syndrome", "Insomnia", "Narcolepsy", "Tinnitus", "Vertigo / Dizziness", "Restless Legs Syndrome", "Teeth Grinding (Bruxism)", "Chronic Fatigue Syndrome (ME/CFS)"],
   "immunsystem": ["Multiple Sclerosis", "Frequent Infections / Weak Immune System", "Long COVID / Post-Viral Syndrome", "Post-Vaccination Syndrome", "Lupus", "Food Allergies", "Sarcoidosis"],
   "onkologie": ["Breast Cancer", "Prostate Cancer", "Colorectal Cancer", "Lung Cancer", "Skin Cancer (Melanoma)", "Stomach Cancer", "Pancreatic Cancer", "Leukemia"],
