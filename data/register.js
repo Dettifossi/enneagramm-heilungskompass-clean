@@ -443,6 +443,7 @@ export const registerEntries = [
   { term: "Reflux-Krankheit / Sodbrennen (Psychosomatik)", route: "psychosomatik/reflux_gerd", description: "Psychosomatische Deutung: Ärger, der immer wieder hochkommt, TCM rebellierendes Magen-Qi, Enneagramm alle 27 Subtypen" },
   { term: "Magengeschwür (Psychosomatik)", route: "psychosomatik/magengeschwuer", description: "Psychosomatische Deutung: nach innen gerichtete Selbstkritik, TCM Magen-Hitze, Enneagramm alle 27 Subtypen" },
   { term: "Colitis ulcerosa (Psychosomatik)", route: "psychosomatik/colitis_ulcerosa", description: "Psychosomatische Deutung: Abwehr, die sich gegen die eigene innere Grenze richtet, Enneagramm alle 27 Subtypen" },
+  { term: "Morbus Crohn (Psychosomatik)", route: "psychosomatik/morbus_crohn", description: "Psychosomatische Deutung: tief verwurzelte, strukturelle Verletzung der eigenen Grenze, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1560,6 +1561,7 @@ export const registerEntriesEN = [
   { term: "Acid Reflux / Heartburn (Psychosomatics)", route: "psychosomatik/reflux_gerd", description: "Psychosomatic interpretation: anger that keeps coming back up, TCM rebellious Stomach Qi, Enneagram all 27 subtypes" },
   { term: "Stomach Ulcer (Psychosomatics)", route: "psychosomatik/magengeschwuer", description: "Psychosomatic interpretation: self-criticism turned inward, TCM Stomach heat, Enneagram all 27 subtypes" },
   { term: "Ulcerative Colitis (Psychosomatics)", route: "psychosomatik/colitis_ulcerosa", description: "Psychosomatic interpretation: defenses turned against one's own inner boundary, Enneagram all 27 subtypes" },
+  { term: "Crohn's Disease (Psychosomatics)", route: "psychosomatik/morbus_crohn", description: "Psychosomatic interpretation: a deep-rooted, structural wound to one's own boundary, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
