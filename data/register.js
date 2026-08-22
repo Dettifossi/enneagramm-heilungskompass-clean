@@ -445,6 +445,7 @@ export const registerEntries = [
   { term: "Colitis ulcerosa (Psychosomatik)", route: "psychosomatik/colitis_ulcerosa", description: "Psychosomatische Deutung: Abwehr, die sich gegen die eigene innere Grenze richtet, Enneagramm alle 27 Subtypen" },
   { term: "Morbus Crohn (Psychosomatik)", route: "psychosomatik/morbus_crohn", description: "Psychosomatische Deutung: tief verwurzelte, strukturelle Verletzung der eigenen Grenze, Enneagramm alle 27 Subtypen" },
   { term: "Gallensteine (Psychosomatik)", route: "psychosomatik/gallensteine", description: "Psychosomatische Deutung: Bitterkeit, die sich verhärtet statt aufzulösen, TCM Leber-Gallenblase-Stau, Enneagramm alle 27 Subtypen" },
+  { term: "Chronische Verstopfung (Psychosomatik)", route: "psychosomatik/chronische_verstopfung", description: "Psychosomatische Deutung: Festhalten statt Loslassen, TCM Dickdarm/Metall-Element, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1564,6 +1565,7 @@ export const registerEntriesEN = [
   { term: "Ulcerative Colitis (Psychosomatics)", route: "psychosomatik/colitis_ulcerosa", description: "Psychosomatic interpretation: defenses turned against one's own inner boundary, Enneagram all 27 subtypes" },
   { term: "Crohn's Disease (Psychosomatics)", route: "psychosomatik/morbus_crohn", description: "Psychosomatic interpretation: a deep-rooted, structural wound to one's own boundary, Enneagram all 27 subtypes" },
   { term: "Gallstones (Psychosomatics)", route: "psychosomatik/gallensteine", description: "Psychosomatic interpretation: bitterness that hardens instead of dissolving, TCM Liver-Gallbladder stagnation, Enneagram all 27 subtypes" },
+  { term: "Chronic Constipation (Psychosomatics)", route: "psychosomatik/chronische_verstopfung", description: "Psychosomatic interpretation: holding on instead of letting go, TCM Large Intestine/Metal element, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
