@@ -97887,6 +97887,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Chronische Mandelentzündung erinnert daran, wo Worte über längere Zeit hinuntergeschluckt statt ausgesprochen wurden. Die psychosomatische Auseinandersetzung mit dem Rachenraum kann helfen, dem eigenen ungesagten Anteil bewusster Raum und Sprache zu geben."
   },
+  chronischer_husten: {
+    titel: "Chronischer Husten",
+    kategorie: "atemwege",
+    icon: "😮‍💨",
+    kurz: "Über acht Wochen anhaltender Husten ohne akuten Infekt, oft ohne eindeutige einzelne Ursache und mit erheblicher Alltagsbelastung.",
+    definition: "Von chronischem Husten spricht man, wenn er länger als acht Wochen anhält, ohne dass ein akuter Infekt vorliegt. Anders als der produktive Husten bei einer Bronchitis oder der anfallsartige Husten bei Asthma bleibt die Ursache beim chronischen Husten häufig zunächst unklar – möglich sind unter anderem postnasaler Schleimfluss aus den Nebenhöhlen, Reflux von Magensäure in die Speiseröhre, eine versteckte Form von Asthma, Medikamentennebenwirkungen oder eine bislang nicht erkannte Reizung der Atemwege. In einem relevanten Teil der Fälle findet sich trotz gründlicher Diagnostik keine eindeutige organische Ursache – man spricht dann von idiopathischem chronischem Husten. Der Husten selbst wird häufig zu einem eigenständigen, sich selbst verstärkenden Reflex: Die ständige mechanische Reizung durch das Husten reizt die Schleimhaut weiter und provoziert erneuten Hustenreiz.",
+    symptome: ["Anhaltender, oft trockener Husten über mehr als acht Wochen", "Kratzendes oder kitzelndes Gefühl im Hals als Auslöser", "Verstärkung des Hustens bei Kälte, Sprechen oder Lachen", "Erschöpfung durch gestörten Nachtschlaf", "Muskelkater im Brust- und Bauchbereich durch häufiges Husten", "Gelegentliche Heiserkeit"],
+    notfall: "Bei chronischem Husten mit Blutbeimengungen im Auswurf, ungewolltem Gewichtsverlust, Nachtschweiß oder zunehmender Atemnot zeitnah ärztlich abklären lassen, um ernstere Ursachen auszuschließen. Ein neu auftretender chronischer Husten sollte immer ärztlich untersucht werden.",
+    disclaimer: "Diese psychosomatische Deutung ersetzt keine ärztliche Diagnostik. Chronischer Husten hat häufig mehrere, teils behandelbare organische Ursachen, die zunächst ausgeschlossen oder behandelt werden müssen.",
+    einleitung: "Husten ist ursprünglich ein Schutzreflex, der die Atemwege von Fremdkörpern oder Sekret befreit – ein plötzlicher, kraftvoller Ausstoß von Luft. Wenn dieser Reflex sich jedoch über Wochen und Monate verselbstständigt, ohne dass eine eindeutige äußere Ursache greifbar ist, lässt sich psychosomatisch fragen, wofür dieser wiederkehrende, abrupte Ausstoß noch stehen könnte. Husten unterbricht ein Gespräch, verschafft eine kurze Pause, lenkt Aufmerksamkeit auf sich, ohne dass Worte nötig wären – ein nonverbaler Kanal für etwas, das anders keinen Ausdruck findet. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, wofür dieser Husten stellvertretend stehen kann, wenn keine rein organische Ursache gefunden wird.",
+    typen: [
+      { typ: 1, titel: "Die Reformerin / der Reformer", varianten: [
+        { code: "SE_1", text: "Die selbsterhaltende Eins unterdrückt Ärger meist konsequent, und ein trockener, wiederkehrender Husten kann sich als kleines, unwillkürliches Ventil für genau diesen zurückgehaltenen Unmut zeigen – ein kurzer, kontrollierter Ausbruch, wo ein offener Vorwurf sich verbietet." },
+        { code: "SO_1", text: "Wer wie die soziale Eins ständig über die Richtigkeit von Abläufen wacht, hustet manchmal genau dann, wenn eine Korrektur auf der Zunge liegt, aber ungesagt bleibt. Der Husten kann so zu einem hörbaren, aber verbal folgenlosen Zeichen des inneren Widerspruchs werden." },
+        { code: "SX_1", text: "Die sexuelle Eins lebt Ärger meist mit Wucht, hält ihn jedoch im engen persönlichen Kontakt manchmal zurück. Ein chronischer Husten kann in solchen Momenten zum stellvertretenden, kurzen Ausbruch werden, der die zurückgehaltene Intensität wenigstens teilweise entlädt." },
+      ]},
+      { typ: 2, titel: "Die Geberin / der Geber", varianten: [
+        { code: "SE_2", text: "Die selbsterhaltende Zwei meldet eigene Erschöpfung selten direkt und lässt stattdessen einen anhaltenden Husten für sich sprechen – ein unwillkürliches Signal, dass etwas nicht stimmt, ohne die eigenen Bedürfnisse offen einfordern zu müssen." },
+        { code: "SO_2", text: "Die soziale Zwei zieht mit einem hartnäckigen Husten mitunter unbewusst Aufmerksamkeit auf sich, in einer Rolle, in der sie sonst fast ausschließlich für andere da ist. Der Husten kann so zum stillen, körperlichen Ausdruck eines Bedürfnisses nach Fürsorge werden." },
+        { code: "SX_2", text: "Die sexuelle Zwei verschweigt Zweifel an der Beziehung oft, und ein anhaltender Husten kann in intensiven Momenten der Nähe unbewusst Distanz schaffen, wo verbal keine Abgrenzung ausgesprochen wird." },
+      ]},
+      { typ: 3, titel: "Die Erfolgreiche / der Erfolgreiche", varianten: [
+        { code: "SE_3", text: "Die selbsterhaltende Drei arbeitet oft auch mit gereiztem Hals weiter, statt sich Ruhe zu gönnen – ausgerechnet dieses Ignorieren kann den Husten chronisch werden lassen, weil die notwendige Erholung ausbleibt." },
+        { code: "SO_3", text: "Vor Publikum kann ein Husten der sozialen Drei unangenehm die makellose Fassade unterbrechen – gleichzeitig verschafft er eine kurze, unverfängliche Pause, in der sie kurz Atem holen kann, ohne offen Schwäche einzugestehen." },
+        { code: "SX_3", text: "Die sexuelle Drei möchte im Kontakt keine Angreifbarkeit zeigen, und ein anhaltender Husten kann unbewusst genau die kurze Distanz schaffen, die nötig ist, um sich selbst kurz zu sammeln, bevor der nächste souveräne Auftritt gelingt." },
+      ]},
+      { typ: 4, titel: "Die Individualistin / der Individualist", varianten: [
+        { code: "SE_4", text: "Die selbsterhaltende Vier erlebt einen hartnäckigen Husten oft als weiteren Beleg dafür, wie zäh und widerständig sich alles im eigenen Körper anfühlt – ein chronisches Symptom, das sich fast wie ein vertrauter Begleiter in ein Leben einfügt, das ohnehin selten leicht erscheint." },
+        { code: "SO_4", text: "Für die soziale Vier kann ein anhaltender Husten unbewusst zum Zeichen dafür werden, wie anders und belastet das eigene Erleben im Vergleich zu scheinbar mühelos gesunden anderen verläuft." },
+        { code: "SX_4", text: "Die sexuelle Vier lebt Sehnsucht und Enttäuschung intensiv, und ein Husten kann in emotional aufgeladenen Momenten zum kurzen, körperlichen Ausdruck eines Zuviels werden, für das gerade keine Worte gefunden werden." },
+      ]},
+      { typ: 5, titel: "Die Beobachterin / der Beobachter", varianten: [
+        { code: "SE_5", text: "Die selbsterhaltende Fünf zieht sich bei Belastung zurück, statt sie zu besprechen, und ein anhaltender Husten kann diesem Rückzug einen körperlichen, unaufdringlichen Ausdruck verleihen – ein leises Signal, ohne den geschätzten Rückzugsraum aufgeben zu müssen." },
+        { code: "SO_5", text: "Die soziale Fünf hält viele Gedanken zurück, bis der richtige Moment gekommen scheint – ein wiederkehrender Husten kann körperlich abbilden, wie viel angesammeltes, ungesagtes Wissen noch keinen Weg nach draußen gefunden hat." },
+        { code: "SX_5", text: "Die sexuelle Fünf öffnet sich selten vollständig, und ein hartnäckiger Husten kann in intensiven, seltenen Momenten der Nähe unbewusst eine kleine, kontrollierte Distanz herstellen." },
+      ]},
+      { typ: 6, titel: "Die Loyale / der Loyale", varianten: [
+        { code: "SE_6", text: "Die selbsterhaltende Sechs grübelt oft ausdauernd über Sorgen, die sie nicht ausspricht – ein chronischer Husten kann körperlicher Ausdruck dieser nie ganz zur Ruhe kommenden inneren Anspannung sein." },
+        { code: "SO_6", text: "Die soziale Sechs hält Zweifel an gemeinsamen Entscheidungen oft zurück, um die Gruppe nicht zu verunsichern – ein anhaltender Husten kann unbewusst zum Ventil für diese unterdrückte Unsicherheit werden." },
+        { code: "SX_6", text: "Die sexuelle Sechs bewegt sich zwischen Vertrauen und Misstrauen, und ein hartnäckiger Husten kann in Momenten größter innerer Zerrissenheit als körperlicher Ausdruck dieser Spannung auftreten." },
+      ]},
+      { typ: 7, titel: "Die Enthusiastin / der Enthusiast", varianten: [
+        { code: "SE_7", text: "Die selbsterhaltende Sieben überspielt Unangenehmes gern mit der nächsten angenehmen Ablenkung – ein anhaltender Husten lässt sich jedoch nicht so leicht wegschieben und erinnert sie unweigerlich an eine Grenze, die sie sonst gern ignoriert." },
+        { code: "SO_7", text: "Die soziale Sieben hält belastende Themen aus geselligen Runden meist heraus – ein Husten, der die Stimmung mitten im Gespräch unterbricht, kann unbewusst genau der Moment sein, in dem eigentlich ernste Worte fällig gewesen wären." },
+        { code: "SX_7", text: "Die sexuelle Sieben spricht selten offen über tiefere Ängste und lenkt lieber zur nächsten Intensität – ein hartnäckiger Husten kann in solchen Momenten unwillkürlich die Aufmerksamkeit dorthin lenken, wo eigentlich innegehalten werden müsste." },
+      ]},
+      { typ: 8, titel: "Die Chefin / der Chef", varianten: [
+        { code: "SE_8", text: "Die selbsterhaltende Acht ignoriert körperliche Beschwerden meist konsequent, bis sie sich nicht mehr überspielen lassen – ein chronischer Husten kann so lange unbeachtet bleiben, bis er sich als hartnäckiges, kaum zu ignorierendes Problem etabliert hat." },
+        { code: "SO_8", text: "Wer wie die soziale Acht Verantwortung für andere trägt, hat wenig Geduld für einen lästigen Husten, der die eigene Handlungsfähigkeit nicht wirklich einschränkt – erst wenn er zur echten Belastung wird, wird er ernst genommen." },
+        { code: "SX_8", text: "Die sexuelle Acht begegnet auch dem eigenen Husten zunächst mit Ungeduld statt mit Fürsorge – ein Symptom, das sich der direkten Konfrontation entzieht und gerade dadurch besonders lange bestehen bleibt." },
+      ]},
+      { typ: 9, titel: "Die Vermittlerin / der Vermittler", varianten: [
+        { code: "SE_9", text: "Die selbsterhaltende Neun gewöhnt sich an einen anhaltenden Husten oft, ohne die eigentliche Ursache je konsequent klären zu lassen – ein weiteres Beispiel dafür, wie leicht sie sich mit unbequemen Zuständen arrangiert, statt aktiv zu werden." },
+        { code: "SO_9", text: "Die soziale Neun möchte mit einem lästigen Husten niemanden stören und schluckt ihn oft klaglos herunter, statt die eigentliche Ursache konsequent abklären zu lassen." },
+        { code: "SX_9", text: "Die sexuelle Neun geht so vollständig in der geliebten Beziehung auf, dass ein eigener, anhaltender Husten oft erst bemerkt wird, wenn das Gegenüber besorgt darauf hinweist, dass er nicht von selbst verschwindet." },
+      ]},
+    ],
+    abschluss: "Chronischer Husten ohne eindeutige organische Ursache kann darauf hinweisen, dass ein wiederkehrender, kurzer Ausdruck fehlt, der anders keinen Platz findet. Die psychosomatische Auseinandersetzung damit kann helfen, das, wofür der Husten stellvertretend steht, bewusster und direkter Ausdruck finden zu lassen."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97897,7 +97956,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Chronischer Husten"],
+  "atemwege": [],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
