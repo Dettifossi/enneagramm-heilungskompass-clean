@@ -99716,6 +99716,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Zyklus ist vor PCOS gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit Reifung und Loslassen auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, offenen Ausdruck oder ein chronisch zurückgehaltenes eigenes Potenzial. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  wechseljahresbeschwerden: {
+    titel: "Wechseljahresbeschwerden",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🌗",
+    kurz: "Eine biologische Schwelle, die überschritten wird – oft begleitet von einem inneren Feuer, das die eigentliche Übergangsenergie dieser Lebensphase sichtbar macht.",
+    definition: "Die Wechseljahre (Menopause und die Jahre davor und danach) markieren das natürliche Ende der fruchtbaren Lebensphase, in der die Eierstöcke ihre Produktion von Östrogen und Progesteron allmählich einstellen. Dieser hormonelle Umbau betrifft weit mehr als die Fortpflanzungsorgane: Er wirkt sich auf Temperaturregulation, Schlaf, Stimmung, Knochendichte, Haut und Schleimhäute aus. Typisch sind Hitzewallungen und Nachtschweiß, die durch die hormonelle Umstellung im Temperaturregulationszentrum des Gehirns entstehen, ebenso wie Schlafstörungen, Stimmungsschwankungen und eine veränderte Libido. Der Verlauf und die Intensität der Beschwerden unterscheiden sich stark von Frau zu Frau – manche durchlaufen diese Phase nahezu unbemerkt, andere erleben sie als tiefgreifenden körperlichen und emotionalen Umbruch. Biologisch betrachtet ist die Menopause kein Mangel, sondern ein natürlicher Übergang in einen neuen hormonellen Zustand.",
+    symptome: ["Hitzewallungen und Nachtschweiß", "Schlafstörungen", "Stimmungsschwankungen, Reizbarkeit, gelegentlich depressive Verstimmung", "Scheidentrockenheit und veränderte Libido", "Konzentrations- und Gedächtnisschwierigkeiten", "Gelenkbeschwerden und Veränderungen der Haut- und Haarstruktur"],
+    notfall: "Kein akuter Notfall. Bei starken Blutungsstörungen, unerklärlichen Blutungen nach der Menopause oder erheblicher psychischer Belastung ärztlich abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die Wechseljahre sind keine Krankheit im eigentlichen Sinne, sondern eine biologische Schwelle – der Übergang von einer Lebensphase in eine andere. Gerade deshalb lohnt sich hier ein etwas anderer Blick als bei den übrigen Krankheitsbildern dieses Kompasses: Es geht weniger um ein aus dem Gleichgewicht geratenes System als um die Energie, die ein solcher Übergang selbst mit sich bringt. In der TCM wird diese Lebensphase mit einer allmählichen Abnahme des Nieren-Yin assoziiert, wodurch das relativ stärkere Yang – innere Hitze – deutlicher hervortritt; die Hitzewallungen gelten dort geradezu als sichtbarer Ausdruck dieses natürlichen Umbaus. Psychosomatisch liest sich diese Phase oft als Bild eines inneren Feuers, das während einer großen Wandlung sichtbar wird – manchmal begleitet von unausgesprochener Trauer über das, was zu Ende geht, manchmal von neu freiwerdender Energie für das, was jetzt beginnen darf. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, wie diese Schwelle innerlich durchlebt wird.",
+    typen: [
+      { typ: 1, titel: "Ein Übergang, der Kontrolle infrage stellt", varianten: [
+        { code: "SE1", text: "Über ihren Körper hält die selbsterhaltende Eins gewohnt strenge Kontrolle, die hormonelle Eigendynamik der Wechseljahre lässt sich davon jedoch nicht beeindrucken. Dieser Kontrollverlust über den eigenen Körper kann die Beschwerden dieser Phase zusätzlich verschärfen." },
+        { code: "SO1", text: "Ihre Fassung wahrt die soziale Eins auch in dieser Übergangsphase nach außen, der innere Umbruch bleibt dabei oft unausgesprochen. Diese stille Anspannung während der Wandlung kann sich als besonders intensive Wechseljahresbeschwerden zeigen." },
+        { code: "SX1", text: "Ihre Gefühle während dieser Lebensphase zeigt die sexuelle Eins unmittelbar, statt sie hinter Fassung zu verbergen. Dieser direktere Ausdruck kann die Anspannung lindern, die bei anderen Einser-Varianten während dieses Übergangs eher bestehen bleibt." },
+      ]},
+      { typ: 2, titel: "Ein Übergang, der nach der eigenen Rolle fragt", varianten: [
+        { code: "SE2", text: "Ihre Identität als Fürsorgende steht in dieser Lebensphase auf dem Prüfstand, ohne dass die selbsterhaltende Zwei sich diese Verunsicherung eingesteht. Diese unausgesprochene Identitätsfrage kann die Wechseljahresbeschwerden verstärken." },
+        { code: "SO2", text: "Ihre Rolle als Unentbehrliche wandelt sich in dieser Lebensphase spürbar, was die soziale Zwei innerlich stärker beschäftigt, als sie zeigt. Diese unausgesprochene Verunsicherung kann sich als intensivere Wechseljahresbeschwerden zeigen." },
+        { code: "SX2", text: "Ihre eigene Wandlung spricht die sexuelle Zwei in der einen wichtigen Beziehung offen an, statt sie zu verschweigen. Dieser Austausch kann die unausgesprochene Verunsicherung mildern, die bei anderen Zweier-Varianten eher bestehen bleibt." },
+      ]},
+      { typ: 3, titel: "Ein Übergang, der das Bild von Jugend erschüttert", varianten: [
+        { code: "SE3", text: "Ihre Leistungsfähigkeit definiert die selbsterhaltende Drei über äußere Vitalität, die hormonelle Umstellung dieser Phase kann dieses Selbstbild empfindlich treffen. Dieser innere Widerstand gegen die Veränderung kann die Beschwerden verstärken." },
+        { code: "SO3", text: "Ihr öffentliches Bild von Jugendlichkeit und Erfolg verteidigt die soziale Drei auch in dieser Übergangsphase, statt sich der Wandlung zu öffnen. Dieser Widerstand kann sich als besonders intensive Wechseljahresbeschwerden zeigen." },
+        { code: "SX3", text: "Die Zeichen dieser Wandlung verbirgt die sexuelle Drei nicht vor der einen wichtigen Person, sondern zeigt sich auch damit offen. Diese Offenheit unterscheidet sich vom öffentlich verteidigten Jugendbild anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Trauer, die endlich Raum bekommt", varianten: [
+        { code: "SE4", text: "Ihre tiefe Trauer über das, was in dieser Lebensphase endgültig zu Ende geht, trägt die selbsterhaltende Vier, der Kontratyp, oft still in sich. Diese unausgesprochene Trauer kann sich als besonders intensive Wechseljahresbeschwerden zeigen." },
+        { code: "SO4", text: "Ihre Trauer über das Ende dieser Lebensphase spricht die soziale Vier offen aus, statt sie zu verschweigen. Dieser Ausdruck kann der Beschwerdeintensität entgegenwirken, die bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SX4", text: "Mit großer emotionaler Intensität durchlebt die sexuelle Vier diesen Übergang offen und dramatisch, statt ihn still zu verschließen. Dieser offene Ausdruck steht der stillen Trauer der selbsterhaltenden Variante deutlich entgegen." },
+      ]},
+      { typ: 5, titel: "Ein Übergang, der von außen betrachtet wird", varianten: [
+        { code: "SE5", text: "Ihre eigenen körperlichen Veränderungen betrachtet die selbsterhaltende Fünf oft eher distanziert und analytisch, statt sie wirklich zu durchleben. Diese Distanz zum eigenen Erleben kann die Wechseljahresbeschwerden verstärken." },
+        { code: "SO5", text: "Über die hormonellen Vorgänge dieser Phase informiert sich die soziale Fünf gründlich, das eigene emotionale Erleben hält sie dabei auf sichere Distanz. Diese intellektuelle statt gefühlte Verarbeitung kann die Beschwerden verstärken." },
+        { code: "SX5", text: "Emotional zulassen statt nur analysieren kann die sexuelle Fünf ihr Erleben dieser Wandlung durchaus, innerhalb ihrer einen tiefen Verbindung. Diese emotionale Beteiligung unterscheidet sich von der generellen Distanz übriger Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Ein Übergang, der Unsicherheit weckt", varianten: [
+        { code: "SE6", text: "Die Unvorhersehbarkeit der hormonellen Umstellung verunsichert die selbsterhaltende Sechs zutiefst, ihr Nervensystem reagiert mit erhöhter Alarmbereitschaft. Diese Anspannung während der Wandlung zählt zu den bekannten Verstärkern von Wechseljahresbeschwerden." },
+        { code: "SO6", text: "Ihre eigene Verunsicherung während dieser Lebensphase teilt die soziale Sechs selten offen mit ihrer Gruppe. Dieses unausgesprochene Ringen kann sich als besonders intensive Wechseljahresbeschwerden zeigen." },
+        { code: "SX6", text: "Der Unsicherheit dieser Lebensphase begegnet die sexuelle Sechs, der Kontratyp, mit aktiver Auseinandersetzung statt mit stiller Sorge. Diese direktere Bewältigung unterscheidet sich von der Alarmbereitschaft anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Ein Übergang, der übersprungen werden soll", varianten: [
+        { code: "SE7", text: "Der eigentlichen Wandlung dieser Phase weicht die selbsterhaltende Sieben aus, indem sie zur nächsten angenehmen Ablenkung springt. Dieses Ausweichen kann die Wechseljahresbeschwerden eher verlängern als lindern." },
+        { code: "SO7", text: "Die eigene Auseinandersetzung mit dieser Lebensphase übergeht die soziale Sieben, der Kontratyp, zugunsten der Gruppe immer wieder. Dieses chronische Ausweichen kann sich als intensivere Wechseljahresbeschwerden zeigen." },
+        { code: "SX7", text: "Mit offener Neugier lässt sich die sexuelle Sieben tatsächlich auf diese Wandlung ein, statt ihr auszuweichen. Diese Bereitschaft unterscheidet sich vom generellen Ausweichen anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Ein Übergang, der Verletzlichkeit erzwingt", varianten: [
+        { code: "SE8", text: "Kontrolle über ihren Körper beansprucht die selbsterhaltende Acht mit großer Konsequenz, die hormonelle Eigendynamik dieser Phase entzieht sich dieser Kontrolle jedoch grundlegend. Diese erzwungene Verletzlichkeit kann die Beschwerden verstärken." },
+        { code: "SO8", text: "Stärke demonstriert die soziale Acht auch in dieser Übergangsphase durchgehend, echte Verletzlichkeit lässt sie dabei kaum zu. Dieser Widerstand gegen die eigene Wandlung kann sich als intensivere Wechseljahresbeschwerden zeigen." },
+        { code: "SX8", text: "Die Verletzlichkeit dieser Wandlung lässt die sexuelle Acht durchaus zu – aber nur innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie Halt, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Übergang, der leise vorübergeht", varianten: [
+        { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigentliche Bedeutung dieser Lebensphase von der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende bewusste Auseinandersetzung kann die Wechseljahresbeschwerden verlängern." },
+        { code: "SO9", text: "Ihre eigene Wandlung ordnet die soziale Neun beständig der Gruppenharmonie unter, ohne sich ihr wirklich bewusst zu stellen. Diese chronische Selbstzurücknahme kann sich als intensivere Wechseljahresbeschwerden zeigen." },
+        { code: "SX9", text: "Wie ihr Partner auf diese Lebensphase reagiert, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Nimmt der Partner die Wandlung gelassen, fällt es auch der Neun leichter, sie anzunehmen." },
+      ]},
+    ],
+    abschluss: "Jede Frau durchläuft die Wechseljahre auf ihre eigene Weise, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen diese biologische Schwelle unterschiedlich durchlebt – manche über Kontrolle, andere über Rückzug, offenen Ausdruck oder eine chronisch übergangene eigene Wandlung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99729,7 +99788,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
