@@ -99185,6 +99185,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Keine Haut ist vor einem Kontaktekzem gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit einer konkreten äußeren Unverträglichkeit auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, offenen Ausdruck oder eine chronisch übergangene eigene Grenze. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  guertelrose: {
+    titel: "Gürtelrose (Herpes Zoster)",
+    kategorie: "haut",
+    icon: "🎗️",
+    kurz: "Ein Jahrzehnte altes Virus erwacht entlang einer einzigen Nervenbahn – und zieht dabei einen schmerzhaften Gürtel um einen genau umrissenen Teil des Körpers.",
+    definition: "Gürtelrose entsteht durch dasselbe Virus, das in der Kindheit die Windpocken auslöst (Varizella-Zoster-Virus). Nach der Erstinfektion zieht es sich in die Spinalganglien zurück – kleine Knotenpunkte entlang der Nervenwurzeln – und verharrt dort oft jahrzehntelang in völliger Ruhe. Erst wenn das Immunsystem geschwächt ist, meist im höheren Lebensalter, unter starkem Stress oder bei ernsthafter Erkrankung, wird das Virus wieder aktiv. Es wandert dann entlang genau eines einzelnen Nervs zur Hautoberfläche und erzeugt dort einen streifenförmigen, meist einseitigen Ausschlag, der wie ein Gürtel einen Teil von Rumpf, Gesicht oder Gliedmaßen umschließt – daher der Name. Typisch ist ein brennender, oft quälender Nervenschmerz, der dem sichtbaren Ausschlag vorausgehen, ihn begleiten und in manchen Fällen sogar Monate oder Jahre überdauern kann (Post-Zoster-Neuralgie).",
+    symptome: ["Brennender, stechender Schmerz entlang eines Nervenverlaufs, oft Tage vor dem sichtbaren Ausschlag", "Streifenförmiger, meist einseitiger Hautausschlag mit gruppierten Bläschen", "Verkrustung der Bläschen nach etwa einer Woche", "Anhaltender Nervenschmerz auch nach Abheilen der Haut (Post-Zoster-Neuralgie)", "Berührungsempfindlichkeit der betroffenen Hautregion", "Allgemeines Krankheitsgefühl, gelegentlich leichtes Fieber"],
+    notfall: "Bei Befall im Bereich von Auge oder Ohr (Gefahr von Seh- oder Hörschäden), bei Ausschlag über mehrere Körperregionen hinweg oder bei zusätzlichen neurologischen Symptomen wie Lähmungen umgehend ärztliche Hilfe suchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Kaum ein Krankheitsbild trägt sein Wesen so bildhaft im Namen wie die Gürtelrose: Ein Gürtel, der sich eng um einen genau umrissenen Teil des Körpers legt – nicht diffus, sondern exakt entlang einer einzigen, alten Nervenbahn. Was hier nach Jahrzehnten der Ruhe wieder erwacht, stammt oft aus einer Zeit, an die sich niemand mehr bewusst erinnert. In der TCM wird Gürtelrose traditionell mit gestautem Leber-Feuer in Verbindung gebracht – aufgestauter, lange unausgedrückter Zorn, der sich seinen Weg entlang der Meridiane bahnt. Psychosomatisch liest sich Herpes Zoster oft als Bild einer sehr alten, sehr spezifischen Last, die sich über ein ganzes Leben hinweg eng um einen bestimmten Bereich des Selbst gelegt hat – geschützt, aber auch eingeengt – und die erst dann wieder hervortritt, wenn die Kraft, sie länger zu halten, nachlässt. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche alte Last hier entlang welcher inneren Bahn wieder aufbricht.",
+    typen: [
+      { typ: 1, titel: "Ein alter Zorn entlang einer festen Bahn", varianten: [
+        { code: "SE1", text: "Jahrzehnte lang hält die selbsterhaltende Eins ihre Selbstdisziplin makellos aufrecht, ohne dem eigenen Ärger je wirklich Raum zu geben. Lässt diese Kraft im Alter oder durch Erschöpfung nach, kann sich genau dieser uralte, nie gelebte Zorn entlang eines einzelnen Nervs Bahn brechen." },
+        { code: "SO1", text: "Über ein ganzes Leben hinweg wacht die soziale Eins über Richtig und Falsch, ohne die eigene Empörung darüber je offen zu zeigen. Wird ihre Kraft, diese Haltung durchzuhalten, im Alter schwächer, kann sich der lange zurückgehaltene Unmut als schmerzhafter Gürtel um einen Körperbereich zeigen." },
+        { code: "SX1", text: "Ihre Empörung lebt die sexuelle Eins meist unmittelbar im Moment aus, statt sie über Jahrzehnte aufzubewahren. Dieser fortlaufende, direkte Ausdruck unterscheidet sich deutlich von der langfristig verschlossenen Anspannung anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Eine alte Last, jahrzehntelang getragen", varianten: [
+        { code: "SE2", text: "Über ein ganzes Leben hinweg trägt die selbsterhaltende Zwei die Bedürfnisse anderer, ohne die eigene Erschöpfung je zuzugeben. Erst wenn diese über Jahrzehnte aufrechterhaltene Kraft nachlässt, kann sich die alte, nie eingestandene Last als schmerzhafter Nervenausschlag zeigen." },
+        { code: "SO2", text: "Unentbehrlich zu bleiben treibt die soziale Zwei ihr ganzes Leben lang an, auch wenn die eigene Erschöpfung längst spürbar wäre. Diese jahrzehntelang durchgehaltene Rolle kann sich, sobald die Kraft nachlässt, als Gürtelrose Bahn brechen." },
+        { code: "SX2", text: "Ihre Erschöpfung zeigt die sexuelle Zwei in der einen wichtigen Beziehung durchaus, statt sie über Jahrzehnte zu verbergen. Dieses frühere Eingeständnis kann der langfristigen Aufstauung entgegenwirken, die bei anderen Zweier-Varianten typischer ist." },
+      ]},
+      { typ: 3, titel: "Ein altes Tempo, das irgendwann nachlässt", varianten: [
+        { code: "SE3", text: "Ihr Leben lang hält die selbsterhaltende Drei ein hohes Tempo durch, ohne sich je echte Erholung zuzugestehen. Lässt diese über Jahrzehnte aufrechterhaltene Kraft nach, kann sich die angesammelte Erschöpfung als schmerzhafter Ausschlag entlang eines Nervs zeigen." },
+        { code: "SO3", text: "Ein ganzes Berufsleben lang hält die soziale Drei ihr makelloses öffentliches Bild aufrecht, ohne die dahinterliegende Erschöpfung je zuzulassen. Im Alter, wenn diese Kraft nachlässt, kann sich genau das als Gürtelrose zeigen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person lässt die sexuelle Drei durchaus auch Erschöpfung zu, statt sie ein Leben lang zu verbergen. Dieses frühere Eingeständnis unterscheidet sich von der über Jahrzehnte aufrechterhaltenen Fassade anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein alter Schmerz, der lange geruht hat", varianten: [
+        { code: "SE4", text: "Ihr ganzes Leben lang trägt die selbsterhaltende Vier, der Kontratyp, einen tiefen, nie ausgesprochenen Schmerz zäh mit sich. Genau dieser jahrzehntealte, verschlossene Schmerz kann sich, wenn die Kraft ihn zu halten nachlässt, als brennender Ausschlag entlang eines Nervs zeigen." },
+        { code: "SO4", text: "Über Jahrzehnte hinweg macht die soziale Vier ihren Schmerz eher zum Thema, als ihn zu verschweigen. Dieser fortlaufende Ausdruck kann der langen, stillen Aufstauung entgegenwirken, die für andere Vierer-Varianten typischer ist." },
+        { code: "SX4", text: "Mit großer, wiederkehrender Intensität lebt die sexuelle Vier ihre emotionalen Ausschläge zwischen Nähe und Verzweiflung, statt sie über Jahrzehnte in sich zu verschließen. Dieser fortlaufende, dramatische Ausdruck steht dem stillen, alten Schmerz der selbsterhaltenden Variante deutlich entgegen." },
+      ]},
+      { typ: 5, titel: "Ein alter Rückzug, der Kraft kostet", varianten: [
+        { code: "SE5", text: "Ihr ganzes Leben lang reduziert die selbsterhaltende Fünf Kontakt und Bedürfnisse auf ein Minimum. Diese über Jahrzehnte durchgehaltene Zurückhaltung kann, sobald die Kraft dafür nachlässt, als schmerzhafter Ausschlag entlang eines einzelnen Nervs hervortreten." },
+        { code: "SO5", text: "Ein Leben lang hält die soziale Fünf emotionale Nähe auf sichere Distanz, während sie ihr Wissen bereitwillig teilt. Lässt diese über Jahrzehnte aufrechterhaltene innere Trennung nach, kann sich das als Gürtelrose zeigen." },
+        { code: "SX5", text: "Echte Nähe zulassen, statt sie über Jahrzehnte hinauszuzögern, gelingt der sexuellen Fünf schon früh im Leben – aber nur innerhalb ihrer einen tiefen, geschützten Verbindung, anders als bei der generellen Zurückhaltung der übrigen Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine alte Wachsamkeit, die Kraft zehrt", varianten: [
+        { code: "SE6", text: "Ihr ganzes Leben lang bleibt die selbsterhaltende Sechs in innerer Habachtstellung, ihr Nervensystem findet selten wirklich Ruhe. Diese über Jahrzehnte aufrechterhaltene Alarmbereitschaft zählt zu den klassischen Wegbereitern einer Gürtelrose im höheren Lebensalter." },
+        { code: "SO6", text: "Ihr Leben lang trägt die soziale Sechs eine stille Sorge um das Wohl ihrer Gruppe mit sich, ohne sie oft auszusprechen. Lässt die Kraft, diese Sorge zu tragen, im Alter nach, kann sich der alte, unaufgelöste Stress als schmerzhafter Ausschlag zeigen." },
+        { code: "SX6", text: "Statt stiller Dauerwachsamkeit begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst ihr Leben lang mit unmittelbarer Konfrontation. Diese fortlaufend nach außen gerichtete Haltung unterscheidet sich von der über Jahrzehnte aufgestauten Anspannung anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Eine alte Erschöpfung, die übersehen wurde", varianten: [
+        { code: "SE7", text: "Ein Leben lang weicht die selbsterhaltende Sieben eigener Erschöpfung aus, indem sie zur nächsten angenehmen Option springt. Diese über Jahrzehnte aufgeschobene Auseinandersetzung mit der eigenen Kraft kann sich im Alter als Gürtelrose zeigen." },
+        { code: "SO7", text: "Ihr Leben lang stellt die soziale Sieben, der Kontratyp, die eigenen Grenzen hinter das Wohl der Gruppe zurück, bis zur völligen Erschöpfung. Diese über Jahrzehnte wiederholte Selbstüberforderung kann sich als schmerzhafter Ausschlag entlang eines Nervs zeigen." },
+        { code: "SX7", text: "Erschöpfung überspielt die sexuelle Sieben ihr Leben lang bemerkenswert lange, getragen von grenzenloser, ansteckender Begeisterung. Diese fortlaufende Vitalität unterscheidet sich vom länger aufgestauten Kraftverlust anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine alte Kontrolle, die endlich nachgibt", varianten: [
+        { code: "SE8", text: "Ihr ganzes Leben lang behält die selbsterhaltende Acht konsequente Kontrolle über ihren Körper und ihre Ressourcen. Ein Nachlassen dieser über Jahrzehnte gehaltenen Kontrolle im Alter erlebt sie als besonders kränkend – und genau dort kann sich eine Gürtelrose zeigen." },
+        { code: "SO8", text: "Ihr Leben lang demonstriert die soziale Acht unbedingte Stärke im Dienst ihrer selbst auferlegten Beschützerrolle. Lässt diese über Jahrzehnte aufrechterhaltene Kraft nach, kann sich der lange verborgene Verschleiß als schmerzhafter Ausschlag zeigen." },
+        { code: "SX8", text: "Schon früh im Leben lässt die sexuelle Acht auch Verletzlichkeit zu, statt sie über Jahrzehnte zu verbergen – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie fortlaufend Entlastung, anders als bei der generellen Kontrollhaltung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Eine alte Erschöpfung, die nie bewusst wurde", varianten: [
+        { code: "SE9", text: "Ihr ganzes Leben lang verliert sich die selbsterhaltende Neun in Routine und Komfort, ohne eigene Erschöpfung je bewusst wahrzunehmen. Eine Gürtelrose im Alter kann so zum ersten wirklich unübersehbaren Hinweis auf eine lebenslang übergangene Kraftlosigkeit werden." },
+        { code: "SO9", text: "Ihr Leben lang ordnet die soziale Neun ihre eigene Erschöpfung der Gruppenharmonie unter, ohne sie je in den Vordergrund zu stellen. Diese über Jahrzehnte durchgehaltene Selbstzurücknahme kann sich im Alter als schmerzhafter Ausschlag entlang eines Nervs zeigen." },
+        { code: "SX9", text: "Ihr Leben lang übernimmt die sexuelle Neun die Wahrnehmung ihrer eigenen Gesundheit vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner über Jahrzehnte hinweg die eigene Erschöpfung nicht, übersieht die Neun ihre eigene Kraftlosigkeit oft ebenso lange." },
+      ]},
+    ],
+    abschluss: "Keine Nervenbahn ist vor Gürtelrose gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen eine sehr alte, über Jahrzehnte getragene Last auf seine eigene Weise hält – manche über Kontrolle, andere über Rückzug, fortlaufenden Ausdruck oder eine lebenslang übergangene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99197,7 +99256,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "bewegungsapparat": [],
   "atemwege": [],
   "verdauung": [],
-  "haut": ["Haarausfall (androgenetisch / diffus)", "Gürtelrose (Herpes Zoster)"],
+  "haut": ["Haarausfall (androgenetisch / diffus)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
