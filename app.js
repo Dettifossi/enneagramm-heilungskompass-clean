@@ -97254,6 +97254,99 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor einer Sehnenscheidenentzündung gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Wiederholung, Anspannung und Erholung verhandelt – manche über repetitive Überlastung, andere über Kontrolle, Rückzug oder eine nie bemerkte eigene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
   },
+  asthma_bronchiale: {
+    titel: "Asthma bronchiale",
+    kategorie: "atemwege",
+    icon: "&#127788;&#65039;",
+    kurz: "Wenn der Atem sich nicht mehr frei nehmen lässt, sondern erkämpft werden muss.",
+    definition: "Asthma bronchiale ist eine chronisch-entzündliche Erkrankung der Atemwege, bei der die Bronchien überempfindlich auf verschiedenste Reize reagieren – Allergene, kalte Luft, Anstrengung, Infekte oder Stress. Im akuten Anfall verengen sich die Bronchien durch eine Kombination aus Muskelverkrampfung, Schleimhautschwellung und vermehrter Schleimproduktion, wodurch vor allem die Ausatmung erschwert wird. Man unterscheidet allergisches (extrinsisches) Asthma, das meist in der Kindheit beginnt und mit anderen atopischen Erkrankungen wie Neurodermitis oder Heuschnupfen einhergeht, von nicht-allergischem (intrinsischem) Asthma, das oft erst im Erwachsenenalter auftritt. Zwischen den Anfällen können Betroffene über weite Strecken beschwerdefrei sein – die entzündliche Grundbereitschaft der Atemwege bleibt jedoch bestehen.",
+    symptome: [
+      "Anfallsartige Atemnot, meist mit erschwerter, verlängerter Ausatmung",
+      "Pfeifende oder brummende Atemgeräusche (Giemen), oft schon aus der Ferne hörbar",
+      "Engegefühl oder Druck im Brustkorb",
+      "Trockener, oft nächtlicher Husten, manchmal einziges Symptom (Husten-Asthma)",
+      "Verstärkung der Beschwerden durch Kälte, Anstrengung, Allergene, Infekte oder starke Gerüche",
+      "Angst und Unruhe während eines akuten Anfalls, oft begleitet von einer aufrechten, nach vorn gebeugten Schonhaltung",
+    ],
+    notfall: "Bei schwerer Atemnot, die sich trotz Notfallmedikation nicht bessert, bläulich verfärbten Lippen, Unfähigkeit, ganze Sätze zu sprechen, oder rasch zunehmender Erschöpfung: sofort den Notruf 112 wählen. Ein schwerer Asthmaanfall (Status asthmaticus) ist ein lebensbedrohlicher Notfall – hier zählt jede Minute, kein Raum für psychosomatische Deutung.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Kaum eine Körperfunktion ist so unmittelbar mit dem Leben selbst verknüpft wie der Atem – und kaum ein Symptom trägt seine psychosomatische Lesart so offen vor sich her wie die erschwerte Ausatmung beim Asthma: Luft wird noch aufgenommen, doch das Loslassen fällt schwer. Die Traditionelle Chinesische Medizin ordnet die Lunge dem Metall-Element und der Trauer zu – ein Organ, das nicht nur Sauerstoff, sondern auch Weltverbindung und Abgrenzung zugleich reguliert, in ständigem Austausch zwischen Außen und Innen. Gerät dieser Austausch aus dem Gleichgewicht, etwa durch zurückgehaltene Trauer oder chronisch unterdrückte Gefühle, kann sich das laut TCM als Atemenge zeigen. Die Psychosomatik liest im Asthma häufig ein Bild von Räumen, Beziehungen oder Erwartungen, die so eng geworden sind, dass der eigene Atem – im wörtlichen wie im übertragenen Sinn – nicht mehr frei fließen darf.",
+    typen: [
+      {
+        typ: 1, titel: "Zorn, der die eigene Luft anhält",
+        varianten: [
+          { code: "SE1", text: "Die selbsterhaltende Eins hält nicht nur ihren Ärger, sondern auch ihren Atem selbst diszipliniert unter Kontrolle – tiefes, freies Atmen fühlt sich für sie fast wie ein Kontrollverlust an, den sie sich nicht erlaubt. Genau dieses unbewusste Zurückhalten des eigenen Atems, verbunden mit der ständigen inneren Anspannung, ihre Umgebung und sich selbst korrekt zu halten, liest die Psychosomatik als naheliegendes Bild für die Enge des Asthmas: eine Lunge, die sich nie ganz öffnen darf, weil Offenheit als Risiko erlebt wird." },
+          { code: "SO1", text: "Für die richtige Ordnung der Dinge kämpft die soziale Eins mit spürbarer innerer Anspannung, oft ohne sich selbst je eine echte Verschnaufpause zuzugestehen – dieser Kampf ohne Erholung kann sich als eine Atmung zeigen, die selten wirklich zur Ruhe kommt, sondern in ständiger, angespannter Bereitschaft verharrt." },
+          { code: "SX1", text: "Mit großer Intensität bringt die sexuelle Eins ihren Verbesserungsanspruch in die eine Beziehung ein – gerade in Momenten der Zuspitzung, wenn Kritik oder Enttäuschung aufeinandertreffen, kann sich diese Anspannung als plötzliche, episodische Atemenge zeigen, statt als chronische Dauerbelastung." },
+        ],
+      },
+      {
+        typ: 2, titel: "Stolz, der keinen eigenen Raum beansprucht",
+        varianten: [
+          { code: "SE2", text: "Die selbsterhaltende Zwei nimmt buchstäblich wenig Raum für sich selbst ein – sie sorgt für andere, tritt zurück, macht sich klein, damit niemand durch sie eingeengt wird. Diese über Jahre gelebte Selbstverkleinerung kann sich psychosomatisch in einer Lunge zeigen, die sich ebenso wenig traut, sich vollständig auszudehnen und den eigenen Raum in der Luft einzunehmen." },
+          { code: "SO2", text: "Für die gesamte Gemeinschaft steht die soziale Zwei zur Verfügung, oft ohne selbst je eine Pause zum Durchatmen einzufordern – dieses ständige Zurückstellen der eigenen Erholung kann sich als eine Atmung zeigen, die kaum je zur vollen, freien Tiefe findet." },
+          { code: "SX2", text: "In intensiven Beziehungsphasen investiert sich die sexuelle Zwei fast vollständig – diese punktuelle, hochemotionale Anspannung kann sich eher als akute, episodische Atemnot zeigen denn als gleichmäßig verteilte, chronische Enge." },
+        ],
+      },
+      {
+        typ: 3, titel: "Leistung, die keine Verschnaufpause kennt",
+        varianten: [
+          { code: "SE3", text: "Die selbsterhaltende Drei funktioniert effizient weiter, auch wenn der Körper längst eine Pause fordert – Innehalten, um tief durchzuatmen, fühlt sich wie verlorene Zeit an. Diese über Jahre fortgesetzte Weigerung, sich selbst Erholung zuzugestehen, kann sich als eine Atmung zeigen, die nie wirklich zur vollen Tiefe findet, weil dafür schlicht keine Zeit eingeplant wird." },
+          { code: "SO3", text: "Im ständigen Vergleich mit anderen hält die soziale Drei ein Tempo durch, das kaum echte Erholungsphasen kennt – dieser permanente Leistungsdruck kann sich körperlich als eine flache, nie ganz befreite Atmung zeigen, die selten zur Ruhe kommt." },
+          { code: "SX3", text: "Um in der Beziehung erfolgreich und begehrenswert zu erscheinen, setzt die sexuelle Drei ihre gesamte Energie ein – dieser fokussierte Einsatz kann in besonders zugespitzten Beziehungsmomenten zu punktueller Atemenge führen, statt zu einer chronisch verengten Atmung." },
+        ],
+      },
+      {
+        typ: 4, titel: "Sehnsucht, die die Luft zum Stocken bringt",
+        varianten: [
+          { code: "SE4", text: "Die selbsterhaltende Vier, der Kontratyp, trägt intensives inneres Leid zäh und stumm, ohne es je auszudrücken – dieses fortgesetzte Zurückhalten kann sich körperlich als eine Atmung zeigen, die ins Stocken gerät, wenn die unausgesprochene Sehnsucht sich nicht länger vollständig unterdrücken lässt." },
+          { code: "SO4", text: "Die soziale Vier macht ihr Leiden sichtbar und findet darin einen gewissen Ausdruck – dieser Ausdruck nach außen kann als eine Art Ventil wirken, das der reinen körperlichen Atemenge zumindest teilweise entgegenwirkt, auch wenn die zugrunde liegende Sehnsucht selbst bestehen bleibt." },
+          { code: "SX4", text: "Mit heftigen Ausschlägen zwischen Nähe und Verzweiflung lebt die sexuelle Vier kompromisslose emotionale Intensität in der Beziehung – gerade diese dramatischen inneren Wendungen können sich als plötzliche, episodische Atemnot zeigen, die in emotional zugespitzten Momenten auftritt." },
+        ],
+      },
+      {
+        typ: 5, titel: "Rückzug, der die eigene Luft knapp hält",
+        varianten: [
+          { code: "SE5", text: "Die selbsterhaltende Fünf reduziert ihr Leben systematisch auf das Nötigste, auch den eigenen Raum, den sie beansprucht – dieser konsequente Minimalismus kann sich körperlich als eine Atmung zeigen, die sich selbst nur knapp bemisst, als traue sie sich nicht, mehr von der Luft zu nehmen, als unbedingt nötig." },
+          { code: "SO5", text: "Die soziale Fünf hält sich mit ihrem Wissen für die Gruppe verfügbar, wahrt aber innerlich Distanz – diese Mischung aus Teilhabe und Rückzug kann sich als eine Atmung zeigen, die selten wirklich frei und offen wird, weil echte Nähe, auch zum eigenen Körper, vermieden wird." },
+          { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus freies Atmen möglich sein – was der generellen Enge entgegenwirkt, die für andere Fünfer-Varianten typischer ist." },
+        ],
+      },
+      {
+        typ: 6, titel: "Angst, die den Atem in Alarmbereitschaft hält",
+        varianten: [
+          { code: "SE6", text: "Die selbsterhaltende Sechs begegnet der Welt mit Vorsicht und einem inneren Frühwarnsystem, das selten wirklich abschaltet – dieser Zustand der Daueralarmbereitschaft hält auch die Atmung in ständiger Anspannung, flach und bereit, statt tief und gelöst." },
+          { code: "SO6", text: "Die soziale Sechs sucht Sicherheit über Zugehörigkeit zu Gruppe oder Autorität und trägt dabei eine oft unausgesprochene Sorge um das Wohlergehen des Kollektivs – diese diffuse, kollektive Anspannung kann sich körperlich als eine nie ganz gelöste Enge in der Brust zeigen." },
+          { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch aktive Konfrontation statt Rückzug – diese direktere Entladung erzeugt eher punktuelle, intensive Atemnot in konkreten Bewährungsmomenten als eine gleichmäßig verteilte, chronische Enge." },
+        ],
+      },
+      {
+        typ: 7, titel: "Maßlosigkeit, die den Atem zerstreut",
+        varianten: [
+          { code: "SE7", text: "Die selbsterhaltende Sieben sichert sich über eine Vielzahl paralleler Optionen ab, springt zwischen Möglichkeiten, ohne je wirklich bei einer anzukommen – diese permanente Zerstreuung kann sich körperlich als eine flatterhafte, nie zur vollen Tiefe findende Atmung zeigen, die kaum je wirklich zur Ruhe kommt." },
+          { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – diese selbstauferlegte Überforderung kann sich als eine Atmung zeigen, die sich selbst kaum je die nötige Pause zum Durchatmen gönnt." },
+          { code: "SX7", text: "Die sexuelle Sieben lebt Begeisterung grenzenlos und impulsiv aus, oft verbunden mit erhöhtem Risiko für Rauchen oder andere Reizstoffe, die die Atemwege zusätzlich belasten können – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine gereizte, überlastete Lunge." },
+        ],
+      },
+      {
+        typ: 8, titel: "Kontrolle, die keine Verletzlichkeit im Atmen zulässt",
+        varianten: [
+          { code: "SE8", text: "Die selbsterhaltende Acht sichert die eigene Existenz durch handfeste Kontrolle über materielle und körperliche Ressourcen – Verletzlichkeit zu zeigen, und dazu gehört auch, sich beim Atmen einmal wirklich fallen zu lassen, widerspricht ihrem Selbstverständnis fundamental. Diese permanente Anspannung kann sich körperlich als eine nie ganz gelöste Enge zeigen." },
+          { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe, oft in einer selbst auferlegten Beschützerrolle – diese permanente Führungsspannung lässt selten Raum für eine wirklich entspannte, tiefe Atmung." },
+          { code: "SX8", text: "Die sexuelle Acht lebt totale Hingabe und Kontrolle in der einen Zweierbeziehung, Intensität pur, nichts Halbes – diese extremen emotionalen Ausschläge können sich eher als plötzliche, heftige Atemnot in zugespitzten Beziehungsmomenten zeigen als als gleichmäßige Dauerspannung." },
+        ],
+      },
+      {
+        typ: 9, titel: "Selbstvergessenheit, die den eigenen Atem übergeht",
+        varianten: [
+          { code: "SE9", text: "Die selbsterhaltende Neun flüchtet in Komfort, feste Routinen und die konsequente Vermeidung jeglichen Konflikts – auch der eigene Atem wird dabei selten bewusst wahrgenommen, funktioniert einfach im Hintergrund, ohne dass sich die Person je fragt, ob er wirklich frei und tief ist. Diese Selbstvergessenheit kann sich psychosomatisch als eine Atmung zeigen, die sich selbst nie wirklich Raum gibt." },
+          { code: "SO9", text: "Die soziale Neun sucht Harmonie um jeden Preis innerhalb der Gruppe und ordnet die eigene Stimme so konsequent unter, dass sie irgendwann kaum noch weiß, was sie selbst eigentlich braucht – diese chronische Selbstauslöschung kann sich als eine Atmung zeigen, die sich selbst nie wirklich Gehör verschafft." },
+          { code: "SX9", text: "Die sexuelle Neun verschmilzt mit dem Partner so vollständig, dass die eigene Identität im Anderen aufgeht – in ihrer reinsten Ausprägung ist das womöglich die deutlichste Version eines Atems, der nie ganz zu seinem eigenen, unabhängigen Rhythmus fand, weil er sich freiwillig dem des geliebten Menschen anpasste." },
+        ],
+      },
+    ],
+    abschluss: "Kein Subtyp ist vor Asthma bronchiale gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit Raum, Atem und dem eigenen Rhythmus verhandelt – manche über Dauerkontrolle, andere über Rückzug, Selbstverkleinerung oder eine nie bemerkte eigene Enge. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden.",
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -97264,7 +97357,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
-  "atemwege": ["Asthma bronchiale", "COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
+  "atemwege": ["COPD", "Chronische Bronchitis", "Heuschnupfen (Allergische Rhinitis)", "Chronische Sinusitis", "Schlafapnoe", "Lungenentzündung (Pneumonie)", "Hyperventilationssyndrom", "Chronische Mandelentzündung", "Chronischer Husten"],
   "verdauung": ["Reizdarmsyndrom", "Reflux-Krankheit / Sodbrennen (GERD)", "Magengeschwür", "Colitis ulcerosa", "Morbus Crohn", "Gallensteine", "Chronische Verstopfung", "Divertikulitis", "Fettleber", "Zöliakie", "Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
