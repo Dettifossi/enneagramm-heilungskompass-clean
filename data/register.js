@@ -447,6 +447,7 @@ export const registerEntries = [
   { term: "Gallensteine (Psychosomatik)", route: "psychosomatik/gallensteine", description: "Psychosomatische Deutung: Bitterkeit, die sich verhärtet statt aufzulösen, TCM Leber-Gallenblase-Stau, Enneagramm alle 27 Subtypen" },
   { term: "Chronische Verstopfung (Psychosomatik)", route: "psychosomatik/chronische_verstopfung", description: "Psychosomatische Deutung: Festhalten statt Loslassen, TCM Dickdarm/Metall-Element, Enneagramm alle 27 Subtypen" },
   { term: "Divertikulitis (Psychosomatik)", route: "psychosomatik/divertikulitis", description: "Psychosomatische Deutung: unbearbeitete kleine Kränkungen in inneren Nischen, Enneagramm alle 27 Subtypen" },
+  { term: "Fettleber (Psychosomatik)", route: "psychosomatik/fettleber", description: "Psychosomatische Deutung: still angesammelte Überlastung ohne Protest, TCM Leber/Hun, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1568,6 +1569,7 @@ export const registerEntriesEN = [
   { term: "Gallstones (Psychosomatics)", route: "psychosomatik/gallensteine", description: "Psychosomatic interpretation: bitterness that hardens instead of dissolving, TCM Liver-Gallbladder stagnation, Enneagram all 27 subtypes" },
   { term: "Chronic Constipation (Psychosomatics)", route: "psychosomatik/chronische_verstopfung", description: "Psychosomatic interpretation: holding on instead of letting go, TCM Large Intestine/Metal element, Enneagram all 27 subtypes" },
   { term: "Diverticulitis (Psychosomatics)", route: "psychosomatik/divertikulitis", description: "Psychosomatic interpretation: unprocessed small hurts tucked away in inner niches, Enneagram all 27 subtypes" },
+  { term: "Fatty Liver (Psychosomatics)", route: "psychosomatik/fettleber", description: "Psychosomatic interpretation: silently accumulated overload without complaint, TCM Liver/Hun, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
