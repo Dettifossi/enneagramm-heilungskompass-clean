@@ -432,6 +432,7 @@ export const registerEntries = [
   { term: "Asthma bronchiale (Psychosomatik)", route: "psychosomatik/asthma_bronchiale", description: "Psychosomatische Deutung: Atem, der nicht frei fließen darf, TCM Lunge/Trauer, Enneagramm alle 27 Subtypen" },
   { term: "COPD (Psychosomatik)", route: "psychosomatik/copd", description: "Psychosomatische Deutung: über Jahrzehnte unveränderte Muster, TCM Lungen-Qi-Mangel, Enneagramm alle 27 Subtypen" },
   { term: "Chronische Bronchitis (Psychosomatik)", route: "psychosomatik/chronische_bronchitis", description: "Psychosomatische Deutung: Husten als stellvertretender Ausdruck, TCM Milz-Lungen-Schwäche, Enneagramm alle 27 Subtypen" },
+  { term: "Heuschnupfen / Allergische Rhinitis (Psychosomatik)", route: "psychosomatik/heuschnupfen", description: "Psychosomatische Deutung: überreizte Grenze zwischen Innen und Außen, TCM Wei-Qi der Lunge, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 
@@ -1538,6 +1539,7 @@ export const registerEntriesEN = [
   { term: "Asthma (Psychosomatics)", route: "psychosomatik/asthma_bronchiale", description: "Psychosomatic interpretation: breath that isn't allowed to flow freely, TCM Lung/grief, Enneagram all 27 subtypes" },
   { term: "COPD (Psychosomatics)", route: "psychosomatik/copd", description: "Psychosomatic interpretation: decades-unchanged patterns, TCM Lung Qi deficiency, Enneagram all 27 subtypes" },
   { term: "Chronic Bronchitis (Psychosomatics)", route: "psychosomatik/chronische_bronchitis", description: "Psychosomatic interpretation: coughing as a substitute expression, TCM Spleen-Lung weakness, Enneagram all 27 subtypes" },
+  { term: "Hay Fever / Allergic Rhinitis (Psychosomatics)", route: "psychosomatik/heuschnupfen", description: "Psychosomatic interpretation: an oversensitive boundary between self and world, TCM Lung Wei-Qi, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
