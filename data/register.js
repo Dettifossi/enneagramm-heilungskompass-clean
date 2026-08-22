@@ -1596,6 +1596,8 @@ export const registerEntriesEN = [
   { term: "Hyperhidrosis (Psychosomatics)", route: "psychosomatik/hyperhidrose", description: "Psychosomatic interpretation: nervous system on permanent standby, TCM Wei Qi weakness, Enneagram all 27 subtypes" },
   { term: "Cold Sores (Psychosomatics)", route: "psychosomatik/lippenherpes", description: "Psychosomatic interpretation: a latent theme breaking out under exhaustion, TCM latent heat, Enneagram all 27 subtypes" },
   { term: "Contact Dermatitis (Psychosomatics)", route: "psychosomatik/kontaktekzem", description: "Psychosomatic interpretation: a concrete outer intolerance at the contact site, TCM invading pathogenic factor, Enneagram all 27 subtypes" },
+  { term: "Shingles (Psychosomatics)", route: "psychosomatik/guertelrose", description: "Psychosomatic interpretation: a very old, decades-carried burden along a nerve pathway, TCM stagnant Liver Fire, Enneagram all 27 subtypes" },
+  { term: "Androgenetic/Diffuse Hair Loss (Psychosomatics)", route: "psychosomatik/haarausfall_diffus", description: "Psychosomatic interpretation: gradual loss of vitality over years, TCM Kidney Essence depletion, Enneagram all 27 subtypes" },
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },

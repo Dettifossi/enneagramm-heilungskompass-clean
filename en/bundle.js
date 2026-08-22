@@ -64411,6 +64411,124 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No skin is immune to contact dermatitis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with a concrete outer intolerance in its own way – some through control, others through withdrawal, open expression, or a chronically overridden boundary of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
+  guertelrose: {
+    titel: "Shingles (Herpes Zoster)",
+    kategorie: "haut",
+    icon: "🎗️",
+    kurz: "A decades-old virus awakens along a single nerve pathway – drawing a painful belt around one precisely outlined part of the body.",
+    definition: "Shingles is caused by the same virus that triggers chickenpox in childhood (varicella-zoster virus). After the initial infection, it withdraws into the spinal ganglia – small nodes along the nerve roots – and often remains there in complete dormancy for decades. Only when the immune system is weakened, usually at an older age, under strong stress, or during serious illness, does the virus reactivate. It then travels along exactly one single nerve to the skin's surface and produces a band-like, usually one-sided rash that encircles part of the trunk, face, or limbs like a belt – hence the name. Typical is a burning, often tormenting nerve pain that can precede the visible rash, accompany it, and in some cases even outlast it by months or years (post-herpetic neuralgia).",
+    symptome: ["Burning, stabbing pain along a nerve pathway, often days before the visible rash", "Band-like, usually one-sided rash with clustered blisters", "Crusting of the blisters after about a week", "Persistent nerve pain even after the skin has healed (post-herpetic neuralgia)", "Sensitivity to touch in the affected skin region", "General malaise, occasionally mild fever"],
+    notfall: "In case of involvement near the eye or ear (risk of vision or hearing damage), a rash spreading across multiple body regions, or additional neurological symptoms such as paralysis, seek medical help immediately.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Hardly any condition carries its nature so vividly in its name as shingles: a belt that wraps tightly around one precisely outlined part of the body – not diffuse, but exactly along a single, old nerve pathway. What awakens here after decades of dormancy often stems from a time no one consciously remembers anymore. In TCM, shingles is traditionally linked to stagnant Liver Fire – pent-up, long-unexpressed anger forcing its way along the meridians. Psychosomatic medicine often reads herpes zoster as the picture of a very old, very specific burden that has wrapped tightly around a particular area of the self for an entire lifetime – protecting, but also confining – and that only resurfaces once the strength to keep holding it any longer fades. For each of the 27 subtypes, its own pattern shows what old burden breaks open here, along which inner pathway.",
+    typen: [
+      { typ: 1, titel: "An old anger along a fixed pathway", varianten: [
+        { code: "SE1", text: "For decades, the self-preservation One upholds her self-discipline flawlessly, never really giving her own frustration any room. If this strength fades with age or exhaustion, exactly this ancient, never-lived anger can force its way out along a single nerve." },
+        { code: "SO1", text: "Over an entire lifetime, the social One watches over right and wrong without ever openly showing her own outrage about it. If her strength to keep up this stance weakens with age, the long-withheld resentment can show up as a painful belt around part of the body." },
+        { code: "SX1", text: "The sexual One lives out her outrage mostly in the moment itself, rather than storing it up for decades. This ongoing, direct expression differs markedly from the long-sealed tension of other One variants." },
+      ]},
+      { typ: 2, titel: "An old burden, carried for decades", varianten: [
+        { code: "SE2", text: "Over an entire lifetime, the self-preservation Two carries others' needs without ever admitting her own exhaustion. Only once this strength, upheld over decades, fades can the old, never-acknowledged burden show up as a painful nerve rash." },
+        { code: "SO2", text: "Staying indispensable drives the social Two her whole life long, even when her own exhaustion would long since have been noticeable. This role, sustained for decades, can force its way out as shingles once her strength fades." },
+        { code: "SX2", text: "The sexual Two does show her exhaustion in the one important relationship, rather than concealing it for decades. This earlier admission can counteract the long-term buildup more typical of other Two variants." },
+      ]},
+      { typ: 3, titel: "An old pace that eventually gives out", varianten: [
+        { code: "SE3", text: "Her whole life long, the self-preservation Three keeps up a high pace without ever allowing herself real recovery. If this strength, sustained over decades, fades, the accumulated exhaustion can show up as a painful rash along a nerve." },
+        { code: "SO3", text: "For an entire career, the social Three upholds her flawless public image, never allowing the exhaustion behind it to show. In old age, once this strength fades, exactly that can show up as shingles." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three does allow exhaustion to show, rather than concealing it for a lifetime. This earlier admission differs from the facade other Three variants sustain for decades." },
+      ]},
+      { typ: 4, titel: "An old pain that has long lain dormant", varianten: [
+        { code: "SE4", text: "Her whole life long, the self-preservation Four, the counter-type, carries a deep, never-spoken pain stubbornly with her. Exactly this decades-old, sealed pain can, once the strength to hold it fades, show up as a burning rash along a nerve." },
+        { code: "SO4", text: "The social Four speaks about her pain openly throughout her life, rather than concealing it for decades. This ongoing expression can counteract the long, quiet buildup more typical of other Four variants." },
+        { code: "SX4", text: "With great, recurring intensity, the sexual Four lives out her emotional swings between closeness and despair, rather than sealing them within herself for decades. This ongoing, dramatic expression stands clearly against the quiet, old pain of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "An old withdrawal that costs strength", varianten: [
+        { code: "SE5", text: "Her whole life long, the self-preservation Five reduces contact and needs to a minimum. This restraint, sustained over decades, can surface as a painful rash along a single nerve once the strength for it fades." },
+        { code: "SO5", text: "For a lifetime, the social Five keeps emotional closeness at a safe distance while readily sharing her knowledge. If this inner separation, sustained over decades, weakens, it can show up as shingles." },
+        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five allows real closeness early in life, rather than postponing it for decades – unlike the general reserve of other Five variants." },
+      ]},
+      { typ: 6, titel: "An old watchfulness that drains strength", varianten: [
+        { code: "SE6", text: "Her whole life long, the self-preservation Six stays in inner alertness, her nervous system rarely finding real rest. This alarm state, sustained over decades, is among the classic pathways toward shingles in older age." },
+        { code: "SO6", text: "Her whole life long, the social Six carries a quiet worry for her group's well-being, often without voicing it. If the strength to carry this worry fades with age, the old, unresolved stress can show up as a painful rash." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with immediate confrontation her whole life long, rather than quiet, sustained watchfulness. This ongoing, outward-directed stance differs from the tension other Six variants build up over decades." },
+      ]},
+      { typ: 7, titel: "An old exhaustion that got overlooked", varianten: [
+        { code: "SE7", text: "Her whole life long, the self-preservation Seven avoids her own exhaustion by jumping to the next pleasant option. This decades-long postponed reckoning with her own strength can show up as shingles in old age." },
+        { code: "SO7", text: "Her whole life long, the social Seven, the counter-type, puts her own limits behind the group's well-being, to the point of complete exhaustion. This self-overload, repeated for decades, can show up as a painful rash along a nerve." },
+        { code: "SX7", text: "With boundless, contagious enthusiasm, the sexual Seven overplays exhaustion remarkably long throughout her life. This ongoing vitality differs from the longer pent-up loss of strength in other Seven variants." },
+      ]},
+      { typ: 8, titel: "An old control that finally gives way", varianten: [
+        { code: "SE8", text: "Her whole life long, the self-preservation Eight retains consistent control over her body and her resources. A weakening of this control, held for decades, in old age feels especially wounding to her – and it is exactly there that shingles can show up." },
+        { code: "SO8", text: "Her whole life long, the social Eight demonstrates unconditional strength in service of her self-imposed protector role. If this strength, sustained over decades, fades, the long-hidden wear can show up as a painful rash." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight allows vulnerability early in life, rather than concealing it for decades. There she finds ongoing relief, unlike the general control stance of other Eight variants." },
+      ]},
+      { typ: 9, titel: "An old exhaustion that never became conscious", varianten: [
+        { code: "SE9", text: "Her whole life long, the self-preservation Nine loses herself in routine and comfort, never consciously registering her own exhaustion. Shingles in old age can thus become the first truly unmistakable sign of a lifelong overridden depletion." },
+        { code: "SO9", text: "Her whole life long, the social Nine subordinates her own exhaustion to group harmony, never bringing it to the foreground. This self-erasure, sustained for decades, can show up in old age as a painful rash along a nerve." },
+        { code: "SX9", text: "Her whole life long, the sexual Nine takes over her perception of her own health from her partner, once she merges with him. If the partner does not notice her exhaustion over decades, the Nine often overlooks her own depletion just as long." },
+      ]},
+    ],
+    abschluss: "No nerve pathway is immune to shingles, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes holds a very old, decades-carried burden in its own way – some through control, others through withdrawal, ongoing expression, or a lifelong overridden exhaustion of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  haarausfall_diffus: {
+    titel: "Hair Loss (Androgenetic / Diffuse)",
+    kategorie: "haut",
+    icon: "🪮",
+    kurz: "Not a sudden shock, but a quiet, years-long becoming-less – often noticed by others before it is noticed by oneself.",
+    definition: "Unlike alopecia areata, androgenetic and diffuse hair loss develops gradually over months to years. In the androgenetic form, genetically predisposed hair follicles become oversensitive to the hormone dihydrotestosterone (DHT), which shortens the hair's growth phase cycle after cycle until the follicles eventually shrink – in men typically starting at the temples and crown, in women typically as a widening part line. Diffuse hair loss, by contrast, affects the whole scalp evenly and often has different causes: iron deficiency, thyroid dysfunction, hormonal shifts (such as after childbirth), chronic stress, or nutrient deficiencies. What both forms share is their slow pace – unlike alopecia areata, there is no dramatic triggering moment, only a gradual thinning that is often only consciously noticed quite late.",
+    symptome: ["Slowly progressing thinning of the hair over months to years", "In the androgenetic form: receding temples and crown thinning (men) or a widening part line (women)", "In the diffuse form: even thinning across the entire scalp", "Increased hair loss when combing or washing, often noticed by others first", "Hair becoming finer and shorter due to shortened growth cycles", "Visibly showing scalp in advanced cases"],
+    notfall: "Not an acute emergency. If hair loss suddenly increases sharply together with other symptoms (exhaustion, weight changes, cycle disturbances), a possible thyroid or iron-deficiency cause should be medically evaluated.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Where alopecia areata tells the story of a sudden tear, androgenetic and diffuse hair loss tells the exact opposite story: a becoming-less so slow that one often only notices it once others have already seen it for some time. In TCM, hair is closely linked to Kidney Essence (Jing) and to the Blood – a gradual loss of hair is traditionally read as a sign of foundational substance exhausting itself over years, not as an acute event. Psychosomatic medicine often reads this form of hair loss as the picture of a vitality quietly withdrawing – not through a single blow, but through a years-long shortfall of renewal, rest, or genuine regeneration. Because one's own hair is also closely tied to youthfulness, attractiveness, and self-image, this slow loss frequently also touches the question of how strongly one identifies with a particular image of oneself. For each of the 27 subtypes, its own pattern shows how this vitality exhausts itself over the years.",
+    typen: [
+      { typ: 1, titel: "An exhaustion no one is allowed to admit", varianten: [
+        { code: "SE1", text: "For years, the self-preservation One keeps up her discipline without a visible pause, real exhaustion barely allowed to exist in her strict self-image. This never-permitted, quiet depletion can show up over time as gradually thinning hair." },
+        { code: "SO1", text: "The social One puts her own exhaustion behind the demand to function as a moral example, year after year. This never-admitted loss of substance can slowly show up as diffuse thinning." },
+        { code: "SX1", text: "The sexual One does show her exhaustion in her close relationship, rather than denying it for years. This earlier admission can counteract the gradual substance depletion of other One variants." },
+      ]},
+      { typ: 2, titel: "A substance that steadily flows to others", varianten: [
+        { code: "SE2", text: "For years, the self-preservation Two passes her strength on to others continuously, without ever really replenishing herself. This ongoing outflow of substance can show up over time as gradual hair thinning." },
+        { code: "SO2", text: "Staying indispensable costs the social Two continuous strength over the years, rarely balanced by genuine recovery. This gradual loss of substance can show up as diffuse hair loss." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two does receive affection in return, rather than only continuously giving. This balance can counteract the ongoing substance outflow of other Two variants." },
+      ]},
+      { typ: 3, titel: "A pace that drains over the years", varianten: [
+        { code: "SE3", text: "For years, the self-preservation Three keeps up a high work pace, without allowing herself genuine recovery phases. This ongoing loss of substance can show up as gradually thinning hair, long before she herself pauses." },
+        { code: "SO3", text: "The social Three upholds her public image of success and vitality over the years, while the actual exhaustion behind it stays invisible. Visible hair loss hits her especially hard, because it directly challenges this image." },
+        { code: "SX3", text: "In front of the one important person, the sexual Three admits exhaustion more readily, rather than concealing it for years. This earlier admission differs from the public image other Three variants sustain." },
+      ]},
+      { typ: 4, titel: "A longing that drains over the years", varianten: [
+        { code: "SE4", text: "For years, the self-preservation Four, the counter-type, carries a deep, never-spoken longing stubbornly with her. This ongoing inner loss of substance can show up as gradual hair thinning." },
+        { code: "SO4", text: "The social Four speaks her longing out loud over the years, rather than sealing it within herself. This ongoing expression can counteract the quiet loss of substance more typical of other Four variants." },
+        { code: "SX4", text: "With recurring intensity, the sexual Four lives her emotional swings openly, rather than storing them up over the years. This ongoing expression stands against the quiet, ongoing substance loss of the self-preservation variant." },
+      ]},
+      { typ: 5, titel: "A withdrawal that costs substance over the years", varianten: [
+        { code: "SE5", text: "For years, the self-preservation Five consistently reduces her needs to a minimum, including her own regeneration. This ongoing frugality toward herself can show up as gradual hair thinning." },
+        { code: "SO5", text: "The social Five readily shares her knowledge over the years, while her own emotional replenishment falls short. This quiet loss of substance can show up as diffuse hair loss." },
+        { code: "SX5", text: "Within her one deep bond, the sexual Five does allow herself to be replenished and nourished over the years, rather than only withdrawing – unlike the general frugality of other Five variants." },
+      ]},
+      { typ: 6, titel: "A tension that drains over the years", varianten: [
+        { code: "SE6", text: "For years, the self-preservation Six sustains a watchful inner tension, her nervous system rarely finding real rest. This ongoing alertness is among the known triggers of gradual, diffuse hair loss." },
+        { code: "SO6", text: "For years, the social Six carries a quiet worry for her group without finding genuine inner relief. This ongoing loss of substance can show up as gradual hair thinning." },
+        { code: "SX6", text: "The sexual Six, the counter-type, meets fear with immediate confrontation over the years, rather than sustained inner tension. This ongoing, outward-directed stance differs from the gradual substance loss of other Six variants." },
+      ]},
+      { typ: 7, titel: "An exhaustion drowned out", varianten: [
+        { code: "SE7", text: "For years, the self-preservation Seven overplays her own exhaustion with ever new pleasant distractions. This ongoing avoidance of real recovery can show up as gradual hair thinning once the body takes the pause for itself." },
+        { code: "SO7", text: "For years, the social Seven, the counter-type, puts her own limits behind the group's well-being, to the point of ongoing exhaustion. This repeated loss of substance can show up as diffuse hair loss." },
+        { code: "SX7", text: "With boundless, contagious enthusiasm, the sexual Seven overplays exhaustion remarkably long over the years. This ongoing vitality can delay the quiet substance loss of other Seven variants." },
+      ]},
+      { typ: 8, titel: "A strength that wears down unnoticed", varianten: [
+        { code: "SE8", text: "For years, the self-preservation Eight consistently spends her strength on control over body and resources, without planning real recovery phases. This ongoing substance depletion feels especially wounding to her once it shows up visibly in her own hair." },
+        { code: "SO8", text: "For years, the social Eight demonstrates unconditional strength in service of her protector role, without sparing herself. This ongoing, hidden loss of substance can show up as gradual hair thinning." },
+        { code: "SX8", text: "Within the one relationship to which she devotes herself with full intensity, the sexual Eight allows recovery and vulnerability over the years. There she finds ongoing regeneration, unlike the general permanent strain of other Eight variants." },
+      ]},
+      { typ: 9, titel: "An exhaustion that never comes first", varianten: [
+        { code: "SE9", text: "For years, the self-preservation Nine loses herself in routine and comfort, never consciously registering her own gradual exhaustion. Gradually thinning hair can thus become the first truly noticed sign of a long-overridden depletion." },
+        { code: "SO9", text: "For years, the social Nine consistently subordinates her own exhaustion to group harmony, never bringing it to the foreground. This ongoing self-erasure can show up as diffuse hair loss." },
+        { code: "SX9", text: "For years, the sexual Nine takes over her perception of her own vitality from her partner, once she merges with him. If the partner does not notice her exhaustion, the Nine often overlooks her own depletion just as long." },
+      ]},
+    ],
+    abschluss: "No hair is immune to gradual loss, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with slow, years-long substance loss in its own way – some through control, others through withdrawal, ongoing expression, or a long-overridden exhaustion of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
