@@ -467,6 +467,7 @@ export const registerEntries = [
   { term: "Schilddrüsenüberfunktion (Psychosomatik)", route: "psychosomatik/morbus_basedow", description: "Psychosomatische Deutung: nicht zu bremsendes inneres Tempo, TCM aufsteigendes Leber-Yang, Enneagramm alle 27 Subtypen" },
   { term: "Hashimoto-Thyreoiditis (Psychosomatik)", route: "psychosomatik/hashimoto", description: "Psychosomatische Deutung: Selbstangriff auf das eigene Ausdrucksorgan, TCM Nieren-/Milz-Qi-Erschöpfung, Enneagramm alle 27 Subtypen" },
   { term: "Übergewicht / Adipositas (Psychosomatik)", route: "psychosomatik/adipositas", description: "Psychosomatische Deutung: Polster, Vorrat oder ungestillte Sehnsucht, TCM Milz-Schwäche, Enneagramm alle 27 Subtypen" },
+  { term: "Metabolisches Syndrom (Psychosomatik)", route: "psychosomatik/metabolisches_syndrom", description: "Psychosomatische Deutung: gleichzeitige Überforderung mehrerer Lebensbereiche, TCM Milz-Qi-/Nieren-Yang-Erschöpfung, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 

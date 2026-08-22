@@ -99598,6 +99598,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Körper ist vor zusätzlichem Gewicht gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit einer Form von Polster, Vorrat oder ungestillter Sehnsucht auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, Genusssuche oder ein chronisch übergangenes eigenes Körpergefühl. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  metabolisches_syndrom: {
+    titel: "Metabolisches Syndrom",
+    kategorie: "hormone-stoffwechsel",
+    icon: "⚖️",
+    kurz: "Nicht ein einzelnes System gerät aus dem Takt, sondern mehrere zugleich – als hätte der Körper irgendwann auf zu vielen Baustellen gleichzeitig nachgegeben.",
+    definition: "Das metabolische Syndrom ist keine einzelne Krankheit, sondern das gemeinsame Auftreten mehrerer Stoffwechselstörungen: bauchbetontes Übergewicht, erhöhter Blutdruck, erhöhte Blutfettwerte (insbesondere Triglyzeride, erniedrigtes HDL-Cholesterin) und erhöhter Nüchternblutzucker bzw. eine beginnende Insulinresistenz. Bereits ab drei dieser Faktoren spricht man vom metabolischen Syndrom, das gemeinsam ein deutlich höheres Risiko für Herzinfarkt, Schlaganfall und Diabetes Typ 2 mit sich bringt als jeder einzelne Faktor für sich. Ursächlich ist meist ein über Jahre bestehendes Ungleichgewicht zwischen Energiezufuhr, Bewegung, chronischem Stress und genetischer Veranlagung, das sich nicht auf ein einzelnes Organ beschränkt, sondern gleich mehrere Regulationssysteme des Körpers gleichzeitig aus dem Gleichgewicht bringt. Anders als bei einer einzelnen Erkrankung erzählt das metabolische Syndrom damit eine Geschichte der gleichzeitigen Überforderung mehrerer Systeme, nicht nur eines.",
+    symptome: ["Bauchbetontes Übergewicht (erhöhter Taillenumfang)", "Erhöhter Blutdruck", "Erhöhte Triglyzeridwerte und erniedrigtes HDL-Cholesterin", "Erhöhter Nüchternblutzucker oder beginnende Insulinresistenz", "Häufig begleitende Müdigkeit und verminderte Belastbarkeit", "Oft lange Zeit ohne spürbare Beschwerden, nur im Blutbild erkennbar"],
+    notfall: "Kein akuter Notfall im engeren Sinn. Bei Anzeichen eines Herzinfarkts (Brustschmerz, Ausstrahlung in Arm oder Kiefer, Atemnot) oder Schlaganfalls (plötzliche Lähmung, Sprachstörung) sofort den Notruf wählen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Das metabolische Syndrom ist unter den Stoffwechselerkrankungen ein besonderer Fall: Hier gerät nicht nur ein System aus dem Takt, sondern gleich mehrere zugleich – als hätte der Körper irgendwann auf zu vielen Baustellen gleichzeitig nachgegeben, statt sich auf eine zu konzentrieren. In der TCM wird ein solches gleichzeitiges Versagen mehrerer Funktionskreise häufig mit einer tiefen, umfassenden Erschöpfung von Milz-Qi und Nieren-Yang assoziiert – einem System, das über Jahre zu viele Aufgaben gleichzeitig tragen musste, ohne sich irgendwo wirklich zu erholen. Psychosomatisch liest sich das metabolische Syndrom oft als Bild eines Lebens, in dem zu lange zu viele Bereiche gleichzeitig unter Druck standen – beruflich, familiär, emotional –, ohne dass irgendwo wirklich Entlastung gefunden wurde. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, auf wie vielen Ebenen gleichzeitig sich diese Überforderung zeigt.",
+    typen: [
+      { typ: 1, titel: "Zu viele Baustellen, die alle perfekt sein sollen", varianten: [
+        { code: "SE1", text: "Auf allen Ebenen ihres Lebens gleichzeitig verlangt die selbsterhaltende Eins von sich Perfektion, ohne sich irgendwo eine echte Verschnaufpause zu gönnen. Diese gleichzeitige Überforderung mehrerer Lebensbereiche kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
+        { code: "SO1", text: "Ihre moralischen Ansprüche verfolgt die soziale Eins gleichzeitig in Beruf, Familie und Gemeinschaft, ohne sich irgendwo Nachsicht zu gönnen. Diese Überforderung auf mehreren Ebenen zugleich kann sich als metabolisches Syndrom zeigen." },
+        { code: "SX1", text: "Ihre Energie konzentriert die sexuelle Eins vor allem auf die eine wichtige Beziehung, statt sie gleichzeitig auf viele Baustellen zu verteilen. Diese Fokussierung unterscheidet sich von der gleichzeitigen Überforderung anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Zu viele, die gleichzeitig versorgt werden", varianten: [
+        { code: "SE2", text: "Für mehrere Menschen gleichzeitig sorgt die selbsterhaltende Zwei oft parallel, ohne sich selbst irgendwo Entlastung zu gönnen. Diese gleichzeitige Überforderung auf vielen Fronten kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
+        { code: "SO2", text: "Unentbehrlich bleibt die soziale Zwei gleichzeitig in mehreren sozialen Rollen, ihre eigene Erholung bleibt dabei auf der Strecke. Diese Überlastung auf mehreren Ebenen zugleich kann sich als metabolisches Syndrom zeigen." },
+        { code: "SX2", text: "Ihre Kraft bündelt die sexuelle Zwei vor allem in der einen wichtigen Beziehung, statt sie auf viele parallele Verpflichtungen zu verteilen. Diese Fokussierung kann der gleichzeitigen Überforderung anderer Zweier-Varianten entgegenwirken." },
+      ]},
+      { typ: 3, titel: "Zu viele Erfolge, die gleichzeitig verfolgt werden", varianten: [
+        { code: "SE3", text: "Mehrere Projekte gleichzeitig treibt die selbsterhaltende Drei mit vollem Einsatz voran, echte Pausen kommen dabei auf keiner Ebene vor. Diese gleichzeitige Überforderung mehrerer Lebensbereiche kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
+        { code: "SO3", text: "Ihren Erfolg misst die soziale Drei gleichzeitig an Karriere, Status und äußerem Erscheinungsbild, ohne sich irgendwo wirklich zu erholen. Diese Überforderung auf mehreren Ebenen zugleich kann sich als metabolisches Syndrom zeigen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person konzentriert die sexuelle Drei ihre Energie, statt sie auf viele parallele Erfolgsfelder zu verteilen. Diese Fokussierung unterscheidet sich von der gleichzeitigen Überforderung anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Zu viele Gefühle, die gleichzeitig ungehört bleiben", varianten: [
+        { code: "SE4", text: "Ihre Sehnsucht, ihren Schmerz und ihre Erschöpfung trägt die selbsterhaltende Vier, der Kontratyp, alle gleichzeitig unausgesprochen mit sich. Diese gleichzeitige innere Überlastung kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
+        { code: "SO4", text: "Ihre vielschichtigen Gefühle spricht die soziale Vier offen aus, statt sie alle gleichzeitig in sich aufzustauen. Dieser Ausdruck kann der gleichzeitigen Überlastung entgegenwirken, die bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SX4", text: "Nacheinander und einzeln durchlebt die sexuelle Vier ihre großen emotionalen Ausschläge, statt sie alle gleichzeitig zu tragen. Dieser sequenzielle Ausdruck unterscheidet sich von der gleichzeitigen Überlastung der selbsterhaltenden Variante." },
+      ]},
+      { typ: 5, titel: "Zu viele Anforderungen, die gleichzeitig eindringen", varianten: [
+        { code: "SE5", text: "Mehrere Anforderungen der Welt hält die selbsterhaltende Fünf gleichzeitig auf Abstand, dieser generelle Rückzug kostet auf mehreren Ebenen zugleich Kraft. Diese Überforderung kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
+        { code: "SO5", text: "Gleichzeitig mehreren Bereichen stellt die soziale Fünf ihr Wissen zur Verfügung, die eigene Erholung bleibt dabei auf mehreren Ebenen zugleich auf der Strecke. Diese Überlastung kann sich als metabolisches Syndrom zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung konzentriert die sexuelle Fünf ihre Energie, statt sie auf viele parallele Anforderungen zu verteilen. Diese Fokussierung unterscheidet sich von der generellen Überforderung der übrigen Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Zu viele Gefahren, die gleichzeitig im Blick bleiben", varianten: [
+        { code: "SE6", text: "Mehrere mögliche Gefahren behält die selbsterhaltende Sechs gleichzeitig im Blick, ihr Nervensystem bleibt dadurch auf vielen Ebenen zugleich in Alarmbereitschaft. Dieser Zustand zählt zu den bekanntesten Wegbereitern eines metabolischen Syndroms." },
+        { code: "SO6", text: "Um das Wohl mehrerer Gruppenmitglieder sorgt sich die soziale Sechs oft gleichzeitig, ohne sich irgendwo echte Entlastung zu gönnen. Diese gleichzeitige Sorge auf mehreren Ebenen kann sich als metabolisches Syndrom zeigen." },
+        { code: "SX6", text: "Eine Situation nach der anderen konfrontiert die sexuelle Sechs, der Kontratyp, gezielt, statt gleichzeitig auf vielen Ebenen wachsam zu bleiben. Diese fokussierte Konfrontation unterscheidet sich von der gleichzeitigen Alarmbereitschaft anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Zu viele Optionen, die gleichzeitig offengehalten werden", varianten: [
+        { code: "SE7", text: "Mehrere angenehme Optionen hält sich die selbsterhaltende Sieben gleichzeitig offen, echte Verbindlichkeit auf einer Ebene fällt ihr schwer. Diese gleichzeitige Zerstreuung auf viele Fronten kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
+        { code: "SO7", text: "Zugunsten mehrerer Gruppenanliegen gleichzeitig stellt die soziale Sieben, der Kontratyp, ihre eigenen Grenzen immer wieder zurück. Diese gleichzeitige Überlastung auf vielen Ebenen kann sich als metabolisches Syndrom zeigen." },
+        { code: "SX7", text: "Mit voller, aber fokussierter Intensität widmet sich die sexuelle Sieben einer intensiven Erfahrung nach der anderen, statt gleichzeitig viele offenzuhalten. Dieses sequenzielle Erleben unterscheidet sich von der gleichzeitigen Zerstreuung anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Zu viele Fronten, die gleichzeitig kontrolliert werden", varianten: [
+        { code: "SE8", text: "Kontrolle über mehrere Ressourcenbereiche gleichzeitig beansprucht die selbsterhaltende Acht mit großer Konsequenz, echte Erholung findet auf keiner dieser Ebenen statt. Diese gleichzeitige Kraftanstrengung kann sich stoffwechselseitig als metabolisches Syndrom zeigen." },
+        { code: "SO8", text: "Stärke und Kontrolle demonstriert die soziale Acht gleichzeitig in mehreren Bereichen ihrer Beschützerrolle, eigene Erschöpfung tritt dabei überall zurück. Diese gleichzeitige Führungsspannung kann sich als metabolisches Syndrom zeigen." },
+        { code: "SX8", text: "Ihre Kontrolle konzentriert die sexuelle Acht auf die eine Beziehung, der sie sich mit voller Intensität hingibt, statt sie auf viele Fronten zu verteilen. Diese Fokussierung unterscheidet sich von der gleichzeitigen Dauerbeanspruchung der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Zu viele Signale, die gleichzeitig übersehen werden", varianten: [
+        { code: "SE9", text: "Mehrere Warnsignale des Körpers bleiben bei der selbsterhaltenden Neun gleichzeitig unbemerkt, so vollständig verliert sie sich in Routine und Komfort. Ein metabolisches Syndrom kann sich so über Jahre auf mehreren Ebenen zugleich unbemerkt entwickeln." },
+        { code: "SO9", text: "Mehrere eigene Bedürfnisse gleichzeitig ordnet die soziale Neun der Gruppenharmonie unter, ohne sie je einzeln in den Vordergrund zu stellen. Diese gleichzeitige Selbstzurücknahme auf vielen Ebenen kann sich als metabolisches Syndrom zeigen." },
+        { code: "SX9", text: "Die Wahrnehmung mehrerer eigener Körpersignale übernimmt die sexuelle Neun oft gleichzeitig vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner diese Signale nicht, übersieht die Neun sie auf mehreren Ebenen zugleich." },
+      ]},
+    ],
+    abschluss: "Kein Stoffwechsel ist vor gleichzeitiger Überforderung mehrerer Systeme gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit Belastung auf vielen Ebenen zugleich auf seine eigene Weise umgeht – manche über Kontrolle, andere über Fokussierung, gleichzeitige Zerstreuung oder ein chronisch übergangenes eigenes Warnsignal. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99611,7 +99670,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
