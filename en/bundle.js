@@ -63172,6 +63172,124 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Chronic cough without a clear organic cause can point to a recurring, brief expression that otherwise finds no place. Psychosomatic engagement with it can help give what the cough stands in for a more conscious and direct expression."
   },
+  reizdarmsyndrom: {
+    titel: "Irritable Bowel Syndrome",
+    kategorie: "verdauung",
+    icon: "🌀",
+    kurz: "Recurring abdominal pain and altered bowel habits with no detectable organic cause – the gut reacts oversensitively to stimuli of every kind.",
+    definition: "Irritable bowel syndrome (IBS) is a chronic, functional disorder of the gut in which recurring abdominal pain or cramping occurs together with altered bowel habits – diarrhea, constipation, or an alternation between the two – without any organic cause such as inflammation, ulcer, or tumor being found on examination. The diagnosis is made when symptoms have persisted for at least three months and other conditions have been ruled out. Characteristic is an increased sensitivity of the gut's nerves (visceral hypersensitivity) as well as a close coupling to the autonomic nervous system: stress, excitement, and emotional tension often worsen symptoms immediately, while the gut tends to settle during calm, relaxed phases.",
+    symptome: ["Recurring, cramp-like abdominal pain that often improves after a bowel movement", "Bloating and a feeling of fullness", "Diarrhea, constipation, or an alternation between the two", "Mucus in the stool", "A feeling of incomplete emptying", "Marked worsening of symptoms with stress or emotional strain"],
+    notfall: "In case of blood in the stool, unintended weight loss, nighttime pain that wakes you from sleep, fever, or first onset of symptoms after age 50, seek prompt medical evaluation – these warning signs argue against pure IBS and must be checked to rule out other causes.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "Research has long called the gut the &bdquo;second brain&ldquo; – via the gut-brain axis it stands in direct, two-way exchange with the central nervous system, and a large share of the body's own messenger substances for mood and tension are produced in the gut itself. In TCM, a harmonious interplay of Liver and Spleen is considered the precondition for calm digestion: when Liver Qi stagnates through withheld anger or unresolved tension, it &bdquo;invades&ldquo; the Spleen and disrupts its task of processing food in an orderly way. Psychosomatic medicine often reads IBS as a gut that must literally digest what the mind cannot process – every unresolved tension gets passed directly along to it. For each of the 27 subtypes, its own pattern shows what kind of tension especially often lands in the belly.",
+    typen: [
+      { typ: 1, titel: "Anger that must be digested in the belly", varianten: [
+        { code: "SE1", text: "The self-preservation One holds back anger over disorder and mistakes in a disciplined way, rarely letting it become visible to the outside. The gut takes over what the mind will not allow, responding with cramps exactly when her outward composure is at its greatest." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over the correctness of things, carries around a great deal of withheld outrage over wrongs that is rarely voiced directly. This chronically digested criticism can show up as recurring abdominal cramps that arise exactly when something is once again felt to be wrong but left unaddressed." },
+        { code: "SX1", text: "The sexual One lives her demand for improvement in the relationship with great intensity – precisely in moments of escalation, when criticism must be held back, this tension can show up as an acute, episodic cramp in the belly, rather than as an even, ongoing strain." },
+      ]},
+      { typ: 2, titel: "Pride that swallows its own tension", varianten: [
+        { code: "SE2", text: "The self-preservation Two tirelessly looks after others and, in the process, overrides her own warning signs of exhaustion and tension. The gut registers what the mind blanks out, responding with cramps exactly where a break would actually have been due." },
+        { code: "SO2", text: "Being indispensable to many people at once demands of the social Two a constant inner tension that is rarely named openly. This diffuse, never fully resolved strain can show up as a gut that settles just as little as she herself does." },
+        { code: "SX2", text: "In intense relationship phases, the sexual Two invests herself almost completely without looking after herself – this pointed, highly emotional tension tends to show up as an acute cramp rather than as an evenly distributed, chronic complaint." },
+      ]},
+      { typ: 3, titel: "Achievement that leaves the belly no break", varianten: [
+        { code: "SE3", text: "The self-preservation Three often eats on the side, between two appointments, without giving the digestive process the rest it needs. This refusal, sustained over years, to grant herself a break can show up as a gut that never truly settles, simply because no time is ever set aside for it." },
+        { code: "SO3", text: "In constant comparison with others, the social Three keeps up a pace that allows the digestive system hardly any recovery – this permanent pressure to perform can show up physically as a nervous, irritated gut that rarely settles." },
+        { code: "SX3", text: "To appear successful and flawless in the relationship, the sexual Three happily plays down physical warning signs like abdominal pain for as long as possible – this focused will to control her outward image often delays paying her own belly any attention at all." },
+      ]},
+      { typ: 4, titel: "Longing that cramps in the belly", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently, without ever expressing it – this sustained withholding can show up physically as a gut that cramps when the unspoken longing finds no other way out." },
+        { code: "SO4", text: "The social Four makes her suffering visible and finds a certain expression in it – this outward expression can act as a valve that at least partly counteracts the purely physical digestive complaint, even though the underlying longing itself remains." },
+        { code: "SX4", text: "With fierce swings between closeness and despair, the sexual Four lives uncompromising emotional intensity in the relationship – precisely these dramatic inner turns can show up as sudden, episodic abdominal cramps that arise in emotionally charged moments." },
+      ]},
+      { typ: 5, titel: "Withdrawal that keeps its own tension in the belly", varianten: [
+        { code: "SE5", text: "The self-preservation Five withdraws under strain rather than seeking contact and exchange – and it is precisely this withdrawal that can, on a physical level, lead to a gut that processes the undiscussed tension in her stead." },
+        { code: "SO5", text: "The social Five makes herself available to the group through her knowledge, while inwardly keeping her distance – this mixture of participation and withdrawal can show up as a gut that rarely truly relaxes, because genuine closeness, even to her own body, is avoided." },
+        { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, physical complaints can well be discussed openly – which counteracts the quiet suppression more typical of other Five variants." },
+      ]},
+      { typ: 6, titel: "Fear that keeps the belly on alert", varianten: [
+        { code: "SE6", text: "The self-preservation Six meets the world with caution and an inner early-warning system that rarely truly switches off – this state of permanent alertness also keeps the gut in constant tension, which can show up as chronic digestive complaints." },
+        { code: "SO6", text: "The social Six carries an often unspoken worry for the well-being of her group – this diffuse, collective tension can show up physically as a gut that never quite lets go, reacting sensitively to any uncertainty." },
+        { code: "SX6", text: "The sexual Six meets fear counterphobically, through active confrontation rather than withdrawal – this more direct discharge tends to produce pointed, intense abdominal cramps in concrete moments of trial rather than an evenly distributed, chronic complaint." },
+      ]},
+      { typ: 7, titel: "Excess that overburdens the gut", varianten: [
+        { code: "SE7", text: "The self-preservation Seven secures herself through a multitude of comforts, often eating hastily and irregularly between appointments and pleasures – this permanent scattering can show up physically as a gut that never truly settles, because it is constantly confronted with changing stimuli." },
+        { code: "SO7", text: "The social Seven, the counter-type, consistently sets her own needs aside in favor of others, often to the point of her own exhaustion – this self-imposed overload can show up as a gut that hardly ever grants itself the necessary pause to recover." },
+        { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly and impulsively, often paired with irregular eating and intense indulgence in stimulants – psychosomatic medicine reads this combination of restless intensity and substance-linked irritation as one of the more direct pictures of an irritated, overburdened gut." },
+      ]},
+      { typ: 8, titel: "Control that allows no vulnerability in the belly", varianten: [
+        { code: "SE8", text: "The self-preservation Eight secures her own existence through firm control over material and physical resources – abdominal pain as a sign of vulnerability is initially ignored, until it can no longer be pushed away and starts limiting the reliable capacity to act she otherwise prizes." },
+        { code: "SO8", text: "The social Eight takes control not for herself but for the group, often in a self-imposed protector role – this permanent leadership tension leaves little room for a genuinely relaxed gut." },
+        { code: "SX8", text: "The sexual Eight lives total devotion and control in the one intimate bond, pure intensity, nothing halfway – these extreme emotional swings tend to show up as sudden, intense abdominal cramps in charged relationship moments rather than as an even, ongoing tension." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overrides its own belly", varianten: [
+        { code: "SE9", text: "The self-preservation Nine takes refuge in comfort, fixed routines, and the consistent avoidance of any conflict – her own digestive signals, too, are rarely consciously noticed in the process, until they have settled in as a chronic, barely ignorable pattern." },
+        { code: "SO9", text: "The social Nine seeks harmony within the group at any cost and subordinates her own voice so consistently that, eventually, she barely knows what she herself actually needs – this chronic self-erasure can show up as a gut that never really makes itself heard." },
+        { code: "SX9", text: "The sexual Nine merges with her partner so completely that her own perception of hunger, fullness, and digestion often orients itself by the other's rather than by her own signals – a fusion that makes it harder to notice her own belly in the first place." },
+      ]},
+    ],
+    abschluss: "No subtype is immune to irritable bowel syndrome, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates tension, anger, and unresolved feelings in its own way – some through permanent control, others through withdrawal, self-forgetting, or an unnoticed overload of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  reflux_gerd: {
+    titel: "Acid Reflux / Heartburn (GERD)",
+    kategorie: "verdauung",
+    icon: "🔥",
+    kurz: "When stomach acid keeps flowing back into the esophagus, leaving a burning sensation that cannot permanently be swallowed away.",
+    definition: "In gastroesophageal reflux disease (GERD), acidic stomach contents repeatedly flow back into the esophagus because the sphincter between esophagus and stomach no longer seals reliably. The sensitive esophageal lining, which unlike the stomach lining is not built to withstand contact with acid, responds with irritation and inflammation. Reflux is favored by excess weight, certain foods (fatty, spicy, coffee, alcohol), smoking, stress, and a hiatal hernia. Left untreated, the chronic irritation can lead to changes in the lining (Barrett's esophagus) that raise the risk of esophageal cancer – an important reason to have persistent heartburn medically evaluated.",
+    symptome: ["Burning sensation behind the breastbone (heartburn), often worse after eating or when lying down", "Acid regurgitation, sometimes reaching the throat", "Difficulty swallowing or a lump-in-the-throat feeling", "Chronic cough or hoarseness, especially in the morning", "A sense of pressure or nausea in the upper abdomen", "Tooth damage from repeated acid exposure"],
+    notfall: "In case of difficulty swallowing combined with unintended weight loss, blood in vomit, or black, tarry stool, seek medical evaluation immediately. Burning chest pain can also be a symptom of a heart attack – when in doubt, especially with radiation into the arm or jaw, call emergency services immediately.",
+    disclaimer: "Every person can develop any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but a psychosomatic interpretive offering – patterns that stand out in practice, but never a substitute for seeing a doctor or licensed alternative practitioner.",
+    einleitung: "In TCM, an upward-striving, &bdquo;rebellious&ldquo; movement of Stomach Qi is considered a cause of heartburn and regurgitation – normally Stomach Qi is meant to flow downward, so that food takes its path downward too. Emotionally, this reversal is often linked to withheld anger, frustration, or resentment that finds no other outlet and instead literally comes back up. Psychosomatic medicine often reads reflux as the picture of something that should actually have been swallowed and closed off, but keeps forcing its way back up – an anger, a hurt, or a conflict that cannot be finally digested. For each of the 27 subtypes, its own pattern shows what especially stubbornly keeps coming back up here.",
+    typen: [
+      { typ: 1, titel: "Anger that keeps coming back up", varianten: [
+        { code: "SE1", text: "The self-preservation One swallows anger over mistakes and disorder in a disciplined way, because an open outburst does not fit her image of composure. It is precisely this repeatedly swallowed anger that can show up physically as acid forcing its way back up once the pressure grows too great." },
+        { code: "SO1", text: "Whoever, like the social One, constantly watches over the correctness of things, holds back a great deal of moral outrage that is rarely voiced openly. This inner store of suppressed criticism can show up as chronic heartburn – an anger that cannot finally be swallowed away." },
+        { code: "SX1", text: "The sexual One lives her demand for improvement in the relationship with great intensity – precisely when criticism must be held back in a charged moment, this tension can show up as acute, episodic burning rather than as chronic, ongoing strain." },
+      ]},
+      { typ: 2, titel: "Pride that swallows its own bitterness", varianten: [
+        { code: "SE2", text: "The self-preservation Two regularly swallows her own disappointment and exhaustion, so as not to be a burden to others. This constant swallowing can show up physically as acid that keeps coming back up, because what actually needs to be said never finds its way out." },
+        { code: "SO2", text: "For the social Two, it is only natural to be indispensable to many people at once – her own hurt over a lack of recognition is rarely shown openly. This constant swallowing of genuine feelings can show up as chronic regurgitation that reports in exactly where an open conversation should have taken place." },
+        { code: "SX2", text: "In intense relationship phases, the sexual Two does express her needs more directly – this more immediate expression counters the constant, substitute heartburn more typical of more thoroughly swallowed feelings." },
+      ]},
+      { typ: 3, titel: "Achievement that leaves no time to digest", varianten: [
+        { code: "SE3", text: "The self-preservation Three often eats hastily between appointments and keeps working right after, without giving her stomach the rest it needs to digest. This refusal, sustained over years, to grant herself a break can show up as chronic heartburn that never truly settles, simply because no time is ever set aside for it." },
+        { code: "SO3", text: "In constant comparison with others, the social Three keeps up a pace that allows the digestive system hardly any recovery – this permanent pressure to perform can show up physically as a burning, irritated stomach that rarely settles." },
+        { code: "SX3", text: "To appear flawless in the relationship, the sexual Three happily plays down a burning sensation in her chest for as long as possible – this focused will to control her outward image often delays paying her own body any attention at all." },
+      ]},
+      { typ: 4, titel: "Longing that shows up as burning", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently, without ever expressing it – this sustained withholding can show up physically as a burning sensation that keeps coming back up when the unspoken longing finds no other way out." },
+        { code: "SO4", text: "The social Four makes her suffering visible and finds a certain verbal expression in it – this outward expression can act as a valve that at least partly counteracts the purely physical heartburn, even though the underlying longing itself remains." },
+        { code: "SX4", text: "With fierce swings between closeness and despair, the sexual Four lives uncompromising emotional intensity in the relationship – precisely these dramatic inner turns can show up as sudden, episodic burning that arises in emotionally charged moments." },
+      ]},
+      { typ: 5, titel: "Withdrawal that keeps its own bitterness to itself", varianten: [
+        { code: "SE5", text: "The self-preservation Five consistently keeps even physical complaints to herself, rarely seeking medical advice as long as it is at all possible – this quiet enduring of a recurring burning sensation, without ever seriously treating it, fits the picture of a reflux condition that was able to settle in over years untreated." },
+        { code: "SO5", text: "The social Five keeps emotional closeness at a distance behind intellectual detachment – a recurring burning behind the breastbone, too, can thus be registered as an abstract fact rather than taken seriously as a genuine physical signal." },
+        { code: "SX5", text: "Within the narrow, deep bond that the sexual Five cultivates, physical complaints can well be discussed openly – which counteracts the quiet suppression more typical of other Five variants." },
+      ]},
+      { typ: 6, titel: "Fear that shows up as sour regurgitation", varianten: [
+        { code: "SE6", text: "The self-preservation Six lives in constant caution and inner tension – this permanent state can show up physically as a stomach that reacts oversensitively to any tension, producing acid that forces its way upward." },
+        { code: "SO6", text: "The social Six carries an often unspoken worry for the well-being of her group – this diffuse, never fully relieved tension can show up as chronic heartburn that reports in especially during phases of heightened responsibility." },
+        { code: "SX6", text: "Through active confrontation, the sexual Six discharges fear more directly rather than processing it through substitute reflux – this more immediate reaction counters the chronic heartburn more typical of other Six variants." },
+      ]},
+      { typ: 7, titel: "Indulgences that irritate the stomach directly", varianten: [
+        { code: "SE7", text: "The self-preservation Seven secures herself through a variety of culinary comforts, often paired with fatty food, coffee, or alcohol as a means of self-reward – psychosomatic medicine reads this direct reach for stomach-irritating indulgences as one of the most immediate pictures of reflux: an esophagus that has grown accustomed to repeated acid exposure." },
+        { code: "SO7", text: "The social Seven, the counter-type, sets her own needs aside in favor of others, often to the point of her own exhaustion – a recurring burning sensation can easily be overlooked in the process, because attention consistently lies with the needs of others." },
+        { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly, often paired with late, rich meals and intense indulgence in stimulants – psychosomatic medicine reads this impulsive intensity as one of the more direct paths to an irritated, chronically inflamed esophageal lining." },
+      ]},
+      { typ: 8, titel: "Control that dismisses heartburn as weakness", varianten: [
+        { code: "SE8", text: "The self-preservation Eight consistently overrides physical warning signs, because admitting weakness contradicts her self-image – a lingering burning is simply ignored until it has settled in as a chronic pattern." },
+        { code: "SO8", text: "The social Eight takes on responsibility for many people at once and often puts her own health last in the process – recurring heartburn remains unattended until it has structurally settled in." },
+        { code: "SX8", text: "In extreme but episodic swings, the sexual Eight lives her intensity within the relationship – this pointed dynamic differs from the chronic, structural reflux pattern more typical of permanently overridden warning signs." },
+      ]},
+      { typ: 9, titel: "Self-forgetting that overrides its own burning", varianten: [
+        { code: "SE9", text: "The self-preservation Nine takes refuge in comfort and routine and often barely consciously registers her own heartburn – this overlooking of a constantly recurring physical signal fits especially closely with the picture of a reflux condition that was able to develop over years unnoticed." },
+        { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony that even her own burning rarely finds real attention – this chronic self-effacement can show up as a signal that is never taken seriously yet keeps recurring." },
+        { code: "SX9", text: "The sexual Nine merges with her partner and often adopts his or her perception of her own health as the standard – if the partner does not notice the heartburn, the Nine often does not notice it either, because her own bodily awareness recedes behind the merging." },
+      ]},
+    ],
+    abschluss: "No subtype is immune to reflux, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates withheld anger, overridden signals, and its own voice in its own way – some through swallowed rage, others through withdrawal, substance-linked self-reward, or a warning of their own that is never taken seriously. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 };
 
 // Roadmap of the roughly 100 most common conditions in Western industrialized nations
@@ -63182,7 +63300,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Irritable Bowel Syndrome", "Acid Reflux / Heartburn (GERD)", "Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
+  "verdauung": ["Stomach Ulcer", "Ulcerative Colitis", "Crohn's Disease", "Gallstones", "Chronic Constipation", "Diverticulitis", "Fatty Liver Disease", "Celiac Disease", "Hemorrhoids"],
   "haut": ["Atopic Dermatitis (Eczema)", "Psoriasis", "Acne", "Hives (Urticaria)", "Rosacea", "Vitiligo", "Hair Loss (Androgenetic / Diffuse)", "Contact Dermatitis", "Excessive Sweating (Hyperhidrosis)", "Shingles (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Type 2 Diabetes", "Hypothyroidism", "Hyperthyroidism (Graves' Disease)", "Hashimoto's Thyroiditis", "Overweight / Obesity", "Metabolic Syndrome", "PCOS (Polycystic Ovary Syndrome)", "Menopause Symptoms", "Premenstrual Syndrome (PMS)", "Insulin Resistance / Prediabetes"],
   "nerven-psyche": ["Migraine", "Tension Headache", "Depression", "Generalized Anxiety Disorder", "Panic Attacks", "Burnout Syndrome", "Insomnia", "Narcolepsy", "Tinnitus", "Vertigo / Dizziness", "Restless Legs Syndrome", "Teeth Grinding (Bruxism)", "Chronic Fatigue Syndrome (ME/CFS)"],
