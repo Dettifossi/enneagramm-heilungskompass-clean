@@ -465,6 +465,7 @@ export const registerEntries = [
   { term: "Diabetes mellitus Typ 2 (Psychosomatik)", route: "psychosomatik/diabetes_typ_2", description: "Psychosomatische Deutung: angebotene, aber nicht angenommene Süße, TCM Xiaoke-Syndrom, Enneagramm alle 27 Subtypen" },
   { term: "Schilddrüsenunterfunktion (Psychosomatik)", route: "psychosomatik/hypothyreose", description: "Psychosomatische Deutung: gedrosseltes inneres Tempo und Ausdruck, TCM Nieren-/Milz-Yang-Schwäche, Enneagramm alle 27 Subtypen" },
   { term: "Schilddrüsenüberfunktion (Psychosomatik)", route: "psychosomatik/morbus_basedow", description: "Psychosomatische Deutung: nicht zu bremsendes inneres Tempo, TCM aufsteigendes Leber-Yang, Enneagramm alle 27 Subtypen" },
+  { term: "Hashimoto-Thyreoiditis (Psychosomatik)", route: "psychosomatik/hashimoto", description: "Psychosomatische Deutung: Selbstangriff auf das eigene Ausdrucksorgan, TCM Nieren-/Milz-Qi-Erschöpfung, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 

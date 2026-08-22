@@ -99480,6 +99480,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Keine Schilddrüse ist vor einer Überfunktion gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit innerer Alarmbereitschaft und Beschleunigung auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, punktuelle Entladung oder eine chronisch übergangene eigene Anspannung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  hashimoto: {
+    titel: "Hashimoto-Thyreoiditis",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🗡️",
+    kurz: "Das eigene Immunsystem greift ausgerechnet das Organ an, das der eigenen Stimme und dem eigenen Ausdruck am nächsten liegt.",
+    definition: "Hashimoto-Thyreoiditis ist eine Autoimmunerkrankung und in westlichen Industrienationen die häufigste Ursache einer Schilddrüsenunterfunktion. Das körpereigene Immunsystem bildet Antikörper (u. a. gegen die Thyreoperoxidase, TPO), die das Schilddrüsengewebe über Jahre hinweg schleichend entzünden und schließlich zerstören. Der Verlauf ist typischerweise wellenförmig: Phasen mit unauffälligen oder sogar leicht überschießenden Werten wechseln sich anfangs mit einer allmählich fortschreitenden Unterfunktion ab, oft über Jahre, bevor die Erkrankung eindeutig diagnostiziert wird. Viele Betroffene durchlaufen eine lange Phase diffuser, schwer greifbarer Beschwerden, in der Blutwerte noch grenzwertig erscheinen, während sich das Immunsystem bereits gegen das eigene Gewebe richtet. Anders als die reine Unterfunktion ist Hashimoto damit primär eine Geschichte des Immunsystems, das sich gegen die eigene Schilddrüse wendet – nicht nur ein Organ, das von außen zu wenig Antrieb bekommt, sondern eines, das von innen angegriffen wird.",
+    symptome: ["Wechselhafte, anfangs oft unklare Beschwerden (Erschöpfung, Stimmungsschwankungen)", "Später zunehmend Symptome der Unterfunktion: Müdigkeit, Gewichtszunahme, Kälteempfindlichkeit", "Druckgefühl oder leichtes Spannungsgefühl im Halsbereich", "Trockene Haut, Haarausfall, brüchige Nägel", "Konzentrationsschwierigkeiten, Grübelneigung, depressive Verstimmung", "Nachweisbare Schilddrüsenantikörper im Blut, oft schon vor eindeutigen Funktionsstörungen"],
+    notfall: "Kein akuter Notfall. Bei plötzlicher, deutlicher Verschlechterung des Allgemeinbefindens, starker Schwellung im Halsbereich oder Atembeschwerden ärztlich abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Hashimoto ist unter den Schilddrüsenerkrankungen ein besonderer Fall: Hier bremst sich nichts nur von selbst und nichts rast unkontrolliert – hier greift der Körper das eigene Sprachorgan direkt an. Ausgerechnet die Schilddrüse, die am Hals liegt, dort, wo die eigene Stimme entsteht, wird zur Zielscheibe des eigenen Immunsystems. In der TCM wird eine solche innere Selbstzerstörung häufig mit einer tiefen Erschöpfung von Nieren- und Milz-Qi in Verbindung gebracht, verstärkt durch inneren, ungelösten Konflikt, der sich nicht mehr nach außen entladen kann. Psychosomatisch liest sich Hashimoto oft als Bild eines inneren Richters, der sich gegen den eigenen Ausdruck wendet – eine über Jahre gewachsene Selbstkritik, die sich nicht mehr nur gegen Gedanken oder Worte richtet, sondern gegen das Organ, das diese Worte überhaupt erst möglich macht. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, wie sich diese innere Härte gegen den eigenen Ausdruck richtet.",
+    typen: [
+      { typ: 1, titel: "Ein innerer Richter, der die eigene Stimme angreift", varianten: [
+        { code: "SE1", text: "Ihre eigenen Worte prüft die selbsterhaltende Eins vor dem Aussprechen streng auf Richtigkeit, spontaner Ausdruck wird selten zugelassen. Diese permanente Selbstzensur kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SO1", text: "Um moralisch korrekt zu erscheinen, hält die soziale Eins ihre eigentliche Meinung über fremdes Fehlverhalten oft zurück. Diese über Jahre unterdrückte Stimme kann sich als schleichende Selbstzerstörung des eigenen Schilddrüsengewebes zeigen." },
+        { code: "SX1", text: "Unmittelbar und ungefiltert äußert die sexuelle Eins ihre Meinung, statt sie streng zu zensieren. Dieser direktere Zugang zum eigenen Ausdruck unterscheidet sich von der permanenten Selbstprüfung anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Eine Stimme, die sich selbst verstummen lässt", varianten: [
+        { code: "SE2", text: "Ihre eigenen Bedürfnisse spricht die selbsterhaltende Zwei kaum je aus, um anderen keine Last zu sein. Dieses chronische Verstummen der eigenen Stimme kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SO2", text: "Kritik an ihrer eigenen Erschöpfung äußert die soziale Zwei so gut wie nie, aus Angst, weniger unentbehrlich zu wirken. Dieses jahrelange Verschweigen kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung spricht die sexuelle Zwei ihre eigenen Bedürfnisse durchaus aus, statt sie zu verschweigen. Dieses aktivere Sprechen kann dem chronischen Verstummen anderer Zweier-Varianten entgegenwirken." },
+      ]},
+      { typ: 3, titel: "Ein Bild, das keine Schwäche aussprechen darf", varianten: [
+        { code: "SE3", text: "Zweifel oder Erschöpfung spricht die selbsterhaltende Drei so gut wie nie laut aus, um ihr Funktionieren nicht zu gefährden. Diese permanente Unterdrückung des eigenen Unbehagens kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SO3", text: "Ihr makelloses öffentliches Bild verteidigt die soziale Drei auch gegen die eigene innere Stimme, die längst Erschöpfung meldet. Dieses jahrelange Übertönen der eigenen Warnsignale kann sich als schleichende Selbstzerstörung zeigen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person spricht die sexuelle Drei Zweifel und Erschöpfung eher aus, statt sie ein Leben lang zu unterdrücken. Dieses frühere Eingeständnis unterscheidet sich vom öffentlich verteidigten Bild anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein Ausdruck, der sich gegen sich selbst wendet", varianten: [
+        { code: "SE4", text: "Zäh und wortlos hält die selbsterhaltende Vier, der Kontratyp, an ihrem tiefen inneren Schmerz fest, ohne ihm je eine Stimme zu geben. Diese über Jahre verschlossene Stimme kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SO4", text: "Ihren Schmerz macht die soziale Vier zum Thema, statt ihn zu verschweigen, und spricht offen darüber. Dieser fortlaufende Ausdruck kann dem stillen Selbstangriff entgegenwirken, der bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SX4", text: "Ihre emotionalen Ausschläge trägt die sexuelle Vier offen nach außen, statt sie in sich zu verschließen. Dieser dramatische, hörbare Ausdruck steht dem stillen Verschließen der selbsterhaltenden Variante deutlich entgegen." },
+      ]},
+      { typ: 5, titel: "Ein Ausdruck, der lieber gar nicht erst entsteht", varianten: [
+        { code: "SE5", text: "Ihre Gedanken behält die selbsterhaltende Fünf oft lieber für sich, statt sie auszusprechen und damit angreifbar zu machen. Dieses generelle Zurückhalten des eigenen Ausdrucks kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SO5", text: "Bereitwillig gibt die soziale Fünf ihr Wissen weiter, die eigene emotionale Stimme hält sie dabei auf sichere Distanz. Diese selektive Zurückhaltung kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung spricht die sexuelle Fünf durchaus offen über sich selbst, statt sich generell zurückzuhalten – anders als bei der übrigen Zurückhaltung anderer Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine Sorge, die nie ausgesprochen wird", varianten: [
+        { code: "SE6", text: "Ständige innere Wachsamkeit prägt den Alltag der selbsterhaltenden Sechs, ausgesprochen wird diese Sorge dabei selten. Dieses ständige, stumme Alarmieren kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SO6", text: "Ihre Sorge um das Wohl der Gruppe trägt die soziale Sechs oft unausgesprochen mit sich, um niemanden zu beunruhigen. Diese über Jahre verschwiegene Sorge kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
+        { code: "SX6", text: "Statt stummer Sorge begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit direkter, hörbarer Konfrontation. Diese nach außen gerichtete Entladung unterscheidet sich vom verschwiegenen Alarm anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Ein Unbehagen, das übertönt wird", varianten: [
+        { code: "SE7", text: "Von einer angenehmen Ablenkung zur nächsten springt die selbsterhaltende Sieben, sobald ein unangenehmes Gefühl aufkommt, statt es auszusprechen. Dieses ständige Übertönen des eigenen Unbehagens kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SO7", text: "Die eigenen Grenzen spricht die soziale Sieben, der Kontratyp, selten aus, solange die Gruppe sie noch braucht. Dieses chronische Verschweigen kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
+        { code: "SX7", text: "Mit voller Begeisterung spricht die sexuelle Sieben durchaus auch über eigenes Unbehagen, statt es zu übertönen. Dieses Aussprechen unterscheidet sich vom permanenten Ablenken anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Verletzlichkeit, die verschwiegen wird", varianten: [
+        { code: "SE8", text: "Schwäche spricht die selbsterhaltende Acht so gut wie nie aus, ihre Kontrolle über Körper und Ressourcen soll unangefochten bleiben. Diese permanente Verweigerung eigener Verletzlichkeit kann sich immunologisch als Angriff auf die eigene Schilddrüse zeigen." },
+        { code: "SO8", text: "Ihre eigene Erschöpfung spricht die soziale Acht selten aus, im Dienst ihrer selbst auferlegten Beschützerrolle. Dieses jahrelange Verschweigen kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
+        { code: "SX8", text: "Verletzlichkeit offen auszusprechen gelingt der sexuellen Acht durchaus – allerdings ausschließlich innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie echte Entlastung, anders als bei der generellen Verschwiegenheit der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Eine Stimme, die nie an erster Stelle steht", varianten: [
+        { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigene Stimme der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Ein schleichender Angriff auf die eigene Schilddrüse kann so über Jahre unbemerkt bleiben." },
+        { code: "SO9", text: "Die eigene Stimme ordnet die soziale Neun beständig der Gruppenharmonie unter, kaum dass ein Konflikt am Horizont auftaucht. Diese chronische Selbstzurücknahme kann sich als schleichende Selbstzerstörung des eigenen Gewebes zeigen." },
+        { code: "SX9", text: "Sobald sie mit dem Partner verschmilzt, macht die sexuelle Neun dessen Wahrnehmung zum Maßstab für die eigene Gesundheit. Bemerkt der Partner die eigenen Warnsignale nicht, übersieht die Neun ihre eigene Stimme oft ebenso lange." },
+      ]},
+    ],
+    abschluss: "Keine Schilddrüse ist vor Hashimoto gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit dem eigenen Ausdruck und Selbstangriff auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, offenen Ausdruck oder eine chronisch übergangene eigene Stimme. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99493,7 +99552,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
