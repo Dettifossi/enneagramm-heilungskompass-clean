@@ -99539,6 +99539,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Keine Schilddrüse ist vor Hashimoto gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit dem eigenen Ausdruck und Selbstangriff auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, offenen Ausdruck oder eine chronisch übergangene eigene Stimme. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  adipositas: {
+    titel: "Übergewicht / Adipositas",
+    kategorie: "hormone-stoffwechsel",
+    icon: "🛡️",
+    kurz: "Der Körper legt sich eine zusätzliche Schicht zu – manchmal als Vorrat, manchmal als Polster, manchmal als stiller Puffer zwischen sich und der Welt.",
+    definition: "Adipositas bezeichnet eine über das gesunde Maß hinausgehende Vermehrung des Körperfetts, meist definiert über den Body-Mass-Index (BMI ab 30). Die Ursachen sind vielschichtig: Ein anhaltendes Ungleichgewicht zwischen Energiezufuhr und -verbrauch spielt eine zentrale Rolle, wird aber selbst von einer Vielzahl von Faktoren beeinflusst – genetische Veranlagung, hormonelle Regulation von Hunger und Sättigung, Schlafqualität, chronischer Stress, Medikamente und soziale wie emotionale Muster rund um Essen. Übergewicht ist damit selten Ausdruck reiner Willensschwäche, sondern das sichtbare Ergebnis eines komplexen Zusammenspiels aus Biologie, Umgebung und individueller Geschichte. Langfristig erhöht starkes Übergewicht das Risiko für Herz-Kreislauf-Erkrankungen, Diabetes Typ 2, Gelenkbeschwerden und weitere Folgeerkrankungen, weshalb eine nachhaltige Gewichtsregulation gesundheitlich bedeutsam ist – wirksame Veränderung gelingt dabei erfahrungsgemäß eher durch das Verstehen der zugrunde liegenden Muster als durch reinen Verzicht.",
+    symptome: ["Body-Mass-Index von 30 oder mehr", "Kurzatmigkeit bei körperlicher Belastung", "Gelenkbeschwerden, insbesondere Knie und Hüfte", "Erhöhte Müdigkeit und verminderte Belastbarkeit", "Häufig begleitende Stoffwechselveränderungen (erhöhter Blutzucker, Blutfettwerte, Bluthochdruck)", "Sozialer Rückzug oder verändertes Selbstwertgefühl bei einem Teil der Betroffenen"],
+    notfall: "Kein akuter Notfall im engeren Sinn. Bei plötzlicher, unerklärlicher Gewichtszunahme, starker Atemnot oder Anzeichen einer Herz-Kreislauf-Erkrankung ärztlich abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Körperfett ist biologisch zunächst ein Speicher – Energie, angelegt für Zeiten, in denen sie knapp werden könnte. Psychosomatisch liegt daher eine erste, naheliegende Deutung nahe: ein Körper, der sich vorsorglich rüstet, obwohl objektiv gerade kein Mangel herrscht. In der TCM wird eine solche Ansammlung häufig mit einer Schwäche der Milz assoziiert, die für die Umwandlung von Nahrung in nutzbare Energie zuständig ist – wird diese Umwandlung gestört, sammeln sich stattdessen &bdquo;Feuchtigkeit und Schleim&ldquo; im Körper an. Psychosomatisch liest sich Übergewicht häufig als ein zusätzliches Polster – manchmal als unbewusster Puffer zwischen sich selbst und einer als bedrohlich erlebten Umwelt, manchmal als Vorrat gegen eine gefühlte, nicht immer reale Knappheit, manchmal als stille Art, mehr Raum einzunehmen, wo verbale Grenzsetzung schwerfällt. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, wofür dieses zusätzliche Gewicht steht.",
+    typen: [
+      { typ: 1, titel: "Ein Polster gegen die eigene Strenge", varianten: [
+        { code: "SE1", text: "Kontrolle über nahezu jeden Lebensbereich übt die selbsterhaltende Eins aus, beim Essen kann diese Kontrolle paradoxerweise am ehesten aus dem Ruder laufen, sobald die Anspannung zu groß wird. Essen wird dann zum einzigen erlaubten Ventil gegen die eigene Strenge." },
+        { code: "SO1", text: "Ihre eigene Unvollkommenheit erträgt die soziale Eins nur schwer, Essen kann zur einzigen stillen Ausnahme von diesem hohen Anspruch werden. Diese heimliche Erlaubnis kann sich über Zeit als zusätzliches Gewicht zeigen." },
+        { code: "SX1", text: "Ihre Bedürfnisse lebt die sexuelle Eins direkter und unmittelbarer aus, statt sie nur beim Essen heimlich zu erlauben. Dieser direktere Zugang unterscheidet sich von der versteckten Ausnahme anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Ein Vorrat, der nie für einen selbst gedacht war", varianten: [
+        { code: "SE2", text: "Für andere sorgt die selbsterhaltende Zwei unermüdlich, für sich selbst bleibt dabei oft nur das Essen als einzige zuverlässige Form der Selbstfürsorge übrig. Dieses eine verbliebene Ventil kann sich über Zeit als zusätzliches Gewicht zeigen." },
+        { code: "SO2", text: "Anerkennung erhält die soziale Zwei oft reichlich, nimmt sie innerlich aber selten wirklich an. Essen kann zur einzigen Form von Zuwendung werden, die sie sich ungefragt selbst geben kann." },
+        { code: "SX2", text: "Zuwendung für sich selbst anzunehmen, statt sie nur weiterzugeben, gelingt der sexuellen Zwei innerhalb der einen wichtigen Beziehung durchaus. Dieses Annehmen-Können kann der Ersatzfunktion entgegenwirken, die Essen bei anderen Zweier-Varianten übernimmt." },
+      ]},
+      { typ: 3, titel: "Ein Bild, das keine Pause zulässt", varianten: [
+        { code: "SE3", text: "Zwischen Terminen isst die selbsterhaltende Drei oft hastig und nebenbei, ohne wirklich wahrzunehmen, was und wie viel sie zu sich nimmt. Dieses unbewusste Essen im Dauerbetrieb kann sich über Zeit als zusätzliches Gewicht zeigen." },
+        { code: "SO3", text: "Ihr Erfolg misst sich für die soziale Drei oft an äußeren Kennzahlen, das eigene Körpergefühl gerät dabei leicht aus dem Blick. Diese Entkopplung von echtem Körperempfinden kann sich als schleichende Gewichtszunahme zeigen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person achtet die sexuelle Drei bewusster auf ihr Körpergefühl, statt es im Dauerbetrieb zu übergehen. Diese fokussierte Aufmerksamkeit unterscheidet sich von der Entkopplung anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Leere, die gefüllt werden soll", varianten: [
+        { code: "SE4", text: "Ihre tiefe innere Leere versucht die selbsterhaltende Vier, der Kontratyp, mitunter über Essen zu füllen, ohne dass es die zugrunde liegende Sehnsucht wirklich stillt. Dieses wiederkehrende Muster kann sich über Zeit als zusätzliches Gewicht zeigen." },
+        { code: "SO4", text: "Ihre Sehnsucht macht die soziale Vier zum Thema, statt sie über Essen zu betäuben. Dieser Ausdruck kann dem Versuch entgegenwirken, innere Leere körperlich zu füllen, der bei anderen Vierer-Varianten eher zu erwarten wäre." },
+        { code: "SX4", text: "Erfüllung sucht die sexuelle Vier im direkten Kontakt zur begehrten Person, mit großer Intensität, statt sie über Essen zu ersetzen. Dieser aktive, zwischenmenschliche Zugang unterscheidet sich von der stillen Selbstfüllung der selbsterhaltenden Variante." },
+      ]},
+      { typ: 5, titel: "Ein Vorrat gegen eine unsichere Welt", varianten: [
+        { code: "SE5", text: "Ressourcen aller Art hortet die selbsterhaltende Fünf vorsorglich, aus einer tiefen Sorge, es könnte einmal nicht genug geben. Diese Vorratshaltung kann sich auch körperlich als zusätzliches Gewicht zeigen." },
+        { code: "SO5", text: "Ihr Wissen stellt die soziale Fünf der Gruppe großzügig zur Verfügung, die eigene körperliche Versorgung gerät dabei leicht aus dem Blick. Diese Vernachlässigung des eigenen Körpergefühls kann sich als schleichende Gewichtsveränderung zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung fühlt sich die sexuelle Fünf versorgt genug, um weniger vorsorglich zu horten – anders als bei der generellen Vorsicht der übrigen Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Ein Polster gegen ständige Bedrohung", varianten: [
+        { code: "SE6", text: "In Anspannungsmomenten greift die selbsterhaltende Sechs, deren Wachsamkeit den Alltag durchgehend prägt, gern zu Essen als schneller, verlässlicher Beruhigung. Dieser wiederkehrende Griff zum Essen als Trostmittel kann sich als zusätzliches Gewicht zeigen." },
+        { code: "SO6", text: "Unausgesprochen trägt die soziale Sechs ihre Sorge um das Wohl der Gruppe mit sich, gemeinsames Essen kann dabei zur einzigen erlaubten Entspannung werden. Diese wiederkehrende Beruhigungsstrategie kann sich als schleichende Gewichtszunahme zeigen." },
+        { code: "SX6", text: "Statt Trost über Essen begegnet die sexuelle Sechs, der Kontratyp, ihrer Angst mit direkter Konfrontation. Diese aktivere Bewältigung unterscheidet sich vom stillen Griff zum Essen anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Ein Genuss, der sich nicht begrenzen lässt", varianten: [
+        { code: "SE7", text: "Von einem Genuss zum nächsten springt die selbsterhaltende Sieben, ohne sich selbst natürliche Grenzen zu setzen. Diese ungebremste Genusssuche kann sich über Zeit als zusätzliches Gewicht zeigen." },
+        { code: "SO7", text: "Die eigenen Bedürfnisse stellt die soziale Sieben, der Kontratyp, im Dienst der Gruppe immer wieder zurück, bis Essen zur einzigen erlaubten eigenen Freude wird. Dieses eine verbliebene Ventil kann sich als schleichende Gewichtszunahme zeigen." },
+        { code: "SX7", text: "Mit voller, aber bewusster Intensität genießt die sexuelle Sieben einzelne Erfahrungen wirklich, statt endlos weiterzuspringen. Dieses bewusste Genießen unterscheidet sich von der ungebremsten Genusssuche anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Masse, die Stärke demonstriert", varianten: [
+        { code: "SE8", text: "Kontrolle über ihre Ressourcen beansprucht die selbsterhaltende Acht mit großer Konsequenz, auch reichlicher Genuss kann Teil dieser selbstbestimmten Kontrolle sein. Körperliche Masse kann für sie unbewusst auch Stärke und Unangreifbarkeit symbolisieren." },
+        { code: "SO8", text: "Stärke und Präsenz demonstriert die soziale Acht durchgehend im Dienst ihrer Beschützerrolle, körperliche Größe kann dabei unbewusst zum Ausdruck dieser Stärke werden. Diese Symbolik kann sich als zusätzliches Gewicht zeigen." },
+        { code: "SX8", text: "Ihre Stärke muss die sexuelle Acht nicht körperlich demonstrieren – nicht innerhalb der einen Beziehung, der sie sich mit voller Intensität hingibt. Dort findet sie echte Nähe, anders als bei der generellen Machtdemonstration der übrigen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Körpergefühl, das selten bewusst wird", varianten: [
+        { code: "SE9", text: "Kaum bewusst wahrgenommen werden Hunger- und Sättigungsgefühl bei der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende Körperwahrnehmung kann sich über Jahre als zusätzliches Gewicht zeigen." },
+        { code: "SO9", text: "Kaum tritt das eigene Sättigungsgefühl in den Vordergrund, ordnet die soziale Neun es beständig der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als schleichende Gewichtszunahme zeigen." },
+        { code: "SX9", text: "Die Wahrnehmung des eigenen Körpers übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Isst dieser unbedacht, isst die Neun oft ebenso unbedacht mit, weil die eigene Körperwahrnehmung hinter der Verschmelzung zurücktritt." },
+      ]},
+    ],
+    abschluss: "Kein Körper ist vor zusätzlichem Gewicht gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit einer Form von Polster, Vorrat oder ungestillter Sehnsucht auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, Genusssuche oder ein chronisch übergangenes eigenes Körpergefühl. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99552,7 +99611,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "atemwege": [],
   "verdauung": [],
   "haut": [],
-  "hormone-stoffwechsel": ["Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
+  "hormone-stoffwechsel": ["Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
