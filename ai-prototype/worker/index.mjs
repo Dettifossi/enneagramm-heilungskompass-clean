@@ -171,13 +171,13 @@ export default {
         apiKey: env.GEMINI_API_KEY,
       });
 
-      // Enzyklopädie ist bisher nur auf Deutsch aufbereitet.
-      const encyclopediaChunks = isEN
-        ? []
-        : await retrieveEncyclopedia(question, {
-            vectorizeIndex: env.VECTORIZE_ENZYKLOPAEDIE,
-            apiKey: env.GEMINI_API_KEY,
-          });
+      // Enzyklopädie-Quelltext ist nur Deutsch, aber Gemini übersetzt beim
+      // Formulieren der Antwort ohnehin in die Zielsprache (siehe
+      // SYSTEM_INSTRUCTION_EN) - keine separate Vorab-Übersetzung nötig.
+      const encyclopediaChunks = await retrieveEncyclopedia(question, {
+        vectorizeIndex: env.VECTORIZE_ENZYKLOPAEDIE,
+        apiKey: env.GEMINI_API_KEY,
+      });
 
       if (relevant.length === 0 && encyclopediaChunks.length === 0) {
         const noMatch = isEN
