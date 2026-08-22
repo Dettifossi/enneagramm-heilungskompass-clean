@@ -98477,6 +98477,65 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Kein Subtyp ist vor einer Fettleber gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit stiller, über Jahre angesammelter Überlastung verhandelt – manche über schweigende Selbstkontrolle, andere über Rückzug, stoffgebundene Selbstberuhigung oder eine nie ernst genommene eigene Erschöpfung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  zoeliakie: {
+    titel: "Zöliakie",
+    kategorie: "verdauung",
+    icon: "🌾",
+    kurz: "Autoimmunerkrankung, bei der der Körper das Getreideeiweiß Gluten – eigentlich ein Grundnahrungsmittel – als Bedrohung behandelt und die eigene Dünndarmschleimhaut angreift.",
+    definition: "Zöliakie ist eine Autoimmunerkrankung, bei der das Immunsystem auf das in Weizen, Roggen und Gerste enthaltene Klebereiweiß Gluten mit einer Entzündungsreaktion reagiert, die sich gegen die eigene Dünndarmschleimhaut richtet. Die feinen Darmzotten, die für die Nährstoffaufnahme zuständig sind, werden dabei zunehmend abgebaut, was zu Mangelerscheinungen trotz ausreichender Nahrungsaufnahme führen kann. Zöliakie ist genetisch bedingt und kann in jedem Lebensalter erstmals auftreten, oft ausgelöst durch Infekte, Schwangerschaft oder andere körperliche Belastungen. Die einzige derzeit wirksame Behandlung ist eine konsequente, lebenslange glutenfreie Ernährung – bereits kleinste Mengen Gluten können bei bestehender Zöliakie erneut eine Entzündungsreaktion auslösen.",
+    symptome: ["Chronischer Durchfall oder wechselnde Stuhlgewohnheiten", "Blähungen und Völlegefühl nach glutenhaltigen Mahlzeiten", "Gewichtsverlust trotz normaler oder erhöhter Nahrungsaufnahme", "Müdigkeit und Eisenmangel durch gestörte Nährstoffaufnahme", "Hautveränderungen (Dermatitis herpetiformis) bei manchen Betroffenen", "Bei Kindern: Wachstumsverzögerung und aufgeblähter Bauch"],
+    notfall: "Zöliakie selbst ist kein akuter Notfall, sollte aber bei anhaltenden Verdauungsbeschwerden, ungewolltem Gewichtsverlust oder unklaren Mangelerscheinungen ärztlich abgeklärt werden (Bluttest, gegebenenfalls Dünndarmbiopsie). Wichtig: Vor der Diagnostik sollte Gluten nicht eigenständig weggelassen werden, da dies das Testergebnis verfälschen kann.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Brot gilt seit Jahrtausenden als Sinnbild für das Grundlegendste, das Nahrhafteste, das ein Mensch zu sich nehmen kann – ›das tägliche Brot‹. Bei Zöliakie wendet sich der Körper ausgerechnet gegen dieses Grundnahrungsmittel und behandelt es als Bedrohung. Psychosomatisch lässt sich darin, vorsichtig gedeutet, ein Bild lesen von etwas fundamental Unverträglichem – eine tiefe, oft schon lange bestehende Schwierigkeit, etwas anzunehmen, das eigentlich zur Grundversorgung gehören sollte, sei es Nahrung im wörtlichen oder Zuwendung im übertragenen Sinn. Wichtig ist dabei immer: Zöliakie ist eine genetisch bedingte Autoimmunerkrankung, keine Charakterfrage, und niemand ist dafür ›verantwortlich‹. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, wie sich diese grundlegende Unverträglichkeit zeigen kann.",
+    typen: [
+      { typ: 1, titel: "Zorn, der auch das Grundlegendste streng prüft", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins prüft alles, was sie zu sich nimmt, streng nach ihren eigenen hohen Maßstäben – bei Zöliakie zeigt sich diese Strenge körperlich noch fundamentaler: Selbst das grundlegendste Nahrungsmittel wird vom Immunsystem als nicht akzeptabel eingestuft." },
+        { code: "SO1", text: "Wer wie die soziale Eins ständig über die Richtigkeit der Dinge wacht, hat oft auch einen strengen inneren Maßstab dafür, was gut und richtig für den eigenen Körper ist – bei Zöliakie erweitert sich dieser strenge Maßstab körperlich auf etwas so Grundlegendes wie Getreide." },
+        { code: "SX1", text: "Die sexuelle Eins lebt ihren Perfektionsanspruch mit großer Intensität – auch hier zeigt sich bei Zöliakie eine besonders unnachgiebige körperliche Reaktion, sobald auch nur kleinste Mengen des unverträglichen Stoffes aufgenommen werden." },
+      ]},
+      { typ: 2, titel: "Stolz, der auch grundlegende eigene Bedürfnisse übergeht", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei übergeht die eigenen Grundbedürfnisse häufig zugunsten anderer – bei Zöliakie zeigt sich körperlich, dass selbst die grundlegendste Form der Selbstversorgung, die Nahrungsaufnahme, gestört ist, wenn das übliche Grundnahrungsmittel nicht vertragen wird." },
+        { code: "SO2", text: "Für viele Menschen gleichzeitig unentbehrlich zu sein, verlangt der sozialen Zwei ab, die eigenen Grundbedürfnisse oft hintanzustellen – bei Zöliakie zeigt sich diese Thematik körperlich besonders deutlich, wenn selbst die Nahrungsaufnahme zur Herausforderung wird." },
+        { code: "SX2", text: "In intensiven Beziehungsphasen investiert sich die sexuelle Zwei fast vollständig in die geliebte Person – die eigene, grundlegende Selbstversorgung durch angepasste Ernährung erfordert hier bewusste Aufmerksamkeit, die leicht zugunsten der Beziehung zurücktreten kann." },
+      ]},
+      { typ: 3, titel: "Leistung, die auch bei grundlegenden Bedürfnissen keine Pause kennt", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei funktioniert effizient weiter, auch wenn der Körper längst deutliche Signale sendet – bei Zöliakie kann diese Tendenz, Warnsignale zu übergehen, die Diagnose verzögern, weil Verdauungsbeschwerden lange als bloße Belastung durch Termindruck abgetan werden." },
+        { code: "SO3", text: "Im ständigen Vergleich mit anderen möchte die soziale Drei keine Sonderrolle einnehmen – eine glutenfreie Ernährung, die sichtbar von der Norm abweicht, kann für diesen Subtyp eine besondere Herausforderung darstellen, weil sie sich damit von der scheinbar mühelosen Mehrheit abhebt." },
+        { code: "SX3", text: "Um in der Beziehung makellos zu erscheinen, könnte die sexuelle Drei besondere Ernährungsbedürfnisse zunächst als lästige Einschränkung erleben, die dem gewünschten Bild von Unkompliziertheit widerspricht." },
+      ]},
+      { typ: 4, titel: "Sehnsucht, die sich in grundlegender Unverträglichkeit zeigt", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier erlebt körperliches Unwohlsein oft als weiteren Beleg dafür, dass ihr Körper empfindsamer reagiert als der anderer – bei Zöliakie fügt sich diese fundamentale Unverträglichkeit fast folgerichtig in ein Selbstbild ein, in dem das eigene Erleben grundsätzlich anders verläuft als das der Mehrheit." },
+        { code: "SO4", text: "Für die soziale Vier kann eine diagnostizierte Zöliakie unbewusst zum weiteren Beleg für die eigene Andersartigkeit werden – ein Leiden, das sie von der scheinbar unbeschwerten Mehrheit abhebt, die Brot und Nudeln ohne Nachdenken genießt." },
+        { code: "SX4", text: "Die sexuelle Vier lebt Gefühle mit voller Wucht aus – eine notwendige Ernährungsumstellung kann für diesen Subtyp zunächst wie ein weiterer Verlust erlebt werden, bevor sie zu einer bewussten, selbstfürsorglichen Entscheidung wird." },
+      ]},
+      { typ: 5, titel: "Rückzug, der grundlegende Beschwerden lange für sich behält", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf hält auch anhaltende Verdauungsbeschwerden lange für sich, sucht selten frühzeitig ärztlichen Rat – dieses stille Aushalten kann die Diagnose einer Zöliakie über Jahre verzögern, obwohl die Beschwerden längst spürbar den Alltag einschränken." },
+        { code: "SO5", text: "Die soziale Fünf recherchiert bei anhaltenden Beschwerden zunächst gründlich, bevor sie ärztliche Hilfe sucht – dieser analytische Zugang kann bei der komplexen diagnostischen Abklärung einer Zöliakie durchaus hilfreich sein, verzögert aber mitunter den ersten Schritt." },
+        { code: "SX5", text: "Innerhalb der schmalen, tiefen Verbindung, die die sexuelle Fünf pflegt, kann durchaus offen über körperliche Beschwerden gesprochen werden – was der stillen Verdrängung anderer Fünfer-Varianten entgegenwirkt und eine frühere Abklärung begünstigt." },
+      ]},
+      { typ: 6, titel: "Angst, die grundlegende Nahrung misstrauisch prüft", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs begegnet der Welt mit Vorsicht, auch in Bezug auf Nahrung – nach einer Zöliakie-Diagnose kann diese ohnehin vorhandene Wachsamkeit hilfreich werden, um konsequent glutenfreie Ernährung sicherzustellen, aber auch in übermäßige Sorge um versteckte Spuren umschlagen." },
+        { code: "SO6", text: "Die soziale Sechs orientiert sich an geteilten Regeln und Empfehlungen, auch wenn es um Gesundheit geht – bei Zöliakie kann dies bedeuten, ärztlichen Rat und Ernährungsvorgaben besonders gewissenhaft zu befolgen, sobald die Diagnose feststeht." },
+        { code: "SX6", text: "Die sexuelle Sechs begegnet Herausforderungen gegenphobisch, durch aktive Konfrontation – eine Zöliakie-Diagnose kann für diesen Subtyp zum Anlass werden, sich das notwendige Wissen über glutenfreie Ernährung besonders entschlossen anzueignen." },
+      ]},
+      { typ: 7, titel: "Maßlosigkeit, die grundlegende Einschränkungen übergeht", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben möchte sich ungern durch Einschränkungen den Genuss verderben lassen – die Notwendigkeit einer konsequent glutenfreien Ernährung kann für diesen Subtyp zunächst besonders schwer anzunehmen sein, weil sie eine geliebte Vielfalt an Optionen einschränkt." },
+        { code: "SO7", text: "Die soziale Sieben möchte mit ihrer Leichtigkeit anstecken und hat wenig Geduld für eine Erkrankung, die sich nicht wegwitzeln lässt – Symptome werden dabei mitunter kleingeredet, statt die notwendige Ernährungsumstellung konsequent umzusetzen." },
+        { code: "SX7", text: "Die sexuelle Sieben stürzt sich mit voller Begeisterung in kulinarische Erlebnisse – eine Zöliakie-Diagnose erfordert von diesem Subtyp eine bewusste Umlenkung dieser Begeisterung auf die zahlreichen glutenfreien Möglichkeiten, statt sie als reine Einschränkung zu erleben." },
+      ]},
+      { typ: 8, titel: "Kontrolle, die auch bei der eigenen Ernährung keine Kompromisse duldet", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht duldet keine Schwäche, auch nicht die eigene – bei Zöliakie kann sich dieser Wille zur Kontrolle als Vorteil erweisen, wenn er sich auf eine konsequente, kompromisslose Einhaltung der glutenfreien Ernährung richtet." },
+        { code: "SO8", text: "Die soziale Acht übernimmt Kontrolle nicht für sich selbst, sondern für die Gruppe – bei einer eigenen Zöliakie-Diagnose kann es diesem Subtyp schwerfallen, die eigene Bedürftigkeit anzuerkennen und sich selbst dieselbe konsequente Fürsorge zukommen zu lassen, die sie sonst anderen gibt." },
+        { code: "SX8", text: "Die sexuelle Acht lebt Intensität pur – bei einer notwendigen Ernährungsumstellung kann sich diese Intensität als Vorteil erweisen, wenn sie sich in eine ebenso kompromisslose Umsetzung der neuen Ernährungsweise übersetzt." },
+      ]},
+      { typ: 9, titel: "Selbstvergessenheit, die grundlegende Signale lange übersieht", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun gewöhnt sich an fast alles, auch an chronische Verdauungsbeschwerden, und verschiebt die eigentliche Abklärung gerne auf später – diese Neigung zur stillen Anpassung kann die Diagnose einer Zöliakie über Jahre verzögern." },
+        { code: "SO9", text: "Die soziale Neun möchte niemandem zur Last fallen, auch nicht mit gesundheitlichen Beschwerden, und schluckt Symptome oft klaglos herunter – so bleibt die naheliegende diagnostische Abklärung auffällig lange ungenutzt." },
+        { code: "SX9", text: "Die sexuelle Neun verschmilzt so sehr mit der geliebten Person, dass eigene körperliche Signale leicht in den Hintergrund treten – auch anhaltende Verdauungsbeschwerden werden mitunter erst bemerkt, wenn das Gegenüber besorgt darauf hinweist." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor Zöliakie gefeit, und kein Muster ist ein Urteil oder eine Schuldzuweisung – Zöliakie ist eine genetisch bedingte Autoimmunerkrankung. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen auf seine eigene Weise mit grundlegender Selbstfürsorge, Anpassung und übergangenen Signalen verhandelt. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps – ergänzend zur notwendigen, lebenslangen glutenfreien Ernährung, die bei Zöliakie unverzichtbar bleibt."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -98488,7 +98547,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
   "atemwege": [],
-  "verdauung": ["Zöliakie", "Hämorrhoiden"],
+  "verdauung": ["Hämorrhoiden"],
   "haut": ["Neurodermitis", "Schuppenflechte (Psoriasis)", "Akne", "Nesselsucht (Urtikaria)", "Rosacea", "Vitiligo", "Haarausfall (androgenetisch / diffus)", "Kontaktekzem", "Übermäßiges Schwitzen (Hyperhidrose)", "Gürtelrose (Herpes Zoster)"],
   "hormone-stoffwechsel": ["Diabetes mellitus Typ 2", "Schilddrüsenunterfunktion (Hypothyreose)", "Schilddrüsenüberfunktion (Morbus Basedow)", "Hashimoto-Thyreoiditis", "Übergewicht / Adipositas", "Metabolisches Syndrom", "PCOS (Polyzystisches Ovarialsyndrom)", "Wechseljahresbeschwerden", "Prämenstruelles Syndrom (PMS)", "Insulinresistenz / Prädiabetes"],
   "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
