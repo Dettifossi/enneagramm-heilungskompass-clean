@@ -99893,6 +99893,773 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Keine Zellen sind vor Insulinresistenz gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen sich an bestimmte innere Signale auf seine eigene Weise gewöhnt – manche über Kontrolle, andere über fortlaufende Wachheit, Rückzug oder eine schleichend abgestumpfte eigene Wahrnehmung. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
   },
+  narkolepsie: {
+    titel: "Narkolepsie",
+    kategorie: "nerven-psyche",
+    icon: "😴",
+    kurz: "Der Übergang zwischen Wachen und Schlafen verliert seine Grenze – das Bewusstsein schaltet sich ab, ohne dass die Person es verhindern kann.",
+    definition: "Narkolepsie ist eine neurologische Erkrankung, bei der die Regulierung des Schlaf-Wach-Rhythmus gestört ist. Ursache ist meist ein Mangel an Orexin (Hypocretin), einem Botenstoff im Gehirn, der Wachheit stabilisiert und den Übergang zwischen den Bewusstseinszuständen steuert. Fehlt dieser Regulator, brechen Elemente des REM-Schlafs unkontrolliert in den Wachzustand ein: plötzliche Einschlafattacken tagsüber, oft begleitet von Kataplexie (kurzzeitigem Verlust der Muskelspannung bei starken Emotionen), Schlaflähmung und lebhaften Halluzinationen beim Ein- oder Aufwachen. Die nächtliche Schlafarchitektur ist dabei paradoxerweise oft fragmentiert und unruhig, trotz der massiven Tagesmüdigkeit. Narkolepsie ist eine chronische, meist lebenslange Erkrankung, die sich medikamentös und durch strukturierte Tagesplanung gut behandeln, aber nicht heilen lässt.",
+    symptome: ["Exzessive Tagesschläfrigkeit mit plötzlichen, kaum unterdrückbaren Einschlafattacken", "Kataplexie – plötzlicher Muskeltonusverlust bei starken Gefühlen wie Lachen oder Schreck", "Schlaflähmung beim Ein- oder Aufwachen", "Hypnagoge Halluzinationen beim Einschlafen", "Fragmentierter, unruhiger Nachtschlaf trotz Tagesmüdigkeit", "Automatisches Verhalten während kurzer Mikroschlafphasen", "Konzentrations- und Gedächtnisprobleme durch die chronische Schläfrigkeit"],
+    notfall: "Kein akuter Notfall im klassischen Sinn, aber Einschlafattacken können im Straßenverkehr oder bei gefährlichen Tätigkeiten lebensbedrohlich werden – bei Verdacht zeitnah neurologisch abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Narkolepsie hebt eine Grenze auf, die im Alltag meist als selbstverständlich gilt: die zwischen Wachsein und Schlafen. Wo diese Grenze durchlässig wird, bricht Bewusstlosigkeit in Momente ein, in denen sie nicht vorgesehen war – oft ausgerechnet dann, wenn starke Gefühle im Spiel sind. In der TCM wird ein solches Kippen zwischen den Bewusstseinszuständen häufig mit einer Schwäche des Herz- oder Milz-Qi in Verbindung gebracht, die dem Geist (Shen) keinen stabilen Halt mehr gibt. Psychosomatisch liest sich Narkolepsie oft als Bild einer Kontrolle, die an einer ganz bestimmten Stelle endet: Ein Mensch mag seinen Alltag noch so sorgfältig steuern – der Übergang ins Bewusstsein selbst entzieht sich dieser Steuerung vollständig. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, an welcher Stelle im Leben genau diese Kontrolle über die eigene Wachheit besonders beansprucht wird.",
+    typen: [
+      { typ: 1, titel: "Eine Kontrolle, die an der Schwelle zum Schlaf endet", varianten: [
+        { code: "SE1", text: "Die Kontrolle, die die selbsterhaltende Eins über ihren geordneten Alltag hält, endet exakt an der Schwelle zum Bewusstsein selbst – dort schaltet sich das Gehirn ohne ihr Einverständnis ab. Gerade weil sie sonst so viel steuert, kann dieser eine unkontrollierbare Punkt besonders kränkend sein." },
+        { code: "SO1", text: "Über Jahre hält die soziale Eins ihre öffentliche Haltung von Korrektheit und Selbstbeherrschung konsequent aufrecht, auch wenn innerlich längst Erschöpfung herrscht. Ausgerechnet in Situationen mit anderen Menschen kann diese Fassade dann durch eine plötzliche Einschlafattacke unfreiwillig durchbrochen werden." },
+        { code: "SX1", text: "Ihre Empörung über Missstände lebt die sexuelle Eins unmittelbar und intensiv aus, statt sie zurückzuhalten. Genau diese starken Gefühlsausbrüche können bei entsprechender Veranlagung kataplektische Episoden auslösen – der Körper gibt in dem Moment nach, in dem die Erregung am größten ist." },
+      ]},
+      { typ: 2, titel: "Eine Wachheit, die für andere reserviert bleibt", varianten: [
+        { code: "SE2", text: "Ihre eigene Erschöpfung übergeht die selbsterhaltende Zwei so lange, bis kaum noch Reserven für echte, erholsame Wachheit übrig sind. Der Körper kann sich diese Pause dann selbst nehmen, mitten am Tag, unabhängig davon, ob gerade jemand auf sie angewiesen ist." },
+        { code: "SO2", text: "Für die Bedürfnisse der Gruppe bleibt die soziale Zwei wach und ansprechbar, weit über die eigenen Grenzen hinaus. Wird diese Daueraufmerksamkeit nie durch echten Ausgleich unterbrochen, kann sich die aufgestaute Erschöpfung in unkontrollierbaren Schlafattacken Bahn brechen." },
+        { code: "SX2", text: "Ein starkes Gefühl von Zuneigung oder Verführung kann bei der sexuellen Zwei körperlich unmittelbar spürbar werden. Trifft diese emotionale Intensität auf eine ohnehin labile Schlafregulation, sind es gerade solche Momente hoher Erregung, in denen Kataplexie am ehesten auftritt." },
+      ]},
+      { typ: 3, titel: "Ein Tempo, das keine Pause vorsieht", varianten: [
+        { code: "SE3", text: "Ohne echte Erholungspausen hält die selbsterhaltende Drei ihr Arbeitstempo über Jahre durch, effizient und funktional bis zur Erschöpfung. Genau diese chronisch unterdrückte Müdigkeit kann sich als Grundlage für eine ausgeprägte Tagesschläfrigkeit erweisen." },
+        { code: "SO3", text: "Ihr makelloses öffentliches Auftreten lässt die soziale Drei kaum eine Schwäche erkennen, auch dann nicht, wenn die Erschöpfung längst kritisch ist. Bricht die Müdigkeit trotzdem in Form einer Einschlafattacke vor Publikum durch, empfindet sie das oft als besonders beschämend." },
+        { code: "SX3", text: "Vor der einen wichtigen Person zeigt die sexuelle Drei ihre Anziehungskraft mit voller Intensität, auch wenn das Kräfte kostet, die eigentlich für Erholung gebraucht würden. Genau in solchen intensiven Momenten kann bei entsprechender Veranlagung ein plötzlicher Tonusverlust auftreten." },
+      ]},
+      { typ: 4, titel: "Ein Gefühl, das die Wachheit kippen lässt", varianten: [
+        { code: "SE4", text: "Ihre intensiven inneren Gefühle trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und stumm nach außen kaum erkennbar mit sich. Bricht diese aufgestaute emotionale Ladung doch einmal durch, kann sie den fragilen Übergang zwischen Wachsein und Schlaf mit erschüttern." },
+        { code: "SO4", text: "Wenn die soziale Vier ihr Leiden vor vertrautem Publikum in Worte fasst, kann die emotionale Wucht dieses Moments selbst überraschend stark ausfallen. Gerade dieser intensive Ausdruck kann bei entsprechender neurologischer Veranlagung zum Auslöser einer kataplektischen Episode werden." },
+        { code: "SX4", text: "Mit großer Intensität lebt die sexuelle Vier ihre Gefühle unmittelbar aus, ohne sie zu dämpfen. Diese hohe emotionale Amplitude – ob Verliebtheit, Eifersucht oder plötzliche Begeisterung – zählt zu den klassischen Auslösern kataplektischer Episoden." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der die Wachheit nicht schützt", varianten: [
+        { code: "SE5", text: "Kontakt und Reize reduziert die selbsterhaltende Fünf konsequent auf ein Minimum, um ihre begrenzten Energiereserven zu schonen. Ausgerechnet dieser Schutzmechanismus kann bei Narkolepsie ins Leere laufen, weil die Schläfrigkeit unabhängig von äußerer Reizmenge auftritt." },
+        { code: "SO5", text: "Ihr Wissen teilt die soziale Fünf bereitwillig mit anderen, emotionale Nähe hält sie dabei meist auf sichere Distanz. Ein plötzlicher Einschlafmoment mitten in einem Fachgespräch kann diese sorgfältig gewahrte Distanz unfreiwillig und öffentlich durchbrechen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung lässt die sexuelle Fünf Nähe und Intensität zu, die sie sonst konsequent vermeidet. Genau diese seltene, dafür umso stärkere emotionale Öffnung kann körperlich zum Auslöser eines plötzlichen Tonusverlusts werden." },
+      ]},
+      { typ: 6, titel: "Eine Wachsamkeit, die sich nicht abschalten lässt", varianten: [
+        { code: "SE6", text: "Eine wache innere Alarmbereitschaft hält die selbsterhaltende Sechs über den Tag hinweg aufrecht, auch wenn objektiv keine Gefahr besteht. Der nächtliche Schlaf bleibt davon oft ebenso fragmentiert wie der Tagesrhythmus, was die Tagesschläfrigkeit zusätzlich verschärfen kann." },
+        { code: "SO6", text: "Ihre Loyalität zur Gruppe zeigt die soziale Sechs oft durch beständige, verlässliche Präsenz – gerade das macht eine unkontrollierbare Einschlafattacke vor der Gruppe für sie zu einem besonders unangenehmen Kontrollverlust." },
+        { code: "SX6", text: "Ihrer Angst begegnet die sexuelle Sechs, der Kontratyp, mit unmittelbarer, oft impulsiver Konfrontation statt mit Rückzug. Diese hohe emotionale Erregung in Momenten der Konfrontation gehört zu den Situationen, in denen Kataplexie am ehesten sichtbar wird." },
+      ]},
+      { typ: 7, titel: "Eine Rastlosigkeit, die keine Pause duldet", varianten: [
+        { code: "SE7", text: "Von einer angenehmen Aktivität zur nächsten springt die selbsterhaltende Sieben, um Unbehagen erst gar nicht aufkommen zu lassen. Wird diese permanente Betriebsamkeit nie durch echte Erholung unterbrochen, kann der Körper sich die Pause in Form einer Einschlafattacke selbst nehmen." },
+        { code: "SO7", text: "Für die Gruppe stellt die soziale Sieben, der Kontratyp, ihre eigenen Grenzen immer wieder zurück, oft bis zur Erschöpfung. Diese Selbstüberforderung im Dienst anderer kann die Grundlage für eine chronische, kaum kontrollierbare Tagesschläfrigkeit legen." },
+        { code: "SX7", text: "Mit voller Begeisterung lässt sich die sexuelle Sieben auf intensive neue Erfahrungen ein, ohne sich selbst zu bremsen. Genau diese Momente hoher positiver Erregung – Lachen, Überraschung, Verliebtheit – zählen zu den häufigsten Auslösern kataplektischer Episoden." },
+      ]},
+      { typ: 8, titel: "Eine Stärke, die keine Schwäche zeigen darf", varianten: [
+        { code: "SE8", text: "Konsequente Kontrolle über Körper und Ressourcen hält die selbsterhaltende Acht aufrecht, notfalls auch über die eigene Erschöpfung hinweg. Ein unkontrollierbarer Sekundenschlaf mitten am Tag widerspricht diesem Selbstbild so fundamental, dass er besonders schwer zu akzeptieren ist." },
+        { code: "SO8", text: "Stärke und Präsenz demonstriert die soziale Acht in ihrer Beschützerrolle nach außen durchgehend, auch wenn die eigenen Kräfte längst erschöpft sind. Bricht die Müdigkeit trotzdem in Gegenwart der Gruppe durch, erlebt sie das oft als Verrat des eigenen Körpers." },
+        { code: "SX8", text: "Ihre Intensität entlädt die sexuelle Acht am ehesten unmittelbar körperlich, in engem Kontakt mit der geliebten Person. Gerade diese hohe körperliche und emotionale Erregung gehört zu den typischen Auslösern eines plötzlichen Muskeltonusverlusts." },
+      ]},
+      { typ: 9, titel: "Eine Wachheit, die sich selbst übergeht", varianten: [
+        { code: "SE9", text: "So vollständig verliert sich die selbsterhaltende Neun in Routine und Komfort, dass eigene Warnsignale von Erschöpfung kaum noch registriert werden. Diese tiefe Selbstvergessenheit kann mit dazu beitragen, dass eine beginnende Tagesschläfrigkeit lange unbemerkt bleibt, bevor sie unübersehbar wird." },
+        { code: "SO9", text: "Ihre eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das Bedürfnis nach ausreichend Schlaf und Pause. Wird dieses Zurückstellen zur Gewohnheit, kann sich der aufgestaute Schlafmangel in unkontrollierbaren Einschlafattacken entladen." },
+        { code: "SX9", text: "Mit dem Partner verschmilzt die sexuelle Neun so sehr, dass sie dessen Energie und Wachheitszustand oft übernimmt statt den eigenen wahrzunehmen. Ist der Partner müde oder abwesend, kann auch die eigene Wachheit der Neun unbemerkt mit absinken." },
+      ]},
+    ],
+    abschluss: "Kein Nervensystem ist vor Narkolepsie gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit dem Verlust der Kontrolle über die eigene Wachheit auf seine eigene Weise umgeht – manche über äußere Disziplin, andere über emotionale Intensität, Rückzug oder ein chronisch übergangenes eigenes Ruhebedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  tinnitus: {
+    titel: "Tinnitus",
+    kategorie: "nerven-psyche",
+    icon: "🔔",
+    kurz: "Ein Ton, den niemand außer der betroffenen Person hört – oft die hörbar gewordene Fortsetzung einer inneren Stimme, die nie ganz verstummt.",
+    definition: "Tinnitus bezeichnet die Wahrnehmung von Geräuschen – Klingeln, Pfeifen, Rauschen, Brummen – ohne dass eine entsprechende äußere Schallquelle vorliegt. Er ist kein eigenständiges Krankheitsbild, sondern ein Symptom, das durch sehr unterschiedliche Ursachen ausgelöst werden kann: Lärmschäden, Hörsturz, Stress, HWS-Beschwerden, Bluthochdruck oder Veränderungen der neuronalen Verarbeitung im Hörsystem selbst. Man unterscheidet den akuten Tinnitus (bis drei Monate) vom chronischen Tinnitus, der länger anhält und bei dem sich das Gehirn zunehmend auf das Störgeräusch fokussiert, was den Leidensdruck oft verstärkt, unabhängig von der objektiven Lautstärke. Entscheidend für den Verlauf ist häufig weniger die Intensität des Tons selbst als die innere Haltung dazu: Wird er als Bedrohung bewertet, verstärkt sich die Aufmerksamkeit auf ihn und damit sein gefühltes Gewicht im Alltag.",
+    symptome: ["Dauerhaftes oder wiederkehrendes Klingeln, Pfeifen, Rauschen oder Brummen im Ohr", "Verstärkte Wahrnehmung in Stille, etwa beim Einschlafen", "Konzentrations- und Schlafstörungen durch das ständige Geräusch", "Erhöhte Reizbarkeit und innere Anspannung", "Manchmal begleitende Hörminderung oder Druckgefühl im Ohr", "Gesteigerte Geräuschempfindlichkeit (Hyperakusis)", "Bei chronischem Verlauf mögliche Begleitsymptome wie Erschöpfung oder depressive Verstimmung"],
+    notfall: "Ein plötzlich auftretender Tinnitus, besonders mit Hörverlust oder Schwindel, sollte innerhalb von 24 bis 48 Stunden HNO-ärztlich abgeklärt werden (Verdacht auf Hörsturz).",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Tinnitus ist ein Ton ohne äußere Quelle – und gerade dadurch ein besonders eindrückliches Bild für etwas, das von innen kommt und sich nicht einfach abstellen lässt. In der TCM wird Tinnitus häufig mit einer Schwäche der Nieren-Essenz oder mit aufsteigendem Leber-Feuer in Verbindung gebracht, das sich im empfindlichsten aller Sinnesorgane bemerkbar macht. Psychosomatisch liegt bei Tinnitus eine Deutung nahe, die sich um eine innere Stimme dreht, die nie ganz verstummt: ein Gedanke, eine Sorge, ein ungehörtes Bedürfnis oder ein andauerndes inneres Kommentieren, das im Außen keinen Raum findet und sich stattdessen als beständiges Geräusch im Innenohr Gehör verschafft. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche innere Stimme sich hier auf diese Weise unüberhörbar macht.",
+    typen: [
+      { typ: 1, titel: "Eine Stimme, die nie ganz verstummt", varianten: [
+        { code: "SE1", text: "Kleine Fehler im Alltag registriert die selbsterhaltende Eins mit einer inneren Stimme, die ständig korrigiert und mahnt. Findet diese Stimme im Außen keinen Adressaten mehr, kann sie sich als anhaltendes Klingeln im Ohr bemerkbar machen." },
+        { code: "SO1", text: "Ihre Kritik an fremdem Fehlverhalten hält die soziale Eins meist zurück, um moralisch gefasst zu wirken – innerlich läuft der Kommentar dazu aber oft weiter. Genau dieses unausgesprochene innere Urteilen kann sich als ständiges Rauschen im Ohr fortsetzen." },
+        { code: "SX1", text: "Ihre Empörung spricht die sexuelle Eins meist unmittelbar aus, statt sie innerlich weiterlaufen zu lassen. Bleibt ihr in einer bestimmten Situation ausnahmsweise die direkte Äußerung verwehrt, kann sich diese aufgestaute Intensität ungewohnt als Ohrgeräusch bemerkbar machen." },
+      ]},
+      { typ: 2, titel: "Ein Bedürfnis, das ungehört bleibt", varianten: [
+        { code: "SE2", text: "Über das eigene Bedürfnis nach Zuwendung spricht die selbsterhaltende Zwei kaum, sie stellt es zugunsten anderer zurück. Bleibt dieses Bedürfnis dauerhaft unausgesprochen, kann es sich als beständiger Ton im Ohr eine indirekte Stimme verschaffen." },
+        { code: "SO2", text: "Ihren eigenen Beitrag benennt die soziale Zwei selten offen, sie hofft eher darauf, dass er von selbst gesehen wird. Bleibt diese Anerkennung dauerhaft aus, kann sich die daraus entstehende innere Unruhe als anhaltendes Rauschen zeigen." },
+        { code: "SX2", text: "Ihre Bedürfnisse fordert die sexuelle Zwei in der einen wichtigen Beziehung direkt und unmittelbar ein, statt sie zurückzuhalten. Wird dieses Einfordern in einer bestimmten Beziehung dennoch überhört, kann sich die Enttäuschung darüber körperlich als Ohrgeräusch niederschlagen." },
+      ]},
+      { typ: 3, titel: "Eine Stimme unter der Fassade", varianten: [
+        { code: "SE3", text: "Ihre Erschöpfung teilt die selbsterhaltende Drei kaum jemandem mit, sie funktioniert lieber weiter. Was so nach außen keine Stimme findet, kann sich innen als beständiges Klingeln bemerkbar machen, besonders in seltenen ruhigen Momenten." },
+        { code: "SO3", text: "Hinter ihrem makellosen öffentlichen Bild hält die soziale Drei Zweifel und Erschöpfung meist konsequent verborgen. Genau diese verdeckte innere Stimme kann sich, wenn äußerlich alles glatt läuft, als Tinnitus in der Stille bemerkbar machen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person lässt die sexuelle Drei ihre Erschöpfung durchaus sichtbar werden, statt sie zu verbergen. Bleibt dieses Zeigen ausnahmsweise ohne Resonanz, kann die daraus folgende innere Anspannung sich als Ohrgeräusch bemerkbar machen." },
+      ]},
+      { typ: 4, titel: "Ein Gefühl, das nach Resonanz sucht", varianten: [
+        { code: "SE4", text: "Ihre intensiven Gefühle trägt die selbsterhaltende Vier, der Kontratyp, meist stumm mit sich, ohne sie offen zu zeigen. Fehlt diesem stummen Gefühl über lange Zeit jede Resonanz, kann es sich als anhaltender innerer Ton hörbar machen." },
+        { code: "SO4", text: "Ihr Leiden erzählt die soziale Vier vor vertrautem Publikum oft in vertrauten Worten, in der Hoffnung auf Verständnis. Bleibt diese Erzählung ausnahmsweise ohne echtes Gehör, kann sich die Enttäuschung als beständiges Klingeln im Ohr zeigen." },
+        { code: "SX4", text: "Mit großer Intensität äußert die sexuelle Vier ihre Gefühle unmittelbar, statt sie zurückzuhalten. Trifft dieser intensive Ausdruck auf Schweigen oder Unverständnis der Umgebung, kann die enttäuschte Erwartung sich körperlich als Ohrgeräusch fortsetzen." },
+      ]},
+      { typ: 5, titel: "Eine Stimme im geschützten Innenraum", varianten: [
+        { code: "SE5", text: "Kontakt und Austausch reduziert die selbsterhaltende Fünf konsequent auf ein Minimum, ihre Gedanken bleiben meist unausgesprochen im Innenraum. Genau in dieser gewählten Stille kann ein innerer Ton besonders deutlich hervortreten." },
+        { code: "SO5", text: "Fachliches gibt die soziale Fünf bereitwillig preis, eigene Zweifel dagegen bleiben meist unausgesprochen im Hintergrund. Diese unausgesprochenen Zweifel können sich, wenn kein Raum für sie bleibt, als anhaltendes Rauschen im Ohr bemerkbar machen." },
+        { code: "SX5", text: "Nur in der einen tiefen Verbindung öffnet sich die sexuelle Fünf gedanklich wirklich, offener als sonst überall. Bleibt diese eine Verbindung ausnahmsweise ohne echtes Zuhören, kann sich die Enttäuschung darüber als Ohrgeräusch bemerkbar machen." },
+      ]},
+      { typ: 6, titel: "Eine Stimme der Sorge", varianten: [
+        { code: "SE6", text: "Mögliche Probleme spielt die selbsterhaltende Sechs im Kopf gedanklich immer wieder durch, ein Kreisen, das selten wirklich zur Ruhe kommt. Dieses innere Kreisen kann sich körperlich als anhaltendes Klingeln im Ohr fortsetzen." },
+        { code: "SO6", text: "Um die Gruppe macht sich die soziale Sechs beständig Sorgen, meist ohne sie laut auszusprechen. Bleibt diese Sorge dauerhaft unausgesprochen, kann sie sich als beständiges Rauschen im Ohr eine eigene Stimme verschaffen." },
+        { code: "SX6", text: "Statt Angst gedanklich zu verarbeiten, sucht die sexuelle Sechs, der Kontratyp, meist die unmittelbare, laute Konfrontation. Bleibt ihr diese direkte Konfrontation in einer bestimmten Situation verwehrt, kann sich die aufgestaute Anspannung als Ohrgeräusch zeigen." },
+      ]},
+      { typ: 7, titel: "Eine Stimme in der Stille", varianten: [
+        { code: "SE7", text: "Stille und Unbehagen lässt die selbsterhaltende Sieben durch beständige Ablenkung erst gar nicht richtig aufkommen. Wird echte Stille doch einmal unausweichlich, kann sich darin ein bislang übertönter innerer Ton bemerkbar machen." },
+        { code: "SO7", text: "Unausgesprochen bleibt bei der sozialen Sieben, dem Kontratyp, meist die eigene Erschöpfung, während sie ihre Grenzen für die Gruppe zurückstellt. Diese unausgesprochene Erschöpfung kann sich als beständiges Rauschen im Ohr eine eigene Stimme verschaffen." },
+        { code: "SX7", text: "Kaum zurückgehalten wird bei der sexuellen Sieben, was an neuen Erfahrungen begeistert – sie spricht es unmittelbar an. Bleibt eine besonders intensive Erfahrung ausnahmsweise ohne Widerhall bei anderen, kann sich die Enttäuschung als Ohrgeräusch bemerkbar machen." },
+      ]},
+      { typ: 8, titel: "Eine Stimme hinter der Stärke", varianten: [
+        { code: "SE8", text: "Schwäche zeigt die selbsterhaltende Acht ungern, eigene Erschöpfung oder Zweifel spricht sie so gut wie nie offen an. Was so nach außen keine Stimme findet, kann sich innen als beständiges Klingeln im Ohr bemerkbar machen." },
+        { code: "SO8", text: "Unausgesprochen bleibt bei der sozialen Acht meist die eigene Erschöpfung, während sie in ihrer Beschützerrolle Stärke demonstriert. Diese verdeckte Erschöpfung kann sich, wenn öffentlich alles unter Kontrolle wirkt, als anhaltendes Rauschen im Ohr zeigen." },
+        { code: "SX8", text: "Körperliche Nähe zur geliebten Person ist für die sexuelle Acht der unmittelbarste Ausdruck ihrer Intensität. Fehlt dieser körperliche Ausdrucksraum in einer bestimmten Situation, kann sich die aufgestaute Spannung als Ohrgeräusch bemerkbar machen." },
+      ]},
+      { typ: 9, titel: "Eine übergangene Stimme", varianten: [
+        { code: "SE9", text: "Ein eigenes Bedürfnis kaum noch als solches zu erkennen ist bei der selbsterhaltenden Neun eher Regel als Ausnahme, so tief geht ihr Aufgehen in Routine und Komfort. Genau dieses übergangene eigene Bedürfnis kann sich, wenn es lange keine andere Stimme findet, als anhaltendes Klingeln im Ohr bemerkbar machen." },
+        { code: "SO9", text: "Offen einbringen kann die soziale Neun ihre eigene Meinung nur selten, sie ordnet sie beständig der Gruppenharmonie unter. Diese dauerhaft zurückgehaltene eigene Stimme kann sich als beständiges Rauschen im Ohr eine indirekte Bahn suchen." },
+        { code: "SX9", text: "Ausgesprochen werden bei der sexuellen Neun meist eher die Anliegen des Partners als die eigenen, so sehr verschmilzt sie mit ihm. Bleibt dabei die eigene Stimme dauerhaft ungehört, auch von ihr selbst, kann sie sich als Ohrgeräusch eine eigene, unüberhörbare Form suchen." },
+      ]},
+    ],
+    abschluss: "Kein Gehör ist vor Tinnitus gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit einer inneren Stimme, die im Außen keinen Raum findet, auf seine eigene Weise umgeht – manche über Zurückhaltung, andere über offenen Ausdruck, Rückzug oder ein chronisch übergangenes eigenes Anliegen. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  schwindel_vertigo: {
+    titel: "Schwindel (Vertigo)",
+    kategorie: "nerven-psyche",
+    icon: "🌀",
+    kurz: "Der Boden, auf dem man sicher zu stehen glaubte, gerät ins Schwanken – ein Verlust der Orientierung, der sich körperlich wie seelisch anfühlen kann.",
+    definition: "Schwindel (Vertigo) bezeichnet eine gestörte Wahrnehmung der eigenen Position und Bewegung im Raum – ein Gefühl von Drehen, Schwanken oder drohendem Sturz, ohne dass eine tatsächliche Bewegung stattfindet. Die Ursachen sind vielfältig: Störungen des Innenohr-Gleichgewichtsorgans (etwa der gutartige Lagerungsschwindel oder Morbus Menière), Kreislaufprobleme, Verspannungen der Halswirbelsäule, neurologische Erkrankungen oder – besonders häufig – psychogener beziehungsweise phobischer Schwankschwindel, bei dem sich keine eindeutige organische Ursache findet, obwohl das Schwindelgefühl real und belastend ist. Gerade dieser funktionelle Schwindel steht oft im Zusammenhang mit Stress, Angst oder Überforderung: Das Gleichgewichtssystem reagiert empfindlich auf innere Anspannung, auch wenn die Balance im Innenohr selbst intakt ist. Häufig verstärkt sich der Schwindel zusätzlich durch die Angst vor dem nächsten Anfall – ein Kreislauf, der sich selbst am Laufen hält.",
+    symptome: ["Dreh- oder Schwankschwindel, teils anfallartig, teils dauerhaft", "Gefühl von Unsicherheit beim Gehen oder Stehen", "Übelkeit und Erbrechen bei stärkeren Episoden", "Sehstörungen oder das Gefühl, die Umgebung bewege sich", "Angst vor dem nächsten Schwindelanfall (Erwartungsangst)", "Häufig begleitende Verspannungen im Nacken- und Schulterbereich", "Herzrasen oder Beklemmungsgefühl bei psychogenem Schwindel"],
+    notfall: "Plötzlicher, sehr starker Schwindel mit Sprach-, Seh- oder Bewegungsstörungen, Taubheitsgefühlen oder starken Kopfschmerzen sofort notärztlich abklären lassen (Verdacht auf Schlaganfall).",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Schwindel entzieht dem Menschen etwas sehr Grundlegendes: die Gewissheit, wo oben und unten ist. In der TCM wird Schwindel häufig mit aufsteigendem Leber-Wind oder mit einer Schwäche des Milz-Qi assoziiert, bei der dem Körper der stabile innere Halt fehlt. Psychosomatisch liegt bei Schwindel eine Deutung nahe, die sich um Orientierung und Boden dreht: Wo im Leben fehlt gerade ein verlässlicher Halt, ein klarer Standpunkt, eine sichere Position – sodass sich diese Unsicherheit körperlich als Verlust des Gleichgewichts zeigt? Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, an welcher Stelle im Leben genau dieser Boden zu schwanken beginnt.",
+    typen: [
+      { typ: 1, titel: "Ein Boden, der plötzlich nicht mehr trägt", varianten: [
+        { code: "SE1", text: "Feste Routinen und klare Regeln geben der selbsterhaltenden Eins im Alltag verlässlichen Halt. Gerät diese Ordnung aus irgendeinem Grund durcheinander, kann sich diese Verunsicherung körperlich als Schwindelgefühl bemerkbar machen." },
+        { code: "SO1", text: "Ihre moralische Gewissheit, was richtig und falsch ist, gibt der sozialen Eins im Umgang mit anderen einen festen Standpunkt. Gerät dieser Standpunkt durch widersprüchliche Ansichten ins Wanken, kann sich das als reale Schwankschwindel-Empfindung zeigen." },
+        { code: "SX1", text: "Ihre Überzeugungen vertritt die sexuelle Eins unmittelbar und mit Nachdruck, ohne lange zu zögern. Wird sie in dieser Gewissheit einmal grundlegend erschüttert, etwa durch eine enge Bezugsperson, kann sich diese Erschütterung ungewohnt körperlich als Schwindel äußern." },
+      ]},
+      { typ: 2, titel: "Ein Halt, der von anderen abhängt", varianten: [
+        { code: "SE2", text: "Ihren eigenen Halt sucht die selbsterhaltende Zwei oft darin, für andere unentbehrlich zu sein. Wird diese Rolle in Frage gestellt oder nicht mehr gebraucht, kann der dabei entstehende Boden-unter-den-Füßen-Verlust sich als Schwindel bemerkbar machen." },
+        { code: "SO2", text: "Über ihre Nützlichkeit für die Gemeinschaft definiert die soziale Zwei einen wesentlichen Teil ihres inneren Halts. Bleibt Anerkennung dafür über längere Zeit aus, kann die entstehende innere Unsicherheit sich körperlich als Schwankschwindel äußern." },
+        { code: "SX2", text: "Ihren Halt findet die sexuelle Zwei vor allem in der einen wichtigen Beziehung, auf die sie sich intensiv konzentriert. Gerät diese eine Verbindung ins Wanken, etwa durch Distanz oder Konflikt, kann sich das unmittelbar körperlich als Schwindel niederschlagen." },
+      ]},
+      { typ: 3, titel: "Ein Boden aus Leistung", varianten: [
+        { code: "SE3", text: "Ihren Halt findet die selbsterhaltende Drei vor allem in funktionierender Leistungsfähigkeit und sichtbarem Erfolg. Bricht diese Leistungsfähigkeit einmal ein, etwa durch Erschöpfung, kann sich der damit verbundene Bodenverlust als Schwindel zeigen." },
+        { code: "SO3", text: "Ihr öffentliches Bild von Erfolg gibt der sozialen Drei einen wesentlichen Teil ihres Standpunkts nach außen. Gerät dieses Bild durch einen sichtbaren Rückschlag ins Wanken, kann sich diese Erschütterung körperlich als Schwankschwindel bemerkbar machen." },
+        { code: "SX3", text: "Ihren Halt sucht die sexuelle Drei vor allem in der Anziehungskraft, die sie auf die eine wichtige Person ausübt. Lässt diese Anziehungskraft einmal spürbar nach, kann die dahinterliegende Verunsicherung sich körperlich als Schwindelgefühl äußern." },
+      ]},
+      { typ: 4, titel: "Ein Boden, der von Gefühlen abhängt", varianten: [
+        { code: "SE4", text: "Zäh und beharrlich hält die selbsterhaltende Vier, der Kontratyp, trotz innerer Sehnsucht funktional an ihrem Alltag fest. Bricht diese mühsam gehaltene Fassade doch einmal ein, kann sich der darunterliegende Bodenverlust als Schwindel zeigen." },
+        { code: "SO4", text: "Ihre Identität stützt die soziale Vier oft auf die Erzählung des eigenen Leidens vor vertrautem Publikum. Verliert diese Erzählung an Halt, etwa weil sie nicht mehr gehört wird, kann sich die entstehende Orientierungslosigkeit körperlich als Schwindel äußern." },
+        { code: "SX4", text: "Ihren Halt findet die sexuelle Vier vor allem in der Intensität ihrer Gefühle selbst, weniger in äußerer Stabilität. Kippt diese Intensität von Euphorie in tiefe Verzweiflung, kann dieser innere Umschwung sich körperlich als Schwankschwindel niederschlagen." },
+      ]},
+      { typ: 5, titel: "Ein Boden aus Rückzug", varianten: [
+        { code: "SE5", text: "Ihren Halt findet die selbsterhaltende Fünf in einem klar abgegrenzten, überschaubaren Rückzugsraum. Wird dieser Raum von außen gestört oder bedroht, kann sich die entstehende Verunsicherung körperlich als Schwindelgefühl zeigen." },
+        { code: "SO5", text: "Über ihr Wissen und ihre Expertise gewinnt die soziale Fünf einen wesentlichen Teil ihres Standpunkts in der Gruppe. Wird dieses Wissen einmal grundlegend infrage gestellt, kann die damit verbundene Erschütterung sich als Schwankschwindel äußern." },
+        { code: "SX5", text: "Einen seltenen echten Halt findet die sexuelle Fünf ausgerechnet dort, wo sie sonst am meisten Distanz wahrt: in der einen tiefen Verbindung. Gerät diese eine Verbindung ins Wanken, kann sich das unmittelbar körperlich als Schwindel bemerkbar machen." },
+      ]},
+      { typ: 6, titel: "Ein Boden aus Sicherheit", varianten: [
+        { code: "SE6", text: "Vertraute, berechenbare Strukturen geben der selbsterhaltenden Sechs im Alltag verlässlichen Halt. Bricht eine dieser Strukturen unerwartet weg, kann sich der entstehende Kontrollverlust körperlich als Schwindel äußern." },
+        { code: "SO6", text: "Zugehörigkeit zu einer verlässlichen Gruppe bedeutet der sozialen Sechs einen wesentlichen Teil ihres inneren Halts. Gerät diese Zugehörigkeit ins Wanken, etwa durch einen Konflikt in der Gruppe, kann sich das körperlich als Schwankschwindel bemerkbar machen." },
+        { code: "SX6", text: "Mut und unmittelbare Konfrontation ersetzen bei der sexuellen Sechs, dem Kontratyp, den Rückzug in vertraute Sicherheit. Kippt diese aufgebaute Kraft plötzlich in Erschöpfung, kann der Boden unter ihr im wahrsten Sinne zu schwanken beginnen." },
+      ]},
+      { typ: 7, titel: "Ein Boden, der Stillstand meidet", varianten: [
+        { code: "SE7", text: "Stillstand lässt die selbsterhaltende Sieben so gut wie nie zu, ständig ist eine nächste angenehme Möglichkeit in Sicht. Wird sie doch einmal zum Innehalten gezwungen, kann sich die damit verbundene Orientierungslosigkeit körperlich als Schwindel zeigen." },
+        { code: "SO7", text: "Kaum ein eigener fester Standpunkt bleibt der sozialen Sieben, dem Kontratyp, übrig, wenn sie ihre Grenzen immer wieder für die Gruppe zurückstellt. Diese Selbstüberforderung kann sich körperlich als anhaltendes Schwankschwindel-Gefühl bemerkbar machen." },
+        { code: "SX7", text: "Kaum lange abgewogen wird bei der sexuellen Sieben, bevor sie sich auf eine neue intensive Erfahrung einlässt. Folgt auf diese Euphorie ein abrupter Einbruch, etwa durch Enttäuschung, kann dieser Umschwung sich körperlich als Schwindel äußern." },
+      ]},
+      { typ: 8, titel: "Ein Boden aus Kontrolle", varianten: [
+        { code: "SE8", text: "Einen verlässlichen Standpunkt verschafft sich die selbsterhaltende Acht über konsequente Kontrolle ihres Umfelds. Entgleitet ihr diese Kontrolle unerwartet, etwa durch Krankheit oder Abhängigkeit von anderen, kann sich das körperlich als Schwindel niederschlagen." },
+        { code: "SO8", text: "Fest und kraftvoll wirkt die soziale Acht nach außen in ihrer Rolle als Beschützerin, ein bewusst aufgebauter Standpunkt. Wird diese Rolle einmal grundlegend infrage gestellt, kann die dahinterliegende Verunsicherung sich als Schwankschwindel bemerkbar machen." },
+        { code: "SX8", text: "Vor allem in der intensiven Bindung zur geliebten Person findet die sexuelle Acht ihren eigentlichen Halt. Gerät diese eine Bindung ins Wanken, kann sich das unmittelbar körperlich als Schwindel äußern, stärker als bei anderen Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Boden, der sich selbst übergeht", varianten: [
+        { code: "SE9", text: "Kaum noch spürbar bleibt der eigene Standpunkt der selbsterhaltenden Neun, so vollständig geht sie in Routine und Komfort auf. Wird diese Routine unerwartet unterbrochen, kann der fehlende eigene Halt sich körperlich als Schwindel zeigen." },
+        { code: "SO9", text: "Kaum noch als eigener erkennbar bleibt der Standpunkt der sozialen Neun, weil sie ihn beständig der Gruppenharmonie unterordnet. Gerät die Gruppe selbst ins Wanken, fehlt ihr dadurch oft der eigene feste Boden, was sich als Schwankschwindel äußern kann." },
+        { code: "SX9", text: "Übernommen statt selbst gebildet wird bei der sexuellen Neun oft der Standpunkt des Partners, mit dem sie verschmilzt. Gerät der Partner ins Wanken oder entfernt er sich, verliert auch die Neun spürbar den eigenen Halt, was sich körperlich als Schwindel zeigen kann." },
+      ]},
+    ],
+    abschluss: "Kein Gleichgewichtssinn ist vor Schwindel gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen seinen inneren Halt an unterschiedlichen Stellen sucht – manche in Kontrolle, andere in Beziehung, Leistung oder einer sorgsam gehüteten Routine – und entsprechend unterschiedlich reagiert, wenn dieser Halt ins Wanken gerät. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  restless_legs_syndrom: {
+    titel: "Restless-Legs-Syndrom",
+    kategorie: "nerven-psyche",
+    icon: "🦵",
+    kurz: "Ausgerechnet in der Ruhe meldet sich ein Bewegungsdrang, der sich nicht ignorieren lässt – am stärksten dort, wo eigentlich Stillstand vorgesehen war.",
+    definition: "Das Restless-Legs-Syndrom (RLS) ist eine neurologische Erkrankung, die durch einen unangenehmen, oft als kribbelnd, ziehend oder elektrisierend beschriebenen Bewegungsdrang in den Beinen gekennzeichnet ist. Charakteristisch ist, dass die Beschwerden vor allem in Ruhephasen auftreten – abends und nachts, beim Sitzen oder Liegen – und sich durch Bewegung vorübergehend lindern lassen, um bei erneutem Stillhalten zurückzukehren. Die genaue Ursache ist nicht vollständig geklärt; diskutiert werden Störungen im Dopaminstoffwechsel des Gehirns sowie ein Eisenmangel im zentralen Nervensystem. RLS tritt primär (oft familiär gehäuft) oder sekundär im Zusammenhang mit Schwangerschaft, Eisenmangel, Niereninsuffizienz oder bestimmten Medikamenten auf. Die Erkrankung stört häufig erheblich den Schlaf, da der Bewegungsdrang gerade beim Einschlafen am stärksten ist.",
+    symptome: ["Unangenehmer Bewegungsdrang in den Beinen, vor allem abends und nachts", "Kribbeln, Ziehen oder elektrisierendes Gefühl in den Waden oder Oberschenkeln", "Vorübergehende Linderung durch Bewegung, Gehen oder Dehnen", "Verschlechterung in Ruhe – beim Sitzen, Liegen oder Einschlafen", "Ein- und Durchschlafstörungen durch die nächtliche Symptomatik", "Unwillkürliche, periodische Beinbewegungen im Schlaf", "Tagesmüdigkeit als Folge des gestörten Schlafs"],
+    notfall: "Kein akuter Notfall. Bei ausgeprägten Beschwerden mit deutlicher Schlafstörung oder plötzlichem Neuauftreten ärztliche Abklärung sinnvoll (u. a. Eisenwerte, Nierenfunktion).",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Das Restless-Legs-Syndrom hat eine auffällige Eigenheit: Es meldet sich gerade dann, wenn der Körper zur Ruhe kommen soll, und verschwindet, sobald wieder Bewegung einsetzt. In der TCM wird ein solcher innerer Wind in den Beinen häufig mit einer Kombination aus Blut- und Yin-Mangel gedeutet, bei der dem Körper das beruhigende, verankernde Element fehlt. Psychosomatisch liegt bei RLS eine Deutung nahe, die sich um zurückgehaltene Bewegung oder zurückgehaltenen Antrieb dreht: eine Energie, ein Drang oder ein unerledigtes Anliegen, das tagsüber im Handeln aufgehen könnte, aber genau dort keinen Raum findet – und sich deshalb ausgerechnet dann bemerkbar macht, wenn Stillstand verlangt ist. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welcher Antrieb hier tagsüber zu wenig Raum findet und sich nachts als Unruhe in den Beinen zurückmeldet.",
+    typen: [
+      { typ: 1, titel: "Ein Antrieb, der sich nachts meldet", varianten: [
+        { code: "SE1", text: "Tagsüber hält die selbsterhaltende Eins ihre Bewegungen diszipliniert und kontrolliert, jede Handlung hat ihren geordneten Platz. Genau diese Kontrolle kann nachts, wenn keine Aufgabe mehr ansteht, als unruhiger Bewegungsdrang in den Beinen zurückkehren." },
+        { code: "SO1", text: "Ihre Energie richtet die soziale Eins tagsüber konsequent auf das aus, was richtig und notwendig erscheint. Bleibt am Abend, wenn diese Ausrichtung wegfällt, ein Rest ungenutzter Energie übrig, kann er sich als Unruhe in den Beinen zeigen." },
+        { code: "SX1", text: "Ihren Ärger und ihre Energie lebt die sexuelle Eins tagsüber meist unmittelbar aus, statt sie zurückzuhalten. Bleibt ihr diese direkte Entladung an einem bestimmten Tag verwehrt, kann sich die aufgestaute Spannung nachts in den Beinen bemerkbar machen." },
+      ]},
+      { typ: 2, titel: "Ein Geben, das nicht zur Ruhe kommt", varianten: [
+        { code: "SE2", text: "Für andere ist die selbsterhaltende Zwei tagsüber praktisch unentwegt im Einsatz, kaum eine Bewegung gilt allein ihr selbst. Kommt der Körper abends endlich zur Ruhe, kann genau dort ein unerledigter Bewegungsimpuls in den Beinen spürbar werden." },
+        { code: "SO2", text: "Ihre Energie steckt die soziale Zwei tagsüber vor allem in das Engagement für die Gemeinschaft. Bleibt am Abend keine bewusste Zeit für sie selbst übrig, kann sich diese übergangene eigene Energie als Unruhe in den Beinen bemerkbar machen." },
+        { code: "SX2", text: "Ihre Energie richtet die sexuelle Zwei tagsüber intensiv auf die eine wichtige Beziehung aus, körperliche Nähe eingeschlossen. Fehlt diese Nähe an einem bestimmten Abend, kann die übrig gebliebene Spannung sich als Unruhe in den Beinen zeigen." },
+      ]},
+      { typ: 3, titel: "Ein Tempo, das nicht abschaltet", varianten: [
+        { code: "SE3", text: "Ihr hohes Arbeitstempo hält die selbsterhaltende Drei tagsüber ohne echte Pausen durch, der Körper bleibt fast durchgehend in Bewegung. Legt sie sich abends endlich hin, kann genau dieser plötzliche Stillstand den Bewegungsdrang erst richtig spürbar machen." },
+        { code: "SO3", text: "Ihr sichtbarer Erfolg verlangt von der sozialen Drei tagsüber ständige Aktivität und Präsenz. Kommt der Körper abends zur Ruhe, kann die tagsüber aufgestaute Betriebsamkeit als Unruhe in den Beinen weiterlaufen." },
+        { code: "SX3", text: "Ihre volle Anziehungskraft entfaltet die sexuelle Drei am liebsten dort, wo die eine wichtige Person sie auch sehen kann. Fehlt dieses Publikum am Abend, kann die überschüssige, nun ungenutzte Energie sich als Unruhe in den Beinen bemerkbar machen." },
+      ]},
+      { typ: 4, titel: "Ein Gefühl, das in Bewegung will", varianten: [
+        { code: "SE4", text: "Ihre intensiven Gefühle hält die selbsterhaltende Vier, der Kontratyp, tagsüber zäh und funktional unter Kontrolle. Kommt der Körper abends zur Ruhe, kann sich genau diese unterdrückte emotionale Ladung als Unruhe in den Beinen entladen." },
+        { code: "SO4", text: "Ihre Gefühlswelt erzählt die soziale Vier tagsüber gern in Worten vor vertrautem Publikum. Bleibt am Abend, allein und ohne Publikum, ein Rest ungesagter innerer Bewegung übrig, kann er sich in den Beinen bemerkbar machen." },
+        { code: "SX4", text: "Kaum eine Regung bleibt bei der sexuellen Vier tagsüber ungelebt, jedes Gefühl findet unmittelbar seinen Ausdruck. Bleibt an einem Abend die gewohnte intensive Entladung aus, kann die übrig gebliebene Spannung sich als Unruhe in den Beinen zeigen." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der Energie aufstaut", varianten: [
+        { code: "SE5", text: "Kontakt und Bewegung im Außen hält die selbsterhaltende Fünf tagsüber bewusst gering, um Energie zu sparen. Diese gesparte, nicht verbrauchte Energie kann sich ausgerechnet in der abendlichen Ruhe als Unruhe in den Beinen zurückmelden." },
+        { code: "SO5", text: "Geistiger Austausch nimmt bei der sozialen Fünf tagsüber breiten Raum ein, körperliche Bewegung kommt dabei oft zu kurz. Am Abend, wenn der geistige Austausch endet, kann sich der über den Tag angesammelte Bewegungsmangel als Unruhe in den Beinen zeigen." },
+        { code: "SX5", text: "Auch körperliche Nähe lässt die sexuelle Fünf zu, aber fast ausschließlich innerhalb ihrer einen tiefen Verbindung. Fehlt diese eine Verbindung an einem bestimmten Abend, kann die dadurch entstehende innere Spannung sich als Unruhe in den Beinen bemerkbar machen." },
+      ]},
+      { typ: 6, titel: "Eine Anspannung, die in Bewegung will", varianten: [
+        { code: "SE6", text: "Der Körper der selbsterhaltenden Sechs bleibt tagsüber in ständiger muskulärer Anspannung, ein körperliches Echo der inneren Wachsamkeit. Kommt der Körper abends zur Ruhe, kann sich diese Daueranspannung als spürbarer Bewegungsdrang in den Beinen fortsetzen." },
+        { code: "SO6", text: "Körperlich abreagiert wird die Sorge um die Gruppe bei der sozialen Sechs tagsüber kaum, sie bleibt meist im Kopf. Diese unausgedrückte Sorge kann sich abends, wenn Ruhe einkehren soll, als Unruhe in den Beinen bemerkbar machen." },
+        { code: "SX6", text: "Körperliche, unmittelbare Konfrontation ist für die sexuelle Sechs, den Kontratyp, tagsüber der natürlichste Umgang mit Angst. Bleibt ihr diese Entladung an einem bestimmten Tag verwehrt, kann sich die aufgestaute Energie nachts in den Beinen zeigen." },
+      ]},
+      { typ: 7, titel: "Eine Rastlosigkeit, die sich nicht legen will", varianten: [
+        { code: "SE7", text: "Kaum ein Moment bleibt bei der selbsterhaltenden Sieben tagsüber bewegungslos, ständig ist der Körper in irgendeiner Form aktiv. Muss der Körper abends endlich stillhalten, kann sich genau dieser Widerstand als Unruhe in den Beinen zeigen." },
+        { code: "SO7", text: "Übergangen wird die eigene Erschöpfung bei der sozialen Sieben, dem Kontratyp, tagsüber fast durchgehend, während sie für die Gruppe aktiv bleibt. Kommt der Körper abends zur Ruhe, kann diese übergangene Erschöpfung sich paradox als Bewegungsdrang bemerkbar machen." },
+        { code: "SX7", text: "Intensive neue Erfahrungen füllen den Tag der sexuellen Sieben fast lückenlos aus, ganz ihrer Begeisterung folgend. Fehlt am Abend die gewohnte Intensität, kann die überschüssige, nun ungenutzte Erregung sich als Unruhe in den Beinen entladen." },
+      ]},
+      { typ: 8, titel: "Eine Kraft, die keinen Stillstand kennt", varianten: [
+        { code: "SE8", text: "Kaum eine Bewegung bleibt bei der selbsterhaltenden Acht tagsüber ungenutzt, ihre körperliche Kraft ist ständig im Einsatz. Muss sie abends stillhalten, kann sich diese aufgestaute Körperkraft als Unruhe in den Beinen bemerkbar machen." },
+        { code: "SO8", text: "Körperlich präsent und einsatzbereit bleibt die soziale Acht tagsüber, ganz im Dienst ihrer Beschützerrolle. Kommt der Körper abends zur Ruhe, kann die tagsüber aufgestaute Einsatzbereitschaft als Bewegungsdrang in den Beinen weiterlaufen." },
+        { code: "SX8", text: "Am liebsten unmittelbar körperlich, im engen Kontakt mit der geliebten Person, entlädt die sexuelle Acht ihre Intensität tagsüber. Fehlt dieser körperliche Ausdrucksraum an einem Abend, kann die übrig gebliebene Spannung sich als Unruhe in den Beinen zeigen." },
+      ]},
+      { typ: 9, titel: "Eine Energie, die sich selbst übergeht", varianten: [
+        { code: "SE9", text: "Eigene Bewegungsimpulse gehen bei der selbsterhaltenden Neun leicht unter, so tief ist ihr Aufgehen in Routine und Komfort. Genau diese übergangene Energie kann sich abends, wenn Stille einkehrt, als Unruhe in den Beinen zurückmelden." },
+        { code: "SO9", text: "Ungelebt bleiben bei der sozialen Neun tagsüber oft eigene Impulse, weil sie ihre Anliegen beständig der Gruppenharmonie unterordnet. Diese ungelebten Impulse können sich abends als spürbarer Bewegungsdrang in den Beinen bemerkbar machen." },
+        { code: "SX9", text: "Dem Rhythmus des Partners folgt die sexuelle Neun tagsüber eher als ihrem eigenen, so sehr verschmilzt sie mit ihm. Kommt sie abends zur Ruhe, kann ihr eigener, den ganzen Tag übergangener Rhythmus sich als Unruhe in den Beinen zu Wort melden." },
+      ]},
+    ],
+    abschluss: "Keine Beine sind vor dem Restless-Legs-Syndrom gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen tagsüber unterschiedlich viel Raum für den eigenen Antrieb findet – und entsprechend unterschiedlich reagiert, wenn dieser Antrieb am Abend keinen Ausweg mehr findet. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  zaehneknirschen_bruxismus: {
+    titel: "Zähneknirschen (Bruxismus)",
+    kategorie: "nerven-psyche",
+    icon: "🦷",
+    kurz: "Was tagsüber zurückgehalten wird, presst sich nachts unbewusst durch den Kiefer – Spannung, die keinen anderen Ausweg gefunden hat.",
+    definition: "Bruxismus bezeichnet das unbewusste Aufeinanderpressen oder Knirschen der Zähne, meist nachts während des Schlafs, seltener auch tagsüber. Die Kaumuskulatur entwickelt dabei Kräfte, die weit über das für Kauen nötige Maß hinausgehen, was langfristig zu Zahnabrieb, Kiefergelenksbeschwerden, Verspannungen der Kau- und Nackenmuskulatur sowie Kopfschmerzen führen kann. Als Hauptursache gilt heute weniger eine rein zahnmedizinische Fehlstellung als vielmehr psychischer Stress und innere Anspannung: Das nächtliche Knirschen wird häufig als eine Art unbewusstes Ventil verstanden, über das tagsüber angesammelte Spannung abgebaut wird, wenn die bewusste Kontrolle im Schlaf nachlässt. Auch bestimmte Lebensstilfaktoren wie Koffein, Alkohol oder Rauchen können Bruxismus begünstigen. Eine Aufbissschiene kann die Zähne schützen, setzt aber nicht an der zugrunde liegenden Anspannung an.",
+    symptome: ["Nächtliches, oft unbemerktes Knirschen oder Pressen der Zähne", "Abgenutzte, verkürzte oder empfindliche Zähne", "Verspannung und Schmerzen der Kaumuskulatur, besonders morgens", "Kiefergelenksbeschwerden mit Knacken oder eingeschränkter Mundöffnung", "Spannungskopfschmerzen, oft im Schläfenbereich", "Nacken- und Schulterverspannungen", "Manchmal begleitende Ohrenschmerzen oder Tinnitus durch die Kiefergelenksnähe"],
+    notfall: "Kein akuter Notfall. Bei starken Kieferschmerzen, deutlich eingeschränkter Mundöffnung oder sichtbarem Zahnabrieb zahnärztliche Abklärung sinnvoll.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Bruxismus geschieht im Schlaf, dort, wo die bewusste Kontrolle über das eigene Verhalten am weitesten losgelassen ist – und genau dort presst sich etwas durch den Kiefer, das tagsüber offenbar keinen anderen Ausweg gefunden hat. In der TCM wird Zähneknirschen häufig mit gestautem Leber-Qi in Verbindung gebracht, das sich, ähnlich wie ein zusammengebissener Kiefer, seinen Weg durch Anspannung statt durch freien Fluss sucht. Psychosomatisch liegt bei Bruxismus eine Deutung nahe, die sich um zurückgehaltenen Ärger oder zurückgehaltene Worte dreht: etwas, das tagsüber hätte gesagt oder ausgedrückt werden wollen, aber zurückgehalten wurde – und sich nachts, unbewusst und unkontrolliert, im buchstäblichen Zusammenbeißen der Zähne entlädt. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche zurückgehaltene Regung sich hier nachts durch den Kiefer Bahn bricht.",
+    typen: [
+      { typ: 1, titel: "Ein Ärger, der sich nachts durchsetzt", varianten: [
+        { code: "SE1", text: "Kleine Ärgernisse steckt die selbsterhaltende Eins tagsüber diszipliniert weg, statt sie zu äußern. Im Schlaf, wenn diese Selbstkontrolle nachlässt, kann sich der aufgestaute Ärger unbewusst als Zähneknirschen durchsetzen." },
+        { code: "SO1", text: "Was an moralischer Empörung tagsüber hinter kontrollierter Fassung verborgen bleibt, verlässt die soziale Eins so gut wie nie unmittelbar. Genau dieser zurückgehaltene Ärger kann sich nachts, ohne bewusste Kontrolle, als festes Aufeinanderpressen der Zähne zeigen." },
+        { code: "SX1", text: "Ihren Ärger spricht die sexuelle Eins tagsüber meist unmittelbar aus, statt ihn zurückzuhalten. Bleibt ihr diese direkte Äußerung an einem bestimmten Tag ausnahmsweise verwehrt, kann sich die übrig gebliebene Spannung nachts im Kiefer entladen." },
+      ]},
+      { typ: 2, titel: "Ein Anspruch, der nachts durchbricht", varianten: [
+        { code: "SE2", text: "Ihr eigenes Bedürfnis nach Anerkennung spricht die selbsterhaltende Zwei tagsüber kaum offen an, sie stellt es zurück. Nachts, wenn diese Zurückhaltung nachlässt, kann sich dieses übergangene Bedürfnis unbewusst als Zähneknirschen zeigen." },
+        { code: "SO2", text: "Ihren eigenen Einsatz für andere spricht die soziale Zwei tagsüber selten offen an, sie hofft eher, dass er gesehen wird. Bleibt diese Anerkennung aus, kann sich die daraus entstehende stille Enttäuschung nachts als festes Aufeinanderpressen der Zähne zeigen." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung lässt die sexuelle Zwei kaum ein eigenes Bedürfnis unausgesprochen. Wird sie in dieser einen Beziehung ausnahmsweise übergangen, kann sich die aufgestaute Enttäuschung nachts im Kiefer entladen." },
+      ]},
+      { typ: 3, titel: "Ein Druck, der sich nachts löst", varianten: [
+        { code: "SE3", text: "Ihre Erschöpfung zeigt die selbsterhaltende Drei tagsüber kaum, sie funktioniert lieber makellos weiter. Nachts, wenn die Funktionsfähigkeit nicht mehr gefordert ist, kann sich diese verdeckte Anspannung als Zähneknirschen entladen." },
+        { code: "SO3", text: "Nach außen darf bei der sozialen Drei tagsüber kaum ein Riss im Erfolgsbild sichtbar werden, auch unter innerem Druck nicht. Genau dieser verdeckte Druck kann sich nachts, ohne bewusste Kontrolle, als festes Aufeinanderpressen der Zähne zeigen." },
+        { code: "SX3", text: "Ihre Erschöpfung ist bei der sexuellen Drei ausgerechnet vor der einen wichtigen Person am ehesten sichtbar, statt hinter Fassade verborgen. Bleibt diese Person an einem bestimmten Abend fern, kann die dadurch entstehende Anspannung sich nachts im Kiefer zeigen." },
+      ]},
+      { typ: 4, titel: "Ein Gefühl, das sich nachts durchsetzt", varianten: [
+        { code: "SE4", text: "Zäh und funktional hält die selbsterhaltende Vier, der Kontratyp, tagsüber an ihrem Alltag fest, während die eigentliche Gefühlslage kaum nach außen dringt. Nachts, wenn diese mühsam gehaltene Kontrolle nachlässt, kann sich die aufgestaute emotionale Ladung als Zähneknirschen entladen." },
+        { code: "SO4", text: "Vor vertrautem Publikum bleibt der eigene Schmerz bei der sozialen Vier tagsüber ein wiederkehrendes Gesprächsthema. Bleibt diese Erzählung ausnahmsweise ohne Resonanz, kann sich die Enttäuschung darüber nachts als festes Aufeinanderpressen der Zähne zeigen." },
+        { code: "SX4", text: "Ihre Gefühle drückt die sexuelle Vier tagsüber ungefiltert und ohne Umweg aus, statt sie zwischenzuspeichern. Bleibt ihr diese Entladung an einem bestimmten Tag ausnahmsweise verwehrt, kann sich die übrig gebliebene Spannung nachts im Kiefer bemerkbar machen." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der nachts nachgibt", varianten: [
+        { code: "SE5", text: "Kontakt und Nähe hält die selbsterhaltende Fünf tagsüber konsequent auf Distanz, um ihre Energie zu schützen. Nachts, wenn diese bewusste Abgrenzung nachlässt, kann sich die dahinterliegende Anspannung als Zähneknirschen zeigen." },
+        { code: "SO5", text: "Was sie an Zweifeln tagsüber mit sich trägt, spricht die soziale Fünf kaum aus, während ihr Fachwissen frei zirkuliert. Diese unausgesprochenen Zweifel können sich nachts, ohne bewusste Kontrolle, als festes Aufeinanderpressen der Zähne zeigen." },
+        { code: "SX5", text: "Fremd bleibt der sexuellen Fünf echte Nähe fast überall – außer innerhalb der einen tiefen Verbindung, die sie sich bewahrt. Bleibt diese eine Verbindung an einem bestimmten Abend distanziert, kann sich die dadurch entstehende Spannung nachts im Kiefer entladen." },
+      ]},
+      { typ: 6, titel: "Eine Anspannung, die sich nachts löst", varianten: [
+        { code: "SE6", text: "Körperlich hält die selbsterhaltende Sechs ihre Wachsamkeit tagsüber fest im Griff, kaum eine Muskelgruppe bleibt wirklich entspannt. Nachts, wenn diese Wachsamkeit theoretisch nachlassen könnte, presst sich die verbliebene Anspannung stattdessen oft in Form von Zähneknirschen durch." },
+        { code: "SO6", text: "Offen geäußert wird die Sorge um die Gruppe bei der sozialen Sechs tagsüber selten, sie bleibt meist ein inneres Begleitgeräusch. Diese unausgesprochene Sorge kann sich nachts als festes Aufeinanderpressen der Zähne zeigen." },
+        { code: "SX6", text: "Zurückhalten kann die sexuelle Sechs, der Kontratyp, ihre Angst tagsüber kaum – sie sucht stattdessen die unmittelbare Konfrontation. Bleibt ihr diese Entladung an einem bestimmten Tag verwehrt, kann sich die aufgestaute Anspannung nachts im Kiefer zeigen." },
+      ]},
+      { typ: 7, titel: "Eine Rastlosigkeit, die nachts weiterläuft", varianten: [
+        { code: "SE7", text: "Unbehagen lässt die selbsterhaltende Sieben tagsüber durch beständige Ablenkung erst gar nicht richtig zu. Nachts, wenn diese Ablenkung wegfällt, kann sich das übergangene Unbehagen als Zähneknirschen bemerkbar machen." },
+        { code: "SO7", text: "Immer wieder zurückgestellt werden die eigenen Grenzen der sozialen Sieben, dem Kontratyp, tagsüber zugunsten der Gruppe. Diese angesammelte Selbstüberforderung kann sich nachts als festes Aufeinanderpressen der Zähne entladen." },
+        { code: "SX7", text: "Fehlt der sexuellen Sieben tagsüber die gewohnte intensive Erfahrung, bleibt eine spürbare Lücke zurück. Bleibt an einem bestimmten Tag die gewohnte Intensität aus, kann die überschüssige, nun ungenutzte Erregung sich nachts im Kiefer entladen." },
+      ]},
+      { typ: 8, titel: "Eine Kontrolle, die sich nachts löst", varianten: [
+        { code: "SE8", text: "Über sich selbst und ihr Umfeld behält die selbsterhaltende Acht tagsüber konsequent die Kontrolle. Nachts, wenn diese bewusste Kontrolle theoretisch nachlassen könnte, presst sich die verbliebene Anspannung stattdessen als Zähneknirschen durch." },
+        { code: "SO8", text: "Stärke ist es, was die soziale Acht in ihrer Beschützerrolle tagsüber nach außen zeigt, eigene Erschöpfung bleibt unausgesprochen. Diese verdeckte Erschöpfung kann sich nachts als festes Aufeinanderpressen der Zähne zeigen." },
+        { code: "SX8", text: "Im engen körperlichen Kontakt mit der geliebten Person findet die sexuelle Acht tagsüber ihren liebsten Ausdrucksraum für Intensität. Fehlt dieser Ausdrucksraum an einem bestimmten Tag, kann sich die übrig gebliebene Spannung nachts im Kiefer zeigen." },
+      ]},
+      { typ: 9, titel: "Ein Widerstand, der sich nachts zeigt", varianten: [
+        { code: "SE9", text: "Kaum bewusst wahrgenommen wird bei der selbsterhaltenden Neun tagsüber eigener innerer Widerstand, so tief geht ihr Aufgehen in Routine und Komfort. Genau dieser übergangene Widerstand kann sich nachts als Zähneknirschen zurückmelden." },
+        { code: "SO9", text: "Innerlich anderer Ansicht zu sein und das trotzdem der Gruppenharmonie unterzuordnen gehört bei der sozialen Neun tagsüber fast zur Gewohnheit. Dieser stille innere Widerspruch kann sich nachts als festes Aufeinanderpressen der Zähne zeigen." },
+        { code: "SX9", text: "Kaum artikuliert wird bei der sexuellen Neun eigener Widerstand gegen die Wünsche des Partners, mit dem sie tagsüber verschmilzt. Bleibt dieser Widerstand tagsüber durchgehend unausgesprochen, kann er sich nachts unbewusst im Kiefer Bahn brechen." },
+      ]},
+    ],
+    abschluss: "Kein Kiefer ist vor Bruxismus gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen tagsüber unterschiedlich viel Ärger, Anspruch oder Widerstand zurückhält – und diese zurückgehaltene Regung sich nachts, ohne bewusste Kontrolle, auf ihre eigene Weise durch den Kiefer Bahn bricht. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  chronisches_erschoepfungssyndrom_mecfs: {
+    titel: "Chronisches Erschöpfungssyndrom (ME/CFS)",
+    kategorie: "nerven-psyche",
+    icon: "🪫",
+    kurz: "Eine Erschöpfung, die keine Erholung mehr kennt – jede Anstrengung, auch die kleinste, kann den Zustand über Tage hinweg deutlich verschlechtern.",
+    definition: "Die Myalgische Enzephalomyelitis / das Chronische Fatigue-Syndrom (ME/CFS) ist eine schwere, komplexe Multisystemerkrankung, die weit über gewöhnliche Müdigkeit hinausgeht. Kennzeichnend ist eine tiefgreifende, durch Schlaf nicht besserbare Erschöpfung sowie die sogenannte Post-Exertional Malaise (PEM): körperliche, geistige oder emotionale Anstrengung – auch geringfügige – führt verzögert, oft erst nach Stunden oder Tagen, zu einer massiven, mehrtägigen Verschlechterung sämtlicher Symptome. Hinzu kommen häufig kognitive Beeinträchtigungen (der sogenannte Brain Fog), Schlafstörungen trotz Erschöpfung, Muskel- und Gelenkschmerzen sowie eine gestörte Kreislaufregulation. Die genauen Ursachen sind noch nicht vollständig geklärt; diskutiert werden Störungen des Immunsystems, des autonomen Nervensystems und des Energiestoffwechsels auf Zellebene, häufig ausgelöst durch eine vorausgegangene Infektion. ME/CFS ist eine anerkannte neurologische Erkrankung, keine reine ›Erschöpfung durch Stress‹ – das zentrale diagnostische Merkmal, die PEM, unterscheidet sie klar von normaler Müdigkeit oder einem Burnout.",
+    symptome: ["Tiefgreifende, durch Schlaf nicht besserbare Erschöpfung über mindestens sechs Monate", "Post-Exertional Malaise (PEM) – verzögerte, mehrtägige Verschlechterung nach Anstrengung", "Nicht erholsamer Schlaf trotz ausgeprägter Müdigkeit", "Kognitive Beeinträchtigungen (Brain Fog), Konzentrations- und Wortfindungsstörungen", "Muskel- und Gelenkschmerzen ohne erkennbare Entzündung", "Orthostatische Beschwerden – Schwindel oder Herzrasen beim Aufstehen", "Deutlich eingeschränkte Belastbarkeit im Alltag, oft bis zur Bettlägerigkeit"],
+    notfall: "Kein akuter Notfall im klassischen Sinn. Bei starker Verschlechterung mit Kreislaufproblemen oder Verdacht auf eine andere schwere Grunderkrankung zeitnah ärztlich abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "ME/CFS stellt eine harte Grenze auf, wo vorher Belastbarkeit selbstverständlich schien: Jede Anstrengung, und sei sie noch so klein, wird mit einer verzögerten, oft tagelangen Verschlechterung beantwortet. In der TCM wird ein solcher tiefer, durch Ruhe kaum zu behebender Erschöpfungszustand häufig mit einer massiven Schwäche des Nieren- und Milz-Qi in Verbindung gebracht – die eigentliche Energiereserve des Körpers selbst ist betroffen, nicht nur die Tagesform. Psychosomatisch liegt bei ME/CFS eine Deutung nahe, die sich weniger um punktuelle Überlastung dreht als um eine über lange Zeit erschöpfte Grundreserve: eine Lebensweise, ein Muster oder eine Rolle, das über Jahre mehr verlangt hat, als aufgefüllt wurde, bis der Körper selbst die Notbremse zieht und jede weitere Ausgabe mit Rückzug quittiert. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche über Jahre erschöpfte Reserve sich hier als diese besonders tiefe, anhaltende Erschöpfung zeigt.",
+    typen: [
+      { typ: 1, titel: "Eine Reserve, die die Disziplin verschlungen hat", varianten: [
+        { code: "SE1", text: "Über Jahre hält die selbsterhaltende Eins ihre Selbstdisziplin ohne nennenswerte Pausen aufrecht, jede Nachlässigkeit wird sofort korrigiert. Wenn diese permanente Anspannung die eigentliche Energiereserve erschöpft hat, kann selbst kleinste Anstrengung eine tagelange Verschlechterung nach sich ziehen." },
+        { code: "SO1", text: "Ihre Verantwortung für das große Ganze trägt die soziale Eins über Jahre beständig mit, ohne sich Verausgabung einzugestehen. Ist diese Grundreserve einmal erschöpft, kann sich das gerade bei ihr, die Schwäche selten zulässt, besonders lange unbemerkt zuspitzen." },
+        { code: "SX1", text: "Ihre Energie setzt die sexuelle Eins unmittelbar und mit voller Intensität für ihre Überzeugungen ein, ohne sie über Jahre zurückzuhalten. Ist auch diese fortlaufend eingesetzte Energie irgendwann erschöpft, kann der Einbruch entsprechend abrupt und tief ausfallen." },
+      ]},
+      { typ: 2, titel: "Eine Reserve, die im Geben aufgezehrt wurde", varianten: [
+        { code: "SE2", text: "Über Jahre stellt die selbsterhaltende Zwei die eigenen Bedürfnisse konsequent hinter die anderer zurück, ohne sich selbst regelmäßig aufzufüllen. Ist diese Reserve irgendwann vollständig erschöpft, kann sich das als besonders tiefe, kaum durch Ruhe zu bessernde Erschöpfung zeigen." },
+        { code: "SO2", text: "Ihren Einsatz für die Gemeinschaft leistet die soziale Zwei über Jahre, oft ohne echten Ausgleich für sich selbst einzufordern. Fehlt dieser Ausgleich dauerhaft, kann die entstehende Erschöpfung sich zu einem Zustand verdichten, der auf keine Ruhepause mehr reagiert." },
+        { code: "SX2", text: "Ihre ganze Energie richtet die sexuelle Zwei über Jahre auf die eine wichtige Beziehung aus, oft mit hoher Intensität. Ist diese eine Quelle über lange Zeit die einzige Energiequelle geblieben, kann ihr Versiegen besonders tiefgreifend spürbar werden." },
+      ]},
+      { typ: 3, titel: "Eine Reserve, die die Leistung verschlungen hat", varianten: [
+        { code: "SE3", text: "Funktionieren, egal wie erschöpft der Zustand darunter tatsächlich ist – daran hält sich die selbsterhaltende Drei über Jahre wie an einer Grundregel fest. Ist die dahinterliegende Grenze einmal überschritten, kann sich das als eine Erschöpfung zeigen, die selbst auf ausgiebigen Schlaf nicht mehr reagiert." },
+        { code: "SO3", text: "Ihr makelloses öffentliches Bild hält die soziale Drei über Jahre aufrecht, auch dann, wenn die eigentliche Energiereserve längst angegriffen ist. Bricht die Erschöpfung schließlich durch, widerspricht das ihrem Selbstbild so fundamental, dass sie besonders lange dagegen ankämpft." },
+        { code: "SX3", text: "Vor der einen wichtigen Person setzt die sexuelle Drei über Jahre volle Intensität ein, um Anziehungskraft zu behalten. Ist diese Reserve irgendwann erschöpft, kann der Einbruch ihre gewohnte Funktionsfähigkeit besonders unvermittelt beenden." },
+      ]},
+      { typ: 4, titel: "Eine Reserve, die das Gefühl beansprucht hat", varianten: [
+        { code: "SE4", text: "Über Jahre trägt die selbsterhaltende Vier, der Kontratyp, ihre Sehnsucht zäh und funktional mit sich, ohne sich davon lähmen zu lassen. Genau dieses ständige Gegenhalten kann über lange Zeit hinweg eine tiefe Grundreserve aufzehren, die sich dann als ME/CFS zeigt." },
+        { code: "SO4", text: "Ihr Leiden hält die soziale Vier über Jahre in vertrauten Erzählungen lebendig, was psychisch bindet, ohne echte Entlastung zu bringen. Bleibt diese Bindung über lange Zeit bestehen, kann sie zu der tiefen, unerholsamen Erschöpfung beitragen, die für ME/CFS charakteristisch ist." },
+        { code: "SX4", text: "Jede Regung wird bei der sexuellen Vier über Jahre in voller Stärke gelebt, ohne dass je gedrosselt wird. Ist diese Reserve an emotionaler Intensität irgendwann erschöpft, kann der körperliche Einbruch entsprechend tief und lang anhaltend ausfallen." },
+      ]},
+      { typ: 5, titel: "Eine Reserve, die trotz Rückzug schwindet", varianten: [
+        { code: "SE5", text: "Kontakt und Bedürfnisse reduziert die selbsterhaltende Fünf über Jahre konsequent, um ihre begrenzte Energie zu schützen. Reicht dieser Schutz irgendwann nicht mehr aus, kann die verbleibende Erschöpfung besonders tief und hartnäckig ausfallen." },
+        { code: "SO5", text: "Kognitive Schwerarbeit leistet die soziale Fünf über Jahre bereitwillig für die Gruppe, auch wenn das anstrengender ist, als es nach außen wirkt. Ist diese geistige Reserve irgendwann erschöpft, zeigt sich das oft zuerst als der für ME/CFS typische Brain Fog." },
+        { code: "SX5", text: "Erhebliche emotionale Energie steckt die sexuelle Fünf über Jahre in die eine tiefe Verbindung, die sie sich sonst konsequent versagt. Versiegt diese eine Quelle, kann die dadurch entstehende Erschöpfung besonders tiefgreifend wirken." },
+      ]},
+      { typ: 6, titel: "Eine Reserve, die die Wachsamkeit verschlungen hat", varianten: [
+        { code: "SE6", text: "Nie vollständig nachlassende Wachsamkeit fordert dem Nervensystem der selbsterhaltenden Sechs über Jahre einen hohen, kaum sichtbaren Preis ab. Genau diese Dauerbelastung des Nervensystems gilt als einer der plausibelsten Wegbereiter einer tiefen, nicht erholsamen Erschöpfung." },
+        { code: "SO6", text: "Nie ganz entlastet fühlt sich die soziale Sechs von der Sorge um ihre Gruppe, Jahr für Jahr. Bleibt diese Sorge über lange Zeit bestehen, kann sie zu der Grundreserve-Erschöpfung beitragen, die für ME/CFS charakteristisch ist." },
+        { code: "SX6", text: "Kräftezehrende, unmittelbare Konfrontation zieht die sexuelle Sechs, der Kontratyp, über Jahre dem schonenden Rückzug vor. Ist diese Kraft irgendwann aufgebraucht, kann der Einbruch besonders unvermittelt und tief ausfallen." },
+      ]},
+      { typ: 7, titel: "Eine Reserve, die die Ablenkung verschlungen hat", varianten: [
+        { code: "SE7", text: "Echte Erholung lässt die selbsterhaltende Sieben über Jahre kaum an sich heran, ständig wartet die nächste angenehme Aktivität. Ist die dahinterliegende Grundreserve irgendwann erschöpft, kann selbst kleinste Anstrengung eine mehrtägige Verschlechterung nach sich ziehen." },
+        { code: "SO7", text: "Kaum eine echte eigene Pause bleibt der sozialen Sieben, dem Kontratyp, über Jahre, weil sie ihre Grenzen für die Gruppe immer wieder zurückstellt. Diese anhaltende Selbstüberforderung zählt zu den plausibelsten Wegbereitern eines chronischen Erschöpfungssyndroms." },
+        { code: "SX7", text: "Ungebremst reiht die sexuelle Sieben über Jahre eine intensive Erfahrung an die nächste, ohne echte Verschnaufpausen. Ist diese Reserve an Erregungsfähigkeit irgendwann erschöpft, kann der Einbruch für sie besonders unerwartet und tief ausfallen." },
+      ]},
+      { typ: 8, titel: "Eine Reserve, die die Kontrolle verschlungen hat", varianten: [
+        { code: "SE8", text: "Eigene Erschöpfungssignale übergeht die selbsterhaltende Acht über Jahre notfalls, solange die Kontrolle über Körper und Ressourcen erhalten bleibt. Werden diese Signale lange genug übergangen, kann sich daraus eine besonders tiefe, therapieresistente Erschöpfung entwickeln." },
+        { code: "SO8", text: "Durchgehend präsent und stark zeigt sich die soziale Acht in ihrer Beschützerrolle über Jahre, auch wenn die eigenen Kräfte längst angegriffen sind. Bricht die Erschöpfung schließlich durch, erlebt sie das oft als besonders erschütternden Kontrollverlust." },
+        { code: "SX8", text: "Kaum gedrosselt bleibt über Jahre, wie viel körperliche Intensität die sexuelle Acht in die Bindung zur geliebten Person einbringt. Ist diese Reserve irgendwann erschöpft, kann der körperliche Einbruch entsprechend abrupt und tief ausfallen." },
+      ]},
+      { typ: 9, titel: "Eine Reserve, die sich selbst übergangen hat", varianten: [
+        { code: "SE9", text: "Kaum je bewusst registriert werden bei der selbsterhaltenden Neun über Jahre eigene Erschöpfungssignale, so tief geht ihr Aufgehen in Routine und Komfort. Diese besonders tiefe Selbstvergessenheit kann dazu führen, dass ein chronisches Erschöpfungssyndrom bei ihr am längsten unbemerkt bleibt, bevor es unübersehbar wird." },
+        { code: "SO9", text: "Auch das Bedürfnis nach echter Erholung ordnet die soziale Neun über Jahre beständig der Gruppenharmonie unter. Wird dieses Zurückstellen über lange Zeit zur Gewohnheit, kann sich daraus eine tiefe, kaum erholsame Erschöpfung entwickeln." },
+        { code: "SX9", text: "Eher das Energielevel des Partners als das eigene nimmt die sexuelle Neun über Jahre wahr, so sehr verschmilzt sie mit ihm. Ist der Partner selbst über lange Zeit erschöpft oder abwesend, kann die eigene, lange übergangene Erschöpfung der Neun sich entsprechend tief zeigen." },
+      ]},
+    ],
+    abschluss: "Keine Energiereserve ist vor ME/CFS gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen seine Grundreserve über Jahre auf unterschiedliche Weise beansprucht – manche über Disziplin, andere über Geben, Wachsamkeit oder ein chronisch übergangenes eigenes Ruhebedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  migraene: {
+    titel: "Migräne",
+    kategorie: "nerven-psyche",
+    icon: "⚡",
+    kurz: "Ein Kopf, der die Notbremse zieht – mit einem Schmerz, der jede weitere Reizverarbeitung für Stunden erzwungen unterbricht.",
+    definition: "Migräne ist eine neurologische Erkrankung, bei der es anfallsartig zu meist einseitigen, pulsierenden Kopfschmerzen kommt, oft begleitet von Übelkeit, Erbrechen sowie einer starken Überempfindlichkeit gegenüber Licht, Geräuschen und Gerüchen. Bei einem Teil der Betroffenen kündigt sich der Anfall durch eine Aura an – vorübergehende Seh-, Sprach- oder Sensibilitätsstörungen, die auf eine kurzzeitige Welle veränderter elektrischer Aktivität im Gehirn zurückgehen. Auslöser sind individuell sehr unterschiedlich und reichen von Schlafmangel, Stress oder gerade nachlassendem Stress, Hormonschwankungen und bestimmten Nahrungsmitteln bis zu Wetterumschwüngen. Die genaue Entstehung ist noch nicht vollständig geklärt, gilt aber als Zusammenspiel aus genetischer Veranlagung und einer überempfindlichen Reizverarbeitung im Gehirn, die bei Überlastung gewissermaßen die Reißleine zieht.",
+    symptome: ["Meist einseitiger, pulsierender bis pochender Kopfschmerz", "Verstärkung bei körperlicher Aktivität", "Übelkeit und Erbrechen", "Licht-, Geräusch- und Geruchsempfindlichkeit", "Bei manchen Betroffenen eine vorausgehende Aura (Sehstörungen, Kribbeln)", "Rückzugsbedürfnis in einen dunklen, ruhigen Raum", "Anfalldauer von mehreren Stunden bis zu drei Tagen"],
+    notfall: "Bei plötzlichem, noch nie erlebtem Vernichtungskopfschmerz, Fieber, Nackensteife, Lähmungserscheinungen oder Bewusstseinstrübung sofort den Notruf wählen – das kann auf eine andere, akut gefährliche Ursache hindeuten.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Migräne zwingt zum Stillstand, wo eigener Wille das nicht schafft – ein Reizsystem, das irgendwann selbst die Notbremse zieht, weil zu viel gleichzeitig verarbeitet werden soll. In der TCM wird das anfallsartige, oft mit Übelkeit verbundene Kopfschmerzbild häufig aufsteigendem Leber-Yang oder Leber-Feuer zugeordnet – gestaute Energie, die sich explosionsartig nach oben entlädt, wenn sie zuvor über lange Zeit unterdrückt wurde. Psychosomatisch liest sich Migräne oft als Bild eines Kopfes, der zu viel auf einmal tragen, kontrollieren oder verarbeiten soll und sich schließlich selbst abschaltet, um Ruhe zu erzwingen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche Überlastung hier zur eigenen Notbremse führt.",
+    typen: [
+      { typ: 1, titel: "Ein Kopf, der keine Pause kennt", varianten: [
+        { code: "SE1", text: "Jedes Detail im Alltag prüft die selbsterhaltende Eins gewissenhaft nach, bevor sie es als richtig durchgehen lässt. Diese permanente Feinabstimmung im Kopf kann sich als Migräneanfall entladen, sobald die Anspannung ihren Höhepunkt erreicht." },
+        { code: "SO1", text: "Als Vorbild für andere hält die soziale Eins einen hohen inneren Maßstab durchgehend aufrecht, ohne ihn selbst je zu unterschreiten. Wird dieser Anspruch durch äußere Umstände infrage gestellt, kann sich die aufgestaute Spannung als pulsierender Migräneanfall lösen." },
+        { code: "SX1", text: "Ärger über Unrecht bricht bei der sexuellen Eins unmittelbar und hörbar hervor, statt sich innerlich aufzustauen. Diese direkte Entladung nach außen unterscheidet sich von der stillen Dauerspannung anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Ein Kopf, der niemand enttäuschen will", varianten: [
+        { code: "SE2", text: "Wünsche äußert die selbsterhaltende Zwei am liebsten so beiläufig-charmant, dass niemand sie als Forderung empfindet – ein ständiges Kalkulieren im Hintergrund. Genau dieses Dauerkalkül kann sich als Migräneattacke entladen, sobald zu viele Wünsche gleichzeitig offenbleiben." },
+        { code: "SO2", text: "Über zahlreiche Kontakte hinweg behält die soziale Zwei stets den Überblick, wer gerade welche Unterstützung braucht. Diese fortlaufende soziale Rechenarbeit im Kopf kann sich als Migräneanfall zeigen, wenn zu viele Fäden gleichzeitig gehalten werden müssen." },
+        { code: "SX2", text: "Auf die eine wichtige Person konzentriert die sexuelle Zwei ihre ganze Aufmerksamkeit, statt sie auf viele zu verteilen. Diese Bündelung entlastet den Kopf gegenüber dem breiten Dauerkalkül anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Ein Kopf, der nie offline geht", varianten: [
+        { code: "SE3", text: "Aufgaben plant die selbsterhaltende Drei effizient bis ins letzte Detail durch, im Kopf läuft dabei ständig eine Art innere To-do-Liste mit. Läuft diese Liste über, kann sich der Druck als Migräneanfall entladen." },
+        { code: "SO3", text: "Ihr öffentliches Bild kalkuliert die soziale Drei fortlaufend mit, jede Situation wird auf ihre Außenwirkung hin geprüft. Dieses ständige Mitdenken der eigenen Wirkung kann sich als pulsierender Kopfschmerz zeigen." },
+        { code: "SX3", text: "Ihr sorgfältig kalkuliertes Bild lässt die sexuelle Drei nur vor der einen wichtigen Person auch einmal fallen, statt es ständig aufrechtzuerhalten. Diese punktuelle Entlastung unterscheidet sich vom durchgehenden Kalkül anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein Kopf, der Gefühle zurückhält", varianten: [
+        { code: "SE4", text: "Ihren Schmerz trägt die selbsterhaltende Vier, der Kontratyp, wortlos und ausdauernd mit sich, statt ihn nach außen zu zeigen. Genau dieses stille Aushalten kann sich körperlich als Migräneanfall Bahn brechen." },
+        { code: "SO4", text: "Wie besonders und unverstanden sie sich fühlt, kreist bei der sozialen Vier oft stundenlang im Kopf, ohne dass sich daran je etwas löst. Dieses endlose gedankliche Kreisen kann sich als Migräneanfall entladen." },
+        { code: "SX4", text: "Ihre Intensität lebt die sexuelle Vier direkt in der Begegnung aus, statt sie im Kopf zu wälzen. Dieser unmittelbare Ausdruck unterscheidet sich vom endlosen inneren Kreisen anderer Vierer-Varianten." },
+      ]},
+      { typ: 5, titel: "Ein Kopf, der zu viel verarbeitet", varianten: [
+        { code: "SE5", text: "Reize aus der Außenwelt filtert die selbsterhaltende Fünf konsequent, um mit den eigenen begrenzten Ressourcen auszukommen. Reicht dieses Filtern nicht mehr aus, kann der Kopf mit einem Migräneanfall selbst die Reißleine ziehen." },
+        { code: "SO5", text: "Ganze Wissensgebiete durchdenkt die soziale Fünf mit großer Ausdauer, bevor sie ihr Fachwissen mit anderen teilt. Diese anhaltende gedankliche Schwerarbeit kann sich als pochender Kopfschmerz entladen." },
+        { code: "SX5", text: "Nähe und Austausch lässt die sexuelle Fünf durchaus intensiv zu, statt sich rein aufs Denken zurückzuziehen – allerdings ausschließlich innerhalb ihrer einen tiefen Verbindung. Dieser gefühlte Ausgleich unterscheidet sich von der reinen Kopflastigkeit anderer Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Ein Kopf, der jedes Risiko durchspielt", varianten: [
+        { code: "SE6", text: "Mögliche Gefahren durchdenkt die selbsterhaltende Sechs im Vorfeld gründlich, um für jeden Fall gewappnet zu sein. Dieses ständige Durchspielen von Szenarien kann sich als Migräneanfall entladen, sobald zu viele Eventualitäten gleichzeitig offenbleiben." },
+        { code: "SO6", text: "Regeln und Erwartungen der Gruppe behält die soziale Sechs genau im Blick, um nirgends anzuecken. Dieses fortlaufende Abgleichen kann sich als pulsierender Kopfschmerz zeigen, wenn widersprüchliche Erwartungen aufeinandertreffen." },
+        { code: "SX6", text: "Unmittelbares Handeln statt endloses gedankliches Durchspielen ist die Antwort der sexuellen Sechs, des Kontratyps, auf Angst. Diese Handlungsorientierung kann die Kopfüberlastung senken, die bei anderen Sechser-Varianten eher anhält." },
+      ]},
+      { typ: 7, titel: "Ein Kopf, der zu viel gleichzeitig hält", varianten: [
+        { code: "SE7", text: "Mehrere angenehme Optionen plant die selbsterhaltende Sieben gerne parallel, damit ihr keine Möglichkeit entgeht. Läuft dieses Jonglieren zu vieler Fäden über, kann der Kopf mit einem Migräneanfall die Notbremse ziehen." },
+        { code: "SO7", text: "Ihre eigenen Interessen ordnet die soziale Sieben, der Kontratyp, beständig denen der Gruppe unter, ohne selbst zur Ruhe zu kommen. Dieses fortlaufende Zurückstecken kann sich als pochender Kopfschmerz entladen." },
+        { code: "SX7", text: "Auf eine einzige intensive Erfahrung konzentriert sich die sexuelle Sieben tatsächlich, statt gedanklich mehrere Optionen gleichzeitig offenzuhalten. Diese Fokussierung entlastet den Kopf gegenüber dem ständigen Jonglieren anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Ein Kopf, der die Kontrolle nicht loslässt", varianten: [
+        { code: "SE8", text: "Über ihre Ressourcen und ihr Territorium wacht die selbsterhaltende Acht mit großer Wachsamkeit, ein Nachlassen der Kontrolle kommt für sie kaum infrage. Dieser permanente Kontrolldruck kann sich als Migräneanfall entladen." },
+        { code: "SO8", text: "Für ihre Gruppe behält die soziale Acht ständig den Überblick über mögliche Bedrohungen von außen. Dieses fortlaufende Wachehalten kann sich als pulsierender Kopfschmerz zeigen, sobald die Anspannung ihren Höhepunkt erreicht." },
+        { code: "SX8", text: "Der einen Person, der sie vertraut, öffnet sich die sexuelle Acht mit voller Intensität, statt die Kontrolle durchgehend aufrechtzuerhalten. Diese punktuelle Öffnung unterscheidet sich vom permanenten Kontrolldruck anderer Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Kopf, der zu viel schluckt", varianten: [
+        { code: "SE9", text: "Unangenehme Themen schiebt die selbsterhaltende Neun lieber beiseite, um ihre Ruhe im Alltag nicht zu gefährden. Was so unverarbeitet bleibt, kann sich als Migräneanfall Bahn brechen, sobald es sich nicht mehr wegschieben lässt." },
+        { code: "SO9", text: "Ihre eigene Meinung stellt die soziale Neun in der Gruppe meist zurück, um Konflikte gar nicht erst entstehen zu lassen. Dieses ständige Schlucken der eigenen Position kann sich als pochender Kopfschmerz entladen." },
+        { code: "SX9", text: "In der intensiven Verschmelzung mit dem Partner übernimmt die sexuelle Neun oft auch dessen Anspannung, ohne sie als eigene zu erkennen. Bleibt diese fremde Spannung im eigenen Kopf hängen, kann sie sich dort als Migräneanfall entladen." },
+      ]},
+    ],
+    abschluss: "Kein Kopf ist vor Migräne gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit gedanklicher Überlastung auf seine eigene Weise umgeht – manche über ständiges Kalkulieren, andere über Kontrolle, endloses Kreisen oder ein chronisch geschlucktes eigenes Anliegen. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  spannungskopfschmerz: {
+    titel: "Spannungskopfschmerz",
+    kategorie: "nerven-psyche",
+    icon: "🎗️",
+    kurz: "Ein Schraubstock aus Muskelspannung, der sich unbemerkt um Stirn und Nacken legt, bis der Druck kaum mehr zu übersehen ist.",
+    definition: "Spannungskopfschmerz ist die häufigste Kopfschmerzform überhaupt und äußert sich als dumpfer, drückender, meist beidseitiger Schmerz, der oft wie ein Band oder ein Schraubstock um den Kopf empfunden wird. Anders als die Migräne verstärkt er sich in der Regel nicht durch körperliche Aktivität und geht selten mit Übelkeit einher. Auslöser sind häufig eine dauerhafte Anspannung der Nacken-, Schulter- und Kopfmuskulatur, oft in Kombination mit Stress, einseitiger Körperhaltung, Bildschirmarbeit oder zu wenig Flüssigkeit. Episodische Formen treten gelegentlich auf, chronische Verläufe an mehr als der Hälfte aller Tage im Monat – häufig, ohne dass die Betroffenen die zugrundeliegende Muskelverspannung überhaupt bewusst wahrnehmen, bis der Schmerz selbst zum Thema wird.",
+    symptome: ["Dumpfer, drückender, beidseitiger Kopfschmerz", "Gefühl eines engen Bandes oder Schraubstocks um den Kopf", "Verspannte Nacken- und Schultermuskulatur", "Leichte Licht- oder Geräuschempfindlichkeit möglich", "Keine wesentliche Verstärkung durch körperliche Aktivität", "Konzentrationsschwierigkeiten während der Episode", "Bei chronischem Verlauf Kopfschmerz an mehr als 15 Tagen im Monat"],
+    notfall: "Bei plötzlichem, ungewohnt heftigem Kopfschmerz, Fieber, Nackensteife oder neurologischen Ausfällen sofort den Notruf wählen – das kann auf eine andere, akut gefährliche Ursache hindeuten.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Anders als die anfallsartige Migräne baut sich Spannungskopfschmerz meist schleichend auf – eine Muskulatur, die sich Tag für Tag ein wenig mehr verspannt, bis der Druck irgendwann konstant spürbar wird. In der TCM wird ein solches Bild häufig mit gestautem Leber-Qi in Verbindung gebracht, das sich nicht frei bewegen kann und sich stattdessen in Nacken und Schultern festsetzt. Psychosomatisch liest sich Spannungskopfschmerz oft als Bild einer Haltung, die buchstäblich zu lange durchgehalten wird – körperlich wie innerlich –, ohne dass sich die zugrundeliegende Anspannung je bewusst löst. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche Haltung hier zu lange festgehalten wird.",
+    typen: [
+      { typ: 1, titel: "Eine Haltung, die sich nicht lockert", varianten: [
+        { code: "SE1", text: "Aufrecht und kontrolliert hält die selbsterhaltende Eins ihre Körperhaltung fast durchgehend, ein bewusstes Lockerlassen der Schultern kommt selten vor. Diese muskuläre Dauerspannung kann sich als klassischer Spannungskopfschmerz zeigen." },
+        { code: "SO1", text: "Diszipliniert und aufrecht bewegt sich die soziale Eins auch dann, wenn niemand hinsieht, weil ihr eigener Maßstab keine Ausnahme kennt. Diese durchgehende körperliche Haltung kann sich in verspannter Nacken- und Schultermuskulatur niederschlagen." },
+        { code: "SX1", text: "Ihre Anspannung entlädt sich bei der sexuellen Eins in direktem Ausdruck, statt sich in der Muskulatur festzusetzen. Diese Entladung nach außen unterscheidet sich von der körperlich gehaltenen Disziplin anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Ein Nacken, der zu viel Last trägt", varianten: [
+        { code: "SE2", text: "Praktische Aufgaben für andere übernimmt die selbsterhaltende Zwei bereitwillig, oft buchstäblich mit angespannten Schultern und vorgebeugter Haltung. Diese körperliche Lastenübernahme kann sich als Spannungskopfschmerz zeigen." },
+        { code: "SO2", text: "Für zahlreiche Menschen gleichzeitig da zu sein hält die soziale Zwei über lange Zeiträume aufrecht, ohne die eigene körperliche Anspannung wahrzunehmen. Dieses Dauertragen kann sich als drückender, bandartiger Kopfschmerz zeigen." },
+        { code: "SX2", text: "Auch einmal fallen und sich tragen lassen kann die sexuelle Zwei innerhalb der einen wichtigen Beziehung, statt selbst ständig zu tragen. Dieser Rollentausch entlastet die Muskulatur gegenüber dem Dauertragen anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Ein Rücken, der keine Schwäche zeigt", varianten: [
+        { code: "SE3", text: "Auch bei Erschöpfung hält die selbsterhaltende Drei ihre Körperhaltung leistungsbereit aufrecht, ein sichtbares Nachlassen darf sich nicht zeigen. Diese muskuläre Dauerbereitschaft kann sich als Spannungskopfschmerz entladen." },
+        { code: "SO3", text: "Vor Publikum hält die soziale Drei Haltung und Ausdruck makellos durch, selbst wenn Nacken und Schultern längst schmerzen. Dieser durchgehaltene äußere Schein kann sich in chronischer Muskelverspannung niederschlagen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person darf die sexuelle Drei ihre Haltung auch einmal fallen lassen, statt sie ständig leistungsbereit zu halten. Diese punktuelle Entspannung unterscheidet sich von der durchgehaltenen Fassade anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein Nacken, der Schwere trägt", varianten: [
+        { code: "SE4", text: "Ihre Last trägt die selbsterhaltende Vier, der Kontratyp, buchstäblich mit hochgezogenen Schultern durch den Alltag, ohne sie abzusetzen. Dieses stille Tragen kann sich als dumpfer, bandartiger Kopfschmerz zeigen." },
+        { code: "SO4", text: "In einer gebeugten, in sich gekehrten Haltung verharrt die soziale Vier oft über Stunden, während sie ihrer Melancholie nachhängt. Diese Körperhaltung kann sich muskulär als anhaltender Spannungskopfschmerz niederschlagen." },
+        { code: "SX4", text: "Ihre Intensität drückt die sexuelle Vier über Mimik und Gestik lebhaft aus, statt sie in starrer Haltung festzuhalten. Diese körperliche Beweglichkeit unterscheidet sich von der erstarrten Haltung anderer Vierer-Varianten." },
+      ]},
+      { typ: 5, titel: "Ein Nacken, der sich abschottet", varianten: [
+        { code: "SE5", text: "Über dem Schreibtisch krümmt sich die selbsterhaltende Fünf oft stundenlang, ganz in Gedanken versunken, ohne die eigene Haltung zu bemerken. Diese verharrte Körperhaltung kann sich als Spannungskopfschmerz zeigen." },
+        { code: "SO5", text: "Beim konzentrierten Erarbeiten von Wissen verharrt die soziale Fünf oft in derselben angespannten Haltung, bis der Nacken buchstäblich brennt. Dieses lange Verharren kann sich als drückender Kopfschmerz entladen." },
+        { code: "SX5", text: "In ihrer einen tiefen Verbindung entspannt sich die sexuelle Fünf körperlich durchaus, statt dauerhaft angespannt zu bleiben. Diese punktuelle Lockerung unterscheidet sich vom generellen Verharren anderer Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Schultern, die sich nie ganz senken", varianten: [
+        { code: "SE6", text: "In leichter Habachtstellung bewegt sich die selbsterhaltende Sechs fast durchgehend durch den Alltag, die Schultern bleiben dabei ständig leicht hochgezogen. Diese muskuläre Daueralarmbereitschaft kann sich als Spannungskopfschmerz zeigen." },
+        { code: "SO6", text: "Loyal zur Gruppe hält die soziale Sechs ihre Position über lange Zeit durch, auch wenn die eigene Anspannung längst spürbar ist. Dieses Durchhalten kann sich in verspannter Nacken- und Schultermuskulatur niederschlagen." },
+        { code: "SX6", text: "Ihre Anspannung entlädt die sexuelle Sechs, der Kontratyp, in unmittelbarer körperlicher Aktivität, statt sie in der Muskulatur zu speichern. Diese Entladung kann die Verspannung senken, die bei anderen Sechser-Varianten eher bestehen bleibt." },
+      ]},
+      { typ: 7, titel: "Ein Nacken, der nie zur Ruhe kommt", varianten: [
+        { code: "SE7", text: "Ständig in Bewegung von einer angenehmen Aktivität zur nächsten, kommt die selbsterhaltende Sieben körperlich kaum je wirklich zur Ruhe. Dieser Bewegungsdrang ohne echte Pause kann sich paradoxerweise als Spannungskopfschmerz entladen." },
+        { code: "SO7", text: "Ihre eigene Erschöpfung übergeht die soziale Sieben, der Kontratyp, zugunsten der Gruppe immer wieder, die Muskulatur bleibt dabei dauerhaft angespannt. Dieses Übergehen kann sich als drückender Kopfschmerz zeigen." },
+        { code: "SX7", text: "Bei einer einzigen intensiven Erfahrung verweilt die sexuelle Sieben körperlich durchaus, statt ständig in Bewegung zu bleiben. Dieses Innehalten unterscheidet sich von der rastlosen Betriebsamkeit anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Ein Nacken, der Stärke demonstriert", varianten: [
+        { code: "SE8", text: "Körperlich präsent und angespannt hält sich die selbsterhaltende Acht fast durchgehend, echte muskuläre Entspannung wird selten zugelassen. Dieser Dauertonus kann sich als Spannungskopfschmerz entladen." },
+        { code: "SO8", text: "Als Schutzfigur ihrer Gruppe hält die soziale Acht Haltung und Präsenz durchgehend aufrecht, auch wenn die eigene Muskulatur längst schmerzt. Diese permanente Bereitschaft kann sich als bandartiger Kopfschmerz zeigen." },
+        { code: "SX8", text: "Bei der einen Person, der sie vertraut, lässt die sexuelle Acht ihre körperliche Anspannung durchaus fallen, statt sie ständig zu demonstrieren. Diese punktuelle Entspannung unterscheidet sich vom Dauertonus anderer Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Nacken, der alles hält", varianten: [
+        { code: "SE9", text: "In eine bequeme, aber oft ungünstige Haltung sinkt die selbsterhaltende Neun gerne über Stunden, ohne die eigene Körperspannung zu bemerken. Diese unbemerkte Fehlhaltung kann sich als Spannungskopfschmerz zeigen." },
+        { code: "SO9", text: "Um Konflikte in der Gruppe zu vermeiden, hält die soziale Neun ihre eigene Position und damit auch ihre Muskulatur oft über Stunden unbewegt zurück. Dieses Zurückhalten kann sich als drückender Kopfschmerz entladen." },
+        { code: "SX9", text: "Die körperliche Anspannung des Partners übernimmt die sexuelle Neun oft unbewusst in die eigene Haltung, sobald sie mit ihm verschmilzt. Bleibt diese übernommene Spannung im eigenen Nacken hängen, kann sie sich dort als Kopfschmerz zeigen." },
+      ]},
+    ],
+    abschluss: "Kein Nacken ist vor Spannungskopfschmerz gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit körperlich gehaltener Anspannung auf seine eigene Weise umgeht – manche über Haltung, andere über Kontrolle, stilles Tragen oder ein chronisch unbemerktes eigenes Verharren. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  depression: {
+    titel: "Depression",
+    kategorie: "nerven-psyche",
+    icon: "🌧️",
+    kurz: "Eine gedrückte Stimmung, die sich wie ein Filter über alles legt, was früher Freude, Sinn oder Antrieb gegeben hat.",
+    definition: "Depression ist eine ernstzunehmende psychische Erkrankung, die weit über vorübergehende Traurigkeit hinausgeht. Kennzeichnend sind eine über mindestens zwei Wochen anhaltende gedrückte Stimmung, ein deutlicher Verlust von Interesse und Freude an früher angenehmen Tätigkeiten sowie ein spürbarer Antriebsmangel. Hinzu kommen oft Schlaf- und Appetitveränderungen, Konzentrationsschwierigkeiten, Gefühle von Wertlosigkeit oder Schuld und in schweren Fällen Gedanken an Tod oder Suizid. Neurobiologisch spielen ein Ungleichgewicht bestimmter Botenstoffe im Gehirn, genetische Veranlagung, belastende Lebensereignisse und chronischer Stress zusammen; oft ist es ein Zusammenspiel mehrerer Faktoren, das den Ausbruch begünstigt. Depression kann episodisch auftreten oder chronisch verlaufen und betrifft nicht nur die Stimmung, sondern auch Denken, Körper und Verhalten gleichermaßen.",
+    symptome: ["Anhaltend gedrückte Stimmung über mindestens zwei Wochen", "Deutlicher Verlust von Interesse und Freude", "Antriebslosigkeit und rasche Erschöpfbarkeit", "Schlafstörungen oder vermehrtes Schlafbedürfnis", "Appetitveränderungen mit Gewichtsverlust oder -zunahme", "Konzentrations- und Entscheidungsschwierigkeiten", "Gefühle von Wertlosigkeit, übermäßige Schuldgefühle"],
+    notfall: "Bei akuten Gedanken an Suizid oder Selbstverletzung sofort die Telefonseelsorge (0800 111 0 111 oder 0800 111 0 222, kostenlos, anonym, rund um die Uhr) kontaktieren oder den Notruf 112 wählen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Depression zieht einen Filter über das Leben, durch den kaum noch etwas an Farbe oder Bedeutung durchdringt – ein Zustand, in dem sich innere Reserven nicht mehr auffüllen, sondern nur noch verbrauchen. In der TCM wird eine solche Erschöpfung mit gestautem Leber-Qi und gleichzeitig geschwächtem Herz-Qi in Verbindung gebracht – eine Kombination aus blockiertem Fluss und fehlender Wärme im Zentrum. Psychosomatisch liest sich Depression oft als Bild eines über lange Zeit erschöpften inneren Antriebs, der irgendwann selbst die Segel streicht, weil zu viel unterdrückt, zurückgehalten oder ungelöst blieb. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welcher innere Antrieb hier erschöpft.",
+    typen: [
+      { typ: 1, titel: "Ein Anspruch, der nie erfüllt wird", varianten: [
+        { code: "SE1", text: "An ihrem eigenen strengen Maßstab misst sich die selbsterhaltende Eins fortwährend, ohne ihn je wirklich zu erreichen. Dieses chronische Ungenügen kann sich als gedrückte, freudlose Stimmung niederschlagen." },
+        { code: "SO1", text: "Fehler bei sich selbst verzeiht die soziale Eins deutlich schwerer als bei anderen, ihr innerer Kritiker bleibt kaum je still. Diese anhaltende Selbstverurteilung kann in eine depressive Episode münden." },
+        { code: "SX1", text: "Ihren Ärger über Missstände trägt die sexuelle Eins unmittelbar nach außen, statt ihn gegen sich selbst zu richten. Diese Externalisierung schützt sie stärker vor der nach innen gerichteten Selbstverurteilung anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Ein Wert, der sich nicht von selbst zeigt", varianten: [
+        { code: "SE2", text: "Gebraucht zu werden gibt der selbsterhaltenden Zwei Halt, bleibt diese Bestätigung aber einmal aus, fühlt sie sich rasch überflüssig. Diese Abhängigkeit vom eigenen Nutzen kann in eine depressive Verstimmung kippen." },
+        { code: "SO2", text: "Ihr Selbstwert hängt bei der sozialen Zwei stark daran, wie unentbehrlich sie sich für viele fühlt. Lässt diese Unentbehrlichkeit nach, kann sich eine tiefe innere Leere und gedrückte Stimmung ausbreiten." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung erfährt die sexuelle Zwei ihren Wert unmittelbar und direkt, statt ihn sich über viele erst erarbeiten zu müssen. Diese Direktheit federt die Selbstwertkrisen ab, die andere Zweier-Varianten häufiger treffen." },
+      ]},
+      { typ: 3, titel: "Ein Wert, der am Erfolg hängt", varianten: [
+        { code: "SE3", text: "Ihren Wert misst die selbsterhaltende Drei stark an dem, was sie tatsächlich geschafft hat. Bleibt der sichtbare Erfolg einmal aus, kann ein tiefes Gefühl von Leere und Antriebslosigkeit die Folge sein." },
+        { code: "SO3", text: "Öffentliche Anerkennung nährt das Selbstbild der sozialen Drei fortlaufend, bricht sie weg, bricht oft auch das darunterliegende Selbstwertgefühl ein. Dieser Einbruch kann sich als depressive Episode zeigen." },
+        { code: "SX3", text: "Auch scheitern und trotzdem geliebt bleiben darf die sexuelle Drei in der einen wichtigen Beziehung, statt Wert allein über Erfolg zu definieren. Diese bedingungslosere Erfahrung federt Einbrüche ab, die andere Dreier-Varianten härter treffen." },
+      ]},
+      { typ: 4, titel: "Eine Sehnsucht, die zur Schwere wird", varianten: [
+        { code: "SE4", text: "Ihre Sehnsucht verarbeitet die selbsterhaltende Vier, der Kontratyp, durch beharrliches Handeln, statt sich ihr passiv hinzugeben. Bleibt dieses Handeln über längere Zeit erfolglos, kann die zurückgehaltene Schwere in eine depressive Episode kippen." },
+        { code: "SO4", text: "Ihre Melancholie kennt die soziale Vier gut und benennt sie auch offen, was jedoch nicht automatisch bedeutet, dass sie sich daraus löst. Bleibt sie zu lange darin verhaftet, kann daraus eine ausgewachsene Depression werden." },
+        { code: "SX4", text: "Intensive Gefühle sucht die sexuelle Vier aktiv im Kontakt zur begehrten Person, statt sich in stiller Schwermut zu verlieren. Dieser aktive Zugang unterscheidet sich vom passiveren Verharren anderer Vierer-Varianten." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der zu weit geht", varianten: [
+        { code: "SE5", text: "Kontakt zu anderen reduziert die selbsterhaltende Fünf konsequent auf das Nötigste, um mit ihren Ressourcen hauszuhalten. Geht dieser Rückzug zu weit, kann daraus eine anhaltende innere Leere und depressive Stimmung entstehen." },
+        { code: "SO5", text: "Über Wissen bleibt die soziale Fünf mit der Welt verbunden, emotionale Nähe hält sie dabei auf Distanz. Verliert auch diese intellektuelle Verbindung an Bedeutung, kann echte Isolation und Depression folgen." },
+        { code: "SX5", text: "In ihrer einen tiefen Verbindung lässt sich die sexuelle Fünf emotional wirklich ein, statt sich vollständig zurückzuziehen. Diese eine Verbindung kann vor der völligen Isolation schützen, die anderen Fünfer-Varianten eher droht." },
+      ]},
+      { typ: 6, titel: "Eine Sicherheit, die nie ganz erreicht wird", varianten: [
+        { code: "SE6", text: "Trotz aller Vorsicht bleibt bei der selbsterhaltenden Sechs ein Grundgefühl von Unsicherheit bestehen, das sich kaum je vollständig auflöst. Hält diese Unsicherheit über Jahre an, kann daraus eine erschöpfte, depressive Grundstimmung werden." },
+        { code: "SO6", text: "Halt findet die soziale Sechs vor allem in ihrer Gruppe, bricht diese Loyalität einmal weg, bricht oft auch ihr innerer Halt ein. Dieser Einbruch kann sich als depressive Episode zeigen." },
+        { code: "SX6", text: "Ihrer Unsicherheit begegnet die sexuelle Sechs, der Kontratyp, mit aktivem Handeln statt mit resignierender Erschöpfung. Diese Handlungsorientierung kann vor der depressiven Erschöpfung schützen, die andere Sechser-Varianten eher trifft." },
+      ]},
+      { typ: 7, titel: "Eine Leichtigkeit, die zusammenbricht", varianten: [
+        { code: "SE7", text: "Unangenehme Gefühle überspielt die selbsterhaltende Sieben reflexhaft mit der nächsten angenehmen Ablenkung. Lässt sich der Schmerz irgendwann nicht mehr überspielen, kann der Einbruch in eine Depression besonders heftig ausfallen." },
+        { code: "SO7", text: "Ihre eigenen Bedürfnisse übergeht die soziale Sieben, der Kontratyp, dauerhaft zugunsten der Gruppe, bis die innere Reserve erschöpft ist. Diese chronische Selbstverleugnung kann in eine depressive Episode münden." },
+        { code: "SX7", text: "Schmerzhafte Gefühle lässt die sexuelle Sieben in der intensiven Beziehung durchaus auch einmal zu, statt sie ständig zu überspielen. Diese Bereitschaft kann den plötzlichen Einbruch abfedern, der andere Siebener-Varianten härter trifft." },
+      ]},
+      { typ: 8, titel: "Eine Stärke, die zusammenbricht", varianten: [
+        { code: "SE8", text: "Schwäche zeigt die selbsterhaltende Acht so gut wie nie, auch nicht sich selbst gegenüber. Bricht ihre Kontrolle einmal wirklich zusammen, kann der Fall in eine tiefe, kaum sichtbare Depression besonders schwer ausfallen." },
+        { code: "SO8", text: "Für ihre Gruppe bleibt die soziale Acht auch dann noch stark, wenn die eigenen Kräfte längst erschöpft sind. Dieses Übergehen der eigenen Erschöpfung kann sich als depressive Episode zeigen." },
+        { code: "SX8", text: "Ihre Verletzlichkeit zeigt die sexuelle Acht der einen Person, der sie vertraut, durchaus. Wird diese Verletzlichkeit dort angenommen, kann sie vor der verborgenen Depression schützen, die andere Achter-Varianten eher trifft." },
+      ]},
+      { typ: 9, titel: "Ein Antrieb, der sich auflöst", varianten: [
+        { code: "SE9", text: "In Routine und Komfort verliert sich die selbsterhaltende Neun so vollständig, dass eigener Antrieb kaum je entsteht. Bleibt dieser Zustand über Jahre bestehen, kann daraus eine schwer erkennbare, chronische Depression werden." },
+        { code: "SO9", text: "Die eigene Meinung ordnet die soziale Neun der Gruppenharmonie beständig unter, bis sie kaum noch weiß, was sie selbst eigentlich will. Dieser Verlust der eigenen Stimme kann in eine depressive Episode münden." },
+        { code: "SX9", text: "In der Verschmelzung mit dem Partner übernimmt die sexuelle Neun oft dessen Stimmung als eigene. Ist der Partner niedergeschlagen, kann sich die eigene Stimmung ungefiltert mitziehen, ohne dass sie als fremd erkannt wird." },
+      ]},
+    ],
+    abschluss: "Kein Mensch ist vor Depression gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit erschöpftem inneren Antrieb auf seine eigene Weise umgeht – manche über Rückzug, andere über Kontrolle, ungestillte Sehnsucht oder ein chronisch übergangenes eigenes Bedürfnis. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  generalisierte_angststoerung: {
+    titel: "Generalisierte Angststörung",
+    kategorie: "nerven-psyche",
+    icon: "🌀",
+    kurz: "Eine Sorge, die kein festes Ziel mehr braucht – sie wandert von einem Thema zum nächsten und findet immer neuen Nährboden.",
+    definition: "Die generalisierte Angststörung ist gekennzeichnet durch eine übermäßige, schwer kontrollierbare Sorge, die sich über mindestens sechs Monate auf viele verschiedene Lebensbereiche gleichzeitig erstreckt – Gesundheit, Finanzen, Familie, Beruf. Anders als bei einer Panikstörung tritt die Angst hier nicht anfallsartig, sondern als ständiger, diffuser Hintergrundzustand auf. Begleitet wird sie häufig von körperlicher Unruhe, Muskelverspannung, rascher Ermüdbarkeit, Konzentrationsschwierigkeiten, Reizbarkeit und Schlafstörungen. Die Betroffenen wissen meist selbst, dass ihre Sorgen übertrieben sind, können den gedanklichen Kreislauf aber trotzdem kaum unterbrechen. Neurobiologisch spielt eine erhöhte Erregbarkeit bestimmter Hirnregionen eine Rolle, die für die Bewertung von Gefahr zuständig sind, oft begünstigt durch genetische Veranlagung und chronischen, nie vollständig verarbeiteten Stress.",
+    symptome: ["Übermäßige, schwer kontrollierbare Sorgen über viele Lebensbereiche", "Ständige innere Unruhe und Nervosität", "Rasche Ermüdbarkeit trotz Anspannung", "Muskelverspannung, oft in Nacken und Kiefer", "Konzentrationsschwierigkeiten, gedankliche Leere", "Reizbarkeit", "Ein- und Durchschlafstörungen"],
+    notfall: "Bei akuten Suizidgedanken oder dem Gefühl völliger Überforderung sofort die Telefonseelsorge (0800 111 0 111, kostenlos, anonym) kontaktieren oder den Notruf 112 wählen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Die generalisierte Angststörung braucht kein konkretes Ziel – die Sorge wandert von einem Thema zum nächsten, sobald das vorherige erledigt scheint, als müsse ständig irgendetwas offenbleiben, um wachsam zu bleiben. In der TCM wird ein solcher Zustand oft mit einer Schwäche des Nieren-Wassers assoziiert, das dem inneren Feuer normalerweise seine Grenzen setzt – fehlt diese Begrenzung, brennt die Sorge ungebremst weiter. Psychosomatisch liest sich die generalisierte Angststörung oft als Bild einer Wachsamkeit, die kein festes Objekt mehr braucht, weil das eigentliche Grundgefühl der Sorge tiefer sitzt als jeder einzelne Anlass. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, worauf sich diese frei wandernde Wachsamkeit richtet.",
+    typen: [
+      { typ: 1, titel: "Eine Sorge, die nie ganz aufgeht", varianten: [
+        { code: "SE1", text: "Ob wirklich alles richtig gemacht wurde, prüft die selbsterhaltende Eins in Gedanken immer wieder neu, auch wenn objektiv längst alles erledigt ist. Dieses endlose Nachprüfen kann sich zu einer generalisierten Angststörung ausweiten." },
+        { code: "SO1", text: "Ob ihr Verhalten wirklich untadelig war, hinterfragt die soziale Eins über den ganzen Tag verteilt immer wieder aufs Neue. Diese fortlaufende moralische Selbstprüfung kann sich als diffuse Dauersorge zeigen." },
+        { code: "SX1", text: "Ihre Sorge um Richtigkeit äußert die sexuelle Eins meist unmittelbar und konkret an einem einzelnen Thema, statt sie über viele Bereiche wandern zu lassen. Diese Fokussierung unterscheidet sich vom breit gestreuten Grübeln anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Eine Sorge um alle außer sich selbst", varianten: [
+        { code: "SE2", text: "Ob es den Menschen um sie herum gut geht, treibt die selbsterhaltende Zwei in ständiger, kaum greifbarer Sorge um. Diese diffuse Sorge um andere kann sich zu einer generalisierten Angststörung auswachsen." },
+        { code: "SO2", text: "Ob sie für all die vielen Menschen, um die sie sich kümmert, auch wirklich genug tut, beschäftigt die soziale Zwei fortlaufend. Diese ausufernde Sorge um viele gleichzeitig kann sich als ständige innere Unruhe zeigen." },
+        { code: "SX2", text: "Ihre Sorge bündelt die sexuelle Zwei auf die eine wichtige Person, statt sie auf viele zu verteilen. Diese Fokussierung entlastet gegenüber der breit gestreuten Sorge anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Eine Sorge um das eigene Bild", varianten: [
+        { code: "SE3", text: "Ob genug geschafft wurde, um den Status zu sichern, beschäftigt die selbsterhaltende Drei in einem fortlaufenden inneren Rechnen. Diese nie abgeschlossene Bilanz kann sich als generalisierte Angststörung zeigen." },
+        { code: "SO3", text: "Ob ihr öffentliches Bild wirklich makellos bleibt, prüft die soziale Drei in ständiger, diffuser Wachsamkeit gegenüber der Meinung anderer. Diese fortlaufende Sorge kann sich als innere Unruhe und Anspannung zeigen." },
+        { code: "SX3", text: "Vor der einen wichtigen Person muss sich die sexuelle Drei kein makelloses Bild erhalten, statt sich in ständiger Sorge darum zu verzehren. Diese Entlastung unterscheidet sich vom breiten Bildmanagement anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Sorge, nie wirklich zu genügen", varianten: [
+        { code: "SE4", text: "Ob sie ihren Alltag trotz innerer Leere wirklich bewältigt, treibt die selbsterhaltende Vier, der Kontratyp, in stiller, andauernder Sorge um. Diese verdeckte Sorge kann sich zu einer generalisierten Angststörung ausweiten." },
+        { code: "SO4", text: "Ob sie in ihrer Andersartigkeit je wirklich verstanden wird, kreist bei der sozialen Vier fortlaufend im Kopf. Dieses gedankliche Kreisen kann sich als diffuse, kaum greifbare Dauersorge zeigen." },
+        { code: "SX4", text: "Ihre Sorge um die Beziehung zeigt die sexuelle Vier direkt und intensiv der begehrten Person gegenüber, statt sie diffus im eigenen Kopf zu wälzen. Dieser direkte Ausdruck unterscheidet sich vom stillen Kreisen anderer Vierer-Varianten." },
+      ]},
+      { typ: 5, titel: "Eine Sorge, nicht genug zu haben", varianten: [
+        { code: "SE5", text: "Ob die eigenen Ressourcen für alle Eventualitäten ausreichen, beschäftigt die selbsterhaltende Fünf in ständiger, leiser Rechnung im Hintergrund. Diese Dauersorge um Knappheit kann sich als generalisierte Angststörung zeigen." },
+        { code: "SO5", text: "Ob ihr Wissen wirklich ausreicht, um kompetent zu erscheinen, treibt die soziale Fünf in fortlaufender innerer Prüfung um. Diese Sorge kann sich als ständige innere Unruhe und Anspannung zeigen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung fühlt sich die sexuelle Fünf ausreichend versorgt, statt ständig um Knappheit zu kreisen. Diese Sicherheit entlastet gegenüber der generellen Sorge anderer Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Eine Sorge, die ihr Zuhause ist", varianten: [
+        { code: "SE6", text: "Ihre Wachsamkeit legt sich bei der selbsterhaltenden Sechs so gut wie nie vollständig, ständig wird im Hintergrund weitergeprüft, was schiefgehen könnte. Dieser Dauerzustand ist geradezu das Kernbild einer generalisierten Angststörung." },
+        { code: "SO6", text: "Ob sie den Erwartungen ihrer Gruppe genügt, prüft die soziale Sechs in ständiger, diffuser Sorge im Hintergrund. Diese Sorge kann sich als anhaltende innere Unruhe und Anspannung zeigen." },
+        { code: "SX6", text: "Statt mit diffusem Dauersorgen reagiert die sexuelle Sechs, der Kontratyp, auf ihre Angst mit konkretem, unmittelbarem Handeln. Diese Handlungsorientierung kann die frei wandernde Sorge senken, die andere Sechser-Varianten eher chronisch begleitet." },
+      ]},
+      { typ: 7, titel: "Eine Sorge unter der Fröhlichkeit", varianten: [
+        { code: "SE7", text: "Unter ihrer praktischen Betriebsamkeit verbirgt sich bei der selbsterhaltenden Sieben oft eine diffuse Sorge, dass die eigenen Bedürfnisse zu kurz kommen könnten. Diese verdeckte Sorge kann sich als generalisierte Angststörung zeigen." },
+        { code: "SO7", text: "Ob sie ihrer Gruppe wirklich genug gegeben hat, treibt die soziale Sieben, der Kontratyp, in stiller Dauersorge um, während sie nach außen positiv wirkt. Dieser Widerspruch kann sich als ständige innere Unruhe zeigen." },
+        { code: "SX7", text: "Ihre Sorge bündelt die sexuelle Sieben auf die eine intensive Beziehung, statt sie diffus über viele Lebensbereiche zu streuen. Diese Fokussierung unterscheidet sich vom breit gestreuten Grübeln anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Eine Sorge hinter der Kontrolle", varianten: [
+        { code: "SE8", text: "Ob ihre Kontrolle über die eigenen Ressourcen wirklich ausreicht, beschäftigt die selbsterhaltende Acht in ständiger, kaum eingestandener Sorge. Diese verdeckte Dauersorge kann sich als generalisierte Angststörung zeigen." },
+        { code: "SO8", text: "Ob sie ihre Gruppe wirklich ausreichend beschützt, treibt die soziale Acht in fortlaufender innerer Wachsamkeit um. Diese Sorge kann sich als anhaltende Anspannung und innere Unruhe zeigen." },
+        { code: "SX8", text: "Ihre Sorge um die eine Person, der sie vertraut, spricht die sexuelle Acht offen aus, statt sie hinter Kontrolle zu verbergen. Diese Offenheit unterscheidet sich von der verdeckten Sorge anderer Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Eine Sorge ohne klares Objekt", varianten: [
+        { code: "SE9", text: "Eine vage Unruhe begleitet die selbsterhaltende Neun oft, ohne dass sie ihr ein konkretes Thema zuordnen könnte. Diese objektlose Sorge ist ein besonders typisches Bild der generalisierten Angststörung." },
+        { code: "SO9", text: "Ob sie der Gruppenharmonie wirklich gerecht wird, beschäftigt die soziale Neun in ständiger, diffuser Sorge im Hintergrund. Diese Sorge kann sich als anhaltende innere Unruhe zeigen." },
+        { code: "SX9", text: "Die Sorgen des Partners übernimmt die sexuelle Neun oft ungefiltert als eigene, sobald sie mit ihm verschmilzt. Ist der Partner ängstlich, kann sich diese Angst unbemerkt auf sie selbst übertragen." },
+      ]},
+    ],
+    abschluss: "Keine Psyche ist vor einer generalisierten Angststörung gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit frei wandernder Sorge auf seine eigene Weise umgeht – manche über Kontrolle, andere über Fürsorge, gedankliches Kreisen oder eine chronisch verdeckte eigene Sorge. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  panikattacken: {
+    titel: "Panikattacken",
+    kategorie: "nerven-psyche",
+    icon: "💥",
+    kurz: "Eine Welle aus Angst, die den Körper binnen Minuten in höchste Alarmbereitschaft versetzt, obwohl objektiv keine akute Gefahr besteht.",
+    definition: "Eine Panikattacke ist ein plötzlicher, meist innerhalb weniger Minuten seinen Höhepunkt erreichender Anfall intensiver Angst, begleitet von starken körperlichen Symptomen wie Herzrasen, Atemnot, Schwitzen, Zittern, Schwindel und einem Gefühl drohenden Kontrollverlusts oder gar der Todesangst. Körperlich liegt dem meist eine massive, unangemessene Aktivierung des sympathischen Nervensystems zugrunde – der Körper schaltet in einen Kampf-oder-Flucht-Modus, obwohl keine reale äußere Gefahr vorliegt. Treten wiederholte Panikattacken auf, verbunden mit anhaltender Angst vor der nächsten Attacke, spricht man von einer Panikstörung. Die Attacken selbst sind zwar körperlich äußerst unangenehm, aber nicht gefährlich; belastend wird häufig eher die Angst vor der Angst, die zu Vermeidungsverhalten und sozialem Rückzug führen kann.",
+    symptome: ["Plötzlich einsetzendes Herzrasen und Herzklopfen", "Atemnot oder Erstickungsgefühl", "Schwindel, Benommenheit, Gefühl von Unwirklichkeit", "Schwitzen und Zittern", "Enge- oder Druckgefühl in der Brust", "Angst vor Kontrollverlust oder zu sterben", "Kribbeln oder Taubheitsgefühl in Händen und Gesicht"],
+    notfall: "Bei erstmaligem Auftreten starker Brustschmerzen mit Ausstrahlung, Atemnot oder Bewusstseinsverlust sicherheitshalber den Notruf wählen, um einen Herzinfarkt auszuschließen – auch wenn die meisten dieser Anfälle als Panikattacke enden.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Panikattacken schlagen wie aus heiterem Himmel zu – doch fast immer hat sich vorher etwas angestaut, das keinen anderen Ausweg mehr fand als diese plötzliche, überwältigende Entladung. In der TCM wird ein solches Bild oft mit aufsteigendem Herz-Feuer bei gleichzeitig geschwächtem Herz-Qi assoziiert – ein Zentrum, das kurzfristig überhitzt, weil ihm die stabilisierende Substanz fehlt. Psychosomatisch liest sich eine Panikattacke oft als Bild einer lange zurückgehaltenen Angst oder Anspannung, die sich schließlich nicht mehr kontrollieren lässt und sich explosionsartig Bahn bricht. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, welche zurückgehaltene Spannung sich hier plötzlich entlädt.",
+    typen: [
+      { typ: 1, titel: "Eine Kontrolle, die plötzlich kippt", varianten: [
+        { code: "SE1", text: "Ihre Selbstkontrolle hält die selbsterhaltende Eins über lange Zeiträume eisern durch, ohne je Schwäche zuzulassen. Bricht diese Kontrolle einmal, kann sich die aufgestaute Anspannung als heftige Panikattacke entladen." },
+        { code: "SO1", text: "Ihre Wut über eigenes oder fremdes Fehlverhalten unterdrückt die soziale Eins meist bis zur eigenen Erschöpfung. Diese jahrelang zurückgehaltene Wut kann sich plötzlich als Panikattacke Bahn brechen." },
+        { code: "SX1", text: "Ihre Empörung entlädt sich bei der sexuellen Eins sofort und direkt, statt sich über Jahre aufzustauen. Diese laufende Entladung schützt sie stärker vor der plötzlichen, überwältigenden Attacke anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Eine Angst, allein zurückzubleiben", varianten: [
+        { code: "SE2", text: "Ihre Angst, für andere nicht mehr gebraucht zu werden, verdrängt die selbsterhaltende Zwei meist erfolgreich in den Hintergrund. Bricht diese Angst einmal ungebremst durch, kann sich eine Panikattacke entladen." },
+        { code: "SO2", text: "Ihre Angst, für viele nicht mehr unentbehrlich zu sein, hält die soziale Zwei hinter ständigem Aktivsein verborgen. Bricht diese Angst plötzlich durch, kann sich das als heftige Panikattacke zeigen." },
+        { code: "SX2", text: "Ihre Angst um die eine Beziehung spricht die sexuelle Zwei direkt an, statt sie über lange Zeit zu verdrängen. Diese direkte Ansprache unterscheidet sich von der verborgenen Angst anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Eine Fassade, die plötzlich einbricht", varianten: [
+        { code: "SE3", text: "Erschöpfung überspielt die selbsterhaltende Drei fortlaufend mit noch mehr Aktivität, statt ihr nachzugehen. Bricht der Körper einmal wirklich durch, kann sich diese Überlastung als heftige Panikattacke zeigen." },
+        { code: "SO3", text: "Ihre makellose öffentliche Fassade hält die soziale Drei über lange Zeit ohne sichtbaren Riss aufrecht. Bricht diese Fassade plötzlich, kann die dahinterliegende Anspannung als Panikattacke entladen werden." },
+        { code: "SX3", text: "Ihre Fassade lässt die sexuelle Drei vor der einen wichtigen Person auch einmal fallen, statt sie ständig aufrechtzuerhalten. Diese punktuelle Entlastung unterscheidet sich vom plötzlichen Einbruch anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein Gefühl, das überwältigt", varianten: [
+        { code: "SE4", text: "Funktionsfähig zu bleiben verlangt von der selbsterhaltenden Vier, dem Kontratyp, dass intensive Gefühle meist konsequent unter Verschluss bleiben. Bricht diese Kontrolle einmal, kann sich die zurückgehaltene Intensität als Panikattacke entladen." },
+        { code: "SO4", text: "Ihre Stimmungen erlebt die soziale Vier oft in großer Intensität, ohne sie durchgehend regulieren zu können. Kippt diese Intensität plötzlich ins Überwältigende, kann sich das als Panikattacke zeigen." },
+        { code: "SX4", text: "Laufend und unmittelbar im Kontakt entlädt die sexuelle Vier ihre Intensität, statt sie über Zeit anzustauen. Dieser laufende Ausdruck kann die plötzliche Überwältigung mildern, die andere Vierer-Varianten eher trifft." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der überrannt wird", varianten: [
+        { code: "SE5", text: "Reize hält die selbsterhaltende Fünf konsequent auf Distanz, um ihre begrenzten Ressourcen zu schützen. Wird diese Distanz einmal durchbrochen, etwa durch zu viel Nähe oder Anforderung, kann sich das als Panikattacke entladen." },
+        { code: "SO5", text: "Emotionale Nähe hält die soziale Fünf hinter intellektuellem Austausch auf sichere Distanz. Wird diese Distanz plötzlich unmöglich, etwa durch überraschende Nähe, kann eine Panikattacke die Folge sein." },
+        { code: "SX5", text: "Nähe lässt die sexuelle Fünf innerhalb ihrer einen tiefen Verbindung bewusst zu, statt sie ständig auf Distanz zu halten. Diese geübte Nähe kann vor der plötzlichen Überforderung schützen, die andere Fünfer-Varianten eher trifft." },
+      ]},
+      { typ: 6, titel: "Eine Angst, die sich entlädt", varianten: [
+        { code: "SE6", text: "Ihre Wachsamkeit hält die selbsterhaltende Sechs dauerhaft aufrecht, ohne dass sich die zugrundeliegende Angst je wirklich löst. Erreicht diese Anspannung ihren Höhepunkt, kann sie sich als Panikattacke entladen." },
+        { code: "SO6", text: "Ihre eigene Angst stellt die soziale Sechs meist hinter die Sorge um ihre Gruppe zurück. Bricht diese zurückgestellte Angst plötzlich durch, kann sich das als heftige Panikattacke zeigen." },
+        { code: "SX6", text: "Mit sofortiger, direkter Konfrontation reagiert die sexuelle Sechs, der Kontratyp, auf ihre Angst, statt sie lange innerlich aufzustauen. Diese unmittelbare Entladung kann die plötzliche Attacke abmildern, die andere Sechser-Varianten eher trifft." },
+      ]},
+      { typ: 7, titel: "Eine Angst hinter der Ablenkung", varianten: [
+        { code: "SE7", text: "Statt unangenehmen Gefühlen nachzuspüren, greift die selbsterhaltende Sieben reflexhaft zur nächsten angenehmen Aktivität. Lässt sich die dahinterliegende Angst irgendwann nicht mehr überspielen, kann sie sich als Panikattacke entladen." },
+        { code: "SO7", text: "Beständig zugunsten der Gruppe übergeht die soziale Sieben, der Kontratyp, ihre eigene Erschöpfung, bis keine Reserve mehr bleibt. Dieser Punkt kann sich als plötzliche Panikattacke zeigen." },
+        { code: "SX7", text: "Intensive, auch unangenehme Gefühle lässt die sexuelle Sieben in der Beziehung durchaus zu, statt sie ständig zu überspielen. Diese Bereitschaft kann die plötzliche Überwältigung mildern, die andere Siebener-Varianten eher trifft." },
+      ]},
+      { typ: 8, titel: "Eine Kontrolle, die durchbrochen wird", varianten: [
+        { code: "SE8", text: "Kontrollverlust vermeidet die selbsterhaltende Acht um fast jeden Preis, körperlich wie situativ. Gerät sie einmal wirklich außer Kontrolle, kann das eine besonders heftige Panikattacke auslösen." },
+        { code: "SO8", text: "Auch unter extremer Belastung bleibt die soziale Acht ihrer Gruppe gegenüber standhaft. Wird diese Belastung irgendwann zu groß, kann die zurückgehaltene Erschöpfung als Panikattacke entladen." },
+        { code: "SX8", text: "Ihre Angst zeigt die sexuelle Acht der einen Person, der sie vertraut, durchaus offen. Diese Offenheit kann vor der plötzlichen, unkontrollierten Entladung schützen, die andere Achter-Varianten eher trifft." },
+      ]},
+      { typ: 9, titel: "Ein Druck, der plötzlich durchbricht", varianten: [
+        { code: "SE9", text: "Konsequent beiseitegeschoben werden bei der selbsterhaltenden Neun unangenehme Themen, um ihre Ruhe zu bewahren. Lässt sich der aufgestaute Druck irgendwann nicht mehr wegschieben, kann er als Panikattacke durchbrechen." },
+        { code: "SO9", text: "Ihre eigene Position stellt die soziale Neun in der Gruppe meist zurück, um Konflikte zu vermeiden. Staut sich dieser zurückgehaltene Ärger zu lange an, kann er sich als Panikattacke entladen." },
+        { code: "SX9", text: "Die Angst des Partners übernimmt die sexuelle Neun oft ungefiltert als eigene, sobald sie mit ihm verschmilzt. Gerät der Partner in Panik, kann sich diese unmittelbar auf sie selbst übertragen." },
+      ]},
+    ],
+    abschluss: "Niemand ist vor Panikattacken gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit plötzlich entladener Spannung auf seine eigene Weise umgeht – manche über Kontrolle, andere über Rückzug, Ablenkung oder ein chronisch zurückgehaltenes eigenes Gefühl. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  burnout_syndrom: {
+    titel: "Burnout-Syndrom",
+    kategorie: "nerven-psyche",
+    icon: "🕯️",
+    kurz: "Eine Kerze, die an beiden Enden gebrannt hat, bis nichts mehr übrig ist, was sich noch anzünden ließe.",
+    definition: "Burnout ist ein Zustand emotionaler, geistiger und körperlicher Erschöpfung, der sich meist über einen längeren Zeitraum chronischer, oft arbeitsbedingter Überlastung entwickelt. Kennzeichnend ist eine Trias aus tiefer Erschöpfung, zunehmender Distanzierung oder Zynismus gegenüber der eigenen Tätigkeit und einem Gefühl verminderter Leistungsfähigkeit trotz weiterhin hohem oder sogar steigendem Einsatz. Anders als gewöhnliche Müdigkeit lässt sich Burnout nicht durch ein Wochenende Erholung beheben; die Erschöpfung sitzt tiefer und betrifft oft auch Motivation, Sinnerleben und die Fähigkeit, sich noch für etwas zu begeistern. Häufig geht dem eigentlichen Zusammenbruch eine lange Phase übermäßigen Engagements voraus, in der Warnsignale des Körpers systematisch übergangen wurden – bis die Reserven irgendwann restlos aufgebraucht sind.",
+    symptome: ["Tiefe, anhaltende körperliche und emotionale Erschöpfung", "Zunehmende innere Distanzierung von der eigenen Arbeit", "Zynismus oder Gleichgültigkeit gegenüber früher wichtigen Aufgaben", "Gefühl verminderter Leistungsfähigkeit trotz hohem Einsatz", "Konzentrations- und Gedächtnisschwierigkeiten", "Schlafstörungen trotz Erschöpfung", "Körperliche Beschwerden wie Kopf-, Rücken- oder Magenschmerzen ohne klaren Befund"],
+    notfall: "Bei akuten Suizidgedanken, völligem Zusammenbruch oder dem Gefühl, den Alltag nicht mehr bewältigen zu können, sofort die Telefonseelsorge (0800 111 0 111) kontaktieren oder ärztliche Hilfe aufsuchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Burnout ist selten ein plötzliches Ereignis – meist ist es das Ergebnis eines langen Weges, auf dem immer mehr gegeben und immer weniger aufgefüllt wurde, bis die eigene Substanz erschöpft ist. In der TCM wird ein solcher Zustand oft als Erschöpfung von Milz-Qi und Nieren-Essenz (Jing) beschrieben – jener tiefsten Reserve, die sich nicht über Nacht regeneriert, sondern über Jahre aufgebaut und ebenso lange verbraucht wird. Psychosomatisch liest sich Burnout oft als Bild eines Antriebs, der zu lange über seine eigenen Grenzen hinaus gegeben hat, ohne rechtzeitig etwas zurückzunehmen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, wofür hier die eigene Substanz zu lange verausgabt wurde.",
+    typen: [
+      { typ: 1, titel: "Ein Einsatz, der keine Grenze kennt", varianten: [
+        { code: "SE1", text: "Ihre Aufgaben erledigt die selbsterhaltende Eins mit unnachgiebiger Disziplin, eine bewusste Pause fühlt sich für sie fast wie Nachlässigkeit an. Dieses grenzenlose Pflichtbewusstsein zählt zu den zuverlässigsten Wegen in ein Burnout." },
+        { code: "SO1", text: "Als Vorbild für andere gibt die soziale Eins ihr Bestes, ohne sich selbst je eine Verschnaufpause zuzugestehen. Dieses jahrelange Übererfüllen des eigenen Anspruchs kann direkt in die Erschöpfung führen." },
+        { code: "SX1", text: "Ihren Unmut über Überlastung äußert die sexuelle Eins unmittelbar, statt ihn stillschweigend hinzunehmen. Diese frühere Grenzsetzung schützt sie stärker vor dem schleichenden Ausbrennen anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Ein Geben, das sich nie erschöpft glaubt", varianten: [
+        { code: "SE2", text: "Für andere sorgt die selbsterhaltende Zwei, bis die eigenen Reserven längst aufgebraucht sind, ohne das rechtzeitig zu bemerken. Dieses chronische Übergeben der eigenen Grenzen führt geradewegs ins Burnout." },
+        { code: "SO2", text: "Unentbehrlich zu bleiben treibt die soziale Zwei über Jahre an, auch dann noch, wenn die eigene Erschöpfung längst spürbar ist. Diese Dauerbelastung kann in einen vollständigen Zusammenbruch münden." },
+        { code: "SX2", text: "In der einen wichtigen Beziehung erlaubt sich die sexuelle Zwei auch, selbst versorgt zu werden, statt nur zu geben. Dieser Ausgleich schützt vor dem einseitigen Substanzabfluss anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Ein Tempo, das die eigene Substanz aufzehrt", varianten: [
+        { code: "SE3", text: "Ihr Arbeitspensum hält die selbsterhaltende Drei über Jahre ohne echte Erholungspausen durch, bis der Körper irgendwann selbst die Notbremse zieht. Genau dieser plötzliche Einbruch nach langer Überanstrengung ist das klassische Burnout-Bild." },
+        { code: "SO3", text: "Ihr dynamisches öffentliches Bild hält die soziale Drei aufrecht, auch wenn die innere Erschöpfung längst überwältigend ist. Der Widerspruch zwischen Schein und tatsächlicher Substanz kann in einen schweren Zusammenbruch münden." },
+        { code: "SX3", text: "Erschöpfung darf bei der sexuellen Drei vor der einen wichtigen Person auch früh sichtbar werden, statt jahrelang verborgen zu bleiben. Dieses frühere Eingeständnis kann den vollständigen Zusammenbruch anderer Dreier-Varianten abwenden." },
+      ]},
+      { typ: 4, titel: "Eine Bedeutung, die sich erschöpft", varianten: [
+        { code: "SE4", text: "Über Jahre hinweg hält die selbsterhaltende Vier, der Kontratyp, stumm und beharrlich durch, ohne je um Entlastung zu bitten. Dieses stille Durchhalten kann in ein schweres, kaum bemerktes Burnout münden." },
+        { code: "SO4", text: "Sich als Leidende zu erkennen zu geben, kostet die soziale Vier über Zeit eine eigene Art von emotionaler Kraft, auch wenn es paradox anmutet. Dieses fortlaufende Investieren in die eigene Rolle kann erschöpfen." },
+        { code: "SX4", text: "Ihre Energie investiert die sexuelle Vier vor allem in die eine intensive Beziehung, nicht diffus in viele Rollen gleichzeitig. Diese Bündelung kann vor der breiten Erschöpfung schützen, die andere Vierer-Varianten eher trifft." },
+      ]},
+      { typ: 5, titel: "Ein Rückzug, der zu spät kommt", varianten: [
+        { code: "SE5", text: "Ihre Ressourcen teilt sich die selbsterhaltende Fünf normalerweise sorgfältig ein, gerät sie aber einmal in eine Verpflichtung, die diesen Schutz überfordert, kann daraus ein besonders tiefes Burnout entstehen." },
+        { code: "SO5", text: "Ihr Wissen gibt die soziale Fünf bereitwillig weiter, bis die eigene innere Reserve unbemerkt zur Neige geht. Dieses langsame Auszehren hinter fortlaufender Kompetenz kann in ein Burnout münden." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung erlaubt sich die sexuelle Fünf durchaus, Unterstützung anzunehmen, statt alles allein zu bewältigen. Diese Unterstützung kann vor der stillen Erschöpfung schützen, die andere Fünfer-Varianten eher trifft." },
+      ]},
+      { typ: 6, titel: "Eine Wachsamkeit, die alles verbraucht", varianten: [
+        { code: "SE6", text: "Wachsamkeit kostet die selbsterhaltende Sechs über Jahre kontinuierlich Kraft, ohne dass sie sich dessen bewusst wird, weil sie sich an diesen Zustand gewöhnt hat. Dieser unbemerkte Dauerverbrauch führt geradewegs ins Burnout." },
+        { code: "SO6", text: "Für ihre Gruppe steht die soziale Sechs auch dann noch ein, wenn die eigenen Kräfte längst erschöpft sind. Diese Loyalität über die eigenen Grenzen hinaus kann in einen vollständigen Zusammenbruch münden." },
+        { code: "SX6", text: "Ihre Kraft setzt die sexuelle Sechs, der Kontratyp, in konzentrierten, mutigen Aktionen ein, statt sie in Dauerwachsamkeit zu zerstreuen. Diese Bündelung kann den schleichenden Substanzverlust anderer Sechser-Varianten abmildern." },
+      ]},
+      { typ: 7, titel: "Eine Begeisterung, die abrupt erlischt", varianten: [
+        { code: "SE7", text: "Von einem Projekt zum nächsten springt die selbsterhaltende Sieben mit scheinbar unerschöpflicher Energie, bis diese Energie eines Tages tatsächlich zur Neige geht. Dieser abrupte Einbruch kann besonders überraschend als Burnout auftreten." },
+        { code: "SO7", text: "Ihre eigenen Grenzen übergeht die soziale Sieben, der Kontratyp, zugunsten der Gruppe immer wieder, bis nichts mehr zum Geben übrig bleibt. Dieses chronische Selbstübergehen zählt zu den direktesten Wegen ins Burnout." },
+        { code: "SX7", text: "Bei einer einzigen intensiven Sache verweilt die sexuelle Sieben mit voller Hingabe, statt sich auf viele Projekte gleichzeitig zu verausgaben. Diese Fokussierung kann vor der breiten Erschöpfung schützen, die andere Siebener-Varianten eher trifft." },
+      ]},
+      { typ: 8, titel: "Eine Kraft, die sich selbst überfordert", varianten: [
+        { code: "SE8", text: "Ihre Belastbarkeit stellt die selbsterhaltende Acht immer wieder unter Beweis, echte Erschöpfung einzugestehen kommt für sie kaum infrage. Dieses permanente Übergehen eigener Grenzen führt schließlich doch in ein Burnout." },
+        { code: "SO8", text: "Als Beschützerin ihrer Gruppe bleibt die soziale Acht auch dann noch aktiv, wenn die eigene Substanz längst erschöpft ist. Diese Selbstüberforderung im Dienst anderer kann in einen schweren Zusammenbruch münden." },
+        { code: "SX8", text: "Ihre Erschöpfung zeigt die sexuelle Acht der einen Person, der sie vertraut, durchaus. Wird diese Erschöpfung dort ernst genommen, kann sie vor dem vollständigen Zusammenbruch schützen, der andere Achter-Varianten eher trifft." },
+      ]},
+      { typ: 9, titel: "Eine Erschöpfung, die spät bemerkt wird", varianten: [
+        { code: "SE9", text: "Ihre eigenen Grenzen registriert die selbsterhaltende Neun oft erst, wenn sie längst überschritten sind, so vollständig verliert sie sich in Routine und Aufgaben. Ein Burnout kann sich so über Jahre unbemerkt aufbauen." },
+        { code: "SO9", text: "Ihre eigene Erschöpfung ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Warnsignal gerät dabei aus dem Blick. Diese chronische Selbstzurücknahme kann in ein Burnout münden." },
+        { code: "SX9", text: "Die Belastung des Partners übernimmt die sexuelle Neun oft als eigene, sobald sie mit ihm verschmilzt. Ist der Partner überlastet, kann sich diese Überlastung unbemerkt auf sie selbst übertragen." },
+      ]},
+    ],
+    abschluss: "Niemand ist vor Burnout gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit übergangenen eigenen Grenzen auf seine eigene Weise umgeht – manche über Kontrolle, andere über Geben, Tempo oder ein chronisch übersehenes eigenes Warnsignal. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  schlafstoerungen_insomnie: {
+    titel: "Schlafstörungen (Insomnie)",
+    kategorie: "nerven-psyche",
+    icon: "🌙",
+    kurz: "Ein Kopf, der auch nachts nicht wirklich loslassen kann – während der Körper längst nach Ruhe verlangt.",
+    definition: "Insomnie bezeichnet anhaltende Schwierigkeiten beim Ein- oder Durchschlafen oder ein zu frühes Erwachen ohne die Fähigkeit, wieder einzuschlafen, verbunden mit einer spürbaren Beeinträchtigung der Leistungsfähigkeit am Tag. Von chronischer Insomnie spricht man, wenn die Beschwerden mindestens drei Nächte pro Woche über drei Monate oder länger bestehen. Ursächlich spielt häufig eine übermäßige nächtliche Aktivierung des Nervensystems eine Rolle – der Körper bleibt im Wachmodus, obwohl objektiv Ruhe angezeigt wäre. Begünstigt wird dieser Zustand durch Stress, Grübeln, unregelmäßige Schlafzeiten, Bildschirmnutzung am Abend sowie durch die Angst vor der Schlaflosigkeit selbst, die sich häufig zu einem Teufelskreis verselbstständigt: Wer fürchtet, nicht einschlafen zu können, wird durch genau diese Sorge noch wacher.",
+    symptome: ["Deutlich verlängerte Einschlafzeit", "Häufiges nächtliches Erwachen mit Schwierigkeiten, wieder einzuschlafen", "Zu frühes morgendliches Erwachen", "Tagesmüdigkeit trotz ausreichend Zeit im Bett", "Konzentrations- und Gedächtnisschwierigkeiten am Tag", "Reizbarkeit und gedrückte Stimmung", "Grübeln und gedankliches Kreisen beim Zubettgehen"],
+    notfall: "Bei akuter Übermüdung mit Sekundenschlaf, etwa beim Autofahren, oder bei begleitenden Suizidgedanken sofort ärztliche Hilfe oder die Telefonseelsorge (0800 111 0 111) kontaktieren.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Der Körper verlangt nach Ruhe, doch etwas im Inneren hält weiter Wache – ein Nervensystem, das den Tag noch nicht wirklich beendet hat, obwohl die Nacht längst begonnen hat. In der TCM wird Schlaflosigkeit häufig mit unruhigem Herz-Shen assoziiert – dem Geist, der im Herzen wohnt und zur Ruhe kommen müsste, damit echter Schlaf möglich wird, es aber wegen ungelöster innerer Themen nicht kann. Psychosomatisch liest sich Insomnie oft als Bild eines Loslassens, das nicht gelingt – als müsse noch etwas zu Ende gedacht, kontrolliert oder bewacht werden, bevor die Wachsamkeit sich legen darf. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster, was hier auch nachts noch nicht losgelassen wird.",
+    typen: [
+      { typ: 1, titel: "Ein Kopf, der den Tag noch einmal prüft", varianten: [
+        { code: "SE1", text: "Im Bett geht die selbsterhaltende Eins den Tag oft noch einmal gedanklich durch, um sicherzugehen, dass wirklich alles richtig erledigt wurde. Dieses nächtliche Nachprüfen kann den Einschlafprozess erheblich verzögern." },
+        { code: "SO1", text: "Ob sie heute wirklich untadelig gehandelt hat, hinterfragt die soziale Eins gerade beim Zubettgehen besonders gründlich. Dieses späte moralische Nachprüfen kann zu chronischen Einschlafstörungen führen." },
+        { code: "SX1", text: "Ihren Ärger über den Tag äußert die sexuelle Eins meist noch am selben Abend direkt, statt ihn mit ins Bett zu nehmen. Diese frühere Entladung erleichtert das Einschlafen gegenüber dem nächtlichen Grübeln anderer Einser-Varianten." },
+      ]},
+      { typ: 2, titel: "Ein Kopf, der um andere kreist", varianten: [
+        { code: "SE2", text: "Ob es den Menschen, für die sie sorgt, auch wirklich gut geht, beschäftigt die selbsterhaltende Zwei oft noch beim Einschlafen. Diese nächtliche Sorge um andere kann den eigenen Schlaf erheblich stören." },
+        { code: "SO2", text: "Wer heute vielleicht zu kurz gekommen ist, geht die soziale Zwei im Bett noch einmal gedanklich durch. Dieses späte Nachsorgen für viele kann zu wiederkehrenden Einschlafstörungen führen." },
+        { code: "SX2", text: "Ihre Gedanken vor dem Einschlafen kreisen bei der sexuellen Zwei um die eine wichtige Person, nicht diffus um viele. Diese Fokussierung kann das Einschlafen erleichtern gegenüber dem breiten Sorgen anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Ein Kopf, der nicht abschalten will", varianten: [
+        { code: "SE3", text: "Auch im Bett läuft bei der selbsterhaltenden Drei oft noch die innere To-do-Liste für den nächsten Tag weiter. Dieses fortlaufende Planen kann das Einschlafen erheblich verzögern." },
+        { code: "SO3", text: "Wie ihr Auftritt heute gewirkt hat, lässt die soziale Drei beim Einschlafen oft noch einmal gedanklich Revue passieren. Dieses nächtliche Nachprüfen der eigenen Wirkung kann zu Einschlafstörungen führen." },
+        { code: "SX3", text: "Ihr Tempo lässt die sexuelle Drei der einen wichtigen Person gegenüber auch am Abend fallen, statt es bis ins Bett mitzunehmen. Diese punktuelle Entspannung erleichtert das Einschlafen gegenüber dem Dauertempo anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein Kopf, der Gefühle nicht loslässt", varianten: [
+        { code: "SE4", text: "Ihre tiefe, ungestillte Sehnsucht begleitet die selbsterhaltende Vier, der Kontratyp, oft bis in die Nacht hinein, ohne dass sie ihr Raum gibt. Diese stille Unruhe kann den Schlaf erheblich stören." },
+        { code: "SO4", text: "Ihre Gedanken über das eigene Anderssein kreisen bei der sozialen Vier gerade abends besonders intensiv. Dieses nächtliche Grübeln kann zu chronischen Einschlafstörungen führen." },
+        { code: "SX4", text: "Tagsüber unmittelbar im Kontakt lebt die sexuelle Vier ihre Intensität aus, statt sie erst abends im Bett zu verarbeiten. Dieser laufende Ausdruck erleichtert das Einschlafen gegenüber dem nächtlichen Kreisen anderer Vierer-Varianten." },
+      ]},
+      { typ: 5, titel: "Ein Kopf, der weiterdenkt", varianten: [
+        { code: "SE5", text: "Auch im Bett rechnet die selbsterhaltende Fünf oft noch durch, ob ihre Ressourcen für die nächsten Tage ausreichen. Dieses nächtliche Kalkulieren kann das Einschlafen erheblich verzögern." },
+        { code: "SO5", text: "Interessante Gedanken lässt die soziale Fünf auch am Abend nicht los, das Denken selbst wird zur bevorzugten Beschäftigung vor dem Schlafen. Dieses anhaltende gedankliche Arbeiten kann Einschlafstörungen begünstigen." },
+        { code: "SX5", text: "Abends bewusst emotional entspannen kann sich die sexuelle Fünf innerhalb ihrer einen tiefen Verbindung, statt weiter zu denken. Diese Entspannung erleichtert das Einschlafen gegenüber der reinen Kopflastigkeit anderer Fünfer-Varianten." },
+      ]},
+      { typ: 6, titel: "Ein Kopf, der nachts wacht", varianten: [
+        { code: "SE6", text: "Mögliche Gefahren für den nächsten Tag durchdenkt die selbsterhaltende Sechs oft noch im Bett gründlich durch. Diese nächtliche Wachsamkeit zählt zu den zuverlässigsten Ursachen für Einschlafstörungen." },
+        { code: "SO6", text: "Den Erwartungen ihrer Gruppe morgen gerecht zu werden, beschäftigt die soziale Sechs oft noch beim Zubettgehen. Diese späte Sorge kann den Schlaf erheblich stören." },
+        { code: "SX6", text: "Tagsüber in unmittelbarem Handeln entlädt sich die Anspannung der sexuellen Sechs, des Kontratyps, statt mit ins Bett genommen zu werden. Diese frühere Entladung erleichtert das Einschlafen gegenüber der nächtlichen Wachsamkeit anderer Sechser-Varianten." },
+      ]},
+      { typ: 7, titel: "Ein Kopf, der Optionen offenhält", varianten: [
+        { code: "SE7", text: "Mögliche Pläne für morgen und übermorgen durchdenkt die selbsterhaltende Sieben oft noch beim Einschlafen mit spürbarer Vorfreude. Diese gedankliche Betriebsamkeit kann den Schlaf verzögern." },
+        { code: "SO7", text: "Auch abends noch stellt die soziale Sieben, der Kontratyp, ihre eigenen Bedürfnisse hinter die der Gruppe zurück, echte Ruhe kommt dabei kaum auf. Dieses fortlaufende Zurückstecken kann zu Einschlafstörungen führen." },
+        { code: "SX7", text: "Bei einer einzigen intensiven Erfahrung des Tages verweilt die sexuelle Sieben abends gedanklich, statt viele Optionen für morgen offenzuhalten. Diese Fokussierung erleichtert das Einschlafen gegenüber dem Optionen-Jonglieren anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Ein Kopf, der die Wache nicht abgibt", varianten: [
+        { code: "SE8", text: "Auch nachts noch wacht die selbsterhaltende Acht mit halbem Bewusstsein über ihre Ressourcen und ihr Territorium. Dieser permanente Kontrolldruck kann den Schlaf erheblich stören." },
+        { code: "SO8", text: "Auch am Abend bleibt die soziale Acht für ihre Gruppe noch gedanklich im Einsatz, ein echtes Abschalten der Wachsamkeit fällt ihr schwer. Diese fortlaufende Bereitschaft kann zu Einschlafstörungen führen." },
+        { code: "SX8", text: "Abends, bei der einen Person, der sie vertraut, lässt die sexuelle Acht ihre Wachsamkeit durchaus sinken. Diese punktuelle Entspannung erleichtert das Einschlafen gegenüber dem Dauertonus anderer Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Ein Kopf, der zu spät zur Ruhe kommt", varianten: [
+        { code: "SE9", text: "Den Übergang ins Bett verzögert die selbsterhaltende Neun gerne mit kleinen Routinen und Ablenkungen, bis sie schließlich übermüdet einschläft. Dieses hinausgezögerte Zubettgehen kann sich zu chronischer Insomnie entwickeln." },
+        { code: "SO9", text: "Ihre eigene Meinung zum Tag stellt die soziale Neun auch abends noch zurück, um keinen Konflikt aufkommen zu lassen. Dieses ständige Zurückhalten kann den Schlaf erheblich stören." },
+        { code: "SX9", text: "Den Schlafrhythmus des Partners übernimmt die sexuelle Neun oft unbewusst als eigenen, sobald sie mit ihm verschmilzt. Schläft der Partner unruhig, kann sich diese Unruhe direkt auf ihren eigenen Schlaf übertragen." },
+      ]},
+    ],
+    abschluss: "Niemand ist vor Schlafstörungen gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit nächtlicher Wachsamkeit auf seine eigene Weise umgeht – manche über Kontrolle, andere über Sorge, gedankliches Kreisen oder ein chronisch übernommenes fremdes Empfinden. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
 };
 
 // Roadmap der rund 100 häufigsten Krankheitsbilder in den westlichen Industrienationen
@@ -99907,7 +100674,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "verdauung": [],
   "haut": [],
   "hormone-stoffwechsel": [],
-  "nerven-psyche": ["Migräne", "Spannungskopfschmerz", "Depression", "Generalisierte Angststörung", "Panikattacken", "Burnout-Syndrom", "Schlafstörungen (Insomnie)", "Narkolepsie", "Tinnitus", "Schwindel (Vertigo)", "Restless-Legs-Syndrom", "Zähneknirschen (Bruxismus)", "Chronisches Erschöpfungssyndrom (ME/CFS)"],
+  "nerven-psyche": [],
   "immunsystem": ["Multiple Sklerose", "Häufige Infekte / Immunschwäche", "Long-COVID / Post-Viral-Syndrom", "Impffolgen / Post-Vac-Syndrom", "Lupus erythematodes", "Nahrungsmittelallergien", "Sarkoidose"],
   "onkologie": ["Brustkrebs", "Prostatakrebs", "Darmkrebs", "Lungenkrebs", "Hautkrebs (Melanom)", "Magenkrebs", "Bauchspeicheldrüsenkrebs", "Leukämie"],
   "sonstige": ["Chronische Nierenerkrankung", "Erektile Dysfunktion", "Unerfüllter Kinderwunsch", "Parodontitis", "Chronische Blasenentzündung (Zystitis)", "Grüner Star (Glaukom)", "Endometriose", "Blasenschwäche / Inkontinenz"],
