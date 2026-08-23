@@ -66777,6 +66777,478 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "Leukemia can affect anyone, regardless of subtype – genetic changes, environmental factors, and chance are decisive, not personality. What shows up is simply how differently people handle a long, often isolating treatment: some through discipline and knowledge, others through caring for their family, withdrawal, or a toughly maintained will to keep functioning. This is exactly where the Enneagram homeopathy of this compass can offer accompanying support: not for the tumor treatment itself, which always belongs in medical hands, but for the life force of the respective subtype thrown out of balance during a long, difficult time."
   },
+  chronische_nierenerkrankung: {
+    titel: "Chronic Kidney Disease",
+    kategorie: "sonstige",
+    icon: "🫘",
+    kurz: "A quiet, years-long progressive loss of kidney function that causes barely any symptoms for a long time.",
+    definition: "Chronic kidney disease refers to a progressive, usually irreversible loss of the kidneys' filtering function over months to years. The most common causes are diabetes mellitus and high blood pressure, alongside chronic kidney inflammation, congenital malformations, polycystic kidney disease, or long-term misuse of certain painkillers. The disease is classified into five stages, ranging from mildly reduced to fully lost function, at which point dialysis or transplantation becomes necessary. Because the kidneys can compensate for a considerable loss of function over a long time, the disease often goes unnoticed until an advanced stage and is frequently discovered by chance during routine checkups.",
+    symptome: ["Persistent fatigue and weakness", "Fluid retention in the legs, ankles, or eyelids", "Foamy or changed urine", "Hard-to-control high blood pressure", "Itchy skin", "Loss of appetite and nausea", "Frequent nighttime urination"],
+    notfall: "Seek immediate medical help for sudden severe shortness of breath, markedly reduced or absent urine output, confusion, or severe fluid retention.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "In Traditional Chinese Medicine, the kidneys are considered the seat of life essence (Jing) and the organ most closely tied to fear, willpower, and the body's deepest reserves – it is no coincidence that their functional decline often proceeds as quietly as the reserves themselves, drawn down over years without anyone noticing. Psychosomatically, chronic kidney disease can often be read as a picture of a slow, unnoticed depletion of inner substance – how someone treats their own basic reserves, how warning signs of exhaustion are perceived or overridden, and later how the hard restrictions of diet, fluid limits, and dialysis rhythm are handled. Each of the 27 subtypes shows its own pattern in dealing with this quiet depletion.",
+    typen: [
+      { typ: 1, titel: "Discipline against one's own exhaustion", varianten: [
+        { code: "SE1", text: "The self-preservation One usually attributes her own exhaustion to an off day and works against it with even more discipline instead of reading it as a warning sign. This continued self-optimization despite declining strength can mask a creeping dysfunction for a long time." },
+        { code: "SO1", text: "After diagnosis, the social One often follows dietary rules and fluid limits with exemplary consistency, sometimes even more strictly than prescribed, because any deviation feels to her like a moral failing." },
+        { code: "SX1", text: "The sexual One voices her frustration about the restrictions of the illness directly to doctors and family, rather than disciplined suppression like other One variants." },
+      ]},
+      { typ: 2, titel: "One's own exhaustion behind caring for others", varianten: [
+        { code: "SE2", text: "As long as she can still cook and shop for her family, the self-preservation Two tends to conceal her growing tiredness, out of worry about suddenly becoming a burden herself." },
+        { code: "SO2", text: "Within her wide circle of acquaintances, the social Two often mentions her diagnosis only in passing, while continuing to devote herself intensely to other people's worries – her own exhaustion usually stays unspoken." },
+        { code: "SX2", text: "Toward her wider circle, the sexual Two mostly holds back her fear of the progressing illness, but opens up to the one important person and genuinely lets herself be cared for there." },
+      ]},
+      { typ: 3, titel: "Performance despite declining filtration", varianten: [
+        { code: "SE3", text: "The self-preservation Three schedules dialysis appointments as efficiently as possible around her work hours, so as not to show any drop in performance – the actual burden of treatment often fades into the background." },
+        { code: "SO3", text: "Outwardly, the social Three continues to present herself as capable and flawless despite the diagnosis, carefully keeping the exhaustion from diet and treatment out of her public image." },
+        { code: "SX3", text: "The sexual Three drops her flawless facade the moment she is alone with the one important person, showing there the exhaustion she otherwise consistently hides." },
+      ]},
+      { typ: 4, titel: "A creeping threat that barely finds words", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, tends to carry her fear of the progressing illness stoically and without much complaint rather than expressing it – behavior that clearly contradicts the dramatic expression typical of her type." },
+        { code: "SO4", text: "In the diagnosis, the social Four sometimes finds a painful confirmation of her feeling that her suffering goes misunderstood anyway, which tends to make her withdraw rather than speak about it openly." },
+        { code: "SX4", text: "The sexual Four talks intensely about her fear of dialysis and functional loss with the one person she feels connected to, instead of avoiding these existential topics." },
+      ]},
+      { typ: 5, titel: "Values, curves, and a retreat into the factual", varianten: [
+        { code: "SE5", text: "The self-preservation Five often tracks her own lab values meticulously through tables and trends, aiming to depend as little as possible on being told things by doctors." },
+        { code: "SO5", text: "In specialist online forums, the social Five likes exchanging views on creatinine levels and treatment options, while the personal emotional experience of the illness mostly stays unspoken." },
+        { code: "SX5", text: "Unlike other Five variants, the sexual Five does not shield her fear of dialysis behind numbers alone but actually lets the one deep connection share in it." },
+      ]},
+      { typ: 6, titel: "Between checkups and mounting worry", varianten: [
+        { code: "SE6", text: "The self-preservation Six usually attends regular checkups conscientiously, yet genuinely worsened values still trigger a wave of fresh worry about the further course that is hard to settle." },
+        { code: "SO6", text: "The social Six seeks intensive advice from doctors, support groups, and her close circle before trusting a treatment decision such as the dialysis method – deciding alone feels unsafe to her." },
+        { code: "SX6", text: "Resolute action, such as actively searching for a living donor, is how the counter-type sexual Six meets the fear of functional loss, instead of getting lost in worry." },
+      ]},
+      { typ: 7, titel: "Between denial and an enforced limit", varianten: [
+        { code: "SE7", text: "The self-preservation Seven experiences dietary rules and fluid limits as an especially painful restriction of her options and keeps persistently looking for small permitted exceptions instead of accepting the limit." },
+        { code: "SO7", text: "Unusually dutifully, the social Seven, the counter-type, sticks to diet plans and dialysis appointments, even though the restriction on her own freedom weighs on her inwardly." },
+        { code: "SX7", text: "Focused and present, she engages in the one upcoming conversation about her prognosis, unlike other Seven variants, who would flee into distraction." },
+      ]},
+      { typ: 8, titel: "Control over one's own treatment plan", varianten: [
+        { code: "SE8", text: "The self-preservation Eight wants to retain decision-making authority over her diet and dialysis plan and often challenges doctors with critical questions, because being controlled by others over her own body is hard for her to bear." },
+        { code: "SO8", text: "Even as the illness progresses, the social Eight continues to present herself to her family as a strong, reliable pillar, while her own exhaustion from dialysis mostly stays unspoken." },
+        { code: "SX8", text: "The sexual Eight opens up about her fear of functional loss to the one person she trusts, rather than consistently demonstrating strength." },
+      ]},
+      { typ: 9, titel: "One's own voice in the treatment plan", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often pushes early signs such as fluid retention or tiredness aside within her familiar daily routine for a long time, until a clear medical finding forces her to act." },
+        { code: "SO9", text: "When decisions about dialysis method or transplant listing come up, the social Nine often simply adopts the doctor's recommendation or the family's stance, without clearly voicing her own preference." },
+        { code: "SX9", text: "The sexual Nine often perceives her partner's worry about her kidney values more intensely than her own, which lets her own voice easily get lost in treatment decisions." },
+      ]},
+    ],
+    abschluss: "Chronic kidney disease affects people for very different reasons, regardless of subtype – diabetes, high blood pressure, or predisposition, not personality traits. What shows up is simply that each of the 27 subtypes handles the quiet loss of inner reserves and the hard restrictions of treatment differently – some through discipline, others through withdrawal, caring for others, or long-overlooked warning signs of their own. This is exactly where the Enneagram homeopathy of this compass can offer accompanying support: not for the medical treatment itself, which always belongs in medical hands, but for the life force of the respective subtype thrown out of balance."
+  },
+  erektile_dysfunktion: {
+    titel: "Erectile Dysfunction",
+    kategorie: "sonstige",
+    icon: "⚡",
+    kurz: "A widespread, often shame-laden dysfunction with mostly organic causes – and a well-documented stress component.",
+    definition: "Erectile dysfunction refers to the repeated inability to achieve or maintain an erection sufficient for satisfying intercourse. It is widespread and becomes more common with age, but can affect men of any age. The most common causes are organic: circulatory problems from arteriosclerosis, diabetes, high blood pressure, hormonal changes, neurological conditions, and side effects of numerous medications, for instance for high blood pressure or depression. Alongside this, a psychological component is well documented: performance pressure, fear of failure, and general stress can worsen an existing dysfunction or – especially in younger men – trigger erectile difficulties even without an underlying organic condition, often in a self-reinforcing cycle of worry and renewed failure to achieve an erection. In many cases, organic and psychological factors interact.",
+    symptome: ["Difficulty achieving an erection", "Difficulty maintaining an erection", "Diminishing nighttime or morning spontaneous erections", "Reduced sexual desire as an accompanying symptom", "Tension or avoidance behavior before intimate situations", "Withdrawal from the partnership around sexuality", "Strain on self-esteem"],
+    notfall: "A painful erection lasting several hours (priapism) is a medical emergency and requires immediate treatment. If the dysfunction appears suddenly together with chest pain or shortness of breath, this can indicate a cardiovascular condition and should be evaluated promptly.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "For most men, erectile dysfunction has organic causes, above all circulation, hormone balance, and medication effects – that needs to be clarified medically first. At the same time, the influence of performance pressure, fear of failure, and stress is unusually well documented for this condition, which makes a psychosomatic view more legitimate here than for most other conditions in this compass. In Traditional Chinese Medicine, the ability to achieve an erection is closely tied to Kidney Yang, the force also associated with willpower, courage, and the ability to face fear rather than retreat from it. Psychosomatically, what shows up by subtype is above all how performance pressure is handled in a deeply vulnerable moment, how openly shame and fear of failure can be discussed with a partner, and whether a single instance turns into a cycle of worry or not. Each of the 27 subtypes shows its own pattern here.",
+    typen: [
+      { typ: 1, titel: "The inner critic in the most intimate moment", varianten: [
+        { code: "SE1", text: "A single failed erection is often immediately judged by the self-preservation One as her own failure, and she begins a strict internal debriefing that only raises the pressure for next time." },
+        { code: "SO1", text: "The social One often only talks to her partner about the difficulty once she has informed herself thoroughly on medical grounds, out of worry about appearing unprepared or vulnerable." },
+        { code: "SX1", text: "Openly and without delay, the sexual One names her frustration about the failure, which can paradoxically bring relief, because it doesn't also need to be suppressed." },
+      ]},
+      { typ: 2, titel: "The worry of no longer being able to give enough", varianten: [
+        { code: "SE2", text: "The self-preservation Two often looks for practical fixes on her own, like changed routines or more rest before intimacy, rather than raising the topic openly with her partner." },
+        { code: "SO2", text: "Because her self-worth draws heavily on being indispensable to others, the social Two often experiences the dysfunction as a break with her own image of being needed, which makes her more likely to conceal it than address it." },
+        { code: "SX2", text: "The sexual Two confesses her worry about no longer being able to satisfy her partner unusually openly to the one important person, instead of hiding it behind continued caretaking like other Two variants." },
+      ]},
+      { typ: 3, titel: "A flaw in one's own image of capability", varianten: [
+        { code: "SE3", text: "The self-preservation Three efficiently seeks the fastest possible medical fix to check the issue off her list, rather than engaging with the emotional side of the experience." },
+        { code: "SO3", text: "For the social Three, whose self-image is closely tied to success and control, an erectile dysfunction hits an especially sensitive spot – she tends to consistently omit the topic from her otherwise open self-presentation." },
+        { code: "SX3", text: "Her uncertainty becomes visible, at least in front of the one important person, instead of maintaining the flawless facade she keeps up in other contexts." },
+      ]},
+      { typ: 4, titel: "Shame that becomes confirmation of being different", varianten: [
+        { code: "SE4", text: "Few words accompany how the self-preservation Four, the counter-type, carries her uncertainty stoically rather than expressing it – behavior that clearly contradicts the open emotional expression otherwise typical of her type." },
+        { code: "SO4", text: "In the dysfunction, the social Four sometimes finds a painful confirmation of the feeling that she is inadequate, both physically and emotionally, which tends to deepen rather than ease her withdrawal from intimacy." },
+        { code: "SX4", text: "The sexual Four addresses her shame intensely and directly with the one important person, instead of processing it in inward brooding like other Four variants." },
+      ]},
+      { typ: 5, titel: "Withdrawal into explanation and distance", varianten: [
+        { code: "SE5", text: "The self-preservation Five thoroughly researches possible causes and treatment options before even bringing it up with her partner, so as not to face the topic unprepared." },
+        { code: "SO5", text: "In a specialist forum or among friends with similar knowledge, the social Five prefers exchanging views on the medical aspects, while the personal feeling of shame mostly stays unspoken." },
+        { code: "SX5", text: "The sexual Five opens up to the one deep connection even about her uncertainty, rather than treating the topic purely factually or avoiding physical closeness altogether like other Five variants." },
+      ]},
+      { typ: 6, titel: "The cycle of worry and anticipatory fear", varianten: [
+        { code: "SE6", text: "After a first failed instance, the self-preservation Six often starts mentally rehearsing the next intimate situation in advance – this very anticipatory fear often favors another failure." },
+        { code: "SO6", text: "The social Six seeks advice from doctors or trusted friends before starting treatment; coping with the uncertainty alone is difficult for her." },
+        { code: "SX6", text: "A resolute, almost defiant approach to the next intimate situation is how the sexual Six, the counter-type, meets the fear of renewed failure, rather than getting lost in worry like other Six variants." },
+      ]},
+      { typ: 7, titel: "Distraction instead of confrontation", varianten: [
+        { code: "SE7", text: "The self-preservation Seven likes to brush off a failed instance with humor in the moment, so as not to linger in the uncomfortable tension – actually following up on the topic afterward is much harder for her." },
+        { code: "SO7", text: "Unusually openly, the social Seven, the counter-type, raises the topic within her close circle of friends, instead of hiding it behind lightness like other Seven variants." },
+        { code: "SX7", text: "The sexual Seven actually engages in the one intense conversation with her partner, instead of searching for distraction on this vulnerable topic as she otherwise would." },
+      ]},
+      { typ: 8, titel: "Loss of control at the most sensitive point", varianten: [
+        { code: "SE8", text: "The self-preservation Eight experiences erectile dysfunction as an especially threatening loss of control over her own body and resolutely looks for physical countermeasures rather than talking about the underlying uncertainty." },
+        { code: "SO8", text: "Her image of unshakeable strength stays firmly in place in front of her circle; the topic is almost never mentioned there." },
+        { code: "SX8", text: "Vulnerability around the topic does get shown, at least to the one person she trusts, instead of consistently demonstrating strength as usual." },
+      ]},
+      { typ: 9, titel: "One's own tension that gets lost", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often avoids the topic in daily life for a long time, letting intimate situations become unconsciously less frequent instead of consciously addressing the change." },
+        { code: "SO9", text: "Within the relationship, the social Nine often adopts her partner's view of the topic, without clearly formulating her own worry." },
+        { code: "SX9", text: "Her partner's disappointment tends to register more strongly for the sexual Nine than her own tension, which lets her own fear of another failed instance easily go overlooked." },
+      ]},
+    ],
+    abschluss: "Erectile dysfunction usually has organic causes and is not a matter of character or willpower – circulation, hormones, and medication effects are the main factors for most affected men. What shows up in addition is simply that each of the 27 subtypes handles performance pressure, shame, and the cycle of worry and anticipatory fear differently. This knowledge can help open up conversation about a topic many men keep silent about out of shame, without replacing the necessary medical evaluation."
+  },
+  unerfuellter_kinderwunsch: {
+    titel: "Unfulfilled Desire to Have Children",
+    kategorie: "sonstige",
+    icon: "🕰️",
+    kurz: "A deeply burdensome life situation with diverse medical causes on both sides – not a matter of character.",
+    definition: "An unfulfilled desire to have children is usually diagnosed when no pregnancy occurs after about a year of regular, unprotected intercourse. The causes are roughly split evenly between factors on the woman's side (such as fallopian tube problems, endometriosis, hormonal disorders, declining egg quality with age) and the man's side (such as reduced sperm quality or count), and a combination of several factors on both sides is common. In a relevant share of couples, depending on the study between 15 and 30 percent, no clear cause can be identified despite extensive diagnostics – this is referred to as idiopathic or unexplained infertility. An unfulfilled desire to have children is therefore, as a rule, a multifactorial medical situation, not the result of a particular psychological pattern, even though the monthly recurring disappointment itself can generate considerable emotional stress.",
+    symptome: ["Recurring disappointment with every missed period", "Growing tension around ovulation and the timing of intercourse", "Diminishing spontaneity in sexuality due to ›scheduled sex‹", "Exhaustion from hormone treatments and repeated diagnostics", "Withdrawal from social circles, especially around pregnancies nearby", "Tension and differing coping paces within the partnership", "Feelings of shame, isolation, or failure despite no fault of one's own"],
+    notfall: "If pregnancy does not occur after about a year (after six months for women over 35), specialist evaluation is advisable. In cases of persistent severe exhaustion, depressive mood, or growing strain on the relationship, psychotherapeutic or couples counseling can offer relief.",
+    disclaimer: "Every person can be affected by an unfulfilled desire to have children, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings about the emotional experience of this situation – no psychological pattern causes infertility, and this text never replaces specialist medical or reproductive medicine evaluation.",
+    einleitung: "Explicitly upfront: an unfulfilled desire to have children usually has physical, often multifactorial causes on both sides of a partnership, or no identifiable cause at all – not a particular psychological pattern that would need to be ›resolved‹ for a pregnancy to occur. Such a notion would not only be medically wrong, but additionally hurtful for those affected, who already hear often enough that they should ›just relax more‹. What this is about instead is the very real emotional experience of a situation that accompanies many couples for months or years: the monthly swing between hope and disappointment, coping with treatments and diagnostics, the question of who grief gets shown to, and comparison with a social circle in which pregnancies seem to happen effortlessly. Each of the 27 subtypes shows its own pattern in handling this particular form of recurring disappointment.",
+    typen: [
+      { typ: 1, titel: "The inner schedule that doesn't add up", varianten: [
+        { code: "SE1", text: "The self-preservation One organizes cycle calendars, diet, and appointments with great discipline, in the quiet hope of regaining control, through even more getting-it-right, over something that medically often cannot be controlled at all." },
+        { code: "SO1", text: "Toward family and social circle, the social One usually maintains a composed facade and reports on the treatment status rather matter-of-factly, while her own grief over each further unsuccessful month stays unspoken." },
+        { code: "SX1", text: "The sexual One shows her anger about the unfairness of the situation noticeably more openly than other One variants, which can paradoxically bring her relief in coping with the recurring disappointment." },
+      ]},
+      { typ: 2, titel: "Grief behind continued caretaking", varianten: [
+        { code: "SE2", text: "Even in the middle of hormone treatments, the self-preservation Two keeps reliably caring for her family's daily life rather than asking for relief herself – her own exhaustion often goes unnoticed." },
+        { code: "SO2", text: "The social Two continues to accompany friends with children attentively and warmly, even as every stroller inwardly hurts – this pain mostly stays unspoken toward the group." },
+        { code: "SX2", text: "The sexual Two reveals her grief over each missed cycle noticeably more directly to the one important person than she ever would to her wider circle." },
+      ]},
+      { typ: 3, titel: "A project that won't reach completion", varianten: [
+        { code: "SE3", text: "The self-preservation Three organizes fertility treatments efficiently, like another project alongside work and daily life, which often leaves too little room for the emotional strain behind it." },
+        { code: "SO3", text: "Within her social circle, the social Three prefers not to talk about unsuccessful treatment attempts, because ›failure‹ doesn't fit her carefully maintained image – outwardly, the impression often remains that everything is going according to plan." },
+        { code: "SX3", text: "The sexual Three shows her disappointment and exhaustion at least to the one important person, instead of maintaining the flawless facade she keeps up in other contexts." },
+      ]},
+      { typ: 4, titel: "A pain that finally has a name", varianten: [
+        { code: "SE4", text: "Stoic and functional is how the self-preservation Four, the counter-type, tends to carry her grief over each unsuccessful cycle, continuing to function outwardly unshaken, contrary to the open expression of pain otherwise typical of her type." },
+        { code: "SO4", text: "In the recurring disappointment, the social Four sometimes finds a painful confirmation of her own feeling of remaining fundamentally misunderstood in her suffering, even in exchange with other affected people." },
+        { code: "SX4", text: "The sexual Four expresses her grief intensely and unfiltered toward the one important person, instead of processing it in inward brooding like other Four variants." },
+      ]},
+      { typ: 5, titel: "Retreat into statistics and expertise", varianten: [
+        { code: "SE5", text: "The self-preservation Five researches fertility values, treatment success rates, and study data extremely thoroughly, wanting to meet the topic armed with as much knowledge as possible before even talking about her own grief." },
+        { code: "SO5", text: "In a specialist online forum, the social Five likes exchanging views on treatment protocols, while the personal emotional experience of disappointment mostly stays in the background." },
+        { code: "SX5", text: "Unlike other Five variants, who shield themselves behind numbers and facts, the sexual Five lets the one deep connection share in her grief too." },
+      ]},
+      { typ: 6, titel: "Between hope, doubt, and safeguarding", varianten: [
+        { code: "SE6", text: "The self-preservation Six often meets each new cycle with cautious restraint of hope, trying to brace herself against the next disappointment – it rarely fully succeeds." },
+        { code: "SO6", text: "Coping alone with the uncertainty over the next treatment steps is hard for the social Six, which is why she consults intensively with doctors, support groups, and her close circle before truly trusting a method." },
+        { code: "SX6", text: "Resolute, active pursuit of treatment options is how the sexual Six, the counter-type, meets the fear of permanent childlessness, instead of getting lost in circles of worry." },
+      ]},
+      { typ: 7, titel: "Between future plans and sudden gravity", varianten: [
+        { code: "SE7", text: "The self-preservation Seven keeps alternative paths, such as adoption or a childless life, open early on, which secures her options but can also make it harder to fully grieve the unfulfilled wish itself." },
+        { code: "SO7", text: "Unusually persistently, the social Seven, the counter-type, sees a burdensome treatment through across multiple cycles, instead of sidestepping the topic with fresh distraction like other Seven variants." },
+        { code: "SX7", text: "The sexual Seven talks urgently about her grief and changed future plans with the one important person, instead of hiding these existential topics behind lightness as usual." },
+      ]},
+      { typ: 8, titel: "A fight against a body that won't obey", varianten: [
+        { code: "SE8", text: "The self-preservation Eight experiences a lack of success as an especially threatening loss of control over her own body and throws herself resolutely into every new treatment option instead of allowing her own grief." },
+        { code: "SO8", text: "In front of her circle, the social Eight remains the strong, protective pillar even through burdensome treatment cycles; her own despair about it is shown to almost no one." },
+        { code: "SX8", text: "Despair over each further unsuccessful attempt does surface, at least toward the one person she trusts, instead of consistently demonstrating strength as usual." },
+      ]},
+      { typ: 9, titel: "One's own longing in the background", varianten: [
+        { code: "SE9", text: "The self-preservation Nine rarely brings up her own fertility treatment on her own in daily life, preferring to direct her attention to familiar routines rather than fully facing the burdensome waiting." },
+        { code: "SO9", text: "When decisions about the next treatment steps come up, the social Nine often simply adopts her partner's or the treating doctors' stance, without clearly voicing her own longing or exhaustion." },
+        { code: "SX9", text: "Her partner's disappointment after each unsuccessful attempt tends to register more strongly for the sexual Nine than her own, which lets her own grief easily get lost in coping together." },
+      ]},
+    ],
+    abschluss: "An unfulfilled desire to have children has diverse medical causes on both sides of a partnership, or no identifiable cause at all, regardless of subtype – no psychological pattern is responsible for it, and none needs to be ›resolved‹ for a pregnancy to succeed. What shows up is simply how differently people cope with the monthly recurring disappointment, with treatments, and with comparison to those around them. This knowledge can help meet oneself and one's partner with more understanding during this burdensome time, without replacing reproductive medicine care."
+  },
+  parodontitis: {
+    titel: "Periodontitis",
+    kategorie: "sonstige",
+    icon: "🦷",
+    kurz: "A chronic inflammation of the tooth-supporting structures that gradually breaks down gum tissue and jawbone.",
+    definition: "Periodontitis is a chronic, bacterially triggered inflammation of the tooth-supporting structures that, left untreated, can lead to progressive breakdown of gum tissue, connective tissue, and jawbone, up to tooth loss. It is caused by a bacterial biofilm (plaque) at the gumline, to which the immune system responds with an inflammatory reaction that, given the right predisposition, poor oral hygiene, smoking, diabetes, or chronic stress, takes on a life of its own and increasingly attacks surrounding tissue instead of containing it. The disease usually progresses over years, quietly and largely without pain, which is why it is often only noticed once significant bone loss or loosened teeth are already present. It is now considered established that chronic inflammation in the mouth is also linked to an increased risk of cardiovascular disease and poorer diabetes control.",
+    symptome: ["Bleeding gums when brushing", "Red, swollen gums", "Receding gums and exposed tooth necks", "Persistent bad breath", "Increasing looseness of individual teeth", "Discharge of fluid or pus at the gumline", "Changes in bite from shifting teeth"],
+    notfall: "Have severely swollen, painful gums with fever or noticeable tooth looseness evaluated by a dentist promptly; persistent bleeding gums should not be put off even without acute pain.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "In Traditional Chinese Medicine, the Stomach meridian runs directly through the gums of the upper jaw, which is why chronic gum inflammation there is often associated with long-suppressed ›stomach fire‹ – something boiling internally that isn't allowed to surface. The mouth is also the first boundary between inside and outside, the place where it is literally decided what gets let in and what gets rejected, and where, figuratively, one ›bites down‹ or ›grits one's teeth‹. Psychosomatically, periodontitis is therefore often read as a picture of chronically held-back anger or permanently overextended self-control, settling as quiet inflammation right at this boundary. Each of the 27 subtypes shows its own pattern here.",
+    typen: [
+      { typ: 1, titel: "Gritting teeth as a way of life", varianten: [
+        { code: "SE1", text: "The self-preservation One literally grits her teeth against her own exhaustion and keeps working unshaken instead of demanding a break – this sustained clenching can show up directly in the gums." },
+        { code: "SO1", text: "The social One usually swallows criticism of her otherwise exemplary behavior rather than openly rejecting it, out of worry about seeming quarrelsome – this anger swallowed for years can settle as chronic inflammation." },
+        { code: "SX1", text: "Rather than swallowing it for years, the sexual One voices her anger immediately. This direct outward release sets her apart from the quiet clenching of other One variants." },
+      ]},
+      { typ: 2, titel: "A smile that carries more than it shows", varianten: [
+        { code: "SE2", text: "Even when her own needs fall short, the self-preservation Two keeps up a friendly smile outwardly instead of showing the exhaustion behind it – it is precisely this permanently maintained smile that can strain the gums." },
+        { code: "SO2", text: "The social Two rarely mentions her own exhaustion after years of giving to many, out of worry about seeming ungrateful. This unspoken exhaustion can settle as quiet, long-unnoticed gum inflammation." },
+        { code: "SX2", text: "The sexual Two voices her needs toward the one important person more clearly than in quiet restraint. This more direct communication sets her apart from the quiet smile of other Two variants." },
+      ]},
+      { typ: 3, titel: "Flawless outwardly, hardened behind it", varianten: [
+        { code: "SE3", text: "The self-preservation Three schedules dental appointments efficiently, but readily postpones them in favor of more pressing work commitments – it is precisely this chronic deprioritizing of her own health that favors creeping inflammation." },
+        { code: "SO3", text: "A flawless smile is almost part of the professional equipment for the social Three, while the actual state of her gums behind it can go unattended for years, as long as it stays invisible from the outside." },
+        { code: "SX3", text: "The sexual Three drops her facade the moment she is alone with the one important person, instead of maintaining it consistently. This selective honesty sets her apart from the constant concealment of other Three variants." },
+      ]},
+      { typ: 4, titel: "A pain that settles into the tissue", varianten: [
+        { code: "SE4", text: "Wordlessly, over a long time, the self-preservation Four, the counter-type, carries her pain instead of voicing it. This persistent silent endurance can show up as creeping inflammation in the gums." },
+        { code: "SO4", text: "How misunderstood and different she feels the social Four often shares only in fragments, out of worry about not really being heard anyway. This incomplete expression can settle over years as chronic gum inflammation." },
+        { code: "SX4", text: "The sexual Four voices her feelings immediately in the intense encounter, instead of holding them back for years. This direct expression sets her apart from the incomplete expression of other Four variants." },
+      ]},
+      { typ: 5, titel: "Withdrawal even into one's own oral hygiene", varianten: [
+        { code: "SE5", text: "The self-preservation Five often practices oral care according to her own sparing system, one that follows her need for autonomy more than dental recommendations – regular checkups easily slip out of view." },
+        { code: "SO5", text: "The social Five is quite happy to share expert knowledge about dental health with others, while her own reluctance about actually going to the dentist remains largely untouched by it." },
+        { code: "SX5", text: "For the one deep connection, the sexual Five makes time even for topics like her own health, instead of withdrawing entirely like other Five variants." },
+      ]},
+      { typ: 6, titel: "A tense jaw, constant vigilance", varianten: [
+        { code: "SE6", text: "Nighttime teeth grinding often accompanies the self-preservation Six without her noticing it herself – this persistent jaw tension adds to her quiet worrying and puts extra strain on the gums." },
+        { code: "SO6", text: "The social Six usually follows her dentist's recommendations conscientiously, but likes to get a second opinion from her circle when unsure, before truly trusting a treatment." },
+        { code: "SX6", text: "The sexual Six, the counter-type, releases her tension through bold action rather than quiet nighttime grinding, which can give her a certain physical relief compared with other Six variants." },
+      ]},
+      { typ: 7, titel: "An appointment that keeps getting pushed back", varianten: [
+        { code: "SE7", text: "The self-preservation Seven likes to postpone dental appointments in favor of more pleasant alternatives, as long as there is no acute pain – it is precisely this procrastination that favors the creeping inflammation." },
+        { code: "SO7", text: "Unusually reliably, the social Seven, the counter-type, sticks to regular checkups, instead of repeatedly postponing them like other Seven variants." },
+        { code: "SX7", text: "The sexual Seven actually engages with focus in the one upcoming treatment, instead of fleeing into ever-new distraction like other Seven variants." },
+      ]},
+      { typ: 8, titel: "Baring teeth instead of admitting weakness", varianten: [
+        { code: "SE8", text: "The self-preservation Eight ignores pain in her gums as long as possible; seeing a doctor would feel to her like admitting vulnerability – only clear tooth looseness brings her to act." },
+        { code: "SO8", text: "For her group, the social Eight always appears strong, while her own neglect of dental care or checkups stays unspoken for years." },
+        { code: "SX8", text: "The sexual Eight does show vulnerability about her own complaints to the one person she trusts, instead of hiding it behind strength as usual." },
+      ]},
+      { typ: 9, titel: "A warning sign that gets lost in daily life", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often accepts bleeding gums while brushing as a familiar side note for a long time, adjusting her routine at most minimally instead of pursuing the cause." },
+        { code: "SO9", text: "The social Nine often sets her own worry about her gums aside in conversation, so as not to bring an additional topic into the already limited shared time." },
+        { code: "SX9", text: "The sexual Nine often attends to her partner's complaints more attentively than her own once she merges with him, leaving her own signs of gum inflammation easily unnoticed." },
+      ]},
+    ],
+    abschluss: "Periodontitis can affect anyone, regardless of subtype – oral hygiene, bacterial biofilm, and predisposition play the main role, not personality. What shows up is simply that each of the 27 subtypes handles chronically held-back tension at this boundary between inside and outside differently – some through quiet clenching, others through procrastination or a chronically overlooked warning sign of their own. This is exactly where the Enneagram homeopathy of this compass can offer accompanying support: not for the dental treatment itself, but for the life force of the respective subtype thrown out of balance."
+  },
+  chronische_blasenentzuendung_zystitis: {
+    titel: "Chronic Cystitis (Bladder Infection)",
+    kategorie: "sonstige",
+    icon: "💧",
+    kurz: "A repeatedly recurring inflammation of the bladder lining that often becomes a lasting theme far beyond the single acute infection – with burning, a sense of pressure, and constant worry about the next flare-up.",
+    definition: "Cystitis is an inflammation of the bladder lining, most often caused by ascending bacteria, in the vast majority of cases Escherichia coli from the person's own gut. Chronic or recurrent cystitis is diagnosed when at least two infections occur within six months, or three within a year. Women are affected considerably more often than men because of their shorter urethra. Contributing factors include sexual intercourse, hormonal changes such as menopause, a weakened local immune environment of the mucosa, habitually holding in the urge to urinate, and in some cases anatomical particularities. In some sufferers, typical complaints appear without a sufficient bacterial count in the urine – this is then called interstitial or non-bacterial irritable bladder syndrome, a closely related but distinct condition.",
+    symptome: ["Burning and pain during urination", "Frequent, often only weak urge to urinate", "Pressure or cramping sensation in the lower abdomen", "Cloudy, sometimes foul-smelling or bloody urine", "Feeling of incomplete bladder emptying", "Mild fever with an ascending infection", "Tense anticipation of the next flare-up"],
+    notfall: "For flank pain, high fever, chills, or a strong sense of being seriously unwell, seek prompt medical evaluation – this can indicate an ascending kidney infection that requires treatment.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "The bladder marks a kind of inner border zone in the body – it collects, holds, and lets go again at a moment of its own choosing. In TCM, the bladder is assigned to the Water element together with the kidney and is linked to primal fear as well as willpower; a weakened kidney Qi can express itself in recurring bladder complaints. Psychosomatically, a chronically recurring cystitis often reads as an image of a border zone that keeps getting violated – through too little personal space, through pent-up anger that finds no other outlet, or through the ongoing tension of having to defend one's own territory against unwanted closeness. Each of the 27 subtypes shows its own pattern of where this inner boundary keeps coming under pressure.",
+    typen: [
+      { typ: 1, titel: "A boundary that isn't allowed to raise its voice", varianten: [
+        { code: "SE1", text: "Uncomfortable urges to urinate get ignored by the self-preservation One, gladly, until the task at hand is finished – interrupting the routine comes at an inconvenient time. Repeatedly holding the bladder full this way mechanically favors new infections." },
+        { code: "SO1", text: "Criticism of her surroundings gets voiced by the social One in a well-considered, controlled way, rather than let out raw. This constantly controlled anger, never allowed to drain anywhere, can settle into an organ that likewise holds back constantly before releasing." },
+        { code: "SX1", text: "Her outrage over injustice comes out immediately in the sexual One, rather than being suppressed for long like in other One variants. This more direct discharge can ease the chronic tension that, when anger is held back permanently, can additionally irritate the bladder lining." },
+      ]},
+      { typ: 2, titel: "A boundary that vanishes in service to others", varianten: [
+        { code: "SE2", text: "Her own urge to urinate gets set aside by the self-preservation Two mid-way through helping someone, a no to herself coming easier than a no to others. This repeated overriding of her own bodily signal favors frequent infections." },
+        { code: "SO2", text: "Staying reachable for many people at once matters more to the social Two than briefly getting up to use the bathroom. This constant availability at the bladder's expense can show up as recurring infections." },
+        { code: "SX2", text: "Showing her own needs too, not just giving, becomes possible for the sexual Two within the one important relationship. This permission for self-care can lower the risk compared with the constant self-deferral of other Two variants." },
+      ]},
+      { typ: 3, titel: "A boundary that yields to the schedule", varianten: [
+        { code: "SE3", text: "Between two appointments there is often no time left for the self-preservation Three's own bathroom break, efficiency coming before bodily need. This systematic postponing can make the bladder more prone to inflammation over time." },
+        { code: "SO3", text: "Her image as a high-performing, always-available person keeps getting maintained by the social Three even when a break is urgently needed. Recurring complaints that force her to pause contradict this image in a particularly uncomfortable way." },
+        { code: "SX3", text: "Appearing tired and needy is allowed for the sexual Three, at least in front of the one important person, rather than functioning flawlessly at all times. This freedom can help her take bodily warning signs more seriously than the sustained facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "A boundary that stays too permeable", varianten: [
+        { code: "SE4", text: "Her discomfort tends to be carried around stubbornly and wordlessly by the self-preservation Four, the counter-type, rather than admitted. A recurring burning during urination can get suppressed this way until the next flare-up becomes impossible to ignore." },
+        { code: "SO4", text: "Other people's moods get picked up more sensitively by the social Four than her own bodily signals, a clear boundary outward being hard for her to hold. This strong outward permeability can transfer onto an organ that is actually responsible for boundaries inward." },
+        { code: "SX4", text: "Her needs get voiced immediately in the encounter by the sexual Four, rather than silently piling up inside. This direct expression can prevent tension from settling as deeply as it does with the stronger introspection of other Four variants." },
+      ]},
+      { typ: 5, titel: "A boundary meant to be preserved through withdrawal", varianten: [
+        { code: "SE5", text: "Even an urgent bathroom break sometimes gets postponed by the self-preservation Five, as long as she's absorbed in something and doesn't want to ask anyone for anything. This prolonged holding-back favors recurring irritation of the bladder lining." },
+        { code: "SO5", text: "Her expertise often gets built up by the social Five in long sessions where the body goes unnoticed, even simple needs slipping out of view. This sustained overlooking of bodily signals can show up as frequent infections." },
+        { code: "SX5", text: "Real closeness, including bodily attentiveness, gets allowed by the sexual Five, at least within her one deep bond, rather than retreating purely into herself. This balance can help her notice her body's warning signs earlier than other Five variants." },
+      ]},
+      { typ: 6, titel: "A boundary that constantly has to be defended", varianten: [
+        { code: "SE6", text: "Her surroundings get secured in advance against every conceivable danger by the self-preservation Six, her nervous system barely ever relaxing in the process. This ongoing state of alert can transfer onto an organ that likewise has to keep deciding between holding and releasing." },
+        { code: "SO6", text: "Her reference group's expectations get tracked closely by the social Six so as not to stand out anywhere – a vigilance that rarely settles down. This sustained social tension can show up physically as recurring bladder irritation." },
+        { code: "SX6", text: "Immediate action, rather than endlessly running through threats in her head, is how the sexual Six, the counter-type, answers fear. This action orientation can lower the sustained tension that, in other Six variants, tends to burden the mucosa's immune environment more." },
+      ]},
+      { typ: 7, titel: "A boundary that gets overridden by momentum", varianten: [
+        { code: "SE7", text: "Mid-way through an enjoyable activity, the self-preservation Seven only reluctantly interrupts for a bathroom break, since that would take the momentum away. This repeated postponing out of sheer restlessness can favor infections that could otherwise have been avoided." },
+        { code: "SO7", text: "Her own bodily needs consistently get placed behind the group's by the social Seven, the counter-type, even when her bladder has long needed relief. This deferral can show up as frequent complaints." },
+        { code: "SX7", text: "Rather than constantly chasing new stimulation, the sexual Seven bundles her attention onto a single intense experience – including her own bodily signals. This focus can help her notice the urge to urinate more promptly than other Seven variants." },
+      ]},
+      { typ: 8, titel: "A boundary treated as a matter of strength", varianten: [
+        { code: "SE8", text: "Even noticeable discomfort while urinating initially gets overridden by the self-preservation Eight, as long as she doesn't want to let it weaken her. If this signal keeps getting ignored, it can show up as ever-recurring infections." },
+        { code: "SO8", text: "Staying consistently present and ready for her group matters more to the social Eight than withdrawing over a bladder infection, which hardly fits her self-image as a protective force. This continued functioning without a break can worsen the complaints over time." },
+        { code: "SX8", text: "To the one person she truly trusts, the sexual Eight also shows bodily vulnerability, rather than constantly asserting strength. This protected space can allow real recovery where other Eight variants tend to just keep functioning." },
+      ]},
+      { typ: 9, titel: "A boundary that goes barely noticed", varianten: [
+        { code: "SE9", text: "Her own urge to urinate often gets registered late by the self-preservation Nine, so absorbed is she in her familiar routine. This late awareness can let an irritation settle in unnoticed for longer before it's even noticed at all." },
+        { code: "SO9", text: "To avoid any conflict, the social Nine puts off even her own bathroom break when a conversation happens to be going on in the group. This constant deferral of her own needs can make the bladder more susceptible over time." },
+        { code: "SX9", text: "His schedule often gets taken over by the sexual Nine once she merges intensely with her partner, rather than attending to her own body. If this pattern persists over a longer period, it can show up as recurring bladder complaints." },
+      ]},
+    ],
+    abschluss: "No one is safe from chronic cystitis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes neglects its own inner boundary in a different way – some through sustained duty, others through giving, withdrawal, or a bodily signal long overridden. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  gruener_star_glaukom: {
+    titel: "Glaucoma",
+    kategorie: "sonstige",
+    icon: "👁️",
+    kurz: "A gradually progressing disease of the optic nerve, usually caused by elevated intraocular pressure, that slowly and often imperceptibly narrows the field of vision – until a considerable part is already lost.",
+    definition: "Glaucoma refers to a group of eye diseases in which the optic nerve is progressively damaged, most often as a result of elevated intraocular pressure caused by a disturbed drainage balance of the aqueous humor. What makes glaucoma treacherous is its gradual course: the visual field first narrows from the outside inward, without those affected noticing this in everyday life, since the brain compensates for the emerging gaps for a long time. Left untreated, glaucoma can lead to complete blindness. Risk factors include family history, older age, nearsightedness, diabetes, and generally elevated intraocular pressure. Regular ophthalmologic check-ups are crucial, since the resulting optic nerve damage cannot be reversed – treatment aims to halt further progression.",
+    symptome: ["Gradual, usually unnoticed loss of the outer visual field", "Occasional visual disturbances or the perception of halos around light sources", "A sense of pressure in the eye, more rarely headache", "In an acute glaucoma attack: sudden severe eye pain with nausea", "Reddened, hardened eye during an acute attack", "Poorer vision at dusk", "Increasing stumbling due to a restricted field of vision"],
+    notfall: "For sudden, severe eye pain with a reddened, hardened eye, worsening vision, and nausea, seek emergency ophthalmologic care immediately – suspected acute glaucoma attack, which can lead to blindness within a few hours.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "In glaucoma, pressure builds up inside the eye itself, barely visible from outside, but damaging the optic nerve from within – an image that psychosomatically can hardly be read any more clearly than pent-up inner pressure finding no other outlet. In TCM, the eye is assigned to the Wood element and thus to the liver; a stagnated flow of liver Qi, often caused by suppressed anger or long-postponed decisions, is considered here a possible starting point for pressure symptoms in the eye. Psychosomatically, the gradually narrowing visual field of glaucoma often reads as an image of a viewpoint that has unconsciously narrowed over years – where breadth of vision and openness to the future increasingly give way to a rigid focus on what is immediately necessary. Each of the 27 subtypes shows its own pattern of which inner pressure or which narrowing of one's own field of view appears here.",
+    typen: [
+      { typ: 1, titel: "A gaze narrowed onto mistakes", varianten: [
+        { code: "SE1", text: "The smallest deviations from her own standard get registered by the self-preservation One with a sharpened eye, while the bigger picture easily slips out of focus in the process. This permanently narrowed, critical gaze can mirror itself in a correspondingly narrowed visual field." },
+        { code: "SO1", text: "As a moral role model, the social One usually keeps her anger over wrongdoing controlled and held back rather than showing it openly. This inner pressure, accumulated over years, can settle of all places into an organ that itself regulates a sensitive internal pressure." },
+        { code: "SX1", text: "Her outrage gets shown immediately and directly by the sexual One, rather than being stored up for long like other One variants. This more direct discharge can prevent inner pressure from building up as persistently as sustained suppressed anger tends to favor." },
+      ]},
+      { typ: 2, titel: "A gaze that stays fixed on others", varianten: [
+        { code: "SE2", text: "Other people's needs stay constantly in view for the self-preservation Two, while her own check-up appointments easily get overlooked in the process. A glaucoma detected too late can arise precisely from this outward-directed focus." },
+        { code: "SO2", text: "Her gaze stays continuously directed by the social Two toward the many people she helps, while her own body barely comes into view. This sustained outward orientation can leave her own warning signs, including in the eye, unnoticed for a long time." },
+        { code: "SX2", text: "Taking care of herself too is something the sexual Two allows, at least in the one important relationship, rather than only looking outward. This permission for self-care can help her take her own check-ups more seriously than other Two variants." },
+      ]},
+      { typ: 3, titel: "A gaze fixed only ahead", varianten: [
+        { code: "SE3", text: "On the next goal, the self-preservation Three fixates so consistently that a routine eye check gladly gets pushed aside in the tight schedule. An unnoticed, progressing glaucoma can stay undetected for years this way." },
+        { code: "SO3", text: "Her image as a high-performing, sharply focused person gets carefully maintained by the social Three, a restricted visual field fitting into it only poorly. Once the diagnosis becomes visible, it can hit her self-image as an unrestrictedly functioning person especially hard." },
+        { code: "SX3", text: "Showing weaknesses and worries is allowed for the sexual Three, at least in front of the one important person, rather than appearing flawless at all times. This freedom can help her take her own check-up appointments more seriously than the sustained facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "A gaze that turns inward", varianten: [
+        { code: "SE4", text: "Bodily warning signs get overridden by the self-preservation Four, the counter-type, stubbornly and wordlessly, rather than admitted. A creeping glaucoma can escape her own awareness for a particularly long time this way." },
+        { code: "SO4", text: "Inner brooding is something the social Four often sinks into, her gaze turning more inward than toward the outer world. This tendency to narrow rather than widen her gaze can mirror itself symbolically in the gradual visual field loss of a glaucoma." },
+        { code: "SX4", text: "Her intensity gets sought by the sexual Four directly in the encounter with others, rather than getting lost in introspection. This outward-directed attention differs from the stronger inward focus of other Four variants." },
+      ]},
+      { typ: 5, titel: "A gaze focused on the essential", varianten: [
+        { code: "SE5", text: "Her limited resources get carefully rationed by the self-preservation Five, who also avoids unpleasant doctor visits as long as there's no acute complaint. This avoidance can cause a symptom-free glaucoma to go undetected for a long time." },
+        { code: "SO5", text: "Her expertise often gets focused by the social Five so consistently on one narrow field that her own preventive care slips out of view. This narrowly held focus can symbolically mirror itself in a narrowed visual field." },
+        { code: "SX5", text: "In her one deep bond, the sexual Five opens up to care and regular check-ups too, rather than withdrawing purely into herself. This openness can help her recognize a gradually progressing illness earlier than other Five variants." },
+      ]},
+      { typ: 6, titel: "A gaze constantly scanning for danger", varianten: [
+        { code: "SE6", text: "Her surroundings get scanned constantly for possible dangers by the self-preservation Six, her nervous system barely ever relaxing in the process. This permanently tense state of alertness can transfer onto an organ that itself regulates internal pressure." },
+        { code: "SO6", text: "The social Six orients toward reliable authorities to find safety within the collective – an adaptation that readily puts off her own check-up appointments as long as the group has nothing to say about it. This restraint can leave a creeping glaucoma undetected." },
+        { code: "SX6", text: "Bold, immediate action is what the sexual Six, the counter-type, sets against her fear, rather than endlessly running through risks in her head. This readiness to act can lead her to a check-up sooner than the brooding of other Six variants." },
+      ]},
+      { typ: 7, titel: "A gaze that avoids narrowing", varianten: [
+        { code: "SE7", text: "Keeping several pleasant options open matters more to the self-preservation Seven than dealing with an unpleasant diagnosis like an emerging glaucoma. This avoidance can mean the disease is only recognized late." },
+        { code: "SO7", text: "Her own needs often get subordinated by the social Seven, the counter-type, to those of the group, her own doctor's appointment easily slipping out of view in the process. This deferral can leave a creeping glaucoma undetected for years." },
+        { code: "SX7", text: "New stimulation gets resisted by the sexual Seven in favor of a single intense experience, onto which she bundles her attention. This capacity for focus can also help her take a necessary check-up more seriously than other Seven variants." },
+      ]},
+      { typ: 8, titel: "A gaze that must not show weakness", varianten: [
+        { code: "SE8", text: "Her resources get watched over by the self-preservation Eight with great control, a routine eye check without an acute reason readily counting to her as superfluous. This avoidance can hide a symptom-free, progressing glaucoma for a long time." },
+        { code: "SO8", text: "A strong, watchful position for her group is what the social Eight consistently holds, a restricted field of vision fitting only poorly into this self-image. Once the diagnosis becomes visible, it can hit her role as a reliable protector especially hard." },
+        { code: "SX8", text: "Vulnerability gets allowed by the sexual Eight only with the one person she trusts, rather than maintaining control at all times. This protected space can move her toward regular check-ups more than the permanent pressure to control of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A gaze that comes last for herself", varianten: [
+        { code: "SE9", text: "Unpleasant doctor visits gladly get pushed aside by the self-preservation Nine, so as not to jeopardize her everyday comfort. A symptom-free, progressing glaucoma can stay unnoticed for a particularly long time this way, before the visual field loss becomes impossible to overlook." },
+        { code: "SO9", text: "Her own preventive care usually gets set aside by the social Nine within the group to preserve harmony – even when it concerns her own eye health. This constant deferral can mean a glaucoma is only discovered late." },
+        { code: "SX9", text: "Her gaze often gets directed by the sexual Nine, in merging with her partner, more toward his condition than her own. Her own changes in vision can stay in the background for a particularly long time as a result, until they push themselves unmistakably into the foreground." },
+      ]},
+    ],
+    abschluss: "No one is safe from glaucoma, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with inner pressure and its own foresight in its own distinct way – some through control, others through care, withdrawal, or a bodily warning signal long overridden. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
+  endometriose: {
+    titel: "Endometriosis",
+    kategorie: "sonstige",
+    icon: "🌷",
+    kurz: "A chronic inflammatory disease in which tissue resembling the uterine lining grows outside the uterus, often causing severe, recurring pain for years before a diagnosis is even made.",
+    definition: "Endometriosis is a chronic, benign, but often very distressing disease in which tissue resembling the uterine lining grows outside the uterine cavity – for instance on the ovaries, fallopian tubes, peritoneum, or more rarely on other organs. This tissue responds to the monthly hormonal cycle just like the uterine lining itself, but unlike it cannot drain through the vagina, which leads to inflammatory reactions, scarring, and adhesions. Those affected very often experience severe menstrual pain, chronic pelvic pain, and fertility problems. A particularly serious and well-documented problem is the diagnostic delay: on average, several years pass – studies frequently cite six to ten years – between the first symptoms and a confirmed diagnosis, because menstrual pain is often trivialized within the healthcare system for a long time. This delay is not the fault of those affected, but of a structural underestimation of the condition that is by now widely recognized as a problem.",
+    symptome: ["Severe, often worsening menstrual pain that goes far beyond normal period discomfort", "Chronic pelvic or back pain also outside the period", "Pain during intercourse", "Pain during urination or bowel movements, especially during menstruation", "Unfulfilled desire to have children due to reduced fertility", "Heavy, irregular bleeding", "Chronic exhaustion from sustained pain and inflammation"],
+    notfall: "For sudden, very severe pelvic pain with circulatory instability, seek prompt medical evaluation to rule out acute causes such as a ruptured cyst. For persistent severe menstrual pain, always seek early gynecological evaluation rather than accepting it as normal.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner. These interpretive offerings are explicitly not a suggestion that the real, often very severe pain of endometriosis is ›only‹ psychologically caused or would disappear through inner work alone – the physical illness is real, must be taken seriously, and belongs in medical and, where necessary, surgical treatment.",
+    einleitung: "Endometriosis is first and foremost a real, often long-underestimated physical illness whose pain is not imagined and not ›just in the head‹ – stating this up front matters more here than any interpretation. In TCM, a pattern involving a disrupted cycle, pain, and adhesions is often linked to a stagnation of Qi and Blood in the lower abdomen, often in conjunction with liver Qi stagnation. Psychosomatically – without downplaying the physical severity – one can additionally ask what pattern shows itself when a person's own body sends recurring, unmistakable pain signals for years while those around her fail to take it seriously for a long time. Each of the 27 subtypes shows its own pattern of how it deals with a pain that is long underestimated but very real.",
+    typen: [
+      { typ: 1, titel: "A pain endured with composure", varianten: [
+        { code: "SE1", text: "Her complaints get pushed through daily life with iron discipline by the self-preservation One, taking a break because of pain quickly feeling to her like her own failure. This sustained self-discipline can contribute to endometriosis going untreated for a particularly long time, because pain is regarded as something one simply has to bear." },
+        { code: "SO1", text: "Her duties keep getting reliably fulfilled by the social One even under severe pain, visible complaining not fitting her self-image as a reliable, controlled person. This quiet self-denial can prevent her from seeking medical help early." },
+        { code: "SX1", text: "Her anger at pain not being taken seriously gets shown immediately and directly by the sexual One, rather than silently accepted like other One variants. This more direct discharge can help her insist on a thorough evaluation instead of being put off for years." },
+      ]},
+      { typ: 2, titel: "A pain that vanishes behind caregiving", varianten: [
+        { code: "SE2", text: "Practical help still gets provided by the self-preservation Two even once her own pelvic pain is already clearly noticeable – asking for consideration for herself is especially hard for her. This deferral of her own complaints can delay a necessary diagnostic workup for years." },
+        { code: "SO2", text: "Being available for many people at once stays important to the social Two, even when her own body has long been struggling under severe pain for attention. This ongoing deferral of her own distress can mean her complaints are only taken seriously late – including by herself." },
+        { code: "SX2", text: "Showing her own pain openly is something the sexual Two manages, at least in the one important relationship, rather than hiding it behind caring for others. This permission to be cared for herself can help her seek medical help earlier than other Two variants." },
+      ]},
+      { typ: 3, titel: "A pain that contradicts functioning", varianten: [
+        { code: "SE3", text: "Despite severe pain, the self-preservation Three keeps working efficiently, a sick day not fitting into her tightly scheduled routine. This systematic pushing-through can postpone a necessary gynecological evaluation for years." },
+        { code: "SO3", text: "Her high-performing public image keeps getting maintained by the social Three even when menstrual pain would actually force her to rest – visibly admitting pain contradicts this image. This denial can contribute to the condition staying unrecognized for a long time." },
+        { code: "SX3", text: "Appearing with real pain is allowed for the sexual Three, at least in front of the one important person, rather than appearing flawless at all times. This protected space can help her take her complaints seriously, instead of hiding them behind the sustained facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "A pain that becomes her own truth", varianten: [
+        { code: "SE4", text: "Her suffering gets carried through daily life stubbornly and almost wordlessly by the self-preservation Four, the counter-type, without making it visible outwardly. This quiet endurance can prevent her real, often considerable pain from even being noticed and taken seriously by those around her." },
+        { code: "SO4", text: "Feeling different and misunderstood is something the social Four often experiences even independent of physical illness. A real pain unrecognized for years can painfully confirm this deeply rooted feeling of not being seen." },
+        { code: "SX4", text: "Her intensity and her pain get shown immediately by the sexual Four in the encounter, rather than concealed. This open expression can help her complaints get taken seriously by those around her more than with the stronger introspection of other Four variants." },
+      ]},
+      { typ: 5, titel: "A pain declared a private matter", varianten: [
+        { code: "SE5", text: "Her complaints get kept to herself for a long time by the self-preservation Five, a doctor's visit meaning extra energy expenditure and unwanted closeness to her. This restraint can contribute to endometriosis staying undetected for a particularly long time." },
+        { code: "SO5", text: "Her knowledge about her own body often gets thoroughly researched by the social Five from books and studies, before she even confides in a doctor. This cautious, information-driven approach can delay the diagnosis on one hand, but also lead to a very well-informed self-advocacy within the healthcare system on the other." },
+        { code: "SX5", text: "Real closeness, including openly showing pain, gets allowed by the sexual Five within her one deep bond, rather than withdrawing purely into herself. This emotional balance can help her seek support earlier than other Five variants." },
+      ]},
+      { typ: 6, titel: "A pain that calls safety into question", varianten: [
+        { code: "SE6", text: "Precautions against every conceivable danger get taken in advance by the self-preservation Six, a pain whose cause stays unclear for years fundamentally escaping this strategy of securing herself and potentially fueling her underlying primal fear especially strongly." },
+        { code: "SO6", text: "The social Six orients toward medical authorities to find safety – if her pain gets trivialized by exactly these authorities for years, it can deeply shake her basic trust." },
+        { code: "SX6", text: "With immediate action, the sexual Six, the counter-type, responds to fear, rather than endlessly running through risks in her head. This readiness to act can bring her to insist on a second or third medical opinion more than the brooding of other Six variants." },
+      ]},
+      { typ: 7, titel: "A pain that breaks through the lightness", varianten: [
+        { code: "SE7", text: "Keeping several pleasant options open secures the self-preservation Seven's mobility in daily life. A pain that restricts this mobility month after month fundamentally contradicts this basic strategy and often gets suppressed for a particularly long time before it is acknowledged." },
+        { code: "SO7", text: "Her own complaints often get subordinated by the social Seven, the counter-type, to the group's expectations, rather than taking them seriously herself. This glossing-over of her own pain can delay a necessary diagnostic workup for years." },
+        { code: "SX7", text: "Rather than constantly seeking new distraction, the sexual Seven is genuinely able to concentrate on a single intense experience. This capacity for focus can help her consistently pursue a thorough evaluation despite the pain, instead of pushing it away like other Seven variants." },
+      ]},
+      { typ: 8, titel: "A pain that must not be admitted", varianten: [
+        { code: "SE8", text: "Her physical limits get watched over by the self-preservation Eight with great vigilance, admitting pain readily counting to her as weakness. This denial can mean she only seeks medical help once the disease is quite advanced." },
+        { code: "SO8", text: "The strong, protective position gets consistently held up by the social Eight for her group, visibly showing monthly recurring pain rarely being an option. This sustained facade can prevent those around her from even noticing how severe her suffering actually is." },
+        { code: "SX8", text: "With her vulnerability, the sexual Eight opens up at least to the one person she trusts, rather than constantly asserting strength. This protected space can help her accept support, where other Eight variants tend to stay alone with the pain." },
+      ]},
+      { typ: 9, titel: "A pain overridden until it no longer can be", varianten: [
+        { code: "SE9", text: "Uncomfortable bodily signals gladly get pushed aside by the self-preservation Nine, so as not to jeopardize her everyday comfort. A pain that grows over years but begins diffusely can stay unnoticed for a particularly long time this way, before it can no longer be overridden." },
+        { code: "SO9", text: "Her own position usually gets set aside by the social Nine within the group to preserve harmony – even when it concerns her own, very real health struggles. This deferral can contribute to her pain not being taken seriously enough for years, including by herself." },
+        { code: "SX9", text: "His condition often gets perceived more intensely by the sexual Nine than her own, once she merges with her partner. Her own, very real pain can stay in the background for a particularly long time as a result, until it pushes itself unmistakably into the foreground." },
+      ]},
+    ],
+    abschluss: "No one is safe from endometriosis, regardless of subtype, and no pattern is a verdict or an explanation for the real pain this disease causes. What emerges is simply that each of the 27 subtypes deals with a pain underestimated for years in its own distinct way – some through pushing through, others through caregiving, withdrawal, or a bodily warning signal long overridden. This is exactly where this compass's Enneagram homeopathy adds to, rather than replaces, necessary medical treatment: not as a substitute for medical and, where necessary, surgical therapy, but as an additional perspective on the vital force of the respective subtype that has fallen out of balance."
+  },
+  blasenschwaeche_inkontinenz: {
+    titel: "Bladder Weakness / Incontinence",
+    kategorie: "sonstige",
+    icon: "🚿",
+    kurz: "An involuntary loss of control over the bladder that occurs far more often than it is openly talked about – from slight leaking when coughing to a complete loss of control.",
+    definition: "Urinary incontinence refers to any involuntary loss of urine. Several forms are distinguished: stress incontinence shows up during physical exertion, coughing, sneezing, or laughing and usually results from a weakened pelvic floor, often after childbirth or during menopause due to hormonal changes. Urge incontinence comes with a sudden, barely suppressible urge to urinate, often caused by an overactive bladder. Other causes can include neurological diseases, prostate conditions in men, certain surgeries, or age-related tissue changes. Incontinence is not rare and not a sign of personal failure – estimates suggest millions of people of all ages are affected, with a considerable share of cases, out of shame, never medically evaluated at all, even though good treatment options exist, ranging from pelvic floor training to medication to surgical procedures.",
+    symptome: ["Involuntary loss of urine when coughing, sneezing, laughing, or during physical exertion", "Sudden, barely controllable urge to urinate", "Frequent nighttime urination", "Feeling of never being able to fully empty the bladder", "Difficulty reaching the toilet in time", "Skin irritation in the intimate area from ongoing moisture", "Social withdrawal out of worry about visible accidents"],
+    notfall: "For sudden-onset incontinence combined with numbness, signs of paralysis, or severe back pain, seek prompt medical evaluation – possible sign of a neurological emergency.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner. Incontinence is a physical functional disorder, not a reason for shame.",
+    einleitung: "Staying in control of one's own bladder is taken for granted in everyday life – until it is involuntarily lost, touching a piece of self-determination that many people otherwise never question. In TCM, bladder function is closely linked to kidney Qi, which naturally declines with age or after great exhaustion, and whose weakness can, among other things, show up as diminishing control over elimination. Psychosomatically, incontinence often reads as an image of having to let go without having chosen to – a loss of control over a bodily function that, for many people, is closely tied to dignity and self-determination. Each of the 27 subtypes shows its own pattern of how it deals with this involuntary loss of control – without shame ever being warranted here.",
+    typen: [
+      { typ: 1, titel: "A loss of control hard to admit", varianten: [
+        { code: "SE1", text: "Her bodily functions get watched over by the self-preservation One with great discipline, any lapse otherwise getting corrected. A loss of control that cannot be willed away can confront her especially harshly with her own high standards – what matters here is admitting this upheaval without self-reproach." },
+        { code: "SO1", text: "As a reliable role model, the social One wants to function without her control over herself ever being in question. An involuntary loss of urine in a public situation can hit her especially hard because of this – here too it holds true: this is a physical functional disorder, not a personal failure." },
+        { code: "SX1", text: "Her tension gets discharged immediately in the moment by the sexual One, rather than controlled permanently. This more direct emotional discharge can help her speak more openly about an existing bladder weakness, instead of hiding it as long as possible like other One variants." },
+      ]},
+      { typ: 2, titel: "A loss of control that calls the giver role into question", varianten: [
+        { code: "SE2", text: "Accepting help herself is harder for the self-preservation Two than providing it, neediness in herself barely getting allowed. Suddenly depending on aids or support herself contradicts this deeply rooted role and requires especially much self-compassion." },
+        { code: "SO2", text: "Staying available for many people at once has mattered to the social Two for years, her own bodily reliability never having been in question in the process. A bladder weakness that can unpredictably interrupt this reliability hits her self-understanding especially sensitively." },
+        { code: "SX2", text: "Showing herself even with a physical limitation is allowed for the sexual Two, at least in front of the one important person, rather than concealing it. This openness can ease dealing with an existing incontinence compared with the pure facade of other Two variants." },
+      ]},
+      { typ: 3, titel: "A loss of control that breaks through the facade", varianten: [
+        { code: "SE3", text: "Efficient and functional is how the self-preservation Three wants to get through every day, unannounced interruptions not being part of her planning. A bladder weakness that fits into no schedule hits her at a sensitive point of her functioning." },
+        { code: "SO3", text: "Her flawless public image gets carefully maintained by the social Three, a visible limitation like incontinence fitting into it only with great difficulty. Precisely because of this, it is especially important for her to recognize: this physical functional disorder says nothing about her actual competence or worth." },
+        { code: "SX3", text: "Letting her facade drop is something the sexual Three can do, at least in front of the one important person, rather than maintaining it constantly. This protected space can help her deal more openly with an existing bladder weakness than with the sustained performance facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "A loss of control that brings additional vulnerability", varianten: [
+        { code: "SE4", text: "Stubbornly and wordlessly, the self-preservation Four, the counter-type, carries her discomfort through daily life, without staging it as a topic. A bladder weakness can make this quiet endurance additionally difficult, because it is hard to conceal." },
+        { code: "SO4", text: "Feeling different and vulnerable is something the social Four often experiences even without physical limitation. An incontinence that really does bring additional vulnerability can painfully confirm this deeply rooted feeling – what matters especially here is a good deal of self-compassion instead of shame." },
+        { code: "SX4", text: "Intensity gets sought by the sexual Four directly in the encounter, without defining herself through physical limitations. This outward-directed vitality can help her see a bladder weakness as one facet among many, rather than letting it become her central identity." },
+      ]},
+      { typ: 5, titel: "A loss of control that touches on autonomy", varianten: [
+        { code: "SE5", text: "Her independence gets carefully secured by the self-preservation Five, so as not to become dependent on anyone. An incontinence that independently decides over her ability to leave the house reaches directly into her central survival strategy." },
+        { code: "SO5", text: "Competence and overview matter to the social Five, in order to keep an acknowledged place within the group. A condition rarely spoken about openly can make her need for clear knowledge and exchange especially difficult – here it helps to take the conscious step of informing herself competently despite others' shame around the topic." },
+        { code: "SX5", text: "Closeness and vulnerability are genuinely allowed within her one deep bond for the sexual Five, rather than withdrawing purely into herself. This willingness can help her speak openly about a bladder weakness, where other Five variants tend to keep it quiet for a long time." },
+      ]},
+      { typ: 6, titel: "A loss of control that creates new insecurity", varianten: [
+        { code: "SE6", text: "For every conceivable emergency, the self-preservation Six takes precautions in advance to create safety. An incontinence that cannot be fully planned for in advance can undermine this strategy of securing herself and additionally fuel her underlying primal fear." },
+        { code: "SO6", text: "Safety within the collective comes from reliable group structures for the social Six. The worry of having a visible accident in company can increasingly withdraw her from exactly those social situations that actually give her support." },
+        { code: "SX6", text: "Fear gets met by the sexual Six, the counter-type, with courageous, immediate action rather than endlessly running through risks in her head. This readiness to act can lead her to openly seek medical help and pelvic floor training more than the worry-circling of other Six variants." },
+      ]},
+      { typ: 7, titel: "A loss of control that restricts mobility", varianten: [
+        { code: "SE7", text: "Her mobility in daily life gets secured by the self-preservation Seven through several options kept open. An incontinence that suddenly makes spontaneous outings harder fundamentally contradicts this basic strategy and can be especially hard to accept." },
+        { code: "SO7", text: "Her own limits often get subordinated by the social Seven, the counter-type, to the group's expectations, rather than being noticed by herself. A bladder weakness that stays invisible from outside but demands constant consideration can make her usual glossing-over of her own needs especially difficult." },
+        { code: "SX7", text: "Her attention rather gets bundled by the sexual Seven onto a single intense experience, instead of constantly seeking new options. This capacity for focus can help her adjust to a changed daily life with targeted exercises, instead of reflexively fending off every limitation like other Seven variants." },
+      ]},
+      { typ: 8, titel: "A loss of control experienced as weakness", varianten: [
+        { code: "SE8", text: "Her physical resources get watched over by the self-preservation Eight with great vigilance, any diminishing of control quickly counting to her as weakness. If her own body involuntarily escapes control, it can feel like an inner betrayal of her own strength – here too it holds true: not weakness, but a physical functional disorder." },
+        { code: "SO8", text: "Her protector role toward the group gets consistently held up by the social Eight, showing her own vulnerability rarely being an option. An incontinence that would need to be openly discussed can call this role into question in a way that is especially hard to bear." },
+        { code: "SX8", text: "Control doesn't have to be constantly maintained by the sexual Eight toward the one person she trusts – there, vulnerability is allowed to show too. This protected space for openness can ease dealing with a bladder weakness compared with the permanent pressure to control of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A loss of control long overridden", varianten: [
+        { code: "SE9", text: "Not rocking her comfortable routine matters more to the self-preservation Nine than addressing an uncomfortable bodily signal right away. Early, still mild signs of a bladder weakness can stay unnoticed for a particularly long time this way, before they intensify." },
+        { code: "SO9", text: "To preserve harmony within the group, the social Nine usually sets her own concerns aside – even when it concerns her own health. A necessary treatment for pelvic floor weakness can unconsciously get pushed back this way, until the symptoms themselves can no longer be overlooked." },
+        { code: "SX9", text: "His condition often gets perceived by the sexual Nine, in merging with her partner, more intensely than her own. Her own warning signs of an emerging bladder weakness can stay in the background for a particularly long time as a result, until they push themselves unmistakably into the foreground." },
+      ]},
+    ],
+    abschluss: "No one is safe from bladder weakness, regardless of subtype, and no pattern is a verdict – least of all a reason for shame. What emerges is simply that each of the 27 subtypes deals with involuntary loss of control in its own distinct way – some through discipline, others through caregiving, withdrawal, or a bodily warning signal long overridden. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
+  },
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
@@ -66787,7 +67259,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "nerven-psyche": [],
   "immunsystem": [],
   "onkologie": [],
-  "sonstige": ["Chronic Kidney Disease", "Erectile Dysfunction", "Infertility", "Periodontitis", "Chronic Bladder Infection (Cystitis)", "Glaucoma", "Endometriosis", "Urinary Incontinence"],
+  "sonstige": [],
 };
 
 function _psychosomatikBuecherHtml() {
