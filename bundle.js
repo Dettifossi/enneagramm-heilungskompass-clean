@@ -43418,7 +43418,7 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
     kernthema: "Verschmelzung mit einem einzelnen Wesen, Werk oder Stil statt Zugehörigkeit zu einer Gruppe",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Kris Marshall", "Ed Gein"],
     fingerabdruecke: [
       {
         titel: "Die eine Bindung statt der vielen Kontakte",
@@ -43428,7 +43428,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Scheinbare Trägheit, die sich bei Bedarf in volle, präzise Intensität verwandelt",
         beschreibung: "Von außen wirkt die Grundhaltung zurückhaltend, mühelos, fast unbeteiligt. Doch sobald der richtige Moment oder eine Grenzüberschreitung eintritt, zeigt sich eine überraschend vollständige, hochpräzise Reaktion – kein abgestuftes Engagement, sondern ein Umschlagen von Null auf Hundert.",
-        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹; Iga Świątek, die ›mühelos‹ wirkt, aber ›wenn sie zuschnappt, mit einer Präzision, die verblüfft‹; Keanu Reeves' Faultiere sind ›nicht faul – sie sind äußerst energiesparend, sie machen genau das, was nötig ist, mit einem Minimum an Aufwand und einem Maximum an Wirkung‹, sichtbar im Kontrast zwischen der ruhigen Privatperson und der körperlich vollständig ausgereizten John-Wick-Rolle; Lucy Cooke, deren humorvolle, forsche Lebendigkeit den trägen Ruf ihres Tieres mit sprühender intellektueller Begeisterung kontrastiert – ein Faultier, das keineswegs träge wirkt, sobald es das Wort ergreift."
+        beleg: "›Das Faultier hängt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles‹ (Makatsch); Dakota Johnsons ›Krallen, die man erst sieht, wenn man zu nahe kommt‹; Iga Świątek, die ›mühelos‹ wirkt, aber ›wenn sie zuschnappt, mit einer Präzision, die verblüfft‹; Keanu Reeves' Faultiere sind ›nicht faul – sie sind äußerst energiesparend, sie machen genau das, was nötig ist, mit einem Minimum an Aufwand und einem Maximum an Wirkung‹, sichtbar im Kontrast zwischen der ruhigen Privatperson und der körperlich vollständig ausgereizten John-Wick-Rolle; Lucy Cooke, deren humorvolle, forsche Lebendigkeit den trägen Ruf ihres Tieres mit sprühender intellektueller Begeisterung kontrastiert – ein Faultier, das keineswegs träge wirkt, sobald es das Wort ergreift; Kris Marshalls Humphrey Goodman, der über weite Strecken einer Episode ›schusselig, zerstreut, sozial unbeholfen‹ wirkt, bis er die Wahrheit erkannt hat – dann ›verändert sich sein Ton‹, und er ›konfrontiert den Täter direkt, unumwunden, ohne Umschweife‹."
       },
       {
         titel: "Langsame, unforcierte Ausdehnung über Jahrzehnte statt geplanter Karriereplanung",
