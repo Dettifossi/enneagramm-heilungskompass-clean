@@ -46531,7 +46531,7 @@ Bernie Madoff is assigned to the Self-Preservation Type 3 with Four-wing (SP3w4)
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro"><strong>a) Calm and Trust-Inducing:</strong>
 Madoff radiated no energy that overwhelmed or dazzled. He was no barker, no charlatan. He was calm, matter-of-fact, and competent. Precisely that was the trap: anyone making so little fuss must truly be secure. The SP3 countertype does not deceive through exaggeration—they deceive through understatement.</p>
         <p class="vb-intro"><strong>b) Exclusive and Selective:</strong>
@@ -47598,7 +47598,7 @@ function johnWayneGacyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro"><strong>a) Warm and Engaging:</strong> Contemporaries described Gacy as gregarious, charming, and attentive. He took time for people, remembered names, and asked about families. This is the Two on its social stage: genuine warmth cultivated as a perfected, habitual practice.</p>
         <p class="vb-intro"><strong>b) Orderly and Self-Satisfied:</strong> <strong>Gacy</strong> presented himself as a successful, orderly man — an entrepreneur, civic leader, and generous host. The Three-wing provides the Two with a façade of competence and control: anyone who organizes and gives so much stands above suspicion.</p>
         <p class="vb-intro"><strong>c) The Clown as Deliberate Role Amplification:</strong> The clown persona "Pogo" was no mere sideline — it was an instrument. As a clown, Gacy was grotesquely well-camouflaged: no one looks behind the mask of an entertainer. The Three-wing understands roles not as mere disguise, but as strategy.</p>
@@ -47962,7 +47962,7 @@ function busterMurdaughPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro"><strong>a) Reserved and Controlled:</strong> In public coverage, Buster appeared significantly more reserved than his father — granting rare interviews and avoiding grand public displays. This represents the Three-wing in a defensive posture: image management maintained through distance.</p>
         <p class="vb-intro"><strong>b) Loyal Outwardly, Opaque Inwardly:</strong> Buster stood by his father up until his conviction. While this loyalty was visible, its internal motive remained difficult to assess: was it genuine attachment or strategic self-preservation? The SP2w3 can embody both simultaneously.</p>
         <p class="vb-intro"><strong>c) Sympathetic-Defensive Under Pressure:</strong> In brief media appearances, Buster seemed measured yet injured — presenting as a victim of circumstances rather than an actor. This is a classic Two defensive strategy: deploying personal vulnerability as an armor.</p>
@@ -48411,7 +48411,7 @@ Anna Delvey is assigned to the Self-Preservation Two with Three-wing in the Enne
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro"><strong>a) Charismatic and strong in presence:</strong>
 Delvey immediately struck people who met her as someone who belonged. Confident, style-conscious, worldly. That is the Two with a Three-wing: She knows how she comes across – and uses that impact.</p>
         <p class="vb-intro"><strong>b) Engaging without revealing:</strong>
@@ -48661,7 +48661,7 @@ function michaelFranzesePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro">a) Charming and Down-to-Earth: Franzese never came across as cold or threatening — despite being one of the most powerful criminals of his era. The Two-wing infuses the Three with warmth and approachability. People in his presence felt comfortable, not intimidated.</p>
         <p class="vb-intro">b) Composed and Adaptable to Circumstances: Franzese switched effortlessly between street vernacular and the language of corporate business. He spoke with bankers like a financier, and with soldiers like a boss. The SP3 is a master of role adaptation: showing whichever face currently delivers success.</p>
         <p class="vb-intro">c) Winning Self-Confidence: Anyone meeting Franzese — then or now — describes him as someone who fills a room without forcing himself forward. That is the SP3w2 profile: radiating success without boasting about it. Success should speak for itself.</p>
@@ -48758,7 +48758,7 @@ function sebastianGreenwoodPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro">a) Warming and Inviting: Greenwood was known for instantly making people feel welcome. Anyone who spoke with him felt seen — often for the first time in a long while. That is the Self-Preservation Two: affection as a tool, warmth as an entry ticket.</p>
         <p class="vb-intro">b) Self-Confident to Radiant: The Three-wing gives Type Two a commanding public presence. Greenwood did not come across as a pushy salesperson, but as a visionary. His self-confidence was infectious — it transferred to his listeners and transformed skepticism into enthusiasm.</p>
         <p class="vb-intro">c) Controlled When Facing Criticism: Greenwood did not react to doubts defensively, but by reframing. He turned critical questions into invitations for further explanation. That is the SP2w3 pattern: redirection instead of confrontation, charm instead of defense.</p>

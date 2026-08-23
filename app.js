@@ -74845,7 +74845,7 @@ function bernieMadoffPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
         <p class="vb-intro"><strong>a) Ruhig und vertrauenerweckend:</strong>
         Madoff strahlte keine Energie aus, die \xfcberw\xe4ltigte oder blendete. Er war kein Marktschreier, kein Blender. Er war ruhig, sachlich, kompetent. Genau das war die Falle: Wer so wenig Aufhebens um sich macht, muss wirklich sicher sein. Der SE3-Kontratyp t\xe4uscht nicht durch \xdcbertreibung \u2013 er t\xe4uscht durch <em>Understatement</em>.</p>
         <p class="vb-intro"><strong>b) Exklusiv und ausw\xe4hlend:</strong>
@@ -77410,7 +77410,7 @@ function johnWayneGacyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
         <p class="vb-intro"><strong>a) Warm und einnehmend:</strong>
         Zeitgenossen beschrieben Gacy als gesellig, charmant und zuvorkommend.
         Er nahm sich Zeit f\xfcr Menschen, kannte Namen, fragte nach Familien.
@@ -78015,7 +78015,7 @@ function busterMurdaughPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
         <p class="vb-intro"><strong>a) Zur\xfcckhaltend und kontrolliert:</strong>
         Buster trat in der \xf6ffentlichen Berichterstattung
         deutlich zur\xfckhaltender auf als sein Vater \u2013
@@ -78981,7 +78981,7 @@ function annaDelveyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
         <p class="vb-intro"><strong>a) Charismatisch und pr\xe4senz-stark:</strong>
         <strong>Delvey</strong> wirkte auf Menschen, die ihr begegneten,
         sofort wie jemand, der geh\xf6rt. Selbstsicher, stilbewusst,
@@ -79487,7 +79487,7 @@ function michaelFranzesePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
         <p class="vb-intro"><strong>a) Charmant und bodenst\xe4ndig:</strong>
         <strong>Franzese</strong> wirkte nie kalt oder bedrohlich \u2013 obwohl er einer der
         m\u00e4chtigsten Kriminellen seiner Zeit war. Der Zweierfl\xfcgel verleiht der Drei
@@ -79691,7 +79691,7 @@ function sebastianGreenwoodPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
         <p class="vb-intro"><strong>a) W\xe4rmend und einladend:</strong>
         <strong>Greenwood</strong> war bekannt daf\xfcr, Menschen sofort das Gef\xfchl zu geben,
         willkommen zu sein. Wer mit ihm sprach, f\xfchlte sich gesehen \u2013 oft das erste
