@@ -103213,7 +103213,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Verstehen, was in der Leber vorgeht", varianten: [
         { code: "SO5", text: "In Fachforen oder mit anderen Betroffenen tauscht sich die soziale Fünf lieber über Leberwerte, Embolisationsverfahren und Studienlage aus, als das eigene emotionale Erleben der Diagnose in den Vordergrund zu stellen." },
         { code: "SE5", text: "Bevor sie sich auf eine Behandlungsentscheidung wie eine mögliche Transplantation einlässt, verschafft sich die selbsterhaltende Fünf meist einen genauen Überblick über Wartelisten, Erfolgsaussichten und Alternativen." },
-        { code: "SX5", text: "Auch die Angst vor dem Fortschreiten der Erkrankung öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+        { code: "SX5", text: "Fachwissen über die Erkrankung anzuhäufen ist für die sexuelle Fünf der naheliegendste Weg, mit der Angst vor dem Fortschreiten umzugehen – die eigentliche emotionale Wucht davon zeigt sie fast ausschließlich in ihrer einen tiefen Verbindung." },
       ]},
       { typ: 6, titel: "Vertrauen in unsicherem Terrain", varianten: [
         { code: "SO6", text: "Mehrere ärztliche Meinungen und den Rat von Selbsthilfegruppen holt sich die soziale Sechs häufig ein, bevor sie einer Therapieentscheidung wie einer Transplantationslistung vertraut – allein reicht ihr die Entscheidung nicht." },
@@ -103228,7 +103228,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Die Kontrolle über den eigenen Körper zurückfordern", varianten: [
         { code: "SE8", text: "Über Ernährung, Alkoholverzicht und Behandlungsplan will die selbsterhaltende Acht die Entscheidungshoheit behalten und reagiert gereizt, wenn Ärzte Anweisungen geben, statt sie in Optionen zu erklären." },
         { code: "SO8", text: "Vor ihrer Familie tritt die soziale Acht auch mit fortgeschrittener Lebererkrankung weiterhin als schützende, verlässliche Instanz auf, während sie eigene Erschöpfung und Sorge meist verschweigt." },
-        { code: "SX8", text: "Ihre Angst um den eigenen Körper und die Prognose öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+        { code: "SX8", text: "Die Kontrolle über den eigenen Körper, sonst ihr zentraler Halt, gibt die sexuelle Acht bei dieser Diagnose notgedrungen teilweise ab – wie sehr sie das erschüttert, verrät sie höchstens der einen Person, deren Loyalität sie über Jahre geprüft hat." },
       ]},
       { typ: 9, titel: "Die eigene Stimme in der Behandlung finden", varianten: [
         { code: "SE9", text: "Erste Warnzeichen wie anhaltende Müdigkeit oder Appetitlosigkeit blendet die selbsterhaltende Neun im gewohnten Alltag oft lange aus, bis ein deutlicher ärztlicher Befund sie zur Auseinandersetzung zwingt." },
@@ -103272,7 +103272,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Verstehen als Weg durch die Scham", varianten: [
         { code: "SE5", text: "Welche Formen der Harnableitung infrage kommen und wie alltagstauglich sie sind, klärt die selbsterhaltende Fünf für sich, bevor sie sich auf ein Gespräch über eine mögliche Blasenentfernung einlässt." },
         { code: "SO5", text: "In fachlich orientierten Kreisen tauscht sich die soziale Fünf lieber über medizinische Details der Behandlung aus, das persönliche Schamgefühl rund um die veränderte Körperfunktion bleibt dabei meist unausgesprochen." },
-        { code: "SX5", text: "Auch das für sie zunächst beschämende Thema der veränderten Harnableitung öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt es wie andere Fünfer-Varianten rein sachlich abzuhandeln." },
+        { code: "SX5", text: "Über die veränderte Harnableitung informiert sich die sexuelle Fünf zunächst rein sachlich, fast wie über ein technisches Problem – erst in ihrer einen tiefen Verbindung lässt sie zu, dass sie das auch beschämt." },
       ]},
       { typ: 6, titel: "Sicherheit in wiederkehrenden Kontrollen", varianten: [
         { code: "SO6", text: "Eine zweite ärztliche Meinung und den Austausch mit anderen Betroffenen sucht die soziale Sechs, bevor sie einer Therapieempfehlung wie einer Instillationsbehandlung vertraut." },
@@ -103287,7 +103287,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Die Kontrolle über den eigenen Körper behaupten", varianten: [
         { code: "SE8", text: "Über die Wahl der Harnableitung will die selbsterhaltende Acht mitbestimmen und stellt Ärzten kritische Nachfragen, weil Fremdbestimmung über eine so intime Körperfunktion für sie kaum erträglich ist." },
         { code: "SO8", text: "Als starke, verlässliche Instanz will die soziale Acht auch nach der Operation vor ihrer Familie erscheinen, während sie Scham und Erschöpfung über die veränderte Körperfunktion meist verschweigt." },
-        { code: "SX8", text: "Ihre Verunsicherung über den veränderten Körper öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+        { code: "SX8", text: "Über den veränderten Körper der Partnerin oder des Partners wacht die sexuelle Acht fast so genau wie über den eigenen – bei der eigenen Diagnose kehrt sich dieses Verhältnis für sie unangenehm um, und genau das macht sie selten offen zum Thema." },
       ]},
       { typ: 9, titel: "Die eigene Stimme trotz Scham finden", varianten: [
         { code: "SE9", text: "Schmerzloses Blut im Urin schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine oft zunächst beiseite, bis ein deutliches ärztliches Gespräch sie zur bewussten Auseinandersetzung zwingt." },
@@ -103331,7 +103331,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Wissen gegen die späte Diagnose", varianten: [
         { code: "SE5", text: "Vor dem ersten Gespräch mit der Onkologin recherchiert die selbsterhaltende Fünf meist ausführlich Stadium, Chemotherapieprotokoll und BRCA-Testung, um selbst genug Wissen zu haben, bevor sie sich in fremde Hände begibt." },
         { code: "SO5", text: "Mit fachlich orientierten Bekannten oder in Foren bespricht die soziale Fünf lieber medizinische Details der Behandlung, das persönliche emotionale Erleben der Diagnose bleibt dabei meist unausgesprochen." },
-        { code: "SX5", text: "Auch die Trauer über einen möglichen Verlust der Fruchtbarkeit öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+        { code: "SX5", text: "Über den möglichen Verlust der Fruchtbarkeit denkt die sexuelle Fünf zunächst in Fakten und Optionen nach, nicht in Gefühlen – die eigentliche Trauer darüber erlaubt sie sich meist erst innerhalb ihrer einen tiefen Verbindung." },
       ]},
       { typ: 6, titel: "Zwischen ärztlichem Rat und eigener Sorge", varianten: [
         { code: "SO6", text: "Bevor sie einer Therapieentscheidung wie einer erweiterten Operation vertraut, sucht die soziale Sechs intensiv Rat bei mehreren Ärzten und in Selbsthilfegruppen – allein zu entscheiden fühlt sich für sie unsicher an." },
@@ -103346,7 +103346,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Entscheidungshoheit über den eigenen Körper", varianten: [
         { code: "SE8", text: "Über Operationsumfang und Chemotherapieplan will die selbsterhaltende Acht mitentscheiden und stellt Ärzten kritische Nachfragen, weil Fremdbestimmung über den eigenen Körper für sie kaum erträglich ist." },
         { code: "SO8", text: "Ihre gewohnte Rolle als starke, verlässliche Instanz behält die soziale Acht auch während der Chemotherapie vor der Familie bei, ihre eigene Erschöpfung bleibt dabei meist unausgesprochen." },
-        { code: "SX8", text: "Ihre Angst vor dem Fortschreiten der Erkrankung öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+        { code: "SX8", text: "Macht und Nähe verhandelt die sexuelle Acht in ihrer einen intensiven Bindung oft körperlich statt in Worten – die Angst vor dem Fortschreiten der Erkrankung verändert dieses stille Kräftemessen, ohne dass sie das laut benennen würde." },
       ]},
       { typ: 9, titel: "Die eigene Stimme trotz später Diagnose", varianten: [
         { code: "SE9", text: "Blähungen und Völlegefühl schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine oft lange beiseite, bis ein deutlicher ärztlicher Befund sie zur bewussten Auseinandersetzung zwingt." },
@@ -103390,7 +103390,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Wissen als Gegengewicht zur Scham", varianten: [
         { code: "SE5", text: "HPV-Biologie, Stadium und Behandlungsoptionen verschafft sich die selbsterhaltende Fünf einen genauen Überblick, bevor sie sich auf ein Gespräch über Operation oder Strahlentherapie einlässt." },
         { code: "SO5", text: "Sachlich und mit medizinischem Vokabular erklärt die soziale Fünf ihrem Umfeld die HPV-bedingte Entstehung der Erkrankung, das eigene emotionale Erleben bleibt dabei meist unausgesprochen." },
-        { code: "SX5", text: "Auch die Sorge um Fruchtbarkeit und Sexualität öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+        { code: "SX5", text: "Fruchtbarkeit und Sexualität sind für die sexuelle Fünf ohnehin Themen, über die sie selten spricht – eine Diagnose, die genau das berührt, kann diese Zurückhaltung noch verstärken, außer gegenüber der einen Person, der sie sich wirklich öffnet." },
       ]},
       { typ: 6, titel: "Sicherheit durch Vorsorge und Rat", varianten: [
         { code: "SE6", text: "Regelmäßige Kontrollabstriche und Nachsorgetermine nimmt die selbsterhaltende Sechs meist gewissenhaft wahr, jeder Termin löst bei ihr dennoch neue Sorge vor einem Fortschreiten aus." },
@@ -103405,7 +103405,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Die Hoheit über den eigenen Körper", varianten: [
         { code: "SE8", text: "Über Operationsumfang und mögliche Erhaltung der Gebärmutter will die selbsterhaltende Acht mitentscheiden und stellt Ärzten kritische Nachfragen, weil Fremdbestimmung über den eigenen Körper für sie kaum erträglich ist." },
         { code: "SO8", text: "Ihre Rolle als starke, verlässliche Instanz gibt die soziale Acht auch während der Behandlung vor der Familie nicht auf, ihre eigene Sorge um Fruchtbarkeit und Prognose bleibt dabei meist unausgesprochen." },
-        { code: "SX8", text: "Ihre Angst vor dem Verlust der Fruchtbarkeit öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+        { code: "SX8", text: "Besitz und Bindung sind für die sexuelle Acht in der einen wichtigen Beziehung eng verknüpft – die Angst, durch den möglichen Verlust der Fruchtbarkeit für den Partner weniger begehrenswert zu wirken, bleibt meist ihr eigenes, unausgesprochenes Ringen." },
       ]},
       { typ: 9, titel: "Die eigene Stimme trotz Scham finden", varianten: [
         { code: "SE9", text: "Ungewöhnliche Blutungen schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine oft zunächst beiseite, bis ein deutlicher ärztlicher Befund sie zur bewussten Auseinandersetzung zwingt." },
@@ -103429,7 +103429,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Struktur in einer unübersichtlichen Diagnose", varianten: [
         { code: "SO1", text: "Bevor sie ihrem Umfeld die verwirrende Vielfalt an Lymphomtypen erklärt, will sich die soziale Eins selbst ein vollständiges, korrektes Bild von Subtyp und Stadium verschafft haben, um nicht mit Halbwissen zu verunsichern." },
         { code: "SE1", text: "Den genauen Behandlungsplan aus Chemotherapiezyklen und Kontrollterminen hält die selbsterhaltende Eins gewissenhaft ein, während sie sich zugleich fragt, ob ein früherer Arztbesuch die Diagnose beschleunigt hätte." },
-        { code: "SX1", text: "Ihren Unmut über die lange Zeit zwischen ersten Symptomen und endgültiger Diagnose zeigt die sexuelle Eins offen und unmittelbar, statt ihn wie andere Einser-Varianten diszipliniert zu bündeln." },
+        { code: "SX1", text: "Ihren Unmut über die lange Zeit zwischen ersten Symptomen und endgültiger Diagnose zeigt die sexuelle Eins offen und unmittelbar, ohne ihn wie andere Einser-Varianten erst diszipliniert zu ordnen." },
       ]},
       { typ: 2, titel: "Fürsorge trotz Chemotherapie", varianten: [
         { code: "SE2", text: "Auch mit sinkender Kraft durch die Chemotherapie versucht die selbsterhaltende Zwei, kleine Aufgaben im Haushalt weiterzuführen, statt sich die notwendige Schonung tatsächlich zuzugestehen." },
@@ -103449,7 +103449,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ordnung im Wirrwarr der Lymphomtypen", varianten: [
         { code: "SE5", text: "Den eigenen Lymphomsubtyp und dessen spezifische Behandlungsoptionen erschließt sich die selbsterhaltende Fünf gründlich, um sich in der verwirrenden Vielfalt zurechtzufinden, bevor sie sich auf das erste Gespräch mit der Onkologin einlässt." },
         { code: "SO5", text: "Mit anderen Betroffenen oder in Fachforen tauscht sich die soziale Fünf lieber über Studienlage und Chemotherapieprotokolle aus, das eigene emotionale Erleben der Diagnose bleibt dabei meist unausgesprochen." },
-        { code: "SX5", text: "Auch die Angst vor dem Verlauf der Erkrankung öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+        { code: "SX5", text: "Den Verlauf der Erkrankung zu recherchieren gibt der sexuellen Fünf ein Gefühl von Kontrolle, das ihr sonst leicht fehlt – die tatsächliche Angst dahinter zeigt sie kaum jemandem außer der einen Person, die sie wirklich kennt." },
       ]},
       { typ: 6, titel: "Sicherheit zwischen Abwarten und Handeln", varianten: [
         { code: "SO6", text: "Eine zweite Meinung und den Rat einer Selbsthilfegruppe holt sich die soziale Sechs ein, bevor sie einer Empfehlung zum aufmerksamen Abwarten oder zur sofortigen Chemotherapie vertraut." },
@@ -103464,7 +103464,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Kontrolle über einen langwierigen Prozess", varianten: [
         { code: "SE8", text: "Über die Wahl zwischen Abwarten und aktiver Behandlung will die selbsterhaltende Acht mitentscheiden und stellt Ärzten kritische Nachfragen, weil Fremdbestimmung über einen so langwierigen Prozess für sie kaum erträglich ist." },
         { code: "SO8", text: "Vor ihrer Familie zeigt sich die soziale Acht auch während der Chemotherapie weiter als starke, verlässliche Instanz, ihre eigene Erschöpfung bleibt dabei meist unausgesprochen." },
-        { code: "SX8", text: "Gegenüber der einen Person, der sie vertraut, lässt die sexuelle Acht auch ihre Angst vor dem Fortschreiten der Erkrankung sichtbar werden, statt durchgehend Stärke zu demonstrieren." },
+        { code: "SX8", text: "Eifersüchtig wacht die sexuelle Acht sonst über jede Aufmerksamkeit, die ihre Bindung nach außen bedrohen könnte – bei einer fortschreitenden Erkrankung wie dieser richtet sich diese Wachsamkeit unerwartet gegen die eigene Sterblichkeit, was sie kaum in Worte fasst." },
       ]},
       { typ: 9, titel: "Die eigene Stimme im langwierigen Prozess", varianten: [
         { code: "SE9", text: "Geschwollene Lymphknoten oder anhaltende Müdigkeit blendet die selbsterhaltende Neun im gewohnten Alltag oft lange aus, bis ein deutlicher ärztlicher Befund sie zur Auseinandersetzung zwingt." },
@@ -103508,7 +103508,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Wissen, das Sicherheit verspricht", varianten: [
         { code: "SE5", text: "Ihr Wissen über Werte, Kohlenhydrate und Insulinwirkung baut die selbsterhaltende Fünf systematisch aus, um die eigene Autonomie trotz der Diagnose so weit wie möglich zu bewahren. Dieses Rückzugswissen kann Sicherheit geben, aber auch den emotionalen Austausch über die Belastung erschweren." },
         { code: "SO5", text: "Ihr Fachwissen über die eigene Erkrankung gibt die soziale Fünf bereitwillig an andere Betroffene weiter, während sie über die eigene emotionale Seite der Diagnose eher schweigt. Diese Trennung zwischen Wissen und Gefühl prägt ihren Umgang seit früher Jugend." },
-        { code: "SX5", text: "Der einen vertrauten Person zeigt die sexuelle Fünf durchaus, wie sehr sie ihre Diagnose manchmal erschöpft, statt sich hinter Fachwissen über Werte und Insulinarten zu verschanzen. Diese Offenheit hebt sich von der eher distanzierten Haltung anderer Fünfer-Varianten ab." },
+        { code: "SX5", text: "Fachwissen über Werte und Insulinarten anzuhäufen gibt der sexuellen Fünf das Gefühl, die Diagnose im Griff zu haben – wie erschöpfend das ständige Management tatsächlich ist, gesteht sie sich meist nur gegenüber der einen vertrauten Person ein." },
       ]},
       { typ: 6, titel: "Eine Wachsamkeit, die zur zweiten Haut wird", varianten: [
         { code: "SE6", text: "Ständig ihre Werte im Blick zu behalten, fällt der selbsterhaltenden Sechs oft leichter als anderen, weil Wachsamkeit ohnehin zu ihrem Grundmuster gehört – die Diagnose gibt dieser Wachsamkeit ein konkretes Ziel. Diese Sorgfalt kann jedoch in ständige Angst vor Entgleisung kippen." },
@@ -103523,7 +103523,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Krankheit, die nicht bestimmen darf", varianten: [
         { code: "SE8", text: "Ihre Diagnose behandelt die selbsterhaltende Acht wie ein weiteres Terrain, das kontrolliert und beherrscht werden muss, statt sich von ihr bestimmen zu lassen. Diese Willenskraft kann ein diszipliniertes Management fördern, aber auch nötige Unterstützung von außen zu lange verzögern." },
         { code: "SO8", text: "Auch mit einer Diagnose, die viel Selbstdisziplin verlangt, will die soziale Acht in ihrer Gruppe niemandem als geschwächt erscheinen und meldet schlechte Werte selten von sich aus. Dieses Verschweigen kann verhindern, dass rechtzeitig Hilfe gesucht wird, wenn das Management aus dem Ruder läuft." },
-        { code: "SX8", text: "Verletzlich im Umgang mit ihrer Erkrankung zeigt sich die sexuelle Acht nur bei der einen Person, der sie wirklich vertraut, statt durchgehend Stärke zu demonstrieren. Dieser geschützte Raum unterscheidet sich vom permanenten Kontrollanspruch anderer Achter-Varianten." },
+        { code: "SX8", text: "Die tägliche Insulinsteuerung behandelt die sexuelle Acht oft wie ein weiteres Terrain, das sie beherrschen muss, nicht wie eine Verletzlichkeit – gerade dieser Kampfgeist kann sie davon abhalten, rechtzeitig Unterstützung von der einen Person anzunehmen, der sie sich sonst durchaus anvertraut." },
       ]},
       { typ: 9, titel: "Eine Diagnose, die im Alltag untergeht", varianten: [
         { code: "SE9", text: "Ihre Routine mit Messen und Spritzen fügt die selbsterhaltende Neun sich so beiläufig wie möglich in den gewohnten Alltag ein, um die Diagnose nicht zu groß werden zu lassen. Diese Gewöhnung kann Sicherheit geben, aber auch dazu führen, dass Warnsignale erst spät bemerkt werden." },
@@ -103567,7 +103567,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Vorrat, der nie ausreichend erscheint", varianten: [
         { code: "SE5", text: "Wissen, Zeit und Energie hortet die selbsterhaltende Fünf systematisch, aus Angst, später nicht genug zu haben. Diese chronische Vorratshaltung kann sich stoffwechselseitig auf einer körperlichen Ebene als erhöhte Blutfettwerte spiegeln." },
         { code: "SO5", text: "Ihr angesammeltes Fachwissen gibt die soziale Fünf bereitwillig weiter, emotionale Nähe hält sie dabei aber auf sichere Distanz und sammelt eher innerlich als dass sie loslässt. Dieses Muster kann sich als schleichend erhöhtes Cholesterin zeigen." },
-        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung teilt die sexuelle Fünf ihre inneren Reserven durchaus mit einer vertrauten Person, statt sie nur zu horten. Diese Offenheit unterscheidet sich vom generellen Zurückhalten anderer Fünfer-Varianten." },
+        { code: "SX5", text: "Ihre eigenen Reserven an Kraft und Aufmerksamkeit teilt sich die sexuelle Fünf normalerweise sehr sparsam ein – erhöhte Blutfettwerte können sie dazu bringen, zumindest der einen vertrauten Person mehr von diesen Reserven zuzugestehen als sonst." },
       ]},
       { typ: 6, titel: "Eine Sorge, die sich Schicht für Schicht ablagert", varianten: [
         { code: "SE6", text: "Ihre Ängste bevorratet die selbsterhaltende Sechs regelrecht, indem sie für jedes denkbare Szenario vorsorgt, ohne die zugrundeliegende Anspannung je aufzulösen. Dieser chronische Sorgenvorrat zählt zu den bekannten Mitverursachern erhöhter Blutfettwerte." },
@@ -103582,7 +103582,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Reserve, die niemals aufgebraucht werden darf", varianten: [
         { code: "SE8", text: "Kraft und Ressourcen legt sich die selbsterhaltende Acht ständig als Reserve zurück, aus der Überzeugung, sich auf niemanden sonst verlassen zu können. Diese permanente Vorratshaltung kann sich stoffwechselseitig als erhöhte Blutfettwerte zeigen." },
         { code: "SO8", text: "Als Stütze für ihre Gruppe steht die soziale Acht auch dann noch bereit, wenn eigene Erschöpfung sich längst unbemerkt im Hintergrund angesammelt hat. Diese permanente Bereitschaftshaltung kann sich als schleichend erhöhtes Cholesterin zeigen." },
-        { code: "SX8", text: "Verletzlichkeit lässt die sexuelle Acht nur bei der einen Person zu, der sie vertraut, statt ständig Reserven aufzubauen. Dieser geschützte Raum kann die permanente Anspannung senken, die andere Achter-Varianten eher chronisch mit sich tragen." },
+        { code: "SX8", text: "Reserven aufzubauen und die eigene Stärke zu sichern treibt die sexuelle Acht auch bei erhöhten Blutfettwerten eher an als tatsächliche Sorge um die eigene Gesundheit – erst wenn die eine Person, der sie vertraut, hartnäckig nachfragt, lässt sie echte Beunruhigung erkennen." },
       ]},
       { typ: 9, titel: "Eine Trägheit, die sich körperlich niederschlägt", varianten: [
         { code: "SE9", text: "In gewohnter Routine und Komfort verharrt die selbsterhaltende Neun oft über Jahre, ohne Veränderung anzustoßen. Diese Bewegungsarmut und der Rückzug ins Bequeme können sich stoffwechselseitig als erhöhte Blutfettwerte zeigen." },
@@ -103626,7 +103626,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Rückzug, der auch den Arztbesuch meidet", varianten: [
         { code: "SE5", text: "Über körperliche Beschwerden wie einen schwächeren Harnstrahl schweigt die selbsterhaltende Fünf oft lange, um nicht auf fremde Hilfe angewiesen zu sein. Dieses Zurückhalten kann eine beginnende Prostatavergrößerung über Jahre unbehandelt lassen." },
         { code: "SO5", text: "Fachliches Wissen über die Erkrankung eignet sich die soziale Fünf gründlich an, den eigenen Arztbesuch schiebt sie dabei aber gerne auf. Diese Trennung zwischen Wissen und Handeln kann die Diagnose verzögern." },
-        { code: "SX5", text: "Mit der einen vertrauten Person bespricht die sexuelle Fünf auch intime körperliche Themen wie diese offen, statt sie zu verschweigen. Diese Offenheit unterscheidet sich vom generellen Zurückhalten anderer Fünfer-Varianten." },
+        { code: "SX5", text: "Intime körperliche Themen wie dieses hält die sexuelle Fünf normalerweise strikt privat, oft selbst vor sich selbst kaum ausgesprochen – nur mit der einen vertrauten Person lässt sich das offen besprechen." },
       ]},
       { typ: 6, titel: "Eine Sorge, die sich auf den Körper legt", varianten: [
         { code: "SE6", text: "Über Jahrzehnte angesammelte Wachsamkeit und Anspannung prägen den Körper der selbsterhaltenden Sechs auch im Alter noch spürbar. Dieser chronische Anspannungszustand kann sich als zunehmend eingeengter Harnfluss zeigen." },
@@ -103641,7 +103641,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Schwäche, die nicht zugegeben wird", varianten: [
         { code: "SE8", text: "Ein schwächerer Harnstrahl oder häufigerer nächtlicher Harndrang wird von der selbsterhaltenden Acht lange als lästige Nebensache abgetan, statt als ernstzunehmendes Signal. Diese Vermeidung kann eine BPH über längere Zeit unbehandelt lassen." },
         { code: "SO8", text: "Ein Eingeständnis körperlicher Einschränkung wie erschwertes Wasserlassen passt kaum zum Selbstbild der sozialen Acht, die für ihre Gruppe stets als unerschütterlich gelten will. Diese Fassade kann dazu führen, dass Behandlung erst spät gesucht wird." },
-        { code: "SX8", text: "Verletzlichkeit im Umgang mit körperlichen Alterserscheinungen lässt die sexuelle Acht nur bei der einen Person zu, der sie vertraut. Dieser geschützte Raum kann sie eher zu rechtzeitiger ärztlicher Abklärung bewegen als die durchgehende Härte anderer Achter-Varianten." },
+        { code: "SX8", text: "Nächtliche Toilettengänge und nachlassende Kraft beim Wasserlassen wertet die sexuelle Acht zunächst als Schwäche, die es zu überwinden statt zu behandeln gilt – nur im Gespräch mit der einen Person, die sie wirklich kennt, gibt sie zu, dass sie das wirklich beunruhigt." },
       ]},
       { typ: 9, titel: "Ein Signal, das im Alltag untergeht", varianten: [
         { code: "SE9", text: "Einen zunehmend schwächeren Harnstrahl nimmt die selbsterhaltende Neun oft erst spät als Problem wahr, so sehr gewöhnt sie sich an schleichende Veränderungen. Diese Gewöhnung kann eine BPH über Jahre unbemerkt lassen, bis die Einschränkung deutlich spürbar wird." },
@@ -103685,7 +103685,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Blick, der sich zurückzieht", varianten: [
         { code: "SE5", text: "Über nachlassende Sehkraft schweigt die selbsterhaltende Fünf oft lange, um nicht auf fremde Hilfe angewiesen zu sein. Dieses Zurückhalten kann einen Grauen Star über Jahre unbehandelt lassen." },
         { code: "SO5", text: "Fachliches Wissen über den Grauen Star eignet sich die soziale Fünf gründlich an, den eigenen Termin beim Augenarzt schiebt sie dabei aber gerne auf. Diese Trennung zwischen Wissen und Handeln kann die Behandlung verzögern." },
-        { code: "SX5", text: "Mit der einen vertrauten Person bespricht die sexuelle Fünf auch nachlassende Sehkraft offen, statt sie zu verschweigen. Diese Offenheit unterscheidet sich vom generellen Zurückhalten anderer Fünfer-Varianten." },
+        { code: "SX5", text: "Nachlassende Sehkraft beobachtet die sexuelle Fünf zunächst eher analytisch als besorgt – sich tatsächlich davon beunruhigen zu lassen, erlaubt sie sich meist erst im Gespräch mit der einen vertrauten Person." },
       ]},
       { typ: 6, titel: "Eine Vorsicht, die Vorsorge ernst nimmt", varianten: [
         { code: "SE6", text: "Über Jahrzehnte angesammelte Wachsamkeit hält die selbsterhaltende Sechs auch bei der eigenen Augengesundheit aufrecht, regelmäßige Kontrollen gehören für sie zur Routine. Diese Vorsorge kann einen Grauen Star frühzeitig erkennbar machen." },
@@ -103700,7 +103700,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Schwäche, die verborgen bleiben soll", varianten: [
         { code: "SE8", text: "Nachlassende Sehschärfe wird von der selbsterhaltenden Acht lange als lästige Nebensache abgetan, statt als ernstzunehmendes Signal. Diese Vermeidung kann einen Grauen Star über längere Zeit unbehandelt lassen." },
         { code: "SO8", text: "Als wachsame Beschützerin ihrer Gruppe will die soziale Acht wahrgenommen werden, eine getrübte eigene Sicht passt kaum zu diesem Selbstbild und wird deshalb kleingeredet. Diese Fassade kann dazu führen, dass die Operation erst spät angegangen wird." },
-        { code: "SX8", text: "Verletzlichkeit im Umgang mit nachlassender Sehkraft lässt die sexuelle Acht nur bei der einen Person zu, der sie vertraut. Dieser geschützte Raum kann sie eher zu rechtzeitiger Behandlung bewegen als die durchgehende Härte anderer Achter-Varianten." },
+        { code: "SX8", text: "Dass ihr Blick nicht mehr so scharf ist wie früher, verschweigt die sexuelle Acht lange selbst vor sich – Kontrolle über die eigene Wahrnehmung gehört zu ihrem Selbstbild. Erst die direkte Konfrontation durch die eine vertraute Person bringt sie dazu, das ernst zu nehmen." },
       ]},
       { typ: 9, titel: "Ein Schleier, der sich langsam einschleicht", varianten: [
         { code: "SE9", text: "Eine zunehmend unschärfere Sicht nimmt die selbsterhaltende Neun oft erst spät als Problem wahr, so sehr gewöhnt sie sich an schleichende Veränderungen. Diese Gewöhnung kann einen Grauen Star über Jahre unbemerkt lassen, bis die Trübung deutlich spürbar wird." },
@@ -103759,12 +103759,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Schwäche, die verborgen bleiben soll", varianten: [
         { code: "SE8", text: "Solange sie noch irgendwie zurechtkommt, redet sich die selbsterhaltende Acht ein verzerrtes Zentrum im Blickfeld klein, statt es als ernstzunehmendes Signal zu behandeln. Diese Verdrängung kann eine AMD über längere Zeit unbehandelt lassen." },
         { code: "SO8", text: "Als Anlaufstelle für die Probleme anderer sieht sich die soziale Acht auch dann noch, wenn ihr eigenes zentrales Sehen bereits spürbar nachlässt – ein Eingeständnis eigener Schwäche kommt ihr kaum in den Sinn." },
-        { code: "SX8", text: "Nur der einen Person, der sie wirklich vertraut, gesteht die sexuelle Acht ein, wie sehr sie das verzerrte Sehen im Alltag beunruhigt. Dieser geschützte Raum kann sie eher zu rechtzeitiger Behandlung bewegen als die durchgehende Härte anderer Achter-Varianten." },
+        { code: "SX8", text: "Verzerrtes Sehen erlebt die sexuelle Acht zunächst als Angriff auf ihre Souveränität im Alltag, den sie reflexhaft überspielt – ihre eigentliche Sorge zeigt sich erst, wenn die eine Person, die sie wirklich kennt, hartnäckig genug nachfragt." },
       ]},
       { typ: 9, titel: "Eine Mitte, die im Hintergrund verschwimmt", varianten: [
         { code: "SE9", text: "Eine zunehmend unschärfere Mitte des Blickfelds nimmt die selbsterhaltende Neun oft erst spät als Problem wahr, so sehr gewöhnt sie sich an schleichende Veränderungen. Diese Gewöhnung kann eine AMD über Jahre unbemerkt lassen, bis die Lücke im Zentrum deutlich spürbar wird." },
         { code: "SO9", text: "Um keine Umstände zu machen, verschweigt die soziale Neun in ihrer Gruppe gerne, dass Gesichter und Buchstaben ihr zunehmend unschärfer erscheinen. Diese stille Zurückhaltung kann dazu führen, dass eine AMD erst spät erkannt wird." },
-        { code: "SX9", text: "Erst wenn der Partner selbst bemerkt, wie sehr sie beim Lesen die Augen zusammenkneift, lässt sich die sexuelle Neun oft zu einem Augenarzttermin bewegen. Ohne diesen äußeren Anstoß können eigene Symptome besonders lange im Hintergrund bleiben." },
+        { code: "SX9", text: "Erst wenn der Partner selbst bemerkt, wie sehr sie beim Lesen die Augen zusammenkneift, lässt sich die sexuelle Neun oft zu einem Augenarzttermin bewegen – ihre eigene Wahrnehmung dafür bleibt sonst leicht im Hintergrund der gemeinsamen Verschmelzung." },
       ]},
     ],
     abschluss: "Vor einer altersbedingten Makuladegeneration ist im höheren Alter niemand gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit einem unschärfer werdenden eigenen Zentrum auf eigene Weise umgeht – manche über Verdrängung, andere über Fürsorge für andere, stille Anpassung oder ein lange übergangenes eigenes Warnsignal. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
@@ -103803,7 +103803,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Rückzug, der auch den Körper erfasst", varianten: [
         { code: "SE5", text: "Ihre Bedürfnisse reduziert die selbsterhaltende Fünf ohnehin konsequent auf das Nötigste, um mit begrenzten Ressourcen hauszuhalten – dieses Muster kann sich unmittelbar auf die Nahrungsaufnahme übertragen, bis der eigene Hunger kaum noch als solcher wahrgenommen wird." },
         { code: "SO5", text: "Über Wissen bleibt die soziale Fünf mit der Welt verbunden, und Ernährung kann für sie zu einem weiteren Gebiet werden, das sie akribisch analysiert und rational kontrolliert – bis die intellektuelle Beschäftigung mit Essen das eigentliche, körperliche Essen zunehmend verdrängt." },
-        { code: "SX5", text: "Emotional wirklich ein lässt sich die sexuelle Fünf nur in ihrer einen tiefen Verbindung, was sie verletzlicher macht als andere Fünfer-Varianten – gerade diese Verletzlichkeit kann sie über strikte Kontrolle des eigenen Körpers zu kompensieren versuchen." },
+        { code: "SX5", text: "Strikte Kontrolle über den eigenen Körper kann der sexuellen Fünf ein Gefühl von Sicherheit geben, das sie sich emotional sonst kaum erlaubt – echte Nähe lässt sie ohnehin nur innerhalb ihrer einen tiefen Verbindung zu, was diese Kompensation zusätzlich begünstigt." },
       ]},
       { typ: 6, titel: "Eine Sicherheit, die über Regeln gesucht wird", varianten: [
         { code: "SE6", text: "Feste Routinen geben der selbsterhaltenden Sechs Halt in einer als unsicher erlebten Welt, und ein streng geregeltes Essverhalten kann zu einer solchen Routine werden, die Sicherheit verspricht, wo eigentlich Angst regiert." },
@@ -103818,7 +103818,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle, die keine Schwäche zulässt", varianten: [
         { code: "SE8", text: "Über ihre eigene Versorgung wacht die selbsterhaltende Acht mit großer Härte, und diese Härte kann sich gegen den eigenen Körper richten, wenn Kontrolle über das Essen zum letzten Bereich wird, in dem Stärke unter Beweis gestellt werden kann." },
         { code: "SO8", text: "Auch dann noch stark bleibt die soziale Acht für ihre Gruppe, wenn eigene Erschöpfung längst spürbar ist – ein rigide kontrolliertes Essverhalten kann dabei als eine der wenigen Formen von Schwäche unbemerkt bleiben, die sie sich selbst gegenüber überhaupt zugesteht." },
-        { code: "SX8", text: "Verletzlichkeit lässt die sexuelle Acht durchaus zu, aber nur bei der einen Person, der sie vertraut – wird ein gestörtes Essverhalten dort erkannt und ernst genommen, kann das eher zu Hilfesuche führen als bei der durchgehenden Kontrolle anderer Achter-Varianten." },
+        { code: "SX8", text: "Kontrolle über den eigenen Körper ist für die sexuelle Acht ein zentrales Machtfeld – ein gestörtes Essverhalten wird deshalb selten als Problem, sondern eher als Disziplin gedeutet, bis die eine vertraute Person das Muster beim Namen nennt." },
       ]},
       { typ: 9, titel: "Ein Körper, der sich unsichtbar macht", varianten: [
         { code: "SE9", text: "In Gewohnheit und Rückzug verliert sich die selbsterhaltende Neun leicht, und ein eingeschränktes Essverhalten kann sich schleichend als eine weitere Gewohnheit einschleifen, die kaum noch hinterfragt wird, bis der eigene Zustand kaum noch wahrgenommen wird." },
@@ -103862,7 +103862,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Kontrollverlust in einer sonst kontrollierten Welt", varianten: [
         { code: "SE5", text: "Ihre Ressourcen teilt sich die selbsterhaltende Fünf normalerweise streng ein, auch beim Essen – bricht diese Kontrolle einmal, kann der nachfolgende Kontrollverlust besonders heftig ausfallen, gerade weil er so sehr von der sonstigen Zurückhaltung abweicht." },
         { code: "SO5", text: "Über rationales Wissen hält sich die soziale Fünf emotionale Themen meist auf Distanz – ein Essanfall kann zu einem der wenigen Momente werden, in denen ungefilterte, unkontrollierte Emotion tatsächlich durchbricht, was sie selbst oft irritiert und beschämt." },
-        { code: "SX5", text: "Emotional wirklich ein lässt sich die sexuelle Fünf nur in ihrer einen tiefen Verbindung – gerade diese ungewohnte Offenheit kann innere Anspannung erzeugen, die sich, wenn sie nicht anders reguliert werden kann, im Essverhalten entlädt." },
+        { code: "SX5", text: "Innere Anspannung, die sich nicht anders regulieren lässt, kann sich bei der sexuellen Fünf im Essverhalten entladen – besonders dann, wenn sie sich außerhalb ihrer einen tiefen Verbindung emotional ungewohnt exponiert fühlt." },
       ]},
       { typ: 6, titel: "Eine Anspannung, die sich Bahn bricht", varianten: [
         { code: "SE6", text: "Ständige Wachsamkeit gegenüber möglichen Gefahren kostet die selbsterhaltende Sechs viel Energie – löst sich diese Anspannung einmal, kann sie sich in einem Kontrollverlust beim Essen entladen, gefolgt von neuer Angst vor den Folgen dieses Kontrollverlusts selbst." },
@@ -103877,7 +103877,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle, die im Verborgenen bricht", varianten: [
         { code: "SE8", text: "Schwäche zeigt die selbsterhaltende Acht so gut wie nie, auch sich selbst gegenüber nicht – ein Kontrollverlust beim Essen widerspricht diesem Selbstbild so sehr, dass er fast zwangsläufig geheim gehalten wird, was die Isolation zusätzlich verstärkt." },
         { code: "SO8", text: "Auch wenn die eigene Erschöpfung längst spürbar ist, bleibt die soziale Acht für ihre Gruppe weiterhin stark – ein heimlicher Essanfall kann zu einer der wenigen Formen werden, in denen sich diese Erschöpfung tatsächlich zeigt, wenn auch nur im Verborgenen." },
-        { code: "SX8", text: "Wenn auch nur der einen Person, der sie wirklich vertraut, zeigt sich die sexuelle Acht durchaus verletzlich – wird ein gestörtes Essverhalten dort erkannt und ernst genommen, kann das eher zu Hilfesuche führen als bei der durchgehenden Fassade anderer Achter-Varianten." },
+        { code: "SX8", text: "Ihre Essgewohnheiten behandelt die sexuelle Acht wie ihr eigenes Territorium, in das niemand hineinreden darf – Kritik daran, selbst von der einen Person, der sie vertraut, kann sie zunächst als Angriff statt als Sorge erleben." },
       ]},
       { typ: 9, titel: "Ein Sog, der die eigene Stimme übertönt", varianten: [
         { code: "SE9", text: "In Gewohnheit und Komfort verliert sich die selbsterhaltende Neun leicht – Essen kann dabei zu einer besonders naheliegenden Form von Betäubung werden, deren Kontrollverlust anschließend Scham auslöst, die wiederum die Trägheit noch vertieft." },
@@ -103921,7 +103921,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Rückzug, der auch beim Essen greift", varianten: [
         { code: "SE5", text: "Streng eingeteilt werden normalerweise die Ressourcen der selbsterhaltenden Fünf – bricht diese Kontrolle unter Erschöpfung, kann ein Essanfall folgen, den sie danach möglichst schnell wieder unter die gewohnte Kontrolle bringen möchte." },
         { code: "SO5", text: "Über rationales Wissen hält sich die soziale Fünf emotionale Themen meist auf Distanz – ein Essanfall kann zu einem der wenigen Momente werden, in denen ungefilterte Emotion tatsächlich durchbricht, was sie selbst oft irritiert." },
-        { code: "SX5", text: "Gerät die eine tiefe Verbindung, in der sich die sexuelle Fünf emotional wirklich einlässt, unter Druck, kann die daraus entstehende Anspannung, wenn sie nicht anders reguliert wird, sich im Essverhalten entladen." },
+        { code: "SX5", text: "Rückzug ist für die sexuelle Fünf die naheliegendste Reaktion auf Überforderung – gerät ausgerechnet die eine Verbindung, in der sie sich sonst öffnet, unter Druck, kann sich die daraus entstehende Anspannung stattdessen im Essverhalten entladen." },
       ]},
       { typ: 6, titel: "Eine Anspannung, die Nahrung als Beruhigung sucht", varianten: [
         { code: "SE6", text: "Ständige Wachsamkeit kostet die selbsterhaltende Sechs viel Energie – Essen kann zu einer verlässlichen, körperlich spürbaren Form von Beruhigung werden, wenn die innere Anspannung sonst kaum zu regulieren ist." },
@@ -103936,7 +103936,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Erschöpfung, die verborgen bleiben soll", varianten: [
         { code: "SE8", text: "Kaum jemals zeigt die selbsterhaltende Acht Schwäche – ein heimlicher Essanfall kann zu einer der wenigen Formen werden, in denen sich Erschöpfung tatsächlich zeigt, auch wenn sie sofort danach wieder hinter gewohnter Härte verschwindet." },
         { code: "SO8", text: "Selbst bei längst spürbarer eigener Erschöpfung bleibt die soziale Acht für ihre Gruppe stark – Essen kann zu einer stillen Kompensation werden, die niemand sieht, weil sie nach außen weiterhin unerschütterlich wirkt." },
-        { code: "SX8", text: "Nur der einen vertrauten Person gegenüber lässt die sexuelle Acht ihre Verletzlichkeit sichtbar werden – wird ein wiederkehrender Kontrollverlust beim Essen dort erkannt, kann das eher zu Hilfesuche führen als bei der durchgehenden Fassade anderer Achter-Varianten." },
+        { code: "SX8", text: "Einen Kontrollverlust beim Essen erlebt die sexuelle Acht als besonders beschämend, weil Kontrolle ihr zentrales Selbstverständnis ist – nur der einen vertrauten Person gegenüber lässt sich dieses Scheitern überhaupt eingestehen, ohne dass sie es sofort wieder überspielt." },
       ]},
       { typ: 9, titel: "Eine Betäubung, die den eigenen Ärger überdeckt", varianten: [
         { code: "SE9", text: "In Gewohnheit und Komfort verliert sich die selbsterhaltende Neun leicht – Essen kann zu einer besonders naheliegenden Form von Betäubung werden, die verhindert, dass unangenehme Gefühle überhaupt bewusst werden." },
@@ -103980,7 +103980,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Rückzug, der sich chemisch verstärkt", varianten: [
         { code: "SE5", text: "Kontakt zu anderen reduziert die selbsterhaltende Fünf ohnehin konsequent – Alkohol allein zu Hause kann zu einer stillen, unauffälligen Gewohnheit werden, die sich über Jahre entwickelt, ohne dass es dem sozialen Umfeld überhaupt auffällt." },
         { code: "SO5", text: "Mit der Welt verbunden bleibt die soziale Fünf vor allem über Wissen, emotionale Nähe hält sie dabei auf Distanz – Alkohol in geselliger Runde kann anfangs als eine Art sozialer Brücke dienen, bevor daraus ein eigenständiges Muster wird." },
-        { code: "SX5", text: "Gerät die eine tiefe Verbindung, in der sich die sexuelle Fünf emotional wirklich einlässt, unter Druck, kann Alkohol zu einem Weg werden, die damit verbundene Verletzlichkeit erträglicher zu machen." },
+        { code: "SX5", text: "Sich zurückzuziehen kostet die sexuelle Fünf normalerweise wenig Überwindung – gerade wenn ihre eine tiefe Verbindung emotional zu viel verlangt, kann Alkohol zu einem Weg werden, trotzdem in Kontakt zu bleiben, ohne die volle Verletzlichkeit spüren zu müssen." },
       ]},
       { typ: 6, titel: "Eine Angst, die kurzfristig verstummt", varianten: [
         { code: "SE6", text: "Ein Grundgefühl von Unsicherheit begleitet die selbsterhaltende Sechs meist über Jahre – Alkohol kann für sie zu einem der wenigen Mittel werden, mit denen diese Anspannung tatsächlich einmal verstummt, was ihn besonders schwer wieder loslassen lässt." },
@@ -103995,7 +103995,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle, die sich im Konsum auflöst", varianten: [
         { code: "SE8", text: "So gut wie nie zeigt die selbsterhaltende Acht Schwäche – Alkohol kann zu einem der wenigen erlaubten Räume werden, in denen sie sich tatsächlich fallen lässt, was den Übergang von gelegentlichem Konsum zur Abhängigkeit besonders unauffällig macht." },
         { code: "SO8", text: "Erschöpfte eigene Kräfte gesteht sich die soziale Acht kaum ein, solange ihre Gruppe sie noch stark braucht – Alkohol kann zu einer stillen Art werden, diese Erschöpfung zu kompensieren, ohne sie vor anderen zugeben zu müssen." },
-        { code: "SX8", text: "Durchaus verletzlich zeigt sich die sexuelle Acht, aber nur der einen Person, der sie vertraut – wird ein problematischer Konsum dort erkannt und ernst genommen, kann das eher zu Hilfesuche führen als bei der durchgehenden Fassade anderer Achter-Varianten." },
+        { code: "SX8", text: "Trinken bedeutet für die sexuelle Acht oft, die Kontrolle über den eigenen Rausch selbst zu behalten – gerade dieser Anspruch kann verhindern, dass sie einen problematischen Konsum überhaupt als solchen erkennt, bevor die eine vertraute Person unmissverständlich wird." },
       ]},
       { typ: 9, titel: "Eine Betäubung des eigenen Ärgers", varianten: [
         { code: "SE9", text: "Leicht verliert sich die selbsterhaltende Neun in Routine und Komfort – ein Glas am Abend kann zu einer besonders naheliegenden weiteren Gewohnheit werden, die sich über Jahre unbemerkt verstärkt, weil sie zum unauffälligen Alltag dazugehört." },
@@ -104039,7 +104039,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Rückzug, der chemisch vertieft wird", varianten: [
         { code: "SE5", text: "Ohnehin konsequent reduziert wird bei der selbsterhaltenden Fünf der Kontakt zu anderen – eine dämpfende Substanz kann zu einer stillen, unauffälligen Gewohnheit werden, die den Rückzug noch weiter vertieft, ohne dass es dem Umfeld überhaupt auffällt." },
         { code: "SO5", text: "Ihre Verbindung zur Welt sucht die soziale Fünf vor allem über Wissen, emotionale Nähe hält sie dabei auf Distanz – manche Substanzen können ihr anfangs erlauben, sich Emotionen kontrolliert, gleichsam aus sicherer Distanz zu nähern, bevor sich daraus ein eigenständiges Muster entwickelt." },
-        { code: "SX5", text: "Steht die eine tiefe Verbindung, in der sich die sexuelle Fünf emotional wirklich einlässt, unter Druck, kann eine Substanz zu einem Weg werden, die damit verbundene Verletzlichkeit erträglicher zu machen." },
+        { code: "SX5", text: "Ihre eigene Grenze zwischen Beobachten und Teilnehmen verwischt sich bei der sexuellen Fünf am ehesten unter Substanzeinfluss – besonders wenn die eine Verbindung, in der sie sich sonst öffnet, gerade selbst unter Spannung steht." },
       ]},
       { typ: 6, titel: "Eine Angst, die kurzfristig verstummt", varianten: [
         { code: "SE6", text: "Ein Grundgefühl von Unsicherheit begleitet die selbsterhaltende Sechs meist über Jahre – ein Beruhigungsmittel kann für sie zu einem der wenigen Mittel werden, mit denen diese Anspannung tatsächlich einmal verstummt, was es besonders schwer macht, es wieder loszulassen." },
@@ -104054,7 +104054,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle, die sich im Konsum auflöst", varianten: [
         { code: "SE8", text: "Schwäche einzugestehen fällt der selbsterhaltenden Acht so gut wie nie – eine Substanz kann zu einem der wenigen erlaubten Räume werden, in denen sie sich tatsächlich fallen lässt, was den Übergang von gelegentlichem Konsum zur Abhängigkeit besonders unauffällig macht." },
         { code: "SO8", text: "Ihre eigenen erschöpften Kräfte blendet die soziale Acht meist aus, solange ihre Gruppe sie noch stark braucht – eine Substanz kann zu einer stillen Art werden, diese Erschöpfung zu kompensieren, ohne sie vor anderen zugeben zu müssen." },
-        { code: "SX8", text: "Verletzlich zeigt sich die sexuelle Acht am ehesten der einen Person, der sie wirklich vertraut – wird ein problematischer Konsum dort erkannt und ernst genommen, kann das eher zu Hilfesuche führen als bei der durchgehenden Fassade anderer Achter-Varianten." },
+        { code: "SX8", text: "Substanzen nutzt die sexuelle Acht oft, um die eigene Intensität noch zu steigern statt sie zu dämpfen – dieser Unterschied zu anderen Motiven macht es der einen Person, die sie wirklich kennt, manchmal schwer, das Muster überhaupt als Abhängigkeit zu erkennen." },
       ]},
       { typ: 9, titel: "Eine Betäubung, die den eigenen Ärger überdeckt", varianten: [
         { code: "SE9", text: "So leicht verliert sich die selbsterhaltende Neun in Routine und Komfort, dass ein dämpfendes Medikament zu einer besonders naheliegenden weiteren Gewohnheit werden kann, die sich über Jahre unbemerkt verstärkt, weil sie zum unauffälligen Alltag dazugehört." },
@@ -104114,7 +104114,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle über den Eindruck", varianten: [
         { code: "SE8", text: "Verletzlichkeit vor anderen zu zeigen widerstrebt der selbsterhaltenden Acht zutiefst. Gerät sie in eine Situation, in der sie sich ausgeliefert fühlt, kann daraus eine überraschend heftige soziale Angst entstehen." },
         { code: "SO8", text: "Für ihre Gruppe tritt die soziale Acht meist unerschrocken auf, verbirgt dabei aber mögliche eigene Unsicherheit konsequent. Diese verdeckte Anspannung kann sich, selten sichtbar, als soziale Phobie zeigen." },
-        { code: "SX8", text: "Offen zeigt die sexuelle Acht ihre Verletzlichkeit durchaus, aber nur der einen Person, der sie vertraut. Diese Offenheit kann vor der generellen sozialen Angst schützen, die andere Achter-Varianten seltener, aber dann heftig, erleben." },
+        { code: "SX8", text: "Furchtlosigkeit ist das Bild, das die sexuelle Acht meist von sich zeigt – dass soziale Situationen sie überhaupt einschüchtern können, widerspricht diesem Selbstbild so sehr, dass sie es zunächst eher überspielt als eingesteht." },
       ]},
       { typ: 9, titel: "Eine Stimme, die nicht auffallen soll", varianten: [
         { code: "SE9", text: "Sich unauffällig durch soziale Situationen zu bewegen ist der selbsterhaltenden Neun deutlich lieber, als in den Mittelpunkt zu geraten. Wird sie doch dazu gezwungen, kann eine ausgeprägte soziale Angst aufsteigen." },
@@ -104173,7 +104173,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle über das Unkontrollierbare", varianten: [
         { code: "SE8", text: "Nach einem Trauma will die selbsterhaltende Acht die Kontrolle möglichst schnell zurückgewinnen, statt die eigene Erschütterung zuzulassen. Diese Übersteuerung kann die eigentliche Verarbeitung verzögern." },
         { code: "SO8", text: "Beschützerin für ihre Gruppe bleibt die soziale Acht auch nach einem traumatischen Ereignis, selbst wenn die eigene Erschöpfung längst da ist. Dieses Übergehen der eigenen Erschütterung kann sich als PTBS zeigen." },
-        { code: "SX8", text: "Ihre Erschütterung zeigt die sexuelle Acht der einen Person, der sie vertraut, durchaus offen. Wird diese Verletzlichkeit dort angenommen, kann sie die Verarbeitung erleichtern gegenüber der verborgenen Belastung anderer Achter-Varianten." },
+        { code: "SX8", text: "Ihr eigenes Trauma zu einem Kontrollverlust unter vielen zu erklären, mit dem sie schon fertig geworden ist, fällt der sexuellen Acht leichter, als es tatsächlich zu fühlen – erst mit der Zeit lässt die Rüstung nach, meist nur bei der einen Person, die sie schon lange kennt." },
       ]},
       { typ: 9, titel: "Ein Erlebnis, das verdrängt wird", varianten: [
         { code: "SE9", text: "Ein traumatisches Ereignis schiebt die selbsterhaltende Neun oft konsequent beiseite, um ihre Ruhe zu bewahren. Bleibt es über Jahre unverarbeitet, kann daraus eine schwer erkennbare, chronische PTBS werden." },
@@ -104232,7 +104232,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle, die sich selbst gefangen nimmt", varianten: [
         { code: "SE8", text: "Kontrolle über die eigene Umgebung zu behalten ist der selbsterhaltenden Acht wichtig – bei einer Zwangsstörung kann sich das in rigiden Kontrollritualen verfestigen, die paradoxerweise selbst zum Kontrollverlust werden." },
         { code: "SO8", text: "Für ihre Gruppe verantwortlich zu sein treibt die soziale Acht manchmal in zwanghaftes Prüfen und Absichern von allem, was diese Gruppe betreffen könnte, ohne dass ein Gefühl echter Sicherheit je entsteht." },
-        { code: "SX8", text: "Ihre Sorge um die eine Person, der sie vertraut, spricht die sexuelle Acht offen aus, statt sie in verdeckte Kontrollrituale zu kanalisieren. Diese Offenheit unterscheidet sich vom verborgenen Zwangsdruck anderer Achter-Varianten." },
+        { code: "SX8", text: "Kontrolle über die eigenen Gedanken zu verlieren erlebt die sexuelle Acht als besonders bedrohlich, weil Beherrschung ihr zentrales Selbstverständnis ist – Zwangsgedanken werden deshalb länger verheimlicht als bei anderen Achter-Varianten, bis der Druck sie zwingt, es zuzugeben." },
       ]},
       { typ: 9, titel: "Eine Ruhe, die erzwungen werden muss", varianten: [
         { code: "SE9", text: "Ihre Umgebung hält die selbsterhaltende Neun gern in vertrauter, beruhigender Routine – bei einer Zwangsstörung kann diese Routine in starre, sich selbst verstärkende Rituale kippen, ohne die je erhoffte innere Ruhe zu bringen." },
@@ -104291,7 +104291,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Eine Kontrolle über die eigene Zerstreutheit", varianten: [
         { code: "SE8", text: "Kontrollverlust – auch über die eigene Konzentration – ist für die selbsterhaltende Acht besonders schwer zu akzeptieren. ADHS-bedingte Zerstreutheit kann deshalb zunächst hartnäckig verleugnet statt anerkannt werden." },
         { code: "SO8", text: "Für ihre Gruppe verlässlich zu bleiben verlangt von der sozialen Acht trotz eigener Zerstreutheit enorme Willenskraft. Wird diese Anstrengung zu groß, kann sich dahinter erhebliche, meist verborgene Erschöpfung verbergen." },
-        { code: "SX8", text: "Ihre Zerstreutheit oder Impulsivität zeigt die sexuelle Acht der einen Person, der sie vertraut, durchaus offen. Diese Offenheit kann entlastender wirken als das verdeckte Kompensieren anderer Achter-Varianten." },
+        { code: "SX8", text: "Impulsivität passt für die sexuelle Acht eigentlich gut zu ihrem ohnehin direkten Auftreten – Konzentrationsschwierigkeiten dagegen erlebt sie als echten Kontrollverlust, den sie sich selbst nur widerwillig eingesteht." },
       ]},
       { typ: 9, titel: "Eine Ordnung, die sich auflöst", varianten: [
         { code: "SE9", text: "In Routine und Gewohnheit findet die selbsterhaltende Neun normalerweise Halt – bei ADHS kann genau diese Routine immer wieder durch Zerstreutheit unterbrochen werden, was zusätzliche innere Unruhe erzeugt." },
@@ -104350,7 +104350,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Ein Umgang mit Kontrolle und Autonomie", varianten: [
         { code: "SE8", text: "Kontrolle über die eigene Behandlung zu behalten ist der selbsterhaltenden Acht besonders wichtig. Wird sie als aktive Partnerin im Behandlungsprozess einbezogen statt bevormundet, steigt die Bereitschaft zur Mitarbeit deutlich." },
         { code: "SO8", text: "Für andere Betroffene einzustehen und sich gegen Stigmatisierung zu wehren kann der sozialen Acht eine sinnstiftende Rolle im Umgang mit der eigenen Diagnose geben." },
-        { code: "SX8", text: "Ihre Verletzlichkeit im Umgang mit der Diagnose zeigt die sexuelle Acht der einen Person, der sie vertraut, durchaus offen. Diese Offenheit kann eine wichtige Stütze in der Behandlung sein." },
+        { code: "SX8", text: "Eine Diagnose wie diese trifft die sexuelle Acht besonders hart, weil sie Kontrolle über den eigenen Geist verlieren könnte – gerade deshalb kämpft sie zunächst gegen die Behandlung an, bevor sie sich der einen Person anvertraut, die sie wirklich kennt." },
       ]},
       { typ: 9, titel: "Ein Umgang mit der eigenen Stimme im Prozess", varianten: [
         { code: "SE9", text: "Vertraute Routinen beizubehalten kann der selbsterhaltenden Neun helfen, sich trotz der Diagnose Halt zu bewahren. Wichtig ist, dass die eigene Stimme im Behandlungsprozess dabei nicht untergeht." },
@@ -104394,7 +104394,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Ein Umgang mit Rückzug in beiden Richtungen", varianten: [
         { code: "SE5", text: "In der manischen Phase kann die selbsterhaltende Fünf ungewohnt impulsiv mit ihren Ressourcen umgehen, was nach der Episode Sorge auslösen kann. In der Depression verstärkt sich dagegen der ohnehin vorhandene Rückzug erheblich." },
         { code: "SO5", text: "Über das Verstehen der eigenen Diagnose bleibt die soziale Fünf mit ihrer Erkrankung intellektuell verbunden, was in der Depression jedoch nicht vor der emotionalen Wucht der Episode schützt." },
-        { code: "SX5", text: "Auch während schwieriger Phasen kann sich die sexuelle Fünf innerhalb ihrer einen tiefen Verbindung emotional zeigen, statt sich vollständig zurückzuziehen. Diese eine Verbindung kann eine wichtige Stütze durch beide Episoden sein." },
+        { code: "SX5", text: "Zwischen den Stimmungsphasen wechselt bei der sexuellen Fünf auch der Grad ihres Rückzugs deutlich – innerhalb ihrer einen tiefen Verbindung bleibt sie über beide Episoden hinweg am ehesten erreichbar, wenn auch nie vollständig." },
       ]},
       { typ: 6, titel: "Ein Umgang mit Unsicherheit durch beide Phasen", varianten: [
         { code: "SE6", text: "Eine manische Episode kann bei der selbsterhaltenden Sechs zunächst wie überraschende Zuversicht wirken, was das rechtzeitige Erkennen erschwert. Die depressive Phase bestätigt dagegen oft die ohnehin vorhandenen Ängste." },
@@ -104409,7 +104409,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Ein Umgang mit Kontrolle in beiden Extremen", varianten: [
         { code: "SE8", text: "Kontrolle zu behalten fällt der selbsterhaltenden Acht in der manischen Phase besonders schwer, was sie danach als beunruhigenden Kontrollverlust erlebt. In der Depression wird die eigene Erschöpfung oft zu lange verleugnet." },
         { code: "SO8", text: "Für ihre Gruppe stark zu bleiben verlangt von der sozialen Acht auch während beider Episoden enorme Anstrengung. Wird die Diagnose als eigene Schwäche erlebt, kann das die Bereitschaft zur Behandlung erschweren." },
-        { code: "SX8", text: "Ihre Verletzlichkeit in beiden Phasen zeigt die sexuelle Acht der einen Person, der sie vertraut, durchaus offen. Diese Offenheit kann ein wichtiger Anker durch beide Episoden sein." },
+        { code: "SX8", text: "In manischen Phasen fühlt sich die sexuelle Acht oft ungewohnt mächtig und grenzenlos, in depressiven dagegen zutiefst beschämt über den eigenen Kontrollverlust – beide Extreme zu zeigen fällt ihr fast schwerer als die Erkrankung selbst." },
       ]},
       { typ: 9, titel: "Ein Umgang mit der eigenen Stimme in beiden Phasen", varianten: [
         { code: "SE9", text: "Vertraute Routinen zu bewahren hilft der selbsterhaltenden Neun, sich zwischen den Episoden Stabilität zu erhalten. Sowohl Manie als auch Depression können diese Routinen jedoch erheblich durcheinanderbringen." },
