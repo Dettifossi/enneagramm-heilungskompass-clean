@@ -65948,12 +65948,6 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No one is immune to sleep disorders, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes handles nighttime vigilance in its own way – some through control, others through worry, mental circling, or a chronically adopted feeling not their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
-};
-
-// Roadmap of the roughly 100 most common conditions in Western industrialized nations
-// (Germany/Europe), categorized like PSYCHOSOMATIK_KATEGORIEN. Written up one at a time
-// and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
-// page as "in preparation" without their own detail page.
   narkolepsie: {
     titel: "Narcolepsy",
     kategorie: "nerven-psyche",
@@ -70064,6 +70058,11 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     abschluss: "Bipolar disorder is a severe, neurobiologically grounded illness that no one chooses, and that no subtype and no personality causes. What emerges is simply that each of the 27 subtypes experiences and copes with manic and depressive episodes in its own way – some through control, others through relationship, withdrawal, or engagement in treatment. This compass does not replace psychiatric treatment and makes no claim to an independent holistic effect for this severe illness – at best it can help, alongside the necessary specialist care, to understand a person's individual way of coping with the diagnosis a little better. Respect, patience, and consistently avoiding any stigmatization matter more here than any typing.",
   },
 };
+
+// Roadmap of the roughly 100 most common conditions in Western industrialized nations
+// (Germany/Europe), categorized like PSYCHOSOMATIK_KATEGORIEN. Written up one at a time
+// and then moved into PSYCHOSOMATIK_KRANKHEITEN. Until then they appear on the overview
+// page as "in preparation" without their own detail page.
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],

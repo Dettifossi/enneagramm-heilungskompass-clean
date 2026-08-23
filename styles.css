@@ -2008,6 +2008,14 @@ textarea:focus {
     justify-content: center;
   }
 
+  /* Ohne diesen Reset bleibt margin-left:auto aus der Row-Variante aktiv und
+     schiebt den Sprachumschalter in der Column-Variante des Headers weit
+     über den sichtbaren Viewport hinaus – unsichtbar und nicht klickbar. */
+  .lang-switcher {
+    margin-left: 0;
+    align-self: center;
+  }
+
   .tabbar {
     overflow-x: auto;
     justify-content: flex-start;
