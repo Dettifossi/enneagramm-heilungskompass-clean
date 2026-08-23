@@ -95156,7 +95156,13 @@ function kommunikationsguidePage() {
     const bgC = isSel ? `color-mix(in srgb,${tc} 18%,var(--paper))` : `color-mix(in srgb,${tc} 6%,var(--paper))`;
     const colorC = tc;
     const opacity = hasData ? "1" : ".45";
-    return `<button data-komm-subtype="${code}" ${!hasData ? "disabled" : ""} style="padding:.4rem .6rem;border-radius:.4rem;border:1.5px solid ${borderC};background:${bgC};font-size:.78rem;font-weight:${isMe ? 700 : 500};color:${colorC};cursor:${hasData ? "pointer" : "default"};opacity:${opacity};font-family:inherit;white-space:nowrap;">${code}${isMe ? " ★" : ""}${!hasData ? '<br><span style="font-size:.6rem;font-weight:400;color:var(--muted);">bald</span>' : ""}</button>`;
+    return `<button data-komm-subtype="${code}" ${!hasData ? "disabled" : ""} style="display:flex;flex-direction:column;align-items:center;gap:.25rem;padding:.4rem .5rem;border-radius:.5rem;border:1.5px solid ${borderC};background:${bgC};font-size:.78rem;font-weight:${isMe ? 700 : 500};color:${colorC};cursor:${hasData ? "pointer" : "default"};opacity:${opacity};font-family:inherit;white-space:nowrap;">
+      <span style="position:relative;width:26px;height:26px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 1.5px ${tc};display:inline-block;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+      </span>
+      <span>${code}${isMe ? " ★" : ""}</span>
+      ${!hasData ? '<span style="font-size:.6rem;font-weight:400;color:var(--muted);">bald</span>' : ""}
+    </button>`;
   }).join("");
 
   let resultHtml = `<p style="text-align:center;color:var(--muted);font-size:.9rem;margin-top:2rem;">W&auml;hle einen Subtyp, um zu erfahren, wie du ihm im Alltag, in Beziehung und F&uuml;hrung am besten begegnest.</p>`;
@@ -95165,7 +95171,12 @@ function kommunikationsguidePage() {
   if (g) {
     resultHtml = `
       <div style="background:var(--paper);border:1px solid var(--copper);border-radius:1rem;padding:1.4rem 1.6rem;margin-top:1.5rem;max-width:100%;">
-        <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;margin-bottom:.3rem;">Kommunikationsguide &middot; ${activeSubtype} &middot; Tierentsprechung: ${g.tier}</div>
+        <div style="display:flex;align-items:center;gap:.8rem;margin-bottom:.3rem;">
+          <span style="position:relative;width:56px;height:56px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${typeColorFromCode(activeSubtype)};display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${activeSubtype.toLowerCase()}.jpg" alt="${g.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(activeSubtype)};left:${tierAvatarLeft(activeSubtype)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+          <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;">Kommunikationsguide &middot; ${activeSubtype} &middot; Tierentsprechung: ${g.tier}</div>
+        </div>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1rem 0 .6rem;color:var(--ink);">1. Woran erkennst du die ${activeSubtype}?</h3>
         <p style="margin:0 0 .8rem;font-size:.92rem;line-height:1.75;color:var(--ink);">${g.erkennung}</p>
@@ -95218,7 +95229,7 @@ function kommunikationsguidePage() {
             </div>
           `).join("")}
         </div>
-        <p style="margin:0 0 1.2rem;font-size:.78rem;color:var(--muted);font-style:italic;">Alle 26 Paarungen aus "Die Sprache unserer Beziehungen".</p>
+        <p style="margin:0 0 1.2rem;font-size:.78rem;color:var(--muted);font-style:italic;">Alle 27 Paarungen (inklusive der Paarung mit sich selbst) aus "Die Sprache unserer Beziehungen".</p>
 
         <div style="background:rgba(180,120,0,0.08);border-left:3px solid var(--gold);padding:.9rem 1.1rem;border-radius:0 .6rem .6rem 0;">
           <div style="font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin-bottom:.4rem;">Kurzfassung zum Merken</div>
