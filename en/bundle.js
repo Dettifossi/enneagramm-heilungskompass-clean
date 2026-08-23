@@ -2343,6 +2343,7 @@ text.nav = [
     { route: "praxistipps-heilpraktiker", label: "Naturopath's Practical Tips" },
     { route: "differenzierung", label: "Differentiation" },
     { route: "beziehungen", label: "Relationship Compass" },
+    { route: "kommunikationsguide", label: "Communication Guide" },
     { route: "situationskompass", label: "Situation Compass" },
     { route: "krisenkompass", label: "Crisis Compass" },
   ]},
@@ -2847,6 +2848,11 @@ const ORGANISM_Q_EN = {
 };
 
 
+let diffState = { a: null, b: null };
+let situKompState = { situId: null, subtypeCode: null };
+let krisenState = { typNr: null, krisenId: null };
+let kommGuideState = { subtypeCode: null };
+
 if (!location.hash || location.hash === "#start") {
   document.title = text.meta.appTitle;
 }
@@ -2859,6 +2865,7 @@ window.addEventListener("hashchange", () => {
   if (newRoute !== "differenzierung") diffState = { a: null, b: null };
   if (newRoute !== "situationskompass") situKompState = { situId: null, subtypeCode: null };
   if (newRoute !== "krisenkompass") krisenState = { typNr: null, krisenId: null };
+  if (newRoute !== "kommunikationsguide") kommGuideState = { subtypeCode: null };
   state.route = newRoute;
   if (window.__gtag) window.__gtag('event', 'page_view', { page_path: '/#' + newRoute, page_title: newRoute });
   render();
@@ -12215,6 +12222,14 @@ function bindEvents() {
     btn.addEventListener("click", () => {
       situKompState.subtypeCode = btn.dataset.situSubtype;
       app.innerHTML = situationskompasPage();
+      bindEvents();
+    });
+  });
+
+  document.querySelectorAll("[data-komm-subtype]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      kommGuideState.subtypeCode = btn.dataset.kommSubtype;
+      app.innerHTML = kommunikationsguidePage();
       bindEvents();
     });
   });
@@ -59816,10 +59831,6 @@ function wurzelnDesEnneagrammsPage() {
   `);
 }
 
-let diffState = { a: null, b: null };
-let situKompState = { situId: null, subtypeCode: null };
-let krisenState = { typNr: null, krisenId: null };
-
 function differenzierungPage() {
   const typen = [1,2,3,4,5,6,7,8,9];
   const { a, b } = diffState;
@@ -59901,6 +59912,7 @@ function differenzierungPage() {
     </section>
   `);
 }
+
 
 function krisenkompassPage() {
   const typeColors = {"1":"#8b6f47","2":"#7a2d90","3":"#c8860a","4":"#5b4fa0","5":"#2e7d6e","6":"#4a6fa5","7":"#b5870a","8":"#8b2014","9":"#5a7a3a"};
@@ -60157,6 +60169,492 @@ function krisenkompassPage() {
         {route:"situationskompass", label:"Situation Compass"},
         {route:"practice", label:"Tools"},
         {route:"beziehungen", label:"Relationship Compass"},
+      ])}
+    </section>
+  `);
+}
+
+
+const KOMMUNIKATIONSGUIDE = {
+  SO1: {
+    tier: "Goose",
+    erkennung: `The social One carries her sense of order not only into her own life, but into the collective: she believes community only works if everyone follows the rules – and feels responsible for upholding standards, whether or not anyone asked her to. In my book <em>Enneagramm Zoo</em> I describe the image of the <strong>Goose</strong>, marching along the duck pond with a raised megaphone: "Order, please!" Her gaze is not on herself, but on the whole.<br><br>Unlike the self-preservation One, whose strictness shows first in her own behavior, the SO1 turns outward: she becomes the guardian of fairness and standards for the group – with the risk that the rule becomes more important than the person. When she recognizes that order grows from understanding rather than pressure, duty transforms into dignity, morality into compassion.`,
+    wunde: {
+      titel: "The wound behind it",
+      text: `As with every One, behind this lies the <strong>Wound of Imperfection</strong>: the deep feeling that reality can never fully match the inner ideal. In the SO1 this shifts to the collective: "The community should be better – and I am responsible for making sure everyone adheres to that." The passion of anger shows up here as moral zeal, which rarely erupts openly but instead translates into criticism, correction, and the urge to lecture others. Anyone who understands this reads her rule-following not as a need for control, but as an attempt to create a shared order that she herself experiences as safe.`,
+    },
+    fluegel: {
+      titel: "Wing nuance: SO1w9 and SO1w2",
+      w1: { code: "SO1w9", route: "beruehmte-friedrich-merz", name: "Friedrich Merz", text: `moral clarity is delivered more calmly, more matter-of-factly – less campaign, more firm, unshakeable stance. Responds well to factual engagement with the issue itself; direct personal confrontation tends to make him harden rather than yield.` },
+      w2: { code: "SO1w2", route: "beruehmte-juergen-klopp", name: "Jürgen Klopp", text: `rule-following takes on a warm, inclusive note – order becomes a shared project, carried by genuine affection for the group. Responds well to personal appreciation alongside the factual level, less well to purely formal, impersonal correction.` },
+    },
+    stressWachstum: {
+      stress: `Under stress the SO1 moves, like every One, toward <strong>Type 4</strong>: the otherwise matter-of-fact clarity tips into self-pity or the feeling of being the only one carrying the burden of responsibility for the community. If you recognize this pattern, it's a signal of heightened inner pressure – not a good moment for more moral appeals, a good moment for personal sympathy.`,
+      wachstum: `In growth she moves toward <strong>Type 7</strong>: lighter, more humorous, less grim – the concern for order remains, but without the constant tension of having to correct everything.`,
+    },
+    ankommt: [
+      `<strong>Recognition for taking responsibility in the collective.</strong> The SO1 often invests unpaid, invisible energy in fairness and structure – naming that explicitly has more impact than general praise.`,
+      `<strong>Factual engagement with the issue, not the person.</strong> Whoever takes her position seriously in substance and discusses it, rather than dismissing it as "too strict," is more likely to be heard.`,
+      `<strong>Reliability and kept agreements.</strong> Just as with the SE1, this is her real currency of trust – rules that others take seriously confirm her basic trust in community.`,
+    ],
+    trigger: [
+      { trigger: `Breaking rules or agreements publicly in front of the group without addressing it`, warum: `Is experienced as an attack on the shared order, not just a personal disappointment`, alternative: `Name deviations openly and find a solution together before they go unnoticed` },
+      { trigger: `Dismissing her rule-following as exaggerated or petty`, warum: `Hits the moral core – the SO1 then experiences herself as solely responsible and misunderstood`, alternative: `Ask about the concern behind the rule, rather than mocking the rule itself` },
+      { trigger: `Going straight into justification instead of responsibility when mistakes happen`, warum: `Confirms her image that no one but her takes the standards seriously`, alternative: `Name mistakes openly, without excuses – that eases the situation more than any explanation` },
+      { trigger: `Letting long fundamental debates about "correct behavior" run on instead of prioritizing`, warum: `Can block real progress, because every deviation becomes a moral question`, alternative: `Explicitly allow "good enough": name the goal, not perfection` },
+    ],
+    fuehrung: {
+      titel: "From leadership practice: when the rule becomes more important than the person",
+      text: `In our book <em>Führung mit Fundament</em> (which I wrote together with my son David L. Rathmer) we describe a department head who repeatedly criticizes a colleague's imprecise language during a project meeting. Although the project is on schedule, this develops into a long discussion about "professional work" – actual progress stalls, the team becomes defensive. Only when leadership clearly prioritizes ("The goal is progress, not perfection") does the situation relax.<br><br>Translated for the SO1, this means: take morality out of the situation, prioritize pragmatically, explicitly allow "good enough" – and encourage physical relaxation, because the tension often sits in the body first, before it shows up in words.`,
+      hinweis: `In the book we describe this case at the level of the base type 1, not subtype-specific. The social coloring – the rule becomes a matter for the whole group, not just a personal issue – is an addition based on the remaining sources, not a literal quote.`,
+    },
+    beziehung: {
+      titel: `Relationship risk & healing movement`,
+      risiko: `The tendency toward criticism and perfectionism can strain relationships – partners often feel that they "never measure up," because the standard is set high not just privately but also socially.`,
+      leitfragen: `Do I uphold this standard because it's truly necessary – or because I want to be seen as having integrity, by myself and others?`,
+      hilfreich: `Model mildness instead of demanding it: show that belonging isn't tied to perfect behavior.`,
+    },
+    pairing: [
+      { partner: "SE1", dynamik: "Principle vs. community", gefahr: "Moral criticism", hilfreich: "Keep rules and relationship in balance" },
+      { partner: "SO1", dynamik: "Role meets role (norm, role model)", gefahr: "Conformism, mutual criticism", hilfreich: "Examine rules, not just follow them" },
+      { partner: "SX1", dynamik: "Role vs. exclusivity", gefahr: "Control vs. absorption", hilfreich: "Protect privacy, dose the stage" },
+      { partner: "SE2", dynamik: "Role vs. care (practical)", gefahr: "Duty smothers spontaneity", hilfreich: "Share tasks, show gratitude" },
+      { partner: "SO2", dynamik: "Role meets role (helping, visible)", gefahr: "Overload through duty-driven altruism", hilfreich: "Divide tasks clearly, prevent exhaustion" },
+      { partner: "SX2", dynamik: "Role vs. closeness-intensity", gefahr: "Jealousy or the stage as leverage", hilfreich: "Limit publicity, preserve privacy" },
+      { partner: "SE3", dynamik: "Role vs. achievement (practical)", gefahr: "Status collision, competition", hilfreich: "Combine efficiency and order" },
+      { partner: "SO3", dynamik: "Role meets role (success)", gefahr: "Over-identification with role or image", hilfreich: "Cultivate authenticity, schedule breaks" },
+      { partner: "SX3", dynamik: "Role vs. exclusive shine", gefahr: "Performance instead of closeness", hilfreich: "Don't paper over the emotional level" },
+      { partner: "SE4", dynamik: "Role vs. specialness (practical)", gefahr: "Criticism vs. sensitivity", hilfreich: "Acknowledge depth, loosen rules" },
+      { partner: "SO4", dynamik: "Role meets role (expression)", gefahr: "Comparison, inferiority vs. pressure to conform", hilfreich: "Mirror feelings, don't normalize them" },
+      { partner: "SX4", dynamik: "Role vs. exclusivity (depth)", gefahr: "Duty vs. drama", hilfreich: "Dose depth, don't absolutize duty" },
+      { partner: "SE5", dynamik: "Role vs. withdrawal (practical)", gefahr: "Coldness, isolation", hilfreich: "Respect privacy, open dialogue" },
+      { partner: "SO5", dynamik: "Role meets role (thinking)", gefahr: "Rigid rules, distance", hilfreich: "Explain rules, show warmth" },
+      { partner: "SX5", dynamik: "Role vs. exclusive knowledge", gefahr: "Control vs. secrecy", hilfreich: "Protect privacy, build intimacy slowly" },
+      { partner: "SE6", dynamik: "Role vs. security (practical)", gefahr: "Over-control, distrust", hilfreich: "Name security, dare to trust" },
+      { partner: "SO6", dynamik: "Role meets role (loyalty)", gefahr: "Fear of mistakes, strictness", hilfreich: "Practice tolerance for error" },
+      { partner: "SX6", dynamik: "Role vs. exclusive commitment", gefahr: "Clinging, jealousy", hilfreich: "Voice distrust, maintain closeness" },
+      { partner: "SE7", dynamik: "Role vs. variety (practical)", gefahr: "Discipline vs. restlessness", hilfreich: "Practice flexibility, allow joy" },
+      { partner: "SO7", dynamik: "Role meets role (optimism)", gefahr: "Superficiality instead of depth", hilfreich: "Combine substance and lightness" },
+      { partner: "SX7", dynamik: "Role vs. exclusive adventure", gefahr: "Duty vs. flight", hilfreich: "Plan adventure, loosen duty" },
+      { partner: "SE8", dynamik: "Role vs. power (practical)", gefahr: "Control vs. dominance", hilfreich: "Show respect, share power" },
+      { partner: "SO8", dynamik: "Role meets role (leadership)", gefahr: "Duel of authorities", hilfreich: "Maintain transparency, avoid abuse of power" },
+      { partner: "SX8", dynamik: "Role vs. exclusive force", gefahr: "Possessive, harsh", hilfreich: "Show warmth, not just power" },
+      { partner: "SE9", dynamik: "Role vs. harmony (practical)", gefahr: "Rigidity vs. passivity", hilfreich: "Honor calm, encourage activity" },
+      { partner: "SO9", dynamik: "Role meets role (community peace)", gefahr: "Standstill, addiction to harmony", hilfreich: "Address conflicts instead of smoothing them over" },
+      { partner: "SX9", dynamik: "Role vs. exclusive harmony", gefahr: "Passivity, dependence", hilfreich: "Set impulses, enjoy closeness" },
+    ],
+    kurzfassung: `Acknowledge her commitment to the community concretely. Discuss the issue, not against the person. Explicitly allow "good enough" – and thereby take some of the burden of having to carry everything alone off her shoulders.`,
+  },
+  SE1: {
+    tier: "Eagle",
+    erkennung: `The self-preservation One directs her strictness less outward than inward: she wants to be "right" herself, impeccable, controlled. In my book <em>Enneagramm Zoo</em> I describe the image of the <strong>Eagle</strong>, sitting over her documents, red pen in claw – every detail is checked, no mistake is left to chance. Order is a duty for her, not an opinion. The Eagle lives with an eye for the whole and for what matters; her inner drive is to create order – not out of rigidity, but out of a deep need for clarity and correctness.<br><br>Unlike the social or sexual One, this strictness shows first in her own behavior: before the SE1 corrects others, she has long since corrected herself. Anyone who understands this reads her criticism not as an attack, but as the same standard she applies to herself first.`,
+    wunde: {
+      titel: "The wound behind it",
+      text: `What drives this strictness is the <strong>Wound of Imperfection</strong>: the deep feeling that reality can never fully match the inner ideal. The belief behind it: "The world should be better – and I am responsible for that" and underneath: "If I don't control everything, it will go wrong." The passion of anger shows up in the SE1 as restrained, inward-directed resentment – barely acted out, but constantly felt. Anyone who understands this reads her corrections not as being a know-it-all, but as an attempt to calm a constant inner tension through order.`,
+    },
+    fluegel: {
+      titel: "Wing nuance: SE1w9 and SE1w2",
+      w1: { code: "SE1w9", route: "beruehmte-konrad-adenauer", name: "Konrad Adenauer", text: `the strictness plays out more calmly, more patiently, over a longer horizon – less eruption, more quiet persistence over years. Responds well to reliability and clearly kept agreements; confrontation should be factual and without time pressure.` },
+      w2: { code: "SE1w2", route: "beruehmte-marie-kondo", name: "Marie Kondo", text: `order takes on a warmer, more serving note – correctness becomes a gift to others, not just an end in itself. Responds well to thanks and visible appreciation for the care invested, less well to pure matter-of-factness without a personal touch.` },
+    },
+    stressWachstum: {
+      stress: `Under stress the SE1 moves toward <strong>Type 4</strong>: the otherwise controlled mood tips into self-pity, moodiness, or the feeling of being misunderstood and alone with all the responsibility. If you recognize this pattern, it's a signal of heightened inner pressure – not a good moment for more factual arguments, a good moment for emotional sympathy.`,
+      wachstum: `In growth she moves toward <strong>Type 7</strong>: lighter, more spontaneous, more humorous – the strictness relaxes, without giving up her own values, because a greater basic trust emerges.`,
+    },
+    ankommt: [
+      `<strong>Concrete recognition for diligence and responsibility.</strong> A casual "good enough" feels devaluing. What works is precisely naming what was done well – the SE1 notices immediately whether praise is genuine or merely polite.`,
+      `<strong>Showing reliability, not just promising it.</strong> Kept agreements are the real currency of trust for the SE1 – more than big words.`,
+      `<strong>Starting factually, but opening room for feeling.</strong> A calm, clear start builds safety; the real depth only emerges once emotion also gets a place, without being dismissed as "not relevant."`,
+    ],
+    trigger: [
+      { trigger: `Playing down disorder or carelessness ("it's not that bad")`, warum: `Reinforces the inner pressure of having to handle it alone, and comes across as irresponsibility`, alternative: `Acknowledge the problem factually and agree together on a next step` },
+      { trigger: `Directly criticizing the SE1's strictness ("you're too strict/pedantic")`, warum: `Hits the moral core and is experienced as an attack on her own integrity`, alternative: `Describe the effect instead of judging the person – "that feels constraining to me"` },
+      { trigger: `Spontaneous changes of plan without warning`, warum: `Triggers fear of loss of control, even when the change is objectively harmless`, alternative: `Give advance notice where possible – even short notice is better than none` },
+      { trigger: `Dismissing feelings as "not relevant" (staying factual at all costs)`, warum: `This is exactly the pattern that keeps the SE1 herself furthest from real connection – mirrored back, it reinforces the isolation`, alternative: `Actively ask about the emotional side, even if the SE1 doesn't bring it up herself` },
+    ],
+    fuehrung: {
+      titel: "From leadership practice: when correctness overshadows responsibility",
+      text: `In our book <em>Führung mit Fundament</em> (which I wrote together with my son David L. Rathmer) we describe the case of a department head whose team increasingly contributes fewer of its own suggestions, asks more defensively, delegates more upward – while he himself thinks: "People aren't as careful as they used to be, I constantly have to sharpen things up." The turning point comes through a simple coaching question: "What's the atmosphere like in your meetings – emotionally, too?" His first answer: "That's not relevant here."<br><br>Translated for the SE1, this means: the ambition to do everything right can, unnoticed, subordinate relationship to correctness. Not every deviation from the standard is a mistake that must be corrected. Anyone working with an SE1 or leading one helps her more with the question <strong>"Please explain to me what the thought behind this is"</strong> than with immediate correction.`,
+      hinweis: `In the book we describe this case at the level of the base type 1, not subtype-specific. The self-preservation coloring – control shows first in one's own behavior, only then in the environment – is an addition based on the remaining sources, not a literal quote.`,
+    },
+    beziehung: {
+      titel: `Relationship risk & healing movement`,
+      risiko: `The tendency toward criticism and perfectionism strains relationships – partners often feel that they "never measure up," even though that was never the intention.`,
+      leitfragen: `Am I correcting because it's truly necessary – or because imperfection itself makes me uneasy?`,
+      hilfreich: `Model mildness, don't demand it: show that mistakes are allowed to have room in the other person too, without the relationship becoming any less safe as a result.`,
+    },
+    pairing: [
+      { partner: "SE1", dynamik: "Principle meets principle (order, discipline)", gefahr: "Rigidity, being a know-it-all, micro-criticism", hilfreich: "Allow imperfection, invite humor" },
+      { partner: "SO1", dynamik: "Principle vs. community", gefahr: "Moral criticism", hilfreich: "Keep rules and relationship in balance" },
+      { partner: "SX1", dynamik: "Order vs. intensity", gefahr: "Strictness meets drama", hilfreich: "Don't pit structure against passion" },
+      { partner: "SE2", dynamik: "Duty vs. care", gefahr: "Overload", hilfreich: "Share work fairly" },
+      { partner: "SO2", dynamik: "Principle vs. helping in the field", gefahr: "Being smothered by morality and care", hilfreich: "Recognition instead of criticism" },
+      { partner: "SX2", dynamik: "Strictness vs. exclusive care", gefahr: "Possessiveness", hilfreich: "Name boundaries and closeness clearly" },
+      { partner: "SE3", dynamik: "Principle vs. achievement", gefahr: "Harshness against effect", hilfreich: "Authenticity before speed" },
+      { partner: "SO3", dynamik: "Order vs. status", gefahr: "Image battle", hilfreich: "Emphasize substance over facade" },
+      { partner: "SX3", dynamik: "Principle vs. shine", gefahr: "Deception", hilfreich: "Don't suppress feelings" },
+      { partner: "SE4", dynamik: "Principle vs. specialness", gefahr: "Criticism vs. drama", hilfreich: "Give room for emotion" },
+      { partner: "SO4", dynamik: "Morality vs. self-expression", gefahr: "Blame-shifting", hilfreich: "Value emotions" },
+      { partner: "SX4", dynamik: "Principle vs. exclusive depth", gefahr: "Duty vs. drama", hilfreich: "Dose depth, allow feeling" },
+      { partner: "SE5", dynamik: "Principle vs. withdrawal", gefahr: "Coldness, isolation", hilfreich: "Respect privacy, open dialogue" },
+      { partner: "SO5", dynamik: "Order vs. thinking", gefahr: "Rigid rules, distance", hilfreich: "Explain rules, show warmth" },
+      { partner: "SX5", dynamik: "Principle vs. exclusive knowledge", gefahr: "Control vs. secrecy", hilfreich: "Protect privacy, build intimacy slowly" },
+      { partner: "SE6", dynamik: "Principle vs. security", gefahr: "Over-control, distrust", hilfreich: "Name security, dare to trust" },
+      { partner: "SO6", dynamik: "Order vs. loyalty", gefahr: "Fear of mistakes, strictness", hilfreich: "Practice tolerance for error" },
+      { partner: "SX6", dynamik: "Principle vs. exclusive commitment", gefahr: "Clinging, jealousy", hilfreich: "Voice distrust, maintain closeness" },
+      { partner: "SE7", dynamik: "Principle vs. variety", gefahr: "Discipline vs. restlessness", hilfreich: "Practice flexibility, allow joy" },
+      { partner: "SO7", dynamik: "Order vs. optimism", gefahr: "Superficiality instead of depth", hilfreich: "Combine substance and lightness" },
+      { partner: "SX7", dynamik: "Principle vs. exclusive adventure", gefahr: "Duty vs. flight", hilfreich: "Plan adventure, loosen duty" },
+      { partner: "SE8", dynamik: "Principle vs. power", gefahr: "Control vs. dominance", hilfreich: "Show respect, share power" },
+      { partner: "SO8", dynamik: "Order vs. leadership", gefahr: "Duel of authorities", hilfreich: "Maintain transparency, avoid abuse of power" },
+      { partner: "SX8", dynamik: "Principle vs. exclusive force", gefahr: "Possessive, harsh", hilfreich: "Show warmth, not just power" },
+      { partner: "SE9", dynamik: "Principle vs. harmony", gefahr: "Rigidity vs. passivity", hilfreich: "Honor calm, encourage activity" },
+      { partner: "SO9", dynamik: "Order vs. community peace", gefahr: "Standstill, addiction to harmony", hilfreich: "Address conflicts instead of smoothing them over" },
+      { partner: "SX9", dynamik: "Principle vs. exclusive harmony", gefahr: "Passivity, dependence", hilfreich: "Set impulses, enjoy closeness" },
+    ],
+    kurzfassung: `Give concrete recognition for diligence and responsibility. Show reliability instead of just promising it. Start factually, but actively open room for feeling – and don't dismiss emotions as "not relevant."`,
+  },
+  SO4: {
+    tier: "Armadillo",
+    erkennung: `The social Four doesn't carry her depth hidden away like the SE4, but visibly into the group – she throws herself into a project, a circle of friends, a cause, and behind it stands a quiet, often unspoken wish: to be seen, precisely in what makes her unique. If the resonance fails to appear, that quickly tips into disappointment – "always the others," a feeling of being overlooked despite having visibly contributed.<br><br>The image from my book <em>Enneagramm Zoo</em> captures the core: the <strong>Armadillo</strong> – armored, but sensitive underneath. It constantly compares itself ("Where do I stand? Am I enough?"), seeks resonance, but out of fear of rejection often shows only the shiny outside of its armor. Unlike the Dove (SE4), which withdraws inward, the Armadillo rolls outward – the same Four longing, just louder, more social, more visible.`,
+    wunde: {
+      titel: "The wound behind it",
+      text: `What drives these behaviors is the <strong>Wound of Separation</strong>: the deep feeling of being cut off from belonging and social recognition – not because of outer circumstances, but because of a felt inner lack. The belief behind it: "Others have something I lack – my being different separates me." The passion of envy shows up in the SO4 specifically as painful comparison in the social space: others seem to belong more easily. Anyone who understands this no longer reads her behavior as vanity, but as what it is – an attempt to heal a felt separation through visibility.`,
+    },
+    fluegel: {
+      titel: "Wing nuance: SO4w3 and SO4w5",
+      w1: { code: "SO4w3", route: "beruehmte-michael-jackson", name: "Michael Jackson", text: `the longing is carried outward ambitiously. Significance is meant not just to be felt, but visibly <em>achieved</em>. Responds well to concrete, publicly effective recognition of her uniqueness – the stage here is no contradiction to authenticity, but her preferred means of expression.` },
+      w2: { code: "SO4w5", route: "beruehmte-john-lennon", name: "John Lennon", text: `more introspective, more observing. Hurt leads to withdrawal rather than performance. Responds better to quiet, unhurried space than to grand gestures – too much stage quickly feels intrusive here rather than affirming.` },
+    },
+    stressWachstum: {
+      stress: `Under stress the SO4 moves toward <strong>Type 2</strong>: she becomes needier, more clingy, begins to make subtle reproaches or help unasked in order to "earn" belonging. If you recognize this pattern, it's a signal of heightened inner pressure – not a good moment for criticism, a good moment for quiet, unasked-for attention.`,
+      wachstum: `In growth she moves toward <strong>Type 1</strong>: more grounded, more disciplined, more principled – significance is sought less urgently, because a more stable inner standard emerges.`,
+    },
+    ankommt: [
+      `<strong>Recognition that relates to what's special about her – not to function.</strong> A generic "well done" fizzles out. What works is concrete acknowledgment of what this person uniquely contributed – her perspective, her instinct, her contribution that would not have come from anyone else.`,
+      `<strong>Genuine attention, not empty phrases.</strong> The SO4 senses very precisely the difference between polite routine acknowledgment and actually being seen. Better rare but real.`,
+      `<strong>Allowing room for depth – without losing yourself in it.</strong> A conversation that stays on the surface is experienced as unsatisfying. At the same time, not every conversation has to go deep.`,
+    ],
+    trigger: [
+      { trigger: `Drawing comparisons with others ("X does that too, after all")`, warum: `Confirms the inner fear of not being enough/not special`, alternative: `Acknowledge the achievement/idea on its own terms, without a comparative frame` },
+      { trigger: `Giving recognition only publicly/in front of the group, never one-on-one`, warum: `The SO4 can mistake public resonance for genuine affection – that satisfies briefly, but doesn't truly nourish`, alternative: `Additionally give quiet, personal appreciation` },
+      { trigger: `Staying matter-of-fact and brief when there's actually a conflict/tension in the room`, warum: `Is experienced as avoidance/coldness, reinforces withdrawal`, alternative: `Name the tension, even if it's uncomfortable` },
+      { trigger: `Voicing criticism without any emotional framing`, warum: `Hits not just the issue, but her self-image`, alternative: `Embed criticism in a sentence that acknowledges the person as a whole` },
+    ],
+    fuehrung: {
+      titel: "From leadership practice: the Armadillo trap of too much depth",
+      text: `In our book <em>Führung mit Fundament</em> (which I wrote together with my son David L. Rathmer) we describe (at the level of base type 4, not specifically SO4) the case of a department head who leads from depth and meaning – and in doing so overlooks that her team eventually just reacts with exhaustion, because every little thing turns into a weighty question of principle. The decisive sentence from a colleague: <em>"Your depth is impressive. But it barely leaves room to breathe."</em><br><br>Translated for the SO4, this means: the wish for everything to be authentic and meaningful can overwhelm the other person. Not every piece of feedback, not every meeting has to become a question of meaning. Anyone working with an SO4 or leading one helps her more with the sentence <strong>"This is good as it is"</strong> than with constant deepening.`,
+      hinweis: `In the book we describe this case at the level of the base type 4, not subtype-specific. The social coloring – significance is sought especially in the group context – is an addition based on the remaining sources, not a literal quote.`,
+    },
+    beziehung: {
+      titel: `Relationship risk & healing movement`,
+      risiko: `Covert comparison, subtle reproaches when resonance fails to appear.`,
+      leitfragen: `Do I link love/appreciation to the stage? Do I mistake resonance for genuine affection?`,
+      hilfreich: `Deliberately decouple one-on-one time/private conversations from the group situation – don't just acknowledge her in the big round, but also off the stage.`,
+    },
+    pairing: [
+      { partner: "SE1", dynamik: "Morality vs. self-expression", gefahr: "Blame-shifting", hilfreich: "Value emotions" },
+      { partner: "SO1", dynamik: "Role vs. expression", gefahr: "Comparison, inferiority vs. pressure to conform", hilfreich: "Mirror feelings, don't normalize them" },
+      { partner: "SX1", dynamik: "Intensity vs. self-expression", gefahr: "Competition for attention", hilfreich: "Acknowledge each other's expression" },
+      { partner: "SE2", dynamik: "Care meets longing for recognition", gefahr: "Touchiness and covert reproaches", hilfreich: "Mirror sensitivities respectfully" },
+      { partner: "SO2", dynamik: "Mutual search for recognition in the social field", gefahr: "Drama or over-emphasis on the outward image", hilfreich: "Cultivate emotional honesty" },
+      { partner: "SX2", dynamik: "Devotion seeks expression", gefahr: "Touchiness and covert expectations", hilfreich: "Voice expectations openly instead of silently keeping score" },
+      { partner: "SE3", dynamik: "Success in front of an audience vs. longing for authenticity", gefahr: "SO4 experiences SE3 as superficial", hilfreich: "Balance recognition and resonance" },
+      { partner: "SO3", dynamik: "Self-image and recognition in the social field", gefahr: "Dramatization, image fixation", hilfreich: `Substance over staging – "less stage, more real"` },
+      { partner: "SX3", dynamik: "Intensity + stage", gefahr: "Competition for attention", hilfreich: "Take turns in the spotlight instead of competing" },
+      { partner: "SE4", dynamik: "Withdrawal vs. stage", gefahr: "SE4 feels overlooked, SO4 feels constrained", hilfreich: "Create alternating spaces for privacy and visibility" },
+      { partner: "SO4", dynamik: "Resonance and authenticity", gefahr: "mutual touchiness", hilfreich: "Clarify the difference between projection and reality" },
+      { partner: "SX4", dynamik: "Intensity and exclusivity", gefahr: "dramatic swings", hilfreich: "Deliberately schedule periods of calm" },
+      { partner: "SE5", dynamik: "Feeling meets distance", gefahr: "Withdrawal experienced as an affront", hilfreich: "Discuss a clear balance of closeness and withdrawal" },
+      { partner: "SO5", dynamik: "Need for resonance vs. reserve", gefahr: "Invisibility interpreted as rejection", hilfreich: "Practice small signs of connection" },
+      { partner: "SX5", dynamik: "Intensity vs. withdrawal", gefahr: "Overwhelm", hilfreich: "Accept a slower pace" },
+      { partner: "SE6", dynamik: "Feeling vs. security", gefahr: "Too much skepticism", hilfreich: "Name feelings instead of only checking behavior" },
+      { partner: "SO6", dynamik: "Resonance vs. loyalty", gefahr: "Too much control", hilfreich: "Recognize the difference between loyalty and control" },
+      { partner: "SX6", dynamik: "Feeling vs. exclusivity", gefahr: "Jealousy", hilfreich: "Create security through transparency" },
+      { partner: "SE7", dynamik: "Feeling vs. distraction", gefahr: "SO4 feels not taken seriously", hilfreich: "Agree on set times for seriousness" },
+      { partner: "SO7", dynamik: "Longing vs. stage", gefahr: "Superficiality", hilfreich: "Seek a balance between depth and fun" },
+      { partner: "SX7", dynamik: "Intensity vs. adventure", gefahr: "Impulsiveness hurts the longing", hilfreich: "Make clear agreements" },
+      { partner: "SE8", dynamik: "Feeling vs. power", gefahr: "SO4 feels steamrolled", hilfreich: "Voice feelings courageously" },
+      { partner: "SO8", dynamik: "Resonance vs. influence", gefahr: "Dominance", hilfreich: "Mutually respect boundaries" },
+      { partner: "SX8", dynamik: "Longing vs. intensity", gefahr: "Explosive conflicts", hilfreich: "Deliberately set pauses in arguments" },
+      { partner: "SE9", dynamik: "Feeling vs. harmony", gefahr: "Conflicts get dragged out", hilfreich: "Address feelings in good time" },
+      { partner: "SO9", dynamik: "Resonance vs. peace", gefahr: "Suppression", hilfreich: "Practice actively asking" },
+      { partner: "SX9", dynamik: "Longing vs. merging", gefahr: "Dependency", hilfreich: "Preserve independence" },
+    ],
+    kurzfassung: `Address what's special about her, not just her achievements. Give recognition even when no one is watching. Take her depth seriously – but also give her permission that not everything has to carry weighty meaning.`,
+  },
+  SX1: {
+    tier: "Black Mamba",
+    erkennung: `The sexual One carries her strictness neither quietly inward like the SE1 nor as a concern of the group like the SO1 – she bundles it like a laser beam onto the one thing that matters most to her: the one relationship, the one project, the one person she wants to perfect. In my book <em>Enneagramm Zoo</em> I describe the image of the <strong>Black Mamba</strong>, whose flashing eyes and bared fang tolerate no excuses – "It has to be right, or it's wrong." Her gaze checks, her judgment strikes. Where the Goose (SO1) says "This is how it's done," the Mamba hisses: "This is how it must be."<br><br>This intensity is not coldness, but inverted closeness: the SX1 invests all her reforming power precisely where she loves the most. Anyone who understands this reads her harshness not as rejection, but as an – often overdosed – form of devotion.`,
+    wunde: {
+      titel: "The wound behind it",
+      text: `As with every One, behind this lies the <strong>Wound of Imperfection</strong>: the deep feeling that reality can never fully match the inner ideal. In the SX1 this condenses onto a single focal point: "This one relationship, this one person – they have to be right, or everything is wrong." The passion of anger shows up here most directly of all three variants: not restrained inner resentment as with the SE1, not moral zeal as with the SO1, but immediate, demanding reaction exactly where it hurts the most – in closeness. Small disappointments quickly become proof of insufficient devotion. Anyone who understands this reads her sharpness not as a need for control, but as a passion for truth that knows no other way to express itself than through confrontation.`,
+    },
+    fluegel: {
+      titel: "Wing nuance: SX1w9 and SX1w2",
+      w1: { code: "SX1w9", route: "beruehmte-klaus-kinski", name: "Klaus Kinski", text: `the intensity becomes even more uncompromising, rawer, less socially cushioned – a fury that takes little account of convention. Barely responds to gentle appeals; needs an equally direct, fearless counter-presence that holds its ground without escalating itself.` },
+      w2: { code: "SX1w2", route: "beruehmte-jamie-lee-curtis", name: "Jamie Lee Curtis", text: `the strictness takes on a warmer, more caring note – perfectionism becomes the wish to truly treat the loved person well, not just to correct them. Responds well to personal closeness and visible affection, less well to distanced matter-of-factness without an emotional connection.` },
+    },
+    stressWachstum: {
+      stress: `Under stress the SX1 moves, like every One, toward <strong>Type 4</strong>: the otherwise channeled sharpness tips into drama, self-pity, or the feeling of remaining misunderstood despite all her devotion. If you recognize this pattern, it's a signal of heightened inner pressure – not a good moment for further confrontation, a good moment for calm, reliable closeness.`,
+      wachstum: `In growth she moves toward <strong>Type 7</strong>: lighter, more playful – the intensity remains, but loses its grimness, because a greater basic trust in the relationship emerges.`,
+    },
+    ankommt: [
+      `<strong>Full, undivided presence.</strong> The SX1 senses immediately whether attention is genuine or merely polite – half-hearted attention feels worse than open distance.`,
+      `<strong>Honesty instead of evasion.</strong> Whoever clearly says what's going on is respected. The SX1 reads diplomatic beating around the bush as covering something up and reacts to it more sharply than to an uncomfortable truth.`,
+      `<strong>Recognition of the intensity itself, not just its results.</strong> The passion with which she devotes herself to a cause or a person is valuable to her in itself – naming that, instead of only praising the finished result, has a deeper effect.`,
+    ],
+    trigger: [
+      { trigger: `Treating commitments to the relationship or shared plans half-heartedly`, warum: `Is not experienced as a small thing, but as proof of insufficient devotion – exactly the sore spot`, alternative: `Actively address small deviations before they turn into a silent reproach` },
+      { trigger: `Dismissing her intensity as "too much" or "exaggerated"`, warum: `Hits the moral core – the SX1 then experiences herself as fighting alone for something that should actually matter to both`, alternative: `Name the concern behind the sharpness before commenting on the sharpness itself` },
+      { trigger: `Voicing criticism evasively or not at all when something actually bothered you`, warum: `Is read as insincerity – the SX1 distrusts smoothed-over harmony more than open conflict`, alternative: `Say clearly and immediately what's going on – even if it's uncomfortable` },
+      { trigger: `Responding to a sharp outburst immediately with a counter-attack`, warum: `Reinforces the spiral of escalation, even though hurt usually lies behind the anger`, alternative: `Step out briefly, then respond with "What hit you so hard?" instead of defense` },
+    ],
+    fuehrung: {
+      titel: "From leadership practice: when perfection crushes the team",
+      text: `In our book <em>Führung mit Fundament</em> (which I wrote together with my son David L. Rathmer) we describe a Type 1 team leader who corrects every detail – the team increasingly feels disempowered, she herself increasingly overloaded, because no one decides independently anymore. Her blind spot: she doesn't recognize that her own standards are blocking others from taking on responsibility.<br><br>Translated for the SX1, this means: the intensity with which she directs her standard at the one person or the one project can paralyze exactly where trust should actually grow. Inner permission for "good enough," delegation as a trust exercise, mistakes as a field for learning rather than a moral question – these are the levers described in the book for Type 1 in general.`,
+      hinweis: `In the book we describe this case at the level of the base type 1, not subtype-specific. The sexual coloring – concentrating all the intensity on a single relationship rather than on a system or a group – is an addition based on the remaining sources, not a literal quote.`,
+    },
+    beziehung: {
+      titel: `Relationship risk & healing movement`,
+      risiko: `The concentrated intensity can turn the partner into a permanent test bench – every disappointment weighs heavily, because it is measured against the one relationship in which the most security is actually expected.`,
+      leitfragen: `Do I demand perfection from this relationship because it's genuinely lacking – or because imperfection here unsettles me the most?`,
+      hilfreich: `Voice your own sharpness only after a pause, then put appreciation before wish – translate harshness into clarity, don't suppress it.`,
+    },
+    pairing: [
+      { partner: "SE1", dynamik: "Order vs. intensity", gefahr: "Strictness meets drama", hilfreich: "Don't pit structure against passion" },
+      { partner: "SO1", dynamik: "Role × exclusivity", gefahr: "Control vs. absorption", hilfreich: "Protect privacy, dose the stage" },
+      { partner: "SX1", dynamik: "Intensity meets intensity", gefahr: "Overwhelm, pressure to merge", hilfreich: "Schedule pauses and time alone" },
+      { partner: "SE2", dynamik: "Intensity vs. care", gefahr: "Clinging, mutual absorption", hilfreich: "Name needs clearly, respect boundaries" },
+      { partner: "SO2", dynamik: "Intensity vs. community care", gefahr: "Jealousy over outside contacts", hilfreich: "Balance between one-on-one time and the public" },
+      { partner: "SX2", dynamik: "Intensity meets care", gefahr: "Over-attachment, dependency", hilfreich: "Preserve independence" },
+      { partner: "SE3", dynamik: "Intensity vs. achievement", gefahr: "Closeness becomes purpose, overheating", hilfreich: "Leave room for genuine feelings" },
+      { partner: "SO3", dynamik: "Intensity vs. outward effect", gefahr: "Competition between stage and intimacy", hilfreich: "Create exclusive time without an audience" },
+      { partner: "SX3", dynamik: "Intensity × shine", gefahr: "Dramatic scenes, self-display", hilfreich: "Cultivate authenticity over show" },
+      { partner: "SE4", dynamik: "Intensity × uniqueness", gefahr: "Dramatic merging, focus on pain", hilfreich: "Regulate the dose of intensity" },
+      { partner: "SO4", dynamik: "Intensity × self-expression", gefahr: "Competition for attention", hilfreich: "Acknowledge each other's expression" },
+      { partner: "SX4", dynamik: "Intensity × longing", gefahr: "Flooding, drama", hilfreich: "Clear boundaries, emotional grounding" },
+      { partner: "SE5", dynamik: "Intensity vs. withdrawal", gefahr: "Closeness-distance spiral", hilfreich: "Dose closeness, respect free space" },
+      { partner: "SO5", dynamik: "Intensity vs. observation", gefahr: "Misunderstanding closeness vs. distance", hilfreich: "Address closeness clearly, don't force it" },
+      { partner: "SX5", dynamik: "Intensity × distance", gefahr: "Withdrawal + absorption", hilfreich: "Agree on fixed times for exchange" },
+      { partner: "SE6", dynamik: "Intensity vs. loyalty", gefahr: "Distrust, checking up", hilfreich: "Show security through reliability" },
+      { partner: "SO6", dynamik: "Intensity vs. security", gefahr: "Control, jealousy", hilfreich: "Build trust step by step" },
+      { partner: "SX6", dynamik: "Intensity × doubt", gefahr: "Control + insecurity", hilfreich: "Voice fears openly, don't hide them" },
+      { partner: "SE7", dynamik: "Intensity vs. adventure", gefahr: "Flight from pain, overstimulation", hilfreich: "Deliberately set moments of calm" },
+      { partner: "SO7", dynamik: "Intensity vs. outward enthusiasm", gefahr: "Overwrought, superficial", hilfreich: "Cultivate depth in doses" },
+      { partner: "SX7", dynamik: "Intensity × lightness", gefahr: "Restlessness, flight from closeness", hilfreich: "Seek a balance of adventure + reliability" },
+      { partner: "SE8", dynamik: "Intensity × force", gefahr: "Power struggle, dominance", hilfreich: "Share power, practice tenderness" },
+      { partner: "SO8", dynamik: "Intensity × influence", gefahr: "Control, competition", hilfreich: "Share leadership, value closeness" },
+      { partner: "SX8", dynamik: "Intensity × dominance", gefahr: "Escalation, fusion", hilfreich: "Set clear boundaries" },
+      { partner: "SE9", dynamik: "Intensity × peace", gefahr: "Withdrawal, being overlooked", hilfreich: "Take turns with initiative" },
+      { partner: "SO9", dynamik: "Intensity × harmony", gefahr: "Conflict avoidance", hilfreich: "Discuss tensions openly" },
+      { partner: "SX9", dynamik: "Intensity × calm", gefahr: "Fusion + passivity", hilfreich: "Balance activity + withdrawal" },
+    ],
+    kurzfassung: `Give her full, undivided presence instead of half attention. Say clearly what's going on instead of smoothed-over harmony – she reads evasion as insincerity. Value the intensity itself as a form of devotion, not just the finished result.`,
+  },
+  SE2: {
+    tier: "Hippopotamus",
+    erkennung: `The self-preservation Two secures closeness through the concrete: food, warmth, practical help. In my book <em>Enneagramm Zoo</em> I describe the image of the <strong>Hippopotamus</strong>, standing at the stove with an apron and a wooden spoon while the table is already richly set – barely does anyone cough before it appears with soup, a hot water bottle, and advice. Her motto: "I make sure you're taken care of." Abundance is comfort for the Hippopotamus, surplus her protection against lack.<br><br>Unlike the social or sexual Two, the care here shows itself physically, in everyday life, almost maternally – not as a grand gesture, but as a thousand small, practical acts of helping. Anyone who understands this reads her constant giving not as intrusiveness, but as her language of love: where she stays silent, she acts instead.`,
+    wunde: {
+      titel: "The wound behind it",
+      text: `Behind this lies the <strong>Wound of Forbidden Neediness</strong>: the deep feeling that one's own needs don't count or aren't allowed – only the needs of others may be shown openly. The belief: "I am loved when I am needed." The passion of pride shows up in the SE2 as the quiet conviction of being indispensable – concrete, practical, physically tangible in soup and hot water bottles rather than in words. Anyone who understands this reads her care not as control, but as the only way she knows to secure closeness without having to admit her own neediness.`,
+    },
+    fluegel: {
+      titel: "Wing nuance: SE2w1 and SE2w3",
+      w1: { code: "SE2w1", route: "beruehmte-greta-thunberg", name: "Greta Thunberg", text: `care takes on a principled, almost missionary note – giving is tied to a clear claim to correctness, less diffusely warm, more focused and consistent. Responds well to seriousness and clear commitments, badly to arbitrariness or half-hearted promises.` },
+      w2: { code: "SE2w3", route: "beruehmte-oprah-winfrey", name: "Oprah Winfrey", text: `care becomes more energetic, more visible, tinged with a dash of ambition – helping also becomes an achievement that deserves recognition. Responds well to enthusiastic, publicly visible appreciation, less well to quiet, unspoken gratitude.` },
+    },
+    stressWachstum: {
+      stress: `Under stress the SE2 moves toward <strong>Type 8</strong>: quiet care suddenly turns into entitlement, control, or open aggression – "After everything I've done!" If you recognize this pattern, it's a signal of heightened inner pressure – not a good moment to accept more help, a good moment to openly address the SE2's own exhaustion.`,
+      wachstum: `In growth she moves toward <strong>Type 4</strong>: she allows herself to perceive and express her own feelings and needs, instead of constantly hiding them behind giving – care becomes more genuine, because it is no longer her only justification for existing.`,
+    },
+    ankommt: [
+      `<strong>Actively noticing and concretely naming her care.</strong> A casual "thanks" isn't enough for the SE2 – she notices precisely whether the effort invested is truly seen or just politely acknowledged.`,
+      `<strong>Asking on your own what she herself needs.</strong> The SE2 will rarely ask on her own – actively inquiring gives her a rare permission to voice her own needs.`,
+      `<strong>Sometimes accepting help without immediately reciprocating it.</strong> The reflex to immediately balance out every act of attention unintentionally devalues the gift – genuine acceptance is often more valuable to the SE2 than a quick return favor.`,
+    ],
+    trigger: [
+      { trigger: `Rejecting help outright, without acknowledging the gesture itself`, warum: `Hits her way of expressing love right to the heart – experienced as a rejection of her person, not just the action`, alternative: `Acknowledge the gesture even when the concrete help isn't needed right now: "That's kind, but I don't need that right now"` },
+      { trigger: `Taking her care and invested effort for granted`, warum: `Reinforces the feeling of having value only through usefulness, never for one's own sake`, alternative: `Regularly voice unprompted thanks and appreciation – even for small things` },
+      { trigger: `Never asking about her own needs on your own`, warum: `The SE2 will barely name them herself – silence is then read as disinterest, even though it's only reserve`, alternative: `Ask actively and concretely: "What do you actually need right now?"` },
+      { trigger: `Setting boundaries when her care becomes intrusive without naming it directly`, warum: `Withdrawal without explanation is experienced as withdrawal of love and reinforces her fear of loss`, alternative: `Say kindly but clearly: "I appreciate this, but I need some space right now"` },
+    ],
+    fuehrung: {
+      titel: "From leadership practice: helping as control",
+      text: `In our book <em>Führung mit Fundament</em> (which I wrote together with my son David L. Rathmer) we describe how Type 2 reacts under pressure: hurt, indirectly, overly caring – the goal is to secure the relationship, not to clarify the matter. Anyone leading an SE2 helps her more with calm boundaries, clearly naming the issue, and recognition that isn't tied to compliance than with even more emotional attentiveness to every bit of care she invests. Type 2 settles down when the relationship isn't coupled to compliance – when it becomes clear that belonging doesn't have to be earned first.<br><br>Translated for the SE2, this means: practical, physical care can unnoticed turn into a silent ledger – "but I've done so much for you." Contact needs room here, without building up subtle relational debts.`,
+      hinweis: `In the book we describe this dynamic at the level of the base type 2, not subtype-specific. The self-preservation coloring – care shows itself above all concretely, practically, in the everyday – is an addition based on the remaining sources, not a literal quote.`,
+    },
+    beziehung: {
+      titel: `Relationship risk & healing movement`,
+      risiko: `Constant, often unasked-for giving can overwhelm or absorb the partner – covertly, the expectation resonates that so much care must eventually be reciprocated.`,
+      leitfragen: `Am I helping because it's genuinely needed – or because otherwise I don't feel safe being loved?`,
+      hilfreich: `Ask before helping whether support is even wanted – and practice voicing your own needs instead of hiding them behind giving.`,
+    },
+    pairing: [
+      { partner: "SE1", dynamik: "Duty vs. care", gefahr: "Overload", hilfreich: "Share work fairly" },
+      { partner: "SO1", dynamik: "Role × care (practical)", gefahr: "Duty smothers spontaneity", hilfreich: "Share tasks, show gratitude" },
+      { partner: "SX1", dynamik: "Intensity vs. care", gefahr: "Clinging, mutual absorption", hilfreich: "Name needs clearly, respect boundaries" },
+      { partner: "SE2", dynamik: "Helping meets helping – closeness through care", gefahr: "Over-caring, covert expectations", hilfreich: "Clearly name your own wishes" },
+      { partner: "SO2", dynamik: "Practical help meets social networking", gefahr: "One feels left in the background", hilfreich: "Consciously agree on roles" },
+      { partner: "SX2", dynamik: "Everyday care meets intensity in intimacy", gefahr: "Clinging or fear of loss", hilfreich: "Maintain balance between closeness and personal space" },
+      { partner: "SE3", dynamik: "Helping care meets everyday achievement", gefahr: "Worth only through usefulness/success", hilfreich: "Make genuine feeling visible alongside function" },
+      { partner: "SO3", dynamik: "Helping in private meets impact in the social sphere", gefahr: "One stays invisible", hilfreich: "Express gratitude on both sides" },
+      { partner: "SX3", dynamik: "Care meets shine in the exclusive relationship", gefahr: "Dependency on recognition", hilfreich: "Weight authenticity higher than image" },
+      { partner: "SE4", dynamik: "Practical care meets emotional depth", gefahr: "Misunderstanding between helping and experiencing", hilfreich: "Put listening before solutions" },
+      { partner: "SO4", dynamik: "Care meets longing for recognition in the field", gefahr: "Touchiness and covert reproaches", hilfreich: "Mirror sensitivities respectfully" },
+      { partner: "SX4", dynamik: "Care meets intensity in depth", gefahr: "Wish to merge, overwhelm", hilfreich: "Clearly name your own boundary" },
+      { partner: "SE5", dynamik: "Helping care meets withdrawal into knowledge", gefahr: "Absorption vs. withdrawal", hilfreich: "Offer closeness in doses" },
+      { partner: "SO5", dynamik: "Care meets social observation", gefahr: "Distance vs. willingness to help", hilfreich: "Combine sharp analysis with practical help" },
+      { partner: "SX5", dynamik: "Care meets exclusive distance", gefahr: "Need for closeness collides with urge for freedom", hilfreich: "Don't take withdrawal personally" },
+      { partner: "SE6", dynamik: "Helping care meets everyday security", gefahr: "Over-responsibility and worry", hilfreich: "Share responsibilities fairly" },
+      { partner: "SO6", dynamik: "Care meets loyalty in the social sphere", gefahr: "Over-control, underlying fears", hilfreich: "Address distrust openly" },
+      { partner: "SX6", dynamik: "Helping meets exclusive loyalty", gefahr: "Absorption or dependency", hilfreich: "Encourage independence" },
+      { partner: "SE7", dynamik: "Care meets everyday optimism", gefahr: "Helping gets brushed aside by lightness", hilfreich: "Alternate humor and seriousness" },
+      { partner: "SO7", dynamik: "Care meets social enthusiasm", gefahr: "Overwhelm from activity", hilfreich: "Coordinate pace together" },
+      { partner: "SX7", dynamik: "Helping meets exclusive enthusiasm", gefahr: "Clinging vs. flight", hilfreich: "Agree on boundaries early" },
+      { partner: "SE8", dynamik: "Helping meets strength and control", gefahr: "Dominance vs. over-caring", hilfreich: "Show respect for strength" },
+      { partner: "SO8", dynamik: "Care meets leadership in the field", gefahr: "Hierarchy and dependency", hilfreich: "Emphasize equality" },
+      { partner: "SX8", dynamik: "Helping meets exclusive power", gefahr: "Fusion or dominance", hilfreich: "Preserve your own boundaries" },
+      { partner: "SE9", dynamik: "Care meets harmony", gefahr: "Conflict avoidance, covert expectations", hilfreich: "Address conflicts" },
+      { partner: "SO9", dynamik: "Helping meets social mediation", gefahr: "Dissolving into adaptation", hilfreich: "Make your own needs visible" },
+      { partner: "SX9", dynamik: "Care meets exclusive harmony", gefahr: "Fusion without independence", hilfreich: "Preserve your own footing" },
+    ],
+    kurzfassung: `Accept help without immediately balancing it out, and concretely acknowledge the care invested. Actively ask what she herself needs – she'll hardly say it on her own. Set boundaries kindly but clearly, instead of withdrawing without a word.`,
+  },
+};
+
+function kommunikationsguidePage() {
+  const SUBTYPES = ["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"];
+  const profCode = getProfile().toUpperCase();
+  const activeSubtype = kommGuideState.subtypeCode || (SUBTYPES.includes(profCode) ? profCode : null);
+
+  const subtypeGrid = SUBTYPES.map(code => {
+    const hasData = !!KOMMUNIKATIONSGUIDE[code];
+    const isSel = code === activeSubtype;
+    const isMe = code === profCode;
+    const tc = typeColorFromCode(code);
+    const borderC = tc;
+    const bgC = isSel ? `color-mix(in srgb,${tc} 18%,var(--paper))` : `color-mix(in srgb,${tc} 6%,var(--paper))`;
+    const colorC = tc;
+    const opacity = hasData ? "1" : ".45";
+    return `<button data-komm-subtype="${code}" ${!hasData ? "disabled" : ""} style="display:flex;flex-direction:column;align-items:center;gap:.25rem;padding:.4rem .5rem;border-radius:.5rem;border:1.5px solid ${borderC};background:${bgC};font-size:.78rem;font-weight:${isMe ? 700 : 500};color:${colorC};cursor:${hasData ? "pointer" : "default"};opacity:${opacity};font-family:inherit;white-space:nowrap;">
+      <span style="position:relative;width:26px;height:26px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 1.5px ${tc};display:inline-block;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+      </span>
+      <span>${code}${isMe ? " ★" : ""}</span>
+      ${!hasData ? '<span style="font-size:.6rem;font-weight:400;color:var(--muted);">soon</span>' : ""}
+    </button>`;
+  }).join("");
+
+  let resultHtml = `<p style="text-align:center;color:var(--muted);font-size:.9rem;margin-top:2rem;">Choose a subtype to learn how to best approach them in everyday life, in relationships, and in leadership.</p>`;
+
+  const g = activeSubtype ? KOMMUNIKATIONSGUIDE[activeSubtype] : null;
+  if (g) {
+    resultHtml = `
+      <div style="background:var(--paper);border:1px solid var(--copper);border-radius:1rem;padding:1.4rem 1.6rem;margin-top:1.5rem;max-width:100%;">
+        <div style="display:flex;align-items:center;gap:.8rem;margin-bottom:.3rem;">
+          <span style="position:relative;width:56px;height:56px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${typeColorFromCode(activeSubtype)};display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${activeSubtype.toLowerCase()}.jpg" alt="${g.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(activeSubtype)};left:${tierAvatarLeft(activeSubtype)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+          <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;">Communication Guide &middot; ${activeSubtype} &middot; Animal correspondence: ${g.tier}</div>
+        </div>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1rem 0 .6rem;color:var(--ink);">1. How do you recognize the ${activeSubtype}?</h3>
+        <p style="margin:0 0 .8rem;font-size:.92rem;line-height:1.75;color:var(--ink);">${g.erkennung}</p>
+
+        <div style="border-left:3px solid color-mix(in srgb, var(--copper) 45%, var(--line));padding:.8rem 1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:0 .5rem .5rem 0;margin-bottom:1rem;">
+          <div style="font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin-bottom:.4rem;">${g.wunde.titel}</div>
+          <p style="margin:0;font-size:.9rem;line-height:1.7;color:var(--ink);">${g.wunde.text}</p>
+        </div>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">${g.fluegel.titel}</h3>
+        <ul style="margin:0 0 1rem;padding-left:1.2rem;font-size:.9rem;line-height:1.7;color:var(--ink);">
+          <li style="margin-bottom:.6rem;"><strong>${g.fluegel.w1.code}</strong> (Example: <a href="javascript:void(0)" data-route="${g.fluegel.w1.route}">${g.fluegel.w1.name}</a>) &ndash; ${g.fluegel.w1.text}</li>
+          <li><strong>${g.fluegel.w2.code}</strong> (Example: <a href="javascript:void(0)" data-route="${g.fluegel.w2.route}">${g.fluegel.w2.name}</a>) &ndash; ${g.fluegel.w2.text}</li>
+        </ul>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">Stress and Growth Direction</h3>
+        <p style="margin:0 0 .6rem;font-size:.9rem;line-height:1.7;color:var(--ink);">${g.stressWachstum.stress}</p>
+        <p style="margin:0 0 1rem;font-size:.9rem;line-height:1.7;color:var(--ink);">${g.stressWachstum.wachstum}</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">2. What Really Lands in Communication</h3>
+        <ul style="margin:0 0 1rem;padding-left:1.2rem;font-size:.9rem;line-height:1.7;color:var(--ink);">
+          ${g.ankommt.map(a => `<li style="margin-bottom:.4rem;">${a}</li>`).join("")}
+        </ul>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">3. Typical Triggers &ndash; and How to Avoid Them</h3>
+        <div style="display:grid;gap:.7rem;margin-bottom:1rem;">
+          ${g.trigger.map(t => `
+            <div style="border:1px solid var(--line);border-radius:.6rem;padding:.7rem .9rem;background:var(--paper);">
+              <div style="font-size:.88rem;color:var(--ink);font-weight:600;margin-bottom:.25rem;">${t.trigger}</div>
+              <div style="font-size:.82rem;color:var(--muted);margin-bottom:.35rem;">${t.warum}</div>
+              <div style="font-size:.85rem;color:color-mix(in srgb, var(--copper) 70%, #2d6a4f);"><strong>Instead:</strong> ${t.alternative}</div>
+            </div>
+          `).join("")}
+        </div>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">4. ${g.fuehrung.titel}</h3>
+        <p style="margin:0 0 .5rem;font-size:.9rem;line-height:1.75;color:var(--ink);">${g.fuehrung.text}</p>
+        <p style="margin:0 0 1rem;font-size:.78rem;line-height:1.6;color:var(--muted);font-style:italic;">Note: ${g.fuehrung.hinweis}</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">5. ${g.beziehung.titel}</h3>
+        <p style="margin:0 0 .4rem;font-size:.9rem;line-height:1.7;color:var(--ink);"><strong>Relationship risk:</strong> ${g.beziehung.risiko}</p>
+        <p style="margin:0 0 .4rem;font-size:.9rem;line-height:1.7;color:var(--ink);"><strong>Guiding questions for yourself:</strong> ${g.beziehung.leitfragen}</p>
+        <p style="margin:0 0 1rem;font-size:.9rem;line-height:1.7;color:var(--ink);"><strong>What helps the people around them:</strong> ${g.beziehung.hilfreich}</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">6. In Interplay with Other Subtypes</h3>
+        <div style="display:grid;gap:.6rem;margin-bottom:1rem;">
+          ${g.pairing.map(p => `
+            <div style="border:1px solid var(--line);border-radius:.6rem;padding:.6rem .9rem;font-size:.85rem;line-height:1.6;color:var(--ink);">
+              <strong><span style="color:${typeColorFromCode(activeSubtype)};">${activeSubtype}</span> + <span style="color:${typeColorFromCode(p.partner)};">${p.partner}</span></strong> (${p.dynamik}): Risk &ndash; ${p.gefahr}. Helpful &ndash; ${p.hilfreich}.
+            </div>
+          `).join("")}
+        </div>
+        <p style="margin:0 0 1.2rem;font-size:.78rem;color:var(--muted);font-style:italic;">All 27 pairings (including pairing with the same subtype) from "Die Sprache unserer Beziehungen."</p>
+
+        <div style="background:rgba(180,120,0,0.08);border-left:3px solid var(--gold);padding:.9rem 1.1rem;border-radius:0 .6rem .6rem 0;">
+          <div style="font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin-bottom:.4rem;">Key Takeaway</div>
+          <p style="margin:0;font-size:.92rem;line-height:1.7;color:var(--ink);">${g.kurzfassung}</p>
+        </div>
+      </div>`;
+  }
+
+  return shell(`
+    ${pageHeader("kommunikationsguide")}
+    <section class="narrow">
+      <p class="eyebrow">Practice &middot; Relationships &amp; Leadership</p>
+      <h1>Communication Guide</h1>
+      <p class="lead-small">How do you best approach a particular subtype &ndash; in everyday life, in a close relationship, or as a leader or colleague? Based on "Die Sprache unserer Beziehungen," "Führung mit Fundament," and other works by Detlef Rathmer. Choose a subtype:</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:.4rem;margin:1.5rem 0 1rem;">
+        ${subtypeGrid}
+      </div>
+      ${resultHtml}
+      <div style="margin-top:2rem;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:10px;border:1px solid var(--line);font-size:.85rem;line-height:1.7;color:var(--muted);">
+        The Communication Guide does not replace counseling or therapy, but provides type-specific pointers for better mutual understanding.
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendations for Going Deeper</h2>
+        ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops &ndash; and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
+        ${bookTip("fuehrung-mit-fundament", "Understanding leaders and teams — the Enneagram as a leadership compass.", "Führung mit Fundament")}
+        ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+        ${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}
+        ${bookTip("die-sprache-unserer-beziehungen", "How intimacy, withdrawal, and connection manifest in relationships across all 9 types &ndash; 365 pairing combinations.", "Die Sprache unserer Beziehungen")}
+        ${bookTip("die-sprache-unserer-sexualitaet", "The language of our sexuality – what love songs and eros reveal about our deepest longings.", "Die Sprache unserer Sexualität")}
+        ${bookTip("leidenschaft-und-heilung", "27 Subtypes – passions, virtues, and paths to healing directly from therapeutic practice.", "Leidenschaft und Heilung")}
+        ${bookTip("in-der-tiefe-der-zeit", "How formative childhood experiences shape the personality structure of each Enneagram type.", "In der Tiefe der Zeit")}
+        ${bookTip("das-seminar-wenn-masken-fallen", "When the type-specific masks fall – a path to genuine self-encounter.", "Das Seminar – Wenn Masken fallen")}
+        ${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram &ndash; burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt &ndash; Burnout")}
+        ${bookTip("meta-intelligenz", "How to learn to observe one's own thoughts – gaining a new degree of inner freedom and clarity.", "Meta-Intelligenz")}
+        ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}
+      </div>
+
+      ${relatedLinks([
+        {route:"beziehungen", label:"Relationship Compass"},
+        {route:"situationskompass", label:"Situation Compass"},
+        {route:"krisenkompass", label:"Crisis Compass"},
       ])}
     </section>
   `);
@@ -74926,6 +75424,7 @@ function subtypeSchaubilderPage() {
     "triadendefizite": triadendefizitePage,
     "differenzierung": differenzierungPage,
     "situationskompass": situationskompasPage,
+    "kommunikationsguide": kommunikationsguidePage,
     "krisenkompass": krisenkompassPage,
     "dialektische-struktur": dialektischeStrukturPage,
     "verbale-signale": verbaleSignalePage,

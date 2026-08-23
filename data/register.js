@@ -1014,6 +1014,7 @@ export const registerEntries = [
 
 export const registerEntriesEN = [
 
+  { term: "Communication Guide", route: "kommunikationsguide", description: "How do I best relate to each subtype in daily life, relationships, and leadership – from Die Sprache unserer Beziehungen & Führung mit Fundament" },
   { term: "Planets & Moons of the Solar System", route: "planetenzuordnungen", description: "Knowledge: Mercury to Pluto, each celestial body assigned to an Enneagram type" },
   { term: "Country Assignments", route: "laenderzuordnungen", description: "Knowledge: 202 countries of the world, thoroughly derived from core fear, motivation and essence" },
 
