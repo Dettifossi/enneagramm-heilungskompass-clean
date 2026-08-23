@@ -96507,6 +96507,69 @@ const KOMMUNIKATIONSGUIDE = {
     ],
     kurzfassung: `Frag aktiv nach ihrer persönlichen, nicht der Gruppenmeinung – und warte die Antwort ab. Würdige ihre vermittelnde Kraft, ohne sie zur bloßen Stimme der Gruppe zu machen. Ermutige kleine Positionierungen: echte Zugehörigkeit hält Meinungsverschiedenheiten aus.`,
   },
+  SX9: {
+    tier: "Faultier",
+    erkennung: `Wo die SE9 sich in Gemütlichkeit zurückzieht und die SO9 in der Gruppe aufgeht, sucht die SX9 die vollständige Verschmelzung mit einem einzigen Menschen – wie das Faultier, das kopfüber am Ast hängt und sich so sehr mit seiner Umgebung verbindet, dass die Grenze zwischen ihm und der Welt zu verschwimmen beginnt. Sie sehnt sich nach Einheit, nach einem Zustand ohne Trennung, und verliert sich dabei leicht in den Wünschen, Stimmungen und Vorlieben des geliebten Menschen. Wer sie erkennen will, achtet auf diese sanfte, fast traumhafte Anpassungsbereitschaft: Sie wirkt entspannt und friedlich, doch dahinter steckt oft die stille Frage, ob überhaupt noch ein eigener Wille übrig ist – oder ob er längst im Anderen aufgegangen ist.`,
+    wunde: { titel: "Die Wunde dahinter", text: `Dahinter liegt die <strong>Wunde der Selbstvergessenheit</strong> – das tiefe Muster, sich selbst unsichtbar zu machen, um Konflikte zu vermeiden und Harmonie zu bewahren. Bei der SX9 löst sich das eigene Ich besonders vollständig in der Verschmelzung mit dem Anderen auf: Die eigenen Wünsche und Grenzen verschwimmen mit denen des geliebten Menschen. Der Glaubenssatz dahinter: „Erst durch die Verbindung mit dem Anderen werde ich ganz“ – darunter: „Wenn ich mich abgrenze und Eigenes will, verliere ich die Liebe und die Einheit.“` },
+    fluegel: {
+      titel: "Flügel-Nuance: SX9w8 und SX9w1",
+      w1: { code: "SX9w8", route: "beruehmte-dakota-johnson", name: "Dakota Johnson", text: `Bei stark ausgeprägtem 8er-Flügel bekommt die Verschmelzungssehnsucht eine unerwartete Widerhakigkeit – unter der weichen Oberfläche liegt eine Kraft, die sichtbar wird, sobald wirklich etwas auf dem Spiel steht, auch wenn sie sich meist nicht zeigt.` },
+      w2: { code: "SX9w1", route: "beruehmte-keanu-reeves", name: "Keanu Reeves", text: `Bei stark ausgeprägtem 1er-Flügel verbindet sich die verschmelzende Weichheit mit einer stillen, fast asketischen Zurückhaltung – Hingabe zeigt sich nicht als Auflösung, sondern als eine ruhige, disziplinierte Präsenz, die wenig für sich beansprucht.` },
+    },
+    stressWachstum: { stress: `Unter Stress bewegt sich die SX9 Richtung <strong>Typ 6</strong>: Aus friedlicher Verschmelzung wird ängstliche Abhängigkeit, aus der Sehnsucht nach Einheit wird die Sorge, ohne den geliebten Menschen nicht mehr zu wissen, wer man ist.`, wachstum: `In Reife bewegt sich die SX9 Richtung <strong>Typ 3</strong>: Aus passiver Hingabe wird zielgerichtete Präsenz. Die eigene Stimme wird nicht mehr im Anderen aufgelöst, sondern eingebracht – Nähe entsteht durch echte Begegnung zweier eigenständiger Menschen statt durch Verschmelzung.` },
+    ankommt: [
+      `Als sanft, friedlich und entspannend im Umgang – in ihrer Nähe kommen andere leichter zur Ruhe.`,
+      `Manchmal als schwer greifbar, weil sich eigene Wünsche so sehr an denen des Partners orientieren, dass eine eigene Position kaum erkennbar wird.`,
+      `Als tief verbundener, hingebungsvoller Mensch, sobald sie lernt, in der Nähe auch die eigene Stimme zu behalten – dann wird ihre Sanftheit zu echter Präsenz.`,
+    ],
+    trigger: [
+      { trigger: `Aufforderung, klar „Ja" oder „Nein" zu sagen`, warum: `Eine klare Position zu beziehen fühlt sich an wie ein Risiko für die Verbindung – lieber unklar bleiben als den Anderen zu enttäuschen.`, alternative: `Zeit und einen ruhigen Rahmen geben, konkrete statt vage Fragen stellen.` },
+      { trigger: `Das Gefühl, in der Beziehung nicht mehr als eigene Person wahrgenommen zu werden`, warum: `Bestätigt die alte Angst, dass die eigene Präsenz ohnehin nicht zählt – verstärkt paradoxerweise die weitere Anpassung.`, alternative: `Aktiv nach ihren eigenen, unabhängigen Wünschen fragen, nicht nur nach gemeinsamen Plänen.` },
+      { trigger: `Offener Streit oder Druck, sich sofort zu entscheiden`, warum: `Wird als Bedrohung der inneren Ruhe erlebt und führt eher zu Rückzug in Tagträume als zu Klärung.`, alternative: `Ruhig und in kleinen Schritten ansprechen, was geklärt werden muss.` },
+      { trigger: `Für selbstverständlich gehalten werden, weil sie ohnehin „nichts dagegen hat"`, warum: `Verstärkt die Erfahrung, dass die eigenen Grenzen unsichtbar geworden sind.`, alternative: `Bewusst nachfragen, ob etwas wirklich passt – auch wenn keine Einwände geäußert wurden.` },
+    ],
+    fuehrung: {
+      titel: "Aus der Führungspraxis: wenn Vermeidung wie Frieden aussieht",
+      text: `In unserem Buch <em>Führung mit Fundament</em> (das ich gemeinsam mit meinem Sohn David L. Rathmer geschrieben habe) beschreiben wir, dass Konflikt im instinktiven Zentrum körperlich erlebt wird: Wo Typ 8 nach vorn geht und Klärung über Konfrontation sucht, vermeidet, verschleift und beruhigt Typ 9. Unter Druck wird daraus ein charakteristischer Eskalationspfad: Typ 9 wird passiv, stur, ausweichend – selten aus böser Absicht, sondern als automatischer Abwehrmechanismus, sobald das eigene Muster übernimmt.<br><br>Für die SX9 heißt das übersetzt: Gerade weil ihre Verschmelzungssehnsucht Konflikte besonders ungern zulässt, lohnt es sich, das eigene Ausweichen frühzeitig zu bemerken – bevor aus stillem Frieden ein stiller Stillstand wird, der die Beziehung selbst am Ende mehr kostet als ein offen ausgetragener Konflikt.`,
+      hinweis: `Im Buch beschreiben wir dieses Muster auf Ebene des Grundtyps 9, nicht subtypspezifisch. Die Zuspitzung auf die Verschmelzung mit einem einzelnen Menschen – statt auf Gruppenharmonie oder persönliche Gemütlichkeit – ist eine Ergänzung auf Basis der übrigen Quellen, kein wörtliches Zitat.`,
+    },
+    beziehung: {
+      titel: `Beziehungsrisiko & heilende Bewegung`,
+      risiko: `Die vollständige Anpassung an den Partner kann dazu führen, dass die Beziehung zwar friedlich, aber zunehmend leer wirkt – echte Begegnung braucht zwei eigenständige Menschen, nicht nur einen, der sich auflöst.`,
+      leitfragen: `Will ich das wirklich – oder habe ich mich einfach so sehr an die Wünsche des Anderen angepasst, dass ich meine eigenen kaum noch spüre?`,
+      hilfreich: `Bewusst kleine eigene Vorlieben äußern und leben, auch wenn sie vom Partner abweichen – und erfahren, dass Nähe durch Begegnung wächst, nicht durch Verschmelzung.`,
+    },
+    pairing: [
+      { partner: "SE1", dynamik: "Struktur vs. Verschmelzung", gefahr: "SE1 klagt, SX9 zieht sich zurück", hilfreich: "Tiefe Ruhe und Halt, Nähe klar strukturieren" },
+      { partner: "SO1", dynamik: "Rolle × exklusive Harmonie", gefahr: "Passivität, Abhängigkeit", hilfreich: "Sanfte Bindung, Stabilität, Impulse setzen" },
+      { partner: "SX1", dynamik: "Intensität × Gelassenheit", gefahr: "Verschmelzung + Passivität", hilfreich: "Ruhe + Nähe, Aktivität und Rückzug balancieren" },
+      { partner: "SE2", dynamik: "Fürsorge trifft exklusive Harmonie", gefahr: "Verschmelzung ohne Eigenständigkeit", hilfreich: "Stille, tiefe Nähe, Selbststand wahren" },
+      { partner: "SO2", dynamik: "Gemeinschaft trifft Exklusivität und Harmonie", gefahr: "Übersehen eigener Bedürfnisse zugunsten anderer", hilfreich: "Ausgeglichenheit und tiefe Bindung" },
+      { partner: "SX2", dynamik: "Exklusivität trifft Harmoniebedürfnis", gefahr: "Verschmelzung bis zur Unsichtbarkeit", hilfreich: "Sanfte, treue Bindung" },
+      { partner: "SE3", dynamik: "Dynamik mit Hingabe", gefahr: "Abhängigkeit oder Selbstverlust", hilfreich: "Energie plus Wärme, Eigenständigkeit wahren" },
+      { partner: "SO3", dynamik: "Bühne + Verschmelzungssehnsucht", gefahr: "Grenzen verwischen, Überanpassung", hilfreich: "Tiefe Nähe mit positiver Ausstrahlung, eigene Bedürfnisse klar formulieren" },
+      { partner: "SX3", dynamik: "Intensität × Harmoniebedürfnis", gefahr: "Rückzug des Neuners", hilfreich: "Tiefe Gelassenheit bei gemeinsamer Balance, Raum geben ohne zu überfordern" },
+      { partner: "SE4", dynamik: "SE4 Sicherheit, SX9 Exklusivität", gefahr: "Passivität, Abhängigkeit", hilfreich: "Stabile, tiefe Verbindung, gemeinsame Initiative fördern" },
+      { partner: "SO4", dynamik: "Sehnsucht vs. Verschmelzung", gefahr: "Abhängigkeit", hilfreich: "Tiefe Zweisamkeit, Eigenständigkeit bewahren" },
+      { partner: "SX4", dynamik: "Intensität vs. Verschmelzung", gefahr: "Verlust der Eigenständigkeit", hilfreich: "Tiefe Geborgenheit, Eigenräume sichern" },
+      { partner: "SE5", dynamik: "Distanz vs. Verschmelzung", gefahr: "Selbstverlust oder Rückzug", hilfreich: "Balance aus Nähe und Raum, eigene Bedürfnisse klar halten" },
+      { partner: "SO5", dynamik: "Gemeinschaft vs. Verschmelzung", gefahr: "Verlust von Eigenständigkeit", hilfreich: "Innige Partnerschaft, eigene Räume pflegen" },
+      { partner: "SX5", dynamik: "Exklusivität + Frieden", gefahr: "Rückzug ins Unsichtbare", hilfreich: "Ruhevolle Nähe, Aktivität dosiert einbauen" },
+      { partner: "SE6", dynamik: "Loyalität und Verschmelzung", gefahr: "Abhängigkeit", hilfreich: "Tiefe Geborgenheit, Eigenständigkeit bewahren" },
+      { partner: "SO6", dynamik: "Sicherheit vs. Nähe", gefahr: "Abhängigkeit", hilfreich: "Geborgene Partnerschaft, Eigenständigkeit bewahren" },
+      { partner: "SX6", dynamik: "Sicherheit sucht Nähe, Harmonie verstärkt Bindung", gefahr: "Konflikte werden verdeckt", hilfreich: "Tiefe, stille Treue, ab und zu Reibung zulassen" },
+      { partner: "SE7", dynamik: "Freiheit trifft Verschmelzung", gefahr: "Abhängigkeit oder Rastlosigkeit", hilfreich: "Tiefe Verbundenheit mit Leichtigkeit, Grenzen und Freiräume klären" },
+      { partner: "SO7", dynamik: "Bühne vs. Verschmelzung", gefahr: "SX9 verliert Stimme, SO7 vermisst Tiefe", hilfreich: "Öffentliche Leichtigkeit, private Geborgenheit, Eigenräume klären" },
+      { partner: "SX7", dynamik: "Abenteuer vs. Verschmelzung", gefahr: "Abtauchen ohne Klarheit", hilfreich: "Nähe mit Leichtigkeit, eigene Bedürfnisse klar benennen" },
+      { partner: "SE8", dynamik: "Stärke trifft Bindungssehnsucht", gefahr: "Verschmelzung ohne klare Grenze", hilfreich: "Stabilität mit emotionaler Tiefe, Grenzen und Nähe balancieren" },
+      { partner: "SO8", dynamik: "Einfluss + Hingabe", gefahr: "SX9 verliert eigene Stimme, SO8 nutzt Übergewicht", hilfreich: "SO8 übt Milde, SX9 übt klare Sprache" },
+      { partner: "SX8", dynamik: "Dominanz trifft Zurückhaltung", gefahr: "Erstarrung", hilfreich: "Ergänzung von Kraft und Ruhe, Initiative teilen" },
+      { partner: "SE9", dynamik: "Ruhe und Verschmelzung", gefahr: "Auflösung der eigenen Identität", hilfreich: "Tiefe Bindung, Eigenständigkeit pflegen" },
+      { partner: "SO9", dynamik: "Ruhe vs. Nähe", gefahr: "Überblendung der Bedürfnisse", hilfreich: "Tiefe Ruhe in Verbindung, individuelle Bedürfnisse wahren" },
+      { partner: "SX9", dynamik: "Harmonie sucht Harmonie, Gefahr der Trägheit", gefahr: "Konflikte werden vermieden, Stillstand", hilfreich: "Tiefe Ruhe, gegenseitige Akzeptanz, bewusst kleine Impulse setzen" },
+    ],
+    kurzfassung: `Frag konkret und geduldig nach ihren eigenen, unabhängigen Wünschen – nicht nur nach gemeinsamen Plänen. Nimm stilles Einverständnis nicht automatisch für echte Zustimmung. Ermutige kleine, eigene Positionierungen: echte Nähe wächst durch Begegnung, nicht durch Verschmelzung.`,
+  },
 };
 
 function differenzierungPage() {
@@ -96956,7 +97019,7 @@ function kommunikationsguidePage() {
       </div>
       ${resultHtml}
       <div style="margin-top:2rem;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:10px;border:1px solid var(--line);font-size:.85rem;line-height:1.7;color:var(--muted);">
-        Der Kommunikationsguide wird kontinuierlich um weitere Subtypen erg&auml;nzt. Er ersetzt keine Beratung oder Therapie, sondern gibt typspezifische Anhaltspunkte f&uuml;r besseres gegenseitiges Verst&auml;ndnis.
+        Der Kommunikationsguide ersetzt keine Beratung oder Therapie, sondern gibt typspezifische Anhaltspunkte f&uuml;r besseres gegenseitiges Verst&auml;ndnis.
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
