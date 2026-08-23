@@ -44527,7 +44527,7 @@ function edGeinPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro"><strong>a) The glassy, peripheral gaze:</strong>
         Court reporters covering the trial described Gein's gaze as "glassy," "soft," and
         "constantly directed into empty space." He rarely made direct eye contact – a classic
@@ -44743,7 +44743,7 @@ function johnHinckleyJrPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Outward Signs</h3>
         <p class="vb-intro"><strong>a) Emotionally distant, almost apathetic:</strong>
         At his arrest, Hinckley appeared neither hateful nor politically fanatical, but
         oddly absent – behavior that initially puzzled investigators. The classic trance of

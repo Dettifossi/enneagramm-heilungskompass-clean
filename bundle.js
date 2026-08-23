@@ -71559,7 +71559,7 @@ function edGeinPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
         <p class="vb-intro"><strong>a) Der gläserne, periphere Blick:</strong>
         Gerichtsreporter, die den Prozess verfolgten, beschrieben Geins Blick als "gläsern",
         "weich" und "ständig ins Leere gerichtet". Er fixierte Menschen selten direkt – ein
@@ -71569,7 +71569,7 @@ function edGeinPortraitPage() {
         böswilliges Grinsen, sondern das naive, deeskalierende Lächeln eines Menschen, der
         gefallen möchte und die Schwere der Situation gar nicht greifen kann.</p>
         <p class="vb-intro"><strong>c) Kindliche Stimme, reflexhafte Unterwerfung:</strong>
-        Vernehmer berichteten von einer sehr hohen, leisen, monotonen Stimme. Gein versuchte
+        Die Ermittler berichteten von einer sehr hohen, leisen, monotonen Stimme. Gein versuchte
         durchgehend, den Polizisten zu gefallen und ihnen keine Unannehmlichkeiten zu bereiten –
         die submissive Anpassungsbereitschaft der Neun, selbst im Angesicht der eigenen Taten.</p>
       </div>
@@ -71783,7 +71783,7 @@ function johnHinckleyJrPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
         <p class="vb-intro"><strong>a) Emotional distanziert, fast apathisch:</strong>
         Bei seiner Festnahme wirkte Hinckley weder hasserfüllt noch politisch fanatisch,
         sondern eigenartig abwesend – ein Verhalten, das die Ermittler zunächst vor Rätsel
