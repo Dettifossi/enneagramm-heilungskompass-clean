@@ -60520,10 +60520,12 @@ const PSYCHOSOMATIK_KATEGORIEN = [
   { key: "verdauung", label: "Digestive System", farbe: "#ab7d42" },
   { key: "niere", label: "Kidney & Bladder", farbe: "#3d6b5c" },
   { key: "haut", label: "Skin", farbe: "#c99b7a" },
+  { key: "augen", label: "Eyes", farbe: "#4d7a8c" },
   { key: "hormone-stoffwechsel", label: "Hormones & Metabolism", farbe: "#7d6a8c" },
   { key: "nerven-psyche", label: "Nervous System & Psyche", farbe: "#46688f" },
   { key: "immunsystem", label: "Immune System & Autoimmune", farbe: "#7a3d4a" },
   { key: "onkologie", label: "Oncology", farbe: "#5c4a5e" },
+  { key: "psychiatrie", label: "Psychiatric Conditions", farbe: "#6a4d6e" },
   { key: "sonstige", label: "Other Conditions", farbe: "#6b6558" },
 ];
 
@@ -67075,7 +67077,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
   gruener_star_glaukom: {
     titel: "Glaucoma",
-    kategorie: "sonstige",
+    kategorie: "augen",
     icon: "👁️",
     kurz: "A gradually progressing disease of the optic nerve, usually caused by elevated intraocular pressure, that slowly and often imperceptibly narrows the field of vision – until a considerable part is already lost.",
     definition: "Glaucoma refers to a group of eye diseases in which the optic nerve is progressively damaged, most often as a result of elevated intraocular pressure caused by a disturbed drainage balance of the aqueous humor. What makes glaucoma treacherous is its gradual course: the visual field first narrows from the outside inward, without those affected noticing this in everyday life, since the brain compensates for the emerging gaps for a long time. Left untreated, glaucoma can lead to complete blindness. Risk factors include family history, older age, nearsightedness, diabetes, and generally elevated intraocular pressure. Regular ophthalmologic check-ups are crucial, since the resulting optic nerve damage cannot be reversed – treatment aims to halt further progression.",
