@@ -32718,6 +32718,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lucy Cooke \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 britische Zoologin, Bestseller-Autorin (\u201eThe Truth About Animals\u201c), Gr\u00fcnderin der Sloth Appreciation Society. Verschmolz ihr Leben mit dem Faultier \u2013 und macht dessen tr\u00e4gen Ruf mit spr\u00fchender, humorvoller Verve zunichte.",
     land:"Großbritannien", tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-kris-marshall", name:"Kris Marshall", added:"2026-08-23", subtyp:"SX9w8",
+    heading:"Kris Marshall – Sexueller Typ 9",
+    teaser:"SX9w8 · geb. 1973. Britischer Schauspieler, bekannt als DI Humphrey Goodman in „Death in Paradise“. Verschmilzt in seiner bekanntesten Rolle so vollständig mit den Menschen hinter jedem Fall, dass die Aufklärung nicht aus Verfahren, sondern aus Empathie entsteht.",
+    land:"Großbritannien", tags:["Film","Schauspiel"], gender:"m"},
   { route:"beruehmte-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", added:"2026-08-21", subtyp:"SX9w8",
     heading:"Elizabeth Barrett Browning – Sexueller Typ 9",
     teaser:"SX9w8 · 1806–1861. Englische Dichterin, jahrzehntelang chronisch krank und im Vaterhaus isoliert. Verschmolz ihr Leben radikal mit einem einzigen Menschen – der geheimen Liebe zu Robert Browning – und trotzte dafür der völligen Verstoßung durch den eigenen Vater.",
@@ -54538,6 +54542,7 @@ function dakotaJohnsonPortraitPage() {
           {route:"beruehmte-heike-makatsch", label:"Portr\xe4t: Heike Makatsch (SX9w8)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-iga-swiatek", label:"Portr\xe4t: Iga \u015awi\u0105tek (SX9w1)"},
+          {route:"beruehmte-kris-marshall", label:"Portr\xe4t: Kris Marshall (SX9w8)"},
         ])}
       </div>
     </div>
@@ -54601,6 +54606,7 @@ function heikeMakatschPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portr\u00e4t: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portr\u00e4t: Willy Brandt (SO9w8)"},
         {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Portr\u00e4t: Kris Marshall (SX9w8)"},
       ])}
     </div>
   `);
@@ -54673,6 +54679,72 @@ function marioBarthPortraitPage() {
   `);
 }
 
+function krisMarshallPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kris-marshall-portrait.jpg" alt="Kris Marshall – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kris Marshall</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1973 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Kris Marshall als DI Humphrey Goodman durch die Gassen von Saint Marie stolpern sieht, im vollen dreiteiligen Anzug bei tropischer Hitze, kennt das Bild sofort. Das Faultier wirkt fehl am Platz in seiner Umgebung, tollpatschig, ein wenig verloren &ndash; und findet gerade darin seinen eigenen, unverwechselbaren Weg zur Wahrheit.</p>
+          <p class="vb-intro">Der britische Schauspieler Kris Marshall, 1973 geboren, wurde einem breiten Publikum zunächst durch die BBC-Sitcom <em>My Family</em> und die romantische Nebenrolle des Colin in <em>Tatsächlich&#8230; Liebe</em> (<em>Love Actually</em>, 2003) bekannt. Seine bekannteste Rolle jedoch fand er erst gut ein Jahrzehnt später: als Ermittler, der so gar nicht ins Bild eines Kriminalkommissars passen will &ndash; und genau dadurch zu einem der beliebtesten TV-Detektive seiner Generation wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Aufklärung durch Verschmelzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo der Subtyp der <em>Vereinigung</em>: die Sehnsucht, sich vollständig in ein Gegenüber, eine Situation, einen Moment zu vertiefen, statt Distanz zu wahren. Wo klassische Ermittlerfiguren durch Verfahren, Logik oder Autorität zur Wahrheit vordringen, tut Humphrey Goodman in <em>Death in Paradise</em> etwas anderes: Er verschwindet vollständig in der Innenwelt der Verdächtigen und Opfer. Er stellt sich die Tat detailliert im Kopf vor, spielt sie nach, fühlt sich in jede beteiligte Person ein &ndash; bis die Lösung nicht aus Beweisen, sondern aus emotionalem Verstehen entsteht.</p>
+          <p class="vb-intro">Das ist die SX9 in Reinform: keine Distanz zum Fall, sondern Verschmelzung mit ihm. Von 2014 bis 2017 spielte Kris Marshall diesen Kommissar über vier Staffeln hinweg &ndash; einen Mann, dessen größte Ermittlungsstärke gerade seine Unfähigkeit ist, sich innerlich von einem Fall fernzuhalten. Es passt ins Bild, dass Rollen, die einem Schauspieler besonders naheliegen, oft genau die eigene Grundmelodie tragen &ndash; man kann bei Marshalls Goodman spüren, dass hier ein Charakter gespielt wird, der ihm selbst nicht fremd ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die Klarheit hinter dem Chaos</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der sexuellen Neun etwas, das bei einer SX9 mit schwach ausgeprägtem Achterflügel unter der weichen Oberfläche verborgen bliebe: eine Direktheit, die im entscheidenden Moment durchbricht. Humphrey Goodman wirkt über weite Strecken einer Episode schusselig, zerstreut, sozial unbeholfen &ndash; ein Mann, der sich mit der Bürokratie seines eigenen Büros ebenso schwertut wie mit der Hitze der Karibik. Doch sobald er die Wahrheit erkannt hat, verändert sich sein Ton. Er konfrontiert den Täter direkt, unumwunden, ohne Umschweife &ndash; das ist der Achterflügel, der aus der verträumten Verschmelzung des Faultiers plötzlich klare, unbestechliche Konsequenz macht.</p>
+          <p class="vb-intro">Auch jenseits der Rolle zeigt sich diese Note: Über ein Jahrzehnt lang war Marshall als &bdquo;Kevin&ldquo;, der tollpatschige, aber grundsympathische Praktikant, das Gesicht einer der langlebigsten britischen Werbekampagnen (BT/EE). Wieder dieselbe Doppelfigur &ndash; liebenswert-chaotisch an der Oberfläche, mit einer stillen Bodenständigkeit darunter, die das Publikum über Jahre bei der Stange hielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Ermittler, der sich nicht schützt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was <em>Death in Paradise</em> von anderen Krimiserien unterscheidet, ist genau diese Verweigerung professioneller Distanz. Humphrey Goodman löst seine Fälle nicht am Schreibtisch, sondern indem er sich im wörtlichen Sinne in die Tatnacht hineinversetzt &ndash; er geht die Bewegungen der Beteiligten physisch nach, spricht mit ihnen mit, lebt den Fall noch einmal durch. Für einen typischen Krimikommissar wäre das ein Kontrollverlust. Für die SX9 ist es der einzige Weg, wirklich zu verstehen.</p>
+          <p class="vb-intro">Auch die äußere Unpassung ins tropische Setting &ndash; der Anzug, die Krawatte, während alle anderen in Leinen und kurzen Ärmeln erscheinen &ndash; liest sich als Bild für die SX9: eine Figur, die sich nicht an die Umgebung anpasst, sondern ihre eigene innere Ordnung mitträgt, wohin sie auch geht, und die gerade darin eine eigentümliche Integrität bewahrt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>Fähigkeit zu vollständigem Mitgefühl</strong>, das nicht bei der Beobachtung stehen bleibt, sondern zur echten Verbindung wird. Humphrey Goodman löst seine Fälle, weil er die Menschen, die er befragt, wirklich sieht &ndash; nicht als Verdächtige, sondern als Menschen mit einer Geschichte, die es zu verstehen gilt. Das macht ihn zu einem der wärmsten Krimikommissare des britischen Fernsehens.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der äußeren Unordnung, die diese Verschmelzung begleitet: Goodman verliert ständig Gegenstände, vergisst Termine, wirkt in der eigenen Organisation hoffnungslos überfordert. Die SX9 gibt so viel von sich in die Verbindung mit dem Anderen, dass für die eigene Struktur, das eigene Zurechtkommen im Alltag, oft wenig übrig bleibt. Erst der Achterflügel verhindert, dass daraus reine Hilflosigkeit wird &ndash; er sorgt dafür, dass im entscheidenden Moment doch noch Klarheit entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das mitfühlt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kris Marshall verließ <em>Death in Paradise</em> 2017, um mehr Zeit mit seiner Familie zu verbringen &ndash; eine Entscheidung, die selbst wieder zur SX9 passt: die intensive, eins-zu-eins-Bindung wird der öffentlichen Bühne vorgezogen, sobald sie wirklich zählt. Die Rolle des Humphrey Goodman aber bleibt eine der einprägsamsten Britanniens jüngerer Krimigeschichte &ndash; ein Ermittler, der beweist, dass echtes Verstehen nicht aus Distanz, sondern aus Hingabe entsteht.</p>
+          <p class="vb-intro">Das Faultier hängt scheinbar fehl am Platz im karibischen Baum &ndash; und ist doch genau dort zu Hause, wo es sich ganz auf seine Umgebung einlässt. Kris Marshalls Humphrey Goodman ist dasselbe Bild in Menschengestalt: ein Mann, der im tropischen Anzug stolpert, um am Ende, mit einem Satz voller ruhiger Klarheit, genau den Menschen zu benennen, den niemand sonst gesehen hat.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
+          {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function lucyCookePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54730,6 +54802,7 @@ function lucyCookePortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
         {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w8)"},
         {route:"beruehmte-elizabeth-barrett-browning", label:"Porträt: Elizabeth Barrett Browning (SX9w8)"},
         {route:"beruehmte-ana-salceda", label:"Porträt: Ana Salceda (SX9w1) – ebenfalls Faultier-Übereinstimmung"},
         {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
@@ -54797,6 +54870,7 @@ function elizabethBarrettBrowningPortraitPage() {
         {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8)"},
         {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
         {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w8)"},
         {route:"krankheitsportraets-elizabeth-barrett-browning", label:"Krankheitsporträt: Elizabeth Barrett Browning (SX9w8)"},
       ])}
     </div>
@@ -111796,6 +111870,7 @@ function render() {
     "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
     "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
     "beruehmte-mario-barth": marioBarthPortraitPage,
+    "beruehmte-kris-marshall": krisMarshallPortraitPage,
     "beruehmte-lucy-cooke": lucyCookePortraitPage,
     "beruehmte-elizabeth-barrett-browning": elizabethBarrettBrowningPortraitPage,
           "beruehmte-james-levine": jamesLevinePortraitPage,
