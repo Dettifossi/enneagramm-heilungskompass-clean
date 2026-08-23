@@ -179,6 +179,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-nick-leeson",         name:"Nick Leeson",                           subtyp:"SO9w8",  heading:"Nick Leeson – Social Type 9",                                  teaser:"SO9w8 – Rogue Trader, born 1967. Brought down Barings Bank in 1995 – the social Nine with Eight-wing: belonging as identity, inertia as self-forgetting. Animal correspondence: Buffalo." , land:"United Kingdom", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-leslie-van-houten",    name:"Leslie Van Houten",                    subtyp:"SO9w1",  heading:"Leslie Van Houten – Social Type 9",                                   teaser:"SO9w1 – Member of the Manson Family, born 1949. Involved in the LaBianca murders 1969 – the social Nine with One-wing: dissolution into the group as home, service to the community as life's path. Animal correspondence: Buffalo." , land:"USA", tags:["Terror"], gender:"f"},
   { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexual Type 9",                               teaser:"SX9w1 – Art forger, born 1951. Over 50 forged masterworks, undetected for decades – the sexual Nine with One-wing: merger with the spirit of dead masters." , land:"Germany", tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-ed-gein",  name:"Ed Gein",                subtyp:"SX9w1",  heading:"Ed Gein – Sexual Type 9",                               teaser:"SX9w1 – „The Butcher of Plainfield,“ 1906–1984. Grave robberies and two confirmed murders – the sexual Nine with One-wing in its most extreme derailment: the delusional merging with his dead mother." , land:"USA", tags:["Serienmord"], gender:"m"},
 ];
 
 // Illness Portraits: biographies of historical (mostly deceased) figures where a documented
@@ -44475,6 +44476,218 @@ function elizabethBarrettBrowningKrankheitsportraetPage() {
   `);
 }
 
+function edGeinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ed Gein – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/kriminalpsychologie-ed-gein-portrait.jpg" alt="Ed Gein – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ed Gein</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with One-wing</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Butcher of Plainfield" · USA, 1954–1957 · Animal correspondence: Sloth</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Ed Gein</strong> (1906–1984) was arrested on his remote farm in Plainfield,
+        Wisconsin, in 1957 after shopkeeper <strong>Bernice Worden</strong> vanished without a
+        trace. What investigators found on his property remains one of the most disturbing
+        discoveries in American criminal history: furniture, masks, and clothing made from
+        human skin, fashioned from the remains of at least 15 different women – stolen from
+        fresh graves at local cemeteries. Gein is confirmed to have killed two women, Mary
+        Hogan (1954) and Bernice Worden (1957); a separate trial for Hogan's murder never took
+        place, since Gein had already been committed as legally insane by the time he
+        confessed to it. His case later inspired fictional characters such as Norman Bates
+        ("Psycho"), Leatherface ("The Texas Chain Saw Massacre"), and Buffalo Bill ("The
+        Silence of the Lambs"). The Enneagram makes visible how the quietest, least noticeable
+        of all nine types could arrive at such an extreme delusion of merging.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Ed Gein</strong> is classified as the <strong>Sexual Type 9 with One-wing
+        (SX9w1)</strong>. The Sexual Nine seeks the deepest form of merging – not closeness in
+        the ordinary sense, but the complete dissolution of one's own identity into another
+        person. The One-wing adds a meticulous, almost craftsman-like precision. When Gein's
+        extremely domineering mother Augusta died in 1945, he lost his only point of
+        orientation – and years later began the delusional attempt to physically re-embody
+        her.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) The glassy, peripheral gaze:</strong>
+        Court reporters covering the trial described Gein's gaze as "glassy," "soft," and
+        "constantly directed into empty space." He rarely made direct eye contact – a classic
+        sign of the Nine's trance, a retreat into inner peripheral awareness.</p>
+        <p class="vb-intro"><strong>b) The gentle, embarrassed smile:</strong>
+        During interrogations and photo sessions, Gein often wore a slight smile – not a
+        malicious grin, but the naive, de-escalating smile of someone who wants to please and
+        cannot truly grasp the gravity of the situation.</p>
+        <p class="vb-intro"><strong>c) A childlike voice, reflexive submission:</strong>
+        Interrogators reported a very high, quiet, monotone voice. Gein consistently tried to
+        please the officers and cause them no inconvenience – the Nine's submissive
+        accommodation, even in the face of his own crimes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Inconspicuous to the point of invisibility:</strong>
+        In Plainfield, Gein was known for years as the reliable but "odd" handyman and
+        babysitter – gentle, quiet, shy. Neighbors described him as often mentally absent,
+        without opinions or presence of his own. Naranjo's image of the Nine as a "fly on the
+        wall" fits Gein's demeanor almost literally.</p>
+        <p class="vb-intro"><strong>b) Adaptation without rebellion:</strong>
+        His mother Augusta was a fanatically religious, man-despising woman who considered
+        sexuality the source of all evil and tried to shape Ed into a "pure instrument." A
+        child with a strong Nine disposition does not openly rebel against such a domineering
+        caregiver – it adapts completely and lets itself be molded.</p>
+        <p class="vb-intro"><strong>c) Collapse after the loss of the merging object:</strong>
+        As long as Augusta lived, she was Gein's external identity. When she died in 1945, the
+        construct collapsed – the Nine's need to merge had no object left to merge with,
+        which eventually led to the attempt to literally put his mother back on.</p>
+        <p class="vb-intro"><strong>d) Craftsman-like precision – the One-wing:</strong>
+        Gein did not simply hoard the body parts; he processed, sewed, and organized them
+        into structured household objects. This meticulous, almost craftsman-like
+        systematization – however grotesque its result – bears the signature of the
+        One-wing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Criminal Acts</h3>
+        <p class="vb-intro"><strong>a) Grave robberies over several years:</strong>
+        After his mother's death, Gein began specifically searching local newspapers for
+        obituaries of older, respected women from the area. In nine confirmed cases, he opened
+        fresh graves and stole the bodies to process them at his farm.</p>
+        <p class="vb-intro"><strong>b) Mary Hogan, 1954:</strong>
+        The 51-year-old bar owner vanished without a trace from her tavern. Gein later
+        confessed to shooting her – no separate trial ever took place, since he was already
+        classified as legally insane by the time of the confession.</p>
+        <p class="vb-intro"><strong>c) Bernice Worden, 1957:</strong>
+        The murder of the 58-year-old shopkeeper followed a pattern typical of the dissociated
+        Nine: no struggle, no outburst of rage. Gein slipped into her hardware store, shot her
+        as she turned her back, and immediately transported the body to his farm – pragmatic,
+        quiet, as if in a trance.</p>
+        <p class="vb-intro"><strong>d) Arrest and psychiatric findings:</strong>
+        At his arrest in November 1957, Sheriff Art Schley and the arresting officers
+        described Gein as remarkably calm, almost polite, offering no resistance whatsoever.
+        Court psychiatrist Dr. Edward Kelleher diagnosed severe chronic schizophrenia and
+        noted that during questioning about the macabre findings, Gein showed neither shame,
+        remorse, nor disgust, but remained emotionally completely flat (blunted affect).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Nine in a Trance</h3>
+        <p class="vb-intro">The Nine's passion is called <strong>sloth</strong> – not
+        physical, but psychic sloth: the numbing of one's own consciousness toward reality.
+        Extremely unhealthy Nines anesthetize themselves so completely that their own agenda
+        and identity become almost imperceptible. In Gein's case, this led to complete
+        dissociation: his acts triggered no sense of wrongdoing, because he lived
+        psychologically in his own, split-off dream world, in which killing was merely a means
+        to an end – a craftsman-like necessary step on the way to the longed-for merger, not
+        an act of hatred or lust for power.</p>
+        <p class="vb-intro">This very sloth also explains why Nine perpetrators are an
+        absolute exception in the Enneagram: the Nine lacks the typical perpetrator drive of
+        rage, paranoia, or the need for recognition. Only the convergence of an extremely
+        domineering, shaping caregiver, her sudden loss, and an already existing severe
+        psychosis could produce this rare, tragic dynamic.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Victims as Mother Substitutes</h3>
+        <p class="vb-intro">Both women he killed, as well as the women whose graves he
+        opened, bore striking parallels to his mother: they were consistently middle-aged to
+        older – exactly the age Augusta had been when the bond with her was most intense – and
+        were seen as resolute, independent personalities. Mary Hogan ran a bar as a single
+        woman; Bernice Worden independently ran the local hardware store. This dominant,
+        assertive character matched exactly the nature of Augusta, who had ruled the family
+        with an iron hand.</p>
+        <p class="vb-intro">Gein was not seeking random victims to satisfy sadism. He was
+        seeking substitutes for his mother – an attempt to incorporate women who resembled
+        Augusta energetically and in personality, in order to restore the lost symbiosis. Not
+        hatred drove him, but a delusional longing to appropriate her essence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. The Animal: The Sloth</h3>
+        <p class="vb-intro">The sloth is the animal of the Sexual Nine – an animal that moves
+        so rarely and slowly that algae grow on its fur, yet possesses a remarkable inner
+        world. Outwardly motionless, inconspicuous, harmless. Inwardly: a nervous system that
+        follows its own, barely visible rhythms.</p>
+        <p class="vb-intro">For Gein: the neighbor no one noticed, who fit into no
+        perpetrator profile because he simply carried no threatening aura. This very
+        inconspicuousness – the sloth's actual strength, evading the attention of predators –
+        became Gein's shield, behind which an entirely different reality remained undetected
+        for years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Distinction: Ed Gein (SX9) vs. Jeffrey Dahmer (SX5)</h3>
+        <p class="vb-intro">Both cases are often mentioned side by side in criminal
+        psychology, but follow fundamentally different inner logics. <strong>Jeffrey Dahmer
+        (SX5)</strong> acted from a motive of possessing and preserving: he wanted to render
+        his victims completely passive in order to retain control and avoid the fear of
+        separation – a detached, analytical appropriation.</p>
+        <p class="vb-intro"><strong>Ed Gein (SX9)</strong> did not want to control his
+        counterpart, but to enter into their identity. The motive was not possession, but the
+        dissolution of his own self into the person of his mother – merging instead of
+        control, dissolution instead of appropriation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Parallel Within the Same Subtype: Wolfgang Beltracchi (SX9w1)</h3>
+        <p class="vb-intro"><a href="javascript:void(0)" data-route="kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi</a>,
+        the art forger who reproduced around 300 works by famous masters with deceptive
+        accuracy, is also classified as SX9w1 in this Compass – and his motive carries the
+        same core as Gein's: not greed or the pursuit of power, but a deep, almost loving
+        merging. Where Beltracchi merged with the spirit of dead painters, Gein tried to merge
+        with the body of his dead mother. The same underlying mechanism of the Sexual Nine –
+        the complete dissolution of one's own identity into another – shows itself here in two
+        strikingly extreme forms: in Beltracchi channeled into an admired craft, in Gein
+        derailed into a deadly psychosis.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">8. Summary</h3>
+        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Ed Gein shows the absolute extreme of the Sexual Nine with One-wing: when the search
+        for merging becomes pathological and the merging object shatters, the psyche can try
+        to force that merging through physical violence and delusional means. Outwardly the
+        most inconspicuous, gentlest man in Plainfield – inwardly a completely split-off
+        reality, in which killing was not an act of hatred, but the desperate, sick attempt to
+        restore a lost symbiosis.</p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        The case shows that even the seemingly gentlest type of the Enneagram can, under
+        maximal psychopathology and complete loss of touch with reality, slide into
+        bizarre and destructive behavior patterns – a rare, tragic exception, not a typical
+        expression of the Sexual Nine.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a historical verdict. Gein's legally
+        established crimes are to be condemned – the Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) – Art Forger"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Criminal Psychology: Alfons Schuhbeck (SE9w1)"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+      ])}
+      <div style="margin-top:1.5rem;max-width:100%;">
+        <button class="ghost-link" data-route="kriminalpsychologie">← Back to Criminal Psychology Overview</button>
+      </div>
+    </div>
+  `);
+}
+
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -49536,6 +49749,7 @@ Beltracchi's own statement is the purest SX9 self-description: He was able to "f
       </div>
 
       ${relatedLinks([
+        {route:"kriminalpsychologie-ed-gein", label:"Criminal Psychology: Ed Gein (SX9w1) – the same merging dynamic, extremely derailed"},
         {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
@@ -74958,6 +75172,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,
       "kriminalpsychologie-leslie-van-houten": leslieVanHoutenPortraitPage,
       "kriminalpsychologie-wolfgang-beltracchi": wolfgangBeltracchiPortraitPage,
+      "kriminalpsychologie-ed-gein": edGeinPortraitPage,
       "kriminalpsychologie-michail-popkow": michailPopkowPortraitPage,
       "kriminalpsychologie-dennis-rader": dennisRaderPortraitPage,
       "kriminalpsychologie-andrei-tschikatilo": andreiTschikatiloPortraitPage,
