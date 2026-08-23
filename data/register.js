@@ -508,6 +508,10 @@ export const registerEntries = [
   { term: "Grüner Star / Glaukom (Psychosomatik)", route: "psychosomatik/gruener_star_glaukom", description: "Psychosomatische Deutung: schleichender Druckanstieg am Sehnerv, Enneagramm alle 27 Subtypen" },
   { term: "Endometriose (Psychosomatik)", route: "psychosomatik/endometriose", description: "Psychosomatische Deutung: chronisch-entzündliche Erkrankung, reale Schmerzen ernst genommen, Enneagramm alle 27 Subtypen" },
   { term: "Blasenschwäche / Inkontinenz (Psychosomatik)", route: "psychosomatik/blasenschwaeche_inkontinenz", description: "Psychosomatische Deutung: unwillkürlicher Kontrollverlust ohne Scham betrachtet, Enneagramm alle 27 Subtypen" },
+  { term: "Nierensteine (Psychosomatik)", route: "psychosomatik/nierensteine", description: "Psychosomatische Deutung: feste Ablagerungen in den Harnwegen, Enneagramm alle 27 Subtypen" },
+  { term: "Akutes Nierenversagen (Psychosomatik)", route: "psychosomatik/akutes_nierenversagen", description: "Psychosomatische Deutung: plötzlicher Einbruch der Nierenfunktion, Enneagramm alle 27 Subtypen" },
+  { term: "Nierenbeckenentzündung (Psychosomatik)", route: "psychosomatik/nierenbeckenentzuendung", description: "Psychosomatische Deutung: aufsteigende bakterielle Infektion des Nierenbeckens, Enneagramm alle 27 Subtypen" },
+  { term: "Nierenkrebs (Psychosomatik)", route: "psychosomatik/nierenkrebs", description: "Umgang mit Diagnose und Behandlung je Subtyp – keine psychische Mitverursachung, Enneagramm alle 27 Subtypen" },
   { term: "Mineralstoffimpulse",       route: "mineralstoffe",          description: "Mineralstoff-Impulse für alle 27 Subtypen – typspezifische Mikronährstoffe" },
   { term: "Heiltees",                  route: "heiltees",               description: "Heilpflanzen-Tees für alle 27 Subtypen – Wirkung und Zubereitung" },
 

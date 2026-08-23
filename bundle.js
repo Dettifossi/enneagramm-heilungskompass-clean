@@ -95297,6 +95297,7 @@ const PSYCHOSOMATIK_KATEGORIEN = [
   { key: "nerven-psyche", label: "Nervensystem & Psyche", farbe: "#46688f" },
   { key: "immunsystem", label: "Immunsystem & Autoimmun", farbe: "#7a3d4a" },
   { key: "onkologie", label: "Onkologie", farbe: "#5c4a5e" },
+  { key: "niere", label: "Niere", farbe: "#3d6b5c" },
   { key: "sonstige", label: "Sonstige Krankheitsbilder", farbe: "#6b6558" },
 ];
 
@@ -101547,7 +101548,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
   chronische_nierenerkrankung: {
     titel: "Chronische Nierenerkrankung",
-    kategorie: "sonstige",
+    kategorie: "niere",
     icon: "🫘",
     kurz: "Ein stiller, über Jahre fortschreitender Verlust der Nierenfunktion, der lange kaum Beschwerden verursacht.",
     definition: "Die chronische Nierenerkrankung bezeichnet einen über Monate bis Jahre fortschreitenden, meist irreversiblen Verlust der Filterfunktion der Nieren. Häufigste Ursachen sind Diabetes mellitus und Bluthochdruck, daneben chronische Nierenentzündungen, angeborene Fehlbildungen, Zystennieren oder ein langjähriger Missbrauch bestimmter Schmerzmittel. Die Erkrankung wird in fünf Stadien eingeteilt, von einer leicht eingeschränkten bis hin zur vollständig erloschenen Funktion, die eine Dialyse oder Transplantation notwendig macht. Weil die Nieren über lange Zeit auch einen erheblichen Funktionsverlust kompensieren können, bleibt die Erkrankung oft bis in ein fortgeschrittenes Stadium unbemerkt und wird häufig zufällig bei Routineuntersuchungen entdeckt.",
@@ -102016,6 +102017,242 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
     ],
     abschluss: "Vor Blasenschwäche ist niemand gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil – am allerwenigsten ein Grund zur Scham. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit unfreiwilligem Kontrollverlust auf ganz eigene Weise umgeht – manche über Disziplin, andere über Fürsorge, Rückzug oder ein lange übergangenes eigenes Warnsignal. Genau an dieser Stelle setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am äußeren Symptom, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps. Wird diese Lebenskraft – unabhängig davon, welcher der 27 Subtypen betroffen ist – wieder ins Gleichgewicht gebracht, kann sich die Symptomatik ganzheitlich auflösen, statt nur oberflächlich unterdrückt zu werden."
+  },
+  nierensteine: {
+    titel: "Nierensteine",
+    kategorie: "niere",
+    icon: "💎",
+    kurz: "Feste Ablagerungen in den Harnwegen, die beim Abgang zu den stärksten Schmerzen führen können, die der Körper kennt.",
+    definition: "Nierensteine (Nephrolithiasis) entstehen, wenn sich im Harn gelöste Mineralstoffe wie Kalzium, Oxalat, Harnsäure oder Phosphat zu festen Kristallen zusammenlagern. Begünstigt wird dies durch zu geringe Flüssigkeitszufuhr, bestimmte Ernährungsgewohnheiten, Stoffwechselerkrankungen, wiederkehrende Harnwegsinfekte sowie familiäre Veranlagung. Kleine Steine werden oft unbemerkt ausgeschieden, größere können Harnleiter oder Nierenbecken verlegen und dadurch einen als Kolik bezeichneten, wellenartig einschießenden, sehr starken Flankenschmerz auslösen, der häufig in die Leiste ausstrahlt. Die Behandlung reicht von reichlicher Flüssigkeitszufuhr und Schmerztherapie bis zur Zertrümmerung mittels Stoßwellen oder einer operativen Entfernung bei größeren, festsitzenden Steinen.",
+    symptome: ["Plötzlich einschießender, wellenartiger Flankenschmerz", "Ausstrahlung des Schmerzes in Leiste oder Unterbauch", "Blut im Urin", "Übelkeit und Erbrechen während der Kolik", "Häufiger Harndrang bei geringer Urinmenge", "Brennen beim Wasserlassen", "Unruhiges Hin- und Herbewegen während des Schmerzanfalls"],
+    notfall: "Bei Fieber zusammen mit Flankenschmerz, vollständigem Ausbleiben der Urinausscheidung, unstillbarem Erbrechen oder extrem starken, nicht auf Schmerzmittel ansprechenden Schmerzen umgehend eine Notaufnahme aufsuchen – dies kann auf eine aufgestaute Infektion oder eine drohende Nierenschädigung hindeuten.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "In der Traditionellen Chinesischen Medizin gelten die Nieren als Sitz der tiefsten Lebensreserven und als eng mit dem Element Wasser sowie dem Gefühl der Angst verbunden – ein Stein, der sich dort bildet, lässt sich psychosomatisch oft als Bild von über lange Zeit verhärtetem, nicht fließendem inneren Material lesen: Sorgen, Ansprüche oder Gefühle, die nicht ausgesprochen und dadurch nicht ausgeschieden wurden, sondern sich langsam verdichtet haben, bis sie sich schmerzhaft bemerkbar machen. Subtypspezifisch zeigt sich dabei vor allem, was jemand über Jahre in sich zurückhält, wie plötzlich einbrechende, kaum kontrollierbare Schmerzen erlebt werden und wie mit dem eigenen Kontrollverlust während der Kolik umgegangen wird. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster.",
+    typen: [
+      { typ: 1, titel: "Verhärtete Maßstäbe", varianten: [
+        { code: "SE1", text: "Über Jahre hinweg hält die selbsterhaltende Eins unausgesprochenen Ärger über kleine Unkorrektheiten im eigenen Alltag zurück, statt ihn zu äußern – genau dieses stete Zurückhalten kann sich psychosomatisch als etwas verdichten, das sich schließlich schmerzhaft Bahn bricht." },
+        { code: "SO1", text: "Ihre eigenen Bedürfnisse stellt die soziale Eins konsequent hinter das zurück, was für die Gemeinschaft richtig erscheint, und schluckt Unmut über als ungerecht empfundene Situationen meist lange, bevor sie ihn überhaupt bemerkt." },
+        { code: "SX1", text: "Ihren Ärger über die plötzliche Kolik äußert die sexuelle Eins unmittelbar und laut gegenüber Ärzten und Angehörigen, statt ihn wie andere Einser-Varianten diszipliniert zu unterdrücken." },
+      ]},
+      { typ: 2, titel: "Zurückgehaltene Ansprüche", varianten: [
+        { code: "SE2", text: "Eigene Wünsche äußert die selbsterhaltende Zwei kaum direkt, sondern sorgt lieber unauffällig dafür, dass ihre Bedürfnisse indirekt erfüllt werden – bleibt das über Jahre erfolglos, staut sich darunter ein Ärger an, der ihr selbst kaum bewusst wird." },
+        { code: "SO2", text: "In ihrem weiten Bekanntenkreis meldet die soziale Zwei den plötzlichen Koliksschmerz oft erst spät, weil sie befürchtet, mit einer akuten Notlage andere von deren eigenen Anliegen abzulenken." },
+        { code: "SX2", text: "Ihre Angst während der Kolik gesteht die sexuelle Zwei offen der einen wichtigen Person, statt wie andere Zweier-Varianten weiter für andere da sein zu wollen, während der Schmerz noch anhält." },
+      ]},
+      { typ: 3, titel: "Kein Platz für Ausfallzeit", varianten: [
+        { code: "SE3", text: "Eine akute Kolik zwingt die selbsterhaltende Drei zu einer Pause, die sie sich sonst kaum zugesteht – ihr erster Impuls ist häufig, so schnell wie möglich wieder funktionsfähig zu sein, statt den Anlass ernst zu nehmen." },
+        { code: "SO3", text: "Nach außen spielt die soziale Drei die Schwere der Schmerzattacke oft herunter, um ihr Bild von Belastbarkeit nicht zu gefährden, und kehrt teils zu früh in ihren Terminplan zurück." },
+        { code: "SX3", text: "Ihre sonst makellose Fassade lässt die sexuelle Drei während der Kolik zumindest vor der einen wichtigen Person fallen und zeigt dort echte Erschöpfung, die sie sonst konsequent verbirgt." },
+      ]},
+      { typ: 4, titel: "Ein Schmerz, der endlich gehört wird", varianten: [
+        { code: "SE4", text: "Ihre Angst vor dem nächsten Anfall trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und wortkarg mit sich, statt sie auszudrücken – ein Verhalten, das dem für ihren Typ eigentlich typischen dramatischen Ausdruck deutlich widerspricht." },
+        { code: "SO4", text: "In der plötzlichen, unübersehbaren Heftigkeit der Kolik findet die soziale Vier mitunter eine seltene Bestätigung, dass ihr Leiden endlich unmissverständlich sichtbar wird, statt wie sonst unbemerkt zu bleiben." },
+        { code: "SX4", text: "Intensiv beschreibt die sexuelle Vier den Schmerz gegenüber der einen Person, der sie sich verbunden fühlt, statt ihn wie andere Vierer-Varianten eher innerlich zu verarbeiten." },
+      ]},
+      { typ: 5, titel: "Der Körper als überraschende Blackbox", varianten: [
+        { code: "SE5", text: "Nach überstandener Kolik sammelt die selbsterhaltende Fünf systematisch Wissen über Trinkmengen, Ernährung und Steinarten, um künftige Anfälle möglichst eigenständig verhindern zu können." },
+        { code: "SO5", text: "Über Steinarten und Behandlungsoptionen tauscht sich die soziale Fünf gern in fachlich orientierten Foren aus, das tatsächliche Erschrecken über den plötzlichen Kontrollverlust während der Attacke bleibt dabei meist unausgesprochen." },
+        { code: "SX5", text: "Ihre Angst während der akuten Attacke verschanzt die sexuelle Fünf nicht rein sachlich hinter Erklärungen wie andere Fünfer-Varianten, sondern lässt die eine tiefe Verbindung tatsächlich daran teilhaben." },
+      ]},
+      { typ: 6, titel: "Wachsamkeit gegen den unsichtbaren Feind", varianten: [
+        { code: "SE6", text: "Nach der ersten Kolik überwacht die selbsterhaltende Sechs ihre Trinkmenge und mögliche Warnzeichen oft geradezu akribisch, ein leichtes Ziehen in der Flanke löst bei ihr trotzdem rasch neue Sorge vor dem nächsten Anfall aus." },
+        { code: "SO6", text: "Rat von Ärzten und ihrem nahen Umfeld sucht die soziale Sechs intensiv, bevor sie sich für eine Behandlungsmethode wie Stoßwellentherapie oder Operation entscheidet – allein zu entscheiden fühlt sich für sie unsicher an." },
+        { code: "SX6", text: "Der wiederkehrenden Angst vor der nächsten Attacke begegnet die sexuelle Sechs, der Kontratyp, mit entschlossenem Handeln, etwa einer frühzeitigen operativen Entfernung, statt sich in Sorgen zu verlieren." },
+      ]},
+      { typ: 7, titel: "Der Schmerz, der keine Ablenkung zulässt", varianten: [
+        { code: "SE7", text: "Während der Kolik sucht die selbsterhaltende Sieben verzweifelt nach einer Körperhaltung, die den Schmerz erträglicher macht, weil sie im Gegensatz zu fast jeder anderen Situation keine Möglichkeit findet, ihm auszuweichen." },
+        { code: "SO7", text: "Ungewohnt offen erzählt die soziale Sieben, der Kontratyp, ihrem Freundeskreis von der überstandenen Attacke, statt das unangenehme Erlebnis wie sonst schnell hinter Anekdoten und Leichtigkeit zu verstecken." },
+        { code: "SX7", text: "Über die durchgestandene Angst lässt sich die sexuelle Sieben tatsächlich auf das eine intensive Gespräch mit der Partnerin oder dem Partner ein, statt sich wie andere Siebener-Varianten sofort wieder in neue Pläne zu flüchten." },
+      ]},
+      { typ: 8, titel: "Der Körper, der sich nicht kommandieren lässt", varianten: [
+        { code: "SE8", text: "Gegen den Schmerz der Kolik will die selbsterhaltende Acht zunächst mit reiner Willenskraft ankämpfen, statt frühzeitig ärztliche Hilfe zu suchen – dass der eigene Körper sich diesem Kommando einfach entzieht, erlebt sie als besonders schwer erträglich." },
+        { code: "SO8", text: "Auch mitten in der Attacke versucht die soziale Acht, vor ihrer Familie die Fassung zu bewahren und weiter Entscheidungen zu treffen, statt sich erkennbar von den Schmerzen überwältigen zu lassen." },
+        { code: "SX8", text: "Ihre Verletzlichkeit während der Kolik zeigt die sexuelle Acht offen gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Ein Schmerz, der sich nicht wegschieben lässt", varianten: [
+        { code: "SE9", text: "Erste ziehende Beschwerden im Rücken schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine oft lange beiseite, bis der plötzliche Koliksschmerz sie unübersehbar zum Handeln zwingt." },
+        { code: "SO9", text: "Bei der Wahl zwischen abwartender Beobachtung und aktiver Steinentfernung übernimmt die soziale Neun häufig die Empfehlung des Arztes oder die Haltung der Familie, ohne eine eigene klare Präferenz zu äußern." },
+        { code: "SX9", text: "Intensiver als ihre eigene Anspannung nimmt die sexuelle Neun oft die Sorge des Partners um ihre Schmerzen wahr, wodurch ihr eigenes Empfinden während der Attacke leicht untergeht." },
+      ]},
+    ],
+    abschluss: "Nierensteine entstehen durch Flüssigkeitshaushalt, Ernährung, Stoffwechsel und Veranlagung, unabhängig vom Subtyp – nicht durch Charaktereigenschaften. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen anders mit lange zurückgehaltenem inneren Material und mit dem plötzlichen, kaum kontrollierbaren Schmerz der Attacke umgeht – manche über stille Disziplin, andere über Rückzug, Fürsorge für andere oder spät bemerkte eigene Warnzeichen. Genau an dieser Stelle kann die Enneagramm-Homöopathie dieses Kompasses begleitend ansetzen: nicht an der medizinischen Behandlung selbst, die immer in ärztliche Hände gehört, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps."
+  },
+  akutes_nierenversagen: {
+    titel: "Akutes Nierenversagen",
+    kategorie: "niere",
+    icon: "🚨",
+    kurz: "Ein plötzlicher, oft dramatischer Einbruch der Nierenfunktion innerhalb von Stunden bis Tagen, der umgehend behandelt werden muss.",
+    definition: "Das akute Nierenversagen (akute Nierenschädigung) ist ein rascher, innerhalb von Stunden bis wenigen Tagen auftretender Verlust der Nierenfunktion. Die Ursachen sind vielfältig: eine unzureichende Durchblutung der Nieren etwa durch starken Flüssigkeitsverlust, Blutungen oder einen Kreislaufschock (prärenal), eine direkte Schädigung des Nierengewebes durch Medikamente, Kontrastmittel, Gifte oder Entzündungen (renal), oder ein Abflusshindernis der Harnwege etwa durch Steine oder eine vergrößerte Prostata (postrenal). Häufig entsteht ein akutes Nierenversagen im Rahmen einer schweren Grunderkrankung, etwa bei einer Sepsis, einer großen Operation oder als Verschlechterung einer bereits vorbestehenden chronischen Nierenerkrankung. Anders als die chronische Form ist das akute Nierenversagen bei rechtzeitiger Behandlung der auslösenden Ursache oft reversibel, kann unbehandelt aber rasch lebensbedrohlich werden.",
+    symptome: ["Deutlich verminderte oder ausbleibende Urinausscheidung", "Rasche Wassereinlagerungen in Beinen, Gesicht oder Lunge", "Plötzliche Verwirrtheit oder Benommenheit", "Übelkeit und Erbrechen", "Atemnot", "Herzrhythmusstörungen durch entgleiste Elektrolytwerte", "Ausgeprägte, rasch einsetzende Müdigkeit"],
+    notfall: "Akutes Nierenversagen ist grundsätzlich ein medizinischer Notfall und erfordert umgehende ärztliche Behandlung, meist im Krankenhaus. Bei stark verminderter oder fehlender Urinausscheidung, Atemnot, Verwirrtheit oder Herzrhythmusstörungen ohne Verzögerung den Notruf verständigen – jede Zeitverzögerung kann die Erholungschancen der Nieren verschlechtern.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Anders als die chronische Nierenerkrankung trifft ein akutes Nierenversagen meist unvorbereitet und plötzlich – oft im Rahmen einer bereits schweren Situation wie einer Operation, einer Infektion oder eines Schocks. Die Ursachen sind organisch und situativ vielfältig, nicht charakterlich bedingt. Psychosomatisch interessant ist deshalb weniger eine mögliche Mitverursachung als der Umgang mit dem abrupten Verlust der Kontrolle über den eigenen Körper mitten in einer ohnehin belastenden Situation: Wie wird auf einen plötzlichen medizinischen Notfall reagiert? Wie viel Vertrauen wird dem Behandlungsteam in einem Moment entgegengebracht, in dem rasches Handeln über die eigenen Ressourcen entscheidet? Und wie wird mit der Ungewissheit umgegangen, ob sich die Nierenfunktion wieder erholt? Für jeden der 27 Subtypen zeigt sich ein eigenes Muster im Umgang mit dieser abrupten Krise.",
+    typen: [
+      { typ: 1, titel: "Fassung in der Akutsituation", varianten: [
+        { code: "SE1", text: "In der akuten Krise versucht die selbsterhaltende Eins, trotz Ausnahmesituation weiter strukturiert zu funktionieren, und macht sich im Nachhinein oft Vorwürfe, ob eine frühere Warnung übersehen wurde." },
+        { code: "SO1", text: "Gegenüber dem Behandlungsteam wirkt die soziale Eins auch in der Akutsituation meist kooperativ und sachlich, während sie ihre eigene Angst vor der Ungewissheit weitgehend zurückhält." },
+        { code: "SX1", text: "Ihre Angst und ihren Ärger über die plötzliche Krise äußert die sexuelle Eins direkt gegenüber Pflegepersonal und Angehörigen, statt sie wie andere Einser-Varianten diszipliniert zu unterdrücken." },
+      ]},
+      { typ: 2, titel: "Sorge um andere mitten in der eigenen Krise", varianten: [
+        { code: "SE2", text: "Noch im Krankenbett sorgt sich die selbsterhaltende Zwei oft zuerst darum, wer zu Hause die alltäglichen Aufgaben übernimmt, statt sich ganz auf die eigene akute Behandlung zu konzentrieren." },
+        { code: "SO2", text: "Besuchern und Angehörigen versichert die soziale Zwei auch aus dem Krankenbett heraus meist schnell, dass es ihr schon bessergehe, um ihnen die eigene Sorge zu ersparen." },
+        { code: "SX2", text: "In der Akutsituation lässt die sexuelle Zwei ausnahmsweise zu, dass sich die eine wichtige Person um sie kümmert, statt wie andere Zweier-Varianten sofort wieder Fürsorge zurückzugeben." },
+      ]},
+      { typ: 3, titel: "Der Ausfall, der nicht sein darf", varianten: [
+        { code: "SE3", text: "Aus dem Krankenhausbett heraus versucht die selbsterhaltende Drei häufig, weiter berufliche Nachrichten zu beantworten, weil ein vollständiger Stillstand für sie kaum erträglich erscheint." },
+        { code: "SO3", text: "Kollegen und Vorgesetzten gegenüber formuliert die soziale Drei die akute Krise oft betont sachlich, fast wie ein organisatorisches Detail, um ihr Bild von Belastbarkeit nicht zu gefährden." },
+        { code: "SX3", text: "Vor der einen wichtigen Person gibt die sexuelle Drei mitten in der Akutkrise ihre sonst makellose Selbstdarstellung tatsächlich auf und zeigt echte Angst." },
+      ]},
+      { typ: 4, titel: "Eine Krise, die alles auf einmal aufwühlt", varianten: [
+        { code: "SE4", text: "Ihre Angst in der akuten Krise trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und funktional mit sich, statt sie auszudrücken – ein Verhalten, das dem für ihren Typ eigentlich typischen dramatischen Ausdruck deutlich widerspricht." },
+        { code: "SO4", text: "In der abrupten Schwere der Situation findet die soziale Vier mitunter eine schmerzhafte Bestätigung, dass das Leben für sie besonders hart verläuft, statt sie als vorübergehende medizinische Episode einzuordnen." },
+        { code: "SX4", text: "Ihre Todesangst in der Akutsituation teilt die sexuelle Vier ungeschminkt mit der einen Person, der sie sich verbunden fühlt, statt diese existenziellen Themen zu meiden." },
+      ]},
+      { typ: 5, titel: "Verstehen als Halt in der Krise", varianten: [
+        { code: "SE5", text: "Von Ärzten fordert die selbsterhaltende Fünf in der Akutsituation oft präzise Erklärungen zu Werten und Prognose ein, weil ein klares Verständnis der Lage ihr hilft, die eigene Überforderung zu begrenzen." },
+        { code: "SO5", text: "Im Nachhinein liest sich die soziale Fünf oft ausführlich in Ursachen und Verlaufsformen akuten Nierenversagens ein und tauscht sich darüber sachlich mit Gleichgesinnten aus, das persönliche Erschrecken bleibt dabei meist unausgesprochen." },
+        { code: "SX5", text: "Ihre Angst während der Akutbehandlung verschanzt die sexuelle Fünf nicht rein sachlich hinter Fachwissen wie andere Fünfer-Varianten, sondern lässt die eine tiefe Verbindung tatsächlich daran teilhaben." },
+      ]},
+      { typ: 6, titel: "Vertrauen in einem Moment ohne Aufschub", varianten: [
+        { code: "SE6", text: "In der akuten Krise fällt es der selbsterhaltenden Sechs besonders schwer, dem Behandlungsteam ohne eigene Rückfragen zu vertrauen, obwohl gerade jetzt rasches Handeln nötig ist." },
+        { code: "SO6", text: "Angehörige und vertraute Ärzte bindet die soziale Sechs so eng wie möglich in jede Entscheidung ein, allein durch die Akutsituation zu navigieren fühlt sich für sie kaum aushaltbar an." },
+        { code: "SX6", text: "Der Angst vor der plötzlichen Krise begegnet die sexuelle Sechs, der Kontratyp, mit entschlossenem, schnellem Handeln, etwa einer klaren Entscheidung zur sofortigen Dialyse, statt sich in Sorgen zu verlieren." },
+      ]},
+      { typ: 7, titel: "Wenn Ablenkung keine Option mehr ist", varianten: [
+        { code: "SE7", text: "In der Akutstation erlebt die selbsterhaltende Sieben die erzwungene Bewegungslosigkeit und Unplanbarkeit als besonders schwer erträglich, weil ihr die gewohnten Auswege in neue Optionen fehlen." },
+        { code: "SO7", text: "In der Krise spricht die soziale Sieben, der Kontratyp, ungewohnt offen mit ihrem engen Umfeld über ihre Angst, statt sie wie sonst hinter Leichtigkeit zu verstecken." },
+        { code: "SX7", text: "Auf das eine ernste Gespräch mit den Ärzten über ihre Prognose lässt sich die sexuelle Sieben tatsächlich konzentriert ein, statt sich wie andere Siebener-Varianten in Ablenkung zu flüchten." },
+      ]},
+      { typ: 8, titel: "Kontrolle in einer Lage ohne Kontrolle", varianten: [
+        { code: "SE8", text: "Dass ihr Körper binnen Stunden derart die Kontrolle verliert, erlebt die selbsterhaltende Acht als besonders bedrohlich und versucht, durch beharrliches Nachfragen wenigstens über Informationen Einfluss zu behalten." },
+        { code: "SO8", text: "Auch in der akuten Krise versucht die soziale Acht, vor ihrer Familie eine starke, orientierungsgebende Instanz zu bleiben, ihre eigene Angst bleibt dabei meist unausgesprochen." },
+        { code: "SX8", text: "Ihre Angst vor dem plötzlichen Kontrollverlust öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Die eigene Dringlichkeit übersehen", varianten: [
+        { code: "SE9", text: "Erste Warnzeichen wie kaum noch vorhandenen Urin nimmt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine mitunter zu spät ernst, bis die Situation bereits kritisch geworden ist." },
+        { code: "SO9", text: "Bei den raschen Entscheidungen der Akutbehandlung übernimmt die soziale Neun häufig unmittelbar die Einschätzung des Behandlungsteams oder der Familie, ohne eigene Fragen zu stellen." },
+        { code: "SX9", text: "Die Sorge des Partners in dieser Krise nimmt die sexuelle Neun oft intensiver wahr als die eigene Bedrohlichkeit der Lage, wodurch ihre eigene Angst leicht untergeht." },
+      ]},
+    ],
+    abschluss: "Ein akutes Nierenversagen trifft Menschen durch plötzliche Auslöser wie Flüssigkeitsverlust, Medikamentenwirkung, Schock oder eine schwere Grunderkrankung, unabhängig vom Subtyp – nicht durch Charaktereigenschaften. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen anders mit dem abrupten Kontrollverlust über den eigenen Körper und der Ungewissheit einer Akutkrise umgeht – manche über Fassung und Struktur, andere über Rückzug, Fürsorge für andere oder spät bemerkte eigene Warnzeichen. Genau an dieser Stelle kann die Enneagramm-Homöopathie dieses Kompasses begleitend ansetzen: nicht an der medizinischen Notfallbehandlung selbst, die immer in ärztliche Hände gehört, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps."
+  },
+  nierenbeckenentzuendung: {
+    titel: "Nierenbeckenentzündung",
+    kategorie: "niere",
+    icon: "🔥",
+    kurz: "Eine meist bakterielle Infektion des Nierenbeckens, die aus einer aufsteigenden Blaseninfektion entsteht und rasch fiebrig verläuft.",
+    definition: "Die Nierenbeckenentzündung (Pyelonephritis) ist eine meist bakterielle Infektion des Nierenbeckens und des angrenzenden Nierengewebes, die in der Regel entsteht, wenn Erreger aus der Blase über die Harnleiter aufsteigen. Begünstigt wird sie durch Abflussstörungen des Harns etwa durch Steine oder eine vergrößerte Prostata, durch Schwangerschaft, Diabetes mellitus oder ein geschwächtes Immunsystem. Anders als ein einfacher Harnwegsinfekt geht die Pyelonephritis typischerweise mit hohem Fieber, Schüttelfrost und deutlichem Krankheitsgefühl einher und muss antibiotisch behandelt werden, um eine Ausbreitung der Infektion ins Blut (Urosepsis) oder eine bleibende Nierenschädigung zu verhindern. Bei rechtzeitiger Behandlung heilt sie meist folgenlos aus, unbehandelt oder bei wiederholten Verläufen kann sie das Nierengewebe dauerhaft schädigen.",
+    symptome: ["Hohes Fieber mit Schüttelfrost", "Ein- oder beidseitiger Flankenschmerz", "Klopfschmerz über der betroffenen Niere", "Brennen beim Wasserlassen", "Häufiger Harndrang", "Trüber, übelriechender Urin", "Ausgeprägtes allgemeines Krankheitsgefühl und Abgeschlagenheit"],
+    notfall: "Bei hohem Fieber mit Schüttelfrost und Flankenschmerz sollte zeitnah ärztliche Behandlung erfolgen. Bei zusätzlicher Verwirrtheit, sehr niedrigem Blutdruck, Herzrasen oder rasch zunehmender Kreislaufinstabilität kann sich eine lebensbedrohliche Urosepsis entwickeln – dann umgehend eine Notaufnahme aufsuchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Eine Nierenbeckenentzündung entsteht meist dadurch, dass eine zunächst harmlos wirkende Blaseninfektion unbehandelt oder unterschätzt weiter aufsteigt, bis sie das empfindlichere Nierengewebe erreicht. Psychosomatisch lässt sich dieser Verlauf oft als Bild dafür lesen, wie mit ersten, noch leisen Warnsignalen des eigenen Körpers umgegangen wird – werden sie ernst genommen und früh behandelt, oder wird ihnen erst dann Beachtung geschenkt, wenn hohes Fieber und deutlicher Schmerz keine Ausweichmöglichkeit mehr lassen. In der Traditionellen Chinesischen Medizin sind die Nieren zudem eng mit Willenskraft und den tiefsten Reserven des Körpers verbunden, sodass eine Entzündung an dieser Stelle sich auch als akuter Angriff auf genau diese Grundfestigkeit deuten lässt. Für jeden der 27 Subtypen zeigt sich dabei ein eigenes Muster im Umgang mit frühen Warnzeichen, akutem Krankheitsgefühl und der Notwendigkeit, sich für die Dauer der Behandlung tatsächlich zurückzunehmen.",
+    typen: [
+      { typ: 1, titel: "Durchhalten trotz Fieber", varianten: [
+        { code: "SE1", text: "Erste Anzeichen eines Blaseninfekts behandelt die selbsterhaltende Eins zunächst mit eigenen bewährten Hausmitteln und diszipliniertem Durchhalten, bis das hohe Fieber der aufsteigenden Entzündung sie zum ärztlichen Handeln zwingt." },
+        { code: "SO1", text: "Auch mit hohem Fieber versucht die soziale Eins, ihre Verpflichtungen gegenüber Familie oder Kollegen zunächst weiter zu erfüllen, aus Sorge, andere durch ihren Ausfall zu belasten." },
+        { code: "SX1", text: "Ihren Ärger über die plötzliche, schmerzhafte Verschlechterung äußert die sexuelle Eins direkt gegenüber Ärzten, statt ihn wie andere Einser-Varianten diszipliniert zu unterdrücken." },
+      ]},
+      { typ: 2, titel: "Sich selbst zuletzt versorgen", varianten: [
+        { code: "SE2", text: "Trotz hohem Fieber versucht die selbsterhaltende Zwei zunächst, den Haushalt weiter am Laufen zu halten, statt sich früh genug hinzulegen und ärztliche Hilfe zu suchen." },
+        { code: "SO2", text: "In ihrem Umfeld erwähnt die soziale Zwei die eigene fiebrige Erkrankung oft erst beiläufig, während sie sich weiter nach den Sorgen anderer erkundigt." },
+        { code: "SX2", text: "Während des hohen Fiebers lässt sich die sexuelle Zwei von der einen wichtigen Person tatsächlich pflegen, statt wie sonst selbst die Fürsorgerolle zu übernehmen." },
+      ]},
+      { typ: 3, titel: "Weiterlaufen trotz Krankheitsgefühl", varianten: [
+        { code: "SE3", text: "Erste Symptome eines Harnwegsinfekts ignoriert die selbsterhaltende Drei oft, solange sie noch funktionsfähig ist, und sucht erst bei hohem Fieber und Flankenschmerz ärztliche Hilfe auf." },
+        { code: "SO3", text: "Nach außen möchte die soziale Drei die Schwere der Infektion oft möglichst klein halten, um weiter leistungsfähig zu wirken, und kehrt teils zu früh in ihren Terminplan zurück." },
+        { code: "SX3", text: "Während des hohen Fiebers zeigt sich die sexuelle Drei tatsächlich erschöpft, allerdings nur vor der einen wichtigen Person – sonst hält sie ihre makellose Fassade konsequent aufrecht." },
+      ]},
+      { typ: 4, titel: "Krankheit als spürbare Bestätigung", varianten: [
+        { code: "SE4", text: "Ihr Unwohlsein trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne große Klage mit sich, statt es auszudrücken – ein Verhalten, das dem für ihren Typ eigentlich typischen dramatischen Ausdruck deutlich widerspricht." },
+        { code: "SO4", text: "In der plötzlichen Schwere der fiebrigen Erkrankung findet die soziale Vier mitunter eine schmerzhafte Bestätigung, wie verletzlich und ungeschützt sie sich ohnehin fühlt." },
+        { code: "SX4", text: "Ihre Angst während des hohen Fiebers teilt die sexuelle Vier intensiv mit der einen Person, der sie sich verbunden fühlt, statt sich zurückzuziehen." },
+      ]},
+      { typ: 5, titel: "Erklärungen gegen die Überforderung", varianten: [
+        { code: "SE5", text: "Über die genaue Ursache ihres wiederkehrenden Harnwegsinfekts informiert sich die selbsterhaltende Fünf gründlich, um eine erneute Nierenbeckenentzündung künftig eigenständig verhindern zu können." },
+        { code: "SO5", text: "Über Erregertypen und Antibiotikawahl diskutiert die soziale Fünf gern mit fachlich Interessierten, das eigene Krankheitsgefühl während des Fiebers bleibt dabei meist unausgesprochen." },
+        { code: "SX5", text: "Ihre Angst während des akuten Fieberschubs verschanzt die sexuelle Fünf nicht rein sachlich hinter Erklärungen wie andere Fünfer-Varianten, sondern lässt die eine tiefe Verbindung tatsächlich daran teilhaben." },
+      ]},
+      { typ: 6, titel: "Zwischen Vorsorge und Alarmbereitschaft", varianten: [
+        { code: "SE6", text: "Erste Anzeichen eines Blaseninfekts nimmt die selbsterhaltende Sechs meist ernst und sucht frühzeitig ärztlichen Rat, ein plötzlicher Fieberanstieg löst bei ihr trotzdem rasch neue Sorge um mögliche Komplikationen aus." },
+        { code: "SO6", text: "Bevor sie sich bei anhaltendem Fieber sicher genug fühlt, der verordneten Antibiotikatherapie zu vertrauen, holt die soziale Sechs mehrere Meinungen aus ihrem nahen Umfeld ein." },
+        { code: "SX6", text: "Der Angst vor einer Verschlechterung begegnet die sexuelle Sechs, der Kontratyp, mit entschlossenem, schnellem Handeln, etwa dem sofortigen Aufsuchen einer Notaufnahme, statt abzuwarten." },
+      ]},
+      { typ: 7, titel: "Zwischen Verdrängung und erzwungener Bettruhe", varianten: [
+        { code: "SE7", text: "Erste Krankheitszeichen spielt die selbsterhaltende Sieben oft herunter und plant trotzdem weiter Aktivitäten, bis hohes Fieber und starker Schmerz sie zur erzwungenen Bettruhe zwingen." },
+        { code: "SO7", text: "Ungewohnt konsequent hält sich die soziale Sieben, der Kontratyp, an die verordnete Antibiotikatherapie und Ruhephase, obwohl ihr die Einschränkung ihrer Pläne innerlich zusetzt." },
+        { code: "SX7", text: "Mit dem Arzt bespricht die sexuelle Sieben mögliche Komplikationen tatsächlich konzentriert und ohne auszuweichen, statt sich wie andere Siebener-Varianten in Ablenkung zu flüchten." },
+      ]},
+      { typ: 8, titel: "Widerstand gegen die erzwungene Schwäche", varianten: [
+        { code: "SE8", text: "Auch mit hohem Fieber will die selbsterhaltende Acht zunächst weiter selbst über ihren Tagesablauf bestimmen und sucht erst spät ärztliche Hilfe, weil Fremdbestimmung durch eine Krankheit für sie kaum erträglich ist." },
+        { code: "SO8", text: "Auch während der fiebrigen Erkrankung zeigt sich die soziale Acht vor ihrer Familie weiter als starke, verlässliche Instanz, ihre eigene Erschöpfung bleibt dabei meist unausgesprochen." },
+        { code: "SX8", text: "Ihre Verletzlichkeit während des Fiebers öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Warnzeichen, die im Alltag untergehen", varianten: [
+        { code: "SE9", text: "Erste Anzeichen wie Brennen beim Wasserlassen schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine oft lange beiseite, bis hohes Fieber sie zum Handeln zwingt." },
+        { code: "SO9", text: "Bei der Entscheidung, wie konsequent die Antibiotikatherapie umgesetzt wird, übernimmt die soziale Neun häufig unmittelbar die Anweisung des Arztes, ohne eigene Rückfragen zu stellen." },
+        { code: "SX9", text: "Die Sorge des Partners um ihr hohes Fieber nimmt die sexuelle Neun oft intensiver wahr als ihr eigenes Krankheitsgefühl, wodurch ihre eigene Erschöpfung leicht übersehen wird." },
+      ]},
+    ],
+    abschluss: "Eine Nierenbeckenentzündung entsteht durch aufsteigende bakterielle Infektionen, begünstigt durch Abflussstörungen, Schwangerschaft, Diabetes oder ein geschwächtes Immunsystem, unabhängig vom Subtyp – nicht durch Charaktereigenschaften. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen anders mit frühen Warnzeichen und der Notwendigkeit umgeht, sich während einer fiebrigen Erkrankung tatsächlich zurückzunehmen – manche über Durchhalten, andere über Rückzug, Fürsorge für andere oder spät bemerkte eigene Symptome. Genau an dieser Stelle kann die Enneagramm-Homöopathie dieses Kompasses begleitend ansetzen: nicht an der notwendigen antibiotischen Behandlung selbst, die immer in ärztliche Hände gehört, sondern an der aus dem Gleichgewicht geratenen Lebenskraft des jeweiligen Subtyps."
+  },
+  nierenkrebs: {
+    titel: "Nierenkrebs",
+    kategorie: "niere",
+    icon: "🔬",
+    kurz: "Ein meist im höheren Lebensalter auftretender bösartiger Tumor der Niere, der lange keine Beschwerden verursacht und oft zufällig entdeckt wird.",
+    definition: "Nierenkrebs (am häufigsten das Nierenzellkarzinom) ist ein bösartiger Tumor, der aus dem Gewebe der Niere entsteht. Anerkannte Risikofaktoren sind Rauchen, Übergewicht, Bluthochdruck, eine langjährige Dialysebehandlung mit erworbenen Nierenzysten sowie bestimmte genetische Veranlagungen, etwa das von-Hippel-Lindau-Syndrom. Das Erkrankungsrisiko steigt mit dem Alter, Männer sind etwas häufiger betroffen als Frauen. Weil die Niere lange kompensieren kann und der Tumor selbst oft keine Schmerzen verursacht, wird Nierenkrebs häufig zufällig bei einer Bildgebung aus anderem Anlass entdeckt, teils erst in einem fortgeschrittenen Stadium. Die Behandlung reicht je nach Stadium von der operativen Teil- oder vollständigen Entfernung der Niere über zielgerichtete Medikamente und Immuntherapien bis zu einer Kombination dieser Verfahren; die Prognose hängt entscheidend vom Stadium bei Diagnosestellung ab.",
+    symptome: ["Blut im Urin", "Anhaltender, dumpfer Flankenschmerz", "Tastbare Verhärtung oder Schwellung im Bauch- oder Flankenbereich", "Unerklärlicher Gewichtsverlust", "Anhaltende Müdigkeit", "Wiederkehrendes, unerklärliches Fieber", "Bluthochdruck oder Blutarmut ohne erkennbare andere Ursache"],
+    notfall: "Blut im Urin, ein tastbarer Knoten im Flankenbereich oder unerklärlicher Gewichtsverlust sollten zeitnah ärztlich abgeklärt werden. Bei bekanntem Nierenkrebs mit starken Flankenschmerzen, ausgeprägter Atemnot, Knochenschmerzen oder neurologischen Ausfällen umgehend ärztliche Hilfe suchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie bei allen onkologischen Krankheitsbildern dieses Kompasses gilt auch hier ausdrücklich: Psychische Muster verursachen keinen Krebs. Nierenkrebs entsteht durch ein Zusammenspiel biologischer Faktoren – Rauchen, Übergewicht, Bluthochdruck, genetische Veranlagungen wie das von-Hippel-Lindau-Syndrom, langjährige Dialysebehandlung, Alter und schlicht Zufall –, die mit der Persönlichkeit eines Menschen nichts zu tun haben. Wer diese Diagnose erhält, trägt daran keine charakterliche Mitschuld. Worum es im Folgenden stattdessen geht, ist etwas anderes: wie unterschiedlich Menschen je nach Subtyp auf die Diagnose reagieren, wie sie mit Ärzten und Angehörigen darüber sprechen (oder eben nicht), wie sie den Kontrollverlust während Operation, möglicher Dialyse und Nachsorge erleben und wie sich ihr Verhältnis zum eigenen Körper durch Behandlung und Unsicherheit verändert. Für jeden der 27 Subtypen zeigt sich dabei ein eigenes Muster im Umgang mit Diagnose, Behandlung und Ungewissheit – nicht in der Entstehung der Erkrankung.",
+    typen: [
+      { typ: 1, titel: "Ordnung in der Ungewissheit suchen", varianten: [
+        { code: "SE1", text: "Nach der Diagnose sucht die selbsterhaltende Eins zunächst Halt in einem möglichst genau strukturierten Behandlungsplan, macht sich zugleich aber oft unnötige Vorwürfe, den zufällig entdeckten Tumor nicht früher bemerkt zu haben." },
+        { code: "SO1", text: "Über ihre Diagnose spricht die soziale Eins mit ihrem Umfeld oft erst, wenn sie sich medizinisch vollständig informiert hat, aus Sorge, mit halbem Wissen unnötig zu beunruhigen." },
+        { code: "SX1", text: "Ihren Ärger über die Diagnose zeigt die sexuelle Eins unmittelbar und offen gegenüber Ärzten und Angehörigen, statt ihn wie andere Einser-Varianten diszipliniert zu unterdrücken." },
+      ]},
+      { typ: 2, titel: "Fürsorge, die sich umkehren muss", varianten: [
+        { code: "SE2", text: "Nach der Operation versucht die selbsterhaltende Zwei rasch wieder selbst für andere da zu sein, statt die eigene Erholungszeit tatsächlich zuzulassen, und verschweigt dabei oft ihre fortdauernde Erschöpfung." },
+        { code: "SO2", text: "Vielen Menschen gleichzeitig ihre Diagnose mitzuteilen, bevor sie selbst verarbeitet ist, überfordert die soziale Zwei häufig – sie sorgt sich eher um die Reaktionen der anderen als um die eigene Verarbeitung." },
+        { code: "SX2", text: "Sich nach der Diagnose tatsächlich umsorgen zu lassen, statt sofort wieder in die Geberrolle zu wechseln, gelingt der sexuellen Zwei zumindest in der einen wichtigen Beziehung – ein Rollentausch, der ihr leichter fällt als anderen Zweier-Varianten, aber ungewohnt bleibt." },
+      ]},
+      { typ: 3, titel: "Funktionsfähig trotz fehlender Niere", varianten: [
+        { code: "SE3", text: "Nach der operativen Entfernung eines Nierenteils oder der ganzen Niere plant die selbsterhaltende Drei ihre Rückkehr in den Beruf oft überstürzt, um möglichst wenig Leistungseinbußen zeigen zu müssen." },
+        { code: "SO3", text: "Leistungsfähig und kontrolliert wirkt die soziale Drei trotz Diagnose weiterhin nach außen, während sie die Erschöpfung nach der Operation sorgfältig aus ihrer öffentlichen Darstellung heraushält." },
+        { code: "SX3", text: "Sobald sie mit der einen wichtigen Person allein ist, lässt die sexuelle Drei ihre makellose Fassade fallen und zeigt dort die Erschöpfung, die sie sonst konsequent verbirgt." },
+      ]},
+      { typ: 4, titel: "Eine Diagnose, die alles verändert", varianten: [
+        { code: "SE4", text: "Ihre Angst vor der Diagnose trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne große Klage mit sich, statt sie auszudrücken – ein Verhalten, das dem für ihren Typ eigentlich typischen dramatischen Ausdruck deutlich widerspricht." },
+        { code: "SO4", text: "Eine schmerzhafte Bestätigung ihres Gefühls, mit dem Leiden ohnehin unverstanden zu bleiben, kann die soziale Vier mitunter in der Diagnose finden, was sie eher zurückzieht als offen darüber sprechen lässt." },
+        { code: "SX4", text: "Der einen Person, der sie sich verbunden fühlt, vertraut die sexuelle Vier ihre Angst vor Operation und Prognose unmittelbar an, statt diese existenziellen Themen zu meiden." },
+      ]},
+      { typ: 5, titel: "Wissen als erster Halt", varianten: [
+        { code: "SE5", text: "Vor dem ersten Gespräch mit dem Onkologen recherchiert die selbsterhaltende Fünf meist ausführlich alle verfügbaren Informationen zu Stadium und Therapieoptionen, um selbst genug Wissen zu haben, bevor sie sich in fremde Hände begibt." },
+        { code: "SO5", text: "Mit Gleichgesinnten aus ihrem fachlich orientierten Umfeld bespricht die soziale Fünf lieber Behandlungsverfahren und Studienlage, das persönliche emotionale Erleben der Diagnose bleibt dabei meist unausgesprochen." },
+        { code: "SX5", text: "Auch mit der Angst hinter der Diagnose öffnet sich die sexuelle Fünf der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+      ]},
+      { typ: 6, titel: "Zwischen Vorsorge und wachsender Sorge", varianten: [
+        { code: "SE6", text: "Regelmäßige Nachsorgeuntersuchungen nimmt die selbsterhaltende Sechs meist gewissenhaft wahr, jeder anstehende Kontrolltermin löst bei ihr trotzdem eine Welle neuer Sorgen um ein mögliches Wiederauftreten aus." },
+        { code: "SO6", text: "Bevor sie einer Therapieentscheidung wie Operation oder Immuntherapie vertraut, sucht die soziale Sechs intensiv Rat von Ärzten, Selbsthilfegruppen und ihrem nahen Umfeld – allein zu entscheiden fühlt sich für sie unsicher an." },
+        { code: "SX6", text: "Der Angst vor der Diagnose begegnet die sexuelle Sechs, der Kontratyp, mit entschlossenem, schnellem Handeln, etwa der zügigen Entscheidung für die Operation, statt sich in Sorgen zu verlieren." },
+      ]},
+      { typ: 7, titel: "Zwischen Optimismus und erzwungener Grenze", varianten: [
+        { code: "SE7", text: "Mehrere Behandlungsoptionen gleichzeitig offenzuhalten sichert der selbsterhaltenden Sieben das Gefühl, nicht handlungsunfähig zu sein – eine einzige verbindliche Therapieentscheidung kann sich für sie dagegen eng und einschränkend anfühlen." },
+        { code: "SO7", text: "An Nachsorgetermine und Behandlungsplan hält sich die soziale Sieben, der Kontratyp, ungewohnt pflichtbewusst, obwohl ihr die damit verbundene Einschränkung der eigenen Freiheit innerlich zusetzt." },
+        { code: "SX7", text: "Konzentriert lässt sich die sexuelle Sieben tatsächlich auf das eine anstehende Gespräch über ihre Prognose ein, statt sich wie andere Siebener-Varianten in Ablenkung zu flüchten." },
+      ]},
+      { typ: 8, titel: "Kontrolle über den eigenen Behandlungsplan", varianten: [
+        { code: "SE8", text: "Über ihren Behandlungsplan will die selbsterhaltende Acht die Entscheidungshoheit behalten und stellt Ärzten oft kritische Nachfragen, weil Fremdbestimmung über den eigenen Körper für sie kaum erträglich ist." },
+        { code: "SO8", text: "Auch nach der Operation zeigt sich die soziale Acht vor ihrer Familie weiter als starke, verlässliche Instanz, ihre eigene Erschöpfung durch Behandlung und Nachsorge bleibt dabei meist unausgesprochen." },
+        { code: "SX8", text: "Ihre Angst vor dem Fortschreiten der Erkrankung öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Die eigene Stimme im Behandlungsplan", varianten: [
+        { code: "SE9", text: "Den zufällig entdeckten Befund schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine mitunter zunächst beiseite, bis ein deutliches ärztliches Gespräch sie zur bewussten Auseinandersetzung zwingt." },
+        { code: "SO9", text: "Bei Entscheidungen über Operationsverfahren oder Nachbehandlung übernimmt die soziale Neun häufig die Empfehlung des Arztes oder die Haltung der Familie, ohne die eigene Präferenz klar zu äußern." },
+        { code: "SX9", text: "Wie stark der Partner unter der Diagnose leidet, registriert die sexuelle Neun oft genauer als ihre eigene Gefühlslage, wodurch ihre eigene Stimme bei Behandlungsentscheidungen leicht untergeht." },
+      ]},
+    ],
+    abschluss: "Nierenkrebs entsteht durch ein Zusammenspiel biologischer Risikofaktoren – Rauchen, Übergewicht, Bluthochdruck, genetische Veranlagung, Alter und Zufall –, niemals durch Charaktereigenschaften oder psychische Muster. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit Diagnose, Operation und der Ungewissheit der Nachsorge umgeht – manche über Struktur und Wissen, andere über Rückzug, Fürsorge für andere oder ungewohnte Offenheit gegenüber einer nahestehenden Person. Dieses Wissen ersetzt keine onkologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
   },
 };
 
