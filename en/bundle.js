@@ -61134,7 +61134,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Longing that never finds relief",
         varianten: [
           { code: "SE4", text: "Without ever expressing it, the self-preservation Four, the counter-type, carries her suffering tenaciously and silently – a years-long unspoken longing that never finds an outlet. This sustained holding-back can show up physically as congestion: feelings that may never flow, like blood that never returns." },
-          { code: "SO4", text: "The social Four rarely holds resentment and disappointment back for long – she voices it, carries it visibly into the community rather than letting it dam up in secret. This regular expression can at least partly counteract purely physical congestion, even though the underlying longing itself remains." },
+          { code: "SO4", text: "Resentment and disappointment rarely stay bottled up for long with the social Four – she says them aloud, carries them visibly into the community instead of letting them dam up in secret. This regular outlet can at least partly counteract purely physical congestion, even as the underlying longing goes on unresolved." },
           { code: "SX4", text: "Between merging and despair swings the uncompromising emotional intensity the sexual Four lives out in the relationship – these fierce but episodic swings produce more isolated inner tension than an evenly accumulating congestion over the years." },
         ],
       },
@@ -61320,7 +61320,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Silenced longing that forces its way to expression",
         varianten: [
           { code: "SE4", text: "This sustained denial of an actually very vivid emotional world arises when the self-preservation Four, the counter-type, carries intense inner suffering tenaciously and silently for years without ever expressing it. It can show up as an accumulated fullness that, when it releases, breaks through with particular force, because it never found another way out." },
-          { code: "SO4", text: "The social Four consciously displays her suffering, seeking resonance for her pain within the group – this ongoing outlet can help direct the inner emotional fullness away rather than letting it dam up over the years, even though the underlying longing itself remains." },
+          { code: "SO4", text: "Seeking resonance for her pain within the group, the social Four consciously puts her suffering on display – this ongoing outlet can help drain the inner emotional fullness rather than letting it accumulate over the years, though the longing underneath it all never fully resolves." },
           { code: "SX4", text: "Dramatic but lived out: this is how the turns of uncompromising emotional intensity, with which the sexual Four swings between merging and despair, discharge more continually than accumulating over decades into one single great fullness." },
         ],
       },
@@ -61599,7 +61599,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Emotional burden that was never allowed to straighten up",
         varianten: [
           { code: "SE4", text: "A back that literally bends under years of unspoken longing: this is how the self-preservation Four, the counter-type, carries intense inner suffering tenaciously and silently, without ever expressing it. That can psychosomatically be read as one of the most plausible pictures of this never-set-down emotional pressure." },
-          { code: "SO4", text: "The social Four speaks openly about the burdens she carries, rather than dragging them along in silence – this outward expression can act as a valve that at least partly counteracts a purely physical back load, even though the underlying longing itself remains." },
+          { code: "SO4", text: "Burdens she carries get spoken about openly by the social Four, rather than dragged along in silence – this outward expression can act as a valve that at least partly counteracts a purely physical back load, even if the deeper longing itself is never fully answered." },
           { code: "SX4", text: "Fierce but lived out: this is how the swings between closeness and despair that mark the sexual Four's uncompromising emotional intensity show up – they produce more isolated inner tension than an evenly accumulated back load over the years." },
         ],
       },
@@ -62012,7 +62012,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE9", text: "Without ever consciously noticing how much she strains her hands doing it, the self-preservation Nine performs the same calm, often manual routine tasks for decades – this unnoticed, repeated strain fits especially precisely the creeping origin pattern of carpal tunnel syndrome." },
           { code: "SO9", text: "Without ever naming her own strain, the social Nine continually takes on practical tasks for the group – this chronic, unnoticed physical overload can show up as constricted capacity to act." },
-          { code: "SX9", text: "The sexual Nine merges with her partner, taking on his practical tasks and hand movements as if they were her own – a sustained self-abandonment that can mean her own physical overload is never recognized as independent." },
+          { code: "SX9", text: "The sexual Nine merges with her partner, taking on his practical tasks and hand movements as if they were her own – a sustained self-abandonment that can leave her own physical overload permanently unrecognized as something distinct from his." },
         ],
       },
     ],
@@ -62064,7 +62064,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "A pent-up longing that eventually forces its way through",
         varianten: [
           { code: "SE4", text: "This long, silent accumulation that never finds a way out arises when the self-preservation Four, the counter-type, holds back intense inner suffering for years without ever expressing it. It fits especially precisely the picture of gout: an intensity that, when it releases, discharges sharply and unmistakably." },
-          { code: "SO4", text: "The social Four rarely lets pent-up disappointment fester for long, instead voicing it promptly within the group – this regular expression stands against the long, silent accumulation especially typical of gout, even though the underlying longing itself remains." },
+          { code: "SO4", text: "Pent-up disappointment is rarely left to fester with the social Four – she voices it promptly within the group instead. This regular expression stands against the long, silent accumulation especially typical of gout, even when the longing beneath it is never truly resolved." },
           { code: "SX4", text: "Directly and continually the uncompromising, immediately lived-out emotional intensity of the sexual Four discharges – this direct discharge stands against the long accumulation psychosomatically typical of gout." },
         ],
       },
@@ -62198,7 +62198,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE9", text: "The self-preservation Nine performs the same calm, often manual routine tasks for decades, never consciously noticing how much strain accumulates at the same point – an unnoticed, monotonous repetition that fits especially precisely the creeping origin pattern of tennis elbow." },
           { code: "SO9", text: "The social Nine continually takes on the same practical task for the group, never naming her own strain – a chronic, unnoticed physical repetition that can show up as an exhausted point of origin for physical strength." },
-          { code: "SX9", text: "Unchanged over the years, the sexual Nine often takes on the partner's practical hand movements as her own, merging with him – this sustained self-abandonment can mean her own physical overload is never recognized as independent." },
+          { code: "SX9", text: "Year after year unchanged, the sexual Nine often absorbs her partner's practical hand movements as her own through this merging – a sustained self-abandonment that can leave her own physical overload going unnoticed as a separate thing altogether." },
         ],
       },
     ],
@@ -62477,7 +62477,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE9", text: "Decade after decade, the self-preservation Nine carries out the same calm, often manual routine tasks without ever consciously registering the strain building at the same point – an unnoticed, monotonous repetition that fits especially precisely the creeping origin pattern of tendinitis." },
           { code: "SO9", text: "Never naming her own strain, the social Nine takes on the same practical task for the group again and again – a chronic, unnoticed physical repetition that can show up as an inflamed protective sheath." },
-          { code: "SX9", text: "The sexual Nine's merging with her partner shows no change over the years: his practical hand movements become her own, again and again – a sustained self-abandonment that can mean her own physical overload is never recognized as independent." },
+          { code: "SX9", text: "No change shows over the years in how the sexual Nine merges with her partner: his practical hand movements become her own, again and again – a sustained self-abandonment that can mean her own physical overload is never recognized as independent." },
         ],
       },
     ],
@@ -62529,7 +62529,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Longing that makes the breath catch",
         varianten: [
           { code: "SE4", text: "The self-preservation Four, the counter-type, carries intense inner suffering stubbornly and silently, without ever expressing it – this sustained withholding can show up physically as breathing that catches when the unspoken longing can no longer be fully suppressed." },
-          { code: "SO4", text: "The social Four makes her suffering visible and finds a certain expression in it – this outward expression can act as a kind of valve that at least partly counteracts the purely physical tightness of breath, even though the underlying longing itself remains." },
+          { code: "SO4", text: "Suffering, for the social Four, gets made visible rather than hidden, finding a certain expression of its own – this outward release can act as a kind of valve that at least partly counteracts the purely physical tightness of breath, even when the longing beneath it is never truly resolved." },
           { code: "SX4", text: "Closeness and despair swing fiercely through the sexual Four's relationship, uncompromising emotional intensity given free rein – precisely these dramatic inner turns can show up as sudden, episodic breathlessness that arises in emotionally charged moments." },
         ],
       },
@@ -62562,7 +62562,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE8", text: "Firm control over material and physical resources is how the self-preservation Eight secures her own existence – showing vulnerability, and that includes truly letting go while breathing, fundamentally contradicts her self-image. This permanent tension can show up physically as a tightness that never quite releases." },
           { code: "SO8", text: "Control gets taken not for herself but for the group, the social Eight's self-imposed protector role leaving little else – this permanent leadership tension leaves little room for genuinely relaxed, deep breathing." },
-          { code: "SX8", text: "Total devotion and control define the sexual Eight's one intimate bond, pure intensity with nothing halfway – these extreme emotional swings tend to show up as sudden, intense breathlessness in charged relationship moments rather than as an even, ongoing tension." },
+          { code: "SX8", text: "Total devotion and control define the sexual Eight's one intimate bond, pure intensity with nothing halfway – these extreme emotional swings tend to show up as sudden, intense breathlessness in charged relationship moments rather than settling into a steady, ongoing strain." },
         ],
       },
       {
@@ -62715,7 +62715,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 4, titel: "Longing that shows up as a lingering irritation",
         varianten: [
           { code: "SE4", text: "Stubborn and silent, the self-preservation Four – the counter-type – bears intense inner suffering without ever expressing it, and this sustained withholding can show up physically as a lingering irritation in the airways that reports in as coughing where words are missing." },
-          { code: "SO4", text: "Making her suffering visible and finding a verbal expression for it works as a valve for the social Four – it can at least partly counteract the purely physical coughing, even though the underlying longing itself remains." },
+          { code: "SO4", text: "A verbal outlet for visible suffering functions as a kind of valve for the social Four – it can at least partly counteract the purely physical coughing, even as that deeper longing stays permanently out of reach." },
           { code: "SX4", text: "With fierce but openly lived swings between closeness and despair, the sexual Four's emotional intensity tends to discharge directly within the relationship rather than through a substitute, chronic cough." },
         ],
       },
@@ -62755,8 +62755,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Self-forgetting that overrides its own cough",
         varianten: [
           { code: "SE9", text: "Comfort and routine are where the self-preservation Nine takes refuge, and her own cough often barely registers consciously – this overlooking of a constantly recurring physical signal fits especially closely with the picture of chronic bronchitis that was able to develop over years unnoticed." },
-          { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony that even her own cough rarely finds real attention – this chronic self-effacement can show up as a signal that is never taken seriously yet keeps recurring." },
-          { code: "SX9", text: "Her partner's perception of her own health often becomes the standard for the sexual Nine, who merges so readily with him or her – if the partner does not notice the cough, the Nine often does not notice it either, because her own bodily awareness recedes behind the merging." },
+          { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony that even her own cough rarely finds real attention – this chronic self-effacement can show up as a signal that keeps recurring yet is never truly heard." },
+          { code: "SX9", text: "Her partner's perception of her own health often becomes the standard for the sexual Nine, who merges so readily with him or her – if the partner does not notice the cough, the Nine often does not notice it either, because merging with him crowds out her own bodily awareness." },
         ],
       },
     ],
@@ -63197,7 +63197,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX2", text: "In intense relationship phases the sexual Two nearly dissolves into the person she loves, without looking after herself at all – this pointed, highly charged tension tends to show up as an acute cramp rather than an evenly spread, chronic complaint." },
       ]},
       { typ: 3, titel: "Achievement that leaves the belly no break", varianten: [
-        { code: "SE3", text: "A meal grabbed between appointments, without giving digestion the rest it needs – granting herself a pause feels to the self-preservation Three like wasted time. This refusal, kept up for years, can show up as a gut that never truly settles because no time is ever set aside for it." },
+        { code: "SE3", text: "Digestion rarely gets the rest it needs when meals are grabbed between appointments – to the self-preservation Three, a real pause still feels like squandered time. Kept up year after year, this refusal can leave a gut that never truly settles, simply because a real pause is never scheduled." },
         { code: "SO3", text: "Little recovery is left over for digestion at the pace the social Three sustains in constant comparison with others. This permanent pressure to perform can show up physically as a nervous, irritable gut that rarely rests." },
         { code: "SX3", text: "Appearing successful and flawless demands real suppression from the sexual Three – bodily warning signs like abdominal pain get played down for as long as possible. This drive to control her outward image often delays paying her own belly any attention at all." },
       ]},
@@ -63208,7 +63208,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 5, titel: "Withdrawal that keeps its own tension in the belly", varianten: [
         { code: "SE5", text: "Rather than seeking contact and exchange under strain, the self-preservation Five prefers to retreat – and it is exactly this withdrawal that can, on the physical level, lead to a gut that processes the undiscussed tension in her place." },
-        { code: "SO5", text: "Available with her knowledge, yet inwardly at a distance – that is how the social Five meets the group. This mix of participation and withdrawal can show up as a gut that rarely truly relaxes, because real closeness, even to her own body, is avoided." },
+        { code: "SO5", text: "The social Five meets the group by offering her knowledge while staying inwardly at a distance. This mix of participation and withdrawal can show up as a gut that rarely truly relaxes, because real closeness — even toward her own body — stays out of reach." },
         { code: "SX5", text: "Unlike the reserve typical of the Five elsewhere, the sexual Five can speak quite openly about physical complaints within her one chosen, deep bond – a counterweight to the quiet suppression more typical of other Five variants." },
       ]},
       { typ: 6, titel: "Fear that keeps the belly on alert", varianten: [
@@ -63224,7 +63224,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Control that allows no vulnerability in the belly", varianten: [
         { code: "SE8", text: "Solid control over material and physical resources secures the self-preservation Eight's existence – abdominal pain as a sign of vulnerability is ignored at first, until it can no longer be pushed away and starts limiting the reliable capacity to act she otherwise prizes." },
         { code: "SO8", text: "Not for herself but for the group does the social Eight take control, often in a self-imposed protector role. This permanent leadership tension rarely leaves room for a truly relaxed gut." },
-        { code: "SX8", text: "Nothing half-hearted about the sexual Eight in her one intimate bond – total devotion and control, pure intensity. These extreme emotional swings tend to show up as sudden, fierce abdominal cramps in charged relationship moments rather than as an even, ongoing tension." },
+        { code: "SX8", text: "The sexual Eight's one intimate bond runs on total devotion and control, pure intensity, nothing half-hearted. These extreme emotional swings tend to show up as sudden, fierce abdominal cramps in charged relationship moments rather than as a steady, ongoing undercurrent." },
       ]},
       { typ: 9, titel: "Self-forgetting that overrides its own belly", varianten: [
         { code: "SE9", text: "Comfort, fixed routines, and the consistent avoidance of any conflict shape the everyday life of the self-preservation Nine – her own digestive signals, too, are rarely consciously noticed, until they have settled into a chronic pattern hard to ignore any longer." },
@@ -63256,7 +63256,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX2", text: "More directly than the other Two variants, the sexual Two voices her needs during intense relationship phases – this immediate expression counters the constant, substitute heartburn more typical of subtypes that swallow their feelings instead." },
       ]},
       { typ: 3, titel: "Achievement that leaves no time to digest", varianten: [
-        { code: "SE3", text: "The self-preservation Three often eats hastily between appointments and keeps working right after, without giving her stomach the rest it needs to digest. This refusal, sustained over years, to grant herself a break can show up as chronic heartburn that never truly settles, simply because no time is ever set aside for it." },
+        { code: "SE3", text: "Eating hastily between appointments and pushing straight back into work, the self-preservation Three rarely lets her stomach finish digesting in peace. Sustained over years, this refusal to grant herself a break can surface as chronic heartburn that never truly settles, simply because rest is never actually scheduled." },
         { code: "SO3", text: "A pace that leaves her digestive system almost no recovery is what the social Three sustains in constant comparison with others – this permanent pressure to perform can show up physically as a burning, irritated stomach that rarely settles." },
         { code: "SX3", text: "A burning sensation in her chest gets happily played down by the sexual Three for as long as possible – appearing flawless takes priority. This focused will to control her outward image often delays paying her own body any attention at all." },
       ]},
@@ -63267,7 +63267,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 5, titel: "Withdrawal that keeps its own bitterness to itself", varianten: [
         { code: "SE5", text: "Medical advice is something the self-preservation Five seeks only once it becomes truly unavoidable – a recurring burning sensation gets quietly endured instead. This enduring, without ever seriously treating it, fits the picture of a reflux condition that was able to settle in over years untreated." },
-        { code: "SO5", text: "The social Five keeps emotional closeness at a distance behind intellectual detachment – a recurring burning behind the breastbone, too, can thus be registered as an abstract fact rather than taken seriously as a genuine physical signal." },
+        { code: "SO5", text: "Intellectual detachment keeps emotional closeness at bay for the social Five – so a recurring burning behind the breastbone, too, can end up filed away as an abstract fact instead of being read as a real bodily warning." },
         { code: "SX5", text: "Even within her one deep bond, the sexual Five keeps control over closeness – when the intensity grows too much, she withdraws unnoticed, and it is exactly this quiet retreat that can show up as acid rising into the esophagus." },
       ]},
       { typ: 6, titel: "Fear that shows up as sour regurgitation", varianten: [
@@ -63282,13 +63282,13 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Control that dismisses heartburn as weakness", varianten: [
         { code: "SE8", text: "The self-preservation Eight consistently overrides physical warning signs, because admitting weakness contradicts her self-image – a lingering burning is simply ignored until it has settled in as a chronic pattern." },
-        { code: "SO8", text: "The social Eight takes on responsibility for many people at once and often puts her own health last in the process – recurring heartburn remains unattended until it has structurally settled in." },
+        { code: "SO8", text: "Carrying responsibility for many people at once, the social Eight often puts her own health last – recurring heartburn goes unaddressed until it has quietly become entrenched." },
         { code: "SX8", text: "In extreme but episodic swings, the sexual Eight lives her intensity within the relationship – this pointed dynamic differs from the chronic, structural reflux pattern more typical of permanently overridden warning signs." },
       ]},
       { typ: 9, titel: "Self-forgetting that overrides its own burning", varianten: [
-        { code: "SE9", text: "The self-preservation Nine takes refuge in comfort and routine and often barely consciously registers her own heartburn – this overlooking of a constantly recurring physical signal fits especially closely with the picture of a reflux condition that was able to develop over years unnoticed." },
-        { code: "SO9", text: "Group harmony consistently outranks her own voice for the social Nine, so much so that even her own burning rarely finds real attention – this chronic self-effacement can show up as a signal that is never taken seriously yet keeps recurring." },
-        { code: "SX9", text: "His perception of her own health often becomes her standard once the sexual Nine has merged with her partner – if he does not notice the heartburn, she often does not notice it either, because her own bodily awareness recedes behind the merging." },
+        { code: "SE9", text: "Comfort and routine are the self-preservation Nine's refuge, and her own heartburn often barely registers consciously as a result – this overlooking of a constantly recurring physical signal fits especially closely with the picture of a reflux condition that quietly took shape over years without ever being caught." },
+        { code: "SO9", text: "For the social Nine, group harmony consistently outranks her own voice, so much so that even her own burning sensation rarely finds real attention – this chronic self-effacement can show up as a signal that is never taken seriously yet keeps recurring." },
+        { code: "SX9", text: "Once the sexual Nine has merged with her partner, his perception of her health often becomes her own standard – if he does not notice the heartburn, she often does not notice it either, because the fusion with him leaves little room for her own bodily awareness." },
       ]},
     ],
     abschluss: "No subtype is immune to reflux, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates withheld anger, overridden signals, and its own voice in its own way – some through swallowed rage, others through withdrawal, substance-linked self-reward, or a warning of their own that is never taken seriously. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
@@ -63326,7 +63326,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 5, titel: "Withdrawal that keeps its own injury to itself", varianten: [
         { code: "SE5", text: "The self-preservation Five consistently keeps even physical complaints to herself, rarely seeking medical advice as long as it is at all possible – this quiet enduring of a boring stomach pain, without ever seriously treating it, fits the picture of an ulcer that was able to deepen over time unnoticed." },
-        { code: "SO5", text: "Emotional closeness stays behind intellectual distance for the social Five – a recurring stomach pain, too, tends to get registered as an abstract fact rather than taken seriously as a genuine physical signal." },
+        { code: "SO5", text: "For the social Five, intellectual distance filters out emotional closeness – a recurring stomach pain, too, tends to end up filed away as an abstract fact instead of being read as a real bodily warning." },
         { code: "SX5", text: "Constant vigilance accompanies the sexual Five even within her one chosen bond – the worry of revealing too much of herself keeps a baseline tension alive that can settle in as an irritated stomach lining." },
       ]},
       { typ: 6, titel: "Fear that shows up as inner self-accusation", varianten: [
@@ -63341,12 +63341,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Control that allows no weakness of its own", varianten: [
         { code: "SE8", text: "The self-preservation Eight tolerates no weakness, not even her own, and impatiently directs sharp inner criticism against every sign of vulnerability. This refusal to grant herself leniency can show up physically as an unprotected, irritated stomach lining." },
-        { code: "SO8", text: "Her own health often gets put last by the social Eight while she carries responsibility for many people at once – a boring stomach pain remains unattended until it has structurally settled in." },
+        { code: "SO8", text: "While shouldering responsibility for many people at once, the social Eight tends to put her own health last – a dull stomach pain goes unaddressed until it has settled in for good." },
         { code: "SX8", text: "Outward into the relationship rather than against herself, the sexual Eight discharges her intensity in extreme, episodic swings. This pointed dynamic differs from the chronic, structural pattern more typical of permanently suppressed vulnerability of her own." },
       ]},
       { typ: 9, titel: "Self-forgetting that overlooks its own injury", varianten: [
-        { code: "SE9", text: "Warning signs of stomach pain often go barely noticed by the self-preservation Nine, who takes refuge in comfort and routine instead. This overlooking of a constantly recurring physical signal fits especially closely with the picture of an ulcer that was able to develop over years unnoticed." },
-        { code: "SO9", text: "Her own stomach pain rarely finds real attention with the social Nine, so consistently does she subordinate her voice to group harmony. This chronic self-erasure can show up as a signal that is never taken seriously yet keeps recurring." },
+        { code: "SE9", text: "Taking refuge in comfort and routine, the self-preservation Nine tends to barely notice warning signs of stomach pain. This overlooking of a constantly recurring physical signal fits especially closely with the picture of an ulcer that quietly took shape over years, never caught in time." },
+        { code: "SO9", text: "So consistently does the social Nine subordinate her voice to group harmony that her own stomach pain rarely finds real attention. This chronic self-erasure can show up as a signal that keeps recurring yet is never truly heard." },
         { code: "SX9", text: "Putting her own needs into words is hard for the sexual Nine, so completely does her identity dissolve into the other – a never-voiced inner resistance to externally determined wishes can show up as corrosive, undirected stomach pain." },
       ]},
     ],
@@ -63376,7 +63376,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "Achievement that allows no vulnerability of its own", varianten: [
         { code: "SE3", text: "The self-preservation Three keeps functioning efficiently even when her body has long been sending clear warning signs – admitting vulnerability feels to her like failure. This uncompromising refusal to acknowledge her own limit of resilience can show up physically as a chronically inflamed gut lining." },
         { code: "SO3", text: "Her own actual limit of strain gets no consideration from the pace the social Three sustains in constant comparison with others. This permanent pressure to perform can show up physically as a gut wall that no longer treats itself as worth protecting." },
-        { code: "SX3", text: "To appear flawless and successful in the relationship, the sexual Three happily plays down physical warning signs like abdominal pain or blood in the stool for as long as possible – this focused will to control her outward image often delays paying her own body any attention at all." },
+        { code: "SX3", text: "Abdominal pain or blood in the stool tends to be minimized for as long as possible by the sexual Three, whose priority is appearing flawless and successful in the relationship – this focused will to control her outward image often means her own body waits far too long for any real attention." },
       ]},
       { typ: 4, titel: "Longing that turns against its own boundary", varianten: [
         { code: "SE4", text: "Unconscious harshness toward herself often mixes into the suffering the self-preservation Four, the counter-type, carries tenaciously and in silence. This inward-turned indictment can show up physically as a gut lining that no longer experiences itself as worth protecting." },
@@ -63385,7 +63385,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 5, titel: "Withdrawal meant to secure its own boundary", varianten: [
         { code: "SE5", text: "The self-preservation Five withdraws to protect her own resources, yet it is precisely this constant vigilance toward everything that might intrude from outside that can, paradoxically, show up as an immune system that reacts overcautiously against her own innermost boundary." },
-        { code: "SO5", text: "The social Five makes herself available to the group through her knowledge, while inwardly keeping her distance – this mixture of participation and withdrawal can show up as chronic inner tension directed against her own gut wall, because genuine closeness, even to her own body, is avoided." },
+        { code: "SO5", text: "Knowledge is how the social Five stays available to the group, even while keeping her inward distance – this mixture of participation and withdrawal can show up as chronic inner tension directed against her own gut wall, because genuine closeness — even toward her own body — stays out of reach." },
         { code: "SX5", text: "Between longing for her one deep bond and the fear of dissolving within it, the sexual Five swings back and forth internally – this constant oscillation can show up physically as a gut lining that alternates between tension and inflammation." },
       ]},
       { typ: 6, titel: "Fear that misdirects its own defenses", varianten: [
@@ -63401,7 +63401,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Control that allows no vulnerability of its own", varianten: [
         { code: "SE8", text: "Vulnerability fundamentally contradicts the self-image of the self-preservation Eight, whose existence rests on firm control over material and physical resources. This permanent tension can show up physically as a gut wall that is never truly allowed to feel safe." },
         { code: "SO8", text: "Never for herself, only for the group, is how the social Eight takes control in her self-imposed protector role – this permanent leadership tension leaves little room for a genuinely relaxed, protected gut." },
-        { code: "SX8", text: "Nothing halfway defines the sexual Eight's one intimate bond — total devotion and control, pure intensity – these extreme emotional swings tend to show up as sudden, intense flares in charged relationship moments rather than as an even, ongoing tension." },
+        { code: "SX8", text: "Pure intensity, total devotion and control, nothing halfway – that is how the sexual Eight lives her one intimate bond. These extreme emotional swings tend to show up as sudden, intense flares in charged relationship moments rather than as an even, ongoing tension." },
       ]},
       { typ: 9, titel: "Self-forgetting that overlooks its own boundary", varianten: [
         { code: "SE9", text: "Rarely consciously noticed is the self-preservation Nine's own boundary between herself and others, while comfort, fixed routines, and conflict avoidance determine her everyday life. This self-forgetting can show up psychosomatically as a gut lining that never truly experiences itself as worth protecting." },
@@ -63484,7 +63484,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Anger that hardens into bitterness", varianten: [
         { code: "SE1", text: "Almost never does the self-preservation One let her anger over shortcomings flow openly – discipline demands that it be held back instead. What is never dissolved over years, only kept under control, can show up physically as bile that hardens instead of flowing freely." },
         { code: "SO1", text: "A great deal of moral outrage accumulates in the social One without ever being spoken aloud – the guardian of what's right prefers to keep most of it to herself. This chronically unresolved bitterness over wrongs can show up as recurring gallbladder problems." },
-        { code: "SX1", text: "Anger moves directly into the relationship for the sexual One, with great episodic intensity – this immediate, outward expression stands in contrast to the slow, silent hardening more typical of the other One variants." },
+        { code: "SX1", text: "Anger moves directly into the relationship for the sexual One, with great episodic intensity – this immediate, outward expression stands in clear contrast to the slow, silent hardening the other One variants tend to show." },
       ]},
       { typ: 2, titel: "Pride that conceals its own bitterness", varianten: [
         { code: "SE2", text: "The self-preservation Two swallows her own hurts over years without ever putting them into words. This never-resolved, quiet bitterness over her own standing back can show up physically as a hardening in the gallbladder." },
@@ -63518,7 +63518,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "Control that allows no bitterness of its own", varianten: [
         { code: "SE8", text: "Inner hurt gets consistently overridden by the self-preservation Eight rather than resolved – no weakness is tolerated, not even her own bitterness. This refusal to engage with her own resentment can show up physically as a hardened gallbladder system." },
-        { code: "SO8", text: "Her own bitterness often gets put last by the social Eight while she carries responsibility for many people at once – pent-up resentment remains unattended until it has structurally settled in." },
+        { code: "SO8", text: "The social Eight's own bitterness routinely takes a back seat while she carries responsibility for many people at once – pent-up resentment goes unaddressed until it has settled in for good." },
         { code: "SX8", text: "Rather than letting bitterness harden through permanent avoidance, the sexual Eight discharges her intensity in extreme, episodic swings within the relationship. This pointed discharge differs from the chronic, structural hardening pattern more typical of permanently overridden bitterness of her own." },
       ]},
       { typ: 9, titel: "Self-forgetting that overrides its own bitterness", varianten: [
@@ -63553,7 +63553,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "Achievement that leaves the body no time to let go", varianten: [
         { code: "SE3", text: "No time is ever set aside by the self-preservation Three even for going to the bathroom – the body is meant to keep functioning efficiently, so the natural urge gets suppressed until it falls silent. This disregard, sustained over years, for her own rhythm can show up as chronic constipation." },
         { code: "SO3", text: "Her body is left hardly any room for its own needs by the pace the social Three sustains in constant comparison with others. This permanent pressure to perform can show up physically as a sluggish, uncooperative gut." },
-        { code: "SX3", text: "The urge to defecate and other physical signals get happily ignored by the sexual Three for as long as possible, so as to appear flawless in the relationship. This focused will to control her outward image often delays paying her own body any attention at all." },
+        { code: "SX3", text: "So as to appear flawless within the relationship, the sexual Three tends to override the urge to defecate and other physical signals for as long as she can. This focused will to control her outward image often delays paying her own body any attention at all." },
       ]},
       { typ: 4, titel: "Longing that holds on to what is past", varianten: [
         { code: "SE4", text: "Past pain gets held onto tenaciously and silently by the self-preservation Four, the counter-type, without ever expressing it. This sustained holding-on can show up physically as a gut that lets go just as little as her soul does." },
@@ -63602,7 +63602,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Anger tucked away in small inner niches", varianten: [
         { code: "SE1", text: "Rather than truly working through small anger over shortcomings, the self-preservation One tucks it away in a quiet inner drawer, so to speak. Over the years this drawer fills up – a pattern that can show up physically as small pouches in the gut wall in which unprocessed tension settles." },
         { code: "SO1", text: "Small, everyday moral irritations often get set aside by the social One rather than addressed one by one – pausing to resolve each would overwhelm her role as guardian of what's right. Over the years, this accumulation of never-fully-processed irritations can show up physically as diverticula." },
-        { code: "SX1", text: "Nothing about the sexual One is built for quietly setting small grievances aside – her drive to improve things demands immediate, direct expression within the relationship, a clear contrast to the stashing-away pattern more typical of the other One variants." },
+        { code: "SX1", text: "The sexual One rarely lets a small grievance sit unspoken – she brings her drive to improve things straight into the relationship instead of filing it away, which sets her apart from the quieter stockpiling the other One variants tend toward." },
       ]},
       { typ: 2, titel: "Pride that sets small hurts aside", varianten: [
         { code: "SE2", text: "The self-preservation Two accumulates small hurts over years while caring for others, without processing them individually – each too small on its own to speak about, but together a quiet store of unprocessed injuries. This store can show up physically as small pouches that can become inflamed." },
@@ -63699,7 +63699,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Extreme, episodic swings mark the intensity with which the sexual Eight lives her relationship – a pointed dynamic that differs from the quiet, over-years sustained accumulation pattern of other Eight variants." },
       ]},
       { typ: 9, titel: "Self-forgetting that overlooks its own overload for years", varianten: [
-        { code: "SE9", text: "Her own, slowly building overload often goes barely noticed by the self-preservation Nine, who takes refuge in comfort and routine for years. This overlooking over a long span fits especially closely with the picture of a fatty liver that was able to develop over years unnoticed." },
+        { code: "SE9", text: "A slowly building overload of her own tends to go barely noticed by the self-preservation Nine, who takes refuge in comfort and routine for years. This overlooking over a long span fits especially closely with the picture of a fatty liver that quietly built up over years without ever being caught." },
         { code: "SO9", text: "Over the years, her own exhaustion rarely finds real attention with the social Nine, so consistently does she subordinate her voice to group harmony. This chronic self-erasure can show up as a years-long, quiet, unnoticed overload of the liver." },
         { code: "SX9", text: "As the reinforcement type, the sexual Nine lives inertia most deeply of all the Nine variants – her own clarity about what she actually needs recedes so far that an inner exhaustion built up over years can easily go unnoticed until the liver has already changed." },
       ]},
@@ -63779,7 +63779,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Anger that builds up as pressure in the body", varianten: [
         { code: "SE1", text: "The self-preservation One literally presses herself together to maintain her own discipline and control – even bowel movements often proceed with excessive tension rather than giving the body time. This pressure, exerted over years, can show up physically as enlarged vascular cushions in the rectum." },
         { code: "SO1", text: "A permanent inner tension accompanies the social One through everyday life and affects her whole body – including abdominal muscles that rarely truly relax as long as the rightness of things still needs watching over. This chronic pressure can show up as hemorrhoidal disease." },
-        { code: "SX1", text: "Tension discharges in the sexual One with great, episodic intensity – a direct expression that differs clearly from the chronically even pressure more typical of the other One variants." },
+        { code: "SX1", text: "Episodes of high intensity are how tension leaves the sexual One, released outward in bursts rather than held as a steady undercurrent – a pattern clearly different from the chronically even pressure the other One variants tend to carry instead." },
       ]},
       { typ: 2, titel: "Pride that will not give up its own burden", varianten: [
         { code: "SE2", text: "The self-preservation Two carries the burdens of others without ever asking for relief – this constant carrying, without ever giving up her own burden, can show up physically as pressure in the lowest part of the body that manifests as hemorrhoidal disease." },
@@ -63817,8 +63817,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Allowing herself to be vulnerable is hard for the sexual Eight even within her one intense bond, loyal and protective as she is there – this constant effort to stay in control can show up as lasting pressure in the rectum." },
       ]},
       { typ: 9, titel: "Self-forgetting that overlooks its own pressure", varianten: [
-        { code: "SE9", text: "Warning signs of pressure and tension often go barely noticed by the self-preservation Nine, who takes refuge in comfort and routine instead. This overlooking of a constantly recurring physical signal fits especially closely with the picture of hemorrhoidal disease that was able to develop over years unnoticed." },
-        { code: "SO9", text: "Her own physical burden rarely finds real attention with the social Nine, so consistently does she subordinate her voice to group harmony. This chronic self-erasure can show up as a signal that is never taken seriously yet keeps recurring." },
+        { code: "SE9", text: "Pressure and tension as warning signs tend to slip past the self-preservation Nine, who takes refuge in comfort and routine instead. This overlooking of a constantly recurring physical signal fits especially closely with the picture of hemorrhoidal disease that quietly built up over years without ever being caught." },
+        { code: "SO9", text: "The social Nine's own physical burden rarely gets real attention, so consistently does she subordinate her voice to group harmony. This chronic self-erasure can show up as a signal that keeps returning without ever being properly addressed." },
         { code: "SX9", text: "Self-forgetting runs deepest of all in the sexual Nine as the reinforcement type – her attention is so fully directed toward the person she loves that repeated straining and a growing pressure in the rectum simply fail to reach consciousness over a long time." },
       ]},
     ],
@@ -63878,7 +63878,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 9, titel: "Self-forgetting that takes over the skin", varianten: [
         { code: "SE9", text: "The self-preservation Nine so often loses herself completely in routine and comfort that her own warning signs barely get through. A growing itch thus goes unheeded for a long time, until the skin itself forces the attention she otherwise never grants herself." },
         { code: "SO9", text: "The social Nine steadily subordinates her own voice to group harmony, her own discomfort receding along with it. This chronic self-erasure can show up as a skin problem that's never prioritized yet keeps steadily returning." },
-        { code: "SX9", text: "The sexual Nine often takes over her sense of her own health from her partner once she merges with him – if he doesn't notice the itch, the Nine frequently misses it too, because her own bodily awareness recedes behind the merging." },
+        { code: "SX9", text: "Her own sense of health gets taken over from her partner once the sexual Nine merges with him – if he doesn't notice the itch, she frequently misses it too, because her own bodily awareness fades into the background of the merging." },
       ]},
     ],
     abschluss: "No skin is immune to atopic dermatitis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes negotiates the boundary to the world in its own way – some through control, others through withdrawal, distraction, or a chronically overridden sensitivity of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
@@ -63937,7 +63937,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 9, titel: "A bodily conflict that goes unnoticed", varianten: [
         { code: "SE9", text: "Inner tensions rarely reach the self-preservation Nine's awareness – she loses herself too completely in routine and comfort. A progressing skin change thus often goes unheeded for a long time this way." },
         { code: "SO9", text: "Group harmony steadily wins out over her own voice and needs, for the social Nine. That chronic self-erasure can show up as a skin problem that's never prioritized, yet keeps recurring, noticed only late." },
-        { code: "SX9", text: "As soon as she merges with her partner, the sexual Nine makes his perception the yardstick for her own health. If he doesn't notice the skin change, the Nine often misses it too, because her own bodily awareness recedes behind the merging." },
+        { code: "SX9", text: "His perception becomes the yardstick for her own health as soon as the sexual Nine merges with her partner. If he doesn't notice the skin change, she often misses it too, because merging with him pushes her own bodily awareness aside." },
       ]},
     ],
     abschluss: "No skin is immune to psoriasis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with inner self-criticism and self-attack in its own way – some through moral strictness, others through withdrawal, restlessness, or a chronically overridden vulnerability of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
@@ -63976,7 +63976,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Withdrawal that doesn't discharge the inner tension", varianten: [
         { code: "SE5", text: "The self-preservation Five keeps contact and her own needs consistently small, to get by with as little as possible. Inner tension that this way rarely finds an outward path can instead show up as a stubborn skin inflammation." },
         { code: "SO5", text: "The social Five readily shares her knowledge with the group, keeping emotional stirrings at a safe distance. This intellectual rather than felt processing of tension can break through in recurring skin flares." },
-        { code: "SX5", text: "The sexual Five does allow emotion and closeness – but only within her one deep, protected connection. There, inner tension can more easily ease, unlike the general reserve of other Five variants." },
+        { code: "SX5", text: "The sexual Five does allow emotion and closeness – but only within her one deep, protected connection. There, inner tension can more easily ease, unlike the guardedness other Five variants tend to maintain." },
       ]},
       { typ: 6, titel: "Tension that discharges hormonally", varianten: [
         { code: "SE6", text: "The self-preservation Six's cortisol level rarely drops low, her caution accompanying everyday life without pause. This state of permanent tension is among the most reliable hormonal triggers of an acne flare." },
@@ -63989,14 +63989,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX7", text: "The sexual Seven throws herself unchecked from one experience into the next, driven by boundless, infectious enthusiasm. This constant seeking of stimulation and the inner state of exception it brings leave almost no room for the rest an irritated skin actually needs." },
       ]},
       { typ: 8, titel: "Vulnerability that breaks through under control", varianten: [
-        { code: "SE8", text: "Weakness is barely allowed to show in a body the self-preservation Eight insists on controlling consistently. A breakout that escapes that control feels to her like a particularly humbling reminder that not everything can be mastered." },
+        { code: "SE8", text: "The self-preservation Eight rarely lets weakness show in a body she insists on controlling consistently. A breakout that escapes that control feels to her like a particularly humbling proof that not everything can be forced into line." },
         { code: "SO8", text: "A self-appointed protector role shapes the social Eight, her strength always aimed outward – visible acne that betrays vulnerability is rarely allowed to show. The pressure to hide it can rather intensify the underlying tension than ease it." },
         { code: "SX8", text: "The sexual Eight negotiates power and closeness in her one relationship often physically rather than verbally, a quiet wrestling match over influence that also creates connection. This constant negotiating can generate more bodily tension than the closeness itself actually relieves." },
       ]},
       { typ: 9, titel: "A buildup that stays unnoticed for a long time", varianten: [
-        { code: "SE9", text: "Inner tension rarely reaches the self-preservation Nine's awareness – she loses herself too completely in routine and comfort. A progressing breakout thus often goes unheeded for a long time this way." },
+        { code: "SE9", text: "The self-preservation Nine rarely becomes consciously aware of inner tension – she loses herself too completely in routine and comfort. A progressing breakout can thus go unaddressed for a remarkably long stretch this way." },
         { code: "SO9", text: "Almost reflexively, the moment any need of her own appears on the horizon, the social Nine subordinates her own voice to group harmony. This chronic self-erasure can show up as a skin problem that's never prioritized yet keeps steadily recurring." },
-        { code: "SX9", text: "How her partner is doing becomes the real yardstick for the sexual Nine once she merges with him. If he doesn't notice the breakout, the Nine often misses it too, because her own bodily awareness recedes behind the merging." },
+        { code: "SX9", text: "Once merged with her partner, the sexual Nine treats his condition as the real yardstick for her own. If he doesn't notice the breakout, she often misses it too, because her own bodily awareness recedes behind the merging." },
       ]},
     ],
     abschluss: "No skin is immune to acne, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with a pent-up inner impulse in its own way – some through control, others through withdrawal, overstimulation, or a chronically overridden tension of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
@@ -64107,12 +64107,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX7", text: "With infectious, boundless enthusiasm, the sexual Seven shows her arousal openly in her face, immediate and unfiltered. This constant seeking of stimulation can briefly lead to visible redness, without necessarily becoming chronic." },
       ]},
       { typ: 8, titel: "An exposure the face cannot hide", varianten: [
-        { code: "SE8", text: "Consistent control over her own body is what the self-preservation Eight insists on, weakness barely permitted to surface. Facial redness that slips past that control lands as a particularly humbling reminder that not everything can be mastered." },
+        { code: "SE8", text: "What the self-preservation Eight insists on is consistent control over her own body, weakness barely permitted to surface. Facial redness that slips past that control lands as a particularly humbling proof that not everything can be forced into line." },
         { code: "SO8", text: "The social Eight outwardly demonstrates unconditional strength, part of her self-appointed protector role – visible redness that betrays arousal or vulnerability is rarely allowed. The pressure to override it can rather intensify the underlying tension." },
         { code: "SX8", text: "The sexual Eight seeks merging rather than mere closeness in her one relationship, overriding her own boundaries into those of the person she loves. This blurring of her own outline can find an echo in the image of a gradual fading of color." },
       ]},
       { typ: 9, titel: "An arousal that rarely arrives consciously", varianten: [
-        { code: "SE9", text: "Inner arousal rarely reaches the self-preservation Nine's awareness – she loses herself too completely in routine and comfort. A progressing facial redness thus often goes unheeded for a long time this way." },
+        { code: "SE9", text: "Inner arousal seldom breaks through to the self-preservation Nine's conscious awareness – she loses herself too completely in routine and comfort. A progressing facial redness can thus go unaddressed for a remarkably long stretch this way." },
         { code: "SO9", text: "As soon as a conflict appears on the horizon, the social Nine reflexively subordinates her own arousal to group harmony. This chronic self-erasure can show up as a facial redness that's never prioritized yet grows steadily more visible." },
         { code: "SX9", text: "How visibly aroused or embarrassed her partner seems often becomes the real yardstick for the sexual Nine once she merges with him. If he doesn't notice her own redness, the Nine often misses it too." },
       ]},
@@ -64343,7 +64343,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX7", text: "Exhaustion gets papered over remarkably long by the sexual Seven, her enthusiasm boundless and contagious enough to mask it. That adaptability frequently delays the underlying depletion from being taken seriously in time." },
       ]},
       { typ: 8, titel: "A weakness no one is meant to see", varianten: [
-        { code: "SE8", text: "Hardly any room is left for exhaustion to show, given how consistently the self-preservation Eight controls her body. A cold sore outbreak that escapes that control lands as a particularly wounding reminder that not everything can be mastered." },
+        { code: "SE8", text: "Given how consistently the self-preservation Eight controls her body, exhaustion is hardly ever given room to show. A cold sore outbreak that escapes that control lands as a particularly wounding proof that not everything bends to her will." },
         { code: "SO8", text: "Unconditional strength has to be shown, as part of the social Eight's self-appointed protector role, even once her own reserves have long since run dry. The pressure to hide that exhaustion can surface as a recurring outbreak." },
         { code: "SX8", text: "The sexual Eight clings possessively to the one bond from which she draws her sense of security, defending it against any perceived threat with full force. This constant readiness to defend can show up as a recurring, energy-draining outbreak." },
       ]},
@@ -64402,7 +64402,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX7", text: "Ever new contacts and experiences draw the sexual Seven in, boundless and contagious enthusiasm outweighing the risk of an intolerance. That openness sets her apart from the more cautious approach of the other Seven variants." },
       ]},
       { typ: 8, titel: "A contact that escapes control", varianten: [
-        { code: "SE8", text: "The self-preservation Eight usually keeps consistent control over the substances and contacts her body is exposed to. An eczema that shows up despite this caution feels to her like a particularly wounding reminder that not everything can be mastered." },
+        { code: "SE8", text: "Consistent control over the substances and contacts her body is exposed to is something the self-preservation Eight usually maintains. An eczema that shows up despite this caution feels to her like a particularly wounding proof that not everything bends to her will." },
         { code: "SO8", text: "Contacts that call her protective function for the group into question are bearable for the social Eight only with a noticeable inner hardness that rarely shows on the surface. This instantly overplayed resistance can force its way out bodily." },
         { code: "SX8", text: "The sexual Eight tends to measure her own reactions in her intense bond by whether her partner takes her seriously, more than by what the original contact actually triggered. This shift can end up prolonging the real intolerance at the contact site." },
       ]},
@@ -64448,7 +64448,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "An old withdrawal that costs strength", varianten: [
         { code: "SE5", text: "Her whole life long, the self-preservation Five reduces contact and needs to a minimum. This restraint, sustained over decades, can surface as a painful rash along a single nerve once the strength for it fades." },
         { code: "SO5", text: "For a lifetime, the social Five keeps emotional closeness at a safe distance while readily sharing her knowledge. If this inner separation, sustained over decades, weakens, it can show up as shingles." },
-        { code: "SX5", text: "Within her one deep, protected bond, the sexual Five allows real closeness early in life, rather than postponing it for decades – unlike the general reserve of other Five variants." },
+        { code: "SX5", text: "Real closeness comes early for the sexual Five, but only within her one deep, protected bond, rather than being postponed for decades – unlike the reserve other Five variants tend to keep up." },
       ]},
       { typ: 6, titel: "An old watchfulness that drains strength", varianten: [
         { code: "SE6", text: "Her whole life long, the self-preservation Six stays in inner alertness, her nervous system rarely finding real rest. This alarm state, sustained over decades, is among the classic pathways toward shingles in older age." },
@@ -64566,7 +64566,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A withdrawal that keeps nourishment at bay", varianten: [
         { code: "SE5", text: "The self-preservation Five consistently reduces her needs to the essentials, emotional nourishment too being hardly ever consciously received. This general self-denial can show up metabolically as declining insulin sensitivity." },
         { code: "SO5", text: "The social Five readily takes in and passes on knowledge, while keeping emotional closeness at a safe distance. This selective receptiveness can show up as gradually rising blood sugar." },
-        { code: "SX5", text: "Keeping closeness and affection at bay is the general pattern, but not within her one deep bond, where the sexual Five consciously receives both – unlike the general reserve of other Five variants." },
+        { code: "SX5", text: "The general pattern is to keep closeness and affection at bay, yet within her one deep bond the sexual Five consciously lets both in – unlike the caution other Five variants tend to hold onto." },
       ]},
       { typ: 6, titel: "A tension that allows no rest", varianten: [
         { code: "SE6", text: "Constant watchfulness shapes the self-preservation Six's daily life, her nervous system rarely finding real rest. This permanent stress is among the best-known co-drivers of a developing insulin resistance." },
@@ -64625,7 +64625,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "An expression that would rather not arise at all", varianten: [
         { code: "SE5", text: "The self-preservation Five often prefers to keep her thoughts to herself, rather than voicing them and thereby becoming vulnerable. This general holding-back of her own expression can show up metabolically as throttled thyroid function." },
         { code: "SO5", text: "Her own emotional voice stays carefully at a distance even as knowledge flows freely outward from the social Five. That selective restraint can show up as gradually declining thyroid function." },
-        { code: "SX5", text: "Within her one deep bond, the sexual Five does speak openly about herself, rather than holding back in general – unlike the general reserve of other Five variants." },
+        { code: "SX5", text: "Speaking openly about herself is something the sexual Five reserves for her one deep bond, rather than holding back across the board – unlike the general reserve of other Five variants." },
       ]},
       { typ: 6, titel: "A worry that never gets voiced", varianten: [
         { code: "SE6", text: "Watchfulness runs quietly under everything in the self-preservation Six's daily life, the worry itself rarely spoken. That constant, silent alarm can show up metabolically as throttled thyroid function." },
@@ -64822,7 +64822,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 9, titel: "A bodily sense rarely made conscious", varianten: [
         { code: "SE9", text: "Hunger and fullness barely register consciously for the self-preservation Nine, so completely does she lose herself in routine and comfort. This missing bodily awareness can show up over years as extra weight." },
         { code: "SO9", text: "The instant her own sense of fullness tries to come forward, the social Nine consistently subordinates it to group harmony. This chronic self-erasure can show up as gradual weight gain." },
-        { code: "SX9", text: "Her sense of her own body the sexual Nine often takes over from her partner, once she merges with him. If he eats carelessly, she often eats along just as carelessly, because her own bodily awareness recedes behind the merging." },
+        { code: "SX9", text: "Her sense of her own body gets taken over from her partner once she merges with him. If he eats carelessly, she often eats along just as carelessly, because her own bodily awareness recedes behind the merging." },
       ]},
     ],
     abschluss: "No body is immune to extra weight, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with some form of cushion, reserve, or unstilled longing in its own way – some through control, others through withdrawal, pursuit of pleasure, or a chronically overridden bodily sense of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
@@ -65978,7 +65978,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "A boundary that yields to functioning", varianten: [
         { code: "SE3", text: "Despite early cold symptoms, the self-preservation Three keeps working efficiently, since a breakdown does not fit her daily plan. This systematic pushing through prevents full recovery and can favor new infections." },
         { code: "SO3", text: "The social Three keeps up her high-performing public image even when she actually feels ill – a visible breakdown contradicts that image. This denial of her own weakness can exhaust her defenses over the long run." },
-        { code: "SX3", text: "Being allowed to look exhausted and unwell, not just flawless, is a rare privilege the sexual Three grants herself in front of the one important person. This protected space for retreat can ease recovery compared to the sustained facade of other Three variants." },
+        { code: "SX3", text: "Being allowed to look exhausted and unwell, not just flawless, is a rare privilege the sexual Three grants herself in front of the one important person. This protected space for retreat can ease recovery compared to the sustained facade the other Three variants tend to keep up." },
       ]},
       { typ: 4, titel: "A boundary that is too porous", varianten: [
         { code: "SE4", text: "Functional and stubborn is how the self-preservation Four, the counter-type, keeps carrying her burden, even once her body is already exhausted. This persistent carrying-on without genuine recovery breaks can chronically weaken the immune system." },
@@ -66037,7 +66037,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "A shortfall that threatens self-image", varianten: [
         { code: "SE3", text: "Functioning is a cornerstone of daily life for the self-preservation Three, one she wants to quickly restore after an infection. A persistent PEM that prevents exactly that can be especially hard for her to accept, because it fundamentally contradicts her self-image." },
         { code: "SO3", text: "The social Three wants to restore her high-performing public image as fast as possible after recovering from an illness, a visible lag coming at an inconvenient time. This push toward a quick return can unconsciously delay genuine recovery." },
-        { code: "SX3", text: "The sexual Three can most readily show her exhaustion to the one important person, rather than functioning flawlessly again right away. This protected space can support genuine recovery more than the sustained facade of other Three variants." },
+        { code: "SX3", text: "It is toward the one important person that the sexual Three most readily lets her exhaustion show, instead of snapping straight back into flawless functioning. This protected space can support genuine recovery more readily than the sustained facade the other Three variants tend to maintain." },
       ]},
       { typ: 4, titel: "A shortfall that becomes a loss", varianten: [
         { code: "SE4", text: "The self-preservation Four, the counter-type, barely visibly mourns her former resilience while stubbornly carrying on all the same. This quiet carrying-on without genuine grieving can make the necessary recovery harder." },
@@ -66096,7 +66096,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "A trust that contradicted her image", varianten: [
         { code: "SE3", text: "The self-preservation Three wanted to get the vaccination behind her efficiently and without much downtime, like one more item checked off a list. A persistent condition that derails this plan can be especially hard for her to accept." },
         { code: "SO3", text: "The social Three keeps up a flawless, high-functioning image as seamlessly as possible even after a vaccination. Persistent exhaustion that visibly calls this image into question can lead her to deny or play down her own symptoms for an especially long time." },
-        { code: "SX3", text: "Admitting exhaustion after vaccination comes easiest for the sexual Three in front of the one important person, rather than appearing flawless again right away. This protected space can ease the processing compared to the sustained facade of other Three variants." },
+        { code: "SX3", text: "After vaccination, it is in front of the one important person that admitting exhaustion comes easiest for the sexual Three, rather than snapping back to a flawless appearance right away. This protected space can ease the processing compared to the sustained facade the other Three variants tend to maintain." },
       ]},
       { typ: 4, titel: "A trust that became another exception", varianten: [
         { code: "SE4", text: "Complaint rarely accompanies the self-preservation Four's, the counter-type's, reaction, which she carries stubbornly and wordlessly instead. Precisely this quiet endurance without being heard can make processing the unexpected breach of trust even harder." },
@@ -66120,7 +66120,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "A trust whose breach feels like betrayal", varianten: [
         { code: "SE8", text: "The self-preservation Eight usually made her vaccination decision independently and after her own weighing, in the awareness of keeping control over the consequences. A reaction that unpredictably undermines that control can feel like an especially sensitive inner betrayal of trust." },
-        { code: "SO8", text: "The social Eight often championed vaccination from a protective stance, for the sake of her group. If her own body then reacts unexpectedly strongly, it can shake her protector role in a way that is especially hard to bear." },
+        { code: "SO8", text: "Vaccination was often championed by the social Eight from a protective stance, for the sake of her group. If her own body then reacts unexpectedly strongly, it can shake her protector role in a manner she finds especially hard to bear." },
         { code: "SX8", text: "The sexual Eight only lets her unexpected exhaustion become visible at all in front of the one person she trusts, rather than constantly asserting strength. This protected space can ease the processing compared to the permanent pressure to control other Eight variants carry." },
       ]},
       { typ: 9, titel: "A breach of trust that gets overridden", varianten: [
@@ -66573,7 +66573,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 4, titel: "A story that wants to be told", varianten: [
         { code: "SE4", text: "The self-preservation Four, the counter-type, usually carries her worry tough and functionally, without making much fuss about the diagnosis. This quiet perseverance can mean, though, that she asks for needed support only late." },
         { code: "SO4", text: "In a melanoma diagnosis, the social Four sometimes finds a painful confirmation of her own sense of being different – the visible blemish becomes further proof of standing out from the crowd, rather than being seen as a temporary medical episode." },
-        { code: "SX4", text: "The sexual Four talks about her diagnosis with the one important person intensely and immediately, rather than processing it internally. This outward-directed expression differs from the stronger inward focus of other Four variants." },
+        { code: "SX4", text: "The sexual Four talks about her diagnosis with the one important person intensely and immediately, rather than processing it internally. This outward-directed expression sets her apart from the stronger inward focus other Four variants tend to favor." },
       ]},
       { typ: 5, titel: "Knowledge as the first step", varianten: [
         { code: "SE5", text: "Before the first doctor's appointment, the self-preservation Five usually researches all available information on stage and treatment options thoroughly, so she already has enough knowledge of her own before placing herself in others' hands." },
@@ -66593,7 +66593,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Control over one's own case", varianten: [
         { code: "SE8", text: "The self-preservation Eight wants to retain decision-making authority over her treatment plan and often challenges doctors with critical questions before following a recommendation – being controlled by others in her own illness course is hard for her to bear." },
         { code: "SO8", text: "Even during treatment, the social Eight keeps showing her strong, protective side in front of her group; her own exhaustion or fear usually stays unspoken, since showing weakness is rarely an option for her." },
-        { code: "SX8", text: "The sexual Eight at least opens up about her fear of the finding to the one person she trusts, instead of consistently demonstrating strength. This protected space eases dealing with the diagnosis compared with the permanent need for control of other Eight variants." },
+        { code: "SX8", text: "The sexual Eight at least opens up about her fear of the finding to the one person she trusts, instead of consistently demonstrating strength. This protected space eases dealing with the diagnosis compared with the permanent grip on control other Eight variants tend to hold." },
       ]},
       { typ: 9, titel: "A finding that wants to go unnoticed", varianten: [
         { code: "SE9", text: "The self-preservation Nine sometimes watches a suspicious mole for a long time without seeing a doctor, so as not to disturb her everyday comfort – often only a clear nudge from someone else brings her to get it checked." },
@@ -66627,12 +66627,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "Performance despite exhaustion", varianten: [
         { code: "SE3", text: "Despite weight loss and exhaustion, the self-preservation Three often tries to keep up her workload; a visible drop in performance is hard for her to accept, even once her body has long since set clear limits." },
         { code: "SO3", text: "Visible weight loss and exhaustion get downplayed as much as possible by the social Three, so as not to jeopardize her high-performing image – an open conversation about the actual severity of the illness is correspondingly hard for her." },
-        { code: "SX3", text: "The sexual Three lets exhaustion and loss of appetite become visible in front of the one important person, instead of playing them down. This protected space makes it easier for her to deal with the illness than the sustained facade of other Three variants." },
+        { code: "SX3", text: "Exhaustion and loss of appetite are allowed to show in front of the one important person for the sexual Three, rather than being talked down. This protected space makes it easier for her to deal with the illness than the sustained facade most other Three variants keep intact." },
       ]},
       { typ: 4, titel: "An illness with a meaning of its own", varianten: [
         { code: "SE4", text: "Her physical decline gets carried tough and without much complaint by the self-preservation Four, the counter-type, who quietly tries to stay as functional as possible despite a restricted diet." },
         { code: "SO4", text: "In her own stomach cancer diagnosis, the social Four can find a tragic confirmation of her feeling that her life has always been harder than others' – the illness easily becomes part of her own identity rather than a medical episode." },
-        { code: "SX4", text: "The sexual Four talks about the fear behind the diagnosis with the one important person intensely and immediately, rather than processing it inwardly. This outward-directed expression differs from the stronger inward focus of other Four variants." },
+        { code: "SX4", text: "The fear underlying the diagnosis is something the sexual Four takes straight to the one important person, intensely and without delay, rather than processing it inwardly. This outward-directed expression contrasts with the more inward-turned processing other Four variants tend to favor." },
       ]},
       { typ: 5, titel: "Understanding before feeling", varianten: [
         { code: "SE5", text: "Before every doctor's appointment, the self-preservation Five typically builds as complete a picture as possible of stage, dietary changes, and treatment options, so as not to feel at the mercy of a body that no longer tolerates food as it used to." },
@@ -66647,12 +66647,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Between optimism and denial", varianten: [
         { code: "SE7", text: "The self-preservation Seven often experiences dietary restrictions and treatment limits as a particularly painful loss of enjoyment and mobility, and actively looks for ways to keep as many pleasant options as possible despite the illness." },
         { code: "SO7", text: "Her own fear of the diagnosis gets put behind the group's need for normalcy by the social Seven, the counter-type, who appears remarkably composed on the outside." },
-        { code: "SX7", text: "The sexual Seven directs her attention with focus toward the concrete treatment, instead of fleeing into distraction. This engagement differs from the constant avoidance of other Seven variants." },
+        { code: "SX7", text: "Focused attention toward the concrete treatment, rather than flight into distraction, is what the sexual Seven manages here. This engagement sets her apart from the constant avoidance other Seven variants tend to fall back on." },
       ]},
       { typ: 8, titel: "Authority over one's own case", varianten: [
         { code: "SE8", text: "As much say as possible over the treatment plan is what the self-preservation Eight fights to keep, asking doctors critical questions about alternatives, because being purely controlled by others in her own illness course is hard for her to tolerate." },
         { code: "SO8", text: "The social Eight maintains her strong, protective position toward her group even during treatment; her own exhaustion or fear of the diagnosis usually stays unspoken." },
-        { code: "SX8", text: "Toward the one person she trusts, the sexual Eight also shows her fear about the course of the illness, instead of consistently demonstrating strength. This protected space eases dealing with the illness compared with the permanent need for control of other Eight variants." },
+        { code: "SX8", text: "Her fear about the course of the illness is something the sexual Eight will show toward the one person she trusts, instead of consistently demonstrating strength. This protected space eases dealing with the illness compared with the unbroken front other Eight variants tend to keep up." },
       ]},
       { typ: 9, titel: "Symptoms downplayed for a long time", varianten: [
         { code: "SE9", text: "The self-preservation Nine often attributes persistent fullness or loss of appetite to harmless causes for a long time, so as not to question her familiar routine – only clear, hard-to-ignore symptoms bring her to get it checked." },
@@ -66701,17 +66701,17 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 6, titel: "Between loss of control and a second opinion", varianten: [
         { code: "SE6", text: "The self-preservation Six often reacts to so grave a diagnosis with intense worry about every further possible risk, while at the same time searching feverishly for a concrete, tangible treatment plan that gives her back some sense of safety." },
         { code: "SO6", text: "Before a consequential treatment decision, the social Six typically gathers several medical opinions and the advice of trusted people, because a decision made alone feels unbearably unsafe given such high stakes." },
-        { code: "SX6", text: "Fear of the prognosis gets met with decisive, immediate action by the sexual Six, the counter-type, instead of endless brooding over the outcome. This readiness to act eases her burden more than the worry-spiraling of other Six variants." },
+        { code: "SX6", text: "Rather than brooding endlessly over the outcome, the sexual Six, the counter-type, meets fear of the prognosis with decisive, immediate action. This readiness to act eases her burden more than the anxious rumination other Six variants tend to fall into." },
       ]},
       { typ: 7, titel: "The pain behind the good mood", varianten: [
         { code: "SE7", text: "Facing a possibly limited amount of time, the self-preservation Seven often searches intensely for still-attainable pleasant experiences, while truly letting in the actual scope of the diagnosis remains hard for her." },
         { code: "SO7", text: "Her own shock over the diagnosis stays far from the group with the social Seven, the counter-type, who appears remarkably lighthearted on the outside, while inwardly remaining alone with the full weight of it." },
-        { code: "SX7", text: "The remaining time shared with the one important person becomes the sexual Seven's focus, instead of fleeing into distraction. This engagement differs from the constant avoidance of other Seven variants." },
+        { code: "SX7", text: "Rather than fleeing into distraction, the sexual Seven puts her focus on the remaining time shared with the one important person. This engagement contrasts with the constant avoidance other Seven variants tend to fall back on." },
       ]},
       { typ: 8, titel: "Fighting against powerlessness", varianten: [
         { code: "SE8", text: "The self-preservation Eight fights against the feeling of total powerlessness after the diagnosis with all her strength, examines every still-available treatment option herself, and challenges doctors – passivity is hard for her to bear." },
         { code: "SO8", text: "Even with so serious a diagnosis, the social Eight maintains the strong, protective position in front of her group; her own fear and exhaustion usually stay hidden." },
-        { code: "SX8", text: "The sexual Eight at least shows her fear about the course of the illness to the one person she trusts, instead of consistently demonstrating strength. This protected space eases dealing with the diagnosis compared with the permanent need for control of other Eight variants." },
+        { code: "SX8", text: "At least to the one person she trusts, the sexual Eight lets her fear about the course of the illness show, instead of consistently demonstrating strength. This protected space eases dealing with the diagnosis compared with the permanent need for control of other Eight variants." },
       ]},
       { typ: 9, titel: "A late awakening of symptoms", varianten: [
         { code: "SE9", text: "The self-preservation Nine often interprets early, diffuse complaints such as loss of appetite or mild back pain as everyday phenomena for a long time, so as not to disturb her peace – only clear symptoms such as jaundice bring her to get it checked." },
@@ -66750,7 +66750,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 4, titel: "A long time alone with herself", varianten: [
         { code: "SE4", text: "Toughing it out with little complaint through a long treatment is typical of the self-preservation Four, the counter-type, which can help her get through isolation phases practically, but can also prevent her from asking for help in time." },
         { code: "SO4", text: "In the long, isolated phases of treatment, the social Four sometimes finds a bleak confirmation of her feeling of being set apart, rather than experiencing the isolation as a temporary medical measure." },
-        { code: "SX4", text: "The existential weight of the diagnosis and treatment gets talked through with great intensity with the one important person, rather than processed internally alone. This outward-directed expression differs from the stronger inward focus of other Four variants." },
+        { code: "SX4", text: "Rather than working through it alone, the sexual Four talks the existential weight of diagnosis and treatment through with great intensity with the one important person. This outward-directed expression differs from the stronger inward focus of other Four variants." },
       ]},
       { typ: 5, titel: "Withdrawal that becomes a trial of endurance", varianten: [
         { code: "SE5", text: "The enforced isolation during treatment feels, in a way, familiar to the self-preservation Five, while at the same time the complete dependence on medical staff demands that she give up her usual autonomy considerably." },
@@ -66760,17 +66760,17 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 6, titel: "Building trust in the treatment team", varianten: [
         { code: "SE6", text: "The self-preservation Six typically informs herself very precisely about the exact course of treatment, possible complications, and emergency scenarios, because this knowledge gives her back a piece of certainty during a long, largely uncontrollable therapy." },
         { code: "SO6", text: "The social Six usually builds a close relationship of trust with her treatment team and orients herself strongly by their assessments, because a decision made alone would feel unsafe given such high stakes." },
-        { code: "SX6", text: "Active involvement in decisions and decisive action are how the sexual Six, the counter-type, faces fear of the long treatment, instead of endless brooding. This readiness to act eases her burden more than the worry-spiraling of other Six variants." },
+        { code: "SX6", text: "Fear of the long treatment is faced by the sexual Six, the counter-type, through active involvement in decisions and decisive action, instead of endless brooding. This readiness to act eases her burden more than the anxious rumination other Six variants tend toward." },
       ]},
       { typ: 7, titel: "Lightness amid isolation", varianten: [
         { code: "SE7", text: "During longer isolation phases, the self-preservation Seven actively looks for small pleasures and variety within the limited setting of the hospital room, because the absence of any option is especially hard for her." },
         { code: "SO7", text: "Exhaustion and fear during treatment stay hidden from the group with the social Seven, the counter-type, who comes across as remarkably lighthearted in conversation, while inwardly remaining alone with the full weight of it." },
-        { code: "SX7", text: "The sexual Seven concentrates her attention with focus on the connection to the one important person during the long treatment, instead of fleeing into distraction. This engagement differs from the constant avoidance of other Seven variants." },
+        { code: "SX7", text: "During the long treatment, the sexual Seven's attention stays concentrated on the connection to the one important person, instead of fleeing into distraction. This engagement differs from the constant avoidance of other Seven variants." },
       ]},
       { typ: 8, titel: "Strength despite enforced dependence", varianten: [
         { code: "SE8", text: "The self-preservation Eight experiences complete dependence on the treatment team during intensive therapy phases as especially hard to bear, and tries at least to preserve a sense of shared decision-making through precise questioning." },
         { code: "SO8", text: "During a long, exhausting treatment, the social Eight maintains the strong, protective position in front of her group; her own fear or weakness usually stays hidden." },
-        { code: "SX8", text: "The sexual Eight shows the fear and exhaustion of treatment to the one person she trusts, instead of consistently demonstrating strength. This protected space eases the long treatment time for her compared with the permanent need for control of other Eight variants." },
+        { code: "SX8", text: "Fear and exhaustion from treatment do get shown by the sexual Eight, but only to the one person she trusts, instead of consistently demonstrating strength. This protected space eases the long treatment time for her compared with the unbroken front other Eight variants tend to keep up." },
       ]},
       { typ: 9, titel: "Symptoms that get lost in daily life", varianten: [
         { code: "SE9", text: "The self-preservation Nine often interprets persistent tiredness and paleness as ordinary exhaustion for a long time, so as not to question her calm daily life – only clear symptoms such as bleeding bring her to get it checked." },
@@ -66807,7 +66807,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX3", text: "The sexual Three drops her flawless facade the moment she is alone with the one important person, showing there the exhaustion she otherwise consistently hides." },
       ]},
       { typ: 4, titel: "A creeping threat that barely finds words", varianten: [
-        { code: "SE4", text: "The self-preservation Four, the counter-type, tends to carry her fear of the progressing illness stoically and without much complaint rather than expressing it – behavior that clearly contradicts the dramatic expression typical of her type." },
+        { code: "SE4", text: "The self-preservation Four, the counter-type, tends to carry her fear of the progressing illness stoically and without much complaint rather than expressing it – behavior that clearly runs counter to the dramatic expression her type is known for." },
         { code: "SO4", text: "In the diagnosis, the social Four sometimes finds a painful confirmation of her feeling that her suffering goes misunderstood anyway, which tends to make her withdraw rather than speak about it openly." },
         { code: "SX4", text: "The sexual Four talks intensely about her fear of dialysis and functional loss with the one person she feels connected to, instead of avoiding these existential topics." },
       ]},
@@ -66829,7 +66829,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Control over one's own treatment plan", varianten: [
         { code: "SE8", text: "The self-preservation Eight wants to retain decision-making authority over her diet and dialysis plan and often challenges doctors with critical questions, because being controlled by others over her own body is hard for her to bear." },
         { code: "SO8", text: "Even as the illness progresses, the social Eight continues to present herself to her family as a strong, reliable pillar, while her own exhaustion from dialysis mostly stays unspoken." },
-        { code: "SX8", text: "The sexual Eight opens up about her fear of functional loss to the one person she trusts, rather than consistently demonstrating strength." },
+        { code: "SX8", text: "The sexual Eight opens up about her fear of functional loss to the one person she trusts, rather than keeping up a constant front of strength." },
       ]},
       { typ: 9, titel: "One's own voice in the treatment plan", varianten: [
         { code: "SE9", text: "The self-preservation Nine often pushes early signs such as fluid retention or tiredness aside within her familiar daily routine for a long time, until a clear medical finding forces her to act." },
@@ -67040,7 +67040,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "A boundary that yields to the schedule", varianten: [
         { code: "SE3", text: "Between two appointments there is often no time left for the self-preservation Three's own bathroom break, efficiency coming before bodily need. This systematic postponing can make the bladder more prone to inflammation over time." },
         { code: "SO3", text: "Her image as a high-performing, always-available person keeps getting maintained by the social Three even when a break is urgently needed. Recurring complaints that force her to pause contradict this image in a particularly uncomfortable way." },
-        { code: "SX3", text: "Appearing tired and needy is allowed for the sexual Three, at least in front of the one important person, rather than functioning flawlessly at all times. This freedom can help her take bodily warning signs more seriously than the sustained facade of other Three variants." },
+        { code: "SX3", text: "At least in front of the one important person, the sexual Three permits herself to look tired and needy rather than functioning flawlessly at all times. This freedom can help her take bodily warning signs more seriously than the sustained facade the other Three variants tend to hold up." },
       ]},
       { typ: 4, titel: "A boundary that stays too permeable", varianten: [
         { code: "SE4", text: "Her discomfort tends to be carried around stubbornly and wordlessly by the self-preservation Four, the counter-type, rather than admitted. A recurring burning during urination can get suppressed this way until the next flare-up becomes impossible to ignore." },
@@ -67099,12 +67099,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "A gaze fixed only ahead", varianten: [
         { code: "SE3", text: "On the next goal, the self-preservation Three fixates so consistently that a routine eye check gladly gets pushed aside in the tight schedule. An unnoticed, progressing glaucoma can stay undetected for years this way." },
         { code: "SO3", text: "Her image as a high-performing, sharply focused person gets carefully maintained by the social Three, a restricted visual field fitting into it only poorly. Once the diagnosis becomes visible, it can hit her self-image as an unrestrictedly functioning person especially hard." },
-        { code: "SX3", text: "Showing weaknesses and worries is allowed for the sexual Three, at least in front of the one important person, rather than appearing flawless at all times. This freedom can help her take her own check-up appointments more seriously than the sustained facade of other Three variants." },
+        { code: "SX3", text: "At least in front of the one important person, the sexual Three can let her weaknesses and worries show rather than keeping up a flawless appearance at all times. This freedom can help her take her own check-up appointments more seriously than the sustained facade the other Three variants tend to hold up." },
       ]},
       { typ: 4, titel: "A gaze that turns inward", varianten: [
         { code: "SE4", text: "Bodily warning signs get overridden by the self-preservation Four, the counter-type, stubbornly and wordlessly, rather than admitted. A creeping glaucoma can escape her own awareness for a particularly long time this way." },
         { code: "SO4", text: "Inner brooding is something the social Four often sinks into, her gaze turning more inward than toward the outer world. This tendency to narrow rather than widen her gaze can mirror itself symbolically in the gradual visual field loss of a glaucoma." },
-        { code: "SX4", text: "Her intensity gets sought by the sexual Four directly in the encounter with others, rather than getting lost in introspection. This outward-directed attention differs from the stronger inward focus of other Four variants." },
+        { code: "SX4", text: "Rather than losing herself in introspection, the sexual Four seeks her intensity directly in encounters with others. This outward-directed attention sets her apart from the more inward-turned processing other Four variants tend to favor." },
       ]},
       { typ: 5, titel: "A gaze focused on the essential", varianten: [
         { code: "SE5", text: "Her limited resources get carefully rationed by the self-preservation Five, who also avoids unpleasant doctor visits as long as there's no acute complaint. This avoidance can cause a symptom-free glaucoma to go undetected for a long time." },
@@ -67129,7 +67129,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 9, titel: "A gaze that comes last for herself", varianten: [
         { code: "SE9", text: "Unpleasant doctor visits gladly get pushed aside by the self-preservation Nine, so as not to jeopardize her everyday comfort. A symptom-free, progressing glaucoma can stay unnoticed for a particularly long time this way, before the visual field loss becomes impossible to overlook." },
         { code: "SO9", text: "Her own preventive care usually gets set aside by the social Nine within the group to preserve harmony – even when it concerns her own eye health. This constant deferral can mean a glaucoma is only discovered late." },
-        { code: "SX9", text: "Her gaze often gets directed by the sexual Nine, in merging with her partner, more toward his condition than her own. Her own changes in vision can stay in the background for a particularly long time as a result, until they push themselves unmistakably into the foreground." },
+        { code: "SX9", text: "The sexual Nine's gaze, in merging with her partner, often turns more toward his condition than her own. Her own changes in vision can stay in the background for a particularly long time as a result, until they can no longer be ignored and finally break through." },
       ]},
     ],
     abschluss: "No one is safe from glaucoma, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with inner pressure and its own foresight in its own distinct way – some through control, others through care, withdrawal, or a bodily warning signal long overridden. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
@@ -67158,7 +67158,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "A pain that contradicts functioning", varianten: [
         { code: "SE3", text: "Despite severe pain, the self-preservation Three keeps working efficiently, a sick day not fitting into her tightly scheduled routine. This systematic pushing-through can postpone a necessary gynecological evaluation for years." },
         { code: "SO3", text: "Her high-performing public image keeps getting maintained by the social Three even when menstrual pain would actually force her to rest – visibly admitting pain contradicts this image. This denial can contribute to the condition staying unrecognized for a long time." },
-        { code: "SX3", text: "Appearing with real pain is allowed for the sexual Three, at least in front of the one important person, rather than appearing flawless at all times. This protected space can help her take her complaints seriously, instead of hiding them behind the sustained facade of other Three variants." },
+        { code: "SX3", text: "Real pain is something the sexual Three can show, at least in front of the one important person, rather than keeping up a flawless appearance at all times. This protected space can help her take her complaints seriously, instead of hiding them behind the sustained facade most other Three variants keep intact." },
       ]},
       { typ: 4, titel: "A pain that becomes her own truth", varianten: [
         { code: "SE4", text: "Her suffering gets carried through daily life stubbornly and almost wordlessly by the self-preservation Four, the counter-type, without making it visible outwardly. This quiet endurance can prevent her real, often considerable pain from even being noticed and taken seriously by those around her." },
@@ -67241,13 +67241,13 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 8, titel: "A loss of control experienced as weakness", varianten: [
         { code: "SE8", text: "Her physical resources get watched over by the self-preservation Eight with great vigilance, any diminishing of control quickly counting to her as weakness. If her own body involuntarily escapes control, it can feel like an inner betrayal of her own strength – here too it holds true: not weakness, but a physical functional disorder." },
-        { code: "SO8", text: "Her protector role toward the group gets consistently held up by the social Eight, showing her own vulnerability rarely being an option. An incontinence that would need to be openly discussed can call this role into question in a way that is especially hard to bear." },
+        { code: "SO8", text: "Consistently, the social Eight holds up her protector role toward the group, rarely allowing her own vulnerability to show. An incontinence that would need to be openly discussed can call this role into question in a manner she finds especially hard to bear." },
         { code: "SX8", text: "Control doesn't have to be constantly maintained by the sexual Eight toward the one person she trusts – there, vulnerability is allowed to show too. This protected space for openness can ease dealing with a bladder weakness compared with the permanent pressure to control of other Eight variants." },
       ]},
       { typ: 9, titel: "A loss of control long overridden", varianten: [
         { code: "SE9", text: "Not rocking her comfortable routine matters more to the self-preservation Nine than addressing an uncomfortable bodily signal right away. Early, still mild signs of a bladder weakness can stay unnoticed for a particularly long time this way, before they intensify." },
         { code: "SO9", text: "To preserve harmony within the group, the social Nine usually sets her own concerns aside – even when it concerns her own health. A necessary treatment for pelvic floor weakness can unconsciously get pushed back this way, until the symptoms themselves can no longer be overlooked." },
-        { code: "SX9", text: "His condition often gets perceived by the sexual Nine, in merging with her partner, more intensely than her own. Her own warning signs of an emerging bladder weakness can stay in the background for a particularly long time as a result, until they push themselves unmistakably into the foreground." },
+        { code: "SX9", text: "Merging with her partner, the sexual Nine often perceives his condition more intensely than her own. Her own warning signs of an emerging bladder weakness can stay in the background for a particularly long time as a result, until they eventually force their way into plain view." },
       ]},
     ],
     abschluss: "No one is safe from bladder weakness, regardless of subtype, and no pattern is a verdict – least of all a reason for shame. What emerges is simply that each of the 27 subtypes deals with involuntary loss of control in its own distinct way – some through discipline, others through caregiving, withdrawal, or a bodily warning signal long overridden. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
@@ -67266,7 +67266,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Hardened standards", varianten: [
         { code: "SE1", text: "Over the years, the self-preservation One holds back unspoken irritation about small inaccuracies in daily life instead of voicing it – this steady holding-back can psychosomatically compact into something that eventually breaks through painfully." },
         { code: "SO1", text: "The social One consistently puts her own needs behind what seems right for the community, and usually swallows resentment about situations felt as unjust long before she even notices it." },
-        { code: "SX1", text: "Her anger about the sudden colic gets voiced by the sexual One immediately and loudly toward doctors and family, rather than disciplined suppression like other One variants." },
+        { code: "SX1", text: "When a sudden colic strikes, the sexual One's anger comes out loud and immediate, aimed straight at doctors and family, instead of the disciplined restraint other One variants tend to favor." },
       ]},
       { typ: 2, titel: "Withheld demands", varianten: [
         { code: "SE2", text: "Own wishes are rarely stated directly by the self-preservation Two, who prefers to quietly arrange for her needs to be met indirectly – when that fails over the years, a resentment builds up beneath the surface that she herself barely notices." },
@@ -67279,18 +67279,18 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX3", text: "Her otherwise flawless facade gets dropped by the sexual Three during the colic, at least in front of the one important person, where she shows genuine exhaustion she otherwise consistently hides." },
       ]},
       { typ: 4, titel: "A pain finally heard", varianten: [
-        { code: "SE4", text: "Her fear of the next attack gets carried by the self-preservation Four, the counter-type, mostly toughly and wordlessly rather than expressed – a behavior that clearly contradicts the dramatic expression typical of her type." },
+        { code: "SE4", text: "Fear of the next attack tends to be borne wordlessly and with grit by the self-preservation Four, the counter-type, rather than voiced – a marked departure from the dramatic display her type is known for." },
         { code: "SO4", text: "In the sudden, unmistakable intensity of the colic, the social Four occasionally finds a rare confirmation that her suffering finally becomes clearly visible, instead of staying unnoticed as usual." },
         { code: "SX4", text: "The pain gets described intensely by the sexual Four to the one person she feels bonded to, rather than processing it more inwardly like other Four variants." },
       ]},
       { typ: 5, titel: "The body as a surprising black box", varianten: [
         { code: "SE5", text: "After surviving a colic, the self-preservation Five systematically gathers knowledge about fluid intake, diet, and stone types, in order to prevent future attacks as independently as possible." },
         { code: "SO5", text: "The social Five likes to exchange views on stone types and treatment options in expert-oriented forums, while the actual fright over the sudden loss of control during the attack usually stays unspoken." },
-        { code: "SX5", text: "Her fear during the acute attack does not get purely factually walled off behind explanations by the sexual Five like other Five variants, but is genuinely shared with the one deep bond instead." },
+        { code: "SX5", text: "Her fear during the acute attack does not get purely factually walled off behind explanations by the sexual Five like other Five variants, but is genuinely opened up to the one deep bond instead." },
       ]},
       { typ: 6, titel: "Vigilance against the invisible enemy", varianten: [
         { code: "SE6", text: "After the first colic, the self-preservation Six monitors her fluid intake and possible warning signs almost meticulously, yet even a slight pulling sensation in the flank quickly triggers renewed worry about the next attack." },
-        { code: "SO6", text: "The social Six actively seeks advice from doctors and her close circle before deciding on a treatment method such as shock-wave therapy or surgery – deciding alone feels unsafe to her." },
+        { code: "SO6", text: "Before settling on a treatment method such as shock-wave therapy or surgery, the social Six actively canvasses doctors and her close circle, since deciding it alone would feel too risky." },
         { code: "SX6", text: "The recurring fear of the next attack gets met by the sexual Six, the counter-type, with decisive action, such as early surgical removal, rather than getting lost in worry." },
       ]},
       { typ: 7, titel: "The pain that allows no distraction", varianten: [
@@ -67301,11 +67301,11 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "The body that won't take orders", varianten: [
         { code: "SE8", text: "Against the pain of the colic, the self-preservation Eight initially wants to fight with sheer willpower instead of seeking medical help early – that her own body simply refuses this command feels especially hard to bear for her." },
         { code: "SO8", text: "Even in the middle of the attack, the social Eight tries to keep her composure in front of her family and keep making decisions, rather than visibly letting the pain overwhelm her." },
-        { code: "SX8", text: "Her vulnerability during the colic gets shown openly by the sexual Eight to the one person she trusts, rather than consistently demonstrating strength." },
+        { code: "SX8", text: "During the colic, the sexual Eight lets her vulnerability show openly, but only to the one person she trusts, rather than keeping up a constant front of strength." },
       ]},
       { typ: 9, titel: "A pain that cannot be pushed aside", varianten: [
         { code: "SE9", text: "Early pulling discomfort in the back often gets pushed aside by the self-preservation Nine in her familiar daily routine for a long time, until the sudden colic pain unmistakably forces her to act." },
-        { code: "SO9", text: "When choosing between watchful waiting and active stone removal, the social Nine frequently adopts the doctor's recommendation or her family's stance without voicing a clear preference of her own." },
+        { code: "SO9", text: "When choosing between watchful waiting and active stone removal, the social Nine frequently adopts the doctor's recommendation or her family's stance without ever putting her own preference clearly on the table." },
         { code: "SX9", text: "More intensely than her own tension, the sexual Nine often registers her partner's worry about her pain, which easily lets her own experience during the attack fade into the background." },
       ]},
     ],
@@ -67325,7 +67325,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Composure in the acute situation", varianten: [
         { code: "SE1", text: "In the acute crisis, the self-preservation One tries to keep functioning in a structured way despite the exceptional situation, and afterward often blames herself over whether an earlier warning sign was missed." },
         { code: "SO1", text: "Toward the treatment team, the social One appears mostly cooperative and matter-of-fact even in the acute situation, while largely holding back her own fear of the uncertainty." },
-        { code: "SX1", text: "Her fear and anger about the sudden crisis get voiced directly by the sexual One toward nursing staff and family, rather than disciplined suppression like other One variants." },
+        { code: "SX1", text: "Fear and anger during a sudden crisis are not held back by the sexual One – they go straight to nursing staff and family, unlike the quieter containment other One variants tend to favor." },
       ]},
       { typ: 2, titel: "Worrying about others in the middle of her own crisis", varianten: [
         { code: "SE2", text: "Even from the hospital bed, the self-preservation Two often worries first about who will take over everyday tasks at home, instead of fully focusing on her own acute treatment." },
@@ -67338,14 +67338,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX3", text: "Genuinely dropping her otherwise flawless self-presentation happens for the sexual Three only in front of the one important person, in the middle of the acute crisis, where real fear shows." },
       ]},
       { typ: 4, titel: "A crisis that stirs up everything at once", varianten: [
-        { code: "SE4", text: "Her fear in the acute crisis gets carried by the self-preservation Four, the counter-type, mostly toughly and functionally rather than expressed – a behavior that clearly contradicts the dramatic expression typical of her type." },
+        { code: "SE4", text: "In an acute crisis, fear tends to get pushed down and handled functionally by the self-preservation Four, the counter-type, rather than expressed – a marked departure from the way her type is otherwise known for airing feelings." },
         { code: "SO4", text: "In the abrupt severity of the situation, the social Four occasionally finds a painful confirmation that life runs especially hard for her, instead of classifying it as a temporary medical episode." },
         { code: "SX4", text: "Her fear of death in the acute situation gets shared unfiltered by the sexual Four with the one person she feels bonded to, rather than avoiding these existential themes." },
       ]},
       { typ: 5, titel: "Understanding as a foothold in the crisis", varianten: [
         { code: "SE5", text: "From doctors, the self-preservation Five often demands precise explanations of values and prognosis in the acute situation, because a clear understanding of the situation helps her limit her own sense of being overwhelmed." },
         { code: "SO5", text: "Afterward, the social Five often reads extensively about the causes and courses of acute kidney failure and discusses it matter-of-factly with like-minded people, while the personal fright usually stays unspoken." },
-        { code: "SX5", text: "Her fear during the acute treatment does not get purely factually walled off behind expertise by the sexual Five like other Five variants, but is genuinely shared with the one deep bond instead." },
+        { code: "SX5", text: "During acute treatment, fear is not walled off behind expertise by the sexual Five the way other Five variants tend to manage it, but is genuinely shared with the one deep bond instead." },
       ]},
       { typ: 6, titel: "Trust in a moment that allows no delay", varianten: [
         { code: "SE6", text: "In the acute crisis, it is especially hard for the self-preservation Six to trust the treatment team without her own follow-up questions, even though swift action is exactly what is needed now." },
@@ -67360,7 +67360,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Control in a situation with no control", varianten: [
         { code: "SE8", text: "That her body loses control this drastically within hours feels especially threatening to the self-preservation Eight, and she tries to at least retain influence through persistent questioning for information." },
         { code: "SO8", text: "Even in the acute crisis, the social Eight tries to remain a strong, orienting presence in front of her family, while her own fear mostly stays unspoken." },
-        { code: "SX8", text: "Her fear of the sudden loss of control gets opened up by the sexual Eight to the one person she trusts, rather than consistently demonstrating strength." },
+        { code: "SX8", text: "The sudden loss of control brings out a fear the sexual Eight will open up to the one person she trusts, rather than staying strong on the surface at all times." },
       ]},
       { typ: 9, titel: "Overlooking her own urgency", varianten: [
         { code: "SE9", text: "Early warning signs such as barely any urine output sometimes get taken seriously too late by the self-preservation Nine within her familiar daily routine, until the situation has already turned critical." },
@@ -67384,7 +67384,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Pushing through despite the fever", varianten: [
         { code: "SE1", text: "The self-preservation One initially treats early signs of a bladder infection with her own tried-and-tested home remedies and disciplined perseverance, until the high fever of the ascending infection forces her to see a doctor." },
         { code: "SO1", text: "Even with high fever, the social One initially tries to keep meeting her obligations toward family or colleagues, out of concern about burdening others through her absence." },
-        { code: "SX1", text: "Her anger about the sudden, painful worsening gets voiced directly by the sexual One toward doctors, rather than disciplined suppression like other One variants." },
+        { code: "SX1", text: "A sudden, painful worsening triggers anger that the sexual One directs straight at doctors, skipping past the composed self-control other One variants tend to favor." },
       ]},
       { typ: 2, titel: "Taking care of herself last", varianten: [
         { code: "SE2", text: "Despite high fever, the self-preservation Two initially tries to keep the household running instead of lying down and seeking medical help early enough." },
@@ -67397,14 +67397,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX3", text: "During the high fever, the sexual Three genuinely shows exhaustion, but only in front of the one important person – otherwise she keeps her flawless facade consistently intact." },
       ]},
       { typ: 4, titel: "Illness as a tangible confirmation", varianten: [
-        { code: "SE4", text: "Her malaise gets carried by the self-preservation Four, the counter-type, mostly toughly and without much complaint rather than expressed – a behavior that clearly contradicts the dramatic expression typical of her type." },
+        { code: "SE4", text: "General malaise is mostly shouldered in silence by the self-preservation Four, the counter-type, with little complaint rather than voiced – behavior that clearly contradicts the dramatic expression typical of her type." },
         { code: "SO4", text: "In the sudden severity of the feverish illness, the social Four occasionally finds a painful confirmation of how vulnerable and unprotected she already feels." },
         { code: "SX4", text: "Her fear during the high fever gets shared intensely by the sexual Four with the one person she feels bonded to, rather than withdrawing." },
       ]},
       { typ: 5, titel: "Explanations against being overwhelmed", varianten: [
         { code: "SE5", text: "The self-preservation Five informs herself thoroughly about the exact cause of her recurring urinary tract infection, in order to be able to prevent another pyelonephritis independently in the future." },
         { code: "SO5", text: "The social Five likes to discuss pathogen types and antibiotic choices with fellow experts, while her own feeling of illness during the fever usually stays unspoken." },
-        { code: "SX5", text: "Her fear during the acute fever surge does not get purely factually walled off behind explanations by the sexual Five like other Five variants, but is genuinely shared with the one deep bond instead." },
+        { code: "SX5", text: "An acute fever surge does not send the sexual Five's fear behind a wall of explanations the way other Five variants tend to manage it – it genuinely finds its way to the one deep bond instead." },
       ]},
       { typ: 6, titel: "Between precaution and high alert", varianten: [
         { code: "SE6", text: "The self-preservation Six usually takes early signs of a bladder infection seriously and seeks medical advice promptly, yet a sudden rise in fever still quickly triggers new worry about possible complications." },
@@ -67414,12 +67414,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Between denial and forced bed rest", varianten: [
         { code: "SE7", text: "The self-preservation Seven often downplays the first signs of illness and keeps planning activities anyway, until high fever and severe pain force her into bed rest." },
         { code: "SO7", text: "Unusually consistently, the social Seven, the counter-type, sticks to the prescribed antibiotic therapy and rest period, even though the restriction of her plans weighs on her inwardly." },
-        { code: "SX7", text: "With her doctor, the sexual Seven genuinely discusses possible complications in a focused way without evading, instead of fleeing into distraction like other Seven variants." },
+        { code: "SX7", text: "Possible complications get discussed by the sexual Seven with her doctor in a genuinely focused way, without evading, rather than seeking the constant distraction other Seven variants tend to reach for." },
       ]},
       { typ: 8, titel: "Resisting the forced weakness", varianten: [
         { code: "SE8", text: "Even with high fever, the self-preservation Eight initially wants to keep determining her own daily routine and seeks medical help only late, because being controlled by an illness feels nearly unbearable to her." },
         { code: "SO8", text: "Even during the feverish illness, the social Eight keeps presenting herself to her family as a strong, reliable presence, while her own exhaustion mostly stays unspoken." },
-        { code: "SX8", text: "Her vulnerability during the fever gets opened up by the sexual Eight to the one person she trusts, rather than consistently demonstrating strength." },
+        { code: "SX8", text: "During the fever, vulnerability does get opened up by the sexual Eight, but only to the one person she trusts, rather than staying strong on the surface at all times." },
       ]},
       { typ: 9, titel: "Warning signs lost in daily routine", varianten: [
         { code: "SE9", text: "Early signs such as burning during urination often get pushed aside by the self-preservation Nine in her familiar daily routine for a long time, until high fever forces her to act." },
@@ -67443,7 +67443,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Seeking order within uncertainty", varianten: [
         { code: "SE1", text: "After the diagnosis, the self-preservation One initially seeks stability in as precisely structured a treatment plan as possible, while often also blaming herself unnecessarily for not noticing the incidentally discovered tumor sooner." },
         { code: "SO1", text: "The social One tends to talk about her diagnosis with her circle only once she has informed herself fully on the medical side, out of concern about causing unnecessary alarm with half-knowledge." },
-        { code: "SX1", text: "Her anger about the diagnosis gets shown immediately and openly by the sexual One toward doctors and family, rather than disciplined suppression like other One variants." },
+        { code: "SX1", text: "The diagnosis itself becomes a target for the sexual One's anger, shown openly and immediately toward doctors and family, rather than the composed restraint other One variants tend to favor." },
       ]},
       { typ: 2, titel: "Caregiving that has to reverse", varianten: [
         { code: "SE2", text: "After surgery, the self-preservation Two tries to quickly be there for others again instead of genuinely allowing her own recovery time, often concealing her ongoing exhaustion in the process." },
@@ -67456,7 +67456,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX3", text: "As soon as she is alone with the one important person, the sexual Three lets her flawless facade drop and shows there the exhaustion she otherwise consistently conceals." },
       ]},
       { typ: 4, titel: "A diagnosis that changes everything", varianten: [
-        { code: "SE4", text: "Her fear of the diagnosis gets carried by the self-preservation Four, the counter-type, mostly toughly and without much complaint rather than expressed – a behavior that clearly contradicts the dramatic expression typical of her type." },
+        { code: "SE4", text: "Fear surrounding the diagnosis tends to be carried stoically and with little complaint by the self-preservation Four, the counter-type, rather than expressed – behavior that clearly contradicts the dramatic expression typical of her type." },
         { code: "SO4", text: "The social Four can occasionally find a painful confirmation of her feeling of remaining misunderstood in her suffering anyway in the diagnosis, which tends to make her withdraw rather than speak openly about it." },
         { code: "SX4", text: "The sexual Four immediately confides her fear of surgery and prognosis to the one person she feels bonded to, rather than avoiding these existential themes." },
       ]},
@@ -67467,18 +67467,18 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 6, titel: "Between precaution and growing worry", varianten: [
         { code: "SE6", text: "The self-preservation Six usually attends regular follow-up check-ups conscientiously, yet every upcoming check-up still triggers a wave of new worry about a possible recurrence." },
-        { code: "SO6", text: "Before trusting a treatment decision such as surgery or immunotherapy, the social Six actively seeks advice from doctors, support groups, and her close circle – deciding alone feels unsafe to her." },
+        { code: "SO6", text: "A treatment decision such as surgery or immunotherapy only feels trustworthy to the social Six once doctors, support groups, and her close circle have all weighed in, since deciding it alone would feel too risky." },
         { code: "SX6", text: "The fear of the diagnosis gets met by the sexual Six, the counter-type, with decisive, swift action, such as promptly deciding on surgery, rather than getting lost in worry." },
       ]},
       { typ: 7, titel: "Between optimism and an enforced limit", varianten: [
         { code: "SE7", text: "Keeping several treatment options open at once secures the self-preservation Seven's feeling of not being incapacitated – a single binding treatment decision can, by contrast, feel narrow and restrictive to her." },
         { code: "SO7", text: "The social Seven, the counter-type, sticks to follow-up appointments and treatment plan unusually dutifully, even though the accompanying restriction of her freedom weighs on her inwardly." },
-        { code: "SX7", text: "With full attention, the sexual Seven turns to the one upcoming conversation about her prognosis, instead of fleeing into distraction like other Seven variants." },
+        { code: "SX7", text: "The one upcoming conversation about her prognosis gets the sexual Seven's full attention, rather than the constant distraction other Seven variants tend to reach for." },
       ]},
       { typ: 8, titel: "Control over her own treatment plan", varianten: [
         { code: "SE8", text: "Decision-making authority over her treatment plan is something the self-preservation Eight insists on retaining, often challenging doctors with critical questions, because being controlled by others over her own body feels nearly unbearable to her." },
         { code: "SO8", text: "Even after surgery, the social Eight keeps presenting herself to her family as a strong, reliable presence, while her own exhaustion from treatment and follow-up care mostly stays unspoken." },
-        { code: "SX8", text: "Her fear of the illness progressing gets opened up by the sexual Eight to the one person she trusts, rather than consistently demonstrating strength." },
+        { code: "SX8", text: "Fear of the illness progressing is something the sexual Eight opens up about to the one person she trusts, rather than consistently demonstrating strength." },
       ]},
       { typ: 9, titel: "Her own voice in the treatment plan", varianten: [
         { code: "SE9", text: "The incidentally discovered finding sometimes gets set aside at first by the self-preservation Nine within her familiar daily routine, until a clear conversation with her doctor forces her into conscious engagement with it." },
@@ -67756,7 +67756,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Understanding What Is Happening in the Liver", varianten: [
         { code: "SO5", text: "In specialist forums or with fellow patients, the social Five prefers exchanging views on liver values, embolization procedures, and study data rather than putting her own emotional experience of the diagnosis in the foreground." },
         { code: "SE5", text: "Before committing to a treatment decision such as a possible transplant, the self-preservation Five usually gets a precise overview of waiting lists, success rates, and alternatives." },
-        { code: "SX5", text: "Even fear of the disease progressing is opened up by the sexual Five toward the one deep connection, rather than processed purely factually as with other Five variants." },
+        { code: "SX5", text: "Even fear of the disease progressing is opened up by the sexual Five toward the one deep connection, rather than kept at arm's length the purely factual way other Five variants tend to manage it." },
       ]},
       { typ: 6, titel: "Trust on Uncertain Ground", varianten: [
         { code: "SO6", text: "Several medical opinions and advice from support groups are often gathered by the social Six before she trusts a treatment decision like being listed for transplant – deciding alone isn't enough for her." },
@@ -67775,7 +67775,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Finding Her Own Voice in Treatment", varianten: [
         { code: "SE9", text: "Early warning signs like persistent tiredness or loss of appetite are often blocked out for a long time by the self-preservation Nine within her familiar routine, until a clear medical finding forces her to confront it." },
-        { code: "SO9", text: "When it comes to decisions about surgery, embolization, or transplant listing, the social Nine often defers to the doctors' recommendation or the family's stance without voicing a clear preference of her own." },
+        { code: "SO9", text: "Surgery, embolization, or transplant listing decisions tend to see the social Nine defer to the doctors' recommendation or the family's stance without staking out a clear preference of her own." },
         { code: "SX9", text: "How much a partner or family suffers under the diagnosis is often noticed more clearly by the sexual Nine than her own exhaustion, causing her own needs to easily get lost in treatment decisions." },
       ]},
     ],
@@ -67795,7 +67795,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Precision Against Uncertainty", varianten: [
         { code: "SE1", text: "Her cystoscopies and instillation appointments are planned by the self-preservation One with great care, while inwardly she wrestles with not having taken an early warning sign like blood in the urine seriously right away." },
         { code: "SO1", text: "Before telling those around her about the diagnosis, the social One wants to be fully informed about treatment options such as a possible urinary diversion, so as to come across as factual rather than alarming." },
-        { code: "SX1", text: "Her frustration over a delay in diagnosis she views as avoidable is shown by the sexual One immediately and bluntly, rather than disciplined and contained the way other One variants tend to handle it." },
+        { code: "SX1", text: "A diagnostic delay she considers avoidable leaves the sexual One openly frustrated, and she says so bluntly and right away, unlike the contained, disciplined manner other One variants tend to show." },
       ]},
       { typ: 2, titel: "Shame and Caring in Alternation", varianten: [
         { code: "SX2", text: "About the question of a urinary stoma, which feels shameful to her, the sexual Two speaks openly with the one person who matters most to her, rather than keeping it quiet." },
@@ -67810,12 +67810,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 4, titel: "A Place Where Shame and Illness Meet", varianten: [
         { code: "SX4", text: "The shame over a changed urinary diversion is confided directly by the sexual Four to the one person she feels bonded to, rather than treated as a taboo." },
         { code: "SO4", text: "In the illness, the social Four sometimes finds a painful confirmation of her sense of being misunderstood with a condition she experiences as embarrassing, which tends to make her withdraw rather than speak up." },
-        { code: "SE4", text: "Her fear of surgery and changed bodily function is usually carried by the self-preservation Four, the counter-type, in a tough way with little complaint, contrary to the dramatic expression otherwise typical for her type." },
+        { code: "SE4", text: "Her fear of surgery and changed bodily function is usually carried by the self-preservation Four, the counter-type, in a tough way with little complaint, contrary to the dramatic display otherwise typical for her type." },
       ]},
       { typ: 5, titel: "Understanding as a Path Through Shame", varianten: [
         { code: "SE5", text: "Which forms of urinary diversion are options and how manageable they are day to day is something the self-preservation Five clarifies for herself before engaging in a conversation about a possible bladder removal." },
         { code: "SO5", text: "In professionally oriented circles, the social Five prefers exchanging medical details of treatment, while her personal sense of shame around the changed bodily function usually stays unspoken." },
-        { code: "SX5", text: "Even the initially shameful topic of a changed urinary diversion is opened up by the sexual Five toward the one deep connection, rather than handled purely factually as with other Five variants." },
+        { code: "SX5", text: "Even a topic as initially shameful as a changed urinary diversion gets opened up by the sexual Five toward the one deep connection, rather than kept at a purely factual distance the way other Five variants tend to manage it." },
       ]},
       { typ: 6, titel: "Security in Recurring Checkups", varianten: [
         { code: "SO6", text: "A second medical opinion and exchange with fellow patients are sought by the social Six before she trusts a treatment recommendation such as instillation therapy." },
@@ -67830,12 +67830,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "Asserting Control Over Her Own Body", varianten: [
         { code: "SE8", text: "The self-preservation Eight wants a say in the choice of urinary diversion and raises pointed questions with doctors, because being controlled by others over such an intimate bodily function is hard for her to bear." },
         { code: "SO8", text: "As a strong, dependable figure, the social Eight wants to appear in front of her family even after surgery, usually keeping shame and exhaustion over the changed bodily function to herself." },
-        { code: "SX8", text: "Her insecurity about her changed body is opened up by the sexual Eight toward the one person she trusts, rather than demonstrating strength throughout." },
+        { code: "SX8", text: "A changed body brings insecurity the sexual Eight will open up about, but only toward the one person she trusts, rather than holding up a strong front the whole way through." },
       ]},
       { typ: 9, titel: "Finding Her Own Voice Despite Shame", varianten: [
         { code: "SE9", text: "Painless blood in the urine is often initially set aside by the self-preservation Nine within her familiar daily routine, until a clear conversation with a doctor forces her to face it consciously." },
         { code: "SO9", text: "When deciding between different forms of urinary diversion, the social Nine often defers to the doctor's recommendation or the family's stance without clearly voicing her own preference." },
-        { code: "SX9", text: "More precisely than her own shame, the sexual Nine often notices how much her partner suffers under the changed situation, causing her own voice to easily get lost in treatment decisions." },
+        { code: "SX9", text: "How much her partner suffers under the changed situation often registers more clearly for the sexual Nine than her own shame, which can leave her own voice sidelined when treatment decisions get made." },
       ]},
     ],
     abschluss: "Bladder cancer arises mainly from smoking, longstanding occupational exposure to certain chemicals, chronic irritation, age, and chance – never from character traits or psychological patterns. What emerges is simply that each of the 27 subtypes copes differently with a symptom often laden with shame, with surgery, and with a changed bodily function – some through structure and knowledge, others through withdrawal, caring for others, or unaccustomed openness toward someone close. This knowledge does not replace oncological treatment, but can help, alongside it, to understand why people respond so differently to the same diagnosis."
@@ -67854,7 +67854,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "The Missed Early Warning", varianten: [
         { code: "SE1", text: "That she dismissed bloating and a feeling of fullness as harmless for months often becomes a source of self-reproach for the self-preservation One after the diagnosis, even though the symptoms were hard for doctors to place too." },
         { code: "SO1", text: "Only once she has fully informed herself about the stage and treatment plan does the social One talk to those around her about the diagnosis, so as not to alarm anyone with half-knowledge." },
-        { code: "SX1", text: "Her anger that the symptoms were misread for so long is shown openly and directly toward doctors by the sexual One, rather than disciplined and suppressed the way other One variants tend to handle it." },
+        { code: "SX1", text: "That her symptoms went misread for so long angers the sexual One enough to say so directly to her doctors, rather than swallowing it the disciplined, suppressed way most other One variants prefer." },
       ]},
       { typ: 2, titel: "There for Others While Her Own Body Fights", varianten: [
         { code: "SO2", text: "Even during chemotherapy, the social Two stays actively reachable in her wider network for other people's concerns, her own exhaustion frequently receding into the background." },
@@ -67869,12 +67869,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 4, titel: "A Loss That Cuts Deep Into Identity", varianten: [
         { code: "SX4", text: "Her grief over a possible loss of fertility is confided directly by the sexual Four to the one person she feels bonded to, rather than avoiding this existential topic." },
         { code: "SO4", text: "In the diagnosis, the social Four sometimes finds a painful confirmation of her sense of being misunderstood with deep suffering, which tends to make her withdraw rather than speak openly." },
-        { code: "SE4", text: "Tough and with little complaint, the self-preservation Four, the counter-type, carries her fear of surgery and prognosis with her – behavior that clearly contradicts the dramatic expression otherwise typical for her type." },
+        { code: "SE4", text: "Fear of surgery and prognosis is carried tough and largely uncomplaining by the self-preservation Four, the counter-type – behavior that stands in clear contrast to the dramatic expression otherwise typical for her type." },
       ]},
       { typ: 5, titel: "Knowledge Against a Late Diagnosis", varianten: [
         { code: "SE5", text: "Before the first conversation with her oncologist, the self-preservation Five usually researches the stage, chemotherapy protocol, and BRCA testing thoroughly, so she has enough knowledge of her own before placing herself in others' hands." },
-        { code: "SO5", text: "With professionally oriented acquaintances or in forums, the social Five prefers discussing medical details of treatment, while her personal emotional experience of the diagnosis usually stays unspoken." },
-        { code: "SX5", text: "Even her grief over a possible loss of fertility is opened up by the sexual Five toward the one deep connection, rather than processed purely factually as with other Five variants." },
+        { code: "SO5", text: "Medical details of treatment are what the social Five prefers to discuss with professionally oriented acquaintances or in forums, while what the diagnosis actually feels like for her usually stays unspoken." },
+        { code: "SX5", text: "Grief over a possible loss of fertility, too, gets carried by the sexual Five toward the one deep connection rather than processed purely factually as with other Five variants." },
       ]},
       { typ: 6, titel: "Between Medical Advice and Her Own Worry", varianten: [
         { code: "SO6", text: "Before trusting a treatment decision like extended surgery, the social Six intensively seeks advice from several doctors and support groups – deciding alone feels uncertain to her." },
@@ -67883,18 +67883,18 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 7, titel: "Between Future Plans and a Forced Pause", varianten: [
         { code: "SE7", text: "The feeling of not being trapped is secured by the self-preservation Seven by keeping several treatment options open at once – a single binding chemotherapy track can feel confining and restrictive to her." },
-        { code: "SO7", text: "Chemotherapy appointments and the follow-up plan are kept to by the social Seven, the counter-type, with unusual conscientiousness, even though the restriction of her own freedom weighs on her inwardly." },
+        { code: "SO7", text: "Unusual conscientiousness governs how the social Seven, the counter-type, keeps to chemotherapy appointments and the follow-up plan, even as the loss of her own freedom quietly weighs on her." },
         { code: "SX7", text: "The sexual Seven genuinely engages with the one upcoming conversation about prognosis and fertility, without dodging into distraction as other Seven variants tend to." },
       ]},
       { typ: 8, titel: "Authority Over Her Own Body", varianten: [
         { code: "SE8", text: "Being controlled by others over her own body is hard for the self-preservation Eight to bear, so she pushes for a say in the extent of surgery and the chemotherapy plan, raising pointed questions with doctors." },
         { code: "SO8", text: "Her usual role as a strong, dependable figure is one the social Eight keeps up in front of her family even during chemotherapy, her own exhaustion staying largely unspoken." },
-        { code: "SX8", text: "Her fear of the disease progressing is opened up by the sexual Eight toward the one person she trusts, rather than demonstrating strength throughout." },
+        { code: "SX8", text: "Fear of the disease progressing gets opened up by the sexual Eight, but only toward the one person she trusts, instead of staying visibly strong throughout." },
       ]},
       { typ: 9, titel: "Her Own Voice Despite a Late Diagnosis", varianten: [
         { code: "SE9", text: "Bloating and a feeling of fullness are often set aside for a long time by the self-preservation Nine within her familiar daily routine, until a clear medical finding forces her to confront it consciously." },
         { code: "SO9", text: "The doctors' recommendation or the family's stance is what the social Nine tends to go along with when the extent of surgery or the chemotherapy protocol is being decided, rather than voicing her own clear preference." },
-        { code: "SX9", text: "How strongly her partner suffers under the diagnosis is often registered by the sexual Nine more clearly than her own emotional state, causing her own voice to easily get lost in treatment decisions." },
+        { code: "SX9", text: "The sexual Nine often registers how strongly her partner suffers under the diagnosis more clearly than her own emotional state, which can crowd out her own voice when treatment decisions get made." },
       ]},
     ],
     abschluss: "Ovarian cancer results from an interplay of biological risk factors – age, hereditary predisposition such as BRCA mutations, never having given birth, certain forms of endometriosis, and chance – never from character traits or psychological patterns. What emerges is simply that each of the 27 subtypes copes differently with an often late-detected, serious diagnosis and questions surrounding fertility and femininity – some through knowledge and control, others through withdrawal, caring for others, or unaccustomed openness toward someone close. This knowledge does not replace oncological treatment, but can help, alongside it, to understand why people respond so differently to the same diagnosis."
@@ -67913,7 +67913,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Order Against Unwarranted Shame", varianten: [
         { code: "SO1", text: "The social One explains matter-of-factly to those around her that an HPV infection touches almost everyone at some point, because she cares about cutting off unwarranted shame or false blame before it can take root." },
         { code: "SE1", text: "Regular screening exams have usually been kept up conscientiously by the self-preservation One, which is why the diagnosis often additionally confronts her with the question, felt as unjust, of what she could have done differently." },
-        { code: "SX1", text: "Her anger that HPV infections are still socially stigmatized is voiced by the sexual One openly and directly, rather than disciplined and suppressed the way other One variants tend to handle it." },
+        { code: "SX1", text: "The lingering stigma around HPV infections draws open, direct anger from the sexual One rather than the disciplined and suppressed handling other One variants tend to favor." },
       ]},
       { typ: 2, titel: "Openness as a Way Out of Shame", varianten: [
         { code: "SX2", text: "Within the one relationship that matters most to her, the sexual Two speaks openly about the HPV-related diagnosis rather than keeping it quiet out of misplaced shame – an openness other Two variants find harder to reach." },
@@ -67933,7 +67933,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "Knowledge as a Counterweight to Shame", varianten: [
         { code: "SE5", text: "The self-preservation Five gets a precise overview of HPV biology, the stage, and treatment options before engaging in a conversation about surgery or radiation therapy." },
         { code: "SO5", text: "Matter-of-factly and with medical vocabulary, the social Five explains the HPV-related origin of the disease to those around her, while her own emotional experience usually stays unspoken." },
-        { code: "SX5", text: "Even her worry about fertility and sexuality is opened up by the sexual Five toward the one deep connection, rather than processed purely factually as with other Five variants." },
+        { code: "SX5", text: "Worry about fertility and sexuality finds its way to the one deep connection for the sexual Five rather than filtered through the purely factual lens other Five variants tend to use." },
       ]},
       { typ: 6, titel: "Security Through Screening and Advice", varianten: [
         { code: "SE6", text: "Regular follow-up smears and check-up appointments are attended conscientiously by the self-preservation Six, yet every appointment still triggers fresh worry about progression." },
@@ -67941,14 +67941,14 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX6", text: "Decisive and rapid, the sexual Six, the counter-type, acts once the diagnosis is confirmed – for instance by quickly agreeing to the recommended surgery, rather than getting lost in worry." },
       ]},
       { typ: 7, titel: "Between Denial and Forced Engagement", varianten: [
-        { code: "SO7", text: "Follow-up appointments and treatment plan are things the social Seven, the counter-type, keeps to with unusual conscientiousness, even though the restriction of her own freedom weighs on her inwardly." },
+        { code: "SO7", text: "With unusual conscientiousness, the social Seven, the counter-type, sticks to follow-up appointments and treatment plan, even as giving up her own freedom takes an inward toll." },
         { code: "SE7", text: "A sense of not being trapped is secured for the self-preservation Seven by keeping several treatment options open at once – a single binding treatment track can instead feel confining." },
         { code: "SX7", text: "Her usually restless attention is focused by the sexual Seven on the one upcoming conversation about fertility and prognosis, rather than fleeing into distraction." },
       ]},
       { typ: 8, titel: "Sovereignty Over Her Own Body", varianten: [
         { code: "SE8", text: "Pointed questions for doctors about the extent of surgery and any possible preservation of the uterus come easily to the self-preservation Eight, since being controlled by others over her own body is hard for her to bear." },
         { code: "SO8", text: "Her role as a strong, dependable figure is not given up by the social Eight in front of her family even during treatment, her own worry about fertility and prognosis staying largely unspoken." },
-        { code: "SX8", text: "Her fear of losing fertility is opened up by the sexual Eight toward the one person she trusts, rather than demonstrating strength throughout." },
+        { code: "SX8", text: "The fear of losing fertility is something the sexual Eight will voice, but only toward the one person she trusts, instead of appearing strong the whole time." },
       ]},
       { typ: 9, titel: "Finding Her Own Voice Despite Shame", varianten: [
         { code: "SE9", text: "Unusual bleeding is often initially set aside by the self-preservation Nine within her familiar daily routine, until a clear medical finding forces her to confront it consciously." },
@@ -67972,7 +67972,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 1, titel: "Structure Within a Confusing Diagnosis", varianten: [
         { code: "SO1", text: "Before explaining the confusing variety of lymphoma types to those around her, the social One wants to have formed a complete, accurate picture of the subtype and stage herself, so as not to unsettle anyone with half-knowledge." },
         { code: "SE1", text: "The precise treatment plan of chemotherapy cycles and check-up appointments is followed conscientiously by the self-preservation One, while she wonders at the same time whether seeing a doctor sooner would have sped up the diagnosis." },
-        { code: "SX1", text: "Her frustration over the long time between first symptoms and final diagnosis is shown by the sexual One openly and directly, rather than disciplined and contained the way other One variants tend to handle it." },
+        { code: "SX1", text: "The long stretch between first symptoms and final diagnosis leaves the sexual One openly frustrated, voiced directly rather than filtered through the disciplined containment other One variants tend to handle it with." },
       ]},
       { typ: 2, titel: "Caring for Others Through Chemotherapy", varianten: [
         { code: "SE2", text: "Even as her strength declines through chemotherapy, the self-preservation Two tries to keep up small household tasks rather than actually allowing herself the rest she needs." },
@@ -67986,13 +67986,13 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "An Illness Without Easy Answers", varianten: [
         { code: "SO4", text: "That even doctors can waver between watchful waiting and immediate treatment sometimes confirms for the social Four her sense of being alone and misunderstood with her uncertainty." },
-        { code: "SE4", text: "Her fear of chemotherapy and prognosis is usually carried by the self-preservation Four, the counter-type, in a tough way with little complaint, contrary to the dramatic expression otherwise typical for her type." },
+        { code: "SE4", text: "Chemotherapy and its prognosis tend to be met with quiet toughness and little complaint from the self-preservation Four, the counter-type, contrary to the dramatic expression otherwise typical for her type." },
         { code: "SX4", text: "Her fear of hair loss and a changed body image is confided by the sexual Four to the one person she feels bonded to, rather than hidden away." },
       ]},
       { typ: 5, titel: "Order Amid the Confusion of Lymphoma Types", varianten: [
         { code: "SE5", text: "Her own lymphoma subtype and its specific treatment options are thoroughly worked through by the self-preservation Five, so she can find her bearings in the confusing variety before engaging in the first conversation with her oncologist." },
-        { code: "SO5", text: "With fellow patients or in specialist forums, the social Five prefers exchanging views on study data and chemotherapy protocols, while her own emotional experience of the diagnosis usually stays unspoken." },
-        { code: "SX5", text: "Even her fear of how the disease will progress is opened up by the sexual Five toward the one deep connection, rather than processed purely factually as with other Five variants." },
+        { code: "SO5", text: "Study data and chemotherapy protocols become the preferred topic when the social Five exchanges views with fellow patients or in specialist forums, while what the diagnosis actually feels like for her usually goes unmentioned." },
+        { code: "SX5", text: "Fear of how the disease will progress is something the sexual Five brings to the one deep connection rather than handling it the purely factual way other Five variants tend to prefer." },
       ]},
       { typ: 6, titel: "Security Between Waiting and Acting", varianten: [
         { code: "SO6", text: "A second opinion and advice from a support group are sought by the social Six before she trusts a recommendation for watchful waiting or immediate chemotherapy." },
@@ -68011,7 +68011,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Her Own Voice in a Long, Drawn-Out Process", varianten: [
         { code: "SE9", text: "Swollen lymph nodes or persistent tiredness are often blocked out for a long time by the self-preservation Nine within her familiar routine, until a clear medical finding forces her to confront it." },
-        { code: "SO9", text: "When deciding between waiting and chemotherapy, the social Nine often defers to the doctors' recommendation or the family's stance without voicing a clear preference of her own." },
+        { code: "SO9", text: "Faced with a choice between waiting and chemotherapy, the social Nine tends to defer to the doctors' recommendation or the family's stance without voicing a clear preference of her own." },
         { code: "SX9", text: "More intensely than her own exhaustion, the sexual Nine often notices how much her partner suffers under the long treatment and the uncertainty." },
       ]},
     ],
@@ -68110,7 +68110,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "The Five", varianten: [
         { code: "SE5", text: "Knowledge, time, and energy the self-preservation Five systematically hoards, out of fear of not having enough later. This chronic stockpiling can be mirrored on a physical level as elevated blood lipid levels." },
         { code: "SO5", text: "Her accumulated expertise the social Five readily shares, but keeps emotional closeness at a safe distance, gathering inward rather than letting go. This pattern can appear as gradually rising cholesterol." },
-        { code: "SX5", text: "Sharing her inner reserves with a trusted person, rather than only hoarding them, is possible for the sexual Five within her one deep connection. This openness sets her apart from the general withholding of the other Five variants." },
+        { code: "SX5", text: "Sharing her inner reserves with a trusted person, rather than only hoarding them, is possible for the sexual Five within her one deep connection. This openness sets her apart from how much the other Five variants tend to withhold." },
       ]},
       { typ: 6, titel: "The Six", varianten: [
         { code: "SE6", text: "Her fears the self-preservation Six stockpiles in earnest, preparing for every conceivable scenario without ever resolving the underlying tension. This chronic reserve of worry is among the recognized contributors to elevated blood lipid levels." },
@@ -68154,7 +68154,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 2, titel: "The Two", varianten: [
         { code: "SE2", text: "Her own needs the self-preservation Two has set aside her whole life in order to be there for others. This decades-long postponement of her own flow can show up physically in old age as a constricted urine flow." },
         { code: "SO2", text: "Her strength the social Two hands over steadily to her community across a long life, leaving little left for herself. This self-neglect can become noticeable with age as prostate trouble." },
-        { code: "SX2", text: "In his most important relationship, the sexual Two does make room for his own needs, rather than setting them aside for a lifetime. This balance sets him apart from the general self-effacement of the other Two variants." },
+        { code: "SX2", text: "Within his one central relationship, the sexual Two allows his own needs a place at the table instead of shelving them indefinitely – a balance that sets him apart from how readily the other Two variants efface themselves." },
       ]},
       { typ: 3, titel: "The Three", varianten: [
         { code: "SE3", text: "Even at an advanced age the self-preservation Three keeps pushing herself toward further achievement, without pausing. This lifelong compulsion to keep moving without real rest can show up physically as increasingly difficult urination." },
@@ -68169,7 +68169,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "The Five", varianten: [
         { code: "SE5", text: "About physical symptoms like a weaker urine stream the self-preservation Five often stays silent for a long time, so as not to depend on outside help. This withholding can leave a developing BPH untreated for years." },
         { code: "SO5", text: "Expert knowledge about the condition the social Five gladly acquires in depth, while happily postponing her own doctor's appointment. This split between knowledge and action can delay the diagnosis." },
-        { code: "SX5", text: "With the one trusted person, the sexual Five discusses even intimate physical topics like this openly, rather than concealing them. This openness sets her apart from the general withholding of the other Five variants." },
+        { code: "SX5", text: "Even intimate physical topics like this get discussed openly by the sexual Five, but only with the one trusted person, rather than concealed. This openness sets her apart from the guardedness the other Five variants tend to maintain." },
       ]},
       { typ: 6, titel: "The Six", varianten: [
         { code: "SE6", text: "Decades of accumulated vigilance and tension still leave their mark on the self-preservation Six's body even in old age. This chronic state of tension can show up as an increasingly constricted urine flow." },
@@ -68179,7 +68179,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "The Seven", varianten: [
         { code: "SE7", text: "An age-related physical constraint like this clashes especially hard with the self-preservation Seven's drive for freedom, which is why she readily dismisses early signs. This avoidance can mean the condition is only taken seriously late." },
         { code: "SO7", text: "Her own health the social Seven, the counter-type, often puts behind the needs of her group, and a doctor's appointment for herself easily slips out of view. This deferring can leave a BPH undetected for years." },
-        { code: "SX7", text: "Directing her full attention to a concrete health concern the sexual Seven manages well in important moments. This capacity to focus sets her apart from the more restless avoidance of the other Seven variants." },
+        { code: "SX7", text: "Directing her full attention to a concrete health concern the sexual Seven manages well in important moments. This capacity to focus sets her apart from the more restless avoidance most other Seven variants fall back on." },
       ]},
       { typ: 8, titel: "The Eight", varianten: [
         { code: "SE8", text: "A weaker urine stream or more frequent nighttime urges the self-preservation Eight dismisses for a long time as a minor nuisance, rather than a signal to be taken seriously. This avoidance can leave a BPH untreated for a long time." },
@@ -68189,7 +68189,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 9, titel: "The Nine", varianten: [
         { code: "SE9", text: "A gradually weakening urine stream the self-preservation Nine often notices as a problem only late, so thoroughly does she adjust to gradual change. This habituation can leave a BPH unnoticed for years, until the restriction becomes clearly felt." },
         { code: "SO9", text: "Her own health care the social Nine usually sets aside within the group to preserve harmony – even when a doctor's visit is overdue. This constant deferring can mean a BPH is only recognized late." },
-        { code: "SX9", text: "How seriously she takes her own symptoms often depends, for the sexual Nine, on how much her partner encourages her to see a doctor. Without this outside push, her own symptoms can stay in the background for a particularly long time." },
+        { code: "SX9", text: "How seriously she takes her own symptoms often depends, for the sexual Nine, on how much her partner encourages her to see a doctor. Without that outside push, her own symptoms can go unaddressed for a remarkably long stretch." },
       ]},
     ],
     abschluss: "Practically no man is immune to benign prostatic enlargement at an advanced age, regardless of subtype, and no pattern is a verdict. What shows up is simply that each of the 27 subtypes handles letting go in old age in its own way – some through sustained control, others through denial, quiet worry, or a long-overridden signal of their own. This is exactly where the Enneagram homeopathy of this compass begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can ease holistically rather than merely being suppressed on the surface."
@@ -68213,12 +68213,12 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 2, titel: "The Two", varianten: [
         { code: "SE2", text: "Her whole life, the self-preservation Two has watched closely what others need, rather neglecting her own inward gaze. This one-sided orientation can show up in old age as increasing lens clouding." },
         { code: "SO2", text: "The needs of her community the social Two has kept attentively in view for decades, rarely prioritizing her own eye health. This self-deferral can show up in old age as a gradually progressing cataract." },
-        { code: "SX2", text: "In her most important relationship, the sexual Two does turn her gaze toward herself too, rather than directing it only outward. This balance sets her apart from the general self-effacement of the other Two variants." },
+        { code: "SX2", text: "The sexual Two's gaze, within her one central relationship, does swing back toward herself now and then instead of staying fixed outward – a balance that sets her apart from how readily the other Two variants efface themselves." },
       ]},
       { typ: 3, titel: "The Three", varianten: [
         { code: "SE3", text: "Even as her eyesight declines, the self-preservation Three initially tries to keep her performance unchanged rather than acknowledge the shift. This denial can mean a cataract is treated only late." },
         { code: "SO3", text: "Her public image of vitality and success the social Three upholds into old age; declining eyesight hardly fits into it. This concealment can delay a worthwhile operation unnecessarily long." },
-        { code: "SX3", text: "Declining eyesight the sexual Three admits openly to the one person she truly trusts, rather than concealing it. This openness sets her apart from the flawless image the other Three variants usually maintain." },
+        { code: "SX3", text: "Declining eyesight is something the sexual Three will name openly to the one person she truly trusts, rather than hide it away. This openness sets her apart from the flawless image most other Three variants work hard to maintain." },
       ]},
       { typ: 4, titel: "The Four", varianten: [
         { code: "SE4", text: "Her own inner world the self-preservation Four, the counter-type, often lives more intensely than the outer one; an increasingly blurred outer world can almost suit her. This quiet acceptance shapes how she handles the diagnosis." },
@@ -68228,7 +68228,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "The Five", varianten: [
         { code: "SE5", text: "About declining eyesight the self-preservation Five often stays silent for a long time, so as not to depend on outside help. This withholding can leave a cataract untreated for years." },
         { code: "SO5", text: "Expert knowledge about cataracts the social Five gladly acquires in depth, while happily postponing her own appointment with the ophthalmologist. This split between knowledge and action can delay treatment." },
-        { code: "SX5", text: "Declining eyesight the sexual Five discusses openly with the one trusted person, rather than concealing it behind expertise. This openness sets her apart from the general withholding of the other Five variants." },
+        { code: "SX5", text: "Rather than hiding it behind expertise, the sexual Five discusses declining eyesight openly, but only with the one trusted person. This openness sets her apart from the general withholding of the other Five variants." },
       ]},
       { typ: 6, titel: "The Six", varianten: [
         { code: "SE6", text: "Decades of accumulated vigilance the self-preservation Six also keeps up around her own eye health, with regular checkups a fixed part of her routine. This precaution can make a cataract detectable early." },
@@ -68238,17 +68238,17 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "The Seven", varianten: [
         { code: "SE7", text: "A clouded view of the many beautiful things in life clashes especially hard with the self-preservation Seven's basic orientation, which is why she readily dismisses early signs. This avoidance can mean the condition is only taken seriously late." },
         { code: "SO7", text: "Her own eyesight the social Seven, the counter-type, often puts behind the needs of her group, and her own eye appointment easily slips out of view. This deferring can leave a cataract undetected for years." },
-        { code: "SX7", text: "Once a concrete health concern is in front of her, the sexual Seven can give it real, undivided attention in important moments. This capacity to focus sets her apart from the more restless avoidance of the other Seven variants." },
+        { code: "SX7", text: "A concrete health concern, once it is directly in front of her, can receive the sexual Seven's real, undivided attention in important moments. This capacity to focus sets her apart from the more restless avoidance of the other Seven variants." },
       ]},
       { typ: 8, titel: "The Eight", varianten: [
         { code: "SE8", text: "Declining visual sharpness the self-preservation Eight dismisses for a long time as a minor nuisance, rather than a signal to be taken seriously. This avoidance can leave a cataract untreated for a long time." },
         { code: "SO8", text: "As the vigilant protector of her group, the social Eight wants to be seen; a clouded view of her own hardly fits this self-image and gets talked down accordingly. This façade can mean the operation is only tackled late." },
-        { code: "SX8", text: "Vulnerability around declining eyesight the sexual Eight allows only with the one person she trusts. This protected space can move her toward timely treatment more readily than the sustained toughness of the other Eight variants." },
+        { code: "SX8", text: "Declining eyesight is a vulnerability the sexual Eight allows herself to show only with the one person she trusts. This protected space can move her toward timely treatment more readily than the sustained toughness most other Eight variants keep up." },
       ]},
       { typ: 9, titel: "The Nine", varianten: [
         { code: "SE9", text: "An increasingly blurred view the self-preservation Nine often notices as a problem only late, so thoroughly does she adjust to gradual change. This habituation can leave a cataract unnoticed for years, until the clouding becomes clearly felt." },
         { code: "SO9", text: "Her own eye health the social Nine usually sets aside within the group to preserve harmony – even when a doctor's visit is overdue. This constant deferring can mean a cataract is only recognized late." },
-        { code: "SX9", text: "Whether declining vision gets taken seriously often depends, for the sexual Nine, on how much her partner pushes her toward an eye appointment. Without this outside push, her own symptoms can stay in the background for a particularly long time." },
+        { code: "SX9", text: "For the sexual Nine, whether declining vision gets taken seriously often hinges on how much her partner pushes her toward an eye appointment. Without that outside nudge, her own symptoms can remain overlooked for a remarkably long time." },
       ]},
     ],
     abschluss: "No one at an advanced age is immune to a cataract, regardless of subtype, and no pattern is a verdict. What shows up is simply that each of the 27 subtypes handles a gradually blurring view in its own way – some through denial, others through caring for others, quiet adaptation, or a long-overridden warning signal of their own. This is exactly where the Enneagram homeopathy of this compass begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically rather than merely being suppressed on the surface."
@@ -68277,7 +68277,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 3, titel: "The Three", varianten: [
         { code: "SE3", text: "As long as her performance in daily life can still somehow be compensated for, the self-preservation Three initially plays down declining central vision, rather than making an appointment. This downplaying can mean AMD is only treated late." },
         { code: "SO3", text: "Standing at the center of attention matters to the social Three her whole life – that precisely her own central vision is declining can feel especially bitter to her. This concealment can delay necessary treatment." },
-        { code: "SX3", text: "To the one important person, the sexual Three speaks unusually openly about the distorted lines and the gray spot she has begun noticing. This willingness to show weakness sets her apart from the flawless image the other Three variants usually maintain." },
+        { code: "SX3", text: "The distorted lines and the gray spot she has begun noticing become a topic the sexual Three discusses with unusual openness, but only with the one important person. This willingness to show weakness sets her apart from the flawless image most other Three variants work hard to maintain." },
       ]},
       { typ: 4, titel: "The Four", varianten: [
         { code: "SE4", text: "Her own inner center often remains hard to grasp for the self-preservation Four, the counter-type, anyway; a blurred central vision can almost match this inner feeling. This quiet acceptance shapes how she handles the diagnosis." },
@@ -68297,17 +68297,17 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "The Seven", varianten: [
         { code: "SE7", text: "A gray spot right where her gaze would most like to rest on new, clearly experienced impressions sits poorly with the self-preservation Seven's outlook on life. Early signs are therefore readily dismissed as temporary." },
         { code: "SO7", text: "During a shared outing, the social Seven, the counter-type, mentions her own vision trouble mostly in passing, so as not to dampen the group's mood. A personal eye appointment easily slips out of view this way." },
-        { code: "SX7", text: "Once it concerns the one person who truly matters to her, the sexual Seven actually does take the time for a thorough eye exam, rather than pushing the topic aside. This selective seriousness sets her apart from the more restless avoidance of the other Seven variants." },
+        { code: "SX7", text: "A thorough eye exam is something the sexual Seven will actually make time for, once it concerns the one person who truly matters to her, rather than pushing the topic aside. This selective seriousness sets her apart from the more restless avoidance most other Seven variants fall back on." },
       ]},
       { typ: 8, titel: "The Eight", varianten: [
         { code: "SE8", text: "As long as she still somehow gets by, the self-preservation Eight talks down a distorted spot in her field of vision, rather than treating it as a signal to be taken seriously. This denial can leave AMD untreated for a long time." },
         { code: "SO8", text: "As the go-to person for other people's problems, the social Eight still sees herself even once her own central vision is noticeably declining – admitting her own weakness barely occurs to her." },
-        { code: "SX8", text: "Only to the one person she truly trusts does the sexual Eight admit how much the distorted vision unsettles her in daily life. This protected space can move her toward timely treatment more readily than the sustained toughness of the other Eight variants." },
+        { code: "SX8", text: "How much the distorted vision unsettles her in daily life is something the sexual Eight admits only to the one person she truly trusts. This protected space can move her toward timely treatment more readily than the sustained toughness most other Eight variants hold onto." },
       ]},
       { typ: 9, titel: "The Nine", varianten: [
         { code: "SE9", text: "An increasingly blurred center of the visual field the self-preservation Nine often notices as a problem only late, so thoroughly does she adjust to gradual change. This habituation can leave AMD unnoticed for years, until the gap at the center becomes clearly felt." },
         { code: "SO9", text: "So as not to cause a fuss, the social Nine tends to keep quiet within her group about faces and letters growing increasingly blurred to her. This quiet restraint can mean AMD is only recognized late." },
-        { code: "SX9", text: "Only once her partner himself notices how much she squints while reading does the sexual Nine usually agree to an eye appointment. Without this outside push, her own symptoms can stay in the background for a particularly long time." },
+        { code: "SX9", text: "It usually takes her partner noticing how much she squints while reading before the sexual Nine agrees to an eye appointment. Without this outside push, her own symptoms can stay in the background for a particularly long time." },
       ]},
     ],
     abschluss: "No one at an advanced age is immune to age-related macular degeneration, regardless of subtype, and no pattern is a verdict. What shows up is simply that each of the 27 subtypes handles a blurring center of their own in its own way – some through denial, others through caring for others, quiet adaptation, or a long-overridden warning signal of their own. This is exactly where the Enneagram homeopathy of this compass begins: not at the outer symptom, but at the life force of the respective subtype that has fallen out of balance. When this life force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically rather than merely being suppressed on the surface."
@@ -68740,7 +68740,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "The Five", varianten: [
         { code: "SE5", text: "Every available piece of medical knowledge on viral course, treatment options, and prognosis, the self-preservation Five thoroughly gathers to retain a sense of control over her situation. This knowledge can be reassuring, but can also distract from emotional processing." },
         { code: "SO5", text: "In relevant forums or professional circles, the social Five gladly exchanges views with other affected people, without revealing herself within her immediate surroundings. This abstract exchange can yield insight, but it doesn't replace the personal closeness that is sometimes missing." },
-        { code: "SX5", text: "The sexual Five opens up about the diagnosis only to the one person she fully trusts, which can allow for a rare but intense emotional exchange. Toward everyone else, she typically stays firmly closed off." },
+        { code: "SX5", text: "Gathering expert knowledge about the diagnosis gives the sexual Five a sense of control she otherwise rarely feels – the fear underneath it, though, she shows almost no one except the one person she truly trusts." },
       ]},
       { typ: 6, titel: "The Six", varianten: [
         { code: "SE6", text: "The self-preservation Six plans her medication and regular checkups with great care, at least to have reliable certainty here. Still, worry about a decline despite treatment adherence can continue to accompany her." },
@@ -68755,7 +68755,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "The Eight", varianten: [
         { code: "SE8", text: "The self-preservation Eight decides for herself when, to whom, and how she tells people about the diagnosis, and won't let this control over her own story be taken from her. This self-determination can give her a sense of security where others feel at the mercy of events." },
         { code: "SO8", text: "The social Eight wants to show her strength within the group as unbroken, even with this diagnosis – admitting vulnerability contradicts her self-image as protector. Hiding it costs her more energy than is visible from outside." },
-        { code: "SX8", text: "The sexual Eight usually reveals herself openly and directly to the one person she truly trusts, without softening the diagnosis. This advance of trust tends to deepen the relationship rather than burden it." },
+        { code: "SX8", text: "Control over her own body and the prognosis is what the sexual Eight normally clings to as her anchor – how much this diagnosis actually shakes her, she reveals at most to the one person whose loyalty she has tested over years." },
       ]},
       { typ: 9, titel: "The Nine", varianten: [
         { code: "SE9", text: "The self-preservation Nine wants her familiar daily routine disturbed as little as possible by the diagnosis, which can make treatment appointments easy to lose track of. An outside nudge can help her actively bring her own health back into focus." },
@@ -68799,7 +68799,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "The Five", varianten: [
         { code: "SE5", text: "Before allowing herself to engage emotionally with the diagnosis, the self-preservation Five thoroughly gathers all available information on genotype, treatment options, and cure rates. This knowledge restores her sense of control." },
         { code: "SO5", text: "The social Five prefers exchanging views with other affected people in specialist forums over speaking about the diagnosis with those directly around her. This abstract exchange yields insight, but doesn't replace personal closeness." },
-        { code: "SX5", text: "Only to the one person she truly trusts does the sexual Five open up about the diagnosis, which during the treatment weeks can offer a rare but important source of emotional support." },
+        { code: "SX5", text: "She researches the changed urinary diversion in purely factual terms at first, almost like a technical problem – only within her one deep bond does the sexual Five allow herself to admit it also shames her." },
       ]},
       { typ: 6, titel: "The Six", varianten: [
         { code: "SE6", text: "The high cure rate of modern therapies can give the self-preservation Six a great deal of security once she has informed herself thoroughly. Still, a certain underlying tension often remains until the follow-up test confirms the cure." },
@@ -68814,7 +68814,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "The Eight", varianten: [
         { code: "SE8", text: "The self-preservation Eight actively steers her own treatment, informs herself, compares options, and refuses to be passively pushed through the healthcare system. This self-determination gives her security." },
         { code: "SO8", text: "The social Eight wants to appear unbroken and strong within the group even during treatment – an open admission of exhaustion contradicts her self-image as protector." },
-        { code: "SX8", text: "Without hiding her own vulnerability, the sexual Eight speaks openly about diagnosis and treatment – but only with the one person she truly trusts." },
+        { code: "SX8", text: "The sexual Eight watches over her partner's changed body almost as closely as her own – with her own diagnosis, this relationship uncomfortably reverses, and that reversal is rarely something she brings up openly." },
       ]},
       { typ: 9, titel: "The Nine", varianten: [
         { code: "SE9", text: "The self-preservation Nine wants her daily routine to continue as undisturbed as possible by the treatment, which can make checkup appointments easy to lose track of. An outside nudge helps her actively pursue her own recovery." },
@@ -68858,7 +68858,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "The Five", varianten: [
         { code: "SE5", text: "The self-preservation Five thoroughly gathers all available facts on transmission routes, treatment, and prognosis in order to meet the diagnosis with knowledge instead of diffuse fear. This knowledge can be reassuring, but doesn't replace talking about her own feelings." },
         { code: "SO5", text: "The social Five can engage abstractly in professional or activist communities around HIV, without revealing herself within her close personal circle. This exchange yields valuable knowledge, but doesn't replace personal closeness." },
-        { code: "SX5", text: "Firmly closed off toward most people around her, the sexual Five opens up about the diagnosis to the one person she fully trusts – a rare but deep emotional exchange." },
+        { code: "SX5", text: "About the possible loss of fertility, the sexual Five first thinks in facts and options rather than feelings – the actual grief underneath, she usually only allows herself within her one deep bond." },
       ]},
       { typ: 6, titel: "The Six", varianten: [
         { code: "SE6", text: "The self-preservation Six handles her daily medication and regular checkups with great care, at least to have reliable certainty here. Familiarizing herself with the fact that the viral load becomes undetectable under therapy can noticeably ease her uncertainty." },
@@ -68873,7 +68873,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "The Eight", varianten: [
         { code: "SE8", text: "When, to whom, and how she tells people about the diagnosis is something the self-preservation Eight decides entirely on her own, refusing to let anyone take this control over her own story away from her. This self-determination can give her security where stigma silences others." },
         { code: "SO8", text: "Admitting vulnerability contradicts the social Eight's self-image as protector of her group, which is why she initially wants to keep showing strength with this diagnosis. Some social Eights become especially effective advocates against the stigma precisely once they openly acknowledge it." },
-        { code: "SX8", text: "Openly and directly, without softening the diagnosis, the sexual Eight reveals herself to the one person she truly trusts. This advance of trust can, especially given the social stigma, deepen the relationship rather than burden it." },
+        { code: "SX8", text: "Power and closeness get negotiated by the sexual Eight in her one intense bond often through the body rather than words – fear of the disease progressing shifts this quiet contest of strength without her ever naming it out loud." },
       ]},
       { typ: 9, titel: "The Nine", varianten: [
         { code: "SE9", text: "Barely changed by the diagnosis is how the self-preservation Nine wants her daily life to remain, which can make treatment appointments easy to lose track of. An outside nudge helps her keep her own health actively in view." },
@@ -68917,7 +68917,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "The Five", varianten: [
         { code: "SE5", text: "The enforced isolation phase can, paradoxically, be less burdensome for the self-preservation Five than for others, since it suits her existing need for withdrawal and protected reserves." },
         { code: "SO5", text: "The social Five thoroughly gathers expert knowledge on the disease and its treatment, which during the isolation phase also allows her an abstract exchange with other affected people in specialist forums." },
-        { code: "SX5", text: "During isolation, the sexual Five exceptionally allows regular contact, but only within her one deep bond, rather than withdrawing completely. This exchange can considerably ease the time." },
+        { code: "SX5", text: "Fertility and sexuality are topics the sexual Five rarely discusses even under ordinary circumstances – a diagnosis touching exactly that can deepen this reticence further, except toward the one person she truly opens up to." },
       ]},
       { typ: 6, titel: "The Six", varianten: [
         { code: "SE6", text: "Taking her medication on a precise schedule gives the self-preservation Six an important sense of security and control over her own healing process during the long course of treatment." },
@@ -68932,7 +68932,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "The Eight", varianten: [
         { code: "SE8", text: "The self-preservation Eight normally keeps full control over her daily life and freedom of movement. An externally imposed isolation can be especially hard for her to bear, since it shakes her fundamental sense of autonomy." },
         { code: "SO8", text: "The social Eight wants to remain consistently present and strong for her group, and a forced retreat due to isolation requirements barely fits this self-image. This stance can trigger particularly strong resistance in her." },
-        { code: "SX8", text: "The sexual Eight shows her exhaustion during treatment more openly than usual, but only to the one person she trusts, rather than continually asserting strength. This protected space can allow for genuine recovery." },
+        { code: "SX8", text: "Possession and bonding are closely linked for the sexual Eight in her one important relationship – the fear of feeling less desirable to her partner after a possible loss of fertility usually stays her own, unspoken struggle." },
       ]},
       { typ: 9, titel: "The Nine", varianten: [
         { code: "SE9", text: "The self-preservation Nine often accepts her isolation phase with surprising equanimity and adapts to the changed routine, while inner restlessness about the long separation from her familiar surroundings is easily overlooked." },
@@ -68976,7 +68976,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "The Five", varianten: [
         { code: "SE5", text: "As soon as she suspects an infection, the self-preservation Five thoroughly gathers all available information on symptoms, diagnostics, and treatment for Lyme disease. This knowledge can help drive forward an often difficult diagnosis herself." },
         { code: "SO5", text: "The social Five happily researches specialist forums on Lyme disease and its many possible courses before speaking about her symptoms within her immediate circle. This abstract exchange yields knowledge, but doesn't replace direct conversation with her treatment team." },
-        { code: "SX5", text: "The sexual Five describes her diffuse symptoms in detail only to the one person she trusts, which can help that person push for prompt evaluation where the Five herself would tend to hesitate." },
+        { code: "SX5", text: "Researching the course of the illness gives the sexual Five a sense of control she otherwise often lacks – the actual fear behind it, she shows almost no one but the one person who truly knows her." },
       ]},
       { typ: 6, titel: "The Six", varianten: [
         { code: "SE6", text: "After noticing a tick bite, the self-preservation Six observes the bite site and her own condition very closely, out of a legitimate need for early certainty about her state." },
@@ -68991,7 +68991,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "The Eight", varianten: [
         { code: "SE8", text: "A creeping, hard-to-grasp exhaustion without a clear opponent is especially hard for the self-preservation Eight to bear, since she is accustomed to tackling problems head-on. A clear diagnosis, once it arrives, can paradoxically bring her relief, because she can finally act again." },
         { code: "SO8", text: "Even with diffuse symptoms, the social Eight wants to remain consistently strong and present for her group – admitting unclear exhaustion barely fits her self-image. This stance can delay early evaluation." },
-        { code: "SX8", text: "The sexual Eight admits her unclear symptoms more readily to the one person she trusts, rather than continually asserting strength. This protected space can foster an early, joint workup." },
+        { code: "SX8", text: "Jealously, the sexual Eight normally guards any attention that might threaten her bond from outside – with a progressive illness like this, that same vigilance turns unexpectedly against her own mortality, something she rarely puts into words." },
       ]},
       { typ: 9, titel: "The Nine", varianten: [
         { code: "SE9", text: "The self-preservation Nine often becomes consciously aware of her creeping early symptoms only late, so absorbed is she in her familiar routine. An outside nudge, for instance from people close to her, can help her take her own situation seriously at all." },
@@ -69035,7 +69035,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A Withdrawal That Reaches the Body Too", varianten: [
         { code: "SE5", text: "The self-preservation Five already reduces her needs consistently to the essentials in order to make do with limited resources – this pattern can carry over directly into eating, until her own hunger is barely registered as such anymore." },
         { code: "SO5", text: "Through knowledge, the social Five stays connected to the world, and nutrition can become another domain she analyzes meticulously and controls rationally – until the intellectual preoccupation with food increasingly crowds out the actual, physical act of eating." },
-        { code: "SX5", text: "The sexual Five only truly opens herself emotionally within her one deep bond, which makes her more vulnerable than other Five variants – it is precisely this vulnerability she may try to offset through strict control over her own body." },
+        { code: "SX5", text: "Building up expertise on values and insulin types gives the sexual Five a sense of mastering the diagnosis – how exhausting the constant management actually is, she admits mostly only to the one trusted person." },
       ]},
       { typ: 6, titel: "A Security Sought Through Rules", varianten: [
         { code: "SE6", text: "Fixed routines give the self-preservation Six a footing in a world she experiences as uncertain, and a strictly regulated way of eating can become such a routine, promising security in a place where fear actually reigns." },
@@ -69050,7 +69050,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A Control That Allows No Weakness", varianten: [
         { code: "SE8", text: "Great severity governs how the self-preservation Eight watches over her own provisioning, and this severity can turn against her own body when controlling food becomes the last arena in which strength can be proven." },
         { code: "SO8", text: "The social Eight stays strong for her group even once her own exhaustion has long been palpable – a rigidly controlled way of eating can remain unnoticed as one of the few forms of weakness she permits herself at all." },
-        { code: "SX8", text: "The sexual Eight does allow vulnerability, but only with the one person she trusts – if a disturbed eating pattern is recognized and taken seriously there, it can lead to seeking help more readily than the consistent control shown by other Eight variants." },
+        { code: "SX8", text: "Daily insulin management is something the sexual Eight tends to treat as one more territory to master rather than a vulnerability – that same fighting spirit can keep her from accepting support in time, even from the one person she otherwise trusts completely." },
       ]},
       { typ: 9, titel: "A Body That Makes Itself Invisible", varianten: [
         { code: "SE9", text: "The self-preservation Nine easily loses herself in habit and withdrawal, and restricted eating can settle in gradually as just another habit that goes largely unquestioned, until her own condition is barely noticed anymore." },
@@ -69094,7 +69094,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A Loss of Control in an Otherwise Controlled World", varianten: [
         { code: "SE5", text: "Strictly rationed, including food, are the resources of the self-preservation Five under normal circumstances – once this control breaks down, the ensuing loss of control can be especially intense, precisely because it deviates so sharply from her usual restraint." },
         { code: "SO5", text: "The social Five keeps emotional matters mostly at a distance through rational knowledge – a binge episode can become one of the few moments in which unfiltered, uncontrolled emotion actually breaks through, which often irritates and embarrasses her." },
-        { code: "SX5", text: "Genuine emotional openness happens for the sexual Five only within her one deep bond – it is precisely this unfamiliar openness that can generate inner tension which, when it cannot be regulated any other way, discharges through eating behavior." },
+        { code: "SX5", text: "Her own reserves of energy and attention are normally rationed very sparingly by the sexual Five – elevated blood fat levels can lead her to grant the one trusted person more access to those reserves than she usually allows anyone." },
       ]},
       { typ: 6, titel: "A Tension That Breaks Through", varianten: [
         { code: "SE6", text: "Constant vigilance against possible dangers costs the self-preservation Six a great deal of energy – once this tension releases, it can discharge as a loss of control around eating, followed by renewed fear of the consequences of that very loss of control." },
@@ -69109,7 +69109,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A Control That Breaks Down in Secret", varianten: [
         { code: "SE8", text: "Weakness is something the self-preservation Eight shows almost never, not even to herself – a loss of control around eating contradicts that self-image so strongly that it is almost inevitably kept secret, which further deepens her isolation." },
         { code: "SO8", text: "Even once her own exhaustion has long been palpable, the social Eight remains strong for her group – a secret binge episode can become one of the few forms in which that exhaustion actually shows, though only in private." },
-        { code: "SX8", text: "The sexual Eight shows real vulnerability only to the one person she truly trusts – if a disturbed eating pattern is recognized and taken seriously there, it can lead to seeking help more readily than with the persistent facade of other Eight variants." },
+        { code: "SX8", text: "Building reserves and securing her own strength drives the sexual Eight more than actual concern for her health, even with elevated blood fat levels – only when the one person she trusts presses her persistently does real worry show through." },
       ]},
       { typ: 9, titel: "A Pull That Drowns Out Her Own Voice", varianten: [
         { code: "SE9", text: "Habit and comfort are where the self-preservation Nine easily loses herself – eating can become a particularly convenient form of numbing, whose loss of control then triggers shame that in turn deepens the inertia even further." },
@@ -69153,7 +69153,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A Withdrawal That Reaches Eating Too", varianten: [
         { code: "SE5", text: "Strict rationing of her resources is normal for the self-preservation Five – once this control breaks down under exhaustion, a binge episode can follow, which she then tries to bring back under her usual control as quickly as possible." },
         { code: "SO5", text: "Rational knowledge is how the social Five keeps emotional matters mostly at a distance – a binge episode can become one of the few moments in which unfiltered emotion actually breaks through, which often irritates her." },
-        { code: "SX5", text: "Strain on the one deep bond in which the sexual Five truly opens herself emotionally can leave a tension that, if it cannot be regulated any other way, discharges through eating behavior." },
+        { code: "SX5", text: "Intimate physical topics like this one the sexual Five normally keeps strictly private, often barely voiced even to herself – only with the one trusted person can this actually be discussed openly." },
       ]},
       { typ: 6, titel: "A Tension That Seeks Food as Comfort", varianten: [
         { code: "SE6", text: "Constant vigilance costs the self-preservation Six a great deal of energy – eating can become a reliable, physically tangible form of comfort when inner tension can hardly be regulated otherwise." },
@@ -69168,7 +69168,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "An Exhaustion Meant to Stay Hidden", varianten: [
         { code: "SE8", text: "Almost never does the self-preservation Eight let weakness show – a secret binge episode can become one of the few forms in which exhaustion actually shows, even though it immediately disappears again behind her usual toughness." },
         { code: "SO8", text: "Palpable as her own exhaustion may long have become, the social Eight remains strong for her group – food can become a quiet compensation no one sees, because outwardly she continues to seem unshakeable." },
-        { code: "SX8", text: "The sexual Eight lets her vulnerability show only to the one trusted person – if a recurring loss of control around eating is recognized there, it can lead to seeking help more readily than with the persistent facade of other Eight variants." },
+        { code: "SX8", text: "Nighttime bathroom trips and weakening urinary strength first register with the sexual Eight as weakness to overcome rather than something to treat – only in conversation with the one person who truly knows her does she admit it actually worries her." },
       ]},
       { typ: 9, titel: "A Numbing That Covers Her Own Anger", varianten: [
         { code: "SE9", text: "Losing herself in habit and comfort comes easily to the self-preservation Nine – eating can become a particularly convenient form of numbing that keeps unpleasant feelings from ever becoming conscious in the first place." },
@@ -69212,7 +69212,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A Withdrawal Reinforced Chemically", varianten: [
         { code: "SE5", text: "The self-preservation Five already reduces contact with others consistently – drinking alone at home can become a quiet, inconspicuous habit that develops over years without her social circle even noticing." },
         { code: "SO5", text: "The social Five stays connected to the world mainly through knowledge, keeping emotional closeness at a distance – alcohol in company can at first serve as a kind of social bridge before it turns into a pattern of its own." },
-        { code: "SX5", text: "Should the one deep bond in which the sexual Five truly opens herself emotionally come under strain, alcohol can become a way to make the accompanying vulnerability more bearable." },
+        { code: "SX5", text: "Fading eyesight is something the sexual Five first observes analytically rather than with concern – actually letting it worry her tends to happen only in conversation with the one trusted person." },
       ]},
       { typ: 6, titel: "A Fear That Falls Silent for a While", varianten: [
         { code: "SE6", text: "A baseline feeling of insecurity accompanies the self-preservation Six for years at a time – alcohol can become one of the few means that actually silences this tension, which makes it especially hard to let go of again." },
@@ -69227,11 +69227,11 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A Control That Dissolves in Consumption", varianten: [
         { code: "SE8", text: "The self-preservation Eight shows weakness almost never – alcohol can become one of the few permitted spaces in which she actually lets herself go, which makes the transition from occasional use to dependency especially inconspicuous." },
         { code: "SO8", text: "The social Eight barely admits to exhausted strength as long as her group still needs her – alcohol can become a quiet way of compensating for that exhaustion without having to admit it to others." },
-        { code: "SX8", text: "The sexual Eight does show real vulnerability, but only to the one person she trusts – if problematic use is recognized and taken seriously there, it can lead to seeking help more readily than with the persistent facade of other Eight variants." },
+        { code: "SX8", text: "That her vision isn't as sharp as it used to be is something the sexual Eight hides from herself for a long time – control over her own perception is part of her self-image. Only direct confrontation by the one trusted person gets her to take it seriously." },
       ]},
       { typ: 9, titel: "A Numbing of Her Own Anger", varianten: [
         { code: "SE9", text: "Routine and comfort are where the self-preservation Nine easily loses herself – a glass in the evening can become a particularly convenient further habit that intensifies unnoticed over years because it belongs to an inconspicuous everyday life." },
-        { code: "SO9", text: "The social Nine steadily subordinates her own opinion to group harmony – held-back anger over this constant adapting can unnoticeably discharge through growing alcohol use, while equanimity continues to be maintained on the outside." },
+        { code: "SO9", text: "Steadily, the social Nine lets her own opinion give way to group harmony – held-back anger over this constant adapting can unnoticeably discharge through growing alcohol use, while a calm, composed surface is kept up for everyone else." },
         { code: "SX9", text: "Adopting her partner's habits as her own comes easily to the sexual Nine in merging with him – if her partner drinks regularly, she may go along with this consumption unreflectively, without recognizing it as a distinct problem of her own." },
       ]},
     ],
@@ -69271,7 +69271,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A Withdrawal Deepened Chemically", varianten: [
         { code: "SE5", text: "Consistently kept to a minimum, contact with others is something the self-preservation Five already reduces on her own – a sedating substance can become a quiet, inconspicuous habit that deepens this withdrawal even further without her circle ever noticing." },
         { code: "SO5", text: "The social Five seeks her connection to the world mainly through knowledge, keeping emotional closeness at a distance – some substances can at first let her approach emotions in a controlled way, as if from a safe distance, before a pattern of its own develops." },
-        { code: "SX5", text: "When the one deep bond in which the sexual Five truly opens herself emotionally comes under strain, a substance can become a way to make the accompanying vulnerability more bearable." },
+        { code: "SX5", text: "Strict control over her own body can give the sexual Five a sense of safety she otherwise rarely allows herself emotionally – real closeness she permits only within her one deep bond, which can reinforce this compensation further." },
       ]},
       { typ: 6, titel: "A Fear That Falls Silent for a While", varianten: [
         { code: "SE6", text: "For years at a time, a baseline feeling of insecurity trails the self-preservation Six – a sedative can become one of the few means that actually silences this tension, which makes it especially hard to let go of again." },
@@ -69286,11 +69286,11 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A Control That Dissolves in Consumption", varianten: [
         { code: "SE8", text: "Admitting weakness comes almost never to the self-preservation Eight – a substance can become one of the few permitted spaces in which she actually lets herself go, which makes the transition from occasional use to dependency especially inconspicuous." },
         { code: "SO8", text: "The social Eight mostly blocks out her own exhausted strength as long as her group still needs her – a substance can become a quiet way of compensating for that exhaustion without having to admit it to others." },
-        { code: "SX8", text: "The sexual Eight shows vulnerability most readily to the one person she truly trusts – if problematic use is recognized and taken seriously there, it can lead to seeking help more readily than with the persistent facade of other Eight variants." },
+        { code: "SX8", text: "Distorted vision first registers with the sexual Eight as an attack on her everyday self-sufficiency, which she reflexively plays down – her real concern only surfaces once the one person who truly knows her presses persistently enough." },
       ]},
       { typ: 9, titel: "A Numbing of Her Own Anger", varianten: [
         { code: "SE9", text: "So easily does the self-preservation Nine lose herself in routine and comfort that a numbing medication can become a particularly convenient further habit, intensifying unnoticed over years because it belongs to an inconspicuous everyday life." },
-        { code: "SO9", text: "Her own opinion consistently gives way to group harmony for the social Nine – held-back anger over this constant adapting can unnoticeably discharge through growing substance use, while equanimity continues to be maintained on the outside." },
+        { code: "SO9", text: "Group harmony consistently wins out over the social Nine's own opinion – held-back anger over this constant adapting can unnoticeably discharge through growing substance use, while an even-keeled front stays intact for those around her." },
         { code: "SX9", text: "Her partner's habits become her own with surprising ease once the sexual Nine merges with him – if her partner uses regularly, she may go along with this use unreflectively, without recognizing it as a distinct problem of her own." },
       ]},
     ],
@@ -69330,7 +69330,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A retreat from the stage", varianten: [
         { code: "SE5", text: "The self-preservation Five keeps social demands consistently small in order to conserve her limited resources. If she is pushed into the center of attention anyway, a pronounced social phobia can result." },
         { code: "SO5", text: "The social Five feels reasonably secure in groups when expertise is the topic, but the moment personal rather than factual questions arise, tension quickly builds. This vulnerability can condense into social anxiety." },
-        { code: "SX5", text: "Readily, rather than fearing being watched as she generally does, the sexual Five opens up within her one deep connection. This one bond can shield her from the broader social anxiety that affects the other Five variants more." },
+        { code: "SX5", text: "Inner tension that cannot be regulated any other way can discharge for the sexual Five through eating behavior – especially when she feels unusually exposed emotionally outside her one deep connection." },
       ]},
       { typ: 6, titel: "A watchful eye that never rests", varianten: [
         { code: "SE6", text: "Whether she is really safe within the group is something the self-preservation Six checks continuously, reading every reaction from others immediately. This constant checking can widen into a social phobia." },
@@ -69345,7 +69345,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A control over the impression made", varianten: [
         { code: "SE8", text: "Showing vulnerability in front of others runs deeply against the grain for the self-preservation Eight. If she ends up in a situation where she feels at others' mercy, surprisingly intense social anxiety can result." },
         { code: "SO8", text: "The social Eight usually shows up fearless for her group, while consistently hiding any insecurity of her own. This hidden tension can, rarely, surface as a social phobia." },
-        { code: "SX8", text: "The sexual Eight does openly show her vulnerability, but only to the one person she trusts. This openness can protect her from the general social anxiety that other Eight variants experience less often, but then intensely." },
+        { code: "SX8", text: "Fearlessness is the image the sexual Eight usually presents – that social situations could intimidate her at all contradicts that self-image so strongly that she plays it down rather than admits it, at least at first." },
       ]},
       { typ: 9, titel: "A voice that isn't meant to stand out", varianten: [
         { code: "SE9", text: "Moving through social situations unnoticed suits the self-preservation Nine far better than being pushed into the center. If she's forced there anyway, pronounced social anxiety can rise up." },
@@ -69389,7 +69389,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A retreat into understanding", varianten: [
         { code: "SE5", text: "After a trauma, the self-preservation Five often withdraws even further to conserve her own resources. This intensified retreat can foster an isolation that makes processing even harder." },
         { code: "SO5", text: "Through understanding what happened, not through feeling it, the social Five stays connected to herself, keeping emotional processing at arm's length. This intellectual approach can mask the actual symptoms for a long time." },
-        { code: "SX5", text: "The sexual Five can only really let herself feel what happened within her one deep connection, rather than processing it alone. This one bond can ease processing compared to the stronger withdrawal of the other Five variants." },
+        { code: "SX5", text: "Withdrawal is the sexual Five's most natural response to overwhelm – if the one connection where she usually opens up comes under strain, the resulting tension can instead discharge through eating behavior." },
       ]},
       { typ: 6, titel: "A vigilance that hardens in place", varianten: [
         { code: "SE6", text: "After a traumatic event, the self-preservation Six's already-present vigilance intensifies further. This heightened state of alarm often sits especially close to the clinical picture of PTSD." },
@@ -69404,7 +69404,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A control over the uncontrollable", varianten: [
         { code: "SE8", text: "After a trauma, the self-preservation Eight wants control back as quickly as possible rather than allowing her own shock to register. This overriding can delay actual processing." },
         { code: "SO8", text: "The social Eight stays a protector for her group even after a traumatic event, even once her own exhaustion has long since set in. Overriding her own shock like this can show up as PTSD." },
-        { code: "SX8", text: "Her shock does get shown openly by the sexual Eight, but only to the one person she trusts. If that vulnerability is met well there, it can ease processing compared to the hidden burden other Eight variants carry." },
+        { code: "SX8", text: "Explaining her own trauma away as just one more loss of control she's already handled comes easier to the sexual Eight than actually feeling it – only with time, and usually only with the one person she's known for a long while, does the armor loosen." },
       ]},
       { typ: 9, titel: "An experience pushed out of sight", varianten: [
         { code: "SE9", text: "The self-preservation Nine often consistently sets a traumatic event aside to preserve her peace. If it stays unprocessed for years, a hard-to-recognize, chronic PTSD can develop from it." },
@@ -69448,7 +69448,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "An order that becomes absolute", varianten: [
         { code: "SE5", text: "The self-preservation Five likes to keep resources and spaces clearly structured – in OCD, this order can tip into rigid symmetry or checking compulsions that no longer allow any deviation." },
         { code: "SO5", text: "Grasping knowledge as completely and accurately as possible matters to the social Five, which in OCD can show up as endless fact- or statement-checking, without a point of certainty ever being reached." },
-        { code: "SX5", text: "The sexual Five does allow herself disorder and closeness, at least within her one deep connection, rather than needing to control everything. This flexibility can ease the compulsive pressure that affects the other Five variants more." },
+        { code: "SX5", text: "Pulling back costs the sexual Five little effort under normal circumstances – but when her one deep connection demands too much emotionally, alcohol can become a way to stay in contact without feeling the full vulnerability of it." },
       ]},
       { typ: 6, titel: "A reassurance without an end", varianten: [
         { code: "SE6", text: "In the self-preservation Six, basic vigilance toward danger can turn into concrete checking compulsions – repeatedly checking locks, stove burners, or safeguards that never brings lasting reassurance, even after ten checks." },
@@ -69463,7 +69463,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A control that takes itself captive", varianten: [
         { code: "SE8", text: "Keeping control over her own environment matters to the self-preservation Eight – in OCD this can harden into rigid control rituals that, paradoxically, become a loss of control in themselves." },
         { code: "SO8", text: "Feeling responsible for her group can sometimes drive the social Eight into compulsive checking and safeguarding of anything that could concern that group, without a sense of real security ever emerging." },
-        { code: "SX8", text: "The sexual Eight openly voices her worry about the one person she trusts rather than channeling it into hidden control rituals. This openness sets her apart from the hidden compulsive pressure of the other Eight variants." },
+        { code: "SX8", text: "Losing control over her own thoughts feels especially threatening to the sexual Eight, since mastery is central to her self-image – intrusive thoughts stay hidden longer than in other Eight variants, until the pressure forces her to admit it." },
       ]},
       { typ: 9, titel: "A calm that has to be forced", varianten: [
         { code: "SE9", text: "The self-preservation Nine likes to keep her surroundings in a familiar, reassuring routine – in OCD this routine can tip into rigid, self-reinforcing rituals that never bring the hoped-for inner calm." },
@@ -69507,7 +69507,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A retreat that filters stimulation", varianten: [
         { code: "SE5", text: "Reducing stimulation to a minimum helps the self-preservation Five with ADHD manage her own distractibility reasonably well. When this reduction fails, the inner scatteredness can become especially overwhelming." },
         { code: "SO5", text: "Within one narrowly defined field of knowledge, the social Five with ADHD can develop remarkable hyperfocus, while other areas of life sink into chaos at the same time." },
-        { code: "SX5", text: "Staying present and organized comes easier to the sexual Five within her one deep connection, rather than getting lost in scatteredness. This one bond can have a stabilizing effect compared to the withdrawal of the other Five variants." },
+        { code: "SX5", text: "The line between observing and truly participating blurs most easily for the sexual Five under the influence of a substance – especially when the one connection she usually opens up in is itself under strain." },
       ]},
       { typ: 6, titel: "An insecurity that intensifies through chaos", varianten: [
         { code: "SE6", text: "Building reliable outward structures helps the self-preservation Six contain her ADHD-related scatteredness somewhat. If that structure collapses, the underlying insecurity can noticeably intensify." },
@@ -69522,7 +69522,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A control over one's own scatteredness", varianten: [
         { code: "SE8", text: "Loss of control – including over her own concentration – is especially hard for the self-preservation Eight to accept. ADHD-related scatteredness can therefore initially be stubbornly denied rather than acknowledged." },
         { code: "SO8", text: "Staying reliable for her group despite her own scatteredness demands enormous willpower from the social Eight. When this effort grows too large, considerable, usually hidden exhaustion can lie behind it." },
-        { code: "SX8", text: "Her scatteredness or impulsivity is something the sexual Eight will openly show the one person she trusts. This openness can be more relieving than the hidden compensating of the other Eight variants." },
+        { code: "SX8", text: "Impulsivity actually fits the sexual Eight's already direct manner well enough – difficulty concentrating, though, she experiences as a real loss of control, one she only reluctantly admits even to herself." },
       ]},
       { typ: 9, titel: "An order that dissolves", varianten: [
         { code: "SE9", text: "The self-preservation Nine normally finds grounding in routine and habit – with ADHD, that very routine can keep getting interrupted by scatteredness, creating additional inner restlessness." },
@@ -69566,7 +69566,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 5, titel: "A way of handling withdrawal and information", varianten: [
         { code: "SE5", text: "Thoroughly informing herself about the diagnosis often gives the self-preservation Five back a sense of security. Social withdrawal as a symptom can overlap with her already-existing need for retreat, making the two harder to tell apart." },
         { code: "SO5", text: "Through intellectually understanding her own illness, the social Five stays connected to it at a certain distance. This understanding can be helpful, but shouldn't replace engaging with her own feelings about it." },
-        { code: "SX5", text: "Letting herself feel the illness and its effects emotionally is something the sexual Five can do within her one deep connection, rather than withdrawing completely. This one bond can be an important support." },
+        { code: "SX5", text: "Between mood phases, how far the sexual Five withdraws shifts noticeably too – within her one deep connection she stays the most reachable across both episodes, even if never completely." },
       ]},
       { typ: 6, titel: "A way of handling trust and treatment", varianten: [
         { code: "SE6", text: "Building trust with the treatment team can be hard for the self-preservation Six, when mistrust is already a basic theme for her. Once that trust is established, though, it can lead to especially reliable treatment adherence." },
@@ -69581,7 +69581,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A way of handling control and autonomy", varianten: [
         { code: "SE8", text: "Keeping control over her own treatment matters especially to the self-preservation Eight. If she's included as an active partner in the treatment process rather than patronized, her willingness to cooperate rises considerably." },
         { code: "SO8", text: "Standing up for other people affected and pushing back against stigma can give the social Eight a meaningful role in coping with her own diagnosis." },
-        { code: "SX8", text: "Her vulnerability around the diagnosis gets shown openly by the sexual Eight, though only to the one person she trusts. This openness can be an important support in treatment." },
+        { code: "SX8", text: "A diagnosis like this hits the sexual Eight especially hard, since it threatens control over her own mind – she typically fights the treatment itself before confiding in the one person who truly knows her." },
       ]},
       { typ: 9, titel: "A way of handling her own voice in the process", varianten: [
         { code: "SE9", text: "Keeping familiar routines can help the self-preservation Nine hold onto some grounding despite the diagnosis. What matters is that her own voice doesn't get lost in the treatment process." },
@@ -69640,7 +69640,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 8, titel: "A way of handling control in both extremes", varianten: [
         { code: "SE8", text: "Keeping control is especially hard for the self-preservation Eight during a manic phase, which she then experiences as an unsettling loss of control. In depression, her own exhaustion is often denied for too long." },
         { code: "SO8", text: "Staying strong for her group demands enormous effort from the social Eight through both episodes as well. If the diagnosis is experienced as her own weakness, that can make her less willing to seek treatment." },
-        { code: "SX8", text: "Openly showing her vulnerability in both phases, but only to the one person she trusts, is well within reach for the sexual Eight. This openness can be an important anchor through both episodes." },
+        { code: "SX8", text: "During manic phases the sexual Eight often feels unusually powerful and unbounded, while depressive phases bring deep shame over her own loss of control – showing both extremes is harder for her than the illness itself." },
       ]},
       { typ: 9, titel: "A way of handling her own voice in both phases", varianten: [
         { code: "SE9", text: "Preserving familiar routines helps the self-preservation Nine maintain stability between episodes. Both mania and depression, however, can considerably disrupt these routines." },
