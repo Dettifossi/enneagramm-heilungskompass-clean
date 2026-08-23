@@ -179,6 +179,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-nick-leeson",         name:"Nick Leeson",                           subtyp:"SO9w8",  heading:"Nick Leeson – Social Type 9",                                  teaser:"SO9w8 – Rogue Trader, born 1967. Brought down Barings Bank in 1995 – the social Nine with Eight-wing: belonging as identity, inertia as self-forgetting. Animal correspondence: Buffalo." , land:"United Kingdom", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-leslie-van-houten",    name:"Leslie Van Houten",                    subtyp:"SO9w1",  heading:"Leslie Van Houten – Social Type 9",                                   teaser:"SO9w1 – Member of the Manson Family, born 1949. Involved in the LaBianca murders 1969 – the social Nine with One-wing: dissolution into the group as home, service to the community as life's path. Animal correspondence: Buffalo." , land:"USA", tags:["Terror"], gender:"f"},
   { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexual Type 9",                               teaser:"SX9w1 – Art forger, born 1951. Over 50 forged masterworks, undetected for decades – the sexual Nine with One-wing: merger with the spirit of dead masters." , land:"Germany", tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-john-hinckley-jr",  name:"John Hinckley Jr.",                subtyp:"SE9w8",  heading:"John Hinckley Jr. – Self-Preservation Type 9",                               teaser:"SE9w8 – Assassin, born 1955. Six shots fired at President Reagan in 1981 to impress Jodie Foster – years of passive isolation, discharged in a single act of violence (volcano effect of the 9w8)." , land:"USA", tags:["Terror"], gender:"m"},
   { route:"kriminalpsychologie-ed-gein",  name:"Ed Gein",                subtyp:"SX9w1",  heading:"Ed Gein – Sexual Type 9",                               teaser:"SX9w1 – „The Butcher of Plainfield,“ 1906–1984. Grave robberies and two confirmed murders – the sexual Nine with One-wing in its most extreme derailment: the delusional merging with his dead mother." , land:"USA", tags:["Serienmord"], gender:"m"},
 ];
 
@@ -33643,6 +33644,10 @@ function jodieFosterPortraitPage() {
         <p class="krim-portrait-subtitle">Actress &amp; director, born 1962 in Los Angeles &ndash; Animal correspondence: Hedgehog</p>
       </div>
       <div class="page-content">
+        <p class="vb-intro" style="text-align:center;font-style:italic;">
+          The Criminal Psychology portrait of <a href="javascript:void(0)" data-route="kriminalpsychologie-john-hinckley-jr">John Hinckley Jr.</a>
+          examines his delusional fixation on Foster – and the 1981 assassination attempt on President Reagan – through the Enneagram.
+        </p>
 
         <h2 class="vb-section">1. The Hedgehog That Builds Walls for the Sake of Closeness</h2>
         <blockquote class="vb-blockquote">
@@ -37734,6 +37739,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "When the quiet appetite turns into quiet self-service without guilt (shadow form)",
         beschreibung: "In its destructive expression, the same appetite that otherwise seeks comfort and enjoyment turns into a persistent, barely noticed circumvention of rules – accompanied by the quiet feeling of claiming a well-earned right.",
         beleg: "Alfons Schuhbeck, who 'quietly and persistently circumvented the law – without inner turmoil, without guilt, almost without noticing it himself,' and manipulated cash records for years: 'I work so hard, I achieve so much – what I take for myself is my good right.' Important: this is the only known case of this kind among the SE9 portraits in this compass, not a typical expression."
+      },
+      {
+        titel: "Years of quiet passivity, discharged in a single sudden outburst of violence (shadow form, Eight-wing)",
+        beschreibung: "In a second, much rarer destructive expression, anger accumulates unnoticed in the background for years instead of discharging in conflict or speech – until the Eight-wing releases it in a single, sudden, rawly physical eruption, the so-called 'volcano effect.'",
+        beleg: "John Hinckley Jr., who lived isolated in motel rooms for years without anyone around him suspecting any danger – until in 1981 he fired six shots at US President Reagan within three seconds to impress actress Jodie Foster, then immediately sank back into his familiar passivity. Important: this is the only known case of this kind among the SE9 portraits in this compass, not a typical expression."
       }
     ]
   },
@@ -44680,6 +44690,190 @@ function edGeinPortraitPage() {
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) – Art Forger"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Criminal Psychology: Alfons Schuhbeck (SE9w1)"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+      ])}
+      <div style="margin-top:1.5rem;max-width:100%;">
+        <button class="ghost-link" data-route="kriminalpsychologie">← Back to Criminal Psychology Overview</button>
+      </div>
+    </div>
+  `);
+}
+
+function johnHinckleyJrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("John Hinckley Jr. – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/kriminalpsychologie-john-hinckley-jr-portrait.jpg" alt="John Hinckley Jr. – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Hinckley Jr.</p>
+        <p class="krim-portrait-typ">SE9w8 · Self-Preservation Type 9 with Eight-wing</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Assassination attempt on President Ronald Reagan · USA, March 30, 1981 · Animal correspondence: Elephant</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>John Hinckley Jr.</strong> (born 1955) fired six shots in three seconds at
+        President Ronald Reagan outside the Hilton Hotel in Washington D.C. on March 30, 1981.
+        One shot ricocheted off the armored limousine and struck Reagan in the chest, narrowly
+        missing his heart; press secretary James Brady was severely wounded in the head and
+        left permanently disabled. Hinckley's motive had nothing to do with politics: he
+        wanted to impress 18-year-old actress <strong>Jodie Foster</strong>, whom he had
+        delusionally fixated on since watching "Taxi Driver." In 1982 he was acquitted by
+        reason of insanity and committed to a psychiatric hospital; only in June 2022, over 40
+        years later, was he fully released without any remaining conditions. The Enneagram
+        makes visible how years of inconspicuous, passive withdrawal into protective isolation
+        could tip, within seconds, into one of the most consequential acts of political
+        violence in recent US history.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>John Hinckley Jr.</strong> is classified as the <strong>Self-Preservation
+        Type 9 with Eight-wing (SE9w8)</strong>. The self-preservation subtype of the Nine is
+        called "appetite": inner emptiness is regulated not through relationship or group, but
+        through physical comfort, withdrawal, and numbing – for Hinckley, over years, in the
+        form of motel rooms, television, and fast food. The Eight-wing adds a second layer:
+        pent-up anger that does not discharge in open conflict, but accumulates over long
+        stretches in the gut center until it erupts in a single, uncontrolled outburst – the
+        classic "volcano effect" of the 9w8. The content of his delusion – the merging
+        fantasy with Jodie Foster – carries sexual fixation features, yet his actual lifestyle
+        was consistently self-preservation-dominated: no pursuit of real contact, but complete
+        physical retreat into a shell.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Emotionally distant, almost apathetic:</strong>
+        At his arrest, Hinckley appeared neither hateful nor politically fanatical, but
+        oddly absent – behavior that initially puzzled investigators. The classic trance of
+        the Nine: present in the room, but inwardly elsewhere.</p>
+        <p class="vb-intro"><strong>b) Barely any resistance, no drama:</strong>
+        He was overpowered on the spot without meaningful physical resistance. No escape
+        attempt, no struggle – after the eruption, he immediately fell back into familiar
+        passivity.</p>
+        <p class="vb-intro"><strong>c) Inconspicuous to the point of invisibility:</strong>
+        Those around him described him for years as a withdrawn, dependent loner, financially
+        supported by his parents, practically invisible – no potential for conflict, no
+        presence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Years of physical passivity:</strong>
+        Hinckley spent long stretches isolated in motel rooms, living on fast food and
+        losing himself for hours in front of the television – the classic
+        appetite-substitution pattern of the Self-Preservation Nine: numbing inner conflict
+        through physical comfort instead of relationship or group.</p>
+        <p class="vb-intro"><strong>b) No goal of his own:</strong>
+        He never developed his own professional or social direction. His identity
+        increasingly organized itself around the mental fixation on Jodie Foster – not as a
+        real relationship, but as a substitute for a missing inner center.</p>
+        <p class="vb-intro"><strong>c) The move to New Haven:</strong>
+        To be near Yale University, where Foster was a student, Hinckley moved to New Haven.
+        He left letters and poems under her door and called her repeatedly, though she
+        consistently rejected him – real rejection that had no effect within the delusion.</p>
+        <p class="vb-intro"><strong>d) Pent-up anger in the gut center – the Eight-wing:</strong>
+        When the direct path to Foster remained definitively closed, years of suppressed
+        frustration did not shift into open protest, but continued to accumulate – until it
+        discharged in a single, sudden act of violence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Criminal Act</h3>
+        <p class="vb-intro"><strong>a) Six shots in three seconds:</strong>
+        On March 30, 1981, Hinckley drew a Röhm RG-14 revolver (.22 caliber) outside the
+        Hilton Hotel and fired six shots in three seconds. He severely wounded press
+        secretary James Brady in the head, injured a police officer and a Secret Service
+        agent; the final shot ricocheted off the armored limousine and struck Reagan in the
+        chest, narrowly missing his heart.</p>
+        <p class="vb-intro"><strong>b) The farewell letter to Jodie Foster:</strong>
+        Shortly before the act, Hinckley wrote to Foster: "Jodie, I would abandon this
+        attempt to gain your love and respect with all my heart if you could only love me,
+        or if my killing Reagan would help gain your love."</p>
+        <p class="vb-intro"><strong>c) Trial and acquittal:</strong>
+        In 1982, Hinckley was acquitted by reason of insanity (not guilty by reason of
+        insanity) and committed to St. Elizabeths Hospital – a decision still controversial
+        in the US today, which led to stricter insanity-defense rules in several states.</p>
+        <p class="vb-intro"><strong>d) Over 40 years to full release:</strong>
+        In 2016, he was released under strict conditions to live at his mother's house in
+        Virginia. In September 2021, a federal judge determined he no longer posed a danger;
+        on June 15, 2022, all remaining court-ordered restrictions were finally lifted.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Nine's Volcano Effect</h3>
+        <p class="vb-intro">The Nine's passion is called <strong>sloth</strong> – the
+        ongoing suppression of anger and conflict in order to maintain inner peace. In the
+        Self-Preservation Nine, this happens through physical numbing and withdrawal: as
+        long as comfort is intact, the surface stays calm. The Eight-wing changes what
+        happens, however, once the pressure crosses a critical threshold: instead of
+        dissolving into resignation, the accumulated energy can discharge abruptly and
+        rawly – the "volcano eruption" of the 9w8.</p>
+        <p class="vb-intro">Exactly this pattern shows itself in Hinckley: years of nearly
+        invisible passivity, interrupted by a single act of violence unfolding within
+        seconds – followed by an immediate return to familiar calm. As with Ed Gein, there
+        was neither remorse nor pride. Hinckley did not understand why the world saw his act
+        as abhorrent, since in his own logic it was purely a means of merging, not violence
+        against others.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The Elephant: Heavy, Patient, Unstoppable Once Erupting</h3>
+        <p class="vb-intro">The elephant is the animal of the Self-Preservation Nine – large,
+        comfortable, seemingly reluctant to move. An animal easily underestimated as harmless
+        because it spends most of its time simply standing and grazing.</p>
+        <p class="vb-intro">For Hinckley: the heavy, sluggish, almost neglected physical
+        presence that spent years lingering in motel rooms without anyone suspecting a threat
+        in him. But an elephant once set in motion is hardly to be stopped – exactly what
+        showed itself on March 30, 1981, in a matter of seconds, before the massive presence
+        sank back into motionless calm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Connection: Jodie Foster (SX5w6)</h3>
+        <p class="vb-intro">The object of Hinckley's delusion, <a href="javascript:void(0)" data-route="beruehmte-jodie-foster">Jodie Foster</a>,
+        is portrayed in this Compass as the Sexual Five with Six-wing (SX5w6) – a subtype
+        that seeks intimacy through intellectual and emotional depth in a select few
+        connections, paired with heightened vigilance toward boundary violations. Foster
+        herself responded to Hinckley's years of stalking with exactly this vigilance:
+        consistent rejection, no reaction that could have fed the delusion. The two subtypes
+        show a sharp contrast here: the SX5w6, who keeps closeness narrow and deliberately
+        bounded, against the SE9w8, who imagined a closeness that never actually existed.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Summary</h3>
+        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        John Hinckley Jr. shows a rare but instructive extreme form of the Self-Preservation
+        Nine with Eight-wing: years of nearly invisible passivity and physical withdrawal,
+        interrupted by a single act of violence unfolding within seconds, whose actual motive
+        was not politics or hatred but a delusional fantasy of merging with a woman who had
+        never known him.</p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        The case shows how the gut center's "volcano effect" – long-suppressed anger,
+        discharged abruptly under the Eight-wing – can turn the most inconspicuous person in
+        the room into a historic danger within seconds. A rare, consequential exception, not
+        a typical expression of the Self-Preservation Nine.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a historical verdict. Hinckley's act
+        seriously injured several people and is to be condemned – the Enneagram explains, it
+        does not justify.
+        </p>
+      </div>
+
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6) – object of fixation"},
+        {route:"kriminalpsychologie-ed-gein", label:"Criminal Psychology: Ed Gein (SX9w1) – also a Nine, different instinctual variant"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Criminal Psychology: Alfons Schuhbeck (SE9w1)"},
+        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">← Back to Criminal Psychology Overview</button>
@@ -75172,6 +75366,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,
       "kriminalpsychologie-leslie-van-houten": leslieVanHoutenPortraitPage,
       "kriminalpsychologie-wolfgang-beltracchi": wolfgangBeltracchiPortraitPage,
+      "kriminalpsychologie-john-hinckley-jr": johnHinckleyJrPortraitPage,
       "kriminalpsychologie-ed-gein": edGeinPortraitPage,
       "kriminalpsychologie-michail-popkow": michailPopkowPortraitPage,
       "kriminalpsychologie-dennis-rader": dennisRaderPortraitPage,

@@ -23661,6 +23661,7 @@ const registerEntries = [
   { term: "Portr\u00e4t Typ 9",               route: "portrait-typ-9",                description: "Pers\u00f6nlichkeitsportr\u00e4t des Enneagramm-Typs 9 \u00b7 Tr\u00e4gheit, Harmonie, Fusion" },
 
   // Kriminalpsychologie \u2013 fehlende Portraits
+  { term: "John Hinckley Jr.", route: "kriminalpsychologie-john-hinckley-jr", description: "Kriminalpsychologisches Portrait: SE9w8 \u2013 Attentat auf Reagan 1981, Fixierung auf Jodie Foster, Vulkan-Effekt der 9w8" },
   { term: "Ed Gein", route: "kriminalpsychologie-ed-gein", description: "Kriminalpsychologisches Portrait: SX9w1 \u2013 Grabsch\u00e4ndungen, zwei Morde, wahnhafte Verschmelzung mit der toten Mutter" },
   { term: "Alfons Schuhbeck",               route: "kriminalpsychologie-alfons-schuhbeck", description: "Kriminalpsychologisches Portrait: Starkoch, Steuerhinterziehung, \u00f6ffentliche Fassade & Kontrollverlust" },
   { term: "Boris Becker (Kriminalpsychologie)", route: "kriminalpsychologie-boris-becker", description: "Kriminalpsychologisches Portrait: Tennislegende, Insolvenz, SX7w8-Analyse" },
@@ -31399,6 +31400,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-nick-leeson",         name:"Nick Leeson",                           subtyp:"SO9w8",  heading:"Nick Leeson \u2013 Sozialer Typ 9",                                  teaser:"SO9w8 \u2013 Rogue Trader, geb. 1967. Brachte 1995 die Barings Bank zum Zusammenbruch \u2013 die soziale Neun mit Achterfl\u00fcgel: Zugeh\u00f6rigkeit als Identit\u00e4t, Tr\u00e4gheit als Selbstvergessenheit. Tierentsprechung: B\u00fcffel." , land:"Großbritannien", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-leslie-van-houten",    name:"Leslie Van Houten",                    subtyp:"SO9w1",  heading:"Leslie Van Houten \u2013 Sozialer Typ 9",                                   teaser:"SO9w1 \u2013 Mitglied der Manson Family, geb. 1949. Beteiligt an den LaBianca-Morden 1969 \u2013 die soziale Neun mit Einserfl\u00fcgel: Aufl\u00f6sung in die Gruppe als Heimat, Dienst an der Gemeinschaft als Lebensweg. Tierentsprechung: B\u00fcffel." , land:"USA", tags:["Terror"], gender:"f"},
   { route:"kriminalpsychologie-wolfgang-beltracchi",  name:"Wolfgang Beltracchi",                subtyp:"SX9w1",  heading:"Wolfgang Beltracchi \u2013 Sexueller Typ 9",                               teaser:"SX9w1 \u2013 Kunstf\xe4lscher, geb. 1951. \xdcber 50 gef\xe4lschte Meisterwerke, Jahrzehnte unentdeckt \u2013 die sexuelle Neun mit Einserfl\xfcgel: Verschmelzung mit dem Geist toter Meister." , land:"Deutschland", tags:["Betrug"], gender:"m"},
+  { route:"kriminalpsychologie-john-hinckley-jr",  name:"John Hinckley Jr.",                subtyp:"SE9w8",  heading:"John Hinckley Jr. – Selbsterhaltender Typ 9",                               teaser:"SE9w8 – Attent\xe4ter, geb. 1955. Sechs Sch\xfcsse auf Pr\xe4sident Reagan 1981, um Jodie Foster zu beeindrucken – jahrelange passive Isolation, entladen in einem einzigen Gewaltausbruch (Vulkan-Effekt der 9w8)." , land:"USA", tags:["Terror"], gender:"m"},
   { route:"kriminalpsychologie-ed-gein",  name:"Ed Gein",                subtyp:"SX9w1",  heading:"Ed Gein \u2013 Sexueller Typ 9",                               teaser:"SX9w1 \u2013 \u201eDer Schl\xe4chter von Plainfield\u201c, 1906\u20131984. Grabsch\xe4ndungen und zwei nachgewiesene Morde \u2013 die sexuelle Neun mit Einserfl\xfcgel in ihrer extremsten Entgleisung: die wahnhafte Verschmelzung mit der toten Mutter." , land:"USA", tags:["Serienmord"], gender:"m"},
 ];
 
@@ -42791,6 +42793,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "Wenn der stille Appetit zur stillen Selbstbedienung ohne Schuldgefühl wird (Schattenform)",
         beschreibung: "In der destruktiven Ausprägung wird derselbe Appetit, der sonst Komfort und Genuss sucht, zur beharrlichen, kaum bemerkten Regelumgehung – begleitet vom stillen Gefühl, ein wohlverdientes Recht wahrzunehmen.",
         beleg: "Alfons Schuhbeck, der ›still und beharrlich das Gesetz umging – ohne inneren Aufruhr, ohne Schuldgefühl, fast ohne es selbst wirklich zu bemerken‹, und über Jahre Kassenaufzeichnungen manipulierte: ›Ich arbeite so hart, ich leiste so viel – das, was ich mir nehme, ist mein gutes Recht.‹ Wichtig: Dies ist der einzige bekannte Fall dieser Art unter den SE9-Porträts dieses Kompasses, keine typische Ausprägung."
+      },
+      {
+        titel: "Jahrelange stille Passivität, entladen in einem einzigen, plötzlichen Gewaltausbruch (Schattenform, Achterflügel)",
+        beschreibung: "In einer zweiten, deutlich selteneren destruktiven Ausprägung staut sich Wut über Jahre unbemerkt im Hintergrund auf, statt sich in Konflikt oder Rede zu entladen – bis der Achterflügel sie in einem einzigen, plötzlichen und roh-körperlichen Ausbruch freisetzt, dem sogenannten ›Vulkan-Effekt‹.",
+        beleg: "John Hinckley Jr., der jahrelang isoliert in Motelzimmern lebte, ohne dass sein Umfeld je eine Gefahr in ihm vermutete – bis er 1981 binnen drei Sekunden sechs Schüsse auf US-Präsident Reagan abfeuerte, um die Schauspielerin Jodie Foster zu beeindrucken, und danach sofort wieder in seine gewohnte Passivität zurücksank. Wichtig: Dies ist der einzige bekannte Fall dieser Art unter den SE9-Porträts dieses Kompasses, keine typische Ausprägung."
       }
     ]
   },
@@ -56707,6 +56714,10 @@ function jodieFosterPortraitPage() {
         <p class="krim-portrait-subtitle">Schauspielerin &amp; Regisseurin, geb. 1962 in Los Angeles &ndash; Tierentsprechung: Igel</p>
       </div>
       <div class="page-content">
+        <p class="vb-intro" style="text-align:center;font-style:italic;">
+          Das Kriminalpsychologie-Portr\u00e4t zu <a href="javascript:void(0)" data-route="kriminalpsychologie-john-hinckley-jr">John Hinckley Jr.</a>
+          ordnet dessen wahnhafte Fixierung auf Foster \u2013 und das Attentat auf Pr\u00e4sident Reagan 1981 \u2013 enneagrammatisch ein.
+        </p>
 
         <h2 class="vb-section">1. Der Igel, der Mauern f\u00fcr die N\u00e4he baut</h2>
         <blockquote class="vb-blockquote">
@@ -71718,6 +71729,198 @@ function edGeinPortraitPage() {
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1) – Kunstfälscher"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Kriminalpsychologie: Alfons Schuhbeck (SE9w1)"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+      ])}
+      <div style="margin-top:1.5rem;max-width:100%;">
+        <button class="ghost-link" data-route="kriminalpsychologie">← Zurück zur Kriminalpsychologie-Übersicht</button>
+      </div>
+    </div>
+  `);
+}
+
+function johnHinckleyJrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("John Hinckley Jr. – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/kriminalpsychologie-john-hinckley-jr-portrait.jpg" alt="John Hinckley Jr. – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Hinckley Jr.</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Attentat auf Präsident Ronald Reagan · USA, 30. März 1981 · Tierentsprechung: Elefant</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>John Hinckley Jr.</strong> (geb. 1955) feuerte am 30. März 1981 vor dem
+        Hilton Hotel in Washington D.C. innerhalb von drei Sekunden sechs Schüsse auf
+        US-Präsident Ronald Reagan ab. Ein Schuss prallte von der gepanzerten Limousine ab und
+        traf Reagan in die Brust, nur knapp am Herzen vorbei; Pressesprecher James Brady wurde
+        schwer im Kopf verletzt und blieb dauerhaft behindert. Hinckleys Motiv hatte nichts mit
+        Politik zu tun: Er wollte die damals 18-jährige Schauspielerin <strong>Jodie
+        Foster</strong> beeindrucken, die er seit dem Film "Taxi Driver" wahnhaft fixiert
+        verfolgte. 1982 wurde er wegen Unzurechnungsfähigkeit freigesprochen und
+        psychiatrisch untergebracht; erst im Juni 2022, über 40 Jahre später, wurde er
+        vollständig und ohne Auflagen entlassen. Das Enneagramm macht sichtbar, wie ein
+        jahrelang unauffälliger, passiver Rückzug in eine schützende Isolation binnen weniger
+        Sekunden in einen der folgenreichsten politischen Gewaltausbrüche der jüngeren
+        US-Geschichte kippen konnte.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>John Hinckley Jr.</strong> wird dem <strong>Selbsterhaltenden Typ 9 mit
+        Achterflügel (SE9w8)</strong> zugeordnet. Der selbsterhaltende Subtyp der Neun heißt
+        "Appetit": Die innere Leere wird nicht über Beziehung oder Gruppe reguliert, sondern
+        über körperlichen Komfort, Rückzug und Betäubung – bei Hinckley über Jahre in Form von
+        Motelzimmern, Fernsehen und Fast Food. Der Achterflügel bringt eine zweite Ebene hinzu:
+        angestaute Wut, die sich nicht in offenem Konflikt entlädt, sondern sich über lange
+        Zeit im Bauchzentrum aufstaut, bis sie in einem einzigen, unkontrollierten Ausbruch
+        eruptiert – dem klassischen "Vulkan-Effekt" der 9w8. Der Inhalt seines Wahns – die
+        Verschmelzungsfantasie mit Jodie Foster – trägt zwar sexuelle Fixierungsmerkmale, sein
+        tatsächlicher Lebensstil war jedoch durchgehend selbsterhaltungsdominiert: kein Streben
+        nach echtem Kontakt, sondern vollständiger körperlicher Rückzug in eine Höhle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Emotional distanziert, fast apathisch:</strong>
+        Bei seiner Festnahme wirkte Hinckley weder hasserfüllt noch politisch fanatisch,
+        sondern eigenartig abwesend – ein Verhalten, das die Ermittler zunächst vor Rätsel
+        stellte. Die klassische Neuner-Trance: präsent im Raum, aber innerlich woanders.</p>
+        <p class="vb-intro"><strong>b) Kaum Widerstand, keine Dramatik:</strong>
+        Er wurde vor Ort ohne nennenswerten körperlichen Widerstand überwältigt. Kein
+        Fluchtversuch, kein Kampf – nach der Eruption fiel er sofort zurück in die gewohnte
+        Passivität.</p>
+        <p class="vb-intro"><strong>c) Unauffällig bis zur Unsichtbarkeit:</strong>
+        Sein Umfeld beschrieb ihn über Jahre als zurückgezogenen, unselbstständigen
+        Einzelgänger, finanziell von den Eltern abhängig, praktisch unsichtbar – kein
+        Konfliktpotenzial, keine Präsenz.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Jahre in physischer Passivität:</strong>
+        Hinckley verbrachte lange Phasen isoliert in Motelzimmern, ernährte sich von Fast
+        Food und verlor sich stundenlang vor dem Fernseher – das klassische
+        Appetit-Substitutionsmuster der selbsterhaltenden Neun: Betäubung des inneren
+        Konflikts durch körperlichen Komfort statt durch Beziehung oder Gruppe.</p>
+        <p class="vb-intro"><strong>b) Kein eigenes Lebensziel:</strong>
+        Er hatte keine eigene berufliche oder soziale Ausrichtung entwickelt. Seine Identität
+        organisierte sich zunehmend um die gedankliche Fixierung auf Jodie Foster – nicht als
+        reale Beziehung, sondern als Ersatz für ein fehlendes eigenes Zentrum.</p>
+        <p class="vb-intro"><strong>c) Der Umzug nach New Haven:</strong>
+        Um in der Nähe der Yale University zu sein, wo Foster studierte, zog Hinckley nach
+        New Haven. Er hinterließ ihr Briefe und Gedichte unter der Tür und rief sie mehrfach
+        an, obwohl sie ihn stets abwies – reale Ablehnung, die im Wahnkonstrukt keine
+        Wirkung zeigte.</p>
+        <p class="vb-intro"><strong>d) Aufgestaute Wut im Bauchzentrum – der Achterflügel:</strong>
+        Als der direkte Weg zu Foster endgültig verschlossen blieb, verlagerte sich die über
+        Jahre unterdrückte Frustration nicht in offenen Protest, sondern staute sich weiter
+        auf – bis sie sich in einer einzigen, plötzlichen Gewalttat entlud.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
+        <p class="vb-intro"><strong>a) Sechs Schüsse in drei Sekunden:</strong>
+        Am 30. März 1981 zog Hinckley vor dem Hilton Hotel einen Röhm-RG-14-Revolver (.22 lr)
+        und feuerte in drei Sekunden sechs Schüsse ab. Er traf Pressesprecher James Brady
+        schwer im Kopf, verletzte einen Polizeibeamten und einen Secret-Service-Agenten; der
+        letzte Schuss prallte von der gepanzerten Limousine ab und traf Reagan in die Brust,
+        knapp am Herzen vorbei.</p>
+        <p class="vb-intro"><strong>b) Der Abschiedsbrief an Jodie Foster:</strong>
+        Kurz vor der Tat schrieb Hinckley an Foster: "Jodie, ich würde den Versuch, Reagan zu
+        töten, sofort aufgeben, wenn ich nur dein Herz gewinnen und den Rest meines Lebens mit
+        dir verbringen könnte […] Indem ich Reagan überfalle, bitte ich dich, mir diese eine
+        Chance zu geben, deine Liebe und deinen Respekt zu gewinnen." Das Attentat war in
+        seiner eigenen Logik kein politischer Akt, sondern ein romantischer Beweis.</p>
+        <p class="vb-intro"><strong>c) Prozess und Freispruch:</strong>
+        1982 wurde Hinckley wegen Unzurechnungsfähigkeit (not guilty by reason of insanity)
+        freigesprochen und in das St. Elizabeths Hospital eingewiesen – eine Entscheidung, die
+        in den USA bis heute kontrovers diskutiert wird und zu strengeren
+        Unzurechnungsfähigkeits-Regelungen in mehreren Bundesstaaten führte.</p>
+        <p class="vb-intro"><strong>d) Über 40 Jahre bis zur vollständigen Entlassung:</strong>
+        2016 wurde er unter strengen Auflagen ins Haus seiner Mutter in Virginia entlassen. Im
+        September 2021 stellte ein Bundesrichter fest, dass keine Gefahr mehr von ihm ausgehe;
+        am 15. Juni 2022 traten alle verbliebenen gerichtlichen Auflagen endgültig außer
+        Kraft.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Vulkan-Effekt der Neun</h3>
+        <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – die
+        fortlaufende Unterdrückung von Wut und Konflikt, um den inneren Frieden
+        aufrechtzuerhalten. Bei der selbsterhaltenden Neun geschieht das durch körperliche
+        Betäubung und Rückzug: Solange der Komfort stimmt, bleibt die Oberfläche ruhig. Der
+        Achterflügel verändert jedoch, was passiert, wenn der Druck einen kritischen Punkt
+        überschreitet: Statt sich in Resignation aufzulösen, kann die aufgestaute Energie
+        schlagartig und roh entladen werden – der "Vulkanausbruch" der 9w8.</p>
+        <p class="vb-intro">Genau dieses Muster zeigt sich bei Hinckley: Jahrelange, fast
+        unsichtbare Passivität, unterbrochen von einem einzigen, binnen Sekunden ablaufenden
+        Gewaltakt – und danach sofortige Rückkehr in die gewohnte Ruhe. Wie bei Ed Gein zeigte
+        sich weder Reue noch Stolz. Hinckley verstand nicht, warum die Welt seine Tat als
+        abscheulich ansah, da er sie in seiner eigenen Logik rein als Mittel zur Verschmelzung
+        begriff, nicht als Gewalt gegen andere.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Elefant: Schwer, geduldig, unaufhaltsam im Ausbruch</h3>
+        <p class="vb-intro">Der Elefant ist das Tier der selbsterhaltenden Neun – groß,
+        gemütlich, scheinbar bewegungsunwillig. Ein Tier, das man leicht als harmlos
+        unterschätzt, weil es die meiste Zeit einfach nur da steht und frisst.</p>
+        <p class="vb-intro">Für Hinckley: der schwere, träge, körperlich fast vernachlässigte
+        Phänotyp, der jahrelang in Motelzimmern verharrte, ohne dass jemand in ihm eine Gefahr
+        vermutete. Doch ein Elefant, der einmal in Bewegung gerät, ist kaum mehr zu stoppen –
+        genau das zeigte sich am 30. März 1981 in wenigen Sekunden, bevor die massive Präsenz
+        wieder in reglose Ruhe zurücksank.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Bezug: Jodie Foster (SX5w6)</h3>
+        <p class="vb-intro">Das Objekt von Hinckleys Wahn, <a href="javascript:void(0)" data-route="beruehmte-jodie-foster">Jodie Foster</a>,
+        ist in diesem Kompass als sexuelle Fünf mit Sechserflügel (SX5w6) porträtiert – ein
+        Subtyp, der Intimität durch intellektuelle und emotionale Tiefe in ausgewählten,
+        wenigen Verbindungen sucht, verbunden mit ausgeprägter Wachsamkeit gegenüber
+        Grenzüberschreitungen. Foster selbst reagierte auf Hinckleys jahrelange Verfolgung
+        genau mit dieser Wachsamkeit: konsequente Zurückweisung, keine Reaktion, die den Wahn
+        hätte nähren können. Die beiden Subtypen zeigen hier einen scharfen Kontrast: die
+        SX5w6, die Nähe eng und bewusst begrenzt, gegen die SE9w8, die sich eine Nähe imaginierte,
+        die real nie bestand.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Zusammenfassung</h3>
+        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        John Hinckley Jr. zeigt eine seltene, aber lehrreiche Extremform der selbsterhaltenden
+        Neun mit Achterflügel: jahrelange, fast unsichtbare Passivität und körperlicher
+        Rückzug, unterbrochen von einer einzigen, binnen Sekunden ablaufenden Gewalteruption,
+        deren eigentliches Motiv nicht Politik oder Hass war, sondern eine wahnhafte
+        Verschmelzungsfantasie mit einer Frau, die ihn nie gekannt hatte.</p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Der Fall zeigt, wie der "Vulkan-Effekt" des Bauchzentrums – lange unterdrückte Wut,
+        die sich unter dem Achterflügel schlagartig entlädt – aus dem unauffälligsten
+        Menschen im Raum binnen Sekunden eine historische Gefahr machen kann. Eine seltene,
+        folgenschwere Ausnahmeerscheinung, keine typische Ausprägung der selbsterhaltenden
+        Neun.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Hinckleys
+        Tat verletzte mehrere Menschen schwer und ist zu verurteilen – das Enneagramm erklärt,
+        es rechtfertigt nicht.
+        </p>
+      </div>
+
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6) – Objekt der Fixierung"},
+        {route:"kriminalpsychologie-ed-gein", label:"Kriminalpsychologie: Ed Gein (SX9w1) – ebenfalls Neun, andere Instinktvariante"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Kriminalpsychologie: Alfons Schuhbeck (SE9w1)"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">← Zurück zur Kriminalpsychologie-Übersicht</button>
@@ -109830,6 +110033,7 @@ function render() {
       "kriminalpsychologie-nick-leeson": nickLeesonPortraitPage,
       "kriminalpsychologie-leslie-van-houten": leslieVanHoutenPortraitPage,
       "kriminalpsychologie-wolfgang-beltracchi": wolfgangBeltracchiPortraitPage,
+      "kriminalpsychologie-john-hinckley-jr": johnHinckleyJrPortraitPage,
       "kriminalpsychologie-ed-gein": edGeinPortraitPage,
       "kriminalpsychologie-michail-popkow": michailPopkowPortraitPage,
       "kriminalpsychologie-dennis-rader": dennisRaderPortraitPage,

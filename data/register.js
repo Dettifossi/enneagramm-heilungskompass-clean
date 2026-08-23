@@ -60,6 +60,7 @@ export const registerEntries = [
   { term: "Porträt Typ 9",               route: "portrait-typ-9",                description: "Persönlichkeitsporträt des Enneagramm-Typs 9 · Trägheit, Harmonie, Fusion" },
 
   // Kriminalpsychologie – fehlende Portraits
+  { term: "John Hinckley Jr.", route: "kriminalpsychologie-john-hinckley-jr", description: "Kriminalpsychologisches Portrait: SE9w8 – Attentat auf Reagan 1981, Fixierung auf Jodie Foster, Vulkan-Effekt der 9w8" },
   { term: "Ed Gein", route: "kriminalpsychologie-ed-gein", description: "Kriminalpsychologisches Portrait: SX9w1 – Grabschändungen, zwei Morde, wahnhafte Verschmelzung mit der toten Mutter" },
   { term: "Alfons Schuhbeck",               route: "kriminalpsychologie-alfons-schuhbeck", description: "Kriminalpsychologisches Portrait: Starkoch, Steuerhinterziehung, öffentliche Fassade & Kontrollverlust" },
   { term: "Boris Becker (Kriminalpsychologie)", route: "kriminalpsychologie-boris-becker", description: "Kriminalpsychologisches Portrait: Tennislegende, Insolvenz, SX7w8-Analyse" },
@@ -1890,6 +1891,7 @@ export const registerEntriesEN = [
   { term: "Nick Leeson", route: "kriminalpsychologie-nick-leeson", description: "Criminal psychological portrait: SO9w8 – The Rogue Trader of Barings Bank. Concealed trading losses in account 88888 from 1992–1995, brought down England's oldest merchant bank (827 million pounds). Animal equivalent: Buffalo." },
   { term: "Griselda Blanco", route: "kriminalpsychologie-griselda-blanco", description: "Criminal psychological portrait: SE8w9 – The Godmother of Medellín. Pioneer of the cocaine trade, mentor to Escobar, ordered over 200 murders. Shot dead in 2012 by a moto-sicario. Animal equivalent: Orangutan." },
   { term: "Alfons Schuhbeck", route: "kriminalpsychologie-alfons-schuhbeck", description: "Criminal psychological portrait: celebrity chef, tax evasion, public facade & loss of control" },
+  { term: "John Hinckley Jr.", route: "kriminalpsychologie-john-hinckley-jr", description: "Criminal psychological portrait: SE9w8 – 1981 assassination attempt on Reagan, fixation on Jodie Foster, volcano effect of the 9w8" },
   { term: "Ed Gein", route: "kriminalpsychologie-ed-gein", description: "Criminal psychological portrait: SX9w1 – grave robberies, two murders, delusional merging with his dead mother" },
   { term: "Boris Becker (Criminal Psychology)", route: "kriminalpsychologie-boris-becker", description: "Criminal psychological portrait: tennis legend, insolvency, SX7w8 analysis" },
   { term: "Frank Abagnale Jr.", route: "kriminalpsychologie-frank-abagnale-jr", description: "Criminal psychological portrait: master forger & con artist, Catch Me If You Can" },
