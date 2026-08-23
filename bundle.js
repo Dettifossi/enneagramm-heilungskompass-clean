@@ -32718,9 +32718,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lucy Cooke \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 britische Zoologin, Bestseller-Autorin (\u201eThe Truth About Animals\u201c), Gr\u00fcnderin der Sloth Appreciation Society. Verschmolz ihr Leben mit dem Faultier \u2013 und macht dessen tr\u00e4gen Ruf mit spr\u00fchender, humorvoller Verve zunichte.",
     land:"Großbritannien", tags:["Wissenschaft"], gender:"f"},
-  { route:"beruehmte-kris-marshall", name:"Kris Marshall", added:"2026-08-23", subtyp:"SX9w8",
+  { route:"beruehmte-kris-marshall", name:"Kris Marshall", added:"2026-08-23", subtyp:"SX9w1",
     heading:"Kris Marshall – Sexueller Typ 9",
-    teaser:"SX9w8 · geb. 1973. Britischer Schauspieler, bekannt als DI Humphrey Goodman in „Death in Paradise“. Verschmilzt in seiner bekanntesten Rolle so vollständig mit den Menschen hinter jedem Fall, dass die Aufklärung nicht aus Verfahren, sondern aus Empathie entsteht.",
+    teaser:"SX9w1 · geb. 1973. Britischer Schauspieler, bekannt als DI Humphrey Goodman in „Death in Paradise“. Sohn eines RAF-Navigators, aufgewachsen mit häufigen Umzügen und Internat – wenige, dafür sehr lange gehaltene Bindungen statt vieler kurzer.",
     land:"Großbritannien", tags:["Film","Schauspiel"], gender:"m"},
   { route:"beruehmte-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", added:"2026-08-21", subtyp:"SX9w8",
     heading:"Elizabeth Barrett Browning – Sexueller Typ 9",
@@ -54542,7 +54542,7 @@ function dakotaJohnsonPortraitPage() {
           {route:"beruehmte-heike-makatsch", label:"Portr\xe4t: Heike Makatsch (SX9w8)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-iga-swiatek", label:"Portr\xe4t: Iga \u015awi\u0105tek (SX9w1)"},
-          {route:"beruehmte-kris-marshall", label:"Portr\xe4t: Kris Marshall (SX9w8)"},
+          {route:"beruehmte-kris-marshall", label:"Portr\xe4t: Kris Marshall (SX9w1)"},
         ])}
       </div>
     </div>
@@ -54606,7 +54606,7 @@ function heikeMakatschPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portr\u00e4t: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portr\u00e4t: Willy Brandt (SO9w8)"},
         {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
-        {route:"beruehmte-kris-marshall", label:"Portr\u00e4t: Kris Marshall (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Portr\u00e4t: Kris Marshall (SX9w1)"},
       ])}
     </div>
   `);
@@ -54689,45 +54689,45 @@ function krisMarshallPortraitPage() {
           <img src="./assets/portraits/beruehmte-kris-marshall-portrait.jpg" alt="Kris Marshall – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kris Marshall</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
         <p class="krim-portrait-subtitle">Schauspieler, geb. 1973 &ndash; Tierentsprechung: Faultier</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. Das Faultier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das sich nicht in einem Netzwerk von Kontakten bewegt, sondern sich mit einem einzigen Ast, einer einzigen Umgebung, einer einzigen engen Bindung vollständig verbindet und dort über sehr lange Zeit bleibt. Es sucht nicht die Bühne. Es sucht die Verschmelzung mit dem, was ihm wirklich vertraut ist.</p>
-          <p class="vb-intro">Der britische Schauspieler Kris Marshall, geboren 1973 in Bath, Somerset, zeigt genau dieses Muster in seiner eigenen Karriere &ndash; nicht als Rolle, sondern als wiederkehrende Lebensentscheidung. Er ist kein Schauspieler, der von Projekt zu Projekt springt oder aktiv das Rampenlicht sucht. Stattdessen fällt bei ihm etwas auf, das öffentlich kaum kommentiert, aber biografisch sehr deutlich ist: Er bindet sich, wenn er sich bindet, ungewöhnlich lange und ungewöhnlich vollständig an ein einziges Projekt.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das sich, wo immer es hingesetzt wird, mit genau diesem einen Ast vollständig verbindet, statt ständig einen besseren zu suchen. Es passt sich nicht an die Umgebung an, um aufzufallen &ndash; es verbindet sich mit ihr, bis kaum noch ein Unterschied zwischen ihm und dem Baum besteht.</p>
+          <p class="vb-intro">Der britische Schauspieler Kris Marshall, geboren am 1. April 1973 in Bath, Somerset, musste diese Fähigkeit zur vollständigen Verbindung schon als Kind immer wieder neu aufbringen. Sein Vater Glyn Marshall war Navigator bei der Royal Air Force, brachte es bis zum Squadron Leader und diente im Queen&#8217;s Flight &ndash; ein Beruf, der die Familie durch wechselnde Postierungen führte, unter anderem nach Hongkong und Kanada. Bis zu seinem zehnten Lebensjahr sprach Kris mit kanadischem Akzent. Als er zwölf war, ließen sich seine Eltern scheiden; anschließend besuchte er die Wells Cathedral School als Internatsschüler &ndash; wieder ein neuer Ort, wieder eine neue, diesmal sehr strikt geordnete Umgebung, in die er sich einfügen musste.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die sexuelle Neun: Elf Jahre, ein Jahrzehnt, vier Staffeln</h2>
+        <h2 class="vb-section">2. Die sexuelle Neun: Wenige Bindungen, dafür sehr lange gehalten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo der Subtyp der <em>Vereinigung</em>: die Sehnsucht, sich nicht oberflächlich zu beteiligen, sondern in einer einzigen Bindung, einem einzigen Werk vollständig aufzugehen. Bei Kris Marshall zeigt sich dieses Muster nicht in einer einzelnen dramatischen Geste, sondern in der schlichten Länge seiner Bindungen: Von 2000 bis 2011 spielte er in der BBC-Sitcom <em>My Family</em> über elf Jahre hinweg denselben Charakter, Nick Harper &ndash; eine der am längsten durchgehaltenen Rollen des britischen Fernsehens seiner Generation. Parallel dazu war er über ein Jahrzehnt lang das Gesicht einer der bekanntesten britischen Werbekampagnen, als tollpatschiger Praktikant &bdquo;Kevin&ldquo; für BT/EE &ndash; wieder dieselbe eine Figur, wieder über viele Jahre hinweg treu begleitet, statt gegen wechselnde Werbegesichter ausgetauscht.</p>
-          <p class="vb-intro">Auch <em>Death in Paradise</em>, in dem er von 2014 bis 2017 den Ermittler DI Humphrey Goodman spielte, fügt sich in dieses Muster: keine kurze Gastrolle, sondern vier Staffeln lang dieselbe Figur, bevor er sich &ndash; nach eigenen, öffentlich bekannten Angaben &ndash; aus familiären Gründen von der Serie verabschiedete. Wo andere Schauspieler bewusst zwischen vielen unterschiedlichen Rollen wechseln, um ihre Bandbreite zu zeigen, sucht Marshall erkennbar das Gegenteil: die tiefe, langfristige Bindung an eine einzige Sache, bis sie ihren natürlichen Abschluss findet.</p>
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo der Subtyp der <em>Vereinigung</em>: die Sehnsucht, sich nicht oberflächlich zu beteiligen, sondern in einer einzigen Bindung, einem einzigen Werk vollständig aufzugehen. Bei einem Kind, das immer wieder neue Länder, neue Schulen, neue Bezugspersonen kennenlernen musste, ist eine solche Sehnsucht nach dem einen, verlässlichen Ankerpunkt keine abstrakte Typtheorie, sondern eine sehr nachvollziehbare Reaktion auf eine unstete Kindheit.</p>
+          <p class="vb-intro">Genau dieses Muster zieht sich durch Kris Marshalls gesamte Karriere: Von 2000 bis 2011 spielte er in der BBC-Sitcom <em>My Family</em> über elf Jahre hinweg denselben Charakter, Nick Harper. Parallel dazu war er über ein Jahrzehnt lang das Gesicht derselben britischen Werbekampagne, als Praktikant &bdquo;Kevin&ldquo; für BT/EE. Auch <em>Death in Paradise</em>, in dem er von 2014 bis 2017 den Ermittler DI Humphrey Goodman spielte, hielt er vier Staffeln lang durch, bevor er sich &ndash; nach eigenen, öffentlich bekannten Angaben &ndash; aus familiären Gründen von der Serie verabschiedete. Wo andere Schauspieler bewusst zwischen vielen Rollen wechseln, um ihre Bandbreite zu zeigen, wählt Marshall wenige Bindungen &ndash; und hält sie dafür ungewöhnlich lange.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Achterflügel: Zurückhaltung mit klarer Kante</h2>
+        <h2 class="vb-section">3. Der Einserflügel: Die stille Ordnung nach dem Auseinanderfallen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der sexuellen Neun etwas, das bei einer SX9 mit schwach ausgeprägtem Achterflügel unter der weichen Oberfläche verborgen bliebe: eine deutliche, unaufgeregte Bodenständigkeit. Kris Marshall gilt im britischen Showbusiness als auffällig zurückhaltend &ndash; kaum Homestorys, kaum Klatschspalten-Präsenz, kaum das übliche Interview-Karussell rund um große Rollen. Wenn er sich äußert, dann knapp, direkt und ohne die übliche Selbstinszenierung, die in der Branche sonst erwartet wird.</p>
-          <p class="vb-intro">Diese Kombination &ndash; öffentliche Zurückhaltung bei gleichzeitig klaren, unmissverständlichen Entscheidungen im eigenen Leben &ndash; ist typisch für die SX9w8: Sie drängt sich niemandem auf, verschwimmt aber auch nicht in bloßer Anpassung. Wenn eine Grenze erreicht ist &ndash; etwa der Punkt, an dem ein Erfolgsprojekt mit der eigenen Familie kollidiert &ndash; wird die Entscheidung nicht zäh herausgezögert, sondern klar getroffen und öffentlich vertreten.</p>
+          <p class="vb-intro">Eine SX9 mit schwächer ausgeprägtem Einserflügel hätte die vielen Brüche der Kindheit &ndash; wechselnde Länder, Scheidung der Eltern, Internat &ndash; vermutlich mit reiner Anpassungsbereitschaft durchlebt: sich einfach treiben lassen, ohne inneren Halt. Bei Marshall trat stattdessen früh etwas anderes hervor, das sich bis heute durch sein öffentliches Auftreten zieht: eine stille, unaufgeregte Disziplin, ein Bedürfnis nach klarer eigener Ordnung, gerade weil die äußeren Umstände so oft wechselten. Das strikt geregelte Internatsleben nach der Scheidung fiel bei ihm nicht auf unfruchtbaren Boden, sondern auf eine Persönlichkeit, die genau diese Struktur brauchte, um sich selbst zu halten.</p>
+          <p class="vb-intro">Im öffentlichen Auftreten zeigt sich derselbe Zug: Kris Marshall gilt im britischen Showbusiness als auffällig zurückhaltend &ndash; kaum Homestorys, kaum Klatschspalten-Präsenz, kaum das übliche Interview-Karussell rund um große Rollen. Das ist kein Ausweichen aus Angst, sondern ein selbst gesetzter Maßstab: nicht mehr von sich preisgeben, als nötig ist. Und wenn eine Grenze erreicht ist &ndash; wie beim Punkt, an dem die Dreharbeiten in der Karibik mit der eigenen Familie kollidierten &ndash; wird sie nicht lange verhandelt, sondern klar gezogen und die Konsequenz ruhig vollzogen. Das ist der Einserflügel: kein lautes Prinzip, sondern eine leise, aber unumstößliche innere Linie.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Die Rolle als Spiegel: Humphrey Goodman</h2>
+        <h2 class="vb-section">4. Die Rolle als Echo: Humphrey Goodman</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Wie oft bei Schauspielern, die eine Rolle spielen, die ihnen besonders gut passt, lässt sich auch bei Kris Marshalls bekanntester Figur, DI Humphrey Goodman in <em>Death in Paradise</em>, die eigene Grundmelodie wiedererkennen &ndash; nicht als Identität, aber als Resonanz. Goodman löst seine Fälle nicht durch Distanz und Verfahren, sondern indem er sich vollständig in die Menschen hineinversetzt, mit denen er es zu tun hat &ndash; ein Ermittler, der sich lieber zu tief einlässt, als sich zu schützen. Äußerlich wirkt er dabei fehl am Platz: im vollen dreiteiligen Anzug bei tropischer Hitze, zerstreut, sozial unbeholfen im Kleinen, während er im entscheidenden Moment plötzlich präzise und direkt wird.</p>
-          <p class="vb-intro">Es ist genau diese Spannung &ndash; äußerlich unauffällig, fast schusselig, und zugleich fähig zu vollständiger, klarer Zuwendung, sobald es darauf ankommt &ndash; die die Rolle so glaubwürdig macht. Aber die Rolle ist hier ein Beleg, kein Ersatz für die Person: Sie zeigt ein Muster, das sich in Marshalls tatsächlicher Karriere &ndash; der langen Treue zu wenigen, sorgfältig gewählten Projekten &ndash; deutlicher zeigt als in jeder einzelnen Figur, die er gespielt hat.</p>
+          <p class="vb-intro">Wie oft bei Schauspielern, die eine Rolle spielen, die ihnen besonders gut liegt, lässt sich auch bei Kris Marshalls bekanntester Figur, DI Humphrey Goodman in <em>Death in Paradise</em>, eine Resonanz zur eigenen Grundhaltung erkennen &ndash; nicht als Identität, aber als Echo. Goodman wirkt äußerlich chaotisch, stolpert durch die Hitze der Karibik im vollen Anzug, verliert ständig Gegenstände. Doch in der Sache selbst bleibt er unbestechlich genau: Er löst jeden Fall zu Ende, lässt sich nicht mit einer bequemen, halbfertigen Lösung abspeisen, besteht auf Gerechtigkeit für Verdächtige und Opfer gleichermaßen.</p>
+          <p class="vb-intro">Diese Kombination &ndash; äußere Unordnung bei gleichzeitig unverrückbarer innerer Gründlichkeit &ndash; ist die Rolle als Beleg, nicht als Ersatz für die Person: Sie zeigt dasselbe Muster, das sich in Marshalls tatsächlicher Karriere klarer zeigt als in jeder einzelnen Figur &ndash; die Fähigkeit, sich äußerlich unauffällig zu verhalten, während innen ein sehr genauer, sehr beständiger Maßstab regiert.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>Fähigkeit zu vollständiger, langfristiger Hingabe</strong> an das, was ihr wirklich wichtig ist &ndash; ohne den Ehrgeiz, ständig neue Bühnen zu erobern. Marshalls elf Jahre bei <em>My Family</em>, sein Jahrzehnt als &bdquo;Kevin&ldquo;, seine vier Staffeln als Humphrey Goodman zeigen dieselbe Konstante: Verlässlichkeit über Zeit, statt kurzfristiger Sichtbarkeit.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser Verschmelzung: Wer sich so vollständig an ein Projekt bindet, tut sich womöglich schwer, sich rechtzeitig davon zu lösen, oder wird &ndash; wie im Fall der Entscheidung, <em>Death in Paradise</em> zu verlassen &ndash; erst durch eine echte Kollision mit einer anderen, noch wichtigeren Bindung (der eigenen Familie) zum Bruch gezwungen. Die SX9 verlässt selten leise etwas, das ihr am Herzen liegt &ndash; sie tut es meist erst, wenn eine noch tiefere Verschmelzung ruft.</p>
+          <p class="vb-intro">Das Licht der SX9w1 ist ihre <strong>Fähigkeit, aus wiederholter äußerer Instabilität eine verlässliche innere Ordnung zu bauen</strong> &ndash; und diese Ordnung dann über Jahrzehnte durchzuhalten, ohne dass sie zur Starre wird. Marshalls elf Jahre bei <em>My Family</em>, sein Jahrzehnt als &bdquo;Kevin&ldquo;, seine vier Staffeln als Humphrey Goodman zeigen dieselbe Konstante: Verlässlichkeit, die nicht auf Zwang beruht, sondern auf einem selbst gewählten inneren Maßstab.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser früh erlernten Selbstdisziplin: Wer als Kind lernte, sich in jeder neuen Umgebung durch innere Ordnung zu schützen, tut sich womöglich schwer, Kontrolle abzugeben oder sich auf echtes Chaos einzulassen. Die Zurückhaltung, die im Showbusiness als Stärke wirkt, kann im Privaten auch bedeuten, dass Nähe erst zugelassen wird, wenn die eigene Ordnung sie nicht gefährdet.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Faultier, das die Familie wählt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kris Marshall verließ <em>Death in Paradise</em> 2017 nach eigenen Angaben, um mehr Zeit mit seiner Familie zu verbringen &ndash; und tauschte damit eine öffentlich sichtbare, karibische Bindung gegen eine private, alltägliche. Es ist eine typische SX9-Bewegung: nicht die Bühne selbst ist das Ziel, sondern die eine Beziehung, die am meisten zählt. Seither zeigt er sich in der Öffentlichkeit noch zurückhaltender als zuvor &ndash; treu dem eigenen Muster, sich lieber ganz auf Weniges einzulassen als oberflächlich auf Vieles.</p>
-          <p class="vb-intro">Das Faultier hängt nicht, weil es sich nicht bewegen könnte &ndash; es hängt, weil es genau dort, wo es sich niedergelassen hat, vollständig zu Hause ist. Kris Marshalls Karriere liest sich wie dieses Bild in Menschengestalt: wenige, dafür sehr lange gehaltene Bindungen, eine deutliche Abneigung gegen das schnelle Sich-Zeigen &ndash; und eine Familie, die am Ende schwerer wiegt als jede noch so erfolgreiche Rolle.</p>
+          <p class="vb-intro">Kris Marshall verließ <em>Death in Paradise</em> 2017 nach eigenen Angaben, um mehr Zeit mit seiner Familie zu verbringen &ndash; und wiederholte damit, im Erwachsenenleben, dieselbe Bewegung, die ihn als Kind geprägt hatte: dort Stabilität zu suchen, wo sie am meisten zählt, statt sich von äußerem Erfolg forttragen zu lassen. Wo sein eigener Vater durch RAF-Postierungen oft abwesend war, entschied sich Marshall bewusst gegen dasselbe Muster.</p>
+          <p class="vb-intro">Das Faultier hängt nicht, weil es sich nicht bewegen könnte &ndash; es hängt, weil es sich, einmal angekommen, ganz auf seine Umgebung einlässt. Kris Marshalls Leben liest sich wie dieses Bild in Menschengestalt: ein Kind, das lernen musste, sich immer wieder neu zu verwurzeln, und ein Erwachsener, der aus dieser Erfahrung eine stille, sehr beständige Ordnung gemacht hat &ndash; wenige Bindungen, dafür welche, die halten.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -54736,14 +54736,16 @@ function krisMarshallPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
-          {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
-          {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
-          {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
+          {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+          {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
         ])}
       </div>
     </div>
   `);
 }
+
 
 function lucyCookePortraitPage() {
   return shell(`
@@ -54802,7 +54804,7 @@ function lucyCookePortraitPage() {
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
         {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
-        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1)"},
         {route:"beruehmte-elizabeth-barrett-browning", label:"Porträt: Elizabeth Barrett Browning (SX9w8)"},
         {route:"beruehmte-ana-salceda", label:"Porträt: Ana Salceda (SX9w1) – ebenfalls Faultier-Übereinstimmung"},
         {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
@@ -54870,7 +54872,7 @@ function elizabethBarrettBrowningPortraitPage() {
         {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8)"},
         {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
         {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
-        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1)"},
         {route:"krankheitsportraets-elizabeth-barrett-browning", label:"Krankheitsporträt: Elizabeth Barrett Browning (SX9w8)"},
       ])}
     </div>

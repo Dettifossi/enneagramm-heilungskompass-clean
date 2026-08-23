@@ -643,7 +643,7 @@ export const registerEntries = [
   { term: "Carl Rogers",                    route: "beruehmte-carl-rogers",                 description: "Portrait: SX9w1 · Sexueller Typ 9 · Begründer der klientenzentrierten Gesprächstherapie" },
   { term: "Mario Barth",                    route: "beruehmte-mario-barth",                 description: "Portrait: SX9w8 · Sexueller Typ 9 · Comedian, Weltrekordhalter Olympiastadion Berlin" },
   { term: "Lucy Cooke",                     route: "beruehmte-lucy-cooke",                  description: "Portrait: SX9w8 · Sexueller Typ 9 · Zoologin, Faultier-Botschafterin, Bestseller-Autorin" },
-  { term: "Kris Marshall",                  route: "beruehmte-kris-marshall",               description: "Portrait: SX9w8 · Sexueller Typ 9 · Schauspieler, DI Humphrey Goodman in Death in Paradise" },
+  { term: "Kris Marshall",                  route: "beruehmte-kris-marshall",               description: "Portrait: SX9w1 · Sexueller Typ 9 · Schauspieler, DI Humphrey Goodman in Death in Paradise" },
   { term: "Elizabeth Barrett Browning",     route: "beruehmte-elizabeth-barrett-browning",  description: "Portrait: SX9w8 · Sexueller Typ 9 · Englische Dichterin, chronisch krank, heimliche Ehe mit Robert Browning" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SX6w5 · Sexueller Typ 6 · Feministin, EMMA-Gründerin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX4w5 · Sexueller Typ 4 · Schauspielerin, Knives Out" },
