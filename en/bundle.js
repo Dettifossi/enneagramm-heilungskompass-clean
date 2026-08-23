@@ -67254,7 +67254,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "bewegungsapparat": [],
   "atemwege": [],
   "verdauung": [],
-  "haut": ["Hair Loss (Androgenetic / Diffuse)", "Shingles (Herpes Zoster)"],
+  "haut": [],
   "hormone-stoffwechsel": [],
   "nerven-psyche": [],
   "immunsystem": [],
