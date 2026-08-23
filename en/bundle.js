@@ -60518,7 +60518,7 @@ const PSYCHOSOMATIK_KATEGORIEN = [
   { key: "bewegungsapparat", label: "Musculoskeletal System", farbe: "#8a7860" },
   { key: "atemwege", label: "Respiratory System & Lungs", farbe: "#4a7f91" },
   { key: "verdauung", label: "Digestive System", farbe: "#ab7d42" },
-  { key: "niere", label: "Kidney", farbe: "#3d6b5c" },
+  { key: "niere", label: "Kidney & Bladder", farbe: "#3d6b5c" },
   { key: "haut", label: "Skin", farbe: "#c99b7a" },
   { key: "hormone-stoffwechsel", label: "Hormones & Metabolism", farbe: "#7d6a8c" },
   { key: "nerven-psyche", label: "Nervous System & Psyche", farbe: "#46688f" },
@@ -67016,7 +67016,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
   chronische_blasenentzuendung_zystitis: {
     titel: "Chronic Cystitis (Bladder Infection)",
-    kategorie: "sonstige",
+    kategorie: "niere",
     icon: "💧",
     kurz: "A repeatedly recurring inflammation of the bladder lining that often becomes a lasting theme far beyond the single acute infection – with burning, a sense of pressure, and constant worry about the next flare-up.",
     definition: "Cystitis is an inflammation of the bladder lining, most often caused by ascending bacteria, in the vast majority of cases Escherichia coli from the person's own gut. Chronic or recurrent cystitis is diagnosed when at least two infections occur within six months, or three within a year. Women are affected considerably more often than men because of their shorter urethra. Contributing factors include sexual intercourse, hormonal changes such as menopause, a weakened local immune environment of the mucosa, habitually holding in the urge to urinate, and in some cases anatomical particularities. In some sufferers, typical complaints appear without a sufficient bacterial count in the urine – this is then called interstitial or non-bacterial irritable bladder syndrome, a closely related but distinct condition.",
@@ -67193,7 +67193,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
   blasenschwaeche_inkontinenz: {
     titel: "Bladder Weakness / Incontinence",
-    kategorie: "sonstige",
+    kategorie: "niere",
     icon: "🚿",
     kurz: "An involuntary loss of control over the bladder that occurs far more often than it is openly talked about – from slight leaking when coughing to a complete loss of control.",
     definition: "Urinary incontinence refers to any involuntary loss of urine. Several forms are distinguished: stress incontinence shows up during physical exertion, coughing, sneezing, or laughing and usually results from a weakened pelvic floor, often after childbirth or during menopause due to hormonal changes. Urge incontinence comes with a sudden, barely suppressible urge to urinate, often caused by an overactive bladder. Other causes can include neurological diseases, prostate conditions in men, certain surgeries, or age-related tissue changes. Incontinence is not rare and not a sign of personal failure – estimates suggest millions of people of all ages are affected, with a considerable share of cases, out of shame, never medically evaluated at all, even though good treatment options exist, ranging from pelvic floor training to medication to surgical procedures.",
