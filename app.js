@@ -96012,31 +96012,21 @@ function kommunikationsguidePage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
-          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
-                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
-                          font-size:0.95rem;color:var(--ink);">
-            <span style="font-size:1.2rem;">&#128214;</span>
-            <span style="flex:1;">Buchempfehlungen zum Vertiefen (14)</span>
-            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
-          </summary>
-          <div style="padding:1rem 1.2rem 1.2rem;display:grid;gap:.7rem;">
-            ${bookTip("der-code-deiner-persoenlichkeit", "Die eigene Motivation entschlüsseln – Spurensuche zur persönlichen Typbestimmung.", "Der Code deiner Persönlichkeit")}
-            ${bookTip("dynamik-27-subtypen", "Die 27 Subtypen im Detail – wie Instinkt und Typ zusammenwirken.", "Die verborgene Dynamik der 27 Subtypen")}
-            ${bookTip("enneagramm-zoo", "Die 27 Subtypen als Tierarchetypen – anschaulich, humorvoll, einprägsam.", "Enneagramm-Zoo")}
-            ${bookTip("fuehrung-mit-fundament", "Enneagramm in der Führungspraxis – typgerecht führen, Muster erkennen, Teams stärken.", "Führung mit Fundament (Detlef Rathmer & David L. Rathmer)")}
-            ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – was hinter der Leidenschaft jedes Typs wirklich steckt.", "Hinter der Leidenschaft – die neun Wunden des Enneagramms")}
-            ${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind.", "Heilung als Erinnerung")}
-            ${bookTip("sprache-unserer-beziehungen", "Nähe gestalten mit dem Enneagramm – die Basis dieses Kommunikationsguides, mit allen 365 Paarungskombinationen.", "Die Sprache unserer Beziehungen")}
-            ${bookTip("die-sprache-unserer-sexualitaet", "Wie sich die 27 Subtypen in Anziehung, Nähe und Leidenschaft unterscheiden.", "Die Sprache unserer Sexualität")}
-            ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
-            ${bookTip("in-der-tiefe-der-zeit", "Ein Buch über Bewusstsein, Zeit und die stille Dimension hinter allem Erleben.", "In der Tiefe der Zeit")}
-            ${bookTip("seminar-wenn-masken-fallen", "Wenn die typspezifischen Masken fallen – ein Weg zu echter Selbstbegegnung.", "Das Seminar – Wenn Masken fallen")}
-            ${bookTip("wenn-die-stille-brennt", "Wie Burnout je nach Subtyp entsteht, sich anfühlt und überwunden werden kann.", "Wenn die Stille brennt – Burnout")}
-            ${bookTip("meta-intelligenz", "Die Intelligenz, die alle anderen Intelligenzen verbündet – für mehr innere Klarheit in jeder Kommunikation.", "Meta-Intelligenz")}
-            ${bookTip("meta-intelligenz-hoerbuch", "Meta-Intelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Meta-Intelligenz – Das Hörbuch")}
-          </div>
-        </details>
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchempfehlungen zum Vertiefen</h2>
+        ${bookTip("der-code-deiner-persoenlichkeit", "Die eigene Motivation entschlüsseln – Spurensuche zur persönlichen Typbestimmung.", "Der Code deiner Persönlichkeit")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail – wie Instinkt und Typ zusammenwirken.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("enneagramm-zoo", "Die 27 Subtypen als Tierarchetypen – anschaulich, humorvoll, einprägsam.", "Enneagramm-Zoo")}
+        ${bookTip("fuehrung-mit-fundament", "Enneagramm in der Führungspraxis – typgerecht führen, Muster erkennen, Teams stärken.", "Führung mit Fundament (Detlef Rathmer & David L. Rathmer)")}
+        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – was hinter der Leidenschaft jedes Typs wirklich steckt.", "Hinter der Leidenschaft – die neun Wunden des Enneagramms")}
+        ${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind.", "Heilung als Erinnerung")}
+        ${bookTip("die-sprache-unserer-beziehungen", "Nähe gestalten mit dem Enneagramm – die Basis dieses Kommunikationsguides, mit allen 365 Paarungskombinationen.", "Die Sprache unserer Beziehungen")}
+        ${bookTip("die-sprache-unserer-sexualitaet", "Wie sich die 27 Subtypen in Anziehung, Nähe und Leidenschaft unterscheiden.", "Die Sprache unserer Sexualität")}
+        ${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${bookTip("in-der-tiefe-der-zeit", "Ein Buch über Bewusstsein, Zeit und die stille Dimension hinter allem Erleben.", "In der Tiefe der Zeit")}
+        ${bookTip("das-seminar-wenn-masken-fallen", "Wenn die typspezifischen Masken fallen – ein Weg zu echter Selbstbegegnung.", "Das Seminar – Wenn Masken fallen")}
+        ${bookTip("wenn-die-stille-brennt", "Wie Burnout je nach Subtyp entsteht, sich anfühlt und überwunden werden kann.", "Wenn die Stille brennt – Burnout")}
+        ${bookTip("meta-intelligenz", "Die Intelligenz, die alle anderen Intelligenzen verbündet – für mehr innere Klarheit in jeder Kommunikation.", "Meta-Intelligenz")}
+        ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Meta-Intelligenz – Das Hörbuch")}
       </div>
 
       ${relatedLinks([
