@@ -66305,6 +66305,478 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
     ],
     abschluss: "No one is safe from sarcoidosis, regardless of subtype, and no pattern is a verdict. What emerges is simply that each of the 27 subtypes deals with what has long been held back in its own way – some through quiet self-correction, others through hiding, distraction, or a chronically swallowed concern of their own. This is exactly where this compass's Enneagram homeopathy begins: not with the outward symptom, but with the vital force of the respective subtype that has fallen out of balance. If this vital force – regardless of which of the 27 subtypes is affected – is brought back into balance, the symptoms can resolve holistically instead of merely being suppressed on the surface."
   },
+  brustkrebs: {
+    titel: "Breast Cancer",
+    kategorie: "onkologie",
+    icon: "🎗️",
+    kurz: "The most common cancer in women – its origin has nothing to do with personality, but the way diagnosis, body image, and treatment are handled does vary.",
+    definition: "Breast cancer is the most common cancer in women, though in rare cases it can also affect men. It arises from the uncontrolled proliferation of malignant cells in breast tissue, usually starting in the milk ducts (ductal) or the glandular lobules (lobular). The disease is biologically very heterogeneous: there are hormone-receptor-positive, HER2-positive, and triple-negative subtypes that differ greatly in aggressiveness and treatment response. Known risk factors include age, genetic predisposition (including BRCA1/2 mutations), hormonal influences, family history, and lifestyle factors – but the exact cause is multifactorial and, for most people affected, cannot be traced to a single origin. Thanks to early detection (mammography, self-examination) and improved therapies, the prognosis has improved considerably in recent decades.",
+    symptome: ["A palpable lump or hardening in the breast", "Change in the shape or size of the breast", "Dimpling or skin changes (›orange-peel skin‹) on the breast", "Discharge from the nipple outside of breastfeeding", "Redness or scaling around the nipple", "Palpable lymph nodes in the armpit", "Persistent pain in a localized area of the breast"],
+    notfall: "Any newly felt lump, any sudden change in the breast, or nipple discharge should be checked by a doctor promptly – even though the large majority of such findings turn out to be benign. In someone already diagnosed: severe shortness of breath, unexplained significant weight loss, or new bone pain should be evaluated by a doctor without delay.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Unlike the other conditions in this compass, breast cancer is explicitly not addressed here in terms of possible psychological contribution to its cause. Breast cancer arises from a complex interplay of genetic predisposition, hormones, cellular aging, and chance – it has nothing to do with a person's personality or subtype, and no behavior and no emotional state ›produces‹ this disease. What does show up in a subtype-specific way instead is how the diagnosis itself is handled: how a change in one's own breast is perceived and made sense of, how openly findings and fears are discussed, how one's body image and sense of femininity are navigated during treatment and recovery, and who is asked for support during this time – or who is not asked. For each of the 27 subtypes, a distinct pattern emerges in how this experience is lived through, not in how it arose.",
+    typen: [
+      { typ: 1, titel: "Searching one's own body for what's wrong", varianten: [
+        { code: "SE1", text: "Regular self-examinations are often already a fixed routine for the self-preservation One even before any diagnosis, born of the need to manage her own body correctly. After a diagnosis she tends to follow every treatment step with discipline, while keeping her own fears quietly to herself." },
+        { code: "SO1", text: "For those around her, the social One wants to remain a reliable, composed role model even while ill, and often organizes doctor's appointments and information for the whole family with striking matter-of-factness. Her own shock at the diagnosis rarely gets any room in the process." },
+        { code: "SX1", text: "Her anger at the diagnosis – at her own body, at the unfairness of the illness – is voiced by the sexual One more directly than by other One variants, usually to the one person she trusts most." },
+      ]},
+      { typ: 2, titel: "Worrying about others amid her own suffering", varianten: [
+        { code: "SE2", text: "How she can keep managing household and family despite exhaustion from treatment often occupies the self-preservation Two more than her own recovery. Asking for help remains hard for her even with a diagnosis." },
+        { code: "SO2", text: "Within her large social network, the social Two often shares the diagnosis openly and is met with an outpouring of encouragement – the fear underneath usually stays unspoken in these conversations." },
+        { code: "SX2", text: "To the one person who matters most to her, the sexual Two shows her fear of the illness quite plainly, and seeks intense reassurance in that closeness, rather than primarily caring for others as other Two variants would." },
+      ]},
+      { typ: 3, titel: "The illness behind the performance", varianten: [
+        { code: "SE3", text: "Continuing to work, as far as treatment allows, is often for the self-preservation Three a way of proving to herself that the illness does not define her. She rarely speaks about her exhaustion in the process." },
+        { code: "SO3", text: "The social Three often thinks very carefully about how to present the diagnosis to others – usually as a story of strength and struggle, less often with the doubts that actually lie beneath it." },
+        { code: "SX3", text: "Her fear of losing attractiveness through surgery or treatment is voiced by the sexual Three more openly to the one important person than other Three variants would ever admit to their wider circle." },
+      ]},
+      { typ: 4, titel: "The experience between withdrawal and expression", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, tends to bear her fear tersely and without much drama, contrary to the usual image of the Four. She keeps functioning in daily life while processing a great deal internally." },
+        { code: "SO4", text: "The feeling of being fundamentally different and alone in this experience often accompanies the social Four throughout treatment, even when other patients are around her." },
+        { code: "SX4", text: "With the one person she feels closest to, the sexual Four speaks openly about fear, grief, and her changed sense of her own body, seeking comfort in that intensity that superficial reassurance cannot offer her." },
+      ]},
+      { typ: 5, titel: "Knowledge as a path through uncertainty", varianten: [
+        { code: "SE5", text: "After a diagnosis, the self-preservation Five often begins reading intensively into medical literature, to regain at least some sense of control through knowledge – she rarely engages in conversation about her own fear in the process." },
+        { code: "SO5", text: "The social Five readily shares what she has learned about treatment options with other patients, often becoming a go-to source of information – while her own vulnerability continues to go unspoken." },
+        { code: "SX5", text: "Unusually openly, the sexual Five allows herself to engage with her fear in front of the one trusted person, rather than retreating primarily behind facts as other Five variants tend to." },
+      ]},
+      { typ: 6, titel: "Between reassurance and doubt", varianten: [
+        { code: "SE6", text: "Seeking several medical opinions gives the self-preservation Six back a measure of security, while she rarely fully discloses to anyone her actual fear of the illness recurring." },
+        { code: "SO6", text: "The social Six often actively seeks support in a support group or close circle of friends, while at the same time periodically doubting the chosen treatment plan and discussing those doubts at length with those around her." },
+        { code: "SX6", text: "Striking courage is how the sexual Six, the counter-type, answers her fear – she faces surgery and treatment with determination, sometimes almost defiantly, rather than getting lost in worry as other Six variants might." },
+      ]},
+      { typ: 7, titel: "Looking forward despite the diagnosis", varianten: [
+        { code: "SE7", text: "Getting back to activities that feel good as quickly as possible is for the self-preservation Seven a central way of coping with treatment – dwelling on the diagnosis itself, by contrast, is difficult for her." },
+        { code: "SO7", text: "For those around her, the social Seven, the counter-type, often takes on unusually much responsibility during her own treatment, caring for others instead of seeking distraction for herself as other Seven variants might." },
+        { code: "SX7", text: "In conversations with the one important person, the sexual Seven engages with difficult topics like fear of recurrence or death, rather than glossing over them as other Seven variants tend to." },
+      ]},
+      { typ: 8, titel: "The fight against the illness", varianten: [
+        { code: "SE8", text: "The self-preservation Eight often treats the illness like an opponent to be defeated – with a great deal of resolve, but little room for the vulnerability that arises in the process." },
+        { code: "SO8", text: "For family or friends, the social Eight remains the protective, strong figure others can rely on even during treatment – she shows her own fear to almost no one in the process." },
+        { code: "SX8", text: "To the one person she truly trusts, the sexual Eight also shows her fear and exhaustion, unusually open for someone whose presence is otherwise so controlled." },
+      ]},
+      { typ: 9, titel: "Finding her own voice in the treatment process", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often takes refuge in familiar daily routines, so as not to let the full force of the diagnosis reach her all at once – she readily postpones engaging with her own fear in the process." },
+        { code: "SO9", text: "When it comes to treatment decisions, the social Nine frequently defers to the opinion of doctors or family, without really clarifying or voicing her own position on it." },
+        { code: "SX9", text: "Her partner's fear during this time often registers more strongly for the sexual Nine than her own – finding her own voice in decisions about treatment is correspondingly hard for her." },
+      ]},
+    ],
+    abschluss: "No one bears any character-related blame for developing breast cancer, regardless of subtype – its causes lie in biology, not in personality. What emerges is simply that each of the 27 subtypes processes the experience of diagnosis, treatment, and recovery in its own way – some more withdrawn, others in open exchange. This knowledge can help in understanding oneself and other patients better during one of life's hardest phases, and in accepting the support that fits one's own pattern, without replacing or delaying medical treatment."
+  },
+  prostatakrebs: {
+    titel: "Prostate Cancer",
+    kategorie: "onkologie",
+    icon: "🔵",
+    kurz: "The most common cancer in men – usually slow-growing, but often experienced in silence.",
+    definition: "Prostate cancer is the most common malignant tumor in men in Western industrialized nations and arises from uncontrolled cell growth in the prostate, usually in the outer glandular tissue. In most cases it grows very slowly and often remains confined to the prostate for years, though more aggressive forms can spread to bones and lymph nodes. Known risk factors include increasing age, family history, certain genetic changes, and possibly diet and lifestyle – but the exact cause is multifactorial and, for most people affected, cannot be traced to a single origin. Because many courses progress very slowly, low-risk cases are often managed with active surveillance instead of immediate treatment, while more aggressive forms require surgery, radiation, or hormone therapy.",
+    symptome: ["Frequent urination, especially at night", "Weak or interrupted urine stream", "Pain or burning during urination", "Blood in urine or semen", "Erectile dysfunction", "Pain in the lower back, pelvis, or thigh in advanced disease", "Unintended weight loss in advanced stages"],
+    notfall: "Persistent urinary symptoms, blood in urine or semen, and unexplained bone pain should be evaluated by a urologist promptly – acute urinary retention (being unable to pass urine at all) is an emergency and requires immediate medical care.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "With prostate cancer, too, this compass is explicitly not concerned with psychological contribution to its cause – the disease arises from genetic, hormonal, and age-related factors that have nothing to do with a person's character. Prostate cancer also involves an organ that, in many men's life stories, is traditionally spoken about especially little, which is why what shows up in a subtype-specific way is above all how openly or guardedly screening, diagnosis, and the often intimate side effects of treatment are handled – who goes for early checkups and who avoids them, who speaks openly about erectile dysfunction or incontinence and who stays silent, who seeks advice and who decides alone. For each of the 27 subtypes, a distinct pattern emerges in how this particularly silence-shrouded illness is met.",
+    typen: [
+      { typ: 1, titel: "Screening as duty or as imposition", varianten: [
+        { code: "SE1", text: "Attending screening appointments is often simply part of the self-preservation One's own discipline, even though the topic is uncomfortable. Even so, she remains reluctant afterward to talk about side effects like erectile dysfunction." },
+        { code: "SO1", text: "As a role model for other men around her, the social One often deliberately makes her own screening a topic of conversation, even when it is uncomfortable for her – an expression of her sense of responsibility." },
+        { code: "SX1", text: "Her frustration over the loss of control through incontinence or erectile dysfunction after treatment is voiced by the sexual One more directly than by other One variants, rather than being borne in silence." },
+      ]},
+      { typ: 2, titel: "Between caring for others and staying silent about herself", varianten: [
+        { code: "SE2", text: "The self-preservation Two often puts off her own screening appointment for a long time while managing the health appointments of others in the family – her own health drops out of view in the process." },
+        { code: "SO2", text: "Among her circle of acquaintances, the social Two actively encourages other men toward screening, while remaining noticeably more reserved about her own diagnosis and the intimate side effects of treatment." },
+        { code: "SX2", text: "To the one important person, the sexual Two openly admits her fear of erectile dysfunction after treatment, a topic other Two variants would tend to stay silent about with their wider circle." },
+      ]},
+      { typ: 3, titel: "The illness as a threat to one's own image", varianten: [
+        { code: "SE3", text: "After the diagnosis, the self-preservation Three usually keeps functioning in daily life largely unchanged, out of the conviction that standstill is not an option – she almost never speaks about erectile dysfunction as a consequence of treatment." },
+        { code: "SO3", text: "How her diagnosis reflects on her public image as a capable man often preoccupies the social Three more than she would admit, which is why she communicates the illness selectively and in carefully measured doses." },
+        { code: "SX3", text: "Her worry about her own sexual attractiveness after treatment is voiced by the sexual Three openly to the one important person, rather than hidden behind success as in other areas of her life." },
+      ]},
+      { typ: 4, titel: "Renegotiating one's own masculinity", varianten: [
+        { code: "SE4", text: "A strikingly unruffled outward composure meets the diagnosis and its physical changes in the self-preservation Four, the counter-type, contrary to the cliché of the dramatic Four – though internally she processes a great deal." },
+        { code: "SO4", text: "The feeling of being especially alone with the intimate consequences of treatment – continence, sexuality – often accompanies the social Four, even when she exchanges thoughts with others outwardly." },
+        { code: "SX4", text: "How his masculinity is changed by the illness is something the sexual Four discusses intensely with the one person he feels closest to, rather than avoiding the topic." },
+      ]},
+      { typ: 5, titel: "Research instead of conversation", varianten: [
+        { code: "SE5", text: "After the diagnosis, the self-preservation Five often independently compares research findings and treatment options before speaking to anyone at all about her fear – knowledge is, for her, the first step toward composure." },
+        { code: "SO5", text: "The knowledge she has gathered about active surveillance, surgery, or radiation is readily shared by the social Five in forums or with other patients, while she stays emotionally at a distance." },
+        { code: "SX5", text: "About his fear of losing his sexuality, the sexual Five speaks unusually openly with the one trusted person, rather than hiding behind collected facts." },
+      ]},
+      { typ: 6, titel: "Reassurance against uncertainty", varianten: [
+        { code: "SE6", text: "Seeking several specialist opinions gives the self-preservation Six at least temporary reassurance, while the underlying worry about the disease progressing remains and is rarely spoken about openly." },
+        { code: "SO6", text: "Exchange with other patients in a support group gives the social Six a sense of stability, while she also openly voices her doubts about the chosen treatment path there." },
+        { code: "SX6", text: "Striking resolve is how the counter-type sexual Six meets the diagnosis, often choosing an active treatment path quickly and courageously, rather than lingering in doubt as other Six variants might." },
+      ]},
+      { typ: 7, titel: "Distraction from an uncomfortable topic", varianten: [
+        { code: "SE7", text: "The self-preservation Seven readily puts off her own screening appointment as long as no acute symptoms force the issue – once the diagnosis is there, she quickly looks for a positive angle." },
+        { code: "SO7", text: "Unusually dutifully, the social Seven, the counter-type, attends her screening appointments and actively informs other men around her about them, rather than avoiding the topic as other Seven variants might." },
+        { code: "SX7", text: "In engaging with the one important person, the sexual Seven also speaks about fear of impotence or death, rather than sidestepping the topic with distraction as other Seven variants would." },
+      ]},
+      { typ: 8, titel: "Regaining control over one's own body", varianten: [
+        { code: "SE8", text: "Loss of control through incontinence or erectile dysfunction is often felt by the self-preservation Eight as especially hard to bear, and she works resolutely to reclaim bodily functions as quickly as possible." },
+        { code: "SO8", text: "In front of her family, the social Eight keeps up the facade of the strong, unassailable figure even after the diagnosis, showing her own fear of losing control to almost no one." },
+        { code: "SX8", text: "Unusually openly, the sexual Eight admits to the one person she trusts her fear of losing her masculinity through treatment, rather than hiding it behind strength as she otherwise would." },
+      ]},
+      { typ: 9, titel: "Not losing herself in the treatment process", varianten: [
+        { code: "SE9", text: "The self-preservation Nine's own screening appointment easily drops out of view amid the daily grind, until some occasion makes it unavoidable – afterward she often passively goes along with whatever treatment plan is suggested." },
+        { code: "SO9", text: "When deciding between active surveillance, surgery, or radiation, the social Nine frequently follows the doctor's recommendation or the family's wishes, without bringing in a clearly formulated position of her own." },
+        { code: "SX9", text: "The worries of his partner are often taken on by the sexual Nine more strongly than his own, causing his own voice in decisions about treatment to easily get lost." },
+      ]},
+    ],
+    abschluss: "No one bears any character-related blame for developing prostate cancer, regardless of subtype – its causes lie in age, genetics, and hormones, not in character. What emerges is simply that each of the 27 subtypes deals differently with screening, diagnosis, and the often intimate consequences of treatment – some openly, others in silence. Knowing this pattern in oneself can make it easier to seek out the support that fits, without that replacing medical treatment."
+  },
+  darmkrebs: {
+    titel: "Colorectal Cancer",
+    kategorie: "onkologie",
+    icon: "🟤",
+    kurz: "One of the most common tumors in Western industrialized nations – and burdened with more shame than almost any other cancer.",
+    definition: "Colorectal cancer is one of the most common malignant tumors in Western industrialized nations and usually arises from initially benign polyps in the lining of the bowel, which can develop into malignant cells over the course of years. The colon and rectum are most commonly affected. Known risk factors include age, genetic predisposition (such as familial adenomatous polyposis or Lynch syndrome), chronic inflammatory bowel disease, a low-fiber diet, lack of exercise, smoking, and alcohol consumption – but the cause is always multifactorial and, for any individual affected, cannot be traced to one specific origin. Because colorectal cancer usually develops slowly from precursor lesions, regular screening colonoscopy demonstrably lowers the risk of disease, since polyps can be removed before they turn malignant.",
+    symptome: ["Change in bowel habits lasting several weeks (diarrhea, constipation, or alternating)", "Blood in the stool or unusually dark, tarry stool", "Unexplained abdominal pain or cramping", "Unintended weight loss", "Persistent fatigue from anemia", "A sense of incomplete bowel emptying", "A palpable hardening in the abdomen"],
+    notfall: "Blood in the stool, persistent changes in bowel habits lasting more than two to three weeks, or unexplained weight loss should be evaluated by a doctor promptly. Sudden, severe abdominal pain with a rigid abdomen, vomiting of stool, or no passage of stool or gas for over 24 hours can indicate a bowel obstruction and require immediate emergency treatment.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "With colorectal cancer, too, this compass explicitly does not assume any psychological contribution to its cause – the disease develops over years from cellular changes influenced by genetic factors, diet, inflammation, and chance, not by character traits or emotional patterns. Colorectal cancer also concerns a bodily topic that carries especially strong social shame, which is why what shows up in a subtype-specific way is above all how openly or shamefully early warning signs are discussed, how long a doctor's visit gets delayed despite symptoms, how a colostomy – necessary in some cases – is handled, and who seeks support during this often intimate and uncomfortable experience. For each of the 27 subtypes, a distinct pattern emerges.",
+    typen: [
+      { typ: 1, titel: "Between shame and sense of duty", varianten: [
+        { code: "SE1", text: "Even uncomfortable symptoms like blood in the stool are usually reported by the self-preservation One to a doctor dutifully and promptly, despite the shame the topic holds for her – discipline wins out over embarrassment here." },
+        { code: "SO1", text: "About her own diagnosis and a possibly necessary colostomy, the social One speaks with those around her only in carefully measured doses, out of concern about losing dignity or standing in the process." },
+        { code: "SX1", text: "Her frustration at examinations and procedures experienced as humiliating is voiced by the sexual One more directly and loudly than by other One variants, rather than kept quiet out of shame." },
+      ]},
+      { typ: 2, titel: "Hiding her own shame behind caretaking", varianten: [
+        { code: "SE2", text: "Symptoms like a change in bowel habits are often mentioned late to a doctor by the self-preservation Two, because she finds the topic uncomfortable and would rather keep caring for others than for herself." },
+        { code: "SO2", text: "Within her large circle of friends, the social Two speaks surprisingly openly about her diagnosis, even about the colostomy, to encourage others – the shame underneath it often goes unmentioned in the process." },
+        { code: "SX2", text: "Her shame about changed bodily functions is confided by the sexual Two to the one important person considerably more openly than she ever would with her wider circle." },
+      ]},
+      { typ: 3, titel: "Controlling her own image", varianten: [
+        { code: "SE3", text: "Despite exhaustion from chemotherapy, the self-preservation Three usually keeps functioning unobtrusively in daily life, partly to avoid anyone asking about the uncomfortable details of her illness." },
+        { code: "SO3", text: "A colostomy is often felt by the social Three as a particular threat to her flawless public image, which is why she is selective about whom she tells how much." },
+        { code: "SX3", text: "Her fear of losing physical attractiveness because of the illness is addressed openly by the sexual Three with the one important person, rather than hidden behind outward success." },
+      ]},
+      { typ: 4, titel: "Shame, withdrawal, and the wish to truly be heard", varianten: [
+        { code: "SE4", text: "Unusually stoically, the self-preservation Four, the counter-type, endures even examinations experienced as humiliating, without showing the drama that is actually characteristic of the type – internally, though, she processes the shame intensely." },
+        { code: "SO4", text: "The feeling of being entirely alone with the shame of a colostomy often accompanies the social Four especially strongly, even in exchange with other patients in a similar situation." },
+        { code: "SX4", text: "Unvarnished, the sexual Four speaks about shame, changed body awareness, and fears only with the one person she truly feels close to, rather than avoiding these topics." },
+      ]},
+      { typ: 5, titel: "Retreat into the factual", varianten: [
+        { code: "SE5", text: "Medical facts about diagnosis and treatment options are what the self-preservation Five gathers thoroughly before telling anyone about the illness at all – the topic itself stays purely private for a long time." },
+        { code: "SO5", text: "Her acquired factual knowledge about colorectal cancer and stoma care is readily passed on by the social Five to other patients, while she barely speaks about her own shame in the process." },
+        { code: "SX5", text: "About her shame and fear, the sexual Five speaks unusually openly with the one trusted person, rather than hiding behind purely factual information as she otherwise would." },
+      ]},
+      { typ: 6, titel: "Doubt, reassurance, and fear of what comes after", varianten: [
+        { code: "SE6", text: "Symptoms like blood in the stool often worry the self-preservation Six long before she actually sees a doctor – out of fear of confirming her worst suspicion, she often delays the appointment." },
+        { code: "SO6", text: "In a support group, the social Six often finds valuable exchange about shame and life with a stoma, but also repeatedly voices her doubts about her own treatment path there." },
+        { code: "SX6", text: "Shame gets met head-on by the sexual Six, the counter-type, who actively raises the topic and endures examinations with resolve, rather than getting lost in worry as other Six variants might." },
+      ]},
+      { typ: 7, titel: "Avoiding an uncomfortable topic", varianten: [
+        { code: "SE7", text: "Symptoms like a change in bowel habits are reinterpreted by the self-preservation Seven as harmless for a long time before she faces the matter – once the diagnosis is there, she quickly looks for the positive outlook." },
+        { code: "SO7", text: "Screening appointments get kept with unusual consistency by the social Seven, the counter-type, who often actively takes responsibility for her own treatment, rather than avoiding the uncomfortable topic as other Seven variants might." },
+        { code: "SX7", text: "Even about shame and fear of a colostomy, the sexual Seven speaks openly with the one important person, rather than hiding these topics behind distraction as other Seven variants would." },
+      ]},
+      { typ: 8, titel: "The fight for one's own dignity", varianten: [
+        { code: "SE8", text: "Loss of control over her own bodily functions, for instance through a colostomy, is felt by the self-preservation Eight as especially hard, and she fights resolutely for the greatest possible independence in daily life." },
+        { code: "SO8", text: "Little of her own shame is shown to her family by the social Eight even with this particularly intimate illness, as she remains instead the protective, strong figure others can turn to." },
+        { code: "SX8", text: "Unusual openness marks how the sexual Eight admits her shame about changed bodily functions to the one person she trusts, rather than hiding it behind strength as she otherwise would." },
+      ]},
+      { typ: 9, titel: "Not losing herself in her own treatment", varianten: [
+        { code: "SE9", text: "Symptoms like a change in bowel habits are often pushed aside by the self-preservation Nine within her familiar daily routine for a long time, until they can no longer be overlooked." },
+        { code: "SO9", text: "When it comes to decisions about surgery or stoma care, the social Nine frequently takes on the doctor's recommendation or the family's opinion, without clearly voicing her own stance on it." },
+        { code: "SX9", text: "The shame and worry of her partner are often felt more intensely by the sexual Nine than her own during this time, causing her own voice in decisions about treatment to easily get lost." },
+      ]},
+    ],
+    abschluss: "No one bears any character-related blame for developing colorectal cancer, regardless of subtype – its causes lie in cellular changes, genetics, and life circumstances, not in character. What emerges is simply that each of the 27 subtypes deals differently with the particular shame of this illness – some openly, others very withdrawn. This knowledge can help meet oneself and other patients with more understanding, without replacing medical treatment."
+  },
+  lungenkrebs: {
+    titel: "Lung Cancer",
+    kategorie: "onkologie",
+    icon: "🫁",
+    kurz: "One of the most aggressive cancers, often detected late – and frequently accompanied by unfair blame.",
+    definition: "Lung cancer arises from the uncontrolled proliferation of malignant cells in lung tissue or the bronchi and is among the most common and aggressive cancers. A distinction is made mainly between small-cell and non-small-cell lung cancer, which differ considerably in growth rate and treatment response. Smoking is by far the most significant known risk factor; other contributors include occupational exposure to hazardous substances (such as asbestos or fine particulate matter), radon exposure in homes, genetic predisposition, and – for a meaningful proportion of those affected – none of the known risk factors at all: people who have never smoked also develop lung cancer. Because the disease often only causes noticeable symptoms late, it is frequently discovered at an advanced stage, which complicates diagnosis and treatment.",
+    symptome: ["A persistent, changing cough over several weeks", "Blood-tinged sputum", "Increasing shortness of breath, even with mild exertion", "Persistent chest pain, sometimes worse with breathing", "Unintended weight loss and loss of appetite", "Recurring pneumonia in the same area of the lung", "Persistent hoarseness or exhaustion"],
+    notfall: "Blood in the sputum, new or worsening shortness of breath, a cough changing over weeks, or unexplained weight loss should be evaluated by a doctor promptly. Call emergency services immediately for sudden severe shortness of breath or coughing up significant amounts of blood.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "With lung cancer especially, this compass takes particular care to rule out any notion of psychological or character-related contribution to its cause – the disease has clearly identified biological and toxicological causes, above all smoking, but also environmental factors, occupation, and genetics, and for some of those affected, no identifiable external cause at all. A person who develops lung cancer bears no character-related blame for it, whether or not they smoked – the social blame that people with this illness so often encounter is not medically supportable and is deliberately not repeated here. What does show up in a subtype-specific way instead is how each person handles an illness that directly affects the breath – the very symbol of being alive – possible stigmatization from those around them, an often late and therefore especially shattering diagnosis, and the question of to whom fear and breathlessness are shown. For each of the 27 subtypes, a distinct pattern emerges.",
+    typen: [
+      { typ: 1, titel: "Between self-reproach and matter-of-factness", varianten: [
+        { code: "SE1", text: "Even though she is objectively not to blame for her illness, the self-preservation One tends, in hindsight, to critically scrutinize every past habit of her own – she usually keeps this inner reckoning with herself to herself." },
+        { code: "SO1", text: "The social One meets social blame such as ›it's her own fault‹ with matter-of-fact explanations about the illness's actual causes, even though such reactions wound her deeply inside." },
+        { code: "SX1", text: "Unfair blame from those around her is pushed back against by the sexual One noticeably more forcefully than by other One variants, rather than accepted in silence." },
+      ]},
+      { typ: 2, titel: "Still worrying about others despite breathlessness", varianten: [
+        { code: "SE2", text: "Even as breathlessness increases, the self-preservation Two tries to keep the familiar routine going for her family as long as possible, rather than asking for relief early on." },
+        { code: "SO2", text: "Within her circle of friends, the social Two often speaks openly about her diagnosis, partly to encourage others to quit smoking or seek screening – her own fear of suffocating usually stays unmentioned in the process." },
+        { code: "SX2", text: "Her fear of increasing breathlessness is revealed by the sexual Two to the one important person considerably more directly than she would to her wider circle." },
+      ]},
+      { typ: 3, titel: "Staying capable despite dwindling breath", varianten: [
+        { code: "SE3", text: "Despite noticeable breathlessness, the self-preservation Three tries to maintain her usual level of performance in daily life for as long as possible, out of the deep conviction that easing up would amount to failure." },
+        { code: "SO3", text: "How her diagnosis – especially if she used to smoke – is judged by those around her often preoccupies the social Three considerably, which is why she carefully controls whom she tells how much about her illness." },
+        { code: "SX3", text: "Her fear of visible physical decline through the illness is voiced by the sexual Three openly to the one important person, rather than hidden behind outward strength." },
+      ]},
+      { typ: 4, titel: "Her own shock between silence and expression", varianten: [
+        { code: "SE4", text: "Strikingly composed, the self-preservation Four, the counter-type, takes in even a late, shattering diagnosis and keeps functioning outwardly unshaken, contrary to the dramatic expression of pain usually typical of the type." },
+        { code: "SO4", text: "The feeling of remaining utterly misunderstood with her fear of suffocating and her own mortality often accompanies the social Four intensely, even in contact with other patients." },
+        { code: "SX4", text: "Urgently, the sexual Four speaks about the fear of death and dwindling breath only with the one person she truly feels connected to, rather than avoiding these existential topics." },
+      ]},
+      { typ: 5, titel: "Retreat into the facts", varianten: [
+        { code: "SE5", text: "Treatment options and prognosis figures are what the self-preservation Five investigates very thoroughly after the diagnosis, well before speaking to anyone at all about her fear of suffocating." },
+        { code: "SO5", text: "Her detailed knowledge about lung cancer and its actual causes is readily shared by the social Five with other patients, helping to factually counter unfair blame in the process." },
+        { code: "SX5", text: "About her fear of suffocating, the sexual Five speaks unusually openly with the one trusted person, rather than hiding behind medical facts as she otherwise would." },
+      ]},
+      { typ: 6, titel: "Vigilance, doubt, and fear for the next breath", varianten: [
+        { code: "SE6", text: "Early symptoms like a persistent cough are often watched anxiously by the self-preservation Six for a long time before she actually sees a doctor – out of fear that her worst suspicion might be confirmed." },
+        { code: "SO6", text: "In exchange with a support group, the social Six finds stability against her fear of suffocating, but also repeatedly voices doubts about the chosen treatment path there." },
+        { code: "SX6", text: "Facing her diagnosis takes striking courage from the sexual Six, the counter-type, who often decisively chooses an aggressive treatment path, rather than getting lost in worry about her own breathing as other Six variants might." },
+      ]},
+      { typ: 7, titel: "Between denial and sudden gravity", varianten: [
+        { code: "SE7", text: "A persistent cough is reinterpreted by the self-preservation Seven as harmless for a long time before she faces the matter – once the diagnosis is there, she quickly looks for every available positive angle." },
+        { code: "SO7", text: "Even unpleasant medical reality gets faced dutifully by the social Seven, the counter-type, who takes responsibility for her treatment, rather than pushing the topic away as other Seven variants might." },
+        { code: "SX7", text: "Urgently, the sexual Seven speaks about the fear of death and changed plans for the future with the one important person, rather than hiding these topics behind distraction as other Seven variants would." },
+      ]},
+      { typ: 8, titel: "The fight for every breath", varianten: [
+        { code: "SE8", text: "Increasing breathlessness is experienced by the self-preservation Eight as an especially threatening loss of control, and she fights resolutely with breathing exercises and physical training for every last bit of lung capacity that can be reclaimed." },
+        { code: "SO8", text: "Even as breathlessness progresses, the social Eight remains the protective, strong figure for her family, showing her own fear of suffocating to almost no one." },
+        { code: "SX8", text: "Her fear of suffocating gets admitted by the sexual Eight, unusually openly, to the one person she trusts, rather than hidden behind unshakeable strength as she otherwise would." },
+      ]},
+      { typ: 9, titel: "Her own voice despite dwindling breath", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often avoids the first noticeable breathing difficulties in daily life for a long time, unconsciously adjusting her pace instead of consciously registering and naming the change." },
+        { code: "SO9", text: "When deciding on chemotherapy or radiation, the social Nine frequently takes on the doctor's recommendation or the family's stance, without clearly formulating her own opinion on it." },
+        { code: "SX9", text: "The partner's fear of loss is often felt more intensely by the sexual Nine than her own fear of suffocating, causing her own voice in treatment to easily get lost." },
+      ]},
+    ],
+    abschluss: "No one bears any character-related blame for developing lung cancer, regardless of subtype and regardless of whether they smoked – its causes are biological and toxicological, not a matter of character. What emerges is simply that each of the 27 subtypes deals differently with breathlessness, stigmatization, and an often late diagnosis. This knowledge can help meet those affected with understanding instead of blame, and to find one's own support, without replacing medical treatment."
+  },
+  hautkrebs_melanom: {
+    titel: "Skin Cancer (Melanoma)",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "The most aggressive form of skin cancer arises from degenerated pigment cells and can spread early – but is highly treatable when caught in time.",
+    definition: "Malignant melanoma is a malignant tumor that develops from the pigment-producing cells of the skin (melanocytes) and, much more rarely, can also occur in mucous membranes or the eye. It is among the more aggressive forms of skin cancer, since compared to the more common, usually slower-growing non-melanoma skin cancers (basal cell and squamous cell carcinoma), it can spread earlier via the lymphatic and blood vessels to other organs. Recognized risk factors include intense UV exposure and sunburns, especially in childhood, a fair skin type, a high number of moles, genetic predisposition, and a weakened immune system. Prognosis depends decisively on tumor thickness and stage at diagnosis – when caught early, cure rates are very high, which is why early detection through regular skin checks is of central importance.",
+    symptome: ["A newly appearing or changing mole (asymmetry, irregular border, multiple colors, diameter over 5 mm, raised surface – the ABCDE rule)", "Itching, bleeding, or oozing of a pigmented spot", "A spot that clearly differs from the surrounding moles (the ›ugly duckling‹ sign)", "New dark streaks under finger- or toenails", "Swollen, hardened lymph nodes near a suspicious spot", "A pigmented spot that does not heal", "Unexplained lumps under the skin in someone with a known melanoma"],
+    notfall: "Have any new or changing mole evaluated by a dermatologist promptly; for a known melanoma with newly appearing lumps, severe headaches, breathing difficulties, or unexplained weight loss, seek medical attention immediately.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Unlike the other conditions in this compass, this one is explicitly not about a possible psychological contribution to causation – a melanoma arises from UV damage to the genetic material of pigment cells, from skin type and genetic predisposition, not from personality traits. What does show up subtype-specifically instead is how someone deals with a diagnosis affecting a visible organ: how closely does someone look before a spot draws attention? How is a changed mole talked about – with a doctor, a partner, at all? And how does the relationship to one's own visible body change when a scar, a wound, or a treatment alters it permanently? For each of the 27 subtypes, its own pattern shows up in how it handles diagnosis, visibility, and treatment.",
+    typen: [
+      { typ: 1, titel: "Precision under the magnifying glass", varianten: [
+        { code: "SE1", text: "For the self-preservation One, regular skin self-checks are almost as natural as personal hygiene, and any deviation is registered immediately. When a finding actually turns up, she tends to blame herself for not having reacted early enough, instead of simply turning toward treatment." },
+        { code: "SO1", text: "The social One often only speaks about her own skin finding once the medical facts are fully clarified, out of concern that half-knowledge would needlessly worry others. This restraint can mean she withholds important support longer than would do her good." },
+        { code: "SX1", text: "The sexual One shows anger about her own diagnosis immediately and directly, rather than suppressing it. This open emotion can be a relief during treatment, since it does not additionally need to be repressed on top of the illness." },
+      ]},
+      { typ: 2, titel: "Care that has to reverse direction", varianten: [
+        { code: "SE2", text: "Accepting practical help from those around her is especially hard for the self-preservation Two after a melanoma diagnosis; she tries to manage the household alone despite treatment appointments. Only when the exhaustion becomes impossible to ignore does she let support in at all." },
+        { code: "SO2", text: "Telling many people about her own diagnosis before she has processed it herself often overwhelms the social Two – she worries more about others' reactions than about her own processing." },
+        { code: "SX2", text: "In the one important relationship, the sexual Two genuinely allows herself to be cared for after the diagnosis, instead of immediately switching back into the giving role. This role reversal comes more easily to her than to other Two variants, though it still feels unfamiliar." },
+      ]},
+      { typ: 3, titel: "A blemish in the image", varianten: [
+        { code: "SE3", text: "The self-preservation Three schedules treatment appointments efficiently around her work commitments to minimize downtime – the question of whether that actually serves her own healing process often fades into the background." },
+        { code: "SO3", text: "A visible surgical scar on the face or body can hit the social Three's carefully maintained public image hard; she often actively looks for ways to make the change as inconspicuous as possible rather than speaking about it openly." },
+        { code: "SX3", text: "The sexual Three lets the scar and the uncertainty show, at least in front of the one important person, instead of keeping up a flawless facade. This protected space makes dealing with a visible change easier for her than the public self-presentation other Three variants maintain." },
+      ]},
+      { typ: 4, titel: "A story that wants to be told", varianten: [
+        { code: "SE4", text: "The self-preservation Four, the counter-type, usually carries her worry tough and functionally, without making much fuss about the diagnosis. This quiet perseverance can mean, though, that she asks for needed support only late." },
+        { code: "SO4", text: "In a melanoma diagnosis, the social Four sometimes finds a painful confirmation of her own sense of being different – the visible blemish becomes further proof of standing out from the crowd, rather than being seen as a temporary medical episode." },
+        { code: "SX4", text: "The sexual Four talks about her diagnosis with the one important person intensely and immediately, rather than processing it internally. This outward-directed expression differs from the stronger inward focus of other Four variants." },
+      ]},
+      { typ: 5, titel: "Knowledge as the first step", varianten: [
+        { code: "SE5", text: "Before the first doctor's appointment, the self-preservation Five usually researches all available information on stage and treatment options thoroughly, so she already has enough knowledge of her own before placing herself in others' hands." },
+        { code: "SO5", text: "Within her professionally oriented reference group, the social Five likes to exchange medical knowledge about her own diagnosis, while the personal emotional experience often stays unspoken in the background." },
+        { code: "SX5", text: "The sexual Five opens up to the one deep connection even about the fear behind the diagnosis, instead of processing it purely factually as other Five variants tend to. This willingness for emotional closeness can ease the treatment path." },
+      ]},
+      { typ: 6, titel: "Uncertainty that has to be endured", varianten: [
+        { code: "SE6", text: "The self-preservation Six has often mentally prepared for the possibility of a suspicious finding long in advance, yet once it actually happens it still triggers a fresh wave of worry about possible spread that is hard to calm." },
+        { code: "SO6", text: "The social Six seeks the advice and assessment of her doctors and close circle intensively before trusting a treatment decision – a decision made too quickly on her own would feel unsafe to her." },
+        { code: "SX6", text: "Decisive, fast action, not endless deliberation, is how the counter-type sexual Six meets fear of the diagnosis. This readiness to act can feel more relieving during treatment than the worry-spiraling of other Six variants." },
+      ]},
+      { typ: 7, titel: "Optimism as a coping strategy", varianten: [
+        { code: "SE7", text: "Keeping several treatment options open at once gives the self-preservation Seven a sense of not being trapped – a single binding treatment decision, by contrast, can feel constricting and limiting to her." },
+        { code: "SO7", text: "The social Seven, the counter-type, often puts her own worry behind the group's needs and appears remarkably composed on the outside, while her own fear of the diagnosis stays unprocessed." },
+        { code: "SX7", text: "The sexual Seven genuinely focuses her attention on the one upcoming treatment, instead of fleeing into ever-new distraction. This capacity for engagement differs from the constant avoidance of other Seven variants." },
+      ]},
+      { typ: 8, titel: "Control over one's own case", varianten: [
+        { code: "SE8", text: "The self-preservation Eight wants to retain decision-making authority over her treatment plan and often challenges doctors with critical questions before following a recommendation – being controlled by others in her own illness course is hard for her to bear." },
+        { code: "SO8", text: "Even during treatment, the social Eight keeps showing her strong, protective side in front of her group; her own exhaustion or fear usually stays unspoken, since showing weakness is rarely an option for her." },
+        { code: "SX8", text: "The sexual Eight at least opens up about her fear of the finding to the one person she trusts, instead of consistently demonstrating strength. This protected space eases dealing with the diagnosis compared with the permanent need for control of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A finding that wants to go unnoticed", varianten: [
+        { code: "SE9", text: "The self-preservation Nine sometimes watches a suspicious mole for a long time without seeing a doctor, so as not to disturb her everyday comfort – often only a clear nudge from someone else brings her to get it checked." },
+        { code: "SO9", text: "The social Nine often sets her own worry about the finding aside in conversations, so as not to burden the mood of the group, and tends to downplay the diagnosis to others rather than speaking about it openly." },
+        { code: "SX9", text: "The sexual Nine often directs her attention more toward her partner's worry about her than toward her own fear of the diagnosis, once she has merged with him – her own fear stays in the background as a result." },
+      ]},
+    ],
+    abschluss: "Melanoma can affect anyone, regardless of subtype – the causes lie in UV exposure, skin type, and predisposition, not in personality. What shows up is simply how differently people handle diagnosis, visible change, and treatment: some through research, others through withdrawal, caring for others, or a warning sign of their own that was overlooked for a long time. This is exactly where the Enneagram homeopathy of this compass can offer accompanying support: not for the tumor treatment itself, which always belongs in medical hands, but for the life force of the respective subtype thrown out of balance during a difficult time."
+  },
+  magenkrebs: {
+    titel: "Stomach Cancer",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "A malignant tumor of the stomach lining that causes hardly any symptoms for a long time and is often discovered late.",
+    definition: "Stomach cancer (gastric carcinoma) most often develops from the cells of the stomach lining, in the vast majority of cases as what is called an adenocarcinoma. Known risk factors include chronic infection with the bacterium Helicobacter pylori, certain dietary habits (heavily salted, smoked, or cured foods), smoking, high alcohol consumption, pre-existing damage to the stomach lining such as chronic gastritis or stomach polyps, and a family predisposition. In its early stages, the disease often runs without clear symptoms, which is why it is frequently diagnosed only at an advanced stage, once the tumor has already penetrated the stomach wall or spread to nearby lymph nodes or organs. Treatment depends on stage and spread and, depending on the findings, includes surgery, chemotherapy, and in certain cases further systemic therapies.",
+    symptome: ["Persistent feeling of fullness or pressure in the upper abdomen, even after small meals", "Loss of appetite and aversion to certain foods, especially meat", "Unintentional weight loss", "Nausea and recurring vomiting, sometimes with blood", "Black-colored stool as a sign of internal bleeding", "Increasing difficulty swallowing with tumors near the stomach entrance", "Persistent fatigue and paleness from chronic blood loss"],
+    notfall: "Seek prompt medical evaluation for persistent unexplained weight loss, blood in vomit or black stool, severe difficulty swallowing, or a palpable hardening in the upper abdomen.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Unlike the other conditions in this compass, this one is explicitly not about a possible psychological contribution to causation – stomach cancer arises from a combination of infection, diet, pre-existing damage, and genetic predisposition, not from character traits. What does show up subtype-specifically instead is how someone handles an illness that affects, of all organs, the one through which food, enjoyment, and often togetherness pass: how is the loss of appetite and shared meals dealt with? How openly is a difficult diagnosis discussed after it went unnoticed for so long? And how is one's own body experienced when it suddenly tolerates less than it used to? For each of the 27 subtypes, its own pattern shows up in how it handles diagnosis, diet, and treatment.",
+    typen: [
+      { typ: 1, titel: "Order in the digestive process", varianten: [
+        { code: "SE1", text: "The self-preservation One usually had her diet disciplined and under control for years, so a cancer finding in the stomach can feel like a particularly unjust failure of her own diligence, even though it has nothing to do with that." },
+        { code: "SO1", text: "The social One typically informs those around her about her diagnosis only once the findings and the treatment plan are fully settled, so as not to burden anyone with uncertainty – she often carries the waiting period alone for herself." },
+        { code: "SX1", text: "Frustration over the reduced tolerance for food after the diagnosis, the sexual One shows openly and directly, instead of swallowing it. This immediate release differs from the quiet endurance of other One variants." },
+      ]},
+      { typ: 2, titel: "Eating as shared care", varianten: [
+        { code: "SE2", text: "Cooking for and looking after others was often a central expression of care for the self-preservation Two – when she can no longer eat or cook as she used to, she experiences it as the loss of an important part of her role." },
+        { code: "SO2", text: "Shared meals with many people were for years a natural framework for closeness for the social Two – when illness takes this framework away, she loses an important stage for connection that she can hardly replace." },
+        { code: "SX2", text: "The sexual Two openly tells the one important person how much the loss of appetite burdens her, instead of concealing it. This openness makes it easier for her to actually receive support, where other Two variants would rather keep giving." },
+      ]},
+      { typ: 3, titel: "Performance despite exhaustion", varianten: [
+        { code: "SE3", text: "Despite weight loss and exhaustion, the self-preservation Three often tries to keep up her workload; a visible drop in performance is hard for her to accept, even once her body has long since set clear limits." },
+        { code: "SO3", text: "Visible weight loss and exhaustion get downplayed as much as possible by the social Three, so as not to jeopardize her high-performing image – an open conversation about the actual severity of the illness is correspondingly hard for her." },
+        { code: "SX3", text: "The sexual Three lets exhaustion and loss of appetite become visible in front of the one important person, instead of playing them down. This protected space makes it easier for her to deal with the illness than the sustained facade of other Three variants." },
+      ]},
+      { typ: 4, titel: "An illness with a meaning of its own", varianten: [
+        { code: "SE4", text: "Her physical decline gets carried tough and without much complaint by the self-preservation Four, the counter-type, who quietly tries to stay as functional as possible despite a restricted diet." },
+        { code: "SO4", text: "In her own stomach cancer diagnosis, the social Four can find a tragic confirmation of her feeling that her life has always been harder than others' – the illness easily becomes part of her own identity rather than a medical episode." },
+        { code: "SX4", text: "The sexual Four talks about the fear behind the diagnosis with the one important person intensely and immediately, rather than processing it inwardly. This outward-directed expression differs from the stronger inward focus of other Four variants." },
+      ]},
+      { typ: 5, titel: "Understanding before feeling", varianten: [
+        { code: "SE5", text: "Before every doctor's appointment, the self-preservation Five typically builds as complete a picture as possible of stage, dietary changes, and treatment options, so as not to feel at the mercy of a body that no longer tolerates food as it used to." },
+        { code: "SO5", text: "In her professionally oriented group, the social Five likes to exchange views on the medical aspects of her illness, while the personal experience of appetite loss and fear is often left out." },
+        { code: "SX5", text: "The sexual Five also shows her fear of the diagnosis to the one deep connection, instead of processing it purely factually. This emotional closeness eases dealing with the illness compared with the stronger distancing of other Five variants." },
+      ]},
+      { typ: 6, titel: "Seeking safety in the treatment plan", varianten: [
+        { code: "SE6", text: "After the diagnosis, the self-preservation Six often looks for as detailed and secure a treatment plan as possible, because a sense of control over the next steps brings her the greatest relief." },
+        { code: "SO6", text: "Before major treatment decisions, the social Six usually gathers several opinions from doctors and people close to her before she feels safe enough to follow a recommendation." },
+        { code: "SX6", text: "Decisive action, not endless brooding over possible outcomes, is how the sexual Six, the counter-type, meets fear of the finding. This readiness to act eases her burden compared with the worry-spiraling of other Six variants." },
+      ]},
+      { typ: 7, titel: "Between optimism and denial", varianten: [
+        { code: "SE7", text: "The self-preservation Seven often experiences dietary restrictions and treatment limits as a particularly painful loss of enjoyment and mobility, and actively looks for ways to keep as many pleasant options as possible despite the illness." },
+        { code: "SO7", text: "Her own fear of the diagnosis gets put behind the group's need for normalcy by the social Seven, the counter-type, who appears remarkably composed on the outside." },
+        { code: "SX7", text: "The sexual Seven directs her attention with focus toward the concrete treatment, instead of fleeing into distraction. This engagement differs from the constant avoidance of other Seven variants." },
+      ]},
+      { typ: 8, titel: "Authority over one's own case", varianten: [
+        { code: "SE8", text: "As much say as possible over the treatment plan is what the self-preservation Eight fights to keep, asking doctors critical questions about alternatives, because being purely controlled by others in her own illness course is hard for her to tolerate." },
+        { code: "SO8", text: "The social Eight maintains her strong, protective position toward her group even during treatment; her own exhaustion or fear of the diagnosis usually stays unspoken." },
+        { code: "SX8", text: "Toward the one person she trusts, the sexual Eight also shows her fear about the course of the illness, instead of consistently demonstrating strength. This protected space eases dealing with the illness compared with the permanent need for control of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Symptoms downplayed for a long time", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often attributes persistent fullness or loss of appetite to harmless causes for a long time, so as not to question her familiar routine – only clear, hard-to-ignore symptoms bring her to get it checked." },
+        { code: "SO9", text: "Worry about the symptoms rarely surfaces in conversation with the social Nine, who does not want to burden the group's mood, and mentions the diagnosis more in passing than openly." },
+        { code: "SX9", text: "His worry about her often registers more intensely for the sexual Nine than her own fear of the diagnosis, once she has merged with her partner — her own fear stays in the background for a long time as a result." },
+      ]},
+    ],
+    abschluss: "Stomach cancer can affect anyone, regardless of subtype – infection, diet, pre-existing damage, and predisposition are decisive, not personality. What shows up is simply how differently people handle diagnosis, changed eating habits, and treatment: some through research, others through withdrawal, caring for others, or a warning sign of their own that was downplayed for a long time. This is exactly where the Enneagram homeopathy of this compass can offer accompanying support: not for the tumor treatment itself, which always belongs in medical hands, but for the life force of the respective subtype thrown out of balance during a difficult time."
+  },
+  bauchspeicheldruesenkrebs: {
+    titel: "Pancreatic Cancer",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "A tumor of the pancreas that causes hardly any symptoms for a long time and is therefore often discovered late.",
+    definition: "Pancreatic cancer (pancreatic carcinoma) most often develops from the cells lining the ducts of the exocrine gland tissue and is among the cancers with a particularly unfavorable prognosis, since the pancreas lies deep in the abdomen and tumors there cause no clear symptoms for a long time. Known risk factors include smoking, chronic alcohol use, an already existing chronic pancreatitis, newly developed diabetes mellitus at an older age, significant obesity, and certain familial and genetic predispositions. Because the gland produces both digestive enzymes and insulin, a tumor can, depending on its location, impair both digestion and blood sugar metabolism. Treatment ranges, depending on stage, from surgical removal followed by chemotherapy to purely systemic or palliative approaches when surgery is no longer possible.",
+    symptome: ["Upper abdominal pain that often radiates in a belt-like pattern into the back", "Yellowing of skin and eyes (jaundice) from bile duct obstruction", "Unexplained, often rapid weight loss", "Newly appearing or suddenly worsening diabetes mellitus", "Loss of appetite and nausea", "Pale, greasy-looking stool and dark urine", "Persistent fatigue with no obvious cause"],
+    notfall: "Seek prompt medical evaluation for sudden yellowing of skin or eyes, severe persistent upper abdominal or back pain, or rapidly progressing unexplained weight loss.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Unlike the other conditions in this compass, this one is explicitly not about a possible psychological contribution to causation – pancreatic cancer arises from a combination of lifestyle factors, pre-existing conditions, and genetic predisposition, not from personality traits. What does show up subtype-specifically instead is how someone handles a diagnosis that often arrives unexpectedly and at an advanced stage, frequently paired with a serious prognosis: how does someone react to sudden, weighty news? How is a possibly limited amount of time discussed with doctors, and how with one's own family? And how does someone deal with the abrupt loss of things once taken for granted, such as control over daily life? For each of the 27 subtypes, its own pattern shows up in how it handles this especially challenging diagnosis.",
+    typen: [
+      { typ: 1, titel: "Composure in the face of hard news", varianten: [
+        { code: "SE1", text: "After a sudden diagnosis, the self-preservation One usually moves quickly to bring practical order to the next steps – appointments, paperwork, a nutrition plan – because this ordering helps her cope with the loss of control." },
+        { code: "SO1", text: "The social One typically informs her family about so serious a diagnosis only once she has found a clear, responsible way of dealing with it herself, so as not to burden anyone unprepared." },
+        { code: "SX1", text: "The sexual One lets her anger at the injustice of the sudden diagnosis out openly, instead of suppressing it. This direct expression can help her avoid hardening further on the inside." },
+      ]},
+      { typ: 2, titel: "One's own distress behind the concern for others", varianten: [
+        { code: "SE2", text: "Even after a serious diagnosis, the self-preservation Two first tries to keep everyday life as normal as possible for the family, before she even begins to speak about her own needs." },
+        { code: "SO2", text: "The social Two's greatest concern after the diagnosis is often how the many people around her are coping with this news – her own fear initially stays in the background." },
+        { code: "SX2", text: "The sexual Two immediately tells the one important person how frightened the diagnosis has made her, instead of hiding it. This openness gives her more support than the pure giving of other Two variants." },
+      ]},
+      { typ: 3, titel: "Continuing to function despite grave news", varianten: [
+        { code: "SE3", text: "The most effective available treatment option is usually what the self-preservation Three seeks out quickly after diagnosis, wanting to act again as fast as possible – standstill and uncertainty are hard for her to bear." },
+        { code: "SO3", text: "The social Three often tries to represent her own serious diagnosis with as much composure as possible in public; a visible breakdown of her competent image in front of colleagues or acquaintances is especially hard for her." },
+        { code: "SX3", text: "The sexual Three lets her fear about the prognosis become visible in front of the one important person, instead of holding her composure. This retreat space eases her processing compared with the public display of competence other Three variants maintain." },
+      ]},
+      { typ: 4, titel: "The depth of an existential message", varianten: [
+        { code: "SE4", text: "Fear gets carried tough and without many words by the self-preservation Four, the counter-type, who keeps functioning in the background – this quiet perseverance can prevent her from asking for support in time." },
+        { code: "SO4", text: "In the gravity of her own diagnosis, the social Four sometimes recognizes a tragic confirmation of her deep feeling of carrying an especially heavy fate, rather than treating it as its own independent medical reality." },
+        { code: "SX4", text: "With great emotional intensity, the sexual Four talks about the existential weight of the diagnosis with the one important person, instead of internalizing it. This outward-directed expression differs from the quieter processing of other Four variants." },
+      ]},
+      { typ: 5, titel: "Facts as a first foothold", varianten: [
+        { code: "SE5", text: "Facing a serious prognosis, the self-preservation Five first gathers as many medical facts as possible about stage, options, and survival figures, so as not to feel helplessly at the mercy of a situation she can barely influence." },
+        { code: "SO5", text: "Current research and treatment approaches for her diagnosis are what the social Five likes to discuss within her professionally oriented reference group, while the personal experience of her own mortality often stays excluded." },
+        { code: "SX5", text: "Even the fear behind the serious diagnosis, the sexual Five opens up about to the one deep connection, instead of handling it purely factually. This closeness can carry her especially well through an existentially heavy situation, more so than for other Five variants." },
+      ]},
+      { typ: 6, titel: "Between loss of control and a second opinion", varianten: [
+        { code: "SE6", text: "The self-preservation Six often reacts to so grave a diagnosis with intense worry about every further possible risk, while at the same time searching feverishly for a concrete, tangible treatment plan that gives her back some sense of safety." },
+        { code: "SO6", text: "Before a consequential treatment decision, the social Six typically gathers several medical opinions and the advice of trusted people, because a decision made alone feels unbearably unsafe given such high stakes." },
+        { code: "SX6", text: "Fear of the prognosis gets met with decisive, immediate action by the sexual Six, the counter-type, instead of endless brooding over the outcome. This readiness to act eases her burden more than the worry-spiraling of other Six variants." },
+      ]},
+      { typ: 7, titel: "The pain behind the good mood", varianten: [
+        { code: "SE7", text: "Facing a possibly limited amount of time, the self-preservation Seven often searches intensely for still-attainable pleasant experiences, while truly letting in the actual scope of the diagnosis remains hard for her." },
+        { code: "SO7", text: "Her own shock over the diagnosis stays far from the group with the social Seven, the counter-type, who appears remarkably lighthearted on the outside, while inwardly remaining alone with the full weight of it." },
+        { code: "SX7", text: "The remaining time shared with the one important person becomes the sexual Seven's focus, instead of fleeing into distraction. This engagement differs from the constant avoidance of other Seven variants." },
+      ]},
+      { typ: 8, titel: "Fighting against powerlessness", varianten: [
+        { code: "SE8", text: "The self-preservation Eight fights against the feeling of total powerlessness after the diagnosis with all her strength, examines every still-available treatment option herself, and challenges doctors – passivity is hard for her to bear." },
+        { code: "SO8", text: "Even with so serious a diagnosis, the social Eight maintains the strong, protective position in front of her group; her own fear and exhaustion usually stay hidden." },
+        { code: "SX8", text: "The sexual Eight at least shows her fear about the course of the illness to the one person she trusts, instead of consistently demonstrating strength. This protected space eases dealing with the diagnosis compared with the permanent need for control of other Eight variants." },
+      ]},
+      { typ: 9, titel: "A late awakening of symptoms", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often interprets early, diffuse complaints such as loss of appetite or mild back pain as everyday phenomena for a long time, so as not to disturb her peace – only clear symptoms such as jaundice bring her to get it checked." },
+        { code: "SO9", text: "Fear of the diagnosis stays unmentioned by the social Nine as long as possible, so the mood around her does not suffer, and once it comes up she treats a situation that is actually very serious more in passing than openly." },
+        { code: "SX9", text: "His shock over the diagnosis draws more of the sexual Nine's attention than her own fear of the prognosis, once she has merged with him – her own fear stays in the background for a long time as a result." },
+      ]},
+    ],
+    abschluss: "Pancreatic cancer can affect anyone, regardless of subtype – lifestyle, pre-existing conditions, and predisposition are decisive, not personality. What shows up is simply how differently people handle a sudden, serious diagnosis: some through facts and control, others through caring for their family, withdrawal, or a toughly maintained will to keep functioning. This is exactly where the Enneagram homeopathy of this compass can offer accompanying support: not for the tumor treatment itself, which always belongs in medical hands, but for the life force of the respective subtype thrown out of balance during an existentially difficult time."
+  },
+  leukaemie: {
+    titel: "Leukemia",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "Cancers of the white blood cells that arise in the bone marrow and crowd out normal blood formation.",
+    definition: "Leukemia is an umbrella term for various malignant diseases of the blood-forming system, in which immature or improperly matured white blood cells multiply uncontrollably in the bone marrow and crowd out normal blood formation. A broad distinction is made between acute forms, which progress rapidly and require immediate treatment, and chronic forms, which often develop slowly over years, as well as between myeloid and lymphocytic leukemias depending on the affected cell line. The exact causes are usually multifactorial and include genetic changes in the blood-forming cells, ionizing radiation, certain chemicals such as benzene, prior chemotherapy, and, in rarer cases, hereditary predisposition. Treatment ranges, depending on type and stage, from chemotherapy to targeted medications and immunotherapy to stem cell transplantation, often involving longer phases of intensive treatment and a weakened immune defense.",
+    symptome: ["Persistent, unusually strong fatigue and reduced stamina", "Paleness from anemia", "Increased susceptibility to infections due to a lack of functioning white blood cells", "A tendency to bruise easily and pinpoint skin bleeding", "Increased bleeding from gums or nose", "Pain in bones or joints", "Swollen, usually painless lymph nodes and night sweats"],
+    notfall: "Seek prompt medical evaluation for high fever combined with severe exhaustion, unusual bleeding, marked paleness, or rapidly increasing lymph node swelling.",
+    disclaimer: "Every person can get any illness, regardless of subtype. What is described here is not a diagnosis and not statistics, but psychosomatic interpretive offerings – patterns that stand out in practice, but never replace seeing a doctor or licensed health practitioner.",
+    einleitung: "Unlike the other conditions in this compass, this one is explicitly not about a possible psychological contribution to causation – leukemia arises from genetic changes in the blood-forming system, from environmental factors, or from chance, not from character traits. What does show up subtype-specifically instead is how someone handles an illness that often brings long, intensive treatment phases – sometimes with isolation due to weakened immune defenses, frequently with a massive dependence on medical staff and one's own family: how is the loss of independence and daily routine handled? How is fear and exhaustion communicated during a long course of therapy? And how does the relationship to closeness and support change when someone relies on others for weeks or months? For each of the 27 subtypes, its own pattern shows up in how it handles diagnosis, treatment, and dependence.",
+    typen: [
+      { typ: 1, titel: "Discipline through a long course of treatment", varianten: [
+        { code: "SE1", text: "The self-preservation One usually follows treatment plans, medication schedules, and hygiene rules during treatment with great precision, because this disciplined compliance gives her a sense of footing amid the uncertainty." },
+        { code: "SO1", text: "The social One tries to maintain her role as a reliable pillar for her family even during her own serious treatment, rather than presenting herself as being in need." },
+        { code: "SX1", text: "Long isolation phases and restrictions during therapy provoke direct frustration from the sexual One, which she voices to nursing staff and family rather than holding back. This open release differs from the quiet endurance of other One variants." },
+      ]},
+      { typ: 2, titel: "Dependence as the greatest challenge", varianten: [
+        { code: "SE2", text: "During long treatment phases in which she must be cared for herself, the self-preservation Two often struggles inwardly to truly accept help, instead of returning to a helping role as soon as she can." },
+        { code: "SO2", text: "During an isolating treatment, the social Two often worries intensely about how the many people she normally supports are doing – her own neediness initially takes a back seat." },
+        { code: "SX2", text: "The sexual Two shares fear and exhaustion during treatment openly with the one important person, instead of concealing them. This openness carries her through long treatment phases better than the pure giving of other Two variants." },
+      ]},
+      { typ: 3, titel: "Functioning when the body no longer wants to", varianten: [
+        { code: "SE3", text: "Even during intensive chemotherapy, the self-preservation Three tries to keep functioning as efficiently as possible, putting herself under pressure to be resilient again faster than the treatment actually allows." },
+        { code: "SO3", text: "Hiding visible exhaustion, hair loss, or drops in performance during therapy becomes a priority for the social Three, because such an image is hard to reconcile with her polished image of success." },
+        { code: "SX3", text: "The sexual Three shows the full exhaustion of a long treatment in front of the one important person, instead of maintaining a facade. This protected space eases her processing compared with the public display of competence other Three variants maintain." },
+      ]},
+      { typ: 4, titel: "A long time alone with herself", varianten: [
+        { code: "SE4", text: "Toughing it out with little complaint through a long treatment is typical of the self-preservation Four, the counter-type, which can help her get through isolation phases practically, but can also prevent her from asking for help in time." },
+        { code: "SO4", text: "In the long, isolated phases of treatment, the social Four sometimes finds a bleak confirmation of her feeling of being set apart, rather than experiencing the isolation as a temporary medical measure." },
+        { code: "SX4", text: "The existential weight of the diagnosis and treatment gets talked through with great intensity with the one important person, rather than processed internally alone. This outward-directed expression differs from the stronger inward focus of other Four variants." },
+      ]},
+      { typ: 5, titel: "Withdrawal that becomes a trial of endurance", varianten: [
+        { code: "SE5", text: "The enforced isolation during treatment feels, in a way, familiar to the self-preservation Five, while at the same time the complete dependence on medical staff demands that she give up her usual autonomy considerably." },
+        { code: "SO5", text: "Treatment protocols and prognoses get thoroughly researched by the social Five within her professionally oriented reference group, while the personal experience of fear and exhaustion during the long treatment often stays unspoken." },
+        { code: "SX5", text: "Even her fear during treatment, the sexual Five shares with the one deep connection, instead of shutting herself off purely factually. This closeness can carry her especially well through a long course of therapy, more so than for other Five variants." },
+      ]},
+      { typ: 6, titel: "Building trust in the treatment team", varianten: [
+        { code: "SE6", text: "The self-preservation Six typically informs herself very precisely about the exact course of treatment, possible complications, and emergency scenarios, because this knowledge gives her back a piece of certainty during a long, largely uncontrollable therapy." },
+        { code: "SO6", text: "The social Six usually builds a close relationship of trust with her treatment team and orients herself strongly by their assessments, because a decision made alone would feel unsafe given such high stakes." },
+        { code: "SX6", text: "Active involvement in decisions and decisive action are how the sexual Six, the counter-type, faces fear of the long treatment, instead of endless brooding. This readiness to act eases her burden more than the worry-spiraling of other Six variants." },
+      ]},
+      { typ: 7, titel: "Lightness amid isolation", varianten: [
+        { code: "SE7", text: "During longer isolation phases, the self-preservation Seven actively looks for small pleasures and variety within the limited setting of the hospital room, because the absence of any option is especially hard for her." },
+        { code: "SO7", text: "Exhaustion and fear during treatment stay hidden from the group with the social Seven, the counter-type, who comes across as remarkably lighthearted in conversation, while inwardly remaining alone with the full weight of it." },
+        { code: "SX7", text: "The sexual Seven concentrates her attention with focus on the connection to the one important person during the long treatment, instead of fleeing into distraction. This engagement differs from the constant avoidance of other Seven variants." },
+      ]},
+      { typ: 8, titel: "Strength despite enforced dependence", varianten: [
+        { code: "SE8", text: "The self-preservation Eight experiences complete dependence on the treatment team during intensive therapy phases as especially hard to bear, and tries at least to preserve a sense of shared decision-making through precise questioning." },
+        { code: "SO8", text: "During a long, exhausting treatment, the social Eight maintains the strong, protective position in front of her group; her own fear or weakness usually stays hidden." },
+        { code: "SX8", text: "The sexual Eight shows the fear and exhaustion of treatment to the one person she trusts, instead of consistently demonstrating strength. This protected space eases the long treatment time for her compared with the permanent need for control of other Eight variants." },
+      ]},
+      { typ: 9, titel: "Symptoms that get lost in daily life", varianten: [
+        { code: "SE9", text: "The self-preservation Nine often interprets persistent tiredness and paleness as ordinary exhaustion for a long time, so as not to question her calm daily life – only clear symptoms such as bleeding bring her to get it checked." },
+        { code: "SO9", text: "Her own fear of diagnosis and long treatment gets set aside in conversations by the social Nine, who does not want to burden the mood around her, and talks about a situation that is actually very serious more in passing than openly." },
+        { code: "SX9", text: "During treatment, in merging with her partner, the sexual Nine directs her attention more toward his worry about her than toward her own fear, which as a result stays in the background for a long time." },
+      ]},
+    ],
+    abschluss: "Leukemia can affect anyone, regardless of subtype – genetic changes, environmental factors, and chance are decisive, not personality. What shows up is simply how differently people handle a long, often isolating treatment: some through discipline and knowledge, others through caring for their family, withdrawal, or a toughly maintained will to keep functioning. This is exactly where the Enneagram homeopathy of this compass can offer accompanying support: not for the tumor treatment itself, which always belongs in medical hands, but for the life force of the respective subtype thrown out of balance during a long, difficult time."
+  },
 const PSYCHOSOMATIK_GEPLANT = {
   "herz-kreislauf": [],
   "bewegungsapparat": [],
@@ -66314,7 +66786,7 @@ const PSYCHOSOMATIK_GEPLANT = {
   "hormone-stoffwechsel": [],
   "nerven-psyche": [],
   "immunsystem": [],
-  "onkologie": ["Breast Cancer", "Prostate Cancer", "Colorectal Cancer", "Lung Cancer", "Skin Cancer (Melanoma)", "Stomach Cancer", "Pancreatic Cancer", "Leukemia"],
+  "onkologie": [],
   "sonstige": ["Chronic Kidney Disease", "Erectile Dysfunction", "Infertility", "Periodontitis", "Chronic Bladder Infection (Cystitis)", "Glaucoma", "Endometriosis", "Urinary Incontinence"],
 };
 
