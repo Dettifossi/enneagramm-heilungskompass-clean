@@ -94749,7 +94749,7 @@ const KOMMUNIKATIONSGUIDE = {
     },
     ankommt: [
       `<strong>Anerkennung, die sich auf das Besondere bezieht – nicht auf Funktion.</strong> Ein generisches "gut gemacht" verpufft. Was wirkt, ist konkrete Würdigung dessen, was diese Person einzigartig eingebracht hat – ihre Perspektive, ihr Gespür, ihr Beitrag, der so von niemand anderem gekommen wäre.`,
-      `<strong>Echte Aufmerksamkeit, nicht Floskeln.</strong> SO4 spürt sehr genau den Unterschied zwischen höflicher Routine-Anerkennung und tatsächlichem Gesehenwerden. Lieber selten, aber echt.`,
+      `<strong>Echte Aufmerksamkeit, nicht Floskeln.</strong> Die SO4 spürt sehr genau den Unterschied zwischen höflicher Routine-Anerkennung und tatsächlichem Gesehenwerden. Lieber selten, aber echt.`,
       `<strong>Raum für Tiefe zulassen – ohne sich selbst darin zu verlieren.</strong> Ein Gespräch, das an der Oberfläche bleibt, wird als unbefriedigend erlebt. Gleichzeitig muss nicht jedes Gespräch tief werden.`,
     ],
     trigger: [
@@ -94760,8 +94760,8 @@ const KOMMUNIKATIONSGUIDE = {
     ],
     fuehrung: {
       titel: "Aus der Führungspraxis: die Gürteltier-Falle bei zu viel Tiefe",
-      text: `In meinem Buch <em>Führung mit Fundament</em> beschreibe ich (auf Typ-4-Ebene, nicht speziell SO4) den Fall einer Bereichsleiterin, die aus Tiefe und Bedeutung führt – und dabei übersieht, dass ihr Team irgendwann nur noch erschöpft reagiert, weil jede Kleinigkeit zur bedeutungsschweren Grundsatzfrage wird. Der entscheidende Satz einer Kollegin: <em>"Deine Tiefe ist beeindruckend. Aber sie lässt kaum Raum zum Atmen."</em><br><br>Für die SO4 heißt das übersetzt: Der Wunsch, dass alles authentisch und bedeutsam sein soll, kann das Gegenüber überfordern. Nicht jede Rückmeldung, nicht jedes Meeting muss zur Sinnfrage werden. Wer mit einer SO4 arbeitet oder sie führt, hilft ihr mehr mit dem Satz <strong>"Das ist gut so, wie es ist"</strong> als mit ständiger Vertiefung.`,
-      hinweis: `Im Buch beschreibe ich diesen Fall auf Ebene des Grundtyps 4, nicht subtypspezifisch. Die soziale Färbung – Bedeutung wird besonders im Gruppenkontext gesucht – ist eine Ergänzung auf Basis der übrigen Quellen, kein wörtliches Zitat.`,
+      text: `In unserem Buch <em>Führung mit Fundament</em> (das ich gemeinsam mit meinem Sohn David L. Rathmer geschrieben habe) beschreiben wir (auf Typ-4-Ebene, nicht speziell SO4) den Fall einer Bereichsleiterin, die aus Tiefe und Bedeutung führt – und dabei übersieht, dass ihr Team irgendwann nur noch erschöpft reagiert, weil jede Kleinigkeit zur bedeutungsschweren Grundsatzfrage wird. Der entscheidende Satz einer Kollegin: <em>"Deine Tiefe ist beeindruckend. Aber sie lässt kaum Raum zum Atmen."</em><br><br>Für die SO4 heißt das übersetzt: Der Wunsch, dass alles authentisch und bedeutsam sein soll, kann das Gegenüber überfordern. Nicht jede Rückmeldung, nicht jedes Meeting muss zur Sinnfrage werden. Wer mit einer SO4 arbeitet oder sie führt, hilft ihr mehr mit dem Satz <strong>"Das ist gut so, wie es ist"</strong> als mit ständiger Vertiefung.`,
+      hinweis: `Im Buch beschreiben wir diesen Fall auf Ebene des Grundtyps 4, nicht subtypspezifisch. Die soziale Färbung – Bedeutung wird besonders im Gruppenkontext gesucht – ist eine Ergänzung auf Basis der übrigen Quellen, kein wörtliches Zitat.`,
     },
     beziehung: {
       titel: `Beziehungsrisiko & heilende Bewegung`,
@@ -94770,11 +94770,35 @@ const KOMMUNIKATIONSGUIDE = {
       hilfreich: `Zweisamkeit/Einzelgespräche bewusst von der Gruppen-Situation entkoppeln – nicht nur in der großen Runde würdigen, sondern auch außerhalb der Bühne.`,
     },
     pairing: [
-      { partner: "SE7", dynamik: "spielerisch, ablenkungsfreudig", gefahr: "SO4 fühlt sich nicht ernst genommen", hilfreich: "Feste Zeiten für Ernsthaftigkeit vereinbaren" },
-      { partner: "SO8", dynamik: "einflussreich, dominant", gefahr: "Dominanz", hilfreich: "Wechselseitig Grenzen benennen" },
-      { partner: "SX9", dynamik: "verschmelzend", gefahr: "Abhängigkeit", hilfreich: "Eigene Eigenständigkeit bewusst halten" },
+      { partner: "SE1", dynamik: "Moral vs. Selbstdarstellung", gefahr: "Schuldzuweisung", hilfreich: "Emotionen wertschätzen" },
+      { partner: "SO1", dynamik: "Rolle vs. Ausdruck", gefahr: "Vergleich, Minderwert vs. Normdruck", hilfreich: "Gefühle spiegeln, nicht normieren" },
+      { partner: "SX1", dynamik: "Intensität vs. Selbstausdruck", gefahr: "Konkurrenz um Wahrnehmung", hilfreich: "Gegenseitig Ausdruck würdigen" },
+      { partner: "SE2", dynamik: "Fürsorge trifft Sehnsucht nach Anerkennung", gefahr: "Kränkbarkeit und verdeckte Vorwürfe", hilfreich: "Empfindlichkeiten respektvoll spiegeln" },
+      { partner: "SO2", dynamik: "beidseitige Suche nach Anerkennung im sozialen Feld", gefahr: "Dramen oder Überbetonung des Außenbildes", hilfreich: "Emotionale Ehrlichkeit kultivieren" },
+      { partner: "SX2", dynamik: "Zuwendung sucht Ausdruck", gefahr: "Kränkbarkeit und verdeckte Erwartungen", hilfreich: "Erwartungen offen ansprechen statt still rechnen" },
+      { partner: "SE3", dynamik: "Erfolg vor Publikum vs. Sehnsucht nach Echtheit", gefahr: "SO4 empfindet SE3 als oberflächlich", hilfreich: "Anerkennung und Resonanz ausbalancieren" },
+      { partner: "SO3", dynamik: "Selbstbild und Anerkennung im sozialen Feld", gefahr: "Dramatisierung, Imagefixierung", hilfreich: `Substanz vor Inszenierung – "weniger Bühne, mehr Echt"` },
+      { partner: "SX3", dynamik: "Intensität + Bühne", gefahr: "Konkurrenz in Aufmerksamkeit", hilfreich: "Rollen abwechseln, nicht gegeneinander spielen" },
+      { partner: "SE4", dynamik: "Rückzug vs. Bühne", gefahr: "SE4 fühlt sich übersehen, SO4 fühlt sich eingeengt", hilfreich: "Räume schaffen für Privatheit und Sichtbarkeit im Wechsel" },
+      { partner: "SO4", dynamik: "Resonanz und Authentizität", gefahr: "wechselseitige Kränkbarkeit", hilfreich: "Unterschied zwischen Projektion und Realität klären" },
+      { partner: "SX4", dynamik: "Intensität und Exklusivität", gefahr: "dramatische Schwankungen", hilfreich: "Zeiten von Ruhe bewusst einplanen" },
+      { partner: "SE5", dynamik: "Gefühl trifft auf Distanz", gefahr: "Rückzug als Kränkung erlebt", hilfreich: "Klare Balance von Nähe und Rückzug besprechen" },
+      { partner: "SO5", dynamik: "Resonanzbedürfnis vs. Zurückhaltung", gefahr: "Unsichtbarkeit als Ablehnung gedeutet", hilfreich: "Kleine Zeichen der Verbundenheit einüben" },
+      { partner: "SX5", dynamik: "Intensität vs. Rückzug", gefahr: "Überforderung", hilfreich: "Langsames Tempo akzeptieren" },
+      { partner: "SE6", dynamik: "Gefühl vs. Absicherung", gefahr: "Zu viel Skepsis", hilfreich: "Gefühle benennen statt nur Verhalten prüfen" },
+      { partner: "SO6", dynamik: "Resonanz vs. Loyalität", gefahr: "Zu viel Kontrolle", hilfreich: "Unterschied zwischen Loyalität und Kontrolle anerkennen" },
+      { partner: "SX6", dynamik: "Gefühl vs. Exklusivität", gefahr: "Eifersucht", hilfreich: "Sicherheit durch Transparenz schaffen" },
+      { partner: "SE7", dynamik: "Gefühl vs. Ablenkung", gefahr: "SO4 fühlt sich nicht ernst genommen", hilfreich: "Feste Zeiten für Ernsthaftigkeit vereinbaren" },
+      { partner: "SO7", dynamik: "Sehnsucht vs. Bühne", gefahr: "Oberflächlichkeit", hilfreich: "Balance zwischen Tiefe und Spaß suchen" },
+      { partner: "SX7", dynamik: "Intensität vs. Abenteuer", gefahr: "Sprunghaftigkeit verletzt Sehnsucht", hilfreich: "Klare Absprachen treffen" },
+      { partner: "SE8", dynamik: "Gefühl vs. Macht", gefahr: "SO4 fühlt sich überrollt", hilfreich: "Gefühle mutig äußern" },
+      { partner: "SO8", dynamik: "Resonanz vs. Einfluss", gefahr: "Dominanz", hilfreich: "Wechselseitig Grenzen achten" },
+      { partner: "SX8", dynamik: "Sehnsucht vs. Intensität", gefahr: "Explosive Konflikte", hilfreich: "Pausen im Streit bewusst setzen" },
+      { partner: "SE9", dynamik: "Gefühl vs. Harmonie", gefahr: "Konflikte werden verschleppt", hilfreich: "Gefühle rechtzeitig ansprechen" },
+      { partner: "SO9", dynamik: "Resonanz vs. Frieden", gefahr: "Verdrängung", hilfreich: "Aktives Nachfragen üben" },
+      { partner: "SX9", dynamik: "Sehnsucht vs. Verschmelzung", gefahr: "Abhängigkeit", hilfreich: "Eigenständigkeit bewahren" },
     ],
-    kurzfassung: `Sprich das Besondere an ihr an, nicht nur die Leistung. Gib Anerkennung auch dann, wenn niemand zuschaut. Nimm ihre Tiefe ernst – aber lass ihr auch Erlaubnis, dass nicht alles bedeutungsschwer sein muss.`,
+    kurzfassung: `Sprich das Besondere an ihr an, nicht nur die Leistung. Gib Anerkennung auch dann, wenn niemand zuschaut. Nimm ihre Tiefe ernst – aber lass ihr auch die Erlaubnis, dass nicht alles bedeutungsschwer sein muss.`,
   },
 };
 
@@ -95127,11 +95151,12 @@ function kommunikationsguidePage() {
     const hasData = !!KOMMUNIKATIONSGUIDE[code];
     const isSel = code === activeSubtype;
     const isMe = code === profCode;
-    const borderC = isSel ? "var(--copper)" : "var(--line)";
-    const bgC = isSel ? "color-mix(in srgb,var(--copper) 12%,var(--paper))" : "var(--paper)";
-    const colorC = isSel ? "var(--copper)" : "var(--ink)";
-    const opacity = hasData ? "1" : ".4";
-    return `<button data-komm-subtype="${code}" ${!hasData ? "disabled" : ""} style="padding:.4rem .6rem;border-radius:.4rem;border:1.5px solid ${borderC};background:${bgC};font-size:.78rem;font-weight:${isMe ? 700 : 500};color:${colorC};cursor:${hasData ? "pointer" : "default"};opacity:${opacity};font-family:inherit;white-space:nowrap;">${code}${isMe ? " ★" : ""}${!hasData ? '<br><span style="font-size:.6rem;font-weight:400;">bald</span>' : ""}</button>`;
+    const tc = typeColorFromCode(code);
+    const borderC = tc;
+    const bgC = isSel ? `color-mix(in srgb,${tc} 18%,var(--paper))` : `color-mix(in srgb,${tc} 6%,var(--paper))`;
+    const colorC = tc;
+    const opacity = hasData ? "1" : ".45";
+    return `<button data-komm-subtype="${code}" ${!hasData ? "disabled" : ""} style="padding:.4rem .6rem;border-radius:.4rem;border:1.5px solid ${borderC};background:${bgC};font-size:.78rem;font-weight:${isMe ? 700 : 500};color:${colorC};cursor:${hasData ? "pointer" : "default"};opacity:${opacity};font-family:inherit;white-space:nowrap;">${code}${isMe ? " ★" : ""}${!hasData ? '<br><span style="font-size:.6rem;font-weight:400;color:var(--muted);">bald</span>' : ""}</button>`;
   }).join("");
 
   let resultHtml = `<p style="text-align:center;color:var(--muted);font-size:.9rem;margin-top:2rem;">W&auml;hle einen Subtyp, um zu erfahren, wie du ihm im Alltag, in Beziehung und F&uuml;hrung am besten begegnest.</p>`;
@@ -95142,7 +95167,7 @@ function kommunikationsguidePage() {
       <div style="background:var(--paper);border:1px solid var(--copper);border-radius:1rem;padding:1.4rem 1.6rem;margin-top:1.5rem;max-width:100%;">
         <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;margin-bottom:.3rem;">Kommunikationsguide &middot; ${activeSubtype} &middot; Tierentsprechung: ${g.tier}</div>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1rem 0 .6rem;color:var(--ink);">1. Woran erkennst du ${activeSubtype}?</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1rem 0 .6rem;color:var(--ink);">1. Woran erkennst du die ${activeSubtype}?</h3>
         <p style="margin:0 0 .8rem;font-size:.92rem;line-height:1.75;color:var(--ink);">${g.erkennung}</p>
 
         <div style="border-left:3px solid color-mix(in srgb, var(--copper) 45%, var(--line));padding:.8rem 1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:0 .5rem .5rem 0;margin-bottom:1rem;">
@@ -95189,11 +95214,11 @@ function kommunikationsguidePage() {
         <div style="display:grid;gap:.6rem;margin-bottom:1rem;">
           ${g.pairing.map(p => `
             <div style="border:1px solid var(--line);border-radius:.6rem;padding:.6rem .9rem;font-size:.85rem;line-height:1.6;color:var(--ink);">
-              <strong>${activeSubtype} + ${p.partner}</strong> (${p.dynamik}): Gefahr &ndash; ${p.gefahr}. Hilfreich &ndash; ${p.hilfreich}.
+              <strong><span style="color:${typeColorFromCode(activeSubtype)};">${activeSubtype}</span> + <span style="color:${typeColorFromCode(p.partner)};">${p.partner}</span></strong> (${p.dynamik}): Gefahr &ndash; ${p.gefahr}. Hilfreich &ndash; ${p.hilfreich}.
             </div>
           `).join("")}
         </div>
-        <p style="margin:0 0 1.2rem;font-size:.78rem;color:var(--muted);font-style:italic;">Alle 26 Paarungen aus "Die Sprache unserer Beziehungen" liegen vor und werden nach und nach ergänzt.</p>
+        <p style="margin:0 0 1.2rem;font-size:.78rem;color:var(--muted);font-style:italic;">Alle 26 Paarungen aus "Die Sprache unserer Beziehungen".</p>
 
         <div style="background:rgba(180,120,0,0.08);border-left:3px solid var(--gold);padding:.9rem 1.1rem;border-radius:0 .6rem .6rem 0;">
           <div style="font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin-bottom:.4rem;">Kurzfassung zum Merken</div>
