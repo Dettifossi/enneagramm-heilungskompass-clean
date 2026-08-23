@@ -95292,7 +95292,7 @@ const PSYCHOSOMATIK_KATEGORIEN = [
   { key: "bewegungsapparat", label: "Bewegungsapparat", farbe: "#8a7860" },
   { key: "atemwege", label: "Atemwege & Lunge", farbe: "#4a7f91" },
   { key: "verdauung", label: "Verdauungssystem", farbe: "#ab7d42" },
-  { key: "niere", label: "Niere", farbe: "#3d6b5c" },
+  { key: "niere", label: "Niere & Blase", farbe: "#3d6b5c" },
   { key: "haut", label: "Haut", farbe: "#c99b7a" },
   { key: "hormone-stoffwechsel", label: "Hormone & Stoffwechsel", farbe: "#7d6a8c" },
   { key: "nerven-psyche", label: "Nervensystem & Psyche", farbe: "#46688f" },
@@ -101784,7 +101784,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
   chronische_blasenentzuendung_zystitis: {
     titel: "Chronische Blasenentzündung (Zystitis)",
-    kategorie: "sonstige",
+    kategorie: "niere",
     icon: "💧",
     kurz: "Eine immer wiederkehrende Entzündung der Blasenschleimhaut, die oft weit über den einzelnen akuten Infekt hinaus zu einem Dauerthema wird – mit Brennen, Druckgefühl und der ständigen Sorge vor dem nächsten Schub.",
     definition: "Eine Zystitis ist eine Entzündung der Harnblasenschleimhaut, meist ausgelöst durch aufsteigende Bakterien, in den allermeisten Fällen Escherichia coli aus dem eigenen Darm. Von einer chronischen bzw. rezidivierenden Zystitis spricht man, wenn mindestens zwei Infekte innerhalb von sechs Monaten oder drei innerhalb eines Jahres auftreten. Frauen sind aufgrund der kürzeren Harnröhre deutlich häufiger betroffen als Männer. Begünstigende Faktoren sind unter anderem Geschlechtsverkehr, hormonelle Veränderungen etwa in den Wechseljahren, ein geschwächtes lokales Immunmilieu der Schleimhaut, häufiges Zurückhalten des Harndrangs sowie in manchen Fällen anatomische Besonderheiten. Bei einem Teil der Betroffenen finden sich trotz typischer Beschwerden keine ausreichenden Bakterienmengen im Urin – man spricht dann von einem interstitiellen oder abakteriellen Reizblasensyndrom, das eng verwandte, aber eigenständige Beschwerdebild.",
@@ -101961,7 +101961,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
   blasenschwaeche_inkontinenz: {
     titel: "Blasenschwäche / Inkontinenz",
-    kategorie: "sonstige",
+    kategorie: "niere",
     icon: "🚿",
     kurz: "Ein unwillkürlicher Verlust der Kontrolle über die Blase, der weit häufiger vorkommt, als offen darüber gesprochen wird – von leichtem Tröpfeln beim Husten bis zu vollständigem Kontrollverlust.",
     definition: "Unter Harninkontinenz versteht man jeden unwillkürlichen Verlust von Urin. Man unterscheidet mehrere Formen: Die Belastungsinkontinenz zeigt sich bei körperlicher Anstrengung, Husten, Niesen oder Lachen und entsteht meist durch eine Schwäche des Beckenbodens, häufig nach Geburten oder in den Wechseljahren durch hormonelle Veränderungen. Die Dranginkontinenz geht mit einem plötzlichen, kaum unterdrückbaren Harndrang einher, oft bedingt durch eine überaktive Blase. Weitere Ursachen können neurologische Erkrankungen, Prostataerkrankungen bei Männern, bestimmte Operationen oder altersbedingte Veränderungen des Gewebes sein. Inkontinenz ist keine Seltenheit und kein Zeichen persönlichen Versagens – Schätzungen zufolge sind Millionen Menschen jeden Alters betroffen, wobei aus Scham ein erheblicher Teil der Fälle nie ärztlich abgeklärt wird, obwohl gute Behandlungsmöglichkeiten bestehen, von Beckenbodentraining über Medikamente bis zu operativen Verfahren.",
