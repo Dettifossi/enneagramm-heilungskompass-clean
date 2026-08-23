@@ -43403,7 +43403,7 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
     kernthema: "Verschmelzung mit einem einzelnen Wesen, Werk oder Stil statt Zugehörigkeit zu einer Gruppe",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein"],
     fingerabdruecke: [
       {
         titel: "Die eine Bindung statt der vielen Kontakte",
@@ -43424,6 +43424,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "Häufig geht der eigentlichen Hingabe eine biografische Zäsur voraus",
         beschreibung: "Bei einem Teil der Fälle (nicht bei allen) steht am Anfang nicht ein geplanter Weg, sondern eine Krise, ein Bruch oder ein Zufall – aus dem heraus sich die spätere, oft lebenslange Verschmelzungserfahrung erst entwickelt.",
         beleg: "Craig Fosters Burnout vor der Begegnung mit dem Oktopus; Ana Salcedas zufällige, ungeplante Pflegemutterschaft für ein verwaistes Jungtier. Gegenbeispiele wie Świątek, Marceau oder Barth (planmäßiger Wechsel vom Fernmeldeelektroniker zur Bühnenfigur) zeigen: Dieses Muster ist häufig, aber kein zwingendes Kriterium."
+      },
+      {
+        titel: "Wenn die Verschmelzung zur wahnhaften Aneignung eines anderen Wesens wird (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird dasselbe Bedürfnis nach vollständigem Aufgehen in einem anderen Wesen nicht mehr symbolisch oder kreativ kanalisiert, sondern wahnhaft wörtlich genommen: Das Gegenüber soll nicht mehr nur innerlich, sondern physisch angeeignet werden.",
+        beleg: "Ed Gein, dessen extrem dominante Mutter Augusta 1945 starb und der danach über Jahre Gräber älterer Frauen öffnete, um aus ihren Überresten buchstäblich in ihre Identität ›hineinzuschlüpfen‹ – ›er suchte nicht Opfer, er suchte Stellvertreter für seine Mutter‹. Wo Beltracchi mit dem Geist toter Meister verschmolz, versuchte Gein, mit dem Körper seiner toten Mutter zu verschmelzen – derselbe Grundmechanismus, hier bis zur tödlichen Psychose entgleist. Wichtig: Dies ist der einzige bekannte Fall dieser Art unter den SX9-Porträts dieses Kompasses, eine seltene, tragische Extremform, keine typische Ausprägung."
       }
     ]
   },

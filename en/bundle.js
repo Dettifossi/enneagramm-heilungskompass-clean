@@ -38349,7 +38349,7 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Merging with a single being, work, or style instead of belonging to a group",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein"],
     fingerabdruecke: [
       {
         titel: "The one bond instead of many contacts",
@@ -38370,6 +38370,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "A biographical turning point often precedes the actual devotion",
         beschreibung: "In some of the cases (not all), the beginning is not a planned path, but a crisis, a rupture, or a coincidence – out of which the later, often lifelong, merging experience first develops.",
         beleg: "Craig Foster's burnout before encountering the octopus; Ana Salceda's accidental, unplanned foster motherhood for an orphaned young animal. Counter-examples like Świątek, Marceau, or Barth (a planned switch from telecommunications technician to stage persona) show: this pattern is common, but not a necessary criterion."
+      },
+      {
+        titel: "When merging turns into the delusional appropriation of another being (shadow form)",
+        beschreibung: "In its destructive expression, the same need for complete dissolution into another being is no longer channeled symbolically or creatively, but taken delusionally literally: the other is meant to be appropriated not just inwardly, but physically.",
+        beleg: "Ed Gein, whose extremely domineering mother Augusta died in 1945, after which he spent years opening the graves of older women to literally 'slip into' their identity using their remains – 'he was not seeking victims, he was seeking substitutes for his mother.' Where Beltracchi merged with the spirit of dead masters, Gein tried to merge with the body of his dead mother – the same underlying mechanism, here derailed into a deadly psychosis. Important: this is the only known case of this kind among the SX9 portraits in this compass, a rare, tragic extreme, not a typical expression."
       }
     ]
   },
