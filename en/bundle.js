@@ -60518,12 +60518,12 @@ const PSYCHOSOMATIK_KATEGORIEN = [
   { key: "bewegungsapparat", label: "Musculoskeletal System", farbe: "#8a7860" },
   { key: "atemwege", label: "Respiratory System & Lungs", farbe: "#4a7f91" },
   { key: "verdauung", label: "Digestive System", farbe: "#ab7d42" },
+  { key: "niere", label: "Kidney", farbe: "#3d6b5c" },
   { key: "haut", label: "Skin", farbe: "#c99b7a" },
   { key: "hormone-stoffwechsel", label: "Hormones & Metabolism", farbe: "#7d6a8c" },
   { key: "nerven-psyche", label: "Nervous System & Psyche", farbe: "#46688f" },
   { key: "immunsystem", label: "Immune System & Autoimmune", farbe: "#7a3d4a" },
   { key: "onkologie", label: "Oncology", farbe: "#5c4a5e" },
-  { key: "niere", label: "Kidney", farbe: "#3d6b5c" },
   { key: "sonstige", label: "Other Conditions", farbe: "#6b6558" },
 ];
 
