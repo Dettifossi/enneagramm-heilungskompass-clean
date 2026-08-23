@@ -95638,7 +95638,7 @@ const KOMMUNIKATIONSGUIDE = {
     fluegel: {
       titel: "Flügel-Nuance: SO5w4 und SO5w6",
       w1: { code: "SO5w4", route: "beruehmte-albert-einstein", name: "Albert Einstein", text: `die Distanz bekommt eine introspektivere, originellere Note – Wissen soll auch etwas Eigenes, Bedeutsames ausdrücken, nicht nur Zugehörigkeit sichern. Reagiert gut auf Anerkennung für die eigene, unverwechselbare Denkweise, weniger gut auf konventionellen Erwartungsdruck.` },
-      w2: { code: "SO5w6", route: "beruehmte-bill-gates", name: "Bill Gates", text: `die Distanz wird systematischer, mit einem Hang zu verlässlichen Strukturen und langfristiger Planung verbunden – Wissen soll auch praktisch verwertbar und absicherbar sein. Reagiert gut auf klare, verbindliche Zusagen, schlecht auf vage, unverbindliche Absprachen.` },
+      w2: { code: "SO5w6", route: "beruehmte-guenther-jauch", name: "Günther Jauch", text: `die Distanz wird systematischer, mit einem Hang zu verlässlichen Strukturen und langfristiger Planung verbunden – Wissen soll auch praktisch verwertbar und absicherbar sein. Reagiert gut auf klare, verbindliche Zusagen, schlecht auf vage, unverbindliche Absprachen.` },
     },
     stressWachstum: {
       stress: `Unter Stress bewegt sich die SO5 Richtung <strong>Typ 7</strong>: Aus konzentrierter Analyse wird plötzlich fahrige Zerstreuung, sprunghaftes Denken zwischen zu vielen Themen. Erkennst du dieses Muster, ist das ein Signal für erhöhten inneren Druck – kein guter Moment für weitere Informationsflut, ein guter Moment für ruhigen, klar begrenzten Austausch.`,
