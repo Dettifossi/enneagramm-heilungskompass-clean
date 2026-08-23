@@ -101163,7 +101163,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Krankheit mit eigener Bedeutung", varianten: [
         { code: "SE4", text: "Ihre körperliche Verschlechterung trägt die selbsterhaltende Vier, der Kontratyp, oft zäh und ohne viel Klage, während sie im Stillen versucht, trotz eingeschränkter Ernährung möglichst funktional zu bleiben." },
-        { code: "SO4", text: "In der eigenen Magenkrebsdiagnose kann die soziale Vier eine tragische Bestätigung ihres Gefühls finden, dass ihr Leben schon immer schwerer war als das anderer – die Krankheit wird so leicht Teil der eigenen Identität statt einer medizinischen Episode." },
+        { code: "SO4", text: "Dass ihr Leben schon immer schwerer war als das anderer, kann sich für die soziale Vier in der Magenkrebsdiagnose tragisch bestätigt fühlen – die Krankheit wird so leicht Teil der eigenen Identität statt einer medizinischen Episode." },
         { code: "SX4", text: "Über die Angst hinter der Diagnose spricht die sexuelle Vier intensiv und unmittelbar mit der einen wichtigen Person, statt sie still in sich zu verarbeiten." },
       ]},
       { typ: 5, titel: "Verstehen, bevor gefühlt wird", varianten: [
@@ -101222,7 +101222,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Die Tiefe einer existenziellen Nachricht", varianten: [
         { code: "SE4", text: "Ihre Angst trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne große Worte, während sie im Hintergrund weiter funktioniert – dieses stille Durchhalten kann verhindern, dass sie rechtzeitig Unterstützung einfordert." },
-        { code: "SO4", text: "In der Schwere der eigenen Diagnose erkennt die soziale Vier mitunter eine tragische Bestätigung ihres tiefen Gefühls, ohnehin ein besonders schweres Los zu tragen, statt sie als eigenständige medizinische Realität zu behandeln." },
+        { code: "SO4", text: "Ohnehin ein besonders schweres Los zu tragen – dieses tiefe Gefühl der sozialen Vier kann sich in der Schwere der eigenen Diagnose tragisch bestätigt sehen, statt als eigenständige medizinische Realität behandelt zu werden." },
         { code: "SX4", text: "Mit großer emotionaler Intensität spricht die sexuelle Vier über die existenzielle Wucht der Diagnose mit der einen wichtigen Person, statt sie zu verinnerlichen. Dieser nach außen gerichtete Ausdruck unterscheidet sich von der stilleren Verarbeitung anderer Vierer-Varianten." },
       ]},
       { typ: 5, titel: "Fakten als erster Halt", varianten: [
@@ -101576,7 +101576,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine schleichende Bedrohung, die kaum Worte findet", varianten: [
         { code: "SE4", text: "Ihre Angst vor der fortschreitenden Erkrankung trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne große Klage mit sich, statt sie auszudrücken – ein Verhalten, das dem für ihren Typ eigentlich typischen dramatischen Ausdruck deutlich widerspricht." },
-        { code: "SO4", text: "In der Diagnose findet die soziale Vier mitunter eine schmerzhafte Bestätigung ihres Gefühls, mit ihrem Leiden ohnehin unverstanden zu bleiben, was sie eher zurückzieht als offen darüber sprechen lässt." },
+        { code: "SO4", text: "Mit ihrem Leiden ohnehin unverstanden zu bleiben – dieses Gefühl kann die Diagnose bei der sozialen Vier schmerzhaft bestätigen, was sie eher zurückzieht als offen darüber sprechen lässt." },
         { code: "SX4", text: "Ihre Angst vor Dialyse und Funktionsverlust bringt die sexuelle Vier intensiv zur Sprache, aber nur mit der einen Person, der sie sich verbunden fühlt." },
       ]},
       { typ: 5, titel: "Werte, Kurven und der Rückzug ins Faktische", varianten: [
@@ -101635,7 +101635,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Scham, die zur Bestätigung des Andersseins wird", varianten: [
         { code: "SE4", text: "Ihre Verunsicherung trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und wortkarg mit sich, statt sie auszudrücken – ein Verhalten, das dem für ihren Typ sonst typischen offenen Gefühlsausdruck deutlich widerspricht." },
-        { code: "SO4", text: "In der Störung findet die soziale Vier mitunter eine schmerzhafte Bestätigung des Gefühls, körperlich wie emotional unzulänglich zu sein, was den Rückzug aus der Intimität eher verstärkt als lindert." },
+        { code: "SO4", text: "Körperlich wie emotional unzulänglich zu sein – dieses Gefühl kann sich bei der sozialen Vier durch die Störung schmerzhaft bestätigen, was den Rückzug aus der Intimität eher verstärkt als lindert." },
         { code: "SX4", text: "Intensiv und unmittelbar spricht die sexuelle Vier ihre Scham gegenüber der einen wichtigen Person an, statt sie wie andere Vierer-Varianten in innerer Grübelei zu verarbeiten." },
       ]},
       { typ: 5, titel: "Rückzug in Erklärung und Distanz", varianten: [
@@ -101694,7 +101694,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Schmerz, der endlich einen Namen hat", varianten: [
         { code: "SE4", text: "Ihre Trauer über jeden erfolglosen Zyklus trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und funktional mit sich und funktioniert äußerlich unbeirrt weiter, entgegen dem für ihren Typ eigentlich typischen offenen Ausdruck von Schmerz." },
-        { code: "SO4", text: "In der wiederkehrenden Enttäuschung findet die soziale Vier mitunter eine schmerzhafte Bestätigung des eigenen Gefühls, mit ihrem Leiden grundsätzlich unverstanden zu bleiben, selbst im Austausch mit anderen Betroffenen." },
+        { code: "SO4", text: "Selbst im Austausch mit anderen Betroffenen bleibt bei der sozialen Vier oft ein Gefühl grundsätzlichen Unverstandenseins – die wiederkehrende Enttäuschung kann genau das schmerzhaft bestätigen." },
         { code: "SX4", text: "Intensiv und ungefiltert spricht die sexuelle Vier ihre Trauer gegenüber der einen wichtigen Person aus, statt sie wie andere Vierer-Varianten in innerer Grübelei zu verarbeiten." },
       ]},
       { typ: 5, titel: "Rückzug in Statistik und Fachwissen", varianten: [
@@ -102048,7 +102048,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Schmerz, der endlich gehört wird", varianten: [
         { code: "SE4", text: "Zäh und wortkarg trägt die selbsterhaltende Vier, der Kontratyp, ihre Angst vor dem nächsten Anfall mit sich – ein auffälliger Kontrast zu dem dramatischen Ausdruck, der ihrem Typ eigentlich zugeschrieben wird." },
-        { code: "SO4", text: "In der plötzlichen, unübersehbaren Heftigkeit der Kolik findet die soziale Vier mitunter eine seltene Bestätigung, dass ihr Leiden endlich unmissverständlich sichtbar wird, statt wie sonst unbemerkt zu bleiben." },
+        { code: "SO4", text: "Endlich unmissverständlich sichtbar statt wie sonst unbemerkt – das kann die plötzliche, unübersehbare Heftigkeit der Kolik für die soziale Vier bedeuten, die ihr Leiden selten so eindeutig anerkannt sieht." },
         { code: "SX4", text: "Intensiv beschreibt die sexuelle Vier den Schmerz gegenüber der einen Person, der sie sich verbunden fühlt, statt ihn wie andere Vierer-Varianten eher innerlich zu verarbeiten." },
       ]},
       { typ: 5, titel: "Der Körper als überraschende Blackbox", varianten: [
@@ -102107,7 +102107,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Eine Krise, die alles auf einmal aufwühlt", varianten: [
         { code: "SE4", text: "In der akuten Krise funktioniert die selbsterhaltende Vier, der Kontratyp, zäh weiter, ihre Angst bleibt dabei meist unausgesprochen." },
-        { code: "SO4", text: "In der abrupten Schwere der Situation findet die soziale Vier mitunter eine schmerzhafte Bestätigung, dass das Leben für sie besonders hart verläuft, statt sie als vorübergehende medizinische Episode einzuordnen." },
+        { code: "SO4", text: "Dass das Leben für sie besonders hart verläuft, kann die abrupte Schwere der Situation der sozialen Vier schmerzhaft bestätigen – statt als vorübergehende medizinische Episode eingeordnet zu werden." },
         { code: "SX4", text: "Ungeschminkt teilt die sexuelle Vier ihre Todesangst in der Akutsituation mit der einen Person, der sie sich verbunden fühlt, statt sie für sich zu behalten." },
       ]},
       { typ: 5, titel: "Verstehen als Halt in der Krise", varianten: [
@@ -102166,7 +102166,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Krankheit als spürbare Bestätigung", varianten: [
         { code: "SE4", text: "Ohne große Klage trägt die selbsterhaltende Vier, der Kontratyp, ihr Unwohlsein zäh mit sich, statt es auszudrücken." },
-        { code: "SO4", text: "In der plötzlichen Schwere der fiebrigen Erkrankung findet die soziale Vier mitunter eine schmerzhafte Bestätigung, wie verletzlich und ungeschützt sie sich ohnehin fühlt." },
+        { code: "SO4", text: "Wie verletzlich und ungeschützt sie sich ohnehin fühlt, kann sich für die soziale Vier in der plötzlichen Schwere der fiebrigen Erkrankung schmerzhaft bestätigen." },
         { code: "SX4", text: "Ihre Angst während des hohen Fiebers teilt die sexuelle Vier intensiv mit der einen Person, der sie sich verbunden fühlt, statt sich zurückzuziehen." },
       ]},
       { typ: 5, titel: "Erklärungen gegen die Überforderung", varianten: [
@@ -103266,7 +103266,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Ein Ort, an dem Scham und Krankheit sich treffen", varianten: [
         { code: "SX4", text: "Die Scham über eine veränderte Harnableitung vertraut die sexuelle Vier unmittelbar der einen Person an, der sie sich verbunden fühlt, statt das Thema wie ein Tabu zu behandeln." },
-        { code: "SO4", text: "In der Krankheit findet die soziale Vier mitunter eine schmerzhafte Bestätigung ihres Gefühls, mit einem als peinlich empfundenen Leiden ohnehin unverstanden zu bleiben, was sie eher zurückzieht als sprechen lässt." },
+        { code: "SO4", text: "Mit einem als peinlich empfundenen Leiden ohnehin unverstanden zu bleiben – dieses Gefühl kann die Krankheit bei der sozialen Vier schmerzhaft bestätigen, was sie eher zurückzieht als sprechen lässt." },
         { code: "SE4", text: "Ihre Angst vor der Operation und der veränderten Körperfunktion trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne große Klage, entgegen dem für ihren Typ sonst typischen dramatischen Ausdruck." },
       ]},
       { typ: 5, titel: "Verstehen als Weg durch die Scham", varianten: [
@@ -103325,7 +103325,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Verlust, der tief an die Identität rührt", varianten: [
         { code: "SX4", text: "Ihre Trauer über einen möglichen Verlust der Fruchtbarkeit vertraut die sexuelle Vier unmittelbar der einen Person an, der sie sich verbunden fühlt, statt dieses existenzielle Thema zu meiden." },
-        { code: "SO4", text: "In der Diagnose kann die soziale Vier mitunter eine schmerzhafte Bestätigung ihres Gefühls finden, mit tiefem Leiden ohnehin unverstanden zu bleiben, was sie eher zurückzieht als offen sprechen lässt." },
+        { code: "SO4", text: "Mit tiefem Leiden ohnehin unverstanden zu bleiben – dieses vertraute Gefühl kann sich bei der sozialen Vier durch die Diagnose schmerzhaft bestätigen, was sie eher zurückzieht als offen sprechen lässt." },
         { code: "SE4", text: "Ihre Angst vor Operation und Prognose funktioniert die selbsterhaltende Vier, der Kontratyp, weitgehend weg, statt sie auszudrücken – ganz anders, als man es diesem Typ gemeinhin zutrauen würde." },
       ]},
       { typ: 5, titel: "Wissen gegen die späte Diagnose", varianten: [
