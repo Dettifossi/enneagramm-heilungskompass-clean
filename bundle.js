@@ -71830,7 +71830,7 @@ function johnHinckleyJrPortraitPage() {
         <p class="vb-intro"><strong>a) Sechs Schüsse in drei Sekunden:</strong>
         Am 30. März 1981 zog Hinckley vor dem Hilton Hotel einen Röhm-RG-14-Revolver (.22 lr)
         und feuerte in drei Sekunden sechs Schüsse ab. Er traf Pressesprecher James Brady
-        schwer im Kopf, verletzte einen Polizeibeamten und einen Secret-Service-Agenten; der
+        schwer in den Kopf, verletzte einen Polizeibeamten und einen Secret-Service-Agenten; der
         letzte Schuss prallte von der gepanzerten Limousine ab und traf Reagan in die Brust,
         knapp am Herzen vorbei.</p>
         <p class="vb-intro"><strong>b) Der Abschiedsbrief an Jodie Foster:</strong>
