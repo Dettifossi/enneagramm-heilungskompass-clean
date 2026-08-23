@@ -95294,10 +95294,12 @@ const PSYCHOSOMATIK_KATEGORIEN = [
   { key: "verdauung", label: "Verdauungssystem", farbe: "#ab7d42" },
   { key: "niere", label: "Niere & Blase", farbe: "#3d6b5c" },
   { key: "haut", label: "Haut", farbe: "#c99b7a" },
+  { key: "augen", label: "Augen", farbe: "#4d7a8c" },
   { key: "hormone-stoffwechsel", label: "Hormone & Stoffwechsel", farbe: "#7d6a8c" },
   { key: "nerven-psyche", label: "Nervensystem & Psyche", farbe: "#46688f" },
   { key: "immunsystem", label: "Immunsystem & Autoimmun", farbe: "#7a3d4a" },
   { key: "onkologie", label: "Onkologie", farbe: "#5c4a5e" },
+  { key: "psychiatrie", label: "Psychiatrische Erkrankungen", farbe: "#6a4d6e" },
   { key: "sonstige", label: "Sonstige Krankheitsbilder", farbe: "#6b6558" },
 ];
 
@@ -101843,7 +101845,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
   },
   gruener_star_glaukom: {
     titel: "Grüner Star (Glaukom)",
-    kategorie: "sonstige",
+    kategorie: "augen",
     icon: "👁️",
     kurz: "Eine schleichende Erkrankung des Sehnervs, meist durch erhöhten Augeninnendruck bedingt, die das Gesichtsfeld langsam und oft unbemerkt einengt – bis ein erheblicher Teil bereits verloren ist.",
     definition: "Als Glaukom bezeichnet man eine Gruppe von Augenerkrankungen, bei denen der Sehnerv fortschreitend geschädigt wird, meist infolge eines erhöhten Augeninnendrucks, der durch ein gestörtes Abflussgleichgewicht des Kammerwassers entsteht. Das Tückische am Glaukom ist sein schleichender Verlauf: Das Gesichtsfeld verengt sich zunächst von außen nach innen, ohne dass Betroffene dies im Alltag bemerken, da das Gehirn die entstehenden Lücken lange kompensiert. Unbehandelt kann ein Glaukom bis zur vollständigen Erblindung führen. Risikofaktoren sind unter anderem familiäre Vorbelastung, höheres Lebensalter, Kurzsichtigkeit, Diabetes sowie ein grundsätzlich erhöhter Augeninnendruck. Regelmäßige augenärztliche Vorsorgeuntersuchungen sind entscheidend, da der entstandene Sehnervschaden nicht rückgängig gemacht werden kann – die Behandlung zielt darauf, das Fortschreiten aufzuhalten.",
@@ -102253,6 +102255,1224 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
     ],
     abschluss: "Nierenkrebs entsteht durch ein Zusammenspiel biologischer Risikofaktoren – Rauchen, Übergewicht, Bluthochdruck, genetische Veranlagung, Alter und Zufall –, niemals durch Charaktereigenschaften oder psychische Muster. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit Diagnose, Operation und der Ungewissheit der Nachsorge umgeht – manche über Struktur und Wissen, andere über Rückzug, Fürsorge für andere oder ungewohnte Offenheit gegenüber einer nahestehenden Person. Dieses Wissen ersetzt keine onkologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
+  },
+  hepatitis_b_chronisch: {
+    titel: "Hepatitis B (chronisch)",
+    kategorie: "immunsystem",
+    icon: "🧬",
+    kurz: "Eine Leberentzündung, die nicht ausheilt, sondern zum dauerhaften Begleiter wird – mit der Frage, wem man davon erzählt und wem nicht.",
+    definition: "Die chronische Hepatitis B ist eine über mindestens sechs Monate fortbestehende Entzündung der Leber durch das Hepatitis-B-Virus (HBV), das über Blut, Sexualkontakt oder von der Mutter auf das Kind übertragen werden kann. Bei einem kleinen Teil der Infizierten – besonders wenn die Ansteckung im Erwachsenenalter erfolgte – heilt die Infektion nicht vollständig aus, sondern das Virus bleibt dauerhaft in der Leber nachweisbar. Unbehandelt kann eine chronische Hepatitis B über Jahre zu einer Leberfibrose, einer Leberzirrhose oder in seltenen Fällen zu Leberkrebs führen. Moderne antivirale Medikamente können die Virusvermehrung jedoch bei den meisten Betroffenen zuverlässig unterdrücken und den Krankheitsverlauf über Jahrzehnte stabil halten – eine chronische Hepatitis B ist damit für die überwiegende Mehrheit der Betroffenen heute eine gut behandelbare Langzeiterkrankung, keine automatische Vorstufe zu Leberversagen. Wie eine Infektion erworben wurde, sagt nichts über den Charakter der betroffenen Person aus.",
+    symptome: ["Häufig über Jahre keine oder nur unspezifische Symptome (Müdigkeit, leichtes Druckgefühl im rechten Oberbauch)", "Gelegentlich Gelbfärbung von Haut und Augen bei akuten Schüben", "Erhöhte Leberwerte bei Routineuntersuchungen als häufiger Zufallsbefund", "Im Spätstadium Zeichen einer Leberzirrhose (Wassereinlagerungen, Blutungsneigung)", "Psychische Belastung durch die Diagnose, Offenlegungsfragen und Zukunftsungewissheit"],
+    notfall: "Bei starker Gelbsucht, Verwirrtheit, Blutungen oder starken Bauchschmerzen sofort ärztlich abklären lassen – das kann auf eine akute Leberdekompensation hindeuten.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie eine chronische Hepatitis B erworben wurde, spielt für diese psychosomatische Betrachtung keine Rolle und ist mit keinerlei moralischer Wertung verbunden – im Zentrum steht ausschließlich, wie ein Mensch mit der Diagnose selbst umgeht: mit der Entscheidung, wem er davon erzählt und wem nicht, mit der Frage der Behandlungstreue über Jahre hinweg, und mit der Navigation von Nähe und Intimität, wenn eine dauerhafte Infektion Teil des eigenen Lebens geworden ist. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster im Umgang mit Offenlegung, Therapiedisziplin und der eigenen Verletzlichkeit gegenüber anderen.",
+    typen: [
+      { typ: 1, titel: "Zwischen Offenlegungspflicht und Scham", varianten: [
+        { code: "SE1", text: "Ihre antiviralen Medikamente nimmt die selbsterhaltende Eins mit großer Verlässlichkeit zu genau denselben Zeiten ein, das gibt ihr innere Ordnung inmitten einer Diagnose, die sie sich nicht ausgesucht hat. Schwerer fällt ihr oft die Frage, ob sie im engsten Umfeld überhaupt jemandem davon erzählen soll." },
+        { code: "SO1", text: "Was sie moralisch schuldet, denkt die soziale Eins bei einer Infektion, die auch übertragbar ist, häufig genau durch – wem gegenüber besteht eine Offenlegungspflicht, wem nicht. Dieses innere Regelwerk kann entlasten, aber auch zu übertrieben strenger Selbstverurteilung führen, wo keine angebracht wäre." },
+        { code: "SX1", text: "In der einen wichtigen Beziehung sucht die sexuelle Eins nach dem richtigen Moment für die Offenlegung, ohne die Verbindung durch zu frühes oder zu spätes Erzählen zu gefährden. Dieses genaue Abwägen kann sie stärker beschäftigen als die medizinische Seite der Diagnose selbst." },
+      ]},
+      { typ: 2, titel: "Sorge um andere trotz eigener Diagnose", varianten: [
+        { code: "SE2", text: "Ihre Familie vor jeder denkbaren Ansteckung schützen will die selbsterhaltende Zwei oft übervorsichtig, selbst wo die Übertragungswege es gar nicht erfordern. Diese übertriebene Vorsicht kann mehr aus Sorge um andere als aus tatsächlichem Risiko entstehen." },
+        { code: "SO2", text: "Innerhalb ihres großen Bekanntenkreises wählt die soziale Zwei sehr genau aus, wem sie von der Diagnose erzählt, aus Angst, als Infektionsquelle gesehen zu werden statt als die hilfsbereite Person, die sie sein möchte. Dieses selektive Schweigen kann sie stärker isolieren, als die Krankheit selbst es täte." },
+        { code: "SX2", text: "Der einen Person, mit der sie besonders eng verbunden ist, offenbart sich die sexuelle Zwei meist zuerst und ausführlich, bevor sie überhaupt an andere denkt. Diese frühe Offenheit in der Kernbeziehung kann die Last der Geheimhaltung erheblich verringern." },
+      ]},
+      { typ: 3, titel: "Ein Image, das keine Schwäche verträgt", varianten: [
+        { code: "SE3", text: "Ihre Arzttermine und Laborkontrollen erledigt die selbsterhaltende Drei effizient und diszipliniert, wie eine weitere Aufgabe im gut organisierten Alltag. Über die Diagnose selbst spricht sie dabei am liebsten so wenig wie möglich." },
+        { code: "SO3", text: "Ihr makelloses öffentliches Bild will die soziale Drei durch die Diagnose nicht gefährdet sehen, weshalb sie chronische Hepatitis B oft über Jahre komplett verschweigt, selbst engen Kollegen gegenüber. Diese durchgehaltene Fassade kostet sie viel innere Energie." },
+        { code: "SX3", text: "Der einen Person, für die sie ihre Anziehungskraft entfaltet, erzählt die sexuelle Drei von der Diagnose meist erst, wenn die Beziehung bereits tragfähig genug erscheint. Diese kalkulierte Verzögerung unterscheidet sich von der dauerhaften Verschleierung anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Ein weiteres Kapitel im eigenen Anderssein", varianten: [
+        { code: "SE4", text: "Ihre Diagnose trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne viel Aufhebens, während sie im Stillen doch das Gefühl verstärkt, in ihrem Alltag ständig gegen etwas ankämpfen zu müssen." },
+        { code: "SO4", text: "Als weiteren Beleg für ihr Gefühl, anders als andere zu sein und besonders schwer geprüft zu werden, kann die soziale Vier eine chronische Hepatitis B in ihre Lebenserzählung einordnen. Dieses Einordnen in ein größeres Leidensnarrativ kann von der eigentlichen Behandlungstreue ablenken." },
+        { code: "SX4", text: "In der einen tiefen Beziehung offenbart die sexuelle Vier die Diagnose oft mit großer emotionaler Intensität, verbunden mit der Hoffnung auf vollständiges Verstandenwerden. Wird diese Offenheit erwidert, kann sie die Last der Geheimhaltung deutlich erleichtern." },
+      ]},
+      { typ: 5, titel: "Wissen als Schutzwall gegen die Unsicherheit", varianten: [
+        { code: "SE5", text: "Alles verfügbare medizinische Wissen über Virusverlauf, Therapieoptionen und Prognose eignet sich die selbsterhaltende Fünf sich gründlich an, um die Kontrolle über die eigene Situation zu behalten. Dieses Wissen kann beruhigen, aber auch von der emotionalen Verarbeitung ablenken." },
+        { code: "SO5", text: "In einschlägigen Foren oder Fachkreisen tauscht sich die soziale Fünf gerne mit anderen Betroffenen aus, ohne sich im nahen Umfeld zu offenbaren. Dieser abstrakte Austausch kann Erkenntnisse liefern, ersetzt aber nicht die persönliche Nähe, die manchmal fehlt." },
+        { code: "SX5", text: "Nur der einen Person, der sie vollständig vertraut, öffnet sich die sexuelle Fünf über die Diagnose, was einen seltenen, aber intensiven emotionalen Austausch ermöglichen kann. Anderen gegenüber bleibt sie meist konsequent verschlossen." },
+      ]},
+      { typ: 6, titel: "Sicherheit in einer unsicheren Diagnose suchen", varianten: [
+        { code: "SE6", text: "Ihre Medikamenteneinnahme und regelmäßigen Kontrollen plant die selbsterhaltende Sechs mit großer Sorgfalt, um wenigstens hier verlässliche Sicherheit zu haben. Die Sorge vor einer Verschlechterung trotz Therapietreue kann sie dennoch begleiten." },
+        { code: "SO6", text: "An den Empfehlungen ihres Behandlungsteams orientiert sich die soziale Sechs sehr genau und sucht zusätzlich Rückhalt in Selbsthilfegruppen. Klare, autoritative Aussagen zur Prognose können ihre Verunsicherung deutlich lindern." },
+        { code: "SX6", text: "Der Diagnose begegnet die sexuelle Sechs, der Kontratyp, mit auffallend offensivem Umgang – sie spricht das Thema aktiv an, statt es zu verstecken, und stellt so kämpferisch ihre Handlungsfähigkeit unter Beweis." },
+      ]},
+      { typ: 7, titel: "Die Diagnose passt nicht in den Plan", varianten: [
+        { code: "SE7", text: "Ihre gewohnte Unbeschwertheit im Umgang mit körperlichen Themen will die selbsterhaltende Sieben sich nicht durch eine dauerhafte Diagnose nehmen lassen und schiebt die Auseinandersetzung damit gerne auf. Regelmäßige Kontrolltermine können darüber leicht in Vergessenheit geraten." },
+        { code: "SO7", text: "Kaum Raum für die eigene Belastung lässt die soziale Sieben, der Kontratyp, sich normalerweise, während sie sich weiter für andere einsetzt. Die Diagnose im Hintergrund zu halten, statt sie ernsthaft zu bearbeiten, kann ihr auf Dauer schaden." },
+        { code: "SX7", text: "Auf die eine besonders bedeutsame Beziehung konzentriert die sexuelle Sieben ihre Offenheit über die Diagnose, statt sie oberflächlich in vielen Kontakten zu streuen. Dieser fokussierte Umgang unterscheidet sich von der Ablenkungsstrategie anderer Siebener-Varianten." },
+      ]},
+      { typ: 8, titel: "Kontrolle über die eigene Erzählung behalten", varianten: [
+        { code: "SE8", text: "Selbst entscheidet die selbsterhaltende Acht, wann, wem und wie sie von der Diagnose erzählt, und lässt sich diese Kontrolle über die eigene Geschichte nicht nehmen. Diese Selbstbestimmtheit kann ihr Sicherheit geben, wo andere sich ausgeliefert fühlen." },
+        { code: "SO8", text: "Ihre Stärke innerhalb der Gruppe will die soziale Acht auch mit dieser Diagnose ungebrochen zeigen, ein Eingeständnis von Verletzlichkeit widerspricht ihrem Selbstbild als Beschützerin. Dieses Verbergen kostet sie mehr Kraft, als es nach außen erkennbar ist." },
+        { code: "SX8", text: "Unverstellt und direkt offenbart sich die sexuelle Acht meist der einen Person, der sie wirklich vertraut, ohne die Diagnose zu beschönigen. Dieser Vertrauensvorschuss kann die Beziehung eher vertiefen als belasten." },
+      ]},
+      { typ: 9, titel: "Die Diagnose in den Hintergrund treten lassen", varianten: [
+        { code: "SE9", text: "Ihre gewohnte Alltagsroutine will die selbsterhaltende Neun durch die Diagnose möglichst wenig gestört sehen, weshalb sie Behandlungstermine leicht aus dem Blick verliert. Ein äußerer Anstoß kann ihr helfen, die eigene Gesundheit wieder aktiv in den Fokus zu rücken." },
+        { code: "SO9", text: "Um die Harmonie in ihrem Umfeld nicht zu stören, verschweigt die soziale Neun ihre Diagnose oft über lange Zeit, aus Sorge, andere könnten sich unwohl oder distanziert fühlen. Dieses Zurückstellen der eigenen Situation kann sie um dringend nötige Unterstützung bringen." },
+        { code: "SX9", text: "Stärker an der Reaktion des Partners als an der eigenen Verarbeitung orientiert sich die sexuelle Neun, wenn sie die Diagnose offenlegt. Reagiert der Partner gelassen, kann auch sie selbst gelassener mit der eigenen Situation umgehen." },
+      ]},
+    ],
+    abschluss: "Eine chronische Hepatitis B sagt nichts über den Charakter oder die Lebensführung eines Menschen aus, unabhängig davon, wie sie erworben wurde. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit Offenlegung, Behandlungstreue und der eigenen Verletzlichkeit gegenüber anderen umgeht – manche über strenge Selbstkontrolle, andere über selektives Vertrauen oder das Zurückstellen der eigenen Situation. Dieses Wissen ersetzt keine antivirale Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen mit derselben Diagnose so unterschiedlich umgehen."
+  },
+  hepatitis_c_chronisch: {
+    titel: "Hepatitis C (chronisch)",
+    kategorie: "immunsystem",
+    icon: "🩸",
+    kurz: "Eine Leberinfektion, die heute meist heilbar ist – doch bis zur Diagnose liegt oft ein langer Weg des Nicht-Wissens.",
+    definition: "Die chronische Hepatitis C ist eine über mindestens sechs Monate fortbestehende Entzündung der Leber durch das Hepatitis-C-Virus (HCV), das hauptsächlich über Blutkontakt übertragen wird, etwa durch gemeinsam genutztes Spritzbesteck, kontaminierte medizinische Instrumente in der Vergangenheit oder seltener über Sexualkontakt. Anders als bei Hepatitis B heilt die Infektion nur bei einem kleineren Teil der Betroffenen von selbst aus – bei der Mehrheit wird sie chronisch und verläuft über Jahre oft ohne spürbare Symptome, weshalb viele Betroffene erst durch einen Zufallsbefund von ihrer Infektion erfahren. Unbehandelt kann eine chronische Hepatitis C zu Leberfibrose, Leberzirrhose oder Leberkrebs führen. Seit Einführung moderner direkt antiviraler Medikamente lässt sich Hepatitis C bei der ganz überwiegenden Mehrheit der Betroffenen innerhalb weniger Wochen vollständig heilen – ein entscheidender medizinischer Fortschritt gegenüber früheren, deutlich beschwerlicheren Therapien. Wie eine Infektion erworben wurde, sagt nichts über den Charakter der betroffenen Person aus.",
+    symptome: ["Häufig über Jahre keine oder nur unspezifische Symptome (Müdigkeit, Gelenkschmerzen)", "Oft Zufallsdiagnose bei Routine-Blutuntersuchungen", "Gelegentlich leichtes Druckgefühl im rechten Oberbauch", "Im fortgeschrittenen Stadium Zeichen einer Leberzirrhose", "Psychische Belastung durch rückblickende Fragen zur Übertragung und durch Offenlegungsentscheidungen"],
+    notfall: "Bei starker Gelbsucht, Verwirrtheit, Blutungsneigung oder starken Bauchschmerzen sofort ärztlich abklären lassen – das kann auf eine ernste Leberkomplikation hindeuten.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie eine chronische Hepatitis C erworben wurde, ist für diese psychosomatische Betrachtung ohne Bedeutung und mit keinerlei moralischer Wertung verbunden – vielmehr geht es um den oft jahrelangen Weg bis zur Diagnose, um die Entscheidung, wem man davon erzählt, um die Therapiedisziplin während der Behandlungswochen und um den Umgang mit Nähe und Intimität währenddessen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster im Umgang mit dem Zufallsbefund, der Heilungschance und der eigenen Geschichte davor.",
+    typen: [
+      { typ: 1, titel: "Die Suche nach der eigenen Schuld", varianten: [
+        { code: "SE1", text: "Nach dem Zufallsbefund sucht die selbsterhaltende Eins häufig in der eigenen Vergangenheit nach einem Fehler, den sie hätte vermeiden können, statt die Diagnose einfach als das zu nehmen, was sie ist. Diese rückblickende Selbstbefragung kann mehr belasten als die Krankheit selbst." },
+        { code: "SO1", text: "Ob sie andere hätte informieren müssen, denkt die soziale Eins genau durch, sobald sie von der Diagnose erfährt, und richtet sich streng nach dem, was sie für ethisch geboten hält. Dieses Pflichtbewusstsein kann entlasten, wenn es nicht in übertriebene Selbstverurteilung kippt." },
+        { code: "SX1", text: "Der einen wichtigen Person gegenüber will die sexuelle Eins besonders korrekt und ehrlich mit der Diagnose umgehen, auch wenn das bedeutet, unangenehme Fragen zur eigenen Vergangenheit zuzulassen." },
+      ]},
+      { typ: 2, titel: "Fürsorge trotz eigener Behandlung", varianten: [
+        { code: "SE2", text: "Während der mehrwöchigen Therapie sorgt sich die selbsterhaltende Zwei oft mehr um die praktische Versorgung ihrer Familie als um die eigene Genesung. Sich selbst während dieser Wochen bewusst Vorrang zu geben, fällt ihr besonders schwer." },
+        { code: "SO2", text: "In ihrem großen Bekanntenkreis wählt die soziale Zwei genau aus, wem sie von der Diagnose erzählt, aus Sorge, als weniger hilfsbereit wahrgenommen zu werden, wenn sie selbst einmal Unterstützung braucht." },
+        { code: "SX2", text: "Der einen engen Bezugsperson vertraut sich die sexuelle Zwei meist offen an und lässt sich während der Behandlungswochen auch tatsächlich umsorgen, statt weiter primär für andere da zu sein." },
+      ]},
+      { typ: 3, titel: "Die Heilung als abzuschließendes Projekt", varianten: [
+        { code: "SE3", text: "Die Therapie erledigt die selbsterhaltende Drei diszipliniert wie ein weiteres Projekt mit klarem Zeitplan bis zur Heilung, was ihr durch die vergleichsweise kurze moderne Behandlungsdauer entgegenkommt." },
+        { code: "SO3", text: "Über die Diagnose spricht die soziale Drei in ihrem beruflichen Umfeld am liebsten gar nicht, aus Sorge, ihr makelloses Image könnte Kratzer bekommen. Erst nach abgeschlossener Heilung erzählt sie manchmal rückblickend davon." },
+        { code: "SX3", text: "Erst wenn sie sich der Beziehung sicher genug fühlt, offenbart sich die sexuelle Drei der Person, für die sie sich attraktiv präsentieren will. Diese kalkulierte Offenheit unterscheidet sich vom durchgehenden Verschweigen anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine weitere Wunde in der eigenen Geschichte", varianten: [
+        { code: "SE4", text: "Zäh und leise durchsteht die selbsterhaltende Vier, der Kontratyp, die Behandlung, ohne die eigene Erschöpfung dabei offen zu zeigen." },
+        { code: "SO4", text: "In der Diagnose selbst kann die soziale Vier einen weiteren Beleg für einen besonders schweren Lebensweg sehen, was von der eigentlich guten Heilungschance moderner Therapien ablenken kann." },
+        { code: "SX4", text: "Mit großer emotionaler Offenheit teilt die sexuelle Vier die Diagnose in der einen tiefen Beziehung, verbunden mit der Hoffnung auf vollständiges Verstandenwerden gerade in dieser verletzlichen Phase." },
+      ]},
+      { typ: 5, titel: "Verstehen als erster Schritt zur Heilung", varianten: [
+        { code: "SE5", text: "Alle verfügbaren Informationen zu Genotyp, Therapieoptionen und Heilungsraten eignet sich die selbsterhaltende Fünf gründlich an, bevor sie sich emotional auf die Diagnose einlässt. Dieses Wissen gibt ihr das Gefühl von Kontrolle zurück." },
+        { code: "SO5", text: "In Fachforen tauscht sich die soziale Fünf lieber mit anderen Betroffenen aus als im direkten Umfeld über die Diagnose zu sprechen. Dieser abstrakte Austausch liefert Erkenntnisse, ersetzt aber nicht die persönliche Nähe." },
+        { code: "SX5", text: "Über die Diagnose öffnet sich die sexuelle Fünf ausschließlich der einen Person, der sie wirklich vertraut, was während der Behandlungswochen einen seltenen, aber wichtigen emotionalen Rückhalt bieten kann." },
+      ]},
+      { typ: 6, titel: "Sicherheit durch die Heilungsgewissheit", varianten: [
+        { code: "SE6", text: "Die hohe Heilungsrate moderner Therapien kann der selbsterhaltenden Sechs viel Sicherheit geben, sobald sie sich gründlich darüber informiert hat. Bis zur Bestätigung der Heilung durch die Nachkontrolle bleibt dennoch oft eine gewisse Grundanspannung." },
+        { code: "SO6", text: "An den Aussagen ihres Behandlungsteams orientiert sich die soziale Sechs sehr genau und sucht zusätzlich Austausch mit anderen Betroffenen, um sich in der Gemeinschaft sicherer zu fühlen." },
+        { code: "SX6", text: "Auffallend offensiv geht die sexuelle Sechs, der Kontratyp, mit der Diagnose um – sie informiert sich aktiv, sucht die Behandlung zügig und geht das Thema entschlossen an, statt es zu verdrängen." },
+      ]},
+      { typ: 7, titel: "Die Behandlung als lästige Unterbrechung", varianten: [
+        { code: "SE7", text: "Die mehrwöchige Therapie empfindet die selbsterhaltende Sieben leicht als Einschränkung ihrer gewohnten Unbeschwertheit und neigt dazu, Kontrolltermine zwischen angenehmeren Plänen zu verschieben." },
+        { code: "SO7", text: "Kaum jemals stellt die soziale Sieben, der Kontratyp, eigene Belange über den Einsatz für andere – auch nicht die eigene Behandlung. Die Therapie konsequent durchzuziehen, statt sie zwischendurch zu vernachlässigen, ist für sie eine bewusste Übung." },
+        { code: "SX7", text: "Beiläufig in vielen Kontakten erwähnt die sexuelle Sieben ihre Diagnose eher nicht – Offenheit darüber und über die Behandlung zeigt sie fokussiert nur in der einen besonders bedeutsamen Beziehung." },
+      ]},
+      { typ: 8, titel: "Die Heilung selbst in die Hand nehmen", varianten: [
+        { code: "SE8", text: "Aktiv selbst steuert die selbsterhaltende Acht ihre Behandlung, informiert sich, vergleicht Optionen und lässt sich nicht passiv durch das Gesundheitssystem schieben. Diese Selbstbestimmtheit gibt ihr Sicherheit." },
+        { code: "SO8", text: "Ungebrochen stark will die soziale Acht innerhalb der Gruppe auch während der Behandlung wirken, ein offenes Eingeständnis von Erschöpfung widerspricht ihrem Selbstbild als Beschützerin." },
+        { code: "SX8", text: "Unverstellt und ohne die eigene Verletzlichkeit zu verbergen, spricht die sexuelle Acht über Diagnose und Behandlung – allerdings nur mit der einen Person, der sie wirklich vertraut." },
+      ]},
+      { typ: 9, titel: "Die Diagnose leise im Hintergrund behandeln", varianten: [
+        { code: "SE9", text: "Möglichst wenig gestört durch die Behandlung soll ihr Alltag bei der selbsterhaltenden Neun weiterlaufen, weshalb Kontrolltermine leicht aus dem Blick geraten. Ein äußerer Anstoß hilft ihr, die eigene Heilung aktiv zu verfolgen." },
+        { code: "SO9", text: "Um niemanden im Umfeld zu belasten, verschweigt die soziale Neun ihre Diagnose oft über lange Zeit, selbst wenn ein offenes Gespräch ihr Unterstützung verschaffen könnte." },
+        { code: "SX9", text: "Ob der Partner gelassen und unterstützend reagiert, entscheidet für die sexuelle Neun bei der Offenlegung mehr als das eigene Empfinden. Fällt diese Reaktion positiv aus, kann sie selbst die Behandlung leichter annehmen." },
+      ]},
+    ],
+    abschluss: "Eine chronische Hepatitis C sagt nichts über den Charakter oder die Lebensführung eines Menschen aus, unabhängig davon, wie sie erworben wurde, und ist heute bei der ganz überwiegenden Mehrheit der Betroffenen heilbar. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit dem Zufallsbefund, der Behandlungsdisziplin und der eigenen Offenlegung umgeht – manche über Wissen, andere über Kontrolle, Fürsorge oder ausgewähltes Vertrauen. Dieses Wissen ersetzt keine antivirale Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen mit derselben Diagnose so unterschiedlich umgehen."
+  },
+  hiv_aids: {
+    titel: "HIV / AIDS",
+    kategorie: "immunsystem",
+    icon: "🎗️",
+    kurz: "Eine Diagnose, die heute mit moderner Behandlung ein normales, langes Leben erlaubt – und dennoch bis heute mit tief sitzender gesellschaftlicher Stigmatisierung verbunden ist.",
+    definition: "HIV (Humanes Immundefizienz-Virus) ist ein Virus, das gezielt bestimmte Zellen des Immunsystems angreift und unbehandelt über Jahre zu deren fortschreitender Schwächung führen kann, bis das Stadium AIDS erreicht wird, in dem der Körper auch gegen normalerweise harmlose Erreger keinen ausreichenden Schutz mehr aufbauen kann. Die Übertragung erfolgt über bestimmte Körperflüssigkeiten, am häufigsten über ungeschützten Sexualkontakt oder gemeinsam genutztes Spritzbesteck. Seit den 1990er-Jahren hat sich die Behandlung durch die antiretrovirale Therapie (ART) grundlegend gewandelt: Bei regelmäßiger Einnahme moderner Medikamente lässt sich die Virusmenge im Blut so weit senken, dass sie nicht mehr nachweisbar ist – Betroffene erreichen dadurch eine annähernd normale Lebenserwartung und können das Virus nachweislich nicht mehr sexuell übertragen (›Nicht nachweisbar = nicht übertragbar‹). HIV ist damit für Menschen mit Zugang zu Behandlung heute eine gut kontrollierbare chronische Erkrankung, kein Todesurteil. Wie eine Infektion erworben wurde, sagt nichts über den Charakter der betroffenen Person aus, und die bis heute verbreitete gesellschaftliche Stigmatisierung Betroffener steht in keinem Verhältnis zum tatsächlichen medizinischen Risiko unter Behandlung.",
+    symptome: ["Häufig kurz nach Ansteckung grippeähnliche Symptome, die leicht übersehen werden", "Über Jahre oft keine oder nur unspezifische Symptome ohne Behandlung", "Im fortgeschrittenen, unbehandelten Stadium gehäufte Infektionen durch die geschwächte Immunabwehr", "Unter wirksamer Therapie meist keine krankheitsbedingten Symptome", "Erhebliche psychische Belastung durch Diagnoseschock, Stigmaerfahrung und Offenlegungsentscheidungen"],
+    notfall: "Bei Verdacht auf eine akute HIV-Infektion oder bei bekannter Infektion und plötzlich gehäuften, ungewöhnlich schweren Infektionskrankheiten zeitnah ärztlich abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie eine HIV-Infektion erworben wurde, ist für diese psychosomatische Betrachtung vollkommen ohne Bedeutung und mit keinerlei moralischer Wertung verbunden – es geht hier ausschließlich darum, wie ein Mensch mit dem Diagnoseschock, mit der Frage, wem er sich anvertraut und wem nicht, mit der lebenslangen Therapietreue und mit der Navigation von Nähe, Intimität und Partnerschaft nach der Diagnose umgeht. Die gesellschaftliche Stigmatisierung, die HIV bis heute begleitet, ist selbst ein eigenständiger psychischer Belastungsfaktor, unabhängig vom medizinischen Verlauf. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster im Umgang mit Offenlegung, Behandlungsdisziplin und der eigenen Verletzlichkeit gegenüber anderen.",
+    typen: [
+      { typ: 1, titel: "Zwischen Selbstverurteilung und Aufklärungspflicht", varianten: [
+        { code: "SE1", text: "Ihre tägliche Medikamenteneinnahme hält die selbsterhaltende Eins mit großer Disziplin ein, das gibt ihr inneren Halt. Schwerer wiegt oft ein innerer Richter, der die Diagnose fälschlich als eigenes moralisches Versagen deutet, obwohl dafür keinerlei Grund besteht." },
+        { code: "SO1", text: "Wem gegenüber eine Aufklärungspflicht besteht, denkt die soziale Eins bei dieser übertragbaren Diagnose besonders gründlich durch und richtet sich streng nach dem, was sie für ethisch geboten hält. Dieses klare Regelwerk kann entlasten, sofern es nicht in überzogene Selbstverurteilung umschlägt." },
+        { code: "SX1", text: "In der einen wichtigen Partnerschaft sucht die sexuelle Eins nach dem genau richtigen, ehrlichen Umgang mit der Offenlegung, oft begleitet von der Sorge, in dieser einen Beziehung moralisch nicht vollständig integer erschienen zu sein." },
+      ]},
+      { typ: 2, titel: "Fürsorge trotz eigener Verletzlichkeit", varianten: [
+        { code: "SE2", text: "Für ihre Familie sorgt die selbsterhaltende Zwei nach der Diagnose oft unverändert weiter, während sie die eigene Bedürftigkeit möglichst klein hält. Sich selbst genauso viel Fürsorge zuzugestehen wie anderen, ist für sie eine bewusste Lernaufgabe." },
+        { code: "SO2", text: "In ihrem weiten Netzwerk wählt die soziale Zwei sehr genau aus, wem sie von der Diagnose erzählt, aus tief begründeter Sorge vor Zurückweisung durch das Stigma. Diese Auswahl kann sie schützen, aber auch stark isolieren." },
+        { code: "SX2", text: "Umsorgt werden lässt sich die sexuelle Zwei von genau dieser einen Bezugsperson tatsächlich, statt weiter primär für andere da zu sein. Diese wechselseitige Fürsorge kann eine tragende Ressource werden." },
+      ]},
+      { typ: 3, titel: "Ein Image, das keine Diagnose verträgt", varianten: [
+        { code: "SE3", text: "Ihre Behandlung führt die selbsterhaltende Drei diszipliniert und routiniert durch, als weiteren funktionalen Baustein ihres Alltags. Über die Diagnose selbst spricht sie dabei mit kaum jemandem." },
+        { code: "SO3", text: "Durch das Stigma um diese Diagnose gefährdet sieht die soziale Drei ihr makelloses öffentliches Bild, weshalb sie oft ein Leben lang niemandem in ihrem beruflichen Umfeld davon erzählt. Diese durchgehaltene Fassade kostet erhebliche innere Energie." },
+        { code: "SX3", text: "Ein kalkuliertes Timing bestimmt bei der sexuellen Drei, wann sie die Diagnose offenbart: erst wenn die Beziehung zu der Person, für die sie ihre Anziehungskraft entfaltet, tragfähig genug erscheint. Das unterscheidet sich vom durchgehenden Verschweigen anderer Dreier-Varianten." },
+      ]},
+      { typ: 4, titel: "Eine Diagnose im eigenen Anderssein verortet", varianten: [
+        { code: "SE4", text: "Ohne viel Aufhebens macht die selbsterhaltende Vier, der Kontratyp, mit ihrer Diagnose einfach weiter, während sich im Stillen das Gefühl verstärkt, in ihrem Alltag ständig gegen etwas ankämpfen zu müssen." },
+        { code: "SO4", text: "Besonders hart und ungerecht von der Gesellschaft beurteilt zu werden – dieses Gefühl kann die soziale Vier durch die Stigmatisierung um HIV in ihrer Lebenserzählung bestätigt sehen. Dieses Einordnen kann Solidarität mit anderen Betroffenen stiften, aber auch das eigene Leid verfestigen." },
+        { code: "SX4", text: "Mit großer emotionaler Intensität und der Hoffnung, gerade in dieser Verletzlichkeit vollständig angenommen zu werden, offenbart die sexuelle Vier die Diagnose in der einen tiefen Beziehung. Wird diese Offenheit erwidert, kann sie zu einer der engsten Bindungen ihres Lebens werden." },
+      ]},
+      { typ: 5, titel: "Wissen als Schutz gegen Angst und Stigma", varianten: [
+        { code: "SE5", text: "Alle verfügbaren Fakten zu Übertragungswegen, Therapie und Prognose eignet sich die selbsterhaltende Fünf gründlich an, um der Diagnose mit Wissen statt mit diffuser Angst zu begegnen. Dieses Wissen kann beruhigen, ersetzt aber nicht das Gespräch über die eigenen Gefühle." },
+        { code: "SO5", text: "In fachlichen oder aktivistischen Communities zu HIV kann sich die soziale Fünf abstrakt engagieren, ohne sich im nahen persönlichen Umfeld zu offenbaren. Dieser Austausch liefert wertvolles Wissen, ersetzt aber nicht die persönliche Nähe." },
+        { code: "SX5", text: "Konsequent verschlossen bleibt die sexuelle Fünf gegenüber den meisten Menschen in ihrem Umfeld, öffnet sich über die Diagnose aber der einen Person, der sie vollständig vertraut – ein seltener, aber tiefer emotionaler Austausch." },
+      ]},
+      { typ: 6, titel: "Sicherheit durch Behandlungstreue suchen", varianten: [
+        { code: "SE6", text: "Ihre tägliche Medikamenteneinnahme und regelmäßigen Kontrollen erledigt die selbsterhaltende Sechs mit großer Sorgfalt, um wenigstens hier verlässliche Sicherheit zu haben. Die Tatsache, dass die Viruslast unter Therapie nicht mehr nachweisbar ist, kann ihre Verunsicherung deutlich lindern, wenn sie sich damit vertraut macht." },
+        { code: "SO6", text: "An den Aussagen ihres Behandlungsteams und an Selbsthilfegruppen orientiert sich die soziale Sechs, um Sicherheit im Umgang mit der Diagnose zu finden. Der gemeinsame Austausch mit anderen Betroffenen kann ihre Angst vor Stigmatisierung besonders wirksam mindern." },
+        { code: "SX6", text: "Mutig statt ängstlich reagiert die sexuelle Sechs, der Kontratyp, auf die Diagnose – sie informiert sich aktiv, spricht das Thema in der einen wichtigen Beziehung offen an und lässt sich von der gesellschaftlichen Stigmatisierung nicht zum Schweigen bringen." },
+      ]},
+      { typ: 7, titel: "Die Diagnose passt nicht ins Lebensgefühl", varianten: [
+        { code: "SE7", text: "Ihre gewohnte Unbeschwertheit will die selbsterhaltende Sieben sich durch die Diagnose nicht nehmen lassen und schiebt die ernsthafte Auseinandersetzung damit gerne auf. Regelmäßige Kontrolltermine können darüber leicht aus dem Blick geraten." },
+        { code: "SO7", text: "Hinter fortgesetzter Aktivität für andere versteckt die soziale Sieben, der Kontratyp, gerne die eigene Belastung. Die Diagnose ernsthaft zu bearbeiten, statt sie so zu verdecken, ist für sie eine bewusste Übung." },
+        { code: "SX7", text: "Statt ihre Diagnose beiläufig zu streuen, öffnet sich die sexuelle Sieben damit gezielt der einen besonders bedeutsamen Beziehung. Dieser fokussierte Umgang kann eine tragfähige, geschützte Nähe ermöglichen." },
+      ]},
+      { typ: 8, titel: "Die Kontrolle über die eigene Geschichte behalten", varianten: [
+        { code: "SE8", text: "Wann, wem und wie sie von der Diagnose erzählt, bestimmt die selbsterhaltende Acht ganz allein und lässt sich diese Kontrolle über die eigene Geschichte von niemandem nehmen. Diese Selbstbestimmtheit kann ihr Sicherheit geben, wo das Stigma andere zum Schweigen bringt." },
+        { code: "SO8", text: "Ein Eingeständnis von Verletzlichkeit widerspricht dem Selbstbild der sozialen Acht als Beschützerin ihrer Gruppe, weshalb sie mit dieser Diagnose zunächst weiter Stärke zeigen will. Manche sozialen Achten werden gerade dadurch zu besonders wirksamen Fürsprecherinnen gegen das Stigma, sobald sie sich offen dazu bekennen." },
+        { code: "SX8", text: "Unverstellt und direkt, ohne die Diagnose zu beschönigen, offenbart sich die sexuelle Acht der einen Person, der sie wirklich vertraut. Dieser Vertrauensvorschuss kann gerade angesichts des gesellschaftlichen Stigmas die Beziehung eher vertiefen als belasten." },
+      ]},
+      { typ: 9, titel: "Die Diagnose leise im Hintergrund halten", varianten: [
+        { code: "SE9", text: "Kaum verändert soll der Alltag der selbsterhaltenden Neun trotz der Diagnose bleiben, weshalb Behandlungstermine leicht aus dem Blick geraten können. Ein äußerer Anstoß hilft ihr, die eigene Gesundheit aktiv im Blick zu behalten." },
+        { code: "SO9", text: "Um Konflikte oder Zurückweisung durch das Stigma zu vermeiden, verschweigt die soziale Neun ihre Diagnose oft über Jahre, selbst engsten Freunden gegenüber. Dieses Zurückstellen der eigenen Situation kann sie um dringend nötige Unterstützung bringen." },
+        { code: "SX9", text: "Verständnis und Nähe statt Rückzug seitens des Partners kann die Angst der sexuellen Neun vor der Diagnose deutlich mindern – seine Reaktion wiegt für sie oft schwerer als die eigene erste Verarbeitung." },
+      ]},
+    ],
+    abschluss: "Eine HIV-Diagnose sagt nichts über den Charakter oder die Lebensführung eines Menschen aus, unabhängig davon, wie sie erworben wurde – und ist unter moderner Behandlung heute eine gut kontrollierbare chronische Erkrankung mit annähernd normaler Lebenserwartung. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit Offenlegung, Behandlungstreue und dem gesellschaftlichen Stigma umgeht – manche über Wissen, andere über Kontrolle, ausgewähltes Vertrauen oder aktives Engagement. Dieses Wissen ersetzt keine antiretrovirale Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen mit derselben Diagnose so unterschiedlich umgehen."
+  },
+  tuberkulose: {
+    titel: "Tuberkulose",
+    kategorie: "immunsystem",
+    icon: "🫁",
+    kurz: "Eine bakterielle Infektion, die vor allem die Lunge befällt und wochen- bis monatelange Isolation und Behandlungstreue verlangt.",
+    definition: "Tuberkulose ist eine durch das Bakterium Mycobacterium tuberculosis verursachte Infektionskrankheit, die vor allem die Lunge betrifft, grundsätzlich aber auch andere Organe befallen kann. Die Übertragung erfolgt über Tröpfcheninfektion beim Husten, meist bei engem und länger andauerndem Kontakt. Nicht jede Ansteckung führt zur aktiven Erkrankung – bei vielen Menschen bleibt das Bakterium jahrelang in einer inaktiven, latenten Form im Körper, ohne Beschwerden zu verursachen. Bricht die Krankheit aktiv aus, ist sie mit einer mehrmonatigen Kombinationstherapie aus mehreren Antibiotika in aller Regel heilbar, erfordert dabei aber eine hohe Behandlungstreue über den gesamten Zeitraum, da eine abgebrochene Therapie zu Resistenzen führen kann. In der ansteckenden Phase ist zudem eine vorübergehende Isolation notwendig, um eine Weiterverbreitung zu verhindern.",
+    symptome: ["Anhaltender Husten über mehr als drei Wochen, teils mit Blutbeimengung", "Nächtliches Schwitzen und schleichender Gewichtsverlust", "Anhaltende Müdigkeit und Appetitlosigkeit", "Leichtes Fieber über längere Zeit", "Brustschmerzen beim Atmen oder Husten"],
+    notfall: "Bei starkem Bluthusten oder schwerer Atemnot sofort ärztlich abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Tuberkulose stellt Betroffene vor eine ungewöhnliche doppelte Anforderung: eine monatelange, lückenlose Behandlungstreue und, in der ansteckenden Phase, eine erzwungene Isolation von genau den Menschen, die sonst Halt geben würden. In der TCM wird ein solcher Zustand oft mit einer tief sitzenden Schwäche des Lungen-Yin gedeutet, verbunden mit innerer Unruhe und schleichendem Kräfteverlust. Psychosomatisch liest sich Tuberkulose oft als Bild einer erzwungenen Entschleunigung und Trennung, die dem eigenen Lebensrhythmus fundamental widerspricht. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster im Umgang mit der langen Behandlungsdauer und der zeitweisen Isolation.",
+    typen: [
+      { typ: 1, titel: "Die Therapie als Pflicht bis zum letzten Tag", varianten: [
+        { code: "SE1", text: "Die mehrmonatige Antibiotika-Kombination nimmt die selbsterhaltende Eins mit großer Genauigkeit bis zum vorgeschriebenen letzten Tag ein, selbst wenn sich die Symptome längst gebessert haben. Diese Konsequenz schützt sie besonders zuverlässig vor Resistenzen." },
+        { code: "SO1", text: "Ihre Isolationspflicht in der ansteckenden Phase nimmt die soziale Eins besonders ernst, aus dem Gefühl heraus, andere sonst fahrlässig zu gefährden. Diese strenge Selbstdisziplin kann ihr die erzwungene Trennung von anderen etwas erleichtern." },
+        { code: "SX1", text: "Der einen Person, mit der sie eng verbunden ist, erklärt die sexuelle Eins die Notwendigkeit der Isolation genau und gewissenhaft, um kein Missverständnis über den vorübergehenden Charakter der Trennung aufkommen zu lassen." },
+      ]},
+      { typ: 2, titel: "Die Isolation als schmerzhafter Verzicht auf Nähe", varianten: [
+        { code: "SE2", text: "Praktische Hilfe für ihre Familie zu leisten, ist der selbsterhaltenden Zwei während der Isolationsphase kaum möglich, was sie besonders belasten kann. Wege zu finden, aus der Distanz trotzdem fürsorglich zu bleiben, hilft ihr, diese Zeit zu überstehen." },
+        { code: "SO2", text: "Für ihr weites Netzwerk an Kontakten unerreichbar zu sein, empfindet die soziale Zwei während der Isolation als besonders schmerzhaften Verlust ihrer gewohnten Rolle. Digitale Nähe kann diesen Verlust zumindest teilweise ausgleichen." },
+        { code: "SX2", text: "Von der einen wichtigen Bezugsperson räumlich getrennt zu sein, trifft die sexuelle Zwei besonders hart, da genau diese eine Verbindung ihr sonst Halt gibt. Regelmäßiger direkter Kontakt, wenn auch nur über Distanz, wird für sie besonders wichtig." },
+      ]},
+      { typ: 3, titel: "Der Stillstand als Bedrohung des Selbstbilds", varianten: [
+        { code: "SE3", text: "Ihre gewohnte Funktionsfähigkeit im Alltag ist während der Behandlung und Isolation deutlich eingeschränkt, was der selbsterhaltenden Drei besonders schwerfällt zu akzeptieren. Die Therapie selbst als klar strukturiertes Projekt zu begreifen, kann ihr helfen, diese Phase durchzustehen." },
+        { code: "SO3", text: "Ein zwangsläufiges Unterbrechen ihres sichtbaren öffentlichen Engagements bringt die Isolationsphase für die soziale Drei mit sich, was sie als besonders unangenehmen Stillstand erlebt. Sie neigt dazu, die Erkrankung nach außen möglichst kleinzureden." },
+        { code: "SX3", text: "Ihre Erschöpfung während der Behandlung zeigt die sexuelle Drei am ehesten der einen Person, die ihr besonders wichtig ist, statt weiter makellos zu wirken. Dieser geschützte Raum kann die tatsächliche Genesung eher fördern als eine durchgehaltene Fassade." },
+      ]},
+      { typ: 4, titel: "Die Isolation als vertrautes Gefühl des Andersseins", varianten: [
+        { code: "SE4", text: "Ihre Isolationsphase durchsteht die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne viel Aufhebens, während sie im Stillen doch das Gefühl verstärkt, ohnehin immer etwas außerhalb zu stehen." },
+        { code: "SO4", text: "Vom Leben besonders hart getroffen zu werden – dieses vertraute Gefühl kann sich bei der sozialen Vier durch die erzwungene Trennung während der ansteckenden Phase noch verstärken. Dieses Verweilen im Gefühl der Isolation kann die Genesung binden, statt sie voranzubringen." },
+        { code: "SX4", text: "Der einen bedeutsamen Person schreibt die sexuelle Vier während der Isolation oft besonders intensive, emotionale Nachrichten, um die räumliche Trennung durch emotionale Nähe zu kompensieren." },
+      ]},
+      { typ: 5, titel: "Die Isolation als seltene Übereinstimmung mit dem eigenen Bedürfnis", varianten: [
+        { code: "SE5", text: "Die erzwungene Isolationsphase kann für die selbsterhaltende Fünf paradoxerweise weniger belastend sein als für andere, da sie ihrem ohnehin vorhandenen Bedürfnis nach Rückzug und geschützten Reserven entgegenkommt." },
+        { code: "SO5", text: "Ihr Fachwissen zur Erkrankung und Behandlung eignet sich die soziale Fünf gründlich an, was ihr während der Isolationsphase auch einen abstrakten Austausch mit anderen Betroffenen in Fachforen ermöglicht." },
+        { code: "SX5", text: "Regelmäßigen Kontakt lässt die sexuelle Fünf während der Isolation ausnahmsweise zu, aber nur in ihrer einen tiefen Verbindung, statt sich vollständig zurückzuziehen. Dieser Austausch kann die Zeit deutlich erleichtern." },
+      ]},
+      { typ: 6, titel: "Sicherheit durch strikte Therapietreue", varianten: [
+        { code: "SE6", text: "Ihre Medikamenteneinnahme nach genauem Zeitplan gibt der selbsterhaltenden Sechs während der langen Behandlungsdauer ein wichtiges Gefühl von Sicherheit und Kontrolle über den eigenen Heilungsprozess." },
+        { code: "SO6", text: "An den klaren Anweisungen ihres Behandlungsteams orientiert sich die soziale Sechs während der Therapie sehr genau, was ihr Sicherheit in einer für sie beunruhigenden Situation gibt." },
+        { code: "SX6", text: "Ihre Unsicherheit während der Isolationsphase beantwortet die sexuelle Sechs, der Kontratyp, mit aktivem Handeln – sie sucht sich Beschäftigung, informiert sich und bleibt in Bewegung, statt im Sorgenkreisen zu verharren." },
+      ]},
+      { typ: 7, titel: "Die Isolation als Durchkreuzung aller Pläne", varianten: [
+        { code: "SE7", text: "Ihre gewohnte Bewegungsfreiheit und offenen Möglichkeiten fehlen der selbsterhaltenden Sieben während der Isolationsphase besonders schmerzlich. Sich innerhalb der eigenen vier Wände neue kleine Freuden zu erschließen, hilft ihr, diese Zeit zu überstehen." },
+        { code: "SO7", text: "Ihren gewohnten Einsatz für andere kann die soziale Sieben, der Kontratyp, während der Isolation nicht wie sonst leisten, was einen inneren Konflikt zwischen erzwungener Passivität und ihrem üblichen Engagement auslösen kann." },
+        { code: "SX7", text: "Auf die eine noch mögliche intensive Verbindung, meist über Distanz gehalten, konzentriert die sexuelle Sieben ihre Energie während der Isolation, statt an vielen Kontakten gleichzeitig festzuhalten." },
+      ]},
+      { typ: 8, titel: "Die Isolation als erzwungener Kontrollverlust", varianten: [
+        { code: "SE8", text: "Über ihren Alltag und ihre Bewegungsfreiheit behält die selbsterhaltende Acht normalerweise die volle Kontrolle. Eine von außen verordnete Isolation kann für sie besonders schwer erträglich sein, weil sie an ihrem Grundverständnis von Autonomie rüttelt." },
+        { code: "SO8", text: "Durchgehend präsent und stark will die soziale Acht für ihre Gruppe bleiben, ein erzwungener Rückzug wegen der Isolationspflicht passt kaum in dieses Selbstbild. Diese Haltung kann bei ihr besonders viel Widerstand auslösen." },
+        { code: "SX8", text: "Ihre Erschöpfung während der Behandlung zeigt die sexuelle Acht offener als sonst, allerdings nur der einen Person, der sie vertraut, statt Stärke ständig zu behaupten. Dieser geschützte Raum kann echte Erholung ermöglichen." },
+      ]},
+      { typ: 9, titel: "Die Isolation als äußerlich ruhig ertragene Belastung", varianten: [
+        { code: "SE9", text: "Ihre Isolationsphase nimmt die selbsterhaltende Neun oft erstaunlich gelassen hin und passt sich der veränderten Routine an, während innere Unruhe über die lange Trennung von der gewohnten Umgebung leicht übersehen wird." },
+        { code: "SO9", text: "Die eigene Belastung durch die Isolation stellt die soziale Neun in der Gruppe gerne zurück, um niemanden mit ihrer veränderten Situation zu behelligen. Dieses Zurückstellen kann verhindern, dass sie sich die nötige emotionale Unterstützung überhaupt holt." },
+        { code: "SX9", text: "Bleibt der Partner während der Trennung selbst gefasst, orientiert sich die sexuelle Neun daran stärker als an der eigenen Belastung – wodurch die eigene Erschöpfung durch die Isolation so besonders lange unbemerkt bleiben kann." },
+      ]},
+    ],
+    abschluss: "Kein Körper ist vor Tuberkulose gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen mit der langen Behandlungsdauer und der zeitweisen Isolation auf eigene Weise umgeht – manche über strikte Disziplin, andere über Rückzug, Fürsorge aus der Distanz oder aktives Handeln gegen die eigene Unruhe. Dieses Wissen ersetzt keine antibiotische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
+  },
+  borreliose: {
+    titel: "Borreliose (durch Zeckenbisse)",
+    kategorie: "immunsystem",
+    icon: "🕷️",
+    kurz: "Eine bakterielle Infektion nach einem Zeckenbiss, die früh erkannt meist gut behandelbar ist, unbehandelt aber schleichend fortschreiten kann.",
+    definition: "Die Lyme-Borreliose ist eine durch Bakterien der Gattung Borrelia verursachte Infektionskrankheit, die durch den Biss infizierter Zecken übertragen wird. Ein typisches, wenn auch nicht zwingendes Frühzeichen ist die Wanderröte, eine sich ringförmig ausbreitende Hautrötung um die Bissstelle. Unbehandelt kann sich die Infektion nach Wochen bis Monaten auf Gelenke, das Nervensystem oder das Herz ausbreiten und dort vielfältige, teils schwer zuzuordnende Beschwerden verursachen. Bei früher Erkennung ist die Borreliose mit einer meist zwei- bis vierwöchigen Antibiotikatherapie in aller Regel gut behandelbar. Da die Symptome sehr unterschiedlich ausfallen können und ein Zeckenbiss oft unbemerkt bleibt, wird die Diagnose mitunter erst nach einer längeren Phase unspezifischer Beschwerden gestellt.",
+    symptome: ["Wanderröte um die Bissstelle in den ersten Tagen bis Wochen (nicht bei allen Betroffenen)", "Grippeähnliche Symptome wie Müdigkeit, Kopf- und Gliederschmerzen", "Im späteren Verlauf Gelenkschmerzen und -schwellungen, vor allem an großen Gelenken", "Nervenschmerzen, Lähmungserscheinungen oder Sensibilitätsstörungen bei neurologischer Beteiligung", "Herzrhythmusstörungen bei seltener kardialer Beteiligung"],
+    notfall: "Bei akuten Lähmungserscheinungen, starken Nervenschmerzen oder Herzrhythmusstörungen zeitnah ärztlich abklären lassen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Borreliose trifft oft Menschen unvermittelt aus einer eigentlich harmlosen Alltagssituation heraus – ein Spaziergang, eine Gartenarbeit, ein Ausflug in die Natur –, ohne dass sich daraus irgendein Vorwurf mangelnder Vorsicht ableiten ließe. Gerade weil der Biss selbst oft unbemerkt bleibt und die Symptome sich schleichend und uneindeutig entwickeln können, stellt die Erkrankung Betroffene vor die besondere Herausforderung, einer diffusen, schwer greifbaren Beschwerdelage zu begegnen. Für jeden der 27 Subtypen zeigt sich ein eigenes Muster im Umgang mit dieser Uneindeutigkeit zwischen frühem Verdacht, verzögerter Diagnose und Behandlung.",
+    typen: [
+      { typ: 1, titel: "Die Suche nach dem exakt richtigen Vorgehen", varianten: [
+        { code: "SE1", text: "Nach einem Zeckenbiss kontrolliert die selbsterhaltende Eins die Bissstelle mit großer Sorgfalt über Tage und Wochen hinweg, um kein Anzeichen einer Wanderröte zu übersehen. Diese Genauigkeit kann eine frühe Behandlung deutlich begünstigen." },
+        { code: "SO1", text: "Über die richtigen Vorsichtsmaßnahmen gegen Zeckenbisse informiert sich die soziale Eins genau und gibt dieses Wissen gerne auch an andere weiter, aus dem Gefühl heraus, damit eine gewisse Verantwortung für das Wohl der Gruppe zu tragen." },
+        { code: "SX1", text: "Nach einem gemeinsamen Naturausflug macht die sexuelle Eins ihre wichtige Begleitperson gewissenhaft auf mögliche Zeckenbisse aufmerksam, aus echter Sorge um deren Gesundheit, nicht aus übertriebener Ängstlichkeit." },
+      ]},
+      { typ: 2, titel: "Beschwerden, die zu vage für Klagen erscheinen", varianten: [
+        { code: "SE2", text: "Ihre unspezifischen Anfangsbeschwerden nimmt die selbsterhaltende Zwei oft nicht ernst genug, weil praktische Aufgaben für die Familie ihr wichtiger erscheinen als die eigene diffuse Erschöpfung. Dieses Zurückstellen kann die Diagnose unnötig verzögern." },
+        { code: "SO2", text: "Ihre schwer greifbaren Symptome zu schildern, fällt der sozialen Zwei in ihrem großen Bekanntenkreis schwer, da sie ungern als Person auffallen möchte, die ständig über unklare Beschwerden klagt." },
+        { code: "SX2", text: "Der einen wichtigen Bezugsperson beschreibt die sexuelle Zwei ihre diffusen Beschwerden meist offen und ausführlich, was diese oft dazu bewegt, gemeinsam eine ärztliche Abklärung anzustoßen." },
+      ]},
+      { typ: 3, titel: "Beschwerden, die die Leistungsfähigkeit unterlaufen", varianten: [
+        { code: "SE3", text: "Ihre schleichende Erschöpfung schiebt die selbsterhaltende Drei lange auf Überarbeitung oder Schlafmangel, statt an eine Infektion zu denken, weil ein Nachlassen der eigenen Funktionsfähigkeit ihrem Selbstbild widerspricht." },
+        { code: "SO3", text: "Diffuse Beschwerden, die sich nicht klar benennen lassen, passen kaum zum leistungsstarken Bild, das die soziale Drei in ihrem beruflichen Umfeld pflegt, weshalb sie ungern darüber spricht. Diese Zurückhaltung kann eine frühzeitige Abklärung verzögern." },
+        { code: "SX3", text: "Ihre Erschöpfung verschweigt die sexuelle Drei ihrem beruflichen Umfeld meist, gesteht sie aber der einen Person ein, für die sie besonders präsent sein will, was eine frühzeitige gemeinsame Abklärung begünstigen kann." },
+      ]},
+      { typ: 4, titel: "Ein diffuses Leiden, das Verständnis sucht", varianten: [
+        { code: "SE4", text: "Zäh und ohne viel Aufhebens erträgt die selbsterhaltende Vier, der Kontratyp, ihre diffusen Beschwerden, was eine frühzeitige Abklärung eher erschweren kann, weil sie das eigene Leiden herunterspielt." },
+        { code: "SO4", text: "Von Ärzten und Umfeld oft nicht wirklich verstanden zu werden – dieses Gefühl findet die soziale Vier in der schwierigen, oft verzögerten Borreliose-Diagnose leicht bestätigt, gerade weil die Beschwerden so vielfältig und schwer greifbar sind." },
+        { code: "SX4", text: "Mit großer emotionaler Genauigkeit schildert die sexuelle Vier ihre diffusen Beschwerden der einen tiefen Beziehung, was der Bezugsperson helfen kann, das Ausmaß der Belastung tatsächlich zu erfassen." },
+      ]},
+      { typ: 5, titel: "Recherche gegen die diffuse Ungewissheit", varianten: [
+        { code: "SE5", text: "Alle verfügbaren Informationen zu Symptomatik, Diagnostik und Therapie der Borreliose eignet sich die selbsterhaltende Fünf gründlich an, sobald ein Verdacht besteht. Dieses Wissen kann helfen, eine oft schwierige Diagnosestellung selbst mit voranzutreiben." },
+        { code: "SO5", text: "In Fachforen zu Borreliose und ihren vielfältigen Verlaufsformen recherchiert die soziale Fünf gerne, bevor sie sich im nahen Umfeld über ihre Beschwerden äußert. Dieser abstrakte Austausch liefert Wissen, ersetzt aber nicht das direkte Gespräch mit dem Behandlungsteam." },
+        { code: "SX5", text: "Ausführlich schildert die sexuelle Fünf ihre diffusen Beschwerden ausschließlich der einen Person, der sie vertraut, was dieser helfen kann, auf eine zeitnahe Abklärung zu drängen, wo die Fünf selbst eher zögern würde." },
+      ]},
+      { typ: 6, titel: "Sicherheit durch klare diagnostische Antworten", varianten: [
+        { code: "SE6", text: "Nach einem bemerkten Zeckenbiss beobachtet die selbsterhaltende Sechs die Bissstelle und ihr eigenes Befinden sehr genau, aus dem berechtigten Bedürfnis nach frühzeitiger Sicherheit über den eigenen Zustand." },
+        { code: "SO6", text: "Uneindeutige Aussagen zu ihren diffusen Symptomen kann die soziale Sechs besonders verunsichern, da eine Borreliose-Diagnose mitunter mehrere Anläufe braucht. Der Austausch mit anderen Betroffenen in entsprechenden Gruppen kann ihr Sicherheit zurückgeben." },
+        { code: "SX6", text: "Ihrer Unsicherheit über die unklaren Symptome begegnet die sexuelle Sechs, der Kontratyp, mit aktivem Vorwärtsgehen – sie sucht mehrere ärztliche Meinungen, statt bei einer unbefriedigenden Antwort stehen zu bleiben." },
+      ]},
+      { typ: 7, titel: "Beschwerden, die sich schlecht wegplanen lassen", varianten: [
+        { code: "SE7", text: "Ihre schleichende Erschöpfung deutet die selbsterhaltende Sieben lange als vorübergehende Flaute um, die von selbst wieder verschwindet, statt eine ärztliche Abklärung in ihre sonst dicht gepackten Pläne einzubauen." },
+        { code: "SO7", text: "Ihre unklaren Beschwerden übergeht die soziale Sieben, der Kontratyp, leicht zugunsten ihres fortgesetzten Einsatzes für andere. Diese diffusen Symptome dennoch ernst zu nehmen, ist für sie eine bewusste Übung." },
+        { code: "SX7", text: "Über ihre eigenen Beschwerden spricht die sexuelle Sieben am offensten in der einen besonders bedeutsamen Beziehung, was diese eher dazu bewegt, gemeinsam eine Abklärung anzustoßen, als es allein zu tun." },
+      ]},
+      { typ: 8, titel: "Ein unsichtbarer Gegner, der sich schwer bekämpfen lässt", varianten: [
+        { code: "SE8", text: "Eine schleichende, schwer greifbare Erschöpfung ohne klaren Gegner ist für die selbsterhaltende Acht besonders schwer erträglich, da sie gewohnt ist, Probleme direkt anzugehen. Eine klare Diagnose, sobald sie vorliegt, kann ihr paradoxerweise Erleichterung verschaffen, weil sie endlich wieder handeln kann." },
+        { code: "SO8", text: "Durchgehend stark für ihre Gruppe präsent bleiben will die soziale Acht auch mit diffusen Beschwerden, ein Eingeständnis von unklarer Erschöpfung passt kaum in ihr Selbstbild. Diese Haltung kann eine frühzeitige Abklärung verzögern." },
+        { code: "SX8", text: "Ihre unklaren Beschwerden gesteht die sexuelle Acht eher der einen Person ein, der sie vertraut, statt Stärke ständig zu behaupten. Dieser geschützte Raum kann eine frühzeitige gemeinsame Abklärung fördern." },
+      ]},
+      { typ: 9, titel: "Diffuse Beschwerden im Alltagsstrom übersehen", varianten: [
+        { code: "SE9", text: "Ihre schleichenden Anfangsbeschwerden nimmt die selbsterhaltende Neun oft erst spät bewusst wahr, so sehr geht sie in ihrer gewohnten Routine auf. Ein äußerer Anstoß, etwa durch nahestehende Personen, kann ihr helfen, die eigene Situation überhaupt ernst zu nehmen." },
+        { code: "SO9", text: "Die eigenen diffusen Beschwerden stellt die soziale Neun in der Gruppe gerne zurück, um niemanden mit einer noch unklaren Symptomatik zu belasten. Dieses Zurückstellen kann eine frühzeitige Abklärung erheblich verzögern." },
+        { code: "SX9", text: "Ob der Partner eine Veränderung überhaupt bemerkt und anspricht, kann für die sexuelle Neun bei diffusen Beschwerden den entscheidenden Anstoß zur Abklärung geben – mehr als das eigene, oft unklare Empfinden." },
+      ]},
+    ],
+    abschluss: "Kein Körper ist vor einer Borreliose gefeit, unabhängig vom Subtyp, und kein Muster ist ein Urteil über mangelnde Vorsicht in der Natur. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit der Uneindeutigkeit früher Symptome und dem Weg zur Diagnose umgeht – manche über genaue Beobachtung, andere über Recherche, Zurückhaltung oder das Vertrauen auf eine nahestehende Person. Dieses Wissen ersetzt keine antibiotische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe diffuse Beschwerdelage so unterschiedlich reagieren."
+  },
+  alzheimer_demenz: {
+    titel: "Alzheimer-Krankheit / Demenz",
+    kategorie: "nerven-psyche",
+    icon: "🧩",
+    kurz: "Eine fortschreitende Erkrankung des Gehirns, bei der Gedächtnis, Orientierung und schließlich die Persönlichkeit selbst Stück für Stück verloren gehen.",
+    definition: "Die Alzheimer-Krankheit ist die häufigste Ursache einer Demenz und eine fortschreitende neurodegenerative Erkrankung des Gehirns, bei der sich fehlgefaltete Eiweiße – Beta-Amyloid-Plaques und Tau-Fibrillen – im Gehirngewebe ablagern und Nervenzellen sowie ihre Verbindungen untereinander nach und nach absterben lassen. Der Verlauf beginnt meist schleichend mit Kurzzeitgedächtnisstörungen und schreitet über Jahre fort zu Orientierungsverlust, Sprachstörungen, Persönlichkeitsveränderungen und schließlich zum vollständigen Verlust der Selbstständigkeit. Daneben gibt es weitere Demenzformen mit eigener Ursache, etwa die vaskuläre Demenz, die durch wiederholte kleine Durchblutungsstörungen des Gehirns entsteht und oft in Schüben statt gleichmäßig fortschreitet, sowie Mischformen aus beidem. Das mit Abstand größte Risiko ist das Lebensalter; hinzu kommen genetische Veranlagung, in seltenen Fällen erblich bedingte Frühformen, sowie Gefäßrisikofaktoren wie Bluthochdruck, Diabetes oder Rauchen, die insbesondere die vaskuläre Demenz begünstigen.",
+    symptome: ["Zunehmende Vergesslichkeit, vor allem für kürzlich Erlebtes", "Schwierigkeiten, sich zeitlich und räumlich zu orientieren", "Wortfindungsstörungen und nachlassender Wortschatz", "Nachlassendes Urteilsvermögen bei alltäglichen Entscheidungen", "Rückzug aus Aktivitäten und sozialen Kontakten", "Stimmungsschwankungen, Reizbarkeit oder Persönlichkeitsveränderungen", "Zunehmender Verlust der Fähigkeit, den Alltag selbstständig zu bewältigen"],
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Vorweg die wichtigste Klarstellung: Weder die Alzheimer-Krankheit noch andere Demenzformen entstehen durch eine bestimmte Persönlichkeit, eine ungelöste Wunde oder ein psychisches Muster – ihre Ursachen liegen in fehlgefalteten Eiweißablagerungen im Gehirn, in genetischer Veranlagung, im fortschreitenden Alter und, bei der vaskulären Demenz, in Durchblutungsstörungen der Gefäße. Kein Subtyp trägt ein höheres Risiko, an Demenz zu erkranken, und niemand hat sich sein eigenes Vergessen durch Charakter oder Verhalten selbst zuzuschreiben. Was sich Subtyp für Subtyp unterscheidet, ist ausschließlich, wie ein Mensch mit dem allmählichen Verlust von Gedächtnis, Orientierung und schließlich einem Stück der eigenen Identität umgeht – wie er die Diagnose selbst erlebt, solange er sie noch begreifen kann, wie er mit Angehörigen kommuniziert, welche Rolle er in seinen Beziehungen neu verhandeln muss und wie er, wo nötig, lernt, Hilfe anzunehmen. Dieser Kompass beschreibt diese unterschiedlichen Bewältigungswege – niemals eine Ursache.",
+    typen: [
+      { typ: 1, titel: "Wenn das innere Maß verschwimmt", varianten: [
+        { code: "SE1", text: "An klaren Abläufen und einer festen Tagesstruktur hält sich die selbsterhaltende Eins auch bei ersten Gedächtnislücken so lange wie möglich fest, oft mit Zetteln, Listen und Ritualen, die kompensieren, was allmählich schwerer fällt. Diese Strategie hilft eine Weile, kann aber die eigentliche Angst vor Kontrollverlust überdecken, statt sie mit Angehörigen offen anzusprechen." },
+        { code: "SO1", text: "Als jemand, der über Jahre Verantwortung für andere trug, empfindet die soziale Eins es besonders schmerzhaft, selbst zunehmend auf fremde Fürsorge angewiesen zu sein. Wird ihr früh und respektvoll erklärt, was medizinisch geschieht, kann sie eher Frieden mit der neuen Rolle schließen, als sich gegen sie zu wehren." },
+        { code: "SX1", text: "Ihre Gefühle drückt die sexuelle Eins direkter aus als andere Einser-Varianten, auch Frustration über das eigene Vergessen zeigt sich bei ihr unmittelbarer statt verborgen. Dieser offenere Ausdruck kann Angehörigen paradoxerweise helfen, frühzeitiger zu erkennen, wo Unterstützung ansetzen sollte." },
+      ]},
+      { typ: 2, titel: "Wenn Geben zu Empfangen wird", varianten: [
+        { code: "SE2", text: "Für andere zu sorgen war der selbsterhaltenden Zwei über Jahrzehnte selbstverständlich; nun selbst gepflegt zu werden, kann sich zunächst wie ein Verlust der eigenen Rolle anfühlen. Angehörige, die ihr weiterhin kleine Aufgaben lassen, an denen sie sich noch nützlich fühlen kann, mildern diesen Übergang oft spürbar." },
+        { code: "SO2", text: "Ihre Identität baute die soziale Zwei häufig auf dem Wissen auf, für viele Menschen wichtig und unentbehrlich zu sein. Verblasst dieses Netz an Verbindungen durch nachlassendes Erinnern, trifft sie das oft tiefer als der reine Gedächtnisverlust selbst." },
+        { code: "SX2", text: "In ihrer engsten Beziehung ließ sich die sexuelle Zwei schon vorher eher auf gegenseitige Fürsorge ein, statt ausschließlich zu geben. Diese frühere Offenheit für Nähe und Abhängigkeit kann es ihr erleichtern, Pflege von genau dieser einen Person anzunehmen, wenn die Krankheit fortschreitet." },
+      ]},
+      { typ: 3, titel: "Wenn die Erfolgsgeschichte sich auflöst", varianten: [
+        { code: "SE3", text: "Ihre praktische Tüchtigkeit im Alltag war der selbsterhaltenden Drei über Jahre Beweis eigener Kompetenz; erste Fehler bei vertrauten Handgriffen erlebt sie deshalb oft als beschämend und verheimlicht sie zunächst vor der eigenen Familie." },
+        { code: "SO3", text: "Beruflicher und gesellschaftlicher Erfolg prägten häufig das Selbstbild der sozialen Drei über Jahrzehnte hinweg; mit fortschreitender Demenz verblasst dieses äußere Bild oft schneller, als Angehörige es erwartet hätten, was für sie zusätzlich schwer zu akzeptieren ist." },
+        { code: "SX3", text: "Vor der einen ihr wichtigen Person ließ die sexuelle Drei schon früher eher zu, weniger perfekt zu wirken, als in der Öffentlichkeit. Dieser bereits eingeübte geschützte Raum kann helfen, mit ersten Erinnerungslücken offener umzugehen als mit der durchgehaltenen Fassade nach außen." },
+      ]},
+      { typ: 4, titel: "Wenn die eigene Geschichte verblasst", varianten: [
+        { code: "SE4", text: "Zäh und ohne viele Worte trägt die selbsterhaltende Vier, der Kontratyp, ihre Belastungen; auch beginnende Gedächtnisprobleme verarbeitet sie oft lange allein, bevor sie überhaupt zulässt, dass jemand davon erfährt." },
+        { code: "SO4", text: "Ihre eigene Lebensgeschichte, ihre besonderen Erinnerungen und ihr Gefühl, anders zu sein als andere, waren der sozialen Vier oft zentral für ihr Selbstverständnis. Der Verlust genau dieser Erinnerungen kann sich deshalb wie ein Verlust der eigenen Identität selbst anfühlen, nicht nur des Gedächtnisses." },
+        { code: "SX4", text: "Intensive Momente mit einer nahestehenden Person blieben der sexuellen Vier oft über Jahre lebendig im Gefühl, auch wenn Details verblassen. Dieser emotionale statt rein faktische Erinnerungszugang kann helfen, über den Verlust einzelner Details hinweg eine tiefe Vertrautheit mit geliebten Menschen zu bewahren." },
+      ]},
+      { typ: 5, titel: "Wenn das Denken selbst betroffen ist", varianten: [
+        { code: "SE5", text: "Der eigene Kopf war der selbsterhaltenden Fünf über Jahre der sicherste Rückzugsort, ihr Wissen die Ressource, mit der sie Unabhängigkeit sicherte. Eine Erkrankung, die genau dieses Denkvermögen betrifft, greift damit tiefer in ihr Selbstverständnis ein als fast jede andere." },
+        { code: "SO5", text: "Ihr Fachwissen und ihre Expertise verschafften der sozialen Fünf über Jahre Anerkennung in der Gruppe; nachlassende kognitive Fähigkeiten können deshalb besonders empfindlich an ihrem Platz im sozialen Gefüge rühren." },
+        { code: "SX5", text: "In ihrer einen tiefen Verbindung öffnete sich die sexuelle Fünf schon früher emotional, statt sich rein hinter Wissen zu verschanzen. Diese bereits bestehende Vertrautheit mit einer nahestehenden Person kann tragen, wenn kognitive Fähigkeiten nachlassen und Nähe wichtiger wird als Worte." },
+      ]},
+      { typ: 6, titel: "Wenn die Ungewissheit unabwendbar wird", varianten: [
+        { code: "SE6", text: "Für praktisch jedes Risiko traf die selbsterhaltende Sechs im Vorfeld Vorkehrungen; eine Erkrankung, die sich weder vorhersehen noch durch Vorsorge abwenden lässt, sobald sie eingetreten ist, kann ihre Urangst dadurch zunächst verstärken, bevor feste Betreuungsstrukturen wieder Sicherheit schaffen." },
+        { code: "SO6", text: "An verlässlichen Autoritäten und ihrer sozialen Gruppe orientierte sich die soziale Sechs zeitlebens, um Sicherheit zu finden. Ein gut erklärter, verlässlicher Behandlungs- und Betreuungsplan durch Fachpersonal kann ihr auch bei einer Demenzdiagnose ein Stück dieser gewohnten Orientierung zurückgeben." },
+        { code: "SX6", text: "Angst begegnete die sexuelle Sechs, der Kontratyp, meist mit entschlossenem Handeln statt endlosem Grübeln. Diese Handlungsbereitschaft kann sich bei einer Demenzdiagnose darin zeigen, dass sie aktiv an der eigenen Vorsorgeplanung mitwirkt, solange es ihr noch möglich ist, statt sich der Entwicklung passiv auszuliefern." },
+      ]},
+      { typ: 7, titel: "Wenn keine neue Option mehr bleibt", varianten: [
+        { code: "SE7", text: "Mehrere angenehme Möglichkeiten offenzuhalten sicherte der selbsterhaltenden Sieben über Jahre ihre Beweglichkeit im Alltag; eine fortschreitende Demenz, die genau diese Fähigkeit zu planen und zu wählen einschränkt, kann deshalb besonders schwer zu akzeptieren sein." },
+        { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellte eigene Bedürfnisse oft hinter die der Gruppe zurück; bei einer Demenzdiagnose fällt es ihr entsprechend schwer, überhaupt zuzulassen, dass jetzt andere sich um sie kümmern müssen, statt umgekehrt." },
+        { code: "SX7", text: "Auf einen einzigen intensiven Moment konzentrierte sich die sexuelle Sieben schon früher eher, statt ständig neue Ablenkung zu suchen. Diese Fähigkeit, ganz im Hier zu sein, kann ihr helfen, auch mit eingeschränkten Möglichkeiten noch echte Freude im Kontakt mit vertrauten Menschen zu finden." },
+      ]},
+      { typ: 8, titel: "Wenn Kontrolle in fremde Hände übergeht", varianten: [
+        { code: "SE8", text: "Über ihre eigenen Angelegenheiten wachte die selbsterhaltende Acht am liebsten selbst, ein Nachlassen dieser Kontrolle gilt ihr rasch als Schwäche. Entscheidungen und Verwaltung nach und nach an vertraute Angehörige abzugeben, kann für sie deshalb einer der schwersten Schritte im gesamten Krankheitsverlauf sein." },
+        { code: "SO8", text: "Für ihre Gruppe hielt die soziale Acht über Jahre die schützende, starke Position; mit fortschreitender Demenz kehrt sich diese Rolle zwangsläufig um, was sie oft zunächst als Verlust der eigenen Stärke erlebt, bevor sie lernt, auch das Anlehnen an andere als eine andere Form von Würde zu sehen." },
+        { code: "SX8", text: "Verletzlichkeit zeigte die sexuelle Acht schon vorher, aber nur der einen Person, der sie wirklich vertraute, statt durchgehend Stärke zu wahren. Dieser bereits geübte Zugang zu Nähe kann es ihr erleichtern, Pflege von genau dieser vertrauten Person anzunehmen, wenn die eigene Selbstständigkeit schwindet." },
+      ]},
+      { typ: 9, titel: "Wenn das eigene Vergessen übersehen wird", varianten: [
+        { code: "SE9", text: "Unangenehme Signale schob die selbsterhaltende Neun gerne beiseite, um den gewohnten Alltagskomfort nicht zu gefährden. Erste, noch diffuse Gedächtnislücken werden bei ihr deshalb oft besonders lange als harmlose Alterserscheinung abgetan, bevor Angehörige das Ausmaß bemerken." },
+        { code: "SO9", text: "Die eigene Position stellte die soziale Neun in der Gruppe meist zurück, um Harmonie zu wahren, auch wenn es um die eigene Gesundheit ging. Eine notwendige ärztliche Abklärung rückt bei ihr dadurch häufig erst spät ins Bewusstsein, wenn sie selbst sie ohnehin nicht mehr initiieren kann." },
+        { code: "SX9", text: "In der Verschmelzung mit einer nahestehenden Person nahm die sexuelle Neun deren Zustand oft intensiver wahr als den eigenen. Genau dieser Mensch ist es deshalb häufig, der als Erster merkt, dass sich beim Erinnern und Orientieren etwas verändert – lange bevor sie selbst darüber spricht." },
+      ]},
+    ],
+    abschluss: "Die Alzheimer-Krankheit und andere Demenzformen entstehen durch fehlgefaltete Eiweißablagerungen im Gehirn, genetische Veranlagung, das Lebensalter und, bei der vaskulären Demenz, Durchblutungsstörungen – niemals durch Charaktereigenschaften oder psychische Muster, und kein Subtyp trägt daran eine Mitschuld. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit dem allmählichen Verlust von Gedächtnis, Selbstständigkeit und vertrauten Rollen umgeht – manche über festgehaltene Struktur, andere über die Beziehung zu einem einzelnen nahestehenden Menschen. Dieses Wissen ersetzt keine ärztliche und pflegerische Begleitung, kann aber Angehörigen und Betroffenen helfen zu verstehen, warum derselbe Krankheitsverlauf so unterschiedlich erlebt und getragen wird."
+  },
+  parkinson: {
+    titel: "Parkinson-Krankheit",
+    kategorie: "nerven-psyche",
+    icon: "🤲",
+    kurz: "Eine fortschreitende Erkrankung des Nervensystems, bei der der Verlust dopaminproduzierender Zellen Bewegungen zunehmend verlangsamt, versteift und unwillkürlich zittern lässt.",
+    definition: "Die Parkinson-Krankheit ist eine chronisch-fortschreitende neurodegenerative Erkrankung, bei der in einem bestimmten Areal des Mittelhirns, der Substantia nigra, nach und nach Nervenzellen absterben, die den Botenstoff Dopamin produzieren. Der entstehende Dopaminmangel führt zu den klassischen motorischen Kernsymptomen – Ruhetremor, Muskelsteifheit (Rigor), Bewegungsverlangsamung (Bradykinese) und Haltungsinstabilität – sowie häufig zu nichtmotorischen Begleiterscheinungen wie Riechstörungen, Schlafstörungen, Verstopfung oder depressiven Verstimmungen, die der Bewegungsstörung teils Jahre vorausgehen können. Die genaue Ursache ist bei den meisten Betroffenen nicht abschließend geklärt; man geht von einem Zusammenspiel aus genetischer Veranlagung, Alterungsprozessen des Nervensystems und möglichen Umweltfaktoren wie dem Kontakt mit bestimmten Pestiziden aus, wobei nur ein kleiner Teil der Fälle auf eindeutig erblich bedingte Genveränderungen zurückgeht.",
+    symptome: ["Ruhetremor, meist beginnend an einer Hand", "Verlangsamte, kleinschrittige Bewegungen (Bradykinese)", "Erhöhte Muskelspannung und Steifheit (Rigor)", "Zunehmend gebeugte Haltung und Gang- sowie Gleichgewichtsstörungen", "Maskenhafter, wenig bewegter Gesichtsausdruck", "Leisere, monotonere Sprache", "Nichtmotorische Begleitsymptome wie Riechverlust, Schlafstörungen oder depressive Verstimmung"],
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Auch hier zuerst die entscheidende Klarstellung: Die Parkinson-Krankheit entsteht nicht durch eine bestimmte Persönlichkeit oder ein psychisches Muster, sondern durch das fortschreitende Absterben dopaminproduzierender Nervenzellen im Mittelhirn – begünstigt durch genetische Veranlagung, den natürlichen Alterungsprozess des Nervensystems und, in einem kleineren Teil der Fälle, Umwelteinflüsse. Kein Subtyp erkrankt häufiger, seltener oder schwerer, und niemand hat sich sein eigenes Zittern durch Verhalten oder Charakter zuzuschreiben. Was sich zwischen den 27 Subtypen unterscheidet, ist ausschließlich, wie ein Mensch mit der fortschreitenden Einschränkung seiner Bewegungsfreiheit, mit sichtbaren Symptomen in der Öffentlichkeit, mit wachsender Abhängigkeit von Hilfe und mit den Fragen umgeht, die eine solche Diagnose an die eigene Identität stellt. Genau diese unterschiedlichen Bewältigungswege beschreibt dieser Abschnitt – nie eine Ursache.",
+    typen: [
+      { typ: 1, titel: "Wenn die Hand nicht mehr gehorcht", varianten: [
+        { code: "SE1", text: "Präzise, kontrollierte Bewegungen waren der selbsterhaltenden Eins im Alltag wichtig, jede Ungenauigkeit korrigierte sie meist sofort. Ein Tremor, den sie beim besten Willen nicht abstellen kann, konfrontiert sie deshalb unmittelbar mit den Grenzen ihrer sonst so verlässlichen Selbstkontrolle." },
+        { code: "SO1", text: "Als verlässliches, funktionstüchtiges Vorbild wollte die soziale Eins in ihrem Umfeld wahrgenommen werden; sichtbare motorische Symptome in der Öffentlichkeit widersprechen diesem Selbstbild, weshalb sie anfangs oft versucht, sie möglichst lange zu verbergen." },
+        { code: "SX1", text: "Ihre innere Anspannung entlädt die sexuelle Eins unmittelbarer als andere Einser-Varianten, statt sie dauerhaft zu unterdrücken. Diese direktere emotionale Verarbeitung kann ihr helfen, offener über Frustration mit dem eigenen, sich verändernden Körper zu sprechen, statt sie stumm in sich zu tragen." },
+      ]},
+      { typ: 2, titel: "Wenn die Hände nicht mehr helfen können", varianten: [
+        { code: "SE2", text: "Praktische Handreichungen für andere waren der selbsterhaltenden Zwei über Jahre eine Quelle von Sinn; wenn Zittern oder Steifheit genau diese Handgriffe erschweren, trifft das nicht nur ihre Beweglichkeit, sondern ihr Selbstverständnis als Gebende." },
+        { code: "SO2", text: "Verlangsamte Bewegungen und wachsende Erschöpfbarkeit können die gewohnte Verfügbarkeit der sozialen Zwei für viele Menschen einschränken, was sie zunächst schwerer akzeptiert als die körperlichen Symptome selbst." },
+        { code: "SX2", text: "In ihrer einen wichtigen Beziehung ließ sich die sexuelle Zwei schon zuvor eher auf gegenseitiges Geben und Nehmen ein. Diese Offenheit erleichtert es ihr oft, Unterstützung bei alltäglichen Handgriffen von genau dieser Person anzunehmen, statt sich dagegen zu wehren." },
+      ]},
+      { typ: 3, titel: "Wenn das Tempo nicht mehr mithält", varianten: [
+        { code: "SE3", text: "Effizienz und ein zügiges Arbeitstempo waren der selbsterhaltenden Drei über Jahre wichtig; eine Erkrankung, die Bewegungen unweigerlich verlangsamt, stellt ihr gewohntes Funktionieren fundamental infrage und verlangt ihr ein neues Verständnis von Produktivität ab." },
+        { code: "SO3", text: "Ihr souveränes öffentliches Auftreten pflegte die soziale Drei sorgfältig; ein maskenhafter Gesichtsausdruck oder sichtbarer Tremor in der Öffentlichkeit kann sie deshalb besonders verunsichern, weil er unfreiwillig zeigt, was sie sonst nie zeigen wollte." },
+        { code: "SX3", text: "Ihre makellose Fassade ließ die sexuelle Drei schon früher fallen, aber nur vor der einen ihr wichtigen Person. Dieser bereits vertraute geschützte Raum erleichtert es ihr, mit sichtbaren Symptomen offener umzugehen als mit reiner öffentlicher Perfektion." },
+      ]},
+      { typ: 4, titel: "Wenn der Körper zum fremden Ort wird", varianten: [
+        { code: "SE4", text: "Zäh und ohne viel Aufhebens durch den Alltag zu kommen ist der selbsterhaltenden Vier, dem Kontratyp, vertraut; die fortschreitende Steifheit bei Parkinson zwingt sie dennoch, ihr stilles Durchhalten immer wieder an neue, sichtbarere Grenzen anzupassen." },
+        { code: "SO4", text: "Das Gefühl, anders zu sein als andere, begleitete die soziale Vier oft schon vor jeder körperlichen Erkrankung; ein maskenhaftes Gesicht, das ihre eigentliche Gefühlswelt nach außen kaum noch zeigt, kann diesen inneren Widerspruch zwischen Fühlen und Ausdruck besonders schmerzhaft zuspitzen." },
+        { code: "SX4", text: "Intensität suchte die sexuelle Vier meist unmittelbar in der Begegnung mit anderen; verlangsamte Bewegungen und ein reduzierter mimischer Ausdruck können diesen direkten emotionalen Austausch erschweren, weshalb sie oft neue Wege sucht, Nähe auch ohne gewohnte Ausdrucksmittel spürbar zu machen." },
+      ]},
+      { typ: 5, titel: "Wenn der Körper die Autonomie einschränkt", varianten: [
+        { code: "SE5", text: "Ihre Unabhängigkeit sicherte sich die selbsterhaltende Fünf über Jahre durch einen sparsamen, gut organisierten Alltag; zunehmende Bewegungseinschränkungen, die sie auf fremde Hilfe angewiesen machen, greifen deshalb direkt in ihre zentrale Überlebensstrategie ein." },
+        { code: "SO5", text: "Kompetenz und ein wacher Verstand waren der sozialen Fünf für ihren Platz in der Gruppe wichtig; da bei Parkinson das Denken meist deutlich länger klar bleibt als die Motorik, kann sie diese verbliebene geistige Schärfe oft aktiv nutzen, um trotz körperlicher Einschränkungen weiter beizutragen." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung ließ sich die sexuelle Fünf schon früher auf echte Nähe und Verletzlichkeit ein, statt sich rein zurückzuziehen. Diese Offenheit erleichtert es ihr, körperliche Unterstützung von genau dieser Person anzunehmen, statt sich mit fortschreitender Erkrankung völlig zu isolieren." },
+      ]},
+      { typ: 6, titel: "Wenn der Boden buchstäblich schwankt", varianten: [
+        { code: "SE6", text: "Für praktisch jedes Risiko im Alltag traf die selbsterhaltende Sechs im Vorfeld Vorkehrungen; Gang- und Gleichgewichtsstörungen, die reale Sturzgefahr mit sich bringen, können ihre Grundangst befeuern, lassen sich aber durch konkrete, gut geplante Anpassungen des Wohnumfelds oft spürbar eingrenzen." },
+        { code: "SO6", text: "An verlässlichen Autoritäten und Fachpersonal orientierte sich die soziale Sechs zeitlebens, um Sicherheit zu finden; ein klar strukturierter Behandlungsplan mit regelmäßigen ärztlichen Kontrollen gibt ihr bei Parkinson oft mehr Halt als bei kaum planbaren Krankheitsverläufen anderer Art." },
+        { code: "SX6", text: "Statt in Sorgen zu verharren, handelt die sexuelle Sechs, der Kontratyp, meist entschlossen; diese Handlungsbereitschaft zeigt sich bei Parkinson oft darin, dass sie aktiv Bewegungstherapie und Training verfolgt, um dem Fortschreiten möglichst lange etwas entgegenzusetzen." },
+      ]},
+      { typ: 7, titel: "Wenn die Spontaneität ausgebremst wird", varianten: [
+        { code: "SE7", text: "Beweglich und flexibel zu bleiben war der selbsterhaltenden Sieben im Alltag stets wichtig; eine Erkrankung, die Bewegungen und Spontaneität unweigerlich einschränkt, widerspricht dieser Grundstrategie fundamental und verlangt ihr ab, Freude auch in einem langsameren Tempo neu zu entdecken." },
+        { code: "SO7", text: "Eigene Erschöpfung hinter den Bedürfnissen der Gruppe zurückzustellen war der sozialen Sieben, dem Kontratyp, vertraut; körperliche Verlangsamung, die sich nicht mehr überspielen lässt, zwingt sie erstmals dazu, eigene Grenzen ernst zu nehmen, statt sie länger zu ignorieren." },
+        { code: "SX7", text: "Auf eine einzige intensive Erfahrung konzentrierte sich die sexuelle Sieben schon früher eher, statt ständig neue Reize zu suchen; diese Fähigkeit zur Fokussierung hilft ihr, auch bei eingeschränkter Beweglichkeit noch intensive, erfüllende Momente im kleineren Rahmen zu finden." },
+      ]},
+      { typ: 8, titel: "Wenn der Körper Schwäche zeigt, wo Stärke galt", varianten: [
+        { code: "SE8", text: "Über ihre körperliche Kraft und Unabhängigkeit wachte die selbsterhaltende Acht mit großer Wachsamkeit; sichtbares Zittern oder nachlassende Kraft können wie ein Angriff auf genau jene Stärke wirken, mit der sie sich bislang definierte." },
+        { code: "SO8", text: "Die schützende, starke Position innerhalb ihrer Gruppe hielt die soziale Acht durchgehend inne; eine Erkrankung, die ihre Bewegungsfreiheit sichtbar einschränkt, kann diese Beschützerrolle infrage stellen, bis sie lernt, dass Führung auch aus einer veränderten körperlichen Position heraus möglich bleibt." },
+        { code: "SX8", text: "Verletzlichkeit statt durchgehender Kontrolle zeigte die sexuelle Acht schon früher, wenn auch nur der einen Person, der sie wirklich vertraute; dieser geübte Zugang zur eigenen Schwäche erleichtert ihr den Umgang mit fortschreitenden körperlichen Einschränkungen gegenüber dem permanenten Kontrollanspruch anderer Achter-Varianten." },
+      ]},
+      { typ: 9, titel: "Wenn erste Zeichen übergangen werden", varianten: [
+        { code: "SE9", text: "Den eigenen Alltagskomfort nicht zu gefährden war der selbsterhaltenden Neun stets wichtiger als jedes unangenehme Körpersignal; ein leichtes Zittern oder eine veränderte Handschrift werden bei ihr deshalb oft lange als Kleinigkeit abgetan, bevor eine Abklärung erfolgt." },
+        { code: "SO9", text: "Harmonie in der Gruppe zu wahren war der sozialen Neun stets wichtiger als die eigene Gesundheit; ein Arztbesuch wegen erster motorischer Auffälligkeiten rückt bei ihr deshalb häufig erst spät ins Bewusstsein, wenn andere sie direkt darauf ansprechen." },
+        { code: "SX9", text: "Das Wohlbefinden des geliebten Menschen nahm die sexuelle Neun oft intensiver wahr als das eigene; genau dieser Mensch bemerkt bei ihr häufig als Erster die feinen motorischen Veränderungen, lange bevor sie selbst darüber spricht." },
+      ]},
+    ],
+    abschluss: "Die Parkinson-Krankheit entsteht durch das Absterben dopaminproduzierender Nervenzellen im Mittelhirn, begünstigt durch genetische Veranlagung, Alterungsprozesse des Nervensystems und in einem kleineren Teil der Fälle Umwelteinflüsse – niemals durch Charaktereigenschaften oder psychische Muster. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit der fortschreitenden Einschränkung von Bewegung, Tempo und Ausdruck umgeht – manche über aktives Training, andere über die Beziehung zu einem einzelnen vertrauten Menschen oder eine neu gefundene Geduld mit sich selbst. Dieses Wissen ersetzt keine neurologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
+  },
+  epilepsie: {
+    titel: "Epilepsie",
+    kategorie: "nerven-psyche",
+    icon: "⚡",
+    kurz: "Eine neurologische Erkrankung mit wiederkehrenden Anfällen, bei denen sich Nervenzellen im Gehirn plötzlich unkontrolliert und synchron entladen.",
+    definition: "Epilepsie ist eine neurologische Erkrankung, bei der es wiederholt zu epileptischen Anfällen kommt – plötzlichen, unkontrollierten elektrischen Entladungen von Nervenzellgruppen im Gehirn, die je nach betroffener Hirnregion sehr unterschiedliche Formen annehmen können: von kurzen Absencen mit Bewusstseinspause über fokale Anfälle mit isolierten motorischen oder sensorischen Symptomen bis zu generalisierten tonisch-klonischen Anfällen mit Bewusstseinsverlust und Krämpfen am ganzen Körper. Die Ursachen sind vielfältig: genetische Veranlagung, Hirnschädigungen durch Unfälle, Schlaganfälle, Infektionen oder Tumoren, Fehlbildungen des Gehirns, oder – bei einem erheblichen Teil der Betroffenen – bleibt trotz umfassender Diagnostik keine eindeutige Ursache auffindbar. Mit einer geeigneten medikamentösen Behandlung erreicht die Mehrheit der Betroffenen eine gute Anfallskontrolle oder vollständige Anfallsfreiheit.",
+    symptome: ["Plötzliche kurze Bewusstseinspausen (Absencen)", "Unwillkürliche Zuckungen einzelner Körperteile oder des ganzen Körpers", "Vorübergehende Sprach-, Seh- oder Gefühlsstörungen während eines fokalen Anfalls", "Bewusstseinsverlust mit Sturz und generalisierten Krämpfen", "Ungewöhnliche Wahrnehmungen oder ein Vorgefühl (Aura) vor manchen Anfällen", "Verwirrtheit, Erschöpfung oder Muskelkater nach einem Anfall", "Bei manchen Formen Zungenbiss oder unwillkürlicher Urinabgang während des Anfalls"],
+    notfall: "Ein epileptischer Anfall ist ein medizinischer Notfall und erfordert sofort den Notruf 112, wenn er länger als fünf Minuten dauert oder sich mehrere Anfälle ohne zwischenzeitliches vollständiges Aufwachen aneinanderreihen (Status epilepticus), wenn es sich um den allerersten Anfall im Leben der betroffenen Person handelt, wenn der Anfall mit einer Verletzung, einem Sturz aus der Höhe, im Wasser oder mit Atemproblemen einhergeht, oder wenn die Person nach dem Anfall nicht innerhalb weniger Minuten das Bewusstsein wiedererlangt. Während eines Anfalls: die Person vor Verletzungen schützen, nichts in den Mund stecken, nach Möglichkeit in die stabile Seitenlage bringen und die Zeit stoppen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Auch hier vorweg das Wichtigste: Epilepsie entsteht nicht durch eine bestimmte Persönlichkeit oder ein psychisches Muster, sondern durch neurologische Ursachen – genetische Veranlagung, eine Hirnschädigung, eine Fehlbildung oder, bei vielen Betroffenen, ganz ohne auffindbare Ursache. Kein Subtyp erkrankt häufiger oder ist für seine Anfälle selbst verantwortlich. Was sich zwischen den 27 Subtypen unterscheidet, ist ausschließlich, wie ein Mensch mit der Unvorhersehbarkeit lebt, mit der ein Anfall grundsätzlich jederzeit eintreten kann, wie er mit dem oft belasteten öffentlichen Bild von Epilepsie umgeht, wie er Angehörige und Umfeld einbindet und wie er Sicherheitsvorkehrungen mit dem Wunsch nach einem möglichst normalen Alltag in Einklang bringt. Genau diese unterschiedlichen Bewältigungswege beschreibt dieser Abschnitt – nie eine Ursache.",
+    typen: [
+      { typ: 1, titel: "Wenn Kontrolle im Moment des Anfalls unmöglich wird", varianten: [
+        { code: "SE1", text: "Kontrolle über den eigenen Körper und Ablauf war der selbsterhaltenden Eins im Alltag zentral; ein Anfall, der genau diese Kontrolle ohne jede Vorwarnung vollständig aufhebt, kann sie deshalb besonders erschüttern und ihr Verlangen nach strikter Medikamenteneinnahme und Vorsorge noch verstärken." },
+        { code: "SO1", text: "Öffentlich als verlässlich und souverän zu gelten, war der sozialen Eins zeitlebens wichtig; die Sorge, ausgerechnet in der Öffentlichkeit einen Anfall zu erleiden und dabei die Kontrolle zu verlieren, kann sie deshalb stärker belasten als das medizinische Risiko selbst." },
+        { code: "SX1", text: "Ihre Gefühle entlädt die sexuelle Eins unmittelbarer als andere Einser-Varianten; dieser direktere Ausdruck kann ihr helfen, offener über die Angst vor dem nächsten Anfall zu sprechen, statt sie wie andere Einser-Varianten still in sich zu tragen." },
+      ]},
+      { typ: 2, titel: "Wenn die Sorge um andere zur Sorge um sich selbst wird", varianten: [
+        { code: "SE2", text: "Um andere zu kümmern, statt die eigenen Bedürfnisse überhaupt erst zu benennen, war der selbsterhaltenden Zwei über Jahre vertrauter; regelmäßige Medikamenteneinnahme und Selbstfürsorge konsequent für sich selbst einzuhalten, kann ihr deshalb schwerer fallen als für jeden anderen Menschen." },
+        { code: "SO2", text: "Für andere jederzeit verfügbar zu sein, war der sozialen Zwei wichtig; die Notwendigkeit, das nahe Umfeld über die eigene Erkrankung und richtiges Verhalten im Notfall einzuweihen, erlebt sie oft nicht als Last, sondern als eine neue Form, Verbindung herzustellen." },
+        { code: "SX2", text: "Gegenseitige Fürsorge statt einseitiges Geben lebte die sexuelle Zwei schon zuvor in ihrer einen wichtigen Beziehung; genau diese Person zur vertrauten Ansprechperson für den Notfall zu machen, fällt ihr entsprechend leichter als der reinen Geberrolle anderer Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Wenn ein Anfall das Bild vor anderen zerbricht", varianten: [
+        { code: "SE3", text: "Effizientes Funktionieren im Alltag war der selbsterhaltenden Drei wichtig; ein Anfall, der sie unvermittelt aus jeder Tätigkeit herausreißt, kann sie deshalb weniger wegen der körperlichen Symptome als wegen der plötzlichen Unterbrechung ihrer Leistungsfähigkeit erschrecken." },
+        { code: "SO3", text: "Ihr souveränes öffentliches Bild pflegte die soziale Drei sorgfältig; ein Anfall vor anderen Menschen, über den sie selbst keine Kontrolle hat, gehört zu den Situationen, die dieses Bild am unmittelbarsten infrage stellen können." },
+        { code: "SX3", text: "Schwächen zuzulassen übte die sexuelle Drei schon früher vor der einen ihr wichtigen Person; dieser bereits vertraute Rückzugsraum kann ihr helfen, offen über die Erkrankung zu sprechen, statt sie wie viele andere Dreier-Varianten möglichst zu verbergen." },
+      ]},
+      { typ: 4, titel: "Wenn das Anfallsgeschehen die eigene Geschichte prägt", varianten: [
+        { code: "SE4", text: "Wortkarg und funktional statt klagend reagiert die selbsterhaltende Vier, der Kontratyp, meist auf Belastungen; auch mit der Diagnose Epilepsie geht sie oft zunächst funktional statt emotional um, was Angehörigen ihre eigentliche Verunsicherung leicht verbirgt." },
+        { code: "SO4", text: "Das Gefühl, anders zu sein, begleitete die soziale Vier oft schon vor jeder Diagnose; eine Erkrankung, die tatsächlich mit Stigma und Missverständnissen behaftet ist, kann dieses Anderssein auf schmerzhaft konkrete Weise bestätigen, aber auch zum Anlass werden, offen über das eigene Erleben zu sprechen." },
+        { code: "SX4", text: "Unmittelbare Begegnung war der sexuellen Vier meist wichtiger als jede Rückschau; das ungewöhnliche, oft intensive Vorgefühl (Aura), das manchen Anfällen vorausgeht, wird von ihr mitunter als eigene, kaum mitteilbare Erfahrung verarbeitet, die sie von anderen Betroffenen unterscheidet." },
+      ]},
+      { typ: 5, titel: "Wenn das Unvorhersehbare dem Wissen entgeht", varianten: [
+        { code: "SE5", text: "Durch Wissen und Vorausplanung sicherte sich die selbsterhaltende Fünf über Jahre Unabhängigkeit; eine Erkrankung, deren nächster Anfall sich grundsätzlich nicht vorhersagen lässt, entzieht sich dieser Strategie, weshalb sie sich oft besonders gründlich in Auslöser, Warnzeichen und Notfallmaßnahmen einliest, um wieder ein Gefühl von Kontrolle zu gewinnen." },
+        { code: "SO5", text: "Kompetenz und Fachwissen waren der sozialen Fünf für ihren Platz in der Gruppe wichtig; sich selbst gründlich über ihre Epilepsieform zu informieren, kann ihr helfen, Fachpersonal und Angehörigen auf Augenhöhe zu begegnen, statt sich rein als Betroffene zu erleben." },
+        { code: "SX5", text: "Innerhalb ihrer einen tiefen Verbindung öffnete sich die sexuelle Fünf schon früher emotional; genau dieser Person die eigene Angst vor dem nächsten Anfall anzuvertrauen, fällt ihr leichter als dem weiteren Umfeld, dem gegenüber sie die Erkrankung eher verschweigt." },
+      ]},
+      { typ: 6, titel: "Wenn die Unvorhersehbarkeit die eigene Urangst trifft", varianten: [
+        { code: "SE6", text: "Vorkehrungen gegen praktisch jedes denkbare Risiko zu treffen war der selbsterhaltenden Sechs seit jeher wichtig; eine Erkrankung, deren nächster Anfall sich per Definition nicht ankündigt, kann ihre Grundangst zunächst deutlich verstärken, bevor ein gut eingespieltes Notfallsystem mit Umfeld und Medikation wieder Sicherheit herstellt." },
+        { code: "SO6", text: "An verlässlichen Autoritäten orientierte sich die soziale Sechs, um Sicherheit zu finden; eine enge, gut abgestimmte Betreuung durch Neurologie und ein informiertes soziales Umfeld gibt ihr bei Epilepsie oft mehr Halt als der Versuch, alles allein zu bewältigen." },
+        { code: "SX6", text: "Mutig und unmittelbar zu handeln liegt der sexuellen Sechs, dem Kontratyp, näher als endloses Grübeln; diese Haltung zeigt sich bei Epilepsie oft darin, dass sie offen mit der Diagnose umgeht und aktiv Vorkehrungen trifft, statt sich von der Angst vor dem nächsten Anfall einschränken zu lassen." },
+      ]},
+      { typ: 7, titel: "Wenn Spontaneität neue Vorsicht braucht", varianten: [
+        { code: "SE7", text: "Sich möglichst viele Optionen offenzuhalten war der selbsterhaltenden Sieben stets wichtiger als Verzicht; die Notwendigkeit, bestimmte Auslöser wie Schlafmangel oder Alkohol konsequent zu meiden, widerspricht dieser Grundstrategie, weshalb ihr diese neue Disziplin oft schwerer fällt als anderen Subtypen." },
+        { code: "SO7", text: "Selbstlos statt selbstbezogen zu handeln, prägte die soziale Sieben, den Kontratyp, über Jahre; regelmäßige Medikamenteneinnahme und Vorsichtsmaßnahmen konsequent für sich selbst durchzuhalten, verlangt ihr eine Selbstfürsorge ab, die sie gegenüber anderen leichter aufbringt als für sich." },
+        { code: "SX7", text: "Fokussierung statt ständiger Reizsuche war der sexuellen Sieben schon früher vertrauter als anderen Siebener-Varianten; diese Fähigkeit erleichtert es ihr, notwendige Vorsichtsmaßnahmen als bewussten Teil eines erfüllten statt eingeschränkten Alltags zu sehen." },
+      ]},
+      { typ: 8, titel: "Wenn ein Anfall die Kontrolle sichtbar entzieht", varianten: [
+        { code: "SE8", text: "Über ihre körperliche Kontrolle wachte die selbsterhaltende Acht mit großer Wachsamkeit; ein Anfall, während dessen sie sich unweigerlich anderen ausliefert, kann deshalb wie ein besonders einschneidender Kontrollverlust erlebt werden, den sie danach oft mit noch strikterer Medikamentendisziplin zu kompensieren versucht." },
+        { code: "SO8", text: "Stark und schützend für ihre Gruppe da zu sein war der sozialen Acht seit jeher wichtig; ein Anfall vor anderen, bei dem sie plötzlich selbst Schutz braucht, stellt diese Rolle vorübergehend auf den Kopf, bis sie lernt, dass Stärke auch darin liegt, im richtigen Moment Hilfe zuzulassen." },
+        { code: "SX8", text: "Kontrolle durchgehend zu wahren, außer vor der einen wirklich vertrauten Person, war der sexuellen Acht schon früher vertraut; genau diese Person als engste Vertraute im Umgang mit der Erkrankung einzubinden, fällt ihr leichter als dem weiteren Umfeld gegenüber offen zu sein." },
+      ]},
+      { typ: 9, titel: "Wenn erste Anzeichen zu lange übergangen werden", varianten: [
+        { code: "SE9", text: "Nachlässigkeit gegenüber körperlichen Warnzeichen gehört zu den vertrauten Mustern der selbsterhaltenden Neun; ungewöhnliche kurze Aussetzer oder ein diffuses Vorgefühl werden bei ihr deshalb mitunter lange als Kleinigkeit abgetan, bevor eine erste ärztliche Abklärung erfolgt." },
+        { code: "SO9", text: "Sich selbst in der Gruppe zurückzunehmen war der sozialen Neun über Jahre vertraut; ein Arztbesuch nach einem ersten, vielleicht unbemerkten Anfall rückt bei ihr deshalb oft erst dann in den Vordergrund, wenn jemand aus ihrem Umfeld direkt darauf hinweist." },
+        { code: "SX9", text: "Mit dem geliebten Menschen zu verschmelzen prägte die sexuelle Neun oft stärker als jede Selbstwahrnehmung; genau dieser Mensch ist es häufig, der einen ersten Anfall bemerkt und die notwendige Abklärung überhaupt erst anstößt." },
+      ]},
+    ],
+    abschluss: "Epilepsie entsteht durch genetische Veranlagung, eine Hirnschädigung, eine Fehlbildung oder bleibt bei vielen Betroffenen ganz ohne auffindbare Ursache – niemals durch Charaktereigenschaften oder psychische Muster. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit der grundsätzlichen Unvorhersehbarkeit eines Anfalls, mit Sicherheitsvorkehrungen und mit dem Umgang des eigenen Umfelds umgeht – manche über gründliches Wissen, andere über die enge Verbindung zu einem einzelnen vertrauten Menschen oder ein bewusst offenes Auftreten. Dieses Wissen ersetzt keine neurologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
+  },
+  als: {
+    titel: "Amyotrophe Lateralsklerose (ALS)",
+    kategorie: "nerven-psyche",
+    icon: "🕯️",
+    kurz: "Eine seltene, rasch fortschreitende Erkrankung des Nervensystems, bei der die Nervenzellen für willkürliche Muskelbewegung zunehmend absterben, während der Verstand meist klar bleibt.",
+    definition: "Die Amyotrophe Lateralsklerose (ALS) ist eine seltene, unheilbare und meist rasch fortschreitende neurodegenerative Erkrankung, bei der die motorischen Nervenzellen im Gehirn und Rückenmark, die für die willkürliche Muskelsteuerung zuständig sind, nach und nach absterben. Die Folge ist eine fortschreitende Muskelschwäche und -verkümmerung, die schließlich fast alle willkürlich steuerbaren Muskeln erfassen kann – von den Extremitäten über Sprech- und Schluckmuskulatur bis zur Atemmuskulatur –, während die Sinneswahrnehmung, die Blasen- und Darmfunktion sowie bei der großen Mehrheit der Betroffenen auch der Verstand erhalten bleiben. In etwa 90 Prozent der Fälle tritt ALS ohne erkennbare familiäre Häufung auf; bei rund 10 Prozent liegt eine erbliche, genetisch bedingte Form vor. Die genauen Auslösemechanismen sind trotz intensiver Forschung noch nicht vollständig verstanden; diskutiert werden ein Zusammenspiel aus genetischer Veranlagung, gestörtem Eiweißstoffwechsel in den Nervenzellen und, bei einem kleinen Teil der Fälle, möglichen Umweltfaktoren.",
+    symptome: ["Fortschreitende Muskelschwäche, meist zunächst an einer Hand, einem Arm oder Bein", "Muskelzuckungen (Faszikulationen) und zunehmende Muskelverkümmerung", "Sprech- und Schluckstörungen bei Beteiligung der Muskulatur von Mund und Rachen", "Zunehmende Atemschwäche im weiteren Krankheitsverlauf", "Erhaltene Sinneswahrnehmung und bei den meisten Betroffenen erhaltener Verstand", "Muskelkrämpfe und erhöhte Reflexe", "Emotionale Labilität mit unwillkürlichem Lachen oder Weinen bei manchen Verlaufsformen"],
+    notfall: "Bei plötzlich einsetzender starker Atemnot oder Erstickungsgefahr durch Verschlucken umgehend den Notruf 112 verständigen. Da ALS die Atemmuskulatur im Verlauf zunehmend schwächt, ist eine engmaschige Anbindung an ein spezialisiertes ALS-Zentrum wichtig, das rechtzeitig über unterstützende Beatmung, Ernährungssonden und Patientenverfügung berät, bevor eine akute Krise eintritt.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Auch hier zuerst das Wichtigste: ALS entsteht nicht durch eine bestimmte Persönlichkeit, durch Charakterstärke oder -schwäche oder durch ein psychisches Muster, sondern durch das fortschreitende Absterben motorischer Nervenzellen – bedingt durch genetische Veranlagung, gestörten Eiweißstoffwechsel in den Nervenzellen und, in einem kleinen Teil der Fälle, mögliche Umweltfaktoren. Kein Subtyp trägt ein höheres Risiko, und niemand hat sich diese Erkrankung durch das eigene Verhalten oder Denken zuzuschreiben. Was sich zwischen den 27 Subtypen unterscheidet, ist ausschließlich, wie ein Mensch mit dem raschen, oft besonders grausamen Kontrast lebt, dass der eigene Verstand meist klar bleibt, während der Körper zunehmend nicht mehr gehorcht – wie er kommuniziert, wenn Sprechen nicht mehr möglich ist, wie er mit wachsender vollständiger Abhängigkeit von Angehörigen und Pflege umgeht und welche Rolle er in seinen engsten Beziehungen neu verhandeln muss. Dieser Abschnitt beschreibt diese unterschiedlichen Wege des Umgangs – niemals eine Ursache, und niemals ein Urteil darüber, wie jemand mit dieser besonders schweren Diagnose umgeht.",
+    typen: [
+      { typ: 1, titel: "Wenn der Wille bleibt, aber der Körper nicht folgt", varianten: [
+        { code: "SE1", text: "Diszipliniertes Funktionieren im Alltag war der selbsterhaltenden Eins über Jahre Grundlage ihrer Selbstachtung; dass ihr Wille zur Kontrolle bei ALS ungebrochen bestehen bleibt, während der Körper ihm zunehmend nicht mehr folgen kann, gehört zu den bittersten Erfahrungen dieser Erkrankung für sie." },
+        { code: "SO1", text: "Ihr Ruf als verlässliches, funktionierendes Vorbild trug die soziale Eins über Jahre; sich zunehmend über technische Hilfsmittel oder Assistenz an andere mitzuteilen, statt selbst zu sprechen und zu handeln, verlangt ihr eine völlig neue Definition von Verlässlichkeit ab." },
+        { code: "SX1", text: "Ihre Gefühle drückte die sexuelle Eins schon zuvor unmittelbarer aus als andere Einser-Varianten; dieser direktere emotionale Zugang kann ihr helfen, auch bei fortschreitendem Sprachverlust über alternative Kommunikationswege echte Nähe und Ärger gleichermaßen auszudrücken, statt innerlich zu verstummen." },
+      ]},
+      { typ: 2, titel: "Wenn völlige Abhängigkeit die Geberrolle umkehrt", varianten: [
+        { code: "SE2", text: "Eigene Bedürftigkeit zuzulassen fiel der selbsterhaltenden Zwei über Jahrzehnte ungleich schwerer als für andere zu sorgen; die bei ALS unausweichliche, vollständige Abhängigkeit von fremder Hilfe stellt für sie eine der radikalsten Umkehrungen ihres gesamten Lebensmusters dar." },
+        { code: "SO2", text: "Ihren Wert maß die soziale Zwei häufig daran, für viele Menschen gleichzeitig unentbehrlich zu sein; wenn sie zunehmend nicht mehr geben, sondern nur noch empfangen kann, hilft ihr oft die Erkenntnis, dass sie durch ihre bloße Anwesenheit und ihren Blick weiterhin Verbindung stiftet, auch ohne aktives Tun." },
+        { code: "SX2", text: "Offenheit für Abhängigkeit übte die sexuelle Zwei schon früher innerhalb ihrer einen wichtigen Beziehung ein; diese bereits gelebte Erfahrung trägt sie oft, wenn genau diese eine Person zur zentralen Pflegeperson wird, während andere Zweier-Varianten das Empfangen von Hilfe ungleich schwerer lernen müssen." },
+      ]},
+      { typ: 3, titel: "Wenn die eigene Leistungsfähigkeit unwiderruflich schwindet", varianten: [
+        { code: "SE3", text: "Ihre praktische Tüchtigkeit war der selbsterhaltenden Drei über Jahre Beweis eigenen Werts; der rasche, für ALS typische Verlust motorischer Fähigkeiten trifft sie deshalb besonders hart, weil er ihr keine Zeit lässt, sich schrittweise an ein neues Selbstbild zu gewöhnen." },
+        { code: "SO3", text: "Beruflicher und öffentlicher Erfolg prägten oft das Selbstbild der sozialen Drei; einige Betroffene mit ALS finden hier eine unerwartete neue Rolle darin, ihre Krankheitsgeschichte öffentlich sichtbar zu machen und damit weiterhin etwas zu bewirken, das über die eigene körperliche Leistungsfähigkeit hinausreicht." },
+        { code: "SX3", text: "Schon lange vor der Diagnose kannte die sexuelle Drei diesen einen geschützten Raum bei ihrer wichtigsten Person, in dem Schwäche erlaubt war; er kann ihr helfen, sich in fortschreitender Pflegebedürftigkeit weiterhin als liebenswert zu erleben, statt sich ausschließlich über verlorene Fähigkeiten zu definieren." },
+      ]},
+      { typ: 4, titel: "Wenn das innere Erleben intensiv bleibt, während der Ausdruck schwindet", varianten: [
+        { code: "SE4", text: "Stilles, funktionales Durchhalten prägt die selbsterhaltende Vier, den Kontratyp, meist über Jahre; bei ALS bringt es sie dennoch an eine harte Grenze, wenn körperliche Erschöpfung irgendwann keine funktionale Bewältigung mehr zulässt und offene Unterstützung unausweichlich wird." },
+        { code: "SO4", text: "Ihre eigene, oft intensiv erlebte Gefühlswelt war der sozialen Vier zentral für ihr Selbstverständnis; wenn Sprache und Mimik durch die Erkrankung zunehmend eingeschränkt werden, kann der Verlust, diese innere Welt nach außen zeigen zu können, schwerer wiegen als der körperliche Verlust selbst." },
+        { code: "SX4", text: "Intensität lebte die sexuelle Vier meist unmittelbar in der Begegnung; verliert sie durch fortschreitende Sprech- und Bewegungseinschränkung diesen direkten Ausdruckskanal, sucht sie oft neue, ebenso intensive Wege der Nähe – über Blickkontakt, Berührung oder assistierte Kommunikation –, statt sich zurückzuziehen." },
+      ]},
+      { typ: 5, titel: "Wenn der klare Verstand im stillen Körper gefangen bleibt", varianten: [
+        { code: "SE5", text: "Ihr Denken war der selbsterhaltenden Fünf seit jeher der sicherste Ort; dass der Verstand bei ALS meist klar bleibt, während der Körper zunehmend nicht mehr gehorcht, trifft sie in einem besonders paradoxen Punkt – ihre größte Stärke bleibt intakt, wird aber zunehmend schwerer mitteilbar." },
+        { code: "SO5", text: "Ihr Fachwissen verschaffte der sozialen Fünf über Jahre Anerkennung in der Gruppe; assistierende Kommunikationstechnologien, mit denen sich auch bei fortgeschrittener Erkrankung noch Gedanken präzise mitteilen lassen, können ihr helfen, ihren Beitrag zur Gruppe trotz körperlicher Einschränkung fortzusetzen." },
+        { code: "SX5", text: "Emotionale Offenheit übte die sexuelle Fünf schon früher innerhalb ihrer einen tiefen Verbindung; genau diese Vertrautheit trägt oft, wenn Worte langsamer oder gar nicht mehr möglich sind – ein Blick oder eine Geste reicht dann für ein Verstehen, das andere Fünfer-Varianten mit ihrem Umfeld seltener aufgebaut haben." },
+      ]},
+      { typ: 6, titel: "Wenn Sicherheit nur noch im engsten Kreis liegt", varianten: [
+        { code: "SE6", text: "Nichts unvorbereitet zu lassen war der selbsterhaltenden Sechs im Alltag seit jeher wichtig; die Diagnose ALS mit ihrem meist raschen, klar absehbaren Fortschreiten kann sie zunächst in tiefe Angst stürzen, gibt ihr aber zugleich die Möglichkeit, frühzeitig konkrete Vorsorge zu treffen – von Patientenverfügung bis Kommunikationshilfen –, was ihr wieder ein Stück Handlungsfähigkeit zurückgibt." },
+        { code: "SO6", text: "Sicherheit fand die soziale Sechs zeitlebens vor allem über verlässliche Autoritäten; eine engmaschige Anbindung an ein spezialisiertes ALS-Zentrum mit klaren Ansprechpersonen gibt ihr angesichts einer Erkrankung ohne Heilungsaussicht zumindest im Ablauf der Betreuung verlässlichen Halt." },
+        { code: "SX6", text: "Entschlossenheit statt Grübeln kennzeichnet die sexuelle Sechs, den Kontratyp, im Umgang mit Angst; diese Haltung zeigt sich bei ALS oft darin, dass sie aktiv an ihrer eigenen Versorgungsplanung mitwirkt und offen über den bevorstehenden Verlauf spricht, statt ihn zu verdrängen." },
+      ]},
+      { typ: 7, titel: "Wenn keine Fluchtoption mehr offensteht", varianten: [
+        { code: "SE7", text: "Keine Tür sollte sich der selbsterhaltenden Sieben je endgültig schließen; eine rasch fortschreitende Erkrankung, die praktisch jede körperliche Ausweichmöglichkeit nimmt, gehört zu den für sie am schwersten zu ertragenden Diagnosen überhaupt und verlangt ihr eine radikal neue Definition von Lebensfreude ab." },
+        { code: "SO7", text: "Eigene Grenzen hinter denen der Gruppe verschwinden zu lassen war der sozialen Sieben, dem Kontratyp, über Jahre vertraut; bei ALS zwingt sie die Erkrankung erstmals dazu, die eigenen Grenzen und Bedürfnisse unübersehbar in den Mittelpunkt zu stellen, was sie zunächst als ungewohnt, mit der Zeit aber oft auch als befreiend erlebt." },
+        { code: "SX7", text: "Ganz im gegenwärtigen Moment aufzugehen fiel der sexuellen Sieben schon früher leichter als vielen anderen Siebener-Varianten; diese Fähigkeit kann ihr helfen, auch bei fortschreitender Einschränkung noch dichte, bedeutungsvolle Augenblicke mit nahestehenden Menschen zu finden, statt der verlorenen Möglichkeiten nachzutrauern." },
+      ]},
+      { typ: 8, titel: "Wenn völlige Hilfsbedürftigkeit unausweichlich wird", varianten: [
+        { code: "SE8", text: "Über ihre körperliche Stärke und Unabhängigkeit wachte die selbsterhaltende Acht mit großer Wachsamkeit; die bei ALS unausweichliche vollständige Pflegebedürftigkeit gehört für sie zu den radikalsten denkbaren Herausforderungen ihres Selbstbilds und verlangt ihr eine völlig neue Definition von Stärke ab, die im bewussten Zulassen von Hilfe liegt." },
+        { code: "SO8", text: "Beschützerin ihrer Gruppe zu sein gehörte zum Kern des Selbstbilds der sozialen Acht; wenn sie selbst zur Person wird, die vollständig geschützt und versorgt werden muss, kann sie diese Umkehrung oft leichter annehmen, wenn sie weiterhin als Orientierungsperson – durch klare Entscheidungen, Haltung und Willen – wahrgenommen wird, auch ohne körperliche Handlungsfähigkeit." },
+        { code: "SX8", text: "Schon früher öffnete sich die sexuelle Acht mit ihrer Verletzlichkeit, wenn auch nur der einen wirklich vertrauten Person; dieser bereits geübte Zugang trägt sie oft durch die vollständige Abhängigkeit, die ALS mit sich bringt, leichter als andere Achter-Varianten, die Verletzlichkeit nie zuvor zugelassen haben." },
+      ]},
+      { typ: 9, titel: "Wenn erste Schwäche zu lange verharmlost wird", varianten: [
+        { code: "SE9", text: "Erste körperliche Warnzeichen geraten bei der selbsterhaltenden Neun leicht in Vergessenheit, solange der Alltagskomfort erhalten bleibt; eine erste, noch unauffällige Schwäche in Hand oder Bein wird bei ihr deshalb oft ungewöhnlich lange als Verspannung oder Alltagsmüdigkeit abgetan, bevor eine gründliche neurologische Abklärung erfolgt." },
+        { code: "SO9", text: "Eigene Anliegen hinter denen der Gruppe zurückzustellen gehörte lange zum Muster der sozialen Neun; eine notwendige ärztliche Abklärung erster motorischer Auffälligkeiten rückt bei ihr entsprechend oft erst dann in den Vordergrund, wenn jemand aus ihrem nahen Umfeld eindringlich darauf besteht." },
+        { code: "SX9", text: "Ihre eigene Wahrnehmung tritt bei der sexuellen Neun oft hinter die des geliebten Menschen zurück; bei ALS ist diese besondere Nähe zugleich eine der größten Stützen im Krankheitsverlauf, weil genau diese Person meist am frühesten spürt, wenn Hilfe nötig wird, und am längsten an ihrer Seite bleibt." },
+      ]},
+    ],
+    abschluss: "ALS entsteht durch das fortschreitende Absterben motorischer Nervenzellen, begünstigt durch genetische Veranlagung und gestörten Eiweißstoffwechsel in den Nervenzellen, bei einem kleinen Teil der Fälle auch durch Umweltfaktoren – niemals durch Charaktereigenschaften, Willenskraft oder deren vermeintliches Fehlen. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit dem besonders schweren Kontrast aus klarem Verstand und schwindender körperlicher Handlungsfähigkeit umgeht – manche über frühzeitige, entschlossene Vorsorge, andere über die tragende Nähe zu einem einzelnen vertrauten Menschen oder eine neu gefundene Definition von Stärke im bewussten Zulassen von Hilfe. Dieses Wissen ersetzt keine spezialisierte medizinische und pflegerische Begleitung, kann aber Angehörigen und Betroffenen helfen zu verstehen, warum derselbe Krankheitsverlauf so unterschiedlich erlebt und getragen wird."
+  },
+  pavk: {
+    titel: "Periphere arterielle Verschlusskrankheit (pAVK)",
+    kategorie: "herz-kreislauf",
+    icon: "&#129439;",
+    kurz: "Wenn die Beine nicht mehr mitgehen bei einem Weg, der längst zu eng geworden ist.",
+    definition: "Die periphere arterielle Verschlusskrankheit (pAVK), umgangssprachlich auch &bdquo;Schaufensterkrankheit&ldquo; genannt, bezeichnet eine meist arteriosklerotisch bedingte Verengung oder Verschluss der Arterien in den Beinen (seltener den Armen). Die Muskulatur wird bei Belastung nicht mehr ausreichend mit Sauerstoff versorgt, was zu belastungsabhängigen Schmerzen führt, die typischerweise nach kurzen Gehstrecken zum Stehenbleiben zwingen – daher der Name: Betroffene bleiben scheinbar vor Schaufenstern stehen, tatsächlich um den Schmerz abklingen zu lassen. Unbehandelt kann die pAVK bis zur kritischen Ischämie mit drohendem Gewebeverlust fortschreiten.",
+    symptome: [
+      "Belastungsabhängige, krampfartige Schmerzen in Wade, Oberschenkel oder Gesäß, die nach kurzer Gehstrecke zum Stehenbleiben zwingen und in Ruhe rasch nachlassen",
+      "Kühle, blasse Haut an den Beinen oder Füßen, abgeschwächte oder fehlende Pulse",
+      "Schlecht heilende Wunden oder Geschwüre an Zehen oder Füßen",
+      "Im fortgeschrittenen Stadium: Ruheschmerz, der auch nachts auftritt und sich beim Herabhängen des Beins bessert",
+      "Haarausfall an den Unterschenkeln, brüchige Zehennägel als Zeichen der Minderdurchblutung",
+    ],
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    notfall: "Bei plötzlich auftretendem, starkem Schmerz mit blasser, kalter, gefühlloser Extremität (akuter arterieller Verschluss) oder bei Anzeichen von absterbendem Gewebe (Schwärzung, sich ausbreitende Wunde ohne Heilungstendenz): sofort den Notruf 112 wählen oder unverzüglich eine Notaufnahme aufsuchen. Ein akuter Gefäßverschluss ist ein zeitkritischer Notfall, bei dem jede Stunde über den Erhalt der Extremität entscheiden kann – hier ist kein Raum für psychosomatische Deutung.",
+    einleitung: "Die pAVK trifft Menschen buchstäblich dort, wo sie sich fortbewegen: in den Beinen, dem Werkzeug, mit dem wir uns auf etwas zu- oder von etwas wegbewegen. Die Schulmedizin sieht vor allem Arteriosklerose, begünstigt durch Rauchen, Diabetes und Bluthochdruck. Die Psychosomatik liest in der erzwungenen Pause, die die Erkrankung dem Gehen auferlegt, oft ein Sinnbild: einen Weg, der über Jahre mit angezogener Handbremse gegangen wurde, ein Vorankommen, das sich selbst im Weg stand, oder eine Bewegung durchs Leben, die nie wirklich freien Lauf hatte.",
+    typen: [
+      { typ: 1, titel: "Der Weg, der kontrolliert werden muss", varianten: [
+        { code: "SE1", text: "Wo die selbsterhaltende Eins geht, geht sie nach Plan – kein Schritt ohne Zweck, kein Umweg ohne schlechtes Gewissen. Diese permanente Selbstkontrolle über das eigene Tempo kann sich körperlich fortsetzen: ein Gefäßsystem, das ebenso wenig lockerlässt wie der innere Kritiker, der jede Pause als Nachlässigkeit bewertet." },
+        { code: "SO1", text: "Die soziale Eins geht selten für sich selbst, sondern im Dienst der guten Sache – von Termin zu Termin, von Verpflichtung zu Verpflichtung, ohne das eigene Tempo je in Frage zu stellen. Dass der Körper irgendwann buchstäblich stehen bleiben muss, kann als Widerspruch zu einem Selbstbild erlebt werden, das Stillstand kaum kennt." },
+        { code: "SX1", text: "Bei der sexuellen Eins ist das Gehen oft ein Gehen aufeinander zu – mit hoher Intensität, mit dem Anspruch, den Partner auf Augenhöhe zu erreichen. Verlangsamt der Körper unfreiwillig den Schritt, trifft das einen Subtyp, dessen Nähe stark über gemeinsame Bewegung und Präsenz definiert ist." },
+      ]},
+      { typ: 2, titel: "Der Weg zu den anderen", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei ist ständig unterwegs für andere – einkaufen, bringen, holen, versorgen – und würde einen schmerzenden Schritt eher verbergen als ihn zuzugeben. Die erzwungene Gehpause der pAVK trifft hier auf eine Person, die Innehalten kaum in ihr Selbstbild als Stütze integrieren kann." },
+        { code: "SO2", text: "Die soziale Zwei ist im Kollektiv unterwegs – von Treffen zu Treffen, von Verpflichtung zu Verpflichtung, um überall präsent und gebraucht zu bleiben. Eine Gehstrecke, die abrupt endet, kollidiert mit dem Bedürfnis, für viele erreichbar und in Bewegung zu bleiben." },
+        { code: "SX2", text: "Die sexuelle Zwei geht auf den einen wichtigen Menschen zu, physisch wie emotional, mit voller Intensität. Muss sie unterwegs stehen bleiben, während der andere weitergeht, berührt das eine tiefe Angst, zurückgelassen zu werden – eine Angst, die über das rein Körperliche hinausreicht." },
+      ]},
+      { typ: 3, titel: "Der Weg zum Ziel", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei geht zielgerichtet und effizient, jeder Schritt zählt, jede Strecke wird optimiert. Ein Körper, der zwingt, langsamer zu werden oder stehen zu bleiben, wird schnell als Störfaktor im eigenen Effizienzprogramm erlebt, nicht als Signal." },
+        { code: "SO3", text: "Die soziale Drei geht dort, wo man sie sieht – zielstrebig, sichtbar, im Tempo, das Erfolg signalisiert. Ein sichtbares Hinken oder häufiges Stehenbleiben widerspricht dem Bild, das sie öffentlich abgeben will, und wird deshalb gerne möglichst lange verborgen oder heruntergespielt." },
+        { code: "SX3", text: "Die sexuelle Drei will auch im Gehen attraktiv und mühelos wirken, gerade gegenüber dem einen wichtigen Menschen. Eine Gehstrecke, die schmerzhaft begrenzt ist, trifft empfindlich das Selbstbild von makelloser Anziehungskraft, das dieser Subtyp besonders im intimen Umfeld pflegt." },
+      ]},
+      { typ: 4, titel: "Der Weg, der sich anders anfühlt als erträumt", varianten: [
+        { code: "SE4", text: "Unauffällig funktioniert die selbsterhaltende Vier nach außen weiter, auch wenn das Gehen schwerer fällt – Klagen passt nicht zum stillen Durchhalten dieses Kontratyps. Die Sehnsucht nach einem freieren, leichteren Leben bleibt dabei unausgesprochen im Inneren." },
+        { code: "SO4", text: "Offen über die eigene Erschöpfung und den Schmerz beim Gehen zu sprechen, Verständnis zu suchen und das Leiden mit anderen zu teilen, ist der Weg der sozialen Vier. Dieser Ausdruck kann entlasten, macht die körperliche Einschränkung aber auch zu einem Teil der eigenen Identität als die, die besonders leidet." },
+        { code: "SX4", text: "Die sexuelle Vier erlebt eingeschränkte Bewegungsfreiheit oft als weiteren Beleg für ein Leben, das hinter der ersehnten Intensität zurückbleibt – ein Vergleich mit dem, wie es sein könnte, der die reale Gehstrecke zusätzlich schwer macht." },
+      ]},
+      { typ: 5, titel: "Der Weg, der ohnehin selten weit ging", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf hat ihren Radius oft schon lange freiwillig klein gehalten, um Energie zu sparen. Eine körperlich begrenzte Gehstrecke fügt sich fast nahtlos in einen bereits reduzierten Lebensstil ein – wodurch das Warnsignal leicht übersehen wird." },
+        { code: "SO5", text: "Die soziale Fünf bewegt sich beobachtend am Rand des Geschehens, selten mittendrin. Häufige Pausen beim Gehen passen zu einer ohnehin zurückgezogenen Position, was dazu führen kann, dass die Einschränkung lange nicht als eigenständiges Problem erkannt wird." },
+        { code: "SX5", text: "Die sexuelle Fünf bewegt sich intensiv, aber nur im engen Radius weniger vertrauter Menschen. Wird selbst dieser kleine Radius durch Schmerzen beim Gehen weiter eingeengt, trifft das eine Bindung, die ohnehin schon selektiv und rar gehalten wird." },
+      ]},
+      { typ: 6, titel: "Der Weg unter Daueralarm", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs plant Wege im Voraus durch, kalkuliert Risiken, bereitet sich auf das Schlimmste vor. Eine Erkrankung, die das Gehen selbst unsicher macht, bestätigt und verstärkt eine ohnehin wache, vorsichtige Grundhaltung gegenüber dem eigenen Körper." },
+        { code: "SO6", text: "Die soziale Sechs orientiert sich beim Gehen oft an der Gruppe, an gemeinsamen Wegen und geteilten Routinen. Zurückzubleiben, weil die Beine nicht mehr mitmachen, berührt die tiefer liegende Sorge, den Anschluss an die Gemeinschaft zu verlieren." },
+        { code: "SX6", text: "Die sexuelle Sechs geht gegenphobisch mutig voran, sucht Herausforderung statt Vorsicht. Eine Erkrankung, die den eigenen Körper als plötzlich verletzlich entlarvt, widerspricht dem selbst gewählten Bild von Stärke besonders deutlich." },
+      ]},
+      { typ: 7, titel: "Der Weg, der nicht enden soll", varianten: [
+        { code: "SE7", text: "Mehrere Wege und Optionen gleichzeitig offenzuhalten, immer in Bewegung zwischen Möglichkeiten – das ist das Grundmuster der selbsterhaltenden Sieben. Eine begrenzte Gehstrecke fühlt sich hier besonders einschneidend an, weil sie genau jene Freiheit beschneidet, aus der dieser Subtyp seine Sicherheit zieht." },
+        { code: "SO7", text: "Eigene körperliche Grenzen stellt der Kontratyp unter den Siebenern, die soziale Sieben, oft zugunsten anderer zurück und geht weiter, obwohl der Schmerz längst zum Stehenbleiben mahnt. Diese Verleugnung eigener Signale kann die Erkrankung im Verborgenen fortschreiten lassen." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Intensität und Tempo, auch beim Gehen selbst – schnell, ungeduldig, auf dem Sprung zum nächsten Erlebnis. Ein Körper, der zur erzwungenen Pause zwingt, trifft hart auf eine Ungeduld, die Stillstand kaum erträgt." },
+      ]},
+      { typ: 8, titel: "Der Weg, der niemals Schwäche zeigen darf", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht beweist Stärke unter anderem über körperliche Robustheit und geht Schmerzen beim Gehen oft lange ohne ein Wort weiter. Genau dieses Verschweigen kann dazu führen, dass die Erkrankung erst spät auffällt." },
+        { code: "SO8", text: "Die soziale Acht geht voran, übernimmt die Führung, auch körperlich – als jemand, der andere schützt und trägt. Selbst langsamer werden zu müssen, wird schnell als Angriff auf die eigene Rolle als starker Kopf der Gruppe erlebt." },
+        { code: "SX8", text: "Körperliche Intensität lebt die sexuelle Acht ungebremst, auch im gemeinsamen Gehen mit dem Partner. Eine Erkrankung, die diese Intensität körperlich begrenzt, wird selten kampflos akzeptiert, sondern oft so lange wie möglich überspielt." },
+      ]},
+      { typ: 9, titel: "Der Weg, der niemandem auffallen soll", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun geht ihren gewohnten Trott, vermeidet Aufsehen, auch um den eigenen Schmerz. Eigene Beschwerden werden oft erst ernst genommen, wenn das Gehen praktisch unmöglich geworden ist – ein sehr wörtliches Beispiel für Selbstvergessenheit." },
+        { code: "SO9", text: "Die soziale Neun passt ihr Tempo dem der Gruppe an und vermeidet es, mit eigenen Beschwerden aufzufallen oder andere aufzuhalten. Diese Rücksichtnahme kann dazu führen, dass Schmerzsignale beim Gehen lange heruntergespielt werden." },
+        { code: "SX9", text: "Die sexuelle Neun geht am liebsten im Gleichschritt mit dem geliebten Menschen, verschmilzt mit dessen Tempo. Kann sie nicht mehr mithalten, erlebt sie das nicht nur körperlich, sondern als Bruch der Verschmelzung, die ihr am meisten bedeutet." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor einer pAVK gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist, dass jeder der 27 Subtypen seine ganz eigene Beziehung zum eigenen Vorankommen hat – manche über Kontrolle des Tempos, andere über Rückzug, Verleugnung von Schmerz oder die Angst, den Anschluss zu verlieren. Genau hier setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am eingeschränkten Gefäß, sondern an der aus dem Gleichgewicht geratenen Lebenskraft, die sich auch im eigenen Gehtempo zeigt.",
+  },
+  lungenembolie: {
+    titel: "Lungenembolie",
+    kategorie: "herz-kreislauf",
+    icon: "&#128168;",
+    kurz: "Wenn ein plötzlicher Verschluss der Lunge den Atem nimmt, der ohnehin schon knapp war.",
+    definition: "Eine Lungenembolie entsteht, wenn ein Blutgerinnsel (Thrombus) – meist aus den tiefen Beinvenen stammend – über den Blutkreislauf in die Lungenarterien gespült wird und dort ein oder mehrere Gefäße verschließt. Je nach Größe des Verschlusses reicht das klinische Bild von kaum spürbaren Beschwerden bis zum akuten Kreislaufversagen. Risikofaktoren sind unter anderem lange Immobilität, Operationen, Schwangerschaft, Rauchen, Übergewicht und angeborene Gerinnungsstörungen.",
+    symptome: [
+      "Plötzlich einsetzende Atemnot, oft in Ruhe und ohne erkennbaren Auslöser",
+      "Stechender, atemabhängiger Brustschmerz",
+      "Beschleunigter Herzschlag, Schwindel bis hin zur Ohnmacht",
+      "Husten, in manchen Fällen mit blutigem Auswurf",
+      "Häufig begleitend: Schwellung, Schmerz oder Überwärmung eines Beins als Zeichen einer Beinvenenthrombose",
+      "Angst- und Beklemmungsgefühl, das über eine reine Atemnot hinausgeht",
+    ],
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    notfall: "Eine Lungenembolie ist IMMER ein akuter medizinischer Notfall. Bei plötzlicher Atemnot, stechendem Brustschmerz, Schwindel, Ohnmacht oder Bluthusten: sofort den Notruf 112 wählen. Das gilt unabhängig vom Schweregrad der Symptome und unabhängig davon, wie gut es der betroffenen Person im Moment noch geht – ein Verschluss kann sich innerhalb von Minuten dramatisch verschlechtern. Hier ist kein Raum für psychosomatische Deutung, sondern für sofortige Notfallversorgung.",
+    einleitung: "Kaum eine Erkrankung dieses Kompasses zeigt so eindrücklich, wie plötzlich sich lange unbemerkt Angesammeltes lösen und den Atem verschlagen kann: Ein Gerinnsel, das sich still und meist unbemerkt in einer Beinvene gebildet hat, reist über den Blutstrom bis in die Lunge und verschließt dort in Sekunden, wofür der Körper sonst frei atmen können muss. Die Psychosomatik liest darin oft ein Bild für etwas lange Zurückgehaltenes, das sich plötzlich löst und genau dort zuschlägt, wo Leben am unmittelbarsten spürbar ist – im Atem.",
+    typen: [
+      { typ: 1, titel: "Wenn der zurückgehaltene Druck sich plötzlich löst", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins hält ihre Anspannung über lange Zeit unter Kontrolle, diszipliniert, fast unsichtbar. Dass sich etwas so lange Zurückgehaltenes plötzlich und unkontrollierbar löst, wie es bei einer Embolie geschieht, steht in scharfem Kontrast zu einem Leben, das auf stetige Beherrschung ausgelegt ist." },
+        { code: "SO1", text: "Die soziale Eins trägt ihre Anspannung als Verantwortung für das große Ganze, oft über Jahre, ohne echte Verschnaufpause. Ein plötzliches, akutes Ereignis wie eine Embolie kann als Moment erlebt werden, in dem der Körper eine Pause erzwingt, die der wache Verstand sich selbst nie gestattet hätte." },
+        { code: "SX1", text: "Bei der sexuellen Eins entlädt sich Spannung meist unmittelbar in der Beziehung, in Worten, in Konfrontation. Ein Ereignis, das den Atem buchstäblich nimmt, trifft hier auf einen Subtyp, dessen Ventile sonst eher verbal als körperlich-plötzlich sind." },
+      ]},
+      { typ: 2, titel: "Wenn Bewegungslosigkeit zur Gefahr wird", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei stellt eigene Bedürfnisse – auch Bewegung und Ruhepausen – so lange hintenan, bis der Körper selbst zum letzten Ausweg greift. Lange Phasen der Selbstvernachlässigung, gerade bei körperlicher Immobilität, können ein Risiko begünstigen, das lange übersehen wird." },
+        { code: "SO2", text: "Kaum eine Pause gönnt sich die soziale Zwei zwischen den Einsätzen für andere – paradoxerweise auch nicht die notwendige Bewegung zwischendurch, wenn sie tagelang für andere sitzend organisiert und plant." },
+        { code: "SX2", text: "Die sexuelle Zwei konzentriert alle Aufmerksamkeit auf die eine Bindung und vernachlässigt darüber leicht die eigene körperliche Fürsorge. Ein plötzlicher Notfall wie eine Embolie kann in diesem Kontext auch als schmerzhafte Erinnerung erlebt werden, dass Selbstsorge nicht länger aufschiebbar ist." },
+      ]},
+      { typ: 3, titel: "Wenn der Motor abrupt stoppt", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei funktioniert oft bis zur völligen Erschöpfung, ohne echte Pausen einzulegen – auch körperlich, etwa nach langen Sitzphasen oder Reisen. Ein plötzlicher Gefäßverschluss trifft hier auf ein Selbstbild, das Stillstand grundsätzlich als Versagen wertet." },
+        { code: "SO3", text: "Die soziale Drei jagt von einem sichtbaren Erfolg zum nächsten, oft unter erheblichem Zeitdruck, mit wenig Rücksicht auf körperliche Warnzeichen. Ein akutes Ereignis wie eine Embolie erzwingt genau die Vollbremsung, die dieser Subtyp sich selbst kaum zugesteht." },
+        { code: "SX3", text: "Nie als schwach oder verletzlich erscheinen zu wollen, auch im engsten Umfeld nicht, lässt die sexuelle Drei körperliche Signale entsprechend lange übergehen. Eine plötzliche, dramatische Erkrankung reißt diese Fassade abrupt auf, ohne Vorwarnung." },
+      ]},
+      { typ: 4, titel: "Wenn der aufgestaute Schmerz die Luft nimmt", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier funktioniert nach außen unauffällig weiter, während innerlich viel unausgesprochen bleibt. Ein plötzlicher, körperlicher Einbruch wie eine Embolie kann als drastische, körperliche Version dessen erlebt werden, was innerlich längst spürbar war, aber nie Raum bekam." },
+        { code: "SO4", text: "Die soziale Vier spricht offen über emotionale Belastung, was ihr ein gewisses Ventil verschafft – körperliche Warnzeichen wie Beinschwellungen oder Atemnot werden dadurch aber nicht automatisch ernster genommen, wenn der Fokus vor allem auf dem emotionalen Ausdruck liegt." },
+        { code: "SX4", text: "Die sexuelle Vier lebt Intensität kompromisslos, auch wenn der Körper längst Grenzen anzeigt. Ein plötzliches, dramatisches Ereignis passt in gewisser Weise zu einem Lebensgefühl, das Zwischentöne selten kennt – wird aber selten rechtzeitig als eigenes Warnsignal gedeutet." },
+      ]},
+      { typ: 5, titel: "Wenn Rückzug den Kreislauf ins Stocken bringt", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf reduziert Bewegung und Kontakt oft auf ein Minimum, um Energie zu sparen. Lange, bewegungsarme Phasen begünstigen Kreislaufstockungen, die bei diesem Subtyp durch die generelle Zurückgezogenheit besonders leicht übersehen werden." },
+        { code: "SO5", text: "Die soziale Fünf beobachtet lieber, als selbst aktiv zu werden, und verbringt viel Zeit in stiller, sitzender Distanz zum Geschehen. Körperliche Warnzeichen werden dabei oft rein kognitiv registriert, aber nicht in konkretes Handeln übersetzt." },
+        { code: "SX5", text: "Die sexuelle Fünf konzentriert ihre begrenzte Energie auf die wenigen vertrauten Bindungen und vernachlässigt darüber leicht die eigene Bewegung im Alltag. Ein plötzlicher Notfall trifft hier auf eine Person, die körperliche Signale erst spät zulässt." },
+      ]},
+      { typ: 6, titel: "Wenn die Angst plötzlich Recht bekommt", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs sorgt vor, kalkuliert Risiken – doch ausgerechnet ein plötzliches, kaum vorhersehbares Ereignis wie eine Embolie kann die eigene Vorsicht auf beunruhigende Weise bestätigen und die ohnehin wache Alarmbereitschaft weiter verstärken." },
+        { code: "SO6", text: "Die soziale Sechs orientiert sich an dem, was die Gemeinschaft für sicher hält, und übernimmt oft erst Warnsignale, wenn sie von außen – etwa vom Arzt – bestätigt werden. Ein plötzlicher Notfall kann diesen Subtyp in besonders tiefe Verunsicherung stürzen." },
+        { code: "SX6", text: "Die sexuelle Sechs begegnet Gefahr gegenphobisch, indem sie sie herausfordert statt vermeidet – auch körperliche Warnzeichen werden mitunter bewusst ignoriert, um Stärke zu beweisen. Ein akutes Ereignis widerlegt diese Strategie auf schmerzhafte Weise." },
+      ]},
+      { typ: 7, titel: "Wenn Tempo plötzlich unmöglich wird", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben hält sich ständig mehrere Optionen offen und ist selten wirklich zur Ruhe zu bewegen – auch nicht nach langen Reisen oder Operationen, wenn Bewegung eigentlich angezeigt wäre. Genau das kann das Risiko begünstigen." },
+        { code: "SO7", text: "Warnzeichen wie Beinschwellung oder plötzliche Atemnot ignoriert die soziale Sieben, der Kontratyp unter den Siebenern, oft länger, als es der eigenen Sicherheit guttut, weil eigene körperliche Bedürfnisse zugunsten anderer zurückgestellt werden." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt volles Tempo, bis ein plötzlicher körperlicher Einbruch alles abrupt zum Stillstand bringt – ein harter Kontrast zu einem Leben, das Stillstand sonst konsequent vermeidet." },
+      ]},
+      { typ: 8, titel: "Wenn Stärke den Notfall verschleppt", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht übergeht körperliche Warnzeichen konsequent, aus Prinzip: Schwäche zeigen kommt nicht infrage. Genau diese Haltung kann bei einer Erkrankung, die schnelles Handeln erfordert, gefährlich viel Zeit kosten." },
+        { code: "SO8", text: "Die soziale Acht kümmert sich in erster Linie um andere und stellt die eigene Gesundheit zurück, solange die Gruppe sie noch zu brauchen scheint. Ein plötzlicher Notfall wird oft erst ernst genommen, wenn er nicht mehr zu übergehen ist." },
+        { code: "SX8", text: "Die sexuelle Acht lebt Intensität mit voller Wucht und übergeht körperliche Signale oft auch in engen Beziehungen. Ein akutes Ereignis wie eine Embolie durchbricht diese Selbstüberschätzung abrupt und ungefragt." },
+      ]},
+      { typ: 9, titel: "Wenn der eigene Körper endlich gehört werden muss", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun übergeht eigene Beschwerden häufig aus Gewohnheit, nicht aus Mut – der eigene Körper wird selten wirklich gehört. Ein akuter Notfall zwingt zu genau der Aufmerksamkeit für sich selbst, die diesem Subtyp sonst am schwersten fällt." },
+        { code: "SO9", text: "Die soziale Neun passt sich dem Rhythmus der Gruppe an und meldet eigene Beschwerden erst spät, um niemandem zur Last zu fallen. Ein plötzlicher Notfall unterbricht diese Zurückhaltung unfreiwillig, aber unmissverständlich." },
+        { code: "SX9", text: "Die sexuelle Neun ist so sehr auf den geliebten Menschen ausgerichtet, dass eigene körperliche Signale leicht im Hintergrund verschwinden. Ein akutes Ereignis holt die Aufmerksamkeit abrupt zurück zum eigenen Körper, der bislang kaum eine eigene Stimme hatte." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor einer Lungenembolie gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist, dass jeder der 27 Subtypen auf seine eigene Weise mit Bewegungslosigkeit, aufgestauter Anspannung und übergangenen Körpersignalen umgeht. Genau hier setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am akuten Gefäßverschluss selbst, sondern an der aus dem Gleichgewicht geratenen Lebenskraft, die sich lange vor dem Notfall bereits zeigt.",
+  },
+  aortenaneurysma: {
+    titel: "Aortenaneurysma",
+    kategorie: "herz-kreislauf",
+    icon: "&#128721;",
+    kurz: "Wenn die größte Ader des Körpers unter jahrelangem Druck nachgibt, still und ohne Vorwarnung.",
+    definition: "Ein Aortenaneurysma ist eine krankhafte, meist arteriosklerotisch bedingte Aussackung der Hauptschlagader (Aorta), am häufigsten im Bauchraum (Bauchaortenaneurysma), seltener im Brustkorb (thorakales Aneurysma). Die Gefäßwand verliert durch Bluthochdruck, Rauchen, genetische Veranlagung oder entzündliche Prozesse an Elastizität und dehnt sich über Jahre langsam aus. Solange das Aneurysma nicht reißt, verläuft es meist völlig symptomlos und wird oft zufällig bei einer Untersuchung entdeckt.",
+    symptome: [
+      "Meist über Jahre keine Beschwerden – das Aneurysma wächst still",
+      "Bei größeren Aneurysmen gelegentlich diffuser Rücken- oder Bauchschmerz, ein pulsierendes Gefühl im Bauch",
+      "Bei Druck auf umliegende Strukturen: Völlegefühl, Schluckbeschwerden (bei thorakalem Aneurysma), Heiserkeit",
+      "Plötzlicher, extrem starker, vernichtender Schmerz in Bauch, Rücken oder Brust als Zeichen einer drohenden oder eingetretenen Ruptur",
+      "Bei Ruptur: Kreislaufkollaps, Blässe, Bewusstlosigkeit",
+    ],
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    notfall: "Eine Aneurysma-Ruptur ist ein akut lebensbedrohlicher Notfall. Bei plötzlichem, extrem starkem Bauch-, Rücken- oder Brustschmerz, besonders in Kombination mit Kreislaufkollaps, Blässe oder Bewusstseinstrübung: sofort den Notruf 112 wählen. Ein geplatztes Aortenaneurysma führt unbehandelt innerhalb kürzester Zeit zum Tod – hier zählt jede Minute, kein Raum für psychosomatische Deutung, sondern ausschließlich für sofortige Notfallversorgung.",
+    einleitung: "Kaum ein Gefäß trägt so viel Druck wie die Aorta, die größte Schlagader des Körpers, durch die bei jedem Herzschlag das gesamte Blutvolumen gepresst wird. Ein Aneurysma entsteht dort, wo diese Wand über Jahre hinweg dem Druck nicht mehr standhält und sich langsam, lautlos ausdehnt – bis sie, oft ohne jede Vorwarnung, nachgibt. Die Psychosomatik liest darin oft das Bild einer über Jahre getragenen Grundspannung, die von außen kaum sichtbar ist, aber die eigene Substanz von innen dehnt, bis irgendwann die Grenze der Belastbarkeit erreicht ist.",
+    typen: [
+      { typ: 1, titel: "Die Wand, die niemals nachgeben darf", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins hält jahrzehntelang Haltung, äußerlich diszipliniert, innerlich unter konstantem Druck. Ein Gefäß, das genau dort nachgibt, wo am meisten Druck lastet, kann als körperliches Echo eines Lebens gelesen werden, das keine sichtbare Schwächung duldet." },
+        { code: "SO1", text: "Die soziale Eins trägt die Last der Verantwortung für das große Ganze über Jahre, ohne diesen Druck je offen zu benennen. Die stille, allmähliche Ausweitung eines Aneurysmas gleicht dem langsamen Nachgeben einer Wand, die zu lange zu viel tragen musste." },
+        { code: "SX1", text: "Direkte Konfrontation statt leises Nachgeben prägt die sexuelle Eins – hier fehlt die stille, langsame Wanddehnung, dafür trägt die intensive Beziehungsdynamik ihre eigene, episodische Druckbelastung auf das Gefäßsystem." },
+      ]},
+      { typ: 2, titel: "Die Wand, die für andere trägt", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei trägt über Jahrzehnte die praktische Last für andere, ohne je selbst getragen zu werden. Diese stille, nie eingeforderte Überlastung kann sich in einem Gefäß spiegeln, das ebenfalls unbemerkt nachgibt, weil niemand hinschaut." },
+        { code: "SO2", text: "Die soziale Zwei verteilt ihre Kraft auf viele Schultern gleichzeitig und übernimmt sich dabei oft, ohne es selbst wahrzunehmen. Die schleichende Ausdehnung eines Aneurysmas passt zu einer Überlastung, die sich über viele kleine Verpflichtungen unbemerkt aufsummiert." },
+        { code: "SX2", text: "Die sexuelle Zwei bindet ihre gesamte Kraft an eine einzige, intensive Beziehung. Wird diese Bindung instabil, entsteht eine emotionale Druckbelastung, die episodisch, aber heftig auf ein ohnehin beanspruchtes Gefäßsystem wirken kann." },
+      ]},
+      { typ: 3, titel: "Die Wand, die immer weiter funktionieren muss", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei funktioniert über Jahre auf Hochtouren, ohne sich Erholung zuzugestehen. Ein Gefäß, das unter Dauerdruck langsam nachgibt, passt zu einem Körper, der nie offiziell um eine Pause gebeten wurde." },
+        { code: "SO3", text: "Die soziale Drei steht unter dem Dauerdruck des sichtbaren Vergleichs, eines inneren Wettlaufs ohne Ziellinie. Dieser konstante, selbst erzeugte Druck kann sich über Jahrzehnte auch in den Wänden der eigenen Gefäße niederschlagen." },
+        { code: "SX3", text: "Die sexuelle Drei hält auch im privaten Umfeld permanent Höchstleistung aufrecht, ohne je Erschöpfung einzugestehen. Die Ausdehnung eines Aneurysmas verläuft, ähnlich wie diese Erschöpfung, lange unsichtbar hinter einer makellosen Fassade." },
+      ]},
+      { typ: 4, titel: "Die Wand, die den unausgesprochenen Schmerz hält", varianten: [
+        { code: "SE4", text: "Tiefe, nie ausgesprochene Sehnsucht trägt die selbsterhaltende Vier über Jahrzehnte in sich, während sie nach außen funktioniert. Eine langsam wachsende, lange unbemerkte Aussackung passt zu einem Schmerz, der ebenso lange unter der Oberfläche bleibt." },
+        { code: "SO4", text: "Die soziale Vier trägt ihren Schmerz nach außen und findet darin ein gewisses Ventil, das dem inneren Druck zumindest teilweise entgegenwirkt – anders als bei stillerem Leiden, das sich ungebremst ansammelt." },
+        { code: "SX4", text: "Wiederkehrende Höhen und Tiefen prägen die intensive emotionale Beziehungsdynamik der sexuellen Vier. Diese episodischen Belastungsspitzen beanspruchen das Gefäßsystem anders als eine gleichmäßige, stille Dauerspannung." },
+      ]},
+      { typ: 5, titel: "Die Wand, die niemand prüft", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf zieht sich zurück und vermeidet auch Arztbesuche, die als übergriffig empfunden werden könnten. Ein Aneurysma, das ohne gezielte Untersuchung meist unentdeckt bleibt, passt zu einem Subtyp, der Kontrolle über den eigenen Körper ungern abgibt." },
+        { code: "SO5", text: "Die soziale Fünf beobachtet die Welt aus einer gewissen Distanz und vernachlässigt darüber leicht die eigene Vorsorge. Die stille, symptomlose Natur eines Aneurysmas macht es besonders leicht, es über Jahre zu übersehen." },
+        { code: "SX5", text: "Die sexuelle Fünf teilt sich nur sehr wenigen Menschen mit – auch gesundheitliche Sorgen bleiben oft unausgesprochen. Diese Zurückhaltung kann dazu führen, dass ein wachsendes Aneurysma lange niemandem auffällt, der nachfragen könnte." },
+      ]},
+      { typ: 6, titel: "Die Wand, die im Ernstfall reißt", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs sorgt vor und lässt sich eher regelmäßig untersuchen, getrieben von der Sorge, etwas zu übersehen. Diese Wachsamkeit kann bei der Früherkennung eines Aneurysmas tatsächlich hilfreich sein – die zugrundeliegende Daueranspannung bleibt trotzdem ein Risikofaktor." },
+        { code: "SO6", text: "Die soziale Sechs richtet sich nach dem, was Autoritäten und Ärzte empfehlen, und nimmt Vorsorgeuntersuchungen eher wahr, wenn sie institutionell vorgegeben sind. Bleibt diese Anbindung aus, kann ein Aneurysma leicht unentdeckt bleiben." },
+        { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch und meidet Vorsorgeuntersuchungen mitunter bewusst, um sich selbst nichts einzugestehen. Diese Verleugnung kann bei einer lange symptomlosen Erkrankung wie dem Aneurysma besonders riskant sein." },
+      ]},
+      { typ: 7, titel: "Die Wand, die keine Pause kennt", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben hält sich lieber mit Optionen beschäftigt als mit unbequemen Vorsorgeterminen. Eine Erkrankung, die erst beim abrupten Reißen spürbar wird, passt tragisch gut zu einer Lebensweise, die Stillstand und Innehalten meidet." },
+        { code: "SO7", text: "Vorsorgetermine für sich selbst geraten bei der sozialen Sieben, dem Kontratyp unter den Siebenern, regelmäßig ins Hintertreffen, weil die Bedürfnisse anderer immer dringender erscheinen. Ein über Jahre unbemerkt wachsendes Aneurysma passt zu dieser chronisch verleugneten eigenen Bedürftigkeit." },
+        { code: "SX7", text: "Ohne Bremse lebt die sexuelle Sieben Intensität, oft auch mit erhöhtem Konsum von Nikotin oder Alkohol – beides anerkannte Risikofaktoren für die Gefäßwand, die zusätzlich zur ohnehin ruhelosen Lebensweise wirken." },
+      ]},
+      { typ: 8, titel: "Die Wand, die keine Schwäche eingesteht", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht ignoriert körperliche Warnzeichen konsequent, aus Prinzip. Eine lange unentdeckte, wachsende Aussackung passt zu einem Subtyp, der Vorsorgeuntersuchungen als unnötige Bevormundung erlebt." },
+        { code: "SO8", text: "Die soziale Acht kümmert sich um alle außer sich selbst und schiebt die eigene Vorsorge notorisch auf. Der plötzliche Ernstfall eines gerissenen Aneurysmas trifft hier auf eine Person, die eigene Verletzlichkeit lange nicht zulässt." },
+        { code: "SX8", text: "Die sexuelle Acht lebt körperliche Intensität ungebremst und übergeht Warnsignale, auch in engen Beziehungen, wo Partner auf Vorsicht drängen könnten. Diese Selbstüberschätzung kann bei einer stillen Erkrankung wie dem Aneurysma gefährlich werden." },
+      ]},
+      { typ: 9, titel: "Die Wand, die niemandem auffallen soll", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun meidet unbequeme Arzttermine und eigene gesundheitliche Anliegen aus Gewohnheit. Ein Aneurysma, das über Jahre keine Beschwerden macht, kann bei diesem Subtyp besonders lange unbemerkt bleiben." },
+        { code: "SO9", text: "Die soziale Neun ordnet eigene gesundheitliche Sorgen dem Frieden in der Gruppe unter und spricht selten von sich aus über Beschwerden. Diese Zurückhaltung erschwert es, ein stilles, symptomloses Aneurysma rechtzeitig zu entdecken." },
+        { code: "SX9", text: "Die sexuelle Neun richtet ihre gesamte Aufmerksamkeit auf den geliebten Menschen und vernachlässigt darüber leicht die eigene Vorsorge. Der eigene Körper bleibt so lange ungehört, bis ein akutes Ereignis unüberhörbar wird." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor einem Aortenaneurysma gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist, dass jeder der 27 Subtypen auf seine eigene Weise mit langfristigem, oft unsichtbarem Druck und der eigenen Vorsorge umgeht. Genau hier setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht an der bereits gedehnten Gefäßwand, sondern an der aus dem Gleichgewicht geratenen Lebenskraft, die den Druck über Jahre unbemerkt trägt.",
+  },
+  kardiomyopathie: {
+    titel: "Kardiomyopathie",
+    kategorie: "herz-kreislauf",
+    icon: "&#128147;",
+    kurz: "Wenn der Herzmuskel selbst aus der Form gerät, unabhängig von den Gefäßen, die ihn versorgen.",
+    definition: "Kardiomyopathien sind Erkrankungen des Herzmuskels selbst, die nicht primär durch verengte Herzkranzgefäße oder Bluthochdruck bedingt sind. Man unterscheidet unter anderem die dilatative Kardiomyopathie (der Herzmuskel erschlafft und die Herzkammern weiten sich, die Pumpkraft sinkt), die hypertrophe Kardiomyopathie (der Herzmuskel verdickt sich krankhaft, oft genetisch bedingt) und die sogenannte Stresskardiomyopathie (&bdquo;Broken-Heart-Syndrom&ldquo;, Tako-Tsubo-Syndrom), die typischerweise nach extremer emotionaler oder körperlicher Belastung akut auftritt und den Zusammenhang zwischen seelischer Erschütterung und Herzfunktion besonders unmittelbar zeigt.",
+    symptome: [
+      "Zunehmende Atemnot, zunächst bei Belastung, später auch in Ruhe",
+      "Rasche Erschöpfbarkeit, verminderte körperliche Leistungsfähigkeit",
+      "Herzrhythmusstörungen, Herzstolpern, Herzrasen",
+      "Wassereinlagerungen (Ödeme) in Beinen oder Bauch als Zeichen einer Herzschwäche",
+      "Bei der Stresskardiomyopathie: plötzlicher, herzinfarktähnlicher Brustschmerz unmittelbar nach starker emotionaler Erschütterung, ohne dass ein Gefäßverschluss vorliegt",
+      "Schwindel, in schweren Fällen Ohnmacht",
+    ],
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    notfall: "Bei plötzlichem Brustschmerz, akuter Atemnot, Ohnmacht oder dem Verdacht auf eine akute Herzschwäche (z. B. nach starker emotionaler Belastung): sofort den Notruf 112 wählen, da sich klinisch kaum von einem Herzinfarkt unterscheiden lässt, ob tatsächlich ein Gefäßverschluss oder eine akute Kardiomyopathie vorliegt. Bei bekannter Kardiomyopathie und plötzlicher Verschlechterung (starke Atemnot, deutliche Gewichtszunahme durch Wassereinlagerung, Bewusstseinstrübung) ebenfalls unverzüglich ärztliche Notfallhilfe aufsuchen.",
+    einleitung: "Die Stresskardiomyopathie, umgangssprachlich treffend &bdquo;Broken-Heart-Syndrom&ldquo; genannt, ist eine der wenigen kardiologischen Diagnosen, bei denen der Zusammenhang zwischen seelischer Erschütterung und Herzfunktion medizinisch unmittelbar anerkannt ist: Nach dem Tod eines nahestehenden Menschen, einer Trennung oder einem Schockereignis kann sich die linke Herzkammer akut so verformen, dass sie in der Bildgebung an eine traditionelle japanische Tintenfischfalle (Tako-Tsubo) erinnert. Auch die anderen Kardiomyopathien betreffen den Herzmuskel selbst, nicht nur seine Gefäßversorgung – die Psychosomatik liest darin oft die Frage, wie viel emotionale Erschütterung, Dauerbelastung oder unterdrückter Kummer ein Herzmuskel über die Zeit tragen kann, bevor seine Form selbst sich verändert.",
+    typen: [
+      { typ: 1, titel: "Wenn der innere Druck die Form verändert", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins hält Form und Kontrolle um jeden Preis, bis in den letzten Muskel hinein. Verändert sich ausgerechnet der Herzmuskel selbst krankhaft, obwohl äußerlich alles diszipliniert bleibt, kann das als körperliche Ironie eines Lebens gelesen werden, das Kontrolle über fast alles außer über den eigenen Herzschlag hatte." },
+        { code: "SO1", text: "Die soziale Eins trägt über Jahre die Last, die Welt gerechter zu machen, ohne dabei je auf die eigene Erschöpfung zu hören. Eine sich langsam entwickelnde Herzmuskelschwäche passt zu einem Motor, der über Jahrzehnte für andere lief, ohne selbst gewartet zu werden." },
+        { code: "SX1", text: "Bei der sexuellen Eins kann ein plötzlicher, heftiger Beziehungsschock – eine Trennung, ein Verrat – genau jene akute emotionale Erschütterung sein, die als Auslöser einer Stresskardiomyopathie beschrieben wird: Das Herz reagiert hier unmittelbar auf das, was in der Nähe zerbricht." },
+      ]},
+      { typ: 2, titel: "Wenn das Herz für andere schlägt, bis es selbst nachgibt", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei sorgt über Jahrzehnte praktisch für andere, ohne selbst je versorgt zu werden. Eine schleichende Erschlaffung des Herzmuskels passt zu einem Organ, das über lange Zeit gegeben hat, ohne je etwas zurückzubekommen." },
+        { code: "SO2", text: "Die soziale Zwei verteilt ihre Fürsorge auf viele gleichzeitig und übernimmt sich dabei oft unbemerkt. Die stille Überlastung eines Herzens, das für zu viele gleichzeitig da sein will, kann sich langfristig in einer nachlassenden Pumpleistung zeigen." },
+        { code: "SX2", text: "Die sexuelle Zwei bindet ihr ganzes Selbstwertgefühl an eine einzige Beziehung – zerbricht diese, ist der emotionale Einbruch besonders heftig. Genau ein solches akutes, herzzerreißendes Ereignis gilt als klassischer Auslöser der Stresskardiomyopathie." },
+      ]},
+      { typ: 3, titel: "Wenn Leistung den Herzmuskel überfordert", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei treibt den eigenen Körper über Jahre bis an die Belastungsgrenze, oft auch sportlich, ohne echte Erholungsphasen. Ein überlasteter Herzmuskel, der sich krankhaft verändert, kann Ausdruck eines Systems sein, das nie offiziell eine Pause bekam." },
+        { code: "SO3", text: "Die soziale Drei steht unter permanentem Vergleichsdruck – ein Zustand, der kardiologisch mit erhöhter Belastung des Herzmuskels in Verbindung gebracht wird. Anders als beim klassischen Gefäßverschluss zeigt sich hier eher eine schleichende Ermüdung des Muskels selbst." },
+        { code: "SX3", text: "Die sexuelle Drei bricht ihr makelloses Selbstbild selten öffentlich zusammen – geschieht es doch, etwa durch ein plötzliches Beziehungsversagen, kann die emotionale Wucht dieses Zusammenbruchs genau jene akute Herzreaktion auslösen, die die Stresskardiomyopathie beschreibt." },
+      ]},
+      { typ: 4, titel: "Wenn der Kummer sich im Muskel niederlässt", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier trägt tiefen, nie ausgesprochenen Kummer über Jahre in sich, während sie äußerlich funktioniert. Eine schleichende Veränderung des Herzmuskels passt zu einem Schmerz, der sich nach innen statt nach außen Ausdruck verschafft." },
+        { code: "SO4", text: "Die soziale Vier äußert Kummer offen und findet darin ein gewisses Ventil, das der reinen körperlichen Belastung zumindest teilweise entgegenwirkt. Dennoch bleibt gerade nach schweren Verlusterlebnissen das Risiko einer akuten Stresskardiomyopathie real." },
+        { code: "SX4", text: "Die sexuelle Vier lebt Liebeskummer mit einer Intensität, die ihresgleichen sucht – ein zerbrochenes Herz ist bei diesem Subtyp fast wörtlich zu nehmen und gilt psychokardiologisch als einer der klassischsten Auslöser einer Stresskardiomyopathie." },
+      ]},
+      { typ: 5, titel: "Wenn Rückzug den Herzmuskel unterversorgt", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf reduziert Kontakt und Bewegung gleichermaßen, um Energie zu sparen. Ein Herzmuskel, der selten gefordert und selten emotional berührt wird, kann auf lange Sicht ebenfalls an Anpassungsfähigkeit verlieren." },
+        { code: "SO5", text: "Die soziale Fünf hält emotionale Distanz auch dort, wo sie körperlich anwesend ist. Diese chronische innere Abgeschiedenheit erschwert es, frühe Warnzeichen einer beginnenden Herzmuskelschwäche überhaupt wahrzunehmen." },
+        { code: "SX5", text: "Die sexuelle Fünf bindet sich intensiv, aber nur an sehr wenige Menschen – der Verlust einer solchen seltenen, tiefen Bindung kann eine emotionale Erschütterung auslösen, die in ihrer Wucht einer Stresskardiomyopathie nahekommt, weil so wenig anderes den Verlust auffängt." },
+      ]},
+      { typ: 6, titel: "Wenn Daueralarm den Herzmuskel ermüdet", varianten: [
+        { code: "SE6", text: "Ständige Vorsicht und innere Alarmbereitschaft prägen den Alltag der selbsterhaltenden Sechs. Chronisch erhöhte Stresshormonspiegel gelten als plausibler Mechanismus für eine allmähliche Ermüdung des Herzmuskels, selbst ohne ein konkretes, einzelnes Schockereignis." },
+        { code: "SO6", text: "Die soziale Sechs sorgt sich vor allem um den Erhalt der Gemeinschaft, an der die eigene Sicherheit hängt. Ein plötzlicher Bruch dieser Zugehörigkeit – etwa der Verlust einer wichtigen Gruppe oder Institution – kann eine akute emotionale Erschütterung auslösen." },
+        { code: "SX6", text: "Die sexuelle Sechs sucht Bewährung in bewusst gesuchter Konfrontation, was episodische, aber intensive Belastungsspitzen erzeugt. Eine plötzliche, unerwartete Niederlage in einem solchen selbst gesuchten Kampf kann als akuter emotionaler Schock wirken." },
+      ]},
+      { typ: 7, titel: "Wenn Zerstreuung den Kummer überdeckt, bis er durchbricht", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben hält sich mit ständig neuen Optionen von echtem Gefühl fern. Bricht dieses Ausweichen einmal zusammen – etwa durch ein Ereignis, das sich nicht wegplanen lässt – kann die aufgestaute emotionale Wucht besonders unvermittelt auftreten." },
+        { code: "SO7", text: "Erschöpfung wird von der sozialen Sieben, dem Kontratyp unter den Siebenern, lange verleugnet, solange noch jemand anderes ihre Kraft zu brauchen scheint. Bricht diese Fassade plötzlich zusammen, kann sich das, ähnlich wie bei anderen chronisch verleugnenden Subtypen, als akute Herzreaktion zeigen." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Intensität ungebremst, oft begleitet von erhöhtem Konsum von Nikotin, Alkohol oder anderen belastenden Genussmitteln – anerkannte Risikofaktoren, die zusätzlich zur emotionalen Volatilität auf den Herzmuskel wirken können." },
+      ]},
+      { typ: 8, titel: "Wenn die Stärke selbst zum Bruch führt", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht lässt sich Schwäche oder Verletzlichkeit selten anmerken, auch nicht bei tiefem Verlust. Genau diese Verleugnung kann dazu führen, dass eine emotionale Erschütterung den Körper unvermittelt und heftig trifft, weil sie nie ein reguläres Ventil fand." },
+        { code: "SO8", text: "Die soziale Acht schützt und trägt andere, auch wenn das eigene Herz längst überlastet ist. Fällt diese Schutzrolle plötzlich weg – etwa durch den Verlust eines Menschen, den sie beschützt hat – kann die emotionale Wucht besonders stark sein." },
+        { code: "SX8", text: "Totale Hingabe kennzeichnet die eine Beziehung der sexuellen Acht – ein plötzliches Ende dieser Bindung trifft dementsprechend mit voller Wucht, ohne die Abpufferung, die ein breiteres emotionales Netz bieten könnte." },
+      ]},
+      { typ: 9, titel: "Wenn das eigene Herz zuletzt zu Wort kommt", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun verdrängt eigenen emotionalen Schmerz zugunsten von Komfort und Routine, oft über Jahrzehnte. Ein Herzmuskel, der sich langsam verändert, kann als körperliches Echo eines Herzens gelesen werden, das nie wirklich gehört wurde." },
+        { code: "SO9", text: "Die soziale Neun ordnet eigene Gefühle konsequent dem Gruppenfrieden unter. Ein plötzlicher Bruch innerhalb der Gemeinschaft, der sich nicht harmonisieren lässt, kann eine emotionale Erschütterung auslösen, die dieser Subtyp sonst kaum je zulässt." },
+        { code: "SX9", text: "Die sexuelle Neun verschmilzt so vollständig mit dem geliebten Menschen, dass dessen Verlust einem Verlust der eigenen Identität gleichkommt – psychokardiologisch einer der eindrücklichsten denkbaren Auslöser einer Stresskardiomyopathie." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor einer Kardiomyopathie gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist, dass der Herzmuskel selbst – unabhängig von seinen Gefäßen – bei jedem der 27 Subtypen auf eine eigene Weise mit Dauerbelastung, plötzlichem Verlust oder nie ausgedrücktem Kummer verhandelt. Genau hier setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am veränderten Muskelgewebe, sondern an der aus dem Gleichgewicht geratenen Lebenskraft, die diesem Muskel seine Form gibt.",
+  },
+  gastritis: {
+    titel: "Gastritis",
+    kategorie: "verdauung",
+    icon: "&#128293;",
+    kurz: "Wenn die Magenschleimhaut entzündet reagiert auf das, was der Magen nicht mehr verdauen kann.",
+    definition: "Die Gastritis ist eine Entzündung der Magenschleimhaut, die akut (oft durch Alkohol, Medikamente wie Schmerzmittel, Stress oder eine Infektion) oder chronisch verlaufen kann. Die häufigste Ursache chronischer Gastritis ist eine Infektion mit dem Bakterium Helicobacter pylori, seltener spielen Autoimmunprozesse oder chronische Reizung durch Gallenreflux eine Rolle. Unbehandelt kann eine chronische Gastritis das Risiko für Magengeschwüre und in seltenen Fällen für Magenkrebs erhöhen.",
+    symptome: [
+      "Druck- oder Völlegefühl im Oberbauch, oft nach dem Essen",
+      "Übelkeit, gelegentlich Erbrechen",
+      "Brennende oder nagende Schmerzen im Oberbauch",
+      "Appetitlosigkeit, vorzeitiges Sättigungsgefühl",
+      "Aufstoßen, Sodbrennen",
+      "Bei akuter Gastritis mit Blutungsneigung: Bluterbrechen oder schwarz gefärbter Stuhl (Warnzeichen)",
+    ],
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    notfall: "Bei Bluterbrechen, schwarzem, teerartigem Stuhl, starken, plötzlich einsetzenden Bauchschmerzen oder Kreislaufschwäche: sofort ärztliche Notfallversorgung aufsuchen bzw. den Notruf 112 wählen, da dies auf eine akute Magenblutung hinweisen kann. Hier ist kein Raum für psychosomatische Deutung, sondern für sofortige medizinische Abklärung.",
+    einleitung: "Der Magen gilt in vielen Körperbildern als der Ort, an dem wir buchstäblich verdauen, was uns das Leben vorsetzt – Eindrücke, Konflikte, Erwartungen, die nicht immer bekömmlich sind. Die Schulmedizin sieht bei der Gastritis meist eine Kombination aus Reizfaktoren wie Helicobacter pylori, Medikamenten oder Stress, der die Magensäureproduktion und die Durchblutung der Schleimhaut beeinflusst. Die Traditionelle Chinesische Medizin ordnet den Magen dem Element Erde zu und verbindet Magenbeschwerden häufig mit Grübeln und übermäßigem Nachdenken. Die Psychosomatik liest in der entzündeten Schleimhaut oft ein Bild für etwas, das gerade nicht verdaut werden kann oder darf – ein Ärger, eine Forderung, ein Tempo, das dem Magen buchstäblich sauer aufstößt.",
+    typen: [
+      { typ: 1, titel: "Was der Magen nicht schlucken will", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins schluckt Ärger regelmäßig hinunter, statt ihn auszusprechen – wortwörtlich: Kritik, Enttäuschung und Wut werden diszipliniert unterdrückt und landen stattdessen im Magen, der auf diese Dauerbelastung mit erhöhter Reizbarkeit reagieren kann." },
+        { code: "SO1", text: "Die soziale Eins verdaut nicht nur den eigenen Ärger, sondern gefühlt auch die Ungerechtigkeiten der ganzen Welt – ein Pensum, das den Magen selten zur Ruhe kommen lässt, weil nie wirklich Feierabend ist von der inneren Reformarbeit." },
+        { code: "SX1", text: "Die sexuelle Eins trägt ihren Ärger direkt in die Beziehung, wo er zumindest teilweise ausgesprochen wird – dennoch bleibt der Anspruch an Perfektion in der Nähe eine Quelle wiederkehrender Anspannung, die sich auch im Magen bemerkbar machen kann." },
+      ]},
+      { typ: 2, titel: "Was auf nüchternen Magen gegeben wird", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei versorgt andere oft, bevor sie selbst gegessen hat – Mahlzeiten werden übersprungen oder hastig zwischen Aufgaben eingenommen. Diese Unregelmäßigkeit allein kann die Magenschleimhaut reizen, ganz unabhängig vom emotionalen Anteil." },
+        { code: "SO2", text: "Die soziale Zwei ist ständig für viele gleichzeitig im Einsatz und isst dabei oft nebenbei, unter Zeitdruck, mit dem Kopf schon bei der nächsten Verpflichtung – ein Muster, das dem Magen wenig Gelegenheit zur echten Ruhe lässt." },
+        { code: "SX2", text: "Die sexuelle Zwei lebt in ständiger Sorge um die eine wichtige Bindung, eine Anspannung, die sich leicht in Appetitlosigkeit oder einem flauen, nervösen Magengefühl äußern kann, gerade in Phasen der Unsicherheit." },
+      ]},
+      { typ: 3, titel: "Was schnell heruntergeschlungen wird", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei isst häufig im Vorbeigehen, funktional, ohne echte Pause – Effizienz gilt auch für Mahlzeiten. Diese Hast beim Essen ist eine der unmittelbarsten Belastungen für eine gereizte Magenschleimhaut." },
+        { code: "SO3", text: "Selbst Geschäftsessen und Termine stehen bei der sozialen Drei im Zeichen sichtbaren Erfolgs, bei denen es selten wirklich um Genuss, sondern um Repräsentation geht – ein Dauerdruck, der auch beim Essen kaum pausiert." },
+        { code: "SX3", text: "Die sexuelle Drei will auch beim gemeinsamen Essen makellos wirken und unterdrückt dabei mitunter eigene Unwohlsein-Signale, um die perfekte Fassade nicht zu gefährden – der Magen bekommt so selten die Aufmerksamkeit, die er bräuchte." },
+      ]},
+      { typ: 4, titel: "Was der Magen mitfühlt", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier trägt unausgesprochenen Kummer oft still in sich, während sie äußerlich funktioniert – ein Magen, der über Jahre auf nie ausgedrücktem Schmerz sitzt, kann diesen mit chronischer Reizung beantworten." },
+        { code: "SO4", text: "Die soziale Vier äußert Kummer offen, was ein gewisses Ventil schafft – Magenbeschwerden treten hier eher episodisch nach emotionalen Hochphasen auf als als konstante, stille Dauerreizung." },
+        { code: "SX4", text: "Die sexuelle Vier lebt intensive emotionale Ausschläge in der Beziehung, mit Phasen heftiger Aufregung oder Verzweiflung, die sich unmittelbar auf einen empfindlichen Magen niederschlagen können." },
+      ]},
+      { typ: 5, titel: "Was zurückgehalten wird, bis es brennt", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf isst oft unregelmäßig, minimalistisch, manchmal vergisst sie Mahlzeiten ganz über der Vertiefung in ein Thema. Diese Unregelmäßigkeit kann die Magenschleimhaut ebenso reizen wie emotionale Anspannung." },
+        { code: "SO5", text: "Die soziale Fünf hält auch beim gemeinsamen Essen innere Distanz und teilt selten mit, was sie wirklich beschäftigt. Diese chronische innere Zurückhaltung ist eine stille Form von Anspannung, die sich im Magen niederschlagen kann." },
+        { code: "SX5", text: "Nur sehr wenigen Menschen öffnet sich die sexuelle Fünf intensiv – Sorgen, die nicht geteilt werden können, weil der Kreis der Vertrauten so klein ist, bleiben oft im eigenen Magen liegen." },
+      ]},
+      { typ: 6, titel: "Was der wache Magen ständig prüft", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs lebt in ständiger Vorsicht, und diese Wachsamkeit setzt sich bis in den Magen fort: ein Organ, das über die vegetative Nervenverbindung besonders empfindlich auf chronische Anspannung reagiert." },
+        { code: "SO6", text: "Die soziale Sechs sorgt sich um den Bestand der Gemeinschaft, an der ihre Sicherheit hängt – eine diffuse, oft nicht klar benannte Sorge, die sich leicht in einem nervösen, gereizten Magen äußern kann." },
+        { code: "SX6", text: "Bewusste Provokation und Risikobereitschaft sind das Mittel der sexuellen Sechs, um Angst gegenphobisch zu begegnen – die dadurch ausgelösten episodischen Adrenalinschübe können den Magen kurzfristig, aber deutlich reizen." },
+      ]},
+      { typ: 7, titel: "Was zwischen Häppchen keine Ruhe findet", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben isst gerne vielfältig und schnell zwischen Optionen wechselnd, oft mit wenig Rücksicht auf Regelmäßigkeit – ein Muster, das die Magenschleimhaut auf Dauer reizen kann." },
+        { code: "SO7", text: "Regelmäßige, ruhige Mahlzeiten für sich selbst gehören bei der sozialen Sieben, dem Kontratyp unter den Siebenern, selten zur Priorität, solange andere noch etwas von ihr brauchen – eine Zurückstellung, die zu unbemerkter chronischer Reizung führen kann." },
+        { code: "SX7", text: "Die sexuelle Sieben lebt Genuss intensiv und grenzenlos, oft verbunden mit erhöhtem Konsum von Alkohol oder scharfen, intensiven Speisen – beides bekannte Reizfaktoren für die Magenschleimhaut." },
+      ]},
+      { typ: 8, titel: "Was mit voller Wucht hinuntergeschluckt wird", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht isst oft schnell, kräftig, mit wenig Rücksicht auf Signale von Sättigung oder Unwohlsein – Stärke bedeutet hier auch, den eigenen Magen nicht ernst zu nehmen." },
+        { code: "SO8", text: "Die soziale Acht trägt Verantwortung für andere auch bei Tisch und stellt eigene Beschwerden zurück, solange die Gruppe sie noch braucht – ein Magen, der lange keine Beachtung findet." },
+        { code: "SX8", text: "Die sexuelle Acht lebt Intensität ungebremst, auch beim Essen und Trinken in der Beziehung – wiederkehrende Exzesse gefolgt von ebenso intensiven Ruhephasen belasten die Magenschleimhaut in einem unregelmäßigen, heftigen Rhythmus." },
+      ]},
+      { typ: 9, titel: "Was der Magen für andere schluckt", varianten: [
+        { code: "SE9", text: "Die selbsterhaltende Neun isst oft aus Gewohnheit und Komfort, ohne wirklich auf den eigenen Magen zu hören – ein sehr wörtliches Beispiel für eine Selbstvergessenheit, die sich bis in die Verdauung fortsetzt." },
+        { code: "SO9", text: "Die soziale Neun passt sich beim gemeinsamen Essen dem Rhythmus und den Wünschen der Gruppe an und äußert eigene Bedürfnisse selten – eine Anpassung, die den eigenen Magen regelmäßig übergeht." },
+        { code: "SX9", text: "Die sexuelle Neun übernimmt oft die Essgewohnheiten des geliebten Menschen, verschmilzt auch hier mit dessen Vorlieben, statt auf die eigenen Signale zu hören – der eigene Magen bleibt dabei leicht ungehört." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor einer Gastritis gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist, dass jeder der 27 Subtypen auf eigene Weise mit dem verhandelt, was er buchstäblich nicht verdauen kann – Ärger, Tempo, unregelmäßige Aufmerksamkeit für sich selbst oder zurückgehaltenen Kummer. Genau hier setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht an der gereizten Schleimhaut selbst, sondern an der aus dem Gleichgewicht geratenen Lebenskraft, die sich auch im Magen zeigt.",
+  },
+  lungenfibrose: {
+    titel: "Lungenfibrose",
+    kategorie: "atemwege",
+    icon: "&#127788;&#65039;",
+    kurz: "Wenn das Lungengewebe über Jahre vernarbt und der Atemraum langsam enger wird.",
+    definition: "Die Lungenfibrose bezeichnet eine fortschreitende, meist unumkehrbare Vernarbung (Fibrosierung) des Lungengewebes, wodurch die Lunge zunehmend steif wird und der Gasaustausch erschwert wird. Bei der idiopathischen Lungenfibrose, der häufigsten Form, bleibt die genaue Ursache unbekannt; auslösend können aber auch Autoimmunerkrankungen, langjährige Exposition gegenüber Stäuben oder Schimmel, bestimmte Medikamente oder chronischer Reflux sein. Die Erkrankung verläuft meist schleichend über Jahre, mit stetig abnehmender Lungenfunktion.",
+    symptome: [
+      "Zunehmende Atemnot, zunächst bei Belastung, im Verlauf auch in Ruhe",
+      "Trockener, anhaltender Reizhusten ohne Auswurf",
+      "Rasche Erschöpfbarkeit, sinkende körperliche Belastbarkeit",
+      "Ungewollter Gewichtsverlust im fortgeschrittenen Stadium",
+      "Trommelschlägelfinger (kolbenförmig verdickte Fingerendglieder) als spätes Zeichen des chronischen Sauerstoffmangels",
+      "Bläuliche Verfärbung der Lippen oder Fingerspitzen bei fortgeschrittener Erkrankung",
+    ],
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    notfall: "Bei plötzlich zunehmender, schwerer Atemnot, bläulicher Verfärbung der Lippen oder Fingerspitzen oder akuter Verschlechterung bei bekannter Lungenfibrose: unverzüglich ärztliche Notfallversorgung aufsuchen bzw. den Notruf 112 wählen, da dies auf eine akute Verschlechterung (Exazerbation) hinweisen kann. Hier ist kein Raum für psychosomatische Deutung, sondern für sofortige medizinische Abklärung.",
+    einleitung: "Die Lunge ist das Organ, über das wir am unmittelbarsten mit der Welt in Austausch stehen – jeder Atemzug ein Nehmen und Loslassen. Vernarbt das Gewebe, wird genau dieser Austausch zunehmend eingeschränkt: Die Lunge wird steifer, der Raum für Luft enger, ohne dass sich der Prozess rückgängig machen ließe. Die Traditionelle Chinesische Medizin verbindet die Lunge traditionell mit Trauer und Loslassen. Die Psychosomatik liest in der fortschreitenden Vernarbung oft ein Bild für einen über Jahre verengten Lebensraum, für Trauer, die sich nie ganz lösen konnte, oder für einen Austausch mit der Welt, der sich zunehmend verhärtet hat.",
+    typen: [
+      { typ: 1, titel: "Der enger werdende Raum der Kontrolle", varianten: [
+        { code: "SE1", text: "Die selbsterhaltende Eins engt ihren eigenen Lebensraum oft selbst ein, aus Angst vor Fehlern und Unordnung. Ein Lungengewebe, das sich über Jahre versteift, kann als körperliches Echo eines Lebens gelesen werden, das sich selbst wenig Weite erlaubt." },
+        { code: "SO1", text: "Die soziale Eins atmet gefühlt nie ganz durch, weil immer noch etwas in der Welt zu richten wäre. Diese fehlende innere Weite, das nie erreichte Gefühl von genug getan zu haben, kann sich langfristig auch körperlich als Enge niederschlagen." },
+        { code: "SX1", text: "Die sexuelle Eins lebt Nähe mit hoher Intensität und wenig Raum für Nachlässigkeit – ein enger, fordernder Beziehungsraum, der zumindest emotional wenig Weite zum Durchatmen lässt." },
+      ]},
+      { typ: 2, titel: "Der Raum, der für andere freigehalten wird", varianten: [
+        { code: "SE2", text: "Die selbsterhaltende Zwei nimmt sich selten Raum für die eigenen Bedürfnisse, oft über Jahrzehnte. Ein Atemraum, der sich langsam verengt, passt zu einem Leben, das sich selbst wenig Platz zum eigenen Durchatmen gegönnt hat." },
+        { code: "SO2", text: "Die soziale Zwei verteilt ihre Aufmerksamkeit auf viele gleichzeitig und findet dabei selten Zeit für tiefe, bewusste Ruheatmung. Die stille Überlastung dieses Subtyps kann sich auch als chronische innere Enge zeigen." },
+        { code: "SX2", text: "Die sexuelle Zwei bindet sich eng an eine einzige Beziehung, in der sie viel Raum für den anderen freihält, aber wenig für sich selbst beansprucht – ein Muster, das sich als emotionale Enge niederschlagen kann." },
+      ]},
+      { typ: 3, titel: "Der Raum, der keine Verschnaufpause kennt", varianten: [
+        { code: "SE3", text: "Die selbsterhaltende Drei funktioniert im Dauerbetrieb, ohne echte Erholungsphasen einzuplanen. Ein Lungengewebe, das über Jahre kaum zur Ruhe kommt, kann diese permanente Betriebsamkeit körperlich widerspiegeln." },
+        { code: "SO3", text: "Selten findet die soziale Drei einen Moment, in dem sie wirklich durchatmen kann, ohne an die nächste sichtbare Leistung zu denken – der Dauerdruck des Vergleichs lässt kaum Verschnaufpausen zu." },
+        { code: "SX3", text: "Permanente Höchstleistung, selbst im engsten Umfeld, ohne je Erschöpfung einzugestehen, prägt die sexuelle Drei – eine Anspannung, die sich langfristig auch auf die eigene Atmung auswirken kann." },
+      ]},
+      { typ: 4, titel: "Der Raum, der von Trauer verengt wird", varianten: [
+        { code: "SE4", text: "Die selbsterhaltende Vier trägt tiefe, nie ausgesprochene Trauer über Jahre in sich, während sie äußerlich funktioniert. Die Traditionelle Chinesische Medizin verbindet die Lunge traditionell mit genau diesem Gefühl – Trauer, die keinen Ausdruck findet." },
+        { code: "SO4", text: "Die soziale Vier äußert Trauer offen und findet darin ein gewisses Ventil, das der reinen Zurückhaltung entgegenwirkt – dennoch bleibt anhaltende, tiefe Traurigkeit ein Thema, das diesen Subtyp über Jahre begleiten kann." },
+        { code: "SX4", text: "Sehnsucht und Verlust durchdringen die sexuelle Vier mit großer Wucht, oft im ständigen Vergleich mit dem, was fehlt. Diese emotionale Dauerbelastung berührt genau jenes Element, das die Lunge in vielen Traditionen zugeordnet wird." },
+      ]},
+      { typ: 5, titel: "Der Raum, der sich freiwillig verkleinert", varianten: [
+        { code: "SE5", text: "Die selbsterhaltende Fünf reduziert ihren Lebensraum und ihre Kontakte oft freiwillig, um Energie zu sparen. Ein sich verengender Atemraum passt beunruhigend gut zu einem Leben, das sich selbst schon lange klein gehalten hat." },
+        { code: "SO5", text: "Die soziale Fünf hält auch dort innere Distanz, wo sie körperlich anwesend ist, und öffnet sich selten wirklich. Diese chronische innere Zurückhaltung kann sich als eine Art symbolische Enge niederschlagen, die dem eigenen Atem wenig Weite lässt." },
+        { code: "SX5", text: "Die sexuelle Fünf öffnet sich intensiv, aber nur sehr wenigen Menschen, und bewahrt sich ansonsten radikale Distanz. Der eng begrenzte Raum echter Nähe kann als Sinnbild für einen ebenso begrenzten Atemraum gelesen werden." },
+      ]},
+      { typ: 6, titel: "Der Raum, der ständig auf Bedrohung geprüft wird", varianten: [
+        { code: "SE6", text: "Die selbsterhaltende Sechs lebt in andauernder Wachsamkeit gegenüber möglichen Gefahren. Diese chronische Anspannung kann sich auch als flache, nie ganz gelöste Atmung äußern, die dem Lungengewebe über Jahre wenig echte Entspannung gönnt." },
+        { code: "SO6", text: "Um den Bestand der Gemeinschaft, an der ihre Sicherheit hängt, sorgt sich die soziale Sechs beständig – eine diffuse Dauersorge, die sich in einem Gefühl niederschlagen kann, nie ganz frei durchatmen zu können." },
+        { code: "SX6", text: "Die sexuelle Sechs begegnet Angst gegenphobisch, durch bewusste Konfrontation und Risikobereitschaft – episodische Belastungsspitzen, die kurzfristig, aber deutlich auch die Atmung beeinflussen können." },
+      ]},
+      { typ: 7, titel: "Der Raum, der nie eng werden darf", varianten: [
+        { code: "SE7", text: "Die selbsterhaltende Sieben hält sich mehrere Wege offen, um sich nie eingeengt zu fühlen. Eine Erkrankung, die den eigenen Atemraum buchstäblich verengt, trifft diesen Subtyp besonders hart, weil sie genau jene Weite bedroht, aus der er seine Sicherheit zieht." },
+        { code: "SO7", text: "Die soziale Sieben, Kontratyp unter den Siebenern, stellt eigene Bedürfnisse nach Weite und Leichtigkeit oft zugunsten anderer zurück – eine chronische Selbstbeschränkung, die im Verborgenen wirkt." },
+        { code: "SX7", text: "Erhöhter Konsum von Nikotin begleitet bei der sexuellen Sieben oft die ungebremst gelebte Intensität – ein anerkannter Risikofaktor für Lungengewebe, der zusätzlich zur rastlosen Lebensweise wirkt." },
+      ]},
+      { typ: 8, titel: "Der Raum, der niemals Schwäche zeigen darf", varianten: [
+        { code: "SE8", text: "Die selbsterhaltende Acht übergeht Atemnot und andere körperliche Warnzeichen lange, aus Prinzip. Eine schleichende Vernarbung des Lungengewebes kann so über Jahre unbemerkt fortschreiten, bis sie sich nicht mehr überspielen lässt." },
+        { code: "SO8", text: "Die soziale Acht stellt die eigene Gesundheit zurück, solange die Gruppe sie noch zu brauchen scheint. Zunehmende Atemnot wird oft erst ernst genommen, wenn sie die eigene Schutzfunktion für andere bereits sichtbar einschränkt." },
+        { code: "SX8", text: "Die sexuelle Acht lebt Intensität ungebremst und übergeht körperliche Signale, auch in engen Beziehungen. Chronische Atemnot durchkreuzt hier ein Selbstbild von Stärke besonders unmittelbar, weil sie im Alltag ständig sichtbar wird." },
+      ]},
+      { typ: 9, titel: "Der Raum, der niemandem auffallen soll", varianten: [
+        { code: "SE9", text: "Aus reiner Gewohnheit werden eigene Beschwerden von der selbsterhaltenden Neun oft übergangen, zunehmende Atemnot wird entsprechend erst spät gemeldet. Ein sich langsam verengender Atemraum passt zu einem Leben, das dem eigenen Körper selten aktiv zuhört." },
+        { code: "SO9", text: "Die soziale Neun ordnet eigene Beschwerden dem Gruppenfrieden unter und spricht ungern von sich aus über zunehmende Atemnot, um niemanden zu beunruhigen." },
+        { code: "SX9", text: "Die sexuelle Neun richtet ihre Aufmerksamkeit fast vollständig auf den geliebten Menschen und übersieht darüber leicht die eigenen, sich langsam verändernden Atemgeräusche und die abnehmende Belastbarkeit." },
+      ]},
+    ],
+    abschluss: "Kein Subtyp ist vor einer Lungenfibrose gefeit, und kein Muster ist ein Urteil. Was sich zeigt, ist, dass jeder der 27 Subtypen auf eigene Weise mit dem eigenen Lebensraum, mit Trauer und mit dem Austausch mit der Welt umgeht. Genau hier setzt die Enneagramm-Homöopathie dieses Kompasses an: nicht am vernarbten Gewebe selbst, sondern an der aus dem Gleichgewicht geratenen Lebenskraft, die sich auch im eigenen Atemraum zeigt.",
+  },
+  leberkrebs: {
+    titel: "Leberkrebs",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "Ein bösartiger Tumor der Leber, der meist auf dem Boden einer bereits geschädigten Leber entsteht und lange kaum Beschwerden verursacht.",
+    definition: "Leberkrebs (am häufigsten das hepatozelluläre Karzinom) ist ein bösartiger Tumor, der aus dem Lebergewebe selbst entsteht – zu unterscheiden von Lebermetastasen anderer Krebsarten. Die weitaus häufigste Vorstufe ist eine chronisch geschädigte Leber: Leberzirrhose durch chronische Hepatitis-B- oder Hepatitis-C-Infektion, langjährigen erheblichen Alkoholkonsum oder eine nicht-alkoholische Fettleber, häufig im Zusammenhang mit Übergewicht und Diabetes. Weitere Risikofaktoren sind bestimmte Schimmelpilzgifte (Aflatoxine) in verunreinigten Lebensmitteln sowie seltene erbliche Stoffwechselerkrankungen wie die Hämochromatose. Weil die Leber lange kompensieren kann, bleibt der Tumor häufig bis in ein fortgeschrittenes Stadium unbemerkt. Die Behandlung reicht von operativer Teilentfernung oder Lebertransplantation über lokale Verfahren wie Verödung oder Embolisation bis zu zielgerichteten Medikamenten und Immuntherapien; die Prognose hängt stark vom Stadium und vom Zustand der übrigen Leber ab.",
+    symptome: ["Druckgefühl oder Schmerzen im rechten Oberbauch", "Unerklärlicher Gewichtsverlust", "Appetitlosigkeit und rasches Sättigungsgefühl", "Gelbfärbung von Haut und Augen (Gelbsucht)", "Zunehmender Bauchumfang durch Wasseransammlung", "Anhaltende Müdigkeit und Schwäche", "Juckreiz am ganzen Körper"],
+    notfall: "Gelbsucht, ein rasch zunehmender Bauchumfang, starke Schmerzen im rechten Oberbauch oder unerklärlicher Gewichtsverlust sollten zeitnah ärztlich abgeklärt werden. Bei bekanntem Leberkrebs mit Verwirrtheit, Bluterbrechen, schwarzem Stuhl oder hohem Fieber umgehend ärztliche Hilfe suchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie bei allen onkologischen Krankheitsbildern dieses Kompasses gilt auch hier ausdrücklich: Psychische Muster verursachen keinen Krebs. Leberkrebs entsteht meist auf dem Boden einer bereits geschädigten Leber – durch chronische Hepatitis-B- oder Hepatitis-C-Infektion, langjährigen Alkoholkonsum, eine Fettleber im Rahmen von Übergewicht und Diabetes oder seltene erbliche Stoffwechselerkrankungen –, Faktoren, die nicht in unmittelbarem Zusammenhang mit der Persönlichkeit eines Menschen stehen. Wer diese Diagnose erhält, trägt daran keine charakterliche Mitschuld, selbst wenn frühere Lebensgewohnheiten eine Rolle gespielt haben mögen – Schuldzuweisung hilft niemandem. Worum es im Folgenden stattdessen geht: wie unterschiedlich Menschen je nach Subtyp mit der oft doppelten Belastung aus Grunderkrankung der Leber und Krebsdiagnose umgehen, wie sie mit dem eigenen Anteil an der Vorgeschichte hadern oder ihn verdrängen, wie sie Behandlungsentscheidungen wie eine mögliche Transplantation erleben und wie sich ihr Verhältnis zu Körper und Angehörigen währenddessen verändert. Für jeden der 27 Subtypen zeigt sich dabei ein eigenes Muster im Umgang mit Diagnose, Behandlung und Ungewissheit – nicht in der Entstehung der Erkrankung.",
+    typen: [
+      { typ: 1, titel: "Zwischen Selbstvorwurf und Fassung", varianten: [
+        { code: "SE1", text: "Hatte frühere Lebensweise tatsächlich Anteil an der Erkrankung, neigt die selbsterhaltende Eins zu einer harten inneren Abrechnung mit sich selbst, die weit über das medizinisch Sinnvolle hinausgeht." },
+        { code: "SO1", text: "Der soziale Eins ist wichtig, dass ihr Umfeld die Diagnose nicht vorschnell mit einem angeblich ungesunden Lebensstil erklärt, weshalb sie Erklärungen zur Krankheitsentstehung oft bewusst sachlich einordnet, bevor Gerüchte entstehen." },
+        { code: "SX1", text: "Zorn über eine möglicherweise vermeidbare Vorerkrankung wie eine unbehandelte Hepatitis richtet die sexuelle Eins unverhohlen nach außen, statt ihn wie andere Einser-Varianten diszipliniert zu bündeln." },
+      ]},
+      { typ: 2, titel: "Fürsorge trotz eigener Erschöpfung", varianten: [
+        { code: "SO2", text: "Ihr familiäres Netzwerk hält die soziale Zwei auch während der Behandlung aktiv zusammen, organisiert Besuche und Unterstützung für andere, während die eigene Erschöpfung durch die Lebererkrankung dabei zurücktritt." },
+        { code: "SE2", text: "Kleine, konkrete Handreichungen im Alltag – Essen zubereiten, Termine koordinieren – bleiben für die selbsterhaltende Zwei auch mit fortgeschrittener Erschöpfung eine Möglichkeit, sich weiterhin nützlich zu fühlen." },
+        { code: "SX2", text: "Offen um Pflege zu bitten, wenn Gelbsucht und Schwäche zunehmen, gelingt der sexuellen Zwei am ehesten in der einen Beziehung, die ihr am wichtigsten ist – eher als anderen Zweier-Varianten." },
+      ]},
+      { typ: 3, titel: "Leistungsfähigkeit trotz geschwächter Leber", varianten: [
+        { code: "SE3", text: "Ihre Belastbarkeit bei der Arbeit will die selbsterhaltende Drei trotz zunehmender Erschöpfung durch die Lebererkrankung möglichst lange unter Beweis stellen, bevor sie sich eine Auszeit eingesteht." },
+        { code: "SX3", text: "Ihr Bild vom eigenen Körper gerät bei sichtbarer Gelbsucht oder Bauchumfangszunahme ins Wanken – gegenüber der einen wichtigen Person lässt die sexuelle Drei diese Verunsicherung eher zu als vor der Öffentlichkeit." },
+        { code: "SO3", text: "Nach außen tritt die soziale Drei auch mit fortschreitender Erkrankung möglichst kontrolliert und erfolgreich auf, während Juckreiz, Müdigkeit und Sorge um die Prognose weitgehend unsichtbar bleiben." },
+      ]},
+      { typ: 4, titel: "Eine Krankheit mit doppeltem Gesicht", varianten: [
+        { code: "SO4", text: "Dass Leberkrebs häufig mit Vorerkrankungen wie Alkoholkonsum in Verbindung gebracht wird, kann bei der sozialen Vier alte Gefühle des Unverstandenseins verstärken, weil sie sich in ihrem Leiden zusätzlich beurteilt fühlt." },
+        { code: "SE4", text: "Angst und Erschöpfung durch die Krankheit trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und funktional mit sich, statt sie – wie für ihren Typ eigentlich charakteristisch – dramatisch auszudrücken." },
+        { code: "SX4", text: "Auch die Scham, die manche mit einer möglichen Vorgeschichte von Alkoholkonsum oder Hepatitis verbinden, offenbart die sexuelle Vier der einen Person, der sie sich am tiefsten verbunden fühlt, statt sie zu verstecken." },
+      ]},
+      { typ: 5, titel: "Verstehen, was in der Leber vorgeht", varianten: [
+        { code: "SO5", text: "In Fachforen oder mit anderen Betroffenen tauscht sich die soziale Fünf lieber über Leberwerte, Embolisationsverfahren und Studienlage aus, als das eigene emotionale Erleben der Diagnose in den Vordergrund zu stellen." },
+        { code: "SE5", text: "Bevor sie sich auf eine Behandlungsentscheidung wie eine mögliche Transplantation einlässt, verschafft sich die selbsterhaltende Fünf meist einen genauen Überblick über Wartelisten, Erfolgsaussichten und Alternativen." },
+        { code: "SX5", text: "Auch die Angst vor dem Fortschreiten der Erkrankung öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+      ]},
+      { typ: 6, titel: "Vertrauen in unsicherem Terrain", varianten: [
+        { code: "SO6", text: "Mehrere ärztliche Meinungen und den Rat von Selbsthilfegruppen holt sich die soziale Sechs häufig ein, bevor sie einer Therapieentscheidung wie einer Transplantationslistung vertraut – allein reicht ihr die Entscheidung nicht." },
+        { code: "SE6", text: "Regelmäßige Kontrollen von Leberwerten und Bildgebung nimmt die selbsterhaltende Sechs zwar gewissenhaft wahr, jeder Termin löst bei ihr dennoch neue Sorge vor einem Fortschreiten der Erkrankung aus." },
+        { code: "SX6", text: "Der Unsicherheit über die eigene Prognose begegnet die sexuelle Sechs, der Kontratyp, mit entschlossenem Handeln, etwa der raschen Zustimmung zu einer empfohlenen Behandlung, statt sich in Zweifeln zu verlieren." },
+      ]},
+      { typ: 7, titel: "Zwischen Ablenkung und erzwungener Schonung", varianten: [
+        { code: "SO7", text: "An Diät- und Alkoholverzicht, an Nachsorgetermine hält sich die soziale Sieben, der Kontratyp, ungewohnt diszipliniert, obwohl ihr die damit verbundene Einschränkung innerlich zusetzt." },
+        { code: "SE7", text: "Mehrere mögliche Behandlungswege gleichzeitig im Blick zu behalten gibt der selbsterhaltenden Sieben das Gefühl, nicht handlungsunfähig zu sein – eine einzige verbindliche Therapieschiene kann sich dagegen eng anfühlen." },
+        { code: "SX7", text: "Auf das eine entscheidende Gespräch über Transplantation oder Prognose lässt sich die sexuelle Sieben tatsächlich konzentriert ein, statt sich wie andere Siebener-Varianten in Ablenkung zu flüchten." },
+      ]},
+      { typ: 8, titel: "Die Kontrolle über den eigenen Körper zurückfordern", varianten: [
+        { code: "SE8", text: "Über Ernährung, Alkoholverzicht und Behandlungsplan will die selbsterhaltende Acht die Entscheidungshoheit behalten und reagiert gereizt, wenn Ärzte Anweisungen geben, statt sie in Optionen zu erklären." },
+        { code: "SO8", text: "Vor ihrer Familie tritt die soziale Acht auch mit fortgeschrittener Lebererkrankung weiterhin als schützende, verlässliche Instanz auf, während sie eigene Erschöpfung und Sorge meist verschweigt." },
+        { code: "SX8", text: "Ihre Angst um den eigenen Körper und die Prognose öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Die eigene Stimme in der Behandlung finden", varianten: [
+        { code: "SE9", text: "Erste Warnzeichen wie anhaltende Müdigkeit oder Appetitlosigkeit blendet die selbsterhaltende Neun im gewohnten Alltag oft lange aus, bis ein deutlicher ärztlicher Befund sie zur Auseinandersetzung zwingt." },
+        { code: "SO9", text: "Bei Entscheidungen über Operation, Embolisation oder Transplantationslistung übernimmt die soziale Neun häufig die Empfehlung der Ärzte oder die Haltung der Familie, ohne eine eigene klare Präferenz zu äußern." },
+        { code: "SX9", text: "Wie sehr Partner oder Familie unter der Diagnose leiden, nimmt die sexuelle Neun oft genauer wahr als die eigene Erschöpfung, wodurch ihre eigenen Bedürfnisse bei Behandlungsentscheidungen leicht untergehen." },
+      ]},
+    ],
+    abschluss: "Leberkrebs entsteht meist auf dem Boden einer bereits vorgeschädigten Leber – durch chronische Virusinfektionen, langjährigen Alkoholkonsum, Fettleber oder seltene erbliche Ursachen –, niemals durch Charaktereigenschaften oder psychische Muster. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit der oft doppelten Belastung aus Vorerkrankung und Krebsdiagnose umgeht – manche über Wissen und Kontrolle, andere über Rückzug, Fürsorge für andere oder ungewohnte Offenheit gegenüber einer nahestehenden Person. Dieses Wissen ersetzt keine onkologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
+  },
+  blasenkrebs: {
+    titel: "Blasenkrebs",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "Ein meist im höheren Lebensalter auftretender bösartiger Tumor der Harnblasenschleimhaut, der sich häufig zuerst durch schmerzloses Blut im Urin zeigt.",
+    definition: "Blasenkrebs (am häufigsten das Urothelkarzinom) ist ein bösartiger Tumor, der von der Schleimhaut der Harnblase ausgeht. Der mit Abstand größte Risikofaktor ist Rauchen, das für einen erheblichen Teil aller Fälle mitverantwortlich ist. Weitere anerkannte Ursachen sind langjähriger beruflicher Kontakt mit bestimmten Chemikalien (etwa in der Farbstoff-, Gummi- oder Textilindustrie), chronische Blasenreizungen sowie in manchen Weltregionen bestimmte parasitäre Infektionen. Das Risiko steigt mit dem Alter, Männer erkranken deutlich häufiger als Frauen. Typisches erstes Warnzeichen ist schmerzloses Blut im Urin, das leicht übersehen oder fehlgedeutet wird. Die Behandlung reicht je nach Ausbreitungstiefe von der endoskopischen Entfernung oberflächlicher Tumoren über eine Blaseninstillationstherapie bis zur operativen Entfernung der Blase mit Anlage einer Harnableitung sowie Chemo- und Immuntherapie; die Prognose hängt entscheidend davon ab, wie tief der Tumor bereits in die Blasenwand eingewachsen ist.",
+    symptome: ["Schmerzloses Blut im Urin", "Häufiger Harndrang trotz geringer Urinmenge", "Brennen oder Schmerzen beim Wasserlassen ohne erkennbaren Infekt", "Schmerzen im unteren Rücken auf einer Seite", "Unerklärlicher Gewichtsverlust", "Anhaltende Müdigkeit"],
+    notfall: "Blut im Urin, auch wenn es schmerzlos auftritt und wieder verschwindet, sollte zeitnah ärztlich abgeklärt werden. Bei bekanntem Blasenkrebs mit starken Schmerzen, Unfähigkeit Wasser zu lassen, hohem Fieber oder ausgeprägter Atemnot umgehend ärztliche Hilfe suchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie bei allen onkologischen Krankheitsbildern dieses Kompasses gilt auch hier ausdrücklich: Psychische Muster verursachen keinen Krebs. Blasenkrebs entsteht vor allem durch Rauchen, langjährigen beruflichen Kontakt mit bestimmten Chemikalien, chronische Reizzustände der Blase, Alter und Zufall – Faktoren, die nicht in unmittelbarem Zusammenhang mit der Persönlichkeit eines Menschen stehen. Wer diese Diagnose erhält, trägt daran keine charakterliche Mitschuld. Worum es im Folgenden stattdessen geht, ist etwas anderes: wie unterschiedlich Menschen je nach Subtyp auf ein zunächst unauffälliges Symptom wie schmerzloses Blut im Urin reagieren, wie sie über eine mögliche Blasenentfernung und veränderte Harnableitung sprechen, wie belastend ihnen der Verlust der gewohnten Körperkontrolle fällt und wie sich ihr Verhältnis zu Scham, Nähe und Alltag durch Behandlung und Nachsorge verändert. Für jeden der 27 Subtypen zeigt sich dabei ein eigenes Muster im Umgang mit Diagnose, Behandlung und Ungewissheit – nicht in der Entstehung der Erkrankung.",
+    typen: [
+      { typ: 1, titel: "Genauigkeit gegen die Unsicherheit", varianten: [
+        { code: "SE1", text: "Ihre Blasenspiegelungen und Instillationstermine plant die selbsterhaltende Eins mit großer Sorgfalt, hadert zugleich innerlich damit, ein frühes Warnzeichen wie Blut im Urin nicht sofort ernst genommen zu haben." },
+        { code: "SO1", text: "Bevor sie ihrem Umfeld von der Diagnose erzählt, will sich die soziale Eins über Behandlungsoptionen wie eine mögliche Harnableitung vollständig informiert haben, um sachlich und nicht beunruhigend zu wirken." },
+        { code: "SX1", text: "Ihren Unmut über eine als vermeidbar empfundene Verzögerung bei der Diagnose zeigt die sexuelle Eins unmittelbar und unverblümt, statt ihn wie andere Einser-Varianten diszipliniert zu bündeln." },
+      ]},
+      { typ: 2, titel: "Scham und Fürsorge im Wechsel", varianten: [
+        { code: "SX2", text: "Über die für sie beschämende Frage nach einer künstlichen Harnableitung spricht die sexuelle Zwei offen mit der einen Person, die ihr am wichtigsten ist, statt sie zu verschweigen." },
+        { code: "SE2", text: "Auch mit veränderter Harnableitung organisiert die selbsterhaltende Zwei weiterhin praktische Hilfe für andere im Alltag und übergeht dabei oft die eigene Erschöpfung nach der Operation." },
+        { code: "SO2", text: "In ihrem sozialen Umfeld hält die soziale Zwei die Diagnose oft lange zurück, aus Sorge, das für sie intime Thema Blasenkrebs könnte andere unangenehm berühren." },
+      ]},
+      { typ: 3, titel: "Funktionsfähig trotz veränderter Blase", varianten: [
+        { code: "SO3", text: "Wie wenig die neue Harnableitung ihren Alltag einschränkt, demonstriert die soziale Drei nach der Blasenentfernung bewusst nach außen, während praktische Schwierigkeiten dahinter verborgen bleiben." },
+        { code: "SE3", text: "Ihre Rückkehr zur gewohnten Leistungsfähigkeit im Beruf plant die selbsterhaltende Drei nach der Operation oft schneller, als es der Heilungsverlauf eigentlich zulässt." },
+        { code: "SX3", text: "Ihre Verunsicherung über das veränderte Körpergefühl nach der Operation zeigt die sexuelle Drei eher der einen wichtigen Person als der breiteren Öffentlichkeit, vor der sie ihre Fassade wahrt." },
+      ]},
+      { typ: 4, titel: "Ein Ort, an dem Scham und Krankheit sich treffen", varianten: [
+        { code: "SX4", text: "Die Scham über eine veränderte Harnableitung vertraut die sexuelle Vier unmittelbar der einen Person an, der sie sich verbunden fühlt, statt das Thema wie ein Tabu zu behandeln." },
+        { code: "SO4", text: "In der Krankheit findet die soziale Vier mitunter eine schmerzhafte Bestätigung ihres Gefühls, mit einem als peinlich empfundenen Leiden ohnehin unverstanden zu bleiben, was sie eher zurückzieht als sprechen lässt." },
+        { code: "SE4", text: "Ihre Angst vor der Operation und der veränderten Körperfunktion trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne große Klage, entgegen dem für ihren Typ sonst typischen dramatischen Ausdruck." },
+      ]},
+      { typ: 5, titel: "Verstehen als Weg durch die Scham", varianten: [
+        { code: "SE5", text: "Welche Formen der Harnableitung infrage kommen und wie alltagstauglich sie sind, klärt die selbsterhaltende Fünf für sich, bevor sie sich auf ein Gespräch über eine mögliche Blasenentfernung einlässt." },
+        { code: "SO5", text: "In fachlich orientierten Kreisen tauscht sich die soziale Fünf lieber über medizinische Details der Behandlung aus, das persönliche Schamgefühl rund um die veränderte Körperfunktion bleibt dabei meist unausgesprochen." },
+        { code: "SX5", text: "Auch das für sie zunächst beschämende Thema der veränderten Harnableitung öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt es wie andere Fünfer-Varianten rein sachlich abzuhandeln." },
+      ]},
+      { typ: 6, titel: "Sicherheit in wiederkehrenden Kontrollen", varianten: [
+        { code: "SO6", text: "Eine zweite ärztliche Meinung und den Austausch mit anderen Betroffenen sucht die soziale Sechs, bevor sie einer Therapieempfehlung wie einer Instillationsbehandlung vertraut." },
+        { code: "SE6", text: "Die regelmäßigen Kontrollzystoskopien nimmt die selbsterhaltende Sechs zwar gewissenhaft wahr, jeder anstehende Termin löst bei ihr dennoch neue Sorge vor einem Wiederauftreten des Tumors aus." },
+        { code: "SX6", text: "Mit entschlossenem, raschem Handeln begegnet die sexuelle Sechs, der Kontratyp, der Angst vor der Operation – etwa durch die zügige Zustimmung zur empfohlenen Behandlung, statt sich in Sorgen zu verlieren." },
+      ]},
+      { typ: 7, titel: "Zwischen Leichtigkeit und erzwungener Routine", varianten: [
+        { code: "SE7", text: "Das Gefühl, nicht handlungsunfähig zu sein, sichert sich die selbsterhaltende Sieben durch mehrere parallel offengehaltene Behandlungsoptionen – eine einzige verbindliche Instillationstherapie kann sich dagegen eng anfühlen." },
+        { code: "SO7", text: "An die wiederkehrenden Kontrolltermine und die neue Alltagsroutine mit veränderter Harnableitung hält sich die soziale Sieben, der Kontratyp, ungewohnt pflichtbewusst, obwohl die Einschränkung ihr innerlich zusetzt." },
+        { code: "SX7", text: "Statt sich wie andere Siebener-Varianten in Ablenkung zu flüchten, hält die sexuelle Sieben dem einen entscheidenden Gespräch über Operation und Prognose tatsächlich konzentriert stand." },
+      ]},
+      { typ: 8, titel: "Die Kontrolle über den eigenen Körper behaupten", varianten: [
+        { code: "SE8", text: "Über die Wahl der Harnableitung will die selbsterhaltende Acht mitbestimmen und stellt Ärzten kritische Nachfragen, weil Fremdbestimmung über eine so intime Körperfunktion für sie kaum erträglich ist." },
+        { code: "SO8", text: "Als starke, verlässliche Instanz will die soziale Acht auch nach der Operation vor ihrer Familie erscheinen, während sie Scham und Erschöpfung über die veränderte Körperfunktion meist verschweigt." },
+        { code: "SX8", text: "Ihre Verunsicherung über den veränderten Körper öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Die eigene Stimme trotz Scham finden", varianten: [
+        { code: "SE9", text: "Schmerzloses Blut im Urin schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine oft zunächst beiseite, bis ein deutliches ärztliches Gespräch sie zur bewussten Auseinandersetzung zwingt." },
+        { code: "SO9", text: "Bei der Entscheidung zwischen verschiedenen Formen der Harnableitung übernimmt die soziale Neun häufig die Empfehlung des Arztes oder die Haltung der Familie, ohne die eigene Präferenz klar zu äußern." },
+        { code: "SX9", text: "Genauer als die eigene Scham nimmt die sexuelle Neun oft wahr, wie sehr der Partner unter der veränderten Situation leidet, wodurch ihre eigene Stimme bei Behandlungsentscheidungen leicht untergeht." },
+      ]},
+    ],
+    abschluss: "Blasenkrebs entsteht vor allem durch Rauchen, langjährigen beruflichen Kontakt mit bestimmten Chemikalien, chronische Reizzustände, Alter und Zufall, niemals durch Charaktereigenschaften oder psychische Muster. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit einem oft schambesetzten Symptom, mit Operation und veränderter Körperfunktion umgeht – manche über Struktur und Wissen, andere über Rückzug, Fürsorge für andere oder ungewohnte Offenheit gegenüber einer nahestehenden Person. Dieses Wissen ersetzt keine onkologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
+  },
+  eierstockkrebs: {
+    titel: "Eierstockkrebs",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "Ein bösartiger Tumor der Eierstöcke, der lange unspezifische oder gar keine Beschwerden verursacht und deshalb häufig erst spät entdeckt wird.",
+    definition: "Eierstockkrebs (Ovarialkarzinom) ist ein bösartiger Tumor, der von den Eierstöcken oder den benachbarten Eileitern ausgeht. Anerkannte Risikofaktoren sind höheres Lebensalter, erbliche Veranlagungen wie Mutationen in den Genen BRCA1 und BRCA2, eine familiäre Häufung von Eierstock- oder Brustkrebs, Kinderlosigkeit sowie bestimmte Formen der Endometriose. Eine langjährige Einnahme der Antibabypille senkt das Risiko dagegen nachweislich. Weil die Eierstöcke tief im Becken liegen und frühe Tumoren kaum Beschwerden verursachen, werden die – meist unspezifischen – Symptome wie Blähungen oder Völlegefühl häufig lange fehlgedeutet, sodass die Erkrankung oft erst in fortgeschrittenem Stadium erkannt wird. Die Behandlung besteht in der Regel aus einer operativen Entfernung des Tumorgewebes, meist kombiniert mit Chemotherapie; bei nachgewiesener BRCA-Mutation kommen zusätzlich zielgerichtete Medikamente infrage. Die Prognose hängt entscheidend vom Stadium bei Diagnosestellung ab.",
+    symptome: ["Anhaltende Blähungen und Völlegefühl", "Zunehmender Bauchumfang ohne Gewichtszunahme", "Schmerzen im Unterbauch oder Becken", "Rascher Sättigungseffekt beim Essen", "Häufiger oder dringender Harndrang", "Unregelmäßige Blutungen nach den Wechseljahren", "Unerklärliche Müdigkeit und Gewichtsverlust"],
+    notfall: "Anhaltende, neu aufgetretene Blähungen, ein zunehmender Bauchumfang oder Beckenschmerzen über mehrere Wochen sollten ärztlich abgeklärt werden. Bei bekanntem Eierstockkrebs mit starken Bauchschmerzen, Fieber, Erbrechen oder ausgeprägter Atemnot umgehend ärztliche Hilfe suchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie bei allen onkologischen Krankheitsbildern dieses Kompasses gilt auch hier ausdrücklich: Psychische Muster verursachen keinen Krebs. Eierstockkrebs entsteht durch ein Zusammenspiel biologischer Faktoren – Alter, erbliche Veranlagungen wie BRCA-Mutationen, Kinderlosigkeit, bestimmte Formen der Endometriose und schlicht Zufall –, die nicht in unmittelbarem Zusammenhang mit der Persönlichkeit eines Menschen stehen. Wer diese Diagnose erhält, trägt daran keine charakterliche Mitschuld. Worum es im Folgenden stattdessen geht, ist etwas anderes: wie unterschiedlich Menschen je nach Subtyp mit lange fehlgedeuteten, unspezifischen Symptomen umgehen, wie sie eine oft späte, schwerwiegende Diagnose und die damit verbundene Operation verarbeiten, wie sie mit Fragen rund um Fruchtbarkeit und Weiblichkeit umgehen und wie sich ihr Verhältnis zu Körper und nahen Menschen während Behandlung und Nachsorge verändert. Für jeden der 27 Subtypen zeigt sich dabei ein eigenes Muster im Umgang mit Diagnose, Behandlung und Ungewissheit – nicht in der Entstehung der Erkrankung.",
+    typen: [
+      { typ: 1, titel: "Die verpasste Frühwarnung", varianten: [
+        { code: "SE1", text: "Dass sie Blähungen und Völlegefühl monatelang als harmlos abgetan hat, wird der selbsterhaltenden Eins nach der Diagnose oft zum eigenen inneren Vorwurf, obwohl die Symptome auch ärztlich schwer einzuordnen waren." },
+        { code: "SO1", text: "Erst wenn sie sich über Stadium und Behandlungsplan vollständig informiert hat, spricht die soziale Eins mit ihrem Umfeld über die Diagnose, um nicht mit halbem Wissen zu beunruhigen." },
+        { code: "SX1", text: "Ihren Ärger darüber, dass die Symptome so lange fehlgedeutet wurden, zeigt die sexuelle Eins offen und unmittelbar gegenüber Ärzten, statt ihn wie andere Einser-Varianten diszipliniert zu unterdrücken." },
+      ]},
+      { typ: 2, titel: "Für andere da, während der eigene Körper kämpft", varianten: [
+        { code: "SO2", text: "Auch während der Chemotherapie bleibt die soziale Zwei in ihrem größeren Netzwerk aktiv erreichbar für die Sorgen anderer, ihre eigene Erschöpfung tritt dabei häufig in den Hintergrund." },
+        { code: "SE2", text: "Rasch wieder selbst für den Haushalt und die Familie zu sorgen, ist der selbsterhaltenden Zwei nach der Operation wichtig, auch wenn der Körper die nötige Erholungszeit eigentlich noch bräuchte." },
+        { code: "SX2", text: "Tatsächlich pflegen lässt sich die sexuelle Zwei während der Behandlung von der einen Person, die für sie zentral ist, statt wie sonst reflexhaft in die Geberrolle zurückzukehren." },
+      ]},
+      { typ: 3, titel: "Weiterhin funktionieren wollen", varianten: [
+        { code: "SX3", text: "Ihre Angst, durch Operation und Chemotherapie an Attraktivität und Weiblichkeit zu verlieren, offenbart die sexuelle Drei eher der einen wichtigen Person als der Öffentlichkeit, vor der sie makellos bleiben will." },
+        { code: "SO3", text: "Erschöpfung nach Operation und Chemotherapie blendet die soziale Drei aus ihrer öffentlichen Darstellung konsequent aus; ihr Erfolg misst sich für sie weiterhin am äußeren Funktionieren." },
+        { code: "SE3", text: "Zu früh wieder voll leistungsfähig sein zu wollen, führt bei der selbsterhaltenden Drei nach der Operation nicht selten zu Rückschlägen, die sie sich nur widerwillig eingesteht." },
+      ]},
+      { typ: 4, titel: "Verlust, der tief an die Identität rührt", varianten: [
+        { code: "SX4", text: "Ihre Trauer über einen möglichen Verlust der Fruchtbarkeit vertraut die sexuelle Vier unmittelbar der einen Person an, der sie sich verbunden fühlt, statt dieses existenzielle Thema zu meiden." },
+        { code: "SO4", text: "In der Diagnose kann die soziale Vier mitunter eine schmerzhafte Bestätigung ihres Gefühls finden, mit tiefem Leiden ohnehin unverstanden zu bleiben, was sie eher zurückzieht als offen sprechen lässt." },
+        { code: "SE4", text: "Zäh und ohne große Klage trägt die selbsterhaltende Vier, der Kontratyp, ihre Angst vor Operation und Prognose mit sich – ein Verhalten, das dem für ihren Typ eigentlich typischen dramatischen Ausdruck deutlich widerspricht." },
+      ]},
+      { typ: 5, titel: "Wissen gegen die späte Diagnose", varianten: [
+        { code: "SE5", text: "Vor dem ersten Gespräch mit der Onkologin recherchiert die selbsterhaltende Fünf meist ausführlich Stadium, Chemotherapieprotokoll und BRCA-Testung, um selbst genug Wissen zu haben, bevor sie sich in fremde Hände begibt." },
+        { code: "SO5", text: "Mit fachlich orientierten Bekannten oder in Foren bespricht die soziale Fünf lieber medizinische Details der Behandlung, das persönliche emotionale Erleben der Diagnose bleibt dabei meist unausgesprochen." },
+        { code: "SX5", text: "Auch die Trauer über einen möglichen Verlust der Fruchtbarkeit öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+      ]},
+      { typ: 6, titel: "Zwischen ärztlichem Rat und eigener Sorge", varianten: [
+        { code: "SO6", text: "Bevor sie einer Therapieentscheidung wie einer erweiterten Operation vertraut, sucht die soziale Sechs intensiv Rat bei mehreren Ärzten und in Selbsthilfegruppen – allein zu entscheiden fühlt sich für sie unsicher an." },
+        { code: "SE6", text: "Die regelmäßigen Nachsorgeuntersuchungen und Tumormarker-Kontrollen nimmt die selbsterhaltende Sechs gewissenhaft wahr, jeder Termin löst bei ihr dennoch neue Sorge vor einem Wiederauftreten aus." },
+        { code: "SX6", text: "Entschlossenes, schnelles Handeln, etwa die zügige Zustimmung zur Operation, ist die Antwort der sexuellen Sechs, des Kontratyps, auf die Angst vor der Diagnose, statt sich in Sorgen zu verlieren." },
+      ]},
+      { typ: 7, titel: "Zwischen Zukunftsplänen und erzwungener Pause", varianten: [
+        { code: "SE7", text: "Das Gefühl, nicht handlungsunfähig zu sein, sichert sich die selbsterhaltende Sieben, indem sie mehrere Behandlungsoptionen gleichzeitig offenhält – eine einzige verbindliche Chemotherapieschiene kann sich für sie eng und einschränkend anfühlen." },
+        { code: "SO7", text: "An Chemotherapietermine und Nachsorgeplan hält sich die soziale Sieben, der Kontratyp, ungewohnt pflichtbewusst, obwohl ihr die damit verbundene Einschränkung der eigenen Freiheit innerlich zusetzt." },
+        { code: "SX7", text: "Auf das eine anstehende Gespräch über Prognose und Fruchtbarkeit lässt sich die sexuelle Sieben wirklich ein, ohne wie andere Siebener-Varianten in Ablenkung auszuweichen." },
+      ]},
+      { typ: 8, titel: "Entscheidungshoheit über den eigenen Körper", varianten: [
+        { code: "SE8", text: "Über Operationsumfang und Chemotherapieplan will die selbsterhaltende Acht mitentscheiden und stellt Ärzten kritische Nachfragen, weil Fremdbestimmung über den eigenen Körper für sie kaum erträglich ist." },
+        { code: "SO8", text: "Ihre gewohnte Rolle als starke, verlässliche Instanz behält die soziale Acht auch während der Chemotherapie vor der Familie bei, ihre eigene Erschöpfung bleibt dabei meist unausgesprochen." },
+        { code: "SX8", text: "Ihre Angst vor dem Fortschreiten der Erkrankung öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Die eigene Stimme trotz später Diagnose", varianten: [
+        { code: "SE9", text: "Blähungen und Völlegefühl schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine oft lange beiseite, bis ein deutlicher ärztlicher Befund sie zur bewussten Auseinandersetzung zwingt." },
+        { code: "SO9", text: "Bei Entscheidungen über Operationsumfang oder Chemotherapieprotokoll übernimmt die soziale Neun häufig die Empfehlung der Ärzte oder die Haltung der Familie, ohne die eigene Präferenz klar zu äußern." },
+        { code: "SX9", text: "Wie stark der Partner unter der Diagnose leidet, registriert die sexuelle Neun oft genauer als ihre eigene Gefühlslage, wodurch ihre eigene Stimme bei Behandlungsentscheidungen leicht untergeht." },
+      ]},
+    ],
+    abschluss: "Eierstockkrebs entsteht durch ein Zusammenspiel biologischer Risikofaktoren – Alter, erbliche Veranlagung wie BRCA-Mutationen, Kinderlosigkeit, bestimmte Formen der Endometriose und Zufall –, niemals durch Charaktereigenschaften oder psychische Muster. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit einer oft spät erkannten, schwerwiegenden Diagnose und Fragen rund um Fruchtbarkeit und Weiblichkeit umgeht – manche über Wissen und Kontrolle, andere über Rückzug, Fürsorge für andere oder ungewohnte Offenheit gegenüber einer nahestehenden Person. Dieses Wissen ersetzt keine onkologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
+  },
+  gebaermutterhalskrebs: {
+    titel: "Gebärmutterhalskrebs",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "Ein bösartiger Tumor am Gebärmutterhals, der in den allermeisten Fällen durch eine Infektion mit bestimmten HPV-Typen entsteht und gut vorsorgeuntersuchbar ist.",
+    definition: "Gebärmutterhalskrebs (Zervixkarzinom) ist ein bösartiger Tumor, der vom Gewebe des Gebärmutterhalses ausgeht. Die weit überwiegende Ursache ist eine anhaltende Infektion mit bestimmten Hochrisiko-Typen des humanen Papillomvirus (HPV) – einer extrem verbreiteten Virusinfektion, mit der sich im Laufe des Lebens die meisten sexuell aktiven Menschen irgendwann anstecken und die in den allermeisten Fällen von selbst wieder abheilt, ohne dass daraus eine Erkrankung entsteht. Nur bei einem kleinen Teil der Infektionen bleibt das Virus über Jahre bestehen und begünstigt so über Zellveränderungen hinweg langfristig die Entstehung von Krebs. Weitere begünstigende Faktoren sind Rauchen, ein geschwächtes Immunsystem und das Fehlen regelmäßiger Vorsorgeuntersuchungen. Die HPV-Impfung senkt das Risiko deutlich, und der Krebsabstrich (Pap-Test) erkennt Vorstufen meist Jahre, bevor daraus eine Krebserkrankung wird – Gebärmutterhalskrebs zählt deshalb zu den am besten durch Vorsorge vermeidbaren Krebsarten. Die Behandlung reicht von der operativen Entfernung veränderten Gewebes über die Entfernung der Gebärmutter bis zu Strahlen- und Chemotherapie; die Prognose ist bei früher Erkennung meist sehr gut.",
+    symptome: ["Ungewöhnliche vaginale Blutungen, etwa zwischen den Perioden oder nach den Wechseljahren", "Blutungen nach dem Geschlechtsverkehr", "Ungewöhnlicher, übelriechender Ausfluss", "Schmerzen im Becken oder unteren Rücken", "Schmerzen beim Geschlechtsverkehr", "Unerklärlicher Gewichtsverlust in fortgeschrittenem Stadium"],
+    notfall: "Ungewöhnliche Blutungen, insbesondere nach dem Geschlechtsverkehr oder nach den Wechseljahren, sollten zeitnah ärztlich abgeklärt werden – regelmäßige Vorsorgeuntersuchungen erkennen Veränderungen meist schon vor solchen Symptomen. Bei bekanntem Gebärmutterhalskrebs mit starken Blutungen, starken Schmerzen oder Fieber umgehend ärztliche Hilfe suchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie bei allen onkologischen Krankheitsbildern dieses Kompasses gilt auch hier ausdrücklich: Psychische Muster verursachen keinen Krebs. Gebärmutterhalskrebs entsteht praktisch immer durch eine anhaltende Infektion mit bestimmten Hochrisiko-Typen des sehr verbreiteten HPV-Virus, mit der sich im Laufe des Lebens die meisten sexuell aktiven Menschen irgendwann infizieren und die in den allermeisten Fällen folgenlos abheilt – nur bei einem kleinen Teil führt sie über Jahre zu Zellveränderungen und schließlich zu Krebs. Rauchen, ein geschwächtes Immunsystem und fehlende Vorsorge begünstigen diesen Verlauf zusätzlich. Eine HPV-Infektion ist weder ein Zeichen persönlichen Fehlverhaltens noch etwas, wofür man sich schämen müsste – sie betrifft die Mehrheit der Bevölkerung irgendwann im Leben, unabhängig von Lebensstil oder Charakter, und steht nicht in unmittelbarem Zusammenhang mit der Persönlichkeit eines Menschen. Wer diese Diagnose erhält, trägt daran keine charakterliche Mitschuld. Worum es im Folgenden stattdessen geht, ist etwas anderes: wie unterschiedlich Menschen je nach Subtyp mit dieser Diagnose und ihrem manchmal unnötig schambesetzten Kontext umgehen, wie sie über Fragen von Fruchtbarkeit und Sexualität sprechen, wie sie Operation und mögliche Strahlentherapie erleben und wie sich ihr Verhältnis zu Partnerschaft und eigenem Körper dabei verändert. Für jeden der 27 Subtypen zeigt sich dabei ein eigenes Muster im Umgang mit Diagnose, Behandlung und Ungewissheit – nicht in der Entstehung der Erkrankung.",
+    typen: [
+      { typ: 1, titel: "Ordnung gegen unbegründete Scham", varianten: [
+        { code: "SO1", text: "Ihrem Umfeld erklärt die soziale Eins sachlich, dass eine HPV-Infektion fast jeden irgendwann trifft, weil ihr daran liegt, unbegründeter Scham oder falschen Vorwürfen von vornherein den Boden zu entziehen." },
+        { code: "SE1", text: "Regelmäßige Vorsorgeuntersuchungen hat die selbsterhaltende Eins meist gewissenhaft wahrgenommen, weshalb die Diagnose sie oft zusätzlich mit der als ungerecht empfundenen Frage konfrontiert, was sie hätte anders machen können." },
+        { code: "SX1", text: "Ihren Ärger darüber, dass HPV-Infektionen gesellschaftlich noch immer mit Scham behaftet sind, äußert die sexuelle Eins unverhohlen und direkt, statt ihn wie andere Einser-Varianten diszipliniert zu unterdrücken." },
+      ]},
+      { typ: 2, titel: "Offenheit als Weg aus der Scham", varianten: [
+        { code: "SX2", text: "In der einen Beziehung, die ihr am wichtigsten ist, spricht die sexuelle Zwei offen über die HPV-bedingte Diagnose, statt sie aus falscher Scham zu verschweigen – eine Offenheit, die anderen Zweier-Varianten schwerer fällt." },
+        { code: "SE2", text: "Nach der Operation kümmert sich die selbsterhaltende Zwei rasch wieder um den Haushalt und die Familie, statt sich die eigene Erholungszeit tatsächlich zuzugestehen." },
+        { code: "SO2", text: "In ihrem weiteren sozialen Umfeld hält die soziale Zwei die Diagnose oft zurück, aus Sorge, das Thema HPV könnte trotz aller Sachlichkeit missverstanden oder falsch beurteilt werden." },
+      ]},
+      { typ: 3, titel: "Die Fassade trotz intimer Diagnose wahren", varianten: [
+        { code: "SO3", text: "Nach außen behandelt die soziale Drei die Diagnose mit betonter Sachlichkeit und zeigt möglichst wenig von der Verunsicherung, die das Thema für sie tatsächlich auslöst." },
+        { code: "SX3", text: "Der einen wichtigen Person offenbart die sexuelle Drei ihre Sorge um Fruchtbarkeit und Attraktivität nach der Behandlung eher als der Öffentlichkeit, vor der sie makellos bleiben will." },
+        { code: "SE3", text: "Zu schnell wieder voll leistungsfähig sein zu wollen, führt bei der selbsterhaltenden Drei nach der Operation mitunter zu Rückschlägen, die sie ungern zugibt." },
+      ]},
+      { typ: 4, titel: "Intimität, Scham und das eigene Selbstbild", varianten: [
+        { code: "SO4", text: "In einer Diagnose, die gesellschaftlich noch immer mit Scham behaftet ist, kann die soziale Vier eine schmerzhafte Bestätigung ihres Gefühls finden, mit ihrem Leiden ohnehin unverstanden zu bleiben." },
+        { code: "SX4", text: "Unmittelbar teilt die sexuelle Vier ihre Angst um Fruchtbarkeit und Sexualität mit der einen Person, der sie sich verbunden fühlt, statt dieses existenzielle Thema zu meiden." },
+        { code: "SE4", text: "Entgegen dem für ihren Typ sonst typischen dramatischen Ausdruck trägt die selbsterhaltende Vier, der Kontratyp, ihre Angst vor Operation und Prognose meist zäh und ohne große Klage mit sich." },
+      ]},
+      { typ: 5, titel: "Wissen als Gegengewicht zur Scham", varianten: [
+        { code: "SE5", text: "HPV-Biologie, Stadium und Behandlungsoptionen verschafft sich die selbsterhaltende Fünf einen genauen Überblick, bevor sie sich auf ein Gespräch über Operation oder Strahlentherapie einlässt." },
+        { code: "SO5", text: "Sachlich und mit medizinischem Vokabular erklärt die soziale Fünf ihrem Umfeld die HPV-bedingte Entstehung der Erkrankung, das eigene emotionale Erleben bleibt dabei meist unausgesprochen." },
+        { code: "SX5", text: "Auch die Sorge um Fruchtbarkeit und Sexualität öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+      ]},
+      { typ: 6, titel: "Sicherheit durch Vorsorge und Rat", varianten: [
+        { code: "SE6", text: "Regelmäßige Kontrollabstriche und Nachsorgetermine nimmt die selbsterhaltende Sechs meist gewissenhaft wahr, jeder Termin löst bei ihr dennoch neue Sorge vor einem Fortschreiten aus." },
+        { code: "SO6", text: "Mehrere ärztliche Meinungen und den Austausch mit anderen Betroffenen holt sich die soziale Sechs ein, bevor sie einer Therapieentscheidung wie einer Gebärmutterentfernung vertraut." },
+        { code: "SX6", text: "Entschlossen und schnell handelt die sexuelle Sechs, der Kontratyp, sobald die Diagnose feststeht – etwa durch die zügige Zustimmung zur empfohlenen Operation, statt sich in Sorgen zu verlieren." },
+      ]},
+      { typ: 7, titel: "Zwischen Verdrängung und erzwungener Auseinandersetzung", varianten: [
+        { code: "SO7", text: "An Nachsorgetermine und Behandlungsplan hält sich die soziale Sieben, der Kontratyp, ungewohnt pflichtbewusst, obwohl ihr die damit verbundene Einschränkung der eigenen Freiheit innerlich zusetzt." },
+        { code: "SE7", text: "Nicht handlungsunfähig zu sein, sichert der selbsterhaltenden Sieben das Offenhalten mehrerer Behandlungsoptionen gleichzeitig – eine einzige verbindliche Therapieschiene kann sich für sie dagegen eng anfühlen." },
+        { code: "SX7", text: "Ihre sonst rastlose Aufmerksamkeit bündelt die sexuelle Sieben für das eine anstehende Gespräch über Fruchtbarkeit und Prognose, statt sich in Ablenkung zu flüchten." },
+      ]},
+      { typ: 8, titel: "Die Hoheit über den eigenen Körper", varianten: [
+        { code: "SE8", text: "Über Operationsumfang und mögliche Erhaltung der Gebärmutter will die selbsterhaltende Acht mitentscheiden und stellt Ärzten kritische Nachfragen, weil Fremdbestimmung über den eigenen Körper für sie kaum erträglich ist." },
+        { code: "SO8", text: "Ihre Rolle als starke, verlässliche Instanz gibt die soziale Acht auch während der Behandlung vor der Familie nicht auf, ihre eigene Sorge um Fruchtbarkeit und Prognose bleibt dabei meist unausgesprochen." },
+        { code: "SX8", text: "Ihre Angst vor dem Verlust der Fruchtbarkeit öffnet die sexuelle Acht gegenüber der einen Person, der sie vertraut, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Die eigene Stimme trotz Scham finden", varianten: [
+        { code: "SE9", text: "Ungewöhnliche Blutungen schiebt die selbsterhaltende Neun in ihrer gewohnten Alltagsroutine oft zunächst beiseite, bis ein deutlicher ärztlicher Befund sie zur bewussten Auseinandersetzung zwingt." },
+        { code: "SO9", text: "Bei Entscheidungen über Operationsumfang oder Strahlentherapie übernimmt die soziale Neun häufig die Empfehlung der Ärzte oder die Haltung des Partners, ohne die eigene Präferenz klar zu äußern." },
+        { code: "SX9", text: "Genauer als ihre eigene Gefühlslage registriert die sexuelle Neun oft, wie stark der Partner unter der Diagnose und möglichen Folgen für die gemeinsame Fruchtbarkeit leidet." },
+      ]},
+    ],
+    abschluss: "Gebärmutterhalskrebs entsteht praktisch immer durch eine anhaltende Infektion mit bestimmten Hochrisiko-Typen des sehr verbreiteten HPV-Virus, begünstigt durch Rauchen, ein geschwächtes Immunsystem und fehlende Vorsorge – niemals durch Charaktereigenschaften oder psychische Muster, und eine HPV-Infektion selbst ist kein Grund zur Scham, sondern etwas, das im Laufe des Lebens die meisten Menschen irgendwann betrifft. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit dem oft unnötig schambesetzten Kontext dieser gut vorsorgeuntersuchbaren Erkrankung umgeht – manche über Wissen und Sachlichkeit, andere über Rückzug, Fürsorge für andere oder ungewohnte Offenheit gegenüber einer nahestehenden Person. Dieses Wissen ersetzt keine onkologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
+  },
+  non_hodgkin_lymphom: {
+    titel: "Non-Hodgkin-Lymphom",
+    kategorie: "onkologie",
+    icon: "🔬",
+    kurz: "Eine Gruppe bösartiger Erkrankungen des lymphatischen Systems, die sich in Ausbreitung, Verlauf und Aggressivität sehr unterschiedlich zeigen können.",
+    definition: "Das Non-Hodgkin-Lymphom ist keine einzelne Krankheit, sondern eine sehr heterogene Gruppe bösartiger Erkrankungen des lymphatischen Systems, die von entarteten weißen Blutkörperchen (Lymphozyten) ausgehen und sich über Lymphknoten, Milz, Knochenmark und teils weitere Organe ausbreiten können. Die genaue Ursache ist meist unbekannt; anerkannte Risikofaktoren sind ein geschwächtes Immunsystem (etwa durch Immunsuppression nach Organtransplantation oder bestimmte Infektionen wie HIV oder Epstein-Barr-Virus), bestimmte Autoimmunerkrankungen, langjähriger Kontakt mit bestimmten Chemikalien sowie höheres Lebensalter. Der Verlauf reicht von langsam wachsenden, über Jahre kaum beeinträchtigenden Formen bis zu sehr aggressiven Varianten, die rasch behandelt werden müssen. Die Behandlung reicht je nach Subtyp und Stadium von aufmerksamem Abwarten über Chemotherapie und Immuntherapie mit Antikörpern bis zu Stammzelltransplantation; die Prognose unterscheidet sich je nach Lymphomtyp erheblich.",
+    symptome: ["Schmerzlos geschwollene Lymphknoten am Hals, in der Achsel oder Leiste", "Anhaltendes, unerklärliches Fieber", "Starkes Nachtschwitzen", "Unerklärlicher Gewichtsverlust", "Anhaltende Müdigkeit und Erschöpfung", "Juckreiz am ganzen Körper ohne Hautveränderung", "Völlegefühl durch vergrößerte Milz"],
+    notfall: "Schmerzlos geschwollene Lymphknoten, die über mehrere Wochen bestehen bleiben, anhaltendes Fieber, starkes Nachtschwitzen oder unerklärlicher Gewichtsverlust sollten ärztlich abgeklärt werden. Bei bekanntem Non-Hodgkin-Lymphom mit hohem Fieber, starker Atemnot oder ausgeprägter Schwäche umgehend ärztliche Hilfe suchen.",
+    disclaimer: "Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp. Was hier beschrieben wird, sind keine Diagnosen und keine Statistik, sondern psychosomatische Deutungsangebote – Muster, die in der Praxis auffallen, aber niemals einen Arzt- oder Heilpraktikerbesuch ersetzen.",
+    einleitung: "Wie bei allen onkologischen Krankheitsbildern dieses Kompasses gilt auch hier ausdrücklich: Psychische Muster verursachen keinen Krebs. Die genaue Ursache eines Non-Hodgkin-Lymphoms bleibt meist unbekannt; bekannte Risikofaktoren sind ein geschwächtes Immunsystem, bestimmte Virusinfektionen, Autoimmunerkrankungen, langjähriger Chemikalienkontakt, Alter und Zufall – Faktoren, die nicht in unmittelbarem Zusammenhang mit der Persönlichkeit eines Menschen stehen. Wer diese Diagnose erhält, trägt daran keine charakterliche Mitschuld. Worum es im Folgenden stattdessen geht, ist etwas anderes: wie unterschiedlich Menschen je nach Subtyp mit der oft verwirrenden Vielfalt an Lymphomtypen und Prognosen umgehen, wie sie mit der Ungewissheit zwischen aufmerksamem Abwarten und sofortiger Behandlung leben, wie sie Chemotherapie und deren körperliche Folgen wie Haarverlust verarbeiten und wie sich ihr Verhältnis zu Erschöpfung, Nähe und Alltag während der oft langwierigen Behandlung verändert. Für jeden der 27 Subtypen zeigt sich dabei ein eigenes Muster im Umgang mit Diagnose, Behandlung und Ungewissheit – nicht in der Entstehung der Erkrankung.",
+    typen: [
+      { typ: 1, titel: "Struktur in einer unübersichtlichen Diagnose", varianten: [
+        { code: "SO1", text: "Bevor sie ihrem Umfeld die verwirrende Vielfalt an Lymphomtypen erklärt, will sich die soziale Eins selbst ein vollständiges, korrektes Bild von Subtyp und Stadium verschafft haben, um nicht mit Halbwissen zu verunsichern." },
+        { code: "SE1", text: "Den genauen Behandlungsplan aus Chemotherapiezyklen und Kontrollterminen hält die selbsterhaltende Eins gewissenhaft ein, während sie sich zugleich fragt, ob ein früherer Arztbesuch die Diagnose beschleunigt hätte." },
+        { code: "SX1", text: "Ihren Unmut über die lange Zeit zwischen ersten Symptomen und endgültiger Diagnose zeigt die sexuelle Eins offen und unmittelbar, statt ihn wie andere Einser-Varianten diszipliniert zu bündeln." },
+      ]},
+      { typ: 2, titel: "Fürsorge trotz Chemotherapie", varianten: [
+        { code: "SE2", text: "Auch mit sinkender Kraft durch die Chemotherapie versucht die selbsterhaltende Zwei, kleine Aufgaben im Haushalt weiterzuführen, statt sich die notwendige Schonung tatsächlich zuzugestehen." },
+        { code: "SO2", text: "In ihrem weiten sozialen Netzwerk bleibt die soziale Zwei auch während der Behandlung ansprechbar für die Sorgen anderer, ihre eigene Erschöpfung kommuniziert sie dabei nur zögerlich." },
+        { code: "SX2", text: "Sich tatsächlich versorgen zu lassen, statt reflexhaft in die gewohnte Geberrolle zurückzukehren, gelingt der sexuellen Zwei während der Chemotherapie am ehesten in ihrer einen zentralen Beziehung." },
+      ]},
+      { typ: 3, titel: "Weiterarbeiten trotz Erschöpfung", varianten: [
+        { code: "SE3", text: "Zwischen den Chemotherapiezyklen kehrt die selbsterhaltende Drei oft schneller in den Beruf zurück, als es der Körper eigentlich verkraftet, um keine Leistungslücke entstehen zu lassen." },
+        { code: "SX3", text: "Haarverlust und sichtbare Erschöpfung durch die Chemotherapie zeigt die sexuelle Drei eher der einen wichtigen Person als der Öffentlichkeit, vor der sie ihre makellose Fassade wahrt." },
+        { code: "SO3", text: "Ihr gewohntes Erfolgsbild hält die soziale Drei auch während der Behandlung möglichst aufrecht, während sie Müdigkeit und Sorge um die Prognose weitgehend verbirgt." },
+      ]},
+      { typ: 4, titel: "Eine Krankheit ohne einfache Antworten", varianten: [
+        { code: "SO4", text: "Dass Ärzte selbst zwischen Abwarten und sofortiger Behandlung schwanken können, bestätigt der sozialen Vier mitunter das Gefühl, mit ihrer Unsicherheit ohnehin allein und unverstanden zu bleiben." },
+        { code: "SE4", text: "Ihre Angst vor Chemotherapie und Prognose trägt die selbsterhaltende Vier, der Kontratyp, meist zäh und ohne große Klage mit sich, entgegen dem für ihren Typ sonst typischen dramatischen Ausdruck." },
+        { code: "SX4", text: "Ihre Angst vor Haarverlust und verändertem Körperbild vertraut die sexuelle Vier der einen Person an, der sie sich verbunden fühlt, statt sie zu verstecken." },
+      ]},
+      { typ: 5, titel: "Ordnung im Wirrwarr der Lymphomtypen", varianten: [
+        { code: "SE5", text: "Den eigenen Lymphomsubtyp und dessen spezifische Behandlungsoptionen erschließt sich die selbsterhaltende Fünf gründlich, um sich in der verwirrenden Vielfalt zurechtzufinden, bevor sie sich auf das erste Gespräch mit der Onkologin einlässt." },
+        { code: "SO5", text: "Mit anderen Betroffenen oder in Fachforen tauscht sich die soziale Fünf lieber über Studienlage und Chemotherapieprotokolle aus, das eigene emotionale Erleben der Diagnose bleibt dabei meist unausgesprochen." },
+        { code: "SX5", text: "Auch die Angst vor dem Verlauf der Erkrankung öffnet die sexuelle Fünf gegenüber der einen tiefen Verbindung, statt sie wie andere Fünfer-Varianten rein sachlich zu verarbeiten." },
+      ]},
+      { typ: 6, titel: "Sicherheit zwischen Abwarten und Handeln", varianten: [
+        { code: "SO6", text: "Eine zweite Meinung und den Rat einer Selbsthilfegruppe holt sich die soziale Sechs ein, bevor sie einer Empfehlung zum aufmerksamen Abwarten oder zur sofortigen Chemotherapie vertraut." },
+        { code: "SE6", text: "Die regelmäßigen Kontrolluntersuchungen und Blutbildkontrollen nimmt die selbsterhaltende Sechs gewissenhaft wahr, jeder Termin löst bei ihr dennoch neue Sorge vor einem Fortschreiten aus." },
+        { code: "SX6", text: "Der Ungewissheit über den Krankheitsverlauf begegnet die sexuelle Sechs, der Kontratyp, mit entschlossenem Handeln, etwa der raschen Zustimmung zur empfohlenen Behandlung, statt sich in Zweifeln zu verlieren." },
+      ]},
+      { typ: 7, titel: "Zwischen Ablenkung und erzwungener Behandlungsroutine", varianten: [
+        { code: "SE7", text: "Mehrere Behandlungswege gleichzeitig im Blick zu behalten gibt der selbsterhaltenden Sieben das Gefühl, nicht handlungsunfähig zu sein – eine einzige verbindliche Chemotherapieschiene kann sich dagegen eng anfühlen." },
+        { code: "SO7", text: "An den engen Terminplan der Chemotherapiezyklen hält sich die soziale Sieben, der Kontratyp, ungewohnt diszipliniert, obwohl ihr die damit verbundene Einschränkung ihrer Freiheit innerlich zusetzt." },
+        { code: "SX7", text: "Konzentriert lässt sich die sexuelle Sieben tatsächlich auf das eine entscheidende Gespräch über Lymphomtyp und Prognose ein, statt sich wie andere Siebener-Varianten in Ablenkung zu flüchten." },
+      ]},
+      { typ: 8, titel: "Kontrolle über einen langwierigen Prozess", varianten: [
+        { code: "SE8", text: "Über die Wahl zwischen Abwarten und aktiver Behandlung will die selbsterhaltende Acht mitentscheiden und stellt Ärzten kritische Nachfragen, weil Fremdbestimmung über einen so langwierigen Prozess für sie kaum erträglich ist." },
+        { code: "SO8", text: "Vor ihrer Familie zeigt sich die soziale Acht auch während der Chemotherapie weiter als starke, verlässliche Instanz, ihre eigene Erschöpfung bleibt dabei meist unausgesprochen." },
+        { code: "SX8", text: "Gegenüber der einen Person, der sie vertraut, lässt die sexuelle Acht auch ihre Angst vor dem Fortschreiten der Erkrankung sichtbar werden, statt durchgehend Stärke zu demonstrieren." },
+      ]},
+      { typ: 9, titel: "Die eigene Stimme im langwierigen Prozess", varianten: [
+        { code: "SE9", text: "Geschwollene Lymphknoten oder anhaltende Müdigkeit blendet die selbsterhaltende Neun im gewohnten Alltag oft lange aus, bis ein deutlicher ärztlicher Befund sie zur Auseinandersetzung zwingt." },
+        { code: "SO9", text: "Bei der Entscheidung zwischen Abwarten und Chemotherapie übernimmt die soziale Neun häufig die Empfehlung der Ärzte oder die Haltung der Familie, ohne eine eigene klare Präferenz zu äußern." },
+        { code: "SX9", text: "Intensiver als die eigene Erschöpfung nimmt die sexuelle Neun oft wahr, wie sehr der Partner unter der langwierigen Behandlung und der Ungewissheit leidet." },
+      ]},
+    ],
+    abschluss: "Das Non-Hodgkin-Lymphom entsteht durch ein Zusammenspiel meist unbekannter Faktoren – ein geschwächtes Immunsystem, bestimmte Virusinfektionen, Autoimmunerkrankungen, Alter und Zufall –, niemals durch Charaktereigenschaften oder psychische Muster. Was sich zeigt, ist lediglich, dass jeder der 27 Subtypen unterschiedlich mit der oft verwirrenden Vielfalt an Lymphomtypen, der Ungewissheit zwischen Abwarten und Behandlung sowie den Folgen der Chemotherapie umgeht – manche über Wissen und Struktur, andere über Rückzug, Fürsorge für andere oder ungewohnte Offenheit gegenüber einer nahestehenden Person. Dieses Wissen ersetzt keine onkologische Behandlung, kann aber begleitend helfen zu verstehen, warum Menschen auf dieselbe Diagnose so unterschiedlich reagieren."
   },
 };
 
