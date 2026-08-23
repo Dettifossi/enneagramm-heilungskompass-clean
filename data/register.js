@@ -555,6 +555,7 @@ export const registerEntries = [
 
   // Kompasse
   { term: "Situationskompass",         route: "situationskompass",      description: "Situationskompass: Enneagramm-Analyse konkreter Lebenssituationen – für deinen Subtyp" },
+  { term: "Kommunikationsguide", route: "kommunikationsguide", description: "Wie begegne ich welchem Subtyp im Alltag, in Beziehung und Führung – aus Sprache unserer Beziehungen & Führung mit Fundament" },
   { term: "Krisenkompass",             route: "krisenkompass",          description: "Krisenkompass: Enneagramm-Unterstützung in akuten Krisen – subtyp-spezifische Impulse" },
 
   // Typentest
@@ -1775,6 +1776,7 @@ export const registerEntriesEN = [
   { term: "Mineral Substance Impulses", route: "mineralstoffe", description: "Mineral substance impulses for all 27 subtypes – type-specific micronutrients" },
   { term: "Healing Teas", route: "heiltees", description: "Medicinal plant teas for all 27 subtypes – effect and preparation" },
   { term: "Situation Compass", route: "situationskompass", description: "Situation Compass: Enneagram analysis of concrete life situations – for your subtype" },
+  { term: "Communication Guide", route: "kommunikationsguide", description: "How to approach each subtype in everyday life, relationships, and leadership" },
   { term: "Crisis Compass", route: "krisenkompass", description: "Crisis Compass: Enneagram support in acute crises – subtype-specific impulses" },
   { term: "Type Test (Motivational)", route: "typentest-motivational", description: "Motivational type test with a focus on inner drives and needs" },
   { term: "Face Scan", route: "gesichts-scan", description: "Preparation for your personal type consultation: take a photo scan or short video" },

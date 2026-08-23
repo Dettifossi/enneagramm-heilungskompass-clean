@@ -15859,6 +15859,7 @@ const uiText = {
       { route: "beziehungen", label: "Beziehungskompass" },
       { route: "situationskompass", label: "Situationskompass" },
       { route: "krisenkompass", label: "Krisenkompass" },
+      { route: "kommunikationsguide", label: "Kommunikationsguide" },
     ]},
     { route: "wissen", label: "Wissen", dropdown: [
       { route: "knowledge", label: "Wissensbasis" },
@@ -24009,6 +24010,7 @@ const registerEntries = [
 
   // Kompasse
   { term: "Situationskompass",         route: "situationskompass",      description: "Situationskompass: Enneagramm-Analyse konkreter Lebenssituationen \u2013 f\u00fcr deinen Subtyp" },
+  { term: "Kommunikationsguide", route: "kommunikationsguide", description: "Wie begegne ich welchem Subtyp im Alltag, in Beziehung und F\u00fchrung \u2013 aus Sprache unserer Beziehungen & F\u00fchrung mit Fundament" },
   { term: "Krisenkompass",             route: "krisenkompass",          description: "Krisenkompass: Enneagramm-Unterst\u00fctzung in akuten Krisen \u2013 subtyp-spezifische Impulse" },
 
   // Typentest
@@ -33611,6 +33613,7 @@ window.addEventListener("hashchange", () => {
   if (newRoute !== "suche") _sucheQuery = "";
   if (newRoute !== "differenzierung") diffState = { a: null, b: null };
   if (newRoute !== "situationskompass") situKompState = { situId: null, subtypeCode: null };
+  if (newRoute !== "kommunikationsguide") kommGuideState = { subtypeCode: null };
   if (newRoute !== "krisenkompass") krisenState = { typNr: null, krisenId: null };
   if (state.route && state.route !== newRoute) {
     window.__routeStack.push(state.route);
@@ -39384,6 +39387,14 @@ function bindEvents() {
     btn.addEventListener("click", () => {
       situKompState.subtypeCode = btn.dataset.situSubtype;
       app.innerHTML = situationskompasPage();
+      bindEvents();
+    });
+  });
+
+  document.querySelectorAll("[data-komm-subtype]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      kommGuideState.subtypeCode = btn.dataset.kommSubtype;
+      app.innerHTML = kommunikationsguidePage();
       bindEvents();
     });
   });
@@ -94714,6 +94725,58 @@ function wurzelnDesEnneagrammsPage() {
 let diffState = { a: null, b: null };
 let situKompState = { situId: null, subtypeCode: null };
 let krisenState = { typNr: null, krisenId: null };
+let kommGuideState = { subtypeCode: null };
+
+// Kommunikationsguide – wie begegne ich diesem Subtyp im Alltag, in Beziehung und Führung?
+// Quellen: "Die Sprache unserer Beziehungen", "Führung mit Fundament", "Enneagramm Zoo",
+// ergänzt um app-eigene Subtyp-Profile (Wunde/Leidenschaft) und Verbindungstexte.
+const KOMMUNIKATIONSGUIDE = {
+  SO4: {
+    tier: "Gürteltier",
+    erkennung: `Die soziale Vier trägt ihre Tiefe nicht versteckt wie die SE4, sondern sichtbar in die Gruppe hinein – sie engagiert sich stark für ein Projekt, einen Freundeskreis, ein Anliegen, und dahinter steht ein leiser, oft unausgesprochener Wunsch: gesehen zu werden, gerade in dem, was sie einzigartig macht. Bleibt die Resonanz aus, kippt das schnell in Enttäuschung – "immer die anderen", ein Gefühl, übersehen zu werden, obwohl man sich sichtbar eingebracht hat.<br><br>Das Bild aus dem Enneagramm Zoo trifft den Kern: das <strong>Gürteltier</strong> – gepanzert, aber empfindsam darunter. Es vergleicht sich ständig ("Wo stehe ich? Bin ich genug?"), sucht Resonanz, zeigt aber aus Angst vor Zurückweisung oft nur die glänzende Außenseite seiner Rüstung. Anders als die Taube (SE4), die sich nach innen zurückzieht, rollt sich das Gürteltier nach außen – dieselbe Vierer-Sehnsucht, nur lauter, sozialer, sichtbarer.`,
+    wunde: {
+      titel: "Die Wunde dahinter",
+      text: `Was diese Verhaltensweisen antreibt, ist die <strong>Wunde der Trennung</strong>: das tiefe Gefühl, von Zugehörigkeit und sozialer Anerkennung abgeschnitten zu sein – nicht wegen äußerer Umstände, sondern wegen eines empfundenen inneren Mangels. Der Glaubenssatz dahinter: "Andere haben etwas, das mir fehlt – mein Anderssein trennt mich." Die Leidenschaft Neid zeigt sich bei der SO4 speziell als schmerzhafter Vergleich im sozialen Raum: Andere scheinen leichter dazuzugehören. Wer das versteht, liest ihr Verhalten nicht mehr als Eitelkeit, sondern als das, was es ist – ein Versuch, eine gefühlte Trennung durch Sichtbarkeit zu heilen.`,
+    },
+    fluegel: {
+      titel: "Flügel-Nuance: SO4w3 und SO4w5",
+      w1: { code: "SO4w3", route: "beruehmte-michael-jackson", name: "Michael Jackson", text: `die Sehnsucht wird ehrgeizig nach außen getragen. Bedeutung soll nicht nur gefühlt, sondern sichtbar <em>erreicht</em> werden. Reagiert gut auf konkrete, öffentlich wirksame Würdigung ihrer Einzigartigkeit – Bühne ist hier kein Widerspruch zu Echtheit, sondern ihr bevorzugtes Ausdrucksmittel.` },
+      w2: { code: "SO4w5", route: "beruehmte-john-lennon", name: "John Lennon", text: `introspektiver, beobachtender. Kränkung führt eher zu Rückzug als zu Auftritt. Reagiert besser auf stillen, unaufgeregten Raum als auf große Gesten – zu viel Bühne wirkt hier schnell aufdringlich statt bestätigend.` },
+    },
+    stressWachstum: {
+      stress: `Unter Stress bewegt sich die SO4 Richtung <strong>Typ 2</strong>: Sie wird bedürftiger, anklammernder, beginnt subtil Vorwürfe zu machen oder unaufgefordert zu helfen, um sich Zugehörigkeit zu "verdienen". Erkennst du dieses Muster, ist das ein Signal für erhöhten inneren Druck – kein guter Moment für Kritik, ein guter Moment für ungefragte, ruhige Zuwendung.`,
+      wachstum: `Im Wachstum bewegt sie sich Richtung <strong>Typ 1</strong>: geerdeter, disziplinierter, prinzipientreuer – die Bedeutung wird weniger dringlich gesucht, weil ein stabilerer innerer Maßstab entsteht.`,
+    },
+    ankommt: [
+      `<strong>Anerkennung, die sich auf das Besondere bezieht – nicht auf Funktion.</strong> Ein generisches "gut gemacht" verpufft. Was wirkt, ist konkrete Würdigung dessen, was diese Person einzigartig eingebracht hat – ihre Perspektive, ihr Gespür, ihr Beitrag, der so von niemand anderem gekommen wäre.`,
+      `<strong>Echte Aufmerksamkeit, nicht Floskeln.</strong> SO4 spürt sehr genau den Unterschied zwischen höflicher Routine-Anerkennung und tatsächlichem Gesehenwerden. Lieber selten, aber echt.`,
+      `<strong>Raum für Tiefe zulassen – ohne sich selbst darin zu verlieren.</strong> Ein Gespräch, das an der Oberfläche bleibt, wird als unbefriedigend erlebt. Gleichzeitig muss nicht jedes Gespräch tief werden.`,
+    ],
+    trigger: [
+      { trigger: `Vergleich mit anderen ziehen ("X macht das doch auch so")`, warum: `Bestätigt die innere Angst, nicht genug/nicht besonders zu sein`, alternative: `Die Leistung/Idee für sich würdigen, ohne Vergleichsrahmen` },
+      { trigger: `Anerkennung nur öffentlich/vor der Gruppe geben, nie im Vieraugengespräch`, warum: `SO4 kann öffentliche Resonanz mit echter Zuneigung verwechseln – das befriedigt kurzfristig, nährt aber nicht wirklich`, alternative: `Zusätzlich stille, persönliche Wertschätzung geben` },
+      { trigger: `Sachlich-knapp bleiben, wenn eigentlich ein Konflikt/eine Verstimmung im Raum steht`, warum: `Wird als Vermeidung/Kälte erlebt, verstärkt Rückzug`, alternative: `Die Verstimmung benennen, auch wenn es unbequem ist` },
+      { trigger: `Kritik ohne jede emotionale Einordnung äußern`, warum: `Trifft nicht nur die Sache, sondern das Selbstbild`, alternative: `Kritik mit einem Satz einbetten, der die Person als Ganzes würdigt` },
+    ],
+    fuehrung: {
+      titel: "Aus der Führungspraxis: die Gürteltier-Falle bei zu viel Tiefe",
+      text: `"Führung mit Fundament" beschreibt (auf Typ-4-Ebene, nicht speziell SO4) den Fall einer Bereichsleiterin, die aus Tiefe und Bedeutung führt – und dabei übersieht, dass ihr Team irgendwann nur noch erschöpft reagiert, weil jede Kleinigkeit zur bedeutungsschweren Grundsatzfrage wird. Der entscheidende Satz einer Kollegin: <em>"Deine Tiefe ist beeindruckend. Aber sie lässt kaum Raum zum Atmen."</em><br><br>Für die SO4 heißt das übersetzt: Der Wunsch, dass alles authentisch und bedeutsam sein soll, kann das Gegenüber überfordern. Nicht jede Rückmeldung, nicht jedes Meeting muss zur Sinnfrage werden. Wer mit einer SO4 arbeitet oder sie führt, hilft ihr mehr mit dem Satz <strong>"Das ist gut so, wie es ist"</strong> als mit ständiger Vertiefung.`,
+      hinweis: `Das Buch beschreibt dies auf Ebene des Grundtyps 4, nicht subtypspezifisch. Die soziale Färbung – Bedeutung wird besonders im Gruppenkontext gesucht – ist eine Ergänzung auf Basis der übrigen Quellen, kein wörtliches Zitat.`,
+    },
+    beziehung: {
+      titel: `Beziehungsrisiko & heilende Bewegung`,
+      risiko: `Verdeckter Vergleich, unterschwellige Vorwürfe, wenn Resonanz ausbleibt.`,
+      leitfragen: `Verknüpfe ich Liebe/Wertschätzung mit Bühne? Verwechsle ich Resonanz mit echter Zuneigung?`,
+      hilfreich: `Zweisamkeit/Einzelgespräche bewusst von der Gruppen-Situation entkoppeln – nicht nur in der großen Runde würdigen, sondern auch außerhalb der Bühne.`,
+    },
+    pairing: [
+      { partner: "SE7", dynamik: "spielerisch, ablenkungsfreudig", gefahr: "SO4 fühlt sich nicht ernst genommen", hilfreich: "Feste Zeiten für Ernsthaftigkeit vereinbaren" },
+      { partner: "SO8", dynamik: "einflussreich, dominant", gefahr: "Dominanz", hilfreich: "Wechselseitig Grenzen benennen" },
+      { partner: "SX9", dynamik: "verschmelzend", gefahr: "Abhängigkeit", hilfreich: "Eigene Eigenständigkeit bewusst halten" },
+    ],
+    kurzfassung: `Sprich das Besondere an ihr an, nicht nur die Leistung. Gib Anerkennung auch dann, wenn niemand zuschaut. Nimm ihre Tiefe ernst – aber lass ihr auch Erlaubnis, dass nicht alles bedeutungsschwer sein muss.`,
+  },
+};
 
 function differenzierungPage() {
   const typen = [1,2,3,4,5,6,7,8,9];
@@ -95050,6 +95113,112 @@ function krisenkompassPage() {
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
         {route:"beziehungen", label:"Beziehungskompass"},
+      ])}
+    </section>
+  `);
+}
+
+function kommunikationsguidePage() {
+  const SUBTYPES = ["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"];
+  const profCode = getProfile().toUpperCase();
+  const activeSubtype = kommGuideState.subtypeCode || (SUBTYPES.includes(profCode) ? profCode : null);
+
+  const subtypeGrid = SUBTYPES.map(code => {
+    const hasData = !!KOMMUNIKATIONSGUIDE[code];
+    const isSel = code === activeSubtype;
+    const isMe = code === profCode;
+    const borderC = isSel ? "var(--copper)" : "var(--line)";
+    const bgC = isSel ? "color-mix(in srgb,var(--copper) 12%,var(--paper))" : "var(--paper)";
+    const colorC = isSel ? "var(--copper)" : "var(--ink)";
+    const opacity = hasData ? "1" : ".4";
+    return `<button data-komm-subtype="${code}" ${!hasData ? "disabled" : ""} style="padding:.4rem .6rem;border-radius:.4rem;border:1.5px solid ${borderC};background:${bgC};font-size:.78rem;font-weight:${isMe ? 700 : 500};color:${colorC};cursor:${hasData ? "pointer" : "default"};opacity:${opacity};font-family:inherit;white-space:nowrap;">${code}${isMe ? " ★" : ""}${!hasData ? '<br><span style="font-size:.6rem;font-weight:400;">bald</span>' : ""}</button>`;
+  }).join("");
+
+  let resultHtml = `<p style="text-align:center;color:var(--muted);font-size:.9rem;margin-top:2rem;">W&auml;hle einen Subtyp, um zu erfahren, wie du ihm im Alltag, in Beziehung und F&uuml;hrung am besten begegnest.</p>`;
+
+  const g = activeSubtype ? KOMMUNIKATIONSGUIDE[activeSubtype] : null;
+  if (g) {
+    resultHtml = `
+      <div style="background:var(--paper);border:1px solid var(--copper);border-radius:1rem;padding:1.4rem 1.6rem;margin-top:1.5rem;max-width:100%;">
+        <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;margin-bottom:.3rem;">Kommunikationsguide &middot; ${activeSubtype} &middot; Tierentsprechung: ${g.tier}</div>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1rem 0 .6rem;color:var(--ink);">1. Woran erkennst du ${activeSubtype}?</h3>
+        <p style="margin:0 0 .8rem;font-size:.92rem;line-height:1.75;color:var(--ink);">${g.erkennung}</p>
+
+        <div style="border-left:3px solid color-mix(in srgb, var(--copper) 45%, var(--line));padding:.8rem 1rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:0 .5rem .5rem 0;margin-bottom:1rem;">
+          <div style="font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin-bottom:.4rem;">${g.wunde.titel}</div>
+          <p style="margin:0;font-size:.9rem;line-height:1.7;color:var(--ink);">${g.wunde.text}</p>
+        </div>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">${g.fluegel.titel}</h3>
+        <ul style="margin:0 0 1rem;padding-left:1.2rem;font-size:.9rem;line-height:1.7;color:var(--ink);">
+          <li style="margin-bottom:.6rem;"><strong>${g.fluegel.w1.code}</strong> (Beispiel: <a href="javascript:void(0)" data-route="${g.fluegel.w1.route}">${g.fluegel.w1.name}</a>) &ndash; ${g.fluegel.w1.text}</li>
+          <li><strong>${g.fluegel.w2.code}</strong> (Beispiel: <a href="javascript:void(0)" data-route="${g.fluegel.w2.route}">${g.fluegel.w2.name}</a>) &ndash; ${g.fluegel.w2.text}</li>
+        </ul>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">Stress- und Wachstumsrichtung</h3>
+        <p style="margin:0 0 .6rem;font-size:.9rem;line-height:1.7;color:var(--ink);">${g.stressWachstum.stress}</p>
+        <p style="margin:0 0 1rem;font-size:.9rem;line-height:1.7;color:var(--ink);">${g.stressWachstum.wachstum}</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">2. Was in der Kommunikation wirklich ankommt</h3>
+        <ul style="margin:0 0 1rem;padding-left:1.2rem;font-size:.9rem;line-height:1.7;color:var(--ink);">
+          ${g.ankommt.map(a => `<li style="margin-bottom:.4rem;">${a}</li>`).join("")}
+        </ul>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">3. Typische Trigger &ndash; und wie du sie vermeidest</h3>
+        <div style="display:grid;gap:.7rem;margin-bottom:1rem;">
+          ${g.trigger.map(t => `
+            <div style="border:1px solid var(--line);border-radius:.6rem;padding:.7rem .9rem;background:var(--paper);">
+              <div style="font-size:.88rem;color:var(--ink);font-weight:600;margin-bottom:.25rem;">${t.trigger}</div>
+              <div style="font-size:.82rem;color:var(--muted);margin-bottom:.35rem;">${t.warum}</div>
+              <div style="font-size:.85rem;color:color-mix(in srgb, var(--copper) 70%, #2d6a4f);"><strong>Stattdessen:</strong> ${t.alternative}</div>
+            </div>
+          `).join("")}
+        </div>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">4. ${g.fuehrung.titel}</h3>
+        <p style="margin:0 0 .5rem;font-size:.9rem;line-height:1.75;color:var(--ink);">${g.fuehrung.text}</p>
+        <p style="margin:0 0 1rem;font-size:.78rem;line-height:1.6;color:var(--muted);font-style:italic;">Hinweis: ${g.fuehrung.hinweis}</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">5. ${g.beziehung.titel}</h3>
+        <p style="margin:0 0 .4rem;font-size:.9rem;line-height:1.7;color:var(--ink);"><strong>Beziehungsrisiko:</strong> ${g.beziehung.risiko}</p>
+        <p style="margin:0 0 .4rem;font-size:.9rem;line-height:1.7;color:var(--ink);"><strong>Leitfragen an sich selbst:</strong> ${g.beziehung.leitfragen}</p>
+        <p style="margin:0 0 1rem;font-size:.9rem;line-height:1.7;color:var(--ink);"><strong>Was dem Umfeld hilft:</strong> ${g.beziehung.hilfreich}</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.2rem 0 .6rem;color:var(--ink);">6. Im Zusammenspiel mit anderen Subtypen</h3>
+        <div style="display:grid;gap:.6rem;margin-bottom:1rem;">
+          ${g.pairing.map(p => `
+            <div style="border:1px solid var(--line);border-radius:.6rem;padding:.6rem .9rem;font-size:.85rem;line-height:1.6;color:var(--ink);">
+              <strong>${activeSubtype} + ${p.partner}</strong> (${p.dynamik}): Gefahr &ndash; ${p.gefahr}. Hilfreich &ndash; ${p.hilfreich}.
+            </div>
+          `).join("")}
+        </div>
+        <p style="margin:0 0 1.2rem;font-size:.78rem;color:var(--muted);font-style:italic;">Alle 26 Paarungen aus "Die Sprache unserer Beziehungen" liegen vor und werden nach und nach ergänzt.</p>
+
+        <div style="background:rgba(180,120,0,0.08);border-left:3px solid var(--gold);padding:.9rem 1.1rem;border-radius:0 .6rem .6rem 0;">
+          <div style="font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;margin-bottom:.4rem;">Kurzfassung zum Merken</div>
+          <p style="margin:0;font-size:.92rem;line-height:1.7;color:var(--ink);">${g.kurzfassung}</p>
+        </div>
+      </div>`;
+  }
+
+  return shell(`
+    ${pageHeader("kommunikationsguide")}
+    <section class="narrow">
+      <p class="eyebrow">Praxis &middot; Beziehung &amp; F&uuml;hrung</p>
+      <h1>Kommunikationsguide</h1>
+      <p class="lead-small">Wie begegnest du einem bestimmten Subtyp am besten &ndash; im Alltag, in einer engen Beziehung oder als F&uuml;hrungskraft bzw. Kollege? Basierend auf "Die Sprache unserer Beziehungen", "F&uuml;hrung mit Fundament" und weiteren Werken von Detlef Rathmer. W&auml;hle einen Subtyp:</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:.4rem;margin:1.5rem 0 1rem;">
+        ${subtypeGrid}
+      </div>
+      ${resultHtml}
+      <div style="margin-top:2rem;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:10px;border:1px solid var(--line);font-size:.85rem;line-height:1.7;color:var(--muted);">
+        Der Kommunikationsguide wird kontinuierlich um weitere Subtypen erg&auml;nzt. Er ersetzt keine Beratung oder Therapie, sondern gibt typspezifische Anhaltspunkte f&uuml;r besseres gegenseitiges Verst&auml;ndnis.
+      </div>
+      ${relatedLinks([
+        {route:"beziehungen", label:"Beziehungskompass"},
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"krisenkompass", label:"Krisenkompass"},
       ])}
     </section>
   `);
@@ -109594,6 +109763,7 @@ function render() {
     "triadendefizite": triadendefizitePage,
     "differenzierung": differenzierungPage,
     "situationskompass": situationskompasPage,
+    "kommunikationsguide": kommunikationsguidePage,
     "krisenkompass": krisenkompassPage,
     "dialektische-struktur": dialektischeStrukturPage,
     "verbale-signale": verbaleSignalePage,
