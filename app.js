@@ -31858,6 +31858,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Annika von Mutius – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · Deutsche Unternehmerin, Gründerin des KI-Recruiting-Start-ups Empion. Promovierte Mathematikerin, Forbes „30 Under 30 Europe“. Substanz statt Inszenierung als Antrieb. Tierentsprechung: Waschbär.",
     land:"Deutschland", tags:["Wirtschaft"], gender:"f"},
+  { route:"beruehmte-cheyenne-ochsenknecht", name:"Cheyenne Ochsenknecht", added:"2026-08-24", subtyp:"SE3w4",
+    heading:"Cheyenne Ochsenknecht – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · geb. 2000. Deutsches Model und Landwirtin, betreibt mit ihrem Mann einen Chianina-Rinderhof in der Steiermark. Verließ eine erreichte mediale Sichtbarkeit bewusst für ein Leben aus konkreter, handfester Arbeit. Tierentsprechung: Waschbär.",
+    land:"Deutschland", tags:["Mode","Sonstiges"], gender:"f"},
   { route:"beruehmte-changpeng-zhao", name:"Changpeng Zhao", added:"2026-08-19", subtyp:"SE3w4",
     heading:"Changpeng Zhao – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · Kanadisch-chinesischer Unternehmer, Gründer von Binance, der größten Kryptobörse der Welt. Technische Infrastruktur statt Auftritt, radikal eigener Weg außerhalb bestehender Regelwerke. Tierentsprechung: Waschbär.",
@@ -43520,7 +43524,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
@@ -43536,6 +43540,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
         beschreibung: "Fähigkeiten, die später mühelos wirken, entstehen fast nie über Nacht, sondern über Jahre stiller, oft schmerzhaft konsequenter Wiederholung, lange bevor eine Öffentlichkeit davon erfährt.",
         beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde."
+      },
+      {
+        titel: "Erreichte Sichtbarkeit bewusst gegen Substanz eintauschen",
+        beschreibung: "Manche SE3w4 kommen nicht aus der Unauffälligkeit und bleiben dort – sie erreichen zunächst durchaus mediale Sichtbarkeit, verlassen diese dann aber aktiv, um sich stattdessen über konkrete, handfeste Arbeit zu beweisen. Die Bewegung verläuft hier umgekehrt: erst Bühne, dann der bewusste Wechsel zum eigenen, stillen Territorium.",
+        beleg: "Cheyenne Ochsenknecht, die mit fünfzehn erstmals ein Magazincover zierte und mit sechzehn international modelte, dann aber bewusst in die Steiermark zog, um mit ihrem Mann einen Chianina-Rinderhof aufzubauen – ›Wir sind echte Bauern‹, wie sie selbst festhielt, als explizite Abgrenzung vom früheren It-Girl-Image."
       },
       {
         titel: "Die natürliche Maske wird zur bewussten Täuschung – harmlose Fassade verdeckt Betrug oder Verbrechen (Schattenform)",
@@ -47466,6 +47475,7 @@ function uweOchsenknechtPortraitPage() {
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – ehemalige Ehefrau"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
         {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
       ])}
@@ -60697,6 +60707,69 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function cheyenneOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-cheyenne-ochsenknecht-portrait.jpg" alt="Cheyenne Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cheyenne Ochsenknecht</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutsches Model &amp; Landwirtin, geb. 2000 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das lieber ein funktionierendes System baut als ein Schaufenster. Es zeigt nicht, was es kann, sondern lässt das Ergebnis für sich sprechen, während im Verborgenen längst die eigentliche Arbeit läuft. Kaum jemand aus der eigenen, medial äußerst sichtbaren Familie verkörpert diese Wende so konsequent wie Cheyenne Ochsenknecht.</p>
+          <p class="vb-intro">Die deutsche Model und Landwirtin Cheyenne Savannah Ochsenknecht wurde am 13. Januar 2000 in München geboren, als Tochter von Uwe und Natascha Ochsenknecht und jüngere Schwester von Wilson Gonzalez und Jimi Blue Ochsenknecht (beide SE2w3). Bereits mit fünf Jahren stand sie für <em>Die Wilden Kerle 2</em> vor der Kamera, mit sechzehn debütierte sie als Model bei der Berlin Fashion Week für das Label Riani, 2016 zierte sie das Cover der <em>Grazia</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Substanz statt Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em> Mit fünfzehn stand Cheyenne erstmals auf einem Magazincover, ein halbes Jahr später zog sie allein nach Paris &ndash; ein früher, unabhängiger Aufbruch, der zunächst ganz auf Sichtbarkeit ausgerichtet war.</p>
+          <p class="vb-intro">Der Bruch kam mit dem Umzug in die Steiermark: 2019 lernte sie den Landwirt und gelernten Fleischsommelier Nino Sifkovits bei einem Double-Date in Berlin kennen, zog ein Jahr später zu ihm nach Dobl und heiratete 2022. Seither führen beide gemeinsam den Chianinahof mit über sechzig Chianina-Rindern, sechzig Mastschweinen und rund siebzig Schafen &ndash; Direktvermarktung von Fleisch statt medialer Selbstdarstellung. „Wir sind echte Bauern", stellte sie in einem Interview klar &ndash; eine explizite Abgrenzung vom früheren It-Girl-Image, die genau das SE3-Prinzip auf den Punkt bringt: Wert wird nicht mehr behauptet, sondern durch konkrete Arbeit bewiesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die eigene, unverwechselbare Note im Pragmatischen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Auffällig ist bereits die Wahl der Rinderrasse: Chianina-Rinder sind keine austauschbare Massenware, sondern eine seltene, sehr spezifische italienische Rasse &ndash; eine ästhetische, individuelle Entscheidung selbst innerhalb eines betont pragmatischen Feldes.</p>
+          <p class="vb-intro">Auch der bewusste Rückzug aus dem grellen Modelbusiness in ein sehr zurückgezogenes, ländliches Familienleben mit inzwischen zwei Kindern trägt diese Handschrift: nicht Rückzug aus Erschöpfung, sondern die aktive Suche nach einem Leben, das sich innerlich wahr und einzigartig anfühlt, statt nur nach außen zu funktionieren. Parallel absolviert sie eine Ausbildung zur Landwirtschaftstechnikerin &ndash; formalisierte, nachweisbare Kompetenz statt bloßem Landleben-Image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Eine Parallele im eigenen Kompass: Substanz, die der Sichtbarkeit vorausgeht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cheyennes Weg reiht sich auffällig in ein Muster ein, das sich bei anderen SE3w4-Porträts dieses Kompasses bereits zeigt. Dr. Annika von Mutius, Gründerin des HR-Tech-Start-ups Empion, setzte über Jahre bewusst „auf die technische Substanz … statt auf lautes Marketing" &ndash; mit dem Ergebnis, dass die Aufmerksamkeit am Ende der Substanz folgte, nicht umgekehrt. Auch Kathrin Bauerfeind wird in diesem Kompass so beschrieben: „Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht &ndash; er schafft sich sein eigenes Territorium."</p>
+          <p class="vb-intro">Cheyenne Ochsenknecht zeigt exakt diese Bewegung, nur unter umgekehrten Vorzeichen: Sie kam nicht aus der Unauffälligkeit und blieb dort, sondern verließ eine bereits erreichte, mediale Sichtbarkeit bewusst, um sich stattdessen ein eigenes, konkretes Territorium aufzubauen &ndash; den eigenen Hof, das eigene Handwerk, die eigene Rinderrasse. Wo von Mutius und Bauerfeind nie in die Inszenierung eintraten, ist Cheyennes Fingerabdruck der einer bewussten Umkehr: erst Sichtbarkeit, dann der aktive Wechsel zu Substanz &ndash; ein weiterer, eigenständiger Weg, auf dem dieselbe Waschbär-Energie zum selben Ziel führt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, ein bereits erreichtes, öffentlich sichtbares Leben ohne Bitterkeit hinter sich zu lassen und stattdessen etwas völlig eigenes, handfestes aufzubauen &ndash; mit zweiundzwanzig verheiratet, mit vierundzwanzig bereits zweifache Mutter und Mitbetreiberin eines eigenen landwirtschaftlichen Betriebs. Das ist kein Ausweichen, sondern eine sehr konkrete, sehr junge Form von Eigenständigkeit.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> &ndash; die Überzeugung, dass das eigene Image mit dem eigenen Wert identisch ist. Bei der SE3w4 zeigt sich das eher umgekehrt als bei der SO3 oder SX3: die Gefahr liegt darin, das neue, „echte" Landleben-Bild ebenso zur Fassade werden zu lassen wie zuvor das Model-Image &ndash; eine neue Form der Selbstinszenierung unter dem Deckmantel der Bodenständigkeit. Die anhaltende, öffentlich bekannte Entfremdung zwischen Vater Uwe Ochsenknecht und Cheyenne zeigt zudem, dass auch dieser bewusst gewählte, ruhigere Weg die familiären Brüche der Ochsenknechts nicht automatisch heilt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – Vater"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Bruder"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Bruder"},
+      ])}
+    </div>
+  `);
+}
+
 function leonardCohenPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60818,6 +60891,7 @@ function wilsonGonzalezOchsenknechtPortraitPage() {
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Bruder"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – Vater"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Schwester"},
       ])}
     </div>
   `);
@@ -60878,6 +60952,7 @@ function nataschaOchsenknechtPortraitPage() {
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – ehemaliger Ehemann"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
       ])}
     </div>
@@ -61497,6 +61572,7 @@ function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Bruder"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Schwester"},
       ])}
     </div>
   `);
@@ -65869,6 +65945,7 @@ function annikaVonMutiusPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SE3w4)"},
       ])}
     </div>
   `);
@@ -66445,6 +66522,7 @@ function langLangPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SE3w4)"},
       ])}
     </div>
   `);
@@ -113448,6 +113526,7 @@ function render() {
       "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-leonard-cohen": leonardCohenPortraitPage,
+      "beruehmte-cheyenne-ochsenknecht": cheyenneOchsenknechtPortraitPage,
       "beruehmte-javier-parisi": javierParisiPortraitPage,
       "beruehmte-fiona-apple": fionaApplePortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,

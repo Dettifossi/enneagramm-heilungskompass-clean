@@ -627,6 +627,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Annika von Mutius – Self-Preservation Type 3",
     teaser:"SE3w4 · German entrepreneur, founder of the AI recruiting startup Empion. PhD mathematician, Forbes \"30 Under 30 Europe.\" Substance over staging as the driving force. Animal correspondence: Raccoon.",
     land:"Germany", tags:["Wirtschaft"], gender:"f"},
+{ route:"beruehmte-cheyenne-ochsenknecht", name:"Cheyenne Ochsenknecht", added:"2026-08-24", subtyp:"SE3w4",
+    heading:"Cheyenne Ochsenknecht – Self-Preservation Type 3",
+    teaser:"SP3w4 · b. 2000. German model and farmer, runs a Chianina cattle farm in Styria with her husband. Deliberately left an achieved media visibility behind for a life of concrete, hands-on work. Animal correspondence: Raccoon.",
+    land:"Deutschland", tags:["Mode","Sonstiges"], gender:"f"},
 { route:"beruehmte-changpeng-zhao", name:"Changpeng Zhao", added:"2026-08-19", subtyp:"SE3w4",
     heading:"Changpeng Zhao – Self-Preservation Type 3",
     teaser:"SE3w4 · Canadian-Chinese entrepreneur, founder of Binance, the world's largest crypto exchange. Technical infrastructure over performance, a radically independent path outside existing rulebooks. Animal correspondence: Raccoon.",
@@ -25716,6 +25720,7 @@ function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SP2w3) – brother"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – mother"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4) – sister"},
       ])}
     </div>
   `);
@@ -29266,6 +29271,7 @@ function uweOchsenknechtPortraitPage() {
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – son"},
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SP2w3) – son"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – former wife"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4) – daughter"},
         {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
       ])}
@@ -31692,6 +31698,7 @@ function wilsonGonzalezOchsenknechtPortraitPage() {
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – brother"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – mother"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4) – sister"},
       ])}
     </div>
   `);
@@ -31752,6 +31759,7 @@ function nataschaOchsenknechtPortraitPage() {
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – former husband"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – son"},
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SP2w3) – son"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4) – daughter"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
       ])}
     </div>
@@ -37821,6 +37829,7 @@ function kathrinBauerfeindPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4)"},
       ])}
     </div>
   `);
@@ -38010,6 +38019,69 @@ function juditPolgarPortraitPage() {
   `);
 }
 
+function cheyenneOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-cheyenne-ochsenknecht-portrait.jpg" alt="Cheyenne Ochsenknecht – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cheyenne Ochsenknecht</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">German model &amp; farmer, born 2000 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that would rather build a working system than a shop window. It doesn't show off what it can do; it lets the result speak for itself, while the real work quietly continues out of sight. Few people in her own, intensely media-visible family embody this turn as consistently as Cheyenne Ochsenknecht.</p>
+          <p class="vb-intro">The German model and farmer Cheyenne Savannah Ochsenknecht was born on January 13, 2000, in Munich, the daughter of Uwe and Natascha Ochsenknecht and younger sister of Wilson Gonzalez and Jimi Blue Ochsenknecht (both SP2w3). At just five, she appeared on camera for <em>Die Wilden Kerle 2</em>; at sixteen, she debuted as a model at Berlin Fashion Week for the label Riani; in 2016, she appeared on the cover of <em>Grazia</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Substance Over Staging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the counter-type of the Three &ndash; the subtype that does not display achievement outwardly but directs it inward: toward security, competence, craft mastery. SE3 does not ask <em>How am I seen?</em> but <em>What can I actually do?</em> At fifteen, Cheyenne appeared on a magazine cover for the first time; six months later, she moved to Paris alone &ndash; an early, independent departure that was, at first, entirely oriented toward visibility.</p>
+          <p class="vb-intro">The break came with the move to Styria: in 2019, she met farmer and trained meat sommelier Nino Sifkovits on a double date in Berlin, moved to his hometown of Dobl a year later, and married him in 2022. The two now run the Chianinahof together, with more than sixty Chianina cattle, sixty fattening pigs, and around seventy sheep &ndash; direct marketing of meat instead of media self-presentation. "We are real farmers," she stated plainly in one interview &ndash; an explicit break from her earlier it-girl image that captures the SE3 principle exactly: worth is no longer claimed, but proven through concrete work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: A Distinctive Note Within the Pragmatic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a question that goes beyond mere competence: <em>What does my path mean &ndash; beyond what is expected of me?</em> Telling already is her choice of cattle breed: Chianina cattle are not interchangeable commodity stock, but a rare, very specific Italian breed &ndash; an aesthetic, individual choice even within a deliberately pragmatic field.</p>
+          <p class="vb-intro">Her deliberate retreat from the glaring world of modeling into a very withdrawn, rural family life, now with two children, carries the same signature: not withdrawal out of exhaustion, but an active search for a life that feels inwardly true and singular, rather than merely functioning outwardly. In parallel, she is training to become a certified agricultural technician &ndash; formal, provable competence rather than a mere image of rural life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Parallel Within This Compass: Substance That Precedes Visibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cheyenne's path fits strikingly into a pattern already visible elsewhere among this compass's SE3w4 portraits. Dr. Annika von Mutius, founder of the HR-tech startup Empion, spent years deliberately building "the actual technical substance … rather than relying on loud marketing" &ndash; with the result that attention followed the substance, not the other way around. Kathrin Bauerfeind is described in this compass in almost identical terms: "No loud entrance, no glamour, no stage … the raccoon doesn't dig for the spotlight &ndash; it builds its own territory."</p>
+          <p class="vb-intro">Cheyenne Ochsenknecht shows exactly this movement, only in reverse order: she did not start out in obscurity and stay there &ndash; she deliberately left an already-achieved media visibility behind to build her own, concrete territory instead: her own farm, her own craft, her own cattle breed. Where von Mutius and Bauerfeind never entered the spotlight in the first place, Cheyenne's fingerprint is one of a conscious reversal: visibility first, then the active shift toward substance &ndash; another, independent path on which the same raccoon energy arrives at the same destination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SE3w4 is the ability to leave an already-achieved, publicly visible life behind without bitterness, and to build something entirely one's own and tangible instead &ndash; married at twenty-two, twice a mother by twenty-four, and co-operator of her own farm. This is not evasion, but a very concrete, very young form of independence.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>self-deceit</strong> &ndash; the conviction that one's own image is identical to one's own worth. In SE3w4, this tends to show up in reverse compared to SO3 or SX3: the danger lies in letting the new, "authentic" rural-life image become just as much of a facade as the modeling image once was &ndash; a new form of self-staging under the guise of groundedness. The ongoing, publicly known estrangement between her father, Uwe Ochsenknecht, and Cheyenne also shows that even this deliberately chosen, quieter path does not automatically heal the Ochsenknecht family's underlying rifts.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SP3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – mother"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – brother"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SP2w3) – brother"},
+      ])}
+    </div>
+  `);
+}
+
 function annikaVonMutiusPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -38064,6 +38136,7 @@ function annikaVonMutiusPortraitPage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4)"},
       ])}
     </div>
   `);
@@ -39653,7 +39726,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
@@ -39669,6 +39742,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
         beschreibung: "Skills that later seem effortless almost never arise overnight, but through years of quiet, often painfully consistent repetition, long before the public knows anything about it.",
         beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history."
+      },
+      {
+        titel: "Trading achieved visibility for substance, on purpose",
+        beschreibung: "Some SE3w4 don't start out in obscurity and stay there – they first achieve genuine media visibility, then actively leave it behind to prove themselves through concrete, hands-on work instead. The movement runs in reverse here: first the stage, then a deliberate shift to one's own, quiet territory.",
+        beleg: "Cheyenne Ochsenknecht, who appeared on a magazine cover at fifteen and modeled internationally at sixteen, then deliberately moved to Styria to build a Chianina cattle farm with her husband – 'We are real farmers,' as she put it herself, an explicit break from her earlier it-girl image."
       },
       {
         titel: "When the natural mask becomes deliberate deception – a harmless facade conceals fraud or crime (shadow form)",
@@ -78690,6 +78768,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
       "beruehmte-judit-polgar": juditPolgarPortraitPage,
       "beruehmte-annika-von-mutius": annikaVonMutiusPortraitPage,
+      "beruehmte-cheyenne-ochsenknecht": cheyenneOchsenknechtPortraitPage,
       "beruehmte-changpeng-zhao": changpengZhaoPortraitPage,
       "beruehmte-bryn-kenney": brynKenneyPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
