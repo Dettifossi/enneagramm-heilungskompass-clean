@@ -439,6 +439,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harnaam Kaur – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1990. British Sikh activist and model, PCOS advocate, first bearded woman on the London Fashion Week runway. Her own body as first care, turned into an internationally visible message. Animal correspondence: Hippopotamus.",
     land:"United Kingdom", tags:["Activism","Mode"], gender:"f"},
+{ route:"beruehmte-ice-cube", name:"Ice Cube", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Ice Cube – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1969. American rapper, actor, and entrepreneur, N.W.A., BIG3 basketball league. Care that stays within the family – cast his own son to play his younger self in ›Straight Outta Compton‹. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Musik","Film","Unternehmen"], gender:"m"},
 { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1929 in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Voluntarily living in a Tokyo psychiatric hospital since 1977, working daily in her studio. Animal correspondence: Hippopotamus.",
@@ -24922,6 +24926,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function iceCubePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ice-cube-portrait.jpg" alt="Ice Cube – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ice Cube</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American rapper, actor &amp; entrepreneur, born 1969 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that knows its environment precisely and moves through it securely because it knows and respects its dangers. It builds its territory firmly, defends it decisively, and returns there after every excursion, back to where it belongs.</p>
+          <p class="vb-intro">The American rapper and actor Ice Cube, born O'Shea Jackson on June 15, 1969, in Baldwin Hills, Los Angeles, grew up as the fourth child of an African American family in South Central Los Angeles &ndash; a neighborhood increasingly marked by drugs, guns, and violence. His mother Doris worked as a hospital employee, his father Hosea as a groundskeeper at UCLA. With stable, working parents behind him, young Ice Cube navigated an environment that proved fatal for many of his peers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care That Stays Within the Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care first turns toward one's own concrete foundation and closest circle, before it turns outward. In Ice Cube, this shows in remarkable steadiness: since his marriage to Kimberly Woodruff in April 1992 &ndash; over three decades in an industry known for short-lived relationships &ndash; his marriage has remained stable, and together they have five children.</p>
+          <p class="vb-intro">This principle becomes clearest in 2015: for the film adaptation of his own life story, <em>Straight Outta Compton</em>, Ice Cube cast his younger self with none other than his own son, O'Shea Jackson Jr. &ndash; after a two-year audition process that his son, as Ice Cube himself put it, "earned fair and square." His own story is not delegated to strangers, but literally passed on within the family &ndash; a trust conceivable only within the closest circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Rapper to Business Empire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build visible, publicly effective success out of a secured foundation. At fifteen, Ice Cube met Dr. Dre; together with Eazy-E they founded N.W.A. and sparked a nationwide debate with their hard-hitting, unfiltered gangsta rap. When conflict arose with management, Ice Cube left the group in 1989 and built an independent career with his solo debut <em>AmeriKKKa's Most Wanted</em> (1990) &ndash; gold and later platinum status within weeks.</p>
+          <p class="vb-intro">The musician became a multi-hyphenate entrepreneur: as actor, screenwriter, director, and producer of the <em>Friday</em> and <em>Barbershop</em> film franchises, he built his own, recurring brands instead of relying on individual appearances. In 2017, he founded BIG3, his own professional basketball league for former NBA players &ndash; a project he doesn't just support but owns and controls outright. The Three-wing keeps asking: how do I turn what I have into my own, visible institution?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to build a stable, decades-lasting foundation out of a difficult environment &ndash; for oneself and one's family &ndash; and then translate that stability into visible, publicly effective projects without losing one's family roots. Ice Cube's marriage of over thirty years and his deliberate decision to entrust his own life story to his own son show this rare combination of loyalty and visibility.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and one's own building. In the SP2w3, this pride can become a constant need to keep expanding and controlling one's own territory &ndash; from record label to film production to owning a sports league &ndash; rather than resting on what has already been achieved. His early, uncompromising break with N.W.A.'s management already shows how decisively the hippopotamus defends its territory the moment it feels taken advantage of.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From South Central to His Own Institution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ice Cube's artistic work consistently tells the story of his own origins &ndash; South Central Los Angeles, his neighborhood, his family &ndash; and repeatedly translates that very concrete, personal experience into formats with broad reach: albums, film franchises, a sports league of his own. None of it stays abstract; all of it stays tied back to his own biography and his own people.</p>
+          <p class="vb-intro">The hippopotamus doesn't leave its territory to please anyone &ndash; it expands its territory in a way that grows without losing its roots. Ice Cube's path from a first-generation rapper to the owner of his own professional league shows exactly this pattern: security, control, and care for the closest circle as the foundation for everything that becomes visible afterward.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -24987,6 +25051,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SP2w3)"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
       ])}
     </div>
   `);
@@ -77615,6 +77680,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
+      "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

@@ -31650,6 +31650,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harnaam Kaur – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1990. Britische Sikh-Aktivistin und Model, PCOS-Botschafterin, erste bärtige Frau auf dem Laufsteg der London Fashion Week. Der eigene Körper als erste Fürsorge, verwandelt in eine international sichtbare Botschaft. Tierentsprechung: Flusspferd.",
     land:"Großbritannien", tags:["Aktivismus","Mode"], gender:"f"},
+  { route:"beruehmte-ice-cube", name:"Ice Cube", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Ice Cube – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1969. US-amerikanischer Rapper, Schauspieler und Unternehmer, N.W.A., BIG3-Basketballliga. Fürsorge, die in der Familie bleibt – besetzte seinen eigenen Sohn mit der Rolle seines jüngeren Ichs in ›Straight Outta Compton‹. Tierentsprechung: Flusspferd.",
+    land:"USA", tags:["Musik","Film","Unternehmen"], gender:"m"},
   { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1929 in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Seit 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
@@ -43421,12 +43425,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -60415,7 +60419,7 @@ function harnaamKaurPortraitPage() {
         <h2 class="vb-section">1. Das Flusspferd</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, dessen Erscheinung von außen sofort auffällt und das dennoch fest in seinem eigenen Körper, seinem eigenen Element ruht. Es verteidigt nicht nur sein Revier, sondern vor allem seine physische Integrität &ndash; mit einer Selbstverständlichkeit, die keine Erklärung braucht.</p>
-          <p class="vb-intro">Die britische Aktivistin und Model Harnaam Kaur, geboren am 29. November 1990 in Slough in einer traditionellen Punjabi-Sikh-Familie, wuchs mit einer sehr konkreten, körperlichen Herausforderung auf: Bereits mit elf Jahren begann bei ihr, ausgelöst durch das polyzystische Ovarialsyndrom (PCOS), verstärkter Bartwuchs im Gesicht, mit zwölf folgte die Diagnose. Als Teenager erlebte sie erbittertes Mobbing und versuchte zunächst alles, um den Bart loszuwerden &ndash; Wachsen, Zupfen, Rasieren, Fäden. Erst mit sechzehn traf sie eine Entscheidung, die ihr ganzes weiteres Leben prägen sollte: Sie hörte auf, ihr Gesicht zu entfernen, und ließ den Bart einfach wachsen.</p>
+          <p class="vb-intro">Die britische Aktivistin und Model Harnaam Kaur, geboren am 29. November 1990 in Slough in einer traditionellen Punjabi-Sikh-Familie, wuchs mit einer sehr konkreten, körperlichen Herausforderung auf: Bereits mit elf Jahren begann bei ihr, ausgelöst durch das polyzystische Ovarialsyndrom (PCOS), verstärkter Bartwuchs im Gesicht, mit zwölf folgte die Diagnose. Als Teenager erlebte sie erbittertes Mobbing und versuchte zunächst alles, um den Bart loszuwerden &ndash; Wachsen, Zupfen, Rasieren, Fäden. Erst mit sechzehn traf sie eine Entscheidung, die ihr ganzes weiteres Leben prägen sollte: Sie hörte auf, die Haare aus ihrem Gesicht zu entfernen, und ließ den Bart einfach wachsen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der eigene Körper als erste Fürsorge</h2>
@@ -60440,6 +60444,66 @@ function harnaamKaurPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Harnaam Kaurs Wirkung reicht weit über Modewelt und Schlagzeilen hinaus: Ihre Geschichte spricht besonders südasiatische Communities an, in denen Körperbehaarung bei Frauen traditionell streng kontrolliert und stigmatisiert wird. Indem sie ihre Geschichte offen erzählt, ermutigt sie andere Betroffene von PCOS, Unterstützung zu suchen, die eigene mentale Gesundheit ernst zu nehmen und die eigene Identität ohne Scham anzunehmen.</p>
           <p class="vb-intro">Das Flusspferd verlässt sein Revier nicht, um zu gefallen &ndash; es bleibt dort, wo es hingehört, mit einer Präsenz, die niemand übersehen kann. Harnaam Kaurs Weg vom gemobbten Teenager zur international sichtbaren Aktivistin zeigt, wie aus der Weigerung, sich selbst zu verstecken, eine Kraft wird, die weit über die eigene Geschichte hinausträgt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function iceCubePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ice-cube-portrait.jpg" alt="Ice Cube – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ice Cube</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Rapper, Schauspieler &amp; Unternehmer, geb. 1969 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das seine Umgebung genau kennt und sich in ihr sicher bewegt, weil es ihre Gefahren kennt und respektiert. Es baut sein Revier fest, verteidigt es entschlossen und kehrt nach jeder Bewegung dorthin zurück, wo es hingehört.</p>
+          <p class="vb-intro">Der US-amerikanische Rapper und Schauspieler Ice Cube, bürgerlich O'Shea Jackson, geboren am 15. Juni 1969 in Baldwin Hills, Los Angeles, wuchs als viertes Kind einer afroamerikanischen Familie in South Central Los Angeles auf &ndash; einem Viertel, das zunehmend von Drogen, Waffen und Gewalt geprägt war. Seine Mutter Doris arbeitete als Krankenhausangestellte, sein Vater Hosea als Platzwart an der UCLA. Mit stabilen, arbeitenden Eltern im Rücken navigierte der junge Ice Cube durch eine Umgebung, die vielen seiner Altersgenossen zum Verhängnis wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge, die in der Familie bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Ice Cube zeigt sich das in einer bemerkenswerten Beständigkeit: Seit seiner Heirat mit Kimberly Woodruff im April 1992 &ndash; über drei Jahrzehnte in einer Branche, die für kurzlebige Beziehungen bekannt ist &ndash; blieb seine Ehe stabil, gemeinsam haben sie fünf Kinder.</p>
+          <p class="vb-intro">Am deutlichsten wird dieses Prinzip 2015: Für die Verfilmung seiner eigenen Lebensgeschichte in <em>Straight Outta Compton</em> besetzte Ice Cube die Rolle seines jüngeren Ichs mit niemand anderem als seinem eigenen Sohn O'Shea Jackson Jr. &ndash; nach einem zweijährigen Vorsprechprozess, den dieser sich, wie Ice Cube selbst betonte, „redlich verdient" habe. Die eigene Geschichte wird nicht an Fremde delegiert, sondern buchstäblich innerhalb der Familie weitergegeben &ndash; ein Vertrauen, das nur im engsten Kreis überhaupt denkbar ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Rapper zum Firmenimperium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Mit fünfzehn lernte Ice Cube Dr. Dre kennen, gemeinsam mit Eazy-E gründeten sie N.W.A. und lösten mit ihrem harten, unverblümten Gangsta-Rap eine landesweite Debatte aus. Als es zu Streit mit dem Management kam, verließ Ice Cube die Gruppe 1989 und baute mit seinem Solodebüt <em>AmeriKKKa's Most Wanted</em> (1990) eine eigenständige Karriere auf &ndash; Gold- und später Platinstatus binnen weniger Wochen.</p>
+          <p class="vb-intro">Aus dem Musiker wurde ein Multi-Unternehmer: Als Schauspieler, Drehbuchautor, Regisseur und Produzent der <em>Friday</em>- und <em>Barbershop</em>-Filmreihen baute er eigene, wiederkehrende Marken auf, statt sich auf einzelne Auftritte zu verlassen. 2017 gründete er mit BIG3 eine eigene professionelle Basketballliga für ehemalige NBA-Spieler &ndash; ein Projekt, das er nicht nur unterstützte, sondern selbst besitzt und kontrolliert. Der Dreierflügel fragt immer wieder: Wie baue ich aus dem, was ich habe, eine eigene, sichtbare Institution?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer schwierigen Umgebung heraus eine tragfähige, über Jahrzehnte stabile Basis zu bauen &ndash; für sich selbst und die eigene Familie &ndash; und diese Stabilität dann in sichtbare, öffentlich wirksame Projekte zu übersetzen, ohne die familiäre Verwurzelung zu verlieren. Ice Cubes über dreißigjährige Ehe und die bewusste Entscheidung, seinem eigenen Sohn die eigene Lebensgeschichte anzuvertrauen, zeigen diese seltene Kombination aus Loyalität und Sichtbarkeit.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Aufbau unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Notwendigkeit werden, das eigene Territorium immer weiter auszubauen und zu kontrollieren &ndash; vom Musiklabel über die Filmproduktion bis zur eigenen Sportliga &ndash;, statt sich auf bereits Erreichtes zu verlassen. Der frühe, kompromisslose Bruch mit dem N.W.A.-Management zeigt bereits, wie entschlossen das Flusspferd sein Revier verteidigt, sobald es sich übervorteilt fühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Von South Central zur eigenen Institution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ice Cubes künstlerisches Werk erzählt konsequent von der eigenen Herkunft &ndash; South Central Los Angeles, seine Nachbarschaft, seine Familie &ndash; und übersetzt diese sehr konkrete, persönliche Erfahrung immer wieder in Formate mit breiter Reichweite: Alben, Filmfranchises, eine eigene Sportliga. Nichts davon bleibt abstrakt; alles bleibt an die eigene Biografie und die eigenen Leute rückgebunden.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein Revier nicht, um zu gefallen &ndash; es baut sein Revier so aus, dass es größer wird, ohne seine Wurzeln zu verlieren. Ice Cubes Weg vom Rapper der ersten Stunde zum Besitzer einer eigenen Profiliga zeigt genau dieses Muster: Sicherheit, Kontrolle und Fürsorge für den engsten Kreis als Fundament für alles, was danach sichtbar wird.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -60522,6 +60586,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Porträt: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3)"},
         {route:"beruehmte-harnaam-kaur", label:"Porträt: Harnaam Kaur (SE2w3)"},
+        {route:"beruehmte-ice-cube", label:"Porträt: Ice Cube (SE2w3)"},
       ])}
     </div>
   `);
@@ -112205,6 +112270,7 @@ function render() {
       "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
+      "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
