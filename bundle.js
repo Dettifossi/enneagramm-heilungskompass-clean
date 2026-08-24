@@ -60592,7 +60592,7 @@ function billKaulitzPortraitPage() {
         <h2 class="vb-section">1. Der Chihuahua</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und verhält sich wie die größte. Er fürchtet nichts, bellt, wenn nötig, und zeigt keine Scheu vor dem, was größer ist als er. Kaum jemand hat diesen Kontrast so konsequent zur eigenen Bühnenfigur gemacht wie Bill Kaulitz: schmal, oft in auffälligstem Make-up und schrillster Garderobe, und dabei nie um eine provokante Aussage verlegen.</p>
-          <p class="vb-intro">Der deutsche Musiker Bill Kaulitz wurde am 1. September 1989 in Leipzig geboren, zehn Minuten nach seinem eineiigen Zwillingsbruder Tom. Als die beiden sechs waren, trennten sich die Eltern; mit sieben kam die Scheidung. In Loitsche bei Magdeburg, wo die Familie danach aufwuchs, war der junge Bill mit ungewöhnlichem Aussehen und ungewöhnlicher Stimme alles andere als unauffällig &ndash; ein früher Ausgangspunkt für ein Leben, das nie leise verlaufen sollte.</p>
+          <p class="vb-intro">Der deutsche Musiker Bill Kaulitz wurde am 1. September 1989 in Leipzig geboren, zehn Minuten nach seinem eineiigen Zwillingsbruder Tom (SE2w3). Als die beiden sechs waren, trennten sich die Eltern; mit sieben kam die Scheidung. In Loitsche bei Magdeburg, wo die Familie danach aufwuchs, war der junge Bill mit ungewöhnlichem Aussehen und ungewöhnlicher Stimme alles andere als unauffällig &ndash; ein früher Ausgangspunkt für ein Leben, das nie leise verlaufen sollte. Auch Tom wird in diesem Kompass in einem eigenen Porträt behandelt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Vier: Sich messen, um gesehen zu werden</h2>

@@ -25002,7 +25002,7 @@ function billKaulitzPortraitPage() {
         <h2 class="vb-section">1. The Chihuahua</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Chihuahua</strong> is the smallest dog breed in the world &ndash; and behaves like the largest. It fears nothing, barks when necessary, and shows no hesitation before what is bigger than itself. Few people have made this contrast so consistently their own stage persona as Bill Kaulitz: slight in build, often in the boldest makeup and most striking wardrobe imaginable, and never at a loss for a provocative statement.</p>
-          <p class="vb-intro">The German musician Bill Kaulitz was born on September 1, 1989, in Leipzig, ten minutes after his identical twin brother Tom. When they were six, their parents separated; the divorce followed at seven. In Loitsche, near Magdeburg, where the family grew up afterward, young Bill's unusual look and unusual voice made him anything but inconspicuous &ndash; an early starting point for a life that was never going to be quiet.</p>
+          <p class="vb-intro">The German musician Bill Kaulitz was born on September 1, 1989, in Leipzig, ten minutes after his identical twin brother Tom (SP2w3). When they were six, their parents separated; the divorce followed at seven. In Loitsche, near Magdeburg, where the family grew up afterward, young Bill's unusual look and unusual voice made him anything but inconspicuous &ndash; an early starting point for a life that was never going to be quiet. Tom is also covered in his own portrait in this compass.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Four: Measuring Up to Be Seen</h2>
