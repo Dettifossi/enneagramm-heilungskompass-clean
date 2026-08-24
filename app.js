@@ -35922,7 +35922,7 @@ function ichIllusionPage() {
                           background:var(--paper);list-style:none;user-select:none;font-weight:700;
                           font-size:0.95rem;color:var(--ink);">
             <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
-            <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer (9)</span>
+            <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer (14)</span>
             <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
           </summary>
           <div style="padding:1rem 1.2rem 1.2rem;">
@@ -35936,6 +35936,11 @@ function ichIllusionPage() {
             <div style="margin-top:.8rem;">${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft – Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt – Burnout")}</div>
             <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Metaintelligenz")}</div>
             <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Metaintelligenz (Hörbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelendüfte – ätherische Öle als Zugang zur Tiefenebene des Charakters.", "Die Enneagramm-Aromatherapie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler – auch für Laien gut verständlich.", "Enneagramm-Biochemie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachblüten nach Dr. Edward Bach – Leidenschafts- und Wunden-Blüten aus der therapeutischen Praxis.", "Enneagramm-Bachblüten-Therapie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl zusammenhängen, auch für Laien gut verständlich.", "Enneagramm-Homöopathie – Band 1")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen homöopathischen Heilmittel.", "Enneagramm-Homöopathie – Band 2")}</div>
           </div>
         </details>
         <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
