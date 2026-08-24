@@ -31650,6 +31650,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harnaam Kaur – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1990. Britische Sikh-Aktivistin und Model, PCOS-Botschafterin, erste bärtige Frau auf dem Laufsteg der London Fashion Week. Der eigene Körper als erste Fürsorge, verwandelt in eine international sichtbare Botschaft. Tierentsprechung: Flusspferd.",
     land:"Großbritannien", tags:["Aktivismus","Mode"], gender:"f"},
+{ route:"beruehmte-mr-t", name:"Mr. T", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Mr. T – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1952 in Chicago. Schauspieler, Wrestler, Das A-Team, Rocky III. Vom Leibwächter für Muhammad Ali und Michael Jackson zur Filmikone – Stärke im Dienst des Schutzes, bis hin zum Besuch krebskranker Kinder nach der eigenen Krebsdiagnose. Tierentsprechung: Flusspferd.",
+    land:"USA", tags:["Schauspiel","Wrestling"], gender:"m"},
   { route:"beruehmte-ice-cube", name:"Ice Cube", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Ice Cube – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1969. US-amerikanischer Rapper, Schauspieler und Unternehmer, N.W.A., BIG3-Basketballliga. Fürsorge, die in der Familie bleibt – besetzte seinen eigenen Sohn mit der Rolle seines jüngeren Ichs in ›Straight Outta Compton‹. Tierentsprechung: Flusspferd.",
@@ -43437,7 +43441,7 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Mr. T", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
@@ -43447,7 +43451,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
         beschreibung: "Von außen wirkt die Erscheinung warm, rund, zugänglich, manchmal sogar tollpatschig. Wird jedoch das eigene Territorium – im wörtlichen wie im übertragenen Sinn – bedroht, zeigt sich eine Wucht, die niemand für möglich gehalten hätte.",
-        beleg: "Jack Black: ›Es wirkt plump, laut, tollpatschig – und ist zugleich eines der gefährlichsten Tiere Afrikas, sobald sein Territorium bedroht scheint‹; Uli Hoeneß, der den FC Bayern ›als sein Revier begriffen und mit jedem Gramm seines Körpers markiert und verteidigt‹ hat; Oprah Winfrey: ›Wer glaubt, Wärme und Macht schließen sich aus, hat das Flusspferd nicht verstanden‹; Gloria von Thurn und Taxis, bei der ›das Flusspferd aus dem Wasser trat‹, als die Familie vor dem finanziellen Kollaps stand; Greta Thunberg, die im August 2018 allein vor dem schwedischen Reichstag saß und ein ganzes Flussbett blockierte, ohne einen einzigen Schritt zu tun; Wolfgang Amadeus Mozart, der selten in das Bild des überirdisch schwebenden Genies passte, sondern von enormer Direktheit und körperlicher Lebensfreude war; Ángel Reséndez, der buchstäblich nichts besaß und sein Überleben durch die gewaltsame Übernahme fremder Räume sicherte, sobald sein Überlebensterritorium berührt wurde; Rudolf Pleil, der in einer Niemandsland-Region mordete, in der staatliche Ordnung weitgehend zusammengebrochen war; Carlos Santana, den mehrere Plattenfirmen in den 1990ern für zu alt und irrelevant erklärten, bevor er 1999 mit ›Supernatural‹ 25 Millionen verkaufte Exemplare und neun Grammys erreichte – eine Kraft, die niemand mehr für möglich gehalten hätte."
+        beleg: "Jack Black: ›Es wirkt plump, laut, tollpatschig – und ist zugleich eines der gefährlichsten Tiere Afrikas, sobald sein Territorium bedroht scheint‹; Uli Hoeneß, der den FC Bayern ›als sein Revier begriffen und mit jedem Gramm seines Körpers markiert und verteidigt‹ hat; Oprah Winfrey: ›Wer glaubt, Wärme und Macht schließen sich aus, hat das Flusspferd nicht verstanden‹; Gloria von Thurn und Taxis, bei der ›das Flusspferd aus dem Wasser trat‹, als die Familie vor dem finanziellen Kollaps stand; Greta Thunberg, die im August 2018 allein vor dem schwedischen Reichstag saß und ein ganzes Flussbett blockierte, ohne einen einzigen Schritt zu tun; Wolfgang Amadeus Mozart, der selten in das Bild des überirdisch schwebenden Genies passte, sondern von enormer Direktheit und körperlicher Lebensfreude war; Ángel Reséndez, der buchstäblich nichts besaß und sein Überleben durch die gewaltsame Übernahme fremder Räume sicherte, sobald sein Überlebensterritorium berührt wurde; Rudolf Pleil, der in einer Niemandsland-Region mordete, in der staatliche Ordnung weitgehend zusammengebrochen war; Carlos Santana, den mehrere Plattenfirmen in den 1990ern für zu alt und irrelevant erklärten, bevor er 1999 mit ›Supernatural‹ 25 Millionen verkaufte Exemplare und neun Grammys erreichte – eine Kraft, die niemand mehr für möglich gehalten hätte; Mr. T, der als bezahlter Leibwächter für Muhammad Ali, Michael Jackson und Diana Ross buchstäblich mit dem eigenen Körper schützte, bevor derselbe wuchtige Auftritt ihn zur Filmikone machte."
       },
       {
         titel: "Tiefe Verwurzelung im eigenen Terrain statt Flucht – Bleiben als Stärke",
@@ -60528,6 +60532,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function mrTPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mr-t-portrait.jpg" alt="Mr. T – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mr. T</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, Wrestler &amp; Entertainer, geb. 1952 in Chicago &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das wuchtig und einschüchternd wirkt, dessen Stärke aber vor allem dem Schutz des eigenen Reviers und der eigenen Familie dient. Kaum jemand verkörpert diese Doppelnatur so plakativ wie Mr. T: ein Muskelberg mit Mohawk-Frisur und kiloweise Gold, der zugleich als zuverlässiger Beschützer bekannt wurde, lange bevor er ein Filmstar war.</p>
+          <p class="vb-intro">Der US-amerikanische Schauspieler Mr. T, bürgerlich Laurence Tureaud, wurde am 21. Mai 1952 in Chicago geboren, als zweitjüngstes von zwölf Kindern. Sein Vater verließ die Familie, als Laurence fünf war; seine Mutter zog die Kinder mit rund 87 Dollar Sozialhilfe im Monat in einer Drei-Zimmer-Wohnung in den South-Side-Wohnprojekten auf. Seine älteren Brüder drängten ihn, seinen Körper aufzubauen, um in der Nachbarschaft zu überleben &ndash; ein sehr konkreter, körperlicher Überlebensinstinkt, lange bevor daraus eine Karriere wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als Schutz, nicht als Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge beginnt bei der eigenen körperlichen Basis und dem engsten Kreis, bevor sie sich nach außen richtet. Bei Mr. T zeigte sich das zunächst ganz direkt und beruflich: In den frühen 1970er-Jahren arbeitete er als Fitnesstrainer, Türsteher und hochbezahlter Leibwächter in Chicago und bewachte prominente Klienten wie Muhammad Ali, Steve McQueen, Michael Jackson und Diana Ross. Fürsorge bedeutete hier nicht Zuwendung durch Worte, sondern buchstäblichen körperlichen Schutz für Geld und Ansehen.</p>
+          <p class="vb-intro">1980 nahm er am NBC-Wettbewerb „America's Toughest Bouncer" teil und schlug im Finale einen deutlich größeren Gegner binnen zwanzig Sekunden k.o. Sylvester Stallone wurde auf ihn aufmerksam und besetzte ihn 1982 als Boxer Clubber Lang in <em>Rocky III</em> &ndash; der Satz „I pity the fool", den Stallone Mr. T buchstäblich auf den Leib schrieb, wurde zu seinem Markenzeichen. Der Sprung vom bezahlten Beschützer zum Filmstar geschah nicht über Ausbildung oder Networking, sondern über dieselbe körperliche Präsenz, mit der er zuvor andere beschützt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Türsteher zur Ikone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer geschützten, körperlichen Basis heraus ein unübersehbares, öffentliches Erscheinungsbild aufzubauen. Sein Markenzeichen &ndash; der Mohawk und die kiloweise Halsketten &ndash; entstand ursprünglich ganz praktisch als Türsteher: Gäste, die ihren Schmuck in der Bar verloren oder vergessen hatten, blieben oft bei ihm hängen. Aus einer Notlösung wurde ein unverwechselbares, weltweit erkennbares Markenzeichen, das er später bewusst als Tribut an seine Mutter trug, die ihm harte Arbeit vorlebte.</p>
+          <p class="vb-intro">Nach <em>Rocky III</em> folgte 1983 die Rolle des Sergeant B.A. Baracus in der Serie <em>Das A-Team</em>, die ihn endgültig zum Star machte &ndash; inklusive eigener Zeichentrickserie und eigenem Frühstücksflocken-Merchandising. 1985 stieg er parallel ins Profi-Wrestling ein und bestritt an der Seite von Hulk Hogan das Hauptevent von WrestleMania I, 2014 wurde er in die WWE Hall of Fame aufgenommen. Der Dreierflügel fragt immer wieder: Wie mache ich aus dem, was mich schützt, ein Bild, das jeder sofort wiedererkennt?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Krankheit als Prüfung: Glaube statt Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1995, auf dem Höhepunkt seines Ruhms, wurde bei Mr. T ein seltenes T-Zell-Lymphom diagnostiziert. Statt sich zurückzuziehen, beschrieb er seinen Glauben als das, was ihn trug, und sprach offen davon, dass sein Vertrauen in Gott „geprüft wie das von Hiob" wurde. Er besucht seither regelmäßig krebskranke Kinder in Krankenhäusern, um ihnen Mut zu machen &ndash; dieselbe Schutzfunktion, mit der seine Karriere einst begann, nun übertragen auf die Verletzlichsten.</p>
+          <p class="vb-intro">Auch politisch-gesellschaftlich blieb dieses Muster erkennbar: Gemeinsam mit Nancy Reagan engagierte er sich für deren „Just Say No"-Anti-Drogen-Kampagne &ndash; Fürsorge, die sich direkt an Kinder und Jugendliche richtete, mit derselben unmissverständlichen Präsenz, mit der er zuvor Prominente beschützt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer existenziell unsicheren Kindheit heraus eine Identität zu bauen, die auf körperlicher Stärke, Verlässlichkeit und einem unverwechselbaren, öffentlichen Bild ruht &ndash; und diese Stärke dann direkt in den Dienst anderer zu stellen, ob als Leibwächter, als Anti-Drogen-Botschafter oder als Besucher kranker Kinder. Mr. T hat aus einer Rolle, die viele nur als Kostüm verstehen, über Jahrzehnte eine konsistente Haltung gemacht.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Stärke und Fürsorge unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Fixierung auf das äußere Bild werden, das erst bewiesen und verteidigt werden muss, bevor Verletzlichkeit gezeigt werden darf. Dass ausgerechnet die Krebsdiagnose 1995 zum Wendepunkt wurde, an dem Mr. T seine Fürsorge öffentlich auch auf die eigene Schwäche ausdehnte, zeigt, wie viel Kraft in dieser Verschiebung liegen kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function iceCubePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60583,6 +60647,7 @@ function iceCubePortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
       ])}
     </div>
   `);
@@ -112462,6 +112527,7 @@ function render() {
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
+      "beruehmte-mr-t": mrTPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,

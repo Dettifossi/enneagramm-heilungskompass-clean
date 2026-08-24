@@ -443,6 +443,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ice Cube – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1969. American rapper, actor, and entrepreneur, N.W.A., BIG3 basketball league. Care that stays within the family – cast his own son to play his younger self in ›Straight Outta Compton‹. Animal correspondence: Hippopotamus.",
     land:"USA", tags:["Musik","Film","Unternehmen"], gender:"m"},
+{ route:"beruehmte-mr-t", name:"Mr. T", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Mr. T – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1952 in Chicago. Actor, wrestler, The A-Team, Rocky III. From bodyguard for Muhammad Ali and Michael Jackson to movie icon – strength in service of protection, down to visiting children with cancer after his own cancer diagnosis. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Schauspiel","Wrestling"], gender:"m"},
 { route:"beruehmte-jack-ma", name:"Jack Ma", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Jack Ma – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1964. Chinese entrepreneur, founder of Alibaba. From free tour guide to English teacher to billionaire – and, after his conflict with Beijing, back to personally supporting teachers. Animal correspondence: Hippopotamus.",
@@ -24938,6 +24942,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function mrTPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mr-t-portrait.jpg" alt="Mr. T – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mr. T</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American actor, wrestler &amp; entertainer, born 1952 in Chicago &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that looks massive and intimidating, yet whose strength serves above all the protection of its own territory and family. Few people embody this dual nature as vividly as Mr. T: a mountain of muscle with a mohawk and pounds of gold, who became known as a reliable protector long before he was a movie star.</p>
+          <p class="vb-intro">The American actor Mr. T, born Laurence Tureaud, was born on May 21, 1952, in Chicago, the second-youngest of twelve children. His father left the family when Laurence was five; his mother raised the children on roughly $87 a month in welfare, in a three-room apartment in the South Side housing projects. His older brothers pushed him to build up his body to survive in the neighborhood &ndash; a very concrete, physical survival instinct, long before it became a career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care as Protection, Not Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care begins with one's own physical foundation and closest circle, before turning outward. In Mr. T, this first showed itself directly and professionally: in the early 1970s he worked as a fitness instructor, club bouncer, and high-paid bodyguard in Chicago, guarding prominent clients such as Muhammad Ali, Steve McQueen, Michael Jackson, and Diana Ross. Here, care meant not words of comfort but literal physical protection, in exchange for pay and standing.</p>
+          <p class="vb-intro">In 1980, he entered NBC's "America's Toughest Bouncer" competition and knocked out a much larger opponent within twenty seconds in the final. Sylvester Stallone took notice and cast him in 1982 as boxer Clubber Lang in <em>Rocky III</em> &ndash; the line "I pity the fool," which Stallone wrote for him almost as a second skin, became his trademark. The leap from paid protector to movie star happened not through training or networking, but through the same physical presence he had used to protect others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Bouncer to Icon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build, out of a protected physical foundation, an unmistakable, public image. His trademark look &ndash; the mohawk and the pounds of neck chains &ndash; originated in entirely practical circumstances as a bouncer: guests who lost or left behind their jewelry at the bar often ended up leaving it with him. What began as an improvised solution became an unmistakable, globally recognized trademark, which he later wore deliberately as a tribute to his mother, who taught him the value of hard work.</p>
+          <p class="vb-intro">After <em>Rocky III</em> came the role of Sergeant B.A. Baracus in the 1983 series <em>The A-Team</em>, which finally made him a star &ndash; complete with his own cartoon show and cereal merchandising. In 1985, he simultaneously entered professional wrestling and, alongside Hulk Hogan, headlined WrestleMania I; in 2014, he was inducted into the WWE Hall of Fame. The Three-wing keeps asking: how do I turn what protects me into an image everyone recognizes instantly?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Illness as a Test: Faith Instead of Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1995, at the height of his fame, Mr. T was diagnosed with a rare T-cell lymphoma. Rather than withdrawing, he described his faith as what carried him through, speaking openly about his trust in God being "tested like Job's." Since then, he regularly visits children with cancer in hospitals to give them courage &ndash; the same protective function his career once began with, now turned toward the most vulnerable.</p>
+          <p class="vb-intro">This pattern remained visible in his social engagement as well: together with Nancy Reagan, he supported her "Just Say No" anti-drug campaign &ndash; care directed straight at children and teenagers, with the same unmistakable presence he had once used to protect celebrities.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to build, out of an existentially insecure childhood, an identity grounded in physical strength, reliability, and an unmistakable public image &ndash; and then to put that strength directly in service of others, whether as a bodyguard, an anti-drug ambassador, or a visitor to sick children. Mr. T turned a role many understand only as a costume into a consistent stance across decades.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own strength and care. In the SP2w3, this pride can fixate on the outward image, which must first be proven and defended before vulnerability can be shown. That the 1995 cancer diagnosis of all things became the turning point at which Mr. T extended his care publicly to his own weakness shows how much strength can lie in that shift.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function iceCubePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -24993,6 +25057,7 @@ function iceCubePortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
       ])}
     </div>
   `);
@@ -77872,6 +77937,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
+      "beruehmte-mr-t": mrTPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
