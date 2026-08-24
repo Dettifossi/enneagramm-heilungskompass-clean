@@ -35921,7 +35921,7 @@ function ichIllusionPage() {
           <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
                           background:var(--paper);list-style:none;user-select:none;font-weight:700;
                           font-size:0.95rem;color:var(--ink);">
-            <span style="font-size:1.2rem;">&#9672;</span>
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
             <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer (9)</span>
             <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
           </summary>
