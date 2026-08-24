@@ -31650,6 +31650,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harnaam Kaur – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1990. Britische Sikh-Aktivistin und Model, PCOS-Botschafterin, erste bärtige Frau auf dem Laufsteg der London Fashion Week. Der eigene Körper als erste Fürsorge, verwandelt in eine international sichtbare Botschaft. Tierentsprechung: Flusspferd.",
     land:"Großbritannien", tags:["Aktivismus","Mode"], gender:"f"},
+{ route:"beruehmte-nusrat-fateh-ali-khan", name:"Nusrat Fateh Ali Khan", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Nusrat Fateh Ali Khan – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · 1948–1997. Pakistanischer Qawwali-Sänger, brachte eine sechshundert Jahre alte Familientradition auf die Weltbühne. Erster Auftritt bei der Totenfeier des eigenen Vaters, später Kollaborationen mit Peter Gabriel, Michael Brook und Eddie Vedder. Tierentsprechung: Flusspferd.",
+    land:"Pakistan", tags:["Musik"], gender:"m"},
 { route:"beruehmte-mr-t", name:"Mr. T", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Mr. T – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1952 in Chicago. Schauspieler, Wrestler, Das A-Team, Rocky III. Vom Leibwächter für Muhammad Ali und Michael Jackson zur Filmikone – Stärke im Dienst des Schutzes, bis hin zum Besuch krebskranker Kinder nach der eigenen Krebsdiagnose. Tierentsprechung: Flusspferd.",
@@ -43463,12 +43467,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Mr. T", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -60554,6 +60558,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function nusratFatehAliKhanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nusrat-fateh-ali-khan-portrait.jpg" alt="Nusrat Fateh Ali Khan – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nusrat Fateh Ali Khan</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Pakistanischer Qawwali-Sänger, 1948&ndash;1997 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das tief in seinem angestammten Gewässer verwurzelt ist und aus dieser Verwurzelung heraus eine Kraft entfaltet, die weit über das eigene Revier hinausreicht. Nusrat Fateh Ali Khan trug ein solches Gewässer buchstäblich in sich: eine Qawwali-Tradition, die in seiner Familie fast sechshundert Jahre lang von Generation zu Generation weitergegeben worden war, bevor er sie an die ganze Welt weitergab.</p>
+          <p class="vb-intro">Der pakistanische Sänger Nusrat Fateh Ali Khan wurde am 13. Oktober 1948 in Lyallpur, dem heutigen Faisalabad, geboren, als fünftes Kind und erster Sohn des renommierten Qawwal-Meisters Fateh Ali Khan. Seine Familie war nach der Teilung Indiens 1947 aus dem ostpunjabischen Jalandhar nach Pakistan geflohen &ndash; ihr wertvollstes Gepäck war das über Generationen verfeinerte Wissen um den Sufi-Gesang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge für das Überleben der Familientradition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Nusrat Fateh Ali Khan zeigte sich das nicht als Fürsorge für einzelne Menschen, sondern für eine ganze, jahrhundertealte Familienlinie: Sein Vater wollte ihn zunächst gar nicht in die Qawwali-Laufbahn führen, da Musikern damals oft ein niedriger sozialer Status anhaftete &ndash; Nusrat begann dennoch früh als Tabla-Spieler in der Gruppe seines Vaters und lernte parallel heimlich den Gesang.</p>
+          <p class="vb-intro">Als sein Vater 1964 starb, war Nusrat noch Schüler. Sein erster öffentlicher Auftritt als Sänger fand vierzig Tage später statt &ndash; bei der Totenfeier für den eigenen Vater, wie es die Tradition vorsah. Die Ausbildung übernahm anschließend sein Onkel Mubarak Ali Khan. Aus einer Situation des Verlusts wurde so unmittelbar der Auftrag, die Familienlinie persönlich am Leben zu erhalten &ndash; die denkbar konkreteste Form selbsterhaltender Fürsorge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Familienerbe zur Weltbühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Nusrat Fateh Ali Khan blieb nicht bei der traditionellen Aufführung in Pakistan stehen: 1985 trat er beim WOMAD-Festival erstmals vor einem überwiegend westlichen Publikum auf &ndash; ein Wendepunkt, der ihn wenig später bei Peter Gabriels Label Real World Records unter Vertrag brachte.</p>
+          <p class="vb-intro">Es folgten eine Zusammenarbeit an Gabriels Album <em>Passion</em> (1989, Soundtrack zu <em>Die letzte Versuchung Christi</em>), die stilprägenden Fusionsalben <em>Mustt Mustt</em> (1990) und das grammy-nominierte <em>Night Song</em> (1996) mit Produzent Michael Brook sowie ein gemeinsamer Song mit Eddie Vedder für den Film <em>Dead Man Walking</em> (1995). Bewunderer wie Jeff Buckley und die Rolling Stones zeigen, wie weit die Reichweite reichte, die der Dreierflügel aus einer sechshundert Jahre alten Familientradition heraus erschloss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer ererbten, existenziellen Verantwortung heraus etwas zu erschaffen, das weit über den ursprünglichen, engen Rahmen hinauswächst, ohne die Wurzeln zu verlieren. Nusrat Fateh Ali Khan verband mit seinem außergewöhnlichen Stimmumfang von über drei Oktaven und seiner Fähigkeit zu minutenlangen, atemlosen Improvisationen die strenge klassische Form mit einer Offenheit für Kollaborationen, wie sie in der traditionellen Qawwali-Welt zuvor undenkbar war.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Einsatz unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Notwendigkeit werden, sich selbst restlos für die übernommene Aufgabe zu verausgaben, statt auf die eigenen Grenzen zu achten. Khans gesundheitliche Probleme in den letzten Lebensjahren, verbunden mit einem Arbeitspensum von hunderten Alben und unzähligen Live-Auftritten, zeigen, wie hoch der körperliche Preis dieser Unentbehrlichkeit sein kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine Stimme, die eine Tradition am Leben hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nusrat Fateh Ali Khans Diskografie umfasst nach unterschiedlichen Zählungen weit über hundert Alben &ndash; ein Ausmaß, das seine eigene, sechshundertjährige Familientradition selbst noch übertraf. Bereits zu Lebzeiten begann er, seinen Neffen Rahat Fateh Ali Khan als Nachfolger auszubilden, um sicherzustellen, dass die Linie auch nach ihm weiterbestehen würde &ndash; dieselbe Fürsorge für die Kontinuität der Familie, mit der seine eigene Karriere einst am Grab seines Vaters begonnen hatte.</p>
+          <p class="vb-intro">Am 16. August 1997 starb Nusrat Fateh Ali Khan in London im Alter von 48 Jahren. Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen &ndash; es trägt sein Revier dorthin, wo es gebraucht wird, und macht es größer, ohne es preiszugeben. Mit heute über einer Milliarde Aufrufen seiner Aufnahmen weltweit ist Khans Stimme längst über die Grenzen der Familie, der Qawwali-Tradition und Pakistans hinausgewachsen &ndash; und bleibt doch untrennbar mit ihrem Ursprung verbunden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function mrTPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60609,6 +60673,7 @@ function mrTPortraitPage() {
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3)"},
       ])}
     </div>
   `);
@@ -112550,6 +112615,7 @@ function render() {
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-mr-t": mrTPortraitPage,
+      "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,

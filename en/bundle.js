@@ -447,6 +447,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mr. T – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1952 in Chicago. Actor, wrestler, The A-Team, Rocky III. From bodyguard for Muhammad Ali and Michael Jackson to movie icon – strength in service of protection, down to visiting children with cancer after his own cancer diagnosis. Animal correspondence: Hippopotamus.",
     land:"USA", tags:["Schauspiel","Wrestling"], gender:"m"},
+{ route:"beruehmte-nusrat-fateh-ali-khan", name:"Nusrat Fateh Ali Khan", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Nusrat Fateh Ali Khan – Self-Preservation Type 2",
+    teaser:"SP2w3 · 1948–1997. Pakistani Qawwali singer who carried a six-hundred-year-old family tradition onto the world stage. First performance at his own father's funeral, later collaborations with Peter Gabriel, Michael Brook, and Eddie Vedder. Animal correspondence: Hippopotamus.",
+    land:"Pakistan", tags:["Musik"], gender:"m"},
 { route:"beruehmte-jack-ma", name:"Jack Ma", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Jack Ma – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1964. Chinese entrepreneur, founder of Alibaba. From free tour guide to English teacher to billionaire – and, after his conflict with Beijing, back to personally supporting teachers. Animal correspondence: Hippopotamus.",
@@ -24964,6 +24968,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function nusratFatehAliKhanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-nusrat-fateh-ali-khan-portrait.jpg" alt="Nusrat Fateh Ali Khan – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nusrat Fateh Ali Khan</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">Pakistani Qawwali singer, 1948&ndash;1997 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature deeply rooted in its ancestral waters, drawing from that very rootedness a strength that reaches far beyond its own territory. Nusrat Fateh Ali Khan carried such waters literally within himself: a Qawwali tradition passed down through his family for nearly six hundred years before he carried it out to the entire world.</p>
+          <p class="vb-intro">The Pakistani singer Nusrat Fateh Ali Khan was born on October 13, 1948, in Lyallpur, now Faisalabad, the fifth child and first son of the renowned Qawwal master Fateh Ali Khan. His family had fled to Pakistan from Jalandhar in East Punjab after the partition of India in 1947 &ndash; their most precious baggage was the knowledge of Sufi devotional singing, refined across generations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care for the Survival of a Family Tradition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete foundation and closest circle, before it turns outward. In Nusrat Fateh Ali Khan, this showed not as care for individual people, but for an entire, centuries-old family lineage: his father initially did not want him to pursue the Qawwali path at all, since musicians at the time often carried a low social status &ndash; yet Nusrat began early as a tabla player in his father's group, secretly learning to sing alongside it.</p>
+          <p class="vb-intro">When his father died in 1964, Nusrat was still a student. His first public performance as a singer took place forty days later &ndash; at his own father's funeral rites, as tradition demanded. His training was then taken over by his uncle, Mubarak Ali Khan. Out of a moment of loss came, almost immediately, the personal charge to keep the family line alive &ndash; the most concrete form of self-preservation-driven care imaginable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Family Legacy to the World Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build visible, publicly effective success out of a secured foundation. Nusrat Fateh Ali Khan did not stop at traditional performance in Pakistan: in 1985 he performed at the WOMAD festival to a predominantly Western audience for the first time &ndash; a turning point that soon led to a contract with Peter Gabriel's label, Real World Records.</p>
+          <p class="vb-intro">What followed was a collaboration on Gabriel's album <em>Passion</em> (1989, the soundtrack to <em>The Last Temptation of Christ</em>), the genre-defining fusion albums <em>Mustt Mustt</em> (1990) and the Grammy-nominated <em>Night Song</em> (1996) with producer Michael Brook, and a joint song with Eddie Vedder for the film <em>Dead Man Walking</em> (1995). Admirers like Jeff Buckley and the Rolling Stones show just how far the reach extended that the Three-wing unlocked out of a six-hundred-year-old family tradition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to build, out of an inherited, existential responsibility, something that grows far beyond its original, narrow frame without losing its roots. Nusrat Fateh Ali Khan combined his extraordinary vocal range of more than three octaves and his ability to sustain minutes-long, breathless improvisations with an openness to collaboration that had previously been unthinkable in the traditional Qawwali world.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and effort. In the SP2w3, this pride can become a constant need to give everything of oneself for the inherited task, rather than heeding one's own limits. Khan's health problems in his final years, combined with a workload of hundreds of albums and countless live performances, show how high the physical price of this indispensability can be.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Voice That Kept a Tradition Alive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">By various counts, Nusrat Fateh Ali Khan's discography spans well over a hundred albums &ndash; a scale that, in a sense, outgrew even his own six-hundred-year family tradition. Already during his lifetime, he began training his nephew Rahat Fateh Ali Khan as his successor, to make sure the line would continue after him &ndash; the same care for family continuity with which his own career had once begun, at his own father's grave.</p>
+          <p class="vb-intro">On August 16, 1997, Nusrat Fateh Ali Khan died in London at the age of 48. The hippopotamus doesn't leave its ancestral waters to please anyone &ndash; it carries its territory to wherever it is needed, making it larger without giving it up. With over a billion views of his recordings worldwide today, Khan's voice has long since grown beyond the boundaries of his family, the Qawwali tradition, and Pakistan itself &ndash; and yet remains inseparably tied to its origin.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function mrTPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25019,6 +25083,7 @@ function mrTPortraitPage() {
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
       ])}
     </div>
   `);
@@ -77960,6 +78025,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-mr-t": mrTPortraitPage,
+      "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
