@@ -31638,6 +31638,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ai Weiwei – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1957. Chinesischer Künstler und Aktivist, Sunflower Seeds, Human Flow, 81 Tage Haft 2011. Das Flusspferd verteidigt sein Revier – öffentlich, unerschrocken, mit dem Blick auf möglichst viele Menschen. Tierentsprechung: Flusspferd.",
     land:"China", tags:["Kunst","Aktivismus"], gender:"m"},
+  { route:"beruehmte-carlos-santana", name:"Carlos Santana", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Carlos Santana – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1947. Mexikanisch-US-amerikanischer Gitarrist, Woodstock 1969, Supernatural-Comeback 1999 (9 Grammys). Vom Vater direkt weitergegebenes Handwerk, verbunden mit dem stetigen Bedürfnis, neu entdeckt zu werden. Tierentsprechung: Flusspferd.",
+    land:"Mexiko/USA", tags:["Musik"], gender:"m"},
   { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1929 in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Seit 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
@@ -43409,7 +43413,7 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
@@ -43419,7 +43423,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
         beschreibung: "Von außen wirkt die Erscheinung warm, rund, zugänglich, manchmal sogar tollpatschig. Wird jedoch das eigene Territorium – im wörtlichen wie im übertragenen Sinn – bedroht, zeigt sich eine Wucht, die niemand für möglich gehalten hätte.",
-        beleg: "Jack Black: ›Es wirkt plump, laut, tollpatschig – und ist zugleich eines der gefährlichsten Tiere Afrikas, sobald sein Territorium bedroht scheint‹; Uli Hoeneß, der den FC Bayern ›als sein Revier begriffen und mit jedem Gramm seines Körpers markiert und verteidigt‹ hat; Oprah Winfrey: ›Wer glaubt, Wärme und Macht schließen sich aus, hat das Flusspferd nicht verstanden‹; Gloria von Thurn und Taxis, bei der ›das Flusspferd aus dem Wasser trat‹, als die Familie vor dem finanziellen Kollaps stand; Greta Thunberg, die im August 2018 allein vor dem schwedischen Reichstag saß und ein ganzes Flussbett blockierte, ohne einen einzigen Schritt zu tun; Wolfgang Amadeus Mozart, der selten in das Bild des überirdisch schwebenden Genies passte, sondern von enormer Direktheit und körperlicher Lebensfreude war; Ángel Reséndez, der buchstäblich nichts besaß und sein Überleben durch die gewaltsame Übernahme fremder Räume sicherte, sobald sein Überlebensterritorium berührt wurde; Rudolf Pleil, der in einer Niemandsland-Region mordete, in der staatliche Ordnung weitgehend zusammengebrochen war."
+        beleg: "Jack Black: ›Es wirkt plump, laut, tollpatschig – und ist zugleich eines der gefährlichsten Tiere Afrikas, sobald sein Territorium bedroht scheint‹; Uli Hoeneß, der den FC Bayern ›als sein Revier begriffen und mit jedem Gramm seines Körpers markiert und verteidigt‹ hat; Oprah Winfrey: ›Wer glaubt, Wärme und Macht schließen sich aus, hat das Flusspferd nicht verstanden‹; Gloria von Thurn und Taxis, bei der ›das Flusspferd aus dem Wasser trat‹, als die Familie vor dem finanziellen Kollaps stand; Greta Thunberg, die im August 2018 allein vor dem schwedischen Reichstag saß und ein ganzes Flussbett blockierte, ohne einen einzigen Schritt zu tun; Wolfgang Amadeus Mozart, der selten in das Bild des überirdisch schwebenden Genies passte, sondern von enormer Direktheit und körperlicher Lebensfreude war; Ángel Reséndez, der buchstäblich nichts besaß und sein Überleben durch die gewaltsame Übernahme fremder Räume sicherte, sobald sein Überlebensterritorium berührt wurde; Rudolf Pleil, der in einer Niemandsland-Region mordete, in der staatliche Ordnung weitgehend zusammengebrochen war; Carlos Santana, den mehrere Plattenfirmen in den 1990ern für zu alt und irrelevant erklärten, bevor er 1999 mit ›Supernatural‹ 25 Millionen verkaufte Exemplare und neun Grammys erreichte – eine Kraft, die niemand mehr für möglich gehalten hätte."
       },
       {
         titel: "Tiefe Verwurzelung im eigenen Terrain statt Flucht – Bleiben als Stärke",
@@ -60259,6 +60263,72 @@ function wolfgangAmadeusMozartPortraitPage() {
   `);
 }
 
+function carlosSantanaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carlos-santana-portrait.jpg" alt="Carlos Santana – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carlos Santana</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Mexikanisch-US-amerikanischer Musiker, geb. 1947 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das gutmütig und gemächlich wirkt, in Wahrheit aber zu den kraftvollsten und ausdauerndsten Tieren seines Lebensraums zählt. Es bleibt seinem angestammten Gewässer treu, taucht dort tief und lange, und kehrt selbst nach den weitesten Ausflügen dorthin zurück, wo seine Wurzeln liegen.</p>
+          <p class="vb-intro">Der mexikanisch-US-amerikanische Gitarrist Carlos Santana, geboren am 20. Juli 1947 in Autlán de Jalisco, Mexiko, erhielt sein musikalisches Handwerk direkt von seinem Vater José, einem Mariachi-Geiger, der ihn bereits im Alter von vier bis fünf Jahren im Geigenspiel unterrichtete. Als die Familie 1955 in die Grenzstadt Tijuana zog, wechselte der achtjährige Carlos zur Gitarre &ndash; angezogen vom aufkommenden Rock’n’Roll. 1960 übersiedelte die Familie nach San Francisco, ein Jahr später folgte der dreizehnjährige Carlos nach. Das musikalische Fundament aber blieb zeitlebens dasselbe: die im Elternhaus direkt weitergegebene, körperlich erlernte Musiktradition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Handwerk als weitergegebene Fürsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge wird nicht abstrakt oder öffentlich geleistet, sondern konkret, direkt, im engsten Kreis &ndash; und beginnt oft mit der Sicherung der eigenen Grundlage, bevor sie sich nach außen richtet. Bei Carlos Santana zeigt sich das bereits am Ursprung seiner Karriere: Sein Vater gab ihm nicht abstraktes Wissen weiter, sondern brachte ihm das Instrument buchstäblich in die Hand &ndash; tägliche, körperliche, sehr persönliche Unterweisung, nicht formaler Musikunterricht in einer Institution.</p>
+          <p class="vb-intro">Dieses Prinzip der direkten, körperlichen Weitergabe zieht sich durch sein gesamtes Werk: Santanas Musik verschmilzt afrokubanische Perkussion, Blues und Rock zu einem unverkennbaren, körperlich-intensiven Gitarrenton, der weniger aus Theorie als aus unmittelbarer, jahrzehntelanger Übung entstand. Für die SE2 ist Meisterschaft kein abstraktes Ziel, sondern etwas, das man sich buchstäblich in die Hände und die Finger einschreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Kunst der Neuerfindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach Wirkung, Sichtbarkeit und Relevanz &ndash; das Bedürfnis, das eigene Können nicht nur zu besitzen, sondern es einem möglichst großen Publikum sichtbar zu machen. 1969 elektrisierte Santana mit seinem Auftritt beim Woodstock-Festival ein Millionenpublikum und wurde über Nacht zum Gesicht des Latin Rock &ndash; ein Moment, der Bild und Karriere für Jahrzehnte prägte.</p>
+          <p class="vb-intro">Noch deutlicher zeigt sich der Dreierflügel in seinem legendären Comeback: In den 1990er-Jahren erklärten mehrere Plattenfirmen Santana für zu alt und nicht mehr relevant, seine Alben verkauften sich kaum noch. Statt sich zurückzuziehen, veröffentlichte er 1999 das Album <em>Supernatural</em> &ndash; eine strategisch angelegte Serie von Kollaborationen mit den damals angesagtesten jungen Künstlerinnen und Künstlern wie Rob Thomas, Lauryn Hill, Wyclef Jean und Everlast. Das Kalkül ging in einem Ausmaß auf, das selbst Optimisten überraschte: 25 Millionen verkaufte Exemplare, neun Grammys, die erneute globale Relevanz eines bereits totgesagten Musikers. Der Dreierflügel fragt nicht nur „Wie spiele ich gut?", sondern auch „Wie erreiche ich damit wieder die ganze Welt?"</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die spirituelle Suche: Hingabe als Identität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 1972 bis 1981 folgte Santana dem Guru Sri Chinmoy und nahm den spirituellen Namen „Devadip" an &ndash; „das Auge, das Licht der Lampe Gottes". In dieser Zeit entstanden Alben wie <em>Love Devotion Surrender</em> (1973, mit John McLaughlin) und <em>Illuminations</em> mit Alice Coltrane, die jazzige, indisch inspirierte Klangwelten mit spiritueller Hingabe verbanden. Erst Anfang der 1980er-Jahre löste er sich von Chinmoy, nachdem er zunehmend problematische, kultartige Züge in der Gemeinschaft wahrnahm.</p>
+          <p class="vb-intro">Für die SE2 ist eine solche Phase typisch: Die Fürsorge, die sonst dem engsten menschlichen Kreis gilt, richtet sich hier auf eine spirituelle Führungsfigur, der man sich mit ganzer Hingabe unterordnet &ndash; ein Muster, das Nähe und Sicherheit über eine besonders bedeutsame Bindung sucht, diesmal jenseits der eigenen Familie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, ein über Jahrzehnte im engsten, persönlichen Kreis erlerntes Handwerk mit einem untrüglichen Gespür für Reichweite zu verbinden &ndash; ohne dass die eine Qualität die andere verdrängt. Santanas Gitarrenton blieb über fünfzig Jahre unverwechselbar, während er sich immer wieder neu positionierte, um relevant zu bleiben.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und das eigene Wirken unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Suche nach neuer, sichtbarer Bestätigung werden: das Bedürfnis, sich immer wieder von neuem zu beweisen, statt sich auf das bereits Erreichte zu verlassen. Das jahrzehntelange kommerzielle Auf und Ab seiner Karriere, bevor <em>Supernatural</em> den Beweis noch einmal in aller Deutlichkeit erbrachte, liest sich als genau diese Kehrseite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Gitarrenton, der bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carlos Santanas Karriere überspannt inzwischen mehr als sechzig Jahre &ndash; vom achtjährigen Jungen mit der ersten Gitarre in Tijuana über die Bühne von Woodstock bis zum kommerziellen Rekordalbum im Alter von 52 Jahren. Was über all diese Wendungen hinweg konstant blieb, ist der körperlich erlernte, im Elternhaus weitergegebene Ton seiner Gitarre.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nie wirklich, auch wenn es weite Strecken zurücklegt: Santanas Musik trägt bis heute die afrokubanischen und mexikanischen Wurzeln, die ihm sein Vater als Kind mitgab &ndash; verstärkt, nicht verwässert, durch jede Neuerfindung, die er unternahm, um gehört zu werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60321,6 +60391,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
         {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Porträt: Carlos Santana (SE2w3)"},
       ])}
     </div>
   `);
@@ -112001,6 +112072,7 @@ function render() {
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
+      "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

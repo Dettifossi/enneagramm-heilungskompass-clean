@@ -427,6 +427,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ai Weiwei – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1957. Chinese artist and activist, Sunflower Seeds, Human Flow, 81 days detained in 2011. The hippopotamus defends its territory – publicly, fearlessly, with an eye on reaching as many people as possible. Animal correspondence: Hippopotamus.",
     land:"China", tags:["Art","Activism"], gender:"m"},
+{ route:"beruehmte-carlos-santana", name:"Carlos Santana", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Carlos Santana – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1947. Mexican-American guitarist, Woodstock 1969, Supernatural comeback 1999 (9 Grammys). Craft passed down directly from his father, combined with a constant need to be rediscovered. Animal correspondence: Hippopotamus.",
+    land:"Mexico/USA", tags:["Musik"], gender:"m"},
 { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1929 in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Voluntarily living in a Tokyo psychiatric hospital since 1977, working daily in her studio. Animal correspondence: Hippopotamus.",
@@ -24724,6 +24728,72 @@ function wolfgangAmadeusMozartPortraitPage() {
   `);
 }
 
+function carlosSantanaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-carlos-santana-portrait.jpg" alt="Carlos Santana – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carlos Santana</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">Mexican-American musician, born 1947 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that seems good-natured and unhurried, but in truth is among the most powerful and enduring animals of its habitat. It stays loyal to its home waters, dives deep and long there, and returns to them even after its farthest excursions, back to where its roots lie.</p>
+          <p class="vb-intro">The Mexican-American guitarist Carlos Santana, born July 20, 1947, in Autlán de Jalisco, Mexico, learned his musical craft directly from his father José, a mariachi violinist, who taught him violin starting at age four or five. When the family moved to the border city of Tijuana in 1955, eight-year-old Carlos switched to guitar, drawn in by the rise of rock 'n' roll. In 1960 the family moved to San Francisco, with thirteen-year-old Carlos following a year later. But his musical foundation stayed the same throughout his life: a musical tradition passed down directly, hands-on, within his own family.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Craft as Inherited Care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care is not given abstractly or publicly, but concretely, directly, within the closest circle &ndash; and often begins with securing one's own foundation before it turns outward. In Carlos Santana this shows at the very origin of his career: his father did not pass on abstract knowledge, but literally put the instrument in his hands &ndash; daily, physical, deeply personal instruction, not formal music lessons at an institution.</p>
+          <p class="vb-intro">This principle of direct, physical transmission runs through his entire body of work: Santana's music fuses Afro-Cuban percussion, blues, and rock into an unmistakable, physically intense guitar tone that grew less out of theory than out of immediate, decades-long practice. For the SP2, mastery is not an abstract goal, but something literally written into one's hands and fingers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Art of Reinvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two a hunger for impact, visibility, and relevance &ndash; the need not only to possess one's own ability, but to make it visible to as large an audience as possible. In 1969, Santana electrified a mass audience with his performance at the Woodstock Festival and became, overnight, the face of Latin rock &ndash; a moment that shaped both his image and his career for decades.</p>
+          <p class="vb-intro">The Three-wing shows even more clearly in his legendary comeback: in the 1990s, several record labels declared Santana too old and no longer relevant, and his albums barely sold. Instead of withdrawing, he released the album <em>Supernatural</em> in 1999 &ndash; a strategically designed series of collaborations with the hottest young artists of the moment, including Rob Thomas, Lauryn Hill, Wyclef Jean, and Everlast. The gamble paid off to a degree that surprised even optimists: 25 million copies sold, nine Grammys, and renewed global relevance for a musician many had already written off. The Three-wing doesn't just ask, "Am I playing well?" but also, "How do I reach the whole world with this again?"</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Spiritual Search: Devotion as Identity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1972 to 1981, Santana followed the guru Sri Chinmoy and took the spiritual name "Devadip" &ndash; "the eye, the light of the lamp of God." During this period he released albums such as <em>Love Devotion Surrender</em> (1973, with John McLaughlin) and <em>Illuminations</em> with Alice Coltrane, blending jazz-infused, Indian-inspired soundscapes with spiritual devotion. Only in the early 1980s did he leave Chinmoy, after increasingly noticing problematic, cult-like traits within the community.</p>
+          <p class="vb-intro">Such a phase is typical for the SP2: the care that otherwise goes to the closest human circle turns here toward a spiritual leader figure, to whom one submits with total devotion &ndash; a pattern seeking closeness and security through one especially significant bond, this time beyond one's own family.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to combine a craft learned over decades within the closest, most personal circle with an unerring sense for reach &ndash; without either quality crowding out the other. Santana's guitar tone stayed unmistakable for over fifty years, even as he repositioned himself again and again to stay relevant.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and one's own work. In the SP2w3, this pride can turn into a constant search for new, visible validation: the need to keep proving oneself over and over, rather than resting on what has already been achieved. The decades-long commercial rise and fall of his career, before <em>Supernatural</em> delivered that proof once more, unmistakably, reads as exactly this other side of the pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Guitar Tone That Endures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carlos Santana's career now spans more than sixty years &ndash; from the eight-year-old boy with his first guitar in Tijuana, to the Woodstock stage, to a record-breaking commercial comeback at age 52. What stayed constant through all these turns is the physically learned, family-transmitted tone of his guitar.</p>
+          <p class="vb-intro">The hippopotamus never truly leaves its home waters, even when it travels great distances: Santana's music still carries the Afro-Cuban and Mexican roots his father gave him as a child &ndash; amplified, not diluted, by every reinvention he undertook in order to be heard.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -24786,6 +24856,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
       ])}
     </div>
   `);
@@ -77411,6 +77482,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
+      "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
