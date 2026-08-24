@@ -32062,6 +32062,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ajeet Kaur – Sozialer Typ 4",
     teaser:"SO4w5 · US-amerikanische Sängerin und Mantra-Künstlerin. Chronische Krankheit seit Kindheit, Musik als Zufluchtsort und Heilungsweg für sich und andere. Tierentsprechung: Gürteltier.",
     land:"USA", tags:["Musik"], gender:"f"},
+{ route:"beruehmte-bill-kaulitz", name:"Bill Kaulitz", added:"2026-08-24", subtyp:"SX4w3",
+    heading:"Bill Kaulitz – Sexueller Typ 4",
+    teaser:"SX4w3 · geb. 1989. Deutscher Musiker, Model und Designer, Frontmann von Tokio Hotel. Verwandelte eine auffällige Stimme und ein auffälliges Aussehen in eine internationale Karriere zwischen Musik, Mode und queerer Sichtbarkeit. Tierentsprechung: Chihuahua.",
+    land:"Deutschland", tags:["Musik","Mode"], gender:"m"},
   { route:"beruehmte-voltaire", name:"Voltaire", added:"2026-08-14", subtyp:"SX4w3",
     heading:"Voltaire – Sexueller Typ 4",
     teaser:"SX4w3 · 1694–1778. Französischer Schriftsteller und Philosoph der Aufklärung. Bastille-Haft, Fall Calas, ›Candide‹, Fehde mit Rousseau. Der Chihuahua mit Dreierflügel: gekränkter Stolz als Antrieb für lebenslangen Kampf gegen Ungerechtigkeit. Tierentsprechung: Chihuahua.",
@@ -43290,12 +43294,12 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Klein von Gestalt, riesig im Innenleben – Intensität, die keine Halbheiten kennt (Naranjo: Konkurrenzneid)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz"],
     fingerabdruecke: [
       {
         titel: "Klein von Gestalt oder Herkunft, riesig im Innenleben – Intensität ohne Halbheiten",
         beschreibung: "Naranjo nannte diesen Subtyp den des ›Konkurrenzneids‹: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt.",
-        beleg: "Freddie Mercury: ›Der Chihuahua, der sich in einen Löwen verwandelt – und dabei nie aufhört, ein Chihuahua zu sein‹; Rihanna, vom ›Kind aus der Karibik zur globalsten Entertainerin ihrer Generation‹: ›Klein, woher er kommt. Unaufhaltsam, wohin er geht‹; Billie Eilish: ›Er zittert nicht aus Schwäche, sondern aus Wachheit: jede Faser seines kleinen Körpers ist auf Intensität ausgerichtet‹; Dante, Debussy und Marquis de Sade werden fast wortgleich beschrieben: ›Klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten‹; Paris Hilton, deren jahrelanger Begleiter, der Chihuahua Tinkerbell, buchstäblich zum Sinnbild ihrer eigenen, unübersehbaren Bühnenintensität wurde."
+        beleg: "Freddie Mercury: ›Der Chihuahua, der sich in einen Löwen verwandelt – und dabei nie aufhört, ein Chihuahua zu sein‹; Rihanna, vom ›Kind aus der Karibik zur globalsten Entertainerin ihrer Generation‹: ›Klein, woher er kommt. Unaufhaltsam, wohin er geht‹; Billie Eilish: ›Er zittert nicht aus Schwäche, sondern aus Wachheit: jede Faser seines kleinen Körpers ist auf Intensität ausgerichtet‹; Dante, Debussy und Marquis de Sade werden fast wortgleich beschrieben: ›Klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten‹; Paris Hilton, deren jahrelanger Begleiter, der Chihuahua Tinkerbell, buchstäblich zum Sinnbild ihrer eigenen, unübersehbaren Bühnenintensität wurde; Bill Kaulitz, dessen ungewöhnlich hohe, durchdringende Stimme ihn schon als Kind von Gleichaltrigen unterschied – ein Merkmal, das er nie zu verstecken versuchte, sondern über zwei Jahrzehnte konsequent in ein unübersehbares öffentliches Erscheinungsbild verwandelte."
       },
       {
         titel: "Zurückweisung oder Verbannung wird zu schöpferischer Kraft, statt in Rache oder Resignation zu münden",
@@ -60570,6 +60574,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function billKaulitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bill-kaulitz-portrait.jpg" alt="Bill Kaulitz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bill Kaulitz</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Musiker, Model &amp; Designer, geb. 1989 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und verhält sich wie die größte. Er fürchtet nichts, bellt, wenn nötig, und zeigt keine Scheu vor dem, was größer ist als er. Kaum jemand hat diesen Kontrast so konsequent zur eigenen Bühnenfigur gemacht wie Bill Kaulitz: schmal, oft in auffälligstem Make-up und schrillster Garderobe, und dabei nie um eine provokante Aussage verlegen.</p>
+          <p class="vb-intro">Der deutsche Musiker Bill Kaulitz wurde am 1. September 1989 in Leipzig geboren, zehn Minuten nach seinem eineiigen Zwillingsbruder Tom. Als die beiden sechs waren, trennten sich die Eltern; mit sieben kam die Scheidung. In Loitsche bei Magdeburg, wo die Familie danach aufwuchs, war der junge Bill mit ungewöhnlichem Aussehen und ungewöhnlicher Stimme alles andere als unauffällig &ndash; ein früher Ausgangspunkt für ein Leben, das nie leise verlaufen sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Sich messen, um gesehen zu werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier in unmittelbare persönliche Intensität. Naranjo nannte diesen Subtyp <em>Rivalität</em> &ndash; die brennende Überzeugung, dass andere haben, was einem selbst verweigert wurde, verbunden mit dem Impuls, sich zu messen, zu übertreffen, aufzufallen. Bill Kaulitz' Stimme war schon als Kind ungewöhnlich hoch und durchdringend &ndash; ein Merkmal, das ihn von Gleichaltrigen unterschied, statt ihn anzugleichen, und das er nie zu verstecken versuchte.</p>
+          <p class="vb-intro">Mit Tokio Hotel und dem Debütalbum <em>Schrei</em> (2005) sowie der Single <em>Durch den Monsun</em>, die es binnen eines Monats auf Platz eins der deutschen Charts schaffte, verwandelte Bill genau diese Andersartigkeit in ein öffentliches Statement statt in ein Versteck. Die SX4 weiß: Halbherzig ist keine Option &ndash; und Bill Kaulitz hat dieses Prinzip über zwei Jahrzehnte konsequent gelebt, von der schwarz-weißen Frontmann-Ästhetik der frühen Bandjahre bis zu den immer wieder neu erfundenen, glitzernden Looks seiner späteren öffentlichen Auftritte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Frontmann zur Mode-Ikone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier die Fähigkeit, das Innere nach außen zu wenden und in Wirkung zu verwandeln, statt in der eigenen Intensität zu versinken. Karl Lagerfeld engagierte Bill Kaulitz bereits vor mehr als zehn Jahren für eine mehrteilige Fotostrecke in der deutschen <em>Vogue</em>, 2010 modelte er für das Label Dsquared2, 2019 gründete er mit „Magdeburg &ndash; Los Angeles" seine eigene Modemarke &ndash; benannt nach genau den beiden Orten, zwischen denen sein Leben sich seither aufspannt.</p>
+          <p class="vb-intro">Auch abseits der Musik zeigt sich dieser Antrieb: 2021 moderierte er die ProSieben-Show <em>Perfect Shot</em>, 2023 gewann er das Finale von Joko Winterscheidts <em>Wer stiehlt mir die Show?</em>. Der Dreierflügel fragt immer wieder: Wie mache ich aus dem, was mich innerlich bewegt, ein Bild, das niemand übersehen kann? Bei Bill Kaulitz ist die Antwort seit über zwanzig Jahren dieselbe &ndash; nur die Bühne wechselt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 ist die Fähigkeit, das eigene Anderssein nicht zu verbergen, sondern es so konsequent auszustellen, dass daraus Identität und Wirkung zugleich entstehen. Bill Kaulitz lebt offen queer und äußert sich in Interviews, im gemeinsamen Podcast mit seinem Bruder und in der Öffentlichkeit unverstellt zu seiner Identität &ndash; eine Sichtbarkeit, die für viele junge queere Fans in Deutschland zur Orientierungsfigur wurde.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas Wesentliches gegeben wurde, das einem selbst fehlt. Bei der SX4w3 kann dieser Neid zum ständigen Bedürfnis werden, sich sichtbar von anderen abzuheben, statt Ruhe in der eigenen Einzigartigkeit zu finden. Kaulitz' immer wieder neu erfundenes Erscheinungsbild &ndash; von der schwarzen Frontmann-Uniform der Anfangsjahre bis zu den glitzernden, oft androgynen Looks späterer Jahre &ndash; zeigt diese rastlose Suche ebenso wie seine kreative Stärke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Intensität als roter Faden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bill Kaulitz' Karriere lässt sich als eine einzige, fortlaufende Übersetzung innerer Intensität in äußere Form lesen: die durchdringende Stimme, die schon als Kind auffiel, wurde zur Frontmann-Präsenz von Tokio Hotel; das provokante Erscheinungsbild wurde zur eigenen Modemarke; die Offenheit zur eigenen Identität wurde zur öffentlichen Stimme für queere Sichtbarkeit. Gemeinsam mit seinem Zwillingsbruder Tom betreibt er seit 2021 den mit dem Deutschen Podcast Award ausgezeichneten Podcast <em>Kaulitz Hills &ndash; Senf aus Hollywood</em> &ndash; dieselbe enge familiäre Bindung, die auch Toms eigenes Porträt prägt, bleibt bis heute die Konstante hinter aller öffentlichen Verwandlung.</p>
+          <p class="vb-intro">Der Chihuahua ist kein Tier der Masse. Er ist ein Tier der Intensität &ndash; klein, laut, unübersehbar, und darunter empfindlich und bindungsintensiv. Bill Kaulitz' Weg vom auffälligen Kind aus Loitsche zur international sichtbaren Mode- und Musikfigur zeigt genau dieses Muster: Wer sich nicht verstecken kann, findet irgendwann heraus, wie man das Auffallen selbst zur Kunst macht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Zwillingsbruder"},
+        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function tomKaulitzPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60626,6 +60690,7 @@ function tomKaulitzPortraitPage() {
         {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Zwillingsbruder"},
       ])}
     </div>
   `);
@@ -112770,6 +112835,7 @@ function render() {
       "beruehmte-marlene-zuk": marleneZukPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
+      "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,

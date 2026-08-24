@@ -843,6 +843,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Voltaire – Sexual Type 4",
     teaser:"SX4w3 · 1694–1778. French Enlightenment writer and philosopher. Bastille imprisonment, the Calas affair, 'Candide', feud with Rousseau. The chihuahua with the Three-wing: wounded pride as the drive behind a lifelong fight against injustice. Animal correspondence: Chihuahua.",
     land:"France", tags:["History","Philosophy"], gender:"m"},
+{ route:"beruehmte-bill-kaulitz", name:"Bill Kaulitz", added:"2026-08-24", subtyp:"SX4w3",
+    heading:"Bill Kaulitz – Sexual Type 4",
+    teaser:"SX4w3 · b. 1989. German musician, model, and designer, frontman of Tokio Hotel. Turned a striking voice and a striking look into an international career spanning music, fashion, and queer visibility. Animal correspondence: Chihuahua.",
+    land:"Deutschland", tags:["Musik","Mode"], gender:"m"},
 { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexual Type 4",
     teaser:"SX4w3 · 1946–1991. Rock singer, songwriter, co-founder of Queen. Bohemian Rhapsody, Live Aid 1985. The chihuahua that knew no fear – and made the stage a home.",
@@ -24980,6 +24984,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function billKaulitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-bill-kaulitz-portrait.jpg" alt="Bill Kaulitz – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bill Kaulitz</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">German musician, model &amp; designer, born 1989 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the smallest dog breed in the world &ndash; and behaves like the largest. It fears nothing, barks when necessary, and shows no hesitation before what is bigger than itself. Few people have made this contrast so consistently their own stage persona as Bill Kaulitz: slight in build, often in the boldest makeup and most striking wardrobe imaginable, and never at a loss for a provocative statement.</p>
+          <p class="vb-intro">The German musician Bill Kaulitz was born on September 1, 1989, in Leipzig, ten minutes after his identical twin brother Tom. When they were six, their parents separated; the divorce followed at seven. In Loitsche, near Magdeburg, where the family grew up afterward, young Bill's unusual look and unusual voice made him anything but inconspicuous &ndash; an early starting point for a life that was never going to be quiet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: Measuring Up to Be Seen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the pain of the Four into immediate personal intensity. Naranjo called this subtype <em>Rivalry</em> &ndash; the burning conviction that others have what has been denied to oneself, combined with the impulse to measure oneself, to outdo, to stand out. Bill Kaulitz's voice was unusually high and piercing even as a child &ndash; a trait that set him apart from his peers rather than blending him in, and one he never tried to hide.</p>
+          <p class="vb-intro">With Tokio Hotel and the debut album <em>Schrei</em> (2005) and its single <em>Durch den Monsun</em>, which reached number one on the German charts within a month, Bill turned exactly this difference into a public statement instead of a hiding place. The SX4 knows: half-hearted is not an option &ndash; and Bill Kaulitz has lived this principle consistently for over two decades, from the stark black-and-white frontman aesthetic of the band's early years to the constantly reinvented, glittering looks of his later public appearances.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Frontman to Fashion Icon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the sexual Four the ability to turn the interior outward and transform it into effect, rather than sinking into its own intensity. Karl Lagerfeld booked Bill Kaulitz for a multi-part photo shoot in German <em>Vogue</em> more than a decade ago; in 2010 he modeled for the label Dsquared2; in 2019 he launched his own fashion brand, "Magdeburg &ndash; Los Angeles" &ndash; named after exactly the two places between which his life has stretched ever since.</p>
+          <p class="vb-intro">This drive shows beyond music as well: in 2021, he hosted the ProSieben show <em>Perfect Shot</em>; in 2023, he won the finale of Joko Winterscheidt's <em>Wer stiehlt mir die Show?</em>. The Three-wing keeps asking: how do I turn what moves me inside into an image no one can overlook? For Bill Kaulitz, the answer has stayed the same for more than twenty years &ndash; only the stage keeps changing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 is the ability not to hide one's own otherness, but to display it so consistently that identity and impact emerge from it at once. Bill Kaulitz lives openly queer and speaks unguardedly about his identity in interviews, on the podcast he shares with his brother, and in public &ndash; a visibility that has made him a point of orientation for many young queer fans in Germany.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the feeling that others were given something essential that one lacks oneself. In the SX4w3, this envy can become a constant need to visibly stand apart from others, rather than finding calm in one's own uniqueness. Kaulitz's ever-reinvented look &ndash; from the black frontman uniform of the early years to the glittering, often androgynous looks of later years &ndash; shows this restless search just as clearly as his creative strength.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: Intensity as the Throughline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bill Kaulitz's career reads as one continuous translation of inner intensity into outer form: the piercing voice that stood out even as a child became the frontman presence of Tokio Hotel; the provocative look became his own fashion label; the openness about his own identity became a public voice for queer visibility. Since 2021, he and his twin brother Tom have co-hosted the German Podcast Award&ndash;winning podcast <em>Kaulitz Hills &ndash; Senf aus Hollywood</em> &ndash; the same close family bond that also defines Tom's own portrait remains, to this day, the constant behind every public transformation.</p>
+          <p class="vb-intro">The Chihuahua is not an animal of the crowd. It is an animal of intensity &ndash; small, loud, impossible to overlook, and underneath, sensitive and intensely attached. Bill Kaulitz's path from a conspicuous child in Loitsche to an internationally visible figure in fashion and music shows exactly this pattern: someone who cannot hide eventually finds out how to turn standing out itself into art.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SP2w3) – twin brother"},
+        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function tomKaulitzPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25036,6 +25100,7 @@ function tomKaulitzPortraitPage() {
         {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – twin brother"},
       ])}
     </div>
   `);
@@ -78019,6 +78084,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-marlene-zuk": marleneZukPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
+      "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
