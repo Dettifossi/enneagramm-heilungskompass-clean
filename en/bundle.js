@@ -1103,6 +1103,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Katja Riemann – Sexual Type 6",
     teaser:"SX6w7 · born 1963 in Bad Kreuznach. Actress and musician, ‘Maybe… Maybe Not’, ‘Nowhere in Africa’, ‘Rosenstrasse’. The wolf who meets every conflict with plain speech and keeps venturing into new artistic territory. Animal correspondence: Wolf.",
     land:"Germany", tags:["Schauspiel","Musik"] , gender:"f"},
+{ route:"beruehmte-uwe-ochsenknecht", name:"Uwe Ochsenknecht", added:"2026-08-24", subtyp:"SX6w7",
+    heading:"Uwe Ochsenknecht – Sexual Type 6",
+    teaser:"SX6w7 · born 1956 in Biblis. Actor and musician, ‘Das Boot’, ‘Männer’. Ran away from home at eleven, over 175 productions across every genre, plus musical theater and his own band. The wolf who shies from neither conflict nor new terrain. Animal correspondence: Wolf.",
+    land:"Germany", tags:["Schauspiel","Musik"], gender:"m"},
 { route:"beruehmte-byron-katie", name:"Byron Katie", added:"2026-08-16", subtyp:"SX6w7",
     heading:"Byron Katie – Sexual Type 6",
     teaser:"SX6w7 · born 1942 in Barstow, California. Author, founder of ‘The Work’. A decade of depression and agoraphobia, then in 1986 the radical turn: facing her own fear head-on with four questions. Animal correspondence: Wolf.",
@@ -25109,6 +25113,7 @@ function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
       ])}
     </div>
   `);
@@ -28549,6 +28554,60 @@ function byronKatiePortraitPage() {
   `);
 }
 
+function uweOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-uwe-ochsenknecht-portrait.jpg" alt="Uwe Ochsenknecht – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Uwe Ochsenknecht</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German actor &amp; musician, born 1956 in Biblis &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Type 6 &ndash; an animal that does not avoid threat, but meets it head-on. Uwe Ochsenknecht showed this pattern in unmistakable form as early as age eleven: he ran away from home and spent a year in Spain &ndash; not a flight from fear, but a leap straight into uncertainty that he later described as decisive for his development.</p>
+          <p class="vb-intro">The German actor Uwe Adam Ochsenknecht, born in 1956 in Biblis in southern Hesse, grew up in Mannheim, attended the Ludwig-Frank-Gymnasium, and began his stage career as an extra at the Nationaltheater. After training at the Westphalian Drama School in Bochum (1974&ndash;1977), engagements in Wuppertal, Munich, and Hamburg followed &ndash; a career path that was restless from the very start rather than straightforward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Plain Speech Over Retreat (Countertype)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Six (SX6)</strong> is the countertype of the Six: it does not show fear through withdrawal, but meets it with strength, directness, and confrontation. Naranjo called this subtype <em>Strength</em> &ndash; the counterphobic Six that walks toward the threat instead of avoiding it.</p>
+          <p class="vb-intro">This readiness for confrontation runs through Ochsenknecht's personal life: his nearly two-decade marriage to Natascha Ochsenknecht &ndash; entered in 1993, separated in 2009, divorced in 2012 &ndash; did not end in quiet distance but in publicly fought-out sharpness. His relationship with daughter Cheyenne, too, has for years been marked by open, publicly voiced grievances on both sides. For the sexual Six, conflict is not something to be smoothed over &ndash; it is faced directly, even at high personal cost.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Restless Versatility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Six a quality an SX6 with a weaker Seven wing would not have: an appetite for the new, a pull toward ever-different terrain instead of settling into one proven role. Ochsenknecht's filmography spans more than 175 film and television productions across nearly every genre.</p>
+          <p class="vb-intro">His first major breakthrough came in 1981 as boatswain Lamprecht in Wolfgang Petersen's cult film <em>Das Boot</em>; real international success followed in 1985 with the lead role in Doris Dörrie's comedy <em>Männer</em>, for which he received the German Film Award in Gold. But Ochsenknecht did not stay with comedy: from the early 1990s he also stood on stage as a musician, as singer of the band "The Screen" with several released albums, and in 2010 with <em>Hairspray</em> and 2012 with Peter Maffay's <em>Tabaluga</em> he additionally moved into musical theater &ndash; each new field entered with the same appetite that first sent him to Spain at eleven.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 is the ability to keep reinventing oneself across decades &ndash; from serious war drama to broad comedy, from film to music to musical theater &ndash; without ever settling permanently into a single, safe niche. Ochsenknecht has held his place in German entertainment for over four decades through exactly this restless versatility.</p>
+          <p class="vb-intro">The shadow of the SX6 shows in its uncompromising nature: what begins as honest directness can, in the closest relationships, tip into open, public conflict that leaves little room for reconciliation. The ongoing estrangement from daughter Cheyenne and the sharp public reckoning with the failed marriage to Natascha show how high the price of this intensity can be within one's own family.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – son"},
+        {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function katjaRiemannPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -28603,6 +28662,7 @@ function katjaRiemannPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3) – co-star in ‘Der bewegte Mann’"},
         {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7)"},
       ])}
     </div>
   `);
@@ -77626,6 +77686,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jennifer-aniston": jenniferAnistonPortraitPage,
       "beruehmte-byron-katie": byronKatiePortraitPage,
       "beruehmte-katja-riemann": katjaRiemannPortraitPage,
+      "beruehmte-uwe-ochsenknecht": uweOchsenknechtPortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,

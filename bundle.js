@@ -32342,6 +32342,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Katja Riemann – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1963 in Bad Kreuznach. Schauspielerin und Musikerin, ›Der bewegte Mann‹, ›Nirgendwo in Afrika‹, ›Rosenstraße‹. Der Wolf, der jedem Konflikt mit Klartext begegnet und sich in immer neue künstlerische Terrains wagt. Tierentsprechung: Wolf.",
     land:"Deutschland", tags:["Schauspiel","Musik"], gender:"f"},
+  { route:"beruehmte-uwe-ochsenknecht", name:"Uwe Ochsenknecht", added:"2026-08-24", subtyp:"SX6w7",
+    heading:"Uwe Ochsenknecht – Sexueller Typ 6",
+    teaser:"SX6w7 · geb. 1956 in Biblis. Schauspieler und Musiker, Das Boot, Männer. Riss mit elf Jahren von zu Hause aus, über 175 Produktionen quer durch alle Genres, dazu Musical und eigene Band. Der Wolf, der sich weder vor Konflikt noch vor Neuland scheut. Tierentsprechung: Wolf.",
+    land:"Deutschland", tags:["Schauspiel","Musik"], gender:"m"},
   { route:"beruehmte-byron-katie", name:"Byron Katie", added:"2026-08-16", subtyp:"SX6w7",
     heading:"Byron Katie – Sexueller Typ 6",
     teaser:"SX6w7 · geb. 1942 in Barstow, Kalifornien. Autorin, Begründerin von ›The Work‹. Ein Jahrzehnt Depression und Agoraphobie, dann 1986 die radikale Umkehr: der eigenen Angst mit vier Fragen direkt ins Gesicht sehen. Tierentsprechung: Wolf.",
@@ -43082,7 +43086,7 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
-    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller"],
+    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht"],
     fingerabdruecke: [
       {
         titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
@@ -43092,7 +43096,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Direkter Blickkontakt und Klartext statt Rückzug oder Diplomatie",
         beschreibung: "Konflikten wird nicht ausgewichen, sondern sie werden gesucht und offen ausgetragen – mit einer Direktheit, die viele überrascht oder verunsichert, aber selten unehrlich ist.",
-        beleg: "Katja Riemann: ›Der Wolf weicht der Bedrohung nicht aus, sondern sieht sie direkt an … Klartext statt Diplomatie‹; Byron Katie: ›Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug‹ – ihre Methode ›The Work‹ als Prinzip, der eigenen Angst nicht auszuweichen; Alice Schwarzer: ›Sie hat Debatten angestoßen, die niemand führen wollte … Der Wolf, der nicht aufhört zu heulen‹; Dr. L. David Mech, der seine eigene, weltberühmt gewordene These vom ›Alpha-Wolf‹ öffentlich widerrief, sobald neue Fakten sie widerlegten – Klartext auch gegen die eigene Autorität, statt an einer bequemen, überholten Sicherheit festzuhalten; Platon, der nach dem tödlichen Verrat an seinem Lehrer Sokrates nicht resignierte, sondern zweimal nach Sizilien zurückkehrte, um sein politisches Ideal in die Praxis umzusetzen, obwohl er beim ersten Versuch selbst in die Sklaverei verkauft worden war."
+        beleg: "Katja Riemann: ›Der Wolf weicht der Bedrohung nicht aus, sondern sieht sie direkt an … Klartext statt Diplomatie‹; Byron Katie: ›Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug‹ – ihre Methode ›The Work‹ als Prinzip, der eigenen Angst nicht auszuweichen; Alice Schwarzer: ›Sie hat Debatten angestoßen, die niemand führen wollte … Der Wolf, der nicht aufhört zu heulen‹; Dr. L. David Mech, der seine eigene, weltberühmt gewordene These vom ›Alpha-Wolf‹ öffentlich widerrief, sobald neue Fakten sie widerlegten – Klartext auch gegen die eigene Autorität, statt an einer bequemen, überholten Sicherheit festzuhalten; Platon, der nach dem tödlichen Verrat an seinem Lehrer Sokrates nicht resignierte, sondern zweimal nach Sizilien zurückkehrte, um sein politisches Ideal in die Praxis umzusetzen, obwohl er beim ersten Versuch selbst in die Sklaverei verkauft worden war; Uwe Ochsenknecht, dessen Scheidung von Natascha Ochsenknecht und dessen anhaltende Entfremdung von Tochter Cheyenne öffentlich in aller Schärfe ausgetragen wurden statt in stiller Distanz zu enden – Klartext auch dort, wo Diplomatie näherliegend gewesen wäre."
       },
       {
         titel: "Kraft aus dem Rudel statt aus Einzelgängertum",
@@ -47248,6 +47252,60 @@ function byronKatiePortraitPage() {
   `);
 }
 
+function uweOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-uwe-ochsenknecht-portrait.jpg" alt="Uwe Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Uwe Ochsenknecht</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schauspieler &amp; Musiker, geb. 1956 in Biblis &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das der Bedrohung nicht ausweicht, sondern sich ihr direkt entgegenstellt. Statt Sicherheit im Vertrauten zu suchen, sucht er sie in der Konfrontation selbst. Bereits als Elfjähriger zeigte Uwe Ochsenknecht dieses Muster in aller Deutlichkeit: Er riss von zu Hause aus und verbrachte ein Jahr in Spanien &ndash; keine Flucht aus Angst, sondern ein Sprung mitten hinein in die Unsicherheit, der ihn nach eigener Aussage entscheidend prägte.</p>
+          <p class="vb-intro">Der deutsche Schauspieler Uwe Adam Ochsenknecht, geboren 1956 in Biblis in Südhessen, wuchs in Mannheim auf, besuchte das Ludwig-Frank-Gymnasium und begann seine Bühnenlaufbahn zunächst als Komparse am Nationaltheater. Nach seiner Ausbildung an der Westfälischen Schauspielschule Bochum (1974&ndash;1977) folgten Engagements in Wuppertal, München und Hamburg &ndash; ein Werdegang, der von Anfang an eher rastlos als geradlinig verlief.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Klartext statt Rückzug (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie begegnet der eigenen Angst nicht mit Vorsicht und Rückzug, sondern mit Stärke, Direktheit und einer Präsenz, die Konflikte nicht scheut. Naranjo nannte diesen Subtyp <em>Strength</em>. Statt sich Konflikten zu entziehen, sucht die SX6 sie geradezu &ndash; weil Klarheit ihr mehr Sicherheit gibt als diplomatisches Schweigen.</p>
+          <p class="vb-intro">Diese Konfrontationsbereitschaft zieht sich durch Ochsenknechts persönliches Leben: Seine fast zwei Jahrzehnte währende Ehe mit Natascha Ochsenknecht &ndash; geschlossen 1993, getrennt 2009, geschieden 2012 &ndash; endete nicht in stiller Distanz, sondern in öffentlich ausgetragener Schärfe. Auch das Verhältnis zu Tochter Cheyenne ist über Jahre von offenen, öffentlich ausgesprochenen Vorwürfen geprägt, statt von vorsichtigem Schweigen. Für die SX6 ist genau das typisch: Nähe wird mit hoher Intensität gelebt &ndash; und wenn sie zerbricht, dann ebenso intensiv und unverblümt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Rastlose Vielseitigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Qualität, die bei schwächer ausgeprägtem Siebenerflügel fehlen würde: Appetit auf das Neue, die Lust, sich immer wieder in unbekanntes künstlerisches Terrain zu wagen, statt sich in einer bewährten Rolle einzurichten. Ochsenknechts Filmografie umfasst über 175 Film- und Fernsehproduktionen quer durch alle Genres &ndash; vom Kriminalfilm über die Komödie bis zum ernsten Drama.</p>
+          <p class="vb-intro">Seinen ersten großen Durchbruch feierte er 1981 als Bootsmann Lamprecht in Wolfgang Petersens Kultfilm <em>Das Boot</em>, den eigentlichen internationalen Erfolg brachte ihm 1985 die Hauptrolle in Doris Dörries Komödie <em>Männer</em>, für die er mit dem Bundesfilmpreis in Gold ausgezeichnet wurde. Doch Ochsenknecht blieb nicht bei der Komödie: Er stand ab den frühen 1990er-Jahren auch als Musiker auf der Bühne, als Sänger der Band „The Screen" mit mehreren veröffentlichten Alben, und wechselte 2010 mit <em>Hairspray</em> und 2012 mit Peter Maffays <em>Tabaluga</em> zusätzlich ins Musical-Fach. Der Siebenerflügel lässt ihn nie lange auf demselben Terrain verweilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist die Fähigkeit, sich über Jahrzehnte hinweg immer wieder neu zu erfinden, ohne sich vor dem Risiko des Scheiterns in einem fremden Metier zu scheuen &ndash; vom Filmschauspieler zum Musical-Darsteller, vom Kinostar zum Bandsänger. Diese Wandlungsfähigkeit trug maßgeblich dazu bei, dass Ochsenknecht über mehr als vier Jahrzehnte hinweg im deutschen Showgeschäft präsent blieb.</p>
+          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der Kompromisslosigkeit, mit der Nähe und Konflikt gleichermaßen intensiv gelebt werden: Was als Direktheit und Klarheit beginnt, kann in engen persönlichen Beziehungen auch in offene, öffentlich ausgetragene Brüche münden, die sich nur schwer wieder kitten lassen. Die anhaltende Entfremdung von Tochter Cheyenne und die schroffe öffentliche Aufarbeitung der gescheiterten Ehe mit Natascha zeigen, wie hoch der Preis dieser Intensität im engsten Kreis sein kann &ndash; der Wolf, der sich nie zurückzieht, verliert manchmal genau dort an Boden, wo eine leisere Annäherung mehr bewirkt hätte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function katjaRiemannPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -47302,6 +47360,7 @@ function katjaRiemannPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3) – Partner in ›Der bewegte Mann‹"},
         {route:"beruehmte-byron-katie", label:"Porträt: Byron Katie (SX6w7)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7)"},
       ])}
     </div>
   `);
@@ -60717,6 +60776,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-ice-cube", label:"Porträt: Ice Cube (SE2w3)"},
         {route:"beruehmte-jack-ma", label:"Porträt: Jack Ma (SE2w3)"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Porträt: Jimi Blue Ochsenknecht (SE2w3)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7) – Vater"},
       ])}
     </div>
   `);
@@ -112383,6 +112443,7 @@ function render() {
       "beruehmte-jennifer-aniston": jenniferAnistonPortraitPage,
       "beruehmte-byron-katie": byronKatiePortraitPage,
       "beruehmte-katja-riemann": katjaRiemannPortraitPage,
+      "beruehmte-uwe-ochsenknecht": uweOchsenknechtPortraitPage,
       "beruehmte-scarlett-johansson": scarlettJohanssonPortraitPage,
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
