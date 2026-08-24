@@ -31654,6 +31654,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ice Cube – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1969. US-amerikanischer Rapper, Schauspieler und Unternehmer, N.W.A., BIG3-Basketballliga. Fürsorge, die in der Familie bleibt – besetzte seinen eigenen Sohn mit der Rolle seines jüngeren Ichs in ›Straight Outta Compton‹. Tierentsprechung: Flusspferd.",
     land:"USA", tags:["Musik","Film","Unternehmen"], gender:"m"},
+  { route:"beruehmte-jack-ma", name:"Jack Ma", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Jack Ma – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1964. Chinesischer Unternehmer, Gründer von Alibaba. Vom kostenlosen Fremdenführer über den Englischlehrer zum Milliardär – und nach dem Konflikt mit Peking zurück zur persönlichen Lehrerförderung. Tierentsprechung: Flusspferd.",
+    land:"China", tags:["Wirtschaft","Unternehmen"], gender:"m"},
   { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1929 in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Seit 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
@@ -43425,12 +43429,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -60521,6 +60525,66 @@ function iceCubePortraitPage() {
   `);
 }
 
+function jackMaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jack-ma-portrait.jpg" alt="Jack Ma – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jack Ma</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Chinesischer Unternehmer, geb. 1964 &ndash; Gründer von Alibaba &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sich seine Sicherheit hartnäckig und geduldig erarbeitet, Tag für Tag, oft unbemerkt von der Öffentlichkeit, bevor es überhaupt sichtbar wird. Es investiert seine Energie zuerst in die eigene Grundlage, bevor daraus etwas Größeres wachsen kann.</p>
+          <p class="vb-intro">Der chinesische Unternehmer Jack Ma, geboren am 10. September 1964 in Hangzhou als Ma Yun, wuchs in einfachen Verhältnissen auf &ndash; sein Vater Ma Laifa widmete sich traditioneller Musik und Fotografie, seine Mutter Cui Wencai arbeitete in einer Fabrik. Als Teenager radelte er neun Jahre lang täglich 27 Kilometer zum Hangzhou International Hotel, um dort ausländischen Touristen kostenlos die Stadt zu zeigen &ndash; einzig um Englisch zu üben. Einer dieser Touristen, dem er brieflich verbunden blieb, gab ihm den Namen „Jack", weil er seinen chinesischen Namen nur schwer aussprechen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Vom Lehrer zum Mentor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge zeigt sich zuerst konkret, direkt, im persönlichen Kontakt &ndash; nicht als abstrakte Geste an ein anonymes Publikum. Jack Ma fiel zweimal durch die Aufnahmeprüfung der Hangzhou Teachers College, bevor er 1984 im dritten Anlauf angenommen wurde und 1988 seinen Abschluss in Englisch machte. Von 1988 bis 1993 unterrichtete er selbst Englisch am Hangzhou Institute of Electronics and Engineering &ndash; für umgerechnet rund zwölf US-Dollar im Monat.</p>
+          <p class="vb-intro">Auf die Frage, warum ausgerechnet Harvard ihn zehnmal ablehnte, antwortete er später lachend, er habe sich vorgenommen, „dort eines Tages vielleicht selbst zu unterrichten". Diese Selbstverortung als Lehrer blieb sein Leben lang zentral: Nach seinem Rückzug aus der aktiven Führung von Alibaba und Ant Group widmete er sich verstärkt seiner eigenen Stiftung, die gezielt Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert &ndash; persönlich, direkt, mit demselben konkreten Engagement, mit dem er einst selbst unterrichtete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Apartment zum globalen Handelsimperium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten, persönlich erarbeiteten Basis heraus etwas sichtbar Großes, öffentlichkeitswirksam Erfolgreiches zu bauen. 1999 gründete Jack Ma gemeinsam mit achtzehn Mitstreitern in seiner eigenen Wohnung in Hangzhou das E-Commerce-Unternehmen Alibaba &ndash; aus dieser bescheidenen Keimzelle wuchs binnen zwei Jahrzehnten einer der größten Konzerne der Welt.</p>
+          <p class="vb-intro">Bezeichnend für den Weg dorthin ist eine lange Kette öffentlicher Ablehnungen, die Jack Ma selbst immer wieder erzählte: Bei KFC bewarben sich vierundzwanzig Kandidaten, dreiundzwanzig wurden eingestellt &ndash; nur er nicht. Harvard lehnte ihn zehnmal ab. Statt sich davon entmutigen zu lassen, machte der Dreierflügel aus jeder Zurückweisung eine öffentlich erzählte Geschichte von Beharrlichkeit &ndash; eine Erzählung, die zu einem zentralen Teil seines globalen Images als Unternehmer wurde, der aus dem Nichts kam.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einfachsten Verhältnissen heraus, mit jahrelanger, geduldiger, sehr persönlicher Vorbereitung eine tragfähige Grundlage zu schaffen &ndash; und daraus etwas aufzubauen, das am Ende Millionen Menschen Chancen eröffnet. Alibaba schuf eine Handelsinfrastruktur, von der Kleinunternehmer in ganz China bis heute profitieren.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Leistung und Sichtbarkeit unentbehrlich und unangreifbar zu sein. Bei der SE2w3 kann dieser Stolz gefährlich werden, wenn er die eigene Position übersteigt: Im Oktober 2020 kritisierte Jack Ma öffentlich die chinesische Finanzregulierung als „Pfandhaus-Mentalität" &ndash; wenige Tage später stoppten die Behörden den geplanten Börsengang seiner Ant Group, mit 37 Milliarden US-Dollar der größte der Geschichte. Innerhalb weniger Jahre verlor Ma die Kontrolle über das Unternehmen fast vollständig und zog sich weitgehend aus der Öffentlichkeit zurück &ndash; eine schmerzhafte Erinnerung daran, dass selbst das mächtigste Flusspferd sein Revier verlieren kann, wenn es die Grenzen der eigenen Macht überschätzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Rückkehr zur ursprünglichen Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Konflikt mit den Behörden reduzierte Jack Ma seinen Anteil an Ant Group auf 6,2 Prozent und bestritt öffentlich, zum Rücktritt gezwungen worden zu sein &ndash; er wolle sich stattdessen verstärkt seiner philanthropischen Arbeit widmen. In einem von chinesischen Staatsmedien verbreiteten Video sprach er zu hundert Lehrerinnen und Lehrern aus ländlichen Gebieten und kündigte an, sich künftig verstärkt Bildung und sozialem Engagement zu widmen.</p>
+          <p class="vb-intro">Das Flusspferd zieht sich, wenn sein Revier bedroht wird, nicht endgültig zurück &ndash; es sucht neuen, ruhigeren Grund, auf dem es wieder Fuß fassen kann. Jack Mas Weg vom kostenlosen Fremdenführer über den unterbezahlten Englischlehrer und den Milliardär bis zurück zur Lehrerförderung zeigt, wie beständig die ursprüngliche SE2-Fürsorge bleibt, selbst wenn das öffentliche Bild um sie herum sich radikal verändert.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60587,6 +60651,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3)"},
         {route:"beruehmte-harnaam-kaur", label:"Porträt: Harnaam Kaur (SE2w3)"},
         {route:"beruehmte-ice-cube", label:"Porträt: Ice Cube (SE2w3)"},
+        {route:"beruehmte-jack-ma", label:"Porträt: Jack Ma (SE2w3)"},
       ])}
     </div>
   `);
@@ -112271,6 +112336,7 @@ function render() {
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
+      "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

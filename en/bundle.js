@@ -443,6 +443,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ice Cube – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1969. American rapper, actor, and entrepreneur, N.W.A., BIG3 basketball league. Care that stays within the family – cast his own son to play his younger self in ›Straight Outta Compton‹. Animal correspondence: Hippopotamus.",
     land:"USA", tags:["Musik","Film","Unternehmen"], gender:"m"},
+{ route:"beruehmte-jack-ma", name:"Jack Ma", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Jack Ma – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1964. Chinese entrepreneur, founder of Alibaba. From free tour guide to English teacher to billionaire – and, after his conflict with Beijing, back to personally supporting teachers. Animal correspondence: Hippopotamus.",
+    land:"China", tags:["Wirtschaft","Unternehmen"], gender:"m"},
 { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1929 in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Voluntarily living in a Tokyo psychiatric hospital since 1977, working daily in her studio. Animal correspondence: Hippopotamus.",
@@ -24986,6 +24990,66 @@ function iceCubePortraitPage() {
   `);
 }
 
+function jackMaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jack-ma-portrait.jpg" alt="Jack Ma – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jack Ma</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">Chinese entrepreneur, born 1964 &ndash; founder of Alibaba &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that patiently and stubbornly earns its own security, day after day, often unnoticed by the public, long before it ever becomes visible. It invests its energy first in its own foundation, before anything larger can grow from it.</p>
+          <p class="vb-intro">The Chinese entrepreneur Jack Ma, born Ma Yun on September 10, 1964, in Hangzhou, grew up in modest circumstances &ndash; his father Ma Laifa devoted himself to traditional music and photography, his mother Cui Wencai worked in a factory. As a teenager, he cycled 27 kilometers every day for nine years to the Hangzhou International Hotel to give foreign tourists free tours of the city &ndash; solely to practice English. One of these tourists, with whom he stayed in touch by letter, gave him the name "Jack" because he found his Chinese name hard to pronounce.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: From Teacher to Mentor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care shows up first concretely, directly, in personal contact &ndash; not as an abstract gesture toward an anonymous audience. Jack Ma failed the entrance exam for Hangzhou Teachers College twice before being admitted on his third attempt in 1984 and graduating with an English degree in 1988. From 1988 to 1993, he himself taught English at the Hangzhou Institute of Electronics and Engineering &ndash; for the equivalent of about twelve US dollars a month.</p>
+          <p class="vb-intro">Asked why Harvard rejected him ten times, he later laughed and answered that he'd decided he should "go teach there someday." This self-identification as a teacher remained central throughout his life: after stepping back from active leadership of Alibaba and Ant Group, he devoted himself increasingly to his own foundation, which specifically supports teachers in rural regions of China &ndash; personally, directly, with the same concrete commitment he once brought to teaching himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From an Apartment to a Global Trading Empire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build something visibly big and publicly successful out of a secured, personally earned foundation. In 1999, Jack Ma co-founded the e-commerce company Alibaba together with eighteen partners in his own apartment in Hangzhou &ndash; from this modest starting point, one of the world's largest corporations grew within two decades.</p>
+          <p class="vb-intro">Telling for the path there is a long chain of public rejections that Jack Ma himself repeatedly told: at KFC, twenty-four candidates applied, twenty-three were hired &ndash; not him. Harvard rejected him ten times. Rather than being discouraged, the Three-wing turned every rejection into a publicly told story of persistence &ndash; a narrative that became a central part of his global image as an entrepreneur who came from nothing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to build, out of the simplest circumstances, through years of patient, very personal preparation, a foundation solid enough to grow into something that ultimately opens up opportunities for millions of people. Alibaba created a trading infrastructure that small businesses across China still benefit from today.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable and untouchable through one's own achievement and visibility. In the SP2w3, this pride can turn dangerous when it exceeds one's actual position: in October 2020, Jack Ma publicly criticized China's financial regulation as a "pawnshop mentality" &ndash; within days, authorities halted the planned IPO of his Ant Group, which at $37 billion would have been the largest in history. Within a few years, Ma lost nearly all control of the company and largely withdrew from public life &ndash; a painful reminder that even the most powerful hippopotamus can lose its territory if it overestimates the limits of its own power.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: Return to His Original Role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the conflict with authorities, Jack Ma reduced his stake in Ant Group to 6.2 percent and publicly denied being forced to resign &ndash; he said he wanted to focus instead on his philanthropic work. In a video distributed by Chinese state media, he spoke to a hundred teachers from rural areas and announced he would devote himself more to education and social welfare going forward.</p>
+          <p class="vb-intro">When its territory is threatened, the hippopotamus doesn't withdraw for good &ndash; it seeks new, calmer ground on which to stand again. Jack Ma's path from free tour guide, to underpaid English teacher, to billionaire, and back to supporting teachers shows how steady the original SP2 care remains, even as the public image around it changes radically.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25052,6 +25116,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SP2w3)"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
+        {route:"beruehmte-jack-ma", label:"Portrait: Jack Ma (SP2w3)"},
       ])}
     </div>
   `);
@@ -77681,6 +77746,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
+      "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
