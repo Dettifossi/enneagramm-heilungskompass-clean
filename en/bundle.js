@@ -463,6 +463,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marisa Abela – Social Type 2",
     teaser:"SO2w1 · born 1996. Actress, Industry, Back to Black. Ensemble feeling and preparation discipline – the Golden Retriever that earns connection through care. Animal correspondence: Golden Retriever.",
     land:"United Kingdom", tags:["Schauspiel"] , gender:"f"},
+{ route:"beruehmte-hannah-emde", name:"Hannah Emde", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Hannah Emde – Social Type 2",
+    teaser:"SO2w1 · born 1992. Veterinarian, wildlife conservationist, host of Terra X: Faszination Erde. Founded the nonprofit Nepada Wildlife e.V. at 25 – care that reaches a mass audience beyond the examination table. Animal correspondence: Golden Retriever.",
+    land:"Germany", tags:["Wissenschaft","TV"], gender:"f"},
 { route:"beruehmte-nina-chuba", name:"Nina Chuba", subtyp:"SO2w3",
     heading:"Nina Chuba – Social Type 2",
     teaser:"SO2w3 · born 2000. Singer, songwriter. With Wildberry Lillet she captured a feeling millions recognize. Closeness instead of performance – music as a space where no one is alone. Animal correspondence: Golden Retriever.",
@@ -35517,6 +35521,74 @@ function winifredCharlesworthPortraitPage() {
         ])}
         ${animalResearcherMatchBlock("beruehmte-winifred-charlesworth")}
       </div>
+    </div>
+  `);
+}
+
+function hannahEmdePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hannah-emde-portrait.jpg" alt="Hannah Emde" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hannah Emde</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Veterinarian, Wildlife Conservationist &amp; TV Host, b. 1992 – Terra X: Faszination Erde – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two, a creature that does not treat connection as a task but as its very nature. Friendly, engaged, with a warmth that leaves no one out. The Golden Retriever does not push itself forward, but it is there the moment it's needed – and when things get serious, remarkable stamina and readiness show up behind the warmth.</p>
+          <p class="vb-intro">The German veterinarian and TV host Hannah Emde, born in 1992 in Bonn, embodies exactly this image: after finishing school, she spent twelve months in the Philippines through the volunteer program weltwärts, then studied veterinary medicine at the University of Veterinary Medicine Hannover, graduating as a licensed veterinarian in 2019. Anyone following her path sees not a straightforward TV career, but a biography that placed itself, step by step, in service of something larger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care That Wants to Reach the Many</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs the Two's energy not toward individual, personal bonds, but toward the larger field: community, the public, societal impact. Naranjo called this subtype <em>Ambition</em> – not ambition for its own sake, but the drive to make a difference for as many people as possible. The SO2 doesn't only ask, <em>How can I help this one person?</em> but rather, <em>How can I become indispensable to the bigger picture?</em></p>
+          <p class="vb-intro">In Hannah Emde, this shows up as a remarkable doubling of her commitment: in 2017, at just 25, she founded the nonprofit organization <em>Nepada Wildlife e.V.</em>, which promotes species conservation through environmental education, veterinary work, research, and public outreach – before her studies were even finished. From 2021 to 2023, she additionally worked as a veterinarian and consultant for the German Society for International Cooperation (GIZ) on a One Health initiative, helping build the international alliance against health risks in the wildlife trade.</p>
+          <p class="vb-intro">Since April 2024, she has hosted the ZDF series <em>Terra X: Faszination Erde</em>, reaching a mass audience – the logical continuation of the same movement: what began as personal commitment within a single nonprofit becomes a stage on which species conservation is brought to a broad public. Already in 2022, her six-part documentary series aired in the ARD Mediathek, in which she met people in Namibia working for wildlife conservation – here too, she herself was never the focus, but the stories of those making a difference on the ground.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Professional Rigor Instead of Mere Likability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the social Two an inner axis that isn't automatically there with a weaker One-wing: the standard of getting it professionally right, not just coming across as likable. Where an SO2 with a weaker One-wing might rely more on charisma and popularity, the One demands a solid professional foundation before ever stepping onto a stage at all.</p>
+          <p class="vb-intro">In Hannah Emde, this wing is unmistakable: she hosts nature documentaries not as a lateral entrant, but as a licensed veterinarian with a completed degree from one of Germany's most respected veterinary schools. Her work on an international One Health initiative combating health risks in the wildlife trade is not a PR gesture, but genuine policy work. This is the SO2w1: the Two's warmheartedness, combined with the One's inner standard that commitment to animals and nature must rest on real knowledge, not just good intentions.</p>
+          <p class="vb-intro">Founding Nepada Wildlife e.V. while still a student also shows this combination: not waiting until training is fully complete, but also not acting without structure – instead, building a nonprofit with a clear mission from the start, encompassing education, research, and veterinary practice. The One ensures that good intentions turn into structures that hold.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 is its ability to translate care into reach: not just helping a single animal, but achieving an impact through education, research, and media presence that extends far beyond one's own practice. Hannah Emde's path from founding a small nonprofit to becoming a nationally known TV host shows how personal commitment can become a platform without losing its professional substance.</p>
+          <p class="vb-intro">The fateful pattern of the Two is <strong>pride</strong> – the deep need to be needed and indispensable. In the SO2w1, this shows up as a high, often self-imposed standard: the feeling of having to constantly live up to the trust placed in her as the face of wildlife conservation on German television. Such a combination of public visibility and professional perfectionism can carry someone far – but it can also exhaust, if one's own worth stays too tightly bound to constantly proving oneself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From the Examination Table to the Screen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The shift from practicing veterinarian and nonprofit founder to well-known TV host does not, for Hannah Emde, mean leaving her actual profession behind, but expanding it: instead of working solely with individual animals, she uses television's reach to make species conservation understandable to a mass audience. The SO2w1 meets this larger stage not by distancing herself from her professional roots, but by bringing exactly those roots onto the screen with her.</p>
+          <p class="vb-intro">Her social orientation remains palpable throughout: her formats rarely center on herself, but repeatedly on the animals, the ecosystems, and the people on the ground – just as in her ARD documentary series on Namibia's wildlife conservationists. The Golden Retriever carries the attention it receives further, toward those who actually deserve it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Expertise That Creates Closeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Hannah Emde brings to her work is a rare combination: the warmth that draws a mass audience into nature topics, and the professional depth of a licensed veterinarian who knows what she's talking about. This is the gift of the SO2w1 – a Golden Retriever who doesn't just inspire sympathy, but who knows that real trust only forms when care and expertise come together.</p>
+          <p class="vb-intro">In a media landscape that often reduces nature topics to pretty pictures, Hannah Emde stands out for the opposite: her willingness not to hide her actual professional work – nonprofit leadership, international health policy, veterinary practice – behind her television presence, but to make it the foundation of it. The Golden Retriever doesn't run ahead to be admired. It runs because the cause it serves needs it – and that is exactly what makes it credible.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-albert-schweitzer", label:"Portrait: Dr. Albert Schweitzer (SO2w1)"},
+        {route:"beruehmte-marisa-abela", label:"Portrait: Marisa Abela (SO2w1)"},
+      ])}
     </div>
   `);
 }
@@ -77239,6 +77311,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-winifred-charlesworth": winifredCharlesworthPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
+      "beruehmte-hannah-emde": hannahEmdePortraitPage,
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,

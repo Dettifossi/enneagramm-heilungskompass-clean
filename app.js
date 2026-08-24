@@ -31698,6 +31698,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marisa Abela \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 geb. 1996. Schauspielerin, Industry, Back to Black. Ensemblegef\u00fchl und Vorbereitungsdisziplin \u2013 der Golden Retriever, der Verbindung durch Sorgfalt verdient. Tierentsprechung: Golden Retriever.",
     land:"Großbritannien", tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-hannah-emde", name:"Hannah Emde", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Hannah Emde – Sozialer Typ 2",
+    teaser:"SO2w1 · geb. 1992. Tierärztin, Artenschützerin, Moderatorin von Terra X: Faszination Erde. Gründete mit 25 den Verein Nepada Wildlife e.V. – Fürsorge, die über den Behandlungstisch hinaus ein Millionenpublikum erreichen will. Tierentsprechung: Golden Retriever.",
+    land:"Deutschland", tags:["Wissenschaft","TV"], gender:"f"},
   { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
     heading:"Julius Caesar \u2013 Sozialer Typ 2",
     teaser:"SO2w3 \u00b7 100\u201344 v. Chr. R\u00f6mischer Feldherr, Staatsmann, Diktator auf Lebenszeit. Freigebigkeit als Machtinstrument, Gnade gegen\u00fcber Feinden, Selbstinszenierung im Feldzugsbericht \u2013 der Golden Retriever, der ein Weltreich einte und von einem Begnadigten ermordet wurde. Tierentsprechung: Golden Retriever.",
@@ -43374,12 +43378,12 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Zuwendung, die nicht dem Einzelnen, sondern der ganzen Gemeinschaft gilt",
-    beispiele: ["Jesus Christus", "Mutter Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander der Große", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christus", "Mutter Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Hannah Emde", "Julius Caesar", "Napoleon Bonaparte", "Alexander der Große", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Zuwendung, die sich nicht auf Einzelne beschränkt, sondern der ganzen Gemeinschaft gilt",
         beschreibung: "Anders als bei den anderen Zweier-Subtypen richtet sich die Fürsorge nicht auf die eine Beziehung oder die eigene Familie, sondern auf ein Kollektiv – eine Gemeinde, ein Publikum, eine Nation, alle, die gerade in Reichweite sind.",
-        beleg: "Jesus Christus: ›Wo die sexuelle Zwei die eine Person verführt und die selbsterhaltende Zwei die eigene Familie versorgt, richtet sich die soziale Zwei an die Gemeinschaft insgesamt‹; Mutter Meera, die ›über Jahrzehnte täglich hunderte fremde Menschen empfing‹; Zoe Saldaña: ›Ein Tier, das seine Wärme nicht auf eine Person beschränkt, sondern jedem im Rudel gilt‹; Nina Chuba, deren Nähe zu ihrem Publikum ›echt‹ wirkt, ›weil Wärme ihr Wesen ist‹; Mrs. Winifred Charlesworth, die den ersten offiziellen Rassestandard für den Golden Retriever verfasste – ein Dokument im Dienst einer ganzen Zuchtgemeinschaft, nicht eines einzelnen Hundes; Will Smith, der das Publikum nicht nur als Zuschauer brauchte, sondern als Empfänger seiner Energie – die soziale Zwei lebt nicht für sich, sie lebt für die anderen."
+        beleg: "Jesus Christus: ›Wo die sexuelle Zwei die eine Person verführt und die selbsterhaltende Zwei die eigene Familie versorgt, richtet sich die soziale Zwei an die Gemeinschaft insgesamt‹; Mutter Meera, die ›über Jahrzehnte täglich hunderte fremde Menschen empfing‹; Zoe Saldaña: ›Ein Tier, das seine Wärme nicht auf eine Person beschränkt, sondern jedem im Rudel gilt‹; Nina Chuba, deren Nähe zu ihrem Publikum ›echt‹ wirkt, ›weil Wärme ihr Wesen ist‹; Mrs. Winifred Charlesworth, die den ersten offiziellen Rassestandard für den Golden Retriever verfasste – ein Dokument im Dienst einer ganzen Zuchtgemeinschaft, nicht eines einzelnen Hundes; Will Smith, der das Publikum nicht nur als Zuschauer brauchte, sondern als Empfänger seiner Energie – die soziale Zwei lebt nicht für sich, sie lebt für die anderen; Hannah Emde, die mit 25 den Verein Nepada Wildlife e.V. gründete und heute als Moderatorin von ›Terra X: Faszination Erde‹ ein Millionenpublikum erreicht – ›was als persönliches Engagement in einem einzelnen Verein begann, wird zur Bühne, auf der Artenschutz einer breiten Öffentlichkeit nahegebracht wird‹."
       },
       {
         titel: "Persönliche Nähe als Führungsinstrument – Verbindung statt Distanz zur Machtsicherung",
@@ -62696,6 +62700,74 @@ function winifredCharlesworthPortraitPage() {
         ])}
         ${animalResearcherMatchBlock("beruehmte-winifred-charlesworth")}
       </div>
+    </div>
+  `);
+}
+
+function hannahEmdePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hannah-emde-portrait.jpg" alt="Hannah Emde – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hannah Emde</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Tierärztin, Artenschützerin &amp; Moderatorin, geb. 1992 &ndash; Terra X: Faszination Erde &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das Verbindung nicht als Aufgabe begreift, sondern als Wesensart. Freundlich, engagiert, mit einer Wärme, die niemanden ausschließt. Der Golden Retriever drängt sich nicht auf, aber er ist da, sobald er gebraucht wird &ndash; und wenn es ernst wird, zeigt sich hinter der Herzlichkeit erstaunliche Ausdauer und Einsatzbereitschaft.</p>
+          <p class="vb-intro">Die deutsche Tierärztin und Moderatorin Hannah Emde, geboren 1992 in Bonn, verkörpert genau dieses Bild: Nach dem Abitur ging sie über den Freiwilligendienst weltwärts für zwölf Monate auf die Philippinen, studierte anschließend Tiermedizin an der Tierärztlichen Hochschule Hannover und schloss 2019 als approbierte Tierärztin ab. Wer ihren Werdegang verfolgt, sieht keine geradlinige Fernsehkarriere, sondern eine Biografie, die sich Schritt für Schritt in den Dienst einer größeren Sache gestellt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Fürsorge, die viele erreichen will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> lenkt die Energie der Zwei nicht auf einzelne, persönliche Bindungen, sondern auf das größere Feld: Gemeinschaft, Öffentlichkeit, gesellschaftliche Wirkung. Naranjo nannte diesen Subtyp <em>Ambition</em> &ndash; nicht Ehrgeiz um seiner selbst willen, sondern der Antrieb, für möglichst viele etwas zu bewirken. Die SO2 fragt nicht nur: <em>Wie kann ich diesem einen Menschen helfen?</em>, sondern: <em>Wie kann ich unentbehrlich für das große Ganze werden?</em></p>
+          <p class="vb-intro">Bei Hannah Emde zeigt sich das in einer bemerkenswerten Verdopplung ihres Engagements: 2017, mit gerade einmal 25 Jahren, gründete sie den gemeinnützigen Verein <em>Nepada Wildlife e.V.</em>, der Artenschutz durch Umweltbildung, tiermedizinische Arbeit, Forschung und Öffentlichkeitsarbeit fördert &ndash; noch bevor ihr Studium abgeschlossen war. Von 2021 bis 2023 arbeitete sie zusätzlich als Tierärztin und Beraterin bei der Deutschen Gesellschaft für Internationale Zusammenarbeit (GIZ) an einem One-Health-Vorhaben und half beim Aufbau der internationalen Allianz gegen Gesundheitsrisiken im Wildtierhandel mit.</p>
+          <p class="vb-intro">Seit April 2024 moderiert sie die ZDF-Reihe <em>Terra X: Faszination Erde</em> und erreicht damit ein Millionenpublikum &ndash; die konsequente Fortsetzung derselben Bewegung: Was als persönliches Engagement in einem einzelnen Verein begann, wird zur Bühne, auf der Artenschutz einer breiten Öffentlichkeit nahegebracht wird. Bereits 2022 lief ihre sechsteilige Dokuserie in der ARD Mediathek, in der sie Menschen traf, die sich in Namibia für den Artenschutz einsetzen &ndash; auch hier stand nicht sie selbst im Mittelpunkt, sondern die Geschichten derer, die vor Ort etwas bewegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Fachliche Gründlichkeit statt bloßer Sympathie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine innere Achse, die bei schwächer ausgeprägtem Einserflügel nicht von selbst da ist: den Anspruch, es fachlich richtig zu machen, nicht nur sympathisch zu wirken. Wo eine SO2 mit schwächerem Einserflügel sich stärker auf Ausstrahlung und Beliebtheit verlassen könnte, verlangt die Eins ein solides fachliches Fundament, bevor überhaupt eine Bühne betreten wird.</p>
+          <p class="vb-intro">Bei Hannah Emde ist dieser Flügel unübersehbar: Sie moderiert Naturdokumentationen nicht als Quereinsteigerin, sondern als approbierte Tierärztin mit einem abgeschlossenen Studium an einer der renommiertesten veterinärmedizinischen Hochschulen Deutschlands. Ihre Mitarbeit an einem internationalen One-Health-Vorhaben zur Bekämpfung von Gesundheitsrisiken im Wildtierhandel ist keine PR-Geste, sondern echte fachpolitische Arbeit. Das ist die SO2w1: die Warmherzigkeit der Zwei, verbunden mit dem inneren Anspruch der Eins, dass Engagement für Tiere und Natur auf echtem Wissen ruhen muss, nicht nur auf gutem Willen.</p>
+          <p class="vb-intro">Auch die Gründung von Nepada Wildlife e.V. noch während des Studiums zeigt diese Verbindung: nicht abwarten, bis die Ausbildung vollständig abgeschlossen ist, aber auch nicht ohne Struktur handeln &ndash; sondern von Anfang an einen Verein mit klarem Auftrag, mit Bildungsarbeit, Forschung und tiermedizinischer Praxis aufbauen. Die Eins sorgt dafür, dass aus gutem Willen tragfähige Strukturen werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w1 ist ihre Fähigkeit, Fürsorge in Reichweite zu übersetzen: nicht nur einem einzelnen Tier zu helfen, sondern durch Bildung, Forschung und mediale Präsenz eine Wirkung zu erzielen, die weit über die eigene Praxis hinausgeht. Hannah Emdes Weg vom Vereinsgründungsprojekt zur bundesweiten Fernsehmoderatorin zeigt, wie aus persönlichem Engagement eine Plattform wird, ohne dass die fachliche Substanz verlorengeht.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; das tiefe Bedürfnis, gebraucht und unentbehrlich zu sein. Bei der SO2w1 zeigt sich das als hoher, oft selbst auferlegter Anspruch: das Gefühl, dem Vertrauen, das ihr als Gesicht des Artenschutzes im deutschen Fernsehen entgegengebracht wird, jederzeit gerecht werden zu müssen. Eine solche Kombination aus öffentlicher Sichtbarkeit und fachlichem Perfektionsanspruch kann tragen &ndash; sie kann aber auch erschöpfen, wenn der eigene Wert zu eng an ständige Beweisführung gekoppelt bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Behandlungstisch zur Bildschirmpräsenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Wechsel von der praktizierenden Tierärztin und Vereinsgründerin zur bekannten Fernsehmoderatorin bedeutet für Hannah Emde nicht den Abschied vom eigentlichen Beruf, sondern dessen Erweiterung: Statt ausschließlich am einzelnen Tier zu arbeiten, nutzt sie die Reichweite des Fernsehens, um Artenschutz einem Millionenpublikum verständlich zu machen. Die SO2w1 begegnet dieser Vergrößerung der Bühne nicht mit Distanz zur fachlichen Wurzel, sondern bringt genau diese Wurzel mit auf den Bildschirm.</p>
+          <p class="vb-intro">Dabei bleibt die soziale Ausrichtung spürbar: In ihren Formaten stehen selten sie selbst, sondern immer wieder die Tiere, die Ökosysteme und die Menschen vor Ort im Mittelpunkt &ndash; ganz wie schon in ihrer ARD-Dokuserie über Namibias Artenschützer. Der Golden Retriever trägt die Aufmerksamkeit, die er bekommt, weiter zu denen, die sie eigentlich verdienen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Fachwissen, das Nähe schafft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hannah Emde in ihre Arbeit einbringt, ist eine seltene Kombination: die Wärme, die ein Millionenpublikum für Naturthemen begeistert, und die fachliche Tiefe einer approbierten Tierärztin, die weiß, wovon sie spricht. Das ist das Geschenk der SO2w1 &ndash; ein Golden Retriever, der nicht nur Sympathie weckt, sondern der weiß, dass echtes Vertrauen erst entsteht, wenn Fürsorge und Fachwissen zusammenkommen.</p>
+          <p class="vb-intro">In einer Medienlandschaft, die Naturthemen oft auf schöne Bilder reduziert, fällt Hannah Emde durch das Gegenteil auf: durch die Bereitschaft, ihre eigentliche fachliche Arbeit &ndash; Vereinsarbeit, internationale Gesundheitspolitik, tierärztliche Praxis &ndash; nicht hinter der Fernsehpräsenz zu verstecken, sondern sie zum Fundament zu machen. Der Golden Retriever läuft nicht voraus, um bewundert zu werden. Er läuft, weil es für die Sache, der er dient, gebraucht wird &ndash; und genau das macht ihn glaubwürdig.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-albert-schweitzer", label:"Portrait: Dr. Albert Schweitzer (SO2w1)"},
+        {route:"beruehmte-marisa-abela", label:"Portrait: Marisa Abela (SO2w1)"},
+      ])}
     </div>
   `);
 }
@@ -112098,6 +112170,7 @@ function render() {
       "beruehmte-barack-obama": barackObamaPortraitPage,
       "beruehmte-winifred-charlesworth": winifredCharlesworthPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
+      "beruehmte-hannah-emde": hannahEmdePortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
       "beruehmte-alexander-der-grosse": alexanderDerGrossePortraitPage,
