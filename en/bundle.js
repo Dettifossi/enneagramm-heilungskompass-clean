@@ -203,6 +203,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
   { route:"krankheitsportraets-david-bowie", name:"David Bowie", subtyp:"SO1w2", heading:"David Bowie – Social Type 1", krankheit:"Liver Cancer", teaser:"SO1w2 – musician and artist, 1947–2016. Fought liver cancer in secret for 18 months and transformed the diagnosis into his final work, the album Blackstar, released two days before his death." , land:"United Kingdom", gender:"m", jahre:"1947–2016"},
   { route:"krankheitsportraets-wolfgang-amadeus-mozart", name:"Wolfgang Amadeus Mozart", subtyp:"SE2w3", heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2", krankheit:"Febrile Illness with Kidney Failure (likely following a streptococcal infection)", teaser:"SE2w3 – Austrian composer, 1756–1791. A lifelong chain of feverish illnesses since childhood (smallpox, typhoid fever, recurring scarlet fever) preceded his death at 35 after a two-week illness with fever and generalized swelling – while he was working on three major works at once, including the unfinished Requiem." , land:"Austria", gender:"m", jahre:"1756–1791"},
+  { route:"krankheitsportraets-nusrat-fateh-ali-khan", name:"Nusrat Fateh Ali Khan", subtyp:"SE2w3", heading:"Nusrat Fateh Ali Khan – Self-Preservation Type 2", krankheit:"Diabetes with progressive kidney failure and liver damage from contaminated dialysis", teaser:"SE2w3 – Pakistani Qawwali singer, 1948–1997. Years of untreated, progressing diabetes and significant weight gain led to kidney failure and twice-weekly dialysis. Died in 1997 at age 48 from acute cardiac arrest following a hepatitis infection contracted through contaminated dialysis equipment, on the way to a planned kidney transplant." , land:"Pakistan", gender:"m", jahre:"1948–1997"},
   { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexual Type 3", krankheit:"Fatal combination of barbiturates (Nembutal) and chloral hydrate, officially classified as probable suicide", teaser:"SX3w4 – actress, 1926–1962. Endometriosis hidden for years behind a flawless image, escalating dependency on sleeping pills, a forced psychiatric hospitalization in 1961. Died in 1962 at 36 – the exact circumstances of her death remain disputed to this day." , land:"USA", gender:"f", jahre:"1926–1962"},
   { route:"krankheitsportraets-albert-einstein", name:"Albert Einstein", subtyp:"SO5w4", heading:"Albert Einstein – Social Type 5", krankheit:"Abdominal aortic aneurysm, known for over six and a half years and only palliatively stabilized, fatal rupture in 1955", teaser:"SO5w4 – physicist, Nobel laureate, 1879–1955. Diagnosed in 1948, he lived for years with a known, never curatively treated threat. In 1955 he deliberately declined a further operation and died days later of the ruptured aneurysm – working until the end." , land:"Germany/USA", gender:"m", jahre:"1879–1955"},
   { route:"krankheitsportraets-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3", heading:"Freddie Mercury – Sexual Type 4", krankheit:"AIDS-related bronchopneumonia, kept strictly secret for nearly five years and confirmed publicly only one day before his death", teaser:"SX4w3 – musician, Queen frontman, 1946–1991. Diagnosed, according to Jim Hutton, in the spring of 1987, followed by strict secrecy while continuing to work to the point of physical exhaustion. Confirmed the illness himself only on November 23, 1991, and died the next day." , land:"United Kingdom", gender:"m", jahre:"1946–1991"},
@@ -25457,7 +25458,7 @@ function nusratFatehAliKhanPortraitPage() {
         <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP2w3 is the ability to build, out of an inherited, existential responsibility, something that grows far beyond its original, narrow frame without losing its roots. Nusrat Fateh Ali Khan combined his extraordinary vocal range of more than three octaves and his ability to sustain minutes-long, breathless improvisations with an openness to collaboration that had previously been unthinkable in the traditional Qawwali world.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and effort. In the SP2w3, this pride can become a constant need to give everything of oneself for the inherited task, rather than heeding one's own limits. Khan's health problems in his final years, combined with a workload of hundreds of albums and countless live performances, show how high the physical price of this indispensability can be.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and effort. In the SP2w3, this pride can become a constant need to give everything of oneself for the inherited task, rather than heeding one's own limits. Khan's health problems in his final years, combined with a workload of hundreds of albums and countless live performances, show how high the physical price of this indispensability can be. His progressive diabetes and sudden death in 1997 are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-nusrat-fateh-ali-khan">Illness Portrait of Nusrat Fateh Ali Khan</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The Work: A Voice That Kept a Tradition Alive</h2>
@@ -25473,6 +25474,7 @@ function nusratFatehAliKhanPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Illness Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
@@ -43333,6 +43335,178 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se2", label:"Subtype Profile SE2"},
+      ])}
+    </div>
+  `);
+}
+
+function nusratFatehAliKhanKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-nusrat-fateh-ali-khan-portrait.jpg" alt="Nusrat Fateh Ali Khan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nusrat Fateh Ali Khan</p>
+        <p class="krim-portrait-typ">SE2w3 · Self-Preservation Type 2 with Three-wing · 1948–1997</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Nusrat Fateh Ali Khan</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-nusrat-fateh-ali-khan">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general.
+        This page deals exclusively with a chapter only briefly touched on there: a
+        progressive, long-unspoken diabetes condition that ended in August 1997 with his
+        sudden death at only 48 years of age.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Nusrat Fateh Ali Khan</strong> is classified as the <strong>Self-Preservation
+        Two with Three-wing</strong>. Naranjo described the SE2 as <em>Me First</em> – the
+        subtype who secures her own survival and that of those closest to her before turning
+        further outward. The Three-wing adds a further, unconditional drive: proving one's own
+        indispensability through visible achievement – a pattern that can be traced right into
+        his final years, marked by hundreds of albums and countless live performances.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A body in service of the family tradition from the start:</strong>
+        As a child, Khan already took on the physically demanding role of tabla player in his
+        father's group, before becoming a singer himself after his father's early death – his
+        body was, from the beginning, a tool in service of a task larger than himself.</p>
+        <p class="vb-intro"><strong>b) Hours-long, breathless performances as the norm:</strong>
+        Khan's reputation rested in part on minutes-long, powerful improvisations and a vocal
+        range spanning more than three octaves – an output that pushed his body to the edge of
+        its capacity for decades, without rest ever being treated as a necessary part of the
+        work.</p>
+        <p class="vb-intro"><strong>c) A weight that grew alongside his fame:</strong>
+        As his international success grew, so did Khan's body weight, reaching roughly 300
+        pounds – a development that became publicly visible in the 1990s without visibly
+        slowing his workload.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Diabetes as an underestimated underlying condition for years:</strong>
+        Khan suffered from diabetes over an extended period, which interacted with his
+        significant weight gain and increasingly impaired his kidney function – a chronic
+        condition that received little attention in the shadow of his public success.</p>
+        <p class="vb-intro"><strong>b) A discography that never paused:</strong>
+        Alongside his progressing illness, new albums and collaborations kept appearing year
+        after year – from Peter Gabriel's Real World label to film-score contributions for
+        Hollywood productions – a workload that showed no regard for his own state of health.</p>
+        <p class="vb-intro"><strong>c) Dialysis twice a week as a last resort:</strong>
+        Once his kidneys could no longer withstand the diabetes, Khan depended in his final
+        years on dialysis treatment twice a week just to keep his kidney function going at
+        all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Features</h3>
+        <p class="vb-intro"><strong>a) A journey toward rescue that came too late:</strong>
+        On August 11, 1997, Khan was traveling from Lahore to Los Angeles, where a kidney
+        transplant had been arranged – but already in London he had to be hospitalized with
+        acute kidney and liver failure.</p>
+        <p class="vb-intro"><strong>b) Contaminated dialysis as an additional, fatal factor:</strong>
+        Doctors at Cromwell Hospital in London held a hepatitis infection partly responsible for
+        the deterioration of his condition – likely contracted through inadequately sterilized
+        dialysis equipment during his treatment in Pakistan.</p>
+        <p class="vb-intro"><strong>c) Death on August 16, 1997:</strong>
+        Five days after being admitted, Nusrat Fateh Ali Khan died at the age of 48 from acute
+        cardiac arrest, a direct consequence of his combined kidney and liver failure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Picture</h3>
+        <p class="vb-intro"><strong>a) An illness that received little public attention for years:</strong>
+        Unlike many other illness stories in this Compass, Khan's diabetes was barely discussed
+        publicly during his lifetime – it remained, as it does for many people with this common
+        condition, largely hidden until his body could no longer compensate.</p>
+        <p class="vb-intro"><strong>b) Two reinforcing disease processes:</strong>
+        Unlike a single, clearly delineated illness, two processes converged in Khan's case: the
+        slow, years-long destruction of kidney function through diabetes, and an acute
+        hepatitis infection caused by the treatment itself – a combination that finally
+        overwhelmed an already weakened body.</p>
+        <p class="vb-intro"><strong>c) Not a short illness, but a development drawn out over years:</strong>
+        Even though the acute collapse in August 1997 unfolded quickly, it rested on a
+        metabolic condition that had progressed, untreated, for years – not a sudden misfortune,
+        but the endpoint of a long development.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Peak performance despite a body that had long been warning him:</strong>
+        That Khan kept up a workload of hundreds of albums and countless live performances into
+        his final years, even as his body increasingly depended on dialysis, shows the endurance
+        of the SE2w3 at its most relentless.</p>
+        <p class="vb-intro"><strong>b) A succession secured even while he was still alive:</strong>
+        Already before his death, Khan began training his nephew Rahat Fateh Ali Khan as his
+        successor – the same care for the continuity of the family tradition with which his own
+        career had once begun at his father's funeral extended even into his own illness.</p>
+        <p class="vb-intro"><strong>c) The hippopotamus that defended its territory to the point of total exhaustion:</strong>
+        The SE2w3's energy remained, to the very end, directed at the same drive that shaped
+        Khan's entire life: keeping a six-hundred-year-old tradition alive, never letting it
+        rest, even as his own body had long since reached its limits.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A metabolic disease that grew alongside his success:</strong>
+        Khan's diabetes developed in parallel with his international breakthrough in the late
+        1980s and 1990s – the greater the reach of his performances, the less room seemingly
+        remained for his own health.</p>
+        <p class="vb-intro"><strong>b) Dialysis as a symbol of care that never turned inward:</strong>
+        Twice a week, his own blood had to be artificially cleaned while he kept singing for an
+        audience that needed him – an inversion that mirrors the SE2's core pattern almost
+        literally: caring for others a whole life long, until one's own body literally needs
+        outside help just to function.</p>
+        <p class="vb-intro"><strong>c) The journey toward rescue as a final, tragic irony:</strong>
+        That Khan collapsed on the very journey toward a kidney transplant that might have given
+        him more years makes the story especially bitter – rescue was within reach, but his body
+        had no reserves left to reach it.</p>
+        <p class="vb-intro"><strong>d) Why the kidneys, of all organs?</strong>
+        For a Self-Preservation Two with a Three-wing, whose entire life was governed by the
+        question of how to secure her own survival through ever new, visible proof of her
+        indispensability, one interpretation suggests itself: the kidney is the organ that
+        filters, balances, and detoxifies in silence – a function no one notices as long as it
+        works. A system that never learned to grant itself recovery ultimately lost the very
+        ability to care, quietly, for its own balance, with which it had cared for others a
+        whole life long.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) A framework, not a determinism:</strong>
+        This does not mean that the Self-Preservation Two's pattern inevitably leads to kidney
+        disease or diabetes – <strong>anyone can develop any illness, regardless of subtype.</strong>
+        What Khan's case illustrates is a pattern that recurs in practice around the need to
+        secure one's own survival through ever new proof – one of many possible explanations,
+        not a verdict. The corresponding disease pattern is being developed step by step in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Two with Three-wing explains much of the course of
+        <strong>Nusrat Fateh Ali Khan's</strong> own illness: a body that served a six-hundred-
+        year-old family tradition for decades and never learned to offer itself the same care
+        it gave an entire audience – until, in August 1997, on the way to its own rescue, it
+        could give no more. The hippopotamus that defended its territory to the very last
+        second, even as its own strength had long been exhausted.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3) – Life's Work"},
+        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SE2w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SE2"},
       ])}
@@ -79017,6 +79191,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
       "krankheitsportraets-david-bowie": davidBowieKrankheitsportraetPage,
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
+      "krankheitsportraets-nusrat-fateh-ali-khan": nusratFatehAliKhanKrankheitsportraetPage,
       "krankheitsportraets-albert-einstein": albertEinsteinKrankheitsportraetPage,
       "krankheitsportraets-freddie-mercury": freddieMercuryKrankheitsportraetPage,
       "krankheitsportraets-lady-diana": ladyDianaKrankheitsportraetPage,
