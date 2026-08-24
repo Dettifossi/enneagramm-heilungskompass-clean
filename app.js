@@ -31726,6 +31726,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Armin Rohde – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1955 in Herne. Schauspieler, ›Manta, Manta‹, ›Der Bulle von Tölz‹. Bodenständigkeit als Fürsorgeprinzip, vom Ruhrpott auf die große Leinwand, ohne die eigenen Wurzeln zu verraten. Tierentsprechung: Flusspferd.",
     land:"Deutschland", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-abd-al-fattah-as-sisi", name:"Abd al-Fattah as-Sisi", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Abd al-Fattah as-Sisi – Sozialer Typ 2",
+    teaser:"SO2w1 · geb. 1954 in Kairo. Ägyptischer Feldmarschall und Staatspräsident. Fürsorge als Führungsanspruch für eine ganze Nation – vom Militärputsch 2013 bis zur religiösen Einheitsrhetorik. Tierentsprechung: Golden Retriever.",
+    land:"Ägypten", tags:["Politik"], gender:"m"},
   { route:"beruehmte-jesus-christus", name:"Jesus Christus", added:"2026-07-31", subtyp:"SO2w1",
     heading:"Jesus Christus \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 ca. 4 v. Chr.\u201330/33 n. Chr. Wanderprediger, Religionsstifter. Bedingungslose Liebe als Gebot f\u00fcr alle, unerbittlicher Anspruch an das eigene Selbstopfer \u2013 der Golden Retriever, dessen Hingabe zum Fundament einer Weltreligion wurde. Tierentsprechung: Golden Retriever.",
@@ -43587,7 +43591,7 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Zuwendung, die nicht dem Einzelnen, sondern der ganzen Gemeinschaft gilt",
-    beispiele: ["Jesus Christus", "Mutter Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Hannah Emde", "Julius Caesar", "Napoleon Bonaparte", "Alexander der Große", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christus", "Mutter Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Hannah Emde", "Julius Caesar", "Napoleon Bonaparte", "Alexander der Große", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Zuwendung, die sich nicht auf Einzelne beschränkt, sondern der ganzen Gemeinschaft gilt",
@@ -43597,7 +43601,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Persönliche Nähe als Führungsinstrument – Verbindung statt Distanz zur Machtsicherung",
         beschreibung: "Führung entsteht nicht durch Einschüchterung oder Distanz, sondern durch das gezielte Investieren in unzählige einzelne Beziehungen, die sich am Ende zu enormer kollektiver Bindung summieren.",
-        beleg: "Julius Caesar: ›Wo ein sparsamer Stratege Rücklagen gebildet hätte, investierte die soziale Zwei in Beziehung. Das Kapital, das er aufbaute, war kein Geld – es war Zuneigung, Loyalität‹; Napoleon, der ›die Namen seiner Soldaten kannte, sie direkt ansprach‹; Alexander der Große, der ›Verwundete persönlich besuchte‹ – ›Verbindung schlägt Zwang‹; Barack Obama: ›Er tritt in einen Raum und lässt ihn größer werden.‹"
+        beleg: "Julius Caesar: ›Wo ein sparsamer Stratege Rücklagen gebildet hätte, investierte die soziale Zwei in Beziehung. Das Kapital, das er aufbaute, war kein Geld – es war Zuneigung, Loyalität‹; Napoleon, der ›die Namen seiner Soldaten kannte, sie direkt ansprach‹; Alexander der Große, der ›Verwundete persönlich besuchte‹ – ›Verbindung schlägt Zwang‹; Barack Obama: ›Er tritt in einen Raum und lässt ihn größer werden.‹; Abd al-Fattah as-Sisi, der seine Machtübernahme nicht als Zwang, sondern als gemeinsame nationale Kraftanstrengung inszenierte – vom persönlichen Besuch eines koptischen Weihnachtsgottesdienstes bis zur Mitfinanzierung der neuen Hauptstadt durch Staatsanleihen an die eigene Bevölkerung: ›Nicht ich allein baue das Land auf – wir alle bauen es gemeinsam auf, unter meiner Führung.‹"
       },
       {
         titel: "Hinter der Warmherzigkeit steckt erhebliche innere Kraft, die sich zeigt, wenn es darauf ankommt",
@@ -64029,6 +64033,72 @@ function barackObamaPortraitPage() {
   `);
 }
 
+
+function abdAlFattahAsSisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-abd-al-fattah-as-sisi-portrait.jpg" alt="Abd al-Fattah as-Sisi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Abd al-Fattah as-Sisi</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Ägyptischer Feldmarschall &amp; Staatspräsident, geb. 1954 in Kairo &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das gebraucht werden will und seine Kraft in den Dienst der Gruppe stellt. Von außen wirkt der Golden Retriever warm, fürsorglich, verbindend. Doch dieselbe Energie, die Bindung schafft, kann auch zur Rolle des unentbehrlichen Beschützers werden, dem sich die ganze Meute unterzuordnen hat &ndash; ein Anspruch, der sich bei Abd al-Fattah as-Sisi bis in die Staatsführung Ägyptens hinein zeigt.</p>
+          <p class="vb-intro">Abd al-Fattah as-Sisi wurde am 19. November 1954 in Kairo geboren, in eine Militärfamilie hinein, und ist mit seiner Cousine mütterlicherseits, Entissar Amer, verheiratet. 1977 schloss er die Militärakademie ab und begann eine Karriere in der mechanisierten Infanterie &ndash; ein Weg, der von Anfang an auf Zugehörigkeit zu einer klar geordneten, hierarchischen Gemeinschaft ausgerichtet war, in der Fürsorge und Befehlsgewalt untrennbar miteinander verbunden sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Fürsorge als Führungsanspruch für die ganze Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> lenkt ihre Fürsorge nicht auf einzelne Menschen, sondern auf gesellschaftliche Wirksamkeit. Naranjo nannte diesen Subtyp <em>Ambition</em>: den Antrieb, über Einfluss und Ansehen für eine ganze Gruppe &ndash; im Extremfall eine ganze Nation &ndash; zu sorgen. As-Sisi inszeniert genau diesen Anspruch: 2015 rief er an der Al-Azhar-Universität zu einer <em>religiösen Revolution</em> auf, mit der Forderung, der Islam dürfe nicht länger mit Angst, Gefahr, Tötung und Zerstörung in Verbindung gebracht werden. An Weihnachten besuchte er als erster ägyptischer Präsident einen koptischen Gottesdienst persönlich und warb mit dem Satz <em>Wir sind alle Ägypter</em> um nationale Einheit.</p>
+          <p class="vb-intro">Auch seine Großprojekte &ndash; der Ausbau des Suezkanals und der Bau einer komplett neuen Hauptstadt in der Wüste &ndash; wurden der Bevölkerung als gemeinsame nationale Kraftanstrengung präsentiert, mitfinanziert über den Verkauf von Staatsanleihen an die eigenen Bürger. Die Botschaft dahinter trägt die Handschrift der SO2: Nicht ich allein baue das Land auf &ndash; wir alle bauen es gemeinsam auf, unter meiner Führung. Der Golden Retriever, der sich selbst als unentbehrlichen Hüter der gesamten Meute versteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ordnung, Pflicht und moralische Strenge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine innere Achse aus Pflichtbewusstsein und dem Anspruch, im Sinne einer höheren Ordnung zu handeln, statt sich im bloßen Werben um Zustimmung zu verlieren. Bei as-Sisi zeigt sich das in seiner Selbstdarstellung als praktizierender, frommer Muslim ebenso wie in seiner erklärten Bewunderung für den säkularen Staatsgründer Gamal Abdel Nasser &ndash; eine Kombination, die weniger widersprüchlich ist, als sie zunächst scheint: In beiden Fällen geht es um eine strenge, von oben gesetzte Ordnung, der sich alle unterzuordnen haben, ob religiös oder staatlich begründet.</p>
+          <p class="vb-intro">2017 erklärte as-Sisi das Bevölkerungswachstum zur größten Bedrohung Ägyptens neben dem Terrorismus und startete unter dem Slogan <em>Zwei reichen</em> eine Kampagne zur Geburtenkontrolle &ndash; ein staatlich verordneter Eingriff bis in die private Familienplanung hinein, begründet mit der Sorge um das große Ganze. Genau das ist die SO2w1-Kombination in ihrer autoritären Schattierung: Fürsorge, die sich selbst das Recht zuspricht, die Lebensführung aller Einzelnen im Namen der Gemeinschaft zu regeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Aufstieg: Vom Geheimdienstchef zum Präsidenten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2010 wurde as-Sisi Direktor des ägyptischen Militärgeheimdienstes, 2012 von Präsident Muhammad Mursi zum Verteidigungsminister und Oberbefehlshaber der Streitkräfte ernannt. Am 3. Juli 2013 stürzte er Mursi nach einem 48-Stunden-Ultimatum an die politischen Kräfte des Landes in einem gewaltsamen Militärputsch. Allein am 8. Juli wurden während des Morgengebets 84 Demonstrierende von Militärkräften erschossen; in den folgenden Monaten starben Hunderte weitere, über 500 Menschen wurden in Eilverfahren zum Tode verurteilt, Tausende inhaftiert.</p>
+          <p class="vb-intro">Im März 2014 trat as-Sisi aus dem Militär aus, um für das Präsidentenamt zu kandidieren, und gewann die Wahl im Mai 2014 mit offiziell 97 Prozent der Stimmen bei einer Wahlbeteiligung von 46 Prozent. Der Weg vom Geheimdienstchef über den Putsch bis zur fast einstimmigen Wahl folgt der Logik der SO2w1: die eigene Führungsrolle nicht als Machtergreifung, sondern als notwendige, moralisch begründete Übernahme von Verantwortung für die gesamte Nation darzustellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w1 liegt in der Fähigkeit, in einer Phase tiefer gesellschaftlicher Verunsicherung &ndash; nach dem Sturz Mubaraks 2011 und der chaotischen Übergangszeit danach &ndash; Stabilität und ein Gefühl gemeinsamer nationaler Anstrengung zu vermitteln. Für viele Ägypter, die den wirtschaftlichen und politischen Zusammenbruch der Jahre 2011 bis 2013 erlebt hatten, versprach as-Sisis Machtübernahme genau das: ein Ende der Unsicherheit unter einer starken, ordnenden Hand.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das Wohl anderer unentbehrlich zu sein. Verbunden mit dem Einserflügel wird daraus die Überzeugung, im Recht zu sein, weil man im Dienst einer höheren Ordnung handelt &ndash; eine Haltung, die keinen Widerspruch mehr zulässt. As-Sisis Regierungsstil gilt international als autoritär, diktatorisch und repressiv: Ägypten liegt auf Platz 170 von 180 im weltweiten Pressefreiheit-Ranking, kritische Medien werden mit fragwürdigen Anklagen bedroht und inhaftiert. Amnesty International dokumentierte 2021 weit verbreitete Folter und Misshandlung in ägyptischen Gefängnissen; zwischen 2017 und Ende 2018 wurden 92 Menschen hingerichtet, ein Muster, das ein UN-Sonderberichterstatter mit willkürlichen Tötungen zur Unterdrückung von Kritik verglich. Im Januar 2023 wurden 38 Menschen wegen der Teilnahme an regierungskritischen Protesten von 2019 zu lebenslanger Haft verurteilt.</p>
+          <p class="vb-intro"><em>Hinweis: Dieses Porträt analysiert eine Persönlichkeitsstruktur nach dem Enneagramm-Modell. Es erklärt Muster, es rechtfertigt nichts. Der gewaltsame Putsch von 2013, die systematische Unterdrückung politischer Opposition und die dokumentierten Menschenrechtsverletzungen in ägyptischen Gefängnissen sind eigenständig zu verurteilende Handlungen, unabhängig von jeder psychologischen Einordnung.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Fürsorge ohne Unterwerfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Was kann ich für andere tun?</em> zur Frage <em>Was bin ich, wenn ich nicht gebraucht werde?</em> Für die SO2w1 bedeutet das insbesondere, den Anspruch loszulassen, die eigene, als moralisch richtig empfundene Ordnung anderen aufzuerlegen &ndash; und stattdessen zu vertrauen, dass eine Gemeinschaft auch ohne eine einzige, unentbehrliche Führungsfigur an der Spitze Bestand haben kann.</p>
+          <p class="vb-intro">Dieser Weg ist bei Abd al-Fattah as-Sisi öffentlich nicht erkennbar &ndash; seine seit 2014 andauernde, mehrfach verfassungsrechtlich verlängerte Amtszeit und die zunehmende Kontrolle über Medien, Justiz und Wirtschaft zeigen eher eine Verhärtung als eine Öffnung des Musters. Der Golden Retriever, der sich als unentbehrlicher Hüter der gesamten Meute versteht, bleibt gefangen in genau der Logik, die er selbst geschaffen hat: Solange Fürsorge nur als Führung von oben gedacht wird, bleibt kein Raum für eine Gemeinschaft, die auch ohne ihn tragfähig wäre.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Wladimir Putin (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
 
 function albertSchweitzerPortraitPage() {
   return shell(`
@@ -113616,6 +113686,7 @@ function render() {
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
+      "beruehmte-abd-al-fattah-as-sisi": abdAlFattahAsSisiPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,

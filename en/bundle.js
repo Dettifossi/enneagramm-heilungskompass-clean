@@ -535,6 +535,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kamala Harris – Social Type 2",
     teaser:"SO2w3 · born 1964. Politician, former US Vice President. Prosecutor, Senator, Vice President – service as political calling, several historic firsts. Animal correspondence: Golden Retriever.",
     land:"USA", tags:["Politik"] , gender:"f"},
+{ route:"beruehmte-abd-al-fattah-as-sisi", name:"Abd al-Fattah as-Sisi", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Abd al-Fattah as-Sisi – Social Type 2",
+    teaser:"SO2w1 · b. 1954 in Cairo. Egyptian field marshal and president. Care as a claim to lead an entire nation – from the 2013 military coup to unity rhetoric grounded in religion. Animal correspondence: Golden Retriever.",
+    land:"Egypt", tags:["Politik"], gender:"m"},
 { route:"beruehmte-jesus-christus", name:"Jesus Christ", added:"2026-07-31", subtyp:"SO2w1",
     heading:"Jesus Christ – Social Type 2",
     teaser:"SO2w1 · c. 4 BCE–30/33 CE. Itinerant preacher, founder of a world religion. Unconditional love as a commandment for all, an uncompromising demand for one's own self-sacrifice – the Golden Retriever whose devotion became the foundation of a world religion. Animal correspondence: Golden Retriever.",
@@ -36721,6 +36725,72 @@ function janUllrichPortraitPage() {
 }
 
 
+function abdAlFattahAsSisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-abd-al-fattah-as-sisi-portrait.jpg" alt="Abd al-Fattah as-Sisi – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Abd al-Fattah as-Sisi</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Egyptian field marshal &amp; president, born 1954 in Cairo &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that wants to be needed and puts its strength in the service of the group. From outside, the Golden Retriever seems warm, caring, connecting. But the same energy that creates bonds can also turn into the role of the indispensable protector to whom the entire pack must submit &ndash; a claim that, in Abd al-Fattah as-Sisi, extends all the way into the leadership of the Egyptian state.</p>
+          <p class="vb-intro">Abd al-Fattah as-Sisi was born on November 19, 1954, in Cairo, into a military family, and is married to his maternal cousin, Entissar Amer. In 1977 he graduated from the Military Academy and began a career in mechanized infantry &ndash; a path oriented from the start toward belonging to a clearly ordered, hierarchical community in which care and command authority are inseparably linked.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care as a Claim to Lead an Entire Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual people but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire group &ndash; in the extreme case, an entire nation &ndash; through influence and standing. As-Sisi stages exactly this claim: in 2015, at Al-Azhar University, he called for a <em>religious revolution</em>, demanding that Islam no longer be associated with fear, danger, killing, and destruction. On Christmas, he became the first Egyptian president to personally attend a Coptic Christmas Eve service, appealing for national unity with the phrase <em>We are all Egyptians</em>.</p>
+          <p class="vb-intro">His mega-projects, too &ndash; the expansion of the Suez Canal and the construction of an entirely new capital in the desert &ndash; were presented to the population as a shared national effort, co-financed through the sale of government bonds to Egypt's own citizens. The message behind this carries the signature of the SO2: I am not building the country alone &ndash; we are all building it together, under my leadership. The Golden Retriever who sees itself as the indispensable guardian of the entire pack.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Order, Duty, and Moral Rigor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of duty and the claim to act in the name of a higher order, instead of losing itself in the mere pursuit of approval. In as-Sisi, this shows in his self-presentation as a practicing, devout Muslim alongside his declared admiration for the secular founder of the modern Egyptian state, Gamal Abdel Nasser &ndash; a combination that is less contradictory than it first appears: in both cases, it is about a strict order imposed from above, to which everyone must submit, whether religiously or politically justified.</p>
+          <p class="vb-intro">In 2017, as-Sisi declared population growth the greatest threat to Egypt alongside terrorism and launched a birth-control campaign under the slogan <em>Two Are Enough</em> &ndash; a state-mandated intervention reaching into private family planning, justified by concern for the greater whole. This is precisely the SO2w1 combination in its authoritarian shading: care that grants itself the right to regulate the conduct of every individual life in the name of the community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Rise: From Intelligence Chief to President</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2010, as-Sisi became director of Egypt's military intelligence; in 2012, President Muhammad Mursi appointed him Defence Minister and commander-in-chief of the armed forces. On July 3, 2013, after issuing a 48-hour ultimatum to the country's political forces, as-Sisi toppled Mursi in a violent military coup. On July 8 alone, 84 demonstrators were shot by military forces during morning prayers; hundreds more died in the following months, more than 500 people were sentenced to death in expedited trials, and thousands were imprisoned.</p>
+          <p class="vb-intro">In March 2014, as-Sisi left the military to run for president, and won the May 2014 election with an officially reported 97 percent of the vote at a 46 percent turnout. The path from intelligence chief through the coup to a near-unanimous election follows the logic of the SO2w1: presenting one's own leadership role not as a seizure of power, but as a necessary, morally grounded assumption of responsibility for the entire nation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to convey stability and a sense of shared national effort during a phase of deep societal uncertainty &ndash; after the fall of Mubarak in 2011 and the chaotic transition period that followed. For many Egyptians who had lived through the economic and political collapse of 2011 to 2013, as-Sisi's takeover of power promised exactly that: an end to instability under a strong, ordering hand.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. Combined with the One-wing, this becomes the conviction of being in the right because one acts in the service of a higher order &ndash; a stance that no longer tolerates contradiction. As-Sisi's style of governance is widely characterized internationally as authoritarian, dictatorial, and repressive: Egypt ranks 170th of 180 countries in global press-freedom rankings, and critical media face threats and imprisonment on dubious charges. Amnesty International documented widespread torture and mistreatment in Egyptian prisons in 2021; between 2017 and the end of 2018, 92 people were executed, a pattern a UN special rapporteur compared to arbitrary killings aimed at suppressing dissent. In January 2023, 38 people were sentenced to life imprisonment for taking part in anti-government protests from 2019.</p>
+          <p class="vb-intro"><em>Note: This portrait analyses a personality structure according to the Enneagram model. It explains patterns; it justifies nothing. The violent coup of 2013, the systematic suppression of political opposition, and the documented human rights violations in Egyptian prisons are actions to be condemned in their own right, independent of any psychological framing.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path to Healing: Care Without Submission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two's path to healing leads from the question <em>What can I do for others?</em> to the question <em>What am I, when I am not needed?</em> For the SO2w1, this means above all letting go of the claim to impose one's own, morally certain order on others &ndash; and trusting instead that a community can hold together even without a single, indispensable figure at its head.</p>
+          <p class="vb-intro">This path is not publicly visible in Abd al-Fattah as-Sisi &ndash; his tenure, ongoing since 2014 and repeatedly extended through constitutional amendments, along with his growing control over media, judiciary, and economy, shows a hardening rather than an opening of the pattern. The Golden Retriever who sees itself as the indispensable guardian of the entire pack remains trapped in exactly the logic it created for itself: as long as care is thought of only as leadership from above, there is no room left for a community that could also stand on its own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function barackObamaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -39850,7 +39920,7 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Devotion that belongs not to the individual, but to the whole community",
-    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
@@ -39860,7 +39930,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
         beschreibung: "Leadership arises not through intimidation or distance, but through deliberately investing in countless individual relationships that, in the end, add up to enormous collective loyalty.",
-        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty'; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'"
+        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty'; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'; Abd al-Fattah as-Sisi, who staged his takeover of power not as coercion but as a shared national effort – from personally attending a Coptic Christmas Eve service to co-financing the new capital through government bonds sold to his own population: 'I am not building the country alone – we are all building it together, under my leadership.'"
       },
       {
         titel: "Behind the warmth lies considerable inner strength that shows when it counts",
@@ -78885,6 +78955,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
+      "beruehmte-abd-al-fattah-as-sisi": abdAlFattahAsSisiPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
