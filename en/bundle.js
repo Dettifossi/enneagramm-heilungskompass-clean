@@ -431,6 +431,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carlos Santana – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1947. Mexican-American guitarist, Woodstock 1969, Supernatural comeback 1999 (9 Grammys). Craft passed down directly from his father, combined with a constant need to be rediscovered. Animal correspondence: Hippopotamus.",
     land:"Mexico/USA", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-harald-gloeockler", name:"Harald Glööckler", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Harald Glööckler – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1965. German fashion designer, founder of POMPÖÖS. Built a glamorous world of gold and crowns out of a childhood marked by violence – security through self-created abundance, made visible for all to see. Animal correspondence: Hippopotamus.",
+    land:"Germany", tags:["Mode","TV"], gender:"m"},
 { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1929 in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Voluntarily living in a Tokyo psychiatric hospital since 1977, working daily in her studio. Animal correspondence: Hippopotamus.",
@@ -24794,6 +24798,66 @@ function carlosSantanaPortraitPage() {
   `);
 }
 
+function haraldGloeocklerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-harald-gloeockler-portrait.jpg" alt="Harald Glööckler – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harald Glööckler</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">German fashion designer, born 1965 &ndash; founder of POMPÖÖS &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that, wherever possible, builds itself a safe, protected territory it can move within, far from outside threat. It does not build its territory quietly, but with a presence that remains visible from far away.</p>
+          <p class="vb-intro">The German fashion designer Harald Glööckler, born May 30, 1965, in Maulbronn-Zaisersweiher, Baden-Württemberg, Germany, grew up in a household he himself has described as traumatic: his father, who ran a restaurant together with his mother, was violent and alcoholic; Glööckler was also sexually abused as a child by a family acquaintance, something he could never speak about in that unstable household. When he was nineteen, his mother died after a fall. Yet already at age seven, inspired by his aunt, a seamstress, young Harald designed his first dress &ndash; a black lace dress with gold-colored lining. The longing for glamour and abundance was born early, in the middle of a childhood that was anything but glamorous.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Security Through Self-Created Abundance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care begins with one's own material and emotional security, before it turns outward. Where his parental home meant threat, violence, and scarcity, Glööckler built himself &ndash; with his brand <em>POMPÖÖS</em>, registered in 1990 after opening the fashion store "Jeans Garden" together with his longtime partner Dieter Schroth in Stuttgart in 1987 &ndash; a literal, overflowing, glamorous counter-world of his own: golden crowns, rhinestones, abundance instead of scarcity, excess instead of threat.</p>
+          <p class="vb-intro">This care also stays concrete within his closest circle: his decades-long partnership with Dieter Schroth, both business and personal, has carried his career since the 1980s. At the same time, he engages very directly and concretely in animal welfare &ndash; as a declared opponent of fur in fashion, with vegan, cruelty-free collections, diverting part of the proceeds to donations, and through his partnership with the organization "Ein Herz für Kinder" (A Heart for Children). For the SP2, care is never abstract: it shows up in concrete products, concrete donations, a concrete relationship that has held for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Brand as Armor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two an instinct for image, impact, and recognizability. Glööckler's personal trademark &ndash; the golden crown, often paired with the "POMPÖÖS" lettering &ndash; is not incidental aesthetics, but a deliberately designed, consistently repeated emblem that runs through fashion, home accessories, and beauty products.</p>
+          <p class="vb-intro">His media presence follows the same pattern: as a reality TV star, he has appeared on shows including "Ich bin ein Star – Holt mich hier raus!" (the German "I'm a Celebrity") and "Promi Big Brother" &ndash; formats that offer maximum visibility on minimal script. The Three-wing turns the longing for security that stems from childhood into a publicly visible, consistently marketed image: not hiding, but showing plainly that one has made it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to build one's own, sustainable world out of a childhood without security &ndash; and not to keep that world to oneself, but to share it through concrete engagement for animals and disadvantaged children. Glööckler's decades-long partnership and his ongoing charitable work show that behind the glittering surface lies a very real, very reliable form of care.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable and secure through one's own care and one's own achievement. In the SP2w3, this pride can turn into permanent, publicly visible self-staging: the need to keep demonstrating the security one has fought for, again and again, ever more visibly, rather than being able to rely on it internally. Glööckler's own, very deliberate decision against having children &ndash; on the grounds that a child is "a full-time job" and incompatible with his career &ndash; can be read as an expression of exactly this priority: self-built, controllable security over a new, uncontrollable dependency.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: Abundance as Counter-Design</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For over three decades, POMPÖÖS has stood for an aesthetic that leaves no one indifferent: rhinestones, gold, crowns, opulent patterns &ndash; a deliberate counter-position to understatement and minimalism. This consistent excess is more than a matter of taste: it is the visible reversal of a childhood in which abundance, glamour, and security were missing.</p>
+          <p class="vb-intro">That Glööckler consistently links his commercial success with animal welfare engagement &ndash; vegan collections, an anti-fur stance, donations from proceeds &ndash; shows the typical SP2 pattern: self-created security does not become an end in itself, but flows back into concrete care for others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -24857,6 +24921,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
       ])}
     </div>
   `);
@@ -77483,6 +77548,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-carlos-santana": carlosSantanaPortraitPage,
+      "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

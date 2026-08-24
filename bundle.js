@@ -31642,6 +31642,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carlos Santana – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1947. Mexikanisch-US-amerikanischer Gitarrist, Woodstock 1969, Supernatural-Comeback 1999 (9 Grammys). Vom Vater direkt weitergegebenes Handwerk, verbunden mit dem stetigen Bedürfnis, neu entdeckt zu werden. Tierentsprechung: Flusspferd.",
     land:"Mexiko/USA", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-harald-gloeockler", name:"Harald Glööckler", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Harald Glööckler – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1965. Deutscher Modedesigner, Gründer von POMPÖÖS. Aus einer von Gewalt geprägten Kindheit eine eigene, glanzvolle Welt aus Gold und Kronen geschaffen – Sicherheit durch selbst erschaffene Fülle, sichtbar gemacht für alle. Tierentsprechung: Flusspferd.",
+    land:"Deutschland", tags:["Mode","TV"], gender:"m"},
   { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1929 in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Seit 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
@@ -43413,7 +43417,7 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
@@ -43433,7 +43437,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Schutzschicht und Verborgenheit als Überlebenssystem, nicht als Schwäche",
         beschreibung: "Was von außen wie Rückzug, Verletzlichkeit oder Verbergen wirkt, ist häufig ein sorgfältig funktionierendes Schutzsystem, das erst im entscheidenden Moment sichtbare Kraft freisetzt.",
-        beleg: "Frida Kahlo, deren Körper ›über weite Strecken ihres Lebens unter Gips, Verbänden und Stützkonstruktionen verborgen‹ blieb – ›sichtbar blieb nur, was sie selbst zeigen wollte‹; Marie Antoinettes kunstvolle Erscheinung als ›glänzende, unangreifbare Oberfläche, hinter der sich eine junge Frau verbarg‹; Natascha Kampusch, deren acht Jahre Gefangenschaft zeigen, ›wie ein Wesen unter extremem Druck einen eigenen Schutzraum aufbaut und darin funktionsfähig bleibt‹; Margot Friedländer, die ›nicht abtaucht, um zu verschwinden‹, sondern ›weil dort ihre Sicherheit liegt‹ – und auftaucht, ›genau in dem Moment, in dem sie gebraucht wird‹; Yayoi Kusama, deren endlose Punkte keine künstlerische Konzeption, sondern eine Überlebensnotwendigkeit sind – ohne das Malen, sagt sie selbst, hätte sie sich längst das Leben genommen; Jan Ullrich, für den das Fahrrad dieses Wasser war – abseits des Rads suchte er das Gleichgewicht immer wieder, und fand es nicht immer."
+        beleg: "Frida Kahlo, deren Körper ›über weite Strecken ihres Lebens unter Gips, Verbänden und Stützkonstruktionen verborgen‹ blieb – ›sichtbar blieb nur, was sie selbst zeigen wollte‹; Marie Antoinettes kunstvolle Erscheinung als ›glänzende, unangreifbare Oberfläche, hinter der sich eine junge Frau verbarg‹; Natascha Kampusch, deren acht Jahre Gefangenschaft zeigen, ›wie ein Wesen unter extremem Druck einen eigenen Schutzraum aufbaut und darin funktionsfähig bleibt‹; Margot Friedländer, die ›nicht abtaucht, um zu verschwinden‹, sondern ›weil dort ihre Sicherheit liegt‹ – und auftaucht, ›genau in dem Moment, in dem sie gebraucht wird‹; Yayoi Kusama, deren endlose Punkte keine künstlerische Konzeption, sondern eine Überlebensnotwendigkeit sind – ohne das Malen, sagt sie selbst, hätte sie sich längst das Leben genommen; Jan Ullrich, für den das Fahrrad dieses Wasser war – abseits des Rads suchte er das Gleichgewicht immer wieder, und fand es nicht immer; Harald Glööckler, der sich aus einer von Gewalt und Missbrauch geprägten Kindheit eine eigene, überbordend glanzvolle Welt aus Gold und Kronen schuf – Schutz nicht durch Verbergen, sondern durch eine so gleißende Oberfläche, dass niemand mehr hinter sie schaut."
       },
       {
         titel: "Untadelige Fürsorge-Fassade als Tarnung für Kontrolle oder Ausbeutung (Schattenform)",
@@ -60329,6 +60333,66 @@ function carlosSantanaPortraitPage() {
   `);
 }
 
+function haraldGloeocklerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-harald-gloeockler-portrait.jpg" alt="Harald Glööckler – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harald Glööckler</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Modedesigner, geb. 1965 &ndash; Gründer von POMPÖÖS &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sich, wo immer möglich, ein sicheres, geschütztes eigenes Terrain schafft, in dem es sich fern von äußerer Bedrohung bewegen kann. Es baut sich sein Revier nicht leise, sondern mit einer Präsenz, die weithin sichtbar bleibt.</p>
+          <p class="vb-intro">Der deutsche Modedesigner Harald Glööckler, geboren am 30. Mai 1965 im badischen Maulbronn-Zaisersweiher, wuchs in einem von ihm selbst als traumatisch beschriebenen Elternhaus auf: Sein Vater, der gemeinsam mit der Mutter eine Gastwirtschaft führte, war gewalttätig und alkoholkrank; zusätzlich wurde Glööckler als Kind von einem Bekannten der Familie sexuell missbraucht, worüber er in dem instabilen Elternhaus nie sprechen konnte. Als er neunzehn war, starb seine Mutter durch einen Sturz. Schon mit sieben Jahren aber, angeregt durch seine Tante, eine Schneiderin, entwarf der junge Harald sein erstes Kleid &ndash; ein schwarzes Spitzenkleid mit goldfarbenem Innenfutter. Die Sehnsucht nach Glanz und Fülle war früh geboren, mitten in einer Kindheit, die alles andere als glanzvoll war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Sicherheit durch selbst geschaffene Fülle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge beginnt bei der eigenen materiellen und emotionalen Sicherheit, bevor sie sich nach außen richtet. Wo ein Elternhaus Bedrohung, Gewalt und Mangel bedeutete, baute sich Glööckler mit seiner Marke <em>POMPÖÖS</em> &ndash; benannt und gegründet 1990, nach der gemeinsamen Eröffnung des Modegeschäfts „Jeans Garden" mit seinem langjährigen Lebenspartner Dieter Schroth 1987 in Stuttgart &ndash; buchstäblich eine eigene, überbordend sichere und glanzvolle Gegenwelt: goldene Kronen, Strasssteine, Fülle statt Mangel, Überfluss statt Bedrohung.</p>
+          <p class="vb-intro">Diese Fürsorge bleibt auch im engsten persönlichen Kreis konkret: Seine langjährige Partnerschaft mit Dieter Schroth, geschäftlich wie privat, trägt seine Karriere seit den 1980er-Jahren. Gleichzeitig engagiert er sich mit sehr direktem, konkretem Einsatz für Tierschutz &ndash; als erklärter Gegner von Pelz in der Mode, mit veganen, tierversuchsfreien Kollektionen, aus deren Erlösen er Spenden abzweigt, sowie in der Zusammenarbeit mit der Organisation „Ein Herz für Kinder". Für die SE2 ist Fürsorge nie abstrakt: Sie zeigt sich in konkreten Produkten, konkreten Spenden, einer konkreten Beziehung, die über Jahrzehnte hält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Marke als Rüstung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Instinkt für Bild, Wirkung und Wiedererkennbarkeit. Glööcklers persönliches Markenzeichen &ndash; die goldene Krone, oft ergänzt durch den Schriftzug „POMPÖÖS" &ndash; ist keine zufällige Ästhetik, sondern ein bewusst gestaltetes, konsequent wiederholtes Erkennungssymbol, das sich über Mode, Wohnaccessoires und Beauty-Produkte zieht.</p>
+          <p class="vb-intro">Auch seine mediale Präsenz folgt diesem Muster: Als Reality-TV-Star war er unter anderem bei „Ich bin ein Star – Holt mich hier raus!" und „Promi Big Brother" zu sehen &ndash; Formate, die maximale Sichtbarkeit bei minimalem Textbuch bieten. Der Dreierflügel verwandelt die aus der Kindheit stammende Sehnsucht nach Sicherheit in ein öffentlich sichtbares, konsequent vermarktetes Image: nicht verstecken, sondern in aller Deutlichkeit zeigen, dass man es geschafft hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer Kindheit ohne Sicherheit eine eigene, tragfähige Welt aufzubauen &ndash; und diese Welt nicht für sich zu behalten, sondern mit konkretem Engagement für Tiere und benachteiligte Kinder zu teilen. Glööcklers jahrzehntelange Partnerschaft und sein beständiges karitatives Engagement zeigen, dass hinter der glitzernden Fassade eine sehr reale, sehr verlässliche Fürsorge steckt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und die eigene Leistung unentbehrlich und sicher zu sein. Bei der SE2w3 kann dieser Stolz zur permanenten, öffentlich sichtbaren Selbstinszenierung werden: das Bedürfnis, die einmal erkämpfte Sicherheit immer wieder aufs Neue, immer sichtbarer zu demonstrieren, statt sich innerlich auf sie verlassen zu können. Glööcklers eigene, sehr bewusste Entscheidung gegen eigene Kinder &ndash; mit der Begründung, ein Kind sei „ein Full-Time-Job" und mit der Karriere nicht vereinbar &ndash; lässt sich als Ausdruck genau dieser Priorität lesen: die selbst aufgebaute, kontrollierbare Sicherheit vor einer neuen, unkontrollierbaren Abhängigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Überfluss als Gegenentwurf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">POMPÖÖS steht seit über drei Jahrzehnten für eine Ästhetik, die niemanden gleichgültig lässt: Strass, Gold, Kronen, opulente Muster &ndash; eine bewusste Gegenposition zu Understatement und Minimalismus. Diese konsequente Übertreibung ist mehr als Geschmacksfrage: Sie ist die sichtbare Umkehrung einer Kindheit, in der Fülle, Glanz und Sicherheit gefehlt haben.</p>
+          <p class="vb-intro">Dass Glööckler seinen kommerziellen Erfolg konsequent mit Tierschutz-Engagement verbindet &ndash; vegane Kollektionen, Anti-Pelz-Positionierung, Spenden aus den Erlösen &ndash; zeigt, wie bei der SE2 typisch, dass die selbst geschaffene Sicherheit nicht zum reinen Selbstzweck wird, sondern in konkrete Fürsorge für andere zurückfließt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60392,6 +60456,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Porträt: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3)"},
       ])}
     </div>
   `);
@@ -112073,6 +112138,7 @@ function render() {
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-carlos-santana": carlosSantanaPortraitPage,
+      "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
