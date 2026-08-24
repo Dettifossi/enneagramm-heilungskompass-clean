@@ -455,6 +455,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Quentin Tarantino – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1963. American director, Pulp Fiction, Reservoir Dogs. From video store clerk to global cinema event, with a steady circle of recurring actors and his own 35mm cinema in Los Angeles. Animal correspondence: Hippopotamus.",
     land:"USA", tags:["Film"], gender:"m"},
+{ route:"beruehmte-storm-reid", name:"Storm Reid", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Storm Reid – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 2003. American actress, A Wrinkle in Time, Euphoria, The Last of Us. Career as a family project – co-founded a production company with her mother, studies full-time alongside Emmy-winning roles. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Schauspiel"], gender:"w"},
 { route:"beruehmte-jack-ma", name:"Jack Ma", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Jack Ma – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1964. Chinese entrepreneur, founder of Alibaba. From free tour guide to English teacher to billionaire – and, after his conflict with Beijing, back to personally supporting teachers. Animal correspondence: Hippopotamus.",
@@ -24972,6 +24976,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function stormReidPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-storm-reid-portrait.jpg" alt="Storm Reid – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Storm Reid</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American actress &amp; producer, born 2003 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that builds and defends its territory not alone, but together with its closest surroundings. For Storm Reid, that surrounding was her family from the very start: when she was nine, the entire family moved from Atlanta to Los Angeles &ndash; not just her, but the whole pod relocated together.</p>
+          <p class="vb-intro">The American actress Storm Reid was born on July 1, 2003, in Atlanta, Georgia, the youngest of four siblings. Her father Rodney works as a personal trainer, her mother Robyn as a stylist and costume designer in the film industry &ndash; a professional closeness to filmmaking already existed within the family long before Storm herself stepped in front of a camera. She landed her first role, in a TV commercial, at age three.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: A Career as a Shared Family Project</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete foundation, before it turns outward. For Storm Reid, this shows in that her career was never a solo endeavor but a project the whole family carried together &ndash; the move to Los Angeles was a joint decision, made to give her talent a stage at all.</p>
+          <p class="vb-intro">This principle becomes clearest in 2013: together with her mother Robyn, Storm Reid founded her own production company, A Seed & Wings Productions &ndash; a business she didn't build alone, but literally as a mother-daughter project. Care and professional foundation merge here: the closest bond itself becomes the entrepreneurial groundwork.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Visible Success Alongside a Degree</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build visible, publicly effective success out of a secured foundation. As early as 2013, at age ten, she appeared in <em>12 Years a Slave</em>; 2018 brought the lead role in Disney's <em>A Wrinkle in Time</em>; 2019, the recurring role of Gia in HBO's <em>Euphoria</em>. In 2023, she won a Primetime Emmy Award for her guest appearance in <em>The Last of Us</em> &ndash; all while studying film at the University of Southern California as a full-time student living on campus.</p>
+          <p class="vb-intro">This double load of college and film set is typical for the Three-wing: visible success isn't bought at the expense of one's own foundation, but built alongside a solid, long-term base. Storm Reid has publicly defended her decision to complete a regular degree despite an ongoing career, against critics who considered it unnecessary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to understand success as something built together with one's closest people, rather than conquered alone &ndash; and to hold onto one's education and family foundation despite growing public visibility. Storm Reid's commitment to educational opportunities for young Black girls in the arts, and her open advocacy for mental health, show how this care extends beyond the closest circle as well.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and one's own building. In the SP2w3, this pride can become a constant need to fill multiple roles at once &ndash; actress, student, entrepreneur &ndash; rather than settling for just one. Reid's tightly packed schedule between film sets, lectures, and her own production company shows how closely these areas have to interlock so that none of them falls short.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Territory That Grows With the Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Storm Reid's filmography spans historical dramas, fantasy blockbusters, and award-winning series roles &ndash; a range broader than most child actresses get, who are often locked into one genre early on. A Seed & Wings Productions, the joint venture with her mother, is explicitly dedicated to multicultural stories meant to entertain, educate, and uplift &ndash; a mission that reaches beyond her own acting career.</p>
+          <p class="vb-intro">The hippopotamus doesn't expand its territory alone, but together with its own pod, letting that pod grow along with it. Storm Reid's path from commercial baby to Emmy winner and producer shows exactly this pattern: every step of success stays connected to the family that moved with her, co-founded with her, and carries it together from the start.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function quentinTarantinoPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25027,6 +25091,7 @@ function quentinTarantinoPortraitPage() {
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
+        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SP2w3)"},
       ])}
     </div>
   `);
@@ -78092,6 +78157,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mr-t": mrTPortraitPage,
       "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
       "beruehmte-quentin-tarantino": quentinTarantinoPortraitPage,
+      "beruehmte-storm-reid": stormReidPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
