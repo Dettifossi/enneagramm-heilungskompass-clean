@@ -803,6 +803,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"John Lennon – Social Type 4",
     teaser:"SO4w5 · 1940–1980. Musician, composer, peace activist, co-founder of The Beatles. The armadillo that asked the world: Imagine there’s peace.",
     tags:["Musik"] , gender:"m"},
+{ route:"beruehmte-leonard-cohen", name:"Leonard Cohen", added:"2026-08-24", subtyp:"SO4w5",
+    heading:"Leonard Cohen – Social Type 4",
+    teaser:"SO4w5 · 1934–2016. Canadian musician and poet, Hallelujah. Spent six years as a Zen monk, then returned to the stage at 73 after his manager's embezzlement for the most successful world tour of his career. Animal correspondence: Armadillo.",
+    land:"Kanada", tags:["Musik","Literatur"], gender:"m"},
 { route:"beruehmte-javier-parisi", name:"Javier Parisi", added:"2026-08-01", subtyp:"SO4w5",
     heading:"Javier Parisi – Social Type 4",
     teaser:"SO4w5 · born 1980. Musician, the world's best-known John Lennon double. From a childhood in Lanús to a performance at Abbey Road Studios – the armadillo that compares itself to a role model for so long that it finds its own stage within it. Animal correspondence: Armadillo.",
@@ -27387,6 +27391,66 @@ function danBrownPortraitPage() {
   `);
 }
 
+function leonardCohenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-leonard-cohen-portrait.jpg" alt="Leonard Cohen – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Cohen</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Canadian musician, poet &amp; novelist, 1934&ndash;2016 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Armadillo</strong> is the animal of the Social Four &ndash; an animal that holds contradictions within itself. On the outside, it wears a hard shell that makes it seem invulnerable. Underneath, that shell protects a creature of extraordinary sensitivity. Few artists embody this dual nature as precisely as Leonard Cohen: a deep, smoky voice, an impeccable suit, an almost monastic composure &ndash; and beneath it, laid bare in songs across decades, a vulnerability rarely displayed so openly.</p>
+          <p class="vb-intro">The Canadian musician Leonard Cohen was born on September 21, 1934, in Montreal, in the affluent neighborhood of Westmount, into a respected Jewish family with deep roots in the local community. When he was nine, his father, a textile merchant, died &ndash; an early loss that stayed with Cohen throughout his life. His mother Masha, a refugee from Russia, carried a deep, almost literary melancholy of her own that shaped young Leonard.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Shame and the Search for Meaning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Four (SO4)</strong> carries the pain of the Four into the social dimension. Naranjo called this subtype <em>Shame</em>: the deep feeling of not being good enough for the world one lives in &ndash; combined with a burning wish to belong, to matter, to leave something behind that lasts. Cohen was shy and prone to depression even as a child; he published his first book of poems, <em>Let Us Compare Mythologies</em>, as early as 1956 &ndash; the transformation of his own inner pain into publicly shared language began early and remained his life's theme.</p>
+          <p class="vb-intro">Themes of faith and mortality, isolation, betrayal and redemption, longing and loss run through his entire body of work. The SO4 compares itself endlessly to others and looks for a confirmation in the resonance of community that can only truly come from within &ndash; Cohen's songs became, for millions, a language for exactly this feeling of brokenness and longing, even though they sprang from a very personal, often shame-laden source.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Withdrawal, Knowledge, and Six Years in a Zen Monastery</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> gives the Social Four additional distance from its own emotionality &ndash; a need for retreat, reflection, and intellectual engagement with its own pain, rather than being exposed to it unfiltered. In the mid-1990s, overwhelmed by a deep sense of hopelessness after touring his album <em>The Future</em>, Cohen withdrew almost entirely from public life and spent six years living as a Zen monk in a monastery on Mount Baldy near Los Angeles, under the name Jikan &ndash; "ordinary silence," or "the space between two silences."</p>
+          <p class="vb-intro">In 1999, he left the monastery again, with a sobering realization he later put this way: "I felt it wasn't doing any good. It wasn't really addressing this problem &ndash; distress &ndash; which is the background for all my activities, feelings and thoughts." The Five-wing seeks answers in withdrawal and study &ndash; yet in the SO4w5, the final insight often remains that pure knowledge alone cannot heal the social wound.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 is the ability to turn the most personal into something millions experience as their own. In 2005, it emerged that Cohen's longtime manager, Kelley Lynch, had embezzled more than five million dollars from his accounts over the years, including his entire retirement savings. Rather than being broken by it, the then-73-year-old returned to the stage once more &ndash; a world tour that took him through 387 shows in front of more than two million people and became the most commercially successful stretch of his entire career.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the feeling that others were given something essential that one lacks oneself. In the SO4w5, this envy can turn into a lasting inner distance from one's own public life &ndash; the feeling of never quite belonging, even at the height of fame. Cohen's years-long retreat into the monastery and his notorious self-irony about his own melancholy show how closely recognition and inner unrest can coexist in the SO4w5.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Voice for the Fractures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">No song shows Cohen's work more clearly than <em>Hallelujah</em>: he needed, by his own account, six to seven years to finish the lyrics &ndash; out of embarrassment, he later told Bob Dylan it had taken only two. A song about faith, doubt, desire, and failure that only became one of the most covered songs in music history decades after its release &ndash; exactly the delayed but universal recognition the SO4 secretly longs for throughout its life.</p>
+          <p class="vb-intro">The armadillo curls into its shell when vulnerable, and emerges when needed. Leonard Cohen's path from a shy, depressed boy in Montreal, through six years of monastic silence, to a triumphant world tour late in life shows exactly this pattern: a life that swung between retreat and stage, and turned that very swing into one of the most haunting voices of the 20th century.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function johnLennonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -27446,6 +27510,7 @@ function johnLennonPortraitPage() {
         {route:"beruehmte-javier-parisi", label:"Portrait: Javier Parisi (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
       ])}
     </div>
   `);
@@ -78531,6 +78596,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
+      "beruehmte-leonard-cohen": leonardCohenPortraitPage,
       "beruehmte-javier-parisi": javierParisiPortraitPage,
       "beruehmte-fiona-apple": fionaApplePortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,

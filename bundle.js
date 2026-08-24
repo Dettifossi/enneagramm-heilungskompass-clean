@@ -32022,6 +32022,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hugh Grant \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 geb. 1960. Schauspieler. Vom stotternden romantischen Helden zum abgr\u00fcndigen Charakterdarsteller. Das G\u00fcrteltier, das seine Unsicherheit zum Markenzeichen machte.",
     land:"Gro\u00dfbritannien", tags:["Film"], gender:"m"},
+{ route:"beruehmte-leonard-cohen", name:"Leonard Cohen", added:"2026-08-24", subtyp:"SO4w5",
+    heading:"Leonard Cohen – Sozialer Typ 4",
+    teaser:"SO4w5 · 1934–2016. Kanadischer Musiker und Dichter, Hallelujah. Sechs Jahre als Zen-Mönch im Kloster, nach Veruntreuung durch seine Managerin mit 73 zur erfolgreichsten Welttournee seiner Karriere zurückgekehrt. Tierentsprechung: Gürteltier.",
+    land:"Kanada", tags:["Musik","Literatur"], gender:"m"},
   { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1940\u20131980. Musiker, Komponist, Friedensaktivist, Mitbegr\u00fcnder der Beatles. Das G\u00fcrteltier, das die Welt fragte: Stell Dir vor, es w\u00e4re Frieden.",
@@ -43435,12 +43439,12 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Gürteltier",
     kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina"],
     fingerabdruecke: [
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Scham‹: das tiefe Gefühl, strukturell anders und mangelhaft zu sein. Nach außen zeigt sich häufig eine wirkende, undurchdringliche Fassade – Coolness, Perfektion, Humor –, die ein extrem verletzliches Inneres schützt, ohne es je ganz zu verbergen.",
-        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb; Ajeet Kaur, deren chronische Autoimmunerkrankung seit der Kindheit zur Quelle einer öffentlichen Rolle als Heilerin durch Musik wurde, während sie selbst betont, sich schon als Kind ›in die Musik zurückgezogen‹ zu haben, ›um verschwinden und mich wieder mit einem tieferen, ruhigeren Teil von mir selbst verbunden fühlen zu können‹."
+        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb; Ajeet Kaur, deren chronische Autoimmunerkrankung seit der Kindheit zur Quelle einer öffentlichen Rolle als Heilerin durch Musik wurde, während sie selbst betont, sich schon als Kind ›in die Musik zurückgezogen‹ zu haben, ›um verschwinden und mich wieder mit einem tieferen, ruhigeren Teil von mir selbst verbunden fühlen zu können‹; Leonard Cohen, dessen tiefe, gefasste Bühnenpräsenz im makellosen Anzug jahrzehntelang eine Melancholie verbarg, die er zugleich unablässig in Liedern offenlegte – ›das Gürteltier, das sich einrollt, um sich zu schützen, und hervortritt, wenn es gebraucht wird‹."
       },
       {
         titel: "Trägt das eigene Anderssein sichtbar zur Schau, statt es zu verbergen",
@@ -45438,6 +45442,7 @@ function johnLennonPortraitPage() {
         {route:"beruehmte-paul-mccartney", label:"Portr\u00e4t: Paul McCartney (SE4w5)"},
         {route:"beruehmte-javier-parisi", label:"Portr\u00e4t: Javier Parisi (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portr\u00e4t: Fiona Apple (SO4w5)"},
+        {route:"beruehmte-leonard-cohen", label:"Portr\u00e4t: Leonard Cohen (SO4w5)"},
         {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
         {route:"astrologie-john-lennon", label:"Horoskop-Analyse: John Lennon"},
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
@@ -60687,6 +60692,66 @@ function harnaamKaurPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardCohenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonard-cohen-portrait.jpg" alt="Leonard Cohen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Cohen</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Kanadischer Musiker, Dichter &amp; Schriftsteller, 1934&ndash;2016 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; ein Tier, das Widersprüche in sich vereint. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Innen schützt dieser Panzer ein Wesen, das außergewöhnlich empfindlich ist. Kaum ein Künstler verkörpert diese Doppelnatur so präzise wie Leonard Cohen: eine tiefe, rauchige Stimme, ein makelloser Anzug, eine fast mönchische Contenance &ndash; und darunter, über Jahrzehnte hinweg in Liedern offengelegt, eine Verletzlichkeit, die selten so offen ausgestellt wurde.</p>
+          <p class="vb-intro">Der kanadische Musiker Leonard Cohen wurde am 21. September 1934 in Montreal geboren, im wohlhabenden Stadtteil Westmount, in eine angesehene jüdische Familie mit tiefen Wurzeln in der örtlichen Gemeinde. Als er neun Jahre alt war, starb sein Vater, ein Textilhändler &ndash; ein früher Verlust, der Cohen zeitlebens begleitete. Seine Mutter Masha, eine aus Russland geflohene Immigrantin, trug selbst eine tiefe, fast literarische Melancholie in sich, die den jungen Leonard prägte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Scham und die Suche nach Bedeutung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt den Schmerz der Vier in die soziale Dimension. Naranjo nannte diesen Subtyp <em>Scham</em>: das tiefe Gefühl, nicht gut genug zu sein für die Welt, in der man lebt &ndash; verbunden mit dem brennenden Wunsch, dazuzugehören, bedeutsam zu sein, etwas zu hinterlassen, das bleibt. Cohen war schon als Kind schüchtern und neigte zu Depressionen; sein erstes Gedichtband, <em>Let Us Compare Mythologies</em>, veröffentlichte er bereits 1956 &ndash; die Umwandlung des eigenen inneren Schmerzes in öffentlich geteilte Sprache begann früh und blieb sein Lebensthema.</p>
+          <p class="vb-intro">Themen wie Glaube und Sterblichkeit, Isolation, Verrat und Erlösung, Sehnsucht und Verlust ziehen sich durch sein gesamtes Werk. Die SO4 vergleicht sich unablässig mit anderen und sucht in der Resonanz der Gemeinschaft eine Bestätigung, die eigentlich nur von innen kommen kann &ndash; Cohens Lieder wurden für Millionen zu einer Sprache für genau dieses Gefühl von Bruchstückhaftigkeit und Sehnsucht, obwohl sie aus einer sehr persönlichen, oft schambesetzten Quelle stammten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug, Wissen und sechs Jahre im Zen-Kloster</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> gibt der sozialen Vier eine zusätzliche Distanz zur eigenen Emotionalität &ndash; ein Bedürfnis nach Rückzug, Reflexion und intellektueller Durchdringung des eigenen Schmerzes, statt sich ihm ungefiltert auszusetzen. Mitte der 1990er-Jahre, überwältigt von einem tiefen Gefühl der Hoffnungslosigkeit nach der Tour zu seinem Album <em>The Future</em>, zog sich Cohen fast vollständig aus der Öffentlichkeit zurück und lebte sechs Jahre lang als Zen-Mönch im Kloster auf dem Mount Baldy bei Los Angeles, unter dem Namen Jikan &ndash; „gewöhnliche Stille" oder „der Raum zwischen zwei Stille".</p>
+          <p class="vb-intro">1999 verließ er das Kloster wieder, mit der ernüchternden Erkenntnis, wie er später sagte: „Ich hatte das Gefühl, es half nichts. Es ging eigentlich nicht auf das Problem ein &ndash; die Bedrängnis, die den Hintergrund all meiner Aktivitäten, Gefühle und Gedanken bildet." Der Fünferflügel sucht Antworten im Rückzug und im Studium &ndash; doch bei der SO4w5 bleibt am Ende die Erkenntnis, dass reines Wissen die soziale Wunde allein nicht heilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, das Persönlichste in etwas zu verwandeln, das Millionen als ihr eigenes empfinden. 2005 wurde bekannt, dass Cohens langjährige Managerin Kelley Lynch über Jahre mehr als fünf Millionen Dollar von seinen Konten veruntreut hatte, darunter seine gesamte Altersvorsorge. Statt daran zu zerbrechen, kehrte der damals 73-Jährige noch einmal auf die Bühne zurück &ndash; eine Welttournee, die ihn über 387 Konzerte vor mehr als zwei Millionen Menschen führte und zum kommerziell erfolgreichsten Abschnitt seiner gesamten Karriere wurde.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas Wesentliches gegeben wurde, das einem selbst fehlt. Bei der SO4w5 kann sich dieser Neid in eine dauerhafte innere Distanz zur eigenen Öffentlichkeit verwandeln &ndash; das Gefühl, nie ganz dazuzugehören, selbst auf dem Höhepunkt des Ruhms. Cohens jahrelanger Rückzug ins Kloster und seine notorische Selbstironie über die eigene Melancholie zeigen, wie eng bei der SO4w5 Anerkennung und innere Unruhe nebeneinander bestehen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine Stimme für die Bruchstellen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kein Song zeigt Cohens Werk klarer als <em>Hallelujah</em>: Er brauchte nach eigener Aussage sechs bis sieben Jahre, um den Text fertigzustellen &ndash; aus Verlegenheit gab er Bob Dylan gegenüber später an, es seien nur zwei gewesen. Ein Lied über Glaube, Zweifel, Begehren und Scheitern, das erst Jahrzehnte nach der Veröffentlichung zu einem der meistgecoverten Songs der Musikgeschichte wurde &ndash; genau jenes verzögerte, aber universelle Erkennen, das die SO4 sich insgeheim ihr ganzes Leben lang wünscht.</p>
+          <p class="vb-intro">Das Gürteltier zieht sich in seinen Panzer zurück, wenn es verletzlich ist, und tritt hervor, wenn es gebraucht wird. Leonard Cohens Weg vom schüchternen, depressiven Jungen aus Montreal über sechs Jahre klösterlicher Stille bis zur triumphalen Welttournee im hohen Alter zeigt genau dieses Muster: ein Leben, das zwischen Rückzug und Bühne pendelte, und aus genau diesem Pendeln eine der eindringlichsten Stimmen des 20. Jahrhunderts machte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
       ])}
     </div>
   `);
@@ -113370,6 +113435,7 @@ function render() {
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
+      "beruehmte-leonard-cohen": leonardCohenPortraitPage,
       "beruehmte-javier-parisi": javierParisiPortraitPage,
       "beruehmte-fiona-apple": fionaApplePortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
