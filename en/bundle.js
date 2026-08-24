@@ -5526,6 +5526,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
     { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg" },
     { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg" },
+    { slug:"zungenstreck-uebung", titel:"The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts", teaser:"The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.", img:"../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -5555,6 +5556,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "vitruv-enneagramm") {
     return vitruvEnneagrammPage();
+  }
+  if (param === "zungenstreck-uebung") {
+    return zungenstreckUebungPage();
   }
   if (param === "bewusstes-innehalten") {
     return bewusstesInnehaltenPage();
@@ -6294,6 +6298,89 @@ function bewusstesInnehaltenPage() {
     </section>
   `);
 }
+
+function zungenstreckUebungPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts</h1>
+      <p class="lead-small">The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg"
+             alt="Albert Einstein sticks his tongue out at photographer Arthur Sasse on March 14, 1951"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The world-famous photo of Albert Einstein sticking his tongue out at photographer Arthur Sasse on March 14, 1951, has long since become pure pop culture and a symbol of unconventional thinking. But behind this seemingly humorous gesture lies far more than a stroke of photographic genius. Much like the far-Eastern practices traditionally used by monks and yogis for focus and emotional calming, consciously and intensely stretching the tongue draws on a direct anatomical connection to the central nervous system. The act of extending it breaks up acute muscular and neural tension that quietly builds up in the jaw, throat, and neck when we're under pressure or weighed down by worry.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Instructions: How to Do the Exercise</h2>
+        <p class="vb-intro"><strong>1. The Position:</strong> Sit or stand upright, grounded, and comfortably, allowing for free, unrestricted breathing.</p>
+        <p class="vb-intro"><strong>2. The Execution:</strong> Stick your tongue out as far forward and downward as you can – exactly as Albert Einstein did in the historic photo.</p>
+        <p class="vb-intro"><strong>3. Holding the Position:</strong> Hold this intense position for about 30 seconds. Keep breathing calmly and evenly throughout, and avoid holding your breath.</p>
+        <p class="vb-intro"><strong>4. The Repetition:</strong> Do three rounds directly in succession, each separated by a few short, deep breaths.</p>
+        <p class="vb-intro"><strong>5. The Ideal Rhythm:</strong> Build this in as a fixed, small habit twice a day – in the morning right after waking up, to start the day alert yet balanced, and in the evening before sleep, to close the day out mentally and physically.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Why It Works: The Vagus Nerve as an Emergency Brake</h2>
+        <p class="vb-intro">The key to this method is the vagus nerve (the tenth cranial nerve). As the longest nerve of the parasympathetic nervous system ("rest and digest"), it is the most important counterpart to our stress system and plays a decisive role in slowing down, regenerating, and reducing stress hormones.</p>
+        <p class="vb-intro" style="margin-top:1rem;">The mouth, throat, and tongue area is extremely densely supplied with fine nerve endings that connect directly to the brainstem and, from there, to the vagus nerve. When we're under stress, we tend – for evolutionary reasons – to unconsciously press the tongue against the roof of the mouth, clench the teeth, or tense the jaw. Consciously and fully stretching the tongue breaks up this fascial and muscular clenching in the jaw and throat area. In doing so, it sends an unmistakable biological signal to the brain to immediately dial down fight-or-flight mode (the sympathetic nervous system).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Fascinating Parallel to Dogs: More Than Just Temperature Regulation</h2>
+        <p class="vb-intro">A look into the animal world reveals striking parallels that show just how deeply rooted this mechanism is in evolution. Dogs are known to stick their tongues out extremely far while panting. That this primarily serves thermoregulation and cooling the blood – since dogs have almost no functioning sweat glands on their bodies – is widely known. Modern behavioral biology, however, shows that so-called stress panting also has a strong psychological and hormonal component.</p>
+        <p class="vb-intro" style="margin-top:1rem;">When a dog is under fear, pain, or acute psychological pressure, its body rapidly releases cortisol and adrenaline. This causes a sudden rise in metabolism and, with it, internal heat buildup. Dogs therefore often pant completely independently of outside temperature or physical exertion – purely as a vegetative stress response. Much like humans, animals use the mouth and tongue as a site of oral self-regulation: intensely moving and stretching the tongue activates the vagus nerve and immediately signals to the organism: the danger has passed, switch into the relieving relaxation mode.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Health Benefits and the Effect on the "Cortisol Belly"</h2>
+        <p class="vb-intro">Anyone who builds this small but highly effective exercise regularly into their day – especially when the schedule is closing in or stress peaks around 11 a.m. – benefits from a range of long-term health effects:</p>
+        <p class="vb-intro" style="margin-top:1rem;"><strong>Immediate Emergency Relief:</strong> In acute stress moments, the tongue exercise acts like a quick, effective "reset button" to calm the pulse, break the mental tunnel vision, and become capable of action again right away.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Long-Term Cortisol Regulation:</strong> Making this mini-break a fixed routine lowers the chronic baseline level of the stress hormone cortisol in the blood over time. The body essentially trains itself to find its way back to balance faster.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Better Sleep:</strong> Stretching in the evening demonstrably helps wind down an overstimulated nervous system in time, which deeply supports falling asleep and overnight regeneration.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>The Effect on the "Cortisol Belly":</strong> A so-called cortisol belly results from chronic, sustained stress, which causes the body to store more fat in the abdominal area (visceral fat) and throws blood sugar levels off balance. Of course, the 30-second tongue exercise doesn't burn calories directly, but it addresses the root of the problem. Over the long term, a lower, more balanced stress level means the body stores significantly less stress-related fat, and stubborn cravings tend to ease as well.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Naturopath's Tip for Everyday Life:</strong> This exercise needs no equipment and fits in almost anywhere, discreetly – at your desk before a difficult conversation, in the car at a red light, or right after waking up. It's exactly this low threshold that makes it one of the simplest emergency tools this section has to offer against acute tension.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendations</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">&#9672;</span>
+            <span style="flex:1;">Further reading by Detlef Rathmer (3)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt – Burnout")}
+            <div style="margin-top:.8rem;">${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions – with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
+          </div>
+        </details>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"The Invisible Magnet: The Grounding Exercise"},
+        {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Opening the Heart Gate"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
 
 function kaufenPage() {
   return shell(`

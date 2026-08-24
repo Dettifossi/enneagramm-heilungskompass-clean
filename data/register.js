@@ -45,6 +45,7 @@ export const registerEntries = [
   { term: "Der Atem-Wasserfall", route: "praxistipps-heilpraktiker/atem-wasserfall", description: "Energetische Reinigungsübung mit Atem und Bewegung für den Feierabend" },
   { term: "Die Vitruv-Enneagramm-Bewusstseinsübung", route: "praxistipps-heilpraktiker/vitruv-enneagramm", description: "Der Kreis der Neun: Vitruvianischer Mensch und die 9 Punkte des Enneagramms im Körper" },
   { term: "Die Praxis des bewussten Innehaltens", route: "praxistipps-heilpraktiker/bewusstes-innehalten", description: "›Let it be‹ im Alltag: reine Wahrnehmung als Übung zurück zur eigenen Essenz" },
+  { term: "Die Zungenstreck-Übung zur Stressregulation", route: "praxistipps-heilpraktiker/zungenstreck-uebung", description: "Von Einstein, Vagusnerv und tierischen Instinkten: Zungenstrecken zur akuten Stressregulation" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
@@ -1948,6 +1949,7 @@ export const registerEntriesEN = [
   { term: "The Breath Waterfall", route: "praxistipps-heilpraktiker/atem-wasserfall", description: "Energetic cleansing exercise with breath and movement, ideal for the evening" },
   { term: "The Vitruvian-Enneagram Awareness Exercise", route: "praxistipps-heilpraktiker/vitruv-enneagramm", description: "The Circle of Nine: the Vitruvian Man and the Enneagram's 9 points in the body" },
   { term: "The Practice of Conscious Pausing", route: "praxistipps-heilpraktiker/bewusstes-innehalten", description: "›Let it be‹ in everyday life: pure awareness as a path back to one's own essence" },
+  { term: "The Tongue-Stretch Exercise for Stress Regulation", route: "praxistipps-heilpraktiker/zungenstreck-uebung", description: "Einstein, the vagus nerve, and animal instincts: tongue stretching for acute stress regulation" },
   { term: "Silence", route: "stille", description: "Meditation & silence: an exercise for every Enneagram type" },
   { term: "Tritypes", route: "tritypen", description: "Chart: the 27 tritypes – combination of one type per triad" }
 ];
