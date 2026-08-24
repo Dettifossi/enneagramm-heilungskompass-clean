@@ -447,6 +447,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jack Ma – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1964. Chinese entrepreneur, founder of Alibaba. From free tour guide to English teacher to billionaire – and, after his conflict with Beijing, back to personally supporting teachers. Animal correspondence: Hippopotamus.",
     land:"China", tags:["Wirtschaft","Unternehmen"], gender:"m"},
+{ route:"beruehmte-jimi-blue-ochsenknecht", name:"Jimi Blue Ochsenknecht", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Jimi Blue Ochsenknecht – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1991. German actor and musician, Die Wilden Kerle, son of Uwe Ochsenknecht. Identity rooted in the closest family circle from the start – a struggle for visibility within his own, already public family. Animal correspondence: Hippopotamus.",
+    land:"Germany", tags:["Schauspiel","Musik"], gender:"m"},
 { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1929 in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Voluntarily living in a Tokyo psychiatric hospital since 1977, working daily in her studio. Animal correspondence: Hippopotamus.",
@@ -25050,6 +25054,66 @@ function jackMaPortraitPage() {
   `);
 }
 
+function jimiBlueOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jimi-blue-ochsenknecht-portrait.jpg" alt="Jimi Blue Ochsenknecht – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jimi Blue Ochsenknecht</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">German actor &amp; musician, born 1991 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature deeply bonded to its herd, whose identity is tightly bound to its immediate surroundings from birth. It knows its herd, it knows its place within it &ndash; and at the same time struggles to be seen as an individual being within that very herd.</p>
+          <p class="vb-intro">The German actor and musician Jimi Blue Ochsenknecht, born December 27, 1991, in Munich, carries his unusual name as his first family story: at birth, his face turned blue because the umbilical cord had wrapped around his neck several times &ndash; hence the nickname "Blue," combined with a tribute to Jimi Hendrix. As the son of actor Uwe Ochsenknecht and model and reality-TV star Natascha Ochsenknecht, and brother to Wilson Gonzalez and Cheyenne Savannah, he grew up in a family for whom the spotlight was part of everyday life from the start.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Identity Within the Closest Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care and identity are grounded first in the closest, most trusted circle, not in an anonymous audience. For Jimi Blue Ochsenknecht, that circle has been his own family from the very beginning: he took on his first film role as early as 2000 in Doris Dörrie's <em>Erleuchtung garantiert</em>, in front of the camera together with father Uwe and brother Wilson Gonzalez. His actual breakthrough came as Leon in the <em>Die Wilden Kerle</em> ("The Wild Soccer Bunch") franchise, in which he starred alongside his brother in all five installments.</p>
+          <p class="vb-intro">Family remained the central reference system later on as well: the reality series <em>Diese Ochsenknechts</em> shows the everyday life of Natascha Ochsenknecht and her children Wilson Gonzalez, Jimi Blue, and Cheyenne to a broad audience. At the same time, Jimi Blue has publicly said he sometimes felt overlooked within this large, highly visible family &ndash; a typical SP2 tension: one's own security hinges on the closest circle, yet fighting for attention and a place of one's own within that very circle is far more painful than doing so among strangers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Visibility as a Second Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build, alongside the family foundation, its own publicly visible stage. In addition to acting, Jimi Blue Ochsenknecht pursued an independent music career and released the album <em>Mission Blue</em> in 2007 &ndash; an attempt to build his own artistic identity out from under the shadow of the family name.</p>
+          <p class="vb-intro">At the same time, he remained a fixture of German tabloid coverage for years: party excesses, a period of detention, and recurring scandals shaped his public image alongside his acting career. In 2024, he openly admitted on the podcast <em>Leben reicht</em>: "I haven't done everything right in recent years, I was not a good role model &ndash; and there are many things I need to work through." The Three-wing ensures that even this self-reflection happens in public, not quietly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to build an artistic career of one's own out of a close, formative family bond, without ever fully leaving that bond behind &ndash; Jimi Blue Ochsenknecht shared the defining career milestones of his life literally with his father and brother in front of the same camera.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own visibility and belonging. In the SP2w3, this pride can become a trap when the public stage looms larger than one's own inner stability: the years of scandal and his own admission of having been a poor role model show how hard it can be to hold one's ground within a family whose entire life is already publicly negotiated. The deeper rifts within the wider family &ndash; such as the long estrangement between Uwe Ochsenknecht and his daughter Cheyenne &ndash; also show how fragile the foundation of this particular kind of visibility can be.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: Between Family Legacy and His Own Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jimi Blue Ochsenknecht's filmography reads, for long stretches, as a family story: from his shared screen debut with father and brother, to the five-part <em>Wilde Kerle</em> series that made him and Wilson Gonzalez known to an entire generation of moviegoers. The reality series <em>Diese Ochsenknechts</em> continues this principle consistently: the family itself becomes the format, the brand, the ongoing program.</p>
+          <p class="vb-intro">Today, he is a father himself, to a daughter named Snow Elanie &ndash; a new, very concrete bond that extends the SP2's closest circle into another generation. The hippopotamus doesn't leave its herd, even when it sometimes has to fight for visibility within it &ndash; it stays, seeks its place, and, over time, shapes its own story, even if that story stays closely woven into the family's.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25117,6 +25181,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SP2w3)"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-jack-ma", label:"Portrait: Jack Ma (SP2w3)"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3)"},
       ])}
     </div>
   `);
@@ -77747,6 +77812,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
+      "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

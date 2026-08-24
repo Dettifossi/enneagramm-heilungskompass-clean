@@ -31658,6 +31658,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jack Ma – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1964. Chinesischer Unternehmer, Gründer von Alibaba. Vom kostenlosen Fremdenführer über den Englischlehrer zum Milliardär – und nach dem Konflikt mit Peking zurück zur persönlichen Lehrerförderung. Tierentsprechung: Flusspferd.",
     land:"China", tags:["Wirtschaft","Unternehmen"], gender:"m"},
+  { route:"beruehmte-jimi-blue-ochsenknecht", name:"Jimi Blue Ochsenknecht", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Jimi Blue Ochsenknecht – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1991. Deutscher Schauspieler und Musiker, Die Wilden Kerle, Sohn von Uwe Ochsenknecht. Identität, die von Anfang an im engsten Familienkreis verwurzelt ist – Ringen um Sichtbarkeit innerhalb der eigenen, ohnehin schon öffentlichen Familie. Tierentsprechung: Flusspferd.",
+    land:"Deutschland", tags:["Schauspiel","Musik"], gender:"m"},
   { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1929 in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Seit 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
@@ -43429,12 +43433,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -60585,6 +60589,66 @@ function jackMaPortraitPage() {
   `);
 }
 
+function jimiBlueOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jimi-blue-ochsenknecht-portrait.jpg" alt="Jimi Blue Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jimi Blue Ochsenknecht</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schauspieler &amp; Musiker, geb. 1991 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sich mit seiner Herde tief verbunden fühlt, dessen Identität von Geburt an eng an die nächste Umgebung geknüpft ist. Es kennt sein Rudel, es kennt seinen Platz darin &ndash; und ringt zugleich damit, in dieser Herde als eigenständiges Wesen wahrgenommen zu werden.</p>
+          <p class="vb-intro">Der deutsche Schauspieler und Musiker Jimi Blue Ochsenknecht, geboren am 27. Dezember 1991 in München, trägt seinen ungewöhnlichen Namen bereits als erste Familiengeschichte: Bei der Geburt lief sein Gesicht blau an, weil sich die Nabelschnur mehrfach um seinen Hals gewickelt hatte &ndash; daher der Spitzname „Blue", kombiniert mit einer Hommage an Jimi Hendrix. Als Sohn des Schauspielers Uwe Ochsenknecht und des Models und Reality-TV-Stars Natascha Ochsenknecht sowie als Bruder von Wilson Gonzalez und Cheyenne Savannah wuchs er in einer Familie auf, in der das Rampenlicht von Anfang an zum Alltag gehörte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Identität im engsten Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge und Identität gründen sich zuerst auf den engsten, vertrautesten Kreis, nicht auf ein anonymes Publikum. Bei Jimi Blue Ochsenknecht ist dieser Kreis von Anfang an die eigene Familie: Seine erste Filmrolle übernahm er bereits 2000 in Doris Dörries „Erleuchtung garantiert" &ndash; gemeinsam mit Vater Uwe und Bruder Wilson Gonzalez vor der Kamera. Seinen eigentlichen Durchbruch erlebte er als Leon in der Franchise „Die Wilden Kerle", in der er in allen fünf Teilen an der Seite seines Bruders spielte.</p>
+          <p class="vb-intro">Auch später blieb die Familie das zentrale Bezugssystem: Die Reality-Serie „Diese Ochsenknechts" zeigt den Alltag von Natascha Ochsenknecht und ihren Kindern Wilson Gonzalez, Jimi Blue und Cheyenne einem breiten Publikum. Gleichzeitig äußerte Jimi Blue öffentlich, sich innerhalb dieser großen, sichtbaren Familie zeitweise übersehen gefühlt zu haben &ndash; ein typisches SE2-Spannungsfeld: Die eigene Sicherheit hängt am engsten Kreis, doch genau in diesem Kreis um Aufmerksamkeit und einen eigenen Platz zu ringen, ist ungleich schmerzhafter als in der Fremde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Sichtbarkeit als zweite Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, sich zusätzlich zur familiären Basis eine eigene, öffentlich sichtbare Bühne zu erarbeiten. Neben der Schauspielerei verfolgte Jimi Blue Ochsenknecht eine eigenständige Musikkarriere und veröffentlichte 2007 das Album „Mission Blue" &ndash; ein Versuch, sich aus dem Schatten des Familiennamens heraus eine eigene künstlerische Identität aufzubauen.</p>
+          <p class="vb-intro">Zugleich blieb er über Jahre ein fester Bestandteil der deutschen Boulevardberichterstattung: Partyexzesse, eine zeitweise Inhaftierung und wiederkehrende Skandale prägten sein öffentliches Bild neben der schauspielerischen Karriere. 2024 räumte er im Podcast „Leben reicht" offen ein: „Ich habe in den letzten Jahren nicht alles richtig gemacht, war kein gutes Vorbild &ndash; und es gibt viele Dinge, die ich aufarbeiten muss." Der Dreierflügel sorgt dafür, dass auch diese Selbstreflexion öffentlich, nicht im Stillen stattfindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer engen, prägenden Familienbindung eine eigene künstlerische Laufbahn zu entwickeln, ohne diese Bindung völlig zu verlassen &ndash; Jimi Blue Ochsenknecht teilte die entscheidenden Karrierestationen seines Lebens buchstäblich mit Vater und Bruder vor derselben Kamera.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Sichtbarkeit und Zugehörigkeit unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Falle werden, wenn die öffentliche Bühne größer wirkt als die eigene innere Stabilität: Die jahrelangen Skandale und sein eigenes Eingeständnis, kein gutes Vorbild gewesen zu sein, zeigen, wie schwer es sein kann, innerhalb einer Familie zu bestehen, deren gesamtes Leben ohnehin schon öffentlich verhandelt wird. Auch die tiefere Zerrissenheit der weiteren Familie &ndash; etwa der langjährige Bruch zwischen Uwe Ochsenknecht und Tochter Cheyenne &ndash; zeigt, wie fragil das Fundament sein kann, auf dem diese besondere Form der Sichtbarkeit ruht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Zwischen Familienerbe und eigener Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jimi Blue Ochsenknechts Filmografie liest sich über weite Strecken als Familiengeschichte: vom gemeinsamen Leinwanddebüt mit Vater und Bruder bis zur fünfteiligen „Wilde Kerle"-Reihe, die ihn und Wilson Gonzalez einem ganzen Generation von Kinozuschauern bekannt machte. Die Reality-Serie „Diese Ochsenknechts" führt dieses Prinzip konsequent fort: Die Familie selbst wird zum Format, zur Marke, zum fortlaufenden Programm.</p>
+          <p class="vb-intro">Mittlerweile ist er selbst Vater einer Tochter, Snow Elanie &ndash; eine neue, sehr konkrete Bindung, die den engsten Kreis der SE2 um eine weitere Generation erweitert. Das Flusspferd verlässt sein Rudel nicht, selbst wenn es innerhalb dieses Rudels manchmal um Sichtbarkeit ringen muss &ndash; es bleibt, sucht seinen Platz und formt, mit der Zeit, seine eigene, wenn auch eng mit der Familie verwobene Geschichte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60652,6 +60716,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-harnaam-kaur", label:"Porträt: Harnaam Kaur (SE2w3)"},
         {route:"beruehmte-ice-cube", label:"Porträt: Ice Cube (SE2w3)"},
         {route:"beruehmte-jack-ma", label:"Porträt: Jack Ma (SE2w3)"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Porträt: Jimi Blue Ochsenknecht (SE2w3)"},
       ])}
     </div>
   `);
@@ -112337,6 +112402,7 @@ function render() {
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
+      "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
