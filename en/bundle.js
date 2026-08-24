@@ -25697,6 +25697,12 @@ function jimiBlueOchsenknechtPortraitPage() {
           <p class="vb-intro">Today, he is a father himself, to a daughter named Snow Elanie &ndash; a new, very concrete bond that extends the SP2's closest circle into another generation. The hippopotamus doesn't leave its herd, even when it sometimes has to fight for visibility within it &ndash; it stays, seeks its place, and, over time, shapes its own story, even if that story stays closely woven into the family's.</p>
         </blockquote>
 
+        <h2 class="vb-section">6. The Brothers' Parallel: Two Paths Through the Same Fixation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>The return after a crisis:</strong> Jimi Blue responded to his own, publicly fought-out years full of scandal not with withdrawal, but with an active course correction, openly communicated on the podcast <em>Leben reicht</em>. His older brother by two years, Wilson Gonzalez Ochsenknecht (SP2w3), shows the same underlying movement in a far quieter register: after becoming a father himself, he too consciously reprioritized every professional project &ndash; "everything else takes a back seat for now," as he puts it. Neither brother reacts to a personal turning point by disappearing quietly; both respond with a deliberate, publicly visible reprioritization &ndash; a pattern characteristic of the self-preservation Two with a Three-wing.</p>
+          <p class="vb-intro"><strong>The family as a shared stage:</strong> Even in adulthood, both brothers tell their story not separately, but together: in the reality documentary <em>Diese Ochsenknechts</em>, Jimi Blue and Wilson Gonzalez are part of the same format alongside their mother Natascha. For both, their public professional identity remains tied to that same family stage &ndash; willingly and actively shaped by them, not just a point of origin but an ongoing shared project. How closely this pattern already begins at the actual starting point of both careers &ndash; their shared first film appearance and their nearly simultaneous dual strategy of acting and music &ndash; is shown in the portrait of Wilson Gonzalez Ochsenknecht (SP2w3).</p>
+        </blockquote>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
@@ -31668,6 +31674,12 @@ function wilsonGonzalezOchsenknechtPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Wilson Gonzalez Ochsenknecht's path reads as one continuous line: his first film appearance alongside father and brother, his breakthrough with <em>Die Wilden Kerle</em> next to Jimi Blue, his return to his own family story in the reality documentary, and today his own fatherhood as the new fixed point of every professional decision.</p>
           <p class="vb-intro">The hippopotamus doesn't build its territory alone, but together with its own pod, letting that pod grow along with it. Wilson Gonzalez Ochsenknecht's path from child star to multi-hyphenate artist and father shows exactly this pattern: success that is never conceived apart from family, but always in relation to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Brothers' Parallel: Two Paths Through the Same Fixation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>The same first step, at the same time:</strong> For most siblings with similar career paths, there's a gap in time, or a separate route to public life, between each one's first success. Not for Wilson Gonzalez and his brother, two years younger, Jimi Blue Ochsenknecht (SP2w3): both appeared in a film together for the first time in 2000, in front of the same camera, with the same father. For both, their own professional identity didn't emerge alongside the family, but literally out of it, in the same place, at the same moment &ndash; a pattern characteristic of the self-preservation Two: safety and initial visibility aren't conquered alone, but entered together, within the closest circle.</p>
+          <p class="vb-intro"><strong>Two pillars, on almost the same timeline:</strong> The Three-wing, too, shows up in both brothers with almost identical timing: Jimi Blue released his album <em>Mission Blue</em> in 2007; Wilson Gonzalez followed in 2008 with <em>Cookie</em> &ndash; barely a year apart, both built a second, publicly visible stage as musicians alongside their acting careers, rather than settling on a single field. How this shared underlying pattern continues through periods of crisis and through the shared family stage of the reality documentary <em>Diese Ochsenknechts</em> is shown in the portrait of Jimi Blue Ochsenknecht (SP2w3).</p>
         </blockquote>
 
       </div>

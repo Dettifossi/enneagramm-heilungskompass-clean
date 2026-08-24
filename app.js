@@ -60802,6 +60802,12 @@ function wilsonGonzalezOchsenknechtPortraitPage() {
           <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Wilson Gonzalez Ochsenknechts Karriere vom Kinderstar zum Mehrfach-Künstler und Vater zeigt genau dieses Muster: Erfolg, der nie losgelöst von der Familie gedacht wird, sondern immer in Beziehung zu ihr.</p>
         </blockquote>
 
+        <h2 class="vb-section">6. Die Brüder-Parallele: Zwei Wege durch dieselbe Fixierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Derselbe erste Schritt, zur selben Zeit:</strong> Bei den meisten Geschwistern mit ähnlichen Berufswegen liegt zwischen den jeweils ersten Erfolgen ein zeitlicher Abstand oder ein eigener, getrennter Weg zur Öffentlichkeit. Bei Wilson Gonzalez und seinem zwei Jahre jüngeren Bruder Jimi Blue Ochsenknecht (SE2w3) nicht: Beide standen im Jahr 2000 gemeinsam, vor derselben Kamera, mit demselben Vater zum ersten Mal in einem Film. Die eigene berufliche Identität entstand bei beiden nicht neben der Familie, sondern buchstäblich aus ihr heraus, am selben Ort, im selben Moment &ndash; ein Muster, das für die selbsterhaltende Zwei charakteristisch ist: Sicherheit und erste Sichtbarkeit werden nicht allein erobert, sondern im engsten Kreis gemeinsam betreten.</p>
+          <p class="vb-intro"><strong>Zwei Standbeine, fast im gleichen Rhythmus:</strong> Auch der Dreierflügel zeigt sich bei beiden Brüdern in fast identischem Timing: Jimi Blue veröffentlichte 2007 sein Album <em>Mission Blue</em>, Wilson Gonzalez folgte 2008 mit <em>Cookie</em> &ndash; beide bauten sich, kaum ein Jahr auseinander, neben der Schauspielkarriere eine zweite, öffentlich sichtbare Bühne als Musiker auf, statt sich auf ein einziges Feld festzulegen. Wie sich dieses gemeinsame Grundmuster auch in Krisenphasen und in der gemeinsamen Familienbühne der Reality-Doku <em>Diese Ochsenknechts</em> fortsetzt, zeigt das Porträt von Jimi Blue Ochsenknecht (SE2w3).</p>
+        </blockquote>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -61474,6 +61480,12 @@ function jimiBlueOchsenknechtPortraitPage() {
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Brüder-Parallele: Zwei Wege durch dieselbe Fixierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Die Rückkehr nach der Krise:</strong> Jimi Blue reagierte auf die eigenen, öffentlich ausgetragenen Jahre voller Skandale nicht mit Rückzug, sondern mit einer aktiven, im Podcast <em>Leben reicht</em> offen kommunizierten Kurskorrektur. Sein zwei Jahre älterer Bruder Wilson Gonzalez Ochsenknecht (SE2w3) zeigt, bei sehr viel ruhigerem Verlauf, dieselbe Grundbewegung: Nach seiner eigenen Vaterschaft ordnet auch er alle beruflichen Projekte bewusst neu &ndash; „alles andere wird erst mal hintangestellt", wie er selbst sagt. Beide reagieren auf eine persönliche Zäsur nicht mit stillem Verschwinden, sondern mit einer bewussten, öffentlich sichtbaren Neupriorisierung &ndash; ein Muster, das für die selbsterhaltende Zwei mit Dreierflügel charakteristisch ist.</p>
+          <p class="vb-intro"><strong>Die Familie als gemeinsame Bühne:</strong> Auch im Erwachsenenalter erzählen beide Brüder ihre Geschichte nicht getrennt, sondern gemeinsam: In der Reality-Doku <em>Diese Ochsenknechts</em> sind Jimi Blue und Wilson Gonzalez gemeinsam mit ihrer Mutter Natascha Teil desselben Formats. Die öffentliche berufliche Identität bleibt bei beiden an dieselbe Familienbühne gekoppelt &ndash; freiwillig und aktiv mitgestaltet, nicht nur als Herkunft, sondern als fortlaufendes gemeinsames Projekt. Wie eng dieses Muster bereits am eigentlichen Ausgangspunkt beider Karrieren beginnt &ndash; beim gemeinsamen ersten Filmauftritt und der fast zeitgleichen Doppelstrategie aus Schauspiel und Musik &ndash;, zeigt das Porträt von Wilson Gonzalez Ochsenknecht (SE2w3).</p>
         </blockquote>
 
       </div>
