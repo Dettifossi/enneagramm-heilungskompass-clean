@@ -459,6 +459,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Storm Reid – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 2003. American actress, A Wrinkle in Time, Euphoria, The Last of Us. Career as a family project – co-founded a production company with her mother, studies full-time alongside Emmy-winning roles. Animal correspondence: Hippopotamus.",
     land:"USA", tags:["Schauspiel"], gender:"w"},
+{ route:"beruehmte-tom-kaulitz", name:"Tom Kaulitz", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Tom Kaulitz – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1989. German musician and producer, guitarist of Tokio Hotel. Career woven closely with twin brother Bill since childhood, still hosting a hit podcast together today. Animal correspondence: Hippopotamus.",
+    land:"Deutschland", tags:["Musik"], gender:"m"},
 { route:"beruehmte-jack-ma", name:"Jack Ma", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Jack Ma – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1964. Chinese entrepreneur, founder of Alibaba. From free tour guide to English teacher to billionaire – and, after his conflict with Beijing, back to personally supporting teachers. Animal correspondence: Hippopotamus.",
@@ -24976,6 +24980,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function tomKaulitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-tom-kaulitz-portrait.jpg" alt="Tom Kaulitz – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tom Kaulitz</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">German musician &amp; producer, born 1989 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that doesn't claim its territory alone, but builds and defends it within its closest, most trusted bond. For Tom Kaulitz, that bond has existed from birth: he came into the world just ten minutes before his identical twin brother Bill, and has shared with him every territory he's ever staked out.</p>
+          <p class="vb-intro">The German musician Tom Kaulitz was born on September 1, 1989, in Leipzig. When he was seven, his parents divorced; not long after, Gordon Trumper, his mother's new partner and himself a guitarist in the band Fatun, brought a formative musical influence into the family. At age seven, Tom began playing guitar and writing his own music &ndash; the foundation everything else would grow from took shape right in the middle of a family upheaval.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: A Band as an Extended Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete foundation, before it turns outward. For Tom Kaulitz, that foundation was his twin brother from the start: at age ten, the two formed their first band, "Devilish," renamed Tokio Hotel in 2001 after the Japanese city where they especially loved staying on tour.</p>
+          <p class="vb-intro">This close bond continues to this day: since 2021, Tom and Bill have co-hosted the podcast <em>Kaulitz Hills &ndash; Senf aus Hollywood</em>, chatting about private anecdotes and everyday life &ndash; with over a hundred million streams, one of the most successful German-language podcast formats. Care for the closest bond is thus continually reaffirmed and expanded, not just professionally but publicly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Guitarist to Producer Behind the Scenes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build visible, publicly effective success out of a secured foundation. As lead guitarist of Tokio Hotel, Tom Kaulitz became part of one of the most successful German bands of the 2000s, with millions of records sold worldwide. But he didn't stay confined to a purely on-stage role: over the years, he also developed into a songwriter, sound engineer, and producer, contributing behind the scenes to multiple projects.</p>
+          <p class="vb-intro">In 2019, he married model Heidi Klum, after the two had been a couple since 2018 &ndash; a level of media visibility that reached far beyond the music scene. Rather than letting it overwhelm him, Kaulitz deliberately expanded his public presence: through the joint podcast, appearances alongside his wife, and a clearly defined, consistently maintained public role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to build several sustainable roles at once out of a close, familial foundation, without losing the original bond. Today, Tom Kaulitz is not only a musician and producer but also stepfather to the four children Heidi Klum brought into the relationship from her previous marriage &ndash; an additional family responsibility he apparently took on willingly rather than avoided.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and one's own building. In the SP2w3, this pride can become a fusion of one's own identity with one's closest bonds &ndash; whether with a twin brother or a spouse &ndash; rather than establishing oneself as an independent figure apart from them. That Kaulitz remains professionally tied to Bill, even though both could easily fill separate public roles by now, shows this side just as clearly as his strength.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Territory That Grows With Its Closest Bonds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tom Kaulitz's career is hard to tell without naming the people who carried it from the start: his twin brother as a musical partner since childhood, his stepfather as an early musical mentor, his wife as a new, globally visible stage. None of it looks like coincidence &ndash; it reads instead as the consistent continuation of a pattern that began at age seven with a guitar.</p>
+          <p class="vb-intro">The hippopotamus doesn't expand its territory alone, but together with its own pod, letting that pod grow along with it. From founding a band together at age ten to co-hosting a podcast with his twin brother today, Tom Kaulitz has lived out exactly this pattern: success that is never conquered alone, but always shared with the people closest to him.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function stormReidPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25031,6 +25095,7 @@ function stormReidPortraitPage() {
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SP2w3)"},
       ])}
     </div>
   `);
@@ -78158,6 +78223,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
       "beruehmte-quentin-tarantino": quentinTarantinoPortraitPage,
       "beruehmte-storm-reid": stormReidPortraitPage,
+      "beruehmte-tom-kaulitz": tomKaulitzPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,

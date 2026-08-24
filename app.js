@@ -31650,6 +31650,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harnaam Kaur – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1990. Britische Sikh-Aktivistin und Model, PCOS-Botschafterin, erste bärtige Frau auf dem Laufsteg der London Fashion Week. Der eigene Körper als erste Fürsorge, verwandelt in eine international sichtbare Botschaft. Tierentsprechung: Flusspferd.",
     land:"Großbritannien", tags:["Aktivismus","Mode"], gender:"f"},
+{ route:"beruehmte-tom-kaulitz", name:"Tom Kaulitz", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Tom Kaulitz – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1989. Deutscher Musiker und Produzent, Gitarrist von Tokio Hotel. Karriere von Kindheit an eng mit dem Zwillingsbruder Bill verwoben, bis heute gemeinsamer Erfolgspodcast. Tierentsprechung: Flusspferd.",
+    land:"Deutschland", tags:["Musik"], gender:"m"},
 { route:"beruehmte-storm-reid", name:"Storm Reid", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Storm Reid – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 2003. US-amerikanische Schauspielerin, A Wrinkle in Time, Euphoria, The Last of Us. Karriere als Familienprojekt – gründete mit ihrer Mutter eine eigene Produktionsfirma, studiert parallel zu Emmy-prämierten Rollen als Vollzeitstudentin. Tierentsprechung: Flusspferd.",
@@ -43475,12 +43479,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Quentin Tarantino", "Storm Reid", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Quentin Tarantino", "Storm Reid", "Tom Kaulitz", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -60566,6 +60570,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function tomKaulitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tom-kaulitz-portrait.jpg" alt="Tom Kaulitz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tom Kaulitz</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Musiker &amp; Produzent, geb. 1989 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier nicht allein besetzt, sondern im engsten, vertrautesten Verbund aufbaut und verteidigt. Bei Tom Kaulitz ist dieser Verbund von Geburt an gegeben: Er kam nur zehn Minuten vor seinem eineiigen Zwillingsbruder Bill zur Welt und teilte mit ihm von klein auf jedes Terrain, das er sich je erschloss.</p>
+          <p class="vb-intro">Der deutsche Musiker Tom Kaulitz wurde am 1. September 1989 in Leipzig geboren. Als er sieben war, ließen sich seine Eltern scheiden; wenig später kam mit Gordon Trumper, dem neuen Partner der Mutter und selbst Gitarrist der Band Fatun, ein prägender musikalischer Einfluss in die Familie. Mit sieben Jahren begann Tom, Gitarre zu spielen und eigene Musik zu schreiben &ndash; die Basis, aus der später alles Weitere wuchs, entstand mitten in einer familiären Umbruchphase.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Eine Band als verlängerte Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis, bevor sie sich nach außen wendet. Bei Tom Kaulitz war diese Basis von Anfang an sein Zwillingsbruder: Gemeinsam gründeten die beiden mit zehn Jahren ihre erste Band, „Devilish", die 2001 in Tokio Hotel umbenannt wurde &ndash; benannt nach der japanischen Stadt, in der sie sich auf Tour besonders wohlfühlten.</p>
+          <p class="vb-intro">Bis heute lebt diese enge Bindung fort: Seit 2021 betreiben Tom und Bill gemeinsam den Podcast <em>Kaulitz Hills &ndash; Senf aus Hollywood</em>, in dem sie über private Anekdoten und ihren Alltag plaudern &ndash; mit über hundert Millionen Streams eines der erfolgreichsten deutschsprachigen Podcast-Formate. Die Fürsorge für die engste Bindung wird so nicht nur beruflich, sondern auch öffentlich immer wieder neu bestätigt und ausgebaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Gitarristen zum Produzenten hinter der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Als Leadgitarrist von Tokio Hotel wurde Tom Kaulitz Teil einer der erfolgreichsten deutschen Bands der 2000er-Jahre, mit Millionen verkaufter Tonträger weltweit. Doch er blieb nicht bei der reinen Bühnenrolle stehen: Über die Jahre entwickelte er sich zusätzlich zum Songwriter, Toningenieur und Produzenten, der auch hinter den Kulissen an mehreren Projekten mitwirkte.</p>
+          <p class="vb-intro">2019 heiratete er das Model Heidi Klum, nachdem sie sich seit 2018 ein Paar waren &ndash; eine mediale Sichtbarkeit, die weit über die Musikszene hinausreichte. Statt sich davon überrollen zu lassen, baute Kaulitz seine öffentliche Präsenz gezielt aus: mit dem gemeinsamen Podcast, mit Auftritten an der Seite seiner Frau und mit einer klar erkennbaren, konsequent gepflegten öffentlichen Rolle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer engen, familiären Basis heraus mehrere tragfähige Rollen gleichzeitig aufzubauen, ohne die ursprüngliche Bindung zu verlieren. Tom Kaulitz ist heute nicht nur Musiker und Produzent, sondern auch Stiefvater der vier Kinder, die Heidi Klum aus ihrer vorherigen Ehe mit in die Beziehung brachte &ndash; eine zusätzliche familiäre Verantwortung, die er offenbar bereitwillig übernahm, statt sie zu meiden.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Aufbau unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Verschmelzung der eigenen Identität mit den engsten Bindungen werden &ndash; ob mit dem Zwillingsbruder oder mit der Ehepartnerin &ndash;, statt sich als eigenständige Figur unabhängig davon zu etablieren. Dass Kaulitz beruflich weiterhin fest mit Bill verbunden bleibt, obwohl beide längst eigene, unterschiedliche öffentliche Rollen ausfüllen könnten, zeigt diese Seite ebenso wie seine Stärke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Ein Revier, das mit den engsten Bindungen wächst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tom Kaulitz' Karriere lässt sich kaum erzählen, ohne die Menschen zu nennen, die sie von Anfang an mitgetragen haben: der Zwillingsbruder als musikalischer Partner seit Kindertagen, der Stiefvater als früher musikalischer Mentor, die Ehefrau als neue, weltweit sichtbare Bühne. Nichts davon wirkt wie ein Zufall, sondern wie die konsequente Fortsetzung eines Musters, das mit sieben Jahren an der Gitarre begann.</p>
+          <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Von der ersten gemeinsamen Bandgründung mit zehn Jahren bis zum heutigen Podcast mit seinem Zwillingsbruder hat Tom Kaulitz genau dieses Muster gelebt: Erfolg, der nie allein erobert, sondern immer mit den engsten Menschen geteilt wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function stormReidPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60621,6 +60685,7 @@ function stormReidPortraitPage() {
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3)"},
       ])}
     </div>
   `);
@@ -112748,6 +112813,7 @@ function render() {
       "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
       "beruehmte-quentin-tarantino": quentinTarantinoPortraitPage,
       "beruehmte-storm-reid": stormReidPortraitPage,
+      "beruehmte-tom-kaulitz": tomKaulitzPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
