@@ -1339,6 +1339,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Michelle Obama – Social Type 8",
     teaser:"SO8w7 · born 1964. Lawyer, author, former First Lady of the USA (2009–2017). Bestselling author (Becoming). The lion that fights for its pride – and knows to rise when others go low. Animal correspondence: Lion.",
     tags:["Politik"] , gender:"f"},
+{ route:"beruehmte-natascha-ochsenknecht", name:"Natascha Ochsenknecht", added:"2026-08-24", subtyp:"SO8w7",
+    heading:"Natascha Ochsenknecht – Social Type 8",
+    teaser:"SO8w7 · b. 1964 in Düsseldorf. German model, TV personality, and entrepreneur, Diese Ochsenknechts. The connecting center of one of Germany's best-known families – even after divorcing Uwe Ochsenknecht. Animal correspondence: Lion.",
+    land:"Deutschland", tags:["Mode","Fernsehen"], gender:"w"},
 { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
     heading:"Bud Spencer – Social Type 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Actor, swimmer, entrepreneur, family man. Four Fists for a Halleluja. The lion that does not need to roar – it is simply there. Animal correspondence: Lion.",
@@ -25696,6 +25700,7 @@ function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – mother"},
       ])}
     </div>
   `);
@@ -29183,6 +29188,7 @@ function uweOchsenknechtPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – son"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – former wife"},
         {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
       ])}
@@ -31548,6 +31554,66 @@ function toniMorrisonPortraitPage() {
 }
 
 
+function nataschaOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-natascha-ochsenknecht-portrait.jpg" alt="Natascha Ochsenknecht – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natascha Ochsenknecht</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German model, TV personality &amp; entrepreneur, born 1964 &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight &ndash; an animal that doesn't live as a lone fighter, but puts its strength in service of the pride. Few images fit Natascha Ochsenknecht as well: for decades she stood at the center of a sprawling, publicly visible family &ndash; not as a quiet side figure, but as its recognizable head.</p>
+          <p class="vb-intro">The German model Natascha Ochsenknecht, born August 17, 1964, in Düsseldorf, grew up in the Lower Saxon village of Liedingen, where her father was successful in the construction industry. At just fourteen, encouraged by her mother, she began working as a model; at twenty-one, she moved to Munich to pursue the career full-time &ndash; an early, self-determined departure from a sheltered childhood home.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Solidarity as Head of the Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Eight (SO8)</strong> <em>Solidarity</em>: the SO8 puts its strength in service of the group &ndash; the family, the community. It can appear more approachable on the surface than the other Eight subtypes, but anyone who attacks its pride feels the Eight's full force. Through her marriage to actor Uwe Ochsenknecht (1993&ndash;2012) and their three children Wilson Gonzalez, Jimi Blue, and Cheyenne Savannah, Natascha became the publicly recognized central figure of one of Germany's best-known families.</p>
+          <p class="vb-intro">Even after the divorce, she remained this unifying force: with the reality documentary <em>Diese Ochsenknechts</em>, which has followed the everyday life of her and her adult children through four seasons since 2022, she keeps the family together as a visible unit &ndash; even where open conflicts exist within the family, such as between Uwe and daughter Cheyenne. The SO8 doesn't give up belonging to the pride, even when the pride itself is in crisis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Liveliness Over Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the social Eight warmth, optimism, and mobility. Rather than withdrawing after a difficult life phase, Natascha Ochsenknecht consistently translated her experiences into new, visible projects: in 2012 she published her first autobiography, <em>Augen zu und durch</em>, which made the Spiegel bestseller list &ndash; a public, unvarnished processing of her own story rather than a quiet retreat.</p>
+          <p class="vb-intro">She also stayed entrepreneurially active, launching her own fashion and cosmetics lines and appearing in various media roles as a TV personality and author. The SO8w7 rarely stays on the defensive for long &ndash; it actively seeks the next field where it can be visible and effective, rather than letting setbacks hold it back permanently.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Eight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO8w7 is the ability, even after personal ruptures &ndash; a failed marriage, a publicly contested family history &ndash; to hold one's family together as a visible, functioning unit while staying lively and constructive rather than resigning. That she learned of a half-sister's existence while still a teenager also shows early on how complex, never entirely simple, yet central family has always been for her.</p>
+          <p class="vb-intro">The fate pattern of the Eight is <strong>lust</strong> &ndash; in the sense of excess and the drive to live out one's own strength and control. In the SO8w7, this can become a tendency to shape family life publicly and dominantly even when restraint would be more appropriate. The ongoing public disputes within the Ochsenknecht family show how hard it can be for such a strong, binding, visible force to leave private conflicts private.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Family as a Visible Pride</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Natascha Ochsenknecht's path from a young model in Lower Saxony to the central figure of one of Germany's best-known families shows one consistent throughline: not just living family, but actively keeping it visible and held together &ndash; in marriage, after divorce, in books, or in front of a reality-show camera.</p>
+          <p class="vb-intro">The lion doesn't leave its pride when things get difficult &ndash; it stays and defends it, with full force if necessary. Natascha Ochsenknecht's role as the connecting center of her family, through every separation and public conflict, shows exactly this pattern: solidarity that doesn't end when it becomes uncomfortable.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – former husband"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – son"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function michelleObamaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -31601,6 +31667,7 @@ function michelleObamaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7)"},
       ])}
     </div>
   `);
@@ -78309,6 +78376,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-umberto-eco": umbertEcoPortraitPage,
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
+      "beruehmte-natascha-ochsenknecht": nataschaOchsenknechtPortraitPage,
       "beruehmte-sokrates": sokratesPortraitPage,
       "beruehmte-fritz-perls": fritzPerlsPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,

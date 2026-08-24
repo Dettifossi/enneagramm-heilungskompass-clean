@@ -32558,6 +32558,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fritz Perls – Sozialer Typ 8",
     teaser:"SO8w7 · 1893–1970. Psychiater, Mitbegründer der Gestalttherapie. Hot Seat, LSD-Experimente, Esalen-Institut. Der Löwe mit Siebenerflügel: kompromisslose Konfrontation, ungefiltertes Erleben im Hier und Jetzt. Tierentsprechung: Löwe.",
     land:"Deutschland", tags:["Psychologie"], gender:"m"},
+{ route:"beruehmte-natascha-ochsenknecht", name:"Natascha Ochsenknecht", added:"2026-08-24", subtyp:"SO8w7",
+    heading:"Natascha Ochsenknecht – Sozialer Typ 8",
+    teaser:"SO8w7 · geb. 1964 in Düsseldorf. Deutsches Model, TV-Persönlichkeit und Unternehmerin, Diese Ochsenknechts. Verbindendes Zentrum einer der bekanntesten deutschen Familien – auch nach der Scheidung von Uwe Ochsenknecht. Tierentsprechung: Löwe.",
+    land:"Deutschland", tags:["Mode","Fernsehen"], gender:"w"},
   { route:"beruehmte-michelle-obama", name:"Michelle Obama", subtyp:"SO8w7",
     heading:"Michelle Obama \u2013 Sozialer Typ 8",
     teaser:"SO8w7 \u00b7 geb. 1964. Anw\u00e4ltin, Autorin, ehemalige First Lady der USA (2009\u20132017). Bestseller-Autorin (Becoming). Der L\u00f6we, der f\u00fcr sein Rudel k\u00e4mpft \u2013 und der wei\u00df, dass man hochgeht, wenn andere runtergehen. Tierentsprechung: L\u00f6we.",
@@ -43130,12 +43134,12 @@ const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Löwe",
     kernthema: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird (Naranjo: Freundschaft und Bruderschaft)",
-    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank"],
+    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht"],
     fingerabdruecke: [
       {
         titel: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird",
         beschreibung: "Naranjo beschrieb diesen Subtyp als den Typus der ›Freundschaft und Bruderschaft‹: Stärke dient nicht der persönlichen Selbstbehauptung, sondern dem Schutz und Zusammenhalt einer Gemeinschaft, für die man sich verantwortlich fühlt.",
-        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹; Cynthia Lummis, die seit Jahrzehnten für einen der bevölkerungsärmsten und in Washington oft übersehenen US-Bundesstaaten kämpft – konkret für Rancher, Bergarbeiter und Wähler, die sie kennt, statt für ferne ideologische Debatten; Mohammed ibn Abdullah, der als Waise aufwuchs und sich zeitlebens für die Rechtlosesten seiner Gesellschaft einsetzte – Waisen, Witwen, Sklaven; Dr. Laurence Frank, der sein Leben nicht nur den Löwen, sondern zugleich den Massai widmete, die mit ihnen leben mussten – Stärke im Dienst zweier Gemeinschaften zugleich."
+        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹; Cynthia Lummis, die seit Jahrzehnten für einen der bevölkerungsärmsten und in Washington oft übersehenen US-Bundesstaaten kämpft – konkret für Rancher, Bergarbeiter und Wähler, die sie kennt, statt für ferne ideologische Debatten; Mohammed ibn Abdullah, der als Waise aufwuchs und sich zeitlebens für die Rechtlosesten seiner Gesellschaft einsetzte – Waisen, Witwen, Sklaven; Dr. Laurence Frank, der sein Leben nicht nur den Löwen, sondern zugleich den Massai widmete, die mit ihnen leben mussten – Stärke im Dienst zweier Gemeinschaften zugleich; Natascha Ochsenknecht, die auch nach der Scheidung von Uwe Ochsenknecht und trotz offener Konflikte innerhalb der Familie das verbindende Zentrum blieb – zuletzt sichtbar in der gemeinsamen Reality-Doku mit ihren erwachsenen Kindern."
       },
       {
         titel: "Bloße Präsenz genügt – kein ständiges Brüllen nötig",
@@ -47451,6 +47455,7 @@ function uweOchsenknechtPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – ehemalige Ehefrau"},
         {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
       ])}
@@ -50657,6 +50662,7 @@ function michelleObamaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
         {route:"beruehmte-toni-morrison", label:"Portr\u00e4t: Toni Morrison (SE8w9)"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Porträt: Natascha Ochsenknecht (SO8w7)"},
       ])}
     </div>
   `);
@@ -60681,6 +60687,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function nataschaOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-natascha-ochsenknecht-portrait.jpg" alt="Natascha Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natascha Ochsenknecht</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsches Model, TV-Persönlichkeit &amp; Unternehmerin, geb. 1964 &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 &ndash; ein Tier, das nicht als Einzelkämpfer lebt, sondern seine Kraft in den Dienst des Rudels stellt. Kaum ein Bild passt so gut zu Natascha Ochsenknecht: Über Jahrzehnte stand sie im Zentrum einer weitverzweigten, öffentlich sichtbaren Familie &ndash; nicht als stille Randfigur, sondern als deren erkennbares Oberhaupt.</p>
+          <p class="vb-intro">Das deutsche Model Natascha Ochsenknecht, geboren am 17. August 1964 in Düsseldorf, wuchs im niedersächsischen Liedingen auf, wo ihr Vater in der Baubranche erfolgreich war. Bereits mit vierzehn Jahren begann sie, von ihrer Mutter darin bestärkt, als Model zu arbeiten; mit einundzwanzig zog sie nach München, um die Karriere hauptberuflich zu verfolgen &ndash; ein früher, selbstbestimmter Aufbruch aus dem behüteten Elternhaus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarität als Familienoberhaupt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> ist der Subtyp, den Naranjo <em>Solidarität</em> nannte. Die SO8 setzt ihre Kraft in den Dienst der Gruppe &ndash; der Familie, der Gemeinschaft. Sie kann äußerlich zugänglicher wirken als die anderen Acht-Subtypen, doch wer ihr Rudel angreift, bekommt die volle Kraft der Acht zu spüren. Durch ihre Ehe mit dem Schauspieler Uwe Ochsenknecht (1993&ndash;2012) und die gemeinsamen drei Kinder Wilson Gonzalez, Jimi Blue und Cheyenne Savannah wurde Natascha zur öffentlich wahrgenommenen Mittelpunktfigur einer der bekanntesten deutschen Familien.</p>
+          <p class="vb-intro">Auch nach der Scheidung blieb sie diese verbindende Kraft: Mit der Reality-Doku <em>Diese Ochsenknechts</em>, die seit 2022 in mittlerweile vier Staffeln den Alltag von ihr und ihren erwachsenen Kindern begleitet, hält sie die Familie als sichtbare Einheit zusammen &ndash; auch dann, wenn innerhalb der Familie, etwa zwischen Uwe und Tochter Cheyenne, offene Konflikte bestehen. Die SO8 gibt die Zugehörigkeit zum Rudel nicht auf, selbst wenn es innerhalb des Rudels kriselt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Lebendigkeit statt Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sozialen Acht Wärme, Optimismus und Beweglichkeit. Statt sich nach einer belastenden Lebensphase zurückzuziehen, übersetzte Natascha Ochsenknecht ihre Erfahrungen konsequent in neue, sichtbare Projekte: 2012 veröffentlichte sie ihre erste Autobiografie <em>Augen zu und durch</em>, die es auf die Spiegel-Bestsellerliste schaffte &ndash; ein öffentliches, unverblümtes Verarbeiten der eigenen Geschichte statt eines stillen Rückzugs.</p>
+          <p class="vb-intro">Auch unternehmerisch blieb sie aktiv: eigene Mode- und Kosmetiklinien, verschiedene mediale Auftritte als TV-Persönlichkeit und Autorin. Die SO8w7 bleibt selten lange in der Defensive &ndash; sie sucht aktiv das nächste Feld, in dem sie sichtbar und wirksam sein kann, statt sich von Rückschlägen dauerhaft bremsen zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w7 ist die Fähigkeit, auch nach persönlichen Brüchen &ndash; einer gescheiterten Ehe, einer öffentlich ausgetragenen Familiengeschichte &ndash; die eigene Familie als sichtbare, funktionierende Einheit zusammenzuhalten und dabei selbst lebendig und gestaltend zu bleiben, statt zu resignieren. Dass sie schon als Jugendliche von der Existenz einer Halbschwester erfuhr, zeigt zudem früh, wie sehr Familie für sie ein komplexes, nie ganz einfaches, aber zentrales Thema war.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Acht ist die <strong>Lust</strong> &ndash; im Sinne von Übermaß und dem Drang, die eigene Kraft und Kontrolle auszuleben. Bei der SO8w7 kann das zur Tendenz werden, das Familienleben auch dann öffentlich und dominant zu gestalten, wenn Zurückhaltung angebrachter wäre. Die anhaltenden öffentlichen Auseinandersetzungen innerhalb der Familie Ochsenknecht zeigen, wie schwer es für eine so stark bindende, sichtbare Kraft sein kann, private Konflikte auch einmal privat zu belassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine Familie als sichtbares Rudel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Natascha Ochsenknechts Weg vom jungen Model aus Niedersachsen zur zentralen Figur einer der bekanntesten deutschen Familien zeigt eine durchgehende Konstante: die Familie nicht nur zu leben, sondern sie aktiv sichtbar und zusammengehalten zu halten &ndash; ob in der Ehe, nach der Scheidung, in Büchern oder vor der Kamera einer Reality-Serie.</p>
+          <p class="vb-intro">Der Löwe verlässt sein Rudel nicht, wenn es schwierig wird &ndash; er bleibt und verteidigt es, notfalls mit aller Kraft. Natascha Ochsenknechts Rolle als verbindendes Zentrum ihrer Familie, über alle Trennungen und öffentlichen Konflikte hinweg, zeigt genau dieses Muster: Solidarität, die nicht endet, wenn es unbequem wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – ehemaliger Ehemann"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function heidiKlumPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -61286,6 +61352,7 @@ function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
       ])}
     </div>
   `);
@@ -113111,6 +113178,7 @@ function render() {
           "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
           "beruehmte-laurence-frank": laurenceFrankPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
+    "beruehmte-natascha-ochsenknecht": nataschaOchsenknechtPortraitPage,
     "beruehmte-sokrates": sokratesPortraitPage,
     "beruehmte-fritz-perls": fritzPerlsPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,
