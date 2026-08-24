@@ -31727,6 +31727,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Armin Rohde – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1955 in Herne. Schauspieler, ›Manta, Manta‹, ›Der Bulle von Tölz‹. Bodenständigkeit als Fürsorgeprinzip, vom Ruhrpott auf die große Leinwand, ohne die eigenen Wurzeln zu verraten. Tierentsprechung: Flusspferd.",
     land:"Deutschland", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-bob-marley", name:"Bob Marley", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Bob Marley – Sozialer Typ 2",
+    teaser:"SO2w1 · 1945–1981. Jamaikanischer Reggae-Musiker. Vereinte 1978 beim One Love Peace Concert zwei verfeindete politische Rivalen auf offener Bühne – Fürsorge für ein ganzes, von Bandenkrieg zerrissenes Volk. Tierentsprechung: Golden Retriever.",
+    land:"Jamaika", tags:["Musik"], gender:"m"},
   { route:"beruehmte-abd-al-fattah-as-sisi", name:"Abd al-Fattah as-Sisi", added:"2026-08-24", subtyp:"SO2w1",
     heading:"Abd al-Fattah as-Sisi – Sozialer Typ 2",
     teaser:"SO2w1 · geb. 1954 in Kairo. Ägyptischer Feldmarschall und Staatspräsident. Fürsorge als Führungsanspruch für eine ganze Nation – vom Militärputsch 2013 bis zur religiösen Einheitsrhetorik. Tierentsprechung: Golden Retriever.",
@@ -43592,17 +43596,17 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Zuwendung, die nicht dem Einzelnen, sondern der ganzen Gemeinschaft gilt",
-    beispiele: ["Jesus Christus", "Mutter Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Hannah Emde", "Julius Caesar", "Napoleon Bonaparte", "Alexander der Große", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christus", "Mutter Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Hannah Emde", "Julius Caesar", "Napoleon Bonaparte", "Alexander der Große", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Zuwendung, die sich nicht auf Einzelne beschränkt, sondern der ganzen Gemeinschaft gilt",
         beschreibung: "Anders als bei den anderen Zweier-Subtypen richtet sich die Fürsorge nicht auf die eine Beziehung oder die eigene Familie, sondern auf ein Kollektiv – eine Gemeinde, ein Publikum, eine Nation, alle, die gerade in Reichweite sind.",
-        beleg: "Jesus Christus: ›Wo die sexuelle Zwei die eine Person verführt und die selbsterhaltende Zwei die eigene Familie versorgt, richtet sich die soziale Zwei an die Gemeinschaft insgesamt‹; Mutter Meera, die ›über Jahrzehnte täglich hunderte fremde Menschen empfing‹; Zoe Saldaña: ›Ein Tier, das seine Wärme nicht auf eine Person beschränkt, sondern jedem im Rudel gilt‹; Nina Chuba, deren Nähe zu ihrem Publikum ›echt‹ wirkt, ›weil Wärme ihr Wesen ist‹; Mrs. Winifred Charlesworth, die den ersten offiziellen Rassestandard für den Golden Retriever verfasste – ein Dokument im Dienst einer ganzen Zuchtgemeinschaft, nicht eines einzelnen Hundes; Will Smith, der das Publikum nicht nur als Zuschauer brauchte, sondern als Empfänger seiner Energie – die soziale Zwei lebt nicht für sich, sie lebt für die anderen; Hannah Emde, die mit 25 den Verein Nepada Wildlife e.V. gründete und heute als Moderatorin von ›Terra X: Faszination Erde‹ ein Millionenpublikum erreicht – ›was als persönliches Engagement in einem einzelnen Verein begann, wird zur Bühne, auf der Artenschutz einer breiten Öffentlichkeit nahegebracht wird‹."
+        beleg: "Jesus Christus: ›Wo die sexuelle Zwei die eine Person verführt und die selbsterhaltende Zwei die eigene Familie versorgt, richtet sich die soziale Zwei an die Gemeinschaft insgesamt‹; Mutter Meera, die ›über Jahrzehnte täglich hunderte fremde Menschen empfing‹; Zoe Saldaña: ›Ein Tier, das seine Wärme nicht auf eine Person beschränkt, sondern jedem im Rudel gilt‹; Nina Chuba, deren Nähe zu ihrem Publikum ›echt‹ wirkt, ›weil Wärme ihr Wesen ist‹; Mrs. Winifred Charlesworth, die den ersten offiziellen Rassestandard für den Golden Retriever verfasste – ein Dokument im Dienst einer ganzen Zuchtgemeinschaft, nicht eines einzelnen Hundes; Will Smith, der das Publikum nicht nur als Zuschauer brauchte, sondern als Empfänger seiner Energie – die soziale Zwei lebt nicht für sich, sie lebt für die anderen; Hannah Emde, die mit 25 den Verein Nepada Wildlife e.V. gründete und heute als Moderatorin von ›Terra X: Faszination Erde‹ ein Millionenpublikum erreicht – ›was als persönliches Engagement in einem einzelnen Verein begann, wird zur Bühne, auf der Artenschutz einer breiten Öffentlichkeit nahegebracht wird‹; Bob Marley, dessen Songs sich nie an eine einzelne Person richteten, sondern an die Unterdrückten insgesamt – ›eine Botschaft, die von Trenchtown aus jeden Kontinent erreichte, ohne je ihre Wurzeln zu verleugnen‹."
       },
       {
         titel: "Persönliche Nähe als Führungsinstrument – Verbindung statt Distanz zur Machtsicherung",
         beschreibung: "Führung entsteht nicht durch Einschüchterung oder Distanz, sondern durch das gezielte Investieren in unzählige einzelne Beziehungen, die sich am Ende zu enormer kollektiver Bindung summieren.",
-        beleg: "Julius Caesar: ›Wo ein sparsamer Stratege Rücklagen gebildet hätte, investierte die soziale Zwei in Beziehung. Das Kapital, das er aufbaute, war kein Geld – es war Zuneigung, Loyalität‹; Napoleon, der ›die Namen seiner Soldaten kannte, sie direkt ansprach‹; Alexander der Große, der ›Verwundete persönlich besuchte‹ – ›Verbindung schlägt Zwang‹; Barack Obama: ›Er tritt in einen Raum und lässt ihn größer werden.‹; Abd al-Fattah as-Sisi, der seine Machtübernahme nicht als Zwang, sondern als gemeinsame nationale Kraftanstrengung inszenierte – vom persönlichen Besuch eines koptischen Weihnachtsgottesdienstes bis zur Mitfinanzierung der neuen Hauptstadt durch Staatsanleihen an die eigene Bevölkerung: ›Nicht ich allein baue das Land auf – wir alle bauen es gemeinsam auf, unter meiner Führung.‹"
+        beleg: "Julius Caesar: ›Wo ein sparsamer Stratege Rücklagen gebildet hätte, investierte die soziale Zwei in Beziehung. Das Kapital, das er aufbaute, war kein Geld – es war Zuneigung, Loyalität‹; Napoleon, der ›die Namen seiner Soldaten kannte, sie direkt ansprach‹; Alexander der Große, der ›Verwundete persönlich besuchte‹ – ›Verbindung schlägt Zwang‹; Barack Obama: ›Er tritt in einen Raum und lässt ihn größer werden.‹; Abd al-Fattah as-Sisi, der seine Machtübernahme nicht als Zwang, sondern als gemeinsame nationale Kraftanstrengung inszenierte – vom persönlichen Besuch eines koptischen Weihnachtsgottesdienstes bis zur Mitfinanzierung der neuen Hauptstadt durch Staatsanleihen an die eigene Bevölkerung: ›Nicht ich allein baue das Land auf – wir alle bauen es gemeinsam auf, unter meiner Führung.‹; Bob Marley, der 1978 beim One Love Peace Concert zwei erbitterte politische Rivalen mitten im Song auf die Bühne holte und ihre Hände gemeinsam über seinem Kopf in die Höhe hielt – keine Machtdemonstration, sondern der Versuch, ein zerrissenes Land allein durch eine gemeinsame Geste zu verbinden."
       },
       {
         titel: "Hinter der Warmherzigkeit steckt erhebliche innere Kraft, die sich zeigt, wenn es darauf ankommt",
@@ -64035,6 +64039,71 @@ function barackObamaPortraitPage() {
   `);
 }
 
+
+function bobMarleyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bob-marley-portrait.jpg" alt="Bob Marley – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bob Marley</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Jamaikanischer Musiker &amp; Begründer des Reggae-Weltruhms, 1945&ndash;1981 &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das jeden Raum wärmt, den es betritt, und das seine Kraft in den Dienst der ganzen Gemeinschaft stellt. Kaum jemand hat diese Energie so weltweit spürbar gemacht wie Bob Marley: ein Mann, der aus den ärmsten Verhältnissen Jamaikas kam und dessen Musik heute auf jedem Kontinent als Botschaft der Verbundenheit gehört wird.</p>
+          <p class="vb-intro">Robert Nesta Marley wurde am 6. Februar 1945 im Dorf Nine Mile in Jamaika geboren, als Sohn eines weißen britischen Marineoffiziers, der die Familie bald verließ, und einer jungen Jamaikanerin. Er wuchs in ärmlichen Verhältnissen auf, zunächst auf dem Land, später im Armenviertel Trenchtown in Kingston &ndash; einem Ort, der ihn zeitlebens prägte und den er nie verleugnete, selbst als er längst ein Weltstar war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Fürsorge für ein ganzes Volk, nicht für Einzelne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> lenkt ihre Fürsorge nicht auf einzelne Beziehungen, sondern auf gesellschaftliche Wirksamkeit. Naranjo nannte diesen Subtyp <em>Ambition</em>: den Antrieb, durch Einfluss und Ausstrahlung für eine ganze Gruppe zu sorgen. Marleys Musik war von Beginn an genau darauf ausgerichtet: Songs wie <em>Get Up, Stand Up</em>, <em>War</em> oder <em>Redemption Song</em> richten sich nicht an eine Person, sondern an die Unterdrückten insgesamt &ndash; an die schwarze Bevölkerung Jamaikas, an die Armen, an alle, die sich nicht gehört fühlten.</p>
+          <p class="vb-intro">Am deutlichsten zeigte sich dieser Zug im April 1978 beim <em>One Love Peace Concert</em> in Kingston: Mitten im Song <em>Jamming</em> holte Marley die beiden verfeindeten politischen Rivalen Michael Manley und Edward Seaga auf die Bühne und hielt ihre Hände gemeinsam über seinem Kopf in die Höhe &ndash; ein Bild, das um die Welt ging. <em>Ich will nur zeigen, dass wir uns vereinen müssen</em>, sagte er dazu. Keine private Geste, sondern der Versuch, ein ganzes, von Bandenkrieg zerrissenes Land zu versöhnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Rastafari als moralische Gewissheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine innere Achse aus Überzeugung und dem Bedürfnis, im Einklang mit einer höheren Ordnung zu handeln, statt sich im bloßen Werben um Zustimmung zu verlieren. Bei Marley zeigte sich das 1966, als er zum Rastafari-Glauben konvertierte &ndash; einer Bewegung, die sich auf die Bibel beruft, gegen die Unterdrückung Schwarzer kämpft und auf eine geistige Rückkehr nach Afrika hofft. Von da an war seine Musik nicht mehr nur Unterhaltung, sondern Verkündigung einer moralischen Wahrheit, an der er nicht rüttelte.</p>
+          <p class="vb-intro">Diese Kompromisslosigkeit zeigte sich auch, als im Dezember 1976 bewaffnete Männer zwei Tage vor dem von der Regierung organisierten <em>Smile Jamaica</em>-Konzert in sein Haus eindrangen und auf ihn, seine Frau Rita und mehrere Begleiter schossen. Marley wurde am Arm getroffen, überlebte knapp &ndash; und trat zwei Tage später trotzdem auf, mit der Kugel noch im Arm. Der Einserflügel ließ ihn nicht vom eingeschlagenen Weg abweichen, selbst unter Lebensgefahr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Aufstieg: Von Trenchtown zur Weltbühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit den Wailers, gegründet gemeinsam mit Bunny Wailer und Peter Tosh, brachte Marley den Reggae in den 1970er-Jahren aus Jamaika hinaus in die ganze Welt. Alben wie <em>Catch a Fire</em>, <em>Exodus</em> und <em>Uprising</em> machten ihn zum ersten globalen Superstar aus der sogenannten Dritten Welt &ndash; ein Aufstieg, der nie von seinen Wurzeln in Trenchtown losgelöst war, sondern sie immer wieder ausdrücklich zum Thema machte.</p>
+          <p class="vb-intro">Zeitschriften wählten <em>Exodus</em> später zum bedeutendsten Album des 20. Jahrhunderts. Doch Marley blieb dabei, seine Musik als Werkzeug für ein größeres Anliegen zu verstehen, nicht als Selbstzweck: Ruhm war für ihn die Reichweite, mit der sich mehr Menschen erreichen ließen &ndash; die SO2w1 in ihrer klarsten Form, Einfluss im Dienst einer Überzeugung, nicht im Dienst der eigenen Person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w1 ist die Fähigkeit, aus einer tiefen moralischen Überzeugung heraus Brücken zu bauen, wo andere nur Lager sehen. Dass ein einzelner Musiker zwei erbitterte politische Gegner mitten im jamaikanischen Bandenkrieg für einen Moment auf derselben Bühne vereinen konnte, zeigt diese Kraft in ihrer eindrücklichsten Form &ndash; nicht durch Macht erzwungen, sondern durch die Ausstrahlung einer Botschaft, der sich in diesem Moment niemand entziehen wollte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das Wohl anderer unentbehrlich zu sein. Verbunden mit dem Einserflügel kann daraus eine Gewissheit werden, im moralischen Recht zu sein, die auch das eigene Leben unterordnet: Marley ignorierte über Jahre gesundheitliche Warnzeichen, darunter ein 1977 entdecktes malignes Melanom an der Zehe, dessen dringend empfohlene Amputation er aus religiösen Gründen ablehnte. Er tourte weiter, bis der Krebs sich ausgebreitet hatte, und starb am 11. Mai 1981 im Alter von nur 36 Jahren &ndash; dieselbe Unbedingtheit, die ihn zur moralischen Instanz machte, ließ ihn auch die eigene Erkrankung dem übergeordneten Auftrag unterordnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Fürsorge, die auch sich selbst einschließt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Was kann ich für andere tun?</em> zur Frage <em>Was bin ich, wenn ich nicht gebraucht werde?</em> Für die SO2w1 bedeutet das insbesondere, die eigene moralische Gewissheit nicht über die eigenen körperlichen Grenzen zu stellen &ndash; und zu erkennen, dass Fürsorge für ein ganzes Volk am Ende auch Fürsorge für den eigenen Körper einschließen muss, um überhaupt tragfähig zu bleiben.</p>
+          <p class="vb-intro">Bob Marleys Vermächtnis zeigt, wie weit dieser Weg reichen kann, auch wenn er selbst ihn nicht bis ans Ende gehen konnte: Songs wie <em>One Love</em> und <em>Redemption Song</em> werden bis heute weltweit als Hymnen der Verbundenheit gesungen, weit über Jamaika und den Reggae hinaus. Der Golden Retriever, der sein ganzes, kurzes Leben der Botschaft widmete, dass Menschen einander mehr verbindet als trennt &ndash; und der genau damit eine Wärme hinterließ, die seinen eigenen Tod weit überdauert hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-albert-schweitzer", label:"Portrait: Dr. Albert Schweitzer (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
 
 function abdAlFattahAsSisiPortraitPage() {
   return shell(`
@@ -113891,6 +113960,7 @@ function render() {
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
+      "beruehmte-bob-marley": bobMarleyPortraitPage,
       "beruehmte-abd-al-fattah-as-sisi": abdAlFattahAsSisiPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
