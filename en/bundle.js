@@ -6402,6 +6402,28 @@ function zungenstreckUebungPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Tongue-Stretch Exercise and the Enneagram: Effect on All Three Centers</h2>
+        <p class="vb-intro">The Enneagram divides personalities into three great centers of intelligence and coping strategy: the Head Center (Types 5, 6, 7), the Heart Center (Types 2, 3, 4), and the Body or Gut Center (Types 8, 9, 1). Each center reacts to stress in its own distinct way – and that is exactly why the tongue-stretch exercise works equally well for all three: it doesn't target a particular thinking or feeling strategy, but reaches directly into the nervous system that underlies all three centers alike, serving as a powerful lever for stepping out of entrenched patterns.</p>
+
+        <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 .5rem;color:var(--ink);">1. The Head Center (Types 5, 6, 7): From the Mental Carousel Back Into the Body</h3>
+        <p class="vb-intro"><strong>The pattern under stress:</strong> Mental types tend to lose themselves in their thoughts under uncertainty or pressure. Analyzing, worrying (Type 6), planning out alternatives (Type 7), or withdrawing into an ivory tower (Type 5) replaces actually taking action. The nervous system stays stuck in constant-alert mode, while the body is completely forgotten.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>The effect of the exercise:</strong> A 30-second tongue exercise acts here like a sudden "circuit breaker." It abruptly interrupts the endless mental replay, forces the mind back into the present moment through an intense physical stimulus, and immediately grounds the overheated head-energy in the physical body.</p>
+
+        <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 .5rem;color:var(--ink);">2. The Heart Center (Types 2, 3, 4): Shedding Image and Emotional Pressure</h3>
+        <p class="vb-intro"><strong>The pattern under stress:</strong> Feeling-oriented types circle intensely around their emotional self-image and other people's reactions. Type 2 wants to be indispensable, Type 3 wants to shine through achievement, and Type 4 often suffers from an inner melancholy and a sense of never being enough. Under stress, enormous emotional tension builds up, frequently showing up physically in the chest and throat – trouble swallowing, a tightened-feeling throat.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>The effect of the exercise:</strong> Sticking the tongue far out is, at its core, a deeply emotional act of un-bounding: it breaks with any perfect image, releases the pressure to "look good," and recalls a playful lightness much like Einstein's own gesture. It opens the throat both symbolically and physically, dissolves the emotional lump in the throat, and helps release the weight of other people's expectations.</p>
+
+        <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 .5rem;color:var(--ink);">3. The Body/Gut Center (Types 8, 9, 1): Releasing Deep Resistance and Control</h3>
+        <p class="vb-intro"><strong>The pattern under stress:</strong> Gut types respond to stress instinctively with anger, control, or withdrawal. Type 8 goes straight into confrontation, Type 1 falls into rigid perfectionism and inner judgment, and Type 9 numbs conflict and slides into passive inertia. All of it settles deep down as muscular armoring in the jaw, neck, and abdomen – teeth grinding, a locked, unyielding bite.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>The effect of the exercise:</strong> Because gut types regulate stress so strongly through physical tension, the tongue exercise addresses their core issue directly: physical control. Maximally stretching the jaw and tongue muscles breaks open the physical "bite reflex." It signals to an often unyielding system a deliberate letting-go of hardness, lowers the adrenaline-driven fight tone, and opens the way for genuine relaxation.</p>
+
+        <p class="vb-intro" style="margin-top:1.2rem;">What's notable here: the exercise needs no knowledge of one's own subtype or core type to work – it bypasses the head-driven self-analysis that, especially for head types, can itself become just another avoidance strategy, and instead acts directly on the nervous system all nine types share.</p>
+
+        <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 .5rem;color:var(--ink);">Takeaway for Enneagram Work</h3>
+        <p class="vb-intro">Whatever type you belong to: Enneagram work can sometimes be painfully confronting when it turns the light on your own blind spots. This gesture combines deep body work via the vagus nerve with a healthy dose of self-irony – perfect for not taking one's own personality too seriously.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendations</h2>
         <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
           <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;

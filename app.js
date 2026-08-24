@@ -36685,6 +36685,28 @@ function zungenstreckUebungPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Zungenstreck-Übung und das Enneagramm: Wirkung auf alle drei Zentren</h2>
+        <p class="vb-intro">Das Enneagramm unterteilt Persönlichkeiten in drei große Zentren der Intelligenz und der Bewältigungsstrategien: das Kopf-Zentrum (Typ 5, 6, 7), das Herz-Zentrum (Typ 2, 3, 4) und das Körper- bzw. Bauch-Zentrum (Typ 8, 9, 1). Jedes Zentrum reagiert auf Stress auf eine ganz eigene Art – und genau darin liegt der Grund, warum die Zungenstreck-Übung für alle drei gleichermaßen wirkt: Sie setzt nicht bei einer bestimmten Denk- oder Gefühlsstrategie an, sondern direkt beim Nervensystem, das allen drei Zentren gemeinsam zugrunde liegt, und dient so als wirksamer Hebel, um aus festgefahrenen Mustern auszusteigen.</p>
+
+        <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 .5rem;color:var(--ink);">1. Das Kopf-Zentrum (Typ 5, 6, 7): Vom mentalen Karussell in den Körper</h3>
+        <p class="vb-intro"><strong>Das Muster unter Stress:</strong> Mentale Typen neigen dazu, sich bei Unsicherheit oder Druck in ihren Gedanken zu verlieren. Analysieren, sich sorgen (Typ 6), Alternativen durchplanen (Typ 7) oder sich in den Elfenbeinturm zurückziehen (Typ 5) tritt an die Stelle des Handelns. Das Nervensystem bleibt im Dauer-Modus, während der Körper dabei völlig vergessen wird.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>Die Wirkung der Übung:</strong> Eine 30-sekündige Zungenübung wirkt hier wie ein plötzlicher „Sicherungsschalter". Sie unterbricht das unaufhörliche Kopfkino abrupt, zwingt den Verstand durch einen intensiven physischen Reiz in den gegenwärtigen Moment zurück und erdet die im Kopf überhitzte Energie sofort im physischen Körper.</p>
+
+        <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 .5rem;color:var(--ink);">2. Das Herz-Zentrum (Typ 2, 3, 4): Das Abstreifen von Image und emotionalem Druck</h3>
+        <p class="vb-intro"><strong>Das Muster unter Stress:</strong> Gefühlsorientierte Typen kreisen stark um ihr emotionales Selbstbild und die Reaktionen anderer. Typ 2 will unverzichtbar sein, Typ 3 über Leistung glänzen, Typ 4 leidet oft an innerer Melancholie und dem Gefühl, nicht zu genügen. Unter Stress staut sich enorme emotionale Anspannung an, die sich häufig physisch im Brust- und Halsbereich bemerkbar macht – Schluckbeschwerden, eine wie zugeschnürte Kehle.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>Die Wirkung der Übung:</strong> Das weite Herausstrecken der Zunge ist im Grunde ein hochemotionaler Akt der Entgrenzung: Es bricht mit jedem perfekten Image, nimmt den Druck, „gut dastehen zu müssen", und erinnert an eine spielerische Leichtigkeit, wie sie auch Einsteins Geste vermittelt. Es öffnet symbolisch wie körperlich den Halsraum, löst den emotionalen Kloß und hilft, sich von der Last äußerer Erwartungen frei zu machen.</p>
+
+        <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 .5rem;color:var(--ink);">3. Das Körper- bzw. Bauch-Zentrum (Typ 8, 9, 1): Das Lösen von tiefem Widerstand und Kontrolle</h3>
+        <p class="vb-intro"><strong>Das Muster unter Stress:</strong> Bauch-Typen reagieren auf Stress instinktiv mit Wut, Kontrolle oder Rückzug. Typ 8 geht in den direkten Kampf, Typ 1 verfällt in starren Perfektionismus und innere Verurteilung, Typ 9 betäubt Konflikte und rutscht in eine passive Trägheit. All das speichert sich tief als muskuläre Panzerung im Kiefer, Nacken und Unterleib ab – Zähneknirschen, ein fester, unnachgiebiger Biss.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>Die Wirkung der Übung:</strong> Da Bauch-Typen Stress stark über körperliche Spannung regulieren, setzt die Zungenübung direkt an ihrem Hauptthema an: der körperlichen Kontrolle. Das maximale Dehnen der Kiefer- und Zungenmuskulatur bricht den physischen „Beißreflex" auf. Es signalisiert dem oft unnachgiebigen System ein bewusstes Loslassen von Härte, senkt den adrenalingetriebenen Kampftonus und öffnet den Weg für echte Entspannung.</p>
+
+        <p class="vb-intro" style="margin-top:1.2rem;">Bemerkenswert dabei: Die Übung braucht kein Wissen über den eigenen Subtyp oder Grundtyp, um zu wirken – sie umgeht die kopfgesteuerte Selbstanalyse, die gerade bei Kopf-Typen selbst schon wieder zur Vermeidungsstrategie werden kann, und setzt stattdessen unmittelbar am Nervensystem an, das allen neun Typen gemeinsam ist.</p>
+
+        <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 .5rem;color:var(--ink);">Fazit für die Enneagramm-Arbeit</h3>
+        <p class="vb-intro">Egal welchem Typ man angehört: Die Enneagramm-Arbeit kann mitunter schmerzhaft konfrontierend sein, wenn man auf die eigenen blinden Flecken blickt. Die Geste verbindet tiefe Körperarbeit über den Vagusnerv mit einer gesunden Prise Selbstironie – perfekt, um die eigene Persönlichkeit nicht zu bierernst zu nehmen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps</h2>
         <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
           <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
