@@ -32558,6 +32558,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fritz Perls – Sozialer Typ 8",
     teaser:"SO8w7 · 1893–1970. Psychiater, Mitbegründer der Gestalttherapie. Hot Seat, LSD-Experimente, Esalen-Institut. Der Löwe mit Siebenerflügel: kompromisslose Konfrontation, ungefiltertes Erleben im Hier und Jetzt. Tierentsprechung: Löwe.",
     land:"Deutschland", tags:["Psychologie"], gender:"m"},
+{ route:"beruehmte-wilson-gonzalez-ochsenknecht", name:"Wilson Gonzalez Ochsenknecht", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Wilson Gonzalez Ochsenknecht – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1990. Deutscher Schauspieler und Musiker, Die Wilden Kerle, Späti. Erster Filmauftritt mit zehn Jahren gemeinsam mit Vater und Bruder, seither Karriere zwischen Schauspiel, Musik und eigener Familie. Tierentsprechung: Flusspferd.",
+    land:"Deutschland", tags:["Schauspiel","Musik"], gender:"m"},
 { route:"beruehmte-natascha-ochsenknecht", name:"Natascha Ochsenknecht", added:"2026-08-24", subtyp:"SO8w7",
     heading:"Natascha Ochsenknecht – Sozialer Typ 8",
     teaser:"SO8w7 · geb. 1964 in Düsseldorf. Deutsches Model, TV-Persönlichkeit und Unternehmerin, Diese Ochsenknechts. Verbindendes Zentrum einer der bekanntesten deutschen Familien – auch nach der Scheidung von Uwe Ochsenknecht. Tierentsprechung: Löwe.",
@@ -43593,12 +43597,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Quentin Tarantino", "Storm Reid", "Tom Kaulitz", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Wilson Gonzalez Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Quentin Tarantino", "Storm Reid", "Tom Kaulitz", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; sein älterer Bruder Wilson Gonzalez Ochsenknecht, der genau diesen ersten Filmauftritt mit zehn Jahren gemeinsam mit Vater und Bruder erlebte und heute als selbst gewordener Vater alle beruflichen Projekte bewusst der eigenen Tochter unterordnet; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -47455,6 +47459,7 @@ function uweOchsenknechtPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – ehemalige Ehefrau"},
         {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
@@ -60687,6 +60692,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function wilsonGonzalezOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wilson-gonzalez-ochsenknecht-portrait.jpg" alt="Wilson Gonzalez Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wilson Gonzalez Ochsenknecht</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schauspieler &amp; Musiker, geb. 1990 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier fest im engsten Familienverbund aufbaut und von dort aus in die Welt hinauswächst. Wilson Gonzalez Ochsenknecht trägt dieses Muster bereits im Namen: benannt nach der Soul-Legende Wilson Pickett, mit dem augenzwinkernden Zusatz Gonzalez als Verweis auf die Zeichentrickfigur Speedy Gonzales &ndash; ein Name, der von Anfang an von der Vorliebe und dem Humor seiner Eltern erzählt.</p>
+          <p class="vb-intro">Der deutsche Schauspieler Wilson Gonzalez Ochsenknecht wurde am 18. März 1990 in München geboren, als ältester Sohn von Uwe und Natascha Ochsenknecht. Gemeinsam mit seinem zwei Jahre jüngeren Bruder Jimi Blue und der später geborenen Schwester Cheyenne wuchs er in einer Familie auf, in der Schauspiel und öffentliche Sichtbarkeit von Anfang an zum Alltag gehörten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der erste Schritt gemeinsam mit dem Vater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Wilson Gonzalez Ochsenknecht war dieser Kreis von Beginn an die eigene Familie: Mit zehn Jahren stand er erstmals gemeinsam mit seinem Vater Uwe und seinem Bruder Jimi Blue in Doris Dörries <em>Erleuchtung garantiert</em> vor der Kamera &ndash; der erste berufliche Schritt geschah nicht allein, sondern buchstäblich Seite an Seite mit den engsten Bezugspersonen.</p>
+          <p class="vb-intro">Bekannt wurde er wenig später mit der Kinderfilmreihe <em>Die Wilden Kerle</em>, in der er gemeinsam mit Jimi Blue eine ganze Generation deutscher Kinogänger prägte. Dieses Prinzip setzt sich bis heute fort: Seit gut einem Jahr ist er selbst Vater, und nach eigener Aussage werden Drehs und Projekte inzwischen immer zuerst mit Blick auf seine Tochter geplant &ndash; „alles andere wird erst mal hintangestellt". Die engste familiäre Basis bleibt der Ausgangspunkt für jede berufliche Entscheidung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Kinderstar zum Mehrfach-Künstler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg in mehreren Feldern aufzubauen. Zwischen 2006 und 2007 besuchte Wilson Gonzalez Ochsenknecht die California Art Academy in Los Angeles und sammelte dort neben dem Schauspiel auch erste Erfahrungen im Musikgeschäft; im Mai 2008 erschien mit <em>Cookie</em> sein erstes Album im Alternative-Pop-Rock-Genre.</p>
+          <p class="vb-intro">Seither hat er sich über die reine Schauspielrolle hinaus zum Mehrfach-Künstler entwickelt: als Musiker, als Entwickler eigener Serienformate und 2025 mit der Hauptrolle in der ZDF-Sitcom <em>Späti</em> auch wieder verstärkt vor der Kamera. Der Dreierflügel fragt immer wieder: Wie baue ich aus dem, was ich kann, mehrere sichtbare Standbeine, statt mich auf eines zu beschränken?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer kindlichen Karriere, die eng mit der eigenen Familie verwoben war, eine eigenständige, vielseitige künstlerische Identität zu entwickeln, ohne die familiäre Basis dabei zu verlieren. Wilson Gonzalez Ochsenknecht sagt selbst, dass durch die gemeinsame Reality-Doku <em>Diese Ochsenknechts</em> „ein positiveres Bild" der Familie entstanden sei &ndash; ein aktiver Beitrag zur eigenen Familienerzählung, statt sie anderen zu überlassen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Einsatz unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Notwendigkeit werden, mehrere Rollen gleichzeitig auszufüllen &ndash; Schauspieler, Musiker, Serienentwickler, Vater &ndash;, statt sich auf eine zu konzentrieren. Dass er inzwischen bewusst Prioritäten setzt und Projekte der eigenen Tochter unterordnet, zeigt eine reife Form dieses Musters: Fürsorge, die sich selbst begrenzt, statt sich zu verzetteln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine Karriere, die mit der Familie beginnt und mit ihr weiterwächst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wilson Gonzalez Ochsenknechts Weg lässt sich als durchgehende Linie lesen: der erste Filmauftritt gemeinsam mit Vater und Bruder, der Durchbruch mit <em>Die Wilden Kerle</em> an der Seite von Jimi Blue, die Rückkehr zur eigenen Familiengeschichte in der Reality-Doku, und heute die eigene Vaterschaft als neuer Fixpunkt aller beruflichen Entscheidungen.</p>
+          <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Wilson Gonzalez Ochsenknechts Karriere vom Kinderstar zum Mehrfach-Künstler und Vater zeigt genau dieses Muster: Erfolg, der nie losgelöst von der Familie gedacht wird, sondern immer in Beziehung zu ihr.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Bruder"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – Vater"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
+      ])}
+    </div>
+  `);
+}
+
 function nataschaOchsenknechtPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60741,6 +60806,7 @@ function nataschaOchsenknechtPortraitPage() {
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – ehemaliger Ehemann"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
       ])}
     </div>
@@ -61352,6 +61418,7 @@ function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Bruder"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
       ])}
     </div>
@@ -113179,6 +113246,7 @@ function render() {
           "beruehmte-laurence-frank": laurenceFrankPortraitPage,
     "beruehmte-michelle-obama": michelleObamaPortraitPage,
     "beruehmte-natascha-ochsenknecht": nataschaOchsenknechtPortraitPage,
+    "beruehmte-wilson-gonzalez-ochsenknecht": wilsonGonzalezOchsenknechtPortraitPage,
     "beruehmte-sokrates": sokratesPortraitPage,
     "beruehmte-fritz-perls": fritzPerlsPortraitPage,
           "beruehmte-jamaica-kincaid": jamaicaKincaidPortraitPage,

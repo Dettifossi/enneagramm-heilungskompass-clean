@@ -1343,6 +1343,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Natascha Ochsenknecht – Social Type 8",
     teaser:"SO8w7 · b. 1964 in Düsseldorf. German model, TV personality, and entrepreneur, Diese Ochsenknechts. The connecting center of one of Germany's best-known families – even after divorcing Uwe Ochsenknecht. Animal correspondence: Lion.",
     land:"Deutschland", tags:["Mode","Fernsehen"], gender:"w"},
+{ route:"beruehmte-wilson-gonzalez-ochsenknecht", name:"Wilson Gonzalez Ochsenknecht", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Wilson Gonzalez Ochsenknecht – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1990. German actor and musician, Die Wilden Kerle, Späti. First film appearance at ten alongside father and brother, career since spanning acting, music, and his own family. Animal correspondence: Hippopotamus.",
+    land:"Deutschland", tags:["Schauspiel","Musik"], gender:"m"},
 { route:"beruehmte-bud-spencer", name:"Bud Spencer", subtyp:"SO8w9",
     heading:"Bud Spencer – Social Type 8",
     teaser:"SO8w9 · Carlo Pedersoli, 1929–2016. Actor, swimmer, entrepreneur, family man. Four Fists for a Halleluja. The lion that does not need to roar – it is simply there. Animal correspondence: Lion.",
@@ -25700,6 +25704,7 @@ function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SP2w3) – brother"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – mother"},
       ])}
     </div>
@@ -29188,6 +29193,7 @@ function uweOchsenknechtPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – son"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SP2w3) – son"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – former wife"},
         {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
@@ -31554,6 +31560,66 @@ function toniMorrisonPortraitPage() {
 }
 
 
+function wilsonGonzalezOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-wilson-gonzalez-ochsenknecht-portrait.jpg" alt="Wilson Gonzalez Ochsenknecht – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wilson Gonzalez Ochsenknecht</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">German actor &amp; musician, born 1990 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that builds its territory firmly within its closest family bond and grows out into the world from there. Wilson Gonzalez Ochsenknecht carries this pattern in his very name: named after soul legend Wilson Pickett, with the tongue-in-cheek addition Gonzalez as a nod to the cartoon character Speedy Gonzales &ndash; a name that, from the start, tells of his parents' taste and humor.</p>
+          <p class="vb-intro">The German actor Wilson Gonzalez Ochsenknecht was born on March 18, 1990, in Munich, the eldest son of Uwe and Natascha Ochsenknecht. Alongside his brother Jimi Blue, two years younger, and his later-born sister Cheyenne, he grew up in a family where acting and public visibility were part of everyday life from the start.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: A First Step Taken Alongside His Father</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete foundation and closest circle, before it turns outward. For Wilson Gonzalez Ochsenknecht, that circle was his family from the very beginning: at age ten, he stood in front of a camera for the first time alongside his father Uwe and brother Jimi Blue in Doris Dörrie's <em>Erleuchtung garantiert</em> &ndash; his first professional step happened not alone, but literally side by side with his closest people.</p>
+          <p class="vb-intro">He became widely known shortly after with the children's film series <em>Die Wilden Kerle</em>, in which he and Jimi Blue shaped an entire generation of German moviegoers. This principle continues to this day: for about a year now he has been a father himself, and by his own account, shoots and projects are now always planned with his daughter in mind first &ndash; "everything else takes a back seat for now." The closest family foundation remains the starting point for every professional decision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Child Star to Multi-Hyphenate Artist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build visible, publicly effective success across several fields out of a secured foundation. Between 2006 and 2007, Wilson Gonzalez Ochsenknecht attended the California Art Academy in Los Angeles, where he gained early experience in the music business alongside acting; in May 2008, his debut album <em>Cookie</em>, an alternative pop-rock record, was released.</p>
+          <p class="vb-intro">Since then, he has developed well beyond a purely acting role into a multi-hyphenate artist: as a musician, as a developer of his own series formats, and in 2025, with the lead role in the ZDF sitcom <em>Späti</em>, back in front of the camera in force as well. The Three-wing keeps asking: how do I build several visible pillars out of what I can do, instead of limiting myself to just one?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to develop an independent, versatile artistic identity out of a childhood career closely intertwined with one's own family, without losing that family foundation along the way. Wilson Gonzalez Ochsenknecht himself has said that the joint reality documentary <em>Diese Ochsenknechts</em> created "a more positive image" of the family &ndash; an active contribution to his own family's narrative, rather than leaving it to others.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and effort. In the SP2w3, this pride can become a need to fill several roles at once &ndash; actor, musician, series developer, father &ndash; rather than focusing on just one. That he now consciously sets priorities and subordinates projects to his own daughter shows a mature form of this pattern: care that limits itself, rather than spreading itself too thin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Career That Begins With Family and Keeps Growing With It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wilson Gonzalez Ochsenknecht's path reads as one continuous line: his first film appearance alongside father and brother, his breakthrough with <em>Die Wilden Kerle</em> next to Jimi Blue, his return to his own family story in the reality documentary, and today his own fatherhood as the new fixed point of every professional decision.</p>
+          <p class="vb-intro">The hippopotamus doesn't build its territory alone, but together with its own pod, letting that pod grow along with it. Wilson Gonzalez Ochsenknecht's path from child star to multi-hyphenate artist and father shows exactly this pattern: success that is never conceived apart from family, but always in relation to it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – brother"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – mother"},
+      ])}
+    </div>
+  `);
+}
+
 function nataschaOchsenknechtPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -31608,6 +31674,7 @@ function nataschaOchsenknechtPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – former husband"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3) – son"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SP2w3) – son"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
       ])}
     </div>
@@ -78377,6 +78444,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-toni-morrison": toniMorrisonPortraitPage,
       "beruehmte-michelle-obama": michelleObamaPortraitPage,
       "beruehmte-natascha-ochsenknecht": nataschaOchsenknechtPortraitPage,
+      "beruehmte-wilson-gonzalez-ochsenknecht": wilsonGonzalezOchsenknechtPortraitPage,
       "beruehmte-sokrates": sokratesPortraitPage,
       "beruehmte-fritz-perls": fritzPerlsPortraitPage,
       "beruehmte-bud-spencer": budSpencerPortraitPage,
