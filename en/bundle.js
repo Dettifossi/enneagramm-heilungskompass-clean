@@ -451,6 +451,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nusrat Fateh Ali Khan – Self-Preservation Type 2",
     teaser:"SP2w3 · 1948–1997. Pakistani Qawwali singer who carried a six-hundred-year-old family tradition onto the world stage. First performance at his own father's funeral, later collaborations with Peter Gabriel, Michael Brook, and Eddie Vedder. Animal correspondence: Hippopotamus.",
     land:"Pakistan", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-quentin-tarantino", name:"Quentin Tarantino", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Quentin Tarantino – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1963. American director, Pulp Fiction, Reservoir Dogs. From video store clerk to global cinema event, with a steady circle of recurring actors and his own 35mm cinema in Los Angeles. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Film"], gender:"m"},
 { route:"beruehmte-jack-ma", name:"Jack Ma", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Jack Ma – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1964. Chinese entrepreneur, founder of Alibaba. From free tour guide to English teacher to billionaire – and, after his conflict with Beijing, back to personally supporting teachers. Animal correspondence: Hippopotamus.",
@@ -24968,6 +24972,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function quentinTarantinoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-quentin-tarantino-portrait.jpg" alt="Quentin Tarantino – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Quentin Tarantino</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American director, screenwriter &amp; actor, born 1963 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that knows its own waters precisely, claims them piece by piece, and defends from there what belongs to it. Quentin Tarantino first built his territory not on a film set, but among the shelves of a video store &ndash; and to this day, he literally returns to where it all began.</p>
+          <p class="vb-intro">The American director Quentin Tarantino was born on March 27, 1963, in Knoxville, Tennessee, and moved with his mother Connie to Torrance, California, at age four. His mother, a nurse, took him to the movies early on &ndash; he saw <em>The Wild Bunch</em> at six, <em>Carnal Knowledge</em> at eight, <em>Deliverance</em> at nine. Out of a turbulent home life, the cinema became for him a reliable, always-available refuge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Building and Defending a Territory Made of Film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete foundation, before it turns outward. For Tarantino, this foundation was, from the start, knowledge of film itself: at 22, he began working at Video Archives in Manhattan Beach, a now-legendary video store where he and fellow film obsessives like Roger Avary spent day after day watching, discussing, and recommending movies to customers &ndash; a self-built film school, financed by his own job.</p>
+          <p class="vb-intro">This principle of care still defines how he works today: a tight circle of recurring actors &ndash; Samuel L. Jackson, Uma Thurman, Michael Madsen, Tim Roth &ndash; reappears film after film, as does producer Lawrence Bender, who already produced <em>Reservoir Dogs</em> (1992). Tarantino doesn't rebuild from scratch for every project; he deepens the same familiar foundation of people he knows and trusts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Video Store Clerk to Global Cinema Event</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build visible, publicly effective success out of a secured foundation. <em>Reservoir Dogs</em> was a celebrated hit at the 1992 Sundance Film Festival and made Tarantino, virtually overnight, a sought-after name in Hollywood. <em>Pulp Fiction</em> followed two years later, winning the Palme d'Or at Cannes and the Academy Award for Best Original Screenplay &ndash; the video store clerk had become one of the most influential directors of his generation.</p>
+          <p class="vb-intro">To this day, Tarantino has deliberately built a compact, highly visible body of work rather than expanding broadly: <em>Jackie Brown</em>, <em>Kill Bill</em>, <em>Inglourious Basterds</em>, <em>Django Unchained</em>, <em>The Hateful Eight</em>, <em>Once Upon a Time in Hollywood</em> &ndash; each film its own unmistakable event. His stated plan to stop after ten films, rather than keep going indefinitely, shows the Three-wing's controlled side: a limited, flawless body of work rather than an ever-expanding one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to translate a deep, almost possessive love for one thing into a visible, globally recognized life's work, without ever leaving the original foundation behind. Since 2007, Tarantino has personally owned and operated the New Beverly Cinema in Los Angeles, one of the city's last theaters showing exclusively on film &ndash; roughly sixty to sixty-five percent of the program comes from his own print collection, built over decades, which he curates himself.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and one's own building. In the SP2w3, this pride can become an uncompromising defense of one's own territory &ndash; whether the script, the edit, or the cinema itself &ndash; against any outside interference. Tarantino's reputation as a director who insists on every detail of his films, and who as a producer rarely compromises, shows this side just as clearly as his artistic success.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Territory That Grew Without Losing Its Roots</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Almost without exception, Tarantino's films tell stories of loyalty, betrayal, and what holds a group together or tears it apart &ndash; from the titular crooks of <em>Reservoir Dogs</em> to the fighting squad of <em>Inglourious Basterds</em>. His own filmography operates by the same principle: a steady cast, recurring signatures, a body of work that keeps quoting and building on itself instead of starting from zero each time.</p>
+          <p class="vb-intro">The hippopotamus doesn't leave its waters to please anyone &ndash; it makes its territory bigger without giving up its own foundation. From the shelves of a video store in Manhattan Beach to owning his own cinema in Los Angeles, Tarantino has done exactly that: expanding, again and again, the same love of film he started with, without ever leaving it behind.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function nusratFatehAliKhanPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25023,6 +25087,7 @@ function nusratFatehAliKhanPortraitPage() {
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
       ])}
     </div>
   `);
@@ -78026,6 +78091,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-mr-t": mrTPortraitPage,
       "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
+      "beruehmte-quentin-tarantino": quentinTarantinoPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,

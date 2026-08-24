@@ -31650,6 +31650,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harnaam Kaur – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1990. Britische Sikh-Aktivistin und Model, PCOS-Botschafterin, erste bärtige Frau auf dem Laufsteg der London Fashion Week. Der eigene Körper als erste Fürsorge, verwandelt in eine international sichtbare Botschaft. Tierentsprechung: Flusspferd.",
     land:"Großbritannien", tags:["Aktivismus","Mode"], gender:"f"},
+{ route:"beruehmte-quentin-tarantino", name:"Quentin Tarantino", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Quentin Tarantino – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1963. US-amerikanischer Regisseur, Pulp Fiction, Reservoir Dogs. Vom Videothekar zum Weltkino-Ereignis, mit festem Kreis wiederkehrender Schauspieler und einem selbst betriebenen 35-mm-Kino in Los Angeles. Tierentsprechung: Flusspferd.",
+    land:"USA", tags:["Film"], gender:"m"},
 { route:"beruehmte-nusrat-fateh-ali-khan", name:"Nusrat Fateh Ali Khan", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Nusrat Fateh Ali Khan – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1948–1997. Pakistanischer Qawwali-Sänger, brachte eine sechshundert Jahre alte Familientradition auf die Weltbühne. Erster Auftritt bei der Totenfeier des eigenen Vaters, später Kollaborationen mit Peter Gabriel, Michael Brook und Eddie Vedder. Tierentsprechung: Flusspferd.",
@@ -43467,12 +43471,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Quentin Tarantino", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -60558,6 +60562,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function quentinTarantinoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-quentin-tarantino-portrait.jpg" alt="Quentin Tarantino – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Quentin Tarantino</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Regisseur, Drehbuchautor &amp; Schauspieler, geb. 1963 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein eigenes Gewässer genau kennt, es sich Stück für Stück aneignet und von dort aus verteidigt, was ihm gehört. Quentin Tarantino baute sein Revier zunächst nicht auf einem Filmset, sondern zwischen den Regalen einer Videothek auf &ndash; und kehrt bis heute buchstäblich dorthin zurück, wo alles begann.</p>
+          <p class="vb-intro">Der US-amerikanische Regisseur Quentin Tarantino wurde am 27. März 1963 in Knoxville, Tennessee, geboren und zog mit vier Jahren mit seiner Mutter Connie nach Torrance, Kalifornien. Seine Mutter, eine Krankenschwester, nahm ihn schon früh mit ins Kino &ndash; mit sechs Jahren sah er <em>The Wild Bunch</em>, mit acht <em>Carnal Knowledge</em>, mit neun <em>Deliverance</em>. Aus einem unruhigen häuslichen Umfeld heraus wurde das Kino für ihn zu einem verlässlichen, immer verfügbaren Zufluchtsort.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Ein Revier aus Film aufbauen und verteidigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis, bevor sie sich nach außen wendet. Bei Tarantino war diese Basis von Anfang an das Wissen über Filme selbst: Mit 22 begann er bei Video Archives in Manhattan Beach zu arbeiten, einer inzwischen legendären Videothek, in der er gemeinsam mit anderen Kinobesessenen wie Roger Avary tagein, tagaus Filme ansah, besprach und Kunden empfahl &ndash; eine selbstgebaute Filmschule, finanziert durch den eigenen Job.</p>
+          <p class="vb-intro">Dieses Fürsorgeprinzip zeigt sich bis heute in seiner Arbeitsweise: Ein enger Kreis wiederkehrender Schauspieler &ndash; Samuel L. Jackson, Uma Thurman, Michael Madsen, Tim Roth &ndash; taucht Film für Film wieder auf, ebenso Produzent Lawrence Bender, der bereits <em>Reservoir Dogs</em> (1992) realisierte. Tarantino baut nicht bei jedem Projekt neu auf, sondern vertieft dieselbe, vertraute Basis aus Menschen, die er kennt und denen er vertraut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Videothekar zum Weltkino-Ereignis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. <em>Reservoir Dogs</em> feierte 1992 beim Sundance Film Festival einen umjubelten Erfolg und machte Tarantino praktisch über Nacht zu einem gefragten Namen in Hollywood. <em>Pulp Fiction</em> (1994) folgte zwei Jahre später und gewann die Goldene Palme in Cannes sowie den Oscar für das beste Originaldrehbuch &ndash; aus dem Videothekar wurde einer der stilprägendsten Regisseure seiner Generation.</p>
+          <p class="vb-intro">Bis heute hat Tarantino gezielt ein überschaubares, sichtbares Gesamtwerk aufgebaut, statt in die Breite zu gehen: <em>Jackie Brown</em>, <em>Kill Bill</em>, <em>Inglourious Basterds</em>, <em>Django Unchained</em>, <em>The Hateful Eight</em>, <em>Once Upon a Time in Hollywood</em> &ndash; jeder Film ein eigenes, unverwechselbares Ereignis. Sein erklärter Plan, nach zehn Filmen aufzuhören, statt endlos weiterzumachen, zeigt den Dreierflügel von seiner kontrollierten Seite: lieber ein begrenztes, makelloses Werk als ein ausuferndes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, eine tiefe, fast besitzergreifende Liebe zu einer Sache in ein sichtbares, weltweit anerkanntes Lebenswerk zu übersetzen, ohne die ursprüngliche Basis je zu verlassen. Seit 2007 besitzt und betreibt Tarantino persönlich das New Beverly Cinema in Los Angeles, eines der letzten reinen 35-mm-Kinos der Stadt &ndash; rund sechzig bis fünfundsechzig Prozent des Programms stammen aus seiner eigenen, seit Jahrzehnten gesammelten Filmkopien-Sammlung, die er selbst kuratiert.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Aufbau unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Kompromisslosigkeit werden, mit der das eigene Terrain &ndash; sei es das Drehbuch, der Schnitt oder das Kino selbst &ndash; gegen jede Einmischung von außen verteidigt wird. Tarantinos Ruf als Regisseur, der auf jedem Detail seiner Filme beharrt und selbst als Produzent kaum Kompromisse eingeht, zeigt diese Seite ebenso deutlich wie sein künstlerischer Erfolg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Ein Revier, das größer wurde, ohne die Wurzeln zu verlieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tarantinos Filme erzählen fast durchgehend von Loyalität, Verrat und dem, was eine Gruppe zusammenhält oder zerreißt &ndash; von den titelgebenden Gaunern in <em>Reservoir Dogs</em> bis zur Kampftruppe in <em>Inglourious Basterds</em>. Auch die eigene Filmografie funktioniert nach diesem Prinzip: eine feste Besetzung, wiederkehrende Handschriften, ein Werk, das sich selbst zitiert und weiterentwickelt, statt bei null neu anzufangen.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein Gewässer nicht, um zu gefallen &ndash; es macht sein Revier größer, ohne die eigene Basis aufzugeben. Vom Regal einer Videothek in Manhattan Beach bis zum eigenen Kino in Los Angeles hat Tarantino genau das getan: dieselbe Liebe zum Film, mit der alles begann, immer weiter ausgebaut, ohne sie je hinter sich zu lassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function nusratFatehAliKhanPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60613,6 +60677,7 @@ function nusratFatehAliKhanPortraitPage() {
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
       ])}
     </div>
   `);
@@ -112616,6 +112681,7 @@ function render() {
       "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-mr-t": mrTPortraitPage,
       "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
+      "beruehmte-quentin-tarantino": quentinTarantinoPortraitPage,
       "beruehmte-jack-ma": jackMaPortraitPage,
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
