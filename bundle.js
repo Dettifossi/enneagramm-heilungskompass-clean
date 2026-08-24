@@ -31666,6 +31666,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nusrat Fateh Ali Khan – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1948–1997. Pakistanischer Qawwali-Sänger, brachte eine sechshundert Jahre alte Familientradition auf die Weltbühne. Erster Auftritt bei der Totenfeier des eigenen Vaters, später Kollaborationen mit Peter Gabriel, Michael Brook und Eddie Vedder. Tierentsprechung: Flusspferd.",
     land:"Pakistan", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-tutty-tran", name:"Tutty Tran", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Tutty Tran – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1988 in West-Berlin. Deutscher Stand-up-Comedian, Sohn vietnamesischer Boatpeople. Culture-Clash-Comedy, die die eigene Familie zum Zentrum macht statt sie zu verstecken – Programm ›Wok-Life-Balance‹. Tierentsprechung: Flusspferd.",
+    land:"Deutschland", tags:["Sonstiges"], gender:"m"},
 { route:"beruehmte-mr-t", name:"Mr. T", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Mr. T – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1952 in Chicago. Schauspieler, Wrestler, Das A-Team, Rocky III. Vom Leibwächter für Muhammad Ali und Michael Jackson zur Filmikone – Stärke im Dienst des Schutzes, bis hin zum Besuch krebskranker Kinder nach der eigenen Krebsdiagnose. Tierentsprechung: Flusspferd.",
@@ -43610,12 +43614,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Wilson Gonzalez Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Quentin Tarantino", "Storm Reid", "Tom Kaulitz", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Wilson Gonzalez Ochsenknecht", "Mr. T", "Nusrat Fateh Ali Khan", "Quentin Tarantino", "Storm Reid", "Tom Kaulitz", "Tutty Tran", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; sein älterer Bruder Wilson Gonzalez Ochsenknecht, der genau diesen ersten Filmauftritt mit zehn Jahren gemeinsam mit Vater und Bruder erlebte und heute als selbst gewordener Vater alle beruflichen Projekte bewusst der eigenen Tochter unterordnet; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; sein älterer Bruder Wilson Gonzalez Ochsenknecht, der genau diesen ersten Filmauftritt mit zehn Jahren gemeinsam mit Vater und Bruder erlebte und heute als selbst gewordener Vater alle beruflichen Projekte bewusst der eigenen Tochter unterordnet; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht; Tutty Tran, dessen gesamtes Bühnenwerk um die eigene Familie kreist – nicht als distanzierte Beobachtung, sondern als direkt gelebte, selbstironisch verarbeitete Nähe zu den Eltern, die als vietnamesische Boatpeople nach Deutschland kamen."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -61321,6 +61325,67 @@ function nusratFatehAliKhanPortraitPage() {
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function tuttyTranPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tutty-tran-portrait.jpg" alt="Tutty Tran – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tutty Tran</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Stand-up-Comedian, geb. 1988 in West-Berlin &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Gewässer nicht verlässt, sondern es sich zu eigen macht, und das seine eigentliche Kraft erst zeigt, wenn das eigene Revier zur Sprache kommt. Tutty Tran fand sein Gewässer nicht auf einer großen Bühne, sondern im Berliner Bezirk Neukölln, im Alltag einer vietnamesischen Einwandererfamilie &ndash; und macht genau diesen Alltag bis heute zum Zentrum seiner Bühnenarbeit.</p>
+          <p class="vb-intro">Der deutsche Comedian wurde 1988 in West-Berlin als Thomas To Truong Tran geboren, als Sohn vietnamesischer Eltern, die Ende der 1970er-Jahre als sogenannte Boatpeople nach Deutschland gekommen waren. Er wuchs in Neukölln auf &ndash; in einem Umfeld, das seine spätere Comedy von Anfang an mit doppeltem Boden ausstattet: der Culture-Clash zwischen den Erwartungen der Elterngeneration und dem eigenen Leben als in Deutschland aufgewachsener Sohn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Die eigene Familie als Bühnenstoff und Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge und Zugehörigkeit richten sich zuerst auf die eigene, engste Basis, bevor sie sich nach außen wenden. Bei Tutty Tran ist dieser innerste Kreis von Beginn an das eigentliche Material seiner Kunst: Seine Programme kreisen immer wieder um seine vietnamesische Herkunft, um Familiendynamiken und um sein Verhältnis zu den eigenen Eltern &ndash; nicht als distanzierte Beobachtung, sondern als direkt gelebte, oft selbstironisch verarbeitete Nähe.</p>
+          <p class="vb-intro">Statt sich von der Geschichte der Eltern &ndash; einer Flucht über das Meer, ein Neuanfang in einem fremden Land &ndash; auf der Bühne zu distanzieren, macht Tran sie zum tragenden Fundament seines Auftritts. Der Titel seines aktuellen Programms, <em>Wok-Life-Balance</em>, verbindet spielerisch genau diese beiden Welten miteinander: die vietnamesische Küche der Kindheit und das westliche Ideal der Selbstoptimierung &ndash; ein Bild dafür, wie eng persönliche Herkunft und öffentliches Auftreten bei ihm verwoben bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Fitness-YouTuber zum gefragten Live-Comedian</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer vertrauten, persönlichen Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Tran begann seine öffentliche Laufbahn zunächst mit YouTube-Videos zum Thema Fitness, bevor er sich 2016 der Stand-up-Comedy zuwandte &ndash; ein Wechsel des Mediums, aber nicht der Grundhaltung, sich über sichtbare, messbare Leistung zu zeigen.</p>
+          <p class="vb-intro">2017 gewann er den Nightwash Talent Award und wurde damit einem größeren Publikum bekannt. Sein erstes Solo-Programm <em>Augen zu und durch</em> lief von 2019 bis 2022 und legte den Grundstein für seine Live-Karriere; im Herbst 2019 strahlte Amazon Prime sein Solo-Special im Rahmen der Sendung <em>Chris Tall presents ...</em> aus. Auftritte im Quatsch Comedy Club, bei <em>Das Supertalent</em> und bei <em>Genial daneben</em> folgten &ndash; der Dreierflügel übersetzte die persönliche Culture-Clash-Erfahrung in ein Format, das ein breites deutschsprachiges Publikum erreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 liegt darin, eine sehr persönliche, familiäre Geschichte so offen zu erzählen, dass sich darin auch Menschen wiedererkennen, die selbst keine Einwanderungsgeschichte haben &ndash; Culture-Clash wird bei Tran nicht zur Anklage, sondern, wie es in Beschreibungen seiner Comedy immer wieder heißt, zu einer Mischung aus Pointe und einer guten Portion Selbstironie. Die eigene Familie bleibt dabei nicht Randnotiz, sondern das eigentliche Zentrum, aus dem heraus alles andere erzählt wird.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Einsatz für die Nächsten unentbehrlich zu sein. Bei der SE2w3 kann sich dieser Stolz auch darin zeigen, dass die eigene Herkunftsgeschichte zum zentralen, fast unangreifbaren Erkennungszeichen wird, an dem sich das gesamte künstlerische Selbstverständnis festmacht &ndash; eine Stärke, solange sie Nähe stiftet, aber auch ein Terrain, das kaum verlassen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Ein Revier zwischen Neukölln und großer Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über die Jahre hat Tutty Tran eine beträchtliche Reichweite aufgebaut: Stand April 2026 folgen ihm 798.000 Menschen bei Instagram, 428.000 bei Facebook und 105.000 bei YouTube &ndash; ein Publikum, das über die Jahre kontinuierlich mitgewachsen ist, während die Themen im Kern dieselben geblieben sind: Familie, Herkunft, das eigene Verhältnis zu den Eltern.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen &ndash; es macht sein Revier größer, ohne die eigene Basis aufzugeben. Vom Neuköllner Kindheitsalltag als Sohn vietnamesischer Boatpeople bis zur großen Bühne und zum Amazon-Prime-Special hat Tran genau das getan: dieselbe Familiengeschichte, mit der alles begann, immer weiter ausgebreitet, statt sie hinter sich zu lassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
       ])}
     </div>
@@ -113336,6 +113401,7 @@ function render() {
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
+      "beruehmte-tutty-tran": tuttyTranPortraitPage,
       "beruehmte-mr-t": mrTPortraitPage,
       "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
       "beruehmte-quentin-tarantino": quentinTarantinoPortraitPage,

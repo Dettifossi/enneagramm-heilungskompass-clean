@@ -443,6 +443,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ice Cube – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1969. American rapper, actor, and entrepreneur, N.W.A., BIG3 basketball league. Care that stays within the family – cast his own son to play his younger self in ›Straight Outta Compton‹. Animal correspondence: Hippopotamus.",
     land:"USA", tags:["Musik","Film","Unternehmen"], gender:"m"},
+{ route:"beruehmte-tutty-tran", name:"Tutty Tran", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Tutty Tran – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1988 in West Berlin. German stand-up comedian, son of Vietnamese boat people. Culture-clash comedy that puts family at the center instead of hiding it – show ›Wok-Life-Balance‹. Animal correspondence: Hippopotamus.",
+    land:"Germany", tags:["Sonstiges"], gender:"m"},
 { route:"beruehmte-mr-t", name:"Mr. T", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Mr. T – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1952 in Chicago. Actor, wrestler, The A-Team, Rocky III. From bodyguard for Muhammad Ali and Michael Jackson to movie icon – strength in service of protection, down to visiting children with cancer after his own cancer diagnosis. Animal correspondence: Hippopotamus.",
@@ -25474,6 +25478,67 @@ function nusratFatehAliKhanPortraitPage() {
   `);
 }
 
+function tuttyTranPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-tutty-tran-portrait.jpg" alt="Tutty Tran – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tutty Tran</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">German stand-up comedian, born 1988 in West Berlin &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that does not leave its own waters but makes them its own, and that shows its true strength precisely when its own territory comes into question. Tutty Tran did not find his waters on a big stage, but in the everyday life of a Vietnamese immigrant family in Berlin's Neukölln district &ndash; and it is exactly that everyday life that remains at the center of his stand-up to this day.</p>
+          <p class="vb-intro">The German comedian was born Thomas To Truong Tran in West Berlin in 1988, the son of Vietnamese parents who had come to Germany as so-called boat people in the late 1970s. He grew up in Neukölln &ndash; a setting that gave his later comedy a built-in double layer from the start: the culture clash between the expectations of his parents' generation and his own life as a son who grew up in Germany.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: The Family as Both Subject Matter and Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care and belonging turn first toward one's own, closest circle before turning outward. In Tutty Tran, this innermost circle is the actual material of his art from the start: his shows keep circling back to his Vietnamese roots, to family dynamics, and to his relationship with his own parents &ndash; not as detached observation, but as directly lived, often self-deprecatingly processed closeness.</p>
+          <p class="vb-intro">Rather than distancing himself on stage from his parents' story &ndash; a flight across the sea, a fresh start in a foreign country &ndash; Tran makes it the load-bearing foundation of his act. The title of his current show, <em>Wok-Life-Balance</em>, playfully joins exactly these two worlds: the Vietnamese cuisine of his childhood and the Western ideal of self-optimization &ndash; an image of how closely personal origin and public persona remain intertwined for him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Fitness YouTuber to Sought-After Live Comedian</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build, out of a familiar, personal foundation, a visible, public success. Tran began his public career with YouTube videos about fitness before turning to stand-up comedy in 2016 &ndash; a change of medium, but not of the underlying stance of showing himself through visible, measurable achievement.</p>
+          <p class="vb-intro">In 2017, he won the Nightwash Talent Award and became known to a wider audience. His first solo show, <em>Augen zu und durch</em> (Eyes Closed and Through), ran from 2019 to 2022 and laid the foundation for his live career; in autumn 2019, Amazon Prime aired his solo special as part of the show <em>Chris Tall presents ...</em>. Appearances on the Quatsch Comedy Club, on <em>Das Supertalent</em>, and on <em>Genial daneben</em> followed &ndash; the Three-wing translated a very personal culture-clash experience into a format that reaches a broad German-speaking audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 lies in telling a very personal, family story so openly that people without any immigration background of their own recognize themselves in it too &ndash; culture clash, in Tran's hands, becomes not an accusation but, as descriptions of his comedy repeatedly put it, a mix of punchlines and a healthy dose of self-irony. The family itself never becomes a footnote; it stays the actual center everything else is told from.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and effort for those closest to oneself. In the SP2w3, this pride can also show itself in the way one's own origin story becomes the central, almost unchallengeable signature that the entire artistic self-image is anchored to &ndash; a strength as long as it creates closeness, but also a territory rarely left behind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Territory Between Neukölln and the Big Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Over the years, Tutty Tran has built a considerable reach: as of April 2026, he has 798,000 followers on Instagram, 428,000 on Facebook, and 105,000 on YouTube &ndash; an audience that has grown steadily over the years while the core subject matter has stayed the same: family, origin, his own relationship with his parents.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please others &ndash; it enlarges its territory without giving up its own foundation. From a childhood in Neukölln as the son of Vietnamese boat people to the big stage and an Amazon Prime special, Tran has done exactly that: spreading the same family story that started it all ever further, instead of leaving it behind.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function mrTPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -39812,12 +39877,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Hippopotamus",
     kernthema: "Indispensability as access to closeness – calm, rooted strength instead of loud self-display",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Tutty Tran", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Indispensability as access to closeness and significance (Naranjo: 'Privilege')",
         beschreibung: "Belonging and significance are not demanded, but secured through care, effort, and the quiet feeling of being needed. Naranjo called this subtype the one of 'Privilege': winning a special place in another's life through indispensability.",
-        beleg: "'Naranjo also described this subtype as one who takes care of others first, in order to soothe their own neediness indirectly' (Ulrike Meinhof, whose 'care for the seemingly weak was real – and at the same time the core of her identity'); Dr. Camille Fritsch as the leading voice of hippo conservation; Ai Weiwei, whose art is inseparable from his commitment to others; Buster Murdaugh, whose case shows how the Two's 'privilege' survives within a family dynasty – as the belief that belonging to a certain world protects one from consequences; Anna Delvey, whose entire fraud rested on a fabricated belonging to New York's heiress world."
+        beleg: "'Naranjo also described this subtype as one who takes care of others first, in order to soothe their own neediness indirectly' (Ulrike Meinhof, whose 'care for the seemingly weak was real – and at the same time the core of her identity'); Dr. Camille Fritsch as the leading voice of hippo conservation; Ai Weiwei, whose art is inseparable from his commitment to others; Buster Murdaugh, whose case shows how the Two's 'privilege' survives within a family dynasty – as the belief that belonging to a certain world protects one from consequences; Anna Delvey, whose entire fraud rested on a fabricated belonging to New York's heiress world; Tutty Tran, whose entire stage work circles around his own family – not as detached observation, but as directly lived, self-deprecatingly processed closeness to his parents, who came to Germany as Vietnamese boat people."
       },
       {
         titel: "A good-natured, unwieldy facade that turns into unstoppable force when the territory is threatened",
@@ -78749,6 +78814,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
       "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-ice-cube": iceCubePortraitPage,
+      "beruehmte-tutty-tran": tuttyTranPortraitPage,
       "beruehmte-mr-t": mrTPortraitPage,
       "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
       "beruehmte-quentin-tarantino": quentinTarantinoPortraitPage,
