@@ -383,6 +383,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Franka Potente – Self-Preservation Type 2",
     teaser:"SP2w1 · born 1974 in Dülmen, Germany. Actress, director, and musician, 'Run Lola Run', the Bourne series. Care within the familiar circle, uncompromising artistic integrity over Hollywood logic. Animal correspondence: Hippopotamus.",
     land:"Germany", tags:["Schauspiel","Musik"], gender:"f"},
+{ route:"beruehmte-lena-urzendowsky", name:"Lena Urzendowsky", added:"2026-08-24", subtyp:"SE2w1",
+    heading:"Lena Urzendowsky – Self-Preservation Type 2",
+    teaser:"SP2w1 · born 2000 in Berlin, Germany. German actress, Das weiße Kaninchen, Kokon, How to Sell Drugs Online (Fast). Care within the close family circle, disciplined training alongside early success. Animal correspondence: Hippopotamus.",
+    land:"Germany", tags:["Schauspiel"], gender:"f"},
 { route:"beruehmte-margot-friedlaender", name:"Margot Friedländer", added:"2026-08-14", subtyp:"SE2w1",
     heading:"Margot Friedländer – Self-Preservation Type 2",
     teaser:"SP2w1 · 1921–2025. Holocaust survivor and witness, 'Be human'. Fifteen months in hiding in Berlin, sixty years of silence, then tireless conversations with schoolchildren until the very end. Animal correspondence: Hippopotamus.",
@@ -35079,6 +35083,66 @@ function jjLiuPortraitPage() {
   `);
 }
 
+function lenaUrzendowskyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-lena-urzendowsky-portrait.jpg" alt="Lena Urzendowsky – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lena Urzendowsky</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Actress, born 2000 in Berlin, Germany &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that moves securely and confidently within its familiar surroundings, rather than constantly seeking new territory. It lives in herds held together by close family bonds, returns to its own waters after every movement, and draws its strength from exactly this rootedness, not from external visibility.</p>
+          <p class="vb-intro">The German actress Lena Urzendowsky, born February 16, 2000, in Berlin, grew up in exactly such an artistic herd: her mother, Jeannette Urzendowsky, is a physician, singer, and actress; her brother Sebastian Urzendowsky, fifteen years her senior, is also an actor. In interviews, Lena Urzendowsky describes how singing and dancing were always part of her family life, especially with her mother &ndash; a formative experience she herself describes as an unstrained, joyfully lived approach to life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care Within the Familiar Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs its care first toward the close, familiar circle &ndash; toward specific people it feels connected to, rather than toward an anonymous audience. Naranjo called this subtype <em>Me First</em>: not out of selfishness, but because the SP2 operates from a secure, personally meaningful foundation.</p>
+          <p class="vb-intro">In Lena Urzendowsky this shows up especially clearly in her relationship with her brother Sebastian: although their large age gap meant the two didn't really grow up together, she calls him regularly whenever she is unsure whether to take on a role or how to handle a situation on set. Rather than relying solely on her own judgment or outside advisors, she seeks counsel from her closest, most trusted circle &ndash; exactly the SP2 pattern: security through personal bonds rather than distance or reach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Discipline Alongside Early Success</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the self-preservation Two an inner set of standards that holds regardless of talent or early success &ndash; the demand to seriously build one's own foundation, rather than relying solely on natural gift.</p>
+          <p class="vb-intro">In Lena Urzendowsky this wing shows in a remarkable consistency: already in 2005, at age five, she began attending the Stage Factory Berlin theater and musical school, graduating in 2012 as the top student of her class. Alongside her already ongoing acting career &ndash; she first stood in front of a camera at fourteen &ndash; she completed her bilingual Abitur in 2018. Rather than focusing exclusively on acting after her early success, she additionally took up studies in philosophy and social science at Berlin's Humboldt University. This is the SP2w1: care for one's own development, combined with the One's inner standard that ability must rest on a solid, seriously earned foundation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Vulnerability in Serious Roles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2016, Lena Urzendowsky took on her first leading role in the TV production <em>Das weiße Kaninchen</em>, earning significant critical praise and several awards, including the Grimme Award. For her portrayal of Evi in the film satire <em>Der große Rudolph</em>, she received the Hessian Film Award and additionally the sponsorship award of the German Television Award. In 2020, she took a lead role in the feature film <em>Kokon</em>, and from 2020 she was seen as Milena "Kira" Bechtholz in the Netflix series <em>How to Sell Drugs Online (Fast)</em>. In 2021, she played a drug-addicted teenager in the remake of the youth drama <em>Wir Kinder vom Bahnhof Zoo</em>.</p>
+          <p class="vb-intro">Notable in this choice of roles is the recurring motif of vulnerability under pressure &ndash; young characters who have to assert themselves in difficult, often existential situations. For an SP2w1, there is a double logic to this: the Two's care, which empathizes with the struggles of these characters, paired with the One-wing's seriousness, which never treats a role lightly but approaches it with care and depth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w1 is her ability not to treat early success as self-sustaining, but to keep reinforcing it with continuous, serious further development &ndash; graduating top of her class, a bilingual Abitur alongside an ongoing acting career, an additional degree. Lena Urzendowsky shows an early maturity that is rare in young success stories.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and reliability. In the SP2w1, this shows up as a high, often self-imposed standard of achievement: the need to genuinely, step by step, earn what might look from the outside like effortless talent. This combination of care and discipline can carry someone far &ndash; but it can also exhaust, if one's own worth stays too tightly bound to constantly proving oneself, rather than resting on what has already been achieved.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
+        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SP2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function frankaPotentePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -35135,6 +35199,7 @@ function frankaPotentePortraitPage() {
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
         {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SP2w1)"},
+        {route:"beruehmte-lena-urzendowsky", label:"Portrait: Lena Urzendowsky (SP2w1)"},
       ])}
     </div>
   `);
@@ -77305,6 +77370,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-camille-fritsch": camilleFritschPortraitPage,
       "beruehmte-jj-liu": jjLiuPortraitPage,
       "beruehmte-franka-potente": frankaPotentePortraitPage,
+      "beruehmte-lena-urzendowsky": lenaUrzendowskyPortraitPage,
       "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-jan-ullrich": janUllrichPortraitPage,

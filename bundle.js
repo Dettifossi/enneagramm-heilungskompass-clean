@@ -31606,6 +31606,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Franka Potente – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · geb. 1974 in Dülmen. Schauspielerin, Regisseurin und Musikerin, ›Lola rennt‹, Bourne-Reihe. Fürsorge im vertrauten Kreis, kompromisslose künstlerische Integrität statt Hollywood-Logik. Tierentsprechung: Flusspferd.",
     land:"Deutschland", tags:["Schauspiel","Musik"], gender:"f"},
+  { route:"beruehmte-lena-urzendowsky", name:"Lena Urzendowsky", added:"2026-08-24", subtyp:"SE2w1",
+    heading:"Lena Urzendowsky – Selbsterhaltender Typ 2",
+    teaser:"SE2w1 · geb. 2000 in Berlin. Deutsche Schauspielerin, Das weiße Kaninchen, Kokon, How to Sell Drugs Online (Fast). Fürsorge im vertrauten Familienkreis, disziplinierte Ausbildung neben frühem Erfolg. Tierentsprechung: Flusspferd.",
+    land:"Deutschland", tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-margot-friedlaender", name:"Margot Friedländer", added:"2026-08-14", subtyp:"SE2w1",
     heading:"Margot Friedländer – Selbsterhaltender Typ 2",
     teaser:"SE2w1 · 1921–2025. Holocaust-Überlebende und Zeitzeugin, ›Seid Menschen‹. Fünfzehn Monate im Berliner Untergrund, sechzig Jahre Schweigen, dann bis zuletzt unermüdlich im Gespräch mit Schulklassen. Tierentsprechung: Flusspferd.",
@@ -43405,12 +43409,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -59724,6 +59728,66 @@ function jjLiuPortraitPage() {
   `);
 }
 
+function lenaUrzendowskyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lena-urzendowsky-portrait.jpg" alt="Lena Urzendowsky – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lena Urzendowsky</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 2000 in Berlin &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das sich in seiner vertrauten Umgebung sicher und geborgen bewegt, statt ständig neues Terrain zu suchen. Es lebt in Herden, die von engen familiären Bindungen zusammengehalten werden, kehrt nach jeder Bewegung ins eigene Gewässer zurück und zieht seine Kraft aus genau dieser Verwurzelung, nicht aus Sichtbarkeit nach außen.</p>
+          <p class="vb-intro">Die deutsche Schauspielerin Lena Urzendowsky, geboren am 16. Februar 2000 in Berlin, wuchs in genau einer solchen künstlerischen Herde auf: Ihre Mutter Jeannette Urzendowsky ist Ärztin, Sängerin und Schauspielerin, ihr fünfzehn Jahre älterer Bruder Sebastian Urzendowsky ebenfalls Schauspieler. In Interviews beschreibt Lena Urzendowsky, wie in ihrer Familie stets gesungen und getanzt wurde, vor allem mit der Mutter &ndash; eine Prägung, die sie selbst als unbeschwerten, freudig gelebten Zugang zum Leben beschreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge im vertrauten Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet ihre Fürsorge zuerst auf den nahen, vertrauten Kreis &ndash; auf konkrete Menschen, denen sie sich verbunden fühlt, statt auf ein anonymes Publikum. Naranjo nannte diesen Subtyp <em>Me First</em>: nicht aus Egoismus, sondern weil die SE2 aus einer gesicherten, persönlich bedeutsamen Basis heraus wirkt.</p>
+          <p class="vb-intro">Bei Lena Urzendowsky zeigt sich das besonders deutlich im Verhältnis zu ihrem Bruder Sebastian: Obwohl der große Altersunterschied bedeutete, dass die beiden nicht wirklich zusammen aufwuchsen, ruft sie ihn regelmäßig an, wenn sie unsicher ist, ob sie eine Rolle annehmen soll oder wie sie mit einer Situation am Set umgehen soll. Statt sich allein auf ihr eigenes Urteil oder auf externe Berater zu verlassen, sucht sie den Rat aus dem engsten, vertrautesten Kreis &ndash; genau das SE2-Muster: Sicherheit durch persönliche Bindung statt durch Distanz oder Reichweite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplin neben dem frühen Erfolg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei ein inneres Regelwerk, das unabhängig von Talent oder frühem Erfolg trägt &ndash; den Anspruch, sich die eigene Grundlage ernsthaft zu erarbeiten, statt sich allein auf natürliche Begabung zu verlassen.</p>
+          <p class="vb-intro">Bei Lena Urzendowsky zeigt sich dieser Flügel in einer bemerkenswerten Konsequenz: Schon ab 2005, im Alter von fünf Jahren, besuchte sie die Theater- und Musicalschule Stage Factory Berlin und schloss dort 2012 als jahrgangsbeste Schülerin ab. Parallel zu ihrer bereits laufenden Schauspielkarriere &ndash; mit vierzehn stand sie erstmals vor der Kamera &ndash; legte sie 2018 ihr bilinguales Abitur ab. Statt sich nach dem frühen Erfolg allein auf die Schauspielerei zu konzentrieren, nahm sie zusätzlich ein Studium der Philosophie und Sozialwissenschaft an der Berliner Humboldt-Universität auf. Das ist die SE2w1: Fürsorge für die eigene Entwicklung, verbunden mit dem inneren Anspruch der Eins, dass Können auf einem soliden, ernsthaft erarbeiteten Fundament ruhen muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Verletzlichkeit in ernsten Rollen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2016 übernahm Lena Urzendowsky ihre erste Hauptrolle in der TV-Produktion <em>Das weiße Kaninchen</em>, für die sie viel Kritikerlob und mehrere Auszeichnungen erhielt, darunter den Grimme-Preis. Für ihre Darstellung der Evi in der Filmsatire <em>Der große Rudolph</em> wurde sie mit dem Hessischen Filmpreis ausgezeichnet und erhielt zusätzlich den Förderpreis des Deutschen Fernsehpreises. 2020 folgte eine Hauptrolle im Spielfilm <em>Kokon</em>, außerdem war sie ab 2020 als Milena „Kira" Bechtholz in der Netflix-Serie <em>How to Sell Drugs Online (Fast)</em> zu sehen. 2021 spielte sie eine drogensüchtige Jugendliche in der Neuauflage des Jugenddramas <em>Wir Kinder vom Bahnhof Zoo</em>.</p>
+          <p class="vb-intro">Auffällig an dieser Rollenauswahl ist das wiederkehrende Motiv der Verletzlichkeit unter Druck &ndash; junge Figuren, die sich in schwierigen, oft existenziellen Situationen behaupten müssen. Für eine SE2w1 liegt darin eine doppelte Logik: die Fürsorge der Zwei, die sich in die Nöte dieser Figuren einfühlt, gepaart mit dem Ernst des Einserflügels, der die Rolle nicht leichtnimmt, sondern ihr mit Sorgfalt und Tiefe begegnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w1 ist ihre Fähigkeit, frühen Erfolg nicht als Selbstläufer zu behandeln, sondern ihn mit ständiger, ernsthafter Weiterbildung zu untermauern &ndash; eine bereits jahrgangsbeste Ausbildung, ein bilinguales Abitur neben einer laufenden Schauspielkarriere, ein zusätzliches Studium. Lena Urzendowsky zeigt damit früh eine Reife, die bei jungen Erfolgsgeschichten selten ist.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und Verlässlichkeit unentbehrlich zu sein. Bei der SE2w1 zeigt sich das als hoher, oft selbst auferlegter Leistungsanspruch: das Bedürfnis, sich das, was von außen wie mühelose Begabung aussehen mag, tatsächlich Schritt für Schritt zu erarbeiten. Diese Kombination aus Fürsorge und Disziplin kann tragen &ndash; sie kann aber auch erschöpfen, wenn der eigene Wert zu eng an ständige Beweisführung gekoppelt bleibt, statt sich auf das zu verlassen, was bereits erreicht wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SE2w1)"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
+        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function frankaPotentePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -59780,6 +59844,7 @@ function frankaPotentePortraitPage() {
         {route:"beruehmte-margot-friedlaender", label:"Porträt: Margot Friedländer (SE2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
         {route:"beruehmte-jj-liu", label:"Porträt: J. J. Liu (SE2w1)"},
+        {route:"beruehmte-lena-urzendowsky", label:"Porträt: Lena Urzendowsky (SE2w1)"},
       ])}
     </div>
   `);
@@ -112159,6 +112224,7 @@ function render() {
       "beruehmte-camille-fritsch": camilleFritschPortraitPage,
       "beruehmte-jj-liu": jjLiuPortraitPage,
       "beruehmte-franka-potente": frankaPotentePortraitPage,
+      "beruehmte-lena-urzendowsky": lenaUrzendowskyPortraitPage,
       "beruehmte-margot-friedlaender": margotFriedlaenderPortraitPage,
       "beruehmte-soeren-kierkegaard": soerenKierkegaardPortraitPage,
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
