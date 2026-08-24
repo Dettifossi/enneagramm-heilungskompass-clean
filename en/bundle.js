@@ -5578,6 +5578,91 @@ function practicePage() {
   `);
 }
 
+function ichIllusionPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self</h1>
+      <p class="lead-small">An in-depth practical tip offering a new perspective on the self, conditioning, and inner peace.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/portraits/Ich-Illusion.jpeg"
+             alt="Symbolic image for the illusion of self: a person's outline dissolving into emptiness and openness"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">In a society tuned to achievement, self-optimization, and constant goal attainment, radical truths quickly run into resistance. The concept of an independent, striving "self" is anchored in most people as firmly as an unshakeable article of faith. Say too directly, "You don't actually exist in this form, you are only an illusion," and the usual response is defensiveness, incomprehension, or a sense of threat. The ego defends its existence tooth and nail.</p>
+        <p class="vb-intro" style="margin-top:1rem;">That's why this sensitive topic is best approached not with a sledgehammer, but through a descriptive, inviting, and thoughtful path. One thing should be stated clearly up front: none of what follows is meant to encourage passivity, fatalism, or the feeling that nothing one does matters anymore anyway. This is not about sitting back and doing nothing, but about letting one's actions arise from a different, freer ground. How can the state of one's own conditioning be illuminated without frightening anyone off — and instead open a door?</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. The Making of the "Self": A Biological-Social Construct</h2>
+        <p class="vb-intro">A newborn does not distinguish between itself and the world. It is pure being, fluid, connected, without mental boundaries. Only in the course of the first to third year of life — through what is known as basic identification — does the concept of a "self" take shape in the brain. This self is essential for survival: it lets us navigate everyday life, recognize boundaries, and find our place within a social community. It is the interface through which we interact.</p>
+        <p class="vb-intro" style="margin-top:1rem;">The problem is this: over the course of a lifetime, we mistake the tool — the self-construct — for our essential core. We begin to equate ourselves with our thoughts, our feelings, and our life story, believing we are that accumulation. And just as this self was laboriously constructed in early childhood, it will also dissolve again at the end of life. It is not an immortal, fixed core, but a fleeting construct of the mind, bound to time and space.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. The Enneagram as a Mirror of Our Own Blind Spots</h2>
+        <p class="vb-intro">To make this mechanism tangible in everyday life, it helps to look at psychological personality models such as the Enneagram. It describes nine basic fixations, or survival strategies, that were built into us in childhood as protective shields or adaptations to secure love and safety. Each of these fixations carries a specific, deep-seated desire — a motivational drive that keeps pushing us on: <em>"If only I am perfect, if only I please everyone, if only I set myself apart, if only I perform or stay in control, then I will be safe and happy."</em></p>
+        <p class="vb-intro" style="margin-top:1rem;">This is "positive motivation" in the psychological sense — the firm belief that this behavior will redeem us, or finally deliver the happiness we're after. But the wisdom of the ages — from Eastern traditions to modern findings in consciousness research — teaches exactly the opposite: no craving, no suffering. The more one believes oneself to be this goal-driven, conditioned self, and the more one thinks one's goals, expectations, and wishes must be forced into being through sheer willpower, the deeper one becomes entangled in the illusion — and the more one suffers whenever reality fails to match the wished-for image.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Who's Steering Whom? The Absolute and the Relative Level</h2>
+        <p class="vb-intro">Following this thought further leads to an almost heretical, but liberating question: are we truly the author of our own actions, or does life simply happen to us? On the relative, everyday level, everything appears logical: we plan the day, make decisions, get annoyed at mistakes, and feel joy at successes. It feels as if we are the "doer." But look deeper, and a larger context emerges: thoughts simply arise — we did not choose them. They spring from the subconscious, from our conditioning, and from our current surroundings. Feelings rise in the body like weather. Our reactions are the result of years of conditioning, genetics, and experience.</p>
+        <p class="vb-intro" style="margin-top:1rem;">On an absolute level, all the strained, self-centered willing in the world achieves nothing that would not have happened anyway. Everything that manifests in life unfolds out of the totality of being. Even the strong wish to change, to step out of an Enneagram fixation, or to awaken spiritually, is ultimately just another impulse playing itself out through us. We strain to steer life, while in truth we are being lived by life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. The Path of Gentle Awakening: From Curse to Blessing</h2>
+        <p class="vb-intro">What does this shift in perspective mean for one's own practice and inner peace? It does not mean sinking into passive lethargy or ceasing to act. It means, rather, a fundamental release.</p>
+        <p class="vb-intro" style="margin-top:1rem;"><strong>Loosening identification instead of fighting it:</strong> Noticing that one is again fully caught up in the movie of one's own thoughts and Enneagram fixations doesn't call for self-judgment. It's enough to pause and notice: ah, there's that old mechanism at work again. This noticing alone — this witness consciousness — creates a tiny space of freedom between the stimulus (the thought) and the reaction (the automatic behavior).</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Accepting the dis-illusion:</strong> The word "dis-illusionment" loses its sting. It simply means that an illusion is coming to an end. Realizing that one has, for years, been driven by the voice of the conditioned self can lift an enormous weight off the shoulders. Life no longer has to be bent to fit one's own expectations.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Acting from being:</strong> When someone stops straining to be the sole director, the quality of their actions changes. The inner pressure eases. The constant fear of failing, of not being enough, or of losing control loses its fuel.</p>
+        <p class="vb-intro" style="margin-top:.8rem;">Out of this inner peace, a wonderful transformation occurs: instead of becoming, through unconscious reactions, stress, and old patterns, a curse to oneself (through inner compulsion) and to others (through projections and expectations), one's whole way of being shifts. Actions become coherent, flowing, and natural. One becomes a blessing — to oneself and to one's surroundings — because one finally stops swimming against the current of life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. An Observation From Over Thirty Years of Therapeutic Practice</h2>
+        <p class="vb-intro">As a naturopath with more than thirty years of experience, I have repeatedly observed: when someone is very deeply and very unconsciously caught in their fixation — which does not mean this person is unconscious toward life itself, but rather that they act out and live out their own fixation very strongly and unknowingly — these are often exactly the cases that turn, over decades, into chronic illness and become more protracted to treat. Not necessarily more difficult, since a great deal is possible with homeopathy in principle, but more protracted.</p>
+        <p class="vb-intro" style="margin-top:1rem;">One clear qualification matters to me here: there are also very conscious people who nonetheless suffer from serious illness — well-known, publicly recognized figures who were spiritually and psychologically quite mature and still died of cancer. Consciousness, then, is no indicator of who becomes ill and who doesn't, and it would be dishonest to claim otherwise, however appealing that simple formula may sound to the mind. Illness simply makes one honest, and ultimately serves as a corrective — independent of a person's level of consciousness.</p>
+        <p class="vb-intro" style="margin-top:1rem;">What has, however, shown itself again and again in my practice as something close to a rule is a different connection: as a person matures, their interest in themselves — in their own inner psychology — tends to grow as well. If, by contrast, a person stays permanently oriented entirely outward, with no interest in their own inner mechanisms, then, in my experience, the chances of healing are lower too. This is exactly why it is so crucial to work with both the level of the passion and the underlying level of the wound behind it — and that is only possible once a person has been correctly typed.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Working regulatively at this deep level — beyond consciousness and beyond the fixation itself, in the realm of the wound — is something classical psychotherapy alone, or a purely conventional-medical therapy that treats only the symptoms as an expression of the underlying imbalance, can rarely reach. Exceptions expressly prove the rule here: conventional medicine, too, has good, deeper-reaching approaches. These remain fairly rare, however, and honestly, even they tend to address the symptoms rather than the deeper causes of being ill — and of being human, which is ultimately the same thing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendations</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;">&#9672;</span>
+            <span style="flex:1;">Further reading by Detlef Rathmer (9)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+            <div style="margin-top:.8rem;">${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and letting go of core beliefs – a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}</div>
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "A book on the nature of consciousness – between emptiness and fullness, between the nothing and the everything of life.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "The space that remains when identification recedes – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Be still and know that I am God – silence as a path to direct self-knowledge.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical steps toward getting closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}</div>
+            <div style="margin-top:.8rem;">${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt – Burnout")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}</div>
+          </div>
+        </details>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">All titles and more of Detlef Rathmer's spiritual writing can also be found on the Verlagshaus Rathmer website under "Personal Development".</p>
+      </div>
+
+    </section>
+  `);
+}
+
 function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
@@ -5591,6 +5676,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg" },
     { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg" },
     { slug:"zungenstreck-uebung", titel:"The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts", teaser:"The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.", img:"../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
+    { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -5623,6 +5709,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "zungenstreck-uebung") {
     return zungenstreckUebungPage();
+  }
+  if (param === "ich-illusion") {
+    return ichIllusionPage();
   }
   if (param === "bewusstes-innehalten") {
     return bewusstesInnehaltenPage();
