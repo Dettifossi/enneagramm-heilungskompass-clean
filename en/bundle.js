@@ -699,6 +699,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Brad Pitt – Sexual Type 3",
     teaser:"SX3w2 · born 1963 in Shawnee, Oklahoma. Actor and producer (Plan B Entertainment), Oscar winner for 'Once Upon a Time in Hollywood' and '12 Years a Slave'. Magnetism as a life theme, champion rather than just a star. Animal correspondence: Peacock.",
     land:"USA", tags:["Schauspiel","Medien"] , gender:"m"},
+{ route:"beruehmte-heidi-klum", name:"Heidi Klum", added:"2026-08-24", subtyp:"SX3w4",
+    heading:"Heidi Klum – Sexual Type 3",
+    teaser:"SX3w4 · born 1973 in Bergisch Gladbach. Model, TV host, and entrepreneur, Germany's Next Topmodel, America's Got Talent. Dressed as a larger-than-life peacock at her legendary 2023 Halloween party. Animal correspondence: Peacock.",
+    land:"Deutschland", tags:["Mode","Fernsehen"], gender:"w"},
 { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
     heading:"Kai Pflaume – Sexual Type 3",
     teaser:"SX3w2 · “The Radiant One”, born 1967. Germany’s most famous TV host. For over 30 years he has fascinated millions – not through grand gestures, but through genuine warmth and magnetic personal presence. Animal correspondence: Peacock.",
@@ -24984,6 +24988,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function heidiKlumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-heidi-klum-portrait.jpg" alt="Heidi Klum – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heidi Klum</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Model, TV host &amp; entrepreneur, born 1973 in Bergisch Gladbach &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal of the Sexual Three &ndash; an animal whose impact does not come from calculation but from pure, immediate presence, one that prefers to show itself in full display. Few people have taken that image as literally as Heidi Klum: at her legendary 2023 Halloween party in New York, she herself appeared as a larger-than-life peacock &ndash; in a tight, dark-blue velvet suit, complete with beak, elaborate feathers, and intricate headpiece, which took ten Cirque du Soleil artists to assemble. Her then-husband Tom Kaulitz appeared at her side as a giant peacock egg.</p>
+          <p class="vb-intro">The German model Heidi Klum was born on June 1, 1973, in Bergisch Gladbach. In 1992, at eighteen, she won the Model 92 contest against 25,000 competitors, earning a contract with a New York modeling agency &ndash; the start of a path that led her, within a few years, to the covers of Vogue, Elle, and the famous 1998 Sports Illustrated swimsuit issue.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Magnetism as a Curated Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Three (SX3)</strong> makes personal magnetism its life's task &ndash; not abstract success before the broader public, as with the Social Three, but immediate, physical presence. Naranjo called this subtype <em>Masculinity/Femininity</em>: the embodiment of attractiveness in its purest form. Klum's long-running role as one of the best-known faces of Victoria's Secret &ndash; the first German model ever to become an "Angel" &ndash; placed exactly this physical presence at the center of her early career.</p>
+          <p class="vb-intro">But Klum didn't stop at modeling. As a judge on <em>America's Got Talent</em>, host of <em>Germany's Next Topmodel</em> since 2006, and host of <em>Project Runway</em>, for which she won an Emmy alongside Tim Gunn in 2013, she translated her own magnetism into lasting media presence. The SX3 attracts &ndash; and Klum understood early that this attraction could be carried across very different formats without losing its power.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Staging as an Art Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Sexual Three a depth and aesthetic individuality that goes beyond pure magnetism: the need not just to show one's own effect, but to shape it artistically and charge it emotionally. That's exactly what explains Klum's Halloween parties in New York, celebrated for over two decades, at which she undergoes an elaborate, often hours-long transformation every single year &ndash; from a peacock to a worm to E.T.</p>
+          <p class="vb-intro">Klum herself, born in the Rhineland, describes Halloween as her personal version of Carnival: instead of a paper nose and a wig, she relies on special effects, professional mask makers, and weeks of preparation. The Four-wing keeps asking: how do I turn pure visibility into a unique, unmistakable work of art? For Klum, the answer is a new, elaborately conceived transformation every year.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w4 is the ability to build a diverse, artistically ambitious life's work out of decades of carefully maintained public presence &ndash; from model to TV host to entrepreneur with her own fashion lines, jewelry, and fragrance collections. With an estimated net worth of around $160 million, Klum ranks among the most commercially successful people to emerge from the modeling business.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>self-deceit</strong> &ndash; the conviction that one's own image is identical to one's own worth. In the SX3w4, this can become a constant need to reinvent oneself ever more impressively, rather than simply being present. Klum's consistently spotlit private life &ndash; from her marriage to Seal to her later relationship with Tom Kaulitz &ndash; shows how closely public stage and personal life are intertwined for the SX3.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Decades-Long Art of Transformation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heidi Klum's career reads as a continuous series of transformations: from an aspiring model in Bergisch Gladbach to an international supermodel, from runway icon to television host and judge, from an employee of major fashion houses to her own brand. Every stage stays tied to the same underlying ability &ndash; not just to draw attention, but to give it a form.</p>
+          <p class="vb-intro">The peacock doesn't display its feathers out of necessity &ndash; that display is simply its nature. Heidi Klum's path from the Model 92 contest to internationally known entertainer, and her annual transformation into ever new, elaborately staged figures &ndash; from peacock to Medusa &ndash; shows exactly this pattern: visibility that keeps reinventing itself, without ever fading.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SP2w3) – husband"},
+        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – brother-in-law"},
+      ])}
+    </div>
+  `);
+}
+
 function billKaulitzPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25037,6 +25101,7 @@ function billKaulitzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SP2w3) – twin brother"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – sister-in-law"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
       ])}
@@ -25101,6 +25166,7 @@ function tomKaulitzPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
         {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – twin brother"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – wife"},
       ])}
     </div>
   `);
@@ -35266,6 +35332,7 @@ function bradPittPortraitPage() {
         {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
         {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7) – former wife"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2) – longtime partner, six children together"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
       ])}
     </div>
   `);
@@ -78079,6 +78146,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
+      "beruehmte-heidi-klum": heidiKlumPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-marlene-zuk": marleneZukPortraitPage,

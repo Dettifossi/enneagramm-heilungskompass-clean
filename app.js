@@ -31918,6 +31918,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Laurie Marker \u2013 Soziale Typ 3",
     teaser:"SO3w4 \u00b7 geb. 1954. Verhaltensforscherin, Gr\u00fcnderin des Cheetah Conservation Fund. Wurde selbst Farmerin in Namibia, um Farmer vom Gepardenschutz zu \u00fcberzeugen \u2013 TIME \u201eHero for the Planet\u201c. Tierentsprechung: Gepard.",
     tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-heidi-klum", name:"Heidi Klum", added:"2026-08-24", subtyp:"SX3w4",
+    heading:"Heidi Klum – Sexueller Typ 3",
+    teaser:"SX3w4 · geb. 1973 in Bergisch Gladbach. Model, Moderatorin und Unternehmerin, Germany's Next Topmodel, America's Got Talent. Verkleidete sich 2023 auf ihrer legendären Halloween-Party selbst als überlebensgroßer Pfau. Tierentsprechung: Pfau.",
+    land:"Deutschland", tags:["Mode","Fernsehen"], gender:"w"},
   { route:"beruehmte-brad-pitt", name:"Brad Pitt", added:"2026-08-14", subtyp:"SX3w2",
     heading:"Brad Pitt – Sexueller Typ 3",
     teaser:"SX3w2 · geb. 1963 in Shawnee, Oklahoma. Schauspieler und Produzent (Plan B Entertainment), Oscar-Prämierter für „Once Upon a Time in Hollywood“ und „12 Years a Slave“. Magnetismus als Lebensthema, Förderer statt nur Star. Tierentsprechung: Pfau.",
@@ -43375,7 +43379,7 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Pfau",
     kernthema: "Unmittelbare Präsenz und Magnetismus – ohne Berechnung, aber mit ganzer Wirkung",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
     fingerabdruecke: [
       {
         titel: "Unmittelbare, magnetische Präsenz statt berechneter Inszenierung",
@@ -43390,7 +43394,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Die bewusste, vollständige Darbietung als Kunstform für andere",
         beschreibung: "Am anderen Ende desselben Spektrums steht die ganz bewusst eingesetzte, vollständig ausgespielte Selbstdarstellung – kein privates Vergnügen, sondern eine gezielte Vorstellung, die genau weiß, welche Wirkung sie erzielen will.",
-        beleg: "Dieter Bohlen: ›Der Pfau ist das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet. Das Rad des Pfaus ist kein privates Vergnügen. Es ist eine Vorstellung … Der Pfau weiß genau, was er ist – und er versteckt es nicht.‹; Prof. Dr. Marlene Zuk, die komplexe biologische Zusammenhänge bewusst glasklar und für ein breites Publikum aufbereitet – eine Wissenschaft, die nicht nur verstanden, sondern sichtbar dargeboten werden will."
+        beleg: "Dieter Bohlen: ›Der Pfau ist das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet. Das Rad des Pfaus ist kein privates Vergnügen. Es ist eine Vorstellung … Der Pfau weiß genau, was er ist – und er versteckt es nicht.‹; Prof. Dr. Marlene Zuk, die komplexe biologische Zusammenhänge bewusst glasklar und für ein breites Publikum aufbereitet – eine Wissenschaft, die nicht nur verstanden, sondern sichtbar dargeboten werden will; Heidi Klum, die sich auf ihrer eigenen Halloween-Party mit Hilfe von zehn Cirque-du-Soleil-Artisten wortwörtlich selbst in einen überlebensgroßen Pfau verwandelte – die vollständige, aufwendig durchdachte Darbietung als jährlich wiederkehrendes Ritual."
       },
       {
         titel: "Das perfekte Ideal oder die perfekte Inszenierung wird zur mörderischen Fixierung (Schattenform)",
@@ -59032,6 +59036,7 @@ function bradPittPortraitPage() {
         {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
         {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7) – ehemalige Ehefrau"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2) – langjährige Partnerin, sechs gemeinsame Kinder"},
+        {route:"beruehmte-heidi-klum", label:"Porträt: Heidi Klum (SX3w4)"},
       ])}
     </div>
   `);
@@ -60574,6 +60579,66 @@ function harnaamKaurPortraitPage() {
   `);
 }
 
+function heidiKlumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heidi-klum-portrait.jpg" alt="Heidi Klum – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heidi Klum</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Model, Moderatorin &amp; Unternehmerin, geb. 1973 in Bergisch Gladbach &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz, die sich am liebsten in voller Pracht zeigt. Kaum jemand hat dieses Bild so wörtlich genommen wie Heidi Klum: Auf ihrer legendären Halloween-Party 2023 in New York erschien sie selbst als überlebensgroßer Pfau &ndash; in engem, dunkelblauem Samtanzug, mit Schnabel, aufwendigem Federkleid und kunstvollem Kopfschmuck, für dessen Aufbau zehn Artisten des Cirque du Soleil nötig waren. Ihr damaliger Ehemann Tom Kaulitz trat an ihrer Seite als riesiges Pfauenei auf.</p>
+          <p class="vb-intro">Das deutsche Model Heidi Klum wurde am 1. Juni 1973 in Bergisch Gladbach geboren. 1992 gewann die Achtzehnjährige den Model-92-Wettbewerb gegen 25.000 Mitbewerberinnen und damit einen Vertrag mit einer New Yorker Modelagentur &ndash; der Beginn eines Weges, der sie binnen weniger Jahre auf die Titelseiten von Vogue, Elle und der berühmten Sports-Illustrated-Badeausgabe 1998 führte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als gestaltete Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht abstrakten Erfolg vor einer breiten Öffentlichkeit wie die soziale Drei, sondern unmittelbare, körperliche Präsenz. Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten Form. Klums langjährige Rolle als eines der bekanntesten Gesichter von Victoria's Secret &ndash; als erstes deutsches Model überhaupt zum „Angel" ernannt &ndash; machte genau diese körperliche Präsenz zum Zentrum ihrer frühen Karriere.</p>
+          <p class="vb-intro">Doch Klum blieb nicht bei der reinen Modelkarriere stehen. Als Jurorin bei <em>America's Got Talent</em>, als Gastgeberin von <em>Germany's Next Topmodel</em> seit 2006 und als Moderatorin von <em>Project Runway</em>, für das sie gemeinsam mit Tim Gunn 2013 einen Emmy gewann, übersetzte sie die eigene Anziehungskraft in dauerhafte mediale Präsenz. Die SX3 zieht an &ndash; und Klum verstand früh, dass diese Anziehung sich in ganz unterschiedliche Formate übertragen lässt, ohne ihre Kraft zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Inszenierung als Kunstform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine Tiefe und ästhetische Individualität, die über reinen Magnetismus hinausgeht: das Bedürfnis, die eigene Wirkung nicht nur zu zeigen, sondern künstlerisch zu gestalten und emotional aufzuladen. Genau darin liegt die Erklärung für Klums seit über zwei Jahrzehnten zelebrierte Halloween-Partys in New York, bei denen sie sich Jahr für Jahr in aufwendigste, oft mehrstündige Verwandlungen begibt &ndash; vom Pfau über einen Wurm bis zu E.T.</p>
+          <p class="vb-intro">Klum selbst, im Rheinland geboren, beschreibt Halloween als ihre persönliche Version des Karnevals: Statt Pappnase und Perücke greift sie auf Spezialeffekte, professionelle Maskenbauer und wochenlange Vorbereitung zurück. Der Viererflügel fragt immer wieder: Wie mache ich aus reiner Sichtbarkeit ein einzigartiges, unverwechselbares Kunstwerk? Bei Klum ist die Antwort jedes Jahr eine neue, aufwendig durchdachte Verwandlung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 ist die Fähigkeit, aus einer über Jahrzehnte gepflegten öffentlichen Präsenz heraus ein diverses, künstlerisch anspruchsvolles Lebenswerk zu bauen &ndash; vom Model über die TV-Moderatorin bis zur Unternehmerin mit eigenen Modelinien, Schmuck- und Duftkollektionen. Mit einem geschätzten Vermögen von rund 160 Millionen Dollar zählt Klum zu den kommerziell erfolgreichsten Personen, die aus dem Modelgeschäft hervorgegangen sind.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> &ndash; die Überzeugung, dass das eigene Image mit dem eigenen Wert identisch ist. Bei der SX3w4 kann das zur ständigen Notwendigkeit werden, sich immer wieder neu und noch eindrucksvoller zu inszenieren, statt einfach präsent zu sein. Klums permanent im Rampenlicht stehendes Privatleben &ndash; von der Ehe mit Seal bis zur späteren Beziehung mit Tom Kaulitz &ndash; zeigt, wie eng bei der SX3 öffentliche Bühne und persönliches Leben ineinander verwoben sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine über Jahrzehnte gepflegte Verwandlungskunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heidi Klums Karriere lässt sich als fortlaufende Serie von Verwandlungen lesen: vom Nachwuchsmodel aus Bergisch Gladbach zum internationalen Supermodel, von der Laufstegikone zur Fernsehmoderatorin und Jurorin, von der Angestellten großer Modehäuser zur eigenen Marke. Jede Station bleibt an dieselbe Grundfähigkeit gebunden &ndash; Aufmerksamkeit nicht nur zu erregen, sondern sie in Form zu gießen.</p>
+          <p class="vb-intro">Der Pfau zeigt sein Federkleid nicht aus Notwendigkeit, sondern weil genau darin seine Natur liegt. Heidi Klums Weg vom Model-92-Wettbewerb zur international bekannten Entertainerin und ihre alljährliche Verwandlung in immer neue, aufwendig gestaltete Figuren &ndash; vom Pfau bis zur Medusa &ndash; zeigen genau dieses Muster: Sichtbarkeit, die sich selbst immer wieder neu erfindet, ohne je zu verblassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Ehemann"},
+        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Schwager"},
+      ])}
+    </div>
+  `);
+}
+
 function billKaulitzPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60627,6 +60692,7 @@ function billKaulitzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Zwillingsbruder"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – Schwägerin"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
       ])}
@@ -60691,6 +60757,7 @@ function tomKaulitzPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
         {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Zwillingsbruder"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – Ehefrau"},
       ])}
     </div>
   `);
@@ -112828,6 +112895,7 @@ function render() {
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
+      "beruehmte-heidi-klum": heidiKlumPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-marilyn-monroe": marilynMonroePortraitPage,
