@@ -435,6 +435,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harald Glööckler – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1965. German fashion designer, founder of POMPÖÖS. Built a glamorous world of gold and crowns out of a childhood marked by violence – security through self-created abundance, made visible for all to see. Animal correspondence: Hippopotamus.",
     land:"Germany", tags:["Mode","TV"], gender:"m"},
+{ route:"beruehmte-harnaam-kaur", name:"Harnaam Kaur", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Harnaam Kaur – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1990. British Sikh activist and model, PCOS advocate, first bearded woman on the London Fashion Week runway. Her own body as first care, turned into an internationally visible message. Animal correspondence: Hippopotamus.",
+    land:"United Kingdom", tags:["Activism","Mode"], gender:"f"},
 { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1929 in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Voluntarily living in a Tokyo psychiatric hospital since 1977, working daily in her studio. Animal correspondence: Hippopotamus.",
@@ -24858,6 +24862,66 @@ function haraldGloeocklerPortraitPage() {
   `);
 }
 
+function harnaamKaurPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-harnaam-kaur-portrait.jpg" alt="Harnaam Kaur – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harnaam Kaur</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">British Sikh activist &amp; model, born 1990 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature whose appearance is instantly striking from the outside, yet which rests firmly in its own body, its own element. It defends not only its territory, but above all its physical integrity &ndash; with a matter-of-factness that needs no explanation.</p>
+          <p class="vb-intro">The British activist and model Harnaam Kaur, born November 29, 1990, in Slough, England, into a traditional Punjabi Sikh family, grew up facing a very concrete, physical challenge: at just eleven years old, triggered by polycystic ovary syndrome (PCOS), she began growing pronounced facial hair, and by twelve she had received her diagnosis. As a teenager she faced brutal bullying and initially tried everything to get rid of the beard &ndash; waxing, plucking, shaving, threading. Only at sixteen did she make the decision that would shape the rest of her life: she stopped removing her facial hair and let her beard simply grow.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: The Body as First Care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care begins with one's own, very concrete physical and existential security &ndash; not with an abstract message to the outside world. In Harnaam Kaur this principle shows in its purest form: her decision to keep her beard was, at first, not a public gesture but a deeply personal, embodied act of self-acceptance, tied to her baptism as a Sikh at sixteen &ndash; a faith in which cutting body hair (Kesh) is forbidden.</p>
+          <p class="vb-intro">Tellingly, even her own family initially tried to talk her out of this step, worried she wouldn't be able to have a "normal" marriage or job with a beard. At seventeen she once gave in to pressure from extended family and shaved &ndash; and afterward described feeling "not like herself." That single experience marks the turning point: from then on she decided, once and for all, to live for herself rather than for others' expectations &ndash; the SP2's care turned first toward her own physical and spiritual integrity, before it later became a public message.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Personal Decision to Public Icon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to turn a personal truth into a visible, effective image. In 2014, Harnaam Kaur began speaking publicly about her story &ndash; a step that, within a few years, made her one of the most visible body-positivity icons of her generation.</p>
+          <p class="vb-intro">In 2016, she became the first bearded woman to walk the runway at London Fashion Week, and that same year was honored with a Guinness World Record as the youngest woman with a full beard. She has appeared on the covers of Vogue Japan, Teen Vogue, and Cosmopolitan India, delivered a widely watched TEDx talk titled "Empowerment Through Confidence," and become a sought-after speaker on PCOS, mental health, and body image. The Three-wing translates the deeply personal decision to accept her own body into an image that reaches millions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 is the ability to turn radical acceptance of one's own physical reality into a force that gives others courage &ndash; without losing the very personal foundation from which it came. Harnaam Kaur's message is credible precisely because it applied to herself first, long before it became a public campaign.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and one's own stand for one's own truth. In the SP2w3, this pride can become a burden once the identity that has gone public leaves no more room to retreat: whoever becomes a symbol henceforth carries the expectations of everyone who wants to see themselves reflected in that symbol &ndash; a weight Kaur herself has openly addressed in interviews about her own struggles with mental health.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: Visibility as Healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Harnaam Kaur's impact reaches far beyond the fashion world and headlines: her story resonates especially with South Asian communities, where body hair on women is traditionally tightly controlled and stigmatized. By telling her story openly, she encourages others affected by PCOS to seek support, take their own mental health seriously, and accept their own identity without shame.</p>
+          <p class="vb-intro">The hippopotamus doesn't leave its territory to please anyone &ndash; it stays where it belongs, with a presence no one can overlook. Harnaam Kaur's path from bullied teenager to internationally visible activist shows how refusing to hide oneself can become a force that carries far beyond one's own story.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -24922,6 +24986,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SP2w3)"},
       ])}
     </div>
   `);
@@ -77549,6 +77614,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
+      "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

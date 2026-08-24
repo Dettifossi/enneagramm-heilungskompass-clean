@@ -31646,6 +31646,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harald Glööckler – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1965. Deutscher Modedesigner, Gründer von POMPÖÖS. Aus einer von Gewalt geprägten Kindheit eine eigene, glanzvolle Welt aus Gold und Kronen geschaffen – Sicherheit durch selbst erschaffene Fülle, sichtbar gemacht für alle. Tierentsprechung: Flusspferd.",
     land:"Deutschland", tags:["Mode","TV"], gender:"m"},
+  { route:"beruehmte-harnaam-kaur", name:"Harnaam Kaur", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Harnaam Kaur – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · geb. 1990. Britische Sikh-Aktivistin und Model, PCOS-Botschafterin, erste bärtige Frau auf dem Laufsteg der London Fashion Week. Der eigene Körper als erste Fürsorge, verwandelt in eine international sichtbare Botschaft. Tierentsprechung: Flusspferd.",
+    land:"Großbritannien", tags:["Aktivismus","Mode"], gender:"f"},
   { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1929 in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Seit 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
@@ -43417,7 +43421,7 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
@@ -43432,7 +43436,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Tiefe Verwurzelung im eigenen Terrain statt Flucht – Bleiben als Stärke",
         beschreibung: "Statt bei Widerstand das Feld zu räumen, zieht die Kraft sich gerade aus dem Verbleiben am eigenen Platz, aus Vertrautheit mit dem eigenen Ursprung und aus beharrlicher Ausdauer, auch wenn es unbequem wird.",
-        beleg: "Armin Rohde, der sich nach Jahrzehnten als Star ›unverändert als Kind des Ruhrpotts‹ bezeichnet: ›Das Flusspferd bleibt in seinem Wasser – und wird gerade dadurch unverwechselbar‹; J. J. Liu, die stundenlang unter Schmerzen am Pokertisch ausharrte: ›Das Flusspferd verlässt sein Wasser nicht, wenn es schwierig wird. Es bleibt‹; Isabella Briggs, die früh ›lernt, wo ihr Platz ist, und diesen Platz beharrlich ausbaut‹; Franka Potentes Lola, die nach jedem Lauf ›in ihr angestammtes Gewässer zurückkehrt‹; Søren Kierkegaard, der Kopenhagen zeitlebens kaum verließ und von dort aus mit unerbittlicher Konsequenz verteidigte, was er für die Wahrheit über die menschliche Existenz hielt."
+        beleg: "Armin Rohde, der sich nach Jahrzehnten als Star ›unverändert als Kind des Ruhrpotts‹ bezeichnet: ›Das Flusspferd bleibt in seinem Wasser – und wird gerade dadurch unverwechselbar‹; J. J. Liu, die stundenlang unter Schmerzen am Pokertisch ausharrte: ›Das Flusspferd verlässt sein Wasser nicht, wenn es schwierig wird. Es bleibt‹; Isabella Briggs, die früh ›lernt, wo ihr Platz ist, und diesen Platz beharrlich ausbaut‹; Franka Potentes Lola, die nach jedem Lauf ›in ihr angestammtes Gewässer zurückkehrt‹; Søren Kierkegaard, der Kopenhagen zeitlebens kaum verließ und von dort aus mit unerbittlicher Konsequenz verteidigte, was er für die Wahrheit über die menschliche Existenz hielt; Harnaam Kaur, die mit siebzehn einmal dem Druck der Familie nachgab und sich rasierte – und sich danach ›nicht wie sie selbst‹ fühlte: Seither verlässt sie ihr eigenes Terrain, den eigenen Körper, nicht mehr, komme, was wolle."
       },
       {
         titel: "Schutzschicht und Verborgenheit als Überlebenssystem, nicht als Schwäche",
@@ -60393,6 +60397,66 @@ function haraldGloeocklerPortraitPage() {
   `);
 }
 
+function harnaamKaurPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-harnaam-kaur-portrait.jpg" alt="Harnaam Kaur – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harnaam Kaur</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Britische Sikh-Aktivistin &amp; Model, geb. 1990 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, dessen Erscheinung von außen sofort auffällt und das dennoch fest in seinem eigenen Körper, seinem eigenen Element ruht. Es verteidigt nicht nur sein Revier, sondern vor allem seine physische Integrität &ndash; mit einer Selbstverständlichkeit, die keine Erklärung braucht.</p>
+          <p class="vb-intro">Die britische Aktivistin und Model Harnaam Kaur, geboren am 29. November 1990 in Slough in einer traditionellen Punjabi-Sikh-Familie, wuchs mit einer sehr konkreten, körperlichen Herausforderung auf: Bereits mit elf Jahren begann bei ihr, ausgelöst durch das polyzystische Ovarialsyndrom (PCOS), verstärkter Bartwuchs im Gesicht, mit zwölf folgte die Diagnose. Als Teenager erlebte sie erbittertes Mobbing und versuchte zunächst alles, um den Bart loszuwerden &ndash; Wachsen, Zupfen, Rasieren, Fäden. Erst mit sechzehn traf sie eine Entscheidung, die ihr ganzes weiteres Leben prägen sollte: Sie hörte auf, ihr Gesicht zu entfernen, und ließ den Bart einfach wachsen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der eigene Körper als erste Fürsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge beginnt bei der eigenen, sehr konkreten körperlichen und existenziellen Sicherheit &ndash; nicht bei der abstrakten Botschaft nach außen. Bei Harnaam Kaur zeigt sich dieses Prinzip in seiner reinsten Form: Ihre Entscheidung, den Bart zu behalten, war zunächst keine öffentliche Geste, sondern eine sehr persönliche, körperliche Selbstannahme, verknüpft mit ihrer Taufe als Sikh mit sechzehn Jahren &ndash; einem Glauben, in dem das Abschneiden von Körperhaar (Kesh) verboten ist.</p>
+          <p class="vb-intro">Bezeichnend ist, dass sogar ihre eigene Familie sie zunächst von diesem Schritt abbringen wollte, aus Sorge, sie könne mit Bart keine „normale" Ehe oder Arbeit finden. Mit siebzehn gab sie einmal dem Druck der erweiterten Familie nach und rasierte sich &ndash; und beschrieb danach, sie habe sich „nicht wie sie selbst" gefühlt. Diese eine Erfahrung markiert den Wendepunkt: Von da an entschied sie sich endgültig, für sich selbst zu leben statt für die Erwartungen anderer &ndash; die SE2-Fürsorge richtete sich zuerst auf die eigene körperliche und spirituelle Integrität, bevor daraus später eine öffentliche Botschaft wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Von der persönlichen Entscheidung zur öffentlichen Ikone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer persönlichen Wahrheit ein sichtbares, wirksames Bild zu machen. 2014 begann Harnaam Kaur, öffentlich über ihre Geschichte zu sprechen &ndash; ein Schritt, der binnen weniger Jahre zu einer der sichtbarsten Body-Positivity-Ikonen ihrer Generation führte.</p>
+          <p class="vb-intro">2016 lief sie als erste Frau mit Bart über den Laufsteg der London Fashion Week und wurde im selben Jahr mit einem Guinness-Weltrekord als jüngste Frau mit Vollbart geehrt. Sie erschien auf den Titelseiten von Vogue Japan, Teen Vogue und Cosmopolitan India, hielt einen viel beachteten TEDx-Vortrag mit dem Titel „Empowerment Through Confidence" und wurde zur gefragten Rednerin zu PCOS, mentaler Gesundheit und Körperbild. Der Dreierflügel übersetzt die zutiefst persönliche Entscheidung, den eigenen Körper anzunehmen, in ein Bild, das Millionen Menschen erreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus der radikalen Annahme der eigenen körperlichen Realität eine Kraft zu machen, die anderen Mut gibt &ndash; ohne die eigene, sehr persönliche Grundlage dabei zu verlieren. Harnaam Kaurs Botschaft wirkt gerade deshalb glaubwürdig, weil sie zuerst für sich selbst galt, lange bevor sie zur öffentlichen Kampagne wurde.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und das eigene Stehen zur eigenen Wahrheit unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Last werden, wenn die einmal öffentlich gewordene Identität keinen Rückzugsraum mehr lässt: Wer zum Symbol wird, trägt fortan die Erwartungen aller, die sich in diesem Symbol wiedererkennen wollen &ndash; ein Gewicht, das Kaur in Interviews über ihre eigenen Kämpfe mit mentaler Gesundheit selbst offen angesprochen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Sichtbarkeit als Heilung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Harnaam Kaurs Wirkung reicht weit über Modewelt und Schlagzeilen hinaus: Ihre Geschichte spricht besonders südasiatische Communities an, in denen Körperbehaarung bei Frauen traditionell streng kontrolliert und stigmatisiert wird. Indem sie ihre Geschichte offen erzählt, ermutigt sie andere Betroffene von PCOS, Unterstützung zu suchen, die eigene mentale Gesundheit ernst zu nehmen und die eigene Identität ohne Scham anzunehmen.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein Revier nicht, um zu gefallen &ndash; es bleibt dort, wo es hingehört, mit einer Präsenz, die niemand übersehen kann. Harnaam Kaurs Weg vom gemobbten Teenager zur international sichtbaren Aktivistin zeigt, wie aus der Weigerung, sich selbst zu verstecken, eine Kraft wird, die weit über die eigene Geschichte hinausträgt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aiWeiweiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -60457,6 +60521,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Porträt: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-harnaam-kaur", label:"Porträt: Harnaam Kaur (SE2w3)"},
       ])}
     </div>
   `);
@@ -112139,6 +112204,7 @@ function render() {
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
+      "beruehmte-harnaam-kaur": harnaamKaurPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
