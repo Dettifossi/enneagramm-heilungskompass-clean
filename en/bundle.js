@@ -25750,7 +25750,7 @@ function neroPortraitPage() {
 
         <h2 class="vb-section">4. The Passion: Pride Between the Need for Love and the Will to Destroy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of Two is called <strong>pride</strong> &ndash; in SP2w3, directed at one's own visibly proven indispensability. Where this pride was wounded, Nero responded with a consistency that went far beyond political calculation: alongside his mother, he had his stepbrother Britannicus poisoned, cast out and eventually executed his first wife Octavia, and &ndash; according to Roman tradition &ndash; kicked his second wife Poppaea Sabina to death during an argument while she was pregnant.</p>
+          <p class="vb-intro">The passion of Two is called <strong>pride</strong> &ndash; in SP2w3, directed at one's own visibly proven indispensability. Where this pride was wounded, Nero responded with a consistency that went far beyond political calculation: alongside his mother, he had his stepbrother Britannicus poisoned and cast out and eventually executed his first wife Octavia; according to Roman tradition, he kicked his second wife Poppaea Sabina to death during an argument while she was pregnant.</p>
           <p class="vb-intro">This is the shadow side of SP2w3, in its most extreme historical form: when one's own significance depends on the unconditional closeness of those nearest to oneself, every act of rebellion, every independence of these people becomes an existential threat. Nero responded to this not with withdrawal, but with destruction &ndash; the hippopotamus that defends its territory against its own family, if necessary.</p>
         </blockquote>
 

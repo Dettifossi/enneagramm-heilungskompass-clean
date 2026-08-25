@@ -61990,7 +61990,7 @@ function neroPortraitPage() {
 
         <h2 class="vb-section">4. Die Leidenschaft: Stolz zwischen Liebesbedürfnis und Vernichtungswillen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf die eigene, sichtbar bewiesene Unentbehrlichkeit. Wo dieser Stolz verletzt wurde, reagierte Nero mit einer Konsequenz, die weit über politisches Kalkül hinausging: Neben seiner Mutter ließ er seinen Stiefbruder Britannicus vergiften, seine erste Frau Octavia verstoßen und schließlich hinrichten, und – der römischen Überlieferung nach – seine zweite Frau Poppaea Sabina im Streit zu Tode getreten haben, während sie schwanger war.</p>
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf die eigene, sichtbar bewiesene Unentbehrlichkeit. Wo dieser Stolz verletzt wurde, reagierte Nero mit einer Konsequenz, die weit über politisches Kalkül hinausging: Neben seiner Mutter ließ er seinen Stiefbruder Britannicus vergiften und seine erste Frau Octavia verstoßen und schließlich hinrichten; seine zweite Frau Poppaea Sabina soll er der römischen Überlieferung nach im Streit zu Tode getreten haben, während sie schwanger war.</p>
           <p class="vb-intro">Das ist die Schattenseite der SE2w3, in ihrer extremsten historischen Ausprägung: Wenn die eigene Bedeutung an der bedingungslosen Nähe der engsten Menschen hängt, wird jede Auflehnung, jede Unabhängigkeit dieser Menschen zur existenziellen Bedrohung. Nero reagierte darauf nicht mit Rückzug, sondern mit Vernichtung – das Flusspferd, das sein Revier notfalls gegen die eigene Familie verteidigt.</p>
         </blockquote>
 
