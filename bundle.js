@@ -24021,6 +24021,7 @@ const registerEntries = [
   { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
+  { term: "Richard Ramírez Krankheitsporträt", route: "krankheitsportraets-richard-ramirez", description: "Portrait: SX3w4 · Sexueller Typ 3 · B-Zell-Lymphom in der Todeszelle" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32144,6 +32145,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Sozialer Typ 8", krankheit:"Kehlkopfkrebs", teaser:"SO8w7 – Boss der Gambino-Familie, 1940–2002. 1998 in Isolationshaft mit Kehlkopfkrebs diagnostiziert, kein öffentliches Eingeständnis von Schwäche, extreme Isolation in seinen letzten Haftjahren. Starb am 10. Juni 2002 im Bundesgefängnis Springfield, Missouri, im Alter von 61 Jahren." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Ludwig XIV.", subtyp:"SO3w2", heading:"Ludwig XIV. – Sozialer Typ 3", krankheit:"Chronische Gicht, Analfistel, tödlicher Wundbrand", teaser:"SO3w2 – der Sonnenkönig, 1638–1715. Jahrzehntelange Gicht, 1686 unter strengster Geheimhaltung operierte Analfistel, tödlicher Wundbrand im Bein. Starb am 1. September 1715 in Versailles nach 72 Regierungsjahren im Alter von 76 Jahren." , land:"Frankreich", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Sozialer Typ 3", krankheit:"Prostatakrebs", teaser:"SO3w4 – NFL-Legende und Protagonist des Prozesses des Jahrhunderts, 1947–2024. 2023 Prostatakrebs diagnostiziert, weitgehend vor der Öffentlichkeit verborgen, gestorben am 10. April 2024 in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
+  { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexueller Typ 3", krankheit:"B-Zell-Lymphom", teaser:"SX3w4 – ›Der Night Stalker‹, 1960–2013. Diagnose eines B-Zell-Lymphoms in der Todeszelle, gestorben am 7. Juni 2013 in Greenbrae, Kalifornien, vor Vollstreckung des Todesurteils." , land:"USA", gender:"m", jahre:"1960–2013"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44356,7 +44358,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Das perfekte Ideal oder die perfekte Inszenierung wird zur mörderischen Fixierung (Schattenform)",
         beschreibung: "In der destruktiven Ausprägung wird derselbe Drang nach vollständiger, überwältigender Selbstdarstellung zu etwas Zerstörerischem: ein Bild von sich selbst wird um jeden Preis verteidigt oder inszeniert – auch gegen das eigene Gewissen oder mit tödlicher Konsequenz.",
-        beleg: "Diane Downs, die ihre eigenen Kinder tötete, ›um für einen Mann das perfekte, ungebundene Ideal zu sein‹; Luka Magnotta, dessen Taten als ›extreme Selbstinszenierung des Schreckens‹ beschrieben werden – Video-Veröffentlichung inklusive; Richard Ramírez, dessen Auftreten im Gerichtssaal – ›das Victory-Zeichen, das Pentagramm auf der Handfläche, der Blick für die Kameras‹ – die Performance bis in den eigenen Prozess hinein fortsetzte. Wichtig: Diese drei Fälle sind seltene Extremformen, keine typische Ausprägung der SX3 in diesem Kompass."
+        beleg: "Diane Downs, die ihre eigenen Kinder tötete, ›um für einen Mann das perfekte, ungebundene Ideal zu sein‹; Luka Magnotta, dessen Taten als ›extreme Selbstinszenierung des Schreckens‹ beschrieben werden – Video-Veröffentlichung inklusive; Richard Ramírez, dessen Auftreten im Gerichtssaal – ›das Victory-Zeichen, das Pentagramm auf der Handfläche, der Blick für die Kameras‹ – die Performance bis in den eigenen Prozess hinein fortsetzte, während sein tatsächlicher Tod 2013 an einem Lymphom, weitgehend ohne mediale Inszenierung, in scharfem Kontrast zu diesem jahrzehntelang gepflegten Bild stand. Wichtig: Diese drei Fälle sind seltene Extremformen, keine typische Ausprägung der SX3 in diesem Kompass."
       }
     ]
   },
@@ -81110,6 +81112,187 @@ function ojSimpsonKrankheitsportraetPage() {
   `);
 }
 
+function richardRamirezKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/richard-ramirez-portrait.jpg" alt="Richard Ramírez" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Richard Ramírez</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel · 1960–2013</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Pfau</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Tierentsprechung: Pfau" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Richard Ramírez</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-richard-ramirez">kriminalpsychologisches Porträt</a>
+        in diesem Kompass vertreten – dort geht es um seine Mordserie als „Night Stalker" und
+        seine bewusste Selbstmythologisierung. Diese Seite vertieft ein Kapitel, das dort nur am
+        Rande erwähnt wird: eine Diagnose des B-Zell-Lymphoms, einen jahrelangen Krankheitsverlauf
+        in der Todeszelle, und einen Tod 2013 vor der Vollstreckung seines Todesurteils.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Ramírez</strong> ist dem <strong>sexuellen Typ 3 mit Viererflügel</strong>
+        zugeordnet. Die sexuelle Drei will unvergesslich sein; der Viererflügel macht Dunkelheit
+        und Einzigartigkeit zum Kern des Selbstbilds. Genau dieses Bedürfnis, eine unauslöschliche
+        Figur zu bleiben, bestimmte auch, wie er seiner tödlichen Krankheit in der Todeszelle
+        begegnete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose des B-Zell-Lymphoms in Haft:</strong>
+        Nach Jahren in der Todeszelle des San-Quentin-Gefängnisses wurde bei Ramírez ein
+        B-Zell-Lymphom diagnostiziert, eine bösartige Erkrankung des lymphatischen Systems.</p>
+        <p class="vb-intro"><strong>b) Verlegung in ein Gefängniskrankenhaus:</strong>
+        Mit fortschreitender Erkrankung wurde er in die medizinische Einrichtung des Marin
+        County Jail in Greenbrae verlegt, wo unheilbar kranke Häftlinge behandelt wurden.</p>
+        <p class="vb-intro"><strong>c) Fortschreitende Verschlechterung über Monate:</strong>
+        Der Krankheitsverlauf zog sich über einen längeren Zeitraum hin, mit sichtbarer
+        körperlicher Verschlechterung, die sich seinem letzten öffentlichen Erscheinungsbild
+        im Gerichtssaal deutlich entgegensetzte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Kaum öffentliche Berichterstattung über den Zustand:</strong>
+        Anders als bei seinem inszenierten Auftreten während des Prozesses drangen aus der Zeit
+        seiner Erkrankung nur wenige Details nach außen.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzter Kontakt zu seiner Ehefrau:</strong>
+        Ramírez war seit 1996 mit Doreen Lioy verheiratet, die ihn während des Prozesses
+        kennengelernt hatte; der Kontakt zu ihr bestand nach verfügbaren Berichten bis zuletzt
+        fort, auch wenn Details zur Beziehung in seinen letzten Lebensjahren spärlich dokumentiert
+        sind.</p>
+        <p class="vb-intro"><strong>c) Kein bekannter öffentlicher Auftritt mehr nach der Diagnose:</strong>
+        Nach Jahrzehnten in der Todeszelle, in denen er zeitweise noch Interviews gab, gibt es
+        aus der eigentlichen Krankheitsphase keine bekannten weiteren öffentlichen Äußerungen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fast drei Jahrzehnte Wartezeit auf die Vollstreckung:</strong>
+        Ramírez war seit seinem Todesurteil 1989 in der Todeszelle, ohne dass es zur
+        Vollstreckung kam – Kaliforniens langwieriges Berufungsverfahren ließ ihm faktisch
+        Jahrzehnte Zeit, in denen die Krankheit ihn schließlich einholte.</p>
+        <p class="vb-intro"><strong>b) Der Tod kam der Vollstreckung zuvor:</strong>
+        Er starb, bevor sein Todesurteil je vollstreckt wurde – eine Tatsache, die von
+        Beobachtern damals ausdrücklich als Kontrast zu seinem jahrzehntelang aufrechterhaltenen
+        Bild als „unsterblicher" Night Stalker vermerkt wurde.</p>
+        <p class="vb-intro"><strong>c) Tod am 7. Juni 2013 in Greenbrae, Kalifornien:</strong>
+        Richard Ramírez starb im Alter von 53 Jahren an den Folgen seines Lymphoms – fast 28
+        Jahre nach dem Ende seiner Mordserie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein stiller Tod nach einer lauten Karriere:</strong>
+        Der Mann, der im Gerichtssaal das Victory-Zeichen zeigte und das Pentagramm auf der
+        Handfläche vorführte, starb ohne vergleichbare Inszenierung – ein scharfer Kontrast zu
+        seinem öffentlichen Selbstbild.</p>
+        <p class="vb-intro"><strong>b) Kaum mediale Aufmerksamkeit für die letzte Phase:</strong>
+        Anders als der breite mediale Rummel um Prozess und Verurteilung erregte sein
+        tatsächlicher Tod vergleichsweise wenig unmittelbare Berichterstattung über die letzten
+        Monate seines Lebens.</p>
+        <p class="vb-intro"><strong>c) Ein Mythos, der überlebte, ohne dass die Person es tat:</strong>
+        Sein Name blieb in der Kriminalgeschichte präsent – als Symbol, als kulturelle
+        Referenz –, während die Person selbst in vergleichsweiser Stille an einer Krankheit
+        starb, die nichts mit der von ihm gepflegten Ikonografie zu tun hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Pfau, dessen Rad sich nicht mehr entfalten ließ:</strong>
+        Dieselbe Suche nach einem unverwechselbaren, unvergesslichen Bild, die Ramírez'
+        gesamtes öffentliches Auftreten prägte, fand in der Krankheit keinen Raum mehr – ein
+        Lymphom bietet keine Bühne.</p>
+        <p class="vb-intro"><strong>b) Wenn die sexuelle Drei unter chronischem Stress zur Neun wird:</strong>
+        Die jahrzehntelange Isolation der Todeszelle, verschärft durch die fortschreitende
+        Krankheit, zeigt ein Muster, das mit dem in seinem eigenen Porträt beschriebenen
+        Stresspunkt der SX3 übereinstimmt: die Neun, mit ihrer Betäubung und Dissoziation. Wer
+        unter chronischem Druck lebt, bewegt sich zunehmend entlang seiner Stresslinie in
+        Richtung seines Stresspunkts. Das weitgehende öffentliche Verstummen seiner letzten
+        Lebensjahre – nach Jahrzehnten bewusster Selbstinszenierung – erinnert eher an die
+        entrückte innere Abwesenheit ihres Stresspunkts als an die auf Wirkung ausgerichtete
+        Präsenz des Kerntyps – bei unverändertem Kerntyp SX3w4.</p>
+        <p class="vb-intro"><strong>c) Kein neuer Mythos aus der Krankheit selbst:</strong>
+        Anders als frühere Phasen seines Lebens, in denen er jedes Detail seines Auftretens
+        kontrollierte, gibt es keine Hinweise darauf, dass er versuchte, auch seine Krankheit
+        zu einem Teil seiner Selbstinszenierung zu machen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der der Inszenierung entglitt:</strong>
+        Ramírez' gesamtes öffentliches Leben war von der bewussten Erschaffung eines Bildes
+        geprägt, das Furcht und Aufmerksamkeit gleichermaßen band – das Lymphom war eine
+        Bedrohung, die sich jeder Kontrolle und jeder Inszenierung entzog.</p>
+        <p class="vb-intro"><strong>b) Eine Krankheit ohne Symbolkraft für den eigenen Mythos:</strong>
+        Ein Mann, der jedes Detail seines Auftretens – Kleidung, Gesten, Symbole – bewusst
+        wählte, starb an einer Erkrankung, die sich keiner der von ihm gepflegten
+        Bedeutungsebenen zuordnen ließ – ein stilles Ende ohne Drehbuch.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Lymphsystem?</strong>
+        Für eine sexuelle Drei mit Viererflügel, deren gesamte Kraft auf der intensiven,
+        exklusiven Bindung an einen einzelnen fixierten Blick beruhte, liegt eine Deutung
+        nahe: Ausgerechnet jenes System, das den Körper unsichtbar durchzieht und ihn von
+        innen heraus schützen soll, wurde zum Schauplatz des Verfalls – ein Gegenbild zu
+        seiner nach außen gerichteten, hochsichtbaren Selbstinszenierung. Diese Deutung ist
+        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Drei zwangsläufig zu Lymphdrüsenkrebs
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Ramírez' Fall zeigen lässt, ist ein Muster im Umgang mit einer tödlichen
+        Diagnose, das bei einer ausgeprägten sexuellen Drei mit Viererflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Ramírez kannte sein eigenes Muster nicht – die sexuelle Drei mit Viererflügel sucht
+        reflexhaft nach einem Bild, das unauslöschlich bleibt, statt sich je mit der eigenen
+        Vergänglichkeit auseinanderzusetzen, und genau dieses Streben lebte er über Jahrzehnte
+        unverändert aus, bis die Krankheit ihm die Kontrolle über die eigene Erzählung
+        endgültig entzog. Wer die eigene Suche nach Unsterblichkeit im Bild nicht als Muster
+        erkennt, kann sie auch angesichts der eigenen Sterblichkeit nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Drei mit Viererflügel erklärt bei <strong>Ramírez</strong> vieles am
+        Verlauf seiner eigenen Erkrankung: ein Mann, der Jahrzehnte damit verbrachte, sich
+        selbst zum unauslöschlichen Bild zu machen, starb schließlich an einer Krankheit, die
+        sich seiner Inszenierung vollständig entzog – der Pfau, dessen Rad sich am Ende nicht
+        mehr entfalten ließ.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Richard
+        Ramírez wurde 1989 in 13 Anklagepunkten des Mordes schuldig gesprochen und zum Tode
+        verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"kriminalpsychologie-richard-ramirez", label:"Kriminalpsychologie: Richard Ramírez (SX3w4) – der Night Stalker"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
+      ])}
+    </div>
+  `);
+}
+
 function edGeinPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -82505,6 +82688,7 @@ function richardRamirezPortraitPage() {
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3w4)"},
         {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Kriminalpsychologie: Pedro Alonso L\u00f3pez (SO3w2)"},
+        {route:"krankheitsportraets-richard-ramirez", label:"Krankheitsportr\u00e4t: Richard Ram\u00edrez (SX3w4) \u2013 B-Zell-Lymphom"},
       ])}
     </div>
   `);
@@ -121685,6 +121869,7 @@ function render() {
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
+      "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
