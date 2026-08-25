@@ -78119,12 +78119,12 @@ function franzLisztKrankheitsportraetPage() {
         körperlichen Verfall, statt Rückzug oder Schonung.</p>
         <p class="vb-intro"><strong>c) Wenn die Sieben unter chronischem Stress zur Eins wird:</strong>
         Dass Liszt trotz Fieber und ausdrücklichem ärztlichem Verbot auf den Besuch der
-        Aufführung bestand, wirkt weniger wie die spielerische Wahllust der gesunden Sieben als
-        wie eine fast pflichtbewusste, rigide Weigerung nachzugeben. Wer über Jahre in
+        Aufführung bestand, wirkt weniger wie die spielerische Wahlfreiheit der gesunden Sieben
+        als wie eine fast pflichtbewusste, rigide Weigerung nachzugeben. Wer über Jahre in
         chronischem körperlichem Verfall lebt, bewegt sich zunehmend entlang seiner
         Stresslinie in Richtung seines Stresspunkts – bei der Sieben ist das die Eins. Dieses
         unnachgiebige „Ich lasse mich davon nicht abhalten" in seinen letzten Lebenswochen
-        erinnert an die starre Pflichterfüllung des Stresspunkts, nicht an die freie Wahllust
+        erinnert an die starre Pflichterfüllung des Stresspunkts, nicht an die Leichtigkeit
         des Kerntyps – bei unverändertem Kerntyp SX7w8.</p>
         <p class="vb-intro"><strong>d) Warum ausgerechnet Herz und Lunge?</strong>
         Für eine sexuelle Sieben, deren gesamte Lebenskraft sich in unermüdlicher, körperlicher
@@ -79564,7 +79564,7 @@ function leonardBernsteinKrankheitsportraetPage() {
         chronischem Raubbau am eigenen Körper lebt, bewegt sich zunehmend entlang seiner
         Stresslinie in Richtung seines Stresspunkts – bei der Sieben ist das die Eins. Genau
         dieses rigide „Ich ziehe es durch, komme was wolle" in seinen letzten Lebenswochen
-        wirkt weniger nach der freien Wahllust der gesunden Sieben als nach der starren
+        wirkt weniger nach der freien Wahlfreiheit der gesunden Sieben als nach der starren
         Pflichterfüllung ihres Stresspunkts – bei unverändertem Kerntyp SX7w6.</p>
         <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge?</strong>
         Für eine sexuelle Sieben, deren gesamte Lebendigkeit sich im Atem und in der
