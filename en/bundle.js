@@ -556,6 +556,18 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Sucharit Bhakdi – Social Type 2",
     teaser:"SO2w1 · born 1946. Microbiologist, university lecturer, scientist and tireless admonisher. The Golden Retriever who sounds the alarm – because he loves company. Animal correspondence: Golden Retriever.",
     tags:["Science","Medizin"] , gender:"m"},
+{ route:"beruehmte-douglas-rushkoff", name:"Douglas Rushkoff", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Douglas Rushkoff – Social Type 2",
+    teaser:"SO2w1 · b. 1961. American media theorist, coined terms like ›digital native‹ and ›going viral‹. Declined to give five billionaires survival strategies – wrote ›Survival of the Richest‹ instead. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Medien","Wissenschaft"], gender:"m"},
+{ route:"beruehmte-micky-beisenherz", name:"Micky Beisenherz", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Micky Beisenherz – Social Type 2",
+    teaser:"SO2w1 · b. 1977. German podcaster and TV host, ›Apokalypse & Filterkaffee‹. Daily context-setting on world events with a recognizable point of view, instead of detached news reading. Animal correspondence: Golden Retriever.",
+    land:"Germany", tags:["Medien"], gender:"m"},
+{ route:"beruehmte-katharina-tempel", name:"Dr. Katharina Tempel", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Dr. Katharina Tempel – Social Type 2",
+    teaser:"SO2w1 · b. 1984. Psychologist, founder of ›Glücksdetektiv‹. Scientifically grounded paths to wellbeing for a mass audience, grounded in a dissertation with more than 1,500 study participants. Animal correspondence: Golden Retriever.",
+    land:"Germany", tags:["Wissenschaft","Medien"], gender:"f"},
 { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
     heading:"Julius Caesar – Social Type 2",
     teaser:"SO2w3 · 100–44 BC. Roman general, statesman, dictator for life. Generosity as an instrument of power, clemency toward enemies, self-staging in his own campaign account – the Golden Retriever who united an empire and was murdered by a man he had pardoned. Animal correspondence: Golden Retriever.",
@@ -2350,7 +2362,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "schildkroetenarten-der-9-typen",
     "fischarten-der-9-typen",
     "walarten-der-9-typen",
-    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "hoellenkreise-dante", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
+    "insektenarten-der-9-typen", "frieden-schliessen", "wer-wir-sind", "verwechslungen", "wunden", "leidenschaft-und-wunde", "grundformel", "ego-fixierungen", "enneagramm-profiling", "antriebskraefte", "bewusstseinsuebungen", "dynamik-des-bewusstseinszustandes", "schopenhauer-zitat", "koerperregulation", "symmetrie-des-enneagramms", "schaubilder-als-spiegel", "neun-logismoi", "bedeutung-27-subtypen", "dynamik-der-typen", "wurzeln-des-enneagramms", "spirituelle-uebungen", "laster-tugenden-affirmationen", "schutzdefizite", "illusionen", "interessante-erkenntnisse", "identifikation", "schmerzschutz", "blickqualitaet", "prinzipien", "hunderassen", "verantwortung", "limericks", "haiku-der-9-typen", "humor-der-9-typen", "david-rathmer-fuehrung", "david-rathmer-fuehrung-mit-fundament", "david-rathmer-persoenlichkeiten", "david-rathmer-erfolgsinterviews", "david-rathmer-impulse", "david-rathmer-kriminalfaelle", "david-rathmer-grundlagen", "solfeggio-frequenzen", "zehn-anwendungen-fuer-das-enneagramm", "beziehungen-schaubild", "rumi-zitate", "suche-nach-liebe", "drei-lebenskraefte", "beruhmte-philosophen", "hoellenkreise-dante", "beruhmte-komponisten", "homoeopathie-songs", "detlef-rathmer-jazz", "portrait-typ-1", "portrait-typ-2", "portrait-typ-3", "portrait-typ-4", "portrait-typ-5", "portrait-typ-6", "portrait-typ-7", "portrait-typ-8", "portrait-typ-9", "frustrationen", "intrinsisches-verlangen", "basisemotionen", "kerneberzeugungen", "kindheitsperspektiven", "lebensgluck", "beziehungen", "differenzierung", "tierentsprechungen", "triadendefizite", "zornverhalten", "liebesverhalten", "erfolgsverhalten", "individualitaetsverhalten", "wissensverhalten", "sicherheitsverhalten", "spassverhalten", "machtverhalten", "harmonieverhalten", "situationskompass", "tierlexikon"]);
 
 function hasProfile() {
   return !!localStorage.getItem(PROFILE_KEY);
@@ -2442,23 +2454,26 @@ text.nav = [
   ]},
   { route: "wissen", label: "Knowledge", dropdown: [
     { route: "knowledge", label: "Knowledge Base" },
-    { route: "tischdialoge", label: "Table Dialogues of the 27 Subtypes" },
-    { route: "library", label: "Library" },
-    { route: "register", label: "Index" },
-    { route: "quiz", label: "Quiz" },
-    { route: "zitate", label: "Quotes of the Wise" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
-    { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
-    { route: "enneagramm-kunst", label: "Enneagram Art" },
-    { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
     { route: "krankheitsportraets", label: "Illness Portraits" },
-    { route: "laenderzuordnungen", label: "Country Assignments" },
-    { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
+    { route: "quiz", label: "Quiz" },
+    { route: "zitate", label: "Quotes of the Wise" },
+    { route: "tischdialoge", label: "Table Dialogues of the 27 Subtypes" },
+    { route: "enneagramm-homoeopathie", label: "Enneagram Meets Homeopathy" },
+    { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
+    { route: "enneagramm-kunst", label: "Enneagram Art" },
+    { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
+    { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
+    { route: "laenderzuordnungen", label: "Country Assignments" },
+    { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
+    { route: "tritypen", label: "The 27 Tritypes of the Enneagram (for Advanced Learners)" },
+    { route: "library", label: "Library" },
+    { route: "register", label: "Index" },
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
     { route: "60-sekunden-scan", label: "60-Second Scan" },
@@ -2633,6 +2648,7 @@ text.nav = [
   { route: "david-rathmer", label: "▶ David L. Rathmer –<br>Enneagram Profiling", dropdown: [
     { route: "enneagramm-profiling",                 label: "Enneagram Profiling" },
     { route: "david-rathmer-fuehrung",               label: "Leadership & Business" },
+    { route: "david-rathmer-fuehrung-mit-fundament", label: "Führung mit Fundament" },
     { route: "david-rathmer-erfolgsinterviews",      label: "Success Interviews" },
     { route: "david-rathmer-impulse",               label: "Impulses & Insights" },
     { route: "david-rathmer-persoenlichkeiten",      label: "Famous Personalities" },
@@ -15543,22 +15559,24 @@ function fuehrungsstilePage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:var(--copper);">Type 1 &ndash; The Perfectionist:</span> Leadership through standards, examples, norms, rules.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Type 2 &ndash; The Helper:</span> Leadership through motivation, support, help.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Type 3 &ndash; The Achiever:</span> Leadership through goals, plans, results.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Type 4 &ndash; The Individualist:</span> Leadership through vision, emotional connection.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Type 5 &ndash; The Thinker:</span> Leadership through research, observation, analysis.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Type 6 &ndash; The Loyal Skeptic:</span> Leadership through creative problem-solving, logic, rationality.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Type 7 &ndash; The Optimist:</span> Leadership through new ideas, innovation.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Type 8 &ndash; The Challenger:</span> Leadership through strategy, bold action.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Type 9 &ndash; The Peaceful One:</span> Leadership through consensus, agreement, unity.</div>
+        <div style="display:grid;gap:1rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:var(--copper);">Type 1 &ndash; The Perfectionist:</span> Leadership through standards, examples, norms, rules.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: channels frustration into measured, principled clarity instead of self-righteousness.</span></div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 2 &ndash; The Helper:</span> Leadership through motivation, support, help.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: stays generous without silently expecting gratitude in return.</span></div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 3 &ndash; The Achiever:</span> Leadership through goals, plans, results.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: drops the facade and leads through genuine rather than staged results.</span></div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 4 &ndash; The Individualist:</span> Leadership through vision, emotional connection.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: turns mood swings into creative depth instead of withdrawal.</span></div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 5 &ndash; The Thinker:</span> Leadership through research, observation, analysis.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: shares knowledge actively instead of hiding behind the last missing detail.</span></div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 6 &ndash; The Loyal Skeptic:</span> Leadership through creative problem-solving, logic, rationality.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: turns doubt into alert, reliable resolve instead of paralysis.</span></div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 7 &ndash; The Optimist:</span> Leadership through new ideas, innovation.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: stays with one thing instead of fleeing into the next idea when it gets uncomfortable.</span></div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 8 &ndash; The Challenger:</span> Leadership through strategy, bold action.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: deploys control deliberately instead of dominating by reflex.</span></div>
+          <div><span style="font-weight:700;color:var(--copper);">Type 9 &ndash; The Peaceful One:</span> Leadership through consensus, agreement, unity.<br><span style="color:var(--muted);font-size:.85rem;">Strength under pressure: actively takes a position instead of avoiding conflict through withdrawal.</span></div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"From humility grows responsible leadership." (Laozi, presumably 6th century BC)</p>
+        <p class="vb-intro" style="margin-top:1.2rem;">How each type really reacts under responsibility, conflict, and time pressure &ndash; and how that becomes mature, effective leadership &ndash; is explored by David L. Rathmer in the section <a href="javascript:void(0)" data-route="david-rathmer-fuehrung-mit-fundament">Führung mit Fundament</a>.</p>
       </div>
-      ${bookTip("fuehrung-mit-fundament", "Leadership with the Enneagram &ndash; how each of the 9 types unfolds their full leadership potential.", "Führung mit Fundament")}
+      ${bookTip("fuehrung-mit-fundament", "632 pages of depth psychology for leaders: the nine leadership types, their blind spots, and the path to mature, effective leadership.", "Führung mit Fundament")}
       ${bookTip("meta-intelligenz", "Meta-Intelligence: How the Enneagram strengthens leaders in their deepest effectiveness.", "Meta-Intelligenz")}
       ${relatedLinks([
+        {route:"david-rathmer-fuehrung-mit-fundament", label:"Führung mit Fundament (Book)"},
         {route:"enneagramm-profiling", label:"Enneagram Profiling"},
         {route:"antriebskraefte", label:"Driving Forces"},
         {route:"tischdialoge", label:"Table Dialogues"},
@@ -17984,6 +18002,183 @@ function gloriaVonThurnUndTaxisPortraitPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function douglasRushkoffPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-douglas-rushkoff-portrait.jpg" alt="Douglas Rushkoff – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Douglas Rushkoff</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">American media theorist &amp; author, born 1961 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't limit its warmth to individuals but extends it to the whole pack, and that barks a warning when the pack is in danger. Douglas Rushkoff has occupied exactly this role in digital culture since the 1990s: one of the earliest and loudest voices insisting that technology should serve people &ndash; not the other way around.</p>
+          <p class="vb-intro">Douglas Rushkoff was born on February 18, 1961, in New York City, the son of a psychiatric social worker and a hospital administrator. After studying at Princeton, earning an MFA from the California Institute of the Arts, and completing a PhD at Utrecht University on media literacy, he became a central figure in the cyberpunk and cyberdelic movement of the early 1990s &ndash; an early observer of what the internet would do to society.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care for Humanity in the Digital Age</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire collective through influence and public reach. Rushkoff's entire body of work &ndash; more than 25 books on media, technology, and culture &ndash; is carried by exactly this drive: terms like <em>digital native</em>, <em>going viral</em>, or <em>screenager</em>, which he himself coined, were meant to give the public tools to understand its own digital environment, rather than being helplessly subject to it.</p>
+          <p class="vb-intro">In 2019, he launched <em>Team Human</em> &ndash; both a book and a podcast &ndash; as a genuine manifesto of collective belonging: humans, he argues, are deeply social creatures who achieve their greatest goals only together. It is no coincidence that a social Two with a One-wing chose exactly this title &ndash; belonging to <em>Team Human</em> as a counter-design to a world in which algorithms pit people against one another.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Warning as Moral Duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of principled conviction and a need to name what is right, even when it is uncomfortable. This showed most clearly in 2022, when five billionaires invited Rushkoff, as a well-known futures thinker, to a remote luxury resort to ask him about survival strategies for civilizational collapse: fortified bunkers, private security forces, escape islands.</p>
+          <p class="vb-intro">Instead of giving his hosts what they wanted to hear, Rushkoff turned the encounter into his book <em>Survival of the Richest</em> &ndash; a public reckoning with the escape logic of the ultra-wealthy, paired with the clear thesis that real safety comes not from isolation but only from a society in which people treat each other better. The One-wing made him willing to risk the trust of the powerful in order to tell the public the truth instead.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to recognize complex societal developments early and translate them into clear, accessible language before the wider public even senses their scope. Rushkoff's early warnings about the commercialization of the internet &ndash; anchored to milestones like the 1995 Netscape IPO and Time Warner's 2000 acquisition of AOL &ndash; proved, in hindsight, remarkably accurate.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can settle into a fixed position as the morally clear-sighted watchman, whose repeated departures from major platforms &ndash; leaving Facebook in 2013 and X in 2023, both citing privacy concerns &ndash; can also become a demonstrative gesture: public proof of one's own principles, not merely their quiet exercise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Cyberpunk Chronicler to Advocate for the Human</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From <em>Cyberia</em> (1994), his early chronicle of cyberculture, through <em>Media Virus</em> (1995) and <em>Coercion</em> (1999, winner of the Marshall McLuhan Award), to <em>Present Shock</em>, <em>Team Human</em>, and <em>Survival of the Richest</em>, a single thread runs through Rushkoff's work: the question of how people can preserve their humanity and their connection to one another amid ever-accelerating technological change. Today he teaches as Professor of Media Theory and Digital Economics at Queens College, City University of New York.</p>
+          <p class="vb-intro">The Golden Retriever doesn't bark out of fear but out of care &ndash; it warns the pack because the pack matters to it. Rushkoff's decades of warnings were never technophobia for its own sake, but a sustained attempt to remind an entire society that technology should serve what is human &ndash; not the other way around.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function mickyBeisenherzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-micky-beisenherz-portrait.jpg" alt="Micky Beisenherz – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Micky Beisenherz</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">German host, podcaster &amp; columnist, born 1977 in Recklinghausen &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that warms every room and doesn't wait to be asked, but volunteers what matters right now. Micky Beisenherz built an entire career out of exactly this drive: as one of the most-listened-to voices in German-language news podcasting, guiding millions of people through world events every day.</p>
+          <p class="vb-intro">Michael Beisenherz was born on June 28, 1977, in Recklinghausen and grew up in Castrop-Rauxel as the son of a master plumber. After graduating high school he studied social sciences in Bochum for one semester, then spent a year working construction before an internship at a local radio station led him to Radio NRW &ndash; a path that didn't lead straight to the stage, but took detours that kept him grounded.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care Through Daily Orientation for an Entire Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to be present for an entire collective through influence and public reach. Since 2020, Beisenherz has co-hosted the podcast <em>Apokalypse & Filterkaffee</em> with Nikki Hassan-Nia &ndash; a format that explicitly presents itself as opinion journalism: not detached news reading, but daily context-setting with a recognizable point of view.</p>
+          <p class="vb-intro">In 2022, the podcast ranked among the most-listened-to German-language formats of all &ndash; an audience that reliably lets the same voice guide it through world events every morning. The same care shows in his journalistic side work: since 2016 he has written columns for <em>Stern</em>, and regularly for <em>Süddeutsche Zeitung</em> and <em>Die Zeit</em> &ndash; always with the same underlying pattern of making complex events accessible and pointed for a broad audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Conviction Instead of Mere Entertainment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of principled conviction and a need to name things clearly rather than lose itself in mere agreeableness. This is exactly what sets <em>Apokalypse & Filterkaffee</em> apart from ordinary entertainment: the podcast explicitly presents itself as opinion journalism that takes a position instead of simply laying out events side by side.</p>
+          <p class="vb-intro">This stance runs through his entire body of work: as a joke writer for satirical shows like <em>extra3</em>, as a writer for <em>Late Night Berlin</em>, in his columns, which regularly offer pointed commentary on social and political issues. The One-wing ensures that behind the sharp language there is always a recognizable, consistent position &ndash; not opinion for the sake of provocation, but the claim of naming what is right clearly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to freshly process complex, often unsettling world events for a broad audience every single day, without slipping into mere sensationalism. That Beisenherz has reliably hosted for years &ndash; from the WDR talk show <em>Kölner Treff</em>, whose succession from Bettina Böttinger he took over in 2023, to several parallel podcast formats &ndash; shows a reliability that goes beyond mere presence.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the audience. In the SO2w1, this can show as a constant pressure to remain present, sharp, and opinionated every single day, regardless of how exhausting that can become over time. A format that turns itself into a daily institution carries exactly this claim within it: never to fail to appear, always to deliver clear orientation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Local Radio to the Daily Voice of a Generation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From Radio Herne through Radio NRW, where he was for a time part of comedian Mario Barth's crew, to his own TV formats, books like <em>Schreib oder Stirb</em> (with Sebastian Fitzek), and the 2006 Axel Springer Prize for young journalists, a single thread runs through Beisenherz's career: the steady expansion of his own audience, without losing the directness of local radio he started with.</p>
+          <p class="vb-intro">The Golden Retriever doesn't bark out of fear, but because it has something to tell the pack that matters. Beisenherz's simultaneous daily presence across multiple formats &ndash; podcast, talk show, column &ndash; is exactly this drive in its most consistent form: an audience that relies, day after day, on being guided through the world by the same familiar voice.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function katharinaTempelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-katharina-tempel-portrait.jpg?v=2" alt="Katharina Tempel – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Katharina Tempel</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Psychologist &amp; founder of "Glücksdetektiv," born 1984 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that measures its own happiness by whether it can be useful to others, and that doesn't limit its warmth to a few people but wants to make it available to as many as possible. Dr. Katharina Tempel has turned exactly this drive into a mission: as the "Glücksdetektiv" (happiness detective), she reaches several hundred thousand people every month with scientifically grounded paths to greater wellbeing.</p>
+          <p class="vb-intro">Katharina Tempel was born in June 1984, studied psychology, and earned her doctorate with a dissertation on exercises to increase wellbeing, for which she conducted a study involving more than 1,500 participants. Even her academic work was aimed at something beyond her own career: creating a solid, widely usable body of knowledge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care Directed at an Entire Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire collective through influence and reach. In 2013, Tempel founded the Glücksdetektiv platform to share her psychological knowledge and personal insights with a broad public &ndash; what began as pure knowledge-sharing gradually became active support for people navigating personal crises.</p>
+          <p class="vb-intro">With over 30,000 newsletter subscribers, several hundred thousand people reached monthly, and two bestsellers on the German SPIEGEL list &ndash; <em>Gib dir die Liebe, die du verdienst</em> and <em>Schenk dir das Leben, von dem du träumst</em> &ndash; the SO2 shows itself at its clearest: her own insight becomes a resource for an audience many times larger than her own immediate circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Scientific Rigor Instead of Vague Self-Help</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of care and a need to pass on only what can actually be substantiated. In Tempel, this shows in the clear grounding of her work in empirical research: her dissertation, involving more than 1,500 study participants, is not a side note but the methodological foundation on which all her later Glücksdetektiv work rests.</p>
+          <p class="vb-intro">This rigor sets her approach apart from the broad, often arbitrary self-help scene: instead of general motivational slogans, she offers evidence-based psychological interventions, combined with practical experience from online psychological counseling. The One-wing ensures that caring for a mass audience never comes at the expense of professional precision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to turn an often painful personal experience into something that shows others a solid, scientifically grounded path. Tempel describes herself as having long been reserved and pessimistic &ndash; "at best neutral," as she puts it &ndash; before studying positive psychology fundamentally changed her own outlook. Out of that personal turning point came the drive to make the same possible for others.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can show as a constant demand to keep supplying a growing audience with well-founded, correct answers &ndash; a standard that can become exhausting over time if it doesn't also account for one's own limits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Personal Low Point to Scientifically Grounded Happiness Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With books like <em>Genug gegrübelt, lieber Kopf</em>, a YouTube channel that ranks among the largest German-language offerings on the subject of happiness, and an ongoing online psychological counseling practice, Tempel has turned academic research into a daily-life tool for hundreds of thousands of people.</p>
+          <p class="vb-intro">The Golden Retriever doesn't share its warmth out of obligation, but because that is where it finds its own meaning. Tempel's path from what she herself experienced as "at best neutral" to a scientifically grounded provider of wellbeing for a mass audience shows this drive at its most constructive: not hiding one's own crisis, but turning it into the foundation of a mission for many.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-micky-beisenherz", label:"Portrait: Micky Beisenherz (SO2w1)"},
+        {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
       ])}
     </div>
   `);
@@ -39991,12 +40186,12 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Devotion that belongs not to the individual, but to the whole community",
-    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
         beschreibung: "Unlike the other Two subtypes, care is directed not at the one relationship or one's own family, but at a collective – a congregation, an audience, a nation, everyone currently within reach.",
-        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'"
+        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month."
       },
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
@@ -40443,15 +40638,15 @@ function tritypenPage() {
   const cards = profile.map(p => `
     <div class="vb-blockquote" style="margin-bottom:1.2rem;">
       <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
-        <span style="background:var(--gold);color:#1a1208;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;">Trityp ${p.id}</span>
+        <span style="background:var(--gold);color:#1a1208;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;">Tritype ${p.id}</span>
         <strong style="font-size:1.05rem;color:var(--ink);">${p.name}</strong>
       </div>
       <p style="font-style:italic;color:var(--muted);font-size:0.9rem;margin:0 0 0.9rem;line-height:1.55;">${p.kurz}</p>
       <div style="display:grid;gap:0.55rem;">
-        <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Kernmotivation</span><p style="margin:0.2rem 0 0;font-size:0.9rem;line-height:1.55;">${p.kern}</p></div>
-        <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:#b0603d;text-transform:uppercase;">Schattenseite (Blinder Fleck)</span><p style="margin:0.2rem 0 0;font-size:0.9rem;line-height:1.55;">${p.schatten}</p></div>
-        <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:#8b3a2a;text-transform:uppercase;">Verhalten unter Stress</span><p style="margin:0.2rem 0 0;font-size:0.9rem;line-height:1.55;">${p.stress}</p></div>
-        <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:#4a7c59;text-transform:uppercase;">Entwicklungspfad &amp; Coaching-Tipp</span><p style="margin:0.2rem 0 0;font-size:0.9rem;line-height:1.55;">${p.coaching}</p></div>
+        <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Core Motivation</span><p style="margin:0.2rem 0 0;font-size:0.9rem;line-height:1.55;">${p.kern}</p></div>
+        <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:#b0603d;text-transform:uppercase;">Shadow Side (Blind Spot)</span><p style="margin:0.2rem 0 0;font-size:0.9rem;line-height:1.55;">${p.schatten}</p></div>
+        <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:#8b3a2a;text-transform:uppercase;">Behavior Under Stress</span><p style="margin:0.2rem 0 0;font-size:0.9rem;line-height:1.55;">${p.stress}</p></div>
+        <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:#4a7c59;text-transform:uppercase;">Development Path &amp; Coaching Tip</span><p style="margin:0.2rem 0 0;font-size:0.9rem;line-height:1.55;">${p.coaching}</p></div>
       </div>
     </div>`).join("");
 
@@ -40460,7 +40655,7 @@ function tritypenPage() {
       ${pageHeader("wissen")}
       <div class="page-content">
         <p class="eyebrow">Knowledge &middot; For Advanced Learners</p>
-        <h1 class="section-title">Die 27 Tritypen des Enneagramms</h1>
+        <h1 class="section-title">The 27 Tritypes of the Enneagram</h1>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
           <p class="vb-intro">The classical Enneagram divides the nine personality types into three fundamental centers, also known as <strong>triads</strong>: the <strong>Gut Triad</strong> (Instinct/Autonomy: Types 8, 9, 1), the <strong>Heart Triad</strong> (Feeling/Identity: Types 2, 3, 4), and the <strong>Head Triad</strong> (Mind/Security: Types 5, 6, 7).</p>
@@ -40475,7 +40670,7 @@ function tritypenPage() {
         </blockquote>
 
         <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
-          <img src="./assets/schaubilder/tritypen-des-enneagramms.jpg" alt="Die 27 Tritypen des Enneagramms – \xdcbersicht" style="width:100%;display:block;" loading="lazy" />
+          <img src="./assets/schaubilder/tritypen-des-enneagramms.jpg" alt="The 27 Tritypes of the Enneagram – Overview" style="width:100%;display:block;" loading="lazy" />
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The 27 Tritypes of the Enneagram – Overview</p>
         </div>
 
@@ -60303,6 +60498,42 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
   `);
 }
 
+function davidRathmerFuehrungMitFundamentPage() {
+  return shell(`
+    ${pageHeader("david-rathmer-fuehrung-mit-fundament")}
+    <section class="narrow">
+      <p class="eyebrow">David L. Rathmer &middot; Führung mit Fundament</p>
+      <h1 class="h1--tip">Führung mit Fundament</h1>
+      <p class="lead-small">Leadership exposes character like almost no other situation. Under responsibility, conflict, and time pressure, inner patterns emerge unguarded &ndash; in leaders and employees alike. Detlef Rathmer and David L. Rathmer devoted an entire 632-page work to this connection.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/fuehrungsstile/fuehrung-mit-fundament-buch.jpg"
+             alt="Führung mit Fundament – Detlef Rathmer &amp; David L. Rathmer"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:.6rem;color:var(--ink);">What it's about</h2>
+        <p class="vb-intro">The book is divided into three parts. The first covers the psychological foundation of the nine leadership types &ndash; their core structure, everyday leadership style, blind spots, and behavior under stress. The second part applies the Enneagram to leadership practice &ndash; from psychologically effective decisions to conflict dynamics, responsibility, and power. The third part is devoted to integration and maturation: leadership in mature systems, real-world cases, and the interplay of the nine types.</p>
+        <p class="vb-intro">A compact overview of the nine leadership styles with their respective strength under pressure can be found in the <a href="javascript:void(0)" data-route="fuehrungsstile">"Leadership Styles" chart</a> in this Compass.</p>
+      </div>
+
+      ${bookTip("fuehrung-mit-fundament", "632 pages of depth psychology for leaders: the nine leadership types, their blind spots, and the path to mature, effective leadership.", "Führung mit Fundament")}
+      ${bookTip("meta-intelligenz", "How to learn to observe one's own thoughts – gaining a new degree of inner freedom and clarity.", "Meta-Intelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <p style="margin:0;font-size:0.92rem;color:var(--ink);"><strong>David L. Rathmer</strong> has made the Enneagram for leaders and organizations his life's focus &ndash; as co-author of this book and as the developer of Enneagram Profiling. More on this, including interviews with companies like Digistore24, on his site <a href="https://www.enneascholars.de" target="_blank" rel="noopener">enneascholars.de</a>.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"david-rathmer-fuehrung", label:"Leadership & Business (Videos)"},
+        {route:"david-rathmer-erfolgsinterviews", label:"Success Interviews"},
+        {route:"fuehrungsstile", label:"Chart: Leadership Styles"},
+        {route:"enneagramm-profiling", label:"Enneagram Profiling"},
+      ])}
+    </section>
+  `);
+}
 function davidRathmerFuehrungPage() {
   const bt = bookTip("fuehrung-mit-fundament", "Understanding leaders and teams &mdash; the Enneagram as a leadership compass.", "Führung mit Fundament");
   return shell(`
@@ -60378,6 +60609,7 @@ function davidRathmerFuehrungPage() {
       </div>
       ${bt}
       ${relatedLinks([
+        {route:"david-rathmer-fuehrung-mit-fundament", label:"Führung mit Fundament (Book)"},
         {route:"david-rathmer-erfolgsinterviews", label:"Success Interviews"},
         {route:"david-rathmer-impulse",           label:"Impulses & Insights"},
         {route:"david-rathmer-persoenlichkeiten", label:"Famous Personalities"},
@@ -79189,6 +79421,9 @@ function subtypeSchaubilderPage() {
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jack-black": jackBlackPortraitPage,
+      "beruehmte-douglas-rushkoff": douglasRushkoffPortraitPage,
+      "beruehmte-micky-beisenherz": mickyBeisenherzPortraitPage,
+      "beruehmte-katharina-tempel": katharinaTempelPortraitPage,
       "beruehmte-golda-meir": goldaMeirPortraitPage,
       "beruehmte-dhapanbal-yunupingu": dhapanbalYunupinguPortraitPage,
       "beruehmte-birute-galdikas": biruteGaldikasPortraitPage,
@@ -79460,6 +79695,7 @@ function subtypeSchaubilderPage() {
     "haiku-der-9-typen": haikuDer9TypenPage,
     "humor-der-9-typen": humorDer9TypenPage,
     "david-rathmer-fuehrung": davidRathmerFuehrungPage,
+    "david-rathmer-fuehrung-mit-fundament": davidRathmerFuehrungMitFundamentPage,
     "david-rathmer-persoenlichkeiten": davidRathmerPersoenlichkeitenPage,
     "david-rathmer-erfolgsinterviews": davidRathmerErfolgsinterviewsPage,
     "david-rathmer-impulse": davidRathmerImpulsePage,
