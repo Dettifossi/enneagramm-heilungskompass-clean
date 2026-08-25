@@ -24011,6 +24011,7 @@ const registerEntries = [
   { term: "Elizabeth Barrett Browning Krankheitsporträt", route: "krankheitsportraets-elizabeth-barrett-browning", description: "Portrait: SX9w8 · Sexueller Typ 9 · Chronische Krankheit und lebenslange Opiumabhängigkeit" },
   { term: "Peter Falk Krankheitsporträt", route: "krankheitsportraets-peter-falk", description: "Portrait: SO9w1 · Sozialer Typ 9 · Alzheimer-Erkrankung, öffentlicher Sorgerechtsstreit" },
   { term: "Leonard Bernstein Krankheitsporträt", route: "krankheitsportraets-leonard-bernstein", description: "Portrait: SX7w6 · Sexueller Typ 7 · Lungenemphysem durch Kettenrauchen, tödliches Herzversagen" },
+  { term: "Alexander der Große Krankheitsporträt", route: "krankheitsportraets-alexander-der-grosse", description: "Portrait: SO2w3 · Sozialer Typ 2 · Rätselhafter Fiebertod in Babylon" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32124,6 +32125,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexueller Typ 9", krankheit:"Jahrzehntelange, nie eindeutig diagnostizierte chronische Krankheit (vermutlich Wirbelsäulenleiden und/oder frühe Lungenerkrankung) mit begleitender lebenslanger Opiumabhängigkeit", teaser:"SX9w8 – englische Dichterin, 1806–1861. Chronische Beschwerden ab der Jugend, früh verordnetes Laudanum mit jahrzehntelanger Abhängigkeit, über zwanzig Jahre fast völlige Isolation im Vaterhaus. Gesundheitliche Besserung erst nach der heimlichen Flucht nach Italien 1846." , land:"Großbritannien", gender:"f", jahre:"1806–1861"},
   { route:"krankheitsportraets-peter-falk", name:"Peter Falk", subtyp:"SO9w1", heading:"Peter Falk – Sozialer Typ 9", krankheit:"Alzheimer-Erkrankung, begleitet von öffentlichem Sorgerechtsstreit um seine Pflege", teaser:"SO9w1 – Schauspieler, weltberühmt als TV-Ermittler Columbo, 1927–2011. Alzheimer-Diagnose 2007, 2008 gerichtliche Vormundschaft durch seine Ehefrau, anschließend öffentlicher Streit mit seiner Tochter Catherine um Besuchsrechte. Starb 2011 im Alter von 83 Jahren an den Folgen der Erkrankung." , land:"USA", gender:"m", jahre:"1927–2011"},
   { route:"krankheitsportraets-leonard-bernstein", name:"Leonard Bernstein", subtyp:"SX7w6", heading:"Leonard Bernstein – Sexueller Typ 7", krankheit:"Fortgeschrittenes Lungenemphysem durch jahrzehntelanges Kettenrauchen, tödliches Herzversagen", teaser:"SX7w6 – Dirigent, Komponist, Pianist, 1918–1990. Bis zu vier Packungen Zigaretten täglich über Jahrzehnte, dirigierte am 19. August 1990 gegen ärztlichen Rat sein letztes Konzert und musste wegen eines Hustenanfalls abbrechen. Rücktritt vom Dirigieren am 9. Oktober 1990, gestorben nur fünf Tage später." , land:"USA", gender:"m", jahre:"1918–1990"},
+  { route:"krankheitsportraets-alexander-der-grosse", name:"Alexander der Große", subtyp:"SO2w3", heading:"Alexander der Große – Sozialer Typ 2", krankheit:"Plötzlicher, bis heute ungeklärter Fieber- und Krankheitsverlauf nach Jahren körperlicher Grenzenlosigkeit", teaser:"SO2w3 – König von Makedonien, Eroberer eines Weltreichs, 356–323 v. Chr. Elf Jahre ununterbrochener Feldzug, mehrfach schwer verwundet, exzessiver Alkoholkonsum. Starb nach nur zehn bis zwölf Tagen Fieber am 10. oder 11. Juni 323 v. Chr. in Babylon im Alter von 32 Jahren, ohne Nachfolger." , land:"Makedonien", gender:"m", jahre:"356–323 v. Chr."},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44412,7 +44414,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Persönliche Nähe als Führungsinstrument – Verbindung statt Distanz zur Machtsicherung",
         beschreibung: "Führung entsteht nicht durch Einschüchterung oder Distanz, sondern durch das gezielte Investieren in unzählige einzelne Beziehungen, die sich am Ende zu enormer kollektiver Bindung summieren.",
-        beleg: "Julius Caesar: ›Wo ein sparsamer Stratege Rücklagen gebildet hätte, investierte die soziale Zwei in Beziehung. Das Kapital, das er aufbaute, war kein Geld – es war Zuneigung, Loyalität‹ – und dessen wiederkehrende, von antiken Quellen bezeugte Anfälle er zeitlebens verschwieg, um das eigene Bild der Unverwundbarkeit nicht zu gefährden; Napoleon, der ›die Namen seiner Soldaten kannte, sie direkt ansprach‹; Alexander der Große, der ›Verwundete persönlich besuchte‹ – ›Verbindung schlägt Zwang‹; Barack Obama: ›Er tritt in einen Raum und lässt ihn größer werden.‹; Abd al-Fattah as-Sisi, der seine Machtübernahme nicht als Zwang, sondern als gemeinsame nationale Kraftanstrengung inszenierte – vom persönlichen Besuch eines koptischen Weihnachtsgottesdienstes bis zur Mitfinanzierung der neuen Hauptstadt durch Staatsanleihen an die eigene Bevölkerung: ›Nicht ich allein baue das Land auf – wir alle bauen es gemeinsam auf, unter meiner Führung.‹; Bob Marley, der 1978 beim One Love Peace Concert zwei erbitterte politische Rivalen mitten im Song auf die Bühne holte und ihre Hände gemeinsam über seinem Kopf in die Höhe hielt – keine Machtdemonstration, sondern der Versuch, ein zerrissenes Land allein durch eine gemeinsame Geste zu verbinden."
+        beleg: "Julius Caesar: ›Wo ein sparsamer Stratege Rücklagen gebildet hätte, investierte die soziale Zwei in Beziehung. Das Kapital, das er aufbaute, war kein Geld – es war Zuneigung, Loyalität‹ – und dessen wiederkehrende, von antiken Quellen bezeugte Anfälle er zeitlebens verschwieg, um das eigene Bild der Unverwundbarkeit nicht zu gefährden; Napoleon, der ›die Namen seiner Soldaten kannte, sie direkt ansprach‹; Alexander der Große, der ›Verwundete persönlich besuchte‹ – ›Verbindung schlägt Zwang‹ – und der noch auf dem Sterbebett, kaum noch sprachfähig, jeden einzelnen seiner Soldaten an sich vorbeiziehen ließ, um ihm ein letztes Zeichen zu geben; Barack Obama: ›Er tritt in einen Raum und lässt ihn größer werden.‹; Abd al-Fattah as-Sisi, der seine Machtübernahme nicht als Zwang, sondern als gemeinsame nationale Kraftanstrengung inszenierte – vom persönlichen Besuch eines koptischen Weihnachtsgottesdienstes bis zur Mitfinanzierung der neuen Hauptstadt durch Staatsanleihen an die eigene Bevölkerung: ›Nicht ich allein baue das Land auf – wir alle bauen es gemeinsam auf, unter meiner Führung.‹; Bob Marley, der 1978 beim One Love Peace Concert zwei erbitterte politische Rivalen mitten im Song auf die Bühne holte und ihre Hände gemeinsam über seinem Kopf in die Höhe hielt – keine Machtdemonstration, sondern der Versuch, ein zerrissenes Land allein durch eine gemeinsame Geste zu verbinden."
       },
       {
         titel: "Hinter der Warmherzigkeit steckt erhebliche innere Kraft, die sich zeigt, wenn es darauf ankommt",
@@ -67472,6 +67474,7 @@ function alexanderDerGrossePortraitPage() {
         {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9)"},
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3)"},
+        {route:"krankheitsportraets-alexander-der-grosse", label:"Krankheitsporträt: Alexander der Große – rätselhafter Tod in Babylon"},
       ])}
     </div>
   `);
@@ -76351,6 +76354,7 @@ function juliusCaesarKrankheitsportraetPage() {
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3) – Lebenswerk"},
         {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali – Parkinson"},
         {route:"krankheitsportraets-napoleon-bonaparte", label:"Krankheitsporträt: Napoleon Bonaparte (SO2w3) – dieselbe Verbergungsstrategie"},
+        {route:"krankheitsportraets-alexander-der-grosse", label:"Krankheitsporträt: Alexander der Große (SO2w3) – derselbe Dreierflügel-Reflex"},
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
@@ -79190,6 +79194,194 @@ function leonardBernsteinKrankheitsportraetPage() {
         {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function alexanderDerGrosseKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-alexander-der-grosse-portrait.jpg" alt="Alexander der Große" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alexander der Große</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · 356–323 v. Chr.</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Alexander der Große</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-alexander-der-grosse">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Feldherr und
+        Reichsgründer und seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das
+        dort nur gestreift wird: einen plötzlichen, bis heute nicht sicher geklärten
+        Krankheitsverlauf, der ihn im Juni 323 v. Chr. in Babylon innerhalb weniger Tage tötete –
+        nach einem Jahrzehnt, in dem sein Körper nie wirklich zur Ruhe gekommen war.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Alexander</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Ehrgeiz</em>: grenzenlose Hingabe an eine
+        große Sache, verbunden mit dem Bedürfnis, unentbehrlich zu sein. Der Dreierflügel bringt
+        die Weigerung hinzu, sich von Schwäche – auch der eigenen körperlichen – je aufhalten zu
+        lassen. Genau diese Weigerung lässt sich bis in seinen letzten, überstürzten
+        Krankheitsverlauf nachverfolgen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der elf Jahre nie wirklich Rast fand:</strong>
+        Von 334 bis 323 v. Chr. befand sich Alexander in ununterbrochenem Feldzug – durch
+        Wüsten, über Gebirge, mehrfach schwer verwundet, unter anderem durch einen Pfeil, der
+        bei der Belagerung von Multan seine Lunge durchbohrte.</p>
+        <p class="vb-intro"><strong>b) Exzessiver Alkoholkonsum, besonders nach 324 v. Chr.:</strong>
+        Antike Quellen berichten übereinstimmend von ausgedehnten Trinkgelagen, die sich nach
+        dem Tod seines engsten Gefährten Hephaistion noch steigerten.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Erschöpfung im Frühjahr 323 v. Chr.:</strong>
+        Nach der Rückkehr nach Babylon häuften sich laut Überlieferung Berichte über
+        Fieberschübe und nachlassende Kraft – im Trubel der Planung eines neuen Feldzugs gegen
+        Arabien kaum beachtet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Trinkgelage kurz vor dem Zusammenbruch:</strong>
+        In der Nacht zum 2. Juni 323 v. Chr. nahm Alexander an einem ausgedehnten Trinkgelage zu
+        Ehren seines Freundes Nearchos teil – danach klagte er über stechende Schmerzen.</p>
+        <p class="vb-intro"><strong>b) Fieber, das nicht mehr abklang:</strong>
+        In den folgenden Tagen stieg sein Fieber kontinuierlich, während er weiterhin versuchte,
+        tägliche militärische und administrative Pflichten zu erfüllen.</p>
+        <p class="vb-intro"><strong>c) Fortschreitender Kräfteverfall bis zur Sprachlosigkeit:</strong>
+        Laut den überlieferten königlichen Tagebüchern (Ephemerides) konnte er sich in den
+        letzten Tagen nicht mehr artikulieren, empfing seine Offiziere aber noch stumm, jeden
+        Einzelnen, an seinem Sterbebett.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Zehn bis zwölf Tage Krankheitsverlauf:</strong>
+        Von den ersten Symptomen bis zum Tod vergingen nur rund zehn bis zwölf Tage – ein
+        rasanter Verfall bei einem Mann, der ein Jahrzehnt lang als nahezu unbesiegbar gegolten
+        hatte.</p>
+        <p class="vb-intro"><strong>b) Die Soldaten wollten ihn noch einmal sehen:</strong>
+        Der Überlieferung nach ließ Alexander, obwohl er kaum noch sprechen konnte, seine
+        Soldaten einzeln an seinem Bett vorbeiziehen, um jedem noch ein letztes Zeichen zu
+        geben.</p>
+        <p class="vb-intro"><strong>c) Tod am 10. oder 11. Juni 323 v. Chr. in Babylon:</strong>
+        Alexander starb im Alter von nur 32 Jahren, ohne einen volljährigen, unbestrittenen
+        Nachfolger zu benennen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine SO2w3-Parallele: Julius Caesar</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Unter den <a href="javascript:void(0)" data-route="krankheitsportraets-julius-caesar">Krankheitsporträts</a>
+        dieses Kompasses findet sich mit
+        <a href="javascript:void(0)" data-route="beruehmte-julius-caesar">Julius Caesar (SO2w3)</a>
+        ein auffällig ähnlicher Fall: Auch Caesar litt – nach übereinstimmenden antiken Quellen
+        vermutlich an Epilepsie – und verbarg diese Schwäche zeitlebens, statt sie öffentlich
+        zuzugeben. Bei beiden Männern zeigt sich derselbe Dreierflügel-Reflex: Schwäche, auch die
+        eigene körperliche, darf das sorgfältig aufgebaute Bild von Unbesiegbarkeit nicht
+        beschädigen. Alexander ging noch einen Schritt weiter als Caesar – er ignorierte
+        Warnsignale nicht nur, sondern trieb seinen Körper aktiv über jede vernünftige Grenze
+        hinaus, bis kein Verbergen mehr nötig war, weil der Zusammenbruch selbst öffentlich
+        wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Reich ohne Erben:</strong>
+        Sein Tod ohne klare Nachfolgeregelung stürzte das gesamte von ihm eroberte Weltreich in
+        jahrzehntelange Nachfolgekriege unter seinen Feldherren, die sogenannten
+        Diadochenkämpfe.</p>
+        <p class="vb-intro"><strong>b) Jahrhunderte an Spekulation über die Todesursache:</strong>
+        Von Malaria über Typhus bis zu einer Vergiftung durch enge Vertraute – bis heute gibt es
+        keine gesicherte Diagnose, nur konkurrierende Theorien.</p>
+        <p class="vb-intro"><strong>c) Ein Mythos, der den kranken Körper überstrahlte:</strong>
+        In der Nachwelt trat die Krankheit selbst fast vollständig hinter dem Mythos des
+        unbesiegbaren Eroberers zurück.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Golden Retriever, der bis zuletzt Nähe suchte:</strong>
+        Selbst sprachlos und dem Tod nahe, empfing er noch jeden einzelnen Soldaten – dieselbe
+        Verbindungssuche, die sein ganzes Leben trug, blieb bis zum letzten Atemzug erhalten.</p>
+        <p class="vb-intro"><strong>b) Ein Körper, der die Grenzenlosigkeit nicht mehr mittragen konnte:</strong>
+        Elf Jahre ohne wirkliche Rast, mehrere schwere Kriegsverletzungen und exzessiver
+        Alkoholkonsum trafen an einem einzigen Punkt zusammen.</p>
+        <p class="vb-intro"><strong>c) Kein Rückzug, sondern Weiterplanen bis zum Umkippen:</strong>
+        Noch während erste Fieberschübe ihn schwächten, arbeitete er an den Vorbereitungen für
+        den nächsten Feldzug – Stillstand kam für ihn nicht infrage.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Der Glaube, unbesiegbar sein zu müssen:</strong>
+        Die Leidenschaft der Zwei, <strong>Stolz</strong>, zeigte sich bei Alexander als
+        Weigerung, jemals innezuhalten – elf Jahre Feldzug ohne echte Erholungsphase, mehrfach
+        schwer verwundet, immer wieder an vorderster Front.</p>
+        <p class="vb-intro"><strong>b) Der Verlust Hephaistions als Wendepunkt:</strong>
+        Nach dem Tod seines engsten Gefährten 324 v. Chr. rutschte Alexander in seinen
+        Achter-Stresspunkt – unnachgiebiger, härter, mit exzessivem Trinken als Ausdruck seines
+        Schmerzes. Genau in dieser Phase begann sich das Muster zu verdichten, das wenige Monate
+        später in seinen körperlichen Zusammenbruch mündete.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Trinkgelage als möglicher Auslöser:</strong>
+        Antike Quellen sehen im Trinkgelage zu Ehren des Nearchos kurz vor seinem Tod einen
+        möglichen Auslöser oder zumindest Verstärker seiner Erkrankung – ob Alkoholvergiftung,
+        eine begünstigte Infektion oder reiner Zufall, ist bis heute ungeklärt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet ein plötzlicher, rätselhafter Zusammenbruch?</strong>
+        Für eine soziale Zwei mit Dreierflügel, deren gesamtes Selbstbild auf Unbesiegbarkeit und
+        grenzenloser Hingabe an die eigene Mission beruhte, liegt eine Deutung nahe: Ausgerechnet
+        ein Körper, der niemals „genug" kannte, brach zusammen, ohne dass sein Träger selbst je
+        „genug" gesagt hätte. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu einem plötzlichen
+        Kollaps führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Alexanders Fall zeigen lässt, ist ein Muster im Umfeld einer
+        Krankheit, das bei einer ausgeprägten sozialen Zwei mit Dreierflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Alexander lebte über zwei Jahrtausende vor der Entstehung des Enneagramms als modernem
+        Persönlichkeitsmodell – er kannte sein eigenes Muster nicht bewusst. Seine Weigerung,
+        jemals eine Grenze zu akzeptieren – weder die des eigenen Körpers noch, zuvor, die
+        geografische am Fluss Hyphasis, die ihm erst seine eigenen Soldaten aufzwangen – wurde
+        nie als wiederkehrendes Verhaltensmuster erkannt, sondern einfach als Wesensmerkmal eines
+        „geborenen Eroberers" gelebt. Wer die eigene Grenzenlosigkeit nicht als Muster kennt,
+        kann sie auch nicht rechtzeitig zügeln, wenn der eigene Körper längst an seine Grenzen
+        stößt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Alexanders</strong> soziale Zwei mit
+        Dreierflügel noch einmal ablesen: ein Körper, der elf Jahre lang keine Grenze
+        akzeptierte, und ein Zusammenbruch, der so plötzlich und rätselhaft blieb wie das Leben
+        selbst grenzenlos gewesen war. Der Golden Retriever, der bis zur letzten Sekunde
+        Verbindung suchte – und dessen eigener Körper am Ende die einzige Grenze setzte, die er
+        sich selbst nie gesetzt hätte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-alexander-der-grosse", label:"Porträt: Alexander der Große (SO2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-julius-caesar", label:"Krankheitsporträt: Julius Caesar (SO2w3) – verborgene Epilepsie"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
     </div>
   `);
@@ -119758,6 +119950,7 @@ function render() {
       "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
       "krankheitsportraets-peter-falk": peterFalkKrankheitsportraetPage,
       "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
+      "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

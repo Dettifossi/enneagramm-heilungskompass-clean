@@ -237,6 +237,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexual Type 9", krankheit:"Decades-long, never definitively diagnosed chronic illness (likely a spinal condition and/or early lung disease) with accompanying lifelong opium dependency", teaser:"SX9w8 – English poet, 1806–1861. Chronic complaints from her teens, early prescription of laudanum leading to decades of dependency, more than twenty years of near-total isolation in her father's house. Health improved only after her secret flight to Italy in 1846." , land:"United Kingdom", gender:"f", jahre:"1806–1861"},
   { route:"krankheitsportraets-peter-falk", name:"Peter Falk", subtyp:"SO9w1", heading:"Peter Falk – Social Type 9", krankheit:"Alzheimer's disease, accompanied by a public custody dispute over his care", teaser:"SO9w1 – actor, world-famous as TV detective Columbo, 1927–2011. Diagnosed with Alzheimer's in 2007, placed under court conservatorship by his wife in 2008, followed by a public dispute with his daughter Catherine over visitation rights. Died in 2011 at age 83 from complications of the disease." , land:"USA", gender:"m", jahre:"1927–2011"},
   { route:"krankheitsportraets-leonard-bernstein", name:"Leonard Bernstein", subtyp:"SX7w6", heading:"Leonard Bernstein – Sexual Type 7", krankheit:"Advanced emphysema from decades of chain-smoking, fatal heart failure", teaser:"SX7w6 – conductor, composer, pianist, 1918–1990. Up to four packs of cigarettes a day for decades; conducted his final concert on 19 August 1990 against medical advice and had to stop due to a coughing fit. Retired from conducting on 9 October 1990, died just five days later." , land:"USA", gender:"m", jahre:"1918–1990"},
+  { route:"krankheitsportraets-alexander-der-grosse", name:"Alexander the Great", subtyp:"SO2w3", heading:"Alexander the Great – Social Type 2", krankheit:"Sudden, still-unresolved fever and illness after years of unchecked physical excess", teaser:"SO2w3 – King of Macedon, conqueror of an empire, 356–323 BC. Eleven years of unbroken campaigning, wounded seriously more than once, excessive alcohol consumption. Died after only ten to twelve days of fever on 10 or 11 June 323 BC in Babylon, aged 32, with no named successor." , land:"Macedon", gender:"m", jahre:"356–323 BC"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -27666,6 +27667,7 @@ function alexanderDerGrossePortraitPage() {
         {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SE1w9)"},
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3)"},
+        {route:"krankheitsportraets-alexander-der-grosse", label:"Illness Portrait: Alexander the Great – mysterious death in Babylon"},
       ])}
     </div>
   `);
@@ -48582,6 +48584,7 @@ function juliusCaesarKrankheitsportraetPage() {
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3) – life's work"},
         {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali – Parkinson's"},
         {route:"krankheitsportraets-napoleon-bonaparte", label:"Illness Portrait: Napoleon Bonaparte (SO2w3) – same concealment strategy"},
+        {route:"krankheitsportraets-alexander-der-grosse", label:"Illness Portrait: Alexander the Great (SO2w3) – same Three-wing reflex"},
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Illness Portrait: Ludwig van Beethoven (SX6w5) – counter-model: open confrontation"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so2", label:"Subtype Profile SO2"},
@@ -51284,6 +51287,184 @@ function leonardBernsteinKrankheitsportraetPage() {
         {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx7", label:"Subtype Profile SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function alexanderDerGrosseKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-alexander-der-grosse-portrait.jpg" alt="Alexander the Great" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alexander the Great</p>
+        <p class="krim-portrait-typ">SO2w3 · Social Type 2 with a Three-Wing · 356–323 BC</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Alexander the Great</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-alexander-der-grosse">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as general and empire-builder and his
+        type structure in general. This page delves into a chapter only touched on there: a
+        sudden, still-unresolved illness that killed him within days in Babylon in June 323
+        BC – after a decade in which his body never truly found rest.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Alexander</strong> is classified as the <strong>Social Type 2 with
+        Three-wing</strong>. Naranjo called this subtype <em>ambition</em>: boundless devotion
+        to a great cause, joined with the need to be indispensable. The Three-wing adds a
+        refusal to ever be stopped by weakness – including physical weakness. This same refusal
+        can be traced right into his final, headlong illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A body that never truly rested for eleven years:</strong>
+        From 334 to 323 BC, Alexander was on unbroken campaign – through deserts, over
+        mountains, wounded seriously more than once, including an arrow that pierced his lung
+        during the siege of Multan.</p>
+        <p class="vb-intro"><strong>b) Excessive alcohol consumption, especially after 324 BC:</strong>
+        Ancient sources consistently report extended drinking bouts that intensified after the
+        death of his closest companion, Hephaestion.</p>
+        <p class="vb-intro"><strong>c) Growing exhaustion in the spring of 323 BC:</strong>
+        After his return to Babylon, accounts of feverish episodes and declining strength
+        multiplied according to tradition – barely noticed amid preparations for a new campaign
+        against Arabia.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A drinking bout shortly before the collapse:</strong>
+        On the night of 2 June 323 BC, Alexander took part in an extended drinking party in
+        honor of his friend Nearchus – afterward he complained of stabbing pain.</p>
+        <p class="vb-intro"><strong>b) A fever that would not break:</strong>
+        Over the following days his fever rose steadily, while he continued trying to fulfill
+        his daily military and administrative duties.</p>
+        <p class="vb-intro"><strong>c) Progressive decline to the point of speechlessness:</strong>
+        According to the transmitted royal diaries (Ephemerides), in his final days he could no
+        longer speak, but still received his officers in silence, one by one, at his deathbed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Ten to twelve days from onset to death:</strong>
+        Only about ten to twelve days passed from his first symptoms to his death – a rapid
+        decline for a man who had seemed nearly invincible for a decade.</p>
+        <p class="vb-intro"><strong>b) The soldiers wanted to see him once more:</strong>
+        According to tradition, although he could barely speak, Alexander had his soldiers
+        file past his bed one by one, so he could give each of them one last sign.</p>
+        <p class="vb-intro"><strong>c) Death on 10 or 11 June 323 BC in Babylon:</strong>
+        Alexander died at only 32 years old, without naming a clear, undisputed adult
+        successor.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">An SO2w3 Parallel: Julius Caesar</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Among this Compass's <a href="javascript:void(0)" data-route="krankheitsportraets-julius-caesar">Illness Portraits</a>,
+        <a href="javascript:void(0)" data-route="beruehmte-julius-caesar">Julius Caesar (SO2w3)</a>
+        presents a strikingly similar case: Caesar too suffered – according to consistent
+        ancient sources, likely from epilepsy – and concealed this weakness for life rather than
+        acknowledge it publicly. Both men show the same Three-wing reflex: weakness, even one's
+        own physical weakness, must not damage the carefully built image of invincibility.
+        Alexander went a step further than Caesar – he did not merely ignore warning signs, but
+        actively drove his body past every reasonable limit, until no concealment was needed
+        anymore because the collapse itself became public.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) An empire without an heir:</strong>
+        His death without a clear line of succession plunged the entire empire he had conquered
+        into decades of wars among his generals, the so-called Wars of the Diadochi.</p>
+        <p class="vb-intro"><strong>b) Centuries of speculation over the cause of death:</strong>
+        From malaria to typhoid fever to poisoning by close confidants – to this day there is no
+        confirmed diagnosis, only competing theories.</p>
+        <p class="vb-intro"><strong>c) A myth that outshone the sick body:</strong>
+        In posterity, the illness itself receded almost entirely behind the myth of the
+        invincible conqueror.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The Golden Retriever that sought closeness until the very end:</strong>
+        Even speechless and near death, he still received every single soldier – the same
+        search for connection that carried his whole life remained intact until his last
+        breath.</p>
+        <p class="vb-intro"><strong>b) A body that could no longer sustain limitlessness:</strong>
+        Eleven years without real rest, several serious war wounds, and excessive alcohol
+        consumption converged on a single point.</p>
+        <p class="vb-intro"><strong>c) No retreat, but continued planning until collapse:</strong>
+        Even as the first fevers weakened him, he was working on preparations for the next
+        campaign – standing still was simply not an option for him.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) The belief that one must be invincible:</strong>
+        The Two's passion, <strong>pride</strong>, showed in Alexander as a refusal to ever
+        pause – eleven years of campaigning without any real recovery, wounded seriously more
+        than once, again and again at the front line.</p>
+        <p class="vb-intro"><strong>b) The loss of Hephaestion as a turning point:</strong>
+        After his closest companion's death in 324 BC, Alexander slid into his stress point at
+        Eight – more unforgiving, harder, with excessive drinking as an expression of his grief.
+        It was precisely in this phase that the pattern began to compound, one that would lead,
+        just months later, to his physical collapse.</p>
+        <p class="vb-intro"><strong>c) One last drinking bout as a possible trigger:</strong>
+        Ancient sources see in the drinking party in honor of Nearchus, shortly before his
+        death, a possible trigger or at least an aggravating factor in his illness – whether
+        alcohol poisoning, an infection it favored, or pure coincidence remains unresolved to
+        this day.</p>
+        <p class="vb-intro"><strong>d) Why a sudden, mysterious collapse, of all things?</strong>
+        For a Social Two with Three-wing whose entire self-image rested on invincibility and
+        boundless devotion to his mission, one interpretation suggests itself: a body that never
+        knew "enough" collapsed without its owner ever having said "enough" himself. This
+        interpretation is a plausible reading, not a documented historical causal link, and is
+        developed further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Social Two pattern inevitably leads to a sudden collapse –
+        <strong>any person can develop any illness, regardless of subtype.</strong> What
+        Alexander's case illustrates is a pattern in the environment surrounding an illness that
+        keeps recurring in practice among people with a pronounced Social Two and Three-wing –
+        one of many possible interpretations, not a judgment. The corresponding illness pattern
+        is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Alexander lived more than two thousand years before the Enneagram emerged as a modern
+        personality model – he did not consciously know his own pattern. His refusal to ever
+        accept a limit – neither that of his own body, nor, earlier, the geographic one at the
+        Hyphasis River that his own soldiers forced upon him – was never recognized as a
+        recurring behavioral pattern, simply lived as the nature of a "born conqueror." Someone
+        who does not know their own limitlessness as a pattern cannot rein it in in time, even
+        when their own body has long since reached its limits.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Alexander's</strong> Social Two with Three-wing is legible once more in the
+        course of his illness: a body that accepted no limit for eleven years, and a collapse
+        that remained as sudden and mysterious as his life had been limitless. The Golden
+        Retriever that sought connection until the last second – and whose own body was, in the
+        end, the only limit he never set for himself.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-alexander-der-grosse", label:"Portrait: Alexander the Great (SO2w3) – life's work"},
+        {route:"krankheitsportraets-julius-caesar", label:"Illness Portrait: Julius Caesar (SO2w3) – concealed epilepsy"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so2", label:"Subtype Profile SO2"},
       ])}
     </div>
   `);
@@ -84208,6 +84389,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
       "krankheitsportraets-peter-falk": peterFalkKrankheitsportraetPage,
       "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
+      "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
