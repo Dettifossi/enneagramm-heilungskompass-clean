@@ -244,6 +244,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexual Type 6", krankheit:"Colon cancer, fatal cardiac arrest", teaser:"SX6w7 – cult leader and mastermind of the 1969 Tate-LaBianca murders, 1934–2017. Hospitalized and diagnosed with colon cancer in early 2017, showed no public remorse or transformation to the end. Died on 19 November 2017 in a prison hospital at age 83." , land:"USA", gender:"m", jahre:"1934–2017"},
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Self-Preservation Type 3", krankheit:"End-stage kidney failure", teaser:"SE3w4 – architect of the largest Ponzi scheme in history, 1938–2021. Progressive kidney disease in prison, repeatedly denied requests for early release despite a prognosis of under 18 months to live. Died on 14 April 2021 at the Federal Correctional Complex in Butner at age 82." , land:"USA", gender:"m", jahre:"1938–2021"},
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
+  { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SP8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -52583,6 +52584,180 @@ function fridaKahloKrankheitsportraetPage() {
   `);
 }
 
+function johnGottiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/john-gotti-portrait.jpg" alt="John Gotti" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Gotti</p>
+        <p class="krim-portrait-typ">SP8w7 · Social Type 8 with Seven-wing · 1940–2002</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Lion</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Animal correspondence: Lion" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>John Gotti</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-john-gotti">criminal-psychology portrait</a>
+        – that page covers his rise to boss of the Gambino family and his type structure as
+        the "Teflon Don." This page goes deeper into a chapter mentioned there only in
+        passing: a laryngeal cancer diagnosis in 1998 while in isolation, a fight against the
+        disease with no public admission of weakness, and a death in 2002 in federal custody.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Gotti</strong> is assigned to the <strong>Social Type 8 with Seven-wing</strong>.
+        Naranjo described this subtype as the type of friendship and brotherhood: dominance
+        understood as protection of one's own pack. The Seven-wing adds enjoyment, flair and a
+        love of the spotlight. This same refusal to admit weakness also determined how Gotti
+        faced his fatal illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Diagnosis in a high-security prison, 1998:</strong>
+        Six years after his life sentence, Gotti was diagnosed with laryngeal cancer – by then
+        he was already held in strict isolation.</p>
+        <p class="vb-intro"><strong>b) Surgery and an initial apparent success:</strong>
+        After an initial treatment, the disease at first seemed pushed back – reports from
+        this period spoke of a temporary improvement in his condition.</p>
+        <p class="vb-intro"><strong>c) The illness returns a short time later:</strong>
+        The cancer returned and spread – a course that continued over the following years
+        until his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Transfer to a prison medical facility:</strong>
+        As the illness progressed, Gotti was moved to the medical unit of the federal
+        penitentiary in Springfield, Missouri, which specializes in treating severely ill
+        inmates.</p>
+        <p class="vb-intro"><strong>b) Almost no public images of the illness:</strong>
+        Unlike his earlier, deliberately staged public appearances, only a few images or
+        reports emerged from this period – the man who once sought the spotlight increasingly
+        vanished from public view.</p>
+        <p class="vb-intro"><strong>c) No public admission of weakness:</strong>
+        The rare reports from this period contain no indication that Gotti ever acknowledged
+        or publicly addressed his illness as a weakness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Extreme isolation during treatment:</strong>
+        Gotti spent his final years of imprisonment in solitary confinement with severely
+        restricted visitation rights – a man whose entire life had revolved around visibility
+        and loyalty spent his last years almost completely cut off.</p>
+        <p class="vb-intro"><strong>b) The decline of his own empire in the background:</strong>
+        As Gotti fell ill, the Gambino family increasingly lost influence under his son – the
+        king could no longer protect his empire from an isolation cell.</p>
+        <p class="vb-intro"><strong>c) Death on June 10, 2002, in Springfield, Missouri:</strong>
+        John Gotti died at age 61 in federal prison – almost exactly ten years after his life
+        sentence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A funeral that recalled his former glory once more:</strong>
+        Despite official concerns, thousands gathered in the streets of Queens to follow the
+        funeral procession – one last flicker of the loyalty Gotti claimed for himself in
+        life.</p>
+        <p class="vb-intro"><strong>b) A death far from the stage he once sought:</strong>
+        The man who waved at cameras and received journalists died isolated in a prison
+        hospital – a sharp contrast to his public self-image.</p>
+        <p class="vb-intro"><strong>c) A legacy that did not outlive him:</strong>
+        His son tried to keep the family empire going but failed – the lion's realm did not
+        outlive its king.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The lion who could never show weakness:</strong>
+        The same refusal to ever admit vulnerability that shaped Gotti's entire public
+        presence also determined how little of his illness ever reached the outside world.</p>
+        <p class="vb-intro"><strong>b) When the Eight under chronic stress becomes a Five:</strong>
+        The extreme isolation of his final years – forced by his imprisonment but reinforced
+        by his silence about his own illness – shows a pattern that goes beyond the usual
+        dominance of the Eight with Seven-wing. Under chronic pressure, a person increasingly
+        moves along their stress line toward their stress point – for the Eight, that is the
+        Five. The withdrawal from public life, the disappearance from the spotlight he had
+        once so deliberately sought, resembles the withdrawn seclusion of its stress point
+        more than the open, space-claiming presence of the core type – while the core type
+        itself, SO8w7, remained unchanged.</p>
+        <p class="vb-intro"><strong>c) No public collapse of the facade:</strong>
+        Unlike some other illness histories in this Compass, there are no reports of a
+        visible cracking of Gotti's controlled demeanor – as far as is known, the lion's
+        posture held until the end.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body that could no longer be controlled:</strong>
+        Gotti's entire life was shaped by the conviction that strength and control could
+        fend off any threat – cancer was the first threat that neither loyalty nor
+        intimidation could stop.</p>
+        <p class="vb-intro"><strong>b) Isolation as a reversal of his own life pattern:</strong>
+        A man who spent his whole life seeking and needing the closeness of his pack spent
+        his final years in forced solitary confinement – a reversal diametrically opposed to
+        his core theme.</p>
+        <p class="vb-intro"><strong>c) Why the larynx, of all places?</strong>
+        For a social Eight with Seven-wing whose entire power rested on his own voice, his own
+        presence and his own performance, one interpretation suggests itself: precisely the
+        organ that let him give orders, demand loyalty and make himself heard in public
+        became the site of decay – literally taking from him the voice with which he once
+        ruled his empire. This interpretation is a plausible reading, not a documented
+        historical causal link, and is developed further in this Compass's psychosomatics
+        register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of the social Eight inevitably leads to laryngeal
+        cancer – <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Gotti's case shows is a pattern in how a pronounced social Eight with Seven-wing
+        repeatedly deals with a fatal diagnosis – one possible reading among many, not a
+        verdict. The corresponding illness profile is gradually being developed in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Gotti did not know his own pattern – the social Eight with Seven-wing meets every
+        threat reflexively with control and unbroken outward strength rather than ever
+        acknowledging it as personal vulnerability, and he lived out exactly this pattern
+        unchanged into his final years of imprisonment. Whoever does not recognize their own
+        inability to admit weakness as a pattern cannot set it aside even in their own dying.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Eight with Seven-wing explains much about the course of <strong>Gotti's</strong>
+        own illness: a man whose entire power rested on visibility and voice lost both at
+        once – the voice to cancer, the visibility to isolation. The lion who never wanted to
+        operate in the shadows – and who spent his final years exactly there, invisible to
+        the world that once admired him.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a historical verdict. John Gotti was
+        sentenced in 1992 to life imprisonment without parole for murder, extortion and
+        racketeering, and died in custody in 2002. The Enneagram explains, it does not
+        justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"kriminalpsychologie-john-gotti", label:"Criminal Psychology: John Gotti (SP8w7) – Boss of the Gambino Family"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so8", label:"Subtype Profile SP8"},
+      ])}
+    </div>
+  `);
+}
+
 function edGeinPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -57731,6 +57906,7 @@ function johnGottiPortraitPage() {
           {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SP8w9)"},
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9)"},
           {route:"kriminalpsychologie-john-mcafee", label:"Criminal Psychology: John McAfee (SX8w9)"},
+          {route:"krankheitsportraets-john-gotti", label:"Illness Portrait: John Gotti (SP8w7) – laryngeal cancer in isolation"},
         ])}
       </div>
     </div>
@@ -85509,6 +85685,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
+      "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,

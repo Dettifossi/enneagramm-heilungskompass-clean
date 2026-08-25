@@ -24018,6 +24018,7 @@ const registerEntries = [
   { term: "Charles Manson Krankheitsporträt", route: "krankheitsportraets-charles-manson", description: "Portrait: SX6w7 · Sexueller Typ 6 · Darmkrebs, tödliches Herzversagen im Gefängnis" },
   { term: "Bernie Madoff Krankheitsporträt", route: "krankheitsportraets-bernie-madoff", description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Niereninsuffizienz im Endstadium" },
   { term: "Frida Kahlo Krankheitsporträt", route: "krankheitsportraets-frida-kahlo", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Rund 30 Operationen, Beinamputation" },
+  { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32138,6 +32139,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexueller Typ 6", krankheit:"Darmkrebs, tödliches Herzversagen", teaser:"SX6w7 – Sektenführer und Drahtzieher der Tate-LaBianca-Morde 1969, 1934–2017. Krankenhausaufenthalt und Darmkrebsdiagnose Anfang 2017, keine öffentliche Reue oder Wandlung bis zuletzt. Starb am 19. November 2017 im Gefängniskrankenhaus im Alter von 83 Jahren." , land:"USA", gender:"m", jahre:"1934–2017"},
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Selbsterhaltender Typ 3", krankheit:"Niereninsuffizienz im Endstadium", teaser:"SE3w4 – Architekt des größten Ponzi-Systems der Geschichte, 1938–2021. Fortschreitende Nierenerkrankung im Gefängnis, mehrfach abgelehnte Gesuche um vorzeitige Entlassung trotz einer Prognose von unter 18 Monaten Lebenszeit. Starb am 14. April 2021 in der Bundesstrafanstalt Butner im Alter von 82 Jahren." , land:"USA", gender:"m", jahre:"1938–2021"},
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Selbsterhaltender Typ 2", krankheit:"Chronische Unfallfolgen mit rund 30 Operationen, Beinamputation", teaser:"SE2w3 – mexikanische Malerin, 1907–1954. Kinderlähmung mit sechs Jahren, mit 18 ein katastrophaler Busunfall mit Wirbelsäulen- und Beckenbrüchen, rund 30 Operationen über fast drei Jahrzehnte, 1953 Amputation des rechten Unterschenkels. Starb 1954 mit 47 Jahren." , land:"Mexiko", gender:"f", jahre:"1907–1954"},
+  { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Sozialer Typ 8", krankheit:"Kehlkopfkrebs", teaser:"SO8w7 – Boss der Gambino-Familie, 1940–2002. 1998 in Isolationshaft mit Kehlkopfkrebs diagnostiziert, kein öffentliches Eingeständnis von Schwäche, extreme Isolation in seinen letzten Haftjahren. Starb am 10. Juni 2002 im Bundesgefängnis Springfield, Missouri, im Alter von 61 Jahren." , land:"USA", gender:"m", jahre:"1940–2002"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -80563,6 +80565,188 @@ function fridaKahloKrankheitsportraetPage() {
   `);
 }
 
+function johnGottiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/john-gotti-portrait.jpg" alt="John Gotti" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Gotti</p>
+        <p class="krim-portrait-typ">SO8w7 · Sozialer Typ 8 mit Siebenerflügel · 1940–2002</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Löwe</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Tierentsprechung: Löwe" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>John Gotti</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-john-gotti">kriminalpsychologisches Porträt</a>
+        in diesem Kompass vertreten – dort geht es um seinen Aufstieg zum Boss der Gambino-Familie
+        und seine Typstruktur als „Teflon-Don". Diese Seite vertieft ein Kapitel, das dort nur am
+        Rande erwähnt wird: eine Kehlkopfkrebs-Diagnose 1998 in Isolationshaft, ein Kampf gegen
+        die Krankheit ohne jedes öffentliche Eingeständnis von Schwäche, und einen Tod 2002 in
+        Bundeshaft.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Gotti</strong> ist dem <strong>sozialen Typ 8 mit Siebenerflügel</strong>
+        zugeordnet. Naranjo beschrieb diesen Subtyp als den der Freundschaft und Bruderschaft:
+        Herrschaft, die sich als Schutz des eigenen Rudels versteht. Der Siebenerflügel bringt
+        Genuss, Glanz und die Freude am Rampenlicht hinzu. Genau diese Weigerung, Schwäche
+        zuzugeben, bestimmte auch, wie Gotti seiner tödlichen Krankheit begegnete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose im Hochsicherheitsgefängnis 1998:</strong>
+        Sechs Jahre nach seiner Verurteilung zu lebenslanger Haft wurde bei Gotti Kehlkopfkrebs
+        diagnostiziert – zu diesem Zeitpunkt saß er bereits in strenger Isolationshaft.</p>
+        <p class="vb-intro"><strong>b) Operation und zunächst scheinbarer Erfolg:</strong>
+        Nach einer ersten Behandlung schien die Krankheit zunächst zurückgedrängt – Berichte aus
+        dieser Zeit sprachen von einer vorübergehenden Besserung seines Zustands.</p>
+        <p class="vb-intro"><strong>c) Rückkehr der Krankheit kurze Zeit später:</strong>
+        Der Krebs kehrte zurück und breitete sich aus – ein Verlauf, der sich über die
+        folgenden Jahre bis zu seinem Tod fortsetzte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Verlegung in ein Gefängniskrankenhaus:</strong>
+        Mit fortschreitender Erkrankung wurde Gotti in die medizinische Einrichtung der
+        Bundesstrafanstalt Springfield, Missouri, verlegt, die auf die Behandlung schwer
+        kranker Häftlinge spezialisiert ist.</p>
+        <p class="vb-intro"><strong>b) Kaum öffentliche Bilder der Krankheit:</strong>
+        Anders als bei seinen früheren, bewusst inszenierten öffentlichen Auftritten drangen
+        aus dieser Zeit nur wenige Bilder oder Berichte nach außen – der Mann, der einst das
+        Rampenlicht suchte, verschwand zunehmend aus der Öffentlichkeit.</p>
+        <p class="vb-intro"><strong>c) Kein öffentliches Eingeständnis von Schwäche:</strong>
+        In den seltenen Berichten aus dieser Zeit finden sich keine Hinweise darauf, dass
+        Gotti seine Krankheit als Schwäche anerkannte oder öffentlich thematisierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Extreme Isolation während der Behandlung:</strong>
+        Gotti verbrachte seine letzten Haftjahre in Einzelhaft mit stark eingeschränktem
+        Besuchsrecht – ausgerechnet ein Mann, dessen gesamtes Leben auf Sichtbarkeit und
+        Gefolgschaft ausgerichtet war, verbrachte seine letzten Jahre fast vollständig
+        abgeschnitten.</p>
+        <p class="vb-intro"><strong>b) Der Niedergang des eigenen Reichs im Hintergrund:</strong>
+        Während Gotti erkrankte, verlor die Gambino-Familie unter seinem Sohn zunehmend an
+        Einfluss – der König konnte sein Reich von der Isolationszelle aus nicht mehr
+        schützen.</p>
+        <p class="vb-intro"><strong>c) Tod am 10. Juni 2002 in Springfield, Missouri:</strong>
+        John Gotti starb im Alter von 61 Jahren im Bundesgefängnis – fast genau zehn Jahre
+        nach seiner Verurteilung zu lebenslanger Haft.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Begräbnis, das noch einmal an den früheren Glanz erinnerte:</strong>
+        Trotz behördlicher Bedenken versammelten sich Tausende auf den Straßen von Queens, um
+        dem Trauerzug zu folgen – ein letztes Aufflackern der Loyalität, die Gotti zu Lebzeiten
+        für sich beanspruchte.</p>
+        <p class="vb-intro"><strong>b) Ein Tod fernab der Bühne, die er einst suchte:</strong>
+        Der Mann, der Kameras zuwinkte und Journalisten empfing, starb isoliert in einem
+        Gefängniskrankenhaus – ein scharfer Kontrast zu seinem öffentlichen Selbstbild.</p>
+        <p class="vb-intro"><strong>c) Ein Erbe, das ihn nicht überlebte:</strong>
+        Sein Sohn versuchte, das Familienimperium fortzuführen, scheiterte jedoch – das Reich
+        des Löwen überlebte seinen König nicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Löwe, der keine Schwäche zeigen durfte:</strong>
+        Dieselbe Weigerung, jemals Verletzlichkeit einzugestehen, die Gottis gesamtes
+        öffentliches Auftreten prägte, bestimmte auch, wie wenig über seine Krankheit nach
+        außen drang.</p>
+        <p class="vb-intro"><strong>b) Wenn die Acht unter chronischem Stress zur Fünf wird:</strong>
+        Die extreme Isolation seiner letzten Jahre – erzwungen durch die Haftbedingungen, aber
+        durch sein Schweigen über die eigene Krankheit noch verstärkt – zeigt ein Muster, das
+        über die übliche Dominanz der Acht mit Siebenerflügel hinausgeht. Wer unter
+        chronischem Druck lebt, bewegt sich zunehmend entlang seiner Stresslinie in Richtung
+        seines Stresspunkts – bei der Acht ist das die Fünf. Der Rückzug aus der
+        Öffentlichkeit, das Verschwinden aus dem Rampenlicht, das er einst so bewusst gesucht
+        hatte, erinnert eher an die abgeschottete Zurückgezogenheit ihres Stresspunkts als an
+        die offene, raumgreifende Präsenz des Kerntyps – bei unverändertem Kerntyp SO8w7.</p>
+        <p class="vb-intro"><strong>c) Kein öffentlicher Zusammenbruch der Fassade:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es keine Berichte
+        über ein sichtbares Zerbrechen von Gottis kontrolliertem Auftreten – die Löwenhaltung
+        blieb, soweit bekannt, bis zum Ende bestehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der sich nicht mehr beherrschen ließ:</strong>
+        Gottis gesamtes Leben war von der Überzeugung geprägt, dass Stärke und Kontrolle jede
+        Bedrohung abwehren können – der Krebs war die erste Bedrohung, gegen die weder
+        Loyalität noch Einschüchterung halfen.</p>
+        <p class="vb-intro"><strong>b) Isolation als Umkehrung des eigenen Lebensmusters:</strong>
+        Ein Mann, der sein ganzes Leben lang die Nähe seines Rudels suchte und brauchte, verbrachte
+        seine letzten Jahre in erzwungener Einzelhaft – eine Umkehrung, die seinem Kernthema
+        diametral entgegenstand.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Kehlkopf?</strong>
+        Für eine soziale Acht mit Siebenerflügel, deren gesamte Macht auf der eigenen Stimme,
+        der eigenen Präsenz und dem eigenen Auftritt beruhte, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, das ihm Befehle erteilen, Loyalität einfordern und sich in
+        der Öffentlichkeit Gehör verschaffen ließ, wurde zum Schauplatz des Verfalls – und
+        nahm ihm buchstäblich die Stimme, mit der er sein Reich einst regiert hatte. Diese
+        Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Acht zwangsläufig zu Kehlkopfkrebs führt
+        – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Gottis Fall zeigen lässt, ist ein Muster im Umgang mit einer tödlichen
+        Diagnose, das bei einer ausgeprägten sozialen Acht mit Siebenerflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Gotti kannte sein eigenes Muster nicht – die soziale Acht mit Siebenerflügel begegnet
+        jeder Bedrohung reflexhaft mit Kontrolle und ungebrochener Stärke nach außen, statt sie
+        je als eigene Verletzlichkeit anzuerkennen, und genau dieses Muster lebte er bis in
+        seine letzten Haftjahre unverändert aus. Wer die eigene Unfähigkeit, Schwäche
+        zuzugeben, nicht als Muster erkennt, kann sie auch im eigenen Sterben nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Acht mit Siebenerflügel erklärt bei <strong>Gotti</strong> vieles am
+        Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Macht auf Sichtbarkeit und
+        Stimme beruhte, verlor beides gleichzeitig – die Stimme an den Krebs, die Sichtbarkeit
+        an die Isolationshaft. Der Löwe, der niemals im Verborgenen operieren wollte – und der
+        seine letzten Jahre ausgerechnet dort verbrachte, unsichtbar für die Welt, die ihn
+        einst bewunderte.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. John Gotti
+        wurde 1992 wegen Mordes, Erpressung und Racketeering zu lebenslanger Haft ohne
+        Bewährung verurteilt und starb 2002 in Haft. Das Enneagramm erklärt, es rechtfertigt
+        nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"kriminalpsychologie-john-gotti", label:"Kriminalpsychologie: John Gotti (SO8w7) – Boss der Gambino-Familie"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so8", label:"Subtyp-Profil SO8"},
+      ])}
+    </div>
+  `);
+}
+
 function edGeinPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -90317,6 +90501,7 @@ function johnGottiPortraitPage() {
           {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina (SE8w9)"},
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein (SX8w9)"},
           {route:"kriminalpsychologie-john-mcafee", label:"Kriminalpsychologie: John McAfee (SX8w9)"},
+          {route:"krankheitsportraets-john-gotti", label:"Krankheitsporträt: John Gotti (SO8w7) – Kehlkopfkrebs in Isolationshaft"},
         ])}
       </div>
     </div>
@@ -121133,6 +121318,7 @@ function render() {
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
+      "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
