@@ -24013,6 +24013,7 @@ const registerEntries = [
   { term: "Leonard Bernstein Krankheitsporträt", route: "krankheitsportraets-leonard-bernstein", description: "Portrait: SX7w6 · Sexueller Typ 7 · Lungenemphysem durch Kettenrauchen, tödliches Herzversagen" },
   { term: "Alexander der Große Krankheitsporträt", route: "krankheitsportraets-alexander-der-grosse", description: "Portrait: SO2w3 · Sozialer Typ 2 · Rätselhafter Fiebertod in Babylon" },
   { term: "Marcel Proust Krankheitsporträt", route: "krankheitsportraets-marcel-proust", description: "Portrait: SO4w5 · Sozialer Typ 4 · Lebenslanges Asthma, tödliche Lungenentzündung" },
+  { term: "Johannes Brahms Krankheitsporträt", route: "krankheitsportraets-johannes-brahms", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Leberkrebs, elf Monate nach Clara Schumann" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32128,6 +32129,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-leonard-bernstein", name:"Leonard Bernstein", subtyp:"SX7w6", heading:"Leonard Bernstein – Sexueller Typ 7", krankheit:"Fortgeschrittenes Lungenemphysem durch jahrzehntelanges Kettenrauchen, tödliches Herzversagen", teaser:"SX7w6 – Dirigent, Komponist, Pianist, 1918–1990. Bis zu vier Packungen Zigaretten täglich über Jahrzehnte, dirigierte am 19. August 1990 gegen ärztlichen Rat sein letztes Konzert und musste wegen eines Hustenanfalls abbrechen. Rücktritt vom Dirigieren am 9. Oktober 1990, gestorben nur fünf Tage später." , land:"USA", gender:"m", jahre:"1918–1990"},
   { route:"krankheitsportraets-alexander-der-grosse", name:"Alexander der Große", subtyp:"SO2w3", heading:"Alexander der Große – Sozialer Typ 2", krankheit:"Plötzlicher, bis heute ungeklärter Fieber- und Krankheitsverlauf nach Jahren körperlicher Grenzenlosigkeit", teaser:"SO2w3 – König von Makedonien, Eroberer eines Weltreichs, 356–323 v. Chr. Elf Jahre ununterbrochener Feldzug, mehrfach schwer verwundet, exzessiver Alkoholkonsum. Starb nach nur zehn bis zwölf Tagen Fieber am 10. oder 11. Juni 323 v. Chr. in Babylon im Alter von 32 Jahren, ohne Nachfolger." , land:"Makedonien", gender:"m", jahre:"356–323 v. Chr."},
   { route:"krankheitsportraets-marcel-proust", name:"Marcel Proust", subtyp:"SO4w5", heading:"Marcel Proust – Sozialer Typ 4", krankheit:"Lebenslanges, schweres Asthma seit der Kindheit, tödliche Lungenentzündung", teaser:"SO4w5 – französischer Schriftsteller, 1871–1922. Erster schwerer Asthmaanfall mit neun Jahren, zunehmender Rückzug in sein korkverkleidetes Zimmer, arbeitete bis zum Sterbebett an ›Auf der Suche nach der verlorenen Zeit‹. Starb 1922 mit 51 Jahren an einer Lungenentzündung." , land:"Frankreich", gender:"m", jahre:"1871–1922"},
+  { route:"krankheitsportraets-johannes-brahms", name:"Johannes Brahms", subtyp:"SE9w8", heading:"Johannes Brahms – Selbsterhaltender Typ 9", krankheit:"Leberkrebs, dieselbe Krankheit, an der bereits sein Vater gestorben war", teaser:"SE9w8 – deutscher Komponist, 1833–1897. Erschöpfende Reise zu Clara Schumanns Beerdigung im Mai 1896, kurz danach sichtbare Gelbfärbung, letzter öffentlicher Auftritt bei einer Aufführung seiner 4. Sinfonie im März 1897. Starb am 3. April 1897 in Wien, nur elf Monate nach Clara Schumann." , land:"Deutschland/Österreich", gender:"m", jahre:"1833–1897"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -43915,7 +43917,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Ruhige, gewichtige Präsenz statt Lautstärke",
         beschreibung: "Wirkung entsteht nicht durch Reden oder Auftreten, sondern durch bloße, gewichtige Anwesenheit – der Raum verändert sich, ohne dass ein Wort nötig wäre.",
-        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹; Bärbel Bas, die als Bundestagspräsidentin nicht mit großen Gesten auffällt, sondern durch Verlässlichkeit und beharrliches Bemühen um Ordnung wirkt; David Hume, der die Grundfesten der Welt infrage stellte und dabei erstaunlich unaufgeregt blieb – ›le bon David‹ selbst in Kreisen, die seine Ideen für gefährlich hielten; Dr. Cynthia Moss, die über fünfzig Jahre dieselben Elefantenfamilien begleitete, ohne je durch spektakuläre Einzelaktionen aufzufallen – Wirkung durch stille, geduldige Kontinuität statt durch Auftritt."
+        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹; Bärbel Bas, die als Bundestagspräsidentin nicht mit großen Gesten auffällt, sondern durch Verlässlichkeit und beharrliches Bemühen um Ordnung wirkt; David Hume, der die Grundfesten der Welt infrage stellte und dabei erstaunlich unaufgeregt blieb – ›le bon David‹ selbst in Kreisen, die seine Ideen für gefährlich hielten; Johannes Brahms, dessen letzter öffentlicher Auftritt bei einer Aufführung seiner 4. Sinfonie im März 1897 – sichtbar todkrank, kaum noch in der Lage, die Treppen zu seiner Loge zu steigen – ohne ein Wort ein ganzes Publikum zu Tränen rührte; Dr. Cynthia Moss, die über fünfzig Jahre dieselben Elefantenfamilien begleitete, ohne je durch spektakuläre Einzelaktionen aufzufallen – Wirkung durch stille, geduldige Kontinuität statt durch Auftritt."
       },
       {
         titel: "Einmal in Bewegung, ist nichts mehr aufzuhalten",
@@ -55245,6 +55247,7 @@ function johannesBrahmsPortraitPage() {
         {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9)"},
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – Leberkrebs, elf Monate nach Clara Schumann"},
       ])}
     </div>
   `);
@@ -78657,7 +78660,199 @@ function davidHumeKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-david-hume", label:"Porträt: David Hume (SE9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – dieselbe elefantenhafte Gelassenheit"},
         {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesBrahmsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johannes-brahms-portrait.jpg" alt="Johannes Brahms" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Brahms</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1833–1897</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johannes Brahms</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-johannes-brahms">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine jahrzehntelange
+        Treue zur Familie Schumann. Diese Seite vertieft ein Kapitel, das dort nur angedeutet
+        wird: eine Leberkrankung, an der bereits sein Vater gestorben war, und die Brahms selbst
+        nur elf Monate nach dem Tod seiner engsten Freundin Clara Schumann dahinraffte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Brahms</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Appetit</em>: Frieden im Vertrauten, in der
+        immer gleichen Gewohnheit. Der Achterflügel gibt dieser Gelassenheit eine unerschütterliche
+        Standfestigkeit. Genau dieses Muster – Beharren im Gewohnten, bis eine äußere
+        Erschütterung es aufbricht – lässt sich bis in seinen Krankheitsverlauf
+        nachverfolgen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Die erschöpfende Reise zu Clara Schumanns Beerdigung:</strong>
+        Als Clara Schumann im Mai 1896 starb, verpasste der bereits selbst gesundheitlich
+        angeschlagene Brahms auf der überstürzten Reise nach Bonn mehrere Zuganschlüsse und
+        musste Teile der Strecke im falschen Zug zurücklegen – er traf erschöpft und zu spät
+        zur Beisetzung ein.</p>
+        <p class="vb-intro"><strong>b) Sichtbare Gelbfärbung kurz danach:</strong>
+        Noch im selben Sommer bemerkten Freunde eine ungewohnte Gelbfärbung seiner Haut und eine
+        zunehmende Erschöpfung, die Brahms zunächst herunterspielte.</p>
+        <p class="vb-intro"><strong>c) Eine Diagnose, die an den eigenen Vater erinnerte:</strong>
+        Ende 1896 oder Anfang 1897 wurde bei Brahms eine schwere Lebererkrankung
+        festgestellt – dieselbe Krankheit, an der bereits sein Vater Johann Jakob Brahms
+        gestorben war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Kein Rückzug von öffentlichen Verpflichtungen:</strong>
+        Trotz der Diagnose zog sich Brahms nicht aus dem öffentlichen Leben zurück, sondern
+        nahm weiterhin an Konzerten teil, solange es seine Kräfte zuließen.</p>
+        <p class="vb-intro"><strong>b) Zunehmender, kaum thematisierter Verfall:</strong>
+        Sein engster Kreis bemerkte den fortschreitenden Gewichtsverlust und die wachsende
+        Erschöpfung – Brahms selbst sprach kaum darüber, ganz in der Art der selbsterhaltenden
+        Neun, die Beschwerlichkeiten eher aussitzt als bespricht.</p>
+        <p class="vb-intro"><strong>c) Festhalten an den vertrauten Ritualen, solange es ging:</strong>
+        Auch in den letzten Monaten hielt Brahms an seinem gewohnten Rhythmus – Stammlokale,
+        Zigarre, feste Tagesabläufe – fest, so lange es seine schwindende Kraft eben zuließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der letzte öffentliche Auftritt am 7. März 1897:</strong>
+        Brahms besuchte in Wien eine Aufführung seiner 4. Sinfonie, sichtbar geschwächt und
+        kaum noch in der Lage, die Treppen zu seiner Loge zu steigen. Das Publikum bereitete
+        ihm eine lang anhaltende, tief bewegte Ovation nach jedem Satz – viele im Saal weinten,
+        weil allen klar war, dass sie ihn zum letzten Mal sahen.</p>
+        <p class="vb-intro"><strong>b) Bemerkenswerte Fassung angesichts des nahen Todes:</strong>
+        Freunde und Weggefährten berichteten übereinstimmend von einer stillen Gelassenheit,
+        mit der Brahms sein eigenes Sterben in den letzten Wochen hinnahm.</p>
+        <p class="vb-intro"><strong>c) Tod am 3. April 1897 in Wien:</strong>
+        Johannes Brahms starb im Alter von 63 Jahren – nur elf Monate nach Clara Schumann, deren
+        Verlust seinen eigenen körperlichen Verfall mit beschleunigt haben dürfte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: David Hume</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch <a href="javascript:void(0)" data-route="beruehmte-david-hume">David Hume</a>
+        (SE9w8) begegnete seiner tödlichen Krankheit – in seinem Fall einer chronischen
+        Darmerkrankung – mit bemerkenswerter Gelassenheit statt Kampf oder Verzweiflung. Sein
+        <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">eigenes
+        Krankheitsporträt</a> zeigt dieselbe elefantenhafte Ruhe wie bei Brahms: Der
+        Achterflügel gibt der selbsterhaltenden Neun eine Standfestigkeit, die auch dem eigenen
+        Tod ohne Ausweichen begegnen kann – kein dramatischer Kampf, sondern ein stilles
+        Weitertragen des Gewohnten bis zuletzt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der einem anderen Tod unmittelbar folgte:</strong>
+        Dass Brahms nur elf Monate nach Clara Schumann starb, wurde von Zeitgenossen und
+        Nachwelt gleichermaßen als kaum zufällige Fügung gedeutet – vierzig Jahre Treue endeten
+        beinahe gleichzeitig auf beiden Seiten.</p>
+        <p class="vb-intro"><strong>b) Eine Ovation, die zum Abschied wurde:</strong>
+        Die Ovation nach seiner 4. Sinfonie im März 1897 gilt bis heute als einer der
+        bewegendsten Momente der Konzertgeschichte – ein Publikum, das seinem sterbenden
+        Komponisten noch einmal seine Anerkennung entgegenbrachte.</p>
+        <p class="vb-intro"><strong>c) Ein stilles Ende ohne Dramatik:</strong>
+        Anders als mancher Künstlertod, der sich zur Legende auflädt, blieb Brahms' Sterben
+        bemerkenswert unspektakulär – passend zu einem Mann, der zeitlebens das Vertraute dem
+        Auffälligen vorzog.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Elefant, der eine Erschütterung nicht mehr abschütteln konnte:</strong>
+        Die selbsterhaltende Neun findet ihre Stabilität im Vertrauten – Clara Schumanns Tod
+        entzog Brahms genau diesen letzten, über vierzig Jahre gewachsenen Fixpunkt, und der
+        Körper folgte kurz darauf.</p>
+        <p class="vb-intro"><strong>b) Beharren im Gewohnten bis zur Erschöpfung:</strong>
+        Statt sich nach der Diagnose zu schonen, hielt Brahms an seinen gewohnten
+        Verpflichtungen fest – dieselbe Trägheit, die ihn 21 Jahre an einer Sinfonie feilen
+        ließ, ließ ihn auch angesichts des eigenen Todes nicht von seinen Ritualen abweichen.</p>
+        <p class="vb-intro"><strong>c) Der Achterflügel, der auch im Sterben nicht auswich:</strong>
+        Dieselbe unerschütterliche Standfestigkeit, mit der Brahms einst im „Streit der
+        Romantiker" seine Position hielt, zeigte sich noch einmal in der stillen, unbeirrten
+        Art, mit der er dem eigenen Tod entgegensah.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die im Vertrauten der Familie wurzelte:</strong>
+        Dass Brahms an derselben Leberkrankheit starb wie sein Vater, passt auf eine bittere
+        Weise zum Kernthema der selbsterhaltenden Neun: Selbst im Krankheitsverlauf zeigte sich
+        etwas zutiefst Familiäres, Wiederkehrendes, statt eines völlig neuen, fremden
+        Schicksals.</p>
+        <p class="vb-intro"><strong>b) Der Bruch im Vertrauten als Auslöser:</strong>
+        Die selbsterhaltende Neun lebt vom verlässlichen Ritual – Clara Schumanns Tod und die
+        chaotische, erschöpfende Reise zu ihrer Beerdigung waren genau jene Störung des
+        Gewohnten, die Brahms' bis dahin verborgene Krankheit sichtbar werden ließ.</p>
+        <p class="vb-intro"><strong>c) Keine Flucht, kein Kampf – nur stilles Weitertragen:</strong>
+        Wie bei David Hume findet sich auch bei Brahms kein verzweifelter Kampf gegen die
+        Krankheit und kein dramatischer Rückzug, sondern ein Weitertragen der gewohnten Rituale
+        bis an die Grenze der eigenen Kraft.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Leber?</strong>
+        Für eine selbsterhaltende Neun mit Achterflügel, deren tiefstes Bedürfnis in der ruhigen
+        Verarbeitung und Bewahrung des Vertrauten liegt, liegt eine Deutung nahe: Ausgerechnet
+        jenes Organ, das im Körper für Verarbeitung, Entgiftung und das ruhige Funktionieren im
+        Hintergrund zuständig ist, wurde bei Brahms – wie schon bei seinem Vater – zum
+        Schauplatz des Verfalls. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
+        Lebererkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Brahms' Fall zeigen lässt, ist ein Muster
+        im Umgang mit einer tödlichen Diagnose, das bei einer ausgeprägten selbsterhaltenden
+        Neun mit Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Brahms kannte sein eigenes Muster nicht – die selbsterhaltende Neun mit Achterflügel
+        findet Sicherheit im Vertrauten und trägt Belastungen lange schweigend mit, statt sie
+        anzusprechen oder sich zu schonen. Genau das tat er, als er trotz sichtbarer
+        Erschöpfung an seinen Verpflichtungen festhielt, statt die eigene Erkrankung ernst zu
+        nehmen. Wer die eigene Neigung, Beschwerden auszusitzen statt sie zu benennen, nicht
+        als Muster kennt, verpasst den Moment, in dem rechtzeitige Schonung noch etwas hätte
+        bewirken können.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Brahms'</strong> selbsterhaltende Neun mit
+        Achterflügel noch einmal ablesen: eine Krankheit, die im Vertrauten der eigenen Familie
+        wurzelte, ein Zusammenbruch des Gewohnten, der erst durch den Verlust der engsten
+        Freundin sichtbar wurde, und ein stilles, unspektakuläres Ende, das dem gelebten Leben
+        aufs Wort entsprach. Der Elefant, der vierzig Jahre lang nichts vergaß – und der die
+        Welt nur elf Monate nach der Frau verließ, der seine Treue am längsten gegolten hatte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – Brahms besuchte ihn regelmäßig in Endenich"},
+        {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – dieselbe elefantenhafte Gelassenheit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
       ])}
@@ -120166,6 +120361,7 @@ function render() {
       "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
       "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
+      "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

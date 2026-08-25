@@ -239,6 +239,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-leonard-bernstein", name:"Leonard Bernstein", subtyp:"SX7w6", heading:"Leonard Bernstein – Sexual Type 7", krankheit:"Advanced emphysema from decades of chain-smoking, fatal heart failure", teaser:"SX7w6 – conductor, composer, pianist, 1918–1990. Up to four packs of cigarettes a day for decades; conducted his final concert on 19 August 1990 against medical advice and had to stop due to a coughing fit. Retired from conducting on 9 October 1990, died just five days later." , land:"USA", gender:"m", jahre:"1918–1990"},
   { route:"krankheitsportraets-alexander-der-grosse", name:"Alexander the Great", subtyp:"SO2w3", heading:"Alexander the Great – Social Type 2", krankheit:"Sudden, still-unresolved fever and illness after years of unchecked physical excess", teaser:"SO2w3 – King of Macedon, conqueror of an empire, 356–323 BC. Eleven years of unbroken campaigning, wounded seriously more than once, excessive alcohol consumption. Died after only ten to twelve days of fever on 10 or 11 June 323 BC in Babylon, aged 32, with no named successor." , land:"Macedon", gender:"m", jahre:"356–323 BC"},
   { route:"krankheitsportraets-marcel-proust", name:"Marcel Proust", subtyp:"SO4w5", heading:"Marcel Proust – Social Type 4", krankheit:"Lifelong severe asthma since childhood, fatal pneumonia", teaser:"SO4w5 – French writer, 1871–1922. First severe asthma attack at age nine, increasing retreat into his cork-lined room, worked on 'In Search of Lost Time' until his deathbed. Died in 1922 at age 51 of pneumonia." , land:"France", gender:"m", jahre:"1871–1922"},
+  { route:"krankheitsportraets-johannes-brahms", name:"Johannes Brahms", subtyp:"SE9w8", heading:"Johannes Brahms – Self-Preservation Type 9", krankheit:"Liver cancer, the same illness that had already killed his father", teaser:"SE9w8 – German composer, 1833–1897. Exhausting journey to Clara Schumann's funeral in May 1896, visible jaundice shortly after, final public appearance at a performance of his Fourth Symphony in March 1897. Died on 3 April 1897 in Vienna, just eleven months after Clara Schumann." , land:"Germany/Austria", gender:"m", jahre:"1833–1897"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -34334,6 +34335,7 @@ function johannesBrahmsPortraitPage() {
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9)"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – liver cancer, eleven months after Clara Schumann"},
       ])}
     </div>
   `);
@@ -50777,7 +50779,189 @@ function davidHumeKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – life's work"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – the same elephant-like calm"},
         {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se9", label:"Subtype Profile SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesBrahmsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-johannes-brahms-portrait.jpg" alt="Johannes Brahms" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Brahms</p>
+        <p class="krim-portrait-typ">SE9w8 · Self-Preservation Type 9 with Eight-wing · 1833–1897</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Elephant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johannes Brahms</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-johannes-brahms">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and his decades-long loyalty to the
+        Schumann family. This page delves into a chapter only touched on there: a liver disease
+        that had already killed his father, and that carried Brahms off himself just eleven
+        months after the death of his closest friend, Clara Schumann.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Brahms</strong> is classified as the <strong>self-preservation Nine with
+        Eight-wing</strong>. Naranjo called this subtype <em>Appetite</em>: peace in the
+        familiar, in the ever-repeated habit. The Eight-wing gives that equanimity an
+        unshakeable steadfastness. This same pattern – persisting in the familiar until an
+        outside shock breaks it open – can be traced right into his illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The exhausting journey to Clara Schumann's funeral:</strong>
+        When Clara Schumann died in May 1896, the already ailing Brahms missed several train
+        connections on his hurried trip to Bonn and had to travel part of the way on the wrong
+        train – he arrived exhausted and too late for the burial.</p>
+        <p class="vb-intro"><strong>b) A visible yellowing that same summer:</strong>
+        That same summer, friends noticed an unusual yellowing of his skin and a growing
+        exhaustion that Brahms initially played down.</p>
+        <p class="vb-intro"><strong>c) A diagnosis that echoed his own father's:</strong>
+        In late 1896 or early 1897, Brahms was diagnosed with a severe liver disease – the same
+        illness that had already killed his father, Johann Jakob Brahms.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) No withdrawal from public obligations:</strong>
+        Despite the diagnosis, Brahms did not withdraw from public life but continued attending
+        concerts as long as his strength allowed.</p>
+        <p class="vb-intro"><strong>b) A decline his inner circle noticed, but he barely mentioned:</strong>
+        Those close to him noticed the progressive weight loss and growing exhaustion – Brahms
+        himself said little about it, entirely in the manner of a self-preservation Nine who
+        outlasts hardship rather than discussing it.</p>
+        <p class="vb-intro"><strong>c) Holding on to familiar rituals as long as possible:</strong>
+        Even in his final months, Brahms kept up his usual rhythm – regular haunts, cigars,
+        fixed daily routines – for as long as his fading strength allowed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) His final public appearance on 7 March 1897:</strong>
+        Brahms attended a performance of his Fourth Symphony in Vienna, visibly weakened and
+        barely able to climb the stairs to his box. The audience gave him a long, deeply moved
+        ovation after every movement – many in the hall wept, aware they were seeing him for
+        the last time.</p>
+        <p class="vb-intro"><strong>b) Remarkable composure in the face of approaching death:</strong>
+        Friends and companions consistently reported a quiet equanimity with which Brahms
+        accepted his own dying in his final weeks.</p>
+        <p class="vb-intro"><strong>c) Death on 3 April 1897 in Vienna:</strong>
+        Johannes Brahms died at age 63 – just eleven months after Clara Schumann, whose loss
+        likely accelerated his own physical decline.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">A Parallel Within the Same Subtype: David Hume</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <a href="javascript:void(0)" data-route="beruehmte-david-hume">David Hume</a>
+        (SE9w8) likewise met his fatal illness – in his case a chronic bowel disease – with
+        remarkable calm rather than struggle or despair. His own
+        <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">illness
+        portrait</a> shows the same elephant-like calm as Brahms: the Eight-wing gives the
+        self-preservation Nine a steadfastness that can face even death without flinching – not
+        a dramatic fight, but a quiet carrying-on of the familiar until the very end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A death that closely followed another death:</strong>
+        That Brahms died just eleven months after Clara Schumann was read by contemporaries and
+        posterity alike as scarcely a coincidence – forty years of loyalty ended almost
+        simultaneously on both sides.</p>
+        <p class="vb-intro"><strong>b) An ovation that became a farewell:</strong>
+        The ovation after his Fourth Symphony in March 1897 still ranks among the most moving
+        moments in concert history – an audience giving its dying composer one final tribute.</p>
+        <p class="vb-intro"><strong>c) A quiet end without drama:</strong>
+        Unlike some artist deaths that grow into legend, Brahms's dying remained remarkably
+        undramatic – fitting for a man who had preferred the familiar to the conspicuous his
+        entire life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The elephant that could no longer shake off one shock:</strong>
+        The self-preservation Nine finds its stability in the familiar – Clara Schumann's death
+        took from Brahms exactly the last fixed point that had grown over more than forty
+        years, and his body followed shortly after.</p>
+        <p class="vb-intro"><strong>b) Persisting in the familiar to the point of exhaustion:</strong>
+        Instead of sparing himself after the diagnosis, Brahms held on to his familiar
+        obligations – the same inertia that let him polish a symphony for 21 years also kept
+        him from deviating from his rituals in the face of his own death.</p>
+        <p class="vb-intro"><strong>c) The Eight-wing that did not flinch even in dying:</strong>
+        The same unshakeable steadfastness with which Brahms once held his position in the
+        "War of the Romantics" showed itself once more in the quiet, unwavering way he faced
+        his own death.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) An illness rooted in the family's own familiar pattern:</strong>
+        That Brahms died of the same liver disease as his father fits, in a bitter way, the
+        self-preservation Nine's core theme: even the course of his illness carried something
+        deeply familial and recurring, rather than an entirely new, foreign fate.</p>
+        <p class="vb-intro"><strong>b) A break in the familiar as trigger:</strong>
+        The self-preservation Nine lives on reliable ritual – Clara Schumann's death and the
+        chaotic, exhausting journey to her funeral were exactly the disruption of the familiar
+        that made Brahms's until-then hidden illness visible.</p>
+        <p class="vb-intro"><strong>c) No flight, no fight – only quiet carrying-on:</strong>
+        As with David Hume, Brahms shows no desperate fight against illness and no dramatic
+        withdrawal, but a carrying-on of familiar rituals to the very limit of his strength.</p>
+        <p class="vb-intro"><strong>d) Why the liver, of all things?</strong>
+        For a self-preservation Nine with Eight-wing, whose deepest need lies in the calm
+        processing and preservation of the familiar, one interpretation suggests itself: the
+        very organ responsible in the body for processing, detoxification, and quiet
+        functioning in the background became, for Brahms – as it had for his father – the site
+        of decline. This interpretation is a plausible reading, not a documented historical
+        causal link, and is developed further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the self-preservation Nine pattern inevitably leads to liver
+        disease – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What Brahms's case illustrates is a pattern in how a pronounced self-preservation Nine
+        with Eight-wing handles a fatal diagnosis that keeps recurring in practice – one of
+        many possible interpretations, not a judgment. The corresponding illness pattern is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Brahms did not know his own pattern – the self-preservation Nine with Eight-wing finds
+        security in the familiar and silently carries burdens rather than naming them or
+        sparing herself. That is exactly what he did, holding on to his obligations despite
+        visible exhaustion instead of taking his illness seriously. Someone who does not
+        recognize their own tendency to sit out discomfort rather than name it misses the
+        moment when timely rest could still have made a difference.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Brahms's</strong> self-preservation Nine with Eight-wing is legible once more in
+        the course of his illness: an illness rooted in his own family's familiar pattern, a
+        collapse of the familiar that became visible only through the loss of his closest
+        friend, and a quiet, undramatic end that matched the life he had lived. The elephant
+        that forgot nothing for forty years – and left the world only eleven months after the
+        woman to whom that loyalty had been given longest.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – life's work"},
+        {route:"krankheitsportraets-robert-schumann", label:"Illness Portrait: Robert Schumann (SX7w8) – Brahms visited him regularly at Endenich"},
+        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8) – the same elephant-like calm"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se9", label:"Subtype Profile SE9"},
       ])}
@@ -84593,6 +84777,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
       "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
+      "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
