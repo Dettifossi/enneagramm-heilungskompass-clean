@@ -245,6 +245,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Self-Preservation Type 3", krankheit:"End-stage kidney failure", teaser:"SE3w4 – architect of the largest Ponzi scheme in history, 1938–2021. Progressive kidney disease in prison, repeatedly denied requests for early release despite a prognosis of under 18 months to live. Died on 14 April 2021 at the Federal Correctional Complex in Butner at age 82." , land:"USA", gender:"m", jahre:"1938–2021"},
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SP8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
+  { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -39975,6 +39976,7 @@ function ludwigXIVPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"krankheitsportraets-ludwig-xiv", label:"Illness Portrait: Louis XIV (SO3w2) – gout, anal fistula, fatal gangrene"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
@@ -52579,6 +52581,171 @@ function fridaKahloKrankheitsportraetPage() {
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SP2"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigXIVKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-xiv-portrait.jpg" alt="Louis XIV" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Louis XIV &ndash; the Sun King</p>
+        <p class="krim-portrait-typ">SP3w2 · Social Type 3 with Two-wing · 1638–1715</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Louis XIV</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">famous-personality portrait</a>
+        – that page covers his self-presentation as the Sun King and the building of Versailles.
+        This page goes deeper into a chapter mentioned there only in passing: decades of
+        chronic gout, an anal fistula operated on under strictest secrecy in 1686, and a final
+        fight against gangrene, from which he died in 1715.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Louis XIV</strong> is assigned to the <strong>Social Type 3 with Two-wing</strong>.
+        Social Three lives for the flawless, publicly visible image; the Two-wing weaves in
+        favor and closeness as an instrument of power. This same need for a flawless image
+        also determined how he handled his own decades-long medical history – not openly, but
+        hidden behind the curtain of court ceremony.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First gout attacks already in his middle years:</strong>
+        Louis had suffered recurring, painful gout attacks since his forties, at times
+        severely restricting his ability to walk – a condition that accompanied him for
+        decades.</p>
+        <p class="vb-intro"><strong>b) Dental problems with fatal consequences:</strong>
+        In 1685 he had all his upper teeth removed; a botched procedure tore a hole in his
+        palate that could only be closed after several painful follow-up operations using a
+        red-hot iron.</p>
+        <p class="vb-intro"><strong>c) An anal fistula that became a state secret:</strong>
+        In 1686 his physicians diagnosed a painful anal fistula – an ailment kept strictly
+        from the public, even though it increasingly impaired his ability to sit and ride.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The "Grande Opération" in November 1686:</strong>
+        The royal surgeon Charles-François Félix performed the then-risky operation without
+        anesthesia – Louis is said to have made barely a sound throughout, to preserve his
+        composure in front of the courtiers present.</p>
+        <p class="vb-intro"><strong>b) Recovery under the strictest secrecy:</strong>
+        The weeks-long, painful recovery took place largely out of public view; official
+        announcements deliberately spoke only vaguely of "health concerns."</p>
+        <p class="vb-intro"><strong>c) Return to full court ceremony despite the pain:</strong>
+        Barely recovered, Louis immediately resumed his public appearances, the daily lever
+        and coucher, in full – as if nothing had happened.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Decades of continuing on despite advancing gout:</strong>
+        Into old age, Louis had himself carried to public occasions in a wheelchair or on a
+        litter when necessary, rather than canceling appearances outright.</p>
+        <p class="vb-intro"><strong>b) Unrelenting continuation of government business:</strong>
+        Even during periods of severe physical impairment, he continued to chair ministerial
+        councils and audiences daily – withdrawing from active governance was never an option
+        for him.</p>
+        <p class="vb-intro"><strong>c) Gangrene in the right leg from August 1715:</strong>
+        Just days before his death, physicians diagnosed advancing gangrene in his leg – an
+        amputation, as would later become standard practice, was rejected by the attending
+        physicians of the time as too risky.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A court that learned almost nothing of the illness:</strong>
+        Even close courtiers often only learned afterward how serious Louis's suffering had
+        truly been – the public image of the flawless Sun King remained largely intact until
+        the end.</p>
+        <p class="vb-intro"><strong>b) A final address to his great-grandson as successor:</strong>
+        On his deathbed he delivered a rare, almost self-critical warning to the five-year-old
+        future Louis XV, urging him not to follow his example in excessive building and
+        warfare.</p>
+        <p class="vb-intro"><strong>c) Death on September 1, 1715, in Versailles:</strong>
+        Louis died at age 76 after 72 years on the throne – longer than any other monarch in
+        European history, in the very palace he had made a symbol of his own
+        invulnerability.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The facade that could not show a crack:</strong>
+        The same need to always preserve the flawless image of the Sun King that shaped
+        Louis's entire self-presentation also determined how consistently he hid his own
+        suffering from the public.</p>
+        <p class="vb-intro"><strong>b) Control over his own medical history as a final stage:</strong>
+        Even the 1686 operation – one of the most intimate and painful experiences of his life
+        – became an ordeal he endured with the same disciplined composure with which he
+        controlled his public appearances: no sound, no visible breakdown in front of the
+        courtiers present.</p>
+        <p class="vb-intro"><strong>c) No withdrawal from the role until his last breath:</strong>
+        Unlike some other illness histories in this Compass, there is no phase of open
+        withdrawal from public life in Louis's case – the role of the Sun King was maintained
+        right up to the deathbed.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body that resisted the staging:</strong>
+        Louis's entire life was shaped by the conviction that a flawless, controlled image
+        made every situation manageable – gout, the anal fistula, and finally gangrene were
+        threats that increasingly escaped that control.</p>
+        <p class="vb-intro"><strong>b) Secrecy as a continuation of self-presentation:</strong>
+        A man who shaped his entire life as a public spectacle treated precisely his most
+        intimate physical suffering as the one thing withheld from the public – a deliberate
+        gap in an otherwise seamlessly staged life.</p>
+        <p class="vb-intro"><strong>c) Why the leg, of all places?</strong>
+        For a social Three with Two-wing whose entire power rested on movement, appearance and
+        physical presence before an audience, one interpretation suggests itself: precisely
+        the limb that carried him on foot through Versailles, on the hunt and to public
+        ceremonies became the site of decay – robbing him, in his final days, of exactly the
+        mobility on which his entire public self-image rested. This interpretation is a
+        plausible reading, not a documented historical causal link, and is developed further
+        in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of the social Three inevitably leads to gout or
+        gangrene – <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Louis's case shows is a pattern in how a pronounced social Three with Two-wing
+        repeatedly deals with chronic illness – one possible reading among many, not a
+        verdict. The corresponding illness profile is gradually being developed in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Louis did not know his own pattern – the social Three with Two-wing meets every threat
+        to its own image reflexively with secrecy and a flawless facade rather than ever
+        openly admitting weakness, and he lived out exactly this pattern unchanged into his
+        final days. Whoever does not recognize their own need to always appear flawless as a
+        pattern cannot set it aside even in their own dying.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Three with Two-wing explains much about the course of <strong>Louis XIV's</strong>
+        own illness: a man whose entire power rested on a flawless, publicly visible image
+        turned even his most intimate suffering into a strictly controlled backdrop – until
+        the leg that had carried him through Versailles his whole life denied him, in the
+        end, the last stage of all.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SP3w2) – the Sun King"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so3", label:"Subtype Profile SP3"},
       ])}
     </div>
   `);
@@ -85686,6 +85853,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
+      "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,

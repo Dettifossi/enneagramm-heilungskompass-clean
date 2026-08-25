@@ -24019,6 +24019,7 @@ const registerEntries = [
   { term: "Bernie Madoff Krankheitsporträt", route: "krankheitsportraets-bernie-madoff", description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Niereninsuffizienz im Endstadium" },
   { term: "Frida Kahlo Krankheitsporträt", route: "krankheitsportraets-frida-kahlo", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Rund 30 Operationen, Beinamputation" },
   { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
+  { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32140,6 +32141,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Selbsterhaltender Typ 3", krankheit:"Niereninsuffizienz im Endstadium", teaser:"SE3w4 – Architekt des größten Ponzi-Systems der Geschichte, 1938–2021. Fortschreitende Nierenerkrankung im Gefängnis, mehrfach abgelehnte Gesuche um vorzeitige Entlassung trotz einer Prognose von unter 18 Monaten Lebenszeit. Starb am 14. April 2021 in der Bundesstrafanstalt Butner im Alter von 82 Jahren." , land:"USA", gender:"m", jahre:"1938–2021"},
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Selbsterhaltender Typ 2", krankheit:"Chronische Unfallfolgen mit rund 30 Operationen, Beinamputation", teaser:"SE2w3 – mexikanische Malerin, 1907–1954. Kinderlähmung mit sechs Jahren, mit 18 ein katastrophaler Busunfall mit Wirbelsäulen- und Beckenbrüchen, rund 30 Operationen über fast drei Jahrzehnte, 1953 Amputation des rechten Unterschenkels. Starb 1954 mit 47 Jahren." , land:"Mexiko", gender:"f", jahre:"1907–1954"},
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Sozialer Typ 8", krankheit:"Kehlkopfkrebs", teaser:"SO8w7 – Boss der Gambino-Familie, 1940–2002. 1998 in Isolationshaft mit Kehlkopfkrebs diagnostiziert, kein öffentliches Eingeständnis von Schwäche, extreme Isolation in seinen letzten Haftjahren. Starb am 10. Juni 2002 im Bundesgefängnis Springfield, Missouri, im Alter von 61 Jahren." , land:"USA", gender:"m", jahre:"1940–2002"},
+  { route:"krankheitsportraets-ludwig-xiv", name:"Ludwig XIV.", subtyp:"SO3w2", heading:"Ludwig XIV. – Sozialer Typ 3", krankheit:"Chronische Gicht, Analfistel, tödlicher Wundbrand", teaser:"SO3w2 – der Sonnenkönig, 1638–1715. Jahrzehntelange Gicht, 1686 unter strengster Geheimhaltung operierte Analfistel, tödlicher Wundbrand im Bein. Starb am 1. September 1715 in Versailles nach 72 Regierungsjahren im Alter von 76 Jahren." , land:"Frankreich", gender:"m", jahre:"1638–1715"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44627,7 +44629,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Der eine gewagte, öffentlich sichtbare Sprung statt schrittweiser Annäherung",
         beschreibung: "Der entscheidende Erfolg entsteht oft nicht durch allmähliche Annäherung, sondern durch einen einzelnen, riskanten, öffentlich sichtbaren Schritt im genau richtigen Moment – verbunden mit überprüfbaren Rekordzahlen als Beleg der Spitzenposition.",
-        beleg: "Christiaan Barnard wagte 1967 die weltweit erste Herztransplantation, ›der Gepard jagt nicht aus Kraft, sondern aus Tempo und Wagemut‹; Ludwig XIV. inszenierte sich bereits mit 14 Jahren als ›Sonnenkönig‹ – ein Programm, das er zeitlebens fortführte; Cristiano Ronaldo: fünf Weltfußballer-Titel, über 900 Karrieretore – ›nicht einer der Besten. Der Beste.‹; Teresa von Ávila, die mit chronisch schwacher Gesundheit binnen zwei Jahrzehnten siebzehn reformierte Klöster gründete: ›Der Gepard bleibt nicht im Rudel zurück. Er sprintet voraus, während andere im gewohnten Tempo weitergehen.‹"
+        beleg: "Christiaan Barnard wagte 1967 die weltweit erste Herztransplantation, ›der Gepard jagt nicht aus Kraft, sondern aus Tempo und Wagemut‹; Ludwig XIV. inszenierte sich bereits mit 14 Jahren als ›Sonnenkönig‹ – ein Programm, das er zeitlebens fortführte, sogar seine jahrzehntelange Gicht und die schmerzhafte Analfistel-Operation von 1686 verbarg er weitgehend hinter der makellosen öffentlichen Fassade des Hofzeremoniells; Cristiano Ronaldo: fünf Weltfußballer-Titel, über 900 Karrieretore – ›nicht einer der Besten. Der Beste.‹; Teresa von Ávila, die mit chronisch schwacher Gesundheit binnen zwei Jahrzehnten siebzehn reformierte Klöster gründete: ›Der Gepard bleibt nicht im Rudel zurück. Er sprintet voraus, während andere im gewohnten Tempo weitergehen.‹"
       },
       {
         titel: "Parallele Erfolgsfelder statt eines einzigen Fachgebiets",
@@ -68516,6 +68518,7 @@ function ludwigXIVPortraitPage() {
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
+        {route:"krankheitsportraets-ludwig-xiv", label:"Krankheitsporträt: Ludwig XIV. (SO3w2) – Gicht, Analfistel, tödlicher Wundbrand"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
@@ -80742,6 +80745,180 @@ function johnGottiKrankheitsportraetPage() {
         {route:"kriminalpsychologie-john-gotti", label:"Kriminalpsychologie: John Gotti (SO8w7) – Boss der Gambino-Familie"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so8", label:"Subtyp-Profil SO8"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigXIVKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-xiv-portrait.jpg" alt="Ludwig XIV." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig XIV. – der Sonnenkönig</p>
+        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel · 1638–1715</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ludwig XIV.</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Selbstinszenierung als Sonnenkönig
+        und den Bau von Versailles. Diese Seite vertieft ein Kapitel, das dort nur am Rande
+        erwähnt wird: Jahrzehnte chronischer Gicht, eine 1686 unter strengster Geheimhaltung
+        durchgeführte Operation an einer Analfistel, und einen letzten Kampf gegen Wundbrand,
+        an dem er 1715 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Ludwig XIV.</strong> ist dem <strong>sozialen Typ 3 mit Zweierflügel</strong>
+        zugeordnet. Die soziale Drei lebt für das makellose, öffentlich sichtbare Bild; der
+        Zweierflügel bindet Gunst und Nähe als Machtinstrument ein. Genau diese Notwendigkeit
+        eines makellosen Bildes bestimmte auch, wie er mit seiner eigenen, jahrzehntelangen
+        Krankengeschichte umging – nicht offen, sondern hinter den Kulissen des
+        Hofzeremoniells verborgen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Gichtanfälle bereits in mittleren Jahren:</strong>
+        Ludwig litt schon seit seinen Vierzigern wiederkehrend an schmerzhaften Gichtanfällen,
+        die zeitweise sein Gehen erheblich einschränkten – ein Zustand, der ihn über
+        Jahrzehnte begleitete.</p>
+        <p class="vb-intro"><strong>b) Zahnprobleme mit fatalen Folgen:</strong>
+        1685 ließ er sich sämtliche Oberkieferzähne entfernen; eine misslungene Behandlung
+        riss dabei ein Loch in seinen Gaumen, das erst nach mehreren schmerzhaften
+        Nachoperationen mit einem glühenden Eisen geschlossen werden konnte.</p>
+        <p class="vb-intro"><strong>c) Eine Analfistel, die zum Staatsgeheimnis wurde:</strong>
+        1686 diagnostizierten seine Ärzte eine schmerzhafte Analfistel – ein Leiden, das
+        strikt vor der Öffentlichkeit verborgen blieb, obwohl es sein Sitzen und Reiten
+        zunehmend beeinträchtigte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die „Grande Opération" im November 1686:</strong>
+        Der königliche Chirurg Charles-François Félix führte die bis dahin riskante Operation
+        ohne Betäubung durch – Ludwig soll währenddessen kaum einen Laut von sich gegeben
+        haben, um seine Fassung vor den anwesenden Höflingen zu wahren.</p>
+        <p class="vb-intro"><strong>b) Genesung unter strengster Geheimhaltung:</strong>
+        Die wochenlange, schmerzhafte Genesungsphase fand weitgehend unter Ausschluss der
+        Öffentlichkeit statt; offizielle Verlautbarungen sprachen bewusst vage von
+        „gesundheitlichen Beschwerden".</p>
+        <p class="vb-intro"><strong>c) Rückkehr zum vollen Hofzeremoniell trotz Schmerzen:</strong>
+        Kaum genesen, nahm Ludwig seine öffentlichen Auftritte, das tägliche Lever und Coucher,
+        umgehend wieder in vollem Umfang auf – als sei nichts geschehen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Jahrzehntelange Fortführung trotz fortschreitender Gicht:</strong>
+        Bis ins hohe Alter ließ sich Ludwig, wenn nötig, in einem Rollstuhl oder auf einer
+        Sänfte zu öffentlichen Anlässen tragen, statt Auftritte ganz abzusagen.</p>
+        <p class="vb-intro"><strong>b) Straffe Weiterführung der Regierungsgeschäfte:</strong>
+        Auch in Phasen starker körperlicher Beeinträchtigung leitete er weiterhin täglich
+        Ministerräte und Audienzen – ein Rückzug aus der aktiven Regierungsführung kam für ihn
+        nicht infrage.</p>
+        <p class="vb-intro"><strong>c) Wundbrand im rechten Bein ab August 1715:</strong>
+        Wenige Tage vor seinem Tod diagnostizierten die Ärzte einen fortschreitenden Wundbrand
+        im Bein – eine Amputation, wie sie später Standard wurde, lehnten die behandelnden
+        Ärzte der Zeit als zu riskant ab.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Hof, der von der Krankheit kaum etwas erfuhr:</strong>
+        Selbst enge Höflinge erfuhren oft erst im Nachhinein, wie ernst Ludwigs Leiden
+        tatsächlich gewesen war – das öffentliche Bild des makellosen Sonnenkönigs blieb bis
+        zuletzt weitgehend intakt.</p>
+        <p class="vb-intro"><strong>b) Eine letzte Rede an den Urenkel als Nachfolger:</strong>
+        Auf dem Sterbebett richtete er eine seltene, fast selbstkritische Mahnung an den
+        fünfjährigen Ludwig XV., nicht seinem Beispiel im übertriebenen Bauen und
+        Kriegführen zu folgen.</p>
+        <p class="vb-intro"><strong>c) Tod am 1. September 1715 in Versailles:</strong>
+        Ludwig starb im Alter von 76 Jahren nach 72 Regierungsjahren – länger als jeder andere
+        Monarch der europäischen Geschichte, in genau jenem Schloss, das er zum Symbol seiner
+        eigenen Unangreifbarkeit gemacht hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Fassade, die keinen Riss zeigen durfte:</strong>
+        Dieselbe Notwendigkeit, stets das makellose Bild des Sonnenkönigs zu wahren, die
+        Ludwigs gesamte Selbstinszenierung prägte, bestimmte auch, wie konsequent er seine
+        eigenen Leiden vor der Öffentlichkeit verbarg.</p>
+        <p class="vb-intro"><strong>b) Kontrolle über die eigene Krankengeschichte als letzte Bühne:</strong>
+        Selbst die Operation von 1686 – eine der intimsten und schmerzhaftesten Erfahrungen
+        seines Lebens – wurde zu einem Vorgang, den er mit derselben disziplinierten
+        Beherrschung durchstand, mit der er auch öffentliche Auftritte kontrollierte: kein
+        Laut, kein sichtbarer Zusammenbruch vor den anwesenden Höflingen.</p>
+        <p class="vb-intro"><strong>c) Kein Rückzug aus der Rolle bis zum letzten Atemzug:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es bei Ludwig
+        keine Phase des offenen Rückzugs aus der Öffentlichkeit – die Rolle des Sonnenkönigs
+        wurde bis zum Sterbebett aufrechterhalten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der sich der Inszenierung widersetzte:</strong>
+        Ludwigs gesamtes Leben war von der Überzeugung geprägt, dass ein makelloses,
+        kontrolliertes Bild jede Situation beherrschbar macht – Gicht, Analfistel und
+        schließlich Wundbrand waren Bedrohungen, die sich dieser Kontrolle zunehmend
+        entzogen.</p>
+        <p class="vb-intro"><strong>b) Geheimhaltung als Fortsetzung der Selbstinszenierung:</strong>
+        Ein Mann, der sein ganzes Leben als öffentliches Schauspiel gestaltete, behandelte
+        ausgerechnet seine intimsten körperlichen Leiden als das Einzige, das der
+        Öffentlichkeit vorenthalten blieb – eine bewusste Lücke in einem sonst lückenlos
+        inszenierten Leben.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Bein?</strong>
+        Für eine soziale Drei mit Zweierflügel, deren gesamte Macht auf Bewegung, Auftritt und
+        physischer Präsenz vor Publikum beruhte, liegt eine Deutung nahe: Ausgerechnet jenes
+        Körperteil, das ihn zu Fuß durch Versailles, auf die Jagd und zu öffentlichen
+        Zeremonien trug, wurde zum Schauplatz des Verfalls – und beraubte ihn in seinen
+        letzten Tagen genau jener Mobilität, die sein gesamtes öffentliches Selbstbild trug.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu Gicht oder
+        Wundbrand führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Ludwigs Fall zeigen lässt, ist ein Muster im Umgang mit
+        chronischer Krankheit, das bei einer ausgeprägten sozialen Drei mit Zweierflügel immer
+        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Ludwig kannte sein eigenes Muster nicht – die soziale Drei mit Zweierflügel begegnet
+        jeder Bedrohung des eigenen Bildes reflexhaft mit Geheimhaltung und makelloser Fassade,
+        statt Schwäche je offen zuzulassen, und genau dieses Muster lebte er bis in seine
+        letzten Lebenstage unverändert aus. Wer die eigene Notwendigkeit, stets makellos zu
+        erscheinen, nicht als Muster erkennt, kann sie auch im eigenen Sterben nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Drei mit Zweierflügel erklärt bei <strong>Ludwig XIV.</strong> vieles am
+        Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Macht auf einem
+        makellosen, öffentlich sichtbaren Bild beruhte, verwandelte selbst seine intimsten
+        Leiden in eine streng kontrollierte Kulisse – bis das Bein, das ihn sein Leben lang
+        durch Versailles getragen hatte, ihm am Ende die letzte Bühne selbst verwehrte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2) – der Sonnenkönig"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
       ])}
     </div>
   `);
@@ -121319,6 +121496,7 @@ function render() {
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
+      "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
