@@ -24009,6 +24009,7 @@ const registerEntries = [
   { term: "James Levine Krankheitsporträt", route: "krankheitsportraets-james-levine", description: "Portrait: SE9w1 · Selbsterhaltender Typ 9 · Jahrzehntelange Parkinson-Erkrankung" },
   { term: "David Hume Krankheitsporträt", route: "krankheitsportraets-david-hume", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Chronische Darmerkrankung, gelassener Tod 1776" },
   { term: "Elizabeth Barrett Browning Krankheitsporträt", route: "krankheitsportraets-elizabeth-barrett-browning", description: "Portrait: SX9w8 · Sexueller Typ 9 · Chronische Krankheit und lebenslange Opiumabhängigkeit" },
+  { term: "Peter Falk Krankheitsporträt", route: "krankheitsportraets-peter-falk", description: "Portrait: SO9w1 · Sozialer Typ 9 · Alzheimer-Erkrankung, öffentlicher Sorgerechtsstreit" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32120,6 +32121,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Selbsterhaltender Typ 9", krankheit:"Über Jahrzehnte fortschreitende Parkinson-Erkrankung mit schweren begleitenden Rückenverletzungen", teaser:"SE9w1 – Dirigent und Pianist, 1943–2021. Erste Tremorsymptome bereits in den 1990er-Jahren, jahrelang privat gehalten, ein schwerer Sturz 2011 mit Rückenmarksverletzung, zunehmende Rollstuhlpflicht. Starb 2021 an den Komplikationen der langjährigen Erkrankung." , land:"USA", gender:"m", jahre:"1943–2021"},
   { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Selbsterhaltender Typ 9", krankheit:"Chronische Darmerkrankung (vermutlich Darmkarzinom oder schwere chronisch-entzündliche Erkrankung), stetig fortschreitend über gut vier Jahre", teaser:"SE9w8 – schottischer Philosoph, 1711–1776. Erste Verdauungsbeschwerden ab 1772, stetiger Gewichtsverlust, verfasste kurz vor dem Tod die gelassene Autobiografie 'My Own Life'. Starb 1776 in Edinburgh mit bemerkenswerter philosophischer Ruhe." , land:"Schottland", gender:"m", jahre:"1711–1776"},
   { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexueller Typ 9", krankheit:"Jahrzehntelange, nie eindeutig diagnostizierte chronische Krankheit (vermutlich Wirbelsäulenleiden und/oder frühe Lungenerkrankung) mit begleitender lebenslanger Opiumabhängigkeit", teaser:"SX9w8 – englische Dichterin, 1806–1861. Chronische Beschwerden ab der Jugend, früh verordnetes Laudanum mit jahrzehntelanger Abhängigkeit, über zwanzig Jahre fast völlige Isolation im Vaterhaus. Gesundheitliche Besserung erst nach der heimlichen Flucht nach Italien 1846." , land:"Großbritannien", gender:"f", jahre:"1806–1861"},
+  { route:"krankheitsportraets-peter-falk", name:"Peter Falk", subtyp:"SO9w1", heading:"Peter Falk – Sozialer Typ 9", krankheit:"Alzheimer-Erkrankung, begleitet von öffentlichem Sorgerechtsstreit um seine Pflege", teaser:"SO9w1 – Schauspieler, weltberühmt als TV-Ermittler Columbo, 1927–2011. Alzheimer-Diagnose 2007, 2008 gerichtliche Vormundschaft durch seine Ehefrau, anschließend öffentlicher Streit mit seiner Tochter Catherine um Besuchsrechte. Starb 2011 im Alter von 83 Jahren an den Folgen der Erkrankung." , land:"USA", gender:"m", jahre:"1927–2011"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -43890,7 +43892,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Geduldiges Tragen der Last, bis ein Punkt erreicht ist, an dem etwas durchbricht",
         beschreibung: "Belastungen werden lange schweigend getragen, ohne Klage und ohne sichtbare Warnzeichen – bis entweder ein stiller, symbolisch kraftvoller Moment oder ein plötzlicher Zusammenbruch die aufgestaute Spannung entlädt.",
-        beleg: "Willy Brandts Kniefall von Warschau: ›Kein Wort. Keine Geste des Überlegens … Es war ein Büffel, der sich vor dem beugte, was war – und damit ein ganzes Volk repräsentierte‹; Nick Leeson, der ›die Last der verborgenen Verluste schweigend trug – jahrelang … Er brach erst dann zusammen, als die Last physisch untragbar geworden war.‹"
+        beleg: "Willy Brandts Kniefall von Warschau: ›Kein Wort. Keine Geste des Überlegens … Es war ein Büffel, der sich vor dem beugte, was war – und damit ein ganzes Volk repräsentierte‹; Nick Leeson, der ›die Last der verborgenen Verluste schweigend trug – jahrelang … Er brach erst dann zusammen, als die Last physisch untragbar geworden war‹; Peter Falk, dessen beginnende Alzheimer-Erkrankung lange nach außen kaum sichtbar war, bevor sie 2008 in eine gerichtliche Vormundschaft und einen öffentlichen Streit um seine Pflege mündete – auch hier ein stiller, geduldiger Umgang mit fortschreitendem Verlust, bis ein äußerer Bruch unausweichlich wurde."
       },
       {
         titel: "Wenn die vollständige Verschmelzung mit der Gemeinschaft in eine zerstörerische Richtung geht (Schattenform)",
@@ -55351,6 +55353,7 @@ function peterFalkPortraitPage() {
         {route:"beruehmte-kevin-costner", label:"Porträt: Kevin Costner (SO9w1)"},
         {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
         {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
+        {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk – Alzheimer-Erkrankung"},
       ])}
     </div>
   `);
@@ -78823,6 +78826,187 @@ function elizabethBarrettBrowningKrankheitsportraetPage() {
         {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
+      ])}
+    </div>
+  `);
+}
+
+function peterFalkKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-peter-falk-portrait.jpg" alt="Peter Falk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Falk</p>
+        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel · 1927–2011</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Peter Falk</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-peter-falk">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Columbo-Darsteller und
+        seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das dort nicht zur
+        Sprache kommt: eine Alzheimer-Diagnose 2007, die seine letzten Lebensjahre prägte, und
+        ein öffentlich ausgetragener Sorgerechtsstreit um seine Pflege, der dem Grundmuster
+        seines gesamten Lebens diametral entgegenstand.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Falk</strong> ist dem <strong>sozialen Typ 9 mit Einserflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Teilnahme</em>: die Fähigkeit, sich in
+        jede Gruppe einzufügen und dort Frieden zu finden, ohne die eigene Identität zu
+        verlieren. Der Einserflügel bringt einen stillen, unerschütterlichen inneren Kompass
+        hinzu. Genau dieses Bedürfnis nach Harmonie und Zugehörigkeit geriet in seinen letzten
+        Lebensjahren in einen bitteren Konflikt, den er selbst nicht mehr moderieren konnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Anzeichen kognitiven Abbaus ab Mitte der 2000er-Jahre:</strong>
+        Nach Angaben aus seinem Umfeld zeigte Falk bereits einige Jahre vor der offiziellen
+        Diagnose erste Anzeichen von Gedächtnisproblemen, die zunächst als altersbedingte
+        Vergesslichkeit gedeutet wurden.</p>
+        <p class="vb-intro"><strong>b) Diagnose im Jahr 2007:</strong>
+        2007 wurde bei Falk offiziell eine fortschreitende Demenz diagnostiziert, die
+        später in gerichtlichen Dokumenten als Alzheimer-Erkrankung bestätigt wurde.</p>
+        <p class="vb-intro"><strong>c) Rückzug aus der Öffentlichkeit:</strong>
+        Mit fortschreitender Erkrankung zog sich Falk zunehmend aus öffentlichen Auftritten
+        zurück – ein stiller Abschied ohne große Ankündigung, passend zu einem Mann, der nie
+        das Rampenlicht gesucht hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein gerichtlich bestellter Vormund:</strong>
+        2008 beantragte seine Ehefrau Shera Falk gerichtlich die Vormundschaft über seine
+        Angelegenheiten – ein Schritt, der angesichts der fortschreitenden Erkrankung als
+        notwendig erachtet wurde.</p>
+        <p class="vb-intro"><strong>b) Ein öffentlicher Streit um Besuchsrechte:</strong>
+        In der Folge entbrannte ein gerichtlicher Streit zwischen Shera Falk und Catherine
+        Falk, seiner Tochter aus erster Ehe, um deren Zugang zu ihrem erkrankten Vater – ein
+        Konflikt, der in der Presse ausführlich verfolgt wurde.</p>
+        <p class="vb-intro"><strong>c) Ein Leben, das zunehmend fremdbestimmt wurde:</strong>
+        Wo Falk zeitlebens selbst entschieden hatte, mit wem er Zeit verbrachte, lag diese
+        Entscheidung in seinen letzten Jahren zunehmend bei anderen – eine Umkehrung, die dem
+        Kern seiner Persönlichkeit widersprach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fortschreitender Verlust der Erinnerung an die eigene Karriere:</strong>
+        Berichten aus seinem nahen Umfeld zufolge erkannte Falk in den letzten Jahren seine
+        eigene berühmteste Rolle streckenweise nicht mehr wieder – ein besonders
+        schmerzhaftes Detail bei einem Mann, dessen halbes Leben mit dieser einen Figur
+        verbunden war.</p>
+        <p class="vb-intro"><strong>b) Rückzug in die häusliche Pflege:</strong>
+        Die letzten Lebensjahre verbrachte Falk weitgehend zurückgezogen in seinem Haus in
+        Beverly Hills, umsorgt von seiner Frau und einem kleinen, festen Kreis an
+        Pflegepersonal.</p>
+        <p class="vb-intro"><strong>c) Tod am 23. Juni 2011:</strong>
+        Peter Falk starb im Alter von 83 Jahren in seinem Haus in Beverly Hills an den Folgen
+        seiner Alzheimer-Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein öffentlicher Streit über einen Mann, der nie stritt:</strong>
+        Der Sorgerechtskonflikt um Falks letzte Lebensjahre wurde in den Medien breit
+        diskutiert – ein auffälliger Kontrast zu dem Bild des zugewandten, nie
+        konfliktsuchenden Mannes, das er zeitlebens verkörpert hatte.</p>
+        <p class="vb-intro"><strong>b) Ein Nachruf, der die Krankheit kaum erwähnte:</strong>
+        In den öffentlichen Würdigungen nach seinem Tod stand fast ausschließlich sein
+        Lebenswerk als Columbo im Vordergrund – die Alzheimer-Jahre blieben ein eher
+        stilles, nachträglich bekannt gewordenes Kapitel.</p>
+        <p class="vb-intro"><strong>c) Ein Bild, das trotz allem bestehen blieb:</strong>
+        Trotz der Krankheit und des Familienstreits blieb das öffentliche Bild Peter Falks
+        weitgehend unverändert: der bodenständige, neugierige, nie überhebliche Mann, der er
+        zeitlebens gewesen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Büffel, der die Kontrolle über sein eigenes Umfeld verlor:</strong>
+        Wo Falk sein ganzes Leben lang die Fähigkeit besaß, sich selbst in jede Umgebung
+        einzufügen und dort Frieden zu stiften, konnte er in seinen letzten Jahren nicht mehr
+        vermitteln, als genau dieser Frieden um ihn herum zerbrach.</p>
+        <p class="vb-intro"><strong>b) Ein Konflikt, den die Krankheit selbst erst ermöglichte:</strong>
+        Der Sorgerechtsstreit entstand nicht trotz, sondern wegen der Erkrankung – erst der
+        Verlust seiner eigenen Entscheidungsfähigkeit öffnete den Raum für einen Konflikt,
+        den er zu Lebzeiten nie zugelassen hätte.</p>
+        <p class="vb-intro"><strong>c) Stille bis zuletzt:</strong>
+        Trotz des öffentlichen Streits um ihn drang aus dem Zentrum des Geschehens selbst
+        kaum etwas nach außen – Falk blieb, wie er es zeitlebens gewesen war, die ruhige
+        Mitte, um die sich anderes bewegte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Vier Jahre zwischen Diagnose und Tod:</strong>
+        Von der Diagnose 2007 bis zu seinem Tod 2011 lebte Falk vier Jahre mit einer
+        Krankheit, die genau jene Fähigkeit angriff, die sein ganzes Leben und seine
+        berühmteste Rolle geprägt hatte: aufmerksame, wache Präsenz.</p>
+        <p class="vb-intro"><strong>b) Ein Sorgerechtsstreit als Gegenbild zum eigenen Lebensmuster:</strong>
+        Falks gesamtes Leben war von der Fähigkeit geprägt, Konflikte zu entschärfen, statt
+        sie zu befeuern. Der öffentliche Streit um seine Pflege in den letzten Lebensjahren
+        war das genaue Gegenteil – ein Konflikt, der ohne seine aktive Vermittlung
+        eskalierte.</p>
+        <p class="vb-intro"><strong>c) Ein Gedächtnis, das die eigene Lebensleistung mit sich nahm:</strong>
+        Für einen Mann, dessen Columbo-Figur von geduldiger, präziser Beobachtungsgabe lebte,
+        liegt in einer Krankheit, die genau diese Fähigkeiten zuerst angreift, eine besonders
+        bittere Zuspitzung.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gedächtnis?</strong>
+        Für eine soziale Neun mit Einserflügel, deren gesamte Identität auf der Fähigkeit
+        beruhte, jede Situation aufmerksam zu erfassen und einzuordnen, liegt eine Deutung
+        nahe: Ausgerechnet jenes Organ, das ihm ermöglichte, sich in jede Umgebung
+        einzufühlen und dabei doch klar zu urteilen, wurde zum Schauplatz des Verfalls – und
+        hinterließ ein Umfeld, das ohne seine vermittelnde Präsenz in offenen Streit verfiel.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Neun zwangsläufig zu Alzheimer führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Falks Fall zeigen lässt, ist ein Muster im Umfeld einer Krankheit, das bei
+        einer ausgeprägten sozialen Neun immer wieder auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Falk kannte sein eigenes Muster nicht – die soziale Neun findet ihren Frieden darin,
+        sich in jede Umgebung einzufügen und dort still zu vermitteln, ohne je selbst im
+        Zentrum eines Konflikts zu stehen. Gerade weil er diese vermittelnde Rolle nie
+        bewusst als eigenes Muster erkannte, sondern einfach lebte, konnte er sie in dem
+        Moment nicht mehr schützen, in dem die Krankheit ihm genau diese Fähigkeit nahm. Wer
+        das eigene Bedürfnis nach Harmonie nicht als Muster kennt, kann es auch nicht aktiv
+        absichern, wenn die Umstände es am dringendsten brauchen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Falks</strong> soziale Neun mit
+        Einserflügel noch einmal ablesen: eine Krankheit, die genau jene aufmerksame,
+        vermittelnde Präsenz zerstörte, die sein ganzes Leben und seine berühmteste Rolle
+        trug, und ein Familienstreit, der ausbrach, sobald diese Präsenz nicht mehr da war,
+        um ihn zu verhindern. Der Büffel, der sich sein Leben lang in jede Herde einfügte –
+        und dessen eigene Herde erst zerstritten war, als er selbst nicht mehr vermitteln
+        konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
     </div>
   `);
@@ -119389,6 +119573,7 @@ function render() {
       "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
       "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
       "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
+      "krankheitsportraets-peter-falk": peterFalkKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

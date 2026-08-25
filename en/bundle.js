@@ -235,6 +235,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Self-Preservation Type 9", krankheit:"Decades-long progressive Parkinson's disease with severe accompanying back injuries", teaser:"SE9w1 – conductor and pianist, 1943–2021. First tremor symptoms as early as the 1990s, kept private for years, a severe fall in 2011 with spinal injury, increasing reliance on a wheelchair. Died in 2021 from complications of his long-standing illness." , land:"USA", gender:"m", jahre:"1943–2021"},
   { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Self-Preservation Type 9", krankheit:"Chronic bowel disease (likely colorectal cancer or a severe chronic inflammatory condition), steadily progressing over just over four years", teaser:"SE9w8 – Scottish philosopher, 1711–1776. First digestive complaints from 1772 on, steady weight loss, wrote the composed autobiography 'My Own Life' shortly before his death. Died in 1776 in Edinburgh with remarkable philosophical calm." , land:"Scotland", gender:"m", jahre:"1711–1776"},
   { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexual Type 9", krankheit:"Decades-long, never definitively diagnosed chronic illness (likely a spinal condition and/or early lung disease) with accompanying lifelong opium dependency", teaser:"SX9w8 – English poet, 1806–1861. Chronic complaints from her teens, early prescription of laudanum leading to decades of dependency, more than twenty years of near-total isolation in her father's house. Health improved only after her secret flight to Italy in 1846." , land:"United Kingdom", gender:"f", jahre:"1806–1861"},
+  { route:"krankheitsportraets-peter-falk", name:"Peter Falk", subtyp:"SO9w1", heading:"Peter Falk – Social Type 9", krankheit:"Alzheimer's disease, accompanied by a public custody dispute over his care", teaser:"SO9w1 – actor, world-famous as TV detective Columbo, 1927–2011. Diagnosed with Alzheimer's in 2007, placed under court conservatorship by his wife in 2008, followed by a public dispute with his daughter Catherine over visitation rights. Died in 2011 at age 83 from complications of the disease." , land:"USA", gender:"m", jahre:"1927–2011"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -20441,6 +20442,7 @@ function peterFalkPortraitPage() {
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+        {route:"krankheitsportraets-peter-falk", label:"Illness Portrait: Peter Falk – Alzheimer's disease"},
       ])}
     </div>
   `);
@@ -50937,6 +50939,179 @@ function elizabethBarrettBrowningKrankheitsportraetPage() {
         {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx9", label:"Subtype Profile SX9"},
+      ])}
+    </div>
+  `);
+}
+
+function peterFalkKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-peter-falk-portrait.jpg" alt="Peter Falk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Falk</p>
+        <p class="krim-portrait-typ">SO9w1 · Social Type 9 with One-wing · 1927–2011</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Buffalo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Animal correspondence: Buffalo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Peter Falk</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-peter-falk">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as Columbo and his type structure
+        in general. This page delves into a chapter that page does not address: an Alzheimer's
+        diagnosis in 2007 that marked his final years, and a publicly fought custody dispute
+        over his care that stood in stark contrast to the fundamental pattern of his entire
+        life.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Falk</strong> is classified as the <strong>Social Type 9 with One-wing</strong>.
+        Naranjo called this subtype <em>Participation</em>: the ability to fit into any group
+        and find peace there without losing one's own identity. The One-wing adds a quiet,
+        unshakeable inner compass. It was precisely this need for harmony and belonging that
+        fell into a bitter conflict in his final years – one he could no longer mediate
+        himself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First signs of cognitive decline from the mid-2000s:</strong>
+        According to those close to him, Falk showed early signs of memory problems some
+        years before the official diagnosis, initially interpreted as age-related
+        forgetfulness.</p>
+        <p class="vb-intro"><strong>b) Diagnosis in 2007:</strong>
+        In 2007, Falk was officially diagnosed with progressive dementia, later confirmed in
+        court documents as Alzheimer's disease.</p>
+        <p class="vb-intro"><strong>c) Withdrawal from public life:</strong>
+        As the illness progressed, Falk increasingly withdrew from public appearances – a
+        quiet departure without much announcement, fitting for a man who had never sought
+        the spotlight.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A court-appointed conservator:</strong>
+        In 2008, his wife Shera Falk petitioned the court for conservatorship over his
+        affairs – a step considered necessary given the progressing illness.</p>
+        <p class="vb-intro"><strong>b) A public dispute over visitation rights:</strong>
+        A legal battle subsequently broke out between Shera Falk and Catherine Falk, his
+        daughter from his first marriage, over her access to her ill father – a conflict
+        followed closely in the press.</p>
+        <p class="vb-intro"><strong>c) A life increasingly determined by others:</strong>
+        Where Falk had spent his whole life deciding for himself whom he spent time with,
+        that decision increasingly lay with others in his final years – a reversal that
+        contradicted the core of his personality.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Progressive loss of memory of his own career:</strong>
+        According to those in his close circle, in his final years Falk at times no longer
+        recognized his own most famous role – a particularly painful detail for a man whose
+        life had been so bound up with this one character.</p>
+        <p class="vb-intro"><strong>b) Withdrawal into home care:</strong>
+        Falk spent his final years largely secluded in his Beverly Hills home, cared for by
+        his wife and a small, fixed circle of caregivers.</p>
+        <p class="vb-intro"><strong>c) Death on 23 June 2011:</strong>
+        Peter Falk died at age 83 in his Beverly Hills home from the effects of his
+        Alzheimer's disease.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A public dispute over a man who never disputed:</strong>
+        The custody conflict over Falk's final years was widely discussed in the media – a
+        striking contrast to the image of the warm, never conflict-seeking man he had
+        embodied his whole life.</p>
+        <p class="vb-intro"><strong>b) An obituary that barely mentioned the illness:</strong>
+        Public tributes after his death focused almost exclusively on his life's work as
+        Columbo – the Alzheimer's years remained a rather quiet chapter, only becoming known
+        afterward.</p>
+        <p class="vb-intro"><strong>c) An image that remained intact despite everything:</strong>
+        Despite the illness and the family dispute, Peter Falk's public image remained
+        largely unchanged: the down-to-earth, curious, never arrogant man he had been his
+        whole life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The buffalo that lost control over its own environment:</strong>
+        Where Falk had possessed, his whole life, the ability to fit into any environment and
+        bring peace there, in his final years he could no longer mediate as that very peace
+        broke apart around him.</p>
+        <p class="vb-intro"><strong>b) A conflict the illness itself made possible:</strong>
+        The custody dispute arose not despite but because of the illness – only the loss of
+        his own decision-making capacity opened the space for a conflict he would never have
+        permitted during his healthy years.</p>
+        <p class="vb-intro"><strong>c) Stillness to the very end:</strong>
+        Despite the public dispute surrounding him, little emerged from the center of events
+        itself – Falk remained, as he had been his whole life, the calm center around which
+        everything else moved.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Four years between diagnosis and death:</strong>
+        From his 2007 diagnosis to his death in 2011, Falk lived four years with an illness
+        that attacked exactly the ability that had defined his whole life and his most
+        famous role: attentive, watchful presence.</p>
+        <p class="vb-intro"><strong>b) A custody dispute as the counter-image to his own life pattern:</strong>
+        Falk's entire life was marked by the ability to defuse conflict rather than fuel it.
+        The public dispute over his care in his final years was the exact opposite – a
+        conflict that escalated without his active mediation.</p>
+        <p class="vb-intro"><strong>c) A memory that took his life's achievement with it:</strong>
+        For a man whose Columbo character lived on patient, precise observation, there is a
+        particularly bitter irony in an illness that attacks exactly these faculties first.</p>
+        <p class="vb-intro"><strong>d) Why memory, of all things?</strong>
+        For a Social Nine with One-wing whose entire identity rested on the ability to
+        attentively read and place every situation, one interpretation suggests itself: the
+        very faculty that let him tune into any environment while still judging clearly
+        became the stage for decline – leaving behind an environment that fell into open
+        conflict without his mediating presence. This interpretation is a plausible reading,
+        not a documented historical causal link, and is developed further in this Compass's
+        psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Social Nine pattern inevitably leads to Alzheimer's –
+        <strong>any person can develop any illness, regardless of subtype.</strong> What
+        Falk's case illustrates is a pattern in the environment surrounding an illness that
+        keeps recurring in practice among people with a pronounced Social Nine – one of many
+        possible interpretations, not a judgment. The corresponding illness pattern is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Falk did not know his own pattern – the Social Nine finds its peace by fitting into
+        any environment and quietly mediating there, without ever standing at the center of
+        a conflict itself. Precisely because he never consciously recognized this mediating
+        role as his own pattern, but simply lived it, he could no longer protect it the
+        moment the illness took away that very ability. Someone who does not know their own
+        need for harmony as a pattern also cannot actively safeguard it when circumstances
+        need it most.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Falk's</strong> Social Nine with One-wing is legible once more in the course
+        of his illness: an illness that destroyed exactly the attentive, mediating presence
+        that carried his whole life and his most famous role, and a family dispute that broke
+        out the moment that presence was no longer there to prevent it. The buffalo that fit
+        into every herd throughout its life – and whose own herd fell into conflict only once
+        it could no longer mediate.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so9", label:"Subtype Profile SO9"},
       ])}
     </div>
   `);
@@ -83859,6 +84034,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
       "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
       "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
+      "krankheitsportraets-peter-falk": peterFalkKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
