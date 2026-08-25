@@ -24012,6 +24012,7 @@ const registerEntries = [
   { term: "Peter Falk Krankheitsporträt", route: "krankheitsportraets-peter-falk", description: "Portrait: SO9w1 · Sozialer Typ 9 · Alzheimer-Erkrankung, öffentlicher Sorgerechtsstreit" },
   { term: "Leonard Bernstein Krankheitsporträt", route: "krankheitsportraets-leonard-bernstein", description: "Portrait: SX7w6 · Sexueller Typ 7 · Lungenemphysem durch Kettenrauchen, tödliches Herzversagen" },
   { term: "Alexander der Große Krankheitsporträt", route: "krankheitsportraets-alexander-der-grosse", description: "Portrait: SO2w3 · Sozialer Typ 2 · Rätselhafter Fiebertod in Babylon" },
+  { term: "Marcel Proust Krankheitsporträt", route: "krankheitsportraets-marcel-proust", description: "Portrait: SO4w5 · Sozialer Typ 4 · Lebenslanges Asthma, tödliche Lungenentzündung" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32126,6 +32127,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-peter-falk", name:"Peter Falk", subtyp:"SO9w1", heading:"Peter Falk – Sozialer Typ 9", krankheit:"Alzheimer-Erkrankung, begleitet von öffentlichem Sorgerechtsstreit um seine Pflege", teaser:"SO9w1 – Schauspieler, weltberühmt als TV-Ermittler Columbo, 1927–2011. Alzheimer-Diagnose 2007, 2008 gerichtliche Vormundschaft durch seine Ehefrau, anschließend öffentlicher Streit mit seiner Tochter Catherine um Besuchsrechte. Starb 2011 im Alter von 83 Jahren an den Folgen der Erkrankung." , land:"USA", gender:"m", jahre:"1927–2011"},
   { route:"krankheitsportraets-leonard-bernstein", name:"Leonard Bernstein", subtyp:"SX7w6", heading:"Leonard Bernstein – Sexueller Typ 7", krankheit:"Fortgeschrittenes Lungenemphysem durch jahrzehntelanges Kettenrauchen, tödliches Herzversagen", teaser:"SX7w6 – Dirigent, Komponist, Pianist, 1918–1990. Bis zu vier Packungen Zigaretten täglich über Jahrzehnte, dirigierte am 19. August 1990 gegen ärztlichen Rat sein letztes Konzert und musste wegen eines Hustenanfalls abbrechen. Rücktritt vom Dirigieren am 9. Oktober 1990, gestorben nur fünf Tage später." , land:"USA", gender:"m", jahre:"1918–1990"},
   { route:"krankheitsportraets-alexander-der-grosse", name:"Alexander der Große", subtyp:"SO2w3", heading:"Alexander der Große – Sozialer Typ 2", krankheit:"Plötzlicher, bis heute ungeklärter Fieber- und Krankheitsverlauf nach Jahren körperlicher Grenzenlosigkeit", teaser:"SO2w3 – König von Makedonien, Eroberer eines Weltreichs, 356–323 v. Chr. Elf Jahre ununterbrochener Feldzug, mehrfach schwer verwundet, exzessiver Alkoholkonsum. Starb nach nur zehn bis zwölf Tagen Fieber am 10. oder 11. Juni 323 v. Chr. in Babylon im Alter von 32 Jahren, ohne Nachfolger." , land:"Makedonien", gender:"m", jahre:"356–323 v. Chr."},
+  { route:"krankheitsportraets-marcel-proust", name:"Marcel Proust", subtyp:"SO4w5", heading:"Marcel Proust – Sozialer Typ 4", krankheit:"Lebenslanges, schweres Asthma seit der Kindheit, tödliche Lungenentzündung", teaser:"SO4w5 – französischer Schriftsteller, 1871–1922. Erster schwerer Asthmaanfall mit neun Jahren, zunehmender Rückzug in sein korkverkleidetes Zimmer, arbeitete bis zum Sterbebett an ›Auf der Suche nach der verlorenen Zeit‹. Starb 1922 mit 51 Jahren an einer Lungenentzündung." , land:"Frankreich", gender:"m", jahre:"1871–1922"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44279,7 +44281,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Bedeutung durch bewusste Abgrenzung von einer Gemeinschaft, der man dennoch zugewandt bleibt",
         beschreibung: "Die eigene Bedeutung entsteht nicht durch Anpassung, sondern durch den bewussten Kontrast zur Gemeinschaft – man wendet sich ab, ohne sie je ganz zu verlassen, weil sie der Resonanzraum bleibt, an dem sich das eigene Denken oder Fühlen schärft.",
-        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben; Dr. Mariella Superina, die sich innerhalb der Naturschutzgemeinschaft bewusst auf eine einzige, kaum beachtete Nische spezialisierte – Gürteltiere statt der prominenteren Großtiere – und gerade darin zur unersetzbaren, weltweit anerkannten Stimme wurde; Prof. Lauren Gardner, deren Verkehrsingenieurwesen-Hintergrund innerhalb der Epidemiologie-Gemeinschaft zunächst eine Außenseiterposition war – ›welche Rolle fehlt noch, die nur ich mit meinem Fachwissen ausfüllen kann?‹ –, bevor ihr Dashboard zur zentralen Referenz der ganzen Fachwelt wurde."
+        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben – bei Proust wurde der Rückzug ins korkverkleidete Zimmer, erzwungen durch sein lebenslanges Asthma, buchstäblich zur Bedingung seines Lebenswerks; Dr. Mariella Superina, die sich innerhalb der Naturschutzgemeinschaft bewusst auf eine einzige, kaum beachtete Nische spezialisierte – Gürteltiere statt der prominenteren Großtiere – und gerade darin zur unersetzbaren, weltweit anerkannten Stimme wurde; Prof. Lauren Gardner, deren Verkehrsingenieurwesen-Hintergrund innerhalb der Epidemiologie-Gemeinschaft zunächst eine Außenseiterposition war – ›welche Rolle fehlt noch, die nur ich mit meinem Fachwissen ausfüllen kann?‹ –, bevor ihr Dashboard zur zentralen Referenz der ganzen Fachwelt wurde."
       },
       {
         titel: "Wenn die Sehnsucht nach Zugehörigkeit auf ganzer Linie scheitert (Schattenform)",
@@ -54158,6 +54160,7 @@ function marcelProustPortraitPage() {
         {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsportr\u00e4t: Gustav Mahler (SO4w5) \u2013 Parallele zu Prousts Wettlauf gegen die Zeit"},
+        {route:"krankheitsportraets-marcel-proust", label:"Krankheitsportr\u00e4t: Marcel Proust (SO4w5) \u2013 lebenslanges Asthma"},
       ])}
     </div>
   `);
@@ -71927,11 +71930,12 @@ function gustavMahlerKrankheitsportraetPage() {
         zentralen Thema ihrer Kunst.</p>
         <p class="vb-intro"><strong>d) Eine Parallele im gleichen Subtyp:</strong>
         Auch <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Marcel Proust</a>
-        (SO4w5) wusste, dass seine chronische Lungenkrankheit ihn früh töten würde, und
-        arbeitete bis zum Sterbebett an seinem Lebenswerk, um es rechtzeitig zu vollenden. Bei
-        beiden zeigt sich dasselbe SO4w5-Muster: Das Wissen um die eigene Sterblichkeit wird
-        nicht verdrängt, sondern in einen Wettlauf gegen die Zeit verwandelt, der das
-        Spätwerk zur eindringlichsten Aussage des gesamten Schaffens macht.</p>
+        (SO4w5) wusste, dass sein lebenslanges Asthma ihn früh töten würde, und arbeitete bis
+        zum Sterbebett an seinem Lebenswerk, um es rechtzeitig zu vollenden – sein
+        <a href="javascript:void(0)" data-route="krankheitsportraets-marcel-proust">eigenes Krankheitsporträt</a>
+        zeigt dasselbe SO4w5-Muster: Das Wissen um die eigene Sterblichkeit wird nicht
+        verdrängt, sondern in einen Wettlauf gegen die Zeit verwandelt, der das Spätwerk zur
+        eindringlichsten Aussage des gesamten Schaffens macht.</p>
         <p class="vb-intro"><strong>e) Warum ausgerechnet das Herz?</strong>
         Das Herz ist seit jeher das Symbol für Gefühl, Sehnsucht und emotionale Tiefe – genau
         jene Eigenschaften, auf denen die gesamte Identität der Vier beruht. Für eine soziale
@@ -71971,7 +71975,7 @@ function gustavMahlerKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5) – Lebenswerk"},
-        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+        {route:"krankheitsportraets-marcel-proust", label:"Krankheitsporträt: Marcel Proust (SO4w5) – derselbe Wettlauf gegen die Zeit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
@@ -79397,6 +79401,201 @@ function alexanderDerGrosseKrankheitsportraetPage() {
         {route:"krankheitsportraets-julius-caesar", label:"Krankheitsporträt: Julius Caesar (SO2w3) – verborgene Epilepsie"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
+      ])}
+    </div>
+  `);
+}
+
+function marcelProustKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marcel-proust-portrait.jpg" alt="Marcel Proust" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marcel Proust</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel · 1871–1922</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Marcel Proust</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: ein
+        lebenslanges, schweres Asthma, das ihn zunehmend in sein legendäres, korkverkleidetes
+        Zimmer zwang und ihn schließlich mit nur 51 Jahren tötete – während er buchstäblich bis
+        zum letzten Atemzug an seinem Lebenswerk arbeitete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Proust</strong> ist dem <strong>sozialen Typ 4 mit Fünferflügel</strong>
+        zugeordnet. Die soziale Vier braucht die Gruppe, um an ihr die eigene, tragische
+        Einzigartigkeit sichtbar auszuleben, statt im Verborgenen zu leiden. Der Fünferflügel
+        bringt den Drang hinzu, das eigene Erleben nicht nur zu durchleben, sondern analytisch
+        bis in die feinsten Verästelungen zu sezieren. Genau dieses Muster lässt sich bis in
+        seinen Umgang mit der eigenen Krankheit nachverfolgen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Der erste schwere Asthmaanfall mit neun Jahren:</strong>
+        1880 erlitt Proust bei einem Spaziergang im Bois de Boulogne einen schweren
+        Asthmaanfall, der ihn fast erstickte – von diesem Moment an begleitete ihn die
+        Krankheit bis zu seinem Tod.</p>
+        <p class="vb-intro"><strong>b) Eine außergewöhnliche körperliche Empfindlichkeit:</strong>
+        Schon als Kind reagierte Proust extrem auf Staub, Blütenpollen und Parfüm – Auslöser,
+        die für die meisten Menschen harmlos waren, aber bei ihm lebensbedrohliche
+        Atemnot auslösen konnten.</p>
+        <p class="vb-intro"><strong>c) Ein Leben, das sich zunehmend nach der Krankheit richtete:</strong>
+        Schon in jungen Jahren musste Proust seinen Alltag – Reisen, Verabredungen,
+        gesellschaftliche Verpflichtungen – nach den Launen seines Asthmas ausrichten, lange
+        bevor er sich vollständig zurückzog.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Rückzug ins korkverkleidete Zimmer:</strong>
+        Um sich gegen Straßenlärm, Staub und Pollen abzuschirmen, ließ Proust sein
+        Schlafzimmer am Boulevard Haussmann mit Kork auskleiden und verbrachte dort die letzten
+        Jahre seines Lebens fast ausschließlich.</p>
+        <p class="vb-intro"><strong>b) Umgekehrter Tagesrhythmus:</strong>
+        Proust schlief tagsüber und arbeitete nachts, wenn die Stadt ruhiger und die Luft
+        weniger reizend war – ein Rhythmus, der seine soziale Isolation weiter vertiefte.</p>
+        <p class="vb-intro"><strong>c) Selbstmedikation mit fragwürdigen Mitteln:</strong>
+        Proust behandelte seine Anfälle mit Räucherpulvern, Koffein- und
+        Adrenalin-Injektionen sowie einer Vielzahl damals gängiger, teils zweifelhafter Mittel
+        – eine verzweifelte, lebenslange Selbstbehandlung ohne wirksame medizinische Therapie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein Wettlauf gegen die Zeit:</strong>
+        Proust wusste, dass seine Lungenkrankheit ihn früh töten würde, und arbeitete an
+        „Auf der Suche nach der verlorenen Zeit" mit einer Intensität, die kaum Pausen zuließ –
+        das Werk musste vollendet werden, bevor der Körper endgültig versagte.</p>
+        <p class="vb-intro"><strong>b) Korrekturen auf dem Sterbebett:</strong>
+        Noch in seinen letzten Lebenstagen korrigierte Proust Druckfahnen und diktierte
+        Ergänzungen – die Arbeit am Werk endete buchstäblich erst mit seinem letzten Atemzug.</p>
+        <p class="vb-intro"><strong>c) Tod am 18. November 1922 in Paris:</strong>
+        Proust starb im Alter von 51 Jahren an einer Lungenentzündung, die sich aus einer
+        Bronchitis auf seiner durch Jahrzehnte des Asthmas geschwächten Lunge entwickelt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: Gustav Mahler</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">Gustav Mahler</a>
+        (SO4w5) wusste – in seinem Fall durch eine Herzklappenerkrankung –, dass er bald sterben
+        würde, und verwandelte dieses Wissen in sein eindringlichstes Spätwerk, statt sich zu
+        schonen. Sein
+        <a href="javascript:void(0)" data-route="krankheitsportraets-gustav-mahler">eigenes Krankheitsporträt</a>
+        zeigt dasselbe SO4w5-Muster wie bei Proust: Das Bewusstsein der eigenen Sterblichkeit
+        wird nicht verdrängt, sondern in einen Wettlauf gegen die Zeit verwandelt, der das
+        Spätwerk zur eindringlichsten Aussage des gesamten Schaffens macht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das um seinen eigenen Tod wusste:</strong>
+        Kaum ein anderes literarisches Großwerk entstand so bewusst im Wissen um die eigene
+        begrenzte Zeit – die Sterblichkeit des Autors ist in „Auf der Suche nach der verlorenen
+        Zeit" spürbar mitgeschrieben.</p>
+        <p class="vb-intro"><strong>b) Posthume Vollendung:</strong>
+        Die letzten Bände des Werks wurden erst nach Prousts Tod veröffentlicht – er hatte das
+        Manuskript im Wesentlichen fertiggestellt, aber die letzte redaktionelle Politur blieb
+        anderen überlassen.</p>
+        <p class="vb-intro"><strong>c) Ein Rückzug, der zur literarischen Methode wurde:</strong>
+        Was als körperliche Notwendigkeit begann – die Isolation im korkverkleideten Zimmer –,
+        wurde zur Bedingung seines Schreibens: erst aus der Distanz zur Gesellschaft heraus
+        konnte er sie so genau beschreiben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Gürteltier, das sich einpanzerte, um zu überleben:</strong>
+        Der Kork an den Wänden war buchstäblich ein Panzer gegen die Außenwelt – eine
+        Schutzhülle, die Proust brauchte, um überhaupt schreiben zu können.</p>
+        <p class="vb-intro"><strong>b) Dringliche Bedürftigkeit statt distanzierter Beobachtung:</strong>
+        In seinen letzten kranken Jahren verlangte Proust von seiner Haushälterin Céleste
+        Albaret ständige Erreichbarkeit, auch mitten in der Nacht – ein fast klammerndes
+        Bedürfnis nach Nähe und Fürsorge, das der sonst distanziert-analytischen Beobachterrolle
+        der Vier mit Fünferflügel entgegenlief.</p>
+        <p class="vb-intro"><strong>c) Analytische Distanz bis zum Schluss:</strong>
+        Selbst im eigenen Sterben blieb Proust der genaue Beobachter – er soll auf dem
+        Totenbett Notizen zum eigenen körperlichen Verfall diktiert haben, in der Absicht, sie
+        für eine Sterbeszene seines Romans zu verwenden.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Über vier Jahrzehnte mit derselben Krankheit:</strong>
+        Von seinem neunten Lebensjahr bis zu seinem Tod mit 51 begleitete das Asthma jede Phase
+        seines Lebens – kein plötzlicher Einbruch, sondern eine lebenslange, sich stetig
+        verschärfende Beziehung zur eigenen Verletzlichkeit.</p>
+        <p class="vb-intro"><strong>b) Wenn die Vier unter chronischem Stress zur Zwei wird:</strong>
+        Die zunehmend dringliche, fast klammernde Bedürftigkeit nach der ständigen
+        Erreichbarkeit seiner Haushälterin in den letzten Lebensjahren zeigt ein Muster, das
+        über die übliche Zurückgezogenheit der Vier mit Fünferflügel hinausgeht. Wer über
+        Jahrzehnte in chronischer Krankheit lebt, bewegt sich zunehmend entlang seiner
+        Stresslinie in Richtung seines Stresspunkts – bei der Vier ist das die Zwei. Genau
+        dieses bedürftige, um Fürsorge werbende Verhalten in seinen letzten kranken Jahren
+        erinnert eher an die Zwei als an die sonst distanziert-analytische Grundhaltung der
+        Fünferflügel-Vier – bei unverändertem Kerntyp SO4w5.</p>
+        <p class="vb-intro"><strong>c) Rückzug als Schutz und als Kunstform zugleich:</strong>
+        Das korkverkleidete Zimmer war zugleich medizinische Notwendigkeit und literarisches
+        Laboratorium – die Isolation, die der Körper erzwang, wurde zur Bedingung für das
+        Werk, das ohne sie nie in dieser Tiefe hätte entstehen können.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Atmung?</strong>
+        Für eine soziale Vier, deren gesamte künstlerische Existenz auf der Fähigkeit beruht,
+        sich der Welt auszusetzen und sie zugleich mit analytischer Distanz zu erfassen, liegt
+        eine Deutung nahe: Ausgerechnet jenes Organ, das die unmittelbarste Verbindung zur
+        Außenwelt herstellt, der Atem, wurde zur Quelle permanenter Bedrohung – und zwang
+        Proust in einen Rückzug, der seine Beobachterrolle noch verschärfte, statt sie
+        aufzulösen. Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Asthma führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Prousts Fall zeigen lässt, ist ein Muster im Umgang mit einer chronischen
+        Krankheit, das bei einer ausgeprägten sozialen Vier mit Fünferflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Proust kannte sein eigenes Muster nicht – die soziale Vier mit Fünferflügel verwandelt
+        Leiden reflexhaft in analytisch durchdrungene Kunst, statt sich zu schonen, und genau
+        das tat er bis zur letzten Zeile seines Lebenswerks. Wer die eigene Neigung, sich
+        selbst und die eigene Krankheit vor allem als Beobachtungsmaterial zu behandeln, nicht
+        als Muster erkennt, kann sie auch nicht rechtzeitig durch echte Selbstfürsorge
+        ausgleichen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Prousts</strong> soziale Vier mit
+        Fünferflügel noch einmal ablesen: eine lebenslange Krankheit, die zur Bedingung eines
+        der bedeutendsten Werke der Weltliteratur wurde, und ein Autor, der noch auf dem
+        Sterbebett das eigene Sterben zu literarischem Material machte. Das Gürteltier, das
+        sich einpanzerte, um in der Abgeschiedenheit umso genauer hinsehen zu können – und
+        dessen letzter Blick dem eigenen Tod galt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsporträt: Gustav Mahler (SO4w5) – derselbe Wettlauf gegen die Zeit"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
     </div>
   `);
@@ -119966,6 +120165,7 @@ function render() {
       "krankheitsportraets-peter-falk": peterFalkKrankheitsportraetPage,
       "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
       "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
+      "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
