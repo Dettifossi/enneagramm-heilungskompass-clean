@@ -42342,6 +42342,21 @@ function tierforscherUebereinstimmungPage() {
   `);
 }
 
+// Highlights every known person's name (from data.beispiele) inside a beleg text in the
+// type's color, so they stand out immediately when scanning the running text.
+function highlightBiografieNamen(text, names, color) {
+  if (!text || !names || !names.length) return text;
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const sorted = [...names].sort((a, b) => b.length - a.length);
+  let result = text;
+  sorted.forEach(name => {
+    if (!name) return;
+    const pattern = new RegExp(esc(name), "g");
+    result = result.replace(pattern, `<strong style="color:${color};">${name}</strong>`);
+  });
+  return result;
+}
+
 function lebensmusterkompassDetailPage(codeRaw) {
   const code = (codeRaw || "").toUpperCase();
   const data = LEBENSMUSTERKOMPASS[code];
@@ -42360,8 +42375,8 @@ function lebensmusterkompassDetailPage(codeRaw) {
   const col = typeColorFromCode(code);
   const portraitsAuto = lebensmusterkompassPortraitsForCode(code);
   const beispieleLinks = portraitsAuto.length
-    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;">${p.name}</button>`).join("")
-    : `<span style="font-size:0.87rem;color:var(--muted);">${data.beispiele.join(", ")}</span>`;
+    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;color:${col};font-weight:600;">${p.name}</button>`).join("")
+    : `<span style="font-size:0.87rem;color:${col};font-weight:600;">${data.beispiele.join(", ")}</span>`;
   const cards = data.fingerabdruecke.map((f, i) => `
     <div class="vb-blockquote" style="margin-bottom:1.2rem;">
       <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
@@ -42369,7 +42384,7 @@ function lebensmusterkompassDetailPage(codeRaw) {
         <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
       </div>
       <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
-      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Evidence from the portraits</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${f.beleg}</p></div>
+      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Evidence from the portraits</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${highlightBiografieNamen(f.beleg, data.beispiele, col)}</p></div>
     </div>
   `).join("");
 
@@ -42382,7 +42397,7 @@ function lebensmusterkompassDetailPage(codeRaw) {
           <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
             <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
           </div>
-          <span>${code} &middot; ${data.tier}: Biographical fingerprints</span>
+          <span style="color:${col};">${code} &middot; ${data.tier}: Biographical fingerprints</span>
         </h1>
         <p class="psycho-intro">${data.kernthema}</p>
 
