@@ -240,6 +240,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-alexander-der-grosse", name:"Alexander the Great", subtyp:"SO2w3", heading:"Alexander the Great – Social Type 2", krankheit:"Sudden, still-unresolved fever and illness after years of unchecked physical excess", teaser:"SO2w3 – King of Macedon, conqueror of an empire, 356–323 BC. Eleven years of unbroken campaigning, wounded seriously more than once, excessive alcohol consumption. Died after only ten to twelve days of fever on 10 or 11 June 323 BC in Babylon, aged 32, with no named successor." , land:"Macedon", gender:"m", jahre:"356–323 BC"},
   { route:"krankheitsportraets-marcel-proust", name:"Marcel Proust", subtyp:"SO4w5", heading:"Marcel Proust – Social Type 4", krankheit:"Lifelong severe asthma since childhood, fatal pneumonia", teaser:"SO4w5 – French writer, 1871–1922. First severe asthma attack at age nine, increasing retreat into his cork-lined room, worked on 'In Search of Lost Time' until his deathbed. Died in 1922 at age 51 of pneumonia." , land:"France", gender:"m", jahre:"1871–1922"},
   { route:"krankheitsportraets-johannes-brahms", name:"Johannes Brahms", subtyp:"SE9w8", heading:"Johannes Brahms – Self-Preservation Type 9", krankheit:"Liver cancer, the same illness that had already killed his father", teaser:"SE9w8 – German composer, 1833–1897. Exhausting journey to Clara Schumann's funeral in May 1896, visible jaundice shortly after, final public appearance at a performance of his Fourth Symphony in March 1897. Died on 3 April 1897 in Vienna, just eleven months after Clara Schumann." , land:"Germany/Austria", gender:"m", jahre:"1833–1897"},
+  { route:"krankheitsportraets-franz-liszt", name:"Franz Liszt", subtyp:"SX7w8", heading:"Franz Liszt – Sexual Type 7", krankheit:"Heart failure, dropsy, and progressive blindness, fatal pneumonia", teaser:"SX7w8 – composer and pianist, 1811–1886. Years of heart problems and edema alongside an unchanged travel schedule between Weimar, Rome, and Budapest; attended a performance in Bayreuth in 1886 despite fever and medical prohibition. Died on 31 July 1886 in Bayreuth." , land:"Hungary/Germany", gender:"m", jahre:"1811–1886"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -17336,6 +17337,7 @@ function franzLisztPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
+        {route:"krankheitsportraets-franz-liszt", label:"Illness Portrait: Franz Liszt (SX7w8) – death in Bayreuth"},
       ])}
     </div>
   `);
@@ -50121,6 +50123,193 @@ function robertSchumannKrankheitsportraetPage() {
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8) – life's work"},
         {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – discovered by Schumann, visited him regularly in Endenich"},
         {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8)"},
+        {route:"krankheitsportraets-franz-liszt", label:"Illness Portrait: Franz Liszt (SX7w8) – the same inability to slow down"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx7", label:"Subtype Profile SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function franzLisztKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-franz-liszt-portrait.jpg" alt="Franz Liszt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Liszt</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 with Eight-wing · 1811–1886</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chimpanzee</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Animal correspondence: Chimpanzee" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Franz Liszt</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-franz-liszt">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as a piano virtuoso and composer
+        and his type structure in general. This page delves into a chapter only touched on
+        there: heart failure, dropsy, and progressive blindness in his final years, which
+        never slowed him down but drove him all the way to Bayreuth, where he died of
+        pneumonia in 1886.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Liszt</strong> is classified as the <strong>Sexual Type 7 with
+        Eight-wing</strong>. Naranjo called this subtype <em>Suggestibility</em>: complete
+        devotion to whatever inspires enthusiasm, without reservation or brake. The Eight-wing
+        adds a readiness for open conflict rather than avoidance. This same excess – the
+        passion of the Seven – also shaped how Liszt handled his own progressing illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Progressive heart failure and dropsy from the 1870s on:</strong>
+        Years before his death, Liszt increasingly suffered from heart problems and edema
+        ("dropsy") that noticeably limited his physical stamina.</p>
+        <p class="vb-intro"><strong>b) Progressive blindness in one eye:</strong>
+        Cataracts increasingly weakened Liszt's vision in one eye in his final years – a
+        significant impairment for a pianist and conductor that he barely mentioned.</p>
+        <p class="vb-intro"><strong>c) An unchanged travel schedule despite his ailments:</strong>
+        Despite his health problems, Liszt kept up his "vie trifurquée" – a life he stubbornly
+        divided between Weimar, Rome, and Budapest, with constant teaching, traveling, and
+        public appearances.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) No withdrawal from teaching and traveling:</strong>
+        Liszt taught hundreds of students into his final years and continued traveling
+        tirelessly between his three residences – a lifestyle he did not scale back despite
+        his fading strength.</p>
+        <p class="vb-intro"><strong>b) Increasing alcohol consumption in his final years:</strong>
+        Contemporaries reported with concern a growing brandy consumption, linked to
+        depressive moods and the numerous personal losses of his later years.</p>
+        <p class="vb-intro"><strong>c) Depressive phases after severe personal losses:</strong>
+        The early deaths of his son Daniel in 1859 and his daughter Blandine in 1862 left deep
+        marks that increasingly mixed with his physical ailments in his final years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The journey to Bayreuth in July 1886:</strong>
+        Despite rapidly deteriorating health, the already gravely ill Liszt traveled to the
+        festival founded by his son-in-law Richard Wagner to support his daughter Cosima.</p>
+        <p class="vb-intro"><strong>b) Attending a performance despite fever:</strong>
+        Already weakened by a severe cold and fever, Liszt insisted on attending a performance
+        of "Tristan und Isolde" – against the explicit advice of the attending doctors, who had
+        ordered strict bed rest.</p>
+        <p class="vb-intro"><strong>c) Death on 31 July 1886 in Bayreuth:</strong>
+        Franz Liszt died at age 74 of pneumonia, right in the middle of the festival that was
+        inseparably bound up with his own musical legacy.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">A Parallel Within the Same Subtype: Robert Schumann</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <a href="javascript:void(0)" data-route="beruehmte-robert-schumann">Robert Schumann</a>
+        (SX7w8) knew this same inability to brake an intensity in time – in his case it
+        escalated into the leap into the Rhine in 1854. His own
+        <a href="javascript:void(0)" data-route="krankheitsportraets-robert-schumann">illness
+        portrait</a> shows the same SX7w8 pattern as Liszt: a capacity for devotion with no
+        built-in brake that, when it hits a limit, discharges not into retreat but into further
+        escalation – in Liszt's case the journey to Bayreuth despite severe illness, in
+        Schumann's case the desperate leap into icy water.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A death in the middle of his own legacy:</strong>
+        That Liszt died precisely at the Bayreuth Festival – which would hardly have existed in
+        this form without his support of Wagner and his family bond to Cosima – reads like a
+        bitter punchline to his life.</p>
+        <p class="vb-intro"><strong>b) An end long underestimated:</strong>
+        Because Liszt barely discussed his ailments publicly for years and kept teaching and
+        traveling, the seriousness of his condition was only truly recognized by those around
+        him in his final weeks.</p>
+        <p class="vb-intro"><strong>c) One last, uncompromising gesture:</strong>
+        Attending the performance despite fever and medical prohibition was often read in
+        hindsight as one final, typical gesture from a man who had never let outside limits
+        constrain him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The chimpanzee that never slowed down, even at the end:</strong>
+        The same inexhaustible capacity for enthusiasm that drove Liszt across Europe for
+        decades kept him from stopping even in the face of massive health warnings.</p>
+        <p class="vb-intro"><strong>b) Medical advice against his own drive:</strong>
+        His refusal to follow his doctors' advice and skip the performance shows the same
+        Eight-wing defiance that once led Liszt to publicly oppose the established Leipzig
+        music world – resistance only made him more determined.</p>
+        <p class="vb-intro"><strong>c) No orderly retreat, but a collapse in the midst of events:</strong>
+        Instead of a quiet twilight, Liszt's life ended right in the center of a public
+        event – the chimpanzee that stayed in the thick of things until the very end, rather
+        than withdrawing.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Years of growing ailments that never slowed his pace:</strong>
+        Heart failure, dropsy, and blindness developed over years – yet Liszt's travel and work
+        schedule remained practically unchanged almost until the end. The Seven's passion,
+        <strong>gluttony</strong>, knew no brakes even in the face of his own physical decline.</p>
+        <p class="vb-intro"><strong>b) Alcohol as a quiet companion to the excess:</strong>
+        The growing brandy consumption of his final years fits the same pattern as his entire
+        life: intensity as the answer to every experience, including grief and physical
+        decline, rather than retreat or rest.</p>
+        <p class="vb-intro"><strong>c) When the Seven turns into the One under chronic stress:</strong>
+        That Liszt insisted on attending the performance despite fever and explicit medical
+        prohibition reads less like the playful free choice of a healthy Seven and more like an
+        almost dutiful, rigid refusal to yield. Someone who lives for years in chronic physical
+        decline increasingly moves along their stress line toward their stress point – for the
+        Seven, that is the One. This unyielding "nothing will stop me" in his final weeks
+        resembles the rigid duty-fulfillment of the stress point, not the free-spirited choice
+        of the core type – with an unchanged core type of SX7w8.</p>
+        <p class="vb-intro"><strong>d) Why the heart and lungs, of all things?</strong>
+        For a Sexual Seven whose entire vitality expressed itself in tireless physical presence
+        on stage and constant travel, one interpretation suggests itself: the very organs that
+        enabled his stamina and endurance became the stage for decline – as if the body had
+        eventually presented the bill for a life without a built-in pause. This interpretation
+        is a plausible reading, not a documented historical causal link, and is developed
+        further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Sexual Seven pattern inevitably leads to heart or lung
+        disease – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What Liszt's case illustrates is a pattern in how a pronounced Sexual Seven with
+        Eight-wing handles progressing illness that keeps recurring in practice – one of many
+        possible interpretations, not a judgment. The corresponding illness pattern is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Liszt did not know his own pattern – the Sexual Seven with Eight-wing is not slowed by
+        resistance but spurred on by it, and exactly this pattern drove him relentlessly
+        forward despite heart failure, blindness, and fever, instead of slowing down in time.
+        Someone who does not recognize their own inability to accept a limit as a recurring
+        pattern cannot break it, even when their own body has long been sending unmistakable
+        warning signs.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Liszt's</strong> Sexual Seven with Eight-wing is legible once more in the course
+        of his illness: years of growing physical ailments that never slowed his pace, and one
+        final, uncompromising appearance against medical advice that became the fatal blow. The
+        chimpanzee that swept whole halls into ecstasy – and whose own body was, in the end, the
+        only thing that finally brought him to a halt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8) – life's work"},
+        {route:"krankheitsportraets-robert-schumann", label:"Illness Portrait: Robert Schumann (SX7w8) – the same inability to slow down"},
+        {route:"krankheitsportraets-leonard-bernstein", label:"Illness Portrait: Leonard Bernstein (SX7w6) – final concert against medical advice"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx7", label:"Subtype Profile SX7"},
       ])}
@@ -84778,6 +84967,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
+      "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

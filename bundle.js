@@ -24014,6 +24014,7 @@ const registerEntries = [
   { term: "Alexander der Große Krankheitsporträt", route: "krankheitsportraets-alexander-der-grosse", description: "Portrait: SO2w3 · Sozialer Typ 2 · Rätselhafter Fiebertod in Babylon" },
   { term: "Marcel Proust Krankheitsporträt", route: "krankheitsportraets-marcel-proust", description: "Portrait: SO4w5 · Sozialer Typ 4 · Lebenslanges Asthma, tödliche Lungenentzündung" },
   { term: "Johannes Brahms Krankheitsporträt", route: "krankheitsportraets-johannes-brahms", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Leberkrebs, elf Monate nach Clara Schumann" },
+  { term: "Franz Liszt Krankheitsporträt", route: "krankheitsportraets-franz-liszt", description: "Portrait: SX7w8 · Sexueller Typ 7 · Herzschwäche, Wassersucht, tödliche Lungenentzündung" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32130,6 +32131,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-alexander-der-grosse", name:"Alexander der Große", subtyp:"SO2w3", heading:"Alexander der Große – Sozialer Typ 2", krankheit:"Plötzlicher, bis heute ungeklärter Fieber- und Krankheitsverlauf nach Jahren körperlicher Grenzenlosigkeit", teaser:"SO2w3 – König von Makedonien, Eroberer eines Weltreichs, 356–323 v. Chr. Elf Jahre ununterbrochener Feldzug, mehrfach schwer verwundet, exzessiver Alkoholkonsum. Starb nach nur zehn bis zwölf Tagen Fieber am 10. oder 11. Juni 323 v. Chr. in Babylon im Alter von 32 Jahren, ohne Nachfolger." , land:"Makedonien", gender:"m", jahre:"356–323 v. Chr."},
   { route:"krankheitsportraets-marcel-proust", name:"Marcel Proust", subtyp:"SO4w5", heading:"Marcel Proust – Sozialer Typ 4", krankheit:"Lebenslanges, schweres Asthma seit der Kindheit, tödliche Lungenentzündung", teaser:"SO4w5 – französischer Schriftsteller, 1871–1922. Erster schwerer Asthmaanfall mit neun Jahren, zunehmender Rückzug in sein korkverkleidetes Zimmer, arbeitete bis zum Sterbebett an ›Auf der Suche nach der verlorenen Zeit‹. Starb 1922 mit 51 Jahren an einer Lungenentzündung." , land:"Frankreich", gender:"m", jahre:"1871–1922"},
   { route:"krankheitsportraets-johannes-brahms", name:"Johannes Brahms", subtyp:"SE9w8", heading:"Johannes Brahms – Selbsterhaltender Typ 9", krankheit:"Leberkrebs, dieselbe Krankheit, an der bereits sein Vater gestorben war", teaser:"SE9w8 – deutscher Komponist, 1833–1897. Erschöpfende Reise zu Clara Schumanns Beerdigung im Mai 1896, kurz danach sichtbare Gelbfärbung, letzter öffentlicher Auftritt bei einer Aufführung seiner 4. Sinfonie im März 1897. Starb am 3. April 1897 in Wien, nur elf Monate nach Clara Schumann." , land:"Deutschland/Österreich", gender:"m", jahre:"1833–1897"},
+  { route:"krankheitsportraets-franz-liszt", name:"Franz Liszt", subtyp:"SX7w8", heading:"Franz Liszt – Sexueller Typ 7", krankheit:"Herzschwäche, Wassersucht und fortschreitende Erblindung, tödliche Lungenentzündung", teaser:"SX7w8 – Komponist und Pianist, 1811–1886. Jahrelange Herzbeschwerden und Ödeme bei unverändertem Reisepensum zwischen Weimar, Rom und Budapest, Teilnahme an einer Aufführung in Bayreuth 1886 trotz Fieber und ärztlichem Verbot. Starb am 31. Juli 1886 in Bayreuth." , land:"Ungarn/Deutschland", gender:"m", jahre:"1811–1886"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44035,7 +44037,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Ansteckende Intensität, die eine ganze Gruppe oder einen ganzen Raum mitreißt",
         beschreibung: "Die eigene Begeisterung bleibt nicht privat, sondern überträgt sich unmittelbar auf das Umfeld – ein Publikum, ein Orchester, ein Saal wird Teil des eigenen intensiven Moments.",
-        beleg: "Franz Liszt, dessen Konzerte die ›Lisztomania‹ auslösten – ohnmächtige Zuhörerinnen, zerrissene Klaviersaiten: ›Der Schimpanse spielt nicht für sich – er reißt begeistert den ganzen Saal mit sich‹; Leonard Bernstein, der ›das Orchester mit einer Ekstase mitriss, die man auf Aufnahmen auch heute noch förmlich spüren kann‹ – und der genau diese körperliche Intensität bis zu seinem letzten Konzert 1990 nicht drosseln konnte, selbst gegen ausdrücklichen ärztlichen Rat; Shakira: ›Wenn er sich bewegt, bewegt sich alles um ihn herum mit.‹; Thomas Gottschalk, der 23 Jahre lang ein Millionenpublikum nicht durch ein Format, sondern durch reine Präsenz fesselte – ›hier ist jemand, dem das gerade wirklich Spaß macht, das Publikum spürt das‹; Ina Müller, deren Format ganz ohne Distanz auskommt – ›eine Bar, ein Klavier, ein Gast … der Schimpanse sitzt nicht gegenüber, er sitzt daneben‹; Boris Becker, der ein Jahrzehnt lang Menschen als Spieler und als Persönlichkeit in seine Intensität hineinzog – ›sie bringt die Bühne mit.‹"
+        beleg: "Franz Liszt, dessen Konzerte die ›Lisztomania‹ auslösten – ohnmächtige Zuhörerinnen, zerrissene Klaviersaiten: ›Der Schimpanse spielt nicht für sich – er reißt begeistert den ganzen Saal mit sich‹ – und der noch mit Herzschwäche und Fieber gegen ärztlichen Rat zu einer Aufführung nach Bayreuth reiste, wo er wenig später starb; Leonard Bernstein, der ›das Orchester mit einer Ekstase mitriss, die man auf Aufnahmen auch heute noch förmlich spüren kann‹ – und der genau diese körperliche Intensität bis zu seinem letzten Konzert 1990 nicht drosseln konnte, selbst gegen ausdrücklichen ärztlichen Rat; Shakira: ›Wenn er sich bewegt, bewegt sich alles um ihn herum mit.‹; Thomas Gottschalk, der 23 Jahre lang ein Millionenpublikum nicht durch ein Format, sondern durch reine Präsenz fesselte – ›hier ist jemand, dem das gerade wirklich Spaß macht, das Publikum spürt das‹; Ina Müller, deren Format ganz ohne Distanz auskommt – ›eine Bar, ein Klavier, ein Gast … der Schimpanse sitzt nicht gegenüber, er sitzt daneben‹; Boris Becker, der ein Jahrzehnt lang Menschen als Spieler und als Persönlichkeit in seine Intensität hineinzog – ›sie bringt die Bühne mit.‹"
       },
       {
         titel: "Ständige, offen sichtbare Verwandlung ohne Scham",
@@ -49128,6 +49130,7 @@ function franzLisztPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8)"},
+        {route:"krankheitsportraets-franz-liszt", label:"Krankheitsporträt: Franz Liszt (SX7w8) – Tod in Bayreuth"},
       ])}
     </div>
   `);
@@ -77967,6 +77970,204 @@ function robertSchumannKrankheitsportraetPage() {
         {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – Lebenswerk"},
         {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Schumann entdeckt, besuchte ihn regelmäßig in Endenich"},
         {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8)"},
+        {route:"krankheitsportraets-franz-liszt", label:"Krankheitsporträt: Franz Liszt (SX7w8) – dieselbe Unfähigkeit, kürzerzutreten"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function franzLisztKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-franz-liszt-portrait.jpg" alt="Franz Liszt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Liszt</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel · 1811–1886</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Franz Liszt</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-franz-liszt">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Klaviervirtuose und
+        Komponist und seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das
+        dort nur gestreift wird: Herzschwäche, Wassersucht und fortschreitende Erblindung in
+        seinen letzten Lebensjahren, die ihn nicht zum Innehalten brachten, sondern bis nach
+        Bayreuth trieben, wo er 1886 an einer Lungenentzündung starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Liszt</strong> ist dem <strong>sexuellen Typ 7 mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Suggestibilität</em>: die vollständige
+        Hingabe an das, was begeistert, ohne Vorbehalt oder Bremse. Der Achterflügel bringt die
+        Bereitschaft zum offenen Kampf statt zum Ausweichen hinzu. Genau diese Maßlosigkeit –
+        die Leidenschaft der Sieben – bestimmte auch, wie Liszt mit seiner eigenen,
+        fortschreitenden Krankheit umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Fortschreitende Herzschwäche und Wassersucht ab den 1870er-Jahren:</strong>
+        Schon Jahre vor seinem Tod litt Liszt zunehmend an Herzbeschwerden und Ödemen
+        („Wassersucht"), die seine körperliche Belastbarkeit spürbar einschränkten.</p>
+        <p class="vb-intro"><strong>b) Fortschreitende Erblindung eines Auges:</strong>
+        Grauer Star ließ Liszts Sehkraft auf einem Auge in seinen letzten Lebensjahren
+        zunehmend nachlassen – für einen Pianisten und Dirigenten eine erhebliche
+        Beeinträchtigung, die er kaum thematisierte.</p>
+        <p class="vb-intro"><strong>c) Unverändertes Reisepensum trotz der Beschwerden:</strong>
+        Trotz seiner gesundheitlichen Probleme hielt Liszt an seiner „vie trifurquée" fest –
+        einem Leben, das er beharrlich zwischen Weimar, Rom und Budapest aufteilte, mit
+        ständigem Unterrichten, Reisen und öffentlichen Auftritten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Kein Rückzug vom Unterrichten und Reisen:</strong>
+        Liszt unterrichtete bis in seine letzten Lebensjahre Hunderte Schüler und reiste
+        weiterhin unermüdlich zwischen seinen drei Wohnorten – eine Lebensweise, die er trotz
+        nachlassender Kräfte nicht einschränkte.</p>
+        <p class="vb-intro"><strong>b) Zunehmender Alkoholkonsum in den letzten Lebensjahren:</strong>
+        Zeitgenossen berichteten besorgt von einem wachsenden Cognac-Konsum, der mit
+        depressiven Verstimmungen und den zahlreichen persönlichen Verlusten seiner späten
+        Jahre in Verbindung gebracht wurde.</p>
+        <p class="vb-intro"><strong>c) Depressive Phasen nach schweren persönlichen Verlusten:</strong>
+        Der frühe Tod seines Sohnes Daniel 1859 und seiner Tochter Blandine 1862 hinterließ
+        tiefe Spuren, die sich in den letzten Lebensjahren zunehmend mit den körperlichen
+        Beschwerden vermischten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Reise nach Bayreuth im Juli 1886:</strong>
+        Trotz sich rapide verschlechternder Gesundheit reiste der bereits schwer kranke Liszt
+        zu den von seinem Schwiegersohn Richard Wagner begründeten Festspielen, um seine
+        Tochter Cosima zu unterstützen.</p>
+        <p class="vb-intro"><strong>b) Teilnahme an einer Aufführung trotz Fieber:</strong>
+        Bereits mit einer schweren Erkältung und Fieber geschwächt, bestand Liszt darauf, eine
+        Aufführung von „Tristan und Isolde" zu besuchen – gegen den ausdrücklichen Rat der
+        behandelnden Ärzte, die ihm strikte Bettruhe verordnet hatten.</p>
+        <p class="vb-intro"><strong>c) Tod am 31. Juli 1886 in Bayreuth:</strong>
+        Franz Liszt starb im Alter von 74 Jahren an einer Lungenentzündung, mitten im Zentrum
+        jener Festspiele, die untrennbar mit seinem eigenen musikalischen Erbe verbunden waren.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: Robert Schumann</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch <a href="javascript:void(0)" data-route="beruehmte-robert-schumann">Robert
+        Schumann</a> (SX7w8) kannte diese Unfähigkeit, eine Intensität rechtzeitig zu bremsen –
+        bei ihm eskalierte sie in den Sprung in den Rhein 1854. Sein
+        <a href="javascript:void(0)" data-route="krankheitsportraets-robert-schumann">eigenes
+        Krankheitsporträt</a> zeigt dasselbe SX7w8-Muster wie bei Liszt: eine Hingabefähigkeit
+        ohne eingebaute Bremse, die sich, wenn sie an eine Grenze stößt, nicht in Rückzug,
+        sondern in eine weitere Zuspitzung entlädt – bei Liszt die Reise nach Bayreuth trotz
+        schwerer Krankheit, bei Schumann der verzweifelte Sprung ins eiskalte Wasser.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod mitten im eigenen Vermächtnis:</strong>
+        Dass Liszt ausgerechnet bei den Bayreuther Festspielen starb, die ohne seine
+        Unterstützung Wagners und seine familiäre Verbindung zu Cosima kaum in dieser Form
+        existiert hätten, wirkt wie eine bittere Pointe seines Lebens.</p>
+        <p class="vb-intro"><strong>b) Ein Ende, das lange unterschätzt wurde:</strong>
+        Weil Liszt seine Beschwerden über Jahre kaum öffentlich thematisierte und weiterhin
+        unterrichtete und reiste, wurde der Ernst seines Zustands von seinem Umfeld erst in den
+        letzten Wochen wirklich erkannt.</p>
+        <p class="vb-intro"><strong>c) Eine letzte, kompromisslose Geste:</strong>
+        Die Teilnahme an der Aufführung trotz Fieber und ärztlichem Verbot wurde im Nachhinein
+        oft als letzte, typische Geste eines Mannes gedeutet, der sich nie von äußeren Grenzen
+        hatte einschränken lassen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Schimpanse, der bis zuletzt nicht kürzertrat:</strong>
+        Dieselbe unerschöpfliche Begeisterungsfähigkeit, die Liszt jahrzehntelang durch ganz
+        Europa trieb, ließ ihn auch angesichts massiver gesundheitlicher Warnsignale nicht
+        innehalten.</p>
+        <p class="vb-intro"><strong>b) Ärztlicher Rat gegen den eigenen Antrieb:</strong>
+        Die Weigerung, dem Rat seiner Ärzte zu folgen und die Aufführung auszulassen, zeigt
+        denselben Achterflügel-Trotz, der Liszt einst dazu brachte, sich öffentlich gegen die
+        etablierte Leipziger Musikwelt zu stellen – Widerstand macht ihn nur entschlossener.</p>
+        <p class="vb-intro"><strong>c) Kein geordneter Rückzug, sondern ein Zusammenbruch mitten im Geschehen:</strong>
+        Statt eines ruhigen Lebensabends endete Liszts Leben mitten im Zentrum eines
+        öffentlichen Ereignisses – der Schimpanse, der bis zuletzt im Geschehen blieb, statt
+        sich zurückzuziehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Jahre wachsender Beschwerden, die das Lebenstempo nicht bremsten:</strong>
+        Herzschwäche, Wassersucht und Erblindung entwickelten sich über Jahre – doch Liszts
+        Reise- und Arbeitspensum blieb bis fast zum Schluss praktisch unverändert. Die
+        Leidenschaft der Sieben, die <strong>Völlerei</strong>, kannte auch angesichts des
+        eigenen körperlichen Verfalls keine Bremse.</p>
+        <p class="vb-intro"><strong>b) Alkohol als stille Begleiterscheinung der Maßlosigkeit:</strong>
+        Der zunehmende Cognac-Konsum seiner letzten Jahre passt in dasselbe Muster wie sein
+        gesamtes Leben: Intensität als Antwort auf jede Erfahrung, auch auf Trauer und
+        körperlichen Verfall, statt Rückzug oder Schonung.</p>
+        <p class="vb-intro"><strong>c) Wenn die Sieben unter chronischem Stress zur Eins wird:</strong>
+        Dass Liszt trotz Fieber und ausdrücklichem ärztlichem Verbot auf den Besuch der
+        Aufführung bestand, wirkt weniger wie die spielerische Wahllust der gesunden Sieben als
+        wie eine fast pflichtbewusste, rigide Weigerung nachzugeben. Wer über Jahre in
+        chronischem körperlichem Verfall lebt, bewegt sich zunehmend entlang seiner
+        Stresslinie in Richtung seines Stresspunkts – bei der Sieben ist das die Eins. Dieses
+        unnachgiebige „Ich lasse mich davon nicht abhalten" in seinen letzten Lebenswochen
+        erinnert an die starre Pflichterfüllung des Stresspunkts, nicht an die freie Wahllust
+        des Kerntyps – bei unverändertem Kerntyp SX7w8.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Herz und Lunge?</strong>
+        Für eine sexuelle Sieben, deren gesamte Lebenskraft sich in unermüdlicher, körperlicher
+        Präsenz auf der Bühne und in ständigem Reisen ausdrückte, liegt eine Deutung nahe:
+        Ausgerechnet jene Organe, die Ausdauer und Durchhaltevermögen ermöglichten, wurden zum
+        Schauplatz des Verfalls – als hätte der Körper irgendwann die Rechnung für ein Leben
+        ohne eingebaute Pause präsentiert. Diese Deutung ist eine plausible Interpretation,
+        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu Herz- oder
+        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Liszts Fall zeigen lässt, ist ein Muster im
+        Umgang mit fortschreitender Krankheit, das bei einer ausgeprägten sexuellen Sieben mit
+        Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Liszt kannte sein eigenes Muster nicht – die sexuelle Sieben mit Achterflügel lässt
+        sich von Widerstand nicht bremsen, sondern erst recht anspornen, und genau dieses
+        Muster trieb ihn trotz Herzschwäche, Erblindung und Fieber unbeirrt weiter, statt
+        rechtzeitig kürzerzutreten. Wer die eigene Unfähigkeit, eine Grenze zu akzeptieren,
+        nicht als wiederkehrendes Muster erkennt, kann sie auch nicht durchbrechen, wenn der
+        eigene Körper längst unübersehbare Warnsignale sendet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Liszts</strong> sexuelle Sieben mit
+        Achterflügel noch einmal ablesen: Jahre wachsender körperlicher Beschwerden, die das
+        Lebenstempo nicht bremsten, und ein letzter, kompromissloser Auftritt gegen ärztlichen
+        Rat, der zum Todesstoß wurde. Der Schimpanse, der ganze Säle in Ekstase versetzte – und
+        dessen eigener Körper am Ende der einzige war, der ihn endgültig zum Stillstand
+        brachte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8) – Lebenswerk"},
+        {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – dieselbe Unfähigkeit, kürzerzutreten"},
+        {route:"krankheitsportraets-leonard-bernstein", label:"Krankheitsporträt: Leonard Bernstein (SX7w6) – letztes Konzert gegen ärztlichen Rat"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
@@ -120362,6 +120563,7 @@ function render() {
       "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
+      "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
