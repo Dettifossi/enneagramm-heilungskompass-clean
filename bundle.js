@@ -43947,7 +43947,7 @@ const LEBENSMUSTERKOMPASS = {
   SE9: {
     tier: "Elefant",
     kernthema: "Ruhige, gewichtige Präsenz statt Lautstärke – wer einmal in Bewegung ist, ist nicht mehr aufzuhalten (Naranjo: Appetit)",
-    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laotse (Laozi)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas von Aquin", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss"],
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laotse (Laozi)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas von Aquin", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss", "Dietmar Bär"],
     fingerabdruecke: [
       {
         titel: "Ruhige, gewichtige Präsenz statt Lautstärke",
@@ -43962,7 +43962,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Appetit und Genuss als Ausdruck von Lebensfreude, die die innere Leere dämpft",
         beschreibung: "Naranjo nannte diesen Subtyp den des ›Appetits‹: Körperlicher Genuss, Gewohnheit und Komfort dienen dazu, eine tiefer liegende innere Leere zu dämpfen – nicht als Schwäche, sondern als tief verwurzeltes Lebensprinzip.",
-        beleg: "Alfons Schuhbeck: ›Der selbsterhaltende Subtyp der Neun nennt sich »Appetit«: Die innere Leere, die jede Neun mit sich trägt, wird durch körperlichen Genuss, Essen, Gewohnheit und Komfort gedämpft‹; Johannes Brahms, der ›genügsam blieb, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte‹; Abida Parveen: ›Appetit auf Verschmelzung‹, deren ruhiger, eileloser Gesang ganze Konzertsäle in Trance versetzt; Carmen Goglin, die aus Lachyoga einen Beruf machte und anderen genau das vermittelt, was die SE9 für sich selbst sucht – Körperentspannung, Leichtigkeit, das Gefühl, dass gerade nichts dringend ist."
+        beleg: "Alfons Schuhbeck: ›Der selbsterhaltende Subtyp der Neun nennt sich »Appetit«: Die innere Leere, die jede Neun mit sich trägt, wird durch körperlichen Genuss, Essen, Gewohnheit und Komfort gedämpft‹; Johannes Brahms, der ›genügsam blieb, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte‹; Abida Parveen: ›Appetit auf Verschmelzung‹, deren ruhiger, eileloser Gesang ganze Konzertsäle in Trance versetzt; Carmen Goglin, die aus Lachyoga einen Beruf machte und anderen genau das vermittelt, was die SE9 für sich selbst sucht – Körperentspannung, Leichtigkeit, das Gefühl, dass gerade nichts dringend ist; Dietmar Bär, der in Interviews auffällig oft und mit sichtlichem Vergnügen übers Kochen und Essen spricht und Köln als seinen unverrückbaren Lebensmittelpunkt beschreibt – Sicherheit durch den eigenen, unmittelbaren Komfort statt durch Bühne oder Auftritt."
       },
       {
         titel: "Wenn der stille Appetit zur stillen Selbstbedienung ohne Schuldgefühl wird (Schattenform)",
@@ -44087,7 +44087,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière"],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
@@ -44102,7 +44102,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Dienst an etwas Größerem als sich selbst, statt persönlichem Ruhm",
         beschreibung: "Das eigene Werk wird nicht als Selbstdarstellung verstanden, sondern als Beitrag zu einer Gemeinschaft, einer Idee oder einem System, das größer ist als die eigene Person.",
-        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹; Goethe, der sich 1775 auf dem Höhepunkt seines literarischen Ruhms für fast fünfzig Jahre einer Verwaltungsarbeit für Herzog Carl August verpflichtete, die seiner eigentlichen künstlerischen Natur oft diametral entgegenstand – Dienst am Weimarer Gemeinwesen statt am eigenen Künstlerruhm; Alexander Bommes, der 2007 seine Handballkarriere beendete und statt der juristischen Laufbahn nach seinem ersten Staatsexamen ein Journalismus-Volontariat begann – ein Bruch mit dem naheliegenden, sicheren Weg zugunsten einer neuen Aufgabe im Dienst der Öffentlichkeit."
+        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹; Goethe, der sich 1775 auf dem Höhepunkt seines literarischen Ruhms für fast fünfzig Jahre einer Verwaltungsarbeit für Herzog Carl August verpflichtete, die seiner eigentlichen künstlerischen Natur oft diametral entgegenstand – Dienst am Weimarer Gemeinwesen statt am eigenen Künstlerruhm; Alexander Bommes, der 2007 seine Handballkarriere beendete und statt der juristischen Laufbahn nach seinem ersten Staatsexamen ein Journalismus-Volontariat begann – ein Bruch mit dem naheliegenden, sicheren Weg zugunsten einer neuen Aufgabe im Dienst der Öffentlichkeit; Molière, der seine jahrelang verschwiegene, fortschreitende Lungenerkrankung nicht zum Anlass nahm, sich zurückzuziehen, sondern bis zur vierten Aufführung von ›Der eingebildete Kranke‹ weiterspielte, ausgerechnet in der Rolle eines Hypochonders – Dienst an der eigenen Theatertruppe und am Publikum, bis der Körper buchstäblich auf der Bühne zusammenbrach."
       },
       {
         titel: "Wenn die perfekte, dienende Fassade eine maßlose, zerstörerische Realität verbirgt (Schattenform)",
@@ -44168,7 +44168,7 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Kaninchen",
     kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
-    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride"],
+    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt"],
     fingerabdruecke: [
       {
         titel: "Gefahr früher wahrnehmen als andere – ständige, aktive Wachheit",
@@ -44178,7 +44178,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Sicherheit im Vertrauten statt auf der großen Bühne",
         beschreibung: "Die eigentliche Heimat ist nicht die Öffentlichkeit oder das Rampenlicht, sondern der enge, vertraute Kreis – Freunde, Familie, ein bekannter Ort –, aus dem heraus auch außergewöhnliche Leistung entstehen kann.",
-        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹"
+        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹; Klaus J. Behrendt, der trotz jahrzehntelanger Fernsehpräsenz als Tatort-Kommissar Schenk kaum Homestorys zulässt und sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet hat statt auf zusätzliche Sichtbarkeit."
       },
       {
         titel: "Ruhige Funktionsfähigkeit unter extremem Druck, weil die Gefahr längst kalkuliert wurde",
@@ -44384,7 +44384,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
@@ -44394,7 +44394,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
         beschreibung: "Statt auf vorhandene Ressourcen oder Startvorteile zu warten, entsteht aus begrenzten Mitteln, oft aus purer Findigkeit, ein tragfähiges, manchmal jahrzehntelang funktionierendes System.",
-        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹; Dr. Annika von Mutius, die statt auf lautes Marketing über Jahre auf die technische Substanz eines KI-Matching-Systems setzte, bevor Empion mit Konzernen wie Procter & Gamble zusammenarbeitete – Aufmerksamkeit, die der Substanz folgte, nicht umgekehrt."
+        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹; Dr. Annika von Mutius, die statt auf lautes Marketing über Jahre auf die technische Substanz eines KI-Matching-Systems setzte, bevor Empion mit Konzernen wie Procter & Gamble zusammenarbeitete – Aufmerksamkeit, die der Substanz folgte, nicht umgekehrt; Changpeng Zhao, der Binance nicht über öffentlichen Auftritt, sondern über technische Infrastruktur zur größten Kryptobörse der Welt aufbaute – ein radikal eigener Weg außerhalb bestehender Regelwerke, still errichtet statt inszeniert."
       },
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
@@ -44642,7 +44642,7 @@ const LEBENSMUSTERKOMPASS = {
   SO3: {
     tier: "Gepard",
     kernthema: "Kontrolle über das eigene Bild und den entscheidenden öffentlichen Moment",
-    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Ludwig XIV.", "Sean Connery", "Teresa von Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker"],
+    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Ludwig XIV.", "Sean Connery", "Teresa von Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker", "Pedro Alonso López", "Andrew Cunanan", "Vincenzo Peruggia", "Wade Wilson"],
     fingerabdruecke: [
       {
         titel: "Der kontrollierte Blick als Machtinstrument",
@@ -44663,6 +44663,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "Verwandlung in ein wiedererkennbares Symbol – oder bewusste Ablehnung des sicheren Reviers dafür",
         beschreibung: "Am Ende der Entwicklung steht häufig ein sofort identifizierbares, ikonisches Erscheinungsbild. Der Weg dorthin führt oft über die bewusste Ablehnung einer sicheren, aber begrenzenden Option zugunsten der offenen, sichtbaren Fläche.",
         beleg: "Lagerfeld: ›Er hatte sich in ein Symbol verwandelt … weltweit, zeitlos‹; Leibniz lehnte eine sichere Professur ab, weil ›der Gepard nicht im geschützten Revier eines einzelnen Hörsaals bleibt‹; Sean Connerys radikale Distanzüberwindung vom Milchmann zu James Bond; Teresa von Ávila, der der reguläre Klosteralltag nicht genügte: ›Sie wollte nicht einfach Nonne sein – sie wollte den Orden erneuern, sichtbar, spürbar, unwiderlegbar.‹"
+      },
+      {
+        titel: "Wenn der eine gewagte Sprung und die kontrollierte Fassade zur tödlichen Inszenierung werden (Schattenform)",
+        beschreibung: "In der destruktiven Ausprägung wird genau dieselbe Fähigkeit zum einzelnen, riskanten, öffentlich wirksamen Schritt und zur makellosen äußeren Fassade zum Werkzeug der Täuschung oder Gewalt – der entscheidende Moment wird nicht sportlich oder unternehmerisch gesucht, sondern kriminell inszeniert.",
+        beleg: "Pedro Alonso López, ›das Monster der Anden‹, dessen zielgenaue Verführung und charismatische Maske mindestens 350 Morde ermöglichten – Erfolg gemessen in Opferzahl statt in Rekorden; Andrew Cunanan, für den Prestige und eine makellose Fassade zum einzigen Lebensinhalt wurden, bevor er binnen zwölf Tagen quer durch die USA mordete und schließlich Gianni Versace tötete; Vincenzo Peruggia, der 1911 in einem einzigen, präzisen Schlag die Mona Lisa aus dem Louvre stahl und sie zwei Jahre lang verborgen hielt – patriotische Inszenierung statt finanzieller Bereicherung; Wade Wilson, für den der Gerichtssaal selbst zur letzten Bühne wurde, auf der Aufmerksamkeit zur einzigen Währung geriet. Wichtig: Diese vier Fälle sind seltene Extremformen, keine typische Ausprägung der SO3 in diesem Kompass."
       }
     ]
   }
