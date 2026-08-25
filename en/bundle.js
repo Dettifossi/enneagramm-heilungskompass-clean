@@ -236,6 +236,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Self-Preservation Type 9", krankheit:"Chronic bowel disease (likely colorectal cancer or a severe chronic inflammatory condition), steadily progressing over just over four years", teaser:"SE9w8 – Scottish philosopher, 1711–1776. First digestive complaints from 1772 on, steady weight loss, wrote the composed autobiography 'My Own Life' shortly before his death. Died in 1776 in Edinburgh with remarkable philosophical calm." , land:"Scotland", gender:"m", jahre:"1711–1776"},
   { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexual Type 9", krankheit:"Decades-long, never definitively diagnosed chronic illness (likely a spinal condition and/or early lung disease) with accompanying lifelong opium dependency", teaser:"SX9w8 – English poet, 1806–1861. Chronic complaints from her teens, early prescription of laudanum leading to decades of dependency, more than twenty years of near-total isolation in her father's house. Health improved only after her secret flight to Italy in 1846." , land:"United Kingdom", gender:"f", jahre:"1806–1861"},
   { route:"krankheitsportraets-peter-falk", name:"Peter Falk", subtyp:"SO9w1", heading:"Peter Falk – Social Type 9", krankheit:"Alzheimer's disease, accompanied by a public custody dispute over his care", teaser:"SO9w1 – actor, world-famous as TV detective Columbo, 1927–2011. Diagnosed with Alzheimer's in 2007, placed under court conservatorship by his wife in 2008, followed by a public dispute with his daughter Catherine over visitation rights. Died in 2011 at age 83 from complications of the disease." , land:"USA", gender:"m", jahre:"1927–2011"},
+  { route:"krankheitsportraets-leonard-bernstein", name:"Leonard Bernstein", subtyp:"SX7w6", heading:"Leonard Bernstein – Sexual Type 7", krankheit:"Advanced emphysema from decades of chain-smoking, fatal heart failure", teaser:"SX7w6 – conductor, composer, pianist, 1918–1990. Up to four packs of cigarettes a day for decades; conducted his final concert on 19 August 1990 against medical advice and had to stop due to a coughing fit. Retired from conducting on 9 October 1990, died just five days later." , land:"USA", gender:"m", jahre:"1918–1990"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -21532,6 +21533,7 @@ function leonardBernsteinPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
         {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
+        {route:"krankheitsportraets-leonard-bernstein", label:"Illness Portrait: Leonard Bernstein – emphysema"},
       ])}
     </div>
   `);
@@ -51112,6 +51114,176 @@ function peterFalkKrankheitsportraetPage() {
         {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so9", label:"Subtype Profile SO9"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardBernsteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-leonard-bernstein-portrait.jpg" alt="Leonard Bernstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Bernstein</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexual Type 7 with Six-wing · 1918–1990</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chimpanzee</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Animal correspondence: Chimpanzee" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Leonard Bernstein</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-leonard-bernstein">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as conductor, composer, and
+        educator and his type structure in general. This page delves into a chapter only
+        touched on there: decades of nearly limitless bodily excess that culminated in 1990 in
+        advanced lung disease and an abrupt death – just days after he had publicly announced
+        his retirement from conducting.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bernstein</strong> is classified as the <strong>Sexual Type 7 with
+        Six-wing</strong>. Naranjo called this subtype <em>Suggestibility</em>: complete
+        merging with an idea, a moment, or an enthusiasm, with an intensity that knows no half
+        measures. The Six-wing adds a bonding-oriented, almost missionary devotion. It was
+        precisely this excess – the passion of the Seven – that became his physical undoing in
+        the end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Chain-smoking from a young age:</strong>
+        Bernstein smoked up to four packs of cigarettes a day for decades – a habit he never
+        seriously questioned despite his public status as a health role model.</p>
+        <p class="vb-intro"><strong>b) Excessive alcohol consumption as a constant companion:</strong>
+        Contemporaries consistently reported heavy, decades-long alcohol consumption that,
+        alongside smoking, was a fixed part of his daily life.</p>
+        <p class="vb-intro"><strong>c) Increasing breathing problems from the 1970s onward:</strong>
+        Years before his actual diagnosis, colleagues noticed a noticeably declining physical
+        stamina at concerts and rehearsals – a warning sign lost in the whirlwind of his
+        workload.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Unchanged workload despite the diagnosis:</strong>
+        When Bernstein was diagnosed with progressive emphysema, he barely changed his
+        lifestyle – he continued conducting internationally, composing, and teaching at the
+        Tanglewood Music Center.</p>
+        <p class="vb-intro"><strong>b) Continued smoking despite medical warnings:</strong>
+        Even after the diagnosis, Bernstein did not quit smoking – a behavior those around him
+        repeatedly, but unsuccessfully, tried to change.</p>
+        <p class="vb-intro"><strong>c) Growing exhaustion at public appearances:</strong>
+        In his final years, colleagues and audiences noticed a growing physical exhaustion that
+        Bernstein consistently played down rather than took seriously.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The coughing fit at his final concert:</strong>
+        On 19 August 1990, Bernstein conducted the Boston Symphony Orchestra in Beethoven's
+        Seventh Symphony at Tanglewood – against his doctors' explicit advice. In the middle of
+        the final movement he had to stop due to a severe coughing fit; his assistant Carl
+        St.Clair took over to finish the concert.</p>
+        <p class="vb-intro"><strong>b) Retirement from conducting on 9 October 1990:</strong>
+        Seven weeks after this collapse, Bernstein publicly announced his final retirement from
+        conducting.</p>
+        <p class="vb-intro"><strong>c) Death on 14 October 1990:</strong>
+        Just five days after announcing his retirement, Leonard Bernstein died in his New York
+        apartment of heart failure resulting from his advanced lung disease.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A farewell that left almost no time to say goodbye:</strong>
+        The brief span of only five days between retirement and death meant the public only
+        truly grasped the severity of his condition in hindsight.</p>
+        <p class="vb-intro"><strong>b) Obituaries full of admiration, little discussion of the illness:</strong>
+        Tributes after his death focused almost exclusively on his musical legacy – the
+        difficult final months remained a footnote.</p>
+        <p class="vb-intro"><strong>c) A final concert that became a symbol:</strong>
+        That he performed against medical advice and had to give up mid-concert was retold
+        again and again in retrospect as emblematic of his lifelong refusal to compromise.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The chimpanzee that could not stop, even at the very end:</strong>
+        His entire career was marked by an inability to give up a project, a role, or a
+        podium – exactly this pattern continued into his final weeks, when it had long since
+        become a matter of his own health.</p>
+        <p class="vb-intro"><strong>b) Medical advice against his own drive:</strong>
+        He ignored his doctors' urgent warning ahead of the 19 August 1990 concert – canceling
+        would have amounted, for him, to a surrender to his own mortality that he was not
+        willing to accept.</p>
+        <p class="vb-intro"><strong>c) No orderly retreat, but an abrupt ending:</strong>
+        Instead of a calm, planned wind-down, his life ended in a sudden collapse in the middle
+        of activity – the chimpanzee that stood at the podium until the very last second.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Three decades of bodily excess:</strong>
+        From his youth until his death – four packs of cigarettes a day, excessive alcohol
+        consumption, hardly any sleep, and a workload that spanned several parallel careers.
+        The Seven's passion, <strong>gluttony</strong>, knew no brakes in Bernstein's case.</p>
+        <p class="vb-intro"><strong>b) A heart that literally never rested:</strong>
+        His death from heart failure, triggered by advanced lung disease, was the physical
+        consequence of a life that had never taken its own limits seriously.</p>
+        <p class="vb-intro"><strong>c) When the Seven turns into the One under chronic stress:</strong>
+        When doctors urgently advised him against the 19 August 1990 concert, his refusal did
+        not stem from a Seven's playful lightness, but from an almost rigid, duty-bound refusal
+        to change the program. Someone who lives for decades in chronic bodily excess
+        increasingly moves along their stress line toward their stress point – for the Seven,
+        that is the One. This rigid "I will see it through, whatever happens" in his final
+        weeks reads less like the free-spirited choice of a healthy Seven and more like the
+        rigid duty-fulfillment of its stress point – with an unchanged core type of SX7w6.</p>
+        <p class="vb-intro"><strong>d) Why the lungs, of all things?</strong>
+        For a Sexual Seven whose entire vitality expressed itself through breath and physical
+        ecstasy at the podium – he leapt, he threw himself bodily into the music – one
+        interpretation suggests itself: the very organ that gave him the physical intensity
+        with which he swept whole orchestras along became the stage for decline. This
+        interpretation is a plausible reading, not a documented historical causal link, and is
+        developed further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Sexual Seven pattern inevitably leads to lung disease –
+        <strong>any person can develop any illness, regardless of subtype.</strong> What
+        Bernstein's case illustrates is a pattern in the environment surrounding an illness
+        that keeps recurring in practice among people with a pronounced Sexual Seven – one of
+        many possible interpretations, not a judgment. The corresponding illness pattern is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Bernstein lived at a time when the Enneagram, as a modern personality model, was only
+        just emerging in California – nothing suggests he ever consciously knew his own
+        pattern. He lived out the Seven's excess entirely unchecked: smoking, drinking, and a
+        boundless workload were never recognized as a recurring pattern, simply treated as
+        obstacles to be pushed past. Someone who does not know their own restlessness as a
+        pattern cannot correct course in time, even when their own body has long been sending
+        clear warning signs.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Bernstein's</strong> Sexual Seven with Six-wing is legible once more in the
+        course of his illness: an excess that knew no limit until his own body imposed one, and
+        a final concert at which he stood at the podium quite literally until his last breath.
+        The chimpanzee that swept every hall along with its intensity for an entire career –
+        and whose own body was, in the end, the only thing that resisted its pull.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx7", label:"Subtype Profile SX7"},
       ])}
     </div>
   `);
@@ -84035,6 +84207,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
       "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
       "krankheitsportraets-peter-falk": peterFalkKrankheitsportraetPage,
+      "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,

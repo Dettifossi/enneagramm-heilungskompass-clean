@@ -24010,6 +24010,7 @@ const registerEntries = [
   { term: "David Hume Krankheitsporträt", route: "krankheitsportraets-david-hume", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Chronische Darmerkrankung, gelassener Tod 1776" },
   { term: "Elizabeth Barrett Browning Krankheitsporträt", route: "krankheitsportraets-elizabeth-barrett-browning", description: "Portrait: SX9w8 · Sexueller Typ 9 · Chronische Krankheit und lebenslange Opiumabhängigkeit" },
   { term: "Peter Falk Krankheitsporträt", route: "krankheitsportraets-peter-falk", description: "Portrait: SO9w1 · Sozialer Typ 9 · Alzheimer-Erkrankung, öffentlicher Sorgerechtsstreit" },
+  { term: "Leonard Bernstein Krankheitsporträt", route: "krankheitsportraets-leonard-bernstein", description: "Portrait: SX7w6 · Sexueller Typ 7 · Lungenemphysem durch Kettenrauchen, tödliches Herzversagen" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32122,6 +32123,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Selbsterhaltender Typ 9", krankheit:"Chronische Darmerkrankung (vermutlich Darmkarzinom oder schwere chronisch-entzündliche Erkrankung), stetig fortschreitend über gut vier Jahre", teaser:"SE9w8 – schottischer Philosoph, 1711–1776. Erste Verdauungsbeschwerden ab 1772, stetiger Gewichtsverlust, verfasste kurz vor dem Tod die gelassene Autobiografie 'My Own Life'. Starb 1776 in Edinburgh mit bemerkenswerter philosophischer Ruhe." , land:"Schottland", gender:"m", jahre:"1711–1776"},
   { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexueller Typ 9", krankheit:"Jahrzehntelange, nie eindeutig diagnostizierte chronische Krankheit (vermutlich Wirbelsäulenleiden und/oder frühe Lungenerkrankung) mit begleitender lebenslanger Opiumabhängigkeit", teaser:"SX9w8 – englische Dichterin, 1806–1861. Chronische Beschwerden ab der Jugend, früh verordnetes Laudanum mit jahrzehntelanger Abhängigkeit, über zwanzig Jahre fast völlige Isolation im Vaterhaus. Gesundheitliche Besserung erst nach der heimlichen Flucht nach Italien 1846." , land:"Großbritannien", gender:"f", jahre:"1806–1861"},
   { route:"krankheitsportraets-peter-falk", name:"Peter Falk", subtyp:"SO9w1", heading:"Peter Falk – Sozialer Typ 9", krankheit:"Alzheimer-Erkrankung, begleitet von öffentlichem Sorgerechtsstreit um seine Pflege", teaser:"SO9w1 – Schauspieler, weltberühmt als TV-Ermittler Columbo, 1927–2011. Alzheimer-Diagnose 2007, 2008 gerichtliche Vormundschaft durch seine Ehefrau, anschließend öffentlicher Streit mit seiner Tochter Catherine um Besuchsrechte. Starb 2011 im Alter von 83 Jahren an den Folgen der Erkrankung." , land:"USA", gender:"m", jahre:"1927–2011"},
+  { route:"krankheitsportraets-leonard-bernstein", name:"Leonard Bernstein", subtyp:"SX7w6", heading:"Leonard Bernstein – Sexueller Typ 7", krankheit:"Fortgeschrittenes Lungenemphysem durch jahrzehntelanges Kettenrauchen, tödliches Herzversagen", teaser:"SX7w6 – Dirigent, Komponist, Pianist, 1918–1990. Bis zu vier Packungen Zigaretten täglich über Jahrzehnte, dirigierte am 19. August 1990 gegen ärztlichen Rat sein letztes Konzert und musste wegen eines Hustenanfalls abbrechen. Rücktritt vom Dirigieren am 9. Oktober 1990, gestorben nur fünf Tage später." , land:"USA", gender:"m", jahre:"1918–1990"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44027,7 +44029,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Ansteckende Intensität, die eine ganze Gruppe oder einen ganzen Raum mitreißt",
         beschreibung: "Die eigene Begeisterung bleibt nicht privat, sondern überträgt sich unmittelbar auf das Umfeld – ein Publikum, ein Orchester, ein Saal wird Teil des eigenen intensiven Moments.",
-        beleg: "Franz Liszt, dessen Konzerte die ›Lisztomania‹ auslösten – ohnmächtige Zuhörerinnen, zerrissene Klaviersaiten: ›Der Schimpanse spielt nicht für sich – er reißt begeistert den ganzen Saal mit sich‹; Leonard Bernstein, der ›das Orchester mit einer Ekstase mitriss, die man auf Aufnahmen auch heute noch förmlich spüren kann‹; Shakira: ›Wenn er sich bewegt, bewegt sich alles um ihn herum mit.‹; Thomas Gottschalk, der 23 Jahre lang ein Millionenpublikum nicht durch ein Format, sondern durch reine Präsenz fesselte – ›hier ist jemand, dem das gerade wirklich Spaß macht, das Publikum spürt das‹; Ina Müller, deren Format ganz ohne Distanz auskommt – ›eine Bar, ein Klavier, ein Gast … der Schimpanse sitzt nicht gegenüber, er sitzt daneben‹; Boris Becker, der ein Jahrzehnt lang Menschen als Spieler und als Persönlichkeit in seine Intensität hineinzog – ›sie bringt die Bühne mit.‹"
+        beleg: "Franz Liszt, dessen Konzerte die ›Lisztomania‹ auslösten – ohnmächtige Zuhörerinnen, zerrissene Klaviersaiten: ›Der Schimpanse spielt nicht für sich – er reißt begeistert den ganzen Saal mit sich‹; Leonard Bernstein, der ›das Orchester mit einer Ekstase mitriss, die man auf Aufnahmen auch heute noch förmlich spüren kann‹ – und der genau diese körperliche Intensität bis zu seinem letzten Konzert 1990 nicht drosseln konnte, selbst gegen ausdrücklichen ärztlichen Rat; Shakira: ›Wenn er sich bewegt, bewegt sich alles um ihn herum mit.‹; Thomas Gottschalk, der 23 Jahre lang ein Millionenpublikum nicht durch ein Format, sondern durch reine Präsenz fesselte – ›hier ist jemand, dem das gerade wirklich Spaß macht, das Publikum spürt das‹; Ina Müller, deren Format ganz ohne Distanz auskommt – ›eine Bar, ein Klavier, ein Gast … der Schimpanse sitzt nicht gegenüber, er sitzt daneben‹; Boris Becker, der ein Jahrzehnt lang Menschen als Spieler und als Persönlichkeit in seine Intensität hineinzog – ›sie bringt die Bühne mit.‹"
       },
       {
         titel: "Ständige, offen sichtbare Verwandlung ohne Scham",
@@ -53747,6 +53749,7 @@ function leonardBernsteinPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
         {route:"beruehmte-miley-cyrus", label:"Porträt: Miley Cyrus (SX7w6)"},
+        {route:"krankheitsportraets-leonard-bernstein", label:"Krankheitsporträt: Leonard Bernstein – Lungenemphysem"},
       ])}
     </div>
   `);
@@ -79007,6 +79010,186 @@ function peterFalkKrankheitsportraetPage() {
         {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so9", label:"Subtyp-Profil SO9"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardBernsteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonard-bernstein-portrait.jpg" alt="Leonard Bernstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Bernstein</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel · 1918–1990</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Leonard Bernstein</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-leonard-bernstein">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Dirigent, Komponist
+        und Pädagoge und seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das
+        dort nur angedeutet wird: ein jahrzehntelanger, nahezu grenzenloser Raubbau am eigenen
+        Körper, der 1990 in einer fortgeschrittenen Lungenerkrankung und einem abrupten Tod
+        gipfelte – wenige Tage, nachdem er sich öffentlich vom Dirigieren zurückgezogen hatte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bernstein</strong> ist dem <strong>sexuellen Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Suggestibilität</em>: die vollständige
+        Verschmelzung mit einer Idee, einem Moment oder einer Begeisterung, mit einer Intensität,
+        die keine halben Bindungen kennt. Der Sechserflügel bringt eine bindungsorientierte,
+        fast missionarische Fürsorge hinzu. Genau diese Maßlosigkeit – die Leidenschaft der
+        Sieben – wurde ihm am Ende körperlich zum Verhängnis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Kettenrauchen von Jugend an:</strong>
+        Bernstein rauchte über Jahrzehnte hinweg bis zu vier Packungen Zigaretten täglich –
+        eine Gewohnheit, die er trotz seines öffentlichen Status als Gesundheitswarnung nie
+        ernsthaft infrage stellte.</p>
+        <p class="vb-intro"><strong>b) Exzessiver Alkoholkonsum als ständiger Begleiter:</strong>
+        Zeitgenossen berichteten übereinstimmend von einem hohen, über Jahrzehnte
+        durchgehaltenen Alkoholkonsum, der neben dem Rauchen zum festen Bestandteil seines
+        Alltags gehörte.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Atemprobleme ab den 1970er-Jahren:</strong>
+        Schon Jahre vor der eigentlichen Diagnose bemerkten Weggefährten eine spürbar
+        nachlassende körperliche Belastbarkeit bei Konzerten und Proben – ein Warnzeichen, das
+        im Trubel seines Arbeitspensums unterging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Unvermindertes Arbeitspensum trotz Diagnose:</strong>
+        Als bei ihm ein fortschreitendes Lungenemphysem diagnostiziert wurde, änderte Bernstein
+        seinen Lebensstil kaum – er dirigierte weiterhin international, komponierte und
+        unterrichtete am Tanglewood Music Center.</p>
+        <p class="vb-intro"><strong>b) Fortgesetztes Rauchen trotz ärztlicher Warnungen:</strong>
+        Auch nach der Diagnose gab Bernstein das Rauchen nicht auf – ein Verhalten, das sein
+        Umfeld wiederholt, aber vergeblich zu ändern versuchte.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Erschöpfung bei öffentlichen Auftritten:</strong>
+        In den letzten Lebensjahren fiel Kollegen und Publikum eine wachsende körperliche
+        Erschöpfung auf, die Bernstein konsequent überspielte, statt sie ernst zu nehmen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Hustenanfall beim letzten Konzert:</strong>
+        Am 19. August 1990 dirigierte Bernstein in Tanglewood das Boston Symphony Orchestra in
+        Beethovens 7. Sinfonie – gegen den ausdrücklichen Rat seiner Ärzte. Mitten im letzten
+        Satz musste er wegen eines schweren Hustenanfalls abbrechen; sein Assistent Carl
+        St.Clair übernahm, um das Konzert zu Ende zu bringen.</p>
+        <p class="vb-intro"><strong>b) Rücktritt vom Dirigieren am 9. Oktober 1990:</strong>
+        Sieben Wochen nach diesem Zusammenbruch gab Bernstein öffentlich seinen endgültigen
+        Rückzug vom Dirigieren bekannt.</p>
+        <p class="vb-intro"><strong>c) Tod am 14. Oktober 1990:</strong>
+        Nur fünf Tage nach der Rücktrittsankündigung starb Leonard Bernstein in seiner New
+        Yorker Wohnung an Herzversagen infolge seiner fortgeschrittenen Lungenerkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Abschied, der kaum Zeit zum Abschied ließ:</strong>
+        Die knappe Zeitspanne von nur fünf Tagen zwischen Rücktritt und Tod bedeutete, dass die
+        Öffentlichkeit den Ernst seines Zustands erst rückblickend wirklich begriff.</p>
+        <p class="vb-intro"><strong>b) Nachrufe voller Bewunderung, wenig Thematisierung der Krankheit:</strong>
+        Die Würdigungen nach seinem Tod konzentrierten sich fast ausschließlich auf sein
+        musikalisches Erbe – die schweren letzten Monate blieben ein Randthema.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Konzert, das zum Symbol wurde:</strong>
+        Dass er trotz ärztlichen Rats auftrat und mitten im Konzert aufgeben musste, wurde in
+        der Rückschau immer wieder als Sinnbild seiner lebenslangen Kompromisslosigkeit
+        erzählt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Schimpanse, der bis zuletzt nicht innehalten konnte:</strong>
+        Seine gesamte Karriere war von der Unfähigkeit geprägt, ein Projekt, eine Rolle oder
+        eine Bühne aufzugeben – genau dieses Muster setzte sich bis in seine letzten Wochen
+        fort, als es längst um die eigene Gesundheit ging.</p>
+        <p class="vb-intro"><strong>b) Ärztlicher Rat gegen den eigenen Antrieb:</strong>
+        Die dringende Warnung seiner Ärzte vor dem Konzert am 19. August 1990 ignorierte er –
+        absagen hätte für ihn einer Kapitulation vor der eigenen Sterblichkeit gleichgekommen,
+        die er nicht bereit war zu akzeptieren.</p>
+        <p class="vb-intro"><strong>c) Kein geordneter Rückzug, sondern ein abruptes Ende:</strong>
+        Statt eines ruhigen, geplanten Ausklangs endete sein Leben in einem plötzlichen
+        Zusammenbruch mitten in der Aktivität – der Schimpanse, der bis zur letzten Sekunde am
+        Pult stand.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Drei Jahrzehnte Raubbau am eigenen Körper:</strong>
+        Von der Jugend bis zum Tod – vier Packungen Zigaretten täglich, exzessiver
+        Alkoholkonsum, kaum Schlaf und ein Arbeitspensum, das mehrere parallele Karrieren
+        umfasste. Die Leidenschaft der Sieben, die <strong>Völlerei</strong>, kannte bei
+        Bernstein keine Bremse.</p>
+        <p class="vb-intro"><strong>b) Ein Herz, das buchstäblich keine Pause kannte:</strong>
+        Sein Tod durch Herzversagen, ausgelöst durch die fortgeschrittene Lungenerkrankung, war
+        die körperliche Konsequenz eines Lebens, das die eigenen Belastungsgrenzen nie ernst
+        genommen hatte.</p>
+        <p class="vb-intro"><strong>c) Wenn die Sieben unter chronischem Stress zur Eins wird:</strong>
+        Als die Ärzte ihm eindringlich vom Konzert am 19. August 1990 abrieten, verweigerte er
+        nicht aus spielerischer Siebener-Leichtigkeit, sondern aus einer fast starren,
+        pflichtbewussten Weigerung, das Programm zu ändern. Wer über Jahrzehnte in
+        chronischem Raubbau am eigenen Körper lebt, bewegt sich zunehmend entlang seiner
+        Stresslinie in Richtung seines Stresspunkts – bei der Sieben ist das die Eins. Genau
+        dieses rigide „Ich ziehe es durch, komme was wolle" in seinen letzten Lebenswochen
+        wirkt weniger nach der freien Wahllust der gesunden Sieben als nach der starren
+        Pflichterfüllung ihres Stresspunkts – bei unverändertem Kerntyp SX7w6.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge?</strong>
+        Für eine sexuelle Sieben, deren gesamte Lebendigkeit sich im Atem und in der
+        körperlichen Ekstase am Dirigentenpult ausdrückte – er sprang, warf sich buchstäblich
+        in die Musik hinein –, liegt eine Deutung nahe: Ausgerechnet jenes Organ, das ihm die
+        körperliche Intensität ermöglichte, mit der er ganze Orchester mitriss, wurde zum
+        Schauplatz des Verfalls. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu
+        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Bernsteins Fall zeigen lässt, ist ein
+        Muster im Umfeld einer Krankheit, das bei einer ausgeprägten sexuellen Sieben immer
+        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Bernstein lebte zu einer Zeit, als das Enneagramm als modernes Persönlichkeitsmodell in
+        Kalifornien gerade erst entstand – nichts deutet darauf hin, dass er sein eigenes
+        Muster je bewusst kannte. Er lebte die Maßlosigkeit der Sieben völlig ungebremst aus:
+        Rauchen, Trinken, ein Arbeitspensum ohne Grenzen wurden nicht als wiederkehrendes
+        Muster erkannt, sondern einfach als Hindernisse behandelt, die es zu überspielen galt.
+        Wer die eigene Rastlosigkeit nicht als Muster kennt, kann rechtzeitig auch nicht
+        gegensteuern, wenn der eigene Körper längst deutliche Warnsignale sendet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Bernsteins</strong> sexuelle Sieben mit
+        Sechserflügel noch einmal ablesen: eine Maßlosigkeit, die keine Grenze kannte, bis der
+        eigene Körper die Grenze setzte, und ein letztes Konzert, bei dem er buchstäblich bis
+        zum letzten Atemzug am Pult stand. Der Schimpanse, der eine ganze Karriere lang jeden
+        Saal mit seiner Intensität mitriss – und dessen eigener Körper am Ende der Einzige war,
+        der sich diesem Sog widersetzte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
     </div>
   `);
@@ -119574,6 +119757,7 @@ function render() {
       "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
       "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
       "krankheitsportraets-peter-falk": peterFalkKrankheitsportraetPage,
+      "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
       "kriminalpsychologie-josef-fritzl": josefFritzlPortraitPage,
       "kriminalpsychologie-otto-muehl": ottoMuehlPortraitPage,
