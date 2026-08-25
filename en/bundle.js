@@ -956,6 +956,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Michael Jackson – Social Type 4",
     teaser:"SO4w3 · 1958–2009. Singer, dancer & composer, ‘Thriller’, King of Pop. The armadillo who could never fully reclaim a stolen childhood – armored by perfection, vulnerable at the core. Animal correspondence: Armadillo.",
     tags:["Musik"] , gender:"m"},
+{ route:"beruehmte-cat-stevens", name:"Cat Stevens / Yusuf Islam", added:"2026-08-25", subtyp:"SO4w3",
+    heading:"Cat Stevens / Yusuf Islam – Social Type 4",
+    teaser:"SO4w3 · born 1948. British musician. Converted to Islam after a near-drowning in 1976, withdrew from the music industry for nearly three decades, founded a school and a relief organization. The armadillo who carried out its radical search for identity in public rather than concealing it.",
+    land:"United Kingdom", tags:["Music"], gender:"m"},
 { route:"beruehmte-taddl", name:"Taddl (Daniel Tjarks)", subtyp:"SO4w3",
     heading:"Taddl – Social Type 4",
     teaser:"SO4w3 · born 1996. YouTuber, artist & musician. The armadillo that hid for years behind a mask of humor – and eventually began to show the real self.",
@@ -29152,8 +29156,75 @@ function michaelJacksonPortraitPage() {
           {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
           {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
           {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+          {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function catStevensPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-cat-stevens-portrait.jpg" alt="Cat Stevens / Yusuf Islam" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cat Stevens / Yusuf Islam</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">British musician, b. 1948 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo on Two Stages</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of social Four &ndash; it does not hide its otherness, but carries it visibly before an audience, even when that otherness reshapes its identity entirely. Few biographies show this as vividly as that of Steven Demetre Georgiou, born in London in 1948: first as Cat Stevens, one of the most successful singer-songwriters of the early 1970s, then as Yusuf Islam, a public advocate for his new faith &ndash; two identities, two stages, one and the same underlying pattern.</p>
+          <p class="vb-intro">In 1976, Stevens was caught in a dangerous current off the coast of Malibu and believed he was drowning. This near-death experience became the catalyst for a radical search for his own, true identity &ndash; beyond fame, beyond the surface the world saw.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Four: The Search for the True Self Before an Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Social Four (SO4)</strong> does not carry its otherness in hiding, but into the group &ndash; it seeks its own true identity, and makes this very search a public matter. After his near-death experience, Stevens explored various spiritual paths before &ndash; influenced by his brother David, who had converted to Islam, and a gifted copy of the Quran &ndash; formally embracing Islam in 1977 and taking the name Yusuf: the Arabic form of Joseph, whose story of temptation, betrayal and new beginning he describes as a mirror of his own path through the "temptations of fame."</p>
+          <p class="vb-intro">This renaming was no private, quiet act. Yusuf Islam has since repeatedly told his own story publicly &ndash; in interviews, lectures, speeches &ndash; as evidence that faith can offer answers and peace. That is social Four in its purest form: a deeply personal transformation is not hidden away, but becomes a message for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Pop Career to Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives social Four purposefulness, structure and the ability to translate inner experience into visible, measurable results. Even as Cat Stevens, this showed: albums like "Tea for the Tillerman" (1970) and "Teaser and the Firecat" (1971) made him one of the best-selling artists of his time &ndash; introspective, personal lyrics wrapped in flawlessly produced, commercially successful songs.</p>
+          <p class="vb-intro">After his conversion, this same purposefulness carried over into a new mission: in 1983 he founded a Muslim primary school in London, later helped build the relief organization Muslim Aid, which became active across Africa, Asia and Europe. Rather than withdrawing, he built institutions &ndash; a school, an organization, a public presence. In 2006, he finally returned to music as well, under the name Yusuf/Cat Stevens. The Three-wing of SO4 does not seek quiet introspection, but the visible, structured realization of its own truth in the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Two Identities, One Pattern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Stevens/Yusuf from many other celebrities who reoriented themselves religiously is the consistency with which he carried out the break: he left the music industry almost entirely for nearly three decades, sold his guitars, focused on family, faith and charitable work. No half-withdrawal, no side project &ndash; the new identity replaced the old one almost completely, before the two came back together in 2006.</p>
+          <p class="vb-intro">This very radicalism is typical of social Four: once its own otherness is recognized, it is not integrated as one facet among others, but made the new center of identity &ndash; publicly, visibly, unmistakably.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SO4w3 shows in the ability to shape an existential crisis &ndash; the near-drowning, the crisis of meaning brought on by fame &ndash; into a sustainable, decades-long new identity that in turn offered orientation to others: millions of listeners through Cat Stevens, many believers and people in need through the work of Yusuf Islam.</p>
+          <p class="vb-intro">The shadow shows in the public controversies that accompanied his conversion &ndash; including ambiguous remarks in 1989 about the fatwa against Salman Rushdie, later qualified by him, that damaged his reputation for years. For SO4w3, the rule holds: whoever represents their own truth so publicly and uncompromisingly risks having every word scrutinized &ndash; and nuance lost in the public image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Armadillo with Two Names</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cat Stevens/Yusuf Islam remains one of the rare figures in pop culture to undergo a complete identity change in public and ultimately reconcile both identities rather than deny either. In 2014 he was inducted into the Rock and Roll Hall of Fame &ndash; honored as Cat Stevens for a body of work he never denied as Yusuf Islam.</p>
+          <p class="vb-intro">The armadillo that never hid its truth, even as that truth changed radically &ndash; that is the lasting image of social Four with the Three-wing: carrying out one's own transformation not in silence, but with the same purposefulness once used to pursue fame.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+      ])}
     </div>
   `);
 }
@@ -86404,6 +86475,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-michael-jackson": michaelJacksonPortraitPage,
+      "beruehmte-cat-stevens": catStevensPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-konrad-lorenz": konradLorenzPortraitPage,

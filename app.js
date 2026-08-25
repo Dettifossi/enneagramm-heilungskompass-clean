@@ -24584,6 +24584,7 @@ const registerEntries = [
   { term: "Sting",                         route: "beruehmte-sting",                       description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Musiker, The Police, spirituelle Tiefe" },
   { term: "Sundar Pichai",                 route: "beruehmte-sundar-pichai",               description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · Google-CEO, stille Führungsstärke" },
   { term: "Michael Jackson",               route: "beruehmte-michael-jackson",             description: "Portrait: SO4w3 · Sozialer Typ 4 · Sänger, Tänzer, King of Pop, Gürteltier" },
+  { term: "Cat Stevens",                   route: "beruehmte-cat-stevens",                 description: "Portrait: SO4w3 · Sozialer Typ 4 · Musiker, auch bekannt als Yusuf Islam" },
   { term: "Taddl",                         route: "beruehmte-taddl",                       description: "Portrait: SO4w3 · Sozialer Typ 4 · YouTuber, Gen-Z-Identität" },
   { term: "Taylor Swift",                  route: "beruehmte-taylor-swift",                description: "Portrait: SX5w4 · Sexueller Typ 5 · Popstar, Songwriterin, Transformation" },
   { term: "Tilda Swinton",                 route: "beruehmte-tilda-swinton",               description: "Portrait: SX5w4 · Sexueller Typ 5 · Schauspielerin" },
@@ -32865,6 +32866,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Michael Jackson – Sozialer Typ 4",
     teaser:"SO4w3 · 1958–2009. Sänger, Tänzer & Komponist, ›Thriller‹, King of Pop. Das Gürteltier, das eine gestohlene Kindheit nie ganz nachholen konnte – gepanzert von Perfektion, verletzlich im Innersten. Tierentsprechung: Gürteltier.",
     tags:["Musik"], gender:"m"},
+  { route:"beruehmte-cat-stevens", name:"Cat Stevens / Yusuf Islam", added:"2026-08-25", subtyp:"SO4w3",
+    heading:"Cat Stevens / Yusuf Islam – Sozialer Typ 4",
+    teaser:"SO4w3 · geb. 1948. Britischer Musiker. Nach einem Beinahe-Ertrinken 1976 Konversion zum Islam, Rückzug aus der Musikindustrie für fast drei Jahrzehnte, Gründung einer Schule und einer Hilfsorganisation. Das Gürteltier, das seine radikale Identitätssuche öffentlich vollzog, statt sie zu verbergen.",
+    land:"Großbritannien", tags:["Musik"], gender:"m"},
   { route:"beruehmte-taddl", name:"Taddl (Daniel Tjarks)", subtyp:"SO4w3",
     heading:"Taddl \u2013 Sozialer Typ 4",
     teaser:"SO4w3 \u00b7 geb. 1996. YouTuber, K\u00fcnstler & Musiker. Das G\u00fcrteltier, das sich jahrelang hinter einer Maske aus Humor verbarg \u2013 und irgendwann begann, das Echte zu zeigen.",
@@ -44308,7 +44313,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Gürteltier",
     kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Reinhard Mey", "Elliot Rodger", "Dr. Mariella Superina"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Cat Stevens", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Reinhard Mey", "Elliot Rodger", "Dr. Mariella Superina"],
     fingerabdruecke: [
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
@@ -44318,7 +44323,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Trägt das eigene Anderssein sichtbar zur Schau, statt es zu verbergen",
         beschreibung: "Ein Teil der SO4 verbirgt sich nicht introvertiert im eigenen Panzer, sondern trägt die eigene Einzigartigkeit bewusst nach außen – als sichtbares Zeichen, das zugleich verbindet und ausgrenzt.",
-        beleg: "Johnny Depp: ›Diese Vier versteckt sich nicht im eigenen Panzer, sondern trägt ihn stolz zur Schau – als Beweis der eigenen Einzigartigkeit, auf einer Bühne, die alle sehen können‹; Gustav Mahler, der als Jude und Künstler mit radikal eigenwilliger Sprache ›sein Anderssein nicht verbirgt, sondern sichtbar in die Öffentlichkeit trägt, in eine Gruppe, die es zugleich fasziniert und ausschließt‹; Javier Parisi, der ›sich nicht mit dem eigenen Panzer zufriedengibt, sondern sich einen zweiten, fremden anlegt – und darin, paradoxerweise, sich selbst findet‹, als John-Lennon-Doppelgänger."
+        beleg: "Johnny Depp: ›Diese Vier versteckt sich nicht im eigenen Panzer, sondern trägt ihn stolz zur Schau – als Beweis der eigenen Einzigartigkeit, auf einer Bühne, die alle sehen können‹; Gustav Mahler, der als Jude und Künstler mit radikal eigenwilliger Sprache ›sein Anderssein nicht verbirgt, sondern sichtbar in die Öffentlichkeit trägt, in eine Gruppe, die es zugleich fasziniert und ausschließt‹; Javier Parisi, der ›sich nicht mit dem eigenen Panzer zufriedengibt, sondern sich einen zweiten, fremden anlegt – und darin, paradoxerweise, sich selbst findet‹, als John-Lennon-Doppelgänger; Cat Stevens/Yusuf Islam, der seine radikale Identitätssuche nach einem Beinahe-Ertrinken 1976 nicht im Stillen vollzog, sondern öffentlich – bis zur vollständigen Umbenennung und einem fast dreißigjährigen Rückzug aus der Musikindustrie zugunsten einer neuen, ebenso öffentlich gelebten Mission."
       },
       {
         titel: "Bedeutung durch bewusste Abgrenzung von einer Gemeinschaft, der man dennoch zugewandt bleibt",
@@ -46617,8 +46622,75 @@ function michaelJacksonPortraitPage() {
           {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
           {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
           {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+          {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function catStevensPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-cat-stevens-portrait.jpg" alt="Cat Stevens / Yusuf Islam" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cat Stevens / Yusuf Islam</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Musiker, geb. 1948 – Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier auf zwei Bühnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 – es verbirgt sein Anderssein nicht, sondern trägt es sichtbar vor Publikum, selbst wenn dieses Anderssein die eigene Identität grundlegend verändert. Kaum eine Biografie zeigt das so eindrücklich wie die von Steven Demetre Georgiou, geboren 1948 in London: erst als Cat Stevens einer der erfolgreichsten Singer-Songwriter der frühen 1970er, dann als Yusuf Islam ein öffentlicher Fürsprecher seines neuen Glaubens – zwei Identitäten, zwei Bühnen, ein und dasselbe Grundmuster.</p>
+          <p class="vb-intro">1976 geriet Stevens vor der Küste Malibus in eine gefährliche Strömung und glaubte, zu ertrinken. Dieses Beinahe-Ertrinken wurde zum Auslöser einer radikalen Suche nach der eigenen, wahren Identität – jenseits von Ruhm, jenseits der Oberfläche, die die Welt von ihm sah.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Die Suche nach dem wahren Ich vor Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt ihre Andersartigkeit nicht im Verborgenen, sondern in die Gruppe hinein – sie sucht die eigene, wahre Identität, und macht diese Suche selbst zum öffentlichen Thema. Nach seinem Beinahe-Ertrinken durchlief Stevens verschiedene spirituelle Wege, bevor er sich – beeinflusst durch seinen zum Islam konvertierten Bruder David und ein geschenktes Exemplar des Korans – 1977 formell zum Islam bekannte und den Namen Yusuf annahm: die arabische Form von Josef, dessen Geschichte von Versuchung, Verrat und Neuanfang er als Spiegel seines eigenen Weges durch die „Versuchungen des Ruhms" beschreibt.</p>
+          <p class="vb-intro">Diese Umbenennung war kein privater, stiller Akt. Yusuf Islam erzählt seine eigene Geschichte seither immer wieder öffentlich – in Interviews, Vorträgen, Reden – als Beweis dafür, dass der Glaube Antworten und Frieden bieten kann. Das ist die soziale Vier in Reinform: die eigene, tief persönliche Transformation wird nicht verborgen, sondern zur Botschaft für andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Von der Popkarriere zur Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Vier Zielstrebigkeit, Struktur und die Fähigkeit, aus innerem Erleben sichtbare, messbare Ergebnisse zu formen. Bereits als Cat Stevens zeigte sich das: Alben wie „Tea for the Tillerman" (1970) und „Teaser and the Firecat" (1971) machten ihn zu einem der meistverkauften Künstler seiner Zeit – introspektive, persönliche Texte, verpackt in makellos produzierte, kommerziell erfolgreiche Songs.</p>
+          <p class="vb-intro">Nach seiner Konversion übertrug sich dieselbe Zielstrebigkeit auf eine neue Mission: 1983 gründete er eine muslimische Grundschule in London, half später beim Aufbau der Hilfsorganisation Muslim Aid, die in Afrika, Asien und Europa aktiv wurde. Statt sich zurückzuziehen, baute er Institutionen auf – Schule, Organisation, öffentliche Präsenz. 2006 kehrte er schließlich unter dem Namen Yusuf/Cat Stevens auch musikalisch zurück. Der Dreierflügel der SO4 sucht nicht die stille Innenschau, sondern die sichtbare, strukturierte Umsetzung der eigenen Wahrheit in der Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwei Identitäten, ein Muster</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Stevens/Yusuf von vielen anderen Prominenten unterscheidet, die sich religiös neu orientierten, ist die Konsequenz, mit der er den Bruch vollzog: Er verließ die Musikindustrie für fast drei Jahrzehnte fast vollständig, verkaufte seine Gitarren, konzentrierte sich auf Familie, Glaube und wohltätige Arbeit. Kein halber Rückzug, kein Nebenbei – die neue Identität ersetzte die alte fast vollständig, bevor beide sich 2006 wieder annäherten.</p>
+          <p class="vb-intro">Diese Radikalität selbst ist typisch für die soziale Vier: Wenn die eigene Andersartigkeit erkannt wird, wird sie nicht als Facette neben anderen integriert, sondern zum neuen Zentrum der eigenen Identität gemacht – öffentlich, sichtbar, unübersehbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 zeigt sich in der Fähigkeit, aus einer existenziellen Krise – dem Beinahe-Ertrinken, der Sinnkrise des Ruhms – eine tragfähige, jahrzehntelang gelebte neue Identität zu formen, die zugleich anderen Menschen als Orientierung diente: Millionen Zuhörer bei Cat Stevens, viele Gläubige und Bedürftige durch die Arbeit von Yusuf Islam.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in den öffentlichen Kontroversen, die seine Konversion begleiteten – darunter 1989 missverständliche, später von ihm selbst relativierte Äußerungen zur Fatwa gegen Salman Rushdie, die seinem Ruf jahrelang schadeten. Für die SO4w3 gilt: Wer die eigene Wahrheit so öffentlich und kompromisslos vertritt, riskiert, dass jedes Wort auf die Goldwaage gelegt wird – und dass Nuancen im öffentlichen Bild verloren gehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Gürteltier mit zwei Namen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cat Stevens/Yusuf Islam bleibt bis heute eine der seltenen Figuren der Popkultur, die einen vollständigen Identitätswechsel öffentlich vollzogen und beide Identitäten am Ende miteinander versöhnten, statt eine zu verleugnen. 2014 wurde er in die Rock and Roll Hall of Fame aufgenommen – als Cat Stevens gewürdigt für ein Werk, das er als Yusuf Islam nie verleugnete.</p>
+          <p class="vb-intro">Das Gürteltier, das seine Wahrheit nie verbarg, auch wenn sie sich radikal veränderte – das ist das bleibende Bild der sozialen Vier mit Dreierflügel: die eigene Transformation nicht im Stillen zu vollziehen, sondern sie mit derselben Zielstrebigkeit in die Welt zu tragen, mit der zuvor der Ruhm gesucht wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
+      ])}
     </div>
   `);
 }
@@ -122199,6 +122271,7 @@ function render() {
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-michael-jackson": michaelJacksonPortraitPage,
+      "beruehmte-cat-stevens": catStevensPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
