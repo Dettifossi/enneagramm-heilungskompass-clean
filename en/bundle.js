@@ -246,6 +246,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SP8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
+  { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -52751,6 +52752,180 @@ function ludwigXIVKrankheitsportraetPage() {
   `);
 }
 
+function ojSimpsonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/oj-simpson-portrait.jpg" alt="O.J. Simpson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">O.J. Simpson</p>
+        <p class="krim-portrait-typ">SP3w4 · Social Type 3 with Four-wing · 1947–2024</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>O.J. Simpson</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-oj-simpson">criminal-psychology portrait</a>
+        – that page covers the trial of the century and his type structure as the publicly
+        staged "cheetah." This page goes deeper into a chapter mentioned there only in
+        passing: a prostate cancer diagnosis in 2023, an illness kept largely hidden from the
+        public, and a death on April 10, 2024.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Simpson</strong> is assigned to the <strong>Social Type 3 with Four-wing</strong>.
+        Social Three builds its identity around the public image; the Four-wing adds a leaning
+        toward dramatization and toward authoring the story of one's own suffering. This same
+        need to remain the author of his own story also determined how he faced his final,
+        fatal illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Diagnosis in 2023, not initially made public:</strong>
+        Simpson was diagnosed with prostate cancer in 2023 – unlike his earlier public
+        appearances, he initially chose not to bring the diagnosis to the public himself.</p>
+        <p class="vb-intro"><strong>b) Continued active presence on social media:</strong>
+        Even after the diagnosis, Simpson continued to post regular videos on his social media
+        channels in which he appeared healthy, humorous and optimistic – an image that already
+        contradicted his actual condition at the time.</p>
+        <p class="vb-intro"><strong>c) Deterioration during 2024:</strong>
+        The cancer worsened significantly in the spring of 2024, eventually leading to his
+        hospitalization.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Family confirmed the diagnosis only after his death:</strong>
+        Only with his family's official death announcement on April 11, 2024, did it become
+        publicly known that Simpson had died of prostate cancer – the diagnosis had not
+        previously been widely known.</p>
+        <p class="vb-intro"><strong>b) Final months in Las Vegas:</strong>
+        Simpson spent his final months at his home in Las Vegas, where he had lived since his
+        release from prison in 2017, largely withdrawn from the public appearances of earlier
+        years.</p>
+        <p class="vb-intro"><strong>c) No public admission of the severity of the illness:</strong>
+        Until the end, Simpson avoided public statements that would have revealed the true
+        seriousness of his condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) The family as narrator of his final story:</strong>
+        Simpson's family chose the phrase that he died "surrounded by his children" – a final,
+        controlled narrative that matched the image of a reconciled end of life, one he could
+        himself barely shape by that point.</p>
+        <p class="vb-intro"><strong>b) Continued public self-presentation until shortly before the end:</strong>
+        Just weeks before his death, Simpson released video messages denying rumors about his
+        health and presenting himself as "still here" and active.</p>
+        <p class="vb-intro"><strong>c) Death on April 10, 2024, in Las Vegas:</strong>
+        O.J. Simpson died at age 76 from the effects of his prostate cancer – almost exactly
+        30 years after the murders that had defined his life forever.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A final surprise for the public:</strong>
+        Because the diagnosis had remained hidden for so long, the news of his death came as a
+        surprise to most observers – a final success of the years-long control over his own
+        public image.</p>
+        <p class="vb-intro"><strong>b) Mixed, controversial reactions:</strong>
+        Reactions to his death were divided – between obituaries for the former football star
+        and memories of the murders of Nicole Brown Simpson and Ron Goldman that had defined
+        his name forever.</p>
+        <p class="vb-intro"><strong>c) No withdrawal from his own narrative:</strong>
+        Even his final months, as far as is known, remained shaped by the same need to tell
+        his own story that had defined his entire public life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The image maintained until the end:</strong>
+        The same need to keep his public image unbroken that had shaped Simpson's entire life
+        – from NFL fame to the trial of the century – also determined how long he kept his
+        illness hidden from the public.</p>
+        <p class="vb-intro"><strong>b) The Four-wing and authoring one's own suffering:</strong>
+        Unlike a healthy, unwinged Three, who would simply treat an illness as a fact and move
+        on, Simpson showed until the end the need to remain the author of his own story – the
+        same dynamic already visible in his 1994 farewell letter and his book "If I Did It,"
+        now applied to his own mortality.</p>
+        <p class="vb-intro"><strong>c) No visible public collapse:</strong>
+        Unlike some other illness histories in this Compass, there are no reports of a public
+        admission of weakness or fear of death – the controlled facade held, as far as is
+        known, until the end.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body that escaped the staging:</strong>
+        Simpson's entire life was shaped by the conviction that a flawless, controlled public
+        image could survive any crisis – cancer was a threat that increasingly escaped that
+        control, until death itself became the final, uncontrollable fact.</p>
+        <p class="vb-intro"><strong>b) Secrecy as a final form of image control:</strong>
+        A man whose entire life had been defined by public visibility – from the football
+        field to the live-televised police chase – treated precisely his own fatal illness as
+        the one thing withheld from the public.</p>
+        <p class="vb-intro"><strong>c) Why the prostate, of all places?</strong>
+        For a social Three with Four-wing whose entire identity rested on physical
+        performance, masculinity and public presence – from star athlete to celebrated movie
+        actor – one interpretation suggests itself: precisely an organ closely tied to
+        masculine vitality and control over one's own body became the site of decay, hidden
+        in a place especially resistant to public display. This interpretation is a plausible
+        reading, not a documented historical causal link, and is developed further in this
+        Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of the social Three inevitably leads to prostate cancer
+        – <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Simpson's case shows is a pattern in how a pronounced social Three with Four-wing
+        repeatedly deals with a fatal diagnosis – one possible reading among many, not a
+        verdict. The corresponding illness profile is gradually being developed in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Simpson did not know his own pattern – the social Three with Four-wing meets every
+        threat to its own image reflexively with secrecy and controlled self-presentation
+        rather than ever openly admitting weakness, and he lived out exactly this pattern
+        unchanged into his final months. Whoever does not recognize their own need to remain
+        the author of their own story as a pattern cannot set it aside even in their own
+        dying.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Three with Four-wing explains much about the course of <strong>Simpson's</strong>
+        own illness: a man whose entire life was a public performance turned precisely his
+        final, fatal role into the one chapter he could no longer stage himself – and so
+        treated it as the one chapter kept from the world.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a historical verdict. O.J. Simpson was
+        acquitted in his 1995 criminal trial for double murder, but held liable for the
+        deaths of his ex-wife Nicole Brown Simpson and Ron Goldman in a 1997 civil suit. The
+        Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"kriminalpsychologie-oj-simpson", label:"Criminal Psychology: O.J. Simpson (SP3w4) – the trial of the century"},
+        {route:"krankheitsportraets-ludwig-xiv", label:"Illness Portrait: Louis XIV (SP3w2) – the same facade to the end"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so3", label:"Subtype Profile SP3"},
+      ])}
+    </div>
+  `);
+}
+
 function johnGottiKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -57551,6 +57726,7 @@ function ojSimpsonPortraitPage() {
           {route:"kriminalpsychologie-andrew-cunanan", label:"Criminal Psychology: Andrew Cunanan (SO3w4)"},
           {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4)"},
           {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9)"},
+          {route:"krankheitsportraets-oj-simpson", label:"Illness Portrait: O.J. Simpson (SP3w4) – prostate cancer"},
         ])}
       </div>
     </div>
@@ -85854,6 +86030,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
+      "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,

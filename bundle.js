@@ -24020,6 +24020,7 @@ const registerEntries = [
   { term: "Frida Kahlo Krankheitsporträt", route: "krankheitsportraets-frida-kahlo", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Rund 30 Operationen, Beinamputation" },
   { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
+  { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32142,6 +32143,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Selbsterhaltender Typ 2", krankheit:"Chronische Unfallfolgen mit rund 30 Operationen, Beinamputation", teaser:"SE2w3 – mexikanische Malerin, 1907–1954. Kinderlähmung mit sechs Jahren, mit 18 ein katastrophaler Busunfall mit Wirbelsäulen- und Beckenbrüchen, rund 30 Operationen über fast drei Jahrzehnte, 1953 Amputation des rechten Unterschenkels. Starb 1954 mit 47 Jahren." , land:"Mexiko", gender:"f", jahre:"1907–1954"},
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Sozialer Typ 8", krankheit:"Kehlkopfkrebs", teaser:"SO8w7 – Boss der Gambino-Familie, 1940–2002. 1998 in Isolationshaft mit Kehlkopfkrebs diagnostiziert, kein öffentliches Eingeständnis von Schwäche, extreme Isolation in seinen letzten Haftjahren. Starb am 10. Juni 2002 im Bundesgefängnis Springfield, Missouri, im Alter von 61 Jahren." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Ludwig XIV.", subtyp:"SO3w2", heading:"Ludwig XIV. – Sozialer Typ 3", krankheit:"Chronische Gicht, Analfistel, tödlicher Wundbrand", teaser:"SO3w2 – der Sonnenkönig, 1638–1715. Jahrzehntelange Gicht, 1686 unter strengster Geheimhaltung operierte Analfistel, tödlicher Wundbrand im Bein. Starb am 1. September 1715 in Versailles nach 72 Regierungsjahren im Alter von 76 Jahren." , land:"Frankreich", gender:"m", jahre:"1638–1715"},
+  { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Sozialer Typ 3", krankheit:"Prostatakrebs", teaser:"SO3w4 – NFL-Legende und Protagonist des Prozesses des Jahrhunderts, 1947–2024. 2023 Prostatakrebs diagnostiziert, weitgehend vor der Öffentlichkeit verborgen, gestorben am 10. April 2024 in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44624,7 +44626,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Der kontrollierte Blick als Machtinstrument",
         beschreibung: "Auffällig häufig wird der eigene Blick – ob durch Verbergen oder durch gezielten Einsatz – zu einem bewussten Steuerungsinstrument: Wer sieht, wird gesehen; wer sich entzieht, wird zum Rätsel, das Aufmerksamkeit bindet.",
-        beleg: "Karl Lagerfelds permanente Sonnenbrille als ›Instrument der Kontrolle‹; Sahra Wagenknechts ›ruhiger, präziser, leicht überblickender‹ Blick, der ›das Publikum sucht, die Wirkung misst, die Resonanz berechnet‹; Dr. Laurie Markers Auftreten, das ›Tempo, Sichtbarkeit, makellose Zielgenauigkeit‹ trägt – dieselben Eigenschaften, die sie beim Geparden erforscht. Wichtig: Dies ist ein sichtbares Verhaltensmuster, kein zuverlässiges Diagnosekriterium für sich allein."
+        beleg: "Karl Lagerfelds permanente Sonnenbrille als ›Instrument der Kontrolle‹; Sahra Wagenknechts ›ruhiger, präziser, leicht überblickender‹ Blick, der ›das Publikum sucht, die Wirkung misst, die Resonanz berechnet‹; Dr. Laurie Markers Auftreten, das ›Tempo, Sichtbarkeit, makellose Zielgenauigkeit‹ trägt – dieselben Eigenschaften, die sie beim Geparden erforscht; O.J. Simpson, der noch wenige Wochen vor seinem Tod Videobotschaften veröffentlichte, in denen er Gerüchte über seinen Gesundheitszustand zurückwies, während seine Prostatakrebs-Diagnose der Öffentlichkeit bis zu seinem Tod verborgen blieb. Wichtig: Dies ist ein sichtbares Verhaltensmuster, kein zuverlässiges Diagnosekriterium für sich allein."
       },
       {
         titel: "Der eine gewagte, öffentlich sichtbare Sprung statt schrittweiser Annäherung",
@@ -80924,6 +80926,190 @@ function ludwigXIVKrankheitsportraetPage() {
   `);
 }
 
+function ojSimpsonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/oj-simpson-portrait.jpg" alt="O.J. Simpson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">O.J. Simpson</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · 1947–2024</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>O.J. Simpson</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-oj-simpson">kriminalpsychologisches Porträt</a>
+        in diesem Kompass vertreten – dort geht es um den Mordprozess des Jahrhunderts und seine
+        Typstruktur als öffentlich inszenierter „Gepard". Diese Seite vertieft ein Kapitel, das
+        dort nur am Rande erwähnt wird: eine Prostatakrebs-Diagnose 2023, einen zunächst weitgehend
+        vor der Öffentlichkeit verborgenen Krankheitsverlauf, und einen Tod am 10. April 2024.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Simpson</strong> ist dem <strong>sozialen Typ 3 mit Viererflügel</strong>
+        zugeordnet. Die soziale Drei baut ihre Identität um das öffentliche Bild; der
+        Viererflügel bringt eine Neigung zur Dramatisierung und zur eigenen Erzählung des
+        eigenen Leidens hinzu. Genau diese Notwendigkeit, Herr der eigenen Geschichte zu
+        bleiben, bestimmte auch, wie er seiner letzten, tödlichen Erkrankung begegnete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose 2023, zunächst nicht öffentlich gemacht:</strong>
+        Bei Simpson wurde 2023 Prostatakrebs diagnostiziert – anders als bei seinen früheren
+        öffentlichen Auftritten wählte er zunächst, die Diagnose nicht selbst an die
+        Öffentlichkeit zu tragen.</p>
+        <p class="vb-intro"><strong>b) Weiterhin aktive Präsenz in sozialen Medien:</strong>
+        Auch nach der Diagnose postete Simpson weiterhin regelmäßig Videos auf seinen
+        Social-Media-Kanälen, in denen er gesund, humorvoll und optimistisch wirkte – ein
+        Bild, das seinem tatsächlichen Zustand zu diesem Zeitpunkt bereits widersprach.</p>
+        <p class="vb-intro"><strong>c) Verschlechterung im Verlauf des Jahres 2024:</strong>
+        Der Krebs verschlechterte sich im Frühjahr 2024 deutlich, was schließlich zu seiner
+        Einweisung ins Krankenhaus führte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Familie bestätigte die Diagnose erst nach seinem Tod:</strong>
+        Erst mit der offiziellen Todesmitteilung seiner Familie am 11. April 2024 wurde
+        öffentlich bekannt, dass Simpson an Prostatakrebs gestorben war – zuvor war die
+        Diagnose der breiten Öffentlichkeit nicht bekannt.</p>
+        <p class="vb-intro"><strong>b) Letzte Lebensmonate in Las Vegas:</strong>
+        Simpson verbrachte seine letzten Monate in seinem Zuhause in Las Vegas, wo er seit
+        seiner Haftentlassung 2017 lebte, weitgehend zurückgezogen von den öffentlichen
+        Auftritten früherer Jahre.</p>
+        <p class="vb-intro"><strong>c) Kein öffentliches Eingeständnis der Schwere der Krankheit:</strong>
+        Bis zuletzt vermied Simpson öffentliche Aussagen, die den tatsächlichen Ernst seines
+        Zustands offenbart hätten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Familie als Verkünderin der eigenen Geschichte:</strong>
+        Simpsons Familie wählte die Formulierung, er sei „von seinen Kindern umgeben"
+        gestorben – eine letzte, kontrollierte Erzählung, die dem Bild eines versöhnlichen
+        Lebensendes entsprach, das er selbst kaum noch mitgestalten konnte.</p>
+        <p class="vb-intro"><strong>b) Fortsetzung der öffentlichen Selbstdarstellung bis kurz vor dem Ende:</strong>
+        Noch wenige Wochen vor seinem Tod veröffentlichte Simpson Videobotschaften, in denen er
+        Gerüchte über seinen Gesundheitszustand zurückwies und sich als „noch hier" und aktiv
+        präsentierte.</p>
+        <p class="vb-intro"><strong>c) Tod am 10. April 2024 in Las Vegas:</strong>
+        O.J. Simpson starb im Alter von 76 Jahren an den Folgen seines Prostatakrebses – fast
+        genau 30 Jahre nach den Morden, die sein Leben für immer geprägt hatten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine letzte Überraschung für die Öffentlichkeit:</strong>
+        Weil die Diagnose so lange verborgen geblieben war, kam die Todesnachricht für die
+        meisten Beobachter überraschend – ein letzter Erfolg der jahrelang gepflegten
+        Kontrolle über das eigene öffentliche Bild.</p>
+        <p class="vb-intro"><strong>b) Gemischte, kontroverse Reaktionen:</strong>
+        Die Reaktionen auf seinen Tod fielen gespalten aus – zwischen Nachrufen auf den
+        einstigen Football-Star und Erinnerungen an die Morde an Nicole Brown Simpson und Ron
+        Goldman, die seinen Namen für immer prägten.</p>
+        <p class="vb-intro"><strong>c) Kein Rückzug von der eigenen Erzählung:</strong>
+        Selbst die letzten Monate blieben, soweit bekannt, geprägt von demselben Bedürfnis,
+        die eigene Geschichte selbst zu erzählen, das sein gesamtes öffentliches Leben
+        bestimmt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Bild, das bis zuletzt gepflegt wurde:</strong>
+        Dieselbe Notwendigkeit, das öffentliche Bild ungebrochen zu halten, die Simpsons
+        gesamtes Leben – vom NFL-Ruhm bis zum Prozess des Jahrhunderts – geprägt hatte,
+        bestimmte auch, wie lange er seine Krankheit vor der Öffentlichkeit verbarg.</p>
+        <p class="vb-intro"><strong>b) Der Viererflügel und die eigene Erzählung des Leidens:</strong>
+        Anders als eine gesunde, ungeflügelte Drei, die eine Krankheit einfach als Tatsache
+        behandeln und weitermachen würde, zeigte sich bei Simpson bis zuletzt das Bedürfnis,
+        Autor der eigenen Geschichte zu bleiben – dieselbe Dynamik, die bereits sein
+        Abschiedsbrief von 1994 und sein Buch „If I Did It" zeigten, nun angewandt auf die
+        eigene Sterblichkeit.</p>
+        <p class="vb-intro"><strong>c) Kein sichtbarer öffentlicher Zusammenbruch:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es keine Berichte
+        über ein öffentliches Eingestehen von Schwäche oder Angst vor dem Tod – die
+        kontrollierte Fassade blieb, soweit bekannt, bis zum Ende bestehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der sich der Inszenierung entzog:</strong>
+        Simpsons gesamtes Leben war von der Überzeugung geprägt, dass ein makelloses,
+        kontrolliertes öffentliches Bild jede Krise überstehen kann – der Krebs war eine
+        Bedrohung, die sich dieser Kontrolle zunehmend entzog, bis der Tod selbst zur letzten
+        unkontrollierbaren Tatsache wurde.</p>
+        <p class="vb-intro"><strong>b) Geheimhaltung als letzte Form der Bildkontrolle:</strong>
+        Ein Mann, dessen gesamtes Leben von öffentlicher Sichtbarkeit geprägt war – vom
+        Football-Feld bis zur live übertragenen Verfolgungsjagd –, behandelte ausgerechnet
+        seine eigene tödliche Krankheit als das Einzige, das der Öffentlichkeit vorenthalten
+        blieb.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Prostata?</strong>
+        Für eine soziale Drei mit Viererflügel, deren gesamte Identität auf körperlicher
+        Leistungsfähigkeit, Männlichkeit und öffentlicher Präsenz beruhte – vom
+        Ausnahmesportler zum gefeierten Filmstar –, liegt eine Deutung nahe: Ausgerechnet ein
+        Organ, das eng mit männlicher Vitalität und Kontrolle über den eigenen Körper
+        verbunden ist, wurde zum Schauplatz des Verfalls, verborgen an einer Stelle, die sich
+        öffentlicher Zurschaustellung besonders entzieht. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu Prostatakrebs führt
+        – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Simpsons Fall zeigen lässt, ist ein Muster im Umgang mit einer tödlichen
+        Diagnose, das bei einer ausgeprägten sozialen Drei mit Viererflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Simpson kannte sein eigenes Muster nicht – die soziale Drei mit Viererflügel begegnet
+        jeder Bedrohung des eigenen Bildes reflexhaft mit Geheimhaltung und kontrollierter
+        Selbstdarstellung, statt Schwäche je offen zuzulassen, und genau dieses Muster lebte er
+        bis in seine letzten Lebensmonate unverändert aus. Wer die eigene Notwendigkeit,
+        Autor der eigenen Geschichte zu bleiben, nicht als Muster erkennt, kann sie auch im
+        eigenen Sterben nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Drei mit Viererflügel erklärt bei <strong>Simpson</strong> vieles am
+        Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamtes Leben ein öffentliches
+        Schauspiel war, verwandelte ausgerechnet seine letzte, tödliche Rolle in das einzige
+        Kapitel, das er nicht mehr selbst inszenieren konnte – und behandelte es deshalb als
+        das eine Kapitel, das der Welt verborgen blieb.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. O.J. Simpson
+        wurde 1995 im Strafprozess wegen Doppelmordes freigesprochen, 1997 jedoch im
+        Zivilverfahren für den Tod seiner Ex-Frau Nicole Brown Simpson und Ron Goldman
+        haftbar gemacht. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"kriminalpsychologie-oj-simpson", label:"Kriminalpsychologie: O.J. Simpson (SO3w4) – der Prozess des Jahrhunderts"},
+        {route:"krankheitsportraets-ludwig-xiv", label:"Krankheitsporträt: Ludwig XIV. (SO3w2) – dieselbe Fassade bis zuletzt"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}
+
 function edGeinPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -89662,6 +89848,7 @@ function ojSimpsonPortraitPage() {
           {route:"kriminalpsychologie-andrew-cunanan", label:"Kriminalpsychologie: Andrew Cunanan (SO3w4)"},
           {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
           {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
+          {route:"krankheitsportraets-oj-simpson", label:"Krankheitsporträt: O.J. Simpson (SO3w4) – Prostatakrebs"},
         ])}
       </div>
     </div>
@@ -121497,6 +121684,7 @@ function render() {
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
+      "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
