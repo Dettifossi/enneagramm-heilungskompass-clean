@@ -24015,6 +24015,7 @@ const registerEntries = [
   { term: "Marcel Proust Krankheitsporträt", route: "krankheitsportraets-marcel-proust", description: "Portrait: SO4w5 · Sozialer Typ 4 · Lebenslanges Asthma, tödliche Lungenentzündung" },
   { term: "Johannes Brahms Krankheitsporträt", route: "krankheitsportraets-johannes-brahms", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Leberkrebs, elf Monate nach Clara Schumann" },
   { term: "Franz Liszt Krankheitsporträt", route: "krankheitsportraets-franz-liszt", description: "Portrait: SX7w8 · Sexueller Typ 7 · Herzschwäche, Wassersucht, tödliche Lungenentzündung" },
+  { term: "Charles Manson Krankheitsporträt", route: "krankheitsportraets-charles-manson", description: "Portrait: SX6w7 · Sexueller Typ 6 · Darmkrebs, tödliches Herzversagen im Gefängnis" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32132,6 +32133,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-marcel-proust", name:"Marcel Proust", subtyp:"SO4w5", heading:"Marcel Proust – Sozialer Typ 4", krankheit:"Lebenslanges, schweres Asthma seit der Kindheit, tödliche Lungenentzündung", teaser:"SO4w5 – französischer Schriftsteller, 1871–1922. Erster schwerer Asthmaanfall mit neun Jahren, zunehmender Rückzug in sein korkverkleidetes Zimmer, arbeitete bis zum Sterbebett an ›Auf der Suche nach der verlorenen Zeit‹. Starb 1922 mit 51 Jahren an einer Lungenentzündung." , land:"Frankreich", gender:"m", jahre:"1871–1922"},
   { route:"krankheitsportraets-johannes-brahms", name:"Johannes Brahms", subtyp:"SE9w8", heading:"Johannes Brahms – Selbsterhaltender Typ 9", krankheit:"Leberkrebs, dieselbe Krankheit, an der bereits sein Vater gestorben war", teaser:"SE9w8 – deutscher Komponist, 1833–1897. Erschöpfende Reise zu Clara Schumanns Beerdigung im Mai 1896, kurz danach sichtbare Gelbfärbung, letzter öffentlicher Auftritt bei einer Aufführung seiner 4. Sinfonie im März 1897. Starb am 3. April 1897 in Wien, nur elf Monate nach Clara Schumann." , land:"Deutschland/Österreich", gender:"m", jahre:"1833–1897"},
   { route:"krankheitsportraets-franz-liszt", name:"Franz Liszt", subtyp:"SX7w8", heading:"Franz Liszt – Sexueller Typ 7", krankheit:"Herzschwäche, Wassersucht und fortschreitende Erblindung, tödliche Lungenentzündung", teaser:"SX7w8 – Komponist und Pianist, 1811–1886. Jahrelange Herzbeschwerden und Ödeme bei unverändertem Reisepensum zwischen Weimar, Rom und Budapest, Teilnahme an einer Aufführung in Bayreuth 1886 trotz Fieber und ärztlichem Verbot. Starb am 31. Juli 1886 in Bayreuth." , land:"Ungarn/Deutschland", gender:"m", jahre:"1811–1886"},
+  { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexueller Typ 6", krankheit:"Darmkrebs, tödliches Herzversagen", teaser:"SX6w7 – Sektenführer und Drahtzieher der Tate-LaBianca-Morde 1969, 1934–2017. Krankenhausaufenthalt und Darmkrebsdiagnose Anfang 2017, keine öffentliche Reue oder Wandlung bis zuletzt. Starb am 19. November 2017 im Gefängniskrankenhaus im Alter von 83 Jahren." , land:"USA", gender:"m", jahre:"1934–2017"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -79997,6 +79999,181 @@ function marcelProustKrankheitsportraetPage() {
   `);
 }
 
+function charlesMansonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/charles-manson-portrait.jpg" alt="Charles Manson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Manson</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel · 1934–2017</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Charles Manson</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-charles-manson">kriminalpsychologisches Porträt</a>
+        in diesem Kompass vertreten – dort geht es um die Tate-LaBianca-Morde 1969 und seine
+        Typstruktur als Sektenführer. Diese Seite vertieft ein Kapitel, das dort nur am Rande
+        erwähnt wird: eine Darmkrebserkrankung, die in seinem letzten Haftjahr diagnostiziert
+        wurde und ihn 2017 im Alter von 83 Jahren im Gefängniskrankenhaus tötete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Manson</strong> ist dem <strong>sexuellen Typ 6 mit Siebenerflügel</strong>
+        zugeordnet – dem Kontratyp der Sechs, der Angst nicht durch Anpassung, sondern durch
+        offensive Stärke überspielt. Der Siebenerflügel verleiht Charisma und
+        Begeisterungsfähigkeit, die im Krankheitsfall in dieselbe kompromisslose
+        Kontrollhaltung mündete, die sein ganzes Leben prägte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Krankenhausaufenthalt im Januar 2017 wegen Magen-Darm-Blutungen:</strong>
+        Anfang 2017 musste Manson aus dem Corcoran State Prison in ein Krankenhaus verlegt
+        werden – ein erster deutlicher Hinweis auf eine ernsthafte Erkrankung.</p>
+        <p class="vb-intro"><strong>b) Diagnose einer Darmkrebserkrankung:</strong>
+        Im Zusammenhang mit diesem Krankenhausaufenthalt wurde bei Manson Darmkrebs
+        diagnostiziert – nach Medienberichten lehnte er zeitweise eine Operation ab.</p>
+        <p class="vb-intro"><strong>c) Kaum öffentliche Reaktion aus dem Gefängnis:</strong>
+        Über den Verlauf seiner Erkrankung drang aus dem Gefängnis wenig nach außen – Manson
+        blieb, wie zeitlebens, ein Mann, der Kontrolle über die eigene Darstellung behielt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Keine öffentliche Schwäche zugelassen:</strong>
+        Manson gab auch nach der Diagnose weiterhin Interviews und ließ sich fotografieren –
+        ein Verhalten, das seiner gesamten Selbstinszenierung als unangreifbarer Anführer
+        entsprach.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte Verweigerung von Reue oder Rückzug:</strong>
+        Bis in seine letzten Lebensmonate zeigte Manson keinerlei öffentliche Reue für die
+        Morde von 1969 – die Krankheit veränderte diese Grundhaltung nicht.</p>
+        <p class="vb-intro"><strong>c) Erneute Krankenhauseinweisung im November 2017:</strong>
+        Wenige Tage vor seinem Tod wurde Manson wegen einer akuten Verschlechterung seines
+        Zustands erneut aus der Haftanstalt in ein Krankenhaus in Kern County verlegt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tod am 19. November 2017:</strong>
+        Charles Manson starb im Alter von 83 Jahren in einem Krankenhaus in Kern County,
+        Kalifornien – die unmittelbare Todesursache wurde als Herzversagen angegeben, als
+        zugrunde liegende Erkrankung galt der Darmkrebs.</p>
+        <p class="vb-intro"><strong>b) 48 Jahre nach den Morden, 46 Jahre in Haft:</strong>
+        Zwischen den Tate-LaBianca-Morden 1969 und seinem Tod lagen fast fünf Jahrzehnte, davon
+        verbrachte Manson den überwiegenden Teil in verschiedenen kalifornischen
+        Haftanstalten.</p>
+        <p class="vb-intro"><strong>c) Kein Begnadigungsgesuch, keine späte Reue:</strong>
+        Anders als manche verurteilte Straftäter, die im Angesicht des Todes um Vergebung
+        baten, hielt Manson bis zuletzt an seiner Selbstdarstellung als unbeugsamer Außenseiter
+        fest.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der kaum Anteilnahme auslöste:</strong>
+        Im Gegensatz zu den meisten anderen Krankheitsporträts dieses Kompasses löste Mansons
+        Tod in der Öffentlichkeit überwiegend Erleichterung und Genugtuung aus, keine Trauer –
+        eine Reaktion, die seine Taten erklärt, ohne sie zu rechtfertigen.</p>
+        <p class="vb-intro"><strong>b) Ein Nachruf voller Distanz:</strong>
+        Medienberichte über seinen Tod konzentrierten sich fast ausschließlich auf die Morde
+        von 1969 – die Krankheit selbst blieb eine Randnotiz eines Lebens, das ohnehin schon
+        vollständig durch die Taten definiert war.</p>
+        <p class="vb-intro"><strong>c) Ein Ende ohne Publikum, anders als sein Leben:</strong>
+        Der Mann, der einst ganze Gruppen um sich scharte und den Gerichtssaal zur Bühne
+        machte, starb weitgehend unbeachtet in einem Krankenhausbett – ein auffälliger
+        Kontrast zu seiner lebenslangen Inszenierung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Wolf, der auch im Sterben keine Schwäche zeigte:</strong>
+        Dieselbe Kontrollhaltung, mit der Manson jahrzehntelang seine Anhänger und später sein
+        öffentliches Bild steuerte, bestimmte auch, wie wenig über seinen Krankheitsverlauf
+        nach außen drang.</p>
+        <p class="vb-intro"><strong>b) Verweigerung als letzte Machtdemonstration:</strong>
+        Die berichtete anfängliche Ablehnung einer Operation passt zum Muster des Kontratyps:
+        selbst der eigene Körper sollte sich seiner Entscheidung unterordnen, nicht umgekehrt.</p>
+        <p class="vb-intro"><strong>c) Kein Zusammenbruch der Fassade:</strong>
+        Anders als bei manchen anderen Krankheitsverläufen dieses Kompasses gibt es keine
+        Berichte über einen sichtbaren, öffentlichen Zusammenbruch von Mansons kontrolliertem
+        Selbstbild – die Fassade hielt, soweit bekannt, bis zum Ende.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Kontrolle, die bis zum Körper reichte:</strong>
+        Mansons gesamtes Leben war von dem Versuch geprägt, Kontrolle über andere Menschen zu
+        gewinnen, um die eigene tiefe Angst vor Ohnmacht zu überspielen – im Angesicht seiner
+        tödlichen Krankheit richtete sich dieselbe Kontrollhaltung notgedrungen nach innen, auf
+        einen Körper, der sich nicht mehr steuern ließ.</p>
+        <p class="vb-intro"><strong>b) Keine Öffnung, keine Wandlung durch die Krankheit:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses findet sich bei
+        Manson kein Hinweis auf eine innere Wandlung, Reue oder Öffnung angesichts des nahenden
+        Todes – das Muster des Kontratyps blieb bis zuletzt intakt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Darm?</strong>
+        Für eine sexuelle Sechs, deren gesamtes Leben von der Frage bestimmt war, wem man
+        vertrauen und wen man kontrollieren kann, liegt eine Deutung nahe: Ausgerechnet jenes
+        Organsystem, das im Körper für Verdauung im Sinne von Verarbeitung und Loslassen
+        steht, wurde zum Schauplatz einer Krankheit, die sich – anders als Manson selbst –
+        keiner Kontrolle unterordnen ließ. Diese Deutung ist eine plausible Interpretation,
+        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu
+        Darmerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Mansons Fall zeigen lässt, ist ein Muster im Umgang
+        mit der eigenen Sterblichkeit, das bei einer destruktiv ausgeprägten sexuellen Sechs
+        mit Siebenerflügel auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Manson kannte sein eigenes Muster nicht – die sexuelle Sechs als Kontratyp überspielt
+        Angst reflexhaft durch Kontrolle und Angriff, statt sie je bei sich selbst zu erkennen,
+        und genau dieses Muster lebte er bis zur letzten Lebenswoche unverändert aus, ohne je
+        eine andere Möglichkeit des Umgangs mit der eigenen Verletzlichkeit zu entwickeln. Wer
+        das eigene Bedürfnis nach Kontrolle nicht als Muster erkennt, kann es auch im Angesicht
+        des eigenen Todes nicht loslassen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Mansons</strong> sexuelle Sechs mit
+        Siebenerflügel noch einmal ablesen: keine Öffnung, keine Reue, keine sichtbare
+        Verwundbarkeit – nur eine Kontrollhaltung, die sich bis zum letzten Atemzug gegen den
+        eigenen, unaufhaltsam versagenden Körper richtete. Der Wolf, der sein Rudel durch Angst
+        zusammenhielt – und der am Ende allein und weitgehend unbeachtet starb.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Charles
+        Manson wurde 1971 wegen Mordes und Verschwörung verurteilt und starb 2017 in Haft. Das
+        Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7) – Tate-LaBianca-Morde"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}
+
 function edGeinPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -93335,6 +93512,7 @@ function charlesMansonPortraitPage() {
           {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5)"},
           {route:"kriminalpsychologie-armin-meiwes", label:"Kriminalpsychologie: Armin Meiwes (SX6w5)"},
           {route:"kriminalpsychologie-leslie-van-houten", label:"Kriminalpsychologie: Leslie Van Houten (SO9w1)"},
+          {route:"krankheitsportraets-charles-manson", label:"Krankheitsporträt: Charles Manson (SX6w7) – Darmkrebs im Gefängnis"},
         ])}
       </div>
     </div>
@@ -120562,6 +120740,7 @@ function render() {
       "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
       "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
+      "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
