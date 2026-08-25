@@ -65492,7 +65492,7 @@ function muhammadAliPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, dessen Auftreten Räume größer macht und das seine Kraft für die ganze Meute einsetzt, nicht nur für sich selbst. Kaum jemand hat diese Doppelnatur so sichtbar gemacht wie Muhammad Ali: der lauteste, selbstbewussteste Sportler seiner Zeit &ndash; und zugleich einer, der seine öffentliche Bühne konsequent für die Sache der schwarzen Bevölkerung Amerikas einsetzte.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, dessen Auftreten Räume größer macht und das seine Kraft für alle um sich herum einsetzt, nicht nur für sich selbst. Kaum jemand hat diese Doppelnatur so sichtbar gemacht wie Muhammad Ali: der lauteste, selbstbewussteste Sportler seiner Zeit &ndash; und zugleich einer, der seine öffentliche Bühne konsequent für die Sache der schwarzen Bevölkerung Amerikas einsetzte.</p>
           <p class="vb-intro">Cassius Marcellus Clay Jr. wurde am 17. Januar 1942 in Louisville, Kentucky, geboren, in einer Zeit und einem Ort, in der Rassentrennung Alltag war. 1964 gewann er als 22-Jähriger den Weltmeistertitel im Schwergewicht, trat der Nation of Islam bei und nahm den Namen Muhammad Ali an &ndash; ein Bruch mit dem, was von einem jungen schwarzen Boxer erwartet wurde, und der erste sichtbare Ausdruck einer Haltung, die sein gesamtes weiteres Leben prägen sollte.</p>
         </blockquote>
 
@@ -65517,7 +65517,7 @@ function muhammadAliPortraitPage() {
         <h2 class="vb-section">5. Das Werk: Vom lautesten Boxer der Welt zum weltweiten Botschafter der Würde</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Drei Weltmeistertitel im Schwergewicht, eine Karriere, die den Sport neu definierte, und Jahrzehnte humanitären Engagements bis zu seinem Tod am 3. Juni 2016 machten aus Ali eine der bekanntesten Persönlichkeiten des 20. Jahrhunderts &ndash; nicht trotz, sondern gerade wegen seiner Bereitschaft, den eigenen Ruhm konsequent für andere einzusetzen.</p>
-          <p class="vb-intro">Der Golden Retriever bellt nicht aus Angst, sondern weil ihm die Meute wichtig ist. Alis Weg vom lautesten Mund im Ring bis zum weltweit anerkannten Symbol für Würde unter widrigsten Bedingungen demonstriert dieses Muster eindrücklich: Ruhm nicht als Selbstzweck, sondern als Werkzeug, mit dem sich für weit mehr Menschen sorgen lässt, als je einzeln erreichbar wären.</p>
+          <p class="vb-intro">Der Golden Retriever bellt nicht aus Angst, sondern weil ihm die Menschen um ihn herum wichtig sind. Alis Weg vom lautesten Mund im Ring bis zum weltweit anerkannten Symbol für Würde unter widrigsten Bedingungen demonstriert dieses Muster eindrücklich: Ruhm nicht als Selbstzweck, sondern als Werkzeug, mit dem sich für weit mehr Menschen sorgen lässt, als je einzeln erreichbar wären.</p>
         </blockquote>
 
       </div>
@@ -65551,7 +65551,7 @@ function rangaYogeshwarPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das Wissen nicht für sich behält, sondern es apportiert, damit die ganze Meute davon profitiert. Ranga Yogeshwar hat aus genau diesem Antrieb ein Lebenswerk gemacht: als einer der bekanntesten Wissenschaftsjournalisten Deutschlands, der komplexe physikalische und technische Zusammenhänge über Jahrzehnte einem Millionenpublikum verständlich macht.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das Wissen nicht für sich behält, sondern es apportiert, damit alle in seiner Nähe davon profitieren. Ranga Yogeshwar hat aus genau diesem Antrieb ein Lebenswerk gemacht: als einer der bekanntesten Wissenschaftsjournalisten Deutschlands, der komplexe physikalische und technische Zusammenhänge über Jahrzehnte einem Millionenpublikum verständlich macht.</p>
           <p class="vb-intro">Ranganathan Gregoire Yogeshwar wurde am 18. Mai 1959 in der Stadt Luxemburg geboren, als Sohn einer luxemburgischen Kunsthistorikerin und eines indischen Ingenieurs, und wuchs zeitweise mit seinem Zwillingsbruder in Bangalore auf. Sein Großvater, der Bibliothekar Shiyali Ramamrita Ranganathan, hatte mit der „Colon-Klassifikation" selbst ein System erfunden, das Wissen für andere zugänglicher machte – eine Familientradition, die sich in Yogeshwars eigenem Weg fortsetzte.</p>
         </blockquote>
 
@@ -65576,7 +65576,7 @@ function rangaYogeshwarPortraitPage() {
         <h2 class="vb-section">5. Das Werk: Vom Teilchenphysiker zum Gewissen der Wissenschaftsvermittlung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Von der Forschung am CERN über <em>Quarks & Co</em> bis zur Honorarprofessur für Ethik und Wissenschaftskommunikation zieht sich ein roter Faden durch Yogeshwars Werk: Wissen soll nicht Eigentum einer Fachwelt bleiben, sondern Allgemeingut werden – verantwortungsvoll vermittelt, nicht bloß verbreitet.</p>
-          <p class="vb-intro">Der Golden Retriever apportiert nicht, um sich selbst zu zeigen, sondern weil es der Meute nützt. Yogeshwars Weg vom Teilchenphysiker zu einer der vertrauenswürdigsten Stimmen der deutschen Wissenschaftskommunikation zeigt diesen Antrieb in seiner beständigsten Form: Wissen als etwas, das erst durch das Teilen seinen vollen Wert entfaltet.</p>
+          <p class="vb-intro">Der Golden Retriever apportiert nicht, um sich selbst zu zeigen, sondern weil es dem ganzen Umfeld nützt. Yogeshwars Weg vom Teilchenphysiker zu einer der vertrauenswürdigsten Stimmen der deutschen Wissenschaftskommunikation zeigt diesen Antrieb in seiner beständigsten Form: Wissen als etwas, das erst durch das Teilen seinen vollen Wert entfaltet.</p>
         </blockquote>
 
       </div>
@@ -66796,14 +66796,14 @@ function abdAlFattahAsSisiPortraitPage() {
 
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das gebraucht werden will und seine Kraft in den Dienst der Gruppe stellt. Von außen wirkt der Golden Retriever warm, fürsorglich, verbindend. Doch dieselbe Energie, die Bindung schafft, kann auch zur Rolle des unentbehrlichen Beschützers werden, dem sich die ganze Meute unterzuordnen hat &ndash; ein Anspruch, der sich bei Abd al-Fattah as-Sisi bis in die Staatsführung Ägyptens hinein zeigt.</p>
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das gebraucht werden will und seine Kraft in den Dienst der Gruppe stellt. Von außen wirkt der Golden Retriever warm, fürsorglich, verbindend. Doch dieselbe Energie, die Bindung schafft, kann auch zur Rolle des unentbehrlichen Beschützers werden, dem sich alle anderen unterzuordnen haben &ndash; ein Anspruch, der sich bei Abd al-Fattah as-Sisi bis in die Staatsführung Ägyptens hinein zeigt.</p>
           <p class="vb-intro">Abd al-Fattah as-Sisi wurde am 19. November 1954 in Kairo geboren, in eine Militärfamilie hinein, und ist mit seiner Cousine mütterlicherseits, Entissar Amer, verheiratet. 1977 schloss er die Militärakademie ab und begann eine Karriere in der mechanisierten Infanterie &ndash; ein Weg, der von Anfang an auf Zugehörigkeit zu einer klar geordneten, hierarchischen Gemeinschaft ausgerichtet war, in der Fürsorge und Befehlsgewalt untrennbar miteinander verbunden sind.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Zwei: Fürsorge als Führungsanspruch für die ganze Nation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> lenkt ihre Fürsorge nicht auf einzelne Menschen, sondern auf gesellschaftliche Wirksamkeit. Naranjo nannte diesen Subtyp <em>Ambition</em>: den Antrieb, über Einfluss und Ansehen für eine ganze Gruppe &ndash; im Extremfall eine ganze Nation &ndash; zu sorgen. As-Sisi inszeniert genau diesen Anspruch: 2015 rief er an der Al-Azhar-Universität zu einer <em>religiösen Revolution</em> auf, mit der Forderung, der Islam dürfe nicht länger mit Angst, Gefahr, Tötung und Zerstörung in Verbindung gebracht werden. An Weihnachten besuchte er als erster ägyptischer Präsident einen koptischen Gottesdienst persönlich und warb mit dem Satz <em>Wir sind alle Ägypter</em> um nationale Einheit.</p>
-          <p class="vb-intro">Auch seine Großprojekte &ndash; der Ausbau des Suezkanals und der Bau einer komplett neuen Hauptstadt in der Wüste &ndash; wurden der Bevölkerung als gemeinsame nationale Kraftanstrengung präsentiert, mitfinanziert über den Verkauf von Staatsanleihen an die eigenen Bürger. Die Botschaft dahinter trägt die Handschrift der SO2: Nicht ich allein baue das Land auf &ndash; wir alle bauen es gemeinsam auf, unter meiner Führung. Der Golden Retriever, der sich selbst als unentbehrlichen Hüter der gesamten Meute versteht.</p>
+          <p class="vb-intro">Auch seine Großprojekte &ndash; der Ausbau des Suezkanals und der Bau einer komplett neuen Hauptstadt in der Wüste &ndash; wurden der Bevölkerung als gemeinsame nationale Kraftanstrengung präsentiert, mitfinanziert über den Verkauf von Staatsanleihen an die eigenen Bürger. Die Botschaft dahinter trägt die Handschrift der SO2: Nicht ich allein baue das Land auf &ndash; wir alle bauen es gemeinsam auf, unter meiner Führung. Der Golden Retriever, der sich selbst als unentbehrlichen Hüter des ganzen Landes versteht.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Ordnung, Pflicht und moralische Strenge</h2>
@@ -66828,7 +66828,7 @@ function abdAlFattahAsSisiPortraitPage() {
         <h2 class="vb-section">6. Der Heilungsweg: Fürsorge ohne Unterwerfung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Was kann ich für andere tun?</em> zur Frage <em>Was bin ich, wenn ich nicht gebraucht werde?</em> Für die SO2w1 bedeutet das insbesondere, den Anspruch loszulassen, die eigene, als moralisch richtig empfundene Ordnung anderen aufzuerlegen &ndash; und stattdessen zu vertrauen, dass eine Gemeinschaft auch ohne eine einzige, unentbehrliche Führungsfigur an der Spitze Bestand haben kann.</p>
-          <p class="vb-intro">Dieser Weg ist bei Abd al-Fattah as-Sisi öffentlich nicht erkennbar &ndash; seine seit 2014 andauernde, mehrfach verfassungsrechtlich verlängerte Amtszeit und die zunehmende Kontrolle über Medien, Justiz und Wirtschaft zeigen eher eine Verhärtung als eine Öffnung des Musters. Der Golden Retriever, der sich als unentbehrlicher Hüter der gesamten Meute versteht, bleibt gefangen in genau der Logik, die er selbst geschaffen hat: Solange Fürsorge nur als Führung von oben gedacht wird, bleibt kein Raum für eine Gemeinschaft, die auch ohne ihn tragfähig wäre.</p>
+          <p class="vb-intro">Dieser Weg ist bei Abd al-Fattah as-Sisi öffentlich nicht erkennbar &ndash; seine seit 2014 andauernde, mehrfach verfassungsrechtlich verlängerte Amtszeit und die zunehmende Kontrolle über Medien, Justiz und Wirtschaft zeigen eher eine Verhärtung als eine Öffnung des Musters. Der Golden Retriever, der sich als unentbehrlicher Hüter über alle versteht, bleibt gefangen in genau der Logik, die er selbst geschaffen hat: Solange Fürsorge nur als Führung von oben gedacht wird, bleibt kein Raum für eine Gemeinschaft, die auch ohne ihn tragfähig wäre.</p>
         </blockquote>
 
       </div>
@@ -67191,7 +67191,7 @@ function zoeSaldanaPortraitPage() {
         <h2 class="vb-section">1. Der Golden Retriever</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das seine Wärme nicht auf eine Person beschränkt, sondern jedem im Rudel gilt. Es sucht die Gemeinschaft, nicht die exklusive Bindung, und fühlt sich am wohlsten, wenn es Teil eines größeren Ganzen sein kann, dem es dient.</p>
-          <p class="vb-intro">Die US-amerikanische Schauspielerin Zoe Saldaña ist die einzige Schauspielerin, die in mehreren der umsatzstärksten Filmreihen der Kinogeschichte tragende Rollen spielt &ndash; als Neytiri in <em>Avatar</em>, als Gamora in den Marvel-Filmen, als Uhura in der neuen <em>Star Trek</em>-Reihe. In allen drei Fällen ist sie Teil eines Ensembles, das größer ist als sie selbst, und trägt dieses Ensemble mit, statt sich davon abzuheben. Der Golden Retriever sucht die Meute, nicht die Einzeljagd.</p>
+          <p class="vb-intro">Die US-amerikanische Schauspielerin Zoe Saldaña ist die einzige Schauspielerin, die in mehreren der umsatzstärksten Filmreihen der Kinogeschichte tragende Rollen spielt &ndash; als Neytiri in <em>Avatar</em>, als Gamora in den Marvel-Filmen, als Uhura in der neuen <em>Star Trek</em>-Reihe. In allen drei Fällen ist sie Teil eines Ensembles, das größer ist als sie selbst, und trägt dieses Ensemble mit, statt sich davon abzuheben. Der Golden Retriever sucht das Ensemble, nicht die Einzeljagd.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Zwei: Zugehörigkeit als Lebensprinzip</h2>
@@ -80023,7 +80023,7 @@ function charlesMansonKrankheitsportraetPage() {
         in diesem Kompass vertreten – dort geht es um die Tate-LaBianca-Morde 1969 und seine
         Typstruktur als Sektenführer. Diese Seite vertieft ein Kapitel, das dort nur am Rande
         erwähnt wird: eine Darmkrebserkrankung, die in seinem letzten Haftjahr diagnostiziert
-        wurde und ihn 2017 im Alter von 83 Jahren im Gefängniskrankenhaus tötete.
+        wurde und an deren Folgen er 2017 im Alter von 83 Jahren im Gefängniskrankenhaus starb.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>

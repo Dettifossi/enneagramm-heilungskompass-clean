@@ -37984,7 +37984,7 @@ function muhammadAliPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal whose presence makes rooms feel bigger, and that puts its strength in service of the whole pack, not just itself. Few people have made this dual nature as visible as Muhammad Ali: the loudest, most self-assured athlete of his era &ndash; and at the same time someone who consistently used his public stage for the cause of Black America.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal whose presence makes rooms feel bigger, and that puts its strength in service of everyone around it, not just itself. Few people have made this dual nature as visible as Muhammad Ali: the loudest, most self-assured athlete of his era &ndash; and at the same time someone who consistently used his public stage for the cause of Black America.</p>
           <p class="vb-intro">Cassius Marcellus Clay Jr. was born on January 17, 1942, in Louisville, Kentucky, at a time and in a place where racial segregation was everyday life. In 1964, at age 22, he won the heavyweight world title, joined the Nation of Islam, and took the name Muhammad Ali &ndash; a break with what was expected of a young Black boxer, and the first visible expression of a stance that would shape the rest of his life.</p>
         </blockquote>
 
@@ -38009,7 +38009,7 @@ function muhammadAliPortraitPage() {
         <h2 class="vb-section">5. The Work: From the Loudest Boxer in the World to a Global Ambassador of Dignity</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Three heavyweight world titles, a career that redefined the sport, and decades of humanitarian engagement until his death on June 3, 2016, made Ali one of the most recognized figures of the 20th century &ndash; not despite but precisely because of his willingness to consistently put his own fame to use for others.</p>
-          <p class="vb-intro">The Golden Retriever doesn't bark out of fear, but because the pack matters to it. Ali's path from the loudest mouth in the ring to a globally recognized symbol of dignity under the most adverse conditions demonstrates this pattern vividly: fame not as an end in itself, but as a tool for caring for far more people than could ever be reached individually.</p>
+          <p class="vb-intro">The Golden Retriever doesn't bark out of fear, but because the people around it matter to it. Ali's path from the loudest mouth in the ring to a globally recognized symbol of dignity under the most adverse conditions demonstrates this pattern vividly: fame not as an end in itself, but as a tool for caring for far more people than could ever be reached individually.</p>
         </blockquote>
 
       </div>
@@ -38279,7 +38279,7 @@ function rangaYogeshwarPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't keep knowledge to itself but retrieves it so the whole pack can benefit. Ranga Yogeshwar has built an entire life's work out of exactly this drive: as one of Germany's best-known science journalists, making complex physical and technical subjects accessible to an audience of millions for decades.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't keep knowledge to itself but retrieves it so everyone nearby can benefit. Ranga Yogeshwar has built an entire life's work out of exactly this drive: as one of Germany's best-known science journalists, making complex physical and technical subjects accessible to an audience of millions for decades.</p>
           <p class="vb-intro">Ranganathan Gregoire Yogeshwar was born on May 18, 1959, in Luxembourg City, the son of a Luxembourgish art historian and an Indian engineer, and spent part of his childhood in Bangalore with his twin brother. His grandfather, the librarian Shiyali Ramamrita Ranganathan, had himself invented a system &ndash; the "colon classification" &ndash; that made knowledge more accessible to others: a family tradition that continued in Yogeshwar's own path.</p>
         </blockquote>
 
@@ -38304,7 +38304,7 @@ function rangaYogeshwarPortraitPage() {
         <h2 class="vb-section">5. The Work: From Particle Physicist to the Conscience of Science Communication</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">From research at CERN through <em>Quarks & Co</em> to an honorary professorship in ethics and science communication, a single thread runs through Yogeshwar's work: knowledge should not remain the property of a small expert community but become common property &ndash; communicated responsibly, not merely broadcast.</p>
-          <p class="vb-intro">The Golden Retriever doesn't retrieve to show off, but because it helps the pack. Yogeshwar's path from particle physicist to one of the most trusted voices in German science communication mirrors this drive directly: knowledge as something that only reaches its full value once it is shared.</p>
+          <p class="vb-intro">The Golden Retriever doesn't retrieve to show off, but because it helps everyone around it. Yogeshwar's path from particle physicist to one of the most trusted voices in German science communication mirrors this drive directly: knowledge as something that only reaches its full value once it is shared.</p>
         </blockquote>
 
       </div>
@@ -38815,14 +38815,14 @@ function abdAlFattahAsSisiPortraitPage() {
 
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that wants to be needed and puts its strength in the service of the group. From outside, the Golden Retriever seems warm, caring, connecting. But the same energy that creates bonds can also turn into the role of the indispensable protector to whom the entire pack must submit &ndash; a claim that, in Abd al-Fattah as-Sisi, extends all the way into the leadership of the Egyptian state.</p>
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that wants to be needed and puts its strength in the service of the group. From outside, the Golden Retriever seems warm, caring, connecting. But the same energy that creates bonds can also turn into the role of the indispensable protector to whom everyone else must submit &ndash; a claim that, in Abd al-Fattah as-Sisi, extends all the way into the leadership of the Egyptian state.</p>
           <p class="vb-intro">Abd al-Fattah as-Sisi was born on November 19, 1954, in Cairo, into a military family, and is married to his maternal cousin, Entissar Amer. In 1977 he graduated from the Military Academy and began a career in mechanized infantry &ndash; a path oriented from the start toward belonging to a clearly ordered, hierarchical community in which care and command authority are inseparably linked.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Two: Care as a Claim to Lead an Entire Nation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual people but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire group &ndash; in the extreme case, an entire nation &ndash; through influence and standing. As-Sisi stages exactly this claim: in 2015, at Al-Azhar University, he called for a <em>religious revolution</em>, demanding that Islam no longer be associated with fear, danger, killing, and destruction. On Christmas, he became the first Egyptian president to personally attend a Coptic Christmas Eve service, appealing for national unity with the phrase <em>We are all Egyptians</em>.</p>
-          <p class="vb-intro">His mega-projects, too &ndash; the expansion of the Suez Canal and the construction of an entirely new capital in the desert &ndash; were presented to the population as a shared national effort, co-financed through the sale of government bonds to Egypt's own citizens. The message behind this carries the signature of the SO2: I am not building the country alone &ndash; we are all building it together, under my leadership. The Golden Retriever who sees itself as the indispensable guardian of the entire pack.</p>
+          <p class="vb-intro">His mega-projects, too &ndash; the expansion of the Suez Canal and the construction of an entirely new capital in the desert &ndash; were presented to the population as a shared national effort, co-financed through the sale of government bonds to Egypt's own citizens. The message behind this carries the signature of the SO2: I am not building the country alone &ndash; we are all building it together, under my leadership. The Golden Retriever who sees itself as the indispensable guardian of the whole country.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: Order, Duty, and Moral Rigor</h2>
@@ -38847,7 +38847,7 @@ function abdAlFattahAsSisiPortraitPage() {
         <h2 class="vb-section">6. The Path to Healing: Care Without Submission</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Two's path to healing leads from the question <em>What can I do for others?</em> to the question <em>What am I, when I am not needed?</em> For the SO2w1, this means above all letting go of the claim to impose one's own, morally certain order on others &ndash; and trusting instead that a community can hold together even without a single, indispensable figure at its head.</p>
-          <p class="vb-intro">This path is not publicly visible in Abd al-Fattah as-Sisi &ndash; his tenure, ongoing since 2014 and repeatedly extended through constitutional amendments, along with his growing control over media, judiciary, and economy, shows a hardening rather than an opening of the pattern. The Golden Retriever who sees itself as the indispensable guardian of the entire pack remains trapped in exactly the logic it created for itself: as long as care is thought of only as leadership from above, there is no room left for a community that could also stand on its own.</p>
+          <p class="vb-intro">This path is not publicly visible in Abd al-Fattah as-Sisi &ndash; his tenure, ongoing since 2014 and repeatedly extended through constitutional amendments, along with his growing control over media, judiciary, and economy, shows a hardening rather than an opening of the pattern. The Golden Retriever who sees itself as the indispensable guardian over everyone remains trapped in exactly the logic it created for itself: as long as care is thought of only as leadership from above, there is no room left for a community that could also stand on its own.</p>
         </blockquote>
 
       </div>
@@ -39272,7 +39272,7 @@ function zoeSaldanaPortraitPage() {
         <h2 class="vb-section">1. The Golden Retriever</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that does not limit its warmth to one person, but extends it to everyone in the pack. It seeks community rather than exclusive attachment, and feels most at ease when it can be part of something larger that it serves.</p>
-          <p class="vb-intro">The American actress Zoe Saldaña is the only actress to hold lead roles in several of the highest-grossing film franchises in cinema history &ndash; as Neytiri in <em>Avatar</em>, as Gamora in the Marvel films, as Uhura in the rebooted <em>Star Trek</em> series. In all three cases she is part of an ensemble larger than herself, and carries that ensemble along rather than standing apart from it. The Golden Retriever seeks the pack, not the solitary hunt.</p>
+          <p class="vb-intro">The American actress Zoe Saldaña is the only actress to hold lead roles in several of the highest-grossing film franchises in cinema history &ndash; as Neytiri in <em>Avatar</em>, as Gamora in the Marvel films, as Uhura in the rebooted <em>Star Trek</em> series. In all three cases she is part of an ensemble larger than herself, and carries that ensemble along rather than standing apart from it. The Golden Retriever seeks the ensemble, not the solitary hunt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social Two: Belonging as a Life Principle</h2>
@@ -39358,7 +39358,7 @@ function kamalaHarrisPortraitPage() {
         <h2 class="vb-section">5. The 2024 Campaign: Service Under Time Pressure</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">When President Biden announced his withdrawal from the race in the summer of 2024, Kamala Harris took over leadership of the Democratic campaign within days, without warning, without preparation time, under enormous public pressure. For an SO2w3, that is the ultimate test: the community calls, and she answers, no matter how short the notice.</p>
-          <p class="vb-intro">Her campaign was marked by a striking emphasis on community and unity, <em>We are not going back</em>, and by tireless personal effort, rally after rally. The Golden Retriever with the Three-wing keeps running even when its strength should long have run out, because the pack needs it.</p>
+          <p class="vb-intro">Her campaign was marked by a striking emphasis on community and unity, <em>We are not going back</em>, and by tireless personal effort, rally after rally. The Golden Retriever with the Three-wing keeps running even when its strength should long have run out, because the people counting on it need it.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Gift: Effective Service</h2>
@@ -52069,8 +52069,8 @@ function charlesMansonKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="kriminalpsychologie-charles-manson">criminal-psychology portrait</a>
         in this Compass – that page covers the 1969 Tate-LaBianca murders and his type
         structure as a cult leader. This page delves into a chapter only briefly mentioned
-        there: a colon cancer diagnosed in his final year in custody that killed him in 2017 at
-        age 83 in a prison hospital.
+        there: a colon cancer diagnosed in his final year in custody, from which he died in
+        2017 at age 83 in a prison hospital.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
