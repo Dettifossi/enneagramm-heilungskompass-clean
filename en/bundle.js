@@ -588,6 +588,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wolfgang Amadeus Mozart – Self-Preservation Type 2",
     teaser:"SP2w3 · 1756–1791. Austrian composer. Child prodigy on European tour, break with the Archbishop of Salzburg, over 600 works in 35 years of life. The hippopotamus with the Three-wing: caring, crude humor, and tireless ambition on stage. Animal correspondence: Hippopotamus.",
     land:"Austria", tags:["Music","History"], gender:"m"},
+{ route:"beruehmte-nero", name:"Nero", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Nero – Self-Preservation Type 2",
+    teaser:"SP2w3 · 37–68 AD. Roman emperor. Enthroned at 16, matricide in 59 AD, public performances as singer and charioteer, tour of Greece 66–67 AD. The hippopotamus with the Three-wing: significance through closeness to power, applause as proof of existence. Animal correspondence: Hippopotamus.",
+    land:"Roman Empire", tags:["History","Politics"], gender:"m"},
 { route:"beruehmte-barack-obama", name:"Barack Obama", subtyp:"SO2w1",
     heading:"Barack Obama – Social Type 2",
     teaser:"SO2w1 · born 1961. 44th US President, community organizer, Nobel Peace Prize laureate. Yes We Can – not a message about Obama, but about what we can make possible together. Animal correspondence: Golden Retriever.",
@@ -25703,6 +25707,73 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) – who revered him throughout his life"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2) – close friend and admired colleague"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
+        {route:"beruehmte-nero", label:"Portrait: Nero (SP2w3) – emperor and stage performer"},
+      ])}
+    </div>
+  `);
+}
+
+function neroPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nero-portrait.jpg" alt="Nero" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nero</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Roman Emperor, 37&ndash;68 AD &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of Self-Preservation Two &ndash; playful and pleasure-loving on the surface, yet capable of sudden, devastating force the moment its own territory or significance feels threatened. Few historical figures display this dual image as extremely as Nero: an emperor who preferred singing on stage to running the state &ndash; and who at the same time had his own mother murdered when she stood in the way of his power.</p>
+          <p class="vb-intro">Nero, born in 37 AD as Lucius Domitius Ahenobarbus, ascended the throne of the Roman Empire at just 16 years old &ndash; lifted there by the sheer determination of his mother, Agrippina the Younger, who stepped over corpses to get him there. The hippopotamus does not wait patiently for its place at the watering hole. Once granted access, it takes it &ndash; and then defends it with all the force at its disposal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Two: Significance Through Closeness to Power</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called <strong>Self-Preservation Two (SP2)</strong> <em>Me First</em>: the Two who names her own needs directly and &ndash; unlike the social or sexual Twos &ndash; attends first to her own survival and significance before caring for others. Nero's entire early biography is a story of close, almost symbiotic entanglement with his mother Agrippina, who secured his rise through intrigue, a forced marriage to Emperor Claudius, and &ndash; as most ancient sources assume &ndash; his poisoning.</p>
+          <p class="vb-intro">This closeness turned the moment Agrippina tried to keep controlling him. In 59 AD, after several failed attempts, Nero finally had her murdered &ndash; a matricide that neither ancient nor modern historians, however sympathetic, have tried to soften. For SP2, closeness is simultaneously a survival resource and a potential threat: whoever secures one's own significance can just as quickly become the one who most endangers it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Applause as Proof of Existence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives Self-Preservation Two a hunger for visible, celebrated success. In Nero, this expressed itself in a manner unprecedented for a Roman emperor: he performed publicly as a singer, kithara player and charioteer, forced the Senate and upper class to attend his performances, and undertook an extended tour of Greece in 66&ndash;67 AD, competing in nearly all the major contests &ndash; and, as recorded, always emerging victorious.</p>
+          <p class="vb-intro">For the Roman elite, this was a scandal without precedent: an emperor was supposed to rule, not court applause on stage. Yet this was exactly the core of Nero's self-understanding &ndash; his recorded last words, "Qualis artifex pereo" ("What an artist dies in me"), show that he saw himself throughout his life primarily as an artist, not a ruler. The Three-wing of SP2 asks not only "How do I secure my closeness to power?" but also "How do I prove my uniqueness before an audience?" &ndash; and Nero answered this question with an obsession that increasingly pushed his actual rule into the background.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Pride Between the Need for Love and the Will to Destroy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of Two is called <strong>pride</strong> &ndash; in SP2w3, directed at one's own visibly proven indispensability. Where this pride was wounded, Nero responded with a consistency that went far beyond political calculation: alongside his mother, he had his stepbrother Britannicus poisoned, cast out and eventually executed his first wife Octavia, and &ndash; according to Roman tradition &ndash; kicked his second wife Poppaea Sabina to death during an argument while she was pregnant.</p>
+          <p class="vb-intro">This is the shadow side of SP2w3, in its most extreme historical form: when one's own significance depends on the unconditional closeness of those nearest to oneself, every act of rebellion, every independence of these people becomes an existential threat. Nero responded to this not with withdrawal, but with destruction &ndash; the hippopotamus that defends its territory against its own family, if necessary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Fire of Rome and the Golden House</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Great Fire of Rome in 64 AD destroyed large parts of the city &ndash; whether Nero himself caused it remains historically disputed; an accident that he skillfully exploited politically is more likely, including by blaming the still-young Christian community and launching the first systematic persecution of Christians. On the cleared land, Nero had the "Domus Aurea" built, a gigantic palace complex adorned with gold and frescoes &ndash; a stage in both the literal and figurative sense, built to cast his own significance unmistakably in stone.</p>
+          <p class="vb-intro">This exact self-glorification, combined with heavy taxes to finance the building project, increasingly alienated him from the Senate, the military and the population. The Three-wing of SP2 needs visible proof &ndash; but when that proof is built at everyone else's expense, it eventually becomes a fatal threat to the very person who needs it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Artist Who Died as Emperor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 68 AD, several provincial governors rose against Nero, the Senate declared him a public enemy, and the Praetorian Guard turned away from him. Abandoned by almost everyone who had once been close to him, he fled Rome and, with the help of his secretary Epaphroditus, took his own life &ndash; at just 30 years old, after 14 years of rule.</p>
+          <p class="vb-intro">The hippopotamus with the Three-wing, who spent his life oscillating between the need for unconditional closeness and the hunger for public proof of his own indispensability, in the end found neither: no family still close to him &ndash; he had destroyed most of it himself &ndash; and no audience still applauding him. His last words remain the most fitting self-portrait history has left of him: to the very end, he saw himself not as a failed ruler, but as an artist the world no longer granted his true worth.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
       ])}
@@ -86320,6 +86391,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
+      "beruehmte-nero": neroPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,

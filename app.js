@@ -24237,6 +24237,7 @@ const registerEntries = [
   { term: "Johannes Brahms",               route: "beruehmte-johannes-brahms",             description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Komponist, von Schumann entdeckt, 21 Jahre an der 1. Symphonie" },
   { term: "Johann Sebastian Bach",         route: "beruehmte-johann-sebastian-bach",       description: "Portrait: SX1w9 · Sexueller Typ 1 · Komponist, Organist, Thomaskantor Leipzig, ›Soli Deo Gloria‹" },
   { term: "Wolfgang Amadeus Mozart",       route: "beruehmte-wolfgang-amadeus-mozart",     description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Komponist, Wunderkind, über 600 Werke in 35 Lebensjahren" },
+  { term: "Nero",                          route: "beruehmte-nero",                        description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Römischer Kaiser, Sänger und Wagenlenker" },
   { term: "Ai Weiwei",                     route: "beruehmte-ai-weiwei",                   description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Künstler und Aktivist, Sunflower Seeds, 81 Tage Haft 2011" },
   { term: "Carlos Santana",                 route: "beruehmte-carlos-santana",              description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Gitarrist, Woodstock 1969, Supernatural-Comeback 1999" },
   { term: "Harald Glööckler",               route: "beruehmte-harald-gloeockler",           description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Modedesigner, Gründer von POMPÖÖS" },
@@ -32451,6 +32452,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wolfgang Amadeus Mozart – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · 1756–1791. Österreichischer Komponist. Wunderkind auf Europatournee, Bruch mit dem Salzburger Fürsterzbischof, über 600 Werke in 35 Lebensjahren. Das Flusspferd mit Dreierflügel: Fürsorge, derber Humor und unermüdlicher Ehrgeiz auf der Bühne. Tierentsprechung: Flusspferd.",
     land:"Österreich", tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-nero", name:"Nero", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Nero – Selbsterhaltender Typ 2",
+    teaser:"SE2w3 · 37–68 n. Chr. Römischer Kaiser. Mit 16 Jahren inthronisiert, Muttermord 59 n. Chr., öffentliche Auftritte als Sänger und Wagenlenker, Griechenland-Tournee 66–67 n. Chr. Das Flusspferd mit Dreierflügel: Bedeutung durch Nähe zur Macht, Applaus als Existenzbeweis. Tierentsprechung: Flusspferd.",
+    land:"Römisches Reich", tags:["Geschichte","Politik"], gender:"m"},
   { route:"beruehmte-jan-ullrich", name:"Jan Ullrich", subtyp:"SE2w3",
     heading:"Jan Ullrich \u2013 Selbsterhaltender Typ 2",
     teaser:"SE2w3 \u00b7 geb. 1973. Radrennfahrer, Tour-de-France-Sieger 1997, Olympiasieger 2000. F\u00fcnfmal Zweiter hinter Armstrong \u2013 nie aufgegeben. Das Flusspferd braucht sein Wasser. Tierentsprechung: Flusspferd.",
@@ -61942,6 +61947,73 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – enger Freund und bewunderter Kollege"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
+        {route:"beruehmte-nero", label:"Porträt: Nero (SE2w3) – Kaiser und Bühnenkünstler"},
+      ])}
+    </div>
+  `);
+}
+
+function neroPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nero-portrait.jpg" alt="Nero" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nero</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Römischer Kaiser, 37–68 n. Chr. – Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – verspielt und genussfreudig nach außen, doch fähig zu jäher, verheerender Wucht, sobald sich das eigene Revier oder die eigene Bedeutung bedroht fühlt. Kaum eine historische Figur zeigt dieses Doppelbild so extrem wie Nero: ein Kaiser, der lieber auf der Bühne sang, als Staatsgeschäfte zu führen – und der zugleich seine eigene Mutter ermorden ließ, als sie seiner Macht im Weg stand.</p>
+          <p class="vb-intro">Nero, geboren 37 n. Chr. als Lucius Domitius Ahenobarbus, bestieg mit nur 16 Jahren den Thron des Römischen Reiches – emporgehoben durch die schiere Entschlossenheit seiner Mutter Agrippina der Jüngeren, die auf dem Weg dorthin über Leichen ging. Das Flusspferd wartet nicht geduldig auf seinen Platz am Wasserloch. Wenn ihm der Zugang verschafft wird, nimmt es ihn – und verteidigt ihn danach mit aller Kraft, die ihm zur Verfügung steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Bedeutung durch Nähe zur Macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: die Zwei, die ihre eigenen Bedürfnisse direkt benennt und sich – anders als die sozialen oder sexuellen Zweier – zuerst um das eigene Überleben und die eigene Bedeutung sorgt, bevor sie sich um andere kümmert. Neros gesamte frühe Biografie ist eine Geschichte enger, fast symbiotischer Verstrickung mit seiner Mutter Agrippina, die seinen Aufstieg über Intrigen, eine Zwangsheirat mit Kaiser Claudius und – wie die meisten antiken Quellen annehmen – dessen Vergiftung sicherte.</p>
+          <p class="vb-intro">Diese Nähe kippte, sobald Agrippina versuchte, weiter über ihn zu bestimmen. Nero ließ sie 59 n. Chr. nach mehreren gescheiterten Versuchen schließlich ermorden – ein Muttermord, den selbst wohlwollende antike wie moderne Historiker nicht zu beschönigen versuchen. Für die SE2 ist Nähe zugleich Überlebensressource und potenzielle Bedrohung: Wer die eigene Bedeutung sichert, kann ebenso schnell zu dem werden, der sie am meisten gefährdet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Applaus als Existenzbeweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach sichtbarem, gefeiertem Erfolg. Bei Nero äußerte sich das in einer für einen römischen Kaiser beispiellosen Weise: Er trat öffentlich als Sänger, Kitharaspieler und Wagenlenker auf, zwang den Senat und die Oberschicht, seinen Auftritten beizuwohnen, und unternahm 66–67 n. Chr. eine ausgedehnte Tournee durch Griechenland, bei der er an nahezu allen großen Wettkämpfen teilnahm – und, wie überliefert, stets als Sieger hervorging.</p>
+          <p class="vb-intro">Für die römische Elite war das ein Skandal ohnegleichen: Ein Kaiser sollte regieren, nicht auf der Bühne um Applaus buhlen. Doch genau das war der Kern von Neros Selbstverständnis – seine überlieferten letzten Worte, „Qualis artifex pereo" („Welch ein Künstler geht mit mir zugrunde"), zeigen, dass er sich selbst zeitlebens primär als Künstler verstand, nicht als Herrscher. Der Dreierflügel der SE2 fragt nicht nur „Wie sichere ich meine Nähe zur Macht?", sondern auch „Wie beweise ich meine Einzigartigkeit vor Publikum?" – und Nero beantwortete diese Frage mit einer Besessenheit, die seine eigentliche Herrschaft zunehmend in den Hintergrund drängte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz zwischen Liebesbedürfnis und Vernichtungswillen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf die eigene, sichtbar bewiesene Unentbehrlichkeit. Wo dieser Stolz verletzt wurde, reagierte Nero mit einer Konsequenz, die weit über politisches Kalkül hinausging: Neben seiner Mutter ließ er seinen Stiefbruder Britannicus vergiften, seine erste Frau Octavia verstoßen und schließlich hinrichten, und – der römischen Überlieferung nach – seine zweite Frau Poppaea Sabina im Streit zu Tode getreten haben, während sie schwanger war.</p>
+          <p class="vb-intro">Das ist die Schattenseite der SE2w3, in ihrer extremsten historischen Ausprägung: Wenn die eigene Bedeutung an der bedingungslosen Nähe der engsten Menschen hängt, wird jede Auflehnung, jede Unabhängigkeit dieser Menschen zur existenziellen Bedrohung. Nero reagierte darauf nicht mit Rückzug, sondern mit Vernichtung – das Flusspferd, das sein Revier notfalls gegen die eigene Familie verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Brand Roms und das Goldene Haus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der große Brand Roms im Jahr 64 n. Chr. zerstörte weite Teile der Stadt – ob Nero selbst ihn verursachte, ist historisch umstritten; wahrscheinlicher ist ein Unglücksfall, den er politisch geschickt für sich zu nutzen versuchte, unter anderem indem er die noch junge christliche Gemeinde beschuldigte und eine erste systematische Christenverfolgung einleitete. Auf dem frei gewordenen Gelände ließ Nero die „Domus Aurea" errichten, ein gigantisches, mit Gold und Fresken ausgestattetes Palastareal – eine Bühne im wörtlichen wie im übertragenen Sinne, gebaut, um seine eigene Bedeutung unübersehbar in Stein zu gießen.</p>
+          <p class="vb-intro">Genau diese Selbstverherrlichung, verbunden mit hohen Steuern zur Finanzierung des Bauprojekts, entfremdete ihn zunehmend von Senat, Militär und Bevölkerung. Der Dreierflügel der SE2 braucht sichtbaren Beweis – doch wenn dieser Beweis auf Kosten aller anderen errichtet wird, wird er irgendwann selbst zur tödlichen Bedrohung für den, der ihn braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Künstler, der als Kaiser starb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Jahr 68 n. Chr. erhoben sich mehrere Statthalter gegen Nero, der Senat erklärte ihn zum Staatsfeind, die Prätorianergarde wandte sich von ihm ab. Verlassen von fast allen, die ihm einst nahestanden, floh er aus Rom und nahm sich mit Hilfe seines Sekretärs Epaphroditos das Leben – im Alter von nur 30 Jahren, nach 14 Jahren Herrschaft.</p>
+          <p class="vb-intro">Das Flusspferd mit Dreierflügel, das sein Leben lang zwischen dem Bedürfnis nach bedingungsloser Nähe und dem Hunger nach öffentlichem Beweis der eigenen Unentbehrlichkeit schwankte, fand am Ende beides nicht mehr: keine Familie, die ihm noch nahestand – er selbst hatte sie größtenteils vernichtet –, und kein Publikum, das ihm noch applaudierte. Seine letzten Worte bleiben das treffendste Selbstporträt, das die Geschichte von ihm überliefert hat: Bis zuletzt sah er sich nicht als gescheiterten Herrscher, sondern als Künstler, dem die Welt seinen wahren Wert nicht mehr zugestand.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3)"},
         {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
       ])}
@@ -121837,6 +121909,7 @@ function render() {
       "beruehmte-johannes-brahms": johannesBrahmsPortraitPage,
       "beruehmte-johann-sebastian-bach": johannSebastianBachPortraitPage,
       "beruehmte-wolfgang-amadeus-mozart": wolfgangAmadeusMozartPortraitPage,
+      "beruehmte-nero": neroPortraitPage,
       "beruehmte-ai-weiwei": aiWeiweiPortraitPage,
       "beruehmte-carlos-santana": carlosSantanaPortraitPage,
       "beruehmte-harald-gloeockler": haraldGloeocklerPortraitPage,
