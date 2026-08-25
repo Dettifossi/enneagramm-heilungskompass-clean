@@ -55524,7 +55524,7 @@ function klausJBehrendtPortraitPage() {
         <h2 class="vb-section">5. Der Mensch hinter Schenk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Behrendt hat in Interviews wiederholt offen über Phasen der Unsicherheit in seiner Karriere gesprochen – eine für einen jahrzehntelang etablierten Schauspieler ungewöhnliche Offenheit, die zugleich typisch SE6 ist: Die eigene Vorsicht wird nicht verleugnet, sondern benannt, gerade weil sie als real erlebt wird. Sein privates Leben hält er konsequent aus der Öffentlichkeit heraus, was in einem Berufsfeld, das auf ständige Sichtbarkeit ausgerichtet ist, eine bewusste, disziplinierte Entscheidung ist.</p>
-          <p class="vb-intro">Wo Bär öffentlich Genuss und Geselligkeit zelebriert, wirkt Behrendt in Auftritten grundsätzlich introspektiver, wägender – kein Widerspruch zur langjährigen Männerfreundschaft der beiden, sondern eher deren notwendige Ergänzung: Der wache Beobachter neben dem geerdeten Genießer.</p>
+          <p class="vb-intro">Wo Bär öffentlich Genuss und Geselligkeit zelebriert, wirkt Behrendt in Auftritten grundsätzlich introspektiver, abwägender – kein Widerspruch zur langjährigen Männerfreundschaft der beiden, sondern eher deren notwendige Ergänzung: Der wache Beobachter neben dem geerdeten Genießer.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Das Kaninchen, das genau hinschaut</h2>

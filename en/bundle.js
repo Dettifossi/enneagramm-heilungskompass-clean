@@ -20579,7 +20579,7 @@ function klausJBehrendtPortraitPage() {
         <h2 class="vb-section">5. The Man Behind Schenk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Behrendt has repeatedly spoken openly in interviews about periods of insecurity in his career &ndash; an unusual openness for an actor established for decades, and yet typically SP6: one's own caution is not denied, but named, precisely because it is experienced as real. He consistently keeps his private life out of the public eye, a deliberate, disciplined choice in a profession built on constant visibility.</p>
-          <p class="vb-intro">Where Bär publicly celebrates pleasure and sociability, Behrendt comes across in appearances as fundamentally more introspective, more weighing &ndash; no contradiction to the two men's long friendship, but rather its necessary complement: the watchful observer beside the grounded enjoyer.</p>
+          <p class="vb-intro">Where Bär publicly celebrates pleasure and sociability, Behrendt comes across in appearances as fundamentally more introspective, more deliberative &ndash; no contradiction to the two men's long friendship, but rather its necessary complement: the watchful observer beside the grounded enjoyer.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Rabbit That Looks Closely</h2>
