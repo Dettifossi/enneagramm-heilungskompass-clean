@@ -195,9 +195,19 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Self-Preservation Type 5", krankheit:"Aplastic Anemia from Chronic Radiation Exposure", teaser:"SE5w6 – physicist and chemist, 1867–1934. Decades of unprotected work with radioactive materials, radium samples carried in her coat pocket, notebooks still radioactive today. Died in 1934 of aplastic anemia, a direct consequence of the radiation exposure whose dangers she herself helped to uncover." , land:"Poland/France", gender:"f", jahre:"1867–1934"},
   { route:"krankheitsportraets-charles-darwin", name:"Charles Darwin", subtyp:"SE5w6", heading:"Charles Darwin – Self-Preservation Type 5", krankheit:"Chronic, Never Clearly Diagnosed Digestive and Exhaustion Complaints", teaser:"SE5w6 – naturalist and founder of the theory of evolution, 1809–1882. Nearly forty years of nausea, vomiting, heart palpitations, and exhaustion, never clearly diagnosed. Proposed causes range from Chagas disease to a psychosomatic origin rooted in radical withdrawal from the outside world." , land:"United Kingdom", gender:"m", jahre:"1809–1882"},
   { route:"krankheitsportraets-winston-churchill", name:"Winston Churchill", subtyp:"SE8w9", heading:"Winston Churchill – Self-Preservation Type 8", krankheit:"Lifelong Depression (\"the black dog\") and a Concealed Stroke While in Office", teaser:"SE8w9 – British statesman, Prime Minister 1940–1945 & 1951–1955, 1874–1965. Suffered a severe stroke while in office in 1953, which he kept concealed from the public and much of his own cabinet for weeks, and lived with recurring depression his entire life." , land:"United Kingdom", gender:"m", jahre:"1874–1965"},
+  { route:"krankheitsportraets-golda-meir", name:"Golda Meir", subtyp:"SE8w9", heading:"Golda Meir – Self-Preservation Type 8", krankheit:"Lymphoma, kept secret for seventeen years", teaser:"SE8w9 – Israeli Prime Minister 1969–1974, 1898–1978. Presumed original diagnosis already in the late 1960s, kept largely secret throughout her entire term – including during the 1973 Yom Kippur War. Died in 1978 from the effects of the illness, four years after her resignation." , land:"Israel", gender:"f", jahre:"1898–1978"},
   { route:"krankheitsportraets-gustav-mahler", name:"Gustav Mahler", subtyp:"SO4w5", heading:"Gustav Mahler – Social Type 4", krankheit:"Subacute Bacterial Endocarditis (Heart Valve Infection)", teaser:"SO4w5 – Austrian composer and conductor, 1860–1911. Diagnosed with a severe heart condition in 1907, the same year his daughter died and he lost his position at the Vienna Court Opera. Processed the diagnosis immediately in his late works, including Das Lied von der Erde and the Ninth Symphony." , land:"Austria", gender:"m", jahre:"1860–1911"},
   { route:"krankheitsportraets-ruth-bader-ginsburg", name:"Ruth Bader Ginsburg", subtyp:"SX8w9", heading:"Ruth Bader Ginsburg – Sexual Type 8", krankheit:"Four Cancers in Three Very Different Organs Over Two Decades", teaser:"SX8w9 – US Supreme Court Justice, 1933–2020. Survived four cancer diagnoses in three very different organs from 1999 to 2019/2020 (colon, pancreatic twice, lung) without ever voluntarily giving up her seat. Died in office in 2020, weeks before the presidential election." , land:"USA", gender:"f", jahre:"1933–2020"},
+  { route:"krankheitsportraets-claudio-naranjo", name:"Dr. Claudio Naranjo", subtyp:"SO5w4", heading:"Dr. Claudio Naranjo – Social Type 5", krankheit:"Parkinson's in his final years (source material thinner than other portraits)", teaser:"SO5w4 – Chilean psychiatrist, founder of the Enneagram's 27 subtypes, 1932–2019. Increasing difficulty walking and speaking, plus a hand tremor, visible at his last public talk in 2019 in Girona. Died weeks later in Berkeley." , land:"Chile/USA", gender:"m", jahre:"1932–2019"},
+  { route:"krankheitsportraets-wilma-mankiller", name:"Wilma Mankiller", subtyp:"SO9w8", heading:"Wilma Mankiller – Social Type 9", krankheit:"Polycystic Kidney Disease, Lymphoma, Breast and Pancreatic Cancer", teaser:"SO9w8 – First female Principal Chief of the Cherokee Nation, 1945–2010. Two kidney transplants, a lymphoma and breast cancer, without ever giving up her office. Died in 2010 of stage IV pancreatic cancer, weeks after diagnosis." , land:"USA", gender:"f", jahre:"1945–2010"},
+  { route:"krankheitsportraets-teresa-von-avila", name:"Teresa of Ávila", subtyp:"SO3w4", heading:"Teresa of Ávila – Social Type 3", krankheit:"Severe Illness with Four Days of Apparent Death and Nearly Three Years of Paralysis", teaser:"SO3w4 – Spanish mystic and monastic reformer, 1515–1582. Presumed dead for four days in 1539, then largely paralyzed for nearly three years. Out of this crisis grew her mental prayer, the foundation of her later work and the founding of 17 monasteries." , land:"Spain", gender:"f", jahre:"1515–1582"},
+  { route:"krankheitsportraets-franz-schubert", name:"Franz Schubert", subtyp:"SE6w5", heading:"Franz Schubert – Self-Preservation Type 6", krankheit:"Syphilis with a Six-Year Illness Course, Official Cause of Death Typhoid Fever", teaser:"SE6w5 – Austrian composer, 1797–1828. Likely contracted syphilis in 1822, composed Winterreise and other major works over the following six years. Died in 1828 at 31; whether typhoid or late-stage syphilis was the true cause of death remains disputed." , land:"Austria", gender:"m", jahre:"1797–1828"},
+  { route:"krankheitsportraets-giacomo-puccini", name:"Giacomo Puccini", subtyp:"SX8w7", heading:"Giacomo Puccini – Sexual Type 8", krankheit:"Throat Cancer, Fatal Complication After Radical Radium Treatment", teaser:"SX8w7 – Italian opera composer, 1858–1924. Diagnosed with throat cancer in 1924 while working on Turandot. A radical radium treatment in Brussels took away his voice; he died days later of a heart attack as a complication. Turandot remained unfinished." , land:"Italy", gender:"m", jahre:"1858–1924"},
+  { route:"krankheitsportraets-john-wayne", name:"John Wayne", subtyp:"SX8w7", heading:"John Wayne – Sexual Type 8", krankheit:"Lung Cancer 1964, Stomach Cancer 1979 (Cause of Death)", teaser:"SX8w7 – actor, 1907–1979. Lung cancer diagnosis in 1964, left lung removed, publicly framed as a fight against 'The Big C'. Second diagnosis in January 1979: stomach cancer, entire stomach removed. Died in June 1979 at age 72 from its effects." , land:"USA", gender:"m", jahre:"1907–1979"},
+  { route:"krankheitsportraets-larry-king", name:"Larry King", subtyp:"SE7w6", heading:"Larry King – Self-Preservation Type 7", krankheit:"Decades-Long Chain of Heart Disease, Cancer and Stroke, Death from COVID-19 Sepsis", teaser:"SE7w6 – American talk show host, 1933–2021. Heart attack and quintuple bypass in 1987, prostate and lung cancer in 2017, another heart attack and stroke in 2019. Died in 2021 of sepsis after COVID-19, after more than sixty years in journalism." , land:"USA", gender:"m", jahre:"1933–2021"},
+  { route:"krankheitsportraets-muhammad-ali", name:"Muhammad Ali", subtyp:"SO2w1", heading:"Muhammad Ali – Social Type 2", krankheit:"Parkinson's syndrome, likely caused in part by repeated head trauma in boxing", teaser:"SO2w1 – American heavyweight boxing champion and civil rights figure, 1942–2016. Diagnosed with Parkinson's in 1984, three years after retiring. Lit the Olympic flame with a trembling hand in Atlanta in 1996. Died in 2016 of septic shock after more than three decades of progressive illness." , land:"USA", gender:"m", jahre:"1942–2016"},
   { route:"krankheitsportraets-friedrich-nietzsche", name:"Friedrich Nietzsche", subtyp:"SX5w4", heading:"Friedrich Nietzsche – Sexual Type 5", krankheit:"Chronic Migraines, Failing Eyesight, and Mental Collapse", teaser:"SX5w4 – German philosopher, 1844–1900. Decades of chronic migraines, stomach complaints, and progressively failing eyesight. Suffered a mental collapse in Turin in 1889 and spent the last eleven years of his life in mental darkness – cause still not conclusively established." , land:"Germany", gender:"m", jahre:"1844–1900"},
+  { route:"krankheitsportraets-frederic-chopin", name:"Frédéric Chopin", subtyp:"SX5w4", heading:"Frédéric Chopin – Sexual Type 5", krankheit:"Tuberculosis", teaser:"SX5w4 – composer and pianist, 1810–1849. Likely first signs already in youth, dramatic deterioration during the winter of 1838/39 on Mallorca. Rapid physical decline after the 1847 separation from George Sand. Died in 1849 at 39 in Paris from the effects of the advanced illness." , land:"Poland/France", gender:"m", jahre:"1810–1849"},
   { route:"krankheitsportraets-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5", heading:"Fjodor Dostoevsky – Self-Preservation Type 6", krankheit:"Lifelong Epilepsy", teaser:"SE6w5 – Russian writer, 1821–1881. Suffered from epilepsy for his entire adult life; described its famous aura as a moment of perfect harmony. Wrote the illness directly into his fiction, above all in Prince Myshkin in The Idiot." , land:"Russia", gender:"m", jahre:"1821–1881"},
   { route:"krankheitsportraets-franz-kafka", name:"Franz Kafka", subtyp:"SE5w4", heading:"Franz Kafka – Self-Preservation Type 5", krankheit:"Laryngeal Tuberculosis", teaser:"SE5w4 – writer, 1883–1924. Diagnosed with tuberculosis in 1917, which eventually spread to his larynx and made speech impossible. Died in 1924 at age 40, communicating in his final weeks only through handwritten notes." , land:"Czechia/Austria-Hungary", gender:"m", jahre:"1883–1924"},
   { route:"krankheitsportraets-ronald-reagan", name:"Ronald Reagan", subtyp:"SO9w8", heading:"Ronald Reagan – Social Type 9", krankheit:"Alzheimer's Disease", teaser:"SO9w8 – 40th US President 1981–1989, 1911–2004. Announced his Alzheimer's diagnosis in 1994 in a handwritten letter to the American public, then withdrew almost entirely from public life for the following ten years." , land:"USA", gender:"m", jahre:"1911–2004"},
@@ -207,13 +217,17 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexual Type 3", krankheit:"Fatal combination of barbiturates (Nembutal) and chloral hydrate, officially classified as probable suicide", teaser:"SX3w4 – actress, 1926–1962. Endometriosis hidden for years behind a flawless image, escalating dependency on sleeping pills, a forced psychiatric hospitalization in 1961. Died in 1962 at 36 – the exact circumstances of her death remain disputed to this day." , land:"USA", gender:"f", jahre:"1926–1962"},
   { route:"krankheitsportraets-albert-einstein", name:"Albert Einstein", subtyp:"SO5w4", heading:"Albert Einstein – Social Type 5", krankheit:"Abdominal aortic aneurysm, known for over six and a half years and only palliatively stabilized, fatal rupture in 1955", teaser:"SO5w4 – physicist, Nobel laureate, 1879–1955. Diagnosed in 1948, he lived for years with a known, never curatively treated threat. In 1955 he deliberately declined a further operation and died days later of the ruptured aneurysm – working until the end." , land:"Germany/USA", gender:"m", jahre:"1879–1955"},
   { route:"krankheitsportraets-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3", heading:"Freddie Mercury – Sexual Type 4", krankheit:"AIDS-related bronchopneumonia, kept strictly secret for nearly five years and confirmed publicly only one day before his death", teaser:"SX4w3 – musician, Queen frontman, 1946–1991. Diagnosed, according to Jim Hutton, in the spring of 1987, followed by strict secrecy while continuing to work to the point of physical exhaustion. Confirmed the illness himself only on November 23, 1991, and died the next day." , land:"United Kingdom", gender:"m", jahre:"1946–1991"},
+  { route:"krankheitsportraets-claude-debussy", name:"Claude Debussy", subtyp:"SX4w5", heading:"Claude Debussy – Sexual Type 4", krankheit:"Colorectal Cancer", teaser:"SX4w5 – composer, 1862–1918. Diagnosed in 1909, from 1915 several painful radium treatments and a colostomy operation. Gave one of his last concerts in September 1917 under wartime conditions. Died on 25 March 1918 in Paris during the German shelling of the city." , land:"France", gender:"m", jahre:"1862–1918"},
   { route:"krankheitsportraets-lady-diana", name:"Lady Diana", subtyp:"SE4w3", heading:"Lady Diana – Self-Preservation Type 4", krankheit:"Bulimia concealed for years, together with self-harm and postnatal depression", teaser:"SE4w3 – Princess of Wales, 1961–1997. Began, by her own account, the week after her engagement to Prince Charles in 1981; she first made it public herself in the 1995 BBC Panorama interview. Died in 1997 in a car accident in Paris – with no documented link to the earlier illness." , land:"United Kingdom", gender:"f", jahre:"1961–1997"},
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Self-Preservation Type 3", krankheit:"Heart failure after chronic ailments (diabetes, asthma, back pain) and a disputed poisoning claim", teaser:"SP3w4 – spiritual teacher, 1931–1990. Chronic ailments dating back to the early 1970s, a twelve-day detention in the United States in 1985, followed by new symptoms he and his circle attributed to a never independently confirmed poisoning. Died in 1990 at 58 – the exact cause of death remains disputed to this day." , land:"India", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexual Type 2", krankheit:"Cardiac arrhythmia with cardiovascular disease and megacolon, worsened by years of drug dependency", teaser:"SX2w3 – musician, 1935–1977. A decade-long escalating drug dependency, a severely enlarged heart, and a megacolon per autopsy. Kept touring almost without pause while his body visibly collapsed. Died in 1977 at only 42 – the exact cause of death is still debated today." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Social Type 2", krankheit:"Gastric cancer (per autopsy), preceded by decades of recurring stomach ailments", teaser:"SO2w3 – French emperor and military leader, 1769–1821. Decades of recurring stomach ailments, a disputed episode at Waterloo, dramatic decline in exile on St. Helena. Died in 1821 of gastric cancer – the same disease that likely killed his father." , land:"France", gender:"m", jahre:"1769–1821"},
+  { route:"krankheitsportraets-julius-caesar", name:"Julius Caesar", subtyp:"SO2w3", heading:"Julius Caesar – Social Type 2", krankheit:"Recurring seizures, likely epilepsy (ancient sources: Plutarch, Suetonius)", teaser:"SO2w3 – Roman general and statesman, 100–44 BC. Seizures of the 'falling sickness' independently attested by Plutarch and Suetonius, including during the Battle of Thapsus in 46 BC and in 45 BC at Corduba. Never publicly acknowledged or mentioned in his own writings. Assassinated on 15 March 44 BC in the Senate – with no documented direct connection to the illness." , land:"Roman Republic", gender:"m", jahre:"100–44 BC"},
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexual Type 1", krankheit:"Blindness from failed cataract surgeries, death after stroke and fever", teaser:"SX1w9 – composer, 1685–1750. Years-long progressive vision loss, two failed eye operations in March 1750 by the dubious oculist John Taylor led to complete blindness. Died four months later after a stroke – the same surgeon blinded Handel shortly after." , land:"Germany", gender:"m", jahre:"1685–1750"},
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Self-Preservation Type 1", krankheit:"Severe facial injuries from a car accident (1917), later persecution and imprisonment, death after two heart attacks and pneumonia (1967)", teaser:"SE1w9 – German Chancellor 1949–1963, 1876–1967. His face was shattered in a severe car accident in 1917; he turned the scars into an expression of controlled authority. Two decades later, persecution and imprisonment under the National Socialists, remarkably vital well into old age." , land:"Germany", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
+  { route:"krankheitsportraets-ludwig-van-beethoven", name:"Ludwig van Beethoven", subtyp:"SX6w5", heading:"Ludwig van Beethoven – Sexual Type 6", krankheit:"Progressive Deafness and Liver Cirrhosis", teaser:"SX6w5 – composer, 1770–1827. Progressing hearing loss from around 1798, alongside chronic abdominal ailments and suspected lead poisoning. Jaundice from 1821, four painful abdominal punctures against fluid buildup from December 1826. Died in 1827 from liver cirrhosis – the autopsy found a severely scarred liver and damaged kidneys." , land:"Germany", gender:"m", jahre:"1770–1827"},
+  { route:"krankheitsportraets-michael-jackson", name:"Michael Jackson", subtyp:"SO4w3", heading:"Michael Jackson – Social Type 4", krankheit:"Decades-long dependence on pain and sleep medication, concealed vitiligo", teaser:"SO4w3 – singer, dancer, and composer, 1958–2009. Opioid treatment after a severe scalp burn in 1984, followed from the 1990s by increasingly severe, treatment-resistant insomnia. Latterly received propofol as an at-home sleep aid – a use far outside any medical norm. Died in 2009 of acute cardiac arrest from a propofol overdose, weeks before his planned comeback tour." , land:"USA", gender:"m", jahre:"1958–2009"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Self-Preservation Type 7", krankheit:"Chronic gout and kidney stones, fatal bronchitis/pneumonia after a self-conducted cold experiment", teaser:"SE7w8 – philosopher, statesman, and founder of modern empiricism, 1561–1626. Suffered decades of gout and kidney stones, died in 1626 of a chill caught while stuffing a chicken with snow in winter to test cold as a preservation method." , land:"United Kingdom", gender:"m", jahre:"1561–1626"},
@@ -264,6 +278,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Anthony Hopkins – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1937 in Port Talbot, Wales. Actor, two Oscars ('The Silence of the Lambs', 'The Father'). Precision as self-obligation, stillness as home – scripts read a hundred times over until fully memorized. Animal correspondence: Eagle.",
     land:"Wales", tags:["Schauspiel"] , gender:"m"},
+{ route:"beruehmte-joseph-aoun", name:"Joseph Aoun", added:"2026-08-24", subtyp:"SE1w9",
+    heading:"Joseph Aoun – Self-Preservation Type 1",
+    teaser:"SE1w9 · b. 1964 in Sin el Fil. Lebanese army commander (2017–2025), President of Lebanon since January 2025. Cross-factional consensus candidate after two years of political paralysis, a »man of few words«. Animal correspondence: Eagle.",
+    land:"Lebanon", tags:["Politik"], gender:"m"},
 { route:"beruehmte-pierce-brosnan", name:"Pierce Brosnan", added:"2026-08-14", subtyp:"SE1w2",
     heading:"Pierce Brosnan – Self-Preservation Type 1",
     teaser:"SP1w2 · born 1953 in Navan, Ireland. Actor and producer, James Bond 1995–2002. Discipline as craft, personal loss as the drive behind advocacy for ovarian cancer research and environmental protection. Animal correspondence: Eagle.",
@@ -412,6 +430,34 @@ const BERUEHMT_PORTRAITS = [
     heading:"Armin Rohde – Self-Preservation Type 2",
     teaser:"SP2w3 · born 1955 in Herne, Germany. Actor, 'Manta, Manta', 'Der Bulle von Tölz'. Groundedness as a principle of care, from the Ruhr region to the big screen without betraying his roots. Animal correspondence: Hippopotamus.",
     tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-lebo-m", name:"Lebo M", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Lebo M – Self-Preservation Type 2",
+    teaser:"SE2w3 · born 1964 in Soweto. South African singer and composer, whose Zulu call opened The Lion King in 1994. Over three decades of loyalty to one franchise, from exile to the center of a world success. Animal correspondence: Hippopotamus.",
+    land:"South Africa", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-lionel-boyce", name:"Lionel Boyce", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Lionel Boyce – Self-Preservation Type 2",
+    teaser:"SE2w3 · born 1991 in Inglewood, California. Actor, Marcus in The Bear (Emmy-nominated), formerly 'L-Boy' in Odd Future. A decades-long creative partnership with Tyler, the Creator instead of a quick solo leap. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-lisa-antoni", name:"Lisa Antoni", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Lisa Antoni – Self-Preservation Type 2",
+    teaser:"SE2w3 · Vienna. Austrian musical theatre actress, Christine Daaé in The Phantom of the Opera at the Ronacher. A broad repertoire across Austria, Germany and Switzerland, step by step to the great roles. Animal correspondence: Hippopotamus.",
+    land:"Austria", tags:["Schauspiel","Musik"], gender:"f"},
+{ route:"beruehmte-loi", name:"Loi (Leonie Greiner)", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Loi – Self-Preservation Type 2",
+    teaser:"SE2w3 · born 2002 in Mannheim. German singer-songwriter, finalist on The Voice Kids 2017, international chart success with 'Gold' in 2022. Patient groundwork before visible success. Animal correspondence: Hippopotamus.",
+    land:"Germany", tags:["Musik"], gender:"f"},
+{ route:"beruehmte-loni-hui", name:"Loni Hui", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Loni Hui – Self-Preservation Type 2",
+    teaser:"SE2w3 · born c. 1989. American professional poker player, two-time WSOP bracelet winner (2013, 2015), over $3.4 million in tournament earnings. A finance degree before the poker table, foundation before risk. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Sport"], gender:"f"},
+{ route:"beruehmte-madeline-stuart", name:"Madeline Stuart", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Madeline Stuart – Self-Preservation Type 2",
+    teaser:"SE2w3 · born 1996 in Brisbane. Australian model, in 2015 the first professional model with Down syndrome at New York Fashion Week. International runways in service of inclusion, own modeling label since 2017. Animal correspondence: Hippopotamus.",
+    land:"Australia", tags:["Sonstiges"], gender:"f"},
+{ route:"beruehmte-mariacarla-boscono", name:"Mariacarla Boscono", added:"2026-08-25", subtyp:"SE2w3",
+    heading:"Mariacarla Boscono – Self-Preservation Type 2",
+    teaser:"SE2w3 · born 1980 in Rome. Italian model, set a world record with over 70 runway shows in two weeks (2005), more than a decade as Riccardo Tisci's muse at Givenchy and Burberry. Animal correspondence: Hippopotamus.",
+    land:"Italy", tags:["Sonstiges"], gender:"f"},
 { route:"beruehmte-gloria-von-thurn-und-taxis", name:"Gloria von Thurn und Taxis", added:"2026-07-20", subtyp:"SE2w1",
     heading:"Gloria von Thurn und Taxis – Self-Preservation Type 2",
     teaser:"SE2w1 · born 1960. Princess, entrepreneur, patron. From the punk princess excess of the 1980s to the iron matriarch of one of Europe's largest private fortunes. The hippopotamus knows its territory - and doesn't give it up. Animal correspondence: Hippo.",
@@ -452,6 +498,30 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mr. T – Self-Preservation Type 2",
     teaser:"SP2w3 · b. 1952 in Chicago. Actor, wrestler, The A-Team, Rocky III. From bodyguard for Muhammad Ali and Michael Jackson to movie icon – strength in service of protection, down to visiting children with cancer after his own cancer diagnosis. Animal correspondence: Hippopotamus.",
     land:"USA", tags:["Schauspiel","Wrestling"], gender:"m"},
+{ route:"beruehmte-mickey-rourke", name:"Mickey Rourke", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Mickey Rourke – Self-Preservation Type 2",
+    teaser:"SP2w3 · b. 1952 in Schenectady. American actor. Gave up acting for a professional boxing career, returned with ›The Wrestler‹. Thanked all his dogs in his Golden Globe speech. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-monica-simpson", name:"Monica Simpson", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Monica Simpson – Self-Preservation Type 2",
+    teaser:"SE2w3 · b. in Wingate, North Carolina. American activist, Executive Director of SisterSong. Over two decades of organizing for reproductive justice, rooted in the American South. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Sonstiges"], gender:"f"},
+{ route:"beruehmte-nate-dogg", name:"Nate Dogg", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Nate Dogg – Self-Preservation Type 2",
+    teaser:"SE2w3 · 1969–2011. American singer, ›King of Hooks‹. His voice made sixteen Billboard Hot 100 hits as a guest vocalist, while his own solo albums stayed in the shadow. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-stromae", name:"Stromae (Paul Van Haver)", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Stromae – Self-Preservation Type 2",
+    teaser:"SE2w3 · b. 1985 in Brussels. Belgian-Rwandan musician, ›Alors on danse‹, ›Papaoutai‹. Lost his father in the 1994 Rwandan genocide and processed the loss in a world hit. Animal correspondence: Hippopotamus.",
+    land:"Belgium/Rwanda", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-thomas-chaanhing", name:"Thomas Chaanhing", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Thomas Chaanhing – Self-Preservation Type 2",
+    teaser:"SE2w3 · b. 1976 in Denmark. Danish-Chinese actor, Marco Polo, The Wheel of Time, Vampire Academy. Fluent in six languages, supporting roles in several international major productions. Animal correspondence: Hippopotamus.",
+    land:"Denmark", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-tracie-d-hall", name:"Tracie D. Hall", added:"2026-08-24", subtyp:"SE2w3",
+    heading:"Tracie D. Hall – Self-Preservation Type 2",
+    teaser:"SE2w3 · American librarian. First African American Executive Director of the American Library Association (2020–2023), TIME100. Decades of grassroots work in public libraries across the US. Animal correspondence: Hippopotamus.",
+    land:"USA", tags:["Sonstiges"], gender:"f"},
 { route:"beruehmte-nusrat-fateh-ali-khan", name:"Nusrat Fateh Ali Khan", added:"2026-08-24", subtyp:"SE2w3",
     heading:"Nusrat Fateh Ali Khan – Self-Preservation Type 2",
     teaser:"SP2w3 · 1948–1997. Pakistani Qawwali singer who carried a six-hundred-year-old family tradition onto the world stage. First performance at his own father's funeral, later collaborations with Peter Gabriel, Michael Brook, and Eddie Vedder. Animal correspondence: Hippopotamus.",
@@ -532,10 +602,74 @@ const BERUEHMT_PORTRAITS = [
     heading:"Zoe Saldaña – Social Type 2",
     teaser:"SO2w3 · born 1978 in Passaic, New Jersey. Actress and producer, Avatar, Marvel, Star Trek. Belonging as a life principle, presence that has to carry – central figure in three billion-dollar franchises at once. Animal correspondence: Golden Retriever.",
     land:"USA", tags:["Schauspiel"], gender:"f"},
+{ route:"beruehmte-usher", name:"Usher", added:"2026-08-24", subtyp:"SO2w3",
+    heading:"Usher – Social Type 2",
+    teaser:"SO2w3 · b. 1978 in Dallas. American R&B singer. Album ›Confessions‹ (2004), best-selling album of the decade, mentor to Justin Bieber. Vulnerability as a bridge to a mass audience. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Musik"], gender:"m"},
 { route:"beruehmte-kamala-harris", name:"Kamala Harris", added:"2026-07-30", subtyp:"SO2w3",
     heading:"Kamala Harris – Social Type 2",
     teaser:"SO2w3 · born 1964. Politician, former US Vice President. Prosecutor, Senator, Vice President – service as political calling, several historic firsts. Animal correspondence: Golden Retriever.",
     land:"USA", tags:["Politik"] , gender:"f"},
+{ route:"beruehmte-alicia-keys", name:"Alicia Keys", added:"2026-08-24", subtyp:"SO2w3",
+    heading:"Alicia Keys – Social Type 2",
+    teaser:"SO2w3 · b. 1981 in New York. American singer and pianist. Three number-one albums, co-founder of Keep a Child Alive for families affected by HIV. Musical success as a platform for social engagement. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Musik"], gender:"f"},
+{ route:"beruehmte-ashton-kutcher", name:"Ashton Kutcher", added:"2026-08-24", subtyp:"SO2w3",
+    heading:"Ashton Kutcher – Social Type 2",
+    teaser:"SO2w3 · b. 1978 in Cedar Rapids, Iowa. American actor and entrepreneur. Co-founder of Thorn against child trafficking, ›digital defender of children‹. Reach deliberately put in service of a cause. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Schauspiel","Unternehmen"], gender:"m"},
+{ route:"beruehmte-ayo-edebiri", name:"Ayo Edebiri", added:"2026-08-24", subtyp:"SO2w3",
+    heading:"Ayo Edebiri – Social Type 2",
+    teaser:"SO2w3 · b. 1995 in Boston. American actress, writer, and comedian, ›The Bear‹. Years of background writing work, then Emmy, Golden Globe, and SAG Award. Success as a shared project, not a solo act. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Schauspiel"], gender:"f"},
+{ route:"beruehmte-bruno-mars", name:"Bruno Mars", added:"2026-08-24", subtyp:"SO2w3",
+    heading:"Bruno Mars – Social Type 2",
+    teaser:"SO2w3 · b. 1985 in Honolulu. American singer and producer. Wrote hits for others first (Nothin' on You, Billionaire) before his own fame. Silk Sonic as a shared stage with Anderson .Paak. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-carl-weathers", name:"Carl Weathers", added:"2026-08-24", subtyp:"SO2w3",
+    heading:"Carl Weathers – Social Type 2",
+    teaser:"SO2w3 · 1948–2024. American actor and director. Apollo Creed in Rocky, Dillon in Predator, Greef Karga in The Mandalorian. Never the lead, but indispensable to every story he carried. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Schauspiel","Sport"], gender:"m"},
+{ route:"beruehmte-omar-sy", name:"Omar Sy", added:"2026-08-24", subtyp:"SO2w3",
+    heading:"Omar Sy – Social Type 2",
+    teaser:"SO2w3 · b. 1978 in Trappes. French actor, ›The Intouchables‹, ›Lupin‹. Eldest of ten siblings, career started as a duo with Fred Testot. Success that repeatedly arises from togetherness. Animal correspondence: Golden Retriever.",
+    land:"France", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-douglas-rushkoff", name:"Douglas Rushkoff", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Douglas Rushkoff – Social Type 2",
+    teaser:"SO2w1 · b. 1961. American media theorist, coined terms like ›digital native‹ and ›going viral‹. Declined to give five billionaires survival strategies – wrote ›Survival of the Richest‹ instead. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Medien","Wissenschaft"], gender:"m"},
+{ route:"beruehmte-micky-beisenherz", name:"Micky Beisenherz", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Micky Beisenherz – Social Type 2",
+    teaser:"SO2w1 · b. 1977. German podcaster and TV host, ›Apokalypse & Filterkaffee‹. Daily context-setting on world events with a recognizable point of view, instead of detached news reading. Animal correspondence: Golden Retriever.",
+    land:"Germany", tags:["Medien"], gender:"m"},
+{ route:"beruehmte-katharina-tempel", name:"Dr. Katharina Tempel", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Dr. Katharina Tempel – Social Type 2",
+    teaser:"SO2w1 · b. 1984. Psychologist, founder of ›Glücksdetektiv‹. Scientifically grounded paths to wellbeing for a mass audience, grounded in a dissertation with more than 1,500 study participants. Animal correspondence: Golden Retriever.",
+    land:"Germany", tags:["Wissenschaft","Medien"], gender:"f"},
+{ route:"beruehmte-muhammad-ali", name:"Muhammad Ali", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Muhammad Ali – Social Type 2",
+    teaser:"SO2w1 · 1942–2016. American heavyweight boxing champion and civil rights activist. Refused military induction in 1967 as reigning champion, losing his title, passport, and license – principle over advantage, at his athletic peak. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Sport","Politik"], gender:"m"},
+{ route:"beruehmte-ranga-yogeshwar", name:"Ranga Yogeshwar", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Ranga Yogeshwar – Social Type 2",
+    teaser:"SO2w1 · b. 1959. German science journalist and physicist, ›Quarks & Co‹. Communicated science to millions across decades, now honorary professor of ethics and science communication. Animal correspondence: Golden Retriever.",
+    land:"Germany", tags:["Wissenschaft","Medien"], gender:"m"},
+{ route:"beruehmte-anastasia-barner", name:"Anastasia Barner", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Anastasia Barner – Social Type 2",
+    teaser:"SO2w1 · German entrepreneur and journalist, founder of FeMentor. Europe's first reverse-mentoring platform, founded at age 20. Began working as a journalist at fourteen. Animal correspondence: Golden Retriever.",
+    land:"Germany", tags:["Medien","Unternehmen"], gender:"f"},
+{ route:"beruehmte-david-lurey", name:"David Lurey", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"David Lurey – Social Type 2",
+    teaser:"SO2w1 · American yoga teacher, musician, and event producer. More than 30 years of yoga practice, curates international festivals and nearly 300 online classes. Works with the King archetype after C. G. Jung. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Sonstiges","Musik"], gender:"m"},
+{ route:"beruehmte-joe-navarro", name:"Joe Navarro", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Joe Navarro – Social Type 2",
+    teaser:"SO2w1 · b. 1953 in Cienfuegos, Cuba. Cuban-American author and former FBI agent. Developed body language expertise as a speechless refugee child, bestseller ›What Every Body Is Saying‹ in 27 languages. Animal correspondence: Golden Retriever.",
+    land:"Cuba/USA", tags:["Wissenschaft","Sonstiges"], gender:"m"},
+{ route:"beruehmte-jonathan-groff", name:"Jonathan Groff", added:"2026-08-24", subtyp:"SO2w1",
+    heading:"Jonathan Groff – Social Type 2",
+    teaser:"SO2w1 · b. 1985 in Lancaster, Pennsylvania. American actor and singer, Hamilton, Frozen, Mindhunter. Public coming out in 2009, Tony Award 2024. Personal truth as care for an entire community. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Schauspiel","Musik"], gender:"m"},
 { route:"beruehmte-bob-marley", name:"Bob Marley", added:"2026-08-24", subtyp:"SO2w1",
     heading:"Bob Marley – Social Type 2",
     teaser:"SO2w1 · 1945–1981. Jamaican reggae musician. United two feuding political rivals on stage at the 1978 One Love Peace Concert – care for an entire people torn apart by gang warfare. Animal correspondence: Golden Retriever.",
@@ -556,18 +690,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Sucharit Bhakdi – Social Type 2",
     teaser:"SO2w1 · born 1946. Microbiologist, university lecturer, scientist and tireless admonisher. The Golden Retriever who sounds the alarm – because he loves company. Animal correspondence: Golden Retriever.",
     tags:["Science","Medizin"] , gender:"m"},
-{ route:"beruehmte-douglas-rushkoff", name:"Douglas Rushkoff", added:"2026-08-24", subtyp:"SO2w1",
-    heading:"Douglas Rushkoff – Social Type 2",
-    teaser:"SO2w1 · b. 1961. American media theorist, coined terms like ›digital native‹ and ›going viral‹. Declined to give five billionaires survival strategies – wrote ›Survival of the Richest‹ instead. Animal correspondence: Golden Retriever.",
-    land:"USA", tags:["Medien","Wissenschaft"], gender:"m"},
-{ route:"beruehmte-micky-beisenherz", name:"Micky Beisenherz", added:"2026-08-24", subtyp:"SO2w1",
-    heading:"Micky Beisenherz – Social Type 2",
-    teaser:"SO2w1 · b. 1977. German podcaster and TV host, ›Apokalypse & Filterkaffee‹. Daily context-setting on world events with a recognizable point of view, instead of detached news reading. Animal correspondence: Golden Retriever.",
-    land:"Germany", tags:["Medien"], gender:"m"},
-{ route:"beruehmte-katharina-tempel", name:"Dr. Katharina Tempel", added:"2026-08-24", subtyp:"SO2w1",
-    heading:"Dr. Katharina Tempel – Social Type 2",
-    teaser:"SO2w1 · b. 1984. Psychologist, founder of ›Glücksdetektiv‹. Scientifically grounded paths to wellbeing for a mass audience, grounded in a dissertation with more than 1,500 study participants. Animal correspondence: Golden Retriever.",
-    land:"Germany", tags:["Wissenschaft","Medien"], gender:"f"},
 { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
     heading:"Julius Caesar – Social Type 2",
     teaser:"SO2w3 · 100–44 BC. Roman general, statesman, dictator for life. Generosity as an instrument of power, clemency toward enemies, self-staging in his own campaign account – the Golden Retriever who united an empire and was murdered by a man he had pardoned. Animal correspondence: Golden Retriever.",
@@ -1264,6 +1386,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Dietland Müller-Schwarze – Social Type 7",
     teaser:"SO7w6 · German-American biologist, professor emeritus, pioneer of beaver behavioural research. 26 years of fieldwork on beavers' chemical communication, standard work \"The Beaver: Its Life and Impact.\" Animal correspondence: Beaver.",
     land:"Germany/USA", tags:["Wissenschaft"], gender:"m"},
+{ route:"beruehmte-alexander-bommes", name:"Alexander Bommes", added:"2026-08-24", subtyp:"SO7w6",
+    heading:"Alexander Bommes – Social Type 7",
+    teaser:"SO7w6 · b. 1976 in Kiel. German TV host, ARD Sportschau, Gefragt – Gejagt. Former top-league handball player, switched to journalism after his first state law exam. Versatility on stable, familiar ground. Animal correspondence: Beaver.",
+    land:"Germany", tags:["Medien","Sport"], gender:"m"},
 { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
@@ -17925,9 +18051,10 @@ function fredericChopinPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
-      <p class="vb-intro">His early physical collapse after the separation from George Sand in 1847 is picked up as an SX5w4 parallel in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-nietzsche">Illness Portrait of Nietzsche</a>.</p>
+      <p class="vb-intro">The tuberculosis that likely accompanied him since young adulthood, and that accelerated dramatically after the separation from George Sand in 1847, is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-frederic-chopin">illness portrait on Chopin</a>.</p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"krankheitsportraets-frederic-chopin", label:"Illness Portrait: Frédéric Chopin (SX5w4)"},
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
@@ -18007,49 +18134,49 @@ function gloriaVonThurnUndTaxisPortraitPage() {
   `);
 }
 
-function douglasRushkoffPortraitPage() {
+function josephAounPortraitPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Famous Personalities")}
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-douglas-rushkoff-portrait.jpg" alt="Douglas Rushkoff – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-joseph-aoun-portrait.jpg" alt="Joseph Aoun – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Douglas Rushkoff</p>
-        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
-        <p class="krim-portrait-subtitle">American media theorist &amp; author, born 1961 &ndash; Animal correspondence: Golden Retriever</p>
+        <p class="krim-portrait-name">Joseph Aoun</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Lebanese army commander &amp; President of Lebanon, born 1964 in Sin el Fil &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't limit its warmth to individuals but extends it to the whole pack, and that barks a warning when the pack is in danger. Douglas Rushkoff has occupied exactly this role in digital culture since the 1990s: one of the earliest and loudest voices insisting that technology should serve people &ndash; not the other way around.</p>
-          <p class="vb-intro">Douglas Rushkoff was born on February 18, 1961, in New York City, the son of a psychiatric social worker and a hospital administrator. After studying at Princeton, earning an MFA from the California Institute of the Arts, and completing a PhD at Utrecht University on media literacy, he became a central figure in the cyberpunk and cyberdelic movement of the early 1990s &ndash; an early observer of what the internet would do to society.</p>
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through volume but through precision and restraint. It watches for a long time before it acts, and needs no stage to prove its effectiveness. Few political portraits show this more clearly than the path of Lebanese President Joseph Aoun: ahead of his election he campaigned in no public forum whatsoever, and unlike what is customary in Lebanon's fractured political system, he did not make the rounds of rival factions to secure support.</p>
+          <p class="vb-intro">Joseph Khalil Aoun was born on January 10, 1964, in Sin el Fil, Mount Lebanon, into a Maronite Christian family. In 1983, in the middle of the Lebanese Civil War, he entered the Lebanese Military Academy and was commissioned as an officer in 1985 &ndash; a career built from the start not on visible impact, but on decades of patient proof within an institution.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Two: Care for Humanity in the Digital Age</h2>
+        <h2 class="vb-section">2. The Self-Preservation One: Integrity as Craft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire collective through influence and public reach. Rushkoff's entire body of work &ndash; more than 25 books on media, technology, and culture &ndash; is carried by exactly this drive: terms like <em>digital native</em>, <em>going viral</em>, or <em>screenager</em>, which he himself coined, were meant to give the public tools to understand its own digital environment, rather than being helplessly subject to it.</p>
-          <p class="vb-intro">In 2019, he launched <em>Team Human</em> &ndash; both a book and a podcast &ndash; as a genuine manifesto of collective belonging: humans, he argues, are deeply social creatures who achieve their greatest goals only together. It is no coincidence that a social Two with a One-wing chose exactly this title &ndash; belonging to <em>Team Human</em> as a counter-design to a world in which algorithms pit people against one another.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not at correcting the world, but at its own discipline, its own preparation, its own integrity. Naranjo called this subtype <em>Worry</em>. The SE1 constantly asks itself: Did I do this right? Do I live up to my own standard of reliability?</p>
+          <p class="vb-intro">In Aoun, this question has become the foundation of more than forty years of military career: from officer in 1985, through the ranks, to Commander of the Lebanese Armed Forces in March 2017, supplemented by further training in the United States. Those who know him describe him as <em>very direct, very honest</em>, uncompromising on substance yet kind in tone &ndash; and as someone who avoids affiliating with any party or even voicing a political opinion, a rarity in Lebanon's fractured, transactional politics. This restraint is not weakness; it is the SE1 refusing to make its integrity negotiable.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The One-Wing: Warning as Moral Duty</h2>
+        <h2 class="vb-section">3. The Nine-Wing: Stillness as a Stance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of principled conviction and a need to name what is right, even when it is uncomfortable. This showed most clearly in 2022, when five billionaires invited Rushkoff, as a well-known futures thinker, to a remote luxury resort to ask him about survival strategies for civilizational collapse: fortified bunkers, private security forces, escape islands.</p>
-          <p class="vb-intro">Instead of giving his hosts what they wanted to hear, Rushkoff turned the encounter into his book <em>Survival of the Richest</em> &ndash; a public reckoning with the escape logic of the ultra-wealthy, paired with the clear thesis that real safety comes not from isolation but only from a society in which people treat each other better. The One-wing made him willing to risk the trust of the powerful in order to tell the public the truth instead.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to SE1 energy that seems paradoxical at first: merging with something larger than the self, rather than sharpening one's own profile. Where a weak Nine connection leaves the One tense and argumentative, a strong Nine-wing brings the ability to step back, listen, and balance.</p>
+          <p class="vb-intro">When Aoun took command of the Lebanese army in 2017, he deliberately kept it above the fray through the 2019 mass protests, the economic collapse, and the 2024 open war with Israel &ndash; never the instrument of a single faction, but the one place a torn society still trusted. Journalists describe him as a <em>man of few words</em>, humble and deeply religious. It was precisely this stepping back behind the role that made him, in January 2025, after more than two years of political paralysis, the cross-factional consensus candidate that both rival Lebanese camps and international actors like the US and Saudi Arabia could accept.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w1 lies in the ability to recognize complex societal developments early and translate them into clear, accessible language before the wider public even senses their scope. Rushkoff's early warnings about the commercialization of the internet &ndash; anchored to milestones like the 1995 Netscape IPO and Time Warner's 2000 acquisition of AOL &ndash; proved, in hindsight, remarkably accurate.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can settle into a fixed position as the morally clear-sighted watchman, whose repeated departures from major platforms &ndash; leaving Facebook in 2013 and X in 2023, both citing privacy concerns &ndash; can also become a demonstrative gesture: public proof of one's own principles, not merely their quiet exercise.</p>
+          <p class="vb-intro">The light of the SE1w9 lies exactly in this combination: decades-proven, incorruptible integrity, joined with the ability to step back so far that even deeply divided camps come to trust him. Aoun did not take the highest office in the land because he sought it, but because his fractured countrymen could find no one who embodied less self-interest than he did.</p>
+          <p class="vb-intro">The fate pattern of the One is <strong>anger</strong>, which in the SE1 typically turns inward &ndash; as chronic worry over whether one's own dutifulness is enough. In the SE1w9, this can combine with a tendency toward restraint that brings stability in calm times, but in a state crisis with a collapsed economy, the unresolved question of Hezbollah's arms, and enormous reform pressure, can also read as too cautious, too quiet. The ability to hold steady under pressure without pushing himself into the foreground is at once Aoun's greatest strength and his greatest test in office.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Work: From Cyberpunk Chronicler to Advocate for the Human</h2>
+        <h2 class="vb-section">5. The Eagle Without Noise &ndash; A Parallel to Queen Elizabeth II</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">From <em>Cyberia</em> (1994), his early chronicle of cyberculture, through <em>Media Virus</em> (1995) and <em>Coercion</em> (1999, winner of the Marshall McLuhan Award), to <em>Present Shock</em>, <em>Team Human</em>, and <em>Survival of the Richest</em>, a single thread runs through Rushkoff's work: the question of how people can preserve their humanity and their connection to one another amid ever-accelerating technological change. Today he teaches as Professor of Media Theory and Digital Economics at Queens College, City University of New York.</p>
-          <p class="vb-intro">The Golden Retriever doesn't bark out of fear but out of care &ndash; it warns the pack because the pack matters to it. Rushkoff's decades of warnings were never technophobia for its own sake, but a sustained attempt to remind an entire society that technology should serve what is human &ndash; not the other way around.</p>
+          <p class="vb-intro">From entering the military academy in 1983, through forty years of service, to the presidency in 2025, a single thread runs through Aoun's path: never the loud campaign for himself, always the patient proof of worth within the institution he serves. A father of two sons, married to Nehmat Aoun, he did not seek the head-of-state office even here &ndash; he received it through trust.</p>
+          <p class="vb-intro">This stance finds a remarkably precise counterpart in another <a href="javascript:void(0)" data-route="beruehmte-queen-elizabeth-ii">SE1w9 in this Compass: Queen Elizabeth II</a>, whose motto was <em>never complain, never explain</em>. Both hold an office that fell to them rather than one they fought for, both carry it with the same taciturn devotion to duty, and both embody the same eagle: one that does not abandon its post and needs to prove to no one that it can bear what has been placed on it &ndash; it simply bears it.</p>
         </blockquote>
 
       </div>
@@ -18058,127 +18185,416 @@ function douglasRushkoffPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
-        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
-        {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
+        {route:"subtype/se1", label:"SE1 – The Worrier: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
       ])}
     </div>
   `);
 }
 
-function mickyBeisenherzPortraitPage() {
+function leboMPortraitPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Famous Personalities")}
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-micky-beisenherz-portrait.jpg" alt="Micky Beisenherz – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-lebo-m-portrait.jpg" alt="Lebo M – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Micky Beisenherz</p>
-        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
-        <p class="krim-portrait-subtitle">German host, podcaster &amp; columnist, born 1977 in Recklinghausen &ndash; Animal correspondence: Golden Retriever</p>
+        <p class="krim-portrait-name">Lebo M</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">South African singer &amp; composer, born 1964 in Soweto &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that warms every room and doesn't wait to be asked, but volunteers what matters right now. Micky Beisenherz built an entire career out of exactly this drive: as one of the most-listened-to voices in German-language news podcasting, guiding millions of people through world events every day.</p>
-          <p class="vb-intro">Michael Beisenherz was born on June 28, 1977, in Recklinghausen and grew up in Castrop-Rauxel as the son of a master plumber. After graduating high school he studied social sciences in Bochum for one semester, then spent a year working construction before an internship at a local radio station led him to Radio NRW &ndash; a path that didn't lead straight to the stage, but took detours that kept him grounded.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose voice comes from deep within, and whose power is rooted in its own home territory. Few voices in film history carry this as directly as the Zulu call with which Lebo M opened <em>The Lion King</em> in 1994 – a single cry that became the most internationally recognized line of film music of the 1990s.</p>
+          <p class="vb-intro">Lebohang Morake was born in 1964 in Soweto, Johannesburg, a musical natural without formal training. In 1979, at age 16, during apartheid, he left his home country in exile for the United States to study music – an early break from familiar surroundings that would tie him for life to a longing for his musical roots.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Two: Care Through Daily Orientation for an Entire Audience</h2>
+        <h2 class="vb-section">2. The Self-Preservation Two: Care That Becomes an Acoustic Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to be present for an entire collective through influence and public reach. Since 2020, Beisenherz has co-hosted the podcast <em>Apokalypse & Filterkaffee</em> with Nikki Hassan-Nia &ndash; a format that explicitly presents itself as opinion journalism: not detached news reading, but daily context-setting with a recognizable point of view.</p>
-          <p class="vb-intro">In 2022, the podcast ranked among the most-listened-to German-language formats of all &ndash; an audience that reliably lets the same voice guide it through world events every morning. The same care shows in his journalistic side work: since 2016 he has written columns for <em>Stern</em>, and regularly for <em>Süddeutsche Zeitung</em> and <em>Die Zeit</em> &ndash; always with the same underlying pattern of making complex events accessible and pointed for a broad audience.</p>
+          <p class="vb-intro">The <strong>self-preservation Two (SE2)</strong> secures closeness and belonging, according to Naranjo, through what he called <em>Privilege</em>: making oneself indispensable through concrete, practical giving. In Lebo M, this shows in his more than three decades of loyalty to the <em>Lion King</em> franchise – from the original film in 1994 through the companion album, the Broadway score, the direct-to-video sequel, live concerts, and the photorealistic remake.</p>
+          <p class="vb-intro">Composer Hans Zimmer originally brought him on board to give the choruses and compositions an authentic African sound – a role Lebo M never treated as a one-off appearance, but as an ongoing, caring responsibility for the sound of an entire musical world he helped shape for decades.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The One-Wing: Conviction Instead of Mere Entertainment</h2>
+        <h2 class="vb-section">3. The Three-Wing: Visible Success on the Biggest Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of principled conviction and a need to name things clearly rather than lose itself in mere agreeableness. This is exactly what sets <em>Apokalypse & Filterkaffee</em> apart from ordinary entertainment: the podcast explicitly presents itself as opinion journalism that takes a position instead of simply laying out events side by side.</p>
-          <p class="vb-intro">This stance runs through his entire body of work: as a joke writer for satirical shows like <em>extra3</em>, as a writer for <em>Late Night Berlin</em>, in his columns, which regularly offer pointed commentary on social and political issues. The One-wing ensures that behind the sharp language there is always a recognizable, consistent position &ndash; not opinion for the sake of provocation, but the claim of naming what is right clearly.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to shape visible, publicly effective success from a secure base. Lebo M did not stay in the background of a single film project – his Zulu vocals became the recognizable acoustic signature of one of the most successful film and stage franchises in history, with standalone concert appearances worldwide.</p>
+          <p class="vb-intro">In 2019 he returned for the computer-animated remake and, in a performance with HAVASI in Budapest, became the first African performer to appear there – another visible, public stage that brought his musical origins to a new audience.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w1 lies in the ability to freshly process complex, often unsettling world events for a broad audience every single day, without slipping into mere sensationalism. That Beisenherz has reliably hosted for years &ndash; from the WDR talk show <em>Kölner Treff</em>, whose succession from Bettina Böttinger he took over in 2023, to several parallel podcast formats &ndash; shows a reliability that goes beyond mere presence.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the audience. In the SO2w1, this can show as a constant pressure to remain present, sharp, and opinionated every single day, regardless of how exhausting that can become over time. A format that turns itself into a daily institution carries exactly this claim within it: never to fail to appear, always to deliver clear orientation.</p>
+          <p class="vb-intro">The light of the SE2w3 lies in the ability to build, from a single, deeply personal musical gesture – the Zulu call at the start of <em>Circle of Life</em> – a decades-long, world-spanning body of work that has become familiar to millions without denying its roots.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to a work's success. In the SE2w3, this can combine with the need to remain visibly present in every new installment of the franchise – a constancy that secures continuity, but also ties one's identity closely to a single, if monumental, body of work.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Work: From Local Radio to the Daily Voice of a Generation</h2>
+        <h2 class="vb-section">5. The Work: From Soweto to the Center of a World Success</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">From Radio Herne through Radio NRW, where he was for a time part of comedian Mario Barth's crew, to his own TV formats, books like <em>Schreib oder Stirb</em> (with Sebastian Fitzek), and the 2006 Axel Springer Prize for young journalists, a single thread runs through Beisenherz's career: the steady expansion of his own audience, without losing the directness of local radio he started with.</p>
-          <p class="vb-intro">The Golden Retriever doesn't bark out of fear, but because it has something to tell the pack that matters. Beisenherz's simultaneous daily presence across multiple formats &ndash; podcast, talk show, column &ndash; is exactly this drive in its most consistent form: an audience that relies, day after day, on being guided through the world by the same familiar voice.</p>
+          <p class="vb-intro">From the exiled sixteen-year-old through his collaboration with Hans Zimmer to becoming the fixed musical anchor of one of the world's largest entertainment franchises, a single thread runs through Lebo M's work: one unmistakable voice that stayed loyal to a single cause across decades.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please others – it deepens its connection to them, year after year. Lebo M's path from Soweto to the world-famous opening line of <em>The Lion King</em> puts this drive in a nutshell: a home continually reaffirmed through one's own voice, across decades.</p>
         </blockquote>
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
-        {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
-        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
       ])}
     </div>
   `);
 }
-
-function katharinaTempelPortraitPage() {
+function lionelBoycePortraitPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("Famous Personalities")}
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-katharina-tempel-portrait.jpg?v=2" alt="Katharina Tempel – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-lionel-boyce-portrait.jpg" alt="Lionel Boyce – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Dr. Katharina Tempel</p>
-        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
-        <p class="krim-portrait-subtitle">Psychologist &amp; founder of "Glücksdetektiv," born 1984 &ndash; Animal correspondence: Golden Retriever</p>
+        <p class="krim-portrait-name">Lionel Boyce</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American actor &amp; artist, born 1991 in Inglewood, California &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <h2 class="vb-section">1. The Hippopotamus</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that measures its own happiness by whether it can be useful to others, and that doesn't limit its warmth to a few people but wants to make it available to as many as possible. Dr. Katharina Tempel has turned exactly this drive into a mission: as the "Glücksdetektiv" (happiness detective), she reaches several hundred thousand people every month with scientifically grounded paths to greater wellbeing.</p>
-          <p class="vb-intro">Katharina Tempel was born in June 1984, studied psychology, and earned her doctorate with a dissertation on exercises to increase wellbeing, for which she conducted a study involving more than 1,500 participants. Even her academic work was aimed at something beyond her own career: creating a solid, widely usable body of knowledge.</p>
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal most at ease within a tight, familiar circle, developing its full strength there before ever stepping into the spotlight. Lionel Boyce, born in Inglewood, California, to a water-delivery driver father and a sheriff's deputy mother, found his creative origin not as a solo act but within the hip-hop collective Odd Future – a close, chosen circle out of which he slowly emerged as an individual figure.</p>
+          <p class="vb-intro">Within the group he was known as "L-Boy," largely a non-musical member in the best sense – someone who contributed to cohesion without standing at the center himself. Only over years did this background role grow into an independent acting career.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Two: Care Directed at an Entire Audience</h2>
+        <h2 class="vb-section">2. The Self-Preservation Two: Care Within the Closest Creative Circle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire collective through influence and reach. In 2013, Tempel founded the Glücksdetektiv platform to share her psychological knowledge and personal insights with a broad public &ndash; what began as pure knowledge-sharing gradually became active support for people navigating personal crises.</p>
-          <p class="vb-intro">With over 30,000 newsletter subscribers, several hundred thousand people reached monthly, and two bestsellers on the German SPIEGEL list &ndash; <em>Gib dir die Liebe, die du verdienst</em> and <em>Schenk dir das Leben, von dem du träumst</em> &ndash; the SO2 shows itself at its clearest: her own insight becomes a resource for an audience many times larger than her own immediate circle.</p>
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em> &ndash; not in a selfish sense, but existentially: closeness first arises within the closest, most reliable circle. Boyce's decades-long creative partnership with Tyler, the Creator is exactly this pattern: together they co-created the series <em>Loiter Squad</em> (2012–2014) and <em>The Jellies!</em> (2015–2017), and in 2015 they founded the production company Bald Fade Productions together.</p>
+          <p class="vb-intro">Rather than spreading his creative energy across as many loose contacts as possible, Boyce invested it for years in the same close friendship and collaboration – a form of care measured not by reach, but by reliability toward one's closest creative companions.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The One-Wing: Scientific Rigor Instead of Vague Self-Help</h2>
+        <h2 class="vb-section">3. The Three-Wing: From the Background to an Emmy Nomination</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of care and a need to pass on only what can actually be substantiated. In Tempel, this shows in the clear grounding of her work in empirical research: her dissertation, involving more than 1,500 study participants, is not a side note but the methodological foundation on which all her later Glücksdetektiv work rests.</p>
-          <p class="vb-intro">This rigor sets her approach apart from the broad, often arbitrary self-help scene: instead of general motivational slogans, she offers evidence-based psychological interventions, combined with practical experience from online psychological counseling. The One-wing ensures that caring for a mass audience never comes at the expense of professional precision.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to still seek visible, publicly effective success from a secure, close base. Boyce's role as Marcus, the pastry chef in <em>The Bear</em> (since 2022), earned him an Emmy nomination for Outstanding Supporting Actor in a Comedy Series – a clear step out of Odd Future's collective background into an independent, publicly recognized role.</p>
+          <p class="vb-intro">Notably, even as a celebrated supporting actor, Boyce remained loyal to collaboration with his closest creative circle rather than focusing exclusively on a solo career – the Three-wing seeks visible success without giving up the SE2's reliable base to get there.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w1 lies in the ability to turn an often painful personal experience into something that shows others a solid, scientifically grounded path. Tempel describes herself as having long been reserved and pessimistic &ndash; "at best neutral," as she puts it &ndash; before studying positive psychology fundamentally changed her own outlook. Out of that personal turning point came the drive to make the same possible for others.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can show as a constant demand to keep supplying a growing audience with well-founded, correct answers &ndash; a standard that can become exhausting over time if it doesn't also account for one's own limits.</p>
+          <p class="vb-intro">The light of the SE2w3 lies in the ability to develop an independent, publicly visible career out of a decades-long, close creative partnership – without leaving the original base, his friendship with Tyler, the Creator, and the Odd Future circle.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of one's own close group. In the SE2w3, this can combine with the question of how much of one's own identity remains tied to a particular group or collaboration, even once enough independent success exists to break free of it.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. The Work: From Personal Low Point to Scientifically Grounded Happiness Work</h2>
+        <h2 class="vb-section">5. The Work: From Odd Future to Celebrated Supporting Actor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With books like <em>Genug gegrübelt, lieber Kopf</em>, a YouTube channel that ranks among the largest German-language offerings on the subject of happiness, and an ongoing online psychological counseling practice, Tempel has turned academic research into a daily-life tool for hundreds of thousands of people.</p>
-          <p class="vb-intro">The Golden Retriever doesn't share its warmth out of obligation, but because that is where it finds its own meaning. Tempel's path from what she herself experienced as "at best neutral" to a scientifically grounded provider of wellbeing for a mass audience shows this drive at its most constructive: not hiding one's own crisis, but turning it into the foundation of a mission for many.</p>
+          <p class="vb-intro">From his role as "L-Boy" within Odd Future through the series he created with Tyler, the Creator to his Emmy-nominated role in <em>The Bear</em>, a single thread runs through Boyce's work: creative closeness first, visible success as a consequence, never as the primary goal.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please others – it lets its closest circle grow without ever leaving it. Lionel Boyce's path from the creative background of a hip-hop collective to celebrated television actor shows this pattern at its purest: success that grows out of loyalty to one's closest companions, not out of leaving one's own base.</p>
         </blockquote>
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
-        {route:"beruehmte-micky-beisenherz", label:"Portrait: Micky Beisenherz (SO2w1)"},
-        {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+function lisaAntoniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-lisa-antoni-portrait.jpg" alt="Lisa Antoni – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lisa Antoni</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Austrian musical theatre actress, born in Vienna &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that unfolds its full strength wherever it feels safe and rooted. Lisa Antoni, born and raised in Vienna, found that secure ground in Viennese musical theatre – her first major role as Mary Vetsera in the German-language premiere of <em>Rudolf – Affaire Mayerling</em> became the starting point of a career that stayed closely tied to her home city.</p>
+          <p class="vb-intro">The cast recording of that production reached platinum status in Austria – an early, concrete sign that Antoni's voice and presence reached a broad audience, long before she became one of the most sought-after musical theatre performers in the German-speaking world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care Through Reliable Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em>: she secures closeness and belonging through concrete, reliable performance within a familiar environment, not through grand public gestures. Antoni's career reads like a demonstration of this stance – roles in <em>Into the Woods</em>, <em>Rebecca</em>, <em>The Witches of Eastwick</em>, <em>Next to Normal</em>, <em>Showboat</em>, <em>Artus – Excalibur</em>, <em>The Addams Family</em>, and <em>How to Succeed in Business Without Really Trying</em> across Austria, Germany, and Switzerland.</p>
+          <p class="vb-intro">Rather than focus on a single major role, she built a broad, reliable repertoire within the German-speaking musical theatre scene over years – care for her own craft, expressed through steady, high-quality work rather than spectacular one-off appearances.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Grand Stage as a Visible Peak</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to still seek the biggest, most publicly effective roles from a solid, broad base. For Antoni, that meant the role of Christine Daaé in <em>The Phantom of the Opera</em> at the Ronacher Theatre in Vienna – one of the best-known female leads in the international musical theatre repertoire, on one of her home city's biggest stages.</p>
+          <p class="vb-intro">This role brings both together: the reliable, craft-based foundation of a broad repertoire and the visible, publicly recognized success of one of the most coveted female musical theatre roles of all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE2w3 lies in the ability to reach the great, visible roles through steady, reliable work in a familiar environment – Antoni's path from her first major role in Vienna to Christine Daaé shows a career built step by step out of solid craft.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to a production's success through one's own reliable performance. In the SE2w3, this can combine with the wish to prove herself in as many different, publicly visible roles as possible – a strength that leads to a broad repertoire, but also raises the question of how much room remains for the one truly defining signature role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Mary Vetsera to Christine Daaé</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From Mary Vetsera in <em>Rudolf – Affaire Mayerling</em> through a broad repertoire in German-speaking musical theatre to Christine Daaé at the Ronacher, a single thread runs through Antoni's work: reliable, craft-based work that worked its way step by step to the genre's greatest roles.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please others – it deepens its connection to them with every new role. Lisa Antoni's path from the Viennese musical theatre stage to one of the most famous female roles in the international repertoire illustrates this principle perfectly: success that grows out of steady reliability, not out of a single great leap.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+function loiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-loi-portrait.jpg" alt="Loi (Leonie Greiner) – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Loi (Leonie Greiner)</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">German singer &amp; songwriter, born 2002 in Mannheim &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose very name is a statement: steadfast, warm-hearted, unshakeable on its own ground. Leonie Greiner chose the stage name <em>Loi</em>, an alternate spelling of "lion" – derived from her childhood nickname "Leonie Lionheart." A name that asserted an inner strength early on, one that would only later be confirmed publicly.</p>
+          <p class="vb-intro">Born July 3, 2002, in Mannheim, Loi's musical path did not begin with a sudden breakthrough but with years of practicing guitar and piano – a solid, craft-based foundation before she was known to any wider audience at all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care Through Family Closeness Within Success</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em>: security and closeness arise first within the closest, most familiar circle, before turning outward. In 2017, at just 15, Loi competed on <em>The Voice Kids</em> and reached the finale – an early public appearance that did not immediately catapult her into a solo spotlight career, but marked the beginning of a slow, continuous build.</p>
+          <p class="vb-intro">This patience to work on her own craft for years, rather than chase a quick breakthrough, is typical of the SE2: security is built first within one's own musical foundation before it is translated outward into greater success.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: International Success with "Gold"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to seek visible, publicly effective success from this solid base. In 2022, Loi's single <em>Gold</em> reached gold certification status in France and Poland and climbed to number two on the charts in Poland – an international success reaching far beyond her German home base.</p>
+          <p class="vb-intro">The song's title itself is telling: <em>Gold</em> as a visible, measurable symbol of success, achieved by the same young artist who years earlier was still patiently practicing guitar and piano – the Three-wing translates the early, private foundation into internationally measurable success.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE2w3 lies in the ability to reach international success from an early, patiently built musical foundation, without losing her own signature as a guitar- and piano-playing songwriter.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to her own success through her own performance. In the SE2w3, this can combine with the need to continuously reaffirm once-achieved success – like that with <em>Gold</em> – rather than resting on a single hit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From "Leonie Lionheart" to International Charts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From the childhood nickname "Leonie Lionheart" through the finale run on <em>The Voice Kids</em> in 2017 to international chart success with <em>Gold</em> in 2022, a single thread runs through Loi's work: an inner strength claimed early, transformed over years of patient work into publicly measurable success.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please others – it builds its strength from the inside out. Loi's path from a Mannheim bedroom with a guitar and piano to international chart placements shows this drive at its clearest: strength that proves itself in the small, before it becomes visible in the large.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
+        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+function loniHuiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-loni-hui-portrait.jpg" alt="Loni Hui – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Loni Hui (née Harwood)</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American professional poker player, born c. 1989 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal that needs a solid foundation of its own before venturing into more dangerous waters. Loni Hui, born Loni Harwood, first completed a finance degree at the University at Albany in 2012 – a solid, economic foundation before she ever turned to professional poker.</p>
+          <p class="vb-intro">After graduating, she moved to Florida and began playing poker there – quickly discovering the World Series of Poker Circuit as her true professional environment. The path from finance degree to poker table did not happen in a leap, but over a solid, deliberately built foundation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care as Financial Security Within the Game</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em>: one's own concrete material and personal security is secured first, before turning outward. Loni Hui's finance degree and her methodical entry via WSOP Circuit tournaments rather than jumping straight into the highest stakes show exactly this stance: secure the foundation first, then take on risk.</p>
+          <p class="vb-intro">More than 3.4 million dollars in total live tournament earnings and five WSOP Circuit rings did not arise from a single big score, but from years of consistent presence on the tournament circuit – an SE2-typical care for her own financial future, built step by step.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Historic 2013 Bracelet Win</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to seek visible, publicly measurable success from a solid base. In 2013, Loni Hui achieved something historically rare at the World Series of Poker: she reached three final tables in a single tournament year – only the second woman after Cyndy Violette (2005) to do so – and simultaneously became the first woman to also win a bracelet in the same year.</p>
+          <p class="vb-intro">This success placed her third in the 2013 World Series of Poker Player of the Year race – a clearly visible, publicly recognized result that confirmed years of methodical groundwork in one stroke. A second bracelet followed in 2015.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE2w3 lies in the ability to achieve historic, publicly measurable success from a carefully built financial and methodical foundation – Loni Hui's path from a finance degree to two WSOP bracelets and over 3.4 million dollars in tournament winnings shows exactly this combination of caution and visible ambition.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of having earned her own success through her own concrete performance. In the SE2w3, this can combine with the need to continuously reaffirm an achieved status – in the competitive sport of poker, a stance that can contribute to long-term success just as much as it can become exhausting.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From a Finance Degree to Poker History</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her finance degree in 2012 through her methodical entry on the WSOP Circuit to the historic triple-final-table year of 2013 and a second bracelet in 2015, a single thread runs through Loni Hui's work: a solidly secured foundation, out of which growth was built consistently, never a sudden, unprepared leap.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please others – it carefully expands them before venturing further out. Loni Hui's path from finance student to two-time WSOP bracelet winner exemplifies this drive: success that grows from a patiently secured foundation, not from a reckless gamble.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
+        {route:"beruehmte-bryn-kenney", label:"Portrait: Bryn Kenney (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+function madelineStuartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-madeline-stuart-portrait.jpg" alt="Madeline Stuart – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madeline Stuart</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Australian model &amp; entrepreneur, born 1996 in Brisbane &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose strength is often underestimated until it actually enters its territory. Madeline Stuart, raised in Brisbane, Australia, became, at age 18 in September 2015, the world's first professional model with Down syndrome to walk New York Fashion Week – an appearance in Vanderbilt Hall at Grand Central Terminal, organized by label FTL Moda together with the Christopher and Dana Reeve Foundation.</p>
+          <p class="vb-intro">Her mother Rosanne closely accompanied this path from the start and later credited social media with a major role in making Madeline's Fashion Week debut possible at all – a family foundation from which an international modeling career grew.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care That Becomes Advocacy for Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em> &ndash; not meant selfishly, but as care that starts concretely and physically before expanding outward. In Madeline Stuart, this care quickly expanded beyond herself: she became an internationally visible advocate for the inclusion of people with Down syndrome in the fashion industry, walking runways in Paris, London, Dubai, Russia, and China.</p>
+          <p class="vb-intro">In 2017 she founded her own modeling label – another step in turning her own visibility into concrete, tangible structures that also offer a platform to other people with disabilities, rather than using her own fame only for herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Brisbane to the World's Great Runways</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to seek visible, publicly effective success from a personal, often physically grounded base. Stuart's path took her from a single appearance in New York to virtually every major fashion week in the world – a rapid, visible expansion of her public presence within just a few years.</p>
+          <p class="vb-intro">This international reach was never an end in itself: every new runway simultaneously became a further platform for her true cause, making diversity visible in the fashion industry – the Three-wing seeks success, but in service of the original, caring message.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE2w3 lies in the ability to shape a message from one's own, very personal starting point that reaches far beyond oneself – Stuart's modeling career visibly changed who can be represented on the world's great runways.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the progress of an entire movement through one's own visibility. In the SE2w3, this can combine with the need to continuously reach new, bigger stages to keep her own message alive – a strength that drives change, but also demands sustained public effort.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From a Family in Brisbane to Global Inclusion Advocate</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her first Fashion Week appearance in New York in 2015 through runways in Paris, London, Dubai, Russia, and China to founding her own modeling label in 2017, a single thread runs through Stuart's work: a very personal story consistently translated into a public, groundbreaking message.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please others – it enlarges its territory without giving up its own base, here the close bond to her family and her original cause. Madeline Stuart's path from Brisbane to international runways makes this drive tangible: visibility that served more than just her own career from the very start.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-harnaam-kaur", label:"Portrait: Harnaam Kaur (SE2w3)"},
+        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+function mariacarlaBosconoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mariacarla-boscono-portrait.jpg" alt="Mariacarla Boscono – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariacarla Boscono</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Italian model, born 1980 in Rome &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; an animal whose true strength shows only once a close, reliable bond has formed. Mariacarla Boscono, born in Rome in 1980, was discovered at just 15 at Festivalbar in 1995 and signed with Piero Piazzi at Ricardo Gay in Milan – an early start that would only find its true meaning through a single, decades-long bond.</p>
+          <p class="vb-intro">In 2005 she set a world record: within two weeks she walked more than 70 runways across Milan, New York, and Paris – an enormous physical and logistical feat that shows just how fully Boscono was willing to give herself to her chosen field.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care Through One Deep Creative Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SE2)</strong> <em>Me First</em>: closeness first arises within a single, very close bond, before extending outward. From 2005, Boscono began a collaboration with designer and best friend Riccardo Tisci that helped define Givenchy's aesthetic identity until Tisci left the house in 2017.</p>
+          <p class="vb-intro">This partnership went far beyond an ordinary muse-designer relationship – over more than a decade, Boscono became a steady, reliable creative touchstone for Tisci, both at Givenchy and later at Burberry. Care, expressed through years of loyal creative presence at the side of a single close confidant.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Most Visible Muse in International Fashion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to still seek the greatest possible public visibility from a close, reliable base. Boscono appeared in campaigns for Chanel, La Perla, Dior, Saint Laurent, and Prada, and graced the covers of Vogue Italia, LOVE Magazine, Vogue China, Glamour Italy, and Harper's Bazaar Spain.</p>
+          <p class="vb-intro">Her world record of more than 70 runway appearances in two weeks is the most concrete embodiment of this drive: maximum, publicly measurable presence, achieved by the same woman who simultaneously maintained her closest creative bond unchanged for more than a decade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE2w3 lies in the ability to sustain a single, deep creative partnership – with Riccardo Tisci – for more than a decade while simultaneously becoming one of the most internationally visible muses in fashion, without giving up that close bond to do so.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to another person's creative success. In the SE2w3, this can combine with an identity that remains closely tied to a single central relationship – a strength as long as that relationship lasts, but also a vulnerability should it ever end, as became apparent in 2017 with Tisci's departure from Givenchy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Festivalbar 1995 to Muse of Two Fashion Houses</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her discovery at age 15 through her 2005 world record to more than a decade of collaboration with Riccardo Tisci at Givenchy and Burberry, a single thread runs through Boscono's work: extraordinary public visibility, carried by one deep and lasting creative bond.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please others – it defends its closest bond while expanding its territory outward. Mariacarla Boscono's path from Rome to becoming the international muse of two great fashion houses is this drive distilled: world fame that grew out of loyalty to a single, close creative partnership.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
       ])}
     </div>
   `);
@@ -18305,9 +18721,10 @@ function goldaMeirPortraitPage() {
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         </blockquote>
 
-        <p class="vb-intro">Since the 1960s, Meir had lived with a lymphoma diagnosis that she kept largely secret throughout her entire term as Prime Minister – a parallel to Winston Churchill (also SE8w9), whose own concealed stroke is explored in his own <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Illness Portrait</a>.</p>
+        <p class="vb-intro">The lymphoma diagnosis Meir kept secret for seventeen years, throughout her entire term as Prime Minister, is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-golda-meir">illness portrait on Meir</a> – with a parallel to Winston Churchill (also SE8w9), whose own concealed stroke is explored in the <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">illness portrait on Churchill</a>.</p>
 
         ${relatedLinks([
+          {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9)"},
           {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
           {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
           {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
@@ -18452,6 +18869,7 @@ function winstonChurchillPortraitPage() {
         {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
         {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9)"},
       ])}
     </div>
   `);
@@ -19504,6 +19922,7 @@ function teresaVonAvilaPortraitPage() {
         {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4)"},
+        {route:"krankheitsportraets-teresa-von-avila", label:"Illness Portrait: Teresa of Ávila – Apparent Death & Paralysis"},
       ])}
     </div>
   `);
@@ -22688,12 +23107,15 @@ function claudeDebussyPortraitPage() {
           <p class="vb-intro">Debussy died in 1918 of cancer, as Paris was under German artillery fire &ndash; one of his last public appearances was a concert under wartime conditions, at which he refused to let the circumstances dictate his own music. The Chihuahua from Saint-Germain-en-Laye did not make music louder to be heard &ndash; he taught it to float, to shimmer, to suggest. That is the sexual Four with a Five-wing. That is Claude Debussy.</p>
         </blockquote>
 
+        <p class="vb-intro">The almost nine-year colorectal cancer illness that Debussy kept largely private during the First World War is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-claude-debussy">illness portrait on Debussy</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"krankheitsportraets-claude-debussy", label:"Illness Portrait: Claude Debussy (SX4w5)"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-ana-de-armas", label:"Portrait: Ana de Armas (SX4w5)"},
         {route:"beruehmte-linda-leinweber", label:"Portrait: Linda Leinweber (SX4w5)"},
@@ -23995,6 +24417,7 @@ function giacomoPucciniPortraitPage() {
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         {route:"beruehmte-diogenes", label:"Portrait: Diogenes of Sinope (SX8w7)"},
         {route:"beruehmte-gerhard-schroeder", label:"Portrait: Gerhard Schröder (SX8w7)"},
+        {route:"krankheitsportraets-giacomo-puccini", label:"Illness Portrait: Giacomo Puccini – Throat Cancer & Turandot"},
       ])}
     </div>
   `);
@@ -24784,6 +25207,7 @@ function franzSchubertPortraitPage() {
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
+        {route:"krankheitsportraets-franz-schubert", label:"Illness Portrait: Franz Schubert – Syphilis & Winterreise"},
       ])}
     </div>
   `);
@@ -25744,6 +26168,360 @@ function tuttyTranPortraitPage() {
   `);
 }
 
+function tracieDHallPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-tracie-d-hall-portrait.jpg" alt="Tracie D. Hall – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tracie D. Hall</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American librarian &amp; former Executive Director of the American Library Association &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that draws its strength from practical, everyday work within concrete communities before taking on greater responsibility. Tracie D. Hall spent years working in public libraries across the United States &ndash; the Seattle Public Library, the New Haven Free Library, the Queens Public Library, and the Hartford Free Public Library &ndash; before rising into a national leadership role.</p>
+          <p class="vb-intro">Her academic foundation is as broadly rooted as her practical experience: a master's degree in library and information science from the University of Washington, a master's in International and Area Studies with a focus on Sub-Saharan Africa from Yale, and dual bachelor's degrees in Law and Society and Black Studies from the University of California, Santa Barbara, complemented by periods of study at the Universities of Nairobi and Dar es Salaam.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care That Grows From the Ground Up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete foundation before it extends further. In 1998, Hall was among the first cohort of ALA Spectrum Scholars, a program to diversify librarianship, and in the early 2000s she directed ALA's Office of Diversity &ndash; work at the concrete foundation of her own professional community, long before she took on its highest office.</p>
+          <p class="vb-intro">Even as assistant dean at Dominican University's Graduate School of Library and Information Science, she remained rooted in the practical training of the next generation. The SP2 builds its later impact on a foundation it has come to know closely, over years, from the ground up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: First Black Executive Director in ALA History</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to turn a secured foundation into visible, publicly effective success. In 2020, Hall was appointed Executive Director of the American Library Association &ndash; the first African American woman to hold that position in the organization's entire history.</p>
+          <p class="vb-intro">During her tenure, the ALA received the largest unrestricted grants in its history, and Hall was named to the TIME100, Time magazine's annual list of the world's 100 most influential people. The Three-wing translated decades of grassroots work into a nationally visible, historically significant leadership position.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to reach a historic leadership position out of decades of unglamorous, ground-level work, without ever losing one's roots in practical library work. Hall's path from library employee to ALA's first Black executive director shows how steady, grassroots-level commitment can condense into far-reaching impact.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the wellbeing of one's own professional community. In the SP2w3, this can combine with a high level of personal exertion in a complex, often conflict-laden leadership role &ndash; Hall left the ALA in 2023 after three and a half years, a tenure marked by financial successes as well as internal organizational tensions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Library Employee to TIME100 Honoree</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her early years in public libraries across the United States through leading ALA's Office of Diversity to her historic appointment as executive director, a single thread runs through Hall's work: leadership that grows out of decades of practical, ground-level work, not a leap from outside.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please anyone &ndash; it enlarges its territory without giving up its own foundation. Tracie D. Hall's path from the local library to a nationally recognized voice of American librarianship shows this drive at its most constructive: impact grown out of years of concrete, grassroots work.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SP2w3)"},
+        {route:"beruehmte-thomas-chaanhing", label:"Portrait: Thomas Chaanhing (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function thomasChaanhingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-thomas-chaanhing-portrait.jpg" alt="Thomas Chaanhing – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas Chaanhing</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">Danish-Chinese actor, born 1976 in Denmark &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that doesn't seek its foundation in a single culture or language, but roots itself in several worlds at once, so it can be reliably present in each of them. Thomas Chaanhing was born on January 2, 1976, in Denmark, of Danish-Chinese heritage &ndash; two cultural roots he never played off against each other throughout his career, but cultivated equally.</p>
+          <p class="vb-intro">His language skills reflect this dual rootedness: alongside his native Danish, he speaks fluent Cantonese, English, Swedish, German, and Mandarin &ndash; a linguistic foundation far beyond what an acting career typically requires, testifying to a deep, personal need for connection with different cultural roots.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Reliability in the Closest Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete foundation and closest circle. Since September 25, 2004, Chaanhing has been married to Sara Chaanhing Kennedy &ndash; a long-standing, stable bond that has held steady alongside an international acting career often moving from production to production.</p>
+          <p class="vb-intro">This reliability at the private core also shows in his professional versatility: action and martial-arts acting, dubbing, motion capture, musical acting, singing, and theater work &ndash; Chaanhing builds his professional foundation not on a single, narrow niche, but on a broad, sturdy set of skills that lets him be needed across many different productions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Visible Roles in International Major Productions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to turn a broad, reliable foundation into visible, publicly effective success. Chaanhing took on supporting roles in internationally broadcast productions: as Gerel in <em>Marco Polo</em> (2014), as Lord Agelmar Jagad in <em>The Wheel of Time</em> (since 2021), as Jiang Liei in <em>Around the World in 80 Days</em> (2021), and as Lucas Ozera in <em>Vampire Academy</em> (2022).</p>
+          <p class="vb-intro">This choice of roles shows a recurring pattern: no single, defining lead role, but a continuous presence across different major international formats, built up over years. The Three-wing consistently translates versatile skill into visible, recurring participation in well-known productions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to combine two cultural heritages and an unusually broad range of acting skills into a reliable, versatile professional foundation, instead of limiting oneself to a single identity or niche.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own reliability and versatility. In the SP2w3, this can show in proving one's own worth above all through the breadth of one's engagement &ndash; many languages, many disciplines, many productions &ndash; rather than concentrating on a single, clearly recognizable signature role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Career Built from Many Supporting Roles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From his Danish-Chinese heritage through an unusual range of languages to supporting roles in several international series formats, a single thread runs through Chaanhing's work: reliability as a guiding principle, both in his private core and in his professional presence.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please anyone &ndash; it enlarges its territory without giving up its own foundation. Thomas Chaanhing's path from a dual cultural heritage to an internationally visible acting career reveals where this drive leads: versatility that always rests on a solid, private foundation.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-stromae", label:"Portrait: Stromae (SP2w3)"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function stromaePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-stromae-portrait.jpg" alt="Stromae – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stromae (Paul Van Haver)</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">Belgian-Rwandan singer &amp; musician, born 1985 in Brussels &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that devotes its deepest care to its closest family circle, even when that circle has been torn apart by loss. Paul Van Haver, known as Stromae, grew up in the Brussels district of Laeken with his Belgian Flemish mother, Miranda Van Haver, after his Rwandan father, Pierre Rutare, a respected architect, was killed in 1994 during the Rwandan genocide while visiting family.</p>
+          <p class="vb-intro">This loss shaped his entire later work. Rather than suppressing the pain, his own wounded family history became the starting point of his music &ndash; care that was directed first at his own inner circle, before it was transformed into a song heard around the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: A Song as a Search for the Lost Father</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete family, before it turns outward. Stromae's song <em>Papaoutai</em> &ndash; "Dad, where are you?" &ndash; directly processes the loss of his father and became one of the biggest hits of his career. Not an abstract theme, but a deeply personal family wound that became the most widely heard expression of his work.</p>
+          <p class="vb-intro">In 2015, he returned to Rwanda to engage with his father's roots &ndash; a deliberate, emotional journey back to his own origins, not merely a biographical footnote. The SP2 seeks clarity about its own closest history first, before opening itself to a wider audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Belgian Insider Tip to European Number-One Hit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to turn a personal, family-rooted foundation into visible, publicly effective success. In 2009, Stromae gained international attention with <em>Alors on danse</em> &ndash; the song reached number one in several European countries and made him, practically overnight, a global star of electronic music.</p>
+          <p class="vb-intro">His unmistakable visual style &ndash; distinctive suits, choreographed stage performances, a clear aesthetic signature &ndash; translated deeply personal music into an internationally recognizable overall image. The Three-wing turned a very private process of working through grief into a globally celebrated artistic body of work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to shape, out of a deeply personal family wound, a body of work that moves millions of people worldwide without diluting one's own story. <em>Papaoutai</em> remains a song that draws its power precisely from its specificity &ndash; not a general lament, but the question of one particular son to his one particular, lost father.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care and one's own work. In the SP2w3, this can combine with a high degree of personal exertion: in 2015, Stromae suffered severe side effects, including depression, anxiety, and hallucinations, after taking an anti-malaria medication &ndash; a price that intense public presence and the processing of one's own wounds can demand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From His Own Family History to Worldwide Success</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From his childhood in Laeken through the loss of his father and his return to Rwanda to world hits like <em>Alors on danse</em> and <em>Papaoutai</em>, a single thread runs through Stromae's work: his own wounded family history, never abandoned, repeatedly translated anew into music.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please anyone &ndash; it enlarges its territory without giving up its own foundation. Stromae's path from a boy who lost his father to an internationally celebrated musician shows this drive at its most moving: turning one's own closest wound into a voice that reaches millions.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SP2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function nateDoggPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-nate-dogg-portrait.jpg" alt="Nate Dogg – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nate Dogg</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American singer &amp; rapper, 1969&ndash;2011 &ndash; "King of Hooks" &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that draws its strength from a fixed, familiar circle rather than scattering it far and wide. Nate Dogg began his musical life not on a stage but at New Hope Baptist Church in Long Beach, where his own father, Daniel Lee Hale, preached as pastor &ndash; a voice shaped from the ground up within the closest family and community environment.</p>
+          <p class="vb-intro">Nathaniel Dwayne Hale was born on August 19, 1969, in Clarksdale, Mississippi, and moved to Long Beach, California, at age fourteen after his parents' divorce. After dropping out of high school at seventeen, he served three years as an ammunition specialist in the US Marine Corps in Japan before returning to Long Beach &ndash; a path through discipline and service before music became his actual calling.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: A Voice in Service of the Closest Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own closest foundation, before it extends further. Back in Long Beach, Nate Dogg formed the group 213 with his childhood friends Snoop Dogg (SX7w8) and Warren G &ndash; not a chance collaboration, but a continuation of the same bond, grown since youth, that carried his entire later body of work.</p>
+          <p class="vb-intro">In 1992, he debuted on Dr. Dre's (SO2w3) album <em>The Chronic</em> and signed to Death Row Records in 1993 &ndash; yet instead of standing at the center as a solo artist, his most important contribution across an entire career remained the chorus, the hook, the voice in service of other people's songs. The SP2 doesn't give in order to shine itself, but because its care is directed at the success of the whole.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: "King of Hooks"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to turn a loyal foundation into visible, recognizable success. Nate Dogg's sonorous, unmistakable baritone became, over more than a decade, a fixture on countless hip-hop hits &ndash; sixteen entries on the Billboard Hot 100, including "Ain't No Fun" with Snoop Dogg and "The Next Episode" with Dr. Dre, earned him the nickname "King of Hooks."</p>
+          <p class="vb-intro">His three solo albums, meanwhile, never sold more than 500,000 copies each &ndash; a clear mismatch between the impact of his voice on other people's songs and the commercial success of his own work. The Three-wing nonetheless turned this supporting role into an unmistakable, publicly recognized brand: his contribution was small in song length, but enormous in recognizability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to put one's own contribution entirely in service of other people's work without losing one's own distinctiveness. Nate Dogg's voice helped define an entire era of G-funk, even though he himself rarely stood at the center of attention &ndash; a rare case of influence that isn't measured by one's own chart positions.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own care. In the SP2w3, this can combine with a tendency to place one's own visibility behind the success of others, even when one's own work remains commercially in the shadow as a result &ndash; a generosity that produced enormous cultural influence but rarely paid off in personal fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: A Voice That Made Other People's Songs Immortal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From his father's church through his friendship with Snoop Dogg and Warren G to sixteen Billboard Hot 100 hits as a guest vocalist, a single thread runs through Nate Dogg's work: a voice whose greatest impact unfolded in service of other people's work, not his own.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please anyone &ndash; it carries its strength to wherever it's needed. Nate Dogg died on March 15, 2011, from complications of two strokes. His path from the church pew through his closest circle of friends to "King of Hooks" shows this drive at its purest: care that would rather make other people's songs immortal than put its own voice at the center.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
+        {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function monicaSimpsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-monica-simpson-portrait.jpg" alt="Monica Simpson – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Monica Simpson</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American activist &amp; Executive Director of SisterSong, born in Wingate, North Carolina &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that draws its strength from being rooted in a concrete community and defends that community with full determination. Monica Simpson grew up in Wingate, North Carolina, where she was often the only Black child in honors classes and similar spaces &ndash; an early experience of isolation that became the starting point for a lifelong commitment to her own community.</p>
+          <p class="vb-intro">She studied at Johnson C. Smith University, a historically Black university in Charlotte, North Carolina &ndash; a deliberate return to her own roots rather than a move away from them. Out of this early experience of otherness grew an engagement oriented, from the start, toward the concrete lived reality of Black women in the American South.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care Rooted in Her Own South</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete foundation and closest circle, before it extends further. In Simpson, this shows in more than two decades of organizing work for reproductive justice, civil and human rights, and LGBTQ liberation &ndash; an engagement that explicitly begins from a Southern perspective before expanding into global contexts.</p>
+          <p class="vb-intro">At SisterSong, the Southern-based Women of Color reproductive justice collective, she rose to deputy coordinator in 2011, became interim executive director in 2012, and was made permanent executive director in 2013 &ndash; a rise within the same organization, not across shifting positions. The SP2 builds its impact on a foundation it has known for years and trusts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Activism That Makes Itself Heard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to unlock visible, public influence from a secured foundation. Simpson is not only an organizer but also a singer and spoken-word artist who deliberately fuses art with her activism &ndash; a voice meant to be heard, literally and figuratively.</p>
+          <p class="vb-intro">As executive director of SisterSong, she represents the organization in national and international contexts, including conversations and video features with the Ford Foundation. The Three-wing translates grassroots work deeply rooted in her own community into a publicly visible, nationally recognized voice for reproductive justice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to work consistently for one's own community across decades, starting from an early, painful experience of isolation, without ever drifting from that foundation. Simpson's path from the only Black child in the honors class to a nationally recognized voice of the reproductive justice movement shows how early wounds can be transformed into steady, community-rooted engagement.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the wellbeing of one's own community. In the SP2w3, this can combine with a high level of personal commitment that allows for barely a pause over two decades &ndash; an endurance that produces enormous impact, yet never really switches off.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Wingate to Executive Director of a National Movement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her childhood in Wingate through her studies at a historically Black university to her rise within SisterSong to executive director, a single thread runs through Simpson's work: engagement that never leaves its home community, but draws ever wider circles from it.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please anyone &ndash; it enlarges its territory without giving up its own foundation. Monica Simpson's path from an early experience of isolation to the voice of a national movement for reproductive justice shows this drive at its most constructive: care rooted in her own South, growing outward from there.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SP2w3)"},
+        {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function mickeyRourkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mickey-rourke-portrait.jpg" alt="Mickey Rourke – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mickey Rourke</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American actor, born 1952 in Schenectady, New York &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two &ndash; a creature that hides its vulnerability under a massive, often intimidating surface and allows real closeness only within its closest, most reliable circle. Few careers show this dual nature as clearly as Mickey Rourke's: a man whose public image is defined by toughness, while for decades his deepest, most faithful bond was with his dogs.</p>
+          <p class="vb-intro">Philip Andre Rourke Jr. was born on September 16, 1952, in Schenectady, New York, and found early refuge from a difficult home life in the boxing ring &ndash; at the same Miami gym that had once produced Muhammad Ali (SO2w1). The ring became, for him, a place where pain took on a clear, controllable form instead of remaining diffuse and unpredictable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: When the Dogs Were Everything</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care turns first to one's own concrete survival and closest circle, before it turns outward. In Rourke, this showed with particular intensity during the loneliest years of his career: when his acting career had essentially collapsed in the 1990s, it was his dogs who remained.</p>
+          <p class="vb-intro"><em>The dogs were there when no one else was there</em>, he said later &ndash; <em>they became everything to me</em>. In his 2009 Golden Globe acceptance speech for <em>The Wrestler</em>, he explicitly thanked all his dogs, living and gone: <em>Sometimes when a man's alone, that's all you got is your dog, and they meant the world to me.</em> His Chihuahua-terrier mix Loki, whom he called "like a giant Xanax," died just days before the 2009 Oscars &ndash; a loss that shows how concrete and physical the SP2's care is bound to be, not attached to an abstract idea but to a single, tangible being.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: A Body, Rebuilt Twice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build, out of a secured foundation, visible, publicly effective success &ndash; and, if necessary, to rebuild one's own image from the ground up. In the 1980s, Rourke was one of the most sought-after screen stars of his generation with films like <em>9½ Weeks</em> and <em>Angel Heart</em>, before giving up acting in 1991 for a professional boxing career.</p>
+          <p class="vb-intro">Eight fights, no title shot, but severe facial injuries requiring numerous reconstructive surgeries &ndash; Rourke literally rebuilt his own face before showing it to the public again in 2008 as aging wrestler Randy "The Ram" Robinson in <em>The Wrestler</em>. The parallel between character and performer, both former fighters searching for one last great comeback, made the film one of the most striking self-portrayals in recent film history. The Three-wing translated decades of physically suffered destruction into one of Hollywood's most moving comebacks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 lies in the ability to shape, out of the deepest personal loss &ndash; one's own career, one's own face, years of isolation &ndash; a role that turns exactly that pain into something artistically true. Rourke's Golden Globe win for <em>The Wrestler</em> was not an ordinary acting success, but public recognition of a path that led through real, years-long wounds.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable through one's own toughness and independence. In the SP2w3, this can combine with a willingness to subject one's own career and body to radical, risky reinvention &ndash; a strength that led to one of the most remarkable comebacks in film history, but also demanded a high physical and personal price.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Screen Star Through the Boxing Ring Back to the Screen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From the early successes of the 1980s through his professional boxing career and years of relative obscurity to the celebrated comeback with <em>The Wrestler</em> and his role as Marv in <em>Sin City</em>, a single thread runs through Rourke's work: a body and a career repeatedly taken apart and put back together, never given up.</p>
+          <p class="vb-intro">The hippopotamus does not leave its ancestral waters to please anyone &ndash; it defends what belongs to it, even when no one else is watching. Mickey Rourke's path from Hollywood star through the boxing ring, accompanied only by his dogs, back to the screen shows this drive at its rawest: survival first, then everything else.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function mrTPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -26541,6 +27319,7 @@ function larryKingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SP7w6)"},
+        {route:"krankheitsportraets-larry-king", label:"Illness Portrait: Larry King – Heart, Cancer & COVID-19"},
       ])}
     </div>
   `);
@@ -26805,12 +27584,15 @@ function juliusCaesarPortraitPage() {
           <p class="vb-intro">This is the SO2w3 at its farthest-reaching level: a person whose personal need for belonging transformed into structures that outlasted centuries. The Golden Retriever with the Three-wing can unite an empire &ndash; once he learns that true belonging need not be fought for or secured through ever-new proof, but simply is.</p>
         </blockquote>
 
+        <p class="vb-intro">The recurring seizures attested by ancient sources, which Caesar concealed his entire life, are explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-julius-caesar">illness portrait on Caesar</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"krankheitsportraets-julius-caesar", label:"Illness Portrait: Julius Caesar (SO2w3)"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: subtype profile"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
         {route:"beruehmte-jesus-christus", label:"Portrait: Jesus Christ (SO2w1)"},
@@ -28057,6 +28839,7 @@ function michaelJacksonPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Michael Jackson died on June 25, 2009, in Los Angeles at the age of 50 from acute cardiac arrest, caused by an overdose of the anesthetic propofol administered by his personal physician, Conrad Murray, to treat his insomnia &ndash; just weeks before the planned start of his comeback concert series <em>This Is It</em> in London. Murray was convicted of involuntary manslaughter in 2011.</p>
           <p class="vb-intro">What remains is a musical legacy that still shapes pop culture today, and a biography that shows how closely genius and pain can be intertwined in the social Four with a Three-wing. The armadillo wore its armor until the very end &ndash; gleaming, untouchable, admired by millions. What lay beneath it remained, for the most part, hidden to the last.</p>
+          <p class="vb-intro">The twenty-five-year chain of pain medication, insomnia, and ultimately fatal propofol dependence is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">illness portrait on Jackson</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -28064,6 +28847,7 @@ function michaelJacksonPortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"krankheitsportraets-michael-jackson", label:"Illness Portrait: Michael Jackson (SO4w3)"},
           {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
           {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
           {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
@@ -29152,12 +29936,15 @@ function ludwigVanBeethovenPortraitPage() {
           <p class="vb-intro">This is SX6w5 at its fullest expression: a threat that would have silenced anyone else became the starting point for music that still tears down walls between people today. The wolf who defied his own deafness left posterity not surrender, but a defiance that became joy.</p>
         </blockquote>
 
+        <p class="vb-intro">The far less known illness of the abdomen and liver that ran parallel to his deafness is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-ludwig-van-beethoven">illness portrait on Beethoven</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Illness Portrait: Ludwig van Beethoven (SX6w5)"},
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) \u2013 who revered him his whole life"},
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) \u2013 whom he may have played for"},
@@ -31079,12 +31866,15 @@ function johnWaynePortraitPage() {
           <p class="vb-intro">In the end, one image remains that could hardly stand more fittingly for the Sexual Eight with a Seven-wing: a man of overwhelming physical and dramatic force, whose presence shaped an entire profession and an entire genre &ndash; and who, invisible to most, kept a noticeably quieter, more contemplative side behind it.</p>
         </blockquote>
 
+        <p class="vb-intro">The lung cancer he fought publicly in 1964, and the fatal stomach cancer diagnosis in 1979, are explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-john-wayne">illness portrait on Wayne</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"krankheitsportraets-john-wayne", label:"Illness Portrait: John Wayne (SX8w7)"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
         {route:"beruehmte-gerhard-schroeder", label:"Portrait: Gerhard Schröder (SX8w7)"},
@@ -31658,6 +32448,65 @@ function jillPruetzPortraitPage() {
         {route:"beruehmte-christophe-boesch", label:"Portrait: Prof. Dr. Christophe Boesch (SX7w8)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-jill-pruetz")}
+    </div>
+  `);
+}
+
+function alexanderBommesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-alexander-bommes-portrait.jpg" alt="Alexander Bommes – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alexander Bommes</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">German TV host &amp; former handball professional, born 1976 in Kiel &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the social Seven &ndash; it doesn't build for itself alone, but creates structures and formats that serve a broad public, and it's rarely satisfied with just one project. Alexander Bommes has hosted several regular television formats in parallel for years &ndash; a restless simultaneity that reflects exactly this beaver nature.</p>
+          <p class="vb-intro">Alexander Bommes was born on January 21, 1976, in Kiel, and played handball from a young age, first in his hometown club's second-division team, then from 1999 in Germany's top handball league for TSV Bayer Dormagen and from 2001 for VfL Gummersbach. Alongside his active sports career, he began studying law in Kiel in 1997 &ndash; pursuing two demanding paths at once was, for him, never a contradiction but the normal state of affairs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: From Professional Sport to Service for the Public</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Seven (SO7)</strong> <em>Sacrifice</em>: it gives up its own immediate enjoyment in favor of a larger cause. At the end of 2007, Bommes ended his handball career and, instead of pursuing a legal career after his first state law exam, chose to begin a journalism traineeship at NDR &ndash; a deliberate break from the obvious, secure path in favor of a new role in service of the public.</p>
+          <p class="vb-intro">From late 2007 to 2015, he anchored the <em>Hamburger Journal</em> and worked as a sports reporter, before joining the regular hosting team of ARD's <em>Sportschau am Sonntag</em> in 2011. The Beaver doesn't build for its own fame, but because it believes a reliable, well-crafted program serves a large audience &ndash; decades of steady care for the viewers who tune in week after week.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Security Before the Big Leap</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the social Seven a quality that contrasts with its versatility: caution, loyalty to institutions, a need for a reliable framework. Bommes didn't make the switch from handball to journalism abruptly, but only after completing his first state law exam &ndash; a secured step, not a leap into the unknown.</p>
+          <p class="vb-intro">This wing shows even more clearly in his long-standing tie to the same broadcaster: from his traineeship at NDR through the Hamburger Journal to the ARD Sportschau and the quiz show <em>Gefragt – Gejagt</em>, which he has hosted since 2012, Bommes stayed loyal to the same institutional environment for nearly two decades, rather than jumping between broadcasters and formats. The Beaver would rather build within a proven, sturdy bank than prematurely leave secure ground.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Gluttony as Format Diversity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong>, or excess: an insatiable appetite for ever new possibilities. In Bommes, this doesn't show as erraticism, but in the ability to carry several demanding formats simultaneously over years &ndash; live sports hosting, a daily news program, and a weekly quiz show, each with its own demands on pace, tone, and preparation.</p>
+          <p class="vb-intro">In May 2025, Bommes announced he would end his role as live sports host at the ARD Sportschau to devote himself to new subjects &ndash; a change that is less a retreat than a continuation of the same excess: even after nearly two decades in a fixed format, the appetite for new tasks remains unbroken, as long as it stays within the same familiar institutional framework.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Bundesliga Handball Player to a Reliable Face of ARD</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From Germany's top handball league through law school and his traineeship at NDR to nearly two decades as a fixed face of ARD, a single thread runs through Bommes' career: changes that were always made only after a solid foundation was in place, never on impulse.</p>
+          <p class="vb-intro">The Beaver builds continuously, without pausing, but always on solid ground. Alexander Bommes' path from professional athlete through journalist to quiz-show host shows this drive at its most constructive: versatility that never detaches itself from the reliability of a familiar institutional framework.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+        {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
+      ])}
     </div>
   `);
 }
@@ -34432,6 +35281,7 @@ function wilmaMankillerPortraitPage() {
           {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
           {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1)"},
           {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – parallel to Mankiller's illness history"},
+          {route:"krankheitsportraets-wilma-mankiller", label:"Illness Portrait: Wilma Mankiller – Kidney Disease & Cancer"},
         ])}
       </div>
     </div>
@@ -35543,6 +36393,7 @@ function claudioNaranjoPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-gertrude-elion", label:"Portrait: Gertrude Belle Elion (SO5w4)"},
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
+        {route:"krankheitsportraets-claudio-naranjo", label:"Illness Portrait: Dr. Claudio Naranjo – Parkinson's"},
       ])}
     </div>
   `);
@@ -36925,6 +37776,949 @@ function janUllrichPortraitPage() {
   `);
 }
 
+
+function douglasRushkoffPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-douglas-rushkoff-portrait.jpg" alt="Douglas Rushkoff – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Douglas Rushkoff</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">American media theorist &amp; author, born 1961 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't limit its warmth to individuals but extends it to the whole pack, and that barks a warning when the pack is in danger. Douglas Rushkoff has occupied exactly this role in digital culture since the 1990s: one of the earliest and loudest voices insisting that technology should serve people &ndash; not the other way around.</p>
+          <p class="vb-intro">Douglas Rushkoff was born on February 18, 1961, in New York City, the son of a psychiatric social worker and a hospital administrator. After studying at Princeton, earning an MFA from the California Institute of the Arts, and completing a PhD at Utrecht University on media literacy, he became a central figure in the cyberpunk and cyberdelic movement of the early 1990s &ndash; an early observer of what the internet would do to society.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care for Humanity in the Digital Age</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire collective through influence and public reach. Rushkoff's entire body of work &ndash; more than 25 books on media, technology, and culture &ndash; is carried by exactly this drive: terms like <em>digital native</em>, <em>going viral</em>, or <em>screenager</em>, which he himself coined, were meant to give the public tools to understand its own digital environment, rather than being helplessly subject to it.</p>
+          <p class="vb-intro">In 2019, he launched <em>Team Human</em> &ndash; both a book and a podcast &ndash; as a genuine manifesto of collective belonging: humans, he argues, are deeply social creatures who achieve their greatest goals only together. It is no coincidence that a social Two with a One-wing chose exactly this title &ndash; belonging to <em>Team Human</em> as a counter-design to a world in which algorithms pit people against one another.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Warning as Moral Duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of principled conviction and a need to name what is right, even when it is uncomfortable. This showed most clearly in 2022, when five billionaires invited Rushkoff, as a well-known futures thinker, to a remote luxury resort to ask him about survival strategies for civilizational collapse: fortified bunkers, private security forces, escape islands.</p>
+          <p class="vb-intro">Instead of giving his hosts what they wanted to hear, Rushkoff turned the encounter into his book <em>Survival of the Richest</em> &ndash; a public reckoning with the escape logic of the ultra-wealthy, paired with the clear thesis that real safety comes not from isolation but only from a society in which people treat each other better. The One-wing made him willing to risk the trust of the powerful in order to tell the public the truth instead.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to recognize complex societal developments early and translate them into clear, accessible language before the wider public even senses their scope. Rushkoff's early warnings about the commercialization of the internet &ndash; anchored to milestones like the 1995 Netscape IPO and Time Warner's 2000 acquisition of AOL &ndash; proved, in hindsight, remarkably accurate.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can settle into a fixed position as the morally clear-sighted watchman, whose repeated departures from major platforms &ndash; leaving Facebook in 2013 and X in 2023, both citing privacy concerns &ndash; can also become a demonstrative gesture: public proof of one's own principles, not merely their quiet exercise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Cyberpunk Chronicler to Advocate for the Human</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From <em>Cyberia</em> (1994), his early chronicle of cyberculture, through <em>Media Virus</em> (1995) and <em>Coercion</em> (1999, winner of the Marshall McLuhan Award), to <em>Present Shock</em>, <em>Team Human</em>, and <em>Survival of the Richest</em>, a single thread runs through Rushkoff's work: the question of how people can preserve their humanity and their connection to one another amid ever-accelerating technological change. Today he teaches as Professor of Media Theory and Digital Economics at Queens College, City University of New York.</p>
+          <p class="vb-intro">The Golden Retriever doesn't bark out of fear but out of care &ndash; it warns the pack because the pack matters to it. Rushkoff's decades of warnings were never technophobia for its own sake, but a sustained attempt to remind an entire society that technology should serve what is human &ndash; not the other way around.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function mickyBeisenherzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-micky-beisenherz-portrait.jpg" alt="Micky Beisenherz – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Micky Beisenherz</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">German host, podcaster &amp; columnist, born 1977 in Recklinghausen &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that warms every room and doesn't wait to be asked, but volunteers what matters right now. Micky Beisenherz built an entire career out of exactly this drive: as one of the most-listened-to voices in German-language news podcasting, guiding millions of people through world events every day.</p>
+          <p class="vb-intro">Michael Beisenherz was born on June 28, 1977, in Recklinghausen and grew up in Castrop-Rauxel as the son of a master plumber. After graduating high school he studied social sciences in Bochum for one semester, then spent a year working construction before an internship at a local radio station led him to Radio NRW &ndash; a path that didn't lead straight to the stage, but took detours that kept him grounded.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care Through Daily Orientation for an Entire Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to be present for an entire collective through influence and public reach. Since 2020, Beisenherz has co-hosted the podcast <em>Apokalypse & Filterkaffee</em> with Nikki Hassan-Nia &ndash; a format that explicitly presents itself as opinion journalism: not detached news reading, but daily context-setting with a recognizable point of view.</p>
+          <p class="vb-intro">In 2022, the podcast ranked among the most-listened-to German-language formats of all &ndash; an audience that reliably lets the same voice guide it through world events every morning. The same care shows in his journalistic side work: since 2016 he has written columns for <em>Stern</em>, and regularly for <em>Süddeutsche Zeitung</em> and <em>Die Zeit</em> &ndash; always with the same underlying pattern of making complex events accessible and pointed for a broad audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Conviction Instead of Mere Entertainment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of principled conviction and a need to name things clearly rather than lose itself in mere agreeableness. This is exactly what sets <em>Apokalypse & Filterkaffee</em> apart from ordinary entertainment: the podcast explicitly presents itself as opinion journalism that takes a position instead of simply laying out events side by side.</p>
+          <p class="vb-intro">This stance runs through his entire body of work: as a joke writer for satirical shows like <em>extra3</em>, as a writer for <em>Late Night Berlin</em>, in his columns, which regularly offer pointed commentary on social and political issues. The One-wing ensures that behind the sharp language there is always a recognizable, consistent position &ndash; not opinion for the sake of provocation, but the claim of naming what is right clearly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to freshly process complex, often unsettling world events for a broad audience every single day, without slipping into mere sensationalism. That Beisenherz has reliably hosted for years &ndash; from the WDR talk show <em>Kölner Treff</em>, whose succession from Bettina Böttinger he took over in 2023, to several parallel podcast formats &ndash; shows a reliability that goes beyond mere presence.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the audience. In the SO2w1, this can show as a constant pressure to remain present, sharp, and opinionated every single day, regardless of how exhausting that can become over time. A format that turns itself into a daily institution carries exactly this claim within it: never to fail to appear, always to deliver clear orientation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Local Radio to the Daily Voice of a Generation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From Radio Herne through Radio NRW, where he was for a time part of comedian Mario Barth's crew, to his own TV formats, books like <em>Schreib oder Stirb</em> (with Sebastian Fitzek), and the 2006 Axel Springer Prize for young journalists, a single thread runs through Beisenherz's career: the steady expansion of his own audience, without losing the directness of local radio he started with.</p>
+          <p class="vb-intro">The Golden Retriever doesn't stay quiet out of restraint – it speaks up the moment it has something to say to its pack. Beisenherz's simultaneous daily presence across multiple formats &ndash; podcast, talk show, column &ndash; is exactly this drive in its most consistent form: an audience that relies, day after day, on being guided through the world by the same familiar voice.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function katharinaTempelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-katharina-tempel-portrait.jpg?v=2" alt="Katharina Tempel – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Katharina Tempel</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Psychologist &amp; founder of "Glücksdetektiv," born 1984 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that measures its own happiness by whether it can be useful to others, and that doesn't limit its warmth to a few people but wants to make it available to as many as possible. Dr. Katharina Tempel has turned exactly this drive into a mission: as the "Glücksdetektiv" (happiness detective), she reaches several hundred thousand people every month with scientifically grounded paths to greater wellbeing.</p>
+          <p class="vb-intro">Katharina Tempel was born in June 1984, studied psychology, and earned her doctorate with a dissertation on exercises to increase wellbeing, for which she conducted a study involving more than 1,500 participants. Even her academic work was aimed at something beyond her own career: creating a solid, widely usable body of knowledge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care Directed at an Entire Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire collective through influence and reach. In 2013, Tempel founded the Glücksdetektiv platform to share her psychological knowledge and personal insights with a broad public &ndash; what began as pure knowledge-sharing gradually became active support for people navigating personal crises.</p>
+          <p class="vb-intro">With over 30,000 newsletter subscribers, several hundred thousand people reached monthly, and two bestsellers on the German SPIEGEL list &ndash; <em>Gib dir die Liebe, die du verdienst</em> and <em>Schenk dir das Leben, von dem du träumst</em> &ndash; the SO2 shows itself at its clearest: her own insight becomes a resource for an audience many times larger than her own immediate circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Scientific Rigor Instead of Vague Self-Help</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of care and a need to pass on only what can actually be substantiated. In Tempel, this shows in the clear grounding of her work in empirical research: her dissertation, involving more than 1,500 study participants, is not a side note but the methodological foundation on which all her later Glücksdetektiv work rests.</p>
+          <p class="vb-intro">This rigor sets her approach apart from the broad, often arbitrary self-help scene: instead of general motivational slogans, she offers evidence-based psychological interventions, combined with practical experience from online psychological counseling. The One-wing ensures that caring for a mass audience never comes at the expense of professional precision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to turn an often painful personal experience into something that shows others a solid, scientifically grounded path. Tempel describes herself as having long been reserved and pessimistic &ndash; "at best neutral," as she puts it &ndash; before studying positive psychology fundamentally changed her own outlook. Out of that personal turning point came the drive to make the same possible for others.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can show as a constant demand to keep supplying a growing audience with well-founded, correct answers &ndash; a standard that can become exhausting over time if it doesn't also account for one's own limits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Personal Low Point to Scientifically Grounded Happiness Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With books like <em>Genug gegrübelt, lieber Kopf</em>, a YouTube channel that ranks among the largest German-language offerings on the subject of happiness, and an ongoing online psychological counseling practice, Tempel has turned academic research into a daily-life tool for hundreds of thousands of people.</p>
+          <p class="vb-intro">The Golden Retriever doesn't share its warmth out of obligation, but because that is where it finds its own meaning. Tempel's path from what she herself experienced as "at best neutral" to a scientifically grounded provider of wellbeing for a mass audience shows this drive at its most constructive: not hiding one's own crisis, but turning it into the foundation of a mission for many.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-micky-beisenherz", label:"Portrait: Micky Beisenherz (SO2w1)"},
+        {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function muhammadAliPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-muhammad-ali-portrait.jpg" alt="Muhammad Ali – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Muhammad Ali</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">American heavyweight boxing champion &amp; civil rights activist, 1942&ndash;2016 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal whose presence makes rooms feel bigger, and that puts its strength in service of the whole pack, not just itself. Few people have made this dual nature as visible as Muhammad Ali: the loudest, most self-assured athlete of his era &ndash; and at the same time someone who consistently used his public stage for the cause of Black America.</p>
+          <p class="vb-intro">Cassius Marcellus Clay Jr. was born on January 17, 1942, in Louisville, Kentucky, at a time and in a place where racial segregation was everyday life. In 1964, at age 22, he won the heavyweight world title, joined the Nation of Islam, and took the name Muhammad Ali &ndash; a break with what was expected of a young Black boxer, and the first visible expression of a stance that would shape the rest of his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Personal Fame in Service of an Entire Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire collective through influence and public presence. Ali's famous statement &ndash; <em>Why should they ask me to put on a uniform and go ten thousand miles from home and drop bombs and bullets on brown people in Vietnam, while so-called Negro people in Louisville are treated like dogs and denied simple human rights?</em> &ndash; makes this drive explicit: his resistance was never about his own safety, but about the injustice done to an entire population.</p>
+          <p class="vb-intro">In 1974, Ali fought George Foreman for the heavyweight title in the legendary <em>Rumble in the Jungle</em> in Kinshasa, Zaire &ndash; an event that went far beyond sport and was understood as a celebration of Black pride and Black greatness. Ali used his stage wherever he could to make an entire community visible, not just himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Principle at the Highest Personal Cost</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of moral conviction that does not waver even when it costs everything. In 1967, as reigning world champion, Ali publicly refused induction into military service for the Vietnam War &ndash; a decision that cost him his title, his passport, and his boxing license, plunged him into the legal uncertainty of a conviction, and banned him from the ring during what should have been his athletic prime.</p>
+          <p class="vb-intro">For more than four years, until the U.S. Supreme Court overturned his conviction in 1971, Ali stayed true to his position, even though his return could long since have been made easier. The One-wing shows here in its purest form: principle over advantage, even when the price was his own career at its most productive stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability not to keep personal fame for oneself, but to turn it into momentum for an entire movement. Even after his active career, Ali stayed true to this line: he engaged in humanitarian work worldwide, became a UN Messenger of Peace in 1998, and, despite advanced Parkinson's disease, lit the Olympic flame in Atlanta in 1996 with a visibly trembling hand &ndash; an image that made his vulnerability public without surrendering his dignity.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can combine with a loud self-assurance that is easily mistaken for pure vanity: lines like <em>I am the greatest</em> were, for Ali, never just self-promotion, but part of a deliberate strategy to show an entire oppressed community that pride need not be a privilege reserved for the powerful.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From the Loudest Boxer in the World to a Global Ambassador of Dignity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Three heavyweight world titles, a career that redefined the sport, and decades of humanitarian engagement until his death on June 3, 2016, made Ali one of the most recognized figures of the 20th century &ndash; not despite but precisely because of his willingness to consistently put his own fame to use for others.</p>
+          <p class="vb-intro">The Golden Retriever doesn't bark out of fear, but because the pack matters to it. Ali's path from the loudest mouth in the ring to a globally recognized symbol of dignity under the most adverse conditions demonstrates this pattern vividly: fame not as an end in itself, but as a tool for caring for far more people than could ever be reached individually.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
+        {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function jonathanGroffPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jonathan-groff-portrait.jpg" alt="Jonathan Groff – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jonathan Groff</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">American actor &amp; singer, born 1985 in Lancaster, Pennsylvania &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that wants to make its warmth accessible to as many people as possible, across age and background. Jonathan Groff reaches his audience on an unusually wide range of levels at once: as a Broadway stage star, as the voice of the reindeer-loving Kristoff in Disney's <em>Frozen</em> franchise for an audience of millions of children, and as a serious television actor in series like <em>Mindhunter</em>.</p>
+          <p class="vb-intro">Jonathan Groff was born on March 26, 1985, in Lancaster, Pennsylvania, into a Mennonite family; his father trained standardbred horses. His interest in theater awakened at age three after watching <em>Mary Poppins</em>. Rather than enrolling at Carnegie Mellon University, he moved straight to New York City to pursue theater &ndash; an early, decisive turn toward the stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: A Public Coming Out as an Act of Care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: the drive to care for an entire collective through influence and public presence. In October 2009, Groff publicly came out as gay during the National Equality March &ndash; a deliberately public, collective setting rather than a purely private disclosure, carrying the risk of jeopardizing his own career.</p>
+          <p class="vb-intro">He later described his role in HBO's <em>Looking</em> (2014–2015), the network's first series centering on the lives of gay men, as the most personal project of his career. He also serves on the board of trustees of Broadway Cares/Equity Fights AIDS &ndash; care that is not limited to his own career, but is directed concretely at an entire community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Seriousness Behind Every Role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of seriousness and a need to back every public presence with real substance. As early as 2006, Groff's debut role as Melchior Gabor in <em>Spring Awakening</em> was praised by critics for its "ardency and thoughtfulness" &ndash; qualities that go far beyond mere stage presence.</p>
+          <p class="vb-intro">In 2024, he won the Tony Award for Best Actor in a Musical for his role as Franklin Shepard in <em>Merrily We Roll Along</em> &ndash; following nominations for <em>Spring Awakening</em>, <em>Hamilton</em>, and <em>Just in Time</em>. The One-wing shows in this persistence: holding to the same high artistic standard for nearly two decades until recognition follows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to turn personal risk &ndash; a public coming out in the middle of a rising career &ndash; into a source of strength for an entire community, rather than concealing it. Groff's path from a Mennonite childhood in Pennsylvania to one of the most visible queer voices in American theater shows how personal honesty can translate into societal impact.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can combine with a demand to be equally serious and effective in every role and every public engagement &ndash; a standard that produces extraordinary versatility, but rarely pauses.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From a Mennonite Childhood to a Tony Award Winner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From his first community theater performances in Pennsylvania through his Broadway breakthrough with <em>Spring Awakening</em>, the voice in <em>Frozen</em>, the lead role in <em>Mindhunter</em>, to the 2024 Tony Award, a single thread runs through Groff's work: a presence that repeatedly seeks the broadest possible audience without losing its own seriousness.</p>
+          <p class="vb-intro">The Golden Retriever doesn't push into the spotlight out of vanity, but because that's where it can do the most for its pack. Jonathan Groff's path from a Mennonite childhood to a public coming out to a multiply awarded actor shows this drive at its most constructive: personal truth that becomes care for an entire community.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-joe-navarro", label:"Portrait: Joe Navarro (SO2w1)"},
+        {route:"beruehmte-david-lurey", label:"Portrait: David Lurey (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function joeNavarroPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-joe-navarro-portrait.jpg" alt="Joe Navarro – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joe Navarro</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Cuban-American author &amp; former FBI agent, born 1953 in Cienfuegos, Cuba &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that ultimately wants to pass its own, hard-won abilities on to an entire community. Joe Navarro's interest in body language did not arise from academic curiosity, but from sheer necessity: as a young Cuban refugee in Miami who did not yet speak English, he learned to understand people through their bodily signals instead of words.</p>
+          <p class="vb-intro">Joe Navarro was born on May 26, 1953, in Cienfuegos, Cuba. What began as a survival skill of a linguistically isolated child became the foundation of an extraordinary career &ndash; at 23, he was personally recruited by the FBI and became one of the youngest agents in the agency's history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: A Survival Skill Becomes a Gift to Millions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: the drive to care for an entire collective through influence and knowledge. Navarro worked for 25 years as an FBI special agent in counterintelligence and behavioral assessment and was one of six founding members of the agency's elite Behavioral Analysis Program &ndash; the only agent with recognized expertise in body language.</p>
+          <p class="vb-intro">In 2008, he published <em>What Every Body Is Saying</em>, which became an international bestseller in 27 languages. What had once been a personal survival strategy of an isolated child became a tool made accessible to millions of people worldwide &ndash; the SO2 at its clearest: individual knowledge that becomes a gift to a global audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Scientific System Instead of Mere Anecdote</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of diligence and a need to pass on knowledge on solid rather than arbitrary grounds. Navarro's academic path &ndash; a bachelor's from Brigham Young University and a master's from Salve Regina University &ndash; forms the foundation of his work, which he continues as an adjunct professor at Saint Leo University and a regular lecturer at Harvard Business School.</p>
+          <p class="vb-intro">His position as the sole body language expert in the FBI's Behavioral Analysis Program shows the same standard: behavioral observation should be systematic and verifiable, not intuitively guessed. The One-wing demands that such powerful knowledge &ndash; the ability to read people &ndash; rest on a solid, methodical foundation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to systematically work through a skill born of personal hardship and make it accessible to a broad audience, rather than keeping it as a private advantage. Navarro's path from a linguistically isolated refugee child to a globally recognized expert in nonverbal communication shows how an original vulnerability can be transformed into a universally useful gift.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to others through one's own knowledge. In the SO2w1, this can combine with a high standard for one's own authority, fed by decades of hard-won expertise, leaving little room for arbitrariness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From a Speechless Child to a Globally Sought-After Behavioral Expert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From a child's first, survival-necessary observations without language through 25 years of FBI service to an international bestseller in 27 languages, a single thread runs through Navarro's work: a personal necessity transformed into systematic knowledge and, finally, into a gift for an audience of millions.</p>
+          <p class="vb-intro">The Golden Retriever doesn't wag its tail for attention, but because it senses exactly where the pack needs orientation. Joe Navarro's path from a boy who did not yet speak the language of his new home to a globally recognized teacher of reading human behavior shows this drive at its most constructive: knowledge born of hardship that became care for many.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-david-lurey", label:"Portrait: David Lurey (SO2w1)"},
+        {route:"beruehmte-anastasia-barner", label:"Portrait: Anastasia Barner (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function davidLureyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-david-lurey-portrait.jpg" alt="David Lurey – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Lurey</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">American yoga teacher, musician &amp; event producer &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that wants to distribute warmth not within a small circle, but across large communities. David Lurey, with more than thirty years of yoga practice and twenty-five years of teaching, combines music, movement, and communal experience into an offering explicitly oriented toward "opening consciousness and vitality" for as many people as possible.</p>
+          <p class="vb-intro">As a mantra singer and songwriter, he has released two full-length albums and numerous singles, along with the songbooks <em>Global Bhakti PlayBook</em> and <em>Savasana Serenades Playbook</em> &ndash; music he himself describes as a blend of devotion, storytelling, and raw authenticity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Community as a Central Field of Impact</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: the drive to care for an entire collective through influence and presence. Lurey curates communal experiences ranging from intimate men's circles to larger festivals like the <em>Yoga del Mar Spirit Festival</em> in Mallorca and the <em>Yoga, Sound & Sea Festival</em> in Germany &ndash; spaces he himself describes as places for "community, healing, and growth."</p>
+          <p class="vb-intro">With nearly three hundred online classes through the YogaEasy platform, he additionally reaches an audience far beyond those physically present in his circles and festivals. The SO2 seeks its impact not in a single, close relationship, but in reach across many people.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: A Deliberate Framework Instead of Arbitrary Offerings</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of structure and a need to build one's own offering on a well-considered foundation, rather than leaving it arbitrary. Lurey's work with the King archetype after C. G. Jung shows exactly this: a deliberate, theoretically grounded framing of his yoga work around the development of masculinity, rather than a purely intuitive practice.</p>
+          <p class="vb-intro">His structured online courses for deeper exploration, alongside more open group classes, show this same standard: teaching that offers both accessibility for many and content depth and system. The One-wing demands that care for many never comes at the expense of rigor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to create, out of decades of personal practice, spaces that actually enable community, healing, and connection &ndash; not as a vague claim, but as a concretely experienced offering in private sessions, group classes, and festivals.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can combine with the demand to be present simultaneously on very many levels &ndash; music, teaching, event production, online courses &ndash; which over time can lead to a persistently high workload.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Personal Practice to a Community-Building Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From his first years of personal yoga practice through twenty-five years of teaching to international festivals and nearly three hundred online courses, a single thread runs through Lurey's work: his own deepening, repeatedly translated into an offering for others.</p>
+          <p class="vb-intro">The Golden Retriever shares its warmth because that is where it finds its own meaning. David Lurey's path from personal spiritual practice to internationally active teacher and musician shows this drive at its most constructive: deeper connection, transformation, and joy made accessible to many through music, movement, and community.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-anastasia-barner", label:"Portrait: Anastasia Barner (SO2w1)"},
+        {route:"beruehmte-ranga-yogeshwar", label:"Portrait: Ranga Yogeshwar (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function anastasiaBarnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-anastasia-barner-portrait.jpg" alt="Anastasia Barner – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anastasia Barner</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">German entrepreneur, journalist &amp; founder of FeMentor &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't limit its warmth to individuals, but wants to reach an entire generation. Anastasia Barner began working as a journalist at just fourteen years old and, a year later, was recognized by <em>Der Spiegel</em> as one of the best young up-and-coming journalists &ndash; early proof that her voice was oriented toward a public audience from the start.</p>
+          <p class="vb-intro">She became known as the international TikTok face of Deutsche Welle and worked as a freelance journalist for outlets including Spiegel Online and the Berliner Zeitung. Even this early journalistic career showed a drive that went beyond herself: making topics understandable and relevant for a broad audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Care for an Entire Generation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: the drive to care for an entire collective through influence and public presence. In 2019, at just twenty years old, Barner founded FeMentor, Europe's first reverse-mentoring platform &ndash; a format that explicitly organizes knowledge exchange between generations, rather than acting only within her own age group.</p>
+          <p class="vb-intro">As a representative of Generation Z, she advises companies on social media, media behavior, and talent acquisition &ndash; care directed not at individual people but at mutual understanding between entire generations. The SO2 doesn't just want to speak for itself, but to build a bridge between different societal groups.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Early Journalistic Seriousness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of diligence and a need to treat topics with rigor and responsibility. That Barner began working as a journalist at fourteen and received a prestigious award at fifteen shows an early seriousness that went beyond mere youthful interest.</p>
+          <p class="vb-intro">Her 2023 book <em>(Ge)Gründet – Start-Up-Szene uncovered</em> continues this line: a critical, carefully researched examination of the startup scene, rather than mere self-promotion. The One-wing demands that public visibility always remain tied to substance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to develop, out of her own generational experience, a format that actually builds bridges between old and young, rather than pitting generations against each other. Honors such as the 2019 B.Z. Berliner Helden Prize and the 2020 FemTec Award in the Leadership category confirm an impact that goes beyond mere media presence.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can combine with a high standard for one's own role-model function &ndash; being one of the country's youngest founders brings visibility that also generates pressure of expectation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Young Journalist to a Voice of Generation Z</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her first journalistic work at fourteen through her role as the TikTok face of Deutsche Welle to founding FeMentor and being named among the TOP 10 Social Entrepreneurs of the German Startup Awards in 2022, a single thread runs through Barner's work: a voice aimed, from the start, at a collective, not only at herself.</p>
+          <p class="vb-intro">The Golden Retriever doesn't seek the pack's closeness out of neediness, but to give it exactly what it needs right now. Anastasia Barner's path from teenage journalist to founder of a Europe-wide mentoring platform shows this drive at its most constructive: care that brings entire generations into conversation with one another.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-ranga-yogeshwar", label:"Portrait: Ranga Yogeshwar (SO2w1)"},
+        {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function rangaYogeshwarPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ranga-yogeshwar-portrait.jpg" alt="Ranga Yogeshwar – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ranga Yogeshwar</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">German science journalist &amp; physicist, born 1959 in Luxembourg &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't keep knowledge to itself but retrieves it so the whole pack can benefit. Ranga Yogeshwar has built an entire life's work out of exactly this drive: as one of Germany's best-known science journalists, making complex physical and technical subjects accessible to an audience of millions for decades.</p>
+          <p class="vb-intro">Ranganathan Gregoire Yogeshwar was born on May 18, 1959, in Luxembourg City, the son of a Luxembourgish art historian and an Indian engineer, and spent part of his childhood in Bangalore with his twin brother. His grandfather, the librarian Shiyali Ramamrita Ranganathan, had himself invented a system &ndash; the "colon classification" &ndash; that made knowledge more accessible to others: a family tradition that continued in Yogeshwar's own path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Science as Care for Society</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at individual relationships but at societal impact. Naranjo called this subtype <em>Ambition</em>: the drive to care for an entire collective through influence and public presence. After studying physics at RWTH Aachen and doing research at CERN and the Jülich Research Centre, Yogeshwar joined WDR under Jean Pütz in 1987 &ndash; a deliberate step away from pure research and toward communicating science to a broad public.</p>
+          <p class="vb-intro">Starting in 1993, his show <em>Quarks & Co</em> shaped an entire generation's scientific education on German television, followed by <em>Globus</em> and <em>W wie Wissen</em>. Across decades, this work never targeted a single audience segment but the broadest possible public &ndash; the social Two at its clearest: knowledge meant to be distributed as evenly as possible among as many people as possible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Scientific Rigor and Ethical Standards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of diligence and a need to pass on only what is well substantiated. In Yogeshwar, this shows not only in the decades-long precision of his science communication, but also in the fact that in 2019 he was appointed honorary professor at Bonn-Rhein-Sieg University of Applied Sciences &ndash; where he explicitly teaches ethics and science communication, not merely subject expertise.</p>
+          <p class="vb-intro">This combination of knowledge and responsibility is the One-wing at its most mature: it is not enough to make complicated matters understandable &ndash; they must also be placed in a moral context, for instance when it comes to the societal consequences of new technologies. For him, science communication explicitly becomes an ethical task, not merely a didactic one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 lies in the ability to remain reliably present for decades without ever sacrificing rigor for the sake of easy entertainment. Yogeshwar's fame doesn't rest on a single viral moment but on a relationship of trust with an audience of millions, built over more than thirty years, that relies on his interpretation of events.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w1, this can show as a constant pressure to remain the same trusted authority, professionally and morally, decade after decade. In an interview around his 65th birthday, Yogeshwar himself said he wanted to <em>let go</em> &ndash; a rare, candid glimpse of how hard it can be for the SO2w1 to eventually set down the role of the indispensable explainer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Particle Physicist to the Conscience of Science Communication</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From research at CERN through <em>Quarks & Co</em> to an honorary professorship in ethics and science communication, a single thread runs through Yogeshwar's work: knowledge should not remain the property of a small expert community but become common property &ndash; communicated responsibly, not merely broadcast.</p>
+          <p class="vb-intro">The Golden Retriever doesn't retrieve to show off, but because it helps the pack. Yogeshwar's path from particle physicist to one of the most trusted voices in German science communication mirrors this drive directly: knowledge as something that only reaches its full value once it is shared.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
+        {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function omarSyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-omar-sy-portrait.jpg" alt="Omar Sy – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Omar Sy</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">French actor, born 1978 in Trappes &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that learns early to take responsibility for a group and later extends that care to a far larger audience. Omar Sy grew up as the eldest of ten siblings &ndash; a position that demanded consideration and responsibility for others from a young age, long before he became a public figure himself.</p>
+          <p class="vb-intro">Omar Sy was born on January 20, 1978, in Trappes near Paris, the son of Mauritanian immigrants, and grew up in a multicultural environment. Between 1996 and 1997 he worked at the radio station Radio Nova, where he met Fred Testot &ndash; the start of a years-long, publicly visible partnership that shaped his path into public life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: A Duo That Became Famous Together</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: it wants to have impact, often not alone, but in interplay with others. Starting in 2005, Sy and Testot appeared together in the show <em>Omar et Fred</em> on Canal+ &ndash; a duo format that belonged to both of them equally and helped Sy achieve great popularity in France before he became known internationally.</p>
+          <p class="vb-intro">This willingness to build success as a pair rather than performing solo from the start shows the social Two in one of its most fundamental forms: visibility arising from togetherness, not necessarily from going it alone &ndash; a pattern that continued in his later film roles, many of them shaped by strong duo dynamics.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Radio Station to Internationally Sought-After Film Star</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn popularity into visible, measurable success. In 2011, Sy achieved his international breakthrough with <em>The Intouchables</em> alongside François Cluzet &ndash; the film became the most successful French film of the year, and Sy won the César Award for Best Actor in 2012.</p>
+          <p class="vb-intro">He then quickly gained a foothold in Hollywood as well, with roles alongside Harrison Ford in <em>Jurassic World</em> and in <em>X-Men: Days of Future Past</em>, before reaching a global audience in 2021 as master thief Arsène Lupin in the Netflix series <em>Lupin</em>. The Three-wing translated an initial duo career in French television into one of the most internationally visible acting careers of his generation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability to turn a role that could easily have served stereotypical expectations into a nuanced, globally celebrated character. As caregiver Driss in <em>The Intouchables</em>, Sy gave a character whose backstory could have stayed superficial genuine dignity and depth &ndash; an achievement that carries the SO2's care directly into the acting work itself.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of a shared undertaking. In the SO2w3, this can combine with a need to define oneself through success and public recognition, even though Sy himself emphasizes that he sees himself primarily as an actor &ndash; not reduced to a single role or category.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From the Eldest of Ten Siblings to a World Star with a Double Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From the responsibility of being the eldest of ten children through the radio duo with Fred Testot to his César-winning breakthrough and the global reach of <em>Lupin</em>, a single thread runs through Sy's career: success that repeatedly arises from togetherness, whether with a partner, a fellow actor, or a worldwide audience.</p>
+          <p class="vb-intro">The Golden Retriever shares its stage rather than claiming it for itself alone. Omar Sy's path from Trappes through Parisian radio to the international screen carries this drive forward consistently: visibility that grows out of connection, not separation.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-carl-weathers", label:"Portrait: Carl Weathers (SO2w3)"},
+        {route:"beruehmte-bruno-mars", label:"Portrait: Bruno Mars (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function carlWeathersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-carl-weathers-portrait.jpg" alt="Carl Weathers – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Weathers</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American actor &amp; director, 1948&ndash;2024 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't see its role within an ensemble as second choice, but as a distinct, often decisive force. Carl Weathers never became the biggest star of the films he appeared in, and yet he became one of their most indispensable figures &ndash; as an opponent, mentor, or charismatic supporting actor whose presence completed the lead characters around him.</p>
+          <p class="vb-intro">Carl Weathers was born on January 14, 1948, in New Orleans, Louisiana, and was first a successful football player at San Diego State University and briefly with the Oakland Raiders before retiring from sports in 1974. The switch from team sports to acting was not a break for him, but a continuation of the same role: being part of something larger, reliably contributing one's share.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: The Rival Who Carries an Entire Film Series</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: it doesn't necessarily want to be at the center, but to become indispensable through its impact on the whole. When Weathers auditioned for <em>Rocky</em> in 1976, he remarked after a table read with Sylvester Stallone that they should get him a "real actor" to work with &ndash; not knowing Stallone was both the screenwriter and intended lead. That very directness won Stallone over and secured him the role of Apollo Creed.</p>
+          <p class="vb-intro">As Apollo Creed across four <em>Rocky</em> films, Weathers was never the lead &ndash; and yet the entire series is hard to imagine without his rival. His energy consistently served to make the story around him bigger, rather than pulling it toward himself: the social Two, who measures its worth not by its own size but by what it makes possible for the whole work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Football Pro to a Repeatedly Reinvented Career</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn every role into visible, recognizable success. After Apollo Creed, Weathers played the elite soldier Dillon alongside Arnold Schwarzenegger in <em>Predator</em> and the former golf pro Chubbs Peterson in <em>Happy Gilmore</em> &ndash; two completely different registers, each becoming an unforgettable supporting character.</p>
+          <p class="vb-intro">Late in life, he found a third major comeback with the role of Greef Karga in <em>The Mandalorian</em>, which earned him an Emmy nomination in 2021 &ndash; and he also directed several episodes of the series. The Three-wing ensures a career keeps reinventing itself, rather than resting on a single role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability to reliably take on roles across decades that let others shine, without losing presence himself. Weathers' shift from acting to directing in the final chapter of his career shows how the same energy can, with growing maturity, also move behind the camera &ndash; from being carried to actively carrying a younger cast.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of the whole. In the SO2w3, this can combine with a need to prove, in every new role, that one is still needed &ndash; a drive that led to remarkable versatility across a nearly fifty-year career, but rarely gave cause to rest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Oakland Raiders Pro to Hollywood's Indispensable Supporting Actor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From his football career through Apollo Creed, Dillon, and Chubbs Peterson to Greef Karga and his own directing work, a single thread runs through Weathers' career: the willingness to take on a load-bearing, but never self-centered, role in every team, every cast, every story.</p>
+          <p class="vb-intro">The Golden Retriever doesn't need to be the star of the show to become indispensable. Carl Weathers, who died on February 1, 2024, at age 76, left behind a career that proved exactly that: a legacy isn't measured by the size of one's own role, but by how much one carried the whole.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-bruno-mars", label:"Portrait: Bruno Mars (SO2w3)"},
+        {route:"beruehmte-ayo-edebiri", label:"Portrait: Ayo Edebiri (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function brunoMarsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-bruno-mars-portrait.jpg" alt="Bruno Mars – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bruno Mars</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American singer, songwriter &amp; producer, born 1985 in Honolulu &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that grows up within a family and learns from an early age to entertain an audience. Bruno Mars was already performing on stage with his family band in Waikiki as a child, long before he became a solo world star &ndash; entertainment was never a goal to reach for him, but an environment he had always been at home in.</p>
+          <p class="vb-intro">Peter Gene Hernandez was born on October 8, 1985, in Honolulu, Hawaii, the son of a half Puerto Rican, half Jewish father from Brooklyn and a Filipino mother. In 1991, at just six years old, he appeared on The Arsenio Hall Show as an Elvis Presley impersonator &ndash; early proof of how much his sense of self was tied from the start to an audience he wanted to entertain.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Writing Hits for Others Before His Own Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: it doesn't just want to shine itself, but to become visible through its impact on others. Before Bruno Mars became known as a solo artist, he was a key songwriter behind hits for other performers, including <em>Nothin' on You</em> by B.o.B and <em>Billionaire</em> by Travie McCoy &ndash; successes whose visibility belonged to others first, before they became the springboard for his own career.</p>
+          <p class="vb-intro">This willingness to put his own creative contribution in service of other people's careers first is the social Two in one of its most concrete forms: impact doesn't necessarily come from one's own stage, but from what one makes possible for others &ndash; before that eventually becomes one's own stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Perfection as Stagecraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn talent into a flawlessly staged, visible product. Mars is considered one of the most elaborate live performers of his generation: choreographed dance routines, meticulously recreated retro aesthetics, and an album like <em>24K Magic</em> (2016), which deliberately revived the sound and look of 1990s R&B.</p>
+          <p class="vb-intro">With Anderson .Paak, he formed the duo Silk Sonic and released the joint album <em>An Evening with Silk Sonic</em> in 2021, featuring the hit <em>Leave the Door Open</em> &ndash; a project deliberately designed as a shared stage between two equal artists, rather than a vehicle for a single star. The Three-wing ensures that perfection never remains an end in itself, but always aims at maximum impact on the audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability to put creative energy in service of others so naturally that it produces shared success rather than competition &ndash; visible in his willingness to build a genuine, equal partnership with Anderson .Paak instead of a solo project.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of the performance. In the SO2w3, this can combine with an extraordinarily high standard of perfection for one's own stage presence that leaves little room for imperfection &ndash; a drive that produces outstanding live performances but rarely pauses.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Elvis Impersonator to World Star in His Own Right</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From his first performances in the family band through years as an in-demand songwriter for other artists to his own number-one albums and the celebrated Silk Sonic project, a single thread runs through Mars' career: entertainment that is never only about himself, but always oriented toward the audience and, wherever possible, toward shared stages with others.</p>
+          <p class="vb-intro">The Golden Retriever doesn't perform to dominate, but because the show deserves to be perfect. Bruno Mars' path from six-year-old Elvis impersonator to multiple Grammy winner carries this drive through to its logical conclusion: talent that belonged to the audience from the start, long before it belonged to his own name.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+        {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function ayoEdebiriPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ayo-edebiri-portrait.jpg" alt="Ayo Edebiri – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ayo Edebiri</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American actress, writer &amp; comedian, born 1995 in Boston &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that puts its energy in service of others before stepping into the spotlight itself. Ayo Edebiri didn't begin her career on stage but in the classroom: at New York University she initially studied teaching before switching to dramatic writing &ndash; an early choice to teach and support others that later continued in a different form.</p>
+          <p class="vb-intro">Ayo Edebiri was born on October 3, 1995, in Boston, the daughter of a mother from Barbados and a father from Nigeria, and grew up in a Pentecostal household in Dorchester. Eighth-grade drama class led her to comedy, and she joined her high school's improv troupe &ndash; an early, collective step into a career built from the start on collaboration rather than going it alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: From Background Writer to Voice for the Ensemble</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: it doesn't just want impact for itself, but across an entire production or ensemble. Before Edebiri stepped in front of the camera, she spent several years as a writer for shows like <em>The Rundown with Robin Thede</em>, <em>Dickinson</em>, and <em>Big Mouth</em> &ndash; a role in which success was never tied to her own visibility, but to the success of the whole project.</p>
+          <p class="vb-intro">When she took over the voice role of Missy in <em>Big Mouth</em> in 2020, it happened explicitly because Jenny Slate stepped down to give the role to a Black actress &ndash; a transition that revolved less around personal ambition than the question of who could represent the character most authentically. The social Two thinks of the whole first, then of its own position within it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From the Writers' Desk to the Spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn quiet groundwork into visible, measurable success. Her collaboration with Christopher Storer, the creator of <em>Dickinson</em>, led to her lead role as sous chef Sydney Adamu in <em>The Bear</em> &ndash; a role that earned her a Golden Globe, an Emmy, and a Screen Actors Guild Award, and in the second season, all three categories again.</p>
+          <p class="vb-intro">In parallel, she built an increasingly independent, visible career as writer and actress with <em>Ayo and Rachel Are Single</em>, co-written with Rachel Sennott, and the acclaimed film <em>Bottoms</em>. The Three-wing translated years of behind-the-scenes work into one of the fastest-rising careers of the younger Hollywood generation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability to see success not as competition but as a shared project &ndash; visible in her close, multi-year creative partnership with Rachel Sennott and in her continued work as a writer even after becoming internationally known as an actress.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the success of the whole. In the SO2w3, this can combine with a need to constantly seek new, publicly visible confirmation, even once one's own contribution has long been recognized &ndash; a drive that accelerates careers but rarely settles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From the Writers' Room to Multiple Emmy Awards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her first stand-up performances through years as a background writer to multiple Emmy, Golden Globe, and SAG awards for <em>The Bear</em>, plus voice roles in <em>Teenage Mutant Ninja Turtles: Mutant Mayhem</em> and Pixar's <em>Inside Out 2</em>, a single thread runs through Edebiri's career: success that grows out of collaboration, not going it alone.</p>
+          <p class="vb-intro">The Golden Retriever doesn't step into the spotlight to push others aside, but because the shared work deserves to be seen. Edebiri's path from studying to teach through the writers' room to a multiply awarded lead actress can be read straight off this drive: visibility as the result of collaboration, not its goal.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-ashton-kutcher", label:"Portrait: Ashton Kutcher (SO2w3)"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function ashtonKutcherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ashton-kutcher-portrait.jpg" alt="Ashton Kutcher – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ashton Kutcher</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American actor &amp; entrepreneur, born 1978 in Cedar Rapids, Iowa &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that wants to use its popularity to do good for as many people as possible. From the start, Ashton Kutcher combined acting success with an interest in technology and social engagement &ndash; three stages he tried to occupy all at once.</p>
+          <p class="vb-intro">Christopher Ashton Kutcher was born on February 7, 1978, in Cedar Rapids, Iowa, and began studying biochemical engineering at the University of Iowa before dropping out in favor of an acting career. His breakthrough came with the sitcom <em>That '70s Show</em> &ndash; a springboard he consistently used in the years that followed to keep expanding his reach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Reach in Service of a Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: it doesn't just want success, it wants to put that success to use for a larger cause. More than a decade ago, Kutcher saw a TV special on the atrocities of child sex trafficking and, as he put it himself, couldn't look away. In 2009, he co-founded with Demi Moore the organization that later became known as Thorn.</p>
+          <p class="vb-intro">Thorn developed software called <em>Spotlight</em>, now used by numerous police departments to uncover human trafficking online &ndash; a technology-driven approach that directly connected Kutcher's tech-industry background with his social engagement. The social Two doesn't deploy its public reach at random, but deliberately, for a cause that reaches far beyond its own career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Sitcom Star to Tech Investor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to unlock ever new, visible achievements from a platform. Alongside his acting career, Kutcher built a second, equally public career as an early investor in tech companies like Airbnb and Uber &ndash; a change of field that channeled the same ambition in a new direction.</p>
+          <p class="vb-intro">Even the format concept of the hidden-camera show <em>Punk'd</em> shows this drive: attention and visibility are not accepted as a byproduct, but actively shaped and translated into ever new formats. The Three-wing ensures that popularity continually generates new, measurable fields of impact.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability to turn a single, shattering TV segment into, over years, an effective, technology-driven organization against child trafficking that is actually used by police departments. This is care that doesn't settle for symbolism, but builds concrete tools.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others, combined with the danger of placing personal loyalty to those close to oneself above other principles. In 2023, Kutcher resigned as board chair of Thorn after writing a character letter in support of his convicted former co-star Danny Masterson &ndash; an error in judgment, as he himself admitted, that threatened to overshadow his own work for the organization. This exact tension between personal loyalty and a larger mission is one of the hardest tests for the SO2w3.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Sitcom to "Digital Defender" of Children</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From <em>That '70s Show</em> through early technology investments to co-founding Thorn, described as a "digital defender of children," a single thread runs through Kutcher's public life: visibility repeatedly translated into new, concrete fields of action.</p>
+          <p class="vb-intro">The Golden Retriever puts its energy where it's needed &ndash; even when the path there isn't always straight. Kutcher's path from television star to co-founder of a globally active organization against child trafficking shows this drive as clearly as its cost: public impact that also makes personal misjudgments visible.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+        {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function aliciaKeysPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-alicia-keys-portrait.jpg" alt="Alicia Keys – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alicia Keys</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American singer &amp; pianist, born 1981 in New York &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal for whom success only feels complete once it is shared with others. From the start, Alicia Keys combined exceptional musical talent with the need to put that talent in service of something larger than her own career.</p>
+          <p class="vb-intro">Alicia Augello Cook was born on January 25, 1981, in New York City, the daughter of an African American father and an Italian American mother. At age twelve she was admitted to New York's Professional Performing Arts School, graduated in 1996 two years early as valedictorian, and dropped out of college after just a month to pursue her music career under a record deal she had already signed at fifteen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Musical Success as a Foundation for Social Engagement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: it doesn't just want to be talented, it wants to make that talent visible and effective for others. Her first three albums all reached number one on the Billboard 200, alongside numerous Grammy Awards and millions of records sold &ndash; an exceptional commercial success that, for Keys, never remained an end in itself.</p>
+          <p class="vb-intro">In 2003, she co-founded the organization Keep a Child Alive with Leigh Blake, dedicated to the treatment and support of children and families affected by HIV. As co-founder and global spokeswoman for the organization, she has since traveled regularly to Africa and India to draw attention to the situation of affected families &ndash; the SO2 at its clearest: musical fame as a platform that benefits an entire, often overlooked group of people.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Child Prodigy to Multiple Grammy Winner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn talent into visible, measurable success. Keys' path from classically trained piano prodigy to internationally successful R&B and soul artist with multiple number-one albums puts this drive on full display: talent is not nurtured in private, but purposefully translated into a publicly visible, multiply awarded career.</p>
+          <p class="vb-intro">Alongside her music career, she built an acting career, continually expanding the stages on which she was visible. The Three-wing ensures that success doesn't happen by accident, but is actively pursued and built up &ndash; as a means of reaching more people and doing more for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability not to manage early, exceptional success in pure self-focus, but to consistently pair it with engagement that reaches beyond one's own career. That Keys has traveled regularly to Africa and India for more than two decades to advocate for Keep a Child Alive shows a steadiness that goes beyond symbolic engagement.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable for the wellbeing of others. In the SO2w3, this can combine with a need to keep confirming one's own worth through new, visible achievements and public engagement &ndash; a combination that can lead to exceptional impact, without ever reaching a point where enough feels like enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From the Professional Performing Arts School to a Global Voice Against HIV</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her first piano lessons through her early record deal at fifteen, to three consecutive number-one albums and the founding of an internationally active aid organization, a single thread runs through Keys' work: musical talent that was oriented, from the start, toward impact beyond herself.</p>
+          <p class="vb-intro">The Golden Retriever shares its gifts rather than keeping them to itself. Alicia Keys' path from teenage musical prodigy to a global spokeswoman for families affected by HIV distills this drive into a single image: success as a tool that allows for care reaching far more people than any single career ever could on its own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function usherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-usher-portrait.jpg" alt="Usher – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Usher</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American R&amp;B singer, born 1978 in Dallas &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that doesn't keep its warmth to itself, but strives from an early age to reach an entire audience. Usher Raymond IV was already performing in talent shows at age ten, singing the Boyz II Men song <em>End of the Road</em> on <em>Star Search</em> &ndash; early proof of how much his sense of self was tied to an audience from the very start.</p>
+          <p class="vb-intro">Usher was born in 1978 in Dallas, Texas, and grew up in Chattanooga and Atlanta. His <em>Star Search</em> performance earned him a record deal, and at just 15 he released his self-titled debut album &ndash; an extremely early start into a public career in which the audience was the central reference point from day one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Ambition as a Way of Reaching an Entire Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: it doesn't just want to please, it wants to be indispensably loved &ndash; by as wide a circle as possible. Usher's 2004 album <em>Confessions</em> is still considered the best-selling album of the 2000s decade: a starkly honest narrative about his own infidelity and guilt that also earned him the reputation of a new Michael Jackson.</p>
+          <p class="vb-intro">Instead of hiding his own failings, Usher made them the central subject of an album meant to reach a mass audience &ndash; vulnerability as a bridge to as many people as possible, not as a private confession. This is exactly where the SO2 shows itself: closeness is not sought in a small circle, but built in public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Child Star to His Own Label</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn public affection into visible, measurable success. Usher didn't stop at his own career: he founded his own record label, US Records, and became a mentor to younger artists, most notably Justin Bieber (SX4w3), whom he helped cope with the pressure of sudden global fame.</p>
+          <p class="vb-intro"><em>Prepare to have this for the rest of your career because it's not going to stop</em>, Usher once told Bieber about dealing with fame &ndash; a form of care that reached beyond his own stage and continued into the next generation of artists. The Three-wing turns the need for recognition into a visible, entrepreneurial structure: the label as a stage for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability to openly show one's own mistakes and vulnerability and turn them into something that moves a broad audience instead of repelling it. <em>Confessions</em> could have failed as a mere confessional album &ndash; instead it became a commercial milestone because Usher turned shame into a story many people recognized themselves in.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of needing to be loved in order to be of value. In the SO2w3, this can combine with a need to keep proving affection anew through visible success, rather than accepting it as a given &ndash; a drive that sustains a career for decades but never fully settles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Talent-Show Kid to Mentor of a New Generation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From his first performances at age ten through his debut album at 15, his breakthrough with <em>Confessions</em>, to his own role as a mentor, a single thread runs through Usher's career: never treating the audience as a mere recipient, but as part of his own story.</p>
+          <p class="vb-intro">The Golden Retriever doesn't give its warmth sparingly, but generously &ndash; and passes it on the moment it can. Usher's path from child star to mentor of the next generation sums up this drive in one gesture: not keeping success to oneself, but passing it on to others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
 
 function bobMarleyPortraitPage() {
   return shell(`
@@ -39732,7 +41526,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Radical, unprotected public life instead of retreat",
         beschreibung: "Instead of hiding, one's own life or conviction is lived demonstratively in public – without regard for social expectations or etiquette, and precisely because of that, hard to ignore.",
-        beleg: "Diogenes of Sinope, who lived 'without a house, without possessions, without shame' in the marketplace of Athens: 'The crocodile doesn't hide – it lies visibly on the bank, and whoever passes must reckon with it'; Donald Trump: 'He dominates rooms, draws in cameras, is never neutral'; Giacomo Puccini, who 'paid no regard to etiquette' and 'still drew the full attention of every room' he entered; John Wayne, whose sheer physical presence on screen towered over every scene – never half-hearted, never in the background."
+        beleg: "Diogenes of Sinope, who lived 'without a house, without possessions, without shame' in the marketplace of Athens: 'The crocodile doesn't hide – it lies visibly on the bank, and whoever passes must reckon with it'; Donald Trump: 'He dominates rooms, draws in cameras, is never neutral'; Giacomo Puccini, who 'paid no regard to etiquette' and 'still drew the full attention of every room' he entered; John Wayne, whose sheer physical presence on screen towered over every scene – never half-hearted, never in the background – and who publicly named his 1964 cancer 'The Big C' rather than hide it."
       },
       {
         titel: "Relentless drive that never fades over a whole lifetime",
@@ -39791,7 +41585,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unshakable steadfastness under extreme pressure",
         beschreibung: "When the situation becomes most difficult, a physical and psychological immovability appears that does not yield even under the greatest external pressure – not through loud resistance, but through sheer, unshakable staying.",
-        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee'; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break.'"
+        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee' – and who concealed a severe stroke in 1953 from the public for weeks rather than give up his office; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break' – a will that also carried her through a cancer diagnosis kept secret for seventeen years, throughout her entire term as Prime Minister."
       },
       {
         titel: "When the same quiet territorial control becomes ruthless and lethal (shadow form)",
@@ -39830,7 +41624,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -39845,7 +41639,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown."
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
@@ -39862,7 +41656,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Fear is not avoided, but confronted head-on",
         beschreibung: "Unlike the other Six subtypes, this expression seeks security not through adaptation or retreat, but through directly confronting one's own fear – strength becomes the counter-reaction to a deep-seated insecurity.",
-        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness."
+        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness; Beethoven, who met two parallel, progressing illnesses – deafness and liver cirrhosis – never with retreat but with continued work, right up to the clenched fist at the moment of his death."
       },
       {
         titel: "Direct eye contact and plain speech instead of retreat or diplomacy",
@@ -39948,7 +41742,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Retreat as a deliberate reserving of intimacy for a few exclusive connections",
         beschreibung: "Withdrawal from the public eye doesn't mean indifference to closeness, but exactly the opposite: energy and intimacy are consciously saved for very few, but very deep, relationships.",
-        beleg: "Jodie Foster: 'The retreat happens not out of indifference, but to save one's own intimacy and energy for very few, exclusive connections'; Greta Garbo, who at 36 withdrew from public life for almost fifty years: 'Total immersion in the one intense encounter ... and just as radical a retreat before and after' – 'I want to be let alone,' not alone, but left in peace; Hugh Warwick, whose decades of almost loving devotion concentrate exclusively on a single animal instead of spreading across many subjects – 'A Prickly Affair,' as he himself calls his life's work; Frédéric Chopin, who gave scarcely thirty public concerts in his entire life, yet lived a single nine-year connection with George Sand, after which he composed almost nothing more; Tilda Swinton, who has worked for decades in tight, recurring circles – with Derek Jarman, with Wes Anderson – rather than constantly changing her surroundings, and who withdrew privately to a remote house in the Scottish Highlands."
+        beleg: "Jodie Foster: 'The retreat happens not out of indifference, but to save one's own intimacy and energy for very few, exclusive connections'; Greta Garbo, who at 36 withdrew from public life for almost fifty years: 'Total immersion in the one intense encounter ... and just as radical a retreat before and after' – 'I want to be let alone,' not alone, but left in peace; Hugh Warwick, whose decades of almost loving devotion concentrate exclusively on a single animal instead of spreading across many subjects – 'A Prickly Affair,' as he himself calls his life's work; Frédéric Chopin, who gave scarcely thirty public concerts in his entire life, yet lived a single nine-year connection with George Sand, after which he composed almost nothing more – and whose tuberculosis accelerated dramatically in the very year of that separation, as if his physical strength depended on the same one bond as his creative power; Tilda Swinton, who has worked for decades in tight, recurring circles – with Derek Jarman, with Wes Anderson – rather than constantly changing her surroundings, and who withdrew privately to a remote house in the Scottish Highlands."
       },
       {
         titel: "Radical breakthrough to the core instead of attachment to system, status, or possessions",
@@ -40034,7 +41828,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Uncompromising intensity that submits to no external convention",
         beschreibung: "Adapting to expectations, rules, or social norms is experienced as constriction, which is resisted with all one's strength – even when that means open conflict with one's own era.",
-        beleg: "Claude Debussy, who as a student 'regularly provoked his teachers with chord progressions considered \"wrong\"': 'The Chihuahua who sensed from the start: the rules I'm being taught are not the truth I'm looking for'; Linda Leinweber: 'Depth that isn't ashamed. Insight that doesn't hide'; Voltaire, who after his imprisonment in the Bastille 'bit back sharper' instead of staying silent."
+        beleg: "Claude Debussy, who as a student 'regularly provoked his teachers with chord progressions considered \"wrong\"': 'The Chihuahua who sensed from the start: the rules I'm being taught are not the truth I'm looking for' – and who never met his own nearly nine-year cancer illness with retreat, giving a final concert under cannon fire as late as 1917; Linda Leinweber: 'Depth that isn't ashamed. Insight that doesn't hide'; Voltaire, who after his imprisonment in the Bastille 'bit back sharper' instead of staying silent."
       },
       {
         titel: "When the same boundless intensity turns against others instead of against conventions (shadow form)",
@@ -40051,7 +41845,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
         beschreibung: "Naranjo called this subtype the one of 'Shame': the deep feeling of being structurally different and lacking. Outwardly, an effective, impenetrable facade often shows itself – coolness, perfection, humor – protecting an extremely vulnerable interior without ever fully hiding it.",
-        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability; Hugh Grant, who repeatedly described himself as 'terribly insecure' and whose charmingly stammering screen persona displayed the very insecurity he privately called chronic self-hatred; Ajeet Kaur, whose chronic autoimmune illness since childhood became the source of a public role as a healer through music, while she herself stresses that she 'retreated into music' since childhood 'to disappear and feel reunited with a deeper and more peaceful part of myself.'"
+        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability; Hugh Grant, who repeatedly described himself as 'terribly insecure' and whose charmingly stammering screen persona displayed the very insecurity he privately called chronic self-hatred; Ajeet Kaur, whose chronic autoimmune illness since childhood became the source of a public role as a healer through music, while she herself stresses that she 'retreated into music' since childhood 'to disappear and feel reunited with a deeper and more peaceful part of myself.'; Jackson, whose twenty-five-year, largely concealed dependence on pain and sleep medication disappeared, right up to his death, behind the same flawless stage facade that also kept his vitiligo patches hidden for years."
       },
       {
         titel: "Wears one's own otherness visibly, instead of hiding it",
@@ -40186,17 +41980,17 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Devotion that belongs not to the individual, but to the whole community",
-    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
         beschreibung: "Unlike the other Two subtypes, care is directed not at the one relationship or one's own family, but at a collective – a congregation, an audience, a nation, everyone currently within reach.",
-        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month."
+        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone."
       },
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
         beschreibung: "Leadership arises not through intimidation or distance, but through deliberately investing in countless individual relationships that, in the end, add up to enormous collective loyalty.",
-        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty'; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'; Abd al-Fattah as-Sisi, who staged his takeover of power not as coercion but as a shared national effort – from personally attending a Coptic Christmas Eve service to co-financing the new capital through government bonds sold to his own population: 'I am not building the country alone – we are all building it together, under my leadership.'; Bob Marley, who in 1978 at the One Love Peace Concert called two bitter political rivals onto the stage mid-song and held their hands together above his head – not a display of power, but an attempt to unite a torn country through a single shared gesture."
+        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty' – and whose recurring seizures, attested by ancient sources, he concealed his entire life so as not to endanger his own image of invulnerability; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'; Abd al-Fattah as-Sisi, who staged his takeover of power not as coercion but as a shared national effort – from personally attending a Coptic Christmas Eve service to co-financing the new capital through government bonds sold to his own population: 'I am not building the country alone – we are all building it together, under my leadership.'; Bob Marley, who in 1978 at the One Love Peace Concert called two bitter political rivals onto the stage mid-song and held their hands together above his head – not a display of power, but an attempt to unite a torn country through a single shared gesture."
       },
       {
         titel: "Behind the warmth lies considerable inner strength that shows when it counts",
@@ -40213,12 +42007,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Hippopotamus",
     kernthema: "Indispensability as access to closeness – calm, rooted strength instead of loud self-display",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Tutty Tran", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Mickey Rourke", "Monica Simpson", "Nate Dogg", "Stromae", "Thomas Chaanhing", "Tracie D. Hall", "Tutty Tran", "Lebo M", "Lionel Boyce", "Lisa Antoni", "Loi", "Loni Hui", "Madeline Stuart", "Mariacarla Boscono", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Indispensability as access to closeness and significance (Naranjo: 'Privilege')",
         beschreibung: "Belonging and significance are not demanded, but secured through care, effort, and the quiet feeling of being needed. Naranjo called this subtype the one of 'Privilege': winning a special place in another's life through indispensability.",
-        beleg: "'Naranjo also described this subtype as one who takes care of others first, in order to soothe their own neediness indirectly' (Ulrike Meinhof, whose 'care for the seemingly weak was real – and at the same time the core of her identity'); Dr. Camille Fritsch as the leading voice of hippo conservation; Ai Weiwei, whose art is inseparable from his commitment to others; Buster Murdaugh, whose case shows how the Two's 'privilege' survives within a family dynasty – as the belief that belonging to a certain world protects one from consequences; Anna Delvey, whose entire fraud rested on a fabricated belonging to New York's heiress world; Tutty Tran, whose entire stage work circles around his own family – not as detached observation, but as directly lived, self-deprecatingly processed closeness to his parents, who came to Germany as Vietnamese boat people."
+        beleg: "'Naranjo also described this subtype as one who takes care of others first, in order to soothe their own neediness indirectly' (Ulrike Meinhof, whose 'care for the seemingly weak was real – and at the same time the core of her identity'); Dr. Camille Fritsch as the leading voice of hippo conservation; Ai Weiwei, whose art is inseparable from his commitment to others; Buster Murdaugh, whose case shows how the Two's 'privilege' survives within a family dynasty – as the belief that belonging to a certain world protects one from consequences; Anna Delvey, whose entire fraud rested on a fabricated belonging to New York's heiress world; Tutty Tran, whose entire stage work circles around his own family – not as detached observation, but as directly lived, self-deprecatingly processed closeness to his parents, who came to Germany as Vietnamese boat people; Mickey Rourke, whose public image is defined by toughness, while his deepest, most faithful bond for decades was with his dogs – 'they were there when no one else was there'; Monica Simpson, who was often the only Black child in honors classes in Wingate, North Carolina, and turned that into a lifelong, Southern-rooted commitment to her own community; Nate Dogg, whose voice turned sixteen other people's songs into hits while his own solo albums never sold more than 500,000 copies each – care that would rather carry someone else's work than his own; Stromae, whose song ›Papaoutai‹ directly processes the loss of his father, killed in the Rwandan genocide – a deeply personal family wound that became the most widely heard expression of his work; Thomas Chaanhing, whose Danish-Chinese dual heritage and fluency in six languages became the foundation for supporting roles in several international major productions; Tracie D. Hall, who spent years working in public libraries across the United States before becoming the first African American woman to serve as Executive Director of the American Library Association; Lebo M, who stayed loyal to the same film franchise for over three decades since 1994, turning his Zulu call into the acoustic signature of a worldwide success; Lionel Boyce, whose creative path remained inseparable from his decades-long friendship and collaboration with Tyler, the Creator, from Odd Future to their own production company; Lisa Antoni, who worked her way step by step through a broad repertoire in German-speaking musical theatre to Christine Daaé at the Ronacher; Loi, whose stage name traces back to her childhood nickname 'Leonie Lionheart' and who found international chart success with 'Gold' only after years of patiently practicing guitar and piano; Loni Hui, who completed a finance degree before turning to poker, before becoming a two-time WSOP bracelet winner; Madeline Stuart, who turned her own, very personal story into an international message for the inclusion of people with Down syndrome in the fashion industry; Mariacarla Boscono, who sustained her close, decade-long creative bond with Riccardo Tisci at Givenchy and Burberry while becoming one of the most visible muses in international fashion."
       },
       {
         titel: "A good-natured, unwieldy facade that turns into unstoppable force when the territory is threatened",
@@ -40299,7 +42093,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
@@ -40309,7 +42103,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Quiet precision without a show – the dive after a long circling",
         beschreibung: "The effect arises not through volume or self-display, but through long, patient observation, followed by a single, highly precise action that needs no repetition.",
-        beleg: "'The eagle watches for a long time before acting ... and when it finally strikes, it does so with an accuracy that needs no repetition' (De Niro); Anthony Hopkins won an Oscar for just about sixteen minutes of screen time as Hannibal Lecter – 'the eagle doesn't need to scream to be feared'; Magnus Carlsen's opponents describe games against him as 'slow suffocation'; Christoph Waltz waited fifty years for his role with Tarantino: 'The eagle had circled patiently. Then it struck.'"
+        beleg: "'The eagle watches for a long time before acting ... and when it finally strikes, it does so with an accuracy that needs no repetition' (De Niro); Anthony Hopkins won an Oscar for just about sixteen minutes of screen time as Hannibal Lecter – 'the eagle doesn't need to scream to be feared'; Magnus Carlsen's opponents describe games against him as 'slow suffocation'; Christoph Waltz waited fifty years for his role with Tarantino: 'The eagle had circled patiently. Then it struck.'; Joseph Aoun campaigned in no public forum whatsoever ahead of his presidential election and made the rounds of no faction – forty years of quiet military service, then lifted into the nation's highest office by a single, cross-factional vote of confidence."
       },
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
@@ -40368,7 +42162,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Room-filling calm instead of fighting for attention",
         beschreibung: "The effect arises not through show or confrontation, but through a mere, reassuring or unobtrusively weighty presence – which, however, can flip into full intensity the moment it truly matters.",
-        beleg: "'Larry King's mere presence in a TV studio had something reassuring about it' – over sixty years, more than 50,000 interviews, without aggressive interviewing; Wallace Shawn, who 'looks cozy – and carries the weight of ideas,' without ever wanting to stand out; Jasmine Paolini, who off the court appears 'warm, laughing, family-oriented,' 'never like someone playing tennis to reap glory' – while on court she is 'explosive, combative, tireless': 'The gorilla doesn't dance – but when it smiles, the whole forest lights up.'"
+        beleg: "'Larry King's mere presence in a TV studio had something reassuring about it' – over sixty years, more than 50,000 interviews, without aggressive interviewing, and that same calm carried him back to the familiar studio nest through a 34-year chain of heart attacks, cancer diagnoses, and a stroke, rather than ever withdrawing from the show; Wallace Shawn, who 'looks cozy – and carries the weight of ideas,' without ever wanting to stand out; Jasmine Paolini, who off the court appears 'warm, laughing, family-oriented,' 'never like someone playing tennis to reap glory' – while on court she is 'explosive, combative, tireless': 'The gorilla doesn't dance – but when it smiles, the whole forest lights up.'"
       },
       {
         titel: "Enjoyment and abundance as a lived principle instead of asceticism",
@@ -41377,13 +43171,15 @@ function freudKrankheitsportraetPage() {
         intellectual security (speaking, teaching, interpreting) and his emotional security
         (the oral comfort of the cigar) became the site of the fatal illness – a reading
         explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>f) Framing without determinism:</strong>
         This does not mean the social Six's pattern inevitably leads to cancer –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Freud's case can show is a pattern that stands out again and again in practice with
         a habit tightly woven into one's own identity and ability to function – one possible
         explanation among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
+        Freud did not consciously know his own pattern – the vigilance of the social Six drove him to hold on to intellectual control over his life's work even as cancer progressed, rather than allow himself relief. Someone who does not recognize their own fear of losing control seeks safety in exactly the harshness that further exhausts the body.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -41631,7 +43427,7 @@ function molierePortraitPage() {
         an audience – reads as this pattern's sharpest point: the body forced the pause the
         mind would never have allowed itself. This reading is explored in more depth in this
         Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>g) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>g) Framing without determinism:</strong>
         This does not mean the social Seven inevitably leads to lung disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Molière's case can show is a pattern that stands out again and again in practice
@@ -41639,6 +43435,8 @@ function molierePortraitPage() {
         someone slides into their stress point over years – one possible explanation among
         many, not a verdict. The corresponding respiratory condition will be developed step
         by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>h) The Unconscious Fixation as a Further Factor:</strong>
+        Molière did not know his own pattern – he unconsciously lived out the social Seven's escape energy until it caught up with him literally mid-performance, in the role of a hypochondriac. Someone who does not recognize their own pattern of avoidance does not stop performing until the body itself ends the show.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -41817,7 +43615,7 @@ function marieCurieKrankheitsportraetPage() {
         her own core pattern: where the SE5 economizes psychologically so as not to run out,
         the organ that should have kept supplying her ultimately failed Curie of all things.
         This reading is explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Context without determinism:</strong>
+        <p class="vb-intro"><strong>f) Context without determinism:</strong>
         This does not mean that the Self-Preservation Five's pattern inevitably leads to
         radiation damage or similar conditions – <strong>every person can develop any illness,
         regardless of subtype.</strong> What Curie's case can show is a pattern that stands out
@@ -41825,6 +43623,8 @@ function marieCurieKrankheitsportraetPage() {
         possible explanation among many, not a verdict. The corresponding condition will be
         developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
+        Curie did not know her own pattern – the miserliness of the self-preservation Five led her, for decades, to forgo protective measures rather than divert resources and time from the research itself. Someone who does not recognize their own thrift toward their own safety underestimates the very danger that thrift creates.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -41998,7 +43798,7 @@ function charlesDarwinKrankheitsportraetPage() {
         appearances. The stomach became the fortress wall Darwin had already drawn around
         himself – only from the inside. This reading is explored in more depth in this
         Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>f) Framing without determinism:</strong>
         This does not mean the Self-Preservation Five's pattern inevitably leads to chronic
         digestive complaints – <strong>every person can develop any illness, regardless of
         subtype.</strong> What Darwin's case can show is a pattern that stands out again and
@@ -42006,6 +43806,8 @@ function charlesDarwinKrankheitsportraetPage() {
         possible explanation among many, not a verdict. The corresponding condition will be
         developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
+        Darwin did not know his own pattern – the self-preservation Five's radical withdrawal from the outside world, which gave him the quiet his life's work required, likely also carried his decades-long psychosomatic suffering along with it. Someone who does not recognize their own withdrawal as a protective pattern also fails to see its physical cost.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -42157,7 +43959,7 @@ function winstonChurchillKrankheitsportraetPage() {
         govern. The Self-Preservation Eight demonstrates strength not through words but
         through the sheer fact of continuing.</p>
         <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
-        <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a> (SE8w9)
+        <a href="javascript:void(0)" data-route="krankheitsportraets-golda-meir">Golda Meir</a> (SE8w9)
         likewise led her country as Prime Minister while keeping a serious illness (lymphoma)
         largely secret for years, without relinquishing her office. Both cases show the same
         SE8 pattern: one's own position is defended like territory – illness is not a reason
@@ -42173,7 +43975,7 @@ function winstonChurchillKrankheitsportraetPage() {
         he answered with the same weapon he had used his whole life: silence, persistence, no
         surrender. This reading is explored in more depth in this Compass's Psychosomatics
         Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>f) Framing without determinism:</strong>
         This does not mean the Self-Preservation Eight's pattern inevitably leads to strokes –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Churchill's case can show is a pattern that stands out again and again in practice
@@ -42181,6 +43983,8 @@ function winstonChurchillKrankheitsportraetPage() {
         explanation among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
+        Churchill did not know his own pattern – the self-preservation Eight tolerates no weakness, least of all its own, and that is exactly why he concealed even a severe stroke from the public rather than easing off. Someone who does not know their own fixation on invulnerability mistakes concealment for strength, until the body presents the bill.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -42197,7 +44001,175 @@ function winstonChurchillKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – life's work"},
-        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+        {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9) – same concealment strategy"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se8", label:"Subtype Profile SE8"},
+      ])}
+    </div>
+  `);
+}
+
+function goldaMeirKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-golda-meir-portrait.jpg" alt="Golda Meir" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Golda Meir</p>
+        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with Nine-wing · 1898–1978</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Orangutan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Golda Meir</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-golda-meir">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life's work and type structure in general, with
+        a brief mention of her concealed cancer diagnosis. This page delves into that exact
+        chapter: a lymphoma diagnosis she kept largely secret for seventeen years – including
+        her entire term as Prime Minister.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Meir</strong> is classified as the <strong>Self-Preservation Eight with
+        Nine-wing</strong> – the same subtype as <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Winston Churchill</a>
+        in this Compass. Naranjo called this subtype <em>Satisfacción</em>: security arises
+        through uncompromising defense of one's own territory and the refusal to show weakness.
+        The Nine-wing adds endurance and the ability to hold a position for years without
+        prematurely abandoning it – for Meir, this extended to her own health as well.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Her own body as a private matter:</strong>
+        Meir treated questions of health throughout her life as something concerning only
+        herself and her closest circle – never as something deserving public debate, let alone
+        sympathy.</p>
+        <p class="vb-intro"><strong>b) A diagnosis already in the 1960s:</strong>
+        Sources date her original cancer diagnosis differently, mostly to the late 1960s –
+        that is, before she took office as Prime Minister in 1969.</p>
+        <p class="vb-intro"><strong>c) Continuing to work as a matter of course:</strong>
+        From the outset, it was clear to Meir that the diagnosis would have no bearing on her
+        political career – a pattern that ran through her entire later tenure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Regular, concealed treatment appointments:</strong>
+        For years, Meir attended recurring medical treatments kept hidden from the public and
+        from much of her own cabinet.</p>
+        <p class="vb-intro"><strong>b) An office that made no allowance for the diagnosis:</strong>
+        During her term as Prime Minister (1969–1974), Meir made some of the most consequential
+        foreign-policy decisions of her country's history – alongside an illness she
+        consistently kept out of any official scheduling.</p>
+        <p class="vb-intro"><strong>c) A small circle in the know:</strong>
+        Only a close circle of family, doctors, and a few political confidants knew the true
+        extent of her illness – a silence that held for years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The Yom Kippur War of 1973 in the midst of her illness:</strong>
+        The hardest weeks of her political career – the surprise attack by Egypt and Syria in
+        October 1973 and its aftermath – Meir carried without ever making her cancer diagnosis
+        public in any way.</p>
+        <p class="vb-intro"><strong>b) A resignation for political, not medical, reasons:</strong>
+        When Meir resigned in April 1974, she cited political responsibility for the failures
+        preceding the Yom Kippur War – not her health, which by that point had already been
+        compromised for years.</p>
+        <p class="vb-intro"><strong>c) Death on 8 December 1978:</strong>
+        Meir died in Jerusalem at age 80 from the effects of her cancer – more than a decade
+        after her presumed original diagnosis and four years after leaving office.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) One of the best-kept health secrets of her era:</strong>
+        Only after her death did the full extent and long duration of her illness become
+        public knowledge – evidence of how thoroughly Meir controlled this information.</p>
+        <p class="vb-intro"><strong>b) Respect through demonstrated resilience:</strong>
+        Precisely because she showed no weakness, her reputation as an uncompromising,
+        unshakeable stateswoman only grew – an effect the SE8 cultivates, consciously or not.</p>
+        <p class="vb-intro"><strong>c) A tenure now read differently in hindsight:</strong>
+        Many historical assessments of her years in office only retrospectively account for
+        the health burden under which her most important decisions were actually made.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The orangutan that defended its territory even while ill:</strong>
+        Where a publicly visible weakness could have undermined her authority, Meir responded
+        with the same quiet, tenacious control that guided her entire political life.</p>
+        <p class="vb-intro"><strong>b) No room for sympathy:</strong>
+        Meir's dry humor and directness left practically no room in her circle for concern
+        about her own person – weakness was neither shown nor invited.</p>
+        <p class="vb-intro"><strong>c) Endurance over haste, thanks to the Nine-wing:</strong>
+        Where an SE8 with a more pronounced Seven-wing might have pushed more impatiently for
+        treatment or given up sooner, Meir held the same calm, unwavering course for years.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Seventeen years between diagnosis and death:</strong>
+        From her presumed original diagnosis in the late 1960s to her death in 1978, Meir lived
+        nearly two decades with an illness that never outwardly touched her political career.</p>
+        <p class="vb-intro"><strong>b) Office as territory not surrendered without a fight:</strong>
+        Even as the illness progressed, Meir never considered giving up her office for health
+        reasons – just as 10 Downing Street was territory for Churchill, the office of Prime
+        Minister was territory for Meir.</p>
+        <p class="vb-intro"><strong>c) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Winston Churchill</a>
+        (SE8w9) likewise concealed a serious health crisis as Prime Minister – in his case a
+        stroke in 1953 – from the public and much of his own cabinet. Both cases show the same
+        SE8 pattern: one's own position is defended like territory – illness is no reason to
+        surrender it voluntarily, but information one controls oneself. This parallel is also
+        explored in the <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">illness
+        portrait on Churchill</a>.</p>
+        <p class="vb-intro"><strong>d) Why the lymphatic system, of all things?</strong>
+        For a Self-Preservation Eight whose entire identity rests on the ability to fend off
+        threats from outside, one interpretation suggests itself: an organ system meant to
+        protect the body from external invaders itself became the stage for a decades-long
+        hidden battle – waged with the same quiet control Meir applied to every other threat
+        in her life. This interpretation is a plausible reading, not a documented historical
+        causal link, and is developed further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Self-Preservation Eight pattern inevitably leads to
+        lymphoma – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What Meir's case illustrates is a pattern in the handling of one's own illness that
+        keeps recurring in practice among people with a pronounced Self-Preservation Eight with
+        Nine-wing – one of many possible interpretations, not a judgment. The corresponding
+        illness pattern is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Meir did not know her own pattern – the Self-Preservation Eight tolerates no weakness,
+        least of all its own, and that is exactly why she concealed a serious cancer diagnosis
+        for seventeen years rather than ever acknowledge it publicly. Someone who does not know
+        their own fixation on invulnerability mistakes concealment for strength – even where an
+        open approach to one's own illness would actually have been the more sovereign
+        response.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Meir's</strong> Self-Preservation Eight with Nine-wing is legible once more in
+        the course of her illness: a cancer diagnosis kept concealed for seventeen years, a
+        tenure full of consequential decisions made alongside that very illness, and a
+        resignation she grounded in politics, never in health. The orangutan that climbs
+        slowly, never falls, and, even facing a fatal illness, showed no one how much it
+        wavered.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9) – life's work"},
+        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9) – same concealment strategy"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se8", label:"Subtype Profile SE8"},
       ])}
@@ -42372,7 +44344,7 @@ function gustavMahlerKrankheitsportraetPage() {
         heart that had made his art possible in the first place became the subject of his
         final works themselves. This reading is explored in more depth in this Compass's
         Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>f) Framing without determinism:</strong>
         This does not mean the Social Four's pattern inevitably leads to heart disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Mahler's case can show is a pattern that stands out again and again in practice
@@ -42380,6 +44352,8 @@ function gustavMahlerKrankheitsportraetPage() {
         explanation among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
+        Mahler did not know his own pattern – the social Four reflexively processes loss and threat into expression rather than rest, and so he poured his own heart diagnosis directly into his late work instead of easing off. Someone who does not know their own pattern mistakes artistic processing for healing.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -42400,6 +44374,1026 @@ function gustavMahlerKrankheitsportraetPage() {
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
+      ])}
+    </div>
+  `);
+}
+
+function wilmaMankillerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-wilma-mankiller-portrait.jpg" alt="Wilma Mankiller – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wilma Mankiller</p>
+        <p class="krim-portrait-typ">SO9w8 · Social Type 9 with Eight-wing · 1945–2010</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Buffalo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Animal correspondence: Buffalo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Wilma Mankiller</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-wilma-mankiller">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life's work as the first female Principal
+        Chief of the Cherokee Nation. At the center of this page is a chapter that page
+        only touches on in passing: Mankiller lived for more than three decades with polycystic kidney
+        disease, survived two kidney transplants (1990 and 1998, the second with her niece
+        as donor), a lymphoma (1996), and breast cancer (1999) – and died in 2010 at age 64
+        of stage IV pancreatic cancer.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Mankiller</strong> is classified as the <strong>Social Nine with
+        Eight-wing</strong>. Naranjo called the social Nine <em>Participation</em>: the self
+        steps back so that a larger cause can grow – identity arises not from personal
+        distinction but from merging with a community. The Eight-wing gives this Nine a rare
+        fighting strength: she does not just merge with the community, she defends it with
+        visible determination – a combination that showed itself both in her illness and in
+        her politics.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A diagnosis long before her highest office:</strong>
+        Already in 1980, five years before she rose to become the first female Principal
+        Chief of the Cherokee Nation in 1985, Mankiller was diagnosed with myasthenia
+        gravis, a neuromuscular autoimmune disease that was successfully treated.</p>
+        <p class="vb-intro"><strong>b) A genetic condition in the background:</strong>
+        At the same time, polycystic kidney disease increasingly manifested, a condition
+        that accompanied her entire adult life – a quiet, progressive burden that shadowed
+        her entire tenure as Principal Chief (1985–1995) without ever driving her from
+        office.</p>
+        <p class="vb-intro"><strong>c) Looking back as the origin of her own strength:</strong>
+        In her autobiography <em>Mankiller: A Chief and Her People</em>, she explicitly
+        described her illness history as part of what she called <em>the power of
+        adversity</em> – her own framing, not an outside interpretation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Two kidney transplants, in office and after:</strong>
+        In 1990, Mankiller received her first donor kidney; in 1998, after renewed kidney
+        failure, a second – this time from her own niece. Both times she returned to her
+        public work after recovering.</p>
+        <p class="vb-intro"><strong>b) A lymphoma in the middle of her active years:</strong>
+        In 1996 came a lymphoma diagnosis, treated with several rounds of chemotherapy and
+        radiation – another severe illness added to her already existing kidney condition,
+        without ending her public engagement.</p>
+        <p class="vb-intro"><strong>c) Breast cancer as a third major diagnosis:</strong>
+        In 1999 came a breast cancer diagnosis, treated with surgery and radiation. Four
+        serious illnesses in under two decades – a disease burden entirely
+        disproportionate to her public presence and activity.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Staying in office when it would have been easier to leave:</strong>
+        Despite the early myasthenia gravis diagnosis and her developing kidney disease,
+        Mankiller led the Cherokee Nation for ten years through a phase of economic and
+        cultural rebuilding – an Eight-wing pattern of holding fast to an accepted mandate,
+        whatever the cost.</p>
+        <p class="vb-intro"><strong>b) Illness as a collective, not private, experience:</strong>
+        Mankiller spoke publicly about her health challenges and used them to raise
+        awareness of healthcare in Indigenous communities – for the social Nine, even one's
+        own illness ultimately becomes a concern of the community, not only of the self.</p>
+        <p class="vb-intro"><strong>c) Continued work after leaving office:</strong>
+        After 1995 she remained active as an author, activist, and sought-after speaker,
+        even though lymphoma and breast cancer still lay ahead – a life that never fully
+        withdrew from public view, whatever new diagnosis arrived.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A tenure remembered as a success despite illness:</strong>
+        Mankiller's ten years as Principal Chief are still honored today as one of the
+        Cherokee Nation's most formative periods of leadership – her health burdens remained
+        almost invisible in the public image of her tenure.</p>
+        <p class="vb-intro"><strong>b) Four diagnoses, one continuous public life:</strong>
+        Myasthenia gravis, kidney failure, lymphoma, breast cancer – each single diagnosis
+        could have justified withdrawing from public life. Mankiller chose, every time, to
+        keep going.</p>
+        <p class="vb-intro"><strong>c) A final diagnosis with no room to withdraw:</strong>
+        When stage IV pancreatic cancer was diagnosed in March 2010, little time remained
+        for another round of treatment – she died on April 6, 2010, weeks after the
+        diagnosis, near Tahlequah, Oklahoma.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Strength drawn from community:</strong>
+        Mankiller repeatedly described her own resilience as something she drew from
+        connection with her people, not from individual willpower alone – typical of the
+        social Nine, whose source of strength is the collective.</p>
+        <p class="vb-intro"><strong>b) The Eight-wing as an engine against withdrawal:</strong>
+        Where a social Nine with a less pronounced Eight-wing might have withdrawn in the
+        face of repeated serious diagnoses, the Eight-wing kept Mankiller actively fighting –
+        against illness as much as for her people's political causes.</p>
+        <p class="vb-intro"><strong>c) Public visibility as a deliberate choice:</strong>
+        Rather than concealing her illnesses, Mankiller made them an explicit subject of her
+        speeches and writing on healthcare for Indigenous communities – illness became
+        another field of her political engagement.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A chain of diagnoses across three decades:</strong>
+        Myasthenia gravis in 1980, then progressive kidney failure with two transplants
+        (1990, 1998), a lymphoma in 1996, breast cancer in 1999, finally pancreatic cancer
+        in 2010 – barely a decade of her adult life passed without a new, serious
+        diagnosis.</p>
+        <p class="vb-intro"><strong>b) Her own life as an example of persistence:</strong>
+        Mankiller explicitly used her own illness history to encourage others – an
+        expression of the Eight-wing, which does not hide weakness but turns it into
+        material for a fight that can give others strength.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, did her own body become a recurring battlefield?</strong>
+        For a social Nine with Eight-wing, whose identity is inseparable from serving a
+        community, this repeated physical exhaustion can be read as an intensification of
+        her own life pattern: the body that was repeatedly given over to others came under
+        repeated attack itself – and was defended anew each time, never surrendered. This
+        reading is explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean the social Nine with Eight-wing's pattern inevitably leads to
+        such chains of illness – <strong>every person can develop any illness, regardless of
+        subtype.</strong> What Mankiller's case can show is a pattern in how repeated
+        serious illness was handled that stands out again and again in a pronounced social
+        Nine with Eight-wing – one possible reading among many, not a verdict. The
+        corresponding condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Mankiller did not know her own pattern – the social Nine with Eight-wing subordinates her own neediness to the cause of the community, and it was exactly this that let her survive two kidney transplants and multiple cancer diagnoses without giving up her office. Someone who does not recognize their own merging with a larger cause also overlooks their own right to step back, just once.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Nine with Eight-wing is confirmed once more in how <strong>Wilma
+        Mankiller</strong> handled an almost uninterrupted chain of serious illnesses: never
+        a reason to withdraw, always another field on which she stayed visible for her
+        community. The buffalo who carried an entire nation carried, in the end, her own
+        decades-long illness history with the same unshakeable fighting strength with which
+        she had once stood up for her people.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-wilma-mankiller", label:"Portrait: Wilma Mankiller (SO9w8) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so9", label:"Subtype Profile SO9"},
+      ])}
+    </div>
+  `);
+}
+function teresaVonAvilaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-teresa-von-avila-portrait.jpg" alt="Teresa of Ávila" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Teresa of Ávila</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing · 1515–1582</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Teresa of Ávila</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-teresa-von-avila">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life's work as a mystic and monastic
+        reformer. This page focuses on a chapter that page barely touches on: in
+        the summer of 1539, at age 23, Teresa suffered such a severe cataleptic state after
+        a failed lay treatment for a suspected case of malaria that she was presumed dead
+        for four days. After waking, nearly three years of extensive paralysis followed – a
+        period out of which her first deep mystical experiences developed.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Teresa</strong> is classified as the <strong>Social Three with
+        Four-wing</strong>. Naranjo described the social Three as the amplifier type of the
+        Three line: ambition and achievement drive are directed most plainly at a work
+        recognized by a larger community – for Teresa not personal fame, but the visible
+        reform of an entire religious order. The Four-wing gives this achievement drive an
+        unusual depth: ambition combines with introspection, longing, and the ability to
+        write and act out of deep inner experience.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A severe illness at age 23:</strong>
+        In 1538 Teresa fell so seriously ill that her father took her out of the convent for
+        treatment – doctors suspected malaria. Rather than improvement, an experimental
+        treatment by a lay healer in Becedas markedly worsened her condition.</p>
+        <p class="vb-intro"><strong>b) The collapse of August 15, 1539:</strong>
+        On this day Teresa suffered a severe cataleptic seizure. Witnesses later reported
+        that wax was dripped onto her eyelids without any reaction – her tongue was injured
+        from her own bite. She was presumed dead for four days.</p>
+        <p class="vb-intro"><strong>c) Nearly three years of restricted movement:</strong>
+        After waking, Teresa could at times move only one finger of her right hand. A state
+        of extensive paralysis and heightened pain sensitivity lasted until roughly her
+        25th year – and it was precisely during this forced stillness that she began daily
+        mental prayer.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Paralysis becomes a new path:</strong>
+        The long recovery period, during which her body barely obeyed her, became the
+        starting point of her mystical practice. The mental prayer she developed during her
+        immobility remained her central spiritual tool for the rest of her life.</p>
+        <p class="vb-intro"><strong>b) Recurring episodes of weakness and fainting:</strong>
+        Even after her substantial recovery, phases of weakness and fainting accompanied her
+        for the rest of her life. Modern medical-historical research still debates whether
+        these were epileptic seizures, psychogenic episodes, or what Teresa herself
+        described as religious ecstasy.</p>
+        <p class="vb-intro"><strong>c) Her actual work begins only after the illness:</strong>
+        Her reform of the Carmelite order and the founding of seventeen monasteries began
+        only decades after this existential crisis – a body of work scarcely conceivable
+        without the long period of enforced stillness that preceded it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Visible work despite a fragile body:</strong>
+        Seventeen reformed monasteries founded, under the eyes of the Inquisition, with a
+        body that gave her weakness and seizures throughout her life – the social Three does
+        not let physical fragility keep her from a publicly effective body of work.</p>
+        <p class="vb-intro"><strong>b) Writing as a bridge between inner depth and public impact:</strong>
+        With <em>The Interior Castle</em>, Teresa created one of the most influential works
+        of Christian mysticism – the Four-wing supplies the introspective depth, the social
+        Three ensures that this inner experience takes a form that reaches an entire
+        community of believers.</p>
+        <p class="vb-intro"><strong>c) Watched, but never silenced:</strong>
+        Despite persecution by the Inquisition and despite recurring health crises, Teresa
+        continued her reform work until she had built an entire network of reformed
+        monasteries.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) From four days of apparent death to Doctor of the Church:</strong>
+        The woman presumed dead for four days in 1539 was posthumously named the first
+        female Doctor of the Church in 1970 – one of the highest honors the Church
+        bestows.</p>
+        <p class="vb-intro"><strong>b) A work that outlasts its own period of illness:</strong>
+        <em>The Interior Castle</em> and her autobiography are still read today as central
+        texts of Christian mysticism – born of a life marked by recurring physical
+        weakness, not despite its absence.</p>
+        <p class="vb-intro"><strong>c) Recognition that reaches far beyond her own lifetime:</strong>
+        Seventeen monasteries founded by her, a reformed order still active today – with
+        Teresa, the social Three achieves exactly what her drive aims for: a work carried
+        forward by a community.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Enforced stillness as a source, not a brake:</strong>
+        Where an illness would have meant the end of productive work for many, for Teresa it
+        became the starting point of her most significant spiritual development – Four-wing
+        introspection turned enforced passivity into inner richness.</p>
+        <p class="vb-intro"><strong>b) From sickbed to founder of monasteries:</strong>
+        The path from near-total paralysis to an energetic reformer who built an entire
+        network of religious houses over decades shows a remarkable restoration of agency
+        far beyond her original physical condition.</p>
+        <p class="vb-intro"><strong>c) Inner experience made externally visible:</strong>
+        The mystical states that began during her illness were never kept purely private but
+        made public in writing and in the rule of her order – typical of the social Three,
+        whose innermost experience ultimately always aims at outward effect.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) The turning point of an entire life:</strong>
+        Without the severe illness of 1538/39 and the nearly three years of paralysis that
+        followed, Teresa's mental prayer – the origin of her entire mystical theology –
+        would likely never have arisen in this form.</p>
+        <p class="vb-intro"><strong>b) From bodily helplessness to spiritual sovereignty:</strong>
+        The period in which her body nearly stopped obeying her at all was also the period
+        in which she began to open up an inner spiritual world that later became the
+        foundation of an entire monastic reform movement.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, a paralysis that led to an interior castle?</strong>
+        For a social Three with Four-wing, whose drive shifts between visible public impact
+        and introspective depth, this sequence – first total physical helplessness, then one
+        of the most influential spiritual authors in history – can be read as an
+        intensification of her own life pattern: the body first had to go entirely silent
+        before the introspective voice could grow loud enough to later carry an entire
+        public body of work. This reading is explored in more depth in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean the social Three with Four-wing's pattern inevitably leads to such
+        illness courses – <strong>every person can develop any illness, regardless of
+        subtype.</strong> Moreover, the exact medical cause of Teresa's collapse remains
+        unresolved to this day (malaria, epilepsy, and psychogenic readings all coexist in
+        the literature). What her case can show is a pattern that stands out again and again
+        in a pronounced social Three with Four-wing – one possible reading among many, not a
+        verdict. The corresponding condition will be developed step by step in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Teresa did not know her own pattern – yet it was precisely the forced physical stillness after her severe 1539 illness that pushed the social Three, otherwise oriented toward achievement and visible success, into the inner gathering from which her mental prayer grew. Not every crisis confirms the pattern only negatively – sometimes the body forces exactly the turn that conscious knowledge of one's own pattern might otherwise have chosen voluntarily.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Three with Four-wing is confirmed once more in <strong>Teresa of
+        Ávila's</strong> transformation of the most severe bodily helplessness into a work
+        of lasting public impact: four days of apparent death, nearly three years of
+        paralysis – and out of that, seventeen founded monasteries and a text still read
+        today. The cheetah, whose deepest vision became the most famous work of art of her
+        time, first had to come to a complete standstill before finding her true stride.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa of Ávila (SO3w4) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}
+function franzSchubertKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-franz-schubert-portrait.jpg" alt="Franz Schubert – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz Schubert</p>
+        <p class="krim-portrait-typ">SE6w5 · Self-Preservation Type 6 with Five-wing · 1797–1828</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Rabbit</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Animal correspondence: Rabbit" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Franz Schubert</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">portrait under Famous Personalities</a>
+        in this Compass – that page covers his work as a composer. This page brings a chapter
+        that page only skims into focus: in late summer 1822, Schubert likely
+        contracted syphilis. Over the following six years, between spells of exhaustion and
+        relapse, he composed some of his most significant works before dying in 1828 at only
+        31 – the official cause of death at the time was typhoid fever, while medical
+        historians still debate late-stage syphilis and the mercury treatment then in use as
+        contributing or actual causes.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Schubert</strong> is classified as the <strong>Self-Preservation Type 6 with
+        Five-wing</strong>. Naranjo called the self-preservation Six <em>Warmth</em>:
+        security arises not through control or rules but through genuine, close human
+        belonging – a small, reliable circle that provides shelter. The Five-wing adds
+        withdrawal and intellectual processing – Schubert's inner circle, the private
+        Schubertiaden, became the place where fear and longing could be turned into music
+        while he remained almost invisible in public.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) An infection in late summer 1822:</strong>
+        Schubert likely contracted syphilis in the fall or winter of 1822; first symptoms
+        appeared in December of that year – at a time when he was already working on the
+        <em>Unfinished Symphony</em>.</p>
+        <p class="vb-intro"><strong>b) Hospitalization in February 1823:</strong>
+        Severe mood swings, headaches, and dizziness led to admission to the Vienna General
+        Hospital in February 1823, where the diagnosis was made – a young composer suddenly
+        confronted with a stigmatized, incurable disease.</p>
+        <p class="vb-intro"><strong>c) Treatment that likely worsened his condition:</strong>
+        The mercury-based therapy standard at the time is, by today's medical understanding,
+        more likely to have further weakened his body than to have healed him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Six years between recovery and relapse:</strong>
+        From 1823 until his death in 1828, Schubert alternated between phases of relative
+        recovery and renewed flare-ups – an uncertain, never fully stable state of health
+        over his final six years.</p>
+        <p class="vb-intro"><strong>b) Enormous compositional productivity despite illness:</strong>
+        It was precisely in these years that <em>Die schöne Müllerin</em> (1823),
+        <em>Winterreise</em> (1827), and his final great piano sonatas and string quintet
+        (1828) were composed – works that remain among his most significant to this day.</p>
+        <p class="vb-intro"><strong>c) Retreat into his innermost circle:</strong>
+        Rather than speaking publicly about his illness, Schubert increasingly withdrew into
+        the sheltered setting of the Schubertiaden – private musical evenings among close
+        friends, where he first presented his newest works.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Working until days before his death:</strong>
+        According to his friend Josef von Spaun, Schubert was still correcting the second
+        part of <em>Winterreise</em> in November 1828, shortly before his death – composing
+        remained his central anchor to the very end.</p>
+        <p class="vb-intro"><strong>b) A close circle as the only safety net:</strong>
+        As his illness progressed, his innermost circle of friends remained nearly constant
+        – not an expansion of public contact but a further deepening of an already existing,
+        trusted circle.</p>
+        <p class="vb-intro"><strong>c) Musical rather than public processing:</strong>
+        Where others might have addressed their illness publicly, Schubert processed fear,
+        exhaustion, and the nearness of death almost exclusively through his music – most
+        clearly in the resigned, often dark tone of <em>Winterreise</em>.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A late work of unusual depth:</strong>
+        The works of his final six years are widely considered his most significant today –
+        a maturity and emotional depth many music historians link directly to his experience
+        of illness.</p>
+        <p class="vb-intro"><strong>b) A death with an unresolved cause:</strong>
+        Typhoid fever was recorded as the official cause of death in 1828. Medical
+        historians still debate whether late-stage complications of syphilis, worsened by
+        the mercury treatment, were the actual or contributing cause – a question of music
+        and medical history still unresolved today.</p>
+        <p class="vb-intro"><strong>c) A body of work that outgrew its intimate circle:</strong>
+        What emerged before a small, trusted audience at the Viennese Schubertiaden now
+        belongs to the core repertoire of classical music worldwide – the sheltered setting
+        later became a global stage.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Fear that became music:</strong>
+        Rather than being paralyzed by fear of his own incurable illness, Schubert channeled
+        it into compositional work – a typical pattern of the self-preservation Six: security
+        is actively created, not passively awaited.</p>
+        <p class="vb-intro"><strong>b) The Five-wing as a space of retreat:</strong>
+        The growing inwardness and withdrawal of his final years fits the Five-wing, which
+        creates distance from the outside world in order to process inner experience
+        undisturbed.</p>
+        <p class="vb-intro"><strong>c) Warmth in the small circle, not the large stage:</strong>
+        Publicly Schubert remained reserved, nearly invisible; within the circle of his
+        Schubertiaden, however, he was present, open, sustaining – warmth that unfolded only
+        in a sheltered, familiar space.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Six years living with knowledge of his own mortality:</strong>
+        From his 1823 diagnosis until his death in 1828, Schubert lived knowing he suffered
+        from a disease incurable at the time – a circumstance music scholars repeatedly link
+        to the increasingly dark, resigned tone of his late works, above all
+        <em>Winterreise</em>.</p>
+        <p class="vb-intro"><strong>b) The intimate circle as his only public stage:</strong>
+        Rather than share his illness or his fears with a broad public, the intimate setting
+        of the Schubertiaden remained the only place where he showed himself – warmth and
+        security in the small, trusted circle, not in public.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, an illness that forced isolation?</strong>
+        For a self-preservation Six with Five-wing, whose security comes from a small,
+        reliable circle, a stigmatized, barely speakable illness can be read as an
+        intensification of her own life pattern: the withdrawal that was already her basic
+        strategy was further reinforced by the illness – and it was precisely out of this
+        intensified inwardness that a late body of work of extraordinary emotional depth
+        arose. This reading is explored in more depth in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean the self-preservation Six with Five-wing's pattern inevitably
+        leads to such illness courses – <strong>every person can develop any illness,
+        regardless of subtype.</strong> Moreover, the exact cause of death remains disputed
+        among music and medical historians to this day (typhoid versus late-stage syphilis).
+        What Schubert's case can show is a pattern in how illness was handled that stands out
+        again and again in a pronounced self-preservation Six with Five-wing – one possible
+        reading among many, not a verdict. The corresponding condition will be developed step
+        by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Schubert did not know his own pattern – the self-preservation Six with Five-wing seeks safety in the familiar small circle and in its own work, and that is exactly where he withdrew as his illness progressed, rather than seeking help outside that circle. Someone who does not know their own withdrawal pattern mistakes the familiar shelter for actual safety.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Six with Five-wing is confirmed once more in how <strong>Franz
+        Schubert</strong> handled his six-year illness: no public confession, but withdrawal
+        into his innermost, trusted circle – and out of this enforced inwardness, some of
+        his deepest, still most-performed works. The rabbit, who turned fear and longing for
+        shelter into music, remained almost invisible in public and became immortal
+        precisely because of it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se6", label:"Subtype Profile SE6"},
+      ])}
+    </div>
+  `);
+}
+function giacomoPucciniKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-giacomo-puccini-portrait.jpg" alt="Giacomo Puccini" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giacomo Puccini</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexual Type 8 with Seven-wing · 1858–1924</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Crocodile</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Animal correspondence: Crocodile" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Giacomo Puccini</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-giacomo-puccini">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as an opera composer. This page is
+        devoted to a chapter that page barely mentions: in 1924, in the middle
+        of composing his final opera <em>Turandot</em>, Puccini, a heavy cigar smoker, was
+        diagnosed with throat cancer. A radical radium treatment in Brussels took away his
+        voice; days later he died of a heart attack as a complication of the treatment –
+        <em>Turandot</em> was left unfinished.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Puccini</strong> is classified as the <strong>Sexual Type 8 with
+        Seven-wing</strong>. Naranjo called the sexual Eight <em>Possession</em>: she wants
+        no distanced connection, only complete fusion with what she touches. The Seven-wing
+        adds a craving for pleasure and a need for distraction – uncompromising passion not
+        only on stage but in life itself, with racing cars, hunting, and a public jealousy
+        scandal.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A swallowed bone as a seemingly harmless trigger:</strong>
+        In 1923, while working on <em>Turandot</em>, Puccini reportedly choked on a goose
+        bone – afterward, recurring throat inflammation, ear pain, and difficulty
+        swallowing began.</p>
+        <p class="vb-intro"><strong>b) Growing hoarseness in February 1924:</strong>
+        Sore throat and dysphonia intensified until swelling in his neck made it impossible
+        to close his shirt collar – a symptom the longtime heavy smoker initially played
+        down.</p>
+        <p class="vb-intro"><strong>c) Several specialists, a growing certainty:</strong>
+        Throughout 1924, Puccini consulted several specialists in Florence. On November 3, a
+        joint consultation referred him to a radiation specialist in Brussels – the diagnosis
+        of throat cancer was confirmed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Continuing to compose despite worsening symptoms:</strong>
+        Even as his symptoms intensified, Puccini kept working on <em>Turandot</em> – his
+        will to finish the work was not, at first, slowed by his physical decline.</p>
+        <p class="vb-intro"><strong>b) A radical, then cutting-edge treatment:</strong>
+        On November 24, 1924, the Brussels specialist Dr. Louis Ledoux inserted seven
+        radioactive radium needles directly into Puccini's laryngeal tumor – a nearly
+        four-hour procedure under local anesthesia, accompanied by a tracheotomy (a surgical
+        opening cut into the windpipe) and a feeding tube.</p>
+        <p class="vb-intro"><strong>c) Loss of voice after the procedure:</strong>
+        After the treatment, Puccini could no longer speak because the needles blocked his
+        vocal cords. In a written note to family, he described the feeling as having
+        <em>bayonets in his throat</em>.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Denying the diagnosis for a long time:</strong>
+        Puccini concealed the severity of his illness from himself and those around him for
+        a long time – a behavior pattern repeatedly cited as his greatest mistake in dealing
+        with the disease.</p>
+        <p class="vb-intro"><strong>b) Full intensity right up to the radical procedure:</strong>
+        Rather than choosing a gentler, slower treatment, he underwent the most aggressive
+        therapy available at the time – uncompromising intensity that remained typical of
+        the sexual Eight even in confronting his own illness.</p>
+        <p class="vb-intro"><strong>c) A work he did not want to let go of:</strong>
+        <em>Turandot</em> remained his central concern to the end – finishing the opera
+        mattered more to him than caution or restraint in the face of his own advancing
+        illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A heart attack as a fatal complication:</strong>
+        On November 28, 1924, days after the procedure, Puccini suffered a heart attack; he
+        died the following day in Brussels at age 66.</p>
+        <p class="vb-intro"><strong>b) An opera left without its ending:</strong>
+        <em>Turandot</em> remained unfinished, missing the final duet. Franco Alfano later
+        completed the opera from Puccini's sketches; at the 1926 premiere under Toscanini,
+        the conductor deliberately stopped precisely at the point where Puccini's own music
+        ended.</p>
+        <p class="vb-intro"><strong>c) A death that became a cautionary tale:</strong>
+        In later retrospectives, Puccini's long concealment of his own diagnosis is
+        considered one of the most consequential mistakes of his final year – a lesson still
+        cited today in discussions of how to handle a cancer diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Full intensity, no half-measures:</strong>
+        Choosing the most radical available treatment over a more cautious approach fits the
+        sexual Eight, who seeks fusion and full intensity even in dealing with her own
+        illness.</p>
+        <p class="vb-intro"><strong>b) The Seven-wing as a reflex to flee reality:</strong>
+        His long denial of the diagnosis can be linked to the Seven-wing, which tends to
+        avoid unpleasant reality rather than confront it early.</p>
+        <p class="vb-intro"><strong>c) Work as a point of escape until the very end:</strong>
+        <em>Turandot</em> remained his central energetic focus until the procedure – the
+        compositional work kept his attention away from his own physical decline for as
+        long as possible.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An illness that struck exactly the tool he lived for:</strong>
+        Puccini's entire body of work was built on the human voice – and it was, of all
+        organs, the larynx, the organ that makes voice possible at all, that became the site
+        of his fatal illness.</p>
+        <p class="vb-intro"><strong>b) Denial until the very end:</strong>
+        Rather than confronting the reality of the diagnosis early, Puccini denied it for
+        months – a delay later observers explicitly name as his most consequential
+        mistake.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, the most radical, most uncompromising treatment?</strong>
+        For a sexual Eight with Seven-wing, whose passion aims at full, immediate intensity,
+        choosing the most aggressive therapy available can be read as an intensification of
+        his own life pattern: no hesitant approach, but full, uncompromising commitment –
+        even when that commitment ultimately proved fatal. This reading is explored in more
+        depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean the sexual Eight with Seven-wing's pattern inevitably leads to
+        throat cancer – <strong>every person can develop any illness, regardless of
+        subtype.</strong> Puccini's illness is also clearly linked medically to his
+        longtime, heavy cigar smoking, not to be explained purely psychosomatically. What
+        his case can show is a pattern in how illness was handled that stands out again and
+        again in a pronounced sexual Eight with Seven-wing – one possible reading among many,
+        not a verdict. The corresponding condition will be developed step by step in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Puccini did not know his own pattern – the sexual Eight with Seven-wing pushes toward intensity and completion at any cost, and it was exactly this drive that kept him working on Turandot despite throat cancer, until a radical treatment literally took away his voice. Someone who does not recognize their own drive toward completion also fails to hear their own body's warning signs.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Sexual Eight with Seven-wing is confirmed once more in how <strong>Giacomo
+        Puccini</strong> handled his own illness: denied for a long time, then confronted
+        uncompromisingly with the most radical treatment available, until the procedure
+        itself proved fatal. The crocodile, who lived uncompromising passion on stage and in
+        life, defended his work – the completion of <em>Turandot</em> – until his final
+        days, even as his own body had long stopped allowing any delay.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx8", label:"Subtype Profile SX8"},
+      ])}
+    </div>
+  `);
+}
+function larryKingKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-larry-king-portrait.jpg" alt="Larry King – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Larry King</p>
+        <p class="krim-portrait-typ">SE7w6 · Self-Preservation Type 7 with Six-wing · 1933–2021</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Larry King</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-larry-king">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as a talk show host. This page puts
+        the spotlight on a chapter that page only glances at: King suffered a severe
+        heart attack and quintuple bypass surgery in 1987, later survived prostate and lung
+        cancer (both 2017), another heart attack with stent treatment (2019), and a stroke
+        with a weeks-long coma – before dying in 2021 at age 87 of sepsis following a
+        COVID-19 infection.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>King</strong> is classified as the <strong>Self-Preservation Type 7 with
+        Six-wing</strong>. Naranjo called the self-preservation Seven <em>Family</em>: she
+        builds her own nest – a circle of people, rituals, and joys that gives her security,
+        not through control like the Eight or rules like the One, but through connection and
+        shelter. The Six-wing adds loyalty and vigilance – King's decades-long show itself
+        became a kind of steady family that he was reluctant to give up even through
+        repeated serious illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A severe heart attack at 54:</strong>
+        In 1987, King suffered a severe heart attack, followed by quintuple bypass surgery –
+        a defining event in the middle of his rising career as a nationally known talk show
+        host.</p>
+        <p class="vb-intro"><strong>b) A foundation as a direct response:</strong>
+        Shortly after recovering, King founded the Larry King Cardiac Foundation, which
+        offers financial support to heart patients in need – his own illness translated
+        directly into a project for others.</p>
+        <p class="vb-intro"><strong>c) A chronic condition follows:</strong>
+        In 1995 came a diagnosis of type 2 diabetes – another lasting health burden added to
+        his existing heart condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Two cancer diagnoses in the same year:</strong>
+        In 2017, at age 84, King was diagnosed with both prostate cancer and lung cancer –
+        the latter requiring surgical removal of a tumor from his lung.</p>
+        <p class="vb-intro"><strong>b) Another heart attack and a stroke:</strong>
+        In 2019, King suffered another heart attack, treated with coronary stents, followed
+        a few months later by a stroke that put him in a coma for several weeks.</p>
+        <p class="vb-intro"><strong>c) Still on air into the late 2010s:</strong>
+        Despite this accumulation of serious diagnoses, King hosted <em>Larry King Now</em>
+        on Ora TV/Hulu until shortly before his death – more than sixty years of journalistic
+        work, interrupted but never ended by his own illness history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Returning to the studio after every crisis:</strong>
+        After the 1987 heart attack, after the 2017 cancer diagnoses, after the 2019 heart
+        attack and stroke – King returned to his show every time, as soon as it was
+        physically possible.</p>
+        <p class="vb-intro"><strong>b) His show as a steady, safe framework:</strong>
+        For decades, the studio, the conversation, the unchanging format were his reliable
+        anchor – for the self-preservation Seven with Six-wing, the work itself became a
+        kind of family that provided security.</p>
+        <p class="vb-intro"><strong>c) Openness about his own heart condition:</strong>
+        Rather than concealing his heart disease, King made it public and founded a
+        foundation for it – illness became a subject he spoke about openly, not something he
+        hid.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A legacy of medical support:</strong>
+        The Larry King Cardiac Foundation still exists today and has helped many heart
+        patients in need since its founding – a direct, lasting consequence of his own 1987
+        diagnosis.</p>
+        <p class="vb-intro"><strong>b) Over sixty years of media presence despite repeated crises:</strong>
+        King's journalistic career spanned more than six decades, even though from age 54
+        onward he lived with an unbroken chain of health crises – heart attacks, diabetes,
+        two cancer diagnoses, a stroke.</p>
+        <p class="vb-intro"><strong>c) A death that became a symbol:</strong>
+        King's death in January 2021 from COVID-19 complications received wide international
+        attention – another case in which an already heavily burdened health could no longer
+        withstand a new illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Carrying on as a basic reflex:</strong>
+        After every single diagnosis, King returned to work as soon as it was physically
+        possible – a typical pattern of the self-preservation Seven: her own nest, here the
+        daily show, is not given up without a fight.</p>
+        <p class="vb-intro"><strong>b) The Six-wing as vigilance toward his own body:</strong>
+        Founding the Cardiac Foundation and speaking openly about his own heart disease show
+        an alert, forward-looking stance toward danger – typical of the Six-wing, which does
+        not deny risk but actively addresses it.</p>
+        <p class="vb-intro"><strong>c) Publicness as an expression of his own illness experience:</strong>
+        Rather than concealing his health problems, King made them an explicit subject – an
+        expression of the self-preservation Seven, who turns even hardship into a shared,
+        communal matter.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A chain of health crises across 34 years:</strong>
+        From his 1987 heart attack to his fatal COVID-19 infection in 2021, King lived for
+        more than three decades with recurring, serious health threats – and returned to
+        work after every single one.</p>
+        <p class="vb-intro"><strong>b) His own show as a family substitute that provided security:</strong>
+        For a man whose professional life consisted of decades of late-night broadcasts and
+        constant contact with guests, the work itself became exactly the kind of reliable
+        nest Naranjo described for the self-preservation Seven.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, a chain of illnesses that threatened his own nest?</strong>
+        For a self-preservation Seven with Six-wing, whose security depends on a stable,
+        familiar framework, the repeated threat to this framework from his own illness can
+        be read as an intensification of his own life pattern: every new diagnosis was an
+        attack on his own nest – and every time, King returned to that nest as quickly as
+        possible, refusing to give it up without a fight. This reading is explored in more
+        depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean the self-preservation Seven with Six-wing's pattern inevitably
+        leads to such chains of illness – <strong>every person can develop any illness,
+        regardless of subtype.</strong> King's health problems are also closely tied to
+        classic cardiovascular risk factors (decades of smoking into the 1980s, decades of
+        workaholism with night shifts), not to be explained purely psychosomatically. What
+        his case can show is a pattern in how repeated illness was handled that stands out
+        again and again in a pronounced self-preservation Seven with Six-wing – one possible
+        reading among many, not a verdict. The corresponding condition will be developed
+        step by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        King, like most people, was not consciously aware of his own Enneagram pattern. Without that awareness he lived out his passion and motivation unchecked instead of applying the emergency brake in time – a trait that made him a giant of his profession, while also repeatedly driving him past the limits of his own health. Someone who recognizes their own pattern can consciously counter it; someone who does not repeats it until the body sets the limit the person never set themselves.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Seven with Six-wing is confirmed once more in the persistence
+        with which <strong>Larry King</strong> returned to his own nest, his show, after
+        each of four decades of health crises. The gorilla, who made every conversation a
+        safe place, defended that one place until the very end – until an illness came that
+        even his decades of carefully guarded security could no longer withstand.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se7", label:"Subtype Profile SE7"},
+      ])}
+    </div>
+  `);
+}
+
+function claudioNaranjoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-claudio-naranjo-portrait.jpg" alt="Dr. Claudio Naranjo – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Claudio Naranjo</p>
+        <p class="krim-portrait-typ">SO5w4 · Social Type 5 with Four-wing · 1932–2019</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Octopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Animal correspondence: Octopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Dr. Claudio Naranjo</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-claudio-naranjo">portrait under Famous Personalities</a>
+        in this Compass – as the Chilean psychiatrist who founded the 27 subtypes of the
+        Enneagram on which this entire Compass is built. This page examines a chapter that
+        page leaves largely unspoken: in his final years, Naranjo suffered from
+        Parkinson's disease – visible in increasing difficulty walking and speaking, and an
+        involuntary tremor in his arm clearly seen at his last public appearance at the 2019
+        World Ayahuasca Conference in Girona. Weeks later, on July 12, 2019, he died at age
+        86 in Berkeley, California. Public documentation of his illness is thinner than for
+        the other Illness Portraits in this Compass – the facts gathered here come from
+        accounts by attendees of his final talks, not from an officially confirmed diagnosis
+        history.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Naranjo</strong> classified himself as the <strong>Social Five with
+        Four-wing</strong>. He called the social Five <em>Totem</em>: knowledge is not
+        hoarded privately but made available to the community – as a legacy, a teaching, a
+        contribution to a larger whole. The Four-wing gives this stance an introspective,
+        often melancholic depth. His life's work – systematically passing on the Enneagram
+        to generations of students in the SAT seminars – is exactly this signature:
+        knowledge that is not kept for oneself but consistently passed on.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Visible symptoms only became public late:</strong>
+        There is no confirmed public record of exactly when Naranjo's Parkinson's began –
+        it became visible mainly in his final years, as his gait and sitting posture grew
+        increasingly restricted.</p>
+        <p class="vb-intro"><strong>b) Voice and movement affected:</strong>
+        Attendees of his final talks report speech difficulties and restricted mobility –
+        two core symptoms of advanced Parkinson's disease.</p>
+        <p class="vb-intro"><strong>c) The thought that it might be his last appearance:</strong>
+        Naranjo reportedly considered not attending the 2019 World Ayahuasca Conference in
+        Girona at all, sensing it might be his last major public appearance – an intuition
+        confirmed weeks later.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A final talk despite visible symptoms:</strong>
+        At his last public talk in Girona, an involuntary tremor in his arm was clearly
+        visible – Naranjo gave the talk anyway, rather than cancel for health reasons.</p>
+        <p class="vb-intro"><strong>b) A lifelong theme present to the end:</strong>
+        His last public appearance addressed the question of whether ayahuasca could help
+        heal global problems – a theme that drew together his decades-long connection of
+        psychotherapy, spirituality, and social change.</p>
+        <p class="vb-intro"><strong>c) Death weeks later:</strong>
+        On July 12, 2019, Naranjo died at age 86 at his home in Berkeley – weeks after this
+        final public appearance.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) A public appearance despite visible weakness:</strong>
+        Rather than withdraw from public life in the face of advancing physical limitations,
+        Naranjo chose to continue teaching even with a visibly trembling hand.</p>
+        <p class="vb-intro"><strong>b) Teaching as his life's purpose to the end:</strong>
+        Naranjo's entire late work was shaped by the desire to pass on his knowledge as
+        completely as possible to the next generation – a drive that did not weaken even in
+        his final year.</p>
+        <p class="vb-intro"><strong>c) Reticence about his own illness:</strong>
+        There are no known public statements in which Naranjo spoke at length about his own
+        Parkinson's diagnosis – a silence that contrasts with his usual openness about inner
+        processes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A life's work that outlasts his own illness:</strong>
+        The 27 subtypes that Naranjo developed and systematized from Oscar Ichazo's work
+        still form the foundation of countless Enneagram applications worldwide today –
+        including this Compass.</p>
+        <p class="vb-intro"><strong>b) A final talk as a moving close:</strong>
+        His 2019 talk in Girona is still described by attendees as especially poignant – not
+        despite but precisely because of the visible physical vulnerability with which it
+        was delivered.</p>
+        <p class="vb-intro"><strong>c) A death without major public staging:</strong>
+        Naranjo's death in July 2019 was honored within professional circles and among his
+        countless students worldwide, but received comparatively modest media coverage –
+        fitting for a man whose impact unfolded mainly within a dedicated professional
+        community, less in the broad public spotlight.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Knowledge as a final source of energy:</strong>
+        Even as his body and voice imposed increasing limits, passing on knowledge remained
+        Naranjo's central drive – typical of the social Five, whose identity is closely tied
+        to her contribution to a community of knowledge.</p>
+        <p class="vb-intro"><strong>b) The Four-wing as a source of inner depth in old age:</strong>
+        The Four-wing's introspective, often melancholic note likely intensified in his
+        final years – an awareness of his own mortality combined with the wish to round off
+        his own body of work.</p>
+        <p class="vb-intro"><strong>c) Publicness as a final act of transmission:</strong>
+        His final talk in Girona can be read as a deliberate last act of sharing – knowledge
+        passed on right up to his physical limit, fully in line with the Totem principle
+        Naranjo himself described for the social Five.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An illness that struck exactly the tools of his teaching:</strong>
+        Naranjo's entire work rested on language and bodily presence in seminars – it was,
+        of all things, voice and movement, the basic tools of his decades of teaching, that
+        Parkinson's increasingly restricted.</p>
+        <p class="vb-intro"><strong>b) Carrying on to the physical limit:</strong>
+        Rather than withdrawing in the face of visible symptoms, Naranjo gave his final major
+        talk – a pattern that fits his own description of the social Five as a transmitter of
+        knowledge who does not prematurely end her contribution to the community.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, an illness that took voice and movement?</strong>
+        For a social Five with Four-wing, whose identity and sense of purpose are closely
+        tied to passing knowledge on to a community, the progressive loss of speech and
+        movement can be read as an intensification of his own life pattern: the body that had
+        served for decades as the vehicle of his teaching itself became the final test of how
+        far knowledge could still be passed on once the means for doing so were increasingly
+        lacking. This reading is explored in more depth in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism – and with particular caution:</strong>
+        This does not mean the social Five with Four-wing's pattern inevitably leads to
+        Parkinson's – <strong>every person can develop any illness, regardless of
+        subtype.</strong> Unlike the other Illness Portraits in this Compass, the public
+        source material on Naranjo's illness is notably thin: there is no confirmed diagnosis
+        history, no official medical statement, only accounts from attendees of his final
+        talk. This portrait therefore rests on less solid sources than the others and should
+        be read with that caveat in mind. The corresponding condition will be developed step
+        by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Naranjo knew his own pattern better than almost anyone – and yet he still lived out the social Five's need to pass on knowledge until the very end, continuing to lecture publicly rather than withdrawing as his Parkinson's symptoms progressed. Even conscious knowledge of one's own pattern does not automatically protect against living it out to the body's limit.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Five with Four-wing is confirmed once more in how <strong>Claudio
+        Naranjo</strong> himself handled advancing physical limitation: not withdrawal, but a
+        final, visibly effortful act of passing his knowledge on to a community he himself
+        had spent decades building. The octopus, who never kept his knowledge for himself
+        but gave it to the world, kept passing it on into his final months of life – with a
+        trembling hand, but an unbroken will to teach.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so5", label:"Subtype Profile SO5"},
       ])}
     </div>
   `);
@@ -42549,7 +45543,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         pressure – territory is not given up, whether the attack comes from outside or from
         within. This reading is explored in more depth in this Compass's Psychosomatics
         Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the sexual Eight's pattern inevitably leads to cancer –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Ginsburg's case can show is a pattern that stands out again and again in practice
@@ -42557,6 +45551,8 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         explanation among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Ginsburg did not know her own pattern – the sexual Eight holds the position it has taken, whatever the cost, and it was exactly this tenacity that let her survive four cancer diagnoses without voluntarily giving up her seat. Someone who does not recognize their own unyielding nature as a pattern keeps holding on even where yielding would be the healthier path.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -42576,6 +45572,188 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
         {route:"beruehmte-ruth-bader-ginsburg", label:"Portrait: Ruth Bader Ginsburg (SX8w9) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx8", label:"Subtype Profile SX8"},
+      ])}
+    </div>
+  `);
+}
+
+function muhammadAliKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-muhammad-ali-portrait.jpg" alt="Muhammad Ali – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Muhammad Ali</p>
+        <p class="krim-portrait-typ">SO2w1 · Social Type 2 with One-wing · 1942–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Muhammad Ali</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-muhammad-ali">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as a boxer and civil rights
+        figure and his type structure in general. This page turns to a chapter that page
+        mentions only in passing: in 1984, three years after his
+        career ended, Ali was diagnosed with Parkinson's syndrome, which many physicians
+        attribute to the repeated head trauma of his two-decade professional career. He
+        lived with progressive symptoms – slowed speech, tremor, a mask-like facial
+        expression – for more than three decades, and died in 2016 at age 74 of septic
+        shock following a respiratory illness that his Parkinson's disease had made him
+        more vulnerable to.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Ali</strong> is classified as the <strong>Social Two with One-wing</strong>.
+        Naranjo called the social Two <em>Ambition</em>: the drive to care for an entire
+        collective through influence and public presence, not only for individual people.
+        The One-wing gives this ambition a moral axis – principle over personal
+        advantage, as already shown in Ali's resistance to the draft in 1967. That same
+        axis held even when his own body became his greatest test.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Slowed speech, unfamiliar silence:</strong>
+        Already in the early 1980s, toward the end of his active career, journalists
+        noticed increasingly slowed, slurred speech in a man who had spent decades famous
+        for his verbal speed – the Golden Retriever whose most important tool, his own
+        voice, was affected first.</p>
+        <p class="vb-intro"><strong>b) Diagnosis after retirement:</strong>
+        In 1984, three years after his last professional fight, doctors officially
+        confirmed a Parkinson's syndrome. The diagnosis did not arrive suddenly, but after
+        years of early, initially ambiguous symptoms that could still be played down in
+        the ring itself.</p>
+        <p class="vb-intro"><strong>c) Public visibility from the start:</strong>
+        Unlike many public figures with a neurological diagnosis, Ali did not withdraw to
+        conceal his symptoms – typical of the social Two, whose sense of self is
+        inseparable from public presence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Progressive symptoms over three decades:</strong>
+        Tremor, muscle stiffness, slowed movement, and an increasingly mask-like facial
+        expression shaped Ali's final three decades – a gradual process that
+        fundamentally transformed the once-fastest heavyweight in boxing history.</p>
+        <p class="vb-intro"><strong>b) Continued global travel:</strong>
+        Despite his advancing illness, Ali kept traveling the world – in 1990 he
+        personally negotiated the release of American hostages in Baghdad ahead of the
+        Gulf War, and in 1998 he became a UN Messenger of Peace. The illness slowed his
+        pace, but not the reach of his engagement.</p>
+        <p class="vb-intro"><strong>c) The tremor becomes a public image:</strong>
+        In 1996, Ali lit the Olympic flame at the Atlanta Summer Games with a visibly
+        trembling hand, in front of a billion-strong audience. Rather than hiding the
+        symptoms, that moment became one of the most moving images in Olympic history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Vulnerability as a deliberately shown image:</strong>
+        Where other public figures conceal a progressive neurological illness as long as
+        possible, Ali let himself be seen trembling, slowed, and visibly marked by the
+        disease – an openness that fits the social Two, whose impact arises precisely from
+        being visible to the community, not from controlled distance.</p>
+        <p class="vb-intro"><strong>b) Founding a center for his own values:</strong>
+        In 2005, the Muhammad Ali Center opened in Louisville, aiming to teach a broad
+        public six core values – respect, confidence, conviction, dedication,
+        giving, and spirituality. His own biography, illness included, became a lesson
+        for others.</p>
+        <p class="vb-intro"><strong>c) Family and public life side by side:</strong>
+        In his final years, public appearances alongside his family accompanied him – the
+        illness was never declared a private matter but remained part of a shared,
+        publicly visible life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) From loudest to quietest appearance, same effect:</strong>
+        The man who once stirred entire stadiums with lines like <em>I am the greatest</em>
+        achieved, with a single trembling gesture in Atlanta in 1996, an effect many found
+        even more moving than his loudest appearances in the ring.</p>
+        <p class="vb-intro"><strong>b) Respect earned through shown rather than hidden weakness:</strong>
+        Precisely because Ali did not hide his illness, public affection for him grew, if
+        anything, in his final decades rather than fading – an effect typical of the
+        social Two: closeness arises through visibility, not despite it.</p>
+        <p class="vb-intro"><strong>c) An illness that became a matter of public debate:</strong>
+        The debate over the cause of his Parkinson's syndrome – repeated head trauma in
+        the boxing ring – substantially contributed to an ongoing public discussion about
+        head injuries in sport.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Slowness as a new form of presence:</strong>
+        Where Ali once had an effect through speed and verbal force in the ring, in his
+        final decades he had an effect through stillness and quiet presence – the energy
+        of the social Two shifted from volume to symbolic power without losing impact.</p>
+        <p class="vb-intro"><strong>b) Travel and appearances despite physical limits:</strong>
+        Well into the 2000s, Ali took part in charity events and public engagements even
+        as speaking and walking grew increasingly difficult – presence for the community
+        remained a priority for as long as it was physically possible.</p>
+        <p class="vb-intro"><strong>c) Family as the extended arm of his public mission:</strong>
+        In his final years, his wife Lonnie and his daughters increasingly took over
+        public appearances and interviews on his behalf – the social mission was carried
+        forward even as his own voice could barely be heard.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body that became a public lesson:</strong>
+        Over more than three decades, Ali did not treat his progressive illness as a
+        private matter but made it a visible part of his public work – from the first
+        noticeable loss of speech in the early 1980s to the trembling torchbearer of
+        Atlanta 1996.</p>
+        <p class="vb-intro"><strong>b) From steadfast principle to physical steadfastness:</strong>
+        The same One-wing that carried his resistance to the draft in 1967 showed itself,
+        during the decades of illness, as persistent commitment to public engagement, even
+        as every trip and every appearance cost him increasing strength.</p>
+        <p class="vb-intro"><strong>c) Why an illness of voice and movement, of all things?</strong>
+        Parkinson's struck, of all things, the two tools with which Ali had spoken for
+        others and shown up for others his entire life: his voice and his movement through
+        space. For a social Two, whose entire passion lies in visible, audible action on
+        behalf of a collective, it is tempting to read this loss of exactly these two
+        capacities as an intensification of his own life pattern: his ambition had to find
+        new forms of expression once speech and movement were no longer available as
+        before – and found them in symbols like the trembling hand at the Olympic torch.
+        This reading is explored in more depth in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean the social Two's pattern inevitably leads to Parkinson's –
+        <strong>every person can develop any illness, regardless of subtype.</strong>
+        Moreover, Ali's Parkinson's syndrome is medically considered to have been
+        substantially caused by repeated head trauma in boxing, not as a purely
+        psychosomatic process. What his case can show is a pattern in how the illness was
+        handled that stands out again and again in a pronounced social Two – one possible
+        reading among many, not a verdict. The corresponding condition will be developed
+        step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Ali did not know his own pattern – the social Two with One-wing seeks meaning through visible service to others, and it was exactly this drive that kept him in the ring even as repeated blows to the head had long since taken their toll. Someone who does not recognize their own drive to stand up visibly for others also fails to hear their own body's warning signs, until they can no longer be ignored.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Two with One-wing is confirmed once more in how <strong>Muhammad
+        Ali</strong> handled his own illness: instead of withdrawing from public life, he
+        turned his tremor, his slowness, and his vulnerability into a message to the very
+        community his whole life had been devoted to. The Golden Retriever, who never
+        performed only for himself, carried his illness onto the same stage as his fame –
+        visible to the end, present for others to the end.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so2", label:"Subtype Profile SO2"},
       ])}
     </div>
   `);
@@ -42711,7 +45889,7 @@ function friedrichNietzscheKrankheitsportraetPage() {
         never in direct conversation. When the mental collapse closed even this last remaining
         channel, no way remained to communicate with the world at all.</p>
         <p class="vb-intro"><strong>d) A parallel within the same subtype:</strong>
-        <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">Frédéric Chopin</a>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-frederic-chopin">Frédéric Chopin</a>
         (SX5w4) likewise broke down physically shortly after his one decisive bond had
         shattered – for Chopin, the separation from George Sand in 1847; for Nietzsche, the
         rupture with Lou Salomé in 1883. Both cases show the same SX5w4 pattern: the one bond
@@ -42728,7 +45906,7 @@ function friedrichNietzscheKrankheitsportraetPage() {
         the sharpness of thought, reads as the bitterest conceivable intensification of his
         own life pattern. This reading is explored in more depth in this Compass's
         Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>f) Framing without determinism:</strong>
         This does not mean the sexual Five's pattern inevitably leads to neurological illness –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Nietzsche's case can show is a pattern that stands out again and again in practice
@@ -42736,6 +45914,8 @@ function friedrichNietzscheKrankheitsportraetPage() {
         present – one possible explanation among many, not a verdict. The corresponding
         condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
+        Nietzsche did not know his own pattern – the sexual Five concentrates all its strength into the one channel through which everything discharges, with no regard for its own reserves, and that is exactly what drove him to keep writing until total collapse. Someone who does not recognize their own concentration of strength does not notice when the last reserve has been spent.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -42753,6 +45933,185 @@ function friedrichNietzscheKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4) – life's work"},
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"krankheitsportraets-frederic-chopin", label:"Illness Portrait: Frédéric Chopin (SX5w4) – same SX5w4 parallel"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx5", label:"Subtype Profile SX5"},
+      ])}
+    </div>
+  `);
+}
+
+function fredericChopinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-frederic-chopin-portrait.jpg" alt="Frédéric Chopin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frédéric Chopin</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 with Four-wing · 1810–1849</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hedgehog</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Animal correspondence: Hedgehog" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Frédéric Chopin</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">portrait under Famous Personalities</a>
+        in this Compass – that page covers his compositional life's work and type structure.
+        This page delves into a topic only touched on there: a tuberculosis that likely
+        accompanied him since young adulthood, accelerated dramatically after his relationship
+        with George Sand ended in 1847, and cost him his life at thirty-nine.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Chopin</strong> is classified as the <strong>Sexual Five with Four-wing</strong> –
+        the same subtype as <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a>.
+        Naranjo called this subtype <em>Trust</em>: the SX5 seeks not distance, but the one bond
+        that carries everything. The Four-wing turns withdrawal into art – a pattern that can be
+        traced right into Chopin's physical decline, which set in exactly when that one bond
+        broke.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A delicate constitution since childhood:</strong>
+        Even as a child, Chopin was considered sickly and frail – recurring colds and breathing
+        difficulties accompanied him through his youth in Warsaw, long before any actual
+        diagnosis could be made.</p>
+        <p class="vb-intro"><strong>b) The first serious warning signs in his twenties:</strong>
+        Shortly after his move to Paris in 1831, friends and physicians already reported
+        coughing fits, exhaustion, and occasional coughing up of blood – symptoms now read in
+        retrospect as early tuberculosis.</p>
+        <p class="vb-intro"><strong>c) The catastrophe of Mallorca:</strong>
+        In the winter of 1838/39, Chopin traveled with George Sand to Mallorca, hoping the mild
+        climate would help his health. Instead, his condition deteriorated dramatically: local
+        physicians diagnosed a contagious lung disease, the landlord then cancelled their
+        lodging, and the family had to move into a damp, cold Carthusian monastery in
+        Valldemossa.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Composing through acute flare-ups:</strong>
+        It was precisely during the weeks of his most severe physical crisis on Mallorca that
+        Chopin composed much of his <em>Préludes op. 28</em> – one of his most dense,
+        introspective works, written literally at his sickbed.</p>
+        <p class="vb-intro"><strong>b) A decade alternating between flare-ups and recovery:</strong>
+        Throughout the 1840s, Chopin's condition alternated between relative stability and acute
+        flare-ups – accompanied by weight loss, chronic fatigue, and increasing breathlessness
+        with physical exertion.</p>
+        <p class="vb-intro"><strong>c) Public performances despite visible weakness:</strong>
+        Friends and contemporaries increasingly described Chopin at his rare concerts as pale,
+        gaunt, and short of breath – a contrast that grew starker the more flawless his music
+        remained despite it all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The collapse after the 1847 separation:</strong>
+        After the bitter end of his nine-year relationship with George Sand in 1847, Chopin's
+        health declined rapidly. He composed almost nothing more – as if the bond that had
+        carried his creative power had taken his physical reserves with it.</p>
+        <p class="vb-intro"><strong>b) The final journey to England:</strong>
+        In 1848, already severely weakened, Chopin nonetheless traveled to London and Scotland
+        to give concerts and lessons. Contemporaries described him afterward as barely
+        recognizable – exhausted beyond exhaustion.</p>
+        <p class="vb-intro"><strong>c) The final months in Paris:</strong>
+        Back in Paris, his condition continued to worsen through 1849. Friends and his sister
+        Ludwika, who traveled from Warsaw for the purpose, cared for him in his final weeks as
+        he became increasingly bedridden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A death at thirty-nine:</strong>
+        Chopin died on 17 October 1849 in Paris from the effects of advanced tuberculosis. His
+        final wish was that Mozart's Requiem be played at his funeral.</p>
+        <p class="vb-intro"><strong>b) Two decades between first signs and death:</strong>
+        From the first symptoms in the early 1830s to his death in 1849, Chopin lived nearly two
+        decades with an illness that never fully halted his compositional output – until the
+        separation from George Sand accelerated its final collapse.</p>
+        <p class="vb-intro"><strong>c) A body of work that never lost its precision:</strong>
+        Even in the years of increasing physical weakness, Chopin's music retained the same
+        density and restraint that marked his entire output – not one note too many, even at
+        the sickbed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The Five's miserliness, applied to his own energy:</strong>
+        Where others facing progressing illness spread their remaining strength across many
+        areas, Chopin bundled what little energy he had left almost exclusively into
+        composition – the hedgehog that curls up and gives almost nothing else away.</p>
+        <p class="vb-intro"><strong>b) The physical collapse as a mirror of the one broken bond:</strong>
+        The rapid health decline after the 1847 separation from George Sand shows how closely,
+        for the SX5, physical strength and the one carrying relationship are entwined – when
+        the bond breaks, physical collapse follows close behind.</p>
+        <p class="vb-intro"><strong>c) Composing to the physical limit:</strong>
+        Even in his final months, Chopin taught and composed as far as his fading strength
+        allowed – the one open channel through which everything discharged remained open to the
+        very end.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) An illness that accompanied his entire adult life:</strong>
+        From first signs in his youth through the Mallorca catastrophe to his death in 1849,
+        tuberculosis runs through Chopin's entire artistic output as a constant, never fully
+        absent companion.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a>
+        (SX5w4) likewise broke down physically shortly after his one decisive bond had
+        shattered – for Nietzsche, the rupture with Lou Salomé in 1883; for Chopin, the
+        separation from George Sand in 1847. Both cases show the same SX5w4 pattern: the one
+        bond that carries everything is also what the physical and creative strength depend
+        on – when it breaks, physical collapse follows close behind. This parallel is also
+        explored in the <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-nietzsche">illness
+        portrait on Nietzsche</a>.</p>
+        <p class="vb-intro"><strong>c) Withdrawal instead of confrontation as a recurring pattern:</strong>
+        Unlike Ludwig van Beethoven (SX6w5) or Friedrich Schiller (SX6w5), who met their illness
+        with open confrontation, Chopin – true to the pattern typical of the Sexual Five –
+        withdrew increasingly into smaller, private circles as his illness progressed, rather
+        than fighting it publicly.</p>
+        <p class="vb-intro"><strong>d) Why the lungs, of all things?</strong>
+        For a Sexual Five whose strength concentrates almost exclusively into a single,
+        narrowly bounded channel, one interpretation suggests itself: the lungs – breath, the
+        foundation of every expression of life, including musical expression – of all things
+        became the stage for a battle Chopin never fought publicly, but instead distilled into
+        his music. This interpretation is developed further in this Compass's psychosomatics
+        register.</p>
+        <p class="vb-intro"><strong>e) Context without determinism:</strong>
+        This does not mean that the Sexual Five pattern inevitably leads to lung disease –
+        <strong>any person can develop any illness, regardless of subtype.</strong> What
+        Chopin's case illustrates is a pattern that keeps recurring in practice among people
+        whose physical strength is tightly bound to their one carrying relationship – one of
+        many possible interpretations, not a judgment. The corresponding illness pattern is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Chopin did not know his own pattern – the sexual Five bundles strength and devotion into the one carrying bond, without ever realizing how closely his physical strength depended on that very bond. Someone who does not know their own pattern also does not see how tightly their own vitality is tied to a single attachment, until its loss takes them down with it.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Chopin's</strong> Sexual Five with Four-wing is legible once more in the course
+        of his illness: a tuberculosis simmering since his youth that accelerated dramatically
+        exactly when the one carrying bond of his life broke, and that cost him his life on 17
+        October 1849. The hedgehog that bundled what little strength remained, to the very end,
+        into the one open channel through which everything within him flowed.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4) – life's work"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4) – same SX5w4 parallel"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Illness Portrait: Ludwig van Beethoven (SX6w5) – counter-model: open confrontation"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx5", label:"Subtype Profile SX5"},
       ])}
@@ -42905,7 +46264,7 @@ function fjodorDostojewskiKrankheitsportraetPage() {
         fear, lived out literally in her own nervous system, over and over, for an entire
         lifetime. This reading is explored in more depth in this Compass's Psychosomatics
         Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>f) Framing without determinism:</strong>
         This does not mean the Self-Preservation Six's pattern inevitably leads to epilepsy –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Dostoevsky's case can show is a pattern that stands out again and again in practice
@@ -42913,6 +46272,8 @@ function fjodorDostojewskiKrankheitsportraetPage() {
         explanation among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
+        Dostoevsky did not know his own pattern – yet the self-preservation Six, who seeks safety in a familiar frame, found in the ever-recurring epileptic seizures a paradoxical anchor point that he transferred directly into his fictional characters, rather than experiencing the illness purely as threat. That, too, is a form of unconscious pattern integration: not struggle, but processing within one's own work.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -43077,7 +46438,7 @@ function franzKafkaKrankheitsportraetPage() {
         put his final words on paper, just as his characters had to put their final hopes
         there, rather than being able to speak them aloud. This reading is explored in more
         depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Self-Preservation Five's pattern inevitably leads to
         tuberculosis or other respiratory illnesses – <strong>every person can develop any
         illness, regardless of subtype.</strong> What Kafka's case can show is a pattern that
@@ -43085,6 +46446,8 @@ function franzKafkaKrankheitsportraetPage() {
         closeness is present – one possible explanation among many, not a verdict. The
         corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Kafka did not know his own pattern – the self-preservation Five with Four-wing withdraws even deeper into its own inner world as threat progresses, and that is exactly what he did, until in the end only handwritten notes remained to communicate at all. Someone who does not know their own withdrawal pattern does not see how far it can escalate before communication becomes impossible.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -43256,7 +46619,7 @@ function ronaldReaganKrankheitsportraetPage() {
         the end the memory of that very belonging dissolved too – no longer chosen freely, but
         unstoppable. This reading is explored in more depth in this Compass's Psychosomatics
         Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>f) Framing without determinism:</strong>
         This does not mean the Social Nine's pattern inevitably leads to Alzheimer's or other
         forms of dementia – <strong>every person can develop any illness, regardless of
         subtype.</strong> What Reagan's case can show is a pattern that stands out again and
@@ -43264,6 +46627,8 @@ function ronaldReaganKrankheitsportraetPage() {
         explanation among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>g) The Unconscious Fixation as a Further Factor:</strong>
+        Reagan did not know his own pattern – yet the social Nine, who typically avoids conflict and attention, did not evade this particular diagnosis, but made it public in a personal letter before withdrawing definitively from the spotlight. That, too, can be unconscious pattern behavior: the one conscious act of openness, followed by the familiar retreat into silence.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -43428,7 +46793,7 @@ function davidBowieKrankheitsportraetPage() {
         form of this pattern: even the unavoidable was not left to chance, but shaped down to
         the final second. This reading is explored in more depth in this Compass's
         Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Social One's pattern inevitably leads to cancer –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Bowie's case can show is a pattern that stands out again and again in practice
@@ -43436,6 +46801,8 @@ function davidBowieKrankheitsportraetPage() {
         composed message for an audience – one possible explanation among many, not a verdict.
         The corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Bowie did not know his own pattern – the social One with Two-wing wants to control and shape its own impact right to the end, and that is exactly what he did, turning a fatal diagnosis into his final, flawlessly composed work rather than showing public vulnerability. Someone who does not recognize their own need for control shapes even their own death instead of simply letting it happen.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -43599,7 +46966,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
         The body that had functioned reliably his whole life, despite being permanently
         called upon, could no longer compensate for the overload at the end. This reading is
         explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Self-Preservation Two's pattern inevitably leads to kidney
         disease – <strong>every person can develop any illness, regardless of subtype.</strong>
         What Mozart's case can show is a pattern that stands out again and again in practice
@@ -43607,6 +46974,8 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
         of worth – one possible explanation among many, not a verdict. The corresponding
         condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Mozart did not know his own pattern – the self-preservation Two with Three-wing secures its own existence through relentless output and courting patrons, and it was exactly this drive that kept him working on three major works simultaneously even with high fever, instead of allowing himself rest. Someone who does not recognize their own compulsion to perform keeps working until the body leaves no choice.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -43770,7 +47139,7 @@ function nusratFatehAliKhanKrankheitsportraetPage() {
         works. A system that never learned to grant itself recovery ultimately lost the very
         ability to care, quietly, for its own balance, with which it had cared for others a
         whole life long.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) A framework, not a determinism:</strong>
+        <p class="vb-intro"><strong>e) A framework, not a determinism:</strong>
         This does not mean that the Self-Preservation Two's pattern inevitably leads to kidney
         disease or diabetes – <strong>anyone can develop any illness, regardless of subtype.</strong>
         What Khan's case illustrates is a pattern that recurs in practice around the need to
@@ -43778,6 +47147,8 @@ function nusratFatehAliKhanKrankheitsportraetPage() {
         not a verdict. The corresponding disease pattern is being developed step by step in this
         Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
         Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Khan did not know his own pattern – the self-preservation Two with Three-wing notoriously puts its own needs behind those of others, and that is exactly what let him leave a progressing diabetes untreated for years while singing tirelessly for his audience. Someone who does not recognize their own habit of deferring their own needs notices the exhaustion only once the body finally fails.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -43943,7 +47314,7 @@ function karlLagerfeldKrankheitsportraetPage() {
         fear – remained strictly concealed behind a flawless outward facade. The body fell ill
         in a place as invisible as the truth he had concealed his whole life. This reading is
         explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Social Three's pattern inevitably leads to cancer –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Lagerfeld's case can show is a pattern that stands out again and again in practice
@@ -43951,6 +47322,8 @@ function karlLagerfeldKrankheitsportraetPage() {
         possible explanation among many, not a verdict. The corresponding condition will be
         developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Lagerfeld did not know his own pattern – the social Three maintains its public image at any cost, and that is exactly what let him keep a cancer diagnosis secret from even his closest confidants for almost four years, rather than easing his pace even once. Someone who does not recognize their own need for a flawless public appearance hides even their own mortality behind it.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -44119,7 +47492,7 @@ function friedrichSchillerKrankheitsportraetPage() {
         he never tried to win by retreating, only ever by continuing to work. The wolf that
         kept fighting until, quite literally, no breath remained. This reading is explored in
         more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Sexual Six's pattern inevitably leads to lung disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Schiller's case can show is a pattern that stands out again and again in practice
@@ -44127,6 +47500,8 @@ function friedrichSchillerKrankheitsportraetPage() {
         withdrawal but through continued confrontation – one possible explanation among many,
         not a verdict. The corresponding condition will be developed step by step in this
         Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Schiller did not know his own pattern – the sexual Six reflexively meets threat with confrontation rather than rest, and it was exactly this that drove him to work against his own physical decline for fourteen years, rather than yielding to the illness even once. Someone who does not know their own confrontational pattern keeps fighting even where retreat would be the healthier answer.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -44147,6 +47522,364 @@ function friedrichSchillerKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – counter-model: concealment rather than confrontation"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx6", label:"Subtype Profile SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigVanBeethovenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ludwig-van-beethoven-portrait.jpg" alt="Ludwig van Beethoven" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig van Beethoven</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with Five-wing · 1770–1827</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Animal correspondence: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ludwig van Beethoven</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-ludwig-van-beethoven">portrait under Famous Personalities</a>
+        in this Compass – that page covers his type structure and his decades-long fight against
+        progressing deafness. This page focuses on a chapter that page only touches on: a second,
+        parallel illness affecting the rest of his body – chronic abdominal ailments, a possible
+        case of lead poisoning, and a liver cirrhosis that ultimately cost him his life at 56.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Beethoven</strong> is classified as the <strong>Sexual Six with Five-wing</strong>.
+        Naranjo described SX6 as the Six's counter-type: rather than withdrawing from threat, it
+        meets it with demonstrated strength. The Five-wing adds analytical depth and the ability
+        to immerse itself in structure and work – a pattern that can be traced right into
+        Beethoven's final years, marked by two parallel illnesses.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Two illnesses, one pattern:</strong>
+        Alongside the progressing deafness, examined in depth in the Famous Personalities
+        portrait, Beethoven suffered his entire adult life from a second, far less known line of
+        illness – chronic abdominal complaints that he met with the same defiant continuation of
+        work as he did his hearing loss.</p>
+        <p class="vb-intro"><strong>b) Colic-like pain from his mid-twenties:</strong>
+        Already around 1798 – the same period in which the first signs of deafness appeared –
+        Beethoven complained in letters of severe colic attacks, diarrhea and digestive
+        disorders, an ailment that stayed with him until his death and was never clearly
+        diagnosed.</p>
+        <p class="vb-intro"><strong>c) Working on instead of resting:</strong>
+        Friends and physicians repeatedly urged him toward spa treatments and dietary restraint.
+        Beethoven rarely kept to either for long – as soon as an acute flare-up eased, he
+        returned to coffee, wine and nights spent working through.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Suspected lead poisoning:</strong>
+        Hair analyses and a DNA study published in 2023, examining preserved locks of hair and a
+        skull fragment, found strongly elevated lead levels in Beethoven's body – possible
+        sources range from lead-tainted wine to medical treatments to drinking-water pipes.
+        Whether the lead exposure actually contributed to his deafness or to his later liver
+        damage remains scientifically disputed to this day.</p>
+        <p class="vb-intro"><strong>b) A life without moderation:</strong>
+        Beethoven did not smoke, but drank wine regularly, often in quantities his physicians
+        judged harmful – for an already compromised liver, a pattern that accelerated the slow
+        decline over decades without him ever fundamentally changing it.</p>
+        <p class="vb-intro"><strong>c) Jaundice and the first signs of liver disease:</strong>
+        From around 1821, episodes of jaundice recurred repeatedly – a clear sign of progressing
+        liver damage that Beethoven, much as he had with his deafness before, tended to push
+        aside rather than take seriously in its full weight.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The collapse of December 1826:</strong>
+        On the return journey from his brother Johann's home, Beethoven was exposed to bitter
+        cold in an open, unsprung carriage. Shortly afterward he fell severely ill with
+        pneumonia, from which he never recovered – the beginning of his final four months.</p>
+        <p class="vb-intro"><strong>b) Four painful abdominal punctures:</strong>
+        The progressing liver cirrhosis led to massive fluid buildup in his abdomen (ascites).
+        Between December 1826 and February 1827, Beethoven had to undergo four painful surgical
+        punctures to drain the accumulated fluid – during the last one, the wound continued to
+        leak uncontrollably for days.</p>
+        <p class="vb-intro"><strong>c) Death during a thunderstorm:</strong>
+        Beethoven died on 26 March 1827 in Vienna, while a severe spring thunderstorm raged
+        outside. According to tradition, as lightning flashed and thunder crashed, he opened his
+        eyes once more, clenched his right fist, and then sank back – dead.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) An autopsy finding that revealed the full extent:</strong>
+        The autopsy the day after his death found a massively shrunken, nodular, scarred liver
+        (cirrhosis) as well as severely damaged kidneys – a finding that shows his organism kept
+        functioning for years on a fraction of its actual capacity.</p>
+        <p class="vb-intro"><strong>b) Two illnesses that reinforced each other:</strong>
+        Complete deafness increasingly isolated Beethoven from those around him, while the
+        abdominal and liver disease drained his physical strength in parallel – two independent
+        threats that he met with the same stance: not evading them, but continuing to work.</p>
+        <p class="vb-intro"><strong>c) Compositional peak achievement despite dual illness:</strong>
+        It was precisely in the years when both illnesses had progressed furthest that the late
+        string quartets and the Ninth Symphony were composed – works of a depth that initially
+        overwhelmed many of his contemporaries.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The wolf that bared its teeth even at its own body:</strong>
+        Just as he had once stood his ground against Prince Lichnowsky, Beethoven met his own
+        dual illness not with retreat or restraint, but with continued, uncompromising work
+        right to the end.</p>
+        <p class="vb-intro"><strong>b) Strength directed against his own decline:</strong>
+        Even after the painful abdominal punctures and increasing weakness, Beethoven still
+        dictated letters to his nephew Karl and occupied himself with plans for a Tenth
+        Symphony – energy that remained directed outward, literally, into his final weeks.</p>
+        <p class="vb-intro"><strong>c) The clenched fist as final gesture:</strong>
+        Whether the tradition of the lightning strike at the moment of his death is historically
+        precise or not, the clenched fist with which Beethoven is said to have died has become
+        the emblem of a stance that carried his entire life: not evading threat – any threat –
+        but standing one's ground against it.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Two threats, one reaction:</strong>
+        Whether hearing or liver, Beethoven met neither of his progressing illnesses with
+        retreat or a change in lifestyle, but with the same defiant continuation of work that
+        already shaped his dealings with nobles and critics.</p>
+        <p class="vb-intro"><strong>b) Nearly thirty years between first symptoms and death:</strong>
+        From the first colic attacks around 1798 to his death in 1827, Beethoven lived nearly
+        three decades with chronic complaints that he never placed at the center of his life,
+        but instead – much like his deafness – effectively wrote over through continued
+        creative work.</p>
+        <p class="vb-intro"><strong>c) Confrontation instead of restraint as a recurring pattern:</strong>
+        Unlike Karl Lagerfeld (SO3w4), who concealed his illness behind a flawless image, or
+        Franz Schubert (SE6w5), who increasingly withdrew, Beethoven – much like his SX6w5
+        counterpart Friedrich Schiller – did not hide his illness but ignored it through
+        continued, undiminished work until his body permitted no further confrontation.</p>
+        <p class="vb-intro"><strong>d) Why the hearing and the liver, of all things?</strong>
+        For a Sexual Six whose entire life consisted of directly, often uncompromisingly
+        confronting threat, one interpretation suggests itself: two central organs of all
+        things – hearing, through which he perceived his art, and the liver, which carried the
+        continued strain on his body for decades – became the stage for a double, invisible
+        battle that he never tried to win through retreat, only through continuing to work. This
+        interpretation is developed further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Context without determinism:</strong>
+        This does not mean that the Sexual Six pattern inevitably leads to liver or hearing
+        disease – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What Beethoven's case illustrates is a pattern that keeps recurring in practice among
+        people whose need to confront threat – even their own mortality – through continued
+        confrontation rather than retreat – one of many possible interpretations, not a
+        judgment. The corresponding illness pattern is gradually being developed in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics
+        register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Beethoven did not know his own pattern – the sexual Six meets every threat with confrontation rather than retreat, and it was exactly this that drove him to meet both his deafness and his own physical decline with continued, uncompromising work rather than easing off. Someone who does not know their own confrontational pattern mistakes persistence for the only possible answer to threat.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Beethoven's</strong> Sexual Six with Five-wing is legible once more in the course
+        of his illness: two parallel, decades-long conditions – deafness and liver disease –
+        that he never met with retreat, only with continued, uncompromising work, until on 26
+        March 1827 literally no more resistance was possible. The wolf that never evaded threat –
+        whether a prince, a critic, deafness, or its own mortality – but stood its ground against
+        it to the very last clenched fist.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) – life's work"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Illness Portrait: Friedrich Schiller (SX6w5) – same subtype, same confrontational stance"},
+        {route:"krankheitsportraets-franz-schubert", label:"Illness Portrait: Franz Schubert (SE6w5) – counter-model: withdrawal instead of confrontation"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – counter-model: concealment instead of confrontation"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx6", label:"Subtype Profile SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function michaelJacksonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-michael-jackson-portrait.jpg" alt="Michael Jackson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Jackson</p>
+        <p class="krim-portrait-typ">SO4w3 · Social Type 4 with Three-wing · 1958–2009</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Michael Jackson</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-michael-jackson">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure, including a brief
+        mention of vitiligo and his death from propofol. This page traces that exact chain in
+        depth: a burn injury in 1984 that became the starting point of a decades-long
+        dependence on pain and sleep medication that ultimately cost him his life.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Jackson</strong> is classified as the <strong>Social Four with Three-wing</strong>.
+        Naranjo described SO4 as the Four's reinforcement type: envy is turned inward and
+        becomes shame – a deep sense of lacking, anchored in one's own outward image. The
+        Three-wing supplies stage presence and a perfectionism that tolerates no visible flaw – a
+        pattern that can be traced right into his handling of chronic pain and sleeplessness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) An accident in front of the cameras:</strong>
+        On 27 January 1984, sparks from a pyrotechnic effect during the filming of a Pepsi
+        commercial set Jackson's hair on fire. He suffered second- and third-degree burns to
+        his scalp that required several surgeries.</p>
+        <p class="vb-intro"><strong>b) Where the painkiller use began:</strong>
+        Strong opioid painkillers were prescribed to treat the burn pain and the following
+        surgeries – according to consistent later accounts from those around him, his first
+        contact with a class of substances that stayed with him until his death.</p>
+        <p class="vb-intro"><strong>c) Performing through pain as the norm:</strong>
+        Jackson returned to the stage shortly after the accident, visible scalp injuries
+        concealed under a wig and makeup – an early sign of a pattern that shaped his entire
+        later life: pain was not shown but covered over.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Vitiligo as an additional, concealed burden:</strong>
+        Alongside the pain medication, his skin, increasingly blotched by vitiligo, worsened
+        from the mid-1980s onward – an autoimmune disease that destroys pigment cells. Jackson
+        covered the affected areas with makeup for years before making the diagnosis public to
+        Oprah Winfrey in 1993.</p>
+        <p class="vb-intro"><strong>b) Chronic insomnia as a condition in its own right:</strong>
+        From the 1990s onward, physicians, staff, and later court documents consistently
+        described a severe, treatment-resistant insomnia that accompanied Jackson for years,
+        which he tried to combat with ever-stronger remedies.</p>
+        <p class="vb-intro"><strong>c) Propofol as a sleep aid far outside any medical norm:</strong>
+        Propofol is a potent anesthetic that may only be used under intensive-care supervision –
+        never as a sleep aid at home. According to testimony in the later court proceedings,
+        Jackson nonetheless received it nightly for months just to be able to fall asleep.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The final preparations for This Is It:</strong>
+        In the weeks before his death, Jackson rehearsed intensively for his planned
+        fifty-date comeback concert series <em>This Is It</em> in London – despite growing
+        physical exhaustion described by production staff in multiple later statements.</p>
+        <p class="vb-intro"><strong>b) 25 June 2009:</strong>
+        His personal physician, Conrad Murray, administered propofol to Jackson in the early
+        morning hours to treat his ongoing insomnia. Jackson suffered acute cardiac arrest and
+        could not be resuscitated. He died at age 50, a few weeks before the planned start of
+        the concert series.</p>
+        <p class="vb-intro"><strong>c) A trial that exposed the full extent:</strong>
+        Conrad Murray was convicted of involuntary manslaughter in 2011. The trial revealed in
+        detail how far the at-home administration of propofol was from any medical standard,
+        and for how long this pattern had already existed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A chain that began in 1984:</strong>
+        Twenty-five years lie between the first opioid prescription after the Pepsi accident
+        and the fatal propofol dose in 2009 – years in which the handling of pain and
+        insomnia gradually developed into a life-threatening dependence on prescription
+        substances.</p>
+        <p class="vb-intro"><strong>b) Two parallel processes on his own body:</strong>
+        Vitiligo visibly changed how Jackson looked; the medication dependence invisibly
+        changed how his body functioned. Both processes ran in parallel for decades, and both
+        were concealed by Jackson for a long time, until public pressure or a court proceeding
+        exposed them.</p>
+        <p class="vb-intro"><strong>c) Working to the point of physical limit:</strong>
+        Even in his final weeks, physically exhausted and dependent on propofol just to sleep,
+        Jackson kept up his comeback rehearsals – a pattern already visible in 1984, when he
+        returned to the stage shortly after the accident.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The armadillo that hid pain behind the stage:</strong>
+        Just as he initially hid the vitiligo patches behind makeup in 1993, Jackson also hid
+        his growing dependence on pain and sleep medication behind the flawless facade of
+        performance – until neither could be concealed any longer.</p>
+        <p class="vb-intro"><strong>b) Perfectionism as the drive to the very end:</strong>
+        Rehearsal records from the final weeks show an artist who, despite visible
+        exhaustion, held on to the highest personal standards – the Three-wing that delivers
+        performance even when the body is already sounding the alarm.</p>
+        <p class="vb-intro"><strong>c) Dependence on the very people meant to protect him:</strong>
+        The at-home propofol administration was carried out by a physician Jackson himself
+        had hired – a pattern in which closeness and trust turned into danger, because the
+        need for relief outweighed any caution.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) From a visible to an invisible injury:</strong>
+        The 1984 burn injury was publicly visible, treated, and healed. The dependence that
+        grew out of it remained largely invisible for twenty-five years – until his death
+        itself.</p>
+        <p class="vb-intro"><strong>b) Twenty-five years between trigger and death:</strong>
+        From the 1984 Pepsi accident to his death in 2009, Jackson lived a quarter-century
+        with a course of illness never summed up in a single diagnosis, but built gradually
+        out of pain treatment, insomnia, and ever-stronger remedies.</p>
+        <p class="vb-intro"><strong>c) Concealment instead of confrontation as a recurring pattern:</strong>
+        Unlike Ludwig van Beethoven (SX6w5) or Friedrich Schiller (SX6w5), who met their
+        illness with open confrontation, or Franz Schubert (SE6w5), who increasingly
+        withdrew, Jackson – much like his SO3w4 counterpart Karl Lagerfeld – hid his
+        dependence behind a flawless public facade until his body permitted no further
+        concealment.</p>
+        <p class="vb-intro"><strong>d) Why the skin and sleep, of all things?</strong>
+        For a Social Four whose entire self-image hangs on outward appearance, one
+        interpretation suggests itself: the skin – the most visible of all organs – and
+        sleep – the state in which no control over one's own image remains possible – of
+        all things became the stage for a battle Jackson never fought publicly but tried to
+        manage behind closed doors. This interpretation is developed further in this
+        Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Context without determinism:</strong>
+        This does not mean that the Social Four pattern inevitably leads to medication
+        dependence or skin disease – <strong>any person can develop any illness, regardless
+        of subtype.</strong> What Jackson's case illustrates is a pattern that keeps
+        recurring in practice among people whose need to maintain a flawless outward image at
+        any cost dominates – one of many possible interpretations, not a judgment. The
+        corresponding illness pattern is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Jackson did not know his own pattern – the social Four with Three-wing keeps its own image flawless at any cost, even toward itself, and that is exactly what let him hide a twenty-five-year dependence behind that very image instead of seeking help openly. Someone who does not recognize their own need for a flawless image ultimately sacrifices their own health to it.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Jackson's</strong> Social Four with Three-wing is legible once more in the
+        course of his illness: a burn injury that became the starting point of a
+        twenty-five-year, largely concealed dependence, overlaid with an equally hidden skin
+        disease – until on 25 June 2009 the combination permitted no further concealment. The
+        armadillo that carried its armor to the very end – shining, unassailable on the
+        outside, and growing more exhausted within, from a battle almost no one saw.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3) – life's work"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same concealment strategy"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Illness Portrait: Ludwig van Beethoven (SX6w5) – counter-model: open confrontation"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
     </div>
   `);
@@ -44296,7 +48029,7 @@ function konradAdenauerKrankheitsportraetPage() {
         postwar German history. This reading is a plausible interpretation, not a
         historically documented causal link, and is explored in more depth in this Compass's
         Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Self-Preservation One's pattern inevitably leads to accidents
         or injuries – <strong>every person can suffer any illness or injury, regardless of
         subtype.</strong> What Adenauer's case can show is a pattern that stands out again and
@@ -44304,6 +48037,8 @@ function konradAdenauerKrankheitsportraetPage() {
         precisely after suffered vulnerability – one possible explanation among many, not a
         verdict. The corresponding condition will be developed step by step in this
         Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Adenauer did not know his own pattern – the self-preservation One with Nine-wing reflexively turns injury into controlled outward order, and that is exactly what he did, shaping the scars of his accident into an expression of disciplined authority rather than acknowledging the shock behind them. Someone who does not know their own pattern of control maintains the facade so thoroughly that even those closest to them barely sense the actual strain.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -44466,7 +48201,7 @@ function johannSebastianBachKrankheitsportraetPage() {
         pattern already established in childhood. This reading is a plausible
         interpretation, not a documented historical causal link, and is explored in more
         depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Sexual One's pattern inevitably leads to eye disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Bach's case can show is a pattern that stands out again and again in practice
@@ -44474,6 +48209,8 @@ function johannSebastianBachKrankheitsportraetPage() {
         own physical limits – one possible explanation among many, not a verdict. The
         corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Bach did not know his own pattern – the sexual One with Nine-wing seeks the one, perfect solution, and it was exactly this drive toward perfection that led him to undergo a risky operation twice by the same dubious oculist, rather than stopping after the first failure. Someone who does not recognize their own striving for the perfect solution repeats the same mistake, hoping this time will be different.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -44638,7 +48375,7 @@ function napoleonBonaparteKrankheitsportraetPage() {
         his own past, reads as the consistent conclusion of this pattern. This reading is a
         plausible interpretation, not a documented historical causal link, and is explored in
         more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Social Two's pattern inevitably leads to stomach disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Napoleon's case can show is a pattern that stands out again and again in practice
@@ -44646,6 +48383,8 @@ function napoleonBonaparteKrankheitsportraetPage() {
         over one's own bodily signals – one possible explanation among many, not a verdict.
         The corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Napoleon did not know his own pattern – the social Two with Three-wing suppresses its own vulnerability in favor of the next great task, and that is exactly what let him ignore decades of stomach complaints, even when they may have impaired his strategic judgment at Waterloo. Someone who does not know their own pattern of suppression ultimately risks the very thing they sacrificed everything else for.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -44663,6 +48402,521 @@ function napoleonBonaparteKrankheitsportraetPage() {
         {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so2", label:"Subtype Profile SO2"},
+      ])}
+    </div>
+  `);
+}
+
+function juliusCaesarKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-julius-caesar-portrait.jpg" alt="Julius Caesar" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julius Caesar</p>
+        <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-wing · 100–44 BC</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Julius Caesar</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-julius-caesar">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general. This
+        page examines a chapter that page does not address at all: a recurring illness –
+        likely epilepsy – attested by multiple ancient sources, which Caesar concealed his
+        entire life and which may even have contributed to his assassination.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Caesar</strong> is classified as the <strong>Social Two with Three-wing</strong>.
+        As Naranjo describes, the SO2 invests not in reserves but in relationship, admiration,
+        and indispensability on a grand scale. The Three-wing adds the refusal to let weakness
+        – including one's own physical weakness – hold one back, and the ability to actively
+        shape every image of oneself. This exact pattern can be traced right into Caesar's
+        handling of his own, concealed illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Ancient sources that agree:</strong>
+        Both Plutarch and Suetonius independently report that Caesar suffered from the
+        "falling sickness" (morbus comitialis) – the ancient term for what is today read as
+        epilepsy.</p>
+        <p class="vb-intro"><strong>b) A seizure in the middle of a campaign:</strong>
+        Plutarch describes a seizure during the Battle of Thapsus in 46 BC, in which Caesar
+        had to be carried from the battlefield by his men while the engagement continued.</p>
+        <p class="vb-intro"><strong>c) A second documented incident at Corduba:</strong>
+        Another seizure is said to have occurred in 45 BC at Corduba (present-day Córdoba,
+        Spain) during a public address – a moment at which restraint before his own troops
+        would have seemed almost unthinkable for a general.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) An unclear onset:</strong>
+        Whether the seizures accompanied Caesar from a young age or developed only in his
+        final years cannot be reliably reconstructed from the surviving sources – modern
+        scholarship debates both possibilities.</p>
+        <p class="vb-intro"><strong>b) A medical-historical debate still open today:</strong>
+        Alongside epilepsy, modern physicians and historians also discuss alternative
+        explanations, including repeated minor strokes (transient ischemic attacks) resulting
+        from decades of campaign strain. A definitive retrospective diagnosis is no longer
+        possible more than two thousand years later.</p>
+        <p class="vb-intro"><strong>c) No public acknowledgment by Caesar himself:</strong>
+        In none of his surviving writings, not even in the detailed <em>Commentarii</em>, does
+        Caesar so much as hint at his own illness – a striking silence from a man who
+        otherwise had every detail of his achievements meticulously documented.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Continued campaigning despite the seizures:</strong>
+        Neither the incident at Thapsus nor the one at Corduba kept Caesar from resuming his
+        campaigns immediately – both times he returned to command within a short period, as if
+        nothing had happened.</p>
+        <p class="vb-intro"><strong>b) A reduced bodyguard in his final months:</strong>
+        Contemporary accounts report that Caesar deliberately reduced his personal guard in
+        the weeks before his assassination – behavior some historians link to a diminishing
+        confidence in his own physical invulnerability, others to purely political
+        calculation.</p>
+        <p class="vb-intro"><strong>c) The assassination on 15 March 44 BC:</strong>
+        Caesar was killed in the Senate by a group of conspirators with 23 stab wounds – a
+        violent end not directly connected to the illness itself, though its prehistory is
+        threaded through with questions about Caesar's vulnerability and invulnerability.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) An illness that became a literary icon:</strong>
+        Shakespeare's play <em>Julius Caesar</em> (c. 1599) dramatizes a public seizure in the
+        forum – a scene that has anchored Caesar's "falling sickness" in the collective
+        consciousness to this day, regardless of the precise historical facts.</p>
+        <p class="vb-intro"><strong>b) A possible role in the conspirators' calculations:</strong>
+        Some historians speculate that perceived signs of physical weakness – alongside
+        Caesar's growing accumulation of power – may have influenced the timing of the
+        assassination. This cannot be conclusively proven.</p>
+        <p class="vb-intro"><strong>c) The contrast between public image and private reality:</strong>
+        Hardly any other ruler of antiquity shaped his public image as deliberately as Caesar
+        did – and hardly any kept a physical weakness of his own so consistently out of that
+        image.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The Golden Retriever that could not show weakness:</strong>
+        For a man whose entire impact rested on indispensability and admiration, a publicly
+        acknowledged illness would have threatened not just his physical but his emotional
+        core security.</p>
+        <p class="vb-intro"><strong>b) Returning to command as self-proof:</strong>
+        Both documented incidents at Thapsus and Corduba followed the same pattern: seizure,
+        brief interruption, immediate return to full capability – a demonstrative confirmation
+        of his own invulnerability, precisely because the opposite had just been shown.</p>
+        <p class="vb-intro"><strong>c) Trust in his own indispensability to the very end:</strong>
+        The same stance that led Caesar to reduce his bodyguard, on the assumption that "no
+        one would harm him, since he had provided for everyone," already shows in his handling
+        of his own illness: vulnerability was never permitted, only covered over.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A silence that has held for over two thousand years:</strong>
+        That a man who wrote his own history in the third person specifically to control every
+        detail of his achievements never once mentioned his own illness shows how deep the
+        concealment ran.</p>
+        <p class="vb-intro"><strong>b) Two documented incidents, one recurring behavior:</strong>
+        At both Thapsus and Corduba, Caesar reacted the same way: no interruption to the
+        mission, no public acknowledgment of his own limits, immediate return to full control.</p>
+        <p class="vb-intro"><strong>c) Confrontation through concealment rather than retreat:</strong>
+        Unlike Ludwig van Beethoven (SX6w5), who openly fought his illness, or Franz Schubert
+        (SE6w5), who withdrew, Caesar – much like his later SO2w3 counterpart Napoleon
+        Bonaparte – chose a third path: concealing his own illness so completely that it
+        simply did not exist within his public image.</p>
+        <p class="vb-intro"><strong>d) Why a breakdown of control, of all things?</strong>
+        For a Social Two with Three-wing whose entire identity hung on the deliberate shaping
+        of their own image, one interpretation suggests itself: an illness that strips the
+        body of control for moments and makes it publicly vulnerable became the greatest
+        conceivable threat – and had to be kept out of his own narrative at any cost. This
+        interpretation is a plausible reading, not a documented historical causal link, and is
+        developed further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Social Two pattern inevitably leads to epilepsy or similar
+        conditions – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What Caesar's case illustrates is a pattern in the handling of one's own illness that
+        keeps recurring in practice among people with a pronounced Social Two with Three-wing –
+        one of many possible interpretations, not a judgment. The corresponding illness
+        pattern is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Caesar did not know his own pattern – the Social Two with Three-wing cannot allow a
+        weakness that endangers the self-made image of indispensability, and that is exactly
+        what let him conceal a recurring illness for years rather than ever acknowledge it
+        publicly. Someone who does not recognize their own need for a flawless, invulnerable
+        image ends up hiding the very vulnerability their own security would have needed most.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Two with Three-wing is confirmed once more in how <strong>Caesar</strong>
+        handled his own illness: a recurring condition attested by several ancient sources
+        that he never publicly acknowledged, two documented seizures in the middle of command
+        from which he each time reported back immediately, and a reduced bodyguard in his
+        final weeks that shows how far trust in his own invulnerability carried him to the
+        very end. The Golden Retriever who would rather remain unprotected than appear
+        vulnerable for even a moment.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3) – life's work"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali – Parkinson's"},
+        {route:"krankheitsportraets-napoleon-bonaparte", label:"Illness Portrait: Napoleon Bonaparte (SO2w3) – same concealment strategy"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Illness Portrait: Ludwig van Beethoven (SX6w5) – counter-model: open confrontation"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so2", label:"Subtype Profile SO2"},
+      ])}
+    </div>
+  `);
+}
+
+function claudeDebussyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-claude-debussy-portrait.jpg" alt="Claude Debussy" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Claude Debussy</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexual Type 4 with Five-wing · 1862–1918</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Animal correspondence: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Claude Debussy</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-claude-debussy">portrait under Famous Personalities</a>
+        in this Compass – that page covers his compositional life's work and type structure.
+        This page delves into a chapter that page does not address: a colorectal cancer
+        diagnosis in 1909, an almost nine-year, increasingly painful course of illness during
+        the First World War, and a death amid the German shelling of Paris.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Debussy</strong> is classified as the <strong>Sexual Four with Five-wing</strong>.
+        Naranjo called this subtype <em>Rivalry</em>: the burning conviction that the
+        established order withholds something essential, coupled with the drive to stand
+        against it. The Five-wing adds the ability to immerse itself in work and structure
+        until no strength remains – a pattern that can be traced right into Debussy's handling
+        of his own fatal illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First symptoms already in 1908:</strong>
+        From 1908 onward, Debussy increasingly complained of digestive complaints and
+        bleeding – symptoms he initially dismissed as temporary while continuing to compose
+        and conduct.</p>
+        <p class="vb-intro"><strong>b) Diagnosis in 1909:</strong>
+        In 1909, Debussy was diagnosed with colorectal cancer. He kept the diagnosis largely
+        private and continued his compositional work as well as public appearances as a
+        conductor and pianist.</p>
+        <p class="vb-intro"><strong>c) Continuing to work despite early treatments:</strong>
+        Even in the first years after the diagnosis, Debussy repeatedly underwent painful
+        treatments without fundamentally curtailing his concert activity and compositional
+        work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Radium treatments from 1915:</strong>
+        From 1915 onward, Debussy underwent several radium treatments against the progressing
+        cancer – at the time a novel, extremely painful form of therapy with uncertain
+        success.</p>
+        <p class="vb-intro"><strong>b) An operation in December 1915:</strong>
+        In December 1915, Debussy underwent one of the first colostomy operations performed in
+        France – a procedure that severely weakened him physically but did not break his
+        compositional ambition.</p>
+        <p class="vb-intro"><strong>c) Composing despite worsening health:</strong>
+        In the years following the operation, Debussy continued to compose, including his
+        final major chamber works – created during phases of increasing pain and exhaustion.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) A final public appearance under wartime conditions:</strong>
+        In September 1917, already severely marked by illness, Debussy gave one of his last
+        concerts in Paris – while the city stood under bombardment by the German army.</p>
+        <p class="vb-intro"><strong>b) Rapid decline in early 1918:</strong>
+        In the first months of 1918, Debussy's condition deteriorated dramatically. He was
+        increasingly bedridden while the so-called Paris Gun shelled the city from almost 130
+        kilometers away.</p>
+        <p class="vb-intro"><strong>c) Death on 25 March 1918:</strong>
+        Debussy died in his Paris apartment at age 55, while the city lay under German
+        artillery fire. Due to wartime conditions, his funeral was small – a quiet farewell
+        amid the noise of war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Almost nine years between diagnosis and death:</strong>
+        From his 1909 diagnosis to his death in 1918, Debussy lived almost nine years with a
+        progressing, increasingly painful illness, without fully abandoning his compositional
+        work.</p>
+        <p class="vb-intro"><strong>b) A late work marked by loss and pain:</strong>
+        Debussy's final compositions – written during the worst years of the war and the
+        progressing illness – carry a clarity and restraint that many music historians read as
+        a deliberate retreat to the essential.</p>
+        <p class="vb-intro"><strong>c) Illness and war as a parallel recurring thread:</strong>
+        Debussy's final years ran parallel to the First World War – his personal illness and
+        the collapse of the European order he had questioned his entire life ended almost at
+        the same moment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Rivalry, directed against his own mortality:</strong>
+        Just as Debussy fought the established music world his entire life, he also fought his
+        progressing illness – not through denial, but through continued, uncompromising
+        creative work.</p>
+        <p class="vb-intro"><strong>b) The Five-wing as a refuge within illness:</strong>
+        The sicker Debussy became, the more he withdrew into his own compositional work – the
+        same immersion in structure and sound that had marked him as a young composer now
+        became the place where the pain disappeared for hours at a time.</p>
+        <p class="vb-intro"><strong>c) A final concert as an act of defiance:</strong>
+        His 1917 appearance under wartime conditions, severely ill, shows the same stance that
+        ran through his entire body of work: refusing to let outer circumstances – whether
+        critics or cannons – dictate his own music.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Nine years between diagnosis and death:</strong>
+        From 1909 to 1918, Debussy lived with an illness he never placed at the center of his
+        public life, but instead effectively wrote over through continued compositional work.</p>
+        <p class="vb-intro"><strong>b) Confrontation instead of withdrawal from public life:</strong>
+        Unlike Karl Lagerfeld (SO3w4) or Michael Jackson (SO4w3), who hid their illness behind
+        a flawless facade, Debussy withdrew physically but continued giving public concerts to
+        the very end – a distinct way of handling his own mortality, somewhere between
+        confrontation and retreat.</p>
+        <p class="vb-intro"><strong>c) A death that coincided with the collapse of an era:</strong>
+        That Debussy died precisely during the shelling of Paris reinforces the impression of
+        a life in which private and historical crises intertwined right up to the end.</p>
+        <p class="vb-intro"><strong>d) Why the intestine, of all things?</strong>
+        For a Sexual Four whose entire body of work consisted of digesting and transforming
+        pain into art, one interpretation suggests itself: the organ that quite literally
+        digests, of all things, became the stage for a battle Debussy never fought publicly,
+        but instead distilled into his music. This interpretation is a plausible reading, not
+        a documented historical causal link, and is developed further in this Compass's
+        psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Sexual Four pattern inevitably leads to colorectal cancer –
+        <strong>any person can develop any illness, regardless of subtype.</strong> What
+        Debussy's case illustrates is a pattern in the handling of one's own illness that keeps
+        recurring in practice among people with a pronounced Sexual Four with Five-wing – one
+        of many possible interpretations, not a judgment. The corresponding illness pattern is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Debussy did not know his own pattern – the Sexual Four reflexively transforms pain
+        into work rather than rest, and that is exactly what kept him composing, conducting,
+        and performing even in the face of a fatal diagnosis, rather than taking time for his
+        own recovery. Someone who does not recognize their own pattern of turning pain
+        immediately into expression may miss the moment when pausing would have been the wiser
+        response.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Debussy's</strong> Sexual Four with Five-wing is legible once more in the
+        course of his illness: an almost nine-year illness he never made the public center of
+        his life, a final concert under cannon fire, and a death that coincided with the
+        collapse of an entire era. The Chihuahua that taught music to hover, even as his own
+        body could no longer carry him.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5) – life's work"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – counter-model: concealment instead of performing"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx4", label:"Subtype Profile SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function johnWayneKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-john-wayne-portrait.jpg" alt="John Wayne" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Wayne</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexual Type 8 with Seven-wing · 1907–1979</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Crocodile</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Animal correspondence: Crocodile" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>John Wayne</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-john-wayne">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work and type structure in general. This
+        page delves into a chapter that page does not address: a 1964 lung cancer diagnosis
+        that Wayne publicly declared a fight, and a second, fatal cancer diagnosis in 1979.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Wayne</strong> is classified as the <strong>Sexual Eight with Seven-wing</strong>.
+        The SX8 lives out its intensity unfiltered and physically – it does not seek the
+        diplomatic middle ground, but the full, immediate expression of strength and will. The
+        Seven-wing adds extra momentum and the refusal to slow down – a pattern that can be
+        traced right into Wayne's publicly staged fight against his own illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Decades of heavy smoking:</strong>
+        Wayne smoked up to six packs of cigarettes a day for decades – a habit that
+        dramatically raised his cancer risk, which he long treated as no threat at all.</p>
+        <p class="vb-intro"><strong>b) Diagnosis in September 1964:</strong>
+        In 1964, Wayne was diagnosed with lung cancer. His left lung and two ribs had to be
+        removed in an extensive operation.</p>
+        <p class="vb-intro"><strong>c) A public declaration of the fight:</strong>
+        Rather than hiding the diagnosis, Wayne went public with it in 1965 and called his
+        fight against the disease "The Big C" – cancer, like any other opponent in his films,
+        was to be named directly and fought.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Returning in front of the camera despite one lung:</strong>
+        Just months after the major operation, Wayne returned to filming – with markedly
+        reduced lung capacity, but no publicly visible narrowing of his choice of roles.</p>
+        <p class="vb-intro"><strong>b) A public face for cancer awareness:</strong>
+        Wayne's open handling of his diagnosis made him one of the most recognized public
+        faces in the fight against cancer in 1960s and 1970s America – he actively engaged in
+        awareness campaigns.</p>
+        <p class="vb-intro"><strong>c) Continued physically demanding film work:</strong>
+        Even after the operation, Wayne kept filming physically demanding Western and action
+        roles, often with visible effort, without fundamentally changing his choice of roles.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Fifteen years after the first diagnosis:</strong>
+        After the 1964 lung cancer surgery, Wayne lived another fifteen years, during which he
+        continued his film career, including his only Oscar-winning role in "True Grit" (1969).</p>
+        <p class="vb-intro"><strong>b) A second cancer diagnosis in January 1979:</strong>
+        In January 1979, Wayne was diagnosed with stomach cancer. In the following surgery,
+        his entire stomach was removed.</p>
+        <p class="vb-intro"><strong>c) Death on 11 June 1979:</strong>
+        Wayne died at age 72 at the UCLA Medical Center from the effects of the stomach cancer
+        – barely five months after the second diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A public fight that became a role model:</strong>
+        Wayne's openness about his first cancer encouraged many other patients to stop hiding
+        their own diagnoses – a rare case where openness, not concealment, was the defining
+        pattern.</p>
+        <p class="vb-intro"><strong>b) Two cancers, one lifestyle:</strong>
+        Both the lung and the later stomach cancer are linked to Wayne's decades of heavy
+        tobacco use – a risk he never fundamentally changed, even after the first diagnosis.</p>
+        <p class="vb-intro"><strong>c) A career that continued to the very end:</strong>
+        Wayne made his final film, "The Shootist" – fittingly, about a dying gunfighter – as
+        late as 1976, three years before his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Cancer as a named opponent:</strong>
+        Where other celebrities hid their illness, Wayne explicitly named his cancer as an
+        enemy to be defeated – the Sexual Eight, which does not avoid threat but confronts it
+        directly, even when the opponent is one's own body.</p>
+        <p class="vb-intro"><strong>b) The Seven-wing as the drive for a rapid return:</strong>
+        His swift return in front of the camera after the lung surgery shows the Seven-wing at
+        its purest: standstill was never an option for Wayne, even with only one lung left.</p>
+        <p class="vb-intro"><strong>c) Public strength as a continuation of the screen persona:</strong>
+        The fight against "The Big C" was received by the public almost as a continuation of
+        his film roles – the Duke, standing his ground against his own mortality too.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Fifteen years between first diagnosis and death:</strong>
+        From the 1964 lung cancer diagnosis to his death in 1979, Wayne lived fifteen years
+        with the knowledge of his own mortality – without fundamentally changing his public
+        life or his choice of roles.</p>
+        <p class="vb-intro"><strong>b) Confrontation instead of concealment as a recurring pattern:</strong>
+        Unlike Karl Lagerfeld (SO3w4) or Michael Jackson (SO4w3), who hid their illness behind
+        a flawless facade, Wayne made his diagnosis public and framed it as another fight to be
+        won – the Sexual Eight, which does not hide threat but names it.</p>
+        <p class="vb-intro"><strong>c) Two different organs, the same lifestyle:</strong>
+        That both the lung and the stomach were affected points to the same underlying risk
+        factor – a lifestyle built on intensity rather than moderation, even after the first
+        warning.</p>
+        <p class="vb-intro"><strong>d) Why two consecutive cancers, of all things?</strong>
+        For a Sexual Eight with Seven-wing whose entire self-image rests on unchecked intensity
+        and pace, one interpretation suggests itself: the body, strained without moderation for
+        decades, spoke up twice – and Wayne met both instances with the same direct
+        confrontation, never with retreat or restraint. This interpretation is a plausible
+        reading, not a documented historical causal link, and is developed further in this
+        Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Sexual Eight pattern inevitably leads to cancer –
+        <strong>any person can develop any illness, regardless of subtype.</strong> Wayne's
+        illnesses are also closely linked to a classic risk factor (decades of heavy smoking),
+        not to be explained in purely psychosomatic terms. What his case illustrates is a
+        pattern in the public handling of one's own illness that keeps recurring in practice
+        among people with a pronounced Sexual Eight with Seven-wing – one of many possible
+        interpretations, not a judgment. The corresponding illness pattern is gradually being
+        developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Wayne did not know his own pattern – the Sexual Eight with Seven-wing meets threat with
+        direct confrontation and unchecked pace, and that is exactly what let him continue his
+        intense lifestyle essentially unchanged despite the first cancer diagnosis, rather than
+        fundamentally course-correcting. Someone who does not recognize their own pattern of
+        physically wrestling down every threat instead of taking it as a cue for moderation
+        risks the same opponent returning a second time.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Wayne's</strong> Sexual Eight with Seven-wing is legible once more in the
+        course of his illness: a first cancer battle fought publicly in 1964, fifteen more
+        years lived at unchanged pace, and a second, fatal diagnosis in 1979 that he met with
+        the same direct stance as the first. The crocodile that named "The Big C" like any
+        other opponent – and who, in the end, had to step up twice to fight the same battle.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-john-wayne", label:"Portrait: John Wayne (SX8w7) – life's work"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – counter-model: concealment instead of confrontation"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx8", label:"Subtype Profile SX8"},
       ])}
     </div>
   `);
@@ -44796,7 +49050,7 @@ function elvisPresleyKrankheitsportraetPage() {
         eventually had nothing left of its own to process or metabolize. This reading is a
         plausible interpretation, not a documented historical causal link, and is explored in
         more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Sexual Two's pattern inevitably leads to drug dependency or
         cardiovascular disease – <strong>every person can develop any illness, regardless of
         subtype.</strong> What Elvis's case can show is a pattern that stands out again and
@@ -44804,6 +49058,8 @@ function elvisPresleyKrankheitsportraetPage() {
         own bodily warning signs – one possible explanation among many, not a verdict. The
         corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Presley did not know his own pattern – the sexual Two with Three-wing lives for immediate connection with its audience, and it was exactly this drive that kept him touring while his body visibly broke down. Someone who does not recognize their own need for connection trades their own health for the next round of applause.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -44963,7 +49219,7 @@ function oshoKrankheitsportraetPage() {
         to the end, part of the grand narrative of persecution and significance. This reading
         is a plausible interpretation, not a documented historical causal link, and is
         explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Self-Preservation Three's pattern inevitably leads to chronic
         illness or disputed circumstances of death – <strong>every person can develop any
         illness, regardless of subtype.</strong> What Osho's case can show is a pattern that
@@ -44971,6 +49227,8 @@ function oshoKrankheitsportraetPage() {
         self-interpretation become fused – one possible explanation among many, not a
         verdict. The corresponding condition will be developed step by step in this
         Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Osho knew the Enneagram as a teaching system very precisely and referred to it repeatedly in his own talks – his well-known core statement on it was, roughly, that the Enneagram shows the nine sicknesses of the ego, but the only cure for them is meditation. That very stance – knowing one's own category theoretically, yet considering the map already surpassed because one has ›arrived‹ – can make genuine self-recognition harder rather than easier, especially for someone with pronounced guru status. Whether Osho truly saw through his own pattern at depth, or merely sensed it, cannot be settled conclusively; his recurring, never fully clarified physical complaints suggest that knowledge of a system is not automatically the same as real self-recognition – especially not when one's own spiritual ego is also in play.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -45133,7 +49391,7 @@ function marilynMonroeKrankheitsportraetPage() {
         pain that fit her image least was exactly the pain she hid the longest. This reading
         is a plausible interpretation, not a documented historical causal link, and is
         explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Sexual Three's pattern inevitably leads to endometriosis or
         medication dependency – <strong>every person can develop any illness, regardless of
         subtype.</strong> What Monroe's case can show is a pattern that stands out again and
@@ -45141,6 +49399,8 @@ function marilynMonroeKrankheitsportraetPage() {
         flawless public image – one possible explanation among many, not a verdict. The
         corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Monroe did not know her own pattern – the sexual Three with Four-wing maintains the flawless image at any cost, even toward herself, and that is exactly what let her hide a painful illness behind that image for years rather than seek help that might have endangered the facade. Someone who does not recognize their own need for a flawless image ultimately sacrifices their own health to it.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -45297,7 +49557,7 @@ function ladyDianaKrankheitsportraetPage() {
         the Three-wing, flawless control had to be publicly demonstrated at the same time.
         This reading is a plausible interpretation, not a documented historical causal link,
         and is explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Self-Preservation Four's pattern inevitably leads to bulimia –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Diana's case can show is a pattern that stands out again and again in practice
@@ -45305,6 +49565,8 @@ function ladyDianaKrankheitsportraetPage() {
         explanation among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Diana did not know her own pattern – the self-preservation Four with Three-wing hides inner pain behind a flawless public appearance, and that is exactly what let her conceal a severe eating disorder for years before she herself disclosed it in 1995. Someone who does not know their own concealment pattern carries the burden alone, until openness itself becomes the liberating exception.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -45464,7 +49726,7 @@ function freddieMercuryKrankheitsportraetPage() {
         his own image was maintained until the very end. This reading is a plausible
         interpretation, not a documented historical causal link, and is explored in more
         depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Sexual Four's pattern inevitably leads to AIDS or other immune
         disorders – <strong>every person can develop any illness, regardless of subtype.</strong>
         What Mercury's case can show is a pattern that stands out again and again in practice
@@ -45472,6 +49734,8 @@ function freddieMercuryKrankheitsportraetPage() {
         privacy at the same time – one possible explanation among many, not a verdict. The
         corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Mercury did not know his own pattern – the sexual Four with Three-wing hides its own vulnerability behind flawless stage performance, and that is exactly what let him keep his diagnosis secret for almost five years while working himself to complete exhaustion. Someone who does not know their own concealment pattern maintains the facade until literally no strength remains to hold it up.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -45632,7 +49896,7 @@ function albertEinsteinKrankheitsportraetPage() {
         form of control he had left: the deliberate decision not to fight it. This reading is
         a plausible interpretation, not a documented historical causal link, and is explored
         in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
         This does not mean the Social Five's pattern inevitably leads to vascular disease –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Einstein's case can show is a pattern that stands out again and again in practice
@@ -45640,6 +49904,8 @@ function albertEinsteinKrankheitsportraetPage() {
         rather than emotional coping – one possible explanation among many, not a verdict. The
         corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Einstein did not know his own pattern – the social Five with Four-wing prefers to determine its own terms rather than submit to outside control, and that is exactly what showed in his conscious refusal of another operation. Someone who does not recognize their own need for autonomy easily mistakes it for pure reason, even though their own fixation also plays a part.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -45800,7 +50066,7 @@ function robertSchumannKrankheitsportraetPage() {
         The intensity that carried Schumann throughout his life – in composing, in the fight
         for Clara, in his enthusiasm for Brahms – had no built-in brake. When that intensity
         turned inward, the mechanism that might have caught it was apparently missing.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
         This does not mean the Sexual Seven's pattern inevitably leads to mental illness –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Schumann's case can show is a pattern that stands out again and again in practice
@@ -45808,6 +50074,8 @@ function robertSchumannKrankheitsportraetPage() {
         explanation among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Schumann did not know his own pattern – the sexual Seven with Eight-wing seeks intensity without limits, until no reserve remains, and it was exactly this that drove him into a state of total despair, out of which he himself asked to be admitted to an asylum. Someone who does not recognize their own need for boundless intensity only notices, at the point of total collapse, that a limit had been needed.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -45969,13 +50237,15 @@ function francisBaconKrankheitsportraetPage() {
         own curiosity – became the fatal consequence of a life stance that systematically
         subordinated practical caution to the joy of discovery. This reading is explored in
         more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
         This does not mean the self-preservation Seven's pattern inevitably leads to such
         accidents – <strong>every person can develop any illness, regardless of subtype.</strong>
         What Bacon's case can show is a pattern that stands out again and again in practice
         wherever curiosity runs without a brake – one possible explanation among many, not a
         verdict. The corresponding condition will be developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Bacon did not know his own pattern – the self-preservation Seven with Eight-wing pursues every new idea to its ultimate consequence, without factoring in its own physical vulnerability, and that is exactly what led a spontaneous experiment in winter cold to cost him his life. Someone who does not recognize their own drive for knowledge underestimates how easily curiosity can become its own hazard.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -46129,7 +50399,7 @@ function karlMarxKrankheitsportraetPage() {
         between inside and outside, between the body and the hostile world Marx fought his
         entire life – became itself the site of a chronic, painful conflict. This reading is
         explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
         This does not mean the Social Eight's pattern inevitably leads to skin conditions –
         <strong>every person can develop any illness, regardless of subtype.</strong> What
         Marx's case can show is a pattern that stands out again and again in practice wherever
@@ -46137,6 +50407,8 @@ function karlMarxKrankheitsportraetPage() {
         many, not a verdict. The corresponding condition will be developed step by step in this
         Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
         Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Marx did not know his own pattern – the social Eight tolerates no interruption to its own mission, and that is exactly what let him keep working undeterred on his life's work for over four decades despite painful carbuncles, rather than allowing himself the rest he needed. Someone who does not know their own pattern of endurance mistakes yielding for defeat, even when their own body has long needed to stop.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -46290,7 +50562,7 @@ function jamesLevineKrankheitsportraetPage() {
         gradually robs one of control over one's own movements struck a man whose entire
         identity hinged on the precise, physical command of an orchestra. This reading is
         explored in more depth in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
         This does not mean the self-preservation Nine's pattern inevitably leads to Parkinson's
         disease – <strong>every person can develop any illness, regardless of subtype.</strong>
         What Levine's case can show is a pattern that stands out again and again in practice
@@ -46298,6 +50570,8 @@ function jamesLevineKrankheitsportraetPage() {
         possible explanation among many, not a verdict. The corresponding condition will be
         developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Levine did not know his own pattern – the self-preservation Nine with One-wing prefers to avoid any attention to its own weakness, and that is exactly what let him keep early tremor symptoms private for years rather than ease off in time. Someone who does not know their own pattern of avoidance postpones the necessary decision until it is taken out of their hands.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -46453,7 +50727,7 @@ function davidHumeKrankheitsportraetPage() {
         organ responsible for intake, processing, and equilibrium became, in Hume, the site of a
         slow but unstoppable decline. This reading is explored in more depth in this Compass's
         Psychosomatics Register.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Framing without determinism:</strong>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
         This does not mean the self-preservation Nine's pattern inevitably leads to bowel
         disease – <strong>every person can develop any illness, regardless of subtype.</strong>
         What Hume's case can show is a pattern that stands out again and again in practice
@@ -46461,6 +50735,8 @@ function davidHumeKrankheitsportraetPage() {
         among many, not a verdict. The corresponding condition will be developed step by step in
         this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
         Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Hume did not know his own pattern – and yet the self-preservation Nine with Eight-wing showed its most mature side precisely in his own illness: rather than avoiding or dramatizing the threat, he met his own decline with the same calm clarity with which he had practiced philosophy his whole life. Not every unconsciously lived pattern deepens suffering – sometimes it carries a person through, without them ever knowing why.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -46633,13 +50909,15 @@ function elizabethBarrettBrowningKrankheitsportraetPage() {
         emergency pattern but chemically deepened it – from an Enneagram-homeopathic perspective a
         strikingly unfortunate choice, even though the medicine of her time naturally had no way
         of knowing this correspondence.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) A classification without determinism:</strong>
+        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
         This does not mean that the Sexual Nine pattern inevitably leads to dependency disorders –
         <strong>anyone can develop any illness, regardless of subtype.</strong> What Barrett
         Browning's case illustrates is a pattern that recurs in practice with deep fusion
         tendencies – one of many possible explanations, not a verdict. The corresponding illness
         picture is being developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Barrett Browning did not know her own pattern – the sexual Nine with Eight-wing merges easily with another's will rather than following her own path, and that is exactly what kept her trapped for over twenty years in the isolation of her father's house and in opium dependence. Only the one intense bond that finally tore her out of that house broke a pattern she herself had never been aware of.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -60476,7 +64754,7 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
     ${pageHeader(routeSlug)}
     <section class="narrow">
       <p class="eyebrow">${eyebrow}</p>
-      <h1>${title}</h1>
+      <h1 class="h1--tip">${title}</h1>
       <p class="lead-small">${intro}</p>
       <div style="display:flex;gap:0.7rem;flex-wrap:wrap;margin:1.2rem 0 2rem;">
         <a href="https://www.enneascholars.de" target="_blank" rel="noopener"
@@ -60498,49 +64776,13 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
   `);
 }
 
-function davidRathmerFuehrungMitFundamentPage() {
-  return shell(`
-    ${pageHeader("david-rathmer-fuehrung-mit-fundament")}
-    <section class="narrow">
-      <p class="eyebrow">David L. Rathmer &middot; Führung mit Fundament</p>
-      <h1 class="h1--tip">Führung mit Fundament</h1>
-      <p class="lead-small">Leadership exposes character like almost no other situation. Under responsibility, conflict, and time pressure, inner patterns emerge unguarded &ndash; in leaders and employees alike. Detlef Rathmer and David L. Rathmer devoted an entire 632-page work to this connection.</p>
-      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="../assets/schaubilder/fuehrungsstile/fuehrung-mit-fundament-buch.jpg"
-             alt="Führung mit Fundament – Detlef Rathmer &amp; David L. Rathmer"
-             class="psycho-img" />
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:.6rem;color:var(--ink);">What it's about</h2>
-        <p class="vb-intro">The book is divided into three parts. The first covers the psychological foundation of the nine leadership types &ndash; their core structure, everyday leadership style, blind spots, and behavior under stress. The second part applies the Enneagram to leadership practice &ndash; from psychologically effective decisions to conflict dynamics, responsibility, and power. The third part is devoted to integration and maturation: leadership in mature systems, real-world cases, and the interplay of the nine types.</p>
-        <p class="vb-intro">A compact overview of the nine leadership styles with their respective strength under pressure can be found in the <a href="javascript:void(0)" data-route="fuehrungsstile">"Leadership Styles" chart</a> in this Compass.</p>
-      </div>
-
-      ${bookTip("fuehrung-mit-fundament", "632 pages of depth psychology for leaders: the nine leadership types, their blind spots, and the path to mature, effective leadership.", "Führung mit Fundament")}
-      ${bookTip("meta-intelligenz", "How to learn to observe one's own thoughts – gaining a new degree of inner freedom and clarity.", "Meta-Intelligenz")}
-      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}
-
-      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
-        <p style="margin:0;font-size:0.92rem;color:var(--ink);"><strong>David L. Rathmer</strong> has made the Enneagram for leaders and organizations his life's focus &ndash; as co-author of this book and as the developer of Enneagram Profiling. More on this, including interviews with companies like Digistore24, on his site <a href="https://www.enneascholars.de" target="_blank" rel="noopener">enneascholars.de</a>.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"david-rathmer-fuehrung", label:"Leadership & Business (Videos)"},
-        {route:"david-rathmer-erfolgsinterviews", label:"Success Interviews"},
-        {route:"fuehrungsstile", label:"Chart: Leadership Styles"},
-        {route:"enneagramm-profiling", label:"Enneagram Profiling"},
-      ])}
-    </section>
-  `);
-}
 function davidRathmerFuehrungPage() {
   const bt = bookTip("fuehrung-mit-fundament", "Understanding leaders and teams &mdash; the Enneagram as a leadership compass.", "Führung mit Fundament");
   return shell(`
     ${pageHeader("david-rathmer-fuehrung")}
     <section class="narrow">
       <p class="eyebrow">David L. Rathmer &middot; Leadership & Business</p>
-      <h1>Leadership & Business</h1>
+      <h1 class="h1--tip">Leadership & Business</h1>
       <p class="lead-small">David L. Rathmer is the founder of Enneagram Profiling for leaders and companies. In these videos, he shows how the Enneagram works in a business context &mdash; from employee leadership and team dynamics to personality analysis in companies.</p>
       <div style="display:flex;gap:0.7rem;flex-wrap:wrap;margin:1.2rem 0 2rem;">
         <a href="https://www.enneascholars.de" target="_blank" rel="noopener"
@@ -60618,6 +64860,43 @@ function davidRathmerFuehrungPage() {
   `);
 }
 
+function davidRathmerFuehrungMitFundamentPage() {
+  return shell(`
+    ${pageHeader("david-rathmer-fuehrung-mit-fundament")}
+    <section class="narrow">
+      <p class="eyebrow">David L. Rathmer &middot; Führung mit Fundament</p>
+      <h1 class="h1--tip">Führung mit Fundament</h1>
+      <p class="lead-small">Leadership exposes character like almost no other situation. Under responsibility, conflict, and time pressure, inner patterns emerge unguarded &ndash; in leaders and employees alike. Detlef Rathmer and David L. Rathmer devoted an entire 632-page work to this connection.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/fuehrungsstile/fuehrung-mit-fundament-buch.jpg"
+             alt="Führung mit Fundament – Detlef Rathmer &amp; David L. Rathmer"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:.6rem;color:var(--ink);">What it's about</h2>
+        <p class="vb-intro">The book is divided into three parts. The first covers the psychological foundation of the nine leadership types &ndash; their core structure, everyday leadership style, blind spots, and behavior under stress. The second part applies the Enneagram to leadership practice &ndash; from psychologically effective decisions to conflict dynamics, responsibility, and power. The third part is devoted to integration and maturation: leadership in mature systems, real-world cases, and the interplay of the nine types.</p>
+        <p class="vb-intro">A compact overview of the nine leadership styles with their respective strength under pressure can be found in the <a href="javascript:void(0)" data-route="fuehrungsstile">"Leadership Styles" chart</a> in this Compass.</p>
+      </div>
+
+      ${bookTip("fuehrung-mit-fundament", "632 pages of depth psychology for leaders: the nine leadership types, their blind spots, and the path to mature, effective leadership.", "Führung mit Fundament")}
+      ${bookTip("meta-intelligenz", "How to learn to observe one's own thoughts – gaining a new degree of inner freedom and clarity.", "Meta-Intelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <p style="margin:0;font-size:0.92rem;color:var(--ink);"><strong>David L. Rathmer</strong> has made the Enneagram for leaders and organizations his life's focus &ndash; as co-author of this book and as the developer of Enneagram Profiling. More on this, including interviews with companies like Digistore24, on his site <a href="https://www.enneascholars.de" target="_blank" rel="noopener">enneascholars.de</a>.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"david-rathmer-fuehrung", label:"Leadership & Business (Videos)"},
+        {route:"david-rathmer-erfolgsinterviews", label:"Success Interviews"},
+        {route:"fuehrungsstile", label:"Chart: Leadership Styles"},
+        {route:"enneagramm-profiling", label:"Enneagram Profiling"},
+      ])}
+    </section>
+  `);
+}
+
 function davidRathmerPersoenlichkeitenPage() {
   return _davidVideoPage(
     "david-rathmer-persoenlichkeiten",
@@ -60682,7 +64961,7 @@ function davidRathmerImpulsePage() {
     ${pageHeader("david-rathmer-impulse")}
     <section class="narrow">
       <p class="eyebrow">David L. Rathmer · Impulses & Insights</p>
-      <h1>Impulse &amp; Einsichten</h1>
+      <h1 class="h1--tip">Impulse &amp; Einsichten</h1>
       <p class="lead-small">Short, educational videos by David L. Rathmer — on personality, relationships, burnout, and personal growth.</p>
       <div style="display:flex;gap:0.7rem;flex-wrap:wrap;margin:1.2rem 0 2rem;">
         <a href="https://www.enneascholars.de" target="_blank" rel="noopener"
@@ -76490,7 +80769,7 @@ function stillePage() {
     ${pageHeader("stille")}
     <section class="narrow" style="text-align:center;padding-bottom:3rem;">
       <p class="eyebrow">Practice &middot; Pausing</p>
-      <h1 style="margin-bottom:0.3rem;">9 Minutes of Stillness</h1>
+      <h1 class="h1--tip" style="margin-bottom:0.3rem;">9 Minutes of Stillness</h1>
       <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:2rem;">One minute for each Enneagram type &mdash; a symbol of wholeness.</p>
 
       <div id="stille-impuls" style="background:var(--paper);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:0 auto 1.5rem;max-width:420px;text-align:left;">
@@ -78299,7 +82578,7 @@ function musikPage() {
     ${pageHeader("musik")}
     <section class="narrow" style="padding-bottom:3rem;">
       <p class="eyebrow">Practice · Sound · Contemplation</p>
-      <h1 style="margin-bottom:0.3rem;">Relaxation and Healing Music</h1>
+      <h1 class="h1--tip" style="margin-bottom:0.3rem;">Relaxation and Healing Music</h1>
 
       <div style="max-width:520px;margin-bottom:1.8rem;">
         <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 0.9rem;">
@@ -79223,6 +83502,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
       "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
+      "beruehmte-alexander-bommes": alexanderBommesPortraitPage,
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
       "beruehmte-jill-pruetz": jillPruetzPortraitPage,
@@ -79349,6 +83629,13 @@ function subtypeSchaubilderPage() {
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
+      "beruehmte-usher": usherPortraitPage,
+      "beruehmte-alicia-keys": aliciaKeysPortraitPage,
+      "beruehmte-ashton-kutcher": ashtonKutcherPortraitPage,
+      "beruehmte-ayo-edebiri": ayoEdebiriPortraitPage,
+      "beruehmte-bruno-mars": brunoMarsPortraitPage,
+      "beruehmte-carl-weathers": carlWeathersPortraitPage,
+      "beruehmte-omar-sy": omarSyPortraitPage,
       "beruehmte-bernard-faye": bernardFayePortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
       "beruehmte-milow": milowPortraitPage,
@@ -79385,6 +83672,12 @@ function subtypeSchaubilderPage() {
       "beruehmte-ice-cube": iceCubePortraitPage,
       "beruehmte-tutty-tran": tuttyTranPortraitPage,
       "beruehmte-mr-t": mrTPortraitPage,
+      "beruehmte-mickey-rourke": mickeyRourkePortraitPage,
+      "beruehmte-monica-simpson": monicaSimpsonPortraitPage,
+      "beruehmte-nate-dogg": nateDoggPortraitPage,
+      "beruehmte-stromae": stromaePortraitPage,
+      "beruehmte-thomas-chaanhing": thomasChaanhingPortraitPage,
+      "beruehmte-tracie-d-hall": tracieDHallPortraitPage,
       "beruehmte-nusrat-fateh-ali-khan": nusratFatehAliKhanPortraitPage,
       "beruehmte-quentin-tarantino": quentinTarantinoPortraitPage,
       "beruehmte-storm-reid": stormReidPortraitPage,
@@ -79421,9 +83714,14 @@ function subtypeSchaubilderPage() {
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jack-black": jackBlackPortraitPage,
-      "beruehmte-douglas-rushkoff": douglasRushkoffPortraitPage,
-      "beruehmte-micky-beisenherz": mickyBeisenherzPortraitPage,
-      "beruehmte-katharina-tempel": katharinaTempelPortraitPage,
+      "beruehmte-lebo-m": leboMPortraitPage,
+      "beruehmte-lionel-boyce": lionelBoycePortraitPage,
+      "beruehmte-lisa-antoni": lisaAntoniPortraitPage,
+      "beruehmte-loi": loiPortraitPage,
+      "beruehmte-loni-hui": loniHuiPortraitPage,
+      "beruehmte-madeline-stuart": madelineStuartPortraitPage,
+      "beruehmte-mariacarla-boscono": mariacarlaBosconoPortraitPage,
+      "beruehmte-joseph-aoun": josephAounPortraitPage,
       "beruehmte-golda-meir": goldaMeirPortraitPage,
       "beruehmte-dhapanbal-yunupingu": dhapanbalYunupinguPortraitPage,
       "beruehmte-birute-galdikas": biruteGaldikasPortraitPage,
@@ -79457,6 +83755,15 @@ function subtypeSchaubilderPage() {
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
       "beruehmte-diego-velazquez": diegoVelazquezPortraitPage,
+      "beruehmte-douglas-rushkoff": douglasRushkoffPortraitPage,
+      "beruehmte-micky-beisenherz": mickyBeisenherzPortraitPage,
+      "beruehmte-katharina-tempel": katharinaTempelPortraitPage,
+      "beruehmte-muhammad-ali": muhammadAliPortraitPage,
+      "beruehmte-ranga-yogeshwar": rangaYogeshwarPortraitPage,
+      "beruehmte-anastasia-barner": anastasiaBarnerPortraitPage,
+      "beruehmte-david-lurey": davidLureyPortraitPage,
+      "beruehmte-joe-navarro": joeNavarroPortraitPage,
+      "beruehmte-jonathan-groff": jonathanGroffPortraitPage,
       "beruehmte-bob-marley": bobMarleyPortraitPage,
       "beruehmte-abd-al-fattah-as-sisi": abdAlFattahAsSisiPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
@@ -79512,9 +83819,18 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-marie-curie": marieCurieKrankheitsportraetPage,
       "krankheitsportraets-charles-darwin": charlesDarwinKrankheitsportraetPage,
       "krankheitsportraets-winston-churchill": winstonChurchillKrankheitsportraetPage,
+      "krankheitsportraets-golda-meir": goldaMeirKrankheitsportraetPage,
       "krankheitsportraets-gustav-mahler": gustavMahlerKrankheitsportraetPage,
       "krankheitsportraets-ruth-bader-ginsburg": ruthBaderGinsburgKrankheitsportraetPage,
+      "krankheitsportraets-claudio-naranjo": claudioNaranjoKrankheitsportraetPage,
+      "krankheitsportraets-wilma-mankiller": wilmaMankillerKrankheitsportraetPage,
+      "krankheitsportraets-teresa-von-avila": teresaVonAvilaKrankheitsportraetPage,
+      "krankheitsportraets-franz-schubert": franzSchubertKrankheitsportraetPage,
+      "krankheitsportraets-giacomo-puccini": giacomoPucciniKrankheitsportraetPage,
+      "krankheitsportraets-larry-king": larryKingKrankheitsportraetPage,
+      "krankheitsportraets-muhammad-ali": muhammadAliKrankheitsportraetPage,
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
+      "krankheitsportraets-frederic-chopin": fredericChopinKrankheitsportraetPage,
       "krankheitsportraets-fjodor-dostojewski": fjodorDostojewskiKrankheitsportraetPage,
       "krankheitsportraets-franz-kafka": franzKafkaKrankheitsportraetPage,
       "krankheitsportraets-ronald-reagan": ronaldReaganKrankheitsportraetPage,
@@ -79527,10 +83843,15 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
+      "krankheitsportraets-john-wayne": johnWayneKrankheitsportraetPage,
+      "krankheitsportraets-claude-debussy": claudeDebussyKrankheitsportraetPage,
       "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,
+      "krankheitsportraets-julius-caesar": juliusCaesarKrankheitsportraetPage,
       "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
+      "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
+      "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
