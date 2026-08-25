@@ -242,6 +242,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-johannes-brahms", name:"Johannes Brahms", subtyp:"SE9w8", heading:"Johannes Brahms – Self-Preservation Type 9", krankheit:"Liver cancer, the same illness that had already killed his father", teaser:"SE9w8 – German composer, 1833–1897. Exhausting journey to Clara Schumann's funeral in May 1896, visible jaundice shortly after, final public appearance at a performance of his Fourth Symphony in March 1897. Died on 3 April 1897 in Vienna, just eleven months after Clara Schumann." , land:"Germany/Austria", gender:"m", jahre:"1833–1897"},
   { route:"krankheitsportraets-franz-liszt", name:"Franz Liszt", subtyp:"SX7w8", heading:"Franz Liszt – Sexual Type 7", krankheit:"Heart failure, dropsy, and progressive blindness, fatal pneumonia", teaser:"SX7w8 – composer and pianist, 1811–1886. Years of heart problems and edema alongside an unchanged travel schedule between Weimar, Rome, and Budapest; attended a performance in Bayreuth in 1886 despite fever and medical prohibition. Died on 31 July 1886 in Bayreuth." , land:"Hungary/Germany", gender:"m", jahre:"1811–1886"},
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexual Type 6", krankheit:"Colon cancer, fatal cardiac arrest", teaser:"SX6w7 – cult leader and mastermind of the 1969 Tate-LaBianca murders, 1934–2017. Hospitalized and diagnosed with colon cancer in early 2017, showed no public remorse or transformation to the end. Died on 19 November 2017 in a prison hospital at age 83." , land:"USA", gender:"m", jahre:"1934–2017"},
+  { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Self-Preservation Type 3", krankheit:"End-stage kidney failure", teaser:"SE3w4 – architect of the largest Ponzi scheme in history, 1938–2021. Progressive kidney disease in prison, repeatedly denied requests for early release despite a prognosis of under 18 months to live. Died on 14 April 2021 at the Federal Correctional Complex in Butner at age 82." , land:"USA", gender:"m", jahre:"1938–2021"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -49274,6 +49275,7 @@ function oshoKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4) – life's work"},
+        {route:"krankheitsportraets-bernie-madoff", label:"Illness Portrait: Bernie Madoff (SP3w4) – the same discretion over his own body"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SP3"},
       ])}
@@ -52215,6 +52217,184 @@ function charlesMansonKrankheitsportraetPage() {
   `);
 }
 
+function bernieMadoffKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bernie-madoff-portrait.jpg" alt="Bernie Madoff" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bernie Madoff</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing · 1938–2021</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bernie Madoff</strong> already has a
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-bernie-madoff">criminal-psychology portrait</a>
+        in this Compass – that page covers the largest Ponzi scheme in history and his type
+        structure as a quiet, unassuming fraudster. This page delves into a chapter only
+        briefly mentioned there: an incurable kidney disease in prison, repeatedly denied
+        requests for early release, and a death in 2021 in federal custody.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Madoff</strong> is classified as the <strong>Self-Preservation Type 3 with
+        Four-wing</strong> – the countertype of the Three, who presents not loudly and
+        glamorously but quietly, seriously, and trustworthily. The Four-wing lends a feel for
+        the special and the exclusive circle. This same quiet, controlled presentation carried
+        through into how he handled his own fatal illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Chronic health problems during imprisonment:</strong>
+        In the years after his 2009 conviction, Madoff developed progressive kidney disease in
+        prison, along with hypertension and cardiovascular problems.</p>
+        <p class="vb-intro"><strong>b) Diagnosis of end-stage kidney disease:</strong>
+        Doctors eventually diagnosed end-stage renal failure – a condition that would prove
+        fatal without regular dialysis and ultimately a transplant.</p>
+        <p class="vb-intro"><strong>c) Progressive decline without public drama:</strong>
+        As during his fraud, little emerged over the years about his physical condition –
+        even ill, Madoff remained a man without a stage.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Multiple requests for early release:</strong>
+        Madoff's lawyers repeatedly filed for so-called "compassionate release" – early release
+        from prison on health grounds – citing his incurable kidney disease.</p>
+        <p class="vb-intro"><strong>b) A medical prognosis of under 18 months to live:</strong>
+        In connection with one of these requests in 2020, doctors gave him a life expectancy of
+        less than 18 months.</p>
+        <p class="vb-intro"><strong>c) Denial of all release requests:</strong>
+        The presiding court denied the petitions for early release – Madoff was to serve his
+        sentence, as originally handed down, until death in custody.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Dialysis treatments in the prison hospital:</strong>
+        In his final years, Madoff depended on regular dialysis treatments, carried out at the
+        medical facility of the Federal Correctional Complex in Butner.</p>
+        <p class="vb-intro"><strong>b) A handful of late interviews with a mixed tone:</strong>
+        In his final years, Madoff gave a few interviews in which he expressed some regret
+        while continuing, at other points, to downplay his own role.</p>
+        <p class="vb-intro"><strong>c) Death on 14 April 2021 in Butner, North Carolina:</strong>
+        Bernie Madoff died at age 82 at the Federal Correctional Complex in Butner – just over
+        twelve years after his arrest.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">A Parallel Within the Same Subtype: Osho</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <a href="javascript:void(0)" data-route="beruehmte-osho">Osho</a> (SP3w4) likewise
+        suffered for decades from chronic, never fully clarified complaints, without ever truly
+        disclosing them. His own
+        <a href="javascript:void(0)" data-route="krankheitsportraets-osho">illness portrait</a>
+        shows the same SP3w4 pattern as Madoff: one's own physical reality is treated with the
+        same control and discretion as one's public image – to the end, interpretive authority
+        over the story stays with the person concerned, not with a public granted insight.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A death that drew little public sympathy:</strong>
+        As with other cases in this section, the public reacted to Madoff's death mostly with
+        sobriety or detachment – memory of his fraud's victims outweighed any sympathy for his
+        suffering.</p>
+        <p class="vb-intro"><strong>b) A final request that became a symbol:</strong>
+        The denial of his request for early release was also widely read as a signal that no
+        leniency should apply to the largest financial crimes in history.</p>
+        <p class="vb-intro"><strong>c) An end without the nest he once built:</strong>
+        The man who staged security and trust for decades died without family at his side –
+        both his sons were already dead by that point.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The raccoon that left no trace even in his sickbed:</strong>
+        The same ability to stay unnoticed for decades also determined how little became
+        publicly known about his health.</p>
+        <p class="vb-intro"><strong>b) Control over his own narrative to the end:</strong>
+        Even the few interviews from his final years read less like spontaneous confessions
+        than like another carefully chosen performance.</p>
+        <p class="vb-intro"><strong>c) No public collapse of the facade:</strong>
+        Unlike some other illness courses in this Compass, there are no reports of a visible
+        breakdown in Madoff's controlled demeanor – the mask, as far as is known, stayed in
+        place to the end.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A body that ultimately became the controlled nest itself:</strong>
+        Madoff's entire life was shaped by the attempt to stage and shield security and
+        stability – in prison, that same controlling stance was forced onto a body that could
+        no longer be medically stabilized.</p>
+        <p class="vb-intro"><strong>b) Discretion even in his own vulnerability:</strong>
+        Just as Madoff ran his fraud for decades without drawing attention, little more about
+        his illness reached the public than what was medically necessary for the court
+        proceedings over his release.</p>
+        <p class="vb-intro"><strong>c) Why the kidneys, of all things?</strong>
+        For a Self-Preservation Three with Four-wing whose entire life revolved around the
+        question of what to let in and what to keep out, one interpretation suggests itself:
+        precisely the organ responsible in the body for filtering and cleanly separating what
+        is valuable from waste became the site of decline – in a man whose entire system rested
+        on the bookkeeping separation of real and fabricated accounts. This interpretation is a
+        plausible reading, not a documented historical causal link, and is developed further in
+        this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean that the Self-Preservation Three pattern inevitably leads to kidney
+        disease – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What Madoff's case illustrates is a pattern in how a pronounced Self-Preservation Three
+        with Four-wing handled his own mortality that keeps recurring in practice – one of many
+        possible interpretations, not a judgment. The corresponding illness pattern is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Madoff did not know his own pattern – the Self-Preservation Three with Four-wing
+        reflexively protects its nest through control and discretion, even once the nest
+        consists of nothing but facade, and he lived out exactly this pattern unchanged into
+        his final years, never publicly developing another way of relating to his own
+        vulnerability. Someone who does not recognize their own need for controlled security as
+        a pattern cannot let it go even in their own dying.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Madoff's</strong> Self-Preservation Three with Four-wing is legible once more in
+        the course of his illness: an illness that ran as discreetly as his decades-long fraud,
+        a final plea for mercy that was denied, and a death without the family that had once
+        been his nest. The raccoon that left no trace to the end – and whose own body was, in
+        the end, the only place he could no longer control.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a historical verdict. Madoff's crimes
+        have been legally adjudicated – the Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Criminal Psychology: Bernie Madoff (SP3w4) – largest investment fraud in history"},
+        {route:"krankheitsportraets-osho", label:"Illness Portrait: Osho (SP3w4) – the same discretion over his own body"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se3", label:"Subtype Profile SP3"},
+      ])}
+    </div>
+  `);
+}
+
 function edGeinPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -54343,7 +54523,8 @@ Samuel Bankman-Fried (SP3w4) needed the narrative of the altruistic genius—he 
       ${relatedLinks([
         {route:"kriminalpsychologie-samuel-bankman-fried", label:"Criminal Psychology: Samuel Bankman-Fried (SP3w4) – FTX Fraud"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Criminal Psychology: Ruja Ignatova (SP3w4) – The Cryptoqueen"},
-        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SO7w6) – The Con Artist"}
+        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal Psychology: Frank Abagnale Jr. (SO7w6) – The Con Artist"},
+        {route:"krankheitsportraets-bernie-madoff", label:"Illness Portrait: Bernie Madoff (SP3w4) – kidney disease in prison"}
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Criminal Psychology-\xdcbersicht</button>
@@ -85138,6 +85319,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
+      "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,

@@ -24016,6 +24016,7 @@ const registerEntries = [
   { term: "Johannes Brahms Krankheitsporträt", route: "krankheitsportraets-johannes-brahms", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Leberkrebs, elf Monate nach Clara Schumann" },
   { term: "Franz Liszt Krankheitsporträt", route: "krankheitsportraets-franz-liszt", description: "Portrait: SX7w8 · Sexueller Typ 7 · Herzschwäche, Wassersucht, tödliche Lungenentzündung" },
   { term: "Charles Manson Krankheitsporträt", route: "krankheitsportraets-charles-manson", description: "Portrait: SX6w7 · Sexueller Typ 6 · Darmkrebs, tödliches Herzversagen im Gefängnis" },
+  { term: "Bernie Madoff Krankheitsporträt", route: "krankheitsportraets-bernie-madoff", description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Niereninsuffizienz im Endstadium" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32134,6 +32135,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-johannes-brahms", name:"Johannes Brahms", subtyp:"SE9w8", heading:"Johannes Brahms – Selbsterhaltender Typ 9", krankheit:"Leberkrebs, dieselbe Krankheit, an der bereits sein Vater gestorben war", teaser:"SE9w8 – deutscher Komponist, 1833–1897. Erschöpfende Reise zu Clara Schumanns Beerdigung im Mai 1896, kurz danach sichtbare Gelbfärbung, letzter öffentlicher Auftritt bei einer Aufführung seiner 4. Sinfonie im März 1897. Starb am 3. April 1897 in Wien, nur elf Monate nach Clara Schumann." , land:"Deutschland/Österreich", gender:"m", jahre:"1833–1897"},
   { route:"krankheitsportraets-franz-liszt", name:"Franz Liszt", subtyp:"SX7w8", heading:"Franz Liszt – Sexueller Typ 7", krankheit:"Herzschwäche, Wassersucht und fortschreitende Erblindung, tödliche Lungenentzündung", teaser:"SX7w8 – Komponist und Pianist, 1811–1886. Jahrelange Herzbeschwerden und Ödeme bei unverändertem Reisepensum zwischen Weimar, Rom und Budapest, Teilnahme an einer Aufführung in Bayreuth 1886 trotz Fieber und ärztlichem Verbot. Starb am 31. Juli 1886 in Bayreuth." , land:"Ungarn/Deutschland", gender:"m", jahre:"1811–1886"},
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexueller Typ 6", krankheit:"Darmkrebs, tödliches Herzversagen", teaser:"SX6w7 – Sektenführer und Drahtzieher der Tate-LaBianca-Morde 1969, 1934–2017. Krankenhausaufenthalt und Darmkrebsdiagnose Anfang 2017, keine öffentliche Reue oder Wandlung bis zuletzt. Starb am 19. November 2017 im Gefängniskrankenhaus im Alter von 83 Jahren." , land:"USA", gender:"m", jahre:"1934–2017"},
+  { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Selbsterhaltender Typ 3", krankheit:"Niereninsuffizienz im Endstadium", teaser:"SE3w4 – Architekt des größten Ponzi-Systems der Geschichte, 1938–2021. Fortschreitende Nierenerkrankung im Gefängnis, mehrfach abgelehnte Gesuche um vorzeitige Entlassung trotz einer Prognose von unter 18 Monaten Lebenszeit. Starb am 14. April 2021 in der Bundesstrafanstalt Butner im Alter von 82 Jahren." , land:"USA", gender:"m", jahre:"1938–2021"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44378,7 +44380,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Die natürliche Maske wird zur bewussten Täuschung – harmlose Fassade verdeckt Betrug oder Verbrechen (Schattenform)",
         beschreibung: "In der destruktiven Ausprägung wird genau dieselbe unauffällige, vertrauenswürdig wirkende Fassade zum perfekten Werkzeug: Wer nicht glänzen will, gerät nicht in Verdacht – und kann diese Unauffälligkeit über Jahre für Betrug in großem Stil oder Schlimmeres nutzen.",
-        beleg: "Bernie Madoff: ›Der SE3er inszeniert sich nicht laut und glamourös … sondern still, seriös, vertrauenswürdig‹ – über 20 Jahre größter Anlagebetrug der Geschichte; Belle Gunness, die ›täuschend harmlos‹ wirkte: ›Sie bat um Hilfe. Sie schrieb liebevolle Briefe … Und sie begrub sie in ihrem Schweinestall‹; Ruja Ignatova und Samuel Bankman-Fried als moderne Varianten desselben Musters im Finanzbetrug; Anna Anderson, die sich ›aus fast nichts eine Existenz baute‹ – nur dass das Nichts eine fremde Identität war; Pablo Escobar, dessen gleichzeitiges Wirken als Volksheld, Wohltäter und skrupelloser Mörder zeigt, wie weit eine unauffällige, sogar wohltätige Fassade Verbrechen verdecken kann; Michael Franzese, der mit einem raffinierten Steuerbetrug bis zu fünf Millionen Dollar pro Woche erwirtschaftete, ohne dass sein Auftreten das je verriet; Henri Désiré Landru, der ›Blaubart von Paris‹, ein unscheinbarer, gepflegter Mann, der über Kontaktanzeigen wohlhabende Witwen anlockte, ohne jede öffentliche Inszenierung; Karla Homolka, die die Öffentlichkeit wegen ihres gepflegten Äußeren und ihrer strahlend weißen Hausfassade ›Ken und Barbie‹ nannte. Wichtig: Die Mehrheit der SE3 in diesem Kompass zeigt dieses Muster nicht – es handelt sich um eine Extremform derselben stillen Wirksamkeit, keine typische Ausprägung."
+        beleg: "Bernie Madoff: ›Der SE3er inszeniert sich nicht laut und glamourös … sondern still, seriös, vertrauenswürdig‹ – über 20 Jahre größter Anlagebetrug der Geschichte, und dieselbe Diskretion begleitete ihn bis in seine letzte, unheilbare Nierenerkrankung, über die kaum mehr an die Öffentlichkeit drang als das medizinisch Notwendige für seine Gesuche um vorzeitige Haftentlassung; Belle Gunness, die ›täuschend harmlos‹ wirkte: ›Sie bat um Hilfe. Sie schrieb liebevolle Briefe … Und sie begrub sie in ihrem Schweinestall‹; Ruja Ignatova und Samuel Bankman-Fried als moderne Varianten desselben Musters im Finanzbetrug; Anna Anderson, die sich ›aus fast nichts eine Existenz baute‹ – nur dass das Nichts eine fremde Identität war; Pablo Escobar, dessen gleichzeitiges Wirken als Volksheld, Wohltäter und skrupelloser Mörder zeigt, wie weit eine unauffällige, sogar wohltätige Fassade Verbrechen verdecken kann; Michael Franzese, der mit einem raffinierten Steuerbetrug bis zu fünf Millionen Dollar pro Woche erwirtschaftete, ohne dass sein Auftreten das je verriet; Henri Désiré Landru, der ›Blaubart von Paris‹, ein unscheinbarer, gepflegter Mann, der über Kontaktanzeigen wohlhabende Witwen anlockte, ohne jede öffentliche Inszenierung; Karla Homolka, die die Öffentlichkeit wegen ihres gepflegten Äußeren und ihrer strahlend weißen Hausfassade ›Ken und Barbie‹ nannte. Wichtig: Die Mehrheit der SE3 in diesem Kompass zeigt dieses Muster nicht – es handelt sich um eine Extremform derselben stillen Wirksamkeit, keine typische Ausprägung."
       }
     ]
   },
@@ -77081,6 +77083,7 @@ Osho kannte das Enneagramm als Lehrsystem sehr genau und griff es in eigenen Vor
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4) – Lebenswerk"},
+        {route:"krankheitsportraets-bernie-madoff", label:"Krankheitsporträt: Bernie Madoff (SE3w4) – dieselbe Diskretion über den eigenen Körper"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}
@@ -80169,6 +80172,193 @@ function charlesMansonKrankheitsportraetPage() {
         {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7) – Tate-LaBianca-Morde"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function bernieMadoffKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bernie-madoff-portrait.jpg" alt="Bernie Madoff" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bernie Madoff</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel · 1938–2021</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bernie Madoff</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-bernie-madoff">kriminalpsychologisches Porträt</a>
+        in diesem Kompass vertreten – dort geht es um das größte Ponzi-System der Geschichte
+        und seine Typstruktur als stiller, unauffälliger Betrüger. Diese Seite vertieft ein
+        Kapitel, das dort nur am Rande erwähnt wird: eine unheilbare Nierenerkrankung im
+        Gefängnis, mehrfach abgelehnte Gesuche um vorzeitige Entlassung, und einen Tod 2021
+        in Bundeshaft.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Madoff</strong> ist dem <strong>selbsterhaltenden Typ 3 mit Viererflügel</strong>
+        zugeordnet – dem Kontratyp der Drei, der sich nicht laut und glamourös inszeniert,
+        sondern still, seriös und vertrauenswürdig. Der Viererflügel verleiht ein Gespür für
+        das Besondere und den exklusiven Zirkel. Genau diese stille, kontrollierte Inszenierung
+        setzte sich bis in seinen Umgang mit der eigenen tödlichen Erkrankung fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Chronische gesundheitliche Probleme während der Haft:</strong>
+        In den Jahren nach seiner Verurteilung 2009 entwickelte Madoff im Gefängnis eine
+        fortschreitende Nierenerkrankung sowie Bluthochdruck und Herz-Kreislauf-Probleme.</p>
+        <p class="vb-intro"><strong>b) Diagnose als unheilbare Nierenerkrankung:</strong>
+        Ärzte diagnostizierten schließlich eine Niereninsuffizienz im Endstadium – eine
+        Erkrankung, die ohne regelmäßige Dialyse und letztlich eine Transplantation tödlich
+        verlaufen musste.</p>
+        <p class="vb-intro"><strong>c) Fortschreitende Verschlechterung ohne öffentliche Dramatik:</strong>
+        Wie schon während seines Betrugs drang über Jahre hinweg kaum etwas über seinen
+        körperlichen Zustand nach außen – Madoff blieb, auch krank, ein Mann ohne Bühne.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Mehrfache Gesuche um vorzeitige Entlassung:</strong>
+        Madoffs Anwälte beantragten wiederholt eine sogenannte „compassionate release" –
+        eine vorzeitige Haftentlassung aus gesundheitlichen Gründen – und begründeten dies mit
+        seiner unheilbaren Nierenerkrankung.</p>
+        <p class="vb-intro"><strong>b) Ärztliche Prognose von unter 18 Monaten Lebenszeit:</strong>
+        Im Zusammenhang mit einem dieser Gesuche 2020 attestierten Ärzte ihm eine
+        Lebenserwartung von weniger als 18 Monaten.</p>
+        <p class="vb-intro"><strong>c) Ablehnung aller Entlassungsgesuche:</strong>
+        Ein zuständiges Gericht lehnte die Anträge auf vorzeitige Entlassung ab – Madoff sollte
+        seine Strafe, wie ursprünglich verhängt, bis zum Tod in Haft verbüßen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Dialysebehandlungen im Gefängniskrankenhaus:</strong>
+        In seinen letzten Lebensjahren war Madoff auf regelmäßige Dialysebehandlungen
+        angewiesen, die in der medizinischen Einrichtung der Bundesstrafanstalt Butner
+        durchgeführt wurden.</p>
+        <p class="vb-intro"><strong>b) Vereinzelte späte Interviews mit gemischten Tönen:</strong>
+        In seinen letzten Lebensjahren gab Madoff einige wenige Interviews, in denen er
+        teils Bedauern äußerte, teils aber auch weiterhin die eigene Rolle relativierte.</p>
+        <p class="vb-intro"><strong>c) Tod am 14. April 2021 in Butner, North Carolina:</strong>
+        Bernie Madoff starb im Alter von 82 Jahren in der Bundesstrafanstalt Butner – etwas
+        mehr als zwölf Jahre nach seiner Verhaftung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: Osho</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch <a href="javascript:void(0)" data-route="beruehmte-osho">Osho</a> (SE3w4) litt über
+        Jahrzehnte an chronischen, nie ganz eindeutig geklärten Beschwerden, ohne diese je
+        wirklich offenzulegen. Sein
+        <a href="javascript:void(0)" data-route="krankheitsportraets-osho">eigenes
+        Krankheitsporträt</a> zeigt dasselbe SE3w4-Muster wie bei Madoff: Die eigene
+        körperliche Realität wird so kontrolliert und diskret behandelt wie das eigene
+        öffentliche Bild – bis zuletzt bleibt die Deutungshoheit über die eigene Geschichte
+        beim Betroffenen selbst, nicht bei einer Öffentlichkeit, der man Einblick gewährt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der kaum öffentliche Anteilnahme fand:</strong>
+        Wie schon bei anderen Fällen dieser Rubrik reagierte die Öffentlichkeit auf Madoffs Tod
+        überwiegend nüchtern bis distanziert – die Erinnerung an die Opfer seines Betrugs
+        überwog jedes Mitgefühl für sein Leiden.</p>
+        <p class="vb-intro"><strong>b) Ein letztes Gesuch, das zum Symbol wurde:</strong>
+        Die Ablehnung seines Antrags auf vorzeitige Entlassung wurde in der öffentlichen
+        Wahrnehmung auch als Zeichen dafür gelesen, dass für die größten Finanzverbrechen der
+        Geschichte keine Kulanz gelten sollte.</p>
+        <p class="vb-intro"><strong>c) Ein Ende ohne das Nest, das er einst gebaut hatte:</strong>
+        Der Mann, der jahrzehntelang Sicherheit und Vertrauen inszenierte, starb ohne Familie
+        an seiner Seite – beide Söhne waren zu diesem Zeitpunkt bereits tot.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Waschbär, der auch im Krankenbett keine Spur hinterließ:</strong>
+        Dieselbe Fähigkeit, jahrzehntelang unauffällig zu bleiben, bestimmte auch, wie wenig
+        über seinen Gesundheitszustand öffentlich bekannt wurde.</p>
+        <p class="vb-intro"><strong>b) Kontrolle über die eigene Erzählung bis zuletzt:</strong>
+        Auch die wenigen Interviews aus seinen letzten Jahren wirkten weniger wie spontane
+        Geständnisse als wie eine weitere, sorgfältig gewählte Inszenierung.</p>
+        <p class="vb-intro"><strong>c) Kein öffentlicher Zusammenbruch der Fassade:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es keine Berichte
+        über ein sichtbares Zerbrechen von Madoffs kontrolliertem Auftreten – die Maske blieb,
+        soweit bekannt, bis zum Ende an ihrem Platz.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der zuletzt das kontrollierte Nest selbst wurde:</strong>
+        Madoffs ganzes Leben war von dem Versuch geprägt, Sicherheit und Stabilität zu
+        inszenieren und abzuschirmen – im Gefängnis richtete sich dieselbe Kontrollhaltung
+        notgedrungen auf einen Körper, der sich medizinisch nicht mehr stabilisieren ließ.</p>
+        <p class="vb-intro"><strong>b) Diskretion auch in der eigenen Verletzlichkeit:</strong>
+        Genau wie Madoff seinen Betrug jahrzehntelang ohne Aufsehen betrieb, drang auch über
+        seine Krankheit kaum mehr an die Öffentlichkeit als das medizinisch Notwendige für die
+        Gerichtsverfahren um seine Haftentlassung.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Nieren?</strong>
+        Für eine selbsterhaltende Drei mit Viererflügel, deren gesamtes Leben um die Frage
+        kreiste, was hereingelassen und was ferngehalten wird, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, das im Körper für die Filterung und das saubere Trennen von
+        Wertvollem und Abfall zuständig ist, wurde zum Schauplatz des Verfalls – bei einem
+        Mann, dessen gesamtes System auf der buchhalterischen Trennung von echten und
+        gefälschten Konten beruhte. Diese Deutung ist eine plausible Interpretation, kein
+        belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
+        Nierenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Madoffs Fall zeigen lässt, ist ein Muster
+        im Umgang mit der eigenen Sterblichkeit, das bei einer ausgeprägten selbsterhaltenden
+        Drei mit Viererflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Madoff kannte sein eigenes Muster nicht – die selbsterhaltende Drei mit Viererflügel
+        schützt ihr Nest reflexhaft durch Kontrolle und Diskretion, auch wenn das Nest längst
+        nur noch aus Fassade besteht, und genau dieses Muster lebte er bis in seine letzten
+        Lebensjahre unverändert aus, ohne öffentlich eine andere Form des Umgangs mit der
+        eigenen Verletzlichkeit zu entwickeln. Wer das eigene Bedürfnis nach kontrollierter
+        Sicherheit nicht als Muster erkennt, kann es auch im eigenen Sterben nicht loslassen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Madoffs</strong> selbsterhaltende Drei mit
+        Viererflügel noch einmal ablesen: eine Krankheit, die so diskret verlief wie sein
+        jahrzehntelanger Betrug, ein letztes Gesuch um Gnade, das abgelehnt wurde, und ein Tod
+        ohne die Familie, die sein Nest einst gewesen war. Der Waschbär, der bis zuletzt keine
+        Spur hinterließ – und dessen eigener Körper am Ende der einzige Ort war, den er nicht
+        mehr kontrollieren konnte.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Die Taten
+        Madoffs sind rechtskräftig verurteilt – das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Kriminalpsychologie: Bernie Madoff (SE3w4) – größter Anlagebetrug der Geschichte"},
+        {route:"krankheitsportraets-osho", label:"Krankheitsporträt: Osho (SE3w4) – dieselbe Diskretion über den eigenen Körper"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}
     </div>
   `);
@@ -83585,7 +83775,8 @@ function bernieMadoffPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-samuel-bankman-fried", label:"Kriminalpsychologie: Samuel Bankman-Fried (SE3w4) \u2013 FTX-Betrug"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova (SE3w4) \u2013 Die Cryptoqueen"},
-        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalpsychologie: Frank Abagnale Jr. (SO7w6) \u2013 Der Hochstapler"}
+        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalpsychologie: Frank Abagnale Jr. (SO7w6) \u2013 Der Hochstapler"},
+        {route:"krankheitsportraets-bernie-madoff", label:"Krankheitsportr\u00e4t: Bernie Madoff (SE3w4) \u2013 Nierenerkrankung im Gef\u00e4ngnis"}
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">\u2190 Zur\xfcck zur Kriminalpsychologie-\xdcbersicht</button>
@@ -120741,6 +120932,7 @@ function render() {
       "krankheitsportraets-alexander-der-grosse": alexanderDerGrosseKrankheitsportraetPage,
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
+      "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
