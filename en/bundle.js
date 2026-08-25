@@ -248,6 +248,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
+  { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -53098,6 +53099,185 @@ function richardRamirezKrankheitsportraetPage() {
   `);
 }
 
+function salvatoreRiinaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/salvatore-riina-portrait.jpg" alt="Salvatore Riina" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Salvatore Riina</p>
+        <p class="krim-portrait-typ">SP8w9 · Self-Preservation Type 8 with Nine-wing · 1930–2017</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Orangutan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Salvatore Riina</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">criminal-psychology portrait</a>
+        – that page covers his rise to Italy's most powerful Mafia boss and 23 years in
+        hiding. This page goes deeper into a chapter mentioned there only in passing: a
+        years-long health decline in high-security custody, repeatedly denied requests for
+        release on medical grounds, and a death in 2017 in the hospital wing of Parma prison.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Riina</strong> is assigned to the <strong>Self-Preservation Type 8 with
+        Nine-wing</strong>. For SP8, power is an instrument of security, not a stage – control
+        over one's own territory at any cost. This same refusal to ever relinquish control
+        also determined how his defense team fought for his release until the very end, even
+        after his body had long stopped allowing any control at all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Progressive kidney disease from the 2010s:</strong>
+        In the years before his death, Riina increasingly suffered from chronic kidney
+        failure, requiring regular medical treatment within the prison.</p>
+        <p class="vb-intro"><strong>b) First requests for release on medical grounds:</strong>
+        His defense team repeatedly petitioned for a suspension of his sentence on health
+        grounds – the courts repeatedly denied these, citing his continued dangerousness as a
+        Mafia boss.</p>
+        <p class="vb-intro"><strong>c) A stroke in July 2017:</strong>
+        A severe stroke left Riina in a coma-like state from which he never fully recovered.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Transfer to the Parma prison hospital wing:</strong>
+        After the stroke, Riina was moved to the medical facility of Parma prison, where
+        severely ill inmates were treated under continued high-security guard.</p>
+        <p class="vb-intro"><strong>b) A renewed, more urgent request for release:</strong>
+        Given his now clearly life-threatening condition, his defense team filed a final,
+        urgent request for release on medical grounds – this too was denied by the courts.</p>
+        <p class="vb-intro"><strong>c) No public acknowledgment of his own mortality:</strong>
+        Even in this final phase, there are no reports of a public statement by Riina himself
+        acknowledging his approaching death – only the legal petitions of his defense spoke
+        on his behalf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Complete isolation despite approaching death:</strong>
+        Even in his coma-like, dying state, Riina formally remained subject to the strict
+        41-bis prison regime reserved for Italy's most dangerous Mafia inmates – no easing of
+        conditions, even once he was no longer responsive.</p>
+        <p class="vb-intro"><strong>b) Courts affirmed his continued dangerousness:</strong>
+        The repeated denials of his release petitions explicitly relied on the assessment
+        that Riina's symbolic authority within Cosa Nostra persisted even as he lay dying.</p>
+        <p class="vb-intro"><strong>c) Death on November 17, 2017, in Parma:</strong>
+        Salvatore Riina died at age 87 in the hospital wing of Parma prison – 24 years after
+        his arrest, never having been free again.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A death that sparked public debate on incarceration:</strong>
+        The repeated denial of his release petitions despite his evidently dying condition
+        ignited a public debate in Italy over the limits of high-security detention for
+        terminally ill inmates.</p>
+        <p class="vb-intro"><strong>b) No symbol, no final gesture:</strong>
+        Unlike some other historical figures in this Compass, there is no recorded final
+        message, no symbolic gesture – only the quiet, still formally guarded death of a man
+        who had claimed complete control over his environment throughout his life.</p>
+        <p class="vb-intro"><strong>c) A funeral without public ceremony:</strong>
+        Unlike other Mafia bosses of earlier generations, no publicly visible funeral service
+        took place – a quiet exit for a man whose power had never expressed itself through
+        display, but through silent control.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Control until the last breath – through the defense:</strong>
+        The same refusal to ever relinquish control that shaped Riina's entire life showed
+        itself in the legal petitions of his defense attorneys, who fought for his release
+        until the end – a final, delegated attempt to still turn his fate around.</p>
+        <p class="vb-intro"><strong>b) When Self-Preservation Eight under chronic stress becomes a Five:</strong>
+        His own portrait already describes how his decades of hiding in the underground
+        carried traits of the stress point Five – total withdrawal, isolation, observation
+        instead of open confrontation. In his final phase of life, in the coma-like state of
+        the hospital wing, this pattern completed itself literally: a complete, physical
+        isolation from the world he once controlled – while the core type itself, SE8w9,
+        remained unchanged.</p>
+        <p class="vb-intro"><strong>c) No visible capitulation:</strong>
+        Unlike some other illness histories in this Compass, there are no reports of a public
+        admission of weakness or remorse – the courts, until the very end, continued to
+        assess the hardness with which he had led his life as persisting, regardless of his
+        actual physical condition.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body that escaped control:</strong>
+        Riina's entire life was shaped by the conviction that his own domain – Sicily, Cosa
+        Nostra, his clan – was fully controllable through vigilance and hardness. Kidney
+        failure and stroke were the first threats that neither loyalty nor intimidation could
+        stop.</p>
+        <p class="vb-intro"><strong>b) From silent power to silent powerlessness:</strong>
+        A man whose entire power rested on inconspicuous, quiet control – "no villas, no
+        public appearances, no display," as his own portrait describes – spent his final
+        months in a silence that was no longer chosen, but imposed.</p>
+        <p class="vb-intro"><strong>c) Why a stroke, of all things?</strong>
+        For a Self-Preservation Eight with Nine-wing whose entire power rested on vigilant
+        observation and the ability to act decisively at the crucial moment, one
+        interpretation suggests itself: precisely the organ that enabled vigilance,
+        observation and decision-making became the site of decay – placing him in exactly the
+        state of complete unresponsiveness that he would have judged, in others, as fatal
+        weakness throughout his life. This interpretation is a plausible reading, not a
+        documented historical causal link, and is developed further in this Compass's
+        psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of Self-Preservation Eight inevitably leads to kidney
+        failure or stroke – <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Riina's case shows is a pattern in how a pronounced
+        Self-Preservation Eight with Nine-wing repeatedly deals with physical decline – one
+        possible reading among many, not a verdict. The corresponding illness profile is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Riina did not know his own pattern – Self-Preservation Eight with Nine-wing meets
+        every threat to its own territory reflexively with control and quiet hardness rather
+        than ever confronting its own vulnerability, and exactly this pattern still governed
+        the legal battles over his release into his final days. Whoever does not recognize
+        their own need to retain all control as a pattern cannot set it aside even in their
+        own dying.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Self-Preservation Eight with Nine-wing explains much about the course of
+        <strong>Riina's</strong> own illness: a man whose entire life rested on silent,
+        unchallenged control over his territory spent his final months in a state of
+        complete, imposed powerlessness – the orangutan who ruled his forest not through
+        display but through sheer presence, ultimately lost even that presence.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a historical verdict. Salvatore Riina
+        was convicted in numerous trials of murder and Mafia association and sentenced to
+        multiple life terms; he died in custody in 2017. The Enneagram explains, it does not
+        justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SP8w9) – boss of Cosa Nostra"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se8", label:"Subtype Profile SP8"},
+      ])}
+    </div>
+  `);
+}
+
 function johnGottiKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -56021,6 +56201,7 @@ Riina shunned ostentation, luxury, and public glory, living simply. Power for th
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
+        {route:"krankheitsportraets-salvatore-riina", label:"Illness Portrait: Salvatore Riina (SP8w9) – health decline in custody"},
       ])}
     </div>
   `);
@@ -86205,6 +86386,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
+      "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,

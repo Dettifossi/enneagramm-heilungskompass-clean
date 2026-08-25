@@ -24022,6 +24022,7 @@ const registerEntries = [
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
   { term: "Richard Ramírez Krankheitsporträt", route: "krankheitsportraets-richard-ramirez", description: "Portrait: SX3w4 · Sexueller Typ 3 · B-Zell-Lymphom in der Todeszelle" },
+  { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32146,6 +32147,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ludwig-xiv", name:"Ludwig XIV.", subtyp:"SO3w2", heading:"Ludwig XIV. – Sozialer Typ 3", krankheit:"Chronische Gicht, Analfistel, tödlicher Wundbrand", teaser:"SO3w2 – der Sonnenkönig, 1638–1715. Jahrzehntelange Gicht, 1686 unter strengster Geheimhaltung operierte Analfistel, tödlicher Wundbrand im Bein. Starb am 1. September 1715 in Versailles nach 72 Regierungsjahren im Alter von 76 Jahren." , land:"Frankreich", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Sozialer Typ 3", krankheit:"Prostatakrebs", teaser:"SO3w4 – NFL-Legende und Protagonist des Prozesses des Jahrhunderts, 1947–2024. 2023 Prostatakrebs diagnostiziert, weitgehend vor der Öffentlichkeit verborgen, gestorben am 10. April 2024 in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexueller Typ 3", krankheit:"B-Zell-Lymphom", teaser:"SX3w4 – ›Der Night Stalker‹, 1960–2013. Diagnose eines B-Zell-Lymphoms in der Todeszelle, gestorben am 7. Juni 2013 in Greenbrae, Kalifornien, vor Vollstreckung des Todesurteils." , land:"USA", gender:"m", jahre:"1960–2013"},
+  { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44029,7 +44031,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unerschütterliche Standfestigkeit unter extremem Druck",
         beschreibung: "Wenn die Lage am schwierigsten wird, zeigt sich eine körperliche und psychische Unbeweglichkeit, die selbst unter größtem äußeren Druck nicht weicht – nicht durch lauten Widerstand, sondern durch bloßes, unerschütterliches Bleiben.",
-        beleg: "Winston Churchill, der 1940 ›auf dem Ast blieb, während der Sturm tobte‹: ›Sein Körper ist gebaut, um zu bleiben – nicht um zu fliehen‹ – und der einen schweren Schlaganfall 1953 wochenlang vor der Öffentlichkeit verbarg, statt sein Amt aufzugeben; Golda Meir: ›Das ist nicht die Geschichte einer Karriere. Es ist die Geschichte eines Überlebens – und eines Willens, der nicht zu brechen war‹ – ein Wille, der sie auch eine siebzehn Jahre lang verschwiegene Krebserkrankung durch ihre gesamte Amtszeit als Premierministerin tragen ließ."
+        beleg: "Winston Churchill, der 1940 ›auf dem Ast blieb, während der Sturm tobte‹: ›Sein Körper ist gebaut, um zu bleiben – nicht um zu fliehen‹ – und der einen schweren Schlaganfall 1953 wochenlang vor der Öffentlichkeit verbarg, statt sein Amt aufzugeben; Golda Meir: ›Das ist nicht die Geschichte einer Karriere. Es ist die Geschichte eines Überlebens – und eines Willens, der nicht zu brechen war‹ – ein Wille, der sie auch eine siebzehn Jahre lang verschwiegene Krebserkrankung durch ihre gesamte Amtszeit als Premierministerin tragen ließ; Salvatore Riina, dessen Verteidigung noch nach seinem Schlaganfall 2017 im komaähnlichen Zustand um seine Freilassung kämpfte, während die Gerichte seine fortbestehende Gefährlichkeit selbst im Sterben bestätigten."
       },
       {
         titel: "Wenn dieselbe stille Territorialkontrolle rücksichtslos und tödlich wird (Schattenform)",
@@ -81293,6 +81295,200 @@ function richardRamirezKrankheitsportraetPage() {
   `);
 }
 
+function salvatoreRiinaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/salvatore-riina-portrait.jpg" alt="Salvatore Riina" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Salvatore Riina</p>
+        <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel · 1930–2017</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Orang-Utan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Tierentsprechung: Orang-Utan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Salvatore Riina</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">kriminalpsychologisches Porträt</a>
+        in diesem Kompass vertreten – dort geht es um seinen Aufstieg zum mächtigsten
+        Mafia-Boss Italiens und 23 Jahre im Untergrund. Diese Seite vertieft ein Kapitel, das
+        dort nur am Rande erwähnt wird: einen mehrjährigen gesundheitlichen Verfall in
+        Hochsicherheitshaft, wiederholt abgelehnte Anträge auf Haftverschonung aus
+        gesundheitlichen Gründen, und einen Tod 2017 im Krankenhausflügel des Gefängnisses
+        von Parma.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Riina</strong> ist der <strong>selbsterhaltenden Acht mit Neunerflügel</strong>
+        zugeordnet. Macht ist für die SE8 Sicherheitsinstrument, nicht Bühne – Kontrolle über
+        den eigenen Bereich um jeden Preis. Genau diese Weigerung, die eigene Kontrolle
+        jemals aufzugeben, bestimmte auch, wie sein Verteidigungsteam bis zuletzt für seine
+        Freilassung kämpfte, selbst als sein Körper längst keine Kontrolle mehr zuließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Fortschreitende Nierenerkrankung ab den 2010er-Jahren:</strong>
+        In den Jahren vor seinem Tod litt Riina zunehmend an einer chronischen
+        Niereninsuffizienz, die regelmäßige medizinische Behandlung in der Haftanstalt
+        erforderlich machte.</p>
+        <p class="vb-intro"><strong>b) Erste Anträge auf Haftverschonung:</strong>
+        Sein Verteidigungsteam beantragte mehrfach eine Aussetzung der Haft aus
+        gesundheitlichen Gründen – die Gerichte lehnten dies wiederholt ab und verwiesen auf
+        seine fortbestehende Gefährlichkeit als Mafia-Boss.</p>
+        <p class="vb-intro"><strong>c) Schlaganfall im Juli 2017:</strong>
+        Ein schwerer Schlaganfall versetzte Riina in einen komaähnlichen Zustand, aus dem er
+        sich nicht mehr vollständig erholte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Verlegung in den Krankenhausflügel von Parma:</strong>
+        Nach dem Schlaganfall wurde Riina in die medizinische Einrichtung des Gefängnisses
+        von Parma verlegt, wo schwer kranke Häftlinge unter fortgesetzter
+        Hochsicherheitsbewachung behandelt wurden.</p>
+        <p class="vb-intro"><strong>b) Erneute, dringlichere Anträge auf Freilassung:</strong>
+        Angesichts seines nun offenkundig lebensbedrohlichen Zustands stellte sein
+        Verteidigungsteam einen letzten, dringlichen Antrag auf Haftverschonung – auch dieser
+        wurde von den zuständigen Gerichten abgelehnt.</p>
+        <p class="vb-intro"><strong>c) Kein öffentliches Eingeständnis der eigenen Sterblichkeit:</strong>
+        Selbst in dieser letzten Phase gibt es keine Berichte über eine öffentliche
+        Stellungnahme Riinas selbst, die eine Anerkennung seines nahenden Todes erkennen
+        ließ – nur die juristischen Anträge seiner Verteidigung sprachen für ihn.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vollständige Isolation trotz nahenden Todes:</strong>
+        Auch im komaähnlichen, sterbenden Zustand blieb Riina formal dem strengen 41-bis-
+        Haftregime unterstellt, das für die gefährlichsten Mafia-Häftlinge Italiens
+        vorgesehen ist – keine Lockerung, selbst als er längst nicht mehr ansprechbar war.</p>
+        <p class="vb-intro"><strong>b) Gerichte bestätigten die fortbestehende Gefährlichkeit:</strong>
+        Die wiederholten Ablehnungen der Haftverschonungsanträge stützten sich ausdrücklich
+        auf die Einschätzung, dass Riinas symbolische Autorität innerhalb der Cosa Nostra
+        auch im Sterben fortbestehe.</p>
+        <p class="vb-intro"><strong>c) Tod am 17. November 2017 in Parma:</strong>
+        Salvatore Riina starb im Alter von 87 Jahren im Krankenhausflügel des Gefängnisses
+        von Parma – 24 Jahre nach seiner Verhaftung, ohne je wieder in Freiheit gewesen zu
+        sein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der öffentliche Debatten über Strafvollzug auslöste:</strong>
+        Die wiederholte Ablehnung der Haftverschonungsanträge trotz seines offenkundig
+        sterbenden Zustands entfachte in Italien eine öffentliche Debatte über die Grenzen
+        des Hochsicherheitsregimes bei todkranken Häftlingen.</p>
+        <p class="vb-intro"><strong>b) Kein Symbol, keine letzte Geste:</strong>
+        Anders als bei manch anderer historischer Figur dieses Kompasses gibt es keine
+        überlieferte letzte Botschaft, keine symbolische Geste – nur den stillen, formal
+        weiter bewachten Tod eines Mannes, der sein Leben lang jede Kontrolle über sein
+        Umfeld behauptet hatte.</p>
+        <p class="vb-intro"><strong>c) Ein Begräbnis ohne öffentliche Zeremonie:</strong>
+        Anders als bei anderen Mafia-Bossen früherer Generationen fand keine öffentlich
+        sichtbare Trauerfeier statt – ein stiller Abgang für einen Mann, dessen Macht sich
+        nie durch Repräsentation, sondern durch stille Kontrolle ausdrückte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle bis zum letzten Atemzug – durch die Verteidigung:</strong>
+        Dieselbe Weigerung, jemals Kontrolle abzugeben, die Riinas gesamtes Leben prägte,
+        zeigte sich noch in den juristischen Anträgen seiner Verteidiger, die bis zuletzt
+        für seine Freilassung kämpften – ein letzter, stellvertretender Versuch, dem
+        eigenen Schicksal doch noch eine Wendung zu geben.</p>
+        <p class="vb-intro"><strong>b) Wenn die selbsterhaltende Acht unter chronischem Stress zur Fünf wird:</strong>
+        Sein eigenes Porträt beschreibt bereits, wie seine jahrzehntelange Isolation im
+        Untergrund Züge des Stresspunkts Fünf trug – totaler Rückzug, Abschottung,
+        Beobachtung statt offener Konfrontation. In seiner letzten Lebensphase, im
+        komaähnlichen Zustand des Krankenhausflügels, vollendete sich dieses Muster auf
+        buchstäbliche Weise: eine vollständige, physische Isolation von der Welt, die er
+        einst kontrollierte – bei unverändertem Kerntyp SE8w9.</p>
+        <p class="vb-intro"><strong>c) Keine sichtbare Kapitulation:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es keine
+        Berichte über ein öffentliches Eingeständnis von Schwäche oder Reue – die Härte, mit
+        der er sein Leben führte, wurde von den Gerichten bis zuletzt als fortbestehend
+        eingeschätzt, unabhängig von seinem tatsächlichen körperlichen Zustand.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der sich der Kontrolle entzog:</strong>
+        Riinas gesamtes Leben war von der Überzeugung geprägt, dass sein eigener Bereich –
+        Sizilien, die Cosa Nostra, sein Clan – durch Wachsamkeit und Härte vollständig
+        beherrschbar sei. Niereninsuffizienz und Schlaganfall waren die ersten Bedrohungen,
+        gegen die weder Loyalität noch Einschüchterung halfen.</p>
+        <p class="vb-intro"><strong>b) Von der stillen Macht zur stillen Ohnmacht:</strong>
+        Ein Mann, dessen gesamte Macht auf unauffälliger, ruhiger Kontrolle beruhte – „keine
+        Villen, keine öffentlichen Auftritte, kein Protz", wie es sein eigenes Porträt
+        beschreibt –, verbrachte seine letzten Monate in einer Stille, die nicht mehr
+        gewählt, sondern erzwungen war.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet ein Schlaganfall?</strong>
+        Für eine selbsterhaltende Acht mit Neunerflügel, deren gesamte Kraft auf
+        wachsamer Beobachtung und der Fähigkeit beruhte, im entscheidenden Moment
+        vollständig zu handeln, liegt eine Deutung nahe: Ausgerechnet jenes Organ, das
+        Wachsamkeit, Beobachtung und Entscheidungsfähigkeit ermöglichte, wurde zum
+        Schauplatz des Verfalls – und versetzte ihn in genau jenen Zustand
+        vollständiger Reaktionsunfähigkeit, den er sein Leben lang bei anderen als
+        tödliche Schwäche gewertet hätte. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Acht zwangsläufig zu
+        Nierenversagen oder Schlaganfall führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Riinas Fall zeigen lässt, ist
+        ein Muster im Umgang mit gesundheitlichem Verfall, das bei einer ausgeprägten
+        selbsterhaltenden Acht mit Neunerflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Riina kannte sein eigenes Muster nicht – die selbsterhaltende Acht mit Neunerflügel
+        begegnet jeder Bedrohung des eigenen Territoriums reflexhaft mit Kontrolle und
+        stiller Härte, statt sich je mit der eigenen Verletzlichkeit auseinanderzusetzen,
+        und genau dieses Muster bestimmte noch die juristischen Kämpfe um seine Freilassung
+        bis in seine letzten Lebenstage. Wer die eigene Notwendigkeit, jede Kontrolle zu
+        behalten, nicht als Muster erkennt, kann sie auch im eigenen Sterben nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Acht mit Neunerflügel erklärt bei <strong>Riina</strong> vieles
+        am Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamtes Leben auf stiller,
+        unangefochtener Kontrolle über sein Territorium beruhte, verbrachte seine letzten
+        Monate in einem Zustand vollständiger, erzwungener Machtlosigkeit – der Orang-Utan,
+        der seinen Wald nie durch Prunk, sondern durch bloße Präsenz beherrschte, verlor am
+        Ende selbst diese Präsenz.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Salvatore
+        Riina wurde in zahlreichen Prozessen wegen Mordes und Mafia-Zugehörigkeit zu
+        mehrfacher lebenslanger Haft verurteilt und starb 2017 in Gefangenschaft. Das
+        Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina (SE8w9) – Boss der Cosa Nostra"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se8", label:"Subtyp-Profil SE8"},
+      ])}
+    </div>
+  `);
+}
+
 function edGeinPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -86337,6 +86533,7 @@ function salvatoreRiinaPortraitPage() {
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+        {route:"krankheitsportraets-salvatore-riina", label:"Krankheitsporträt: Salvatore Riina (SE8w9) – gesundheitlicher Verfall in Haft"},
       ])}
     </div>
   `);
@@ -121870,6 +122067,7 @@ function render() {
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
+      "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
