@@ -1220,6 +1220,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Anne McBride – Self-Preservation Type 6",
     teaser:"SE6w5 · British behavioural scientist, Senior Lecturer in Southampton, chair of the International Society for Anthrozoology. Earned her doctorate on the social and parental behaviour of the European wild rabbit, and has since translated animals' fear and safety needs into clear behavioural guidelines. Animal correspondence: Rabbit.",
     tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-klaus-j-behrendt", name:"Klaus J. Behrendt", added:"2026-08-25", subtyp:"SE6w5",
+    heading:"Klaus J. Behrendt – Self-Preservation Type 6",
+    teaser:"SP6w5 · born 1953. Actor, since 1997 \"Detective Schenk\" in the Cologne Tatort. The rabbit with the Five-wing: watchful, thoughtful, openly discussing his own self-doubt – the steadying, weighing counterpart to his Tatort partner Ballauf.",
+    land:"Germany", tags:["Film","Television"], gender:"m"},
 { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet – Self-Preservation Type 6",
     teaser:"SP6w7 · born 2000. Kenyan long-distance runner. Double Olympic champion Paris 2024. The rabbit that does not flee the course – but finds home upon it.",
@@ -1632,6 +1636,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Johannes Brahms – Self-Preservation Type 9",
     teaser:"SP9w8 · 1833–1897. German composer. Discovered by Robert Schumann in 1853, four decades of loyalty to the Schumann family, 21 years working on his First Symphony. The elephant with the Eight-wing: blunt wit, unshakable patience, and a loyalty that never gave up. Animal correspondence: Elephant.",
     land:"Germany", tags:["Music","History"], gender:"m"},
+{ route:"beruehmte-dietmar-baer", name:"Dietmar Bär", added:"2026-08-25", subtyp:"SE9w8",
+    heading:"Dietmar Bär – Self-Preservation Type 9",
+    teaser:"SP9w8 · born 1961. Actor, since 1997 \"Detective Ballauf\" in the Cologne Tatort. The elephant with the Eight-wing: down-to-earth, pleasure-oriented, direct – nearly three decades in the same role, alongside the same colleague.",
+    land:"Germany", tags:["Film","Television"], gender:"m"},
 { route:"beruehmte-angela-merkel", name:"Angela Merkel", added:"2026-07-22", subtyp:"SE9w8",
     heading:"Angela Merkel – Self-Preservation Type 9",
     teaser:"SE9w8 · born 1954. Federal Chancellor 2005–2021. Sixteen years of sitting out, deciding, insisting – and a legacy full of contradictions. The elephant that moves to its own rhythm. Sometimes wisdom. Sometimes standstill.",
@@ -20462,6 +20470,137 @@ function peterFalkPortraitPage() {
   `);
 }
 
+
+function dietmarBaerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dietmar-baer-portrait.jpg" alt="Dietmar Bär" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dietmar Bär</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Actor, b. 1961 &ndash; since 1997 "Detective Ballauf" in the Cologne Tatort &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> is the animal of Self-Preservation Nine &ndash; massive, comfortable, bound to its own territory and its herd, and yet surprisingly decisive the moment it truly matters. No other animal so precisely embodies a man who has investigated as Detective Max Ballauf in the Cologne "Tatort" since 1997: down-to-earth, without star airs, with a fondness for the hearty and the direct &ndash; and with a center of gravity that is not easily knocked off balance.</p>
+          <p class="vb-intro">Dietmar Bär, born in Cologne in 1961, has been tied to the same role for nearly three decades &ndash; one of the longest-running detective pairings in German television history. The elephant does not relocate. It stays at its watering hole, in its herd, in its city &ndash; and this constancy, not spectacular transformation, is the real strength Bär embodies publicly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Nine: Comfort as Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Self-Preservation Nine (SP9)</strong> directs the typical Nine search for peace not primarily toward the group (as with Social Nine) or toward a single merging (as with Sexual Nine), but toward one's own, immediate well-being: food, habits, the familiar home, a life without unnecessary friction. Bär speaks in interviews strikingly often and with visible pleasure about cooking and eating, about Cologne as his fixed center of life, about the importance of rituals and the familiar in everyday life.</p>
+          <p class="vb-intro">This is no coincidence but the core of SP9: security arises not through social recognition or a single intense bond, but through the cultivation of one's own immediate comfort. This same down-to-earth quality transfers almost one-to-one to Ballauf &ndash; a detective who never seeks the big entrance, preferring instead to stay within the familiar Cologne milieu he knows inside and out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Directness Without Threat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives Self-Preservation Nine something an SP9 with a less developed Eight wing often lacks: a direct, unvarnished manner, a clear edge when needed. In interviews, Bär comes across not as diplomatically reserved, but warm and yet assertive and open &ndash; he says what he thinks, without coming across as aggressive or confrontational.</p>
+          <p class="vb-intro">This distinguishes SP9w8 from the pure, unwinged Nine: comfort remains the foundation, but it never becomes conflict avoidance at any cost. His long-standing role as a UNICEF ambassador shows the same mixture &ndash; not loud activism, but steady, reliable commitment to a cause, combined with a clear, unmistakable stance when it comes to children's rights.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Role: Ballauf as an Extension of His Own Groundedness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Max Ballauf is the more emotional, more direct of the two detectives in the Cologne "Tatort" &ndash; one who occasionally raises his voice, who states his opinion bluntly, and who clashes and connects with his colleague Schenk in a way that, over the decades, has come to feel almost familial. This constellation only works so convincingly on screen because it is not merely acted, but carried by two actors who have actually been connected for decades.</p>
+          <p class="vb-intro">Bär himself has repeatedly emphasized that the real friendship with his fellow actor matters more to him than any single episode &ndash; a statement that fits the SP9 pattern precisely: constancy, familiarity, and the cultivation of a well-worn, reliable environment weigh more heavily than short-term recognition or a single major success.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Man Behind Ballauf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Off camera, Bär has served for many years as an ambassador for UNICEF Germany, advocating publicly for children's rights &ndash; a commitment he cultivates not through grand gestures, but through steady presence over years. He is regularly described in portraits and interviews as humorous, sociable and distinctly pleasure-oriented &ndash; someone who deliberately celebrates the small, sensory joys of everyday life rather than taking them for granted.</p>
+          <p class="vb-intro">Also striking is how consistently Bär has maintained a private, largely low-key public role despite decades of fame &ndash; hardly any scandals, hardly any home-story features, hardly any need to stage himself beyond the actual work. That is the quiet consequence of Self-Preservation Nine: one's own comfort and calm matter more than additional visibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Elephant Who Stays</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nearly three decades in the same role, in the same city, alongside the same colleague &ndash; a rare constant in the fast-moving television business, and one that draws precisely on the trait that defines the elephant: constancy is not a limitation but a source of strength. The Eight-wing ensures that this constancy never becomes passivity, but remains carried by a clear, direct stance.</p>
+          <p class="vb-intro">His fellow actor and longtime companion is <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Klaus J. Behrendt</a> (SP6w5), who plays the calmer, more cautious Detective Schenk in the Cologne "Tatort." Both are Self-Preservation types who each avoid the spotlight in their own way &ndash; Bär through cultivating his own comfort, Behrendt through watchful reserve. More on this connection in the <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">portrait of Klaus J. Behrendt</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-klaus-j-behrendt", label:"Portrait: Klaus J. Behrendt (SP6w5) – his Tatort partner Schenk"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SP9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function klausJBehrendtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-klaus-j-behrendt-portrait.jpg" alt="Klaus J. Behrendt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klaus J. Behrendt</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Actor, b. 1953 &ndash; since 1997 "Detective Schenk" in the Cologne Tatort &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of Self-Preservation Six &ndash; watchful, cautious, never the first to expose itself, but rather one that thoroughly assesses the situation before moving. Anyone who watches Klaus J. Behrendt as Detective Freddy Schenk in the Cologne "Tatort" recognizes this pattern immediately: the more deliberate, more reflective of the two detectives, one who weighs before acting, and who often serves as a steadying counterweight to his more impulsive partner Ballauf.</p>
+          <p class="vb-intro">Behrendt, born in 1953, has played this role since 1997 &ndash; also nearly three decades. Unlike his colleague Dietmar Bär, he appears noticeably more reserved in public: hardly any home-story features, rare but unusually candid interviews in which he has repeatedly spoken about his own insecurities and self-doubt in his profession. The rabbit does not like to show itself unprotected &ndash; when it does, it is deliberate and considered.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Six: Security in the Familiar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Self-Preservation Six (SP6)</strong> seeks security not in a strong group (as with Social Six) or in a single, intense bond (as with Sexual Six), but in reliable, manageable structures of everyday life: fixed routines, a small, familiar circle, clear responsibilities. Behrendt's reserved handling of his own fame &ndash; hardly any public self-staging despite decades in the spotlight &ndash; fits exactly into this pattern.</p>
+          <p class="vb-intro">Rather than using his fame for additional visibility, Behrendt has visibly oriented his life around a few, but sustaining bonds and routines. This is not shyness in the ordinary sense, but the typical SP6 strategy: security arises through predictability, not through performance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Thoughtful Observer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives Self-Preservation Six an added distance, an analytical, observing quality. Instead of binding to the group to find security, SP6w5 tends to withdraw in order to understand the situation first, before committing. This exact thoughtful, sometimes brooding quality is repeatedly described in Behrendt &ndash; a man who thoroughly considers questions before answering, and who rarely seeks the quick, catchy statement in interviews.</p>
+          <p class="vb-intro">This combination of caution (Six) and distance (Five-wing) also explains why Behrendt is so much harder to grasp publicly than his colleague Bär: the Five-wing deliberately holds back part of one's inner world, even where Six on its own would already tend toward openness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Role: Schenk as Counterweight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Detective Schenk is the more deliberate, often more skeptical of the two detectives in the Cologne "Tatort" &ndash; one who questions Ballauf's more impulsive moves, weighs risks before acting, and thereby lends the duo a credible internal friction. This constellation has worked for nearly 30 years because it does not rest on contrast for its own sake, but on genuine, deeply practiced familiarity between two actors who have known each other for decades.</p>
+          <p class="vb-intro">Behrendt himself has emphasized how much security the real, long-standing collaboration with Bär gives him &ndash; a statement that fits exactly the SP6 logic: trust does not arise spontaneously, but through proof over a long period.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Man Behind Schenk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behrendt has repeatedly spoken openly in interviews about periods of insecurity in his career &ndash; an unusual openness for an actor established for decades, and yet typically SP6: one's own caution is not denied, but named, precisely because it is experienced as real. He consistently keeps his private life out of the public eye, a deliberate, disciplined choice in a profession built on constant visibility.</p>
+          <p class="vb-intro">Where Bär publicly celebrates pleasure and sociability, Behrendt comes across in appearances as fundamentally more introspective, more weighing &ndash; no contradiction to the two men's long friendship, but rather its necessary complement: the watchful observer beside the grounded enjoyer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Rabbit That Looks Closely</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nearly three decades alongside the same colleague, in the same role &ndash; for Behrendt too, this is a rare constant in the television business, carried by the SP6-typical ability to build and preserve genuine trust over a long period. The Five-wing ensures this reliability never becomes unreflective routine, but stays accompanied by constant, quiet observation.</p>
+          <p class="vb-intro">His fellow actor and longtime companion is <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Dietmar Bär</a> (SP9w8), who plays the more direct, more grounded Detective Ballauf in the Cologne "Tatort." The enneagrammatic connection between the two core types is notable: Nine and Six are directly linked by one of the two inner straight lines of the Enneagram symbol &ndash; together with Three, they form the inner triangle of the nine points. Both are also Self-Preservation types who each avoid the spotlight in their own way: Bär through cultivating his own comfort, Behrendt through watchful reserve. More in the <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">portrait of Dietmar Bär</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8) – his Tatort partner Ballauf"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
+      ])}
+    </div>
+  `);
+}
 
 function klausKinskiPortraitPage() {
   return shell(`
@@ -86217,6 +86356,8 @@ function subtypeSchaubilderPage() {
       "beruehmte-bryn-kenney": brynKenneyPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
+      "beruehmte-dietmar-baer": dietmarBaerPortraitPage,
+      "beruehmte-klaus-j-behrendt": klausJBehrendtPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-carsten-stahl": carstenStahlPortraitPage,

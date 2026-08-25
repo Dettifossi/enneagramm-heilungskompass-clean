@@ -24272,6 +24272,8 @@ const registerEntries = [
   { term: "Changpeng Zhao",                 route: "beruehmte-changpeng-zhao",              description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Unternehmer, Gründer von Binance" },
   { term: "Bryn Kenney",                    route: "beruehmte-bryn-kenney",                 description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Profi-Pokerspieler, All-Time-Money-List Nr. 1" },
   { term: "Peter Falk",                    route: "beruehmte-peter-falk",                  description: "Portrait: SO9w1 · Sozialer Typ 9 · Schauspieler, weltberühmt als TV-Ermittler ›Columbo‹" },
+  { term: "Dietmar Bär",                   route: "beruehmte-dietmar-baer",                description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Schauspieler, Tatort-Kommissar Ballauf" },
+  { term: "Klaus J. Behrendt",             route: "beruehmte-klaus-j-behrendt",            description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · Schauspieler, Tatort-Kommissar Schenk" },
   { term: "Moses",                         route: "beruehmte-moses",                       description: "Portrait: SX6w5 · Sexueller Typ 6 · Prophet, Gesetzgeber, Anführer des Exodus" },
   { term: "Scarlett Johansson",             route: "beruehmte-scarlett-johansson",          description: "Portrait: SX6w7 · Sexueller Typ 6 · Schauspielerin, Produzentin" },
   { term: "Francis Bacon",                  route: "beruehmte-francis-bacon",               description: "Portrait: SE7w8 · Selbsterhaltender Typ 7 · Philosoph, Staatsmann, Lordkanzler" },
@@ -24762,6 +24764,8 @@ const registerEntriesEN = [
   { term: "Changpeng Zhao", route: "beruehmte-changpeng-zhao", description: "Portrait: SE3w4 · Self-Preservation Type 3 · Entrepreneur, founder of Binance" },
   { term: "Bryn Kenney", route: "beruehmte-bryn-kenney", description: "Portrait: SE3w4 · Self-Preservation Type 3 · Professional poker player, All-Time Money List #1" },
   { term: "Peter Falk", route: "beruehmte-peter-falk", description: "Portrait: SO9w1 · Social Type 9 · Actor, world-famous as TV detective \"Columbo\"" },
+  { term: "Dietmar Bär", route: "beruehmte-dietmar-baer", description: "Portrait: SE9w8 · Self-Preservation Type 9 · Actor, Tatort detective Ballauf" },
+  { term: "Klaus J. Behrendt", route: "beruehmte-klaus-j-behrendt", description: "Portrait: SE6w5 · Self-Preservation Type 6 · Actor, Tatort detective Schenk" },
   { term: "Scarlett Johansson", route: "beruehmte-scarlett-johansson", description: "Portrait: SX6w7 · Sexual Type 6 · Actress, producer" },
   { term: "Francis Bacon", route: "beruehmte-francis-bacon", description: "Portrait: SE7w8 · Self-Preservation Type 7 · Philosopher, statesman, Lord Chancellor" },
   { term: "Junko Tabei", route: "beruehmte-junko-tabei", description: "Portrait: SE7w6 · Self-Preservation Type 7 · first woman to summit Mount Everest" },
@@ -33123,6 +33127,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Anne McBride \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w5 \u00b7 Britische Verhaltensforscherin, Senior Lecturer in Southampton, Vorsitzende der International Society for Anthrozoology. Promovierte \u00fcber das Sozial- und Elternverhalten des Europ\u00e4ischen Wildkaninchens und \u00fcbersetzt seither Angst- und Sicherheitsbed\u00fcrfnisse von Tieren in klare Verhaltensregeln. Tierentsprechung: Kaninchen.",
     tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-klaus-j-behrendt", name:"Klaus J. Behrendt", added:"2026-08-25", subtyp:"SE6w5",
+    heading:"Klaus J. Behrendt \u2013 Selbsterhaltender Typ 6",
+    teaser:"SE6w5 \u00b7 geb. 1953. Schauspieler, seit 1997 \u00bbKommissar Schenk\u00ab im K\u00f6lner Tatort. Das Kaninchen mit F\u00fcnferfl\u00fcgel: wachsam, nachdenklich, offen \u00fcber eigene Selbstzweifel \u2013 der ruhende, w\u00e4gende Gegenpol zu seinem Tatort-Partner Ballauf.",
+    land:"Deutschland", tags:["Film","Fernsehen"], gender:"m"},
   { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
     heading:"Neil Armstrong \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w7 \xb7 1930\u20132012. Pilot, Astronaut. Erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den au\xdferordentlichsten Schritt der Menschheitsgeschichte tat \u2013 und danach nur noch nach Hause wollte.",
@@ -33547,6 +33555,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Johannes Brahms \u2013 Selbsterhaltender Typ 9",
     teaser:"SE9w8 \u00b7 1833\u20131897. Deutscher Komponist. 1853 von Robert Schumann entdeckt, vier Jahrzehnte treuer Begleiter der Familie Schumann, 21 Jahre Arbeit an der 1. Symphonie. Der Elefant mit Achterfl\u00fcgel: schroffer Witz, unersch\u00fctterliche Geduld und eine Treue, die nie aufgab. Tierentsprechung: Elefant.",
     land:"Deutschland", tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-dietmar-baer", name:"Dietmar B\u00e4r", added:"2026-08-25", subtyp:"SE9w8",
+    heading:"Dietmar B\u00e4r \u2013 Selbsterhaltender Typ 9",
+    teaser:"SE9w8 \u00b7 geb. 1961. Schauspieler, seit 1997 \u00bbKommissar Ballauf\u00ab im K\u00f6lner Tatort. Der Elefant mit Achterfl\u00fcgel: bodenst\u00e4ndig, genussorientiert, direkt \u2013 seit fast drei Jahrzehnten in derselben Rolle, an der Seite desselben Kollegen.",
+    land:"Deutschland", tags:["Film","Fernsehen"], gender:"m"},
   { route:"beruehmte-amelia-earhart", name:"Amelia Earhart", added:"2026-08-17", subtyp:"SO9w1",
     heading:"Amelia Earhart – Soziale Typ 9",
     teaser:"SO9w1 · 1897–1937. Erste Frau mit Alleinflug über den Atlantik, Gründerin der Ninety-Nines, verschollen bei Weltumrundungsversuch. Verschmelzung mit der Sache statt persönlichem Nervenkitzel, Prinzipientreue ohne Selbstinszenierung. Tierentsprechung: Büffel.",
@@ -55399,6 +55411,137 @@ function peterFalkPortraitPage() {
         {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
         {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
         {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk – Alzheimer-Erkrankung"},
+      ])}
+    </div>
+  `);
+}
+
+function dietmarBaerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dietmar-baer-portrait.jpg" alt="Dietmar Bär" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dietmar Bär</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1961 – seit 1997 »Kommissar Ballauf« im Kölner Tatort – Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun – massig, gemütlich, an sein eigenes Terrain und seine Herde gebunden, und dabei überraschend bestimmt, sobald es wirklich darauf ankommt. Kein anderes Tier verkörpert so treffend das Bild eines Mannes, der seit 1997 als Kommissar Max Ballauf im Kölner „Tatort" ermittelt: bodenständig, ohne Starallüren, mit einer Vorliebe fürs Deftige, Direkte – und mit einem Ruhepunkt, der sich nicht so leicht aus der Bahn werfen lässt.</p>
+          <p class="vb-intro">Dietmar Bär, 1961 in Köln geboren, ist seit fast drei Jahrzehnten mit derselben Rolle verbunden – eine der längsten Ermittler-Konstanten im deutschen Fernsehen überhaupt. Der Elefant zieht nicht um. Er bleibt an seinem Wasserloch, in seiner Herde, in seiner Stadt – und genau diese Beständigkeit, nicht spektakuläre Wandlungsfähigkeit, ist die eigentliche Stärke, die Bär öffentlich verkörpert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Komfort als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> richtet die neunertypische Suche nach Frieden nicht primär auf die Gruppe (wie die soziale Neun) oder auf die eine Verschmelzung (wie die sexuelle Neun), sondern auf das eigene, unmittelbare Wohlbefinden: Essen, Gewohnheiten, das vertraute Zuhause, ein Leben ohne unnötige Reibung. Bär spricht in Interviews auffällig oft und mit sichtlichem Vergnügen übers Kochen und Essen, über Köln als seinen festen Lebensmittelpunkt, über die Bedeutung von Ritualen und Vertrautem im Alltag.</p>
+          <p class="vb-intro">Das ist kein Zufall, sondern der Kern der SE9: Sicherheit entsteht nicht durch soziale Anerkennung oder eine einzelne intensive Bindung, sondern durch die Pflege des eigenen, unmittelbaren Komforts. Genau diese Bodenständigkeit überträgt sich fast eins zu eins auf Ballauf – einen Ermittler, der nie den großen Auftritt sucht, sondern lieber im vertrauten Kölner Milieu bleibt, in dem er sich auskennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Deutlichkeit ohne Drohgebärde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der selbsterhaltenden Neun etwas, das einer SE9 mit schwach ausgeprägtem Achterflügel oft fehlt: eine direkte, unverblümte Art, klare Kante, wenn es nötig ist. In Interviews wirkt Bär nicht diplomatisch-zurückhaltend, sondern warmherzig, aber auch bestimmt und offen – er sagt, was er denkt, ohne dabei aggressiv oder konfrontativ zu wirken.</p>
+          <p class="vb-intro">Das unterscheidet die SE9w8 von der reinen, ungeflügelten Neun: Die Bequemlichkeit bleibt das Fundament, aber sie wird nicht zur Konfliktvermeidung um jeden Preis. Sein langjähriges Engagement als UNICEF-Botschafter zeigt dieselbe Mischung – kein lautstarker Aktivismus, sondern beständiges, verlässliches Eintreten für eine Sache, verbunden mit einer klaren, unmissverständlichen Haltung, wenn es um Kinderrechte geht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Rolle: Ballauf als verlängerter Arm der eigenen Bodenständigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Max Ballauf ist im Kölner „Tatort" der emotionalere, direktere der beiden Ermittler – einer, der auch mal laut wird, der seine Meinung unumwunden sagt, der sich mit seinem Kollegen Schenk auf eine Weise reibt und versteht, die über die Jahrzehnte fast familiär wirkt. Diese Konstellation funktioniert im Fernsehen nur deshalb so glaubwürdig, weil sie nicht nur gespielt, sondern von zwei Schauspielern getragen wird, die sich seit Jahrzehnten tatsächlich verbunden sind.</p>
+          <p class="vb-intro">Bär selbst hat wiederholt betont, dass ihm die reale Freundschaft mit seinem Schauspielkollegen wichtiger sei als jede einzelne Folge – eine Aussage, die genau ins SE9-Muster passt: Beständigkeit, Vertrautheit und die Pflege eines eingespielten, verlässlichen Umfelds wiegen schwerer als kurzfristige Anerkennung oder ein einzelner großer Erfolg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Mensch hinter Ballauf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Abseits der Kamera engagiert sich Bär seit vielen Jahren als Botschafter für UNICEF Deutschland und setzt sich öffentlich für Kinderrechte ein – ein Engagement, das er nicht mit großer Geste, sondern mit stetiger Präsenz über Jahre hinweg pflegt. Er wird in Porträts und Interviews regelmäßig als humorvoll, gesellig und ausgesprochen genussorientiert beschrieben – jemand, der die kleinen, sinnlichen Freuden des Alltags bewusst zelebriert, statt sie als selbstverständlich hinzunehmen.</p>
+          <p class="vb-intro">Auffällig ist zudem, wie konsequent Bär trotz jahrzehntelanger Prominenz eine private, weitgehend unaufgeregte Öffentlichkeitsrolle gepflegt hat – kaum Skandale, kaum Homestorys, kaum das Bedürfnis, sich über die eigentliche Arbeit hinaus zu inszenieren. Das ist die stille Konsequenz der selbsterhaltenden Neun: Der eigene Komfort und die eigene Ruhe sind ihr wichtiger als zusätzliche Sichtbarkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Elefant, der bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fast drei Jahrzehnte in derselben Rolle, in derselben Stadt, an der Seite desselben Kollegen – das ist im schnelllebigen Fernsehgeschäft eine seltene Konstante, und sie speist sich aus genau der Eigenschaft, die den Elefanten auszeichnet: Beständigkeit ist keine Einschränkung, sondern eine Kraftquelle. Der Achterflügel sorgt dafür, dass diese Beständigkeit nie zur Passivität wird, sondern von einer klaren, direkten Haltung getragen bleibt.</p>
+          <p class="vb-intro">Sein Schauspielkollege und langjähriger Weggefährte ist <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Klaus J. Behrendt</a> (SE6w5), der im Kölner „Tatort" den ruhigeren, vorsichtigeren Kommissar Schenk verkörpert. Beide sind Selbsterhaltungs-Typen, beide meiden auf ihre eigene Art das Rampenlicht – Bär durch die Pflege des eigenen Komforts, Behrendt durch wachsame Zurückhaltung. Mehr zu dieser Verbindung im <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Porträt zu Klaus J. Behrendt</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-klaus-j-behrendt", label:"Porträt: Klaus J. Behrendt (SE6w5) – sein Tatort-Partner Schenk"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function klausJBehrendtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-klaus-j-behrendt-portrait.jpg" alt="Klaus J. Behrendt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klaus J. Behrendt</p>
+        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1953 – seit 1997 »Kommissar Schenk« im Kölner Tatort – Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs – wachsam, vorsichtig, nie das erste, das sich exponiert, sondern eines, das die Lage erst genau prüft, bevor es sich bewegt. Wer Klaus J. Behrendt als Kommissar Freddy Schenk im Kölner „Tatort" beobachtet, erkennt dieses Muster sofort: der bedächtigere, nachdenklichere der beiden Ermittler, einer, der abwägt, bevor er handelt, und der seinem impulsiveren Partner Ballauf oft als ruhender Gegenpol dient.</p>
+          <p class="vb-intro">Behrendt, 1953 geboren, spielt diese Rolle seit 1997 – ebenfalls fast drei Jahrzehnte. Anders als sein Kollege Dietmar Bär tritt er öffentlich deutlich zurückhaltender auf: kaum Homestorys, seltene, aber dafür ungewöhnlich offene Interviews, in denen er wiederholt über eigene Unsicherheiten und Selbstzweifel im Beruf gesprochen hat. Das Kaninchen zeigt sich nicht gern ungeschützt – wenn es das doch tut, dann bewusst und mit Bedacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit im Vertrauten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> sucht Sicherheit nicht in einer starken Gruppe (wie die soziale Sechs) oder in einer einzelnen, intensiven Bindung (wie die sexuelle Sechs), sondern in verlässlichen, überschaubaren Strukturen des eigenen Alltags: feste Routinen, ein kleiner, vertrauter Kreis, klare Zuständigkeiten. Behrendts zurückhaltender Umgang mit der eigenen Prominenz – kaum öffentliche Selbstinszenierung trotz Jahrzehnten im Rampenlicht – passt genau in dieses Muster.</p>
+          <p class="vb-intro">Statt die eigene Bekanntheit für zusätzliche Sichtbarkeit zu nutzen, hat Behrendt sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet. Das ist keine Schüchternheit im landläufigen Sinn, sondern die typische SE6-Strategie: Sicherheit entsteht durch Berechenbarkeit, nicht durch Auftritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der nachdenkliche Beobachter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Sechs eine zusätzliche Distanz, eine analytische, beobachtende Note. Statt sich an die Gruppe zu binden, um Sicherheit zu finden, zieht sich die SE6w5 eher zurück, um die Lage erst zu verstehen, bevor sie sich festlegt. Genau diese nachdenkliche, manchmal grüblerische Qualität wird an Behrendt immer wieder beschrieben – ein Mann, der Fragen gründlich durchdenkt, bevor er antwortet, und der in Interviews selten die schnelle, plakative Aussage sucht.</p>
+          <p class="vb-intro">Diese Kombination aus Vorsicht (Sechs) und Distanz (Fünferflügel) erklärt auch, warum Behrendt öffentlich so viel schwerer zu fassen ist als sein Kollege Bär: Der Fünferflügel hält einen Teil der eigenen Innenwelt bewusst zurück, selbst dort, wo die Sechs an sich schon zur Offenheit neigen würde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Rolle: Schenk als Gegengewicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kommissar Schenk ist im Kölner „Tatort" der bedächtigere, oft skeptischere der beiden Ermittler – einer, der Ballaufs impulsivere Vorstöße hinterfragt, der Risiken abwägt, bevor er handelt, und der dem Duo dadurch eine glaubwürdige innere Reibung verleiht. Diese Konstellation funktioniert seit fast 30 Jahren, weil sie nicht auf Gegensatz um des Gegensatzes willen beruht, sondern auf einer echten, tief eingespielten Vertrautheit zwischen zwei Schauspielern, die sich seit Jahrzehnten kennen.</p>
+          <p class="vb-intro">Behrendt selbst hat betont, wie sehr ihm die reale, langjährige Zusammenarbeit mit Bär Sicherheit gibt – eine Aussage, die exakt zur SE6-Logik passt: Vertrauen entsteht nicht spontan, sondern durch Bewährung über einen langen Zeitraum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Mensch hinter Schenk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behrendt hat in Interviews wiederholt offen über Phasen der Unsicherheit in seiner Karriere gesprochen – eine für einen jahrzehntelang etablierten Schauspieler ungewöhnliche Offenheit, die zugleich typisch SE6 ist: Die eigene Vorsicht wird nicht verleugnet, sondern benannt, gerade weil sie als real erlebt wird. Sein privates Leben hält er konsequent aus der Öffentlichkeit heraus, was in einem Berufsfeld, das auf ständige Sichtbarkeit ausgerichtet ist, eine bewusste, disziplinierte Entscheidung ist.</p>
+          <p class="vb-intro">Wo Bär öffentlich Genuss und Geselligkeit zelebriert, wirkt Behrendt in Auftritten grundsätzlich introspektiver, wägender – kein Widerspruch zur langjährigen Männerfreundschaft der beiden, sondern eher deren notwendige Ergänzung: Der wache Beobachter neben dem geerdeten Genießer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Kaninchen, das genau hinschaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fast drei Jahrzehnte an der Seite desselben Kollegen, in derselben Rolle – auch für Behrendt ist das eine seltene Konstante im Fernsehgeschäft, getragen von der SE6-typischen Fähigkeit, echtes Vertrauen über einen langen Zeitraum aufzubauen und zu bewahren. Der Fünferflügel sorgt dafür, dass diese Verlässlichkeit nie zur unreflektierten Routine wird, sondern von ständiger, stiller Beobachtung begleitet bleibt.</p>
+          <p class="vb-intro">Sein Schauspielkollege und langjähriger Weggefährte ist <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Dietmar Bär</a> (SE9w8), der im Kölner „Tatort" den direkteren, bodenständigeren Kommissar Ballauf verkörpert. Interessant ist die enneagrammatische Verbindung zwischen den beiden Kerntypen: Neun und Sechs sind durch eine der beiden inneren geraden Linien des Enneagramm-Symbols direkt miteinander verbunden – gemeinsam mit der Drei bilden sie das innere Dreieck der neun Punkte. Beide sind zudem Selbsterhaltungs-Typen, die auf je eigene Weise dem Rampenlicht ausweichen: Bär durch die Pflege des eigenen Komforts, Behrendt durch wachsame Zurückhaltung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Porträt zu Dietmar Bär</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8) – sein Tatort-Partner Ballauf"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
       ])}
     </div>
   `);
@@ -121730,6 +121873,8 @@ function render() {
       "beruehmte-bryn-kenney": brynKenneyPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
+      "beruehmte-dietmar-baer": dietmarBaerPortraitPage,
+      "beruehmte-klaus-j-behrendt": klausJBehrendtPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
       "beruehmte-thomas-gottschalk": thomasGottschalkPortraitPage,
       "beruehmte-hazel-brugger": hazelBruggerPortraitPage,
