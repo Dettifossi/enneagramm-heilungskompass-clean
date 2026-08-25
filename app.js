@@ -24017,6 +24017,7 @@ const registerEntries = [
   { term: "Franz Liszt Krankheitsporträt", route: "krankheitsportraets-franz-liszt", description: "Portrait: SX7w8 · Sexueller Typ 7 · Herzschwäche, Wassersucht, tödliche Lungenentzündung" },
   { term: "Charles Manson Krankheitsporträt", route: "krankheitsportraets-charles-manson", description: "Portrait: SX6w7 · Sexueller Typ 6 · Darmkrebs, tödliches Herzversagen im Gefängnis" },
   { term: "Bernie Madoff Krankheitsporträt", route: "krankheitsportraets-bernie-madoff", description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Niereninsuffizienz im Endstadium" },
+  { term: "Frida Kahlo Krankheitsporträt", route: "krankheitsportraets-frida-kahlo", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Rund 30 Operationen, Beinamputation" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
@@ -32136,6 +32137,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-franz-liszt", name:"Franz Liszt", subtyp:"SX7w8", heading:"Franz Liszt – Sexueller Typ 7", krankheit:"Herzschwäche, Wassersucht und fortschreitende Erblindung, tödliche Lungenentzündung", teaser:"SX7w8 – Komponist und Pianist, 1811–1886. Jahrelange Herzbeschwerden und Ödeme bei unverändertem Reisepensum zwischen Weimar, Rom und Budapest, Teilnahme an einer Aufführung in Bayreuth 1886 trotz Fieber und ärztlichem Verbot. Starb am 31. Juli 1886 in Bayreuth." , land:"Ungarn/Deutschland", gender:"m", jahre:"1811–1886"},
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexueller Typ 6", krankheit:"Darmkrebs, tödliches Herzversagen", teaser:"SX6w7 – Sektenführer und Drahtzieher der Tate-LaBianca-Morde 1969, 1934–2017. Krankenhausaufenthalt und Darmkrebsdiagnose Anfang 2017, keine öffentliche Reue oder Wandlung bis zuletzt. Starb am 19. November 2017 im Gefängniskrankenhaus im Alter von 83 Jahren." , land:"USA", gender:"m", jahre:"1934–2017"},
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Selbsterhaltender Typ 3", krankheit:"Niereninsuffizienz im Endstadium", teaser:"SE3w4 – Architekt des größten Ponzi-Systems der Geschichte, 1938–2021. Fortschreitende Nierenerkrankung im Gefängnis, mehrfach abgelehnte Gesuche um vorzeitige Entlassung trotz einer Prognose von unter 18 Monaten Lebenszeit. Starb am 14. April 2021 in der Bundesstrafanstalt Butner im Alter von 82 Jahren." , land:"USA", gender:"m", jahre:"1938–2021"},
+  { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Selbsterhaltender Typ 2", krankheit:"Chronische Unfallfolgen mit rund 30 Operationen, Beinamputation", teaser:"SE2w3 – mexikanische Malerin, 1907–1954. Kinderlähmung mit sechs Jahren, mit 18 ein katastrophaler Busunfall mit Wirbelsäulen- und Beckenbrüchen, rund 30 Operationen über fast drei Jahrzehnte, 1953 Amputation des rechten Unterschenkels. Starb 1954 mit 47 Jahren." , land:"Mexiko", gender:"f", jahre:"1907–1954"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -44461,7 +44463,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Schutzschicht und Verborgenheit als Überlebenssystem, nicht als Schwäche",
         beschreibung: "Was von außen wie Rückzug, Verletzlichkeit oder Verbergen wirkt, ist häufig ein sorgfältig funktionierendes Schutzsystem, das erst im entscheidenden Moment sichtbare Kraft freisetzt.",
-        beleg: "Frida Kahlo, deren Körper ›über weite Strecken ihres Lebens unter Gips, Verbänden und Stützkonstruktionen verborgen‹ blieb – ›sichtbar blieb nur, was sie selbst zeigen wollte‹; Marie Antoinettes kunstvolle Erscheinung als ›glänzende, unangreifbare Oberfläche, hinter der sich eine junge Frau verbarg‹; Natascha Kampusch, deren acht Jahre Gefangenschaft zeigen, ›wie ein Wesen unter extremem Druck einen eigenen Schutzraum aufbaut und darin funktionsfähig bleibt‹; Margot Friedländer, die ›nicht abtaucht, um zu verschwinden‹, sondern ›weil dort ihre Sicherheit liegt‹ – und auftaucht, ›genau in dem Moment, in dem sie gebraucht wird‹; Yayoi Kusama, deren endlose Punkte keine künstlerische Konzeption, sondern eine Überlebensnotwendigkeit sind – ohne das Malen, sagt sie selbst, hätte sie sich längst das Leben genommen; Jan Ullrich, für den das Fahrrad dieses Wasser war – abseits des Rads suchte er das Gleichgewicht immer wieder, und fand es nicht immer; Harald Glööckler, der sich aus einer von Gewalt und Missbrauch geprägten Kindheit eine eigene, überbordend glanzvolle Welt aus Gold und Kronen schuf – Schutz nicht durch Verbergen, sondern durch eine so gleißende Oberfläche, dass niemand mehr hinter sie schaut; Mickey Rourke, dessen öffentliches Bild von Härte geprägt ist, während seine tiefste, verlässlichste Bindung Jahrzehnte lang seinen Hunden galt – ›sie waren da, als niemand sonst da war‹; Monica Simpson, die in Wingate, North Carolina, oft das einzige schwarze Kind in Leistungskursen war und daraus ein lebenslanges, im eigenen Süden verwurzeltes Engagement für ihre Gemeinschaft entwickelte; Nate Dogg, dessen Stimme sechzehn fremde Songs zu Hits machte, während die eigenen Soloalben nie über 500.000 verkaufte Exemplare hinauskamen – Fürsorge, die lieber das Werk anderer trägt als das eigene; Stromae, dessen Song ›Papaoutai‹ direkt den Verlust seines im ruandischen Völkermord getöteten Vaters verarbeitet – eine ganz persönliche Familienwunde, die zum meistgehörten Ausdruck seines Werks wurde; Thomas Chaanhing, dessen dänisch-chinesische Doppelherkunft und Sprachkompetenz in sechs Sprachen die Basis für tragende Rollen in mehreren internationalen Großproduktionen bildete; Tracie D. Hall, die Jahre in öffentlichen Bibliotheken quer durch die USA arbeitete, bevor sie als erste afroamerikanische Frau Geschäftsführerin der American Library Association wurde."
+        beleg: "Frida Kahlo, deren Körper ›über weite Strecken ihres Lebens unter Gips, Verbänden und Stützkonstruktionen verborgen‹ blieb – ›sichtbar blieb nur, was sie selbst zeigen wollte‹ – und die noch mit amputiertem Bein und aus dem eigenen Krankenbett heraus die Eröffnung ihrer einzigen mexikanischen Einzelausstellung zelebrierte; Marie Antoinettes kunstvolle Erscheinung als ›glänzende, unangreifbare Oberfläche, hinter der sich eine junge Frau verbarg‹; Natascha Kampusch, deren acht Jahre Gefangenschaft zeigen, ›wie ein Wesen unter extremem Druck einen eigenen Schutzraum aufbaut und darin funktionsfähig bleibt‹; Margot Friedländer, die ›nicht abtaucht, um zu verschwinden‹, sondern ›weil dort ihre Sicherheit liegt‹ – und auftaucht, ›genau in dem Moment, in dem sie gebraucht wird‹; Yayoi Kusama, deren endlose Punkte keine künstlerische Konzeption, sondern eine Überlebensnotwendigkeit sind – ohne das Malen, sagt sie selbst, hätte sie sich längst das Leben genommen; Jan Ullrich, für den das Fahrrad dieses Wasser war – abseits des Rads suchte er das Gleichgewicht immer wieder, und fand es nicht immer; Harald Glööckler, der sich aus einer von Gewalt und Missbrauch geprägten Kindheit eine eigene, überbordend glanzvolle Welt aus Gold und Kronen schuf – Schutz nicht durch Verbergen, sondern durch eine so gleißende Oberfläche, dass niemand mehr hinter sie schaut; Mickey Rourke, dessen öffentliches Bild von Härte geprägt ist, während seine tiefste, verlässlichste Bindung Jahrzehnte lang seinen Hunden galt – ›sie waren da, als niemand sonst da war‹; Monica Simpson, die in Wingate, North Carolina, oft das einzige schwarze Kind in Leistungskursen war und daraus ein lebenslanges, im eigenen Süden verwurzeltes Engagement für ihre Gemeinschaft entwickelte; Nate Dogg, dessen Stimme sechzehn fremde Songs zu Hits machte, während die eigenen Soloalben nie über 500.000 verkaufte Exemplare hinauskamen – Fürsorge, die lieber das Werk anderer trägt als das eigene; Stromae, dessen Song ›Papaoutai‹ direkt den Verlust seines im ruandischen Völkermord getöteten Vaters verarbeitet – eine ganz persönliche Familienwunde, die zum meistgehörten Ausdruck seines Werks wurde; Thomas Chaanhing, dessen dänisch-chinesische Doppelherkunft und Sprachkompetenz in sechs Sprachen die Basis für tragende Rollen in mehreren internationalen Großproduktionen bildete; Tracie D. Hall, die Jahre in öffentlichen Bibliotheken quer durch die USA arbeitete, bevor sie als erste afroamerikanische Frau Geschäftsführerin der American Library Association wurde."
       },
       {
         titel: "Untadelige Fürsorge-Fassade als Tarnung für Kontrolle oder Ausbeutung (Schattenform)",
@@ -64861,6 +64863,7 @@ function fridaKahloPortraitPage() {
         {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
         {route:"beruehmte-isabella-briggs", label:"Porträt: Isabella Briggs (SE2w3)"},
         {route:"beruehmte-marie-antoinette", label:"Porträt: Marie Antoinette (SE2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3) – rund 30 Operationen"},
       ])}
     </div>
   `);
@@ -74540,6 +74543,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3) – dieselbe Weigerung zurückzuweichen"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
@@ -74721,6 +74725,7 @@ function nusratFatehAliKhanKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-nusrat-fateh-ali-khan", label:"Porträt: Nusrat Fateh Ali Khan (SE2w3) – Lebenswerk"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Krankheitsporträt: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3) – dieselbe Weigerung zurückzuweichen"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
@@ -80359,6 +80364,200 @@ function bernieMadoffKrankheitsportraetPage() {
         {route:"krankheitsportraets-osho", label:"Krankheitsporträt: Osho (SE3w4) – dieselbe Diskretion über den eigenen Körper"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}
+
+function fridaKahloKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-frida-kahlo-portrait.jpg" alt="Frida Kahlo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frida Kahlo</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel · 1907–1954</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Frida Kahlo</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-frida-kahlo">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr künstlerisches Lebenswerk und ihre
+        Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das dort nur gestreift
+        wird: rund 30 Operationen über fast drei Jahrzehnte, eine Beinamputation kurz vor ihrem
+        Tod, und ein Leben, das sich buchstäblich weigerte, sich vom eigenen Körper besiegen zu
+        lassen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kahlo</strong> ist dem <strong>selbsterhaltenden Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Me First</em>: Die SE2 muss sich selbst
+        zuerst versorgen, um überhaupt für andere da sein zu können. Der Dreierflügel bringt
+        den Willen hinzu, gesehen zu werden – das eigene Leiden nicht zu verstecken, sondern zu
+        gestalten und zu zeigen. Genau dieses Muster durchzieht ihren gesamten
+        Krankheitsverlauf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Kinderlähmung mit sechs Jahren:</strong>
+        1913 erkrankte Kahlo an Polio, die ihr rechtes Bein dauerhaft schwächte und dünner
+        wachsen ließ – Mitschüler verspotteten sie deswegen als „Frida pata de palo" (Frida
+        Stelzbein).</p>
+        <p class="vb-intro"><strong>b) Der Busunfall von 1925:</strong>
+        Mit achtzehn Jahren erlitt Kahlo einen katastrophalen Unfall, als eine Straßenbahn den
+        Bus rammte, in dem sie saß – eine Eisenstange durchbohrte ihr Becken, ihre Wirbelsäule
+        brach an drei Stellen, ihr rechtes Bein an elf Stellen.</p>
+        <p class="vb-intro"><strong>c) Eine Prognose, die ihr das Gehen und Kinder absprach:</strong>
+        Ärzte gaben ihr zunächst kaum Überlebenschancen und rechneten später damit, dass sie
+        nie wieder würde gehen oder Kinder bekommen können.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Rund 30 Operationen über fast drei Jahrzehnte:</strong>
+        Von 1925 bis kurz vor ihrem Tod 1954 unterzog sich Kahlo Dutzenden Eingriffen an
+        Wirbelsäule, Becken und Bein – ein medizinischer Dauerzustand, der nie wirklich endete.</p>
+        <p class="vb-intro"><strong>b) Lebenslange Korsetts und Stützkonstruktionen:</strong>
+        Über weite Strecken ihres Lebens trug Kahlo Gips- und später Stahlkorsette, die ihren
+        Rumpf stabilisierten – sie bemalte einige davon später selbst und machte sie so zu
+        einem Teil ihrer Kunst.</p>
+        <p class="vb-intro"><strong>c) Mehrere Fehlgeburten durch die Unfallschäden:</strong>
+        Die Beckenverletzungen des Unfalls führten zu mehreren Fehlgeburten, die Kahlo in
+        schonungslos direkten Werken wie „Henry Ford Hospital" verarbeitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Ausstellungseröffnung im eigenen Bett:</strong>
+        1953, bei ihrer einzigen Einzelausstellung in Mexiko, ließ sich die bereits schwer
+        kranke Kahlo mit dem Krankenwagen zur Galerie bringen und empfing die Gäste liegend in
+        ihrem eigenen, dort aufgestellten Himmelbett.</p>
+        <p class="vb-intro"><strong>b) Amputation des rechten Unterschenkels 1953:</strong>
+        Nach Jahren fortschreitender Durchblutungsstörungen musste Kahlos rechtes Bein wegen
+        Wundbrands unterhalb des Knies amputiert werden – ein Einschnitt, der sie tief in eine
+        Depression stürzte.</p>
+        <p class="vb-intro"><strong>c) Tod am 13. Juli 1954 in Mexiko-Stadt:</strong>
+        Frida Kahlo starb offiziell an einer Lungenembolie im Alter von 47 Jahren – manche
+        Historiker vermuten bis heute einen möglichen Suizid durch Überdosis, ohne dass dies je
+        zweifelsfrei geklärt wurde.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: Nusrat Fateh Ali Khan und Mozart</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Sowohl <a href="javascript:void(0)" data-route="beruehmte-nusrat-fateh-ali-khan">Nusrat
+        Fateh Ali Khan</a> als auch
+        <a href="javascript:void(0)" data-route="beruehmte-wolfgang-amadeus-mozart">Wolfgang
+        Amadeus Mozart</a> (beide SE2w3) arbeiteten und traten bis kurz vor ihrem Tod öffentlich
+        auf, obwohl ihr Körper längst schwer erkrankt war. Ihre
+        <a href="javascript:void(0)" data-route="krankheitsportraets-nusrat-fateh-ali-khan">Krankheitsporträts</a>
+        zeigen dasselbe SE2w3-Muster wie bei Kahlo: Rückzug ist keine Option, solange die
+        eigene Kraft noch für einen letzten Auftritt reicht – auch wenn dieser Auftritt, wie
+        bei Kahlos Ausstellungseröffnung im eigenen Bett, den Körper selbst zum Kunstwerk
+        macht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das ohne den Unfall nie entstanden wäre:</strong>
+        Kahlo selbst sagte sinngemäß, sie male sich selbst, weil sie so oft allein sei und weil
+        sie das Objekt sei, das sie am besten kenne – ihr Lebenswerk ist untrennbar mit ihrem
+        Krankheitsverlauf verwoben.</p>
+        <p class="vb-intro"><strong>b) Eine Ausstellung, die zur Legende wurde:</strong>
+        Die Bild einer schwerkranken Künstlerin, die die eigene Ausstellungseröffnung vom
+        eigenen Krankenbett aus zelebrierte, wurde zu einem der bekanntesten Bilder der
+        Kunstgeschichte des 20. Jahrhunderts.</p>
+        <p class="vb-intro"><strong>c) Ein Tod, dessen genaue Umstände offenbleiben:</strong>
+        Die bis heute ungeklärte Frage, ob ihr Tod ein natürliches Ende oder ein bewusster
+        letzter Akt war, spiegelt die Unmöglichkeit, Kahlos Verhältnis zu Schmerz und Kontrolle
+        auf eine einfache Formel zu bringen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Flusspferd, das sein Revier bis zuletzt verteidigte:</strong>
+        Selbst mit amputiertem Bein und tiefer Depression gab Kahlo das Malen nicht auf –
+        dieselbe Fürsorge, die sie zuerst sich selbst schuldete, hielt sie bis zum Ende am
+        Werk.</p>
+        <p class="vb-intro"><strong>b) Schmerz, der zum Bild und damit sichtbar wurde:</strong>
+        Statt ihr Leiden zu verbergen, malte Kahlo offen gezeigte Operationsnarben, Korsette
+        und medizinische Instrumente – der Dreierflügel, der aus privatem Schmerz ein
+        öffentliches Bild formte, bis in die eigene Krankheitsgeschichte hinein.</p>
+        <p class="vb-intro"><strong>c) Ein letzter Tagebucheintrag zwischen Schmerz und Lebenswillen:</strong>
+        „Ich hoffe, der Abgang ist fröhlich – und ich hoffe, nie wiederzukommen", schrieb Kahlo
+        kurz vor ihrem Tod – kein Satz der Resignation, sondern einer, der beides zugleich
+        hielt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Fast drei Jahrzehnte im Ausnahmezustand des eigenen Körpers:</strong>
+        Von ihrem 18. Lebensjahr bis zu ihrem Tod mit 47 kannte Kahlo kaum eine Phase ohne
+        Schmerzen, Operationen oder Korsette – kein plötzlicher Einbruch, sondern ein
+        lebenslanger, sich stetig zuspitzender Ausnahmezustand.</p>
+        <p class="vb-intro"><strong>b) Die Weigerung, sich zurückzuziehen:</strong>
+        Das Schicksalsmuster der Zwei ist der Stolz – die Überzeugung, sich selbst und anderen
+        unentbehrlich zu sein, auch unter größter Belastung. Kahlo hielt öffentliche Auftritte
+        aufrecht, selbst als ihr Körper längst an seine Grenzen gestoßen war.</p>
+        <p class="vb-intro"><strong>c) Der eigene Körper als erstes und letztes Kunstwerk:</strong>
+        Von den ersten Selbstporträts im Krankenbett bis zur Ausstellungseröffnung im eigenen
+        Bett schloss sich ein Kreis: Kahlos Kunst begann mit dem eigenen, verletzten Körper und
+        endete mit ihm.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der eigene Körper als Leinwand?</strong>
+        Für eine selbsterhaltende Zwei mit Dreierflügel, deren tiefstes Bedürfnis darin
+        besteht, sich zuerst selbst zu versorgen und dieses Leiden dann sichtbar zu gestalten,
+        liegt eine Deutung nahe: Ausgerechnet ein Körper, der beinahe fünfzig Jahre lang
+        Schmerz produzierte, wurde zur ergiebigsten Quelle ihres gesamten künstlerischen
+        Schaffens – Leiden, das nicht verdrängt, sondern zum zentralen Thema gemacht wurde.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu
+        chronischen Körperschäden führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Kahlos Fall zeigen lässt, ist ein Muster im
+        Umgang mit chronischem Leiden, das bei einer ausgeprägten selbsterhaltenden Zwei mit
+        Dreierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Kahlo kannte das Enneagramm als modernes Persönlichkeitsmodell nicht – es entstand erst
+        Jahrzehnte nach ihrem Tod in seiner heutigen Form. Sie lebte den Zwang, sich zuerst
+        selbst zu versorgen und dann dieses Leiden sichtbar zu machen, völlig unbewusst aus –
+        nicht als Strategie, sondern als einzige ihr bekannte Weise, mit einem Leben voller
+        Schmerz umzugehen. Wer das eigene Muster, Leiden erst durchleben und dann gestalten zu
+        müssen, nicht kennt, kann sich selbst auch nicht die Pause gönnen, die echte Heilung
+        manchmal erfordert hätte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Kahlos</strong> selbsterhaltende Zwei mit
+        Dreierflügel noch einmal ablesen: ein Körper, der fast drei Jahrzehnte lang Schmerz
+        produzierte, und eine Frau, die diesen Schmerz nie verdrängte, sondern zur zentralen
+        Sprache ihrer Kunst machte. Das Flusspferd, das sein Wasser nie verlassen konnte – und
+        das gerade darin lernte, bis zum letzten Atemzug zu gestalten, statt nur zu
+        überleben.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-frida-kahlo", label:"Porträt: Frida Kahlo (SE2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Krankheitsporträt: Nusrat Fateh Ali Khan (SE2w3) – dieselbe Weigerung zurückzuweichen"},
+        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Krankheitsporträt: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
     </div>
   `);
@@ -120933,6 +121132,7 @@ function render() {
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
+      "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,

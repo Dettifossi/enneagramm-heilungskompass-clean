@@ -243,6 +243,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-franz-liszt", name:"Franz Liszt", subtyp:"SX7w8", heading:"Franz Liszt – Sexual Type 7", krankheit:"Heart failure, dropsy, and progressive blindness, fatal pneumonia", teaser:"SX7w8 – composer and pianist, 1811–1886. Years of heart problems and edema alongside an unchanged travel schedule between Weimar, Rome, and Budapest; attended a performance in Bayreuth in 1886 despite fever and medical prohibition. Died on 31 July 1886 in Bayreuth." , land:"Hungary/Germany", gender:"m", jahre:"1811–1886"},
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexual Type 6", krankheit:"Colon cancer, fatal cardiac arrest", teaser:"SX6w7 – cult leader and mastermind of the 1969 Tate-LaBianca murders, 1934–2017. Hospitalized and diagnosed with colon cancer in early 2017, showed no public remorse or transformation to the end. Died on 19 November 2017 in a prison hospital at age 83." , land:"USA", gender:"m", jahre:"1934–2017"},
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Self-Preservation Type 3", krankheit:"End-stage kidney failure", teaser:"SE3w4 – architect of the largest Ponzi scheme in history, 1938–2021. Progressive kidney disease in prison, repeatedly denied requests for early release despite a prognosis of under 18 months to live. Died on 14 April 2021 at the Federal Correctional Complex in Butner at age 82." , land:"USA", gender:"m", jahre:"1938–2021"},
+  { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -24705,6 +24706,7 @@ function fridaKahloPortraitPage() {
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
         {route:"beruehmte-isabella-briggs", label:"Portrait: Isabella Briggs (SP2w3)"},
         {route:"beruehmte-marie-antoinette", label:"Portrait: Marie Antoinette (SP2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SP2w3) – about 30 surgeries"},
       ])}
     </div>
   `);
@@ -47022,6 +47024,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – life's work"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SE2w3) – the same refusal to step back"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SE2"},
       ])}
@@ -47196,6 +47199,7 @@ function nusratFatehAliKhanKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3) – Life's Work"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SE2w3) – the same refusal to step back"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SE2"},
       ])}
@@ -52390,6 +52394,190 @@ function bernieMadoffKrankheitsportraetPage() {
         {route:"krankheitsportraets-osho", label:"Illness Portrait: Osho (SP3w4) – the same discretion over his own body"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SP3"},
+      ])}
+    </div>
+  `);
+}
+
+function fridaKahloKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-frida-kahlo-portrait.jpg" alt="Frida Kahlo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frida Kahlo</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing · 1907–1954</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Frida Kahlo</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-frida-kahlo">portrait under Famous Personalities</a>
+        in this Compass – that page covers her artistic life's work and her type structure in
+        general. This page delves into a chapter only touched on there: roughly 30 surgeries
+        over nearly three decades, a leg amputation shortly before her death, and a life that
+        quite literally refused to be defeated by her own body.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Kahlo</strong> is classified as the <strong>Self-Preservation Type 2 with
+        Three-wing</strong>. Naranjo called this subtype <em>Me First</em>: the Self-Preservation
+        Two must care for herself first in order to be able to care for others at all. The
+        Three-wing adds the will to be seen – not hiding one's suffering, but shaping and
+        showing it. This exact pattern runs through her entire illness history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Polio at age six:</strong>
+        In 1913, Kahlo contracted polio, which permanently weakened her right leg and left it
+        thinner – classmates mocked her for it as "Frida pata de palo" (Frida peg-leg).</p>
+        <p class="vb-intro"><strong>b) The bus accident of 1925:</strong>
+        At eighteen, Kahlo suffered a catastrophic accident when a streetcar collided with the
+        bus she was riding – an iron handrail pierced her pelvis, her spine fractured in three
+        places, her right leg in eleven.</p>
+        <p class="vb-intro"><strong>c) A prognosis that denied her walking and children:</strong>
+        Doctors initially gave her little chance of survival, and later expected she would
+        never walk again or be able to have children.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) About 30 surgeries over nearly three decades:</strong>
+        From 1925 until shortly before her death in 1954, Kahlo underwent dozens of procedures
+        on her spine, pelvis, and leg – a near-permanent medical condition that never truly
+        ended.</p>
+        <p class="vb-intro"><strong>b) A lifetime of corsets and support structures:</strong>
+        For long stretches of her life, Kahlo wore plaster and later steel corsets to stabilize
+        her torso – she later painted some of them herself, turning them into part of her art.</p>
+        <p class="vb-intro"><strong>c) Multiple miscarriages caused by the accident's damage:</strong>
+        The pelvic injuries from the accident led to several miscarriages, which Kahlo
+        processed in unflinchingly direct works such as "Henry Ford Hospital."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The exhibition opening from her own bed:</strong>
+        In 1953, at her only solo exhibition in Mexico, the already gravely ill Kahlo had
+        herself brought to the gallery by ambulance and received guests lying in her own
+        four-poster bed, installed there for the occasion.</p>
+        <p class="vb-intro"><strong>b) Amputation of her right lower leg in 1953:</strong>
+        After years of progressive circulatory problems, Kahlo's right leg had to be amputated
+        below the knee due to gangrene – a cut that plunged her into deep depression.</p>
+        <p class="vb-intro"><strong>c) Death on 13 July 1954 in Mexico City:</strong>
+        Frida Kahlo officially died of a pulmonary embolism at age 47 – some historians still
+        suspect a possible suicide by overdose, though this has never been conclusively
+        established.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">A Parallel Within the Same Subtype: Nusrat Fateh Ali Khan and Mozart</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Both <a href="javascript:void(0)" data-route="beruehmte-nusrat-fateh-ali-khan">Nusrat
+        Fateh Ali Khan</a> and
+        <a href="javascript:void(0)" data-route="beruehmte-wolfgang-amadeus-mozart">Wolfgang
+        Amadeus Mozart</a> (both SP2w3) worked and performed publicly until shortly before their
+        deaths, even as their bodies were already gravely ill. Their
+        <a href="javascript:void(0)" data-route="krankheitsportraets-nusrat-fateh-ali-khan">illness
+        portraits</a> show the same SP2w3 pattern as Kahlo: withdrawal is not an option as long
+        as any strength remains for one last appearance – even when that appearance, as with
+        Kahlo's exhibition opening from her own bed, turns the body itself into the artwork.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A body of work that would never have existed without the accident:</strong>
+        Kahlo herself said, in essence, that she painted herself because she was so often alone
+        and because she was the subject she knew best – her life's work is inseparable from her
+        illness history.</p>
+        <p class="vb-intro"><strong>b) An exhibition that became legend:</strong>
+        The image of a gravely ill artist celebrating her own exhibition opening from her own
+        sickbed became one of the most iconic images in 20th-century art history.</p>
+        <p class="vb-intro"><strong>c) A death whose exact circumstances remain open:</strong>
+        The still-unresolved question of whether her death was a natural end or a deliberate
+        final act reflects the impossibility of reducing Kahlo's relationship to pain and
+        control to a simple formula.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The hippopotamus that defended its territory to the end:</strong>
+        Even with an amputated leg and deep depression, Kahlo did not give up painting – the
+        same self-care she owed herself first kept her at work until the end.</p>
+        <p class="vb-intro"><strong>b) Pain that became image, and thereby visible:</strong>
+        Instead of hiding her suffering, Kahlo painted openly displayed surgical scars,
+        corsets, and medical instruments – the Three-wing that shaped private pain into a
+        public image, all the way into her own illness history.</p>
+        <p class="vb-intro"><strong>c) A final diary entry between pain and the will to live:</strong>
+        "I hope the exit is joyful – and I hope never to return," Kahlo wrote shortly before her
+        death – not a sentence of resignation, but one that held both at once.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Nearly three decades in a state of bodily emergency:</strong>
+        From age 18 until her death at 47, Kahlo knew almost no period without pain, surgery,
+        or corsets – not a sudden onset, but a lifelong, steadily intensifying state of
+        emergency.</p>
+        <p class="vb-intro"><strong>b) The refusal to withdraw:</strong>
+        The Two's fateful pattern is <strong>pride</strong> – the conviction that one must be
+        indispensable to oneself and others, even under the greatest strain. Kahlo kept up
+        public appearances even when her body had long since reached its limits.</p>
+        <p class="vb-intro"><strong>c) Her own body as first and last artwork:</strong>
+        From the earliest self-portraits painted in her sickbed to the exhibition opening from
+        her own bed, a circle closed: Kahlo's art began with her own injured body and ended
+        with it.</p>
+        <p class="vb-intro"><strong>d) Why the body itself, of all things, as canvas?</strong>
+        For a Self-Preservation Two with Three-wing whose deepest need is to care for herself
+        first and then shape that suffering into something visible, one interpretation
+        suggests itself: precisely a body that produced pain for almost fifty years became the
+        richest source of her entire artistic output – suffering that was not suppressed but
+        made the central subject. This interpretation is a plausible reading, not a documented
+        historical causal link, and is developed further in this Compass's psychosomatics
+        register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the Self-Preservation Two pattern inevitably leads to chronic
+        bodily damage – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What Kahlo's case illustrates is a pattern in how a pronounced
+        Self-Preservation Two with Three-wing handles chronic suffering that keeps recurring in
+        practice – one of many possible interpretations, not a judgment. The corresponding
+        illness pattern is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Kahlo did not know the Enneagram as a modern personality model – it emerged in its
+        current form only decades after her death. She lived out, entirely unconsciously, the
+        compulsion to care for herself first and then make that suffering visible – not as a
+        strategy, but as the only way she knew to cope with a life full of pain. Someone who
+        does not know their own pattern of having to live through suffering and then shape it
+        also cannot grant themselves the pause that real healing would sometimes have
+        required.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Kahlo's</strong> Self-Preservation Two with Three-wing is legible once more in
+        the course of her illness: a body that produced pain for nearly three decades, and a
+        woman who never suppressed that pain but made it the central language of her art. The
+        hippopotamus that could never leave its water – and that, precisely in that
+        confinement, learned to keep creating until its last breath, rather than merely
+        surviving.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3) – life's work"},
+        {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Illness Portrait: Nusrat Fateh Ali Khan (SP2w3) – the same refusal to step back"},
+        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
     </div>
   `);
@@ -85320,6 +85508,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-marcel-proust": marcelProustKrankheitsportraetPage,
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
+      "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,
