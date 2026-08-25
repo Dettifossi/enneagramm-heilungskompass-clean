@@ -24476,6 +24476,7 @@ const registerEntries = [
   { term: "Jasmin Paolini",                route: "beruehmte-jasmin-paolini",              description: "Portrait: SE7w6 · Selbsterhaltender Typ 7 · Tennisprofi, Wimbledon-Finalistin" },
   { term: "John Lennon",                   route: "beruehmte-john-lennon",                 description: "Portrait: SO4w5 · Sozialer Typ 4 · Beatle, Friedensaktivist" },
   { term: "Gustav Mahler",                 route: "beruehmte-gustav-mahler",               description: "Portrait: SO4w5 · Sozialer Typ 4 · Komponist, Dirigent der Wiener Hofoper" },
+  { term: "Reinhard Mey",                  route: "beruehmte-reinhard-mey",                description: "Portrait: SO4w5 · Sozialer Typ 4 · Liedermacher" },
   { term: "Marcel Proust",                 route: "beruehmte-marcel-proust",               description: "Portrait: SO4w5 · Sozialer Typ 4 · Schriftsteller, Auf der Suche nach der verlorenen Zeit" },
   { term: "Edgar Allan Poe",               route: "beruehmte-edgar-allan-poe",             description: "Portrait: SO4w5 · Sozialer Typ 4 · Schriftsteller, Erfinder der Detektivgeschichte" },
   { term: "Konrad Lorenz",                 route: "beruehmte-konrad-lorenz",               description: "Portrait: SO1w9 · Sozialer Typ 1 · Zoologe, Begründer der Ethologie, Nobelpreisträger" },
@@ -32220,6 +32221,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Udo J\u00fcrgens \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 1934\u20132014. \u00d6sterreichischer S\u00e4nger und Komponist. Griechischer Wein, Merci Ch\u00e9rie, \u00fcber 1.000 Kompositionen in sechs Jahrzehnten. Der Adler, der Perfektion mit echter W\u00e4rme f\u00fcrs Publikum verband.",
     land:"Österreich", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w5",
+    heading:"Reinhard Mey – Sozialer Typ 4",
+    teaser:"SO4w5 · geb. 1942. Deutscher Liedermacher, seit über fünf Jahrzehnten auf der Bühne. Autobiografische, melancholisch-scharfsinnige Texte, seit den 1990ern zunehmend gesellschaftskritisch. Das Gürteltier mit Fünferflügel: öffentlich wirksame Kunst, konsequent geschütztes Privatleben.",
+    land:"Deutschland", tags:["Musik"], gender:"m"},
   { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen \u2013 Sozialer Typ 1",
     teaser:"SO1w9 \u00b7 geb. 1958. Pr\u00e4sidentin der Europ\u00e4ischen Kommission. Krisenmanagerin mit hartem Durchsetzungswillen hinter diplomatischer Fassade \u2013 und im Zentrum der umstrittenen \"Pfizergate\"-Aff\u00e4re um verweigerte Transparenz bei den Impfstoff-Vertr\u00e4gen. Tierentsprechung: Gans.",
@@ -44303,12 +44308,12 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Gürteltier",
     kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Reinhard Mey", "Elliot Rodger", "Dr. Mariella Superina"],
     fingerabdruecke: [
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Scham‹: das tiefe Gefühl, strukturell anders und mangelhaft zu sein. Nach außen zeigt sich häufig eine wirkende, undurchdringliche Fassade – Coolness, Perfektion, Humor –, die ein extrem verletzliches Inneres schützt, ohne es je ganz zu verbergen.",
-        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb; Ajeet Kaur, deren chronische Autoimmunerkrankung seit der Kindheit zur Quelle einer öffentlichen Rolle als Heilerin durch Musik wurde, während sie selbst betont, sich schon als Kind ›in die Musik zurückgezogen‹ zu haben, ›um verschwinden und mich wieder mit einem tieferen, ruhigeren Teil von mir selbst verbunden fühlen zu können‹; Leonard Cohen, dessen tiefe, gefasste Bühnenpräsenz im makellosen Anzug jahrzehntelang eine Melancholie verbarg, die er zugleich unablässig in Liedern offenlegte – ›das Gürteltier, das sich einrollt, um sich zu schützen, und hervortritt, wenn es gebraucht wird‹; Jackson, dessen fünfundzwanzigjährige, weitgehend verborgene Abhängigkeit von Schmerz- und Schlafmitteln bis zu seinem Tod hinter derselben makellosen Bühnenfassade verschwand, die auch die Vitiligo-Flecken jahrelang unsichtbar machte."
+        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb; Ajeet Kaur, deren chronische Autoimmunerkrankung seit der Kindheit zur Quelle einer öffentlichen Rolle als Heilerin durch Musik wurde, während sie selbst betont, sich schon als Kind ›in die Musik zurückgezogen‹ zu haben, ›um verschwinden und mich wieder mit einem tieferen, ruhigeren Teil von mir selbst verbunden fühlen zu können‹; Leonard Cohen, dessen tiefe, gefasste Bühnenpräsenz im makellosen Anzug jahrzehntelang eine Melancholie verbarg, die er zugleich unablässig in Liedern offenlegte – ›das Gürteltier, das sich einrollt, um sich zu schützen, und hervortritt, wenn es gebraucht wird‹; Jackson, dessen fünfundzwanzigjährige, weitgehend verborgene Abhängigkeit von Schmerz- und Schlafmitteln bis zu seinem Tod hinter derselben makellosen Bühnenfassade verschwand, die auch die Vitiligo-Flecken jahrelang unsichtbar machte; Reinhard Mey, der trotz über fünf Jahrzehnten Bühnenpräsenz als ausgesprochen privater Mensch gilt, Medienrummel meidet und den tiefen Verlust seines 2014 verstorbenen Sohnes nie zur Bühnen-Inszenierung machte – das Persönliche fließt in die Musik, ohne je zur Selbstdarstellung zu werden."
       },
       {
         titel: "Trägt das eigene Anderssein sichtbar zur Schau, statt es zu verbergen",
@@ -54136,7 +54141,74 @@ function gustavMahlerPortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portr\xe4t: Edgar Allan Poe (SO4w5)"},
+        {route:"beruehmte-reinhard-mey", label:"Portr\xe4t: Reinhard Mey (SO4w5)"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsportr\u00e4t: Gustav Mahler (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function reinhardMeyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Reinhard Mey</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 – Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier mit der Gitarre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – es verbirgt sein Anderssein nicht, sondern trägt es sichtbar vor Publikum, in eine Gruppe, die es zugleich anzieht und von der es sich unterscheidet. Kaum ein deutscher Liedermacher verkörpert dieses Bild so beständig wie Reinhard Mey: seit über fünf Jahrzehnten auf der Bühne, allein mit Gitarre, mit Texten, die durchweg persönlich, melancholisch und scharfsinnig sind – und die genau dadurch ein ganzes Land berührten, ohne je laut oder plakativ zu werden.</p>
+          <p class="vb-intro">Reinhard Mey, 1942 in Berlin geboren, gehört seit den späten 1960er-Jahren zu den prägendsten Vertretern der deutschen Liedermacher-Szene. Das Gürteltier sucht nicht die Anpassung an den Mainstream, sondern die eigene, unverwechselbare Stimme – und genau diese Eigenständigkeit trug Mey über Jahrzehnte konsequent durch, ohne sich musikalischen Trends anzupassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Das eigene Erleben vor Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht paradoxerweise die Gruppe, um dort die eigene Einzigartigkeit sichtbar zu machen – sie will ihr besonderes, oft melancholisches Erleben nicht im Verborgenen halten, sondern es vor Publikum in eine Form bringen, die andere berührt. Meys Texte sind fast durchgehend autobiografisch, persönlich, individuell erzählt – seine Sprache verwendet, wie Kritiker anmerken, nur die notwendigen Worte zur Beschreibung, wodurch eine eigene, unverwechselbare musikalische Erzählform entsteht.</p>
+          <p class="vb-intro">Seit den 1990er-Jahren bezieht Mey zunehmend gesellschaftlich-politisch Stellung – gegen Krieg, staatliche Willkür, Umweltzerstörung, für mehr Menschlichkeit. Doch seine Texte sind, wie Beobachter betonen, „nie platt oder aufwieglerisch, sondern reflektierend, humanistisch und zutiefst empathisch". Das ist die soziale Vier in ihrer reifsten Form: gesellschaftliches Engagement, das nicht aus Parolen, sondern aus dem eigenen, durchdachten Erleben gespeist wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Zurückgezogen trotz Bühnenpräsenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zusätzliche Distanz, eine intellektuelle Zurückhaltung, die dem reinen SO4-Muster oft fehlt. Trotz über fünf Jahrzehnten Bühnenpräsenz gilt Mey als ausgesprochen privater Mensch, der sein persönliches Leben konsequent aus der Öffentlichkeit heraushält und in Interviews wiederholt betont hat, kein Freund von Medienrummel zu sein – seine Sache sei die Musik, nicht die Schlagzeile.</p>
+          <p class="vb-intro">Diese Kombination – öffentlich wirksame, gesellschaftlich reflektierende Kunst bei gleichzeitig zurückhaltender, distanzierter Privatperson – ist genau das Muster der SO4w5: Die Bühne wird für den künstlerischen Ausdruck genutzt, doch das Private bleibt bewusst geschützt. Der Fünferflügel filtert, was nach außen dringt, selbst wenn die Vier selbst durchaus sichtbar wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Leben, das die eigene Musik prägte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Meys Musik blieb über Jahrzehnte eng mit seinem persönlichen Leben verwoben – von den frühen, oft heiter-ironischen Liedern über Alltag und Familie bis zu den späteren, deutlich gereifteren, gesellschaftskritischeren Texten. Diese Entwicklung selbst ist typisch für die soziale Vier: Das eigene Erleben verändert sich, und die Kunst verändert sich mit ihm, statt sich auf eine einmal gefundene Formel zu verlassen.</p>
+          <p class="vb-intro">2009 erlitt sein Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Dieser tiefe persönliche Verlust, öffentlich bekannt, aber nie zur Bühnen-Inszenierung gemacht, zeigt die Grenze der SO4w5: Manches Leid wird nicht ausgestellt, sondern in aller gebotenen Zurückhaltung getragen – der Fünferflügel behält die Kontrolle darüber, was geteilt wird und was privat bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in Meys Fähigkeit, persönliches, oft melancholisches Erleben in eine Sprache zu übersetzen, die Millionen Menschen über Generationen hinweg berührte – ohne dabei je plakativ oder effekthascherisch zu werden. Seine musikalische Eigenständigkeit, verbunden mit zunehmender gesellschaftlicher Reflexion, machte ihn zu einer der konstantesten Stimmen der deutschen Liedermacher-Tradition.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Distanz, die der Fünferflügel mit sich bringt: Wer sein Privatleben so konsequent schützt, riskiert, dass die eigene Andersartigkeit – das Kernthema der Vier – nie ganz mit anderen geteilt wird, sondern in der eigenen, sorgfältig kontrollierten Innenwelt verbleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Gürteltier, das leise blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über fünf Jahrzehnte auf der Bühne, treu der eigenen, unverwechselbaren Stimme, ohne sich musikalischen Trends oder medialer Selbstinszenierung anzupassen – das ist das bleibende Bild der sozialen Vier mit Fünferflügel: Sichtbarkeit, die sich der Kunst verdankt, nicht der Person dahinter.</p>
+          <p class="vb-intro">Meys Zeitgenosse im selben Subtyp ist <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">Gustav Mahler</a> (SO4w5) – auch bei ihm verband sich öffentliche künstlerische Präsenz mit einem tief individuellen, oft von Verlust geprägten Erleben, das er in monumentale Werke übersetzte. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">Porträt zu Gustav Mahler</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Porträt: Edgar Allan Poe (SO4w5)"},
       ])}
     </div>
   `);
@@ -122078,6 +122150,7 @@ function render() {
     "beruehmte-nicolas-cage": nicolasCagePortraitPage,
     "beruehmte-leo-tolstoi": leoTolstoiPortraitPage,
     "beruehmte-gustav-mahler": gustavMahlerPortraitPage,
+      "beruehmte-reinhard-mey": reinhardMeyPortraitPage,
     "beruehmte-marcel-proust": marcelProustPortraitPage,
     "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
     "beruehmte-udo-juergens": udoJuergensPortraitPage,

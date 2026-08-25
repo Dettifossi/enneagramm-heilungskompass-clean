@@ -1004,6 +1004,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gustav Mahler – Social Type 4",
     teaser:"SO4w5 · 1860–1911. Austrian composer and conductor, director of the Vienna Court Opera. Symphonies, Kindertotenlieder, Das Lied von der Erde. The armadillo that translated existential loss into monumental, all-encompassing soundscapes.",
     land:"Austria", tags:["Music"], gender:"m"},
+{ route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w5",
+    heading:"Reinhard Mey – Social Type 4",
+    teaser:"SO4w5 · born 1942. German singer-songwriter, on stage for over five decades. Autobiographical, melancholic and sharp-witted lyrics, increasingly socially critical since the 1990s. The armadillo with the Five-wing: publicly impactful art, consistently protected private life.",
+    land:"Germany", tags:["Music"], gender:"m"},
 { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Marcel Proust – Social Type 4",
     teaser:"SO4w5 · 1871–1922. French writer. In Search of Lost Time. The armadillo that withdrew from society in order to understand it all the more precisely, turning its own fleeting memory into an imperishable literary edifice.",
@@ -21950,7 +21954,74 @@ function gustavMahlerPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w5)"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function reinhardMeyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Reinhard Mey</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">German singer-songwriter, b. 1942 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo with a Guitar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of social Four &ndash; it does not hide its otherness but carries it visibly before an audience, into a group that both attracts it and from which it feels distinct. Few German singer-songwriters embody this image as consistently as Reinhard Mey: on stage for over five decades, alone with a guitar, with lyrics that are consistently personal, melancholic and sharp-witted &ndash; and that precisely for this reason moved an entire country without ever becoming loud or slogan-like.</p>
+          <p class="vb-intro">Reinhard Mey, born in Berlin in 1942, has been one of the most defining figures of the German singer-songwriter scene since the late 1960s. The armadillo does not seek to adapt to the mainstream, but to find its own, unmistakable voice &ndash; and it was exactly this independence that Mey carried through consistently over decades, without adapting to musical trends.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Four: One's Own Experience Before an Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Social Four (SO4)</strong> paradoxically seeks the group in order to make its own uniqueness visible there &ndash; it does not want to keep its distinctive, often melancholic experience hidden, but to shape it into a form that moves others. Mey's lyrics are almost entirely autobiographical, personal, individually narrated &ndash; his language, as critics note, uses only the necessary words to describe, creating a distinctive, unmistakable musical form of storytelling.</p>
+          <p class="vb-intro">Since the 1990s, Mey has increasingly taken social and political positions &ndash; against war, state arbitrariness, environmental destruction, for greater humanity. Yet his lyrics are, as observers note, "never blunt or agitatory, but reflective, humanistic and deeply empathetic." That is social Four in its most mature form: social engagement fed not by slogans, but by one's own, carefully considered experience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Withdrawn Despite Stage Presence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives social Four an added distance, an intellectual reserve that the pure SO4 pattern often lacks. Despite over five decades on stage, Mey is considered an exceptionally private person who consistently keeps his personal life out of the public eye and has repeatedly emphasized in interviews that he is not a fan of media hype &ndash; his concern is the music, not the headline.</p>
+          <p class="vb-intro">This combination &ndash; publicly impactful, socially reflective art alongside a reserved, distant private person &ndash; is exactly the pattern of SP4w5: the stage is used for artistic expression, yet the private self remains deliberately protected. The Five-wing filters what reaches the outside, even as the Four itself becomes quite visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Life That Shaped His Own Music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mey's music remained closely interwoven with his personal life for decades &ndash; from the early, often cheerfully ironic songs about everyday life and family to the later, noticeably more mature, more socially critical lyrics. This development itself is typical of social Four: one's own experience changes, and the art changes with it, rather than relying on a formula found once.</p>
+          <p class="vb-intro">In 2009, his son Maximilian suffered severe pneumonia that left him in a coma; he died in 2014 at age 32, never having regained consciousness. This deep personal loss, publicly known but never turned into a stage spectacle, shows the limit of SP4w5: some suffering is not put on display, but carried with due restraint &ndash; the Five-wing retains control over what is shared and what remains private.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SP4w5 shows in Mey's ability to translate personal, often melancholic experience into a language that moved millions of people across generations &ndash; without ever becoming slogan-like or attention-seeking. His musical independence, combined with growing social reflection, made him one of the most consistent voices in the German singer-songwriter tradition.</p>
+          <p class="vb-intro">The shadow shows in the distance the Five-wing brings: whoever protects their private life so consistently risks that their own otherness &ndash; the core theme of Four &ndash; is never fully shared with others, but remains within their own, carefully controlled inner world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Armadillo That Stayed Quiet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Over five decades on stage, faithful to his own, unmistakable voice, never adapting to musical trends or media self-promotion &ndash; that is the lasting image of social Four with the Five-wing: visibility owed to the art, not to the person behind it.</p>
+          <p class="vb-intro">Mey's contemporary in the same subtype is <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">Gustav Mahler</a> (SP4w5) &ndash; in him too, public artistic presence combined with a deeply individual experience, often shaped by loss, that he translated into monumental works. More in the <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">portrait of Gustav Mahler</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
       ])}
     </div>
   `);
@@ -86298,6 +86369,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nicolas-cage": nicolasCagePortraitPage,
       "beruehmte-leo-tolstoi": leoTolstoiPortraitPage,
       "beruehmte-gustav-mahler": gustavMahlerPortraitPage,
+      "beruehmte-reinhard-mey": reinhardMeyPortraitPage,
       "beruehmte-marcel-proust": marcelProustPortraitPage,
       "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
       "beruehmte-udo-juergens": udoJuergensPortraitPage,
