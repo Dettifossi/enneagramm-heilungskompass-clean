@@ -120495,7 +120495,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Selbstvergessenheit, die die Haut übernimmt", varianten: [
         { code: "SE9", text: "In Routine und Komfort verliert sich die selbsterhaltende Neun oft so vollständig, dass eigene Warnsignale kaum durchdringen. Ein zunehmender Juckreiz wird auf diese Weise lange nicht ernst genommen, bis die Haut selbst die Aufmerksamkeit erzwingt, die sie sich sonst nicht gönnt." },
-        { code: "SO9", text: "Die eigene Stimme ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Unbehagen tritt dabei in den Hintergrund. Diese chronische Selbstzurücknahme kann sich als ein nie priorisiertes, aber stetig wiederkehrendes Hautproblem zeigen." },
+        { code: "SO9", text: "Die eigene Stimme ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Unbehagen tritt dabei in den Hintergrund – auf Dauer kann daraus ein nie priorisiertes, aber stetig wiederkehrendes Hautproblem werden." },
         { code: "SX9", text: "Vom Partner übernimmt die sexuelle Neun oft die Wahrnehmung der eigenen Gesundheit, sobald sie mit ihm verschmilzt – bemerkt dieser den Juckreiz nicht, übersieht ihn häufig auch die Neun selbst." },
       ]},
     ],
@@ -120554,7 +120554,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Körperkonflikt, der übersehen wird", varianten: [
         { code: "SE9", text: "Innere Spannungen dringen bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort. Eine fortschreitende Hautveränderung wird auf diese Weise häufig lange nicht ernst genommen." },
-        { code: "SO9", text: "Die eigene Stimme und die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als ein nie priorisiertes, aber stetig wiederkehrendes Hautproblem zeigen, das erst spät wirklich beachtet wird." },
+        { code: "SO9", text: "Die eigene Stimme und die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter – so entsteht mit der Zeit ein nie priorisiertes, aber stetig wiederkehrendes Hautproblem, das erst spät wirklich beachtet wird." },
         { code: "SX9", text: "Dessen Wahrnehmung wird zum Maßstab für die eigene Gesundheit, sobald die sexuelle Neun mit dem Partner verschmilzt. Bemerkt der Partner die Hautveränderung nicht, übersieht die Neun sie häufig ebenfalls." },
       ]},
     ],
@@ -120731,7 +120731,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Eine Erregung, die selten bewusst ankommt", varianten: [
         { code: "SE9", text: "Innere Erregung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort." },
-        { code: "SO9", text: "Sobald ein Konflikt am Horizont auftaucht, ordnet die soziale Neun ihre eigene Erregung reflexhaft der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als eine nie priorisierte, aber stetig sichtbarer werdende Gesichtsrötung zeigen." },
+        { code: "SO9", text: "Sobald ein Konflikt am Horizont auftaucht, ordnet die soziale Neun ihre eigene Erregung reflexhaft der Gruppenharmonie unter – über die Jahre kann daraus eine nie priorisierte, aber stetig sichtbarer werdende Gesichtsrötung werden." },
         { code: "SX9", text: "Wie sichtbar erregt oder verlegen der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt – ihre eigene Rötung fällt ihr dabei oft erst spät auf." },
       ]},
     ],
@@ -120790,7 +120790,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Eine Veränderung, die lange unbeachtet bleibt", varianten: [
         { code: "SE9", text: "Eine langsam fortschreitende Veränderung der eigenen Haut wird von der selbsterhaltenden Neun lange kaum registriert, so vollständig verliert sie sich in Routine und Komfort. Erst wenn die Flecken deutlich sichtbar geworden sind, wird die Auseinandersetzung damit unumgänglich." },
-        { code: "SO9", text: "Beständig ordnet die soziale Neun ihre eigene Erscheinung und ihre eigenen Bedürfnisse der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als ein nie priorisiertes, aber stetig sichtbarer werdendes Fortschreiten der Vitiligo zeigen." },
+        { code: "SO9", text: "Beständig ordnet die soziale Neun ihre eigene Erscheinung und ihre eigenen Bedürfnisse der Gruppenharmonie unter, was ein nie priorisiertes, aber stetig sichtbarer werdendes Fortschreiten der Vitiligo begünstigen kann." },
         { code: "SX9", text: "Wie der Partner auf die sichtbaren Veränderungen reagiert, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Nimmt der Partner die Flecken gelassen, fällt es auch der Neun leichter, sie in ihr Selbstbild zu integrieren." },
       ]},
     ],
@@ -120908,7 +120908,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Eine Anspannung, die selten bewusst ankommt", varianten: [
         { code: "SE9", text: "Bis ins Bewusstsein dringt innere Anspannung bei der selbsterhaltenden Neun selten durch, so vollständig verliert sie sich in Routine und Komfort. Anhaltendes Schwitzen kann so zum einzigen sichtbaren Hinweis auf eine innerlich längst bestehende Alarmbereitschaft werden." },
-        { code: "SO9", text: "Kaum taucht ein Konflikt am Horizont auf, ordnet die soziale Neun ihre eigene Anspannung reflexhaft der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als ein nie priorisiertes, aber stetig spürbares übermäßiges Schwitzen zeigen." },
+        { code: "SO9", text: "Kaum taucht ein Konflikt am Horizont auf, ordnet die soziale Neun ihre eigene Anspannung reflexhaft der Gruppenharmonie unter – langfristig kann sich daraus ein nie priorisiertes, aber stetig spürbares übermäßiges Schwitzen entwickeln." },
         { code: "SX9", text: "Wie angespannt oder entspannt der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Anspannung nicht, übersieht die Neun ihre eigene innere Alarmbereitschaft häufig ebenfalls." },
       ]},
     ],
@@ -120967,7 +120967,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Eine Erschöpfung, die selten bewusst ankommt", varianten: [
         { code: "SE9", text: "Innere Erschöpfung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort. Ein wiederkehrender Lippenherpes-Ausbruch kann so zum einzigen sichtbaren Hinweis auf eine längst bestehende Kraftlosigkeit werden." },
-        { code: "SO9", text: "Kaum lassen ihre Kräfte spürbar nach, ordnet die soziale Neun ihre eigene Erschöpfung beständig der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als ein nie priorisierter, aber stetig wiederkehrender Ausbruch zeigen." },
+        { code: "SO9", text: "Kaum lassen ihre Kräfte spürbar nach, ordnet die soziale Neun ihre eigene Erschöpfung beständig der Gruppenharmonie unter, was einen nie priorisierten, aber stetig wiederkehrenden Ausbruch begünstigen kann." },
         { code: "SX9", text: "Wie erschöpft der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Erschöpfung nicht, übersieht die Neun ihre eigene Kraftlosigkeit häufig ebenfalls." },
       ]},
     ],
@@ -121026,7 +121026,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Kontakt, der lange nicht bemerkt wird", varianten: [
         { code: "SE9", text: "Unangenehme Substanzen oder Kontakte nimmt die selbsterhaltende Neun oft lange gar nicht bewusst wahr, so sehr verliert sie sich in Routine und Komfort. Ein Ekzem an der Kontaktstelle wird auf diese Weise häufig erst spät ernst genommen." },
-        { code: "SO9", text: "Selbst wenn ein bestimmter Kontakt sie sichtlich belastet, ordnet die soziale Neun ihre eigenen Unverträglichkeiten beständig der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als ein nie priorisiertes, aber stetig wiederkehrendes Ekzem zeigen." },
+        { code: "SO9", text: "Selbst wenn ein bestimmter Kontakt sie sichtlich belastet, ordnet die soziale Neun ihre eigenen Unverträglichkeiten beständig der Gruppenharmonie unter – über die Zeit kann so ein nie priorisiertes, aber stetig wiederkehrendes Ekzem entstehen." },
         { code: "SX9", text: "Wie der Partner auf einen bestimmten Kontakt reagiert, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt – die eigene Unverträglichkeit registriert sie dabei oft erst mit Verzögerung." },
       ]},
     ],
@@ -121203,7 +121203,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Signal, das nie wirklich ankommt", varianten: [
         { code: "SE9", text: "Hunger- und Sättigungssignale registriert die selbsterhaltende Neun oft nur beiläufig, so vollständig verliert sie sich in Routine und Komfort. Ein schleichend steigender Blutzucker kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
-        { code: "SO9", text: "Die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Sättigungsgefühl gerät dabei aus dem Blick. Diese chronische Selbstzurücknahme kann sich als schleichend steigender Blutzucker zeigen." },
+        { code: "SO9", text: "Die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Sättigungsgefühl gerät dabei aus dem Blick – so kann sich mit der Zeit ein schleichend steigender Blutzucker einstellen." },
         { code: "SX9", text: "Wie viel und wie bewusst der Partner isst, prägt bei der sexuellen Neun oft auch ihr eigenes Essverhalten, sobald sie mit ihm verschmilzt. Isst dieser unbedacht, isst die Neun oft ebenso unbedacht mit." },
       ]},
     ],
@@ -121262,7 +121262,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Antrieb, der nie bewusst wahrgenommen wird", varianten: [
         { code: "SE9", text: "Ihr eigener Antrieb dringt bei der selbsterhaltenden Neun kaum je ins Bewusstsein, so vollständig verliert sie sich in Routine und Komfort. Eine schleichende Schilddrüsenunterfunktion kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
-        { code: "SO9", text: "Kaum tritt der eigene Antrieb in den Vordergrund, ordnet die soziale Neun ihn beständig der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als schleichende Antriebslosigkeit zeigen." },
+        { code: "SO9", text: "Kaum tritt der eigene Antrieb in den Vordergrund, ordnet die soziale Neun ihn beständig der Gruppenharmonie unter, wodurch sich über Jahre eine schleichende Antriebslosigkeit einstellen kann." },
         { code: "SX9", text: "Die Wahrnehmung der eigenen Energie übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Erschöpfung nicht, übersieht die Neun ihre eigene Antriebslosigkeit oft ebenso lange." },
       ]},
     ],
@@ -121321,7 +121321,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Eine Anspannung, die selten bewusst ankommt", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen wird innere Anspannung von der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Herzrasen und innere Unruhe können so zum einzigen sichtbaren Hinweis auf eine unbemerkte Schilddrüsenüberfunktion werden." },
-        { code: "SO9", text: "Sobald sich ein Konflikt andeutet, ordnet die soziale Neun ihre eigene Anspannung der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als beschleunigte, aber lange übersehene Schilddrüsenfunktion zeigen." },
+        { code: "SO9", text: "Sobald sich ein Konflikt andeutet, ordnet die soziale Neun ihre eigene Anspannung der Gruppenharmonie unter – auf Dauer kann sich daraus eine beschleunigte, aber lange übersehene Schilddrüsenfunktion entwickeln." },
         { code: "SX9", text: "Wie angespannt oder ruhig der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Unruhe nicht, übersieht die Neun ihre eigene innere Alarmbereitschaft häufig ebenfalls." },
       ]},
     ],
@@ -121439,7 +121439,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Körpergefühl, das selten bewusst wird", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen werden Hunger- und Sättigungsgefühl bei der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende Körperwahrnehmung kann sich über Jahre als zusätzliches Gewicht zeigen." },
-        { code: "SO9", text: "Kaum tritt das eigene Sättigungsgefühl in den Vordergrund, ordnet die soziale Neun es beständig der Gruppenharmonie unter. Diese chronische Selbstzurücknahme kann sich als schleichende Gewichtszunahme zeigen." },
+        { code: "SO9", text: "Kaum tritt das eigene Sättigungsgefühl in den Vordergrund, ordnet die soziale Neun es beständig der Gruppenharmonie unter, was über die Jahre eine schleichende Gewichtszunahme begünstigen kann." },
         { code: "SX9", text: "Die Wahrnehmung des eigenen Körpers übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt – isst dieser unbedacht, verliert auch sie leicht den Bezug zum eigenen Sättigungsgefühl." },
       ]},
     ],
@@ -121616,7 +121616,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Übergang, der leise vorübergeht", varianten: [
         { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigentliche Bedeutung dieser Lebensphase von der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende bewusste Auseinandersetzung kann die Wechseljahresbeschwerden verlängern." },
-        { code: "SO9", text: "Ihre eigene Wandlung ordnet die soziale Neun beständig der Gruppenharmonie unter, ohne sich ihr wirklich bewusst zu stellen. Diese chronische Selbstzurücknahme kann sich als intensivere Wechseljahresbeschwerden zeigen." },
+        { code: "SO9", text: "Ihre eigene Wandlung ordnet die soziale Neun beständig der Gruppenharmonie unter, ohne sich ihr wirklich bewusst zu stellen – dieses ständige Zurückstellen kann intensivere Wechseljahresbeschwerden begünstigen." },
         { code: "SX9", text: "Wie ihr Partner auf diese Lebensphase reagiert, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Nimmt der Partner die Wandlung gelassen, fällt es auch der Neun leichter, sie anzunehmen." },
       ]},
     ],
@@ -123740,7 +123740,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Blick, der sich selbst zuletzt gilt", varianten: [
         { code: "SE9", text: "Unangenehme Arztbesuche schiebt die selbsterhaltende Neun gerne beiseite, um den eigenen Alltagskomfort nicht zu gefährden. Ein beschwerdefrei fortschreitendes Glaukom kann auf diese Weise besonders lange unbemerkt bleiben, bevor der Gesichtsfeldverlust unübersehbar wird." },
-        { code: "SO9", text: "Die eigene Vorsorge stellt die soziale Neun in der Gruppe meist zurück, um Harmonie zu wahren – auch dann, wenn es um die eigene Augengesundheit geht. Diese ständige Zurückstellung kann dazu führen, dass ein Glaukom erst spät entdeckt wird." },
+        { code: "SO9", text: "Um Harmonie in der Gruppe zu wahren, verschiebt die soziale Neun die eigene Vorsorge oft immer wieder – auch bei der eigenen Augengesundheit. So kann ein Glaukom erst spät entdeckt werden." },
         { code: "SX9", text: "Ihren Blick richtet die sexuelle Neun in der Verschmelzung mit dem Partner oft stärker auf dessen Zustand als auf den eigenen – eigene Sehveränderungen bleiben dadurch leicht lange unbemerkt." },
       ]},
     ],
@@ -123799,7 +123799,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Schmerz, der übergangen wird, bis er nicht mehr geht", varianten: [
         { code: "SE9", text: "Unangenehme körperliche Signale schiebt die selbsterhaltende Neun gerne beiseite, um den eigenen Alltagskomfort nicht zu gefährden. Ein über Jahre zunehmender, aber diffus beginnender Schmerz kann auf diese Weise besonders lange unbeachtet bleiben, bevor er nicht mehr zu übergehen ist." },
-        { code: "SO9", text: "Die eigene Position stellt die soziale Neun in der Gruppe meist zurück, um Harmonie zu wahren – auch dann, wenn es um ihre eigene, sehr reale gesundheitliche Not geht. Dieses Zurückstellen kann dazu beitragen, dass ihr Schmerz jahrelang nicht ernst genug genommen wird, auch von ihr selbst." },
+        { code: "SO9", text: "Ihre eigene Position tritt bei der sozialen Neun in der Gruppe fast automatisch zurück, selbst wenn eine sehr reale gesundheitliche Not dahintersteckt. So kann ihr Schmerz jahrelang nicht ernst genug genommen werden, auch von ihr selbst." },
         { code: "SX9", text: "Dessen Zustand nimmt die sexuelle Neun oft intensiver wahr als den eigenen, sobald sie mit dem Partner verschmilzt. Der eigene, sehr reale Schmerz kann dadurch besonders lange im Hintergrund bleiben, bis er sich unübersehbar in den Vordergrund drängt." },
       ]},
     ],
@@ -124447,7 +124447,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Wenn das eigene Vergessen übersehen wird", varianten: [
         { code: "SE9", text: "Unangenehme Signale schob die selbsterhaltende Neun gerne beiseite, um den gewohnten Alltagskomfort nicht zu gefährden. Erste, noch diffuse Gedächtnislücken werden bei ihr deshalb oft besonders lange als harmlose Alterserscheinung abgetan, bevor Angehörige das Ausmaß bemerken." },
-        { code: "SO9", text: "Die eigene Position stellte die soziale Neun in der Gruppe meist zurück, um Harmonie zu wahren, auch wenn es um die eigene Gesundheit ging. Eine notwendige ärztliche Abklärung rückt bei ihr dadurch häufig erst spät ins Bewusstsein, wenn sie selbst sie ohnehin nicht mehr initiieren kann." },
+        { code: "SO9", text: "Konflikte um die eigene Gesundheit vermied die soziale Neun in der Gruppe meist zugunsten der Harmonie. Eine notwendige ärztliche Abklärung rückte dadurch häufig erst spät ins Bewusstsein, wenn sie selbst sie ohnehin nicht mehr initiieren konnte." },
         { code: "SX9", text: "In der Verschmelzung mit einer nahestehenden Person nahm die sexuelle Neun deren Zustand oft intensiver wahr als den eigenen. Genau dieser Mensch ist es deshalb häufig, der als Erster merkt, dass sich beim Erinnern und Orientieren etwas verändert – lange bevor sie selbst darüber spricht." },
       ]},
     ],
@@ -125430,7 +125430,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Eine Trägheit, die sich körperlich niederschlägt", varianten: [
         { code: "SE9", text: "In gewohnter Routine und Komfort verharrt die selbsterhaltende Neun oft über Jahre, ohne Veränderung anzustoßen. Diese Bewegungsarmut und der Rückzug ins Bequeme können sich stoffwechselseitig als erhöhte Blutfettwerte zeigen." },
-        { code: "SO9", text: "Die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Gleichgewicht gerät dabei aus dem Blick. Diese chronische Selbstzurücknahme kann sich als schleichend erhöhtes Cholesterin zeigen." },
+        { code: "SO9", text: "Die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Gleichgewicht gerät dabei aus dem Blick – so kann sich über die Jahre schleichend erhöhtes Cholesterin einstellen." },
         { code: "SX9", text: "Ihre Essgewohnheiten übernimmt die sexuelle Neun oft von dem Partner, sobald sie mit ihm verschmilzt, statt auf die eigene Konstitution zu achten. Isst dieser fettreich und unbedacht, isst die Neun oft ebenso mit, weil die eigene Körperwahrnehmung zurücktritt." },
       ]},
     ],
@@ -125489,7 +125489,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Signal, das im Alltag untergeht", varianten: [
         { code: "SE9", text: "Einen zunehmend schwächeren Harnstrahl nimmt die selbsterhaltende Neun oft erst spät als Problem wahr, so sehr gewöhnt sie sich an schleichende Veränderungen. Diese Gewöhnung kann eine BPH über Jahre unbemerkt lassen, bis die Einschränkung deutlich spürbar wird." },
-        { code: "SO9", text: "Die eigene Gesundheitsvorsorge stellt die soziale Neun in der Gruppe meist zurück, um Harmonie zu wahren – auch dann, wenn ein Arztbesuch fällig wäre. Diese ständige Zurückstellung kann dazu führen, dass eine BPH erst spät erkannt wird." },
+        { code: "SO9", text: "Ein fälliger Arztbesuch gerät bei der sozialen Neun leicht ins Hintertreffen, weil sie Harmonie in der Gruppe der eigenen Vorsorge vorzieht. So kann eine BPH erst spät erkannt werden." },
         { code: "SX9", text: "Wie ernst sie eigene Beschwerden nimmt, richtet sich bei der sexuellen Neun oft danach, wie sehr der Partner sie dazu ermutigt, zum Arzt zu gehen. Ohne diesen äußeren Anstoß können eigene Symptome besonders lange im Hintergrund bleiben." },
       ]},
     ],
@@ -125548,7 +125548,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Ein Schleier, der sich langsam einschleicht", varianten: [
         { code: "SE9", text: "Eine zunehmend unschärfere Sicht nimmt die selbsterhaltende Neun oft erst spät als Problem wahr, so sehr gewöhnt sie sich an schleichende Veränderungen. Diese Gewöhnung kann einen Grauen Star über Jahre unbemerkt lassen, bis die Trübung deutlich spürbar wird." },
-        { code: "SO9", text: "Die eigene Augengesundheit stellt die soziale Neun in der Gruppe meist zurück, um Harmonie zu wahren – auch dann, wenn ein Arztbesuch fällig wäre. Diese ständige Zurückstellung kann dazu führen, dass ein Grauer Star erst spät erkannt wird." },
+        { code: "SO9", text: "Auch wenn ein Arztbesuch fällig wäre, tritt die eigene Augengesundheit bei der sozialen Neun zugunsten der Gruppenharmonie zurück. So kann ein Grauer Star erst spät erkannt werden." },
         { code: "SX9", text: "Wie ernst sie eigene Sehprobleme nimmt, richtet sich bei der sexuellen Neun oft danach, wie sehr der Partner sie dazu ermutigt, zum Arzt zu gehen. Ohne diesen äußeren Anstoß können eigene Symptome besonders lange im Hintergrund bleiben." },
       ]},
     ],
