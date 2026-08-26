@@ -15874,6 +15874,7 @@ const uiText = {
       { route: "zitate", label: "Zitate der Weisen" },
       { route: "tischdialoge", label: "Tischdialoge der 27 Subtypen" },
       { route: "enneagramm-homoeopathie", label: "Enneagramm meets Homöopathie" },
+      { route: "enneagramm-reflexzonentherapie", label: "Enneagramm meets Reflexzonentherapie" },
       { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "enneagramm-kunst", label: "Enneagramm-Kunstgalerie" },
@@ -23639,6 +23640,7 @@ const registerEntries = [
 
   // Homöopathie
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
+  { term: "Enneagramm meets Reflexzonentherapie", route: "enneagramm-reflexzonentherapie", description: "Übersicht: Fuß- und Handreflexzonen als Landkarte der drei Enneagramm-Zentren" },
   { term: "Enneagramm meets Zahnpsychosomatik", route: "enneagramm-zahnpsychosomatik", description: "Übersicht: Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm – Zentren, Zahngruppen und Flügel-Dynamik" },
   { term: "Homöopathie-Songs",           route: "homoeopathie-songs",            description: "Schaubild: Musik trifft Homöopathie – Songs als Spiegel der Homöopathie-Mittel" },
 
@@ -37155,6 +37157,7 @@ function fussreflexzonenAktivierungPage() {
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
+        {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
       ])}
@@ -70377,6 +70380,7 @@ function enneagrammHomoeopathiePage() {
           {route:"homoeopathie", label:"Hom\xf6opathie \u2013 Heilmittel\xfcbersicht"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
           {route:"beruehmte-samuel-hahnemann", label:"Portr\xe4t: Dr. Samuel Hahnemann (SO1w9)"},
+          {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
           {route:"enneagramm-zahnpsychosomatik", label:"Enneagramm meets Zahn-Psychosomatik"},
         ])}
       </div>
@@ -70488,6 +70492,67 @@ function homoeopathieFallPage(route) {
   return _homoeopathieFallPage(Object.assign({}, base, detail));
 }
 
+// \u2500\u2500\u2500 Enneagramm meets Reflexzonentherapie \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+function enneagrammReflexzonentherapiePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-reflexzonentherapie')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen \u00b7 K\u00f6rperarbeit</p>
+        <h1 class="section-title">Enneagramm meets Reflexzonentherapie</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Fu\u00df und Hand als Landkarte der drei Zentren</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Die Reflexzonentherapie geht von einem einfachen, aber wirkungsvollen Prinzip aus: Auf Fu\u00dfsohle und Handinnenfl\u00e4che spiegelt sich der gesamte K\u00f6rper in verkleinerter Form wider. Jedes Organ, jede K\u00f6rperregion hat dort ihre Entsprechung \u2013 und gezielter Druck auf die passende Zone soll den zugeordneten Bereich anregen und entspannen.</p>
+          <p class="vb-intro">Legt man die neun Enneagrammtypen \u00fcber diese Landkarte, entsteht eine \u00fcberraschend stimmige Parallele: Die drei Enneagramm-Zentren \u2013 Kopf, Herz und Bauch \u2013 lassen sich sowohl am Fu\u00df als auch an der Hand topografisch wiederfinden, vom Zehen- bzw. Fingerbereich \u00fcber die Mitte bis hinunter zur Ferse bzw. zum Handballen. Damit wird die Reflexzone nicht nur zu einem k\u00f6rperlichen, sondern auch zu einem psychosomatischen Kompass.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/enneagramm-reflexzonentherapie-de.jpeg" alt="\u00dcbersicht: Fu\u00df- und Handreflexzonen nach dem Enneagramm \u2013 die drei Zentren als K\u00f6rperlandkarte" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">\u00dcbersicht: Die drei Zentren des Enneagramms in den Fu\u00df- und Handreflexzonen</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Teil 1: Die Fu\u00dfreflexzonen als Enneagramm-Landkarte (Die Basis &amp; das Fundament)</h2>
+          <p class="vb-intro">Der Fu\u00df tr\u00e4gt uns durchs Leben \u2013 er ist unser Fundament, unser Kontakt zum Boden. Genau darin liegt die Parallele zum Enneagramm: Auch dort geht es um Grundhaltungen, auf denen der gesamte Charakter aufbaut.</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>Die Zehen und das Kopf-Zentrum (Typ 5, 6, 7):</strong> An den Zehen liegen die Reflexzonen f\u00fcr Kopf, Gehirn, Nebenh\u00f6hlen und Sinnesorgane \u2013 genau der K\u00f6rperbereich, in dem das Kopf-Zentrum des Enneagramms zu Hause ist: Denken, Planen, Absichern, das st\u00e4ndige Verarbeiten von Information. Verspannungen in den Zehen k\u00f6nnen auf \u00fcberreizte Kopfenergie hindeuten \u2013 zu viel gedankliches Kreisen, zu wenig Landung im K\u00f6rper.</li>
+            <li><strong>Die Fu\u00dfsohlen-Mitte und das Herz- sowie Bauch-Zentrum (Typ 2, 3, 4 / Typ 8, 9, 1):</strong> Der breite Mittelbereich der Sohle deckt die inneren Organe ab \u2013 Herz, Lunge, Leber, Magen, Darm. Hier \u00fcberlagern sich Herz-Themen (Gef\u00fchl, Beziehung, Anerkennung) und Bauch-Themen (Instinkt, Wille, Verdauung von Erfahrungen) auf engstem Raum, so wie sie es auch im Enneagramm selbst tun.</li>
+            <li><strong>Die Ferse und das Bauch-Zentrum (Typ 8, 9, 1 \u2013 das Fundament):</strong> Die Ferse tr\u00e4gt das gr\u00f6\u00dfte Gewicht und steht f\u00fcr die unteren R\u00fccken- und Beckenregionen \u2013 den k\u00f6rperlichen Ur-Grund. Das passt zum Bauch-Zentrum, das im Enneagramm ebenfalls f\u00fcr das Fundament steht: Standfestigkeit, Grenzen, das ganz basale Gef\u00fchl, im eigenen K\u00f6rper und in der Welt zu sein.</li>
+          </ul>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">Teil 2: Die Handreflexzonen als Enneagramm-Landkarte (Die feine Steuerung &amp; das Greifen)</h2>
+          <p class="vb-intro">Was der Fu\u00df im Gro\u00dfen abbildet, wiederholt die Hand im Kleinen \u2013 nur feiner, differenzierter und n\u00e4her am bewussten Handeln. Die Hand ist das Werkzeug, mit dem wir aktiv in die Welt hineingreifen, gestalten und Kontakt aufnehmen.</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>Finger, Daumen und das Kopf-Zentrum (Typ 5, 6, 7):</strong> An Fingerkuppen und Daumen liegen die Zonen f\u00fcr Kopf und Nebenh\u00f6hlen \u2013 kleinteiliger, aber ausgepr\u00e4gter als am Fu\u00df. Passend dazu sind es gerade die Finger, mit denen wir greifen, pr\u00fcfen, begreifen: eine sehr kopfnahe, analysierende Bewegung.</li>
+            <li><strong>Die Handfl\u00e4chen-Mitte und das Herz-Zentrum (Typ 2, 3, 4):</strong> Die Mitte der Handinnenfl\u00e4che entspricht Herz und Brustbereich \u2013 nicht zuf\u00e4llig legen wir die Hand instinktiv genau dorthin, wenn wir etwas ans Herz nehmen oder tr\u00f6sten wollen. Die Hand als Ausdrucksorgan des Herz-Zentrums: Ber\u00fchrung, Zuwendung, das Reichen der Hand als Geste der Beziehung.</li>
+            <li><strong>Handballen, Handwurzel und das Bauch-Zentrum (Typ 8, 9, 1):</strong> Der untere, kr\u00e4ftige Teil der Hand \u2013 Handballen und Handwurzel \u2013 steht f\u00fcr die unteren R\u00fccken- und Beckenzonen. Genau dieser Bereich \u00fcbt beim Zupacken den meisten Druck aus: die K\u00f6rperkraft des Bauch-Zentrums, sp\u00fcrbar bis in die Hand hinein.</li>
+          </ul>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">Zusammenfassender Blick und n\u00e4chster Schritt</h2>
+          <p class="vb-intro">Fu\u00df und Hand erz\u00e4hlen also dieselbe Geschichte auf zwei verschiedenen Ebenen: der Fu\u00df als gro\u00dfe, tragende Basis-Landkarte des ganzen K\u00f6rpers, die Hand als feineres, aktiveres Abbild derselben drei Zentren. Wer die eigene Reflexzonen-Massage bewusst mit dem eigenen Enneagrammtyp verkn\u00fcpft, kann dabei ganz nebenbei sp\u00fcren, in welchem Zentrum gerade die meiste Spannung sitzt \u2013 ein kleiner, k\u00f6rperlicher Realit\u00e4tscheck f\u00fcr das eigene Grundmuster.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Wer die praktische Umsetzung sucht \u2013 mit Igelball, Kork- oder Holzroller, konkreten Handgriffen f\u00fcr Fu\u00df und Hand \u2013 findet die Anleitung dazu bei den Praxistipps vom Heilpraktiker: <a href="#" data-route="praxistipps-heilpraktiker/fussreflexzonen-aktivierung" style="color:var(--copper);text-decoration:underline;">Fu\u00dfreflexzonen-Aktivierung</a>.</p>
+        </div>
+
+        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms \u2013 tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen f\u00fcr alle 9 Typen.", "Hinter der Leidenschaft")}
+        ${bookTip("leidenschaft-und-heilung", "27 Subtypen \u2013 Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind \u2013 ein tiefgr\u00fcndiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\u00f6opathie"},
+          {route:"enneagramm-zahnpsychosomatik", label:"Enneagramm meets Zahn-Psychosomatik"},
+          {route:"praxistipps-heilpraktiker/fussreflexzonen-aktivierung", label:"Praxistipp: Fu\u00dfreflexzonen-Aktivierung"},
+          {route:"drei-zentren", label:"Schaubild: Drei Zentren"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 // \u2500\u2500\u2500 Enneagramm meets Zahn-Psychosomatik \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
 function enneagrammZahnpsychosomatikPage() {
@@ -70554,6 +70619,7 @@ function enneagrammZahnpsychosomatikPage() {
         ${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind \u2013 ein tiefgr\u00fcndiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\u00f6opathie"},
+          {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
           {route:"drei-zentren", label:"Schaubild: Drei Zentren"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
           {route:"basisemotionen", label:"Schaubild: Basisemotionen"},
@@ -129323,6 +129389,7 @@ function render() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),

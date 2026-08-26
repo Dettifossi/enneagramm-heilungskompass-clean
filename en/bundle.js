@@ -2666,6 +2666,7 @@ text.nav = [
     { route: "zitate", label: "Quotes of the Wise" },
     { route: "tischdialoge", label: "Table Dialogues of the 27 Subtypes" },
     { route: "enneagramm-homoeopathie", label: "Enneagram Meets Homeopathy" },
+    { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "enneagramm-kunst", label: "Enneagram Art" },
@@ -6153,6 +6154,7 @@ function fussreflexzonenAktivierungPage() {
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
+        {route:"enneagramm-reflexzonentherapie", label:"Enneagram Meets Reflexology"},
         {route:"situationskompass", label:"Situation Compass"},
         {route:"practice", label:"Tools"},
       ])}
@@ -41351,6 +41353,7 @@ function enneagrammHomoeopathiePage() {
           {route:"homoeopathie", label:"Homeopathy – Remedy Overview"},
           {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
           {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
+          {route:"enneagramm-reflexzonentherapie", label:"Enneagram Meets Reflexology"},
           {route:"enneagramm-zahnpsychosomatik", label:"Enneagram Meets Dental Psychosomatics"},
         ])}
       </div>
@@ -41462,6 +41465,67 @@ function homoeopathieFallPage(route) {
   return _homoeopathieFallPage(Object.assign({}, base, detail));
 }
 
+// ─── Enneagram Meets Reflexology ───────────────────────────────────────────
+
+function enneagrammReflexzonentherapiePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-reflexzonentherapie')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge · Bodywork</p>
+        <h1 class="section-title">Enneagram Meets Reflexology</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Foot and Hand as a Map of the Three Centers</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Reflexology rests on a simple but powerful principle: the sole of the foot and the palm of the hand mirror the entire body in miniature. Every organ, every region of the body has its correspondence there – and targeted pressure on the matching zone is said to stimulate and relax the associated area.</p>
+          <p class="vb-intro">Lay the nine Enneagram types over this map, and a surprisingly consistent parallel emerges: the three Enneagram centers – head, heart, and belly – can be found topographically on both the foot and the hand, from the toes or fingers through the middle down to the heel or the base of the palm. That makes the reflex zone not only a physical, but also a psychosomatic compass.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/portraits/enneagramm-reflexzonentherapie-en.jpeg" alt="Overview: Foot and hand reflex zones according to the Enneagram – the three centers as a body map" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Overview: The three Enneagram centers in the foot and hand reflex zones</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Part 1: The Foot Reflex Zones as an Enneagram Map (The Base &amp; the Foundation)</h2>
+          <p class="vb-intro">The foot carries us through life – it is our foundation, our contact with the ground. That is exactly where the parallel to the Enneagram lies: there too, it is about the basic postures on which the whole character is built.</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>The toes and the Head Center (Types 5, 6, 7):</strong> The toes hold the reflex zones for the head, brain, sinuses, and sense organs – exactly the region of the body where the Head Center of the Enneagram is at home: thinking, planning, securing, the constant processing of information. Tension in the toes can point to overtaxed head energy – too much mental circling, too little landing in the body.</li>
+            <li><strong>The middle of the sole and the Heart and Belly Centers (Types 2, 3, 4 / Types 8, 9, 1):</strong> The broad middle area of the sole covers the internal organs – heart, lungs, liver, stomach, intestines. Here Heart themes (feeling, relationship, recognition) and Belly themes (instinct, will, digesting experience) overlap in the tightest of spaces, just as they do within the Enneagram itself.</li>
+            <li><strong>The heel and the Belly Center (Types 8, 9, 1 – the foundation):</strong> The heel carries the greatest weight and corresponds to the lower back and pelvic regions – the body's primal ground. That fits the Belly Center, which in the Enneagram likewise stands for the foundation: groundedness, boundaries, the very basic sense of being in one's own body and in the world.</li>
+          </ul>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">Part 2: The Hand Reflex Zones as an Enneagram Map (Fine Control &amp; Grasping)</h2>
+          <p class="vb-intro">What the foot depicts on a large scale, the hand repeats in miniature – only finer, more differentiated, and closer to conscious action. The hand is the tool with which we actively reach into the world, shape it, and make contact.</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>Fingers, thumb, and the Head Center (Types 5, 6, 7):</strong> The fingertips and thumb hold the zones for the head and sinuses – more finely detailed than on the foot, but no less pronounced. Fittingly, it is the fingers with which we grasp, test, and comprehend: a very head-centered, analytical movement.</li>
+            <li><strong>The center of the palm and the Heart Center (Types 2, 3, 4):</strong> The center of the palm corresponds to the heart and chest area – it is no accident that we instinctively place the hand exactly there when we want to take something to heart or comfort someone. The hand as the expressive organ of the Heart Center: touch, warmth, extending the hand as a gesture of relationship.</li>
+            <li><strong>The base of the palm and the wrist and the Belly Center (Types 8, 9, 1):</strong> The lower, sturdier part of the hand – the base of the palm and the wrist – corresponds to the lower back and pelvic zones. It is exactly this area that exerts the most pressure when grasping firmly: the bodily strength of the Belly Center, felt all the way into the hand.</li>
+          </ul>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">A Summarizing View and the Next Step</h2>
+          <p class="vb-intro">Foot and hand thus tell the same story on two different levels: the foot as the large, load-bearing basic map of the whole body, the hand as a finer, more active reflection of the same three centers. Anyone who consciously links their own reflexology massage to their own Enneagram type can, almost incidentally, feel which center currently holds the most tension – a small, physical reality check for one's own basic pattern.</p>
+          <p class="vb-intro" style="margin-bottom:0;">For the practical implementation – with a spiky massage ball, cork or wooden roller, and concrete techniques for foot and hand – see the instructions in the Practitioner Tips: <a href="#" data-route="praxistipps-heilpraktiker/fussreflexzonen-aktivierung" style="color:var(--copper);text-decoration:underline;">Foot Reflex Zone Activation</a>.</p>
+        </div>
+
+        ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+        ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions – with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+        ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy"},
+          {route:"enneagramm-zahnpsychosomatik", label:"Enneagram Meets Dental Psychosomatics"},
+          {route:"praxistipps-heilpraktiker/fussreflexzonen-aktivierung", label:"Practitioner Tip: Foot Reflex Zone Activation"},
+          {route:"drei-zentren", label:"Chart: Three Centers"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 // ─── Enneagramm meets Astrologie ───────────────────────────────────────────
 
 function enneagrammZahnpsychosomatikPage() {
@@ -41528,6 +41592,7 @@ function enneagrammZahnpsychosomatikPage() {
         ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy"},
+          {route:"enneagramm-reflexzonentherapie", label:"Enneagram Meets Reflexology"},
           {route:"drei-zentren", label:"Chart: Three Centers"},
           {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
           {route:"basisemotionen", label:"Chart: Basic Emotions"},
@@ -93227,6 +93292,7 @@ function subtypeSchaubilderPage() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
