@@ -251,6 +251,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Self-Preservation Type 5", krankheit:"Chronic lung disease from glass dust", teaser:"SP5w6 – rationalist philosopher, 1632–1677. Decades of inhaling glass dust while grinding lenses, likely cause of his fatal lung disease. Died on February 21, 1677, in The Hague at age 44." , land:"Netherlands", gender:"m", jahre:"1632–1677"},
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Self-Preservation Type 5", krankheit:"Migraine, eye ailments, recurring depressive crises", teaser:"SP5w6 – writer, Nobel laureate, 1877–1962. Lifelong severe migraines, chronic eye ailments, nervous breakdown in 1916, psychoanalysis with a student of C. G. Jung. Died in 1962 in his sleep in Montagnola at age 85." , land:"Germany/Switzerland", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexual Type 4", krankheit:"Chronic digestive and bladder ailments", teaser:"SX4w3 – Enlightenment writer and philosopher, 1694–1778. Decades of digestive and bladder complaints, obsessively documented in letters, unrelenting productivity despite constant complaints. Died on May 30, 1778, in Paris, weeks after his triumphant return from exile." , land:"France", gender:"m", jahre:"1694–1778"},
+  { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Self-Preservation Type 4", krankheit:"Progressive obsessive-compulsive disorder, germophobia, complete isolation", teaser:"SP4w5 – inventor and engineer, 1856–1943. Pronounced obsessive-compulsive disorder with counting rituals and germophobia, decades of increasing social isolation, final bond to a single white dove. Died impoverished on January 7, 1943, alone in a New York hotel room." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -31637,6 +31638,7 @@ function nikolaTeslaPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SE4w5)"},
         {route:"beruehmte-derek-goodwin", label:"Portrait: Derek Goodwin (SE4w5)"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SP4w5) – obsessive-compulsive disorder and isolation"},
       ])}
     </div>
   `);
@@ -54147,6 +54149,180 @@ function voltaireKrankheitsportraetPage() {
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3) – Enlightenment philosopher"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function nikolaTeslaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nikola Tesla</p>
+        <p class="krim-portrait-typ">SP4w5 · Self-Preservation Type 4 with Five-wing · 1856–1943</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Nikola Tesla</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">famous-personality portrait</a>
+        – that page covers his groundbreaking technical life's work and his radical
+        uniqueness. This page goes deeper into a chapter mentioned there only in passing: a
+        progressive obsessive-compulsive disorder with pronounced germophobia that drove him
+        into increasing isolation over decades, until he died impoverished and nearly
+        forgotten, alone in a New York hotel room.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Tesla</strong> is assigned to the <strong>Self-Preservation Type 4 with
+        Five-wing</strong>. SP4 lives its otherness quietly and consistently, without a
+        public stage; the Five-wing translates feeling into analytical systematic thinking
+        that also serves as a bulwark. This same combination also determined how his
+        progressive obsessive-compulsive disorder developed: not as a sudden collapse, but
+        as an ever more tightly meshed, self-imposed system for controlling a world that felt
+        increasingly overwhelming.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Compulsive behaviors documented already in middle age:</strong>
+        Contemporaries reported Tesla's habit of counting his steps while walking and
+        calculating the volume of his soup before eating it – behaviors that solidified into
+        fixed rituals over the years.</p>
+        <p class="vb-intro"><strong>b) Compulsion toward divisibility by three:</strong>
+        Tesla worked almost exclusively with numbers divisible by three; deviations from this
+        demonstrably caused him massive discomfort – an early sign of a hardening compulsive
+        structure.</p>
+        <p class="vb-intro"><strong>c) Growing fear of germs:</strong>
+        Already in his middle years, Tesla began avoiding doorknobs and handshakes and
+        washing his hands for hours – a germophobia that intensified further over the
+        decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The loss of Wardenclyffe Tower as a turning point:</strong>
+        When J.P. Morgan withdrew his financial support because Tesla planned to distribute
+        wireless energy freely, he lost his life's work – a rupture after which his
+        withdrawal from society noticeably accelerated.</p>
+        <p class="vb-intro"><strong>b) Moving from hotel to hotel:</strong>
+        In his final decades, Tesla lived in isolation across a series of New York hotel
+        rooms, often forced to move because he could no longer pay the bills.</p>
+        <p class="vb-intro"><strong>c) Astronomical expenses for injured pigeons:</strong>
+        Despite increasing poverty, Tesla spent considerable sums nursing injured or sick
+        pigeons back to health in his room – one of the last remaining forms of care he still
+        allowed himself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Complete withdrawal from human closeness:</strong>
+        Tesla remained unmarried throughout his life and explicitly described intimate
+        closeness as a disruption to his concentration – in his final years, his social life
+        consisted almost exclusively of feeding pigeons in the park.</p>
+        <p class="vb-intro"><strong>b) The white dove as his only remaining bond:</strong>
+        Among the many pigeons he cared for, Tesla developed a particularly intense
+        attachment to a single white dove, which he called "the love of his life" – a phrase
+        he also repeated word for word to journalists.</p>
+        <p class="vb-intro"><strong>c) Death at 86, alone in his hotel room:</strong>
+        Tesla died on January 7, 1943, in his room at the Hotel New Yorker – his death was
+        only discovered days later by a chambermaid.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Died impoverished and nearly forgotten:</strong>
+        The man whose alternating current system still powers billions of households
+        worldwide today died heavily in debt and largely vanished from public awareness.</p>
+        <p class="vb-intro"><strong>b) Posthumous seizure of his papers:</strong>
+        Immediately after his death, the FBI seized his scientific records out of concern
+        they might contain militarily relevant technology – one final, involuntary public
+        appearance for a man who had avoided the public throughout his life.</p>
+        <p class="vb-intro"><strong>c) Posthumous recognition only decades later:</strong>
+        Only in the following decades was Tesla's contribution to modern technology fully
+        recognized – too late to give him himself the recognition his work deserved.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) His own uniqueness carried into complete isolation:</strong>
+        The same radical consistency with which Tesla defended his own, unmistakable
+        thinking against any adaptation also determined how completely he cut himself off
+        from human closeness in the end – SP4 clings to its own truth, even when the price is
+        its own connection to the world.</p>
+        <p class="vb-intro"><strong>b) The Five-wing and the system as a final refuge:</strong>
+        His compulsive behaviors – counting, divisibility by three, avoiding germs – were not
+        random quirks, but an increasingly tightly meshed system for controlling a world that
+        felt ever more threatening to him. Where a healthy Five-wing uses knowledge as a
+        tool, in Tesla the system itself became the only reliable anchor.</p>
+        <p class="vb-intro"><strong>c) One single bond instead of many loose ones:</strong>
+        Unlike a more socially oriented subtype might have reacted, Tesla did not replace his
+        entire human relationship network with several loose contacts, but with a single,
+        extraordinarily intense bond – the white dove carried the entire weight of what
+        constitutes an entire social life for other people.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A mind that protected itself from its own openness:</strong>
+        Tesla's entire life was shaped by the conviction that his inner world of images and
+        his unique thinking needed protection – his obsessive-compulsive disorder can be read
+        as the ever-stricter system with which he tried to maintain this protection, until
+        the system itself became isolation.</p>
+        <p class="vb-intro"><strong>b) Control over his environment as a substitute for control over closeness:</strong>
+        A man who explicitly described intimate human closeness as a threat to his
+        concentration instead developed an ever more detailed control over his physical
+        environment – numbers, germs, rituals – that promised exactly the security human
+        relationships could not offer him.</p>
+        <p class="vb-intro"><strong>c) Why contact with the outside world, of all things?</strong>
+        For a Self-Preservation Four with Five-wing whose entire strength rested on radical,
+        self-chosen uniqueness, one interpretation suggests itself: precisely direct physical
+        contact with the outside world – doorknobs, handshakes, other people – became the
+        site of fear, while his inner, self-constructed world of thought remained the only
+        place he felt completely safe. This interpretation is a plausible reading, not a
+        documented historical causal link, and is developed further in this Compass's
+        psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of Self-Preservation Four inevitably leads to
+        obsessive-compulsive disorder – <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Tesla's case shows is a pattern in how a pronounced
+        Self-Preservation Four with Five-wing repeatedly deals with progressive psychological
+        isolation – one possible reading among many, not a verdict. The corresponding illness
+        profile is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Tesla did not know his own pattern – Self-Preservation Four with Five-wing
+        reflexively defends its own unmistakable inner world against any closeness
+        experienced as threatening, rather than ever recognizing its own isolation as a
+        pattern, and he lived out exactly this pattern unchanged until his lonely death.
+        Whoever does not recognize their own need to protect their uniqueness at any cost as
+        a pattern cannot set it aside even in the face of their own loneliness.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Self-Preservation Four with Five-wing explains much about the course of
+        <strong>Tesla's</strong> own illness: a man whose entire strength rested on radical
+        uniqueness defended that uniqueness so consistently that in the end no one could get
+        close enough – the dove that wanted to give unlimited energy to all of humanity, and
+        whose own heart in the end depended on a single bird.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5) – inventor"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se4", label:"Subtype Profile SP4"},
       ])}
     </div>
   `);
@@ -87268,6 +87444,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
       "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
+      "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

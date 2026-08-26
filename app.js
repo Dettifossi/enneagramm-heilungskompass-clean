@@ -24025,6 +24025,7 @@ const registerEntries = [
   { term: "Baruch de Spinoza Krankheitsporträt", route: "krankheitsportraets-spinoza", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Chronische Lungenerkrankung durch Glasstaub" },
   { term: "Hermann Hesse Krankheitsporträt", route: "krankheitsportraets-hermann-hesse", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Migräne, Augenleiden, depressive Krisen" },
   { term: "Voltaire Krankheitsporträt", route: "krankheitsportraets-voltaire", description: "Portrait: SX4w3 · Sexueller Typ 4 · Chronische Verdauungs- und Blasenleiden" },
+  { term: "Nikola Tesla Krankheitsporträt", route: "krankheitsportraets-nikola-tesla", description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Zwangsstörung, Keimphobie, Isolation" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32160,6 +32161,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Selbsterhaltender Typ 5", krankheit:"Chronische Lungenerkrankung durch Glasstaub", teaser:"SE5w6 – rationalistischer Philosoph, 1632–1677. Jahrzehntelanges Einatmen von Glasstaub beim Linsenschleifen, vermutliche Ursache seiner tödlichen Lungenerkrankung. Starb am 21. Februar 1677 in Den Haag im Alter von 44 Jahren." , land:"Niederlande", gender:"m", jahre:"1632–1677"},
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Selbsterhaltender Typ 5", krankheit:"Migräne, Augenleiden, wiederkehrende depressive Krisen", teaser:"SE5w6 – Schriftsteller, Nobelpreisträger, 1877–1962. Lebenslange schwere Migräne, chronische Augenleiden, Nervenzusammenbruch 1916, Psychoanalyse bei einem Schüler C. G. Jungs. Starb 1962 im Schlaf in Montagnola im Alter von 85 Jahren." , land:"Deutschland/Schweiz", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexueller Typ 4", krankheit:"Chronische Verdauungs- und Blasenleiden", teaser:"SX4w3 – Schriftsteller und Philosoph der Aufklärung, 1694–1778. Jahrzehntelange, in Briefen exzessiv dokumentierte Verdauungs- und Blasenbeschwerden, ungebremste Produktivität trotz ständiger Klagen. Starb am 30. Mai 1778 in Paris, wenige Wochen nach seiner triumphalen Rückkehr aus dem Exil." , land:"Frankreich", gender:"m", jahre:"1694–1778"},
+  { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Selbsterhaltender Typ 4", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SE4w5 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44356,7 +44358,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
         beschreibung: "Die zarte, empfindsame Erscheinung täuscht über eine erhebliche innere Ausdauer hinweg: Der Weg wird auch durch Sturm und Rückschläge fortgesetzt, nicht weil Angst fehlt, sondern weil eine tiefe Kenntnis der eigenen Richtung trägt.",
-        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe, seine tiefste Bindung an eine einzelne weiße Taube."
+        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe und trotz einer fortschreitenden Zwangsstörung, seine tiefste Bindung an eine einzelne weiße Taube."
       },
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
@@ -49574,6 +49576,7 @@ function nikolaTeslaPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
         {route:"beruehmte-derek-goodwin", label:"Porträt: Derek Goodwin (SE4w5)"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SE4w5) – Zwangsstörung und Isolation"},
       ])}
     </div>
   `);
@@ -82406,6 +82409,190 @@ function voltaireKrankheitsportraetPage() {
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3) – Philosoph der Aufklärung"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function nikolaTeslaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nikola Tesla</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel · 1856–1943</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Nikola Tesla</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein bahnbrechendes technisches
+        Lebenswerk und seine radikale Einzigartigkeit. Diese Seite vertieft ein Kapitel, das
+        dort nur am Rande erwähnt wird: eine fortschreitende Zwangsstörung mit ausgeprägter
+        Keimphobie, die ihn über Jahrzehnte zunehmend in völlige Isolation trieb, bis er
+        verarmt und fast vergessen allein in einem New Yorker Hotelzimmer starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Tesla</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Fünferflügel</strong>
+        zugeordnet. Die SE4 lebt ihr Anderssein still und konsequent, ohne öffentliche
+        Bühne; der Fünferflügel übersetzt Gefühl in analytisches Systemdenken, das
+        zugleich als Schutzwall dient. Genau diese Kombination bestimmte auch, wie sich seine
+        fortschreitende Zwangsstörung entwickelte: nicht als plötzlicher Einbruch, sondern
+        als immer strengeres, selbst auferlegtes System zur Kontrolle einer als überfordernd
+        erlebten Außenwelt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Zwangshandlungen bereits in mittleren Lebensjahren dokumentiert:</strong>
+        Zeitgenossen berichteten von Teslas Gewohnheit, seine Schritte beim Gehen zu zählen
+        und das Volumen seiner Suppe zu berechnen, bevor er sie aß – Verhaltensweisen, die
+        sich über Jahre zu einem festen Ritual verdichteten.</p>
+        <p class="vb-intro"><strong>b) Zwang zur Teilbarkeit durch drei:</strong>
+        Tesla arbeitete fast ausschließlich mit Zahlen, die durch drei teilbar waren;
+        Abweichungen davon lösten bei ihm nachweislich massives Unbehagen aus – ein frühes
+        Anzeichen einer sich verfestigenden Zwangsstruktur.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Angst vor Keimen:</strong>
+        Bereits in seinen mittleren Jahren begann Tesla, Türklinken und Handschläge zu
+        meiden und sich stundenlang die Hände zu waschen – eine Keimphobie, die sich mit den
+        Jahrzehnten weiter verschärfte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Verlust des Wardenclyffe Tower als Wendepunkt:</strong>
+        Als J.P. Morgan seine finanzielle Unterstützung zurückzog, weil Tesla plante,
+        drahtlose Energie kostenlos zu verteilen, verlor er sein Lebenswerk – ein Einschnitt,
+        nach dem sich sein Rückzug aus der Gesellschaft spürbar beschleunigte.</p>
+        <p class="vb-intro"><strong>b) Umzüge von Hotel zu Hotel:</strong>
+        In seinen letzten Lebensjahrzehnten lebte Tesla isoliert in einer Reihe von New
+        Yorker Hotelzimmern, oft, weil er die Rechnungen nicht mehr bezahlen konnte und
+        umziehen musste.</p>
+        <p class="vb-intro"><strong>c) Astronomische Ausgaben für verletzte Tauben:</strong>
+        Trotz zunehmender Armut gab Tesla erhebliche Summen aus, um verletzte oder kranke
+        Tauben in seinem Zimmer gesund zu pflegen – eine der letzten verbliebenen Formen von
+        Fürsorge, die er sich noch erlaubte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vollständiger Rückzug aus menschlicher Nähe:</strong>
+        Tesla blieb zeitlebens unverheiratet und beschrieb intime Nähe ausdrücklich als
+        Störung seiner Konzentration – in seinen letzten Jahren bestand sein soziales Leben
+        praktisch ausschließlich aus der Fütterung von Tauben im Park.</p>
+        <p class="vb-intro"><strong>b) Die weiße Taube als einzige verbliebene Bindung:</strong>
+        Unter den vielen Tauben, die er pflegte, entwickelte Tesla eine besonders intensive
+        Bindung zu einer einzelnen weißen Taube, die er als „die Liebe seines Lebens"
+        bezeichnete – eine Formulierung, die er auch gegenüber Journalisten wörtlich
+        wiederholte.</p>
+        <p class="vb-intro"><strong>c) Tod im Alter von 86 Jahren, allein im Hotelzimmer:</strong>
+        Tesla starb am 7. Januar 1943 in seinem Zimmer im New Yorker Hotel New Yorker – erst
+        Tage später wurde sein Tod von einer Zimmermädchen entdeckt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Verarmt und fast vergessen gestorben:</strong>
+        Der Mann, dessen Wechselstromsystem bis heute Milliarden Haushalte weltweit versorgt,
+        starb hoch verschuldet und weitgehend aus der öffentlichen Wahrnehmung
+        verschwunden.</p>
+        <p class="vb-intro"><strong>b) Posthume Beschlagnahmung seiner Unterlagen:</strong>
+        Unmittelbar nach seinem Tod beschlagnahmte das FBI seine wissenschaftlichen
+        Aufzeichnungen aus Sorge, sie könnten militärisch relevante Technologien enthalten –
+        ein letzter, unfreiwilliger öffentlicher Auftritt eines Mannes, der die Öffentlichkeit
+        zeitlebens gemieden hatte.</p>
+        <p class="vb-intro"><strong>c) Posthume Anerkennung erst Jahrzehnte später:</strong>
+        Erst in den folgenden Jahrzehnten wurde Teslas Beitrag zur modernen Technik
+        umfassend gewürdigt – zu spät, um ihm selbst noch die Anerkennung zu geben, die sein
+        Werk verdient hätte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die eigene Einzigartigkeit bis zur völligen Isolation getragen:</strong>
+        Dieselbe radikale Konsequenz, mit der Tesla sein eigenes, unverwechselbares Denken
+        gegen jede Anpassung verteidigte, bestimmte auch, wie vollständig er sich am Ende von
+        jeder menschlichen Nähe abschnitt – die SE4 hält an der eigenen Wahrheit fest, auch
+        wenn der Preis dafür die eigene Verbindung zur Welt ist.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel und das System als letzter Schutzraum:</strong>
+        Seine Zwangshandlungen – das Zählen, die Teilbarkeit durch drei, die Keimvermeidung
+        – waren keine zufälligen Marotten, sondern ein immer engmaschigeres System zur
+        Kontrolle einer Welt, die für ihn zunehmend bedrohlich wurde. Wo der gesunde
+        Fünferflügel Wissen als Werkzeug nutzt, wurde bei Tesla das System selbst zum
+        einzigen verlässlichen Halt.</p>
+        <p class="vb-intro"><strong>c) Eine einzelne Bindung statt vieler lockerer:</strong>
+        Anders als ein sozialerer Subtyp reagiert hätte, ersetzte Tesla das gesamte
+        menschliche Beziehungsnetz nicht durch mehrere lose Kontakte, sondern durch eine
+        einzige, außergewöhnlich intensive Bindung – die weiße Taube trug das gesamte
+        Gewicht dessen, was für andere Menschen ein ganzes soziales Leben ausmacht.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Geist, der sich vor der eigenen Offenheit schützte:</strong>
+        Teslas gesamtes Leben war von der Überzeugung geprägt, dass seine innere Bilderwelt
+        und sein einzigartiges Denken schutzbedürftig waren – seine Zwangsstörung lässt sich
+        als das immer strengere System lesen, mit dem er diesen Schutz aufrechtzuerhalten
+        versuchte, bis das System selbst zur Isolation wurde.</p>
+        <p class="vb-intro"><strong>b) Kontrolle über die eigene Umgebung als Ersatz für Kontrolle über Nähe:</strong>
+        Ein Mann, der intime menschliche Nähe explizit als Bedrohung seiner Konzentration
+        beschrieb, entwickelte stattdessen eine immer detailliertere Kontrolle über seine
+        physische Umgebung – Zahlen, Keime, Rituale –, die genau jene Sicherheit versprach,
+        die menschliche Beziehungen ihm nicht bieten konnten.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Kontakt zur Außenwelt?</strong>
+        Für eine selbsterhaltende Vier mit Fünferflügel, deren gesamte Kraft auf radikaler,
+        selbst gewählter Einzigartigkeit beruhte, liegt eine Deutung nahe: Ausgerechnet der
+        unmittelbare körperliche Kontakt zur Außenwelt – Türklinken, Handschläge, andere
+        Menschen – wurde zum Schauplatz der Angst, während die innere, selbst konstruierte
+        Gedankenwelt der einzige Ort blieb, an dem er sich vollständig sicher fühlte. Diese
+        Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu
+        Zwangsstörungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Teslas Fall zeigen lässt, ist ein Muster
+        im Umgang mit fortschreitender psychischer Isolation, das bei einer ausgeprägten
+        selbsterhaltenden Vier mit Fünferflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Tesla kannte sein eigenes Muster nicht – die selbsterhaltende Vier mit Fünferflügel
+        verteidigt reflexhaft die eigene, unverwechselbare Innenwelt gegen jede als bedrohlich
+        erlebte Nähe, statt die eigene Isolation je als Muster zu erkennen, und genau dieses
+        Muster lebte er bis zu seinem einsamen Tod unverändert aus. Wer die eigene
+        Notwendigkeit, die eigene Einzigartigkeit um jeden Preis zu schützen, nicht als Muster
+        erkennt, kann sie auch angesichts der eigenen Vereinsamung nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Vier mit Fünferflügel erklärt bei <strong>Tesla</strong> vieles
+        am Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf radikaler
+        Einzigartigkeit beruhte, verteidigte diese Einzigartigkeit so konsequent, dass am
+        Ende kein Mensch mehr nah genug herankam – die Taube, die der ganzen Menschheit
+        unbegrenzte Energie schenken wollte, und deren eigenes Herz zuletzt nur noch an
+        einem einzigen Vogel hing.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5) – Erfinder"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
   `);
@@ -122997,6 +123184,7 @@ function render() {
       "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
       "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
+      "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
