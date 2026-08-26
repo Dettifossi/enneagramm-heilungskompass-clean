@@ -246,6 +246,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SO8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Social Type 1", krankheit:"Severe benzodiazepine dependency, induced coma in 2019/2020", teaser:"SO1w9 – psychologist and author, b. 1962. Severe benzodiazepine dependency, unsuccessful treatment attempts in North America, medically induced coma in Russia at the end of 2019 for withdrawal treatment." , land:"Canada", gender:"m", jahre:"b. 1962"},
+  { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexual Type 9", krankheit:"Chronic heart disease, died of heart failure aboard the Queen Elizabeth 2", teaser:"SX9w8 – painter and architect, 1928–2000. Years-long, largely undisclosed heart condition, no conventional medical treatment, died on 19 February 2000 aboard the ocean liner Queen Elizabeth 2 on the Pacific." , land:"Austria", gender:"m", jahre:"1928–2000"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -20956,6 +20957,7 @@ function hundertwasserPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Portrait: Iga \u015awi\u0105tek (SX9w1)"},
         {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Vel\u00e1zquez (SX9w1)"},
+        {route:"krankheitsportraets-hundertwasser", label:"Illness Portrait: Friedensreich Hundertwasser (SX9w8) \u2013 chronic heart disease"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Chart: Architecture & Interior Design of the 9 Types"},
       ])}
     </div>
@@ -57646,6 +57648,173 @@ function jordanPetersonKrankheitsportraetPage() {
   `);
 }
 
+function hundertwasserKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hundertwasser-portrait.jpg" alt="Friedensreich Hundertwasser" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedensreich Hundertwasser</p>
+        <p class="krim-portrait-typ">SX9w8 · Sexual Type 9 with Eight-Wing · 1928–2000</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Sloth</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Animal correspondence: Sloth" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Friedensreich Hundertwasser</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-hundertwasser">Famous Personalities
+        portrait</a>. This page delves into a chapter only briefly mentioned there: his
+        years-long heart condition, which he largely kept private, which he did not have
+        treated conventionally, and from which he died in February 2000 aboard a ship.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Hundertwasser</strong> is assigned to the <strong>sexual Type 9 with
+        Eight-Wing</strong>. The SX9 seeks total fusion with an ideal – for Hundertwasser,
+        nature; the Eight-Wing adds the confrontational force that enforces its own
+        principle against any resistance if necessary. Exactly this combination – fusion
+        with a nature-bound ideal, combined with a refusal to submit to any outside
+        authority, including conventional medicine – shaped how he dealt with his own
+        illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A heart condition that persisted for years:</strong>
+        According to consistent biographical sources, Hundertwasser suffered from chronic
+        heart failure in his final years, known to those around him but rarely addressed
+        publicly by him.</p>
+        <p class="vb-intro"><strong>b) A life spent between Vienna, New Zealand, and the ocean:</strong>
+        Hundertwasser spent much of his last years traveling between his residences, often on
+        long sea crossings rather than by plane – a deliberate choice for slowness over
+        haste.</p>
+        <p class="vb-intro"><strong>c) Reservation toward conventional medical treatment:</strong>
+        As documented for many nature-medicine-minded contemporaries of his generation,
+        Hundertwasser was skeptical of aggressive conventional intervention and preferred a
+        lifestyle in as close contact with nature as possible.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Undiminished workload despite illness:</strong>
+        Until the very end, Hundertwasser traveled the world for exhibitions, building
+        projects, and public appearances without noticeably slowing the pace of his life.</p>
+        <p class="vb-intro"><strong>b) The ocean liner as his preferred mode of travel:</strong>
+        He regularly traveled aboard the ocean liner <em>Queen Elizabeth 2</em> between Europe
+        and the Pacific – a weeks-long, slow form of travel that suited his ideal of nature
+        but, in an emergency, left him far from fast medical care.</p>
+        <p class="vb-intro"><strong>c) No public illness narrative:</strong>
+        Unlike some contemporaries, Hundertwasser never turned his heart condition into a
+        public topic – unlike his loud manifestos on architecture and ecology, it remained a
+        private matter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Death aboard the Queen Elizabeth 2:</strong>
+        On 19 February 2000, Hundertwasser died of heart failure at age 71 aboard the ship,
+        on his way back to New Zealand – in the middle of the Pacific, far from any clinic.</p>
+        <p class="vb-intro"><strong>b) Burial according to his own unusual wishes:</strong>
+        Following instructions in his will, he was buried on his property in New Zealand
+        without a coffin, wrapped in linen, under a tulip tree in the "Garden of the Happy
+        Dead" – the final consequence of his lifelong ideal of fusion with nature.</p>
+        <p class="vb-intro"><strong>c) No public announcement of slowing down:</strong>
+        Until his death, Hundertwasser showed no signs of an approaching slowdown – no
+        announced retirement, no public admission of weakness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A death that fit the work:</strong>
+        Many obituaries read the very circumstances of his death – at sea, far from
+        civilization, buried according to his own wishes – as the consistent conclusion of a
+        life that had always pushed against convention and toward connection with nature.</p>
+        <p class="vb-intro"><strong>b) A posthumous legacy that remained unchanged and alive:</strong>
+        His buildings – the Hundertwasser House in Vienna, the Green Citadel in Magdeburg,
+        the KunstHausWien – remained internationally visited landmarks after his death and
+        still shape the public image of ecological architecture today.</p>
+        <p class="vb-intro"><strong>c) No later mythologizing of the illness:</strong>
+        Unlike with some artists, his heart condition never became part of the public legend
+        – it remained a quiet, almost incidental part of his biography, while his manifestos
+        and buildings dominate public memory.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Fusion with the pace of travel instead of adapting to the illness:</strong>
+        The SX9's characteristic longing to fuse with something larger also showed in the
+        fact that Hundertwasser did not subordinate his travel pace – the slow sea crossing
+        instead of the fast flight – to the health risk, but stayed true to his ideal of
+        nature.</p>
+        <p class="vb-intro"><strong>b) The Eight-Wing and the refusal to admit weakness:</strong>
+        The same confrontational force with which Hundertwasser stood against social
+        convention at his nude speeches showed itself in dealing with his own illness as a
+        refusal to bow to the authority of conventional medicine or to the expectation of a
+        calmer lifestyle.</p>
+        <p class="vb-intro"><strong>c) The last fusion: death at sea, burial in the earth:</strong>
+        That his life ended on the ocean and his final resting place lies without a coffin,
+        directly in the earth under a tree, can be read as the ultimate consequence of his
+        lifelong ideal of fusion – no accident, but the last consequence of a principle held
+        to the end.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A man who preached connection with nature and did not resist his own nature:</strong>
+        Hundertwasser's entire body of work rested on the conviction that humans should not
+        stand against nature but fuse with it – and in the end, he met his own body and its
+        limits with exactly this attitude: no fight, no resistance, but a life at the
+        accustomed pace right up to the last moment.</p>
+        <p class="vb-intro"><strong>b) Why the heart, of all things?</strong>
+        For a sexual Nine with an Eight-Wing whose entire work revolved around the image of
+        fusion – human with nature, speaker with audience, name with principle – one
+        interpretation suggests itself: exactly the organ that popularly stands for
+        connection and devotion became, in his case, the site of physical failure. This
+        reading is a plausible interpretation, not a proven clinical causal link, and will be
+        developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Classification without determinism:</strong>
+        This does not mean that the sexual Nine's pattern inevitably leads to heart disease –
+        <strong>any person can develop any illness, regardless of subtype.</strong> What can
+        be shown in Hundertwasser's case is a pattern in dealing with a progressive illness
+        that keeps recurring in a pronounced sexual Nine with Eight-Wing – one of many
+        possible readings, not a verdict. The corresponding illness pattern is being
+        developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Hundertwasser did not know his own pattern as an Enneagram structure – the sexual
+        Nine with Eight-Wing reflexively clings to fusion with its own ideal instead of
+        pausing in time, and lived out exactly this pattern unchanged until his last day,
+        never making his own heart condition a central topic. Anyone who does not recognize
+        their own tendency to submit completely to a larger principle as a pattern risks that
+        this fusion ends only with complete physical collapse.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Nine with Eight-Wing explains much about how <strong>Friedensreich
+        Hundertwasser</strong> handled his own illness: a man whose entire life's work was
+        devoted to fusion with nature ultimately accepted his own heart failure as part of
+        that same natural cycle – not a fight against death, but the sloth's final, most
+        complete fusion with the element to which it had devoted its whole life.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx9", label:"Subtype Profile SX9"},
+      ])}
+    </div>
+  `);
+}
+
 function johnGottiKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -90758,6 +90927,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
+      "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
