@@ -257,6 +257,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Social Type 5", krankheit:"Stroke with paralysis of the right hand", teaser:"SO5w4 – polymath and artist, 1452–1519. Stroke around 1517 with paralysis of the right hand, switch to the left hand, continued work on the Mona Lisa until the end. Died on May 2, 1519, in Amboise, France, at age 67." , land:"Italy/France", gender:"m", jahre:"1452–1519"},
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Social Type 7", krankheit:"Gunshot wound with lifelong lameness, later diabetes", teaser:"SO7w6 – French writer, 1828–1905. Shot by his mentally disturbed nephew in 1886, bullet permanently lodged in his leg, left with a limp, later also developed diabetes. Died on March 24, 1905, in Amiens at age 77." , land:"France", gender:"m", jahre:"1828–1905"},
   { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Social Type 8", krankheit:"Severe fall with head injury, permanent wheelchair use and loss of speech", teaser:"SO8w9 – German Chancellor, 1930–2017. Severe fall in February 2008 with head injury, followed by nine years largely dependent on care, wheelchair-bound and severely limited in speech. Died on June 16, 2017, in Ludwigshafen-Oggersheim at age 87." , land:"Germany", gender:"m", jahre:"1930–2017"},
+  { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Self-Preservation Type 2", krankheit:"Police violence with cerebral hemorrhage in 2009, chronic headaches since", teaser:"SE2w3 – Chinese artist and activist, b. 1957. Beaten by police in Chengdu in August 2009, suffered a cerebral hemorrhage as a result, emergency surgery in Munich in September 2009. Chronic headaches ever since." , land:"China/Germany", gender:"m", jahre:"b. 1957"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -27157,6 +27158,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-jack-ma", label:"Portrait: Jack Ma (SP2w3)"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3)"},
+        {route:"krankheitsportraets-ai-weiwei", label:"Illness Portrait: Ai Weiwei (SP2w3) – violence that became a work of art"},
       ])}
     </div>
   `);
@@ -52957,6 +52959,7 @@ function fridaKahloKrankheitsportraetPage() {
         {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3) – life's work"},
         {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Illness Portrait: Nusrat Fateh Ali Khan (SP2w3) – the same refusal to step back"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
+        {route:"krankheitsportraets-ai-weiwei", label:"Illness Portrait: Ai Weiwei (SP2w3) – the same pattern of visible suffering"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
@@ -55213,6 +55216,183 @@ function helmutKohlKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-marx", label:"Illness Portrait: Karl Marx (SO8w9) – the same pattern of unbroken control"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so8", label:"Subtype Profile SO8"},
+      ])}
+    </div>
+  `);
+}
+
+function aiWeiweiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ai-weiwei-portrait.jpg" alt="Ai Weiwei" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ai Weiwei</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing &middot; b. 1957</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ai Weiwei</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-ai-weiwei">Famous Personality Portrait</a>
+        in this Compass – that portrait focuses on his artistic and activist life's work.
+        This page explores a chapter only touched on there: in August 2009, Ai Weiwei was
+        beaten by Chinese police in Chengdu badly enough to require hospitalization,
+        suffered a cerebral hemorrhage as a result, and had to undergo emergency surgery in
+        Munich a few weeks later – he has suffered from chronic headaches ever since.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Ai Weiwei</strong> is assigned to the <strong>Self-Preservation Type 2 with
+        Three-wing</strong>. The SP2 cares for others directly and physically, first
+        securing its own capacity to act; the Three-wing adds a hunger for visibility and
+        the widest possible reach. This exact combination – care that does not withdraw but
+        becomes publicly visible – also determined how Ai Weiwei handled the police
+        violence he suffered and its consequences.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The attack in Chengdu in August 2009:</strong>
+        Ai Weiwei had traveled to Chengdu to testify at the trial of activist Tan Zuoren,
+        who like him had investigated the Sichuan earthquake victims. Police officers broke
+        into his hotel room at night and beat him.</p>
+        <p class="vb-intro"><strong>b) An internal injury that initially went unnoticed:</strong>
+        Externally, there were at first no dramatic signs – the actual injury, an internal
+        cerebral hemorrhage, remained undetected for days.</p>
+        <p class="vb-intro"><strong>c) Diagnosis only weeks later, in Germany:</strong>
+        Only in September 2009, while preparing an exhibition in Munich, was a cerebral
+        hemorrhage diagnosed after he experienced severe headaches, requiring immediate
+        emergency surgery.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Successful emergency surgery in Munich:</strong>
+        Doctors in Munich operated on Ai Weiwei immediately and were able to avert the
+        acute danger to his life.</p>
+        <p class="vb-intro"><strong>b) Chronic headaches as a lasting consequence:</strong>
+        Since the incident, Ai Weiwei has reported recurring severe headaches – a
+        permanent physical reminder of the violence he suffered.</p>
+        <p class="vb-intro"><strong>c) No distancing from his work:</strong>
+        Rather than withdrawing from his activist work out of concern for his own health,
+        Ai Weiwei resumed his public criticism of the Chinese government undiminished after
+        his recovery.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The injury became a work of art:</strong>
+        Ai Weiwei publicly documented his own injury, including under the provocative
+        self-portrait title "Fuck Off" and X-ray-like depictions of his own head – his own
+        vulnerability was not hidden but turned into evidence against state violence.</p>
+        <p class="vb-intro"><strong>b) Legal resistance despite the risk:</strong>
+        Ai Weiwei attempted to hold the responsible police officers legally accountable – an
+        approach that carried considerable personal risk in China and ultimately failed,
+        but did not stop him from pursuing further legal action.</p>
+        <p class="vb-intro"><strong>c) Growing state surveillance and repression:</strong>
+        In the years following the incident, pressure from the Chinese state intensified
+        further, culminating in his 81-day detention in 2011 – an escalating pattern in
+        which the 2009 cerebral hemorrhage appears in retrospect as an early turning point.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) International attention for the case:</strong>
+        The emergency surgery in Munich and its circumstances were reported extensively
+        internationally, making the case of Ai Weiwei known to a broad Western audience
+        that had previously known little of his art.</p>
+        <p class="vb-intro"><strong>b) An event that shaped his work:</strong>
+        His own injury became a recurring motif in Ai Weiwei's later work – evidence that
+        personally suffered violence never stayed private for him but was consistently
+        transformed into public artistic statement.</p>
+        <p class="vb-intro"><strong>c) No retreat despite escalating threat:</strong>
+        Neither the head injury nor his later 2011 detention brought Ai Weiwei to abandon
+        his critical public stance – only the confiscation of his passport effectively
+        forced him into exile in 2015.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Care that turns one's own injury into action:</strong>
+        The same SP2 conviction that compassion must express itself in concrete, visible
+        action also determined how Ai Weiwei handled his own injury – not through quiet
+        processing, but through public documentation and artistic transformation.</p>
+        <p class="vb-intro"><strong>b) The Three-wing and the maximum reach of one's own suffering:</strong>
+        Where another person might have kept their own injury private, Ai Weiwei actively
+        sought the widest possible publicity for it – the same logic with which he always
+        designed his artworks for maximum media reach.</p>
+        <p class="vb-intro"><strong>c) Pride that does not bend to violence:</strong>
+        The Two's passion, directed at one's own indispensability and effectiveness,
+        showed itself in the refusal to treat the violence he suffered as a defeat – it
+        instead became evidence of his own moral position against the state.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A body that became evidence:</strong>
+        For Ai Weiwei, whose entire body of work rests on making silenced truths visible,
+        the violence against his own body struck exactly that nerve – the cerebral
+        hemorrhage was not repressed but channeled into the same logic of making visible
+        that had already shaped the 5,196 names of the earthquake victims.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-frida-kahlo">Frida
+        Kahlo</a> (also SP2w3) systematically turned the pain of her own body, permanently
+        injured in a bus accident, into her main artistic subject rather than concealing
+        her suffering; Ai Weiwei responded to the violence inflicted on him with the same
+        basic stance – his own injured body is not hidden but becomes the central, publicly
+        visible material of his work. Both cases show the same SE2w3 pattern: personal pain
+        is not privatized but, driven by the Three-wing's hunger for reach, carried to the
+        widest possible audience. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-frida-kahlo">Illness Portrait of Frida Kahlo</a>.</p>
+        <p class="vb-intro"><strong>c) Why the head, of all things?</strong>
+        For a Self-Preservation Two with a Three-wing, whose entire impact rests on
+        perception, communication, and his own voice, one interpretation suggests itself:
+        precisely the organ with which he thought, spoke, and observed the world became the
+        site of the violence – a direct threat to his most important tool as an activist
+        and artist. This interpretation is a plausible reading, not a documented historical
+        causal link, and will be developed further in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
+        This does not mean that the Self-Preservation Two's pattern inevitably leads to
+        police violence and cerebral hemorrhage – <strong>anyone can suffer any illness or
+        injury, regardless of subtype.</strong> What Ai Weiwei's case illustrates is a
+        pattern in how a pronounced Self-Preservation Two with a Three-wing tends to handle
+        violence suffered – one of many possible interpretations, not a verdict. The
+        corresponding illness picture is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Ai Weiwei did not know his own pattern – the Self-Preservation Two with a Three-wing
+        reflexively turns its own suffering into visible, public action instead of ever
+        processing it privately, and he lived out exactly this pattern unchanged after the
+        cerebral hemorrhage. Someone who does not recognize their own need to turn
+        suffering into reach as a pattern cannot pause to protect themselves even in the
+        face of a life-threatening injury.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Two with a Three-wing explains much about how
+        <strong>Ai Weiwei</strong> handled his own injury: a man whose entire body of work
+        rests on making the concealed visible would not even be silenced by a cerebral
+        hemorrhage – the hippopotamus that does not hide its wound but displays it in the
+        middle of its territory, so no one can overlook it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3) – the hippopotamus"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SP2w3) – the same pattern of visible suffering"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
     </div>
   `);
@@ -88340,6 +88520,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
       "krankheitsportraets-jules-verne": julesVerneKrankheitsportraetPage,
       "krankheitsportraets-helmut-kohl": helmutKohlKrankheitsportraetPage,
+      "krankheitsportraets-ai-weiwei": aiWeiweiKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

@@ -24031,6 +24031,7 @@ const registerEntries = [
   { term: "Leonardo da Vinci Krankheitsporträt", route: "krankheitsportraets-leonardo-da-vinci", description: "Portrait: SO5w4 · Sozialer Typ 5 · Schlaganfall mit Lähmung der rechten Hand" },
   { term: "Jules Verne Krankheitsporträt", route: "krankheitsportraets-jules-verne", description: "Portrait: SO7w6 · Sozialer Typ 7 · Schussverletzung mit lebenslanger Lähmung, später Diabetes" },
   { term: "Helmut Kohl Krankheitsporträt", route: "krankheitsportraets-helmut-kohl", description: "Portrait: SO8w9 · Sozialer Typ 8 · Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust" },
+  { term: "Ai Weiwei Krankheitsporträt", route: "krankheitsportraets-ai-weiwei", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32172,6 +32173,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Sozialer Typ 5", krankheit:"Schlaganfall mit Lähmung der rechten Hand", teaser:"SO5w4 – Universalgelehrter und Künstler, 1452–1519. Schlaganfall um 1517 mit Lähmung der rechten Hand, Umstellung auf die linke Hand, fortgesetzte Arbeit an der Mona Lisa bis zuletzt. Starb am 2. Mai 1519 in Amboise, Frankreich, im Alter von 67 Jahren." , land:"Italien/Frankreich", gender:"m", jahre:"1452–1519"},
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Sozialer Typ 7", krankheit:"Schussverletzung mit lebenslanger Lähmung, später Diabetes", teaser:"SO7w6 – französischer Schriftsteller, 1828–1905. 1886 durch seinen geistig verwirrten Neffen niedergeschossen, Kugel dauerhaft im Bein, fortan hinkend, später zusätzlich Diabetes. Starb am 24. März 1905 in Amiens im Alter von 77 Jahren." , land:"Frankreich", gender:"m", jahre:"1828–1905"},
   { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Sozialer Typ 8", krankheit:"Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust", teaser:"SO8w9 – deutscher Bundeskanzler, 1930–2017. Schwerer Sturz im Februar 2008 mit Kopfverletzung, danach neun Jahre weitgehend pflegebedürftig, rollstuhlgebunden und in der Sprache stark eingeschränkt. Starb am 16. Juni 2017 in Ludwigshafen-Oggersheim im Alter von 87 Jahren." , land:"Deutschland", gender:"m", jahre:"1930–2017"},
+  { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Selbsterhaltender Typ 2", krankheit:"Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen", teaser:"SE2w3 – chinesischer Künstler und Aktivist, geb. 1957. Im August 2009 von der Polizei in Chengdu geschlagen, dadurch Hirnblutung erlitten, im September 2009 Notoperation in München. Seither chronische Kopfschmerzen." , land:"China/Deutschland", gender:"m", jahre:"geb. 1957"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44503,7 +44505,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; sein älterer Bruder Wilson Gonzalez Ochsenknecht, der genau diesen ersten Filmauftritt mit zehn Jahren gemeinsam mit Vater und Bruder erlebte und heute als selbst gewordener Vater alle beruflichen Projekte bewusst der eigenen Tochter unterordnet; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht; Tutty Tran, dessen gesamtes Bühnenwerk um die eigene Familie kreist – nicht als distanzierte Beobachtung, sondern als direkt gelebte, selbstironisch verarbeitete Nähe zu den Eltern, die als vietnamesische Boatpeople nach Deutschland kamen; Lebo M, der demselben Filmfranchise seit 1994 über drei Jahrzehnte treu blieb und seinen Zulu-Ruf zur akustischen Signatur eines ganzen Welterfolgs machte; Lionel Boyce, dessen kreative Laufbahn untrennbar mit der jahrzehntelangen Freundschaft und Zusammenarbeit mit Tyler, the Creator verbunden blieb, von Odd Future bis zur eigenen Produktionsfirma; Lisa Antoni, die sich über ein breites Repertoire im deutschsprachigen Musicaltheater Schritt für Schritt bis zur Christine Daaé am Ronacher vorarbeitete; Loi, deren Künstlername auf ihren Kindheitsspitznamen ›Leonie Löwenherz‹ zurückgeht und die erst über Jahre geduldigen Übens an Gitarre und Klavier zum internationalen Charterfolg mit ›Gold‹ fand; Loni Hui, die ihrem Pokerspiel erst ein Finanzstudium voranstellte, bevor sie zur zweifachen WSOP-Bracelet-Gewinnerin wurde; Madeline Stuart, die ihre eigene, sehr persönliche Geschichte in eine internationale Botschaft für Inklusion von Menschen mit Down-Syndrom in der Modeindustrie verwandelte; Mariacarla Boscono, die ihre mehr als zehnjährige, enge kreative Bindung an Riccardo Tisci bei Givenchy und Burberry aufrechterhielt, während sie zugleich zu einer der sichtbarsten Musen der internationalen Modewelt wurde."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist – und der nach einer schweren Polizeigewalt 2009 mit Hirnblutung die eigene Verletzung nicht verbarg, sondern öffentlich zum Beweisstück gegen den Staat machte; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; sein älterer Bruder Wilson Gonzalez Ochsenknecht, der genau diesen ersten Filmauftritt mit zehn Jahren gemeinsam mit Vater und Bruder erlebte und heute als selbst gewordener Vater alle beruflichen Projekte bewusst der eigenen Tochter unterordnet; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht; Tutty Tran, dessen gesamtes Bühnenwerk um die eigene Familie kreist – nicht als distanzierte Beobachtung, sondern als direkt gelebte, selbstironisch verarbeitete Nähe zu den Eltern, die als vietnamesische Boatpeople nach Deutschland kamen; Lebo M, der demselben Filmfranchise seit 1994 über drei Jahrzehnte treu blieb und seinen Zulu-Ruf zur akustischen Signatur eines ganzen Welterfolgs machte; Lionel Boyce, dessen kreative Laufbahn untrennbar mit der jahrzehntelangen Freundschaft und Zusammenarbeit mit Tyler, the Creator verbunden blieb, von Odd Future bis zur eigenen Produktionsfirma; Lisa Antoni, die sich über ein breites Repertoire im deutschsprachigen Musicaltheater Schritt für Schritt bis zur Christine Daaé am Ronacher vorarbeitete; Loi, deren Künstlername auf ihren Kindheitsspitznamen ›Leonie Löwenherz‹ zurückgeht und die erst über Jahre geduldigen Übens an Gitarre und Klavier zum internationalen Charterfolg mit ›Gold‹ fand; Loni Hui, die ihrem Pokerspiel erst ein Finanzstudium voranstellte, bevor sie zur zweifachen WSOP-Bracelet-Gewinnerin wurde; Madeline Stuart, die ihre eigene, sehr persönliche Geschichte in eine internationale Botschaft für Inklusion von Menschen mit Down-Syndrom in der Modeindustrie verwandelte; Mariacarla Boscono, die ihre mehr als zehnjährige, enge kreative Bindung an Riccardo Tisci bei Givenchy und Burberry aufrechterhielt, während sie zugleich zu einer der sichtbarsten Musen der internationalen Modewelt wurde."
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -63385,6 +63387,7 @@ function aiWeiweiPortraitPage() {
         {route:"beruehmte-jack-ma", label:"Porträt: Jack Ma (SE2w3)"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Porträt: Jimi Blue Ochsenknecht (SE2w3)"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7) – Vater"},
+        {route:"krankheitsportraets-ai-weiwei", label:"Krankheitsporträt: Ai Weiwei (SE2w3) – Polizeigewalt und Hirnblutung 2009"},
       ])}
     </div>
   `);
@@ -80963,6 +80966,7 @@ function fridaKahloKrankheitsportraetPage() {
         {route:"beruehmte-frida-kahlo", label:"Porträt: Frida Kahlo (SE2w3) – Lebenswerk"},
         {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Krankheitsporträt: Nusrat Fateh Ali Khan (SE2w3) – dieselbe Weigerung zurückzuweichen"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Krankheitsporträt: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"krankheitsportraets-ai-weiwei", label:"Krankheitsporträt: Ai Weiwei (SE2w3) – Gewalt, die zum Kunstwerk wurde"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
@@ -83537,6 +83541,191 @@ function helmutKohlKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-marx", label:"Krankheitsporträt: Karl Marx (SO8w9) – dasselbe Muster ungebrochener Kontrolle"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so8", label:"Subtyp-Profil SO8"},
+      ])}
+    </div>
+  `);
+}
+
+function aiWeiweiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ai-weiwei-portrait.jpg" alt="Ai Weiwei" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ai Weiwei</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel · geb. 1957</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ai Weiwei</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ai-weiwei">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein künstlerisches und
+        aktivistisches Lebenswerk. Diese Seite vertieft ein Kapitel, das dort nur gestreift
+        wird: Im August 2009 wurde Ai Weiwei von der chinesischen Polizei in Chengdu
+        krankenhausreif geschlagen, erlitt dadurch eine Hirnblutung und musste sich wenige
+        Wochen später in München einer Notoperation unterziehen – seither leidet er unter
+        chronischen Kopfschmerzen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Ai Weiwei</strong> ist dem <strong>selbsterhaltenden Typ 2 mit
+        Dreierflügel</strong> zugeordnet. Die SE2 sorgt sich direkt und körperlich um
+        andere, zuerst um die eigene Handlungsfähigkeit; der Dreierflügel bringt den Hunger
+        nach Sichtbarkeit und größtmöglicher Reichweite hinzu. Genau diese Kombination –
+        Fürsorge, die sich nicht zurückzieht, sondern öffentlich sichtbar wird – bestimmte
+        auch, wie Ai Weiwei mit der erlittenen Polizeigewalt und ihren Folgen umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Der Angriff in Chengdu im August 2009:</strong>
+        Ai Weiwei war nach Chengdu gereist, um als Zeuge im Prozess gegen den Aktivisten
+        Tan Zuoren auszusagen, der wie er die Erdbebenopfer von Sichuan untersucht hatte.
+        Polizisten drangen nachts in sein Hotelzimmer ein und schlugen ihn.</p>
+        <p class="vb-intro"><strong>b) Zunächst unbemerkte innere Verletzung:</strong>
+        Äußerlich zeigten sich zunächst keine dramatischen Spuren – die eigentliche
+        Verletzung, eine innere Hirnblutung, blieb tagelang unentdeckt.</p>
+        <p class="vb-intro"><strong>c) Diagnose erst Wochen später in Deutschland:</strong>
+        Erst im September 2009, während der Vorbereitung einer Ausstellung in München,
+        wurde bei starken Kopfschmerzen eine Hirnblutung festgestellt, die eine sofortige
+        Notoperation erforderlich machte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Erfolgreiche Notoperation in München:</strong>
+        Die Ärzte in München operierten Ai Weiwei umgehend und konnten die akute
+        Lebensgefahr abwenden.</p>
+        <p class="vb-intro"><strong>b) Chronische Kopfschmerzen als bleibende Folge:</strong>
+        Seit dem Vorfall leidet Ai Weiwei nach eigenen Angaben wiederkehrend unter starken
+        Kopfschmerzen – eine dauerhafte körperliche Erinnerung an die Gewalt, der er
+        ausgesetzt war.</p>
+        <p class="vb-intro"><strong>c) Keine Distanzierung von seiner Arbeit:</strong>
+        Statt sich aus Sorge um die eigene Gesundheit aus der aktivistischen Arbeit
+        zurückzuziehen, setzte Ai Weiwei seine öffentliche Kritik an der chinesischen
+        Regierung nach der Genesung unvermindert fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Verletzung wurde zum Kunstwerk:</strong>
+        Ai Weiwei dokumentierte die eigene Verletzung öffentlich, unter anderem mit dem
+        provokanten Selbstporträt-Titel "Fuck Off" und Röntgenbild-artigen Darstellungen
+        seines eigenen Kopfes – die eigene Verwundbarkeit wurde nicht verborgen, sondern zum
+        Beweisstück gegen die staatliche Gewalt gemacht.</p>
+        <p class="vb-intro"><strong>b) Rechtliche Gegenwehr trotz Risiko:</strong>
+        Ai Weiwei versuchte, die verantwortlichen Polizisten juristisch zur Rechenschaft zu
+        ziehen – ein Vorgehen, das in China erhebliche persönliche Risiken barg und
+        letztlich erfolglos blieb, ihn aber nicht von weiteren Klagen abhielt.</p>
+        <p class="vb-intro"><strong>c) Zunehmende staatliche Überwachung und Repression:</strong>
+        In den Jahren nach dem Vorfall verschärfte sich der Druck des chinesischen Staates
+        weiter, bis hin zur 81-tägigen Inhaftierung 2011 – ein eskalierendes Muster, in dem
+        die Hirnblutung von 2009 im Rückblick als früher Wendepunkt erscheint.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Internationale Aufmerksamkeit für den Fall:</strong>
+        Die Münchner Notoperation und ihre Umstände wurden international ausführlich
+        berichtet und machten den Fall Ai Weiwei einem breiten westlichen Publikum bekannt,
+        das seine Kunst zuvor kaum kannte.</p>
+        <p class="vb-intro"><strong>b) Ein Ereignis, das sein Werk mitprägte:</strong>
+        Die eigene Verletzung wurde zu einem wiederkehrenden Motiv in Ai Weiweis späterem
+        Werk – ein Beleg dafür, dass persönlich erlittene Gewalt bei ihm nie privat blieb,
+        sondern konsequent in öffentliche künstlerische Aussage überführt wurde.</p>
+        <p class="vb-intro"><strong>c) Kein Rückzug trotz eskalierender Bedrohung:</strong>
+        Weder die Kopfverletzung noch die spätere Inhaftierung 2011 brachten Ai Weiwei dazu,
+        seine kritische öffentliche Haltung aufzugeben – erst der eingezogene Reisepass
+        zwang ihn 2015 faktisch zum Exil.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Fürsorge, die aus der eigenen Verletzung Handlung macht:</strong>
+        Dieselbe SE2-Überzeugung, dass Anteilnahme sich in konkreter, sichtbarer Handlung
+        äußern muss, bestimmte auch, wie Ai Weiwei mit der eigenen Verletzung umging – nicht
+        durch stilles Verarbeiten, sondern durch öffentliche Dokumentation und künstlerische
+        Verarbeitung.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und die maximale Reichweite des eigenen Leidens:</strong>
+        Wo eine andere Person die eigene Verletzung privat gehalten hätte, suchte Ai Weiwei
+        aktiv die größtmögliche Öffentlichkeit dafür – dieselbe Logik, mit der er auch seine
+        Kunstwerke stets auf maximale mediale Reichweite hin anlegte.</p>
+        <p class="vb-intro"><strong>c) Stolz, der sich der Gewalt nicht beugt:</strong>
+        Die Leidenschaft der Zwei, gerichtet auf die eigene Unentbehrlichkeit und
+        Wirkmächtigkeit, zeigte sich in der Weigerung, die erlittene Gewalt als Niederlage
+        zu behandeln – sie wurde stattdessen zum Beweisstück der eigenen moralischen
+        Position gegenüber dem Staat.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der zum Beweismittel wurde:</strong>
+        Für Ai Weiwei, dessen gesamtes Schaffen darauf beruht, verschwiegene Wahrheiten
+        sichtbar zu machen, traf die Gewalt gegen seinen eigenen Körper genau jenen Nerv –
+        die Hirnblutung wurde nicht verdrängt, sondern in dieselbe Logik der Sichtbarmachung
+        überführt, die schon die 5.196 Namen der Erdbebenopfer geprägt hatte.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-frida-kahlo">Frida
+        Kahlo</a> (ebenfalls SE2w3) verwandelte die Schmerzen ihres eigenen, durch einen
+        Busunfall dauerhaft verletzten Körpers systematisch in ihr künstlerisches
+        Hauptthema, statt das Leiden zu verbergen; Ai Weiwei reagierte auf die ihm
+        zugefügte Gewalt mit derselben Grundhaltung – der eigene verletzte Körper wird nicht
+        versteckt, sondern zum zentralen, öffentlich sichtbaren Werkstoff. Beide Fälle
+        zeigen dasselbe SE2w3-Muster: Der eigene Schmerz wird nicht privatisiert, sondern
+        mit dem Dreierflügel-Hunger nach Reichweite in ein möglichst großes Publikum
+        getragen. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-frida-kahlo">Krankheitsporträt zu Frida Kahlo</a>.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Kopf?</strong>
+        Für eine selbsterhaltende Zwei mit Dreierflügel, deren gesamte Wirkung auf
+        Wahrnehmung, Kommunikation und der eigenen Stimme beruht, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, mit dem er dachte, sprach und die Welt beobachtete, wurde
+        zum Ort der Gewalt – eine direkte Bedrohung seines wichtigsten Werkzeugs als
+        Aktivist und Künstler. Diese Deutung ist eine plausible Interpretation, kein
+        belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu
+        Polizeigewalt und Hirnblutung führt – <strong>jeder Mensch kann jede Krankheit oder
+        Verletzung erleiden, unabhängig vom Subtyp.</strong> Was sich an Ai Weiweis Fall
+        zeigen lässt, ist ein Muster im Umgang mit erlittener Gewalt, das bei einer
+        ausgeprägten selbsterhaltenden Zwei mit Dreierflügel immer wieder auffällt – eine
+        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Ai Weiwei kannte sein eigenes Muster nicht – die selbsterhaltende Zwei mit
+        Dreierflügel verwandelt reflexhaft eigenes Leid in sichtbare, öffentliche Handlung,
+        statt es je privat zu verarbeiten, und genau dieses Muster lebte er nach der
+        Hirnblutung unverändert aus. Wer die eigene Notwendigkeit, Leid in Reichweite zu
+        verwandeln, nicht als Muster erkennt, kann auch angesichts einer lebensbedrohlichen
+        Verletzung nicht innehalten, um sich zu schonen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Zwei mit Dreierflügel erklärt bei <strong>Ai Weiwei</strong>
+        vieles am Umgang mit der eigenen Verletzung: ein Mann, dessen gesamtes Schaffen
+        darauf beruht, Verschwiegenes sichtbar zu machen, ließ sich selbst von einer
+        Hirnblutung nicht zum Schweigen bringen – das Flusspferd, das seine Wunde nicht
+        versteckt, sondern mitten im Revier zeigt, damit niemand sie übersehen kann.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ai-weiwei", label:"Porträt: Ai Weiwei (SE2w3) – das Flusspferd"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3) – dasselbe Muster sichtbaren Leidens"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
     </div>
   `);
@@ -124134,6 +124323,7 @@ function render() {
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
       "krankheitsportraets-jules-verne": julesVerneKrankheitsportraetPage,
       "krankheitsportraets-helmut-kohl": helmutKohlKrankheitsportraetPage,
+      "krankheitsportraets-ai-weiwei": aiWeiweiKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
