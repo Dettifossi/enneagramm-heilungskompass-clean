@@ -255,6 +255,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-adele", name:"Adele", subtyp:"SE4w3", heading:"Adele – Self-Preservation Type 4", krankheit:"Severe postnatal depression with panic attacks, kept private for almost a decade", teaser:"SE4w3 – singer and songwriter, b. 1988. Postnatal depression after the birth of her son in 2012, accompanying panic attacks before performances, publicly disclosed only in 2021." , land:"United Kingdom", gender:"f", jahre:"b. 1988"},
   { route:"krankheitsportraets-jamie-lee-curtis", name:"Jamie Lee Curtis", subtyp:"SX1w2", heading:"Jamie Lee Curtis – Sexual Type 1", krankheit:"22-year opioid dependency after cosmetic surgery", teaser:"SX1w2 – actress and activist, b. 1958. Opioid dependency beginning in 1989 after a cosmetic procedure, kept secret for over ten years, sober since 19 February 1999." , land:"USA", gender:"f", jahre:"b. 1958"},
   { route:"krankheitsportraets-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9", heading:"Genesis P-Orridge – Sexual Type 8", krankheit:"Leukemia, progressing over years, died 2020", teaser:"SX8w9 – musician, performance artist, and occultist, 1950–2020. Leukemia spanning several years, artistically active until shortly before death, died on 14 March 2020 in New York." , land:"United Kingdom", gender:"nonbinary", jahre:"1950–2020"},
+  { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexual Type 4", krankheit:"Tourette syndrome, kept secret for years; severe depressive period with self-harm as a teenager", teaser:"SX4w3 – singer and songwriter, b. 2001. Tourette syndrome since childhood, publicly confirmed only in 2018; also severe depression with self-harm from around age twelve, documented in 2021." , land:"USA", gender:"f", jahre:"b. 2001"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -24499,6 +24500,7 @@ function billieEilishPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-rihanna", label:"Portrait: Rihanna (SX4w3)"},
+        {route:"krankheitsportraets-billie-eilish", label:"Illness Portrait: Billie Eilish (SX4w3) – Tourette syndrome"},
       ])}
     </div>
   `);
@@ -50220,6 +50222,7 @@ function freddieMercuryKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3) – life's work"},
+        {route:"krankheitsportraets-billie-eilish", label:"Illness Portrait: Billie Eilish (SX4w3) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
       ])}
@@ -59140,6 +59143,170 @@ function genesisPOrridgeKrankheitsportraetPage() {
         {route:"krankheitsportraets-ruth-bader-ginsburg", label:"Illness Portrait: Ruth Bader Ginsburg (SX8w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx8", label:"Subtype Profile SX8"},
+      ])}
+    </div>
+  `);
+}
+
+function billieEilishKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-billie-eilish-portrait.jpg" alt="Billie Eilish" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Billie Eilish</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with Three-Wing · b. 2001</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Animal correspondence: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Billie Eilish</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-billie-eilish">Famous
+        Personalities portrait</a>. This page delves into a chapter only briefly mentioned
+        there: Tourette syndrome, which she kept from the public for years before confirming
+        it herself in 2018, as well as a severe depressive period with self-harm during her
+        teenage years.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Eilish</strong> is assigned to the <strong>sexual Type 4 with Three-Wing</strong>.
+        The SX4 carries pain raw and unfiltered outward; the Three-Wing simultaneously gives
+        her a sense of how much of that can be shown publicly without jeopardizing her own
+        impact. Exactly this combination – uncompromising honesty in her music, combined with
+        strategic restraint on certain health topics – shaped how she dealt with her own
+        Tourette syndrome and depression.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Tics already in childhood:</strong>
+        By her own account, Eilish first noticed tics as a child, long before a diagnosis was
+        made or the topic became publicly known.</p>
+        <p class="vb-intro"><strong>b) Diagnosis of Tourette syndrome:</strong>
+        Eilish was diagnosed with Tourette syndrome, a neurological disorder characterized
+        by involuntary movements and vocalizations.</p>
+        <p class="vb-intro"><strong>c) Onset of a depressive period in early adolescence:</strong>
+        In parallel, she later described in the documentary "The World's a Little Blurry"
+        (2021) a severe depressive episode that began around age twelve.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Years of deliberately keeping the Tourette syndrome secret:</strong>
+        Eilish kept the diagnosis from the public for years, out of concern about being
+        reduced to the condition or constantly asked about it in interviews.</p>
+        <p class="vb-intro"><strong>b) Self-harming behavior as part of the depressive period:</strong>
+        In the same documentary, she spoke openly about self-harming behavior during this
+        time as well as ongoing suicidal thoughts.</p>
+        <p class="vb-intro"><strong>c) Body-image strain from public attention:</strong>
+        By her own account, the public attention that began at age fourteen intensified an
+        already strained relationship with her own body.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Public confirmation of Tourette syndrome in 2018:</strong>
+        Eilish first publicly confirmed the diagnosis in a 2018 interview, after fans had
+        discussed video footage of her tics online.</p>
+        <p class="vb-intro"><strong>b) Open engagement with misconceptions:</strong>
+        Since then she has repeatedly explained in interviews how Tourette manifests for
+        her, publicly correcting common misconceptions about the condition.</p>
+        <p class="vb-intro"><strong>c) Extensive documentation of the depressive period:</strong>
+        The 2021 documentary follows Eilish over several years and includes unedited footage
+        from the time of her most severe depressive episode.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide attention for a little-known condition:</strong>
+        Eilish's openness about Tourette contributed internationally to reducing
+        misconceptions about the condition, since she is one of the best-known public
+        figures with this diagnosis.</p>
+        <p class="vb-intro"><strong>b) Positive response to the documentary:</strong>
+        The unflinching openness of the documentary about depression and self-harm was
+        praised by critics and young fans alike as exceptionally honest.</p>
+        <p class="vb-intro"><strong>c) Continued artistic processing:</strong>
+        Themes like body image, mental health, and the pressure of public attention remained
+        central motifs of her later albums, without the conditions themselves becoming a
+        marketing topic.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Unfiltered honesty in music, restraint about the Tourette syndrome:</strong>
+        The SX4's characteristic uncompromising nature showed without limit in Eilish's
+        lyrics – with the Tourette syndrome, however, she consciously chose restraint for
+        years, out of concern about being reduced to the diagnosis.</p>
+        <p class="vb-intro"><strong>b) The Three-Wing and the controlled public disclosure:</strong>
+        When Eilish finally addressed the Tourette diagnosis, it did not happen spontaneously
+        but within a controlled interview setting – the same strategic precision with which
+        the Three-Wing also shaped her musical career.</p>
+        <p class="vb-intro"><strong>c) The documentary as a form of controlled vulnerability:</strong>
+        That the deepest disclosure of her own depressive period happened in a carefully
+        produced documentary rather than a spontaneous interview fits the SX4w3 dynamic: raw
+        honesty, but given an effective form.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A voice of uncompromising honesty who kept a diagnosis secret for years:</strong>
+        Eilish's entire body of work rests on the refusal to sugarcoat anything – of all
+        things, Tourette syndrome remained the one exception to this principle for years,
+        until she herself decided when and how it would become public.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel appears with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Freddie
+        Mercury (SX4w3)</a>: Mercury too concealed a health diagnosis from the public for
+        years, before finally confirming it at a moment of his own choosing. Both SX4w3s show
+        the same pattern: control over the timing of one's own disclosure becomes the last
+        remaining form of self-determination in the face of a diagnosis one did not choose.</p>
+        <p class="vb-intro"><strong>c) Why involuntary movements, of all things, for an artist of precise control?</strong>
+        For a sexual Four with a Three-Wing whose entire work rests on precise control over
+        image, sound, and performance, one interpretation suggests itself: of all things, a
+        neurological disorder manifesting as uncontrollable movements and sounds affected an
+        artist whose public image lives on perfectly orchestrated self-presentation. This
+        reading is a plausible interpretation, not a proven clinical causal link, and will be
+        developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the sexual Four's pattern inevitably leads to Tourette
+        syndrome or depression – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What can be shown in Eilish's case is a pattern in dealing with an
+        unchosen health diagnosis that keeps recurring in a pronounced sexual Four with a
+        Three-Wing – one of many possible readings, not a verdict. The corresponding illness
+        pattern is being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Eilish does not know her own pattern as an Enneagram structure – the sexual Four with
+        a Three-Wing reflexively clings to control over when and how her own inner life is
+        shown, even if that means carrying a burdensome diagnosis alone for years, and
+        largely lives out exactly this pattern unchanged to this day. Anyone who does not
+        recognize their own tendency to strictly time and stage openness as a pattern risks
+        that exactly the topics needing support most urgently stay hidden the longest.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Type 4 with Three-Wing explains much about how <strong>Billie
+        Eilish</strong> dealt with Tourette syndrome and depression: an artist whose entire
+        work rests on uncompromising honesty consciously decided for herself when that
+        honesty about her own health diagnoses would begin – the chihuahua who does not need
+        to get louder to be heard, only as honest as she can allow herself to be.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Illness Portrait: Freddie Mercury (SX4w3) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx4", label:"Subtype Profile SX4"},
       ])}
     </div>
   `);
@@ -92266,6 +92433,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-adele": adeleKrankheitsportraetPage,
       "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
       "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
+      "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
