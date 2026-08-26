@@ -117684,7 +117684,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Ein Leben ohne bewusst gesetzte Pausen kennt kaum eine anerkannte Belastungsgrenze – so hält sich die selbsterhaltende Sieben ständig neue Optionen und Aktivitäten offen, springt von einem Projekt zum nächsten, bis der Körper selbst, oft überraschend, genau diese Grenze in Form eines wiederkehrenden Schmerzes markiert." },
       { code: "SO7", text: "Der soziale Kontratyp der Sieben bewegt sich oft ungewöhnlich lange auf engem Raum, gebunden an Verpflichtungen, denen sie sich moralisch verpflichtet fühlt, statt sich – wie der reine Typ – frei zwischen Optionen zu bewegen. Dieser Mangel an selbstgewählter Bewegung kann sich in den Beinen als Stauung zeigen." },
-      { code: "SX7", text: "Oft mit erhöhtem Risiko für Nikotin- oder Alkoholkonsum, die die Herzkranzgefäße zusätzlich belasten können, lebt die sexuelle Sieben Begeisterung grenzenlos und impulsiv – diese Kombination aus rastloser Intensität und stoffgebundenem Risikoverhalten liest die Psychosomatik als eines der direkteren Bilder für eine wiederkehrend überschrittene körperliche Grenze." },
+      { code: "SX7", text: "Oft mit erhöhtem Risiko für Nikotin- oder Alkoholkonsum, die die Herzkranzgefäße zusätzlich belasten können, lebt die sexuelle Sieben Begeisterung grenzenlos und impulsiv – diese Kombination aus rastloser Intensität und stoffgebundenem Risikoverhalten passt psychosomatisch auffällig gut zu einer wiederkehrend überschrittenen körperlichen Grenze." },
         ],
       },
       {
@@ -117963,7 +117963,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Diese permanente Zerstreuung kann verhindern, dass die selbsterhaltende Sieben je bei der eigenen, tieferen Erschöpfung ankommt – sie hält sich ständig in Bewegung, springt von einem Projekt, einem Genuss, einer Ablenkung zur nächsten. Diese Erschöpfung staut sich unbemerkt auf, bis sie sich unvermittelt zeigt, oft verstärkt durch Alkohol, Nikotin oder andere Risikofaktoren." },
       { code: "SO7", text: "Weil der soziale Kontratyp der Sieben Erholung selbst als eine Art Pflichtverletzung erlebt, fehlt ihm regelmäßig genau die Regenerationsphase, die ein überlasteter Kreislauf bräuchte – ein struktureller Mangel an echter Entspannung, der sich als dauerhaft zu geringer Antrieb zeigen kann." },
-      { code: "SX7", text: "Oft mit erhöhtem Risiko für Suchtverhalten lebt die sexuelle Sieben Begeisterung grenzenlos und impulsiv aus – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine plötzliche, dramatische Entladung." },
+      { code: "SX7", text: "Oft mit erhöhtem Risiko für Suchtverhalten lebt die sexuelle Sieben Begeisterung grenzenlos und impulsiv aus – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko erinnert psychosomatisch stark an eine plötzliche, dramatische Entladung." },
         ],
       },
       {
@@ -118707,7 +118707,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
       { code: "SE7", text: "Als Belohnung für sich selbst genießt die selbsterhaltende Sieben Essen, Trinken und Vergnügen oft ausgiebig – wiederholter, purinreicher Genuss über Jahre, verbunden mit der Weigerung, echte Grenzen zu setzen, passt besonders direkt zum mechanischen Entstehungsmuster der Gicht: eine Ansammlung, die sich irgendwann als scharfer Anfall Bahn bricht." },
       { code: "SO7", text: "Oft zurückgehalten werden eigene Genüsse und Bedürfnisse aus Pflichtgefühl bei der sozialen Sieben, dem Kontratyp – dieser gebremste, nie ausgelebte Genuss unterscheidet sich vom eher direkten Konsummuster der ungebremsten Sieben und kann seltener zur klassischen Ansammlung führen." },
-      { code: "SX7", text: "Oft verbunden mit intensivem Konsum von Nahrung, Alkohol oder anderen Genussmitteln lebt die sexuelle Sieben Begeisterung grenzenlos aus – diese impulsive, wiederholte Intensität liest die Psychosomatik als eines der direkteren Bilder für eine Ansammlung, die sich irgendwann explosionsartig entlädt." },
+      { code: "SX7", text: "Oft verbunden mit intensivem Konsum von Nahrung, Alkohol oder anderen Genussmitteln lebt die sexuelle Sieben Begeisterung grenzenlos aus – diese impulsive, wiederholte Intensität fügt sich psychosomatisch nahtlos ins Bild einer Ansammlung, die sich irgendwann explosionsartig entlädt." },
         ],
       },
       {
@@ -119172,7 +119172,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE7", text: "Zwischen Möglichkeiten springt die selbsterhaltende Sieben, ohne je wirklich bei einer anzukommen, immer mit einer Vielzahl paralleler Optionen im Rücken – diese permanente Zerstreuung kann sich körperlich als eine flatterhafte, nie zur vollen Tiefe findende Atmung zeigen." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse konsequent zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – diese selbstauferlegte Überforderung kann sich als eine Atmung zeigen, die sich selbst kaum je die nötige Pause zum Durchatmen gönnt." },
-          { code: "SX7", text: "Erhöhtes Risiko für Rauchen oder andere Reizstoffe, die die Atemwege zusätzlich belasten können, begleitet oft die grenzenlose, impulsive Begeisterung der sexuellen Sieben – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko liest die Psychosomatik als eines der direkteren Bilder für eine gereizte, überlastete Lunge." },
+          { code: "SX7", text: "Erhöhtes Risiko für Rauchen oder andere Reizstoffe, die die Atemwege zusätzlich belasten können, begleitet oft die grenzenlose, impulsive Begeisterung der sexuellen Sieben – diese Kombination aus rastloser Intensität und stoffgebundenem Risiko passt psychosomatisch auffällig gut zu einer gereizten, überlasteten Lunge." },
         ],
       },
       {
@@ -119356,7 +119356,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       {
         typ: 7, titel: "Genussmittel, die die Atemwege direkt reizen",
         varianten: [
-          { code: "SE7", text: "Rauchen als Mittel der Selbstberuhigung gehört bei der selbsterhaltenden Sieben oft mit zu ihrem Repertoire an Absicherungen – dieser direkte Griff zu Reizstoffen liest die Psychosomatik als eines der unmittelbarsten Bilder für die chronische Bronchitis: eine Schleimhaut, die sich an wiederholte äußere Reizung gewöhnt hat." },
+          { code: "SE7", text: "Rauchen als Mittel der Selbstberuhigung gehört bei der selbsterhaltenden Sieben oft mit zu ihrem Repertoire an Absicherungen – dieser direkte Griff zu Reizstoffen passt psychosomatisch auffällig gut zur chronischen Bronchitis: eine Schleimhaut, die sich an wiederholte äußere Reizung gewöhnt hat." },
           { code: "SO7", text: "Die soziale Sieben, der Kontratyp, stellt eigene Bedürfnisse zugunsten anderer zurück, oft bis zur eigenen Erschöpfung – ein wiederkehrender Husten kann dabei leicht übersehen werden, weil die Aufmerksamkeit konsequent bei den Bedürfnissen anderer liegt." },
           { code: "SX7", text: "Intensiver Konsum von Genussmitteln begleitet bei der sexuellen Sieben oft die grenzenlos gelebte Begeisterung – diese impulsive Intensität liest die Psychosomatik als einen der direkteren Wege zu einer gereizten, chronisch entzündeten Bronchialschleimhaut." },
         ],
@@ -119837,7 +119837,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Maßlosigkeit, die den Darm überfordert", varianten: [
         { code: "SE7", text: "Zwischen Terminen und Vergnügungen isst die selbsterhaltende Sieben oft hastig und unregelmäßig, immer auf der Suche nach der nächsten Annehmlichkeit. Diese permanente Zerstreuung kann sich körperlich als ein Darm zeigen, der nie wirklich zur Ruhe kommt, weil er ständig mit wechselnden Reizen konfrontiert wird." },
         { code: "SO7", text: "Bis zur eigenen Erschöpfung stellt die soziale Sieben, der Kontratyp, ihre Bedürfnisse zugunsten anderer zurück – diese selbstauferlegte Überforderung kann sich als ein Darm zeigen, der sich selbst kaum je die nötige Pause zur Erholung gönnt." },
-        { code: "SX7", text: "Grenzenlos und impulsiv lebt die sexuelle Sieben ihre Begeisterung aus, oft verbunden mit unregelmäßigem Essen und intensivem Genussmittelkonsum. Diese Kombination aus rastloser Intensität und stoffgebundener Reizung liest die Psychosomatik als eines der direkteren Bilder für einen gereizten, überlasteten Darm." },
+        { code: "SX7", text: "Grenzenlos und impulsiv lebt die sexuelle Sieben ihre Begeisterung aus, oft verbunden mit unregelmäßigem Essen und intensivem Genussmittelkonsum. Diese Kombination aus rastloser Intensität und stoffgebundener Reizung passt psychosomatisch auffällig gut zu einem gereizten, überlasteten Darm." },
       ]},
       { typ: 8, titel: "Kontrolle, die keine Verletzlichkeit im Bauch zulässt", varianten: [
         { code: "SE8", text: "Handfeste Kontrolle über materielle und körperliche Ressourcen sichert der selbsterhaltenden Acht ihre Existenz – Bauchschmerzen als Zeichen von Verletzlichkeit werden zunächst ignoriert, bis sie sich nicht mehr wegdrücken lassen und die sonst so verlässliche Handlungsfähigkeit einschränken." },
@@ -119894,9 +119894,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX6", text: "Eher direkt als über einen stellvertretenden Reflux entlädt die sexuelle Sechs ihre Angst durch aktive Konfrontation – diese unmittelbarere Reaktion steht dem chronischen Sodbrennen anderer Sechser-Varianten entgegen." },
       ]},
       { typ: 7, titel: "Genussmittel, die den Magen direkt reizen", varianten: [
-        { code: "SE7", text: "Fettiges Essen, Kaffee oder Alkohol dienen der selbsterhaltenden Sieben oft als Mittel der Selbstbelohnung – eine Vielzahl kulinarischer Annehmlichkeiten soll für Sicherheit sorgen. Dieser direkte Griff zu magenreizenden Genussmitteln liest die Psychosomatik als eines der unmittelbarsten Bilder für Reflux." },
+        { code: "SE7", text: "Fettiges Essen, Kaffee oder Alkohol dienen der selbsterhaltenden Sieben oft als Mittel der Selbstbelohnung – eine Vielzahl kulinarischer Annehmlichkeiten soll für Sicherheit sorgen. Dieser direkte Griff zu magenreizenden Genussmitteln fügt sich psychosomatisch nahtlos ins Bild des Reflux." },
         { code: "SO7", text: "Konsequent bei den Bedürfnissen anderer liegt die Aufmerksamkeit der sozialen Sieben, dem Kontratyp – ein wiederkehrendes Brennen kann dabei leicht übersehen werden, weil die eigene Erschöpfung selten zur Sprache kommt." },
-        { code: "SX7", text: "Spätes, üppiges Essen und intensiver Genussmittelkonsum begleiten die grenzenlose Begeisterung der sexuellen Sieben. Diese impulsive Intensität liest die Psychosomatik als einen der direkteren Wege zu einer gereizten, chronisch entzündeten Speiseröhrenschleimhaut." },
+        { code: "SX7", text: "Spätes, üppiges Essen und intensiver Genussmittelkonsum begleiten die grenzenlose Begeisterung der sexuellen Sieben. Diese impulsive Intensität fügt sich psychosomatisch nahtlos ins Bild einer gereizten, chronisch entzündeten Speiseröhrenschleimhaut." },
       ]},
       { typ: 8, titel: "Kontrolle, die Sodbrennen als Schwäche übergeht", varianten: [
         { code: "SE8", text: "Schwäche einzugestehen widerspricht dem Selbstverständnis der selbsterhaltenden Acht fundamental – körperliche Warnsignale werden konsequent übergangen, ein anhaltendes Brennen schlicht ignoriert, bis es sich als chronisches Muster festgesetzt hat." },
@@ -119953,9 +119953,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX6", text: "Nach außen statt in Selbstvorwürfe verwandelt die sexuelle Sechs ihre Angst durch aktive Konfrontation – diese unmittelbarere Reaktion steht der nach innen gerichteten Selbstanklage anderer Sechser-Varianten eher entgegen." },
       ]},
       { typ: 7, titel: "Genussmittel und Selbstvorwurf, die den Magen doppelt belasten", varianten: [
-        { code: "SE7", text: "Heimliche Vorwürfe über mangelnde Disziplin folgen bei der selbsterhaltenden Sieben oft dem Griff zu Annehmlichkeiten und Genussmitteln, die ihr eigentlich Sicherheit geben sollen. Diese Kombination aus direkter Reizung und nach innen gerichteter Selbstkritik liest die Psychosomatik als eines der direkteren Bilder für ein Magengeschwür." },
+        { code: "SE7", text: "Heimliche Vorwürfe über mangelnde Disziplin folgen bei der selbsterhaltenden Sieben oft dem Griff zu Annehmlichkeiten und Genussmitteln, die ihr eigentlich Sicherheit geben sollen. Diese Kombination aus direkter Reizung und nach innen gerichteter Selbstkritik erinnert psychosomatisch stark an ein Magengeschwür." },
         { code: "SO7", text: "Für sich selbst zu sorgen erlaubt sich die soziale Sieben, der Kontratyp, selten – eigene Bedürfnisse werden zugunsten anderer zurückgestellt, oft bis zur eigenen Erschöpfung. Dieser chronische innere Verzicht kann sich körperlich als ein ungeschützter Magen zeigen." },
-        { code: "SX7", text: "Unregelmäßiges Essen, Alkohol oder Nikotin begleiten die grenzenlose Begeisterung der sexuellen Sieben. Diese impulsive, stoffgebundene Intensität liest die Psychosomatik als einen der direkteren Wege zu einer geschädigten Magenschleimhaut." },
+        { code: "SX7", text: "Unregelmäßiges Essen, Alkohol oder Nikotin begleiten die grenzenlose Begeisterung der sexuellen Sieben. Diese impulsive, stoffgebundene Intensität erinnert psychosomatisch stark an eine geschädigte Magenschleimhaut." },
       ]},
       { typ: 8, titel: "Kontrolle, die keine eigene Schwäche zulässt", varianten: [
         { code: "SE8", text: "Keine Schwäche duldet die selbsterhaltende Acht, auch nicht die eigene – ungeduldig richtet sich scharfe innere Kritik gegen jedes Zeichen von Verletzlichkeit. Diese Weigerung, sich selbst Nachsicht zu gewähren, kann sich körperlich als eine ungeschützte, gereizte Magenschleimhaut zeigen." },
@@ -120130,9 +120130,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX6", text: "Schnell und direkt, statt in Unentschlossenheit zu verharren, entscheidet sich die sexuelle Sechs durch aktive Konfrontation – diese unmittelbarere Klärung steht der stillen, verhärtenden Unentschlossenheit anderer Sechser-Varianten entgegen." },
       ]},
       { typ: 7, titel: "Genussmittel, die die Galle direkt belasten", varianten: [
-        { code: "SE7", text: "Fettreiches Essen als Mittel der Selbstbelohnung gehört zum Repertoire der selbsterhaltenden Sieben, die sich über eine Vielzahl kulinarischer Annehmlichkeiten absichert. Dieser direkte Griff zu gallenreizenden Genüssen liest die Psychosomatik als eines der unmittelbarsten Bilder für Gallensteine." },
+        { code: "SE7", text: "Fettreiches Essen als Mittel der Selbstbelohnung gehört zum Repertoire der selbsterhaltenden Sieben, die sich über eine Vielzahl kulinarischer Annehmlichkeiten absichert. Dieser direkte Griff zu gallenreizenden Genüssen passt psychosomatisch auffällig gut zu Gallensteinen." },
         { code: "SO7", text: "Aufgestaute Bitterkeit über den eigenen Verzicht kann bei der sozialen Sieben, dem Kontratyp, leicht übersehen werden, weil die Aufmerksamkeit konsequent bei den Bedürfnissen anderer liegt und die eigenen zurückgestellt werden." },
-        { code: "SX7", text: "Üppiges, fettreiches Essen und schnelle Diäten dazwischen begleiten die grenzenlose Begeisterung der sexuellen Sieben. Diese Kombination aus Exzess und raschem Gewichtswechsel liest die Psychosomatik als einen der direkteren Wege zu Gallensteinen." },
+        { code: "SX7", text: "Üppiges, fettreiches Essen und schnelle Diäten dazwischen begleiten die grenzenlose Begeisterung der sexuellen Sieben. Diese Kombination aus Exzess und raschem Gewichtswechsel passt psychosomatisch auffällig gut zu Gallensteinen." },
       ]},
       { typ: 8, titel: "Kontrolle, die keine eigene Bitterkeit zulässt", varianten: [
         { code: "SE8", text: "Konsequent übergangen wird bei der selbsterhaltenden Acht innere Kränkung, statt sie aufzulösen – keine Schwäche wird geduldet, auch nicht die eigene Bitterkeit. Diese Weigerung, sich mit dem eigenen Groll auseinanderzusetzen, kann sich körperlich als ein verhärtetes Gallensystem zeigen." },
@@ -120307,9 +120307,9 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX6", text: "Sichtbar und direkt entlädt sich die Angst der sexuellen Sechs durch aktive Konfrontation – diese unmittelbarere Reaktion steht dem stillen, über Jahre fortgesetzten Ansammeln anderer Sechser-Varianten entgegen." },
       ]},
       { typ: 7, titel: "Genussmittel, die die Leber über Jahre still belasten", varianten: [
-        { code: "SE7", text: "Regelmäßiger Alkohol- oder Zuckerkonsum dient der selbsterhaltenden Sieben über Jahre als Mittel der Selbstberuhigung, eingebettet in eine Vielzahl kulinarischer Annehmlichkeiten. Dieser über lange Zeit fortgesetzte Griff zu leberbelastenden Genüssen liest die Psychosomatik als eines der unmittelbarsten Bilder für eine Fettleber." },
+        { code: "SE7", text: "Regelmäßiger Alkohol- oder Zuckerkonsum dient der selbsterhaltenden Sieben über Jahre als Mittel der Selbstberuhigung, eingebettet in eine Vielzahl kulinarischer Annehmlichkeiten. Dieser über lange Zeit fortgesetzte Griff zu leberbelastenden Genüssen fügt sich psychosomatisch nahtlos ins Bild einer Fettleber." },
         { code: "SO7", text: "Über Jahre zugunsten anderer zurückgestellt werden bei der sozialen Sieben, dem Kontratyp, die eigenen Bedürfnisse, oft bis zur eigenen Erschöpfung. Diese chronische, stille Selbstüberforderung kann sich körperlich als eine überlastete Leber zeigen." },
-        { code: "SX7", text: "Reichhaltiges Essen und regelmäßiger Genussmittelkonsum begleiten die über Jahre grenzenlos gelebte Begeisterung der sexuellen Sieben. Diese fortgesetzte, stoffgebundene Intensität liest die Psychosomatik als einen der direkteren Wege zu einer überlasteten Leber." },
+        { code: "SX7", text: "Reichhaltiges Essen und regelmäßiger Genussmittelkonsum begleiten die über Jahre grenzenlos gelebte Begeisterung der sexuellen Sieben. Diese fortgesetzte, stoffgebundene Intensität fügt sich psychosomatisch nahtlos ins Bild einer überlasteten Leber." },
       ]},
       { typ: 8, titel: "Kontrolle, die über Jahre keine eigene Erschöpfung zulässt", varianten: [
         { code: "SE8", text: "Keine Nachsicht mit sich selbst gönnt sich die selbsterhaltende Acht über Jahre, Erschöpfungssignale werden konsequent übergangen, Schwäche geduldet wird nicht. Diese Weigerung kann sich still, ohne Warnsignale, körperlich als Fetteinlagerung in der Leber zeigen." },
