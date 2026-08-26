@@ -23616,7 +23616,7 @@ const DIFFERENZIERUNGEN = {
 const registerEntries = [
 
   // Astrologie-Portraits
-  { term: "Albert Einstein (Astrologie)",   route: "astrologie-albert-einstein",    description: "Astrologie-Portrait: Steinbock, Fische-Aszendent, Enneagramm-Typ 5 · Genie, Relativität & innere Freiheit" },
+  { term: "Albert Einstein (Astrologie)",   route: "astrologie-albert-einstein",    description: "Astrologie-Portrait: Steinbock, Fische-Aszendent, Enneagrammtyp 5 · Genie, Relativität & innere Freiheit" },
   { term: "Angela Merkel (Astrologie)",     route: "astrologie-angela-merkel",      description: "Astrologie-Portrait: Krebs, Sagittarius-Aszendent · Physikerin, Kanzlerin, emotionale Stabilität" },
   { term: "Boris Becker (Astrologie)",      route: "astrologie-boris-becker",       description: "Astrologie-Portrait: Aszendent, Planeten · Tennislegende im astrologischen Spiegel" },
   { term: "Gerhard Schröder (Astrologie)", route: "astrologie-gerhard-schroeder", description: "Astrologie-Portrait: Kanzler, Machtmensch · Planetenkonstellationen" },
@@ -23624,7 +23624,7 @@ const registerEntries = [
   { term: "Marilyn Monroe (Astrologie)",    route: "astrologie-marilyn-monroe",     description: "Astrologie-Portrait: Zwillinge, Aszendent · Ikone, Verletzlichkeit & Genie" },
   { term: "Reinhold Messner (Astrologie)",  route: "astrologie-reinhold-messner",   description: "Astrologie-Portrait: Bergsteiger-Legende · Planeten & Grenzgänger" },
   { term: "Romy Schneider (Astrologie)",    route: "astrologie-romy-schneider",     description: "Astrologie-Portrait: Filmikone, Sissie · Planetenkonstellationen" },
-  { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagramm-Typen und astrologischen Zeichen" },
+  { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagrammtypen und astrologischen Zeichen" },
   { term: "Enneagramm-Kunstgalerie",        route: "enneagramm-kunst",              description: "9 Galerien mit je 6 Kunstwerken – klassische Gemälde als Spiegel der 9 Enneagrammtypen" },
   { term: "Enneagramm-Filmempfehlungen",    route: "enneagramm-filme",              description: "270 Filmtipps für alle 27 Subtypen – je zehn Filme pro Subtyp" },
 
@@ -23635,7 +23635,7 @@ const registerEntries = [
   { term: "David Rathmer – Impulse",         route: "david-rathmer-impulse",         description: "David L. Rathmer: Kurzimpulse & Coaching-Gedanken zum Enneagramm" },
   { term: "David Rathmer – Kriminalpsychologie", route: "david-rathmer-kriminalfaelle", description: "David L. Rathmer: Enneagramm-Analyse bekannter Kriminalpsychologie-Fälle" },
   { term: "David Rathmer – Persönlichkeiten", route: "david-rathmer-persoenlichkeiten", description: "David L. Rathmer: Enneagramm-Portraits bekannter Persönlichkeiten" },
-  { term: "Detlef Rathmer – Jazz",           route: "detlef-rathmer-jazz",           description: "Detlef Rathmer: Jazz-Empfehlungen passend zu den Enneagramm-Typen" },
+  { term: "Detlef Rathmer – Jazz",           route: "detlef-rathmer-jazz",           description: "Detlef Rathmer: Jazz-Empfehlungen passend zu den Enneagrammtypen" },
 
   // Homöopathie
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
@@ -23643,9 +23643,9 @@ const registerEntries = [
   { term: "Homöopathie-Songs",           route: "homoeopathie-songs",            description: "Schaubild: Musik trifft Homöopathie – Songs als Spiegel der Homöopathie-Mittel" },
 
   // Weitere Inhaltsseiten
-  { term: "Berühmte Komponisten",         route: "beruhmte-komponisten",          description: "Portrait-Übersicht: bekannte Komponisten und ihre Enneagramm-Typen" },
+  { term: "Berühmte Komponisten",         route: "beruhmte-komponisten",          description: "Portrait-Übersicht: bekannte Komponisten und ihre Enneagrammtypen" },
   { term: "Dynamik der Typen",               route: "dynamik-der-typen",             description: "Schaubild: Wie sich die 9 Typen in Stress und Wachstum verändern" },
-  { term: "Musik",                           route: "musik",                         description: "Musikempfehlungen passend zum Enneagramm-Typ · Playlist-Zuordnungen" },
+  { term: "Musik",                           route: "musik",                         description: "Musikempfehlungen passend zum Enneagrammtyp · Playlist-Zuordnungen" },
   { term: "Persönlichkeitsmodelle im Vergleich", route: "persoenlichkeitsmodelle-vergleich", description: "Schaubild: Enneagramm vs. MBTI, Big Five, DISG und andere Modelle" },
   { term: "Portraits Wegbegleiter",          route: "portraits-wegbegleiter",        description: "Enneagramm-Portraits persönlicher Wegbegleiter und Lehrfiguren" },
   { term: "Praxistipps vom Heilpraktiker",   route: "praxistipps-heilpraktiker",     description: "Körperorientierte Praxistipps aus der Heilpraxis von Detlef Rathmer" },
@@ -23661,19 +23661,19 @@ const registerEntries = [
   { term: "Die Praxis des bewussten Innehaltens", route: "praxistipps-heilpraktiker/bewusstes-innehalten", description: "›Let it be‹ im Alltag: reine Wahrnehmung als Übung zurück zur eigenen Essenz" },
   { term: "Die Zungenstreck-Übung zur Stressregulation", route: "praxistipps-heilpraktiker/zungenstreck-uebung", description: "Von Einstein, Vagusnerv und tierischen Instinkten: Zungenstrecken zur akuten Stressregulation" },
   { term: "Wer lenkt hier eigentlich wen?", route: "praxistipps-heilpraktiker/ich-illusion", description: "Der sanfte Ausweg aus der Ich-Illusion: Konditionierung, Enneagramm-Fixierung und innerer Frieden" },
-  { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
+  { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagrammtyp" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
   // Typ-Portraits (alle 9 Typen)
-  { term: "Porträt Typ 1",               route: "portrait-typ-1",                description: "Persönlichkeitsporträt des Enneagramm-Typs 1 · Wut, Ordnung, Perfektion" },
-  { term: "Porträt Typ 2",               route: "portrait-typ-2",                description: "Persönlichkeitsporträt des Enneagramm-Typs 2 · Stolz, Helfen, Beziehung" },
-  { term: "Porträt Typ 3",               route: "portrait-typ-3",                description: "Persönlichkeitsporträt des Enneagramm-Typs 3 · Eitelkeit, Erfolg, Image" },
-  { term: "Porträt Typ 4",               route: "portrait-typ-4",                description: "Persönlichkeitsporträt des Enneagramm-Typs 4 · Neid, Identität, Tiefe" },
-  { term: "Porträt Typ 5",               route: "portrait-typ-5",                description: "Persönlichkeitsporträt des Enneagramm-Typs 5 · Geiz, Wissen, Rückzug" },
-  { term: "Porträt Typ 6",               route: "portrait-typ-6",                description: "Persönlichkeitsporträt des Enneagramm-Typs 6 · Angst, Sicherheit, Loyalität" },
-  { term: "Porträt Typ 7",               route: "portrait-typ-7",                description: "Persönlichkeitsporträt des Enneagramm-Typs 7 · Maßlosigkeit, Freude, Optionen" },
-  { term: "Porträt Typ 8",               route: "portrait-typ-8",                description: "Persönlichkeitsporträt des Enneagramm-Typs 8 · Wollust, Macht, Direktheit" },
-  { term: "Porträt Typ 9",               route: "portrait-typ-9",                description: "Persönlichkeitsporträt des Enneagramm-Typs 9 · Trägheit, Harmonie, Fusion" },
+  { term: "Porträt Typ 1",               route: "portrait-typ-1",                description: "Persönlichkeitsporträt des Enneagrammtyps 1 · Wut, Ordnung, Perfektion" },
+  { term: "Porträt Typ 2",               route: "portrait-typ-2",                description: "Persönlichkeitsporträt des Enneagrammtyps 2 · Stolz, Helfen, Beziehung" },
+  { term: "Porträt Typ 3",               route: "portrait-typ-3",                description: "Persönlichkeitsporträt des Enneagrammtyps 3 · Eitelkeit, Erfolg, Image" },
+  { term: "Porträt Typ 4",               route: "portrait-typ-4",                description: "Persönlichkeitsporträt des Enneagrammtyps 4 · Neid, Identität, Tiefe" },
+  { term: "Porträt Typ 5",               route: "portrait-typ-5",                description: "Persönlichkeitsporträt des Enneagrammtyps 5 · Geiz, Wissen, Rückzug" },
+  { term: "Porträt Typ 6",               route: "portrait-typ-6",                description: "Persönlichkeitsporträt des Enneagrammtyps 6 · Angst, Sicherheit, Loyalität" },
+  { term: "Porträt Typ 7",               route: "portrait-typ-7",                description: "Persönlichkeitsporträt des Enneagrammtyps 7 · Maßlosigkeit, Freude, Optionen" },
+  { term: "Porträt Typ 8",               route: "portrait-typ-8",                description: "Persönlichkeitsporträt des Enneagrammtyps 8 · Wollust, Macht, Direktheit" },
+  { term: "Porträt Typ 9",               route: "portrait-typ-9",                description: "Persönlichkeitsporträt des Enneagrammtyps 9 · Trägheit, Harmonie, Fusion" },
 
   // Kriminalpsychologie – fehlende Portraits
   { term: "John Hinckley Jr.", route: "kriminalpsychologie-john-hinckley-jr", description: "Kriminalpsychologisches Portrait: SE9w8 – Attentat auf Reagan 1981, Fixierung auf Jodie Foster, Vulkan-Effekt der 9w8" },
@@ -23709,7 +23709,7 @@ const registerEntries = [
   { term: "Bedrohungsszenarien",     route: "bedrohungsszenarien",      description: "Schaubild: typische innere Bedrohungsbilder" },
   { term: "Befreiende Fragen",       route: "befreiende-fragen",        description: "Schaubild: Fragen, die Entwicklung öffnen" },
   { term: "Bewältigungsstrategien",  route: "bewaeltigungsstrategie",   description: "Schaubild: typische Stress- und Schutzmuster" },
-  { term: "Beziehungen",             route: "beziehungen",              description: "Dynamiken zwischen Enneagramm-Typen" },
+  { term: "Beziehungen",             route: "beziehungen",              description: "Dynamiken zwischen Enneagrammtypen" },
   { term: "Beziehungen (Schaubild)", route: "beziehungen-schaubild",    description: "Schaubild: Liebe, Schutz und Ego-Dynamik in Beziehungen" },
   { term: "Biber",                   route: "tierlexikon/so7",              description: "Tierarchetyp des SO7 · Typ 7 · Kopfzentrum" },
   { term: "Blickqualität",           route: "tool/blickqualitaet",      description: "Werkzeug: Selbstbeobachtung der Aufmerksamkeitsqualität" },
@@ -23740,7 +23740,7 @@ const registerEntries = [
   { term: "Empfindliche Punkte",     route: "empfindliche-punkte",      description: "Schaubild: typische Wunden & Reizthemen" },
   { term: "Energetische Bewegungen", route: "energetische-bewegungen",  description: "Schaubild: typische Energierichtungen der 9 Typen" },
   { term: "Erfolgsverhalten der 9 Typen", route: "erfolgsverhalten",   description: "Schaubild: St\xe4rken, Schw\xe4chen & Erfolgsmuster je Typ" },
-  { term: "Enneagramm-Typen",        route: "knowledge",                description: "Übersicht aller 9 Typen in der Wissensbasis" },
+  { term: "Enneagrammtypen",        route: "knowledge",                description: "Übersicht aller 9 Typen in der Wissensbasis" },
   { term: "Entwicklungsweg",         route: "knowledge",                description: "Persönlicher Wachstumspfad je Subtyp in der Wissensbasis" },
   { term: "Erdmännchen",             route: "tierlexikon/so6",              description: "Tierarchetyp des SO6 · Typ 6 · Kopfzentrum" },
   { term: "Eule",                    route: "tierlexikon/se5",              description: "Tierarchetyp des SE5 · Typ 5 · Kopfzentrum" },
@@ -23834,7 +23834,7 @@ const registerEntries = [
   { term: "Maßlosigkeit",            route: "subtype/se7",              description: "Leidenschaft Typ 7 → SE7, SO7, SX7" },
   { term: "Meridiane",               route: "tcm",                      description: "TCM-Meridiane & Organuhr für alle Subtypen" },
   { term: "Merksatz",                route: "tool/merksatz",            description: "Werkzeug: täglicher Leitsatz für deinen Subtyp" },
-  { term: "Musik",                   route: "music",                    description: "Musikempfehlungen passend zum Enneagramm-Typ" },
+  { term: "Musik",                   route: "music",                    description: "Musikempfehlungen passend zum Enneagrammtyp" },
 
   // N
   { term: "Neid",                    route: "subtype/se4",              description: "Leidenschaft Typ 4 → SE4, SO4, SX4" },
@@ -23862,7 +23862,7 @@ const registerEntries = [
   { term: "Wolkenformationen der 9 Typen", route: "wolkenformationen-der-9-typen", description: "Archetypische Wolken-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Superpower der 9 Typen",   route: "superpower-der-9-typen",   description: "Die spirituelle Superpower jedes Enneagrammtyps – wahre St\xe4rke von innen" },
   { term: "Wolfsarten der 9 Typen",    route: "wolfsarten-der-9-typen",   description: "Archetypische Wolfs-Entsprechungen f\xfcr jeden Enneagrammtyp" },
-  { term: "Planeten & Trabanten des Sonnensystems", route: "planetenzuordnungen", description: "Wissen: Merkur bis Pluto, jeder Himmelsk\xf6rper einem Enneagramm-Typ zugeordnet" },
+  { term: "Planeten & Trabanten des Sonnensystems", route: "planetenzuordnungen", description: "Wissen: Merkur bis Pluto, jeder Himmelsk\xf6rper einem Enneagrammtyp zugeordnet" },
   { term: "Pferdearten der 9 Typen",   route: "pferdearten-der-9-typen",  description: "Archetypische Pferde-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Obstsorten der 9 Typen",  route: "obstsorten",               description: "Archetypische Frucht-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Gem\xfcsesorten der 9 Typen",  route: "gemuesesorten",            description: "Archetypische Gem\xfcse-Entsprechungen f\xfcr jeden Enneagrammtyp" },
@@ -23925,7 +23925,7 @@ const registerEntries = [
   // T
   { term: "Taube",                   route: "tierlexikon/se4",              description: "Tierarchetyp des SE4 · Typ 4 · Herzzentrum" },
   { term: "TCM",                     route: "tcm",                      description: "Traditionelle Chinesische Medizin · Meridiane & Organuhr" },
-  { term: "Teeempfehlungen",         route: "tee-enneagramm",           description: "Schaubild: Tees für alle 9 Enneagramm-Typen" },
+  { term: "Teeempfehlungen",         route: "tee-enneagramm",           description: "Schaubild: Tees für alle 9 Enneagrammtypen" },
   { term: "Tischdialoge der 27 Subtypen", route: "tischdialoge", description: "Innerer Dialog zwischen Leidenschaft & Instinkt je Subtyp, mit Ergebnis" },
   { term: "Tierbilder",              route: "tierentsprechungen",        description: "Schaubild: alle 27 Tierarchetypn im Überblick" },
   { term: "Trägheit",                route: "subtype/se9",              description: "Leidenschaft Typ 9 → SE9, SO9, SX9" },
@@ -23955,7 +23955,7 @@ const registerEntries = [
   // W
   { term: "Wahrnehmungsstile",       route: "wahrnehmungsstile",        description: "Schaubild: Aufmerksamkeit & Wahrnehmungsfilter" },
   { term: "Waschbär",                route: "tierlexikon/se3",              description: "Tierarchetyp des SE3 · Typ 3 · Herzzentrum" },
-  { term: "Weihnachten",             route: "weihnachtsgeschenke",      description: "Schaubild: Geschenkideen f\xfcr alle Enneagramm-Typen" },
+  { term: "Weihnachten",             route: "weihnachtsgeschenke",      description: "Schaubild: Geschenkideen f\xfcr alle Enneagrammtypen" },
   { term: "Wissensverhalten der 9 Typen", route: "wissensverhalten",   description: "Schaubild: wie jeder Typ Wissen sucht und anwendet" },
   { term: "Wer wir sind",               route: "wer-wir-sind",             description: "Die Landkarte ist nicht das Gebiet \x96 Pers\xf6nlichkeit vs. Essenz" },
   { term: "Leidenschaft und Wunde",    route: "leidenschaft-und-wunde",   description: "Schaubild: Gegen\xfcberstellung von Leidenschaft (sichtbar) und Wunde (tief) f\xfcr alle 9 Typen" },
@@ -30090,9 +30090,9 @@ const quizData = [
    a:["Typ 3","Typ 6","Typ 1","Typ 7"],c:1},
   {id:225,d:"leicht",q:"Welcher Typ w\u00e4chst, indem er die ehrliche, selbstkritische Qualit\u00e4t des Typ 1 integriert?",
    a:["Typ 4","Typ 7","Typ 9","Typ 3"],c:1},
-  {id:226,d:"leicht",q:"Wie nennt man den Enneagramm-Typen, der dominant, direkt und kraftvoll ist?",
+  {id:226,d:"leicht",q:"Wie nennt man den Enneagrammtypen, der dominant, direkt und kraftvoll ist?",
    a:["Der Loyale","Der Macher","Der Herausforderer","Der Enthusiast"],c:2},
-  {id:227,d:"leicht",q:"Wie nennt man den Enneagramm-Typen, der Tiefe, Bedeutung und Authentizit\u00e4t sucht?",
+  {id:227,d:"leicht",q:"Wie nennt man den Enneagrammtypen, der Tiefe, Bedeutung und Authentizit\u00e4t sucht?",
    a:["Der Beobachter","Der Individualist","Der Loyale","Der Friedensstifter"],c:1},
   {id:228,d:"leicht",q:"Welcher Typ neigt dazu, sich selbst als Retter oder Wohlt\u00e4ter zu sehen?",
    a:["Typ 1","Typ 3","Typ 2","Typ 6"],c:2},
@@ -35924,7 +35924,7 @@ function startPage() {
             <strong class="start-path__berater-name">Detlef Rathmer</strong>
             <ul class="start-path__berater-list">
               <li>Therapeut</li>
-              <li>Enneagramm-Typisierung</li>
+              <li>Enneagrammtypisierung</li>
               <li>Bewusstseins-<br>entwicklung</li>
             </ul>
             <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer \u2192 psychologische-homoeopathie.de</a>
@@ -35937,7 +35937,7 @@ function startPage() {
             <strong class="start-path__berater-name">David L. Rathmer</strong>
             <ul class="start-path__berater-list">
               <li>Enneagramm-Profiling</li>
-              <li>Enneagramm-Typisierung</li>
+              <li>Enneagrammtypisierung</li>
               <li>Ennea Scholars</li>
             </ul>
             <a class="start-path__web" href="https://www.enneascholars.de" target="_blank" rel="noopener">Enneagramm-Profiling f\u00fcr F\u00fchrungskr\u00e4fte &amp; Unternehmen \u2192 enneascholars.de</a>
@@ -37534,7 +37534,7 @@ function vitruvEnneagrammPage() {
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">Die Verbindung zum Enneagramm</h2>
         <p class="vb-intro">Die Überlagerung mit dem Enneagramm-Symbol (hier in seiner reinen geometrischen Form ohne Zahlen) unterstreicht diese universelle Ordnung. Wie das Enneagramm die Dynamik menschlicher Psyche und Entwicklung abbildet, so zeigt der Vitruvianische Mensch die statische und dynamische Harmonie der physischen Existenz. Beide Systeme dienen als Landkarte, um die tiefere Verbindung des Menschen zu sich selbst und zum Kosmos zu verstehen und zu verkörpern.</p>
-        <p class="vb-intro">Mehr zu Leonardo da Vinci und seiner Enneagramm-Typisierung (SO5w4) gibt es im <button class="inline-link" data-route="beruehmte-leonardo-da-vinci" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">Porträt bei Berühmte Persönlichkeiten</button>.</p>
+        <p class="vb-intro">Mehr zu Leonardo da Vinci und seiner Enneagrammtypisierung (SO5w4) gibt es im <button class="inline-link" data-route="beruehmte-leonardo-da-vinci" style="background:none;border:none;padding:0;color:var(--copper);text-decoration:underline;cursor:pointer;font-family:inherit;font-size:inherit;">Porträt bei Berühmte Persönlichkeiten</button>.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
@@ -41122,7 +41122,7 @@ function typentestMotivationalPage() {
             <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Dauer: ca. 20&ndash;30 Minuten</li>
             <li style="padding:0.35rem 0;">&#8226; Empfehlung: Ruhige Atmosph\u00e4re, ehrliche Antworten</li>
           </ul>
-          ${bookTip("motivationaler-enneagramm-typentest", "Das Buch zum Test \u2013 motivationale Hintergr\u00fcnde, Auswertungshilfen und vertiefende Erl\u00e4uterungen zu allen 9 Typen.", "Motivationaler Enneagramm-Typentest")}
+          ${bookTip("motivationaler-enneagramm-typentest", "Das Buch zum Test \u2013 motivationale Hintergr\u00fcnde, Auswertungshilfen und vertiefende Erl\u00e4uterungen zu allen 9 Typen.", "Motivationaler Enneagrammtypentest")}
           <button class="typentest-start-btn" data-motiv-start>Test starten &#8594;</button>
         </div>
       </div>
@@ -42691,7 +42691,7 @@ const SPIRITUELL_TRACKS = {
       ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachl\u00e4sst \u2013 ein meditatives Werk \u00fcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
       ${bookTip("sei-still-und-wisse-ich-bin-gott", "Sei still und wisse, ich bin Gott \u2013 Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse \u2013 ich bin Gott!")}
       ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind \u2013 jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
-      ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden \u2013 der Weg zur Verwandlung des Enneagramm-Typs.", "Hinter der Leidenschaft \u2013 die neun Wunden")}
+      ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden \u2013 der Weg zur Verwandlung des Enneagrammtyps.", "Hinter der Leidenschaft \u2013 die neun Wunden")}
       ${bookTip("leidenschaft-und-heilung", "Die Leidenschaften der neun Typen und ihre Heilung \u2013 ein Kernwerk des Rathmer-Enneagramms.", "Leidenschaft und Heilung")}
       ${bookTip("meta-intelligenz", "Metaintelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Metaintelligenz")}
       ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Metaintelligenz (H\u00f6rbuch)")}
@@ -51480,7 +51480,7 @@ function winstonChurchillPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Claudio Naranjo, einer der einflussreichsten Enneagramm-Lehrer und Lehrer des Autors dieser App, ordnete Churchill in seinem Buchprojekt zu Typ 9 („E9 Book – Psychospiritual Laziness") abweichend als <strong>selbsterhaltenden Neuner mit Achterflügel (SE9w8)</strong> ein. Sein Argument: Churchills massige physische Präsenz, sein lebenslanger „Appetit" (Zigarren, Alkohol, opulentes Essen) und seine scheinbar rastlose Aktivität – Malen, stundenlanges Steinelegen in Chartwell, das Schreiben monumentaler Memoiren – seien in Wahrheit Ablenkungsmanöver eines Neuners, der so die Konfrontation mit seiner eigenen inneren Leere und dem „Black Dog" vermeide. Die Härte, die man landläufig als Achter-Merkmal liest, sei bei Churchill eher eine stoische, konservative Kraft, die einen fragilen inneren Status quo verteidige – kein Kampf aus Lust an der Konfrontation, sondern ein Kampf um einen „sicheren Hafen".</p>
           <p class="vb-intro">Diese Sichtweise wurde hier bewusst geprüft, statt sie unkommentiert zu übernehmen oder zu verwerfen – letztlich überzeugt sie jedoch nicht. Naranjos eigenes Abgrenzungskriterium liefert selbst das stärkste Gegenargument: Ein Neuner kämpft, um einen bestehenden, sicheren Zustand zu bewahren; ein Achter kämpft, um eine Position durchzusetzen, auch gegen den Widerstand aller. Churchills entscheidende Tat – der jahrelange, einsame Widerstand gegen Chamberlains Appeasement-Politik in den 1930ern – war exakt keine Verteidigung eines Status quo, sondern der bewusste Bruch mit ihm: gegen die eigene Partei, gegen den bequemeren, sicheren Weg einer Verhandlungslösung mit Hitler. Das ist, nach Naranjos eigener Definition, Achter-Verhalten, kein Neuner-Verhalten. Auch die zitierten Aktivitäten wirken bei genauerem Hinsehen weniger nach neunerhafter Zerstreuung als nach achterhafter Kanalisierung überschüssiger Kraft in eine neue Arena der Beherrschung, wenn die politische verschlossen war – er baute etwa große Teile der Mauern von Chartwell eigenhändig, mit derselben imperialen Akribie wie seine Politik. Und in Bild- und Tondokumenten seiner Reden ist Gestik und Mimik – direkt, konfrontativ, ungeduldig – deutlich achterhafter als neunerhaft.</p>
-          <p class="vb-intro">Grundsätzlich gehört die Abgrenzung SE8w9 gegen SE9w8 zu den anspruchsvollsten Unterscheidungen der gesamten Enneagramm-Typologie – beide Subtypen können nach außen ruhig, geduldig und stur zugleich wirken, und die Verhaltensbelege allein reichen oft nicht aus, um sie sicher zu trennen. Bei lebenden Menschen hilft hier vor allem eine Fähigkeit, die sich nicht an einem Wochenende, sondern erst über Monate gezielter Übung erlernen lässt: die genaue Analyse der <strong>Blickqualität</strong>. Ist der Blick nach außen gerichtet, konfrontativ, prüfend, bereit zum Widerstand – der typische „Orang-Utan-Blick" der Acht? Oder ist er nach innen gewandt, schwer, träge und selbstvergessen – der ruhende „Elefantenblick" der Neun? Diese Unterscheidungsfähigkeit ist Teil der vertieften Typisierungsausbildung, wie sie u. a. David L. Rathmer lehrt, und gilt als eine der subtilsten, aber verlässlichsten Diagnosemethoden, weil im Blick sich die intrinsische Motivation und Leidenschaft eines Menschen oft unmittelbarer zeigt als in seinem äußeren Verhalten. Bei Churchill selbst, ausgewertet über verfügbares Bild- und Filmmaterial seiner Reden, bestätigt diese Blickanalyse den nach außen gerichteten, konfrontativen Achter-Blick – ein weiteres, unabhängiges Argument für SE8w9.</p>
+          <p class="vb-intro">Grundsätzlich gehört die Abgrenzung SE8w9 gegen SE9w8 zu den anspruchsvollsten Unterscheidungen der gesamten Enneagrammtypologie – beide Subtypen können nach außen ruhig, geduldig und stur zugleich wirken, und die Verhaltensbelege allein reichen oft nicht aus, um sie sicher zu trennen. Bei lebenden Menschen hilft hier vor allem eine Fähigkeit, die sich nicht an einem Wochenende, sondern erst über Monate gezielter Übung erlernen lässt: die genaue Analyse der <strong>Blickqualität</strong>. Ist der Blick nach außen gerichtet, konfrontativ, prüfend, bereit zum Widerstand – der typische „Orang-Utan-Blick" der Acht? Oder ist er nach innen gewandt, schwer, träge und selbstvergessen – der ruhende „Elefantenblick" der Neun? Diese Unterscheidungsfähigkeit ist Teil der vertieften Typisierungsausbildung, wie sie u. a. David L. Rathmer lehrt, und gilt als eine der subtilsten, aber verlässlichsten Diagnosemethoden, weil im Blick sich die intrinsische Motivation und Leidenschaft eines Menschen oft unmittelbarer zeigt als in seinem äußeren Verhalten. Bei Churchill selbst, ausgewertet über verfügbares Bild- und Filmmaterial seiner Reden, bestätigt diese Blickanalyse den nach außen gerichteten, konfrontativen Achter-Blick – ein weiteres, unabhängiges Argument für SE8w9.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Der Orang-Utan, der den Ast nicht loslie\u00df</h2>
@@ -60496,7 +60496,7 @@ function kaiPflaumePortraitPage() {
 
         <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jeder Enneagramm-Typ tr\u00e4gt sein Licht und seinen Schatten. Das Licht der SX3 ist offensichtlich: Charisma, W\u00e4rme, die F\u00e4higkeit, Menschen direkt zu ber\u00fchren. Der Schatten ist subtiler: Die Drei kann ihre Identit\u00e4t mit ihrer Wirkung verwechseln. <em>Ich bin, wie andere mich sehen.</em> Wenn niemand mehr bewundert, wer bin ich dann?</p>
+          <p class="vb-intro">Jeder Enneagrammtyp tr\u00e4gt sein Licht und seinen Schatten. Das Licht der SX3 ist offensichtlich: Charisma, W\u00e4rme, die F\u00e4higkeit, Menschen direkt zu ber\u00fchren. Der Schatten ist subtiler: Die Drei kann ihre Identit\u00e4t mit ihrer Wirkung verwechseln. <em>Ich bin, wie andere mich sehen.</em> Wenn niemand mehr bewundert, wer bin ich dann?</p>
           <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>T\u00e4uschung</strong> &ndash; nicht als b\u00f6se Absicht, sondern als strukturelle Gefahr. Die Drei kann beginnen, eine Rolle zu spielen, so \u00fcberzeugend, dass sie vergisst, dass es eine Rolle ist. Das Image wird zur Identit\u00e4t. Der Pfau vergisst, wie er ohne sein Gefieder aussieht.</p>
           <p class="vb-intro">Bei Kai Pflaume ist dieser Schatten kaum sichtbar &ndash; und das ist ein Zeichen gesunder Entwicklung. Er hat offenbar eine stabile innere Basis gefunden, die unabh\u00e4ngig von Einschaltquoten tr\u00e4gt. Drei\u00dfig Jahre Fernsehen ohne Burnout, ohne Skandal, ohne Imagewechsel: Das spricht f\u00fcr einen SX3er, der seinen Schatten kennt und mit ihm umzugehen gelernt hat.</p>
         </blockquote>
@@ -70534,7 +70534,7 @@ function enneagrammZahnpsychosomatikPage() {
           <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
             <li>Der starre Blick w\u00fcrde sagen: \u201eDas passt nicht, Schneidez\u00e4hne geh\u00f6ren zum Kopf-Zentrum und zur Angst."</li>
             <li>Der dynamische Blick erkennt das wahre Drama dahinter: Die Kernemotion der Vier ist die Scham \u2013 das tiefe Gef\u00fchl, grundlegend fehlerhaft oder \u201eanders" zu sein. Scham ist aber nichts anderes als die pure Angst vor Entbl\u00f6\u00dfung, vor Ablehnung und davor, als unvollkommen gesehen zu werden. Ber\u00fchrt diese Scham den 5er-Fl\u00fcgel der Vier (der ohnehin dazu neigt, sich intellektuell aus der Welt zur\u00fcckzuziehen und \u00e4ngstlich zu beobachten), zieht sich der Mensch komplett in den Kopf zur\u00fcck.</li>
-            <li>Das Resultat: Der Schmerz der Scham bricht genau dort durch, wo wir nach au\u00dfen hin sichtbar sind \u2013 an den Schneidez\u00e4hnen. Der K\u00f6rper l\u00fcgt nicht. Er zeigt nicht das starre Etikett des Enneagramm-Typs, sondern die aktive emotionale Verschiebung im System.</li>
+            <li>Das Resultat: Der Schmerz der Scham bricht genau dort durch, wo wir nach au\u00dfen hin sichtbar sind \u2013 an den Schneidez\u00e4hnen. Der K\u00f6rper l\u00fcgt nicht. Er zeigt nicht das starre Etikett des Enneagrammtyps, sondern die aktive emotionale Verschiebung im System.</li>
           </ul>
         </div>
 
@@ -92902,7 +92902,7 @@ function chrisWattsPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Chris Lee Watts</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 16. Mai 1985, Spring Lake, North Carolina</p>
           <p style="margin:0 0 0.3rem;"><strong>Status:</strong> Verb\u00fc\u00dft f\u00fcnf lebenslange Haftstrafen ohne Bew\u00e4hrungsm\u00f6glichkeit</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO7w6 \u2013 Sozialer Typ 7 mit Sechserfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SO7w6 \u2013 Sozialer Typ 7 mit Sechserfl\u00fcgel</p>
           <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Biber</p>
           <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> Shanann Watts (34, schwanger), Bella Watts (4), Celeste Watts (3) \u2013 get\u00f6tet am 13. August 2018</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Ma\u00dflosigkeit</p>
@@ -96077,7 +96077,7 @@ function angelResendezPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> \u00c1ngel Maturino Res\u00e9ndez</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1. August 1960, Iz\u00facar de Matamoros, Puebla, Mexiko</p>
           <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 27. Juni 2006, Huntsville, Texas (Giftspritze)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SE2w1 \u2013 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SE2w1 \u2013 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
           <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</p>
           <p style="margin:0 0 0.3rem;"><strong>Best\u00e4tigte Opfer:</strong> 9 Morde in den USA (1997\u20131999); 6 weitere zugeschrieben</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
@@ -96274,7 +96274,7 @@ function tommyLynnSellsPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Tommy Lynn Sells</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 28. Juni 1964, Oakland, Kalifornien</p>
           <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 3. April 2014, Huntsville, Texas</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SE2w1 \u2013 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SE2w1 \u2013 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
           <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</p>
           <p style="margin:0 0 0.3rem;"><strong>Bekannte Opfer:</strong> mind. 13 best\u00e4tigt, bis zu 70 beansprucht</p>
           <p style="margin:0;"><strong>Leidenschaft:</strong> Stolz \u00b7 <strong>Stresspunkt:</strong> Typ 8</p>
@@ -100777,7 +100777,7 @@ function jackUnterweegerPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Johann \u201eJack" Unterweger</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 16. August 1950, Judenburg, Steiermark</p>
           <p style="margin:0 0 0.3rem;"><strong>Gestorben:</strong> 29. Juni 1994, Graz (Suizid in der Gef\u00e4ngniszelle)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO2w1 \u2013 Sozialer Typ 2 mit Einserfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SO2w1 \u2013 Sozialer Typ 2 mit Einserfl\u00fcgel</p>
           <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Golden Retriever</p>
           <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> mind. 10 Morde (1 in 1974, 9 nach Entlassung 1990\u20131991), m\u00f6glicherweise 3 weitere in Los Angeles</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
@@ -101152,7 +101152,7 @@ function cedricMaakePortraitPage() {
         <div style="font-size:0.88rem;line-height:1.8;">
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Maoupa Cedric Maake</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1965, S\u00fcdafrika</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SO2w3 \u2013 Sozialer Typ 2 mit Dreierfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SO2w3 \u2013 Sozialer Typ 2 mit Dreierfl\u00fcgel</p>
           <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Golden Retriever</p>
           <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> 27 Morde, 26 Vergewaltigungen, 14 versuchte T\u00f6tungen (1996\u20131997)</p>
           <p style="margin:0 0 0.3rem;"><strong>Verurteilt:</strong> 2000, 1.395 Jahre Haft</p>
@@ -102417,7 +102417,7 @@ function joelRifkinPortraitPage() {
           <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Joel David Rifkin</p>
           <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 20. Januar 1959, East Meadow, Long Island, New York</p>
           <p style="margin:0 0 0.3rem;"><strong>Status:</strong> Verb\u00fc\u00dft 203 Jahre Haft ohne Bew\u00e4hrungsm\u00f6glichkeit</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagramm-Typ:</strong> SX5w6 \u2013 Sexueller Typ 5 mit Sechserfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SX5w6 \u2013 Sexueller Typ 5 mit Sechserfl\u00fcgel</p>
           <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Igel</p>
           <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> 17 Morde gestanden (9 vor Gericht bewiesen), 1989\u20131993</p>
           <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Geiz</p>
@@ -106408,7 +106408,7 @@ function bewusstseinsgradTestPage() {
 
       <!-- Schritt 1: Typ w\u00e4hlen -->
       <div id="bgt-step1">
-        <h2 style="font-size:1rem;font-weight:700;margin:0 0 .8rem;">Schritt 1: Mein Enneagramm-Typ</h2>
+        <h2 style="font-size:1rem;font-weight:700;margin:0 0 .8rem;">Schritt 1: Mein Enneagrammtyp</h2>
         <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.5rem;">${typButtons}</div>
       </div>
 
@@ -111380,7 +111380,7 @@ function davidRathmerKriminalfaellePage() {
     "Das Enneagramm als psychologisches Werkzeug zur Analyse bekannter Kriminalf\u00e4lle \u2014 David L. Rathmer beleuchtet T\u00e4terprofile und Hintergr\u00fcnde aus der Perspektive der 27 Subtypen.",
     [
       { titel: "T\u00e4terprofile & Hintergr\u00fcnde", videos: [
-        { id: "XnS_8QaUL8Y", label: "Jeffrey Epstein \u2013 Pers\u00f6nlichkeitsanalyse (Enneagramm-Typ SX8)" },
+        { id: "XnS_8QaUL8Y", label: "Jeffrey Epstein \u2013 Pers\u00f6nlichkeitsanalyse (Enneagrammtyp SX8)" },
       ]},
     ]
   );
@@ -112346,7 +112346,7 @@ function verwechslungenPage() {
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Schaubilder \xb7 Typisierung</p>
       <h1 class="section-title">Die gro\xdfen Verwechslungen</h1>
-      <p class="psycho-intro">Ego-St\xe4rke oder Essenz? Die folgenreichste Falle bei der Enneagramm-Typisierung.</p>
+      <p class="psycho-intro">Ego-St\xe4rke oder Essenz? Die folgenreichste Falle bei der Enneagrammtypisierung.</p>
       <img
         src="./assets/verwechslungen.png"
         alt="Verwechslungen &ndash; Schaubild"
@@ -112354,7 +112354,7 @@ function verwechslungenPage() {
       />
       <div class="vb-section" style="max-width:100%;">
         <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Wenn St\xe4rke und Wesen verwechselt werden</h2>
-        <p class="vb-intro">Die schlimmsten Verwechslungen bei der Enneagramm-Typisierung entstehen dort, wo Ego-St\xe4rke mit Essenz verwechselt wird. Menschen identifizieren sich h\xe4ufig mit den F\xe4higkeiten, die sie besonders gut entwickelt haben. Genau diese F\xe4higkeiten werden dann als Ausdruck ihres &bdquo;wahren Wesens&ldquo; betrachtet. Im Enneagramm ist dies jedoch oft ein Irrtum &ndash; denn viele dieser St\xe4rken sind urspr\xfcnglich nicht aus Freiheit entstanden, sondern als Anpassung an eine fr\xfche Wunde.</p>
+        <p class="vb-intro">Die schlimmsten Verwechslungen bei der Enneagrammtypisierung entstehen dort, wo Ego-St\xe4rke mit Essenz verwechselt wird. Menschen identifizieren sich h\xe4ufig mit den F\xe4higkeiten, die sie besonders gut entwickelt haben. Genau diese F\xe4higkeiten werden dann als Ausdruck ihres &bdquo;wahren Wesens&ldquo; betrachtet. Im Enneagramm ist dies jedoch oft ein Irrtum &ndash; denn viele dieser St\xe4rken sind urspr\xfcnglich nicht aus Freiheit entstanden, sondern als Anpassung an eine fr\xfche Wunde.</p>
         <p class="vb-intro">Ein Mensch vom Typ 1 erlebt seine Gewissenhaftigkeit oft als seine wahre Natur. Ein Typ 2 sieht seine Hilfsbereitschaft als Ausdruck seines Herzens. Ein Typ 3 identifiziert sich mit Leistungsf\xe4higkeit und Erfolg. Ein Typ 5 erlebt seine Unabh\xe4ngigkeit als Kern seiner Pers\xf6nlichkeit. Tatsr\xe4chlich handelt es sich dabei h\xe4ufig um hoch entwickelte \xdcberlebensstrategien des Egos.</p>
 
         <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Brillante Anpassung &ndash; aber keine Essenz</h2>
@@ -115417,7 +115417,7 @@ function subtypeSchaubilderPage() {
 }
 
 // Eigene, gedämpfte Kategorie-Farbpalette (bewusst abgesetzt von TYPE_COLORS, damit
-// keine Verwechslung mit den Enneagramm-Typfarben entsteht) – angelehnt an medizinische
+// keine Verwechslung mit den Enneagrammtypfarben entsteht) – angelehnt an medizinische
 // Fachbuch-Konventionen (Herz/Kreislauf rötlich, Bewegungsapparat erdig, Atemwege luftig-
 // bläulich, Haut hautfarben, Nerven/Psyche blau, Immunsystem weinrot, Onkologie gedämpft-
 // dunkel), aber entsättigt genug, um zum ruhigen Gesamtbild des Kompasses zu passen.
@@ -124985,7 +124985,7 @@ function homoeopathiePage() {
       <div>
         <p class="eyebrow">Heilung &middot; Hom\u00f6opathische Mittel</p>
         <h1>Hom\u00f6opathische Mittel</h1>
-        <p class="lead-small">Leidenschafts- und Wundenmittel f\u00fcr alle 9 Enneagramm-Typen &ndash; aus der hom\u00f6opathischen Enneagramm-Praxis nach dem \u00c4hnlichkeitsgesetz.</p>
+        <p class="lead-small">Leidenschafts- und Wundenmittel f\u00fcr alle 9 Enneagrammtypen &ndash; aus der hom\u00f6opathischen Enneagramm-Praxis nach dem \u00c4hnlichkeitsgesetz.</p>
       </div>
     </section>
     <section class="oils-grid" style="padding:0 1rem 3rem;">
@@ -126569,7 +126569,7 @@ function planetenzuordnungenPage() {
       <p style="text-align:center;font-size:0.72rem;color:var(--muted);margin:-0.4rem 0 1.2rem;">Gr\u00f6\u00dfenvergleich: NASA &ndash; gemeinfrei (Public Domain). Die Abst\u00e4nde sind nicht ma\u00dfstabsgetreu, nur die Gr\u00f6\u00dfenverh\u00e4ltnisse.</p>
 
       <div style="background:var(--paper-deep,#ede8dc);border-left:3px solid var(--copper);border-radius:0 10px 10px 0;padding:1.1rem 1.3rem;margin:1.2rem 0;">
-        <p style="font-size:0.88rem;line-height:1.65;color:var(--ink);margin:0 0 0.7rem;">Pluto wurde 2006 der offizielle Planetenstatus aberkannt &ndash; er gilt seither als Zwergplanet. Diese Zuordnung \u00fcbernimmt bewusst die urspr\u00fcngliche neunfache Z\u00e4hlung (inklusive Pluto), weil sich neun Himmelsk\u00f6rper organisch auf neun Enneagramm-Typen abbilden lassen &ndash; und weil gerade Plutos Geschichte des Herabgestuft- und \u00dcbersehenwerdens selbst ein treffendes Sinnbild f\u00fcr ein Enneagramm-Prinzip liefert (siehe unten).</p>
+        <p style="font-size:0.88rem;line-height:1.65;color:var(--ink);margin:0 0 0.7rem;">Pluto wurde 2006 der offizielle Planetenstatus aberkannt &ndash; er gilt seither als Zwergplanet. Diese Zuordnung \u00fcbernimmt bewusst die urspr\u00fcngliche neunfache Z\u00e4hlung (inklusive Pluto), weil sich neun Himmelsk\u00f6rper organisch auf neun Enneagrammtypen abbilden lassen &ndash; und weil gerade Plutos Geschichte des Herabgestuft- und \u00dcbersehenwerdens selbst ein treffendes Sinnbild f\u00fcr ein Enneagramm-Prinzip liefert (siehe unten).</p>
         <p style="font-size:0.88rem;line-height:1.65;color:var(--ink);margin:0;">Alle Fotos: NASA/JPL-Caltech, gemeinfrei (Public Domain).</p>
       </div>
 

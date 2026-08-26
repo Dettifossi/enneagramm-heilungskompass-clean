@@ -3,7 +3,7 @@
 export const registerEntries = [
 
   // Astrologie-Portraits
-  { term: "Albert Einstein (Astrologie)",   route: "astrologie-albert-einstein",    description: "Astrologie-Portrait: Steinbock, Fische-Aszendent, Enneagramm-Typ 5 · Genie, Relativität & innere Freiheit" },
+  { term: "Albert Einstein (Astrologie)",   route: "astrologie-albert-einstein",    description: "Astrologie-Portrait: Steinbock, Fische-Aszendent, Enneagrammtyp 5 · Genie, Relativität & innere Freiheit" },
   { term: "Angela Merkel (Astrologie)",     route: "astrologie-angela-merkel",      description: "Astrologie-Portrait: Krebs, Sagittarius-Aszendent · Physikerin, Kanzlerin, emotionale Stabilität" },
   { term: "Boris Becker (Astrologie)",      route: "astrologie-boris-becker",       description: "Astrologie-Portrait: Aszendent, Planeten · Tennislegende im astrologischen Spiegel" },
   { term: "Gerhard Schröder (Astrologie)", route: "astrologie-gerhard-schroeder", description: "Astrologie-Portrait: Kanzler, Machtmensch · Planetenkonstellationen" },
@@ -11,7 +11,7 @@ export const registerEntries = [
   { term: "Marilyn Monroe (Astrologie)",    route: "astrologie-marilyn-monroe",     description: "Astrologie-Portrait: Zwillinge, Aszendent · Ikone, Verletzlichkeit & Genie" },
   { term: "Reinhold Messner (Astrologie)",  route: "astrologie-reinhold-messner",   description: "Astrologie-Portrait: Bergsteiger-Legende · Planeten & Grenzgänger" },
   { term: "Romy Schneider (Astrologie)",    route: "astrologie-romy-schneider",     description: "Astrologie-Portrait: Filmikone, Sissie · Planetenkonstellationen" },
-  { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagramm-Typen und astrologischen Zeichen" },
+  { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagrammtypen und astrologischen Zeichen" },
   { term: "Enneagramm-Kunstgalerie",        route: "enneagramm-kunst",              description: "9 Galerien mit je 6 Kunstwerken – klassische Gemälde als Spiegel der 9 Enneagrammtypen" },
   { term: "Enneagramm-Filmempfehlungen",    route: "enneagramm-filme",              description: "270 Filmtipps für alle 27 Subtypen – je zehn Filme pro Subtyp" },
 
@@ -22,7 +22,7 @@ export const registerEntries = [
   { term: "David Rathmer – Impulse",         route: "david-rathmer-impulse",         description: "David L. Rathmer: Kurzimpulse & Coaching-Gedanken zum Enneagramm" },
   { term: "David Rathmer – Kriminalpsychologie", route: "david-rathmer-kriminalfaelle", description: "David L. Rathmer: Enneagramm-Analyse bekannter Kriminalpsychologie-Fälle" },
   { term: "David Rathmer – Persönlichkeiten", route: "david-rathmer-persoenlichkeiten", description: "David L. Rathmer: Enneagramm-Portraits bekannter Persönlichkeiten" },
-  { term: "Detlef Rathmer – Jazz",           route: "detlef-rathmer-jazz",           description: "Detlef Rathmer: Jazz-Empfehlungen passend zu den Enneagramm-Typen" },
+  { term: "Detlef Rathmer – Jazz",           route: "detlef-rathmer-jazz",           description: "Detlef Rathmer: Jazz-Empfehlungen passend zu den Enneagrammtypen" },
 
   // Homöopathie
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
@@ -30,9 +30,9 @@ export const registerEntries = [
   { term: "Homöopathie-Songs",           route: "homoeopathie-songs",            description: "Schaubild: Musik trifft Homöopathie – Songs als Spiegel der Homöopathie-Mittel" },
 
   // Weitere Inhaltsseiten
-  { term: "Berühmte Komponisten",         route: "beruhmte-komponisten",          description: "Portrait-Übersicht: bekannte Komponisten und ihre Enneagramm-Typen" },
+  { term: "Berühmte Komponisten",         route: "beruhmte-komponisten",          description: "Portrait-Übersicht: bekannte Komponisten und ihre Enneagrammtypen" },
   { term: "Dynamik der Typen",               route: "dynamik-der-typen",             description: "Schaubild: Wie sich die 9 Typen in Stress und Wachstum verändern" },
-  { term: "Musik",                           route: "musik",                         description: "Musikempfehlungen passend zum Enneagramm-Typ · Playlist-Zuordnungen" },
+  { term: "Musik",                           route: "musik",                         description: "Musikempfehlungen passend zum Enneagrammtyp · Playlist-Zuordnungen" },
   { term: "Persönlichkeitsmodelle im Vergleich", route: "persoenlichkeitsmodelle-vergleich", description: "Schaubild: Enneagramm vs. MBTI, Big Five, DISG und andere Modelle" },
   { term: "Portraits Wegbegleiter",          route: "portraits-wegbegleiter",        description: "Enneagramm-Portraits persönlicher Wegbegleiter und Lehrfiguren" },
   { term: "Praxistipps vom Heilpraktiker",   route: "praxistipps-heilpraktiker",     description: "Körperorientierte Praxistipps aus der Heilpraxis von Detlef Rathmer" },
@@ -48,19 +48,19 @@ export const registerEntries = [
   { term: "Die Praxis des bewussten Innehaltens", route: "praxistipps-heilpraktiker/bewusstes-innehalten", description: "›Let it be‹ im Alltag: reine Wahrnehmung als Übung zurück zur eigenen Essenz" },
   { term: "Die Zungenstreck-Übung zur Stressregulation", route: "praxistipps-heilpraktiker/zungenstreck-uebung", description: "Von Einstein, Vagusnerv und tierischen Instinkten: Zungenstrecken zur akuten Stressregulation" },
   { term: "Wer lenkt hier eigentlich wen?", route: "praxistipps-heilpraktiker/ich-illusion", description: "Der sanfte Ausweg aus der Ich-Illusion: Konditionierung, Enneagramm-Fixierung und innerer Frieden" },
-  { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagramm-Typ" },
+  { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagrammtyp" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
   // Typ-Portraits (alle 9 Typen)
-  { term: "Porträt Typ 1",               route: "portrait-typ-1",                description: "Persönlichkeitsporträt des Enneagramm-Typs 1 · Wut, Ordnung, Perfektion" },
-  { term: "Porträt Typ 2",               route: "portrait-typ-2",                description: "Persönlichkeitsporträt des Enneagramm-Typs 2 · Stolz, Helfen, Beziehung" },
-  { term: "Porträt Typ 3",               route: "portrait-typ-3",                description: "Persönlichkeitsporträt des Enneagramm-Typs 3 · Eitelkeit, Erfolg, Image" },
-  { term: "Porträt Typ 4",               route: "portrait-typ-4",                description: "Persönlichkeitsporträt des Enneagramm-Typs 4 · Neid, Identität, Tiefe" },
-  { term: "Porträt Typ 5",               route: "portrait-typ-5",                description: "Persönlichkeitsporträt des Enneagramm-Typs 5 · Geiz, Wissen, Rückzug" },
-  { term: "Porträt Typ 6",               route: "portrait-typ-6",                description: "Persönlichkeitsporträt des Enneagramm-Typs 6 · Angst, Sicherheit, Loyalität" },
-  { term: "Porträt Typ 7",               route: "portrait-typ-7",                description: "Persönlichkeitsporträt des Enneagramm-Typs 7 · Maßlosigkeit, Freude, Optionen" },
-  { term: "Porträt Typ 8",               route: "portrait-typ-8",                description: "Persönlichkeitsporträt des Enneagramm-Typs 8 · Wollust, Macht, Direktheit" },
-  { term: "Porträt Typ 9",               route: "portrait-typ-9",                description: "Persönlichkeitsporträt des Enneagramm-Typs 9 · Trägheit, Harmonie, Fusion" },
+  { term: "Porträt Typ 1",               route: "portrait-typ-1",                description: "Persönlichkeitsporträt des Enneagrammtyps 1 · Wut, Ordnung, Perfektion" },
+  { term: "Porträt Typ 2",               route: "portrait-typ-2",                description: "Persönlichkeitsporträt des Enneagrammtyps 2 · Stolz, Helfen, Beziehung" },
+  { term: "Porträt Typ 3",               route: "portrait-typ-3",                description: "Persönlichkeitsporträt des Enneagrammtyps 3 · Eitelkeit, Erfolg, Image" },
+  { term: "Porträt Typ 4",               route: "portrait-typ-4",                description: "Persönlichkeitsporträt des Enneagrammtyps 4 · Neid, Identität, Tiefe" },
+  { term: "Porträt Typ 5",               route: "portrait-typ-5",                description: "Persönlichkeitsporträt des Enneagrammtyps 5 · Geiz, Wissen, Rückzug" },
+  { term: "Porträt Typ 6",               route: "portrait-typ-6",                description: "Persönlichkeitsporträt des Enneagrammtyps 6 · Angst, Sicherheit, Loyalität" },
+  { term: "Porträt Typ 7",               route: "portrait-typ-7",                description: "Persönlichkeitsporträt des Enneagrammtyps 7 · Maßlosigkeit, Freude, Optionen" },
+  { term: "Porträt Typ 8",               route: "portrait-typ-8",                description: "Persönlichkeitsporträt des Enneagrammtyps 8 · Wollust, Macht, Direktheit" },
+  { term: "Porträt Typ 9",               route: "portrait-typ-9",                description: "Persönlichkeitsporträt des Enneagrammtyps 9 · Trägheit, Harmonie, Fusion" },
 
   // Kriminalpsychologie – fehlende Portraits
   { term: "John Hinckley Jr.", route: "kriminalpsychologie-john-hinckley-jr", description: "Kriminalpsychologisches Portrait: SE9w8 – Attentat auf Reagan 1981, Fixierung auf Jodie Foster, Vulkan-Effekt der 9w8" },
@@ -96,7 +96,7 @@ export const registerEntries = [
   { term: "Bedrohungsszenarien",     route: "bedrohungsszenarien",      description: "Schaubild: typische innere Bedrohungsbilder" },
   { term: "Befreiende Fragen",       route: "befreiende-fragen",        description: "Schaubild: Fragen, die Entwicklung öffnen" },
   { term: "Bewältigungsstrategien",  route: "bewaeltigungsstrategie",   description: "Schaubild: typische Stress- und Schutzmuster" },
-  { term: "Beziehungen",             route: "beziehungen",              description: "Dynamiken zwischen Enneagramm-Typen" },
+  { term: "Beziehungen",             route: "beziehungen",              description: "Dynamiken zwischen Enneagrammtypen" },
   { term: "Beziehungen (Schaubild)", route: "beziehungen-schaubild",    description: "Schaubild: Liebe, Schutz und Ego-Dynamik in Beziehungen" },
   { term: "Biber",                   route: "tierlexikon/so7",              description: "Tierarchetyp des SO7 · Typ 7 · Kopfzentrum" },
   { term: "Blickqualität",           route: "tool/blickqualitaet",      description: "Werkzeug: Selbstbeobachtung der Aufmerksamkeitsqualität" },
@@ -127,7 +127,7 @@ export const registerEntries = [
   { term: "Empfindliche Punkte",     route: "empfindliche-punkte",      description: "Schaubild: typische Wunden & Reizthemen" },
   { term: "Energetische Bewegungen", route: "energetische-bewegungen",  description: "Schaubild: typische Energierichtungen der 9 Typen" },
   { term: "Erfolgsverhalten der 9 Typen", route: "erfolgsverhalten",   description: "Schaubild: St\xe4rken, Schw\xe4chen & Erfolgsmuster je Typ" },
-  { term: "Enneagramm-Typen",        route: "knowledge",                description: "Übersicht aller 9 Typen in der Wissensbasis" },
+  { term: "Enneagrammtypen",        route: "knowledge",                description: "Übersicht aller 9 Typen in der Wissensbasis" },
   { term: "Entwicklungsweg",         route: "knowledge",                description: "Persönlicher Wachstumspfad je Subtyp in der Wissensbasis" },
   { term: "Erdmännchen",             route: "tierlexikon/so6",              description: "Tierarchetyp des SO6 · Typ 6 · Kopfzentrum" },
   { term: "Eule",                    route: "tierlexikon/se5",              description: "Tierarchetyp des SE5 · Typ 5 · Kopfzentrum" },
@@ -221,7 +221,7 @@ export const registerEntries = [
   { term: "Maßlosigkeit",            route: "subtype/se7",              description: "Leidenschaft Typ 7 → SE7, SO7, SX7" },
   { term: "Meridiane",               route: "tcm",                      description: "TCM-Meridiane & Organuhr für alle Subtypen" },
   { term: "Merksatz",                route: "tool/merksatz",            description: "Werkzeug: täglicher Leitsatz für deinen Subtyp" },
-  { term: "Musik",                   route: "music",                    description: "Musikempfehlungen passend zum Enneagramm-Typ" },
+  { term: "Musik",                   route: "music",                    description: "Musikempfehlungen passend zum Enneagrammtyp" },
 
   // N
   { term: "Neid",                    route: "subtype/se4",              description: "Leidenschaft Typ 4 → SE4, SO4, SX4" },
@@ -249,7 +249,7 @@ export const registerEntries = [
   { term: "Wolkenformationen der 9 Typen", route: "wolkenformationen-der-9-typen", description: "Archetypische Wolken-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Superpower der 9 Typen",   route: "superpower-der-9-typen",   description: "Die spirituelle Superpower jedes Enneagrammtyps – wahre St\xe4rke von innen" },
   { term: "Wolfsarten der 9 Typen",    route: "wolfsarten-der-9-typen",   description: "Archetypische Wolfs-Entsprechungen f\xfcr jeden Enneagrammtyp" },
-  { term: "Planeten & Trabanten des Sonnensystems", route: "planetenzuordnungen", description: "Wissen: Merkur bis Pluto, jeder Himmelsk\xf6rper einem Enneagramm-Typ zugeordnet" },
+  { term: "Planeten & Trabanten des Sonnensystems", route: "planetenzuordnungen", description: "Wissen: Merkur bis Pluto, jeder Himmelsk\xf6rper einem Enneagrammtyp zugeordnet" },
   { term: "Pferdearten der 9 Typen",   route: "pferdearten-der-9-typen",  description: "Archetypische Pferde-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Obstsorten der 9 Typen",  route: "obstsorten",               description: "Archetypische Frucht-Entsprechungen f\xfcr jeden Enneagrammtyp" },
   { term: "Gem\xfcsesorten der 9 Typen",  route: "gemuesesorten",            description: "Archetypische Gem\xfcse-Entsprechungen f\xfcr jeden Enneagrammtyp" },
@@ -312,7 +312,7 @@ export const registerEntries = [
   // T
   { term: "Taube",                   route: "tierlexikon/se4",              description: "Tierarchetyp des SE4 · Typ 4 · Herzzentrum" },
   { term: "TCM",                     route: "tcm",                      description: "Traditionelle Chinesische Medizin · Meridiane & Organuhr" },
-  { term: "Teeempfehlungen",         route: "tee-enneagramm",           description: "Schaubild: Tees für alle 9 Enneagramm-Typen" },
+  { term: "Teeempfehlungen",         route: "tee-enneagramm",           description: "Schaubild: Tees für alle 9 Enneagrammtypen" },
   { term: "Tischdialoge der 27 Subtypen", route: "tischdialoge", description: "Innerer Dialog zwischen Leidenschaft & Instinkt je Subtyp, mit Ergebnis" },
   { term: "Tierbilder",              route: "tierentsprechungen",        description: "Schaubild: alle 27 Tierarchetypn im Überblick" },
   { term: "Trägheit",                route: "subtype/se9",              description: "Leidenschaft Typ 9 → SE9, SO9, SX9" },
@@ -342,7 +342,7 @@ export const registerEntries = [
   // W
   { term: "Wahrnehmungsstile",       route: "wahrnehmungsstile",        description: "Schaubild: Aufmerksamkeit & Wahrnehmungsfilter" },
   { term: "Waschbär",                route: "tierlexikon/se3",              description: "Tierarchetyp des SE3 · Typ 3 · Herzzentrum" },
-  { term: "Weihnachten",             route: "weihnachtsgeschenke",      description: "Schaubild: Geschenkideen f\xfcr alle Enneagramm-Typen" },
+  { term: "Weihnachten",             route: "weihnachtsgeschenke",      description: "Schaubild: Geschenkideen f\xfcr alle Enneagrammtypen" },
   { term: "Wissensverhalten der 9 Typen", route: "wissensverhalten",   description: "Schaubild: wie jeder Typ Wissen sucht und anwendet" },
   { term: "Wer wir sind",               route: "wer-wir-sind",             description: "Die Landkarte ist nicht das Gebiet \x96 Pers\xf6nlichkeit vs. Essenz" },
   { term: "Leidenschaft und Wunde",    route: "leidenschaft-und-wunde",   description: "Schaubild: Gegen\xfcberstellung von Leidenschaft (sichtbar) und Wunde (tief) f\xfcr alle 9 Typen" },

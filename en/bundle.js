@@ -13224,7 +13224,7 @@ function typentestMotivationalPage() {
             <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Duration: approx. 20&ndash;30 minutes</li>
             <li style="padding:0.35rem 0;">&#8226; Recommendation: quiet atmosphere, honest answers</li>
           </ul>
-          ${bookTip("motivationaler-enneagramm-typentest", "The book accompanying the test &ndash; motivational backgrounds, evaluation aids, and in-depth explanations for all 9 types.", "Motivationaler Enneagramm-Typentest")}
+          ${bookTip("motivationaler-enneagramm-typentest", "The book accompanying the test &ndash; motivational backgrounds, evaluation aids, and in-depth explanations for all 9 types.", "Motivationaler Enneagrammtypentest")}
           <button class="typentest-start-btn" data-motiv-start>Start Test &#8594;</button>
         </div>
       </div>
@@ -75055,7 +75055,7 @@ function davidRathmerKriminalfaellePage() {
     "Das Enneagramm als psychologisches Werkzeug zur Analyse bekannter Kriminalfälle — David L. Rathmer beleuchtet Täterprofile und Hintergründe aus der Perspektive der 27 Subtypes.",
     [
       { titel: "Täterprofile & Hintergründe", videos: [
-        { id: "XnS_8QaUL8Y", label: "Jeffrey Epstein – Persönlichkeitsanalyse (Enneagramm-Typ SX8)" },
+        { id: "XnS_8QaUL8Y", label: "Jeffrey Epstein – Persönlichkeitsanalyse (Enneagrammtyp SX8)" },
       ]},
     ]
   );
@@ -89837,7 +89837,7 @@ function maennlicheWeiblicheSeitePage() {
         <p>The chart shows each type together with its two wing variations and its core motivation: Type 9 (harmony), Type 1 (perfection), Type 2 (love), Type 3 (success), Type 4 (individuality), Type 5 (knowledge), Type 6 (security), Type 7 (joy of life), and Type 8 (power). Types 5 through 8 carry a powerful, rebellious, rather asocial-aggressive energy that tends toward antisocial behavior. Types 1 through 4 carry a loving, seductive, socially and emotionally benevolent energy that tends toward hysterical behavior. Type 9 alone belongs to neither pole.</p>
         <p>The lower grid names each type&rsquo;s central need &ndash; the thing it is ultimately after beneath all its strategies: Type 1 wants to be right, Type 2 wants to be loved, Type 3 wants to be recognized, Type 4 wants to understand itself, Type 5 wants to understand the world, Type 6 wants to feel safe and sheltered, Type 7 wants satisfaction, Type 8 wants independence, and Type 9 wants unity and harmony.</p>
       </div>
-      ${bookTip("motivationaler-enneagramm-typentest", "The motivational backgrounds behind each type&rsquo;s core need &ndash; with evaluation aids and in-depth explanations for all 9 types.", "Motivationaler Enneagramm-Typentest")}
+      ${bookTip("motivationaler-enneagramm-typentest", "The motivational backgrounds behind each type&rsquo;s core need &ndash; with evaluation aids and in-depth explanations for all 9 types.", "Motivationaler Enneagrammtypentest")}
     </div>
   `;
 }
