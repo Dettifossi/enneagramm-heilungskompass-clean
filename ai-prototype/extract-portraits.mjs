@@ -15,24 +15,29 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const appJs = fs.readFileSync(path.join(rootDir, "app.js"), "utf-8");
 
-// 1. Route -> Funktionsname-Zuordnung einsammeln (z.B. "kriminalpsychologie-michael-franzese": michaelFranzesePortraitPage)
+// 1. Route -> Funktionsname-Zuordnung einsammeln. Erfasst sowohl die übliche
+//    "...PortraitPage"-Konvention als auch abweichende Namen wie
+//    "astrologieAlbertEinsteinPage", "bellaThornePage" oder "borisBeckerKriminalPage" —
+//    wichtig ist nur, dass die Route mit beruehmte-/astrologie-/kriminalpsychologie- beginnt.
 const routeMap = new Map(); // funktionsname -> route
-const routeRegex = /"([a-z0-9-]+)":\s*([a-zA-Z0-9]+PortraitPage),/g;
+const routeRegex = /"((?:beruehmte|astrologie|kriminalpsychologie)-[a-z0-9-]+)":\s*([a-zA-Z0-9]+),/g;
 let m;
 while ((m = routeRegex.exec(appJs))) {
   routeMap.set(m[2], m[1]);
 }
 console.log(`Routen-Zuordnungen gefunden: ${routeMap.size}`);
 
-// 2. Alle Funktionsdefinitionen "function xyzPortraitPage() {" finden und deren
-//    Körper anhand Klammerbalance extrahieren.
-const funcStartRegex = /^function ([a-zA-Z0-9]+PortraitPage)\(\) \{/gm;
+// 2. Für jede so gefundene Funktion den Körper anhand Klammerbalance extrahieren
+//    (statt eines starren "*PortraitPage"-Namensmusters, das Astrologie-Portraits
+//    und ein paar abweichend benannte Funktionen bisher stillschweigend ausließ).
 const chunks = [];
 let count = 0;
 
-while ((m = funcStartRegex.exec(appJs))) {
-  const funcName = m[1];
-  const bodyStart = m.index + m[0].length;
+for (const funcName of routeMap.keys()) {
+  const funcStartRegex = new RegExp(`^function ${funcName}\\(\\) \\{`, "m");
+  const startMatch = funcStartRegex.exec(appJs);
+  if (!startMatch) continue; // Funktion nicht als eigenständige Definition gefunden
+  const bodyStart = startMatch.index + startMatch[0].length;
   let depth = 1;
   let i = bodyStart;
   while (depth > 0 && i < appJs.length) {
@@ -63,7 +68,7 @@ while ((m = funcStartRegex.exec(appJs))) {
 
   const route = routeMap.get(funcName);
   const readableName = funcName
-    .replace(/PortraitPage$/, "")
+    .replace(/(?:Portrait)?Page$/, "")
     .replace(/([A-Z])/g, " $1")
     .trim();
 

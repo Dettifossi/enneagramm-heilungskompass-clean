@@ -53,6 +53,60 @@ for (const p of KRIMINAL_PORTRAITS) {
   });
 }
 
+// Astrology portraits ("Enneagram meets Astrology") are full-text page functions
+// in en/bundle.js (e.g. astrologieAlbertEinsteinPage), not part of either array
+// above — extract them the same way the DE pipeline extracts *PortraitPage bodies.
+const astroRouteMap = new Map(); // funcName -> route
+const astroRouteRegex = /"(astrologie-[a-z0-9-]+)":\s*([a-zA-Z0-9]+),/g;
+let am;
+while ((am = astroRouteRegex.exec(src))) {
+  astroRouteMap.set(am[2], am[1]);
+}
+
+for (const funcName of astroRouteMap.keys()) {
+  const funcStartRegex = new RegExp(`^function ${funcName}\\(\\) \\{`, "m");
+  const startMatch = funcStartRegex.exec(src);
+  if (!startMatch) continue;
+  const bodyStart = startMatch.index + startMatch[0].length;
+  let depth = 1;
+  let i = bodyStart;
+  while (depth > 0 && i < src.length) {
+    const ch = src[i];
+    if (ch === "{") depth++;
+    else if (ch === "}") depth--;
+    i++;
+  }
+  const body = src.slice(bodyStart, i - 1);
+  const text = body
+    .replace(/return _astrologiePage\(/, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\$\{[^}]*\}/g, " ")
+    .replace(/&middot;/g, "·")
+    .replace(/&ndash;/g, "–")
+    .replace(/&mdash;/g, "—")
+    .replace(/&rsquo;/g, "'")
+    .replace(/&lsquo;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&")
+    .replace(/\\n/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (text.length < 80) continue;
+
+  const route = astroRouteMap.get(funcName);
+  const readableName = funcName
+    .replace(/Page$/, "")
+    .replace(/([A-Z])/g, " $1")
+    .trim();
+
+  chunks.push({
+    code: `PORTRAIT-${route}`,
+    source: "portraits-en",
+    text: `Astrology portrait: ${readableName}. ${text}`,
+  });
+}
+
 const outPath = path.join(__dirname, "knowledge-en-portraits.json");
 fs.writeFileSync(outPath, JSON.stringify(chunks));
 console.log(`${chunks.length} EN-Portraet-Chunks geschrieben nach ${outPath}`);
