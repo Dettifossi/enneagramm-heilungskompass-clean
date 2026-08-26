@@ -119993,7 +119993,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Leistung, die keine eigene Verletzlichkeit zulässt", varianten: [
         { code: "SE3", text: "Deutliche Warnzeichen des Körpers ändern nichts daran, dass die selbsterhaltende Drei effizient weiterfunktioniert – Verletzlichkeit einzugestehen fühlt sich für sie wie Versagen an. Diese kompromisslose Weigerung, die eigene Belastungsgrenze anzuerkennen, kann sich körperlich als eine chronisch entzündete Darmschleimhaut zeigen." },
-        { code: "SO3", text: "Keine Rücksicht auf die eigene, tatsächliche Belastungsgrenze nimmt das Tempo, das die soziale Drei im ständigen Vergleich mit anderen durchhält. Dieser permanente Leistungsdruck kann sich körperlich als eine Darmwand zeigen, die sich selbst nicht mehr als schützenswert behandelt." },
+        { code: "SO3", text: "Keine Rücksicht auf die eigene, tatsächliche Belastungsgrenze nimmt das Tempo, das die soziale Drei im ständigen Vergleich mit anderen durchhält – auf Dauer kann sich das als eine Darmwand zeigen, die sich selbst nicht mehr als schützenswert behandelt." },
         { code: "SX3", text: "Makellos und erfolgreich zu erscheinen hat für die sexuelle Drei Vorrang vor Warnsignalen wie Bauchschmerzen oder Blut im Stuhl, die sie deshalb gern lange überspielt – der eigene Körper bekommt dadurch oft erst spät überhaupt Beachtung." },
       ]},
       { typ: 4, titel: "Sehnsucht, die sich gegen die eigene Grenze wendet", varianten: [
@@ -120111,7 +120111,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Leistung, die keine Zeit zum Auflösen von Groll lässt", varianten: [
         { code: "SE3", text: "Innerer Groll wird von der selbsterhaltenden Drei zur Seite geschoben, wie so vieles, das dem Funktionieren im Weg steht – ihn wirklich aufzulösen, fühlt sich wie verlorene Zeit an. Diese über Jahre fortgesetzte Weigerung kann sich als Gallensteine zeigen, die sich in aller Stille festsetzen." },
-        { code: "SO3", text: "Keinen Raum, alten Groll wirklich zu klären, lässt das Tempo, das die soziale Drei im ständigen Vergleich mit anderen durchhält. Dieser permanente Leistungsdruck kann sich körperlich als ein Gallensystem zeigen, das sich selbst nie wirklich entlastet." },
+        { code: "SO3", text: "Keinen Raum, alten Groll wirklich zu klären, lässt das Tempo, das die soziale Drei im ständigen Vergleich mit anderen durchhält – langfristig kann sich das als ein Gallensystem zeigen, das sich selbst nie wirklich entlastet." },
         { code: "SX3", text: "Innere Bitterkeit wird von der sexuellen Drei gern so lange wie möglich überspielt, um in der Beziehung makellos zu erscheinen. Dieser Wille zur Kontrolle des äußeren Bildes verzögert oft, dem eigenen inneren Groll überhaupt Beachtung zu schenken." },
       ]},
       { typ: 4, titel: "Sehnsucht, die sich zu Bitterkeit verhärtet", varianten: [
@@ -120170,7 +120170,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Leistung, die dem Körper keine Zeit zum Loslassen lässt", varianten: [
         { code: "SE3", text: "Für den Toilettengang wird bei der selbsterhaltenden Drei oft keine Zeit eingeplant – der Körper soll effizient weiterfunktionieren, der natürliche Drang wird unterdrückt, bis er verstummt. Diese über Jahre fortgesetzte Missachtung des eigenen Rhythmus kann sich als chronische Verstopfung zeigen." },
-        { code: "SO3", text: "Kaum Raum für eigene Bedürfnisse lässt das Tempo, das die soziale Drei im ständigen Vergleich mit anderen durchhält. Dieser permanente Leistungsdruck kann sich körperlich als ein träger, wenig kooperativer Darm zeigen." },
+        { code: "SO3", text: "Kaum Raum für eigene Bedürfnisse lässt das Tempo, das die soziale Drei im ständigen Vergleich mit anderen durchhält, was sich körperlich als ein träger, wenig kooperativer Darm bemerkbar machen kann." },
         { code: "SX3", text: "In der Beziehung makellos zu erscheinen ist der sexuellen Drei oft wichtiger, als körperliche Signale wie den Stuhldrang rechtzeitig ernst zu nehmen." },
       ]},
       { typ: 4, titel: "Sehnsucht, die sich an Vergangenem festhält", varianten: [
@@ -120406,7 +120406,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Leistung, die sich selbst keine Entlastung gönnt", varianten: [
         { code: "SE3", text: "Ohne sich Pausen zu gönnen presst sich die selbsterhaltende Drei durch den Alltag – auch für den Toilettengang wird oft keine Zeit eingeplant, der natürliche Rhythmus wird durch Eile und Druck ersetzt. Diese über Jahre fortgesetzte Selbstüberforderung kann sich als Hämorrhoidalleiden zeigen." },
-        { code: "SO3", text: "Keine echte Entlastung lässt das Tempo, das die soziale Drei im ständigen Vergleich mit anderen durchhält. Dieser permanente Leistungsdruck kann sich körperlich als vergrößerte Gefäßpolster im Enddarm zeigen." },
+        { code: "SO3", text: "Keine echte Entlastung lässt das Tempo, das die soziale Drei im ständigen Vergleich mit anderen durchhält, was sich über die Jahre als vergrößerte Gefäßpolster im Enddarm zeigen kann." },
         { code: "SX3", text: "Ein als unattraktiv empfundenes Thema wie Hämorrhoiden überspielt die sexuelle Drei gern so lange wie möglich, aus Scham und dem Wunsch, in der Beziehung makellos zu erscheinen. Dieser Wille zur Kontrolle des äußeren Bildes verzögert oft die notwendige Behandlung." },
       ]},
       { typ: 4, titel: "Sehnsucht, die sich als körperlicher Druck zeigt", varianten: [
@@ -120612,7 +120612,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Macht und Nähe verhandelt die sexuelle Acht in ihrer einen Beziehung oft körperlich statt verbal, ein stiller Ringkampf um Einfluss, der zugleich Verbindung schafft. Dieses ständige Aushandeln kann körperlich mehr Anspannung erzeugen, als die Nähe selbst eigentlich lindert." },
       ]},
       { typ: 9, titel: "Ein Stau, der lange unbemerkt bleibt", varianten: [
-        { code: "SE9", text: "Innere Anspannung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort." },
+        { code: "SE9", text: "Innere Anspannung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu leicht lässt sie sich von Routine und Komfort einlullen." },
         { code: "SO9", text: "Der Gruppenharmonie ordnet die soziale Neun ihre eigene Stimme fast reflexhaft unter, kaum dass ein eigenes Bedürfnis am Horizont auftaucht." },
         { code: "SX9", text: "Wie es dem Partner geht, wird für die sexuelle Neun zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner den Hautausbruch nicht, übersieht die Neun ihn häufig ebenfalls." },
       ]},
@@ -120730,7 +120730,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Verschmelzung statt bloße Nähe sucht die sexuelle Acht in ihrer einen Beziehung, ein Übergehen der eigenen Grenzen in die der geliebten Person hinein. Dieses Verwischen der eigenen Umrisse kann sich im Bild eines fortschreitenden Farbverlusts wiederfinden." },
       ]},
       { typ: 9, titel: "Eine Erregung, die selten bewusst ankommt", varianten: [
-        { code: "SE9", text: "Innere Erregung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort." },
+        { code: "SE9", text: "Innere Erregung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – Routine und Komfort schlucken das Signal fast vollständig." },
         { code: "SO9", text: "Sobald ein Konflikt am Horizont auftaucht, ordnet die soziale Neun ihre eigene Erregung reflexhaft der Gruppenharmonie unter – über die Jahre kann daraus eine nie priorisierte, aber stetig sichtbarer werdende Gesichtsrötung werden." },
         { code: "SX9", text: "Wie sichtbar erregt oder verlegen der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt – ihre eigene Rötung fällt ihr dabei oft erst spät auf." },
       ]},
@@ -120789,7 +120789,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Erst wenn ihre Loyalität mehrfach auf die Probe gestellt und bestanden wurde, lässt die sexuelle Acht die geliebte Person wirklich nah an sich heran. Dieser lange Vertrauensaufbau vor jeder echten Verwundbarkeit kann Erschütterungen ungewöhnlich lange im Körper konservieren." },
       ]},
       { typ: 9, titel: "Eine Veränderung, die lange unbeachtet bleibt", varianten: [
-        { code: "SE9", text: "Eine langsam fortschreitende Veränderung der eigenen Haut wird von der selbsterhaltenden Neun lange kaum registriert, so vollständig verliert sie sich in Routine und Komfort. Erst wenn die Flecken deutlich sichtbar geworden sind, wird die Auseinandersetzung damit unumgänglich." },
+        { code: "SE9", text: "Eine langsam fortschreitende Veränderung der eigenen Haut wird von der selbsterhaltenden Neun lange kaum registriert – Routine und Komfort nehmen zu viel Raum ein, um sie wirklich wahrzunehmen. Erst wenn die Flecken deutlich sichtbar geworden sind, wird die Auseinandersetzung damit unumgänglich." },
         { code: "SO9", text: "Beständig ordnet die soziale Neun ihre eigene Erscheinung und ihre eigenen Bedürfnisse der Gruppenharmonie unter, was ein nie priorisiertes, aber stetig sichtbarer werdendes Fortschreiten der Vitiligo begünstigen kann." },
         { code: "SX9", text: "Wie der Partner auf die sichtbaren Veränderungen reagiert, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Nimmt der Partner die Flecken gelassen, fällt es auch der Neun leichter, sie in ihr Selbstbild zu integrieren." },
       ]},
@@ -120907,7 +120907,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Kontrolle über die geliebte Person zu behalten kostet die sexuelle Acht in ihrer intensiven Bindung mindestens so viel Energie wie Kontrolle über sich selbst. Dieser doppelte Kraftaufwand kann sich körperlich als anhaltendes Schwitzen zeigen, das über die eigene Anspannung hinausgeht." },
       ]},
       { typ: 9, titel: "Eine Anspannung, die selten bewusst ankommt", varianten: [
-        { code: "SE9", text: "Bis ins Bewusstsein dringt innere Anspannung bei der selbsterhaltenden Neun selten durch, so vollständig verliert sie sich in Routine und Komfort. Anhaltendes Schwitzen kann so zum einzigen sichtbaren Hinweis auf eine innerlich längst bestehende Alarmbereitschaft werden." },
+        { code: "SE9", text: "Bis ins Bewusstsein dringt innere Anspannung bei der selbsterhaltenden Neun selten durch – zu sehr geht sie in Routine und Komfort auf. Anhaltendes Schwitzen kann so zum einzigen sichtbaren Hinweis auf eine innerlich längst bestehende Alarmbereitschaft werden." },
         { code: "SO9", text: "Kaum taucht ein Konflikt am Horizont auf, ordnet die soziale Neun ihre eigene Anspannung reflexhaft der Gruppenharmonie unter – langfristig kann sich daraus ein nie priorisiertes, aber stetig spürbares übermäßiges Schwitzen entwickeln." },
         { code: "SX9", text: "Wie angespannt oder entspannt der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Anspannung nicht, übersieht die Neun ihre eigene innere Alarmbereitschaft häufig ebenfalls." },
       ]},
@@ -120966,7 +120966,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Besitzergreifend hält die sexuelle Acht an der einen Bindung fest, aus der sie ihre Sicherheit bezieht, jede Bedrohung dieser Bindung wird mit voller Kraft abgewehrt. Diese ständige Verteidigungsbereitschaft kann sich als wiederkehrender, kraftraubender Ausbruch zeigen." },
       ]},
       { typ: 9, titel: "Eine Erschöpfung, die selten bewusst ankommt", varianten: [
-        { code: "SE9", text: "Innere Erschöpfung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch – zu vollständig verliert sie sich in Routine und Komfort. Ein wiederkehrender Lippenherpes-Ausbruch kann so zum einzigen sichtbaren Hinweis auf eine längst bestehende Kraftlosigkeit werden." },
+        { code: "SE9", text: "Innere Erschöpfung dringt bei der selbsterhaltenden Neun selten bis ins Bewusstsein durch, weil Routine und Komfort sie zu wirksam betäuben. Ein wiederkehrender Lippenherpes-Ausbruch kann so zum einzigen sichtbaren Hinweis auf eine längst bestehende Kraftlosigkeit werden." },
         { code: "SO9", text: "Kaum lassen ihre Kräfte spürbar nach, ordnet die soziale Neun ihre eigene Erschöpfung beständig der Gruppenharmonie unter, was einen nie priorisierten, aber stetig wiederkehrenden Ausbruch begünstigen kann." },
         { code: "SX9", text: "Wie erschöpft der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Erschöpfung nicht, übersieht die Neun ihre eigene Kraftlosigkeit häufig ebenfalls." },
       ]},
@@ -121025,7 +121025,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Ihre eigenen Reaktionen prüft die sexuelle Acht in ihrer intensiven Bindung oft daran, ob die Partnerin oder der Partner sie ernst nimmt, mehr als daran, was der ursprüngliche Kontakt tatsächlich ausgelöst hat. Diese Verlagerung kann die eigentliche Unverträglichkeit an der Kontaktstelle eher verlängern." },
       ]},
       { typ: 9, titel: "Ein Kontakt, der lange nicht bemerkt wird", varianten: [
-        { code: "SE9", text: "Unangenehme Substanzen oder Kontakte nimmt die selbsterhaltende Neun oft lange gar nicht bewusst wahr, so sehr verliert sie sich in Routine und Komfort. Ein Ekzem an der Kontaktstelle wird auf diese Weise häufig erst spät ernst genommen." },
+        { code: "SE9", text: "Unangenehme Substanzen oder Kontakte nimmt die selbsterhaltende Neun oft lange gar nicht bewusst wahr – Routine und Komfort überdecken das Warnsignal zu gut. Ein Ekzem an der Kontaktstelle wird auf diese Weise häufig erst spät ernst genommen." },
         { code: "SO9", text: "Selbst wenn ein bestimmter Kontakt sie sichtlich belastet, ordnet die soziale Neun ihre eigenen Unverträglichkeiten beständig der Gruppenharmonie unter – über die Zeit kann so ein nie priorisiertes, aber stetig wiederkehrendes Ekzem entstehen." },
         { code: "SX9", text: "Wie der Partner auf einen bestimmten Kontakt reagiert, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt – die eigene Unverträglichkeit registriert sie dabei oft erst mit Verzögerung." },
       ]},
@@ -121202,7 +121202,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Ihre Wachsamkeit gilt in der intensiven Beziehung, der sie sich hingibt, oft ebenso stark der geliebten Person wie sich selbst – ein ständiges Prüfen, ob die Bindung noch sicher ist. Diese doppelte Wachsamkeit kann sich stoffwechselseitig als beschleunigte Schilddrüsenfunktion zeigen." },
       ]},
       { typ: 9, titel: "Ein Signal, das nie wirklich ankommt", varianten: [
-        { code: "SE9", text: "Hunger- und Sättigungssignale registriert die selbsterhaltende Neun oft nur beiläufig, so vollständig verliert sie sich in Routine und Komfort. Ein schleichend steigender Blutzucker kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
+        { code: "SE9", text: "Hunger- und Sättigungssignale registriert die selbsterhaltende Neun oft nur beiläufig – zu vertieft ist sie in Routine und Komfort. Ein schleichend steigender Blutzucker kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
         { code: "SO9", text: "Die eigenen Bedürfnisse ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Sättigungsgefühl gerät dabei aus dem Blick – so kann sich mit der Zeit ein schleichend steigender Blutzucker einstellen." },
         { code: "SX9", text: "Wie viel und wie bewusst der Partner isst, prägt bei der sexuellen Neun oft auch ihr eigenes Essverhalten, sobald sie mit ihm verschmilzt. Isst dieser unbedacht, isst die Neun oft ebenso unbedacht mit." },
       ]},
@@ -121261,7 +121261,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Ihre Stimme richtet die sexuelle Acht in erster Linie an die eine Person, der sie vollständig vertraut, seltener an eine größere Gruppe. Bleibt genau diese eine Person das einzige echte Gegenüber, kann sich der innere Selbstangriff trotz dieses begrenzten Sprechens fortsetzen." },
       ]},
       { typ: 9, titel: "Ein Antrieb, der nie bewusst wahrgenommen wird", varianten: [
-        { code: "SE9", text: "Ihr eigener Antrieb dringt bei der selbsterhaltenden Neun kaum je ins Bewusstsein, so vollständig verliert sie sich in Routine und Komfort. Eine schleichende Schilddrüsenunterfunktion kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
+        { code: "SE9", text: "Ihr eigener Antrieb dringt bei der selbsterhaltenden Neun kaum je ins Bewusstsein – Routine und Komfort nehmen zu viel Raum ein, um ihn wirklich wahrzunehmen. Eine schleichende Schilddrüsenunterfunktion kann so über Jahre unbemerkt bleiben, bis der Körper deutlicher Alarm schlägt." },
         { code: "SO9", text: "Kaum tritt der eigene Antrieb in den Vordergrund, ordnet die soziale Neun ihn beständig der Gruppenharmonie unter, wodurch sich über Jahre eine schleichende Antriebslosigkeit einstellen kann." },
         { code: "SX9", text: "Die Wahrnehmung der eigenen Energie übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Erschöpfung nicht, übersieht die Neun ihre eigene Antriebslosigkeit oft ebenso lange." },
       ]},
@@ -121320,7 +121320,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Genuss erlaubt sich die sexuelle Acht am ehesten dort, wo sie zugleich die Kontrolle über die Situation behält – meist innerhalb der einen Bindung, die sie selbst mitgestaltet. Außerhalb dieses vertrauten Rahmens bleibt echte Entspannung für sie eher die Ausnahme." },
       ]},
       { typ: 9, titel: "Eine Anspannung, die selten bewusst ankommt", varianten: [
-        { code: "SE9", text: "Kaum bewusst wahrgenommen wird innere Anspannung von der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Herzrasen und innere Unruhe können so zum einzigen sichtbaren Hinweis auf eine unbemerkte Schilddrüsenüberfunktion werden." },
+        { code: "SE9", text: "Kaum bewusst wahrgenommen wird innere Anspannung von der selbsterhaltenden Neun, weil Routine und Komfort sie zu wirksam betäuben. Herzrasen und innere Unruhe können so zum einzigen sichtbaren Hinweis auf eine unbemerkte Schilddrüsenüberfunktion werden." },
         { code: "SO9", text: "Sobald sich ein Konflikt andeutet, ordnet die soziale Neun ihre eigene Anspannung der Gruppenharmonie unter – auf Dauer kann sich daraus eine beschleunigte, aber lange übersehene Schilddrüsenfunktion entwickeln." },
         { code: "SX9", text: "Wie angespannt oder ruhig der Partner wirkt, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigene Unruhe nicht, übersieht die Neun ihre eigene innere Alarmbereitschaft häufig ebenfalls." },
       ]},
@@ -121379,7 +121379,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Ihre Stärke stellt die sexuelle Acht der geliebten Person gegenüber selten wirklich infrage, selbst wenn genau dort echte Entlastung möglich wäre. Dieses Festhalten an der eigenen Rolle kann verhindern, dass sich die Verletzlichkeit, die die Bindung eigentlich trägt, körperlich löst." },
       ]},
       { typ: 9, titel: "Eine Stimme, die nie an erster Stelle steht", varianten: [
-        { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigene Stimme der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Ein schleichender Angriff auf die eigene Schilddrüse kann so über Jahre unbemerkt bleiben." },
+        { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigene Stimme der selbsterhaltenden Neun – zu leicht lässt sie sich von Routine und Komfort einlullen. Ein schleichender Angriff auf die eigene Schilddrüse kann so über Jahre unbemerkt bleiben." },
         { code: "SO9", text: "Kaum dass ein eigenes Bedürfnis am Horizont auftaucht, ordnet die soziale Neun ihre eigene Stimme der Gruppenharmonie unter – ein Reflex, den sie kaum hinterfragt." },
         { code: "SX9", text: "Ihre eigene Wahrnehmung tritt bei der sexuellen Neun zugunsten der Wahrnehmung des Partners zurück, sobald sie mit ihm verschmilzt. Bemerkt der Partner die eigenen Warnsignale nicht, übersieht die Neun ihre eigene Stimme oft ebenso lange." },
       ]},
@@ -121438,7 +121438,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Ihre Wachsamkeit gilt der sexuellen Acht in der intensiven Bindung oft mehr dem Wohl der geliebten Person als dem eigenen – ein Schutzinstinkt, der die eigene Erschöpfung leicht übersieht. Dieses Muster kann sich metabolisch als beginnende Insulinresistenz zeigen." },
       ]},
       { typ: 9, titel: "Ein Körpergefühl, das selten bewusst wird", varianten: [
-        { code: "SE9", text: "Kaum bewusst wahrgenommen werden Hunger- und Sättigungsgefühl bei der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende Körperwahrnehmung kann sich über Jahre als zusätzliches Gewicht zeigen." },
+        { code: "SE9", text: "Kaum bewusst wahrgenommen werden Hunger- und Sättigungsgefühl bei der selbsterhaltenden Neun – Routine und Komfort überdecken auch dieses Signal zu gut. Diese fehlende Körperwahrnehmung kann sich über Jahre als zusätzliches Gewicht zeigen." },
         { code: "SO9", text: "Kaum tritt das eigene Sättigungsgefühl in den Vordergrund, ordnet die soziale Neun es beständig der Gruppenharmonie unter, was über die Jahre eine schleichende Gewichtszunahme begünstigen kann." },
         { code: "SX9", text: "Die Wahrnehmung des eigenen Körpers übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt – isst dieser unbedacht, verliert auch sie leicht den Bezug zum eigenen Sättigungsgefühl." },
       ]},
@@ -121497,7 +121497,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Ihre Kraft bündelt die sexuelle Acht fast ausschließlich für die eine Bindung, in die sie sich mit voller Intensität hineingibt, andere Lebensbereiche treten dahinter zurück. Diese einseitige Konzentration kann trotzdem zur gleichzeitigen Überforderung mehrerer Systeme beitragen, wenn die Bindung selbst unter Druck gerät." },
       ]},
       { typ: 9, titel: "Zu viele Signale, die gleichzeitig übersehen werden", varianten: [
-        { code: "SE9", text: "Mehrere Warnsignale des Körpers bleiben bei der selbsterhaltenden Neun gleichzeitig unbemerkt, so vollständig verliert sie sich in Routine und Komfort. Ein metabolisches Syndrom kann sich so über Jahre auf mehreren Ebenen zugleich unbemerkt entwickeln." },
+        { code: "SE9", text: "Mehrere Warnsignale des Körpers bleiben bei der selbsterhaltenden Neun gleichzeitig unbemerkt – zu vertieft ist sie in Routine und Komfort. Ein metabolisches Syndrom kann sich so über Jahre auf mehreren Ebenen zugleich unbemerkt entwickeln." },
         { code: "SO9", text: "Mehrere eigene Bedürfnisse gleichzeitig ordnet die soziale Neun der Gruppenharmonie unter, ohne sie je einzeln in den Vordergrund zu stellen. Diese gleichzeitige Selbstzurücknahme auf vielen Ebenen kann sich als metabolisches Syndrom zeigen." },
         { code: "SX9", text: "Die Wahrnehmung mehrerer eigener Körpersignale übernimmt die sexuelle Neun oft gleichzeitig vom Partner, sobald sie mit ihm verschmilzt. Bemerkt der Partner diese Signale nicht, übersieht die Neun sie auf mehreren Ebenen zugleich." },
       ]},
@@ -121556,7 +121556,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Ihre Verletzlichkeit zeigt die sexuelle Acht der geliebten Person gegenüber durchaus, verlangt dafür aber unausgesprochen absolute Verlässlichkeit zurück. Wird diese Erwartung nicht erfüllt, kann sich die eigentliche Freigabe, die PCOS lindern könnte, wieder verschließen." },
       ]},
       { typ: 9, titel: "Ein eigener Wunsch, der nie ganz reift", varianten: [
-        { code: "SE9", text: "Kaum bis zur Reife gelangen eigene Wünsche bei der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende Vollendung kann sich über Jahre als PCOS zeigen." },
+        { code: "SE9", text: "Kaum bis zur Reife gelangen eigene Wünsche bei der selbsterhaltenden Neun, weil Routine und Komfort sie zu wirksam betäuben. Diese fehlende Vollendung kann sich über Jahre als PCOS zeigen." },
         { code: "SO9", text: "Ihre eigenen Wünsche ordnet die soziale Neun beständig der Gruppenharmonie unter, ohne sie je vollständig zu verfolgen. Diese chronische Selbstzurücknahme kann sich hormonell als gestörte Follikelreifung zeigen." },
         { code: "SX9", text: "Ihre eigenen Wünsche übernimmt die sexuelle Neun oft vom Partner, sobald sie mit ihm verschmilzt, statt sie selbst zur Reife zu bringen. Verfolgt der Partner seine Wünsche nicht, verfolgt die Neun ihre eigenen oft ebenso wenig." },
       ]},
@@ -121615,7 +121615,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Die Wandlung dieser Lebensphase verhandelt die sexuelle Acht am liebsten gemeinsam mit der einen Person, der sie vollständig vertraut, seltener allein oder öffentlich. Fehlt dieses vertraute Gegenüber gerade in dieser Zeit, kann die Auseinandersetzung mit der Wandlung besonders schwerfallen." },
       ]},
       { typ: 9, titel: "Ein Übergang, der leise vorübergeht", varianten: [
-        { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigentliche Bedeutung dieser Lebensphase von der selbsterhaltenden Neun, so vollständig verliert sie sich in Routine und Komfort. Diese fehlende bewusste Auseinandersetzung kann die Wechseljahresbeschwerden verlängern." },
+        { code: "SE9", text: "Kaum bewusst wahrgenommen wird die eigentliche Bedeutung dieser Lebensphase von der selbsterhaltenden Neun – Routine und Komfort nehmen zu viel Raum ein, um sie wirklich wahrzunehmen. Diese fehlende bewusste Auseinandersetzung kann die Wechseljahresbeschwerden verlängern." },
         { code: "SO9", text: "Ihre eigene Wandlung ordnet die soziale Neun beständig der Gruppenharmonie unter, ohne sich ihr wirklich bewusst zu stellen – dieses ständige Zurückstellen kann intensivere Wechseljahresbeschwerden begünstigen." },
         { code: "SX9", text: "Wie ihr Partner auf diese Lebensphase reagiert, wird für die sexuelle Neun oft zum eigentlichen Maßstab, sobald sie mit ihm verschmilzt. Nimmt der Partner die Wandlung gelassen, fällt es auch der Neun leichter, sie anzunehmen." },
       ]},
@@ -122441,7 +122441,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Ihre Erschöpfung zeigt die sexuelle Acht der einen Person, der sie vertraut, durchaus. Wird diese Erschöpfung dort ernst genommen, kann sie vor dem vollständigen Zusammenbruch schützen, der andere Achter-Varianten eher trifft." },
       ]},
       { typ: 9, titel: "Eine Erschöpfung, die spät bemerkt wird", varianten: [
-        { code: "SE9", text: "Ihre eigenen Grenzen registriert die selbsterhaltende Neun oft erst, wenn sie längst überschritten sind, so vollständig verliert sie sich in Routine und Aufgaben. Ein Burnout kann sich so über Jahre unbemerkt aufbauen." },
+        { code: "SE9", text: "Ihre eigenen Grenzen registriert die selbsterhaltende Neun oft erst, wenn sie längst überschritten sind – zu vertieft ist sie in Routine und Aufgaben. Ein Burnout kann sich so über Jahre unbemerkt aufbauen." },
         { code: "SO9", text: "Ihre eigene Erschöpfung ordnet die soziale Neun beständig der Gruppenharmonie unter, auch das eigene Warnsignal gerät dabei aus dem Blick. Diese chronische Selbstzurücknahme kann in ein Burnout münden." },
         { code: "SX9", text: "Die Belastung des Partners übernimmt die sexuelle Neun oft als eigene, sobald sie mit ihm verschmilzt. Ist der Partner überlastet, kann sich diese Überlastung unbemerkt auf sie selbst übertragen." },
       ]},
