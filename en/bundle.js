@@ -251,6 +251,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7", heading:"Dr. Umberto Eco – Self-Preservation Type 8", krankheit:"Pancreatic cancer, kept almost entirely private for about two years", teaser:"SE8w7 – writer, semiotician, and philosopher, 1932–2016. Pancreatic cancer diagnosis about two years before his death, undiminished literary output until shortly before the end, died on 19 February 2016 in Milan." , land:"Italy", gender:"m", jahre:"1932–2016"},
   { route:"krankheitsportraets-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1", heading:"Greta Thunberg – Self-Preservation Type 2", krankheit:"Severe depression, eating disorder, and selective mutism in childhood", teaser:"SE2w1 – climate activist, b. 2003. Severe depressive episode with an eating disorder and selective mutism at around age eleven, followed by diagnoses of Asperger's syndrome and OCD." , land:"Sweden", gender:"f", jahre:"b. 2003"},
   { route:"krankheitsportraets-bob-marley", name:"Bob Marley", subtyp:"SO2w1", heading:"Bob Marley – Social Type 2", krankheit:"Malignant melanoma in the toe, amputation refused for religious reasons", teaser:"SO2w1 – Jamaican musician, 1945–1981. Malignant melanoma diagnosed in 1977, amputation refused for religious reasons, cancer spreading over years, died on 11 May 1981 at age 36." , land:"Jamaica", gender:"m", jahre:"1945–1981"},
+  { route:"krankheitsportraets-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2", heading:"Angelina Jolie – Social Type 1", krankheit:"BRCA1 gene mutation, preventive double mastectomy in 2013, removal of ovaries and fallopian tubes in 2015", teaser:"SO1w2 – actress and director, b. 1975. BRCA1 gene mutation confirmed after a family history of cancer, publicly disclosed preventive double mastectomy in 2013, removal of ovaries and fallopian tubes in 2015." , land:"USA", gender:"f", jahre:"b. 1975"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -37326,6 +37327,7 @@ function angelinaJoliePortraitPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2) – longtime partner, six children together"},
+        {route:"krankheitsportraets-angelina-jolie", label:"Illness Portrait: Angelina Jolie (SO1w2) – BRCA1 gene mutation"},
       ])}
     </div>
   `);
@@ -58462,6 +58464,169 @@ function bobMarleyKrankheitsportraetPage() {
         {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali (SO2w1) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so2", label:"Subtype Profile SO2"},
+      ])}
+    </div>
+  `);
+}
+
+function angelinaJolieKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-angelina-jolie-portrait.jpg" alt="Angelina Jolie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Angelina Jolie</p>
+        <p class="krim-portrait-typ">SO1w2 · Social Type 1 with Two-Wing · b. 1975</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Angelina Jolie</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-angelina-jolie">Famous
+        Personalities portrait</a>. This page delves into a chapter only briefly mentioned
+        there: a preventive double mastectomy made public in 2013 due to a BRCA1 gene
+        mutation, followed in 2015 by the removal of her ovaries and fallopian tubes – both
+        deliberately communicated in public.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Jolie</strong> is assigned to the <strong>social Type 1 with Two-Wing</strong>.
+        The SO1 cannot not-act when action is possible – even with her own health; the
+        Two-Wing adds the direct, personal compassion that turns a private medical decision
+        into a public message. Exactly this combination – duty to do what is right, combined
+        with the wish to help others through her own openness – shaped how she handled her
+        own genetic diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A burdened family history:</strong>
+        Jolie's mother, Marcheline Bertrand, died of ovarian cancer in 2007 at age 56; her
+        maternal grandmother died of ovarian cancer, and her aunt of breast cancer – a
+        familial pattern that suggested genetic testing.</p>
+        <p class="vb-intro"><strong>b) Confirmation of the BRCA1 gene mutation:</strong>
+        A genetic test confirmed that Jolie carried a mutation in the BRCA1 gene, which
+        statistically significantly raises the risk of breast and ovarian cancer.</p>
+        <p class="vb-intro"><strong>c) A medically estimated risk of about 87 percent:</strong>
+        According to medical estimates, her personal lifetime risk of developing breast
+        cancer was about 87 percent, and her risk of ovarian cancer about 50 percent.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Preventive double mastectomy in 2013:</strong>
+        Between February and April 2013, Jolie underwent a preventive double mastectomy with
+        subsequent reconstruction to drastically lower her breast cancer risk.</p>
+        <p class="vb-intro"><strong>b) A public announcement through a newspaper essay:</strong>
+        Instead of keeping the operation private, Jolie published a detailed essay in the New
+        York Times in May 2013, titled "My Medical Choice," explaining her decision and its
+        medical basis in detail.</p>
+        <p class="vb-intro"><strong>c) Removal of ovaries and fallopian tubes in 2015:</strong>
+        Two years later, in March 2015, Jolie additionally had her ovaries and fallopian
+        tubes preventively removed after a blood test showed elevated markers that could
+        indicate an emerging cancer.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) No actual cancer diagnosis:</strong>
+        Unlike many other illness portraits in this Compass, Jolie's case did not involve an
+        existing cancer, but a purely preventive decision based on a statistically elevated
+        risk.</p>
+        <p class="vb-intro"><strong>b) A second essay on the ovarian surgery:</strong>
+        Jolie also accompanied the removal of her ovaries and fallopian tubes in 2015 with
+        another public essay in the New York Times, once again laying out her decision-making
+        process.</p>
+        <p class="vb-intro"><strong>c) A measurable effect on public awareness:</strong>
+        Following Jolie's 2013 essay, doctors worldwide recorded a marked increase in
+        inquiries about BRCA genetic testing – a phenomenon later known as the "Angelina
+        Jolie effect."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide media and medical attention:</strong>
+        Jolie's decisions triggered international coverage and were examined in numerous
+        studies as a case example of the influence of prominent health openness on the
+        preventive behavior of the general population.</p>
+        <p class="vb-intro"><strong>b) Controversy over access and cost:</strong>
+        The "Angelina Jolie effect" also sparked a public debate about the fact that
+        preventive genetic testing and surgery are not equally accessible to all women – a
+        discussion Jolie herself addressed in her essays.</p>
+        <p class="vb-intro"><strong>c) Continued public engagement:</strong>
+        Jolie has continued her humanitarian and film work unchanged since then, with the
+        preventive procedures not visibly limiting her public life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Acting because action is possible:</strong>
+        The SO1's characteristic conviction that injustice – including an elevated health
+        risk – must not simply be accepted when a course of action exists shaped Jolie's
+        decision for the preventive surgeries from the start.</p>
+        <p class="vb-intro"><strong>b) The Two-Wing and the deliberate public disclosure:</strong>
+        The same combination of conviction and heart that marks Jolie's humanitarian work
+        showed here too: instead of keeping the operations private, she made them public
+        because other women might benefit – care expressed as action, not just feeling.</p>
+        <p class="vb-intro"><strong>c) A duty to visibility rather than withdrawal:</strong>
+        Where others would have kept such an intimate medical decision private, Jolie
+        published two detailed essays – a pattern consistent with her entire public work: do
+        what is right and make it visible, not to earn admiration, but because visibility
+        itself is experienced as an obligation.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A fighter against injustice who treated genetic risk as injustice too:</strong>
+        Jolie's entire public work rests on the conviction that visible injustice demands
+        action – with her own genetic diagnosis, she applied exactly this stance to her own
+        body: a statistical risk became something that had to be actively confronted.</p>
+        <p class="vb-intro"><strong>b) Why the breasts and ovaries, of all organs, the organs of feminine care?</strong>
+        For a social One with a Two-Wing whose entire life's work revolves around motherhood,
+        care for other people's children, and protecting the vulnerable, one interpretation
+        suggests itself: exactly the organs popularly associated with motherhood and feminine
+        care became the subject of a preventive decision made public. This reading is a
+        plausible interpretation, not a proven clinical causal link, and will be developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Classification without determinism:</strong>
+        This does not mean that the social One's pattern inevitably leads to genetically
+        elevated cancer risk – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What can be shown in Jolie's case is a pattern in dealing with a
+        health risk that keeps recurring in a pronounced social One with a Two-Wing – one of
+        many possible readings, not a verdict. The corresponding illness pattern is being
+        developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Jolie does not know her own pattern as an Enneagram structure – the social One with a
+        Two-Wing reflexively cannot not-act once a danger is recognized, and almost
+        inevitably turns private decisions into public messages. Anyone who does not
+        recognize their own tendency to translate every recognized danger immediately into
+        visible action as a pattern risks leaving little room to process a difficult decision
+        privately first, before it becomes a public task.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Type 1 with Two-Wing explains much about how <strong>Angelina Jolie</strong>
+        handled her genetic risk: a woman whose entire public work is devoted to making
+        injustice visible turned her own preventive decision into a public message as well –
+        the goose that left no risk unaddressed even in her own body, and made the formation
+        stronger by speaking openly about her own vulnerability.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so1", label:"Subtype Profile SO1"},
       ])}
     </div>
   `);
@@ -91584,6 +91749,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-umberto-eco": umbertoEcoKrankheitsportraetPage,
       "krankheitsportraets-greta-thunberg": gretaThunbergKrankheitsportraetPage,
       "krankheitsportraets-bob-marley": bobMarleyKrankheitsportraetPage,
+      "krankheitsportraets-angelina-jolie": angelinaJolieKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
