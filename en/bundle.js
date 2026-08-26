@@ -81457,7 +81457,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE7", text: "This permanent scattering can prevent the self-preservation Seven from ever arriving at her own, deeper exhaustion – she keeps herself constantly in motion, jumping from one project, one pleasure, one distraction to the next. This exhaustion dams up unnoticed until it shows itself abruptly, often worsened by alcohol, nicotine, or other risk factors." },
           { code: "SO7", text: "Without ever admitting her own growing exhaustion, the social Seven, the counter-type, continually sets her own needs aside out of duty – this self-imposed, never-acknowledged overextension can condense over the years into an inner fullness." },
-          { code: "SX7", text: "Often with elevated risk for addictive behavior, the sexual Seven lives boundless, impulsive enthusiasm – this combination of restless intensity and substance-linked risk reads psychosomatically as one of the more direct pictures of a sudden, dramatic discharge." },
+          { code: "SX7", text: "Often with elevated risk for addictive behavior, the sexual Seven lives boundless, impulsive enthusiasm – this combination of restless intensity and substance-linked risk fits psychosomatically well with a sudden, dramatic discharge." },
         ],
       },
       {
@@ -81937,7 +81937,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Self-forgetting that overlooks her own body",
         varianten: [
           { code: "SE9", text: "Barely ever consciously perceived or nourished is the self-preservation Nine's own body over the decades, so consistently does she override her own needs – this sustained self-forgetting is psychosomatically one of the most direct pictures of osteoporosis: a substance that dwindles because it simply received no attention over the years." },
-          { code: "SO9", text: "So small does the social Nine make herself inwardly that her own self-care barely ever finds room, continually subordinating her own needs to the group's – this chronic self-effacement can show up as dwindling inner substance." },
+          { code: "SO9", text: "So small does the social Nine make herself inwardly that her own self-care barely ever finds room, continually subordinating her own needs to the group's – over time this can leave her with a dwindling inner substance." },
           { code: "SX9", text: "Often as her own, the sexual Nine takes on the partner's needs, merging with him – this sustained self-abandonment also means her own substance is rarely recognized and nourished as independent, because it disappears behind the partner's." },
         ],
       },
@@ -82201,7 +82201,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE7", text: "As a reward for herself, the self-preservation Seven often indulges lavishly in food, drink, and pleasure – repeated, purine-rich indulgence over years, combined with a refusal to set real limits, fits especially directly the mechanical origin pattern of gout: an accumulation that eventually forces its way through as a sharp attack." },
           { code: "SO7", text: "Often held back are her own pleasures and needs out of duty in the social Seven, the counter-type – this restrained, never-lived-out indulgence differs from the unrestrained Seven's more direct consumption pattern and can less often lead to the classic accumulation." },
-          { code: "SX7", text: "Often combined with intense consumption of food, alcohol, or other indulgences, the sexual Seven lives boundless enthusiasm – this impulsive, repeated intensity reads psychosomatically as one of the more direct pictures of an accumulation that eventually discharges explosively." },
+          { code: "SX7", text: "Often combined with intense consumption of food, alcohol, or other indulgences, the sexual Seven lives boundless enthusiasm – this impulsive, repeated intensity lines up psychosomatically with an accumulation that eventually discharges explosively." },
         ],
       },
       {
@@ -82402,7 +82402,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Repressed tension behind outer relaxation",
         varianten: [
           { code: "SE9", text: "Often unconsciously, the self-preservation Nine holds physical tension that's never consciously perceived or released while appearing relaxed outwardly – this quiet, never-addressed pattern fits especially precisely the picture of frozen shoulder, which likewise develops creepingly and unnoticed for a long time." },
-          { code: "SO9", text: "Often unconsciously, the social Nine holds back physical tension that's never voiced, continually subordinating her own needs to the group's – this chronic self-effacement can show up as a stiffening of the shoulder." },
+          { code: "SO9", text: "Often unconsciously, the social Nine holds back physical tension that's never voiced, continually subordinating her own needs to the group's – over the years this can settle into a stiffening of the shoulder." },
           { code: "SX9", text: "The sexual Nine does allow much physical closeness, merging with the partner – this lived-out connection stands against the general rigidity typical of frozen shoulder, even though her own identity recedes in the process." },
         ],
       },
@@ -82666,7 +82666,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE7", text: "A multitude of parallel options keeps the self-preservation Seven jumping between possibilities without ever really arriving at one – this permanent scattering can show up physically as a flighty breathing that never reaches full depth and rarely truly settles." },
           { code: "SO7", text: "The social Seven, the counter-type, consistently sets her own needs aside in favor of others, often to the point of her own exhaustion – this self-imposed overload can show up as breathing that hardly ever grants itself the necessary pause to catch its breath." },
-          { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly and impulsively, often paired with a heightened risk for smoking or other irritants that place additional strain on the airways – psychosomatic medicine reads this combination of restless intensity and substance-linked risk as one of the more direct pictures of an irritated, overburdened lung." },
+          { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly and impulsively, often paired with a heightened risk for smoking or other irritants that place additional strain on the airways – psychosomatic medicine tends to connect this combination of restless intensity and substance-linked risk with an irritated, overburdened lung." },
         ],
       },
       {
@@ -82681,7 +82681,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Self-forgetting that overlooks its own breath",
         varianten: [
           { code: "SE9", text: "The self-preservation Nine takes refuge in comfort, fixed routines, and the consistent avoidance of any conflict – her own breath, too, is rarely consciously noticed in the process; it simply runs in the background, without the person ever asking whether it is truly free and deep. This self-forgetting can show up psychosomatically as breathing that never really gives itself space." },
-          { code: "SO9", text: "The social Nine seeks harmony within the group at any cost and subordinates her own voice so consistently that, eventually, she barely knows what she herself actually needs – this chronic self-erasure can show up as breathing that never really makes itself heard." },
+          { code: "SO9", text: "The social Nine seeks harmony within the group at any cost and subordinates her own voice so consistently that, eventually, she barely knows what she herself actually needs – this pattern of erasing herself can settle into breathing that never really makes itself heard." },
           { code: "SX9", text: "Her own identity dissolves so completely into her partner that, in its purest expression, this may be the clearest version of a breath that never quite found its own, independent rhythm — the sexual Nine's breath willingly adapted to that of the beloved instead." },
         ],
       },
@@ -82852,7 +82852,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         varianten: [
           { code: "SE7", text: "Options and indulgences are how the self-preservation Seven secures herself, often paired with smoking as a means of self-soothing – psychosomatic medicine reads this direct reach for irritants as one of the most immediate pictures of chronic bronchitis: a mucous membrane that has grown accustomed to repeated outer irritation." },
           { code: "SO7", text: "The social Seven, the counter-type, sets her own needs aside in favor of others, often to the point of her own exhaustion – a recurring cough can easily be overlooked in the process, because attention consistently lies with the needs of others." },
-          { code: "SX7", text: "Enthusiasm gets lived out boundlessly by the sexual Seven, often paired with intense indulgence in stimulants – psychosomatic medicine reads this impulsive intensity as one of the more direct paths to an irritated, chronically inflamed bronchial mucous membrane." },
+          { code: "SX7", text: "Enthusiasm gets lived out boundlessly by the sexual Seven, often paired with intense indulgence in stimulants – psychosomatic medicine tends to link this impulsive intensity to an irritated, chronically inflamed bronchial mucous membrane." },
         ],
       },
       {
@@ -82867,7 +82867,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         typ: 9, titel: "Self-forgetting that overrides its own cough",
         varianten: [
           { code: "SE9", text: "Comfort and routine are where the self-preservation Nine takes refuge, and her own cough often barely registers consciously – this overlooking of a constantly recurring physical signal fits especially closely with the picture of chronic bronchitis that was able to develop over years unnoticed." },
-          { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony that even her own cough rarely finds real attention – this chronic self-effacement can show up as a signal that keeps recurring yet is never truly heard." },
+          { code: "SO9", text: "The social Nine subordinates her own voice so consistently to group harmony that even her own cough rarely finds real attention – a signal, in the end, that keeps recurring yet is never truly heard." },
           { code: "SX9", text: "Her partner's perception of her own health often becomes the standard for the sexual Nine, who merges so readily with him or her – if the partner does not notice the cough, the Nine often does not notice it either, because merging with him crowds out her own bodily awareness." },
         ],
       },
@@ -83310,7 +83310,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Achievement that leaves the belly no break", varianten: [
         { code: "SE3", text: "Digestion rarely gets the rest it needs when meals are grabbed between appointments – to the self-preservation Three, a real pause still feels like squandered time. Kept up year after year, this refusal can leave a gut that never truly settles, simply because a real pause is never scheduled." },
-        { code: "SO3", text: "Little recovery is left over for digestion at the pace the social Three sustains in constant comparison with others. This permanent pressure to perform can show up physically as a nervous, irritable gut that rarely rests." },
+        { code: "SO3", text: "Little recovery is left over for digestion at the pace the social Three sustains in constant comparison with others. Over time that pressure can settle into a nervous, irritable gut that rarely rests." },
         { code: "SX3", text: "Appearing successful and flawless demands real suppression from the sexual Three – bodily warning signs like abdominal pain get played down for as long as possible. This drive to control her outward image often delays paying her own belly any attention at all." },
       ]},
       { typ: 4, titel: "Longing that cramps in the belly", varianten: [
@@ -83331,7 +83331,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Excess that overwhelms the gut", varianten: [
         { code: "SE7", text: "Between appointments and pleasures the self-preservation Seven often eats hastily and irregularly, always on the lookout for the next comfort. This permanent scattering can show up physically as a gut that never truly settles, constantly confronted with shifting stimuli." },
         { code: "SO7", text: "To the point of her own exhaustion, the social Seven, the counter-type, sets her needs aside in favor of others – this self-imposed overload can show up as a gut that barely ever grants itself the rest it needs to recover." },
-        { code: "SX7", text: "Boundless and impulsive, the sexual Seven lives out her enthusiasm, often paired with irregular eating and heavy indulgence. Psychosomatic medicine reads this mix of restless intensity and substance-driven irritation as one of the more direct pictures of an irritated, overtaxed gut." },
+        { code: "SX7", text: "Boundless and impulsive, the sexual Seven lives out her enthusiasm, often paired with irregular eating and heavy indulgence. Psychosomatic medicine tends to connect this mix of restless intensity and substance-driven irritation with an irritated, overtaxed gut." },
       ]},
       { typ: 8, titel: "Control that allows no vulnerability in the belly", varianten: [
         { code: "SE8", text: "Solid control over material and physical resources secures the self-preservation Eight's existence – abdominal pain as a sign of vulnerability is ignored at first, until it can no longer be pushed away and starts limiting the reliable capacity to act she otherwise prizes." },
@@ -83340,7 +83340,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that overrides its own belly", varianten: [
         { code: "SE9", text: "Comfort, fixed routines, and the consistent avoidance of any conflict shape the everyday life of the self-preservation Nine – her own digestive signals, too, are rarely consciously noticed, until they have settled into a chronic pattern hard to ignore any longer." },
-        { code: "SO9", text: "The social Nine seeks harmony within the group at any cost and subordinates her own voice so consistently that eventually she barely knows what she herself actually needs. This chronic self-erasure can show up as a gut that never really makes itself heard." },
+        { code: "SO9", text: "The social Nine seeks harmony within the group at any cost and subordinates her own voice so consistently that eventually she barely knows what she herself actually needs. Over time, that can leave her with a gut that never really makes itself heard." },
         { code: "SX9", text: "Hunger, fullness, and digestion often take their cue from the partner rather than from her own signals, once the sexual Nine has merged with him this completely – a fusion that makes it hard to notice her own belly in the first place." },
       ]},
     ],
@@ -83369,7 +83369,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Achievement that leaves no time to digest", varianten: [
         { code: "SE3", text: "Eating hastily between appointments and pushing straight back into work, the self-preservation Three rarely lets her stomach finish digesting in peace. Sustained over years, this refusal to grant herself a break can surface as chronic heartburn that never truly settles, simply because rest is never actually scheduled." },
-        { code: "SO3", text: "A pace that leaves her digestive system almost no recovery is what the social Three sustains in constant comparison with others – this permanent pressure to perform can show up physically as a burning, irritated stomach that rarely settles." },
+        { code: "SO3", text: "A pace that leaves her digestive system almost no recovery is what the social Three sustains in constant comparison with others – over time that pressure can settle into a burning, irritated stomach that rarely settles." },
         { code: "SX3", text: "A burning sensation in her chest gets happily played down by the sexual Three for as long as possible – appearing flawless takes priority. This focused will to control her outward image often delays paying her own body any attention at all." },
       ]},
       { typ: 4, titel: "Longing that shows up as burning", varianten: [
@@ -83390,7 +83390,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Indulgences that irritate the stomach directly", varianten: [
         { code: "SE7", text: "Culinary comforts, often fatty food, coffee, or alcohol as a means of self-reward, are how the self-preservation Seven secures herself against discomfort – psychosomatic medicine reads this direct reach for stomach-irritating indulgences as one of the most immediate pictures of reflux: an esophagus that has grown accustomed to repeated acid exposure." },
         { code: "SO7", text: "The social Seven, the counter-type, sets her own needs aside in favor of others, often to the point of her own exhaustion – a recurring burning sensation can easily be overlooked in the process, because attention consistently lies with the needs of others." },
-        { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly, often paired with late, rich meals and intense indulgence in stimulants – psychosomatic medicine reads this impulsive intensity as one of the more direct paths to an irritated, chronically inflamed esophageal lining." },
+        { code: "SX7", text: "The sexual Seven lives out enthusiasm boundlessly, often paired with late, rich meals and intense indulgence in stimulants – psychosomatic medicine tends to link this impulsive intensity to an irritated, chronically inflamed esophageal lining." },
       ]},
       { typ: 8, titel: "Control that dismisses heartburn as weakness", varianten: [
         { code: "SE8", text: "The self-preservation Eight consistently overrides physical warning signs, because admitting weakness contradicts her self-image – a lingering burning is simply ignored until it has settled in as a chronic pattern." },
@@ -83399,7 +83399,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that overrides its own burning", varianten: [
         { code: "SE9", text: "Comfort and routine are the self-preservation Nine's refuge, and her own heartburn often barely registers consciously as a result – this overlooking of a constantly recurring physical signal fits especially closely with the picture of a reflux condition that quietly took shape over years without ever being caught." },
-        { code: "SO9", text: "For the social Nine, group harmony consistently outranks her own voice, so much so that even her own burning sensation rarely finds real attention – this chronic self-effacement can show up as a signal that is never taken seriously yet keeps recurring." },
+        { code: "SO9", text: "For the social Nine, group harmony consistently outranks her own voice, so much so that even her own burning sensation rarely finds real attention – a signal, ultimately, that is never taken seriously yet keeps recurring." },
         { code: "SX9", text: "Once the sexual Nine has merged with her partner, his perception of her health often becomes her own standard – if he does not notice the heartburn, she often does not notice it either, because the fusion with him leaves little room for her own bodily awareness." },
       ]},
     ],
@@ -83449,7 +83449,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Indulgence and self-reproach that doubly burden the stomach", varianten: [
         { code: "SE7", text: "Comforts and indulgences are the self-preservation Seven's go-to, but afterward she sometimes secretly reproaches herself for a lack of discipline – psychosomatic medicine reads this combination of direct irritation and inward-directed self-criticism as one of the more direct pictures of a stomach ulcer." },
         { code: "SO7", text: "Caring for herself is something the social Seven, the counter-type, rarely permits – her own needs get set aside in favor of others, often to the point of exhaustion. This chronic inner renunciation can show up physically as an unprotected stomach." },
-        { code: "SX7", text: "Irregular eating, alcohol, or nicotine accompany the boundless enthusiasm of the sexual Seven – psychosomatic medicine reads this impulsive, substance-linked intensity as one of the more direct paths to a damaged stomach lining." },
+        { code: "SX7", text: "Irregular eating, alcohol, or nicotine accompany the boundless enthusiasm of the sexual Seven – psychosomatic medicine tends to connect this impulsive, substance-linked intensity with a damaged stomach lining." },
       ]},
       { typ: 8, titel: "Control that allows no weakness of its own", varianten: [
         { code: "SE8", text: "The self-preservation Eight tolerates no weakness, not even her own, and impatiently directs sharp inner criticism against every sign of vulnerability. This refusal to grant herself leniency can show up physically as an unprotected, irritated stomach lining." },
@@ -83458,7 +83458,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that overlooks its own injury", varianten: [
         { code: "SE9", text: "Taking refuge in comfort and routine, the self-preservation Nine tends to barely notice warning signs of stomach pain. This overlooking of a constantly recurring physical signal fits especially closely with the picture of an ulcer that quietly took shape over years, never caught in time." },
-        { code: "SO9", text: "So consistently does the social Nine subordinate her voice to group harmony that her own stomach pain rarely finds real attention. This chronic self-erasure can show up as a signal that keeps recurring yet is never truly heard." },
+        { code: "SO9", text: "So consistently does the social Nine subordinate her voice to group harmony that her own stomach pain rarely finds real attention, leaving behind a signal that keeps recurring yet is never truly heard." },
         { code: "SX9", text: "Putting her own needs into words is hard for the sexual Nine, so completely does her identity dissolve into the other – a never-voiced inner resistance to externally determined wishes can show up as corrosive, undirected stomach pain." },
       ]},
     ],
@@ -83487,7 +83487,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Achievement that allows no vulnerability of its own", varianten: [
         { code: "SE3", text: "The self-preservation Three keeps functioning efficiently even when her body has long been sending clear warning signs – admitting vulnerability feels to her like failure. This uncompromising refusal to acknowledge her own limit of resilience can show up physically as a chronically inflamed gut lining." },
-        { code: "SO3", text: "Her own actual limit of strain gets no consideration from the pace the social Three sustains in constant comparison with others. This permanent pressure to perform can show up physically as a gut wall that no longer treats itself as worth protecting." },
+        { code: "SO3", text: "Her own actual limit of strain gets no consideration from the pace the social Three sustains in constant comparison with others. That pressure, sustained for years, can leave a gut wall that no longer treats itself as worth protecting." },
         { code: "SX3", text: "Abdominal pain or blood in the stool tends to be minimized for as long as possible by the sexual Three, whose priority is appearing flawless and successful in the relationship – this focused will to control her outward image often means her own body waits far too long for any real attention." },
       ]},
       { typ: 4, titel: "Longing that turns against its own boundary", varianten: [
@@ -83508,7 +83508,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Excess that overstimulates its own boundary", varianten: [
         { code: "SE7", text: "Jumping between possibilities without ever really pausing, the self-preservation Seven stays always on the lookout for the next comfort. This permanent scattering can show up physically as a gut lining that never truly settles, constantly confronted with changing stimuli." },
         { code: "SO7", text: "The social Seven, the counter-type, consistently sets her own needs aside in favor of others, often to the point of her own exhaustion – this self-imposed overload can show up as a gut wall that hardly ever grants itself the necessary recovery." },
-        { code: "SX7", text: "Restless intensity and substance-linked irritation go hand in hand for the sexual Seven, whose enthusiasm gets lived out boundlessly and impulsively, often with irregular eating and heavy indulgence in irritants. Psychosomatic medicine reads this combination as one of the more direct pictures of an overstimulated, inflamed gut lining." },
+        { code: "SX7", text: "Restless intensity and substance-linked irritation go hand in hand for the sexual Seven, whose enthusiasm gets lived out boundlessly and impulsively, often with irregular eating and heavy indulgence in irritants. Psychosomatic medicine tends to link this combination to an overstimulated, inflamed gut lining." },
       ]},
       { typ: 8, titel: "Control that allows no vulnerability of its own", varianten: [
         { code: "SE8", text: "Vulnerability fundamentally contradicts the self-image of the self-preservation Eight, whose existence rests on firm control over material and physical resources. This permanent tension can show up physically as a gut wall that is never truly allowed to feel safe." },
@@ -83517,7 +83517,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that overlooks its own boundary", varianten: [
         { code: "SE9", text: "Rarely consciously noticed is the self-preservation Nine's own boundary between herself and others, while comfort, fixed routines, and conflict avoidance determine her everyday life. This self-forgetting can show up psychosomatically as a gut lining that never truly experiences itself as worth protecting." },
-        { code: "SO9", text: "Eventually the social Nine barely knows what she herself actually needs, so consistently does she subordinate her voice to harmony within the group. This chronic self-erasure can show up as a gut wall that never really makes itself heard." },
+        { code: "SO9", text: "Eventually the social Nine barely knows what she herself actually needs, so consistently does she subordinate her voice to harmony within the group, until it settles into a gut wall that never really makes itself heard." },
         { code: "SX9", text: "So completely does the sexual Nine's own identity dissolve into her partner that, in its purest expression, this may be one of the clearest versions of a blurred inner boundary that never quite managed to separate itself from that of the beloved." },
       ]},
     ],
@@ -83605,7 +83605,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Achievement that leaves no time to resolve resentment", varianten: [
         { code: "SE3", text: "Inner resentment gets pushed aside by the self-preservation Three like anything else that stands in the way of functioning – actually working through it feels like wasted time. This refusal, sustained over years, to engage with her own bitterness can show up as gallstones quietly settling in." },
-        { code: "SO3", text: "No room to actually work through old resentment is left by the pace the social Three sustains in constant comparison with others. This permanent pressure to perform can show up physically as a gallbladder system that never truly relieves itself." },
+        { code: "SO3", text: "No room to actually work through old resentment is left by the pace the social Three sustains in constant comparison with others. That pressure, sustained for years, can leave a gallbladder system that never truly relieves itself." },
         { code: "SX3", text: "Inner bitterness gets happily played down by the sexual Three for as long as possible, so as to appear flawless in the relationship. This focused will to control her outward image often delays paying her own inner resentment any attention at all." },
       ]},
       { typ: 4, titel: "Longing that hardens into bitterness", varianten: [
@@ -83626,7 +83626,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Indulgences that directly burden the bile", varianten: [
         { code: "SE7", text: "Fat-rich food as a means of self-reward belongs to the repertoire of the self-preservation Seven, who secures herself through a wide array of culinary comforts. Psychosomatic medicine reads this direct reach for gall-irritating indulgences as one of the most immediate pictures of gallstones." },
         { code: "SO7", text: "Pent-up bitterness over her own renunciation can easily be overlooked in the social Seven, the counter-type – her attention consistently lies with the needs of others while her own stay set aside." },
-        { code: "SX7", text: "Rich, fatty meals alternating with quick diets accompany the boundless enthusiasm of the sexual Seven. Psychosomatic medicine reads this combination of excess and rapid weight change as one of the more direct paths to gallstones." },
+        { code: "SX7", text: "Rich, fatty meals alternating with quick diets accompany the boundless enthusiasm of the sexual Seven. Psychosomatic medicine tends to connect this combination of excess and rapid weight change with gallstones." },
       ]},
       { typ: 8, titel: "Control that allows no bitterness of its own", varianten: [
         { code: "SE8", text: "Inner hurt gets consistently overridden by the self-preservation Eight rather than resolved – no weakness is tolerated, not even her own bitterness. This refusal to engage with her own resentment can show up physically as a hardened gallbladder system." },
@@ -83635,7 +83635,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that overrides its own bitterness", varianten: [
         { code: "SE9", text: "Her own resentment often goes barely noticed by the self-preservation Nine, who takes refuge in comfort and routine instead. This overlooking of a never-resolved inner bitterness fits especially closely with the picture of gallstones that can develop over years unnoticed." },
-        { code: "SO9", text: "Her own resentment rarely finds real attention with the social Nine, so consistently does she subordinate her voice to group harmony. This chronic self-effacement can show up as a pattern that is never resolved yet steadily hardens." },
+        { code: "SO9", text: "Her own resentment rarely finds real attention with the social Nine, so consistently does she subordinate her voice to group harmony, until it hardens into a pattern that is never resolved yet steadily worsens." },
         { code: "SX9", text: "Adopting her partner's perspective on conflicts as her own standard comes naturally once the sexual Nine merges with him or her – her own, unnoticed resentment can thus settle in over years, because her own perception recedes behind the merging." },
       ]},
     ],
@@ -83664,7 +83664,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Achievement that leaves the body no time to let go", varianten: [
         { code: "SE3", text: "No time is ever set aside by the self-preservation Three even for going to the bathroom – the body is meant to keep functioning efficiently, so the natural urge gets suppressed until it falls silent. This disregard, sustained over years, for her own rhythm can show up as chronic constipation." },
-        { code: "SO3", text: "Her body is left hardly any room for its own needs by the pace the social Three sustains in constant comparison with others. This permanent pressure to perform can show up physically as a sluggish, uncooperative gut." },
+        { code: "SO3", text: "Her body is left hardly any room for its own needs by the pace the social Three sustains in constant comparison with others. That pressure, sustained for years, can leave behind a sluggish, uncooperative gut." },
         { code: "SX3", text: "So as to appear flawless within the relationship, the sexual Three tends to override the urge to defecate and other physical signals for as long as she can. This focused will to control her outward image often delays paying her own body any attention at all." },
       ]},
       { typ: 4, titel: "Longing that holds on to what is past", varianten: [
@@ -83694,7 +83694,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that overrides its own body rhythm", varianten: [
         { code: "SE9", text: "Rarely consciously noticed and often postponed is the self-preservation Nine's own urge to defecate, while comfort, fixed routines, and conflict avoidance determine her everyday life, until it falls silent. This self-forgetting can show up as chronic constipation." },
-        { code: "SO9", text: "What she herself actually needs is something the social Nine eventually barely knows anymore, so consistently does she subordinate her voice to harmony within the group. This chronic self-erasure can show up as a gut that never really makes itself heard." },
+        { code: "SO9", text: "What she herself actually needs is something the social Nine eventually barely knows anymore, so consistently does she subordinate her voice to harmony within the group, until it settles into a gut that never really makes itself heard." },
         { code: "SX9", text: "Fusing so completely with her partner, the sexual Nine finds her own perception of bodily signals orienting itself by his or hers rather than by her own – a fusion that makes it harder to notice her own urge to defecate in the first place." },
       ]},
     ],
@@ -83803,7 +83803,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       { typ: 7, titel: "Indulgences that quietly burden the liver over years", varianten: [
         { code: "SE7", text: "Regular alcohol or sugar consumption serves the self-preservation Seven over the years as a means of self-soothing, embedded in a wide array of culinary comforts. Psychosomatic medicine reads this sustained, substance-linked way of handling inner restlessness as one of the more direct pictures of fatty liver disease." },
         { code: "SO7", text: "Over the years, the social Seven, the counter-type, keeps setting her own needs aside in favor of others, often to the point of exhaustion. This chronic, quiet self-overload can show up physically as an overloaded liver." },
-        { code: "SX7", text: "Rich meals and regular indulgence accompany the boundless enthusiasm the sexual Seven lives out over the years – this sustained, substance-linked intensity is read by psychosomatic medicine as one of the more direct paths to an overloaded liver." },
+        { code: "SX7", text: "Rich meals and regular indulgence accompany the boundless enthusiasm the sexual Seven lives out over the years – this sustained, substance-linked intensity fits psychosomatically well with an overloaded liver." },
       ]},
       { typ: 8, titel: "Control that allows no exhaustion of its own for years", varianten: [
         { code: "SE8", text: "The self-preservation Eight tolerates no weakness for years, not even her own, and consistently overrides signs of exhaustion – this refusal, sustained over a long lifespan, to show herself leniency can show up quietly, without warning signs, physically as fat deposits in the liver." },
@@ -83812,7 +83812,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that overlooks its own overload for years", varianten: [
         { code: "SE9", text: "A slowly building overload of her own tends to go barely noticed by the self-preservation Nine, who takes refuge in comfort and routine for years. This overlooking over a long span fits especially closely with the picture of a fatty liver that quietly built up over years without ever being caught." },
-        { code: "SO9", text: "Over the years, her own exhaustion rarely finds real attention with the social Nine, so consistently does she subordinate her voice to group harmony. This chronic self-erasure can show up as a years-long, quiet, unnoticed overload of the liver." },
+        { code: "SO9", text: "Over the years, her own exhaustion rarely finds real attention with the social Nine, so consistently does she subordinate her voice to group harmony, until it quietly overloads the liver, unnoticed for years." },
         { code: "SX9", text: "As the reinforcement type, the sexual Nine lives inertia most deeply of all the Nine variants – her own clarity about what she actually needs recedes so far that an inner exhaustion built up over years can easily go unnoticed until the liver has already changed." },
       ]},
     ],
@@ -83900,7 +83900,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 3, titel: "Achievement that grants itself no relief", varianten: [
         { code: "SE3", text: "The self-preservation Three presses herself through daily life without allowing herself breaks – no time is ever set aside for going to the bathroom either, and the natural rhythm gets replaced by haste and pressure. This self-overload, sustained over years, can show up as hemorrhoidal disease." },
-        { code: "SO3", text: "Genuine relief is something the pace the social Three sustains in constant comparison with others rarely allows. This permanent pressure to perform can show up physically as enlarged vascular cushions in the rectum." },
+        { code: "SO3", text: "Genuine relief is something the pace the social Three sustains in constant comparison with others rarely allows. That relentless pressure can eventually leave enlarged vascular cushions in the rectum." },
         { code: "SX3", text: "A topic perceived as unattractive, like hemorrhoids, gets happily played down by the sexual Three for as long as possible, out of shame and the wish to appear flawless in the relationship. This focused will to control her outward image often delays necessary treatment." },
       ]},
       { typ: 4, titel: "Longing that shows up as physical pressure", varianten: [
@@ -83930,7 +83930,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that overlooks its own pressure", varianten: [
         { code: "SE9", text: "Pressure and tension as warning signs tend to slip past the self-preservation Nine, who takes refuge in comfort and routine instead. This overlooking of a constantly recurring physical signal fits especially closely with the picture of hemorrhoidal disease that quietly built up over years without ever being caught." },
-        { code: "SO9", text: "The social Nine's own physical burden rarely gets real attention, so consistently does she subordinate her voice to group harmony. This chronic self-erasure can show up as a signal that keeps returning without ever being properly addressed." },
+        { code: "SO9", text: "The social Nine's own physical burden rarely gets real attention, so consistently does she subordinate her voice to group harmony, leaving behind a signal that keeps returning without ever being properly addressed." },
         { code: "SX9", text: "Self-forgetting runs deepest of all in the sexual Nine as the reinforcement type – her attention is so fully directed toward the person she loves that repeated straining and a growing pressure in the rectum simply fail to reach consciousness over a long time." },
       ]},
     ],
@@ -83989,7 +83989,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "Self-forgetting that takes over the skin", varianten: [
         { code: "SE9", text: "The self-preservation Nine so often loses herself completely in routine and comfort that her own warning signs barely get through. A growing itch thus goes unheeded for a long time, until the skin itself forces the attention she otherwise never grants herself." },
-        { code: "SO9", text: "The social Nine steadily subordinates her own voice to group harmony, her own discomfort receding along with it. This chronic self-erasure can show up as a skin problem that's never prioritized yet keeps steadily returning." },
+        { code: "SO9", text: "The social Nine steadily subordinates her own voice to group harmony, her own discomfort receding along with it, until it surfaces as a skin problem that's never prioritized yet keeps steadily returning." },
         { code: "SX9", text: "Her own sense of health gets taken over from her partner once the sexual Nine merges with him – if he doesn't notice the itch, she frequently misses it too, because her own bodily awareness fades into the background of the merging." },
       ]},
     ],
@@ -84048,7 +84048,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "A bodily conflict that goes unnoticed", varianten: [
         { code: "SE9", text: "Inner tensions rarely reach the self-preservation Nine's awareness – she loses herself too completely in routine and comfort. A progressing skin change thus often goes unheeded for a long time this way." },
-        { code: "SO9", text: "Group harmony steadily wins out over her own voice and needs, for the social Nine. That chronic self-erasure can show up as a skin problem that's never prioritized, yet keeps recurring, noticed only late." },
+        { code: "SO9", text: "Group harmony steadily wins out over her own voice and needs, for the social Nine, until it shows up as a skin problem that's never prioritized, yet keeps recurring, noticed only late." },
         { code: "SX9", text: "His perception becomes the yardstick for her own health as soon as the sexual Nine merges with her partner. If he doesn't notice the skin change, she often misses it too, because merging with him pushes her own bodily awareness aside." },
       ]},
     ],
@@ -84107,7 +84107,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "A buildup that stays unnoticed for a long time", varianten: [
         { code: "SE9", text: "The self-preservation Nine rarely becomes consciously aware of inner tension – she loses herself too completely in routine and comfort. A progressing breakout can thus go unaddressed for a remarkably long stretch this way." },
-        { code: "SO9", text: "Almost reflexively, the moment any need of her own appears on the horizon, the social Nine subordinates her own voice to group harmony. This chronic self-erasure can show up as a skin problem that's never prioritized yet keeps steadily recurring." },
+        { code: "SO9", text: "Almost reflexively, the moment any need of her own appears on the horizon, the social Nine subordinates her own voice to group harmony, and over time it can surface as a skin problem that's never prioritized yet keeps steadily recurring." },
         { code: "SX9", text: "Once merged with her partner, the sexual Nine treats his condition as the real yardstick for her own. If he doesn't notice the breakout, she often misses it too, because her own bodily awareness recedes behind the merging." },
       ]},
     ],
@@ -84225,7 +84225,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "An arousal that rarely arrives consciously", varianten: [
         { code: "SE9", text: "Inner arousal seldom breaks through to the self-preservation Nine's conscious awareness – she loses herself too completely in routine and comfort. A progressing facial redness can thus go unaddressed for a remarkably long stretch this way." },
-        { code: "SO9", text: "As soon as a conflict appears on the horizon, the social Nine reflexively subordinates her own arousal to group harmony. This chronic self-erasure can show up as a facial redness that's never prioritized yet grows steadily more visible." },
+        { code: "SO9", text: "As soon as a conflict appears on the horizon, the social Nine reflexively subordinates her own arousal to group harmony, which over the years can surface as a facial redness that's never prioritized yet grows steadily more visible." },
         { code: "SX9", text: "How visibly aroused or embarrassed her partner seems often becomes the real yardstick for the sexual Nine once she merges with him. If he doesn't notice her own redness, the Nine often misses it too." },
       ]},
     ],
@@ -84284,7 +84284,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "A change that stays unnoticed for a long time", varianten: [
         { code: "SE9", text: "A slowly progressing change to her own skin barely registers with the self-preservation Nine for a long time, so completely does she lose herself in routine and comfort. Only once the patches have become clearly visible does dealing with them become unavoidable." },
-        { code: "SO9", text: "Group harmony steadily outranks her own appearance and her own needs for the social Nine. That chronic self-effacement can show up as a never-prioritized, yet steadily more visible, progression of vitiligo." },
+        { code: "SO9", text: "Group harmony steadily outranks her own appearance and her own needs for the social Nine, and that steady self-effacement can surface as a never-prioritized, yet steadily more visible, progression of vitiligo." },
         { code: "SX9", text: "How her partner reacts to the visible changes often becomes the real measure for the sexual Nine, once she merges with him. If the partner takes the patches in stride, it becomes easier for the Nine, too, to fold them into her self-image." },
       ]},
     ],
@@ -84401,8 +84401,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Keeping control over the person she loves costs the sexual Eight at least as much energy, within her intense bond, as keeping control over herself. This double effort can show up bodily as persistent sweating that goes beyond her own tension alone." },
       ]},
       { typ: 9, titel: "A tension that rarely arrives consciously", varianten: [
-        { code: "SE9", text: "So completely does the self-preservation Nine lose herself in routine and comfort that inner tension rarely reaches conscious awareness at all. Persistent sweating can end up as the only visible clue to an alertness that's quietly existed inwardly all along." },
-        { code: "SO9", text: "The instant conflict looms on the horizon, the social Nine reflexively subordinates her own tension to group harmony. This chronic self-erasure can show up as a never-prioritized, yet constantly noticeable, excessive sweating." },
+        { code: "SE9", text: "Routine and comfort absorb the self-preservation Nine so completely that inner tension rarely reaches conscious awareness at all. Persistent sweating can end up as the only visible clue to an alertness that's quietly existed inwardly all along." },
+        { code: "SO9", text: "The instant conflict looms on the horizon, the social Nine reflexively subordinates her own tension to group harmony, and over time that can surface as never-prioritized, yet constantly noticeable, excessive sweating." },
         { code: "SX9", text: "How tense or relaxed her partner seems often becomes the real measure for the sexual Nine, once she merges with him. If the partner does not notice her own tension, the Nine frequently overlooks her own inner alertness too." },
       ]},
     ],
@@ -84460,8 +84460,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "The sexual Eight clings possessively to the one bond from which she draws her sense of security, defending it against any perceived threat with full force. This constant readiness to defend can show up as a recurring, energy-draining outbreak." },
       ]},
       { typ: 9, titel: "An exhaustion that rarely arrives consciously", varianten: [
-        { code: "SE9", text: "Inner exhaustion rarely reaches the self-preservation Nine's awareness – too completely does she lose herself in routine and comfort. A recurring cold sore outbreak can become the only visible sign of a depletion that has long existed." },
-        { code: "SO9", text: "The instant her strength visibly starts to fade, the social Nine consistently subordinates her own exhaustion to group harmony. This chronic self-erasure can show up as a never-prioritized, yet steadily recurring, outbreak." },
+        { code: "SE9", text: "Inner exhaustion rarely reaches the self-preservation Nine's awareness – routine and comfort swallow it up too effectively. A recurring cold sore outbreak can become the only visible sign of a depletion that has long existed." },
+        { code: "SO9", text: "The instant her strength visibly starts to fade, the social Nine consistently subordinates her own exhaustion to group harmony, and over time that can surface as a never-prioritized, yet steadily recurring, outbreak." },
         { code: "SX9", text: "How exhausted her partner seems often becomes the real measure for the sexual Nine, once she merges with him. If the partner does not notice her own exhaustion, the Nine frequently overlooks her own depletion too." },
       ]},
     ],
@@ -84519,8 +84519,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "The sexual Eight tends to measure her own reactions in her intense bond by whether her partner takes her seriously, more than by what the original contact actually triggered. This shift can end up prolonging the real intolerance at the contact site." },
       ]},
       { typ: 9, titel: "A contact that stays unnoticed for a long time", varianten: [
-        { code: "SE9", text: "Unpleasant substances or contacts often go entirely unnoticed for a long time by the self-preservation Nine, so completely does she lose herself in routine and comfort. An eczema at the contact site is therefore often taken seriously only late." },
-        { code: "SO9", text: "Even when a particular contact visibly burdens her, the social Nine consistently subordinates her own intolerances to group harmony. This chronic self-erasure can show up as a never-prioritized, yet steadily recurring, eczema." },
+        { code: "SE9", text: "Unpleasant substances or contacts often go entirely unnoticed for a long time by the self-preservation Nine, absorbed as she is in routine and comfort. An eczema at the contact site is therefore often taken seriously only late." },
+        { code: "SO9", text: "Even when a particular contact visibly burdens her, the social Nine consistently subordinates her own intolerances to group harmony, and over time that can surface as a never-prioritized, yet steadily recurring, eczema." },
         { code: "SX9", text: "How her partner reacts to a particular contact often becomes the real measure for the sexual Nine, once she merges with him. If the partner does not notice her own intolerance, the Nine frequently overlooks it too." },
       ]},
     ],
@@ -84697,7 +84697,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 9, titel: "A signal that never truly arrives", varianten: [
         { code: "SE9", text: "The self-preservation Nine loses herself so completely in routine and comfort that inner bodily signals are barely consciously registered. Gradually rising blood sugar can thus stay unnoticed for years, until the body sounds a clearer alarm." },
-        { code: "SO9", text: "The social Nine consistently subordinates her own needs to group harmony, her own sense of satiety receding from view along with it. This chronic self-erasure can show up as gradually rising blood sugar." },
+        { code: "SO9", text: "The social Nine consistently subordinates her own needs to group harmony, her own sense of satiety receding from view along with it, until it manifests as gradually rising blood sugar." },
         { code: "SX9", text: "Once merged with her partner, the sexual Nine tends to adopt his relationship to her own health rather than her own. If he eats carelessly, she often eats along just as carelessly — her own bodily awareness has receded behind the merging." },
       ]},
     ],
@@ -84755,8 +84755,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Silence is not universal for the sexual Eight – in the one relationship she devotes herself to with full intensity, vulnerability finds a voice, unlike the general silence of other Eight variants." },
       ]},
       { typ: 9, titel: "A voice that never comes first", varianten: [
-        { code: "SE9", text: "Her own voice is barely consciously registered, so thoroughly does the self-preservation Nine lose herself in routine and comfort. A gradual attack on her own thyroid can thus go unnoticed for years." },
-        { code: "SO9", text: "The instant a conflict looms, her own voice gets subordinated to group harmony by the social Nine, consistently. That chronic self-erasure can show up as gradually declining thyroid function." },
+        { code: "SE9", text: "Her own voice is barely consciously registered, so thoroughly does routine and comfort absorb the self-preservation Nine. A gradual attack on her own thyroid can thus go unnoticed for years." },
+        { code: "SO9", text: "The instant a conflict looms, her own voice gets subordinated to group harmony by the social Nine, consistently, until it manifests as gradually declining thyroid function." },
         { code: "SX9", text: "Her partner's warning signs, or the lack of them, become the sexual Nine's own gauge once she has merged with him — if he fails to notice something is wrong, she often overlooks it for just as long." },
       ]},
     ],
@@ -84814,8 +84814,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Tension can actually release in one place for the sexual Eight: the one relationship she devotes herself to fully, where real rest becomes possible – unlike the general permanent tension other Eight variants carry." },
       ]},
       { typ: 9, titel: "A tension that rarely arrives consciously", varianten: [
-        { code: "SE9", text: "Inner tension barely reaches the self-preservation Nine's awareness, so completely does she lose herself in routine and comfort. Racing heart and inner restlessness can thus become the only visible sign of an unnoticed hyperthyroidism." },
-        { code: "SO9", text: "The instant a conflict looms on the horizon, the social Nine consistently subordinates her own tension to group harmony. This chronic self-erasure can show up as an accelerated but long-overlooked thyroid function." },
+        { code: "SE9", text: "Inner tension barely reaches the self-preservation Nine's awareness, swallowed up by routine and comfort. Racing heart and inner restlessness can thus become the only visible sign of an unnoticed hyperthyroidism." },
+        { code: "SO9", text: "The instant a conflict looms on the horizon, the social Nine consistently subordinates her own tension to group harmony, until it manifests as an accelerated but long-overlooked thyroid function." },
         { code: "SX9", text: "How tense or calm her partner appears often becomes the real yardstick for the sexual Nine, once she merges with him. If the partner does not notice her own restlessness, the Nine frequently overlooks her own inner alertness too." },
       ]},
     ],
@@ -84873,8 +84873,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Rarely does the sexual Eight truly question her own strength toward the person she loves, even though real relief might be possible exactly there. This clinging to her role can keep the vulnerability that actually carries the bond from ever resolving physically." },
       ]},
       { typ: 9, titel: "A voice that never comes first", varianten: [
-        { code: "SE9", text: "Her own voice barely registers consciously for the self-preservation Nine, so completely does she lose herself in routine and comfort. A gradual attack on her own thyroid can thus go unnoticed for years." },
-        { code: "SO9", text: "The instant a need of her own appears on the horizon, the social Nine subordinates her own voice to group harmony. This chronic self-erasure can show up as a never-prioritized but steadily recurring skin problem." },
+        { code: "SE9", text: "Her own voice barely registers consciously for the self-preservation Nine, absorbed as she is in routine and comfort. A gradual attack on her own thyroid can thus go unnoticed for years." },
+        { code: "SO9", text: "The instant a need of her own appears on the horizon, the social Nine subordinates her own voice to group harmony, until it manifests as a never-prioritized but steadily recurring skin problem." },
         { code: "SX9", text: "Her own perception steps back in favor of her partner's the moment the sexual Nine merges with him. If the partner fails to notice his own warning signs, the Nine often overlooks her own voice for just as long." },
       ]},
     ],
@@ -84932,8 +84932,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Within the intense bond, the sexual Eight's vigilance is often aimed more at her loved one's well-being than her own – a protective instinct that easily overlooks her own exhaustion. This pattern can show up metabolically as emerging insulin resistance." },
       ]},
       { typ: 9, titel: "A bodily sense rarely made conscious", varianten: [
-        { code: "SE9", text: "Hunger and fullness barely register consciously for the self-preservation Nine, so completely does she lose herself in routine and comfort. This missing bodily awareness can show up over years as extra weight." },
-        { code: "SO9", text: "The instant her own sense of fullness tries to come forward, the social Nine consistently subordinates it to group harmony. This chronic self-erasure can show up as gradual weight gain." },
+        { code: "SE9", text: "Hunger and fullness barely register consciously for the self-preservation Nine, too absorbed in routine and comfort to notice. This missing bodily awareness can show up over years as extra weight." },
+        { code: "SO9", text: "The instant her own sense of fullness tries to come forward, the social Nine consistently subordinates it to group harmony, until it manifests as gradual weight gain." },
         { code: "SX9", text: "Her sense of her own body gets taken over from her partner once she merges with him. If he eats carelessly, she often eats along just as carelessly, because her own bodily awareness recedes behind the merging." },
       ]},
     ],
@@ -84991,7 +84991,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Her strength the sexual Eight bundles almost exclusively into the one bond she gives herself to with full intensity, other areas of life fading behind it. Even this one-sided focus can still feed a simultaneous overload of several systems, once the bond itself comes under pressure." },
       ]},
       { typ: 9, titel: "Too many signals overlooked at once", varianten: [
-        { code: "SE9", text: "Several of the body's warning signals go unnoticed at once by the self-preservation Nine, so completely does she lose herself in routine and comfort. Metabolic syndrome can thus develop unnoticed over years, on several levels at once." },
+        { code: "SE9", text: "Several of the body's warning signals go unnoticed at once by the self-preservation Nine, swallowed up by routine and comfort. Metabolic syndrome can thus develop unnoticed over years, on several levels at once." },
         { code: "SO9", text: "Several of her own needs at once the social Nine subordinates to group harmony, never letting any single one come forward. This simultaneous self-erasure across many levels can show up as metabolic syndrome." },
         { code: "SX9", text: "Several of her own bodily signals the sexual Nine often reads through her partner instead, the moment she merges with him. If he fails to notice them, she overlooks them on just as many levels at once." },
       ]},
@@ -85050,7 +85050,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Her vulnerability the sexual Eight does show toward the person she loves, but expects, unspoken, absolute reliability in return. If that expectation goes unmet, the real release that might ease PCOS can close back up again." },
       ]},
       { typ: 9, titel: "A wish of her own that never quite matures", varianten: [
-        { code: "SE9", text: "Her own wishes rarely reach maturity for the self-preservation Nine, so completely does she lose herself in routine and comfort. This lack of completion can show up over years as PCOS." },
+        { code: "SE9", text: "Her own wishes rarely reach maturity for the self-preservation Nine, too absorbed in routine and comfort to pursue them. This lack of completion can show up over years as PCOS." },
         { code: "SO9", text: "Her own wishes the social Nine consistently subordinates to group harmony, never fully pursuing them. This chronic self-erasure can show up hormonally as disturbed follicle maturation." },
         { code: "SX9", text: "Her own wishes the sexual Nine often takes over from her partner the moment she merges with him, rather than bringing them to maturity herself. If he does not pursue his own wishes, she often pursues hers just as little." },
       ]},
@@ -85109,8 +85109,8 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "The transformation of this life phase the sexual Eight prefers to work through together with the one person she fully trusts, rarely alone or in public. If that trusted counterpart is missing exactly during this time, facing the transformation can become especially hard." },
       ]},
       { typ: 9, titel: "A transition that passes quietly", varianten: [
-        { code: "SE9", text: "The real significance of this life phase barely registers consciously for the self-preservation Nine, so completely does she lose herself in routine and comfort. This missing conscious engagement can prolong menopause symptoms." },
-        { code: "SO9", text: "Her own transformation the social Nine consistently subordinates to group harmony, never truly facing it consciously. This chronic self-erasure can show up as more intense menopause symptoms." },
+        { code: "SE9", text: "The real significance of this life phase barely registers consciously for the self-preservation Nine, absorbed as she is in routine and comfort. This missing conscious engagement can prolong menopause symptoms." },
+        { code: "SO9", text: "Her own transformation the social Nine consistently subordinates to group harmony, never truly facing it consciously, and that avoidance can intensify menopause symptoms." },
         { code: "SX9", text: "How her partner reacts to this life phase often becomes the real yardstick for the sexual Nine, once she merges with him. If he takes the transformation calmly, it becomes easier for her to accept it too." },
       ]},
     ],
@@ -85699,7 +85699,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Her intensity the sexual Eight discharges most readily in immediate physical form, in close contact with the person she loves. It is exactly this high physical and emotional arousal that is among the typical triggers of a sudden loss of muscle tone." },
       ]},
       { typ: 9, titel: "A wakefulness that overrides itself", varianten: [
-        { code: "SE9", text: "So completely does the self-preservation Nine lose herself in routine and comfort that her own warning signs of exhaustion are barely registered anymore. This deep self-forgetting can contribute to a beginning daytime sleepiness staying unnoticed for a long time before it becomes impossible to overlook." },
+        { code: "SE9", text: "Routine and comfort absorb the self-preservation Nine so completely that her own warning signs of exhaustion are barely registered anymore. This deep self-forgetting can contribute to a beginning daytime sleepiness staying unnoticed for a long time before it becomes impossible to overlook." },
         { code: "SO9", text: "Her own needs the social Nine steadily subordinates to group harmony, including the need for adequate sleep and rest. If this setting-aside becomes habitual, the accumulated sleep deficit can discharge as uncontrollable sleep attacks." },
         { code: "SX9", text: "With her partner, the sexual Nine merges so completely that she often takes on his energy and state of wakefulness instead of perceiving her own. If the partner is tired or absent, her own wakefulness can sink along with his, unnoticed." },
       ]},
@@ -85758,7 +85758,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Physical closeness to the person she loves is for the sexual Eight the most immediate expression of her intensity. If this physical outlet is missing in some particular situation, the pent-up tension can make itself known as a sound in the ear." },
       ]},
       { typ: 9, titel: "A voice passed over", varianten: [
-        { code: "SE9", text: "Barely recognizing her own needs as such is more the rule than the exception for the self-preservation Nine, so deeply does she dissolve into routine and comfort. It is exactly this overridden own need that, if it finds no other voice for a long time, can make itself known as a persistent ringing in the ear." },
+        { code: "SE9", text: "Barely recognizing her own needs as such is more the rule than the exception for the self-preservation Nine, who tends to disappear into routine and comfort. It is exactly this overridden own need that, if it finds no other voice for a long time, can make itself known as a persistent ringing in the ear." },
         { code: "SO9", text: "Bringing her own opinion in openly is something the social Nine can rarely do; she steadily subordinates it to group harmony. This permanently held-back voice can seek an indirect path as a persistent hiss in the ear." },
         { code: "SX9", text: "More often voiced by the sexual Nine are her partner's concerns rather than her own, so completely does she merge with him. If her own voice stays permanently unheard, even by herself, it can seek its own unmistakable form as a sound in the ear." },
       ]},
@@ -85817,7 +85817,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Above all in the intense bond to the person she loves does the sexual Eight find her real footing. If this one bond starts to sway, that can express itself physically and immediately as dizziness, more strongly than in other Eight variants." },
       ]},
       { typ: 9, titel: "A ground that overrides itself", varianten: [
-        { code: "SE9", text: "Barely perceptible remains the self-preservation Nine's own standpoint, so completely does she dissolve into routine and comfort. If this routine is unexpectedly interrupted, the missing footing of her own can show up as dizziness." },
+        { code: "SE9", text: "Barely perceptible remains the self-preservation Nine's own standpoint, worn away by routine and comfort. If this routine is unexpectedly interrupted, the missing footing of her own can show up as dizziness." },
         { code: "SO9", text: "Barely recognizable as her own remains the social Nine's standpoint, because she steadily subordinates it to group harmony. If the group itself starts to sway, she often lacks her own firm ground as a result, which can express itself as postural dizziness." },
         { code: "SX9", text: "Adopted rather than formed on her own is often the standpoint of the sexual Nine, taken from the partner she merges with. If the partner starts to sway or grows distant, the Nine also noticeably loses her own footing, which can show up physically as dizziness." },
       ]},
@@ -85876,7 +85876,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Most readily immediate and physical, in close contact with the person she loves, is how the sexual Eight discharges her intensity during the day. If this physical outlet is missing in the evening, the leftover tension can show up as restlessness in the legs." },
       ]},
       { typ: 9, titel: "An energy that overrides itself", varianten: [
-        { code: "SE9", text: "Her own impulses to move easily get lost for the self-preservation Nine, so deeply does she dissolve into routine and comfort. Exactly this overridden energy can report back in the evening, once silence sets in, as restlessness in the legs." },
+        { code: "SE9", text: "Her own impulses to move easily get lost for the self-preservation Nine, who tends to disappear into routine and comfort. Exactly this overridden energy can report back in the evening, once silence sets in, as restlessness in the legs." },
         { code: "SO9", text: "Left unlived during the day are often the social Nine's own impulses, because she steadily subordinates her concerns to group harmony. These unlived impulses can make themselves known in the evening as a noticeable urge to move in the legs." },
         { code: "SX9", text: "The partner's rhythm the sexual Nine follows during the day rather than her own, so completely does she merge with him. Once she comes to rest in the evening, her own rhythm, overridden all day, can speak up as restlessness in the legs." },
       ]},
@@ -85935,7 +85935,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "In close physical contact with the person she loves, the sexual Eight finds her favorite outlet for intensity during the day. If this outlet is missing on a particular day, the leftover tension can show up in the jaw at night." },
       ]},
       { typ: 9, titel: "A resistance that shows itself at night", varianten: [
-        { code: "SE9", text: "Barely consciously perceived during the day is the self-preservation Nine's own inner resistance, so deeply does she dissolve into routine and comfort. Exactly this overridden resistance can report back at night as teeth grinding." },
+        { code: "SE9", text: "Barely consciously perceived during the day is the self-preservation Nine's own inner resistance, worn away by routine and comfort. Exactly this overridden resistance can report back at night as teeth grinding." },
         { code: "SO9", text: "Being of a different opinion inwardly and still subordinating that to group harmony belongs almost to habit for the social Nine during the day. This quiet inner contradiction can show up at night as a firm clenching of the teeth." },
         { code: "SX9", text: "Barely voiced is the sexual Nine's own resistance to her partner's wishes, with whom she merges during the day. If this resistance stays unspoken all day, it can break through the jaw unconsciously at night." },
       ]},
@@ -85994,7 +85994,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Barely throttled over the years is how much physical intensity the sexual Eight brings into the bond with the person she loves. Once this reserve is eventually exhausted, the physical crash can turn out correspondingly abrupt and deep." },
       ]},
       { typ: 9, titel: "A reserve that has overridden itself", varianten: [
-        { code: "SE9", text: "Barely ever consciously registered for years are the self-preservation Nine's own signs of exhaustion, so deeply does she dissolve into routine and comfort. This especially deep self-forgetting can mean that a chronic fatigue syndrome stays unnoticed in her longest of all, before it becomes impossible to overlook." },
+        { code: "SE9", text: "Barely ever consciously registered for years are the self-preservation Nine's own signs of exhaustion, buried under routine and comfort. This especially deep self-forgetting can mean that a chronic fatigue syndrome stays unnoticed in her longest of all, before it becomes impossible to overlook." },
         { code: "SO9", text: "Even the need for real recovery the social Nine steadily subordinates to group harmony for years. If this setting-aside becomes habitual over a long time, a deep, barely restorative exhaustion can develop from it." },
         { code: "SX9", text: "The partner's energy level, rather than her own, is what the sexual Nine perceives for years, so completely does she merge with him. If the partner himself is exhausted or absent over a long time, the Nine's own, long overridden exhaustion can show up correspondingly deep." },
       ]},
@@ -86914,7 +86914,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "A creeping threat that barely finds words", varianten: [
         { code: "SE4", text: "The self-preservation Four, the counter-type, tends to carry her fear of the progressing illness stoically and without much complaint rather than expressing it – behavior that clearly runs counter to the dramatic expression her type is known for." },
-        { code: "SO4", text: "In the diagnosis, the social Four sometimes finds a painful confirmation of her feeling that her suffering goes misunderstood anyway, which tends to make her withdraw rather than speak about it openly." },
+        { code: "SO4", text: "Feeling that her suffering goes misunderstood anyway is a familiar ache for the social Four, and the diagnosis can painfully confirm it, which tends to make her withdraw rather than speak about it openly." },
         { code: "SX4", text: "The sexual Four talks intensely about her fear of dialysis and functional loss with the one person she feels connected to, instead of avoiding these existential topics." },
       ]},
       { typ: 5, titel: "Values, curves, and a retreat into the factual", varianten: [
@@ -86973,7 +86973,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "Shame that becomes confirmation of being different", varianten: [
         { code: "SE4", text: "Few words accompany how the self-preservation Four, the counter-type, carries her uncertainty stoically rather than expressing it – behavior that clearly contradicts the open emotional expression otherwise typical of her type." },
-        { code: "SO4", text: "In the dysfunction, the social Four sometimes finds a painful confirmation of the feeling that she is inadequate, both physically and emotionally, which tends to deepen rather than ease her withdrawal from intimacy." },
+        { code: "SO4", text: "Feeling inadequate, both physically and emotionally, is something the dysfunction can painfully confirm for the social Four, which tends to deepen rather than ease her withdrawal from intimacy." },
         { code: "SX4", text: "The sexual Four addresses her shame intensely and directly with the one important person, instead of processing it in inward brooding like other Four variants." },
       ]},
       { typ: 5, titel: "Withdrawal into explanation and distance", varianten: [
@@ -87032,7 +87032,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "A pain that finally has a name", varianten: [
         { code: "SE4", text: "Stoic and functional is how the self-preservation Four, the counter-type, tends to carry her grief over each unsuccessful cycle, continuing to function outwardly unshaken, contrary to the open expression of pain otherwise typical of her type." },
-        { code: "SO4", text: "In the recurring disappointment, the social Four sometimes finds a painful confirmation of her own feeling of remaining fundamentally misunderstood in her suffering, even in exchange with other affected people." },
+        { code: "SO4", text: "Even in exchange with other affected people, the social Four can feel fundamentally misunderstood in her suffering – and the recurring disappointment only confirms that feeling further." },
         { code: "SX4", text: "The sexual Four expresses her grief intensely and unfiltered toward the one important person, instead of processing it in inward brooding like other Four variants." },
       ]},
       { typ: 5, titel: "Retreat into statistics and expertise", varianten: [
@@ -87915,7 +87915,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "A Place Where Shame and Illness Meet", varianten: [
         { code: "SX4", text: "The shame over a changed urinary diversion is confided directly by the sexual Four to the one person she feels bonded to, rather than treated as a taboo." },
-        { code: "SO4", text: "In the illness, the social Four sometimes finds a painful confirmation of her sense of being misunderstood with a condition she experiences as embarrassing, which tends to make her withdraw rather than speak up." },
+        { code: "SO4", text: "A condition she experiences as embarrassing can leave the social Four feeling painfully misunderstood by the illness itself, which tends to make her withdraw rather than speak up." },
         { code: "SE4", text: "Her fear of surgery and changed bodily function is usually carried by the self-preservation Four, the counter-type, in a tough way with little complaint, contrary to the dramatic display otherwise typical for her type." },
       ]},
       { typ: 5, titel: "Understanding as a Path Through Shame", varianten: [
@@ -87974,7 +87974,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
       ]},
       { typ: 4, titel: "A Loss That Cuts Deep Into Identity", varianten: [
         { code: "SX4", text: "Her grief over a possible loss of fertility is confided directly by the sexual Four to the one person she feels bonded to, rather than avoiding this existential topic." },
-        { code: "SO4", text: "In the diagnosis, the social Four sometimes finds a painful confirmation of her sense of being misunderstood with deep suffering, which tends to make her withdraw rather than speak openly." },
+        { code: "SO4", text: "Deep suffering that feels fundamentally misunderstood is a familiar weight for the social Four, and the diagnosis can painfully confirm it, which tends to make her withdraw rather than speak openly." },
         { code: "SE4", text: "Fear of surgery and prognosis is carried tough and largely uncomplaining by the self-preservation Four, the counter-type – behavior that stands in clear contrast to the dramatic expression otherwise typical for her type." },
       ]},
       { typ: 5, titel: "Knowledge Against a Late Diagnosis", varianten: [
@@ -89395,7 +89395,7 @@ const PSYCHOSOMATIK_KRANKHEITEN = {
         { code: "SX8", text: "Distorted vision first registers with the sexual Eight as an attack on her everyday self-sufficiency, which she reflexively plays down – her real concern only surfaces once the one person who truly knows her presses persistently enough." },
       ]},
       { typ: 9, titel: "A Numbing of Her Own Anger", varianten: [
-        { code: "SE9", text: "So easily does the self-preservation Nine lose herself in routine and comfort that a numbing medication can become a particularly convenient further habit, intensifying unnoticed over years because it belongs to an inconspicuous everyday life." },
+        { code: "SE9", text: "So readily does routine and comfort absorb the self-preservation Nine that a numbing medication can become a particularly convenient further habit, intensifying unnoticed over years because it belongs to an inconspicuous everyday life." },
         { code: "SO9", text: "Group harmony consistently wins out over the social Nine's own opinion – held-back anger over this constant adapting can unnoticeably discharge through growing substance use, while an even-keeled front stays intact for those around her." },
         { code: "SX9", text: "Her partner's habits become her own with surprising ease once the sexual Nine merges with him – if her partner uses regularly, she may go along with this use unreflectively, without recognizing it as a distinct problem of her own." },
       ]},
