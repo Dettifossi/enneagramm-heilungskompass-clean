@@ -54898,7 +54898,7 @@ function spinozaPortraitPage() {
         <h2 class="vb-section">6. Die Eule, die an Staublunge starb</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Spinoza starb 1677 in Den Haag im Alter von nur 44 Jahren, vermutlich an einer Lungenerkrankung, die durch das jahrzehntelange Einatmen von Glasstaub beim Linsenschleifen beg\u00fcnstigt wurde &ndash; sein Handwerk, das ihm die Unabh\u00e4ngigkeit zum Denken sicherte, trug wohl auch zu seinem fr\u00fchen Tod bei. Freunde ver\u00f6ffentlichten noch im selben Jahr seine <em>Opera Posthuma</em>, darunter die Ethica &ndash; das Werk, das er selbst nie unter eigenem Namen hatte drucken lassen.</p>
-          <p class="vb-intro">Die Eule verlie\u00df die Welt so zur\u00fcckgezogen, wie sie sie durchquert hatte &ndash; ohne Amt, ohne Familie, ohne Gemeinde. Was blieb, war ein in sich geschlossenes Gedankengeb\u00e4ude, das erst Generationen sp\u00e4ter &ndash; von Leibniz bis Einstein, der sich ausdr\u00fccklich auf &bdquo;Spinozas Gott&ldquo; berief &ndash; seine volle Tragweite entfalten sollte.</p>
+          <p class="vb-intro">Die Eule verlie\u00df die Welt so zur\u00fcckgezogen, wie sie sie durchquert hatte &ndash; ohne Amt, ohne Familie, ohne Gemeinde. Was blieb, war ein in sich geschlossenes Gedankengeb\u00e4ude, das erst Generationen sp\u00e4ter &ndash; von Leibniz (SO3w4) bis Einstein (SO5w4), der sich ausdr\u00fccklich auf &bdquo;Spinozas Gott&ldquo; berief &ndash; seine volle Tragweite entfalten sollte.</p>
         </blockquote>
 
       </div>

@@ -29174,7 +29174,7 @@ function catStevensPortraitPage() {
           <img src="./assets/portraits/beruehmte-cat-stevens-portrait.jpg" alt="Cat Stevens / Yusuf Islam" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Cat Stevens / Yusuf Islam</p>
-        <p class="krim-portrait-typ">SP4w3 &middot; Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
         <p class="krim-portrait-subtitle">British musician, b. 1948 &ndash; Animal correspondence: Armadillo</p>
       </div>
       <div class="page-content">
@@ -34364,7 +34364,7 @@ function spinozaPortraitPage() {
         <h2 class="vb-section">6. The Owl Who Died of Lung Disease</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Spinoza died in 1677 in The Hague at only 44 years old, presumably of a lung disease worsened by decades of inhaling glass dust while grinding lenses &ndash; his craft, which secured him the independence to think, likely also contributed to his early death. Friends published his <em>Opera Posthuma</em> that same year, including the Ethics &ndash; the work he himself had never had printed under his own name.</p>
-          <p class="vb-intro">The owl left the world as withdrawn as it had passed through it &ndash; without office, without family, without congregation. What remained was a self-contained system of thought that only generations later &ndash; from Leibniz to Einstein, who explicitly invoked "Spinoza's God" &ndash; would unfold its full significance.</p>
+          <p class="vb-intro">The owl left the world as withdrawn as it had passed through it &ndash; without office, without family, without congregation. What remained was a self-contained system of thought that only generations later &ndash; from Leibniz (SO3w4) to Einstein (SO5w4), who explicitly invoked "Spinoza's God" &ndash; would unfold its full significance.</p>
         </blockquote>
 
       </div>
@@ -53727,7 +53727,7 @@ function spinozaKrankheitsportraetPage() {
         decline.</p>
         <p class="vb-intro"><strong>c) A quiet death, a loud afterlife:</strong>
         His actual death went nearly unnoticed outside his small circle of friends – the
-        impact of his thinking only unfolded generations later, from Leibniz to Einstein.</p>
+        impact of his thinking only unfolded generations later, from Leibniz (SO3w4) to Einstein (SO5w4).</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
