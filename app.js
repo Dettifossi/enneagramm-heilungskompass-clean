@@ -24043,6 +24043,8 @@ const registerEntries = [
   { term: "Byron Katie Krankheitsporträt", route: "krankheitsportraets-byron-katie", description: "Portrait: SX6w7 · Sexueller Typ 6 · Zehn Jahre Depression und Agoraphobie" },
   { term: "Drew Barrymore Krankheitsporträt", route: "krankheitsportraets-drew-barrymore", description: "Portrait: SO7w8 · Sozialer Typ 7 · Kindheitssucht" },
   { term: "Neil Armstrong Krankheitsporträt", route: "krankheitsportraets-neil-armstrong", description: "Portrait: SE6w7 · Selbsterhaltender Typ 6 · Über zwei Jahrzehnte koronare Herzkrankheit" },
+  { term: "Robbie Williams Krankheitsporträt", route: "krankheitsportraets-robbie-williams", description: "Portrait: SX1w2 · Sexueller Typ 1 · Jahrzehntelange Depression und Suchterkrankung" },
+  { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32196,6 +32198,8 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-byron-katie", name:"Byron Katie", subtyp:"SX6w7", heading:"Byron Katie – Sexueller Typ 6", krankheit:"Zehn Jahre schwere Depression und Agoraphobie, Wendepunkt 1986", teaser:"SX6w7 – Autorin, Begründerin von 'The Work', geb. 1942. Rund zehn Jahre schwere Depression und Agoraphobie, 1986 entscheidender Wendepunkt in einer Klinik, aus dem ihre spätere Methode entstand." , land:"USA", gender:"f", jahre:"geb. 1942"},
   { route:"krankheitsportraets-drew-barrymore", name:"Drew Barrymore", subtyp:"SO7w8", heading:"Drew Barrymore – Sozialer Typ 7", krankheit:"Kindheitssucht, Klinikeinweisung 1988 im Alter von 13 Jahren", teaser:"SO7w8 – Schauspielerin, geb. 1975. Bereits im Kindesalter beginnende Alkohol- und Drogensucht, 1988 im Alter von 13 Jahren in eine Entzugsklinik eingewiesen, mit 14 Jahren rechtlich von den Eltern emanzipiert." , land:"USA", gender:"f", jahre:"geb. 1975"},
   { route:"krankheitsportraets-neil-armstrong", name:"Neil Armstrong", subtyp:"SE6w7", heading:"Neil Armstrong – Selbsterhaltender Typ 6", krankheit:"Über zwei Jahrzehnte koronare Herzkrankheit, Tod nach Bypass-Operation", teaser:"SE6w7 – Astronaut, erster Mensch auf dem Mond, 1930–2012. Herzinfarkt 1991, über zwei Jahrzehnte fortschreitende koronare Herzkrankheit, Notfall-Vierfach-Bypass-Operation im August 2012, starb wenige Tage später an Komplikationen." , land:"USA", gender:"m", jahre:"1930–2012"},
+  { route:"krankheitsportraets-robbie-williams", name:"Robbie Williams", subtyp:"SX1w2", heading:"Robbie Williams – Sexueller Typ 1", krankheit:"Jahrzehntelange Depression und Suchterkrankung (Alkohol, Kokain, Ecstasy)", teaser:"SX1w2 – Musiker, geb. 1974. Seit den frühen 1990er-Jahren schwere Depression und Suchterkrankung, mehrere Entzugsbehandlungen, 2023 in vierteiliger Netflix-Dokumentation ausführlich aufgearbeitet." , land:"Vereinigtes Königreich", gender:"m", jahre:"geb. 1974"},
+  { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -50674,6 +50678,7 @@ function fransDeWaalPortraitPage() {
         {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
         {route:"beruehmte-jill-pruetz", label:"Porträt: Dr. Jill Pruetz (SX7w6)"},
         {route:"beruehmte-christophe-boesch", label:"Porträt: Prof. Dr. Christophe Boesch (SX7w8)"},
+        {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6) – Magenkrebs, bis zuletzt aktiv"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frans-de-waal")}
     </div>
@@ -63944,6 +63949,7 @@ function robbieWilliamsPortraitPage() {
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
         {route:"beruehmte-leonardo-dicaprio", label:"Portr\u00e4t: Leonardo DiCaprio (SX1w2)"},
+        {route:"krankheitsportraets-robbie-williams", label:"Krankheitsportr\u00e4t: Robbie Williams (SX1w2) \u2013 Depression und Sucht"},
       ])}
     </div>
   `);
@@ -80061,6 +80067,8 @@ function leonardBernsteinKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-morgan-freeman", label:"Krankheitsporträt: Morgan Freeman (SX7w6)"},
+        {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
@@ -84452,6 +84460,7 @@ function morganFreemanKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
         {route:"krankheitsportraets-leonard-bernstein", label:"Krankheitsporträt: Leonard Bernstein (SX7w6) – dasselbe Muster ungebremsten Weiterarbeitens"},
+        {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
@@ -85572,6 +85581,325 @@ function neilArmstrongKrankheitsportraetPage() {
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7) – dieselbe Grundstruktur, entgegengesetzte Richtung"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se6", label:"Subtyp-Profil SE6"},
+      ])}
+    </div>
+  `);
+}
+
+function robbieWilliamsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robbie-williams-portrait.jpg" alt="Robbie Williams" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robbie Williams</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel · geb. 1974</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Robbie Williams</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-robbie-williams">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur gestreift wird: eine seit den frühen 1990er-Jahren
+        bestehende schwere Depression, verbunden mit einer Sucht nach Alkohol, Kokain und
+        Ecstasy, die er 2023 in einer vierteiligen Netflix-Dokumentation ausführlich
+        aufarbeitete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Williams</strong> ist dem <strong>sexuellen Typ 1 mit Zweierflügel</strong>
+        zugeordnet. Die SX1 richtet den strengen inneren Maßstab der Eins auf eine
+        einzelne, intensive Beziehung oder Bühnenpräsenz; der Zweierflügel bringt den
+        Wunsch hinzu, für andere unentbehrlich zu sein. Genau diese Kombination – die
+        eigene Unzulänglichkeit unerbittlich im Rampenlicht zu spüren, während man
+        anderen gefallen will – bestimmte, wie sich Williams' Depression und Sucht über
+        Jahrzehnte entwickelten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Depression bereits in jungen Jahren bei Take That:</strong>
+        Williams beschreibt in eigenen Interviews, dass Depressionen ihn bereits Anfang
+        der 1990er-Jahre, während seiner Zeit bei der Boygroup Take That, erfassten.</p>
+        <p class="vb-intro"><strong>b) Alkoholexzesse zur Selbstberuhigung:</strong>
+        Nach eigener Schilderung betäubte er sich nach Auftritten regelmäßig mit
+        Wodkaflaschen, um die eigene innere Verfassung zu ertragen.</p>
+        <p class="vb-intro"><strong>c) Zunehmender Konsum von Kokain und Ecstasy:</strong>
+        Zur Alkoholsucht gesellte sich in den folgenden Jahren ein zunehmender Konsum
+        harter Drogen, den Williams selbst öffentlich dokumentierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein öffentlicher "nervlicher Zusammenbruch":</strong>
+        Williams beschreibt einen Moment vor Tausenden Zuschauern, in dem er nach eigener
+        Aussage "einen nervlichen Zusammenbruch vor Publikum" erlebte.</p>
+        <p class="vb-intro"><strong>b) Mehrere Entzugsbehandlungen über die Jahre:</strong>
+        Williams durchlief im Lauf seiner Karriere wiederholt Behandlungen wegen seiner
+        Sucht- und Angsterkrankungen.</p>
+        <p class="vb-intro"><strong>c) Fortgesetzte Musikkarriere trotz der Erkrankung:</strong>
+        Trotz der beschriebenen Krisen blieb Williams über Jahrzehnte einer der
+        kommerziell erfolgreichsten Solokünstler Großbritanniens.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Netflix-Dokumentation 2023:</strong>
+        In einer vierteiligen Dokuserie ließ Williams Jahrzehnte an privatem Videomaterial
+        auswerten und kommentierte seine eigene Geschichte fünf bis sechs Stunden täglich
+        über 25 Drehtage.</p>
+        <p class="vb-intro"><strong>b) Selbst beschriebener Prozess als schmerzhaft:</strong>
+        Williams bezeichnete den Dreh selbst als "zutiefst, zutiefst schmerzhaft" – ein
+        bewusstes, aktives Wiedererleben statt einer distanzierten Rückschau.</p>
+        <p class="vb-intro"><strong>c) Offenlegung ohne beschönigende Distanz:</strong>
+        Die Dokumentation zeigt Depression, Angststörungen und Suchtverhalten ohne
+        erkennbare Verharmlosung – ein ungewöhnlich direktes Selbstporträt für einen
+        Weltstar.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Breite internationale Aufmerksamkeit:</strong>
+        Die Netflix-Serie löste weltweit Berichterstattung aus und trug zur öffentlichen
+        Enttabuisierung von Suchterkrankungen bei Popstars bei.</p>
+        <p class="vb-intro"><strong>b) Eine Karriere ohne dauerhaften Bruch:</strong>
+        Trotz der jahrzehntelangen psychischen Belastung blieb Williams' musikalisches
+        Werk und seine öffentliche Präsenz über die gesamte Zeit hinweg umfangreich.</p>
+        <p class="vb-intro"><strong>c) Eine zweite Erzählung neben dem Popstar-Image:</strong>
+        Neben dem Bild des erfolgreichen Entertainers etablierte sich durch die
+        Dokumentation ein zweites, ebenso öffentliches Bild der verletzlichen,
+        kämpfenden Person dahinter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der strenge innere Maßstab, der nie erfüllt wird:</strong>
+        Dieselbe SX1-Energie, die einen unerbittlichen inneren Maßstab an eine einzige,
+        intensive Bühnenbeziehung mit dem Publikum anlegt, bestimmte auch Williams'
+        Gefühl, diesem Maßstab nie wirklich zu genügen – eine Quelle der beschriebenen
+        Depression.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel und die Erschöpfung durch das Gefallenwollen:</strong>
+        Die Zuwendung des Zweierflügels zeigte sich im Wunsch, das Publikum immer wieder
+        neu zu erreichen und zu erfreuen – eine Anstrengung, die zur emotionalen
+        Erschöpfung beitrug, die er selbst beschreibt.</p>
+        <p class="vb-intro"><strong>c) Radikale Offenheit als spätere Form der Selbstkritik:</strong>
+        Die schonungslose Offenlegung der eigenen Geschichte in der Dokumentation passt
+        zur SX1-typischen Neigung, auch das eigene Innenleben nach strengen, ehrlichen
+        Maßstäben zu prüfen und öffentlich zu machen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Bühne, die nie genug innere Ruhe brachte:</strong>
+        Williams' gesamte Karriere war von dem Versuch geprägt, über die Bühne
+        Anerkennung und Beruhigung zu finden – ausgerechnet dieser Ort, an dem er am
+        sichtbarsten war, wurde zum Schauplatz seiner tiefsten Erschöpfung und
+        Selbstzweifel.</p>
+        <p class="vb-intro"><strong>b) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu Depression
+        oder Sucht führt – <strong>jeder Mensch kann jede psychische Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Williams' Fall zeigen
+        lässt, ist ein Muster im Umgang mit dem eigenen, nie erfüllten inneren Maßstab,
+        das bei einem ausgeprägten sexuellen Einser mit Zweierflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>c) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Williams kennt sein eigenes Muster nicht als Enneagramm-Struktur – die sexuelle
+        Eins mit Zweierflügel legt reflexhaft einen unerbittlichen Maßstab an die eigene
+        Wirkung auf andere an, statt diesen Maßstab je infrage zu stellen, und lebt genau
+        dieses Muster bis heute in modifizierter Form weiter aus. Wer die eigene Neigung
+        zum unerbittlichen Selbstanspruch nicht als Muster erkennt, erschöpft sich immer
+        wieder an demselben unerreichbaren Ziel.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Eins mit Zweierflügel erklärt bei <strong>Robbie Williams</strong>
+        vieles am Verlauf seiner eigenen Depression und Sucht: ein Mann, dessen gesamte
+        Bühnenpräsenz auf dem Wunsch beruhte, für ein Publikum unentbehrlich zu sein,
+        fand in genau diesem Anspruch die Wurzel seiner tiefsten Erschöpfung – die
+        Schwarze Mamba, die auch nach dem lautesten Applaus keine Ruhe findet, weil der
+        nächste, noch höhere Maßstab bereits wartet.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-robbie-williams", label:"Porträt: Robbie Williams (SX1w2)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
+      ])}
+    </div>
+  `);
+}
+
+function fransDeWaalKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-frans-de-waal-portrait.jpg" alt="Frans de Waal" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frans de Waal</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel · 1948–2024</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Frans de Waal</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-frans-de-waal">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um sein
+        Lebenswerk als Primatenforscher. Diese Seite vertieft ein Kapitel, das dort nur
+        gestreift wird: eine im August 2023 diagnostizierte Magenkrebserkrankung, an der
+        er im März 2024 starb, nachdem er bis wenige Monate zuvor weitergearbeitet hatte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>de Waal</strong> ist dem <strong>sexuellen Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Die SX7 sucht Intensität durch das ständige Erschließen neuer
+        Erfahrungsräume; der Sechserflügel bringt Loyalität gegenüber der eigenen Arbeit
+        und ihrem Umfeld hinzu. Genau diese Kombination – ungebremstes Weiterarbeiten bis
+        an eine harte, kurze Frist – bestimmte, wie de Waal auf seine Krebsdiagnose
+        reagierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose im August 2023:</strong>
+        De Waal erhielt im August 2023 die Diagnose Magenkrebs – etwa sieben Monate vor
+        seinem Tod.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte öffentliche Termine trotz Diagnose:</strong>
+        Im Herbst 2023 nahm de Waal weiterhin an öffentlichen Veranstaltungen teil, unter
+        anderem an einem Gespräch mit Isabella Rossellini in New York.</p>
+        <p class="vb-intro"><strong>c) Auftritt bei einem internationalen Philosophiefestival:</strong>
+        Im Juni 2023 sprach de Waal beim Philosophiefestival phil.COLOGNE in Deutschland –
+        kurz vor oder unmittelbar nach der Diagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Zuversicht trotz ungünstiger Prognose:</strong>
+        Noch im November 2023 äußerte sich de Waal nach Berichten hoffnungsvoll über den
+        eigenen Krankheitsverlauf, trotz einer insgesamt schwierigen Prognose.</p>
+        <p class="vb-intro"><strong>b) Kein öffentlicher Rückzug von der eigenen Arbeit:</strong>
+        Es gibt keine Hinweise darauf, dass de Waal seine Forschungs- oder
+        Veröffentlichungstätigkeit nach der Diagnose bewusst beendete.</p>
+        <p class="vb-intro"><strong>c) Tod am 14. März 2024:</strong>
+        De Waal starb im Alter von 75 Jahren an seinem Wohnsitz in Stone Mountain,
+        Georgia, an den Folgen des Magenkrebses.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein vergleichsweise kurzer, aber intensiver Krankheitsverlauf:</strong>
+        Zwischen Diagnose und Tod lagen nur rund sieben Monate – ein deutlich kürzerer
+        Zeitraum als bei den meisten anderen Krankheitsporträts dieses Kompasses.</p>
+        <p class="vb-intro"><strong>b) Ein umfangreiches, bis zuletzt aktuelles Lebenswerk:</strong>
+        De Waals letztes Buch, "Different: Gender Through the Eyes of a Primatologist",
+        war erst 2022 erschienen – kurz vor seiner Diagnose.</p>
+        <p class="vb-intro"><strong>c) Weltweite Würdigung nach seinem Tod:</strong>
+        Nachrufe in Fachzeitschriften, großen Zeitungen und wissenschaftlichen
+        Institutionen würdigten de Waal unmittelbar nach seinem Tod als einen der
+        einflussreichsten Verhaltensforscher seiner Generation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der die öffentliche Wahrnehmung kaum überschattete:</strong>
+        Trotz der kurzen, ernsten Erkrankung blieb de Waals öffentliches Bild bis zuletzt
+        von seinem wissenschaftlichen Werk geprägt, nicht von der Krankheit.</p>
+        <p class="vb-intro"><strong>b) Internationale Trauer in der Wissenschaftswelt:</strong>
+        Kolleginnen und Kollegen weltweit würdigten de Waal als prägende Figur der
+        Primatenforschung und der Verhaltensbiologie insgesamt.</p>
+        <p class="vb-intro"><strong>c) Fortwirkendes Werk über den Tod hinaus:</strong>
+        De Waals Bücher und Forschungsergebnisse blieben nach seinem Tod ein zentraler
+        Bezugspunkt der Debatte über Tierverhalten, Emotion und Moral.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Intensität, die sich auch der Diagnose nicht beugte:</strong>
+        Dieselbe SX7-Energie, die de Waals gesamtes Forscherleben trug, bestimmte auch
+        seine letzten Monate – öffentliche Auftritte und Zuversicht statt Rückzug.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel und die Treue zum eigenen Lebenswerk:</strong>
+        Die Loyalität des Sechserflügels zeigte sich darin, dass de Waal seinem
+        Forschungsfeld und seinem wissenschaftlichen Umfeld bis kurz vor seinem Tod treu
+        blieb.</p>
+        <p class="vb-intro"><strong>c) Zuversicht als eigene Form der Intensität:</strong>
+        Die berichtete Hoffnung trotz schwieriger Prognose passt zur SX7-typischen
+        Neigung, sich auch in Krisen auf die positive Möglichkeit zu konzentrieren, statt
+        auf das Worst-Case-Szenario.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Forscherleben, das bis zuletzt nach vorn gerichtet blieb:</strong>
+        De Waals gesamtes wissenschaftliches Werk war von der Überzeugung geprägt, dass
+        es immer noch mehr zu verstehen gibt – die Krebsdiagnose änderte diese
+        Grundhaltung in den verbleibenden Monaten nicht erkennbar.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-bernstein">Leonard
+        Bernstein</a> und
+        <a href="javascript:void(0)" data-route="krankheitsportraets-morgan-freeman">Morgan
+        Freeman</a> (beide ebenfalls SX7w6) reagierten auf ihre eigenen chronischen
+        Erkrankungen mit derselben Grundhaltung wie de Waal – kein Rückzug, sondern
+        Weiterarbeit trotz spürbarer körperlicher Grenze. Mehr dazu in den
+        Krankheitsporträts zu
+        <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-bernstein">Leonard Bernstein</a>
+        und
+        <a href="javascript:void(0)" data-route="krankheitsportraets-morgan-freeman">Morgan Freeman</a>.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu
+        Krebserkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an de Waals Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer schweren, kurzfristigen Diagnose, das bei einem
+        ausgeprägten sexuellen Siebener mit Sechserflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        De Waal kannte sein eigenes Muster nicht – die sexuelle Sieben mit Sechserflügel
+        sucht reflexhaft die volle, ungefilterte Erfahrung und Weiterarbeit, statt eine
+        schwere Diagnose je zum Anlass für einen frühen Rückzug zu nehmen, und lebte
+        genau dieses Muster bis zu seinem Tod unverändert aus. Wer die eigene
+        Intensitätssuche nicht als Muster erkennt, kann auch angesichts einer kurzen,
+        schweren Prognose nicht innehalten.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Sieben mit Sechserflügel erklärt bei <strong>Frans de Waal</strong>
+        vieles am Verlauf seiner letzten Lebensmonate: ein Mann, dessen gesamtes Werk auf
+        der unstillbaren Suche nach neuem Verständnis beruhte, blieb dieser Suche bis
+        kurz vor seinem Tod treu – der Schimpanse, der bis zum letzten Ast weiterklettert,
+        weil dort immer noch etwas Neues zu entdecken sein könnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-frans-de-waal", label:"Porträt: Frans de Waal (SX7w6)"},
+        {route:"krankheitsportraets-leonard-bernstein", label:"Krankheitsporträt: Leonard Bernstein (SX7w6) – dasselbe Muster ungebremsten Weiterarbeitens"},
+        {route:"krankheitsportraets-morgan-freeman", label:"Krankheitsporträt: Morgan Freeman (SX7w6)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
     </div>
   `);
@@ -126181,6 +126509,8 @@ function render() {
       "krankheitsportraets-byron-katie": byronKatieKrankheitsportraetPage,
       "krankheitsportraets-drew-barrymore": drewBarrymoreKrankheitsportraetPage,
       "krankheitsportraets-neil-armstrong": neilArmstrongKrankheitsportraetPage,
+      "krankheitsportraets-robbie-williams": robbieWilliamsKrankheitsportraetPage,
+      "krankheitsportraets-frans-de-waal": fransDeWaalKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
