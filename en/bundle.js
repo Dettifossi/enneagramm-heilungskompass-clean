@@ -26179,7 +26179,7 @@ function dollyPartonPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dolly Parton</p>
         <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
-        <p class="krim-portrait-subtitle">Singer, songwriter &amp; entrepreneur, born 1946 in Locust Ridge, Tennessee &ndash; Animal correspondence: Peacock</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter &amp; entrepreneur, 1946&ndash;2026, born in Locust Ridge, Tennessee &ndash; Animal correspondence: Peacock</p>
       </div>
       <div class="page-content">
 
@@ -26211,6 +26211,7 @@ function dollyPartonPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dolly Parton's career reads as a continuous translation of personal magnetism into ever new stages: from rural radio show to country music icon, from singer to film actress (including "9 to 5," 1980, alongside its number-one hit title song), from songwriter to entrepreneur with her own theme park. Every stage stays tied to the same underlying ability &ndash; drawing attention and turning it into something lasting.</p>
           <p class="vb-intro">Striking beneath all the glittering surface is one remarkably stable constant: her marriage to businessman Carl Dean, whom she met in 1966 and married the same year &ndash; nearly sixty years during which Dean almost entirely avoided the public eye and was rarely ever photographed at her side, until his death in March 2025. The peacock's feathers on the outside, quiet seclusion at the very core: in scarcely any other SX3w4 does the contrast between glittering stage persona and fiercely protected private life show as clearly as it does in Dolly Parton.</p>
+          <p class="vb-intro" style="margin-top:1rem;">Barely a year and a half after Dean's death, Dolly Parton herself died on August 25, 2026, in Nashville at age 80, following a brief battle with cancer according to those close to her. In her final years she had openly admitted to neglecting her own health while caring for her husband &ndash; one last, quiet SX3w4 pattern: keeping up full outward radiance, still performing, still shining in public, while the vulnerability behind the stage is admitted only reluctantly.</p>
         </blockquote>
 
       </div>

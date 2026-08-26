@@ -62876,7 +62876,7 @@ function dollyPartonPortraitPage() {
         </div>
         <p class="krim-portrait-name">Dolly Parton</p>
         <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Sängerin, Songwriterin &amp; Unternehmerin, geb. 1946 in Locust Ridge, Tennessee &ndash; Tierentsprechung: Pfau</p>
+        <p class="krim-portrait-subtitle">Sängerin, Songwriterin &amp; Unternehmerin, 1946&ndash;2026, geb. in Locust Ridge, Tennessee &ndash; Tierentsprechung: Pfau</p>
       </div>
       <div class="page-content">
 
@@ -62908,6 +62908,7 @@ function dollyPartonPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dolly Partons Karriere lässt sich als fortlaufende Übersetzung persönlicher Anziehungskraft in immer neue Bühnen lesen: von der ländlichen Radioshow zur Countrymusik-Ikone, von der Sängerin zur Filmschauspielerin (u. a. „9 to 5“, 1980, samt gleichnamigem Nummer-eins-Hit), von der Songwriterin zur Unternehmerin mit eigenem Freizeitpark. Jede Station bleibt an dieselbe Grundfähigkeit gebunden &ndash; Aufmerksamkeit zu erregen und sie in etwas Bleibendes zu verwandeln.</p>
           <p class="vb-intro">Auffällig unter all dem schrillen Glanz ist eine einzige, außergewöhnlich stabile Konstante: ihre Ehe mit dem Geschäftsmann Carl Dean, den sie 1966 kennenlernte und 1966 heiratete &ndash; fast sechzig Jahre, in denen Dean die Öffentlichkeit fast vollständig mied und kaum je an ihrer Seite fotografiert wurde, bis zu seinem Tod im März 2025. Die Pfau-Feder nach außen, die stille Zurückgezogenheit im Innersten: Bei kaum einer anderen SX3w4 zeigt sich der Kontrast zwischen glitzernder Bühnenfigur und geschütztem Privatleben so deutlich wie bei Dolly Parton.</p>
+          <p class="vb-intro" style="margin-top:1rem;">Nur eineinhalb Jahre nach Deans Tod starb Dolly Parton selbst am 25. August 2026 in Nashville im Alter von 80 Jahren, nach eigenen Angaben ihres Umfelds nach kurzer Krebserkrankung. Sie hatte in ihren letzten Lebensjahren offen eingeräumt, die eigene Gesundheit während der Pflege ihres Mannes vernachlässigt zu haben &ndash; ein letztes, leises Muster der SX3w4: Die volle Wirkung nach außen zu wahren, bis zuletzt aufzutreten und öffentlich zu strahlen, während die eigene Verletzlichkeit hinter der Bühne nur zögerlich zugegeben wird.</p>
         </blockquote>
 
       </div>
