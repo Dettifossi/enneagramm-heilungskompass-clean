@@ -24060,6 +24060,7 @@ const registerEntries = [
   { term: "Astrid Lindgren Krankheitsporträt", route: "krankheitsportraets-astrid-lindgren", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Fortschreitende Makuladegeneration, Erblindung im Alter" },
   { term: "Sean Connery Krankheitsporträt", route: "krankheitsportraets-sean-connery", description: "Portrait: SO3w4 · Sozialer Typ 3 · Demenzerkrankung, erst nach dem Tod öffentlich bestätigt" },
   { term: "Ashton Kutcher Krankheitsporträt", route: "krankheitsportraets-ashton-kutcher", description: "Portrait: SO2w3 · Sozialer Typ 2 · Seltene Autoimmunerkrankung (Vaskulitis)" },
+  { term: "Robert De Niro Krankheitsporträt", route: "krankheitsportraets-robert-de-niro", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Prostatakrebs, 2003 diagnostiziert" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32231,6 +32232,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-astrid-lindgren", name:"Astrid Lindgren", subtyp:"SE1w9", heading:"Astrid Lindgren – Selbsterhaltender Typ 1", krankheit:"Fortschreitende Makuladegeneration, nahezu vollständige Erblindung im hohen Alter", teaser:"SE1w9 – schwedische Schriftstellerin, 1907–2002. Fortschreitende Makuladegeneration in den letzten Lebensjahrzehnten, Umstellung auf Diktate statt Schreiben, fortgesetztes Tierschutz-Engagement trotz nahezu vollständiger Erblindung." , land:"Schweden", gender:"f", jahre:"1907–2002"},
   { route:"krankheitsportraets-sean-connery", name:"Sean Connery", subtyp:"SO3w4", heading:"Sean Connery – Sozialer Typ 3", krankheit:"Demenzerkrankung, erst nach dem Tod öffentlich bestätigt", teaser:"SO3w4 – Schauspieler, 1930–2020. Demenzerkrankung in den letzten Lebensjahren, über Jahre vor der Öffentlichkeit verborgen, erst nach seinem Tod 2020 von seinem Sohn bestätigt." , land:"Vereinigtes Königreich", gender:"m", jahre:"1930–2020"},
   { route:"krankheitsportraets-ashton-kutcher", name:"Ashton Kutcher", subtyp:"SO2w3", heading:"Ashton Kutcher – Sozialer Typ 2", krankheit:"Seltene Autoimmunerkrankung (Vaskulitis) mit zeitweiligem Verlust von Seh-, Hör- und Gehfähigkeit", teaser:"SO2w3 – Schauspieler und Unternehmer, geb. 1978. Seltene autoimmune Gefäßentzündung mit zeitweiligem Verlust von Seh-, Hör- und Gehfähigkeit, zwei Jahre lang privat gehalten, öffentlich gemacht 2023." , land:"USA", gender:"m", jahre:"geb. 1978"},
+  { route:"krankheitsportraets-robert-de-niro", name:"Robert De Niro", subtyp:"SE1w9", heading:"Robert De Niro – Selbsterhaltender Typ 1", krankheit:"Prostatakrebs, 2003 diagnostiziert, erfolgreich und weitgehend privat behandelt", teaser:"SE1w9 – Schauspieler und Produzent, geb. 1943. 2003 diagnostizierter Prostatakrebs, zügig und diskret behandelt, seither nur vereinzelte öffentliche Erwähnungen im Kontext von Vorsorgeappellen." , land:"USA", gender:"m", jahre:"geb. 1943"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -45833,6 +45835,7 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – Prostatakrebs"},
       ])}
     </div>
   `);
@@ -76342,6 +76345,7 @@ function konradAdenauerKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9) – Lebenswerk"},
         {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
@@ -88418,6 +88422,7 @@ function astridLindgrenKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
         {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
@@ -88755,6 +88760,183 @@ function ashtonKutcherKrankheitsportraetPage() {
         {route:"beruehmte-ashton-kutcher", label:"Porträt: Ashton Kutcher (SO2w3)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
+      ])}
+    </div>
+  `);
+}
+
+function robertDeNiroKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robert-de-niro-portrait.jpg" alt="Robert De Niro" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert De Niro</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · geb. 1943</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Robert De Niro</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-robert-de-niro">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nicht behandelt wird: eine 2003 diagnostizierte Prostatakrebs-
+        Erkrankung, die er weitgehend privat behandeln ließ und nur knapp öffentlich
+        kommentierte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>De Niro</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet ihren Anspruch an Genauigkeit nach innen, auf die eigene
+        Vorbereitung und Integrität; der Neunerflügel bringt eine Zurückhaltung hinzu, die
+        sich nicht öffentlich zeigen muss, um zu wirken. Genau diese Kombination – präzise,
+        entschlossene medizinische Behandlung bei gleichzeitiger, fast vollständiger
+        öffentlicher Zurückhaltung – bestimmte den Umgang mit der eigenen Krebsdiagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose im Jahr 2003:</strong>
+        Bei De Niro wurde 2003 im Rahmen einer Routineuntersuchung Prostatakrebs
+        diagnostiziert – ein früher Diagnosezeitpunkt, der eine erfolgreiche Behandlung
+        deutlich begünstigte.</p>
+        <p class="vb-intro"><strong>b) Keine ausführliche öffentliche Ankündigung:</strong>
+        Anders als viele andere Prominente mit vergleichbaren Diagnosen gab De Niro keine
+        ausführliche öffentliche Erklärung ab, sondern ließ die Nachricht knapp über
+        Medienberichte bekannt werden.</p>
+        <p class="vb-intro"><strong>c) Zügige Einleitung der Behandlung:</strong>
+        Nach der Diagnose begann De Niro nach übereinstimmenden Berichten zügig mit der
+        Behandlung, ohne den Prozess öffentlich zu begleiten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Erfolgreiche Behandlung ohne dauerhafte öffentliche Sichtbarkeit:</strong>
+        Die Behandlung verlief nach allen vorliegenden Berichten erfolgreich, ohne dass De
+        Niro den Krankheitsverlauf zu einem fortlaufenden öffentlichen Thema machte.</p>
+        <p class="vb-intro"><strong>b) Wenige, sehr knappe spätere Erwähnungen:</strong>
+        In seltenen späteren Interviews erwähnte De Niro die Erkrankung nur knapp, meist im
+        Zusammenhang mit Appellen an andere Männer, sich regelmäßig untersuchen zu lassen.</p>
+        <p class="vb-intro"><strong>c) Kein Rückzug aus der Schauspielarbeit:</strong>
+        Anders als bei manchen Kollegen führte die Diagnose zu keiner erkennbaren Unterbrechung
+        seiner Filmarbeit – De Niro blieb während und nach der Behandlung kontinuierlich
+        aktiv.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Gelegentliche öffentliche Nutzung zur Sensibilisierung:</strong>
+        In den Jahren nach seiner Genesung nutzte De Niro vereinzelte öffentliche Anlässe, um
+        auf die Bedeutung früher Prostatakrebs-Vorsorgeuntersuchungen hinzuweisen.</p>
+        <p class="vb-intro"><strong>b) Keine Krankheitsgeschichte als Teil seines öffentlichen Bildes:</strong>
+        Im Unterschied zu Schauspielern, die ihre Krankengeschichte zu einem wiederkehrenden
+        Thema in Interviews machten, blieb De Niros Erkrankung ein Randaspekt seiner
+        öffentlichen Biografie.</p>
+        <p class="vb-intro"><strong>c) Fortgesetzte hohe berufliche Produktivität:</strong>
+        In den zwei Jahrzehnten nach der Diagnose drehte De Niro Dutzende weiterer Filme,
+        darunter mehrere mit Martin Scorsese, ohne dass die frühere Erkrankung öffentlich
+        thematisiert wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Diskrete Aufmerksamkeit statt öffentlicher Kampagne:</strong>
+        De Niros knappe, seltene Erwähnungen der eigenen Erkrankung erzeugten dennoch
+        punktuelle mediale Aufmerksamkeit für das Thema Prostatakrebs-Vorsorge, ohne dass er
+        selbst zur zentralen öffentlichen Stimme des Themas wurde.</p>
+        <p class="vb-intro"><strong>b) Keine dramatisierte Genesungserzählung:</strong>
+        Anders als bei manch anderer Krebserkrankung Prominenter existiert keine ausführliche,
+        emotional aufgeladene öffentliche Erzählung von De Niros Genesungsprozess.</p>
+        <p class="vb-intro"><strong>c) Ein öffentliches Bild, das von der Erkrankung unberührt blieb:</strong>
+        De Niros öffentliches Image blieb von der Krebserkrankung praktisch unberührt – es
+        dominierten weiterhin seine Filmrollen und sein handwerklicher Ruf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Präzise Behandlung ohne öffentliche Inszenierung:</strong>
+        Die SE1-typische Genauigkeit im Umgang mit der eigenen Sache zeigte sich auch bei der
+        Krebsbehandlung: konsequent, zügig eingeleitet, ohne dass der Prozess selbst zum
+        Gegenstand öffentlicher Aufmerksamkeit wurde.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und der Rückzug, sobald die Aufgabe erledigt ist:</strong>
+        Dieselbe Zurückhaltung, die De Niro nach jedem Filmdreh in die Stille zurückkehren
+        lässt, zeigte sich im Umgang mit der eigenen Krankheit: Sobald die Behandlung
+        abgeschlossen war, verschwand das Thema fast vollständig aus seiner öffentlichen
+        Präsenz.</p>
+        <p class="vb-intro"><strong>c) Vorsorge als sachliche Botschaft, nicht als persönliches Bekenntnis:</strong>
+        Wenn De Niro die Erkrankung überhaupt erwähnte, geschah dies in Form einer sachlichen
+        Empfehlung an andere Männer, nicht als ausführliche persönliche Erzählung – Wahrhaftigkeit
+        im Handwerk der Botschaft, ohne unnötige Selbstdarstellung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Meister der Vorbereitung, der die eigene Krankheit ebenso methodisch behandelte:</strong>
+        De Niros gesamtes Werk beruht auf akribischer, nahezu wissenschaftlicher Vorbereitung
+        – dieselbe Methodik übertrug sich auf den Umgang mit der eigenen Krebsdiagnose: zügig
+        erkannt, konsequent behandelt, ohne unnötige öffentliche Dramatisierung.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Parallelen zeigen sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
+        Adenauer</a> und
+        <a href="javascript:void(0)" data-route="krankheitsportraets-astrid-lindgren">Astrid
+        Lindgren</a> (beide ebenfalls SE1w9): Alle drei begegneten gesundheitlichen
+        Einschränkungen mit diszipliniertem, praktischem Handeln statt öffentlicher
+        Aufmerksamkeit. Bei allen SE1w9ern zeigt sich dasselbe Muster: Die Krankheit wird
+        gelöst wie eine Aufgabe – gründlich, aber ohne Bühne.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Prostata, ein stilles, selten thematisiertes Organ?</strong>
+        Für einen selbsterhaltenden Typ 1 mit Neunerflügel, dessen gesamtes Werk auf
+        methodischer Vorbereitung und zugleich auf öffentlicher Zurückhaltung beruht, liegt
+        eine Deutung nahe: Ausgerechnet ein Organ, über das gesellschaftlich selten offen
+        gesprochen wird, wurde zum Ort seiner eigenen, ebenso zurückhaltend behandelten
+        Erkrankung. Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
+        Prostatakrebs führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an De Niros Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer erfolgreich behandelten Erkrankung, das bei einem
+        ausgeprägten selbsterhaltenden Typ 1 mit Neunerflügel immer wieder auffällt – eine
+        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        De Niro kennt sein eigenes Muster nicht als Enneagramm-Struktur – der selbsterhaltende
+        Typ 1 mit Neunerflügel hält reflexhaft an der eigenen, stillen Selbstständigkeit fest,
+        statt gesundheitliche Themen offen zu teilen, und lebt genau dieses Muster bis heute
+        weitgehend unverändert aus. Wer die eigene Neigung, auch ernste Angelegenheiten
+        methodisch und ohne öffentliche Aussprache zu erledigen, nicht als Muster erkennt,
+        riskiert, dass wichtige gesundheitliche Botschaften an andere unausgesprochen
+        bleiben.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 1 mit Neunerflügel erklärt bei <strong>Robert De
+        Niro</strong> vieles am Umgang mit der eigenen Prostatakrebs-Erkrankung: ein Mann,
+        dessen gesamtes Handwerk auf präziser, stiller Vorbereitung beruht, behandelte auch
+        die eigene Krankheit als eine Aufgabe, die gelöst und dann verlassen werden musste –
+        der Adler, der über seinem Revier kreiste, zuschlug, wenn es nötig war, und danach
+        wieder in die Stille zurückkehrte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
     </div>
   `);
@@ -129371,6 +129553,7 @@ function render() {
       "krankheitsportraets-astrid-lindgren": astridLindgrenKrankheitsportraetPage,
       "krankheitsportraets-sean-connery": seanConneryKrankheitsportraetPage,
       "krankheitsportraets-ashton-kutcher": ashtonKutcherKrankheitsportraetPage,
+      "krankheitsportraets-robert-de-niro": robertDeNiroKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,

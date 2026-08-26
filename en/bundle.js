@@ -261,6 +261,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-astrid-lindgren", name:"Astrid Lindgren", subtyp:"SE1w9", heading:"Astrid Lindgren – Self-Preservation Type 1", krankheit:"Progressive macular degeneration, near-total blindness in old age", teaser:"SE1w9 – Swedish author, 1907–2002. Progressive macular degeneration in her final decades, switch to dictation instead of writing, continued animal welfare engagement despite near-total blindness." , land:"Sweden", gender:"f", jahre:"1907–2002"},
   { route:"krankheitsportraets-sean-connery", name:"Sean Connery", subtyp:"SO3w4", heading:"Sean Connery – Social Type 3", krankheit:"Dementia, publicly confirmed only after his death", teaser:"SO3w4 – actor, 1930–2020. Dementia in his final years, kept from the public for years, confirmed only after his death in 2020 by his son." , land:"United Kingdom", gender:"m", jahre:"1930–2020"},
   { route:"krankheitsportraets-ashton-kutcher", name:"Ashton Kutcher", subtyp:"SO2w3", heading:"Ashton Kutcher – Social Type 2", krankheit:"Rare autoimmune disease (vasculitis) with temporary loss of sight, hearing, and mobility", teaser:"SO2w3 – actor and entrepreneur, b. 1978. Rare autoimmune vasculitis with temporary loss of sight, hearing, and mobility, kept private for two years, made public in 2023." , land:"USA", gender:"m", jahre:"b. 1978"},
+  { route:"krankheitsportraets-robert-de-niro", name:"Robert De Niro", subtyp:"SE1w9", heading:"Robert De Niro – Self-Preservation Type 1", krankheit:"Prostate cancer, diagnosed in 2003, treated successfully and largely in private", teaser:"SE1w9 – actor and producer, b. 1943. Prostate cancer diagnosed in 2003, treated promptly and discreetly, only occasional public mentions since, mostly encouraging early screening." , land:"USA", gender:"m", jahre:"b. 1943"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -28284,6 +28285,7 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – prostate cancer"},
       ])}
     </div>
   `);
@@ -48536,6 +48538,7 @@ function konradAdenauerKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9) – life's work"},
         {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – same subtype"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}
@@ -59830,6 +59833,7 @@ function astridLindgrenKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SE1w9)"},
         {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SE1w9) – same subtype"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}
@@ -60149,6 +60153,173 @@ function ashtonKutcherKrankheitsportraetPage() {
         {route:"beruehmte-ashton-kutcher", label:"Portrait: Ashton Kutcher (SO2w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so2", label:"Subtype Profile SO2"},
+      ])}
+    </div>
+  `);
+}
+
+function robertDeNiroKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robert-de-niro-portrait.jpg" alt="Robert De Niro" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert De Niro</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-Wing · b. 1943</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Robert De Niro</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-robert-de-niro">Famous
+        Personalities portrait</a>. This page delves into a chapter not covered there: a
+        prostate cancer diagnosis in 2003 that he had treated largely in private and only
+        briefly commented on publicly.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>De Niro</strong> is assigned to the <strong>self-preservation Type 1 with
+        Nine-Wing</strong>. The SE1 directs its demand for accuracy inward, at its own
+        preparation and integrity; the Nine-Wing adds a reticence that does not need to show
+        itself publicly to have effect. Exactly this combination – precise, decisive medical
+        treatment alongside almost complete public restraint – shaped how he dealt with his
+        cancer diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Diagnosis in 2003:</strong>
+        De Niro was diagnosed with prostate cancer in 2003 during a routine checkup – an
+        early point of diagnosis that significantly favored successful treatment.</p>
+        <p class="vb-intro"><strong>b) No extensive public announcement:</strong>
+        Unlike many other public figures with comparable diagnoses, De Niro did not issue a
+        detailed public statement, letting the news become known briefly through media
+        reports instead.</p>
+        <p class="vb-intro"><strong>c) Prompt initiation of treatment:</strong>
+        By consistent accounts, De Niro began treatment promptly after the diagnosis without
+        publicly accompanying the process.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Successful treatment without lasting public visibility:</strong>
+        The treatment proceeded successfully according to all available reports, without De
+        Niro making the course of the illness an ongoing public topic.</p>
+        <p class="vb-intro"><strong>b) A few, very brief later mentions:</strong>
+        In rare later interviews, De Niro mentioned the illness only briefly, usually in
+        connection with encouraging other men to get regular checkups.</p>
+        <p class="vb-intro"><strong>c) No withdrawal from acting work:</strong>
+        Unlike with some colleagues, the diagnosis caused no noticeable interruption to his
+        film work – De Niro remained continuously active during and after the treatment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Occasional public use for raising awareness:</strong>
+        In the years after his recovery, De Niro used isolated public occasions to point out
+        the importance of early prostate cancer screening.</p>
+        <p class="vb-intro"><strong>b) No illness narrative as part of his public image:</strong>
+        Unlike actors who made their medical history a recurring topic in interviews, De
+        Niro's illness remained a peripheral aspect of his public biography.</p>
+        <p class="vb-intro"><strong>c) Continued high professional productivity:</strong>
+        In the two decades after the diagnosis, De Niro made dozens more films, including
+        several with Martin Scorsese, without the earlier illness being publicly
+        addressed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Discreet attention rather than a public campaign:</strong>
+        De Niro's brief, rare mentions of his own illness still generated occasional media
+        attention for prostate cancer screening, without him becoming the central public
+        voice on the topic.</p>
+        <p class="vb-intro"><strong>b) No dramatized recovery narrative:</strong>
+        Unlike with some other celebrity cancer illnesses, there is no extensive,
+        emotionally charged public account of De Niro's recovery process.</p>
+        <p class="vb-intro"><strong>c) A public image left practically untouched by the illness:</strong>
+        De Niro's public image remained practically untouched by the cancer illness – his
+        film roles and his reputation as a craftsman continued to dominate.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Precise treatment without public staging:</strong>
+        The SE1's characteristic precision in handling its own affairs also showed in the
+        cancer treatment: consistent, promptly initiated, without the process itself
+        becoming the subject of public attention.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing and withdrawing once the task is done:</strong>
+        The same restraint that lets De Niro return to silence after every film shoot showed
+        in how he handled his own illness: once treatment was complete, the topic almost
+        entirely disappeared from his public presence.</p>
+        <p class="vb-intro"><strong>c) Prevention as a factual message, not a personal confession:</strong>
+        Whenever De Niro mentioned the illness at all, it took the form of a factual
+        recommendation to other men, not an extensive personal account – truthfulness in the
+        craft of the message, without unnecessary self-presentation.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A master of preparation who treated his own illness just as methodically:</strong>
+        De Niro's entire body of work rests on meticulous, near-scientific preparation – the
+        same methodology carried over into how he dealt with his own cancer diagnosis:
+        promptly recognized, consistently treated, without unnecessary public
+        dramatization.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        Parallels appear with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
+        Adenauer</a> and
+        <a href="javascript:void(0)" data-route="krankheitsportraets-astrid-lindgren">Astrid
+        Lindgren</a> (both also SE1w9): all three met health limitations with disciplined,
+        practical action rather than public attention. All SE1w9s show the same pattern: the
+        illness is solved like a task – thoroughly, but without a stage.</p>
+        <p class="vb-intro"><strong>c) Why the prostate, of all things, a quiet, rarely discussed organ?</strong>
+        For a self-preservation One with a Nine-Wing whose entire work rests on methodical
+        preparation combined with public restraint, one interpretation suggests itself:
+        exactly an organ that society rarely discusses openly became the site of his own,
+        equally discreetly handled illness. This reading is a plausible interpretation, not a
+        proven clinical causal link, and will be developed further in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the self-preservation One's pattern inevitably leads to
+        prostate cancer – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What can be shown in De Niro's case is a pattern in dealing with a
+        successfully treated illness that keeps recurring in a pronounced self-preservation
+        Type 1 with a Nine-Wing – one of many possible readings, not a verdict. The
+        corresponding illness pattern is being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        De Niro does not know his own pattern as an Enneagram structure – the
+        self-preservation Type 1 with a Nine-Wing reflexively clings to its own quiet
+        self-sufficiency instead of openly sharing health matters, and largely lives out
+        exactly this pattern unchanged to this day. Anyone who does not recognize their own
+        tendency to handle even serious matters methodically and without public discussion as
+        a pattern risks that important health messages to others go unspoken.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 1 with Nine-Wing explains much about how <strong>Robert De
+        Niro</strong> handled his prostate cancer: a man whose entire craft rests on precise,
+        quiet preparation treated his own illness as a task to be solved and then left behind
+        – the eagle that circled its territory, struck when necessary, and returned to
+        silence afterward.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SE1w9) – same subtype"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}
     </div>
   `);
@@ -93281,6 +93452,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-astrid-lindgren": astridLindgrenKrankheitsportraetPage,
       "krankheitsportraets-sean-connery": seanConneryKrankheitsportraetPage,
       "krankheitsportraets-ashton-kutcher": ashtonKutcherKrankheitsportraetPage,
+      "krankheitsportraets-robert-de-niro": robertDeNiroKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
