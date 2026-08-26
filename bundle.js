@@ -24029,6 +24029,7 @@ const registerEntries = [
   { term: "Yayoi Kusama Krankheitsporträt", route: "krankheitsportraets-yayoi-kusama", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Halluzinationen seit Kindheit, freiwillig in Psychiatrie seit 1977" },
   { term: "Michael Schumacher Krankheitsporträt", route: "krankheitsportraets-michael-schumacher", description: "Portrait: SX6w7 · Sexueller Typ 6 · Schädel-Hirn-Trauma nach Skiunfall 2013, mediale Abschottung" },
   { term: "Klaus Kinski Krankheitsporträt", route: "krankheitsportraets-klaus-kinski", description: "Portrait: SX1w9 · Sexueller Typ 1 · Psychiatrische Zwangseinweisung 1950, lebenslange Wutausbrüche" },
+  { term: "Natascha Kampusch Krankheitsporträt", route: "krankheitsportraets-natascha-kampusch", description: "Portrait: SE2w1 · Selbsterhaltender Typ 2 · PTBS, schwerer psychischer Zusammenbruch 2026" },
   { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
@@ -32261,6 +32262,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Selbsterhaltender Typ 2", krankheit:"Seit Kindheit bestehende Halluzinationen und Depersonalisation, freiwillig in psychiatrischer Klinik seit 1977", teaser:"SE2w3 – japanische Künstlerin, geb. 1929. Halluzinationen seit früher Kindheit, mehrere Suizidversuche in den 1970ern, seit 1977 freiwillig im Seiwa-Krankenhaus für psychisch Kranke in Tokio. Arbeitet bis heute täglich in ihrem Atelier. Verknüpft mit Frida Kahlo (ebenfalls SE2w3, ebenfalls Kunst aus lebenslangem Leiden)." , land:"Japan", gender:"f", jahre:"geb. 1929"},
   { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexueller Typ 6", krankheit:"Schweres Schädel-Hirn-Trauma nach Skiunfall 2013, seither vollständige mediale Abschottung", teaser:"SX6w7 – Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969. Skiunfall am 29. Dezember 2013 in Méribel mit schwerem Schädel-Hirn-Trauma, mehrere Notoperationen, monatelanges künstliches Koma. Seit der Entlassung 2014 hält die Familie seinen Gesundheitszustand vollständig geheim." , land:"Deutschland", gender:"m", jahre:"geb. 1969"},
   { route:"krankheitsportraets-klaus-kinski", name:"Klaus Kinski", subtyp:"SX1w9", heading:"Klaus Kinski – Sexueller Typ 1", krankheit:"Psychiatrische Zwangseinweisung 1950 mit vorläufiger Schizophrenie-Diagnose, lebenslange Wutausbrüche", teaser:"SX1w9 – Schauspieler, 1926–1991. Zwangseinweisung am 5. September 1950 nach Suizidversuch und Gewaltausbruch, vorläufige Diagnose Schizophrenie, später auf Psychopathie revidiert. Legendäre Wutausbrüche am Set über Jahrzehnte, 2013 posthume Missbrauchsvorwürfe seiner Tochter Pola." , land:"Deutschland", gender:"m", jahre:"1926–1991"},
+  { route:"krankheitsportraets-natascha-kampusch", name:"Natascha Kampusch", subtyp:"SE2w1", heading:"Natascha Kampusch – Selbsterhaltender Typ 2", krankheit:"Posttraumatische Belastungsstörung, schwerer psychischer Zusammenbruch zwanzig Jahre nach der Befreiung", teaser:"SE2w1 – Autorin und Aktivistin, geb. 1988. Posttraumatische Belastungsstörung nach achtjähriger Gefangenschaft (1998–2006), 2026 durch die Familie öffentlich gemachter schwerer psychischer Zusammenbruch. Verknüpft mit Greta Thunberg (ebenfalls SE2w1, ebenfalls Rückzug in eine eigene Welt unter extremem Druck)." , land:"Österreich", gender:"f", jahre:"geb. 1988"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -81534,6 +81536,196 @@ function klausKinskiKrankheitsportraetPage() {
   `);
 }
 
+function nataschaKampuschKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-natascha-kampusch-portrait.jpg" alt="Natascha Kampusch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natascha Kampusch</p>
+        <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel · geb. 1988</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Natascha Kampusch</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-natascha-kampusch">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihren Überlebensweg während der
+        achtjährigen Gefangenschaft und ihre Typstruktur im Allgemeinen. Diese Seite vertieft ein
+        Kapitel, das dort noch nicht behandelt wird: die posttraumatische Belastungsstörung als
+        langfristige Folge, und ein schwerer psychischer Zusammenbruch, über den ihre Familie
+        erst zwanzig Jahre nach ihrer Befreiung öffentlich sprach.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kampusch</strong> ist dem <strong>selbsterhaltenden Typ 2 mit Einserflügel</strong>
+        zugeordnet. Die SE2 sichert unter Bedrohung ihr Überleben durch Anpassung an die
+        emotionale Verfassung der mächtigeren Person; der Einserflügel bringt Disziplin und
+        selbst auferlegte Struktur als inneren Halt hinzu. Genau dieses Muster – nach außen
+        funktionieren, während im Inneren ein enormer Druck weiterwirkt – prägt auch den
+        Verlauf ihrer psychischen Gesundheit weit über das Ende der Gefangenschaft hinaus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Acht Jahre extremer Isolation im Kindes- und Jugendalter:</strong>
+        Kampusch wurde 1998 im Alter von zehn Jahren entführt und bis 2006 in einem etwa fünf
+        Quadratmeter kleinen, fast luftdichten Kellerverlies gefangen gehalten – eine
+        Extremsituation genau in den Jahren, die für die psychische Entwicklung eines Kindes
+        entscheidend sind.</p>
+        <p class="vb-intro"><strong>b) Der Suizid des Täters unmittelbar nach der Flucht:</strong>
+        Am Tag ihrer Flucht, dem 23. August 2006, nahm sich ihr Entführer Wolfgang Priklopil das
+        Leben – Kampusch verlor damit von einem Tag auf den anderen die einzige Bezugsperson,
+        an deren emotionale Verfassung ihr eigenes Überleben acht Jahre lang gekoppelt gewesen
+        war.</p>
+        <p class="vb-intro"><strong>c) Ein sofortiger Medienrummel ohne Übergangszeit:</strong>
+        Direkt nach der Befreiung sah sich Kampusch einem intensiven internationalen
+        Medieninteresse ausgesetzt – ohne die Zeit und den geschützten Rahmen, den eine
+        Verarbeitung eines derartigen Traumas eigentlich erfordert hätte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Posttraumatische Belastungsstörung als dokumentierte Diagnose:</strong>
+        Zu den bekannten psychischen Folgen ihrer Gefangenschaft zählen eine posttraumatische
+        Belastungsstörung, soziale Isolation sowie wiederkehrende Angstzustände und
+        Depressionen.</p>
+        <p class="vb-intro"><strong>b) Psychotherapie als kontinuierlicher Bestandteil ihres Lebens:</strong>
+        Kampusch nahm nach ihrer Befreiung psychotherapeutische Begleitung in Anspruch – ein
+        fortlaufender Prozess, der öffentlich kaum thematisiert wurde, während gleichzeitig ihr
+        äußeres Funktionieren als Autorin und öffentliche Stimme im Vordergrund stand.</p>
+        <p class="vb-intro"><strong>c) Öffentliches Funktionieren bei gleichzeitig fortbestehender innerer Belastung:</strong>
+        Über viele Jahre gelang es Kampusch, als Autorin, Moderatorin und Aktivistin öffentlich
+        aufzutreten, während die psychischen Folgen der Gefangenschaft im Hintergrund
+        weiterwirkten – ein Auseinanderklaffen von äußerer Funktionsfähigkeit und innerer
+        Belastung, das erst Jahrzehnte später sichtbar wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein schwerer psychischer Zusammenbruch, öffentlich bekannt gemacht durch die Familie:</strong>
+        Rund zwei Jahrzehnte nach ihrer Befreiung machte Kampuschs Familie öffentlich, dass sie
+        einen schweren Zusammenbruch erlitten habe – ein seltener Schritt, der die bis dahin
+        weitgehend private psychische Gesundheitsgeschichte erstmals in vollem Ausmaß ans Licht
+        brachte.</p>
+        <p class="vb-intro"><strong>b) „Meist in einer eigenen Welt" – die Beschreibung ihrer Schwester:</strong>
+        Kampuschs Schwester Claudia Nestelberger beschrieb den Zustand mit den Worten, Natascha
+        befinde sich „meist in einer eigenen Welt" und habe sich vollständig zurückgezogen – eine
+        Beschreibung, die die Familie selbst als eine Art neuerliche Gefangenschaft einordnete.</p>
+        <p class="vb-intro"><strong>c) Eine Dokumentation als bewusster Schritt zur Aufklärung:</strong>
+        Die Familie entschied sich, im Rahmen einer ORF-Dokumentation des Journalisten Christoph
+        Feurstein („Natascha Kampusch – Gefangen in Freiheit") offen über die Ursachen des
+        Zusammenbruchs zu sprechen – in der Hoffnung, damit Verständnis für ihre Situation zu
+        schaffen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Trauma, das nicht mit der Befreiung endete:</strong>
+        Kampuschs Fall zeigt exemplarisch, dass die eigentliche psychische Verarbeitung eines
+        Extremtraumas oft erst lange nach dem äußeren Ende der Bedrohung beginnt – und
+        Jahrzehnte andauern kann, weit über den Moment der physischen Rettung hinaus.</p>
+        <p class="vb-intro"><strong>b) Die Familie als späte, aber wichtige Stimme:</strong>
+        Anders als in den ersten Jahren nach ihrer Befreiung, in denen Kampusch selbst die
+        Deutungshoheit über ihre Geschichte behielt, übernahm nun ihre Familie die
+        Öffentlichkeitsarbeit – ein Zeichen dafür, wie sehr sich ihr Zustand verändert hatte.</p>
+        <p class="vb-intro"><strong>c) Ein Bild, das dem öffentlichen Narrativ der „starken Überlebenden" widerspricht:</strong>
+        Jahrelang wurde Kampusch vor allem als Symbol für Widerstandskraft und Selbstbestimmung
+        wahrgenommen; der 2026 öffentlich gewordene Zusammenbruch erweitert dieses Bild um eine
+        Realität, die viele Betroffene von Extremtraumata teilen: Stärke und anhaltendes Leiden
+        schließen einander nicht aus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Flusspferd, das lange unter der Oberfläche funktionierte:</strong>
+        Wie das Flusspferd, das den Großteil seines Lebens unsichtbar unter Wasser verbringt,
+        hielt Kampusch über Jahre eine äußerlich funktionierende, öffentlich sichtbare Existenz
+        aufrecht – während das eigentliche Ausmaß ihrer inneren Belastung verborgen blieb.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel und der lange Kampf um Struktur:</strong>
+        Dieselbe Selbstdisziplin, die ihr während der Gefangenschaft half, Verstand und
+        Identität zu bewahren, ermöglichte ihr über Jahre auch nach der Befreiung ein
+        funktionierendes öffentliches Leben – bis diese selbst auferlegte Struktur unter der
+        Last des unverarbeiteten Traumas schließlich zusammenbrach.</p>
+        <p class="vb-intro"><strong>c) Rückzug als letzte verbliebene Schutzstrategie:</strong>
+        Der von ihrer Schwester beschriebene Rückzug „in eine eigene Welt" liest sich als
+        Wiederkehr desselben Überlebensmechanismus, der sie einst durch die Gefangenschaft
+        trug: sich in einen inneren, geschützten Raum zurückzuziehen, wenn die äußere Welt
+        nicht mehr zu bewältigen ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Von der äußeren Gefangenschaft zur inneren:</strong>
+        Der Ausdruck ihrer Familie, Kampusch befinde sich erneut „in einer Art Gefangenschaft",
+        schließt den Kreis auf erschütternde Weise: Die äußere Gefangenschaft endete 2006, doch
+        das seelische Muster, unter extremem Druck den Rückzug in einen abgeschotteten
+        Innenraum zu suchen, kehrte zwei Jahrzehnte später in veränderter Form zurück.</p>
+        <p style="background:rgba(74,127,145,0.12);border-radius:8px;padding:0.9rem 1.1rem;margin:1rem 0;"><strong>Eine auffällige Parallele im selben Subtyp – Greta Thunberg:</strong>
+        Bemerkenswert ist, dass mit <a href="javascript:void(0)" data-route="krankheitsportraets-greta-thunberg">Greta Thunberg (ebenfalls SE2w1)</a>
+        eine weitere Persönlichkeit in diesem Kompass vertreten ist, deren psychische
+        Krisengeschichte ein verwandtes Muster zeigt: eine selbsterhaltende Zwei mit
+        Einserflügel, die unter extremem inneren Druck – bei Thunberg im Kindesalter durch eine
+        schwere depressive Episode mit selektivem Mutismus, bei Kampusch durch die Spätfolgen
+        jahrelanger Gefangenschaft – den Rückzug in eine eigene, von außen kaum zugängliche
+        Welt sucht. Bei beiden wird dieser Rückzug erst durch nahestehende Menschen (bei
+        Thunberg die Eltern, bei Kampusch ihre Schwester) öffentlich sichtbar gemacht.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet ein Rückzug in eine eigene Welt, bei einer Frau, die jahrelang für Offenheit über ihr Trauma stand?</strong>
+        Für eine selbsterhaltende Zwei mit Einserflügel, deren öffentliche Rolle jahrelang auf
+        Kontrolle über die eigene Erzählung und Struktur beruhte, liegt eine Deutung nahe:
+        Ausgerechnet dort, wo diese Kontrolle und Struktur nicht mehr aufrechtzuerhalten sind,
+        bricht dieselbe innere Zuflucht durch, die einst unter Zwang – im Kellerverlies –
+        entstanden war. Diese Deutung ist eine plausible Interpretation, kein belegter
+        medizinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu einem
+        späten psychischen Zusammenbruch nach einem Trauma führt – <strong>jeder Mensch kann
+        nach einem Extremtrauma jede Form psychischer Erkrankung entwickeln, unabhängig vom
+        Subtyp.</strong> Was sich an Kampuschs Fall zeigen lässt, ist ein Muster im Umgang mit
+        unverarbeitetem Trauma, das bei einer ausgeprägten selbsterhaltenden Zwei mit
+        Einserflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Nichts deutet darauf hin, dass Kampusch ihr eigenes Enneagramm-Muster je bewusst kannte.
+        Über Jahre hielt sie an der Rolle der kontrollierten, funktionierenden Überlebenden
+        fest – eine Rolle, die ihrem SE2w1-Muster zutiefst entsprach, aber auch verhinderte,
+        dass die eigentliche innere Erschöpfung rechtzeitig erkannt und behandelt wurde. Wer
+        das eigene Bedürfnis, unter allen Umständen zu funktionieren, nicht als eigenes Muster
+        erkennt, riskiert, dass der Zusammenbruch, den man vermeiden wollte, sich am Ende umso
+        gewaltiger Bahn bricht.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am langfristigen Verlauf ihrer psychischen Gesundheit lässt sich <strong>Kampuschs</strong>
+        selbsterhaltende Zwei mit Einserflügel noch einmal ablesen: Jahrelanges, diszipliniertes
+        Funktionieren nach außen, während im Inneren ein Trauma weiterwirkte, das erst zwei
+        Jahrzehnte später in voller Wucht sichtbar wurde. Das Flusspferd, das so lange wie
+        möglich unter der Wasseroberfläche blieb – bis selbst diese letzte Form von Kontrolle
+        nicht mehr ausreichte, um das zu tragen, was darunter lag.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-natascha-kampusch", label:"Porträt: Natascha Kampusch (SE2w1) – Überlebensweg"},
+        {route:"krankheitsportraets-greta-thunberg", label:"Krankheitsporträt: Greta Thunberg (SE2w1)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
 function alexanderDerGrosseKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -88235,6 +88427,7 @@ function gretaThunbergKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
+        {route:"krankheitsportraets-natascha-kampusch", label:"Krankheitsporträt: Natascha Kampusch (SE2w1)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
@@ -131093,6 +131286,7 @@ function render() {
       "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
       "krankheitsportraets-michael-schumacher": michaelSchumacherKrankheitsportraetPage,
       "krankheitsportraets-klaus-kinski": klausKinskiKrankheitsportraetPage,
+      "krankheitsportraets-natascha-kampusch": nataschaKampuschKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,

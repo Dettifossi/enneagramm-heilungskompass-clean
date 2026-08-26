@@ -295,6 +295,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Self-Preservation Type 2", krankheit:"Hallucinations and depersonalization since childhood, voluntarily in a psychiatric hospital since 1977", teaser:"SP2w3 – Japanese artist, born 1929. Hallucinations since early childhood, several suicide attempts in the 1970s, voluntarily admitted to Tokyo's Seiwa Hospital for the mentally ill since 1977. Still works daily in her studio today. Connected to Frida Kahlo (also SP2w3, also art born from lifelong suffering)." , land:"Japan", gender:"f", jahre:"born 1929"},
   { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexual Type 6", krankheit:"Severe traumatic brain injury after 2013 skiing accident, since then a total media blackout", teaser:"SX6w7 – Formula 1 racing driver, seven-time world champion, born 1969. Skiing accident on December 29, 2013, in Méribel with a severe traumatic brain injury, several emergency surgeries, months in a medically induced coma. Since his 2014 discharge, the family has kept his health condition entirely private." , land:"Germany", gender:"m", jahre:"born 1969"},
   { route:"krankheitsportraets-klaus-kinski", name:"Klaus Kinski", subtyp:"SX1w9", heading:"Klaus Kinski – Sexual Type 1", krankheit:"Involuntary psychiatric commitment in 1950 with a preliminary schizophrenia diagnosis, lifelong rage outbursts", teaser:"SX1w9 – actor, 1926–1991. Involuntary commitment on September 5, 1950, following a suicide attempt and a violent outburst, preliminary diagnosis of schizophrenia, later revised to psychopathy. Legendary outbursts on set across decades, 2013 posthumous abuse allegations from his daughter Pola." , land:"Germany", gender:"m", jahre:"1926–1991"},
+  { route:"krankheitsportraets-natascha-kampusch", name:"Natascha Kampusch", subtyp:"SE2w1", heading:"Natascha Kampusch – Self-Preservation Type 2", krankheit:"Post-traumatic stress disorder, severe psychological breakdown twenty years after liberation", teaser:"SP2w1 – author and activist, born 1988. Post-traumatic stress disorder following eight years of captivity (1998–2006), severe psychological breakdown made public by her family in 2026. Connected to Greta Thunberg (also SP2w1, also retreat into a world of her own under extreme pressure)." , land:"Austria", gender:"f", jahre:"born 1988"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -59654,8 +59655,190 @@ function gretaThunbergKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
+        {route:"krankheitsportraets-natascha-kampusch", label:"Illness Portrait: Natascha Kampusch (SP2w1)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SE2"},
+      ])}
+    </div>
+  `);
+}
+
+function nataschaKampuschKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-natascha-kampusch-portrait.jpg" alt="Natascha Kampusch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natascha Kampusch</p>
+        <p class="krim-portrait-typ">SP2w1 · Self-Preservation Type 2 with One-wing · born 1988</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Natascha Kampusch</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-natascha-kampusch">portrait under Famous Personalities</a>
+        in this Compass – that page covers her path of survival during eight years of
+        captivity and her type structure in general. This page delves into a chapter not yet
+        covered there: post-traumatic stress disorder as a long-term consequence, and a
+        severe psychological breakdown her family only spoke about publicly twenty years
+        after her liberation.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Kampusch</strong> is classified as the <strong>Self-Preservation Type 2 with
+        One-wing</strong>. Under threat, SP2 secures its survival by adapting to the emotional
+        state of the more powerful person; the One-wing adds discipline and self-imposed
+        structure as inner support. Exactly this pattern – functioning outwardly while an
+        enormous inner pressure keeps operating beneath the surface – also shapes the course
+        of her mental health long after the captivity itself ended.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Eight years of extreme isolation during childhood and adolescence:</strong>
+        Kampusch was abducted in 1998 at age ten and held captive until 2006 in a roughly
+        five-square-meter, nearly airtight cellar dungeon – an extreme situation occurring
+        precisely during the years that are decisive for a child's psychological
+        development.</p>
+        <p class="vb-intro"><strong>b) The perpetrator's suicide immediately after her escape:</strong>
+        On the day of her escape, August 23, 2006, her kidnapper Wolfgang Priklopil took his
+        own life – overnight, Kampusch lost the only attachment figure whose emotional state
+        her own survival had been tied to for eight years.</p>
+        <p class="vb-intro"><strong>c) Immediate, intense media attention with no transition period:</strong>
+        Right after her liberation, Kampusch faced intense international media interest –
+        without the time and protected setting that processing such a trauma would actually
+        have required.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Post-traumatic stress disorder as a documented diagnosis:</strong>
+        Among the known psychological consequences of her captivity are post-traumatic stress
+        disorder, social isolation, and recurring anxiety and depression.</p>
+        <p class="vb-intro"><strong>b) Psychotherapy as an ongoing part of her life:</strong>
+        After her liberation, Kampusch received psychotherapeutic support – an ongoing process
+        that received little public attention, while her outward functioning as an author and
+        public voice took center stage.</p>
+        <p class="vb-intro"><strong>c) Public functioning alongside persistent inner strain:</strong>
+        For many years, Kampusch managed to appear publicly as an author, host, and activist,
+        while the psychological aftereffects of her captivity continued to operate in the
+        background – a gap between outward functioning and inner strain that only became
+        visible decades later.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) A severe psychological breakdown, made public by her family:</strong>
+        Roughly two decades after her liberation, Kampusch's family made public that she had
+        suffered a severe breakdown – a rare step that, for the first time, revealed the full
+        extent of a psychological health history that had until then remained largely
+        private.</p>
+        <p class="vb-intro"><strong>b) "Mostly in a world of her own" – her sister's description:</strong>
+        Kampusch's sister, Claudia Nestelberger, described her condition by saying Natascha was
+        "mostly in a world of her own" and had withdrawn completely – a description the family
+        itself framed as a kind of renewed captivity.</p>
+        <p class="vb-intro"><strong>c) A documentary as a deliberate step toward openness:</strong>
+        The family chose to speak openly about the causes of the breakdown as part of an ORF
+        documentary by journalist Christoph Feurstein ("Natascha Kampusch – Trapped in
+        Freedom") – hoping to create understanding for her situation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A trauma that did not end with liberation:</strong>
+        Kampusch's case illustrates that the actual psychological processing of an extreme
+        trauma often begins only long after the external threat has ended – and can continue
+        for decades, far beyond the moment of physical rescue.</p>
+        <p class="vb-intro"><strong>b) The family as a late but important voice:</strong>
+        Unlike the early years after her liberation, when Kampusch herself controlled how her
+        story was told, it was now her family that took over public communication – a sign of
+        just how much her condition had changed.</p>
+        <p class="vb-intro"><strong>c) An image that contradicts the public narrative of the "strong survivor":</strong>
+        For years, Kampusch was seen above all as a symbol of resilience and
+        self-determination; the breakdown that became public in 2026 expands that image to
+        include a reality shared by many survivors of extreme trauma: strength and ongoing
+        suffering are not mutually exclusive.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Expression</h3>
+        <p class="vb-intro"><strong>a) The hippopotamus that functioned beneath the surface for so long:</strong>
+        Like the hippopotamus, which spends most of its life invisible underwater, Kampusch
+        maintained an outwardly functioning, publicly visible existence for years – while the
+        true extent of her inner strain remained hidden.</p>
+        <p class="vb-intro"><strong>b) The One-wing and the long struggle for structure:</strong>
+        The same self-discipline that helped her preserve her mind and identity during
+        captivity also enabled her, for years after her liberation, to maintain a functioning
+        public life – until that same self-imposed structure finally collapsed under the
+        weight of unprocessed trauma.</p>
+        <p class="vb-intro"><strong>c) Withdrawal as a last remaining protective strategy:</strong>
+        The retreat "into a world of her own," as described by her sister, reads as the return
+        of the same survival mechanism that once carried her through captivity: retreating
+        into an inner, protected space when the outer world becomes unmanageable.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) From outer captivity to inner captivity:</strong>
+        Her family's phrase, that Kampusch was again in "a kind of captivity," closes the
+        circle in a shattering way: the outer captivity ended in 2006, but the psychological
+        pattern of retreating into a sealed-off inner space under extreme pressure returned,
+        in altered form, two decades later.</p>
+        <p style="background:rgba(74,127,145,0.12);border-radius:8px;padding:0.9rem 1.1rem;margin:1rem 0;"><strong>A striking parallel within the same subtype – Greta Thunberg:</strong>
+        Notably, this Compass also features <a href="javascript:void(0)" data-route="krankheitsportraets-greta-thunberg">Greta Thunberg (also SP2w1)</a>,
+        whose psychological crisis history shows a related pattern: a Self-Preservation Two
+        with a One-wing who, under extreme inner pressure – for Thunberg, in childhood,
+        through a severe depressive episode with selective mutism; for Kampusch, through the
+        long-term effects of years of captivity – seeks retreat into a world of her own,
+        barely accessible from the outside. In both cases, this withdrawal was only made
+        publicly visible by people close to them (Thunberg's parents; Kampusch's sister).</p>
+        <p class="vb-intro"><strong>b) Why precisely a retreat into a world of her own, for a woman who stood for years for openness about her trauma?</strong>
+        For a Self-Preservation Two with a One-wing, whose public role for years rested on
+        control over her own narrative and structure, one interpretation suggests itself:
+        precisely where that control and structure can no longer be maintained, the same
+        inner refuge breaks through that had once formed under duress – in the cellar
+        dungeon. This interpretation is a plausible reading, not a proven medical causal link,
+        and is explored further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Context without determinism:</strong>
+        This does not mean the pattern of the Self-Preservation Two inevitably leads to a late
+        psychological breakdown after trauma – <strong>anyone can develop any form of
+        psychiatric illness after extreme trauma, regardless of subtype.</strong> What
+        Kampusch's case illustrates is a pattern in how unprocessed trauma is handled, one
+        that recurs again and again in a pronounced Self-Preservation Two with a One-wing –
+        one interpretation among many, not a judgment. This illness pattern is being
+        developed step by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Nothing suggests that Kampusch ever consciously knew her own Enneagram pattern. For
+        years, she held on to the role of the controlled, functioning survivor – a role that
+        deeply matched her SP2w1 pattern, but that also prevented her true inner exhaustion
+        from being recognized and treated in time. Whoever does not recognize their own need
+        to function under all circumstances as a pattern of its own risks that the breakdown
+        they sought to avoid ultimately breaks through with all the more force.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Kampusch's</strong> Self-Preservation Two with a One-wing, too, can be read
+        once more through the long-term course of her mental health: years of disciplined,
+        outward functioning while a trauma kept operating within, only fully visible two
+        decades later. The hippopotamus that stayed beneath the surface for as long as it
+        possibly could – until even that last form of control was no longer enough to carry
+        what lay beneath it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-natascha-kampusch", label:"Portrait: Natascha Kampusch (SP2w1) – path of survival"},
+        {route:"krankheitsportraets-greta-thunberg", label:"Illness Portrait: Greta Thunberg (SP2w1)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
     </div>
   `);
@@ -94931,6 +95114,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
       "krankheitsportraets-michael-schumacher": michaelSchumacherKrankheitsportraetPage,
       "krankheitsportraets-klaus-kinski": klausKinskiKrankheitsportraetPage,
+      "krankheitsportraets-natascha-kampusch": nataschaKampuschKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
