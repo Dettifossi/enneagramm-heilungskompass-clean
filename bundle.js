@@ -74095,7 +74095,7 @@ function fjodorDostojewskiKrankheitsportraetPage() {
         <strong>Fjodor Dostojewski</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-fjodor-dostojewski">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort kurz erwähnt wird:
         Dostojewski litt sein gesamtes erwachsenes Leben lang an Epilepsie – einer Krankheit,
         die er nicht verschwieg, sondern direkt in mehrere seiner bedeutendsten literarischen
         Figuren einschrieb, allen voran Fürst Myschkin in <em>Der Idiot</em>.
@@ -74844,7 +74844,7 @@ function wolfgangAmadeusMozartKrankheitsportraetPage() {
         <strong>Wolfgang Amadeus Mozart</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-wolfgang-amadeus-mozart">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort am Rande erwähnt wird:
         eine seit der Kindheit immer wiederkehrende Kette fieberhafter Erkrankungen, die im
         Dezember 1791 mit seinem plötzlichen Tod im Alter von nur 35 Jahren endete.
       </p>
@@ -75022,7 +75022,7 @@ function nusratFatehAliKhanKrankheitsportraetPage() {
         <strong>Nusrat Fateh Ali Khan</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-nusrat-fateh-ali-khan">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift wird:
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort beiläufig erwähnt wird:
         eine über Jahre fortschreitende, lange verschwiegene Diabetes-Erkrankung, die im
         August 1997 mit seinem plötzlichen Tod im Alter von nur 48 Jahren endete.
       </p>
@@ -75574,7 +75574,7 @@ function ludwigVanBeethovenKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-ludwig-van-beethoven">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um seine Typstruktur und seinen jahrzehntelangen
         Kampf gegen die fortschreitende Taubheit. Hier steht ein Kapitel im Mittelpunkt, das dort
-        nur gestreift wird: eine zweite, parallel verlaufende Erkrankung des übrigen Körpers –
+        knapp angerissen wird: eine zweite, parallel verlaufende Erkrankung des übrigen Körpers –
         chronische Bauchleiden, eine mögliche Bleivergiftung und eine Leberzirrhose, die ihn
         schließlich mit 56 Jahren das Leben kostete.
       </p>
@@ -75948,7 +75948,7 @@ function fredericChopinKrankheitsportraetPage() {
         <strong>Frédéric Chopin</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk und seine
-        Typstruktur. Diese Seite vertieft ein Thema, das dort nur gestreift wird: eine
+        Typstruktur. Diese Seite vertieft ein Thema, das dort kurz angeschnitten wird: eine
         Tuberkulose-Erkrankung, die ihn vermutlich schon als jungen Mann begleitete, sich nach
         dem Zerbrechen seiner Beziehung zu George Sand 1847 dramatisch beschleunigte und ihn mit
         neununddreißig Jahren das Leben kostete.
@@ -78461,7 +78461,7 @@ function franzLisztKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-franz-liszt">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Klaviervirtuose und
         Komponist und seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das
-        dort nur gestreift wird: Herzschwäche, Wassersucht und fortschreitende Erblindung in
+        dort kurz thematisiert wird: Herzschwäche, Wassersucht und fortschreitende Erblindung in
         seinen letzten Lebensjahren, die ihn nicht zum Innehalten brachten, sondern bis nach
         Bayreuth trieben, wo er 1886 an einer Lungenentzündung starb.
       </p>
@@ -80100,7 +80100,7 @@ function alexanderDerGrosseKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-alexander-der-grosse">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Feldherr und
         Reichsgründer und seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das
-        dort nur gestreift wird: einen plötzlichen, bis heute nicht sicher geklärten
+        dort knapp skizziert wird: einen plötzlichen, bis heute nicht sicher geklärten
         Krankheitsverlauf, der ihn im Juni 323 v. Chr. in Babylon innerhalb weniger Tage tötete –
         nach einem Jahrzehnt, in dem sein Körper nie wirklich zur Ruhe gekommen war.
       </p>
@@ -80287,7 +80287,7 @@ function marcelProustKrankheitsportraetPage() {
         <strong>Marcel Proust</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: ein
+        Allgemeinen. Diese Seite vertieft ein Kapitel, das dort angedeutet wird: ein
         lebenslanges, schweres Asthma, das ihn zunehmend in sein legendäres, korkverkleidetes
         Zimmer zwang und ihn schließlich mit nur 51 Jahren tötete – während er buchstäblich bis
         zum letzten Atemzug an seinem Lebenswerk arbeitete.
@@ -83243,7 +83243,7 @@ function julesVerneKrankheitsportraetPage() {
         <strong>Jules Verne</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Porträt berühmter Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein rastloses literarisches
-        Weltenbauen. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: Am
+        Weltenbauen. Diese Seite vertieft ein Kapitel, das dort flüchtig behandelt wird: Am
         9. März 1886 schoss sein geistig verwirrter Neffe Gaston zweimal auf ihn, eine
         Kugel blieb dauerhaft im Bein stecken – Verne hinkte fortan bis an sein Lebensende
         und litt später zusätzlich an Diabetes.</p>
@@ -83798,7 +83798,7 @@ function woodyAllenKrankheitsportraetPage() {
         <strong>Woody Allen</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-woody-allen">Porträt berühmter Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein umfangreiches filmisches
-        Lebenswerk. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: eine
+        Lebenswerk. Diese Seite vertieft ein Kapitel, das dort oberflächlich behandelt wird: eine
         jahrzehntelange, öffentlich zelebrierte Hypochondrie, die er selbst lieber als
         „Alarmismus" bezeichnet – und die sein Leben und Werk seit den 1950er-Jahren
         ununterbrochen begleitet.
@@ -83983,7 +83983,7 @@ function fritzPerlsKrankheitsportraetPage() {
         <strong>Fritz Perls</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-fritz-perls">Porträt berühmter Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um seine Rolle als Mitbegründer der
-        Gestalttherapie. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: ein
+        Gestalttherapie. Diese Seite vertieft ein Kapitel, das dort kurz berührt wird: ein
         über Jahre bestehendes Herzleiden, jahrzehntelanges Kettenrauchen und schließlich
         eine Bauchspeicheldrüsenkrebs-Operation, an deren Folgen er 1970 starb.
       </p>
@@ -84809,7 +84809,7 @@ function christiaanBarnardKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-christiaan-barnard">Porträt
         berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um die
         erste erfolgreiche Herztransplantation der Geschichte 1967. Diese Seite vertieft
-        ein Kapitel, das dort nur gestreift wird: eine seit 1956 bestehende rheumatoide
+        ein Kapitel, das dort knapp erwähnt wird: eine seit 1956 bestehende rheumatoide
         Arthritis, die 1983 ausgerechnet seine chirurgischen Hände zwang, die Karriere zu
         beenden.
       </p>
@@ -84974,7 +84974,7 @@ function anthonyHopkinsKrankheitsportraetPage() {
         <strong>Anthony Hopkins</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-anthony-hopkins">Porträt
         berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur gestreift wird: eine schwere Alkoholerkrankung, die
+        ein Kapitel, das dort kurz umrissen wird: eine schwere Alkoholerkrankung, die
         Hopkins 1975 an einen Wendepunkt brachte – seither lebt er, nach eigener Aussage,
         ununterbrochen nüchtern.
       </p>
@@ -85136,7 +85136,7 @@ function byronKatieKrankheitsportraetPage() {
         <strong>Byron Katie</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-byron-katie">Porträt berühmter
         Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um ihre Methode
-        "The Work". Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: eine
+        "The Work". Diese Seite vertieft ein Kapitel, das dort knapp angedeutet wird: eine
         Jahrzehnte andauernde, schwere Depression mit Agoraphobie in den 1960er- bis
         1980er-Jahren, aus der heraus sie 1986 den entscheidenden Wendepunkt ihres Lebens
         beschreibt.
@@ -85290,7 +85290,7 @@ function drewBarrymoreKrankheitsportraetPage() {
         <strong>Drew Barrymore</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-drew-barrymore">Porträt
         berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur gestreift wird: eine bereits im Kindesalter beginnende
+        ein Kapitel, das dort beiläufig behandelt wird: eine bereits im Kindesalter beginnende
         Suchterkrankung, die 1988 zu einer Einweisung in eine Entzugsklinik führte – im
         Alter von erst 13 Jahren.
       </p>
@@ -85445,7 +85445,7 @@ function neilArmstrongKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-neil-armstrong">Porträt
         berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um seine
         Landung auf dem Mond 1969 und seinen anschließenden Rückzug ins Private. Diese
-        Seite vertieft ein Kapitel, das dort nur gestreift wird: eine über zwei
+        Seite vertieft ein Kapitel, das dort kurz gestreift wird: eine über zwei
         Jahrzehnte bestehende koronare Herzkrankheit, die 2012 zu einer Bypass-Operation
         und kurz darauf zu seinem Tod führte.
       </p>
@@ -85623,7 +85623,7 @@ function robbieWilliamsKrankheitsportraetPage() {
         <strong>Robbie Williams</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-robbie-williams">Porträt
         berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur gestreift wird: eine seit den frühen 1990er-Jahren
+        ein Kapitel, das dort am Rande gestreift wird: eine seit den frühen 1990er-Jahren
         bestehende schwere Depression, verbunden mit einer Sucht nach Alkohol, Kokain und
         Ecstasy, die er 2023 in einer vierteiligen Netflix-Dokumentation ausführlich
         aufarbeitete.
@@ -85718,7 +85718,17 @@ function robbieWilliamsKrankheitsportraetPage() {
         Anerkennung und Beruhigung zu finden – ausgerechnet dieser Ort, an dem er am
         sichtbarsten war, wurde zum Schauplatz seiner tiefsten Erschöpfung und
         Selbstzweifel.</p>
-        <p class="vb-intro"><strong>b) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet die Stimme betäuben?</strong>
+        Für einen sexuellen Einser mit Zweierflügel, dessen gesamte öffentliche
+        Existenz auf der eigenen Stimme und dem unmittelbaren Kontakt zum Publikum
+        beruht, liegt eine Deutung nahe: Ausgerechnet jenes Werkzeug, mit dem er
+        Nähe zum Publikum herstellte und zugleich seinen eigenen, unerbittlichen
+        Maßstab performte, wurde durch Alkohol und Drogen betäubt – ein Versuch, den
+        inneren Kritiker zum Schweigen zu bringen, der am lautesten gerade dann sprach,
+        wenn die Bühne am hellsten leuchtete. Diese Deutung ist eine plausible
+        Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu Depression
         oder Sucht führt – <strong>jeder Mensch kann jede psychische Erkrankung
         entwickeln, unabhängig vom Subtyp.</strong> Was sich an Williams' Fall zeigen
@@ -85728,7 +85738,7 @@ function robbieWilliamsKrankheitsportraetPage() {
         Krankheitsbild wird in diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>c) Die unbewusste Fixierung als eigener Faktor:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Williams kennt sein eigenes Muster nicht als Enneagramm-Struktur – die sexuelle
         Eins mit Zweierflügel legt reflexhaft einen unerbittlichen Maßstab an die eigene
         Wirkung auf andere an, statt diesen Maßstab je infrage zu stellen, und lebt genau
@@ -85879,7 +85889,16 @@ function fransDeWaalKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-bernstein">Leonard Bernstein</a>
         und
         <a href="javascript:void(0)" data-route="krankheitsportraets-morgan-freeman">Morgan Freeman</a>.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Magen?</strong>
+        Für einen sexuellen Siebener mit Sechserflügel, dessen gesamtes Wirken auf der
+        unermüdlichen Aufnahme und Verarbeitung neuer Erfahrungen und Erkenntnisse
+        beruhte, liegt eine Deutung nahe: Ausgerechnet jenes Organ, das im übertragenen
+        Sinn für Aufnahme und Verdauung von allem Neuen steht, wurde zum Ort einer
+        Erkrankung, die den lebenslang unstillbaren Appetit des Forschers auf verstörende
+        Weise spiegelte. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu
         Krebserkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
         unabhängig vom Subtyp.</strong> Was sich an de Waals Fall zeigen lässt, ist ein
@@ -85889,7 +85908,7 @@ function fransDeWaalKrankheitsportraetPage() {
         diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         De Waal kannte sein eigenes Muster nicht – die sexuelle Sieben mit Sechserflügel
         sucht reflexhaft die volle, ungefilterte Erfahrung und Weiterarbeit, statt eine
         schwere Diagnose je zum Anlass für einen frühen Rückzug zu nehmen, und lebte

@@ -46404,7 +46404,7 @@ function fredericChopinKrankheitsportraetPage() {
         <strong>Frédéric Chopin</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">portrait under Famous Personalities</a>
         in this Compass – that page covers his compositional life's work and type structure.
-        This page delves into a topic only touched on there: a tuberculosis that likely
+        This page delves into a topic only briefly mentioned there: a tuberculosis that likely
         accompanied him since young adulthood, accelerated dramatically after his relationship
         with George Sand ended in 1847, and cost him his life at thirty-nine.
       </p>
@@ -46582,7 +46582,7 @@ function fjodorDostojewskiKrankheitsportraetPage() {
         <strong>Fjodor Dostoevsky</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-fjodor-dostojewski">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and type structure in general.
-        This page deals exclusively with a chapter only touched on there: Dostoevsky suffered
+        This page deals exclusively with a chapter only touched on in passing there: Dostoevsky suffered
         from epilepsy for the whole of his adult life – an illness he did not conceal but wrote
         directly into several of his most significant literary characters, above all Prince
         Myshkin in <em>The Idiot</em>.
@@ -50397,7 +50397,7 @@ function robertSchumannKrankheitsportraetPage() {
         <strong>Robert Schumann</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-robert-schumann">portrait under Famous Personalities</a>
         in this Compass – that page covers his compositional life's work and type structure in
-        general. This portrait is devoted to a chapter only touched on there: a mental illness
+        general. This portrait is devoted to a chapter only briefly noted there: a mental illness
         that ran through his entire adult life and led him, in 1854, into the Rhine and into an
         asylum where he died in 1856.
       </p>
@@ -50756,7 +50756,7 @@ function francisBaconKrankheitsportraetPage() {
         <strong>Francis Bacon</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-francis-bacon">portrait under Famous Personalities</a>
         in this Compass – that page covers his philosophical life's work, his political rise
-        and fall. This portrait is devoted to a chapter only touched on there: decades of
+        and fall. This portrait is devoted to a chapter only sketched there: decades of
         chronic gout, kidney stones, and digestive complaints – and a death that reads like the
         final, fatal consequence of his own scientific curiosity.
       </p>
@@ -50923,7 +50923,7 @@ function karlMarxKrankheitsportraetPage() {
         <strong>Karl Marx</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-karl-marx">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and his decades-long struggle against
-        capitalism. This portrait is devoted to a chapter only touched on there: a chronic,
+        capitalism. This portrait is devoted to a chapter only lightly touched on there: a chronic,
         extremely painful skin condition that literally kept him from sitting while he was
         writing "Capital."
       </p>
@@ -51251,7 +51251,7 @@ function davidHumeKrankheitsportraetPage() {
         <strong>David Hume</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-david-hume">portrait under Famous Personalities</a>
         in this Compass – that page covers his philosophical life's work and his equanimity in
-        doubt. This portrait is devoted to a chapter only touched on there: a chronic bowel
+        doubt. This portrait is devoted to a chapter only referenced in passing there: a chronic bowel
         disease that increasingly weakened him in his final years – which he processed with the
         same remarkable calm with which he had philosophized his entire life.
       </p>
@@ -51417,7 +51417,7 @@ function johannesBrahmsKrankheitsportraetPage() {
         <strong>Johannes Brahms</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-johannes-brahms">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and his decades-long loyalty to the
-        Schumann family. This page delves into a chapter only touched on there: a liver disease
+        Schumann family. This page delves into a chapter only briefly addressed there: a liver disease
         that had already killed his father, and that carried Brahms off himself just eleven
         months after the death of his closest friend, Clara Schumann.
       </p>
@@ -51598,7 +51598,7 @@ function elizabethBarrettBrowningKrankheitsportraetPage() {
         <strong>Elizabeth Barrett Browning</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-elizabeth-barrett-browning">portrait under Famous Personalities</a>
         in this Compass – that page covers her poetic life's work and the flight to Italy. This
-        portrait is devoted to a chapter only touched on there: a decades-long, never definitively
+        portrait is devoted to a chapter only alluded to there: a decades-long, never definitively
         diagnosed chronic illness, coupled with a lifelong opium dependency – and what it means
         for a Sexual Nine to fight, quite literally, against her own unconsciousness.
       </p>
@@ -52125,7 +52125,7 @@ function alexanderDerGrosseKrankheitsportraetPage() {
         <strong>Alexander the Great</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-alexander-der-grosse">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work as general and empire-builder and his
-        type structure in general. This page delves into a chapter only touched on there: a
+        type structure in general. This page delves into a chapter only mentioned in passing there: a
         sudden, still-unresolved illness that killed him within days in Babylon in June 323
         BC – after a decade in which his body never truly found rest.
       </p>
@@ -52303,7 +52303,7 @@ function marcelProustKrankheitsportraetPage() {
         <strong>Marcel Proust</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and his type structure in general.
-        This page delves into a chapter only touched on there: a lifelong, severe asthma that
+        This page delves into a chapter only skimmed over there: a lifelong, severe asthma that
         increasingly forced him into his legendary, cork-lined room and eventually killed him
         at only 51 – while he worked on his life's work quite literally until his last breath.
       </p>
@@ -52834,7 +52834,7 @@ function fridaKahloKrankheitsportraetPage() {
         <strong>Frida Kahlo</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-frida-kahlo">portrait under Famous Personalities</a>
         in this Compass – that page covers her artistic life's work and her type structure in
-        general. This page delves into a chapter only touched on there: roughly 30 surgeries
+        general. This page delves into a chapter only glossed over there: roughly 30 surgeries
         over nearly three decades, a leg amputation shortly before her death, and a life that
         quite literally refused to be defeated by her own body.
       </p>
@@ -54921,7 +54921,7 @@ function julesVerneKrankheitsportraetPage() {
         <strong>Jules Verne</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Famous Personality Portrait</a>
         in this Compass – that portrait focuses on his restless literary world-building.
-        This page explores a chapter only touched on there: on March 9, 1886, his mentally
+        This page explores a chapter only briefly covered there: on March 9, 1886, his mentally
         disturbed nephew Gaston shot him twice, and one bullet remained permanently lodged
         in his leg – Verne walked with a limp for the rest of his life and later also
         developed diabetes.</p>
@@ -55095,7 +55095,7 @@ function helmutKohlKrankheitsportraetPage() {
         <strong>Helmut Kohl</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-helmut-kohl">Famous Personality Portrait</a>
         in this Compass – that portrait focuses on his 16 years as Chancellor and German
-        reunification. This page explores a chapter only touched on there: a severe fall in
+        reunification. This page explores a chapter only fleetingly noted there: a severe fall in
         February 2008 abruptly ended Kohl's public life and left him largely dependent on
         care for the last nine years until his death in 2017.
       </p>
@@ -55274,7 +55274,7 @@ function aiWeiweiKrankheitsportraetPage() {
         <strong>Ai Weiwei</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-ai-weiwei">Famous Personality Portrait</a>
         in this Compass – that portrait focuses on his artistic and activist life's work.
-        This page explores a chapter only touched on there: in August 2009, Ai Weiwei was
+        This page explores a chapter only outlined in passing there: in August 2009, Ai Weiwei was
         beaten by Chinese police in Chengdu badly enough to require hospitalization,
         suffered a cerebral hemorrhage as a result, and had to undergo emergency surgery in
         Munich a few weeks later – he has suffered from chronic headaches ever since.
@@ -55451,7 +55451,7 @@ function woodyAllenKrankheitsportraetPage() {
         <strong>Woody Allen</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-woody-allen">Famous Personality Portrait</a>
         in this Compass – that portrait focuses on his extensive body of filmmaking work.
-        This page explores a chapter only touched on there: a decades-long, publicly
+        This page explores a chapter only hinted at there: a decades-long, publicly
         celebrated hypochondria, which he himself prefers to call "alarmism" – a pattern
         that has accompanied his life and work continuously since the 1950s.
       </p>
@@ -55629,7 +55629,7 @@ function fritzPerlsKrankheitsportraetPage() {
         <strong>Fritz Perls</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-fritz-perls">Famous Personality Portrait</a>
         in this Compass – that portrait focuses on his role as co-founder of Gestalt
-        therapy. This page explores a chapter only touched on there: a years-long heart
+        therapy. This page explores a chapter only lightly sketched there: a years-long heart
         condition, decades of chain-smoking, and finally a pancreatic cancer operation, the
         complications of which he died from in 1970.
       </p>
@@ -55801,7 +55801,7 @@ function julianAssangeKrankheitsportraetPage() {
         <strong>Julian Assange</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-julian-assange">Famous Personality Portrait</a>
         in this Compass – that portrait focuses on his founding of WikiLeaks and the fight
-        for radical transparency. This page explores a chapter only touched on there: over
+        for radical transparency. This page explores a chapter only cursorily mentioned there: over
         seven years of near-total isolation in the Ecuadorian embassy in London, followed
         by a further five years in British high-security detention – with extensively
         documented physical and psychological consequences.
@@ -56116,7 +56116,7 @@ function junkoTabeiKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-junko-tabei">Famous Personality
         Portrait</a> in this Compass – that portrait focuses on her 1975 ascent of Mount
         Everest as the first woman ever to reach its summit. This page explores a chapter
-        only touched on there: a peritoneal cancer diagnosis in 2012, with which she
+        only referenced there in passing: a peritoneal cancer diagnosis in 2012, with which she
         continued climbing mountains until her death in 2016.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
@@ -56421,7 +56421,7 @@ function christiaanBarnardKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-christiaan-barnard">Famous
         Personality Portrait</a> in this Compass – that portrait focuses on the first
         successful heart transplant in history in 1967. This page explores a chapter
-        only touched on there: a rheumatoid arthritis dating back to 1956 that in 1983
+        only briefly flagged there: a rheumatoid arthritis dating back to 1956 that in 1983
         forced precisely his surgical hands to end his career.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
@@ -56731,7 +56731,7 @@ function byronKatieKrankheitsportraetPage() {
         <strong>Byron Katie</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-byron-katie">Famous
         Personality Portrait</a> in this Compass – that portrait focuses on her method
-        "The Work." This page explores a chapter only touched on there: decades of severe
+        "The Work." This page explores a chapter only noted in passing there: decades of severe
         depression with agoraphobia in the 1960s through 1980s, out of which she
         describes a decisive turning point in her life in 1986.
       </p>
@@ -57024,7 +57024,7 @@ function neilArmstrongKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="beruehmte-neil-armstrong">Famous
         Personality Portrait</a> in this Compass \u2013 that portrait focuses on his 1969
         moon landing and his subsequent withdrawal into private life. This page explores
-        a chapter only touched on there: a coronary heart disease lasting over two
+        a chapter only briefly indicated there: a coronary heart disease lasting over two
         decades that in 2012 led to bypass surgery and, shortly after, his death.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
@@ -57283,7 +57283,16 @@ function robbieWilliamsKrankheitsportraetPage() {
         Williams's entire career was shaped by the attempt to find recognition and
         reassurance through the stage – precisely this place, where he was most visible,
         became the site of his deepest exhaustion and self-doubt.</p>
-        <p class="vb-intro"><strong>b) Placing it without determinism:</strong>
+        <p class="vb-intro"><strong>b) Why numb the voice, of all things?</strong>
+        For a Sexual One with a Two-wing, whose entire public existence rests on his
+        own voice and immediate contact with the audience, one interpretation suggests
+        itself: precisely the instrument through which he built closeness to the
+        audience, and simultaneously performed his own relentless standard, was numbed
+        by alcohol and drugs – an attempt to silence the inner critic that spoke loudest
+        exactly when the stage lights shone brightest. This interpretation is a
+        plausible reading, not a documented clinical causal link, and will be developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Placing it without determinism:</strong>
         This does not mean that the Sexual One's pattern inevitably leads to depression
         or addiction – <strong>anyone can develop any mental illness, regardless of
         subtype.</strong> What Williams's case illustrates is a pattern in how a
@@ -57291,7 +57300,7 @@ function robbieWilliamsKrankheitsportraetPage() {
         inner standard – one of many possible interpretations, not a verdict. The
         corresponding illness picture is gradually being developed in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>c) The unconscious fixation as its own factor:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Williams does not know his own pattern as an Enneagram structure – the Sexual
         One with a Two-wing reflexively applies an unrelenting standard to its own
         impact on others instead of ever questioning that standard, and continues to
@@ -57343,7 +57352,7 @@ function fransDeWaalKrankheitsportraetPage() {
         <strong>Frans de Waal</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-frans-de-waal">Famous
         Personality Portrait</a> in this Compass – that portrait focuses on his life's
-        work as a primatologist. This page explores a chapter only touched on there: a
+        work as a primatologist. This page explores a chapter only mentioned briefly there: a
         stomach cancer diagnosed in August 2023, from which he died in March 2024, having
         continued working until just a few months before.
       </p>
@@ -57440,7 +57449,15 @@ function fransDeWaalKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-bernstein">Leonard Bernstein</a>
         and
         <a href="javascript:void(0)" data-route="krankheitsportraets-morgan-freeman">Morgan Freeman</a>.</p>
-        <p class="vb-intro"><strong>c) Placing it without determinism:</strong>
+        <p class="vb-intro"><strong>c) Why the stomach, of all things?</strong>
+        For a Sexual Seven with a Six-wing whose entire work rested on the tireless
+        intake and processing of new experience and understanding, one interpretation
+        suggests itself: precisely the organ that figuratively stands for taking in and
+        digesting everything new became the site of an illness that mirrored, in an
+        unsettling way, the researcher's lifelong insatiable appetite. This
+        interpretation is a plausible reading, not a documented historical causal link,
+        and will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
         This does not mean that the Sexual Seven's pattern inevitably leads to cancer –
         <strong>anyone can suffer any illness, regardless of subtype.</strong> What de
         Waal's case illustrates is a pattern in how a pronounced Sexual Seven with a
@@ -57448,7 +57465,7 @@ function fransDeWaalKrankheitsportraetPage() {
         interpretations, not a verdict. The corresponding illness picture is gradually
         being developed in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         De Waal did not know his own pattern – the Sexual Seven with a Six-wing
         reflexively seeks full, unfiltered experience and continued work rather than
         ever taking a serious diagnosis as a reason for an early withdrawal, and he lived
