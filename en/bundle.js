@@ -256,6 +256,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Social Type 6", krankheit:"Chronic hypochondria, breathing distress, later cognitive decline", teaser:"SO6w5 – philosopher, 1724–1804. Lifelong, extremely well-documented hypochondria with chronic breathing distress, philosophical processing of his own illness in his late work, cognitive decline in his final years. Died on February 12, 1804, in Königsberg at age 79." , land:"Germany", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Social Type 5", krankheit:"Stroke with paralysis of the right hand", teaser:"SO5w4 – polymath and artist, 1452–1519. Stroke around 1517 with paralysis of the right hand, switch to the left hand, continued work on the Mona Lisa until the end. Died on May 2, 1519, in Amboise, France, at age 67." , land:"Italy/France", gender:"m", jahre:"1452–1519"},
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Social Type 7", krankheit:"Gunshot wound with lifelong lameness, later diabetes", teaser:"SO7w6 – French writer, 1828–1905. Shot by his mentally disturbed nephew in 1886, bullet permanently lodged in his leg, left with a limp, later also developed diabetes. Died on March 24, 1905, in Amiens at age 77." , land:"France", gender:"m", jahre:"1828–1905"},
+  { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Social Type 8", krankheit:"Severe fall with head injury, permanent wheelchair use and loss of speech", teaser:"SO8w9 – German Chancellor, 1930–2017. Severe fall in February 2008 with head injury, followed by nine years largely dependent on care, wheelchair-bound and severely limited in speech. Died on June 16, 2017, in Ludwigshafen-Oggersheim at age 87." , land:"Germany", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -22513,6 +22514,7 @@ function helmutKohlPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-mohammed", label:"Portrait: Muhammad ibn Abdullah (SO8w9)"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SO8w9) – fall, wheelchair, and loss of speech"},
       ])}
     </div>
   `);
@@ -51027,6 +51029,7 @@ function karlMarxKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9) – life's work"},
         {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SO8w9) – the same pattern of unbroken control"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so8", label:"Subtype Profile SO8"},
       ])}
@@ -55031,6 +55034,185 @@ function julesVerneKrankheitsportraetPage() {
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6) – the same pattern of concealed suffering"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so7", label:"Subtype Profile SO7"},
+      ])}
+    </div>
+  `);
+}
+
+function helmutKohlKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Kohl</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing &middot; 1930–2017</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Lion</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Animal correspondence: Lion" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Helmut Kohl</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-helmut-kohl">Famous Personality Portrait</a>
+        in this Compass – that portrait focuses on his 16 years as Chancellor and German
+        reunification. This page explores a chapter only touched on there: a severe fall in
+        February 2008 abruptly ended Kohl's public life and left him largely dependent on
+        care for the last nine years until his death in 2017.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Kohl</strong> is assigned to the <strong>Social Type 8 with Nine-wing</strong>.
+        The SO8 invests its strength in protecting and building a larger community; the
+        Nine-wing adds patience and the ability to hold control over long periods without
+        visible effort. This exact combination – the will to lead, paired with the Nine's
+        typical tendency to keep one's own vulnerability out of public view as much as
+        possible – also determined how his circle shaped his final years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The fall in February 2008:</strong>
+        Kohl suffered a severe fall in his house in Ludwigshafen-Oggersheim and sustained a
+        head injury that required emergency surgery.</p>
+        <p class="vb-intro"><strong>b) Permanent physical consequences:</strong>
+        After the fall, Kohl depended on a wheelchair and could no longer move
+        independently – a radical break for a man whose physical presence had been part of
+        his political impact for decades.</p>
+        <p class="vb-intro"><strong>c) Substantial loss of speech:</strong>
+        The injury also severely limited Kohl's ability to speak – the chancellor once
+        known for his deliberate but forceful Palatinate rhetoric could henceforth make
+        himself understood only with great difficulty.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Near-total withdrawal from public life:</strong>
+        After the fall, Kohl was rarely seen in public anymore – a sharp contrast to his
+        decades-long need to remain visible as a central figure.</p>
+        <p class="vb-intro"><strong>b) Round-the-clock care in his own home:</strong>
+        Kohl spent his final years in home care in Oggersheim, looked after by his second
+        wife Maike Kohl-Richter, who strictly controlled access to him.</p>
+        <p class="vb-intro"><strong>c) A publicly known dispute over his care:</strong>
+        Kohl's sons from his first marriage later reported publicly that contact with their
+        father during this time had been made difficult or denied – a family conflict that
+        shaped public debate about his legacy well beyond his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Few, tightly controlled public appearances:</strong>
+        The rare occasions on which Kohl still appeared publicly after 2008 – such as a
+        2014 visit from French President François Hollande – were strictly controlled,
+        brief moments, no longer spontaneous appearances.</p>
+        <p class="vb-intro"><strong>b) Controversy over his political legacy while still alive:</strong>
+        In 2014, while Kohl was still dependent on care, a book appeared containing
+        allegedly confidential Kohl quotes from his former ghostwriter, against whose
+        publication Kohl took legal action – a last, weakened fight for control over his
+        own story.</p>
+        <p class="vb-intro"><strong>c) A state ceremony outside the usual form:</strong>
+        After his death in 2017, the European Parliament in Strasbourg held a "European Act
+        of Mourning" for the first time in the history of the Federal Republic – a special
+        tribute underscoring Kohl's life's work for European unification.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A political legacy that outlasted the decline:</strong>
+        Despite nine years of near-invisibility, Kohl's historical significance as the
+        "Chancellor of Unity" remained unbroken in public perception.</p>
+        <p class="vb-intro"><strong>b) A family conflict fought out in public:</strong>
+        The conflict between Kohl's second wife and his sons from his first marriage over
+        access, care, and later also the estate was discussed extensively in German media
+        and cast a considerable shadow over his final years.</p>
+        <p class="vb-intro"><strong>c) A controlled final resting place:</strong>
+        Kohl was not buried next to his first wife Hannelore, but, at his own request, on
+        the grounds of Speyer Cathedral's forecourt – a decision his sons criticized as a
+        further expression of his second wife's control over his final years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Keeping control even as the body refused it:</strong>
+        The same conviction that the reins must stay in his own hands, which had carried
+        Kohl's entire political career, also shaped the organization of his final years –
+        not open vulnerability, but a strictly controlled, largely shielded retreat.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing and sitting out his own decline:</strong>
+        Kohl's legendary ability to sit out conflicts rather than fight them out publicly
+        showed itself once more in his final years – not a public struggle for composure,
+        but a quiet, almost invisible retreat behind closed doors.</p>
+        <p class="vb-intro"><strong>c) The loyalty trap as a repetition of a familiar pattern:</strong>
+        As in the CDU donations scandal, in which Kohl placed loyal networks above
+        transparency, his final phase of life also fell into a situation in which close
+        personal bonds – to his second wife – became more important than open access for
+        others who were close to him.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A lion whose pride was no longer allowed to see him:</strong>
+        Kohl's entire political existence rested on visibility, presence, and personal
+        control over his network – the fall in 2008 threatened precisely that visibility,
+        while control over his immediate surroundings, paradoxically, remained intact,
+        only now held by another hand.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Karl Marx</a>
+        (also SO8w9) kept working undeterred on his life's work for over four decades
+        despite severe, painful carbuncles, never letting his suffering derail him; Kohl
+        responded to his own, far more dramatic physical limitation with a structurally
+        similar stance – not through public complaint, but through the quiet continuation
+        of control over his own surroundings, as far as circumstances still allowed. Both
+        cases show the same SO8w9 pattern: the Eight with a Nine-wing does not readily
+        relinquish control over its own life's work and surroundings, even in the face of
+        massive physical limitation. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Illness Portrait of Karl Marx</a>.</p>
+        <p class="vb-intro"><strong>c) Why movement and speech, of all things?</strong>
+        For a Social Eight with a Nine-wing, whose entire power rested on physical presence
+        and the ability to fill rooms with deliberate but forceful rhetoric, one
+        interpretation suggests itself: precisely those two abilities – to move and to
+        speak – that had carried his decades-long political impact became the site of the
+        limitation. This interpretation is a plausible reading, not a documented historical
+        causal link, and will be developed further in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
+        This does not mean that the Social Eight's pattern inevitably leads to a fall with
+        permanent paralysis – <strong>anyone can suffer any illness or injury, regardless
+        of subtype.</strong> What Kohl's case illustrates is a pattern in how a pronounced
+        Social Eight with a Nine-wing tends to handle sudden, massive loss of control – one
+        of many possible interpretations, not a verdict. The corresponding illness picture
+        is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Kohl did not know his own pattern – the Social Eight with a Nine-wing reflexively
+        holds on to control over its own surroundings instead of ever openly allowing its
+        own vulnerability, and exactly this pattern determined how his final decade of life
+        was organized. Someone who does not recognize their own need to keep the reins in
+        hand as a pattern cannot set it aside even in the face of total physical
+        dependence – it simply shifts from their own person to their closest confidant.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Eight with a Nine-wing explains much about the course of
+        <strong>Helmut Kohl's</strong> final years: a man whose entire power rested on
+        presence and control lost both almost entirely – and yet, patiently and invisibly
+        organized in the background, exactly the control over his immediate surroundings
+        that had shaped his whole life remained intact. The lion that could no longer roar,
+        but never truly left its territory until the end.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SO8w9) – Chancellor of Unity"},
+        {route:"krankheitsportraets-karl-marx", label:"Illness Portrait: Karl Marx (SO8w9) – the same pattern of unbroken control"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so8", label:"Subtype Profile SO8"},
       ])}
     </div>
   `);
@@ -88157,6 +88339,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
       "krankheitsportraets-jules-verne": julesVerneKrankheitsportraetPage,
+      "krankheitsportraets-helmut-kohl": helmutKohlKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

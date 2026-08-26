@@ -24030,6 +24030,7 @@ const registerEntries = [
   { term: "Immanuel Kant Krankheitsporträt", route: "krankheitsportraets-immanuel-kant", description: "Portrait: SO6w5 · Sozialer Typ 6 · Hypochondrie, Atembeklemmung, geistiger Verfall" },
   { term: "Leonardo da Vinci Krankheitsporträt", route: "krankheitsportraets-leonardo-da-vinci", description: "Portrait: SO5w4 · Sozialer Typ 5 · Schlaganfall mit Lähmung der rechten Hand" },
   { term: "Jules Verne Krankheitsporträt", route: "krankheitsportraets-jules-verne", description: "Portrait: SO7w6 · Sozialer Typ 7 · Schussverletzung mit lebenslanger Lähmung, später Diabetes" },
+  { term: "Helmut Kohl Krankheitsporträt", route: "krankheitsportraets-helmut-kohl", description: "Portrait: SO8w9 · Sozialer Typ 8 · Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32170,6 +32171,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Sozialer Typ 6", krankheit:"Chronische Hypochondrie, Atembeklemmung, später geistiger Verfall", teaser:"SO6w5 – Philosoph, 1724–1804. Lebenslange, extrem dokumentierte Hypochondrie mit chronischer Atembeklemmung, philosophische Verarbeitung der eigenen Krankheit im Spätwerk, geistiger Verfall in den letzten Lebensjahren. Starb am 12. Februar 1804 in Königsberg im Alter von 79 Jahren." , land:"Deutschland", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Sozialer Typ 5", krankheit:"Schlaganfall mit Lähmung der rechten Hand", teaser:"SO5w4 – Universalgelehrter und Künstler, 1452–1519. Schlaganfall um 1517 mit Lähmung der rechten Hand, Umstellung auf die linke Hand, fortgesetzte Arbeit an der Mona Lisa bis zuletzt. Starb am 2. Mai 1519 in Amboise, Frankreich, im Alter von 67 Jahren." , land:"Italien/Frankreich", gender:"m", jahre:"1452–1519"},
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Sozialer Typ 7", krankheit:"Schussverletzung mit lebenslanger Lähmung, später Diabetes", teaser:"SO7w6 – französischer Schriftsteller, 1828–1905. 1886 durch seinen geistig verwirrten Neffen niedergeschossen, Kugel dauerhaft im Bein, fortan hinkend, später zusätzlich Diabetes. Starb am 24. März 1905 in Amiens im Alter von 77 Jahren." , land:"Frankreich", gender:"m", jahre:"1828–1905"},
+  { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Sozialer Typ 8", krankheit:"Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust", teaser:"SO8w9 – deutscher Bundeskanzler, 1930–2017. Schwerer Sturz im Februar 2008 mit Kopfverletzung, danach neun Jahre weitgehend pflegebedürftig, rollstuhlgebunden und in der Sprache stark eingeschränkt. Starb am 16. Juni 2017 in Ludwigshafen-Oggersheim im Alter von 87 Jahren." , land:"Deutschland", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44042,7 +44044,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Bloße Präsenz genügt – kein ständiges Brüllen nötig",
         beschreibung: "Autorität und Wirkung entstehen nicht durch permanente Demonstration von Macht, sondern durch eine körperliche und mentale Präsenz, die man spürt, sobald sie einen Raum betritt.",
-        beleg: "Bud Spencer: ›Der Löwe muss nicht brüllen, um zu wirken. Seine Präsenz allein ist genug … Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da‹; Helmut Kohl: ›Er brüllt nicht ständig; seine Macht liegt in der schieren physischen und mentalen Präsenz, die andere spüren, sobald er den Raum betritt.‹"
+        beleg: "Bud Spencer: ›Der Löwe muss nicht brüllen, um zu wirken. Seine Präsenz allein ist genug … Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da‹; Helmut Kohl: ›Er brüllt nicht ständig; seine Macht liegt in der schieren physischen und mentalen Präsenz, die andere spüren, sobald er den Raum betritt.‹ – dieselbe Präsenz, die nach seinem schweren Sturz 2008 körperlich fast vollständig verstummte, während die Kontrolle über sein unmittelbares Umfeld bis zuletzt erhalten blieb, nur eben aus dem Hintergrund organisiert."
       },
       {
         titel: "Präzises, gewähltes Eingreifen statt wahlloser Konfrontation",
@@ -53451,6 +53453,7 @@ function helmutKohlPortraitPage() {
         {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
         {route:"beruehmte-mohammed", label:"Portr\xe4t: Mohammed ibn Abdullah (SO8w9)"},
         {route:"beruehmte-karl-marx", label:"Portr\xe4t: Karl Marx (SO8w9)"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SO8w9) – Sturz, Rollstuhl und Sprachverlust"},
       ])}
     </div>
   `);
@@ -78933,6 +78936,7 @@ function karlMarxKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9) – Lebenswerk"},
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsporträt: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SO8w9) – dasselbe Muster ungebrochener Kontrolle"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so8", label:"Subtyp-Profil SO8"},
       ])}
@@ -83345,6 +83349,194 @@ function julesVerneKrankheitsportraetPage() {
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6) – dasselbe Muster verschwiegenen Leidens"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so7", label:"Subtyp-Profil SO7"},
+      ])}
+    </div>
+  `);
+}
+
+function helmutKohlKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Kohl</p>
+        <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel · 1930–2017</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Löwe</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Tierentsprechung: Löwe" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Helmut Kohl</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-helmut-kohl">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine 16 Jahre als Bundeskanzler und
+        die deutsche Wiedervereinigung. Diese Seite vertieft ein Kapitel, das dort nur
+        gestreift wird: Ein schwerer Sturz im Februar 2008 beendete abrupt Kohls
+        öffentliches Leben und machte ihn für die letzten neun Jahre bis zu seinem Tod 2017
+        weitgehend pflegebedürftig.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kohl</strong> ist dem <strong>sozialen Typ 8 mit Neunerflügel</strong>
+        zugeordnet. Die SO8 investiert ihre Kraft in den Schutz und Aufbau einer größeren
+        Gemeinschaft; der Neunerflügel bringt Geduld und die Fähigkeit hinzu, Kontrolle über
+        lange Zeiträume ohne sichtbare Anstrengung zu halten. Genau diese Kombination –
+        Führungswille, gepaart mit der Neuner-typischen Neigung, die eigene Verwundbarkeit
+        möglichst aus dem öffentlichen Blick zu halten – bestimmte auch, wie das Umfeld
+        seine letzten Lebensjahre gestaltete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Der Sturz im Februar 2008:</strong>
+        Kohl stürzte in seinem Haus in Ludwigshafen-Oggersheim schwer und zog sich eine
+        Kopfverletzung zu, die eine Notoperation erforderlich machte.</p>
+        <p class="vb-intro"><strong>b) Dauerhafte körperliche Folgen:</strong>
+        Nach dem Sturz war Kohl auf einen Rollstuhl angewiesen und konnte sich nicht mehr
+        selbstständig fortbewegen – ein radikaler Bruch für einen Mann, dessen physische
+        Präsenz jahrzehntelang Teil seiner politischen Wirkung gewesen war.</p>
+        <p class="vb-intro"><strong>c) Weitgehender Verlust der Sprache:</strong>
+        Die Verletzung schränkte auch Kohls Sprechfähigkeit erheblich ein – der einst für
+        seine bedächtige, aber wortgewaltige Pfälzer Rhetorik bekannte Kanzler konnte sich
+        fortan nur noch eingeschränkt verständlich machen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fast völliger Rückzug aus der Öffentlichkeit:</strong>
+        Nach dem Sturz zeigte sich Kohl kaum noch öffentlich – ein starker Kontrast zu
+        seinem jahrzehntelangen Bedürfnis, als zentrale Figur sichtbar zu bleiben.</p>
+        <p class="vb-intro"><strong>b) Rund-um-die-Uhr-Pflege im eigenen Haus:</strong>
+        Kohl verbrachte seine letzten Lebensjahre in häuslicher Pflege in Oggersheim, betreut
+        von seiner zweiten Ehefrau Maike Kohl-Richter, die den Zugang zu ihm streng
+        kontrollierte.</p>
+        <p class="vb-intro"><strong>c) Öffentlich gewordener Streit um seine Betreuung:</strong>
+        Kohls Söhne aus erster Ehe berichteten später öffentlich, ihnen sei der Kontakt zu
+        ihrem Vater in dieser Zeit erschwert oder verwehrt worden – ein familiärer Konflikt,
+        der weit über Kohls Tod hinaus die öffentliche Debatte um sein Erbe prägte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Wenige, sorgfältig kontrollierte öffentliche Auftritte:</strong>
+        Die seltenen Male, die Kohl nach 2008 noch öffentlich in Erscheinung trat – etwa
+        2014 beim Besuch des französischen Präsidenten François Hollande – waren streng
+        kontrollierte, kurze Momente, keine spontanen Auftritte mehr.</p>
+        <p class="vb-intro"><strong>b) Kontroverse um sein politisches Erbe zu Lebzeiten:</strong>
+        Noch während seiner Pflegebedürftigkeit erschien 2014 ein Buch mit angeblich
+        vertraulichen Kohl-Zitaten seines früheren Ghostwriters, gegen dessen Veröffentlichung
+        Kohl juristisch vorging – ein letzter, geschwächter Kampf um die Kontrolle über die
+        eigene Geschichte.</p>
+        <p class="vb-intro"><strong>c) Ein Staatsakt außerhalb der üblichen Form:</strong>
+        Nach seinem Tod 2017 fand erstmals in der Geschichte der Bundesrepublik ein
+        „Europäischer Trauerakt" im Europaparlament in Straßburg statt – eine besondere
+        Würdigung, die Kohls Lebenswerk für die europäische Einigung unterstrich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein politisches Erbe, das den Verfall überdauerte:</strong>
+        Trotz neun Jahren weitgehender Unsichtbarkeit blieb Kohls historische Bedeutung als
+        „Kanzler der Einheit" in der öffentlichen Wahrnehmung ungebrochen.</p>
+        <p class="vb-intro"><strong>b) Ein Familienstreit, der öffentlich ausgetragen wurde:</strong>
+        Der Konflikt zwischen Kohls zweiter Ehefrau und seinen Söhnen aus erster Ehe um
+        Zugang, Pflege und später auch das Erbe wurde in deutschen Medien ausführlich
+        diskutiert und überschattete die letzten Lebensjahre erheblich.</p>
+        <p class="vb-intro"><strong>c) Eine kontrollierte letzte Ruhestätte:</strong>
+        Kohl wurde nicht neben seiner ersten Frau Hannelore, sondern auf eigenen Wunsch auf
+        dem Gelände der Speyerer Domvorhalle beigesetzt – eine Entscheidung, die von seinen
+        Söhnen als weiterer Ausdruck der Kontrolle seiner zweiten Frau über sein Lebensende
+        kritisiert wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle behalten, auch als der Körper sie verweigerte:</strong>
+        Dieselbe Überzeugung, dass die Fäden in der eigenen Hand bleiben müssen, die Kohls
+        gesamte politische Laufbahn trug, bestimmte auch die Organisation seiner letzten
+        Lebensjahre – nicht offene Verletzlichkeit, sondern ein streng kontrollierter,
+        weitgehend abgeschirmter Rückzug.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und das Aussitzen des eigenen Verfalls:</strong>
+        Kohls legendäre Fähigkeit, Konflikte auszusitzen, statt sie öffentlich auszutragen,
+        zeigte sich noch einmal in seinen letzten Jahren – kein öffentliches Ringen um
+        Fassung, sondern ein stiller, fast unsichtbarer Rückzug hinter geschlossene Türen.</p>
+        <p class="vb-intro"><strong>c) Die Loyalitätsfalle als Wiederholung eines bekannten Musters:</strong>
+        Wie schon in der CDU-Spendenaffäre, in der Kohl treue Netzwerke über Transparenz
+        stellte, geriet auch seine letzte Lebensphase in eine Situation, in der enge
+        persönliche Bindung – zu seiner zweiten Frau – wichtiger wurde als der offene Zugang
+        für andere, die ihm nahestanden.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Löwe, dessen Rudel ihn nicht mehr sehen durfte:</strong>
+        Kohls gesamte politische Existenz beruhte auf Sichtbarkeit, Präsenz und persönlicher
+        Kontrolle über sein Netzwerk – der Sturz 2008 bedrohte ausgerechnet diese Sichtbarkeit,
+        während die Kontrolle über sein unmittelbares Umfeld paradoxerweise erhalten blieb,
+        nur eben in anderer Hand.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Karl Marx</a>
+        (ebenfalls SO8w9) arbeitete über vier Jahrzehnte trotz schwerster, schmerzhafter
+        Karbunkel unbeirrt an seinem Lebenswerk weiter, ohne sich von seinem Leiden aus der
+        Bahn werfen zu lassen; Kohl reagierte auf seine eigene, weit dramatischere
+        körperliche Einschränkung mit einer strukturell ähnlichen Haltung – nicht durch
+        öffentliches Klagen, sondern durch stille Fortsetzung der Kontrolle über das eigene
+        Umfeld, so weit es die Umstände noch zuließen. Beide Fälle zeigen dasselbe
+        SO8w9-Muster: Die Acht mit Neunerflügel gibt die Kontrolle über das eigene
+        Lebenswerk und Umfeld selbst angesichts massiver körperlicher Einschränkung nicht
+        leichtfertig auf. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Krankheitsporträt zu Karl Marx</a>.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Bewegung und Sprache?</strong>
+        Für einen sozialen Achter mit Neunerflügel, dessen gesamte Macht auf physischer
+        Präsenz und der Fähigkeit beruhte, mit bedächtiger, aber wirkungsvoller Rhetorik
+        Räume zu füllen, liegt eine Deutung nahe: Ausgerechnet jene beiden Fähigkeiten –
+        sich zu bewegen und zu sprechen –, die seine jahrzehntelange politische Wirkung
+        trugen, wurden zum Ort der Einschränkung. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Acht zwangsläufig zu einem Sturz mit
+        dauerhafter Lähmung führt – <strong>jeder Mensch kann jede Krankheit oder
+        Verletzung erleiden, unabhängig vom Subtyp.</strong> Was sich an Kohls Fall zeigen
+        lässt, ist ein Muster im Umgang mit plötzlichem, massivem Kontrollverlust, das bei
+        einer ausgeprägten sozialen Acht mit Neunerflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Kohl kannte sein eigenes Muster nicht – die soziale Acht mit Neunerflügel hält
+        reflexhaft an der Kontrolle über das eigene Umfeld fest, statt die eigene
+        Verletzlichkeit je offen zuzulassen, und genau dieses Muster bestimmte, wie sein
+        letztes Lebensjahrzehnt organisiert wurde. Wer die eigene Notwendigkeit, die Fäden
+        in der Hand zu behalten, nicht als Muster erkennt, kann sie auch angesichts
+        vollständiger körperlicher Abhängigkeit nicht ablegen – sie verlagert sich dann nur
+        von der eigenen Person auf die engste Vertrauensperson.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Acht mit Neunerflügel erklärt bei <strong>Helmut Kohl</strong> vieles am
+        Verlauf seiner letzten Lebensjahre: ein Mann, dessen gesamte Macht auf Präsenz und
+        Kontrolle beruhte, verlor beides fast vollständig – und doch blieb, geduldig und
+        unsichtbar im Hintergrund organisiert, genau jene Kontrolle über sein unmittelbares
+        Umfeld erhalten, die sein ganzes Leben geprägt hatte. Der Löwe, der nicht mehr
+        brüllen konnte, aber sein Revier bis zuletzt nicht wirklich verließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SO8w9) – Kanzler der Einheit"},
+        {route:"krankheitsportraets-karl-marx", label:"Krankheitsporträt: Karl Marx (SO8w9) – dasselbe Muster ungebrochener Kontrolle"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so8", label:"Subtyp-Profil SO8"},
       ])}
     </div>
   `);
@@ -123941,6 +124133,7 @@ function render() {
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
       "krankheitsportraets-jules-verne": julesVerneKrankheitsportraetPage,
+      "krankheitsportraets-helmut-kohl": helmutKohlKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
