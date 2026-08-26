@@ -262,6 +262,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-sean-connery", name:"Sean Connery", subtyp:"SO3w4", heading:"Sean Connery – Social Type 3", krankheit:"Dementia, publicly confirmed only after his death", teaser:"SO3w4 – actor, 1930–2020. Dementia in his final years, kept from the public for years, confirmed only after his death in 2020 by his son." , land:"United Kingdom", gender:"m", jahre:"1930–2020"},
   { route:"krankheitsportraets-ashton-kutcher", name:"Ashton Kutcher", subtyp:"SO2w3", heading:"Ashton Kutcher – Social Type 2", krankheit:"Rare autoimmune disease (vasculitis) with temporary loss of sight, hearing, and mobility", teaser:"SO2w3 – actor and entrepreneur, b. 1978. Rare autoimmune vasculitis with temporary loss of sight, hearing, and mobility, kept private for two years, made public in 2023." , land:"USA", gender:"m", jahre:"b. 1978"},
   { route:"krankheitsportraets-robert-de-niro", name:"Robert De Niro", subtyp:"SE1w9", heading:"Robert De Niro – Self-Preservation Type 1", krankheit:"Prostate cancer, diagnosed in 2003, treated successfully and largely in private", teaser:"SE1w9 – actor and producer, b. 1943. Prostate cancer diagnosed in 2003, treated promptly and discreetly, only occasional public mentions since, mostly encouraging early screening." , land:"USA", gender:"m", jahre:"b. 1943"},
+  { route:"krankheitsportraets-elon-musk", name:"Elon Musk", subtyp:"SO7w6", heading:"Elon Musk – Social Type 7", krankheit:"Asperger's syndrome, publicly disclosed in 2021", teaser:"SO7w6 – entrepreneur, b. 1971. Asperger's syndrome publicly disclosed live on 'Saturday Night Live' on 8 May 2021, no formal diagnosis for decades before." , land:"USA", gender:"m", jahre:"b. 1971"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -31626,6 +31627,7 @@ function elonMuskPortraitPage() {
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5) – namesake of his company Tesla"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+        {route:"krankheitsportraets-elon-musk", label:"Illness Portrait: Elon Musk (SO7w6) – Asperger's syndrome"},
       ])}
     </div>
   `);
@@ -60320,6 +60322,166 @@ function robertDeNiroKrankheitsportraetPage() {
         {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
+      ])}
+    </div>
+  `);
+}
+
+function elonMuskKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-elon-musk-portrait.jpg" alt="Elon Musk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elon Musk</p>
+        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with Six-Wing · b. 1971</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Beaver</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Animal correspondence: Beaver" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elon Musk</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Famous Personalities
+        portrait</a>. This page delves into a chapter not covered there: Musk's public
+        disclosure of Asperger's syndrome, which he announced live on American television in
+        2021.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Musk</strong> is assigned to the <strong>social Type 7 with Six-Wing</strong>.
+        The SO7 sacrifices its own reticence for a larger vision and shies away from no stage
+        when it serves the cause; the Six-Wing adds a vigilance that openly names its own
+        otherness rather than hiding it. Exactly this combination – a private diagnosis
+        announced on the largest possible public stage – shaped how he dealt with his own
+        Asperger's syndrome.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Noticeable traits already in childhood:</strong>
+        By his own and his family's account, Musk showed behaviors as a child that are now
+        considered, in retrospect, typical of Asperger's syndrome, including intense,
+        narrowly focused interests and social difficulties.</p>
+        <p class="vb-intro"><strong>b) No formal diagnosis at a young age:</strong>
+        By his own account, a formal diagnosis did not occur in childhood, but significantly
+        later in adulthood.</p>
+        <p class="vb-intro"><strong>c) Decades of public perception as merely "eccentric":</strong>
+        Before the disclosure, Musk's unusual public demeanor – unfiltered comments,
+        unusual humor, blunt manner – was often described by media simply as eccentric,
+        without reference to a neurological basis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Public announcement on 8 May 2021:</strong>
+        Musk announced the diagnosis live while hosting "Saturday Night Live" – before an
+        audience of millions, in an entertaining, self-deprecating setting rather than a
+        serious interview.</p>
+        <p class="vb-intro"><strong>b) One of the first Asperger's disclosures by a billionaire of this scale:</strong>
+        Musk is considered one of the first very prominent entrepreneurs to publicly disclose
+        an autism spectrum diagnosis in this form.</p>
+        <p class="vb-intro"><strong>c) Combined with self-reflection on social behavior:</strong>
+        In the same broadcast, Musk openly reflected that he sometimes has difficulty reading
+        social cues – an unusually direct self-disclosure for him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Both positive and critical media reactions:</strong>
+        The disclosure triggered both recognition for his openness and critical voices who
+        found the entertaining setting inappropriate for a serious health topic.</p>
+        <p class="vb-intro"><strong>b) No visible change in public demeanor afterward:</strong>
+        After the disclosure, Musk did not noticeably change his public demeanor –
+        provocative statements, unfiltered social media comments – the diagnosis did not
+        become the occasion for new public restraint.</p>
+        <p class="vb-intro"><strong>c) Continued extreme work intensity:</strong>
+        Musk's famously enormous workload across several companies remained unchanged after
+        the disclosure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide attention for adult-onset autism awareness:</strong>
+        The disclosure contributed internationally to the visibility of late-diagnosed autism
+        in adults, particularly in top professional positions.</p>
+        <p class="vb-intro"><strong>b) Reassessment of earlier public appearances:</strong>
+        After the disclosure, many commentators reinterpreted earlier, previously perceived
+        as unusual, public appearances of Musk's in light of the diagnosis.</p>
+        <p class="vb-intro"><strong>c) No lasting anchoring as a central public topic:</strong>
+        Despite the broad initial attention, Asperger's syndrome did not remain a
+        consistently present topic in Musk's subsequent public communication.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The largest possible stage instead of quiet disclosure:</strong>
+        The SO7's characteristic conviction that its own message should reach as many people
+        as possible showed exemplarily: instead of a discreet interview, Musk chose the
+        largest possible media platform for the disclosure.</p>
+        <p class="vb-intro"><strong>b) The Six-Wing and openly naming his own otherness:</strong>
+        The same vigilance with which Musk publicly names societal risks showed here as a
+        willingness to openly address his own neurological otherness too, rather than
+        hiding it behind a smooth public image.</p>
+        <p class="vb-intro"><strong>c) Entertainment as a vehicle for a serious message:</strong>
+        That the disclosure happened in a comedic format fits the SO7's characteristic
+        ability to turn even difficult topics into an accessible, positive narrative, rather
+        than presenting them as pure burden.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A man of ceaseless building whose own mind works differently from most:</strong>
+        Musk's entire public work rests on an extraordinary capacity for intense, focused
+        concentration on individual problems – exactly the cognitive trait that carries his
+        life's work is also part of the same neurological structure he named as Asperger's
+        syndrome.</p>
+        <p class="vb-intro"><strong>b) Why social perception, of all things, for a man with such a public role?</strong>
+        For a social Seven with a Six-Wing whose entire work rests on public visibility and
+        the ability to inspire large crowds, one interpretation suggests itself: exactly the
+        cognitive trait that makes reading social cues more difficult affects a man whose
+        professional life is inseparably bound to public communication. This reading is a
+        plausible interpretation, not a proven clinical causal link, and will be developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Classification without determinism:</strong>
+        This does not mean that the social Seven's pattern is inevitably linked to
+        Asperger's syndrome – <strong>any person can develop any form of neurological
+        difference, regardless of subtype.</strong> What can be shown in Musk's case is a
+        pattern in dealing with a late-named neurological diagnosis that keeps recurring in a
+        pronounced social Type 7 with a Six-Wing – one of many possible readings, not a
+        verdict. The corresponding illness pattern is being developed gradually in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Musk does not know his own pattern as an Enneagram structure – the social Type 7 with
+        a Six-Wing reflexively clings to the conviction that the largest possible public
+        stage is the right place for every message, including his own neurological
+        diagnosis, and largely lives out exactly this pattern unchanged to this day. Anyone
+        who does not recognize their own tendency to immediately turn personal matters into
+        public spectacle as a pattern risks that serious topics get lost in entertainment
+        instead of receiving the depth they deserve.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Type 7 with Six-Wing explains much about how <strong>Elon Musk</strong>
+        handled his own Asperger's syndrome: a man whose entire public work rests on maximum
+        visibility chose the largest available stage even for his own neurological diagnosis
+        – the beaver that does not hide its own otherness, but turns it into one more,
+        publicly visible part of its construction.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so7", label:"Subtype Profile SO7"},
       ])}
     </div>
   `);
@@ -93453,6 +93615,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-sean-connery": seanConneryKrankheitsportraetPage,
       "krankheitsportraets-ashton-kutcher": ashtonKutcherKrankheitsportraetPage,
       "krankheitsportraets-robert-de-niro": robertDeNiroKrankheitsportraetPage,
+      "krankheitsportraets-elon-musk": elonMuskKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
