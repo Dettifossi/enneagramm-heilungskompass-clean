@@ -24051,6 +24051,7 @@ const registerEntries = [
   { term: "Greta Thunberg Krankheitsporträt", route: "krankheitsportraets-greta-thunberg", description: "Portrait: SE2w1 · Selbsterhaltender Typ 2 · Schwere Depression, Essstörung und selektiver Mutismus im Kindesalter" },
   { term: "Bob Marley Krankheitsporträt", route: "krankheitsportraets-bob-marley", description: "Portrait: SO2w1 · Sozialer Typ 2 · Malignes Melanom, aus religiösen Gründen abgelehnte Amputation" },
   { term: "Angelina Jolie Krankheitsporträt", route: "krankheitsportraets-angelina-jolie", description: "Portrait: SO1w2 · Sozialer Typ 1 · BRCA1-Genmutation, präventive doppelte Mastektomie 2013" },
+  { term: "Adele Krankheitsporträt", route: "krankheitsportraets-adele", description: "Portrait: SE4w3 · Selbsterhaltender Typ 4 · Schwere postnatale Depression mit Panikattacken" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32213,6 +32214,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1", heading:"Greta Thunberg – Selbsterhaltender Typ 2", krankheit:"Schwere Depression, Essstörung und selektiver Mutismus im Kindesalter", teaser:"SE2w1 – Klimaaktivistin, geb. 2003. Schwere depressive Episode mit Essstörung und selektivem Mutismus im Alter von etwa elf Jahren, gefolgt von den Diagnosen Asperger-Syndrom und Zwangsstörung." , land:"Schweden", gender:"f", jahre:"geb. 2003"},
   { route:"krankheitsportraets-bob-marley", name:"Bob Marley", subtyp:"SO2w1", heading:"Bob Marley – Sozialer Typ 2", krankheit:"Malignes Melanom an der Zehe, aus religiösen Gründen abgelehnte Amputation", teaser:"SO2w1 – jamaikanischer Musiker, 1945–1981. 1977 diagnostiziertes malignes Melanom, aus religiösen Gründen abgelehnte Amputation, Ausbreitung des Krebses über Jahre, Tod am 11. Mai 1981 im Alter von 36 Jahren." , land:"Jamaika", gender:"m", jahre:"1945–1981"},
   { route:"krankheitsportraets-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2", heading:"Angelina Jolie – Sozialer Typ 1", krankheit:"BRCA1-Genmutation, präventive doppelte Mastektomie 2013, Entfernung von Eierstöcken und Eileitern 2015", teaser:"SO1w2 – Schauspielerin und Regisseurin, geb. 1975. Nachweis der BRCA1-Genmutation nach familiärer Krebshäufung, öffentlich gemachte präventive doppelte Mastektomie 2013, Entfernung von Eierstöcken und Eileitern 2015." , land:"USA", gender:"f", jahre:"geb. 1975"},
+  { route:"krankheitsportraets-adele", name:"Adele", subtyp:"SE4w3", heading:"Adele – Selbsterhaltender Typ 4", krankheit:"Schwere postnatale Depression mit Panikattacken, fast ein Jahrzehnt lang verschwiegen", teaser:"SE4w3 – Sängerin und Songwriterin, geb. 1988. Postnatale Depression nach der Geburt ihres Sohnes 2012, begleitende Panikattacken vor Auftritten, öffentliche Offenlegung erst 2021." , land:"Vereinigtes Königreich", gender:"f", jahre:"geb. 1988"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -59891,6 +59893,7 @@ function adelePortraitPage() {
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
         {route:"beruehmte-lady-diana", label:"Portr\u00e4t: Lady Diana (SE4w3)"},
         {route:"beruehmte-tim-bendzko", label:"Portr\u00e4t: Tim Bendzko (SE4w3)"},
+        {route:"krankheitsportraets-adele", label:"Krankheitsportr\u00e4t: Adele (SE4w3) \u2013 postnatale Depression"},
       ])}
     </div>
   `);
@@ -77914,6 +77917,7 @@ function ladyDianaKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-adele", label:"Krankheitsporträt: Adele (SE4w3) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
@@ -87145,6 +87149,187 @@ function angelinaJolieKrankheitsportraetPage() {
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so1", label:"Subtyp-Profil SO1"},
+      ])}
+    </div>
+  `);
+}
+
+function adeleKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-adele-portrait.jpg" alt="Adele" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adele</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · geb. 1988</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Adele</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-adele">Porträt berühmter
+        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
+        das dort nur beiläufig erwähnt wird: eine schwere postnatale Depression nach der
+        Geburt ihres Sohnes 2012, begleitet von Panikattacken, die sie über Jahre nur
+        gegenüber engsten Vertrauten offenlegte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Adele</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SE4 trägt ihren Schmerz still, kämpft ihn allein aus, bevor sie ihn
+        zeigt; der Dreierflügel bringt die Disziplin, nach außen dennoch makellos zu
+        funktionieren. Genau diese Kombination – innerer Zusammenbruch bei gleichzeitig
+        makellos funktionierender öffentlicher Fassade – bestimmte den jahrelang verborgenen
+        Verlauf ihrer postnatalen Depression.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Beginn nach der Geburt ihres Sohnes 2012:</strong>
+        Nach eigener Aussage begannen die Symptome kurz nach der Geburt ihres Sohnes Angelo
+        im Oktober 2012 – ein Zeitpunkt, der öffentlich als Höhepunkt privaten Glücks
+        wahrgenommen wurde.</p>
+        <p class="vb-intro"><strong>b) Gefühl völliger Überforderung:</strong>
+        Adele beschrieb später in Interviews, sich in den ersten Monaten der Mutterschaft
+        als völlig überfordert und von Schuldgefühlen überwältigt erlebt zu haben, weil sie
+        die erwartete sofortige mütterliche Verbundenheit nicht spürte.</p>
+        <p class="vb-intro"><strong>c) Vollständige Geheimhaltung nach außen:</strong>
+        Über Jahre sprach sie öffentlich nicht über diese Zeit – die Diagnose einer
+        postnatalen Depression wurde erst 2021, fast ein Jahrzehnt später, in einem
+        Vogue-Interview bekannt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Begleitende Panikattacken vor Auftritten:</strong>
+        Adele sprach wiederholt über schwere Panikattacken vor Live-Auftritten, die sie
+        zeitweise dazu brachten, Konzerte kurz vor Beginn fast abzusagen.</p>
+        <p class="vb-intro"><strong>b) Kurzfristige Absage der Las-Vegas-Residency 2022:</strong>
+        Einen Tag vor der geplanten Eröffnung ihrer Las-Vegas-Show sagte Adele unter Tränen
+        ab, weil das Ergebnis – nach eigener Aussage wegen Lieferproblemen der
+        Bühnentechnik – ihrem eigenen Anspruch nicht genügte.</p>
+        <p class="vb-intro"><strong>c) Therapiebeginn als Wendepunkt:</strong>
+        Nach eigener Schilderung begann sie erst durch eine Psychotherapie, die
+        postnatale Depression rückblickend als eigenständige Erkrankung zu erkennen und zu
+        benennen, statt sie als persönliches Versagen zu deuten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Verarbeitung durch das Album „30":</strong>
+        Ihr 2021 erschienenes Album „30" verarbeitet nach eigener Aussage explizit diese
+        Zeit – Scheidung, Mutterschaft, Selbstfindung – und markiert den Punkt, an dem sie
+        erstmals öffentlich über die Krise sprach.</p>
+        <p class="vb-intro"><strong>b) Offenheit ohne Dramatisierung:</strong>
+        Anders als eine öffentlich inszenierte Krankheitsgeschichte blieb Adeles Offenlegung
+        sachlich und zurückhaltend – im Vogue-Interview beschrieb sie die Erfahrung präzise,
+        ohne sie zum zentralen Vermarktungsthema des Albums zu machen.</p>
+        <p class="vb-intro"><strong>c) Positive Rückmeldung von Betroffenen:</strong>
+        Nach der Veröffentlichung erhielt Adele zahlreiche Rückmeldungen von Müttern, die
+        sich durch ihre Offenheit erstmals ermutigt fühlten, über eigene postnatale
+        Depressionen zu sprechen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite mediale Aufmerksamkeit für ein Tabuthema:</strong>
+        Adeles Offenheit trug international zur Enttabuisierung postnataler Depression bei –
+        ein Thema, das gerade bei öffentlich wahrgenommenen „perfekten" Müttern selten offen
+        verhandelt wird.</p>
+        <p class="vb-intro"><strong>b) Verzögerte statt sofortige Offenlegung:</strong>
+        Der fast zehnjährige Abstand zwischen Erkrankung und öffentlicher Offenlegung
+        illustriert, wie lange die Krise ausschließlich privat verarbeitet wurde, bevor sie
+        überhaupt zur öffentlichen Sprache kam.</p>
+        <p class="vb-intro"><strong>c) Fortgesetzte künstlerische Produktivität:</strong>
+        Trotz der Krise blieb Adele künstlerisch aktiv und produktiv – die Krise wurde nicht
+        zum Karriereeinschnitt, sondern letztlich zum Stoff eines ihrer erfolgreichsten
+        Alben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Stiller Kampf statt öffentlicher Klage:</strong>
+        Die SE4-typische Zähigkeit zeigte sich exemplarisch: Adele kämpfte die postnatale
+        Depression über Jahre allein aus, statt sie öffentlich zu machen – die SE4-Logik,
+        nicht zu klagen, sondern erst dann zu sprechen, wenn der Schmerz verarbeitet und in
+        eine Form gebracht ist.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und die makellose Fassade:</strong>
+        Dieselbe Disziplin, die ihre Konzerte und Alben zu kommerziellen Welterfolgen macht,
+        sorgte dafür, dass die Krise nach außen über Jahre unsichtbar blieb – erst als das
+        Album „30" fertig war, wurde aus dem privaten Kampf eine öffentliche Botschaft.</p>
+        <p class="vb-intro"><strong>c) Verarbeitung durch Form, nicht durch Bekenntnis:</strong>
+        Adeles Weg aus der Krise führte nicht über ein spontanes öffentliches Geständnis,
+        sondern über die Verwandlung des Erlebten in ein fertiges künstlerisches Werk – die
+        typische SE4w3-Bewegung vom stillen Innenleben zur wirkungsvollen äußeren Form.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Stimme des Herzschmerzes, die den eigenen Herzschmerz am längsten verschwieg:</strong>
+        Adeles gesamtes Werk beruht auf der Fähigkeit, privaten Schmerz in universelle Songs
+        zu verwandeln – ausgerechnet die eigene postnatale Depression blieb fast ein
+        Jahrzehnt lang von diesem Prinzip ausgenommen, bis sie reif genug war, in Form
+        gebracht zu werden.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady Diana
+        (SE4w3)</a>: Auch Diana verbarg ihre Erkrankung – bei ihr eine Bulimie – jahrelang
+        hinter einer makellos funktionierenden öffentlichen Fassade, bevor sie sich Jahre
+        später selbst dazu äußerte. Bei beiden SE4w3 zeigt sich dasselbe Muster: der innere
+        Kampf bleibt so lange verborgen, bis er in eine kontrollierte, selbstgewählte Form
+        gebracht werden kann.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet nach der Geburt, dem Moment größter erwarteter Nähe?</strong>
+        Für eine selbsterhaltende Vier mit Dreierflügel, deren gesamtes Werk um echte,
+        unverstellte Gefühlstiefe kreist, liegt eine Deutung nahe: Ausgerechnet der Moment,
+        in dem gesellschaftlich die spontanste, unmittelbarste Verbundenheit erwartet wird,
+        wurde zum Ort, an dem sich diese Verbundenheit nicht einstellte – eine besonders
+        schmerzhafte Konfrontation mit dem eigenen Schicksalsmuster der Vier. Diese Deutung
+        ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu
+        postnataler Depression führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Adeles Fall zeigen lässt,
+        ist ein Muster im Umgang mit einer psychischen Krise, das bei einer ausgeprägten
+        selbsterhaltenden Vier mit Dreierflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Adele kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die selbsterhaltende
+        Vier mit Dreierflügel hält reflexhaft daran fest, den eigenen Schmerz erst dann zu
+        zeigen, wenn er in eine makellose Form gebracht ist, statt sich frühzeitig Hilfe zu
+        holen, und lebt genau dieses Muster bis heute weitgehend unverändert aus. Wer die
+        eigene Neigung, seelische Krisen erst nach Jahren stiller Verarbeitung überhaupt zu
+        benennen, nicht als Muster erkennt, riskiert, dass Hilfe erst kommt, wenn die Krise
+        bereits sehr weit fortgeschritten ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 4 mit Dreierflügel erklärt bei <strong>Adele</strong> vieles
+        am Verlauf ihrer postnatalen Depression: eine Frau, deren gesamtes Werk private
+        Wunden in universelle Songs verwandelt, brauchte fast zehn Jahre, um dieselbe
+        Verwandlung auch auf die eigene tiefste Krise anzuwenden – die Taube, die ihre
+        Botschaft erst dann nach außen trug, als sie bereit war, sie auch für sich selbst
+        anzunehmen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+        {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
   `);
@@ -127752,6 +127937,7 @@ function render() {
       "krankheitsportraets-greta-thunberg": gretaThunbergKrankheitsportraetPage,
       "krankheitsportraets-bob-marley": bobMarleyKrankheitsportraetPage,
       "krankheitsportraets-angelina-jolie": angelinaJolieKrankheitsportraetPage,
+      "krankheitsportraets-adele": adeleKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,
