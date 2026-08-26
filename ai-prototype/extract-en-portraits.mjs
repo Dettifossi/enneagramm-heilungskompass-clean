@@ -34,6 +34,7 @@ function extractConst(name) {
 
 const BERUEHMT_PORTRAITS = extractConst("BERUEHMT_PORTRAITS");
 const KRIMINAL_PORTRAITS = extractConst("KRIMINAL_PORTRAITS");
+const KRANKHEITS_PORTRAITS = extractConst("KRANKHEITS_PORTRAITS");
 
 const chunks = [];
 
@@ -50,6 +51,14 @@ for (const p of KRIMINAL_PORTRAITS) {
     code: `PORTRAIT-${p.route}`,
     source: "portraits-en",
     text: `Criminal psychology case: ${p.heading || p.name} (Subtype ${p.subtyp}). ${p.teaser || ""}`,
+  });
+}
+
+for (const p of KRANKHEITS_PORTRAITS) {
+  chunks.push({
+    code: `PORTRAIT-${p.route}`,
+    source: "portraits-en",
+    text: `Illness portrait: ${p.heading || p.name} (Subtype ${p.subtyp}) – ${p.krankheit || ""}. ${p.teaser || ""}`,
   });
 }
 

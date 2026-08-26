@@ -18,9 +18,10 @@ const appJs = fs.readFileSync(path.join(rootDir, "app.js"), "utf-8");
 // 1. Route -> Funktionsname-Zuordnung einsammeln. Erfasst sowohl die übliche
 //    "...PortraitPage"-Konvention als auch abweichende Namen wie
 //    "astrologieAlbertEinsteinPage", "bellaThornePage" oder "borisBeckerKriminalPage" —
-//    wichtig ist nur, dass die Route mit beruehmte-/astrologie-/kriminalpsychologie- beginnt.
+//    wichtig ist nur, dass die Route mit beruehmte-/astrologie-/kriminalpsychologie-/
+//    krankheitsportraets- beginnt.
 const routeMap = new Map(); // funktionsname -> route
-const routeRegex = /"((?:beruehmte|astrologie|kriminalpsychologie)-[a-z0-9-]+)":\s*([a-zA-Z0-9]+),/g;
+const routeRegex = /"((?:beruehmte|astrologie|kriminalpsychologie|krankheitsportraets)-[a-z0-9-]+)":\s*([a-zA-Z0-9]+),/g;
 let m;
 while ((m = routeRegex.exec(appJs))) {
   routeMap.set(m[2], m[1]);
