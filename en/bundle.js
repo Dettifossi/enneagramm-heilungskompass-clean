@@ -252,6 +252,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Self-Preservation Type 5", krankheit:"Migraine, eye ailments, recurring depressive crises", teaser:"SP5w6 – writer, Nobel laureate, 1877–1962. Lifelong severe migraines, chronic eye ailments, nervous breakdown in 1916, psychoanalysis with a student of C. G. Jung. Died in 1962 in his sleep in Montagnola at age 85." , land:"Germany/Switzerland", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexual Type 4", krankheit:"Chronic digestive and bladder ailments", teaser:"SX4w3 – Enlightenment writer and philosopher, 1694–1778. Decades of digestive and bladder complaints, obsessively documented in letters, unrelenting productivity despite constant complaints. Died on May 30, 1778, in Paris, weeks after his triumphant return from exile." , land:"France", gender:"m", jahre:"1694–1778"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Self-Preservation Type 4", krankheit:"Progressive obsessive-compulsive disorder, germophobia, complete isolation", teaser:"SP4w5 – inventor and engineer, 1856–1943. Pronounced obsessive-compulsive disorder with counting rituals and germophobia, decades of increasing social isolation, final bond to a single white dove. Died impoverished on January 7, 1943, alone in a New York hotel room." , land:"USA", gender:"m", jahre:"1856–1943"},
+  { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Social Type 5", krankheit:"Nervous breakdown, likely from mercury poisoning", teaser:"SO5w6 – physicist and mathematician, 1642/43–1727. Severe nervous breakdown in 1693 with paranoid accusations against close friends, likely caused by decades of unprotected alchemical experiments with mercury. Recovered within a year, died in 1727 at age 84." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -30127,6 +30128,7 @@ function isaacNewtonPortraitPage() {
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4) – his bitterest scientific rival"},
         {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
+        {route:"krankheitsportraets-isaac-newton", label:"Illness Portrait: Isaac Newton (SO5w6) – nervous breakdown from mercury poisoning"},
       ])}
     </div>
   `);
@@ -54323,6 +54325,177 @@ function nikolaTeslaKrankheitsportraetPage() {
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5) – inventor"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se4", label:"Subtype Profile SP4"},
+      ])}
+    </div>
+  `);
+}
+
+function isaacNewtonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-isaac-newton-portrait.jpg" alt="Isaac Newton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Isaac Newton</p>
+        <p class="krim-portrait-typ">SO5w6 · Social Type 5 with Six-wing · 1642/43–1727</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Octopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Animal correspondence: Octopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Isaac Newton</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">famous-personality portrait</a>
+        – that page covers the knowledge he kept secret for decades and his groundbreaking
+        work in physics. This page goes deeper into a chapter mentioned there only in
+        passing: a severe nervous breakdown in 1693, likely caused by decades of unprotected
+        alchemical experiments with mercury.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Newton</strong> is assigned to the <strong>Social Type 5 with Six-wing</strong>.
+        SO5 gathers and hoards knowledge, releasing it to the community in controlled doses;
+        the Six-wing adds a need for security and institutional control. This same
+        combination – decades of secretive experiments conducted without any precautions –
+        also determined how his health crisis developed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Decades of alchemical experiments:</strong>
+        For more than three decades, Newton worked in his private laboratory on alchemical
+        experiments, writing more than a million words on recipes and interpretations of
+        ancient texts, regularly handling mercury and other toxic substances without any
+        protection.</p>
+        <p class="vb-intro"><strong>b) Growing insomnia in the spring of 1693:</strong>
+        In the months before his actual breakdown, contemporaries reported Newton's
+        increasingly irregular sleep and a growing irritability in his correspondence.</p>
+        <p class="vb-intro"><strong>c) First paranoid signs in letters:</strong>
+        Newton began making insinuations in letters to close friends and scientific
+        colleagues that suggested growing suspicion of those around him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Accusations against close friends:</strong>
+        In September 1693, Newton wrote letters full of confused accusations to John Locke
+        and Samuel Pepys, two of his closest confidants – he accused Locke of trying to
+        "embroil him with women" and asked Pepys for forgiveness for things he claimed to
+        have done to him, without specifying what.</p>
+        <p class="vb-intro"><strong>b) Months-long withdrawal from scientific correspondence:</strong>
+        After these incidents, Newton interrupted nearly all scientific communication for
+        several months – a striking break in his otherwise extensive correspondence.</p>
+        <p class="vb-intro"><strong>c) Later, partial apologies:</strong>
+        As his condition improved, Newton apologized to Locke and explained his state as due
+        to lack of sleep – without ever naming the alchemical experiments themselves as a
+        possible cause.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Full recovery within a year:</strong>
+        Unlike chronically progressing cases, Newton largely recovered from the acute crisis
+        within about a year and resumed his scientific work and correspondence.</p>
+        <p class="vb-intro"><strong>b) No abandonment of his alchemical practice:</strong>
+        Despite the crisis he had lived through, there is no evidence that Newton
+        fundamentally changed or cautiously limited his alchemical experiments afterward –
+        the practice that had likely contributed to his poisoning was never questioned.</p>
+        <p class="vb-intro"><strong>c) Later modern analyses confirmed high heavy-metal levels:</strong>
+        Analyses of hair samples attributed to Newton showed, centuries later, unusually
+        high concentrations of mercury, lead and arsenic – an indirect but clear indication
+        of the burden from his decades of laboratory work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) No public explanation of the crisis:</strong>
+        Newton never commented publicly on the events of 1693 – the breakdown, like so much
+        in his life, remained hidden in private correspondence rather than being processed
+        publicly.</p>
+        <p class="vb-intro"><strong>b) Continuation of his public career despite the crisis:</strong>
+        Only a few years later, in 1696, Newton took charge of the Royal Mint, and in 1703
+        the presidency of the Royal Society – offices that demanded the utmost mental
+        clarity and institutional control.</p>
+        <p class="vb-intro"><strong>c) A long life despite the burden:</strong>
+        Newton did not die until 1727, at age 84 – the poisoning crisis of 1693 remained, as
+        far as is known, a single acute episode, not a chronically progressing illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Secretive experimentation that endangered its own author:</strong>
+        The same tendency to conduct knowledge and research in secrecy that shaped Newton's
+        entire life also meant that no one ever limited or questioned his dangerous
+        alchemical practice – control over his own knowledge also meant that no one could
+        warn him of the risks.</p>
+        <p class="vb-intro"><strong>b) The Six-wing and suspicion as a symptom:</strong>
+        The paranoid accusations against Locke and Pepys can also be read as an extreme
+        intensification of the already watchful, security-oriented Six-wing – under toxic
+        strain, the same pattern that otherwise sought institutional control turned against
+        his closest confidants themselves.</p>
+        <p class="vb-intro"><strong>c) Return to habitual secrecy rather than disclosure:</strong>
+        Unlike some other illness histories in this Compass, the crisis was not followed by
+        a public confession or a change in behavior – Newton returned to exactly the
+        secrecy that had shaped his entire life even before the crisis.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A mind that poisoned itself in its own secrecy:</strong>
+        Newton's entire life was shaped by the conviction that knowledge is developed most
+        safely in secret – his alchemical experiments were the most consistent application
+        of this principle, and at the same time the most dangerous, because no one from
+        outside could point out the toxic risks.</p>
+        <p class="vb-intro"><strong>b) Control over knowledge, but not over his own health:</strong>
+        A man who meticulously controlled every aspect of his research – when, how, or
+        whether anything was published at all – had no control whatsoever over the physical
+        consequences of his own experiments, because he did not classify them as a risk in
+        the first place.</p>
+        <p class="vb-intro"><strong>c) Why the mind, of all places?</strong>
+        For a Social Five with Six-wing whose entire power rested on clear, ordered
+        thinking, one interpretation suggests itself: precisely the organ that enabled him
+        to control all his secret knowledge was itself temporarily brought out of control by
+        the toxic burden of his own research – an attack, by the very thing he most wanted to
+        protect, on the tool with which he protected it. This interpretation is a plausible
+        reading, not a documented historical causal link, and is developed further in this
+        Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of Social Five inevitably leads to heavy-metal
+        poisoning or psychological crisis – <strong>anyone can develop any illness,
+        regardless of subtype.</strong> What Newton's case shows is a pattern in how a
+        pronounced Social Five with Six-wing repeatedly deals with self-imposed danger from
+        secret research – one possible reading among many, not a verdict. The corresponding
+        illness profile is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Newton did not know his own pattern – Social Five with Six-wing reflexively secures
+        complete control over its own knowledge and its dissemination rather than ever
+        questioning its own physical endangerment, and he continued to live out exactly this
+        pattern unchanged even after his crisis. Whoever does not recognize their own need to
+        develop every piece of knowledge in secret as a pattern cannot set it aside even in
+        the face of their own endangerment.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Social Five with Six-wing explains much about the course of <strong>Newton's</strong>
+        own illness: a man whose entire power rested on the controlled, secret development of
+        knowledge was himself brought out of control precisely by that secrecy – the octopus
+        that kept its own hidden depths concealed for so long that it nearly cost him his own
+        mind.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6) – physicist and mathematician"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so5", label:"Subtype Profile SO5"},
       ])}
     </div>
   `);
@@ -87445,6 +87618,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
+      "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

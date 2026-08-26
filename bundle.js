@@ -24026,6 +24026,7 @@ const registerEntries = [
   { term: "Hermann Hesse Krankheitsporträt", route: "krankheitsportraets-hermann-hesse", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Migräne, Augenleiden, depressive Krisen" },
   { term: "Voltaire Krankheitsporträt", route: "krankheitsportraets-voltaire", description: "Portrait: SX4w3 · Sexueller Typ 4 · Chronische Verdauungs- und Blasenleiden" },
   { term: "Nikola Tesla Krankheitsporträt", route: "krankheitsportraets-nikola-tesla", description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Zwangsstörung, Keimphobie, Isolation" },
+  { term: "Isaac Newton Krankheitsporträt", route: "krankheitsportraets-isaac-newton", description: "Portrait: SO5w6 · Sozialer Typ 5 · Nervenzusammenbruch durch Quecksilbervergiftung" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32162,6 +32163,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Selbsterhaltender Typ 5", krankheit:"Migräne, Augenleiden, wiederkehrende depressive Krisen", teaser:"SE5w6 – Schriftsteller, Nobelpreisträger, 1877–1962. Lebenslange schwere Migräne, chronische Augenleiden, Nervenzusammenbruch 1916, Psychoanalyse bei einem Schüler C. G. Jungs. Starb 1962 im Schlaf in Montagnola im Alter von 85 Jahren." , land:"Deutschland/Schweiz", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexueller Typ 4", krankheit:"Chronische Verdauungs- und Blasenleiden", teaser:"SX4w3 – Schriftsteller und Philosoph der Aufklärung, 1694–1778. Jahrzehntelange, in Briefen exzessiv dokumentierte Verdauungs- und Blasenbeschwerden, ungebremste Produktivität trotz ständiger Klagen. Starb am 30. Mai 1778 in Paris, wenige Wochen nach seiner triumphalen Rückkehr aus dem Exil." , land:"Frankreich", gender:"m", jahre:"1694–1778"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Selbsterhaltender Typ 4", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SE4w5 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
+  { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Sozialer Typ 5", krankheit:"Nervenzusammenbruch, vermutlich durch Quecksilbervergiftung", teaser:"SO5w6 – Physiker und Mathematiker, 1642/43–1727. Schwerer Nervenzusammenbruch 1693 mit paranoiden Anschuldigungen gegen enge Freunde, vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit Quecksilber verursacht. Erholte sich innerhalb eines Jahres, starb 1727 im Alter von 84 Jahren." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44250,7 +44252,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wissen wird über Jahre im Verborgenen entwickelt, bevor es kontrolliert freigegeben wird",
         beschreibung: "Anders als spontane Mitteilung erfolgt die Weitergabe von Wissen erst nach langer, oft jahrzehntelanger Vorbereitung im Stillen – und dann bewusst dosiert, zum selbst gewählten Zeitpunkt.",
-        beleg: "Isaac Newton, der die Grundlagen seiner Physik ›über zwei Jahrzehnte lang fast ausschließlich für sich behalten hatte‹: ›Der Oktopus verbirgt sich nicht aus Schwäche. Er verbirgt sich, weil er die Kontrolle darüber behalten will, wann und wie sein Wissen die Welt erreicht‹; Hegel, der erst mit 46 Jahren seine erste Professur erhielt, nach ›einer langen Phase des stillen, zurückgezogenen Systemschreibens‹; Pythagoras, der sein Wissen ›nach außen nur in genau bemessenen Dosen‹ weitergab; Einstein, der auch sein eigenes Lebensende nach demselben Prinzip behandelte: Als 1955 eine erneute Operation seines seit Jahren bekannten Aortenaneurysmas anstand, lehnte er ab – ›Ich will gehen, wenn ich will‹ – und entschied selbst über den Zeitpunkt, statt die Kontrolle abzugeben."
+        beleg: "Isaac Newton, der die Grundlagen seiner Physik ›über zwei Jahrzehnte lang fast ausschließlich für sich behalten hatte‹: ›Der Oktopus verbirgt sich nicht aus Schwäche. Er verbirgt sich, weil er die Kontrolle darüber behalten will, wann und wie sein Wissen die Welt erreicht‹ – eine Geheimhaltung, die auch seine jahrzehntelangen, ungeschützten alchemistischen Experimente umfasste und ihn 1693 in einen schweren, vermutlich durch Quecksilber ausgelösten Nervenzusammenbruch trieb; Hegel, der erst mit 46 Jahren seine erste Professur erhielt, nach ›einer langen Phase des stillen, zurückgezogenen Systemschreibens‹; Pythagoras, der sein Wissen ›nach außen nur in genau bemessenen Dosen‹ weitergab; Einstein, der auch sein eigenes Lebensende nach demselben Prinzip behandelte: Als 1955 eine erneute Operation seines seit Jahren bekannten Aortenaneurysmas anstand, lehnte er ab – ›Ich will gehen, wenn ich will‹ – und entschied selbst über den Zeitpunkt, statt die Kontrolle abzugeben."
       },
       {
         titel: "Eine eigene Struktur oder ein eigener Orden als Rahmen für geteiltes, aber gehütetes Wissen",
@@ -47949,6 +47951,7 @@ function isaacNewtonPortraitPage() {
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4) – sein erbittertster wissenschaftlicher Rivale"},
         {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
         {route:"beruehmte-bill-gates", label:"Porträt: Bill Gates (SO5w6)"},
+        {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – Nervenzusammenbruch durch Quecksilbervergiftung"},
       ])}
     </div>
   `);
@@ -82593,6 +82596,190 @@ function nikolaTeslaKrankheitsportraetPage() {
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5) – Erfinder"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+      ])}
+    </div>
+  `);
+}
+
+function isaacNewtonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-isaac-newton-portrait.jpg" alt="Isaac Newton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Isaac Newton</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel · 1642/43–1727</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Isaac Newton</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein jahrzehntelang geheim gehaltenes
+        Wissen und sein bahnbrechendes physikalisches Werk. Diese Seite vertieft ein Kapitel,
+        das dort nur am Rande erwähnt wird: einen schweren Nervenzusammenbruch 1693,
+        vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit
+        Quecksilber ausgelöst.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Newton</strong> ist dem <strong>sozialen Typ 5 mit Sechserflügel</strong>
+        zugeordnet. Die SO5 sammelt Wissen und hortet es, kontrolliert dosiert für die
+        Gemeinschaft freigegeben; der Sechserflügel bringt Sicherheitsbedürfnis und
+        institutionelle Kontrolle hinzu. Genau diese Kombination – jahrzehntelange, im
+        Verborgenen betriebene Experimente ohne jede Vorsichtsmaßnahme – bestimmte auch,
+        wie sich seine gesundheitliche Krise entwickelte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Jahrzehnte an alchemistischen Experimenten:</strong>
+        Über mehr als drei Jahrzehnte arbeitete Newton in seinem privaten Labor an
+        alchemistischen Versuchen, verfasste mehr als eine Million Wörter zu Rezepturen und
+        Deutungen alter Texte, und hantierte dabei regelmäßig mit Quecksilber und anderen
+        giftigen Substanzen ohne jeglichen Schutz.</p>
+        <p class="vb-intro"><strong>b) Zunehmende Schlaflosigkeit im Frühjahr 1693:</strong>
+        In den Monaten vor seinem eigentlichen Zusammenbruch berichteten Zeitgenossen von
+        Newtons zunehmend unregelmäßigem Schlaf und einer wachsenden Gereiztheit in seiner
+        Korrespondenz.</p>
+        <p class="vb-intro"><strong>c) Erste paranoide Anzeichen in Briefen:</strong>
+        Newton begann, in Briefen an enge Freunde und Wissenschaftskollegen Andeutungen zu
+        machen, die auf ein wachsendes Misstrauen gegenüber seinem Umfeld schließen ließen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Anschuldigungen gegen enge Freunde:</strong>
+        Im September 1693 schrieb Newton an John Locke und Samuel Pepys, zwei seiner engsten
+        Vertrauten, Briefe voller wirrer Vorwürfe – er beschuldigte Locke, ihn „mit Frauen
+        verstricken" zu wollen, und bat Pepys um Verzeihung für Dinge, die er ihm angeblich
+        angetan habe, ohne diese zu benennen.</p>
+        <p class="vb-intro"><strong>b) Monatelanger Rückzug aus der wissenschaftlichen Korrespondenz:</strong>
+        Nach diesen Vorfällen unterbrach Newton für mehrere Monate nahezu jede
+        wissenschaftliche Kommunikation – ein auffälliger Bruch in seinem sonst
+        umfangreichen Briefwechsel.</p>
+        <p class="vb-intro"><strong>c) Spätere, teilweise Entschuldigungen:</strong>
+        Als sich sein Zustand besserte, entschuldigte sich Newton bei Locke und erklärte
+        seinen Zustand mit Schlafmangel – ohne die alchemistischen Experimente selbst je
+        als mögliche Ursache zu benennen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vollständige Erholung innerhalb eines Jahres:</strong>
+        Anders als bei chronisch verlaufenden Fällen erholte sich Newton innerhalb von etwa
+        einem Jahr weitgehend von der akuten Krise und nahm seine wissenschaftliche Arbeit
+        und Korrespondenz wieder auf.</p>
+        <p class="vb-intro"><strong>b) Keine Aufgabe der alchemistischen Praxis:</strong>
+        Trotz der durchlebten Krise gibt es keine Hinweise darauf, dass Newton seine
+        alchemistischen Experimente danach grundlegend änderte oder aus Vorsicht einschränkte
+        – die Praxis, die vermutlich zur Vergiftung beigetragen hatte, wurde nicht in Frage
+        gestellt.</p>
+        <p class="vb-intro"><strong>c) Spätere moderne Analysen bestätigten hohe Schwermetallwerte:</strong>
+        Untersuchungen von Haarproben, die Newton zugeschrieben werden, zeigten Jahrhunderte
+        später ungewöhnlich hohe Konzentrationen von Quecksilber, Blei und Arsen – ein
+        indirekter, aber deutlicher Hinweis auf die Belastung durch seine jahrzehntelange
+        Laborarbeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Keine öffentliche Erklärung der Krise:</strong>
+        Newton äußerte sich zeitlebens nicht öffentlich über die Vorfälle von 1693 – der
+        Zusammenbruch blieb, wie so vieles in seinem Leben, im privaten Briefwechsel
+        verborgen, statt öffentlich verarbeitet zu werden.</p>
+        <p class="vb-intro"><strong>b) Fortsetzung seiner öffentlichen Karriere trotz der Krise:</strong>
+        Nur wenige Jahre später, 1696, übernahm Newton die Leitung der Royal Mint und 1703
+        die Präsidentschaft der Royal Society – Ämter, die höchste geistige Klarheit und
+        institutionelle Kontrolle voraussetzten.</p>
+        <p class="vb-intro"><strong>c) Ein langes Leben trotz der Belastung:</strong>
+        Newton starb erst 1727, im Alter von 84 Jahren – die Vergiftungskrise von 1693
+        blieb, soweit bekannt, eine einmalige akute Episode, keine chronisch fortschreitende
+        Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das verborgene Experimentieren, das sich selbst gefährdete:</strong>
+        Dieselbe Neigung, Wissen und Forschung im Verborgenen zu betreiben, die Newtons
+        gesamtes Leben prägte, bestimmte auch, dass niemand seine gefährliche
+        alchemistische Praxis je begrenzte oder hinterfragte – die Kontrolle über das eigene
+        Wissen bedeutete auch, dass niemand vor den Risiken warnen konnte.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel und das Misstrauen als Symptom:</strong>
+        Die paranoiden Anschuldigungen gegen Locke und Pepys lassen sich auch als extreme
+        Zuspitzung des ohnehin wachen, sicherheitsorientierten Sechserflügels lesen – unter
+        toxischer Belastung wandte sich dasselbe Muster, das sonst institutionelle Kontrolle
+        suchte, gegen die engsten Vertrauten selbst.</p>
+        <p class="vb-intro"><strong>c) Rückkehr zur gewohnten Verschlossenheit statt Offenlegung:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses folgte auf die Krise
+        kein öffentliches Bekenntnis oder eine Verhaltensänderung – Newton kehrte zu genau
+        jener Verschlossenheit zurück, die schon vor der Krise sein gesamtes Leben geprägt
+        hatte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Geist, der sich in der eigenen Verborgenheit vergiftete:</strong>
+        Newtons gesamtes Leben war von der Überzeugung geprägt, dass Wissen im Verborgenen
+        am sichersten entwickelt wird – seine alchemistischen Experimente waren die
+        konsequenteste Anwendung dieses Prinzips, und zugleich die gefährlichste, weil
+        niemand von außen auf die toxischen Risiken hinweisen konnte.</p>
+        <p class="vb-intro"><strong>b) Kontrolle über Wissen, aber nicht über die eigene Gesundheit:</strong>
+        Ein Mann, der jeden Aspekt seiner Forschung akribisch kontrollierte – wann, wie und
+        ob überhaupt etwas veröffentlicht wurde –, hatte über die physischen Folgen seiner
+        eigenen Experimente keinerlei Kontrolle, weil er sie gar nicht als Risiko
+        einordnete.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Geist?</strong>
+        Für eine soziale Fünf mit Sechserflügel, deren gesamte Kraft auf klarem, geordnetem
+        Denken beruhte, liegt eine Deutung nahe: Ausgerechnet jenes Organ, das ihm die
+        Kontrolle über sein gesamtes geheimes Wissen ermöglichte, wurde durch die toxische
+        Fracht seiner eigenen Forschung zeitweise selbst außer Kontrolle gebracht – ein
+        Angriff der Sache, die er am meisten schützen wollte, auf das Werkzeug, mit dem er
+        sie schützte. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu
+        Schwermetallvergiftung oder psychischer Krise führt – <strong>jeder Mensch kann jede
+        Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Newtons Fall zeigen
+        lässt, ist ein Muster im Umgang mit selbst auferlegter Gefährdung durch geheime
+        Forschung, das bei einer ausgeprägten sozialen Fünf mit Sechserflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Newton kannte sein eigenes Muster nicht – die soziale Fünf mit Sechserflügel
+        sichert reflexhaft die vollständige Kontrolle über das eigene Wissen und dessen
+        Weitergabe, statt die eigene körperliche Gefährdung je in Frage zu stellen, und
+        genau dieses Muster lebte er auch nach seiner Krise unverändert weiter aus. Wer die
+        eigene Notwendigkeit, jedes Wissen im Verborgenen zu entwickeln, nicht als Muster
+        erkennt, kann sie auch angesichts der eigenen Gefährdung nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Fünf mit Sechserflügel erklärt bei <strong>Newton</strong> vieles am
+        Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf der
+        kontrollierten, geheimen Entwicklung von Wissen beruhte, geriet ausgerechnet durch
+        diese Geheimhaltung selbst außer Kontrolle – der Oktopus, der sein eigenes
+        Verborgenes so lange nicht offenlegte, bis es beinahe seinen eigenen Verstand
+        forderte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6) – Physiker und Mathematiker"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
     </div>
   `);
@@ -123185,6 +123372,7 @@ function render() {
       "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
+      "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
