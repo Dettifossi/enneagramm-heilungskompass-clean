@@ -24032,6 +24032,7 @@ const registerEntries = [
   { term: "Jules Verne Krankheitsporträt", route: "krankheitsportraets-jules-verne", description: "Portrait: SO7w6 · Sozialer Typ 7 · Schussverletzung mit lebenslanger Lähmung, später Diabetes" },
   { term: "Helmut Kohl Krankheitsporträt", route: "krankheitsportraets-helmut-kohl", description: "Portrait: SO8w9 · Sozialer Typ 8 · Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust" },
   { term: "Ai Weiwei Krankheitsporträt", route: "krankheitsportraets-ai-weiwei", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen" },
+  { term: "Woody Allen Krankheitsporträt", route: "krankheitsportraets-woody-allen", description: "Portrait: SE6w7 · Selbsterhaltender Typ 6 · Lebenslange, öffentlich dokumentierte Hypochondrie" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32174,6 +32175,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Sozialer Typ 7", krankheit:"Schussverletzung mit lebenslanger Lähmung, später Diabetes", teaser:"SO7w6 – französischer Schriftsteller, 1828–1905. 1886 durch seinen geistig verwirrten Neffen niedergeschossen, Kugel dauerhaft im Bein, fortan hinkend, später zusätzlich Diabetes. Starb am 24. März 1905 in Amiens im Alter von 77 Jahren." , land:"Frankreich", gender:"m", jahre:"1828–1905"},
   { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Sozialer Typ 8", krankheit:"Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust", teaser:"SO8w9 – deutscher Bundeskanzler, 1930–2017. Schwerer Sturz im Februar 2008 mit Kopfverletzung, danach neun Jahre weitgehend pflegebedürftig, rollstuhlgebunden und in der Sprache stark eingeschränkt. Starb am 16. Juni 2017 in Ludwigshafen-Oggersheim im Alter von 87 Jahren." , land:"Deutschland", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Selbsterhaltender Typ 2", krankheit:"Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen", teaser:"SE2w3 – chinesischer Künstler und Aktivist, geb. 1957. Im August 2009 von der Polizei in Chengdu geschlagen, dadurch Hirnblutung erlitten, im September 2009 Notoperation in München. Seither chronische Kopfschmerzen." , land:"China/Deutschland", gender:"m", jahre:"geb. 1957"},
+  { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Selbsterhaltender Typ 6", krankheit:"Lebenslange, öffentlich dokumentierte Hypochondrie ('Alarmismus')", teaser:"SE6w7 – US-amerikanischer Regisseur, Drehbuchautor und Komiker, geb. 1935. Seit den 1950er-Jahren dokumentierte Gesundheitsangst, über 35 Jahre Psychoanalyse, ausführlich im eigenen New-York-Times-Essay vom 12. Januar 2013 beschrieben." , land:"USA", gender:"m", jahre:"geb. 1935"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44208,7 +44210,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Sicherheit im Vertrauten statt auf der großen Bühne",
         beschreibung: "Die eigentliche Heimat ist nicht die Öffentlichkeit oder das Rampenlicht, sondern der enge, vertraute Kreis – Freunde, Familie, ein bekannter Ort –, aus dem heraus auch außergewöhnliche Leistung entstehen kann.",
-        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹; Klaus J. Behrendt, der trotz jahrzehntelanger Fernsehpräsenz als Tatort-Kommissar Schenk kaum Homestorys zulässt und sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet hat statt auf zusätzliche Sichtbarkeit."
+        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist – und der seine seit den 1950er-Jahren dokumentierte Gesundheitsangst nicht verbarg, sondern über Jahrzehnte in Sprache, Witz und über 35 Jahre Psychoanalyse verwandelte; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹; Klaus J. Behrendt, der trotz jahrzehntelanger Fernsehpräsenz als Tatort-Kommissar Schenk kaum Homestorys zulässt und sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet hat statt auf zusätzliche Sichtbarkeit."
       },
       {
         titel: "Ruhige Funktionsfähigkeit unter extremem Druck, weil die Gefahr längst kalkuliert wurde",
@@ -57748,6 +57750,7 @@ function woodyAllenPortraitPage() {
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-beatrice-chebet", label:"Portr\u00e4t: Beatrice Chebet (SE6w7)"},
         {route:"beruehmte-neil-armstrong", label:"Portr\u00e4t: Neil Armstrong (SE6w7)"},
+        {route:"krankheitsportraets-woody-allen", label:"Krankheitsportr\u00e4t: Woody Allen (SE6w7) \u2013 lebenslange Hypochondrie"},
       ])}
     </div>
   `);
@@ -71155,6 +71158,7 @@ function freudKrankheitsportraetPage() {
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
         {route:"krankheitsportraets-immanuel-kant", label:"Krankheitsporträt: Immanuel Kant (SO6w5) – dasselbe Muster der Selbstkontrolle"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
+        {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7) – verwandte Hypochondrie, andere Instinktantwort"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so6", label:"Subtyp-Profil SO6"},
       ])}
@@ -82987,6 +82991,7 @@ function immanuelKantKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5) – Philosoph"},
         {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5) – dasselbe Muster der Selbstkontrolle"},
+        {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7) – verwandte Hypochondrie, andere Instinktantwort"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so6", label:"Subtyp-Profil SO6"},
       ])}
@@ -83726,6 +83731,190 @@ function aiWeiweiKrankheitsportraetPage() {
         {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3) – dasselbe Muster sichtbaren Leidens"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
+function woodyAllenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-woody-allen-portrait.jpg" alt="Woody Allen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Woody Allen</p>
+        <p class="krim-portrait-typ">SE6w7 · Selbsterhaltender Typ 6 mit Siebenerflügel · geb. 1935</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Kaninchen</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Tierentsprechung: Kaninchen" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Woody Allen</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-woody-allen">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein umfangreiches filmisches
+        Lebenswerk. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: eine
+        jahrzehntelange, öffentlich zelebrierte Hypochondrie, die er selbst lieber als
+        „Alarmismus" bezeichnet – und die sein Leben und Werk seit den 1950er-Jahren
+        ununterbrochen begleitet.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Woody Allen</strong> ist dem <strong>selbsterhaltenden Typ 6 mit
+        Siebenerflügel</strong> zugeordnet. Die SE6 sucht Sicherheit durch Routine und ein
+        eng vertrautes Umfeld; der Siebenerflügel übersetzt die Angst sofort in Sprache,
+        Tempo und Witz, statt in ihr zu erstarren. Genau diese Kombination – Angst, die
+        nie ganz verschwindet, aber ständig in Worte, Pointen und Arbeit verwandelt wird –
+        bestimmte auch, wie Allen mit seiner eigenen Gesundheitsangst umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Beginn der Psychoanalyse um 1957–1959:</strong>
+        Nach eigenen Angaben begann Allen seine analytische Behandlung bereits Ende der
+        1950er-Jahre, in jungen Jahren als aufstrebender Comedy-Autor – ein Startpunkt, der
+        sich über Jahrzehnte fortsetzen sollte.</p>
+        <p class="vb-intro"><strong>b) Über 35 Jahre ununterbrochene Psychoanalyse:</strong>
+        Nach eigener Aussage befand sich Allen mehr als 35 Jahre lang in analytischer
+        Behandlung – nicht mit dem Ziel, geheilt zu werden, sondern um die eigene Angst
+        systematisch zu verstehen und in Worte zu fassen.</p>
+        <p class="vb-intro"><strong>c) Frühe Verarbeitung im eigenen Werk:</strong>
+        Bereits in seinen frühen Filmen und Stand-up-Programmen der 1960er- und
+        1970er-Jahre wird die eigene Gesundheitsangst zum wiederkehrenden komödiantischen
+        Material, lange bevor er öffentlich explizit darüber schrieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Kleinste Symptome werden zu Katastrophen:</strong>
+        Allen beschreibt, dass selbst spröde Lippen bei ihm sofort den Verdacht auf einen
+        Hirntumor, Lungenkrebs oder – in einem selbst geschilderten Fall – Rinderwahnsinn
+        auslösen können.</p>
+        <p class="vb-intro"><strong>b) Selbstbezeichnung als „Alarmist", nicht als Hypochonder:</strong>
+        Allen bestand darauf, dass er keine eingebildeten Leiden erfinde, sondern reale,
+        harmlose Symptome sofort maximal katastrophisch deute – eine feine, aber von ihm
+        selbst betonte Unterscheidung.</p>
+        <p class="vb-intro"><strong>c) Ausgeprägte Flugangst und Angst vor engen Räumen:</strong>
+        Neben der Gesundheitsangst im engeren Sinn prägten auch Flugangst, die Angst vor
+        Aufzügen und geschlossenen Räumen sein Alltagsleben über Jahrzehnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der New-York-Times-Essay vom 12. Januar 2013:</strong>
+        In einem viel beachteten Meinungsbeitrag beschrieb Allen seine Gesundheitsangst
+        selbst ausführlich – darunter die Sorge um die eigenen Sexualpheromone, das
+        Für-tot-Erklären schlafender Männer und die Vermutung, seine eigentliche Angst gelte
+        gar nicht bestimmten Krankheiten, sondern schlicht dem Tod selbst.</p>
+        <p class="vb-intro"><strong>b) Konsequente Weigerung, sich beruhigen zu lassen:</strong>
+        Nach eigener Schilderung genügt bei ihm meist ein Aspirin oder etwas Kalamin-Lotion
+        als tatsächliche Behandlung – doch die Panik davor bleibt jedes Mal unverändert
+        stark, unabhängig von der harmlosen Realität des Symptoms.</p>
+        <p class="vb-intro"><strong>c) Hypochondrie als durchgehendes Filmthema:</strong>
+        Figuren mit ausgeprägter Gesundheitsangst, oft von Allen selbst gespielt, ziehen
+        sich durch sein gesamtes Werk – von frühen Komödien bis in seine späten Filme
+        hinein bleibt das Thema präsent.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Markenzeichen statt eines verborgenen Leidens:</strong>
+        Anders als viele andere Krankheitsverläufe dieses Kompasses wurde Allens
+        Gesundheitsangst nie verschwiegen, sondern von Anfang an zum öffentlich bekannten,
+        sogar vermarkteten Teil seiner künstlerischen Identität.</p>
+        <p class="vb-intro"><strong>b) Ungebremste Schaffenskraft trotz jahrzehntelanger Angst:</strong>
+        Über fünf Jahrzehnte drehte Allen fast im Jahresrhythmus einen neuen Film – die
+        Gesundheitsangst bremste die schiere Menge seines Schaffens zu keinem Zeitpunkt
+        erkennbar.</p>
+        <p class="vb-intro"><strong>c) Ein Publikum, das sich in der eigenen Angst wiedererkannte:</strong>
+        Generationen von Zuschauern fanden in Allens offen ausgestellter Neurose eine Form
+        von Trost – die eigene Angst wurde durch seine Kunst nicht pathologisiert, sondern
+        normalisiert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Angst, die sofort in Sprache verwandelt wird:</strong>
+        Dieselbe SE6w7-Mechanik, die seine gesamte komödiantische Stimme trägt, bestimmte
+        auch seinen Umgang mit der eigenen Gesundheitsangst – nicht Verdrängung, sondern
+        sofortige Übersetzung in Wortschwall, Pointe und Selbstanalyse.</p>
+        <p class="vb-intro"><strong>b) Der Siebenerflügel und die Flucht nach vorn ins nächste Projekt:</strong>
+        Statt bei einem einzelnen Gesundheitsschrecken innezuhalten, trieb der
+        Siebenerflügel Allen immer weiter zum nächsten Film, zum nächsten Klarinettenabend
+        – Arbeit als Bewegung gegen den Stillstand, den die Sechs am meisten fürchtet.</p>
+        <p class="vb-intro"><strong>c) Verstehen als Beruhigungsstrategie:</strong>
+        Die über 35 Jahre fortgesetzte Psychoanalyse zeigt die typische SE6-Haltung: Die
+        eigene Angst wird nicht bekämpft, sondern systematisch kartiert und in Worte
+        gefasst – Verstehen als Weg, mit ihr weiterzuleben, statt sie loszuwerden.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Angst, die zum Lebenswerk wurde:</strong>
+        Für Allen war die eigene Gesundheitsangst nie ein Randphänomen, sondern von Beginn
+        an das eigentliche Material seiner Kunst – ein Leben lang blieb sie sichtbar,
+        nie verborgen, immer wieder neu in Sprache übersetzt.</p>
+        <p class="vb-intro"><strong>b) Eine verwandte, aber andere Ausprägung als bei Kant und Freud:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-immanuel-kant">Immanuel
+        Kant</a> und <a href="javascript:void(0)" data-route="krankheitsportraets-sigmund-freud">Sigmund
+        Freud</a> (beide SO6w5) litten ebenfalls unter ausgeprägter, jahrzehntelanger
+        Gesundheitsangst – doch als soziale Sechser suchten beide Sicherheit durch strenge,
+        selbst entworfene Systeme und Routinen, die sie kaum öffentlich zur Schau stellten.
+        Allens selbsterhaltende Sechs mit Siebenerflügel zeigt dieselbe Grundangst in einer
+        anderen Übersetzung: nicht verborgene Selbstkontrolle, sondern öffentlich
+        ausgestellte, komödiantisch verarbeitete Offenheit. Dieselbe Wurzel – die
+        Sechser-Angst vor dem eigenen Körper –, zwei sehr unterschiedliche Instinkt-Antworten
+        darauf.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der eigene Körper?</strong>
+        Für eine selbsterhaltende Sechs, deren gesamte Sicherheit auf der sorgfältigen
+        Kontrolle des eigenen, nächsten Umfelds beruht, liegt eine Deutung nahe: Der eigene
+        Körper ist das unmittelbarste, am wenigsten kontrollierbare Territorium überhaupt –
+        jedes noch so kleine Anzeichen einer Störung bedroht genau jene Sicherheit, auf die
+        sich der Selbsterhaltungsinstinkt am stärksten konzentriert. Diese Deutung ist eine
+        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Sechs zwangsläufig zu
+        ausgeprägter Hypochondrie führt – <strong>jeder Mensch kann jedes psychische oder
+        körperliche Muster entwickeln, unabhängig vom Subtyp.</strong> Was sich an Allens
+        Fall zeigen lässt, ist ein Muster im Umgang mit Gesundheitsangst, das bei einer
+        ausgeprägten selbsterhaltenden Sechs mit Siebenerflügel immer wieder auffällt – eine
+        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Allen kannte sein eigenes Muster nicht als Enneagramm-Struktur – die
+        selbsterhaltende Sechs mit Siebenerflügel übersetzt reflexhaft jede Bedrohung des
+        eigenen Körpers in Sprache und Bewegung, statt sie je zur Ruhe kommen zu lassen, und
+        genau dieses Muster lebte er über sechs Jahrzehnte praktisch unverändert aus. Wer
+        die eigene Neigung, Angst sofort in Wortschwall und Arbeit zu verwandeln, nicht als
+        Muster erkennt, kann auch mit über neunzig Jahren nicht innehalten, um sie einfach
+        auszuhalten.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Sechs mit Siebenerflügel erklärt bei <strong>Woody Allen</strong>
+        vieles am Umgang mit der eigenen Gesundheitsangst: ein Mann, dessen gesamtes Werk
+        auf der Übersetzung von Angst in Sprache beruhte, machte aus jedem noch so kleinen
+        Symptom Material statt Stillstand – das Kaninchen, das nie aufhört, wachsam zu sein,
+        aber gelernt hat, aus der eigenen Wachsamkeit sechs Jahrzehnte lang Kunst zu machen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7) – das Kaninchen"},
+        {route:"krankheitsportraets-immanuel-kant", label:"Krankheitsporträt: Immanuel Kant (SO6w5) – verwandte Hypochondrie, andere Instinktantwort"},
+        {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se6", label:"Subtyp-Profil SE6"},
       ])}
     </div>
   `);
@@ -124324,6 +124513,7 @@ function render() {
       "krankheitsportraets-jules-verne": julesVerneKrankheitsportraetPage,
       "krankheitsportraets-helmut-kohl": helmutKohlKrankheitsportraetPage,
       "krankheitsportraets-ai-weiwei": aiWeiweiKrankheitsportraetPage,
+      "krankheitsportraets-woody-allen": woodyAllenKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

@@ -258,6 +258,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Social Type 7", krankheit:"Gunshot wound with lifelong lameness, later diabetes", teaser:"SO7w6 – French writer, 1828–1905. Shot by his mentally disturbed nephew in 1886, bullet permanently lodged in his leg, left with a limp, later also developed diabetes. Died on March 24, 1905, in Amiens at age 77." , land:"France", gender:"m", jahre:"1828–1905"},
   { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Social Type 8", krankheit:"Severe fall with head injury, permanent wheelchair use and loss of speech", teaser:"SO8w9 – German Chancellor, 1930–2017. Severe fall in February 2008 with head injury, followed by nine years largely dependent on care, wheelchair-bound and severely limited in speech. Died on June 16, 2017, in Ludwigshafen-Oggersheim at age 87." , land:"Germany", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Self-Preservation Type 2", krankheit:"Police violence with cerebral hemorrhage in 2009, chronic headaches since", teaser:"SE2w3 – Chinese artist and activist, b. 1957. Beaten by police in Chengdu in August 2009, suffered a cerebral hemorrhage as a result, emergency surgery in Munich in September 2009. Chronic headaches ever since." , land:"China/Germany", gender:"m", jahre:"b. 1957"},
+  { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Self-Preservation Type 6", krankheit:"Lifelong, publicly documented hypochondria ('alarmism')", teaser:"SE6w7 – American director, screenwriter, and comedian, b. 1935. Documented health anxiety since the 1950s, over 35 years of psychoanalysis, described in detail in his own New York Times essay of January 12, 2013." , land:"USA", gender:"m", jahre:"b. 1935"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -36259,6 +36260,7 @@ function woodyAllenPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
         {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w7)"},
+        {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – lifelong hypochondria"},
       ])}
     </div>
   `);
@@ -43609,6 +43611,7 @@ function freudKrankheitsportraetPage() {
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
         {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – the same pattern of self-control"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
+        {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – related hypochondria, a different instinct response"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so6", label:"Subtype Profile SO6"},
       ])}
@@ -54685,6 +54688,7 @@ function immanuelKantKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – philosopher"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5) – the same pattern of self-control"},
+        {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – related hypochondria, a different instinct response"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so6", label:"Subtype Profile SO6"},
       ])}
@@ -55393,6 +55397,183 @@ function aiWeiweiKrankheitsportraetPage() {
         {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SP2w3) – the same pattern of visible suffering"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SP2"},
+      ])}
+    </div>
+  `);
+}
+
+function woodyAllenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-woody-allen-portrait.jpg" alt="Woody Allen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Woody Allen</p>
+        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with Seven-wing &middot; b. 1935</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Rabbit</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Animal correspondence: Rabbit" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Woody Allen</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-woody-allen">Famous Personality Portrait</a>
+        in this Compass – that portrait focuses on his extensive body of filmmaking work.
+        This page explores a chapter only touched on there: a decades-long, publicly
+        celebrated hypochondria, which he himself prefers to call "alarmism" – a pattern
+        that has accompanied his life and work continuously since the 1950s.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Woody Allen</strong> is assigned to the <strong>Self-Preservation Type 6
+        with Seven-wing</strong>. The SP6 seeks safety through routine and a tightly
+        familiar environment; the Seven-wing immediately translates fear into language,
+        pace, and wit rather than freezing in it. This exact combination – fear that never
+        fully disappears but is constantly transformed into words, punchlines, and work –
+        also determined how Allen handled his own health anxiety.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Beginning psychoanalysis around 1957–1959:</strong>
+        By his own account, Allen began analytic treatment as early as the late 1950s, as
+        a young, up-and-coming comedy writer – a starting point that would continue for
+        decades.</p>
+        <p class="vb-intro"><strong>b) Over 35 years of uninterrupted psychoanalysis:</strong>
+        By his own account, Allen underwent analytic treatment for more than 35 years – not
+        with the goal of being cured, but to systematically understand and put his own fear
+        into words.</p>
+        <p class="vb-intro"><strong>c) Early processing in his own work:</strong>
+        Already in his early films and stand-up routines of the 1960s and 1970s, his own
+        health anxiety became a recurring comedic material, long before he wrote about it
+        explicitly in public.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The smallest symptoms become catastrophes:</strong>
+        Allen describes that even chapped lips can immediately trigger suspicion of a brain
+        tumor, lung cancer, or – in one self-described instance – Mad Cow disease.</p>
+        <p class="vb-intro"><strong>b) Self-description as an "alarmist," not a hypochondriac:</strong>
+        Allen insisted that he did not invent imaginary ailments, but instead interpreted
+        real, harmless symptoms in the most catastrophic way possible – a fine but, in his
+        own words, important distinction.</p>
+        <p class="vb-intro"><strong>c) Pronounced fear of flying and of confined spaces:</strong>
+        Alongside health anxiety in the narrower sense, fear of flying, elevators, and
+        confined spaces shaped his daily life for decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The New York Times essay of January 12, 2013:</strong>
+        In a widely noticed opinion piece, Allen described his own health anxiety in
+        detail – including worry about his own sex pheromones, pronouncing sleeping men
+        dead, and the suspicion that his real fear was not any particular illness but
+        simply death itself.</p>
+        <p class="vb-intro"><strong>b) A consistent refusal to be reassured:</strong>
+        By his own account, an aspirin or some calamine lotion is usually all the actual
+        treatment he needs – yet the panic beforehand remains equally strong every time,
+        regardless of how harmless the symptom actually is.</p>
+        <p class="vb-intro"><strong>c) Hypochondria as a recurring film theme:</strong>
+        Characters with pronounced health anxiety, often played by Allen himself, run
+        through his entire body of work – from early comedies to his later films, the
+        theme remains present.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A trademark rather than a hidden affliction:</strong>
+        Unlike many other illness histories in this Compass, Allen's health anxiety was
+        never concealed but from the start became a publicly known, even marketed part of
+        his artistic identity.</p>
+        <p class="vb-intro"><strong>b) Undiminished creative output despite decades of fear:</strong>
+        Over five decades, Allen made a new film at almost an annual rate – his health
+        anxiety never visibly slowed the sheer volume of his output.</p>
+        <p class="vb-intro"><strong>c) An audience that recognized itself in his fear:</strong>
+        Generations of viewers found a form of comfort in Allen's openly displayed
+        neurosis – his art did not pathologize their own fear but normalized it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Fear immediately translated into language:</strong>
+        The same SP6w7 mechanism that carries his entire comedic voice also determined his
+        handling of his own health anxiety – not repression, but immediate translation
+        into a flood of words, punchlines, and self-analysis.</p>
+        <p class="vb-intro"><strong>b) The Seven-wing and the forward flight into the next project:</strong>
+        Rather than pausing at any single health scare, the Seven-wing kept driving Allen
+        toward the next film, the next clarinet evening – work as motion against the
+        standstill the Six fears most.</p>
+        <p class="vb-intro"><strong>c) Understanding as a reassurance strategy:</strong>
+        The more than 35 years of continued psychoanalysis show the typical SP6 stance:
+        one's own fear is not fought but systematically mapped and put into words –
+        understanding as a way to keep living with it, rather than get rid of it.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A fear that became his life's work:</strong>
+        For Allen, his own health anxiety was never a side phenomenon but, from the start,
+        the actual material of his art – a lifelong pattern that stayed visible, never
+        hidden, always translated anew into language.</p>
+        <p class="vb-intro"><strong>b) A related but different expression than in Kant and Freud:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-immanuel-kant">Immanuel
+        Kant</a> and <a href="javascript:void(0)" data-route="krankheitsportraets-sigmund-freud">Sigmund
+        Freud</a> (both SO6w5) also suffered from pronounced, decades-long health anxiety –
+        but as social Sixes, both sought safety through strict, self-devised systems and
+        routines that they rarely displayed publicly. Allen's Self-Preservation Six with a
+        Seven-wing shows the same underlying fear in a different translation: not hidden
+        self-control, but publicly displayed, comedically processed openness. The same
+        root – the Six's fear of one's own body – two very different instinctual responses
+        to it.</p>
+        <p class="vb-intro"><strong>c) Why the body itself, of all things?</strong>
+        For a Self-Preservation Six, whose entire sense of safety rests on the careful
+        control of their own immediate surroundings, one interpretation suggests itself:
+        one's own body is the most immediate, least controllable territory of all – even
+        the smallest sign of disturbance threatens exactly the safety on which the
+        Self-Preservation instinct is most focused. This interpretation is a plausible
+        reading, not a documented clinical causal link, and will be developed further in
+        this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
+        This does not mean that the Self-Preservation Six's pattern inevitably leads to
+        pronounced hypochondria – <strong>anyone can develop any psychological or physical
+        pattern, regardless of subtype.</strong> What Allen's case illustrates is a pattern
+        in how a pronounced Self-Preservation Six with a Seven-wing tends to handle health
+        anxiety – one of many possible interpretations, not a verdict. The corresponding
+        illness picture is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Allen did not know his own pattern as an Enneagram structure – the Self-Preservation
+        Six with a Seven-wing reflexively translates every perceived threat to its own body
+        into language and motion instead of ever letting it settle, and he lived out
+        exactly this pattern virtually unchanged for six decades. Someone who does not
+        recognize their own tendency to immediately turn fear into a flood of words and
+        work as a pattern cannot pause, even past the age of ninety, to simply sit with
+        it.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Six with a Seven-wing explains much about how
+        <strong>Woody Allen</strong> handled his own health anxiety: a man whose entire body
+        of work rested on translating fear into language turned every smallest symptom into
+        material rather than standstill – the rabbit that never stops keeping watch, but
+        learned to make art out of its own vigilance for six decades.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7) – the rabbit"},
+        {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – related hypochondria, a different instinct response"},
+        {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se6", label:"Subtype Profile SP6"},
       ])}
     </div>
   `);
@@ -88521,6 +88702,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-jules-verne": julesVerneKrankheitsportraetPage,
       "krankheitsportraets-helmut-kohl": helmutKohlKrankheitsportraetPage,
       "krankheitsportraets-ai-weiwei": aiWeiweiKrankheitsportraetPage,
+      "krankheitsportraets-woody-allen": woodyAllenKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
