@@ -24028,6 +24028,7 @@ const registerEntries = [
   { term: "Frida Kahlo Krankheitsporträt", route: "krankheitsportraets-frida-kahlo", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Rund 30 Operationen, Beinamputation" },
   { term: "Yayoi Kusama Krankheitsporträt", route: "krankheitsportraets-yayoi-kusama", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Halluzinationen seit Kindheit, freiwillig in Psychiatrie seit 1977" },
   { term: "Michael Schumacher Krankheitsporträt", route: "krankheitsportraets-michael-schumacher", description: "Portrait: SX6w7 · Sexueller Typ 6 · Schädel-Hirn-Trauma nach Skiunfall 2013, mediale Abschottung" },
+  { term: "Klaus Kinski Krankheitsporträt", route: "krankheitsportraets-klaus-kinski", description: "Portrait: SX1w9 · Sexueller Typ 1 · Psychiatrische Zwangseinweisung 1950, lebenslange Wutausbrüche" },
   { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
@@ -32259,6 +32260,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Sozialer Typ 4", krankheit:"Nierenoperation, eskalierender Alkohol- und Tablettenkonsum, ungeklärter Tod", teaser:"SO4w3 – Schauspielerin, 1938–1982. Schwere Nierenoperation, Suizid ihres ersten Mannes Harry Meyen 1979, tödlicher Unfall ihres Sohnes David 1981. Starb am 29. Mai 1982 offiziell an Herzversagen, ohne Obduktion. Verknüpft mit Michael Jackson (ebenfalls SO4w3, ebenfalls Substanzabhängigkeit hinter makelloser Fassade)." , land:"Österreich/Deutschland", gender:"f", jahre:"1938–1982"},
   { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Selbsterhaltender Typ 2", krankheit:"Seit Kindheit bestehende Halluzinationen und Depersonalisation, freiwillig in psychiatrischer Klinik seit 1977", teaser:"SE2w3 – japanische Künstlerin, geb. 1929. Halluzinationen seit früher Kindheit, mehrere Suizidversuche in den 1970ern, seit 1977 freiwillig im Seiwa-Krankenhaus für psychisch Kranke in Tokio. Arbeitet bis heute täglich in ihrem Atelier. Verknüpft mit Frida Kahlo (ebenfalls SE2w3, ebenfalls Kunst aus lebenslangem Leiden)." , land:"Japan", gender:"f", jahre:"geb. 1929"},
   { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexueller Typ 6", krankheit:"Schweres Schädel-Hirn-Trauma nach Skiunfall 2013, seither vollständige mediale Abschottung", teaser:"SX6w7 – Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969. Skiunfall am 29. Dezember 2013 in Méribel mit schwerem Schädel-Hirn-Trauma, mehrere Notoperationen, monatelanges künstliches Koma. Seit der Entlassung 2014 hält die Familie seinen Gesundheitszustand vollständig geheim." , land:"Deutschland", gender:"m", jahre:"geb. 1969"},
+  { route:"krankheitsportraets-klaus-kinski", name:"Klaus Kinski", subtyp:"SX1w9", heading:"Klaus Kinski – Sexueller Typ 1", krankheit:"Psychiatrische Zwangseinweisung 1950 mit vorläufiger Schizophrenie-Diagnose, lebenslange Wutausbrüche", teaser:"SX1w9 – Schauspieler, 1926–1991. Zwangseinweisung am 5. September 1950 nach Suizidversuch und Gewaltausbruch, vorläufige Diagnose Schizophrenie, später auf Psychopathie revidiert. Legendäre Wutausbrüche am Set über Jahrzehnte, 2013 posthume Missbrauchsvorwürfe seiner Tochter Pola." , land:"Deutschland", gender:"m", jahre:"1926–1991"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -81345,6 +81347,188 @@ function michaelSchumacherKrankheitsportraetPage() {
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function klausKinskiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-klaus-kinski-portrait.jpg" alt="Klaus Kinski" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klaus Kinski</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · 1926–1991</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Klaus Kinski</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-klaus-kinski">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein schauspielerisches Lebenswerk und
+        seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das dort nicht
+        behandelt wird: eine 1950 dokumentierte psychiatrische Zwangseinweisung mit der
+        vorläufigen Diagnose Schizophrenie, eine von Kriegsgefangenschaft und Armut geprägte
+        Jugend, und die erst nach seinem Tod öffentlich gewordenen Missbrauchsvorwürfe seiner
+        Tochter Pola.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kinski</strong> ist dem <strong>sexuellen Typ 1 mit Neunerflügel</strong>
+        zugeordnet, dem Kontratyp der Eins. Naranjo nannte diesen Subtyp <em>Inbrunst</em>:
+        eine ungefilterte, kompromisslose moralische Energie, die alle sozialen Filter
+        durchbricht. Genau diese schrankenlose Intensität, verbunden mit der Beharrlichkeit
+        des Neunerflügels, zieht sich als Muster durch seine gesamte, teils tragische
+        Krankengeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine von extremer Armut geprägte Kindheit:</strong>
+        Kinski wuchs, geboren 1926 als Nikolaus Günther Nakszyński in Danzig, in bitterer Armut
+        auf – eine familiäre Notlage, die er später selbst als prägend für sein gesamtes Leben
+        beschrieb.</p>
+        <p class="vb-intro"><strong>b) Über ein Jahr Kriegsgefangenschaft:</strong>
+        Nach seinem Kriegseinsatz geriet Kinski in britische Gefangenschaft und verbrachte
+        rund sechzehn Monate in einem Gefangenenlager, bevor er 1946 nach Deutschland
+        zurückkehren konnte.</p>
+        <p class="vb-intro"><strong>c) Fristlose Kündigung wegen unberechenbaren Verhaltens:</strong>
+        Am renommierten Schlosspark-Theater in Berlin engagiert, wurde Kinski bereits 1947
+        wegen seines unvorhersehbaren, schwer kontrollierbaren Auftretens wieder entlassen –
+        eines der ersten dokumentierten Anzeichen eines Musters, das sein gesamtes Berufsleben
+        begleiten sollte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Zwangseinweisung am 5. September 1950:</strong>
+        Der 26-jährige Kinski wurde nach einem Suizidversuch und einem Ausbruch, bei dem er die
+        Küche eines Arztes verwüstete und versuchte, eine Ärztin zu würgen, von der Polizei in
+        die Wittenauer Heilstätten in Berlin (im Volksmund „Bonnies Ranch") eingeliefert.</p>
+        <p class="vb-intro"><strong>b) Vorläufige Diagnose Schizophrenie, später revidiert:</strong>
+        Die Akte verzeichnet als vorläufige Diagnose Schizophrenie; die endgültige Einordnung
+        lautete später auf Psychopathie – in heutiger Terminologie am ehesten vergleichbar mit
+        einer dissozialen bzw. antisozialen Persönlichkeitsstörung.</p>
+        <p class="vb-intro"><strong>c) Insulin-Behandlung und Entlassung nach drei Tagen:</strong>
+        Kinski erhielt in der Klinik eine Insulinschock-Behandlung, damals ein gängiges,
+        drastisches Mittel der Psychiatrie, und wurde auf eigenen Wunsch bereits nach drei
+        Tagen wieder entlassen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Legendäre, oft gewalttätige Wutausbrüche am Set:</strong>
+        Über Jahrzehnte hinweg war Kinski für seine Ausbrüche bei Dreharbeiten berüchtigt –
+        Regisseure und Kollegen berichteten übereinstimmend von Momenten, in denen sein Zorn
+        jede professionelle Kontrolle sprengte.</p>
+        <p class="vb-intro"><strong>b) Ein öffentlich ausgetragener Konflikt mit Werner Herzog:</strong>
+        Die Spannungen während der Dreharbeiten zu <em>Aguirre, der Zorn Gottes</em> und
+        <em>Fitzcarraldo</em> eskalierten mehrfach so weit, dass Herzog später öffentlich von
+        Morddrohungen berichtete – eine Beziehung, die von beiden Seiten als gleichermaßen
+        zerstörerisch wie unverzichtbar beschrieben wurde.</p>
+        <p class="vb-intro"><strong>c) Eine 1988 zurückgezogene, 1996 erneut veröffentlichte Autobiografie:</strong>
+        Kinskis Autobiografie „Kinski Uncut" musste nach ihrem ersten Erscheinen wegen
+        Verleumdungsklagen zurückgezogen werden und erschien erst nach seinem Tod erneut –
+        ein Text von schonungsloser, oft verstörender Offenheit über sich selbst und andere.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Rechtsstreit um seine eigene Krankenakte:</strong>
+        Erst 2008, siebzehn Jahre nach seinem Tod, wurde die psychiatrische Akte von 1950
+        öffentlich bekannt, nachdem das zuständige Klinikarchiv historische Unterlagen
+        freigegeben hatte – seine Witwe ging daraufhin juristisch gegen die Veröffentlichung
+        vor.</p>
+        <p class="vb-intro"><strong>b) Anklagen seiner Tochter nach seinem Tod:</strong>
+        2013 veröffentlichte Kinskis Tochter Pola ein Buch, in dem sie ihm wiederholten
+        sexuellen Missbrauch in ihrer Kindheit vorwarf – Vorwürfe, die posthum ein neues,
+        erschütterndes Licht auf sein Privatleben warfen und bis heute Teil seiner
+        öffentlichen Rezeption sind.</p>
+        <p class="vb-intro"><strong>c) Ein Lebenswerk, das trotz allem Bestand hat:</strong>
+        Trotz der Kontroversen um seine Person gelten seine Filme mit Werner Herzog bis heute
+        als Meilensteine der Filmgeschichte – ein Werk, das sich nicht von der Person trennen
+        lässt, die es hervorgebracht hat.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Mamba, die sich bedroht fühlt und zubeißt:</strong>
+        Der Zusammenbruch 1950 – Suizidversuch, Zerstörungswut, der Versuch, eine Ärztin zu
+        würgen – zeigt das Muster der sexuellen Eins in seiner ungefiltertsten, gefährlichsten
+        Form: ein moralisch-emotionaler Druck, der keine soziale Bremse mehr findet und sich
+        körperlich entlädt.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und das jahrzehntelange Festhalten am Muster:</strong>
+        Dieselbe Beharrlichkeit, die ihn Jahrzehnte an Werner Herzog band, hielt ihn auch an
+        seinem eigenen, sich immer wiederholenden Verhaltensmuster fest – Ausbrüche, die sich
+        über ein ganzes Berufsleben in nahezu identischer Form wiederholten, statt sich mit
+        der Zeit zu verändern.</p>
+        <p class="vb-intro"><strong>c) Radikale Offenheit statt Verbergung – mit hohem Preis:</strong>
+        Anders als viele andere Personen in diesem Kompass versteckte Kinski seine dunkelsten
+        Seiten nicht – seine Autobiografie legt Grausames über sich selbst offen. Doch diese
+        schonungslose Offenheit schützte weder ihn noch die Menschen in seinem Umfeld vor den
+        Folgen seines Verhaltens.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Vom Zorn als moralischem Urteil zum Zorn als Zusammenbruch:</strong>
+        Was in seinen Rollen und öffentlichen Auftritten oft als kontrollierte künstlerische
+        Intensität erschien, zeigte sich 1950 in seiner reinsten, unkontrollierten Form – als
+        akute psychische Krise, die in Gewalt gegen sich selbst und andere mündete.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet ein Zusammenbruch der Kontrolle, bei einem Mann, dessen ganzes Leben um Kontrolle über die eigene Wahrheit kreiste?</strong>
+        Für eine sexuelle Eins, deren gesamtes Selbstverständnis auf der kompromisslosen
+        Durchsetzung der eigenen moralischen und künstlerischen Standards beruhte, liegt eine
+        Deutung nahe: Ausgerechnet der völlige Kontrollverlust – Suizidversuch, Zerstörung,
+        körperliche Gewalt – bricht dort durch, wo die innere Anspannung keinen sozial
+        akzeptierten Ausweg mehr findet. Diese Deutung ist eine plausible Interpretation, kein
+        belegter medizinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu psychiatrischen
+        Krisen oder Gewaltverhalten führt – <strong>jeder Mensch kann jede psychische
+        Erkrankung entwickeln, unabhängig vom Subtyp.</strong> Was sich an Kinskis Fall zeigen
+        lässt, ist ein Muster im Umgang mit ungefilterter moralischer Intensität, das bei einer
+        ausgeprägten sexuellen Eins immer wieder auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil und keine Entschuldigung für sein Verhalten gegenüber anderen.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Nichts deutet darauf hin, dass Kinski sein eigenes Enneagramm-Muster je bewusst kannte
+        – das System war zu seinen Lebzeiten kaum verbreitet. Er lebte die Inbrunst und den
+        Zorn der sexuellen Eins völlig ungebremst aus, von der psychiatrischen Krise 1950 bis
+        zu den Ausbrüchen am Set Jahrzehnte später, ohne dass sich das Muster je grundlegend
+        veränderte. Wer die eigene moralische Intensität nicht als wiederkehrendes Muster
+        erkennt, kann ihr auch nicht rechtzeitig begegnen – mit Folgen, die weit über ihn
+        selbst hinausreichten und, wie die späteren Vorwürfe seiner Tochter zeigen, auch
+        andere Menschen schwer belasteten.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch an seiner psychiatrischen Vorgeschichte lässt sich <strong>Kinskis</strong>
+        sexuelle Eins mit Neunerflügel noch einmal ablesen: eine ungefilterte, kompromisslose
+        Intensität, die 1950 in einem akuten Zusammenbruch gipfelte und sich über Jahrzehnte
+        hinweg, kaum verändert, in seinem beruflichen wie privaten Leben fortsetzte. Die
+        Schwarze Mamba, die nie gelernt hat, ihren Biss zurückzuhalten – mit einem
+        Lebenswerk, das bis heute fasziniert, und einer Spur an Verletzungen, die bis heute
+        nachwirkt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
       ])}
     </div>
   `);
@@ -130908,6 +131092,7 @@ function render() {
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
       "krankheitsportraets-michael-schumacher": michaelSchumacherKrankheitsportraetPage,
+      "krankheitsportraets-klaus-kinski": klausKinskiKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
