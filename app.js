@@ -24052,6 +24052,7 @@ const registerEntries = [
   { term: "Bob Marley Krankheitsporträt", route: "krankheitsportraets-bob-marley", description: "Portrait: SO2w1 · Sozialer Typ 2 · Malignes Melanom, aus religiösen Gründen abgelehnte Amputation" },
   { term: "Angelina Jolie Krankheitsporträt", route: "krankheitsportraets-angelina-jolie", description: "Portrait: SO1w2 · Sozialer Typ 1 · BRCA1-Genmutation, präventive doppelte Mastektomie 2013" },
   { term: "Adele Krankheitsporträt", route: "krankheitsportraets-adele", description: "Portrait: SE4w3 · Selbsterhaltender Typ 4 · Schwere postnatale Depression mit Panikattacken" },
+  { term: "Jamie Lee Curtis Krankheitsporträt", route: "krankheitsportraets-jamie-lee-curtis", description: "Portrait: SX1w2 · Sexueller Typ 1 · 22 Jahre andauernde Opiatabhängigkeit" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32215,6 +32216,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-bob-marley", name:"Bob Marley", subtyp:"SO2w1", heading:"Bob Marley – Sozialer Typ 2", krankheit:"Malignes Melanom an der Zehe, aus religiösen Gründen abgelehnte Amputation", teaser:"SO2w1 – jamaikanischer Musiker, 1945–1981. 1977 diagnostiziertes malignes Melanom, aus religiösen Gründen abgelehnte Amputation, Ausbreitung des Krebses über Jahre, Tod am 11. Mai 1981 im Alter von 36 Jahren." , land:"Jamaika", gender:"m", jahre:"1945–1981"},
   { route:"krankheitsportraets-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2", heading:"Angelina Jolie – Sozialer Typ 1", krankheit:"BRCA1-Genmutation, präventive doppelte Mastektomie 2013, Entfernung von Eierstöcken und Eileitern 2015", teaser:"SO1w2 – Schauspielerin und Regisseurin, geb. 1975. Nachweis der BRCA1-Genmutation nach familiärer Krebshäufung, öffentlich gemachte präventive doppelte Mastektomie 2013, Entfernung von Eierstöcken und Eileitern 2015." , land:"USA", gender:"f", jahre:"geb. 1975"},
   { route:"krankheitsportraets-adele", name:"Adele", subtyp:"SE4w3", heading:"Adele – Selbsterhaltender Typ 4", krankheit:"Schwere postnatale Depression mit Panikattacken, fast ein Jahrzehnt lang verschwiegen", teaser:"SE4w3 – Sängerin und Songwriterin, geb. 1988. Postnatale Depression nach der Geburt ihres Sohnes 2012, begleitende Panikattacken vor Auftritten, öffentliche Offenlegung erst 2021." , land:"Vereinigtes Königreich", gender:"f", jahre:"geb. 1988"},
+  { route:"krankheitsportraets-jamie-lee-curtis", name:"Jamie Lee Curtis", subtyp:"SX1w2", heading:"Jamie Lee Curtis – Sexueller Typ 1", krankheit:"22 Jahre andauernde Opiatabhängigkeit nach kosmetischer Operation", teaser:"SX1w2 – Schauspielerin und Aktivistin, geb. 1958. Opiatabhängigkeit ab 1989 nach kosmetischem Eingriff, über zehn Jahre heimlich fortgeführt, nüchtern seit dem 19. Februar 1999." , land:"USA", gender:"f", jahre:"geb. 1958"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -63781,6 +63783,7 @@ function jamieleecurtisPortraitPage() {
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-leonardo-dicaprio", label:"Portr\u00e4t: Leonardo DiCaprio (SX1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
+        {route:"krankheitsportraets-jamie-lee-curtis", label:"Krankheitsportr\u00e4t: Jamie Lee Curtis (SX1w2) \u2013 Opiatabh\u00e4ngigkeit"},
       ])}
     </div>
   `);
@@ -85787,6 +85790,7 @@ function robbieWilliamsKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-robbie-williams", label:"Porträt: Robbie Williams (SX1w2)"},
+        {route:"krankheitsportraets-jamie-lee-curtis", label:"Krankheitsporträt: Jamie Lee Curtis (SX1w2) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
       ])}
@@ -87330,6 +87334,182 @@ function adeleKrankheitsportraetPage() {
         {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+      ])}
+    </div>
+  `);
+}
+
+function jamieLeeCurtisKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jamie-lee-curtis-portrait.jpg" alt="Jamie Lee Curtis" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jamie Lee Curtis</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel · geb. 1958</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jamie Lee Curtis</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-jamie-lee-curtis">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nur kurz erwähnt wird: eine 22 Jahre andauernde Opiatabhängigkeit,
+        die 1989 nach einer kosmetischen Operation begann und die sie erst 1999 überwand.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Curtis</strong> ist dem <strong>sexuellen Typ 1 mit Zweierflügel</strong>
+        zugeordnet. Die SX1 duldet keine Heuchelei, auch nicht gegenüber sich selbst; der
+        Zweierflügel bringt die Fürsorge hinzu, die schließlich den Anstoß zum Ausstieg gab.
+        Genau diese Kombination – jahrelanges heimliches Scheitern an einem selbst
+        gesetzten Anspruch, gefolgt von einer radikal ehrlichen, öffentlichen Aufarbeitung –
+        bestimmte den Verlauf ihrer Suchterkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Verordnung von Opiaten nach kosmetischer Operation 1989:</strong>
+        Nach eigener Schilderung erhielt Curtis nach einem kleinen kosmetischen Eingriff an
+        den Augenlidern 1989 Opiate verschrieben, die zunächst regulär eingesetzt wurden.</p>
+        <p class="vb-intro"><strong>b) Schleichender Übergang zur Abhängigkeit:</strong>
+        Aus der ärztlich verordneten Schmerzbehandlung entwickelte sich über Jahre eine
+        körperliche Abhängigkeit, die weit über die ursprünglich beabsichtigte Anwendung
+        hinausging.</p>
+        <p class="vb-intro"><strong>c) Jahrelange, sorgfältig verborgene Fortsetzung:</strong>
+        Curtis beschrieb später, wie sie über zehn Jahre lang eine funktionierende
+        Fassade aufrechterhielt, während sie heimlich Vicodin nahm – auch gegenüber engsten
+        Familienmitgliedern.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Entdeckung durch die eigene Schwester:</strong>
+        Nach eigener Aussage wurde die Abhängigkeit publik, als sie feststellte, dass sie
+        Alkoholika und Medikamente ihrer Schwester genommen hatte – ein Moment, der sie
+        zwang, sich der Realität ihrer Sucht zu stellen.</p>
+        <p class="vb-intro"><strong>b) Sofortiger Entschluss zur Abstinenz 1999:</strong>
+        Curtis beschreibt den 19. Februar 1999 als den Tag, an dem sie zuletzt Opiate oder
+        Alkohol konsumierte – ein Datum, das sie seither konsequent als ihren Nüchternheits-
+        Jahrestag begeht.</p>
+        <p class="vb-intro"><strong>c) Unterstützung durch familiäre und therapeutische Strukturen:</strong>
+        Der Ausstieg gelang nach eigener Schilderung durch eine Kombination aus Therapie,
+        Selbsthilfegruppen und dem offenen Rückhalt ihrer Familie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Frühe öffentliche Offenlegung:</strong>
+        Curtis sprach bereits Anfang der 2000er-Jahre öffentlich über ihre Suchterkrankung –
+        zu einem Zeitpunkt, an dem Prominente ihre Abhängigkeiten in der Regel noch
+        verschwiegen.</p>
+        <p class="vb-intro"><strong>b) Engagement für Suchthilfe-Organisationen:</strong>
+        Seither unterstützt sie öffentlich Organisationen, die sich für Suchtprävention und
+        -behandlung einsetzen, und spricht regelmäßig über den Zusammenhang zwischen
+        verschriebenen Schmerzmitteln und Opioidabhängigkeit.</p>
+        <p class="vb-intro"><strong>c) Kritik an der Rolle der Pharmaindustrie:</strong>
+        Curtis äußerte sich wiederholt kritisch zur Verantwortung von Pharmaunternehmen bei
+        der US-amerikanischen Opioidkrise, auch mit Blick auf ihre eigene Erfahrung als
+        Patientin.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Anerkennung als eine der ersten offenen Stimmen Hollywoods:</strong>
+        Curtis gilt bis heute als eine der ersten großen Hollywood-Schauspielerinnen, die
+        offen und ohne Umschweife über eine eigene Suchterkrankung sprach.</p>
+        <p class="vb-intro"><strong>b) Über zwei Jahrzehnte anhaltende Nüchternheit:</strong>
+        Seit 1999 bezeichnet sich Curtis öffentlich als nüchtern – eine Kontinuität, die sie
+        regelmäßig in Interviews und Reden thematisiert, ohne den Kampf zu verklären.</p>
+        <p class="vb-intro"><strong>c) Kein Karriereeinschnitt durch die Offenlegung:</strong>
+        Anders als befürchtet schadete die öffentliche Offenheit ihrer Karriere nicht –
+        Curtis blieb durchgängig aktiv und erreichte mit dem Oscar 2023 sogar den bislang
+        größten Erfolg ihrer Laufbahn.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der innere Widerspruch zwischen Anspruch und heimlicher Sucht:</strong>
+        Die SX1-typische Unduldsamkeit gegenüber Heuchelei traf bei Curtis auf eine
+        Erkrankung, die sie über Jahre selbst zur Heuchlerin machte – ein Widerspruch, der
+        die spätere, besonders schonungslose Offenheit miterklärt.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel und der Impuls zur Fürsorge nach dem Ausstieg:</strong>
+        Sobald Curtis die eigene Abhängigkeit überwunden hatte, richtete sich dieselbe
+        Energie, die zuvor nach innen gerichtet war, nach außen: Sie begann, andere
+        Betroffene zu unterstützen und öffentlich für Suchtprävention einzutreten.</p>
+        <p class="vb-intro"><strong>c) Radikale Offenheit als Ausdruck der Leidenschaft:</strong>
+        Dass Curtis ihre Sucht nicht nur beendete, sondern aktiv öffentlich machte, passt zur
+        SX1-typischen Überzeugung, dass Echtheit mehr zählt als Schein – auch wenn diese
+        Echtheit die eigene Schwäche einschließt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Frau, die Echtheit predigt und über zehn Jahre eine Sucht verbarg:</strong>
+        Curtis' gesamtes späteres öffentliches Wirken beruht auf der Überzeugung, dass das
+        Echte mehr wert ist als der Schein – ausgerechnet sie lebte über zehn Jahre lang
+        genau den Schein, den sie später am schärfsten kritisieren sollte.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-robbie-williams">Robbie
+        Williams (SX1w2)</a>: Auch Williams verbarg eine jahrzehntelange Sucht- und
+        Depressionserkrankung hinter einer öffentlich erfolgreichen Fassade, bevor er sich
+        radikal offen dazu bekannte. Bei beiden SX1w2 zeigt sich dasselbe Muster: der
+        Anspruch an absolute Echtheit, der die eigene heimliche Sucht umso unerträglicher
+        macht, sobald sie erkannt wird – und der dieselbe Intensität später in eine
+        schonungslos offene Aufarbeitung verwandelt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Opiate, die chemische Abschwächung der eigenen Intensität?</strong>
+        Für eine sexuelle Eins mit Zweierflügel, deren gesamtes Wesen auf vollständiger
+        Präsenz und Intensität beruht, liegt eine Deutung nahe: Opiate erzeugen genau jene
+        Dämpfung und Distanz zur eigenen Wachheit, die dem SX1-Muster diametral
+        entgegensteht – eine Substanz, die das eigene Feuer betäubt, statt es zu nähren.
+        Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu
+        Opioidabhängigkeit führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Curtis' Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer überwundenen Suchterkrankung, das bei einer ausgeprägten
+        sexuellen Eins mit Zweierflügel immer wieder auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Curtis kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die sexuelle Eins mit
+        Zweierflügel hält reflexhaft an einem Anspruch absoluter Echtheit fest, was das
+        Eingeständnis eigener Schwäche über Jahre besonders schwer macht, und lebte genau
+        dieses Muster bis zur erzwungenen Konfrontation mit der eigenen Sucht aus. Wer die
+        eigene Neigung, Scheitern länger zu verbergen, je höher der eigene moralische
+        Anspruch ist, nicht als Muster erkennt, riskiert, dass die Sucht sich über Jahre
+        unbemerkt festsetzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der sexuelle Typ 1 mit Zweierflügel erklärt bei <strong>Jamie Lee Curtis</strong>
+        vieles am Verlauf ihrer Suchterkrankung: eine Frau, deren gesamtes späteres Wirken
+        der Echtheit gilt, musste erst selbst über ein Jahrzehnt lang die Erfahrung des
+        eigenen Scheins durchleben, bevor sie ihre Wahrheit aussprechen konnte – die Schwarze
+        Mamba, die sich selbst am längsten getäuscht hat, bevor sie zur schärfsten Stimme
+        gegen genau diese Täuschung wurde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
+        {route:"krankheitsportraets-robbie-williams", label:"Krankheitsporträt: Robbie Williams (SX1w2) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
       ])}
     </div>
   `);
@@ -127938,6 +128118,7 @@ function render() {
       "krankheitsportraets-bob-marley": bobMarleyKrankheitsportraetPage,
       "krankheitsportraets-angelina-jolie": angelinaJolieKrankheitsportraetPage,
       "krankheitsportraets-adele": adeleKrankheitsportraetPage,
+      "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,
