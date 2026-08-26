@@ -24024,6 +24024,7 @@ const registerEntries = [
   { term: "Richard Ramírez Krankheitsporträt", route: "krankheitsportraets-richard-ramirez", description: "Portrait: SX3w4 · Sexueller Typ 3 · B-Zell-Lymphom in der Todeszelle" },
   { term: "Baruch de Spinoza Krankheitsporträt", route: "krankheitsportraets-spinoza", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Chronische Lungenerkrankung durch Glasstaub" },
   { term: "Hermann Hesse Krankheitsporträt", route: "krankheitsportraets-hermann-hesse", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Migräne, Augenleiden, depressive Krisen" },
+  { term: "Voltaire Krankheitsporträt", route: "krankheitsportraets-voltaire", description: "Portrait: SX4w3 · Sexueller Typ 4 · Chronische Verdauungs- und Blasenleiden" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32158,6 +32159,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexueller Typ 3", krankheit:"B-Zell-Lymphom", teaser:"SX3w4 – ›Der Night Stalker‹, 1960–2013. Diagnose eines B-Zell-Lymphoms in der Todeszelle, gestorben am 7. Juni 2013 in Greenbrae, Kalifornien, vor Vollstreckung des Todesurteils." , land:"USA", gender:"m", jahre:"1960–2013"},
   { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Selbsterhaltender Typ 5", krankheit:"Chronische Lungenerkrankung durch Glasstaub", teaser:"SE5w6 – rationalistischer Philosoph, 1632–1677. Jahrzehntelanges Einatmen von Glasstaub beim Linsenschleifen, vermutliche Ursache seiner tödlichen Lungenerkrankung. Starb am 21. Februar 1677 in Den Haag im Alter von 44 Jahren." , land:"Niederlande", gender:"m", jahre:"1632–1677"},
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Selbsterhaltender Typ 5", krankheit:"Migräne, Augenleiden, wiederkehrende depressive Krisen", teaser:"SE5w6 – Schriftsteller, Nobelpreisträger, 1877–1962. Lebenslange schwere Migräne, chronische Augenleiden, Nervenzusammenbruch 1916, Psychoanalyse bei einem Schüler C. G. Jungs. Starb 1962 im Schlaf in Montagnola im Alter von 85 Jahren." , land:"Deutschland/Schweiz", gender:"m", jahre:"1877–1962"},
+  { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexueller Typ 4", krankheit:"Chronische Verdauungs- und Blasenleiden", teaser:"SX4w3 – Schriftsteller und Philosoph der Aufklärung, 1694–1778. Jahrzehntelange, in Briefen exzessiv dokumentierte Verdauungs- und Blasenbeschwerden, ungebremste Produktivität trotz ständiger Klagen. Starb am 30. Mai 1778 in Paris, wenige Wochen nach seiner triumphalen Rückkehr aus dem Exil." , land:"Frankreich", gender:"m", jahre:"1694–1778"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44305,7 +44307,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Kompromisslose Intensität, die sich keiner fremden Konvention fügt",
         beschreibung: "Anpassung an Erwartungen, Regeln oder gesellschaftliche Normen wird als Einengung erlebt, der man sich mit aller Kraft widersetzt – auch wenn das offenen Konflikt mit der eigenen Zeit bedeutet.",
-        beleg: "Claude Debussy, der als Schüler ›die Lehrer regelmäßig mit Akkordfolgen provozierte, die als »falsch« galten‹: ›Der Chihuahua, der von Anfang an spürte: Die Regeln, die man mir beibringt, sind nicht die Wahrheit, die ich suche‹ – und der auch der eigenen, fast neunjährigen Krebserkrankung nie mit Rückzug begegnete, sondern noch 1917 unter Kanonendonner ein letztes Konzert gab; Linda Leinweber: ›Tiefe, die sich nicht schämt. Erkenntnis, die sich nicht versteckt‹; Voltaire, der nach seiner Bastille-Haft ›schärfer zurückbiss‹, statt zu schweigen."
+        beleg: "Claude Debussy, der als Schüler ›die Lehrer regelmäßig mit Akkordfolgen provozierte, die als »falsch« galten‹: ›Der Chihuahua, der von Anfang an spürte: Die Regeln, die man mir beibringt, sind nicht die Wahrheit, die ich suche‹ – und der auch der eigenen, fast neunjährigen Krebserkrankung nie mit Rückzug begegnete, sondern noch 1917 unter Kanonendonner ein letztes Konzert gab; Linda Leinweber: ›Tiefe, die sich nicht schämt. Erkenntnis, die sich nicht versteckt‹; Voltaire, der nach seiner Bastille-Haft ›schärfer zurückbiss‹, statt zu schweigen – und der auch jahrzehntelangen chronischen Verdauungs- und Blasenleiden nie seine Produktivität opferte, sondern sie in derselben unmittelbaren Intensität in seinen Briefen dokumentierte, mit der er auch gegen jede Ungerechtigkeit anschrieb."
       },
       {
         titel: "Wenn dieselbe grenzenlose Intensität sich gegen andere statt gegen Konventionen richtet (Schattenform)",
@@ -47007,6 +47009,7 @@ function voltairePortraitPage() {
         {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Portr\u00e4t: Freddie Mercury (SX4w3)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
+        {route:"krankheitsportraets-voltaire", label:"Krankheitsportr\u00e4t: Voltaire (SX4w3) \u2013 chronische Verdauungs- und Blasenleiden"},
       ])}
     </div>
   `);
@@ -82225,6 +82228,184 @@ function hermannHesseKrankheitsportraetPage() {
         {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6) – dieselbe Rückzugslogik, andere Krankheit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se5", label:"Subtyp-Profil SE5"},
+      ])}
+    </div>
+  `);
+}
+
+function voltaireKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-voltaire-portrait.jpg" alt="Voltaire" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Voltaire</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · 1694–1778</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Voltaire</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-voltaire">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seinen lebenslangen Kampf gegen
+        religiöse und politische Willkür und seine Rolle als geistiger Vater der
+        Aufklärung. Diese Seite vertieft ein Kapitel, das dort nur am Rande erwähnt wird:
+        jahrzehntelange chronische Verdauungs- und Blasenleiden, die er in seiner
+        umfangreichen Korrespondenz obsessiv dokumentierte, ohne dass sie seine
+        außergewöhnliche Produktivität je bremsten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Voltaire</strong> ist dem <strong>sexuellen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SX4 erlebt Schmerz mit unmittelbarer, persönlicher Intensität; der
+        Dreierflügel wendet dieses Innere nach außen, in sichtbare Wirkung. Genau diese
+        Kombination bestimmte auch, wie er mit seinen chronischen Leiden umging: nicht durch
+        Rückzug, sondern durch endlose, fast literarische Beschreibung – und ungebremste
+        Weiterarbeit trotz allem.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Klagen bereits in jungen Jahren:</strong>
+        Schon in seinen Zwanzigern begann Voltaire in Briefen an Freunde regelmäßig über
+        Verdauungsbeschwerden zu klagen – ein Muster, das sich durch sein gesamtes
+        erwachsenes Leben zog.</p>
+        <p class="vb-intro"><strong>b) Chronische Blasen- und Nierenprobleme:</strong>
+        Über Jahrzehnte hinweg litt er wiederkehrend an schmerzhaften Blasen- und
+        vermutlichen Nierensteinbeschwerden, die ihn zeitweise stark einschränkten.</p>
+        <p class="vb-intro"><strong>c) Eine schier endlose Liste weiterer Beschwerden:</strong>
+        Kopfschmerzen, Fieberschübe, Hautausschläge und allgemeine Erschöpfungszustände
+        ergänzten über die Jahre ein Bild chronischer, nie ganz verschwindender
+        gesundheitlicher Beeinträchtigung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Exzessive Dokumentation in der eigenen Korrespondenz:</strong>
+        Von den über 20.000 erhaltenen Briefen Voltaires handelt ein auffällig großer Teil
+        von seinem eigenen körperlichen Zustand – detailliert, oft dramatisch, an Ärzte,
+        Freunde und Bewunderer gleichermaßen gerichtet.</p>
+        <p class="vb-intro"><strong>b) Wiederholte Todesankündigungen, die sich nicht bewahrheiteten:</strong>
+        Mehrfach kündigte Voltaire in Briefen sein nahes Ende an, das dann über Jahrzehnte
+        nicht eintrat – ein Muster, das ihm schon zu Lebzeiten den Ruf eines notorischen
+        Hypochonders einbrachte.</p>
+        <p class="vb-intro"><strong>c) Keine erkennbare Unterbrechung seines Schaffens:</strong>
+        Trotz der ständigen Klagen erschienen in denselben Jahrzehnten Hunderte von Werken –
+        Theaterstücke, philosophische Schriften, Streitschriften, Korrespondenz – in einem
+        Tempo, das kaum auf einen tatsächlich arbeitsunfähigen Mann schließen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ungewöhnlich hohes Alter für seine Zeit:</strong>
+        Trotz jahrzehntelanger Klagen über seinen körperlichen Verfall erreichte Voltaire ein
+        Alter von 83 Jahren – weit über der durchschnittlichen Lebenserwartung des 18.
+        Jahrhunderts.</p>
+        <p class="vb-intro"><strong>b) Rückkehr nach Paris trotz Warnungen:</strong>
+        1778 reiste der bereits schwer gezeichnete Voltaire, entgegen ärztlichem Rat, nach 28
+        Jahren Exil zurück nach Paris, um dort die triumphale Aufführung seines letzten
+        Theaterstücks zu erleben.</p>
+        <p class="vb-intro"><strong>c) Rascher körperlicher Verfall nach der Rückkehr:</strong>
+        Die Aufregung und Anstrengung der triumphalen Rückkehr, verbunden mit seinem
+        bereits geschwächten Zustand, beschleunigte in den folgenden Wochen seinen
+        endgültigen körperlichen Zusammenbruch.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod mitten im Triumph:</strong>
+        Voltaire starb am 30. Mai 1778 in Paris, nur Wochen nach seiner gefeierten Rückkehr –
+        ein Ende, das seinem gesamten Leben entsprach: dramatisch, öffentlich, und bis
+        zuletzt im Zentrum der Aufmerksamkeit.</p>
+        <p class="vb-intro"><strong>b) Verweigertes kirchliches Begräbnis:</strong>
+        Die katholische Kirche verweigerte ihm zunächst ein christliches Begräbnis – ein
+        letzter, öffentlicher Konflikt, der sein lebenslanges Ringen mit religiöser Autorität
+        über den Tod hinaus fortsetzte.</p>
+        <p class="vb-intro"><strong>c) Posthume Rehabilitierung als Symbolfigur:</strong>
+        Erst 1791, während der Französischen Revolution, wurden seine sterblichen Überreste
+        unter großem öffentlichem Jubel ins Panthéon überführt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Schmerz, der zur literarischen Bühne wurde:</strong>
+        Dieselbe Fähigkeit, das eigene innere Erleben unmittelbar nach außen zu wenden, die
+        Voltaires gesamtes öffentliches Wirken prägte, bestimmte auch, wie er über seine
+        Krankheiten sprach – nicht verschwiegen, sondern ausführlich, dramatisch,
+        literarisch inszeniert.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und die Weigerung, sich bremsen zu lassen:</strong>
+        Anders als eine introvertiertere Vier hätte reagieren können, ließ sich Voltaire von
+        seinen chronischen Leiden nie von der Arbeit abhalten – der Dreierflügel wusste, dass
+        Wirkung nur durch fortgesetzte Sichtbarkeit entsteht, Krankheit hin oder her.</p>
+        <p class="vb-intro"><strong>c) Kein Rückzug, sondern eine letzte öffentliche Bühne:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses endete Voltaires
+        Leben nicht in stillem Rückzug, sondern in einem letzten, bewusst gesuchten
+        öffentlichen Triumph, der seinen körperlichen Verfall beschleunigte, statt ihn zu
+        verzögern.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der zur Bühne des eigenen Erlebens wurde:</strong>
+        Voltaires gesamtes Leben war von der Überzeugung geprägt, dass jedes Erleben –
+        Kränkung, Ungerechtigkeit, auch körperliches Leiden – unmittelbar und mit voller
+        Intensität ausgedrückt werden musste. Seine chronischen Beschwerden waren keine
+        Ausnahme von diesem Prinzip, sondern seine konsequenteste Anwendung.</p>
+        <p class="vb-intro"><strong>b) Hypochondrie als Ausdrucksform, nicht als Schwäche:</strong>
+        Was Zeitgenossen als übertriebene Wehleidigkeit belächelten, lässt sich aus
+        heutiger Sicht auch als Ausdruck der SX4-Intensität lesen: das eigene Leiden wurde
+        nicht kleingeredet, sondern in seiner vollen, oft dramatisierten Wirklichkeit
+        wahrgenommen und mitgeteilt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Magen, Darm und Blase?</strong>
+        Für eine sexuelle Vier mit Dreierflügel, deren gesamte Kraft auf der unmittelbaren
+        Verwandlung von innerem Erleben in öffentliche Wirkung beruhte, liegt eine Deutung
+        nahe: Ausgerechnet jene Organe, die am unmittelbarsten körperliches Unbehagen
+        signalisieren, wurden zum bevorzugten Schauplatz seiner endlosen
+        Selbstbeobachtung – ein Körper, der beständig meldete, was die Seele längst
+        empfand. Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu chronischen
+        Verdauungs- oder Blasenleiden führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Voltaires Fall zeigen lässt,
+        ist ein Muster im Umgang mit chronischem körperlichem Unbehagen, das bei einer
+        ausgeprägten sexuellen Vier mit Dreierflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Voltaire kannte sein eigenes Muster nicht – die sexuelle Vier mit Dreierflügel
+        wandelt reflexhaft jedes innere Erleben in unmittelbaren, öffentlichen Ausdruck um,
+        statt Beschwerden je still für sich zu behalten, und genau dieses Muster lebte er
+        bis in seine letzten Lebenswochen unverändert aus. Wer die eigene Notwendigkeit,
+        jedes Erleben mit voller Intensität auszudrücken, nicht als Muster erkennt, kann sie
+        auch im eigenen Sterben nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Vier mit Dreierflügel erklärt bei <strong>Voltaire</strong> vieles am
+        Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf der
+        unmittelbaren, öffentlichen Verwandlung von innerem Erleben beruhte, machte selbst
+        sein eigenes Leiden zu einem lebenslang fortgeschriebenen Text – der Chihuahua, der
+        noch im Krankenbett bellte, statt zu schweigen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3) – Philosoph der Aufklärung"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
       ])}
     </div>
   `);
@@ -122815,6 +122996,7 @@ function render() {
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
       "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
       "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
+      "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
