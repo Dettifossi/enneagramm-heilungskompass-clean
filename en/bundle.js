@@ -256,6 +256,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-jamie-lee-curtis", name:"Jamie Lee Curtis", subtyp:"SX1w2", heading:"Jamie Lee Curtis – Sexual Type 1", krankheit:"22-year opioid dependency after cosmetic surgery", teaser:"SX1w2 – actress and activist, b. 1958. Opioid dependency beginning in 1989 after a cosmetic procedure, kept secret for over ten years, sober since 19 February 1999." , land:"USA", gender:"f", jahre:"b. 1958"},
   { route:"krankheitsportraets-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9", heading:"Genesis P-Orridge – Sexual Type 8", krankheit:"Leukemia, progressing over years, died 2020", teaser:"SX8w9 – musician, performance artist, and occultist, 1950–2020. Leukemia spanning several years, artistically active until shortly before death, died on 14 March 2020 in New York." , land:"United Kingdom", gender:"nonbinary", jahre:"1950–2020"},
   { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexual Type 4", krankheit:"Tourette syndrome, kept secret for years; severe depressive period with self-harm as a teenager", teaser:"SX4w3 – singer and songwriter, b. 2001. Tourette syndrome since childhood, publicly confirmed only in 2018; also severe depression with self-harm from around age twelve, documented in 2021." , land:"USA", gender:"f", jahre:"b. 2001"},
+  { route:"krankheitsportraets-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8", heading:"Willy Brandt – Social Type 9", krankheit:"Recurring severe depressive episodes, colon cancer", teaser:"SO9w8 – West German chancellor, Nobel Peace Prize 1971, 1913–1992. Recurring depressive crises throughout his political career, including in 1958 and 1974, died 1992 of colon cancer." , land:"Germany", gender:"m", jahre:"1913–1992"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -35650,6 +35651,7 @@ function willyBrandtPortraitPage() {
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+        {route:"krankheitsportraets-willy-brandt", label:"Illness Portrait: Willy Brandt (SO9w8) – recurring depression, colon cancer"},
       ])}
     </div>
   `);
@@ -45006,6 +45008,7 @@ function wilmaMankillerKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-wilma-mankiller", label:"Portrait: Wilma Mankiller (SO9w8) – life's work"},
+        {route:"krankheitsportraets-willy-brandt", label:"Illness Portrait: Willy Brandt (SO9w8) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so9", label:"Subtype Profile SO9"},
       ])}
@@ -47112,6 +47115,7 @@ function ronaldReaganKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8) – life's work"},
         {route:"beruehmte-wilma-mankiller", label:"Portrait: Wilma Mankiller (SO9w8)"},
+        {route:"krankheitsportraets-willy-brandt", label:"Illness Portrait: Willy Brandt (SO9w8) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so9", label:"Subtype Profile SO9"},
       ])}
@@ -59307,6 +59311,179 @@ function billieEilishKrankheitsportraetPage() {
         {route:"krankheitsportraets-freddie-mercury", label:"Illness Portrait: Freddie Mercury (SX4w3) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function willyBrandtKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-willy-brandt-portrait.jpg" alt="Willy Brandt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Willy Brandt</p>
+        <p class="krim-portrait-typ">SO9w8 · Social Type 9 with Eight-Wing · 1913–1992</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Buffalo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Animal correspondence: Buffalo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Willy Brandt</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-willy-brandt">Famous
+        Personalities portrait</a>. This page delves into a chapter not covered there:
+        recurring severe depressive episodes throughout his political career, which he kept
+        largely private, and the colon cancer that he died from in 1992.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Brandt</strong> is assigned to the <strong>social Type 9 with Eight-Wing</strong>.
+        As the Nine's counter-type, the SO9 outwardly maintains direction and activity even
+        when inner exhaustion threatens; the Eight-Wing gives the strength to appear decisive
+        outwardly even when a collapse loomed in private. Exactly this combination – an
+        outwardly unshakeable presence, inwardly recurring severe exhaustion crises – shaped
+        the course of his health history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First documented depressive episode around 1958:</strong>
+        Biographers describe a first severe depressive crisis during his time as Governing
+        Mayor of Berlin, triggered by the political and personal strain of the Berlin
+        crisis.</p>
+        <p class="vb-intro"><strong>b) A recurring pattern over decades:</strong>
+        Further episodes followed during periods of extreme political strain, documented
+        among others by his biographer Peter Merseburger, who described in detail Brandt's
+        tendency toward phases of deep exhaustion and withdrawal.</p>
+        <p class="vb-intro"><strong>c) Never named publicly as such during his lifetime:</strong>
+        During his terms in office, these crises were not named publicly as a distinct
+        condition but were usually described as temporary exhaustion or illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The most severe crisis linked to the Guillaume affair in 1974:</strong>
+        When his close aide Günter Guillaume was exposed as an East German spy in 1974,
+        Brandt, according to consistent biographical sources, fell into a deep personal
+        crisis that accompanied his resignation as chancellor.</p>
+        <p class="vb-intro"><strong>b) Withdrawal instead of public explanation:</strong>
+        Rather than naming his own psychological strain publicly, Brandt formally resigned
+        over the Guillaume affair – a reason for resignation that could be communicated more
+        clearly to the public than his own exhaustion.</p>
+        <p class="vb-intro"><strong>c) Colon cancer diagnosed in the early 1990s:</strong>
+        In the early 1990s, Brandt was diagnosed with colon cancer, from which he died after
+        a short illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Continued political activity despite private crises:</strong>
+        Despite the depressive episodes, Brandt remained politically active for decades – as
+        SPD chairman until 1987, as chairman of the Socialist International until his
+        death.</p>
+        <p class="vb-intro"><strong>b) Death on 8 October 1992 in Unkel:</strong>
+        Willy Brandt died at age 78 from the effects of colon cancer in his home in Unkel on
+        the Rhine.</p>
+        <p class="vb-intro"><strong>c) A state funeral with worldwide condolences:</strong>
+        His death triggered international mourning – numerous heads of state and government
+        attended the state funeral, honoring his significance for postwar German and
+        European history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Later biographical examination of the depressive episodes:</strong>
+        Only after his death did comprehensive biographies systematically document the
+        extent of his recurring depressive crises and place them in the context of his
+        political achievements.</p>
+        <p class="vb-intro"><strong>b) An image of unbroken strength in public memory:</strong>
+        Public memory of Brandt remains dominated to this day by images of decisive
+        strength – the Warsaw genuflection, Ostpolitik – while the private crises only
+        became visible through later historical research.</p>
+        <p class="vb-intro"><strong>c) No mythologizing of his own illness:</strong>
+        Neither the depressive episodes nor the cancer illness later became a central part of
+        his public legacy – that legacy remains dominated by his political work to this
+        day.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The counter-type who kept going even through collapse:</strong>
+        The SO9's characteristic reversal of its own inertia into outward activity showed
+        precisely in the crisis years: even in phases of deepest exhaustion, Brandt kept
+        traveling, negotiating, and speaking rather than openly withdrawing.</p>
+        <p class="vb-intro"><strong>b) The Eight-Wing and the facade of unshakeability:</strong>
+        The same force that let Brandt withstand public resistance to Ostpolitik also
+        ensured that his own psychological exhaustion remained barely visible outwardly –
+        strength as armor, even against himself.</p>
+        <p class="vb-intro"><strong>c) A formal reason for resignation instead of a personal explanation:</strong>
+        That Brandt resigned in 1974 over the Guillaume affair rather than naming his own
+        exhaustion publicly fits the SO9w8 pattern: action stays visible, the inner life
+        stays hidden.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A man of peace who found his own inner peace most rarely:</strong>
+        Brandt's entire political work was devoted to reconciliation and outer peace – of
+        all things, his own inner peace eluded him for decades through recurring exhaustion
+        crises he never named publicly.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        Parallels appear with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-wilma-mankiller">Wilma
+        Mankiller</a> and
+        <a href="javascript:void(0)" data-route="krankheitsportraets-ronald-reagan">Ronald
+        Reagan</a> (both also SO9w8): all three held their public office as long as possible
+        despite considerable health strain, rather than withdrawing early. All SO9w8s show
+        the same pattern: outward activity as a counterforce to their own exhaustion, until
+        the body itself sets the limit.</p>
+        <p class="vb-intro"><strong>c) Why the colon, of all things, the organ of quiet processing?</strong>
+        For a social Nine with an Eight-Wing whose entire life was shaped by turning inner
+        exhaustion into outward activity, one interpretation suggests itself: exactly the
+        organ that processes unnoticed and without conscious control became the site of his
+        final illness – an illness that, much like the earlier depressive episodes,
+        progressed for a long time out of sight. This reading is a plausible interpretation,
+        not a proven clinical causal link, and will be developed further in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the social Nine's pattern inevitably leads to depression or
+        colon cancer – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What can be shown in Brandt's case is a pattern in dealing with
+        inner exhaustion that keeps recurring in a pronounced social Type 9 with an
+        Eight-Wing – one of many possible readings, not a verdict. The corresponding illness
+        pattern is being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Brandt did not know his own pattern as an Enneagram structure – the social Nine with
+        an Eight-Wing reflexively turns inner exhaustion into outward activity instead of
+        pausing in time and acknowledging its own limit, and lived out exactly this pattern
+        unchanged for decades. Anyone who does not recognize their own tendency to cover
+        exhaustion with action instead of naming it as a pattern risks that the body
+        eventually forces the pause the will never allowed.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Type 9 with Eight-Wing explains much about the course of <strong>Willy
+        Brandt's</strong> health history: a man whose entire work was devoted to outer peace
+        never found his own inner peace for decades – the buffalo who kept moving through
+        every crisis, until his body itself finally forced the last, inescapable rest.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
+        {route:"krankheitsportraets-wilma-mankiller", label:"Illness Portrait: Wilma Mankiller (SO9w8) – same subtype"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so9", label:"Subtype Profile SO9"},
       ])}
     </div>
   `);
@@ -92434,6 +92611,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
       "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
+      "krankheitsportraets-willy-brandt": willyBrandtKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,

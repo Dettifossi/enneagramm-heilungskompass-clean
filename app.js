@@ -24055,6 +24055,7 @@ const registerEntries = [
   { term: "Jamie Lee Curtis Krankheitsporträt", route: "krankheitsportraets-jamie-lee-curtis", description: "Portrait: SX1w2 · Sexueller Typ 1 · 22 Jahre andauernde Opiatabhängigkeit" },
   { term: "Genesis P-Orridge Krankheitsporträt", route: "krankheitsportraets-genesis-p-orridge", description: "Portrait: SX8w9 · Sexueller Typ 8 · Leukämie, über Jahre fortschreitend" },
   { term: "Billie Eilish Krankheitsporträt", route: "krankheitsportraets-billie-eilish", description: "Portrait: SX4w3 · Sexueller Typ 4 · Tourette-Syndrom, Depression mit Selbstverletzung" },
+  { term: "Willy Brandt Krankheitsporträt", route: "krankheitsportraets-willy-brandt", description: "Portrait: SO9w8 · Sozialer Typ 9 · Wiederkehrende Depression, Darmkrebs" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32221,6 +32222,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-jamie-lee-curtis", name:"Jamie Lee Curtis", subtyp:"SX1w2", heading:"Jamie Lee Curtis – Sexueller Typ 1", krankheit:"22 Jahre andauernde Opiatabhängigkeit nach kosmetischer Operation", teaser:"SX1w2 – Schauspielerin und Aktivistin, geb. 1958. Opiatabhängigkeit ab 1989 nach kosmetischem Eingriff, über zehn Jahre heimlich fortgeführt, nüchtern seit dem 19. Februar 1999." , land:"USA", gender:"f", jahre:"geb. 1958"},
   { route:"krankheitsportraets-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9", heading:"Genesis P-Orridge – Sexueller Typ 8", krankheit:"Leukämie, über Jahre fortschreitend, Tod 2020", teaser:"SX8w9 – Musiker, Performance-Künstler und Okkultist, 1950–2020. Über Jahre verlaufende Leukämie-Erkrankung, künstlerisch aktiv bis kurz vor dem Tod, gestorben am 14. März 2020 in New York." , land:"Vereinigtes Königreich", gender:"nonbinary", jahre:"1950–2020"},
   { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexueller Typ 4", krankheit:"Tourette-Syndrom, über Jahre verschwiegen; schwere depressive Phase mit Selbstverletzung im Teenageralter", teaser:"SX4w3 – Sängerin und Songwriterin, geb. 2001. Tourette-Syndrom seit der Kindheit, öffentlich bestätigt erst 2018; zusätzlich schwere Depression mit Selbstverletzung ab etwa dem zwölften Lebensjahr, dokumentiert 2021." , land:"USA", gender:"f", jahre:"geb. 2001"},
+  { route:"krankheitsportraets-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8", heading:"Willy Brandt – Sozialer Typ 9", krankheit:"Wiederkehrende schwere depressive Episoden, Darmkrebs", teaser:"SO9w8 – Bundeskanzler, Friedensnobelpreis 1971, 1913–1992. Wiederkehrende depressive Krisen während der politischen Laufbahn, unter anderem 1958 und 1974, gestorben 1992 an Darmkrebs." , land:"Deutschland", gender:"m", jahre:"1913–1992"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -57010,6 +57012,7 @@ function willyBrandtPortraitPage() {
         {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-steffi-graf", label:"Portr\u00e4t: Steffi Graf (SO9w1)"},
+        {route:"krankheitsportraets-willy-brandt", label:"Krankheitsportr\u00e4t: Willy Brandt (SO9w8) \u2013 wiederkehrende Depression, Darmkrebs"},
       ])}
     </div>
   `);
@@ -72840,6 +72843,7 @@ function wilmaMankillerKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-willy-brandt", label:"Krankheitsporträt: Willy Brandt (SO9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
@@ -74665,6 +74669,7 @@ function ronaldReaganKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8) – Lebenswerk"},
         {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8)"},
+        {route:"krankheitsportraets-willy-brandt", label:"Krankheitsporträt: Willy Brandt (SO9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
@@ -86943,7 +86948,7 @@ function bobMarleyKrankheitsportraetPage() {
         Ali (SO2w1)</a>: Auch Ali ignorierte über Jahre gesundheitliche Warnzeichen im
         Boxsport, weil eine als moralisch richtig erkannte Sache – bei Ali der Kampf im
         Ring, bei Marley die religiöse Überzeugung – wichtiger erschien als die eigene
-        körperliche Unversehrtheit. Bei beiden SO2w1 zeigt sich dasselbe Muster: eine
+        körperliche Unversehrtheit. Bei beiden SO2w1ern zeigt sich dasselbe Muster: eine
         Gewissheit, im Recht zu sein, die auch das eigene Leben der übergeordneten Sache
         unterordnet.</p>
         <p class="vb-intro"><strong>c) Warum ausgerechnet die Zehe, der Kontaktpunkt zur Erde?</strong>
@@ -87294,7 +87299,7 @@ function adeleKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady Diana
         (SE4w3)</a>: Auch Diana verbarg ihre Erkrankung – bei ihr eine Bulimie – jahrelang
         hinter einer makellos funktionierenden öffentlichen Fassade, bevor sie sich Jahre
-        später selbst dazu äußerte. Bei beiden SE4w3 zeigt sich dasselbe Muster: der innere
+        später selbst dazu äußerte. Bei beiden SE4w3ern zeigt sich dasselbe Muster: der innere
         Kampf bleibt so lange verborgen, bis er in eine kontrollierte, selbstgewählte Form
         gebracht werden kann.</p>
         <p class="vb-intro"><strong>c) Warum ausgerechnet nach der Geburt, dem Moment größter erwarteter Nähe?</strong>
@@ -87469,7 +87474,7 @@ function jamieLeeCurtisKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="krankheitsportraets-robbie-williams">Robbie
         Williams (SX1w2)</a>: Auch Williams verbarg eine jahrzehntelange Sucht- und
         Depressionserkrankung hinter einer öffentlich erfolgreichen Fassade, bevor er sich
-        radikal offen dazu bekannte. Bei beiden SX1w2 zeigt sich dasselbe Muster: der
+        radikal offen dazu bekannte. Bei beiden SX1w2ern zeigt sich dasselbe Muster: der
         Anspruch an absolute Echtheit, der die eigene heimliche Sucht umso unerträglicher
         macht, sobald sie erkannt wird – und der dieselbe Intensität später in eine
         schonungslos offene Aufarbeitung verwandelt.</p>
@@ -87645,7 +87650,7 @@ function genesisPOrridgeKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Ruth
         Bader Ginsburg (SX8w9)</a>: Auch Ginsburg weigerte sich über Jahre, mehrfachen
         Krebsdiagnosen nachzugeben, und blieb bis kurz vor dem Tod im Amt aktiv. Bei beiden
-        SX8w9 zeigt sich dasselbe Muster: eine kompromisslose Weigerung, die eigene
+        SX8w9ern zeigt sich dasselbe Muster: eine kompromisslose Weigerung, die eigene
         Lebensaufgabe der Krankheit unterzuordnen, getragen von einer stillen, langen
         Ausdauer statt lauten öffentlichen Kampfes.</p>
         <p class="vb-intro"><strong>c) Warum ausgerechnet das Blut, der Stoff der Verschmelzung selbst?</strong>
@@ -87816,7 +87821,7 @@ function billieEilishKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Freddie
         Mercury (SX4w3)</a>: Auch Mercury verbarg eine gesundheitliche Diagnose über Jahre
         vor der Öffentlichkeit, bevor er sie schließlich zu einem selbst gewählten Zeitpunkt
-        bestätigte. Bei beiden SX4w3 zeigt sich dasselbe Muster: die Kontrolle über den
+        bestätigte. Bei beiden SX4w3ern zeigt sich dasselbe Muster: die Kontrolle über den
         eigenen Offenlegungszeitpunkt wird zur letzten verbleibenden Form der
         Selbstbestimmung angesichts einer Diagnose, die man sich nicht ausgesucht hat.</p>
         <p class="vb-intro"><strong>c) Warum ausgerechnet unwillkürliche Bewegungen, bei einer Künstlerin präziser Kontrolle?</strong>
@@ -87864,6 +87869,185 @@ function billieEilishKrankheitsportraetPage() {
         {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function willyBrandtKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-willy-brandt-portrait.jpg" alt="Willy Brandt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Willy Brandt</p>
+        <p class="krim-portrait-typ">SO9w8 · Sozialer Typ 9 mit Achterflügel · 1913–1992</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Willy Brandt</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-willy-brandt">Porträt berühmter
+        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
+        das dort nicht behandelt wird: wiederkehrende schwere depressive Episoden während
+        seiner gesamten politischen Laufbahn, die er weitgehend privat hielt, sowie die
+        Darmkrebs-Erkrankung, an der er 1992 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Brandt</strong> ist dem <strong>sozialen Typ 9 mit Achterflügel</strong>
+        zugeordnet. Die SO9 hält als Kontratyp der Neun äußerlich Kurs und Aktivität
+        aufrecht, auch wenn innerlich Erschöpfung droht; der Achterflügel gibt die Kraft,
+        nach außen entschlossen zu wirken, selbst wenn im Verborgenen ein Zusammenbruch
+        drohte. Genau diese Kombination – nach außen unerschütterliche Präsenz, nach innen
+        wiederkehrende schwere Erschöpfungskrisen – bestimmte den Verlauf seiner
+        gesundheitlichen Geschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste dokumentierte depressive Episode um 1958:</strong>
+        Biografen beschreiben eine erste schwere depressive Krise während seiner Zeit als
+        Regierender Bürgermeister von Berlin, ausgelöst durch die politische und persönliche
+        Belastung der Berlin-Krise.</p>
+        <p class="vb-intro"><strong>b) Wiederkehrendes Muster über Jahrzehnte:</strong>
+        Weitere Episoden folgten in Phasen extremer politischer Belastung, dokumentiert unter
+        anderem von seinem Biografen Peter Merseburger, der Brandts Tendenz zu Phasen
+        tiefer Erschöpfung und Rückzugs ausführlich beschrieb.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Thematisierung zu Lebzeiten in dieser Form:</strong>
+        Zu seinen Amtszeiten wurden diese Krisen in der Öffentlichkeit nicht als
+        eigenständiges Krankheitsbild benannt, sondern meist als vorübergehende
+        Erschöpfung oder Krankheit umschrieben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Schwerste Krise im Zusammenhang mit der Guillaume-Affäre 1974:</strong>
+        Als sein enger Mitarbeiter Günter Guillaume 1974 als DDR-Spion enttarnt wurde, geriet
+        Brandt nach übereinstimmenden biografischen Quellen in eine tiefe persönliche Krise,
+        die seinen Rücktritt als Bundeskanzler begleitete.</p>
+        <p class="vb-intro"><strong>b) Rückzug statt öffentlicher Erklärung:</strong>
+        Anstatt die eigene psychische Belastung öffentlich zu benennen, trat Brandt formal
+        wegen der Guillaume-Affäre zurück – ein Rücktrittsgrund, der öffentlich klarer
+        kommuniziert werden konnte als die eigene Erschöpfung.</p>
+        <p class="vb-intro"><strong>c) Diagnose von Darmkrebs in den 1990er-Jahren:</strong>
+        Anfang der 1990er-Jahre wurde bei Brandt Darmkrebs diagnostiziert, an dem er nach
+        kurzer Krankheit starb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fortgesetzte politische Aktivität trotz privater Krisen:</strong>
+        Trotz der depressiven Episoden blieb Brandt über Jahrzehnte hinweg politisch aktiv –
+        als SPD-Vorsitzender bis 1987, als Vorsitzender der Sozialistischen Internationale
+        bis zu seinem Tod.</p>
+        <p class="vb-intro"><strong>b) Tod am 8. Oktober 1992 in Unkel:</strong>
+        Willy Brandt starb im Alter von 78 Jahren an den Folgen des Darmkrebses in seinem
+        Wohnort Unkel am Rhein.</p>
+        <p class="vb-intro"><strong>c) Staatsbegräbnis mit weltweiter Anteilnahme:</strong>
+        Sein Tod löste international Trauer aus – zahlreiche Staats- und Regierungschefs
+        nahmen am Staatsbegräbnis teil, das seine Bedeutung für die deutsche und europäische
+        Nachkriegsgeschichte würdigte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Nachträgliche biografische Aufarbeitung der depressiven Episoden:</strong>
+        Erst nach seinem Tod wurde in umfassenden Biografien das Ausmaß seiner
+        wiederkehrenden depressiven Krisen systematisch dokumentiert und in den Kontext
+        seiner politischen Erfolge gestellt.</p>
+        <p class="vb-intro"><strong>b) Ein Bild ungebrochener Stärke in der öffentlichen Erinnerung:</strong>
+        Das öffentliche Gedächtnis an Brandt bleibt bis heute vor allem von Bildern
+        entschlossener Stärke geprägt – dem Kniefall von Warschau, der Ostpolitik –, während
+        die privaten Krisen erst durch spätere historische Forschung sichtbar wurden.</p>
+        <p class="vb-intro"><strong>c) Keine Verklärung der eigenen Krankheit:</strong>
+        Weder die depressiven Episoden noch die Krebserkrankung wurden nachträglich zu
+        einem zentralen Bestandteil seines öffentlichen Vermächtnisses – dieses bleibt bis
+        heute von seinem politischen Werk dominiert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Kontratyp, der auch im Zusammenbruch weiterlief:</strong>
+        Die SO9-typische Umkehrung der eigenen Trägheit in äußere Aktivität zeigte sich
+        gerade in den Krisenjahren: Selbst in Phasen tiefster Erschöpfung reiste, verhandelte
+        und sprach Brandt weiter, statt sich offen zurückzuziehen.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel und die Fassade der Unerschütterlichkeit:</strong>
+        Dieselbe Kraft, die Brandt gegen den öffentlichen Widerstand zur Ostpolitik standhalten
+        ließ, sorgte auch dafür, dass die eigene psychische Erschöpfung nach außen kaum
+        sichtbar wurde – Stärke als Rüstung, auch gegenüber sich selbst.</p>
+        <p class="vb-intro"><strong>c) Ein formaler Rücktrittsgrund statt einer persönlichen Erklärung:</strong>
+        Dass Brandt 1974 wegen der Guillaume-Affäre zurücktrat, statt die eigene
+        Erschöpfung öffentlich zu benennen, passt zum SO9w8-Muster: Handeln bleibt sichtbar,
+        das eigene Innenleben bleibt verborgen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann des Friedens, der den eigenen inneren Frieden am seltensten fand:</strong>
+        Brandts gesamtes politisches Werk galt der Versöhnung und dem äußeren Frieden –
+        ausgerechnet der eigene innere Frieden blieb ihm über Jahrzehnte durch wiederkehrende
+        Erschöpfungskrisen verwehrt, die er nie öffentlich beim Namen nannte.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Parallelen zeigen sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-wilma-mankiller">Wilma
+        Mankiller</a> und
+        <a href="javascript:void(0)" data-route="krankheitsportraets-ronald-reagan">Ronald
+        Reagan</a> (beide ebenfalls SO9w8): Alle drei hielten ihr öffentliches Amt trotz
+        erheblicher gesundheitlicher Belastung so lange wie möglich aufrecht, statt sich
+        vorzeitig zurückzuziehen. Bei allen SO9w8ern zeigt sich dasselbe Muster: die äußere
+        Aktivität als Gegenkraft zur eigenen Erschöpfung, bis der Körper selbst die Grenze
+        setzt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Darm, das Organ der stillen Verarbeitung?</strong>
+        Für einen sozialen Typ 9 mit Achterflügel, dessen gesamtes Leben von der Umkehrung
+        innerer Erschöpfung in äußere Aktivität geprägt war, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, das im Körper unbemerkt und ohne bewusste Kontrolle
+        verarbeitet, wurde zum Ort der letzten Erkrankung – eine Krankheit, die, ähnlich wie
+        die depressiven Episoden zuvor, lange im Verborgenen fortschritt. Diese Deutung ist
+        eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird
+        im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Neun zwangsläufig zu Depression oder
+        Darmkrebs führt – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig
+        vom Subtyp.</strong> Was sich an Brandts Fall zeigen lässt, ist ein Muster im Umgang
+        mit innerer Erschöpfung, das bei einem ausgeprägten sozialen Typ 9 mit Achterflügel
+        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Brandt kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 9
+        mit Achterflügel verwandelt innere Erschöpfung reflexhaft in äußere Aktivität, statt
+        rechtzeitig innezuhalten und die eigene Grenze anzuerkennen, und lebte genau dieses
+        Muster über Jahrzehnte unverändert aus. Wer die eigene Neigung, Erschöpfung durch
+        Handeln zu überdecken, statt sie zu benennen, nicht als Muster erkennt, riskiert,
+        dass der Körper irgendwann die Pause erzwingt, die der Wille nie zugelassen hat.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 9 mit Achterflügel erklärt bei <strong>Willy Brandt</strong> vieles
+        am Verlauf seiner gesundheitlichen Geschichte: ein Mann, dessen gesamtes Wirken dem
+        äußeren Frieden galt, fand den eigenen inneren Frieden über Jahrzehnte nicht – der
+        Büffel, der durch jede Krise weiterlief, bis der Körper selbst am Ende die letzte,
+        unausweichliche Ruhe erzwang.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
+        {route:"krankheitsportraets-wilma-mankiller", label:"Krankheitsporträt: Wilma Mankiller (SO9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
     </div>
   `);
@@ -128475,6 +128659,7 @@ function render() {
       "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
       "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
+      "krankheitsportraets-willy-brandt": willyBrandtKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,
