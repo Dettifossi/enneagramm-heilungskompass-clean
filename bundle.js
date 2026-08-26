@@ -24026,6 +24026,7 @@ const registerEntries = [
   { term: "Charles Manson Krankheitsporträt", route: "krankheitsportraets-charles-manson", description: "Portrait: SX6w7 · Sexueller Typ 6 · Darmkrebs, tödliches Herzversagen im Gefängnis" },
   { term: "Bernie Madoff Krankheitsporträt", route: "krankheitsportraets-bernie-madoff", description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Niereninsuffizienz im Endstadium" },
   { term: "Frida Kahlo Krankheitsporträt", route: "krankheitsportraets-frida-kahlo", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Rund 30 Operationen, Beinamputation" },
+  { term: "Yayoi Kusama Krankheitsporträt", route: "krankheitsportraets-yayoi-kusama", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Halluzinationen seit Kindheit, freiwillig in Psychiatrie seit 1977" },
   { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
@@ -32255,6 +32256,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexueller Typ 3", krankheit:"Endometriose seit den frühen 1980ern, zuletzt Krebserkrankung", teaser:"SX3w4 – Sängerin, Songwriterin, 1946–2026. Anfang der 1980er-Jahre diagnostizierte Endometriose mit Teilhysterektomie 1985, jahrzehntelang wiederkehrende Gesundheitskrisen. Starb am 25. August 2026 nach kurzer Krebserkrankung. Verknüpft mit Marilyn Monroe (ebenfalls SX3w4, ebenfalls Endometriose)." , land:"USA", gender:"f", jahre:"1946–2026"},
   { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Sozialer Typ 4", krankheit:"Nierenoperation, eskalierender Alkohol- und Tablettenkonsum, ungeklärter Tod", teaser:"SO4w3 – Schauspielerin, 1938–1982. Schwere Nierenoperation, Suizid ihres ersten Mannes Harry Meyen 1979, tödlicher Unfall ihres Sohnes David 1981. Starb am 29. Mai 1982 offiziell an Herzversagen, ohne Obduktion. Verknüpft mit Michael Jackson (ebenfalls SO4w3, ebenfalls Substanzabhängigkeit hinter makelloser Fassade)." , land:"Österreich/Deutschland", gender:"f", jahre:"1938–1982"},
+  { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Selbsterhaltender Typ 2", krankheit:"Seit Kindheit bestehende Halluzinationen und Depersonalisation, freiwillig in psychiatrischer Klinik seit 1977", teaser:"SE2w3 – japanische Künstlerin, geb. 1929. Halluzinationen seit früher Kindheit, mehrere Suizidversuche in den 1970ern, seit 1977 freiwillig im Seiwa-Krankenhaus für psychisch Kranke in Tokio. Arbeitet bis heute täglich in ihrem Atelier. Verknüpft mit Frida Kahlo (ebenfalls SE2w3, ebenfalls Kunst aus lebenslangem Leiden)." , land:"Japan", gender:"f", jahre:"geb. 1929"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -80973,6 +80975,196 @@ function romySchneiderKrankheitsportraetPage() {
   `);
 }
 
+function yayoiKusamaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-yayoi-kusama-portrait.jpg" alt="Yayoi Kusama" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yayoi Kusama</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel · geb. 1929</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Yayoi Kusama</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-yayoi-kusama">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
+        Allgemeinen, mit einem kurzen Verweis auf ihr Leben in der psychiatrischen Klinik. Diese
+        Seite vertieft dieses Kapitel: eine seit früher Kindheit bestehende psychische
+        Erkrankung mit Halluzinationen und Depersonalisation, eine belastete Kindheit, mehrere
+        Suizidversuche und ein bis heute andauerndes Leben in einer psychiatrischen Klinik seit
+        1977.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kusama</strong> ist dem <strong>selbsterhaltenden Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SE2 richtet die Fürsorge-Energie der Zwei zuerst auf das eigene
+        Überleben; der Dreierflügel bringt den unbedingten Willen hinzu, aus der eigenen Not
+        heraus sichtbar zu werden und etwas zu leisten. Genau diese Kombination – die eigene
+        psychische Erkrankung nicht zu verstecken, sondern sie zur Grundlage eines
+        welterfolgreichen Lebenswerks zu machen – bestimmt bis heute ihren Umgang mit der
+        eigenen Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Halluzinationen bereits im Vorschulalter:</strong>
+        Kusama berichtete, bereits als kleines Kind visuelle und akustische Halluzinationen
+        erlebt zu haben – Blumenmuster, die zu ihr sprachen, endlose Netze aus Punkten, die sich
+        über ihr gesamtes Blickfeld legten.</p>
+        <p class="vb-intro"><strong>b) Eine belastete, lieblose Kindheit:</strong>
+        Ihre Mutter, aus einer wohlhabenden Familie in Matsumoto, riss Kusamas frühe Zeichnungen
+        wiederholt in Stücke und schickte das Kind wiederholt los, um den untreuen Vater bei
+        seinen Affären auszuspionieren – ein familiäres Umfeld, das der jungen Kusama kaum Halt
+        bot.</p>
+        <p class="vb-intro"><strong>c) Zeichnen als erste, spontane Reaktion:</strong>
+        Statt an den Visionen zu zerbrechen, begann Kusama bereits als Kind, diese
+        Halluzinationen zeichnerisch festzuhalten – ein Verhalten, das sie selbst später als
+        <em>Selbstauslöschung</em> bezeichnete: sich selbst so lange wiederholend in das eigene
+        Muster einzuzeichnen, bis die Angst vor der Auflösung nachließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Diagnose einer Zwangsneurose:</strong>
+        Kusama wurde mit einer obsessiv-zwanghaften Störung diagnostiziert; nach eigener
+        Aussage lehnt sie die häufig kolportierte Fremdzuschreibung einer manisch-depressiven
+        Psychose ab und führt ihre Symptome unter anderem auf eine Schilddrüsenerkrankung
+        zurück.</p>
+        <p class="vb-intro"><strong>b) Depersonalisation als zusätzliches Symptom:</strong>
+        Neben den Halluzinationen leidet Kusama an einer Depersonalisationsstörung (japanisch
+        <em>rijinshō</em>, wörtlich „Getrennt-Person-Symptom") – dem Gefühl, sich selbst und die
+        eigene Umgebung als fremd, unwirklich oder aufgelöst wahrzunehmen.</p>
+        <p class="vb-intro"><strong>c) Fortgesetztes künstlerisches Arbeiten trotz akuter Symptome:</strong>
+        Auch in New York, wo sie ab 1958 mittellos und ohne Englischkenntnisse lebte, produzierte
+        sie trotz wiederkehrender psychischer Krisen ein enormes Werk – Malerei, Skulptur,
+        Happenings, Mode – als arbeite sie gegen die eigene Auflösung an.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Mehrere Suizidversuche in den frühen 1970er-Jahren:</strong>
+        Nach Jahren extremer künstlerischer wie finanzieller Belastung in New York und dem
+        wachsenden Gefühl kommerziellen Scheiterns unternahm Kusama mehrere Suizidversuche, bevor
+        sie sich zur Rückkehr nach Japan entschloss.</p>
+        <p class="vb-intro"><strong>b) Rückkehr nach Japan 1973, körperlich und psychisch erschöpft:</strong>
+        Kusama kehrte 1973 erschöpft und gesundheitlich angeschlagen nach Japan zurück – eine
+        Rückkehr, die zunächst weniger einem Neuanfang als einem Rückzug aus einem Leben glich,
+        das sie fast zerstört hätte.</p>
+        <p class="vb-intro"><strong>c) Freiwillige Einweisung in die Psychiatrie 1977:</strong>
+        1977 ließ sich Kusama freiwillig in das Seiwa-Krankenhaus für psychisch Kranke in Tokio
+        einweisen – eine bewusste Entscheidung für einen schützenden Rahmen statt für ein Leben
+        in unkontrollierter Krise.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Fast fünfzig Jahre in freiwilliger stationärer Behandlung:</strong>
+        Kusama lebt bis heute, weit über neunzig Jahre alt, in derselben psychiatrischen
+        Klinik – eine der längsten bekannten freiwilligen psychiatrischen Aufenthaltszeiten
+        einer international bekannten Künstlerpersönlichkeit.</p>
+        <p class="vb-intro"><strong>b) Tägliche Arbeit trotz und mit der Erkrankung:</strong>
+        Von der Klinik aus geht Kusama täglich zu Fuß in ihr nahegelegenes Atelier, um zu
+        arbeiten – die Krankheit hat ihr Schaffen nicht beendet, sondern ist zu dessen
+        strukturierendem Rahmen geworden.</p>
+        <p class="vb-intro"><strong>c) Offener Umgang statt Verschweigen:</strong>
+        Anders als viele andere Porträts in diesem Kompass zeigt Kusamas Fall eine Person, die
+        ihre psychische Erkrankung nicht über Jahrzehnte verbirgt, sondern öffentlich benennt und
+        explizit zum Ausgangspunkt ihres künstlerischen Werks erklärt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Flusspferd, das sein Element nie verlassen hat:</strong>
+        So wie das Flusspferd ohne ständigen Wasserkontakt nicht bestehen kann, beschreibt
+        Kusama das Malen selbst als überlebensnotwendig – kein künstlerisches Konzept, sondern
+        die einzige Bedingung, unter der sie psychisch bestehen kann.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und der Wille, die eigene Krankheit sichtbar zu machen:</strong>
+        Statt die Erkrankung zu verstecken, verwandelte der Dreierflügel sie in ein öffentlich
+        kommuniziertes, welterfolgreiches künstlerisches Programm – die begehbaren <em>Infinity
+        Mirror Rooms</em> lassen Millionen Besucher für wenige Minuten genau jene Erfahrung der
+        Auflösung nachempfinden, die Kusama selbst ihr ganzes Leben begleitet.</p>
+        <p class="vb-intro"><strong>c) Selbstfürsorge durch bewusst gewählte Struktur:</strong>
+        Die freiwillige Einweisung 1977 ist reine SE2-Logik: Statt weiter unkontrolliert der
+        eigenen Fragilität ausgeliefert zu sein, wählte Kusama aktiv einen schützenden Rahmen, in
+        dem Fürsorge für sich selbst überhaupt erst möglich wurde.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die zur Sprache des Werks selbst wurde:</strong>
+        Bei kaum einer anderen Person in diesem Kompass verschmelzen Krankheit und Werk so
+        vollständig: Die endlosen Punktmuster, für die Kusama weltberühmt ist, sind keine
+        nachträgliche künstlerische Interpretation ihrer Halluzinationen, sondern deren direkte,
+        unveränderte Wiedergabe.</p>
+        <p style="background:rgba(74,127,145,0.12);border-radius:8px;padding:0.9rem 1.1rem;margin:1rem 0;"><strong>Eine auffällige Parallele im selben Subtyp – Frida Kahlo:</strong>
+        Bemerkenswert ist, dass mit <a href="javascript:void(0)" data-route="krankheitsportraets-frida-kahlo">Frida Kahlo (ebenfalls SE2w3)</a>
+        eine weitere Persönlichkeit in diesem Kompass vertreten ist, deren Lebensgeschichte ein
+        fast identisches Grundmuster zeigt: eine selbsterhaltende Zwei mit Dreierflügel, deren
+        Kunst nicht trotz, sondern direkt aus einer schweren, lebenslangen körperlichen bzw.
+        psychischen Belastung entsteht – bei Kahlo aus chronischen Unfallfolgen und Schmerz, bei
+        Kusama aus Halluzinationen und Depersonalisation. Beide machten das eigene Leiden nicht
+        zum Geheimnis, sondern explizit zum Bildmotiv, und beide erreichten damit Weltruhm, der
+        gerade auf dieser schonungslosen Offenheit beruht.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet die Wahrnehmung selbst, bei einer Künstlerin, deren Beruf das Sehen ist?</strong>
+        Für eine selbsterhaltende Zwei mit Dreierflügel, deren gesamtes künstlerisches
+        Überleben davon abhängt, das eigene Innenleben in sichtbare Form zu übersetzen, liegt
+        eine Deutung nahe: Ausgerechnet die Wahrnehmung selbst – das Sehen, das Erkennen der
+        Grenze zwischen dem eigenen Körper und der Welt – wurde bei Kusama zum Ort der
+        Erkrankung. Diese Deutung ist eine plausible Interpretation, kein belegter medizinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu
+        Halluzinationen oder Depersonalisation führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Kusamas Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer lebenslangen psychischen Erkrankung, das bei einer
+        ausgeprägten selbsterhaltenden Zwei mit Dreierflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Nichts deutet darauf hin, dass Kusama ihr eigenes Enneagramm-Muster je bewusst kannte.
+        Dennoch zeigt gerade ihr Fall eine seltene Ausnahme innerhalb dieses Musters: Statt die
+        eigene Notlage über Jahrzehnte zu verdrängen oder zu verstecken, wie es viele andere
+        SE2w3-Porträts in diesem Kompass zeigen, machte sie die Erkrankung selbst sehr früh zum
+        offenen Zentrum ihres Handelns. Das ersetzt kein bewusstes Wissen um das eigene
+        Enneagramm-Muster – aber es zeigt, dass der selbsterhaltende Instinkt der Zwei, richtig
+        genutzt, auch zu einer außergewöhnlich klarsichtigen Form der Selbstfürsorge führen
+        kann.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Kusamas</strong> selbsterhaltende Zwei mit
+        Dreierflügel noch einmal ablesen: eine seit der Kindheit bestehende psychische
+        Erkrankung, die sie weder verschwiegen noch sich von ihr zerstören ließ, sondern in ein
+        täglich weitergeführtes, welterfolgreiches Werk verwandelte. Das Flusspferd, das sein
+        Wasser nie verlassen hat – und gerade darin, fast fünfzig Jahre in freiwilliger
+        stationärer Behandlung, zu einer der einflussreichsten Stimmen der zeitgenössischen Kunst
+        wurde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
 function alexanderDerGrosseKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -81903,6 +82095,7 @@ function fridaKahloKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-frida-kahlo", label:"Porträt: Frida Kahlo (SE2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-yayoi-kusama", label:"Krankheitsporträt: Yayoi Kusama (SE2w3) – Kunst aus psychischem statt körperlichem Leiden"},
         {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Krankheitsporträt: Nusrat Fateh Ali Khan (SE2w3) – dieselbe Weigerung zurückzuweichen"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Krankheitsporträt: Wolfgang Amadeus Mozart (SE2w3)"},
         {route:"krankheitsportraets-ai-weiwei", label:"Krankheitsporträt: Ai Weiwei (SE2w3) – Gewalt, die zum Kunstwerk wurde"},
@@ -130528,6 +130721,7 @@ function render() {
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
+      "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,

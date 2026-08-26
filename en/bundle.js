@@ -292,6 +292,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexual Type 3", krankheit:"Endometriosis since the early 1980s, later cancer", teaser:"SX3w4 – singer, songwriter, 1946–2026. Endometriosis diagnosed in the early 1980s with a partial hysterectomy in 1985, decades of recurring health crises. Died on August 25, 2026, following a brief battle with cancer. Connected to Marilyn Monroe (also SX3w4, also endometriosis)." , land:"USA", gender:"f", jahre:"1946–2026"},
   { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Social Type 4", krankheit:"Kidney surgery, escalating alcohol and pill dependency, unresolved death", teaser:"SO4w3 – actress, 1938–1982. Severe kidney operation, suicide of her first husband Harry Meyen in 1979, fatal accident of her son David in 1981. Died on May 29, 1982, officially of heart failure, no autopsy performed. Connected to Michael Jackson (also SO4w3, also substance dependency behind a flawless façade)." , land:"Austria/Germany", gender:"f", jahre:"1938–1982"},
+  { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Self-Preservation Type 2", krankheit:"Hallucinations and depersonalization since childhood, voluntarily in a psychiatric hospital since 1977", teaser:"SP2w3 – Japanese artist, born 1929. Hallucinations since early childhood, several suicide attempts in the 1970s, voluntarily admitted to Tokyo's Seiwa Hospital for the mentally ill since 1977. Still works daily in her studio today. Connected to Frida Kahlo (also SP2w3, also art born from lifelong suffering)." , land:"Japan", gender:"f", jahre:"born 1929"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -53834,9 +53835,188 @@ function fridaKahloKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3) – life's work"},
+        {route:"krankheitsportraets-yayoi-kusama", label:"Illness Portrait: Yayoi Kusama (SP2w3) – art from psychological rather than physical suffering"},
         {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Illness Portrait: Nusrat Fateh Ali Khan (SP2w3) – the same refusal to step back"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"krankheitsportraets-ai-weiwei", label:"Illness Portrait: Ai Weiwei (SP2w3) – the same pattern of visible suffering"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se2", label:"Subtype Profile SP2"},
+      ])}
+    </div>
+  `);
+}
+
+function yayoiKusamaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-yayoi-kusama-portrait.jpg" alt="Yayoi Kusama" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yayoi Kusama</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing · born 1929</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Yayoi Kusama</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-yayoi-kusama">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life's work and type structure in general, with
+        a brief mention of her life in a psychiatric hospital. This page delves deeper into
+        that chapter: a psychiatric condition present since early childhood involving
+        hallucinations and depersonalization, a difficult upbringing, several suicide attempts,
+        and a life in a psychiatric hospital that continues to this day, since 1977.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Kusama</strong> is classified as the <strong>Self-Preservation Type 2 with
+        Three-wing</strong>. SP2 directs the Two's caregiving energy toward its own survival
+        first; the Three-wing adds an unconditional will to become visible through one's own
+        distress and to achieve something from it. Exactly this combination – not hiding one's
+        own psychiatric illness, but making it the foundation of a world-renowned body of work
+        – continues to define her relationship to her own condition to this day.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Hallucinations already in preschool age:</strong>
+        Kusama reported experiencing visual and auditory hallucinations as a very young
+        child – flower patterns that spoke to her, endless nets of dots that spread across her
+        entire field of vision.</p>
+        <p class="vb-intro"><strong>b) A difficult, loveless childhood:</strong>
+        Her mother, from a wealthy family in Matsumoto, repeatedly tore up Kusama's early
+        drawings and sent the child out to spy on her unfaithful father's affairs – a family
+        environment that offered the young Kusama little stability.</p>
+        <p class="vb-intro"><strong>c) Drawing as an early, spontaneous response:</strong>
+        Rather than being overwhelmed by the visions, Kusama began as a child to draw these
+        hallucinations directly – a behavior she later called <em>self-obliteration</em>:
+        repeatedly inscribing herself into her own pattern until the fear of dissolution
+        eased.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Diagnosis of an obsessive neurosis:</strong>
+        Kusama was diagnosed with an obsessive-compulsive condition; she herself has rejected
+        the often-repeated outside claim of manic-depressive psychosis and has attributed her
+        symptoms in part to a thyroid condition.</p>
+        <p class="vb-intro"><strong>b) Depersonalization as an additional symptom:</strong>
+        Alongside the hallucinations, Kusama suffers from a depersonalization disorder
+        (Japanese <em>rijinshō</em>, literally "separated-person symptom") – the sense of
+        perceiving herself and her surroundings as foreign, unreal, or dissolved.</p>
+        <p class="vb-intro"><strong>c) Continued artistic work despite acute symptoms:</strong>
+        Even in New York, where she lived penniless and without English from 1958 onward, she
+        produced an enormous body of work despite recurring psychiatric crises – painting,
+        sculpture, happenings, fashion – as if working against her own dissolution.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Several suicide attempts in the early 1970s:</strong>
+        After years of extreme artistic and financial strain in New York and a growing sense
+        of commercial failure, Kusama made several suicide attempts before deciding to return
+        to Japan.</p>
+        <p class="vb-intro"><strong>b) Return to Japan in 1973, physically and mentally exhausted:</strong>
+        Kusama returned to Japan in 1973 exhausted and in poor health – a return that at first
+        resembled less a fresh start than a retreat from a life that had nearly destroyed her.</p>
+        <p class="vb-intro"><strong>c) Voluntary admission to a psychiatric hospital in 1977:</strong>
+        In 1977, Kusama voluntarily admitted herself to the Seiwa Hospital for the mentally ill
+        in Tokyo – a deliberate choice for a protective structure rather than a life of
+        uncontrolled crisis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Nearly fifty years of voluntary inpatient care:</strong>
+        Kusama, now well over ninety, still lives in the same psychiatric hospital today – one
+        of the longest known voluntary psychiatric stays of an internationally recognized
+        artistic figure.</p>
+        <p class="vb-intro"><strong>b) Daily work despite and alongside the illness:</strong>
+        From the hospital, Kusama walks daily to her nearby studio to work – the illness did
+        not end her creative output, but became its structuring framework.</p>
+        <p class="vb-intro"><strong>c) Open engagement instead of concealment:</strong>
+        Unlike many other portraits in this Compass, Kusama's case shows a person who did not
+        hide her psychiatric illness for decades, but named it publicly and explicitly
+        declared it the starting point of her artistic work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Expression</h3>
+        <p class="vb-intro"><strong>a) The hippopotamus that never left its element:</strong>
+        Just as the hippopotamus cannot survive without constant contact with water, Kusama
+        describes painting itself as a matter of survival – not an artistic concept, but the
+        only condition under which she can remain psychologically intact.</p>
+        <p class="vb-intro"><strong>b) The Three-wing and the will to make her own illness visible:</strong>
+        Rather than hiding the condition, the Three-wing turned it into a publicly
+        communicated, world-successful artistic program – the walk-in <em>Infinity Mirror
+        Rooms</em> let millions of visitors experience, for a few minutes, exactly the sense of
+        dissolution that has accompanied Kusama her entire life.</p>
+        <p class="vb-intro"><strong>c) Self-care through deliberately chosen structure:</strong>
+        The voluntary admission in 1977 is pure SP2 logic: rather than remaining
+        uncontrollably at the mercy of her own fragility, Kusama actively chose a protective
+        framework in which caring for herself first became possible at all.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) An illness that became the very language of the work:</strong>
+        In hardly any other portrait in this Compass do illness and work merge so completely:
+        the endless dot patterns for which Kusama is world-famous are not a later artistic
+        interpretation of her hallucinations, but their direct, unaltered rendering.</p>
+        <p style="background:rgba(74,127,145,0.12);border-radius:8px;padding:0.9rem 1.1rem;margin:1rem 0;"><strong>A striking parallel within the same subtype – Frida Kahlo:</strong>
+        Notably, this Compass also features <a href="javascript:void(0)" data-route="krankheitsportraets-frida-kahlo">Frida Kahlo (also SP2w3)</a>,
+        whose life story shows an almost identical underlying pattern: a Self-Preservation Two
+        with a Three-wing whose art arises not despite, but directly from, a severe, lifelong
+        physical or psychological burden – for Kahlo, chronic accident aftermath and pain;
+        for Kusama, hallucinations and depersonalization. Both made their own suffering not a
+        secret, but explicitly the subject of their imagery, and both achieved world fame
+        built precisely on that unflinching openness.</p>
+        <p class="vb-intro"><strong>b) Why precisely perception itself, for an artist whose profession is seeing?</strong>
+        For a Self-Preservation Two with a Three-wing, whose entire artistic survival depends
+        on translating her inner life into visible form, one interpretation suggests itself:
+        precisely perception itself – seeing, the recognition of the boundary between one's
+        own body and the world – became, in Kusama's case, the site of the illness. This
+        interpretation is a plausible reading, not a proven medical causal link, and is
+        explored further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Context without determinism:</strong>
+        This does not mean the pattern of the Self-Preservation Two inevitably leads to
+        hallucinations or depersonalization – <strong>anyone can develop any illness,
+        regardless of subtype.</strong> What Kusama's case illustrates is a pattern in how a
+        lifelong psychiatric illness was handled, one that recurs again and again in a
+        pronounced Self-Preservation Two with a Three-wing – one interpretation among many,
+        not a judgment. This illness pattern is being developed step by step in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Nothing suggests that Kusama ever consciously knew her own Enneagram pattern. And yet
+        her case shows a rare exception within this pattern: instead of suppressing or hiding
+        her own distress for decades, as many other SP2w3 portraits in this Compass show, she
+        made the illness itself the open center of her actions very early on. That does not
+        replace conscious knowledge of one's own Enneagram pattern – but it shows that the
+        Self-Preservation Two's instinct, used well, can also lead to an unusually clear-eyed
+        form of self-care.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Kusama's</strong> Self-Preservation Two with a Three-wing, too, can be read
+        once more through her illness history: a psychiatric condition present since
+        childhood that she neither hid nor let destroy her, but transformed into a daily,
+        world-successful body of work. The hippopotamus that never left its water – and, in
+        nearly fifty years of voluntary inpatient care, became one of the most influential
+        voices in contemporary art precisely because of it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3) – life's work"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SP2w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
@@ -94404,6 +94584,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
+      "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
