@@ -24028,6 +24028,7 @@ const registerEntries = [
   { term: "Nikola Tesla Krankheitsporträt", route: "krankheitsportraets-nikola-tesla", description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Zwangsstörung, Keimphobie, Isolation" },
   { term: "Isaac Newton Krankheitsporträt", route: "krankheitsportraets-isaac-newton", description: "Portrait: SO5w6 · Sozialer Typ 5 · Nervenzusammenbruch durch Quecksilbervergiftung" },
   { term: "Immanuel Kant Krankheitsporträt", route: "krankheitsportraets-immanuel-kant", description: "Portrait: SO6w5 · Sozialer Typ 6 · Hypochondrie, Atembeklemmung, geistiger Verfall" },
+  { term: "Leonardo da Vinci Krankheitsporträt", route: "krankheitsportraets-leonardo-da-vinci", description: "Portrait: SO5w4 · Sozialer Typ 5 · Schlaganfall mit Lähmung der rechten Hand" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32166,6 +32167,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Selbsterhaltender Typ 4", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SE4w5 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Sozialer Typ 5", krankheit:"Nervenzusammenbruch, vermutlich durch Quecksilbervergiftung", teaser:"SO5w6 – Physiker und Mathematiker, 1642/43–1727. Schwerer Nervenzusammenbruch 1693 mit paranoiden Anschuldigungen gegen enge Freunde, vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit Quecksilber verursacht. Erholte sich innerhalb eines Jahres, starb 1727 im Alter von 84 Jahren." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Sozialer Typ 6", krankheit:"Chronische Hypochondrie, Atembeklemmung, später geistiger Verfall", teaser:"SO6w5 – Philosoph, 1724–1804. Lebenslange, extrem dokumentierte Hypochondrie mit chronischer Atembeklemmung, philosophische Verarbeitung der eigenen Krankheit im Spätwerk, geistiger Verfall in den letzten Lebensjahren. Starb am 12. Februar 1804 in Königsberg im Alter von 79 Jahren." , land:"Deutschland", gender:"m", jahre:"1724–1804"},
+  { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Sozialer Typ 5", krankheit:"Schlaganfall mit Lähmung der rechten Hand", teaser:"SO5w4 – Universalgelehrter und Künstler, 1452–1519. Schlaganfall um 1517 mit Lähmung der rechten Hand, Umstellung auf die linke Hand, fortgesetzte Arbeit an der Mona Lisa bis zuletzt. Starb am 2. Mai 1519 in Amboise, Frankreich, im Alter von 67 Jahren." , land:"Italien/Frankreich", gender:"m", jahre:"1452–1519"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44249,7 +44251,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Vielarmiges, paralleles Denken, das der Gemeinschaft zur Verfügung gestellt wird",
         beschreibung: "Naranjo nannte diesen Subtyp den des ›Totems‹: gesammeltes Wissen wird nicht für sich behalten, sondern der Gruppe als Beitrag angeboten. Charakteristisch ist dabei, gleichzeitig in mehreren Bereichen oder Richtungen zu denken, ohne sich in einem einzigen zu erschöpfen.",
-        beleg: "Leonardo da Vinci: ›Ein Wesen mit außergewöhnlicher Intelligenz, das die Welt mit unzähligen Armen gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verfügung stellt, statt es nur für sich zu horten‹ – Maler, Anatom, Ingenieur, Botaniker zugleich; Gertrude Belle Elion, ›die gleichzeitig in mehreren Richtungen dachte‹ und ›mit ihrer Arbeit Millionen von Menschenleben gerettet hat, ohne dass die meisten Menschen heute ihren Namen kennen‹; Jennifer Mather: ›Wissen als Beitrag zur Gemeinschaft.‹; Dr. Albert Einstein, der seine bahnbrechenden Arbeiten des Wunderjahres 1905 nicht zurückhielt, sondern sofort zur Veröffentlichung und Diskussion in die wissenschaftliche Gemeinschaft gab; Günther Jauch, der sein Wissen buchstäblich zum zentralen Format eines ganzen Sendungssystems machte, ruhig und unaufgeregt im Zentrum – der Oktopus in seinem Element."
+        beleg: "Leonardo da Vinci: ›Ein Wesen mit außergewöhnlicher Intelligenz, das die Welt mit unzähligen Armen gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verfügung stellt, statt es nur für sich zu horten‹ – Maler, Anatom, Ingenieur, Botaniker zugleich, der noch nach einem Schlaganfall mit gelähmter rechter Hand in seinen letzten Lebensjahren auf die linke Hand auswich, statt sein Schaffen aufzugeben; Gertrude Belle Elion, ›die gleichzeitig in mehreren Richtungen dachte‹ und ›mit ihrer Arbeit Millionen von Menschenleben gerettet hat, ohne dass die meisten Menschen heute ihren Namen kennen‹; Jennifer Mather: ›Wissen als Beitrag zur Gemeinschaft.‹; Dr. Albert Einstein, der seine bahnbrechenden Arbeiten des Wunderjahres 1905 nicht zurückhielt, sondern sofort zur Veröffentlichung und Diskussion in die wissenschaftliche Gemeinschaft gab; Günther Jauch, der sein Wissen buchstäblich zum zentralen Format eines ganzen Sendungssystems machte, ruhig und unaufgeregt im Zentrum – der Oktopus in seinem Element."
       },
       {
         titel: "Wissen wird über Jahre im Verborgenen entwickelt, bevor es kontrolliert freigegeben wird",
@@ -54583,6 +54585,7 @@ function leonardoDaVinciPortraitPage() {
         {route:"beruehmte-albert-einstein", label:"Portr\xe4t: Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portr\xe4t: Claudio Naranjo (SO5w4)"},
         {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Praxistipp: Die Vitruv-Enneagramm-Bewusstseinsübung"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – Lähmung der rechten Hand"},
       ])}
     </div>
   `);
@@ -78198,6 +78201,7 @@ function albertEinsteinKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
@@ -82973,6 +82977,188 @@ function immanuelKantKrankheitsportraetPage() {
         {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5) – dasselbe Muster der Selbstkontrolle"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so6", label:"Subtyp-Profil SO6"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardoDaVinciKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonardo-da-vinci-portrait.jpg" alt="Leonardo da Vinci" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonardo da Vinci</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel · 1452–1519</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Leonardo da Vinci</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-leonardo-da-vinci">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine grenzenlose Neugier und sein
+        universelles Werk zwischen Kunst und Wissenschaft. Diese Seite vertieft ein Kapitel,
+        das dort nur am Rande erwähnt wird: einen Schlaganfall in seinen letzten Lebensjahren,
+        der ihm die rechte Hand lähmte, ohne dass er deshalb aufhörte zu arbeiten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Leonardo</strong> ist dem <strong>sozialen Typ 5 mit Viererflügel</strong>
+        zugeordnet. Die SO5 stellt ihr Wissen der Gemeinschaft zur Verfügung, statt es zu
+        horten; der Viererflügel verleiht diesem Wissen eine tiefe ästhetische und emotionale
+        Dimension. Genau diese Kombination – der unbedingte Wille, weiter zu wirken und zu
+        gestalten – bestimmte auch, wie er auf seine körperliche Einschränkung in den letzten
+        Lebensjahren reagierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Schlaganfall um 1517:</strong>
+        In seinen letzten Lebensjahren, während seiner Zeit am Hof des französischen Königs
+        Franz I. in Amboise, erlitt Leonardo vermutlich einen Schlaganfall, der eine
+        Lähmung seiner rechten Körperseite zur Folge hatte.</p>
+        <p class="vb-intro"><strong>b) Gelähmte rechte Hand:</strong>
+        Zeitgenössische Berichte, darunter der venezianische Gesandte Antonio de Beatis, der
+        Leonardo 1517 besuchte, beschrieben ausdrücklich, dass seine rechte Hand gelähmt
+        war und er nicht mehr mit der gewohnten Präzision malen konnte.</p>
+        <p class="vb-intro"><strong>c) Fortbestehende geistige Klarheit trotz körperlicher Einschränkung:</strong>
+        Dieselben Berichte betonten zugleich, dass Leonardos Geist und seine Fähigkeit,
+        Skizzen anzufertigen und andere anzuleiten, von der Lähmung unberührt blieben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Umstellung auf die linke Hand:</strong>
+        Leonardo war ohnehin von Natur aus linkshändig veranlagt und hatte zeitlebens viele
+        seiner Notizen und Skizzen mit der linken Hand angefertigt – ein Umstand, der ihm
+        half, trotz der gelähmten rechten Hand weiter zeichnend tätig zu sein.</p>
+        <p class="vb-intro"><strong>b) Fortsetzung der Arbeit an der Mona Lisa:</strong>
+        Selbst nach dem Schlaganfall arbeitete Leonardo Berichten zufolge weiter an
+        Gemälden wie der Mona Lisa – ein Werk, das er ohnehin nie an einen Auftraggeber
+        auslieferte, sondern bis zu seinem Tod als eigenes, nie ganz abgeschlossenes Projekt
+        behielt.</p>
+        <p class="vb-intro"><strong>c) Weiterhin aktiv als Berater und Lehrer:</strong>
+        Am französischen Hof wirkte Leonardo trotz seiner körperlichen Einschränkung weiter
+        als Planer, Ingenieur und geschätzter Gesprächspartner des Königs.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Rückzug ins Schloss Clos Lucé:</strong>
+        König Franz I. stellte Leonardo für seine letzten Lebensjahre das Schloss Clos Lucé
+        nahe Amboise zur Verfügung – ein geschützter Rahmen, der ihm trotz seiner
+        gesundheitlichen Einschränkung weiteres Arbeiten und Nachdenken ermöglichte.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte Notizbucharbeit bis zuletzt:</strong>
+        Leonardos über 13.000 Seiten Notizbücher wuchsen auch in dieser letzten Lebensphase
+        weiter – Beobachtungen, Skizzen und Überlegungen, die er trotz der körperlichen
+        Einschränkung nicht aufgab.</p>
+        <p class="vb-intro"><strong>c) Tod am 2. Mai 1519 in Amboise:</strong>
+        Leonardo starb im Alter von 67 Jahren in Frankreich, fern seiner italienischen
+        Heimat, im Dienst des französischen Königs.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Nachlass, der die Lähmung überdauerte:</strong>
+        Die späten Notizbücher und unvollendeten Projekte aus seinen letzten Lebensjahren
+        zeigen keinen erkennbaren Bruch in Leonardos intellektueller Schaffenskraft, trotz
+        der körperlichen Einschränkung.</p>
+        <p class="vb-intro"><strong>b) Eine posthume Legende um seinen Tod:</strong>
+        Der französische Maler Ingres schuf Jahrhunderte später ein berühmtes, historisch
+        nicht belegtes Gemälde, das zeigt, wie Leonardo in den Armen von König Franz I.
+        stirbt – ein Bild, das seinen Status als verehrter Hofgelehrter bis in die
+        Nachwelt hinein festigte.</p>
+        <p class="vb-intro"><strong>c) Ein Werk, das trotz Unvollständigkeit wirkte:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses hinderte die
+        Lähmung Leonardo nicht daran, sein wohl berühmtestes Werk, die Mona Lisa, bis zu
+        seinem Tod fortlaufend weiterzuentwickeln.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Wissen und Schaffen als unaufhörlicher Auftrag:</strong>
+        Dieselbe Überzeugung, dass Wissen und Können der Welt zur Verfügung gestellt werden
+        müssen, die Leonardos gesamtes Leben prägte, bestimmte auch, wie er auf seine
+        körperliche Einschränkung reagierte – nicht mit Rückzug, sondern mit der
+        Umstellung auf die ohnehin vorhandene linke Hand, um weiter beitragen zu können.</p>
+        <p class="vb-intro"><strong>b) Der Viererflügel und die Weigerung, das unvollendete Werk aufzugeben:</strong>
+        Leonardos lebenslange Neigung, Werke nie ganz abzuschließen, traf in seinen letzten
+        Jahren auf eine neue, körperliche Grenze – doch statt die Mona Lisa endgültig
+        beiseitezulegen, blieb sie bis zuletzt sein Begleitprojekt, dieselbe tiefe,
+        emotionale Bindung an das eigene Werk, die den Viererflügel auszeichnet.</p>
+        <p class="vb-intro"><strong>c) Kontinuität statt abruptem Bruch:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es keine
+        Berichte über eine plötzliche, dramatische Verhaltensänderung nach dem
+        Schlaganfall – Leonardo passte seine Methode an, ohne sein grundlegendes
+        Arbeitsprinzip aufzugeben.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der dem Anspruch des Geistes nicht mehr ganz folgen konnte:</strong>
+        Leonardos gesamtes Leben war von der Überzeugung geprägt, dass Verstehen und
+        Gestalten untrennbar zusammengehören – der Schlaganfall bedrohte ausgerechnet jenes
+        körperliche Werkzeug, mit dem er dieses Verstehen sichtbar machte, ohne jedoch das
+        Verstehen selbst zu berühren.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-albert-einstein">Albert Einstein</a>
+        (ebenfalls SO5w4) lebte über sechseinhalb Jahre mit einem bekannten,
+        lebensbedrohlichen Bauchaortenaneurysma und arbeitete bis kurz vor seinem Tod
+        weiter, ohne sich von der Diagnose bremsen zu lassen; Leonardo reagierte auf seine
+        eigene körperliche Einschränkung mit derselben Haltung – nicht Rückzug, sondern
+        Anpassung der Methode bei unverändertem geistigem Schaffensdrang. Beide Fälle zeigen
+        dasselbe SO5w4-Muster: Das eigene Wissen und Werk der Welt zur Verfügung zu stellen,
+        wiegt schwerer als die eigene körperliche Bedrohung. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-albert-einstein">Krankheitsporträt zu Albert Einstein</a>.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die schaffende Hand?</strong>
+        Für eine soziale Fünf mit Viererflügel, deren gesamte Kraft auf der Übersetzung von
+        Erkenntnis in sichtbares, geteiltes Werk beruhte, liegt eine Deutung nahe:
+        Ausgerechnet jenes körperliche Werkzeug, mit dem er sein Wissen der Welt sichtbar
+        machte, wurde zum Schauplatz der Einschränkung – und zwang ihn, auf die andere,
+        ebenfalls geübte Hand auszuweichen, statt aufzugeben. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu einem
+        Schlaganfall führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Leonardos Fall zeigen lässt, ist ein Muster im
+        Umgang mit körperlicher Einschränkung im Alter, das bei einer ausgeprägten sozialen
+        Fünf mit Viererflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach
+        im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Leonardo kannte sein eigenes Muster nicht – die soziale Fünf mit Viererflügel
+        stellt reflexhaft ihr Wissen und Werk der Welt zur Verfügung, statt die eigene
+        körperliche Verletzlichkeit je als Grund zum Aufhören anzuerkennen, und genau dieses
+        Muster lebte er bis in seine letzten Lebensmonate unverändert aus. Wer die eigene
+        Notwendigkeit, weiter zu wirken und beizutragen, nicht als Muster erkennt, kann sie
+        auch angesichts der eigenen körperlichen Grenzen nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Fünf mit Viererflügel erklärt bei <strong>Leonardo</strong> vieles am
+        Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf der Übersetzung
+        von Erkenntnis in sichtbares Werk beruhte, ließ sich selbst von einer gelähmten Hand
+        nicht aufhalten – der Oktopus, der einen seiner acht Arme verlor und trotzdem
+        weiterzeichnete, bis der letzte Atemzug kam.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4) – Universalgelehrter"},
+        {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Albert Einstein (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
     </div>
   `);
@@ -123567,6 +123753,7 @@ function render() {
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
+      "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

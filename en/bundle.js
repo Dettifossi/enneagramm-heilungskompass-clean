@@ -254,6 +254,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Self-Preservation Type 4", krankheit:"Progressive obsessive-compulsive disorder, germophobia, complete isolation", teaser:"SP4w5 – inventor and engineer, 1856–1943. Pronounced obsessive-compulsive disorder with counting rituals and germophobia, decades of increasing social isolation, final bond to a single white dove. Died impoverished on January 7, 1943, alone in a New York hotel room." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Social Type 5", krankheit:"Nervous breakdown, likely from mercury poisoning", teaser:"SO5w6 – physicist and mathematician, 1642/43–1727. Severe nervous breakdown in 1693 with paranoid accusations against close friends, likely caused by decades of unprotected alchemical experiments with mercury. Recovered within a year, died in 1727 at age 84." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Social Type 6", krankheit:"Chronic hypochondria, breathing distress, later cognitive decline", teaser:"SO6w5 – philosopher, 1724–1804. Lifelong, extremely well-documented hypochondria with chronic breathing distress, philosophical processing of his own illness in his late work, cognitive decline in his final years. Died on February 12, 1804, in Königsberg at age 79." , land:"Germany", gender:"m", jahre:"1724–1804"},
+  { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Social Type 5", krankheit:"Stroke with paralysis of the right hand", teaser:"SO5w4 – polymath and artist, 1452–1519. Stroke around 1517 with paralysis of the right hand, switch to the left hand, continued work on the Mona Lisa until the end. Died on May 2, 1519, in Amboise, France, at age 67." , land:"Italy/France", gender:"m", jahre:"1452–1519"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -22307,6 +22308,7 @@ function leonardoDaVinciPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Claudio Naranjo (SO5w4)"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Illness Portrait: Leonardo da Vinci (SO5w4) – paralysis of the right hand"},
         {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Practical Tip: The Vitruvian-Enneagram Awareness Exercise"},
       ])}
     </div>
@@ -50330,6 +50332,7 @@ function albertEinsteinKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) – life's work"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Illness Portrait: Leonardo da Vinci (SO5w4) – the same pattern of unrestrained creation"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so5", label:"Subtype Profile SO5"},
       ])}
@@ -54675,6 +54678,182 @@ function immanuelKantKrankheitsportraetPage() {
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5) – the same pattern of self-control"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so6", label:"Subtype Profile SO6"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardoDaVinciKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonardo-da-vinci-portrait.jpg" alt="Leonardo da Vinci" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonardo da Vinci</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing &middot; 1452–1519</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Octopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Animal correspondence: Octopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Leonardo da Vinci</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-leonardo-da-vinci">Famous Personality Portrait</a>
+        in this Compass – that portrait focuses on his boundless curiosity and universal
+        work spanning art and science. This page explores a chapter mentioned there only in
+        passing: a stroke in his final years that paralyzed his right hand, without ever
+        stopping him from working.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Leonardo</strong> is assigned to the <strong>Social Type 5 with Four-wing</strong>.
+        The SO5 puts its knowledge at the community's disposal instead of hoarding it; the
+        Four-wing gives that knowledge a deep aesthetic and emotional dimension. This exact
+        combination – the unconditional will to keep creating and contributing – also
+        determined how he responded to his physical limitation in his final years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A stroke around 1517:</strong>
+        In his final years, during his time at the court of French King Francis I in
+        Amboise, Leonardo likely suffered a stroke that left the right side of his body
+        paralyzed.</p>
+        <p class="vb-intro"><strong>b) A paralyzed right hand:</strong>
+        Contemporary accounts, including that of the Venetian envoy Antonio de Beatis, who
+        visited Leonardo in 1517, explicitly described his right hand as paralyzed and
+        noted that he could no longer paint with his accustomed precision.</p>
+        <p class="vb-intro"><strong>c) Mental clarity persisting despite physical limitation:</strong>
+        The same accounts stressed that Leonardo's mind and his ability to make sketches
+        and instruct others remained untouched by the paralysis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Switching to the left hand:</strong>
+        Leonardo was naturally left-handed to begin with and had used his left hand for
+        many of his notes and sketches throughout his life – a circumstance that helped
+        him continue drawing despite his paralyzed right hand.</p>
+        <p class="vb-intro"><strong>b) Continued work on the Mona Lisa:</strong>
+        Even after the stroke, Leonardo reportedly kept working on paintings such as the
+        Mona Lisa – a work he had never delivered to a client anyway, keeping it instead
+        as his own, never fully finished project until his death.</p>
+        <p class="vb-intro"><strong>c) Still active as advisor and teacher:</strong>
+        At the French court, Leonardo, despite his physical limitation, continued to work
+        as a planner, engineer, and valued conversation partner of the king.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Retreat to the Château du Clos Lucé:</strong>
+        King Francis I gave Leonardo the Château du Clos Lucé near Amboise for his final
+        years – a sheltered setting that allowed him to keep working and thinking despite
+        his health limitation.</p>
+        <p class="vb-intro"><strong>b) Continued notebook work to the very end:</strong>
+        Leonardo's more than 13,000 pages of notebooks kept growing even in this final
+        phase of his life – observations, sketches, and reflections he did not give up
+        despite his physical limitation.</p>
+        <p class="vb-intro"><strong>c) Death on May 2, 1519, in Amboise:</strong>
+        Leonardo died at age 67 in France, far from his Italian homeland, in the service
+        of the French king.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A legacy that outlasted the paralysis:</strong>
+        The late notebooks and unfinished projects from his final years show no
+        discernible break in Leonardo's intellectual creative power, despite the physical
+        limitation.</p>
+        <p class="vb-intro"><strong>b) A posthumous legend around his death:</strong>
+        Centuries later, the French painter Ingres created a famous, historically
+        unverified painting showing Leonardo dying in the arms of King Francis I – an
+        image that cemented his status as a revered court scholar for posterity.</p>
+        <p class="vb-intro"><strong>c) A work that resonated despite being unfinished:</strong>
+        Unlike some other illness histories in this Compass, the paralysis did not stop
+        Leonardo from continuing to develop his arguably most famous work, the Mona Lisa,
+        right up until his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Knowledge and creation as an unceasing mission:</strong>
+        The same conviction that knowledge and skill must be made available to the world –
+        which shaped Leonardo's entire life – also determined how he responded to his
+        physical limitation: not with withdrawal, but by switching to his already
+        available left hand in order to keep contributing.</p>
+        <p class="vb-intro"><strong>b) The Four-wing and the refusal to abandon unfinished work:</strong>
+        Leonardo's lifelong tendency never to fully complete his works met a new, physical
+        limit in his final years – yet instead of finally setting the Mona Lisa aside, it
+        remained his companion project to the very end, the same deep, emotional
+        attachment to one's own work that characterizes the Four-wing.</p>
+        <p class="vb-intro"><strong>c) Continuity instead of an abrupt break:</strong>
+        Unlike some other illness histories in this Compass, there are no reports of a
+        sudden, dramatic behavioral change after the stroke – Leonardo adapted his method
+        without abandoning his underlying working principle.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A body that could no longer quite keep up with the mind's demands:</strong>
+        Leonardo's entire life was shaped by the conviction that understanding and creating
+        are inseparable – the stroke threatened precisely the physical tool with which he
+        made that understanding visible, without ever touching the understanding itself.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-albert-einstein">Albert Einstein</a>
+        (also SO5w4) lived for over six and a half years with a known, life-threatening
+        abdominal aortic aneurysm and kept working almost until his death, refusing to let
+        the diagnosis slow him down; Leonardo responded to his own physical limitation with
+        the same stance – not withdrawal, but adapting his method while his intellectual
+        drive to create remained unchanged. Both cases show the same SO5w4 pattern: putting
+        one's own knowledge and work at the world's disposal weighs heavier than one's own
+        physical threat. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-albert-einstein">Illness Portrait of Albert Einstein</a>.</p>
+        <p class="vb-intro"><strong>c) Why the creating hand, of all things?</strong>
+        For a Social Five with a Four-wing, whose entire strength rested on translating
+        insight into visible, shared work, one interpretation suggests itself: precisely
+        the physical tool with which he made his knowledge visible to the world became the
+        site of the limitation – forcing him to switch to his other, equally practiced hand
+        rather than give up. This interpretation is a plausible reading, not a documented
+        historical causal link, and will be developed further in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
+        This does not mean that the Social Five's pattern inevitably leads to a stroke –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Leonardo's case illustrates is a pattern in how a pronounced Social Five with a
+        Four-wing tends to handle physical limitation in old age – one of many possible
+        interpretations, not a verdict. The corresponding illness picture is gradually
+        being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Leonardo did not know his own pattern – the Social Five with a Four-wing reflexively
+        puts its knowledge and work at the world's disposal instead of ever recognizing its
+        own physical vulnerability as a reason to stop, and he lived out exactly this
+        pattern unchanged into his final months of life. Someone who does not recognize
+        their own need to keep creating and contributing as a pattern cannot set it aside
+        even in the face of their own physical limits.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Five with a Four-wing explains much about the course of
+        <strong>Leonardo's</strong> own illness: a man whose entire strength rested on
+        translating insight into visible work would not even let a paralyzed hand stop
+        him – the octopus that lost one of its eight arms and kept drawing anyway, until
+        the very last breath.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4) – universal genius"},
+        {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Albert Einstein (SO5w4) – the same pattern of unrestrained creation"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so5", label:"Subtype Profile SO5"},
       ])}
     </div>
   `);
@@ -87799,6 +87978,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
+      "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
