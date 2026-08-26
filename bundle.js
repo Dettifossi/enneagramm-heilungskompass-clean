@@ -24049,6 +24049,7 @@ const registerEntries = [
   { term: "Sadhguru Krankheitsporträt", route: "krankheitsportraets-sadhguru", description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Chronisches subdurales Hämatom, Notoperation März 2024" },
   { term: "Umberto Eco Krankheitsporträt", route: "krankheitsportraets-umberto-eco", description: "Portrait: SE8w7 · Selbsterhaltender Typ 8 · Bauchspeicheldrüsenkrebs, rund zwei Jahre privat gehalten" },
   { term: "Greta Thunberg Krankheitsporträt", route: "krankheitsportraets-greta-thunberg", description: "Portrait: SE2w1 · Selbsterhaltender Typ 2 · Schwere Depression, Essstörung und selektiver Mutismus im Kindesalter" },
+  { term: "Bob Marley Krankheitsporträt", route: "krankheitsportraets-bob-marley", description: "Portrait: SO2w1 · Sozialer Typ 2 · Malignes Melanom, aus religiösen Gründen abgelehnte Amputation" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32209,6 +32210,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Selbsterhaltender Typ 3", krankheit:"Chronisches subdurales Hämatom, Notoperation im März 2024", teaser:"SE3w2 – Yogi, Guru und Bestsellerautor, geb. 1957. Wochenlange Kopfschmerzen, chronische Hirnblutung, Notoperation am 17. März 2024." , land:"Indien", gender:"m", jahre:"geb. 1957"},
   { route:"krankheitsportraets-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7", heading:"Dr. Umberto Eco – Selbsterhaltender Typ 8", krankheit:"Bauchspeicheldrüsenkrebs, rund zwei Jahre nahezu vollständig privat gehalten", teaser:"SE8w7 – Schriftsteller, Semiotiker und Philosoph, 1932–2016. Bauchspeicheldrüsenkrebs-Diagnose etwa zwei Jahre vor seinem Tod, unvermindertes literarisches Schaffen bis kurz vor dem Ende, Tod am 19. Februar 2016 in Mailand." , land:"Italien", gender:"m", jahre:"1932–2016"},
   { route:"krankheitsportraets-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1", heading:"Greta Thunberg – Selbsterhaltender Typ 2", krankheit:"Schwere Depression, Essstörung und selektiver Mutismus im Kindesalter", teaser:"SE2w1 – Klimaaktivistin, geb. 2003. Schwere depressive Episode mit Essstörung und selektivem Mutismus im Alter von etwa elf Jahren, gefolgt von den Diagnosen Asperger-Syndrom und Zwangsstörung." , land:"Schweden", gender:"f", jahre:"geb. 2003"},
+  { route:"krankheitsportraets-bob-marley", name:"Bob Marley", subtyp:"SO2w1", heading:"Bob Marley – Sozialer Typ 2", krankheit:"Malignes Melanom an der Zehe, aus religiösen Gründen abgelehnte Amputation", teaser:"SO2w1 – jamaikanischer Musiker, 1945–1981. 1977 diagnostiziertes malignes Melanom, aus religiösen Gründen abgelehnte Amputation, Ausbreitung des Krebses über Jahre, Tod am 11. Mai 1981 im Alter von 36 Jahren." , land:"Jamaika", gender:"m", jahre:"1945–1981"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -67236,6 +67238,7 @@ function bobMarleyPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
         {route:"beruehmte-albert-schweitzer", label:"Portrait: Dr. Albert Schweitzer (SO2w1)"},
+        {route:"krankheitsportraets-bob-marley", label:"Krankheitsporträt: Bob Marley (SO2w1) – malignes Melanom"},
       ])}
     </div>
   `);
@@ -72642,6 +72645,7 @@ function muhammadAliKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-muhammad-ali", label:"Porträt: Muhammad Ali (SO2w1) – Lebenswerk"},
+        {route:"krankheitsportraets-bob-marley", label:"Krankheitsporträt: Bob Marley (SO2w1) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
@@ -86793,6 +86797,177 @@ function gretaThunbergKrankheitsportraetPage() {
         {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
+function bobMarleyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bob-marley-portrait.jpg" alt="Bob Marley" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bob Marley</p>
+        <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel · 1945–1981</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bob Marley</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-bob-marley">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur kurz erwähnt wird: ein 1977 entdecktes malignes Melanom an
+        der Zehe, dessen dringend empfohlene Amputation Marley aus religiösen Gründen
+        ablehnte – eine Entscheidung, die seinen frühen Tod im Alter von 36 Jahren
+        mitbestimmte.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Marley</strong> ist dem <strong>sozialen Typ 2 mit Einserflügel</strong>
+        zugeordnet. Die SO2 stellt ihre Fürsorge in den Dienst eines größeren Anliegens,
+        nicht der eigenen Person; der Einserflügel gibt dieser Fürsorge eine moralische
+        Gewissheit, die keinen Kompromiss kennt. Genau diese Kombination – die eigene
+        Gesundheit dem übergeordneten Auftrag und der religiösen Überzeugung
+        unterzuordnen – bestimmte den Verlauf seiner Krankheit bis zum Tod.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Verletzung beim Fußballspielen 1977:</strong>
+        Eine Verletzung an der großen Zehe des rechten Fußes, die zunächst als
+        Sportverletzung galt, heilte nicht wie erwartet ab.</p>
+        <p class="vb-intro"><strong>b) Diagnose eines malignen Melanoms:</strong>
+        Ärzte diagnostizierten ein akrolentiginöses malignes Melanom – eine besonders
+        aggressive Hautkrebsform, die häufig an Händen und Füßen auftritt und dort oft spät
+        erkannt wird.</p>
+        <p class="vb-intro"><strong>c) Dringende Empfehlung zur Amputation:</strong>
+        Die behandelnden Ärzte rieten zur Amputation der Zehe, um eine Ausbreitung des
+        Tumors zu verhindern – eine aus medizinischer Sicht dringliche Maßnahme.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ablehnung der Amputation aus religiösen Gründen:</strong>
+        Marley lehnte den Eingriff ab, da der Rastafari-Glaube die Unversehrtheit des
+        Körpers als heilig ansieht – eine Entscheidung, die er trotz der ärztlichen
+        Dringlichkeit nicht revidierte.</p>
+        <p class="vb-intro"><strong>b) Fortsetzung des Tourprogramms:</strong>
+        Statt sich behandeln zu lassen, setzte Marley seine intensive Tour- und
+        Aufnahmetätigkeit über Jahre nahezu unverändert fort.</p>
+        <p class="vb-intro"><strong>c) Ausbreitung des Krebses über mehrere Jahre:</strong>
+        In den folgenden Jahren metastasierte der Krebs unbemerkt in Lunge, Leber und
+        Gehirn, bis die Erkrankung 1980 nicht mehr zu übersehen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Zusammenbruch beim Joggen im September 1980:</strong>
+        Während einer Tour durch die USA brach Marley beim Joggen im Central Park
+        zusammen – ein Ereignis, das den fortgeschrittenen Zustand seiner Erkrankung
+        öffentlich sichtbar machte.</p>
+        <p class="vb-intro"><strong>b) Letzter öffentlicher Auftritt kurz danach:</strong>
+        Nur wenige Tage später gab Marley in Pittsburgh sein letztes Konzert, ohne dass das
+        Publikum vom Ausmaß seiner Erkrankung wusste.</p>
+        <p class="vb-intro"><strong>c) Erfolglose Behandlungsversuche in Deutschland:</strong>
+        Anschließend suchte Marley eine alternative Krebsbehandlung bei einem Arzt in
+        Bayern auf, die den fortgeschrittenen Krebs jedoch nicht mehr aufhalten konnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 11. Mai 1981 in Miami:</strong>
+        Bob Marley starb im Alter von nur 36 Jahren auf dem Rückweg von der Behandlung in
+        Deutschland nach Jamaika, in einem Krankenhaus in Miami.</p>
+        <p class="vb-intro"><strong>b) Weltweite Trauer und posthumer Ruhm:</strong>
+        Marleys Tod löste weltweite Trauer aus und markierte zugleich den Beginn eines bis
+        heute ungebrochenen posthumen Ruhms als globale Reggae-Ikone.</p>
+        <p class="vb-intro"><strong>c) Bis heute diskutierte Entscheidung:</strong>
+        Marleys Ablehnung der Amputation wird bis heute als eines der bekanntesten Beispiele
+        dafür diskutiert, wie religiöse Überzeugung eine medizinisch dringend gebotene
+        Behandlung verhindern kann.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Fürsorge für ein ganzes Volk, nicht für sich selbst:</strong>
+        Die SO2-typische Ausrichtung auf ein größeres Anliegen zeigte sich auch im Umgang
+        mit der eigenen Krankheit: Marley setzte seine Tourneen fort, weil die Botschaft für
+        die Vielen wichtiger schien als die eigene Gesundheit.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel und die unbedingte religiöse Überzeugung:</strong>
+        Dieselbe Kompromisslosigkeit, mit der Marley zwei Tage nach dem Attentat 1976 mit
+        der Kugel im Arm auftrat, zeigte sich im Umgang mit der Krebsdiagnose als Weigerung,
+        eine als religiös falsch erkannte Behandlung überhaupt in Erwägung zu ziehen.</p>
+        <p class="vb-intro"><strong>c) Der eigene Körper als Teil einer größeren Ordnung:</strong>
+        Für Marley war der eigene Körper nicht getrennt von seinem Glauben zu betrachten –
+        die Weigerung, sich amputieren zu lassen, war keine Verdrängung der Krankheit,
+        sondern die konsequente Anwendung derselben moralischen Gewissheit, die auch seine
+        Musik trug.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann, der für die Unversehrtheit eines Volkes kämpfte und die eigene Unversehrtheit über sein Leben stellte:</strong>
+        Marleys gesamtes Werk kreiste um die Versöhnung, Heilung und Würde eines
+        unterdrückten Volkes – ausgerechnet er stellte die religiöse Vorstellung der eigenen
+        körperlichen Unversehrtheit über die medizinisch dringend gebotene Behandlung, bis
+        die Krankheit sich seiner Kontrolle entzog.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine auffällige Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-muhammad-ali">Muhammad
+        Ali (SO2w1)</a>: Auch Ali ignorierte über Jahre gesundheitliche Warnzeichen im
+        Boxsport, weil eine als moralisch richtig erkannte Sache – bei Ali der Kampf im
+        Ring, bei Marley die religiöse Überzeugung – wichtiger erschien als die eigene
+        körperliche Unversehrtheit. Bei beiden SO2w1 zeigt sich dasselbe Muster: eine
+        Gewissheit, im Recht zu sein, die auch das eigene Leben der übergeordneten Sache
+        unterordnet.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Zehe, der Kontaktpunkt zur Erde?</strong>
+        Für eine soziale Zwei mit Einserflügel, deren gesamtes Werk um Verwurzelung,
+        Herkunft und die Rückkehr zu den eigenen Wurzeln kreiste, liegt eine Deutung nahe:
+        Ausgerechnet jener Körperteil, der den Kontakt zum Boden herstellt, wurde zum
+        Ausgangspunkt einer Krankheit, die er nicht rechtzeitig behandeln ließ. Diese Deutung
+        ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu einer verweigerten
+        Krebsbehandlung führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Marleys Fall zeigen lässt, ist ein Muster
+        im Umgang mit einer lebensbedrohlichen Diagnose, das bei einem ausgeprägten sozialen
+        Typ 2 mit Einserflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Marley kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 2
+        mit Einserflügel hält reflexhaft an der eigenen moralischen Gewissheit fest, statt
+        die eigene Verwundbarkeit rechtzeitig ernst zu nehmen, und lebte genau dieses Muster
+        bis zum Tod unverändert aus. Wer die eigene Neigung, eine als richtig erkannte
+        Überzeugung über die eigene körperliche Sicherheit zu stellen, nicht als Muster
+        erkennt, riskiert, dass genau diese Überzeugung das eigene Leben verkürzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 2 mit Einserflügel erklärt bei <strong>Bob Marley</strong> vieles am
+        Verlauf seiner Krankheit: ein Mann, dessen gesamtes Werk der Heilung eines Volkes
+        galt, unterwarf die eigene Heilung derselben unbedingten religiösen Überzeugung, die
+        ihn weltberühmt gemacht hatte – der Golden Retriever, der bis zuletzt für andere da
+        war und die eigene Wunde nicht rechtzeitig versorgen ließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-bob-marley", label:"Porträt: Bob Marley (SO2w1)"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali (SO2w1) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
     </div>
   `);
@@ -127398,6 +127573,7 @@ function render() {
       "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
       "krankheitsportraets-umberto-eco": umbertoEcoKrankheitsportraetPage,
       "krankheitsportraets-greta-thunberg": gretaThunbergKrankheitsportraetPage,
+      "krankheitsportraets-bob-marley": bobMarleyKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,

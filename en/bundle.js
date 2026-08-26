@@ -250,6 +250,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Self-Preservation Type 3", krankheit:"Chronic subdural hematoma, emergency surgery in March 2024", teaser:"SE3w2 – yogi, guru, and bestselling author, b. 1957. Weeks of headaches, chronic brain bleed, emergency surgery on 17 March 2024." , land:"India", gender:"m", jahre:"b. 1957"},
   { route:"krankheitsportraets-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7", heading:"Dr. Umberto Eco – Self-Preservation Type 8", krankheit:"Pancreatic cancer, kept almost entirely private for about two years", teaser:"SE8w7 – writer, semiotician, and philosopher, 1932–2016. Pancreatic cancer diagnosis about two years before his death, undiminished literary output until shortly before the end, died on 19 February 2016 in Milan." , land:"Italy", gender:"m", jahre:"1932–2016"},
   { route:"krankheitsportraets-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1", heading:"Greta Thunberg – Self-Preservation Type 2", krankheit:"Severe depression, eating disorder, and selective mutism in childhood", teaser:"SE2w1 – climate activist, b. 2003. Severe depressive episode with an eating disorder and selective mutism at around age eleven, followed by diagnoses of Asperger's syndrome and OCD." , land:"Sweden", gender:"f", jahre:"b. 2003"},
+  { route:"krankheitsportraets-bob-marley", name:"Bob Marley", subtyp:"SO2w1", heading:"Bob Marley – Social Type 2", krankheit:"Malignant melanoma in the toe, amputation refused for religious reasons", teaser:"SO2w1 – Jamaican musician, 1945–1981. Malignant melanoma diagnosed in 1977, amputation refused for religious reasons, cancer spreading over years, died on 11 May 1981 at age 36." , land:"Jamaica", gender:"m", jahre:"1945–1981"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -39208,6 +39209,7 @@ function bobMarleyPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
         {route:"beruehmte-albert-schweitzer", label:"Portrait: Dr. Albert Schweitzer (SO2w1)"},
+        {route:"krankheitsportraets-bob-marley", label:"Illness Portrait: Bob Marley (SO2w1) – malignant melanoma"},
       ])}
     </div>
   `);
@@ -46203,6 +46205,7 @@ function muhammadAliKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1) – life's work"},
+        {route:"krankheitsportraets-bob-marley", label:"Illness Portrait: Bob Marley (SO2w1) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so2", label:"Subtype Profile SO2"},
       ])}
@@ -58294,6 +58297,171 @@ function gretaThunbergKrankheitsportraetPage() {
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SE2"},
+      ])}
+    </div>
+  `);
+}
+
+function bobMarleyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bob-marley-portrait.jpg" alt="Bob Marley" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bob Marley</p>
+        <p class="krim-portrait-typ">SO2w1 · Social Type 2 with One-Wing · 1945–1981</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bob Marley</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-bob-marley">Famous Personalities
+        portrait</a>. This page delves into a chapter only briefly mentioned there: a
+        malignant melanoma discovered in his toe in 1977, whose urgently recommended
+        amputation Marley refused for religious reasons – a decision that contributed to his
+        early death at age 36.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Marley</strong> is assigned to the <strong>social Type 2 with One-Wing</strong>.
+        The SO2 puts its care in the service of a larger cause, not its own person; the
+        One-Wing gives that care a moral certainty that admits no compromise. Exactly this
+        combination – subordinating his own health to the larger mission and his religious
+        conviction – shaped the course of his illness right up to his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) An injury while playing football in 1977:</strong>
+        An injury to the big toe of his right foot, initially treated as a sports injury,
+        did not heal as expected.</p>
+        <p class="vb-intro"><strong>b) Diagnosis of malignant melanoma:</strong>
+        Doctors diagnosed acral lentiginous malignant melanoma – a particularly aggressive
+        form of skin cancer that often occurs on hands and feet and is frequently detected
+        late there.</p>
+        <p class="vb-intro"><strong>c) Urgent recommendation for amputation:</strong>
+        His treating doctors advised amputating the toe to prevent the tumor from spreading –
+        a medically urgent measure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Refusal of amputation for religious reasons:</strong>
+        Marley refused the procedure, since the Rastafari faith regards the wholeness of the
+        body as sacred – a decision he did not reverse despite the medical urgency.</p>
+        <p class="vb-intro"><strong>b) Continuing his touring schedule:</strong>
+        Instead of getting treatment, Marley continued his intensive touring and recording
+        activity almost unchanged for years.</p>
+        <p class="vb-intro"><strong>c) The cancer spreading over several years:</strong>
+        In the years that followed, the cancer metastasized unnoticed to his lungs, liver,
+        and brain, until the illness could no longer be overlooked by 1980.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Collapse while jogging in September 1980:</strong>
+        During a tour of the US, Marley collapsed while jogging in Central Park – an event
+        that made the advanced state of his illness publicly visible.</p>
+        <p class="vb-intro"><strong>b) His final public performance shortly after:</strong>
+        Only a few days later, Marley gave his last concert in Pittsburgh, without the
+        audience knowing the extent of his illness.</p>
+        <p class="vb-intro"><strong>c) Unsuccessful treatment attempts in Germany:</strong>
+        Marley then sought alternative cancer treatment from a doctor in Bavaria, which
+        could no longer halt the advanced cancer.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death on 11 May 1981 in Miami:</strong>
+        Bob Marley died at just 36 years old on his way back from treatment in Germany to
+        Jamaica, in a hospital in Miami.</p>
+        <p class="vb-intro"><strong>b) Worldwide mourning and posthumous fame:</strong>
+        Marley's death triggered worldwide mourning and simultaneously marked the beginning
+        of an unbroken posthumous fame as a global reggae icon that continues to this day.</p>
+        <p class="vb-intro"><strong>c) A decision still discussed today:</strong>
+        Marley's refusal of amputation is still discussed today as one of the best-known
+        examples of how religious conviction can prevent a medically urgently indicated
+        treatment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Care for an entire people, not for himself:</strong>
+        The SO2's characteristic focus on a larger cause also showed in how he handled his
+        own illness: Marley continued his tours because the message for the many seemed more
+        important than his own health.</p>
+        <p class="vb-intro"><strong>b) The One-Wing and the unconditional religious conviction:</strong>
+        The same uncompromising stance with which Marley performed two days after the 1976
+        assassination attempt with a bullet still in his arm showed up in dealing with the
+        cancer diagnosis as a refusal to even consider a treatment recognized as religiously
+        wrong.</p>
+        <p class="vb-intro"><strong>c) His own body as part of a larger order:</strong>
+        For Marley, his own body could not be considered separately from his faith – refusing
+        amputation was not denial of the illness, but the consistent application of the same
+        moral certainty that also carried his music.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A man who fought for a people's wholeness and put his own wholeness above his life:</strong>
+        Marley's entire body of work revolved around the reconciliation, healing, and dignity
+        of an oppressed people – of all people, he put the religious idea of his own bodily
+        wholeness above the medically urgently indicated treatment, until the illness
+        escaped his control.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A striking parallel appears with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-muhammad-ali">Muhammad
+        Ali (SO2w1)</a>: Ali too ignored health warning signs in boxing for years, because a
+        cause recognized as morally right – for Ali, the fight in the ring; for Marley, his
+        religious conviction – seemed more important than his own physical integrity. Both
+        SO2w1s show the same pattern: a certainty of being right that subordinates even one's
+        own life to the larger cause.</p>
+        <p class="vb-intro"><strong>c) Why the toe, of all things, the point of contact with the earth?</strong>
+        For a social Two with a One-Wing whose entire work revolved around rootedness,
+        origin, and the return to one's own roots, one interpretation suggests itself: exactly
+        the body part that makes contact with the ground became the starting point of an
+        illness he did not have treated in time. This reading is a plausible interpretation,
+        not a proven clinical causal link, and will be developed further in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the social Two's pattern inevitably leads to a refused cancer
+        treatment – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What can be shown in Marley's case is a pattern in dealing with a life-threatening
+        diagnosis that keeps recurring in a pronounced social Type 2 with a One-Wing – one of
+        many possible readings, not a verdict. The corresponding illness pattern is being
+        developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Marley did not know his own pattern as an Enneagram structure – the social Type 2
+        with a One-Wing reflexively clings to its own moral certainty instead of taking its
+        own vulnerability seriously in time, and lived out exactly this pattern unchanged
+        until his death. Anyone who does not recognize their own tendency to place a
+        conviction recognized as right above their own physical safety as a pattern risks
+        that exactly this conviction shortens their own life.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Type 2 with One-Wing explains much about the course of <strong>Bob
+        Marley's</strong> illness: a man whose entire work was devoted to the healing of a
+        people subjected his own healing to the same unconditional religious conviction that
+        had made him world-famous – the Golden Retriever who was there for others until the
+        end and never let his own wound be treated in time.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali (SO2w1) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so2", label:"Subtype Profile SO2"},
       ])}
     </div>
   `);
@@ -91415,6 +91583,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
       "krankheitsportraets-umberto-eco": umbertoEcoKrankheitsportraetPage,
       "krankheitsportraets-greta-thunberg": gretaThunbergKrankheitsportraetPage,
+      "krankheitsportraets-bob-marley": bobMarleyKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
