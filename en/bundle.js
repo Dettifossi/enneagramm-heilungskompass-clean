@@ -41479,7 +41479,7 @@ function enneagrammZahnpsychosomatikPage() {
         </blockquote>
 
         <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
-          <img src="./assets/portraits/enneagramm-zahnpsychosomatik-en.jpeg" alt="Overview: Enneagram and Dental Psychosomatics – Centers and Tooth Groups" style="width:100%;display:block;" loading="lazy" />
+          <img src="../assets/portraits/enneagramm-zahnpsychosomatik-en.jpeg" alt="Overview: Enneagram and Dental Psychosomatics – Centers and Tooth Groups" style="width:100%;display:block;" loading="lazy" />
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Overview: The three Enneagram centers and their correspondence to the three tooth groups</p>
         </div>
 
@@ -41498,7 +41498,7 @@ function enneagrammZahnpsychosomatikPage() {
           <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">2. Behind the Scenes: Why the System Flows in Reality</h2>
           <p class="vb-intro">Anyone who engages more deeply with the Enneagram and psychosomatics quickly notices, however, that reality is more complex. People are not pure textbook examples of their main type. The Enneagram lives through its dynamics:</p>
           <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
-            <li><strong>The wings:</strong> A Type 4 is at home in the Heart Center, but almost always carries influences from its neighboring types (3 or 5).</li>
+            <li><strong>The wings:</strong> E.g., a Type 4 is at home in the Heart Center, but almost always carries influences from its neighboring types (3 or 5).</li>
             <li><strong>Stress and growth directions (arrows):</strong> Under pressure, we move into other types and take on their physical and mental states of tension.</li>
             <li><strong>Shadows and core emotions:</strong> An emotion like shame (classic for Type 4) is closely fused with primal fears and protective mechanisms.</li>
           </ul>
@@ -41523,9 +41523,9 @@ function enneagrammZahnpsychosomatikPage() {
           <p class="vb-intro" style="margin-bottom:0;">The structure is there, then – like a stable skeleton. But only the understanding of the dynamic and the flowing transitions breathes into it the life that reflects the real human being in all their complexity.</p>
         </div>
 
-        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+        ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions – with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+        ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy"},
           {route:"drei-zentren", label:"Chart: Three Centers"},

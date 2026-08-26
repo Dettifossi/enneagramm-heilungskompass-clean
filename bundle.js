@@ -70524,7 +70524,7 @@ function enneagrammZahnpsychosomatikPage() {
           <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">2. Der Blick hinter die Kulissen: Warum das System in der Realit\u00e4t flie\u00dft</h2>
           <p class="vb-intro">Wer sich intensiver mit dem Enneagramm und der Psychosomatik besch\u00e4ftigt, merkt jedoch schnell, dass die Realit\u00e4t komplexer ist. Menschen sind keine reinen Lehrbuchbeispiele ihres Haupttyps. Das Enneagramm lebt von Dynamiken:</p>
           <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
-            <li><strong>Die Fl\u00fcgel (Wings):</strong> Ein Typ 4 ist zwar im Herzzentrum zu Hause, hat aber fast immer Einfl\u00fcsse seiner Nachbartypen (3 oder 5).</li>
+            <li><strong>Die Fl\u00fcgel (Wings):</strong> Z. B. ist ein Typ 4 zwar im Herzzentrum zu Hause, hat aber fast immer Einfl\u00fcsse seiner Nachbartypen (3 oder 5).</li>
             <li><strong>Stress- und Wachstumsrichtung (Pfeile):</strong> Wir wandern unter Druck in andere Typen hinein und nehmen deren k\u00f6rperliche und mentale Spannungszust\u00e4nde an.</li>
             <li><strong>Die Schatten und Kernemotionen:</strong> Eine Emotion wie Scham (klassisch beim Typ 4) ist eng mit Ur-\u00c4ngsten und Schutzmechanismen verschmolzen.</li>
           </ul>
@@ -70549,9 +70549,9 @@ function enneagrammZahnpsychosomatikPage() {
           <p class="vb-intro" style="margin-bottom:0;">Die Struktur ist also da \u2013 wie ein stabiles Skelett. Aber erst das Verst\u00e4ndnis f\u00fcr die Dynamik und die flie\u00dfenden \u00dcberg\u00e4nge haucht ihr das Leben ein, das den wahren Menschen in all seiner Komplexit\u00e4t widerspiegelt.</p>
         </div>
 
-        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms \u2013 tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen f\u00fcr alle 9 Typen.", "Hinter der Leidenschaft")}
+        ${bookTip("leidenschaft-und-heilung", "27 Subtypen \u2013 Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind \u2013 ein tiefgr\u00fcndiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\u00f6opathie"},
           {route:"drei-zentren", label:"Schaubild: Drei Zentren"},
