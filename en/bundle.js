@@ -245,6 +245,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Self-Preservation Type 3", krankheit:"End-stage kidney failure", teaser:"SE3w4 – architect of the largest Ponzi scheme in history, 1938–2021. Progressive kidney disease in prison, repeatedly denied requests for early release despite a prognosis of under 18 months to live. Died on 14 April 2021 at the Federal Correctional Complex in Butner at age 82." , land:"USA", gender:"m", jahre:"1938–2021"},
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SO8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
+  { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Social Type 1", krankheit:"Severe benzodiazepine dependency, induced coma in 2019/2020", teaser:"SO1w9 – psychologist and author, b. 1962. Severe benzodiazepine dependency, unsuccessful treatment attempts in North America, medically induced coma in Russia at the end of 2019 for withdrawal treatment." , land:"Canada", gender:"m", jahre:"b. 1962"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -37445,6 +37446,7 @@ function jordanPetersonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        {route:"krankheitsportraets-jordan-peterson", label:"Illness Portrait: Dr. Jordan Peterson (SO1w9) – benzodiazepine dependency"},
       ])}
     </div>
   `);
@@ -57491,6 +57493,154 @@ function fransDeWaalKrankheitsportraetPage() {
         {route:"krankheitsportraets-morgan-freeman", label:"Illness Portrait: Morgan Freeman (SX7w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx7", label:"Subtype Profile SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function jordanPetersonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Dr. Jordan Peterson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Jordan Peterson</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-Wing · b. 1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jordan Peterson</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-jordan-peterson">Famous Personalities
+        portrait</a>. This page delves into a chapter only briefly mentioned there: a severe
+        benzodiazepine dependency that culminated in 2019/2020 in a medically induced
+        withdrawal coma in Russia, after Western clinics could no longer help him.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Peterson</strong> is assigned to the <strong>social Type 1 with Nine-Wing</strong>.
+        The SO1 carries its anger as a societal cause, not a private grudge; the Nine-Wing adds a
+        calm, patient persuasiveness that keeps repeating even difficult messages with stamina.
+        Exactly this combination – preaching order while chaos raged in his own life – shaped the
+        course of his own addiction.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Benzodiazepines prescribed after a family crisis:</strong>
+        By his own account, Peterson was medically prescribed benzodiazepines, among other things
+        in connection with his daughter Mikhaila's severe, rare autoimmune disease and the strain
+        it caused.</p>
+        <p class="vb-intro"><strong>b) A creeping physical dependency:</strong>
+        Over time a physical dependency developed that, by his own account, went far beyond the
+        originally intended use.</p>
+        <p class="vb-intro"><strong>c) Escalation through an unexpected reaction in 2019:</strong>
+        A paradoxical, extreme reaction to a dosage adjustment in spring 2019 triggered an acute
+        health crisis with severe withdrawal symptoms.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Unsuccessful treatment attempts in several countries:</strong>
+        According to his daughter Mikhaila, who documented the case publicly, they sought treatment
+        at several clinics in North America without achieving effective relief from the withdrawal.</p>
+        <p class="vb-intro"><strong>b) Extreme withdrawal symptoms, including akathisia:</strong>
+        Peterson later spoke publicly about agonizing states, including a condition described as
+        akathisia – an almost unbearable inner restlessness.</p>
+        <p class="vb-intro"><strong>c) Travel to Russia as a last treatment option:</strong>
+        At the end of 2019 the family traveled to Russia, where a clinic offered a treatment that
+        was not available in Western countries at the time.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) A medically induced coma for withdrawal treatment:</strong>
+        In Moscow, according to his daughter, Peterson was placed in an induced coma to get
+        through the hardest part of the physical withdrawal.</p>
+        <p class="vb-intro"><strong>b) Months of largely public invisibility:</strong>
+        For long stretches of this crisis, Peterson nearly vanished from public view – a sharp
+        contrast to his otherwise omnipresent media role.</p>
+        <p class="vb-intro"><strong>c) Public documentation by his own daughter:</strong>
+        Mikhaila Peterson reported extensively in her own videos during and after the crisis – an
+        unusually open account of a family member accompanying an addiction.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide media attention:</strong>
+        Peterson's crisis was reported extensively around the world – for many a surprising turn
+        in the life of a figure who publicly stood for self-discipline and order.</p>
+        <p class="vb-intro"><strong>b) A delayed but complete return to public life:</strong>
+        After months of recovery, Peterson gradually returned to lectures, interviews, and
+        publications in 2020/2021.</p>
+        <p class="vb-intro"><strong>c) Open, later processing in interviews:</strong>
+        In the following years, Peterson repeatedly spoke publicly about the crisis, without
+        downplaying or hiding it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Preaching order while his own life fell apart:</strong>
+        The same SO1 conviction that chaos is dangerous and order a moral duty stood in sharp
+        contrast to the period in which Peterson himself lost control of his own body.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing and enduring the situation for a long time before seeking help:</strong>
+        The Nine-Wing's patient, long-haul persuasiveness also showed in the fact that the family
+        tried various treatment paths for months before taking the radical step to Russia.</p>
+        <p class="vb-intro"><strong>c) Openness as a late form of loyalty to principle:</strong>
+        That Peterson later described his own crisis publicly and unvarnished fits the SO1
+        conviction that the truth – even one's own uncomfortable truth – must be spoken.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A mind that preached order while the body lost it:</strong>
+        Peterson's entire public work rests on the conviction that structure and self-discipline
+        can overcome chaos – of all people, he fell into a physical crisis in which exactly that
+        control was completely lost.</p>
+        <p class="vb-intro"><strong>b) Why the mind, of all things, which claimed to think most clearly?</strong>
+        For a social One with a Nine-Wing, whose entire public authority rested on rational
+        clarity and orderly thinking, one interpretation suggests itself: exactly the organ with
+        which he preached order to millions became, through medication dependency, the very site
+        of lost control. This reading is a plausible interpretation, not a proven clinical
+        causal link, and will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Classification without determinism:</strong>
+        This does not mean that the social One's pattern inevitably leads to medication
+        dependency – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What can be shown in Peterson's case is a pattern in dealing with an overcome dependency
+        crisis that keeps recurring in a pronounced social One with Nine-Wing – one of many
+        possible readings, not a verdict. The corresponding illness pattern is being developed
+        gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Peterson does not know his own pattern as an Enneagram structure – the social One with
+        Nine-Wing reflexively clings to its own demand for order instead of admitting its own
+        vulnerability in time, and lived out exactly this pattern unchanged until the acute
+        crisis. Anyone who does not recognize their own tendency to maintain control at all costs
+        as a pattern risks that control ends only in complete collapse.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Type 1 with Nine-Wing explains much about the course of <strong>Jordan
+        Peterson's</strong> own dependency crisis: a man whose entire public authority rested on
+        order and self-discipline had to live through the experience of complete loss of control
+        himself before finding solid ground again – the goose that fell out of formation and only
+        found its way back to the flock after an induced coma.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-jordan-peterson", label:"Portrait: Dr. Jordan Peterson (SO1w9)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so1", label:"Subtype Profile SO1"},
       ])}
     </div>
   `);
@@ -90607,6 +90757,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
+      "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,

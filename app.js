@@ -24044,6 +24044,7 @@ const registerEntries = [
   { term: "Drew Barrymore Krankheitsporträt", route: "krankheitsportraets-drew-barrymore", description: "Portrait: SO7w8 · Sozialer Typ 7 · Kindheitssucht" },
   { term: "Neil Armstrong Krankheitsporträt", route: "krankheitsportraets-neil-armstrong", description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · Über zwei Jahrzehnte koronare Herzkrankheit" },
   { term: "Robbie Williams Krankheitsporträt", route: "krankheitsportraets-robbie-williams", description: "Portrait: SX1w2 · Sexueller Typ 1 · Jahrzehntelange Depression und Suchterkrankung" },
+  { term: "Jordan Peterson Krankheitsporträt", route: "krankheitsportraets-jordan-peterson", description: "Portrait: SO1w9 · Sozialer Typ 1 · Benzodiazepin-Abhängigkeit, künstliches Koma 2019/2020" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32199,6 +32200,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-drew-barrymore", name:"Drew Barrymore", subtyp:"SO7w8", heading:"Drew Barrymore – Sozialer Typ 7", krankheit:"Kindheitssucht, Klinikeinweisung 1988 im Alter von 13 Jahren", teaser:"SO7w8 – Schauspielerin, geb. 1975. Bereits im Kindesalter beginnende Alkohol- und Drogensucht, 1988 im Alter von 13 Jahren in eine Entzugsklinik eingewiesen, mit 14 Jahren rechtlich von den Eltern emanzipiert." , land:"USA", gender:"f", jahre:"geb. 1975"},
   { route:"krankheitsportraets-neil-armstrong", name:"Neil Armstrong", subtyp:"SE6w5", heading:"Neil Armstrong – Selbsterhaltender Typ 6", krankheit:"Über zwei Jahrzehnte koronare Herzkrankheit, Tod nach Bypass-Operation", teaser:"SE6w5 – Astronaut, erster Mensch auf dem Mond, 1930–2012. Herzinfarkt 1991, über zwei Jahrzehnte fortschreitende koronare Herzkrankheit, Notfall-Vierfach-Bypass-Operation im August 2012, starb wenige Tage später an Komplikationen." , land:"USA", gender:"m", jahre:"1930–2012"},
   { route:"krankheitsportraets-robbie-williams", name:"Robbie Williams", subtyp:"SX1w2", heading:"Robbie Williams – Sexueller Typ 1", krankheit:"Jahrzehntelange Depression und Suchterkrankung (Alkohol, Kokain, Ecstasy)", teaser:"SX1w2 – Musiker, geb. 1974. Seit den frühen 1990er-Jahren schwere Depression und Suchterkrankung, mehrere Entzugsbehandlungen, 2023 in vierteiliger Netflix-Dokumentation ausführlich aufgearbeitet." , land:"Vereinigtes Königreich", gender:"m", jahre:"geb. 1974"},
+  { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Sozialer Typ 1", krankheit:"Schwere Benzodiazepin-Abhängigkeit, künstliches Koma 2019/2020", teaser:"SO1w9 – Psychologe und Autor, geb. 1962. Schwere Benzodiazepin-Abhängigkeit, erfolglose Behandlungsversuche in Nordamerika, Ende 2019 künstlich herbeigeführtes Koma in Russland zur Entzugsbehandlung." , land:"Kanada", gender:"m", jahre:"geb. 1962"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -60796,6 +60798,7 @@ function jordanPetersonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Portr\u00e4t: Friedrich Merz (SO1w9)"},
+        {route:"krankheitsportraets-jordan-peterson", label:"Krankheitsportr\u00e4t: Dr. Jordan Peterson (SO1w9) \u2013 Benzodiazepin-Abh\u00e4ngigkeit"},
       ])}
     </div>
   `);
@@ -85934,6 +85937,170 @@ function fransDeWaalKrankheitsportraetPage() {
         {route:"krankheitsportraets-morgan-freeman", label:"Krankheitsporträt: Morgan Freeman (SX7w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function jordanPetersonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Dr. Jordan Peterson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Jordan Peterson</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel · geb. 1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jordan Peterson</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-jordan-peterson">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur knapp angerissen wird: eine schwere
+        Benzodiazepin-Abhängigkeit, die 2019/2020 in einen künstlich herbeigeführten
+        Entzugskoma in Russland gipfelte, nachdem westliche Kliniken ihm nicht mehr
+        helfen konnten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Peterson</strong> ist dem <strong>sozialen Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SO1 trägt ihren Zorn als gesellschaftliches Anliegen, nicht als
+        privaten Groll; der Neunerflügel bringt eine ruhige, geduldige Überzeugungskraft
+        hinzu, die auch schwierige Botschaften ausdauernd wiederholt. Genau diese
+        Kombination – Ordnung predigen, während im eigenen Leben das Chaos tobte –
+        bestimmte den Verlauf seiner eigenen Suchterkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Verordnung von Benzodiazepinen nach familiärer Krise:</strong>
+        Nach eigener Schilderung erhielt Peterson Benzodiazepine ärztlich verordnet, unter
+        anderem im Zusammenhang mit der schweren, seltenen Autoimmunerkrankung seiner
+        Tochter Mikhaila und der damit verbundenen Belastung.</p>
+        <p class="vb-intro"><strong>b) Schleichend zunehmende körperliche Abhängigkeit:</strong>
+        Über die Zeit entwickelte sich eine physische Abhängigkeit, die nach eigener
+        Aussage weit über die ursprünglich beabsichtigte Anwendung hinausging.</p>
+        <p class="vb-intro"><strong>c) Verschärfung durch eine unerwartete Reaktion 2019:</strong>
+        Eine paradoxe, extreme Reaktion auf eine Dosisanpassung im Frühjahr 2019 löste
+        eine akute gesundheitliche Krise mit schweren Entzugssymptomen aus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Erfolglose Behandlungsversuche in mehreren Ländern:</strong>
+        Nach Angaben seiner Tochter Mikhaila, die den Fall öffentlich dokumentierte,
+        suchten sie Behandlung in mehreren Kliniken in Nordamerika, ohne dass eine
+        wirksame Linderung des Entzugs erreicht werden konnte.</p>
+        <p class="vb-intro"><strong>b) Extreme Entzugssymptome, darunter Akathisie:</strong>
+        Peterson berichtete später öffentlich über quälende Zustände, unter anderem eine
+        als Akathisie beschriebene, kaum erträgliche innere Unruhe.</p>
+        <p class="vb-intro"><strong>c) Reise nach Russland zur letzten Behandlungsoption:</strong>
+        Ende 2019 reiste die Familie nach Russland, wo eine Klinik eine Behandlung
+        anbot, die in westlichen Ländern zu diesem Zeitpunkt nicht verfügbar war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Künstlich herbeigeführtes Koma zur Entzugsbehandlung:</strong>
+        In Moskau wurde Peterson nach Angaben seiner Tochter in ein induziertes Koma
+        versetzt, um den schwersten Teil des körperlichen Entzugs zu überstehen.</p>
+        <p class="vb-intro"><strong>b) Monatelanger, öffentlich weitgehend unsichtbarer Rückzug:</strong>
+        Über weite Strecken dieser Krise verschwand Peterson fast vollständig aus der
+        Öffentlichkeit – ein starker Kontrast zu seiner sonst omnipräsenten medialen
+        Rolle.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Dokumentation durch die eigene Tochter:</strong>
+        Mikhaila Peterson berichtete während und nach der Krise ausführlich in eigenen
+        Videos über den Verlauf – eine ungewöhnlich offene Begleitung einer
+        Suchterkrankung durch ein Familienmitglied.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite mediale Aufmerksamkeit:</strong>
+        Petersons Krise wurde international ausführlich berichtet – für viele eine
+        überraschende Wendung im Leben einer Figur, die öffentlich für Selbstdisziplin
+        und Ordnung stand.</p>
+        <p class="vb-intro"><strong>b) Verzögerte, aber vollständige Rückkehr in die Öffentlichkeit:</strong>
+        Nach monatelanger Genesung kehrte Peterson 2020/2021 schrittweise zu Vorträgen,
+        Interviews und Veröffentlichungen zurück.</p>
+        <p class="vb-intro"><strong>c) Offene spätere Verarbeitung in Interviews:</strong>
+        Peterson sprach in den folgenden Jahren wiederholt öffentlich über die Krise,
+        ohne sie zu verharmlosen oder auszublenden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Ordnung predigen, während das eigene Leben aus den Fugen geriet:</strong>
+        Dieselbe SO1-Überzeugung, dass Chaos gefährlich und Ordnung eine moralische
+        Pflicht ist, stand in scharfem Kontrast zu der Zeit, in der Peterson selbst die
+        Kontrolle über den eigenen Körper verlor.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und das lange Aushalten, bevor Hilfe gesucht wurde:</strong>
+        Die geduldige, auf Dauer angelegte Überzeugungskraft des Neunerflügels zeigte
+        sich auch darin, dass die Familie über Monate verschiedene Behandlungswege
+        ausprobierte, bevor der radikale Schritt nach Russland unternommen wurde.</p>
+        <p class="vb-intro"><strong>c) Offenheit als späte Form der Prinzipientreue:</strong>
+        Dass Peterson die eigene Krise später öffentlich und ungeschönt beschrieb, passt
+        zur SO1-typischen Überzeugung, dass Wahrheit – auch die unbequeme, eigene –
+        ausgesprochen werden muss.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Verstand, der Ordnung predigte, während der Körper sie verlor:</strong>
+        Petersons gesamtes öffentliches Werk beruht auf der Überzeugung, dass Struktur
+        und Selbstdisziplin über das Chaos siegen können – ausgerechnet er geriet in eine
+        körperliche Krise, in der genau diese Kontrolle vollständig verloren ging.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet der Verstand, der klarste zu denken behauptete?</strong>
+        Für einen sozialen Einser mit Neunerflügel, dessen gesamte öffentliche Autorität
+        auf rationaler Klarheit und geordnetem Denken beruhte, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, mit dem er Millionen Menschen Ordnung predigte, wurde
+        durch die Medikamentenabhängigkeit selbst zum Ort des Kontrollverlusts. Diese
+        Deutung ist eine plausible Interpretation, kein belegter klinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu
+        Medikamentenabhängigkeit führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Petersons Fall zeigen
+        lässt, ist ein Muster im Umgang mit einer überwundenen Abhängigkeitskrise, das
+        bei einem ausgeprägten sozialen Einser mit Neunerflügel immer wieder auffällt –
+        eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Peterson kennt sein eigenes Muster nicht als Enneagramm-Struktur – die soziale
+        Eins mit Neunerflügel hält reflexhaft an der eigenen Ordnungsforderung fest,
+        statt die eigene Verwundbarkeit rechtzeitig einzugestehen, und lebte genau dieses
+        Muster bis zur akuten Krise unverändert aus. Wer die eigene Neigung, Kontrolle
+        um jeden Preis aufrechtzuerhalten, nicht als Muster erkennt, riskiert, dass die
+        Kontrolle erst im vollständigen Zusammenbruch endet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 1 mit Neunerflügel erklärt bei <strong>Jordan Peterson</strong>
+        vieles am Verlauf seiner eigenen Abhängigkeitskrise: ein Mann, dessen gesamte
+        öffentliche Autorität auf Ordnung und Selbstdisziplin beruhte, musste selbst die
+        Erfahrung des vollständigen Kontrollverlusts durchleben, bevor er wieder Boden
+        unter den Füßen fand – die Gans, die aus der Formation fiel und erst nach einem
+        induzierten Koma zurück in den Schwarm fand.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
       ])}
     </div>
   `);
@@ -126544,6 +126711,7 @@ function render() {
       "krankheitsportraets-drew-barrymore": drewBarrymoreKrankheitsportraetPage,
       "krankheitsportraets-neil-armstrong": neilArmstrongKrankheitsportraetPage,
       "krankheitsportraets-robbie-williams": robbieWilliamsKrankheitsportraetPage,
+      "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-frans-de-waal": fransDeWaalKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
