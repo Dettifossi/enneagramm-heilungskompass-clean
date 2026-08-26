@@ -15874,10 +15874,10 @@ const uiText = {
       { route: "zitate", label: "Zitate der Weisen" },
       { route: "tischdialoge", label: "Tischdialoge der 27 Subtypen" },
       { route: "enneagramm-homoeopathie", label: "Enneagramm meets Homöopathie" },
+      { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "enneagramm-kunst", label: "Enneagramm-Kunstgalerie" },
       { route: "enneagramm-filme", label: "Enneagramm-Filmempfehlungen" },
-      { route: "enneagramm-zahnpsychosomatik", label: "Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
       { route: "laenderzuordnungen", label: "Länderzuordnungen" },
       { route: "planetenzuordnungen", label: "Planeten & Trabanten des Sonnensystems" },
@@ -23639,7 +23639,7 @@ const registerEntries = [
 
   // Homöopathie
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
-  { term: "Enneagramm & Zahn-Psychosomatik", route: "enneagramm-zahnpsychosomatik", description: "Übersicht: Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm – Zentren, Zahngruppen und Flügel-Dynamik" },
+  { term: "Enneagramm meets Zahnpsychosomatik", route: "enneagramm-zahnpsychosomatik", description: "Übersicht: Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm – Zentren, Zahngruppen und Flügel-Dynamik" },
   { term: "Homöopathie-Songs",           route: "homoeopathie-songs",            description: "Schaubild: Musik trifft Homöopathie – Songs als Spiegel der Homöopathie-Mittel" },
 
   // Weitere Inhaltsseiten
