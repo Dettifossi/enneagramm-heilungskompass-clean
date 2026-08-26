@@ -87554,8 +87554,7 @@ function genesisPOrridgeKrankheitsportraetPage() {
         <strong>Genesis P-Orridge</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-genesis-p-orridge">Porträt
         berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nicht behandelt wird: eine über Jahre verlaufende Leukämie-
-        Erkrankung, während der Genesis bis kurz vor dem Tod im März 2020 weiter künstlerisch
+        Kapitel, das dort nicht behandelt wird: eine über Jahre verlaufende Leukämie-Erkrankung, während der Genesis bis kurz vor dem Tod im März 2020 weiter künstlerisch
         aktiv blieb.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
@@ -87598,8 +87597,7 @@ function genesisPOrridgeKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
         <p class="vb-intro"><strong>a) Tod am 14. März 2020 in New York:</strong>
-        Genesis P-Orridge starb im Alter von 70 Jahren an den Folgen der Leukämie-
-        Erkrankung, in der Wohnung, die eng mit der verstorbenen Partnerin Lady Jaye
+        Genesis P-Orridge starb im Alter von 70 Jahren an den Folgen der Leukämie-Erkrankung, in der Wohnung, die eng mit der verstorbenen Partnerin Lady Jaye
         verbunden war.</p>
         <p class="vb-intro"><strong>b) Weltweite Trauer in der Musik- und Kunstwelt:</strong>
         Der Tod löste international Nachrufe aus, die Genesis' Einfluss auf Industrial
