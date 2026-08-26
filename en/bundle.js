@@ -293,6 +293,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexual Type 3", krankheit:"Endometriosis since the early 1980s, later cancer", teaser:"SX3w4 – singer, songwriter, 1946–2026. Endometriosis diagnosed in the early 1980s with a partial hysterectomy in 1985, decades of recurring health crises. Died on August 25, 2026, following a brief battle with cancer. Connected to Marilyn Monroe (also SX3w4, also endometriosis)." , land:"USA", gender:"f", jahre:"1946–2026"},
   { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Social Type 4", krankheit:"Kidney surgery, escalating alcohol and pill dependency, unresolved death", teaser:"SO4w3 – actress, 1938–1982. Severe kidney operation, suicide of her first husband Harry Meyen in 1979, fatal accident of her son David in 1981. Died on May 29, 1982, officially of heart failure, no autopsy performed. Connected to Michael Jackson (also SO4w3, also substance dependency behind a flawless façade)." , land:"Austria/Germany", gender:"f", jahre:"1938–1982"},
   { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Self-Preservation Type 2", krankheit:"Hallucinations and depersonalization since childhood, voluntarily in a psychiatric hospital since 1977", teaser:"SP2w3 – Japanese artist, born 1929. Hallucinations since early childhood, several suicide attempts in the 1970s, voluntarily admitted to Tokyo's Seiwa Hospital for the mentally ill since 1977. Still works daily in her studio today. Connected to Frida Kahlo (also SP2w3, also art born from lifelong suffering)." , land:"Japan", gender:"f", jahre:"born 1929"},
+  { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexual Type 6", krankheit:"Severe traumatic brain injury after 2013 skiing accident, since then a total media blackout", teaser:"SX6w7 – Formula 1 racing driver, seven-time world champion, born 1969. Skiing accident on December 29, 2013, in Méribel with a severe traumatic brain injury, several emergency surgeries, months in a medically induced coma. Since his 2014 discharge, the family has kept his health condition entirely private." , land:"Germany", gender:"m", jahre:"born 1969"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -54024,6 +54025,177 @@ function yayoiKusamaKrankheitsportraetPage() {
   `);
 }
 
+function michaelSchumacherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Schumacher</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexual Type 6 with Seven-wing · born 1969</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Animal correspondence: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Michael Schumacher</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as seven-time Formula 1 world
+        champion and his type structure in general, with a brief mention of the 2013 skiing
+        accident. This page delves into that chapter: a severe traumatic brain injury, several
+        emergency surgeries, months in a medically induced coma – and a since unprecedented,
+        family-enforced total media blackout on his health.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Schumacher</strong> is classified as the <strong>Sexual Six with Seven-wing</strong>.
+        As the counter-type of the Six, SX6 meets its own fear not with retreat but with
+        attack – safety comes from dominating danger, not avoiding it. Exactly this pattern –
+        gaining control over the threat, if necessary through total isolation – still defines
+        how his closest circle handles his illness today.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The fall on 29 December 2013:</strong>
+        Schumacher was skiing off-piste in the French resort of Méribel with his then
+        fourteen-year-old son Mick, lost control, and fell over rocks – an accident that
+        initially seemed harmless but turned out to be life-threatening within minutes.</p>
+        <p class="vb-intro"><strong>b) A helmet that could not fully absorb the impact:</strong>
+        Despite wearing a helmet, Schumacher suffered a severe traumatic brain injury on
+        impact with a rock – according to some reports, a camera mount attached to the helmet
+        may have contributed to the severity of the injury.</p>
+        <p class="vb-intro"><strong>c) Immediate transport to a specialist hospital:</strong>
+        Schumacher was rushed to Grenoble University Hospital, which specializes in traumatic
+        brain injuries, where emergency neurosurgical treatment began at once.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Several emergency surgeries to relieve pressure:</strong>
+        The treating physicians, Jean-François Payen and Stephan Chabardes, removed a
+        hematoma in several procedures and focused primarily on reducing the
+        life-threatening intracranial pressure caused by bleeding and swelling.</p>
+        <p class="vb-intro"><strong>b) Months in a medically induced coma:</strong>
+        To give the brain the best possible chance to recover, Schumacher was kept in a
+        medically induced coma for weeks and months – a duration far exceeding what is typical
+        for traumatic brain injuries, reflecting the severity of the injury.</p>
+        <p class="vb-intro"><strong>c) Transfer and discharge in June 2014:</strong>
+        It was not until June 2014, roughly six months after the accident, that Schumacher was
+        discharged from inpatient care – first to a specialist clinic in Lausanne, later into
+        home care with his family.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) An unprecedented media blackout:</strong>
+        Since his discharge in 2014, the family – above all his wife Corinna – has not made a
+        single detailed medical statement about his condition public, a level of discretion
+        with few if any equivalents among prominent illness cases.</p>
+        <p class="vb-intro"><strong>b) A few, carefully measured signs of life:</strong>
+        Isolated statements from his closest circle – such as Corinna Schumacher's line "He is
+        here, he is different, but he is here" – have for years remained practically the only
+        public information, supplemented by brief remarks from his brother Ralf Schumacher or
+        his daughter Gina Maria.</p>
+        <p class="vb-intro"><strong>c) Legal action against speculation:</strong>
+        The family has repeatedly taken legal action against media outlets that published
+        unauthorized reports, photos, or – in one 2023 case – an AI-generated interview about
+        his condition, actively enforcing the media blackout as well as maintaining it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) The most public man in motorsport becomes the least visible:</strong>
+        Few contrasts could be starker than the one between the Schumacher who spent decades
+        in the glaring spotlight of Formula 1 and the man about whom, for over a decade, almost
+        nothing has reached the public.</p>
+        <p class="vb-intro"><strong>b) Speculation as a permanent state:</strong>
+        The total information blackout has, over the years, created a persistent media vacuum
+        repeatedly filled with unconfirmed rumors – for instance about stem-cell treatments in
+        Paris – which the family has never confirmed nor denied.</p>
+        <p class="vb-intro"><strong>c) A documentary as the only authorized glimpse:</strong>
+        The 2021 Netflix documentary "Schumacher" offered, for the first time, a
+        family-authorized but still highly restrained look back at his life – without showing
+        any current images or information about his present condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Expression</h3>
+        <p class="vb-intro"><strong>a) The wolf whose pack now fights for him:</strong>
+        The SX6's characteristic strategy of meeting threat with dominance rather than retreat
+        shows up here shifted onto the family: where Schumacher himself can no longer fight,
+        his closest circle takes on exactly the same uncompromising stance – controlling the
+        threat (in this case, the public) through firmness rather than yielding.</p>
+        <p class="vb-intro"><strong>b) The Seven-wing and the return to the most radiant image:</strong>
+        Rather than a current, potentially distressing image, his circle consistently chooses
+        the memory of the victorious, vibrant Schumacher – a stance that fits the Seven-wing's
+        ability to hold on to joy and light even in the face of loss, rather than being
+        consumed by heaviness.</p>
+        <p class="vb-intro"><strong>c) Absolute consistency instead of half measures:</strong>
+        As in his active career, the handling of his illness knows no half measures either: no
+        partial openness, no occasional update, but a complete, decade-plus-consistently
+        maintained blackout – SX6w7 in its most radical form, now lived out on his behalf by
+        his family.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) From a head that knew every corner by heart to a head that must now be protected:</strong>
+        Schumacher's entire career rested on an exceptionally precise, highly trained mind –
+        track knowledge, reaction speed, tactical thinking. Precisely this organ became the
+        site of the most severe injury in the 2013 fall.</p>
+        <p class="vb-intro"><strong>b) Why precisely off the marked track, for a man whose entire life was risk control?</strong>
+        For a Sexual Six whose entire professional life consisted of the precise, highly
+        trained mastery of extreme speed on closed, secured racetracks, one interpretation
+        suggests itself: the consequential accident happened precisely in an uncontrolled,
+        unsecured environment – off-piste, without the safety nets of a Formula 1 cockpit.
+        This interpretation is a plausible reading, not a proven medical or biographical causal
+        link, and is explored further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Context without determinism:</strong>
+        This does not mean the pattern of the Sexual Six inevitably leads to severe
+        accidents – <strong>anyone can have any accident and develop any illness, regardless
+        of subtype.</strong> What Schumacher's case illustrates is a pattern in how a sudden,
+        existential crisis is handled, one that recurs again and again in a pronounced Sexual
+        Six with a Seven-wing and their closest circle – one interpretation among many, not a
+        judgment. This illness pattern is being developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Nothing suggests that Schumacher or his family ever consciously knew his Enneagram
+        pattern. And yet his case shows just how deeply the SX6 principle of "safety through
+        control of the threat" continues to operate even after catastrophe – no longer in the
+        cockpit, but in the radical, still-maintained control over what the world is allowed
+        to know about him. Whoever has spent a lifetime learning to meet danger with dominance
+        carries that same pattern forward even when the danger is no longer the racetrack, but
+        the public itself.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Schumacher's</strong> Sexual Six with a Seven-wing, too, can be read once more
+        through his illness history: a sudden, existential threat met with the same
+        uncompromising resolve that once defined his career – except the control is no longer
+        his own, but exercised on his behalf by his pack. The wolf who once set the pace for
+        all of Formula 1 has, for over a decade, been protected by that very same pack he had
+        built around himself.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx6", label:"Subtype Profile SX6"},
+      ])}
+    </div>
+  `);
+}
+
 function ludwigXIVKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -94585,6 +94757,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
+      "krankheitsportraets-michael-schumacher": michaelSchumacherKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,

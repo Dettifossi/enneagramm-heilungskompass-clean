@@ -24027,6 +24027,7 @@ const registerEntries = [
   { term: "Bernie Madoff Krankheitsporträt", route: "krankheitsportraets-bernie-madoff", description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Niereninsuffizienz im Endstadium" },
   { term: "Frida Kahlo Krankheitsporträt", route: "krankheitsportraets-frida-kahlo", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Rund 30 Operationen, Beinamputation" },
   { term: "Yayoi Kusama Krankheitsporträt", route: "krankheitsportraets-yayoi-kusama", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Halluzinationen seit Kindheit, freiwillig in Psychiatrie seit 1977" },
+  { term: "Michael Schumacher Krankheitsporträt", route: "krankheitsportraets-michael-schumacher", description: "Portrait: SX6w7 · Sexueller Typ 6 · Schädel-Hirn-Trauma nach Skiunfall 2013, mediale Abschottung" },
   { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
@@ -32257,6 +32258,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexueller Typ 3", krankheit:"Endometriose seit den frühen 1980ern, zuletzt Krebserkrankung", teaser:"SX3w4 – Sängerin, Songwriterin, 1946–2026. Anfang der 1980er-Jahre diagnostizierte Endometriose mit Teilhysterektomie 1985, jahrzehntelang wiederkehrende Gesundheitskrisen. Starb am 25. August 2026 nach kurzer Krebserkrankung. Verknüpft mit Marilyn Monroe (ebenfalls SX3w4, ebenfalls Endometriose)." , land:"USA", gender:"f", jahre:"1946–2026"},
   { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Sozialer Typ 4", krankheit:"Nierenoperation, eskalierender Alkohol- und Tablettenkonsum, ungeklärter Tod", teaser:"SO4w3 – Schauspielerin, 1938–1982. Schwere Nierenoperation, Suizid ihres ersten Mannes Harry Meyen 1979, tödlicher Unfall ihres Sohnes David 1981. Starb am 29. Mai 1982 offiziell an Herzversagen, ohne Obduktion. Verknüpft mit Michael Jackson (ebenfalls SO4w3, ebenfalls Substanzabhängigkeit hinter makelloser Fassade)." , land:"Österreich/Deutschland", gender:"f", jahre:"1938–1982"},
   { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Selbsterhaltender Typ 2", krankheit:"Seit Kindheit bestehende Halluzinationen und Depersonalisation, freiwillig in psychiatrischer Klinik seit 1977", teaser:"SE2w3 – japanische Künstlerin, geb. 1929. Halluzinationen seit früher Kindheit, mehrere Suizidversuche in den 1970ern, seit 1977 freiwillig im Seiwa-Krankenhaus für psychisch Kranke in Tokio. Arbeitet bis heute täglich in ihrem Atelier. Verknüpft mit Frida Kahlo (ebenfalls SE2w3, ebenfalls Kunst aus lebenslangem Leiden)." , land:"Japan", gender:"f", jahre:"geb. 1929"},
+  { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexueller Typ 6", krankheit:"Schweres Schädel-Hirn-Trauma nach Skiunfall 2013, seither vollständige mediale Abschottung", teaser:"SX6w7 – Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969. Skiunfall am 29. Dezember 2013 in Méribel mit schwerem Schädel-Hirn-Trauma, mehrere Notoperationen, monatelanges künstliches Koma. Seit der Entlassung 2014 hält die Familie seinen Gesundheitszustand vollständig geheim." , land:"Deutschland", gender:"m", jahre:"geb. 1969"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -81160,6 +81162,189 @@ function yayoiKusamaKrankheitsportraetPage() {
         {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
+function michaelSchumacherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Schumacher</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel · geb. 1969</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Michael Schumacher</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als siebenmaliger
+        Formel-1-Weltmeister und seine Typstruktur im Allgemeinen, mit einem kurzen Verweis auf
+        den Skiunfall 2013. Diese Seite vertieft dieses Kapitel: ein schweres
+        Schädel-Hirn-Trauma, mehrere Notoperationen, monatelanges künstliches Koma – und eine
+        seither beispiellos konsequente, von der Familie durchgesetzte vollständige
+        Abschottung der Öffentlichkeit von seinem Gesundheitszustand.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Schumacher</strong> ist dem <strong>sexuellen Typ 6 mit Siebenerflügel</strong>
+        zugeordnet. Als Kontratyp der Sechs begegnet die SX6 der eigenen Angst nicht mit
+        Rückzug, sondern mit Angriff – Sicherheit entsteht durch das Dominieren der Gefahr,
+        nicht durch ihre Vermeidung. Genau dieses Muster – Kontrolle über die Bedrohung
+        gewinnen, notfalls durch vollständige Abschottung – bestimmt bis heute den Umgang
+        seines engsten Umfelds mit seiner Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Der Sturz am 29. Dezember 2013:</strong>
+        Schumacher fuhr beim Skifahren im französischen Méribel mit seinem damals
+        vierzehnjährigen Sohn Mick abseits der markierten Piste, verlor die Kontrolle und
+        stürzte über Felsen – ein Unfall, der zunächst harmlos wirkte, sich aber innerhalb von
+        Minuten als lebensbedrohlich herausstellte.</p>
+        <p class="vb-intro"><strong>b) Ein Helm, der den Aufprall nicht vollständig abfangen konnte:</strong>
+        Trotz Helms erlitt Schumacher beim Aufprall auf einen Felsen ein schweres
+        Schädel-Hirn-Trauma – Berichten zufolge könnte eine am Helm befestigte Kamerahalterung
+        zur Schwere der Verletzung beigetragen haben.</p>
+        <p class="vb-intro"><strong>c) Sofortiger Transport in eine spezialisierte Klinik:</strong>
+        Schumacher wurde umgehend in das auf Schädel-Hirn-Traumata spezialisierte
+        Universitätsklinikum Grenoble gebracht, wo eine neurochirurgische Notbehandlung
+        eingeleitet wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Mehrere Notoperationen zur Druckentlastung:</strong>
+        Die behandelnden Ärzte Jean-François Payen und Stephan Chabardes entfernten in
+        mehreren Eingriffen ein Hämatom und arbeiteten primär daran, den lebensgefährlichen
+        Hirndruck durch die entstandenen Einblutungen und Ödeme zu senken.</p>
+        <p class="vb-intro"><strong>b) Monatelanges künstliches Koma:</strong>
+        Um dem Gehirn die bestmögliche Erholung zu ermöglichen, wurde Schumacher über Wochen
+        und Monate in einem künstlichen Koma gehalten – ein Zustand, der weit über die für
+        Schädel-Hirn-Traumata übliche Dauer hinausging und den Ernst der Verletzung
+        widerspiegelte.</p>
+        <p class="vb-intro"><strong>c) Verlegung und Entlassung im Juni 2014:</strong>
+        Erst im Juni 2014, rund ein halbes Jahr nach dem Unfall, wurde Schumacher aus der
+        stationären Behandlung entlassen – zunächst in eine Spezialklinik in Lausanne, später
+        in die häusliche Pflege im Kreis seiner Familie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Eine beispiellose mediale Abschottung:</strong>
+        Seit seiner Entlassung 2014 hat die Familie – allen voran seine Frau Corinna – keine
+        einzige medizinische Detailauskunft über seinen Gesundheitszustand öffentlich gemacht,
+        eine Konsequenz, die in der Geschichte prominenter Krankheitsfälle ihresgleichen
+        sucht.</p>
+        <p class="vb-intro"><strong>b) Wenige, sorgfältig dosierte Lebenszeichen:</strong>
+        Vereinzelte Aussagen aus dem engsten Umfeld – etwa Corinna Schumachers Satz „Er ist
+        hier, er ist anders, aber er ist da" – sind über Jahre praktisch die einzigen
+        öffentlichen Informationen geblieben, ergänzt durch knappe Bemerkungen von Bruder Ralf
+        Schumacher oder Tochter Gina Maria.</p>
+        <p class="vb-intro"><strong>c) Rechtliche Schritte gegen Spekulationen:</strong>
+        Die Familie ging wiederholt juristisch gegen Medien vor, die unautorisierte Berichte,
+        Fotos oder – in einem Fall 2023 – ein KI-generiertes Interview über seinen Zustand
+        veröffentlichten, und setzte damit die Abschottung auch aktiv durch.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der öffentlichste Mensch des Motorsports wird zum unsichtbarsten:</strong>
+        Kaum ein Kontrast könnte größer sein als der zwischen dem Schumacher, der jahrzehntelang
+        im grellen Scheinwerferlicht der Formel 1 stand, und dem Mann, über den seit über zehn
+        Jahren praktisch nichts mehr an die Öffentlichkeit dringt.</p>
+        <p class="vb-intro"><strong>b) Spekulationen als Dauerzustand:</strong>
+        Die vollständige Informationssperre hat über die Jahre ein anhaltendes mediales Vakuum
+        geschaffen, das immer wieder durch unbestätigte Gerüchte – etwa über
+        Stammzelltherapien in Paris – gefüllt wurde, ohne dass die Familie diese je bestätigte
+        oder dementierte.</p>
+        <p class="vb-intro"><strong>c) Ein Dokumentarfilm als einziger autorisierter Einblick:</strong>
+        Die 2021 erschienene Netflix-Dokumentation „Schumacher" bot erstmals einen von der
+        Familie autorisierten, aber weiterhin sehr zurückhaltenden Rückblick auf sein Leben –
+        ohne aktuelle Bilder oder Informationen zu seinem gegenwärtigen Zustand zu zeigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Wolf, dessen Rudel jetzt für ihn kämpft:</strong>
+        Die SX6-typische Strategie, Bedrohung durch Dominanz statt durch Rückzug zu begegnen,
+        zeigt sich hier verschoben auf die Familie: Wo Schumacher selbst nicht mehr kämpfen
+        kann, übernimmt sein engstes Umfeld exakt dieselbe kompromisslose Haltung – Kontrolle
+        über die Bedrohung (in diesem Fall: die Öffentlichkeit) durch Härte statt durch
+        Nachgeben.</p>
+        <p class="vb-intro"><strong>b) Der Siebenerflügel und der Rückgriff auf das schönste Bild:</strong>
+        Statt eines aktuellen, möglicherweise belastenden Bildes wählt sein Umfeld konsequent
+        die Erinnerung an den siegreichen, lebendigen Schumacher – eine Haltung, die zur
+        Fähigkeit des Siebenerflügels passt, selbst im Angesicht von Verlust an der Freude und
+        am Licht festzuhalten, statt sich in der Schwere zu verlieren.</p>
+        <p class="vb-intro"><strong>c) Absolute Konsequenz statt halber Maßnahmen:</strong>
+        Wie schon in seiner aktiven Karriere kennt auch der Umgang mit seiner Krankheit keine
+        halben Lösungen: keine teilweise Offenheit, kein gelegentliches Update, sondern eine
+        vollständige, über ein Jahrzehnt konsequent durchgehaltene Abschottung – die SX6w7 in
+        ihrer radikalsten, jetzt stellvertretend von der Familie gelebten Form.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Vom Kopf, der jede Kurve auswendig kannte, zum Kopf, der geschützt werden muss:</strong>
+        Schumachers gesamte Karriere beruhte auf einem außergewöhnlich präzisen, hochtrainierten
+        Kopf – Streckenkenntnis, Reaktionsgeschwindigkeit, taktisches Denken. Ausgerechnet
+        dieses Organ wurde beim Sturz 2013 zum Ort der schwersten Verletzung.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet außerhalb der Piste, bei einem Mann, dessen ganzes Leben Risikokontrolle war?</strong>
+        Für eine sexuelle Sechs, deren gesamtes Berufsleben aus der präzisen, hochtrainierten
+        Kontrolle extremer Geschwindigkeit auf abgesperrten Rennstrecken bestand, liegt eine
+        Deutung nahe: Der folgenschwere Unfall ereignete sich ausgerechnet in einem
+        unkontrollierten, nicht abgesicherten Umfeld – abseits der Piste, ohne die Sicherheitsnetze
+        eines Formel-1-Cockpits. Diese Deutung ist eine plausible Interpretation, kein belegter
+        medizinischer oder biografischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu schweren Unfällen
+        führt – <strong>jeder Mensch kann jeden Unfall erleiden und jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Schumachers Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer plötzlichen, existenziellen Krise, das bei einer
+        ausgeprägten sexuellen Sechs mit Siebenerflügel und ihrem engsten Umfeld immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Nichts deutet darauf hin, dass Schumacher oder seine Familie sein Enneagramm-Muster je
+        bewusst kannten. Dennoch lässt sich an seinem Fall ablesen, wie tief das
+        SX6-typische Prinzip „Sicherheit durch Kontrolle der Bedrohung" auch nach der
+        Katastrophe fortwirkt – nicht mehr im Cockpit, sondern in der radikalen, bis heute
+        durchgehaltenen Kontrolle darüber, was die Welt über ihn erfahren darf. Wer sein Leben
+        lang gelernt hat, Gefahr durch Dominanz zu begegnen, überträgt dieses Muster auch dann,
+        wenn die Gefahr nicht mehr die Rennstrecke, sondern die Öffentlichkeit selbst ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Schumachers</strong> sexuelle Sechs mit
+        Siebenerflügel noch einmal ablesen: eine plötzliche, existenzielle Bedrohung, der mit
+        derselben Kompromisslosigkeit begegnet wird, die einst seine Karriere prägte – nur dass
+        die Kontrolle jetzt nicht mehr ihm selbst gehört, sondern von seinem Rudel
+        stellvertretend ausgeübt wird. Der Wolf, der einst das Tempo der ganzen Formel 1
+        vorgab, wird seit über zehn Jahren von genau jenem Rudel geschützt, das er sich selbst
+        aufgebaut hatte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
     </div>
   `);
@@ -130722,6 +130907,7 @@ function render() {
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
+      "krankheitsportraets-michael-schumacher": michaelSchumacherKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
