@@ -83465,7 +83465,7 @@ function helmutKohlKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Der Neunerflügel und das Aussitzen des eigenen Verfalls:</strong>
         Kohls legendäre Fähigkeit, Konflikte auszusitzen, statt sie öffentlich auszutragen,
         zeigte sich noch einmal in seinen letzten Jahren – kein öffentliches Ringen um
-        Fassung, sondern ein stiller, fast unsichtbarer Rückzug hinter geschlossene Türen.</p>
+        Fassung, sondern ein stiller, fast unsichtbarer Rückzug hinter verschlossenen Türen.</p>
         <p class="vb-intro"><strong>c) Die Loyalitätsfalle als Wiederholung eines bekannten Musters:</strong>
         Wie schon in der CDU-Spendenaffäre, in der Kohl treue Netzwerke über Transparenz
         stellte, geriet auch seine letzte Lebensphase in eine Situation, in der enge
