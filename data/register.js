@@ -26,6 +26,7 @@ export const registerEntries = [
 
   // Homöopathie
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
+  { term: "Enneagramm & Zahn-Psychosomatik", route: "enneagramm-zahnpsychosomatik", description: "Übersicht: Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm – Zentren, Zahngruppen und Flügel-Dynamik" },
   { term: "Homöopathie-Songs",           route: "homoeopathie-songs",            description: "Schaubild: Musik trifft Homöopathie – Songs als Spiegel der Homöopathie-Mittel" },
 
   // Weitere Inhaltsseiten
@@ -2186,6 +2187,7 @@ export const registerEntriesEN = [
   { term: "Enneagram & Astrology", route: "enneagramm-astrologie", description: "Overview: connection between Enneagram types and astrological signs" },
   { term: "Enneagram Film Recommendations", route: "enneagramm-filme", description: "270 film tips for all 27 subtypes – ten films per subtype" },
   { term: "Enneagram & Homeopathy", route: "enneagramm-homoeopathie", description: "Overview: homeopathy for all 27 subtypes – remedy assignments by type and instinct" },
+  { term: "Enneagram & Dental Psychosomatics", route: "enneagramm-zahnpsychosomatik", description: "Overview: the dynamic connection between dental psychosomatics and the Enneagram – centers, tooth groups, and wing dynamics" },
   { term: "Homeopathy Songs", route: "homoeopathie-songs", description: "Chart: music meets homeopathy – songs as a mirror of homeopathic remedies" },
   { term: "Music", route: "musik", description: "Music recommendations matching your Enneagram type · playlist assignments" },
   { term: "Personality Models Compared", route: "persoenlichkeitsmodelle-vergleich", description: "Chart: Enneagram vs. MBTI, Big Five, DISC and other models" },

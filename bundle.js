@@ -15877,6 +15877,7 @@ const uiText = {
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "enneagramm-kunst", label: "Enneagramm-Kunstgalerie" },
       { route: "enneagramm-filme", label: "Enneagramm-Filmempfehlungen" },
+      { route: "enneagramm-zahnpsychosomatik", label: "Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
       { route: "laenderzuordnungen", label: "Länderzuordnungen" },
       { route: "planetenzuordnungen", label: "Planeten & Trabanten des Sonnensystems" },
@@ -23638,6 +23639,7 @@ const registerEntries = [
 
   // Homöopathie
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
+  { term: "Enneagramm & Zahn-Psychosomatik", route: "enneagramm-zahnpsychosomatik", description: "Übersicht: Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm – Zentren, Zahngruppen und Flügel-Dynamik" },
   { term: "Homöopathie-Songs",           route: "homoeopathie-songs",            description: "Schaubild: Musik trifft Homöopathie – Songs als Spiegel der Homöopathie-Mittel" },
 
   // Weitere Inhaltsseiten
@@ -70375,6 +70377,7 @@ function enneagrammHomoeopathiePage() {
           {route:"homoeopathie", label:"Hom\xf6opathie \u2013 Heilmittel\xfcbersicht"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
           {route:"beruehmte-samuel-hahnemann", label:"Portr\xe4t: Dr. Samuel Hahnemann (SO1w9)"},
+          {route:"enneagramm-zahnpsychosomatik", label:"Enneagramm meets Zahn-Psychosomatik"},
         ])}
       </div>
     </div>
@@ -70485,7 +70488,82 @@ function homoeopathieFallPage(route) {
   return _homoeopathieFallPage(Object.assign({}, base, detail));
 }
 
-// \u2500\u2500\u2500 Enneagramm meets Astrologie \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+// \u2500\u2500\u2500 Enneagramm meets Zahn-Psychosomatik \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+function enneagrammZahnpsychosomatikPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-zahnpsychosomatik')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen \u00b7 Psychosomatik</p>
+        <h1 class="section-title">Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Die Architektur der Seele im Kiefer: Warum das dynamische Enneagramm und die Zahn-Psychosomatik Hand in Hand gehen</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">In der ganzheitlichen Betrachtung des Menschen suchen wir oft nach klaren Schubladen: Welcher Zahn geh\u00f6rt zu welchem Organ? Welches Enneagramm-Muster entspricht welcher K\u00f6rperspannung? Doch wer den Menschen auf diese Weise starr einteilt, \u00fcbersieht das Wesentliche. Die Psyche ist kein statisches Monument, und der K\u00f6rper erst recht nicht. Das Enneagramm ist ein System der st\u00e4ndigen Bewegung, des Flie\u00dfens und der inneren Alchemie.</p>
+          <p class="vb-intro">Dennoch brauchen wir f\u00fcr den Einstieg eine Orientierung, eine Grundstruktur. Das Geheimnis liegt darin, diese klare Basisstruktur als Ausgangspunkt zu begreifen, um sie im n\u00e4chsten Schritt als ein dynamisches, lebendiges Gef\u00fcge zu verstehen. Es ist wie bei einer Landkarte: Die Linien sind starr, aber das Leben, das sich auf ihr abspielt, ist voller Fluss, Richtungswechsel und \u00dcberlappungen.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/enneagramm-zahnpsychosomatik-de.jpeg" alt="\u00dcbersicht: Enneagramm und Zahn-Psychosomatik \u2013 Zentren und Zahngruppen" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">\u00dcbersicht: Die drei Zentren des Enneagramms und ihre Entsprechung in den drei Zahngruppen</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Fundament: Die klare Basisstruktur als erster Anker</h2>
+          <p class="vb-intro">Um die Verbindung zwischen Z\u00e4hnen und Enneagramm \u00fcberhaupt greifbar zu machen, dient die klassische Zuordnung der Zentren und Zahngruppen als wertvolles Orientierungsraster. Sie gibt dem Leser den roten Faden an die Hand:</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>Das Kopf-Zentrum (Typ 5, 6, 7) und die Schneidez\u00e4hne:</strong> Sie stehen f\u00fcr das Wasser-Element, die Nieren und die Ur-Angst. Die Frontz\u00e4hne bilden unsere Visitenkarte, unser Selbstbild und die Frage nach der eigenen Identit\u00e4t in einer unsicheren Welt.</li>
+            <li><strong>Das Bauch-Zentrum (Typ 8, 9, 1) und die Eckz\u00e4hne:</strong> Sie repr\u00e4sentieren das Holz-Element, Leber/Galle und die rohe Instinktkraft. Die Eckz\u00e4hne sind die Waffen des Willens, mit denen wir uns Raum verschaffen, Grenzen setzen und mit unterdr\u00fcckter oder gelebter Wut umgehen.</li>
+            <li><strong>Das Herz-Zentrum (Typ 2, 3, 4) und die Backenz\u00e4hne:</strong> Sie sind die schweren Mahlwerkzeuge f\u00fcr die Alltagsbew\u00e4ltigung. Sie tragen die Lasten, das Funktionieren, den Leistungsdruck und den emotionalen Preis, den wir f\u00fcr Anerkennung und Liebe zahlen.</li>
+          </ul>
+          <p class="vb-intro">Diese Struktur bietet eine wunderbare erste \u00dcbersicht. Sie zeigt, wie die drei gro\u00dfen menschlichen Grundthemen \u2013 Angst im Kopf, Wut im Bauch, Scham/Gef\u00fchl im Herzen \u2013 mechanisch und energetisch in unseren Kiefer eingeschrieben sind.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">2. Der Blick hinter die Kulissen: Warum das System in der Realit\u00e4t flie\u00dft</h2>
+          <p class="vb-intro">Wer sich intensiver mit dem Enneagramm und der Psychosomatik besch\u00e4ftigt, merkt jedoch schnell, dass die Realit\u00e4t komplexer ist. Menschen sind keine reinen Lehrbuchbeispiele ihres Haupttyps. Das Enneagramm lebt von Dynamiken:</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>Die Fl\u00fcgel (Wings):</strong> Ein Typ 4 ist zwar im Herzzentrum zu Hause, hat aber fast immer Einfl\u00fcsse seiner Nachbartypen (3 oder 5).</li>
+            <li><strong>Stress- und Wachstumsrichtung (Pfeile):</strong> Wir wandern unter Druck in andere Typen hinein und nehmen deren k\u00f6rperliche und mentale Spannungszust\u00e4nde an.</li>
+            <li><strong>Die Schatten und Kernemotionen:</strong> Eine Emotion wie Scham (klassisch beim Typ 4) ist eng mit Ur-\u00c4ngsten und Schutzmechanismen verschmolzen.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 0.8rem;color:var(--ink);">Das Fallbeispiel: Warum die Vier pl\u00f6tzlich an den Schneidez\u00e4hnen leidet</h3>
+          <p class="vb-intro">Um diese Dynamik greifbar zu machen, kehren wir zu dem zuvor genannten Beispiel zur\u00fcck: Ein Typ 4 (Der Individualist) geh\u00f6rt dem Herzzentrum an, leidet aber unter massiven Problemen an den Schneidez\u00e4hnen.</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li>Der starre Blick w\u00fcrde sagen: \u201eDas passt nicht, Schneidez\u00e4hne geh\u00f6ren zum Kopf-Zentrum und zur Angst."</li>
+            <li>Der dynamische Blick erkennt das wahre Drama dahinter: Die Kernemotion der Vier ist die Scham \u2013 das tiefe Gef\u00fchl, grundlegend fehlerhaft oder \u201eanders" zu sein. Scham ist aber nichts anderes als die pure Angst vor Entbl\u00f6\u00dfung, vor Ablehnung und davor, als unvollkommen gesehen zu werden. Ber\u00fchrt diese Scham den 5er-Fl\u00fcgel der Vier (der ohnehin dazu neigt, sich intellektuell aus der Welt zur\u00fcckzuziehen und \u00e4ngstlich zu beobachten), zieht sich der Mensch komplett in den Kopf zur\u00fcck.</li>
+            <li>Das Resultat: Der Schmerz der Scham bricht genau dort durch, wo wir nach au\u00dfen hin sichtbar sind \u2013 an den Schneidez\u00e4hnen. Der K\u00f6rper l\u00fcgt nicht. Er zeigt nicht das starre Etikett des Enneagramm-Typs, sondern die aktive emotionale Verschiebung im System.</li>
+          </ul>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">3. Orientierung f\u00fcr den Leser: Wie man die Zeichen im Kiefer liest</h2>
+          <p class="vb-intro">Um diese feine Struktur richtig zu deuten, braucht es ein tieferes Verst\u00e4ndnis. Man muss sich auf eine kleine Entdeckungsreise einlassen:</p>
+          <ol style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>Die Orientierung nutzen:</strong> Nimm die klassische Dreiteilung (Schneidez\u00e4hne = Identit\u00e4t/Kopf, Eckz\u00e4hne = Wille/Bauch, Backenz\u00e4hne = Lasten/Herz) als deine erste Kompassnadel. Sie hilft dir zu verstehen, wo im K\u00f6rper welcher Grundkonflikt prim\u00e4r parkt.</li>
+            <li><strong>Die Dynamik zulassen:</strong> Erlaube dir den Blick f\u00fcr die Zwischent\u00f6ne. Wenn dein Schmerz oder dein Knirschen nicht \u201eins Schema" passt, frage dich: Welcher Fl\u00fcgel ist gerade aktiv? In welches Stressmuster bin ich abgerutscht? Welche versteckte Emotion (wie Scham unter der Vier oder Angst hinter der harten Fassade der Acht) dr\u00fcckt hier gerade auf den Nerv?</li>
+            <li><strong>Den K\u00f6rper als Verb\u00fcndeten sehen:</strong> Z\u00e4hne sind wie ein Seismograf. Sie registrieren Beben, lange bevor wir sie kognitiv begreifen. Wer sich intensiv mit diesem Zusammenspiel besch\u00e4ftigt, erkennt, dass jede Zahnspannung eine Einladung zur Bewusstwerdung ist.</li>
+          </ol>
+          <p class="vb-intro" style="margin-bottom:0;">Die Struktur ist also da \u2013 wie ein stabiles Skelett. Aber erst das Verst\u00e4ndnis f\u00fcr die Dynamik und die flie\u00dfenden \u00dcberg\u00e4nge haucht ihr das Leben ein, das den wahren Menschen in all seiner Komplexit\u00e4t widerspiegelt.</p>
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\u00f6opathie"},
+          {route:"drei-zentren", label:"Schaubild: Drei Zentren"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+          {route:"basisemotionen", label:"Schaubild: Basisemotionen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+// \u2500\u2500\u2500 Enneagramm meets Astrologie \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
 function enneagrammAstrologiePage() {
   function card(p) {
@@ -129245,6 +129323,7 @@ function render() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
       "enneagramm-filme": enneagrammFilmeUebersichtPage,

@@ -2669,6 +2669,7 @@ text.nav = [
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "enneagramm-kunst", label: "Enneagram Art" },
     { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
+    { route: "enneagramm-zahnpsychosomatik", label: "The Dynamic Connection Between Dental Psychosomatics and the Enneagram" },
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
     { route: "laenderzuordnungen", label: "Country Assignments" },
     { route: "planetenzuordnungen", label: "Planets & Moons of the Solar System" },
@@ -41350,6 +41351,7 @@ function enneagrammHomoeopathiePage() {
           {route:"homoeopathie", label:"Homeopathy – Remedy Overview"},
           {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
           {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
+          {route:"enneagramm-zahnpsychosomatik", label:"Enneagram Meets Dental Psychosomatics"},
         ])}
       </div>
     </div>
@@ -41461,6 +41463,79 @@ function homoeopathieFallPage(route) {
 }
 
 // ─── Enneagramm meets Astrologie ───────────────────────────────────────────
+
+function enneagrammZahnpsychosomatikPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-zahnpsychosomatik')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge · Psychosomatics</p>
+        <h1 class="section-title">The Dynamic Connection Between Dental Psychosomatics and the Enneagram</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">The Architecture of the Soul in the Jaw: Why the Dynamic Enneagram and Dental Psychosomatics Go Hand in Hand</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">In a holistic view of the human being, we often look for neat drawers to file things into: which tooth belongs to which organ? Which Enneagram pattern corresponds to which bodily tension? But whoever divides a person up this rigidly overlooks what matters most. The psyche is no static monument, and the body even less so. The Enneagram is a system of constant movement, of flow and inner alchemy.</p>
+          <p class="vb-intro">Even so, we need an orientation, a basic structure, to begin with. The secret lies in grasping this clear basic structure as a starting point, in order to then understand it, in a second step, as a dynamic, living web. It is like a map: the lines are fixed, but the life that plays out on it is full of flow, changes of direction, and overlaps.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/enneagramm-zahnpsychosomatik-en.jpeg" alt="Overview: Enneagram and Dental Psychosomatics – Centers and Tooth Groups" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Overview: The three Enneagram centers and their correspondence to the three tooth groups</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Foundation: The Clear Basic Structure as a First Anchor</h2>
+          <p class="vb-intro">To make the connection between teeth and the Enneagram graspable at all, the classic assignment of centers and tooth groups serves as a valuable frame of orientation. It gives the reader a thread to follow:</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>The Head Center (Types 5, 6, 7) and the incisors:</strong> They stand for the water element, the kidneys, and primal fear. The front teeth are our calling card, our self-image, and the question of our own identity in an uncertain world.</li>
+            <li><strong>The Belly Center (Types 8, 9, 1) and the canines:</strong> They represent the wood element, liver/gallbladder, and raw instinctual force. The canines are the weapons of the will, with which we claim space, set boundaries, and deal with suppressed or lived-out anger.</li>
+            <li><strong>The Heart Center (Types 2, 3, 4) and the molars:</strong> They are the heavy grinding tools for coping with everyday life. They carry the burdens, the functioning, the pressure to perform, and the emotional price we pay for recognition and love.</li>
+          </ul>
+          <p class="vb-intro">This structure offers a wonderful first overview. It shows how the three great fundamental human themes – fear in the head, anger in the belly, shame/feeling in the heart – are mechanically and energetically inscribed into our jaw.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">2. Behind the Scenes: Why the System Flows in Reality</h2>
+          <p class="vb-intro">Anyone who engages more deeply with the Enneagram and psychosomatics quickly notices, however, that reality is more complex. People are not pure textbook examples of their main type. The Enneagram lives through its dynamics:</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>The wings:</strong> A Type 4 is at home in the Heart Center, but almost always carries influences from its neighboring types (3 or 5).</li>
+            <li><strong>Stress and growth directions (arrows):</strong> Under pressure, we move into other types and take on their physical and mental states of tension.</li>
+            <li><strong>Shadows and core emotions:</strong> An emotion like shame (classic for Type 4) is closely fused with primal fears and protective mechanisms.</li>
+          </ul>
+
+          <h3 style="font-size:1rem;font-weight:700;margin:1.4rem 0 0.8rem;color:var(--ink);">The Case Example: Why the Four Suddenly Suffers at the Incisors</h3>
+          <p class="vb-intro">To make this dynamic tangible, let's return to the example mentioned above: a Type 4 (the Individualist) belongs to the Heart Center, yet suffers from massive problems at the incisors.</p>
+          <ul style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li>The rigid view would say: "That doesn't fit – incisors belong to the Head Center and to fear."</li>
+            <li>The dynamic view recognizes the true drama behind it: the core emotion of the Four is shame – the deep feeling of being fundamentally flawed or "different." But shame is nothing other than pure fear of exposure, of rejection, and of being seen as imperfect. When this shame touches the Four's Five-wing (which already tends to withdraw intellectually from the world and observe anxiously), the person retreats completely into the head.</li>
+            <li>The result: the pain of shame breaks through exactly where we are visible to the outside world – at the incisors. The body does not lie. It does not display the rigid label of the Enneagram type, but the active emotional shift within the system.</li>
+          </ul>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">3. Orientation for the Reader: How to Read the Signs in the Jaw</h2>
+          <p class="vb-intro">To interpret this fine structure correctly requires a deeper understanding. One must embark on a small journey of discovery:</p>
+          <ol style="margin:0.8rem 0 1.2rem;padding-left:1.2rem;font-size:0.95rem;line-height:1.75;color:var(--ink);">
+            <li><strong>Use the orientation:</strong> Take the classic three-part division (incisors = identity/head, canines = will/belly, molars = burdens/heart) as your first compass needle. It helps you understand where in the body which basic conflict is primarily parked.</li>
+            <li><strong>Allow for the dynamic:</strong> Give yourself an eye for the nuances. If your pain or your grinding doesn't "fit the scheme," ask yourself: which wing is currently active? Into which stress pattern have I slipped? Which hidden emotion (like shame beneath the Four, or fear behind the Eight's tough facade) is pressing on the nerve right now?</li>
+            <li><strong>See the body as an ally:</strong> Teeth are like a seismograph. They register tremors long before we grasp them cognitively. Anyone who engages intensively with this interplay recognizes that every tension in the teeth is an invitation to become conscious.</li>
+          </ol>
+          <p class="vb-intro" style="margin-bottom:0;">The structure is there, then – like a stable skeleton. But only the understanding of the dynamic and the flowing transitions breathes into it the life that reflects the real human being in all their complexity.</p>
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy"},
+          {route:"drei-zentren", label:"Chart: Three Centers"},
+          {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
+          {route:"basisemotionen", label:"Chart: Basic Emotions"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function enneagrammAstrologiePage() {
   function card(p) {
@@ -93152,6 +93227,7 @@ function subtypeSchaubilderPage() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
       "enneagramm-filme": enneagrammFilmeUebersichtPage,
