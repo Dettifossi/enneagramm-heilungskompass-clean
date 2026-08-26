@@ -257,6 +257,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9", heading:"Genesis P-Orridge – Sexual Type 8", krankheit:"Leukemia, progressing over years, died 2020", teaser:"SX8w9 – musician, performance artist, and occultist, 1950–2020. Leukemia spanning several years, artistically active until shortly before death, died on 14 March 2020 in New York." , land:"United Kingdom", gender:"nonbinary", jahre:"1950–2020"},
   { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexual Type 4", krankheit:"Tourette syndrome, kept secret for years; severe depressive period with self-harm as a teenager", teaser:"SX4w3 – singer and songwriter, b. 2001. Tourette syndrome since childhood, publicly confirmed only in 2018; also severe depression with self-harm from around age twelve, documented in 2021." , land:"USA", gender:"f", jahre:"b. 2001"},
   { route:"krankheitsportraets-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8", heading:"Willy Brandt – Social Type 9", krankheit:"Recurring severe depressive episodes, colon cancer", teaser:"SO9w8 – West German chancellor, Nobel Peace Prize 1971, 1913–1992. Recurring depressive crises throughout his political career, including in 1958 and 1974, died 1992 of colon cancer." , land:"Germany", gender:"m", jahre:"1913–1992"},
+  { route:"krankheitsportraets-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8", heading:"Hans-Dietrich Genscher – Self-Preservation Type 9", krankheit:"Years-long heart condition", teaser:"SE9w8 – foreign minister and vice chancellor 1974–1992, 1927–2016. Heart condition known for years alongside unbroken public presence, died on 31 March 2016 from its effects." , land:"Germany", gender:"m", jahre:"1927–2016"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -34628,6 +34629,7 @@ function hansDietrichGenscherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – heart condition"},
       ])}
     </div>
   `);
@@ -51417,6 +51419,7 @@ function davidHumeKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – life's work"},
         {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – the same elephant-like calm"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – same subtype"},
         {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se9", label:"Subtype Profile SE9"},
@@ -51599,6 +51602,7 @@ function johannesBrahmsKrankheitsportraetPage() {
         {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – life's work"},
         {route:"krankheitsportraets-robert-schumann", label:"Illness Portrait: Robert Schumann (SX7w8) – Brahms visited him regularly at Endenich"},
         {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8) – the same elephant-like calm"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se9", label:"Subtype Profile SE9"},
       ])}
@@ -59484,6 +59488,175 @@ function willyBrandtKrankheitsportraetPage() {
         {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so9", label:"Subtype Profile SO9"},
+      ])}
+    </div>
+  `);
+}
+
+function hansDietrichGenscherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-dietrich-genscher-portrait.jpg" alt="Hans-Dietrich Genscher" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans-Dietrich Genscher</p>
+        <p class="krim-portrait-typ">SE9w8 · Self-Preservation Type 9 with Eight-Wing · 1927–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Elephant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hans-Dietrich Genscher</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-hans-dietrich-genscher">Famous
+        Personalities portrait</a>. This page delves into a chapter not covered there: a
+        years-long heart condition, from whose effects Genscher died in March 2016.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Genscher</strong> is assigned to the <strong>self-preservation Type 9 with
+        Eight-Wing</strong>. The SE9 seeks security through persistence and continuity, even
+        in dealing with its own health; the Eight-Wing adds a quiet but unmistakable
+        determination that will not be pushed aside. Exactly this combination – patient
+        continuity in office, combined with a refusal to let health setbacks push him out of
+        public life – shaped how he dealt with his heart condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A heart condition known for years:</strong>
+        According to consistent biographical sources, Genscher was afflicted with heart
+        disease for years – a circumstance known to his political circle but never made a
+        central public topic.</p>
+        <p class="vb-intro"><strong>b) No public withdrawal because of the illness:</strong>
+        Despite the known heart condition, Genscher continued his political and public work
+        for decades without making his own health the subject of public debate.</p>
+        <p class="vb-intro"><strong>c) Continued public engagement into old age:</strong>
+        Even after resigning as foreign minister in 1992, Genscher remained present as an
+        elder statesman of German foreign policy, giving lectures, interviews, and
+        diplomatic advice well into his ninth decade.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Reticence about health details:</strong>
+        Unlike some contemporaries, Genscher never made details of his heart condition the
+        subject of extensive public accounts – the exact nature and course of the illness
+        remained largely private.</p>
+        <p class="vb-intro"><strong>b) A life marked by continuity right to the end:</strong>
+        As far as publicly known, Genscher's final years were marked by the same calm
+        steadiness that characterized his entire political career – no dramatic public
+        break, no sudden withdrawal.</p>
+        <p class="vb-intro"><strong>c) Growing health fragility in old age:</strong>
+        In his final years, Genscher's health condition became increasingly fragile according
+        to those close to him, without this being strongly addressed in public.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Death on 31 March 2016 in Wachtberg:</strong>
+        Hans-Dietrich Genscher died at age 89 from the effects of his heart condition in his
+        home in Wachtberg near Bonn.</p>
+        <p class="vb-intro"><strong>b) A state ceremony with worldwide condolences:</strong>
+        His death triggered international obituaries and expressions of mourning – a state
+        ceremony honored his role in German reunification and European détente policy.</p>
+        <p class="vb-intro"><strong>c) Tribute to a diplomatic legacy until the end:</strong>
+        Obituaries consistently emphasized his diplomatic life's work, while his private
+        health history was mentioned only in passing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A public image of unbroken presence:</strong>
+        Until shortly before his death, the public image of Genscher remained that of an
+        active, present elder statesman – not that of a man marked by years of illness.</p>
+        <p class="vb-intro"><strong>b) No later dramatizing of the illness:</strong>
+        Even in obituaries and tributes, the heart condition was never made a central
+        narrative element of his life – it remained a quiet, almost incidental part of his
+        biography.</p>
+        <p class="vb-intro"><strong>c) The continued impact of his diplomatic legacy:</strong>
+        Genscher's role in German unity and European détente policy remained the defining
+        public image after his death, independent of his private health history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Continuity as the answer to his own illness:</strong>
+        The SE9's characteristic search for security through persistence also showed in how
+        he dealt with his own heart condition: Genscher did not let the illness become the
+        occasion for a dramatic withdrawal, but continued his public work with his usual
+        continuity.</p>
+        <p class="vb-intro"><strong>b) The Eight-Wing and quiet determination:</strong>
+        The same calm but unmistakable determination with which Genscher mediated between the
+        fronts of the Cold War for decades showed in dealing with his own health as a refusal
+        to let the illness push him out of public life.</p>
+        <p class="vb-intro"><strong>c) Discretion instead of public staging:</strong>
+        That Genscher never publicly detailed his heart condition fits the SE9w8 tendency to
+        treat private matters discreetly while continuing the public role unchanged.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A bridge-builder between power blocs who calmly bridged his own illness too:</strong>
+        Genscher's entire life's work rested on the ability to bear tensions without letting
+        them escalate – exactly this stance also carried over into how he dealt with his own
+        heart condition: no fight, no dramatization, but persistent continuation of the
+        familiar path.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        Parallels appear with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">David
+        Hume</a> and
+        <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-brahms">Johannes
+        Brahms</a> (both also SE9w8): all three met a progressive illness with the same calm,
+        almost serene persistence, without making the illness a central public topic. All
+        SE9w8s show the same pattern: security through continuity, even in the face of their
+        own physical decline.</p>
+        <p class="vb-intro"><strong>c) Why the heart, of all things, the organ of quiet mediation?</strong>
+        For a self-preservation Type 9 with an Eight-Wing whose entire life's work rested on
+        quiet mediation between hostile camps, one interpretation suggests itself: exactly
+        the organ popularly associated with connection and balance became the site of his own
+        physical strain. This reading is a plausible interpretation, not a proven clinical
+        causal link, and will be developed further in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the self-preservation Nine's pattern inevitably leads to
+        heart disease – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What can be shown in Genscher's case is a pattern in dealing with a
+        long-standing illness that keeps recurring in a pronounced self-preservation Type 9
+        with an Eight-Wing – one of many possible readings, not a verdict. The corresponding
+        illness pattern is being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Genscher did not know his own pattern as an Enneagram structure – the self-preservation
+        Type 9 with an Eight-Wing reflexively clings to its own continuity, even toward its
+        own illness, instead of pulling back in time, and lived out exactly this pattern
+        unchanged until his death. Anyone who does not recognize their own tendency to cover
+        health warning signs with quiet persistence as a pattern risks that the illness
+        progresses unnoticed for years.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 9 with Eight-Wing explains much about how <strong>Hans-
+        Dietrich Genscher</strong> dealt with his own heart condition: a man whose entire
+        life's work was devoted to quiet mediation between hostile camps met his own illness
+        with the same calm continuity – the elephant that kept moving in its own rhythm until
+        the end, never changing its pace for the illness.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8) – same subtype"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se9", label:"Subtype Profile SE9"},
       ])}
     </div>
   `);
@@ -92612,6 +92785,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
       "krankheitsportraets-willy-brandt": willyBrandtKrankheitsportraetPage,
+      "krankheitsportraets-hans-dietrich-genscher": hansDietrichGenscherKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
