@@ -248,6 +248,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Social Type 1", krankheit:"Severe benzodiazepine dependency, induced coma in 2019/2020", teaser:"SO1w9 – psychologist and author, b. 1962. Severe benzodiazepine dependency, unsuccessful treatment attempts in North America, medically induced coma in Russia at the end of 2019 for withdrawal treatment." , land:"Canada", gender:"m", jahre:"b. 1962"},
   { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexual Type 9", krankheit:"Chronic heart disease, died of heart failure aboard the Queen Elizabeth 2", teaser:"SX9w8 – painter and architect, 1928–2000. Years-long, largely undisclosed heart condition, no conventional medical treatment, died on 19 February 2000 aboard the ocean liner Queen Elizabeth 2 on the Pacific." , land:"Austria", gender:"m", jahre:"1928–2000"},
   { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Self-Preservation Type 3", krankheit:"Chronic subdural hematoma, emergency surgery in March 2024", teaser:"SE3w2 – yogi, guru, and bestselling author, b. 1957. Weeks of headaches, chronic brain bleed, emergency surgery on 17 March 2024." , land:"India", gender:"m", jahre:"b. 1957"},
+  { route:"krankheitsportraets-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7", heading:"Dr. Umberto Eco – Self-Preservation Type 8", krankheit:"Pancreatic cancer, kept almost entirely private for about two years", teaser:"SE8w7 – writer, semiotician, and philosopher, 1932–2016. Pancreatic cancer diagnosis about two years before his death, undiminished literary output until shortly before the end, died on 19 February 2016 in Milan." , land:"Italy", gender:"m", jahre:"1932–2016"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -33109,6 +33110,7 @@ function umbertEcoPortraitPage() {
         {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
+        {route:"krankheitsportraets-umberto-eco", label:"Illness Portrait: Umberto Eco (SE8w7) – pancreatic cancer"},
       ])}
     </div>
   `);
@@ -57969,6 +57971,165 @@ function sadhguruKrankheitsportraetPage() {
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SE3"},
+      ])}
+    </div>
+  `);
+}
+
+function umbertoEcoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Dr. Umberto Eco" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Umberto Eco</p>
+        <p class="krim-portrait-typ">SE8w7 · Self-Preservation Type 8 with Seven-Wing · 1932–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Orangutan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Umberto Eco</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-umberto-eco">Famous Personalities
+        portrait</a>. This page delves into a chapter only briefly mentioned there: a
+        pancreatic cancer illness kept almost entirely private for roughly two years, during
+        which Eco kept publishing, teaching, and appearing in public without interruption
+        until a few months before his death in February 2016.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Eco</strong> is assigned to the <strong>self-preservation Type 8 with
+        Seven-Wing</strong>. The SE8 secures abundance and independence rather than submitting
+        to any outside authority – including its own diagnosis; the Seven-Wing brings the
+        lightness with which Eco himself never let even a fatal diagnosis become the
+        dominant theme of his life. Exactly this combination – abundance and enjoyment right
+        up to the end, combined with a refusal to present himself as a sick man – shaped how
+        he dealt with his own illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Diagnosis about two years before his death:</strong>
+        According to consistent biographical sources, Eco was diagnosed with pancreatic
+        cancer roughly two years before he died.</p>
+        <p class="vb-intro"><strong>b) Almost complete secrecy in public life:</strong>
+        Unlike many public figures, the diagnosis remained largely unknown outside his
+        closest circle – Eco practically never spoke about his illness in interviews or
+        public appearances.</p>
+        <p class="vb-intro"><strong>c) Undiminished literary output:</strong>
+        Despite the diagnosis, Eco published his final novel, "Numero Zero," in 2015 – a work
+        showing no sign whatsoever of diminished creative power.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Continued public appearances until shortly before his death:</strong>
+        Eco gave lectures, interviews, and took part in public discussions until a few months
+        before his death – without observers knowing of his serious illness.</p>
+        <p class="vb-intro"><strong>b) No public illness narrative:</strong>
+        Unlike other intellectuals of his generation, Eco never made his illness the subject
+        of an essay, a column, or an interview – a deliberate decision to separate his work
+        from his private suffering.</p>
+        <p class="vb-intro"><strong>c) Family rather than public accompaniment:</strong>
+        Eco spent his final months surrounded by his family in Milan, largely shielded from
+        public attention.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Death on 19 February 2016 in Milan:</strong>
+        Umberto Eco died at age 84 in his home in Milan, surrounded by his family.</p>
+        <p class="vb-intro"><strong>b) Worldwide condolences only after the official announcement:</strong>
+        Only with the news of his death was the public informed of the cancer – a surprise
+        for many readers and colleagues, since Eco had shown no sign of withdrawal until the
+        very end.</p>
+        <p class="vb-intro"><strong>c) No explicit farewell work:</strong>
+        Unlike some authors who write an explicit legacy work in the face of death, Eco left
+        no book that could openly be read as a farewell to his own mortality – "Numero Zero"
+        remains a novel about media manipulation, not an illness book.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide mourning and tribute:</strong>
+        Eco's death triggered obituaries and tributes worldwide, highlighting above all his
+        encyclopedic body of work and his intellectual curiosity into old age.</p>
+        <p class="vb-intro"><strong>b) Surprise at the extent of the secrecy:</strong>
+        Numerous colleagues expressed surprise at how completely Eco had kept his illness
+        hidden from the public and even from parts of his own professional circle.</p>
+        <p class="vb-intro"><strong>c) An image of unbroken vitality until the end:</strong>
+        The public image of Eco right up to his death was that of a tirelessly curious,
+        productive intellectual – not that of a gravely ill man.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Abundance instead of withdrawal as the answer to the diagnosis:</strong>
+        The SE8's characteristic conviction that security comes from abundance showed in the
+        fact that Eco did not reduce his productivity, his reading, his collecting, or his
+        public appearances despite the diagnosis, but continued them right to the end.</p>
+        <p class="vb-intro"><strong>b) The Seven-Wing and the refusal to present himself as ill:</strong>
+        The same lightness with which Eco wrote about semiotics and pop culture with equal
+        curiosity showed in dealing with his own illness as a deliberate decision not to make
+        his own mortality a public topic.</p>
+        <p class="vb-intro"><strong>c) Control through discretion rather than confrontation:</strong>
+        Unlike a more confrontational Eight, Eco did not choose an open fight against the
+        illness as a public gesture, but complete control over the information itself – power
+        through silence rather than through display.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A collector of abundance who did not let his own finitude be collected:</strong>
+        Eco's entire body of work rested on the conviction that knowledge, books, and
+        experience could be accumulated without limit – exactly the one limit that could not
+        be deferred remained completely absent from his public work.</p>
+        <p class="vb-intro"><strong>b) Why the pancreas, of all organs, the quiet one?</strong>
+        For a self-preservation Type 8 with a Seven-Wing whose entire life principle was
+        abundance, enjoyment, and the encyclopedic appropriation of the world, one
+        interpretation suggests itself: exactly an organ that stays symptomless for a long
+        time and eludes early control became the site of an illness that Eco did not try to
+        control publicly, but simply concealed until the end. This reading is a plausible
+        interpretation, not a proven clinical causal link, and will be developed further in
+        this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Classification without determinism:</strong>
+        This does not mean that the self-preservation Eight's pattern inevitably leads to
+        pancreatic cancer – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What can be shown in Eco's case is a pattern in dealing with a fatal
+        diagnosis that keeps recurring in a pronounced self-preservation Type 8 – one of many
+        possible readings, not a verdict. The corresponding illness pattern is being developed
+        gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Eco did not know his own pattern as an Enneagram structure – the self-preservation
+        Type 8 reflexively clings to sovereignty over its own information instead of sharing
+        its own vulnerability with others in time, and lived out exactly this pattern
+        unchanged until his final work. Anyone who does not recognize their own tendency to
+        guard control over their own image at all costs as a pattern risks that the truth
+        only comes to light with death itself.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 8 with Seven-Wing explains much about how <strong>Umberto
+        Eco</strong> handled his own illness: a man whose entire work rested on the joyful
+        abundance of knowledge treated his own fatal diagnosis as private territory no one
+        was allowed to enter – the orangutan who sat enthroned in his tree until the very end,
+        letting no one see that the branch had already cracked.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se8", label:"Subtype Profile SE8"},
       ])}
     </div>
   `);
@@ -91088,6 +91249,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
       "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
+      "krankheitsportraets-umberto-eco": umbertoEcoKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,

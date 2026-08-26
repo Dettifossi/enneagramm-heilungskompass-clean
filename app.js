@@ -24047,6 +24047,7 @@ const registerEntries = [
   { term: "Jordan Peterson Krankheitsporträt", route: "krankheitsportraets-jordan-peterson", description: "Portrait: SO1w9 · Sozialer Typ 1 · Benzodiazepin-Abhängigkeit, künstliches Koma 2019/2020" },
   { term: "Friedensreich Hundertwasser Krankheitsporträt", route: "krankheitsportraets-hundertwasser", description: "Portrait: SX9w8 · Sexueller Typ 9 · Chronisches Herzleiden, Tod an Bord der Queen Elizabeth 2" },
   { term: "Sadhguru Krankheitsporträt", route: "krankheitsportraets-sadhguru", description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Chronisches subdurales Hämatom, Notoperation März 2024" },
+  { term: "Umberto Eco Krankheitsporträt", route: "krankheitsportraets-umberto-eco", description: "Portrait: SE8w7 · Selbsterhaltender Typ 8 · Bauchspeicheldrüsenkrebs, rund zwei Jahre privat gehalten" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32205,6 +32206,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Sozialer Typ 1", krankheit:"Schwere Benzodiazepin-Abhängigkeit, künstliches Koma 2019/2020", teaser:"SO1w9 – Psychologe und Autor, geb. 1962. Schwere Benzodiazepin-Abhängigkeit, erfolglose Behandlungsversuche in Nordamerika, Ende 2019 künstlich herbeigeführtes Koma in Russland zur Entzugsbehandlung." , land:"Kanada", gender:"m", jahre:"geb. 1962"},
   { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexueller Typ 9", krankheit:"Chronisches Herzleiden, Tod durch Herzversagen an Bord der Queen Elizabeth 2", teaser:"SX9w8 – Maler und Architekt, 1928–2000. Jahrelanges, weitgehend verschwiegenes Herzleiden, keine schulmedizinische Behandlung, Tod am 19. Februar 2000 an Bord des Ozeandampfers Queen Elizabeth 2 auf dem Pazifik." , land:"Österreich", gender:"m", jahre:"1928–2000"},
   { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Selbsterhaltender Typ 3", krankheit:"Chronisches subdurales Hämatom, Notoperation im März 2024", teaser:"SE3w2 – Yogi, Guru und Bestsellerautor, geb. 1957. Wochenlange Kopfschmerzen, chronische Hirnblutung, Notoperation am 17. März 2024." , land:"Indien", gender:"m", jahre:"geb. 1957"},
+  { route:"krankheitsportraets-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7", heading:"Dr. Umberto Eco – Selbsterhaltender Typ 8", krankheit:"Bauchspeicheldrüsenkrebs, rund zwei Jahre nahezu vollständig privat gehalten", teaser:"SE8w7 – Schriftsteller, Semiotiker und Philosoph, 1932–2016. Bauchspeicheldrüsenkrebs-Diagnose etwa zwei Jahre vor seinem Tod, unvermindertes literarisches Schaffen bis kurz vor dem Ende, Tod am 19. Februar 2016 in Mailand." , land:"Italien", gender:"m", jahre:"1932–2016"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -51255,6 +51257,7 @@ function umbertEcoPortraitPage() {
         {route:"subtype/se8", label:"SE8 \u2013 Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-toni-morrison", label:"Portr\u00e4t: Toni Morrison (SE8w9)"},
+        {route:"krankheitsportraets-umberto-eco", label:"Krankheitsportr\u00e4t: Umberto Eco (SE8w7) \u2013 Bauchspeicheldr\u00fcsenkrebs"},
       ])}
     </div>
   `);
@@ -86449,6 +86452,174 @@ function sadhguruKrankheitsportraetPage() {
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}
+
+function umbertoEcoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Dr. Umberto Eco" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Umberto Eco</p>
+        <p class="krim-portrait-typ">SE8w7 · Selbsterhaltender Typ 8 mit Siebenerflügel · 1932–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Orang-Utan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Tierentsprechung: Orang-Utan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Umberto Eco</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-umberto-eco">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur beiläufig erwähnt wird: eine rund zwei Jahre lang nahezu
+        vollständig privat gehaltene Bauchspeicheldrüsenkrebs-Erkrankung, während der Eco
+        bis wenige Monate vor seinem Tod im Februar 2016 unvermindert publizierte, lehrte
+        und öffentlich auftrat.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Eco</strong> ist dem <strong>selbsterhaltenden Typ 8 mit Siebenerflügel</strong>
+        zugeordnet. Die SE8 sichert sich Fülle und Unabhängigkeit, statt sich einer fremden
+        Autorität – auch der eigenen Diagnose – zu unterwerfen; der Siebenerflügel bringt
+        die Leichtigkeit, mit der Eco selbst eine tödliche Diagnose nicht zum
+        beherrschenden Thema seines Lebens werden ließ. Genau diese Kombination – Fülle und
+        Genuss bis zuletzt, verbunden mit der Weigerung, sich als kranker Mann zu inszenieren
+        – bestimmte den Umgang mit der eigenen Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose rund zwei Jahre vor seinem Tod:</strong>
+        Nach übereinstimmenden biografischen Quellen wurde bei Eco etwa zwei Jahre vor
+        seinem Tod ein Bauchspeicheldrüsenkarzinom diagnostiziert.</p>
+        <p class="vb-intro"><strong>b) Fast vollständige Geheimhaltung im öffentlichen Leben:</strong>
+        Anders als bei vielen Prominenten blieb die Diagnose außerhalb seines engsten
+        Umfelds weitgehend unbekannt – Eco sprach in Interviews und öffentlichen Auftritten
+        praktisch nicht über seine Erkrankung.</p>
+        <p class="vb-intro"><strong>c) Unvermindertes literarisches Schaffen:</strong>
+        Trotz der Diagnose veröffentlichte Eco 2015 mit „Nullnummer" seinen letzten Roman –
+        ein Werk, das keinerlei Anzeichen einer nachlassenden Schaffenskraft erkennen ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fortgesetzte öffentliche Auftritte bis kurz vor dem Tod:</strong>
+        Eco hielt Vorträge, gab Interviews und nahm an öffentlichen Diskussionen teil, bis
+        wenige Monate vor seinem Tod – ohne dass Beobachter von seiner schweren Erkrankung
+        wussten.</p>
+        <p class="vb-intro"><strong>b) Keine öffentliche Krankheitsnarrative:</strong>
+        Im Unterschied zu anderen Intellektuellen seiner Generation machte Eco seine
+        Krankheit nie zum Gegenstand eines Essays, einer Kolumne oder eines Interviews –
+        eine bewusste Entscheidung zur Trennung von Werk und privatem Leiden.</p>
+        <p class="vb-intro"><strong>c) Familiäre statt öffentliche Begleitung:</strong>
+        Die letzten Monate verbrachte Eco im Kreis seiner Familie in Mailand, weitgehend
+        abgeschirmt von öffentlicher Aufmerksamkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tod am 19. Februar 2016 in Mailand:</strong>
+        Umberto Eco starb im Alter von 84 Jahren in seiner Wohnung in Mailand, umgeben von
+        seiner Familie.</p>
+        <p class="vb-intro"><strong>b) Weltweite Anteilnahme nach der offiziellen Bekanntgabe:</strong>
+        Erst mit der Todesnachricht wurde die Öffentlichkeit über die Krebserkrankung
+        informiert – für viele Leser und Kollegen eine Überraschung, da Eco bis zuletzt
+        keinerlei Rückzug angedeutet hatte.</p>
+        <p class="vb-intro"><strong>c) Kein Abschiedswerk im engeren Sinne:</strong>
+        Anders als manche Autoren, die im Angesicht des Todes ein explizites Vermächtniswerk
+        verfassen, hinterließ Eco kein Buch, das offen als Abschied von der eigenen
+        Sterblichkeit gelesen werden konnte – „Nullnummer" bleibt ein Roman über
+        Medienmanipulation, kein Krankheitsbuch.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Trauer und Würdigung:</strong>
+        Ecos Tod löste international Nachrufe und Würdigungen aus, die vor allem sein
+        enzyklopädisches Werk und seine intellektuelle Neugier bis ins hohe Alter
+        hervorhoben.</p>
+        <p class="vb-intro"><strong>b) Überraschung über das Ausmaß der Geheimhaltung:</strong>
+        Zahlreiche Weggefährten äußerten sich überrascht, wie vollständig Eco seine Krankheit
+        vor der Öffentlichkeit und sogar vor Teilen seines beruflichen Umfelds verborgen
+        hatte.</p>
+        <p class="vb-intro"><strong>c) Ein Bild ungebrochener Vitalität bis zuletzt:</strong>
+        Das öffentliche Bild, das von Eco bis zu seinem Tod bestand, war das eines
+        unermüdlich neugierigen, produktiven Intellektuellen – nicht das eines schwer
+        kranken Mannes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Fülle statt Rückzug als Antwort auf die Diagnose:</strong>
+        Die SE8-typische Überzeugung, dass Sicherheit aus Fülle entsteht, zeigte sich darin,
+        dass Eco seine Produktivität, seine Lektüren, seine Sammlungen und seine öffentlichen
+        Auftritte trotz der Diagnose nicht reduzierte, sondern bis zuletzt fortführte.</p>
+        <p class="vb-intro"><strong>b) Der Siebenerflügel und die Weigerung, sich als Kranker zu inszenieren:</strong>
+        Dieselbe Leichtigkeit, mit der Eco selbst über Semiotik und Trivialkultur mit
+        derselben Neugier schrieb, zeigte sich im Umgang mit der eigenen Krankheit als
+        bewusste Entscheidung, die eigene Sterblichkeit nicht zum öffentlichen Thema zu
+        machen.</p>
+        <p class="vb-intro"><strong>c) Kontrolle durch Diskretion statt durch Konfrontation:</strong>
+        Anders als eine konfrontativere Acht wählte Eco nicht den offenen Kampf gegen die
+        Krankheit als öffentliche Geste, sondern die vollständige Kontrolle über die
+        Information selbst – Macht durch Schweigen statt durch Auftritt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Sammler der Fülle, der die eigene Endlichkeit nicht sammeln ließ:</strong>
+        Ecos gesamtes Werk beruhte auf der Überzeugung, dass Wissen, Bücher und Erfahrung
+        sich unbegrenzt anhäufen lassen – ausgerechnet die eine Grenze, die sich nicht
+        aufschieben ließ, blieb aus seinem öffentlichen Werk vollständig ausgespart.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet die Bauchspeicheldrüse, das stille Organ?</strong>
+        Für einen selbsterhaltenden Typ 8 mit Siebenerflügel, dessen gesamtes Lebensprinzip
+        Fülle, Genuss und die enzyklopädische Aneignung der Welt war, liegt eine Deutung
+        nahe: Ausgerechnet ein Organ, das lange symptomlos bleibt und sich jeder frühen
+        Kontrolle entzieht, wurde zum Ort einer Krankheit, die Eco bis zuletzt nicht öffentlich
+        zu kontrollieren versuchte, sondern schlicht verschwieg. Diese Deutung ist eine
+        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Acht zwangsläufig zu
+        Bauchspeicheldrüsenkrebs führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Ecos Fall zeigen lässt, ist
+        ein Muster im Umgang mit einer tödlichen Diagnose, das bei einem ausgeprägten
+        selbsterhaltenden Typ 8 immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Eco kannte sein eigenes Muster nicht als Enneagramm-Struktur – der selbsterhaltende
+        Typ 8 hält reflexhaft an der eigenen Souveränität über die persönliche Information
+        fest, statt die eigene Verwundbarkeit rechtzeitig mit anderen zu teilen, und lebte
+        genau dieses Muster bis zum letzten Werk unverändert aus. Wer die eigene Neigung, die
+        Kontrolle über das eigene Bild um jeden Preis zu wahren, nicht als Muster erkennt,
+        riskiert, dass die Wahrheit erst mit dem Tod selbst ans Licht kommt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 8 mit Siebenerflügel erklärt bei <strong>Umberto Eco</strong>
+        vieles am Umgang mit der eigenen Krankheit: ein Mann, dessen gesamtes Werk auf der
+        lustvollen Fülle des Wissens beruhte, behandelte auch die eigene tödliche Diagnose als
+        privates Territorium, das niemand betreten durfte – der Orang-Utan, der bis zuletzt in
+        seinem Baum thronte und niemanden sehen ließ, dass der Ast bereits brach.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-umberto-eco", label:"Porträt: Umberto Eco (SE8w7)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se8", label:"Subtyp-Profil SE8"},
       ])}
     </div>
   `);
@@ -127052,6 +127223,7 @@ function render() {
       "krankheitsportraets-julian-assange": julianAssangeKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
       "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
+      "krankheitsportraets-umberto-eco": umbertoEcoKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,
