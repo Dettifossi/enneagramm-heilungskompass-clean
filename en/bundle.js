@@ -917,6 +917,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Heidi Klum – Sexual Type 3",
     teaser:"SX3w4 · born 1973 in Bergisch Gladbach. Model, TV host, and entrepreneur, Germany's Next Topmodel, America's Got Talent. Dressed as a larger-than-life peacock at her legendary 2023 Halloween party. Animal correspondence: Peacock.",
     land:"Deutschland", tags:["Mode","Fernsehen"], gender:"f"},
+  { route:"beruehmte-dolly-parton", name:"Dolly Parton", added:"2026-08-26", subtyp:"SX3w4",
+    heading:"Dolly Parton – Sexual Type 3",
+    teaser:"SX3w4 · born 1946 in Locust Ridge, Tennessee. Singer, songwriter, and entrepreneur, Jolene, 9 to 5, I Will Always Love You, Dollywood. \"It costs a lot of money to look this cheap.\" Animal correspondence: Peacock.",
+    land:"USA", tags:["Musik"], gender:"f"},
 { route:"beruehmte-kai-pflaume", name:"Kai Pflaume", subtyp:"SX3w2",
     heading:"Kai Pflaume – Sexual Type 3",
     teaser:"SX3w2 · “The Radiant One”, born 1967. Germany’s most famous TV host. For over 30 years he has fascinated millions – not through grand gestures, but through genuine warmth and magnetic personal presence. Animal correspondence: Peacock.",
@@ -23824,6 +23828,7 @@ function marilynMonroePortraitPage() {
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-meg-ryan", label:"Portrait: Meg Ryan (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
       ])}
     </div>
   `);
@@ -26154,9 +26159,70 @@ function heidiKlumPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
         {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
         {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SP2w3) – husband"},
         {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – brother-in-law"},
+      ])}
+    </div>
+  `);
+}
+
+function dollyPartonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dolly-parton-portrait.jpg" alt="Dolly Parton – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dolly Parton</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter &amp; entrepreneur, born 1946 in Locust Ridge, Tennessee &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal of the Sexual Three &ndash; an animal that survives not despite its conspicuousness but because of it, whose impact comes from a self-assured, deliberately displayed presence. Few people have turned that principle into such an unmistakable personal brand as Dolly Parton: the oversized blonde wig, the rhinestone-studded stage costumes, the exaggerated hourglass silhouette &ndash; an image she herself sums up in one legendary line: "It costs a lot of money to look this cheap."</p>
+          <p class="vb-intro">The American singer and songwriter was born on January 19, 1946, in a one-room cabin in Locust Ridge, Tennessee &ndash; the fourth of twelve children in a dirt-poor family in the Great Smoky Mountains. As the model for her later self-presentation, she later named a woman from her childhood, dismissed by the village as "loose," whose garish appearance fascinated rather than repelled the young Dolly: "I thought she was the most beautiful thing I had ever seen."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Magnetism as a Deliberately Built Stage Persona</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Three (SX3)</strong> makes personal magnetism its life's task &ndash; not abstract success before the broader public, as with the Social Three, but immediate, physically charismatic presence. Naranjo called this subtype <em>Masculinity/Femininity</em>: the embodiment of attractiveness in its purest form. Parton's iconic look &ndash; silicone, wigs, body-hugging costumes, yards of eyelashes &ndash; is no accidental quirk but a deliberately built, decades-long-maintained persona, which she herself likes to describe as "a cheap-looking woman who can afford to look expensive."</p>
+          <p class="vb-intro">As early as 1967, country singer Porter Wagoner brought the young Parton onto his nationally syndicated TV show &ndash; the start of a career that carried her, through solo albums, film roles, and her own television formats, to the top of country music. The SX3 attracts, and Parton understood early that this magnetism need not be confined to a single medium: music, film, television, a theme park &ndash; the same unmistakable presence everywhere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Wound Behind the Glitter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Sexual Three an emotional depth and narrative authenticity that goes far beyond surface effect &ndash; the stage persona stays tethered to a very personal, often painful inner world. That shows clearly in Parton's songwriting: "Coat of Many Colors" (1971) tells, unflinchingly, of the poverty of her childhood and the homemade patchwork coat she was mocked for as a schoolgirl. "Jolene" (1973) sings of the naked fear of losing a loved one to a more beautiful rival &ndash; a vulnerability that would otherwise have little room in the Three's glaring spotlight.</p>
+          <p class="vb-intro">"I Will Always Love You," too, written in 1973 as a farewell to her longtime mentor Porter Wagoner, owes its power to exactly this combination: a grand, public-facing gesture (later, through Whitney Houston's 1992 version, becoming the best-selling single by a solo artist) paired with a deeply personal, almost intimate emotion underneath. The Four-wing keeps asking: how do I turn what moves me inside into an image, or a song, that leaves no one unmoved?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w4 is the ability to build a multilayered, artistically serious life's work out of a decades-long, high-gloss stage persona &ndash; over 3,000 songs written, eleven Grammys, her own theme park (Dollywood, opened 1986 in her home region), and the Imagination Library, a foundation that has given away more than 200 million books to children worldwide free of charge since 1995.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>self-deceit</strong> &ndash; the conviction that one's own image is identical to one's own worth. In the SX3w4, this can become a constant need to present oneself ever more brilliantly, so as never to be seen again as the vulnerable, poor mountain girl of the past. What's remarkable about Parton, though, is how consciously she reflects on this mask herself: "I look like a cartoon character, but I know exactly who I am underneath it," she once said &ndash; a rare clarity about one's own pattern, rather than being blindly ruled by it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: The Quiet Constant Behind the Glitter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dolly Parton's career reads as a continuous translation of personal magnetism into ever new stages: from rural radio show to country music icon, from singer to film actress (including "9 to 5," 1980, alongside its number-one hit title song), from songwriter to entrepreneur with her own theme park. Every stage stays tied to the same underlying ability &ndash; drawing attention and turning it into something lasting.</p>
+          <p class="vb-intro">Striking beneath all the glittering surface is one remarkably stable constant: her marriage to businessman Carl Dean, whom she met in 1966 and married the same year &ndash; nearly sixty years during which Dean almost entirely avoided the public eye and was rarely ever photographed at her side, until his death in March 2025. The peacock's feathers on the outside, quiet seclusion at the very core: in scarcely any other SX3w4 does the contrast between glittering stage persona and fiercely protected private life show as clearly as it does in Dolly Parton.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-marlene-zuk", label:"Portrait: Marlene Zuk (SX3w4)"},
       ])}
     </div>
   `);
@@ -37160,6 +37226,7 @@ function marleneZukPortraitPage() {
         {route:"tierlexikon/sx3", label:"Animal Lexicon: Peacock"},
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marlene-zuk")}
     </div>
@@ -93541,6 +93608,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-heidi-klum": heidiKlumPortraitPage,
+      "beruehmte-dolly-parton": dollyPartonPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-marlene-zuk": marleneZukPortraitPage,

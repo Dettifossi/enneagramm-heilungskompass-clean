@@ -24304,6 +24304,7 @@ const registerEntries = [
   { term: "Leonard Cohen",                  route: "beruehmte-leonard-cohen",                description: "Portrait: SO4w5 · Sozialer Typ 4 · Musiker und Dichter, Hallelujah" },
   { term: "Cheyenne Ochsenknecht",          route: "beruehmte-cheyenne-ochsenknecht",       description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Model und Landwirtin, Chianina-Rinderhof" },
   { term: "Heidi Klum",                     route: "beruehmte-heidi-klum",                  description: "Portrait: SX3w4 · Sexueller Typ 3 · Model, Moderatorin, Unternehmerin" },
+  { term: "Dolly Parton",                   route: "beruehmte-dolly-parton",                description: "Portrait: SX3w4 · Sexueller Typ 3 · Sängerin, Songwriterin, Unternehmerin" },
   { term: "Jack Ma",                        route: "beruehmte-jack-ma",                     description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Unternehmer, Gründer von Alibaba" },
   { term: "Jimi Blue Ochsenknecht",         route: "beruehmte-jimi-blue-ochsenknecht",      description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Schauspieler und Musiker, Die Wilden Kerle" },
   { term: "Yayoi Kusama",                  route: "beruehmte-yayoi-kusama",                description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Künstlerin, Infinity Mirror Rooms" },
@@ -24798,6 +24799,7 @@ const registerEntriesEN = [
   { term: "Leonard Cohen", route: "beruehmte-leonard-cohen", description: "Portrait: SO4w5 · Social Type 4 · Musician and poet, Hallelujah" },
   { term: "Cheyenne Ochsenknecht", route: "beruehmte-cheyenne-ochsenknecht", description: "Portrait: SP3w4 · Self-Preservation Type 3 · Model and farmer, Chianina cattle farm" },
   { term: "Heidi Klum", route: "beruehmte-heidi-klum", description: "Portrait: SX3w4 · Sexual Type 3 · Model, TV host, entrepreneur" },
+  { term: "Dolly Parton", route: "beruehmte-dolly-parton", description: "Portrait: SX3w4 · Sexual Type 3 · Singer, songwriter, entrepreneur" },
   { term: "Jack Ma", route: "beruehmte-jack-ma", description: "Portrait: SP2w3 · Self-Preservation Type 2 · Entrepreneur, founder of Alibaba" },
   { term: "Jimi Blue Ochsenknecht", route: "beruehmte-jimi-blue-ochsenknecht", description: "Portrait: SP2w3 · Self-Preservation Type 2 · Actor and musician, Die Wilden Kerle" },
   { term: "Yayoi Kusama", route: "beruehmte-yayoi-kusama", description: "Portrait: SP2w3 · Self-Preservation Type 2 · Artist, Infinity Mirror Rooms" },
@@ -32870,6 +32872,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Heidi Klum – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1973 in Bergisch Gladbach. Model, Moderatorin und Unternehmerin, Germany's Next Topmodel, America's Got Talent. Verkleidete sich 2023 auf ihrer legendären Halloween-Party selbst als überlebensgroßer Pfau. Tierentsprechung: Pfau.",
     land:"Deutschland", tags:["Mode","Fernsehen"], gender:"f"},
+  { route:"beruehmte-dolly-parton", name:"Dolly Parton", added:"2026-08-26", subtyp:"SX3w4",
+    heading:"Dolly Parton – Sexueller Typ 3",
+    teaser:"SX3w4 · geb. 1946 in Locust Ridge, Tennessee. Sängerin, Songwriterin und Unternehmerin, Jolene, 9 to 5, I Will Always Love You, Dollywood. »Es kostet eine Menge Geld, so billig auszusehen.« Tierentsprechung: Pfau.",
+    land:"USA", tags:["Musik"], gender:"f"},
   { route:"beruehmte-brad-pitt", name:"Brad Pitt", added:"2026-08-14", subtyp:"SX3w2",
     heading:"Brad Pitt – Sexueller Typ 3",
     teaser:"SX3w2 · geb. 1963 in Shawnee, Oklahoma. Schauspieler und Produzent (Plan B Entertainment), Oscar-Prämierter für „Once Upon a Time in Hollywood“ und „12 Years a Slave“. Magnetismus als Lebensthema, Förderer statt nur Star. Tierentsprechung: Pfau.",
@@ -44460,7 +44466,7 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Pfau",
     kernthema: "Unmittelbare Präsenz und Magnetismus – ohne Berechnung, aber mit ganzer Wirkung",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Dolly Parton", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
     fingerabdruecke: [
       {
         titel: "Unmittelbare, magnetische Präsenz statt berechneter Inszenierung",
@@ -44475,7 +44481,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Die bewusste, vollständige Darbietung als Kunstform für andere",
         beschreibung: "Am anderen Ende desselben Spektrums steht die ganz bewusst eingesetzte, vollständig ausgespielte Selbstdarstellung – kein privates Vergnügen, sondern eine gezielte Vorstellung, die genau weiß, welche Wirkung sie erzielen will.",
-        beleg: "Dieter Bohlen: ›Der Pfau ist das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet. Das Rad des Pfaus ist kein privates Vergnügen. Es ist eine Vorstellung … Der Pfau weiß genau, was er ist – und er versteckt es nicht.‹; Prof. Dr. Marlene Zuk, die komplexe biologische Zusammenhänge bewusst glasklar und für ein breites Publikum aufbereitet – eine Wissenschaft, die nicht nur verstanden, sondern sichtbar dargeboten werden will; Heidi Klum, die sich auf ihrer eigenen Halloween-Party mit Hilfe von zehn Cirque-du-Soleil-Artisten wortwörtlich selbst in einen überlebensgroßen Pfau verwandelte – die vollständige, aufwendig durchdachte Darbietung als jährlich wiederkehrendes Ritual."
+        beleg: "Dieter Bohlen: ›Der Pfau ist das einzige Tier, das seinen schönsten Moment vollständig für andere entfaltet. Das Rad des Pfaus ist kein privates Vergnügen. Es ist eine Vorstellung … Der Pfau weiß genau, was er ist – und er versteckt es nicht.‹; Prof. Dr. Marlene Zuk, die komplexe biologische Zusammenhänge bewusst glasklar und für ein breites Publikum aufbereitet – eine Wissenschaft, die nicht nur verstanden, sondern sichtbar dargeboten werden will; Heidi Klum, die sich auf ihrer eigenen Halloween-Party mit Hilfe von zehn Cirque-du-Soleil-Artisten wortwörtlich selbst in einen überlebensgroßen Pfau verwandelte – die vollständige, aufwendig durchdachte Darbietung als jährlich wiederkehrendes Ritual; Dolly Parton, deren gesamtes Erscheinungsbild – Perücke, Strass, betont weibliche Silhouette – eine bewusst gebaute Kunstfigur ist, auf den Punkt gebracht mit ihrem eigenen Satz: ›Es kostet eine Menge Geld, so billig auszusehen.‹"
       },
       {
         titel: "Das perfekte Ideal oder die perfekte Inszenierung wird zur mörderischen Fixierung (Schattenform)",
@@ -60329,6 +60335,7 @@ function dieterBohlenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx3", label:"SX3 \u2013 Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-dolly-parton", label:"Portr\u00e4t: Dolly Parton (SX3w4)"},
         {route:"beruehmte-kai-pflaume", label:"Portr\u00e4t: Kai Pflaume (SX3w2)"},
       ])}
     </div>
@@ -60393,6 +60400,7 @@ function marleneZukPortraitPage() {
         {route:"tierlexikon/sx3", label:"Tierlexikon: Pfau"},
         {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-dolly-parton", label:"Porträt: Dolly Parton (SX3w4)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marlene-zuk")}
     </div>
@@ -62787,6 +62795,7 @@ function heidiKlumPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
         {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
         {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Ehemann"},
         {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Schwager"},
@@ -62851,6 +62860,66 @@ function billKaulitzPortraitPage() {
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – Schwägerin"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function dollyPartonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dolly-parton-portrait.jpg" alt="Dolly Parton – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dolly Parton</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, Songwriterin &amp; Unternehmerin, geb. 1946 in Locust Ridge, Tennessee &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, das nicht trotz, sondern wegen seiner Auffälligkeit überlebt, dessen Wirkung aus reiner, selbstbewusst zur Schau gestellter Präsenz entsteht. Kaum jemand hat dieses Prinzip so unverwechselbar zur eigenen Marke gemacht wie Dolly Parton: die überdimensionierte blonde Perücke, das strassbesetzte Bühnenkostüm, die betont weibliche Silhouette &ndash; ein Erscheinungsbild, das sie selbst mit einem einzigen, legendären Satz erklärt: „Es kostet eine Menge Geld, so billig auszusehen.“</p>
+          <p class="vb-intro">Die amerikanische Sängerin und Songwriterin wurde am 19. Januar 1946 in einer Blockhütte in Locust Ridge, Tennessee, geboren &ndash; das vierte von zwölf Kindern einer bettelarmen Familie in den Great Smoky Mountains. Als Vorbild für ihre spätere Selbstinszenierung nannte sie später eine Frau aus ihrer Kindheit, die im Dorf als „Flittchen“ verschrien war, deren grelle Erscheinung die junge Dolly aber fasziniert statt abgeschreckt habe: „Ich dachte, sie sei die schönste Sache, die ich je gesehen hatte.“</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als bewusst gebaute Bühnenfigur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht den abstrakten Erfolg vor einer breiten Öffentlichkeit wie die soziale Drei, sondern unmittelbare, körperlich-charismatische Präsenz. Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten Form. Partons ikonisches Äußeres &ndash; Silikon, Perücken, körperbetonte Kostüme, meterlange Wimpern &ndash; ist keine zufällige Marotte, sondern eine bewusst gebaute, jahrzehntelang konsequent gepflegte Kunstfigur, die sie selbst gerne als „billig aussehende Frau, die es sich leisten kann, teuer zu wirken“ beschreibt.</p>
+          <p class="vb-intro">Bereits 1967 holte der Countrysänger Porter Wagoner die junge Parton in seine landesweit ausgestrahlte TV-Show &ndash; der Beginn einer Karriere, die sie über Solo-Alben, Filmrollen und eigene Fernsehformate bis an die Spitze der Countrymusik trug. Die SX3 zieht an, und Parton verstand früh, dass sich diese Anziehungskraft nicht auf ein einziges Medium beschränken muss: Musik, Film, Fernsehen, Freizeitpark &ndash; überall dieselbe unverwechselbare Präsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Wunde hinter dem Glitzer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine emotionale Tiefe und erzählerische Authentizität, die weit über reine Oberflächenwirkung hinausgeht &ndash; die Bühnenfigur bleibt an eine sehr persönliche, oft schmerzhafte Innenwelt rückgebunden. Genau das zeigt sich in Partons Songwriting: „Coat of Many Colors“ (1971) erzählt unverblümt von der Armut ihrer Kindheit und dem selbstgenähten Flickenmantel, für den sie als Schulkind verspottet wurde. „Jolene“ (1973) besingt die nackte Angst, einen geliebten Menschen an eine schönere Rivalin zu verlieren &ndash; eine Verletzlichkeit, die im schrillen Rampenlicht der Drei sonst kaum Platz hätte.</p>
+          <p class="vb-intro">Auch „I Will Always Love You“, 1973 geschrieben als Abschied an ihren langjährigen Mentor Porter Wagoner, verdankt seine Wirkung genau dieser Kombination: eine große, öffentlichkeitswirksame Geste (später durch Whitney Houstons Version 1992 zum meistverkauften Single-Hit einer Solokünstlerin) und zugleich eine zutiefst persönliche, fast intime Emotion darunter. Der Viererflügel fragt immer wieder: Wie mache ich aus dem, was mich innerlich bewegt, ein Bild oder einen Song, der niemanden kaltlässt?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 ist die Fähigkeit, aus einer jahrzehntelang gepflegten, hochglänzenden Bühnenfigur heraus ein vielschichtiges, künstlerisch ernsthaftes Lebenswerk zu bauen &ndash; über 3.000 geschriebene Songs, elf Grammys, ein eigener Freizeitpark (Dollywood, eröffnet 1986 in ihrer Heimatregion) und die Imagination Library, eine Stiftung, die seit 1995 weltweit über 200 Millionen Bücher kostenlos an Kinder verschenkt hat.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> &ndash; die Überzeugung, dass das eigene Image mit dem eigenen Wert identisch sei. Bei der SX3w4 kann das zur ständigen Notwendigkeit werden, sich immer glänzender zu inszenieren, um nicht als das verletzliche, arme Bergmädchen von einst gesehen zu werden. Bemerkenswert an Parton ist jedoch, wie bewusst sie diese Maske selbst reflektiert: „Ich sehe aus wie eine Kunstfigur, aber im Inneren weiß ich genau, wer ich bin“, sagte sie einmal &ndash; eine seltene Klarheit über das eigene Muster, statt ihm blind zu unterliegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Die stille Konstante hinter dem Glitzer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dolly Partons Karriere lässt sich als fortlaufende Übersetzung persönlicher Anziehungskraft in immer neue Bühnen lesen: von der ländlichen Radioshow zur Countrymusik-Ikone, von der Sängerin zur Filmschauspielerin (u. a. „9 to 5“, 1980, samt gleichnamigem Nummer-eins-Hit), von der Songwriterin zur Unternehmerin mit eigenem Freizeitpark. Jede Station bleibt an dieselbe Grundfähigkeit gebunden &ndash; Aufmerksamkeit zu erregen und sie in etwas Bleibendes zu verwandeln.</p>
+          <p class="vb-intro">Auffällig unter all dem schrillen Glanz ist eine einzige, außergewöhnlich stabile Konstante: ihre Ehe mit dem Geschäftsmann Carl Dean, den sie 1966 kennenlernte und 1966 heiratete &ndash; fast sechzig Jahre, in denen Dean die Öffentlichkeit fast vollständig mied und kaum je an ihrer Seite fotografiert wurde, bis zu seinem Tod im März 2025. Die Pfau-Feder nach außen, die stille Zurückgezogenheit im Innersten: Bei kaum einer anderen SX3w4 zeigt sich der Kontrast zwischen glitzernder Bühnenfigur und geschütztem Privatleben so deutlich wie bei Dolly Parton.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-marlene-zuk", label:"Portrait: Marlene Zuk (SX3w4)"},
       ])}
     </div>
   `);
@@ -129644,6 +129713,7 @@ function render() {
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-heidi-klum": heidiKlumPortraitPage,
+      "beruehmte-dolly-parton": dollyPartonPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-marilyn-monroe": marilynMonroePortraitPage,
