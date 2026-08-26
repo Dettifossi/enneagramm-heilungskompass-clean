@@ -54270,7 +54270,7 @@ function nikolaTeslaKrankheitsportraetPage() {
         felt ever more threatening to him. Where a healthy Five-wing uses knowledge as a
         tool, in Tesla the system itself became the only reliable anchor.</p>
         <p class="vb-intro"><strong>c) One single bond instead of many loose ones:</strong>
-        Unlike a more socially oriented subtype might have reacted, Tesla did not replace his
+        Unlike a Social Four subtype (SO4) might have reacted, Tesla did not replace his
         entire human relationship network with several loose contacts, but with a single,
         extraordinarily intense bond – the white dove carried the entire weight of what
         constitutes an entire social life for other people.</p>

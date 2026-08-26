@@ -82538,7 +82538,7 @@ function nikolaTeslaKrankheitsportraetPage() {
         Fünferflügel Wissen als Werkzeug nutzt, wurde bei Tesla das System selbst zum
         einzigen verlässlichen Halt.</p>
         <p class="vb-intro"><strong>c) Eine einzelne Bindung statt vieler lockerer:</strong>
-        Anders als ein sozialerer Subtyp reagiert hätte, ersetzte Tesla das gesamte
+        Anders als ein sozialer Vierer-Subtyp (SO4) reagiert hätte, ersetzte Tesla das gesamte
         menschliche Beziehungsnetz nicht durch mehrere lose Kontakte, sondern durch eine
         einzige, außergewöhnlich intensive Bindung – die weiße Taube trug das gesamte
         Gewicht dessen, was für andere Menschen ein ganzes soziales Leben ausmacht.</p>
