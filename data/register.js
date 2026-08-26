@@ -385,6 +385,7 @@ export const registerEntries = [
   { term: "Giacomo Puccini Krankheitsporträt", route: "krankheitsportraets-giacomo-puccini", description: "Portrait: SX8w7 · Sexueller Typ 8 · Kehlkopfkrebs, tödliche Komplikation nach Radiumbehandlung" },
   { term: "John Wayne Krankheitsporträt", route: "krankheitsportraets-john-wayne", description: "Portrait: SX8w7 · Sexueller Typ 8 · Lungenkrebs 1964, Magenkrebs 1979" },
   { term: "Larry King Krankheitsporträt", route: "krankheitsportraets-larry-king", description: "Portrait: SE7w6 · Selbsterhaltender Typ 7 · Jahrzehntelange Herzkrankheit, Krebs, Tod durch COVID-19" },
+  { term: "Mr. T Krankheitsporträt", route: "krankheitsportraets-mr-t", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · T-Zell-Lymphom, Bestrahlung und Chemotherapie 1995" },
   { term: "Claudio Naranjo Krankheitsporträt", route: "krankheitsportraets-claudio-naranjo", description: "Portrait: SO5w4 · Sozialer Typ 5 · Parkinson in den letzten Lebensjahren" },
   { term: "Friedrich Nietzsche Krankheitsporträt", route: "krankheitsportraets-friedrich-nietzsche", description: "Portrait: SX5w4 · Sexueller Typ 5 · Migräne, Sehschwäche, geistiger Zusammenbruch" },
   { term: "Frédéric Chopin Krankheitsporträt", route: "krankheitsportraets-frederic-chopin", description: "Portrait: SX5w4 · Sexueller Typ 5 · Tuberkulose" },
