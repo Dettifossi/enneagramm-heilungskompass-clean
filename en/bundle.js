@@ -55373,9 +55373,9 @@ function aiWeiweiKrankheitsportraetPage() {
         corresponding illness picture is gradually being developed in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
-        Ai Weiwei did not know his own pattern – the Self-Preservation Two with a Three-wing
+        Ai Weiwei does not know his own pattern – the Self-Preservation Two with a Three-wing
         reflexively turns its own suffering into visible, public action instead of ever
-        processing it privately, and he lived out exactly this pattern unchanged after the
+        processing it privately, and he has lived out exactly this pattern unchanged since the
         cerebral hemorrhage. Someone who does not recognize their own need to turn
         suffering into reach as a pattern cannot pause to protect themselves even in the
         face of a life-threatening injury.</p>
@@ -55385,8 +55385,8 @@ function aiWeiweiKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
         The Self-Preservation Two with a Three-wing explains much about how
-        <strong>Ai Weiwei</strong> handled his own injury: a man whose entire body of work
-        rests on making the concealed visible would not even be silenced by a cerebral
+        <strong>Ai Weiwei</strong> has handled his own injury: a man whose entire body of work
+        rests on making the concealed visible has not let himself be silenced by a cerebral
         hemorrhage – the hippopotamus that does not hide its wound but displays it in the
         middle of its territory, so no one can overlook it.</p>
       </div>
@@ -55548,9 +55548,9 @@ function woodyAllenKrankheitsportraetPage() {
         illness picture is gradually being developed in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
-        Allen did not know his own pattern as an Enneagram structure – the Self-Preservation
+        Allen does not know his own pattern as an Enneagram structure – the Self-Preservation
         Six with a Seven-wing reflexively translates every perceived threat to its own body
-        into language and motion instead of ever letting it settle, and he lived out
+        into language and motion instead of ever letting it settle, and he has lived out
         exactly this pattern virtually unchanged for six decades. Someone who does not
         recognize their own tendency to immediately turn fear into a flood of words and
         work as a pattern cannot pause, even past the age of ninety, to simply sit with
@@ -55561,10 +55561,10 @@ function woodyAllenKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
         The Self-Preservation Six with a Seven-wing explains much about how
-        <strong>Woody Allen</strong> handled his own health anxiety: a man whose entire body
-        of work rested on translating fear into language turned every smallest symptom into
+        <strong>Woody Allen</strong> handles his own health anxiety: a man whose entire body
+        of work rests on translating fear into language turns every smallest symptom into
         material rather than standstill – the rabbit that never stops keeping watch, but
-        learned to make art out of its own vigilance for six decades.</p>
+        has learned to make art out of its own vigilance for six decades.</p>
       </div>
 
       ${relatedLinks([

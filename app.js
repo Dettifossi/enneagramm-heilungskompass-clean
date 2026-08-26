@@ -83707,9 +83707,9 @@ function aiWeiweiKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Ai Weiwei kannte sein eigenes Muster nicht – die selbsterhaltende Zwei mit
+        Ai Weiwei kennt sein eigenes Muster nicht – die selbsterhaltende Zwei mit
         Dreierflügel verwandelt reflexhaft eigenes Leid in sichtbare, öffentliche Handlung,
-        statt es je privat zu verarbeiten, und genau dieses Muster lebte er nach der
+        statt es je privat zu verarbeiten, und genau dieses Muster lebt er seit der
         Hirnblutung unverändert aus. Wer die eigene Notwendigkeit, Leid in Reichweite zu
         verwandeln, nicht als Muster erkennt, kann auch angesichts einer lebensbedrohlichen
         Verletzung nicht innehalten, um sich zu schonen.</p>
@@ -83720,7 +83720,7 @@ function aiWeiweiKrankheitsportraetPage() {
         <p class="vb-intro" style="margin-bottom:0;">
         Die selbsterhaltende Zwei mit Dreierflügel erklärt bei <strong>Ai Weiwei</strong>
         vieles am Umgang mit der eigenen Verletzung: ein Mann, dessen gesamtes Schaffen
-        darauf beruht, Verschwiegenes sichtbar zu machen, ließ sich selbst von einer
+        darauf beruht, Verschwiegenes sichtbar zu machen, lässt sich selbst von einer
         Hirnblutung nicht zum Schweigen bringen – das Flusspferd, das seine Wunde nicht
         versteckt, sondern mitten im Revier zeigt, damit niemand sie übersehen kann.</p>
       </div>
@@ -83889,10 +83889,10 @@ function woodyAllenKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Allen kannte sein eigenes Muster nicht als Enneagramm-Struktur – die
+        Allen kennt sein eigenes Muster nicht als Enneagramm-Struktur – die
         selbsterhaltende Sechs mit Siebenerflügel übersetzt reflexhaft jede Bedrohung des
         eigenen Körpers in Sprache und Bewegung, statt sie je zur Ruhe kommen zu lassen, und
-        genau dieses Muster lebte er über sechs Jahrzehnte praktisch unverändert aus. Wer
+        genau dieses Muster lebt er seit über sechs Jahrzehnten praktisch unverändert aus. Wer
         die eigene Neigung, Angst sofort in Wortschwall und Arbeit zu verwandeln, nicht als
         Muster erkennt, kann auch mit über neunzig Jahren nicht innehalten, um sie einfach
         auszuhalten.</p>
@@ -83903,9 +83903,9 @@ function woodyAllenKrankheitsportraetPage() {
         <p class="vb-intro" style="margin-bottom:0;">
         Die selbsterhaltende Sechs mit Siebenerflügel erklärt bei <strong>Woody Allen</strong>
         vieles am Umgang mit der eigenen Gesundheitsangst: ein Mann, dessen gesamtes Werk
-        auf der Übersetzung von Angst in Sprache beruhte, machte aus jedem noch so kleinen
+        auf der Übersetzung von Angst in Sprache beruht, macht aus jedem noch so kleinen
         Symptom Material statt Stillstand – das Kaninchen, das nie aufhört, wachsam zu sein,
-        aber gelernt hat, aus der eigenen Wachsamkeit sechs Jahrzehnte lang Kunst zu machen.</p>
+        aber gelernt hat, aus der eigenen Wachsamkeit seit sechs Jahrzehnten Kunst zu machen.</p>
       </div>
 
       ${relatedLinks([
