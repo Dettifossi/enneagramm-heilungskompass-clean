@@ -32225,6 +32225,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Sozialer Typ 7", krankheit:"Schussverletzung mit lebenslanger Lähmung, später Diabetes", teaser:"SO7w6 – französischer Schriftsteller, 1828–1905. 1886 durch seinen geistig verwirrten Neffen niedergeschossen, Kugel dauerhaft im Bein, fortan hinkend, später zusätzlich Diabetes. Starb am 24. März 1905 in Amiens im Alter von 77 Jahren." , land:"Frankreich", gender:"m", jahre:"1828–1905"},
   { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Sozialer Typ 8", krankheit:"Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust", teaser:"SO8w9 – deutscher Bundeskanzler, 1930–2017. Schwerer Sturz im Februar 2008 mit Kopfverletzung, danach neun Jahre weitgehend pflegebedürftig, rollstuhlgebunden und in der Sprache stark eingeschränkt. Starb am 16. Juni 2017 in Ludwigshafen-Oggersheim im Alter von 87 Jahren." , land:"Deutschland", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Selbsterhaltender Typ 2", krankheit:"Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen", teaser:"SE2w3 – chinesischer Künstler und Aktivist, geb. 1957. Im August 2009 von der Polizei in Chengdu geschlagen, dadurch Hirnblutung erlitten, im September 2009 Notoperation in München. Seither chronische Kopfschmerzen." , land:"China/Deutschland", gender:"m", jahre:"geb. 1957"},
+  { route:"krankheitsportraets-mr-t", name:"Mr. T", subtyp:"SE2w3", heading:"Mr. T – Selbsterhaltender Typ 2", krankheit:"T-Zell-Lymphom (Krebs) mit Bestrahlung und Chemotherapie 1995", teaser:"SE2w3 – US-amerikanischer Schauspieler und Wrestler, geb. 1952. Im September 1995 Diagnose eines seltenen T-Zell-Lymphoms, Behandlung mit Bestrahlung und Chemotherapie, mehrjähriger Rückzug aus der Öffentlichkeit. Seither Krebsüberlebender und Fürsprecher für kranke Kinder." , land:"USA", gender:"m", jahre:"geb. 1952"},
   { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Selbsterhaltender Typ 6", krankheit:"Lebenslange, öffentlich dokumentierte Hypochondrie ('Alarmismus')", teaser:"SE6w7 – US-amerikanischer Regisseur, Drehbuchautor und Komiker, geb. 1935. Seit den 1950er-Jahren dokumentierte Gesundheitsangst, über 35 Jahre Psychoanalyse, ausführlich im eigenen New-York-Times-Essay vom 12. Januar 2013 beschrieben." , land:"USA", gender:"m", jahre:"geb. 1935"},
   { route:"krankheitsportraets-fritz-perls", name:"Fritz Perls", subtyp:"SO8w7", heading:"Fritz Perls – Sozialer Typ 8", krankheit:"Jahrelanges Herzleiden, Kettenrauchen, Bauchspeicheldrüsenkrebs", teaser:"SO8w7 – Psychiater, Mitbegründer der Gestalttherapie, 1893–1970. Jahrelanges Herzleiden nach einer Narkose-Verletzung, lebenslanges Kettenrauchen, Bauchspeicheldrüsenkrebs-Operation. Starb am 14. März 1970 in Chicago an akutem Herzversagen." , land:"Deutschland/USA", gender:"m", jahre:"1893–1970"},
   { route:"krankheitsportraets-julian-assange", name:"Julian Assange", subtyp:"SO9w1", heading:"Julian Assange – Sozialer Typ 9", krankheit:"Über sieben Jahre Isolation mit dokumentierten körperlichen und psychischen Folgen", teaser:"SO9w1 – Gründer von WikiLeaks, geb. 1971. 2012–2019 nahezu vollständige Isolation in der ecuadorianischen Botschaft London, danach bis 2024 britische Hochsicherheitshaft. Ärztlich dokumentierte neuropsychologische Schäden, chronische Schmerzen und PTBS." , land:"Australien/Vereinigtes Königreich", gender:"m", jahre:"geb. 1971"},
@@ -63283,7 +63284,7 @@ function mrTPortraitPage() {
 
         <h2 class="vb-section">4. Die Krankheit als Prüfung: Glaube statt Rückzug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">1995, auf dem Höhepunkt seines Ruhms, wurde bei Mr. T ein seltenes T-Zell-Lymphom diagnostiziert. Statt sich zurückzuziehen, beschrieb er seinen Glauben als das, was ihn trug, und sprach offen davon, dass sein Vertrauen in Gott „geprüft wie das von Hiob" wurde. Er besucht seither regelmäßig krebskranke Kinder in Krankenhäusern, um ihnen Mut zu machen &ndash; dieselbe Schutzfunktion, mit der seine Karriere einst begann, nun übertragen auf die Verletzlichsten.</p>
+          <p class="vb-intro">1995, auf dem Höhepunkt seines Ruhms, wurde bei Mr. T ein seltenes T-Zell-Lymphom diagnostiziert. Statt sich zurückzuziehen, beschrieb er seinen Glauben als das, was ihn trug, und sprach offen davon, dass sein Vertrauen in Gott „geprüft wie das von Hiob" wurde. Er besucht seither regelmäßig krebskranke Kinder in Krankenhäusern, um ihnen Mut zu machen &ndash; dieselbe Schutzfunktion, mit der seine Karriere einst begann, nun übertragen auf die Verletzlichsten. Die Diagnose, Behandlung und ihre Bedeutung für sein Lebensmuster werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-mr-t">Krankheitsporträt zu Mr. T</a> ausführlich gedeutet.</p>
           <p class="vb-intro">Auch politisch-gesellschaftlich blieb dieses Muster erkennbar: Gemeinsam mit Nancy Reagan engagierte er sich für deren „Just Say No"-Anti-Drogen-Kampagne &ndash; Fürsorge, die sich direkt an Kinder und Jugendliche richtete, mit derselben unmissverständlichen Präsenz, mit der er zuvor Prominente beschützt hatte.</p>
         </blockquote>
 
@@ -63300,6 +63301,7 @@ function mrTPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"krankheitsportraets-mr-t", label:"Krankheitsporträt: Mr. T (SE2w3) – T-Zell-Lymphom 1995"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
@@ -74026,6 +74028,205 @@ function larryKingKrankheitsportraetPage() {
   `);
 }
 
+function mrTKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mr-t-portrait.jpg" alt="Mr. T – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mr. T</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel · geb. 1952</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Mr. T</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-mr-t">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seinen Weg vom Leibwächter zum Filmstar
+        und Wrestling-Idol. Im Vordergrund dieser Seite steht ein Kapitel, das dort nur kurz
+        angerissen wird: Im September 1995, auf dem Höhepunkt seines Ruhms, wurde bei Mr. T
+        ein seltenes T-Zell-Lymphom diagnostiziert, eine Krebserkrankung des Blutes. Er
+        unterzog sich Bestrahlung und Chemotherapie, zog sich für einige Jahre spürbar aus der
+        Öffentlichkeit zurück und wurde später zu einem Fürsprecher für Krebsvorsorge und
+        Glaubensfragen im Umgang mit schwerer Krankheit.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Mr. T</strong> ist dem <strong>selbsterhaltenden Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Zwei <em>Me First</em>: Fürsorge beginnt
+        bei der eigenen körperlichen Basis und dem engsten Kreis, bevor sie sich nach außen
+        richtet. Der Dreierflügel gibt dieser Fürsorge ein unübersehbares, öffentliches Bild –
+        bei Mr. T zunächst als bezahlter Leibwächter, später als Muskelberg mit Mohawk und
+        Goldketten, dessen körperliche Präsenz selbst zur Marke wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine kleine Wunde am Ohr:</strong>
+        Im September 1995 bemerkte Mr. T beim Abnehmen eines Diamantohrrings eine kleine, nicht
+        heilende Wunde am Ohr – ausgerechnet an jener Stelle, die durch seine markanten
+        Ohrringe und Ketten Teil seines unverwechselbaren öffentlichen Bildes war.</p>
+        <p class="vb-intro"><strong>b) Zwei Wochen bis zum Arztbesuch:</strong>
+        Erst zwei Wochen später suchte er einen Arzt auf, wurde an einen Dermatologen
+        überwiesen und erhielt nach einer Biopsie die Diagnose eines seltenen T-Zell-Lymphoms
+        – einer Krebserkrankung des Blutes.</p>
+        <p class="vb-intro"><strong>c) Ein Name, der zur Krankheit passte:</strong>
+        Mr. T kommentierte die Diagnose später mit einem trockenen Wortwitz – „Krebs mit
+        meinem Namen darauf, personalisierter Krebs" –, eine erste öffentliche Reaktion, die
+        seine Fürsorge-Rolle nicht aufgab, sondern sofort mit Humor in Kontakt trat.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Bestrahlung und Chemotherapie:</strong>
+        Zur Behandlung des T-Zell-Lymphoms unterzog sich Mr. T Bestrahlung und Chemotherapie,
+        begleitet von CT-Untersuchungen und einer Knochenmarkpunktion, um den Verlauf der
+        Erkrankung zu überwachen.</p>
+        <p class="vb-intro"><strong>b) Rückzug aus der Öffentlichkeit:</strong>
+        Nach der Diagnose zog sich Mr. T für mehrere Jahre spürbar aus dem öffentlichen Leben
+        zurück – ein Bruch mit der bis dahin permanenten, plakativen Präsenz, mit der er zuvor
+        Filme, Fernsehserien und Wrestling-Auftritte bestritten hatte.</p>
+        <p class="vb-intro"><strong>c) Der Glaube als tragende Kraft:</strong>
+        Mr. T beschrieb später öffentlich, sein Vertrauen in Gott sei durch die Krankheit „wie
+        das von Hiob" geprüft worden – eine religiöse Deutung, die ihm half, die Behandlung
+        durchzustehen, ohne die eigene Stärke ganz aufzugeben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Remission über Jahrzehnte:</strong>
+        Mr. T blieb nach der Behandlung über viele Jahre in Remission und bezeichnet sich seit
+        seiner Genesung öffentlich als Krebsüberlebenden – ein Status, den er nicht verschweigt,
+        sondern aktiv in seine spätere öffentliche Rolle einbaut.</p>
+        <p class="vb-intro"><strong>b) Krankenbesuche bei kranken Kindern:</strong>
+        Seit seiner eigenen Erkrankung besucht Mr. T regelmäßig krebskranke Kinder in
+        Krankenhäusern, um ihnen Mut zuzusprechen – dieselbe Schutzfunktion, mit der seine
+        Karriere als Leibwächter einst begann, nun übertragen auf die Verletzlichsten.</p>
+        <p class="vb-intro"><strong>c) Vom Entertainer zum spirituellen Redner:</strong>
+        Nach der Erkrankung verlagerte sich sein öffentliches Auftreten zunehmend hin zu
+        Vorträgen mit geistlich-motivierendem Inhalt, in denen er seinen Glauben und seine
+        Krankengeschichte offen teilt, statt allein auf frühere Filmrollen zu setzen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein zweites öffentliches Bild neben dem ersten:</strong>
+        Neben dem Muskelberg mit Mohawk aus <em>Rocky III</em> und <em>Das A-Team</em> entstand
+        durch die Krankengeschichte ein zweites, ruhigeres öffentliches Bild: der gläubige
+        Krebsüberlebende, der anderen Kranken Mut zuspricht.</p>
+        <p class="vb-intro"><strong>b) Eine reduzierte, aber nicht beendete Karriere:</strong>
+        Mr. T blieb nach seinem Rückzug weiterhin gelegentlich in Film, Fernsehen und
+        Reality-Formaten präsent, jedoch in deutlich geringerer Taktung als in den Jahren vor
+        1995 – die Krankheit veränderte das Tempo seiner Karriere, ohne sie zu beenden.</p>
+        <p class="vb-intro"><strong>c) Eine Marke, die um eine Bedeutungsebene reicher wurde:</strong>
+        Mohawk und Goldketten blieben sein Erkennungszeichen, wurden aber durch die
+        Krankengeschichte um eine zweite Ebene ergänzt – nicht mehr nur Symbol körperlicher
+        Stärke, sondern auch Symbol des Überlebens einer lebensbedrohlichen Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Fürsorge, die sich neu ausrichtet:</strong>
+        Für eine selbsterhaltende Zwei, deren Kern die Fürsorge für den eigenen engen Kreis ist,
+        bedeutete die eigene Verletzlichkeit eine Verschiebung: Statt fremde Körper zu schützen
+        wie einst als Leibwächter, musste Mr. T lernen, den eigenen Körper als schutzbedürftig
+        anzuerkennen.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als Antrieb, aus der Krankheit ein sichtbares Zeugnis zu machen:</strong>
+        Statt die Erkrankung privat zu halten, machte Mr. T sie zu einem öffentlichen Thema –
+        typisch für den Dreierflügel, der auch ein schweres Kapitel in ein sichtbares,
+        wiedererkennbares Statement verwandelt, das andere erreichen soll.</p>
+        <p class="vb-intro"><strong>c) Rückzug als vorübergehende, nicht dauerhafte Reaktion:</strong>
+        Der mehrjährige Rückzug aus der Öffentlichkeit war kein endgültiger Abschied, sondern
+        eine Phase der Genesung, nach der die grundlegende Ausrichtung auf Fürsorge – nun mit
+        neuem Fokus auf kranke Kinder und Glaubensfragen – wieder in den Vordergrund trat.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b4832e 10%, var(--paper));border:1.5px solid #b4832e;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#7a5510;">Parallele: Der Körper als Bühne des Leidens – Frida Kahlo (SE2w3)</h3>
+        <p class="vb-intro">Unter den SE2w3-Krankheitsporträts dieses Kompasses findet sich mit
+        <a href="javascript:void(0)" data-route="krankheitsportraets-frida-kahlo">Frida Kahlo</a>
+        eine Parallele, die wirklich trägt: Beide machten den eigenen, von Krankheit
+        gezeichneten Körper zu einem öffentlich sichtbaren Teil ihrer Kunst beziehungsweise
+        ihres Auftretens, statt ihn zu verbergen. Bei Kahlo wurde der versehrte Körper zum
+        zentralen Motiv ihrer Gemälde; bei Mr. T wurde der zuvor als reine Kraftquelle
+        inszenierte Körper – Mohawk, Muskeln, Ketten – nach der Diagnose öffentlich als
+        verletzlich anerkannt, ohne dass er dabei aufhörte, gezeigt zu werden. In beiden Fällen
+        blieb der Körper im Zentrum der öffentlichen Selbstdarstellung, nur seine Bedeutung
+        verschob sich: vom reinen Symbol der Stärke zum Symbol des Überlebens.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit an genau der Stelle des eigenen Markenzeichens:</strong>
+        Die erste sichtbare Läsion trat ausgerechnet am Ohr auf – jener Körperstelle, die durch
+        auffälligen Schmuck ohnehin schon Teil von Mr. Ts unverwechselbarem öffentlichem Bild
+        war. Der Körper, mit dem er zuvor andere beschützt und sich selbst als unverwundbare
+        Ikone inszeniert hatte, wurde zur Quelle der eigenen Bedrohung.</p>
+        <p class="vb-intro"><strong>b) Rückzug, um die eigene Basis wiederherzustellen:</strong>
+        Statt die Erkrankung öffentlich zu verhandeln, während sie noch akut war, zog sich Mr.
+        T zunächst zurück – ein für die selbsterhaltende Zwei typisches Muster: Erst die
+        eigene, körperliche und familiäre Basis sichern, bevor wieder nach außen gewirkt wird.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet eine Krankheit, die den eigenen Körper als Schutzschild infrage stellte?</strong>
+        Für eine selbsterhaltende Zwei mit Dreierflügel, deren gesamte öffentliche Identität auf
+        körperlicher Stärke und einem unverwechselbaren äußeren Bild beruht, lässt sich in einer
+        Krebserkrankung, die genau diesen Körper angriff, eine Zuspitzung des eigenen
+        Lebensmusters lesen: Die Instanz, die zuvor andere schützte und sich selbst als
+        unangreifbar zeigte, musste lernen, die eigene Verletzlichkeit nicht länger zu
+        verbergen, sondern – im Dreierflügel-typischen öffentlichen Format – sichtbar zu machen.
+        Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher
+        entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei mit Dreierflügel
+        zwangsläufig zu einer Krebserkrankung führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Ein T-Zell-Lymphom hat eigene, komplexe
+        medizinische Ursachen, die mit dem Charakterprofil einer Person nichts zu tun haben.
+        Was sich an Mr. Ts Fall zeigen lässt, ist ein Muster im Umgang mit der eigenen
+        Krankheit, das bei einer ausgeprägten selbsterhaltenden Zwei mit Dreierflügel immer
+        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Mr. T kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne
+        dieses Wissen lebte er über Jahre eine körperliche Selbstinszenierung aus, die keinen
+        Raum für sichtbare Schwäche vorsah – vom Leibwächter über den Filmstar bis zum
+        Wrestling-Kämpfer war sein Körper durchgehend Beweis und Schutzschild zugleich. Erst
+        die eigene Krebsdiagnose zwang ihn, diese Rolle zu unterbrechen und die eigene
+        Verletzlichkeit erstmals öffentlich zuzulassen. Wer das eigene Muster erkennt, kann
+        bewusst gegensteuern; wer es nicht kennt, wiederholt es, bis der Körper die Grenze
+        setzt, die der Mensch selbst nicht zog.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Zwei mit Dreierflügel bestätigt sich bei <strong>Mr. T</strong>
+        darin, wie er auf die eigene Krebsdiagnose reagierte: erst Rückzug, um die eigene Basis
+        zu sichern, dann ein bewusst öffentlich gemachtes zweites Kapitel als gläubiger
+        Krebsüberlebender und Fürsprecher für kranke Kinder. Das Flusspferd, das einst fremde
+        Körper beschützte und den eigenen als unverwundbar inszenierte, musste seine Stärke neu
+        definieren – nicht als Abwesenheit von Verletzlichkeit, sondern als Fähigkeit, sie zu
+        überstehen und andere daran teilhaben zu lassen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-mr-t", label:"Porträt: Mr. T (SE2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3) – Körper als sichtbares Zeugnis"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
 function claudioNaranjoKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -82660,6 +82861,7 @@ function fridaKahloKrankheitsportraetPage() {
         {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Krankheitsporträt: Nusrat Fateh Ali Khan (SE2w3) – dieselbe Weigerung zurückzuweichen"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Krankheitsporträt: Wolfgang Amadeus Mozart (SE2w3)"},
         {route:"krankheitsportraets-ai-weiwei", label:"Krankheitsporträt: Ai Weiwei (SE2w3) – Gewalt, die zum Kunstwerk wurde"},
+        {route:"krankheitsportraets-mr-t", label:"Krankheitsporträt: Mr. T (SE2w3) – Körper als sichtbares Zeugnis"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
@@ -131243,6 +131445,7 @@ function render() {
       "krankheitsportraets-franz-schubert": franzSchubertKrankheitsportraetPage,
       "krankheitsportraets-giacomo-puccini": giacomoPucciniKrankheitsportraetPage,
       "krankheitsportraets-larry-king": larryKingKrankheitsportraetPage,
+      "krankheitsportraets-mr-t": mrTKrankheitsportraetPage,
       "krankheitsportraets-muhammad-ali": muhammadAliKrankheitsportraetPage,
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
       "krankheitsportraets-frederic-chopin": fredericChopinKrankheitsportraetPage,
