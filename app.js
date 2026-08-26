@@ -24057,6 +24057,7 @@ const registerEntries = [
   { term: "Billie Eilish Krankheitsporträt", route: "krankheitsportraets-billie-eilish", description: "Portrait: SX4w3 · Sexueller Typ 4 · Tourette-Syndrom, Depression mit Selbstverletzung" },
   { term: "Willy Brandt Krankheitsporträt", route: "krankheitsportraets-willy-brandt", description: "Portrait: SO9w8 · Sozialer Typ 9 · Wiederkehrende Depression, Darmkrebs" },
   { term: "Hans-Dietrich Genscher Krankheitsporträt", route: "krankheitsportraets-hans-dietrich-genscher", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Über Jahre bestehendes Herzleiden" },
+  { term: "Astrid Lindgren Krankheitsporträt", route: "krankheitsportraets-astrid-lindgren", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Fortschreitende Makuladegeneration, Erblindung im Alter" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32225,6 +32226,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexueller Typ 4", krankheit:"Tourette-Syndrom, über Jahre verschwiegen; schwere depressive Phase mit Selbstverletzung im Teenageralter", teaser:"SX4w3 – Sängerin und Songwriterin, geb. 2001. Tourette-Syndrom seit der Kindheit, öffentlich bestätigt erst 2018; zusätzlich schwere Depression mit Selbstverletzung ab etwa dem zwölften Lebensjahr, dokumentiert 2021." , land:"USA", gender:"f", jahre:"geb. 2001"},
   { route:"krankheitsportraets-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8", heading:"Willy Brandt – Sozialer Typ 9", krankheit:"Wiederkehrende schwere depressive Episoden, Darmkrebs", teaser:"SO9w8 – Bundeskanzler, Friedensnobelpreis 1971, 1913–1992. Wiederkehrende depressive Krisen während der politischen Laufbahn, unter anderem 1958 und 1974, gestorben 1992 an Darmkrebs." , land:"Deutschland", gender:"m", jahre:"1913–1992"},
   { route:"krankheitsportraets-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8", heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9", krankheit:"Über Jahre bestehendes Herzleiden", teaser:"SE9w8 – Außenminister und Vizekanzler 1974–1992, 1927–2016. Über Jahre bekanntes Herzleiden bei ungebrochener öffentlicher Präsenz, gestorben am 31. März 2016 an dessen Folgen." , land:"Deutschland", gender:"m", jahre:"1927–2016"},
+  { route:"krankheitsportraets-astrid-lindgren", name:"Astrid Lindgren", subtyp:"SE1w9", heading:"Astrid Lindgren – Selbsterhaltender Typ 1", krankheit:"Fortschreitende Makuladegeneration, nahezu vollständige Erblindung im hohen Alter", teaser:"SE1w9 – schwedische Schriftstellerin, 1907–2002. Fortschreitende Makuladegeneration in den letzten Lebensjahrzehnten, Umstellung auf Diktate statt Schreiben, fortgesetztes Tierschutz-Engagement trotz nahezu vollständiger Erblindung." , land:"Schweden", gender:"f", jahre:"1907–2002"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -46230,6 +46232,7 @@ function astridLindgrenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – Makuladegeneration"},
       ])}
     </div>
   `);
@@ -76331,6 +76334,7 @@ function konradAdenauerKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
@@ -88232,6 +88236,183 @@ function hansDietrichGenscherKrankheitsportraetPage() {
         {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function astridLindgrenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-astrid-lindgren-portrait.jpg" alt="Astrid Lindgren" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Astrid Lindgren</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1907–2002</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Astrid Lindgren</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-astrid-lindgren">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nicht behandelt wird: eine fortschreitende Makuladegeneration im
+        hohen Alter, die sie zwang, ihre jahrzehntelange Arbeitsroutine des Schreibens
+        vollständig aufzugeben.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Lindgren</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet ihren Perfektionismus auf die eigene Arbeitsdisziplin;
+        der Neunerflügel gibt ihr die Fähigkeit, sich anzupassen und selbst tiefgreifende
+        Verluste ohne öffentliches Aufsehen zu verarbeiten. Genau diese Kombination – der
+        Verlust des zentralen Arbeitswerkzeugs, verbunden mit der stillen Anpassung an neue
+        Arbeitsweisen statt öffentlicher Klage – bestimmte den Umgang mit der eigenen
+        Erblindung im Alter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Nachlassende Sehkraft im hohen Alter:</strong>
+        Nach übereinstimmenden biografischen Quellen begann Lindgrens Sehkraft in ihren
+        letzten Lebensjahrzehnten spürbar nachzulassen – ein schleichender Prozess, der ihre
+        über Jahrzehnte etablierte Arbeitsroutine zunehmend erschwerte.</p>
+        <p class="vb-intro"><strong>b) Diagnose einer altersbedingten Makuladegeneration:</strong>
+        Bei Lindgren wurde eine fortschreitende Makuladegeneration diagnostiziert, eine
+        Augenerkrankung, die das scharfe Sehen im Zentrum des Gesichtsfelds zunehmend
+        beeinträchtigt.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Schwierigkeiten beim Schreiben und Lesen:</strong>
+        Die Erkrankung machte es ihr im Lauf der Jahre immer schwerer, ihre gewohnte
+        Arbeitsweise – handschriftliche Stenografie am Morgen, anschließendes Abtippen –
+        fortzusetzen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Nahezu vollständige Erblindung in den letzten Lebensjahren:</strong>
+        In ihren letzten Lebensjahren war Lindgren nach übereinstimmenden Berichten praktisch
+        blind – eine Einschränkung, die sie öffentlich kaum thematisierte.</p>
+        <p class="vb-intro"><strong>b) Umstellung auf Diktate statt Schreiben:</strong>
+        Um weiterhin schreiben zu können, stellte Lindgren ihre Arbeitsweise auf Diktate um –
+        sie sprach Texte, die von ihrer langjährigen Sekretärin niedergeschrieben wurden,
+        statt sie selbst zu Papier zu bringen.</p>
+        <p class="vb-intro"><strong>c) Kein öffentlicher Rückzug wegen der Erkrankung:</strong>
+        Trotz der Sehbehinderung setzte Lindgren ihr öffentliches Engagement, insbesondere
+        für den Tierschutz, bis in ihre letzten Lebensjahre fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fortgesetztes Tierschutz-Engagement trotz Erblindung:</strong>
+        Ihr entscheidendes öffentliches Engagement für die „Lex Lindgren" 1988 fand statt, als
+        ihre Sehkraft bereits erheblich eingeschränkt war – ein Beweis dafür, dass die
+        Erkrankung ihre Wirksamkeit nicht einschränkte.</p>
+        <p class="vb-intro"><strong>b) Keine ausführliche öffentliche Thematisierung:</strong>
+        Anders als bei manchen prominenten Persönlichkeiten mit vergleichbaren Erkrankungen
+        machte Lindgren ihre Erblindung nie zu einem öffentlichen Anliegen oder einer
+        Kampagne – sie blieb ein privater Umstand, der ihr Wirken praktisch, aber nicht
+        öffentlich prägte.</p>
+        <p class="vb-intro"><strong>c) Tod im Alter von 94 Jahren:</strong>
+        Lindgren starb 2002 in Stockholm, nach Jahren, in denen sie trotz nahezu vollständiger
+        Erblindung ihre öffentliche Wirksamkeit aufrechterhalten hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Nationale Trauer bei ihrem Tod:</strong>
+        Ihr Begräbnis wurde live im schwedischen Fernsehen übertragen – ein Ausdruck der
+        immensen nationalen Bedeutung, die weit über ihre gesundheitlichen Einschränkungen
+        hinausreichte.</p>
+        <p class="vb-intro"><strong>b) Kein öffentliches Bild einer kranken alten Frau:</strong>
+        Das öffentliche Bild Lindgrens blieb bis zu ihrem Tod von Wirksamkeit und moralischer
+        Autorität geprägt, nicht von der eigenen körperlichen Einschränkung.</p>
+        <p class="vb-intro"><strong>c) Nachträgliche biografische Würdigung der Anpassungsleistung:</strong>
+        Erst spätere Biografien würdigten ausführlicher, welche Anpassungsleistung es
+        bedeutete, im hohen Alter eine völlig neue Arbeitsweise zu erlernen, ohne dabei an
+        Wirksamkeit einzubüßen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Disziplin, die sich an neue Umstände anpasste:</strong>
+        Die SE1-typische Arbeitsdisziplin zeigte sich auch im Umgang mit der Erblindung:
+        Lindgren gab das Schreiben nicht auf, sondern fand eine neue, ebenso diszipliniert
+        durchgehaltene Methode – das Diktat.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und die stille Anpassung statt öffentlicher Klage:</strong>
+        Dieselbe Zurückhaltung, mit der Lindgren zeitlebens ihr Privatleben vor der
+        Öffentlichkeit schützte, zeigte sich im Umgang mit der Erblindung als bewusste
+        Entscheidung, die eigene Einschränkung nicht zum öffentlichen Thema zu machen.</p>
+        <p class="vb-intro"><strong>c) Wirksamkeit trotz Einschränkung als Fortsetzung des eigenen Musters:</strong>
+        Dass sie ihr wichtigstes politisches Engagement – den Tierschutz – gerade in den
+        Jahren fortsetzte, als ihre Sehkraft am stärksten eingeschränkt war, passt zur
+        SE1w9-Überzeugung, dass die eigene Aufgabe wichtiger ist als die eigene Bequemlichkeit
+        oder Sichtbarkeit der eigenen Grenzen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Autorin genauer Beobachtung, die die Fähigkeit zu sehen verlor:</strong>
+        Lindgrens gesamtes Werk beruhte auf genauer Beobachtung – der kindlichen Welt, der
+        gesellschaftlichen Ungerechtigkeit, der eigenen Manuskripte als Lektorin. Ausgerechnet
+        das Sehvermögen, das diese Genauigkeit ermöglichte, versagte ihr im Alter.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
+        Adenauer (SE1w9)</a>: Auch Adenauer blieb trotz erheblicher körperlicher
+        Beeinträchtigung bis ins hohe Alter bemerkenswert wirksam, ohne die eigene
+        gesundheitliche Belastung zum öffentlichen Thema zu machen. Bei beiden SE1w9ern zeigt
+        sich dasselbe Muster: eine körperliche Einschränkung wird durch Disziplin und stille
+        Anpassung kompensiert, statt sie öffentlich zu verhandeln.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Augen, das Werkzeug der genauen Beobachtung?</strong>
+        Für eine selbsterhaltende Eins mit Neunerflügel, deren gesamtes Werk auf präziser
+        Beobachtung und disziplinierter Genauigkeit beruhte, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, das die Grundlage ihrer Arbeitsweise war, wurde zum Ort des
+        körperlichen Verlusts. Diese Deutung ist eine plausible Interpretation, kein belegter
+        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
+        Makuladegeneration führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Lindgrens Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer altersbedingten körperlichen Einschränkung, das bei einer
+        ausgeprägten selbsterhaltenden Eins mit Neunerflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Lindgren kannte ihr eigenes Muster nicht als Enneagramm-Struktur – die
+        selbsterhaltende Eins mit Neunerflügel hält reflexhaft an der eigenen Disziplin und
+        stillen Anpassung fest, statt körperliche Verluste offen zu benennen, und lebte genau
+        dieses Muster bis zu ihrem Tod unverändert aus. Wer die eigene Neigung, körperliche
+        Einschränkungen ohne öffentliche Aussprache zu kompensieren, nicht als Muster
+        erkennt, riskiert, dass die eigene Belastung unsichtbar bleibt, auch wenn Unterstützung
+        möglich wäre.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 1 mit Neunerflügel erklärt bei <strong>Astrid
+        Lindgren</strong> vieles am Umgang mit der eigenen Erblindung: eine Frau, deren
+        gesamtes Werk auf genauer Beobachtung beruhte, fand eine neue, ebenso diszipliniert
+        durchgehaltene Form, weiterzuwirken, als ihr das Sehvermögen selbst versagte – der
+        Adler, der auch ohne den vollen Blick weiterhin wusste, wohin er fliegen musste.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
     </div>
   `);
@@ -128845,6 +129026,7 @@ function render() {
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
       "krankheitsportraets-willy-brandt": willyBrandtKrankheitsportraetPage,
       "krankheitsportraets-hans-dietrich-genscher": hansDietrichGenscherKrankheitsportraetPage,
+      "krankheitsportraets-astrid-lindgren": astridLindgrenKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,

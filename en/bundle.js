@@ -258,6 +258,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexual Type 4", krankheit:"Tourette syndrome, kept secret for years; severe depressive period with self-harm as a teenager", teaser:"SX4w3 – singer and songwriter, b. 2001. Tourette syndrome since childhood, publicly confirmed only in 2018; also severe depression with self-harm from around age twelve, documented in 2021." , land:"USA", gender:"f", jahre:"b. 2001"},
   { route:"krankheitsportraets-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8", heading:"Willy Brandt – Social Type 9", krankheit:"Recurring severe depressive episodes, colon cancer", teaser:"SO9w8 – West German chancellor, Nobel Peace Prize 1971, 1913–1992. Recurring depressive crises throughout his political career, including in 1958 and 1974, died 1992 of colon cancer." , land:"Germany", gender:"m", jahre:"1913–1992"},
   { route:"krankheitsportraets-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8", heading:"Hans-Dietrich Genscher – Self-Preservation Type 9", krankheit:"Years-long heart condition", teaser:"SE9w8 – foreign minister and vice chancellor 1974–1992, 1927–2016. Heart condition known for years alongside unbroken public presence, died on 31 March 2016 from its effects." , land:"Germany", gender:"m", jahre:"1927–2016"},
+  { route:"krankheitsportraets-astrid-lindgren", name:"Astrid Lindgren", subtyp:"SE1w9", heading:"Astrid Lindgren – Self-Preservation Type 1", krankheit:"Progressive macular degeneration, near-total blindness in old age", teaser:"SE1w9 – Swedish author, 1907–2002. Progressive macular degeneration in her final decades, switch to dictation instead of writing, continued animal welfare engagement despite near-total blindness." , land:"Sweden", gender:"f", jahre:"1907–2002"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -28683,6 +28684,7 @@ function astridLindgrenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SP1w9)"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – macular degeneration"},
       ])}
     </div>
   `);
@@ -48528,6 +48530,7 @@ function konradAdenauerKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9) – life's work"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}
@@ -59657,6 +59660,173 @@ function hansDietrichGenscherKrankheitsportraetPage() {
         {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se9", label:"Subtype Profile SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function astridLindgrenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-astrid-lindgren-portrait.jpg" alt="Astrid Lindgren" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Astrid Lindgren</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-Wing · 1907–2002</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Astrid Lindgren</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-astrid-lindgren">Famous
+        Personalities portrait</a>. This page delves into a chapter not covered there: a
+        progressive macular degeneration in old age that forced her to entirely give up her
+        decades-long writing routine.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Lindgren</strong> is assigned to the <strong>self-preservation Type 1 with
+        Nine-Wing</strong>. The SE1 directs its perfectionism at its own work discipline; the
+        Nine-Wing gives it the ability to adapt and process even profound losses without
+        public fuss. Exactly this combination – losing the central tool of her work, combined
+        with quiet adaptation to new working methods rather than public complaint – shaped
+        how she dealt with going blind in old age.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Declining eyesight in old age:</strong>
+        According to consistent biographical sources, Lindgren's eyesight noticeably began
+        to decline in her final decades – a gradual process that increasingly complicated her
+        decades-old work routine.</p>
+        <p class="vb-intro"><strong>b) Diagnosis of age-related macular degeneration:</strong>
+        Lindgren was diagnosed with progressive macular degeneration, an eye condition that
+        increasingly impairs sharp vision at the center of the visual field.</p>
+        <p class="vb-intro"><strong>c) Growing difficulty writing and reading:</strong>
+        Over the years, the condition made it increasingly hard for her to continue her usual
+        working method – shorthand writing by hand in the morning, followed by typing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Nearly complete blindness in her final years:</strong>
+        In her final years, Lindgren was, according to consistent reports, practically
+        blind – a limitation she barely addressed publicly.</p>
+        <p class="vb-intro"><strong>b) Switching to dictation instead of writing:</strong>
+        To continue writing, Lindgren switched her working method to dictation – she spoke
+        texts that her longtime secretary wrote down instead of putting them on paper
+        herself.</p>
+        <p class="vb-intro"><strong>c) No public withdrawal because of the condition:</strong>
+        Despite the visual impairment, Lindgren continued her public engagement, especially
+        for animal welfare, into her final years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Continued animal welfare engagement despite blindness:</strong>
+        Her decisive public campaign for the "Lex Lindgren" in 1988 took place when her
+        eyesight was already significantly impaired – proof that the condition did not limit
+        her effectiveness.</p>
+        <p class="vb-intro"><strong>b) No extensive public discussion:</strong>
+        Unlike some public figures with comparable conditions, Lindgren never turned her
+        blindness into a public cause or campaign – it remained a private circumstance that
+        shaped her work practically but not publicly.</p>
+        <p class="vb-intro"><strong>c) Death at age 94:</strong>
+        Lindgren died in 2002 in Stockholm, after years in which she had maintained her
+        public effectiveness despite near-complete blindness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) National mourning at her death:</strong>
+        Her funeral was broadcast live on Swedish television – an expression of the immense
+        national significance that reached far beyond her health limitations.</p>
+        <p class="vb-intro"><strong>b) No public image of a sick old woman:</strong>
+        Lindgren's public image remained defined by effectiveness and moral authority until
+        her death, not by her own physical limitation.</p>
+        <p class="vb-intro"><strong>c) Later biographical recognition of the adaptation:</strong>
+        Only later biographies more fully honored what it meant to learn an entirely new way
+        of working in old age without losing effectiveness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Discipline that adapted to new circumstances:</strong>
+        The SE1's characteristic work discipline also showed in how she dealt with going
+        blind: Lindgren did not give up writing, but found a new, equally disciplined
+        method – dictation.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing and quiet adaptation instead of public complaint:</strong>
+        The same restraint with which Lindgren protected her private life from the public her
+        whole life showed in dealing with blindness as a deliberate decision not to make her
+        own limitation a public topic.</p>
+        <p class="vb-intro"><strong>c) Effectiveness despite limitation as a continuation of her own pattern:</strong>
+        That she continued her most important political engagement – animal welfare –
+        precisely in the years when her eyesight was most impaired fits the SE1w9 conviction
+        that one's own task matters more than one's own comfort or the visibility of one's
+        own limits.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An author of precise observation who lost the ability to see:</strong>
+        Lindgren's entire body of work rested on precise observation – of the world of
+        children, of social injustice, of her own manuscripts as an editor. Of all things, the
+        eyesight that made this precision possible failed her in old age.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel appears with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
+        Adenauer (SE1w9)</a>: Adenauer too remained remarkably effective into old age despite
+        considerable physical impairment, without making his own health burden a public
+        topic. Both SE1w9s show the same pattern: a physical limitation is compensated
+        through discipline and quiet adaptation rather than negotiated in public.</p>
+        <p class="vb-intro"><strong>c) Why the eyes, of all things, the tool of precise observation?</strong>
+        For a self-preservation One with a Nine-Wing whose entire work rested on precise
+        observation and disciplined accuracy, one interpretation suggests itself: exactly the
+        organ that was the foundation of her working method became the site of physical loss.
+        This reading is a plausible interpretation, not a proven clinical causal link, and
+        will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the self-preservation One's pattern inevitably leads to
+        macular degeneration – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What can be shown in Lindgren's case is a pattern in dealing with an
+        age-related physical limitation that keeps recurring in a pronounced
+        self-preservation Type 1 with a Nine-Wing – one of many possible readings, not a
+        verdict. The corresponding illness pattern is being developed gradually in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Lindgren did not know her own pattern as an Enneagram structure – the
+        self-preservation Type 1 with a Nine-Wing reflexively clings to its own discipline
+        and quiet adaptation instead of openly naming physical losses, and lived out exactly
+        this pattern unchanged until her death. Anyone who does not recognize their own
+        tendency to compensate for physical limitations without open discussion as a pattern
+        risks that their own burden remains invisible, even when support would be
+        possible.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 1 with Nine-Wing explains much about how <strong>Astrid
+        Lindgren</strong> dealt with going blind: a woman whose entire work rested on precise
+        observation found a new, equally disciplined way to keep working once her eyesight
+        itself failed her – the eagle that, even without the full view, still knew where it
+        had to fly.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SE1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SE1w9) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}
     </div>
   `);
@@ -92786,6 +92956,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
       "krankheitsportraets-willy-brandt": willyBrandtKrankheitsportraetPage,
       "krankheitsportraets-hans-dietrich-genscher": hansDietrichGenscherKrankheitsportraetPage,
+      "krankheitsportraets-astrid-lindgren": astridLindgrenKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
