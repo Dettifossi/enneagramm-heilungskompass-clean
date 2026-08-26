@@ -255,6 +255,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Social Type 5", krankheit:"Nervous breakdown, likely from mercury poisoning", teaser:"SO5w6 – physicist and mathematician, 1642/43–1727. Severe nervous breakdown in 1693 with paranoid accusations against close friends, likely caused by decades of unprotected alchemical experiments with mercury. Recovered within a year, died in 1727 at age 84." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Social Type 6", krankheit:"Chronic hypochondria, breathing distress, later cognitive decline", teaser:"SO6w5 – philosopher, 1724–1804. Lifelong, extremely well-documented hypochondria with chronic breathing distress, philosophical processing of his own illness in his late work, cognitive decline in his final years. Died on February 12, 1804, in Königsberg at age 79." , land:"Germany", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Social Type 5", krankheit:"Stroke with paralysis of the right hand", teaser:"SO5w4 – polymath and artist, 1452–1519. Stroke around 1517 with paralysis of the right hand, switch to the left hand, continued work on the Mona Lisa until the end. Died on May 2, 1519, in Amboise, France, at age 67." , land:"Italy/France", gender:"m", jahre:"1452–1519"},
+  { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Social Type 7", krankheit:"Gunshot wound with lifelong lameness, later diabetes", teaser:"SO7w6 – French writer, 1828–1905. Shot by his mentally disturbed nephew in 1886, bullet permanently lodged in his leg, left with a limp, later also developed diabetes. Died on March 24, 1905, in Amiens at age 77." , land:"France", gender:"m", jahre:"1828–1905"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -32949,6 +32950,7 @@ function julesVernePortraitPage() {
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Portrait: Johann Wolfgang von Goethe (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+        {route:"krankheitsportraets-jules-verne", label:"Illness Portrait: Jules Verne (SO7w6) – gunshot wound and lifelong lameness"},
       ])}
     </div>
   `);
@@ -43859,6 +43861,7 @@ function molierePortraitPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"krankheitsportraets-jules-verne", label:"Illness Portrait: Jules Verne (SO7w6) – the beaver's concealed caution"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so7", label:"Subtype Profile SO7"},
       ])}
@@ -54854,6 +54857,180 @@ function leonardoDaVinciKrankheitsportraetPage() {
         {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Albert Einstein (SO5w4) – the same pattern of unrestrained creation"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so5", label:"Subtype Profile SO5"},
+      ])}
+    </div>
+  `);
+}
+
+function julesVerneKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jules-verne-portrait.jpg" alt="Jules Verne" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jules Verne</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing &middot; 1828–1905</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Beaver</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Animal correspondence: Beaver" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jules Verne</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Famous Personality Portrait</a>
+        in this Compass – that portrait focuses on his restless literary world-building.
+        This page explores a chapter only touched on there: on March 9, 1886, his mentally
+        disturbed nephew Gaston shot him twice, and one bullet remained permanently lodged
+        in his leg – Verne walked with a limp for the rest of his life and later also
+        developed diabetes.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Jules Verne</strong> is assigned to the <strong>Social Type 7 with Six-wing</strong>.
+        The SO7 sacrifices its own immediate enjoyment for a larger idea; the Six-wing adds
+        caution and loyalty toward authority. This exact combination – the will to keep
+        building despite setback, paired with the Six's typical tendency to conceal
+        weakness rather than openly admit it – also determined how Verne handled the
+        permanent injury and its consequences.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The nephew's shot on March 9, 1886:</strong>
+        Verne's nephew Gaston, who suffered from a never clearly diagnosed mental illness,
+        fired twice at his uncle in front of the house in Amiens. One shot missed, the
+        second struck him in the left shin.</p>
+        <p class="vb-intro"><strong>b) A bullet that was never removed:</strong>
+        The bullet lodged too close to important blood vessels to be removed without
+        considerable risk – the doctors decided to leave it in his leg. Verne carried it
+        with him until his death.</p>
+        <p class="vb-intro"><strong>c) Immediate return to work despite the incident:</strong>
+        Shortly after the attack, Verne already resumed his writing work – an early sign
+        of the pattern that would shape how he handled the injury going forward.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A permanent limp:</strong>
+        The injury never fully healed; Verne walked with a limp for the rest of his life
+        and became increasingly restricted in his mobility.</p>
+        <p class="vb-intro"><strong>b) Retreat from the long voyages:</strong>
+        The man who had owned three sailing yachts and traveled across Europe largely gave
+        up his extensive sea voyages after the injury and withdrew increasingly to Amiens.</p>
+        <p class="vb-intro"><strong>c) Diabetes in the following years:</strong>
+        In the years after the attack, Verne additionally developed diabetes, which further
+        weakened his physical condition without meaningfully reducing his literary
+        productivity.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Municipal political engagement despite the limitation:</strong>
+        Instead of withdrawing, Verne served on the city council of Amiens after the
+        injury and remained publicly engaged into old age – a safe, locally bounded
+        framework that fit the Six-wing's caution.</p>
+        <p class="vb-intro"><strong>b) Undiminished literary output:</strong>
+        Even after 1886, new volumes of the "Voyages extraordinaires" kept appearing – the
+        injury barely slowed the volume of his output.</p>
+        <p class="vb-intro"><strong>c) An increasingly darker tone in his late work:</strong>
+        Novels such as "Propeller Island" and later, posthumously published works show a
+        noticeably more skeptical view of the technological progress Verne had once
+        naively celebrated in his younger years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A family drama rarely addressed publicly:</strong>
+        Verne spoke only cautiously in interviews and letters about the incident and his
+        nephew, who was committed to a psychiatric institution after the act – typical of
+        the Six-wing, which prefers to keep composure rather than air its own suffering
+        publicly.</p>
+        <p class="vb-intro"><strong>b) A national hero despite visible frailty:</strong>
+        Verne was celebrated during his lifetime as a literary national hero despite his
+        limp and his growing health problems – the physical limitation did nothing to
+        diminish his public standing.</p>
+        <p class="vb-intro"><strong>c) A body of work that outlasted the injury:</strong>
+        The "Voyages extraordinaires" kept growing until Verne's death in 1905, partly even
+        beyond his death through posthumously published manuscripts that his son Michel
+        revised.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Continuing to build instead of withdrawing:</strong>
+        The same conviction that his own work was owed to the world – which carried Verne's
+        entire body of work – also determined his response to the injury: not withdrawal
+        into private life, but continuation of the work, only now tied to a place instead
+        of the high seas.</p>
+        <p class="vb-intro"><strong>b) The Six-wing and the concealed family trauma:</strong>
+        Rather than publicly lamenting his own nephew's shot, Verne kept the matter largely
+        private – the same loyalty and reserve toward his own family that had already shown
+        in his decades-long submission to his publisher Hetzel.</p>
+        <p class="vb-intro"><strong>c) The growing skepticism as a Six-typical shadow side:</strong>
+        The increasingly dark tone of his late work can be read as a Six reaction: the
+        SO7's initial, almost naive enthusiasm for technology gave way to a growing
+        awareness of the dangers of his own creation, triggered by his own experienced
+        vulnerability.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) An injury that became a silent companion:</strong>
+        The bullet lodged in his leg was literally, for Verne, a part of his own body that
+        he never addressed publicly, but that limited his ability to walk and his love of
+        travel for the rest of his life – a burden he carried rather than put on display.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Molière</a>
+        (also SO7w6) concealed his own lung ailment for years before collapsing on stage;
+        Verne concealed the family drama behind his injury and its long-term consequences
+        in a similar way. Both cases show the same SO7w6 pattern: the Six's characteristic
+        caution ensures that personal suffering tends to vanish behind the facade of
+        continued work rather than being openly spoken. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Illness Portrait of Molière</a>.</p>
+        <p class="vb-intro"><strong>c) Why the leg, of all things?</strong>
+        For a Social Seven with a Six-wing whose entire life rested on movement, travel,
+        and opening up new worlds, one interpretation suggests itself: precisely the body
+        part that had once carried him across continents and across the high seas became
+        the site of the permanent limitation – a symbol of the forced groundedness of a man
+        who had spent his whole life building toward the distance. This interpretation is a
+        plausible reading, not a documented historical causal link, and will be developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
+        This does not mean that the Social Seven's pattern inevitably leads to a gunshot
+        wound inflicted by a family member – <strong>anyone can suffer any illness or
+        injury, regardless of subtype.</strong> What Verne's case illustrates is a pattern
+        in how a pronounced Social Seven with a Six-wing tends to handle a permanent
+        physical limitation – one of many possible interpretations, not a verdict. The
+        corresponding illness picture is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Verne did not know his own pattern – the Social Seven with a Six-wing reflexively
+        conceals its own suffering behind loyalty, dutifulness, and continued work instead
+        of ever openly acknowledging its own vulnerability, and he lived out exactly this
+        pattern unchanged into his final years of life. Someone who does not recognize
+        their own tendency to conceal weakness rather than name it as a pattern cannot set
+        it aside even in the face of a life-altering family trauma.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Seven with a Six-wing explains much about the course of
+        <strong>Jules Verne's</strong> own injury: a man who spent his entire life building
+        new worlds would not even let the bullet in his own leg stop him – the beaver that
+        kept building, even once the dam had long since shown cracks.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6) – the beaver who wrote the future in advance"},
+        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6) – the same pattern of concealed suffering"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so7", label:"Subtype Profile SO7"},
       ])}
     </div>
   `);
@@ -87979,6 +88156,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
+      "krankheitsportraets-jules-verne": julesVerneKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

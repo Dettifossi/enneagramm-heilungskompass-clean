@@ -24029,6 +24029,7 @@ const registerEntries = [
   { term: "Isaac Newton Krankheitsporträt", route: "krankheitsportraets-isaac-newton", description: "Portrait: SO5w6 · Sozialer Typ 5 · Nervenzusammenbruch durch Quecksilbervergiftung" },
   { term: "Immanuel Kant Krankheitsporträt", route: "krankheitsportraets-immanuel-kant", description: "Portrait: SO6w5 · Sozialer Typ 6 · Hypochondrie, Atembeklemmung, geistiger Verfall" },
   { term: "Leonardo da Vinci Krankheitsporträt", route: "krankheitsportraets-leonardo-da-vinci", description: "Portrait: SO5w4 · Sozialer Typ 5 · Schlaganfall mit Lähmung der rechten Hand" },
+  { term: "Jules Verne Krankheitsporträt", route: "krankheitsportraets-jules-verne", description: "Portrait: SO7w6 · Sozialer Typ 7 · Schussverletzung mit lebenslanger Lähmung, später Diabetes" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32168,6 +32169,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Sozialer Typ 5", krankheit:"Nervenzusammenbruch, vermutlich durch Quecksilbervergiftung", teaser:"SO5w6 – Physiker und Mathematiker, 1642/43–1727. Schwerer Nervenzusammenbruch 1693 mit paranoiden Anschuldigungen gegen enge Freunde, vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit Quecksilber verursacht. Erholte sich innerhalb eines Jahres, starb 1727 im Alter von 84 Jahren." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Sozialer Typ 6", krankheit:"Chronische Hypochondrie, Atembeklemmung, später geistiger Verfall", teaser:"SO6w5 – Philosoph, 1724–1804. Lebenslange, extrem dokumentierte Hypochondrie mit chronischer Atembeklemmung, philosophische Verarbeitung der eigenen Krankheit im Spätwerk, geistiger Verfall in den letzten Lebensjahren. Starb am 12. Februar 1804 in Königsberg im Alter von 79 Jahren." , land:"Deutschland", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Sozialer Typ 5", krankheit:"Schlaganfall mit Lähmung der rechten Hand", teaser:"SO5w4 – Universalgelehrter und Künstler, 1452–1519. Schlaganfall um 1517 mit Lähmung der rechten Hand, Umstellung auf die linke Hand, fortgesetzte Arbeit an der Mona Lisa bis zuletzt. Starb am 2. Mai 1519 in Amboise, Frankreich, im Alter von 67 Jahren." , land:"Italien/Frankreich", gender:"m", jahre:"1452–1519"},
+  { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Sozialer Typ 7", krankheit:"Schussverletzung mit lebenslanger Lähmung, später Diabetes", teaser:"SO7w6 – französischer Schriftsteller, 1828–1905. 1886 durch seinen geistig verwirrten Neffen niedergeschossen, Kugel dauerhaft im Bein, fortan hinkend, später zusätzlich Diabetes. Starb am 24. März 1905 in Amiens im Alter von 77 Jahren." , land:"Frankreich", gender:"m", jahre:"1828–1905"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44126,7 +44128,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Dienst an etwas Größerem als sich selbst, statt persönlichem Ruhm",
         beschreibung: "Das eigene Werk wird nicht als Selbstdarstellung verstanden, sondern als Beitrag zu einer Gemeinschaft, einer Idee oder einem System, das größer ist als die eigene Person.",
-        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹; Goethe, der sich 1775 auf dem Höhepunkt seines literarischen Ruhms für fast fünfzig Jahre einer Verwaltungsarbeit für Herzog Carl August verpflichtete, die seiner eigentlichen künstlerischen Natur oft diametral entgegenstand – Dienst am Weimarer Gemeinwesen statt am eigenen Künstlerruhm; Alexander Bommes, der 2007 seine Handballkarriere beendete und statt der juristischen Laufbahn nach seinem ersten Staatsexamen ein Journalismus-Volontariat begann – ein Bruch mit dem naheliegenden, sicheren Weg zugunsten einer neuen Aufgabe im Dienst der Öffentlichkeit; Molière, der seine jahrelang verschwiegene, fortschreitende Lungenerkrankung nicht zum Anlass nahm, sich zurückzuziehen, sondern bis zur vierten Aufführung von ›Der eingebildete Kranke‹ weiterspielte, ausgerechnet in der Rolle eines Hypochonders – Dienst an der eigenen Theatertruppe und am Publikum, bis der Körper buchstäblich auf der Bühne zusammenbrach."
+        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹; Goethe, der sich 1775 auf dem Höhepunkt seines literarischen Ruhms für fast fünfzig Jahre einer Verwaltungsarbeit für Herzog Carl August verpflichtete, die seiner eigentlichen künstlerischen Natur oft diametral entgegenstand – Dienst am Weimarer Gemeinwesen statt am eigenen Künstlerruhm; Alexander Bommes, der 2007 seine Handballkarriere beendete und statt der juristischen Laufbahn nach seinem ersten Staatsexamen ein Journalismus-Volontariat begann – ein Bruch mit dem naheliegenden, sicheren Weg zugunsten einer neuen Aufgabe im Dienst der Öffentlichkeit; Molière, der seine jahrelang verschwiegene, fortschreitende Lungenerkrankung nicht zum Anlass nahm, sich zurückzuziehen, sondern bis zur vierten Aufführung von ›Der eingebildete Kranke‹ weiterspielte, ausgerechnet in der Rolle eines Hypochonders – Dienst an der eigenen Theatertruppe und am Publikum, bis der Körper buchstäblich auf der Bühne zusammenbrach; Jules Verne, der nach der Schussverletzung durch seinen eigenen Neffen 1886 nicht mit öffentlicher Klage reagierte, sondern das Familientrauma weitgehend privat hielt und sein literarisches Werk trotz dauerhaften Hinkens fortsetzte – Weiterbauen statt Rückzug, auch als der eigene Damm längst Risse zeigte."
       },
       {
         titel: "Wenn die perfekte, dienende Fassade eine maßlose, zerstörerische Realität verbirgt (Schattenform)",
@@ -50830,6 +50832,7 @@ function julesVernePortraitPage() {
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
+        {route:"krankheitsportraets-jules-verne", label:"Krankheitsporträt: Jules Verne (SO7w6) – Schussverletzung und lebenslange Lähmung"},
       ])}
     </div>
   `);
@@ -71420,6 +71423,7 @@ function molierePortraitPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"krankheitsportraets-jules-verne", label:"Krankheitsporträt: Jules Verne (SO7w6) – die verschwiegene Vorsicht des Bibers"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
@@ -83159,6 +83163,188 @@ function leonardoDaVinciKrankheitsportraetPage() {
         {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Albert Einstein (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}
+
+function julesVerneKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jules-verne-portrait.jpg" alt="Jules Verne" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jules Verne</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 1828–1905</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jules Verne</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein rastloses literarisches
+        Weltenbauen. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: Am
+        9. März 1886 schoss sein geistig verwirrter Neffe Gaston zweimal auf ihn, eine
+        Kugel blieb dauerhaft im Bein stecken – Verne hinkte fortan bis an sein Lebensende
+        und litt später zusätzlich an Diabetes.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Jules Verne</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Die SO7 opfert den eigenen unmittelbaren Genuss zugunsten einer größeren
+        Idee; der Sechserflügel bringt Vorsicht und Loyalität gegenüber Autoritäten hinzu.
+        Genau diese Kombination – der Wille, trotz Rückschlag weiterzubauen, gepaart mit der
+        Sechser-typischen Neigung, Schwäche eher zu verbergen als offen zuzugeben –
+        bestimmte auch, wie Verne mit der dauerhaften Verletzung und ihren Folgen umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Der Schuss des Neffen am 9. März 1886:</strong>
+        Vernes Neffe Gaston, der unter einer nie eindeutig diagnostizierten psychischen
+        Erkrankung litt, schoss vor dem Haus in Amiens zweimal auf seinen Onkel. Ein
+        Schuss verfehlte ihn, der zweite traf ihn ins linke Schienbein.</p>
+        <p class="vb-intro"><strong>b) Eine Kugel, die nie entfernt wurde:</strong>
+        Die Kugel steckte zu nah an wichtigen Blutgefäßen, um sie ohne erhebliches Risiko
+        zu entfernen – die Ärzte entschieden sich, sie im Bein zu belassen. Verne trug sie
+        bis zu seinem Tod mit sich.</p>
+        <p class="vb-intro"><strong>c) Sofortige Rückkehr zur Arbeit trotz des Vorfalls:</strong>
+        Bereits kurz nach dem Attentat setzte Verne seine schriftstellerische Arbeit
+        fort – ein erster Hinweis auf das Muster, das seinen weiteren Umgang mit der
+        Verletzung prägen sollte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein dauerhaftes Hinken:</strong>
+        Die Verletzung heilte nie vollständig aus; Verne hinkte für den Rest seines
+        Lebens und war in seiner Mobilität zunehmend eingeschränkt.</p>
+        <p class="vb-intro"><strong>b) Rückzug von den weiten Reisen:</strong>
+        Der Mann, der drei eigene Segelyachten besessen und Europa bereist hatte, gab
+        seine ausgedehnten Seereisen nach der Verletzung weitgehend auf und zog sich
+        zunehmend nach Amiens zurück.</p>
+        <p class="vb-intro"><strong>c) Diabetes in den folgenden Jahren:</strong>
+        In den Jahren nach dem Attentat entwickelte Verne zusätzlich Diabetes, der
+        seine körperliche Verfassung weiter schwächte, ohne dass er seine schriftstellerische
+        Produktivität nennenswert reduzierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Kommunalpolitisches Engagement trotz Einschränkung:</strong>
+        Statt sich zurückzuziehen, wirkte Verne nach der Verletzung als Stadtrat von
+        Amiens und blieb bis ins hohe Alter öffentlich engagiert – ein sicherer, lokal
+        begrenzter Rahmen, der zur Sechser-Vorsicht des Flügels passte.</p>
+        <p class="vb-intro"><strong>b) Unverminderte literarische Produktion:</strong>
+        Auch nach 1886 erschienen weiterhin neue Bände der "Voyages extraordinaires" –
+        die Verletzung bremste die Menge seines Schaffens kaum.</p>
+        <p class="vb-intro"><strong>c) Zunehmend düsterer Tonfall im Spätwerk:</strong>
+        Romane wie "Propeller-Insel" oder spätere, postum veröffentlichte Werke zeigen
+        einen spürbar skeptischeren Blick auf den technischen Fortschritt, den Verne in
+        jüngeren Jahren noch blauäugig gefeiert hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Familiendrama, das öffentlich kaum thematisiert wurde:</strong>
+        Verne sprach in Interviews und Briefen nur zurückhaltend über den Vorfall und
+        seinen Neffen, der nach der Tat in eine psychiatrische Anstalt eingewiesen wurde –
+        typisch für den Sechserflügel, der lieber Fassung wahrt, als das eigene Leid
+        öffentlich auszubreiten.</p>
+        <p class="vb-intro"><strong>b) Ein Nationalheld trotz sichtbarer Gebrechlichkeit:</strong>
+        Verne wurde zu seinen Lebzeiten trotz seines Hinkens und seiner zunehmenden
+        gesundheitlichen Probleme als literarischer Nationalheld gefeiert – die
+        körperliche Einschränkung tat seinem öffentlichen Ansehen keinen Abbruch.</p>
+        <p class="vb-intro"><strong>c) Ein Werk, das die Verletzung überdauerte:</strong>
+        Die "Voyages extraordinaires" wuchsen bis zu Vernes Tod 1905 weiter, teils sogar
+        über seinen Tod hinaus durch postum veröffentlichte Manuskripte, die sein Sohn
+        Michel überarbeitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Weiterbauen statt Rückzug:</strong>
+        Dieselbe Überzeugung, dass das eigene Werk der Welt geschuldet sei, die Vernes
+        gesamtes Schaffen trug, bestimmte auch seine Reaktion auf die Verletzung – nicht
+        Rückzug ins Private, sondern Fortsetzung der Arbeit, nur eben ortsgebunden statt
+        auf hoher See.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel und das verschwiegene Familientrauma:</strong>
+        Statt öffentlich über den Schuss seines eigenen Neffen zu klagen, hielt Verne
+        die Angelegenheit weitgehend privat – dieselbe Loyalität und Zurückhaltung
+        gegenüber der eigenen Familie, die sich schon in seiner jahrzehntelangen
+        Unterordnung unter seinen Verleger Hetzel gezeigt hatte.</p>
+        <p class="vb-intro"><strong>c) Die wachsende Skepsis als Sechser-typische Schattenseite:</strong>
+        Der zunehmend düstere Ton seines Spätwerks lässt sich als Sechser-Reaktion lesen:
+        Die anfängliche, fast naive Technikbegeisterung der SO7 wich einem wachsenden
+        Bewusstsein für die Gefahren des eigenen Bauwerks, ausgelöst durch die eigene
+        erlebte Verletzlichkeit.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Verletzung, die zum stillen Begleiter wurde:</strong>
+        Die im Bein verbliebene Kugel war für Verne buchstäblich ein Teil seines Körpers,
+        den er nicht öffentlich thematisierte, aber der sein Gehen und seine Reisefreude
+        für den Rest seines Lebens einschränkte – ein Leiden, das er trug, statt es zur
+        Schau zu stellen.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Molière</a>
+        (ebenfalls SO7w6) verschwieg jahrelang sein eigenes Lungenleiden, bevor er auf
+        offener Bühne zusammenbrach; Verne verschwieg auf ähnliche Weise das familiäre
+        Drama hinter seiner Verletzung und ihre langfristigen Folgen. Beide Fälle zeigen
+        dasselbe SO7w6-Muster: Die Sechser-typische Vorsicht sorgt dafür, dass persönliches
+        Leid eher hinter der Fassade der Weiterarbeit verschwindet, als offen ausgesprochen
+        zu werden. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Krankheitsporträt zu Molière</a>.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Bein?</strong>
+        Für einen sozialen Siebener mit Sechserflügel, dessen ganzes Leben auf Bewegung,
+        Reise und dem Erschließen neuer Welten beruhte, liegt eine Deutung nahe: Ausgerechnet
+        jenes Körperteil, das ihn einst über Kontinente und auf hohe See getragen hatte,
+        wurde zum Ort der dauerhaften Einschränkung – ein Symbol für die erzwungene
+        Bodenhaftung eines Mannes, der zeitlebens in die Ferne gebaut hatte. Diese Deutung
+        ist eine plausible Interpretation, kein belegter historischer Kausalzusammenhang,
+        und wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig zu einer
+        Schussverletzung durch ein Familienmitglied führt – <strong>jeder Mensch kann
+        jede Krankheit oder Verletzung erleiden, unabhängig vom Subtyp.</strong> Was sich
+        an Vernes Fall zeigen lässt, ist ein Muster im Umgang mit einer dauerhaften
+        körperlichen Einschränkung, das bei einer ausgeprägten sozialen Sieben mit
+        Sechserflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Verne kannte sein eigenes Muster nicht – die soziale Sieben mit Sechserflügel
+        verbirgt reflexhaft eigenes Leid hinter Loyalität, Pflichterfüllung und
+        fortgesetzter Arbeit, statt die eigene Verletzlichkeit je offen anzuerkennen, und
+        genau dieses Muster lebte er bis in seine letzten Lebensjahre unverändert aus. Wer
+        die eigene Neigung, Schwäche zu verbergen, statt sie zu benennen, nicht als Muster
+        erkennt, kann sie auch angesichts eines lebensverändernden familiären Traumas
+        nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Sieben mit Sechserflügel erklärt bei <strong>Jules Verne</strong> vieles
+        am Verlauf seiner eigenen Verletzung: ein Mann, der sein ganzes Leben lang neue
+        Welten erbaute, ließ sich selbst von der Kugel im eigenen Bein nicht aufhalten –
+        der Biber, der weiterbaute, auch als der Damm längst Risse zeigte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6) – der Biber, der die Zukunft vorausschrieb"},
+        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6) – dasselbe Muster verschwiegenen Leidens"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
     </div>
   `);
@@ -123754,6 +123940,7 @@ function render() {
       "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
+      "krankheitsportraets-jules-verne": julesVerneKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
