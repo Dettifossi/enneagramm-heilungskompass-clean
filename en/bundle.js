@@ -2667,6 +2667,7 @@ text.nav = [
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
+    { route: "enneagramm-wohnraumarchitektur", label: "Enneagram Meets Interior Architecture" },
     { route: "enneagramm-kunst", label: "Enneagram Art" },
     { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
@@ -41645,8 +41646,8 @@ function enneagrammOdysseePage() {
       text: "For seven years, the nymph Calypso keeps Odysseus on her island Ogygia – not with chains, but with devotion. She cares for him, indulges him, even offers him immortality and eternal youth at her side. A paradise built entirely out of tenderness. The one condition: he must never leave.<br><br>This is precisely where the shadow side of Type 2 hides. The Two gives to excess, rescues, nourishes, and cares for others – but attaches to it the unconscious condition of being needed and loved in return. Calypso illustrates this quiet captivity within the relationship trap: the other is 'possessed' through care, without it ever feeling like possession – it feels like love. The way out for the Two lies in truly letting the other go, and recognizing that real love never forces a bond."
     },
     {
-      typ: 3, titel: "The Armor of Achilles and the Drinking of the Sun God's Cattle",
-      text: "Type 3 meets the temptation of outward glory and image twice on this journey. There is the armor of the fallen hero Achilles – the mantle of glory, fought over even by the greatest warriors, because whoever wears it is promised to become a legend themselves. And there is, far more dramatically, the slaughter of the sacred cattle of Helios: the urge for immediate success and sustenance overriding the strictest taboo of the entire voyage, because instant gratification – eating, now, right now – outweighs any later consequence.<br><br>For the Three, the Odyssey is a lesson in seeing through appearances. The personality protects itself through achievement and a polished façade, through the image others are meant to hold of it. The trial lies in finally laying the armor down and recognizing that one's own worth does not hang on the applause of the world, but on the unvarnished self underneath."
+      typ: 3, titel: "The Armor of Achilles and the Slaughter of the Sun God's Cattle",
+      text: "Odysseus meets the temptation of outward glory and image twice on this journey. There is the armor of the fallen hero Achilles – the mantle of glory, fought over even by the greatest warriors, because whoever wears it is promised to become a legend themselves. And there is, far more dramatically, the slaughter of the sacred cattle of Helios: the urge for immediate success and sustenance overriding the strictest taboo of the entire voyage, because instant gratification – eating, now, right now – outweighs any later consequence.<br><br>For the Three, the Odyssey is a lesson in seeing through appearances. The personality protects itself through achievement and a polished façade, through the image others are meant to hold of it. The trial lies in finally laying the armor down and recognizing that one's own worth does not hang on the applause of the world, but on the unvarnished self underneath."
     },
     {
       typ: 4, titel: "The Sirens' Song and the Seduction of Pain",
@@ -41711,9 +41712,137 @@ function enneagrammOdysseePage() {
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
         ${relatedLinks([
           {route:"enneagramm-astrologie", label:"Enneagram Meets Astrology"},
+          {route:"enneagramm-wohnraumarchitektur", label:"Enneagram Meets Interior Architecture"},
           {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities – Portraits"},
           {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
           {route:"tritypen", label:"The 27 Tritypes of the Enneagram"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+// ─── Enneagram Meets Interior Architecture ─────────────────────────────
+
+function enneagrammWohnraumarchitekturPage() {
+  const ZENTREN_WOHNEN = [
+    {
+      zentrum: "The Head Center (Types 5, 6, 7): Retreat, Security, and Mental Space",
+      intro: "People from the Head Center live primarily in their minds. Their home must above all be a safe harbor that shields them from a world they experience as overwhelming, or that gives them the intellectual room they need.",
+      typen: [
+        { typ: 5, titel: "The Observer – The Minimalist Observatory", punkte: [
+          "<strong>The home concept:</strong> The Five needs one thing above all: minimalist retreat and quiet. Excess clutter is ruthlessly cleared away. Their space often resembles a carefully considered refuge, where every book has its fixed place.",
+          "<strong>The room psychology:</strong> A cozy, unexposed reading chair, dimmed light, and clean lines protect the Five from energetic overstimulation. Here they can withdraw, observe, and dive into their world of knowledge undisturbed.",
+          "<strong>The Feng Shui impulse:</strong> The Metal element optimally supports the Five's mental clarity and structure. A tidy, clear north or northwest area (the zone for knowledge and helpful friends) helps them stay mentally grounded, while subtle blue tones (Water element) cool and calm restless mental activity.",
+        ]},
+        { typ: 6, titel: "The Loyalist – The Impregnable Fortress", punkte: [
+          "<strong>The home concept:</strong> For the security-oriented Six, home must offer absolute protection. This shows up in sturdy doors, good locks, a tidy, dependable structure, and often practical stockpiling.",
+          "<strong>The room psychology:</strong> Cozy, sheltered corners (where one can see the whole room without being immediately seen oneself – the so-called ›cave principle‹), warm earth tones, and familiar, stable furniture give the Six a sense of solid ground and protection against unforeseen crises.",
+          "<strong>The Feng Shui impulse:</strong> The Earth element (stable furniture, ceramic pots, earthy wall colors in the center or southwest) strengthens the sense of security here. Important for the Six in Feng Shui: never place seating with its back to an open door (always take the ›command position‹) to lower unconscious mistrust and hypervigilance.",
+        ]},
+        { typ: 7, titel: "The Enthusiast – The Bright, Open Studio", punkte: [
+          "<strong>The home concept:</strong> The Seven loves freedom, options, and inspiration. Confining, dark rooms are a nightmare for them. Their style is eclectic, lively, full of travel mementos and bright, light-filled spaces.",
+          "<strong>The room psychology:</strong> Large windows, bright colors, ever-changing décor, and perhaps a creative corner for new projects mirror the Seven's craving for variety. Home here is not a cocoon, but a sparkling base station for the next adventure.",
+          "<strong>The Feng Shui impulse:</strong> The Wood element (fresh plants, vertical lines, growth) and the Fire element (good lighting, vivid colors) bring the necessary upward energy. In Feng Shui, however, the Seven should be careful not to accumulate too many unfinished projects (chaos in the flow of Chi), and instead set deliberate points of focus to find inner calm.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "The Belly Center (Types 8, 9, 1): Claiming Space, Peace, and Clear Order",
+      intro: "The instinct-driven Belly Center wrestles with themes of control, anger, and autonomy. The homes of these types reflect how they assert their place in space, or how they create harmony.",
+      typen: [
+        { typ: 8, titel: "The Challenger – The Powerful Headquarters", punkte: [
+          "<strong>The home concept:</strong> The Eight takes up space – and this shows in their home style too. They love generous proportions, bold, striking colors (like dark wood, leather, or deep charcoal), and robust, durable, high-quality furniture.",
+          "<strong>The room psychology:</strong> The dining table or a large conference table is often the center where people gather. The Eight needs a home that radiates strength, where they keep control, and where boundaries are clear and unmistakable (no playful kitsch, but honest, solid materials).",
+          "<strong>The Feng Shui impulse:</strong> The Metal element and strong Earth elements (solid stone, heavy furniture) ground the assertive Eight. In Feng Shui, the career and life-path area, or the power zone in the Bagua, matters greatly here. It helps to occasionally integrate the Water element (e.g. a quiet indoor fountain) to symbolically cool and soften their blazing willpower and potential harshness.",
+        ]},
+        { typ: 9, titel: "The Peacemaker – The Oasis of Peace", punkte: [
+          "<strong>The home concept:</strong> The Nine longs for absolute harmony and freedom from stress. Their style is cozy, unobtrusive, and flowing. There are no hard edges or conflicts in the room design.",
+          "<strong>The room psychology:</strong> Soft pastel tones, plush rugs, plenty of cushions and blankets, and comfortable sofas turn the room into a true cuddle-oasis. Everything is oriented toward settling down, preserving inner peace, and never letting tension arise in the first place.",
+          "<strong>The Feng Shui impulse:</strong> The Earth element (softness, security) and flowing Water elements dominate. In Feng Shui, however, too much comfort risks stagnant Chi (lethargy). The Nine benefits from deliberate Fire impulses (e.g. red candles, lively light) that gently activate without destroying the harmony, helping them keep from lulling their own drive to sleep.",
+        ]},
+        { typ: 1, titel: "The Perfectionist – The Flawless Studio", punkte: [
+          "<strong>The home concept:</strong> Order is half of life for the One. Their home is defined by uncompromising cleanliness, symmetry, and functional aesthetics. Everything has its logical place.",
+          "<strong>The room psychology:</strong> Clean geometric shapes, flawless surfaces, and a carefully considered lighting concept give the One the reassuring feeling of control and moral integrity. There is no chaos here – neither on the shelf nor in the mind.",
+          "<strong>The Feng Shui impulse:</strong> The Metal element (precision, order, white and grey tones) perfectly underscores the need for structure. In Feng Shui, though, the One should watch that perfection doesn't turn too rigid and cold (dead Chi). Deliberately bringing in living Wood elements (real, organically grown plants) adds the needed touch of forgiveness, vitality, and organic imperfection to the room.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "The Heart Center (Types 2, 3, 4): Connection, Stage, and Emotional Expression",
+      intro: "The Heart Center revolves around image, relationships, and the deep wish for appreciation. The homes of these types are highly emotionally charged and often designed as a stage or a warm nest.",
+      typen: [
+        { typ: 2, titel: "The Helper – The Open Welcoming Home", punkte: [
+          "<strong>The home concept:</strong> The Two's home exists for others. It is an inviting, warm place where guests are meant to feel at home immediately. There are cozy seating areas, coffee bars, and personal gifts everywhere.",
+          "<strong>The room psychology:</strong> Warm light sources, personal photos of loved ones, and a hospitable atmosphere reflect the Two's wish to be needed and to create connection. They often tend to place their own needs behind their guests' comfort.",
+          "<strong>The Feng Shui impulse:</strong> The Fire element (cozy light, warm colors like pink, peach, or soft red in the relationship area of the Bagua) activates heart energy. Important for the Two in Feng Shui: also set up a protected ›private retreat‹ (e.g. a bedroom Chi reserved solely for themselves) where they can recover from caring for others instead of wearing themselves out completely around the house.",
+        ]},
+        { typ: 3, titel: "The Achiever – The Modern Designer Loft", punkte: [
+          "<strong>The home concept:</strong> The Three values status, aesthetics, and efficiency. Their style is modern, current, often furnished in the latest interior-design trend – a home worth showing off.",
+          "<strong>The room psychology:</strong> Fine materials, glossy surfaces, a perfectly organized home office, and designer pieces signal success and competence. Here, the living space also functions as a calling card, meant to impress and reflect achievement.",
+          "<strong>The Feng Shui impulse:</strong> A brilliant combination of Metal (high-end devices, shiny accents) and Fire (success, recognition in the south of the floor plan). In Feng Shui, however: too much gloss and pure status focus can leave the heart cold (Yang excess). Deliberately incorporating calming Water or gentle Earth grounds the Three and reminds them that a home may be a place to simply be, not just a showcase object.",
+        ]},
+        { typ: 4, titel: "The Individualist – The Poetic Art Cabinet", punkte: [
+          "<strong>The home concept:</strong> The Four despises anything off-the-rack. Their home is an expressive, one-of-a-kind total work of art made of antiques, handmade art, deep colors (like dark petrol, velvet, or terracotta), and atmospheric candlelight.",
+          "<strong>The room psychology:</strong> Every object carries an emotional story. The Four uses the living space as a stage for their rich inner world, their longings, and their melancholy. A little disorder or drama is allowed here – as long as it's authentic and full of soul.",
+          "<strong>The Feng Shui impulse:</strong> Deep, mysterious Water and Wood elements dominate here. In classical Feng Shui, however, too much heavy, melancholic fabric and dark tones can weigh down the flow of energy (stagnation). The Four benefits enormously from bringing in clarity through deliberate Metal or bright light accents, so that emotional depth doesn't sink into a heavy, oppressive atmosphere.",
+        ]},
+      ]
+    },
+  ];
+
+  function typBlock(t) {
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[t.typ] : null) || 'var(--copper)';
+    return `<div style="border-left:3px solid ${col};padding-left:1.1rem;margin-bottom:1.2rem;">
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.4rem;">Type ${t.typ}</div>
+      <h3 style="font-size:1.02rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">${t.titel}</h3>
+      <ul style="margin:0;padding-left:1.2rem;font-size:0.92rem;line-height:1.7;color:var(--ink);">
+        ${t.punkte.map(p => `<li style="margin-bottom:0.5rem;">${p}</li>`).join('')}
+      </ul>
+    </div>`;
+  }
+
+  function zentrumBlock(z, i) {
+    return `<div class="vb-section" style="max-width:100%;margin-top:${i === 0 ? '0' : '2rem'};">
+      <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">${i + 1}. ${z.zentrum}</h2>
+      <p class="vb-intro" style="margin-bottom:1.2rem;">${z.intro}</p>
+      ${z.typen.map(typBlock).join('')}
+    </div>`;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-wohnraumarchitektur')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge · Home Psychology</p>
+        <h1 class="section-title">Enneagram Meets Interior Architecture</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Home as a Mirror of the Soul: The 9 Enneagram Types and Their Approach to Living Space</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Our home is far more than just a place to sleep and pass the time – it is the three-dimensional projection of our inner psyche. Unconsciously, we shape our living spaces to match our deepest longings, protective mechanisms, and core motivations. While holistic architecture and environmental psychology have long studied how spaces affect us, the Enneagram offers a fascinating key for decoding the very individual home and retreat needs of the nine personality types.</p>
+          <p class="vb-intro">If we additionally connect these psychological patterns with the ancient wisdom of Feng Shui – the teaching of the harmonious flow of life energy (Chi) and the five elements (Water, Wood, Fire, Earth, Metal) – a holistic guide to genuine places of soul-power emerges.</p>
+          <p class="vb-intro">Each of the three Enneagram centers (head, belly, and heart) – and every individual type – searches the space around them for something quite specific: security, control, freedom, aesthetics, or harmony. A closer look reveals how personality is mirrored in walls, furniture, room structure, and the flow of energy.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/portraits/enneagramm-wohnraumarchitektur-de.jpeg" alt="Enneagram & Living – the three centers as head, belly, and heart living spaces with Feng Shui elements" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Three centers, one home: Head Center (clarity, focus, calm), Belly Center (security, enjoyment, abundance), and Heart Center (connection, expression, love) – each with matching Feng Shui elements.</p>
+        </div>
+
+        ${ZENTREN_WOHNEN.map(zentrumBlock).join('')}
+
+        <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">In Closing: When the Floor Plan Becomes the Personality</h2>
+          <p class="vb-intro">A look inside our own four walls often reveals who we are more honestly than any questionnaire. Whether it's the fortress-like security of the Six, the minimalist clarity of the Five, the artful nest of the Four, or the flowing peace of the Nine – the Enneagram, combined with the principles of Feng Shui, helps us understand why we feel safe in certain spaces and blocked in others.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Whoever consciously shapes their home in harmony with their Enneagram type and an optimal flow of Chi creates not merely a living space, but a genuine, living place of power for the soul.</p>
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – protection patterns, passions, and the path to essence. The first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${relatedLinks([
+          {route:"enneagramm-odyssee", label:"Enneagram Meets the Odyssey"},
+          {route:"drei-zentren", label:"Chart: Three Centers"},
+          {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
         ])}
       </div>
     </div>
@@ -93383,6 +93512,7 @@ function subtypeSchaubilderPage() {
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "enneagramm-odyssee": enneagrammOdysseePage,
+      "enneagramm-wohnraumarchitektur": enneagrammWohnraumarchitekturPage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,

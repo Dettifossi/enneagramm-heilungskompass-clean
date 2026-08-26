@@ -15875,6 +15875,7 @@ const uiText = {
       { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "enneagramm-odyssee", label: "Enneagramm meets Odyssee" },
+      { route: "enneagramm-wohnraumarchitektur", label: "Enneagramm meets Wohnraumarchitektur" },
       { route: "enneagramm-kunst", label: "Enneagramm-Kunstgalerie" },
       { route: "enneagramm-filme", label: "Enneagramm-Filmempfehlungen" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
@@ -23628,6 +23629,7 @@ const registerEntries = [
   { term: "Romy Schneider (Astrologie)",    route: "astrologie-romy-schneider",     description: "Astrologie-Portrait: Filmikone, Sissie · Planetenkonstellationen" },
   { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagrammtypen und astrologischen Zeichen" },
   { term: "Enneagramm meets Odyssee", route: "enneagramm-odyssee", description: "Übersicht: Die neun Stationen von Homers Odyssee als Landkarte der neun Enneagrammtypen" },
+  { term: "Enneagramm meets Wohnraumarchitektur", route: "enneagramm-wohnraumarchitektur", description: "Übersicht: Die 9 Enneagrammtypen und ihre Architektur des Wohnraums, inklusive Feng-Shui-Impulse" },
   { term: "Enneagramm-Kunstgalerie",        route: "enneagramm-kunst",              description: "9 Galerien mit je 6 Kunstwerken – klassische Gemälde als Spiegel der 9 Enneagrammtypen" },
   { term: "Enneagramm-Filmempfehlungen",    route: "enneagramm-filme",              description: "270 Filmtipps für alle 27 Subtypen – je zehn Filme pro Subtyp" },
 
@@ -25745,6 +25747,7 @@ const registerEntriesEN = [
   { term: "Inner Dynamics of the Types", route: "dynamik-der-typen", description: "Chart: how the 9 types change under stress and growth" },
   { term: "Enneagram & Astrology", route: "enneagramm-astrologie", description: "Overview: connection between Enneagram types and astrological signs" },
   { term: "Enneagram Meets the Odyssey", route: "enneagramm-odyssee", description: "Overview: the nine stations of Homer's Odyssey as a map of the nine Enneagram types" },
+  { term: "Enneagram Meets Interior Architecture", route: "enneagramm-wohnraumarchitektur", description: "Overview: the 9 Enneagram types and their approach to home design, including Feng Shui impulses" },
   { term: "Enneagram Film Recommendations", route: "enneagramm-filme", description: "270 film tips for all 27 subtypes – ten films per subtype" },
   { term: "Enneagram & Homeopathy", route: "enneagramm-homoeopathie", description: "Overview: homeopathy for all 27 subtypes – remedy assignments by type and instinct" },
   { term: "Homeopathy Songs", route: "homoeopathie-songs", description: "Chart: music meets homeopathy – songs as a mirror of homeopathic remedies" },
@@ -70676,8 +70679,8 @@ function enneagrammOdysseePage() {
       text: "Sieben Jahre lang h\u00e4lt die Nymphe Kalypso Odysseus auf ihrer Insel Ogygia gefangen \u2013 nicht mit Ketten, sondern mit F\u00fcrsorge. Sie pflegt ihn, verw\u00f6hnt ihn, verspricht ihm sogar Unsterblichkeit und ewige Jugend an ihrer Seite. Ein Paradies, gebaut aus reiner Zuwendung. Die einzige Bedingung: Er darf niemals wieder gehen.<br><br>Genau darin verbirgt sich die Schattenseite von Typ 2. Die Zwei gibt im \u00dcberma\u00df, rettet, n\u00e4hrt und umsorgt \u2013 kn\u00fcpft daran jedoch die unbewusste Bedingung, daf\u00fcr gebraucht und geliebt zu werden. Kalypso illustriert diese stille Gefangenschaft in der Beziehungsfalle: Der andere wird durch F\u00fcrsorge \u201ebesessen\u201c, ohne dass es sich wie Besitzergreifung anf\u00fchlt \u2013 es f\u00fchlt sich wie Liebe an. Der Ausweg f\u00fcr die Zwei liegt darin, den Gegen\u00fcber wirklich freizugeben und zu erkennen: Wahre Liebe erzwingt keine Bindung."
     },
     {
-      typ: 3, titel: "Die R\u00fcstung des Achill und das Trinken der Sonnenrinder",
-      text: "Zweimal begegnet Typ 3 auf dieser Reise der Verf\u00fchrung durch Glanz und Erfolg. Da ist die R\u00fcstung des gefallenen Helden Achill \u2013 der Mantel des Ruhms, um den sich sogar die gr\u00f6\u00dften Krieger streiten, weil er verspricht, wer immer ihn tr\u00e4gt, werde selbst zur Legende. Und da ist, weit dramatischer, das Schlachten der heiligen Sonnenrinder des Helios: Die hungernden Gef\u00e4hrten missachten das strengste Tabu der Reise, weil der unmittelbare Erfolg \u2013 satt werden, jetzt, sofort \u2013 wichtiger erscheint als jede sp\u00e4tere Konsequenz.<br><br>F\u00fcr die Drei ist die Odyssee eine Lektion im Durchschauen des Scheins. Die Pers\u00f6nlichkeit sch\u00fctzt sich durch Leistung und eine polierte Fassade, durch das Bild, das andere von ihr haben sollen. Die Pr\u00fcfung besteht darin, die R\u00fcstung endlich abzulegen und zu erkennen: Der eigene Wert h\u00e4ngt nicht am Beifall der Mitwelt, sondern am unverf\u00e4lschten Sein darunter."
+      typ: 3, titel: "Die R\u00fcstung des Achill und das Schlachten der Sonnenrinder",
+      text: "Zweimal begegnet Odysseus auf dieser Reise der Verf\u00fchrung durch Glanz und Erfolg. Da ist die R\u00fcstung des gefallenen Helden Achill \u2013 der Mantel des Ruhms, um den sich sogar die gr\u00f6\u00dften Krieger streiten, weil er verspricht, wer immer ihn tr\u00e4gt, werde selbst zur Legende. Und da ist, weit dramatischer, das Schlachten der heiligen Sonnenrinder des Helios: Die hungernden Gef\u00e4hrten missachten das strengste Tabu der Reise, weil der unmittelbare Erfolg \u2013 satt werden, jetzt, sofort \u2013 wichtiger erscheint als jede sp\u00e4tere Konsequenz.<br><br>F\u00fcr die Drei ist die Odyssee eine Lektion im Durchschauen des Scheins. Die Pers\u00f6nlichkeit sch\u00fctzt sich durch Leistung und eine polierte Fassade, durch das Bild, das andere von ihr haben sollen. Die Pr\u00fcfung besteht darin, die R\u00fcstung endlich abzulegen und zu erkennen: Der eigene Wert h\u00e4ngt nicht am Beifall der Mitwelt, sondern am unverf\u00e4lschten Sein darunter."
     },
     {
       typ: 4, titel: "Der Gesang der Sirenen und die Verf\u00fchrung des Schmerzes",
@@ -70742,9 +70745,137 @@ function enneagrammOdysseePage() {
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
         ${relatedLinks([
           {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"enneagramm-wohnraumarchitektur", label:"Enneagramm meets Wohnraumarchitektur"},
           {route:"beruehmte-persoenlichkeiten", label:"Ber\u00fchmte Pers\u00f6nlichkeiten \u2013 Portr\u00e4ts"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
           {route:"tritypen", label:"Die 27 Tritypen des Enneagramms"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+// \u2500\u2500\u2500 Enneagramm meets Wohnraumarchitektur \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+function enneagrammWohnraumarchitekturPage() {
+  const ZENTREN_WOHNEN = [
+    {
+      zentrum: "Das Kopf-Zentrum (Typ 5, 6, 7): R\u00fcckzug, Sicherheit und geistiger Freiraum",
+      intro: "Menschen aus dem Kopf-Zentrum leben prim\u00e4r im Verstand. Ihr Zuhause muss in erster Linie ein sicherer Hafen sein, der sie vor einer als \u00fcberw\u00e4ltigend empfundenen Welt sch\u00fctzt oder ihnen den n\u00f6tigen intellektuellen Freiraum gibt.",
+      typen: [
+        { typ: 5, titel: "Der Beobachter \u2013 Das minimalistische Observatorium", punkte: [
+          "<strong>Das Wohnkonzept:</strong> Die F\u00fcnf braucht vor allem eines: minimalistischen R\u00fcckzug und Ruhe. \u00dcberfl\u00fcssiger Ballast wird konsequent aussortiert. Ihr Raum gleicht oft einem durchdachten Refugium, in dem jedes Buch seinen festen Platz hat.",
+          "<strong>Die Raum-Psychologie:</strong> Ein gem\u00fctlicher, uneinsehbarer Lesesessel, gedimmtes Licht und klare Linien sch\u00fctzen die F\u00fcnf vor energetischer Reiz\u00fcberflutung. Hier kann sie sich zur\u00fcckziehen, beobachten und in ihre Wissenswelten abtauchen, ohne gest\u00f6rt zu werden.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Das Element Metall unterst\u00fctzt die F\u00fcnf optimal bei der mentalen Kl\u00e4rung und Struktur. Ein aufger\u00e4umter, klarer Norden oder Nordwesten (Bereich f\u00fcr Wissen und Hilfreiche Freunde) hilft ihr, gedanklich geerdet zu bleiben, w\u00e4hrend dezente Blaut\u00f6ne (Wasser-Element) die unruhige Mentalt\u00e4tigkeit k\u00fchlen und beruhigen.",
+        ]},
+        { typ: 6, titel: "Der Loyale \u2013 Die uneinnehmbare Festung", punkte: [
+          "<strong>Das Wohnkonzept:</strong> F\u00fcr die sicherheitsorientierte Sechs muss das Zuhause absoluten Schutz bieten. Das zeigt sich in stabilen T\u00fcren, guten Schl\u00f6ssern, einer aufger\u00e4umten, verl\u00e4sslichen Struktur und oft auch praktischen Vorratshaltungen.",
+          "<strong>Die Raum-Psychologie:</strong> Kuschelige, gesch\u00fctzte Ecken (wo man den Raum gut im Blick hat, ohne selbst sofort gesehen zu werden \u2013 das sogenannte \u203aH\u00f6hlen-Prinzip\u2039), warme Erdt\u00f6ne und vertraute, stabile M\u00f6bel vermitteln der Sechs das Gef\u00fchl von Bodenhaftung und Absicherung gegen unvorhergesehene Krisen.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Hier st\u00e4rkt das Element Erde (stabile M\u00f6bel, keramische T\u00f6pfe, erdige Wandfarben im Zentrum oder S\u00fcdwesten) das Sicherheitsgef\u00fchl. Wichtig im Feng Shui f\u00fcr die Sechs: keine Sitzm\u00f6bel mit dem R\u00fccken zur offenen T\u00fcr platzieren (immer die \u203aBefehlsposition\u2039 einnehmen), um das unbewusste Misstrauen und die Wachsamkeit zu senken.",
+        ]},
+        { typ: 7, titel: "Der Enthusiast \u2013 Das bunte, offene Studio", punkte: [
+          "<strong>Das Wohnkonzept:</strong> Die Sieben liebt Freiheit, Optionen und Inspiration. Einengende, dunkle R\u00e4ume sind f\u00fcr sie der Albtraum. Ihr Wohnstil ist eklektisch, lebendig, voller Erinnerungen an Reisen und offener, lichtdurchfluteter Fl\u00e4chen.",
+          "<strong>Die Raum-Psychologie:</strong> Gro\u00dfe Fenster, helle Farben, wechselnde Dekorationen und vielleicht eine kreative Ecke f\u00fcr neue Projekte spiegeln den Drang der Sieben nach Abwechslung wider. Das Zuhause ist hier kein Kokon, sondern eine sprudelnde Basisstation f\u00fcr das n\u00e4chste Erlebnis.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Das Element Holz (frische Pflanzen, vertikale Linien, Wachstum) und das Element Feuer (gute Beleuchtung, lebendige Farben) bringen die n\u00f6tige Aufw\u00e4rtsenergie. Im Feng Shui sollte die Sieben jedoch darauf achten, nicht zu viele unvollendete Projekte (Chaos im Chi-Fluss) anzuh\u00e4ufen, sondern gezielt Kraftpunkte zu setzen, um innere Ruhe zu finden.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "Das Bauch-Zentrum (Typ 8, 9, 1): Raum beanspruchen, Frieden und klare Ordnung",
+      intro: "Das instinktgetriebene Bauch-Zentrum ringt mit den Themen Kontrolle, Wut und Autonomie. Die Wohnr\u00e4ume dieser Typen spiegeln wider, wie sie ihren Platz im Raum behaupten oder wie sie Harmonie herstellen.",
+      typen: [
+        { typ: 8, titel: "Der Herausforderer \u2013 Das kraftvolle Headquarter", punkte: [
+          "<strong>Das Wohnkonzept:</strong> Die Acht nimmt Raum ein \u2013 und das zeigt sich auch im Wohnstil. Sie liebt gro\u00dfz\u00fcgige Schnitte, kr\u00e4ftige, markante Farben (wie dunkles Holz, Leder oder kr\u00e4ftiges Anthrazit) und robuste, langlebige M\u00f6bel von hoher Qualit\u00e4t.",
+          "<strong>Die Raum-Psychologie:</strong> Der Esszimmertisch oder ein gro\u00dfer Konferenztisch ist oft das Zentrum, an dem man zusammenkommt. Die Acht braucht ein Zuhause, das St\u00e4rke ausstrahlt, in dem sie die Kontrolle beh\u00e4lt und in dem es klare, unmissverst\u00e4ndliche Grenzen gibt (kein verspielter Kitsch, sondern ehrliche, massive Materialien).",
+          "<strong>Der Feng-Shui-Impuls:</strong> Das Element Metall und kr\u00e4ftige Erd-Elemente (massive Steine, schwere M\u00f6bel) erden die durchsetzungsstarke Acht. Im Feng Shui ist f\u00fcr sie der Bereich des Karriere- und Lebensweges oder der Machtbereich im Bagua wichtig. Wichtig ist hier, ab und zu das Element Wasser (z. B. ein leises Zimmerbrunnen-Element) zu integrieren, um die lodernde Willenskraft und potenzielle H\u00e4rte symbolisch abzuk\u00fchlen und geschmeidiger zu machen.",
+        ]},
+        { typ: 9, titel: "Der Vermittler \u2013 Die Oase des Friedens", punkte: [
+          "<strong>Das Wohnkonzept:</strong> Die Neun sehnt sich nach absoluter Harmonie und Stressfreiheit. Ihr Wohnstil ist gem\u00fctlich, unaufdringlich und flie\u00dfend. Es gibt keine harten Kanten oder Konflikte im Raumdesign.",
+          "<strong>Die Raum-Psychologie:</strong> Sanfte Pastellt\u00f6ne, flauschige Teppiche, viele Kissen und Decken sowie bequeme Sofas machen den Raum zu einer echten Kuscheloase. Alles ist darauf ausgerichtet, zur Ruhe zu kommen, den inneren Frieden zu wahren und Spannungen gar nicht erst aufkommen zu lassen.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Das Element Erde (Sanftheit, Geborgenheit) und flie\u00dfende Wasser-Elemente dominieren. Allerdings besteht im Feng Shui bei zu viel Bequemlichkeit die Gefahr von stagnierendem Chi (Tr\u00e4gheit). Die Neun profitiert daher von gezielten Feuer-Impulsen (z. B. roten Kerzen, lebendigem Licht), die sanft aktivieren, ohne die Harmonie zu zerst\u00f6ren, und ihr helfen, die eigene Tatkraft nicht einzuschl\u00e4fern.",
+        ]},
+        { typ: 1, titel: "Der Perfektionist \u2013 Das makellose Atelier", punkte: [
+          "<strong>Das Wohnkonzept:</strong> Ordnung ist f\u00fcr die Eins das halbe Leben. Ihr Zuhause zeichnet sich durch kompromisslose Sauberkeit, Symmetrie und funktionale \u00c4sthetik aus. Jedes Ding hat seinen logischen Platz.",
+          "<strong>Die Raum-Psychologie:</strong> Klare geometrische Formen, makellose Oberfl\u00e4chen und ein durchdachtes Beleuchtungskonzept geben der Eins das beruhigende Gef\u00fchl von Kontrolle und moralischer Integrit\u00e4t. Hier herrscht kein Chaos \u2013 weder im Regal noch im Kopf.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Das Element Metall (Pr\u00e4zision, Ordnung, wei\u00dfe und graue Nuancen) unterstreicht das Bed\u00fcrfnis nach Struktur perfekt. Im Feng Shui sollte die Eins jedoch darauf achten, dass die Perfektion nicht zu starr und k\u00fchl wirkt (totes Chi). Das gezielte Einbringen von lebendigen Holz-Elementen (wie echten, organisch gewachsenen Pflanzen) bringt den n\u00f6tigen Hauch von Nachsicht, Lebendigkeit und organischer Unvollkommenheit in den Raum.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "Das Herz-Zentrum (Typ 2, 3, 4): Verbundenheit, B\u00fchne und emotionaler Ausdruck",
+      intro: "Im Herzzentrum dreht sich alles um Image, Beziehungen und den tiefen Wunsch nach Wertsch\u00e4tzung. Die Wohnr\u00e4ume dieser Typen sind stark emotional aufgeladen und oft als B\u00fchne oder warmes Nest gestaltet.",
+      typen: [
+        { typ: 2, titel: "Der Helfer \u2013 Das offene Willkommens-Zuhause", punkte: [
+          "<strong>Das Wohnkonzept:</strong> Das Zuhause der Zwei ist f\u00fcr andere da. Es ist ein einladender, warmer Ort, an dem sich G\u00e4ste sofort wie zu Hause f\u00fchlen sollen. \u00dcberall gibt es gem\u00fctliche Sitzgelegenheiten, Kaffeebars und pers\u00f6nliche Geschenke.",
+          "<strong>Die Raum-Psychologie:</strong> Warme Lichtquellen, pers\u00f6nliche Fotos von lieben Menschen und eine gastfreundliche Atmosph\u00e4re spiegeln den Wunsch der Zwei wider, gebraucht zu werden und Verbundenheit zu stiften. Oft neigt sie dazu, den eigenen Bedarf hinter den Komfort der G\u00e4ste zu stellen.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Das Element Feuer (gem\u00fctliches Licht, herzliche Farben wie Rosa, Pfirsich oder sanftes Rot im Beziehungs-Bagua-Bereich) aktiviert die Herzensenergie. Wichtig im Feng Shui f\u00fcr die Zwei: auch einen gesch\u00fctzten \u203aprivaten R\u00fcckzugsraum\u2039 (z. B. ein intaktes, nur f\u00fcr sie selbst bestimmtes Schlafzimmer-Chi) einrichten, in dem sie sich von der F\u00fcrsorge f\u00fcr andere erholen kann, statt sich im Haus komplett aufzureiben.",
+        ]},
+        { typ: 3, titel: "Der Erfolgreiche \u2013 Das moderne Designer-Loft", punkte: [
+          "<strong>Das Wohnkonzept:</strong> Die Drei legt Wert auf Status, \u00c4sthetik und Effizienz. Ihr Wohnstil ist modern, hochaktuell, oft im angesagten Interior-Design-Trend eingerichtet \u2013 ein Zuhause, das sich sehen lassen kann.",
+          "<strong>Die Raum-Psychologie:</strong> Edle Materialien, gl\u00e4nzende Oberfl\u00e4chen, ein top-organisiertes Home-Office und Designer-St\u00fccke zeigen Erfolg und Kompetenz. Hier wird der Wohnraum auch als Visitenkarte genutzt, um Eindruck zu machen und Leistung zu spiegeln.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Eine brillante Kombination aus Metall (High-End-Ger\u00e4te, gl\u00e4nzende Akzente) und Feuer (Erfolg, Anerkennung im S\u00fcden des Grundrisses). Im Feng Shui gilt jedoch: Zu viel Hochglanz und reiner Status-Fokus k\u00f6nnen das Herz erkalten lassen (Yang-\u00dcberschuss). Das bewusste Einbinden von beruhigendem Wasser oder sanfter Erde erdet die Drei und erinnert sie daran, dass ein Zuhause kein Vorzeige-Objekt, sondern ein Ort zum Sein sein darf.",
+        ]},
+        { typ: 4, titel: "Der Individualist \u2013 Das poetische Kunst-Cabinet", punkte: [
+          "<strong>Das Wohnkonzept:</strong> Die Vier verabscheut die Stange. Ihr Zuhause ist ein expressives, einzigartiges Gesamtkunstwerk aus Antiquit\u00e4ten, selbstgemachter Kunst, tiefen Farben (wie dunklem Petrol, Samt oder Terrakotta) und atmosph\u00e4rischem Kerzenschein.",
+          "<strong>Die Raum-Psychologie:</strong> Jeder Gegenstand hat eine emotionale Geschichte. Die Vier nutzt den Wohnraum als B\u00fchne f\u00fcr ihre reiche Innenwelt, ihre Sehns\u00fcchte und ihre Melancholie. Hier darf es auch mal etwas unaufger\u00e4umt oder dramatisch sein \u2013 Hauptsache, es ist authentisch und voller Seele.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Hier dominieren tiefe, geheimnisvolle Wasser- und Holz-Elemente. Im klassischen Feng Shui kann ein Zuviel an schweren, melancholischen Stoffen und dunklen T\u00f6nen jedoch den Energiefluss beschweren (Stagnation). Die Vier profitiert enorm davon, durch gezielte Metall- oder helle Licht-Akzente Klarheit hineinzubringen, damit die emotionale Tiefe nicht in einer dr\u00fcckenden, schwere erzeugenden Raum-Atmosph\u00e4re versinkt.",
+        ]},
+      ]
+    },
+  ];
+
+  function typBlock(t) {
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[t.typ] : null) || 'var(--copper)';
+    return `<div style="border-left:3px solid ${col};padding-left:1.1rem;margin-bottom:1.2rem;">
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.4rem;">Typ ${t.typ}</div>
+      <h3 style="font-size:1.02rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">${t.titel}</h3>
+      <ul style="margin:0;padding-left:1.2rem;font-size:0.92rem;line-height:1.7;color:var(--ink);">
+        ${t.punkte.map(p => `<li style="margin-bottom:0.5rem;">${p}</li>`).join('')}
+      </ul>
+    </div>`;
+  }
+
+  function zentrumBlock(z, i) {
+    return `<div class="vb-section" style="max-width:100%;margin-top:${i === 0 ? '0' : '2rem'};">
+      <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">${i + 1}. ${z.zentrum}</h2>
+      <p class="vb-intro" style="margin-bottom:1.2rem;">${z.intro}</p>
+      ${z.typen.map(typBlock).join('')}
+    </div>`;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-wohnraumarchitektur')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen \u00b7 Wohnpsychologie</p>
+        <h1 class="section-title">Enneagramm meets Wohnraumarchitektur</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Wohnen im Spiegel der Seele: Die 9 Enneagramm-Typen und ihre Architektur des Wohnraums</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Unser Zuhause ist weit mehr als nur ein Ort zum Schlafen und Verweilen \u2013 es ist die dreidimensionale Projektion unserer inneren Psyche. Unbewusst gestalten wir unsere Wohnr\u00e4ume so, dass sie unseren tiefsten Sehns\u00fcchten, Schutzmechanismen und Grundmotiven entsprechen. W\u00e4hrend die ganzheitliche Architektur und Wohnpsychologie schon lange untersuchen, wie R\u00e4ume auf uns wirken, l\u00e4sst sich das Enneagramm als faszinierender Schl\u00fcssel nutzen, um die ganz individuellen Wohn- und R\u00fcckzugsbed\u00fcrfnisse der neun Pers\u00f6nlichkeitstypen zu entschl\u00fcsseln.</p>
+          <p class="vb-intro">Verbinden wir diese psychologischen Grundmuster zus\u00e4tzlich mit den uralten Weisheiten des Feng Shui \u2013 der Lehre vom harmonischen Fluss der Lebensenergie (Chi) und den f\u00fcnf Elementen (Wasser, Holz, Feuer, Erde, Metall) \u2013, entsteht ein ganzheitlicher Leitfaden f\u00fcr echte Seelen-Kraftorte.</p>
+          <p class="vb-intro">Jedes der drei Enneagramm-Zentren (Kopf, Bauch und Herz) und jeder einzelne Typ sucht im Raum nach etwas ganz Bestimmtem: Sicherheit, Kontrolle, Freiheit, \u00c4sthetik oder Harmonie. Eine tiefgehende Betrachtung zeigt, wie sich die Pers\u00f6nlichkeit in W\u00e4nden, M\u00f6beln, Raumstrukturen und dem energetischen Fluss widerspiegelt.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/enneagramm-wohnraumarchitektur-de.jpeg" alt="Enneagramm & Wohnen \u2013 die drei Zentren als Kopf-, Bauch- und Herz-Wohnr\u00e4ume mit Feng-Shui-Elementen" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Drei Zentren, ein Zuhause: Kopf-Zentrum (Klarheit, Fokus, Ruhe), Bauch-Zentrum (Sicherheit, Genuss, F\u00fclle) und Herz-Zentrum (Verbindung, Ausdruck, Liebe) \u2013 jeweils mit den passenden Feng-Shui-Elementen.</p>
+        </div>
+
+        ${ZENTREN_WOHNEN.map(zentrumBlock).join('')}
+
+        <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Fazit: Wenn der Grundriss zur Pers\u00f6nlichkeit wird</h2>
+          <p class="vb-intro">Ein Blick in unsere vier W\u00e4nde zeigt uns oft ehrlicher, wer wir sind, als jedes Fragebogen-Ergebnis. Ob die festungsartige Sicherheit der Sechs, die minimalistische Klarheit der F\u00fcnf, das kunstvolle Nest der Vier oder der flie\u00dfende Friede der Neun \u2013 das Enneagramm in Kombination mit den Prinzipien des Feng Shui hilft uns zu verstehen, warum wir uns in bestimmten R\u00e4umen geborgen und in anderen blockiert f\u00fchlen.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Wer sein Zuhause bewusst im Einklang mit seinem Enneagramm-Typ und dem optimalen energetischen Chi-Fluss gestaltet, erschafft sich keinen blo\u00dfen Wohnraum, sondern einen echten, lebendigen Kraftort f\u00fcr die Seele.</p>
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        ${relatedLinks([
+          {route:"enneagramm-odyssee", label:"Enneagramm meets Odyssee"},
+          {route:"drei-zentren", label:"Schaubild: Drei Zentren"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
         ])}
       </div>
     </div>
@@ -129482,6 +129613,7 @@ function render() {
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "enneagramm-odyssee": enneagrammOdysseePage,
+      "enneagramm-wohnraumarchitektur": enneagrammWohnraumarchitekturPage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
