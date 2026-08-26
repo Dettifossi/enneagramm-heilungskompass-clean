@@ -244,7 +244,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexual Type 6", krankheit:"Colon cancer, fatal cardiac arrest", teaser:"SX6w7 – cult leader and mastermind of the 1969 Tate-LaBianca murders, 1934–2017. Hospitalized and diagnosed with colon cancer in early 2017, showed no public remorse or transformation to the end. Died on 19 November 2017 in a prison hospital at age 83." , land:"USA", gender:"m", jahre:"1934–2017"},
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Self-Preservation Type 3", krankheit:"End-stage kidney failure", teaser:"SE3w4 – architect of the largest Ponzi scheme in history, 1938–2021. Progressive kidney disease in prison, repeatedly denied requests for early release despite a prognosis of under 18 months to live. Died on 14 April 2021 at the Federal Correctional Complex in Butner at age 82." , land:"USA", gender:"m", jahre:"1938–2021"},
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
-  { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SP8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
+  { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SO8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -259,6 +259,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Social Type 8", krankheit:"Severe fall with head injury, permanent wheelchair use and loss of speech", teaser:"SO8w9 – German Chancellor, 1930–2017. Severe fall in February 2008 with head injury, followed by nine years largely dependent on care, wheelchair-bound and severely limited in speech. Died on June 16, 2017, in Ludwigshafen-Oggersheim at age 87." , land:"Germany", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Self-Preservation Type 2", krankheit:"Police violence with cerebral hemorrhage in 2009, chronic headaches since", teaser:"SE2w3 – Chinese artist and activist, b. 1957. Beaten by police in Chengdu in August 2009, suffered a cerebral hemorrhage as a result, emergency surgery in Munich in September 2009. Chronic headaches ever since." , land:"China/Germany", gender:"m", jahre:"b. 1957"},
   { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Self-Preservation Type 6", krankheit:"Lifelong, publicly documented hypochondria ('alarmism')", teaser:"SE6w7 – American director, screenwriter, and comedian, b. 1935. Documented health anxiety since the 1950s, over 35 years of psychoanalysis, described in detail in his own New York Times essay of January 12, 2013." , land:"USA", gender:"m", jahre:"b. 1935"},
+  { route:"krankheitsportraets-fritz-perls", name:"Fritz Perls", subtyp:"SO8w7", heading:"Fritz Perls – Social Type 8", krankheit:"Years-long heart condition, chain smoking, pancreatic cancer", teaser:"SO8w7 – psychiatrist, co-founder of Gestalt therapy, 1893–1970. Years-long heart condition following an anesthesia-related injury, lifelong chain smoking, pancreatic cancer surgery. Died on March 14, 1970, in Chicago from acute heart failure." , land:"Germany/USA", gender:"m", jahre:"1893–1970"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -19374,6 +19375,7 @@ function fritzPerlsPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7)"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"krankheitsportraets-fritz-perls", label:"Illness Portrait: Fritz Perls (SO8w7) – heart condition and cancer, active until the end"},
       ])}
     </div>
   `);
@@ -55579,6 +55581,178 @@ function woodyAllenKrankheitsportraetPage() {
   `);
 }
 
+function fritzPerlsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-fritz-perls-portrait.jpg" alt="Fritz Perls" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Perls</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing &middot; 1893–1970</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Lion</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Animal correspondence: Lion" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Fritz Perls</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-fritz-perls">Famous Personality Portrait</a>
+        in this Compass – that portrait focuses on his role as co-founder of Gestalt
+        therapy. This page explores a chapter only touched on there: a years-long heart
+        condition, decades of chain-smoking, and finally a pancreatic cancer operation, the
+        complications of which he died from in 1970.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Perls</strong> is assigned to the <strong>Social Type 8 with Seven-wing</strong>.
+        The SO8 openly deploys its strength to build and protect a community; the
+        Seven-wing adds a restless hunger for full, unrestrained life experience. This
+        exact combination – strength that permits no weakness, paired with the Seven's
+        drive to keep constantly in motion – also determined how Perls handled his own,
+        years-long heart condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A chain smoker since the war:</strong>
+        Perls had smoked his first cigarette at age eight and, by his own and others'
+        accounts, became a lifelong chain smoker as a result of his experiences in the
+        First World War.</p>
+        <p class="vb-intro"><strong>b) Heart damage from an earlier operation:</strong>
+        An injury to his neck related to anesthesia led over the years to a lasting heart
+        weakness that would accompany Perls from then on.</p>
+        <p class="vb-intro"><strong>c) Physical capacity initially compensated:</strong>
+        Despite the heart damage, Perls remained physically active for long stretches – he
+        could still walk, travel, and take part in demanding workshops without the
+        condition visibly limiting his life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Undiminished travel across continents:</strong>
+        Even with the known heart condition in the background, Perls continued his
+        restless life between Europe, South Africa, and the USA, and later between New
+        York, Esalen, and Canada, essentially unchanged.</p>
+        <p class="vb-intro"><strong>b) No public discussion of his own illness:</strong>
+        In his workshops and public appearances, his own health vulnerability played no
+        discernible role – Perls remained, until the end, the confrontational, physically
+        present figure he had always been.</p>
+        <p class="vb-intro"><strong>c) Continued smoking despite the heart condition:</strong>
+        By several accounts, Perls never fully gave up smoking despite his known heart
+        problem – a pattern that further strained his physical condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Founding a new project shortly before his death:</strong>
+        As late as 1969/1970, Perls founded a Gestalt kibbutz project in Canada – a new
+        community project begun while his physical condition was already compromised.</p>
+        <p class="vb-intro"><strong>b) Diagnosis of pancreatic cancer:</strong>
+        In his final months, a pancreatic cancer diagnosis was added to his existing heart
+        weakness, requiring surgery.</p>
+        <p class="vb-intro"><strong>c) Surgery at Louis A. Weiss Memorial Hospital in Chicago:</strong>
+        Perls underwent the cancer surgery in Chicago; his heart could not withstand the
+        strain of the procedure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death on March 14, 1970, in Chicago:</strong>
+        Perls died shortly after the surgery from acute heart failure – the heart weakness
+        he had compensated for over years finally gave way under the additional surgical
+        strain.</p>
+        <p class="vb-intro"><strong>b) A famously blunt final reaction:</strong>
+        By several accounts, Perls remained true to his confrontational, direct manner
+        even in death, reacting even in his final moments not evasively but directly.</p>
+        <p class="vb-intro"><strong>c) No discernible break in his public work beforehand:</strong>
+        Right up to the months before the surgery, Perls continued his travel and lecture
+        activity essentially undiminished – there is no indication of a deliberate
+        withdrawal for health reasons before the acute cancer diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Strength that must not show weakness:</strong>
+        The same SO8 conviction that strength must be displayed openly rather than
+        concealed also determined Perls's handling of his own heart condition – no public
+        vulnerability, but unchanged physical presence right up until shortly before his
+        death.</p>
+        <p class="vb-intro"><strong>b) The Seven-wing and the refusal to slow the pace:</strong>
+        The restless hunger for new experience that carried Perls's entire life kept him
+        from adopting a calmer pace even with a known heart weakness – shortly before his
+        death he founded a new community project rather than easing off.</p>
+        <p class="vb-intro"><strong>c) Chain-smoking as a physical expression of the Seven's restlessness:</strong>
+        His continued smoking despite a known heart problem can be read as an expression of
+        the same unrestrained Seven energy that also shaped his therapeutic style –
+        enjoyment and intensity, without regard for later consequences.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A heart never publicly regarded as weak:</strong>
+        Perls's entire therapeutic presence rested on immediate, physical presence and the
+        refusal to accept excuses or weakness – precisely his own heart, which carried
+        exactly that presence, quietly became a burden over the years without him ever
+        making it a topic.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-john-gotti">John Gotti</a>
+        (also SO8w7) was diagnosed with laryngeal cancer while in isolation in 1998 without
+        ever allowing a public admission of weakness; Perls responded to his own, far
+        longer-standing heart condition with the same basic stance – no visible
+        vulnerability, no reduction of his own pace. Both cases show the same SO8w7
+        pattern: the Eight with a Seven-wing does not let a progressive illness take away
+        its own strength until the body itself sets the limit. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-john-gotti">Illness Portrait of John Gotti</a>.</p>
+        <p class="vb-intro"><strong>c) Why the heart, of all things?</strong>
+        For a Social Eight with a Seven-wing, whose entire impact rested on open,
+        unfiltered strength and presence, one interpretation suggests itself: precisely the
+        organ that figuratively stands for strength, courage, and vitality became the site
+        of a quiet weakness concealed for years. This interpretation is a plausible
+        reading, not a documented historical causal link, and will be developed further in
+        this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
+        This does not mean that the Social Eight's pattern inevitably leads to heart
+        disease – <strong>anyone can develop any illness, regardless of subtype.</strong>
+        What Perls's case illustrates is a pattern in how a pronounced Social Eight with a
+        Seven-wing tends to handle chronic physical strain – one of many possible
+        interpretations, not a verdict. The corresponding illness picture is gradually
+        being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Perls did not know his own pattern – the Social Eight with a Seven-wing reflexively
+        mistakes concealing its own vulnerability for strength instead of ever
+        acknowledging its own physical limit, and he lived out exactly this pattern
+        unchanged until his death. Someone who does not recognize their own invulnerability
+        fixation as a pattern mistakes concealment for strength until the body presents the
+        bill.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Eight with a Seven-wing explains much about the course of
+        <strong>Fritz Perls's</strong> own illness: a man whose entire impact rested on
+        open, unfiltered strength concealed his own, years-long heart condition until the
+        end – the lion that never rested until the last confrontation, even as his own
+        heart had long been asking for rest.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-fritz-perls", label:"Portrait: Fritz Perls (SO8w7) – co-founder of Gestalt therapy"},
+        {route:"krankheitsportraets-john-gotti", label:"Illness Portrait: John Gotti (SO8w7) – the same refusal to admit weakness"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so8", label:"Subtype Profile SO8"},
+      ])}
+    </div>
+  `);
+}
+
 function johnGottiKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -55589,7 +55763,7 @@ function johnGottiKrankheitsportraetPage() {
           <img src="./assets/portraits/john-gotti-portrait.jpg" alt="John Gotti" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Gotti</p>
-        <p class="krim-portrait-typ">SP8w7 · Social Type 8 with Seven-wing · 1940–2002</p>
+        <p class="krim-portrait-typ">SO8w7 · Social Type 8 with Seven-wing · 1940–2002</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Lion</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
@@ -55745,9 +55919,10 @@ function johnGottiKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"kriminalpsychologie-john-gotti", label:"Criminal Psychology: John Gotti (SP8w7) – Boss of the Gambino Family"},
+        {route:"kriminalpsychologie-john-gotti", label:"Criminal Psychology: John Gotti (SO8w7) – Boss of the Gambino Family"},
+        {route:"krankheitsportraets-fritz-perls", label:"Illness Portrait: Fritz Perls (SO8w7) – the same refusal to admit weakness"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/so8", label:"Subtype Profile SP8"},
+        {route:"subtype/so8", label:"Subtype Profile SO8"},
       ])}
     </div>
   `);
@@ -60904,7 +61079,7 @@ function johnGottiPortraitPage() {
           {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SP8w9)"},
           {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9)"},
           {route:"kriminalpsychologie-john-mcafee", label:"Criminal Psychology: John McAfee (SX8w9)"},
-          {route:"krankheitsportraets-john-gotti", label:"Illness Portrait: John Gotti (SP8w7) – laryngeal cancer in isolation"},
+          {route:"krankheitsportraets-john-gotti", label:"Illness Portrait: John Gotti (SO8w7) – laryngeal cancer in isolation"},
         ])}
       </div>
     </div>
@@ -88703,6 +88878,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-helmut-kohl": helmutKohlKrankheitsportraetPage,
       "krankheitsportraets-ai-weiwei": aiWeiweiKrankheitsportraetPage,
       "krankheitsportraets-woody-allen": woodyAllenKrankheitsportraetPage,
+      "krankheitsportraets-fritz-perls": fritzPerlsKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

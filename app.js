@@ -24033,6 +24033,7 @@ const registerEntries = [
   { term: "Helmut Kohl Krankheitsporträt", route: "krankheitsportraets-helmut-kohl", description: "Portrait: SO8w9 · Sozialer Typ 8 · Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust" },
   { term: "Ai Weiwei Krankheitsporträt", route: "krankheitsportraets-ai-weiwei", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen" },
   { term: "Woody Allen Krankheitsporträt", route: "krankheitsportraets-woody-allen", description: "Portrait: SE6w7 · Selbsterhaltender Typ 6 · Lebenslange, öffentlich dokumentierte Hypochondrie" },
+  { term: "Fritz Perls Krankheitsporträt", route: "krankheitsportraets-fritz-perls", description: "Portrait: SO8w7 · Sozialer Typ 8 · Jahrelanges Herzleiden, Kettenrauchen, Bauchspeicheldrüsenkrebs" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32176,6 +32177,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Sozialer Typ 8", krankheit:"Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust", teaser:"SO8w9 – deutscher Bundeskanzler, 1930–2017. Schwerer Sturz im Februar 2008 mit Kopfverletzung, danach neun Jahre weitgehend pflegebedürftig, rollstuhlgebunden und in der Sprache stark eingeschränkt. Starb am 16. Juni 2017 in Ludwigshafen-Oggersheim im Alter von 87 Jahren." , land:"Deutschland", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Selbsterhaltender Typ 2", krankheit:"Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen", teaser:"SE2w3 – chinesischer Künstler und Aktivist, geb. 1957. Im August 2009 von der Polizei in Chengdu geschlagen, dadurch Hirnblutung erlitten, im September 2009 Notoperation in München. Seither chronische Kopfschmerzen." , land:"China/Deutschland", gender:"m", jahre:"geb. 1957"},
   { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Selbsterhaltender Typ 6", krankheit:"Lebenslange, öffentlich dokumentierte Hypochondrie ('Alarmismus')", teaser:"SE6w7 – US-amerikanischer Regisseur, Drehbuchautor und Komiker, geb. 1935. Seit den 1950er-Jahren dokumentierte Gesundheitsangst, über 35 Jahre Psychoanalyse, ausführlich im eigenen New-York-Times-Essay vom 12. Januar 2013 beschrieben." , land:"USA", gender:"m", jahre:"geb. 1935"},
+  { route:"krankheitsportraets-fritz-perls", name:"Fritz Perls", subtyp:"SO8w7", heading:"Fritz Perls – Sozialer Typ 8", krankheit:"Jahrelanges Herzleiden, Kettenrauchen, Bauchspeicheldrüsenkrebs", teaser:"SO8w7 – Psychiater, Mitbegründer der Gestalttherapie, 1893–1970. Jahrelanges Herzleiden nach einer Narkose-Verletzung, lebenslanges Kettenrauchen, Bauchspeicheldrüsenkrebs-Operation. Starb am 14. März 1970 in Chicago an akutem Herzversagen." , land:"Deutschland/USA", gender:"m", jahre:"1893–1970"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44053,7 +44055,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Präzises, gewähltes Eingreifen statt wahlloser Konfrontation",
         beschreibung: "Kraft wird nicht wahllos eingesetzt, sondern erst nach genauer Beobachtung, im richtigen Moment und mit klarer Zielrichtung – ohne unnötige Energie zu verschwenden.",
-        beleg: "Jamaica Kincaid: ›Der Löwe kämpft nicht wahllos. Er wartet, beobachtet, wählt den Moment. Und wenn er angreift, dann mit einer Präzision, die keine Energie verschwendet‹; Sokrates, der ›barfuß im Winter unterwegs, gleichgültig gegenüber Komfort, unbestechlich in seinen Überzeugungen‹ blieb: ›Der Löwe zieht sich nicht zurück, wenn es unbequem wird – er hält stand.‹; Fritz Perls, der Teilnehmer seiner Workshops gezielt auf den ›Hot Seat‹ setzte und einzeln, direkt und schonungslos mit ihrer eigenen Abwehr konfrontierte – kein wahlloses Angreifen, sondern präzises Eingreifen genau dort, wo es wirkte."
+        beleg: "Jamaica Kincaid: ›Der Löwe kämpft nicht wahllos. Er wartet, beobachtet, wählt den Moment. Und wenn er angreift, dann mit einer Präzision, die keine Energie verschwendet‹; Sokrates, der ›barfuß im Winter unterwegs, gleichgültig gegenüber Komfort, unbestechlich in seinen Überzeugungen‹ blieb: ›Der Löwe zieht sich nicht zurück, wenn es unbequem wird – er hält stand.‹; Fritz Perls, der Teilnehmer seiner Workshops gezielt auf den ›Hot Seat‹ setzte und einzeln, direkt und schonungslos mit ihrer eigenen Abwehr konfrontierte – kein wahlloses Angreifen, sondern präzises Eingreifen genau dort, wo es wirkte, und der mit demselben ungebremsten Tempo noch kurz vor seinem Tod ein neues Gemeinschaftsprojekt gründete, statt sein bekanntes Herzleiden zum Anlass zu nehmen, kürzerzutreten."
       },
       {
         titel: "Wenn Rudel-Loyalität zur öffentlich zur Schau gestellten kriminellen Bruderschaft wird (Schattenform)",
@@ -51810,6 +51812,7 @@ function fritzPerlsPortraitPage() {
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
         {route:"beruehmte-sokrates", label:"Porträt: Sokrates (SO8w7)"},
         {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+        {route:"krankheitsportraets-fritz-perls", label:"Krankheitsporträt: Fritz Perls (SO8w7) – Herzleiden und Krebs bis zuletzt in Bewegung"},
       ])}
     </div>
   `);
@@ -81153,6 +81156,7 @@ function johnGottiKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"kriminalpsychologie-john-gotti", label:"Kriminalpsychologie: John Gotti (SO8w7) – Boss der Gambino-Familie"},
+        {route:"krankheitsportraets-fritz-perls", label:"Krankheitsporträt: Fritz Perls (SO8w7) – dieselbe Weigerung, Schwäche zuzugeben"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so8", label:"Subtyp-Profil SO8"},
       ])}
@@ -83915,6 +83919,181 @@ function woodyAllenKrankheitsportraetPage() {
         {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se6", label:"Subtyp-Profil SE6"},
+      ])}
+    </div>
+  `);
+}
+
+function fritzPerlsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-fritz-perls-portrait.jpg" alt="Fritz Perls" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Perls</p>
+        <p class="krim-portrait-typ">SO8w7 · Sozialer Typ 8 mit Siebenerflügel · 1893–1970</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Löwe</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Tierentsprechung: Löwe" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Fritz Perls</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-fritz-perls">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Rolle als Mitbegründer der
+        Gestalttherapie. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: ein
+        über Jahre bestehendes Herzleiden, jahrzehntelanges Kettenrauchen und schließlich
+        eine Bauchspeicheldrüsenkrebs-Operation, an deren Folgen er 1970 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Perls</strong> ist dem <strong>sozialen Typ 8 mit Siebenerflügel</strong>
+        zugeordnet. Die SO8 setzt ihre Kraft offen für den Aufbau und Schutz einer
+        Gemeinschaft ein; der Siebenerflügel bringt einen rastlosen Hunger nach voller,
+        ungebremster Lebenserfahrung hinzu. Genau diese Kombination – Kraft, die keine
+        Schwäche zulässt, gepaart mit dem Siebener-Drang, ständig in Bewegung zu bleiben –
+        bestimmte auch, wie Perls mit seinem eigenen, jahrelangen Herzleiden umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Kettenraucher seit dem Krieg:</strong>
+        Perls hatte bereits als Achtjähriger seine erste Zigarette geraucht und wurde nach
+        eigenen und fremden Schilderungen infolge seiner Erfahrungen im Ersten Weltkrieg
+        zum lebenslangen Kettenraucher.</p>
+        <p class="vb-intro"><strong>b) Eine Herzschädigung durch eine frühere Operation:</strong>
+        Eine Verletzung im Halsbereich im Zusammenhang mit einer Narkose führte über die
+        Jahre zu einer bleibenden Herzschwäche, die Perls fortan begleitete.</p>
+        <p class="vb-intro"><strong>c) Zunächst kompensierte körperliche Leistungsfähigkeit:</strong>
+        Trotz der Herzschädigung blieb Perls über weite Strecken körperlich aktiv – er
+        konnte weiterhin gehen, reisen und an anspruchsvollen Workshops teilnehmen, ohne
+        dass die Erkrankung sein Leben sichtbar einschränkte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Unvermindertes Reisen zwischen Kontinenten:</strong>
+        Auch mit dem bekannten Herzleiden im Hintergrund setzte Perls sein rastloses Leben
+        zwischen Europa, Südafrika und den USA sowie später zwischen New York, Esalen und
+        Kanada praktisch unverändert fort.</p>
+        <p class="vb-intro"><strong>b) Keine öffentliche Thematisierung der eigenen Krankheit:</strong>
+        In seinen Workshops und öffentlichen Auftritten spielte die eigene gesundheitliche
+        Verletzlichkeit keine erkennbare Rolle – Perls blieb bis zuletzt die konfrontative,
+        körperlich präsente Figur, die er immer gewesen war.</p>
+        <p class="vb-intro"><strong>c) Fortgesetztes Rauchen trotz Herzleiden:</strong>
+        Berichten zufolge gab Perls das Rauchen trotz seiner bekannten Herzproblematik nie
+        vollständig auf – ein Muster, das seine körperliche Verfassung zusätzlich belastete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Gründung eines neuen Projekts kurz vor dem Tod:</strong>
+        Noch 1969/1970 gründete Perls ein Gestalt-Kibbutz-Projekt in Kanada – ein neues
+        Gemeinschaftsprojekt, begonnen, während seine körperliche Verfassung bereits
+        angeschlagen war.</p>
+        <p class="vb-intro"><strong>b) Diagnose einer Bauchspeicheldrüsenkrebserkrankung:</strong>
+        In seinen letzten Lebensmonaten kam zur bestehenden Herzschwäche eine
+        Bauchspeicheldrüsenkrebsdiagnose hinzu, die eine Operation erforderlich machte.</p>
+        <p class="vb-intro"><strong>c) Operation im Louis A. Weiss Memorial Hospital in Chicago:</strong>
+        Perls unterzog sich der Krebsoperation in Chicago; sein Herz hielt der Belastung
+        durch den Eingriff nicht stand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 14. März 1970 in Chicago:</strong>
+        Perls starb kurz nach der Operation an akutem Herzversagen – die jahrelang
+        kompensierte Herzschwäche gab dem zusätzlichen operativen Stress schließlich nach.</p>
+        <p class="vb-intro"><strong>b) Eine der Legende nach typisch schroffe letzte Reaktion:</strong>
+        Berichten zufolge blieb Perls auch im Sterben seiner konfrontativen, unmittelbaren
+        Art treu und reagierte selbst in den letzten Momenten nicht ausweichend, sondern
+        direkt.</p>
+        <p class="vb-intro"><strong>c) Keine erkennbare Zäsur im öffentlichen Wirken zuvor:</strong>
+        Bis in die letzten Monate vor der Operation setzte Perls seine Reise- und
+        Vortragstätigkeit unvermindert fort – es gibt keine Hinweise auf einen bewussten
+        Rückzug aus gesundheitlichen Gründen vor der akuten Krebsdiagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kraft, die keine Schwäche zeigen darf:</strong>
+        Dieselbe SO8-Überzeugung, dass Stärke offen gezeigt werden muss, statt sich zu
+        verbergen, bestimmte auch Perls' Umgang mit seinem eigenen Herzleiden – keine
+        öffentliche Verwundbarkeit, sondern unveränderte körperliche Präsenz bis kurz vor
+        dem Tod.</p>
+        <p class="vb-intro"><strong>b) Der Siebenerflügel und die Weigerung, das Tempo zu drosseln:</strong>
+        Der rastlose Hunger nach neuer Erfahrung, der Perls' gesamtes Leben trug, ließ ihn
+        selbst mit bekannter Herzschwäche keine ruhigere Gangart einschlagen – noch kurz
+        vor seinem Tod gründete er ein neues Gemeinschaftsprojekt, statt kürzerzutreten.</p>
+        <p class="vb-intro"><strong>c) Kettenrauchen als körperlicher Ausdruck der Siebener-Unruhe:</strong>
+        Das fortgesetzte Rauchen trotz bekannter Herzproblematik lässt sich als Ausdruck
+        derselben ungebremsten Siebener-Energie lesen, die auch seinen therapeutischen Stil
+        prägte – Genuss und Intensität, ohne Rücksicht auf spätere Konsequenzen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Herz, das nie öffentlich als schwach galt:</strong>
+        Perls' gesamtes therapeutisches Auftreten beruhte auf unmittelbarer, körperlicher
+        Präsenz und der Weigerung, Ausflüchte oder Schwäche zu akzeptieren – ausgerechnet
+        sein eigenes Herz, das genau diese Präsenz trug, wurde über Jahre stillschweigend
+        zur Belastung, ohne dass er dies je zum Thema machte.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-john-gotti">John Gotti</a>
+        (ebenfalls SO8w7) ließ sich 1998 in Isolationshaft mit Kehlkopfkrebs diagnostizieren,
+        ohne je ein öffentliches Eingeständnis von Schwäche zuzulassen; Perls reagierte auf
+        sein eigenes, weit länger bestehendes Herzleiden mit derselben Grundhaltung – keine
+        sichtbare Verletzlichkeit, keine Reduzierung des eigenen Tempos. Beide Fälle zeigen
+        dasselbe SO8w7-Muster: Die Acht mit Siebenerflügel lässt sich die eigene Stärke
+        durch eine fortschreitende Erkrankung nicht nehmen, bis der Körper selbst die
+        Grenze setzt. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-john-gotti">Krankheitsporträt zu John Gotti</a>.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Herz?</strong>
+        Für einen sozialen Achter mit Siebenerflügel, dessen gesamte Wirkung auf offener,
+        ungefilterter Kraft und Präsenz beruhte, liegt eine Deutung nahe: Ausgerechnet jenes
+        Organ, das im übertragenen Sinn für Kraft, Mut und Lebendigkeit steht, wurde zum
+        Ort der stillen, über Jahre verschwiegenen Schwäche. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird
+        im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Acht zwangsläufig zu einem Herzleiden
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Perls' Fall zeigen lässt, ist ein Muster im Umgang mit
+        chronischer körperlicher Belastung, das bei einer ausgeprägten sozialen Acht mit
+        Siebenerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Perls kannte sein eigenes Muster nicht – die soziale Acht mit Siebenerflügel
+        verwechselt reflexhaft das Verbergen der eigenen Verwundbarkeit mit Stärke, statt
+        die eigene körperliche Grenze je anzuerkennen, und genau dieses Muster lebte er bis
+        zu seinem Tod unverändert aus. Wer die eigene Unverwundbarkeits-Fixierung nicht als
+        Muster erkennt, verwechselt Verbergen mit Stärke, bis der Körper die Rechnung
+        präsentiert.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Acht mit Siebenerflügel erklärt bei <strong>Fritz Perls</strong> vieles
+        am Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Wirkung auf offener,
+        ungefilterter Kraft beruhte, verbarg sein eigenes, jahrelanges Herzleiden bis
+        zuletzt – der Löwe, der bis zur letzten Konfrontation nicht rastete, auch als sein
+        eigenes Herz längst um Ruhe bat.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-fritz-perls", label:"Porträt: Fritz Perls (SO8w7) – Mitbegründer der Gestalttherapie"},
+        {route:"krankheitsportraets-john-gotti", label:"Krankheitsporträt: John Gotti (SO8w7) – dieselbe Weigerung, Schwäche zuzugeben"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so8", label:"Subtyp-Profil SO8"},
       ])}
     </div>
   `);
@@ -124514,6 +124693,7 @@ function render() {
       "krankheitsportraets-helmut-kohl": helmutKohlKrankheitsportraetPage,
       "krankheitsportraets-ai-weiwei": aiWeiweiKrankheitsportraetPage,
       "krankheitsportraets-woody-allen": woodyAllenKrankheitsportraetPage,
+      "krankheitsportraets-fritz-perls": fritzPerlsKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
