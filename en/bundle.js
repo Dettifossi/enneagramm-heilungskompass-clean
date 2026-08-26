@@ -254,6 +254,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2", heading:"Angelina Jolie – Social Type 1", krankheit:"BRCA1 gene mutation, preventive double mastectomy in 2013, removal of ovaries and fallopian tubes in 2015", teaser:"SO1w2 – actress and director, b. 1975. BRCA1 gene mutation confirmed after a family history of cancer, publicly disclosed preventive double mastectomy in 2013, removal of ovaries and fallopian tubes in 2015." , land:"USA", gender:"f", jahre:"b. 1975"},
   { route:"krankheitsportraets-adele", name:"Adele", subtyp:"SE4w3", heading:"Adele – Self-Preservation Type 4", krankheit:"Severe postnatal depression with panic attacks, kept private for almost a decade", teaser:"SE4w3 – singer and songwriter, b. 1988. Postnatal depression after the birth of her son in 2012, accompanying panic attacks before performances, publicly disclosed only in 2021." , land:"United Kingdom", gender:"f", jahre:"b. 1988"},
   { route:"krankheitsportraets-jamie-lee-curtis", name:"Jamie Lee Curtis", subtyp:"SX1w2", heading:"Jamie Lee Curtis – Sexual Type 1", krankheit:"22-year opioid dependency after cosmetic surgery", teaser:"SX1w2 – actress and activist, b. 1958. Opioid dependency beginning in 1989 after a cosmetic procedure, kept secret for over ten years, sober since 19 February 1999." , land:"USA", gender:"f", jahre:"b. 1958"},
+  { route:"krankheitsportraets-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9", heading:"Genesis P-Orridge – Sexual Type 8", krankheit:"Leukemia, progressing over years, died 2020", teaser:"SX8w9 – musician, performance artist, and occultist, 1950–2020. Leukemia spanning several years, artistically active until shortly before death, died on 14 March 2020 in New York." , land:"United Kingdom", gender:"nonbinary", jahre:"1950–2020"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -33885,6 +33886,7 @@ function genesisPOrridgePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
+        {route:"krankheitsportraets-genesis-p-orridge", label:"Illness Portrait: Genesis P-Orridge (SX8w9) – leukemia"},
       ])}
     </div>
   `);
@@ -46029,6 +46031,7 @@ function ruthBaderGinsburgKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-ruth-bader-ginsburg", label:"Portrait: Ruth Bader Ginsburg (SX8w9) – life's work"},
+        {route:"krankheitsportraets-genesis-p-orridge", label:"Illness Portrait: Genesis P-Orridge (SX8w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx8", label:"Subtype Profile SX8"},
       ])}
@@ -58968,6 +58971,175 @@ function jamieLeeCurtisKrankheitsportraetPage() {
         {route:"krankheitsportraets-robbie-williams", label:"Illness Portrait: Robbie Williams (SX1w2) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx1", label:"Subtype Profile SX1"},
+      ])}
+    </div>
+  `);
+}
+
+function genesisPOrridgeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-genesis-p-orridge-portrait.jpg" alt="Genesis P-Orridge" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Genesis P-Orridge</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexual Type 8 with Nine-Wing · 1950–2020</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Crocodile</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Animal correspondence: Crocodile" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Genesis P-Orridge</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-genesis-p-orridge">Famous
+        Personalities portrait</a>. This page delves into a chapter not covered there: a
+        leukemia illness spanning several years, during which Genesis remained artistically
+        active until shortly before death in March 2020.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Genesis</strong> is assigned to the <strong>sexual Type 8 with Nine-Wing</strong>.
+        The SX8 wants the whole, without compromise, including in how it deals with its own
+        body; the Nine-Wing adds a resting, enduring force that is not explosive but
+        persistent. Exactly this combination – an uncompromising refusal to submit to the
+        illness, combined with quiet, long-term endurance – shaped the course of the
+        leukemia.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Diagnosis of a chronic leukemia:</strong>
+        According to those close to Genesis, a chronic form of leukemia was diagnosed that
+        initially remained relatively stable for years.</p>
+        <p class="vb-intro"><strong>b) Continued artistic and ritual practice:</strong>
+        Despite the diagnosis, Genesis continued performances, exhibitions, and their own
+        occult-artistic practice almost unabated for years.</p>
+        <p class="vb-intro"><strong>c) Largely kept from the wider public:</strong>
+        The illness did not become a central public topic but stayed in the background for
+        the wider public for a long time, while close friends and collaborators were
+        informed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Progression to an acute phase of illness:</strong>
+        In the final years of life, the illness worsened, requiring repeated hospital stays
+        and more intensive treatment.</p>
+        <p class="vb-intro"><strong>b) Continuing projects despite hospital stays:</strong>
+        Even during treatment periods, Genesis kept working on music and art projects
+        according to collaborators, at times directly from the hospital bed.</p>
+        <p class="vb-intro"><strong>c) Public support from the music and art scene:</strong>
+        In the final months before death, numerous collaborators and fans from the
+        industrial and experimental music scene publicly expressed their support and
+        solidarity.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Death on 14 March 2020 in New York:</strong>
+        Genesis P-Orridge died at age 70 from complications of the leukemia, in the
+        apartment closely tied to their late partner Lady Jaye.</p>
+        <p class="vb-intro"><strong>b) Worldwide mourning in the music and art world:</strong>
+        The death triggered international obituaries honoring Genesis's influence on
+        industrial music, performance art, and counterculture.</p>
+        <p class="vb-intro"><strong>c) Posthumous continuation of the artistic legacy:</strong>
+        After the death, further works were released, some already prepared beforehand,
+        including music and art projects Genesis had worked on until the end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Tribute to an uncompromising body of work:</strong>
+        Obituaries repeatedly emphasized that Genesis remained true to their artistic
+        radicalism until the end, without making the illness the defining narrative of their
+        own work.</p>
+        <p class="vb-intro"><strong>b) No public staging of the illness:</strong>
+        Unlike with some artists, the leukemia did not become a central part of public
+        self-presentation – the art remained the focus, not the suffering.</p>
+        <p class="vb-intro"><strong>c) The Pandrogeny project's continued impact beyond death:</strong>
+        The Pandrogeny project begun with Lady Jaye – the physical fusion of two people into
+        one being – is still discussed today as an independent work of art, regardless of
+        both partners' deaths.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Possession, applied to one's own illness:</strong>
+        The SX8's characteristic refusal to submit to anything without a fight showed also in
+        dealing with the leukemia: Genesis did not let the illness become the dictator of
+        their own life, but kept working with the same intensity until the end.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing and quiet endurance through the illness:</strong>
+        The same resting, non-explosive force that carried Genesis's decades-long body of
+        work also showed in dealing with the illness: no loud public struggle, but a quiet,
+        persistent continuation of their own work despite the progressing illness.</p>
+        <p class="vb-intro"><strong>c) No separation between art and illness:</strong>
+        For Genesis, their own physical vulnerability could never be fully separated from
+        their artistic work – the Pandrogeny project itself had already used their own body
+        as art material; the leukemia became one further, final form of this fusion of life
+        and work.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An artist of boundary dissolution, confronted with the last unresolvable boundary:</strong>
+        Genesis's entire body of work revolved around dissolving boundaries – between
+        bodies, genders, art and life. Of all things, the illness represented a boundary
+        that could not be dissolved by art, ritual, or willpower.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel appears with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Ruth
+        Bader Ginsburg (SX8w9)</a>: Ginsburg too refused for years to give in to multiple
+        cancer diagnoses and remained active in office until shortly before death. Both
+        SX8w9s show the same pattern: an uncompromising refusal to subordinate their own
+        life's mission to illness, carried by quiet, long-term endurance rather than a loud
+        public fight.</p>
+        <p class="vb-intro"><strong>c) Why the blood, of all things, the very substance of fusion?</strong>
+        For a sexual Eight with a Nine-Wing whose entire work revolved around physical fusion
+        and boundary dissolution, one interpretation suggests itself: exactly an illness of
+        the blood – the substance that overcomes all boundaries and connects everything in
+        the body – became the site of their own physical breakdown. This reading is a
+        plausible interpretation, not a proven clinical causal link, and will be developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the sexual Eight's pattern inevitably leads to leukemia –
+        <strong>any person can develop any illness, regardless of subtype.</strong> What can
+        be shown in Genesis's case is a pattern in dealing with a progressive illness that
+        keeps recurring in a pronounced sexual Eight with a Nine-Wing – one of many possible
+        readings, not a verdict. The corresponding illness pattern is being developed
+        gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Genesis did not know their own pattern as an Enneagram structure – the sexual Eight
+        with a Nine-Wing reflexively clings to its own uncompromising stance, even toward
+        their own mortality, instead of pausing in time, and lived out exactly this pattern
+        unchanged until their final day. Anyone who does not recognize their own tendency to
+        refuse to acknowledge any boundary – including that of their own body – as a pattern
+        risks that the body ultimately sets the one boundary that can no longer be
+        dissolved.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Type 8 with Nine-Wing explains much about how <strong>Genesis
+        P-Orridge</strong> dealt with their own leukemia: an artist whose entire body of work
+        was devoted to dissolving boundaries met even the last, insurmountable boundary with
+        the same uncompromising intensity – the crocodile that did not lie still until the
+        last day, but kept working, while the illness itself became the final fusion of life
+        and work.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
+        {route:"krankheitsportraets-ruth-bader-ginsburg", label:"Illness Portrait: Ruth Bader Ginsburg (SX8w9) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx8", label:"Subtype Profile SX8"},
       ])}
     </div>
   `);
@@ -92093,6 +92265,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-angelina-jolie": angelinaJolieKrankheitsportraetPage,
       "krankheitsportraets-adele": adeleKrankheitsportraetPage,
       "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
+      "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
