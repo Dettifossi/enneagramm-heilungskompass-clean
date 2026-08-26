@@ -24048,6 +24048,7 @@ const registerEntries = [
   { term: "Friedensreich Hundertwasser Krankheitsporträt", route: "krankheitsportraets-hundertwasser", description: "Portrait: SX9w8 · Sexueller Typ 9 · Chronisches Herzleiden, Tod an Bord der Queen Elizabeth 2" },
   { term: "Sadhguru Krankheitsporträt", route: "krankheitsportraets-sadhguru", description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Chronisches subdurales Hämatom, Notoperation März 2024" },
   { term: "Umberto Eco Krankheitsporträt", route: "krankheitsportraets-umberto-eco", description: "Portrait: SE8w7 · Selbsterhaltender Typ 8 · Bauchspeicheldrüsenkrebs, rund zwei Jahre privat gehalten" },
+  { term: "Greta Thunberg Krankheitsporträt", route: "krankheitsportraets-greta-thunberg", description: "Portrait: SE2w1 · Selbsterhaltender Typ 2 · Schwere Depression, Essstörung und selektiver Mutismus im Kindesalter" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32207,6 +32208,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexueller Typ 9", krankheit:"Chronisches Herzleiden, Tod durch Herzversagen an Bord der Queen Elizabeth 2", teaser:"SX9w8 – Maler und Architekt, 1928–2000. Jahrelanges, weitgehend verschwiegenes Herzleiden, keine schulmedizinische Behandlung, Tod am 19. Februar 2000 an Bord des Ozeandampfers Queen Elizabeth 2 auf dem Pazifik." , land:"Österreich", gender:"m", jahre:"1928–2000"},
   { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Selbsterhaltender Typ 3", krankheit:"Chronisches subdurales Hämatom, Notoperation im März 2024", teaser:"SE3w2 – Yogi, Guru und Bestsellerautor, geb. 1957. Wochenlange Kopfschmerzen, chronische Hirnblutung, Notoperation am 17. März 2024." , land:"Indien", gender:"m", jahre:"geb. 1957"},
   { route:"krankheitsportraets-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7", heading:"Dr. Umberto Eco – Selbsterhaltender Typ 8", krankheit:"Bauchspeicheldrüsenkrebs, rund zwei Jahre nahezu vollständig privat gehalten", teaser:"SE8w7 – Schriftsteller, Semiotiker und Philosoph, 1932–2016. Bauchspeicheldrüsenkrebs-Diagnose etwa zwei Jahre vor seinem Tod, unvermindertes literarisches Schaffen bis kurz vor dem Ende, Tod am 19. Februar 2016 in Mailand." , land:"Italien", gender:"m", jahre:"1932–2016"},
+  { route:"krankheitsportraets-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1", heading:"Greta Thunberg – Selbsterhaltender Typ 2", krankheit:"Schwere Depression, Essstörung und selektiver Mutismus im Kindesalter", teaser:"SE2w1 – Klimaaktivistin, geb. 2003. Schwere depressive Episode mit Essstörung und selektivem Mutismus im Alter von etwa elf Jahren, gefolgt von den Diagnosen Asperger-Syndrom und Zwangsstörung." , land:"Schweden", gender:"f", jahre:"geb. 2003"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -61118,6 +61120,7 @@ function gretaThunbergPortraitPage() {
         {route:"beruehmte-angelina-jolie", label:"Portr\u00e4t: Angelina Jolie (SO1w2)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portr\u00e4t: S\u00f8ren Kierkegaard (SE2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portr\u00e4t: Margot Friedl\u00e4nder (SE2w1)"},
+        {route:"krankheitsportraets-greta-thunberg", label:"Krankheitsportr\u00e4t: Greta Thunberg (SE2w1) \u2013 Depression und Essst\u00f6rung im Kindesalter"},
       ])}
     </div>
   `);
@@ -86620,6 +86623,176 @@ function umbertoEcoKrankheitsportraetPage() {
         {route:"beruehmte-umberto-eco", label:"Porträt: Umberto Eco (SE8w7)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se8", label:"Subtyp-Profil SE8"},
+      ])}
+    </div>
+  `);
+}
+
+function gretaThunbergKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-greta-thunberg-portrait.jpg" alt="Greta Thunberg" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Greta Thunberg</p>
+        <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel · geb. 2003</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Greta Thunberg</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-greta-thunberg">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur kurz erwähnt wird: eine schwere depressive Episode mit
+        Essstörung und selektivem Mutismus im Alter von etwa elf Jahren, mehrere Monate vor
+        der Diagnose von Asperger-Syndrom und Zwangsstörung.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Thunberg</strong> ist dem <strong>selbsterhaltenden Typ 2 mit Einserflügel</strong>
+        zugeordnet. Die SE2 nimmt Bedrohungen der eigenen Existenzgrundlage unmittelbar
+        körperlich wahr, statt sie zu abstrahieren; der Einserflügel bringt eine moralische
+        Klarheit hinzu, die keine Kompromisse zulässt. Genau diese Kombination – eine als
+        existenziell erlebte Bedrohung, gekoppelt mit der Unfähigkeit, sich mit einer aus
+        eigener Sicht unerträglichen Realität zu arrangieren – bestimmte den Verlauf ihrer
+        eigenen psychischen Krise.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Beginn im Alter von etwa acht Jahren:</strong>
+        Nach eigener und familiärer Schilderung begann Thunberg bereits im Grundschulalter
+        zu verstehen, welche Ausmaße der Klimawandel hat – ein Wissen, das sie zunehmend
+        belastete, während ihre Umgebung kaum reagierte.</p>
+        <p class="vb-intro"><strong>b) Zunehmender Rückzug im Alter von elf Jahren:</strong>
+        Um das Jahr 2014 verschlechterte sich ihr Zustand deutlich: Sie aß kaum noch, verlor
+        erheblich an Gewicht und sprach zeitweise fast gar nicht mehr.</p>
+        <p class="vb-intro"><strong>c) Diagnose einer schweren Depression:</strong>
+        Ärzte diagnostizierten eine schwere depressive Episode, begleitet von einer
+        Essstörung und selektivem Mutismus – einem Zustand, in dem Sprechen in bestimmten
+        Situationen nicht mehr möglich ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Monatelanger Schulausfall:</strong>
+        Über mehrere Monate hinweg konnte Thunberg nach Angaben ihrer Familie nicht regelmäßig
+        die Schule besuchen.</p>
+        <p class="vb-intro"><strong>b) Spätere Diagnose von Asperger-Syndrom und Zwangsstörung:</strong>
+        Im weiteren Verlauf wurden zusätzlich Asperger-Syndrom und eine Zwangsstörung
+        diagnostiziert – Diagnosen, die Thunberg später selbst öffentlich als Teil ihrer
+        Identität beschrieb, nicht als Makel.</p>
+        <p class="vb-intro"><strong>c) Familiäre Begleitung als zentraler Faktor:</strong>
+        Ihre Eltern, insbesondere ihre Mutter, beschrieben in einem gemeinsam verfassten
+        Buch ausführlich, wie die gesamte Familie ihren Alltag über Monate an Gretas Zustand
+        ausrichtete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Handeln als Ausweg aus der Krise:</strong>
+        Nach eigener Aussage begann sich ihr Zustand erst zu bessern, als sie begann, sich
+        aktiv für den Klimaschutz einzusetzen – zunächst innerhalb der Familie, dann
+        öffentlich.</p>
+        <p class="vb-intro"><strong>b) Der Schulstreik als konkretisierter Handlungsimpuls:</strong>
+        Der Schulstreik vor dem schwedischen Reichstag im August 2018 markierte den Punkt, an
+        dem aus innerer Belastung eine nach außen gerichtete, strukturierte Handlung wurde.</p>
+        <p class="vb-intro"><strong>c) Offener Umgang mit der eigenen Geschichte seither:</strong>
+        Anders als viele öffentliche Personen sprach Thunberg von Beginn an offen über diese
+        Krise, statt sie zu verschweigen oder zu verharmlosen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für ein selten offen thematisiertes Muster:</strong>
+        Thunbergs Offenheit über Depression, Essstörung und Neurodivergenz bei einer so
+        jungen, öffentlich extrem sichtbaren Person löste international Diskussionen über
+        psychische Gesundheit bei Jugendlichen aus.</p>
+        <p class="vb-intro"><strong>b) Verknüpfung von persönlicher Krise und politischem Engagement:</strong>
+        Für viele wurde ihre Geschichte zum Beispiel dafür, wie aus einer individuellen
+        psychischen Krise eine globale Bewegung entstehen kann, ohne dass die Krise selbst
+        verklärt wird.</p>
+        <p class="vb-intro"><strong>c) Anhaltende öffentliche Neugier auf ihre Diagnosen:</strong>
+        Bis heute wird Thunbergs Neurodivergenz in Medien immer wieder aufgegriffen – von ihr
+        selbst konsequent als Stärke, nicht als Einschränkung dargestellt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Existenzielle statt abstrakte Wahrnehmung der Bedrohung:</strong>
+        Die SE2-typische Unmittelbarkeit zeigte sich schon in der Kindheit: Der Klimawandel
+        war für die junge Greta keine ferne Nachricht, sondern eine körperlich spürbare
+        Bedrohung der eigenen Zukunft – genau jene Direktheit, die Jahre später ihre gesamte
+        öffentliche Sprache prägen sollte.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel und die Unmöglichkeit der Verdrängung:</strong>
+        Während andere Kinder das Wissen um den Klimawandel verdrängen oder relativieren
+        konnten, ließ der Einserflügel bei Thunberg keinen Kompromiss mit der als falsch
+        erkannten Realität zu – ein Muster, das die Krise verschärfte, bevor es später zur
+        Quelle ihrer Entschlossenheit wurde.</p>
+        <p class="vb-intro"><strong>c) Vom stummen Rückzug zur lauten Stimme:</strong>
+        Der selektive Mutismus – das Verstummen angesichts einer unerträglichen Realität –
+        und die spätere, weltweit gehörte Stimme sind zwei Seiten desselben Musters: Solange
+        keine Handlung möglich schien, verstummte sie; sobald Handlung möglich wurde, sprach
+        sie so klar wie kaum jemand sonst.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Stimme, die erst verstummte, bevor sie zur lautesten wurde:</strong>
+        Thunbergs gesamtes öffentliches Wirken beruht auf der Fähigkeit, unbequeme Wahrheiten
+        unmissverständlich auszusprechen – bevor sie diese Stimme fand, verlor sie sie
+        vollständig, als dieselbe Wahrheit noch keinen Ausweg zuließ.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet das Schweigen und der Hunger?</strong>
+        Für eine selbsterhaltende Zwei mit Einserflügel, deren gesamtes späteres Wirken auf
+        unmittelbarer, körperlich gespürter Dringlichkeit beruhte, liegt eine Deutung nahe:
+        Ausgerechnet die beiden Grundfunktionen, mit denen der Körper sich Gehör verschafft
+        – Sprechen und Essen – wurden vorübergehend zum Ort, an dem sich die als unerträglich
+        erlebte Bedrohung ausdrückte. Diese Deutung ist eine plausible Interpretation, kein
+        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu
+        Depression und Essstörung führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Thunbergs Fall zeigen lässt,
+        ist ein Muster im Umgang mit einer als existenziell erlebten Bedrohung, das bei einer
+        ausgeprägten selbsterhaltenden Zwei mit Einserflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Thunberg kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die selbsterhaltende
+        Zwei mit Einserflügel erlebt Bedrohungen der eigenen Existenzgrundlage reflexhaft als
+        unmittelbar körperlich, statt frühzeitig einen Ausgleich zwischen Dringlichkeit und
+        Selbstfürsorge zu finden, und lebt genau dieses Muster bis heute weitgehend
+        unverändert aus. Wer die eigene Neigung, existenzielle Bedrohungen ungefiltert am
+        eigenen Körper auszutragen, nicht als Muster erkennt, riskiert, dass sich die Krise
+        wiederholt, sobald keine Handlungsmöglichkeit mehr sichtbar ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 2 mit Einserflügel erklärt bei <strong>Greta Thunberg</strong>
+        vieles am Verlauf ihrer psychischen Krise: ein Mädchen, das eine globale Bedrohung so
+        unmittelbar körperlich erlebte wie kaum jemand sonst, verstummte zunächst vollständig
+        – und fand seine Stimme erst wieder, als aus stiller Verzweiflung konkretes Handeln
+        wurde. Das Flusspferd, das erst regungslos im Wasser verharrte, bevor es den ganzen
+        Strom umlenkte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
     </div>
   `);
@@ -127224,6 +127397,7 @@ function render() {
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
       "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
       "krankheitsportraets-umberto-eco": umbertoEcoKrankheitsportraetPage,
+      "krankheitsportraets-greta-thunberg": gretaThunbergKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,

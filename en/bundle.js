@@ -249,6 +249,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexual Type 9", krankheit:"Chronic heart disease, died of heart failure aboard the Queen Elizabeth 2", teaser:"SX9w8 – painter and architect, 1928–2000. Years-long, largely undisclosed heart condition, no conventional medical treatment, died on 19 February 2000 aboard the ocean liner Queen Elizabeth 2 on the Pacific." , land:"Austria", gender:"m", jahre:"1928–2000"},
   { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Self-Preservation Type 3", krankheit:"Chronic subdural hematoma, emergency surgery in March 2024", teaser:"SE3w2 – yogi, guru, and bestselling author, b. 1957. Weeks of headaches, chronic brain bleed, emergency surgery on 17 March 2024." , land:"India", gender:"m", jahre:"b. 1957"},
   { route:"krankheitsportraets-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7", heading:"Dr. Umberto Eco – Self-Preservation Type 8", krankheit:"Pancreatic cancer, kept almost entirely private for about two years", teaser:"SE8w7 – writer, semiotician, and philosopher, 1932–2016. Pancreatic cancer diagnosis about two years before his death, undiminished literary output until shortly before the end, died on 19 February 2016 in Milan." , land:"Italy", gender:"m", jahre:"1932–2016"},
+  { route:"krankheitsportraets-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1", heading:"Greta Thunberg – Self-Preservation Type 2", krankheit:"Severe depression, eating disorder, and selective mutism in childhood", teaser:"SE2w1 – climate activist, b. 2003. Severe depressive episode with an eating disorder and selective mutism at around age eleven, followed by diagnoses of Asperger's syndrome and OCD." , land:"Sweden", gender:"f", jahre:"b. 2003"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -37764,6 +37765,7 @@ function gretaThunbergPortraitPage() {
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
+        {route:"krankheitsportraets-greta-thunberg", label:"Illness Portrait: Greta Thunberg (SE2w1) – depression and eating disorder in childhood"},
       ])}
     </div>
   `);
@@ -58130,6 +58132,168 @@ function umbertoEcoKrankheitsportraetPage() {
         {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se8", label:"Subtype Profile SE8"},
+      ])}
+    </div>
+  `);
+}
+
+function gretaThunbergKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-greta-thunberg-portrait.jpg" alt="Greta Thunberg" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Greta Thunberg</p>
+        <p class="krim-portrait-typ">SE2w1 · Self-Preservation Type 2 with One-Wing · b. 2003</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Greta Thunberg</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-greta-thunberg">Famous Personalities
+        portrait</a>. This page delves into a chapter only briefly mentioned there: a severe
+        depressive episode with an eating disorder and selective mutism at around age eleven,
+        months before she was diagnosed with Asperger's syndrome and OCD.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Thunberg</strong> is assigned to the <strong>self-preservation Type 2 with
+        One-Wing</strong>. The SE2 experiences threats to its own foundation of existence
+        immediately and physically rather than abstracting them; the One-Wing adds a moral
+        clarity that allows no compromise. Exactly this combination – a threat experienced as
+        existential, coupled with the inability to make peace with a reality perceived as
+        unbearable – shaped the course of her own psychological crisis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Onset around age eight:</strong>
+        By her own and her family's account, Thunberg began understanding the scale of
+        climate change already in primary school – knowledge that increasingly burdened her
+        while those around her barely reacted.</p>
+        <p class="vb-intro"><strong>b) Growing withdrawal around age eleven:</strong>
+        Around 2014 her condition deteriorated markedly: she barely ate, lost significant
+        weight, and at times stopped speaking almost entirely.</p>
+        <p class="vb-intro"><strong>c) Diagnosis of severe depression:</strong>
+        Doctors diagnosed a severe depressive episode accompanied by an eating disorder and
+        selective mutism – a condition in which speaking becomes impossible in certain
+        situations.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Months of missed school:</strong>
+        According to her family, Thunberg was unable to attend school regularly for several
+        months.</p>
+        <p class="vb-intro"><strong>b) Later diagnosis of Asperger's syndrome and OCD:</strong>
+        As the situation progressed, Asperger's syndrome and obsessive-compulsive disorder
+        were additionally diagnosed – diagnoses that Thunberg later publicly described as
+        part of her identity, not a flaw.</p>
+        <p class="vb-intro"><strong>c) Family involvement as a central factor:</strong>
+        Her parents, especially her mother, described in detail in a jointly written book how
+        the entire family organized its daily life around Greta's condition for months.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Action as a way out of the crisis:</strong>
+        By her own account, her condition began to improve only once she started actively
+        engaging with climate protection – first within the family, then publicly.</p>
+        <p class="vb-intro"><strong>b) The school strike as the concretized impulse to act:</strong>
+        The school strike in front of the Swedish parliament in August 2018 marked the point
+        where inner burden turned into structured, outward-directed action.</p>
+        <p class="vb-intro"><strong>c) Open handling of her own history since then:</strong>
+        Unlike many public figures, Thunberg spoke openly about this crisis from the start,
+        rather than concealing or minimizing it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide attention for a rarely openly discussed pattern:</strong>
+        Thunberg's openness about depression, an eating disorder, and neurodivergence in
+        someone so young and extremely publicly visible sparked international discussions
+        about mental health in adolescents.</p>
+        <p class="vb-intro"><strong>b) Linking a personal crisis with political engagement:</strong>
+        For many, her story became an example of how an individual psychological crisis can
+        grow into a global movement without the crisis itself being glorified.</p>
+        <p class="vb-intro"><strong>c) Continued public curiosity about her diagnoses:</strong>
+        To this day, Thunberg's neurodivergence keeps being picked up by the media – always
+        presented by her consistently as a strength, not a limitation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Existential rather than abstract perception of the threat:</strong>
+        The SE2's characteristic immediacy showed already in childhood: climate change was
+        not a distant piece of news for young Greta but a physically felt threat to her own
+        future – exactly the directness that, years later, would shape her entire public
+        voice.</p>
+        <p class="vb-intro"><strong>b) The One-Wing and the impossibility of denial:</strong>
+        While other children could push away or relativize the knowledge of climate change,
+        the One-Wing allowed Thunberg no compromise with a reality recognized as wrong – a
+        pattern that deepened the crisis before it later became the source of her
+        determination.</p>
+        <p class="vb-intro"><strong>c) From silent withdrawal to a loud voice:</strong>
+        Selective mutism – falling silent in the face of an unbearable reality – and the
+        globally heard voice that followed are two sides of the same pattern: as long as no
+        action seemed possible, she fell silent; once action became possible, she spoke as
+        clearly as almost no one else.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A voice that fell silent before becoming the loudest:</strong>
+        Thunberg's entire public work rests on the ability to state uncomfortable truths
+        unmistakably – before she found that voice, she lost it entirely, at a time when the
+        same truth still offered no way out.</p>
+        <p class="vb-intro"><strong>b) Why silence and hunger, of all things?</strong>
+        For a self-preservation Two with a One-Wing whose entire later work rested on
+        immediate, physically felt urgency, one interpretation suggests itself: exactly the
+        two basic functions through which the body makes itself heard – speaking and eating –
+        temporarily became the site where the threat, experienced as unbearable, expressed
+        itself. This reading is a plausible interpretation, not a proven clinical causal
+        link, and will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Classification without determinism:</strong>
+        This does not mean that the self-preservation Two's pattern inevitably leads to
+        depression and eating disorders – <strong>any person can develop any illness,
+        regardless of subtype.</strong> What can be shown in Thunberg's case is a pattern in
+        dealing with a threat experienced as existential that keeps recurring in a pronounced
+        self-preservation Two with a One-Wing – one of many possible readings, not a verdict.
+        The corresponding illness pattern is being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Thunberg does not know her own pattern as an Enneagram structure – the
+        self-preservation Two with a One-Wing reflexively experiences threats to its own
+        foundation of existence as immediately physical, instead of finding an early balance
+        between urgency and self-care, and lives out exactly this pattern largely unchanged
+        to this day. Anyone who does not recognize their own tendency to bear existential
+        threats unfiltered in their own body as a pattern risks that the crisis repeats
+        itself once no possibility for action remains visible.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 2 with One-Wing explains much about the course of
+        <strong>Greta Thunberg's</strong> psychological crisis: a girl who experienced a
+        global threat as immediately and physically as almost no one else fell completely
+        silent at first – and only found her voice again once quiet despair turned into
+        concrete action. The hippopotamus that first stood motionless in the water before
+        redirecting the entire current.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se2", label:"Subtype Profile SE2"},
       ])}
     </div>
   `);
@@ -91250,6 +91414,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
       "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
       "krankheitsportraets-umberto-eco": umbertoEcoKrankheitsportraetPage,
+      "krankheitsportraets-greta-thunberg": gretaThunbergKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
