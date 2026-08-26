@@ -41509,7 +41509,7 @@ function enneagrammReflexzonentherapiePage() {
         <div class="vb-section" style="max-width:100%;">
           <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 1rem;color:var(--ink);">A Summarizing View and the Next Step</h2>
           <p class="vb-intro">Foot and hand thus tell the same story on two different levels: the foot as the large, load-bearing basic map of the whole body, the hand as a finer, more active reflection of the same three centers. Anyone who consciously links their own reflexology massage to their own Enneagram type can, almost incidentally, feel which center currently holds the most tension – a small, physical reality check for one's own basic pattern.</p>
-          <p class="vb-intro" style="margin-bottom:0;">For the practical implementation – with a spiky massage ball, cork or wooden roller, and concrete techniques for foot and hand – see the instructions in the Practitioner Tips: <a href="#" data-route="praxistipps-heilpraktiker/fussreflexzonen-aktivierung" style="color:var(--copper);text-decoration:underline;">Foot Reflex Zone Activation</a>.</p>
+          <p class="vb-intro" style="margin-bottom:0;">For the practical implementation – with a spiky massage ball, cork or wooden roller, and concrete techniques for foot and hand – see the instructions in the Practitioner Tips: <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/fussreflexzonen-aktivierung" style="color:var(--copper);text-decoration:underline;">Foot Reflex Zone Activation</a>.</p>
         </div>
 
         ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
