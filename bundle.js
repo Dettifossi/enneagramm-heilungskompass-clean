@@ -24042,7 +24042,7 @@ const registerEntries = [
   { term: "Anthony Hopkins Krankheitsporträt", route: "krankheitsportraets-anthony-hopkins", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Alkoholerkrankung, nüchtern seit 1975" },
   { term: "Byron Katie Krankheitsporträt", route: "krankheitsportraets-byron-katie", description: "Portrait: SX6w7 · Sexueller Typ 6 · Zehn Jahre Depression und Agoraphobie" },
   { term: "Drew Barrymore Krankheitsporträt", route: "krankheitsportraets-drew-barrymore", description: "Portrait: SO7w8 · Sozialer Typ 7 · Kindheitssucht" },
-  { term: "Neil Armstrong Krankheitsporträt", route: "krankheitsportraets-neil-armstrong", description: "Portrait: SE6w7 · Selbsterhaltender Typ 6 · Über zwei Jahrzehnte koronare Herzkrankheit" },
+  { term: "Neil Armstrong Krankheitsporträt", route: "krankheitsportraets-neil-armstrong", description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · Über zwei Jahrzehnte koronare Herzkrankheit" },
   { term: "Robbie Williams Krankheitsporträt", route: "krankheitsportraets-robbie-williams", description: "Portrait: SX1w2 · Sexueller Typ 1 · Jahrzehntelange Depression und Suchterkrankung" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
@@ -24554,7 +24554,7 @@ const registerEntries = [
   { term: "Fritz Perls",                   route: "beruehmte-fritz-perls",                 description: "Portrait: SO8w7 · Sozialer Typ 8 · Psychiater, Mitbegründer der Gestalttherapie" },
   { term: "Michelle Obama",                route: "beruehmte-michelle-obama",              description: "Portrait: SO8w7 · Sozialer Typ 8 · Ex-First-Lady, Autorin, Bildungsaktivistin" },
   { term: "Monika Gruber",                 route: "beruehmte-monika-gruber",               description: "Portrait: SX2w1 · Sexueller Typ 2 · Kabarettistin, Herzwärme & Leidenschaft" },
-  { term: "Neil Armstrong",                route: "beruehmte-neil-armstrong",              description: "Portrait: SE6w7 · Selbsterhaltender Typ 6 · erster Mensch auf dem Mond, 1969" },
+  { term: "Neil Armstrong",                route: "beruehmte-neil-armstrong",              description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · erster Mensch auf dem Mond, 1969" },
   { term: "Nina Chuba",                    route: "beruehmte-nina-chuba",                  description: "Portrait: SO2w3 · Sozialer Typ 2 · Sängerin, Songwriterin, Authentizität" },
   { term: "Madame Tussaud",                route: "beruehmte-madame-tussaud",               description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Wachsbildnerin, Museumsgründerin" },
   { term: "Osho",                          route: "beruehmte-osho",                        description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Mystiker, Kommune-Gründer, Autor" },
@@ -25045,7 +25045,7 @@ const registerEntriesEN = [
   { term: "Fritz Perls", route: "beruehmte-fritz-perls", description: "Portrait: SO8w7 · Social Type 8 · Psychiatrist, co-founder of Gestalt therapy" },
   { term: "Michelle Obama", route: "beruehmte-michelle-obama", description: "Portrait: SO8w7 · Social Type 8 · Former First Lady, Author, Education activist" },
   { term: "Monika Gruber", route: "beruehmte-monika-gruber", description: "Portrait: SX2w1 · Sexual Type 2 · Comedian, warmth of heart & passion" },
-  { term: "Neil Armstrong", route: "beruehmte-neil-armstrong", description: "Portrait: SE6w7 · Self-Preservation Type 6 · first human on the Moon, 1969" },
+  { term: "Neil Armstrong", route: "beruehmte-neil-armstrong", description: "Portrait: SE6w5 · Self-Preservation Type 6 · first human on the Moon, 1969" },
   { term: "Nina Chuba", route: "beruehmte-nina-chuba", description: "Portrait: SO2w3 · Social Type 2 · Singer, songwriter, authenticity" },
   { term: "Madame Tussaud", route: "beruehmte-madame-tussaud", description: "Portrait: SP3w4 · Self-Preservation Type 3 · Wax sculptor, museum founder" },
   { term: "Osho", route: "beruehmte-osho", description: "Portrait: SE3w4 · Self-Preservation Type 3 · Mystic, commune founder, author" },
@@ -32197,7 +32197,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-anthony-hopkins", name:"Anthony Hopkins", subtyp:"SE1w9", heading:"Anthony Hopkins – Selbsterhaltender Typ 1", krankheit:"Alkoholerkrankung, nüchtern seit 1975", teaser:"SE1w9 – Schauspieler, geb. 1937. Schwere Alkoholerkrankung bis zu einem Wendepunkt 1975, seither nach eigenen Angaben ununterbrochen nüchtern – über fünf Jahrzehnte." , land:"Vereinigtes Königreich/USA", gender:"m", jahre:"geb. 1937"},
   { route:"krankheitsportraets-byron-katie", name:"Byron Katie", subtyp:"SX6w7", heading:"Byron Katie – Sexueller Typ 6", krankheit:"Zehn Jahre schwere Depression und Agoraphobie, Wendepunkt 1986", teaser:"SX6w7 – Autorin, Begründerin von 'The Work', geb. 1942. Rund zehn Jahre schwere Depression und Agoraphobie, 1986 entscheidender Wendepunkt in einer Klinik, aus dem ihre spätere Methode entstand." , land:"USA", gender:"f", jahre:"geb. 1942"},
   { route:"krankheitsportraets-drew-barrymore", name:"Drew Barrymore", subtyp:"SO7w8", heading:"Drew Barrymore – Sozialer Typ 7", krankheit:"Kindheitssucht, Klinikeinweisung 1988 im Alter von 13 Jahren", teaser:"SO7w8 – Schauspielerin, geb. 1975. Bereits im Kindesalter beginnende Alkohol- und Drogensucht, 1988 im Alter von 13 Jahren in eine Entzugsklinik eingewiesen, mit 14 Jahren rechtlich von den Eltern emanzipiert." , land:"USA", gender:"f", jahre:"geb. 1975"},
-  { route:"krankheitsportraets-neil-armstrong", name:"Neil Armstrong", subtyp:"SE6w7", heading:"Neil Armstrong – Selbsterhaltender Typ 6", krankheit:"Über zwei Jahrzehnte koronare Herzkrankheit, Tod nach Bypass-Operation", teaser:"SE6w7 – Astronaut, erster Mensch auf dem Mond, 1930–2012. Herzinfarkt 1991, über zwei Jahrzehnte fortschreitende koronare Herzkrankheit, Notfall-Vierfach-Bypass-Operation im August 2012, starb wenige Tage später an Komplikationen." , land:"USA", gender:"m", jahre:"1930–2012"},
+  { route:"krankheitsportraets-neil-armstrong", name:"Neil Armstrong", subtyp:"SE6w5", heading:"Neil Armstrong – Selbsterhaltender Typ 6", krankheit:"Über zwei Jahrzehnte koronare Herzkrankheit, Tod nach Bypass-Operation", teaser:"SE6w5 – Astronaut, erster Mensch auf dem Mond, 1930–2012. Herzinfarkt 1991, über zwei Jahrzehnte fortschreitende koronare Herzkrankheit, Notfall-Vierfach-Bypass-Operation im August 2012, starb wenige Tage später an Komplikationen." , land:"USA", gender:"m", jahre:"1930–2012"},
   { route:"krankheitsportraets-robbie-williams", name:"Robbie Williams", subtyp:"SX1w2", heading:"Robbie Williams – Sexueller Typ 1", krankheit:"Jahrzehntelange Depression und Suchterkrankung (Alkohol, Kokain, Ecstasy)", teaser:"SX1w2 – Musiker, geb. 1974. Seit den frühen 1990er-Jahren schwere Depression und Suchterkrankung, mehrere Entzugsbehandlungen, 2023 in vierteiliger Netflix-Dokumentation ausführlich aufgearbeitet." , land:"Vereinigtes Königreich", gender:"m", jahre:"geb. 1974"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
@@ -33192,9 +33192,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Klaus J. Behrendt \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w5 \u00b7 geb. 1953. Schauspieler, seit 1997 \u00bbKommissar Schenk\u00ab im K\u00f6lner Tatort. Das Kaninchen mit F\u00fcnferfl\u00fcgel: wachsam, nachdenklich, offen \u00fcber eigene Selbstzweifel \u2013 der ruhende, w\u00e4gende Gegenpol zu seinem Tatort-Partner Ballauf.",
     land:"Deutschland", tags:["Film","Fernsehen"], gender:"m"},
-  { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
+  { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w5",
     heading:"Neil Armstrong \u2013 Selbsterhaltender Typ 6",
-    teaser:"SE6w7 \xb7 1930\u20132012. Pilot, Astronaut. Erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den au\xdferordentlichsten Schritt der Menschheitsgeschichte tat \u2013 und danach nur noch nach Hause wollte.",
+    teaser:"SE6w5 \xb7 1930\u20132012. Pilot, Astronaut. Erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den au\xdferordentlichsten Schritt der Menschheitsgeschichte tat \u2013 und danach nur noch nach Hause wollte.",
     land:"USA", tags:["Geschichte","Wissenschaft","Astronaut"], gender:"m"},
   { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet \u2013 Selbsterhaltender Typ 6",
@@ -57780,7 +57780,7 @@ function woodyAllenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-beatrice-chebet", label:"Portr\u00e4t: Beatrice Chebet (SE6w7)"},
-        {route:"beruehmte-neil-armstrong", label:"Portr\u00e4t: Neil Armstrong (SE6w7)"},
+        {route:"beruehmte-neil-armstrong", label:"Portr\u00e4t: Neil Armstrong (SE6w5)"},
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsportr\u00e4t: Woody Allen (SE6w7) \u2013 lebenslange Hypochondrie"},
       ])}
     </div>
@@ -57797,7 +57797,7 @@ function neilArmstrongPortraitPage() {
           <img src="./assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Neil Armstrong – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Neil Armstrong</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenfl\xfcgel</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\xfcnferfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Pilot, Astronaut, erster Mensch auf dem Mond, 1930&ndash;2012 &ndash; Tierentsprechung: Kaninchen</p>
       </div>
       <div class="page-content">
@@ -57815,11 +57815,11 @@ function neilArmstrongPortraitPage() {
           <p class="vb-intro">Seine Kollegen beschrieben ihn als ruhig, zuverl\xe4ssig und sachlich. Er sprach wenig in kritischen Situationen &ndash; und wenn, dann pr\xe4zise. Beim Anflug auf den Mond reagierte der Bordcomputer mit Fehlermeldungen, der Landeplatz erwies sich als Felsfeld. Armstrong \xfcbernahm manuell die Steuerung, suchte ruhig eine sichere Stelle &ndash; und landete mit einem Treibstoffvorrat, der f\xfcr weniger als drei\u00dfig Sekunden gereicht h\xe4tte. Keine Panik, kein Drama. Das ist die SE6 in H\xf6chstform: Sicherheit durch Kompetenz, Ruhe als Schutzprinzip.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Siebenfl\xfcgel: Der Mut des Abenteurers</h2>
+        <h2 class="vb-section">3. Der Fünferflügel: Meisterschaft durch Wissen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenfl\xfcgel (w7)</strong> bringt dem selbsterhaltenden Sechser etwas, das eine SE6 mit schwach ausgeprägtem Siebenerflügel allein nicht entwickeln würde: Abenteuerlust, Begeisterung und die Bereitschaft, ins Unbekannte aufzubrechen. Wo die SE6 Sicherheit sucht, \xf6ffnet der Siebenfl\xfcgel die T\xfcr zur Weite. Das Ergebnis ist ein Mensch, der das Vertraute liebt &ndash; und trotzdem dorthin geht, wo noch niemand war.</p>
-          <p class="vb-intro">Armstrong flog mit sechs Jahren zum ersten Mal &ndash; mit seinem Vater in einem Ford Trimotor &ndash; einem dreimotorigen Passagierflugzeug, das in den 1920er-Jahren in den USA weit verbreitet war. Seitdem wollte er Pilot werden. Mit sechzehn hatte er seinen Flugschein, bevor er den F\xfchrerschein besa\u00df. Er flog im Koreakrieg sechsundsiebzig Kampfeins\xe4tze. Er wurde Testpilot und flog die X-15 auf eine H\xf6he von \xfcber 60 Kilometern &ndash; an der Grenze zum Weltraum. Jeder dieser Schritte war k\xfchn. Keiner davon war leichtfertig. Das ist die SE6w7: Mut, der auf Vorbereitung aufbaut, nicht auf Unvorsichtigkeit.</p>
-          <p class="vb-intro">1966 flog er mit Gemini 8 das erste erfolgreiche Andockman\xf6ver zweier Raumschiffe im Weltraum durch &ndash; und rettete die Mission, als das Raumschiff in eine unkontrollierte Rollbewegung geriet, indem er k\xfchlen Kopf behielt und die richtige Entscheidung in Sekunden traf. Der Siebenfl\xfcgel gibt dem Kaninchen Fl\xfcgel. Aber das Kaninchen bleibt geerdet.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt dem selbsterhaltenden Sechser eine charakteristische Tiefe: den Rückzug ins Fachliche, den Hunger nach technischer Beherrschung, die Überzeugung, dass Sicherheit vor allem durch präzises Wissen und gründliche Vorbereitung entsteht, nicht durch soziale Nähe allein. Die SE6w5 öffnet sich der Welt nicht durch Begeisterung, sondern durch Kompetenz – und genau darin liegt bei Armstrong der Schlüssel zu seinem gesamten Leben.</p>
+          <p class="vb-intro">Armstrong flog mit sechs Jahren zum ersten Mal – mit seinem Vater in einem Ford Trimotor – einem dreimotorigen Passagierflugzeug, das in den 1920er-Jahren in den USA weit verbreitet war. Seitdem wollte er Pilot werden, und er näherte sich diesem Ziel wie ein Fünfer: systematisch, technisch, über Wissen statt über Impuls. Mit sechzehn hatte er seinen Flugschein, bevor er den Führerschein besaß. Er studierte Luft- und Raumfahrttechnik, flog im Koreakrieg sechsundsiebzig Kampfeinsätze und wurde Testpilot, der die X-15 auf eine Höhe von über 60 Kilometern flog – an der Grenze zum Weltraum. Sich selbst beschrieb er treffend als "weiße-Socken-Taschenrechner-Ingenieur" – kein Abenteurer, sondern ein Techniker, der sich in immer riskantere Fluggeräte hineinarbeitete, weil er sie bis ins letzte Detail verstand. Das ist die SE6w5: Mut, der aus Beherrschung entsteht, nicht aus Begeisterung.</p>
+          <p class="vb-intro">1966 flog er mit Gemini 8 das erste erfolgreiche Andockmanöver zweier Raumschiffe im Weltraum durch – und rettete die Mission, als das Raumschiff in eine unkontrollierte Rollbewegung geriet, indem er kühlen Kopf behielt und in Sekunden die technisch richtige Entscheidung traf. Kein spontaner Instinkt, sondern jahrelang eingeübtes Ingenieurswissen, das im entscheidenden Moment abrufbar war. Der Fünferflügel gibt dem Kaninchen kein Fernweh – er gibt ihm die Tiefe, mit der es sich jedem neuen Fachgebiet vollständig aneignet.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Einundzwanzig Stunden auf dem Mond</h2>
@@ -57832,7 +57832,7 @@ function neilArmstrongPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten: Der ber\xfchmteste Unbekannte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE6w7 ist ihre <strong>Integrit\xe4t</strong>. Armstrong h\xe4tte reich werden k\xf6nnen &ndash; durch Werbevertr\xe4ge, durch Auftritte, durch seinen Namen. Er lehnte fast alles ab. Als er herausfand, dass seine Unterschrift f\xfcr Tausende von Dollar verkauft wurde, h\xf6rte er auf, Autogramme zu geben. Als ein Friseur ein Kl\xfcmpchen seiner Haare nach dem Haarschnitt verkaufte, drohte Armstrong mit einer Klage, wenn das Geld nicht einer Wohlt\xe4tigkeitsorganisation gespendet w\xfcrde. Er meinte es ernst.</p>
+          <p class="vb-intro">Das Licht der SE6w5 ist ihre <strong>Integrit\xe4t</strong>. Armstrong h\xe4tte reich werden k\xf6nnen &ndash; durch Werbevertr\xe4ge, durch Auftritte, durch seinen Namen. Er lehnte fast alles ab. Als er herausfand, dass seine Unterschrift f\xfcr Tausende von Dollar verkauft wurde, h\xf6rte er auf, Autogramme zu geben. Als ein Friseur ein Kl\xfcmpchen seiner Haare nach dem Haarschnitt verkaufte, drohte Armstrong mit einer Klage, wenn das Geld nicht einer Wohlt\xe4tigkeitsorganisation gespendet w\xfcrde. Er meinte es ernst.</p>
           <p class="vb-intro">Der Schatten: Die SE6 kann in der R\xfcckzugstendenz erstarren. Armstrong wurde nach dem Mondflug so still, dass manche fragten, ob er depressiv sei. Er sprach kaum \xfcber das Erlebnis &ndash; nicht weil es ihn nicht ber\xfchrt h\xe4tte, sondern weil er keine Worte daf\xfcr fand, die der Wirklichkeit gerecht wurden. Ein einziges Mal, in einem Interview kurz vor seinem Tod, gestand er: <em>Es war die gr\u00f6\u00dfte Erfahrung meines Lebens. Und ich kann sie noch heute nicht wirklich erkl\xe4ren.</em> Das ist die SE6: Was zu gro\xdf ist f\xfcr Worte, bleibt im Inneren.</p>
           <p class="vb-intro">Seine Tochter Karen starb 1962 im Alter von zwei Jahren an einem Gehirntumor. Armstrong hat dar\xfcber kaum je \xf6ffentlich gesprochen. Nur einmal sagte er, dass er nach ihrem Tod begann, besonders fr\xfch morgens aufzustehen &ndash; bevor alle anderen wach waren &ndash; um allein zu sein. Das Kaninchen zieht sich zur\xfcck, wenn der Schmerz zu gro\xdf ist. Und tr\xe4gt ihn still.</p>
         </blockquote>
@@ -57841,7 +57841,7 @@ function neilArmstrongPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Neil Armstrong starb am 25. August 2012 in Cincinnati, Ohio &ndash; nach Komplikationen einer Herzbypassoperation. Er wurde zweiundachtzig Jahre alt. Sein letztes Jahrzehnt verbrachte er weitgehend auf seiner Farm in Lebanon, Ohio. Gartenarbeit, Landwirtschaft, der Alltag eines Mannes, der nicht gro\xdf war, weil er es wollte, sondern weil die Geschichte ihn dazu gemacht hatte.</p>
           <p class="vb-intro">Seine Familie ver\xf6ffentlichte nach seinem Tod eine Erkl\xe4rung, die mit einem Satz endete, der Armstrong so gut beschreibt wie kaum ein anderer: <em>Wenn ihr ihn ehren wollt, dann schaut beim n\xe4chsten klaren Abend zum Mond hinauf, winkt und denkt an Neil Armstrong.</em></p>
-          <p class="vb-intro">Das ist die SE6w7: Ein Mensch, der das Gr\xf6\xdfte tat, was ein Mensch bis dahin je getan hatte &ndash; und danach nur noch eines wollte: nach Hause. Das Kaninchen hat den Mond betreten. Und ist zur\xfcckgekehrt, dorthin, wo es hingeh\xf6rte.</p>
+          <p class="vb-intro">Das ist die SE6w5: Ein Mensch, der das Gr\xf6\xdfte tat, was ein Mensch bis dahin je getan hatte &ndash; und danach nur noch eines wollte: nach Hause. Das Kaninchen hat den Mond betreten. Und ist zur\xfcckgekehrt, dorthin, wo es hingeh\xf6rte.</p>
         </blockquote>
 
       </div>
@@ -57852,8 +57852,9 @@ function neilArmstrongPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-woody-allen", label:"Portr\xe4t: Woody Allen (SE6w7)"},
-        {route:"krankheitsportraets-neil-armstrong", label:"Krankheitsporträt: Neil Armstrong (SE6w7) – jahrzehntelange Herzkrankheit im Verborgenen"},
+        {route:"krankheitsportraets-neil-armstrong", label:"Krankheitsporträt: Neil Armstrong (SE6w5) – jahrzehntelange Herzkrankheit im Verborgenen"},
       ])}
     </div>
   `);
@@ -83952,7 +83953,7 @@ function woodyAllenKrankheitsportraetPage() {
         {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7) – das Kaninchen"},
         {route:"krankheitsportraets-immanuel-kant", label:"Krankheitsporträt: Immanuel Kant (SO6w5) – verwandte Hypochondrie, andere Instinktantwort"},
         {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5)"},
-        {route:"krankheitsportraets-neil-armstrong", label:"Krankheitsporträt: Neil Armstrong (SE6w7) – dieselbe Grundstruktur, entgegengesetzte Richtung"},
+        {route:"krankheitsportraets-neil-armstrong", label:"Krankheitsporträt: Neil Armstrong (SE6w5) – gleicher Kerntyp, entgegengesetzter Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se6", label:"Subtyp-Profil SE6"},
       ])}
@@ -85431,7 +85432,7 @@ function neilArmstrongKrankheitsportraetPage() {
           <img src="./assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Neil Armstrong" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Neil Armstrong</p>
-        <p class="krim-portrait-typ">SE6w7 · Selbsterhaltender Typ 6 mit Siebenerflügel · 1930–2012</p>
+        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel · 1930–2012</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Tierentsprechung: Kaninchen</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
@@ -85451,12 +85452,13 @@ function neilArmstrongKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Armstrong</strong> ist dem <strong>selbsterhaltenden Typ 6 mit
-        Siebenerflügel</strong> zugeordnet. Die SE6 sucht Sicherheit durch Routine und
-        ein vertrautes, kontrolliertes Umfeld; der Siebenerflügel bringt die Fähigkeit
-        hinzu, mit Rückschlägen leicht und unaufgeregt umzugehen. Genau diese
-        Kombination – ein ruhiges, zurückgezogenes Leben ohne öffentliche
-        Dramatisierung – bestimmte, wie Armstrong mit seiner jahrelangen Herzkrankheit
-        umging.</p>
+        Fünferflügel</strong> zugeordnet. Die SE6 sucht Sicherheit durch Routine und
+        ein vertrautes, kontrolliertes Umfeld; der Fünferflügel bringt den Rückzug ins
+        Fachliche und die Überzeugung hinzu, dass Sicherheit vor allem durch Wissen und
+        Beherrschung entsteht, nicht durch soziale Offenlegung. Genau diese Kombination –
+        ein ruhiges, zurückgezogenes Leben, in dem selbst die eigene Erkrankung als
+        rein technisches, privat zu lösendes Problem behandelt wird – bestimmte, wie
+        Armstrong mit seiner jahrelangen Herzkrankheit umging.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -85520,14 +85522,16 @@ function neilArmstrongKrankheitsportraetPage() {
         Dieselbe SE6-Neigung, Sicherheit im Vertrauten und Zurückgezogenen zu suchen, die
         Armstrongs gesamtes Leben nach 1969 prägte, bestimmte auch, wie wenig über seine
         eigentliche Herzerkrankung nach außen drang.</p>
-        <p class="vb-intro"><strong>b) Der Siebenerflügel und die unaufgeregte Hinnahme des Risikos:</strong>
-        Die Leichtigkeit des Siebenerflügels zeigte sich darin, dass Armstrong sich der
-        riskanten Operation offenbar ohne öffentlich sichtbares Drama unterzog –
-        praktisch, sachlich, ohne große Inszenierung.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel und die Behandlung der eigenen Krankheit als Fachfrage:</strong>
+        Der Rückzug ins Fachliche, den der Fünferflügel mitbringt, zeigte sich darin,
+        dass Armstrong sich der riskanten Operation offenbar wie einem technischen
+        Problem näherte – sachlich, ohne öffentlich sichtbares Drama, ohne emotionale
+        Inszenierung.</p>
         <p class="vb-intro"><strong>c) Kontrolle durch Zurückhaltung statt durch Offenlegung:</strong>
         Anders als andere SE6-Porträts dieses Kompasses, die ihre Angst in Sprache
         übersetzen, kontrollierte Armstrong seine eigene Verletzlichkeit vor allem durch
-        Schweigen.</p>
+        Schweigen – eine Kontrolle, die der Fünferflügel durch Wissen und Distanz sucht,
+        nicht durch Nähe.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
@@ -85537,28 +85541,39 @@ function neilArmstrongKrankheitsportraetPage() {
         unauffällig zu bleiben – seine über zwei Jahrzehnte bestehende Herzkrankheit
         blieb, passend zu diesem Muster, bis zuletzt weitgehend unsichtbar für die
         Öffentlichkeit.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <p class="vb-intro"><strong>b) Ein Kontrast im gleichen Kerntyp, anderer Flügel:</strong>
         <a href="javascript:void(0)" data-route="krankheitsportraets-woody-allen">Woody
-        Allen</a> (ebenfalls SE6w7) übersetzte seine eigene, meist imaginierte
-        Gesundheitsangst jahrzehntelang öffentlich in Sprache und Komik; Armstrong ging
-        mit seiner tatsächlichen, realen Herzerkrankung den entgegengesetzten Weg – Angst
-        wurde nicht in Worte, sondern in Schweigen übersetzt. Beide Fälle zeigen dieselbe
-        SE6w7-Grundstruktur, angewendet auf zwei sehr unterschiedliche Situationen: eine
-        eingebildete Bedrohung und eine reale. Mehr dazu im
+        Allen</a> (SE6w7, mit Siebenerflügel) übersetzte seine eigene, meist imaginierte
+        Gesundheitsangst jahrzehntelang öffentlich in Sprache und Komik – er trat mit
+        seiner Neurose bewusst in die Öffentlichkeit. Armstrong, mit demselben Kerntyp,
+        aber Fünferflügel statt Siebenerflügel, ging mit seiner tatsächlichen, realen
+        Herzerkrankung den entgegengesetzten Weg – er machte sie mit sich selbst aus,
+        ohne sie je zum Thema zu machen. Derselbe SE6-Kern, dieselbe Grundangst vor dem
+        eigenen Körper, aber zwei völlig verschiedene Flügel-Antworten: der Siebenerflügel
+        sucht die Bühne, der Fünferflügel den Rückzug. Mehr dazu im
         <a href="javascript:void(0)" data-route="krankheitsportraets-woody-allen">Krankheitsporträt zu Woody Allen</a>.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Herz?</strong>
+        Für einen selbsterhaltenden Sechser mit Fünferflügel, dessen gesamtes Leben auf
+        der Übersetzung von Können in stille, verlässliche Kompetenz beruhte, liegt eine
+        Deutung nahe: Ausgerechnet jenes Organ, das im übertragenen Sinn für Mut und
+        Hingabe steht, wurde zum Ort einer Erkrankung, die er – ganz Fünferflügel – wie
+        ein rein technisches Problem behandelte, das mit niemandem geteilt werden musste.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der selbsterhaltenden Sechs zwangsläufig zu
         Herzkrankheiten führt – <strong>jeder Mensch kann jede Krankheit bekommen,
         unabhängig vom Subtyp.</strong> Was sich an Armstrongs Fall zeigen lässt, ist ein
         Muster im Umgang mit einer verschwiegenen chronischen Erkrankung, das bei einer
-        ausgeprägten selbsterhaltenden Sechs mit Siebenerflügel immer wieder auffällt –
+        ausgeprägten selbsterhaltenden Sechs mit Fünferflügel immer wieder auffällt –
         eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
         wird in diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Armstrong kannte sein eigenes Muster nicht – die selbsterhaltende Sechs mit
-        Siebenerflügel sucht reflexhaft Sicherheit im Rückzug und im Verschweigen der
+        Fünferflügel sucht reflexhaft Sicherheit im Rückzug und im Verschweigen der
         eigenen Verwundbarkeit, statt sie öffentlich zu machen, und genau dieses Muster
         lebte er bis zu seinem Tod unverändert aus. Wer die eigene Neigung zum stillen
         Rückzug nicht als Muster erkennt, verpasst mitunter den Moment, in dem eine
@@ -85568,7 +85583,7 @@ function neilArmstrongKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Die selbsterhaltende Sechs mit Siebenerflügel erklärt bei <strong>Neil
+        Die selbsterhaltende Sechs mit Fünferflügel erklärt bei <strong>Neil
         Armstrong</strong> vieles am Umgang mit seiner eigenen Herzkrankheit: ein Mann,
         dessen gesamtes Leben nach dem Mond von Rückzug und Zurückhaltung geprägt war,
         trug auch seine reale körperliche Bedrohung überwiegend im Stillen – das
@@ -85577,8 +85592,8 @@ function neilArmstrongKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-neil-armstrong", label:"Porträt: Neil Armstrong (SE6w7)"},
-        {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7) – dieselbe Grundstruktur, entgegengesetzte Richtung"},
+        {route:"beruehmte-neil-armstrong", label:"Porträt: Neil Armstrong (SE6w5)"},
+        {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7) – gleicher Kerntyp, entgegengesetzter Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se6", label:"Subtyp-Profil SE6"},
       ])}
@@ -110192,7 +110207,7 @@ const KOMMUNIKATIONSGUIDE = {
     fluegel: {
       titel: "Flügel-Nuance: SE6w5 und SE6w7",
       w1: { code: "SE6w5", route: "beruehmte-sundar-pichai", name: "Sundar Pichai", text: `die Vorsicht bekommt eine analytischere, zurückhaltendere Note – Sicherheit wird über gründliches Verstehen gesucht, weniger über sichtbares Handeln. Reagiert gut auf fundierte, gut durchdachte Informationen, weniger gut auf Druck zu schnellen, unvorbereiteten Entscheidungen.` },
-      w2: { code: "SE6w7", route: "beruehmte-neil-armstrong", name: "Neil Armstrong", text: `die Vorsicht wird handlungsorientierter, mit einem Hang zu konkreter, disziplinierter Vorbereitung verbunden – Sicherheit entsteht durch akribisches Training, nicht durch Zögern. Reagiert gut auf klare, gut vorbereitete Pläne, schlecht auf chaotisches, unvorbereitetes Vorgehen.` },
+      w2: { code: "SE6w7", route: "beruehmte-woody-allen", name: "Woody Allen", text: `die Vorsicht wird humorvoller und ausdrucksstärker, mit einem Hang, die eigene Sorge sofort in Sprache und Pointen zu übersetzen – Sicherheit entsteht durch das ständige Neuerzählen der eigenen Angst, nicht durch Schweigen. Reagiert gut auf Humor und Gesprächsraum, schlecht auf erzwungene Zurückhaltung.` },
     },
     stressWachstum: {
       stress: `Unter Stress bewegt sich die SE6 Richtung <strong>Typ 3</strong>: Aus vorsichtigem Prüfen wird plötzlich hektischer Aktionismus, das Bedürfnis, durch sichtbare Leistung Sicherheit zu beweisen. Erkennst du dieses Muster, ist das ein Signal für erhöhten inneren Druck – kein guter Moment für weitere Forderungen, ein guter Moment für ruhige, verlässliche Präsenz.`,

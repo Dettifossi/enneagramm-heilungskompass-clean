@@ -268,7 +268,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-anthony-hopkins", name:"Anthony Hopkins", subtyp:"SE1w9", heading:"Anthony Hopkins – Self-Preservation Type 1", krankheit:"Alcoholism, sober since 1975", teaser:"SE1w9 – actor, b. 1937. Severe alcohol addiction until a turning point in 1975, by his own account continuously sober ever since – over five decades." , land:"United Kingdom/USA", gender:"m", jahre:"b. 1937"},
   { route:"krankheitsportraets-byron-katie", name:"Byron Katie", subtyp:"SX6w7", heading:"Byron Katie – Sexual Type 6", krankheit:"Ten years of severe depression and agoraphobia, turning point in 1986", teaser:"SX6w7 – author, founder of 'The Work,' b. 1942. Roughly ten years of severe depression and agoraphobia, a decisive turning point in a facility in 1986, from which her later method emerged." , land:"USA", gender:"f", jahre:"b. 1942"},
   { route:"krankheitsportraets-drew-barrymore", name:"Drew Barrymore", subtyp:"SO7w8", heading:"Drew Barrymore – Social Type 7", krankheit:"Childhood addiction, clinic admission in 1988 at age 13", teaser:"SO7w8 – actress, b. 1975. Alcohol and drug addiction beginning already in childhood, admitted to a rehabilitation clinic in 1988 at age 13, legally emancipated from her parents at 14." , land:"USA", gender:"f", jahre:"b. 1975"},
-  { route:"krankheitsportraets-neil-armstrong", name:"Neil Armstrong", subtyp:"SE6w7", heading:"Neil Armstrong – Self-Preservation Type 6", krankheit:"Over two decades of coronary heart disease, death after bypass surgery", teaser:"SE6w7 – astronaut, first man on the moon, 1930–2012. Heart attack in 1991, over two decades of progressive coronary heart disease, emergency quadruple bypass surgery in August 2012, died a few days later from complications." , land:"USA", gender:"m", jahre:"1930–2012"},
+  { route:"krankheitsportraets-neil-armstrong", name:"Neil Armstrong", subtyp:"SE6w5", heading:"Neil Armstrong – Self-Preservation Type 6", krankheit:"Over two decades of coronary heart disease, death after bypass surgery", teaser:"SE6w5 – astronaut, first man on the moon, 1930–2012. Heart attack in 1991, over two decades of progressive coronary heart disease, emergency quadruple bypass surgery in August 2012, died a few days later from complications." , land:"USA", gender:"m", jahre:"1930–2012"},
   { route:"krankheitsportraets-robbie-williams", name:"Robbie Williams", subtyp:"SX1w2", heading:"Robbie Williams – Sexual Type 1", krankheit:"Decades of depression and addiction (alcohol, cocaine, ecstasy)", teaser:"SX1w2 – musician, b. 1974. Severe depression and addiction since the early 1990s, multiple rehab treatments, processed in detail in a four-part Netflix documentary in 2023." , land:"United Kingdom", gender:"m", jahre:"b. 1974"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexual Type 7", krankheit:"Stomach cancer, continued working until a few months before death", teaser:"SX7w6 – primatologist, 1948–2024. Stomach cancer diagnosis in August 2023, remained publicly and scientifically active, died on March 14, 2024, at age 75." , land:"Netherlands/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
@@ -1267,9 +1267,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Woody Allen – Self-Preservation Type 6",
     teaser:"SP6w7 · born 1935. Director, screenwriter, comedian. Annie Hall, Manhattan, nearly fifty films. The rabbit that turned its own fear into an entire body of work.",
     tags:["Film"] , gender:"m"},
-{ route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
+{ route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w5",
     heading:"Neil Armstrong – Self-Preservation Type 6",
-    teaser:"SE6w7 \xb7 1930-2012. Pilot, astronaut. First man on the moon, July 20, 1969. The rabbit who took the most extraordinary step in human history - and then just wanted to go home.",
+    teaser:"SE6w5 \xb7 1930-2012. Pilot, astronaut. First man on the moon, July 20, 1969. The rabbit who took the most extraordinary step in human history - and then just wanted to go home.",
     tags:["Geschichte","Science","Astronaut"], gender:"m"},
 { route:"beruehmte-sundar-pichai", name:"Sundar Pichai", added:"2026-07-21", subtyp:"SE6w5",
     heading:"Sundar Pichai – Self-Preservation Type 6",
@@ -24081,66 +24081,67 @@ function neilArmstrongPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Neil Armstrong – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Neil Armstrong \u2013 Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Neil Armstrong</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with seven-winged wing</p>
-        <p class="krim-portrait-subtitle">Pilot, astronaut, first human on the moon, 1930–2012 – Animal equivalent: Rabbit</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Pilot, astronaut, first human on the moon, 1930\u20132012 \u2013 Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Rabbit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Neil Armstrong was the first human to step onto the moon. On July 20, 1969, at 02:56 UTC, he placed his left foot on the lunar surface and spoke a sentence the world knows even now. Afterward, he did everything he could to vanish back into silence. He gave almost no interviews. He fled from the public eye. He returned to Ohio, to his farm, and lived there so inconspicuously as if he had only taken a short trip—to the moon and back. That is the rabbit: the most extraordinary person ever to leave his footprint in the dust—and who afterward wanted nothing more than normalcy.</p>
-          <p class="vb-intro">Armstrong was no hero of grand words. When he stood on the moon, he did not say, "I did it," but: "The Eagle has landed." We. The team. The ground station in Houston. Buzz Aldrin beside him. Michael Collins in lunar orbit. Armstrong stepped onto the moon—but he never understood it as his personal triumph. He was the representative of a collective. And precisely that mattered to him.</p>
+          <p class="vb-intro">The <strong>rabbit</strong> is watchful, loyal, and seeks safety in what it knows. It is not an animal of the grand gesture. It lives in the familiar, carefully builds out its territory \u2013 and when the situation demands it, shows a determination no one would have expected from the outside. The rabbit does not survive through strength, but through wits, reliability, and the trust of its group.</p>
+          <p class="vb-intro">The American astronaut Neil Armstrong was the first human to set foot on the moon. On July 20, 1969, at 02:56 UTC, he placed his left foot on the lunar surface and spoke a sentence the world still knows. Afterward he did everything to disappear back into silence. He gave almost no interviews. He fled the public eye. He returned to Ohio, to his farm, and lived there as inconspicuously as if he had only taken a brief trip \u2013 to the moon and back. That is the rabbit: the most extraordinary human being ever to leave his footprint in the dust \u2013 who afterward wanted nothing more than normalcy.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Warmth: Security Through Trust</h2>
+        <h2 class="vb-section">2. Warmth: Safety Through Trust</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">His colleagues described him as calm, reliable, and matter-of-fact. He spoke little in critical situations—and when he did, he was precise. During the approach to the moon, the onboard computer responded with error messages, and the landing site proved to be a boulder field. Armstrong manually took over control, calmly searched for a safe spot—and landed with a fuel reserve that would have lasted for less than thirty seconds. No panic, no drama. That is the SE6 in peak form: security through competence, calm as a protective principle.</p>
-          <p class="vb-intro">Armstrong flew for the first time at age six—with his father in a Ford Trimotor, a three-engine passenger airplane widely used in the US during the 1920s. Ever since, he wanted to be a pilot. By sixteen, he had his pilot's license before he possessed a driver's license. He flew seventy-six combat missions in the Korean War. He became a test pilot and flew the X-15 to an altitude of over 60 kilometers—at the edge of space. Each of these steps was bold. None of them was reckless. That is the SE6w7: courage built upon preparation, not recklessness.</p>
-          <p class="vb-intro">In 1966, on Gemini 8, he performed the first successful docking maneuver of two spacecraft in space—and saved the mission when the spacecraft entered an uncontrolled rolling motion by keeping a cool head and making the right decision in seconds. The seven wing gives the rabbit wings. But the rabbit remains grounded.</p>
+          <p class="vb-intro">Claudio Naranjo called the Self-Preservation Type 6 <strong>Warmth</strong> \u2013 because this subtype seeks safety through human closeness and belonging. The SE6 is loyal, reliable, team-oriented. It radiates a calm that reassures others \u2013 and it needs the group's trust as much as it gives it.</p>
+          <p class="vb-intro">Armstrong was no hero of grand words. When he stood on the moon, he did not say <em>I did it</em>, but: <em>The Eagle has landed.</em> We. The team. Mission Control in Houston. Buzz Aldrin beside him. Michael Collins in lunar orbit. Armstrong set foot on the moon \u2013 but he never understood it as his personal triumph. He was the representative of a community. And precisely that mattered to him.</p>
+          <p class="vb-intro">His colleagues described him as calm, reliable, and matter-of-fact. He spoke little in critical situations \u2013 and when he did, it was precise. During the approach to the moon, the onboard computer threw error messages and the landing site turned out to be a boulder field. Armstrong manually took over control, calmly searched for a safe spot \u2013 and landed with a fuel reserve that would have lasted less than thirty seconds. No panic, no drama. That is the SE6 at its peak: safety through competence, calm as a protective principle.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven Wing: The Courage of the Adventurer</h2>
+        <h2 class="vb-section">3. The Five-Wing: Mastery Through Knowledge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The small word "a" before "man" had been lost in the radio static—and Armstrong later insisted he had said it. Without the "a," the sentence lacks a logical contrast: "man" is then synonymous with "mankind." With the "a," however, he meant the individual human being—and precisely that was Armstrong: an individual human being who went for everyone. He clarified this distinction his whole life. That is the SE6: precision in language, correctness as a value.</p>
-          <p class="vb-intro">Upon his return, he was showered with parades and receptions. Afterward, he taught aerospace engineering at the University of Cincinnati—for eight years, quietly, reliably, without a fuss. Then he returned to his farm in Ohio.</p>
-          <p class="vb-intro">The shadow: The SE6 can freeze in its tendency toward retreat. After the moon landing, Armstrong became so quiet that some wondered if he was depressed. He spoke scarcely about the experience—not because it had not touched him, but because he found no words for it that did justice to reality. A single time, in an interview shortly before his death, he confessed: "It was the greatest experience of my life. And to the present day I cannot truly explain it." That is the SE6: what is too big for words remains within.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Self-Preservation Six a characteristic depth: a retreat into the technical, a hunger for mastery, the conviction that safety arises above all through precise knowledge and thorough preparation, not through social closeness alone. The SE6w5 opens itself to the world not through enthusiasm, but through competence \u2013 and precisely there lies the key to Armstrong's entire life.</p>
+          <p class="vb-intro">Armstrong flew for the first time at age six \u2013 with his father, in a Ford Trimotor, a three-engine passenger aircraft widely used in the US during the 1920s. From then on he wanted to be a pilot, and he approached that goal like a Five: systematically, technically, through knowledge rather than impulse. By sixteen he had his pilot's license before he even had a driver's license. He studied aerospace engineering, flew seventy-six combat missions in the Korean War, and became a test pilot who flew the X-15 to an altitude of over 60 kilometers \u2013 at the edge of space. He aptly described himself as a "white-socks, pocket-protector, nerdy engineer" \u2013 not an adventurer, but a technician who worked his way into ever riskier aircraft because he understood them down to the last detail. That is the SE6w5: courage that arises from mastery, not from enthusiasm.</p>
+          <p class="vb-intro">In 1966, on Gemini 8, he performed the first successful docking maneuver of two spacecraft in space \u2013 and saved the mission when the spacecraft went into an uncontrolled roll, by keeping a cool head and making the technically correct decision within seconds. Not a spontaneous instinct, but years of trained engineering knowledge that was ready to call on at the decisive moment. The Five-wing gives the rabbit no wanderlust \u2013 it gives it the depth with which it fully masters every new field.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: Twenty-One Hours on the Moon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">His daughter Karen died in 1962 at the age of two from a brain tumor. Armstrong almost never spoke about it publicly. Only once did he say that after her death he began waking up particularly early in the morning—before anyone else was awake—to be alone. The rabbit withdraws when the pain is too great. And bears it silently.</p>
-          <p class="vb-intro">Neil Armstrong died on August 25, 2012, in Cincinnati, Ohio—following complications from heart bypass surgery. He was eighty-two years old. He spent his final decade largely on his farm in Lebanon, Ohio. Gardening, agriculture, the everyday life of a man who was not great because he wanted to be, but because history had made him so.</p>
-          <p class="vb-intro">Following his death, his family published a statement that ended with a sentence describing Armstrong as well as almost any other: "If you want to honor him, then on the next clear evening look up at the moon, give a wave, and think of Neil Armstrong."</p>
-          <p class="vb-intro">That is the SE6w7: a person who did the greatest thing a human had ever done up to that point—and afterward wanted only one thing: to go home. The rabbit set foot on the moon. And returned to where it belonged.</p>
+          <p class="vb-intro">On July 20, 1969, the Apollo 11 lunar module <em>Eagle</em> landed in the Sea of Tranquility. Armstrong and Aldrin spent twenty-one hours and thirty-six minutes on the moon \u2013 about two hours and twenty minutes of it outside the module. Armstrong collected rock samples, took photographs, planted the American flag. And he spoke the sentence:</p>
+          <p class="vb-intro"><em>That's one small step for [a] man, one giant leap for mankind.</em></p>
+          <p class="vb-intro">The small word <em>a</em> before <em>man</em> was lost in the radio static \u2013 and Armstrong later insisted he had said it. Without the <em>a</em>, the sentence has no logical contrast: <em>man</em> is then synonymous with <em>mankind</em>. With the <em>a</em>, however, he meant the single individual \u2013 and that is exactly what Armstrong was: a single individual who went for everyone. He clarified this distinction his whole life. That is the SE6: precision in language, correctness as a value.</p>
+          <p class="vb-intro">After his return he was showered with parades and receptions. He then taught aerospace engineering at the University of Cincinnati \u2013 for eight years, quietly, reliably, without fuss. Then he returned to his farm in Ohio.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: The Most Famous Unknown Person</h2>
+        <h2 class="vb-section">5. Light and Shadow: The Most Famous Unknown Man</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SE6w7 is her <strong>Integrity\xe4t</strong>. Armstrong could have become rich &mdash; through advertising contracts, through appearances, through his name. He refused almost everything. When he found out his signature was selling for thousands of dollars, he stopped signing autographs. When a barber sold a chunk of his hair after a haircut, Armstrong threatened to sue if the money wasn't donated to a charity. He was serious.</p>
-          <p class="vb-intro">The Shadow: The SE6 can freeze in the tendency to retreat. Armstrong became so quiet after flying to the moon that some people asked if he was depressed. He barely spoke about the experience &mdash; not because it didn't affect him, but because he couldn't find words for it that did justice to reality. Once, in an interview shortly before his death, he confessed: <em>It was the greatest experience of my life. And even today I can't really explain it.</em> This is the SE6: What is too big for words stays inside.</p>
-          <p class="vb-intro">His daughter Karen died of a brain tumor in 1962 at the age of two. Armstrong hardly ever spoke about it publicly. Only once did he say that after her death he started getting up especially early in the morning &mdash; before everyone else was awake &mdash; to be alone. The rabbit will retreat if the pain is too great. And carries him quietly.</p>
+          <p class="vb-intro">The light of the SE6w5 is its <strong>integrity</strong>. Armstrong could have become rich \u2013 through endorsement deals, appearances, his own name. He turned down almost everything. When he found out his signature was being sold for thousands of dollars, he stopped signing autographs. When a barber sold a clipping of his hair after a haircut, Armstrong threatened to sue unless the money went to charity. He meant it.</p>
+          <p class="vb-intro">The shadow: the SE6 can freeze in its tendency toward withdrawal. After the moon flight, Armstrong grew so quiet that some wondered whether he was depressed. He rarely spoke about the experience \u2013 not because it had not moved him, but because he found no words that did justice to the reality of it. Just once, in an interview shortly before his death, he admitted: <em>It was the greatest experience of my life. And I still can't really explain it today.</em> That is the SE6: what is too large for words stays inside.</p>
+          <p class="vb-intro">His daughter Karen died in 1962 at age two of a brain tumor. Armstrong hardly ever spoke about it publicly. Only once did he say that after her death he began getting up especially early in the morning \u2013 before anyone else was awake \u2013 to be alone. The rabbit withdraws when the pain is too great. And carries it silently.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Rabbit Returns Home</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Neil Armstrong died on August 25, 2012 in Cincinnati, Ohio &mdash; after complications from heart bypass surgery. He was eighty-two years old. He spent much of his last decade on his farm in Lebanon, Ohio. Gardening, farming, the everyday life of a man who was not great because he wanted to be, but because history made him so.</p>
-          <p class="vb-intro">After his death, his family released a statement that ended with a sentence that describes Armstrong better than almost any other: <em>If you want to honor him, look up at the moon on the next clear evening, wave and think of Neil Armstrong.</em></p>
-          <p class="vb-intro">This is the SE6w7: A person who did the greatest thing that a person had ever done up to that point - and then only wanted one thing: to go home. The rabbit has set foot on the moon. And returned to where it belonged.</p>
+          <p class="vb-intro">Neil Armstrong died on August 25, 2012, in Cincinnati, Ohio \u2013 following complications from heart bypass surgery. He was eighty-two years old. He spent his last decade largely on his farm in Lebanon, Ohio. Gardening, farming, the everyday life of a man who was not great because he wanted to be, but because history had made him so.</p>
+          <p class="vb-intro">After his death, his family released a statement that ended with a sentence that describes Armstrong as well as almost any other: <em>If you want to honor him, look up at the moon on the next clear evening, wave, and think of Neil Armstrong.</em></p>
+          <p class="vb-intro">That is the SE6w5: a person who did the greatest thing a human being had ever done up to that point \u2013 and afterward wanted only one thing: to go home. The rabbit set foot on the moon. And returned to where it belonged.</p>
         </blockquote>
 
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth \u2013 defense patterns, passions, and the path to essence.", "Wer du wirklich bist \u2013 Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison \u2013 how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"subtype/se6", label:"SE6 \u2013 The Rabbit: Subtype Profile"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
-        {route:"krankheitsportraets-neil-armstrong", label:"Illness Portrait: Neil Armstrong (SP6w7) – decades of heart disease kept private"},
+        {route:"krankheitsportraets-neil-armstrong", label:"Illness Portrait: Neil Armstrong (SP6w5) \u2013 decades of heart disease kept private"},
       ])}
     </div>
   `);
@@ -36282,7 +36283,7 @@ function woodyAllenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
-        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w7)"},
+        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w5)"},
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – lifelong hypochondria"},
       ])}
     </div>
@@ -55598,7 +55599,7 @@ function woodyAllenKrankheitsportraetPage() {
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7) – the rabbit"},
         {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – related hypochondria, a different instinct response"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
-        {route:"krankheitsportraets-neil-armstrong", label:"Illness Portrait: Neil Armstrong (SP6w7) – the same underlying structure, opposite direction"},
+        {route:"krankheitsportraets-neil-armstrong", label:"Illness Portrait: Neil Armstrong (SP6w5) – same core type, opposite wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se6", label:"Subtype Profile SP6"},
       ])}
@@ -57010,7 +57011,7 @@ function neilArmstrongKrankheitsportraetPage() {
           <img src="../assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Neil Armstrong" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Neil Armstrong</p>
-        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with Seven-wing &middot; 1930–2012</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing &middot; 1930\u20132012</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Rabbit</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
@@ -57021,7 +57022,7 @@ function neilArmstrongKrankheitsportraetPage() {
       <p class="psycho-intro">
         <strong>Neil Armstrong</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-neil-armstrong">Famous
-        Personality Portrait</a> in this Compass – that portrait focuses on his 1969
+        Personality Portrait</a> in this Compass \u2013 that portrait focuses on his 1969
         moon landing and his subsequent withdrawal into private life. This page explores
         a chapter only touched on there: a coronary heart disease lasting over two
         decades that in 2012 led to bypass surgery and, shortly after, his death.
@@ -57029,17 +57030,19 @@ function neilArmstrongKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Armstrong</strong> is assigned to the <strong>Self-Preservation Type 6
-        with Seven-wing</strong>. The SP6 seeks safety through routine and a familiar,
-        controlled environment; the Seven-wing adds the ability to handle setbacks
-        lightly and without excitement. This exact combination – a quiet, withdrawn life
-        without public dramatization – determined how Armstrong handled his years-long
-        heart disease.</p>
+        with Five-wing</strong>. The SP6 seeks safety through routine and a familiar,
+        controlled environment; the Five-wing adds a retreat into the technical and the
+        conviction that safety arises above all through knowledge and mastery, not
+        through social disclosure. This exact combination \u2013 a quiet, withdrawn life
+        in which even his own illness was treated as a purely technical, privately
+        solved problem \u2013 determined how Armstrong handled his years-long heart
+        disease.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
         <p class="vb-intro"><strong>a) Heart attack in 1991 while skiing:</strong>
-        At age 61, Armstrong suffered a heart attack while skiing in Aspen, Colorado – the
+        At age 61, Armstrong suffered a heart attack while skiing in Aspen, Colorado \u2013 the
         earliest documented cardiac event, a good two decades before his death.</p>
         <p class="vb-intro"><strong>b) A largely withdrawn life with no public reporting on the illness:</strong>
         Consistent with his already publicity-shy lifestyle, little about his actual
@@ -57052,7 +57055,7 @@ function neilArmstrongKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
         <p class="vb-intro"><strong>a) Failed stress test in August 2012:</strong>
-        On August 6, 2012, Armstrong failed a cardiac stress test – an acute indication of
+        On August 6, 2012, Armstrong failed a cardiac stress test \u2013 an acute indication of
         multiple blockages in his coronary arteries.</p>
         <p class="vb-intro"><strong>b) Emergency quadruple bypass surgery:</strong>
         A few days later, Armstrong underwent urgent quadruple coronary bypass surgery.</p>
@@ -57077,14 +57080,14 @@ function neilArmstrongKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
         <p class="vb-intro"><strong>a) A death noted worldwide:</strong>
-        Armstrong's death after the surgery triggered international sympathy – as the
+        Armstrong's death after the surgery triggered international sympathy \u2013 as the
         first man on the moon, he remained a global symbolic figure until the end.</p>
         <p class="vb-intro"><strong>b) Subsequent media review of the treatment:</strong>
         Professional media and health journalists discussed the circumstances of the
         surgery and the subsequent complications extensively after his death.</p>
         <p class="vb-intro"><strong>c) A public image that remained marked by reticence:</strong>
         Even the coverage of his final illness remained unusually restrained compared to
-        other celebrities – consistent with his entire public demeanor.</p>
+        other celebrities \u2013 consistent with his entire public demeanor.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -57093,40 +57096,53 @@ function neilArmstrongKrankheitsportraetPage() {
         The same SP6 tendency to seek safety in the familiar and withdrawn, which shaped
         Armstrong's entire life after 1969, also determined how little became known
         about his actual heart disease.</p>
-        <p class="vb-intro"><strong>b) The Seven-wing and unexcited acceptance of the risk:</strong>
-        The Seven-wing's lightness showed in Armstrong apparently undergoing the risky
-        surgery without visible public drama – practical, matter-of-fact, without great
-        staging.</p>
+        <p class="vb-intro"><strong>b) The Five-wing and treating his own illness as a technical question:</strong>
+        The retreat into the technical that the Five-wing brings showed in how Armstrong
+        approached the risky surgery apparently like an engineering problem \u2013
+        matter-of-fact, without visible public drama, without emotional staging.</p>
         <p class="vb-intro"><strong>c) Control through reticence rather than disclosure:</strong>
         Unlike other SP6 portraits in this Compass, who translate their fear into
-        language, Armstrong controlled his own vulnerability mainly through silence.</p>
+        language, Armstrong controlled his own vulnerability mainly through silence \u2013
+        a control the Five-wing seeks through knowledge and distance, not through
+        closeness.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
         <p class="vb-intro"><strong>a) A heart as quiet as his later life:</strong>
         Armstrong's entire life after the moon landing was shaped by the wish to remain
-        inconspicuous – his heart disease, lasting over two decades, remained, consistent
+        inconspicuous \u2013 his heart disease, lasting over two decades, remained, consistent
         with this pattern, largely invisible to the public until the end.</p>
-        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <p class="vb-intro"><strong>b) A contrast within the same core type, different wing:</strong>
         <a href="javascript:void(0)" data-route="krankheitsportraets-woody-allen">Woody
-        Allen</a> (also SP6w7) translated his own, mostly imagined health anxiety into
-        language and comedy publicly for decades; Armstrong took the opposite path with
-        his actual, real heart disease – fear was translated not into words, but into
-        silence. Both cases show the same SP6w7 underlying structure applied to two very
-        different situations: an imagined threat and a real one. More in the
+        Allen</a> (SP6w7, with a Seven-wing) translated his own, mostly imagined health
+        anxiety into language and comedy publicly for decades \u2013 he deliberately stepped
+        into public view with his neurosis. Armstrong, with the same core type but a
+        Five-wing instead of a Seven-wing, took the opposite path with his actual, real
+        heart disease \u2013 he settled it with himself, without ever making it a topic. The
+        same SP6 core, the same underlying fear of one's own body, but two completely
+        different wing responses: the Seven-wing seeks the stage, the Five-wing seeks
+        withdrawal. More in the
         <a href="javascript:void(0)" data-route="krankheitsportraets-woody-allen">Illness Portrait of Woody Allen</a>.</p>
-        <p class="vb-intro"><strong>c) Placing it without determinism:</strong>
+        <p class="vb-intro"><strong>c) Why the heart, of all things?</strong>
+        For a Self-Preservation Six with a Five-wing, whose entire life rested on
+        translating skill into quiet, reliable competence, one interpretation suggests
+        itself: precisely the organ that figuratively stands for courage and devotion
+        became the site of an illness that he \u2013 true to the Five-wing \u2013 treated as a
+        purely technical problem that needed to be shared with no one. This
+        interpretation is a plausible reading, not a documented historical causal link,
+        and will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
         This does not mean that the Self-Preservation Six's pattern inevitably leads to
-        heart disease – <strong>anyone can suffer any illness, regardless of
+        heart disease \u2013 <strong>anyone can suffer any illness, regardless of
         subtype.</strong> What Armstrong's case illustrates is a pattern in how a
-        pronounced Self-Preservation Six with a Seven-wing tends to handle a concealed
-        chronic illness – one of many possible interpretations, not a verdict. The
+        pronounced Self-Preservation Six with a Five-wing tends to handle a concealed
+        chronic illness \u2013 one of many possible interpretations, not a verdict. The
         corresponding illness picture is gradually being developed in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
-        Armstrong did not know his own pattern – the Self-Preservation Six with a
-        Seven-wing reflexively seeks safety in withdrawal and in concealing its own
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Armstrong did not know his own pattern \u2013 the Self-Preservation Six with a
+        Five-wing reflexively seeks safety in withdrawal and in concealing its own
         vulnerability instead of making it public, and he lived out exactly this pattern
         unchanged until his death. Someone who does not recognize their own tendency
         toward quiet withdrawal as a pattern sometimes misses the moment when more open
@@ -57136,17 +57152,17 @@ function neilArmstrongKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        The Self-Preservation Six with a Seven-wing explains much about how <strong>Neil
+        The Self-Preservation Six with a Five-wing explains much about how <strong>Neil
         Armstrong</strong> handled his own heart disease: a man whose entire life after
         the moon was shaped by withdrawal and reticence carried even his real physical
-        threat mostly in silence – the rabbit that did not want to leave its burrow until
+        threat mostly in silence \u2013 the rabbit that did not want to leave its burrow until
         its very last breath.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w7)"},
-        {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – the same underlying structure, opposite direction"},
+        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w5)"},
+        {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) \u2013 same core type, opposite wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se6", label:"Subtype Profile SP6"},
       ])}
@@ -74397,7 +74413,7 @@ const KOMMUNIKATIONSGUIDE = {
     fluegel: {
       titel: "Wing nuance: SE6w5 and SE6w7",
       w1: { code: "SE6w5", route: "beruehmte-sundar-pichai", name: "Sundar Pichai", text: `caution takes on a more analytical, more reserved note – security is sought through thorough understanding, less through visible action. Responds well to well-founded, thoroughly thought-through information, less well to pressure toward fast, unprepared decisions.` },
-      w2: { code: "SE6w7", route: "beruehmte-neil-armstrong", name: "Neil Armstrong", text: `caution becomes more action-oriented, tied to a leaning toward concrete, disciplined preparation – security arises through meticulous training, not through hesitation. Responds well to clear, well-prepared plans, poorly to chaotic, unprepared approaches.` },
+      w2: { code: "SE6w7", route: "beruehmte-woody-allen", name: "Woody Allen", text: `caution becomes more humorous and expressive, tied to a leaning toward instantly translating one's own worry into language and punchlines – security arises through constantly retelling one's own fear, not through silence. Responds well to humor and room for conversation, poorly to enforced restraint.` },
     },
     stressWachstum: {
       stress: `Under stress the SE6 moves toward <strong>Type 3</strong>: careful checking suddenly turns into hectic activism, the need to prove security through visible achievement. If you recognize this pattern, it's a signal of rising inner pressure – not a good moment for more demands, a good moment for calm, reliable presence.`,
