@@ -24077,6 +24077,7 @@ const registerEntries = [
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
   { term: "Konrad Adenauer Krankheitsporträt", route: "krankheitsportraets-konrad-adenauer", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Gesichtsverletzung durch Autounfall, Verfolgung und Haft" },
   { term: "Marilyn Monroe Krankheitsporträt", route: "krankheitsportraets-marilyn-monroe", description: "Portrait: SX3w4 · Sexueller Typ 3 · Endometriose, Schlafmittelabhängigkeit, umstrittene Todesumstände" },
+  { term: "Dolly Parton Krankheitsporträt", route: "krankheitsportraets-dolly-parton", description: "Portrait: SX3w4 · Sexueller Typ 3 · Endometriose seit den 1980ern, Teilhysterektomie, Krebserkrankung" },
   { term: "Lady Diana Krankheitsporträt", route: "krankheitsportraets-lady-diana", description: "Portrait: SE4w3 · Selbsterhaltender Typ 4 · verschwiegene Bulimie, Selbstverletzung, postnatale Depression" },
   { term: "Freddie Mercury Krankheitsporträt", route: "krankheitsportraets-freddie-mercury", description: "Portrait: SX4w3 · Sexueller Typ 4 · jahrelang geheim gehaltene AIDS-Erkrankung, Tod 1991" },
   { term: "Claude Debussy Krankheitsporträt", route: "krankheitsportraets-claude-debussy", description: "Portrait: SX4w5 · Sexueller Typ 4 · Darmkrebs" },
@@ -25436,6 +25437,7 @@ const registerEntriesEN = [
   { term: "Michael Jackson Illness Portrait", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Social Type 4 · decades-long dependence on pain and sleep medication" },
   { term: "Konrad Adenauer Illness Portrait", route: "krankheitsportraets-konrad-adenauer", description: "Portrait: SE1w9 · Self-Preservation Type 1 · facial injury from car accident, persecution and imprisonment" },
   { term: "Marilyn Monroe Illness Portrait", route: "krankheitsportraets-marilyn-monroe", description: "Portrait: SX3w4 · Sexual Type 3 · endometriosis, sleeping pill dependency, disputed circumstances of death" },
+  { term: "Dolly Parton Illness Portrait", route: "krankheitsportraets-dolly-parton", description: "Portrait: SX3w4 · Sexual Type 3 · endometriosis since the 1980s, partial hysterectomy, cancer" },
   { term: "Lady Diana Illness Portrait", route: "krankheitsportraets-lady-diana", description: "Portrait: SE4w3 · Self-Preservation Type 4 · concealed bulimia, self-harm, postnatal depression" },
   { term: "Freddie Mercury Illness Portrait", route: "krankheitsportraets-freddie-mercury", description: "Portrait: SX4w3 · Sexual Type 4 · years-long concealed AIDS diagnosis, death in 1991" },
   { term: "Claude Debussy Illness Portrait", route: "krankheitsportraets-claude-debussy", description: "Portrait: SX4w5 · Sexual Type 4 · colorectal cancer" },
@@ -32249,6 +32251,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-elon-musk", name:"Elon Musk", subtyp:"SO7w6", heading:"Elon Musk – Sozialer Typ 7", krankheit:"Asperger-Syndrom, öffentlich bekannt gegeben 2021", teaser:"SO7w6 – Unternehmer, geb. 1971. Am 8. Mai 2021 live bei 'Saturday Night Live' öffentlich bekannt gegebenes Asperger-Syndrom, davor jahrzehntelang keine formale Diagnose." , land:"USA", gender:"m", jahre:"geb. 1971"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
+  { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexueller Typ 3", krankheit:"Endometriose seit den frühen 1980ern, zuletzt Krebserkrankung", teaser:"SX3w4 – Sängerin, Songwriterin, 1946–2026. Anfang der 1980er-Jahre diagnostizierte Endometriose mit Teilhysterektomie 1985, jahrzehntelang wiederkehrende Gesundheitskrisen. Starb am 25. August 2026 nach kurzer Krebserkrankung. Verknüpft mit Marilyn Monroe (ebenfalls SX3w4, ebenfalls Endometriose)." , land:"USA", gender:"f", jahre:"1946–2026"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -78214,6 +78217,7 @@ function marilynMonroeKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4) – Lebenswerk"},
+        {route:"krankheitsportraets-dolly-parton", label:"Krankheitsporträt: Dolly Parton (SX3w4)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
       ])}
@@ -80574,6 +80578,197 @@ function leonardBernsteinKrankheitsportraetPage() {
         {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function dollyPartonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dolly-parton-portrait.jpg" alt="Dolly Parton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dolly Parton</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel · 1946–2026</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Pfau</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Tierentsprechung: Pfau" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Dolly Parton</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-dolly-parton">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
+        bereits in den frühen 1980er-Jahren diagnostizierte Endometriose mit anschließender
+        Teilhysterektomie, jahrzehntelang wiederkehrende gesundheitliche Krisen bis hin zu
+        Nierensteinen, und ein letzter, rasch verlaufender Kampf gegen Krebs, an dem sie am
+        25. August 2026 im Alter von 80 Jahren starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Parton</strong> ist dem <strong>sexuellen Typ 3 mit Viererflügel</strong>
+        zugeordnet. Die SX3 macht persönliche Anziehungskraft und unmittelbare Präsenz zur
+        Lebensaufgabe; der Viererflügel bringt eine emotionale Tiefe hinzu, die die reine
+        Bühnenfigur mit einer sehr persönlichen, oft schmerzhaften Innenwelt rückbindet. Genau
+        dieses Muster – nach außen unaufhörlich strahlen, während im Inneren über Jahrzehnte
+        eine ernste körperliche Belastung verschwiegen wird – bestimmte auch ihren Umgang mit
+        der eigenen Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Abdominale Schmerzen und Blutungen ab den frühen 1980er-Jahren:</strong>
+        Parton litt zunehmend unter starken Unterleibsschmerzen und Blutungen, die sie
+        wiederholt ins Krankenhaus brachten – Beschwerden, die sie lange Zeit hinter ihrem
+        öffentlichen Terminkalender zu verbergen versuchte.</p>
+        <p class="vb-intro"><strong>b) Eine abgesagte Tour 1982 als erstes sichtbares Zeichen:</strong>
+        Erst als sich ihr Zustand so weit verschlechterte, dass ein Weitermachen unmöglich
+        wurde, sagte sie eine geplante Tournee ab – ein seltener, öffentlich sichtbarer Bruch in
+        einer ansonsten makellos durchgehaltenen Arbeitsdisziplin.</p>
+        <p class="vb-intro"><strong>c) Diagnose Endometriose:</strong>
+        Die Ursache der Beschwerden wurde schließlich als Endometriose identifiziert – eine
+        chronische, oft sehr schmerzhafte Erkrankung, bei der sich gebärmutterschleimhautähnliches
+        Gewebe außerhalb der Gebärmutter ansiedelt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Teilhysterektomie 1985 im Alter von 36 Jahren:</strong>
+        Um die gynäkologischen Probleme zu behandeln, unterzog sich Parton mit 36 Jahren einer
+        Teilhysterektomie – ein eingreifender Schritt, den sie zu diesem Zeitpunkt noch weitgehend
+        aus der Öffentlichkeit heraushielt.</p>
+        <p class="vb-intro"><strong>b) Eine schwere depressive Phase danach:</strong>
+        Parton sprach Jahre später offen darüber, dass die Operation eine „wirklich schlimme
+        Zeit" für sie war und sie in eine Depression stürzte – eine seltene Einlassung hinter die
+        sonst so makellos gepflegte Fassade.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeit trotz gesundheitlicher Einschränkungen:</strong>
+        Schon kurz nach der schwersten Krise kehrte sie ins Rampenlicht zurück – Musik, Film,
+        Fernsehen liefen nahezu ohne sichtbare Unterbrechung weiter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Wiederkehrende Nierensteine und weitere Krankenhausaufenthalte:</strong>
+        Über die folgenden Jahrzehnte kam es wiederholt zu gesundheitlichen Krisen, darunter
+        schmerzhafte Nierensteine, die Parton offen thematisierte, sobald sie einmal öffentlich
+        geworden waren.</p>
+        <p class="vb-intro"><strong>b) Verschobene, dann endgültig abgesagte Las-Vegas-Residency:</strong>
+        Eine für 2025 geplante Konzertreihe in Las Vegas wurde zunächst wegen „gesundheitlicher
+        Herausforderungen" auf September 2026 verschoben und schließlich im Mai 2026 ganz
+        abgesagt.</p>
+        <p class="vb-intro"><strong>c) Dehydrierung und Schwindel als letzte öffentliche Erklärung:</strong>
+        Per Videoschalte aus Nashville erklärte Parton, ihr Arzt habe ihr wegen Dehydrierung und
+        Schwindel von Reisen abgeraten – deshalb verpasste sie im August 2026 sogar die
+        Eröffnung der neuen Achterbahn „NightFlight Expedition" in ihrem eigenen Freizeitpark
+        Dollywood.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Jahrzehntelanges Strahlen über einer verborgenen Krankengeschichte:</strong>
+        Zwischen der Diagnose Anfang der 1980er-Jahre und den letzten Lebensmonaten liegen über
+        vierzig Jahre, in denen Partons öffentliches Bild fast ausschließlich von Glanz, Humor
+        und Energie geprägt blieb – die gesundheitliche Vorgeschichte blieb weitgehend im
+        Hintergrund.</p>
+        <p class="vb-intro"><strong>b) Ein später Tod ihres Mannes als Wendepunkt:</strong>
+        Nach dem Tod ihres Mannes Carl Dean im März 2025 räumte Parton öffentlich ein, während
+        der Pflegezeit die eigene Gesundheit vernachlässigt zu haben – einer der wenigen Momente,
+        in denen sie die eigene Verletzlichkeit direkt benannte, statt sie zu überspielen.</p>
+        <p class="vb-intro"><strong>c) Krebsdiagnose und rascher Verlauf:</strong>
+        Nach Angaben ihres Umfelds erlag Parton am 25. August 2026 einer kurz zuvor
+        diagnostizierten Krebserkrankung – ein Verlauf, der öffentlich kaum Zeit ließ, sich auf
+        das Ausmaß der Erkrankung einzustellen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Pfau, der das Rad schlägt, solange es irgend geht:</strong>
+        Die SX3-typische Überzeugung, dass Präsenz und Wirkung nach außen aufrechterhalten
+        werden müssen, zeigte sich bis in die letzten Lebensmonate: Selbst gesundheitliche
+        Absagen wurden mit Humor, Herzlichkeit und einer gepflegten Bühnenfigur verkündet, nie
+        mit sichtbarer Verzweiflung.</p>
+        <p class="vb-intro"><strong>b) Der Viererflügel und die seltenen Momente echter Offenheit:</strong>
+        Dieselbe emotionale Tiefe, die ihr Songwriting seit Jahrzehnten prägte, zeigte sich auch
+        im Umgang mit der eigenen Krankheit: selten, aber wenn, dann mit ungewöhnlicher
+        Direktheit – etwa beim Eingeständnis der Depression nach der Hysterektomie oder der
+        vernachlässigten eigenen Gesundheit während der Pflege ihres Mannes.</p>
+        <p class="vb-intro"><strong>c) Kontrolle über das eigene Bild bis zuletzt:</strong>
+        Auch die letzten öffentlichen Gesundheitsupdates erfolgten in ihren eigenen Worten, in
+        ihrem eigenen Ton – keine unautorisierten Enthüllungen, sondern eine bis zuletzt selbst
+        gesteuerte Kommunikation, ganz im Sinne einer SX3, die die eigene Wirkung nie aus der
+        Hand gibt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die exakt am Ort der bühnentauglichen Weiblichkeit ansetzte:</strong>
+        Partons gesamte öffentliche Figur baute auf einer betont weiblichen, körperbetonten
+        Inszenierung auf. Ausgerechnet eine gynäkologische Erkrankung, die diesen körperlichen
+        Kern unmittelbar betraf, wurde zur jahrzehntelangen, meist verschwiegenen Begleiterin
+        ihrer Karriere.</p>
+        <p style="background:rgba(74,127,145,0.12);border-radius:8px;padding:0.9rem 1.1rem;margin:1rem 0;"><strong>Eine auffällige Parallele im selben Subtyp – Marilyn Monroe:</strong>
+        Bemerkenswert ist, dass mit <a href="javascript:void(0)" data-route="krankheitsportraets-marilyn-monroe">Marilyn Monroe (ebenfalls SX3w4)</a>
+        eine weitere Persönlichkeit in diesem Kompass vertreten ist, deren jahrelang hinter dem
+        makellosen Image verborgene Krankheit exakt dieselbe Diagnose trägt: Endometriose. Zwei
+        sexuelle Dreier mit Viererflügel, zwei durch Ausstrahlung und Weiblichkeit geprägte
+        öffentliche Figuren, zwei Frauen, die dieselbe schmerzhafte gynäkologische Erkrankung
+        über Jahre lang hinter einer makellos gepflegten Bühnenpräsenz verbargen. Der Unterschied
+        liegt im Ausgang: Während Monroes Geschichte 1962 abrupt und jung endete, lebte und
+        arbeitete Parton noch weitere vier Jahrzehnte mit den Folgen ihrer Diagnose weiter, bevor
+        eine andere Erkrankung am Ende ihres Lebens stand.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet der Unterleib, bei einer Frau, deren gesamtes Image auf Weiblichkeit baut?</strong>
+        Für eine sexuelle Drei mit Viererflügel, deren beruflicher Kern die bewusst
+        inszenierte, betont weibliche Präsenz ist, liegt eine Deutung nahe: Ausgerechnet jener
+        Körperbereich, der ihre öffentliche Identität am unmittelbarsten trägt, wurde zum
+        Schauplatz einer jahrzehntelangen, meist verschwiegenen Belastung. Diese Deutung ist eine
+        plausible Interpretation, kein belegter medizinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Drei zwangsläufig zu gynäkologischen
+        Erkrankungen oder Krebs führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Partons Fall zeigen lässt, ist ein Muster im
+        Umgang mit einer über Jahrzehnte verschwiegenen körperlichen Belastung, das bei einer
+        ausgeprägten sexuellen Drei mit Viererflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass
+        nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Nichts deutet darauf hin, dass Parton ihr eigenes Enneagramm-Muster je bewusst kannte –
+        wie die meisten Menschen kannte sie das System vermutlich gar nicht. Sie lebte die
+        Leidenschaft der Drei, die Täuschung durch permanente Selbstinszenierung, über
+        Jahrzehnte ungebremst aus: Schmerzen, Operationen und spätere Erschöpfung wurden hinter
+        Humor und einer makellos gepflegten Bühnenfigur verborgen, statt als wiederkehrendes
+        Muster erkannt und rechtzeitig ernst genommen zu werden. Erst der Tod ihres Mannes 2025
+        brachte sie dazu, öffentlich einzuräumen, die eigene Gesundheit über Jahre
+        vernachlässigt zu haben – zu einem Zeitpunkt, an dem der eigene Körper bereits erschöpft
+        war.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Partons</strong> sexuelle Drei mit
+        Viererflügel noch einmal ablesen: eine Karriere, die über vierzig Jahre hinweg
+        körperliche Krisen, Operationen und Erschöpfung hinter einer makellos strahlenden
+        Bühnenfigur verbarg, und ein Lebensende, das erst kurz vor dem Tod öffentlich sichtbar
+        wurde. Der Pfau, der sein Federkleid bis fast zuletzt entfaltete – und dessen stillste,
+        verletzlichste Momente erst dann sichtbar wurden, als das Rad sich nicht mehr schlagen
+        ließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-dolly-parton", label:"Porträt: Dolly Parton (SX3w4) – Lebenswerk"},
+        {route:"krankheitsportraets-marilyn-monroe", label:"Krankheitsporträt: Marilyn Monroe (SX3w4)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
       ])}
     </div>
   `);
@@ -130107,6 +130302,7 @@ function render() {
       "krankheitsportraets-freddie-mercury": freddieMercuryKrankheitsportraetPage,
       "krankheitsportraets-lady-diana": ladyDianaKrankheitsportraetPage,
       "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
+      "krankheitsportraets-dolly-parton": dollyPartonKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
       "krankheitsportraets-john-wayne": johnWayneKrankheitsportraetPage,
