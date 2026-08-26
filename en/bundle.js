@@ -247,6 +247,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SO8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Social Type 1", krankheit:"Severe benzodiazepine dependency, induced coma in 2019/2020", teaser:"SO1w9 – psychologist and author, b. 1962. Severe benzodiazepine dependency, unsuccessful treatment attempts in North America, medically induced coma in Russia at the end of 2019 for withdrawal treatment." , land:"Canada", gender:"m", jahre:"b. 1962"},
   { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexual Type 9", krankheit:"Chronic heart disease, died of heart failure aboard the Queen Elizabeth 2", teaser:"SX9w8 – painter and architect, 1928–2000. Years-long, largely undisclosed heart condition, no conventional medical treatment, died on 19 February 2000 aboard the ocean liner Queen Elizabeth 2 on the Pacific." , land:"Austria", gender:"m", jahre:"1928–2000"},
+  { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Self-Preservation Type 3", krankheit:"Chronic subdural hematoma, emergency surgery in March 2024", teaser:"SE3w2 – yogi, guru, and bestselling author, b. 1957. Weeks of headaches, chronic brain bleed, emergency surgery on 17 March 2024." , land:"India", gender:"m", jahre:"b. 1957"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -40929,7 +40930,8 @@ function sadhguruPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
-        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2)"},
+        {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SE3w2) – chronic subdural hematoma"},
       ])}
     </div>
   `);
@@ -57810,6 +57812,163 @@ function hundertwasserKrankheitsportraetPage() {
         {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx9", label:"Subtype Profile SX9"},
+      ])}
+    </div>
+  `);
+}
+
+function sadhguruKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Sadhguru" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sadhguru</p>
+        <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 with Two-Wing · b. 1957</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sadhguru</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Famous Personalities
+        portrait</a>. This page delves into a chapter only briefly mentioned there: a chronic
+        brain bleed diagnosed in March 2024 that went untreated through weeks of headaches
+        until emergency surgery.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Sadhguru</strong> is assigned to the <strong>self-preservation Type 3 with
+        Two-Wing</strong>. The SE3 invests its energy in effectiveness rather than image – even
+        when the body itself has long been sending signals; the Two-Wing adds the drive to be
+        there for others, often at the expense of caring for oneself. Exactly this combination
+        – unshaken functioning despite physical warning signs, combined with a schedule that
+        was interrupted for nothing except the illness itself – shaped the course of events up
+        to the diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Weeks of headaches before the diagnosis:</strong>
+        By his own and medical accounts, Sadhguru suffered from persistent, worsening
+        headaches over several weeks without interrupting his public schedule.</p>
+        <p class="vb-intro"><strong>b) No immediate withdrawal from public life:</strong>
+        Despite increasing symptoms, he continued lectures, travel, and public appearances
+        until the symptoms could no longer be ignored.</p>
+        <p class="vb-intro"><strong>c) Acute deterioration in March 2024:</strong>
+        Only a marked worsening of the symptoms finally led to a medical examination and
+        imaging diagnostics.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Diagnosis: chronic subdural hematoma:</strong>
+        An MRI revealed chronic bleeding under the dura mater of about three to four weeks'
+        duration, overlaid by fresh bleeding from the preceding one to two days.</p>
+        <p class="vb-intro"><strong>b) Emergency surgery on 17 March 2024:</strong>
+        Due to the acute deterioration, Sadhguru was operated on immediately to relieve
+        pressure on the brain.</p>
+        <p class="vb-intro"><strong>c) No identifiable external cause:</strong>
+        Unlike many subdural hematomas, no clear triggering fall or accident could be
+        established – the Isha Foundation publicly stated that the exact cause remained
+        unclear.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Rapid postoperative recovery:</strong>
+        According to public statements, Sadhguru recovered quickly after the operation and
+        returned to part of his activities within a few weeks.</p>
+        <p class="vb-intro"><strong>b) Public communication by his own organization:</strong>
+        The Isha Foundation informed the public in several official statements about the
+        diagnosis, surgery, and recovery – an unusually transparent medical communication for
+        a spiritual teacher.</p>
+        <p class="vb-intro"><strong>c) Resuming public work shortly afterward:</strong>
+        Sadhguru resumed public appearances only a short time after the procedure, though
+        initially at a reduced pace.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide media attention:</strong>
+        News of the emergency surgery of one of the best-known spiritual teachers of our time
+        triggered international coverage and a wave of public concern.</p>
+        <p class="vb-intro"><strong>b) Questions about a health teacher's own self-perception:</strong>
+        Since Sadhguru himself regularly teaches about body awareness and self-care, the
+        incident raised the question for some observers of why his own warning signs were
+        ignored for so long.</p>
+        <p class="vb-intro"><strong>c) No fundamental change of lifestyle:</strong>
+        Despite the warning from his own illness, Sadhguru largely continued his intensive
+        travel and lecture schedule after recovery.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Functioning as the default response to pain:</strong>
+        The SE3's characteristic focus on effectiveness rather than self-presentation also
+        showed in the fact that Sadhguru did not take weeks of headaches as a reason to
+        withdraw, but kept his schedule unchanged.</p>
+        <p class="vb-intro"><strong>b) The Two-Wing and open communication outward:</strong>
+        That the Isha Foundation made the diagnosis and treatment transparently public fits
+        the Two-Wing's characteristic care: even in his own medical emergency, the impulse
+        remained to keep his millions of followers informed rather than in the dark.</p>
+        <p class="vb-intro"><strong>c) A quick return to effectiveness:</strong>
+        The rapid resumption of public appearances after surgery follows the same SE3
+        pattern as ignoring the symptoms beforehand: self-worth through functioning, little
+        room for a longer pause.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A teacher of body awareness who overrode his own warning signs:</strong>
+        Sadhguru's entire body of work revolves around the idea of consciously perceiving and
+        cultivating one's own body and mind – of all people, he ignored weeks of headaches
+        until emergency surgery became unavoidable.</p>
+        <p class="vb-intro"><strong>b) Why the head, of all things, the center of his teaching?</strong>
+        For a self-preservation Type 3 with a Two-Wing whose entire public authority rested on
+        inner clarity and conscious bodily mastery, one interpretation suggests itself:
+        exactly the organ with which he taught millions of people "inner engineering" became
+        the site of a bleed progressing unnoticed for weeks. This reading is a plausible
+        interpretation, not a proven clinical causal link, and will be developed further in
+        this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Classification without determinism:</strong>
+        This does not mean that the self-preservation Three's pattern inevitably leads to
+        brain bleeds – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What can be shown in Sadhguru's case is a pattern in dealing with
+        physical warning signs that keeps recurring in a pronounced self-preservation Type 3
+        – one of many possible readings, not a verdict. The corresponding illness pattern is
+        being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Sadhguru does not know his own pattern as an Enneagram structure – the self-preservation
+        Type 3 reflexively clings to its own functioning instead of taking physical warning
+        signs seriously in time, and lives out exactly this pattern largely unchanged to this
+        day. Anyone who does not recognize their own tendency to subordinate symptoms to their
+        schedule as a pattern risks that the body eventually forces the pause itself – if
+        necessary, through collapse.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 3 with Two-Wing explains much about the course of
+        <strong>Sadhguru's</strong> illness: a man whose entire public authority rested on
+        inner clarity and unbroken effectiveness had to learn that weeks of functioning do not
+        make physical warning signs disappear – the raccoon that kept going until the body
+        pulled the emergency brake itself.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se3", label:"Subtype Profile SE3"},
       ])}
     </div>
   `);
@@ -90928,6 +91087,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
+      "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,

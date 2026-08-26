@@ -24046,6 +24046,7 @@ const registerEntries = [
   { term: "Robbie Williams Krankheitsporträt", route: "krankheitsportraets-robbie-williams", description: "Portrait: SX1w2 · Sexueller Typ 1 · Jahrzehntelange Depression und Suchterkrankung" },
   { term: "Jordan Peterson Krankheitsporträt", route: "krankheitsportraets-jordan-peterson", description: "Portrait: SO1w9 · Sozialer Typ 1 · Benzodiazepin-Abhängigkeit, künstliches Koma 2019/2020" },
   { term: "Friedensreich Hundertwasser Krankheitsporträt", route: "krankheitsportraets-hundertwasser", description: "Portrait: SX9w8 · Sexueller Typ 9 · Chronisches Herzleiden, Tod an Bord der Queen Elizabeth 2" },
+  { term: "Sadhguru Krankheitsporträt", route: "krankheitsportraets-sadhguru", description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Chronisches subdurales Hämatom, Notoperation März 2024" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32203,6 +32204,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-robbie-williams", name:"Robbie Williams", subtyp:"SX1w2", heading:"Robbie Williams – Sexueller Typ 1", krankheit:"Jahrzehntelange Depression und Suchterkrankung (Alkohol, Kokain, Ecstasy)", teaser:"SX1w2 – Musiker, geb. 1974. Seit den frühen 1990er-Jahren schwere Depression und Suchterkrankung, mehrere Entzugsbehandlungen, 2023 in vierteiliger Netflix-Dokumentation ausführlich aufgearbeitet." , land:"Vereinigtes Königreich", gender:"m", jahre:"geb. 1974"},
   { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Sozialer Typ 1", krankheit:"Schwere Benzodiazepin-Abhängigkeit, künstliches Koma 2019/2020", teaser:"SO1w9 – Psychologe und Autor, geb. 1962. Schwere Benzodiazepin-Abhängigkeit, erfolglose Behandlungsversuche in Nordamerika, Ende 2019 künstlich herbeigeführtes Koma in Russland zur Entzugsbehandlung." , land:"Kanada", gender:"m", jahre:"geb. 1962"},
   { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexueller Typ 9", krankheit:"Chronisches Herzleiden, Tod durch Herzversagen an Bord der Queen Elizabeth 2", teaser:"SX9w8 – Maler und Architekt, 1928–2000. Jahrelanges, weitgehend verschwiegenes Herzleiden, keine schulmedizinische Behandlung, Tod am 19. Februar 2000 an Bord des Ozeandampfers Queen Elizabeth 2 auf dem Pazifik." , land:"Österreich", gender:"m", jahre:"1928–2000"},
+  { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Selbsterhaltender Typ 3", krankheit:"Chronisches subdurales Hämatom, Notoperation im März 2024", teaser:"SE3w2 – Yogi, Guru und Bestsellerautor, geb. 1957. Wochenlange Kopfschmerzen, chronische Hirnblutung, Notoperation am 17. März 2024." , land:"Indien", gender:"m", jahre:"geb. 1957"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -69732,7 +69734,8 @@ function sadhguruPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
-        {route:"beruehmte-friedrich-merz", label:"Portr\u00e4t: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-joseph-haydn", label:"Portr\u00e4t: Joseph Haydn (SE3w2)"},
+        {route:"krankheitsportraets-sadhguru", label:"Krankheitsportr\u00e4t: Sadhguru (SE3w2) \u2013 chronisches subdurales H\u00e4matom"},
       ])}
     </div>
   `);
@@ -86281,6 +86284,171 @@ function hundertwasserKrankheitsportraetPage() {
         {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
+      ])}
+    </div>
+  `);
+}
+
+function sadhguruKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Sadhguru" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sadhguru</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel · geb. 1957</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sadhguru</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur kurz erwähnt wird: eine im März 2024 diagnostizierte
+        chronische Hirnblutung, die trotz wochenlanger Kopfschmerzen bis zur Notoperation
+        unbehandelt blieb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Sadhguru</strong> ist dem <strong>selbsterhaltenden Typ 3 mit Zweierflügel</strong>
+        zugeordnet. Die SE3 investiert ihre Energie in Wirksamkeit statt in Image – auch dann,
+        wenn der eigene Körper längst Signale sendet; der Zweierflügel bringt den Antrieb hinzu,
+        für andere da zu sein, oft auf Kosten der eigenen Fürsorge für sich selbst. Genau diese
+        Kombination – unbeirrtes Funktionieren trotz körperlicher Warnsignale, verbunden mit
+        einem Terminkalender, der für niemand anderen unterbrochen wird als für die eigene
+        Erkrankung – bestimmte den Verlauf bis zur Diagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Wochenlange Kopfschmerzen vor der Diagnose:</strong>
+        Nach eigener und ärztlicher Schilderung litt Sadhguru über mehrere Wochen unter
+        anhaltenden, sich verschlimmernden Kopfschmerzen, ohne dass er seinen öffentlichen
+        Terminkalender unterbrach.</p>
+        <p class="vb-intro"><strong>b) Kein sofortiger Rückzug aus der Öffentlichkeit:</strong>
+        Trotz zunehmender Beschwerden hielt er weiterhin Vorträge, Reisen und öffentliche
+        Auftritte aufrecht, bis die Symptomatik nicht mehr zu ignorieren war.</p>
+        <p class="vb-intro"><strong>c) Akute Verschlechterung im März 2024:</strong>
+        Erst eine deutliche Zuspitzung der Beschwerden führte schließlich zur ärztlichen
+        Untersuchung und zur bildgebenden Diagnostik.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Diagnose: chronisches subdurales Hämatom:</strong>
+        Eine MRT-Untersuchung ergab eine chronische Blutung unter der harten Hirnhaut von
+        etwa drei bis vier Wochen Dauer, überlagert von einer frischen Nachblutung der
+        vorangegangenen ein bis zwei Tage.</p>
+        <p class="vb-intro"><strong>b) Notfalloperation am 17. März 2024:</strong>
+        Aufgrund der akuten Verschlechterung wurde Sadhguru umgehend operiert, um den
+        Druck auf das Gehirn zu entlasten.</p>
+        <p class="vb-intro"><strong>c) Keine erkennbare äußere Ursache:</strong>
+        Anders als bei vielen subduralen Hämatomen ließ sich kein eindeutiger auslösender
+        Sturz oder Unfall feststellen – die Isha Foundation kommunizierte öffentlich, dass die
+        genaue Ursache unklar blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Rasche postoperative Genesung:</strong>
+        Nach der Operation erholte sich Sadhguru nach öffentlichen Angaben schnell und kehrte
+        binnen weniger Wochen zu einem Teil seiner Aktivitäten zurück.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Kommunikation durch die eigene Organisation:</strong>
+        Die Isha Foundation informierte in mehreren offiziellen Mitteilungen über Diagnose,
+        Operation und Genesungsverlauf – eine für einen spirituellen Lehrer ungewöhnlich
+        transparente medizinische Kommunikation.</p>
+        <p class="vb-intro"><strong>c) Fortsetzung des öffentlichen Wirkens kurz danach:</strong>
+        Bereits kurze Zeit nach dem Eingriff nahm Sadhguru wieder öffentliche Termine wahr,
+        wenn auch zunächst in reduziertem Umfang.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite mediale Aufmerksamkeit:</strong>
+        Die Nachricht von der Notoperation eines der bekanntesten spirituellen Lehrer der
+        Gegenwart löste international Berichterstattung und eine Welle öffentlicher
+        Anteilnahme aus.</p>
+        <p class="vb-intro"><strong>b) Fragen nach der Selbstwahrnehmung eines Gesundheitslehrers:</strong>
+        Da Sadhguru selbst regelmäßig über Körperbewusstsein und Selbstfürsorge lehrt, warf
+        der Vorfall bei manchen Beobachtern die Frage auf, warum die eigenen Warnsignale so
+        lange ignoriert wurden.</p>
+        <p class="vb-intro"><strong>c) Keine grundsätzliche Neuausrichtung des Lebensstils:</strong>
+        Trotz der Warnung durch die eigene Erkrankung setzte Sadhguru sein intensives
+        Reise- und Vortragsprogramm nach der Genesung im Wesentlichen fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Funktionieren als Standardreaktion auf Schmerz:</strong>
+        Die SE3-typische Ausrichtung auf Wirksamkeit statt Selbstinszenierung zeigte sich
+        auch darin, dass Sadhguru wochenlange Kopfschmerzen nicht zum Anlass für einen
+        Rückzug nahm, sondern seinen Terminkalender unverändert fortführte.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel und die offene Kommunikation nach außen:</strong>
+        Dass die Isha Foundation die Diagnose und Behandlung transparent öffentlich machte,
+        passt zur Zweierflügel-typischen Zuwendung: Selbst im eigenen medizinischen
+        Ausnahmezustand blieb der Impuls erhalten, die Millionen Anhänger nicht im
+        Ungewissen zu lassen, sondern einzubeziehen.</p>
+        <p class="vb-intro"><strong>c) Schnelle Rückkehr in die Wirksamkeit:</strong>
+        Die rasche Wiederaufnahme öffentlicher Termine nach der Operation folgt demselben
+        SE3-Muster wie das Ignorieren der Symptome zuvor: Selbstwert über Funktionieren, kaum
+        Raum für eine längere Pause.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Lehrer der Körperwahrnehmung, der die eigenen Warnsignale überging:</strong>
+        Sadhgurus gesamtes Werk kreist um die Idee, den eigenen Körper und Geist bewusst
+        wahrzunehmen und zu kultivieren – ausgerechnet er ignorierte wochenlange
+        Kopfschmerzen, bis eine Notoperation unausweichlich wurde.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet der Kopf, das Zentrum seiner Lehre?</strong>
+        Für einen selbsterhaltenden Typ 3 mit Zweierflügel, dessen gesamte öffentliche
+        Autorität auf innerer Klarheit und bewusster Körperbeherrschung beruhte, liegt eine
+        Deutung nahe: Ausgerechnet jenes Organ, mit dem er Millionen Menschen "inneres
+        Engineering" lehrte, wurde zum Ort einer über Wochen unbemerkt fortschreitenden
+        Blutung. Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
+        Hirnblutungen führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Sadhgurus Fall zeigen lässt, ist ein
+        Muster im Umgang mit körperlichen Warnsignalen, das bei einem ausgeprägten
+        selbsterhaltenden Typ 3 immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Sadhguru kennt sein eigenes Muster nicht als Enneagramm-Struktur – der
+        selbsterhaltende Typ 3 hält reflexhaft am eigenen Funktionieren fest, statt
+        körperliche Warnsignale rechtzeitig ernst zu nehmen, und lebt genau dieses Muster bis
+        heute weitgehend unverändert aus. Wer die eigene Neigung, Beschwerden dem
+        Terminkalender unterzuordnen, nicht als Muster erkennt, riskiert, dass der Körper die
+        Pause selbst erzwingt – notfalls durch einen Zusammenbruch.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 3 mit Zweierflügel erklärt bei <strong>Sadhguru</strong> vieles
+        am Verlauf seiner Erkrankung: ein Mann, dessen gesamte öffentliche Autorität auf
+        innerer Klarheit und ungebrochener Wirksamkeit beruhte, musste selbst die Erfahrung
+        machen, dass wochenlanges Funktionieren körperliche Warnsignale nicht zum
+        Verschwinden bringt – der Waschbär, der so lange weitermachte, bis der Körper die
+        Notbremse zog.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}
     </div>
   `);
@@ -126883,6 +127051,7 @@ function render() {
       "krankheitsportraets-fritz-perls": fritzPerlsKrankheitsportraetPage,
       "krankheitsportraets-julian-assange": julianAssangeKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
+      "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,
