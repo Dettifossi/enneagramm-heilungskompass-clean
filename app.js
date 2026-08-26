@@ -24075,6 +24075,7 @@ const registerEntries = [
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
+  { term: "Romy Schneider Krankheitsporträt", route: "krankheitsportraets-romy-schneider", description: "Portrait: SO4w3 · Sozialer Typ 4 · Nierenoperation, Alkohol- und Tablettenkonsum, ungeklärter Tod 1982" },
   { term: "Konrad Adenauer Krankheitsporträt", route: "krankheitsportraets-konrad-adenauer", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Gesichtsverletzung durch Autounfall, Verfolgung und Haft" },
   { term: "Marilyn Monroe Krankheitsporträt", route: "krankheitsportraets-marilyn-monroe", description: "Portrait: SX3w4 · Sexueller Typ 3 · Endometriose, Schlafmittelabhängigkeit, umstrittene Todesumstände" },
   { term: "Dolly Parton Krankheitsporträt", route: "krankheitsportraets-dolly-parton", description: "Portrait: SX3w4 · Sexueller Typ 3 · Endometriose seit den 1980ern, Teilhysterektomie, Krebserkrankung" },
@@ -25435,6 +25436,7 @@ const registerEntriesEN = [
   { term: "Friedrich Schiller Illness Portrait", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexual Type 6 · pulmonary tuberculosis, fourteen years of work against his own decline" },
   { term: "Ludwig van Beethoven Illness Portrait", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexual Type 6 · progressive deafness and liver cirrhosis" },
   { term: "Michael Jackson Illness Portrait", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Social Type 4 · decades-long dependence on pain and sleep medication" },
+  { term: "Romy Schneider Illness Portrait", route: "krankheitsportraets-romy-schneider", description: "Portrait: SO4w3 · Social Type 4 · kidney surgery, alcohol and pill dependency, unresolved 1982 death" },
   { term: "Konrad Adenauer Illness Portrait", route: "krankheitsportraets-konrad-adenauer", description: "Portrait: SE1w9 · Self-Preservation Type 1 · facial injury from car accident, persecution and imprisonment" },
   { term: "Marilyn Monroe Illness Portrait", route: "krankheitsportraets-marilyn-monroe", description: "Portrait: SX3w4 · Sexual Type 3 · endometriosis, sleeping pill dependency, disputed circumstances of death" },
   { term: "Dolly Parton Illness Portrait", route: "krankheitsportraets-dolly-parton", description: "Portrait: SX3w4 · Sexual Type 3 · endometriosis since the 1980s, partial hysterectomy, cancer" },
@@ -32252,6 +32254,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexueller Typ 3", krankheit:"Endometriose seit den frühen 1980ern, zuletzt Krebserkrankung", teaser:"SX3w4 – Sängerin, Songwriterin, 1946–2026. Anfang der 1980er-Jahre diagnostizierte Endometriose mit Teilhysterektomie 1985, jahrzehntelang wiederkehrende Gesundheitskrisen. Starb am 25. August 2026 nach kurzer Krebserkrankung. Verknüpft mit Marilyn Monroe (ebenfalls SX3w4, ebenfalls Endometriose)." , land:"USA", gender:"f", jahre:"1946–2026"},
+  { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Sozialer Typ 4", krankheit:"Nierenoperation, eskalierender Alkohol- und Tablettenkonsum, ungeklärter Tod", teaser:"SO4w3 – Schauspielerin, 1938–1982. Schwere Nierenoperation, Suizid ihres ersten Mannes Harry Meyen 1979, tödlicher Unfall ihres Sohnes David 1981. Starb am 29. Mai 1982 offiziell an Herzversagen, ohne Obduktion. Verknüpft mit Michael Jackson (ebenfalls SO4w3, ebenfalls Substanzabhängigkeit hinter makelloser Fassade)." , land:"Österreich/Deutschland", gender:"f", jahre:"1938–1982"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -76416,6 +76419,7 @@ function michaelJacksonKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-romy-schneider", label:"Krankheitsporträt: Romy Schneider (SO4w3)"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – dieselbe Verbergungsstrategie"},
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
@@ -80778,6 +80782,192 @@ function dollyPartonKrankheitsportraetPage() {
         {route:"krankheitsportraets-marilyn-monroe", label:"Krankheitsporträt: Marilyn Monroe (SX3w4)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
+      ])}
+    </div>
+  `);
+}
+
+function romySchneiderKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-romy-schneider-portrait.jpg" alt="Romy Schneider" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Romy Schneider</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel · 1938–1982</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Romy Schneider</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-romy-schneider">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
+        schwere Nierenoperation, jahrelanger, zuletzt außer Kontrolle geratener Alkohol- und
+        Tablettenkonsum, der Suizid ihres ersten Mannes 1979, der tragische Tod ihres Sohnes
+        David 1981 – und ihr eigener, bis heute nicht restlos geklärter Tod 1982 im Alter von
+        nur 43 Jahren.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Schneider</strong> ist dem <strong>sozialen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SO4 trägt den Schmerz der Vier in die soziale Dimension – Scham, das
+        tiefe Gefühl, nicht gut genug für die Welt zu sein, in der man lebt. Der Dreierflügel
+        treibt zugleich unaufhörlich zu Leistung und öffentlicher Präsenz. Genau dieser
+        Widerspruch – die Bühne brauchen und an ihr zugrunde gehen – bestimmte auch ihren
+        letzten Lebensabschnitt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine schwere Nierenoperation:</strong>
+        Schneider musste sich einer ernsten Nierenoperation unterziehen, von der sie sich nach
+        Einschätzung von Weggefährten nie vollständig erholte – ein körperlicher Einschnitt, der
+        ihre ohnehin fragile Konstitution weiter schwächte.</p>
+        <p class="vb-intro"><strong>b) Der Suizid ihres ersten Mannes 1979:</strong>
+        Ihr erster Ehemann, der Regisseur Harry Meyen und Vater ihres Sohnes David, nahm sich am
+        15. April 1979 in Hamburg das Leben – ein Verlust, der Schneider tief erschütterte, noch
+        bevor die eigentliche Tragödie ihres Lebens folgen sollte.</p>
+        <p class="vb-intro"><strong>c) Jahrelange, zunehmend unkontrollierte Diäten, Alkohol- und Tablettenkonsum:</strong>
+        Bereits vor den großen Verlusten der letzten Lebensjahre begleiteten strenge Diäten,
+        Alkohol und Beruhigungsmittel Schneiders Alltag über zwei Jahrzehnte hinweg – ein
+        Muster, das sich in den letzten Jahren zunehmend verschärfte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Tod ihres Sohnes David am 5. Juli 1981:</strong>
+        Der vierzehnjährige David verletzte sich beim Klettern über einen spitzen Zaun am Haus
+        von Schneiders Lebensgefährten tödlich und starb an den Folgen einer Operation zur
+        Behebung der inneren Verletzungen – ein Schlag, von dem sich Schneider öffentlich sichtbar
+        nie wieder erholte.</p>
+        <p class="vb-intro"><strong>b) Eskalierender Alkoholkonsum als Betäubung:</strong>
+        Nach Davids Tod trank Schneider nach übereinstimmenden Berichten aus ihrem Umfeld stark,
+        offenkundig in dem Versuch, den Schmerz über den Verlust zu betäuben – bei mehreren
+        Dreharbeiten in dieser Zeit erschien sie alkoholisiert oder blieb den Sets ganz fern.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeit trotz sichtbaren Zusammenbruchs:</strong>
+        Statt sich zurückzuziehen, arbeitete Schneider auch in dieser Zeit weiter vor der Kamera
+        – ihr letzter Film, <em>La Passante du Sans-Souci</em>, entstand kurz vor ihrem Tod, mit
+        einer Rolle, die ihre eigene Erschöpfung kaum noch verbergen konnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Gefunden am Schreibtisch, in der Nacht zum 29. Mai 1982:</strong>
+        Ihr damaliger Lebensgefährte, der Filmproduzent Laurent Pétin, fand Schneider frühmorgens
+        zusammengebrochen an ihrem Schreibtisch in ihrer Pariser Wohnung – neben ihr ein
+        unvollendeter, handschriftlicher Brief.</p>
+        <p class="vb-intro"><strong>b) Offizielle Todesursache Herzversagen, keine Obduktion:</strong>
+        Als offizielle Todesursache wurde Herzversagen festgestellt; eine Obduktion fand nicht
+        statt – ein Umstand, der bis heute Spekulationen über die genauen Umstände ihres Todes
+        nährt, darunter auch die nie belegte Vermutung eines Suizids durch Tabletten.</p>
+        <p class="vb-intro"><strong>c) Ein Geflecht mehrerer erschöpfender Faktoren:</strong>
+        Biografen beschreiben ihren Tod übereinstimmend als Ergebnis mehrerer zusammenwirkender
+        Belastungen: der Schmerz über David, die Folgen der Nierenoperation, zwei Jahrzehnte
+        strenger Diäten sowie Alkohol- und Tablettenkonsum – keine einzelne Ursache, sondern ein
+        Körper, der sich nach Jahren der Überforderung erschöpft zurückzog.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein öffentliches Bild, das den privaten Zerfall lange überstrahlte:</strong>
+        Für das Publikum blieb Schneider bis zuletzt der glanzvolle europäische Filmstar – die
+        wachsende private Krise wurde erst nach ihrem Tod in ihrer vollen Tragweite sichtbar.</p>
+        <p class="vb-intro"><strong>b) Nur zehneinhalb Monate zwischen den beiden Todesfällen:</strong>
+        Zwischen Davids Tod im Juli 1981 und Romy Schneiders eigenem Tod im Mai 1982 lagen keine
+        elf Monate – eine so kurze Zeitspanne, dass die Öffentlichkeit den Zusammenhang zwischen
+        beiden Ereignissen kaum übersehen konnte.</p>
+        <p class="vb-intro"><strong>c) Ein bis heute nachwirkender Mythos:</strong>
+        Die ungeklärten Umstände ihres Todes – keine Obduktion, ein unvollendeter Brief, Jahre
+        der öffentlich sichtbaren Erschöpfung – haben Romy Schneiders letzte Lebensjahre zu einem
+        der meistdiskutierten Kapitel der europäischen Filmgeschichte gemacht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Gürteltier, das sich nach außen weiter zeigte, während es innen zusammenbrach:</strong>
+        Die SO4-typische Scham – das Gefühl, der eigenen Rolle und den Erwartungen anderer nicht
+        zu genügen – ließ Schneider auch im tiefsten privaten Schmerz weiter vor der Kamera
+        erscheinen, statt sich offen zurückzuziehen.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und die Unfähigkeit, die Bühne loszulassen:</strong>
+        Derselbe Antrieb, der ihre Karriere über Jahrzehnte trug – Leistung, Professionalität,
+        das Bedürfnis, gebraucht zu werden –, ließ sie auch dann noch drehen, als ihr Körper und
+        ihre Psyche längst erschöpft waren.</p>
+        <p class="vb-intro"><strong>c) Betäubung statt sichtbarer Verzweiflung:</strong>
+        Statt öffentlich zusammenzubrechen, betäubte sie den Schmerz mit Alkohol und
+        Tabletten – eine stille, nach innen gerichtete Bewältigungsstrategie, die dem
+        Rückzugsmuster des Gürteltiers entspricht: sich einrollen, statt sich zu zeigen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Panzer, der zuletzt nur noch nach außen hielt:</strong>
+        Schneiders gesamtes öffentliches Bild beruhte auf einer makellosen, glanzvollen Fassade
+        – genau diese Fassade hielt bis fast zuletzt, während sich dahinter über Jahre eine
+        körperliche und seelische Erschöpfung aufbaute, die niemand von außen ganz ermessen
+        konnte.</p>
+        <p style="background:rgba(74,127,145,0.12);border-radius:8px;padding:0.9rem 1.1rem;margin:1rem 0;"><strong>Eine auffällige Parallele im selben Subtyp – Michael Jackson:</strong>
+        Bemerkenswert ist, dass mit <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">Michael Jackson (ebenfalls SO4w3)</a>
+        eine weitere Persönlichkeit in diesem Kompass vertreten ist, deren Krankengeschichte
+        auffällig ähnlich verläuft: beide sozialen Vierer mit Dreierflügel, beide mit einer
+        über Jahre gepflegten öffentlichen Fassade aus Leistung und Perfektion, beide mit einer
+        wachsenden Abhängigkeit von Substanzen – bei Jackson Schmerz- und Schlafmittel, bei
+        Schneider Alkohol und Tabletten –, die den unerträglichen inneren Schmerz betäuben
+        sollten, statt ihn sichtbar zu machen. Und beide starben in einem medizinisch nie ganz
+        eindeutig geklärten Zusammenhang aus genau dieser Selbstmedikation heraus.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet das Herz, bei einer Frau, deren ganzes Leben dem Fühlen gewidmet war?</strong>
+        Für eine soziale Vier, deren gesamtes künstlerisches Werk auf der Fähigkeit beruhte,
+        Gefühl ungefiltert zuzulassen und zu zeigen, liegt eine Deutung nahe: Ausgerechnet jenes
+        Organ, das im Enneagramm für das Herzzentrum und die emotionale Tiefe steht, wurde zum
+        Schauplatz des endgültigen Zusammenbruchs, nachdem es über Jahrzehnte mehr Gefühl
+        getragen hatte, als ein Mensch verarbeiten kann. Diese Deutung ist eine plausible
+        Interpretation, kein belegter medizinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Herzversagen oder
+        Suchterkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Schneiders Fall zeigen lässt, ist ein Muster im Umgang
+        mit unbewältigtem Verlust, das bei einer ausgeprägten sozialen Vier mit Dreierflügel
+        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Nichts deutet darauf hin, dass Schneider ihr eigenes Enneagramm-Muster je bewusst kannte
+        – das System war zu ihren Lebzeiten noch kaum verbreitet. Sie lebte die Scham und den
+        Neid der Vier über Jahrzehnte ungebremst aus: Statt den eigenen Schmerz früh
+        anzuerkennen und sich Hilfe zu holen, hielt sie an der öffentlichen Fassade fest und
+        betäubte das, was dahinter lag. Wer die eigene Wunde nicht als wiederkehrendes Muster
+        erkennt, kann ihr auch nicht rechtzeitig begegnen, wenn gleich zwei existenzielle
+        Verluste – der Vater ihres Sohnes 1979, ihr Sohn selbst 1981 – kurz hintereinander
+        eintreffen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Ende ihres Lebens lässt sich <strong>Romy Schneiders</strong> soziale Vier mit
+        Dreierflügel noch einmal ablesen: eine Frau, die bis zuletzt vor der Kamera stand,
+        während sie innerlich unter dem Gewicht zweier existenzieller Verluste zusammenbrach,
+        und deren Tod – ungeklärt, ohne Obduktion, mit einem unvollendeten Brief neben sich –
+        selbst zu einem letzten, offen gebliebenen Kapitel ihrer Geschichte wurde. Das
+        Gürteltier, das sich der Welt bis zum letzten Dreh zeigte – und sich dann, ganz allein,
+        endgültig einrollte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-michael-jackson", label:"Krankheitsporträt: Michael Jackson (SO4w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
     </div>
   `);
@@ -130323,6 +130513,7 @@ function render() {
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
+      "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,

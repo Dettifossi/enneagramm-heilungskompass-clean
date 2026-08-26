@@ -291,6 +291,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexual Type 7", krankheit:"Stomach cancer, continued working until a few months before death", teaser:"SX7w6 – primatologist, 1948–2024. Stomach cancer diagnosis in August 2023, remained publicly and scientifically active, died on March 14, 2024, at age 75." , land:"Netherlands/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexual Type 3", krankheit:"Endometriosis since the early 1980s, later cancer", teaser:"SX3w4 – singer, songwriter, 1946–2026. Endometriosis diagnosed in the early 1980s with a partial hysterectomy in 1985, decades of recurring health crises. Died on August 25, 2026, following a brief battle with cancer. Connected to Marilyn Monroe (also SX3w4, also endometriosis)." , land:"USA", gender:"f", jahre:"1946–2026"},
+  { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Social Type 4", krankheit:"Kidney surgery, escalating alcohol and pill dependency, unresolved death", teaser:"SO4w3 – actress, 1938–1982. Severe kidney operation, suicide of her first husband Harry Meyen in 1979, fatal accident of her son David in 1981. Died on May 29, 1982, officially of heart failure, no autopsy performed. Connected to Michael Jackson (also SO4w3, also substance dependency behind a flawless façade)." , land:"Austria/Germany", gender:"f", jahre:"1938–1982"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -48788,8 +48789,187 @@ function michaelJacksonKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3) – life's work"},
+        {route:"krankheitsportraets-romy-schneider", label:"Illness Portrait: Romy Schneider (SO4w3)"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same concealment strategy"},
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Illness Portrait: Ludwig van Beethoven (SX6w5) – counter-model: open confrontation"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so4", label:"Subtype Profile SO4"},
+      ])}
+    </div>
+  `);
+}
+
+function romySchneiderKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-romy-schneider-portrait.jpg" alt="Romy Schneider" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Romy Schneider</p>
+        <p class="krim-portrait-typ">SO4w3 · Social Type 4 with Three-wing · 1938–1982</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Romy Schneider</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-romy-schneider">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life's work and type structure in general. This
+        portrait is devoted to a chapter barely present there: a severe kidney operation, years
+        of alcohol and pill use that eventually spiraled out of control, the suicide of her
+        first husband in 1979, the tragic death of her son David in 1981 – and her own,
+        still not fully resolved death in 1982 at only 43 years old.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Schneider</strong> is classified as the <strong>Social Four with Three-wing</strong>.
+        SO4 carries the Four's pain into the social dimension – shame, the deep sense of not
+        being good enough for the world one lives in. The Three-wing simultaneously drives an
+        unrelenting need for achievement and public presence. Exactly this contradiction –
+        needing the stage and being consumed by it – also defined her final years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A severe kidney operation:</strong>
+        Schneider had to undergo a serious kidney operation, from which, according to those
+        around her, she never fully recovered – a physical setback that further weakened her
+        already fragile constitution.</p>
+        <p class="vb-intro"><strong>b) The suicide of her first husband in 1979:</strong>
+        Her first husband, director Harry Meyen and father of her son David, took his own life
+        in Hamburg on 15 April 1979 – a loss that shook Schneider deeply, even before the true
+        tragedy of her life was still to come.</p>
+        <p class="vb-intro"><strong>c) Years of increasingly uncontrolled dieting, alcohol, and pill use:</strong>
+        Even before the great losses of her final years, strict diets, alcohol, and
+        tranquilizers had accompanied Schneider's daily life for two decades – a pattern that
+        escalated sharply in her last years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The death of her son David on 5 July 1981:</strong>
+        Fourteen-year-old David suffered a fatal injury climbing over a spiked fence at the
+        home of Schneider's partner and died from the resulting internal injuries after
+        surgery – a blow from which Schneider visibly never recovered in public.</p>
+        <p class="vb-intro"><strong>b) Escalating alcohol use as numbing:</strong>
+        After David's death, Schneider drank heavily, according to consistent accounts from
+        those around her, evidently trying to numb the pain of the loss – during several film
+        shoots in this period she appeared intoxicated or failed to show up on set at all.</p>
+        <p class="vb-intro"><strong>c) Continuing to work despite a visible breakdown:</strong>
+        Rather than withdrawing, Schneider kept working in front of the camera even during
+        this time – her final film, <em>La Passante du Sans-Souci</em>, was made shortly
+        before her death, in a role that could barely conceal her own exhaustion.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Found at her desk, on the night of 29 May 1982:</strong>
+        Her partner at the time, film producer Laurent Pétin, found Schneider collapsed at her
+        desk early in the morning in her Paris apartment – beside her, an unfinished
+        handwritten letter.</p>
+        <p class="vb-intro"><strong>b) Official cause of death heart failure, no autopsy performed:</strong>
+        The official cause of death was recorded as heart failure; no autopsy was performed –
+        a circumstance that continues to fuel speculation about the exact circumstances of her
+        death to this day, including the never-confirmed suspicion of suicide by pills.</p>
+        <p class="vb-intro"><strong>c) A web of several exhausting factors:</strong>
+        Biographers consistently describe her death as the result of several combined
+        burdens: the pain over David, the aftereffects of the kidney operation, two decades
+        of strict dieting, and alcohol and pill use – not a single cause, but a body that
+        withdrew, exhausted, after years of overload.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A public image that long outshone the private collapse:</strong>
+        To the public, Schneider remained the glamorous European film star until the very end
+        – the growing private crisis only became fully visible after her death.</p>
+        <p class="vb-intro"><strong>b) Barely ten and a half months between the two deaths:</strong>
+        Between David's death in July 1981 and Romy Schneider's own death in May 1982 lay less
+        than eleven months – a span so short that the public could hardly overlook the
+        connection between the two events.</p>
+        <p class="vb-intro"><strong>c) A myth that still resonates today:</strong>
+        The unresolved circumstances of her death – no autopsy, an unfinished letter, years
+        of publicly visible exhaustion – have made Romy Schneider's final years one of the
+        most discussed chapters in European film history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Expression</h3>
+        <p class="vb-intro"><strong>a) The armadillo that kept showing itself outwardly while collapsing within:</strong>
+        The SO4's characteristic shame – the feeling of failing to live up to one's role and
+        others' expectations – kept Schneider appearing in front of the camera even in her
+        deepest private pain, rather than withdrawing openly.</p>
+        <p class="vb-intro"><strong>b) The Three-wing and the inability to let go of the stage:</strong>
+        The same drive that had carried her career for decades – achievement,
+        professionalism, the need to be needed – kept her filming even once her body and mind
+        were already exhausted.</p>
+        <p class="vb-intro"><strong>c) Numbing instead of visible despair:</strong>
+        Rather than breaking down publicly, she numbed the pain with alcohol and pills – a
+        quiet, inward-directed coping strategy that matches the armadillo's pattern of
+        retreat: curling in on itself rather than showing itself.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A shell that, in the end, only held from the outside:</strong>
+        Schneider's entire public image rested on a flawless, glamorous façade – that same
+        façade held almost to the very end, while behind it, over years, a physical and
+        psychological exhaustion built up that no one on the outside could fully gauge.</p>
+        <p style="background:rgba(74,127,145,0.12);border-radius:8px;padding:0.9rem 1.1rem;margin:1rem 0;"><strong>A striking parallel within the same subtype – Michael Jackson:</strong>
+        Notably, this Compass also features <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">Michael Jackson (also SO4w3)</a>,
+        whose illness history runs strikingly parallel: both Social Fours with a Three-wing,
+        both maintaining a years-long public façade of achievement and perfection, both with a
+        growing dependence on substances – for Jackson, pain and sleep medication, for
+        Schneider, alcohol and pills – meant to numb unbearable inner pain rather than let it
+        become visible. And both died in circumstances never fully medically resolved,
+        arising precisely from that same self-medication.</p>
+        <p class="vb-intro"><strong>b) Why precisely the heart, for a woman whose whole life was devoted to feeling?</strong>
+        For a Social Four whose entire artistic work rested on the ability to let feeling
+        through unfiltered and show it, one interpretation suggests itself: precisely the
+        organ that, in the Enneagram, stands for the Heart Center and emotional depth became
+        the site of the final collapse, after carrying more feeling for decades than a
+        person can process. This interpretation is a plausible reading, not a proven medical
+        causal link, and is explored further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>c) Context without determinism:</strong>
+        This does not mean the pattern of the Social Four inevitably leads to heart failure
+        or addiction – <strong>anyone can develop any illness, regardless of subtype.</strong>
+        What Schneider's case illustrates is a pattern in how unprocessed loss was handled,
+        one that recurs again and again in a pronounced Social Four with a Three-wing – one
+        interpretation among many, not a judgment. This illness pattern is being developed
+        step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Nothing suggests that Schneider ever consciously knew her own Enneagram pattern – the
+        system was barely known during her lifetime. She lived out the Four's shame and envy
+        unchecked for decades: instead of acknowledging her own pain early and seeking help,
+        she held on to the public façade and numbed what lay behind it. Whoever does not
+        recognize their own wound as a recurring pattern also cannot meet it in time, when two
+        existential losses – her son's father in 1979, her son himself in 1981 – arrive in
+        such close succession.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Even at the end of her life, <strong>Romy Schneider's</strong> Social Four with a
+        Three-wing can be read once more: a woman who stood in front of the camera to the
+        very end, while collapsing inwardly under the weight of two existential losses, and
+        whose death – unresolved, without an autopsy, with an unfinished letter beside her –
+        became a final, still-open chapter of her own story. The armadillo that kept showing
+        itself to the world right up to its last shoot – and then, entirely alone, finally
+        curled in on itself for good.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3) – life's work"},
+        {route:"krankheitsportraets-michael-jackson", label:"Illness Portrait: Michael Jackson (SO4w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -94209,6 +94389,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
+      "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,
       "krankheitsportraets-francis-bacon": francisBaconKrankheitsportraetPage,
