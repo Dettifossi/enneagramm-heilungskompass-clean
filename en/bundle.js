@@ -249,6 +249,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
   { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Self-Preservation Type 5", krankheit:"Chronic lung disease from glass dust", teaser:"SP5w6 – rationalist philosopher, 1632–1677. Decades of inhaling glass dust while grinding lenses, likely cause of his fatal lung disease. Died on February 21, 1677, in The Hague at age 44." , land:"Netherlands", gender:"m", jahre:"1632–1677"},
+  { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Self-Preservation Type 5", krankheit:"Migraine, eye ailments, recurring depressive crises", teaser:"SP5w6 – writer, Nobel laureate, 1877–1962. Lifelong severe migraines, chronic eye ailments, nervous breakdown in 1916, psychoanalysis with a student of C. G. Jung. Died in 1962 in his sleep in Montagnola at age 85." , land:"Germany/Switzerland", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -34311,6 +34312,7 @@ function hermannHessePortraitPage() {
         {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
         {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SP5w6)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
+        {route:"krankheitsportraets-hermann-hesse", label:"Illness Portrait: Hermann Hesse (SP5w6) – migraine and depression"},
       ])}
     </div>
   `);
@@ -53799,6 +53801,184 @@ function spinozaKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SP5w6) – philosopher"},
         {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SP5w6) – fatal consequence of her own research"},
+        {route:"krankheitsportraets-hermann-hesse", label:"Illness Portrait: Hermann Hesse (SP5w6) – same withdrawal logic, different illness"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se5", label:"Subtype Profile SP5"},
+      ])}
+    </div>
+  `);
+}
+
+function hermannHesseKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hermann-hesse-portrait.jpg" alt="Hermann Hesse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hermann Hesse</p>
+        <p class="krim-portrait-typ">SP5w6 · Self-Preservation Type 5 with Six-wing · 1877–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Owl</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hermann Hesse</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-hermann-hesse">famous-personality portrait</a>
+        – that page covers his radical withdrawal to Ticino and his literary work on the
+        individual between two worlds. This page goes deeper into a chapter mentioned there
+        only in passing: lifelong severe migraines, chronic eye ailments, and recurring
+        depressive crises that accompanied him from youth into old age.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Hesse</strong> is assigned to the <strong>Self-Preservation Type 5 with
+        Six-wing</strong>. SP5 builds a "fortress" – a strictly controlled territory that
+        filters closeness and keeps burden at bay. This same principle also determined how he
+        handled his chronic afflictions: not through treatment within the ordinary social
+        sphere, but through self-chosen, tightly controlled therapeutic and literary
+        processing within his own fortress.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First severe crisis at fifteen:</strong>
+        After breaking out of the Maulbronn seminary in 1892, Hesse suffered a severe
+        psychological breakdown and was briefly committed to a psychiatric institution – the
+        first of a lifelong series of depressive crises.</p>
+        <p class="vb-intro"><strong>b) Migraines beginning in early adulthood:</strong>
+        Already in his twenties, severe migraine attacks began, which from then on regularly
+        left him unable to work for days at a time – an affliction that accompanied him
+        throughout his life.</p>
+        <p class="vb-intro"><strong>c) Growing eye problems alongside the migraines:</strong>
+        Chronic eye ailments joined the migraines and at times worsened so severely that
+        reading and writing – the very foundation of his entire work – became barely
+        possible.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Nervous breakdown in 1916:</strong>
+        The death of his father, his youngest son's severe illness, and the deepening
+        psychiatric crisis of his first wife Maria Bernoulli led to another severe breakdown
+        in 1916.</p>
+        <p class="vb-intro"><strong>b) Psychoanalysis as a controlled framework:</strong>
+        Rather than turning to social bonds, Hesse underwent psychoanalysis with Josef
+        Bernhard Lang, a student of C. G. Jung – more than 60 sessions within a strictly
+        bounded, therapeutic setting.</p>
+        <p class="vb-intro"><strong>c) Withdrawal to Ticino as a lasting solution:</strong>
+        In 1919 he left Germany and his family for good and moved alone to Montagnola – a
+        move that followed directly on the heels of the most severe of his crises up to that
+        point.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Recurring crises into old age:</strong>
+        Even after the move to Ticino, depressive phases, migraines and eye ailments remained
+        part of his everyday life – the new environment eased the symptoms but did not
+        eliminate them.</p>
+        <p class="vb-intro"><strong>b) A strictly controlled daily routine as a coping strategy:</strong>
+        Hesse organized his life around a precisely regulated rhythm of writing, gardening
+        and painting – a structure that helped him manage the recurring episodes without
+        making them public.</p>
+        <p class="vb-intro"><strong>c) Literary rather than personal processing:</strong>
+        His crises flowed directly into his work – "Steppenwolf" (1927) is considered a
+        direct literary processing of a particularly severe depressive phase in the 1920s.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A body of work drawn from his own suffering:</strong>
+        Precisely because Hesse described his inner crises so precisely and without
+        embellishment, generations of readers who experienced themselves as outsiders found
+        themselves reflected in his books.</p>
+        <p class="vb-intro"><strong>b) A Nobel Prize he did not accept in person:</strong>
+        When he received the Nobel Prize in Literature in 1946, he did not travel to
+        Stockholm in person – true to his logic of withdrawal, and possibly also for health
+        reasons.</p>
+        <p class="vb-intro"><strong>c) A life that, despite everything, lasted 85 years:</strong>
+        Unlike some other illness histories in this Compass, Hesse's chronic afflictions did
+        not lead to an early death – he died in 1962 in his sleep, at an advanced age, in the
+        same self-chosen environment that had taken him in decades earlier.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The fortress that also filtered his own illness:</strong>
+        The same radical control over closeness that shaped Hesse's entire life also
+        determined how he handled his crises – never in unfiltered social relationships, but
+        always within strictly bounded frameworks: therapy, correspondence, literary
+        processing.</p>
+        <p class="vb-intro"><strong>b) The Six-wing and watchful concern for himself:</strong>
+        The same watchful, almost anxious attentiveness that placed him sharply against the
+        war enthusiasm of 1914 also turned inward – a constant monitoring of his own
+        psychological state that led him to seek professional help early rather than
+        suppress the crisis.</p>
+        <p class="vb-intro"><strong>c) No public testimony, but a literary one:</strong>
+        Unlike some other cases in this Compass, Hesse rarely spoke publicly about his
+        suffering – yet his work itself became an indirect, extensive testimony to this inner
+        struggle.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A mind that became its own burden:</strong>
+        Hesse's entire life was shaped by the conviction that undisturbed introspection could
+        only be secured through radical withdrawal – migraines, eye ailments and depression
+        were threats that manifested precisely in the organ this withdrawal needed most: his
+        own head.</p>
+        <p class="vb-intro"><strong>b) A Parallel in the Same Subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-spinoza">Baruch de Spinoza</a>
+        (also SP5w6) died of a lung disease that arose from his own craft; Hesse suffered from
+        migraines and depression his entire life without dying from them. Both cases show the
+        same core structure of SP5 from different angles: where Spinoza kept almost entirely
+        silent about his suffering, Hesse processed his systematically in therapy and
+        literature – two variants of the same withdrawal pattern, one fatal, one lifelong but
+        bearable. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-spinoza">illness portrait on Spinoza</a>.</p>
+        <p class="vb-intro"><strong>c) Why the head and eyes, of all places?</strong>
+        For a Self-Preservation Five with Six-wing whose entire strength rested on
+        observation, reading and intense mental processing, one interpretation suggests
+        itself: precisely the organs that enabled his quiet observation of the world and his
+        own inner world became the site of recurring suffering – as if the intense,
+        inward-directed observation eventually turned against seeing and thinking
+        themselves. This interpretation is a plausible reading, not a documented historical
+        causal link, and is developed further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of Self-Preservation Five inevitably leads to migraine
+        or depression – <strong>anyone can develop any illness, regardless of subtype.</strong>
+        What Hesse's case shows is a pattern in how a pronounced Self-Preservation Five with
+        Six-wing repeatedly deals with chronic psychological and physical suffering – one
+        possible reading among many, not a verdict. The corresponding illness profile is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Hesse did not know his own pattern – Self-Preservation Five with Six-wing reflexively
+        secures its own controlled inner world rather than ever fully engaging with social
+        support in dealing with its own illness, and he lived out exactly this pattern
+        unchanged into old age. Whoever does not recognize their own need to manage every
+        crisis within their own fortress as a pattern carries it alone for a lifetime.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Self-Preservation Five with Six-wing explains much about the course of
+        <strong>Hesse's</strong> own illness: a man whose entire strength rested on quiet
+        observation and processing carried his heaviest crises alone for decades – the owl
+        that never quite found rest, even in its own safe garden.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-hermann-hesse", label:"Portrait: Hermann Hesse (SP5w6) – writer"},
+        {route:"krankheitsportraets-spinoza", label:"Illness Portrait: Baruch de Spinoza (SP5w6) – same withdrawal logic, different illness"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se5", label:"Subtype Profile SP5"},
       ])}
@@ -86920,6 +87100,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
       "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
+      "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

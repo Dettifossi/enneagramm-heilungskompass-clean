@@ -24023,6 +24023,7 @@ const registerEntries = [
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
   { term: "Richard Ramírez Krankheitsporträt", route: "krankheitsportraets-richard-ramirez", description: "Portrait: SX3w4 · Sexueller Typ 3 · B-Zell-Lymphom in der Todeszelle" },
   { term: "Baruch de Spinoza Krankheitsporträt", route: "krankheitsportraets-spinoza", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Chronische Lungenerkrankung durch Glasstaub" },
+  { term: "Hermann Hesse Krankheitsporträt", route: "krankheitsportraets-hermann-hesse", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Migräne, Augenleiden, depressive Krisen" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32156,6 +32157,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Sozialer Typ 3", krankheit:"Prostatakrebs", teaser:"SO3w4 – NFL-Legende und Protagonist des Prozesses des Jahrhunderts, 1947–2024. 2023 Prostatakrebs diagnostiziert, weitgehend vor der Öffentlichkeit verborgen, gestorben am 10. April 2024 in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexueller Typ 3", krankheit:"B-Zell-Lymphom", teaser:"SX3w4 – ›Der Night Stalker‹, 1960–2013. Diagnose eines B-Zell-Lymphoms in der Todeszelle, gestorben am 7. Juni 2013 in Greenbrae, Kalifornien, vor Vollstreckung des Todesurteils." , land:"USA", gender:"m", jahre:"1960–2013"},
   { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Selbsterhaltender Typ 5", krankheit:"Chronische Lungenerkrankung durch Glasstaub", teaser:"SE5w6 – rationalistischer Philosoph, 1632–1677. Jahrzehntelanges Einatmen von Glasstaub beim Linsenschleifen, vermutliche Ursache seiner tödlichen Lungenerkrankung. Starb am 21. Februar 1677 in Den Haag im Alter von 44 Jahren." , land:"Niederlande", gender:"m", jahre:"1632–1677"},
+  { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Selbsterhaltender Typ 5", krankheit:"Migräne, Augenleiden, wiederkehrende depressive Krisen", teaser:"SE5w6 – Schriftsteller, Nobelpreisträger, 1877–1962. Lebenslange schwere Migräne, chronische Augenleiden, Nervenzusammenbruch 1916, Psychoanalyse bei einem Schüler C. G. Jungs. Starb 1962 im Schlaf in Montagnola im Alter von 85 Jahren." , land:"Deutschland/Schweiz", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44266,7 +44268,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Der Rückzug als bewusst gebaute ›Burg‹ statt bloße Flucht",
         beschreibung: "Der Rückzugsraum ist kein Zeichen von Schwäche, sondern eine aktiv errichtete, geschützte Basis, von der aus beobachtet, gedacht und gearbeitet wird – klein, überschaubar, aber vollständig unter eigener Kontrolle.",
-        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹; Spinoza: ›Die Burg des Denkens‹ – eine Burg, die er selbst dann nicht verließ, als das jahrzehntelange Linsenschleifen ihm die eigene Lunge kostete; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte; Prof. Dr. Ingo Zimmermann, der auf einem Hof lebt und seinen von Hand aufgezogenen Waldkauz Hugo als kontrollierte, sorgfältig dosierte Form von Nähe an seiner Seite trägt – die eigene Tierentsprechung, offenbar unbewusst erkannt und gelebt; Dr. Christian Rätsch, der nicht von Universitätslehrstühlen aus, sondern als unabhängiger Wissenschaftler in seiner eigenen Burg forschte; Vera F. Birkenbihl, die unverheiratet und auf eigene Rechnung arbeitete, ihren eigenen Verlag gründete und ihre eigenen Methoden entwickelte, statt sich einer Institution unterzuordnen."
+        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹ – eine Burg, die auch seine lebenslange Migräne und wiederkehrenden depressiven Krisen nie ganz aus der Öffentlichkeit heraushalten konnte, aber immerhin in einen streng kontrollierten, therapeutischen Rahmen fasste; Spinoza: ›Die Burg des Denkens‹ – eine Burg, die er selbst dann nicht verließ, als das jahrzehntelange Linsenschleifen ihm die eigene Lunge kostete; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte; Prof. Dr. Ingo Zimmermann, der auf einem Hof lebt und seinen von Hand aufgezogenen Waldkauz Hugo als kontrollierte, sorgfältig dosierte Form von Nähe an seiner Seite trägt – die eigene Tierentsprechung, offenbar unbewusst erkannt und gelebt; Dr. Christian Rätsch, der nicht von Universitätslehrstühlen aus, sondern als unabhängiger Wissenschaftler in seiner eigenen Burg forschte; Vera F. Birkenbihl, die unverheiratet und auf eigene Rechnung arbeitete, ihren eigenen Verlag gründete und ihre eigenen Methoden entwickelte, statt sich einer Institution unterzuordnen."
       },
       {
         titel: "Geduldiges Warten, bis das Wissen oder der Moment unangreifbar ist",
@@ -55114,6 +55116,7 @@ function hermannHessePortraitPage() {
         {route:"beruehmte-rene-descartes", label:"Porträt: René Descartes (SE5w6)"},
         {route:"beruehmte-spinoza", label:"Porträt: Baruch de Spinoza (SE5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
+        {route:"krankheitsportraets-hermann-hesse", label:"Krankheitsporträt: Hermann Hesse (SE5w6) – Migräne und Depression"},
       ])}
     </div>
   `);
@@ -82035,6 +82038,191 @@ function spinozaKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-spinoza", label:"Porträt: Baruch de Spinoza (SE5w6) – Philosoph"},
         {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6) – tödliche Folge der eigenen Forschung"},
+        {route:"krankheitsportraets-hermann-hesse", label:"Krankheitsporträt: Hermann Hesse (SE5w6) – dieselbe Rückzugslogik, andere Krankheit"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se5", label:"Subtyp-Profil SE5"},
+      ])}
+    </div>
+  `);
+}
+
+function hermannHesseKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hermann-hesse-portrait.jpg" alt="Hermann Hesse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hermann Hesse</p>
+        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel · 1877–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Eule</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hermann Hesse</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-hermann-hesse">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seinen radikalen Rückzug ins Tessin und
+        sein literarisches Werk über den Einzelnen zwischen zwei Welten. Diese Seite vertieft
+        ein Kapitel, das dort nur am Rande erwähnt wird: lebenslange, schwere Migräne,
+        chronische Augenleiden und wiederkehrende depressive Krisen, die ihn von der Jugend
+        bis ins hohe Alter begleiteten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hesse</strong> ist dem <strong>selbsterhaltenden Typ 5 mit Sechserflügel</strong>
+        zugeordnet. Die SE5 baut sich eine „Burg" – ein streng kontrolliertes Territorium, das
+        Nähe filtert und Belastung fernhält. Genau dieses Prinzip bestimmte auch, wie er mit
+        seinen chronischen Leiden umging: nicht durch Behandlung im gewöhnlichen sozialen
+        Rahmen, sondern durch selbst gewählte, streng kontrollierte therapeutische und
+        literarische Verarbeitung innerhalb der eigenen Burg.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste schwere Krise mit fünfzehn Jahren:</strong>
+        Nach seinem Ausbruch aus dem Klosterseminar Maulbronn 1892 erlitt Hesse einen
+        schweren psychischen Zusammenbruch und wurde zeitweise in eine Nervenheilanstalt
+        eingewiesen – der erste einer lebenslangen Reihe depressiver Krisen.</p>
+        <p class="vb-intro"><strong>b) Migräne seit den frühen Erwachsenenjahren:</strong>
+        Bereits in seinen Zwanzigern begannen die schweren Migräneanfälle, die ihn fortan
+        regelmäßig für Tage arbeitsunfähig machten – ein Leiden, das ihn durch sein gesamtes
+        Leben begleitete.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Augenprobleme parallel zur Migräne:</strong>
+        Chronische Augenleiden traten hinzu und verschärften sich phasenweise so stark, dass
+        Lesen und Schreiben – die Grundlage seines gesamten Schaffens – zeitweise kaum
+        möglich waren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Nervenzusammenbruch 1916:</strong>
+        Der Tod seines Vaters, die schwere Erkrankung seines jüngsten Sohnes und die
+        zunehmende psychische Krise seiner ersten Frau Maria Bernoulli führten 1916 zu einem
+        weiteren, schweren Zusammenbruch.</p>
+        <p class="vb-intro"><strong>b) Psychoanalyse als kontrollierter Rahmen:</strong>
+        Statt sich sozialen Bindungen zuzuwenden, unterzog sich Hesse einer Psychoanalyse bei
+        Josef Bernhard Lang, einem Schüler C. G. Jungs – über 60 Sitzungen innerhalb eines
+        streng abgegrenzten, therapeutischen Settings.</p>
+        <p class="vb-intro"><strong>c) Rückzug ins Tessin als dauerhafte Lösung:</strong>
+        1919 verließ er Deutschland und seine Familie endgültig und zog allein nach
+        Montagnola – ein Umzug, der zeitlich unmittelbar auf die schwerste seiner bisherigen
+        Krisen folgte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Wiederkehrende Krisen bis ins hohe Alter:</strong>
+        Auch nach dem Umzug ins Tessin blieben depressive Phasen, Migräne und Augenleiden
+        Teil seines Alltags – die neue Umgebung linderte die Symptome, beseitigte sie aber
+        nicht.</p>
+        <p class="vb-intro"><strong>b) Streng kontrollierter Tagesablauf als Bewältigungsstrategie:</strong>
+        Hesse organisierte sein Leben um einen exakt geregelten Rhythmus aus Schreiben,
+        Gärtnern und Malen – eine Struktur, die ihm half, mit den wiederkehrenden Episoden
+        umzugehen, ohne sie öffentlich zu machen.</p>
+        <p class="vb-intro"><strong>c) Literarische statt persönliche Verarbeitung:</strong>
+        Seine Krisen flossen unmittelbar in sein Werk ein – „Der Steppenwolf" (1927) gilt als
+        direkte literarische Verarbeitung einer besonders schweren depressiven Phase in den
+        1920er-Jahren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das aus dem eigenen Leiden schöpfte:</strong>
+        Gerade weil Hesse seine inneren Krisen so genau und ohne Beschönigung beschrieb,
+        fanden sich Generationen von Lesern, die sich selbst als Außenseiter erlebten, in
+        seinen Büchern wieder.</p>
+        <p class="vb-intro"><strong>b) Ein Nobelpreis, den er nicht persönlich entgegennahm:</strong>
+        Als er 1946 den Nobelpreis für Literatur erhielt, reiste er – seiner Rückzugslogik
+        treu und möglicherweise auch aus gesundheitlichen Gründen – nicht persönlich nach
+        Stockholm.</p>
+        <p class="vb-intro"><strong>c) Ein Leben, das trotz allem 85 Jahre währte:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses führten Hesses
+        chronische Leiden nicht zu einem frühen Tod – er starb 1962 im Schlaf, im hohen
+        Alter, in derselben selbst gewählten Umgebung, die ihn Jahrzehnte zuvor aufgenommen
+        hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Burg, die auch die eigene Krankheit filterte:</strong>
+        Dieselbe radikale Kontrolle über die eigene Nähe, die Hesses gesamtes Leben prägte,
+        bestimmte auch, wie er seine Krisen behandelte – nie in ungefilterten sozialen
+        Beziehungen, sondern immer in streng abgegrenzten Rahmen: Therapie, Briefwechsel,
+        literarische Verarbeitung.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel und die wache Sorge um sich selbst:</strong>
+        Dieselbe wache, fast ängstliche Aufmerksamkeit, die ihn 1914 scharf gegen den
+        Kriegsjubel positionierte, richtete sich auch nach innen – eine ständige Beobachtung
+        der eigenen psychischen Verfassung, die ihn frühzeitig professionelle Hilfe suchen
+        ließ, statt die Krise zu verdrängen.</p>
+        <p class="vb-intro"><strong>c) Kein öffentliches Zeugnis, aber ein literarisches:</strong>
+        Anders als manch anderer Fall dieses Kompasses sprach Hesse kaum öffentlich über
+        seine Leiden – doch sein Werk selbst wurde zum indirekten, ausführlichen Zeugnis
+        dieses inneren Kampfes.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Geist, der sich selbst zur Last wurde:</strong>
+        Hesses gesamtes Leben war von der Überzeugung geprägt, dass ungestörte Innenschau nur
+        durch radikalen Rückzug gesichert werden kann – Migräne, Augenleiden und Depression
+        waren Bedrohungen, die sich ausgerechnet in dem Organ manifestierten, das dieser
+        Rückzug am meisten brauchte: dem eigenen Kopf.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-spinoza">Baruch de Spinoza</a>
+        (ebenfalls SE5w6) starb an einer Lungenerkrankung, die aus seinem eigenen Handwerk
+        erwuchs; Hesse litt sein Leben lang an Migräne und Depression, ohne daran zu sterben.
+        Beide Fälle zeigen dieselbe Grundstruktur der SE5 aus verschiedenen Blickwinkeln: Wo
+        Spinoza sein Leiden fast vollständig verschwieg, verarbeitete Hesse seines
+        systematisch in Therapie und Literatur – zwei Varianten desselben Rückzugsmusters,
+        eine tödlich, eine lebenslang tragbar. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-spinoza">Krankheitsporträt zu Spinoza</a>.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Kopf und Augen?</strong>
+        Für eine selbsterhaltende Fünf mit Sechserflügel, deren gesamte Kraft auf
+        Beobachtung, Lesen und intensiver geistiger Verarbeitung beruhte, liegt eine Deutung
+        nahe: Ausgerechnet jene Organe, die ihm die stille Beobachtung der Welt und die
+        eigene innere Welt ermöglichten, wurden zum Schauplatz wiederkehrenden Leidens – als
+        würde die intensive, nach innen gerichtete Beobachtung sich irgendwann gegen das
+        eigene Sehen und Denken selbst richten. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zwangsläufig zu Migräne
+        oder Depression führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Hesses Fall zeigen lässt, ist ein Muster
+        im Umgang mit chronischem psychischem und körperlichem Leiden, das bei einer
+        ausgeprägten selbsterhaltenden Fünf mit Sechserflügel immer wieder auffällt – eine
+        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Hesse kannte sein eigenes Muster nicht – die selbsterhaltende Fünf mit Sechserflügel
+        sichert reflexhaft die eigene, kontrollierte Innenwelt, statt sich je vollständig auf
+        soziale Unterstützung im Umgang mit der eigenen Krankheit einzulassen, und genau
+        dieses Muster lebte er bis ins hohe Alter unverändert aus. Wer die eigene
+        Notwendigkeit, jede Krise innerhalb der eigenen Burg zu bewältigen, nicht als Muster
+        erkennt, trägt sie ein Leben lang allein.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Fünf mit Sechserflügel erklärt bei <strong>Hesse</strong> vieles
+        am Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf stiller
+        Beobachtung und Verarbeitung beruhte, trug seine schwersten Krisen jahrzehntelang
+        allein – die Eule, die selbst im eigenen, sicheren Garten nie ganz zur Ruhe kam.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6) – Schriftsteller"},
+        {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6) – dieselbe Rückzugslogik, andere Krankheit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se5", label:"Subtyp-Profil SE5"},
       ])}
@@ -122626,6 +122814,7 @@ function render() {
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
       "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
+      "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
