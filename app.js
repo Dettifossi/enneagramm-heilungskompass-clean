@@ -80644,11 +80644,18 @@ function dollyPartonKrankheitsportraetPage() {
         Um die gynäkologischen Probleme zu behandeln, unterzog sich Parton mit 36 Jahren einer
         Teilhysterektomie – ein eingreifender Schritt, den sie zu diesem Zeitpunkt noch weitgehend
         aus der Öffentlichkeit heraushielt.</p>
-        <p class="vb-intro"><strong>b) Eine schwere depressive Phase danach:</strong>
+        <p class="vb-intro"><strong>b) Ungewollte Kinderlosigkeit als Folge:</strong>
+        Sie und ihr Mann Carl Dean hatten sich früh in der Ehe Kinder gewünscht und trafen keine
+        Verhütungsmaßnahmen, hatten sogar schon Namen ausgesucht – doch es kam nie zu einer
+        ausgetragenen Schwangerschaft. Die Hysterektomie beendete diese Möglichkeit endgültig.
+        Parton äußerte sich später wiederholt bewegt zu diesem Thema, ordnete es aber meist rasch
+        in eine positive Erzählung ein – etwa als Grund, warum sie sich seither wie eine „Patin
+        aller Kinder" ihrer erweiterten Familie und der Öffentlichkeit fühle.</p>
+        <p class="vb-intro"><strong>c) Eine schwere depressive Phase danach:</strong>
         Parton sprach Jahre später offen darüber, dass die Operation eine „wirklich schlimme
         Zeit" für sie war und sie in eine Depression stürzte – eine seltene Einlassung hinter die
         sonst so makellos gepflegte Fassade.</p>
-        <p class="vb-intro"><strong>c) Weiterarbeit trotz gesundheitlicher Einschränkungen:</strong>
+        <p class="vb-intro"><strong>d) Weiterarbeit trotz gesundheitlicher Einschränkungen:</strong>
         Schon kurz nach der schwersten Krise kehrte sie ins Rampenlicht zurück – Musik, Film,
         Fernsehen liefen nahezu ohne sichtbare Unterbrechung weiter.</p>
       </div>
@@ -80719,10 +80726,12 @@ function dollyPartonKrankheitsportraetPage() {
         makellosen Image verborgene Krankheit exakt dieselbe Diagnose trägt: Endometriose. Zwei
         sexuelle Dreier mit Viererflügel, zwei durch Ausstrahlung und Weiblichkeit geprägte
         öffentliche Figuren, zwei Frauen, die dieselbe schmerzhafte gynäkologische Erkrankung
-        über Jahre lang hinter einer makellos gepflegten Bühnenpräsenz verbargen. Der Unterschied
-        liegt im Ausgang: Während Monroes Geschichte 1962 abrupt und jung endete, lebte und
-        arbeitete Parton noch weitere vier Jahrzehnte mit den Folgen ihrer Diagnose weiter, bevor
-        eine andere Erkrankung am Ende ihres Lebens stand.</p>
+        über Jahre lang hinter einer makellos gepflegten Bühnenpräsenz verbargen. Auch die Folge
+        ist bei beiden dieselbe: ungewollte Kinderlosigkeit – bei Monroe durch mindestens drei
+        dokumentierte Fehlgeburten, bei Parton durch die 1985 vorgenommene Teilhysterektomie. Der
+        Unterschied liegt im Ausgang: Während Monroes Geschichte 1962 abrupt und jung endete,
+        lebte und arbeitete Parton noch weitere vier Jahrzehnte mit den Folgen ihrer Diagnose
+        weiter, bevor eine andere Erkrankung am Ende ihres Lebens stand.</p>
         <p class="vb-intro"><strong>b) Warum ausgerechnet der Unterleib, bei einer Frau, deren gesamtes Image auf Weiblichkeit baut?</strong>
         Für eine sexuelle Drei mit Viererflügel, deren beruflicher Kern die bewusst
         inszenierte, betont weibliche Präsenz ist, liegt eine Deutung nahe: Ausgerechnet jener

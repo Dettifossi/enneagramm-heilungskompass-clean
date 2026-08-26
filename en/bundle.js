@@ -50399,11 +50399,18 @@ function dollyPartonKrankheitsportraetPage() {
         <p class="vb-intro"><strong>a) Partial hysterectomy in 1985 at age 36:</strong>
         To treat her gynecological problems, Parton underwent a partial hysterectomy at age
         36 – an invasive step she still kept largely out of the public eye at the time.</p>
-        <p class="vb-intro"><strong>b) A severe depressive period afterward:</strong>
+        <p class="vb-intro"><strong>b) Involuntary childlessness as a consequence:</strong>
+        She and her husband Carl Dean had wanted children early in their marriage and took no
+        precautions against pregnancy, even having names picked out – but no pregnancy was ever
+        carried to term. The hysterectomy closed off that possibility for good. Parton later
+        spoke about the subject repeatedly and with visible emotion, though she usually folded
+        it quickly into a positive narrative – describing herself since then as a kind of
+        "godmother to all children," both in her extended family and beyond.</p>
+        <p class="vb-intro"><strong>c) A severe depressive period afterward:</strong>
         Years later, Parton spoke openly about how the surgery was "a really bad time" for
         her and plunged her into depression – a rare glimpse behind an otherwise
         flawlessly maintained façade.</p>
-        <p class="vb-intro"><strong>c) Returning to work despite health limitations:</strong>
+        <p class="vb-intro"><strong>d) Returning to work despite health limitations:</strong>
         Just shortly after this most severe crisis, she returned to the spotlight – music,
         film, and television continued with almost no visible interruption.</p>
       </div>
@@ -50471,10 +50478,12 @@ function dollyPartonKrankheitsportraetPage() {
         diagnosis: endometriosis. Two sexual Threes with a Four-wing, two public personas
         built on magnetism and femininity, two women who concealed the very same painful
         gynecological condition behind an impeccably maintained stage presence for years.
-        The difference lies in the outcome: while Monroe's story ended abruptly and young in
-        1962, Parton went on to live and work for another four decades with the
-        consequences of her diagnosis, before a different illness stood at the end of her
-        life.</p>
+        The consequence, too, is the same for both: involuntary childlessness – for Monroe
+        through at least three documented miscarriages, for Parton through the partial
+        hysterectomy performed in 1985. The difference lies in the outcome: while Monroe's
+        story ended abruptly and young in 1962, Parton went on to live and work for another
+        four decades with the consequences of her diagnosis, before a different illness stood
+        at the end of her life.</p>
         <p class="vb-intro"><strong>b) Why precisely the abdomen, for a woman whose entire image was built on femininity?</strong>
         For a sexual Three with a Four-wing, whose professional core is a deliberately
         staged, emphatically feminine presence, one interpretation suggests itself:
