@@ -260,6 +260,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8", heading:"Hans-Dietrich Genscher – Self-Preservation Type 9", krankheit:"Years-long heart condition", teaser:"SE9w8 – foreign minister and vice chancellor 1974–1992, 1927–2016. Heart condition known for years alongside unbroken public presence, died on 31 March 2016 from its effects." , land:"Germany", gender:"m", jahre:"1927–2016"},
   { route:"krankheitsportraets-astrid-lindgren", name:"Astrid Lindgren", subtyp:"SE1w9", heading:"Astrid Lindgren – Self-Preservation Type 1", krankheit:"Progressive macular degeneration, near-total blindness in old age", teaser:"SE1w9 – Swedish author, 1907–2002. Progressive macular degeneration in her final decades, switch to dictation instead of writing, continued animal welfare engagement despite near-total blindness." , land:"Sweden", gender:"f", jahre:"1907–2002"},
   { route:"krankheitsportraets-sean-connery", name:"Sean Connery", subtyp:"SO3w4", heading:"Sean Connery – Social Type 3", krankheit:"Dementia, publicly confirmed only after his death", teaser:"SO3w4 – actor, 1930–2020. Dementia in his final years, kept from the public for years, confirmed only after his death in 2020 by his son." , land:"United Kingdom", gender:"m", jahre:"1930–2020"},
+  { route:"krankheitsportraets-ashton-kutcher", name:"Ashton Kutcher", subtyp:"SO2w3", heading:"Ashton Kutcher – Social Type 2", krankheit:"Rare autoimmune disease (vasculitis) with temporary loss of sight, hearing, and mobility", teaser:"SO2w3 – actor and entrepreneur, b. 1978. Rare autoimmune vasculitis with temporary loss of sight, hearing, and mobility, kept private for two years, made public in 2023." , land:"USA", gender:"m", jahre:"b. 1978"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -39045,6 +39046,7 @@ function ashtonKutcherPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
         {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+        {route:"krankheitsportraets-ashton-kutcher", label:"Illness Portrait: Ashton Kutcher (SO2w3) – rare autoimmune disease"},
       ])}
     </div>
   `);
@@ -59992,6 +59994,161 @@ function seanConneryKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}
+
+function ashtonKutcherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ashton-kutcher-portrait.jpg" alt="Ashton Kutcher" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ashton Kutcher</p>
+        <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-Wing · b. 1978</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ashton Kutcher</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-ashton-kutcher">Famous
+        Personalities portrait</a>. This page delves into a chapter not covered there: a
+        rare autoimmune disease that temporarily robbed Kutcher of his sight, hearing, and
+        ability to walk, before he made it public in 2023.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Kutcher</strong> is assigned to the <strong>social Type 2 with Three-Wing</strong>.
+        The SO2 deliberately uses its reach for a larger cause; the Three-Wing adds the drive
+        to turn every experience – including its own illness – into a visible, effective
+        contribution. Exactly this combination – complete secrecy at first, then a
+        deliberate, publicly effective disclosure – shaped how he dealt with his own
+        autoimmune disease.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Symptoms setting in suddenly:</strong>
+        By his own account, the symptoms began abruptly, with a rapid loss of balance,
+        eyesight, and hearing, without any noticeable warning.</p>
+        <p class="vb-intro"><strong>b) Diagnosis of a rare form of vasculitis:</strong>
+        Doctors diagnosed Kutcher with a rare autoimmune inflammation of the blood vessels
+        that affected several sensory organs and his mobility simultaneously.</p>
+        <p class="vb-intro"><strong>c) A months-long, intensive rehabilitation process:</strong>
+        By his own account, he then had to relearn how to walk, see, and hear – a process
+        that stretched over months.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Two years of complete secrecy:</strong>
+        Kutcher kept the diagnosis and illness entirely private for roughly two years before
+        speaking about it publicly.</p>
+        <p class="vb-intro"><strong>b) Public disclosure in a 2023 podcast interview:</strong>
+        Only in a detailed interview did Kutcher make the illness and its course public in
+        detail – a deliberately chosen setting rather than a spontaneous revelation.</p>
+        <p class="vb-intro"><strong>c) Visible but not fully resolved after-effects:</strong>
+        Kutcher described that some impairments, particularly to his sense of balance,
+        persisted even after the acute phase of the illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Emphasizing gratitude rather than complaint:</strong>
+        In his public account, Kutcher repeatedly foregrounded his own gratitude for
+        surviving and recovering, rather than framing the illness as a victim narrative.</p>
+        <p class="vb-intro"><strong>b) Positive media response:</strong>
+        The disclosure triggered widespread media attention and largely positive reactions
+        that honored Kutcher's openness and how he handled the illness.</p>
+        <p class="vb-intro"><strong>c) Continued public activity after the disclosure:</strong>
+        After the interview, Kutcher continued his acting and business activities unchanged,
+        without the illness becoming a permanent public topic.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide attention for a rare condition:</strong>
+        Kutcher's openness contributed internationally to raising awareness of rare
+        autoimmune diseases that had previously received little public discussion.</p>
+        <p class="vb-intro"><strong>b) Delayed rather than immediate disclosure:</strong>
+        The two-year gap between the illness and its public disclosure shows how long the
+        crisis was initially processed entirely in private.</p>
+        <p class="vb-intro"><strong>c) No glorifying of his own recovery:</strong>
+        In his account, Kutcher explicitly emphasized that not all impairments had fully
+        disappeared – a nuanced portrayal rather than a clean recovery story.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) A private struggle before it became public:</strong>
+        The SO2's characteristic focus on public effectiveness only kicked in once the actual
+        crisis had been lived through and overcome in private – the illness itself initially
+        stayed outside his public role.</p>
+        <p class="vb-intro"><strong>b) The Three-Wing and the controlled, effective disclosure:</strong>
+        The same ability to generate concrete impact from visibility that marks Kutcher's
+        work against child trafficking also showed here: the disclosure happened in a
+        carefully chosen format that achieved maximum but controlled public impact.</p>
+        <p class="vb-intro"><strong>c) Gratitude as a public message:</strong>
+        That Kutcher framed the illness as an occasion for gratitude rather than complaint
+        fits the SO2's tendency to turn even its own vulnerability into a positive message
+        useful to others.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A man of public reach who fought invisibly for two years:</strong>
+        Kutcher's entire public work rests on the deliberate use of visibility for a larger
+        purpose – of all things, his own existential crisis was spent entirely outside any
+        public view at first, before he turned it into a message at a moment of his own
+        choosing.</p>
+        <p class="vb-intro"><strong>b) Why sight, hearing, and walking, of all things, the very foundations of perception?</strong>
+        For a social Two with a Three-Wing whose entire work rests on the ability to perceive
+        and make visible societal problems, one interpretation suggests itself: exactly the
+        senses that make perception and public action possible in the first place failed him
+        completely for a time. This reading is a plausible interpretation, not a proven
+        clinical causal link, and will be developed further in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>c) Classification without determinism:</strong>
+        This does not mean that the social Two's pattern inevitably leads to autoimmune
+        disease – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What can be shown in Kutcher's case is a pattern in dealing with an overcome
+        existential crisis that keeps recurring in a pronounced social Type 2 with a
+        Three-Wing – one of many possible readings, not a verdict. The corresponding illness
+        pattern is being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Kutcher does not know his own pattern as an Enneagram structure – the social Type 2
+        with a Three-Wing reflexively clings to control over the timing and form of its own
+        visibility, even in existential crises, and largely lives out exactly this pattern
+        unchanged to this day. Anyone who does not recognize their own tendency to make
+        private crises public only after fully processing them as a pattern risks that
+        outside support only arrives once the hardest phase is already over.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Type 2 with Three-Wing explains much about how <strong>Ashton
+        Kutcher</strong> dealt with his own autoimmune disease: a man whose entire public
+        work rests on visible effectiveness fought his own existential crisis entirely in
+        private before turning it into a message of gratitude – the golden retriever that
+        only showed its deepest vulnerability once it could turn that vulnerability into
+        something useful for others.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-ashton-kutcher", label:"Portrait: Ashton Kutcher (SO2w3)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so2", label:"Subtype Profile SO2"},
       ])}
     </div>
   `);
@@ -93123,6 +93280,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-hans-dietrich-genscher": hansDietrichGenscherKrankheitsportraetPage,
       "krankheitsportraets-astrid-lindgren": astridLindgrenKrankheitsportraetPage,
       "krankheitsportraets-sean-connery": seanConneryKrankheitsportraetPage,
+      "krankheitsportraets-ashton-kutcher": ashtonKutcherKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,

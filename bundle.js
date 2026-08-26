@@ -24059,6 +24059,7 @@ const registerEntries = [
   { term: "Hans-Dietrich Genscher Krankheitsporträt", route: "krankheitsportraets-hans-dietrich-genscher", description: "Portrait: SE9w8 · Selbsterhaltender Typ 9 · Über Jahre bestehendes Herzleiden" },
   { term: "Astrid Lindgren Krankheitsporträt", route: "krankheitsportraets-astrid-lindgren", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Fortschreitende Makuladegeneration, Erblindung im Alter" },
   { term: "Sean Connery Krankheitsporträt", route: "krankheitsportraets-sean-connery", description: "Portrait: SO3w4 · Sozialer Typ 3 · Demenzerkrankung, erst nach dem Tod öffentlich bestätigt" },
+  { term: "Ashton Kutcher Krankheitsporträt", route: "krankheitsportraets-ashton-kutcher", description: "Portrait: SO2w3 · Sozialer Typ 2 · Seltene Autoimmunerkrankung (Vaskulitis)" },
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
@@ -32229,6 +32230,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8", heading:"Hans-Dietrich Genscher – Selbsterhaltender Typ 9", krankheit:"Über Jahre bestehendes Herzleiden", teaser:"SE9w8 – Außenminister und Vizekanzler 1974–1992, 1927–2016. Über Jahre bekanntes Herzleiden bei ungebrochener öffentlicher Präsenz, gestorben am 31. März 2016 an dessen Folgen." , land:"Deutschland", gender:"m", jahre:"1927–2016"},
   { route:"krankheitsportraets-astrid-lindgren", name:"Astrid Lindgren", subtyp:"SE1w9", heading:"Astrid Lindgren – Selbsterhaltender Typ 1", krankheit:"Fortschreitende Makuladegeneration, nahezu vollständige Erblindung im hohen Alter", teaser:"SE1w9 – schwedische Schriftstellerin, 1907–2002. Fortschreitende Makuladegeneration in den letzten Lebensjahrzehnten, Umstellung auf Diktate statt Schreiben, fortgesetztes Tierschutz-Engagement trotz nahezu vollständiger Erblindung." , land:"Schweden", gender:"f", jahre:"1907–2002"},
   { route:"krankheitsportraets-sean-connery", name:"Sean Connery", subtyp:"SO3w4", heading:"Sean Connery – Sozialer Typ 3", krankheit:"Demenzerkrankung, erst nach dem Tod öffentlich bestätigt", teaser:"SO3w4 – Schauspieler, 1930–2020. Demenzerkrankung in den letzten Lebensjahren, über Jahre vor der Öffentlichkeit verborgen, erst nach seinem Tod 2020 von seinem Sohn bestätigt." , land:"Vereinigtes Königreich", gender:"m", jahre:"1930–2020"},
+  { route:"krankheitsportraets-ashton-kutcher", name:"Ashton Kutcher", subtyp:"SO2w3", heading:"Ashton Kutcher – Sozialer Typ 2", krankheit:"Seltene Autoimmunerkrankung (Vaskulitis) mit zeitweiligem Verlust von Seh-, Hör- und Gehfähigkeit", teaser:"SO2w3 – Schauspieler und Unternehmer, geb. 1978. Seltene autoimmune Gefäßentzündung mit zeitweiligem Verlust von Seh-, Hör- und Gehfähigkeit, zwei Jahre lang privat gehalten, öffentlich gemacht 2023." , land:"USA", gender:"m", jahre:"geb. 1978"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
@@ -66255,6 +66257,7 @@ function ashtonKutcherPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
         {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+        {route:"krankheitsportraets-ashton-kutcher", label:"Krankheitsporträt: Ashton Kutcher (SO2w3) – seltene Autoimmunerkrankung"},
       ])}
     </div>
   `);
@@ -88588,6 +88591,170 @@ function seanConneryKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}
+
+function ashtonKutcherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ashton-kutcher-portrait.jpg" alt="Ashton Kutcher" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ashton Kutcher</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · geb. 1978</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ashton Kutcher</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ashton-kutcher">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nicht behandelt wird: eine seltene Autoimmunerkrankung, an der
+        Kutcher zeitweise Seh-, Hör- und Gehfähigkeit verlor, bevor er sie 2023 öffentlich
+        machte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kutcher</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SO2 setzt ihre Reichweite gezielt für eine größere Sache ein; der
+        Dreierflügel bringt den Antrieb, aus jeder Erfahrung – auch der eigenen Krankheit –
+        einen sichtbaren, wirksamen Beitrag zu machen. Genau diese Kombination – zunächst
+        vollständige Geheimhaltung, dann eine gezielte, öffentlich wirksame Offenlegung –
+        bestimmte den Umgang mit der eigenen Autoimmunerkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Plötzlich einsetzende Symptome:</strong>
+        Nach eigener Schilderung begannen die Symptome abrupt, mit einem raschen Verlust an
+        Gleichgewicht, Sehkraft und Hörvermögen, ohne erkennbare Vorwarnung.</p>
+        <p class="vb-intro"><strong>b) Diagnose einer seltenen Form der Vaskulitis:</strong>
+        Ärzte diagnostizierten bei Kutcher eine seltene autoimmune Gefäßentzündung, die
+        mehrere Sinnesorgane und die Bewegungsfähigkeit gleichzeitig beeinträchtigte.</p>
+        <p class="vb-intro"><strong>c) Monatelanger, intensiver Rehabilitationsprozess:</strong>
+        Nach eigener Aussage musste er anschließend erneut gehen, sehen und hören lernen –
+        ein Prozess, der sich über Monate erstreckte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Zwei Jahre vollständige Geheimhaltung:</strong>
+        Kutcher hielt die Diagnose und die Erkrankung rund zwei Jahre lang vollständig
+        privat, bevor er sich öffentlich dazu äußerte.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Offenlegung 2023 in einem Podcast-Interview:</strong>
+        Erst in einem ausführlichen Interview machte Kutcher die Erkrankung und ihren Verlauf
+        detailliert öffentlich – ein bewusst gewählter Rahmen statt einer spontanen
+        Enthüllung.</p>
+        <p class="vb-intro"><strong>c) Sichtbare, aber nicht vollständig zurückgebildete Folgen:</strong>
+        Kutcher beschrieb, dass einige Beeinträchtigungen, insbesondere im Gleichgewichtssinn,
+        auch nach der akuten Krankheitsphase bestehen blieben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Betonung von Dankbarkeit statt Klage:</strong>
+        In seiner öffentlichen Schilderung stellte Kutcher wiederholt die eigene Dankbarkeit
+        für das Überleben und die Genesung in den Vordergrund, statt die Erkrankung als
+        Opfergeschichte zu erzählen.</p>
+        <p class="vb-intro"><strong>b) Positive mediale Resonanz:</strong>
+        Die Offenlegung löste breite mediale Aufmerksamkeit und überwiegend positive
+        Reaktionen aus, die Kutchers Offenheit und seinen Umgang mit der Krankheit
+        würdigten.</p>
+        <p class="vb-intro"><strong>c) Fortsetzung öffentlicher Aktivität nach der Offenlegung:</strong>
+        Nach dem Interview setzte Kutcher seine schauspielerische und unternehmerische
+        Tätigkeit unverändert fort, ohne dass die Krankheit zu einem dauerhaften öffentlichen
+        Thema wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für eine seltene Erkrankung:</strong>
+        Kutchers Offenheit trug international dazu bei, die Aufmerksamkeit für seltene
+        Autoimmunerkrankungen zu erhöhen, über die zuvor kaum öffentlich gesprochen wurde.</p>
+        <p class="vb-intro"><strong>b) Verzögerte statt sofortige Offenlegung:</strong>
+        Der zweijährige Abstand zwischen Erkrankung und öffentlicher Offenlegung zeigt, wie
+        lange die Krise zunächst ausschließlich privat verarbeitet wurde.</p>
+        <p class="vb-intro"><strong>c) Keine Verklärung der eigenen Genesung:</strong>
+        Kutcher betonte in seiner Schilderung explizit, dass nicht alle Beeinträchtigungen
+        vollständig verschwunden seien – eine differenzierte Darstellung statt einer
+        glatten Heilungsgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Privater Kampf, bevor er öffentlich wird:</strong>
+        Die SO2-typische Ausrichtung auf öffentliche Wirksamkeit setzte erst ein, nachdem die
+        eigentliche Krise privat durchlebt und überstanden war – die Krankheit selbst blieb
+        zunächst außerhalb der öffentlichen Rolle.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und die kontrollierte, wirksame Offenlegung:</strong>
+        Dieselbe Fähigkeit, aus Sichtbarkeit konkrete Wirkung zu erzeugen, die Kutchers
+        Engagement gegen Kinderhandel prägt, zeigte sich auch hier: Die Offenlegung erfolgte
+        in einem sorgfältig gewählten Format, das maximale, aber kontrollierte öffentliche
+        Wirkung erzielte.</p>
+        <p class="vb-intro"><strong>c) Dankbarkeit als öffentliche Botschaft:</strong>
+        Dass Kutcher die Erkrankung als Anlass für Dankbarkeit statt für Klage darstellte,
+        passt zur SO2-Neigung, auch die eigene Verwundbarkeit in eine positive, für andere
+        nützliche Botschaft zu verwandeln.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann öffentlicher Reichweite, der zwei Jahre lang unsichtbar kämpfte:</strong>
+        Kutchers gesamtes öffentliches Wirken beruht auf der gezielten Nutzung von
+        Sichtbarkeit für einen größeren Zweck – ausgerechnet die eigene existenzielle Krise
+        verbrachte er zunächst vollständig außerhalb jeder Öffentlichkeit, bevor er sie zu
+        einem bewusst gewählten Zeitpunkt in eine Botschaft verwandelte.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet Sehen, Hören und Gehen, die Grundlagen der Wahrnehmung selbst?</strong>
+        Für einen sozialen Typ 2 mit Dreierflügel, dessen gesamtes Wirken auf der Fähigkeit
+        beruht, gesellschaftliche Missstände wahrzunehmen und sichtbar zu machen, liegt eine
+        Deutung nahe: Ausgerechnet jene Sinne, die überhaupt erst Wahrnehmung und öffentliches
+        Handeln ermöglichen, versagten ihm zeitweise vollständig. Diese Deutung ist eine
+        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu Autoimmun­erkrankungen
+        führt – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom
+        Subtyp.</strong> Was sich an Kutchers Fall zeigen lässt, ist ein Muster im Umgang mit
+        einer überwundenen existenziellen Krise, das bei einem ausgeprägten sozialen Typ 2
+        mit Dreierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Kutcher kennt sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 2
+        mit Dreierflügel hält reflexhaft an der Kontrolle über den Zeitpunkt und die Form der
+        eigenen Sichtbarkeit fest, auch in existenziellen Krisen, und lebt genau dieses Muster
+        bis heute weitgehend unverändert aus. Wer die eigene Neigung, private Krisen erst
+        nach vollständiger Verarbeitung öffentlich zu machen, nicht als Muster erkennt,
+        riskiert, dass Unterstützung von außen erst kommt, wenn die schwierigste Phase bereits
+        vorüber ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 2 mit Dreierflügel erklärt bei <strong>Ashton Kutcher</strong> vieles
+        am Umgang mit der eigenen Autoimmunerkrankung: ein Mann, dessen gesamtes öffentliches
+        Wirken auf sichtbarer Wirksamkeit beruht, kämpfte die eigene existenzielle Krise erst
+        vollständig privat aus, bevor er sie in eine Botschaft der Dankbarkeit verwandelte –
+        der Golden Retriever, der seine tiefste Verwundbarkeit erst dann zeigte, als er sie
+        selbst in etwas Nützliches für andere umwandeln konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ashton-kutcher", label:"Porträt: Ashton Kutcher (SO2w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
     </div>
   `);
@@ -129203,6 +129370,7 @@ function render() {
       "krankheitsportraets-hans-dietrich-genscher": hansDietrichGenscherKrankheitsportraetPage,
       "krankheitsportraets-astrid-lindgren": astridLindgrenKrankheitsportraetPage,
       "krankheitsportraets-sean-connery": seanConneryKrankheitsportraetPage,
+      "krankheitsportraets-ashton-kutcher": ashtonKutcherKrankheitsportraetPage,
       "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
       "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
       "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,
