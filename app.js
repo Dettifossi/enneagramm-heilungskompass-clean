@@ -24034,6 +24034,7 @@ const registerEntries = [
   { term: "Ai Weiwei Krankheitsporträt", route: "krankheitsportraets-ai-weiwei", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen" },
   { term: "Woody Allen Krankheitsporträt", route: "krankheitsportraets-woody-allen", description: "Portrait: SE6w7 · Selbsterhaltender Typ 6 · Lebenslange, öffentlich dokumentierte Hypochondrie" },
   { term: "Fritz Perls Krankheitsporträt", route: "krankheitsportraets-fritz-perls", description: "Portrait: SO8w7 · Sozialer Typ 8 · Jahrelanges Herzleiden, Kettenrauchen, Bauchspeicheldrüsenkrebs" },
+  { term: "Julian Assange Krankheitsporträt", route: "krankheitsportraets-julian-assange", description: "Portrait: SO9w1 · Sozialer Typ 9 · Über sieben Jahre Isolation mit dokumentierten körperlichen und psychischen Folgen" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32178,6 +32179,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Selbsterhaltender Typ 2", krankheit:"Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen", teaser:"SE2w3 – chinesischer Künstler und Aktivist, geb. 1957. Im August 2009 von der Polizei in Chengdu geschlagen, dadurch Hirnblutung erlitten, im September 2009 Notoperation in München. Seither chronische Kopfschmerzen." , land:"China/Deutschland", gender:"m", jahre:"geb. 1957"},
   { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Selbsterhaltender Typ 6", krankheit:"Lebenslange, öffentlich dokumentierte Hypochondrie ('Alarmismus')", teaser:"SE6w7 – US-amerikanischer Regisseur, Drehbuchautor und Komiker, geb. 1935. Seit den 1950er-Jahren dokumentierte Gesundheitsangst, über 35 Jahre Psychoanalyse, ausführlich im eigenen New-York-Times-Essay vom 12. Januar 2013 beschrieben." , land:"USA", gender:"m", jahre:"geb. 1935"},
   { route:"krankheitsportraets-fritz-perls", name:"Fritz Perls", subtyp:"SO8w7", heading:"Fritz Perls – Sozialer Typ 8", krankheit:"Jahrelanges Herzleiden, Kettenrauchen, Bauchspeicheldrüsenkrebs", teaser:"SO8w7 – Psychiater, Mitbegründer der Gestalttherapie, 1893–1970. Jahrelanges Herzleiden nach einer Narkose-Verletzung, lebenslanges Kettenrauchen, Bauchspeicheldrüsenkrebs-Operation. Starb am 14. März 1970 in Chicago an akutem Herzversagen." , land:"Deutschland/USA", gender:"m", jahre:"1893–1970"},
+  { route:"krankheitsportraets-julian-assange", name:"Julian Assange", subtyp:"SO9w1", heading:"Julian Assange – Sozialer Typ 9", krankheit:"Über sieben Jahre Isolation mit dokumentierten körperlichen und psychischen Folgen", teaser:"SO9w1 – Gründer von WikiLeaks, geb. 1971. 2012–2019 nahezu vollständige Isolation in der ecuadorianischen Botschaft London, danach bis 2024 britische Hochsicherheitshaft. Ärztlich dokumentierte neuropsychologische Schäden, chronische Schmerzen und PTBS." , land:"Australien/Vereinigtes Königreich", gender:"m", jahre:"geb. 1971"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -43969,7 +43971,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Geduldiges Tragen der Last, bis ein Punkt erreicht ist, an dem etwas durchbricht",
         beschreibung: "Belastungen werden lange schweigend getragen, ohne Klage und ohne sichtbare Warnzeichen – bis entweder ein stiller, symbolisch kraftvoller Moment oder ein plötzlicher Zusammenbruch die aufgestaute Spannung entlädt.",
-        beleg: "Willy Brandts Kniefall von Warschau: ›Kein Wort. Keine Geste des Überlegens … Es war ein Büffel, der sich vor dem beugte, was war – und damit ein ganzes Volk repräsentierte‹; Nick Leeson, der ›die Last der verborgenen Verluste schweigend trug – jahrelang … Er brach erst dann zusammen, als die Last physisch untragbar geworden war‹; Peter Falk, dessen beginnende Alzheimer-Erkrankung lange nach außen kaum sichtbar war, bevor sie 2008 in eine gerichtliche Vormundschaft und einen öffentlichen Streit um seine Pflege mündete – auch hier ein stiller, geduldiger Umgang mit fortschreitendem Verlust, bis ein äußerer Bruch unausweichlich wurde."
+        beleg: "Willy Brandts Kniefall von Warschau: ›Kein Wort. Keine Geste des Überlegens … Es war ein Büffel, der sich vor dem beugte, was war – und damit ein ganzes Volk repräsentierte‹; Nick Leeson, der ›die Last der verborgenen Verluste schweigend trug – jahrelang … Er brach erst dann zusammen, als die Last physisch untragbar geworden war‹; Peter Falk, dessen beginnende Alzheimer-Erkrankung lange nach außen kaum sichtbar war, bevor sie 2008 in eine gerichtliche Vormundschaft und einen öffentlichen Streit um seine Pflege mündete – auch hier ein stiller, geduldiger Umgang mit fortschreitendem Verlust, bis ein äußerer Bruch unausweichlich wurde; Julian Assange, der über sieben Jahre nahezu vollständiger Isolation in der ecuadorianischen Botschaft hinweg dokumentierte körperliche und psychische Warnzeichen ertrug, ohne sein Prinzip aufzugeben, bis Ärzte öffentlich vor einem lebensgefährlichen Zustand warnten."
       },
       {
         titel: "Wenn die vollständige Verschmelzung mit der Gemeinschaft in eine zerstörerische Richtung geht (Schattenform)",
@@ -55918,6 +55920,7 @@ function julianAssangePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
         {route:"beruehmte-steffi-graf", label:"Portr\u00e4t: Steffi Graf (SO9w1)"},
+        {route:"krankheitsportraets-julian-assange", label:"Krankheitsportr\u00e4t: Julian Assange (SO9w1) \u2013 Isolation und Gesundheitsfolgen"},
       ])}
     </div>
   `);
@@ -84094,6 +84097,181 @@ function fritzPerlsKrankheitsportraetPage() {
         {route:"krankheitsportraets-john-gotti", label:"Krankheitsporträt: John Gotti (SO8w7) – dieselbe Weigerung, Schwäche zuzugeben"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so8", label:"Subtyp-Profil SO8"},
+      ])}
+    </div>
+  `);
+}
+
+function julianAssangeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-julian-assange-portrait.jpg" alt="Julian Assange" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julian Assange</p>
+        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel · geb. 1971</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Julian Assange</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-julian-assange">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Gründung von WikiLeaks und den
+        Kampf um radikale Transparenz. Diese Seite vertieft ein Kapitel, das dort nur
+        gestreift wird: über sieben Jahre nahezu vollständiger Isolation in der
+        ecuadorianischen Botschaft in London, gefolgt von weiteren fünf Jahren in
+        britischer Hochsicherheitshaft – mit ausführlich dokumentierten körperlichen und
+        psychischen Folgen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Assange</strong> ist dem <strong>sozialen Typ 9 mit Einserflügel</strong>
+        zugeordnet. Die SO9 verschmilzt vollständig mit einer Idee, die größer ist als die
+        eigene Person; der Einserflügel bringt einen unbeirrbaren moralischen Kompass hinzu,
+        der keine Kompromisse duldet. Genau diese Kombination – das Festhalten an einem
+        Prinzip, komme was wolle – bestimmte auch, wie lange Assange die eigene Isolation
+        ertrug, bevor die gesundheitlichen Folgen unübersehbar wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Zuflucht in der Botschaft ab Juni 2012:</strong>
+        Assange suchte im Juni 2012 Zuflucht in der ecuadorianischen Botschaft in London,
+        um einer Auslieferung nach Schweden zu entgehen – ohne zu wissen, dass daraus fast
+        sieben Jahre nahezu vollständiger Isolation werden sollten.</p>
+        <p class="vb-intro"><strong>b) Kein Zugang zu Tageslicht oder Außenbereich über Jahre:</strong>
+        Nach Angaben behandelnder Ärzte hatte Assange über fünfeinhalb Jahre hinweg keinen
+        Zugang zu direktem Sonnenlicht, angemessener Belüftung oder Außenraum – auf rund 30
+        Quadratmetern nutzbarer Wohnfläche.</p>
+        <p class="vb-intro"><strong>c) Erste dokumentierte psychische Belastungssymptome:</strong>
+        Bereits während der Botschaftsjahre dokumentierten behandelnde Ärzte schwere Angst,
+        pathologisches Stresslevel, Dissoziation und depressive Symptome.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Neuropsychologische Beeinträchtigungen:</strong>
+        Medizinische Untersuchungen dokumentierten neuropsychologische Beeinträchtigungen,
+        geschwächte Knochen, verminderte Immunfunktion sowie ein erhöhtes Risiko für
+        Herz-Kreislauf-Erkrankungen und Krebs.</p>
+        <p class="vb-intro"><strong>b) Chronische Schmerzen und posttraumatische Belastung:</strong>
+        Zu den dokumentierten Symptomen zählten außerdem chronische Schmerzen sowie eine
+        posttraumatische Belastungsstörung, verbunden mit suizidalen Gedanken in
+        besonders schweren Phasen.</p>
+        <p class="vb-intro"><strong>c) Verweigerter oder erschwerter Zugang zu medizinischer Versorgung:</strong>
+        Über 60 Ärztinnen und Ärzte wandten sich in einem offenen Brief an das britische
+        Innenministerium und dokumentierten eine über Jahre wiederholte Verweigerung
+        angemessener medizinischer Versorgung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Verhaftung und Verlegung nach Belmarsh 2019:</strong>
+        Nach dem Entzug des Botschaftsasyls im April 2019 wurde Assange verhaftet und in
+        das britische Hochsicherheitsgefängnis Belmarsh verlegt, wo er bis zu seiner
+        Freilassung 2024 blieb.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte ärztliche Warnungen während der Haft:</strong>
+        Auch während der Haft in Belmarsh warnten untersuchende Ärztinnen und Ärzte
+        wiederholt vor einem „gefährlichen" Gesundheitszustand und einer sich weiter
+        verschlechternden Verfassung.</p>
+        <p class="vb-intro"><strong>c) Freilassung nach Schuldeingeständnis im Juni 2024:</strong>
+        Nach über zwölf Jahren zwischen Botschaftsasyl und Haft bekannte sich Assange im
+        Juni 2024 in einem Deal mit US-Behörden in einem Anklagepunkt schuldig und kam
+        frei – er kehrte anschließend nach Australien zurück.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Internationale medizinische und juristische Aufmerksamkeit:</strong>
+        Fachzeitschriften wie The Lancet und zahlreiche Ärzteverbände thematisierten
+        öffentlich die gesundheitlichen Folgen der Isolationshaft – ein seltener Fall, in
+        dem ein Einzelschicksal zum Gegenstand medizinischer Fachdebatten wurde.</p>
+        <p class="vb-intro"><strong>b) Symbolfigur über die eigene Person hinaus:</strong>
+        Assanges gesundheitlicher Verfall wurde zum zentralen Argument in der öffentlichen
+        Debatte um Pressefreiheit und die Grenzen staatlicher Verfolgung investigativer
+        Journalisten.</p>
+        <p class="vb-intro"><strong>c) Kein vollständiger Rückzug von der eigenen Sache:</strong>
+        Trotz der dokumentierten gesundheitlichen Folgen distanzierte sich Assange zu
+        keinem Zeitpunkt öffentlich von den Grundüberzeugungen, die zu seiner Isolation
+        geführt hatten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Verschmelzung mit der Idee bis zur Selbstaufgabe:</strong>
+        Dieselbe SO9-Neigung, sich vollständig mit einer größeren Sache zu verschmelzen,
+        die Assanges gesamtes Engagement für WikiLeaks trug, bestimmte auch, wie lange er
+        die eigene Isolation ertrug, bevor die körperlichen Warnsignale unübersehbar
+        wurden.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel und das Festhalten am Prinzip trotz Kosten:</strong>
+        Die unbeirrbare Prinzipientreue des Einserflügels erklärt, warum Assange über
+        Jahre keinen Kompromiss einging, der seine Freiheit früher hätte sichern können –
+        das Prinzip wog schwerer als die eigene körperliche Verfassung.</p>
+        <p class="vb-intro"><strong>c) Trägheit als Schutzmuster, das zur Falle wurde:</strong>
+        Die für die Neun typische Tendenz, unangenehme Realitäten auszublenden statt aktiv
+        gegenzusteuern, könnte mit erklären, warum die gesundheitlichen Warnzeichen über
+        Jahre nicht zu einem früheren, geordneten Rückzug aus der Situation führten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Selbst, das sich vollständig einer Sache unterordnete:</strong>
+        Assanges gesamte Identität war seit der Gründung von WikiLeaks untrennbar mit der
+        Idee radikaler Transparenz verwoben – die jahrelange Isolation traf ausgerechnet
+        jenes Selbst, das sich nie als eigenständig von dieser Mission verstanden hatte,
+        und ließ es fast bis zum Zerbrechen kommen.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet Isolation und Bewegungsentzug?</strong>
+        Für einen sozialen Neuner mit Einserflügel, dessen gesamte Identität auf
+        Zugehörigkeit zu einer größeren Sache beruht, liegt eine Deutung nahe: Ausgerechnet
+        der vollständige Entzug von Außenkontakt und Bewegungsfreiheit bedrohte genau jene
+        Fähigkeit zur Verschmelzung mit einer Gemeinschaft, aus der die SO9 ihre Identität
+        bezieht – ein erzwungener Rückwurf auf ein Selbst, das kaum je unabhängig von einer
+        größeren Sache existiert hatte. Diese Deutung ist eine plausible Interpretation,
+        kein belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Neun zwangsläufig zu Isolationsfolgen
+        führt – <strong>jeder Mensch kann jede Krankheit oder gesundheitliche Folge
+        erleiden, unabhängig vom Subtyp.</strong> Was sich an Assanges Fall zeigen lässt,
+        ist ein Muster im Umgang mit erzwungener Isolation, das bei einer ausgeprägten
+        sozialen Neun mit Einserflügel immer wieder auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass
+        nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Assange kennt sein eigenes Muster nicht als Enneagramm-Struktur – die soziale Neun
+        mit Einserflügel verschmilzt reflexhaft mit der eigenen Sache, statt die eigene
+        körperliche Warnung je als Grund zum Rückzug anzuerkennen, und genau dieses Muster
+        lebte er über mehr als ein Jahrzehnt praktisch unverändert aus. Wer die eigene
+        Neigung, sich vollständig in einer Mission aufzulösen, nicht als Muster erkennt,
+        kann auch angesichts eindeutiger körperlicher Warnzeichen nicht rechtzeitig
+        gegensteuern.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Neun mit Einserflügel erklärt bei <strong>Julian Assange</strong> vieles
+        am Verlauf seiner eigenen gesundheitlichen Krise: ein Mann, dessen gesamte
+        Identität mit einer Idee verschmolz, die größer war als er selbst, ließ sich von
+        Jahren dokumentierter körperlicher und psychischer Belastung nicht von seinem
+        Prinzip abbringen – der Büffel, der den Kopf senkt und weitergeht, auch wenn der
+        eigene Körper längst zu wanken begonnen hat.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-julian-assange", label:"Porträt: Julian Assange (SO9w1) – Gründer von WikiLeaks"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
     </div>
   `);
@@ -124694,6 +124872,7 @@ function render() {
       "krankheitsportraets-ai-weiwei": aiWeiweiKrankheitsportraetPage,
       "krankheitsportraets-woody-allen": woodyAllenKrankheitsportraetPage,
       "krankheitsportraets-fritz-perls": fritzPerlsKrankheitsportraetPage,
+      "krankheitsportraets-julian-assange": julianAssangeKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
