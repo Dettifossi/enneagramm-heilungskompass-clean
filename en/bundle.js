@@ -259,6 +259,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-willy-brandt", name:"Willy Brandt", subtyp:"SO9w8", heading:"Willy Brandt – Social Type 9", krankheit:"Recurring severe depressive episodes, colon cancer", teaser:"SO9w8 – West German chancellor, Nobel Peace Prize 1971, 1913–1992. Recurring depressive crises throughout his political career, including in 1958 and 1974, died 1992 of colon cancer." , land:"Germany", gender:"m", jahre:"1913–1992"},
   { route:"krankheitsportraets-hans-dietrich-genscher", name:"Hans-Dietrich Genscher", subtyp:"SE9w8", heading:"Hans-Dietrich Genscher – Self-Preservation Type 9", krankheit:"Years-long heart condition", teaser:"SE9w8 – foreign minister and vice chancellor 1974–1992, 1927–2016. Heart condition known for years alongside unbroken public presence, died on 31 March 2016 from its effects." , land:"Germany", gender:"m", jahre:"1927–2016"},
   { route:"krankheitsportraets-astrid-lindgren", name:"Astrid Lindgren", subtyp:"SE1w9", heading:"Astrid Lindgren – Self-Preservation Type 1", krankheit:"Progressive macular degeneration, near-total blindness in old age", teaser:"SE1w9 – Swedish author, 1907–2002. Progressive macular degeneration in her final decades, switch to dictation instead of writing, continued animal welfare engagement despite near-total blindness." , land:"Sweden", gender:"f", jahre:"1907–2002"},
+  { route:"krankheitsportraets-sean-connery", name:"Sean Connery", subtyp:"SO3w4", heading:"Sean Connery – Social Type 3", krankheit:"Dementia, publicly confirmed only after his death", teaser:"SO3w4 – actor, 1930–2020. Dementia in his final years, kept from the public for years, confirmed only after his death in 2020 by his son." , land:"United Kingdom", gender:"m", jahre:"1930–2020"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
@@ -20132,6 +20133,7 @@ function seanConneryPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+        {route:"krankheitsportraets-sean-connery", label:"Illness Portrait: Sean Connery (SO3w4) – dementia"},
       ])}
     </div>
   `);
@@ -47816,6 +47818,7 @@ function karlLagerfeldKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4) – life's work"},
         {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa von Ávila (SO3w4) – also kept working through severe illness"},
+        {route:"krankheitsportraets-sean-connery", label:"Illness Portrait: Sean Connery (SO3w4) – same subtype"},
         {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2) – also secrecy, but artistically encoded rather than denied"},
         {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – counter-model: direct disclosure rather than denial"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
@@ -59827,6 +59830,168 @@ function astridLindgrenKrankheitsportraetPage() {
         {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SE1w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
+      ])}
+    </div>
+  `);
+}
+
+function seanConneryKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sean-connery-portrait.jpg" alt="Sean Connery" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sean Connery</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-Wing · 1930–2020</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sean Connery</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-sean-connery">Famous
+        Personalities portrait</a>. This page delves into a chapter not covered there: a
+        dementia illness in his final years that he and his family largely kept hidden from
+        the public.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Connery</strong> is assigned to the <strong>social Type 3 with Four-Wing</strong>.
+        The SO3 lives on a flawless public image; the Four-Wing simultaneously demands strict
+        control over what is revealed about the self at all. Exactly this combination – the
+        necessity of keeping one's own image flawless, combined with a lifelong reluctance
+        toward any form of self-disclosure – shaped how his dementia illness was handled.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Withdrawal from public life beginning in the mid-2000s:</strong>
+        Connery's voluntary retirement from acting and public life coincided with the onset of
+        health changes that were not publicly known at the time.</p>
+        <p class="vb-intro"><strong>b) An increasingly secluded life in the Bahamas:</strong>
+        In his final years, Connery lived largely secluded in the Bahamas, with only very
+        rare public appearances.</p>
+        <p class="vb-intro"><strong>c) No public diagnosis during his lifetime:</strong>
+        During his lifetime, Connery never made a health diagnosis public – speculation about
+        his condition remained unconfirmed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Confirmation of the dementia diagnosis only after his death:</strong>
+        Only after Connery's death in October 2020 did his son Jason publicly confirm that
+        his father had suffered from dementia in his final years.</p>
+        <p class="vb-intro"><strong>b) A course kept hidden for years:</strong>
+        According to his son, the illness had begun several years before Connery's death – a
+        period during which nothing about it was publicly known.</p>
+        <p class="vb-intro"><strong>c) Care within the closest family circle:</strong>
+        In his final years, Connery was cared for privately by his family, with no details
+        reaching the public.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Death on 31 October 2020 in the Bahamas:</strong>
+        Sean Connery died at age 90 at his home in the Bahamas, in his sleep, surrounded by
+        his family.</p>
+        <p class="vb-intro"><strong>b) Later public framing by the family:</strong>
+        The confirmation of the dementia diagnosis by his son deliberately came only after
+        his death, as part of the public tribute to his life, not during the illness
+        itself.</p>
+        <p class="vb-intro"><strong>c) Worldwide mourning for an icon:</strong>
+        His death triggered international obituaries that above all honored his cinematic
+        life's work – the dementia illness was mentioned only in passing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A public image that remained intact until the end:</strong>
+        Since the illness only became known posthumously, Connery's public image during his
+        lifetime remained untouched by the actual health reality of his final years.</p>
+        <p class="vb-intro"><strong>b) Surprise in the public reaction:</strong>
+        Many fans and media outlets reacted with surprise to the posthumous confirmation,
+        since Connery's last publicly shown image had contained no indication of the
+        illness.</p>
+        <p class="vb-intro"><strong>c) Recognition of the family's discretion:</strong>
+        Some obituaries explicitly honored the family's restraint, which had shielded
+        Connery's final years from public curiosity.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Control over his own image until the end:</strong>
+        The SO3's characteristic need to keep its own public image flawless continued in how
+        the dementia illness was handled: a condition that undermines complete control over
+        oneself was consistently kept away from the public.</p>
+        <p class="vb-intro"><strong>b) The Four-Wing and distrust of closeness:</strong>
+        The same restraint with which Connery protected his private life his whole life
+        showed in dealing with his own illness as a consistent decision not to make this part
+        of his life accessible even to close companions and the public.</p>
+        <p class="vb-intro"><strong>c) The son as mediator of the posthumous truth:</strong>
+        That the confirmation came only after his death, through his son, fits the SO3w4
+        pattern: only once his own image can no longer be endangered by disclosure is the
+        full truth made accessible.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A master of controlled self-presentation, confronted with the loss of all control:</strong>
+        Connery's entire professional life rested on precise control over what was shown of
+        him – of all things, an illness that makes exactly that control over one's own mind
+        impossible struck him in his final years.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel appears with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-lagerfeld">Karl
+        Lagerfeld (SO3w4)</a>: Lagerfeld too concealed a serious diagnosis from the public
+        almost until the end, to avoid endangering his own carefully controlled image. Both
+        SO3w4s show the same pattern: their own illness is kept fully under the control of
+        their own self-presentation for as long as possible, rather than negotiated in
+        public.</p>
+        <p class="vb-intro"><strong>c) Why memory, of all things, the storehouse of his own roles?</strong>
+        For a social Three with a Four-Wing whose entire professional life consisted of
+        precisely studying and embodying roles, one interpretation suggests itself: exactly
+        the cognitive ability that carried his entire life's work – memory – became the site
+        of decline. This reading is a plausible interpretation, not a proven clinical causal
+        link, and will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the social Three's pattern inevitably leads to dementia –
+        <strong>any person can develop any illness, regardless of subtype.</strong> What can
+        be shown in Connery's case is a pattern in dealing with a diagnosis that threatens
+        one's self-image, which keeps recurring in a pronounced social Type 3 with a
+        Four-Wing – one of many possible readings, not a verdict. The corresponding illness
+        pattern is being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Connery did not know his own pattern as an Enneagram structure – the social Type 3
+        with a Four-Wing reflexively clings to control over its own public image, even when
+        an illness would urgently suggest open disclosure, and lived out exactly this pattern
+        unchanged until his death. Anyone who does not recognize their own tendency to keep
+        their own image flawless at all costs as a pattern risks that their own reality only
+        comes to light posthumously.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Type 3 with Four-Wing explains much about how <strong>Sean Connery</strong>
+        dealt with his own dementia illness: a man whose entire life's work rested on
+        flawless self-control kept even the loss of that control entirely private until his
+        death – the cheetah that, in the end, withdrew into the silence of its own,
+        never-fully-revealed world before the truth could even come to light.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so3", label:"Subtype Profile SO3"},
       ])}
     </div>
   `);
@@ -92957,6 +93122,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-willy-brandt": willyBrandtKrankheitsportraetPage,
       "krankheitsportraets-hans-dietrich-genscher": hansDietrichGenscherKrankheitsportraetPage,
       "krankheitsportraets-astrid-lindgren": astridLindgrenKrankheitsportraetPage,
+      "krankheitsportraets-sean-connery": seanConneryKrankheitsportraetPage,
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
