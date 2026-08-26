@@ -24022,6 +24022,7 @@ const registerEntries = [
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
   { term: "Richard Ramírez Krankheitsporträt", route: "krankheitsportraets-richard-ramirez", description: "Portrait: SX3w4 · Sexueller Typ 3 · B-Zell-Lymphom in der Todeszelle" },
+  { term: "Baruch de Spinoza Krankheitsporträt", route: "krankheitsportraets-spinoza", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Chronische Lungenerkrankung durch Glasstaub" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
@@ -32154,6 +32155,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ludwig-xiv", name:"Ludwig XIV.", subtyp:"SO3w2", heading:"Ludwig XIV. – Sozialer Typ 3", krankheit:"Chronische Gicht, Analfistel, tödlicher Wundbrand", teaser:"SO3w2 – der Sonnenkönig, 1638–1715. Jahrzehntelange Gicht, 1686 unter strengster Geheimhaltung operierte Analfistel, tödlicher Wundbrand im Bein. Starb am 1. September 1715 in Versailles nach 72 Regierungsjahren im Alter von 76 Jahren." , land:"Frankreich", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Sozialer Typ 3", krankheit:"Prostatakrebs", teaser:"SO3w4 – NFL-Legende und Protagonist des Prozesses des Jahrhunderts, 1947–2024. 2023 Prostatakrebs diagnostiziert, weitgehend vor der Öffentlichkeit verborgen, gestorben am 10. April 2024 in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexueller Typ 3", krankheit:"B-Zell-Lymphom", teaser:"SX3w4 – ›Der Night Stalker‹, 1960–2013. Diagnose eines B-Zell-Lymphoms in der Todeszelle, gestorben am 7. Juni 2013 in Greenbrae, Kalifornien, vor Vollstreckung des Todesurteils." , land:"USA", gender:"m", jahre:"1960–2013"},
+  { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Selbsterhaltender Typ 5", krankheit:"Chronische Lungenerkrankung durch Glasstaub", teaser:"SE5w6 – rationalistischer Philosoph, 1632–1677. Jahrzehntelanges Einatmen von Glasstaub beim Linsenschleifen, vermutliche Ursache seiner tödlichen Lungenerkrankung. Starb am 21. Februar 1677 in Den Haag im Alter von 44 Jahren." , land:"Niederlande", gender:"m", jahre:"1632–1677"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -44264,7 +44266,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Der Rückzug als bewusst gebaute ›Burg‹ statt bloße Flucht",
         beschreibung: "Der Rückzugsraum ist kein Zeichen von Schwäche, sondern eine aktiv errichtete, geschützte Basis, von der aus beobachtet, gedacht und gearbeitet wird – klein, überschaubar, aber vollständig unter eigener Kontrolle.",
-        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹; Spinoza: ›Die Burg des Denkens‹; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte; Prof. Dr. Ingo Zimmermann, der auf einem Hof lebt und seinen von Hand aufgezogenen Waldkauz Hugo als kontrollierte, sorgfältig dosierte Form von Nähe an seiner Seite trägt – die eigene Tierentsprechung, offenbar unbewusst erkannt und gelebt; Dr. Christian Rätsch, der nicht von Universitätslehrstühlen aus, sondern als unabhängiger Wissenschaftler in seiner eigenen Burg forschte; Vera F. Birkenbihl, die unverheiratet und auf eigene Rechnung arbeitete, ihren eigenen Verlag gründete und ihre eigenen Methoden entwickelte, statt sich einer Institution unterzuordnen."
+        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹; Spinoza: ›Die Burg des Denkens‹ – eine Burg, die er selbst dann nicht verließ, als das jahrzehntelange Linsenschleifen ihm die eigene Lunge kostete; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte; Prof. Dr. Ingo Zimmermann, der auf einem Hof lebt und seinen von Hand aufgezogenen Waldkauz Hugo als kontrollierte, sorgfältig dosierte Form von Nähe an seiner Seite trägt – die eigene Tierentsprechung, offenbar unbewusst erkannt und gelebt; Dr. Christian Rätsch, der nicht von Universitätslehrstühlen aus, sondern als unabhängiger Wissenschaftler in seiner eigenen Burg forschte; Vera F. Birkenbihl, die unverheiratet und auf eigene Rechnung arbeitete, ihren eigenen Verlag gründete und ihre eigenen Methoden entwickelte, statt sich einer Institution unterzuordnen."
       },
       {
         titel: "Geduldiges Warten, bis das Wissen oder der Moment unangreifbar ist",
@@ -54911,6 +54913,7 @@ function spinozaPortraitPage() {
         {route:"beruehmte-rene-descartes", label:"Portr\u00e4t: Ren\u00e9 Descartes (SE5w6) \u2013 dessen Philosophie er in seinem einzigen zu Lebzeiten unter eigenem Namen ver\u00f6ffentlichten Werk kommentierte"},
         {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
+        {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6) – tödliche Lungenerkrankung"},
       ])}
     </div>
   `);
@@ -71592,6 +71595,7 @@ function marieCurieKrankheitsportraetPage() {
         {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-charles-darwin", label:"Krankheitsporträt: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5)"},
+        {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6) – tödliche Folge des eigenen Handwerks"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se5", label:"Subtyp-Profil SE5"},
       ])}
@@ -81848,6 +81852,191 @@ function salvatoreRiinaKrankheitsportraetPage() {
         {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina (SE8w9) – Boss der Cosa Nostra"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se8", label:"Subtyp-Profil SE8"},
+      ])}
+    </div>
+  `);
+}
+
+function spinozaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-spinoza-portrait.jpg" alt="Baruch de Spinoza" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Baruch de Spinoza</p>
+        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel · 1632–1677</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Eule</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Baruch de Spinoza</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-spinoza">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seinen radikalen Rückzug aus jeder
+        Gemeinschaft und sein streng systematisches philosophisches Werk. Diese Seite vertieft
+        ein Kapitel, das dort nur am Rande erwähnt wird: eine chronische Lungenerkrankung,
+        vermutlich durch jahrzehntelanges Einatmen von Glasstaub beim Linsenschleifen
+        verursacht – ausgerechnet durch das Handwerk, das ihm seine geistige Unabhängigkeit
+        sicherte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Spinoza</strong> ist dem <strong>selbsterhaltenden Typ 5 mit Sechserflügel</strong>
+        zugeordnet. Die SE5 hortet Energie, Raum und Zeit für das eigene Denken – „Burg", wie
+        Naranjo diesen Subtyp nannte. Genau dieses Prinzip radikaler Selbstgenügsamkeit
+        bestimmte auch, wie er mit seiner fortschreitenden Krankheit umging: kein Rückzug aus
+        dem Handwerk, das ihn krank machte, sondern konsequente Fortsetzung, solange die
+        Unabhängigkeit dadurch gesichert blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Jahrzehnte an der Werkbank:</strong>
+        Nach seinem Ausschluss aus der jüdischen Gemeinde Amsterdams 1656 verdiente Spinoza
+        seinen Lebensunterhalt fast ausschließlich als Schleifer optischer Linsen – eine
+        präzise Handarbeit, die er über mehr als zwei Jahrzehnte täglich ausübte.</p>
+        <p class="vb-intro"><strong>b) Feiner Glasstaub als ständiger Begleiter:</strong>
+        Das Schleifen von Linsen erzeugte feinen, eingeatmeten Glasstaub – eine Belastung, die
+        sich erst nach Jahren gesundheitlich bemerkbar machte, in einer Zeit, in der die
+        Gefahren solcher Feinstäube für die Lunge noch unbekannt waren.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Atembeschwerden in den letzten Lebensjahren:</strong>
+        In den Jahren vor seinem Tod verschlechterte sich sein Gesundheitszustand spürbar –
+        ein schleichender Verfall, der sich mit seiner unveränderten Arbeitsweise überschnitt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Keine Änderung der Lebensweise:</strong>
+        Trotz fortschreitender Erkrankung gibt es keine Hinweise darauf, dass Spinoza sein
+        Handwerk aufgab oder wesentlich einschränkte – die tägliche Arbeit an der Werkbank
+        blieb bis zuletzt Teil seines zurückgezogenen, selbstgenügsamen Lebens.</p>
+        <p class="vb-intro"><strong>b) Kaum Klagen in den erhaltenen Briefen:</strong>
+        In seiner Korrespondenz mit einem kleinen Kreis vertrauter Gelehrter finden sich
+        auffallend wenige Hinweise auf seinen körperlichen Zustand – die Burg der SE5 hielt
+        auch die eigene Krankheit weitgehend im Inneren verborgen.</p>
+        <p class="vb-intro"><strong>c) Fortgesetzte philosophische Arbeit bis zum Ende:</strong>
+        Sein Hauptwerk, die Ethica, war zum Zeitpunkt seines Todes im Wesentlichen fertig –
+        die Krankheit unterbrach die philosophische Arbeit nicht, sie beendete sie erst mit
+        dem Tod selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Kein Arztbesuch dokumentiert, kein Behandlungsversuch überliefert:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es keine
+        Berichte über ärztliche Konsultationen oder Behandlungsversuche – ein zurückgezogenes
+        Leben ohne festen sozialen Anschluss bedeutete offenbar auch ein Leben ohne
+        medizinische Begleitung im heutigen Sinne.</p>
+        <p class="vb-intro"><strong>b) Der Tod traf ihn mitten in der Arbeit:</strong>
+        Spinoza starb am 21. Februar 1677 in Den Haag, offenbar plötzlich innerhalb eines
+        kurzen Zeitraums verschärfter Symptome – nicht nach einer langen, öffentlich
+        sichtbaren Leidensphase, sondern nach Jahren stiller, kaum dokumentierter
+        Verschlechterung.</p>
+        <p class="vb-intro"><strong>c) Nur 44 Jahre alt:</strong>
+        Er starb ungewöhnlich jung für sein intellektuelles Vermächtnis – ein Leben, das nach
+        heutigem Verständnis noch Jahrzehnte philosophischer Arbeit hätte umfassen können.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das erst nach dem Tod erschien:</strong>
+        Freunde veröffentlichten noch im Todesjahr seine „Opera Posthuma", darunter die
+        Ethica – ein Werk, das er selbst zu Lebzeiten nie unter eigenem Namen hatte drucken
+        lassen, aus Furcht vor genau jener Verfolgung, die ihn schon den Bann seiner Gemeinde
+        gekostet hatte.</p>
+        <p class="vb-intro"><strong>b) Kein öffentliches Zeugnis des Leidens:</strong>
+        Anders als bei später berühmten Philosophen, die ihre eigene Krankheit reflektierten
+        oder literarisch verarbeiteten, findet sich in Spinozas erhaltenem Werk kaum
+        Auseinandersetzung mit dem eigenen körperlichen Verfall.</p>
+        <p class="vb-intro"><strong>c) Ein stiller Tod, ein lautes Nachleben:</strong>
+        Der unmittelbare Tod blieb nahezu unbemerkt außerhalb seines kleinen Freundeskreises
+        – die Wirkung seines Denkens entfaltete sich erst Generationen später, von Leibniz
+        bis Einstein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Burg, die auch die eigene Krankheit einschloss:</strong>
+        Dieselbe radikale Selbstgenügsamkeit, die Spinozas gesamtes Leben prägte, bestimmte
+        auch, wie wenig von seinem körperlichen Verfall nach außen drang – Krankheit wurde,
+        wie alles andere, in die eigene, geschützte Innenwelt aufgenommen, statt geteilt.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel und die Treue zum eigenen Prinzip:</strong>
+        Die Weigerung, das Handwerk aufzugeben, das ihn krank machte, zeigt dieselbe
+        Systemtreue, die ihn 1673 einen sicheren Lehrstuhl in Heidelberg ablehnen ließ – die
+        Unabhängigkeit, die das Linsenschleifen sicherte, wog schwerer als die gesundheitliche
+        Gefahr, die es mit sich brachte.</p>
+        <p class="vb-intro"><strong>c) Keine sichtbare Verzweiflung, kein sichtbarer Kampf:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es keine
+        Berichte über einen öffentlichen oder auch nur brieflich dokumentierten Kampf gegen
+        die eigene Sterblichkeit – die Eule zog sich zurück, wie sie es ihr ganzes Leben lang
+        getan hatte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der für die Unabhängigkeit bezahlte:</strong>
+        Spinozas gesamtes Leben war von der Überzeugung geprägt, dass ungestörtes Denken nur
+        durch radikale Selbstgenügsamkeit gesichert werden kann – das Linsenschleifen war der
+        Preis dieser Unabhängigkeit, und am Ende zugleich ihre tödliche Kehrseite.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Fast 260 Jahre später starb <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Marie Curie</a>
+        (ebenfalls SE5w6) an aplastischer Anämie – eine direkte Folge jahrzehntelanger,
+        ungeschützter Arbeit mit radioaktiven Stoffen, deren Gefahr sie selbst mit erforscht
+        hatte. Beide starben an einer Krankheit, die unmittelbar aus dem eigenen Handwerk
+        erwuchs, das ihnen zugleich ihre tiefste intellektuelle Erfüllung und Unabhängigkeit
+        sicherte – eine auffällige Parallele zwischen zwei selbsterhaltenden Fünfern, die ihr
+        Lebenswerk buchstäblich mit der eigenen Gesundheit bezahlten. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Krankheitsporträt zu Marie Curie</a>.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Lunge?</strong>
+        Für eine selbsterhaltende Fünf mit Sechserflügel, deren gesamte Kraft auf der
+        Fähigkeit beruhte, sich in eine geschützte, ungestörte Innenwelt zurückzuziehen, liegt
+        eine Deutung nahe: Ausgerechnet jenes Organ, das den Atem – die unmittelbarste,
+        elementarste Verbindung zur Außenwelt – ermöglichte, wurde zum Schauplatz des
+        Verfalls, verursacht durch die eigene, freiwillig gewählte Isolation an der
+        Werkbank. Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zwangsläufig zu
+        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Spinozas Fall zeigen lässt, ist ein Muster
+        im Umgang mit gesundheitlicher Gefährdung durch die eigene Arbeit, das bei einer
+        ausgeprägten selbsterhaltenden Fünf mit Sechserflügel immer wieder auffällt – eine
+        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Spinoza kannte sein eigenes Muster nicht – die selbsterhaltende Fünf mit
+        Sechserflügel sichert reflexhaft die eigene Unabhängigkeit und ungestörte Innenwelt,
+        statt die eigene körperliche Verletzlichkeit je offen anzuerkennen, und genau dieses
+        Muster lebte er bis in seine letzten Lebensjahre unverändert aus. Wer die eigene
+        Notwendigkeit, die schützende Burg um jeden Preis aufrechtzuerhalten, nicht als
+        Muster erkennt, kann sie auch angesichts der eigenen Sterblichkeit nicht ablegen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Fünf mit Sechserflügel erklärt bei <strong>Spinoza</strong>
+        vieles am Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte
+        Unabhängigkeit auf der stillen, präzisen Arbeit an der Werkbank beruhte, bezahlte
+        genau dafür mit seiner Gesundheit – die Eule, die sich so weit zurückzog, dass selbst
+        die eigene Krankheit kaum sichtbar wurde, bevor sie ihr endgültig die Luft nahm.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-spinoza", label:"Porträt: Baruch de Spinoza (SE5w6) – Philosoph"},
+        {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6) – tödliche Folge der eigenen Forschung"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se5", label:"Subtyp-Profil SE5"},
       ])}
     </div>
   `);
@@ -122436,6 +122625,7 @@ function render() {
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
+      "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,

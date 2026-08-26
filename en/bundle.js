@@ -248,6 +248,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
+  { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Self-Preservation Type 5", krankheit:"Chronic lung disease from glass dust", teaser:"SP5w6 – rationalist philosopher, 1632–1677. Decades of inhaling glass dust while grinding lenses, likely cause of his fatal lung disease. Died on February 21, 1677, in The Hague at age 44." , land:"Netherlands", gender:"m", jahre:"1632–1677"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -34378,6 +34379,7 @@ function spinozaPortraitPage() {
         {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6) – whose philosophy he commented on in the only work he published under his own name during his lifetime"},
         {route:"beruehmte-hermann-hesse", label:"Portrait: Hermann Hesse (SP5w6)"},
         {route:"beruhmte-philosophen", label:"Chart: Famous Philosophers in the Enneagram"},
+        {route:"krankheitsportraets-spinoza", label:"Illness Portrait: Baruch de Spinoza (SP5w6) – fatal lung disease"},
       ])}
     </div>
   `);
@@ -44032,6 +44034,7 @@ function marieCurieKrankheitsportraetPage() {
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
+        {route:"krankheitsportraets-spinoza", label:"Illness Portrait: Baruch de Spinoza (SP5w6) – fatal consequence of his own craft"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se5", label:"Subtype Profile SE5"},
       ])}
@@ -53625,6 +53628,179 @@ function salvatoreRiinaKrankheitsportraetPage() {
         {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina (SP8w9) – boss of Cosa Nostra"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se8", label:"Subtype Profile SP8"},
+      ])}
+    </div>
+  `);
+}
+
+function spinozaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-spinoza-portrait.jpg" alt="Baruch de Spinoza" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Baruch de Spinoza</p>
+        <p class="krim-portrait-typ">SP5w6 · Self-Preservation Type 5 with Six-wing · 1632–1677</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Owl</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Baruch de Spinoza</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-spinoza">famous-personality portrait</a>
+        – that page covers his radical withdrawal from every community and his strictly
+        systematic philosophical work. This page goes deeper into a chapter mentioned there
+        only in passing: a chronic lung disease, likely caused by decades of inhaling glass
+        dust while grinding lenses – caused by the very craft that secured his intellectual
+        independence.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Spinoza</strong> is assigned to the <strong>Self-Preservation Type 5 with
+        Six-wing</strong>. SP5 hoards energy, space and time for its own thinking – a
+        "fortress," as Naranjo called this subtype. This same principle of radical
+        self-sufficiency also determined how he handled his progressing illness: no
+        withdrawal from the craft that was making him sick, but consistent continuation, as
+        long as it secured his independence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Decades at the workbench:</strong>
+        After his expulsion from Amsterdam's Jewish community in 1656, Spinoza earned his
+        living almost exclusively as a grinder of optical lenses – precise manual work he
+        practiced daily for more than two decades.</p>
+        <p class="vb-intro"><strong>b) Fine glass dust as a constant companion:</strong>
+        Grinding lenses produced fine, inhaled glass dust – a burden that only became
+        noticeable after years, at a time when the dangers of such fine particulates to the
+        lungs were still unknown.</p>
+        <p class="vb-intro"><strong>c) Growing breathing difficulties in his final years:</strong>
+        In the years before his death, his health noticeably deteriorated – a gradual decline
+        that overlapped with his unchanged way of working.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) No change in his way of life:</strong>
+        Despite his progressing illness, there is no evidence that Spinoza gave up or
+        substantially reduced his craft – daily work at the bench remained part of his
+        withdrawn, self-sufficient life until the end.</p>
+        <p class="vb-intro"><strong>b) Almost no complaints in his surviving letters:</strong>
+        In his correspondence with a small circle of trusted scholars, there are strikingly
+        few references to his physical condition – the fortress of SP5 largely kept even his
+        own illness hidden within.</p>
+        <p class="vb-intro"><strong>c) Continued philosophical work until the end:</strong>
+        His main work, the Ethics, was essentially complete by the time of his death – the
+        illness did not interrupt his philosophical work; only death itself ended it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) No documented doctor's visit, no recorded treatment attempt:</strong>
+        Unlike some other illness histories in this Compass, there are no reports of medical
+        consultations or treatment attempts – a withdrawn life without firm social ties
+        apparently also meant a life without medical accompaniment in today's sense.</p>
+        <p class="vb-intro"><strong>b) Death came in the midst of his work:</strong>
+        Spinoza died on February 21, 1677, in The Hague, apparently suddenly within a short
+        period of worsened symptoms – not after a long, publicly visible period of suffering,
+        but after years of quiet, barely documented decline.</p>
+        <p class="vb-intro"><strong>c) Only 44 years old:</strong>
+        He died unusually young for his intellectual legacy – a life that, by today's
+        standards, could have included decades more of philosophical work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A work that only appeared after his death:</strong>
+        Friends published his "Opera Posthuma" that same year, including the Ethics – a work
+        he himself never had printed under his own name during his lifetime, for fear of
+        exactly the persecution that had already cost him his community's ban.</p>
+        <p class="vb-intro"><strong>b) No public testimony of suffering:</strong>
+        Unlike later famous philosophers who reflected on or literarily processed their own
+        illness, Spinoza's surviving work shows almost no engagement with his own physical
+        decline.</p>
+        <p class="vb-intro"><strong>c) A quiet death, a loud afterlife:</strong>
+        His actual death went nearly unnoticed outside his small circle of friends – the
+        impact of his thinking only unfolded generations later, from Leibniz to Einstein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The fortress that also enclosed his own illness:</strong>
+        The same radical self-sufficiency that shaped Spinoza's entire life also determined
+        how little of his physical decline reached the outside world – illness, like
+        everything else, was absorbed into his own protected inner world rather than shared.</p>
+        <p class="vb-intro"><strong>b) The Six-wing and loyalty to his own principle:</strong>
+        His refusal to give up the craft that was making him sick shows the same loyalty to
+        his own system that led him to decline a secure chair in Heidelberg in 1673 – the
+        independence secured by lens grinding outweighed the health risk it carried.</p>
+        <p class="vb-intro"><strong>c) No visible despair, no visible struggle:</strong>
+        Unlike some other illness histories in this Compass, there are no reports of a public
+        or even letter-documented struggle against his own mortality – the owl withdrew, as
+        it had done throughout its entire life.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body that paid for independence:</strong>
+        Spinoza's entire life was shaped by the conviction that undisturbed thinking could
+        only be secured through radical self-sufficiency – lens grinding was the price of
+        this independence, and in the end also its fatal underside.</p>
+        <p class="vb-intro"><strong>b) A Parallel in the Same Subtype:</strong>
+        Nearly 260 years later, <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Marie Curie</a>
+        (also SP5w6) died of aplastic anemia – a direct consequence of decades of unprotected
+        work with radioactive materials, whose danger she herself had helped research. Both
+        died of an illness that arose directly from the very craft that also gave them their
+        deepest intellectual fulfillment and independence – a striking parallel between two
+        Self-Preservation Fives who paid for their life's work with their own health. More in
+        the <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">illness portrait on Marie Curie</a>.</p>
+        <p class="vb-intro"><strong>c) Why the lungs, of all places?</strong>
+        For a Self-Preservation Five with Six-wing whose entire strength rested on the
+        ability to withdraw into a protected, undisturbed inner world, one interpretation
+        suggests itself: precisely the organ that enabled breath – the most immediate,
+        elemental connection to the outside world – became the site of decay, caused by his
+        own, freely chosen isolation at the workbench. This interpretation is a plausible
+        reading, not a documented historical causal link, and is developed further in this
+        Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of Self-Preservation Five inevitably leads to lung
+        disease – <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Spinoza's case shows is a pattern in how a pronounced Self-Preservation Five with
+        Six-wing repeatedly deals with health risks posed by their own work – one possible
+        reading among many, not a verdict. The corresponding illness profile is gradually
+        being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Spinoza did not know his own pattern – Self-Preservation Five with Six-wing
+        reflexively secures its own independence and undisturbed inner world rather than ever
+        openly acknowledging its own physical vulnerability, and he lived out exactly this
+        pattern unchanged into his final years. Whoever does not recognize their own need to
+        maintain the protective fortress at any cost as a pattern cannot set it aside even in
+        the face of their own mortality.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Self-Preservation Five with Six-wing explains much about the course of
+        <strong>Spinoza's</strong> own illness: a man whose entire independence rested on
+        quiet, precise work at the bench paid for it with exactly his health – the owl who
+        withdrew so far that even its own illness became barely visible, before it finally
+        took away its breath.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-spinoza", label:"Portrait: Baruch de Spinoza (SP5w6) – philosopher"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SP5w6) – fatal consequence of her own research"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se5", label:"Subtype Profile SP5"},
       ])}
     </div>
   `);
@@ -86743,6 +86919,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ludwig-xiv": ludwigXIVKrankheitsportraetPage,
       "krankheitsportraets-oj-simpson": ojSimpsonKrankheitsportraetPage,
       "krankheitsportraets-richard-ramirez": richardRamirezKrankheitsportraetPage,
+      "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
