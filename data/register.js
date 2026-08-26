@@ -12,6 +12,7 @@ export const registerEntries = [
   { term: "Reinhold Messner (Astrologie)",  route: "astrologie-reinhold-messner",   description: "Astrologie-Portrait: Bergsteiger-Legende · Planeten & Grenzgänger" },
   { term: "Romy Schneider (Astrologie)",    route: "astrologie-romy-schneider",     description: "Astrologie-Portrait: Filmikone, Sissie · Planetenkonstellationen" },
   { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagrammtypen und astrologischen Zeichen" },
+  { term: "Enneagramm meets Odyssee",       route: "enneagramm-odyssee",            description: "Übersicht: Die neun Stationen von Homers Odyssee als Landkarte der neun Enneagrammtypen" },
   { term: "Enneagramm-Kunstgalerie",        route: "enneagramm-kunst",              description: "9 Galerien mit je 6 Kunstwerken – klassische Gemälde als Spiegel der 9 Enneagrammtypen" },
   { term: "Enneagramm-Filmempfehlungen",    route: "enneagramm-filme",              description: "270 Filmtipps für alle 27 Subtypen – je zehn Filme pro Subtyp" },
 
@@ -2186,6 +2187,7 @@ export const registerEntriesEN = [
   { term: "Detlef Rathmer – Jazz", route: "detlef-rathmer-jazz", description: "Detlef Rathmer: jazz recommendations matching the Enneagram types" },
   { term: "Inner Dynamics of the Types", route: "dynamik-der-typen", description: "Chart: how the 9 types change under stress and growth" },
   { term: "Enneagram & Astrology", route: "enneagramm-astrologie", description: "Overview: connection between Enneagram types and astrological signs" },
+  { term: "Enneagram Meets the Odyssey", route: "enneagramm-odyssee", description: "Overview: the nine stations of Homer's Odyssey as a map of the nine Enneagram types" },
   { term: "Enneagram Film Recommendations", route: "enneagramm-filme", description: "270 film tips for all 27 subtypes – ten films per subtype" },
   { term: "Enneagram & Homeopathy", route: "enneagramm-homoeopathie", description: "Overview: homeopathy for all 27 subtypes – remedy assignments by type and instinct" },
   { term: "Enneagram Meets Reflexology", route: "enneagramm-reflexzonentherapie", description: "Overview: foot and hand reflex zones as a map of the three Enneagram centers" },

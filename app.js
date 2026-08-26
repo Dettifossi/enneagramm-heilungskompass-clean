@@ -15874,6 +15874,7 @@ const uiText = {
       { route: "enneagramm-reflexzonentherapie", label: "Enneagramm meets Reflexzonentherapie" },
       { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
+      { route: "enneagramm-odyssee", label: "Enneagramm meets Odyssee" },
       { route: "enneagramm-kunst", label: "Enneagramm-Kunstgalerie" },
       { route: "enneagramm-filme", label: "Enneagramm-Filmempfehlungen" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
@@ -23626,6 +23627,7 @@ const registerEntries = [
   { term: "Reinhold Messner (Astrologie)",  route: "astrologie-reinhold-messner",   description: "Astrologie-Portrait: Bergsteiger-Legende · Planeten & Grenzgänger" },
   { term: "Romy Schneider (Astrologie)",    route: "astrologie-romy-schneider",     description: "Astrologie-Portrait: Filmikone, Sissie · Planetenkonstellationen" },
   { term: "Enneagramm & Astrologie",        route: "enneagramm-astrologie",         description: "Übersicht: Verbindung zwischen Enneagrammtypen und astrologischen Zeichen" },
+  { term: "Enneagramm meets Odyssee", route: "enneagramm-odyssee", description: "Übersicht: Die neun Stationen von Homers Odyssee als Landkarte der neun Enneagrammtypen" },
   { term: "Enneagramm-Kunstgalerie",        route: "enneagramm-kunst",              description: "9 Galerien mit je 6 Kunstwerken – klassische Gemälde als Spiegel der 9 Enneagrammtypen" },
   { term: "Enneagramm-Filmempfehlungen",    route: "enneagramm-filme",              description: "270 Filmtipps für alle 27 Subtypen – je zehn Filme pro Subtyp" },
 
@@ -25742,6 +25744,7 @@ const registerEntriesEN = [
   { term: "Detlef Rathmer – Jazz", route: "detlef-rathmer-jazz", description: "Detlef Rathmer: jazz recommendations matching the Enneagram types" },
   { term: "Inner Dynamics of the Types", route: "dynamik-der-typen", description: "Chart: how the 9 types change under stress and growth" },
   { term: "Enneagram & Astrology", route: "enneagramm-astrologie", description: "Overview: connection between Enneagram types and astrological signs" },
+  { term: "Enneagram Meets the Odyssey", route: "enneagramm-odyssee", description: "Overview: the nine stations of Homer's Odyssey as a map of the nine Enneagram types" },
   { term: "Enneagram Film Recommendations", route: "enneagramm-filme", description: "270 film tips for all 27 subtypes – ten films per subtype" },
   { term: "Enneagram & Homeopathy", route: "enneagramm-homoeopathie", description: "Overview: homeopathy for all 27 subtypes – remedy assignments by type and instinct" },
   { term: "Homeopathy Songs", route: "homoeopathie-songs", description: "Chart: music meets homeopathy – songs as a mirror of homeopathic remedies" },
@@ -70654,7 +70657,96 @@ function enneagrammAstrologiePage() {
         {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
         {route:"psychogramme", label:"Psychogramme"},
         {route:"planetenzuordnungen", label:"Schaubild: Planeten & Trabanten des Sonnensystems"},
+        {route:"enneagramm-odyssee", label:"Enneagramm meets Odyssee"},
       ])}
+    </div>
+  `);
+}
+
+// \u2500\u2500\u2500 Enneagramm meets Odyssee \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+function enneagrammOdysseePage() {
+  const TYPEN_ODYSSEE = [
+    {
+      typ: 1, titel: "Das Gesetz der G\u00f6tter und die Pr\u00fcfung der Ordnung",
+      text: "\u00dcber der ganzen Odyssee wacht ein unsichtbares Regelwerk: der Zorn Poseidons, der die Irrfahrt \u00fcberhaupt erst ausl\u00f6st, und die k\u00fchle, gerechte F\u00fcrsorge Athenes, die immer nur eingreift, wenn das Ma\u00df, das Rechte, endlich wiederhergestellt werden kann. Nichts geschieht in diesem Kosmos willk\u00fcrlich \u2013 jede Verfehlung wird beantwortet, jede Hybris bestraft, jede Treue irgendwann belohnt. Genau in dieser unerbittlichen kosmischen Buchhaltung erkennt sich Typ 1 wieder: Die Reise verlangt absolute moralische Ausrichtung, das st\u00e4ndige Ringen um das, was richtig ist.<br><br>Die Versuchung der Eins besteht darin, sich selbst als Richter \u00fcber die Welt aufzuschwingen oder in bittere Frustration zu geraten, wenn das Schicksal \u2013 wie so oft bei Odysseus \u2013 zutiefst ungerecht erscheint. Die Entwicklungsaufgabe der Eins in der Odyssee ist das Erlernen von Hingabe: die Erkenntnis, dass wahre Ordnung nicht durch das erzwingende Ego entsteht, sondern durch das Akzeptieren der h\u00f6heren, unvollkommenen Wirklichkeit."
+    },
+    {
+      typ: 2, titel: "Kalypso und die Falle des rettenden Paradieses",
+      text: "Sieben Jahre lang h\u00e4lt die Nymphe Kalypso Odysseus auf ihrer Insel Ogygia gefangen \u2013 nicht mit Ketten, sondern mit F\u00fcrsorge. Sie pflegt ihn, verw\u00f6hnt ihn, verspricht ihm sogar Unsterblichkeit und ewige Jugend an ihrer Seite. Ein Paradies, gebaut aus reiner Zuwendung. Die einzige Bedingung: Er darf niemals wieder gehen.<br><br>Genau darin verbirgt sich die Schattenseite von Typ 2. Die Zwei gibt im \u00dcberma\u00df, rettet, n\u00e4hrt und umsorgt \u2013 kn\u00fcpft daran jedoch die unbewusste Bedingung, daf\u00fcr gebraucht und geliebt zu werden. Kalypso illustriert diese stille Gefangenschaft in der Beziehungsfalle: Der andere wird durch F\u00fcrsorge \u201ebesessen\u201c, ohne dass es sich wie Besitzergreifung anf\u00fchlt \u2013 es f\u00fchlt sich wie Liebe an. Der Ausweg f\u00fcr die Zwei liegt darin, den Gegen\u00fcber wirklich freizugeben und zu erkennen: Wahre Liebe erzwingt keine Bindung."
+    },
+    {
+      typ: 3, titel: "Die R\u00fcstung des Achill und das Trinken der Sonnenrinder",
+      text: "Zweimal begegnet Typ 3 auf dieser Reise der Verf\u00fchrung durch Glanz und Erfolg. Da ist die R\u00fcstung des gefallenen Helden Achill \u2013 der Mantel des Ruhms, um den sich sogar die gr\u00f6\u00dften Krieger streiten, weil er verspricht, wer immer ihn tr\u00e4gt, werde selbst zur Legende. Und da ist, weit dramatischer, das Schlachten der heiligen Sonnenrinder des Helios: Die hungernden Gef\u00e4hrten missachten das strengste Tabu der Reise, weil der unmittelbare Erfolg \u2013 satt werden, jetzt, sofort \u2013 wichtiger erscheint als jede sp\u00e4tere Konsequenz.<br><br>F\u00fcr die Drei ist die Odyssee eine Lektion im Durchschauen des Scheins. Die Pers\u00f6nlichkeit sch\u00fctzt sich durch Leistung und eine polierte Fassade, durch das Bild, das andere von ihr haben sollen. Die Pr\u00fcfung besteht darin, die R\u00fcstung endlich abzulegen und zu erkennen: Der eigene Wert h\u00e4ngt nicht am Beifall der Mitwelt, sondern am unverf\u00e4lschten Sein darunter."
+    },
+    {
+      typ: 4, titel: "Der Gesang der Sirenen und die Verf\u00fchrung des Schmerzes",
+      text: "Odysseus wei\u00df, was ihn erwartet, und l\u00e4sst sich trotzdem an den Mast binden, um es zu h\u00f6ren: den Gesang der Sirenen. Er ist von ber\u00fcckender Sch\u00f6nheit, zutiefst melancholisch \u2013 und t\u00f6dlich zugleich. Kein Seefahrer, der ihn h\u00f6rt, kann ihm widerstehen; alle steuern ihre Schiffe in den sicheren Untergang, gezogen von einer Musik, die verspricht, den tiefsten Schmerz in etwas Erhabenes zu verwandeln.<br><br>Die Sirenen symbolisieren die Sucht von Typ 4 nach intensivem emotionalem Drama, nach Sehnsucht und dem Schmerz des Verlorenen. Der Gesang verspricht eine Erh\u00f6hung des Leids zu etwas Magischem, fast Heiligem. Die Entwicklungspr\u00fcfung der Vier besteht darin, den Gesang der eigenen Melancholie zu h\u00f6ren, ohne ihm ins Verderben zu folgen \u2013 Gef\u00fchle also wirklich wahrzunehmen, ohne sich von ihnen ertr\u00e4nken zu lassen."
+    },
+    {
+      typ: 5, titel: "Der Abstieg in den Hades und das schattige Wissen",
+      text: "Um \u00fcberhaupt einen Weg nach Hause zu finden, muss Odysseus zuerst dorthin, wo niemand freiwillig hingeht: in die Unterwelt, den Hades, um den blinden Seher Teiresias nach seinem Schicksal zu befragen. Es ist ein Ort v\u00f6lliger Dunkelheit, \u00e4u\u00dferster Distanz zum Leben \u2013 und zugleich der Ort, an dem sich das reinste, unverstellte Wissen findet.<br><br>Diese Etappe spiegelt exakt den R\u00fcckzug von Typ 5 wider. Die F\u00fcnf zieht sich aus der lebendigen, oft \u00fcberfordernden Au\u00dfenwelt in die innere Gedankenwelt zur\u00fcck, beobachtet das Leben aus sicherer Entfernung und sammelt Wissen als Schutzschild gegen eine als bedrohlich erlebte Realit\u00e4t. Der Mythos lehrt jedoch etwas Entscheidendes: Der Aufenthalt im Hades dient nur der Orientierung, nicht dem dauerhaften Wohnen. Die F\u00fcnf muss die Schattenwelt des blo\u00dfen Beobachtens irgendwann wieder verlassen und ins k\u00f6rperliche, emotionale Leben zur\u00fcckkehren."
+    },
+    {
+      typ: 6, titel: "Skylla, Charybdis und der Windbeutel des Aiolos",
+      text: "Kaum eine Figur der Odyssee kennt die Gefahr so gut wie die Sechs \u2013 und wird trotzdem, oder gerade deshalb, immer wieder von ihr eingeholt. Da ist der Windbeutel des Windgottes Aiolos: ein Geschenk, das die sichere Heimfahrt garantieren w\u00fcrde, h\u00e4tten die misstrauischen Gef\u00e4hrten ihn nicht in Sichtweite der Heimat aus Argwohn ge\u00f6ffnet und damit das Chaos selbst entfesselt. Und da ist die ber\u00fcchtigte Meerenge zwischen Skylla, dem sechsk\u00f6pfigen Ungeheuer, und Charybdis, dem alles verschlingenden Strudel \u2013 eine Passage, bei der jede Entscheidung ein Opfer verlangt.<br><br>Dies ist das eigentliche Territorium der Sechs: die Dauerprojektion von Gefahren, das st\u00e4ndige Schwanken zwischen l\u00e4hmender Angst und trotzigem Mut, das nie endende Abw\u00e4gen des kleineren \u00dcbels. Die Reise verlangt von der Sechs den \u00dcbergang von \u00e4u\u00dferer R\u00fcckversicherung \u2013 oder der Panik-L\u00e4hmung, wenn diese fehlt \u2013 zu einem inneren Vertrauen, das auch mitten im Sturm tr\u00e4gt."
+    },
+    {
+      typ: 7, titel: "Kirke, die Lotosesser und das Ausweichen vor dem Schmerz",
+      text: "Kaum haben die Gef\u00e4hrten die Insel der Zauberin Kirke betreten, verwandelt sie sie mit berauschenden Kr\u00e4utern und einem Festmahl in Schweine \u2013 ein Zustand puren, gedankenlosen Genusses, in dem die eigentliche Heimreise, das eigentliche Ziel, restlos vergessen wird. Erst Odysseus' Klugheit und der Beistand des Gottes Hermes bewahren ihn selbst vor diesem Schicksal.<br><br>Kirkes Insel steht exemplarisch f\u00fcr die Fixierung von Typ 7: das st\u00e4ndige Ausweichen vor unangenehmen Gef\u00fchlen durch Ablenkung, Konsum, neue Pl\u00e4ne und ein optimistisches, beinahe magisches Denken. Die Gefahr der Sieben besteht darin, in den Freuden der Fantasie oder des Augenblicks zu stranden und dadurch genau die Tiefe der Transformation zu verpassen, die eigentlich das Ziel der Reise ist. Die Sieben muss lernen, auch den Schmerz anzunehmen, um zu echter, gelassener N\u00fcchternheit zu finden."
+    },
+    {
+      typ: 8, titel: "Der Zyklop Polyphem und die rohe Gewaltsamkeit",
+      text: "Der ein\u00e4ugige Riese Polyphem kennt keine Gesetze au\u00dfer seinem eigenen Willen. Er vertraut allein auf seine gigantische Kraft, sperrt Odysseus und seine M\u00e4nner in seine H\u00f6hle und verschlingt sie einen nach dem anderen, rasend vor unkontrollierter Wut. Sein einzelnes Auge liest sich wie ein Sinnbild f\u00fcr eine radikal eingeschr\u00e4nkte, gnadenlos zweigeteilte Sichtweise: stark oder schwach, Macht oder Ohnmacht \u2013 ein Dazwischen gibt es f\u00fcr ihn nicht.<br><br>Polyphem verk\u00f6rpert die unintegrierte Schattenseite von Typ 8: die exzessive Selbstbehauptung, das vollst\u00e4ndige Abstreifen jeglicher Verletzlichkeit, das Diktieren eigener Regeln allein durch H\u00e4rte. Erst als Odysseus den Zyklopen durch List \u2013 Geist statt roher Gewalt \u2013 blendet und entkommt, wird die Festung der blo\u00dfen Macht endg\u00fcltig gebrochen. Die Acht lernt hier ihre entscheidende Lektion: Wahre St\u00e4rke liegt nicht in der Eskalation, sondern in der B\u00e4ndigung des eigenen Exzesses und im mutigen Zulassen von Herzensw\u00e4rme."
+    },
+    {
+      typ: 9, titel: "Das Vergessen im Land der Lotosesser",
+      text: "Gleich zu Beginn der Irrfahrt, noch bevor die gro\u00dfen Pr\u00fcfungen \u00fcberhaupt beginnen, ger\u00e4t die Mannschaft an die K\u00fcste der Lotosesser. Wer von der s\u00fc\u00dfen Lotosfrucht kostet, versinkt in einem Zustand gl\u00fcckseliger Gleichg\u00fcltigkeit \u2013 vergisst Heimat, Auftrag und Sehnsucht und will f\u00fcr immer dort bleiben, bet\u00e4ubt von einem Frieden, der keiner ist.<br><br>Genau hier liegt das Herzst\u00fcck der Problematik von Typ 9: die psychische Tr\u00e4gheit, jene stille Selbstbet\u00e4ubung, die im Enneagramm als \u203aSloth\u2039 bezeichnet wird. Die Neun neigt dazu, sich selbst zu vergessen, jedem Konflikt auszuweichen und sich im scheinbaren Wohlbefinden des Status quo schlafen zu legen. Das Land der Lotosesser f\u00fchlt sich friedlich an, ist in Wahrheit aber der Tod der eigenen Bestimmung. Die Reise der Neun beginnt genau an diesem Punkt \u2013 beim Erwachen aus der Narkose und dem stillen, aber entscheidenden Entschluss, das eigene Leben endlich wieder aktiv in die Hand zu nehmen."
+    },
+  ];
+
+  function typCard(t) {
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[t.typ] : null) || 'var(--copper)';
+    return `<div class="vb-section" style="max-width:100%;border-left:3px solid ${col};padding-left:1.1rem;margin-bottom:1.4rem;">
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.4rem;">Typ ${t.typ}</div>
+      <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">${t.titel}</h3>
+      <p class="vb-intro" style="margin:0;">${t.text}</p>
+    </div>`;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-odyssee')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen \u00b7 Mythologie</p>
+        <h1 class="section-title">Enneagramm meets Odyssee</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Die Heldenreise als Landkarte der neun Fixierungen</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Manche Geschichten sind so alt und so oft erz\u00e4hlt worden, dass sie l\u00e4ngst aufgeh\u00f6rt haben, nur Geschichten zu sein \u2013 sie sind zu Landkarten der menschlichen Seele geworden. Die Odyssee Homers ist eine davon: die zehnj\u00e4hrige Irrfahrt eines Mannes, der nichts weiter will, als nach Hause zu kommen, und dabei an jeder Station von einer anderen Versuchung, einem anderen Ungeheuer, einer anderen Illusion aufgehalten wird.</p>
+          <p class="vb-intro">Liest man diese Stationen durch die Brille des Enneagramms, entsteht ein verbl\u00fcffend genaues Bild: Jede Etappe der Reise \u2013 die Insel der Kalypso, der Gesang der Sirenen, der Zyklop Polyphem, der Abstieg in den Hades \u2013 l\u00e4sst sich einem der neun Typen zuordnen, als h\u00e4tte Homer bereits vor fast dreitausend Jahren die neun Grundmuster menschlicher Fixierung in Bilder gefasst. Die Enneagramm-Lehrerin Beatrice Chestnut hat diese Parallele in ihrer Arbeit aufgegriffen und ausgearbeitet \u2013 nicht als zuf\u00e4lliges Anschauungsmaterial, sondern als metaphorische Blaupause f\u00fcr die menschliche Transformation: Die Reise von Odysseus ist der Weg der Seele, die aus der Illusion des Ego (dem Krieg von Troja) aufbricht, um zu ihrer wahren Essenz (Ithaka) zur\u00fcckzukehren.</p>
+          <p class="vb-intro">Die Pr\u00fcfung auf dieser Reise liegt darin, dass jeder Typ an den spezifischen Fixierungen seiner Pers\u00f6nlichkeit scheitern kann. Erst wenn die Heldenfigur die Schattenseiten und Versuchungen der jeweiligen Etappe durchschaut, wird der Weg nach Hause frei.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/enneagramm-odyssee-de.jpeg" alt="Die Odyssee: Die Reise des Enneagramms \u2013 Odysseus' Schiff umgeben von den neun Stationen seiner Reise" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Odysseus' Schiff im Zentrum, umgeben von den Schl\u00fcsselmomenten seiner Reise, die die neun Enneagrammtypen repr\u00e4sentieren: oben die Begegnungen mit dem Zyklopen (Typ 8), der Zauberin Kirke (Typ 7) und die Passage zwischen Skylla und Charybdis (Typ 6); unten die Sirenen (Typ 4), die Lotosesser (Typ 9) und die R\u00fcstung des Achill (Typ 3); im Hintergrund der Hades (Typ 5), der g\u00f6ttliche Zorn (Typ 1) und Kalypso (Typ 2).</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          ${TYPEN_ODYSSEE.map(typCard).join('')}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Wie Instinkt und Typ zusammenwirken \u2013 die verborgene Dynamik hinter den 27 Subtypen, jenseits der neun Grundtypen.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        ${relatedLinks([
+          {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"beruehmte-persoenlichkeiten", label:"Ber\u00fchmte Pers\u00f6nlichkeiten \u2013 Portr\u00e4ts"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+          {route:"tritypen", label:"Die 27 Tritypen des Enneagramms"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -129389,6 +129481,7 @@ function render() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "enneagramm-odyssee": enneagrammOdysseePage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,

@@ -2666,6 +2666,7 @@ text.nav = [
     { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
+    { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
     { route: "enneagramm-kunst", label: "Enneagram Art" },
     { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
@@ -41625,7 +41626,96 @@ function enneagrammAstrologiePage() {
         {route:"kriminalpsychologie", label:"Criminal Psychology"},
         {route:"psychogramme", label:"Psychograms"},
         {route:"planetenzuordnungen", label:"Chart: Planets & Moons of the Solar System"},
+        {route:"enneagramm-odyssee", label:"Enneagram Meets the Odyssey"},
       ])}
+    </div>
+  `);
+}
+
+// ─── Enneagram Meets the Odyssey ───────────────────────────────────────────
+
+function enneagrammOdysseePage() {
+  const TYPEN_ODYSSEE = [
+    {
+      typ: 1, titel: "The Law of the Gods and the Trial of Order",
+      text: "Over the whole of the Odyssey hangs an invisible rulebook: the wrath of Poseidon, which sets the entire ordeal in motion, and the cool, exacting favor of Athena, who only ever intervenes once the measure of what is right can finally be restored. Nothing in this cosmos happens arbitrarily – every offense is answered, every act of hubris punished, every loyalty eventually rewarded. It is exactly this unrelenting cosmic bookkeeping that Type 1 recognizes itself in: the journey demands absolute moral alignment, a constant wrestling with what is right.<br><br>The temptation of the One is to set itself up as judge over the world, or to fall into bitter frustration when fate – as so often for Odysseus – seems deeply unjust. The One's developmental task in the Odyssey is learning surrender: the realization that true order does not arise from the enforcing ego, but from accepting the higher, imperfect reality."
+    },
+    {
+      typ: 2, titel: "Calypso and the Trap of the Rescuing Paradise",
+      text: "For seven years, the nymph Calypso keeps Odysseus on her island Ogygia – not with chains, but with devotion. She cares for him, indulges him, even offers him immortality and eternal youth at her side. A paradise built entirely out of tenderness. The one condition: he must never leave.<br><br>This is precisely where the shadow side of Type 2 hides. The Two gives to excess, rescues, nourishes, and cares for others – but attaches to it the unconscious condition of being needed and loved in return. Calypso illustrates this quiet captivity within the relationship trap: the other is 'possessed' through care, without it ever feeling like possession – it feels like love. The way out for the Two lies in truly letting the other go, and recognizing that real love never forces a bond."
+    },
+    {
+      typ: 3, titel: "The Armor of Achilles and the Drinking of the Sun God's Cattle",
+      text: "Type 3 meets the temptation of outward glory and image twice on this journey. There is the armor of the fallen hero Achilles – the mantle of glory, fought over even by the greatest warriors, because whoever wears it is promised to become a legend themselves. And there is, far more dramatically, the slaughter of the sacred cattle of Helios: the urge for immediate success and sustenance overriding the strictest taboo of the entire voyage, because instant gratification – eating, now, right now – outweighs any later consequence.<br><br>For the Three, the Odyssey is a lesson in seeing through appearances. The personality protects itself through achievement and a polished façade, through the image others are meant to hold of it. The trial lies in finally laying the armor down and recognizing that one's own worth does not hang on the applause of the world, but on the unvarnished self underneath."
+    },
+    {
+      typ: 4, titel: "The Sirens' Song and the Seduction of Pain",
+      text: "Odysseus knows exactly what awaits him, and has himself bound to the mast anyway, just to hear it: the song of the Sirens. It is achingly beautiful, deeply melancholic – and lethal. No sailor who hears it can resist; all of them steer their ships to certain ruin, drawn by a music that promises to transform the deepest pain into something sublime.<br><br>The Sirens symbolize Type 4's craving for intense emotional drama, for longing, and for the pain of what has been lost. The song promises to elevate suffering into something almost sacred. The Four's developmental trial lies in hearing the song of one's own melancholy without following it to ruin – truly feeling emotions without letting them drown you."
+    },
+    {
+      typ: 5, titel: "The Descent into Hades and Shadowed Knowledge",
+      text: "To find any way home at all, Odysseus must first go where no one goes willingly: down into the underworld, Hades, to consult the blind seer Tiresias about his fate. It is a place of total darkness, of the utmost distance from life – and, at the same time, the place where the purest, most unfiltered knowledge is found.<br><br>This stage mirrors exactly the withdrawal of Type 5. The Five retreats from the vivid, often overwhelming outer world into an inner world of thought, observes life from a safe distance, and gathers knowledge as a shield against a reality it experiences as threatening. But the myth teaches something crucial: the stay in Hades serves only for orientation, not for permanent residence. The Five must eventually leave the shadow-world of pure observation behind and return to physical, emotional life."
+    },
+    {
+      typ: 6, titel: "Scylla, Charybdis, and the Bag of Winds from Aeolus",
+      text: "Few figures in the Odyssey know danger as intimately as the Six – and yet are caught by it again and again, precisely because of that knowing. There is the bag of winds from Aeolus: a gift that would have guaranteed a safe voyage home, had the suspicious crew not opened it within sight of home out of sheer mistrust, unleashing chaos with their own hands. And there is the notorious strait between Scylla, the six-headed monster, and Charybdis, the all-devouring whirlpool – a passage where every choice demands a sacrifice.<br><br>This is the true territory of the Six: the constant projection of danger, the endless oscillation between paralyzing fear and defiant courage, the never-ending weighing of the lesser evil. The journey demands that the Six move from external reassurance – or panic-driven paralysis when reassurance is absent – toward an inner trust that holds steady even in the middle of the storm."
+    },
+    {
+      typ: 7, titel: "Circe, the Lotus-Eaters, and Escaping Pain",
+      text: "No sooner have the crew set foot on the sorceress Circe's island than she transforms them into pigs with intoxicating herbs and a feast – a state of pure, thoughtless indulgence in which the actual journey home, the actual goal, is entirely forgotten. Only Odysseus's cunning and the help of the god Hermes spare him this fate himself.<br><br>Circe's island is a perfect stand-in for the fixation of Type 7: the constant evasion of uncomfortable feelings through distraction, consumption, new plans, and an almost magical optimism. The Seven's danger lies in stranding on the pleasures of fantasy or the moment, and thereby missing exactly the depth of transformation that was the actual point of the journey. The Seven must learn to accept pain too, in order to arrive at real, grounded sobriety."
+    },
+    {
+      typ: 8, titel: "The Cyclops Polyphemus and Raw Force",
+      text: "The one-eyed giant Polyphemus knows no laws but his own will. He trusts only in his own gigantic strength, traps Odysseus and his men in his cave, and devours them one by one, raging with uncontrolled fury. His single eye reads like a symbol for a radically narrowed, mercilessly binary way of seeing the world: strong or weak, power or powerlessness – with nothing in between.<br><br>Polyphemus embodies the unintegrated shadow side of Type 8: excessive self-assertion, the complete stripping away of any vulnerability, dictating one's own rules through sheer force alone. Only when Odysseus blinds the Cyclops through cunning – wit instead of raw violence – and escapes is the fortress of mere power finally broken. Here the Eight learns its decisive lesson: true strength lies not in escalation, but in taming one's own excess and courageously allowing warmth of the heart."
+    },
+    {
+      typ: 9, titel: "Forgetting in the Land of the Lotus-Eaters",
+      text: "Right at the very start of the ordeal, before the great trials have even begun, the crew lands on the shore of the Lotus-eaters. Whoever tastes the sweet lotus fruit sinks into a state of blissful indifference – forgetting home, mission, and longing, wanting only to stay forever, numbed by a peace that is no peace at all.<br><br>This is precisely the heart of Type 9's core issue: psychic sloth, that quiet self-numbing the Enneagram calls ›sloth‹. The Nine tends to forget itself, to avoid every conflict, and to fall asleep in the apparent comfort of the status quo. The land of the Lotus-eaters feels peaceful, but is, in truth, the death of one's own purpose. The Nine's journey begins exactly there – in waking from the narcosis and making the quiet but decisive choice to actively take one's own life back into one's own hands."
+    },
+  ];
+
+  function typCard(t) {
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[t.typ] : null) || 'var(--copper)';
+    return `<div class="vb-section" style="max-width:100%;border-left:3px solid ${col};padding-left:1.1rem;margin-bottom:1.4rem;">
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.4rem;">Type ${t.typ}</div>
+      <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">${t.titel}</h3>
+      <p class="vb-intro" style="margin:0;">${t.text}</p>
+    </div>`;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-odyssee')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge · Mythology</p>
+        <h1 class="section-title">Enneagram Meets the Odyssey</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">The Hero's Journey as a Map of the Nine Fixations</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Some stories are so old and have been told so many times that they have long since stopped being merely stories – they have become maps of the human soul. Homer's Odyssey is one of them: the ten-year voyage of a man who wants nothing more than to reach home, and who is held back at every station by a different temptation, a different monster, a different illusion.</p>
+          <p class="vb-intro">Read through the lens of the Enneagram, these stations form a strikingly precise picture: every stage of the journey – the island of Calypso, the song of the Sirens, the Cyclops Polyphemus, the descent into Hades – maps onto one of the nine types, as if Homer had already captured the nine core patterns of human fixation in image nearly three thousand years ago. Enneagram teacher Beatrice Chestnut has taken up and developed this parallel in her work – not as a coincidental illustration, but as a metaphorical blueprint for human transformation: Odysseus's journey is the journey of the soul, breaking free from the illusion of ego (the war of Troy) to return to its true essence (Ithaca).</p>
+          <p class="vb-intro">The trial along this journey is that each type can fail at the specific fixations of its own personality. Only once the hero sees through the shadow sides and temptations of each stage does the way home open.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/portraits/enneagramm-odyssee-en.jpeg" alt="The Odyssey: The Enneagram Journey – Odysseus's ship surrounded by the nine stations of his voyage" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Odysseus's ship at the center, surrounded by the key moments of his journey representing the nine Enneagram types: above, the encounters with the Cyclops (Type 8), the sorceress Circe (Type 7), and the passage between Scylla and Charybdis (Type 6); below, the Sirens (Type 4), the Lotus-eaters (Type 9), and the armor of Achilles (Type 3); in the background, Hades (Type 5), divine wrath (Type 1), and Calypso (Type 2).</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;">
+          ${TYPEN_ODYSSEE.map(typCard).join('')}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – protection patterns, passions, and the path to essence. The first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "How instinct and type interact – the hidden dynamics behind the 27 subtypes, beyond the nine core types.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${relatedLinks([
+          {route:"enneagramm-astrologie", label:"Enneagram Meets Astrology"},
+          {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities – Portraits"},
+          {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
+          {route:"tritypen", label:"The 27 Tritypes of the Enneagram"},
+        ])}
+      </div>
     </div>
   `);
 }
@@ -93292,6 +93382,7 @@ function subtypeSchaubilderPage() {
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "enneagramm-odyssee": enneagrammOdysseePage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
