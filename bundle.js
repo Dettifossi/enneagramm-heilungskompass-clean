@@ -70766,7 +70766,7 @@ function enneagrammWohnraumarchitekturPage() {
         { typ: 5, titel: "Der Beobachter \u2013 Das minimalistische Observatorium", punkte: [
           "<strong>Das Wohnkonzept:</strong> Die F\u00fcnf braucht vor allem eines: minimalistischen R\u00fcckzug und Ruhe. \u00dcberfl\u00fcssiger Ballast wird konsequent aussortiert. Ihr Raum gleicht oft einem durchdachten Refugium, in dem jedes Buch seinen festen Platz hat.",
           "<strong>Die Raum-Psychologie:</strong> Ein gem\u00fctlicher, uneinsehbarer Lesesessel, gedimmtes Licht und klare Linien sch\u00fctzen die F\u00fcnf vor energetischer Reiz\u00fcberflutung. Hier kann sie sich zur\u00fcckziehen, beobachten und in ihre Wissenswelten abtauchen, ohne gest\u00f6rt zu werden.",
-          "<strong>Der Feng-Shui-Impuls:</strong> Das Element Metall unterst\u00fctzt die F\u00fcnf optimal bei der mentalen Kl\u00e4rung und Struktur. Ein aufger\u00e4umter, klarer Norden oder Nordwesten (Bereich f\u00fcr Wissen und Hilfreiche Freunde) hilft ihr, gedanklich geerdet zu bleiben, w\u00e4hrend dezente Blaut\u00f6ne (Wasser-Element) die unruhige Mentalt\u00e4tigkeit k\u00fchlen und beruhigen.",
+          "<strong>Der Feng-Shui-Impuls:</strong> Das Element Metall unterst\u00fctzt die F\u00fcnf optimal bei der mentalen Kl\u00e4rung und Struktur. Ein aufger\u00e4umter, klarer Norden oder Nordwesten (Bereich f\u00fcr Wissen und hilfreiche Freunde) hilft ihr, gedanklich geerdet zu bleiben, w\u00e4hrend dezente Blaut\u00f6ne (Wasser-Element) die unruhige Mentalt\u00e4tigkeit k\u00fchlen und beruhigen.",
         ]},
         { typ: 6, titel: "Der Loyale \u2013 Die uneinnehmbare Festung", punkte: [
           "<strong>Das Wohnkonzept:</strong> F\u00fcr die sicherheitsorientierte Sechs muss das Zuhause absoluten Schutz bieten. Das zeigt sich in stabilen T\u00fcren, guten Schl\u00f6ssern, einer aufger\u00e4umten, verl\u00e4sslichen Struktur und oft auch praktischen Vorratshaltungen.",
@@ -70849,7 +70849,7 @@ function enneagrammWohnraumarchitekturPage() {
       <div class="page-content">
         <p class="eyebrow">Wissen \u00b7 Wohnpsychologie</p>
         <h1 class="section-title">Enneagramm meets Wohnraumarchitektur</h1>
-        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Wohnen im Spiegel der Seele: Die 9 Enneagramm-Typen und ihre Architektur des Wohnraums</h2>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Wohnen im Spiegel der Seele: Die 9 Enneagrammtypen und ihre Architektur des Wohnraums</h2>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
           <p class="vb-intro">Unser Zuhause ist weit mehr als nur ein Ort zum Schlafen und Verweilen \u2013 es ist die dreidimensionale Projektion unserer inneren Psyche. Unbewusst gestalten wir unsere Wohnr\u00e4ume so, dass sie unseren tiefsten Sehns\u00fcchten, Schutzmechanismen und Grundmotiven entsprechen. W\u00e4hrend die ganzheitliche Architektur und Wohnpsychologie schon lange untersuchen, wie R\u00e4ume auf uns wirken, l\u00e4sst sich das Enneagramm als faszinierender Schl\u00fcssel nutzen, um die ganz individuellen Wohn- und R\u00fcckzugsbed\u00fcrfnisse der neun Pers\u00f6nlichkeitstypen zu entschl\u00fcsseln.</p>
@@ -70867,7 +70867,7 @@ function enneagrammWohnraumarchitekturPage() {
         <div class="vb-section" style="max-width:100%;margin-top:2rem;">
           <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Fazit: Wenn der Grundriss zur Pers\u00f6nlichkeit wird</h2>
           <p class="vb-intro">Ein Blick in unsere vier W\u00e4nde zeigt uns oft ehrlicher, wer wir sind, als jedes Fragebogen-Ergebnis. Ob die festungsartige Sicherheit der Sechs, die minimalistische Klarheit der F\u00fcnf, das kunstvolle Nest der Vier oder der flie\u00dfende Friede der Neun \u2013 das Enneagramm in Kombination mit den Prinzipien des Feng Shui hilft uns zu verstehen, warum wir uns in bestimmten R\u00e4umen geborgen und in anderen blockiert f\u00fchlen.</p>
-          <p class="vb-intro" style="margin-bottom:0;">Wer sein Zuhause bewusst im Einklang mit seinem Enneagramm-Typ und dem optimalen energetischen Chi-Fluss gestaltet, erschafft sich keinen blo\u00dfen Wohnraum, sondern einen echten, lebendigen Kraftort f\u00fcr die Seele.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Wer sein Zuhause bewusst im Einklang mit seinem Enneagrammtyp und dem optimalen energetischen Chi-Fluss gestaltet, erschafft sich keinen blo\u00dfen Wohnraum, sondern einen echten, lebendigen Kraftort f\u00fcr die Seele.</p>
         </div>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
