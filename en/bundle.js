@@ -261,6 +261,14 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Self-Preservation Type 6", krankheit:"Lifelong, publicly documented hypochondria ('alarmism')", teaser:"SE6w7 – American director, screenwriter, and comedian, b. 1935. Documented health anxiety since the 1950s, over 35 years of psychoanalysis, described in detail in his own New York Times essay of January 12, 2013." , land:"USA", gender:"m", jahre:"b. 1935"},
   { route:"krankheitsportraets-fritz-perls", name:"Fritz Perls", subtyp:"SO8w7", heading:"Fritz Perls – Social Type 8", krankheit:"Years-long heart condition, chain smoking, pancreatic cancer", teaser:"SO8w7 – psychiatrist, co-founder of Gestalt therapy, 1893–1970. Years-long heart condition following an anesthesia-related injury, lifelong chain smoking, pancreatic cancer surgery. Died on March 14, 1970, in Chicago from acute heart failure." , land:"Germany/USA", gender:"m", jahre:"1893–1970"},
   { route:"krankheitsportraets-julian-assange", name:"Julian Assange", subtyp:"SO9w1", heading:"Julian Assange – Social Type 9", krankheit:"Over seven years of isolation with documented physical and psychological consequences", teaser:"SO9w1 – founder of WikiLeaks, b. 1971. 2012–2019 near-total isolation in the Ecuadorian embassy in London, followed by British high-security detention until 2024. Medically documented neuropsychological damage, chronic pain, and PTSD." , land:"Australia/United Kingdom", gender:"m", jahre:"b. 1971"},
+  { route:"krankheitsportraets-morgan-freeman", name:"Morgan Freeman", subtyp:"SX7w6", heading:"Morgan Freeman – Sexual Type 7", krankheit:"Fibromyalgia with chronic nerve pain in the left arm since 2008", teaser:"SX7w6 – actor, b. 1937. Severe car accident in 2008 with nerve damage to the left hand, subsequent fibromyalgia diagnosis with chronic pain, since then a publicly visible compression glove." , land:"USA", gender:"m", jahre:"b. 1937"},
+  { route:"krankheitsportraets-junko-tabei", name:"Junko Tabei", subtyp:"SE7w6", heading:"Junko Tabei – Self-Preservation Type 7", krankheit:"Peritoneal cancer, continued mountaineering until death", teaser:"SE7w6 – mountaineer, first woman to summit Mount Everest, 1939–2016. Peritoneal cancer diagnosis in 2012, still climbed mountains worldwide until 2015 and continued her commitment to young people from Fukushima. Died in 2016 at age 77." , land:"Japan", gender:"f", jahre:"1939–2016"},
+  { route:"krankheitsportraets-mariah-carey", name:"Mariah Carey", subtyp:"SE7w8", heading:"Mariah Carey – Self-Preservation Type 7", krankheit:"Bipolar II disorder, diagnosed 2001, made public 2018", teaser:"SE7w8 – singer, b. 1969. Diagnosed with bipolar II disorder in 2001 after a psychological breakdown and hospitalizations, kept the diagnosis secret for 17 years, made it public in 2018." , land:"USA", gender:"f", jahre:"b. 1969"},
+  { route:"krankheitsportraets-christiaan-barnard", name:"Christiaan Barnard", subtyp:"SO3w2", heading:"Christiaan Barnard – Social Type 3", krankheit:"Rheumatoid arthritis in the hands since 1956, ended surgical career in 1983", teaser:"SO3w2 – heart surgeon, first successful heart transplant in 1967, 1922–2001. Rheumatoid arthritis since 1956, increasing involvement of the hands forced him to retire from surgery in 1983. Died in 2001 at age 78." , land:"South Africa", gender:"m", jahre:"1922–2001"},
+  { route:"krankheitsportraets-anthony-hopkins", name:"Anthony Hopkins", subtyp:"SE1w9", heading:"Anthony Hopkins – Self-Preservation Type 1", krankheit:"Alcoholism, sober since 1975", teaser:"SE1w9 – actor, b. 1937. Severe alcohol addiction until a turning point in 1975, by his own account continuously sober ever since – over five decades." , land:"United Kingdom/USA", gender:"m", jahre:"b. 1937"},
+  { route:"krankheitsportraets-byron-katie", name:"Byron Katie", subtyp:"SX6w7", heading:"Byron Katie – Sexual Type 6", krankheit:"Ten years of severe depression and agoraphobia, turning point in 1986", teaser:"SX6w7 – author, founder of 'The Work,' b. 1942. Roughly ten years of severe depression and agoraphobia, a decisive turning point in a facility in 1986, from which her later method emerged." , land:"USA", gender:"f", jahre:"b. 1942"},
+  { route:"krankheitsportraets-drew-barrymore", name:"Drew Barrymore", subtyp:"SO7w8", heading:"Drew Barrymore – Social Type 7", krankheit:"Childhood addiction, clinic admission in 1988 at age 13", teaser:"SO7w8 – actress, b. 1975. Alcohol and drug addiction beginning already in childhood, admitted to a rehabilitation clinic in 1988 at age 13, legally emancipated from her parents at 14." , land:"USA", gender:"f", jahre:"b. 1975"},
+  { route:"krankheitsportraets-neil-armstrong", name:"Neil Armstrong", subtyp:"SE6w7", heading:"Neil Armstrong – Self-Preservation Type 6", krankheit:"Over two decades of coronary heart disease, death after bypass surgery", teaser:"SE6w7 – astronaut, first man on the moon, 1930–2012. Heart attack in 1991, over two decades of progressive coronary heart disease, emergency quadruple bypass surgery in August 2012, died a few days later from complications." , land:"USA", gender:"m", jahre:"1930–2012"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -21646,6 +21654,7 @@ function morganFreemanPortraitPage() {
         {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
+        {route:"krankheitsportraets-morgan-freeman", label:"Illness Portrait: Morgan Freeman (SX7w6) – fibromyalgia since 2008"},
       ])}
     </div>
   `);
@@ -23576,6 +23585,7 @@ function mariahCareyPortraitPage() {
           {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
           {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
           {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+          {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SE7w8) – bipolar disorder"},
         ])}
       </div>
     </div>
@@ -24127,6 +24137,7 @@ function neilArmstrongPortraitPage() {
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
+        {route:"krankheitsportraets-neil-armstrong", label:"Illness Portrait: Neil Armstrong (SP6w7) – decades of heart disease kept private"},
       ])}
     </div>
   `);
@@ -27503,6 +27514,7 @@ function junkoTabeiPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SE7w6)"},
           {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
+          {route:"krankheitsportraets-junko-tabei", label:"Illness Portrait: Junko Tabei (SE7w6) – cancer and further summits"},
         ])}
       </div>
     </div>
@@ -28506,6 +28518,7 @@ function anthonyHopkinsPortraitPage() {
         {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
         {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6) – co-star in 'The Silence of the Lambs'"},
+        {route:"krankheitsportraets-anthony-hopkins", label:"Illness Portrait: Anthony Hopkins (SP1w9) – alcoholism and sobriety since 1975"},
       ])}
     </div>
   `);
@@ -30665,6 +30678,7 @@ function byronKatiePortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"krankheitsportraets-byron-katie", label:"Illness Portrait: Byron Katie (SX6w7) – ten years of depression and agoraphobia"},
       ])}
     </div>
   `);
@@ -31221,6 +31235,7 @@ function drewBarrymorePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-hazel-brugger", label:"Portrait: Hazel Brugger (SO7w8)"},
+        {route:"krankheitsportraets-drew-barrymore", label:"Illness Portrait: Drew Barrymore (SO7w8) – childhood addiction"},
       ])}
     </div>
   `);
@@ -40295,6 +40310,7 @@ function christiaanBarnardPortraitPage() {
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2)"},
+        {route:"krankheitsportraets-christiaan-barnard", label:"Illness Portrait: Christiaan Barnard (SO3w2) – rheumatoid arthritis in the hands"},
       ])}
     </div>
   `);
@@ -55576,6 +55592,7 @@ function woodyAllenKrankheitsportraetPage() {
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7) – the rabbit"},
         {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – related hypochondria, a different instinct response"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
+        {route:"krankheitsportraets-neil-armstrong", label:"Illness Portrait: Neil Armstrong (SP6w7) – the same underlying structure, opposite direction"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se6", label:"Subtype Profile SP6"},
       ])}
@@ -55913,6 +55930,1218 @@ function julianAssangeKrankheitsportraetPage() {
         {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1) – founder of WikiLeaks"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so9", label:"Subtype Profile SO9"},
+      ])}
+    </div>
+  `);
+}
+
+function morganFreemanKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-morgan-freeman-portrait.jpg" alt="Morgan Freeman" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Morgan Freeman</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing &middot; b. 1937</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chimpanzee</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Animal correspondence: Chimpanzee" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Morgan Freeman</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-morgan-freeman">Famous
+        Personality Portrait</a> in this Compass. This page explores a chapter only
+        touched on there: a severe car accident in 2008 left him with fibromyalgia and
+        chronic nerve pain in his left arm – a condition Freeman has lived with visibly
+        in public ever since.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Freeman</strong> is assigned to the <strong>Sexual Type 7 with Six-wing</strong>.
+        The SX7 seeks intensity in immediate, personal connection; the Six-wing adds
+        loyalty and the ability to handle setbacks calmly. This exact combination –
+        unrestrained continued work paired with quiet loyalty to one's own craft –
+        determined how Freeman responded to his chronic pain.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The car accident of 2008:</strong>
+        Freeman's car flipped on a rural road near his home in the Mississippi Delta; he
+        and his passenger were severely injured.</p>
+        <p class="vb-intro"><strong>b) Surgery on the left hand:</strong>
+        The injuries required surgery on his left hand, along with lasting nerve
+        damage.</p>
+        <p class="vb-intro"><strong>c) Fibromyalgia diagnosis in the aftermath:</strong>
+        In the months following the accident, Freeman was diagnosed with fibromyalgia – a
+        chronic pain condition that showed up mainly in his left arm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A compression glove as a constant companion:</strong>
+        Since then, Freeman has regularly worn a compression glove on his left hand at
+        public appearances – a medical necessity, not a fashion choice.</p>
+        <p class="vb-intro"><strong>b) Open description of the pain:</strong>
+        In a widely quoted interview, Freeman described the pain as "excruciating," shooting
+        "up and down the arm."</p>
+        <p class="vb-intro"><strong>c) Unchanged acting career:</strong>
+        Despite the diagnosis, Freeman continued making numerous films in the following
+        years without a discernible reduction in his workload.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Public normalization instead of concealment:</strong>
+        Freeman repeatedly spoke openly about his fibromyalgia rather than hiding it – a
+        relatively unusual approach to chronic pain for a celebrity of his generation.</p>
+        <p class="vb-intro"><strong>b) Continued physically demanding roles:</strong>
+        Even after the diagnosis, Freeman continued to take on roles requiring physical
+        presence and long shooting schedules.</p>
+        <p class="vb-intro"><strong>c) No withdrawal from public life:</strong>
+        Freeman remained visible in the media, continued giving interviews, and accepted
+        public honors, the visible glove always part of the picture.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A symbol that became a signature:</strong>
+        The glove repeatedly became a visible identifying mark in media coverage – a
+        quiet but unmistakable testament to his own vulnerability.</p>
+        <p class="vb-intro"><strong>b) Attention for an often invisible illness:</strong>
+        Freeman's openness helped raise awareness of fibromyalgia – a condition often not
+        outwardly visible – among a broad audience.</p>
+        <p class="vb-intro"><strong>c) No discernible break in his career:</strong>
+        Freeman's filmography shows no discernible break in scope or ambition of roles
+        taken on even after 2008.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Intensity that cannot be slowed:</strong>
+        The same SX7 energy that seeks immediate, unfiltered experience also determined
+        Freeman's response to chronic pain – continued work rather than withdrawal.</p>
+        <p class="vb-intro"><strong>b) The Six-wing and quiet loyalty to his own craft:</strong>
+        The Six-wing's loyalty showed in Freeman remaining true to his profession and
+        audience rather than withdrawing for health reasons.</p>
+        <p class="vb-intro"><strong>c) Openness as its own form of intensity:</strong>
+        Instead of hiding the pain, Freeman made it part of his public presence – also a
+        form of unfiltered, direct experience.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A hand that became both tool and wound:</strong>
+        For an actor whose presence also rests on gesture and body language, the injury
+        struck precisely the tool with which he brings his roles to physical life.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-bernstein">Leonard
+        Bernstein</a> (also SX7w6) kept smoking despite a progressing lung emphysema
+        almost until his death and conducted almost until the end; Freeman responded to
+        his own chronic condition with the same basic stance – no reduction of his own
+        pace, but continued work despite a palpable physical limit. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-bernstein">Illness Portrait of Leonard Bernstein</a>.</p>
+        <p class="vb-intro"><strong>c) Placing it without determinism:</strong>
+        This does not mean that the Sexual Seven's pattern inevitably leads to chronic
+        pain conditions – <strong>anyone can suffer any illness or injury, regardless of
+        subtype.</strong> What Freeman's case illustrates is a pattern in how a
+        pronounced Sexual Seven with a Six-wing tends to handle chronic pain – one of
+        many possible interpretations, not a verdict. The corresponding illness picture
+        is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Freeman does not know his own pattern as an Enneagram structure – the Sexual
+        Seven with a Six-wing reflexively seeks full, unfiltered experience instead of
+        ever taking chronic pain as a reason to slow down, and has lived out exactly this
+        pattern unchanged for over a decade and a half. Someone who does not recognize
+        their own search for intensity as a pattern cannot pause even in the face of
+        chronic pain.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Sexual Seven with a Six-wing explains much about how <strong>Morgan
+        Freeman</strong> has handled his own fibromyalgia: a man whose entire presence
+        rests on immediate intensity makes no secret of the visible compression glove –
+        the chimpanzee that keeps climbing through the branches, even with an aching
+        arm.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"krankheitsportraets-leonard-bernstein", label:"Illness Portrait: Leonard Bernstein (SX7w6) – the same pattern of unrestrained continued work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx7", label:"Subtype Profile SX7"},
+      ])}
+    </div>
+  `);
+}
+
+function junkoTabeiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-junko-tabei-portrait.jpg" alt="Junko Tabei" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Junko Tabei</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with Six-wing &middot; 1939–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Junko Tabei</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-junko-tabei">Famous Personality
+        Portrait</a> in this Compass – that portrait focuses on her 1975 ascent of Mount
+        Everest as the first woman ever to reach its summit. This page explores a chapter
+        only touched on there: a peritoneal cancer diagnosis in 2012, with which she
+        continued climbing mountains until her death in 2016.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Tabei</strong> is assigned to the <strong>Self-Preservation Type 7 with
+        Six-wing</strong>. The SE7 secures practical reserves of experience and
+        possibilities for hard times; the Six-wing adds loyalty and a sense of duty
+        toward a larger task. This exact combination – practical, unshakable continued
+        work despite threat – determined how Tabei handled her own cancer diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Peritoneal cancer diagnosis in 2012:</strong>
+        At age 73, Tabei received a diagnosis of advanced peritoneal cancer – a rare and
+        often difficult-to-treat form of cancer.</p>
+        <p class="vb-intro"><strong>b) No public announcement of withdrawal:</strong>
+        Despite the serious diagnosis, there was no announcement of ending her mountaineering
+        activity.</p>
+        <p class="vb-intro"><strong>c) Continuation of youth projects after Fukushima:</strong>
+        Tabei continued her commitment to young people from the regions affected by the
+        2011 earthquake and nuclear disaster, offering them shared mountain climbs.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Further summit ascents until 2015:</strong>
+        After the diagnosis, Tabei still climbed mountains in Niger, Luxembourg, Belgium,
+        and Oman – countries whose respective highest peaks she still wanted to reach.</p>
+        <p class="vb-intro"><strong>b) Over 150 mountains climbed across 76 countries overall:</strong>
+        Over her entire life, Tabei climbed more than 150 mountains in 76 countries – a
+        number that kept growing even after her diagnosis.</p>
+        <p class="vb-intro"><strong>c) A four-year course of illness:</strong>
+        Four years passed between her 2012 diagnosis and her death in 2016, during which
+        she was both treated and remained active.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Public appearances despite the illness:</strong>
+        Tabei continued attending lectures and public events without placing her own
+        diagnosis at the center.</p>
+        <p class="vb-intro"><strong>b) Practical rather than dramatizing communication:</strong>
+        Accounts of her final years describe a matter-of-fact, unexcited approach to her
+        own illness, consistent with her overall pragmatic nature.</p>
+        <p class="vb-intro"><strong>c) Death in October 2016:</strong>
+        Tabei died at age 77, four years after her diagnosis, having remained active until
+        shortly before.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A legacy that the illness did not dominate:</strong>
+        Tabei's public image remained defined by her pioneering achievement as a
+        mountaineer until her death, not by the cancer.</p>
+        <p class="vb-intro"><strong>b) Role-model effect beyond her own death:</strong>
+        Her handling of the diagnosis was repeatedly honored in obituaries as an example
+        of unbroken drive in the face of serious illness.</p>
+        <p class="vb-intro"><strong>c) Continued commitment until the end:</strong>
+        She continued her work with young people from the disaster regions until shortly
+        before her death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Reserves of experience gathered until the end:</strong>
+        The same SE7 logic of acquiring experiences and possibilities as security also
+        determined Tabei's response to the cancer diagnosis – continuing to collect
+        summits rather than withdrawing.</p>
+        <p class="vb-intro"><strong>b) The Six-wing and duty toward the younger generation:</strong>
+        The Six-wing's loyalty showed in her continued work with young people from
+        Fukushima – a commitment that even her own illness did not stop.</p>
+        <p class="vb-intro"><strong>c) Practical sobriety instead of dramatic staging:</strong>
+        Tabei's matter-of-fact handling of her own diagnosis fits the SE7-typical
+        tendency to handle threats practically rather than making them a major public
+        topic.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A body that kept climbing what it had set out to climb:</strong>
+        Tabei's entire life was shaped by the practical conviction that goals get reached
+        as long as the body allows it – the cancer diagnosis did not change this basic
+        stance, it only shortened the remaining time.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-larry-king">Larry
+        King</a> (also SE7w6) kept hosting for decades despite numerous health crises of
+        his own, without fundamentally reducing his workload; Tabei responded to her own
+        cancer diagnosis with the same basic stance – practical continuation rather than
+        withdrawal. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-larry-king">Illness Portrait of Larry King</a>.</p>
+        <p class="vb-intro"><strong>c) Placing it without determinism:</strong>
+        This does not mean that the Self-Preservation Seven's pattern inevitably leads to
+        cancer – <strong>anyone can develop any illness, regardless of subtype.</strong>
+        What Tabei's case illustrates is a pattern in how a pronounced Self-Preservation
+        Seven with a Six-wing tends to handle a serious diagnosis – one of many possible
+        interpretations, not a verdict. The corresponding illness picture is gradually
+        being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Tabei did not know her own pattern – the Self-Preservation Seven with a Six-wing
+        reflexively keeps gathering experiences and fulfilling commitments already made,
+        instead of ever taking a serious diagnosis as a reason for an orderly withdrawal,
+        and she lived out exactly this pattern unchanged until her death. Someone who
+        does not recognize their own tendency to keep going as a pattern cannot pause
+        even in the face of a cancer diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Seven with a Six-wing explains much about the course of
+        <strong>Junko Tabei's</strong> own illness: a woman whose entire life rested on
+        practical goal pursuit did not let even a cancer diagnosis keep her from the next
+        summit – the gorilla that keeps climbing as long as its strength lasts.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SE7w6)"},
+        {route:"krankheitsportraets-larry-king", label:"Illness Portrait: Larry King (SE7w6) – the same practical persistence"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se7", label:"Subtype Profile SE7"},
+      ])}
+    </div>
+  `);
+}
+
+function mariahCareyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mariah-carey-portrait.jpg" alt="Mariah Carey" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariah Carey</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with Eight-wing &middot; b. 1969</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Mariah Carey</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-mariah-carey">Famous
+        Personality Portrait</a> in this Compass. This page explores a chapter only
+        touched on there: a bipolar II disorder diagnosed in 2001, which Carey kept
+        secret for 17 years before speaking about it publicly in 2018.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Carey</strong> is assigned to the <strong>Self-Preservation Type 7 with
+        Eight-wing</strong>. The SE7 secures practical reserves of possibilities for hard
+        times; the Eight-wing adds assertiveness and the ability to control one's own
+        vulnerability for a long time. This exact combination – years of disciplined
+        control over her own public image – determined how long Carey kept her diagnosis
+        private.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Breakdown in July 2001:</strong>
+        Carey showed up in a manic state at her mother's house on July 25, 2001, and was
+        subsequently hospitalized in Westchester County, New York.</p>
+        <p class="vb-intro"><strong>b) Treatment at multiple hospitals:</strong>
+        A twelve-day stay at Silver Hill Hospital in Connecticut followed, and in early
+        September 2001 a further admission at UCLA Medical Center.</p>
+        <p class="vb-intro"><strong>c) Bipolar II disorder diagnosis:</strong>
+        In the course of this treatment, Carey was diagnosed with bipolar II disorder – a
+        diagnosis she initially did not want to accept.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) 17 years of public silence:</strong>
+        Carey kept the diagnosis to herself for nearly two decades, out of fear that
+        "someone would expose" it, as she later described.</p>
+        <p class="vb-intro"><strong>b) Continued artistic productivity:</strong>
+        Despite the untreated or only partially treated condition, Carey continued
+        releasing albums and touring internationally in the following years.</p>
+        <p class="vb-intro"><strong>c) Isolation as a described accompanying condition:</strong>
+        Carey herself described the time before her disclosure as marked by "denial and
+        isolation."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Public disclosure in April 2018:</strong>
+        In an interview with People magazine, Carey spoke publicly for the first time
+        about her diagnosis and the long road to it.</p>
+        <p class="vb-intro"><strong>b) Emphasis on treatment rather than dramatization:</strong>
+        Carey described having surrounded herself with "positive people" and returned to
+        music – a pragmatic, solution-oriented tone rather than a dramatic illness
+        narrative.</p>
+        <p class="vb-intro"><strong>c) Continued career after the disclosure:</strong>
+        Even after 2018, Carey remained musically and publicly active, without
+        withdrawing from the spotlight.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Broad media response to the disclosure:</strong>
+        Carey's interview was picked up internationally and contributed to public
+        de-stigmatization of bipolar disorder.</p>
+        <p class="vb-intro"><strong>b) A dual public image:</strong>
+        For almost two decades, the public primarily saw Carey as a pop icon – the mental
+        illness behind it was invisible until she herself decided otherwise.</p>
+        <p class="vb-intro"><strong>c) Control over the timing of her own story:</strong>
+        Carey herself determined when and how her diagnosis became public – no forced
+        disclosure through third parties.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Reserves of control instead of visible vulnerability:</strong>
+        The same SE7 logic of securing reserves for hard times showed in Carey as years
+        of careful control over what became known about her health.</p>
+        <p class="vb-intro"><strong>b) The Eight-wing and the long refusal of weakness:</strong>
+        The Eight-wing's assertiveness explains why Carey did not allow the diagnosis to
+        become public for almost two decades – control over her own image weighed heavier
+        than early openness.</p>
+        <p class="vb-intro"><strong>c) A self-determined moment of openness:</strong>
+        When Carey finally opened up, it happened at a time and in a setting of her own
+        choosing – control remained intact even in the act of disclosure.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A voice that long concealed its own inner life:</strong>
+        Carey's entire public career rested on flawless control over voice and image –
+        precisely her own uncontrollable inner life had to remain hidden for years so
+        that this image could stay intact.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-francis-bacon">Francis
+        Bacon</a> (also SE7w8) processed his excessive, self-destructive life for a long
+        time without publicly speaking of the despair behind it; Carey kept her own
+        mental illness secret with the same basic stance – control over her public image
+        until her own conditions for openness were met. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-francis-bacon">Illness Portrait of Francis Bacon</a>.</p>
+        <p class="vb-intro"><strong>c) Placing it without determinism:</strong>
+        This does not mean that the Self-Preservation Seven's pattern inevitably leads to
+        bipolar disorder – <strong>anyone can develop any mental illness, regardless of
+        subtype.</strong> What Carey's case illustrates is a pattern in how a pronounced
+        Self-Preservation Seven with an Eight-wing tends to handle a burdensome diagnosis –
+        one of many possible interpretations, not a verdict. The corresponding illness
+        picture is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Carey does not know her own pattern as an Enneagram structure – the
+        Self-Preservation Seven with an Eight-wing reflexively controls what leaks out
+        about her own vulnerability instead of ever disclosing it earlier, and continues
+        to live out a modified version of exactly this pattern today. Someone who does
+        not recognize their own tendency to keep control over their own image as a
+        pattern carries a serious diagnosis alone for correspondingly longer.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Seven with an Eight-wing explains much about how
+        <strong>Mariah Carey</strong> handles her own diagnosis: a woman whose entire
+        public existence rested on control over her own image kept her own vulnerability
+        under control for almost two decades – the gorilla that shows what truly moves it
+        only when it is ready to.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SE7w8)"},
+        {route:"krankheitsportraets-francis-bacon", label:"Illness Portrait: Francis Bacon (SE7w8) – the same long concealment"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se7", label:"Subtype Profile SE7"},
+      ])}
+    </div>
+  `);
+}
+
+function christiaanBarnardKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-christiaan-barnard-portrait.jpg" alt="Christiaan Barnard" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christiaan Barnard</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing &middot; 1922–2001</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Christiaan Barnard</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-christiaan-barnard">Famous
+        Personality Portrait</a> in this Compass – that portrait focuses on the first
+        successful heart transplant in history in 1967. This page explores a chapter
+        only touched on there: a rheumatoid arthritis dating back to 1956 that in 1983
+        forced precisely his surgical hands to end his career.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Barnard</strong> is assigned to the <strong>Social Type 3 with
+        Two-wing</strong>. The SO3 seeks recognition through outstanding, publicly
+        visible achievement; the Two-wing adds warmth and the wish to shine in service of
+        others. This exact combination – achievement as the basis of one's existence –
+        determined how Barnard handled the gradual loss of his own surgical abilities.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Diagnosed during his US specialist training in 1956:</strong>
+        Already during his postgraduate training in the United States, Barnard was
+        diagnosed with rheumatoid arthritis – years before he became the world-famous
+        heart surgeon.</p>
+        <p class="vb-intro"><strong>b) Increasing involvement of the hands:</strong>
+        Over the decades, the disease increasingly spread to the hands – the very tool
+        with which Barnard made history in 1967.</p>
+        <p class="vb-intro"><strong>c) Continued surgical activity despite the diagnosis:</strong>
+        Despite the known condition, Barnard continued operating for decades, even after
+        his world-famous first transplant.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Early end of his surgical career in 1983:</strong>
+        Rheumatoid arthritis in his hands forced Barnard to step down as head of the
+        Department of Cardiothoracic Surgery in Cape Town in 1983.</p>
+        <p class="vb-intro"><strong>b) A shift into other roles:</strong>
+        After ending his surgical work, Barnard helped establish a new transplant
+        institute at the Baptist Medical Center in Oklahoma City.</p>
+        <p class="vb-intro"><strong>c) Literary processing of his own illness:</strong>
+        Barnard wrote, among other books, "Christiaan Barnard's Program for Living with
+        Arthritis" – his own illness became the subject of his writing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Continued public presence after the end of his career:</strong>
+        Even after 1983, Barnard remained an internationally known, sought-after figure –
+        lectures, books, and media presence replaced his surgical work.</p>
+        <p class="vb-intro"><strong>b) An extensive late writing career:</strong>
+        In his final two decades, Barnard wrote a further autobiography ("The Second
+        Life"), along with numerous novels and health books.</p>
+        <p class="vb-intro"><strong>c) No public lament over the loss:</strong>
+        By several accounts, Barnard rarely spoke publicly about the emotional loss that
+        the end of his surgical career meant for him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A second public life after surgery:</strong>
+        Barnard managed the transition from an active surgical career to an equally
+        visible second career as an author and speaker.</p>
+        <p class="vb-intro"><strong>b) Symbolic irony noted internationally:</strong>
+        That the hands of the world's first heart transplant surgeon failed him was
+        highlighted in numerous obituaries and biographies as a bitter twist of his
+        life.</p>
+        <p class="vb-intro"><strong>c) A legacy extending beyond surgery:</strong>
+        Barnard's public image remained defined by competence and authority even after
+        1983 – now in the field of writing rather than operating.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Achievement as a continued basis of existence:</strong>
+        The same SO3 conviction that worth arises through visible achievement also
+        determined Barnard's response to the forced end of his career – not withdrawal,
+        but the rapid construction of a new, equally visible role.</p>
+        <p class="vb-intro"><strong>b) The Two-wing and service to the patient in a new form:</strong>
+        The Two-wing's warmth showed in Barnard now passing on his knowledge in books for
+        patients with the same disease, rather than withdrawing completely.</p>
+        <p class="vb-intro"><strong>c) No public processing of his own loss:</strong>
+        The SO3-typical focus on the next visible goal may explain why Barnard rarely
+        spoke publicly about the personal grief over his surgical career.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Hands that became the tool of fame, then of illness:</strong>
+        Barnard's entire world fame rested on the precision of his hands – precisely
+        these hands became, over decades, the site of a progressive illness, until they
+        denied him the continuation of his life's work.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-ludwig-xiv">Louis
+        XIV</a> (also SO3w2) suffered from gout for decades without giving up his public
+        role as the Sun King; Barnard responded to his own chronic illness with the same
+        basic stance – the visible, public role was not abandoned but continued in a new
+        form. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-ludwig-xiv">Illness Portrait of Louis XIV</a>.</p>
+        <p class="vb-intro"><strong>c) Why the hands, of all things?</strong>
+        For a Social Three with a Two-wing whose entire fame rested on the precision of
+        his hands, one interpretation suggests itself: precisely the tool that brought
+        him worldwide recognition became the site of the limitation. This
+        interpretation is a plausible reading, not a documented clinical causal link, and
+        will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
+        This does not mean that the Social Three's pattern inevitably leads to
+        rheumatoid arthritis – <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Barnard's case illustrates is a pattern in how a
+        pronounced Social Three with a Two-wing tends to handle the loss of their own
+        ability to perform – one of many possible interpretations, not a verdict. The
+        corresponding illness picture is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Barnard did not know his own pattern – the Social Three with a Two-wing
+        reflexively replaces a lost visible role with a new one instead of ever
+        processing the loss publicly, and he lived out exactly this pattern unchanged
+        until his death. Someone who does not recognize their own need to visibly
+        achieve as a pattern cannot truly mourn the loss of their own abilities, only
+        replace them.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Three with a Two-wing explains much about how <strong>Christiaan
+        Barnard</strong> handled his own illness: a man whose world fame rested on the
+        precision of his hands replaced the loss of those hands with a new visible role –
+        the cheetah that can no longer run but learns to stay ahead in another way.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-christiaan-barnard", label:"Portrait: Christiaan Barnard (SO3w2)"},
+        {route:"krankheitsportraets-ludwig-xiv", label:"Illness Portrait: Louis XIV (SO3w2) – the same continued public role"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}
+
+function anthonyHopkinsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-anthony-hopkins-portrait.jpg" alt="Anthony Hopkins" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anthony Hopkins</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing &middot; b. 1937</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Anthony Hopkins</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-anthony-hopkins">Famous
+        Personality Portrait</a> in this Compass. This page explores a chapter only
+        touched on there: a severe alcohol addiction that brought Hopkins to a turning
+        point in 1975 – he has, by his own account, lived continuously sober ever since.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Hopkins</strong> is assigned to the <strong>Self-Preservation Type 1
+        with Nine-wing</strong>. The SP1 seeks safety through control and discipline; the
+        Nine-wing adds equanimity and the ability to patiently hold to once-adopted
+        principles without much fuss. This exact combination – quiet, unshakable
+        discipline – determined how Hopkins handled his own addiction over decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Years of alcohol use in the 1960s and 1970s:</strong>
+        Hopkins later described alcohol as an increasingly dominant element of his life
+        and his early acting career over the years.</p>
+        <p class="vb-intro"><strong>b) A self-described low point:</strong>
+        By his own account, the condition reached a point in 1975 that he recalls as a
+        decisive turning point that moved him toward abstinence.</p>
+        <p class="vb-intro"><strong>c) A decision for complete abstinence:</strong>
+        Hopkins made the decision to give up alcohol entirely – not a gradual reduction,
+        but a clear break.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Over 50 years of continuous sobriety:</strong>
+        By his own account, Hopkins has remained continuously sober since 1975 – a period
+        now spanning five decades.</p>
+        <p class="vb-intro"><strong>b) Repeated public mention of his own story:</strong>
+        Over the decades, Hopkins repeatedly spoke openly in interviews about his earlier
+        addiction and his own abstinence.</p>
+        <p class="vb-intro"><strong>c) Unbroken, even growing artistic output:</strong>
+        The most internationally significant roles of his career emerged after 1975 – his
+        abstinence coincided in time with his rise to world fame.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) No dramatized confession, but a matter-of-fact statement:</strong>
+        Hopkins generally spoke about his addiction history matter-of-factly, without
+        making his own story the central element of his public persona.</p>
+        <p class="vb-intro"><strong>b) Disciplined daily routines:</strong>
+        By several accounts, Hopkins maintains fixed, disciplined daily routines to this
+        day – a pattern consistent with his long-term abstinence.</p>
+        <p class="vb-intro"><strong>c) Still active at an advanced age:</strong>
+        Even past age 85, Hopkins remained active as an actor, without a visible reduction
+        in his own work discipline.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A role model for long-term sobriety:</strong>
+        Hopkins's over fifty years of sobriety are regularly highlighted in media
+        coverage as an extraordinarily long, stable recovery journey.</p>
+        <p class="vb-intro"><strong>b) No discernible break in his artistic work:</strong>
+        Unlike some other addiction histories, Hopkins's filmography shows no break, but
+        a continuous rise after the 1975 turning point.</p>
+        <p class="vb-intro"><strong>c) Public encouragement of others affected:</strong>
+        Hopkins's open but unexcited way of talking about his history has repeatedly been
+        cited as an encouraging example for other people with addiction issues.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Control as a response to his own addiction:</strong>
+        The same SP1 conviction that safety arises through discipline determined
+        Hopkins's response to his own addiction – a clear, controlled break rather than a
+        gradual, uncertain process.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing and patient, unexcited persistence:</strong>
+        The Nine-wing's equanimity showed in Hopkins maintaining his abstinence over
+        decades without public drama – quiet persistence rather than dramatic relapses
+        and comebacks.</p>
+        <p class="vb-intro"><strong>c) Principled commitment that admits no exceptions:</strong>
+        The One's typical commitment to principle explains why Hopkins has apparently
+        made no relapses public since his one decisive resolution.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Control that became a lifelong principle:</strong>
+        Hopkins's entire later life and work are marked by a discipline that shows the
+        same consistency as his once-made resolution to abstain – control over his own
+        body became the foundation of his entire subsequent career.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
+        Adenauer</a> (also SE1w9) responded to the severe 1917 car accident and the later
+        Nazi persecution with the same quiet, unshakable discipline, without ever making
+        his own vulnerability a public topic; Hopkins responded to his own addiction with
+        a structurally related stance – a once-made resolution, held consistently and
+        without public fuss. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Illness Portrait of Konrad Adenauer</a>.</p>
+        <p class="vb-intro"><strong>c) Placing it without determinism:</strong>
+        This does not mean that the Self-Preservation One's pattern inevitably leads to
+        addiction – <strong>anyone can develop any illness, regardless of subtype.</strong>
+        What Hopkins's case illustrates is a pattern in how a pronounced Self-Preservation
+        One with a Nine-wing tends to handle an overcome addiction – one of many possible
+        interpretations, not a verdict. The corresponding illness picture is gradually
+        being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Hopkins does not know his own pattern as an Enneagram structure – the
+        Self-Preservation One with a Nine-wing reflexively holds to once-adopted
+        principles instead of ever questioning them, and has lived out exactly this
+        pattern unchanged for five decades. Someone who does not recognize their own
+        tendency toward unconditional commitment to principle as a pattern nonetheless
+        often benefits from it, when the principle points in the right direction.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation One with a Nine-wing explains much about how <strong>Anthony
+        Hopkins</strong> handles his own addiction: a man whose safety rests on discipline
+        turned a single turning point into five decades of unbroken consistency – the
+        eagle that once set a course and has not deviated from it since.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SP1w9) – the same quiet commitment to principle"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se1", label:"Subtype Profile SP1"},
+      ])}
+    </div>
+  `);
+}
+
+function byronKatieKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-byron-katie-portrait.jpg" alt="Byron Katie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Byron Katie</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing &middot; b. 1942</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Animal correspondence: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Byron Katie</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-byron-katie">Famous
+        Personality Portrait</a> in this Compass – that portrait focuses on her method
+        "The Work." This page explores a chapter only touched on there: decades of severe
+        depression with agoraphobia in the 1960s through 1980s, out of which she
+        describes a decisive turning point in her life in 1986.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Byron Katie</strong> is assigned to the <strong>Sexual Type 6 with
+        Seven-wing</strong>. The SX6 seeks safety by confronting its own fear head-on
+        rather than avoiding it; the Seven-wing adds a restless, appetitive search for
+        the next understanding. This exact combination – not avoiding one's own fear but
+        confronting it directly – determined how she eventually found her way out of her
+        own, decades-long depression.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Beginning severe depression in the 1960s:</strong>
+        Byron Katie describes, in her own accounts, a depression worsening over years
+        that eventually led to despair and suicidal thoughts.</p>
+        <p class="vb-intro"><strong>b) Growing agoraphobia:</strong>
+        Alongside the depression came a pronounced fear of leaving her own home, which
+        severely restricted her daily life for years.</p>
+        <p class="vb-intro"><strong>c) Nearly a decade of near-continuous despair:</strong>
+        By her own account, this phase extended over roughly a decade before a decisive
+        turn came in 1986.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A stay at a facility for eating disorders:</strong>
+        Byron Katie describes a pivotal moment in 1986 at such a facility, in which her
+        inner state fundamentally changed.</p>
+        <p class="vb-intro"><strong>b) A self-described "awakening":</strong>
+        She describes this moment as an abrupt end to years of despair and the beginning
+        of a radically changed view of her own thoughts.</p>
+        <p class="vb-intro"><strong>c) Developing her own method from the experience:</strong>
+        Out of this personal crisis, she developed the questioning method later spread
+        worldwide as "The Work."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Extensive written processing:</strong>
+        Byron Katie describes her depressive phase and the turning point in great detail
+        in several of her own books – not a concealed but a central chapter of her public
+        biography.</p>
+        <p class="vb-intro"><strong>b) The crisis as the starting point of her later teaching:</strong>
+        Unlike many other illness histories, her earlier depression is not repressed but
+        told as the necessary origin of her own method.</p>
+        <p class="vb-intro"><strong>c) Worldwide spread of the method born from the crisis:</strong>
+        "The Work" has since been taught internationally in workshops and books – directly
+        traced back to her own, overcome despair.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A crisis that became the foundation of a teaching:</strong>
+        Byron Katie's own depression and its end remain to this day the central reference
+        point with which she introduces and explains her method.</p>
+        <p class="vb-intro"><strong>b) Wide public reach:</strong>
+        Millions of people worldwide have come into contact with "The Work" through
+        books, workshops, and seminars – a method that emerged directly from a personal
+        psychological crisis.</p>
+        <p class="vb-intro"><strong>c) No return to her earlier depressive state:</strong>
+        In her own later accounts, she describes the 1986 turning point as permanent, not
+        a temporary improvement.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Fear confronted head-on rather than avoided:</strong>
+        The same SX6 energy that does not avoid fear but confronts it directly showed in
+        Byron Katie's radical questioning of her own thoughts, rather than continuing to
+        repress them.</p>
+        <p class="vb-intro"><strong>b) The Seven-wing and the hunger for new understanding:</strong>
+        The Seven-wing's appetitive energy showed in a new, far-reaching method emerging
+        immediately from the personal crisis, rather than stopping at mere personal
+        recovery.</p>
+        <p class="vb-intro"><strong>c) Direct confrontation rather than gradual coping:</strong>
+        The abrupt, radical turning point she describes fits the SX6-typical tendency to
+        confront one's own fear not gradually, but in a single decisive moment.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A mind that finally questioned its own fear instead of believing it:</strong>
+        Byron Katie's entire later teaching rests on questioning distressing thoughts – a
+        method that emerged directly from how she handled her own, torturous thoughts
+        during more than ten years of depression.</p>
+        <p class="vb-intro"><strong>b) Placing it without determinism:</strong>
+        This does not mean that the Sexual Six's pattern inevitably leads to depression
+        or agoraphobia – <strong>anyone can develop any mental illness, regardless of
+        subtype.</strong> What Byron Katie's case illustrates is a pattern in how a
+        pronounced Sexual Six with a Seven-wing tends to handle an overcome psychological
+        crisis – one of many possible interpretations, not a verdict. The corresponding
+        illness picture is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>c) The unconscious fixation as its own factor:</strong>
+        Byron Katie does not know her own pattern as an Enneagram structure – the Sexual
+        Six with a Seven-wing reflexively confronts its own fear head-on rather than
+        avoiding it, and exactly this pattern shapes her teaching to this day, decades
+        after her own turning point. Someone who does not recognize their own tendency
+        toward direct confrontation with fear as a pattern often still repeats exactly
+        this mechanism when a new crisis arises.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Sexual Six with a Seven-wing explains much about the course of <strong>Byron
+        Katie's</strong> own psychological crisis: a woman whose entire later teaching
+        rests on the direct confrontation with distressing thoughts first found exactly
+        this path in her own, decade-long despair – the wolf that does not shy away from
+        the threat but turns to face it, until it reveals itself as merely a thought.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx6", label:"Subtype Profile SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function drewBarrymoreKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-drew-barrymore-portrait.jpg" alt="Drew Barrymore" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Drew Barrymore</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Social Type 7 with Eight-wing &middot; b. 1975</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Beaver</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Animal correspondence: Beaver" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Drew Barrymore</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-drew-barrymore">Famous
+        Personality Portrait</a> in this Compass. This page explores a chapter only
+        touched on there: an addiction beginning already in childhood that led to her
+        admission to a rehabilitation clinic in 1988 – at just 13 years old.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Barrymore</strong> is assigned to the <strong>Social Type 7 with
+        Eight-wing</strong>. The SO7 sacrifices its own immediate enjoyment for a larger
+        idea; the Eight-wing adds assertiveness and the ability to regain control over
+        one's own life even out of deep crises. This exact combination – creating a new,
+        publicly visible role out of an early crisis – determined how Barrymore handled
+        her childhood addiction.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Early exposure to alcohol and drugs in childhood:</strong>
+        Barrymore, already a sought-after child star as a toddler, by her own accounts
+        came into contact with alcohol, and later drug use, as early as elementary
+        school age.</p>
+        <p class="vb-intro"><strong>b) A rapidly escalating pattern of use:</strong>
+        Her autobiography "Little Girl Lost" describes an addiction developing rapidly
+        already before her teenage years.</p>
+        <p class="vb-intro"><strong>c) Admission to a rehabilitation clinic in 1988:</strong>
+        At age 13, Barrymore was admitted to a facility for addiction treatment – a
+        publicly rare event for a child star of that era.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Public processing in her own book:</strong>
+        Rather than concealing the childhood addiction, Barrymore processed it in her own
+        autobiography as early as age 14.</p>
+        <p class="vb-intro"><strong>b) Emancipation from her parents:</strong>
+        In connection with this crisis, Barrymore was legally emancipated from her mother
+        at age 14 – a further publicly documented milestone of this time.</p>
+        <p class="vb-intro"><strong>c) Gradual rebuilding of her career:</strong>
+        In the following years, Barrymore systematically rebuilt her acting career, up to
+        her own production companies and later successes as a filmmaker.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Repeated public reflection on her own story:</strong>
+        Even as an adult actress and later talk-show host, Barrymore repeatedly spoke
+        openly about her childhood addiction.</p>
+        <p class="vb-intro"><strong>b) Building a new public role as talk-show host:</strong>
+        With her own daytime show, Barrymore created a new platform in which personal
+        openness – including about her own past – became a central element.</p>
+        <p class="vb-intro"><strong>c) No return to the earlier addictive dynamic:</strong>
+        In public statements, Barrymore describes the overcome childhood addiction as a
+        closed but formative chapter of her life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) One of Hollywood's best-known childhood addiction stories:</strong>
+        Barrymore's early crisis is among the most extensively publicly documented
+        addiction histories of a former child star.</p>
+        <p class="vb-intro"><strong>b) A career trajectory without a lasting break:</strong>
+        Despite the early crisis, Barrymore became one of the commercially most
+        successful actresses and producers of her generation.</p>
+        <p class="vb-intro"><strong>c) A public role as a voice for openness:</strong>
+        Barrymore's willingness to speak openly about her own past has repeatedly been
+        cited as an encouraging example for others affected.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Forward flight instead of standstill:</strong>
+        The same SO7 energy that always seeks new possibilities rather than remaining in
+        a crisis determined Barrymore's rapid transition from rehabilitation clinic back
+        to an active, visible career.</p>
+        <p class="vb-intro"><strong>b) The Eight-wing and reclaiming her own control:</strong>
+        The Eight-wing's assertiveness showed in her legal emancipation from her parents
+        at age 14 – an early, decisive act of self-determination.</p>
+        <p class="vb-intro"><strong>c) Openness as a form of control over her own story:</strong>
+        Rather than letting the childhood addiction be revealed by others, Barrymore told
+        it herself first – a pattern running through her entire later public career.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A childhood confronted too early with adult risks:</strong>
+        Barrymore's entire later career is shaped by the experience of having entered an
+        adult environment as a child without sufficient protection – her own crisis
+        became the starting point of a more conscious, self-determined further life.</p>
+        <p class="vb-intro"><strong>b) Placing it without determinism:</strong>
+        This does not mean that the Social Seven's pattern inevitably leads to addiction –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Barrymore's case illustrates is a pattern in how a pronounced Social Seven with
+        an Eight-wing tends to handle an overcome childhood addiction – one of many
+        possible interpretations, not a verdict. The corresponding illness picture is
+        gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>c) The unconscious fixation as its own factor:</strong>
+        Barrymore does not know her own pattern as an Enneagram structure – the Social
+        Seven with an Eight-wing reflexively turns an overcome crisis into new, visible
+        forward motion instead of dwelling on it, and lives out exactly this pattern to
+        this day. Someone who does not recognize their own tendency to immediately turn
+        crises into new projects as a pattern sometimes skips a necessary moment of
+        rest.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Social Seven with an Eight-wing explains much about how <strong>Drew
+        Barrymore</strong> handled her own childhood addiction: a woman who told her own
+        story herself already at 14, rather than letting it be told for her – the beaver
+        that does not lament its collapsed dam but rebuilds it from the ground up.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-drew-barrymore", label:"Portrait: Drew Barrymore (SO7w8)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so7", label:"Subtype Profile SO7"},
+      ])}
+    </div>
+  `);
+}
+
+function neilArmstrongKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-neil-armstrong-portrait.jpg" alt="Neil Armstrong" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Neil Armstrong</p>
+        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with Seven-wing &middot; 1930–2012</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Rabbit</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Animal correspondence: Rabbit" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Neil Armstrong</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-neil-armstrong">Famous
+        Personality Portrait</a> in this Compass – that portrait focuses on his 1969
+        moon landing and his subsequent withdrawal into private life. This page explores
+        a chapter only touched on there: a coronary heart disease lasting over two
+        decades that in 2012 led to bypass surgery and, shortly after, his death.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Armstrong</strong> is assigned to the <strong>Self-Preservation Type 6
+        with Seven-wing</strong>. The SP6 seeks safety through routine and a familiar,
+        controlled environment; the Seven-wing adds the ability to handle setbacks
+        lightly and without excitement. This exact combination – a quiet, withdrawn life
+        without public dramatization – determined how Armstrong handled his years-long
+        heart disease.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Heart attack in 1991 while skiing:</strong>
+        At age 61, Armstrong suffered a heart attack while skiing in Aspen, Colorado – the
+        earliest documented cardiac event, a good two decades before his death.</p>
+        <p class="vb-intro"><strong>b) A largely withdrawn life with no public reporting on the illness:</strong>
+        Consistent with his already publicity-shy lifestyle, little about his actual
+        health condition became known over the following two decades.</p>
+        <p class="vb-intro"><strong>c) Progressive coronary heart disease over two decades:</strong>
+        The 1991 heart attack marked the beginning of a chronic coronary heart disease
+        that continued to develop over the years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Failed stress test in August 2012:</strong>
+        On August 6, 2012, Armstrong failed a cardiac stress test – an acute indication of
+        multiple blockages in his coronary arteries.</p>
+        <p class="vb-intro"><strong>b) Emergency quadruple bypass surgery:</strong>
+        A few days later, Armstrong underwent urgent quadruple coronary bypass surgery.</p>
+        <p class="vb-intro"><strong>c) Complications after the surgery:</strong>
+        After the initially successful surgery, complications arose, from which Armstrong
+        died on August 25, 2012.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) No public announcement of the surgery beforehand:</strong>
+        Consistent with Armstrong's lifelong reticence toward the public, there was no
+        broad media coverage in advance of the surgery.</p>
+        <p class="vb-intro"><strong>b) Family rather than public communication:</strong>
+        Information about his health condition came mostly through his family, not
+        through self-initiated public statements.</p>
+        <p class="vb-intro"><strong>c) Later legal review of his treatment:</strong>
+        After his death, the treatment led to a multi-million-dollar legal settlement that
+        raised questions about the medical care after the surgery.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A death noted worldwide:</strong>
+        Armstrong's death after the surgery triggered international sympathy – as the
+        first man on the moon, he remained a global symbolic figure until the end.</p>
+        <p class="vb-intro"><strong>b) Subsequent media review of the treatment:</strong>
+        Professional media and health journalists discussed the circumstances of the
+        surgery and the subsequent complications extensively after his death.</p>
+        <p class="vb-intro"><strong>c) A public image that remained marked by reticence:</strong>
+        Even the coverage of his final illness remained unusually restrained compared to
+        other celebrities – consistent with his entire public demeanor.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Withdrawal as a safety strategy, even with his own illness:</strong>
+        The same SP6 tendency to seek safety in the familiar and withdrawn, which shaped
+        Armstrong's entire life after 1969, also determined how little became known
+        about his actual heart disease.</p>
+        <p class="vb-intro"><strong>b) The Seven-wing and unexcited acceptance of the risk:</strong>
+        The Seven-wing's lightness showed in Armstrong apparently undergoing the risky
+        surgery without visible public drama – practical, matter-of-fact, without great
+        staging.</p>
+        <p class="vb-intro"><strong>c) Control through reticence rather than disclosure:</strong>
+        Unlike other SP6 portraits in this Compass, who translate their fear into
+        language, Armstrong controlled his own vulnerability mainly through silence.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A heart as quiet as his later life:</strong>
+        Armstrong's entire life after the moon landing was shaped by the wish to remain
+        inconspicuous – his heart disease, lasting over two decades, remained, consistent
+        with this pattern, largely invisible to the public until the end.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-woody-allen">Woody
+        Allen</a> (also SP6w7) translated his own, mostly imagined health anxiety into
+        language and comedy publicly for decades; Armstrong took the opposite path with
+        his actual, real heart disease – fear was translated not into words, but into
+        silence. Both cases show the same SP6w7 underlying structure applied to two very
+        different situations: an imagined threat and a real one. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-woody-allen">Illness Portrait of Woody Allen</a>.</p>
+        <p class="vb-intro"><strong>c) Placing it without determinism:</strong>
+        This does not mean that the Self-Preservation Six's pattern inevitably leads to
+        heart disease – <strong>anyone can suffer any illness, regardless of
+        subtype.</strong> What Armstrong's case illustrates is a pattern in how a
+        pronounced Self-Preservation Six with a Seven-wing tends to handle a concealed
+        chronic illness – one of many possible interpretations, not a verdict. The
+        corresponding illness picture is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Armstrong did not know his own pattern – the Self-Preservation Six with a
+        Seven-wing reflexively seeks safety in withdrawal and in concealing its own
+        vulnerability instead of making it public, and he lived out exactly this pattern
+        unchanged until his death. Someone who does not recognize their own tendency
+        toward quiet withdrawal as a pattern sometimes misses the moment when more open
+        communication about their own health would have helped.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Six with a Seven-wing explains much about how <strong>Neil
+        Armstrong</strong> handled his own heart disease: a man whose entire life after
+        the moon was shaped by withdrawal and reticence carried even his real physical
+        threat mostly in silence – the rabbit that did not want to leave its burrow until
+        its very last breath.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w7)"},
+        {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – the same underlying structure, opposite direction"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se6", label:"Subtype Profile SP6"},
       ])}
     </div>
   `);
@@ -89045,6 +90274,14 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-woody-allen": woodyAllenKrankheitsportraetPage,
       "krankheitsportraets-fritz-perls": fritzPerlsKrankheitsportraetPage,
       "krankheitsportraets-julian-assange": julianAssangeKrankheitsportraetPage,
+      "krankheitsportraets-morgan-freeman": morganFreemanKrankheitsportraetPage,
+      "krankheitsportraets-junko-tabei": junkoTabeiKrankheitsportraetPage,
+      "krankheitsportraets-mariah-carey": mariahCareyKrankheitsportraetPage,
+      "krankheitsportraets-christiaan-barnard": christiaanBarnardKrankheitsportraetPage,
+      "krankheitsportraets-anthony-hopkins": anthonyHopkinsKrankheitsportraetPage,
+      "krankheitsportraets-byron-katie": byronKatieKrankheitsportraetPage,
+      "krankheitsportraets-drew-barrymore": drewBarrymoreKrankheitsportraetPage,
+      "krankheitsportraets-neil-armstrong": neilArmstrongKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
