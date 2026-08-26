@@ -1747,9 +1747,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Keanu Reeves – Sexual Type 9",
     teaser:"SX9w1 · born 1964. Actor (The Matrix, John Wick). The quiet man who dissolves into every role – and in real life is even more humble than on screen. Animal correspondence: Sloth.",
     land:"Canada", tags:["Schauspiel"] , gender:"m"},
-{ route:"beruehmte-hundertwasser", name:"Friedensreich Hundertwasser", added:"2026-07-31", subtyp:"SX9w1",
+{ route:"beruehmte-hundertwasser", name:"Friedensreich Hundertwasser", added:"2026-07-31", subtyp:"SX9w8",
     heading:"Friedensreich Hundertwasser – Sexual Type 9",
-    teaser:"SX9w1 · 1928–2000. Painter, architect, ecologist. From Friedrich Stowasser to Friedensreich Hundertwasser – a life as fusion with nature, against the straight line, for organic flow. Animal correspondence: Sloth.",
+    teaser:"SX9w8 · 1928–2000. Painter, architect, ecologist. From Friedrich Stowasser to Friedensreich Hundertwasser – a life as fusion with nature, against the straight line, for organic flow. Animal correspondence: Sloth.",
     tags:["Art","Architecture"], gender:"m"},
 { route:"beruehmte-diego-velazquez", name:"Diego Velázquez", added:"2026-08-15", subtyp:"SX9w1",
     heading:"Diego Velázquez – Sexual Type 9",
@@ -17705,7 +17705,7 @@ function carlRogersPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w1)"},
+          {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
         ])}
@@ -20904,7 +20904,7 @@ function hundertwasserPortraitPage() {
           <img src="../assets/portraits/beruehmte-hundertwasser-portrait.jpg" alt="Friedensreich Hundertwasser" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Friedensreich Hundertwasser</p>
-        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Painter &amp; architect, 1928&ndash;2000 &ndash; Animal correspondence: Sloth</p>
       </div>
       <div class="page-content">
@@ -20921,15 +20921,15 @@ function hundertwasserPortraitPage() {
           <p class="vb-intro">For Hundertwasser, this longing is written into his very name. Born <strong>Friedrich Stowasser</strong>, he gave himself a new one: <strong>Friedensreich Hundertwasser</strong>. Friedrich became Friedensreich &ndash; "rich in peace," the Nine's longing for harmony spoken as a program. Stowasser became Hundertwasser &ndash; "hundred waters," the nature-principle of water, symbol of living, unstoppable flow that knows no straight line and offers no resistance, but conforms to every shape. A self-renaming as an act of fusion: the name itself becomes a declaration of which principle one wishes to become one with.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The One-Wing: The Manifesto as Principle</h2>
+        <h2 class="vb-section">3. The Eight-Wing: Provocation as a Weapon</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine something a Nine with a weaker One wing rarely shows: a moral claim, a principle worth fighting for. Hundertwasser was no quiet artist &ndash; he wrote manifestos. The most famous, the <em>Mould Manifesto Against Rationalism in Architecture</em> (1958), is an angry, uncompromising text against the straight line, which he called "godless and immoral." Unusual for a Nine &ndash; but exactly the signature of the One-wing: harmony is not just lived, but raised to an ethical demand.</p>
-          <p class="vb-intro">His architectural program followed clear, almost dogmatic rules: the "window right" (every resident may design their own window as they wish), the "tree duty" (any tree blocking a building must be allowed to grow through the house), no flat, even floors. Principles he defended unyieldingly &ndash; the Nine who transforms its ideal of harmony into an uncompromising set of rules. The One-wing gives the longing for fusion a moral edge that turns a dream into a program.</p>
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the sexual Nine something a Nine with a weaker Eight-wing rarely shows: the willingness to openly confront, provoke, and deliberately break taboos for one's own cause. Hundertwasser was no quiet artist &ndash; he wrote angry manifestos and delivered them with a physical, often shocking directness. The most famous, the <em>Mould Manifesto Against Rationalism in Architecture</em> (1958), calls the straight line "godless and immoral" &ndash; uncompromising, confrontational, indifferent to resistance. Unusual for a Nine &ndash; but exactly the signature of the Eight-wing: the ideal of harmony isn't just formulated, it is fought for offensively.</p>
+          <p class="vb-intro">In 1967 and 1968, Hundertwasser gave his famous "nude speeches" in Munich and Vienna against "box architecture" &ndash; he undressed completely during the lecture to demonstrate his message about the "third skin" literally on his own body. Not a reserved principle, but a deliberately shocking, physical confrontation of the audience &ndash; the Eight-wing's characteristic weapon: provocation as the most direct way to force attention and change. Further architecture boycott manifestos and public campaigns against individual building projects followed &ndash; Hundertwasser never reached for quiet criticism when open attack was possible.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Nude Speech: Fusion as a Radical Gesture</h2>
+        <h2 class="vb-section">4. Fusion Beyond the Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 1968, Hundertwasser gave his famous "nude speech" in Munich &ndash; he undressed completely during a lecture against "box architecture." A scandal to many, but a lesson for subtype theory: this is sexual fusion in its rawest form. No boundary between speaker and audience, no covering, no distance &ndash; the Sloth revealing itself so completely to its surroundings that nothing remains between it and its onlookers. Where a social Nine gives a speech to hold a group together, the sexual Nine seeks the immediate, physical moment of fusion &ndash; even if that means shedding every social covering.</p>
+          <p class="vb-intro">That nudity of all things became his medium of expression also fits the sexual Nine itself: confrontational in form &ndash; that is the Eight-wing &ndash; but fusing in its deeper drive. No boundary between speaker and audience, no covering, no distance &ndash; the Sloth revealing itself so completely to its surroundings that nothing remains between it and its onlookers. Where a social Nine gives a speech to hold a group together, the sexual Nine seeks the immediate, physical moment of fusion &ndash; the Eight-wing supplies the assertiveness to force that moment even against social resistance.</p>
           <p class="vb-intro">Later he chose New Zealand as his adopted home &ndash; a country at the edge of the world, shaped by untouched nature, far from European civilization. This too follows SX9 logic: not the social stage, but retreat into an intense, immediate relationship with nature. On his farm near Kawakawa he lived for a time without running water or electricity &ndash; the most consistent form of fusion imaginable.</p>
         </blockquote>
 
@@ -21019,7 +21019,7 @@ function diegoVelazquezPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
-        {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w1)"},
+        {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
       ])}
     </div>
@@ -68322,7 +68322,7 @@ function architekturRaumgestaltungDer9TypenPage() {
 
       <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – Organic Architecture (Hundertwasser/Steiner): Integrated into Nature</h3>
       ${img("architektur-9-organisch.jpg", "Hundertwasser building with colorful, organically curved facade")}
-      <p class="vb-intro">Hundertwasser's buildings know no straight line, no right angle that would interrupt nature — facades grow like tree trunks, roofs carry soil and plants, the house becomes part of the landscape rather than a contradiction to it. That is exactly Type 9: a space that isn't asserted against its surroundings but merges with them, in which boundaries stay soft and permeable because harmony matters more than separation. Soft shapes, warm colors, no element pushing itself into the foreground. The downside: a house without clear contour can also mean its resident dissolves within it. Maturity for Type 9 arises when the organic softness remains, but one's own presence within it becomes clearly felt. More on Hundertwasser as sexual Type 9 (SX9w1) in the portrait linked below.</p>
+      <p class="vb-intro">Hundertwasser's buildings know no straight line, no right angle that would interrupt nature — facades grow like tree trunks, roofs carry soil and plants, the house becomes part of the landscape rather than a contradiction to it. That is exactly Type 9: a space that isn't asserted against its surroundings but merges with them, in which boundaries stay soft and permeable because harmony matters more than separation. Soft shapes, warm colors, no element pushing itself into the foreground. The downside: a house without clear contour can also mean its resident dissolves within it. Maturity for Type 9 arises when the organic softness remains, but one's own presence within it becomes clearly felt. More on Hundertwasser as sexual Type 9 (SX9w8) in the portrait linked below.</p>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
@@ -68333,7 +68333,7 @@ function architekturRaumgestaltungDer9TypenPage() {
         {route:"wetter-naturphaenomene-der-9-typen", label:"Weather and Nature Phenomena of the 9 Types"},
         {route:"beziehungen", label:"Relationships of the 9 Types"},
         {route:"arbeitsverhalten-der-9-typen", label:"Work Behavior of the 9 Types"},
-        {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w1)"},
+        {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
       ])}
     </div>
   `);

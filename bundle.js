@@ -24584,7 +24584,7 @@ const registerEntries = [
   { term: "Bill Haast",                    route: "beruehmte-bill-haast",                  description: "Portrait: SX1w9 · Sexueller Typ 1 · Herpetologe, Gründer des Miami Serpentarium" },
   { term: "Grigori Rasputin",              route: "beruehmte-rasputin",                    description: "Portrait: SX1w9 · Sexueller Typ 1 · Wandermönch, Heiler am Zarenhof" },
   { term: "Jesus Christus",                route: "beruehmte-jesus-christus",              description: "Portrait: SO2w1 · Sozialer Typ 2 · Wanderprediger, Religionsstifter" },
-  { term: "Friedensreich Hundertwasser",    route: "beruehmte-hundertwasser",               description: "Portrait: SX9w1 · Sexueller Typ 9 · Maler, Architekt, Ökologe" },
+  { term: "Friedensreich Hundertwasser",    route: "beruehmte-hundertwasser",               description: "Portrait: SX9w8 · Sexueller Typ 9 · Maler, Architekt, Ökologe" },
   { term: "Diego Velázquez",                route: "beruehmte-diego-velazquez",             description: "Portrait: SX9w1 · Sexueller Typ 9 · Maler" },
   { term: "Rihanna",                       route: "beruehmte-rihanna",                     description: "Portrait: SX4w3 · Sexueller Typ 4 · Pop-Superstar, Unternehmerin" },
   { term: "Billie Eilish",                 route: "beruehmte-billie-eilish",                description: "Portrait: SX4w3 · Sexueller Typ 4 · Sängerin, Songwriterin" },
@@ -25075,7 +25075,7 @@ const registerEntriesEN = [
   { term: "Bill Haast", route: "beruehmte-bill-haast", description: "Portrait: SX1w9 · Sexual Type 1 · herpetologist, founder of the Miami Serpentarium" },
   { term: "Grigori Rasputin", route: "beruehmte-rasputin", description: "Portrait: SX1w9 · Sexual Type 1 · Wandering monk, healer at the Tsar's court" },
   { term: "Jesus Christ", route: "beruehmte-jesus-christus", description: "Portrait: SO2w1 · Social Type 2 · Itinerant preacher, founder of a world religion" },
-  { term: "Friedensreich Hundertwasser", route: "beruehmte-hundertwasser", description: "Portrait: SX9w1 · Sexual Type 9 · Painter, architect, ecologist" },
+  { term: "Friedensreich Hundertwasser", route: "beruehmte-hundertwasser", description: "Portrait: SX9w8 · Sexual Type 9 · Painter, architect, ecologist" },
   { term: "Diego Velázquez", route: "beruehmte-diego-velazquez", description: "Portrait: SX9w1 · Sexual Type 9 · Painter" },
   { term: "Rihanna", route: "beruehmte-rihanna", description: "Portrait: SX4w3 · Sexual Type 4 · Pop-Superstar, Entrepreneur" },
   { term: "Billie Eilish", route: "beruehmte-billie-eilish", description: "Portrait: SX4w3 · Sexual Type 4 · Singer, songwriter" },
@@ -33684,9 +33684,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Keanu Reeves \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 geb. 1964. Schauspieler (The Matrix, John Wick). Der stille Mann, der sich in jede Rolle aufl\u00f6st \u2013 und im wirklichen Leben noch bescheidener ist als auf der Leinwand. Tierentsprechung: Faultier.",
     land:"Kanada", tags:["Schauspiel"], gender:"m" },
-  { route:"beruehmte-hundertwasser", name:"Friedensreich Hundertwasser", added:"2026-07-31", subtyp:"SX9w1",
+  { route:"beruehmte-hundertwasser", name:"Friedensreich Hundertwasser", added:"2026-07-31", subtyp:"SX9w8",
     heading:"Friedensreich Hundertwasser \u2013 Sexueller Typ 9",
-    teaser:"SX9w1 \u00b7 1928\u20132000. Maler, Architekt, \u00d6kologe. Vom Friedrich Stowasser zum Friedensreich Hundertwasser \u2013 ein Leben als Verschmelzung mit der Natur, gegen die gerade Linie, f\u00fcr das organische Flie\u00dfen. Tierentsprechung: Faultier.",
+    teaser:"SX9w8 \u00b7 1928\u20132000. Maler, Architekt, \u00d6kologe. Vom Friedrich Stowasser zum Friedensreich Hundertwasser \u2013 ein Leben als Verschmelzung mit der Natur, gegen die gerade Linie, f\u00fcr das organische Flie\u00dfen. Tierentsprechung: Faultier.",
     tags:["Kunst","Architektur"] , gender:"m"},
   { route:"beruehmte-diego-velazquez", name:"Diego Velázquez", added:"2026-08-15", subtyp:"SX9w1",
     heading:"Diego Velázquez – Sexueller Typ 9",
@@ -56070,7 +56070,7 @@ function carlRogersPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-hundertwasser", label:"Portr\xe4t: Friedensreich Hundertwasser (SX9w1)"},
+          {route:"beruehmte-hundertwasser", label:"Portr\xe4t: Friedensreich Hundertwasser (SX9w8)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-dakota-johnson", label:"Portr\xe4t: Dakota Johnson (SX9w8)"},
         ])}
@@ -56285,7 +56285,7 @@ function krisMarshallPortraitPage() {
           <img src="./assets/portraits/beruehmte-kris-marshall-portrait.jpg" alt="Kris Marshall – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kris Marshall</p>
-        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
         <p class="krim-portrait-subtitle">Schauspieler, geb. 1973 &ndash; Tierentsprechung: Faultier</p>
       </div>
       <div class="page-content">
@@ -64204,7 +64204,7 @@ function diegoVelazquezPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
-        {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w1)"},
+        {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
         {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
       ])}
     </div>
@@ -64238,15 +64238,15 @@ function hundertwasserPortraitPage() {
           <p class="vb-intro">Diese Sehnsucht steht bei Hundertwasser sogar im Namen. Geboren als <strong>Friedrich Stowasser</strong>, gab er sich selbst einen neuen Namen: <strong>Friedensreich Hundertwasser</strong>. Aus Friedrich wurde Friedensreich &ndash; das Friedensprinzip, die neuentypische Sehnsucht nach Harmonie, ausgesprochen als Programm. Aus Stowasser wurde Hundertwasser &ndash; das Naturprinzip Wasser, Sinnbild des lebendigen, unaufhaltsamen Flie\u00dfens, das keine gerade Linie kennt und keinen Widerstand leistet, sondern sich jeder Form anschmiegt. Eine Selbstumbenennung als Verschmelzungsakt: Der Name wird zum Bekenntnis, mit welchem Prinzip man eins sein will.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Das Manifest als Prinzip</h2>
+        <h2 class="vb-section">3. Der Achterflügel: Provokation als Kampfmittel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> gibt der sexuellen Neun etwas, das bei kaum entwickeltem Einserflügel selten sichtbar wird: einen moralischen Anspruch, ein Prinzip, f\u00fcr das es sich zu k\u00e4mpfen lohnt. Hundertwasser war kein stiller K\u00fcnstler &ndash; er schrieb Manifeste. Das ber\u00fchmteste, das <em>Verschimmelungsmanifest gegen den Rationalismus in der Architektur</em> (1958), ist ein w\u00fctender, kompromissloser Text gegen die gerade Linie, die er als &bdquo;gottlos und unmoralisch&ldquo; bezeichnete. Das ist ungew\u00f6hnlich f\u00fcr eine Neun &ndash; aber genau die Handschrift des Einserfl\u00fcgels: Harmonie wird nicht nur gelebt, sondern zur ethischen Forderung erhoben.</p>
-          <p class="vb-intro">Sein Architekturprogramm folgte klaren, fast dogmatischen Regeln: Fensterrecht (jeder Bewohner darf sein Fenster nach eigenem Willen gestalten), Baumpflicht (jeder Baum, dem ein Haus im Weg steht, muss durch das Haus hindurchwachsen d\u00fcrfen), keine geraden B\u00f6den. Prinzipien, die er unnachgiebig vertrat &ndash; die Neun, die sich f\u00fcr ihr Harmonieideal in einen unerbittlichen Regelkatalog verwandelt. Der Einserfl\u00fcgel verleiht der Verschmelzungssehnsucht eine moralische Sch\u00e4rfe, die aus einem Traum ein Programm macht.</p>
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Neun etwas, das bei schwach ausgeprägtem Achterflügel selten sichtbar wird: die Bereitschaft, für das eigene Anliegen offen zu konfrontieren, zu provozieren, Tabus bewusst zu brechen. Hundertwasser war kein stiller Künstler – er schrieb wütende Manifeste und trug sie mit körperlicher, oft schockierender Direktheit vor. Das berühmteste, das <em>Verschimmelungsmanifest gegen den Rationalismus in der Architektur</em> (1958), bezeichnet die gerade Linie als „gottlos und unmoralisch" – kompromisslos, konfrontativ, ohne Rücksicht auf Widerstand. Das ist ungewöhnlich für eine Neun – aber genau die Handschrift des Achterflügels: Das Harmonieideal wird nicht nur formuliert, sondern offensiv erkämpft.</p>
+          <p class="vb-intro">1967 und 1968 hielt Hundertwasser in München und Wien seine berühmten „Nacktreden" gegen die „Boxarchitektur" – er zog sich während des Vortrags vollständig aus, um seine Botschaft von der „dritten Haut" buchstäblich am eigenen Körper zu demonstrieren. Kein zurückhaltendes Prinzip, sondern eine bewusst schockierende, körperliche Konfrontation des Publikums – die typische Waffe des Achterflügels: Provokation als direktester Weg, Aufmerksamkeit und Veränderung zu erzwingen. Später folgten weitere Architektur-Boykott-Manifeste und öffentliche Kampagnen gegen einzelne Bauprojekte – Hundertwasser griff nie zur leisen Kritik, wenn der offene Angriff möglich war.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Die Nacktrede: Verschmelzung als radikale Geste</h2>
+        <h2 class="vb-section">4. Verschmelzung jenseits der B\u00fchne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">1968 hielt Hundertwasser in M\u00fcnchen seine ber\u00fchmte &bdquo;Nacktrede&ldquo; &ndash; er zog sich w\u00e4hrend eines Vortrags gegen die &bdquo;Boxarchitektur&ldquo; vollst\u00e4ndig aus. F\u00fcr viele ein Skandal, f\u00fcr die Subtypenlehre ein Lehrst\u00fcck: Genau das ist sexuelle Verschmelzung ungefiltert. Keine Grenze zwischen Redner und Publikum, keine H\u00fclle, kein Abstand &ndash; das Faultier, das sich seiner Umgebung so vollst\u00e4ndig zeigt, dass nichts mehr zwischen ihm und den Zuschauern steht. Wo eine soziale Neun einen Vortrag h\u00e4lt, um eine Gruppe zusammenzuhalten, sucht die sexuelle Neun den unmittelbaren, k\u00f6rperlichen Verschmelzungsmoment &ndash; auch wenn das bedeutet, alle gesellschaftlichen H\u00fcllen fallen zu lassen.</p>
+          <p class="vb-intro">Dass ausgerechnet die Nacktheit zu seinem Ausdrucksmittel wurde, passt zugleich zur sexuellen Neun selbst: konfrontativ in der Form &ndash; das ist der Achterfl\u00fcgel &ndash;, aber verschmelzend im tieferen Antrieb. Keine Grenze zwischen Redner und Publikum, keine H\u00fclle, kein Abstand &ndash; das Faultier, das sich seiner Umgebung so vollst\u00e4ndig zeigt, dass nichts mehr zwischen ihm und den Zuschauern steht. Wo eine soziale Neun einen Vortrag h\u00e4lt, um eine Gruppe zusammenzuhalten, sucht die sexuelle Neun den unmittelbaren, k\u00f6rperlichen Verschmelzungsmoment &ndash; der Achterfl\u00fcgel liefert die Durchsetzungskraft, ihn auch gegen gesellschaftlichen Widerstand zu erzwingen.</p>
           <p class="vb-intro">Sp\u00e4ter w\u00e4hlte er Neuseeland zur Wahlheimat &ndash; ein Land am Rand der Welt, von urspr\u00fcnglicher Natur gepr\u00e4gt, fernab europ\u00e4ischer Zivilisation. Auch das folgt der SX9-Logik: nicht die soziale B\u00fchne, sondern der R\u00fcckzug in ein intensives, unmittelbares Naturverh\u00e4ltnis. Auf seiner Farm bei Kawakawa lebte er zeitweise ohne flie\u00dfendes Wasser und Elektrizit\u00e4t &ndash; die konsequenteste Form der Verschmelzung, die sich denken l\u00e4sst.</p>
         </blockquote>
 
@@ -104465,7 +104465,7 @@ function architekturRaumgestaltungDer9TypenPage() {
 
       <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Organische Architektur (Hundertwasser/Steiner): Integriert in die Natur</h3>
       ${bild("architektur-9-organisch.jpg", "Hundertwasserhaus mit bunter, organisch geschwungener Fassade")}
-      <p class="vb-intro">Hundertwassers Bauten kennen keine gerade Linie, keinen rechten Winkel, der die Natur unterbrechen w\u00fcrde \u2013 Fassaden wachsen wie Baumst\u00e4mme, D\u00e4cher tragen Erde und Pflanzen, das Haus wird Teil der Landschaft statt Widerspruch zu ihr. Genau das ist die Neun: ein Raum, der nicht gegen die Umgebung behauptet wird, sondern mit ihr verschmilzt, in dem Grenzen weich und durchl\u00e4ssig bleiben, weil Harmonie wichtiger ist als Abgrenzung. Weiche Formen, warme Farben, kein Element, das sich in den Vordergrund dr\u00e4ngt. Die Kehrseite: Ein Haus ohne klare Kontur kann auch bedeuten, dass die Bewohnerin selbst darin verschwimmt. Reife bei Typ 9 entsteht, wenn die organische Weichheit bleibt, aber die eigene Pr\u00e4senz darin klar sp\u00fcrbar wird. Mehr zu Hundertwasser als sexuellem Typ 9 (SX9w1) im Portr\u00e4t weiter unten verlinkt.</p>
+      <p class="vb-intro">Hundertwassers Bauten kennen keine gerade Linie, keinen rechten Winkel, der die Natur unterbrechen w\u00fcrde \u2013 Fassaden wachsen wie Baumst\u00e4mme, D\u00e4cher tragen Erde und Pflanzen, das Haus wird Teil der Landschaft statt Widerspruch zu ihr. Genau das ist die Neun: ein Raum, der nicht gegen die Umgebung behauptet wird, sondern mit ihr verschmilzt, in dem Grenzen weich und durchl\u00e4ssig bleiben, weil Harmonie wichtiger ist als Abgrenzung. Weiche Formen, warme Farben, kein Element, das sich in den Vordergrund dr\u00e4ngt. Die Kehrseite: Ein Haus ohne klare Kontur kann auch bedeuten, dass die Bewohnerin selbst darin verschwimmt. Reife bei Typ 9 entsteht, wenn die organische Weichheit bleibt, aber die eigene Pr\u00e4senz darin klar sp\u00fcrbar wird. Mehr zu Hundertwasser als sexuellem Typ 9 (SX9w8) im Portr\u00e4t weiter unten verlinkt.</p>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
         ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
@@ -104476,7 +104476,7 @@ function architekturRaumgestaltungDer9TypenPage() {
         {route:"wetter-naturphaenomene-der-9-typen", label:"Wetter- und Naturph\u00e4nomene der 9 Typen"},
         {route:"beziehungen", label:"Beziehungen der 9 Typen"},
         {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
-        {route:"beruehmte-hundertwasser", label:"Portr\u00e4t: Friedensreich Hundertwasser (SX9w1)"},
+        {route:"beruehmte-hundertwasser", label:"Portr\u00e4t: Friedensreich Hundertwasser (SX9w8)"},
       ])}
     </div>
   `);
