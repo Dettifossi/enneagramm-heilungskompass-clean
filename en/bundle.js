@@ -253,6 +253,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexual Type 4", krankheit:"Chronic digestive and bladder ailments", teaser:"SX4w3 – Enlightenment writer and philosopher, 1694–1778. Decades of digestive and bladder complaints, obsessively documented in letters, unrelenting productivity despite constant complaints. Died on May 30, 1778, in Paris, weeks after his triumphant return from exile." , land:"France", gender:"m", jahre:"1694–1778"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Self-Preservation Type 4", krankheit:"Progressive obsessive-compulsive disorder, germophobia, complete isolation", teaser:"SP4w5 – inventor and engineer, 1856–1943. Pronounced obsessive-compulsive disorder with counting rituals and germophobia, decades of increasing social isolation, final bond to a single white dove. Died impoverished on January 7, 1943, alone in a New York hotel room." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Social Type 5", krankheit:"Nervous breakdown, likely from mercury poisoning", teaser:"SO5w6 – physicist and mathematician, 1642/43–1727. Severe nervous breakdown in 1693 with paranoid accusations against close friends, likely caused by decades of unprotected alchemical experiments with mercury. Recovered within a year, died in 1727 at age 84." , land:"England", gender:"m", jahre:"1642–1727"},
+  { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Social Type 6", krankheit:"Chronic hypochondria, breathing distress, later cognitive decline", teaser:"SO6w5 – philosopher, 1724–1804. Lifelong, extremely well-documented hypochondria with chronic breathing distress, philosophical processing of his own illness in his late work, cognitive decline in his final years. Died on February 12, 1804, in Königsberg at age 79." , land:"Germany", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
 ];
 
@@ -36050,6 +36051,7 @@ function immanuelKantPortraitPage() {
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4) – whose rationalism shaped his early, 'dogmatic' phase of thought"},
         {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5) – jaw cancer despite warnings"},
+        {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – hypochondria and breathing distress"},
       ])}
     </div>
   `);
@@ -43597,6 +43599,7 @@ function freudKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5) – life's work"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – the same pattern of self-control"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so6", label:"Subtype Profile SO6"},
@@ -54496,6 +54499,182 @@ function isaacNewtonKrankheitsportraetPage() {
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6) – physicist and mathematician"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so5", label:"Subtype Profile SO5"},
+      ])}
+    </div>
+  `);
+}
+
+function immanuelKantKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-immanuel-kant-portrait.jpg" alt="Immanuel Kant" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Immanuel Kant</p>
+        <p class="krim-portrait-typ">SO6w5 · Social Type 6 with Five-wing · 1724–1804</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Meerkat</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so6.jpg" alt="Animal correspondence: Meerkat" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO6")};left:${tierAvatarLeft("SO6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Immanuel Kant</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-immanuel-kant">famous-personality portrait</a>
+        – that page covers his strictly timed daily routine and his architectonic
+        philosophical system. This page goes deeper into a chapter mentioned there only in
+        passing: a lifelong, extremely well-documented hypochondria with chronic breathing
+        distress, which he tried to master through an iron, self-devised health regimen, as
+        well as a cognitive decline in his final years.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Kant</strong> is assigned to the <strong>Social Type 6 with Five-wing</strong>.
+        SO6 seeks security through duty, order and fixed structure; the Five-wing turns
+        vigilance into a well-thought-out system. This same combination also determined how
+        he handled his own physical vulnerability: not through medical treatment in the
+        ordinary sense, but through a self-devised, strictly followed set of rules for
+        mastering the body through will.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Chronic breathing distress since his youth:</strong>
+        Already as a young man, Kant suffered from a breathing ailment he described as
+        "tightness of the chest," which accompanied him throughout his adult life and which
+        he addressed himself in philosophical writings.</p>
+        <p class="vb-intro"><strong>b) Pronounced concern for his own digestion:</strong>
+        Contemporaries reported Kant's meticulous preoccupation with his diet and digestion
+        – a topic that came up strikingly often in his daily life and correspondence.</p>
+        <p class="vb-intro"><strong>c) Early development of strict health routines:</strong>
+        Already in his middle years, Kant began regulating his daily schedule – rising,
+        walks, meals – so precisely that it became the foundation of his entire subsequent
+        life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Philosophical processing of his own hypochondria:</strong>
+        In his late work "The Conflict of the Faculties" (1798), Kant devoted an entire
+        section to the question of how the will could master bodily sensations of illness
+        through sheer force of will – a direct, theoretical processing of his own lifelong
+        complaints.</p>
+        <p class="vb-intro"><strong>b) Strict refusal to deviate from routine:</strong>
+        Visitors and friends reported that Kant regarded even small disruptions to his daily
+        schedule as potentially dangerous to his health and emphatically avoided them.</p>
+        <p class="vb-intro"><strong>c) Daily table company as a health necessity:</strong>
+        Kant insisted on extended, multi-hour company at lunch – a routine he himself
+        described as necessary for his mental and physical balance, not merely a social
+        habit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Beginning cognitive decline from the mid-1790s:</strong>
+        In his final years, an increasing mental slowing became noticeable in Kant, later
+        documented by his close circle and biographers such as Thomas De Quincey.</p>
+        <p class="vb-intro"><strong>b) Continuation of routine despite visible decline:</strong>
+        Even as his memory and comprehension faded, Kant tried to continue his accustomed
+        daily schedule unchanged for as long as possible.</p>
+        <p class="vb-intro"><strong>c) Death on February 12, 1804, in Königsberg:</strong>
+        Kant died at age 79, after years of increasing physical and mental weakness, in the
+        city he had practically never left.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A philosopher whose medical history became a source:</strong>
+        Kant's own engagement with his hypochondria flowed directly into his late work – a
+        rare case in which chronic suffering was not concealed, but became the subject of
+        philosophical reflection itself.</p>
+        <p class="vb-intro"><strong>b) A funeral with unusual public participation:</strong>
+        Despite his withdrawn life, an unusually large crowd gathered in Königsberg at his
+        death – a late public expression of recognition for a man who had never sought
+        visibility.</p>
+        <p class="vb-intro"><strong>c) A life's work completed despite the complaints:</strong>
+        Unlike some other illness histories in this Compass, Kant's chronic suffering did
+        not prevent him from fully completing his entire philosophical system during his
+        lifetime.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Routine as a protective system against his own body:</strong>
+        The same search for security through fixed, reliable structure that shaped Kant's
+        entire life also determined how he confronted his own physical vulnerability – not
+        through submission to medical authority, but through a self-devised system he
+        trusted with the same consistency as his philosophy.</p>
+        <p class="vb-intro"><strong>b) The Five-wing and the theorizing of his own suffering:</strong>
+        Kant's philosophical treatise on mastering illness sensations through the will shows
+        exactly the same Five-like movement that also produced his epistemology: the
+        uncontrollable is not simply endured, but translated into a conceptual system that
+        promises control.</p>
+        <p class="vb-intro"><strong>c) Reliability to the end, even in decline:</strong>
+        Unlike a sudden health collapse, Kant showed a gradual decline recognizable over
+        years – a pattern that matched his lifelong preference for predictability even in
+        his own physical decline.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body meant to be mastered by force of will:</strong>
+        Kant's entire life was shaped by the conviction that security could be achieved
+        through consistent self-discipline and fixed rules – his hypochondria was no
+        exception to this principle, but its most consistent application to his own body.</p>
+        <p class="vb-intro"><strong>b) A Parallel in the Same Subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-sigmund-freud">Sigmund Freud</a>
+        (also SO6w5) kept smoking undeterred despite a diagnosis of jaw cancer and underwent
+        more than 30 operations in order to remain mentally clear; decades earlier, Kant
+        developed an equally rigid system to master his chronic breathing distress through
+        sheer force of will. Both cases show the same SO6w5 pattern: security against one's
+        own body, experienced as threatening, is sought not through submission to external
+        medical authority, but through a self-devised, strictly followed system of control.
+        More in the <a href="javascript:void(0)" data-route="krankheitsportraets-sigmund-freud">illness portrait on Sigmund Freud</a>.</p>
+        <p class="vb-intro"><strong>c) Why breathing, of all things?</strong>
+        For a Social Six with Five-wing whose entire security rested on predictable,
+        controlled routine, one interpretation suggests itself: precisely that bodily
+        function least subject to conscious control – breath – became the site of his
+        lifelong worry, while his system of thought simultaneously tried to conceptually
+        contain exactly this uncontrollability. This interpretation is a plausible reading,
+        not a documented historical causal link, and is developed further in this Compass's
+        psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of Social Six inevitably leads to hypochondria or
+        breathing complaints – <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Kant's case shows is a pattern in how a pronounced Social Six
+        with Five-wing repeatedly deals with physical vulnerability – one possible reading
+        among many, not a verdict. The corresponding illness profile is gradually being
+        developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Kant did not know his own pattern – Social Six with Five-wing reflexively secures its
+        own safety through self-devised, strictly followed systems rather than ever facing
+        its own physical vulnerability without this control, and he lived out exactly this
+        pattern unchanged into his final years, marked by cognitive decline. Whoever does not
+        recognize their own need to tame every uncertainty through a system as a pattern
+        cannot set it aside even in their own physical and mental decline.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Social Six with Five-wing explains much about the course of <strong>Kant's</strong>
+        own illness: a man whose entire security rested on predictable structure tried to
+        contain even his own, uncontrollable body in a system of rules and willpower – the
+        meerkat that tried to keep watch over even its own shortness of breath with the same
+        discipline it had kept watch with all its life.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – philosopher"},
+        {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5) – the same pattern of self-control"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so6", label:"Subtype Profile SO6"},
       ])}
     </div>
   `);
@@ -87619,6 +87798,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
+      "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
       "krankheitsportraets-salvatore-riina": salvatoreRiinaKrankheitsportraetPage,
       "krankheitsportraets-johannes-brahms": johannesBrahmsKrankheitsportraetPage,
       "krankheitsportraets-franz-liszt": franzLisztKrankheitsportraetPage,
