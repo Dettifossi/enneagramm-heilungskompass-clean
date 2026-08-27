@@ -63990,7 +63990,7 @@ function yayoiKusamaPortraitPage() {
         <h2 class="vb-section">6. Der Heilungsweg: Von der Auflösung zur Verbindung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Werde ich gebraucht?</em> zur Erkenntnis <em>Ich bin bereits verbunden, auch ohne mich aufzulösen.</em> Für die SE2w3 zeigt sich dieser Weg darin, dass die einst private, überlebensnotwendige Selbstauslöschung zu einer bewusst geteilten, öffentlichen Erfahrung wird &ndash; nicht mehr Flucht vor der eigenen Zerbrechlichkeit, sondern ein Geschenk aus ihr heraus.</p>
-          <p class="vb-intro">Kusama schuf bis fast zuletzt, im hohen Alter, täglich neue Werke &ndash; nicht mehr nur, um sich selbst vor der Auflösung zu retten, sondern weil sie gelernt hatte, ihre tiefste Verletzlichkeit in eine universelle Sprache zu übersetzen, die Menschen auf der ganzen Welt verstehen. Am 26. August 2026 starb Kusama im Alter von 97 Jahren in Tokio. Das Flusspferd, das sein Wasser nie verlassen hat &ndash; und das gerade darin zu einer der einflussreichsten Stimmen der zeitgenössischen Kunst wurde.</p>
+          <p class="vb-intro">Kusama schuf bis fast zuletzt, im hohen Alter, täglich neue Werke &ndash; nicht mehr nur, um sich selbst vor der Auflösung zu retten, sondern weil sie gelernt hatte, ihre tiefste Verletzlichkeit in eine universelle Sprache zu übersetzen, die Menschen auf der ganzen Welt verstehen. Am 14. August 2026 starb Kusama im Alter von 97 Jahren in Tokio. Das Flusspferd, das sein Wasser nie verlassen hat &ndash; und das gerade darin zu einer der einflussreichsten Stimmen der zeitgenössischen Kunst wurde.</p>
         </blockquote>
 
       </div>
@@ -82408,7 +82408,7 @@ function yayoiKusamaKrankheitsportraetPage() {
         Auch am Krankheitsverlauf lässt sich <strong>Kusamas</strong> selbsterhaltende Zwei mit
         Dreierflügel noch einmal ablesen: eine seit der Kindheit bestehende psychische
         Erkrankung, die sie weder verschwiegen noch sich von ihr zerstören ließ, sondern in ein
-        bis zuletzt weitergeführtes, welterfolgreiches Werk verwandelte. Kusama starb am 26.
+        bis zuletzt weitergeführtes, welterfolgreiches Werk verwandelte. Kusama starb am 14.
         August 2026 im Alter von 97 Jahren – fast fünfzig Jahre nach ihrer freiwilligen
         Einweisung, in derselben Klinik, aus der heraus sie bis zuletzt in ihr Atelier ging. Das
         Flusspferd, das sein Wasser nie verlassen hat – und gerade darin zu einer der
