@@ -71322,6 +71322,9 @@ function enneagrammHandanalysePage() {
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Von der kühlen Analyse-Hand der Fünf bis zur dramatischen Tiefen-Hand der Vier: Neun Handtypen als Spiegelbild der neun Enneagrammtypen.</p>
         </div>
 
+        <div style="margin:0 0 1.4rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/enneagramm-handlinien-chiromantie.jpeg" alt="Die wichtigsten Handlinien der Chiromantie: Herzlinie, Kopflinie, Lebenslinie und Schicksalslinie im Überblick" style="width:100%;display:block;" loading="lazy" />
+        </div>
 
         <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
           <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Die Handlinien im Überblick</h2>

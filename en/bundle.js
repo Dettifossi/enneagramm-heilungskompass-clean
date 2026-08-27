@@ -42192,6 +42192,9 @@ function enneagrammHandanalysePage() {
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">From the cool analyst's hand of the Five to the dramatic depth hand of the Four: nine hand types as a mirror of the nine Enneagram types.</p>
         </div>
 
+        <div style="margin:0 0 1.4rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/portraits/enneagramm-handlinien-chiromantie.jpeg" alt="The main hand lines of palmistry: heart line, head line, life line, and fate line at a glance" style="width:100%;display:block;" loading="lazy" />
+        </div>
 
         <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
           <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">The Hand Lines at a Glance</h2>
