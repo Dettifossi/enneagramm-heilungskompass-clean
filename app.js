@@ -33802,6 +33802,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Elizabeth Barrett Browning – Sexueller Typ 9",
     teaser:"SX9w8 · 1806–1861. Englische Dichterin, jahrzehntelang chronisch krank und im Vaterhaus isoliert. Verschmolz ihr Leben radikal mit einem einzigen Menschen – der geheimen Liebe zu Robert Browning – und trotzte dafür der völligen Verstoßung durch den eigenen Vater.",
     land:"Großbritannien", tags:["Literatur"], gender:"f"},
+  { route:"beruehmte-arthur-rimbaud", name:"Arthur Rimbaud", added:"2026-08-27", subtyp:"SX4w3",
+    heading:"Arthur Rimbaud – Sexueller Typ 4",
+    teaser:"SX4w3 · 1854–1891. Französischer Dichter. Wollte mit 15–20 Jahren die gesamte französische Dichtung übertreffen, stürmische Beziehung mit Paul Verlaine, radikaler Bruch mit dem Schreiben mit 21 Jahren, danach Kaufmann und Waffenhändler in Afrika. Tierentsprechung: Chihuahua.",
+    land:"Frankreich", tags:["Literatur"], gender:"m"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -47134,8 +47138,74 @@ function voltairePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Portr\u00e4t: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-arthur-rimbaud", label:"Portr\u00e4t: Arthur Rimbaud (SX4w3)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
         {route:"krankheitsportraets-voltaire", label:"Krankheitsportr\u00e4t: Voltaire (SX4w3) \u2013 chronische Verdauungs- und Blasenleiden"},
+      ])}
+    </div>
+  `);
+}
+
+function arthurRimbaudPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-arthur-rimbaud-portrait.jpg" alt="Arthur Rimbaud" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arthur Rimbaud</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Dichter, 1854–1891 – Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua aus Charleville</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt – und verhält sich wie die größte. Er kennt keine Distanz zwischen dem, was er fühlt, und dem, was er zeigt: Er bellt, wenn ihm etwas nicht passt, und zwar sofort, ungefiltert, ohne Rücksicht auf die Größe des Gegenübers. Jean-Nicolas-Arthur Rimbaud wurde 1854 in Charleville geboren, einer kleinen Provinzstadt in den Ardennen, die er sein Leben lang als geistiges Gefängnis empfand. Sein Vater Frédéric, ein Militäroffizier, war meist auf Truppenposten unterwegs und verließ die Familie schließlich ganz, als Arthur sechs Jahre alt war. Die Mutter, streng und autoritär, führte den Haushalt und die fünf Kinder mit eiserner Disziplin – in Rimbauds frühen Gedichten taucht sie immer wieder als bedrückende, kontrollierende Figur auf.</p>
+          <p class="vb-intro">Der Chihuahua, der früh lernte, dass Zuneigung an Bedingungen geknüpft war, entwickelte stattdessen etwas anderes: eine außergewöhnliche schulische Begabung, die ihn schon mit 15 und 16 Jahren bedeutende Gedichte schreiben ließ, und einen ebenso außergewöhnlichen Fluchtinstinkt. Mehrfach lief er von zu Hause fort; als seine Schule während des Deutsch-Französischen Krieges schloss, nutzte er die Gelegenheit und geriet als 16-Jähriger auf sich allein gestellt in Paris, wo er zeitweise mittellos auf der Straße lebte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Konkurrenz als radikaler Bruch mit der Konvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier nicht als stille Sehnsucht, sondern als offene Konfrontation – Naranjo nannte diesen Subtyp <em>Konkurrenz</em>, manchmal auch <em>Hass</em>: die Intensität, die sich über das direkte Übertreffen, Provozieren und den radikalen Bruch mit dem Bestehenden definiert, oft mit einer selbstzerstörerischen Note. Kaum ein Dichter verkörperte dieses Muster so kompromisslos wie Rimbaud: Mit gerade einmal 15 bis 20 Jahren wollte er die gesamte französische Dichtung seiner Zeit übertreffen und hinter sich lassen. Sein Anspruch war nicht, mitzuschreiben – er wollte, dass nach ihm nichts mehr so geschrieben werden konnte wie zuvor.</p>
+          <p class="vb-intro">Diese Haltung fasste er in der berühmten Formel <em>"il faut être absolument moderne"</em> – "man muss absolut modern sein" – zusammen, die in seinem Prosagedicht <em>Une Saison en Enfer</em> (Eine Zeit in der Hölle, 1873) erscheint. Es ist kein programmatischer Rat, sondern ein Kampfruf: ein Bruch mit allem, was vorher war, als Selbstzweck und Selbstbeweis zugleich. Rimbaud suchte den Skandal bewusst – provokante Auftritte im literarischen Paris, verletzende Bemerkungen gegen etablierte Dichter, ein Auftreten, das absichtlich vor den Kopf stoßen sollte. Die SX4 misst sich nicht an einem inneren Maßstab, sondern im direkten Duell – und Rimbaud führte dieses Duell gegen die gesamte französische Literaturtradition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der Wille zur sichtbaren Revolution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier den Ehrgeiz, das eigene Feuer nicht nur zu fühlen, sondern es öffentlichkeitswirksam zu inszenieren. Rimbaud wollte nicht im Verborgenen dichten – er wollte gesehen, gelesen, anerkannt werden, und zwar nicht irgendwann, sondern sofort. Mit 16 Jahren schickte er dem etablierten Dichter Paul Verlaine einen Brief samt seinem Gedicht <em>Le Bateau ivre</em> (Das trunkene Schiff) – eine kalkulierte Geste, die genau ihr Ziel erreichte: Verlaine war so beeindruckt, dass er den jungen Rimbaud nach Paris einlud, in sein eigenes Haus.</p>
+          <p class="vb-intro">Der Dreierflügel zeigt sich auch darin, wie gezielt Rimbaud sein eigenes Bild formte – als enfant terrible, als Genie, das die Regeln nicht kennt, weil es über ihnen steht. Werke wie <em>Illuminations</em>, eine Sammlung visionärer Prosagedichte, wurden zu Grundtexten der literarischen Moderne, weit über seine eigene Lebenszeit hinaus – Rimbaud rechnete mit Wirkung, auch wenn er die volle Anerkennung selbst nicht mehr erlebte, da vieles erst postum veröffentlicht wurde. Der Ehrgeiz des Dreierflügels braucht ein Publikum, und Rimbaud fand es, indem er es provozierte, statt es zu umwerben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Beziehung zu Verlaine: Ein Feuer, das sich selbst verzehrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zwischen 1871 und 1873 führten Rimbaud und Verlaine eine stürmische, öffentlich skandalöse Beziehung, die Verlaines Ehe zerstörte und beide durch Belgien und England trieb. Es war keine ruhige Verbindung: Streit, Eifersucht und Gewalt gehörten ebenso dazu wie intensive gemeinsame kreative Phasen. Im Juli 1873 eskalierte die Beziehung endgültig – ein betrunkener, verzweifelter Verlaine schoss in Brüssel auf Rimbaud und verletzte ihn am Handgelenk. Verlaine wurde daraufhin zu zwei Jahren Haft verurteilt.</p>
+          <p class="vb-intro">Diese Beziehung trägt die Handschrift der SX4 in Reinform: Intensität, die keine Grenze kennt, Liebe, die sich nicht von Zerstörung trennen lässt. Die sexuelle Vier sucht nicht die verträgliche Bindung, sondern die Verschmelzung, die alles auf eine Karte setzt – und die genau dadurch zum Auslöser der eigenen größten literarischen Werke wurde. <em>Une Saison en Enfer</em> entstand direkt im Nachhall dieser Katastrophe, als Versuch, das eigene Scheitern in Sprache zu faseln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 zeigt sich in Rimbauds Fähigkeit, mit einer Handvoll Gedichte, geschrieben zwischen dem 15. und 20. Lebensjahr, die gesamte Entwicklung der modernen Poesie vorwegzunehmen – Surrealisten, Symbolisten und Existenzialisten beriefen sich später gleichermaßen auf ihn. Kaum ein Dichter hat mit so wenig Lebenszeit als Schreibender eine so große Wirkung erzielt.</p>
+          <p class="vb-intro">Der Schatten liegt in derselben Intensität, die keine Ruhe kennt: Rimbauds Beziehungen – zu Verlaine, zu seiner Mutter, zu den literarischen Zirkeln von Paris – waren fast durchweg von Konflikt geprägt. Die SX4 mit starkem Dreierflügel kann Anerkennung suchen und sie im selben Atemzug zerstören, weil die Konkurrenz, die sie antreibt, auch die Nähe vergiftet, die sie sich eigentlich wünscht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der radikale Bruch: Vom Dichter zum Kaufmann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1875, im Alter von nur 21 Jahren, hörte Rimbaud abrupt auf zu schreiben. Kein langsames Verstummen, kein allmählicher Rückzug – ein vollständiger, endgültiger Bruch mit der eigenen bisherigen Identität. Er reiste durch Europa, diente kurzzeitig in der niederländischen Kolonialarmee, und ließ sich schließlich als Kaufmann in Aden (Jemen) und in Harar (Äthiopien) nieder, wo er unter anderem mit Kaffee handelte und zeitweise auch Waffen. Die Poesie erwähnte er in seinen Briefen aus Afrika kaum noch – als sei sie ein abgeschlossenes Kapitel, das ihn nichts mehr anging.</p>
+          <p class="vb-intro">Dieser Bruch ist selbst ein Ausdruck der SX4w3: Wenn die Konkurrenz mit der alten Rolle erschöpft ist, wird die Rolle vollständig verworfen – nicht modifiziert, nicht weiterentwickelt, sondern radikal hinter sich gelassen, um eine neue, ebenso kompromisslose Identität aufzubauen. 1891 kehrte Rimbaud schwer krank nach Frankreich zurück: Ein Knietumor, vermutlich ein Osteosarkom, machte die Amputation seines rechten Beins nötig. Wenige Monate später, am 10. November 1891, starb er im Alter von 37 Jahren in Marseille – ein Leben, das binnen weniger Jahre gleich zweimal vollständig neu erfunden wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
+        {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
       ])}
     </div>
   `);
@@ -131691,6 +131761,7 @@ function render() {
       "beruehmte-marlene-zuk": marleneZukPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
+      "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
