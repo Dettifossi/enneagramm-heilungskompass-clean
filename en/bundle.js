@@ -267,6 +267,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-sean-connery", name:"Sean Connery", subtyp:"SO3w4", heading:"Sean Connery – Social Type 3", krankheit:"Dementia, publicly confirmed only after his death", teaser:"SO3w4 – actor, 1930–2020. Dementia in his final years, kept from the public for years, confirmed only after his death in 2020 by his son." , land:"United Kingdom", gender:"m", jahre:"1930–2020"},
   { route:"krankheitsportraets-ashton-kutcher", name:"Ashton Kutcher", subtyp:"SO2w3", heading:"Ashton Kutcher – Social Type 2", krankheit:"Rare autoimmune disease (vasculitis) with temporary loss of sight, hearing, and mobility", teaser:"SO2w3 – actor and entrepreneur, b. 1978. Rare autoimmune vasculitis with temporary loss of sight, hearing, and mobility, kept private for two years, made public in 2023." , land:"USA", gender:"m", jahre:"b. 1978"},
   { route:"krankheitsportraets-robert-de-niro", name:"Robert De Niro", subtyp:"SE1w9", heading:"Robert De Niro – Self-Preservation Type 1", krankheit:"Prostate cancer, diagnosed in 2003, treated successfully and largely in private", teaser:"SE1w9 – actor and producer, b. 1943. Prostate cancer diagnosed in 2003, treated promptly and discreetly, only occasional public mentions since, mostly encouraging early screening." , land:"USA", gender:"m", jahre:"b. 1943"},
+  { route:"krankheitsportraets-ludwig-wittgenstein", name:"Ludwig Wittgenstein", subtyp:"SE1w9", heading:"Ludwig Wittgenstein – Self-Preservation Type 1", krankheit:"Prostate cancer with spinal metastases, diagnosed December 1949, incurable", teaser:"SE1w9 – philosopher, 1889–1951. Months of exhaustion misread as anemia, identified as prostate cancer with secondary deposits in December 1949. Hormone treatment robbed him of the ability to think for over a year. Died April 29, 1951 in Cambridge." , land:"Austria/United Kingdom", gender:"m", jahre:"1889–1951"},
   { route:"krankheitsportraets-elon-musk", name:"Elon Musk", subtyp:"SO7w6", heading:"Elon Musk – Social Type 7", krankheit:"Asperger's syndrome, publicly disclosed in 2021", teaser:"SO7w6 – entrepreneur, b. 1971. Asperger's syndrome publicly disclosed live on 'Saturday Night Live' on 8 May 2021, no formal diagnosis for decades before." , land:"USA", gender:"m", jahre:"b. 1971"},
   { route:"krankheitsportraets-ludwig-xiv", name:"Louis XIV", subtyp:"SO3w2", heading:"Louis XIV – Social Type 3", krankheit:"Chronic gout, anal fistula, fatal gangrene", teaser:"SP3w2 – the Sun King, 1638–1715. Decades of gout, an anal fistula operated on under strictest secrecy in 1686, fatal gangrene in the leg. Died on September 1, 1715, in Versailles after 72 years on the throne, at age 76." , land:"France", gender:"m", jahre:"1638–1715"},
   { route:"krankheitsportraets-oj-simpson", name:"O.J. Simpson", subtyp:"SO3w4", heading:"O.J. Simpson – Social Type 3", krankheit:"Prostate cancer", teaser:"SP3w4 – NFL legend and protagonist of the trial of the century, 1947–2024. Diagnosed with prostate cancer in 2023, kept largely hidden from the public, died on April 10, 2024, in Las Vegas." , land:"USA", gender:"m", jahre:"1947–2024"},
@@ -29333,7 +29334,7 @@ function ludwigWittgensteinPortraitPage() {
         <h2 class="vb-section">6. The Gift: Radical Honesty in Thought</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Wittgenstein left philosophy is an uncompromising rigor that remains unmatched to this day: the refusal to settle for a formulation as long as it is not truly correct. The eagle that would rather think entirely alone and entirely precisely than settle for half-clarity.</p>
-          <p class="vb-intro">He died on April 29, 1951 in Cambridge of prostate cancer. His last words, as recorded by his physician: <em>"Tell them I've had a wonderful life."</em> A sentence that strikes many as surprising, given a life full of self-denial, inner hardness, and family tragedy—and yet it shows exactly the SE1w9 he had been throughout his life: fulfillment not through enjoyment, but through the certainty of having remained true to his own, unforgiving standard.</p>
+          <p class="vb-intro">How his final years intertwined with an incurable cancer diagnosis is explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-ludwig-wittgenstein">Illness Portrait of Wittgenstein</a>. He died on April 29, 1951 in Cambridge of prostate cancer. His last words, as recorded by his physician: <em>"Tell them I've had a wonderful life."</em> A sentence that strikes many as surprising, given a life full of self-denial, inner hardness, and family tragedy—and yet it shows exactly the SE1w9 he had been throughout his life: fulfillment not through enjoyment, but through the certainty of having remained true to his own, unforgiving standard.</p>
         </blockquote>
 
       </div>
@@ -29345,6 +29346,7 @@ function ludwigWittgensteinPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
+        {route:"krankheitsportraets-ludwig-wittgenstein", label:"Illness Portrait: Ludwig Wittgenstein (SE1w9)"},
       ])}
     </div>
   `);
@@ -50755,6 +50757,158 @@ function ottoVonBismarckKrankheitsportraetPage() {
   `);
 }
 
+function ludwigWittgensteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ludwig-wittgenstein-portrait.jpg" alt="Ludwig Wittgenstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Wittgenstein</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-wing · 1889–1951</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ludwig Wittgenstein</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-ludwig-wittgenstein">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work, the Eagle as animal motif, and his type
+        structure in general. This page focuses on a chapter only touched on there: the prostate
+        cancer diagnosis of December 1949, the months of unexplained exhaustion beforehand, and
+        the final year and a half before his death in 1951.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Wittgenstein</strong> is classified as the <strong>Self-Preservation One with
+        Nine-wing</strong>. The SE1 constantly measures itself against an inner standard of
+        integrity and completeness—for this subtype, illness is not simply a physical event but a
+        kind of proof of one's own imperfection, met with discipline and as little public
+        complaint as possible.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Months of unexplained exhaustion:</strong>
+        Months before the actual diagnosis, Wittgenstein already suffered from an exhaustion that
+        could not initially be clearly attributed—a condition he, true to his pattern, played down
+        for a long time rather than making it a central concern.</p>
+        <p class="vb-intro"><strong>b) A first, wrong lead:</strong>
+        A doctor in Dublin initially diagnosed anemia and prescribed iron and liver tablets—a
+        treatment that missed the actual problem and further delayed clarification.</p>
+        <p class="vb-intro"><strong>c) Continuing to work despite noticeable weakness:</strong>
+        Even during this period of unclear health complaints, Wittgenstein continued his
+        philosophical work—pausing merely because of unspecific exhaustion was not an option for
+        him as long as no clear diagnosis existed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The diagnosis in December 1949:</strong>
+        Only in December 1949 was the actual cause found: prostate cancer, already with
+        secondary deposits in the spine by that point—a diagnosis that offered no prospect of a
+        cure from the outset.</p>
+        <p class="vb-intro"><strong>b) A hormone treatment with a high price:</strong>
+        The hormone therapy initiated (stilboestrol) was meant to slow the progression—but over
+        thirteen or fourteen months it brought on a state in which Wittgenstein described himself
+        as almost unable to think.</p>
+        <p class="vb-intro"><strong>c) The loss of his own instrument:</strong>
+        For a man whose entire identity rested on the sharpness of his own thinking, this
+        temporary loss of the ability to think was likely harder to bear than the diagnosis
+        itself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) No public complaint:</strong>
+        Even in the face of an incurable diagnosis, Wittgenstein rarely spoke publicly about his
+        suffering—entirely in keeping with the SE1w9 pattern of not putting weakness on display,
+        but processing it in seclusion.</p>
+        <p class="vb-intro"><strong>b) Traveling between Vienna, Oxford, and Cambridge:</strong>
+        He spent his last two years moving between Vienna, Oxford, and Cambridge—no retreat into
+        a sickbed, but a life that, despite the diagnosis, remained in motion.</p>
+        <p class="vb-intro"><strong>c) Working almost to the end:</strong>
+        Even in this phase, Wittgenstein continued his philosophical work as far as his strength
+        allowed—the manuscript later published as <em>On Certainty</em> was written in exactly
+        these final months.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Retreating to his doctor's house:</strong>
+        In his final weeks, Wittgenstein—who for decades had barely kept a conventional home of
+        his own—moved into the house of his doctor, Dr. Edward Bevan, in Cambridge—a rare gesture
+        of trust for a man who seldom allowed closeness.</p>
+        <p class="vb-intro"><strong>b) A deliberate final celebration:</strong>
+        Shortly before his death, he asked Mrs. Bevan not to discuss his approaching end with him
+        yet, and celebrated his sixty-second birthday in April 1951 as best he could—normalcy as
+        a final act of self-control.</p>
+        <p class="vb-intro"><strong>c) Death on April 29, 1951:</strong>
+        Ludwig Wittgenstein died two days after his birthday in his doctor's house in Cambridge.
+        His last recorded words: "Tell them I've had a wonderful life."</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">5. Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Parallel within the same subtype – Robert De Niro (SE1w9):</strong>
+        As with <a href="javascript:void(0)" data-route="krankheitsportraets-robert-de-niro">Robert
+        De Niro</a>, also SE1w9, the same illness—prostate cancer—was processed here in two
+        opposite ways. De Niro had his 2003 diagnosis treated quickly and discreetly and survived;
+        Wittgenstein's diagnosis came considerably later, at a point when a cure was no longer
+        possible—two variants of the same SE1 stance of not making physical warning signs a central
+        concern for as long as possible, only with a different outcome.</p>
+        <p class="vb-intro"><strong>b) Health as another field for one's own standard:</strong>
+        For an SE1, one's own body is not a neutral stage but another field on which the inner
+        demand for integrity and completeness is measured. An illness that cannot be controlled or
+        averted through discipline challenges that demand in a way the SE1 finds almost
+        unbearable—and precisely for that reason it is often suppressed or downplayed for a long
+        time, until a clear diagnosis leaves no escape.</p>
+        <p class="vb-intro"><strong>c) Why the loss of the ability to think, of all things?</strong>
+        For a man whose entire self-understanding rested on the sharpness of his own thinking, an
+        interpretation suggests itself: the hormone treatment struck precisely the instrument with
+        which Wittgenstein had spent his life realizing his own, unforgiving demand for clarity.
+        This reading is a plausible interpretation, not a documented historical causal link.</p>
+        <p class="vb-intro"><strong>d) A frame without determinism:</strong>
+        This does not mean that the pattern of the Self-Preservation One inevitably leads to
+        cancer—<strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Wittgenstein's case can show is a pattern in dealing with unclear physical warning signs
+        that recurs in a pronounced Self-Preservation One—one of many possible explanations, not a
+        verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Wittgenstein did not know his own Enneagram pattern—the concept did not yet exist in his
+        lifetime. The SE1 tendency not to make weakness a central concern carried no built-in
+        warning mechanism that could have moved him toward an earlier, more thorough investigation
+        of the months of exhaustion. Whoever does not know their own pattern of avoiding complaint
+        cannot break it in time either—for Wittgenstein, it remained an open question to the end
+        whether an earlier diagnosis would have changed the course of the illness.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">6. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The course of his illness reflects, once more, <strong>Wittgenstein's</strong>
+        Self-Preservation One with Nine-wing: months of downplayed exhaustion, a late, incurable
+        diagnosis, and a final phase of life that, despite everything, was marked by work,
+        movement, and a deliberately chosen, dignified farewell—down to his own, carefully chosen
+        last words. The Eagle that kept circling alone to the very end, even once its own body
+        could no longer keep pace.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9) – life's work"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – same subtype, same illness"},
+        {route:"subtype/se1", label:"Subtype Profile SE1"},
+      ])}
+    </div>
+  `);
+}
+
 function ludwigVanBeethovenKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -64513,6 +64667,7 @@ function robertDeNiroKrankheitsportraetPage() {
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
         {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SE1w9) – same subtype"},
         {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – same subtype"},
+        {route:"krankheitsportraets-ludwig-wittgenstein", label:"Illness Portrait: Ludwig Wittgenstein (SE1w9) – same subtype, same illness"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}
@@ -97795,6 +97950,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-otto-von-bismarck": ottoVonBismarckKrankheitsportraetPage,
       "krankheitsportraets-martin-luther": martinLutherKrankheitsportraetPage,
+      "krankheitsportraets-ludwig-wittgenstein": ludwigWittgensteinKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
