@@ -32270,6 +32270,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexueller Typ 6", krankheit:"Schweres Schädel-Hirn-Trauma nach Skiunfall 2013, seither vollständige mediale Abschottung", teaser:"SX6w7 – Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969. Skiunfall am 29. Dezember 2013 in Méribel mit schwerem Schädel-Hirn-Trauma, mehrere Notoperationen, monatelanges künstliches Koma. Seit der Entlassung 2014 hält die Familie seinen Gesundheitszustand vollständig geheim." , land:"Deutschland", gender:"m", jahre:"geb. 1969"},
   { route:"krankheitsportraets-klaus-kinski", name:"Klaus Kinski", subtyp:"SX1w9", heading:"Klaus Kinski – Sexueller Typ 1", krankheit:"Psychiatrische Zwangseinweisung 1950 mit vorläufiger Schizophrenie-Diagnose, lebenslange Wutausbrüche", teaser:"SX1w9 – Schauspieler, 1926–1991. Zwangseinweisung am 5. September 1950 nach Suizidversuch und Gewaltausbruch, vorläufige Diagnose Schizophrenie, später auf Psychopathie revidiert. Legendäre Wutausbrüche am Set über Jahrzehnte, 2013 posthume Missbrauchsvorwürfe seiner Tochter Pola." , land:"Deutschland", gender:"m", jahre:"1926–1991"},
   { route:"krankheitsportraets-natascha-kampusch", name:"Natascha Kampusch", subtyp:"SE2w1", heading:"Natascha Kampusch – Selbsterhaltender Typ 2", krankheit:"Posttraumatische Belastungsstörung, schwerer psychischer Zusammenbruch zwanzig Jahre nach der Befreiung", teaser:"SE2w1 – Autorin und Aktivistin, geb. 1988. Posttraumatische Belastungsstörung nach achtjähriger Gefangenschaft (1998–2006), 2026 durch die Familie öffentlich gemachter schwerer psychischer Zusammenbruch. Verknüpft mit Greta Thunberg (ebenfalls SE2w1, ebenfalls Rückzug in eine eigene Welt unter extremem Druck)." , land:"Österreich", gender:"f", jahre:"geb. 1988"},
+  { route:"krankheitsportraets-honore-de-balzac", name:"Honoré de Balzac", subtyp:"SE4w3", heading:"Honoré de Balzac – Selbsterhaltender Typ 4", krankheit:"Jahrzehntelanger Raubbau durch Arbeitswahn und Koffeinexzess, Herzinsuffizienz mit tödlicher Gangrän", teaser:"SE4w3 – französischer Schriftsteller, 1799–1850. Jahrzehntelange nächtliche Schreibmarathons und exzessiver Kaffeekonsum, fortschreitende Herzinsuffizienz, Gangrän nach wiederholten Trokar-Eingriffen gegen Beinödeme, Tod am 18. August 1850, fünf Monate nach der Hochzeit mit Ewelina Hańska." , land:"Frankreich", gender:"m", jahre:"1799–1850"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -47277,11 +47278,217 @@ function honoreDeBalzacPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro" style="max-width:100%;">
+        Die gesundheitlichen Folgen dieses jahrzehntelangen Raubbaus – Koffeinexzess, Schlafmangel,
+        Übergewicht und die fortschreitende Herzinsuffizienz, die schließlich zu seinem Tod führte –
+        werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-honore-de-balzac">Krankheitsporträt</a>
+        ausführlich gedeutet.
+      </p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – Herzinsuffizienz"},
+      ])}
+    </div>
+  `);
+}
+
+function honoreDeBalzacKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-honore-de-balzac-portrait.jpg" alt="Honoré de Balzac" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Honoré de Balzac</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · 1799–1850</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Honoré de Balzac</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-honore-de-balzac">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, seine Herkunft und seine
+        Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur gestreift
+        wird: dem jahrzehntelangen Raubbau am eigenen Körper durch Arbeitswahn, Koffeinexzess und
+        Schlafmangel – und der Herzinsuffizienz mit tödlicher Gangrän, an der Balzac fünf Monate
+        nach seiner Hochzeit starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Balzac</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SE4 trägt ihr Leiden nicht nach außen, sondern hält es zäh und allein aus –
+        bei Balzac hieß das: Schulden mit Sätzen abtragen, Nacht für Nacht, ohne der eigenen
+        Erschöpfung nachzugeben. Der Dreierflügel gab dieser Zähigkeit ein Ziel, das über das bloße
+        Überleben hinausging – gesellschaftlichen Rang, sichtbaren Erfolg –, und genau dieses Ziel
+        ließ ihn die Warnsignale des eigenen Körpers über Jahrzehnte hinweg überhören.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Tagesrhythmus, der auf Dauer keinen Körper schont:</strong>
+        Schon in den 1830er-Jahren, kaum dreißigjährig, hatte sich Balzacs berüchtigter Arbeitsrhythmus
+        etabliert: ein kurzes Abendessen, ein Nickerchen bis Mitternacht, dann ununterbrochenes
+        Schreiben bis weit in den Vormittag – 15 bis 18 Stunden am Stück, Nacht für Nacht, über
+        Jahrzehnte hinweg.</p>
+        <p class="vb-intro"><strong>b) Der Kaffee als Motor und als Gift zugleich:</strong>
+        Um wach zu bleiben, trank Balzac gewaltige Mengen extrem starken, teils fast ungenießbar
+        konzentrierten schwarzen Kaffees – Zeitgenossen und spätere Biografen berichten von Dutzenden
+        Tassen an einem einzigen Arbeitstag. Er beschrieb selbst, wie der Kaffee ihn wachhielt, wenn
+        der Körper längst hätte schlafen wollen – eine Substanz, die er wortwörtlich seiner
+        Gesundheit abrang.</p>
+        <p class="vb-intro"><strong>c) Ein Körper, der früh sichtbar aus dem Gleichgewicht geriet:</strong>
+        Schon in mittleren Jahren wird Balzac von Zeitgenossen als zunehmend beleibt beschrieben –
+        eine Folge des sitzenden Arbeitsstils, der unregelmäßigen, oft hastigen Mahlzeiten und des
+        fehlenden Ausgleichs zur nächtlichen Dauerbelastung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine über anderthalb Jahrzehnte fortschreitende Herzschwäche:</strong>
+        Medizinhistorische Untersuchungen zu Balzacs Krankengeschichte gehen davon aus, dass sich
+        bereits gut eineinhalb Jahre vor seinem Tod eine deutliche Verschlechterung abzeichnete –
+        mit zunehmender Atemnot, die auf eine fortschreitende Verdickung der Herzkammerwand
+        (Ventrikelhypertrophie) zurückgeführt wird, und schweren Wassereinlagerungen in den Beinen.</p>
+        <p class="vb-intro"><strong>b) Die Beinödeme und ein riskanter Eingriff:</strong>
+        Um die massiven Flüssigkeitsansammlungen in den Beinen zu lindern, ließen Balzacs Ärzte
+        wiederholt einen Trokar – ein spitzes chirurgisches Instrument – einsetzen, um die
+        angestaute Flüssigkeit abzuleiten. Ohne die späteren Möglichkeiten der Desinfektion und ohne
+        Antibiotika drang durch diese wiederholten Einstiche eine Infektion in die offenen Wunden ein.</p>
+        <p class="vb-intro"><strong>c) Aus der Infektion wird Gangrän:</strong>
+        Diese Infektion entwickelte sich zu einer Gangrän an den Beinen – dem Gewebetod, der
+        Balzacs geschwächten Kreislauf in seinen letzten Lebenswochen zusätzlich überforderte und
+        letztlich zur Todesursache wurde, gemeinsam mit der zugrundeliegenden Herzinsuffizienz.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Arbeit bis zur physischen Grenze, auch nach ersten Warnzeichen:</strong>
+        Selbst als sich die gesundheitlichen Probleme bereits deutlich bemerkbar machten, reduzierte
+        Balzac sein Arbeitspensum kaum – die Schulden, die sein Werk erst in diesem Umfang hatten
+        entstehen lassen, verlangten weiterhin nach neuen Seiten, neuen Verträgen, neuen Vorschüssen.</p>
+        <p class="vb-intro"><strong>b) Ein Leben zwischen Hańska und der Schreibpflicht:</strong>
+        In den letzten Jahren vor der Hochzeit mit Ewelina Hańska pendelte Balzac wiederholt
+        zwischen Paris und der Ukraine – strapaziöse Reisen, die seinen bereits geschwächten Körper
+        zusätzlich belasteten, während er parallel weiterschrieb, um die eigene finanzielle und
+        gesellschaftliche Position vor der lang ersehnten Heirat zu sichern.</p>
+        <p class="vb-intro"><strong>c) Die Heirat als kurzes Aufatmen:</strong>
+        Am 14. März 1850 heiratete Balzac Ewelina Hańska in der Ukraine – nach siebzehn Jahren
+        Briefwechsel endlich am Ziel. Doch die Rückreise nach Paris im Frühsommer 1850 war bereits
+        von einer sich dramatisch verschlechternden Gesundheit überschattet; von einem Neuanfang mit
+        geregeltem Leben, der seinem Körper Erholung verschafft hätte, konnte keine Rede mehr sein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein rasanter Verfall in den letzten Monaten:</strong>
+        In den letzten drei Lebensmonaten verschlechterte sich Balzacs Zustand nach übereinstimmenden
+        Quellen dramatisch – zunehmende Atemnot, wachsende Erschöpfung und die fortschreitende
+        Gangrän machten ihn zunehmend bettlägerig.</p>
+        <p class="vb-intro"><strong>b) Der Besuch Victor Hugos:</strong>
+        Victor Hugo, von Balzacs Frau herbeigerufen, besuchte den Sterbenden am 18. August 1850 und
+        hielt seine Beobachtungen später schriftlich fest: Balzac habe auf einem Sofa gelegen, sein
+        Gesicht dunkel verfärbt, kaum noch fähig, sich zu erheben – nur die Augen hätten noch Leben
+        gezeigt. Wenige Stunden später war Balzac tot.</p>
+        <p class="vb-intro"><strong>c) Ein Nachruf, der das Ausmaß fasste:</strong>
+        Hugo hielt zwei Tage später, am 20. August 1850, die Grabrede und würdigte Balzac als einen
+        der größten Schriftsteller seiner Epoche – ein öffentliches Echo, das im deutlichen Kontrast
+        zu den letzten, von Schmerz und körperlichem Verfall geprägten Wochen stand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Zähigkeit, die sich gegen den eigenen Körper richtete:</strong>
+        Dieselbe SE4-Zähigkeit, die Balzac befähigte, jahrzehntelang gegen seine Schulden
+        anzuschreiben, richtete sich in den letzten Lebensjahren unvermindert gegen die Signale des
+        eigenen Körpers – Erschöpfung, Atemnot, Schwellungen wurden nicht als Grund zur Umkehr
+        gelesen, sondern als weiteres Hindernis, das es zu überwinden galt.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als Verstärker, nicht als Bremse:</strong>
+        Statt den Status, den er sich mühsam erschrieben hatte, zu genießen, trieb der
+        statusbewusste Dreierflügel Balzac weiter an, noch mehr zu leisten, noch mehr abzusichern –
+        auch als der Preis dafür der eigene Körper war.</p>
+        <p class="vb-intro"><strong>c) Ein Muster, das sich in der Ehe verschärfte statt löste:</strong>
+        In seinen letzten Lebensjahren zeigt sich bei Balzac ein Zug, der über das reine SE4-Muster
+        hinausgeht: eine wachsende, fast anklammernde emotionale Abhängigkeit von Hańskas
+        Zuwendung und Anerkennung, verstärkt durch die jahrelange Ungewissheit um die Heirat und die
+        eigene finanzielle Not. Die Vier bewegt sich unter chronischem Stress entlang ihrer
+        Stresslinie zur Zwei – und genau dieses Muster einer bedürftigen, um Nähe und Bestätigung
+        ringenden Zuwendung lässt sich in den späten Briefen an Hańska ablesen, ohne dass sich
+        Balzacs Kerntyp dadurch verändert hätte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Lady Diana (SE4w3):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady Diana</a>,
+        ebenfalls SE4w3, zeigt sich bei Balzac das für diesen Subtyp typische Muster: Das Leiden
+        wird nicht laut nach außen getragen, sondern jahrelang allein und zäh ausgehalten, während
+        nach außen unvermindert Leistung – bei Diana öffentliche Fassade, bei Balzac literarische
+        Produktivität – gezeigt wird. Bei Diana bricht sich das Leiden Bahn in einer über Jahre
+        verschwiegenen Bulimie, bei Balzac in einem über Jahrzehnte fortgesetzten Raubbau am eigenen
+        Körper, der niemandem verborgen blieb und dennoch nicht gestoppt wurde – zwei Varianten
+        derselben SE4-Grundbewegung: durchhalten, statt aufzugeben.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahrzehnte gewachsene Erschöpfung, keine plötzliche Katastrophe:</strong>
+        Von den ersten nächtelangen Schreibmarathons in den 1830er-Jahren bis zur Gangrän der
+        letzten Lebenswochen zieht sich eine durchgehende Linie stetiger, selbstgewählter
+        Überlastung – kein einzelnes Ereignis, sondern ein über zwanzig Jahre wiederholtes Muster.</p>
+        <p class="vb-intro"><strong>c) Zwei Symptome, ein gemeinsamer Ursprung:</strong>
+        Der exzessive Kaffeekonsum und der chronische Schlafmangel lassen sich als zwei Seiten
+        derselben Strategie lesen: den eigenen Körper so lange wie möglich funktionsfähig zu halten,
+        um die selbstgesetzte, letztlich nie endende Arbeitspflicht zu erfüllen.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Herz?</strong>
+        Für eine selbsterhaltende Vier, deren Instinkt eigentlich auf Sicherung des eigenen
+        Überlebens gerichtet ist, liegt eine Deutung nahe: Ausgerechnet das Organ, das im
+        übertragenen Sinn für Ausdauer, Kraft und das ständige, unbemerkte Weitergeben steht, wurde
+        bei Balzac über Jahrzehnte bis zur Erschöpfung beansprucht – während der Dreierflügel dafür
+        sorgte, dass diese Erschöpfung nach außen möglichst lange nicht sichtbar wurde. Diese
+        Deutung ist eine plausible Interpretation, kein belegter historischer Kausalzusammenhang,
+        und wird im <a href="javascript:void(0)" data-route="psychosomatik/herzinsuffizienz">Psychosomatik-Register
+        zur Herzinsuffizienz</a> dieses Kompasses ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu Herzinsuffizienz
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Balzacs Fall zeigen lässt, ist ein Muster, das bei der Neigung, Erschöpfung
+        stumm auszuhalten statt ihr nachzugeben, in der Praxis immer wieder auffällt – eine von
+        vielen möglichen Erklärungen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Balzac kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten in dieser Form noch gar nicht. Die selbsterhaltende Zähigkeit, die ihn befähigte,
+        gegen seine Schulden anzuschreiben, kannte für ihn keinen eingebauten Warnmechanismus, der
+        ihn rechtzeitig hätte innehalten lassen; im Gegenteil, jedes körperliche Warnsignal wurde in
+        genau derselben Logik verarbeitet, mit der er auch finanzielle Rückschläge behandelte: als
+        weiteres Hindernis, das man zäh durcharbeitet statt ihm nachzugeben. Wer das eigene
+        Erschöpfungsmuster nicht kennt, kann es auch nicht rechtzeitig unterbrechen – bei Balzac
+        endete das erst mit dem Tod, fünf Monate nach der Hochzeit, für die er siebzehn Jahre
+        gewartet hatte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Balzacs</strong> Krankengeschichte zeigt sich die selbsterhaltende Vier mit
+        Dreierflügel von ihrer kompromisslosesten Seite: eine Zähigkeit, die ein literarisches
+        Jahrhundertwerk hervorbrachte – und dieselbe Zähigkeit, die den eigenen Körper über
+        Jahrzehnte hinweg bis zur Erschöpfung forderte, ohne innezuhalten. Die Taube, die
+        siebzehn Jahre lang unbeirrt ihre Botschaft trug, erreichte ihr Ziel am 14. März 1850 –
+        und starb fünf Monate später, am 18. August 1850, an Herzinsuffizienz und der daraus
+        entstandenen Gangrän, im Alter von 51 Jahren.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp"},
+        {route:"psychosomatik/herzinsuffizienz", label:"Psychosomatik-Register: Herzinsuffizienz"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
   `);
@@ -79732,6 +79939,7 @@ function ladyDianaKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3) – Lebenswerk"},
         {route:"krankheitsportraets-adele", label:"Krankheitsporträt: Adele (SE4w3) – gleicher Subtyp"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
@@ -132650,6 +132858,7 @@ function render() {
       "krankheitsportraets-bob-marley": bobMarleyKrankheitsportraetPage,
       "krankheitsportraets-angelina-jolie": angelinaJolieKrankheitsportraetPage,
       "krankheitsportraets-adele": adeleKrankheitsportraetPage,
+      "krankheitsportraets-honore-de-balzac": honoreDeBalzacKrankheitsportraetPage,
       "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
       "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
