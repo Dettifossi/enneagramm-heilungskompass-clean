@@ -32288,6 +32288,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sting \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 \u201eDer Adler\u201d, geb. 1951. S\u00e4nger, Bassist, Komponist. The Police und eine beispiellose Solokarriere \u2013 von Jazz bis Laute, von Shakespeare bis Rainforest Foundation. Handwerk als Gewissen, Stille als zweite Natur. Tierentsprechung: Adler.",
     land:"Großbritannien", tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-ludwig-wittgenstein", name:"Ludwig Wittgenstein", added:"2026-08-28", subtyp:"SE1w9",
+    heading:"Ludwig Wittgenstein – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · 1889–1951. Philosoph, Verfasser des Tractatus logico-philosophicus und der Philosophischen Untersuchungen. Verschenkte sein gesamtes Vermögen, lebte asketisch, arbeitete zeitweise als Dorfschullehrer und Klostergärtner. Tierentsprechung: Adler.",
+    land:"Österreich/Vereinigtes Königreich", tags:["Philosophie","Wissenschaft"], gender:"m"},
   { route:"beruehmte-astrid-lindgren", name:"Astrid Lindgren", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Astrid Lindgren – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · 1907–2002. Schwedische Schriftstellerin, Pippi Langstrumpf, Karlsson vom Dach, Die Brüder Löwenherz. Disziplin als tägliches Ritual, stiller Tierschutz-Kampf im hohen Alter (›Lex Lindgren‹). Tierentsprechung: Adler.",
@@ -44722,12 +44726,12 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Adler",
     kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein"],
     fingerabdruecke: [
       {
         titel: "Die Sorge nach innen statt die Welt korrigieren",
         beschreibung: "Naranjo nannte diesen Subtyp ›Worry‹ – Besorgnis: eine ständige, meist leise innere Frage, ob man dem eigenen Anspruch wirklich gerecht wird. Anders als die soziale oder sexuelle Eins richtet sich dieser Perfektionismus nicht auf die Korrektur anderer, sondern nach innen, auf das eigene Handwerk, die eigene Vorbereitung, die eigene Integrität.",
-        beleg: "Robert De Niro: ›Kein Interview, in dem er sich selbst erklärt‹ – der Perfektionismus zeigt sich nur in der Arbeit selbst; Christoph Waltz, der fragt, ob er ›dem eigenen Anspruch an Wahrhaftigkeit genügt‹; Magnus Carlsen, der sich unablässig fragt, ›ob diese Stellung wirklich optimal ausgeschöpft‹ ist; Marie Kondo, deren Unruhe gilt, ›ob das eigene Umfeld wirklich stimmt‹; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristoteles und Adenauer zeigen dieselbe nach innen gerichtete, unbestechliche Selbstprüfung – nie als Vorwurf an andere, immer als Anspruch an sich selbst; Sting, der bis heute geduldig darauf besteht, dass sein bekanntester Song richtig verstanden wird – die Eins besteht darauf, dass die Dinge stimmen, auch gegen die öffentliche Deutung."
+        beleg: "Robert De Niro: ›Kein Interview, in dem er sich selbst erklärt‹ – der Perfektionismus zeigt sich nur in der Arbeit selbst; Christoph Waltz, der fragt, ob er ›dem eigenen Anspruch an Wahrhaftigkeit genügt‹; Magnus Carlsen, der sich unablässig fragt, ›ob diese Stellung wirklich optimal ausgeschöpft‹ ist; Marie Kondo, deren Unruhe gilt, ›ob das eigene Umfeld wirklich stimmt‹; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristoteles und Adenauer zeigen dieselbe nach innen gerichtete, unbestechliche Selbstprüfung – nie als Vorwurf an andere, immer als Anspruch an sich selbst; Sting, der bis heute geduldig darauf besteht, dass sein bekanntester Song richtig verstanden wird – die Eins besteht darauf, dass die Dinge stimmen, auch gegen die öffentliche Deutung; Ludwig Wittgenstein, der ganze Absätze seiner Philosophischen Untersuchungen wieder und wieder verwarf, bis sie dem eigenen, kaum erreichbaren Anspruch an Klarheit genügten."
       },
       {
         titel: "Stille Präzision ohne Show – der Sturzflug nach langem Kreisen",
@@ -45782,6 +45786,72 @@ function queenElizabethIIPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-sting", label:"Portr\u00e4t: Sting (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Porträt: Ludwig Wittgenstein (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigWittgensteinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-wittgenstein-portrait.jpg" alt="Ludwig Wittgenstein \u2013 Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Wittgenstein</p>
+        <p class="krim-portrait-typ">SE1w9 \u00b7 Selbsterhaltender Typ 1 mit Neunerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Philosoph, 1889\u20131951 \u2013 Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins \u2013 ein Einzelg\u00e4nger, der seine Kreise in gro\u00dfer H\u00f6he zieht, weit \u00fcber dem, was andere f\u00fcr ausreichend halten. Er braucht kein Publikum. Er braucht nur die Gewissheit, dass er seinem eigenen, unerbittlichen Ma\u00dfstab gerecht wird.</p>
+          <p class="vb-intro">Ludwig Wittgenstein, 1889 in Wien als j\u00fcngstes von acht Kindern des Stahlindustriellen Karl Wittgenstein geboren, wuchs in einem Haushalt auf, in dem Brillanz als selbstverst\u00e4ndlich galt und Schw\u00e4che leise, aber unerbittlich sanktioniert wurde. Drei seiner vier Br\u00fcder nahmen sich das Leben \u2013 Hans 1902, vermutlich im Chesapeake Bay, Rudi 1904 mit Zyankali in einer Berliner Bar, Kurt 1918 durch die eigene Hand, als seine Truppe sich am Kriegsende aufl\u00f6ste. Ludwig selbst trug lebenslang Suizidgedanken mit sich. Aus diesem Familienerbe erwuchs kein R\u00fcckzug in Verzweiflung, sondern ein noch sch\u00e4rferer, nach innen gerichteter Anspruch: Es musste etwas geben, dem man sich mit absoluter Konsequenz unterwerfen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Askese als Selbstpr\u00fcfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> tr\u00e4gt ihren Perfektionsanspruch nicht nach au\u00dfen, sondern nach innen. Naranjo nannte diesen Subtyp <em>Worry</em> \u2013 Besorgnis: die st\u00e4ndige innere Pr\u00fcfung, ob man dem eigenen Ma\u00dfstab wirklich gerecht wird. Diese Besorgnis richtet sich nicht auf andere, sondern gnadenlos auf das eigene Denken, das eigene Verhalten, den eigenen Charakter.</p>
+          <p class="vb-intro">Wittgenstein lebte dieses Muster in einer Form, die selbst f\u00fcr eine SE1 au\u00dfergew\u00f6hnlich ist. 1913 erbte er ein Verm\u00f6gen, das ihn zu einem der reichsten jungen M\u00e4nner Europas machte. Nach dem Ersten Weltkrieg, in einer Phase tiefer pers\u00f6nlicher Krise, verschenkte er dieses gesamte Verm\u00f6gen an seine Geschwister \u2013 nicht aus Gro\u00dfz\u00fcgigkeit im gew\u00f6hnlichen Sinn, sondern aus der \u00dcberzeugung, dass Reichtum den eigenen Charakter korrumpiere. Sp\u00e4ter lebte er in m\u00f6glichst kargen Verh\u00e4ltnissen: ein Campingstuhl statt eines Sessels, ein Zimmer fast ohne M\u00f6bel. Die SE1 verzichtet nicht, um zu leiden. Sie verzichtet, weil jeder Komfort, den man sich nicht wirklich verdient hat, als moralischer Makel empfunden wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: R\u00fcckzug in die Einfachheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> gibt der selbsterhaltenden Eins eine Sehnsucht nach Einfachheit, Anonymit\u00e4t und R\u00fcckzug aus dem Betrieb der Welt. Er sucht nicht die B\u00fchne, sondern die Stille, in der sich der eigene Anspruch ungest\u00f6rt verwirklichen l\u00e4sst.</p>
+          <p class="vb-intro">Bei Wittgenstein zeigte sich dieser Fl\u00fcgel in einer Reihe radikaler Ausstiege. Nach der Ver\u00f6ffentlichung des <em>Tractatus logico-philosophicus</em> 1921 \u2013 f\u00fcr ihn zun\u00e4chst die vollst\u00e4ndige, abschlie\u00dfende L\u00f6sung aller philosophischen Probleme \u2013 zog er sich aus der akademischen Welt zur\u00fcck und arbeitete von 1920 bis 1926 als Volksschullehrer in \u00f6sterreichischen Bergd\u00f6rfern wie Trattenbach. Sp\u00e4ter, nach dem Ende dieser Lehrt\u00e4tigkeit, arbeitete er zeitweise als G\u00e4rtner in einem Kloster bei Wien. Kein Prestige, keine \u00d6ffentlichkeit \u2013 nur die einfache, k\u00f6rperliche Arbeit und die M\u00f6glichkeit, dem eigenen Anspruch in Zur\u00fcckgezogenheit treu zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn, der sich meist nach innen wendet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins hei\u00dft <strong>Zorn</strong> \u2013 bei der SE1w9 richtet er sich fast immer gegen die eigene Person: als unerbittliche Selbstkritik, als das st\u00e4ndige Gef\u00fchl, dem eigenen Ma\u00dfstab noch nicht gen\u00fcgt zu haben. Wittgensteins gesamtes philosophisches Werk \u2013 vom kompromisslosen <em>Tractatus</em> bis zu den nie abgeschlossenen <em>Philosophischen Untersuchungen</em> \u2013 tr\u00e4gt die Spur dieses inneren Zorns: kein Satz, der nicht wieder und wieder verworfen und neu gefasst wurde, bis er dem eigenen, fast unerreichbaren Anspruch an Klarheit gen\u00fcgte.</p>
+          <p class="vb-intro">Als Lehrer in Cambridge in den 1930er- und 1940er-Jahren pr\u00e4gte er eine ganze Generation von Philosophen \u2013 seine Vorlesungen waren keine Vortr\u00e4ge, sondern gemeinsames, oft qu\u00e4lend langsames Denken vor den Studierenden, bei dem er selbst nach der richtigen Formulierung rang. Wer bei ihm bestehen wollte, musste dieselbe kompromisslose Ehrlichkeit gegen sich selbst aufbringen, die er sich selbst abverlangte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Krise als Spiegel: Die Volksschuljahre in Nieder\u00f6sterreich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SE1w9 hat eine Schwachstelle: Der nach innen gerichtete Zorn kann, wenn der \u00e4u\u00dfere Druck zu gro\u00df wird, unvermittelt nach au\u00dfen durchbrechen. Als Volksschullehrer in den nieder\u00f6sterreichischen D\u00f6rfern Trattenbach, Puchberg und Otterthal war Wittgenstein f\u00fcr seine Sch\u00fcler streckenweise ein gl\u00fchender Vermittler von Mathematik, Naturwissenschaft und Latein \u2013 zugleich aber auch f\u00fcr harte, teils gewaltsame Disziplinierungsma\u00dfnahmen bekannt, darunter Ohrfeigen und Haareziehen bei Sch\u00fclern, die seinem Anspruch nicht gen\u00fcgten.</p>
+          <p class="vb-intro">1926 kollabierte ein Sch\u00fcler nach einem Schlag Wittgensteins, was zu einer offiziellen Untersuchung und seinem R\u00fccktritt vom Schuldienst f\u00fchrte. Aus Enneagramm-Perspektive ist das kein Widerspruch zum sonst so beherrschten Bild, sondern die Kehrseite desselben Musters: Wer den eigenen Zorn jahrelang nach innen richtet, kann in Momenten der \u00dcberforderung genau diesen Zorn ungefiltert nach au\u00dfen entladen \u2013 gegen jene, die seinem Ma\u00dfstab nicht gen\u00fcgen konnten, weil sie Kinder waren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Radikale Ehrlichkeit im Denken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Wittgenstein der Philosophie hinterlassen hat, ist eine Kompromisslosigkeit, die bis heute ihresgleichen sucht: die Weigerung, sich mit einer Formulierung zufriedenzugeben, solange sie nicht wirklich stimmt. Der Adler, der lieber ganz allein und ganz genau denkt, als sich mit halber Klarheit zufriedenzugeben.</p>
+          <p class="vb-intro">Er starb am 29. April 1951 in Cambridge an Prostatakrebs. Seine letzten Worte, \u00fcberliefert von seiner \u00c4rztin: <em>\u00bbSagt ihnen, ich hatte ein wunderbares Leben.\u00ab</em> Ein Satz, der f\u00fcr viele \u00fcberraschend klingt angesichts eines Lebens voller Selbstverzicht, innerer H\u00e4rte und famili\u00e4rer Trag\u00f6dien \u2013 und der doch genau die SE1w9 zeigt, die er zeitlebens war: Erf\u00fcllung nicht durch Genuss, sondern durch die Gewissheit, dem eigenen, unerbittlichen Anspruch treu geblieben zu sein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
       ])}
     </div>
   `);
@@ -45843,6 +45913,7 @@ function stingPortraitPage() {
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Portr\u00e4t: Anthony Hopkins (SE1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portr\u00e4t: Magnus Carlsen (SE1w9)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portr\u00e4t: Ludwig Wittgenstein (SE1w9)"},
       ])}
     </div>
   `);
@@ -132989,6 +133060,7 @@ function render() {
       "astrologie-gerhard-schroeder": astrologieGerhardSchroederPage,
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-sting": stingPortraitPage,
+      "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-peter-sharpe": peterSharpePortraitPage,
