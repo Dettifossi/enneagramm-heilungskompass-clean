@@ -1833,6 +1833,10 @@ const BERUEHMT_PORTRAITS = [
 { route:"beruehmte-arthur-rimbaud", name:"Arthur Rimbaud", added:"2026-08-27", subtyp:"SX4w3",
     heading:"Arthur Rimbaud – Sexual Type 4",
     teaser:"SX4w3 · 1854–1891. French poet. At fifteen to twenty wanted to surpass all of French poetry, tempestuous relationship with Paul Verlaine, radical break with writing at twenty-one, then merchant and arms trader in Africa. Animal correspondence: Chihuahua.",
+    land:"France", tags:["Literature"], gender:"m"},
+{ route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
+    heading:"Honoré de Balzac – Self-Preservation Type 4",
+    teaser:"SE4w3 · 1799–1850. French writer, \"La Comédie humaine\" (almost 100 novels/stories). Gave himself the noble \"de\" that wasn't his by birth, wrote through the night up to 18 hours a day fueled by coffee to pay off crushing debts, 17 years of correspondence with Countess Hańska before marrying her shortly before his death. Animal correspondence: Dove.",
     land:"France", tags:["Literature"], gender:"m"}
 ];
 
@@ -30695,6 +30699,73 @@ function arthurRimbaudPortraitPage() {
   `);
 }
 
+function honoreDeBalzacPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-honore-de-balzac-portrait.jpg" alt="Honoré de Balzac" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Honoré de Balzac</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">French writer, 1799&ndash;1850 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> carries messages over long distances and returns, even through storms &ndash; resilient at its core, even when it looks delicate. It is not an animal of loud gestures, but one that proves itself through persistence, through what it unwaveringly carries from one place to another. Honoré Balssa &ndash; only later did he call himself Balzac, and later still Honoré de Balzac &ndash; was born in 1799 in Tours, the son of a civil servant from modest southern French stock who had risen to an administrative post under Louis XVI and Napoleon, and a considerably younger mother from a prosperous Parisian cloth-merchant family. His mother, who experienced motherhood more as duty than affection, first placed the four-year-old with a wet nurse, then, at eight, sent him to boarding school in Vendôme, where he later claimed to have received hardly any visits from his parents for years.</p>
+          <p class="vb-intro">This early experience of rejection, quietly endured rather than loudly protested, is the soil in which the self-preservation Four grows. The dove learned not to demand its longing for belonging, but to relocate it into an inner world no one could take from it &ndash; a world he would later, line by line, commit to paper: nearly a hundred novels and stories, gathered under the title <em>La Comédie humaine</em> (The Human Comedy), a body of work of a density and scope hardly matched by any other writer of his time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Tenacity as a Way to Survive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> is the counter-type of the Four: it does not turn its suffering into dramatic self-display, but endures it &ndash; alone, with quiet harshness toward itself. Naranjo called this subtype <em>tenacity</em> &ndash; not a loud rebellion against fate, but a stubborn persistence that gives its own pain no stage. Hardly any writer shows this tenacity as concretely as Balzac: to pay off crushing debts &ndash; the result of failed business ventures, including a printing house and a publishing firm, as well as a lifestyle far beyond his means &ndash; he wrote through the night for decades, often fifteen to eighteen hours at a stretch.</p>
+          <p class="vb-intro">His daily rhythm was notorious: a brief dinner, a nap until midnight, then uninterrupted writing well into the following morning, fueled by enormous quantities of strong black coffee &ndash; dozens of cups that, over the years, he quite literally wrung from his own health. This was no motive of luxury, no striving for effortless recognition, but pure survival energy: the SP4 fights its pain out alone before showing it, and for Balzac that fight meant paying off debts with sentences, one after another, night after night.</p>
+          <p class="vb-intro">The self-preservation instinct orients the Four toward its own stability &ndash; in Balzac's case paradoxically broken: he lived in constant financial instability, yet the discipline with which he wrote against it was of unshakeable consistency. Critics of his time as well as later biographers agree that it was precisely the pressure of debt that helped produce the immense scope of his work &ndash; the tenacity of the SP4, which turned necessity into a lifelong writing practice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: The Invented "de"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Four a pronounced sense of status &ndash; the wish not merely to preserve its inner world, but to translate it visibly into social rank. In Balzac this shows unmistakably: he came from bourgeois circumstances, yet as a young man he already began changing his family name from Balssa to Balzac and eventually appropriating a noble "de" to which he had no claim &ndash; Honoré Balzac became Honoré de Balzac, without any genealogical basis whatsoever. Contemporaries and later biographers alike describe him as virtually obsessed with social advancement and aristocratic glamour.</p>
+          <p class="vb-intro">This obsession did not stop at his name: whenever his means allowed, Balzac dressed extravagantly, collected antiques far beyond his financial reach, and cultivated a lifestyle that suited a nobleman better than a debt-ridden writer &ndash; precisely the expenses that kept his debts growing while forcing him to write even more. The Three-wing does not turn the SP4's introverted depth into withdrawal, but into ambition: Balzac wanted not only to be inwardly unique, he wanted that uniqueness to be seen, acknowledged, confirmed in social rank &ndash; and for that he wrote an entire body of work that dissects that very world of ambition, money, and social climbing in every facet, from <em>Le Père Goriot</em> to <em>Eugénie Grandet</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ewelina Hańska: The Message That Almost Never Arrived</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1832 Balzac received an anonymous, admiring letter from far off in Eastern Europe, signed "L'Étrangère" &ndash; the stranger. Behind it was Ewelina Hańska, a Polish countess married to a considerably older nobleman. What began was a correspondence that would last seventeen years &ndash; for long stretches the only form of closeness the two allowed themselves, interrupted by rare, brief meetings across Europe. In this decades-long long-distance relationship flickers a sexual-instinct intensity, a merging across distance that did not replace Balzac's self-preservation core orientation but accompanied it as a strong secondary color.</p>
+          <p class="vb-intro">When Hańska's husband died in 1841, Balzac hoped for a swift marriage &ndash; yet nine more years passed, marked by Balzac's mounting debts, his deteriorating health, and the protracted legal and family entanglements surrounding Hańska's fortune. Not until March 14, 1850 did the two marry, in Ukraine, after seventeen years of correspondence &ndash; the dove that had finally delivered its message, after spending most of its life to do so.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w3 lies in its ability to turn a deeply personal, often painful inner world into a body of work that outlasts its own lifetime. Balzac's <em>La Comédie humaine</em> &ndash; nearly a hundred completed works, along with numerous unfinished fragments &ndash; still ranks among the most ambitious literary projects ever attempted: the effort to capture the entirety of French society of his time in a single, vast, deeply personal panorama.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the deep feeling that others were given something one lacks oneself. In Balzac this showed as a lifelong struggle for recognition, status, and material security that his own origins and early family coldness had withheld from him. The Three-wing sharpened this struggle: the invented title, the costly antiques, the failed business speculations &ndash; all of it an attempt to compensate for an inner sense of lack through outward glamour, while at the same time driving him ever deeper into debt that in turn demanded ever more writing.</p>
+          <p class="vb-intro">The shadow of this constellation showed most clearly in his final years: decades of exploiting his own health &ndash; excessive coffee consumption, chronic sleep deprivation, obesity, and worsening heart problems &ndash; took their toll. Five months after his long-awaited wedding to Hańska, Balzac died on August 18, 1850 in Paris, at just 51 years old, in the presence of his mother &ndash; the very woman whose early rejection had once been the starting point of his lifelong search for recognition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Fought-For Recognition to Self-Acceptance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>What I am is enough &ndash; and it is unique.</em> For the SP4w3 this means no longer tying its own worth to outward glamour, to an invented title, or to the next finished page, but recognizing its own depth as already sufficient.</p>
+          <p class="vb-intro">Balzac's life shows how hard this step becomes when early rejection is never consciously processed but only redirected into ever more work, ever more debt, ever more outward ambition. And yet precisely in his late work, in the decades-long, patient bond with Hańska, and in the sheer depth of his literary gaze at human nature flickers something of what the healed Four can achieve: no longer needing to prove one's own uniqueness, but simply living it &ndash; and, in Balzac's case, leaving it to posterity as one of the greatest literary legacies French literature knows.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function anaDeArmasPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -44128,7 +44199,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -44138,7 +44209,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
         beschreibung: "The delicate, sensitive appearance is deceptive about considerable inner endurance: the path continues even through storms and setbacks, not because fear is absent, but because a deep knowledge of one's own direction carries it.",
-        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Nikola Tesla, who lost his life's work at the Wardenclyffe Tower and nonetheless held to its rightness to the end – and who, far from any human closeness, found his deepest bond in a single white dove."
+        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Nikola Tesla, who lost his life's work at the Wardenclyffe Tower and nonetheless held to its rightness to the end – and who, far from any human closeness, found his deepest bond in a single white dove; Honoré de Balzac, who for decades wrote through the night against crushing debt, often fifteen to eighteen hours at a stretch – no giving up despite constant financial hardship, but a tenacious persistence that ended only with his death, five months after the marriage to Ewelina Hańska he had hoped for over seventeen years."
       },
       {
         titel: "Complete inner processing before stepping outward",
@@ -96444,6 +96515,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
+      "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
