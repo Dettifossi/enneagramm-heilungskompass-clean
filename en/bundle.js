@@ -227,6 +227,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Self-Preservation Type 1", krankheit:"Severe facial injuries from a car accident (1917), later persecution and imprisonment, death after two heart attacks and pneumonia (1967)", teaser:"SE1w9 – German Chancellor 1949–1963, 1876–1967. His face was shattered in a severe car accident in 1917; he turned the scars into an expression of controlled authority. Two decades later, persecution and imprisonment under the National Socialists, remarkably vital well into old age." , land:"Germany", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
   { route:"krankheitsportraets-otto-von-bismarck", name:"Otto von Bismarck", subtyp:"SX6w5", heading:"Otto von Bismarck – Sexual Type 6", krankheit:"Obesity, exhaustion, and untreated gangrene", teaser:"SX6w5 – First Chancellor of the German Empire, 1815–1898. Exhaustion crisis and severe obesity in the early 1880s, radical treatment from 1883 by Dr. Ernst Schweninger with about 20 kg lost, contemporaneously documented morphine use. Refused treatment for gangrene of the foot in old age, died on July 30, 1898 at 83 from gangrene and pneumonia." , land:"Germany", gender:"m", jahre:"1815–1898"},
+  { route:"krankheitsportraets-martin-luther", name:"Martin Luther", subtyp:"SX1w2", heading:"Martin Luther – Sexual Type 1", krankheit:"Heart and circulatory ailments and recurring severe depression (Anfechtungen)", teaser:"SX1w2 – Reformer, 1483–1546. The decade 1535–1545 marked by worsening heart and circulatory problems, kidney stones, and dizzy spells, intertwined with severe depressive episodes. Died February 18, 1546 in Eisleben, likely from heart failure or stroke." , land:"Germany", gender:"m", jahre:"1483–1546"},
   { route:"krankheitsportraets-ludwig-van-beethoven", name:"Ludwig van Beethoven", subtyp:"SX6w5", heading:"Ludwig van Beethoven – Sexual Type 6", krankheit:"Progressive Deafness and Liver Cirrhosis", teaser:"SX6w5 – composer, 1770–1827. Progressing hearing loss from around 1798, alongside chronic abdominal ailments and suspected lead poisoning. Jaundice from 1821, four painful abdominal punctures against fluid buildup from December 1826. Died in 1827 from liver cirrhosis – the autopsy found a severely scarred liver and damaged kidneys." , land:"Germany", gender:"m", jahre:"1770–1827"},
   { route:"krankheitsportraets-michael-jackson", name:"Michael Jackson", subtyp:"SO4w3", heading:"Michael Jackson – Social Type 4", krankheit:"Decades-long dependence on pain and sleep medication, concealed vitiligo", teaser:"SO4w3 – singer, dancer, and composer, 1958–2009. Opioid treatment after a severe scalp burn in 1984, followed from the 1990s by increasingly severe, treatment-resistant insomnia. Latterly received propofol as an at-home sleep aid – a use far outside any medical norm. Died in 2009 of acute cardiac arrest from a propofol overdose, weeks before his planned comeback tour." , land:"USA", gender:"m", jahre:"1958–2009"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
@@ -20519,6 +20520,7 @@ function martinLutherPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-eminem", label:"Portrait: Eminem (SX1w2)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+        {route:"krankheitsportraets-martin-luther", label:"Illness Portrait: Martin Luther (SX1w2)"},
       ])}
     </div>
   `);
@@ -50331,6 +50333,169 @@ function friedrichSchillerKrankheitsportraetPage() {
   `);
 }
 
+function martinLutherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-martin-luther-portrait.jpg" alt="Martin Luther" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martin Luther</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with Two-wing · 1483–1546</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Black Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Animal correspondence: Black Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Martin Luther</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-martin-luther">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work, the Black Mamba as animal motif, and
+        his type structure in general. This page focuses on a chapter only touched on there: the
+        decade between 1535 and his death in 1546, in which worsening heart problems, kidney
+        stones, and dizzy spells became inseparably intertwined with severe, recurring depressive
+        episodes – his own "Anfechtungen."
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Luther</strong> is classified as the <strong>Sexual One with Two-wing</strong>.
+        The SX1 directs its relentless demand for perfection with missionary force at a single
+        cause – for Luther, the purity of doctrine. The Two wing adds concern for concrete
+        individuals, but also a tendency to hide one's own exhaustion behind continued
+        functioning for others rather than admitting it to oneself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Afflictions already in the monastery:</strong>
+        Even as a young Augustinian monk, Luther suffered from what he himself called
+        "Anfechtungen"—episodes of profound despair, guilt, and fear of death that never left
+        him despite the strictest penitential practice. The pattern, then, was in place long
+        before the Reformation, not merely a consequence of its burdens.</p>
+        <p class="vb-intro"><strong>b) First physical complaints from the 1520s:</strong>
+        Parallel to the early years of the reform movement, Luther increasingly complained of
+        digestive troubles and kidney stones—symptoms he almost never used as an occasion to
+        slow down his workload.</p>
+        <p class="vb-intro"><strong>c) A life without recognizable recovery periods:</strong>
+        Between preaching, lecturing, Bible translation, extensive correspondence, and permanent
+        theological controversy, Luther had hardly any phase of real relief—a pace that
+        continued for decades without external success ever easing the inner strain.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The turning point after 1527:</strong>
+        Historians place a clear break around the year 1527: from then on, a recurring
+        connection between circulatory problems and depressive episodes becomes visible in
+        Luther, the two reinforcing each other rather than occurring independently.</p>
+        <p class="vb-intro"><strong>b) Growing health instability:</strong>
+        Contemporary and later medical-historical assessments describe Luther in the years
+        after 1527 as increasingly unstable—phases of intense productivity alternated with
+        crashes that affected body and mind alike.</p>
+        <p class="vb-intro"><strong>c) The decade from 1535 to 1545 as the peak:</strong>
+        These ten years are considered the phase in which illness and depression coincided most
+        densely for Luther—heart trouble, dizzy spells, and tormenting self-doubt that fed on
+        each other rather than alternating.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) "It isn't me":</strong>
+        In his darkest moments, Luther is said to have lain on the floor, weeping, crying out
+        that he "wasn't himself"—an expression of radical self-alienation that goes far beyond
+        ordinary exhaustion.</p>
+        <p class="vb-intro"><strong>b) No withdrawal from public life:</strong>
+        Unlike some other sick figures of his time, Luther did not withdraw from public life
+        despite these states—preaching, lecturing, and polemical writing continued almost
+        unabated even in his hardest years.</p>
+        <p class="vb-intro"><strong>c) An illness history he documented himself:</strong>
+        Luther's own letters and the records of those around him—above all the later <em>Table
+        Talk</em>—make his suffering unusually well documented, far beyond what survives for
+        most contemporaries of his standing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Increasing dizzy spells in his final years:</strong>
+        In his last decade, recurring dizzy spells were added, retrospectively interpreted as
+        possible Ménière's disease—another symptom that never seriously kept Luther from his
+        work.</p>
+        <p class="vb-intro"><strong>b) One last journey despite visible weakness:</strong>
+        In the winter of 1546, an already gravely weakened Luther traveled to Eisleben to
+        mediate an inheritance dispute among the Counts of Mansfeld—a task he did not delegate
+        despite evident exhaustion.</p>
+        <p class="vb-intro"><strong>c) Death in his home town:</strong>
+        Martin Luther died on February 18, 1546 in Eisleben, likely from heart failure or a
+        stroke—in the same town where he had been born 63 years earlier.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">5. Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) Parallel within the same subtype – Robbie Williams (SX1w2):</strong>
+        As with <a href="javascript:void(0)" data-route="krankheitsportraets-robbie-williams">Robbie
+        Williams</a>, also SX1w2, Luther shows the pattern typical of this subtype: a deep-seated,
+        decades-long depression. The expression runs in the opposite direction, though: Williams
+        externalized his exhaustion through addiction and public breakdowns; Luther channeled his
+        afflictions almost entirely inward and into further theological work—two variants of the
+        same SX1 stance of never giving in to one's own exhaustion, only with opposite outward
+        expression: disclosure in Williams' case, working through exhaustion in Luther's.</p>
+        <p class="vb-intro"><strong>b) Two reinforcing conditions rather than a single event:</strong>
+        Unlike some other illness portraits in this Compass, Luther's case has no single dramatic
+        turning point, but a steadily intensifying interplay of physical and psychological decline
+        across the decade from 1535 to 1545, each feeding the other rather than running
+        independently.</p>
+        <p class="vb-intro"><strong>c) A shift toward the stress point:</strong>
+        The stress point of the One is the Four. The symptoms of his final years—melancholy,
+        radical self-alienation, tormenting self-doubt rather than the moral certainty more typical
+        of the One—show a shift along the stress line typical of chronic, decades-long pressure.
+        The core type remained unchanged, the sexual One with Two-wing—but the symptomatology of
+        his final years increasingly carries Four-like traits.</p>
+        <p class="vb-intro"><strong>d) Why the heart, of all organs?</strong>
+        For a man whose entire theology revolved around faith "from the heart"—not outward works,
+        but inner certainty—an interpretation suggests itself: precisely the organ that
+        figuratively stands for one's own inner certainty became, in his final years, the site of
+        a decline that no conviction, however firm, could halt. This reading is a plausible
+        interpretation, not a documented historical causal link.</p>
+        <p class="vb-intro"><strong>e) A frame without determinism:</strong>
+        This does not mean that the pattern of the sexual One inevitably leads to heart disease or
+        depression—<strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Luther's case can show is a pattern that recurs in practice around the compulsion never to
+        pause one's own zeal—one of many possible explanations, not a verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Luther did not know his own Enneagram pattern—the concept did not yet exist in his
+        lifetime. His zeal, which tolerated no half measures, carried no built-in warning
+        mechanism that could have moved him to slow down in time; on the contrary, his own
+        exhaustion was evidently processed with the same logic as every theological dispute
+        before it: as something to meet with even more effort, not to yield to. Whoever does not
+        know their own pattern of never stopping cannot break it in time either—for Luther, that
+        ended only with his death, on February 18, 1546.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">6. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The course of his illness reflects, once more, <strong>Luther's</strong> sexual One with
+        Two-wing: a decade of worsening heart problems inseparably interwoven with recurring
+        afflictions, and a zeal that allowed no pause to the very end—even his last journey to
+        Eisleben was undertaken in service of a cause, not in service of his own recovery. The
+        Black Mamba that kept biting to its last breath, even once its own body could no longer
+        keep pace.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2) – life's work"},
+        {route:"krankheitsportraets-robbie-williams", label:"Illness Portrait: Robbie Williams (SX1w2) – same subtype"},
+        {route:"subtype/sx1", label:"Subtype Profile SX1"},
+      ])}
+    </div>
+  `);
+}
+
 function ottoVonBismarckKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -61152,6 +61317,7 @@ function robbieWilliamsKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2)"},
         {route:"krankheitsportraets-jamie-lee-curtis", label:"Illness Portrait: Jamie Lee Curtis (SX1w2) – same subtype"},
+        {route:"krankheitsportraets-martin-luther", label:"Illness Portrait: Martin Luther (SX1w2) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx1", label:"Subtype Profile SX1"},
       ])}
@@ -97563,6 +97729,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-otto-von-bismarck": ottoVonBismarckKrankheitsportraetPage,
+      "krankheitsportraets-martin-luther": martinLutherKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
