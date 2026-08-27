@@ -11281,7 +11281,7 @@ function sectionBlock(key, title, inner, color) {
   if (!inner) return "";
   const titleStyle = color ? ` style="color:${color}"` : "";
   return `
-    <section class="subtype-section subtype-section--${key}">
+    <section class="subtype-section subtype-section--${key}" id="subtype-section-${key}">
       <h2 class="subtype-section__title"${titleStyle}>${title}</h2>
       <div class="subtype-section__body">${inner}</div>
     </section>
@@ -42294,7 +42294,15 @@ function enneagrammAkupunkturPage() {
 
         <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
           <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Acupressure: The Self-Help Path</h2>
-          <p class="vb-intro">For anyone who doesn't want to wait for the next appointment with an experienced therapist, the related discipline of acupressure offers a path that can be practiced independently – with effects similar to needle acupuncture, just without the needle. This compass already covers acupressure on all 27 subtype detail pages, each under ›Page 3 · Body Work & Acupressure‹ – for example with <a href="javascript:void(0)" data-route="subtype/se1">SE1</a>, <a href="javascript:void(0)" data-route="subtype/so4">SO4</a>, or <a href="javascript:void(0)" data-route="subtype/sx7">SX7</a> – one example from each of the three centers.</p>
+          <p class="vb-intro">For anyone who doesn't want to wait for the next appointment with an experienced therapist, the related discipline of acupressure offers a path that can be practiced independently – with effects similar to needle acupuncture, just without the needle. Four body zones come into play here: facial acupressure, hand acupressure, foot acupressure, and ear acupressure – each with its own point system, usable on its own or combined.</p>
+          <p class="vb-intro">This compass already covers acupressure on all 27 subtype detail pages, in the ›Regulate · Body Work & Acupressure‹ section – clicking your own subtype takes you straight there, not just to the general profile page:</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin:0 0 1.2rem;">
+            ${[1,2,3,4,5,6,7,8,9].flatMap(n => ['SP','SO','SX'].map(inst => {
+              const code = ((inst === 'SP' ? 'se' : inst.toLowerCase()) + n);
+              const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[n] : null) || 'var(--copper)';
+              return `<a href="javascript:void(0)" data-route="subtype/${code}|subtype-section-regulieren" style="font-size:0.8rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:20px;border:1.5px solid ${col};color:${col};text-decoration:none;">${inst}${n}</a>`;
+            })).join('')}
+          </div>
           <p class="vb-intro" style="margin-bottom:0;">One thing matters here: acupressure only unfolds its effect with longer, regular practice. And it doesn't work when it's purely head-driven – simply going through the points mechanically won't accomplish much. Only when the practice is also done intuitively, with heart and gut engaged, when a person consciously attends to themselves and to their own body as a direct expression of being human, do noticeable improvements set in over the long run. As within, so without – this old principle applies especially to acupressure.</p>
         </div>
 
