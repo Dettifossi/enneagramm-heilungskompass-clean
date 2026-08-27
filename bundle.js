@@ -47471,7 +47471,7 @@ function honoreDeBalzacKrankheitsportraetPage() {
         genau derselben Logik verarbeitet, mit der er auch finanzielle Rückschläge behandelte: als
         weiteres Hindernis, das man zäh durcharbeitet statt ihm nachzugeben. Wer das eigene
         Erschöpfungsmuster nicht kennt, kann es auch nicht rechtzeitig unterbrechen – bei Balzac
-        endete das erst mit dem Tod, fünf Monate nach der Hochzeit, für die er siebzehn Jahre
+        endete das erst mit dem Tod, fünf Monate nach der Hochzeit, auf die er siebzehn Jahre
         gewartet hatte.</p>
       </div>
 
