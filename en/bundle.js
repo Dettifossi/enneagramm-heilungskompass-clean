@@ -244,6 +244,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexual Type 6", krankheit:"Colon cancer, fatal cardiac arrest", teaser:"SX6w7 – cult leader and mastermind of the 1969 Tate-LaBianca murders, 1934–2017. Hospitalized and diagnosed with colon cancer in early 2017, showed no public remorse or transformation to the end. Died on 19 November 2017 in a prison hospital at age 83." , land:"USA", gender:"m", jahre:"1934–2017"},
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Self-Preservation Type 3", krankheit:"End-stage kidney failure", teaser:"SE3w4 – architect of the largest Ponzi scheme in history, 1938–2021. Progressive kidney disease in prison, repeatedly denied requests for early release despite a prognosis of under 18 months to live. Died on 14 April 2021 at the Federal Correctional Complex in Butner at age 82." , land:"USA", gender:"m", jahre:"1938–2021"},
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
+  { route:"krankheitsportraets-oprah-winfrey", name:"Oprah Winfrey", subtyp:"SE2w3", heading:"Oprah Winfrey – Self-Preservation Type 2", krankheit:"Childhood sexual abuse, teenage pregnancy at age 14", teaser:"SE2w3 – American TV host, entrepreneur, philanthropist, b. 1954. Sexually abused by family members and acquaintances over several years starting at around age nine, pregnant at 14, lost her son a few weeks after birth. First disclosed the story publicly in 1986 and testified before the US Senate in 1991 for the National Child Protection Act named after her." , land:"USA", gender:"f", jahre:"b. 1954"},
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SO8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Social Type 1", krankheit:"Severe benzodiazepine dependency, induced coma in 2019/2020", teaser:"SO1w9 – psychologist and author, b. 1962. Severe benzodiazepine dependency, unsuccessful treatment attempts in North America, medically induced coma in Russia at the end of 2019 for withdrawal treatment." , land:"Canada", gender:"m", jahre:"b. 1962"},
   { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexual Type 9", krankheit:"Chronic heart disease, died of heart failure aboard the Queen Elizabeth 2", teaser:"SX9w8 – painter and architect, 1928–2000. Years-long, largely undisclosed heart condition, no conventional medical treatment, died on 19 February 2000 aboard the ocean liner Queen Elizabeth 2 on the Pacific." , land:"Austria", gender:"m", jahre:"1928–2000"},
@@ -27469,7 +27470,7 @@ function oprahWinfreyPortraitPage() {
 
         <h2 class="vb-section">5. From Trauma to Voice: Her Own Story as a Tool</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Oprah Winfrey has never hidden her own childhood, poverty, sexual abuse, a teenage pregnancy, the early death of her son, and instead made it public again and again. For an SP2, that is no weakness but strategy: her own vulnerable story becomes proof that healing is possible, and a bridge to millions of people who recognize themselves in her.</p>
+          <p class="vb-intro">Oprah Winfrey has never hidden her own childhood, poverty, sexual abuse, a teenage pregnancy, the early death of her son, and instead made it public again and again. For an SP2, that is no weakness but strategy: her own vulnerable story becomes proof that healing is possible, and a bridge to millions of people who recognize themselves in her. How she processed this story in concrete terms, and turned it into legislation to protect other children, is explored in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-oprah-winfrey">illness portrait on Oprah Winfrey</a>.</p>
           <p class="vb-intro">This openness made her far more than a talk-show host, an authority who spoke about books, therapy, spirituality, and self-empowerment long before these topics reached the mainstream. The hippopotamus that had to fight for its own survival knows the value of a safe shore, and built one for others.</p>
         </blockquote>
 
@@ -27486,6 +27487,7 @@ function oprahWinfreyPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"krankheitsportraets-oprah-winfrey", label:"Illness Portrait: Oprah Winfrey (SP2w3) – From Trauma to Voice"},
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SE2w1)"},
         {route:"beruehmte-armin-rohde", label:"Portrait: Armin Rohde (SP2w3)"},
@@ -53927,6 +53929,186 @@ function fridaKahloKrankheitsportraetPage() {
         {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Illness Portrait: Nusrat Fateh Ali Khan (SP2w3) – the same refusal to step back"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"krankheitsportraets-ai-weiwei", label:"Illness Portrait: Ai Weiwei (SP2w3) – the same pattern of visible suffering"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se2", label:"Subtype Profile SP2"},
+      ])}
+    </div>
+  `);
+}
+
+function oprahWinfreyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-oprah-winfrey-portrait.jpg" alt="Oprah Winfrey" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oprah Winfrey</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing · b. 1954</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Oprah Winfrey</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-oprah-winfrey">portrait under Famous
+        Personalities</a> in this Compass – that page covers her rise from poverty in
+        Mississippi to her own media empire. This page delves into a chapter only glossed over
+        there: the childhood in which Oprah Winfrey was sexually abused by several family
+        members and acquaintances over several years, starting at around age nine, became
+        pregnant at 14, and lost her son a few weeks after birth – and how, decades later, she
+        turned that story into a central, publicly shared part of her media work. This page
+        deliberately omits details of the acts themselves and focuses on disclosure, processing,
+        and impact.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Oprah Winfrey</strong> is classified as the <strong>Self-Preservation Type 2
+        with Three-wing</strong>. Naranjo called this subtype <em>Me First</em>: one's own
+        survival must be secured first before care for others becomes possible at all. The
+        Three-wing gives this care an unmistakably public format – for Oprah Winfrey, the
+        decision not to hide her own most vulnerable story, but to turn it, in front of a
+        mass audience, into a tool for other people's healing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A childhood split between several households:</strong>
+        Oprah Winfrey spent her earliest years in poverty with her grandmother in rural
+        Mississippi before moving between her mother's household in Milwaukee and her father's
+        in Nashville – an unstable environment without consistent protection.</p>
+        <p class="vb-intro"><strong>b) Abuse beginning at around age nine:</strong>
+        As Oprah Winfrey has stated publicly, she was first sexually abused by a relative at
+        around age nine – the start of a years-long period during which several family members
+        and family acquaintances abused her.</p>
+        <p class="vb-intro"><strong>c) A secret she carried alone for years:</strong>
+        She told no one about these experiences for years – a silence she later described as
+        one of the heaviest burdens of her youth, compounded by the sense that she could trust
+        no one in her own predicament.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Continued abuse into her teenage years:</strong>
+        By her own account, the abuse continued until she was fourteen, carried out by several
+        perpetrators from her close family and acquaintance circle – not a single incident, but
+        a pattern repeated over years.</p>
+        <p class="vb-intro"><strong>b) Pregnant at 14:</strong>
+        At 14, Oprah Winfrey became pregnant. Out of shame, she concealed the pregnancy for as
+        long as possible, until it became visible through physical signs.</p>
+        <p class="vb-intro"><strong>c) The death of her son weeks after birth:</strong>
+        Her son was born prematurely and died a few weeks later in the hospital – a loss she
+        did not speak about at length in public until decades afterward.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The public disclosure on November 10, 1986:</strong>
+        During an episode of her own talk show on the subject of sexual abuse, featuring both
+        survivors and offenders, Oprah Winfrey disclosed live in front of millions of viewers
+        that she herself had been abused as a child – a rare public break of silence at the
+        time by someone so well known.</p>
+        <p class="vb-intro"><strong>b) A relative sells the story to a tabloid in 1990:</strong>
+        In 1990, a family member approached the tabloid press and sold details about Winfrey's
+        teenage pregnancy – a renewed, this time unwanted disclosure that forced her to keep
+        publicly owning her story rather than denying it.</p>
+        <p class="vb-intro"><strong>c) Advocacy for the National Child Protection Act:</strong>
+        In 1991, Oprah Winfrey testified before the US Senate Judiciary Committee, drawing on
+        her own story to advocate for a national database of convicted child abusers. The
+        resulting law was signed in 1993 and became known informally as the "Oprah Bill."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A talk show that made trauma a recurring subject:</strong>
+        Over the decades, <em>The Oprah Winfrey Show</em> returned repeatedly to child abuse
+        and its consequences – not a one-time confession, but a lasting part of her journalistic
+        and therapeutic work in front of the camera.</p>
+        <p class="vb-intro"><strong>b) Books and reflection as a second stage:</strong>
+        In interviews, her magazine, and books such as <em>What I Know For Sure</em>, she
+        repeatedly returned to childhood, vulnerability, and healing – her own story remained a
+        recurring thread of her public work for decades.</p>
+        <p class="vb-intro"><strong>c) The Oprah Winfrey Leadership Academy for Girls:</strong>
+        In 2007, she founded the Oprah Winfrey Leadership Academy for Girls in South Africa, a
+        school for girls from disadvantaged backgrounds – a project that translates her own
+        experience of poverty and vulnerability directly into concrete care for other girls.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Care that begins with one's own story:</strong>
+        For a Self-Preservation Two, whose care starts with her own foundation, her own
+        childhood story became the starting point itself: only by acknowledging and publicly
+        disclosing her own vulnerability could she turn it into a tool for others.</p>
+        <p class="vb-intro"><strong>b) The Three-wing as the drive to turn personal suffering into a public format:</strong>
+        Instead of keeping the story private, Oprah Winfrey made it a recurring part of her
+        show, her books, and her political advocacy – typical of the Three-wing, which turns
+        even the heaviest chapter into a visible, effective statement meant to reach as many
+        people as possible.</p>
+        <p class="vb-intro"><strong>c) From personal wound to structural change:</strong>
+        That she carried her personal story all the way to the US Senate and translated it into
+        concrete legislation to protect other children shows the typical SP2w3 movement: from
+        one's own hardship to tangible, institutional care for others.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A wound in exactly the place where her later strength was built:</strong>
+        The early experience of abuse, powerlessness, and silence concerned precisely the area
+        – her own, most vulnerable story – that Oprah Winfrey later made the foundation of her
+        public impact. What she had to hide as a child became, decades later, the source of her
+        greatest influence.</p>
+        <p class="vb-intro"><strong>b) Years of silence first, then a deliberate, repeated disclosure:</strong>
+        Roughly two decades passed between experiencing the abuse and the first public
+        disclosure in 1986 – a pattern typical of the Self-Preservation Two: secure one's own
+        stability and professional foundation first, before carrying the most vulnerable story
+        outward.</p>
+        <p class="vb-intro"><strong>c) Why did her own childhood story of all things become a recurring public subject?</strong>
+        For a Self-Preservation Two with Three-wing, whose care starts with her own foundation
+        and who also seeks measurable impact, one interpretation suggests itself in the repeated
+        public disclosure of her own abuse history: her own deepest vulnerability is no longer
+        hidden but is used – in the Three-wing's typical public format – to have the greatest
+        possible effect for others. This interpretation is developed further in this Compass's
+        psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean that the Self-Preservation Two with Three-wing pattern inevitably
+        leads to experiences of abuse or explains them – <strong>any person can become a victim
+        of abuse regardless of subtype, and no subtype bears any responsibility for it.</strong>
+        What Oprah Winfrey's case illustrates is a pattern in how a pronounced Self-Preservation
+        Two with Three-wing later handles an injury already suffered – one of many possible
+        interpretations, not a judgment. The corresponding illness pattern is gradually being
+        developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        For much of her life, Oprah Winfrey did not consciously know her own Enneagram pattern,
+        like most people. Without that knowledge, she nonetheless lived out exactly the
+        Self-Preservation Two with Three-wing pattern: first silently enduring her own hardship,
+        then, once her own foundation was secure, turning her most vulnerable personal story
+        into the largest, most publicly effective format possible. That she did not recognize
+        this pattern as a character trait but simply lived it explains why a single 1986
+        confession grew, over decades, into a continuous life theme that shaped her talk show,
+        her books, and her political advocacy alike.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Two with Three-wing is visible in <strong>Oprah Winfrey's</strong>
+        handling of her own childhood story: years of silence first, to secure her own
+        foundation, then a deliberate, repeated public disclosure that became a tool of healing
+        for millions. The hippopotamus that once had to fight for its own survival ultimately
+        defended its territory not only for itself, but opened it – as a safe shore for
+        everyone who recognized themselves in its story.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
@@ -95197,6 +95379,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
+      "krankheitsportraets-oprah-winfrey": oprahWinfreyKrankheitsportraetPage,
       "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
       "krankheitsportraets-michael-schumacher": michaelSchumacherKrankheitsportraetPage,
       "krankheitsportraets-klaus-kinski": klausKinskiKrankheitsportraetPage,
