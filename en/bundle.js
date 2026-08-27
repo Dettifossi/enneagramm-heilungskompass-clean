@@ -12711,11 +12711,272 @@ function type1ContentModulesEN(subtypeCode) {
   ];
 }
 
+function type2OverviewModuleEN() {
+  const m = MODULE_EN["Typ 2 · Grundkarte"];
+  return {
+    title: m.title,
+    intro: m.intro,
+    entries: Object.entries(m.entries).map(([label, text]) => ({ label, text })),
+  };
+}
+
+function type2ContentModulesEN(subtypeCode) {
+  const subtypeModules = {
+    SE2: [
+      {
+        title: "SE2 · Page 1 · Subtype Profile",
+        intro:
+          "The SE2 seeks security through care, provision, and personal closeness. The devotion is warm and protective, but can tip into neediness, withdrawal, or silent expectation.",
+        entries: [
+          { label: "Core Theme", text: "Love and care in the self-preservation field. The SE2 wants to be needed and, at the same time, to be secure, cared for, and safe herself." },
+          { label: "Organism Question", text: "How can I contribute to us all being well provided for and safe through care, support, and practical help?" },
+          { label: "Gaze Quality", text: "Warm, soft, and inviting, yet checking: who is safe for me? The gaze seeks resonance and gratitude, but only opens after observation." },
+          { label: "Micro-Tension", text: "Light worry in forehead and eyes, a soft mouth, little pressure in the jaw. The posture is protective, reserved, and yet turned toward the other." },
+          { label: "Breathing Rhythm", text: "Rather shallow in the chest area. Breath catches under uncertainty and regulates through giving, withdrawal, and physical closeness." },
+          { label: "Movement Initiation", text: "Does not immediately approach others, but waits or checks first. Acts from the need to be needed and connected." },
+          { label: "Contact Style", text: "Cordial, warm, and inviting. Gives in order to create relationship and safety, seeks gratitude and mutual commitment." },
+          { label: "Tension Distribution", text: "Head and forehead: light worry. Neck and shoulders: protection. Chest area: warmth and giving. Belly: need for safety." },
+          { label: "Animal Correspondence", text: "Hippopotamus: protects its territory, its family, and its resources. It appears cozy, yet is strong, loyal, and nourishing." },
+          { label: "Resource Field", text: "Opening the heart, compassion, creating security, practical support, faithfulness, loyalty, warmth, and joy of life." },
+        ],
+      },
+      {
+        title: "SE2 · Page 2 · 2-Point Integration",
+        intro:
+          "The central practice of the SE2 connects the heart space with the upper belly and inner space. This links care with self-contact.",
+        entries: [
+          { label: "Point 1", text: "Heart space / center of chest: need for closeness, connection, and resonance." },
+          { label: "Point 2", text: "Upper belly / inner space: need for self-contact, calm, and one's own boundary." },
+          { label: "Practice", text: "Place one hand on the heart space, the other on the upper belly. First sense point 1, then point 2, then perceive both fields at once." },
+          { label: "Life Theme", text: "You seek closeness, support, and emotional safety. You want to be needed and often place others' needs above your own." },
+          { label: "Unconscious Strategy", text: "You try to secure bonding through care and availability. Your own wishes are held back so closeness is preserved." },
+          { label: "Integration", text: "You learn to take yourself more seriously and to honor your own boundaries. Connection arises through self-care, honesty, and inner balance." },
+          { label: "Core Sentence", text: "When you take your own needs seriously, closeness arises without expectation." },
+        ],
+      },
+      {
+        title: "SE2 · Page 3 · Bodywork & Acupressure",
+        intro:
+          "The SE2 moves from self-abandonment to self-care. Bodywork helps bring care, bonding, and one's own boundary back together.",
+        entries: [
+          { label: "Problem", text: "You take care of others in order to receive closeness and attention. In doing so, you easily overlook your own needs." },
+          { label: "Turning Point", text: "You recognize that constant caretaking can make your own needs invisible. You begin to take yourself seriously." },
+          { label: "Integration", text: "You care for others without losing yourself. Your energy becomes nourishing and stable." },
+          { label: "Physical Integration", text: "Connection / Heart. The six access points are face, hand, foot, belly, fingers, and ear." },
+          { label: "Sitting Completely Still", text: "Sit upright and comfortably for two minutes. The body may show what matters without anyone needing to be helped right away." },
+          { label: "Mental & Emotional Attitude", text: "In Type 2, a false abundance shows mentally: I have enough love to give. Emotionally, pride arises when one's own worth is defined through being needed." },
+          { label: "Wing", text: "Type 2 with a 1-wing emphasizes duty, reliability, and doing good. Type 2 with a 3-wing emphasizes sociability, activity, and drive." },
+          { label: "Media Fields", text: "This page contains the prepared structure for Type 2 songs, subtype songs, biblical songs, affirmations, wings, and deep-dives." },
+        ],
+      },
+      {
+        title: "SE2 · Page 4 · Remedy Compass",
+        intro:
+          "The Remedy Compass of the SE2 translates neediness, bonding, and emotional dependency into a healing symbolic field.",
+        entries: [
+          { label: "Homeopathic Single Remedy", text: "Hyoscyamus niger here stands for emotional dependency, possessiveness, and fear of rejection. The path leads to selfless love and healthy boundaries." },
+          { label: "Theme", text: "The need to be needed and loved is carried by a strong inner wish for closeness and recognition." },
+          { label: "Effect on Life Force and Passion", text: "Symbolically supports the transformation of excessive neediness into emotional independence, healthy boundaries, and free, loving devotion." },
+          { label: "Goal", text: "Regulation and strengthening of the Two's life force: balancing the excessive, exaggerated heart energy." },
+          { label: "Mineral Impulse", text: "Sodium chloratum symbolically supports the regulation of closeness and withdrawal, as well as emotional balance and inner equilibrium." },
+          { label: "Bach Flower", text: "Chicory fosters unconditional love, healthy boundaries, and emotional independence. The flower of motherliness." },
+          { label: "Gemstone", text: "Rose quartz stands for self-love, compassion, soft heart-bonding, and loving self-acceptance." },
+          { label: "Tea", text: "Rose petal tea symbolically works heart-opening, harmonizing, and gathering for body, mind, and soul." },
+          { label: "Passion", text: "Pride in Type 2 is an inner self-elevation from being needed, combined with difficulty acknowledging one's own neediness and dependency." },
+          { label: "Inner Motivation", text: "The inner striving for closeness, recognition, and being needed is connected to the wish to experience love, bonding, and meaning through care." },
+        ],
+      },
+      {
+        title: "SE2 · Page 5 · Integration",
+        intro:
+          "The integration page of the SE2 leads from self-abandonment and neediness to self-care, abundance, and free care for others.",
+        entries: [
+          { label: "Integration Potential", text: "Self-care and abundance. True care begins with you, because only from a full heart can you truly give." },
+          { label: "Archetypal Essence", text: "The essence of the SE2 is care. She lives for closeness and security, in mature form from inner abundance rather than duty." },
+          { label: "Embodied Quality", text: "Warm radiance, natural helpfulness, a well-sensed body, calming presence, loyal connectedness, and protective instinct." },
+          { label: "Nervous System Regulation", text: "Anchoring safety in the body, sensing boundaries, releasing over-responsibility, caring for oneself, and communicating needs clearly." },
+          { label: "Relationship Level", text: "Loving reliability, genuine closeness, supportive presence, real listening, clear healthy boundaries, and appreciative communication." },
+          { label: "New Capacities", text: "Nourishing herself, setting healthy boundaries, expressing needs, trust in processes, humor, and fair decisions." },
+          { label: "Integration Sentence", text: "I am a source of care that nourishes myself first." },
+          { label: "Space of Awareness", text: "Integration means wanting to please less and giving more from genuine abundance. The wish to help becomes conscious and free." },
+          { label: "Radiance", text: "Warm authority, clear presence, nourishing warmth, grounded gentleness, an ordering effect without pressure, and human dignity." },
+        ],
+      },
+    ],
+    SO2: [
+      {
+        title: "SO2 · Page 1 · Subtype Profile",
+        intro:
+          "The SO2 seeks belonging through usefulness in the social field. The devotion is inviting, connecting, and influential, but can tip into silently expecting recognition or into over-engagement.",
+        entries: [
+          { label: "Core Theme", text: "Love and recognition in the social field. The SO2 wants to connect people, hold groups together, and thereby be significant and indispensable." },
+          { label: "Organism Question", text: "How can I connect and support people without deriving my worth from being needed?" },
+          { label: "Gaze Quality", text: "Warm, soft, and inviting, yet checking: what does the other need? The gaze seeks resonance and gratitude and opens as soon as contact arises." },
+          { label: "Micro-Tension", text: "Light alertness in forehead and eyes, a soft, friendly mouth, jaw mostly relaxed. The posture is open and turned forward toward the counterpart." },
+          { label: "Breathing Rhythm", text: "Rather deep in the chest area, breathes along when closeness arises. Breath catches under uncertainty and regulates through giving and connection." },
+          { label: "Movement Initiation", text: "Actively approaches others and offers help before it is asked for. Moves with consideration and heart, oriented toward others' needs." },
+          { label: "Contact Style", text: "Cordial, warm, and connecting. Seeks closeness, resonance, and gratitude, helps gladly and reliably, can pull back once love is reciprocated." },
+          { label: "Tension Distribution", text: "Head and forehead: alert attention for others. Chest area: active heart energy and giving. Shoulders and neck: responsibility for the social field." },
+          { label: "Animal Correspondence", text: "Golden Retriever: friendly, connecting, wants to please everyone and belongs to every group. He shows loyalty and heart-warmth, but also reminds us that belonging needs no merit." },
+          { label: "Resource Field", text: "Opening the heart, compassion, security, practical support, and joy of life — directed at the whole social environment." },
+        ],
+      },
+      {
+        title: "SO2 · Page 2 · 2-Point Integration",
+        intro:
+          "The central practice of the SO2 connects the heart space with the upper belly and inner space. This links commitment to community with self-contact.",
+        entries: [
+          { label: "Point 1", text: "Heart space / center of chest: need for closeness, connection, and resonance." },
+          { label: "Point 2", text: "Upper belly / inner space: need for self-contact, calm, and one's own boundary." },
+          { label: "Practice", text: "Place one hand on the heart space, the other on the upper belly. First sense point 1, then point 2, then perceive both fields at once, while inwardly letting \"taking up space\" and \"bringing yourself along\" resonate." },
+          { label: "Life Theme", text: "You seek belonging, recognition, and connection in communities. You want to be there for others and easily draw your own worth from that, while losing contact with your own needs." },
+          { label: "Unconscious Strategy", text: "You secure social worth through closeness and care, and adapt strongly to others' expectations. You stabilize yourself through approval, help, and belonging, even when this creates dependency." },
+          { label: "Integration", text: "You recognize that recognition and being needed do not determine your inner worth. You take yourself more seriously and set clear boundaries, so relationships arise from authenticity rather than adaptation." },
+          { label: "Core Sentence", text: "When you don't have to be needed, your love becomes free, generous, and loving." },
+        ],
+      },
+      {
+        title: "SO2 · Page 3 · Bodywork & Acupressure",
+        intro:
+          "The SO2 moves from social indispensability to free belonging. Bodywork helps bring commitment and one's own boundary back together.",
+        entries: [
+          { label: "Problem", text: "You secure your social worth through closeness, care, and commitment to the community. In doing so, you adapt strongly to expectations and hold back your own needs." },
+          { label: "Turning Point", text: "You recognize that status and recognition in the social field cannot secure your inner worth. You begin to take yourself more seriously and set clear boundaries." },
+          { label: "Integration", text: "You support others without defining yourself through recognition or being needed. Relationships arise from authenticity rather than adaptation and the helper role." },
+          { label: "Physical Integration", text: "Connection / Heart. The six access points are face, hand, foot, belly, fingers, and ear." },
+          { label: "Sitting Completely Still", text: "Sit upright and comfortably for two minutes, without being responsible for anyone else in the room. The body may show what matters without anyone needing to be helped or networked right away." },
+          { label: "Mental & Emotional Attitude", text: "In the SO2, a false abundance shows mentally: I have enough love to give. Emotionally, pride arises when one's own worth is defined through social significance and indispensability." },
+          { label: "Wing", text: "SO2 with a 1-wing emphasizes duty, reliability, and moral engagement for the community. SO2 with a 3-wing emphasizes visibility, networking, and purposeful social impact." },
+          { label: "Media Fields", text: "This page contains the prepared structure for Type 2 songs, subtype songs, biblical songs, affirmations, wings, and deep-dives." },
+        ],
+      },
+      {
+        title: "SO2 · Page 4 · Remedy Compass",
+        intro:
+          "The Remedy Compass of the SO2 translates social pride, adaptation, and fear of insignificance into a healing symbolic field.",
+        entries: [
+          { label: "Homeopathic Single Remedy", text: "Hyoscyamus niger here stands for the desperate struggle for attention, jealousy, and the fear of being overlooked in the social field. The path leads to a love that stands on solid inner ground instead of constantly fighting for confirmation." },
+          { label: "Theme", text: "The need to be significant, influential, and indispensable in the social space is carried by the fear of losing one's place in the community without engagement." },
+          { label: "Effect on Life Force and Passion", text: "Symbolically supports the transformation of clinging courtship for social recognition into a love that gives from inner security instead of securing belonging through achievement." },
+          { label: "Goal", text: "Regulation and strengthening of the Two's life force: balancing the excessive, outward-directed heart energy." },
+          { label: "Mineral Impulse", text: "Sodium chloratum symbolically supports the regulation of closeness and withdrawal in the social field, as well as emotional balance and inner equilibrium." },
+          { label: "Bach Flower", text: "Chicory fosters unconditional love, healthy boundaries, and emotional independence from the community's gratitude." },
+          { label: "Gemstone", text: "Rose quartz stands for self-love, compassion, and the permission to also receive without first having to make oneself useful." },
+          { label: "Tea", text: "Rose petal tea symbolically works heart-opening, harmonizing, and gathering for body, mind, and soul." },
+          { label: "Passion", text: "Pride shows in the SO2 as the need to be significant and indispensable in the social field — she gives, engages, and connects, and expects recognition in return that confirms her social worth." },
+          { label: "Inner Motivation", text: "The inner striving for belonging, recognition, and significance is connected to the wish to experience love and connection through networking and engagement." },
+        ],
+      },
+      {
+        title: "SO2 · Page 5 · Integration",
+        intro:
+          "The integration page of the SO2 leads from social indispensability to self-respect, abundance, and free connectedness.",
+        entries: [
+          { label: "Integration Potential", text: "Heart & connectedness. True belonging begins with you, because only from a full heart can you truly connect." },
+          { label: "Archetypal Essence", text: "The essence of the SO2 is love. She lives for belonging and community, in mature form from inner abundance rather than the compulsion to be needed." },
+          { label: "Embodied Quality", text: "Warm radiance, empathic sensitivity, attentive devotion, loyal connectedness, and natural cordiality." },
+          { label: "Nervous System Regulation", text: "Anchoring safety through relationship, sensing and honoring boundaries, balancing giving and receiving, releasing over-responsibility, and communicating needs clearly." },
+          { label: "Relationship Level", text: "Connection through clear boundaries, self-respect, and genuine reciprocity instead of usefulness and adaptation." },
+          { label: "New Capacities", text: "Not defining her worth through approval, being allowed to belong without constantly making herself useful, expressing needs, and allowing genuine reciprocity." },
+          { label: "Integration Sentence", text: "I give from love — and receive with an open heart." },
+          { label: "Space of Awareness", text: "Integration means no longer having to prove social significance and giving more from genuine abundance. The wish to connect becomes conscious and free." },
+          { label: "Radiance", text: "Warm authority, connecting presence, nourishing warmth, grounded devotion, and human dignity without courting recognition." },
+        ],
+      },
+    ],
+    SX2: [
+      {
+        title: "SX2 · Page 1 · Subtype Profile",
+        intro:
+          "The SX2 seeks deep, exclusive closeness to a single person. The devotion is intense, magnetic, and self-giving, but can tip into clinging, jealousy, or merging.",
+        entries: [
+          { label: "Core Theme", text: "Love and devotion in intense one-on-one contact. The SX2 wants to be unique and irreplaceable for a specific person." },
+          { label: "Organism Question", text: "How can I allow deep closeness and love without having to secure it through giving, luring, or caretaking?" },
+          { label: "Gaze Quality", text: "Warm, intense, and inviting, yet checking: who is truly important to me? The gaze seeks depth, resonance, and exclusivity, and only opens fully once trust arises." },
+          { label: "Micro-Tension", text: "A concentrated forehead, intense, searching eyes, a soft and sensual mouth. The posture is open, drawn toward and present with the one important person." },
+          { label: "Breathing Rhythm", text: "Rather deep in the chest and belly area, breathes along when connection arises. Breath catches under distance or rejection and regulates through closeness, touch, and depth." },
+          { label: "Movement Initiation", text: "Actively approaches people she likes and seeks physical closeness and contact. Moves with attraction and presence, oriented toward intense bonds." },
+          { label: "Contact Style", text: "Cordial, personal, and captivating. Seeks depth, resonance, and devotion, can cling or become jealous, and withdraws when feeling rejected." },
+          { label: "Tension Distribution", text: "Between the wish to be needed and unique, and the fear of not being the most important person or of being left. Main tension in the chest and belly space." },
+          { label: "Animal Correspondence", text: "Camel: carries much, endures long, and bonds faithfully to its herd leader. It shows endurance and devotion, but also reminds us not to carry the burden of bonding alone." },
+          { label: "Resource Field", text: "Opening the heart, compassion, loyalty, sense for closeness and emotional depth — directed at the one special connection." },
+        ],
+      },
+      {
+        title: "SX2 · Page 2 · 2-Point Integration",
+        intro:
+          "The central practice of the SX2 connects the heart space with the upper belly and inner space. This links devotion with self-contact.",
+        entries: [
+          { label: "Point 1", text: "Heart space / center of chest: need for closeness, connection, and resonance." },
+          { label: "Point 2", text: "Upper belly / inner space: need for self-contact, calm, and one's own boundary." },
+          { label: "Practice", text: "Place one hand on the heart space, the other on the upper belly. First sense point 1, then point 2, then perceive both fields at once, while inwardly letting \"not merging\" and \"staying with yourself\" resonate." },
+          { label: "Life Theme", text: "You seek intense closeness and a special emotional connection. You give much love and attention and expect deep resonance in return, while easily losing your inner independence in merging and devotion." },
+          { label: "Unconscious Strategy", text: "You want to gain emotional significance through special closeness and bind yourself strongly to individual people, easily losing your independence in the process. You stabilize yourself through attention, intensity, and allure, even when this creates dependency." },
+          { label: "Integration", text: "You recognize that intense bonding and allure cannot replace genuine self-love. You show yourself authentically and vulnerably without having to prove yourself, so closeness arises through truthfulness rather than merging." },
+          { label: "Core Sentence", text: "When you don't have to conquer love, genuine connectedness can truly reach you." },
+        ],
+      },
+      {
+        title: "SX2 · Page 3 · Bodywork & Acupressure",
+        intro:
+          "The SX2 moves from merging to free devotion. Bodywork helps bring intensity and one's own boundary back together.",
+        entries: [
+          { label: "Problem", text: "You want to gain emotional significance through special closeness and bind yourself strongly to individual people. In doing so, you easily lose your independence and your own needs." },
+          { label: "Turning Point", text: "You recognize that intense bonding and allure cannot replace genuine self-love. You begin to be authentic and vulnerable without having to prove yourself." },
+          { label: "Integration", text: "You meet others openly and warmly without defining yourself through bonding or allure. Warmth and lively closeness arise from truthfulness and self-love." },
+          { label: "Physical Integration", text: "Connection / Heart. The six access points are face, hand, foot, belly, fingers, and ear." },
+          { label: "Sitting Completely Still", text: "Sit upright and comfortably for two minutes, without being oriented toward the one important person. The body may show what matters without closeness needing to be established right away." },
+          { label: "Mental & Emotional Attitude", text: "In the SX2, a false abundance shows mentally: I have enough love to give. Emotionally, pride arises when one's own worth is defined through irreplaceability in the one bond." },
+          { label: "Wing", text: "SX2 with a 1-wing emphasizes responsibility, reliability, and moral standards in the bond. SX2 with a 3-wing emphasizes charisma, attraction, and active courting of closeness." },
+          { label: "Media Fields", text: "This page contains the prepared structure for Type 2 songs, subtype songs, biblical songs, affirmations, wings, and deep-dives." },
+        ],
+      },
+      {
+        title: "SX2 · Page 4 · Remedy Compass",
+        intro:
+          "The Remedy Compass of the SX2 translates jealousy, possessiveness, and fear of abandonment into a healing symbolic field.",
+        entries: [
+          { label: "Homeopathic Single Remedy", text: "Hyoscyamus niger here stands for jealousy, the need to be seen, and the fear of being abandoned or overlooked. The path leads to a love that stands on solid inner ground instead of constantly fighting for confirmation." },
+          { label: "Theme", text: "The intense wish to be unique and irreplaceable for a specific person is carried by the fear of being replaced or not experienced as the most important." },
+          { label: "Effect on Life Force and Passion", text: "Symbolically supports the transformation of clinging devotion into a love that gives from inner security instead of having to secure connectedness through complete surrender." },
+          { label: "Goal", text: "Regulation and strengthening of the Two's life force: balancing the excessive heart energy fixated on the one bond." },
+          { label: "Mineral Impulse", text: "Sodium chloratum symbolically supports the regulation of closeness and withdrawal in the intense bond, as well as emotional balance and inner equilibrium." },
+          { label: "Bach Flower", text: "Chicory fosters unconditional love, healthy boundaries, and emotional independence from the mirror of the one relationship." },
+          { label: "Gemstone", text: "Rose quartz stands for self-love, compassion, and the permission to also receive without first having to make oneself indispensable." },
+          { label: "Tea", text: "Rose petal tea symbolically works heart-opening, harmonizing, and gathering for body, mind, and soul." },
+          { label: "Passion", text: "Pride shows in the SX2 as the intense wish to be unique and irreplaceable for a specific person — she gives herself fully and expects in return to be experienced as the most important." },
+          { label: "Inner Motivation", text: "The inner striving for depth, exclusivity, and emotional significance is connected to the wish to experience love and merging through complete devotion." },
+        ],
+      },
+      {
+        title: "SX2 · Page 5 · Integration",
+        intro:
+          "The integration page of the SX2 leads from merging and neediness to inner freedom, depth, and genuine devotion.",
+        entries: [
+          { label: "Integration Potential", text: "Depth & devotion. True connectedness begins with you, because only from inner freedom can you truly give yourself." },
+          { label: "Archetypal Essence", text: "The essence of the SX2 is devotion. She lives for intense closeness and merging, in mature form from inner abundance rather than the compulsion to be irreplaceable." },
+          { label: "Embodied Quality", text: "Magnetic radiance, intense presence, deep emotional intelligence, passionate love, and protective devotion." },
+          { label: "Nervous System Regulation", text: "Regulating tension in the body, releasing jealousy and possessiveness, balancing closeness and freedom, and strengthening inner boundaries." },
+          { label: "Relationship Level", text: "Allowing closeness without losing herself, and finding connection through inner freedom, self-respect, and genuine reciprocity." },
+          { label: "New Capacities", text: "Not having to be indispensable to be loved, sensing her own feelings and boundaries, and communicating needs clearly." },
+          { label: "Integration Sentence", text: "I give myself completely and receive genuine connection." },
+          { label: "Space of Awareness", text: "Integration means no longer having to prove irreplaceability and giving more from genuine abundance. The wish for depth becomes conscious and free." },
+          { label: "Radiance", text: "Magnetic presence, warm intensity, grounded passion, and human depth without clinging." },
+        ],
+      },
+    ],
+  };
+
+  return [type2OverviewModuleEN(), ...(subtypeModules[subtypeCode] || [])];
+}
+
 function contentModuleSection(modules, code) {
   const labels = text.knowledgeCard;
   const codeLower = (code || "").toLowerCase();
   const useModules = ["se1", "so1", "sx1"].includes(codeLower)
     ? type1ContentModulesEN(code)
+    : ["se2", "so2", "sx2"].includes(codeLower)
+    ? type2ContentModulesEN(code)
     : ["se3", "so3", "sx3"].includes(codeLower)
     ? type3ContentModulesEN(code)
     : modules.map((module) => {
