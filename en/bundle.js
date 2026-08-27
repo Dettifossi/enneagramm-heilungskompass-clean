@@ -244,6 +244,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-charles-manson", name:"Charles Manson", subtyp:"SX6w7", heading:"Charles Manson – Sexual Type 6", krankheit:"Colon cancer, fatal cardiac arrest", teaser:"SX6w7 – cult leader and mastermind of the 1969 Tate-LaBianca murders, 1934–2017. Hospitalized and diagnosed with colon cancer in early 2017, showed no public remorse or transformation to the end. Died on 19 November 2017 in a prison hospital at age 83." , land:"USA", gender:"m", jahre:"1934–2017"},
   { route:"krankheitsportraets-bernie-madoff", name:"Bernie Madoff", subtyp:"SE3w4", heading:"Bernie Madoff – Self-Preservation Type 3", krankheit:"End-stage kidney failure", teaser:"SE3w4 – architect of the largest Ponzi scheme in history, 1938–2021. Progressive kidney disease in prison, repeatedly denied requests for early release despite a prognosis of under 18 months to live. Died on 14 April 2021 at the Federal Correctional Complex in Butner at age 82." , land:"USA", gender:"m", jahre:"1938–2021"},
   { route:"krankheitsportraets-frida-kahlo", name:"Frida Kahlo", subtyp:"SE2w3", heading:"Frida Kahlo – Self-Preservation Type 2", krankheit:"Chronic accident injuries with about 30 surgeries, leg amputation", teaser:"SE2w3 – Mexican painter, 1907–1954. Polio at age six, at 18 a catastrophic bus accident with spinal and pelvic fractures, roughly 30 surgeries over nearly three decades, amputation of her right lower leg in 1953. Died in 1954 at age 47." , land:"Mexico", gender:"f", jahre:"1907–1954"},
+  { route:"krankheitsportraets-mr-t", name:"Mr. T", subtyp:"SE2w3", heading:"Mr. T – Self-Preservation Type 2", krankheit:"T-cell lymphoma (cancer) with radiation and chemotherapy, 1995", teaser:"SP2w3 – American actor and wrestler, born 1952. Diagnosed with a rare T-cell lymphoma in September 1995, treated with radiation and chemotherapy, withdrew from public life for several years. Cancer survivor and advocate for sick children ever since." , land:"USA", gender:"m", jahre:"born 1952"},
   { route:"krankheitsportraets-oprah-winfrey", name:"Oprah Winfrey", subtyp:"SE2w3", heading:"Oprah Winfrey – Self-Preservation Type 2", krankheit:"Childhood sexual abuse, teenage pregnancy at age 14", teaser:"SE2w3 – American TV host, entrepreneur, philanthropist, b. 1954. Sexually abused by family members and acquaintances over several years starting at around age nine, pregnant at 14, lost her son a few weeks after birth. First disclosed the story publicly in 1986 and testified before the US Senate in 1991 for the National Child Protection Act named after her." , land:"USA", gender:"f", jahre:"b. 1954"},
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SO8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Social Type 1", krankheit:"Severe benzodiazepine dependency, induced coma in 2019/2020", teaser:"SO1w9 – psychologist and author, b. 1962. Severe benzodiazepine dependency, unsuccessful treatment attempts in North America, medically induced coma in Russia at the end of 2019 for withdrawal treatment." , land:"Canada", gender:"m", jahre:"b. 1962"},
@@ -20895,6 +20896,7 @@ function klausKinskiPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+        {route:"krankheitsportraets-klaus-kinski", label:"Illness Portrait: Klaus Kinski (SX1w9)"},
       ])}
     </div>
   `);
@@ -24200,6 +24202,7 @@ function michaelSchumacherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SX6w7)"},
       ])}
     </div>
   `);
@@ -25220,6 +25223,7 @@ function nataschaKampuschPortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-marie-antoinette", label:"Portrait: Marie Antoinette (SP2w3)"},
+          {route:"krankheitsportraets-natascha-kampusch", label:"Illness Portrait: Natascha Kampusch (SP2w1)"},
           {route:"kriminalpsychologie-ulrike-meinhof", label:"Criminal Psychology: Ulrike Meinhof (SP2w1)"},
         ])}
       </div>
@@ -26389,6 +26393,7 @@ function dollyPartonPortraitPage() {
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
         {route:"beruehmte-marlene-zuk", label:"Portrait: Marlene Zuk (SX3w4)"},
+        {route:"krankheitsportraets-dolly-parton", label:"Illness Portrait: Dolly Parton (SX3w4)"},
       ])}
     </div>
   `);
@@ -27153,7 +27158,7 @@ function mrTPortraitPage() {
 
         <h2 class="vb-section">4. Illness as a Test: Faith Instead of Retreat</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 1995, at the height of his fame, Mr. T was diagnosed with a rare T-cell lymphoma. Rather than withdrawing, he described his faith as what carried him through, speaking openly about his trust in God being "tested like Job's." Since then, he regularly visits children with cancer in hospitals to give them courage &ndash; the same protective function his career once began with, now turned toward the most vulnerable.</p>
+          <p class="vb-intro">In 1995, at the height of his fame, Mr. T was diagnosed with a rare T-cell lymphoma. Rather than withdrawing, he described his faith as what carried him through, speaking openly about his trust in God being "tested like Job's." Since then, he regularly visits children with cancer in hospitals to give them courage &ndash; the same protective function his career once began with, now turned toward the most vulnerable. The diagnosis, treatment, and its meaning for his life pattern are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-mr-t">Illness Portrait on Mr. T</a>.</p>
           <p class="vb-intro">This pattern remained visible in his social engagement as well: together with Nancy Reagan, he supported her "Just Say No" anti-drug campaign &ndash; care directed straight at children and teenagers, with the same unmistakable presence he had once used to protect celebrities.</p>
         </blockquote>
 
@@ -27174,6 +27179,7 @@ function mrTPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
+        {route:"krankheitsportraets-mr-t", label:"Illness Portrait: Mr. T (SP2w3) – T-cell lymphoma 1995"},
       ])}
     </div>
   `);
@@ -29832,6 +29838,7 @@ function romySchneiderPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"krankheitsportraets-romy-schneider", label:"Illness Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
       ])}
     </div>
@@ -38955,6 +38962,7 @@ function muhammadAliPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali (SO2w1)"},
         {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
       ])}
     </div>
@@ -54596,6 +54604,195 @@ function fridaKahloKrankheitsportraetPage() {
         {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Illness Portrait: Nusrat Fateh Ali Khan (SP2w3) – the same refusal to step back"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"krankheitsportraets-ai-weiwei", label:"Illness Portrait: Ai Weiwei (SP2w3) – the same pattern of visible suffering"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se2", label:"Subtype Profile SP2"},
+      ])}
+    </div>
+  `);
+}
+
+function mrTKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mr-t-portrait.jpg" alt="Mr. T – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mr. T</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing · born 1952</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Mr. T</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-mr-t">portrait under Famous Personalities</a>
+        in this Compass – that page covers his path from bodyguard to film star and wrestling
+        icon. This page focuses on a chapter only briefly touched on there: in September 1995,
+        at the height of his fame, Mr. T was diagnosed with a rare T-cell lymphoma, a cancer of
+        the blood. He underwent radiation and chemotherapy, withdrew noticeably from public life
+        for several years, and later became an advocate for cancer awareness and matters of
+        faith in dealing with serious illness.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Mr. T</strong> is classified as the <strong>Self-Preservation Type 2 with
+        Three-wing</strong>. Naranjo called the Self-Preservation Two <em>Me First</em>: caregiving
+        begins with one's own physical base and closest circle before extending outward. The
+        Three-wing gives that caregiving an unmistakable, public image – for Mr. T, first as a
+        paid bodyguard, later as a mountain of muscle with a mohawk and gold chains, whose
+        physical presence itself became a brand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A small wound on the ear:</strong>
+        In September 1995, Mr. T noticed a small, non-healing wound on his ear while removing a
+        diamond earring – on exactly the spot that, through his signature earrings and chains,
+        was already part of his unmistakable public image.</p>
+        <p class="vb-intro"><strong>b) Two weeks before seeing a doctor:</strong>
+        Only two weeks later did he see a doctor, was referred to a dermatologist, and after a
+        biopsy received the diagnosis of a rare T-cell lymphoma – a cancer of the blood.</p>
+        <p class="vb-intro"><strong>c) A name that fit the illness:</strong>
+        Mr. T later commented on the diagnosis with dry wit – "cancer with my name on it,
+        personalized cancer" – an early public reaction that didn't abandon his caregiving role,
+        but immediately met it with humor.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Radiation and chemotherapy:</strong>
+        To treat the T-cell lymphoma, Mr. T underwent radiation and chemotherapy, accompanied by
+        CT scans and a bone marrow biopsy to monitor the illness's progress.</p>
+        <p class="vb-intro"><strong>b) Withdrawal from public life:</strong>
+        After the diagnosis, Mr. T withdrew noticeably from public life for several years – a
+        break from the previously constant, high-visibility presence with which he had carried
+        films, television series, and wrestling appearances.</p>
+        <p class="vb-intro"><strong>c) Faith as a sustaining force:</strong>
+        Mr. T later spoke publicly about his trust in God being tested "like Job's" through the
+        illness – a religious interpretation that helped him get through treatment without fully
+        giving up his own strength.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Decades in remission:</strong>
+        Mr. T remained in remission for many years after treatment and has publicly described
+        himself as a cancer survivor ever since his recovery – a status he does not hide, but
+        actively builds into his later public role.</p>
+        <p class="vb-intro"><strong>b) Hospital visits to sick children:</strong>
+        Since his own illness, Mr. T has regularly visited children with cancer in hospitals to
+        give them courage – the same protective function his career as a bodyguard once began
+        with, now turned toward the most vulnerable.</p>
+        <p class="vb-intro"><strong>c) From entertainer to spiritual speaker:</strong>
+        After the illness, his public appearances increasingly shifted toward talks with a
+        faith-driven, motivational content, in which he openly shares his beliefs and his
+        illness story rather than relying solely on earlier film roles.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A second public image alongside the first:</strong>
+        Alongside the mountain of muscle with a mohawk from <em>Rocky III</em> and <em>The
+        A-Team</em>, the illness created a second, quieter public image: the devout cancer
+        survivor who gives other patients courage.</p>
+        <p class="vb-intro"><strong>b) A reduced but not ended career:</strong>
+        Mr. T remained occasionally present in film, television, and reality formats after his
+        withdrawal, though at a noticeably slower pace than in the years before 1995 – the
+        illness changed the tempo of his career without ending it.</p>
+        <p class="vb-intro"><strong>c) A brand enriched by an added layer of meaning:</strong>
+        The mohawk and gold chains remained his signature, but the illness added a second layer
+        to them – no longer only a symbol of physical strength, but also a symbol of surviving a
+        life-threatening illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Caregiving that had to reorient itself:</strong>
+        For a Self-Preservation Two whose core is caring for one's own close circle, his own
+        vulnerability meant a shift: instead of protecting other bodies as he once did as a
+        bodyguard, Mr. T had to learn to recognize his own body as needing protection.</p>
+        <p class="vb-intro"><strong>b) The Three-wing as the drive to turn illness into a visible testimony:</strong>
+        Rather than keeping the illness private, Mr. T made it a public matter – typical of the
+        Three-wing, which turns even a difficult chapter into a visible, recognizable statement
+        meant to reach others.</p>
+        <p class="vb-intro"><strong>c) Withdrawal as a temporary, not permanent, response:</strong>
+        The several-year withdrawal from public life was not a final goodbye but a period of
+        recovery, after which the underlying orientation toward caregiving – now with a new
+        focus on sick children and matters of faith – moved back into the foreground.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b4832e 10%, var(--paper));border:1.5px solid #b4832e;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#7a5510;">Parallel: The Body as a Stage for Suffering – Frida Kahlo (SP2w3)</h3>
+        <p class="vb-intro">Among the SP2w3 illness portraits in this Compass,
+        <a href="javascript:void(0)" data-route="krankheitsportraets-frida-kahlo">Frida Kahlo</a>
+        offers a parallel that truly holds up: both made their own illness-marked body a
+        publicly visible part of their art or public persona, rather than hiding it. For Kahlo,
+        the injured body became the central motif of her paintings; for Mr. T, the body
+        previously staged as a pure source of strength – mohawk, muscles, chains – was publicly
+        acknowledged as vulnerable after the diagnosis, without ever ceasing to be shown. In both
+        cases, the body remained at the center of public self-presentation; only its meaning
+        shifted – from a pure symbol of strength to a symbol of survival.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Throughline</h3>
+        <p class="vb-intro"><strong>a) An illness at exactly the site of his own trademark:</strong>
+        The first visible lesion appeared, of all places, on his ear – the very body part that,
+        through conspicuous jewelry, was already part of Mr. T's unmistakable public image. The
+        body with which he had once protected others and staged himself as an invulnerable icon
+        became the source of his own threat.</p>
+        <p class="vb-intro"><strong>b) Withdrawal to rebuild his own base:</strong>
+        Rather than negotiating the illness publicly while it was still acute, Mr. T withdrew
+        first – a pattern typical of the Self-Preservation Two: secure one's own physical and
+        family base first, before turning outward again.</p>
+        <p class="vb-intro"><strong>b) Why, of all things, an illness that called his own body into question as a shield?</strong>
+        For a Self-Preservation Two with a Three-wing, whose entire public identity rests on
+        physical strength and an unmistakable outward image, a cancer that attacked exactly that
+        body can be read as an intensification of his own life pattern: the very instance that
+        once protected others and presented itself as untouchable had to learn to stop hiding
+        its own vulnerability and instead – in the public, Three-wing-typical format – make it
+        visible. This interpretation is explored further in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>c) Placing this without determinism:</strong>
+        This does not mean the pattern of the Self-Preservation Two with a Three-wing inevitably
+        leads to cancer – <strong>anyone can get any illness, regardless of subtype.</strong> A
+        T-cell lymphoma has its own complex medical causes that have nothing to do with a
+        person's character profile. What Mr. T's case illustrates is a pattern in how a
+        pronounced Self-Preservation Two with a Three-wing tends to handle their own illness –
+        one of many possible interpretations, not a judgment. The corresponding illness will be
+        developed further, over time, in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Like most people, Mr. T did not consciously know his own Enneagram pattern. Without that
+        knowledge, he spent years living out a physical self-presentation that left no room for
+        visible weakness – from bodyguard to film star to wrestler, his body was consistently
+        both proof and shield at once. Only his own cancer diagnosis forced him to interrupt that
+        role and, for the first time, publicly allow his own vulnerability. Someone who
+        recognizes their own pattern can consciously counteract it; someone who doesn't repeats
+        it until the body sets the boundary the person never set themselves.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Two with a Three-wing is confirmed once more in <strong>Mr. T's</strong>
+        response to his own cancer diagnosis: withdrawal first, to secure his own base, then a
+        deliberately public second chapter as a devout cancer survivor and advocate for sick
+        children. The hippopotamus that once protected other bodies and staged its own as
+        invulnerable had to redefine its strength – not as the absence of vulnerability, but as
+        the ability to survive it and let others share in that survival.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3) – life's work"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Illness Portrait: Frida Kahlo (SP2w3) – the body as visible testimony"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
@@ -96056,6 +96253,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-charles-manson": charlesMansonKrankheitsportraetPage,
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
+      "krankheitsportraets-mr-t": mrTKrankheitsportraetPage,
       "krankheitsportraets-oprah-winfrey": oprahWinfreyKrankheitsportraetPage,
       "krankheitsportraets-warren-buffett": warrenBuffettKrankheitsportraetPage,
       "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,

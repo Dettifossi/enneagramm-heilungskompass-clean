@@ -46951,6 +46951,7 @@ function romySchneiderPortraitPage() {
         {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
         {route:"astrologie-romy-schneider", label:"Horoskop-Analyse: Romy Schneider"},
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
+        {route:"krankheitsportraets-romy-schneider", label:"Krankheitsportr\u00e4t: Romy Schneider (SO4w3)"},
       ])}
     </div>
   `);
@@ -48776,6 +48777,7 @@ function michaelSchumacherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
+        {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SX6w7)"},
       ])}
     </div>
   `);
@@ -53297,6 +53299,7 @@ function nataschaKampuschPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-marie-antoinette", label:"Portr\xe4t: Marie Antoinette (SE2w3)"},
           {route:"kriminalpsychologie-ulrike-meinhof", label:"Portr\xe4t: Ulrike Meinhof (SE2w1)"},
+          {route:"krankheitsportraets-natascha-kampusch", label:"Krankheitsporträt: Natascha Kampusch (SE2w1)"},
         ])}
       </div>
     </div>
@@ -63295,6 +63298,7 @@ function dollyPartonPortraitPage() {
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
         {route:"beruehmte-marlene-zuk", label:"Portrait: Marlene Zuk (SX3w4)"},
+        {route:"krankheitsportraets-dolly-parton", label:"Krankheitsporträt: Dolly Parton (SX3w4)"},
       ])}
     </div>
   `);
@@ -65680,6 +65684,7 @@ function klausKinskiPortraitPage() {
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portr\u00e4t: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
+        {route:"krankheitsportraets-klaus-kinski", label:"Krankheitsporträt: Klaus Kinski (SX1w9)"},
       ])}
     </div>
   `);
@@ -66553,6 +66558,7 @@ function muhammadAliPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
         {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali (SO2w1)"},
       ])}
     </div>
   `);

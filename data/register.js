@@ -1491,6 +1491,7 @@ export const registerEntriesEN = [
   { term: "Mariacarla Boscono", route: "beruehmte-mariacarla-boscono", description: "Portrait: SE2w3 · Self-Preservation Type 2 · Model, muse of Riccardo Tisci" },
   { term: "Oprah Winfrey", route: "beruehmte-oprah-winfrey", description: "Portrait: SE2w3 · Self-Preservation Type 2 · TV host, entrepreneur, philanthropist" },
   { term: "Oprah Winfrey Illness Portrait", route: "krankheitsportraets-oprah-winfrey", description: "Portrait: SE2w3 · Self-Preservation Type 2 · Childhood sexual abuse, teenage pregnancy" },
+  { term: "Mr. T Illness Portrait", route: "krankheitsportraets-mr-t", description: "Portrait: SP2w3 · Self-Preservation Type 2 · T-cell lymphoma, radiation and chemotherapy 1995" },
   { term: "Pamela Reif", route: "beruehmte-pamela-reif", description: "Portrait: SX2w3 · Sexual Type 2 · Fitness influencer, success through connection" },
   { term: "Paul McCartney", route: "beruehmte-paul-mccartney", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Musician, songwriter, ex-Beatle" },
   { term: "Leo Tolstoy", route: "beruehmte-leo-tolstoi", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Writer, War and Peace" },
