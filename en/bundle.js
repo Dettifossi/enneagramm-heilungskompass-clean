@@ -226,6 +226,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexual Type 1", krankheit:"Blindness from failed cataract surgeries, death after stroke and fever", teaser:"SX1w9 – composer, 1685–1750. Years-long progressive vision loss, two failed eye operations in March 1750 by the dubious oculist John Taylor led to complete blindness. Died four months later after a stroke – the same surgeon blinded Handel shortly after." , land:"Germany", gender:"m", jahre:"1685–1750"},
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Self-Preservation Type 1", krankheit:"Severe facial injuries from a car accident (1917), later persecution and imprisonment, death after two heart attacks and pneumonia (1967)", teaser:"SE1w9 – German Chancellor 1949–1963, 1876–1967. His face was shattered in a severe car accident in 1917; he turned the scars into an expression of controlled authority. Two decades later, persecution and imprisonment under the National Socialists, remarkably vital well into old age." , land:"Germany", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexual Type 6", krankheit:"Pulmonary Tuberculosis", teaser:"SX6w5 – poet, playwright, and historian, 1759–1805. Fragile constitution since childhood, recurring life-threatening fever and coughing fits from 1791 onward, fourteen years of uncompromising work against his own decline. Died in 1805 at 45 of acute pneumonia – the autopsy found a completely destroyed lung." , land:"Germany", gender:"m", jahre:"1759–1805"},
+  { route:"krankheitsportraets-otto-von-bismarck", name:"Otto von Bismarck", subtyp:"SX6w5", heading:"Otto von Bismarck – Sexual Type 6", krankheit:"Obesity, exhaustion, and untreated gangrene", teaser:"SX6w5 – First Chancellor of the German Empire, 1815–1898. Exhaustion crisis and severe obesity in the early 1880s, radical treatment from 1883 by Dr. Ernst Schweninger with about 20 kg lost, contemporaneously documented morphine use. Refused treatment for gangrene of the foot in old age, died on July 30, 1898 at 83 from gangrene and pneumonia." , land:"Germany", gender:"m", jahre:"1815–1898"},
   { route:"krankheitsportraets-ludwig-van-beethoven", name:"Ludwig van Beethoven", subtyp:"SX6w5", heading:"Ludwig van Beethoven – Sexual Type 6", krankheit:"Progressive Deafness and Liver Cirrhosis", teaser:"SX6w5 – composer, 1770–1827. Progressing hearing loss from around 1798, alongside chronic abdominal ailments and suspected lead poisoning. Jaundice from 1821, four painful abdominal punctures against fluid buildup from December 1826. Died in 1827 from liver cirrhosis – the autopsy found a severely scarred liver and damaged kidneys." , land:"Germany", gender:"m", jahre:"1770–1827"},
   { route:"krankheitsportraets-michael-jackson", name:"Michael Jackson", subtyp:"SO4w3", heading:"Michael Jackson – Social Type 4", krankheit:"Decades-long dependence on pain and sleep medication, concealed vitiligo", teaser:"SO4w3 – singer, dancer, and composer, 1958–2009. Opioid treatment after a severe scalp burn in 1984, followed from the 1990s by increasingly severe, treatment-resistant insomnia. Latterly received propofol as an at-home sleep aid – a use far outside any medical norm. Died in 2009 of acute cardiac arrest from a propofol overdose, weeks before his planned comeback tour." , land:"USA", gender:"m", jahre:"1958–2009"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
@@ -31942,6 +31943,7 @@ function ottoVonBismarckPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Sexual Six an analytical depth and a tendency to withdraw into its own inner world, adding a second, quieter side to its combative nature. The SX6w5 does not act impulsively &ndash; it observes, weighs options, thinks through constellations far in advance, and, when the tension grows too great, withdraws into brooding isolation rather than discharging it outward.</p>
           <p class="vb-intro">In Bismarck this wing showed itself in two ways: on the one hand, in an extraordinary strategic gift that anticipated European power constellations years in advance and patiently worked toward the right moment &ndash; never the result of blind impulsiveness, but of years of forethought. On the other hand, in a pronounced hypochondria and a tendency to withdraw to his estates for days at a time under stress &ndash; first to Varzin in Farther Pomerania, later to Friedrichsruh in the Sachsenwald. There he spent entire stretches lying in bed, complaining of nervous ailments, insomnia, digestive troubles &ndash; physical symptoms closely interwoven with his chronic mistrust and his tendency to brood. The Wolf that retreats to its den when the hunt has cost too much strength, but from there keeps watch over the whole territory all the same.</p>
+          <p class="vb-intro">The health consequences of this pattern &ndash; the exhaustion crisis of the early 1880s and the refused treatment of a gangrene in his final years &ndash; are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-otto-von-bismarck">Illness Portrait of Bismarck</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Life's Work: Blood and Iron, Founding an Empire, the Welfare State</h2>
@@ -31972,6 +31974,7 @@ function ottoVonBismarckPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5)"},
+        {route:"krankheitsportraets-otto-von-bismarck", label:"Illness Portrait: Otto von Bismarck (SX6w5)"},
       ])}
     </div>
   `);
@@ -50230,7 +50233,203 @@ function friedrichSchillerKrankheitsportraetPage() {
         {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5) – life's work"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Portrait: Johann Wolfgang von Goethe (SO7w6) – close friend and correspondent"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – counter-model: concealment rather than confrontation"},
+        {route:"krankheitsportraets-otto-von-bismarck", label:"Illness Portrait: Otto von Bismarck (SX6w5) – same subtype, opposite expression"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx6", label:"Subtype Profile SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function ottoVonBismarckKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto von Bismarck</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with Five-wing · 1815–1898</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Animal correspondence: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Otto von Bismarck</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-otto-von-bismarck">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work, the wolf as animal motif, and his
+        type structure in general. This page focuses on a chapter only touched on there: the
+        exhaustion crisis and severe obesity of the early 1880s, the radical treatment by
+        Dr. Ernst Schweninger, and the refused treatment of a gangrene of the foot that led to
+        his final weeks in 1898.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bismarck</strong> is classified as the <strong>Sexual Six with Five-wing</strong>.
+        Naranjo described SX6 as the Six's counter-type: rather than withdrawing from threat, it
+        meets it with demonstrated strength – even when the threat is one's own aging body. The
+        Five-wing adds a tendency toward hypochondria and withdrawal into an inner world, visible
+        in Bismarck in a strict separation between what he showed publicly and what he actually
+        went through physically.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A body that accumulated decades of constant political tension:</strong>
+        By the late 1870s Bismarck's weight had risen to around 123 kilograms – the sum of
+        decades of coping strategies against chronic stress: rich food, heavy smoking, and
+        substantial alcohol consumption, all while he kept the founding of the Empire, the
+        Kulturkampf, and the Anti-Socialist Laws under control.</p>
+        <p class="vb-intro"><strong>b) Only about two working hours a day:</strong>
+        In the early 1880s Bismarck himself estimated he could truly work only around two hours a
+        day – a dramatic decline for a man who had juggled Europe's power constellations in his
+        head for three decades, one he did not admit publicly for a long time.</p>
+        <p class="vb-intro"><strong>c) A contemporaneously documented recourse to strong measures:</strong>
+        A diary entry by an acquaintance from 1872 notes that the Chancellor was taking morphine
+        – an early sign that Bismarck was already reaching for strong remedies against insomnia,
+        nervous complaints, and pain years before the open exhaustion crisis, rather than
+        addressing the underlying overload.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The path to Dr. Schweninger through his own son:</strong>
+        Bismarck came into contact with the young Bavarian physician Ernst Schweninger through
+        his son Wilhelm, who himself suffered from obesity-related heart and gout problems – in
+        1882 Wilhelm brought Schweninger to the Varzin estate in Hinterpomerania, and in early
+        summer 1883 Schweninger took over the Chancellor's treatment.</p>
+        <p class="vb-intro"><strong>b) A simple but radically consistent regimen:</strong>
+        Schweninger's recipe was simple: exercise in fresh air, plain, reduced nutrition,
+        significantly less alcohol, and regular sleep – against the declared resistance of the
+        established court physicians, who had favored more conventional cures.</p>
+        <p class="vb-intro"><strong>c) Roughly 20 kilograms lost within a few years:</strong>
+        From around 123 kilograms in 1879, Bismarck's weight dropped to about 100 kilograms by
+        1884 – a spectacular success for the time that earned Schweninger, at Bismarck's own
+        urging, an appointment as head of the Berlin dermatology clinic and extraordinary
+        professor in 1884.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Trust granted to only a very few people in his life:</strong>
+        That Bismarck – a man whose political style rested on deep, chronic mistrust – handed
+        himself over almost unconditionally to a young outsider physician initially mocked in
+        court circles is remarkable for the SX6w5: trust is rarely given, but when it is given,
+        it is given without reservation.</p>
+        <p class="vb-intro"><strong>b) Markedly increased activity after the cure:</strong>
+        After the successful treatment Bismarck became noticeably more active and resilient – the
+        radical change worked where decades of self-overexertion had brought his body to the
+        brink of incapacity.</p>
+        <p class="vb-intro"><strong>c) A pattern that repeated after 1890:</strong>
+        After his forced dismissal in 1890, Bismarck withdrew permanently to Friedrichsruh – again
+        with complaints of nervous ailments, insomnia, and digestive troubles, again in the
+        withdrawal posture typical of the Five-wing once the political stage had been taken from
+        him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A second, final decline from mid-1897 onward:</strong>
+        Bismarck's physicians diagnosed a so-called senile gangrene in mid-1897 – a chronic
+        circulatory disorder causing painful tissue death in his foot, which by the summer of
+        1898 increasingly dominated the overall clinical picture.</p>
+        <p class="vb-intro"><strong>b) Wheelchair, fever, and growing breathlessness:</strong>
+        From summer 1898 his condition deteriorated rapidly: Bismarck was increasingly confined
+        to a wheelchair, suffered from fever and an added pneumonia with severe breathlessness – a
+        physical decline that made any recovery impossible within a few weeks.</p>
+        <p class="vb-intro"><strong>c) A death shortly after midnight:</strong>
+        Otto von Bismarck died on July 30, 1898, shortly after midnight in his bedroom at
+        Friedrichsruh, at the age of 83 – from the effects of gangrene, pneumonia, and severe
+        digestive disturbance.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The wolf who opened himself to a single confidant:</strong>
+        That it was Schweninger, of all people – a young outsider without court backing – who
+        became the one physician Bismarck truly followed shows the SX6w5 in its rare, healthy
+        form: relinquishing control once trust genuinely seems earned.</p>
+        <p class="vb-intro"><strong>b) The same hardness once turned on political opponents, now turned on his own body:</strong>
+        The uncompromising hardness Bismarck once directed against opponents of the Kulturkampf
+        and against Social Democrats turned, in his final years, against his own warning signs as
+        well – pain and loss of function were suppressed for as long as possible rather than
+        taken seriously.</p>
+        <p class="vb-intro"><strong>c) Withdrawal instead of public weakness:</strong>
+        As in earlier phases of exhaustion, Bismarck largely withdrew from public view during his
+        final illness as well, rather than letting weakness become visible – the Five-wing, which
+        preferred to hide vulnerability behind closed doors in Friedrichsruh rather than in front
+        of an audience.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A parallel within the same subtype – Friedrich Schiller (SX6w5):</strong>
+        As with <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-schiller">Friedrich
+        Schiller</a>, also SX6w5, Bismarck shows the pattern typical of this subtype: meeting
+        threat – including one's own mortality – not with withdrawal but with confrontation. The
+        expression, however, runs in opposite directions: Schiller confronted his illness by
+        working through it to the point of physical exhaustion; Bismarck confronted his own
+        gangrene by refusing its treatment – two variants of the same SX6 core stance of never
+        yielding to one's own vulnerability, only expressed in opposite outward form: activity in
+        Schiller's case, refusal in Bismarck's.</p>
+        <p class="vb-intro"><strong>b) Two separate crises, one recurring pattern:</strong>
+        Between the exhaustion crisis of the early 1880s and the fatal gangrene of the late
+        1890s lie a decade and a half – yet both times Bismarck's body reacted to years of
+        accumulated political strain, and both times the beginning was a condition he himself
+        had long played down before anyone reacted at all.</p>
+        <p class="vb-intro"><strong>c) Why the treatment by Schweninger succeeded while the gangrene treatment failed:</strong>
+        The decisive difference can be traced to trust: in 1883 Bismarck surrendered himself
+        almost unconditionally into the hands of a single physician he personally trusted. In
+        his final years, more isolated and more distrustful than ever of the official medical
+        establishment at the court of his successor Wilhelm II, that very trust relationship that
+        had made the difference in 1883 appears to have been missing.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, the foot – the organ of one's own standing?</strong>
+        For a Sexual Six whose entire political craft rested on asserting his own position, if
+        necessary through threat and hardness, one reading suggests itself: precisely the organ
+        that figuratively represents one's own unshakeable stand became, in his final years, the
+        site of a decline that Bismarck – unlike every political threat before it – could not
+        avert through control or counterattack. The refusal to be treated reads as a final
+        attempt to at least retain interpretive authority over his own, unstoppably declining
+        body – preserving control over his own vulnerability by denying it rather than having it
+        treated. This reading is a plausible interpretation, not a documented historical causal
+        link.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the Sexual Six's pattern inevitably leads to circulatory disorders or
+        gangrene – <strong>every person can develop any illness, regardless of subtype.</strong>
+        What Bismarck's case can show is a pattern that stands out again and again in practice
+        wherever the need exists never to admit weakness – including one's own physical
+        weakness – one possible explanation among many, not a verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Bismarck did not know his own Enneagram pattern – the concept did not yet exist in this
+        form during his lifetime. The Sexual Six's counter-reaction of meeting every threat with
+        hardness rather than withdrawal carried, for him, no built-in warning mechanism that
+        could have moved him to seek treatment in time; on the contrary, his own dying tissue was
+        apparently processed through the same logic as every other threat in his life before it:
+        as something one does not yield to, but faces down, if necessary simply by ignoring it.
+        Someone who does not know their own pattern of never admitting weakness cannot break it
+        in time either – for Bismarck, that ended only with his death, on July 30, 1898.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The course of his illness reflects, once more, <strong>Bismarck's</strong> Sexual Six
+        with Five-wing: an exhaustion crisis of the early 1880s that he overcame only through
+        almost unconditional trust placed in a single physician, and a gangrene of the late 1890s
+        whose treatment he refused until, on July 30, 1898, no further resistance was possible.
+        The wolf who once learned to trust a single person – and who, by the end of his life,
+        could no longer extend that trust to anyone, not even to his own vulnerability.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-otto-von-bismarck", label:"Portrait: Otto von Bismarck (SX6w5) – life's work"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Illness Portrait: Friedrich Schiller (SX6w5) – same subtype"},
         {route:"subtype/sx6", label:"Subtype Profile SX6"},
       ])}
     </div>
@@ -97272,6 +97471,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
+      "krankheitsportraets-otto-von-bismarck": ottoVonBismarckKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
