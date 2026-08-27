@@ -32265,7 +32265,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexueller Typ 3", krankheit:"Endometriose seit den frühen 1980ern, zuletzt Krebserkrankung", teaser:"SX3w4 – Sängerin, Songwriterin, 1946–2026. Anfang der 1980er-Jahre diagnostizierte Endometriose mit Teilhysterektomie 1985, jahrzehntelang wiederkehrende Gesundheitskrisen. Starb am 25. August 2026 nach kurzer Krebserkrankung. Verknüpft mit Marilyn Monroe (ebenfalls SX3w4, ebenfalls Endometriose)." , land:"USA", gender:"f", jahre:"1946–2026"},
   { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Sozialer Typ 4", krankheit:"Nierenoperation, eskalierender Alkohol- und Tablettenkonsum, ungeklärter Tod", teaser:"SO4w3 – Schauspielerin, 1938–1982. Schwere Nierenoperation, Suizid ihres ersten Mannes Harry Meyen 1979, tödlicher Unfall ihres Sohnes David 1981. Starb am 29. Mai 1982 offiziell an Herzversagen, ohne Obduktion. Verknüpft mit Michael Jackson (ebenfalls SO4w3, ebenfalls Substanzabhängigkeit hinter makelloser Fassade)." , land:"Österreich/Deutschland", gender:"f", jahre:"1938–1982"},
-  { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Selbsterhaltender Typ 2", krankheit:"Seit Kindheit bestehende Halluzinationen und Depersonalisation, freiwillig in psychiatrischer Klinik seit 1977", teaser:"SE2w3 – japanische Künstlerin, geb. 1929. Halluzinationen seit früher Kindheit, mehrere Suizidversuche in den 1970ern, seit 1977 freiwillig im Seiwa-Krankenhaus für psychisch Kranke in Tokio. Arbeitet bis heute täglich in ihrem Atelier. Verknüpft mit Frida Kahlo (ebenfalls SE2w3, ebenfalls Kunst aus lebenslangem Leiden)." , land:"Japan", gender:"f", jahre:"geb. 1929"},
+  { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Selbsterhaltender Typ 2", krankheit:"Seit Kindheit bestehende Halluzinationen und Depersonalisation, freiwillig in psychiatrischer Klinik seit 1977", teaser:"SE2w3 – japanische Künstlerin, 1929–2026. Halluzinationen seit früher Kindheit, mehrere Suizidversuche in den 1970ern, seit 1977 freiwillig im Seiwa-Krankenhaus für psychisch Kranke in Tokio. Arbeitete bis zuletzt fast täglich in ihrem Atelier. Verknüpft mit Frida Kahlo (ebenfalls SE2w3, ebenfalls Kunst aus lebenslangem Leiden)." , land:"Japan", gender:"f", jahre:"1929–2026"},
   { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexueller Typ 6", krankheit:"Schweres Schädel-Hirn-Trauma nach Skiunfall 2013, seither vollständige mediale Abschottung", teaser:"SX6w7 – Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969. Skiunfall am 29. Dezember 2013 in Méribel mit schwerem Schädel-Hirn-Trauma, mehrere Notoperationen, monatelanges künstliches Koma. Seit der Entlassung 2014 hält die Familie seinen Gesundheitszustand vollständig geheim." , land:"Deutschland", gender:"m", jahre:"geb. 1969"},
   { route:"krankheitsportraets-klaus-kinski", name:"Klaus Kinski", subtyp:"SX1w9", heading:"Klaus Kinski – Sexueller Typ 1", krankheit:"Psychiatrische Zwangseinweisung 1950 mit vorläufiger Schizophrenie-Diagnose, lebenslange Wutausbrüche", teaser:"SX1w9 – Schauspieler, 1926–1991. Zwangseinweisung am 5. September 1950 nach Suizidversuch und Gewaltausbruch, vorläufige Diagnose Schizophrenie, später auf Psychopathie revidiert. Legendäre Wutausbrüche am Set über Jahrzehnte, 2013 posthume Missbrauchsvorwürfe seiner Tochter Pola." , land:"Deutschland", gender:"m", jahre:"1926–1991"},
   { route:"krankheitsportraets-natascha-kampusch", name:"Natascha Kampusch", subtyp:"SE2w1", heading:"Natascha Kampusch – Selbsterhaltender Typ 2", krankheit:"Posttraumatische Belastungsstörung, schwerer psychischer Zusammenbruch zwanzig Jahre nach der Befreiung", teaser:"SE2w1 – Autorin und Aktivistin, geb. 1988. Posttraumatische Belastungsstörung nach achtjähriger Gefangenschaft (1998–2006), 2026 durch die Familie öffentlich gemachter schwerer psychischer Zusammenbruch. Verknüpft mit Greta Thunberg (ebenfalls SE2w1, ebenfalls Rückzug in eine eigene Welt unter extremem Druck)." , land:"Österreich", gender:"f", jahre:"geb. 1988"},
@@ -32550,7 +32550,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland", tags:["Schauspiel","Musik"], gender:"m"},
   { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Selbsterhaltender Typ 2",
-    teaser:"SE2w3 · geb. 1929 in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Seit 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
+    teaser:"SE2w3 · 1929–2026, geboren in Matsumoto, Japan. Künstlerin, Infinity Mirror Rooms, Punktmuster als lebensrettende Selbstauslöschung. Ab 1977 freiwillig in einer psychiatrischen Klinik in Tokio lebend, bis zuletzt fast täglich im Atelier arbeitend. Tierentsprechung: Flusspferd.",
     land:"Japan", tags:["Kunst"], gender:"f"},
   { route:"beruehmte-frida-kahlo", name:"Frida Kahlo", added:"2026-08-15", subtyp:"SE2w3",
     heading:"Frida Kahlo – Selbsterhaltender Typ 2",
@@ -63947,7 +63947,7 @@ function yayoiKusamaPortraitPage() {
         </div>
         <p class="krim-portrait-name">Yayoi Kusama</p>
         <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Künstlerin, geb. 1929 in Matsumoto, Japan &ndash; Tierentsprechung: Flusspferd</p>
+        <p class="krim-portrait-subtitle">Künstlerin, 1929&ndash;2026, geboren in Matsumoto, Japan &ndash; Tierentsprechung: Flusspferd</p>
       </div>
       <div class="page-content">
 
@@ -63971,20 +63971,20 @@ function yayoiKusamaPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Unendlichkeit als Einladung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kusamas berühmteste Werke, die begehbaren <em>Infinity Mirror Rooms</em>, laden Besucher ein, für wenige Minuten in genau jene Erfahrung der Auflösung einzutauchen, die Kusama selbst ihr ganzes Leben lang begleitet &ndash; gespiegelte, endlose Lichtpunkte, die die Grenze zwischen dem eigenen Körper und dem Raum verschwimmen lassen. Millionen Menschen weltweit haben diese Installationen besucht; sie zählt heute zu den meistbesuchten lebenden Künstlerinnen der Welt.</p>
+          <p class="vb-intro">Kusamas berühmteste Werke, die begehbaren <em>Infinity Mirror Rooms</em>, laden Besucher ein, für wenige Minuten in genau jene Erfahrung der Auflösung einzutauchen, die Kusama selbst ihr ganzes Leben lang begleitet &ndash; gespiegelte, endlose Lichtpunkte, die die Grenze zwischen dem eigenen Körper und dem Raum verschwimmen lassen. Millionen Menschen weltweit haben diese Installationen besucht; sie zählte zu den meistbesuchten Künstlerinnen der Welt.</p>
           <p class="vb-intro">Der Erfolg kam spät: Erst ab den 1990er Jahren, nach Jahrzehnten relativer Unsichtbarkeit in der Kunstwelt, wurde ihr Werk international neu entdeckt und gefeiert &ndash; mit Retrospektiven in den bedeutendsten Museen der Welt und Kooperationen etwa mit Louis Vuitton. Das Flusspferd, das jahrzehntelang unterschätzt wurde, bis niemand mehr an seiner Kraft zweifeln konnte.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE2w3 ist ihre Fähigkeit, aus existenzieller Not etwas zu schaffen, das nicht nur sie selbst rettet, sondern Millionen anderer Menschen berührt. Kusamas Kunst gibt ihrem eigenen inneren Chaos eine Form &ndash; und macht diese Form zu einem Geschenk, das andere Menschen in denselben Zustand des Staunens und der Auflösung einlädt, den sie selbst durchlebt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Leistung unentbehrlich, notwendig, gebraucht zu sein. 1973 kehrte Kusama nach Japan zurück, körperlich und psychisch erschöpft, nach mehreren Suizidversuchen. 1977 ließ sie sich freiwillig in eine psychiatrische Klinik in Tokio einweisen &ndash; und lebt dort noch heute, mit weit über neunzig Jahren, während sie täglich in ihr nahegelegenes Atelier geht, um zu arbeiten. Das ist die SE2w3 in ihrer radikalsten Form: eine Frau, die ihre eigene Fragilität nie verleugnet, sondern sich bewusst in einen schützenden Rahmen begeben hat &ndash; und innerhalb dieses Rahmens unermüdlich weiterschafft.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Leistung unentbehrlich, notwendig, gebraucht zu sein. 1973 kehrte Kusama nach Japan zurück, körperlich und psychisch erschöpft, nach mehreren Suizidversuchen. 1977 ließ sie sich freiwillig in eine psychiatrische Klinik in Tokio einweisen &ndash; und lebte dort bis zu ihrem Tod im August 2026 im Alter von 97 Jahren, während sie bis zuletzt fast täglich in ihr nahegelegenes Atelier ging, um zu arbeiten. Das ist die SE2w3 in ihrer radikalsten Form: eine Frau, die ihre eigene Fragilität nie verleugnet, sondern sich bewusst in einen schützenden Rahmen begeben hat &ndash; und innerhalb dieses Rahmens unermüdlich weiterschafft.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Von der Auflösung zur Verbindung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Werde ich gebraucht?</em> zur Erkenntnis <em>Ich bin bereits verbunden, auch ohne mich aufzulösen.</em> Für die SE2w3 zeigt sich dieser Weg darin, dass die einst private, überlebensnotwendige Selbstauslöschung zu einer bewusst geteilten, öffentlichen Erfahrung wird &ndash; nicht mehr Flucht vor der eigenen Zerbrechlichkeit, sondern ein Geschenk aus ihr heraus.</p>
-          <p class="vb-intro">Kusama schafft bis in die Gegenwart, im hohen Alter, täglich neue Werke &ndash; nicht mehr nur, um sich selbst vor der Auflösung zu retten, sondern weil sie gelernt hat, ihre tiefste Verletzlichkeit in eine universelle Sprache zu übersetzen, die Menschen auf der ganzen Welt verstehen. Das Flusspferd, das sein Wasser nie verlassen hat &ndash; und das gerade darin zu einer der einflussreichsten Stimmen der zeitgenössischen Kunst wurde.</p>
+          <p class="vb-intro">Kusama schuf bis fast zuletzt, im hohen Alter, täglich neue Werke &ndash; nicht mehr nur, um sich selbst vor der Auflösung zu retten, sondern weil sie gelernt hatte, ihre tiefste Verletzlichkeit in eine universelle Sprache zu übersetzen, die Menschen auf der ganzen Welt verstehen. Am 26. August 2026 starb Kusama im Alter von 97 Jahren in Tokio. Das Flusspferd, das sein Wasser nie verlassen hat &ndash; und das gerade darin zu einer der einflussreichsten Stimmen der zeitgenössischen Kunst wurde.</p>
         </blockquote>
 
       </div>
@@ -82151,7 +82151,7 @@ function yayoiKusamaKrankheitsportraetPage() {
           <img src="./assets/portraits/beruehmte-yayoi-kusama-portrait.jpg" alt="Yayoi Kusama" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Yayoi Kusama</p>
-        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel · geb. 1929</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel · 1929–2026</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Tierentsprechung: Flusspferd</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
@@ -82166,8 +82166,8 @@ function yayoiKusamaKrankheitsportraetPage() {
         Allgemeinen, mit einem kurzen Verweis auf ihr Leben in der psychiatrischen Klinik. Diese
         Seite vertieft dieses Kapitel: eine seit früher Kindheit bestehende psychische
         Erkrankung mit Halluzinationen und Depersonalisation, eine belastete Kindheit, mehrere
-        Suizidversuche und ein bis heute andauerndes Leben in einer psychiatrischen Klinik seit
-        1977.
+        Suizidversuche und ein bis zu ihrem Tod im August 2026 andauerndes Leben in einer
+        psychiatrischen Klinik seit 1977.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -82176,7 +82176,7 @@ function yayoiKusamaKrankheitsportraetPage() {
         Überleben; der Dreierflügel bringt den unbedingten Willen hinzu, aus der eigenen Not
         heraus sichtbar zu werden und etwas zu leisten. Genau diese Kombination – die eigene
         psychische Erkrankung nicht zu verstecken, sondern sie zur Grundlage eines
-        welterfolgreichen Lebenswerks zu machen – bestimmt bis heute ihren Umgang mit der
+        welterfolgreichen Lebenswerks zu machen – bestimmte bis zuletzt ihren Umgang mit der
         eigenen Krankheit.</p>
       </div>
 
@@ -82234,13 +82234,13 @@ function yayoiKusamaKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
         <p class="vb-intro"><strong>a) Fast fünfzig Jahre in freiwilliger stationärer Behandlung:</strong>
-        Kusama lebt bis heute, weit über neunzig Jahre alt, in derselben psychiatrischen
-        Klinik – eine der längsten bekannten freiwilligen psychiatrischen Aufenthaltszeiten
-        einer international bekannten Künstlerpersönlichkeit.</p>
+        Kusama lebte bis zu ihrem Tod im August 2026, im Alter von 97 Jahren, in derselben
+        psychiatrischen Klinik – eine der längsten bekannten freiwilligen psychiatrischen
+        Aufenthaltszeiten einer international bekannten Künstlerpersönlichkeit.</p>
         <p class="vb-intro"><strong>b) Tägliche Arbeit trotz und mit der Erkrankung:</strong>
-        Von der Klinik aus geht Kusama täglich zu Fuß in ihr nahegelegenes Atelier, um zu
-        arbeiten – die Krankheit hat ihr Schaffen nicht beendet, sondern ist zu dessen
-        strukturierendem Rahmen geworden.</p>
+        Von der Klinik aus ging Kusama bis zuletzt fast täglich zu Fuß in ihr nahegelegenes
+        Atelier, um zu arbeiten – die Krankheit hat ihr Schaffen nie beendet, sondern wurde zu
+        dessen strukturierendem Rahmen.</p>
         <p class="vb-intro"><strong>c) Offener Umgang statt Verschweigen:</strong>
         Anders als viele andere Porträts in diesem Kompass zeigt Kusamas Fall eine Person, die
         ihre psychische Erkrankung nicht über Jahrzehnte verbirgt, sondern öffentlich benennt und
@@ -82314,10 +82314,11 @@ function yayoiKusamaKrankheitsportraetPage() {
         Auch am Krankheitsverlauf lässt sich <strong>Kusamas</strong> selbsterhaltende Zwei mit
         Dreierflügel noch einmal ablesen: eine seit der Kindheit bestehende psychische
         Erkrankung, die sie weder verschwiegen noch sich von ihr zerstören ließ, sondern in ein
-        täglich weitergeführtes, welterfolgreiches Werk verwandelte. Das Flusspferd, das sein
-        Wasser nie verlassen hat – und gerade darin, fast fünfzig Jahre in freiwilliger
-        stationärer Behandlung, zu einer der einflussreichsten Stimmen der zeitgenössischen Kunst
-        wurde.</p>
+        bis zuletzt weitergeführtes, welterfolgreiches Werk verwandelte. Kusama starb am 26.
+        August 2026 im Alter von 97 Jahren – fast fünfzig Jahre nach ihrer freiwilligen
+        Einweisung, in derselben Klinik, aus der heraus sie bis zuletzt in ihr Atelier ging. Das
+        Flusspferd, das sein Wasser nie verlassen hat – und gerade darin zu einer der
+        einflussreichsten Stimmen der zeitgenössischen Kunst wurde.</p>
       </div>
 
       ${relatedLinks([
