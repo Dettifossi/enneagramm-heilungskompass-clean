@@ -12364,6 +12364,8 @@ function visualPageSection(pages, code) {
 const MODULE_EN = {
   "Typ 1 · Grundkarte": { title: "Type 1 · Basic Map", intro: "The general Type 1 map forms the foundation for all Ones' subtypes. At the center is the striving for order, integrity, and correctness. The organism attempts to avoid mistakes, moral failure, and loss of control.", entries: {"Thema": "Core theme: right and wrong. Type 1 seeks order, integrity, responsibility, and inner correctness.", "Organismusfrage": "How can I be right and avoid mistakes?", "Leidenschaft": "Inner tension arises from anger, resentment, or dissatisfaction, which is usually controlled, morally justified, or directed against oneself.", "Innere Motivation": "Type 1 wants to act well, with integrity, responsibly, and correctly. The world should be meaningful, ordered, and fair.", "Stirnspannung": "Horizontal tension, control activity, inner evaluation, and continuous testing.", "Blickfokus": "Precise, scrutinizing, alert, and correction-oriented. The gaze seeks deviations, inconsistencies, or something that needs improvement.", "Mundlinie": "Controlled, slightly tense, restrained emotion. Impulses are held back rather than spontaneously shown.", "Kiefer & Nacken": "Holding tension, withholding impulses, and physically palpable self-control.", "Körperorganisation": "Upright, collected, and controlled, with subtle distance. Energy channels upward; head, forehead, jaw, and neck are often more active than belly, pelvis, and spontaneous movement.", "Spaltung / innerer Konflikt": "High self-expectations, perfection, and correctness stand in opposition to humanity, error-friendliness, and living imperfection.", "Typische Haltung & Ausdruck": "Upright, structured, and serious. Gestures and facial expressions are precise, controlled, and economical. Expression can appear reserved, critical, or strict.", "Verkörperte Signatur": "I hold tension to act correctly and avoid mistakes.", "Integrationsweg": "From the inner critic to the wise guardian. More humanity instead of perfection, more presence instead of permanent correction, more dignity instead of inner strictness.", "Blickqualität": "Precise, controlled, evaluating, and alert. The gaze seeks inconsistencies, but in integration can become clarity and wisdom.", "Mikrospannung": "Tension in forehead, eyes, jaw, and neck. The body holds itself together to remain correct and composed.", "Atemrhythmus": "Rather shallow, controlled, and held back. Breath must learn to support not only discipline but also letting go.", "Bewegungsinitiierung": "Purposeful, controlled, correction-oriented, and functional. Spontaneous movement is often tested first.", "Kontaktstil": "Responsible, correct, and binding. Under stress, contact can seem critical or preachy; in integration, clear, dignified leadership emerges.", "Spannungsverteilung": "Primary tension in forehead, jaw, and neck. Secondary activity in the solar plexus and shoulders.", "Archetypisches Tier": "Eagle: Vision, integrity, clarity, and leadership. The eagle represents the journey from a critical gaze to a wise overview.", "Lebensfeld": "Life theme: order and integrity. Core statement: Do not correct. Resource: allow softening while remaining clear."} },
   "SE1 · Seite 1 · Subtyp-Profil": { title: "SP1 · Page 1 · Subtype Profile", intro: "SP1 seeks security through order, correctness, and self-control. The body displays fine concentration, reserved presence, and a strong need to act in a stable, integrity-driven manner.", entries: {"Grundthema": "Integrity and order. What is right is sacred; principles should protect, support, and provide ground.", "Organismusfrage": "How can I act correctly and preserve my integrity to stay safe and stable?", "Blickqualität": "attentive and scrutinizing; scans for safety and order; rather contained within oneself and less expansive; clear, quiet presence.", "Mikrospannung": "slight concentration lines on the forehead, focused and critical eyes, controlled mouth, slightly tense jaw, and upright, reserved posture.", "Atemrhythmus": "deep, calm, and controlled; tends to hold breath during inner tension; regulation through control.", "Bewegungsinitiierung": "deliberate and cautious; tests first and acts later; protects energy and resources; movement is purposeful and economical.", "Kontaktstil": "respectful, correct, and reliable; maintains distance until trust is built; clear boundaries and clear words; helpful once safety is established.", "Spannungsverteilung": "Head and forehead: moral tension. Neck and shoulders: burden of responsibility. Chest area: protective armor. Belly: control and self-regulation. Jaw: withheld tension.", "Ressourcenfeld": "Self-care and stability, clear values and principles, structure and order, reliable routines, boundaries and self-protection, honesty and conscience."} },
+  "SO1 · Seite 1 · Subtyp-Profil": { title: "SO1 · Page 1 · Subtype Profile", intro: "SO1 seeks integrity in the social and collective field: through exemplary conduct, responsibility for the greater whole, and a commitment to fairness and justice. The body shows alert attentiveness to the group and a strong need to provide orientation without judging.", entries: {"Grundthema": "Integrity in the social field. Taking responsibility for what is right and serving as a model of order, fairness, and justice.", "Organismusfrage": "How can I provide orientation and integrity without condemning others or myself?", "Blickqualität": "clear and alert; watches the field; scrutinizing and evaluating; seeks fairness and justice.", "Mikrospannung": "vertical concentration lines on the forehead, tense and focused eyes, controlled and slightly tense mouth, firm, reserved jaw, upright, controlled posture.", "Atemrhythmus": "rather shallow and controlled; holds the breath under inner tension; consciously regulates breathing; focus on control and posture.", "Bewegungsinitiierung": "deliberate and aligned; plans before acting; structured and orderly; moves with purpose and discipline.", "Kontaktstil": "respectful and correct; clear in communication and bearing; builds trust through reliability; oriented toward shared values.", "Spannungsverteilung": "Head and forehead: responsibility for the collective. Neck and shoulders: bearer of the group's burden. Chest area: exemplary posture. Belly: control of one's own judgment. Jaw: withheld criticism.", "Ressourcenfeld": "calm breath, clear gaze, open chest and heart space, compassionate leadership, living justice, reliable values and principles."} },
+  "SX1 · Seite 1 · Subtyp-Profil": { title: "SX1 · Page 1 · Subtype Profile", intro: "SX1 lives integrity as passion and direct intensity: through uncompromising clarity, confrontational truthfulness, and a claim to complete truth in close relationships. The body shows penetrating presence and a strong need to advocate for what is right with fire.", entries: {"Grundthema": "Integrity as passion. What is right is not administered but lived with intensity and personal commitment, especially in direct contact.", "Organismusfrage": "How can I live my passion for what is right without creating pressure, control, or harshness?", "Blickqualität": "penetrating and focused; sharply observant; exposing; searches for inconsistencies.", "Mikrospannung": "vertical, tense lines on the forehead, intense, slightly narrowed eyes, controlled, often firm mouth, tense jaw with jaw pressure, upright, controlled, stiff posture.", "Atemrhythmus": "rather shallow and controlled; breath is often held during inner judgment; unconscious tension in the chest; pressure toward perfection in the breath.", "Bewegungsinitiierung": "purposeful and controlled; does not hesitate once it is clear what needs to be done; moves directly and efficiently; avoids disorder and chaos.", "Kontaktstil": "direct, clear, demanding; high standards for self and others; seeks depth and truth; confronts when principles are violated.", "Spannungsverteilung": "Head and forehead: moral vigilance. Neck and shoulders: held readiness for confrontation. Chest area: uncompromising clarity. Belly: contained fire. Jaw: withheld sharpness.", "Ressourcenfeld": "deep, focused gaze, powerful presence, uncompromising clarity, wisely applied passion, devotion without self-abandonment."} },
   "Seite 2 · 2-Punkte-Integration": { title: "Page 2 · 2-Point Integration", intro: "The central practice of SP1 connects two body spaces: the solar plexus/upper belly as a field of order and alignment, with the lower belly/pelvic area as a field of safety, calm, and grounding. The exercise brings awareness to both poles simultaneously, without needing to correct anything.", entries: {"Punkt 1": "Solar plexus / upper belly: Need for clarity, order, and proper alignment. This point holds the inner question of what is coherent, correct, and defensible.", "Punkt 2": "Lower belly / pelvic region: Need for safety, calm, grounding, and physical trust. This point brings SP1 back from pure head and control tension into the body.", "Vorgehen": "Place one hand on the solar plexus/upper belly and the other on the lower belly/pelvic region. First feel Point 1, then feel Point 2, then perceive both energy fields simultaneously. Change nothing, correct nothing, let the breath flow calmly.", "Handposition": "The hands do not serve to correct, but rather to maintain simultaneous awareness. SP1 experiences: clarity and safety do not have to work against each other.", "Lebensthema": "You seek security through order, integrity, and right action. At the same time, pressure arises when safety is sought only through control and error avoidance.", "Unbewusste Strategie": "You try to create stability through control, correctness, and preparation. In doing so, the body can become constricted, even though it actually seeks rest and trust.", "Integration": "You learn to allow order without hardening yourself. Safety arises not only through correctness, but also through body contact, grounding, and inner trust.", "Prototypen": "The female and male SP1 prototyping shows a quiet, reserved, and controlled presence. Both stand for the search for stability, responsibility, and inner correctness.", "Kernsatz": "When you trust your inner order, peace arises, even if everything is not perfect.", "Fußzeile": "Self-Preservation One (SP1): Instinct of integrity, order, stability, and physical self-securing."} },
   "Seite 3 · Körperarbeit & Akupressur": { title: "Page 3 · Bodywork & Acupressure", intro: "This page translates the inner tension of SP1 into concrete bodywork. The path leads from self-overburdening and control into more vitality, trust, and physical relaxation.", entries: {"Problem": "You try to stay correct, stable, and prepared. In doing so, inner tension can arise because the body constantly checks whether something is wrong, insecure, or not good enough yet.", "Wendepunkt": "You realize that control and self-correction are not the same as real safety. Energy is allowed to become calmer without losing integrity.", "Integration": "You consciously use your clarity without directing it against yourself. Order becomes orientation, not pressure.", "Gesicht": "Clarity and expression. The facial point helps soften controlled facial features while remaining clearly present.", "Hand": "Power of action and balance. The hand point reminds you that right action does not have to stem from clenching.", "Fuß": "Grounding and steadfastness. The foot point brings SP1 out of evaluation into physical grounding and viable orientation.", "Bauch": "Center and relaxation. The belly point regulates control, pressure, and inner tension, strengthening a calmer center.", "Finger": "Sensing and letting go. The finger impulse supports releasing perfectionism, held-on correction, and inner constriction.", "Ohr": "Stillness and regulation. The ear point invites you to hear the inner voice more gently and not just perceive the inner critic.", "Anwendung": "Choose one or two zones. Press with thumb or index finger for 60 to 90 seconds with medium intensity. Continue breathing calmly and observe how body sensations, thoughts, and feelings shift.", "Vollkommen still sitzen": "Sit upright and comfortably for two minutes. The body may show its own intelligence; in this brief time, nothing needs to be improved.", "Mentale & emotionale Haltung": "Type 1 shows mental perfectionism and emotional resentment when inner tension becomes too strong. SP1 learns to transform self-control into self-contact.", "Flügel": "The 9 wing emphasizes peace, reserve, and harmony. The 2 wing emphasizes relationship, responsibility, and helpfulness. Both can relieve SP1 if they do not become an additional obligation.", "Medienfelder": "The page references awareness exercises, dynamic Enneagram representations, songs, wing videos, and subtype-specific media. These fields are already prepared in the app as a media section."} },
   "Seite 4 · Heilmittel-Kompass": { title: "Page 4 · Remedy Compass", intro: "The Remedy Compass translates the SP1 pattern into a healing symbolic field. At the center is the transformation from excessive self-control, inner pressure, and tense correctness toward dignity, gentleness, inner order, and living integrity.", entries: {"Homöopathisches Einzelmittel": "Platinum metallicum stands here for the regulation of transformed belly energy. It symbolizes the journey from high inner expectations, self-responsibility, and tension to dignity, humility, and genuine integrity.", "Thema": "The need to remain ethical, correct, and controlled can be carried by a strong inner standard. The healing path leads from rigid self-mastery to gentle, living order.", "Wirkung auf Lebenskraft und Leidenschaft": "The impulse supports the transformation of tense perfectionism, inner hardness, and self-aggrandizement into human presence, self-acceptance, and responsible clarity.", "Ziel": "Regulation and strengthening of Type 1 life force: The transformed belly energy should not be fought, but transformed into clear, calm, and serving integrity.", "Mineralstoff-Impuls": "Kalium sulfuricum points to balance, cleansing, and renewal. Symbolically, it supports the ability to release inner tension and hold order flexibly rather than rigidly.", "Bachblüte": "Rock Water stands for inner flexibility when ideals, discipline, and self-expectations become too harsh. The quality is: becoming gentler without giving up one's own integrity.", "Edelstein": "Amethyst carries the field of clarity, gathering, and mental soothing. It suits SP1 when the inner voice becomes too strict, evaluative, or controlling.", "Tee": "Lemon balm tea stands for gentle nervous calm, relaxation, and emotional mildness. It complements SP1 where control can be replaced by soothing and soft breath.", "Leidenschaft": "The passion of SP1 lies in the inner tension of having to do everything right. Mistakes, disorder, or moral ambiguity can be experienced physically like an alarm.", "Innere Motivation": "The motivation is the desire for integrity, safety, and reliable order. SP1 wants to act stably, correctly, and responsibly.", "Medien & Wirkweise": "The page includes complementary media fields: mode of action of homeopathy, mode of action of Enneagram homeopathy, relaxing & healing music, and songs on the essence of homeopathy.", "Zuordnungshinweis": "The mapping is symbolic and experiential. It does not replace therapeutic or medical advice, but serves conscious self-perception and integration."} },
@@ -12458,10 +12460,263 @@ function type3ContentModulesEN(subtypeCode) {
   ];
 }
 
+const PROFILE_1_EN = {
+  se1: {
+    grundthema: "Integrity and order. What is right is sacred; principles are meant to protect, support, and provide stability.",
+    organismusfrage: "How can I act correctly and preserve my integrity so I stay safe and stable?",
+    blickqualitaet: "attentive and scrutinizing; scans for safety and order; more turned inward than expansive; a clear, calm presence.",
+    mikrospannung: "faint concentration lines on the forehead, focused and critical eyes, a controlled mouth, a slightly tense jaw, and an upright, restrained posture.",
+    atemrhythmus: "deep, calm, and controlled; tends to hold the breath under inner tension; regulates through control.",
+    bewegungsinitiierung: "deliberate and cautious; checks first, then acts; conserves energy and resources; movement is purposeful and economical.",
+    kontaktstil: "respectful, correct, and reliable; keeps distance until trust is established; clear boundaries and clear words; helpful once safety is given.",
+    spannungsverteilung: "Head and forehead: moral tension. Neck and shoulders: the weight of responsibility. Chest area: a protective shell. Belly: control and self-regulation. Jaw: withheld tension.",
+    ressourcenfeld: "self-care and stability, clear values and principles, structure and order, reliable routines, boundaries and self-protection, honesty and conscience.",
+    p2Punkt1: "Solar plexus / upper belly: the need for clarity, order, and correct alignment. This point holds the inner question of what is fitting, correct, and can be justified.",
+    p2Punkt2: "Lower belly / pelvic area: the need for safety, calm, grounding, and bodily trust. This point brings the SE1 back into the body, out of pure head- and control-tension.",
+    p2Vorgehen: "Place one hand on the solar plexus / upper belly, the other on the lower belly / pelvic area. First sense point 1, then sense point 2, then perceive both energy fields at once. Change nothing, correct nothing, let the breath flow calmly.",
+    p2Handposition: "The hands are not there to correct but to hold attention on both places at once. The SE1 discovers: clarity and safety do not have to work against each other.",
+    p2Lebensthema: "You seek safety through order, integrity, and correct action. At the same time, pressure arises when safety is sought only through control and avoiding mistakes.",
+    p2UnbewussteStrategie: "You try to create stability through control, correctness, and preparation. In doing so, the body can grow tight, even though it is actually looking for rest and trust.",
+    p2Integration: "You learn to allow order without hardening. Safety arises not only through correctness, but also through bodily contact, grounding, and inner trust.",
+    p2Prototypen: "The female and male SE1 prototype shows a calm, restrained, and controlled presence. Both stand for the search for stability, responsibility, and inner correctness.",
+    p2Kernsatz: "When you trust your inner order, calm arises, even when not everything is perfect.",
+    p2Fusszeile: "Self-Preservation One (SE1): the instinct of integrity, order, stability, and bodily self-security.",
+    p3Problem: "You try to stay correct, stable, and prepared. In doing so, inner tension can arise because the body constantly checks whether something is wrong, unsafe, or not yet good enough.",
+    p3Wendepunkt: "You recognize that control and self-correction are not the same as genuine safety. The energy is allowed to become calmer without losing integrity.",
+    p3Integration: "You use your clarity consciously without turning it against yourself. Order becomes orientation rather than pressure.",
+    p3Gesicht: "Clarity and expression. This point helps the controlled facial expression soften while remaining clearly present.",
+    p3Hand: "Capacity to act and balance. The hand is a reminder that acting correctly need not come from clenching.",
+    p3Fuss: "Grounding and standing firm. This point brings the SE1 out of self-evaluation and into physical ground and stable orientation.",
+    p3Bauch: "Center and relaxation. This point regulates control, pressure, and inner tension, and strengthens a calmer center.",
+    p3Finger: "Sensing and letting go. This impulse supports releasing perfectionism, held-back correction, and inner tightness.",
+    p3Ohr: "Stillness and regulation. This point invites a gentler hearing of the inner voice, rather than only the inner critic.",
+    p3Mental: "Type 1 shows mental perfectionism and emotional resentment when inner tension grows too strong. The SE1 learns to turn self-control into self-contact.",
+    p3Fluegel: "The 9-wing brings calm, restraint, and harmony. The 2-wing emphasizes relationship, responsibility, and helpfulness. Both can relieve the SE1 as long as they do not become an additional duty.",
+    p4Thema: "The need to remain correct, controlled, and full of integrity can be carried by a strong inner demand. The healing path leads from rigid self-mastery to mild, living order.",
+    p4Wirkung: "The impulse supports the transformation of tense perfectionism, inner rigidity, and self-inflation into human presence, self-acceptance, and responsible clarity.",
+    p4Leidenschaft: "The passion of the SE1 lies in the inner tension of having to get everything right. Mistakes, disorder, or moral ambiguity can be experienced physically as alarm.",
+    p4Motivation: "The motivation is the wish for integrity, safety, and reliable order. The SE1 wants to act stably, correctly, and responsibly.",
+    p5Potenzial: "Calm and integrity. The SE1 no longer needs to force order through pressure, but finds a natural, reliable inner alignment.",
+    p5Leitquote: "Safety arises when I trust my inner order instead of having to correct myself permanently.",
+    p5Essenz: "The SE1 is the calm guardian of integrity. It protects values, order, and responsibility without hardening in the process.",
+    p5Qualitaet: "Responsible, careful, reliable, structured, conscientious, and clear. In integration this quality becomes warmer, calmer, and more human.",
+    p5Nervensystem: "Slow breathing, a soft jaw, grounding, sensing boundaries, and calming the inner critic's voice. The body learns that safety need not come only through control.",
+    p5Beziehung: "Trust arises when the SE1 is allowed to show up without needing to be perfect. Clarity remains, but it is complemented by warmth, listening, and genuine closeness.",
+    p5Faehigkeiten: "Tolerance for error, ease, inner mildness, flexible order, self-care, humor, and the capacity to take on responsibility without over-control.",
+    p5Satz: "I act with integrity and clarity without condemning myself. I may act correctly and still remain soft, alive, and human.",
+    p5Bewusstsein: "Awareness arises when the SE1 recognizes that true integrity comes not from strictness but from presence, truthfulness, and inner calm.",
+    p5Ausstrahlung: "Calm presence, clear values, reliable warmth, careful responsibility, and a natural dignity that does not need to correct others.",
+    p5Natur: "The eagle stands for vision and integrity. In integration its gaze becomes not only scrutinizing, but panoramic, wise, and protective.",
+    p5Bedeutet: "From correcting to recognizing, from inner pressure to calm, from perfectionism to humanity, and from control to trusting order.",
+  },
+  so1: {
+    grundthema: "Integrity within the social field. Taking responsibility for what is right and acting as a role model for order, fairness, and justice.",
+    organismusfrage: "How can I provide orientation and integrity without condemning others or myself?",
+    blickqualitaet: "clear and alert; observes the field; scrutinizing and evaluating; seeks fairness and justice.",
+    mikrospannung: "vertical concentration lines on the forehead, tense and focused eyes, a controlled and slightly tense mouth, a firm, restrained jaw, an upright, controlled posture.",
+    atemrhythmus: "rather shallow and controlled; holds the breath under inner tension; consciously regulates breathing; focus on control and composure.",
+    bewegungsinitiierung: "deliberate and aligned; plans before acting; structured and orderly; moves with purpose and discipline.",
+    kontaktstil: "respectful and correct; clear in communication and stance; builds trust through reliability; oriented toward shared values.",
+    spannungsverteilung: "Head and forehead: responsibility for the collective. Neck and shoulders: bearing the weight for group and community. Chest area: role-model posture. Belly: control of one's own judgment. Jaw: withheld criticism.",
+    ressourcenfeld: "calm breath, clear gaze, an open chest and heart space, compassionate leadership, living justice, reliable values and principles.",
+    p2Punkt1: "Solar plexus / upper belly: the need for order, integrity, control, and inner stability. This point holds the inner question of what is right and justifiable for the whole.",
+    p2Punkt2: "Lower belly / pelvic area: the need for safety, protection, and rootedness. This point brings the SO1 back into her own body, out of pure responsibility-weight.",
+    p2Vorgehen: "Place one hand on the solar plexus / upper belly, the other on the lower belly / pelvic area. First sense point 1, then sense point 2, then perceive both energy fields at once. Do not control, allow mildness, simply be present.",
+    p2Handposition: "The hands are not there to correct but to hold attention on both places at once. The SO1 discovers: releasing responsibility and staying calm without giving up her own integrity.",
+    p2Lebensthema: "Wanting to take on responsibility and make things right. Orienting toward high ideals and expecting integrity and stance from others too. Fighting for order and improvement, which can easily tip into strictness or inflexibility.",
+    p2UnbewussteStrategie: "Strong orientation toward rules, values, and moral clarity. Controlling herself and others to avoid mistakes or wrong behavior. Stabilizing through discipline, responsibility, and high standards, even when inner pressure builds.",
+    p2Integration: "Recognizing that duty and moral control can distance her from the heart. Allowing more humanity, warmth, and personal vitality. Compassion replaces inner strictness and judgment.",
+    p2Prototypen: "The female and male SO1 prototype shows an engaged, morally clear presence in the social field. Both stand for responsibility, role-model function, and commitment to a fairer community.",
+    p2Kernsatz: "When you are a role model without judging, dignity, clarity, and natural authority arise.",
+    p2Fusszeile: "Social One (SO1): the instinct of responsibility, integrity, and role-model function in the social and societal field.",
+    p3Problem: "You try to stand up for order and justice within the collective. In doing so, inner tension can arise because you constantly check whether enough has been done and where wrongs remain.",
+    p3Wendepunkt: "You recognize that duty and moral control can distance you from the heart. The energy is allowed to become calmer without losing integrity.",
+    p3Integration: "You use your clarity consciously without turning it against yourself or others. Responsibility becomes orientation, not pressure.",
+    p3Gesicht: "Clarity and expression. This point helps the controlled facial expression soften while remaining clearly present.",
+    p3Hand: "Capacity to act and balance. The hand is a reminder that being a role model need not come from clenching.",
+    p3Fuss: "Grounding and standing firm. This point brings the SO1 out of judging the collective and into physical ground and sustaining orientation.",
+    p3Bauch: "Center and relaxation. This point regulates control, the pressure of responsibility, and inner tension, and strengthens a calmer center.",
+    p3Finger: "Sensing and letting go. This impulse supports releasing moral perfectionism, held-back correction, and inner tightness.",
+    p3Ohr: "Stillness and regulation. This point invites a gentler hearing of the inner voice, rather than only the inner judge over the collective.",
+    p3Mental: "Type 1 shows mental perfectionism and emotional resentment when inner tension grows too strong. In the SO1 this resentment turns especially outward: toward societal wrongs and lacking responsibility. She learns to turn control over the collective into self-contact.",
+    p3Fluegel: "The 9-wing brings calm and withdrawal from constant societal engagement. The 2-wing strengthens care and personal commitment to others within the social mission. Both can relieve the SO1 as long as they do not become an additional duty.",
+    p4Thema: "The need to remain correct and responsible for the collective can be carried by a strong inner demand. The healing path leads from rigid moral engagement to mild, living order.",
+    p4Wirkung: "The impulse supports the transformation of tense societal perfectionism, inner rigidity, and self-inflation into human presence, self-acceptance, and responsible clarity.",
+    p4Leidenschaft: "The passion of the SO1 lies in the inner tension of having to stand up for justice and order in the social field. Wrongs, injustice, or others' lack of responsibility can be experienced physically as alarm.",
+    p4Motivation: "The motivation is the wish for integrity, orientation, and reliable order for the whole. The SO1 wants to be a role model and take responsibility for a fairer community.",
+    p5Potenzial: "Compassion and wisdom. The SO1 no longer needs to force order through judgment, but finds a natural, reliable inner alignment in service of the whole.",
+    p5Leitquote: "True change comes from wisdom, not from judgment.",
+    p5Essenz: "The SO1 is the calm guardian of integrity in the social field. She protects values, order, and responsibility without hardening in the process.",
+    p5Qualitaet: "Responsible, engaged, reliable, structured, conscientious, and clear. In integration this quality becomes warmer, calmer, and more human.",
+    p5Nervensystem: "Releasing tension more quickly, turning judgment into understanding, moving between activity and rest, releasing perfectionism and rigidity, judging herself less, carrying responsibility more easily, reducing inner pressure.",
+    p5Beziehung: "Trust arises when the SO1 is allowed to show up without needing to be perfect or always at the service of the cause. Clarity remains, but it is complemented by warmth, listening, and genuine closeness.",
+    p5Faehigkeiten: "Tolerance for error, ease, inner mildness, flexible order, self-care, humor, and the capacity to take responsibility for the collective without over-control.",
+    p5Satz: "I stand up for what is right without condemning others or myself. I may be a role model and still remain soft, alive, and human.",
+    p5Bewusstsein: "Awareness arises when the SO1 recognizes that true integrity in the social field comes not from strictness but from presence, truthfulness, and inner calm.",
+    p5Ausstrahlung: "Calm presence, clear values, reliable warmth, engaged responsibility, and a natural dignity that does not need to correct others.",
+    p5Natur: "The goose stands for community spirit, orientation, and leadership within a group. In integration her leadership becomes not only dutiful, but wise, compassionate, and protective.",
+    p5Bedeutet: "From judging to recognizing, from outer pressure to calm, from moral perfectionism to humanity, and from control to trusting order.",
+  },
+  sx1: {
+    grundthema: "Integrity as passion. What is right is not administered but lived with intensity and personal commitment, above all in direct contact.",
+    organismusfrage: "How can I live my passion for what is right without creating pressure, control, or harshness?",
+    blickqualitaet: "penetrating and focused; sharply observant; exposing; seeks inconsistencies.",
+    mikrospannung: "vertical, tense lines on the forehead, intense, slightly narrowed eyes, a controlled, often firm mouth, a tense jaw with jaw pressure, an upright, controlled, stiff posture.",
+    atemrhythmus: "rather shallow and controlled; breath is often held during inner judgment; unconscious tension in the chest; the pressure of perfection shows in the breath.",
+    bewegungsinitiierung: "purposeful and controlled; does not hesitate once it is clear what needs to be done; moves in a direct and efficient way; avoids disorder and chaos.",
+    kontaktstil: "direct, clear, demanding; high standards for self and others; seeks depth and truth; confronts when principles are violated.",
+    spannungsverteilung: "Head and forehead: moral vigilance. Neck and shoulders: held readiness for confrontation. Chest area: uncompromising clarity. Belly: tamed fire. Jaw: withheld sharpness.",
+    ressourcenfeld: "a deep, focused gaze, powerful presence, uncompromising clarity, passion used wisely, devotion without self-abandonment.",
+    p2Punkt1: "Solar plexus / upper belly: the need for order, integrity, control, and inner stability. This point holds the inner question of what is truthful, correct, and can be justified.",
+    p2Punkt2: "Lower belly / pelvic area: the need for safety, protection, and rootedness. This point brings the SX1 back into her own body, out of pure confrontation-tension.",
+    p2Vorgehen: "Place one hand on the solar plexus / upper belly, the other on the lower belly / pelvic area. First sense point 1, then sense point 2, then perceive both energy fields at once. Do not drive yourself, stay soft, allow warmth.",
+    p2Handposition: "The hands are not there for confrontation but to hold attention on both places at once. The SX1 discovers: calming intensity and becoming gentler without giving up her own truthfulness.",
+    p2Lebensthema: "Seeking intense connection and shared growth. Wanting to inspire and improve people, which easily leads to inner tension. Longing for depth and authenticity, which easily costs ease and peace.",
+    p2UnbewussteStrategie: "Intensifying feelings and tensions to keep connection alive. Reacting sensitively to distance or inconsistency. Stabilizing through intensity, expression, and confrontation, even when inner calm is lost.",
+    p2Integration: "Recognizing that inner intensity and constantly trying to improve others do not create inner peace. Allowing imperfection in herself and others. Loving devotion replaces inner struggle and pressure.",
+    p2Prototypen: "The female and male SX1 prototype shows an intense, penetrating, and confrontational presence. Both stand for uncompromising truthfulness, passion, and commitment to depth in close relationships.",
+    p2Kernsatz: "When you don't fight your fire but consciously lead it, passion becomes clear and healing.",
+    p2Fusszeile: "Sexual One (SX1): the instinct of passion, intensity, and uncompromising truthfulness in direct contact.",
+    p3Problem: "You try to stand up with full intensity for what is right and for depth in relationships. In doing so, inner tension can arise because you constantly check whether connection, truth, or integrity is at risk.",
+    p3Wendepunkt: "You recognize that inner intensity and constantly trying to improve others do not create inner peace. The energy is allowed to become calmer without losing truthfulness.",
+    p3Integration: "You use your clarity consciously without directing it as pressure against yourself or others. Passion becomes devotion, not struggle.",
+    p3Gesicht: "Clarity and expression. This point helps the controlled, intense facial expression soften while remaining clearly present.",
+    p3Hand: "Capacity to act and balance. The hand is a reminder that uncompromising action need not come from clenching.",
+    p3Fuss: "Grounding and standing firm. This point brings the SX1 out of confrontation and into physical ground and sustaining orientation.",
+    p3Bauch: "Center and relaxation. This point regulates control, intensity, and inner fire, and strengthens a calmer center.",
+    p3Finger: "Sensing and letting go. This impulse supports releasing perfectionism, held-back confrontation, and inner tightness.",
+    p3Ohr: "Stillness and regulation. This point invites a gentler hearing of the inner voice, rather than only the inner judge over closeness.",
+    p3Mental: "Type 1 shows mental perfectionism and emotional resentment when inner tension grows too strong. In the SX1 this resentment turns into inner intensity and personal zeal, directed at close relationships. She learns to turn confrontation into self-contact.",
+    p3Fluegel: "The 9-wing brings calm and softens the SX1's readiness for confrontation. The 2-wing strengthens personal devotion and intense commitment to the other person. Both can relieve the SX1 as long as they do not become an additional expectation.",
+    p4Thema: "The need to remain uncompromisingly truthful and full of integrity in close relationships can be carried by a strong inner demand. The healing path leads from rigid confrontation to mild, living devotion.",
+    p4Wirkung: "The impulse supports the transformation of tense intensity, inner rigidity, and self-inflation into human presence, self-acceptance, and responsible clarity.",
+    p4Leidenschaft: "The passion of the SX1 lies in the inner intensity of standing up for truthfulness and depth in close relationships. Inconsistencies, lacking integrity, or emotional distance can be experienced physically as alarm.",
+    p4Motivation: "The motivation is the wish for uncompromising truth, closeness, and passionate connection. The SX1 wants to have an intense, clear, and transformative effect.",
+    p5Potenzial: "Passion and devotion. The SX1 no longer needs to force truthfulness through confrontation, but finds a natural, powerful devotion.",
+    p5Leitquote: "True change begins when passion serves a higher purpose.",
+    p5Essenz: "The SX1 is the powerful guardian of truthfulness in direct contact. She protects depth, integrity, and connection without hardening in the process.",
+    p5Qualitaet: "Intense, truthful, uncompromising, focused, devoted, and clear. In integration this quality becomes warmer, calmer, and more human.",
+    p5Nervensystem: "Consciously regulating tension, channeling intense energy, moving between closeness and withdrawal, releasing perfectionism and rigidity, not acting on impulse immediately, putting passion into service, placing herself under less pressure.",
+    p5Beziehung: "Trust arises when the SX1 is allowed to show up without constantly having to prove intensity. Clarity remains, but it is complemented by warmth, listening, and genuine gentleness.",
+    p5Faehigkeiten: "Tolerance for error, ease, inner mildness, flexible devotion, self-care, humor, and the capacity to live passion without over-control and confrontation.",
+    p5Satz: "I stay true to my inner truth without condemning myself or others. I may be passionate and still remain soft, loving, and human.",
+    p5Bewusstsein: "Awareness arises when the SX1 recognizes that true integrity in contact comes not from confrontation but from presence, truthfulness, and devotion.",
+    p5Ausstrahlung: "Powerful presence, clear values, reliable warmth, passionate connection, and a natural dignity that does not need to correct others.",
+    p5Natur: "The black mamba stands for speed, precision, and immediate impact. In integration her power becomes not only confrontational, but clear, guided, and protective.",
+    p5Bedeutet: "From confronting to recognizing, from inner struggle to calm, from uncompromising harshness to devotion, and from control to trusting passion.",
+  },
+};
+
+function type1OverviewModuleEN() {
+  const m = MODULE_EN["Typ 1 · Grundkarte"];
+  return {
+    title: m.title,
+    intro: m.intro,
+    entries: Object.entries(m.entries).map(([label, text]) => ({ label, text })),
+  };
+}
+
+function type1ContentModulesEN(subtypeCode) {
+  const p = PROFILE_1_EN[(subtypeCode || "").toLowerCase()];
+  if (!p) return [type1OverviewModuleEN()];
+  return [
+    type1OverviewModuleEN(),
+    {
+      title: `${subtypeCode} · Page 1 · Subtype Profile`,
+      intro: `The ${subtypeCode} seeks safety through order, correctness, and self-control. The body shows fine concentration, a restrained presence, and a strong need to act stably and with integrity.`,
+      entries: [
+        { label: "Core Theme", text: p.grundthema },
+        { label: "Organism Question", text: p.organismusfrage },
+        { label: "Gaze Quality", text: p.blickqualitaet },
+        { label: "Micro-Tension", text: p.mikrospannung },
+        { label: "Breathing Rhythm", text: p.atemrhythmus },
+        { label: "Movement Initiation", text: p.bewegungsinitiierung },
+        { label: "Contact Style", text: p.kontaktstil },
+        { label: "Tension Distribution", text: p.spannungsverteilung },
+        { label: "Resource Field", text: p.ressourcenfeld },
+      ],
+    },
+    {
+      title: `${subtypeCode} · Page 2 · 2-Point Integration`,
+      intro: `The central practice of the ${subtypeCode} connects two bodily spaces: the solar plexus / upper belly as the field of order and alignment, with the lower belly / pelvic area as the field of safety, calm, and grounding. The practice brings attention to both poles at once, without needing to correct anything.`,
+      entries: [
+        { label: "Point 1", text: p.p2Punkt1 },
+        { label: "Point 2", text: p.p2Punkt2 },
+        { label: "Practice", text: p.p2Vorgehen },
+        { label: "Hand Position", text: p.p2Handposition },
+        { label: "Life Theme", text: p.p2Lebensthema },
+        { label: "Unconscious Strategy", text: p.p2UnbewussteStrategie },
+        { label: "Integration", text: p.p2Integration },
+        { label: "Prototypes", text: p.p2Prototypen },
+        { label: "Core Sentence", text: p.p2Kernsatz },
+        { label: "Footer", text: p.p2Fusszeile },
+      ],
+    },
+    {
+      title: `${subtypeCode} · Page 3 · Bodywork & Acupressure`,
+      intro: `This page translates the inner tension of the ${subtypeCode} into concrete bodywork. The path leads from self-overload and control toward more aliveness, trust, and physical relaxation.`,
+      entries: [
+        { label: "Problem", text: p.p3Problem },
+        { label: "Turning Point", text: p.p3Wendepunkt },
+        { label: "Integration", text: p.p3Integration },
+        { label: "Face", text: p.p3Gesicht },
+        { label: "Hand", text: p.p3Hand },
+        { label: "Foot", text: p.p3Fuss },
+        { label: "Belly", text: p.p3Bauch },
+        { label: "Fingers", text: p.p3Finger },
+        { label: "Ear", text: p.p3Ohr },
+        { label: "Application", text: "Choose one or two zones. Press with thumb or index finger for 60 to 90 seconds at moderate intensity. Keep breathing calmly and observe how bodily sensations, thoughts, and feelings shift." },
+        { label: "Sitting Completely Still", text: "Sit upright and comfortably for two minutes. The body may show its own intelligence; in this short time nothing needs to be improved or arranged for others." },
+        { label: "Mental & Emotional Attitude", text: p.p3Mental },
+        { label: "Wing", text: p.p3Fluegel },
+        { label: "Media Fields", text: "This page references awareness practices, dynamic Enneagram illustrations, songs, wing videos, and subtype-specific media. These fields are already prepared in the app as a media section." },
+      ],
+    },
+    {
+      title: `${subtypeCode} · Page 4 · Remedy Compass`,
+      intro: `The Remedy Compass translates the ${subtypeCode} pattern into a healing symbolic field. At its center is the transformation of overblown self-control, inner pressure, and tense correctness into dignity, mildness, inner order, and living integrity.`,
+      entries: [
+        { label: "Homeopathic Single Remedy", text: "Platinum metallicum here stands for regulating transformed belly energy. It symbolizes the path from inner demand, self-responsibility, and tension toward dignity, humility, and genuine integrity." },
+        { label: "Theme", text: p.p4Thema },
+        { label: "Effect on Life Force and Passion", text: p.p4Wirkung },
+        { label: "Goal", text: "Regulation and strengthening of the One's life force: the transformed belly energy is not meant to be fought, but transformed into clear, calm, and serving integrity." },
+        { label: "Mineral Impulse", text: "Kalium sulfuricum points to balance, cleansing, and renewal. It symbolically supports the ability to release inner tension and keep order flexible rather than rigid." },
+        { label: "Bach Flower", text: "Rock Water stands for inner flexibility when ideals, discipline, and self-demand become too harsh. Its quality is: becoming milder without giving up one's own integrity." },
+        { label: "Gemstone", text: "Amethyst carries the field of clarity, focus, and mental calming. It suits the subtype when the inner voice becomes too strict, judgmental, or controlling." },
+        { label: "Tea", text: "Lemon balm tea stands for gentle nerve calm, relaxation, and emotional mildness. It complements the subtype wherever the pressure of duty may be replaced by calm and soft breath." },
+        { label: "Passion", text: p.p4Leidenschaft },
+        { label: "Inner Motivation", text: p.p4Motivation },
+        { label: "Media & Mode of Action", text: "This page includes supplementary media fields: how homeopathy works, how Enneagram homeopathy works, relaxing & healing music, and songs on the nature of homeopathy." },
+        { label: "Assignment Note", text: "The assignment is symbolic and experience-based. It does not replace therapeutic or medical advice, but serves conscious self-perception and integration." },
+      ],
+    },
+    {
+      title: `${subtypeCode} · Page 5 · Integration`,
+      intro: `Page 5 bundles the integration potential of the ${subtypeCode}. The movement goes from tense self-control, avoidance of mistakes, and inner pressure toward calm integrity, self-contact, stability, and mild clarity.`,
+      entries: [
+        { label: "Integration Potential", text: p.p5Potenzial },
+        { label: "Guiding Quote", text: p.p5Leitquote },
+        { label: "Archetypal Essence", text: p.p5Essenz },
+        { label: "Embodied Quality", text: p.p5Qualitaet },
+        { label: "Nervous System Regulation", text: p.p5Nervensystem },
+        { label: "Relationship Level", text: p.p5Beziehung },
+        { label: "New Capacities", text: p.p5Faehigkeiten },
+        { label: "Integration Sentence", text: p.p5Satz },
+        { label: "Space of Awareness", text: p.p5Bewusstsein },
+        { label: "Radiance", text: p.p5Ausstrahlung },
+        { label: "Archetypal Nature", text: p.p5Natur },
+        { label: "Integration Means", text: p.p5Bedeutet },
+      ],
+    },
+  ];
+}
+
 function contentModuleSection(modules, code) {
   const labels = text.knowledgeCard;
   const codeLower = (code || "").toLowerCase();
-  const useModules = ["se3", "so3", "sx3"].includes(codeLower)
+  const useModules = ["se1", "so1", "sx1"].includes(codeLower)
+    ? type1ContentModulesEN(code)
+    : ["se3", "so3", "sx3"].includes(codeLower)
     ? type3ContentModulesEN(code)
     : modules.map((module) => {
         const en = MODULE_EN[module.title];
@@ -27501,7 +27756,7 @@ function yayoiKusamaPortraitPage() {
         <h2 class="vb-section">6. The Path of Healing: From Dissolution to Connection</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Two leads from the question <em>Am I needed?</em> to the recognition <em>I am already connected, even without dissolving myself.</em> For the SP2w3, this path shows in the fact that what was once a private, survival-necessary self-obliteration becomes a deliberately shared, public experience &ndash; no longer a flight from her own fragility, but a gift born out of it.</p>
-          <p class="vb-intro">Into extreme old age, Kusama created new works almost daily &ndash; no longer only to save herself from dissolution, but because she had learned to translate her deepest vulnerability into a universal language that people around the world understand. Kusama died on August 26, 2026, at the age of 97, in Tokyo. The Hippopotamus that never left its water &ndash; and that, precisely through this, became one of the most influential voices in contemporary art.</p>
+          <p class="vb-intro">Into extreme old age, Kusama created new works almost daily &ndash; no longer only to save herself from dissolution, but because she had learned to translate her deepest vulnerability into a universal language that people around the world understand. Kusama died on August 14, 2026, at the age of 97, in Tokyo. The Hippopotamus that never left its water &ndash; and that, precisely through this, became one of the most influential voices in contemporary art.</p>
         </blockquote>
 
       </div>
@@ -55231,7 +55486,7 @@ function yayoiKusamaKrankheitsportraetPage() {
         <strong>Kusama's</strong> Self-Preservation Two with a Three-wing, too, can be read
         once more through her illness history: a psychiatric condition present since
         childhood that she neither hid nor let destroy her, but transformed into a body of
-        work she kept building almost until the end. Kusama died on August 26, 2026, at the
+        work she kept building almost until the end. Kusama died on August 14, 2026, at the
         age of 97 – nearly fifty years after her voluntary admission, in the same hospital from
         which she walked to her studio until near the end. The hippopotamus that never left its
         water – and, precisely because of it, became one of the most influential voices in
