@@ -1363,7 +1363,6 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vladimir Putin – Sexual Type 6",
     teaser:"SX6w5 · born 1952 in Leningrad. Politician, President of the Russian Federation, former KGB officer. The Wolf that tries to overcome fear by controlling others.",
     land:"Russia", tags:["Politics"], gender:"m"},
-    land:"Germany", tags:["Politics","History"], gender:"m"},
 { route:"beruehmte-platon", name:"Plato", added:"2026-08-14", subtyp:"SX6w5",
     heading:"Plato – Sexual Type 6",
     teaser:"SX6w5 · c. 428–348 BC. Greek philosopher, student of Socrates, founder of the Academy. Theory of Forms, Allegory of the Cave, 'Republic'. The Wolf with the Five-wing: turning the betrayal of Socrates into an unshakeable order. Animal correspondence: Wolf.",
