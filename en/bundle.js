@@ -27469,7 +27469,7 @@ function yayoiKusamaPortraitPage() {
         <h2 class="vb-section">2. The Self-Preservation Two: Art as a Means of Survival</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> directs the Two's energy first toward its own survival. Naranjo called this subtype <em>Me First</em> &ndash; not out of selfishness, but because the SP2 must care for itself before it can turn to others. In the SP2, care is often inseparable from an existential threat it is defending against.</p>
-          <p class="vb-intro">Since early childhood, Kusama has suffered from visual and auditory hallucinations &ndash; flower patterns that began to speak, endless nets of dots that spread across her field of vision and threatened to dissolve her and the entire world. Rather than being destroyed by this, she began as a child to draw these visions &ndash; an act she called <em>self-obliteration</em>: dissolving herself into the infinite pattern in order not to be destroyed by it. Art became her only, life-saving strategy against an inner reality that would otherwise have overwhelmed her.</p>
+          <p class="vb-intro">Since early childhood, Kusama had suffered from visual and auditory hallucinations &ndash; flower patterns that began to speak, endless nets of dots that spread across her field of vision and threatened to dissolve her and the entire world. Rather than being destroyed by this, she began as a child to draw these visions &ndash; an act she called <em>self-obliteration</em>: dissolving herself into the infinite pattern in order not to be destroyed by it. Art became her only, life-saving strategy against an inner reality that would otherwise have overwhelmed her.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three-Wing: The Unconditional Will to Be Seen</h2>
@@ -27506,6 +27506,7 @@ function yayoiKusamaPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"beruehmte-frida-kahlo", label:"Portrait: Frida Kahlo (SP2w3)"},
+        {route:"krankheitsportraets-yayoi-kusama", label:"Illness Portrait: Yayoi Kusama – hallucinations and depersonalization"},
       ])}
     </div>
   `);
@@ -54840,11 +54841,11 @@ function yayoiKusamaKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
         <p class="vb-intro"><strong>a) Diagnosis of an obsessive neurosis:</strong>
-        Kusama was diagnosed with an obsessive-compulsive condition; she herself has rejected
-        the often-repeated outside claim of manic-depressive psychosis and has attributed her
+        Kusama was diagnosed with an obsessive-compulsive condition; she herself rejected
+        the often-repeated outside claim of manic-depressive psychosis and attributed her
         symptoms in part to a thyroid condition.</p>
         <p class="vb-intro"><strong>b) Depersonalization as an additional symptom:</strong>
-        Alongside the hallucinations, Kusama suffers from a depersonalization disorder
+        Alongside the hallucinations, Kusama suffered from a depersonalization disorder
         (Japanese <em>rijinshō</em>, literally "separated-person symptom") – the sense of
         perceiving herself and her surroundings as foreign, unreal, or dissolved.</p>
         <p class="vb-intro"><strong>c) Continued artistic work despite acute symptoms:</strong>
