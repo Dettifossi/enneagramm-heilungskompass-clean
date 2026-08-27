@@ -2692,6 +2692,7 @@ text.nav = [
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
     { route: "enneagramm-homoeopathie", label: "Enneagram Meets Homeopathy" },
     { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
+    { route: "enneagramm-handanalyse", label: "Enneagram Meets Hand Analysis" },
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
@@ -42068,6 +42069,7 @@ function enneagrammReflexzonentherapiePage() {
         ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy"},
+          {route:"enneagramm-handanalyse", label:"Enneagram Meets Hand Analysis"},
           {route:"enneagramm-zahnpsychosomatik", label:"Enneagram Meets Dental Psychosomatics"},
           {route:"praxistipps-heilpraktiker/fussreflexzonen-aktivierung", label:"Practitioner Tip: Foot Reflex Zone Activation"},
           {route:"drei-zentren", label:"Chart: Three Centers"},
@@ -42076,6 +42078,134 @@ function enneagrammReflexzonentherapiePage() {
     </div>
   `);
 }
+// ─── Enneagram meets Hand Analysis ─────────────────────────────────────────
+
+function enneagrammHandanalysePage() {
+  const HAND_ZENTREN = [
+    {
+      zentrum: "The Head Center (Types 5, 6, 7): The World of Intellect and the “Air Hand”",
+      intro: "People from the Head Center live in their minds. Their hands mostly belong to the Air Hand type: a rather square or rectangular palm with noticeably long, slender fingers and clearly defined knuckles. The fingers often show noticeable gaps between them – an unconscious sign of the wish for mental room and distance.",
+      typen: [
+        { typ: 5, titel: "The Observer – The Detached Analyst's Hand", punkte: [
+          "The Five's hand often looks cooler, sinewy, and slender, as if nothing about it were superfluous. Between the fingers – especially between the middle and ring finger – a clear gap frequently stands out, and anyone who looks closely recognizes in it a physical translation of the inner line the Five draws: ‘I take a step back and observe.’ Nothing about this hand pushes itself forward; everything keeps its distance.",
+          "Across the palm runs the head line – the middle line that crosses the hand horizontally – and in the Five it is often cut extremely deep, dead straight, and clearly separated from the life line. This spatial separation between the two lines is more than a visual detail: it tells of someone who deliberately keeps thinking and living apart, who would rather withdraw to process things calmly than throw themselves unfiltered into events.",
+          "Behind it lies the soul of the Five: a deep need for mental autonomy, for a place no one enters uninvited. The hand mirrors exactly that wish – to grasp life with the head, to understand and categorize it, rather than diving into it head first, emotionally.",
+        ]},
+        { typ: 6, titel: "The Loyalist – The Reliable Anchor Hand", punkte: [
+          "The Six shows up in a solid, balanced hand shape with firm but not rigid fingers. The thumb stands stable and does not lie flat against the palm – it holds its own space without seeming pushy. The fingers themselves stand at a harmonious, even distance from one another: neither so far apart that isolation speaks from them, nor so close together that they suggest clinging.",
+          "In the security-oriented Six, the middle of the palm often shows a very straight, clearly visible fate line – that vertical line running distinctly through the palm. It reads almost like a red thread promising stability and hinting at a clearly recognizable life path, even when the Six themselves often wavers inwardly between doubt and confidence.",
+          "This hand radiates above all one quality: reliability. The Six seeks anchoring in structure and loyalty, and that shows up exactly in the firm yet flexible build of the hand – stable enough to give security, flexible enough not to cramp up.",
+        ]},
+        { typ: 7, titel: "The Enthusiast – The Mobile Explorer's Hand", punkte: [
+          "With the Seven, mobility is the first thing that stands out: a flexible hand with fingers and joints that bend easily, almost as if they wanted to reach in every direction at once. The gaps between the fingers are dynamic rather than fixed, and the little finger often stands slightly splayed – a bodily echo of curiosity and the constant drive to communicate.",
+          "The life line, that great arc curving around the base of the thumb, often runs in a wide sweep in the Seven and sometimes even breaks outward, as though searching for its own path off the beaten track. Exactly this outward break signals a drive toward movement and a love of experimentation, the opposite of a narrow, predictable path.",
+          "The Seven wants to savor life to the fullest, and their hands are rarely truly still. They are constantly in motion, symbolizing playful lightness and the steady urge never to miss out on anything life still has to offer.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "The Belly Center (Types 8, 9, 1): Instinct, Grounding, and the “Earth Hand”",
+      intro: "The instinct-driven Belly Center wrestles with presence, control, and inner peace. Their hands are mostly strong Earth or Fire hands: broad palms, thicker knuckles, and firmer, shorter fingers that stand solidly in the material world.",
+      typen: [
+        { typ: 8, titel: "The Challenger – The Powerful Hand of Command", punkte: [
+          "The Eight has a broad, massive palm with a very powerful, muscular thumb mound – the so-called thenar. The fingers themselves are short, stocky, and stand resolutely together, as if tolerating no doubt about their unity. The thumb stands out in particular: it juts out powerfully and widely from the hand, almost like its own small proof of will.",
+          "In this hand, all the main lines – life line, head line, and heart line – appear deep, strong, and often reddish in color. Fine engravings, delicate branches, or hesitant breaks are nowhere to be found here; instead, pure directness rules, a hand without detours.",
+          "The Eight claims space for themselves, and exactly that is mirrored in the dominant thumb and broad palm: unshakable willpower, an instinctive protective reflex for one's own people, and a natural leadership that needs no grand words.",
+        ]},
+        { typ: 9, titel: "The Peacemaker – The Flowing Harmony Hand", punkte: [
+          "In the Nine, soft, rounded hand shapes predominate, with the fingers merging seamlessly and gently into the palm – no hard edges, no sharp transitions. The fingers themselves often lie close together, as if fused into a single unit rather than standing apart individually.",
+          "The lines, too, often appear somewhat blurred, soft, and harmonious in the Nine – nothing pushes sharply into the foreground. The heart line usually runs gently and straight across the palm, without dramatic breaks or sudden changes of direction.",
+          "The Nine longs for peace of soul and the resolution of tension, and this soft hand shape is exactly its bodily expression: the unconscious avoidance of conflict, paired with a deep, almost parental gentleness that lets others settle down.",
+        ]},
+        { typ: 1, titel: "The Perfectionist – The Geometric Structure Hand", punkte: [
+          "The One's hand looks very tidy, almost symmetrical. The fingers are straight, precisely formed, and stand at exact, even intervals from one another – nothing here looks “wild” or frayed; every detail seems to sit exactly where it belongs.",
+          "The head line and heart line run strikingly parallel and straight in the One, cleanly cut as if drawn with a ruler. This order in miniature is no coincidence, but the precise counterpart to that inner voice constantly searching for errors and inconsistencies.",
+          "The One loves order and principles, and a hand in which every line runs logically and exactly calms exactly that inner critic. It grants the feeling of absolute control and a quiet, almost classical aesthetic.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "The Heart Center (Types 2, 3, 4): Emotion, the Stage, and the “Water Hand”",
+      intro: "In the Heart Center, everything revolves around image, relationships, and deep emotional worlds. Their hands correspond to the Water Hand type: oval, finely built, with supple, soft joints and a particular emphasis on the heart line – that uppermost of the three great main lines, which begins at the edge of the hand below the little finger and runs across the palm toward the space between the index and middle fingers. It is considered the absolute barometer of our emotional world, empathy, and capacity for relationship.",
+      typen: [
+        { typ: 2, titel: "The Helper – The Open-Hearted Hand", punkte: [
+          "The Two has soft, pliable hands, with the fingers standing open and inviting toward one another – as if instinctively opening outward rather than closing off.",
+          "The true star of this hand is its heart line: long, deeply curved, and clearly turning upward at its end – directly toward the space between the index and middle fingers, sometimes even reaching the index finger itself.",
+          "In palmistry, such an upward-rising heart line indicates an enormous capacity for emotional devotion and warmth, along with the deep need to be loved and to be there for others – the central melody of the Two, visible all the way into the palm.",
+        ]},
+        { typ: 3, titel: "The Achiever – The Presentational Showcase Hand", punkte: [
+          "In the Three one encounters immaculate, well-groomed hands with well-proportioned fingers and fingernails that are often used very deliberately – the hand as part of the outward appearance, not merely a tool.",
+          "The lines themselves are clear, unobtrusive, and cleanly drawn: no deep, dramatic grooves, but a fine, clear network that signals efficiency and control rather than inner turbulence.",
+          "The Three wants to shine and values status, and their hands look exactly like that: a kind of “business-card object,“ dynamic, purposeful, and always ready to be extended in a successful professional or social greeting.",
+        ]},
+        { typ: 4, titel: "The Individualist – The Dramatic Depth Hand", punkte: [
+          "The Four shows up in long, highly expressive hands with often slightly irregular, creative fingers, whose skin can appear delicate and thin – almost as if the inner life lay closer to the surface than in other types.",
+          "The heart line is often cut extremely deep in the Four, sometimes wavy or crossed by fine secondary lines – an expression of emotional turbulence and melancholy. In rare cases one even finds here a so-called Simian line, a single, unbroken crease in which the heart line and head line merge into one: a classic sign of extreme intensity, of the feeling of being “different,” and of a deep, untamed emotional world.",
+          "The Four seeks the unique and the artful, and their hand mirrors exactly this inner drama: the creative depth and the longing for authentic expression that will not settle for a smooth surface.",
+        ]},
+      ]
+    },
+  ];
+
+  function handBlock(t) {
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[t.typ] : null) || 'var(--copper)';
+    return `<div style="border-left:3px solid ${col};padding-left:1.1rem;margin-bottom:1.2rem;">
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.4rem;">Type ${t.typ}</div>
+      <h3 style="font-size:1.02rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">${t.titel}</h3>
+      ${t.punkte.map(p => `<p class="vb-intro" style="margin-bottom:0.7rem;">${p}</p>`).join('')}
+    </div>`;
+  }
+
+  function handZentrumBlock(z, i) {
+    return `<div class="vb-section" style="max-width:100%;margin-top:${i === 0 ? '0' : '2rem'};">
+      <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">${i + 1}. ${z.zentrum}</h2>
+      <p class="vb-intro" style="margin-bottom:1.2rem;">${z.intro}</p>
+      ${z.typen.map(handBlock).join('')}
+    </div>`;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-handanalyse')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge · Bodywork</p>
+        <h1 class="section-title">Enneagram Meets Hand Analysis</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Hand and Soul: The 9 Enneagram Types in the Mirror of Hand Analysis</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Every hand tells a story. While the shape of our hands and the spacing of our fingers reflect our innate core nature, the lines of the hand – the heart line above all – show us how we feel, love, and handle inner conflict.</p>
+          <p class="vb-intro">Two related but distinct traditions have studied this for centuries: <strong>hand analysis (chirology)</strong>, which reads hand shape, finger spacing, and the course of the lines in a more psychological, character-focused way, and <strong>chiromancy</strong> – palmistry in the narrower sense, traditionally carrying a stronger fortune-telling, divinatory flavor and often claiming to say something about the future as well. Both branches belong to the same ancient body of knowledge about the language of the hand, and both serve here together as a source of inspiration – not as exact science, but as one more poetic mirror through which to view the nine Enneagram types.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Combine this old lore of palm reading with the depth-psychological Enneagram, and a fascinating portrait of our personality emerges – from the detached analyst's hand of the Five to the dramatic depth hand of the Four.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/portraits/enneagramm-handanalyse-en.jpeg" alt="Overview: The Enneagram and hand analysis – the three centers mirrored in hand shape and hand lines" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">From the cool analyst's hand of the Five to the dramatic depth hand of the Four: nine hand types as a mirror of the nine Enneagram types.</p>
+        </div>
+
+        ${HAND_ZENTREN.map(handZentrumBlock).join('')}
+
+        <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Conclusion: The Hand as a Quiet Narrator</h2>
+          <p class="vb-intro">Whether it is the widely spaced fingers of the observant Five, the powerful thumb of the challenging Eight, or the softly upward-curving heart line of the helping Two – our hands are more than mere tools for grasping. They are a quiet, physical commentary on what is happening within us, often long before we can put it into words ourselves.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Anyone who approaches their own hands with this kind of attention often discovers a surprisingly consistent echo of their own Enneagram type – and another, very physical way into their own inner map.</p>
+        </div>
+
+        ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+        ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions – with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+        ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
+        ${relatedLinks([
+          {route:"enneagramm-reflexzonentherapie", label:"Enneagram Meets Reflexology"},
+          {route:"enneagramm-zahnpsychosomatik", label:"Enneagram Meets Dental Psychosomatics"},
+          {route:"drei-zentren", label:"Chart: Three Centers"},
+          {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 
 // ─── Enneagramm meets Astrologie ───────────────────────────────────────────
 
@@ -95443,6 +95573,7 @@ function subtypeSchaubilderPage() {
       "enneagramm-wohnraumarchitektur": enneagrammWohnraumarchitekturPage,
       "enneagramm-zimmerpflanzen": enneagrammZimmerpflanzenPage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
+      "enneagramm-handanalyse": enneagrammHandanalysePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
