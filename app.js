@@ -33809,6 +33809,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Arthur Rimbaud – Sexueller Typ 4",
     teaser:"SX4w3 · 1854–1891. Französischer Dichter. Wollte mit 15–20 Jahren die gesamte französische Dichtung übertreffen, stürmische Beziehung mit Paul Verlaine, radikaler Bruch mit dem Schreiben mit 21 Jahren, danach Kaufmann und Waffenhändler in Afrika. Tierentsprechung: Chihuahua.",
     land:"Frankreich", tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
+    heading:"Honoré de Balzac – Selbsterhaltender Typ 4",
+    teaser:"SE4w3 · 1799–1850. Französischer Schriftsteller, „La Comédie humaine“ (fast 100 Romane/Erzählungen). Eignete sich selbst das Adelsprädikat „de“ an, schrieb nächtelang bis zu 18 Stunden koffeingetrieben gegen drückende Schulden an, 17 Jahre Briefwechsel mit Gräfin Hańska vor der Heirat kurz vor seinem Tod. Tierentsprechung: Taube.",
+    land:"Frankreich", tags:["Literatur"], gender:"m"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -44477,7 +44481,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -44487,7 +44491,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
         beschreibung: "Die zarte, empfindsame Erscheinung täuscht über eine erhebliche innere Ausdauer hinweg: Der Weg wird auch durch Sturm und Rückschläge fortgesetzt, nicht weil Angst fehlt, sondern weil eine tiefe Kenntnis der eigenen Richtung trägt.",
-        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe und trotz einer fortschreitenden Zwangsstörung, seine tiefste Bindung an eine einzelne weiße Taube."
+        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe und trotz einer fortschreitenden Zwangsstörung, seine tiefste Bindung an eine einzelne weiße Taube; Honoré de Balzac, der über Jahrzehnte nächtelang, oft fünfzehn bis achtzehn Stunden am Stück, gegen drückende Schulden anschrieb – kein Aufgeben trotz ständiger finanzieller Not, sondern ein zähes Weiterschreiben, das erst mit seinem Tod endete, fünf Monate nach der siebzehn Jahre lang erhofften Hochzeit mit Ewelina Hańska."
       },
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
@@ -47211,6 +47215,73 @@ function arthurRimbaudPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function honoreDeBalzacPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-honore-de-balzac-portrait.jpg" alt="Honoré de Balzac" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Honoré de Balzac</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Schriftsteller, 1799–1850 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> trägt Botschaften über weite Strecken und kehrt zurück, selbst durch Sturm – zäh im Kern, auch wenn sie zart wirkt. Sie ist kein Tier der lauten Geste, sondern eines, das sich durch Beharrlichkeit beweist, durch das, was es unbeirrbar von einem Ort zum anderen trägt. Honoré Balssa – erst später nannte er sich Balzac, noch später Honoré de Balzac – wurde 1799 in Tours geboren, Sohn eines Beamten aus einfachen südfranzösischen Verhältnissen, der es unter Ludwig XVI. und Napoleon zum Verwaltungsbeamten gebracht hatte, und einer deutlich jüngeren Mutter aus einer wohlhabenden Pariser Tuchhändlerfamilie. Die Mutter, die ihre Mutterpflicht eher als Pflicht denn als Zuneigung empfand, gab den Vierjährigen zunächst zu einer Amme, dann, mit acht Jahren, ins Internat von Vendôme, wo er nach eigener späterer Aussage jahrelang kaum Besuch von den Eltern erhielt.</p>
+          <p class="vb-intro">Diese frühe Erfahrung von Zurückweisung, still ertragen statt laut beklagt, ist der Boden, auf dem die selbsterhaltende Vier wächst. Die Taube lernte, ihre Sehnsucht nach Zugehörigkeit nicht einzufordern, sondern in eine innere Welt zu verlegen, die niemand ihr nehmen konnte – und die er später, Zeile um Zeile, zu Papier bringen sollte: fast einhundert Romane und Erzählungen, zusammengefasst unter dem Titel <em>La Comédie humaine</em> (Die menschliche Komödie), ein Gesamtwerk von einer Dichte und einem Umfang, wie ihn kaum ein anderer Schriftsteller seiner Zeit erreichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Zähigkeit als Überlebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zieht das eigene Leiden nicht in dramatische Selbstdarstellung, sondern hält es aus – allein, in stiller Härte gegen sich selbst. Naranjo nannte diesen Subtyp <em>Zähigkeit</em> (im Original: <em>tenacity</em>) – kein lautes Aufbegehren gegen das Schicksal, sondern ein zähes Weitermachen, das dem eigenen Schmerz keine Bühne gibt. Bei kaum einem Schriftsteller zeigt sich diese Zähigkeit so konkret wie bei Balzac: Um seine drückenden Schulden abzutragen – Folge gescheiterter Geschäftsversuche, etwa einer Druckerei und eines Verlags, sowie eines aufwendigen Lebensstils weit über seine Verhältnisse – schrieb er über Jahrzehnte hinweg nächtelang, oft 15 bis 18 Stunden am Stück.</p>
+          <p class="vb-intro">Sein Tagesrhythmus war berüchtigt: ein kurzes Abendessen, ein Nickerlchen bis Mitternacht, dann ununterbrochenes Schreiben bis weit in den Vormittag hinein, angetrieben von gewaltigen Mengen starken schwarzen Kaffees – Dutzende Tassen, die er über die Jahre wortwörtlich seiner Gesundheit abrang. Das war kein Luxusmotiv, kein Streben nach müheloser Anerkennung, sondern reine Überlebensenergie: Die SE4 kämpft ihren Schmerz allein aus, bevor sie ihn zeigt, und bei Balzac hieß dieser Kampf, Schulden mit Sätzen abzutragen, einen nach dem anderen, Nacht für Nacht.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Vier auf die eigene Stabilität – bei Balzac paradox gebrochen: Er lebte in ständiger finanzieller Instabilität, doch die Disziplin, mit der er dagegen anschrieb, war von unerschütterlicher Konsequenz. Kritiker seiner Zeit wie spätere Biografen sind sich einig, dass gerade der Druck der Schulden den ungeheuren Umfang seines Werks mit hervorbrachte – die Zähigkeit der SE4, die aus der Not eine lebenslange Schreibpraxis machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Das erfundene „de"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein ausgeprägtes Statusbewusstsein – den Wunsch, die eigene innere Welt nicht nur zu bewahren, sondern sichtbar in gesellschaftlichen Rang zu übersetzen. Bei Balzac zeigt sich das denkbar deutlich: Er stammte aus bürgerlichen Verhältnissen, doch schon als junger Mann begann er, seinen Familiennamen Balssa zu Balzac zu verändern und sich schließlich ein Adelsprädikat anzueignen, das ihm nicht zustand – aus Honoré Balzac wurde Honoré de Balzac, ohne jede genealogische Grundlage. Zeitgenossen und spätere Biografen beschreiben ihn geradezu als besessen vom Gedanken an gesellschaftlichen Aufstieg und aristokratischen Glanz.</p>
+          <p class="vb-intro">Diese Besessenheit blieb nicht beim Namen: Balzac kleidete sich, wenn seine Mittel es zuließen, extravagant, sammelte Antiquitäten weit über seine finanziellen Möglichkeiten hinaus und pflegte einen Lebensstil, der eher zu einem Adligen als zu einem verschuldeten Schriftsteller passte – genau jene Ausgaben, die seine Schulden immer weiter anwachsen ließen und ihn zugleich zwangen, noch mehr zu schreiben. Der Dreierflügel verwandelt die introvertierte Tiefe der SE4 nicht in Rückzug, sondern in Ambition: Balzac wollte nicht nur innerlich einzigartig sein, er wollte, dass diese Einzigartigkeit gesehen, anerkannt, in gesellschaftlichem Rang bestätigt wurde – und schrieb dafür ein Gesamtwerk, das genau diese Welt aus Aufstieg, Geld und gesellschaftlichem Ehrgeiz in allen Facetten seziert, von <em>Le Père Goriot</em> bis <em>Eugénie Grandet</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ewelina Hańska: Die Botschaft, die ihr Ziel fast nicht erreichte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1832 erhielt Balzac einen anonymen, bewundernden Brief aus dem fernen Osteuropa, unterzeichnet mit „L'Étrangère" – die Fremde. Dahinter verbarg sich Ewelina Hańska, eine polnische Gräfin, verheiratet mit einem deutlich älteren Adligen. Es begann ein Briefwechsel, der siebzehn Jahre andauern sollte – über weite Strecken die einzige Form der Nähe, die die beiden sich erlauben konnten, unterbrochen von seltenen, kurzen Zusammentreffen in ganz Europa. In dieser jahrzehntelangen Fernbeziehung liegt ein Aufblitzen sexuell-instinkttypischer Intensität, eine Verschmelzung über die Distanz hinweg, die die selbsterhaltende Grundausrichtung Balzacs nicht ersetzte, sondern als starke Nebenfarbe begleitete.</p>
+          <p class="vb-intro">Als Hańskas Ehemann 1841 starb, hoffte Balzac auf eine baldige Heirat – doch es dauerte weitere neun Jahre, geprägt von Balzacs wachsenden Schulden, seiner sich verschlechternden Gesundheit und den langwierigen rechtlichen und familiären Verwicklungen um Hańskas Vermögen. Erst am 14. März 1850 heirateten die beiden, in der Ukraine, nach siebzehn Jahren Briefwechsel – die Taube, die ihre Botschaft endlich am Ziel abliefern konnte, nachdem sie einen Großteil ihres Lebens dafür gebraucht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 liegt in der Fähigkeit, aus einer zutiefst persönlichen, oft schmerzhaften inneren Welt ein Werk zu schaffen, das über die eigene Lebenszeit hinaus wirkt. Balzacs <em>La Comédie humaine</em> – knapp einhundert vollendete Werke, dazu zahlreiche unvollendete Fragmente – gilt bis heute als eines der ambitioniertesten literarischen Projekte überhaupt: der Versuch, die gesamte französische Gesellschaft seiner Zeit in einem einzigen, riesigen, persönlich durchdrungenen Panorama einzufangen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – das tiefe Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei Balzac äußerte sich das als lebenslanges Ringen um Anerkennung, Status und materielle Sicherheit, die ihm die eigene Herkunft und die frühe familiäre Kälte vorenthalten hatten. Der Dreierflügel verschärfte dieses Ringen: Der erfundene Adelstitel, die kostspieligen Antiquitäten, die geschäftlichen Fehlspekulationen – all das war der Versuch, ein inneres Gefühl des Mangels durch äußeren Glanz zu kompensieren, und trieb ihn zugleich in immer neue Schulden, die wiederum noch mehr Schreibarbeit erforderten.</p>
+          <p class="vb-intro">Der Schatten dieser Konstellation zeigte sich am deutlichsten in den letzten Lebensjahren: Jahrzehntelanger Raubbau an der eigenen Gesundheit – exzessiver Kaffeekonsum, chronischer Schlafmangel, Übergewicht und fortschreitende Herzprobleme – forderten ihren Preis. Fünf Monate nach der lang ersehnten Hochzeit mit Hańska starb Balzac am 18. August 1850 in Paris, im Alter von nur 51 Jahren, im Beisein seiner Mutter – jener Frau, deren frühe Zurückweisung einst den Ausgangspunkt seiner lebenslangen Suche nach Anerkennung gebildet hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der erkämpften Anerkennung zur Selbstannahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum fehlt mir, was andere haben?</em> zur Erkenntnis <em>Was ich bin, ist genug – und ist einmalig.</em> Für die SE4w3 bedeutet das, den eigenen Wert nicht länger an äußeren Glanz, an einen erfundenen Titel oder an die nächste vollendete Seite zu knüpfen, sondern die eigene Tiefe als bereits ausreichend anzuerkennen.</p>
+          <p class="vb-intro">Balzacs Leben zeigt, wie schwer dieser Schritt fällt, wenn die frühe Zurückweisung nie bewusst verarbeitet wird, sondern nur in immer neue Arbeit, immer neue Schulden, immer neuen äußeren Ehrgeiz umgeleitet wird. Und doch liegt gerade in seinem Spätwerk, in der jahrzehntelangen, geduldigen Verbindung zu Hańska und in der schieren Tiefe seines literarischen Blicks auf die menschliche Natur auch ein Aufblitzen dessen, was die geheilte Vier vermag: die eigene Einzigartigkeit nicht mehr beweisen zu müssen, sondern sie einfach zu leben – und in Balzacs Fall, sie der Nachwelt als eines der größten literarischen Vermächtnisse zu hinterlassen, das die französische Literatur kennt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
       ])}
     </div>
   `);
@@ -132132,6 +132203,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
+      "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
