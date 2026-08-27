@@ -884,5 +884,11 @@ var CHANGELOG = [
     date: "2026-07-19",
     text: "Übersetzen-Funktion für Rezensionen eingeführt",
     text_en: "Translation feature added for reviews"
+  },
+  {
+    date: "2026-08-27",
+    text: "Neues Porträt: Dirk Rossmann (SO5w6) – Drogeriemarkt-Gründer, dessen Öko-Thriller-Trilogie unwissentlich sein eigenes Tiertotem trifft",
+    text_en: "New portrait: Dirk Rossmann (SO5w6) – drugstore chain founder whose eco-thriller trilogy unknowingly matches his own animal totem",
+    route: "beruehmte-dirk-rossmann"
   }
 ];

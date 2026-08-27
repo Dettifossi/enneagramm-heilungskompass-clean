@@ -1215,7 +1215,11 @@ const BERUEHMT_PORTRAITS = [
     heading:"Bill Gates – Social Type 5",
     teaser:"SO5w6 · born 1955. Founder of Microsoft, philanthropist, billionaire. The octopus that reaches the world with eight arms – and never lets go.",
     tags:["Wirtschaft"] , gender:"m"},
-{ route:"beruehmte-guenther-jauch", name:"G\xfcnther Jauch", added:"2026-07-21", subtyp:"SO5w6",
+{ route:"beruehmte-dirk-rossmann", name:"Dirk Rossmann", added:"2026-08-27", subtyp:"SO5w6",
+    heading:"Dirk Rossmann – Social Type 5",
+    teaser:"SO5w6 \xb7 b. 1946, Hanover. Entrepreneur, founder of the ROSSMANN drugstore chain. Wrote an octopus book series – unknowingly matching his own animal totem.",
+    land:"Germany", tags:["Business"], gender:"m"},
+  { route:"beruehmte-guenther-jauch", name:"G\xfcnther Jauch", added:"2026-07-21", subtyp:"SO5w6",
     heading:"G\xfcnther Jauch – Social Type 5",
     teaser:"SO5w6 \xb7 born 1956, M\xfcnster. Presenter, journalist, producer. Who will be a millionaire?, stern TV, ARD-Sonntagstalk. The octopus that moderated the nation's knowledge for decades - and never really became visible itself.",
     land:"Germany", tags:["Medien","Fernsehen"], gender:"m"},
@@ -19030,6 +19034,78 @@ function guentherJauchPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
+        {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6) – unknowingly wrote a book series about his own animal totem"},
+      ])}
+    </div>
+  `);
+}
+
+function dirkRossmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dirk-rossmann-portrait.jpg" alt="Dirk Rossmann – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dirk Rossmann</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with six wing</p>
+        <p class="krim-portrait-subtitle">Entrepreneur, founder of the ROSSMANN drugstore chain, b. 1946 – Animal equivalent: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus on a Bicycle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The octopus is the animal of the social Type 5—a creature without a fixed center, operating with several arms at once, adapting to its surroundings while never quite being pinned down. Dirk Rossmann was born on September 7, 1946, in Hanover, the son of a second-generation drugstore owner who died when Dirk was twelve. At twenty-five, in 1972, he opened Germany's first self-service drugstore in Hanover on 120 square meters—located next to a funeral home, a detail he later commented on with dry humor.</p>
+          <p class="vb-intro">Self-service was a reinvention of the system in the German drugstore trade of 1972, not merely a new branch opening. That is exactly the social Five in the light: it observes an existing system closely and for a long time, spots its weak point—here, the staffed counter, which forced every customer to be served one by one—and builds a new, more efficient system from it, then carries that system into the field with many arms at once. Over the following decades, a single shop grew into several thousand stores across multiple European countries.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: Knowledge That Carries the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Type 5 the Totem—the linking of knowledge with belonging and prestige. Unlike the introverted SE5, who tends to withhold knowledge, the SO5 actively carries it into the community and thereby becomes an authority. Rossmann is a textbook case: he regularly gives interviews about leadership, has published a widely read autobiography, and speaks publicly about his business model—without pushing into the spotlight of celebrity in the classic sense. Knowledge is shared so that it benefits the community—employees, successors, readers.</p>
+          <p class="vb-intro">His leadership style follows the same pattern: Rossmann is trained in Theme-Centered Interaction (TCI), a concept for group work meant to foster social learning and personal development, and he practices autogenic training daily to relax. Both are tools with which the social Five consciously and methodically steers its system—here, a company with tens of thousands of employees—rather than leaving it to chance. His office is described as modest, and there is no tie requirement in the company—closeness through accessibility, not through a lack of distance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: ›Never Give Up‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six wing (w6) gives the social Five a deep need for reliability, loyalty, and a system solid enough to trust. In 1996, Rossmann stood at a double precipice: he had lost heavily speculating on the stock market, the company was heading toward insolvency, and in the same year he suffered a heart attack. Instead of giving up, he wrote personal letters to twenty creditor banks—seventeen agreed to extend his loans. The company survived.</p>
+          <p class="vb-intro">His frequently quoted credo since then has been, in essence, never to give up. That is the w6 trait in its purest form: not the adventurous reinvention at any cost, but the tenacious holding on to a system solid enough to carry weight, the effort to earn the trust of those who extend it to him. In interviews, Rossmann has emphasized how much his actions rest on mutual trust—a statement hard to imagine from a pure SO5 without the Six wing, where distance tends to serve as protection against vulnerability instead. The down-to-earth, approachable manner Rossmann shows both internally and externally is likewise a Six trait: loyalty upward and downward, not only knowledge made visible outward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Octopus Who Wrote About Himself Without Knowing It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The most astonishing chapter in Rossmann's biography lies not in retail but in literature. Starting in 2020, he published—from the second volume onward together with journalist Ralf Hoppe—an eco-thriller trilogy titled ›The Octopus Series‹: <em>Der neunte Arm des Oktopus</em> (2020, number one on the Spiegel bestseller list), <em>Der Zorn des Oktopus</em> (2021), and <em>Das dritte Herz des Oktopus</em> (2023). All three center on climate change—Rossmann's declared personal concern.</p>
+          <p class="vb-intro">The octopus, in this compass, is the animal equivalent of exactly the subtype Rossmann himself embodies: SO5. He chose this title without any regard for a typology he has presumably never encountered—and hit, three times in a row, precisely his own animal totem. The parallel becomes even more precise with the third volume: <em>Das dritte Herz des Oktopus</em> literally matches one of the animal-fact lines assigned to the SO5 octopus in this compass—›Octopuses have three hearts—two pump blood to the gills, one to the rest of the body. The SO5 has multiple centers. It operates on several levels at once.‹ Rossmann, who as entrepreneur, author, philanthropist, and father genuinely operates on several levels at once, unknowingly chose with his book title exactly the image that most accurately describes his own psychological pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work Beyond the Shelves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rossmann co-founded the German Foundation for World Population, which focuses on sex education and family planning, with an emphasis on East Africa. Here too the Totem pattern of the SO5 shows itself: knowledge—about the body, contraception, family planning—is understood as a force that structurally changes communities once made accessible. It is not impulsive charity but a long-term system built to last for decades—exactly the kind of commitment that gives the Six wing security.</p>
+          <p class="vb-intro">The company succession followed the same pattern: Rossmann handed over operational leadership gradually, while remaining present in the background as a shareholder and defining figure—not an abrupt withdrawal, but an orderly transition within a system he had built himself over decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, the SO5w6 shows itself in Rossmann as a system-builder who does not want to hoard knowledge but to translate it into structures solid enough to carry—a drugstore concept, a leadership style, a foundation, a novel trilogy. The same movement everywhere: recognize, organize, pass on, so that it holds.</p>
+          <p class="vb-intro">The shadow of the Five is greed—for the SO5w6, often less about money than about control: the need to think one's own system through to the end and steer it oneself, even if that means handing over responsibility late. The 1996 crisis, in which private stock market speculation nearly drove the company into ruin, shows that even the SO5 has blind spots when it overestimates its own systemic thinking outside its familiar domain—here, financial markets.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Octopus Who Keeps Writing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dirk Rossmann is today well into his eighties and still publicly present—as a defining figure in the background of the company, as a philanthropist, as an author. His path from the small drugstore next to the funeral home to a pan-European retail chain reads like a classic SO5 biography: a slow build-up of knowledge and system, the near double failure of 1996 that made the Six wing visible, and finally the late literary turn in which he—without realizing it—put his own animal totem to paper three times over.</p>
+          <p class="vb-intro">This is the social Five with a Six wing at its most mature: build a system that carries others. Hold on to it when it wavers. And in the end, without ever planning it, become the very image of what you always were.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
       ])}
     </div>
   `);
@@ -30260,6 +30336,7 @@ function isaacNewtonPortraitPage() {
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4) – his bitterest scientific rival"},
         {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
+        {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6)"},
         {route:"krankheitsportraets-isaac-newton", label:"Illness Portrait: Isaac Newton (SO5w6) – nervous breakdown from mercury poisoning"},
       ])}
     </div>
@@ -94978,6 +95055,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-birute-galdikas": biruteGaldikasPortraitPage,
       "beruehmte-winston-churchill": winstonChurchillPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
+      "beruehmte-dirk-rossmann": dirkRossmannPortraitPage,
       "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
       "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
       "beruehmte-indra-nooyi": indraNooyiPortraitPage,
