@@ -1237,7 +1237,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Germany", tags:["Medien","Fernsehen"], gender:"m"},
 { route:"beruehmte-eckhard-freise", name:"Eckhard Freise", added:"2026-08-27", subtyp:"SO5w6",
     heading:"Eckhard Freise – Social Type 5",
-    teaser:"SO5w6 \xb7 b. 1943/44. Historian, professor of medieval history, expert on the Hersfeld memorial tradition. First-ever millionaire on Wer wird Millionär?, December 2, 2000.",
+    teaser:"SO5w6 \xb7 b. 1944. Historian, professor of medieval history, expert on the Hersfeld memorial tradition. First-ever millionaire on Wer wird Millionär?, December 2, 2000.",
     land:"Germany", tags:["Wissenschaft","Medien"], gender:"m"},
 { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift – Sexual Type 5",
@@ -19674,14 +19674,14 @@ function eckhardFreisePortraitPage() {
         </div>
         <p class="krim-portrait-name">Prof. Dr. Eckhard Freise</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with six wing</p>
-        <p class="krim-portrait-subtitle">Historian, professor of medieval history, b. 1943/44 – Animal equivalent: Octopus</p>
+        <p class="krim-portrait-subtitle">Historian, professor of medieval history, b. 1944 – Animal equivalent: Octopus</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Octopus with the Groping Arms</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The octopus is the animal of the social Type 5—a creature that gropes, grasps, and tests with several arms at once before committing to anything. In Eckhard Freise this image shows itself in a particularly immediate, physical way: when he explains an answer on television, his hands fall into a peculiar motion—the fingers dart forward almost tentacle-like, pull back again, dart forward once more, in a wave-like back-and-forth that appears entirely involuntary. It is as if the knowledge itself were searching for a graspable form before being put into words—eight arms feeling through the water of memory before one of them finally closes around something.</p>
-          <p class="vb-intro">Freise was born in 1943/44, studied Latin, history, and philosophy in Münster from 1966 onward, earned his doctorate there in 1979 under Joachim Wollasch, and completed his habilitation in 1987. Professorships followed in Mannheim (1989–1996) and at the Bergische Universität Wuppertal (1996–2011). A life spent for decades in the quiet depths of medieval historical research—until, on December 2, 2000, a single television evening suddenly washed this octopus up to the surface.</p>
+          <p class="vb-intro">Freise was born in 1944, studied Latin, history, and philosophy in Münster from 1966 onward, earned his doctorate there in 1979 under Joachim Wollasch, and completed his habilitation in 1987. Professorships followed in Mannheim (1989–1996) and at the Bergische Universität Wuppertal (1996–2011). A life spent for decades in the quiet depths of medieval historical research—until, on December 2, 2000, a single television evening suddenly washed this octopus up to the surface.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Totem: Knowledge That Suddenly Belonged to the Whole Nation</h2>

@@ -33208,7 +33208,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland", tags:["Wirtschaft"], gender:"m"},
   { route:"beruehmte-eckhard-freise", name:"Eckhard Freise", added:"2026-08-27", subtyp:"SO5w6",
     heading:"Eckhard Freise \u2013 Sozialer Typ 5",
-    teaser:"SO5w6 \xb7 geb. 1943/44. Historiker, Professor f\xfcr mittelalterliche Geschichte, Experte der Hersfelder Memorial\xfcberlieferung. Erster Million\xe4r bei Wer wird Million\xe4r?, 2. Dezember 2000.",
+    teaser:"SO5w6 \xb7 geb. 1944. Historiker, Professor f\xfcr mittelalterliche Geschichte, Experte der Hersfelder Memorial\xfcberlieferung. Erster Million\xe4r bei Wer wird Million\xe4r?, 2. Dezember 2000.",
     land:"Deutschland", tags:["Wissenschaft","Medien"], gender:"m"},
   { route:"beruehmte-frederic-chopin", name:"Fr\xe9d\xe9ric Chopin", added:"2026-07-21", subtyp:"SX5w4",
     heading:"Fr\xe9d\xe9ric Chopin \u2013 Sexueller Typ 5",
@@ -60481,14 +60481,14 @@ function eckhardFreisePortraitPage() {
         </div>
         <p class="krim-portrait-name">Prof. Dr. Eckhard Freise</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Historiker, Professor f\xfcr mittelalterliche Geschichte, geb. 1943/44 &ndash; Tierentsprechung: Oktopus</p>
+        <p class="krim-portrait-subtitle">Historiker, Professor f\xfcr mittelalterliche Geschichte, geb. 1944 &ndash; Tierentsprechung: Oktopus</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. Der Oktopus mit den tastenden Armen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; ein Wesen, das mit mehreren Armen gleichzeitig tastet, greift und pr\xfcft, bevor es sich festlegt. Bei Eckhard Freise zeigt sich dieses Bild auf eine besonders unmittelbare, k\xf6rperliche Weise: Wenn er im Fernsehen eine Antwort begr\xfcndet, geraten seine H\xe4nde in eine eigent\xfcmliche Bewegung &ndash; die Finger schnellen fast tentakelartig nach vorne, ziehen sich wieder zur\xfcck, schnellen erneut vor, in einem wellenartigen Vor und Zur\xfcck, das ganz unwillk\xfcrlich wirkt. Es ist, als w\xfcrde das Wissen selbst nach einer greifbaren Form suchen, bevor es in Worte gefasst wird &ndash; acht Arme, die pr\xfcfend durch das Wasser der Erinnerung tasten, ehe einer von ihnen zupackt.</p>
-          <p class="vb-intro">Freise wurde 1943/44 geboren, studierte ab 1966 in M\xfcnster Latein, Geschichte und Philosophie, promovierte dort 1979 bei Joachim Wollasch und habilitierte sich 1987. Es folgten Professuren in Mannheim (1989&ndash;1996) und an der Bergischen Universit\xe4t Wuppertal (1996&ndash;2011). Ein Leben, das \xfcber Jahrzehnte in der stillen Tiefe der mittelalterlichen Geschichtsforschung verbracht wurde &ndash; bis am 2. Dezember 2000 ein einziger Fernsehabend diesen Oktopus schlagartig an die Oberfl\xe4che sp\xfclte.</p>
+          <p class="vb-intro">Freise wurde 1944 geboren, studierte ab 1966 in M\xfcnster Latein, Geschichte und Philosophie, promovierte dort 1979 bei Joachim Wollasch und habilitierte sich 1987. Es folgten Professuren in Mannheim (1989&ndash;1996) und an der Bergischen Universit\xe4t Wuppertal (1996&ndash;2011). Ein Leben, das \xfcber Jahrzehnte in der stillen Tiefe der mittelalterlichen Geschichtsforschung verbracht wurde &ndash; bis am 2. Dezember 2000 ein einziger Fernsehabend diesen Oktopus schlagartig an die Oberfl\xe4che sp\xfclte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Das Totem: Wissen, das pl\xf6tzlich der ganzen Nation geh\xf6rte</h2>
@@ -60514,7 +60514,7 @@ function eckhardFreisePortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sozialen F\xfcnf</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im Licht zeigt sich bei Freise die SO5w6 als Gelehrter, der Wissen als Dienst versteht &ndash; ob in der jahrzehntelangen Kleinarbeit an mittelalterlichen Quellen oder im Millionen-Publikum einer Samstagabendshow. Beides ist f\xfcr ihn dieselbe Bewegung: genau hinsehen, verstehen, weitergeben. Dass er den Ruhm nicht zum Selbstzweck machte, sondern in seine bestehende, verl\xe4ssliche Laufbahn integrierte, ist reifer Sechserfl\xfcgel: Sicherheit nicht durch neue Bühnen, sondern durch das Festhalten am tragf\xe4higen System.</p>
-          <p class="vb-intro">Der Schatten der F\xfcnf ist <strong>Geiz</strong> &ndash; das Zur\xfcckhalten, nicht nur von Besitz, sondern von sich selbst. Bei Freise zeigt sich das nicht als Kn\xe4userigkeit, sondern in der bewussten Begrenzung, wie viel er von sich preisgibt: Er blieb Wissenschaftler, kein \xf6ffentlicher Selbstdarsteller, lehnte das eigene Format ab, das ihn dauerhaft ausgestellt h\xe4tte. Die tastenden, tentakelartigen Handbewegungen, mit denen er seine Antworten begr\xfcndet, lassen sich in diesem Licht auch so lesen: ein K\xf6rper, der nach au\xdfen greift, um Wissen zu \xfcbergeben, sich dabei aber nie ganz \xf6ffnet &ndash; die Arme schnellen vor und ziehen sich sofort wieder zur\xfcck, bevor sie sich vollst\xe4ndig ausstrecken.</p>
+          <p class="vb-intro">Der Schatten der F\xfcnf ist <strong>Geiz</strong> &ndash; das Zur\xfcckhalten, nicht nur von Besitz, sondern von sich selbst. Bei Freise zeigt sich das nicht als Knauserigkeit, sondern in der bewussten Begrenzung, wie viel er von sich preisgibt: Er blieb Wissenschaftler, kein \xf6ffentlicher Selbstdarsteller, lehnte das eigene Format ab, das ihn dauerhaft ausgestellt h\xe4tte. Die tastenden, tentakelartigen Handbewegungen, mit denen er seine Antworten begr\xfcndet, lassen sich in diesem Licht auch so lesen: ein K\xf6rper, der nach au\xdfen greift, um Wissen zu \xfcbergeben, sich dabei aber nie ganz \xf6ffnet &ndash; die Arme schnellen vor und ziehen sich sofort wieder zur\xfcck, bevor sie sich vollst\xe4ndig ausstrecken.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Vom Horten zum Teilen aus Fülle</h2>
