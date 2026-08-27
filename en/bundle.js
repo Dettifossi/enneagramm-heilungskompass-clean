@@ -2696,6 +2696,7 @@ text.nav = [
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
     { route: "enneagramm-wohnraumarchitektur", label: "Enneagram Meets Interior Architecture" },
+    { route: "enneagramm-zimmerpflanzen", label: "Enneagram Meets Houseplants" },
     { route: "enneagramm-kunst", label: "Enneagram Art" },
     { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
@@ -42405,6 +42406,122 @@ function enneagrammWohnraumarchitekturPage() {
   `);
 }
 
+function enneagrammZimmerpflanzenPage() {
+  const PFLANZEN_ZENTREN = [
+    {
+      zentrum: "The Head Center (Types 5, 6, 7): Light, Structure, and Conscious Boundaries",
+      intro: "People from the Head Center live in their minds. Their plants should either be extremely low-maintenance (to avoid adding mental load), radiate stability, or give room to the craving for variety.",
+      typen: [
+        { typ: 5, titel: "The Observer – The Sansevieria (Snake Plant)", punkte: [
+          "The snake plant is minimalist, extremely undemanding, needs almost no water, and stands for clean, upright lines. It quietly releases oxygen in the background without ever pushing itself into the foreground.",
+          "The Five appreciates it when things are uncomplicated and don't burden their intellectual retreat. The snake plant forgives being forgotten for days on end – much like the Five sinks into their own world of thought.",
+        ]},
+        { typ: 6, titel: "The Loyalist – The Sturdy Rubber Plant (Ficus elastica)", punkte: [
+          "With its thick, leathery leaves and sturdy trunk, the rubber plant radiates absolute reliability and rootedness. It's tough and weathers difficult phases without complaint.",
+          "The security-oriented Six needs plants that don't wilt at the first care mistake. The rubber plant offers a stable, protective anchor in the room and symbolizes support and loyalty.",
+        ]},
+        { typ: 7, titel: "The Enthusiast – The Monstera Deliciosa (Swiss Cheese Plant)", punkte: [
+          "The Monstera grows fast, looks exotic, stands out with its large, split leaves, and loves the light. It brings jungle vibes and wanderlust into the home.",
+          "The freedom-loving Seven needs visual dynamism and variety. The Monstera grows unstoppably in every direction, mirroring the Seven's adventurous, optimistic, and lively spirit.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "The Belly Center (Types 8, 9, 1): Grounding, Gentleness, and Clear Form",
+      intro: "The instinct-driven Belly Center wrestles with control, presence, and inner peace. The matching plants range from striking powerhouses to harmonizing companions.",
+      typen: [
+        { typ: 8, titel: "The Challenger – The Yucca Palm or the Cactus", punkte: [
+          "Thick, woody stems, tough leaves, or defiant spines. These plants radiate pure primal strength, resilience, and a natural hardness. The Eight has no use for soft, vulnerable growths.",
+          "A yucca or a robust cactus underscores the Eight's strong, fearless presence in the room. They signal clear boundaries: ›Here I stand, and I won't be easily knocked over.‹",
+        ]},
+        { typ: 9, titel: "The Peacemaker – The Peace Lily (Spathiphyllum)", punkte: [
+          "Gentle, curving green leaves and pure white blossoms. In Feng Shui, the peace lily is considered a true bringer of harmony and calm that gently purifies the air of a room. The Nine longs for peace of soul and for tension to dissolve – the peace lily radiates a soft, soothing energy.",
+          "The Nine's only ›test‹: it shows fairly quickly through drooping leaves when it's thirsty – a gentle wake-up call to stay attentive.",
+        ]},
+        { typ: 1, titel: "The Perfectionist – The Lucky Bamboo or Symmetrical Succulents", punkte: [
+          "Exact geometric shapes, straight stems, clear structure, a completely tidy appearance without wild, sprawling chaos. The One loves order and principles.",
+          "A plant that grows perfectly straight, where every leaf has its logical place, calms the inner critic and offers the reassuring feeling of control and aesthetics.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "The Heart Center (Types 2, 3, 4): Expression, Stage, and Emotional Depth",
+      intro: "The Heart Center revolves around image, relationships, and deep emotional worlds. The plants of these types are striking, emotionally charged, or need intensive attention.",
+      typen: [
+        { typ: 2, titel: "The Helper – The Heartleaf Philodendron (Philodendron scandens)", punkte: [
+          "The leaves are shaped like perfect little hearts. The plant grows lushly, twines lovingly around corners, and rewards every bit of attention with rich, fast growth.",
+          "The Two loves to give love and care. Tending a plant whose leaves are literally shaped like little hearts matches their need to fill spaces with warmth and connection.",
+        ]},
+        { typ: 3, titel: "The Achiever – The Orchid (Phalaenopsis)", punkte: [
+          "Refined, sculptural elegance, flawless blooms in perfect colors. The orchid looks like a designer object, but demands a fine sense for the right spot and the right care.",
+          "The Three wants to shine and values status and aesthetics. A magnificent orchid in the living room is the perfect, representative calling card for their own success and sense of style.",
+        ]},
+        { typ: 4, titel: "The Individualist – The Alocasia (Elephant Ear) or the Black Cat Staircase", punkte: [
+          "Dramatic, almost avant-garde leaves with striking veins, sometimes in deep dark green through black-violet. They are somewhat more demanding to care for and ask for a touch of devotion.",
+          "The Four seeks the unique, the melancholic, and the artful. An Alocasia is no ordinary off-the-shelf flower, but a genuine statement full of character, depth, and a pinch of eccentricity.",
+        ]},
+      ]
+    },
+  ];
+
+  function pflanzeBlock(t) {
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[t.typ] : null) || 'var(--copper)';
+    return `<div style="border-left:3px solid ${col};padding-left:1.1rem;margin-bottom:1.2rem;">
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.4rem;">Type ${t.typ}</div>
+      <h3 style="font-size:1.02rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">${t.titel}</h3>
+      <ul style="margin:0;padding-left:1.2rem;font-size:0.92rem;line-height:1.7;color:var(--ink);">
+        ${t.punkte.map(p => `<li style="margin-bottom:0.5rem;">${p}</li>`).join('')}
+      </ul>
+    </div>`;
+  }
+
+  function pflanzenZentrumBlock(z, i) {
+    return `<div class="vb-section" style="max-width:100%;margin-top:${i === 0 ? '0' : '2rem'};">
+      <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">${i + 1}. ${z.zentrum}</h2>
+      <p class="vb-intro" style="margin-bottom:1.2rem;">${z.intro}</p>
+      ${z.typen.map(pflanzeBlock).join('')}
+    </div>`;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-zimmerpflanzen')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge · Plant Psychology</p>
+        <h1 class="section-title">Enneagram Meets Houseplants</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Green for the Soul: The 9 Enneagram Types and Their Perfect Soul Plants</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Step into a home, and often the very first plant on the windowsill reveals more about its owner than a long conversation could – the undemanding snake plant on a shelf tells a different story than the magnificent orchid on the dining table or the sprawling Monstera in the bay window. Plants are quiet housemates, and as with any housemate relationship, the chemistry between person and plant decides whether it becomes a lasting bond or a quickly wilted chapter.</p>
+          <p class="vb-intro">After looking at living spaces and Feng Shui in the previous chapter of this knowledge section, it's worth zooming in on a smaller but no less revealing level: the individual plant itself. Every plant brings its own energy, growth form, and resilience – from the sturdy succulent to the delicate, demanding orchid, the botanical world mirrors nearly every facet of human character. Connecting the Enneagram – the depth-psychological model of the nine personality types – with the world of houseplants creates a fascinating mirror of our inner needs.</p>
+          <p class="vb-intro">Which plant fits one's own structure? What kind of care and energy matches one's core essence? A look at the nine types through the green lens of botany.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/portraits/enneagramm-zimmerpflanzen-de.jpeg" alt="Enneagram & Houseplants – the three centers and their botanical soul equivalents" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">From the undemanding Sansevieria to the dramatic Alocasia: nine houseplants as a botanical mirror of the nine Enneagram types.</p>
+        </div>
+
+        ${PFLANZEN_ZENTREN.map(pflanzenZentrumBlock).join('')}
+
+        <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">In Closing: The Botanical Mirror</h2>
+          <p class="vb-intro">Whether it's the undemanding Sansevieria of the Five, the heart-shaped vine of the Two, or the dramatic Alocasia of the Four – our houseplants are more than green decoration. They are living companions that unconsciously mirror back exactly the energy we seek or cultivate in our everyday lives.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Whoever tends their soul plant is ultimately always doing something good for their own inner growth, too.</p>
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – protection patterns, passions, and the path to essence. The first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("archetypen-der-tiere-im-enneagramm", "When animals become mirrors of the soul – the archetypal method translated here into the plant world.", "Archetypen der Tiere im Enneagramm")}
+        ${relatedLinks([
+          {route:"baumarten", label:"Tree Species of the 9 Types"},
+          {route:"enneagramm-wohnraumarchitektur", label:"Enneagram Meets Interior Architecture"},
+          {route:"enneagramm-kunst", label:"Enneagram Art"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function persoenlichkeitsmodelleVergleichPage() {
   const MODELLE = [
     {
@@ -75265,6 +75382,7 @@ function baumartenPage() {
         {route:"affenarten", label:"Ape Species of the Types"},
         {route:"berge-der-9-typen", label:"Mountains of the 9 Types"},
         {route:"epochen-weltgeschichte", label:"Epochs of World History"},
+        {route:"enneagramm-zimmerpflanzen", label:"Enneagram Meets Houseplants"},
       ])}
     </div>
   `);
@@ -95323,6 +95441,7 @@ function subtypeSchaubilderPage() {
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "enneagramm-odyssee": enneagrammOdysseePage,
       "enneagramm-wohnraumarchitektur": enneagrammWohnraumarchitekturPage,
+      "enneagramm-zimmerpflanzen": enneagrammZimmerpflanzenPage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
