@@ -32226,6 +32226,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Sozialer Typ 8", krankheit:"Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust", teaser:"SO8w9 – deutscher Bundeskanzler, 1930–2017. Schwerer Sturz im Februar 2008 mit Kopfverletzung, danach neun Jahre weitgehend pflegebedürftig, rollstuhlgebunden und in der Sprache stark eingeschränkt. Starb am 16. Juni 2017 in Ludwigshafen-Oggersheim im Alter von 87 Jahren." , land:"Deutschland", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Selbsterhaltender Typ 2", krankheit:"Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen", teaser:"SE2w3 – chinesischer Künstler und Aktivist, geb. 1957. Im August 2009 von der Polizei in Chengdu geschlagen, dadurch Hirnblutung erlitten, im September 2009 Notoperation in München. Seither chronische Kopfschmerzen." , land:"China/Deutschland", gender:"m", jahre:"geb. 1957"},
   { route:"krankheitsportraets-mr-t", name:"Mr. T", subtyp:"SE2w3", heading:"Mr. T – Selbsterhaltender Typ 2", krankheit:"T-Zell-Lymphom (Krebs) mit Bestrahlung und Chemotherapie 1995", teaser:"SE2w3 – US-amerikanischer Schauspieler und Wrestler, geb. 1952. Im September 1995 Diagnose eines seltenen T-Zell-Lymphoms, Behandlung mit Bestrahlung und Chemotherapie, mehrjähriger Rückzug aus der Öffentlichkeit. Seither Krebsüberlebender und Fürsprecher für kranke Kinder." , land:"USA", gender:"m", jahre:"geb. 1952"},
+  { route:"krankheitsportraets-oprah-winfrey", name:"Oprah Winfrey", subtyp:"SE2w3", heading:"Oprah Winfrey – Selbsterhaltender Typ 2", krankheit:"Sexueller Missbrauch in der Kindheit, Teenagerschwangerschaft mit 14 Jahren", teaser:"SE2w3 – US-amerikanische Moderatorin, Unternehmerin, Philanthropin, geb. 1954. Ab etwa ihrem neunten Lebensjahr über mehrere Jahre von Familienmitgliedern und Bekannten sexuell missbraucht, mit 14 schwanger, Verlust des Sohnes wenige Wochen nach der Geburt. Machte die Geschichte 1986 erstmals öffentlich und setzte sich 1991 vor dem US-Senat für den nach ihr benannten National Child Protection Act ein." , land:"USA", gender:"f", jahre:"geb. 1954"},
   { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Selbsterhaltender Typ 6", krankheit:"Lebenslange, öffentlich dokumentierte Hypochondrie ('Alarmismus')", teaser:"SE6w7 – US-amerikanischer Regisseur, Drehbuchautor und Komiker, geb. 1935. Seit den 1950er-Jahren dokumentierte Gesundheitsangst, über 35 Jahre Psychoanalyse, ausführlich im eigenen New-York-Times-Essay vom 12. Januar 2013 beschrieben." , land:"USA", gender:"m", jahre:"geb. 1935"},
   { route:"krankheitsportraets-fritz-perls", name:"Fritz Perls", subtyp:"SO8w7", heading:"Fritz Perls – Sozialer Typ 8", krankheit:"Jahrelanges Herzleiden, Kettenrauchen, Bauchspeicheldrüsenkrebs", teaser:"SO8w7 – Psychiater, Mitbegründer der Gestalttherapie, 1893–1970. Jahrelanges Herzleiden nach einer Narkose-Verletzung, lebenslanges Kettenrauchen, Bauchspeicheldrüsenkrebs-Operation. Starb am 14. März 1970 in Chicago an akutem Herzversagen." , land:"Deutschland/USA", gender:"m", jahre:"1893–1970"},
   { route:"krankheitsportraets-julian-assange", name:"Julian Assange", subtyp:"SO9w1", heading:"Julian Assange – Sozialer Typ 9", krankheit:"Über sieben Jahre Isolation mit dokumentierten körperlichen und psychischen Folgen", teaser:"SO9w1 – Gründer von WikiLeaks, geb. 1971. 2012–2019 nahezu vollständige Isolation in der ecuadorianischen Botschaft London, danach bis 2024 britische Hochsicherheitshaft. Ärztlich dokumentierte neuropsychologische Schäden, chronische Schmerzen und PTBS." , land:"Australien/Vereinigtes Königreich", gender:"m", jahre:"geb. 1971"},
@@ -63762,7 +63763,7 @@ function oprahWinfreyPortraitPage() {
 
         <h2 class="vb-section">5. Vom Trauma zur Stimme: Die eigene Geschichte als Werkzeug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Oprah Winfrey hat ihre eigene Kindheit &ndash; Armut, sexueller Missbrauch, eine Teenagerschwangerschaft, den fr\u00fchen Tod ihres Sohnes &ndash; nie versteckt, sondern immer wieder \u00f6ffentlich gemacht. F\u00fcr eine SE2 ist das keine Schw\u00e4che, sondern Strategie: Die eigene verwundbare Geschichte wird zum Beweis, dass Heilung m\u00f6glich ist, und zur Br\u00fccke zu Millionen Menschen, die sich in ihr wiedererkennen.</p>
+          <p class="vb-intro">Oprah Winfrey hat ihre eigene Kindheit &ndash; Armut, sexueller Missbrauch, eine Teenagerschwangerschaft, den fr\u00fchen Tod ihres Sohnes &ndash; nie versteckt, sondern immer wieder \u00f6ffentlich gemacht. F\u00fcr eine SE2 ist das keine Schw\u00e4che, sondern Strategie: Die eigene verwundbare Geschichte wird zum Beweis, dass Heilung m\u00f6glich ist, und zur Br\u00fccke zu Millionen Menschen, die sich in ihr wiedererkennen. Wie sie diese Geschichte konkret verarbeitete und daraus ein Gesetz zum Schutz anderer Kinder erwirkte, beleuchtet das eigene <a href="javascript:void(0)" data-route="krankheitsportraets-oprah-winfrey">Krankheitsportr\u00e4t zu Oprah Winfrey</a>.</p>
           <p class="vb-intro">Diese Offenheit machte sie zu weit mehr als einer Talkshow-Moderatorin &ndash; zu einer Instanz, die \u00fcber B\u00fccher, Therapie, Spiritualit\u00e4t und Selbsterm\u00e4chtigung sprach, lange bevor diese Themen im Mainstream ankamen. Das Flusspferd, das selbst um sein \u00dcberleben k\u00e4mpfen musste, kennt den Wert eines sicheren Ufers &ndash; und baute eines f\u00fcr andere.</p>
         </blockquote>
 
@@ -63779,6 +63780,7 @@ function oprahWinfreyPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
+        {route:"krankheitsportraets-oprah-winfrey", label:"Krankheitsportr\u00e4t: Oprah Winfrey (SE2w3) \u2013 Vom Trauma zur Stimme"},
         {route:"beruehmte-uli-hoeness", label:"Portr\u00e4t: Uli Hoene\u00df (SE2w3)"},
         {route:"beruehmte-jack-black", label:"Portr\u00e4t: Jack Black (SE2w1)"},
         {route:"beruehmte-armin-rohde", label:"Portr\u00e4t: Armin Rohde (SE2w3)"},
@@ -70907,7 +70909,7 @@ function enneagrammOdysseePage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Wie Instinkt und Typ zusammenwirken \u2013 die verborgene Dynamik hinter den 27 Subtypen, jenseits der neun Grundtypen.", "Die verborgene Dynamik der 27 Subtypen")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
         <a class="book-tip" href="https://www.amazon.de/Die-Odyssee-Schmuckausgabe-Motiv-Farbschnitt-Christopher/dp/345864573X?linkCode=ll2&tag=enneagrammkom-21&linkId=63836859f1c80e6d43e322266418842b&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">
-          <span class="book-tip__icon">📖</span>
+          <span class="book-tip__icon">\ud83d\udcd6</span>
           <div class="book-tip__text">
             <strong>Buchtipp: \u00bbDie Odyssee \u2013 Schmuckausgabe\u00ab</strong>
             <span>Homers Epos \u00fcber die legend\u00e4ren Irrfahrten des Odysseus \u2013 zur Vertiefung als hochwertige, illustrierte Schmuckausgabe.</span>
@@ -74305,6 +74307,199 @@ function mrTKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-mr-t", label:"Porträt: Mr. T (SE2w3) – Lebenswerk"},
         {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3) – Körper als sichtbares Zeugnis"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
+function oprahWinfreyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-oprah-winfrey-portrait.jpg" alt="Oprah Winfrey – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oprah Winfrey</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel · geb. 1954</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Oprah Winfrey</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-oprah-winfrey">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihren Weg von der Armut in Mississippi
+        zum eigenen Medienimperium. Im Vordergrund dieser Seite steht ein Kapitel, das dort nur
+        kurz angerissen wird: die Kindheit, in der Oprah Winfrey ab etwa ihrem neunten
+        Lebensjahr über mehrere Jahre von mehreren Familienmitgliedern und Bekannten sexuell
+        missbraucht wurde, mit 14 Jahren schwanger wurde und ihr Kind wenige Wochen nach der
+        Geburt verlor – und wie sie diese Geschichte Jahrzehnte später zu einem zentralen,
+        öffentlich gemachten Teil ihrer Medienarbeit machte. Diese Seite verzichtet bewusst auf
+        Details der Taten selbst und konzentriert sich auf Offenlegung, Verarbeitung und
+        Wirkung.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Oprah Winfrey</strong> ist dem <strong>selbsterhaltenden Typ 2 mit
+        Dreierflügel</strong> zugeordnet. Naranjo nannte die selbsterhaltende Zwei <em>Me
+        First</em>: Die eigene Überlebensfähigkeit muss zuerst gesichert sein, bevor Fürsorge
+        für andere überhaupt möglich wird. Der Dreierflügel gibt dieser Fürsorge ein
+        unübersehbares, öffentliches Format – bei Oprah Winfrey die Entscheidung, die eigene
+        verwundbarste Geschichte nicht zu verbergen, sondern sie vor einem Millionenpublikum
+        zum Werkzeug der Heilung für andere zu machen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine Kindheit zwischen mehreren Haushalten:</strong>
+        Oprah Winfrey wuchs in den ersten Lebensjahren in Armut bei ihrer Großmutter in
+        ländlichem Mississippi auf, bevor sie zwischen den Haushalten ihrer Mutter in Milwaukee
+        und ihres Vaters in Nashville wechselte – ein instabiles Umfeld ohne durchgehenden
+        Schutz.</p>
+        <p class="vb-intro"><strong>b) Missbrauch ab etwa neun Jahren:</strong>
+        Wie Oprah Winfrey selbst öffentlich berichtet hat, wurde sie im Alter von etwa neun
+        Jahren erstmals von einem Verwandten sexuell missbraucht – der Beginn einer mehrjährigen
+        Phase, in der mehrere Familienmitglieder und Bekannte der Familie sie missbrauchten.</p>
+        <p class="vb-intro"><strong>c) Ein Geheimnis, das sie über Jahre allein trug:</strong>
+        Sie sprach über diese Erfahrungen jahrelang mit niemandem – ein Schweigen, das sie
+        selbst später als eine der schwersten Lasten ihrer Jugend beschrieb, verstärkt durch
+        das Gefühl, in der eigenen Notlage niemandem vertrauen zu können.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fortgesetzter Missbrauch bis ins Teenageralter:</strong>
+        Der Missbrauch setzte sich nach eigener Aussage bis zu ihrem vierzehnten Lebensjahr
+        fort, verübt von mehreren Tätern aus dem nahen familiären und bekanntschaftlichen
+        Umfeld – nicht ein einzelnes Ereignis, sondern ein über Jahre wiederholtes Muster.</p>
+        <p class="vb-intro"><strong>b) Schwangerschaft mit 14 Jahren:</strong>
+        Mit 14 Jahren wurde Oprah Winfrey schwanger. Aus Scham verheimlichte sie die
+        Schwangerschaft so lange wie möglich, bis sie durch körperliche Anzeichen offensichtlich
+        wurde.</p>
+        <p class="vb-intro"><strong>c) Der Tod des Sohnes wenige Wochen nach der Geburt:</strong>
+        Ihr Sohn kam zu früh zur Welt und starb wenige Wochen nach der Geburt im Krankenhaus –
+        ein Verlust, über den sie öffentlich erst Jahrzehnte später ausführlicher sprach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die öffentliche Offenlegung am 10. November 1986:</strong>
+        In einer Sendung ihrer eigenen Talkshow zum Thema sexueller Missbrauch, in der Betroffene
+        und Täter zu Wort kamen, machte Oprah Winfrey live vor Millionen Zuschauerinnen und
+        Zuschauern öffentlich, dass sie selbst als Kind Missbrauchsopfer gewesen war – ein
+        damals seltener, öffentlicher Bruch des Schweigens durch eine derart bekannte Person.</p>
+        <p class="vb-intro"><strong>b) Ein Verwandter verkauft die Geschichte 1990 an ein Boulevardblatt:</strong>
+        1990 wandte sich ein Familienmitglied an die Boulevardpresse und verkaufte Details über
+        Winfreys Teenagerschwangerschaft – eine erneute, diesmal ungewollte Offenlegung, die sie
+        zwang, öffentlich weiter zu ihrer Geschichte zu stehen, statt sie zu leugnen.</p>
+        <p class="vb-intro"><strong>c) Engagement für den National Child Protection Act:</strong>
+        1991 sagte Oprah Winfrey vor dem Justizausschuss des US-Senats aus und setzte sich unter
+        Bezug auf ihre eigene Geschichte für eine bundesweite Datenbank verurteilter
+        Kindesmissbraucher ein. Das Gesetz wurde 1993 unterzeichnet und im Volksmund als
+        „Oprah Bill" bekannt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine Talkshow, die Trauma zum wiederkehrenden Thema machte:</strong>
+        Über die Jahrzehnte griff <em>The Oprah Winfrey Show</em> das Thema Kindesmissbrauch
+        und dessen Folgen immer wieder auf – nicht als einmaliges Bekenntnis, sondern als
+        dauerhafter Bestandteil ihrer journalistischen und therapeutischen Arbeit vor der
+        Kamera.</p>
+        <p class="vb-intro"><strong>b) Bücher und Reflexionen als zweite Bühne:</strong>
+        In Interviews, ihrem Magazin und Büchern wie <em>What I Know For Sure</em> kehrte sie
+        wiederholt zu den Themen Kindheit, Verletzlichkeit und Heilung zurück – ihre eigene
+        Geschichte blieb über Jahrzehnte ein roter Faden ihres öffentlichen Wirkens.</p>
+        <p class="vb-intro"><strong>c) Die Oprah Winfrey Leadership Academy for Girls:</strong>
+        2007 gründete sie in Südafrika die Oprah Winfrey Leadership Academy for Girls, eine
+        Schule für Mädchen aus benachteiligten Verhältnissen – ein Projekt, das ihre eigene
+        Erfahrung von Armut und Verletzlichkeit direkt in konkrete Fürsorge für andere Mädchen
+        übersetzt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Fürsorge, die bei der eigenen Geschichte beginnt:</strong>
+        Für eine selbsterhaltende Zwei, deren Fürsorge zuerst bei der eigenen Basis ansetzt,
+        wurde die eigene Kindheitsgeschichte selbst zum Ausgangspunkt: Erst indem sie die
+        eigene Verletzlichkeit anerkannte und öffentlich machte, konnte sie sie in ein
+        Werkzeug für andere verwandeln.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als Antrieb, aus persönlichem Leid ein öffentliches Format zu machen:</strong>
+        Statt die Geschichte privat zu halten, machte Oprah Winfrey sie zu einem wiederkehrenden
+        Bestandteil ihrer Sendung, ihrer Bücher und ihres politischen Engagements – typisch für
+        den Dreierflügel, der auch das schwerste Kapitel in ein sichtbares, wirkungsvolles
+        Statement verwandelt, das möglichst viele Menschen erreichen soll.</p>
+        <p class="vb-intro"><strong>c) Von der eigenen Verwundung zur strukturellen Veränderung:</strong>
+        Dass sie ihre persönliche Geschichte bis vor den US-Senat trug und dort in ein
+        konkretes Gesetz zum Schutz anderer Kinder übersetzte, zeigt die typische Bewegung der
+        SE2w3: von der eigenen Not zur greifbaren, institutionellen Fürsorge für andere.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Wunde an genau der Stelle, an der später ihre Stärke entstand:</strong>
+        Die frühe Erfahrung von Missbrauch, Ohnmacht und Schweigen betraf ausgerechnet jenen
+        Bereich – die eigene, verletzlichste Geschichte –, den Oprah Winfrey später zur
+        Grundlage ihrer öffentlichen Wirkung machte. Was sie als Kind verbergen musste, wurde
+        Jahrzehnte später zur Quelle ihrer größten Wirkmacht.</p>
+        <p class="vb-intro"><strong>b) Erst Jahre des Schweigens, dann eine bewusste, wiederholte Offenlegung:</strong>
+        Zwischen dem Erleben des Missbrauchs und der ersten öffentlichen Offenlegung 1986 lagen
+        rund zwei Jahrzehnte – ein für die selbsterhaltende Zwei typisches Muster: Erst die
+        eigene Stabilität und berufliche Basis sichern, bevor die verletzlichste Geschichte
+        nach außen getragen wird.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die eigene Kindheitsgeschichte zum wiederkehrenden öffentlichen Thema wurde?</strong>
+        Für eine selbsterhaltende Zwei mit Dreierflügel, deren Fürsorge zuerst bei der eigenen
+        Basis ansetzt und die zugleich messbare Wirkung sucht, lässt sich in der wiederholten
+        öffentlichen Offenlegung der eigenen Missbrauchsgeschichte eine Zuspitzung des eigenen
+        Lebensmusters lesen: Die eigene, tiefste Verletzlichkeit wird nicht länger verborgen,
+        sondern – im Dreierflügel-typischen öffentlichen Format – so genutzt, dass sie
+        größtmögliche Wirkung für andere entfaltet. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei mit Dreierflügel
+        zwangsläufig zu Missbrauchserfahrungen führt oder diese erklärt – <strong>jeder Mensch
+        kann unabhängig vom Subtyp Opfer von Missbrauch werden, und kein Subtyp trägt daran
+        eine Mitschuld.</strong> Was sich an Oprah Winfreys Fall zeigen lässt, ist ein Muster
+        im späteren Umgang mit einer erlittenen Verletzung, das bei einer ausgeprägten
+        selbsterhaltenden Zwei mit Dreierflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Oprah Winfrey kannte, wie die meisten Menschen, ihr eigenes Enneagramm-Muster über
+        weite Strecken ihres Lebens nicht bewusst. Ohne dieses Wissen lebte sie dennoch genau
+        das Muster der selbsterhaltenden Zwei mit Dreierflügel aus: erst die eigene Not
+        stillschweigend ertragen, dann – sobald die eigene Basis gesichert war – die
+        verletzlichste eigene Geschichte in ein möglichst großes, öffentlich wirksames Format
+        verwandeln. Dass sie dieses Muster nicht als Charakterzug erkannte, sondern es einfach
+        lebte, erklärt, warum aus einem einzelnen Bekenntnis 1986 über Jahrzehnte ein
+        durchgehendes Lebensthema wurde, das Talkshow, Bücher und politisches Engagement
+        gleichermaßen prägte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Zwei mit Dreierflügel zeigt sich bei <strong>Oprah Winfrey</strong>
+        in der Art, wie sie mit der eigenen Kindheitsgeschichte umging: erst jahrelanges
+        Schweigen, um die eigene Basis zu sichern, dann eine bewusste, wiederholte öffentliche
+        Offenlegung, die zum Werkzeug der Heilung für Millionen wurde. Das Flusspferd, das
+        einst selbst um sein Überleben kämpfen musste, verteidigte sein Revier am Ende nicht
+        mehr nur für sich, sondern öffnete es – als sicheres Ufer für alle, die sich in seiner
+        Geschichte wiedererkannten.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
@@ -131532,6 +131727,7 @@ function render() {
       "krankheitsportraets-giacomo-puccini": giacomoPucciniKrankheitsportraetPage,
       "krankheitsportraets-larry-king": larryKingKrankheitsportraetPage,
       "krankheitsportraets-mr-t": mrTKrankheitsportraetPage,
+      "krankheitsportraets-oprah-winfrey": oprahWinfreyKrankheitsportraetPage,
       "krankheitsportraets-muhammad-ali": muhammadAliKrankheitsportraetPage,
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
       "krankheitsportraets-frederic-chopin": fredericChopinKrankheitsportraetPage,
