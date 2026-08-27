@@ -41784,6 +41784,14 @@ function enneagrammOdysseePage() {
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – protection patterns, passions, and the path to essence. The first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "How instinct and type interact – the hidden dynamics behind the 27 subtypes, beyond the nine core types.", "Die verborgene Dynamik der 27 Subtypen")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        <a class="book-tip" href="https://www.amazon.com/Illustrated-Odyssey-Deluxe-Classics/dp/1454968044?tag=enneagramcomp-20" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">📖</span>
+          <div class="book-tip__text">
+            <strong>Book tip: »The Illustrated Odyssey« (Deluxe Edition)</strong>
+            <span>Homer's epic of Odysseus's legendary voyage – for further reading, in a deluxe illustrated hardcover edition.</span>
+          </div>
+          <span class="book-tip__arrow">→</span>
+        </a>
         ${relatedLinks([
           {route:"enneagramm-astrologie", label:"Enneagram Meets Astrology"},
           {route:"enneagramm-wohnraumarchitektur", label:"Enneagram Meets Interior Architecture"},
