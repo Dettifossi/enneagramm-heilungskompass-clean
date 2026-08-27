@@ -32263,6 +32263,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-sean-connery", name:"Sean Connery", subtyp:"SO3w4", heading:"Sean Connery – Sozialer Typ 3", krankheit:"Demenzerkrankung, erst nach dem Tod öffentlich bestätigt", teaser:"SO3w4 – Schauspieler, 1930–2020. Demenzerkrankung in den letzten Lebensjahren, über Jahre vor der Öffentlichkeit verborgen, erst nach seinem Tod 2020 von seinem Sohn bestätigt." , land:"Vereinigtes Königreich", gender:"m", jahre:"1930–2020"},
   { route:"krankheitsportraets-ashton-kutcher", name:"Ashton Kutcher", subtyp:"SO2w3", heading:"Ashton Kutcher – Sozialer Typ 2", krankheit:"Seltene Autoimmunerkrankung (Vaskulitis) mit zeitweiligem Verlust von Seh-, Hör- und Gehfähigkeit", teaser:"SO2w3 – Schauspieler und Unternehmer, geb. 1978. Seltene autoimmune Gefäßentzündung mit zeitweiligem Verlust von Seh-, Hör- und Gehfähigkeit, zwei Jahre lang privat gehalten, öffentlich gemacht 2023." , land:"USA", gender:"m", jahre:"geb. 1978"},
   { route:"krankheitsportraets-robert-de-niro", name:"Robert De Niro", subtyp:"SE1w9", heading:"Robert De Niro – Selbsterhaltender Typ 1", krankheit:"Prostatakrebs, 2003 diagnostiziert, erfolgreich und weitgehend privat behandelt", teaser:"SE1w9 – Schauspieler und Produzent, geb. 1943. 2003 diagnostizierter Prostatakrebs, zügig und diskret behandelt, seither nur vereinzelte öffentliche Erwähnungen im Kontext von Vorsorgeappellen." , land:"USA", gender:"m", jahre:"geb. 1943"},
+  { route:"krankheitsportraets-ludwig-wittgenstein", name:"Ludwig Wittgenstein", subtyp:"SE1w9", heading:"Ludwig Wittgenstein – Selbsterhaltender Typ 1", krankheit:"Prostatakrebs mit Wirbelsäulen-Metastasen, Dezember 1949 diagnostiziert, unheilbar", teaser:"SE1w9 – Philosoph, 1889–1951. Monatelange Erschöpfung, fehlgedeutet als Blutarmut, im Dezember 1949 als Prostatakrebs mit Absiedlungen erkannt. Hormonbehandlung raubte ihm über ein Jahr lang die Denkfähigkeit. Starb am 29. April 1951 in Cambridge." , land:"Österreich/Vereinigtes Königreich", gender:"m", jahre:"1889–1951"},
   { route:"krankheitsportraets-elon-musk", name:"Elon Musk", subtyp:"SO7w6", heading:"Elon Musk – Sozialer Typ 7", krankheit:"Asperger-Syndrom, öffentlich bekannt gegeben 2021", teaser:"SO7w6 – Unternehmer, geb. 1971. Am 8. Mai 2021 live bei 'Saturday Night Live' öffentlich bekannt gegebenes Asperger-Syndrom, davor jahrzehntelang keine formale Diagnose." , land:"USA", gender:"m", jahre:"geb. 1971"},
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexueller Typ 7", krankheit:"Magenkrebs, arbeitete bis wenige Monate vor dem Tod weiter", teaser:"SX7w6 – Primatenforscher, 1948–2024. Magenkrebs-Diagnose im August 2023, blieb öffentlich und wissenschaftlich aktiv, starb am 14. März 2024 im Alter von 75 Jahren." , land:"Niederlande/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Selbsterhaltender Typ 8", krankheit:"Niereninsuffizienz, Schlaganfall", teaser:"SE8w9 – Boss der Cosa Nostra, 1930–2017. Fortschreitende Niereninsuffizienz, Schlaganfall 2017, wiederholt abgelehnte Anträge auf Haftverschonung. Gestorben am 17. November 2017 im Krankenhausflügel des Gefängnisses von Parma." , land:"Italien", gender:"m", jahre:"1930–2017"},
@@ -45840,7 +45841,7 @@ function ludwigWittgensteinPortraitPage() {
         <h2 class="vb-section">6. Das Geschenk: Radikale Ehrlichkeit im Denken</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Wittgenstein der Philosophie hinterlassen hat, ist eine Kompromisslosigkeit, die bis heute ihresgleichen sucht: die Weigerung, sich mit einer Formulierung zufriedenzugeben, solange sie nicht wirklich stimmt. Der Adler, der lieber ganz allein und ganz genau denkt, als sich mit halber Klarheit zufriedenzugeben.</p>
-          <p class="vb-intro">Er starb am 29. April 1951 in Cambridge an Prostatakrebs. Seine letzten Worte, \u00fcberliefert von seiner \u00c4rztin: <em>\u00bbSagt ihnen, ich hatte ein wunderbares Leben.\u00ab</em> Ein Satz, der f\u00fcr viele \u00fcberraschend klingt angesichts eines Lebens voller Selbstverzicht, innerer H\u00e4rte und famili\u00e4rer Trag\u00f6dien \u2013 und der doch genau die SE1w9 zeigt, die er zeitlebens war: Erf\u00fcllung nicht durch Genuss, sondern durch die Gewissheit, dem eigenen, unerbittlichen Anspruch treu geblieben zu sein.</p>
+          <p class="vb-intro">Wie sich seine letzten Lebensjahre mit einer unheilbaren Krebsdiagnose verbanden, wird im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-ludwig-wittgenstein">Krankheitsporträt zu Wittgenstein</a> ausführlich gedeutet. Er starb am 29. April 1951 in Cambridge an Prostatakrebs. Seine letzten Worte, \u00fcberliefert von seiner \u00c4rztin: <em>\u00bbSagt ihnen, ich hatte ein wunderbares Leben.\u00ab</em> Ein Satz, der f\u00fcr viele \u00fcberraschend klingt angesichts eines Lebens voller Selbstverzicht, innerer H\u00e4rte und famili\u00e4rer Trag\u00f6dien \u2013 und der doch genau die SE1w9 zeigt, die er zeitlebens war: Erf\u00fcllung nicht durch Genuss, sondern durch die Gewissheit, dem eigenen, unerbittlichen Anspruch treu geblieben zu sein.</p>
         </blockquote>
 
       </div>
@@ -45852,6 +45853,7 @@ function ludwigWittgensteinPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
+        {route:"krankheitsportraets-ludwig-wittgenstein", label:"Krankheitsporträt: Ludwig Wittgenstein (SE1w9)"},
       ])}
     </div>
   `);
@@ -78264,6 +78266,166 @@ function martinLutherKrankheitsportraetPage() {
   `);
 }
 
+function ludwigWittgensteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-wittgenstein-portrait.jpg" alt="Ludwig Wittgenstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Wittgenstein</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1889–1951</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ludwig Wittgenstein</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ludwig-wittgenstein">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, den Adler als Tiermotiv und
+        seine Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur
+        gestreift wird: der Prostatakrebs-Diagnose vom Dezember 1949, den Monaten unklarer
+        Erschöpfung davor, und den letzten anderthalb Jahren bis zu seinem Tod 1951.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Wittgenstein</strong> ist der <strong>selbsterhaltenden Eins mit Neunerflügel</strong>
+        zugeordnet. Die SE1 misst sich unablässig an einem inneren Maßstab von Integrität und
+        Vollständigkeit – Krankheit ist für diesen Subtyp nicht einfach ein körperliches Ereignis,
+        sondern eine Art Beweis der eigenen Unvollkommenheit, dem mit Disziplin und möglichst
+        wenig öffentlicher Klage begegnet wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Monatelange, unklare Erschöpfung:</strong>
+        Bereits Monate vor der eigentlichen Diagnose litt Wittgenstein an einer Erschöpfung, die
+        zunächst nicht eindeutig zugeordnet werden konnte – ein Zustand, den er, seinem Muster
+        entsprechend, lange herunterspielte, statt ihn zum zentralen Thema zu machen.</p>
+        <p class="vb-intro"><strong>b) Eine erste, falsche Fährte:</strong>
+        Ein Arzt in Dublin diagnostizierte zunächst eine Blutarmut und verschrieb Eisen- und
+        Leberpräparate – eine Behandlung, die das eigentliche Problem nicht traf und die Klärung
+        zusätzlich verzögerte.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeiten trotz spürbarer Schwäche:</strong>
+        Auch in dieser Phase unklarer gesundheitlicher Beschwerden setzte Wittgenstein seine
+        philosophische Arbeit fort – ein Innehalten allein wegen unspezifischer Erschöpfung kam für
+        ihn nicht infrage, solange keine eindeutige Diagnose vorlag.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Diagnose im Dezember 1949:</strong>
+        Erst im Dezember 1949 wurde die tatsächliche Ursache gefunden: Prostatakrebs, zu diesem
+        Zeitpunkt bereits mit Absiedlungen in der Wirbelsäule – eine Diagnose, die von vornherein
+        keine Aussicht auf Heilung mehr bot.</p>
+        <p class="vb-intro"><strong>b) Eine Hormonbehandlung mit hohem Preis:</strong>
+        Die eingeleitete Hormontherapie (Stilböstrol) sollte das Fortschreiten verlangsamen –
+        brachte aber über dreizehn, vierzehn Monate hinweg einen Zustand mit sich, in dem
+        Wittgenstein sich selbst als nahezu unfähig zu denken beschrieb.</p>
+        <p class="vb-intro"><strong>c) Der Verlust des eigenen Werkzeugs:</strong>
+        Für einen Mann, dessen gesamte Identität auf der Schärfe des eigenen Denkens beruhte, war
+        dieser vorübergehende Verlust der Denkfähigkeit vermutlich schwerer zu ertragen als die
+        Diagnose selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Keine öffentliche Klage:</strong>
+        Wittgenstein sprach auch im Angesicht der unheilbaren Diagnose kaum öffentlich über sein
+        Leiden – ganz im Einklang mit dem SE1w9-Muster, Schwäche nicht zur Schau zu stellen,
+        sondern in Zurückgezogenheit zu verarbeiten.</p>
+        <p class="vb-intro"><strong>b) Reisen zwischen Wien, Oxford und Cambridge:</strong>
+        Die letzten beiden Lebensjahre verbrachte er wechselnd zwischen Wien, Oxford und Cambridge
+        – kein Rückzug ins Krankenbett, sondern ein Leben, das trotz der Diagnose in Bewegung
+        blieb.</p>
+        <p class="vb-intro"><strong>c) Arbeit bis fast zuletzt:</strong>
+        Selbst in dieser Phase setzte Wittgenstein seine philosophische Arbeit fort, so gut es die
+        Kräfte zuließen – das Manuskript, das später als <em>Über Gewissheit</em> veröffentlicht
+        wurde, entstand in genau diesen letzten Monaten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Rückzug zu seinem Arzt:</strong>
+        In seinen letzten Wochen zog Wittgenstein, der zuvor jahrzehntelang selbst kaum ein
+        eigenes Zuhause im herkömmlichen Sinn unterhielt, in das Haus seines Arztes Dr. Edward
+        Bevan in Cambridge – eine seltene Geste des Sich-Anvertrauens für einen Mann, der Nähe
+        selten zuließ.</p>
+        <p class="vb-intro"><strong>b) Ein bewusstes letztes Fest:</strong>
+        Kurz vor seinem Tod bat er Mrs. Bevan, sein bevorstehendes Ende noch nicht mit ihm zu
+        besprechen, und feierte, soweit möglich, seinen zweiundsechzigsten Geburtstag im April
+        1951 – Normalität als letzter Akt der Selbstkontrolle.</p>
+        <p class="vb-intro"><strong>c) Tod am 29. April 1951:</strong>
+        Ludwig Wittgenstein starb zwei Tage nach seinem Geburtstag im Haus seines Arztes in
+        Cambridge. Seine letzten überlieferten Worte: »Sagt ihnen, ich hatte ein wunderbares
+        Leben.«</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">5. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Robert De Niro (SE1w9):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-robert-de-niro">Robert
+        De Niro</a>, ebenfalls SE1w9, war es dieselbe Krankheit – Prostatakrebs –, die hier auf
+        zwei gegensätzliche Weisen verarbeitet wurde. De Niro ließ seine 2003 diagnostizierte
+        Erkrankung zügig und diskret behandeln und überlebte; bei Wittgenstein wurde die Diagnose
+        deutlich später gestellt, zu einem Zeitpunkt, an dem Heilung nicht mehr möglich war – zwei
+        Varianten derselben SE1-Grundhaltung, körperliche Warnsignale möglichst lange nicht zum
+        zentralen Thema zu machen, nur mit unterschiedlichem Ausgang.</p>
+        <p class="vb-intro"><strong>b) Gesundheit als weiteres Feld des eigenen Anspruchs:</strong>
+        Für eine SE1 ist der eigene Körper kein neutraler Schauplatz, sondern ein weiteres Feld, auf
+        dem sich der innere Anspruch an Integrität und Vollständigkeit misst. Eine Krankheit, die
+        sich nicht kontrollieren oder durch Disziplin abwenden lässt, stellt diesen Anspruch auf
+        eine Weise infrage, die für die SE1 kaum erträglich ist – und genau deshalb oft lange
+        verdrängt oder heruntergespielt wird, bis eine eindeutige Diagnose keine Ausflucht mehr
+        zulässt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Verlust der Denkfähigkeit?</strong>
+        Für einen Mann, dessen gesamtes Selbstverständnis auf der Schärfe des eigenen Denkens
+        beruhte, liegt eine Deutung nahe: Die Hormonbehandlung traf ausgerechnet das Werkzeug, mit
+        dem Wittgenstein zeitlebens seinen eigenen, unerbittlichen Anspruch an Klarheit
+        verwirklicht hatte. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu Krebserkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Wittgensteins Fall zeigen lässt, ist ein Muster im Umgang mit unklaren
+        körperlichen Warnsignalen, das bei einer ausgeprägten selbsterhaltenden Eins immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Wittgenstein kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten noch nicht. Die SE1-Neigung, Schwäche nicht zum zentralen Thema zu machen, kannte
+        für ihn keinen eingebauten Warnmechanismus, der ihn zu einer früheren, gründlicheren
+        Abklärung der monatelangen Erschöpfung hätte bewegen können. Wer das eigene Muster, Klagen
+        möglichst zu vermeiden, nicht kennt, kann es auch nicht rechtzeitig durchbrechen – bei
+        Wittgenstein blieb bis zuletzt offen, ob eine frühere Diagnose etwas am Verlauf geändert
+        hätte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">6. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Wittgensteins</strong> selbsterhaltende Eins
+        mit Neunerflügel noch einmal ablesen: monatelang heruntergespielte Erschöpfung, eine späte,
+        unheilbare Diagnose, und eine letzte Lebensphase, die trotz allem von Arbeit, Bewegung und
+        einem bewusst gewählten, würdevollen Abschied geprägt war – bis hin zu den eigenen, sorgsam
+        gewählten letzten Worten. Der Adler, der bis zuletzt allein seine Kreise zog, selbst als der
+        eigene Körper längst nicht mehr mithalten konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Porträt: Ludwig Wittgenstein (SE1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}
+
 function ludwigVanBeethovenKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -92731,6 +92893,7 @@ function robertDeNiroKrankheitsportraetPage() {
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
         {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-ludwig-wittgenstein", label:"Krankheitsporträt: Ludwig Wittgenstein (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
@@ -133491,6 +133654,7 @@ function render() {
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
       "krankheitsportraets-otto-von-bismarck": ottoVonBismarckKrankheitsportraetPage,
       "krankheitsportraets-martin-luther": martinLutherKrankheitsportraetPage,
+      "krankheitsportraets-ludwig-wittgenstein": ludwigWittgensteinKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
