@@ -467,7 +467,6 @@ export const registerEntries = [
   { term: "Frans de Waal Krankheitsporträt", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexueller Typ 7 · Magenkrebs, aktiv bis wenige Monate vor dem Tod" },
   { term: "Salvatore Riina Krankheitsporträt", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SE8w9 · Selbsterhaltender Typ 8 · Niereninsuffizienz, Schlaganfall in Haft" },
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
-  { term: "Otto von Bismarck Krankheitsporträt", route: "krankheitsportraets-otto-von-bismarck", description: "Portrait: SX6w5 · Sexueller Typ 6 · Erschöpfung, Übergewicht und verweigerte Gangrän-Behandlung" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
   { term: "Romy Schneider Krankheitsporträt", route: "krankheitsportraets-romy-schneider", description: "Portrait: SO4w3 · Sozialer Typ 4 · Nierenoperation, Alkohol- und Tablettenkonsum, ungeklärter Tod 1982" },
@@ -676,7 +675,6 @@ export const registerEntries = [
 
   // Berühmte Persönlichkeiten – Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 · Sexueller Typ 6 · Politiker, Präsident der Russischen Föderation" },
-  { term: "Otto von Bismarck",             route: "beruehmte-otto-von-bismarck",           description: "Portrait: SX6w5 · Sexueller Typ 6 · Erster Reichskanzler des Deutschen Kaiserreichs" },
   { term: "Platon",                        route: "beruehmte-platon",                      description: "Portrait: SX6w5 · Sexueller Typ 6 · Philosoph, Schüler des Sokrates, Gründer der Akademie" },
   { term: "Friedrich Schiller",            route: "beruehmte-friedrich-schiller",          description: "Portrait: SX6w5 · Sexueller Typ 6 · Dichter, Dramatiker, Historiker" },
   { term: "Ludwig van Beethoven",          route: "beruehmte-ludwig-van-beethoven",        description: "Portrait: SX6w5 · Sexueller Typ 6 · Komponist, Neunte Symphonie, Eroica" },
@@ -1179,7 +1177,6 @@ export const registerEntriesEN = [
 
   // Famous Personalities – Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 · Sexual Type 6 · Politician, President of the Russian Federation" },
-  { term: "Otto von Bismarck", route: "beruehmte-otto-von-bismarck", description: "Portrait: SX6w5 · Sexual Type 6 · First Chancellor of the German Empire" },
   { term: "Plato", route: "beruehmte-platon", description: "Portrait: SX6w5 · Sexual Type 6 · Philosopher, student of Socrates, founder of the Academy" },
   { term: "Friedrich Schiller", route: "beruehmte-friedrich-schiller", description: "Portrait: SX6w5 · Sexual Type 6 · Poet, playwright, historian" },
   { term: "Ludwig van Beethoven", route: "beruehmte-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexual Type 6 · Composer, Ninth Symphony, Eroica" },
@@ -1909,7 +1906,6 @@ export const registerEntriesEN = [
   { term: "Frans de Waal Illness Portrait", route: "krankheitsportraets-frans-de-waal", description: "Portrait: SX7w6 · Sexual Type 7 · Stomach cancer, active until a few months before death" },
   { term: "Salvatore Riina Illness Portrait", route: "krankheitsportraets-salvatore-riina", description: "Portrait: SP8w9 · Self-Preservation Type 8 · Kidney failure, stroke in custody" },
   { term: "Friedrich Schiller Illness Portrait", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexual Type 6 · pulmonary tuberculosis, fourteen years of work against his own decline" },
-  { term: "Otto von Bismarck Illness Portrait", route: "krankheitsportraets-otto-von-bismarck", description: "Portrait: SX6w5 · Sexual Type 6 · exhaustion, obesity, and refused treatment of gangrene" },
   { term: "Ludwig van Beethoven Illness Portrait", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexual Type 6 · progressive deafness and liver cirrhosis" },
   { term: "Michael Jackson Illness Portrait", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Social Type 4 · decades-long dependence on pain and sleep medication" },
   { term: "Romy Schneider Illness Portrait", route: "krankheitsportraets-romy-schneider", description: "Portrait: SO4w3 · Social Type 4 · kidney surgery, alcohol and pill dependency, unresolved 1982 death" },
