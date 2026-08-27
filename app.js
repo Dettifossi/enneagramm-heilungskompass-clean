@@ -33334,6 +33334,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wladimir Putin \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 geb. 1952 in Leningrad. Politiker, Pr\u00e4sident der Russischen F\u00f6deration, ehem. KGB-Offizier. Der Wolf, der Angst durch Kontrolle \u00fcber andere zu bezwingen versucht.",
     land:"Russland", tags:["Politik"], gender:"m"},
+  { route:"beruehmte-otto-von-bismarck", name:"Otto von Bismarck", added:"2026-08-27", subtyp:"SX6w5",
+    heading:"Otto von Bismarck \u2013 Sexueller Typ 6",
+    teaser:"SX6w5 \u00b7 1815\u20131898. Erster Reichskanzler des Deutschen Kaiserreichs, \u203aEiserner Kanzler\u2039. Der Wolf, der Angst durch Einsch\u00fcchterung und R\u00fccktrittsdrohungen bezwang.",
+    land:"Deutschland", tags:["Politik","Geschichte"], gender:"m"},
   { route:"beruehmte-platon", name:"Platon", added:"2026-08-14", subtyp:"SX6w5",
     heading:"Platon – Sexueller Typ 6",
     teaser:"SX6w5 · ca. 428–348 v. Chr. Griechischer Philosoph, Schüler des Sokrates, Gründer der Akademie. Ideenlehre, Höhlengleichnis, ›Politeia‹. Der Wolf mit Fünferflügel: aus dem Verrat an Sokrates eine unerschütterliche Ordnung geschaffen. Tierentsprechung: Wolf.",
@@ -44270,12 +44274,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
-    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht"],
+    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck"],
     fingerabdruecke: [
       {
         titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
         beschreibung: "Anders als die anderen Sechser-Subtypen sucht diese Ausprägung Sicherheit nicht durch Anpassung oder Rückzug, sondern durch das direkte Konfrontieren der eigenen Angst – Stärke wird zur Gegenreaktion auf eine tief sitzende Unsicherheit.",
-        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen; Scarlett Johansson, deren Rollen – die kühle Black Widow, die kontrollierte KI-Stimme in ›Her‹ – immer wieder Stärke performen, während darunter etwas Verletzliches, Suchendes liegt; Moses, der sich der Berufung am Dornbusch viermal widersetzte, dann aber wiederholt und ohne erkennbares Zögern vor den mächtigsten Herrscher der bekannten Welt trat; Friedrich Schiller, der als Kadett heimlich ›Die Räuber‹ gegen die Zensur seines Herzogs verfasste und schließlich mittellos aus Württemberg floh, statt sich der Willkürherrschaft zu beugen – und der später mit derselben Härte, mit der er einst dem Herzog begegnet war, vierzehn Jahre gegen den eigenen, tödlich fortschreitenden Krankheitsverfall arbeitete; Beethoven, der zwei parallel fortschreitenden Erkrankungen – Taubheit und Leberzirrhose – nie mit Rückzug, sondern bis zur geballten Faust im Moment seines Todes mit fortgesetzter Arbeit begegnete."
+        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen; Scarlett Johansson, deren Rollen – die kühle Black Widow, die kontrollierte KI-Stimme in ›Her‹ – immer wieder Stärke performen, während darunter etwas Verletzliches, Suchendes liegt; Moses, der sich der Berufung am Dornbusch viermal widersetzte, dann aber wiederholt und ohne erkennbares Zögern vor den mächtigsten Herrscher der bekannten Welt trat; Friedrich Schiller, der als Kadett heimlich ›Die Räuber‹ gegen die Zensur seines Herzogs verfasste und schließlich mittellos aus Württemberg floh, statt sich der Willkürherrschaft zu beugen – und der später mit derselben Härte, mit der er einst dem Herzog begegnet war, vierzehn Jahre gegen den eigenen, tödlich fortschreitenden Krankheitsverfall arbeitete; Beethoven, der zwei parallel fortschreitenden Erkrankungen – Taubheit und Leberzirrhose – nie mit Rückzug, sondern bis zur geballten Faust im Moment seines Todes mit fortgesetzter Arbeit begegnete; Otto von Bismarck, der Kaiser Wilhelm I. wiederholt mit dem eigenen Rücktritt drohte, statt sich politischen Niederlagen zu beugen, und dessen eigenes Eingeständnis ›Ich bin ganz Nerven, sodass Selbstbeherrschung stets die größte Aufgabe meines Lebens war‹ zeigt, wie viel Kraft es kostete, die eigene Angst hinter Drohgebärden zu verbergen."
       },
       {
         titel: "Direkter Blickkontakt und Klartext statt Rückzug oder Diplomatie",
@@ -48628,6 +48632,75 @@ function wladimirPutinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-otto-von-bismarck", label:"Portr\u00e4t: Otto von Bismarck (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function ottoVonBismarckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto von Bismarck</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Erster Reichskanzler des Deutschen Kaiserreichs, geb. 1815 in Sch\u00f6nhausen, gest. 1898 in Friedrichsruh &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Rudeltier, das seine Position durch St\u00e4rke behauptet und jede Bedrohung des Territoriums mit Z\u00e4hnen beantwortet. Der Wolf vertraut nicht leicht. Er prescht nicht blind vor, sondern beobachtet, wittert, wartet auf den richtigen Moment &ndash; und wenn er zuschl\u00e4gt, dann entschlossen und ohne halbe Sachen.</p>
+          <p class="vb-intro">Otto von Bismarck, geboren 1815 auf dem Gut Sch\u00f6nhausen in der Altmark, ist dieser Wolf in seiner reinsten politischen Gestalt. Zeitgenossen beschrieben ihn als \u00bbd\u00e4monisch\u00ab, als \u00bbdiabolisch\u00ab &ndash; Formulierungen, die weniger sein Wesen treffen als das, was er bewusst nach au\u00dfen kehrte: eine Bedrohlichkeit, die keinen Zweifel daran lie\u00df, dass es gef\u00e4hrlich war, sich mit ihm anzulegen. Als seine Mutter starb, war er dreizehn Jahre alt; sein Vater, ein biederer Landjunker, hielt den ambitionslosen, unsteten Sohn zeitlebens f\u00fcr eine Entt\u00e4uschung. Aus diesem doppelten Mangel &ndash; fr\u00fch verlorene N\u00e4he, nie erhaltene Anerkennung &ndash; erwuchs kein R\u00fcckzug, sondern das genaue Gegenteil: eine zwanghafte, lebenslange Suche nach Dominanz und Best\u00e4tigung, die sich niemand mehr entziehen konnte.</p>
+          <p class="vb-intro">Sein eigenes Urteil \u00fcber sich selbst best\u00e4tigt, wie viel Kraft es kostete, diese Fassade aufrechtzuerhalten: \u203aIch bin ganz Nerven, sodass Selbstbeherrschung stets die gr\u00f6\u00dfte Aufgabe meines Lebens war.\u2039 Das ist kein Satz eines Mannes ohne Angst. Es ist das Gest\u00e4ndnis eines Wolfes, der seine eigene Nervosit\u00e4t so gr\u00fcndlich hinter Drohgeb\u00e4rden verbarg, dass ganze Generationen von Zeitgenossen und Historikern sie f\u00fcr Kaltbl\u00fctigkeit hielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Einsch\u00fcchterung statt R\u00fcckzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit Vorsicht oder Meidung, sondern mit pr\u00e4ventivem Angriff. <em>Wenn ich bedrohlicher bin als die Bedrohung selbst, dann kann mir nichts geschehen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Macht, weil sie die Erfahrung von Ohnmacht kennt und sich geschworen hat, ihr nie wieder ausgeliefert zu sein.</p>
+          <p class="vb-intro">Bismarcks politisches Handwerkszeug bestand aus genau dieser Logik. Sein bekanntestes Machtinstrument gegen\u00fcber Kaiser Wilhelm I. war die wiederholte R\u00fccktrittsdrohung: Wann immer der Kaiser sich seiner Linie widersetzen wollte, drohte Bismarck mit dem eigenen Abgang &ndash; ein Druckmittel, das er so oft und so wirkungsvoll einsetzte, dass der weit \u00e4ltere Monarch ihm in den meisten strittigen Fragen nachgab, aus Angst, den unentbehrlichen Kanzler tats\u00e4chlich zu verlieren. Das ist kein diplomatisches Nachgeben, das ist Einsch\u00fcchterung als Regierungsstil &ndash; die Drohung wird zur Waffe, weil der offene R\u00fcckzug f\u00fcr die SX6 keine Option ist.</p>
+          <p class="vb-intro">Hinzu kam eine ausgepr\u00e4gte Neigung zur Projektion: Bismarck war zutiefst \u00fcberzeugt, von Rivalen und vermeintlichen Verschw\u00f6rern umgeben zu sein &ndash; am Hof, in der Presse, in den Parlamentsfraktionen. Tageb\u00fccher und Korrespondenz belegen ein zwanghaftes Kreisen um m\u00f6glichen Verrat, um vergangene Kr\u00e4nkungen, um imagin\u00e4rte Umsturzpl\u00e4ne. Diese Angst wurde nicht introspektiv verarbeitet, sondern nach au\u00dfen projiziert und in Pr\u00e4ventivschl\u00e4ge \u00fcbersetzt: Wer als Gefahr galt, wurde politisch kaltgestellt, bevor er selbst zuschlagen konnte. Sein eigenes Rudel &ndash; ein enger Kreis loyaler Vertrauter wie Albrecht von Roon oder Robert von Keudell &ndash; wurde entsprechend eng gef\u00fchrt und gegen jede Konkurrenz von au\u00dfen verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Hypochondrie und strategische Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine analytische Tiefe und eine Neigung zum R\u00fcckzug in die eigene Innenwelt, die ihre K\u00e4mpfernatur um eine zweite, stillere Seite erg\u00e4nzt. Die SX6w5 handelt nicht impulsiv &ndash; sie beobachtet, w\u00e4gt ab, durchdenkt Konstellationen weit im Voraus, und zieht sich, wenn die Spannung zu gro\u00df wird, in eine br\u00fctende Isolation zur\u00fcck, statt sie im Au\u00dfen abzureagieren.</p>
+          <p class="vb-intro">Bei Bismarck zeigte sich dieser Fl\u00fcgel doppelt: einerseits in einer au\u00dfergew\u00f6hnlichen strategischen Begabung, die europ\u00e4ische M\u00e4chtekonstellationen \u00fcber Jahre hinweg antizipierte und geduldig auf den richtigen Moment hinarbeitete &ndash; nie das Ergebnis blinder Impulsivit\u00e4t, sondern jahrelanger Vorausplanung. Andererseits in einer ausgepr\u00e4gten Hypochondrie und einer Neigung, sich bei Stress tagelang auf seine G\u00fcter zur\u00fcckzuziehen: erst nach Varzin in Hinterpommern, sp\u00e4ter nach Friedrichsruh im Sachsenwald. Dort verbrachte er ganze Phasen im Bett liegend, klagte \u00fcber Nervenleiden, Schlaflosigkeit, Verdauungsbeschwerden &ndash; k\u00f6rperliche Symptome, die eng mit seinem chronischen Misstrauen und seiner Gr\u00fcbelneigung verwoben waren. Der Wolf, der sich in seine H\u00f6hle zur\u00fcckzieht, wenn die Jagd zu viel Kraft gekostet hat, aber von dort aus weiter das ganze Territorium im Blick beh\u00e4lt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Lebenswerk: Blut und Eisen, Reichsgr\u00fcndung, Sozialstaat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1862 zum preu\u00dfischen Ministerpr\u00e4sidenten berufen, formulierte Bismarck in seiner ber\u00fchmten Rede vor dem Budgetausschuss des Abgeordnetenhauses das Programm seiner Politik: nicht Reden und Mehrheitsbeschl\u00fcsse w\u00fcrden die gro\u00dfen Fragen der Zeit entscheiden, sondern \u00bbEisen und Blut\u00ab. Es folgten drei kalkulierte Kriege &ndash; gegen D\u00e4nemark 1864, gegen \u00d6sterreich 1866, gegen Frankreich 1870/71 &ndash;, mit denen er die deutschen Einzelstaaten unter preu\u00dfischer F\u00fchrung zusammenschmiedete. 1871 wurde im Spiegelsaal von Versailles das Deutsche Kaiserreich ausgerufen, Bismarck sein erster Reichskanzler.</p>
+          <p class="vb-intro">Nach der Reichsgr\u00fcndung wandelte sich sein Kurs: Deutschland sei nun \u00bbsaturiert\u00ab, weitere territoriale Expansion in Europa unn\u00f6tig &ndash; stattdessen baute er ein komplexes B\u00fcndnissystem auf, das den Frieden auf dem Kontinent sichern sollte. Innenpolitisch f\u00fchrte er den Kulturkampf gegen die katholische Kirche und sp\u00e4ter die Sozialistengesetze gegen die erstarkende Sozialdemokratie &ndash; zugleich aber auch, teils aus genau diesem taktischen Kalk\u00fcl, die weltweit ersten Sozialversicherungen: Krankenversicherung 1883, Unfallversicherung 1884, Alters- und Invalidit\u00e4tsversicherung 1889. Eine fr\u00fche Form des Sozialstaats, die zugleich F\u00fcrsorge und ein Instrument war, um der Arbeiterschaft den Boden f\u00fcr revolution\u00e4re Ideen zu entziehen &ndash; typisch f\u00fcr einen Wolf, der auch F\u00fcrsorge strategisch als Mittel zur Sicherung des eigenen Rudels einsetzte.</p>
+          <p class="vb-intro">1890, zwei Jahre nach dem Regierungsantritt des jungen, ungeduldigen Kaisers Wilhelm II., wurde Bismarck entlassen. Eine Karikatur der Zeit fasste den Bruch in vier Worten: \u00bbDer Lotse geht von Bord.\u00ab Der Mann, der drei Jahrzehnte lang durch Drohung und Kalk\u00fcl regiert hatte, konnte den Machtverlust an einen j\u00fcngeren Herrscher nicht durch dieselben Mittel abwenden &ndash; das R\u00fctteln an den F\u00e4den funktionierte nur, solange das Gegen\u00fcber Angst vor dem eigenen Abgang hatte, und Wilhelm II. hatte diese Angst nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist die F\u00e4higkeit, aus Angst heraus au\u00dfergew\u00f6hnliche strategische Weitsicht zu entwickeln und in Krisen Stabilit\u00e4t zu stiften. Bismarcks B\u00fcndnispolitik nach 1871 hielt Europa fast zwei Jahrzehnte lang in einem fragilen, aber funktionierenden Gleichgewicht &ndash; eine Leistung, die viele seiner Nachfolger nicht fortzuf\u00fchren wussten. Auch seine Sozialgesetzgebung, so taktisch sie gemeint war, wirkte weit \u00fcber ihren urspr\u00fcnglichen Zweck hinaus und wurde zum Vorbild moderner Sozialstaaten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und die Kontrareaktion der SX6 darauf ist eine H\u00e4rte, die keine Grenze mehr kennt, sobald die wahrgenommene Bedrohung existenziell wird. Der Kulturkampf traf die katholische Kirche und ihre Anh\u00e4nger mit Gesetzen, die Priester inhaftierten und Bist\u00fcmer verwaisen lie\u00dfen; die Sozialistengesetze verboten sozialdemokratische Organisationen, Versammlungen und Publikationen \u00fcber ein Jahrzehnt lang. Beides Ausdruck desselben Musters: Wer als Bedrohung des Rudels &ndash; des jungen Kaiserreichs, der eigenen Machtposition &ndash; identifiziert wurde, wurde mit staatlicher H\u00e4rte bek\u00e4mpft, ungeachtet des Preises f\u00fcr die Betroffenen. Diese Politik ist eigenst\u00e4ndig kritisch zu bewerten, unabh\u00e4ngig von der psychologischen Einordnung, die sie erkl\u00e4rt, aber nicht rechtfertigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Sicherheit ohne Drohung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich muss die Welt nicht kontrollieren, um sicher zu sein.</em> F\u00fcr die SX6w5 bedeutet das, St\u00e4rke nicht l\u00e4nger als Drohkulisse zu verstehen, sondern als innere Festigkeit, die kein Gegen\u00fcber mehr einsch\u00fcchtern muss, um sich sicher zu f\u00fchlen.</p>
+          <p class="vb-intro">Dieser Weg blieb Bismarck bis zuletzt verwehrt. Auch in den acht Jahren seines Ruhestands in Friedrichsruh, bis zu seinem Tod 1898, hielt er an Misstrauen und Kontrolle fest &ndash; er grollte \u00f6ffentlich gegen seinen kaiserlichen Nachfolger, kommentierte die Tagespolitik unaufgefordert und unvers\u00f6hnlich, und pflegte bis zuletzt das Bild des unentbehrlichen Staatsmanns, dem Unrecht geschehen war. Das Portr\u00e4t endet damit nicht mit einer Auss\u00f6hnung, sondern mit der Feststellung, die f\u00fcr jeden Kontratyp der Sechs gilt: Solange Sicherheit nur durch Drohung und Kontrolle \u00fcber andere gesucht wird, bleibt der Wolf gefangen in genau der Angst, die er zeitlebens zu bek\u00e4mpfen versuchte. Der Weg nach drau\u00dfen f\u00fchrt nicht \u00fcber mehr Macht, sondern \u00fcber das Vertrauen, das Bismarck sein Leben lang zu vermeiden gelernt hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-wladimir-putin", label:"Portr\u00e4t: Wladimir Putin (SX6w5)"},
+        {route:"beruehmte-friedrich-schiller", label:"Portr\u00e4t: Friedrich Schiller (SX6w5)"},
       ])}
     </div>
   `);
@@ -132498,6 +132571,7 @@ function render() {
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
+      "beruehmte-otto-von-bismarck": ottoVonBismarckPortraitPage,
       "beruehmte-friedrich-schiller": friedrichSchillerPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
       "beruehmte-platon": platonPortraitPage,
