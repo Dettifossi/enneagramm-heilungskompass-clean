@@ -669,6 +669,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Zoe Saldaña – Social Type 2",
     teaser:"SO2w3 · born 1978 in Passaic, New Jersey. Actress and producer, Avatar, Marvel, Star Trek. Belonging as a life principle, presence that has to carry – central figure in three billion-dollar franchises at once. Animal correspondence: Golden Retriever.",
     land:"USA", tags:["Schauspiel"], gender:"f"},
+{ route:"beruehmte-dr-dre", name:"Dr. Dre", added:"2026-08-27", subtyp:"SO2w3",
+    heading:"Dr. Dre – Social Type 2",
+    teaser:"SO2w3 · b. 1965 in Compton. American music producer, rapper & entrepreneur. Co-founder of N.W.A. and Death Row Records, architect of the careers of Snoop Dogg, Eminem, 50 Cent, and Kendrick Lamar, co-founder of Beats Electronics. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Musik"], gender:"m"},
 { route:"beruehmte-usher", name:"Usher", added:"2026-08-24", subtyp:"SO2w3",
     heading:"Usher – Social Type 2",
     teaser:"SO2w3 · b. 1978 in Dallas. American R&B singer. Album ›Confessions‹ (2004), best-selling album of the decade, mentor to Justin Bieber. Vulnerability as a bridge to a mass audience. Animal correspondence: Golden Retriever.",
@@ -26888,7 +26892,7 @@ function nateDoggPortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: "King of Hooks"</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to turn a loyal foundation into visible, recognizable success. Nate Dogg's sonorous, unmistakable baritone became, over more than a decade, a fixture on countless hip-hop hits &ndash; sixteen entries on the Billboard Hot 100, including "Ain't No Fun" with Snoop Dogg and "The Next Episode" with Dr. Dre, earned him the nickname "King of Hooks."</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to turn a loyal foundation into visible, recognizable success. Nate Dogg's sonorous, unmistakable baritone became, over more than a decade, a fixture on countless hip-hop hits &ndash; sixteen entries on the Billboard Hot 100, including "Ain't No Fun" with Snoop Dogg and "The Next Episode" with Dr. Dre (SO2w3), earned him the nickname "King of Hooks."</p>
           <p class="vb-intro">His three solo albums, meanwhile, never sold more than 500,000 copies each &ndash; a clear mismatch between the impact of his voice on other people's songs and the commercial success of his own work. The Three-wing nonetheless turned this supporting role into an unmistakable, publicly recognized brand: his contribution was small in song length, but enormous in recognizability.</p>
         </blockquote>
 
@@ -26913,6 +26917,7 @@ function nateDoggPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SP2w3)"},
+        {route:"beruehmte-dr-dre", label:"Portrait: Dr. Dre (SO2w3)"},
       ])}
     </div>
   `);
@@ -27126,7 +27131,7 @@ function iceCubePortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: From Rapper to Business Empire</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build visible, publicly effective success out of a secured foundation. At fifteen, Ice Cube met Dr. Dre; together with Eazy-E they founded N.W.A. and sparked a nationwide debate with their hard-hitting, unfiltered gangsta rap. When conflict arose with management, Ice Cube left the group in 1989 and built an independent career with his solo debut <em>AmeriKKKa's Most Wanted</em> (1990) &ndash; gold and later platinum status within weeks.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two the drive to build visible, publicly effective success out of a secured foundation. At fifteen, Ice Cube met Dr. Dre (SO2w3); together with Eazy-E they founded N.W.A. and sparked a nationwide debate with their hard-hitting, unfiltered gangsta rap. When conflict arose with management, Ice Cube left the group in 1989 and built an independent career with his solo debut <em>AmeriKKKa's Most Wanted</em> (1990) &ndash; gold and later platinum status within weeks.</p>
           <p class="vb-intro">The musician became a multi-hyphenate entrepreneur: as actor, screenwriter, director, and producer of the <em>Friday</em> and <em>Barbershop</em> film franchises, he built his own, recurring brands instead of relying on individual appearances. In 2017, he founded BIG3, his own professional basketball league for former NBA players &ndash; a project he doesn't just support but owns and controls outright. The Three-wing keeps asking: how do I turn what I have into my own, visible institution?</p>
         </blockquote>
 
@@ -27153,6 +27158,7 @@ function iceCubePortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SP2w3)"},
+        {route:"beruehmte-dr-dre", label:"Portrait: Dr. Dre (SO2w3)"},
       ])}
     </div>
   `);
@@ -39456,6 +39462,65 @@ function aliciaKeysPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function drDrePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-dr-dre-portrait.jpg" alt="Dr. Dre – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Dre</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">American music producer, rapper &amp; entrepreneur, born 1965 in Compton &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that would rather use its own talent to make someone else's talent shine. Andre Romell Young grew up in modest circumstances in Compton, California; his parents separated when he was seven, and he witnessed domestic violence within the family &ndash; an early contrast to the role of the ordering, nurturing architect he would later take on.</p>
+          <p class="vb-intro">Dr. Dre was born on February 18, 1965, the son of two singers, which explains his early access to music. Rather than seeking the spotlight for himself as often as possible, he discovered his gift for producing at a young age &ndash; for shaping other people's talent into something larger than it could ever have become alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Ambition as Architect of Other People's Careers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Two (SO2)</strong> <em>Ambition</em>: it doesn't just want to have an effect itself, it wants to become indispensable through what it makes visible in others. As co-founder and lead producer of N.W.A., Dr. Dre shaped the sound of gangsta rap with the album <em>Straight Outta Compton</em> (1988), carrying an entire genre to a worldwide audience &ndash; yet even here he stepped back behind the collective as producer, not forward as a solo act.</p>
+          <p class="vb-intro">This pattern continued across decades: he discovered and shaped the careers of Snoop Dogg, whom he first introduced to a mass audience on his own solo debut <em>The Chronic</em> (1992); of Eminem, whom he signed to his newly founded label Aftermath Entertainment in 1998; of 50 Cent, whose breakthrough he engineered in 2002; and later of Kendrick Lamar. The social Two doesn't locate its worth in standing at the center itself, but in the fact that without it, others would never have become as great.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Beat Architect to Billion-Dollar Entrepreneur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive to turn musical instinct into a visible, measurable empire. In 1992, Dr. Dre co-founded Death Row Records with Suge Knight; in 1996, he left the label and built Aftermath Entertainment, an even more successful platform of his own &ndash; a pattern of constant entrepreneurial reinvention that went far beyond the role of producer alone.</p>
+          <p class="vb-intro">In 2006, he co-founded the headphone and speaker company Beats Electronics with Jimmy Iovine, which sold to Apple in 2014 for roughly three billion US dollars &ndash; one of the largest deals in music industry history. The Three-wing translates a musical ear into entrepreneurial success that reaches far beyond individual albums and reshapes entire industries.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the rare ability to keep a feel, across decades, for which talent is just ready to be discovered &ndash; and then to consistently build that talent a stage larger than his own. Hardly any other producer in pop music history has decisively shaped so many different careers across so many decades.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable to the success of others. In the SO2w3, this can combine with the risk of measuring one's own success primarily by the success of the artists one has championed, rather than claiming credit for it &ndash; a drive that makes entire careers possible while itself often staying in the background.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Compton Producer to Architect of Modern Hip-Hop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From N.W.A. through Death Row Records and Aftermath Entertainment to Beats Electronics, a single thread runs through Dr. Dre's work: recognizing talent, giving it a structure in which it can grow, and consistently choosing the role of architect over that of solo performer.</p>
+          <p class="vb-intro">The Golden Retriever doesn't pour its energy into its own show, but into what it makes possible for others. Dr. Dre's path from producing a single, controversial album to co-shaping several generations of artists and becoming a billionaire through a headphone company shows this drive in its most consistent form: success measured above all by how much it unlocks in others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
       ])}
     </div>
   `);
@@ -95324,6 +95389,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
+      "beruehmte-dr-dre": drDrePortraitPage,
       "beruehmte-usher": usherPortraitPage,
       "beruehmte-alicia-keys": aliciaKeysPortraitPage,
       "beruehmte-ashton-kutcher": ashtonKutcherPortraitPage,
