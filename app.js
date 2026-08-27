@@ -32714,6 +32714,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kamala Harris \u2013 Sozialer Typ 2",
     teaser:"SO2w3 \u00b7 geb. 1964. Politikerin, ehem. Vizepr\u00e4sidentin der USA. Staatsanw\u00e4ltin, Senatorin, Vizepr\u00e4sidentin \u2013 Dienst als politische Berufung, mehrere historische Premieren. Tierentsprechung: Golden Retriever.",
     land:"USA", tags:["Politik"] , gender:"f"},
+  { route:"beruehmte-dr-dre", name:"Dr. Dre", added:"2026-08-27", subtyp:"SO2w3",
+    heading:"Dr. Dre – Sozialer Typ 2",
+    teaser:"SO2w3 · geb. 1965 in Compton. US-amerikanischer Musikproduzent, Rapper & Unternehmer. Mitgründer von N.W.A. und Death Row Records, Architekt der Karrieren von Snoop Dogg, Eminem, 50 Cent und Kendrick Lamar, Mitgründer von Beats Electronics. Tierentsprechung: Golden Retriever.",
+    land:"USA", tags:["Musik"], gender:"m"},
   { route:"beruehmte-usher", name:"Usher", added:"2026-08-24", subtyp:"SO2w3",
     heading:"Usher – Sozialer Typ 2",
     teaser:"SO2w3 · geb. 1978 in Dallas. US-amerikanischer R&B-Sänger. Album ›Confessions‹ (2004), meistverkauftes Album des Jahrzehnts, Mentor für Justin Bieber. Verletzlichkeit als Brücke zu einem Massenpublikum. Tierentsprechung: Golden Retriever.",
@@ -63619,7 +63623,7 @@ function iceCubePortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Vom Rapper zum Firmenimperium</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Mit fünfzehn lernte Ice Cube Dr. Dre kennen, gemeinsam mit Eazy-E gründeten sie N.W.A. und lösten mit ihrem harten, unverblümten Gangsta-Rap eine landesweite Debatte aus. Als es zu Streit mit dem Management kam, verließ Ice Cube die Gruppe 1989 und baute mit seinem Solodebüt <em>AmeriKKKa's Most Wanted</em> (1990) eine eigenständige Karriere auf &ndash; Gold- und später Platinstatus binnen weniger Wochen.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Mit fünfzehn lernte Ice Cube Dr. Dre (SO2w3) kennen, gemeinsam mit Eazy-E gründeten sie N.W.A. und lösten mit ihrem harten, unverblümten Gangsta-Rap eine landesweite Debatte aus. Als es zu Streit mit dem Management kam, verließ Ice Cube die Gruppe 1989 und baute mit seinem Solodebüt <em>AmeriKKKa's Most Wanted</em> (1990) eine eigenständige Karriere auf &ndash; Gold- und später Platinstatus binnen weniger Wochen.</p>
           <p class="vb-intro">Aus dem Musiker wurde ein Multi-Unternehmer: Als Schauspieler, Drehbuchautor, Regisseur und Produzent der <em>Friday</em>- und <em>Barbershop</em>-Filmreihen baute er eigene, wiederkehrende Marken auf, statt sich auf einzelne Auftritte zu verlassen. 2017 gründete er mit BIG3 eine eigene professionelle Basketballliga für ehemalige NBA-Spieler &ndash; ein Projekt, das er nicht nur unterstützte, sondern selbst besitzt und kontrolliert. Der Dreierflügel fragt immer wieder: Wie baue ich aus dem, was ich habe, eine eigene, sichtbare Institution?</p>
         </blockquote>
 
@@ -63646,6 +63650,7 @@ function iceCubePortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
         {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
+        {route:"beruehmte-dr-dre", label:"Portrait: Dr. Dre (SO2w3)"},
       ])}
     </div>
   `);
@@ -66468,6 +66473,65 @@ function rangaYogeshwarPortraitPage() {
   `);
 }
 
+function drDrePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dr-dre-portrait.jpg" alt="Dr. Dre – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Dre</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Musikproduzent, Rapper &amp; Unternehmer, geb. 1965 in Compton &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das sein eigenes Talent am liebsten dort einsetzt, wo es fremdes Talent zum Leuchten bringt. Andre Romell Young wuchs in einfachen Verhältnissen in Compton, Kalifornien, auf, seine Eltern trennten sich, als er sieben war, und er erlebte häusliche Gewalt in der Familie mit – ein früher Kontrast zu der Rolle des ordnenden, fördernden Architekten, die er später einnehmen sollte.</p>
+          <p class="vb-intro">Dr. Dre wurde am 18. Februar 1965 als Sohn zweier Sänger geboren, was seinen frühen Zugang zu Musik erklärt. Statt selbst möglichst oft im Rampenlicht zu stehen, entdeckte er schon in jungen Jahren seine Begabung fürs Produzieren – dafür, aus dem Talent anderer etwas Größeres zu formen, als es allein je hätte werden können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Ehrgeiz als Architekt fremder Karrieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die <strong>soziale Zwei (SO2)</strong> <em>Ehrgeiz</em>: Sie will nicht nur selbst wirken, sondern durch das, was sie in anderen sichtbar macht, unentbehrlich werden. Als Mitgründer und Hauptproduzent von N.W.A. prägte Dr. Dre mit dem Album <em>Straight Outta Compton</em> (1988) den Sound des Gangsta-Rap und brachte damit ein ganzes Genre zum Weltpublikum – doch schon hier trat er als Produzent hinter das Kollektiv zurück, nicht als Solist davor.</p>
+          <p class="vb-intro">Dieses Muster setzte sich über Jahrzehnte fort: Er entdeckte und formte die Karrieren von Snoop Dogg, den er auf seinem eigenen Solodebüt <em>The Chronic</em> (1992) erstmals einem Massenpublikum vorstellte, von Eminem, den er 1998 bei seinem neu gegründeten Label Aftermath Entertainment unter Vertrag nahm, von 50 Cent, dem er 2002 zum Durchbruch verhalf, und später von Kendrick Lamar. Die soziale Zwei sucht ihren Wert nicht darin, selbst im Zentrum zu stehen, sondern darin, dass ohne sie andere nie so groß geworden wären.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Beat-Architekten zum Milliarden-Unternehmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb, aus musikalischem Gespür ein sichtbares, messbares Imperium zu formen. 1992 gründete Dr. Dre gemeinsam mit Suge Knight Death Row Records, 1996 verließ er das Label und baute mit Aftermath Entertainment eine eigene, noch erfolgreichere Plattform auf – ein Muster ständiger unternehmerischer Neuerfindung, das weit über die reine Produzentenrolle hinausging.</p>
+          <p class="vb-intro">2006 gründete er gemeinsam mit Jimmy Iovine das Kopfhörer- und Lautsprecherunternehmen Beats Electronics, das 2014 für rund drei Milliarden US-Dollar an Apple verkauft wurde – einer der größten Deals der Musikindustriegeschichte. Der Dreierflügel übersetzt musikalisches Gehör in unternehmerischen Erfolg, der weit über einzelne Alben hinausreicht und ganze Branchen verändert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 liegt in der seltenen Fähigkeit, über Jahrzehnte hinweg ein Gespür dafür zu behalten, welches Talent gerade bereit ist, entdeckt zu werden – und diesem Talent dann konsequent eine Bühne zu bauen, die größer ist als die eigene. Kaum ein anderer Produzent der Popmusikgeschichte hat so viele unterschiedliche Karrieren über so viele Jahrzehnte hinweg entscheidend mitgeprägt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das Gelingen anderer unentbehrlich zu sein. Bei der SO2w3 kann sich das mit der Gefahr verbinden, den eigenen Erfolg vor allem am Erfolg der geförderten Künstler zu messen, statt ihn sich selbst zuzuschreiben – ein Antrieb, der ganze Karrieren ermöglicht, dabei aber selbst oft im Hintergrund bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Vom Compton-Produzenten zum Architekten des modernen Hip-Hop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von N.W.A. über Death Row Records und Aftermath Entertainment bis zu Beats Electronics zieht sich ein roter Faden durch Dr. Dres Werk: Talent erkennen, ihm eine Struktur geben, in der es wachsen kann, und dabei selbst konsequent die Rolle des Architekten statt die des Solisten wählen.</p>
+          <p class="vb-intro">Der Golden Retriever bringt seine Energie nicht in die eigene Show ein, sondern in das, was er für andere möglich macht. Dr. Dres Weg vom Produzenten eines einzelnen, umstrittenen Albums zum Mitgestalter mehrerer Künstlergenerationen und zum Milliardär durch ein Kopfhörer-Unternehmen zeigt diesen Antrieb in seiner konsequentesten Form: Erfolg, der sich vor allem daran misst, wie viel er bei anderen auslöst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function usherPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -67147,7 +67211,7 @@ function nateDoggPortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: „King of Hooks"</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer treuen Basis heraus sichtbaren, wiedererkennbaren Erfolg zu formen. Nate Doggs sonorer, unverwechselbarer Bariton wurde über mehr als ein Jahrzehnt zum festen Bestandteil unzähliger Hip-Hop-Hits – sechzehn Platzierungen in den Billboard-Hot-100-Charts, darunter <em>Ain't No Fun</em> mit Snoop Dogg und <em>The Next Episode</em> mit Dr. Dre, brachten ihm den Beinamen „King of Hooks" ein.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer treuen Basis heraus sichtbaren, wiedererkennbaren Erfolg zu formen. Nate Doggs sonorer, unverwechselbarer Bariton wurde über mehr als ein Jahrzehnt zum festen Bestandteil unzähliger Hip-Hop-Hits – sechzehn Platzierungen in den Billboard-Hot-100-Charts, darunter <em>Ain't No Fun</em> mit Snoop Dogg und <em>The Next Episode</em> mit Dr. Dre (SO2w3), brachten ihm den Beinamen „King of Hooks" ein.</p>
           <p class="vb-intro">Seine drei eigenen Soloalben verkauften sich dabei nie über 500.000 Exemplare – ein deutliches Missverhältnis zwischen der Wirkung seiner Stimme in fremden Songs und dem kommerziellen Erfolg des eigenen Werks. Der Dreierflügel machte aus dieser Nebenrolle dennoch eine unverwechselbare, öffentlich anerkannte Marke: Sein Beitrag war klein in der Songlänge, aber riesig in der Wiedererkennbarkeit.</p>
         </blockquote>
 
@@ -67172,6 +67236,7 @@ function nateDoggPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
         {route:"beruehmte-monica-simpson", label:"Portrait: Monica Simpson (SE2w3)"},
+        {route:"beruehmte-dr-dre", label:"Portrait: Dr. Dre (SO2w3)"},
       ])}
     </div>
   `);
@@ -131882,6 +131947,7 @@ function render() {
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
+      "beruehmte-dr-dre": drDrePortraitPage,
       "beruehmte-usher": usherPortraitPage,
       "beruehmte-alicia-keys": aliciaKeysPortraitPage,
       "beruehmte-ashton-kutcher": ashtonKutcherPortraitPage,
