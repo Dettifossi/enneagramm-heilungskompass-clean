@@ -1235,6 +1235,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"G\xfcnther Jauch – Social Type 5",
     teaser:"SO5w6 \xb7 born 1956, M\xfcnster. Presenter, journalist, producer. Who will be a millionaire?, stern TV, ARD-Sonntagstalk. The octopus that moderated the nation's knowledge for decades - and never really became visible itself.",
     land:"Germany", tags:["Medien","Fernsehen"], gender:"m"},
+{ route:"beruehmte-eckhard-freise", name:"Eckhard Freise", added:"2026-08-27", subtyp:"SO5w6",
+    heading:"Eckhard Freise – Social Type 5",
+    teaser:"SO5w6 \xb7 b. 1943/44. Historian, professor of medieval history, expert on the Hersfeld memorial tradition. First-ever millionaire on Wer wird Millionär?, December 2, 2000.",
+    land:"Germany", tags:["Wissenschaft","Medien"], gender:"m"},
 { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift – Sexual Type 5",
     teaser:"SX5w4 · born 1989. Singer, songwriter, guitarist. The hedgehog that curls up – whose spines are made of words.",
@@ -19581,6 +19585,7 @@ function guentherJauchPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
         {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6) – unknowingly wrote a book series about his own animal totem"},
+        {route:"beruehmte-eckhard-freise", label:"Portrait: Eckhard Freise (SO5w6) – first-ever millionaire on Wer wird Millionär?"},
       ])}
     </div>
   `);
@@ -19651,7 +19656,75 @@ function dirkRossmannPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-eckhard-freise", label:"Portrait: Eckhard Freise (SO5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function eckhardFreisePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-eckhard-freise-portrait.jpg" alt="Eckhard Freise – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Eckhard Freise</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with six wing</p>
+        <p class="krim-portrait-subtitle">Historian, professor of medieval history, b. 1943/44 – Animal equivalent: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus with the Groping Arms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The octopus is the animal of the social Type 5—a creature that gropes, grasps, and tests with several arms at once before committing to anything. In Eckhard Freise this image shows itself in a particularly immediate, physical way: when he explains an answer on television, his hands fall into a peculiar motion—the fingers dart forward almost tentacle-like, pull back again, dart forward once more, in a wave-like back-and-forth that appears entirely involuntary. It is as if the knowledge itself were searching for a graspable form before being put into words—eight arms feeling through the water of memory before one of them finally closes around something.</p>
+          <p class="vb-intro">Freise was born in 1943/44, studied Latin, history, and philosophy in Münster from 1966 onward, earned his doctorate there in 1979 under Joachim Wollasch, and completed his habilitation in 1987. Professorships followed in Mannheim (1989–1996) and at the Bergische Universität Wuppertal (1996–2011). A life spent for decades in the quiet depths of medieval historical research—until, on December 2, 2000, a single television evening suddenly washed this octopus up to the surface.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: Knowledge That Suddenly Belonged to the Whole Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Type 5 the Totem—the linking of knowledge with belonging and prestige. The SO5 does not withhold its knowledge the way the introverted SE5 tends to, but carries it into the community and thereby becomes an authority. On December 2, 2000, on <em>Wer wird Millionär?</em> with Günther Jauch (SO5w6, see <a href="javascript:void(0)" data-route="beruehmte-guenther-jauch">portrait</a>), Freise became the first contestant in the show's history to win the full million—at the time, one million Deutsche Mark. The deciding question asked who stood with Edmund Hillary at the summit of Mount Everest in 1953. Freise knew the answer without needing a single lifeline.</p>
+          <p class="vb-intro">Telling is how he himself speaks about that moment: it was never about the money, he says—his son needed a new computer—and the sums of money felt surreal at first, more like play money. That is the SO5 at its core: totem knowledge is shared because it wants to be shared, not primarily to be turned into capital. And entirely in keeping with the Six wing's emphasis on reliability and continuity, his own comment afterward: ›We stayed exactly as we were before.‹ No upheaval, no new life—only a system that had grown one facet richer.</p>
+          <p class="vb-intro">His relationship to his own title also shows the Totem pattern in its modest, non-self-dramatizing form: when addressed formally with his professorial title, he responded with a curt ›For heaven's sake—please don't!‹ Knowledge as a service to the community, not as a status one carries in front of oneself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: The Hersfeld Memorial Tradition as Life's Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six wing (w6) brings the social Five a deep need for reliability and a system solid enough to work on for decades. That is exactly what Freise's academic career shows: he became a recognized expert on the <strong>Hersfeld memorial tradition</strong>—the medieval commemorative record of Hersfeld Abbey, which lists whose names were to be remembered in liturgical prayer for the dead. His years of preparatory work laid the foundation for a scholarly edition only published in 2018—a research subject that is itself a system of continuity and reliable commemoration across centuries. One is tempted to call it a Six-wing discovery in its own right: an SO5w6 devotes his scholarly life's work to precisely the question of how a community reliably remembers its members across time.</p>
+          <p class="vb-intro">This pattern held even after television fame arrived: Freise continued his professorship through his regular retirement in 2011 and kept teaching for several more years afterward. He turned down his own permanent television format—the obvious way to capitalize on his sudden fame—because it would have tied him down too much. The Six wing holds on to the proven system—here, the academic career—rather than being swept away by a short-lived hype.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Old Man of Quiz Mountain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unlike Günther Jauch, who withdrew from public life almost entirely after achieving television fame, Freise stayed connected to it in his own, gentler way—as a recurring guest on quiz formats: <em>Quizduell</em> (2015), <em>Wer weiß denn sowas?</em> (2015, 2020), <em>Der Super Champion</em> (2012), and, since 2016, as a member of the ›Olymp‹ team on <em>Quizduell – Olymp</em>. An IQ test in 2001 credited him with a score of 132. But more telling than the number is how he himself describes his relationship to quizzing: the most important virtues of a quizzer, he says, are unshakeable calm (ataraxia) and the ability to belittle oneself. He sees himself as an ›amateur,‹ not an athlete—and calls himself, with dry self-mockery, ›the old man of quiz mountain.‹</p>
+          <p class="vb-intro">This self-irony is typical of the mature SO5w6: the knowledge is taken seriously, the person is not. Freise openly admits where his limits lie—on questions about lifestyle and fashion he can at best ›guess intelligently,‹ and age-related memory gaps now make quick answers harder. No hiding behind the fame of 2000, but a sober, almost scholarly look at his own limits—the same look with which he has examined medieval sources for decades.</p>
+          <p class="vb-intro">His verdict on the genre he owes his fame to is just as precise as it is detached: quiz shows are ›society's good-humored parody of its own knowledge.‹ And regarding other countries where quiz millionaires become national heroes, he notes the German case rather soberly—an observation from the outside, of a kind only someone who stood right in the middle of it and still kept their distance could make.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, the SO5w6 shows itself in Freise as a scholar who understands knowledge as service—whether in decades of painstaking work on medieval sources or in front of a Saturday-night audience of millions. For him, both are the same movement: look closely, understand, pass it on. That he did not turn fame into an end in itself, but integrated it into his existing, reliable career, is mature Six-wing behavior: security not through new stages, but through holding on to a system solid enough to carry.</p>
+          <p class="vb-intro">The shadow of the Five is <strong>avarice</strong>—holding back not just possessions, but oneself. In Freise this does not show as stinginess, but in the deliberate limit he places on how much of himself he reveals: he remained a scholar, not a public self-promoter, and turned down the format that would have put him permanently on display. The groping, tentacle-like hand movements with which he explains his answers can, in this light, also be read this way: a body that reaches outward to hand over knowledge, yet never fully opens—the arms dart forward and pull back immediately, before they ever fully extend.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Hoarding to Sharing Out of Abundance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Five leads from the question <em>Is my knowledge, my energy, my time even enough?</em> to the realization <em>I have enough to give without losing myself.</em> Freise's biography reads like a successful approach to this realization: a researcher who accumulated knowledge over decades in quiet depth was able, in the one decisive moment it was publicly demanded of him, to answer without hesitation and without fear of failure—and remained the same person afterward.</p>
+          <p class="vb-intro">That he still appears on quiz shows decades after his million-mark win—not out of necessity, but visibly for the joy of the thing itself—shows a Five who has learned to share her knowledge without fear of depletion. The octopus, whose arms still dart forward gropingly when he explains an answer—no longer out of uncertainty, but out of the sheer joy of thinking itself, which was the true home of an entire life of scholarship.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6) – host of the same show"},
+        {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6)"},
       ])}
     </div>
   `);
@@ -44296,12 +44369,12 @@ const LEBENSMUSTERKOMPASS = {
   SO5: {
     tier: "Octopus",
     kernthema: "Multi-armed, parallel knowledge that serves the community (Naranjo: Totem) – or is controlled as an instrument of power",
-    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dr. Ted Kaczynski", "Dr. Harold Shipman"],
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Dr. Ted Kaczynski", "Dr. Harold Shipman"],
     fingerabdruecke: [
       {
         titel: "Multi-armed, parallel thinking made available to the community",
         beschreibung: "Naranjo called this subtype the one of the 'Totem': gathered knowledge is not kept for oneself, but offered to the group as a contribution. Characteristic is thinking simultaneously in several areas or directions, without exhausting oneself in a single one.",
-        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element."
+        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'"
       },
       {
         titel: "Knowledge is developed in secret for years before being released in a controlled way",
@@ -96999,6 +97072,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-winston-churchill": winstonChurchillPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
       "beruehmte-dirk-rossmann": dirkRossmannPortraitPage,
+      "beruehmte-eckhard-freise": eckhardFreisePortraitPage,
       "beruehmte-iga-swiatek": igaSwiatekPortraitPage,
       "beruehmte-jacqueline-mars": jacquelineMarsPortraitPage,
       "beruehmte-indra-nooyi": indraNooyiPortraitPage,
