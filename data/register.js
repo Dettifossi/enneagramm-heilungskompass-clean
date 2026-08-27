@@ -31,6 +31,7 @@ export const registerEntries = [
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
   { term: "Enneagramm meets Reflexzonentherapie", route: "enneagramm-reflexzonentherapie", description: "Übersicht: Fuß- und Handreflexzonen als Landkarte der drei Enneagramm-Zentren" },
   { term: "Enneagramm meets Handanalyse", route: "enneagramm-handanalyse", description: "Übersicht: Handform, Fingerabstände und Handlinien als Spiegel der drei Enneagramm-Zentren" },
+  { term: "Enneagramm meets Akupunktur", route: "enneagramm-akupunktur", description: "Übersicht: Enneagramm-Zentren, TCM-Elemente und Akupunktur als Landkarte des Energieflusses" },
   { term: "Enneagramm meets Zahnpsychosomatik", route: "enneagramm-zahnpsychosomatik", description: "Übersicht: Die dynamische Verbindung von Zahn-Psychosomatik und Enneagramm – Zentren, Zahngruppen und Flügel-Dynamik" },
   { term: "Homöopathie-Songs",           route: "homoeopathie-songs",            description: "Schaubild: Musik trifft Homöopathie – Songs als Spiegel der Homöopathie-Mittel" },
 
@@ -2225,6 +2226,7 @@ export const registerEntriesEN = [
   { term: "Enneagram & Homeopathy", route: "enneagramm-homoeopathie", description: "Overview: homeopathy for all 27 subtypes – remedy assignments by type and instinct" },
   { term: "Enneagram Meets Reflexology", route: "enneagramm-reflexzonentherapie", description: "Overview: foot and hand reflex zones as a map of the three Enneagram centers" },
   { term: "Enneagram Meets Hand Analysis", route: "enneagramm-handanalyse", description: "Overview: hand shape, finger spacing, and hand lines as a mirror of the three Enneagram centers" },
+  { term: "Enneagram Meets Acupuncture", route: "enneagramm-akupunktur", description: "Overview: Enneagram centers, TCM elements, and acupuncture as a map of energy flow" },
   { term: "Enneagram Meets Dental Psychosomatics", route: "enneagramm-zahnpsychosomatik", description: "Overview: the dynamic connection between dental psychosomatics and the Enneagram – centers, tooth groups, and wing dynamics" },
   { term: "Homeopathy Songs", route: "homoeopathie-songs", description: "Chart: music meets homeopathy – songs as a mirror of homeopathic remedies" },
   { term: "Music", route: "musik", description: "Music recommendations matching your Enneagram type · playlist assignments" },

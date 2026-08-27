@@ -2693,6 +2693,7 @@ text.nav = [
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
     { route: "enneagramm-homoeopathie", label: "Enneagram Meets Homeopathy" },
     { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
+    { route: "enneagramm-akupunktur", label: "Enneagram Meets Acupuncture" },
     { route: "enneagramm-handanalyse", label: "Enneagram Meets Hand Analysis" },
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
@@ -15585,6 +15586,7 @@ function dreiZentrenPage() {
         {route:"zentren-weltwahrnehmung", label:"Centers & Perception of the World"},
         {route:"koerperregulation", label:"Body Regulation"},
         {route:"energetische-bewegungen", label:"Energetic Movements"},
+        {route:"enneagramm-akupunktur", label:"Enneagram Meets Acupuncture"},
       ])}
     </section>
   `);
@@ -42242,6 +42244,80 @@ function enneagrammHandanalysePage() {
 }
 
 
+
+// ─── Enneagram Meets Acupuncture ────────────────────────────────────────
+
+function enneagrammAkupunkturPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-akupunktur')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge · Body Work</p>
+        <h1 class="section-title">Enneagram Meets Acupuncture</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">The Map of the Psyche Meets the Meridian Flow of the Body</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Two mirrors of the same cosmos: the Enneagram is a geometric symbol of the psyche, a circle with nine points that maps the landscape of human motivation. Traditional Chinese Medicine (TCM), with its meridians and acupuncture points, offers an equally ancient, equally fine-grained system of mapping – only for the body and its flow of energy. Both systems share the same basic assumption: the human being is not an isolated machine, but a dynamic microcosm in resonance with universal laws.</p>
+          <p class="vb-intro">Where the Enneagram maps the psychological fixations, emotional patterns, and mental filters of the nine types, acupuncture makes visible the flow of life energy – Qi – and its blockages. Laying both maps over one another opens an approach that goes beyond the purely psychological: a holistic view of psychosomatic healing, in which the pattern of the soul and the flow of energy in the body appear as two expressions of the same reality.</p>
+          <p class="vb-intro" style="margin-bottom:0;">The sections below show how the Enneagram's three centers are mirrored in the teaching of the Five Elements, how fixation can be read as an energetic stagnation – and how the Enneagram's inner lines trace through the body like needle paths.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/portraits/enneagramm-akupunktur-en.jpeg" alt="Overview: Enneagram center, TCM element, somatic focus, and acupuncture solution shown together" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The three Enneagram centers mirrored in the Five Elements: center, TCM element, somatic focus, and the corresponding acupuncture solution at a glance.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">1. The Triadic Foundation: The Three Centers and the Five Elements</h2>
+          <p class="vb-intro">The Enneagram has always grouped its nine types into three centers: the body or instinct center (Types 8, 9, 1) with its struggle around autonomy, anger, and boundaries; the heart or feeling center (Types 2, 3, 4) with its concern for identity, shame, and being valued; and the head or thinking center (Types 5, 6, 7) with its struggle around security, fear, and orientation.</p>
+          <p class="vb-intro">Traditional Chinese Medicine offers a related, if more finely divided, triad: the teaching of the Five Elements (Wood, Fire, Earth, Metal, Water) and the interplay of the organ systems assigned to them. Each Enneagram type tends to show typical somatic stress patterns that surface through particular meridians and elements.</p>
+          <p class="vb-intro" style="margin-bottom:0;">One example makes this tangible: the head type Five often shows signs of exhaustion under pressure in the Water element – the organ system of kidney and bladder, traditionally linked to primal fear and mental exhaustion. The heart type Two, by contrast, tends to register emotional neglect through the Fire element – heart and small intestine, which in TCM is considered the seat of Shen, the spirit.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">2. Psychosomatic Correspondences: Fixation as Energetic Stagnation</h2>
+          <p class="vb-intro">In acupuncture, illness classically arises from a stagnation (Qi Zhi) or a deficiency (Xu) of energy. The Enneagram's fixation can be read as its energetic counterpart: a mental and emotional one-way street on which the same reaction plays out again and again, instead of flowing freely.</p>
+          <p class="vb-intro">In the body types (8, 9, 1), this tension typically settles in the muscular and fascial system – the Wood element, assigned to the Liver meridian, which in TCM governs the flow of Qi and healthy anger or assertiveness. Chronic denial of one's own needs shows up here as muscular blockage.</p>
+          <p class="vb-intro" style="margin-bottom:0;">In the head types (5, 6, 7), energy tends to pool in the head itself while the connection to the ground is lost. Points such as Kidney 1 – the ›Bubbling Spring‹ on the sole of the foot – or other grounding points deliberately reconnect the overheated mental system to the body's earth and water system.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">3. Dynamic Evolution: The Enneagram's Lines as Needle Paths</h2>
+          <p class="vb-intro">The Enneagram is not a static box. Through its inner lines – the stress and integration points – the energy of a type shifts depending on inner state. Under stress, a type effectively jumps to another point: the controlled One, for instance, takes on the more chaotic traits of the Four under pressure.</p>
+          <p class="vb-intro">In the language of acupuncture, this jump can be described as an abrupt rerouting of energy flow to an ›emergency meridian‹ – under strain, the body seeks another way of handling the tension. Conscious acupuncture work can act as a catalyst here: it helps the body release old reactive patterns, making it easier for a person to access the positive qualities of their integration and growth point instead of staying trapped in the stress reaction.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.6rem;border-left:4px solid var(--copper);">
+          <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 0.7rem;color:var(--ink);">Important Note: Acupuncture Belongs in Experienced Hands</h2>
+          <p class="vb-intro" style="margin-bottom:0;">The precise application of Chinese acupuncture is a high art and should be practiced only by a therapist with decades of experience. As with any healing art, knowledge alone is not enough – it takes just as much lived practical experience. A few years of training are certainly not enough to truly become a master of this discipline of natural medicine. Anyone interested in acupuncture should therefore seek out a suitably experienced therapist rather than attempting to place needles on their own.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Acupressure: The Self-Help Path</h2>
+          <p class="vb-intro">For anyone who doesn't want to wait for the next appointment with an experienced therapist, the related discipline of acupressure offers a path that can be practiced independently – with effects similar to needle acupuncture, just without the needle. This compass already covers acupressure on all 27 subtype detail pages, each under ›Page 3 · Body Work & Acupressure‹ – for example with <a href="javascript:void(0)" data-route="subtype/se1">SE1</a>, <a href="javascript:void(0)" data-route="subtype/so4">SO4</a>, or <a href="javascript:void(0)" data-route="subtype/sx7">SX7</a> – one example from each of the three centers.</p>
+          <p class="vb-intro" style="margin-bottom:0;">One thing matters here: acupressure only unfolds its effect with longer, regular practice. And it doesn't work when it's purely head-driven – simply going through the points mechanically won't accomplish much. Only when the practice is also done intuitively, with heart and gut engaged, when a person consciously attends to themselves and to their own body as a direct expression of being human, do noticeable improvements set in over the long run. As within, so without – this old principle applies especially to acupressure.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Conclusion: Two Languages for the Same State</h2>
+          <p class="vb-intro">The synthesis of Enneagram and acupuncture connects the depth psychology of motivation with the millennia-old wisdom of meridian theory. The Enneagram answers the why of suffering and of ever-repeating behavior patterns – the inner logic behind the fixation. Acupuncture translates this knowledge to the physical-energetic level, showing the how: exactly where the tension accumulates and how it can be released again.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Together, both systems form a powerful, analogous tool for holistic balance – from inner attitude all the way to the subtle flow of energy.</p>
+        </div>
+
+        ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+        ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions – with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
+        ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
+        ${relatedLinks([
+          {route:"enneagramm-reflexzonentherapie", label:"Enneagram Meets Reflexology"},
+          {route:"drei-zentren", label:"Chart: Three Centers"},
+          {route:"subtype/se1", label:"Subtype SE1"},
+          {route:"subtype/so4", label:"Subtype SO4"},
+          {route:"subtype/sx7", label:"Subtype SX7"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 // ─── Enneagramm meets Astrologie ───────────────────────────────────────────
 
@@ -95803,6 +95879,7 @@ function subtypeSchaubilderPage() {
       "enneagramm-zimmerpflanzen": enneagrammZimmerpflanzenPage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-handanalyse": enneagrammHandanalysePage,
+      "enneagramm-akupunktur": enneagrammAkupunkturPage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),

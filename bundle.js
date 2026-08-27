@@ -15872,6 +15872,7 @@ const uiText = {
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
       { route: "enneagramm-homoeopathie", label: "Enneagramm meets Homöopathie" },
       { route: "enneagramm-reflexzonentherapie", label: "Enneagramm meets Reflexzonentherapie" },
+      { route: "enneagramm-akupunktur", label: "Enneagramm meets Akupunktur" },
       { route: "enneagramm-handanalyse", label: "Enneagramm meets Handanalyse" },
       { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
@@ -43416,6 +43417,7 @@ function dreiZentrenPage() {
         {route:"zentren-weltwahrnehmung", label:"Zentren & Weltwahrnehmung"},
         {route:"koerperregulation", label:"K\u00f6rperregulation"},
         {route:"energetische-bewegungen", label:"Energetische Bewegungen"},
+        {route:"enneagramm-akupunktur", label:"Enneagramm meets Akupunktur"},
       ])}
     </section>
   `);
@@ -71373,7 +71375,81 @@ function enneagrammHandanalysePage() {
 
 
 
-// \u2500\u2500\u2500 Enneagramm meets Astrologie \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+// \u2500\u2500\u2500 Enneagramm meets Akupunktur \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+function enneagrammAkupunkturPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-akupunktur')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen \u00b7 K\u00f6rperarbeit</p>
+        <h1 class="section-title">Enneagramm meets Akupunktur</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Die Landkarte der Psyche trifft auf den Meridianfluss des K\u00f6rpers</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Zwei Spiegel desselben Kosmos: Das Enneagramm ist ein geometrisches Symbol der Psyche, ein Kreis mit neun Punkten, der die Landkarte menschlicher Motivation zeichnet. Die Traditionelle Chinesische Medizin (TCM) kennt mit ihren Meridianen und Akupunkturpunkten ein ebenso altes, ebenso feinmaschiges Abbildungssystem \u2013 nur eben f\u00fcr den K\u00f6rper und seinen Energiefluss. Beide Systeme gehen von derselben Grundannahme aus: Der Mensch ist keine isolierte Maschine, sondern ein dynamischer Mikrokosmos, der mit universellen Gesetzen in Resonanz steht.</p>
+          <p class="vb-intro">Wo das Enneagramm die psychologischen Fixierungen, emotionalen Muster und mentalen Filter der neun Typen kartografiert, macht die Akupunktur den Fluss der Lebensenergie \u2013 das Qi \u2013 und dessen Blockaden sichtbar. Legt man beide Landkarten \u00fcbereinander, entsteht ein Zugang, der \u00fcber das rein Psychologische hinausgeht: ein holistischer Blick auf psychosomatische Heilung, bei dem seelisches Muster und k\u00f6rperlicher Energiefluss als zwei Ausdrucksformen derselben Wirklichkeit erscheinen.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Die folgenden Abschnitte zeigen, wie sich die drei Zentren des Enneagramms in der Lehre der F\u00fcnf Wandlungsphasen wiederfinden, wie Fixierung sich als energetische Stauung lesen l\u00e4sst \u2013 und wie die inneren Linien des Enneagramms sich wie Nadel-Pfade durch den K\u00f6rper ziehen.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/enneagramm-akupunktur-de.jpeg" alt="\u00dcbersicht: Enneagramm-Zentrum, TCM-Element, somatischer Schwerpunkt und Akupunktur-L\u00f6sung im Zusammenspiel" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Die drei Enneagramm-Zentren im Spiegel der F\u00fcnf Wandlungsphasen: Zentrum, TCM-Element, somatischer Schwerpunkt und die jeweilige Akupunktur-L\u00f6sung im \u00dcberblick.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">1. Das triadische Grundprinzip: Die drei Zentren und die Wandlungsphasen</h2>
+          <p class="vb-intro">Das Enneagramm gruppiert seine neun Typen seit jeher in drei Zentren: das K\u00f6rper- beziehungsweise Instinktzentrum (Typ 8, 9, 1) mit seinem Ringen um Autonomie, Wut und Grenzen; das Herz- oder Gef\u00fchlszentrum (Typ 2, 3, 4) mit seinem Kreisen um Identit\u00e4t, Scham und Wertsch\u00e4tzung; und das Kopf- oder Denkzentrum (Typ 5, 6, 7) mit seinem Ringen um Sicherheit, Angst und Orientierung.</p>
+          <p class="vb-intro">In der Traditionellen Chinesischen Medizin findet sich eine verwandte Dreigliederung wieder \u2013 nur feiner aufgef\u00e4chert: die Lehre der F\u00fcnf Wandlungsphasen (Holz, Feuer, Erde, Metall, Wasser) und das Zusammenspiel der ihnen zugeordneten Funktionskreise. Jeder Enneagrammtyp zeigt dabei typische somatische Stressmuster, die sich \u00fcber bestimmte Meridiane und Wandlungsphasen abzeichnen.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Ein Beispiel macht das greifbar: Der Kopf-Typ F\u00fcnf zeigt unter Druck h\u00e4ufig Ersch\u00f6pfungssignale im Wasser-Element \u2013 dem Funktionskreis von Niere und Blase, traditionell mit Urangst und mentaler Ersch\u00f6pfung verbunden. Der Herz-Typ Zwei dagegen meldet sich bei emotionaler Vernachl\u00e4ssigung eher \u00fcber das Feuer-Element \u2013 Herz und D\u00fcnndarm, in der TCM der Sitz des Shen, des Geistes.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">2. Psychosomatische Entsprechungen: Fixierung als energetische Stauung</h2>
+          <p class="vb-intro">In der Akupunktur entsteht Krankheit klassischerweise durch eine Stauung (Qi Zhi) oder einen Mangel (Xu) von Energie. Die Enneagramm-Fixierung l\u00e4sst sich als energetisches Pendant dazu lesen: eine mentale und emotionale Einbahnstra\u00dfe, auf der dieselbe Reaktion immer wieder abl\u00e4uft, statt frei zu flie\u00dfen.</p>
+          <p class="vb-intro">Bei den K\u00f6rper-Typen (8, 9, 1) h\u00e4lt sich diese Spannung typischerweise im Muskel- und Fasziensystem \u2013 dem Holz-Element, dem Leber-Meridian zugeordnet, der in der TCM f\u00fcr den Qi-Fluss und f\u00fcr gesunde Wut beziehungsweise gesunde Durchsetzungskraft zust\u00e4ndig ist. Chronische Verleugnung eigener Bed\u00fcrfnisse schl\u00e4gt sich hier in muskul\u00e4ren Blockaden nieder.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Bei den Kopf-Typen (5, 6, 7) staut sich Energie eher im Kopf selbst, w\u00e4hrend der Bodenkontakt verloren geht. Punkte wie Niere 1 \u2013 die \u203aSprudelnde Quelle\u2039 an der Fu\u00dfsohle \u2013 oder andere Erdungspunkte binden das \u00fcberhitzte Mentalsystem gezielt wieder an das Erd- und Wassersystem des K\u00f6rpers an.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">3. Dynamische Evolution: Die Linien des Enneagramms als Nadel-Pfade</h2>
+          <p class="vb-intro">Das Enneagramm ist keine statische Schublade. \u00dcber die inneren Linien \u2013 die Stress- und Integrationspunkte \u2013 ver\u00e4ndert sich der Energiefluss eines Typs je nach innerer Verfassung. Unter Stress springt ein Typ gleichsam auf einen anderen Punkt: Die kontrollierte Eins etwa nimmt unter Druck die chaotischeren Z\u00fcge der Vier an.</p>
+          <p class="vb-intro">In der Sprache der Akupunktur l\u00e4sst sich dieser Sprung als abrupte Umlenkung des Energieflusses auf einen \u203aNotfall-Meridian\u2039 beschreiben \u2013 der K\u00f6rper sucht sich unter Belastung einen anderen Weg, um mit der Spannung umzugehen. Bewusste Akupunktur-Arbeit kann hier als Katalysator wirken: Sie hilft dem K\u00f6rper, alte reaktive Muster loszulassen, sodass der Mensch leichter Zugang zu den positiven Qualit\u00e4ten seines Integrations- und Wachstumspunktes findet, statt in der Stressreaktion gefangen zu bleiben.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.4rem 1.6rem;border-left:4px solid var(--copper);">
+          <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 0.7rem;color:var(--ink);">Wichtiger Hinweis: Akupunktur geh\u00f6rt in erfahrene H\u00e4nde</h2>
+          <p class="vb-intro" style="margin-bottom:0;">Die genaue Anwendung der chinesischen Akupunktur ist eine hohe Kunst und sollte ausschlie\u00dflich von einem Therapeuten mit jahrzehntelanger Erfahrung ausge\u00fcbt werden. Wie bei jeder Heilkunst reicht Wissen allein nicht aus \u2013 es braucht ebenso viel gelebte Praxiserfahrung. Ein paar Jahre Ausbildung gen\u00fcgen sicher nicht, um in dieser naturheilkundlichen Disziplin wirklich zum Meister zu reifen. Wer sich f\u00fcr Akupunktur interessiert, sollte deshalb gezielt nach einem entsprechend erfahrenen Therapeuten suchen, statt die Nadelsetzung auf eigene Faust zu versuchen.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Akupressur: der Weg in Eigenregie</h2>
+          <p class="vb-intro">Wer nicht bis zum n\u00e4chsten Termin bei einem erfahrenen Therapeuten warten m\u00f6chte, findet in der verwandten Akupressur einen Zugang, der sich in Eigenregie \u00fcben l\u00e4sst \u2013 mit \u00e4hnlich guten Effekten wie die Nadelakupunktur, nur ohne Nadel. Dieser Kompass behandelt Akupressur bereits auf allen 27 Subtyp-Detailseiten, jeweils auf \u203aSeite 3 \u00b7 K\u00f6rperarbeit & Akupressur\u2039 \u2013 exemplarisch etwa bei <a href="javascript:void(0)" data-route="subtype/se1">SE1</a>, <a href="javascript:void(0)" data-route="subtype/so4">SO4</a> oder <a href="javascript:void(0)" data-route="subtype/sx7">SX7</a> \u2013 je eine Person aus einem der drei Zentren.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Wichtig dabei: Akupressur entfaltet ihre Wirkung erst bei l\u00e4ngerer, regelm\u00e4\u00dfiger Anwendung. Und sie funktioniert nicht rein kopfgesteuert \u2013 wer die Punkte nur mechanisch abhakt, wird wenig sp\u00fcren. Erst wenn die \u00dcbung auch intuitiv, herz- und bauchfokussiert erfolgt, wenn man sich also bewusst mit sich selbst und dem eigenen K\u00f6rper als unmittelbarem Ausdruck des menschlichen Seins besch\u00e4ftigt, stellen sich langfristig deutliche Verbesserungen ein. Wie innen, so au\u00dfen \u2013 dieser alte Grundsatz gilt f\u00fcr die Akupressur ganz besonders.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Fazit: Zwei Sprachen f\u00fcr denselben Zustand</h2>
+          <p class="vb-intro">Die Synthese aus Enneagramm und Akupunktur verbindet die Tiefenpsychologie der Motivation mit der jahrtausendealten Weisheit der Meridianlehre. Das Enneagramm beantwortet das Warum des Leidens und der immer gleichen Verhaltensmuster \u2013 die innere Logik hinter der Fixierung. Die Akupunktur wandelt dieses Wissen auf k\u00f6rperlich-energetischer Ebene, sie zeigt das Wie: wo genau sich die Spannung staut und wie sie sich wieder l\u00f6sen l\u00e4sst.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Zusammen ergeben beide Systeme ein m\u00e4chtiges, analoges Werkzeug f\u00fcr ganzheitliche Balance \u2013 von der inneren Haltung bis zum feinstofflichen Energiefluss.</p>
+        </div>
+
+        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms \u2013 tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen f\u00fcr alle 9 Typen.", "Hinter der Leidenschaft")}
+        ${bookTip("leidenschaft-und-heilung", "27 Subtypen \u2013 Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind \u2013 ein tiefgr\u00fcndiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}
+        ${relatedLinks([
+          {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
+          {route:"drei-zentren", label:"Schaubild: Drei Zentren"},
+          {route:"subtype/se1", label:"Subtyp SE1"},
+          {route:"subtype/so4", label:"Subtyp SO4"},
+          {route:"subtype/sx7", label:"Subtyp SX7"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+// \u2500\u2500\u2500 Enneagramm meets Astrologie \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
 
 function enneagrammAstrologiePage() {
   function card(p) {
@@ -132009,6 +132085,7 @@ function render() {
       "enneagramm-zimmerpflanzen": enneagrammZimmerpflanzenPage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-handanalyse": enneagrammHandanalysePage,
+      "enneagramm-akupunktur": enneagrammAkupunkturPage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
