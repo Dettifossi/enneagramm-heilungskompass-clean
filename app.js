@@ -32197,6 +32197,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexueller Typ 1", krankheit:"Erblindung durch missglückte Staroperationen, Tod nach Schlaganfall und Fieber", teaser:"SX1w9 – Komponist, 1685–1750. Über Jahre fortschreitende Sehschwäche, zwei missglückte Augenoperationen im März 1750 durch den zweifelhaften Okulisten John Taylor führten zur vollständigen Erblindung. Starb vier Monate später nach einem Schlaganfall – derselbe Operateur ließ kurz darauf auch Händel erblinden." , land:"Deutschland", gender:"m", jahre:"1685–1750"},
   { route:"krankheitsportraets-konrad-adenauer", name:"Konrad Adenauer", subtyp:"SE1w9", heading:"Konrad Adenauer – Selbsterhaltender Typ 1", krankheit:"Schwere Gesichtsverletzungen durch Autounfall (1917), später Verfolgung und Haft, Tod nach zwei Herzinfarkten und Lungenentzündung (1967)", teaser:"SE1w9 – deutscher Bundeskanzler 1949–1963, 1876–1967. Sein Gesicht wurde 1917 bei einem schweren Autounfall zertrümmert; er formte die Narben zum Ausdruck kontrollierter Autorität um. Zwei Jahrzehnte später Verfolgung und Haft unter den Nationalsozialisten, bis ins hohe Alter bemerkenswert vital." , land:"Deutschland", gender:"m", jahre:"1876–1967"},
   { route:"krankheitsportraets-friedrich-schiller", name:"Friedrich Schiller", subtyp:"SX6w5", heading:"Friedrich Schiller – Sexueller Typ 6", krankheit:"Lungentuberkulose", teaser:"SX6w5 – Dichter, Dramatiker und Historiker, 1759–1805. Seit der Kindheit fragile Konstitution, ab 1791 wiederkehrende lebensbedrohliche Fieber- und Hustenanfälle, vierzehn Jahre kompromissloser Arbeit gegen den eigenen Verfall. Starb 1805 mit 45 Jahren an akuter Lungenentzündung – die Obduktion zeigte einen vollständig zerstörten Lungenflügel." , land:"Deutschland", gender:"m", jahre:"1759–1805"},
+  { route:"krankheitsportraets-otto-von-bismarck", name:"Otto von Bismarck", subtyp:"SX6w5", heading:"Otto von Bismarck – Sexueller Typ 6", krankheit:"Übergewicht, Erschöpfung und verschleppte Gangrän", teaser:"SX6w5 – Erster Reichskanzler, 1815–1898. Anfang der 1880er-Jahre Erschöpfungskrise und massives Übergewicht, ab 1883 radikale Behandlung durch Dr. Ernst Schweninger mit rund 20 kg Gewichtsverlust, zeitgenössisch belegter Morphinkonsum. Verweigerte im hohen Alter die Behandlung einer Gangrän am Fuß, starb am 30. Juli 1898 mit 83 Jahren an den Folgen von Gangrän und Lungenentzündung." , land:"Deutschland", gender:"m", jahre:"1815–1898"},
   { route:"krankheitsportraets-ludwig-van-beethoven", name:"Ludwig van Beethoven", subtyp:"SX6w5", heading:"Ludwig van Beethoven – Sexueller Typ 6", krankheit:"Fortschreitende Taubheit und Leberzirrhose", teaser:"SX6w5 – Komponist, 1770–1827. Ab ca. 1798 fortschreitender Hörverlust, parallel dazu chronische Bauchleiden und ein Verdacht auf Bleivergiftung. Ab 1821 Gelbsucht, ab Dezember 1826 vier schmerzhafte Bauchpunktionen gegen Wassereinlagerungen. Starb 1827 an den Folgen einer Leberzirrhose – die Obduktion zeigte eine massiv vernarbte Leber und geschädigte Nieren." , land:"Deutschland", gender:"m", jahre:"1770–1827"},
   { route:"krankheitsportraets-michael-jackson", name:"Michael Jackson", subtyp:"SO4w3", heading:"Michael Jackson – Sozialer Typ 4", krankheit:"Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit, verschwiegene Vitiligo", teaser:"SO4w3 – Sänger, Tänzer und Komponist, 1958–2009. Opioid-Behandlung nach schwerer Kopfhautverbrennung 1984, ab den 1990er-Jahren zunehmend schwere, therapieresistente Schlaflosigkeit. Erhielt zuletzt Propofol als häusliches Schlafmittel – ein Einsatz weit außerhalb jeder medizinischen Norm. Starb 2009 an akutem Herzstillstand durch eine Propofol-Überdosis, wenige Wochen vor der geplanten Comeback-Tour." , land:"USA", gender:"m", jahre:"1958–2009"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
@@ -33334,6 +33335,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Wladimir Putin \u2013 Sexueller Typ 6",
     teaser:"SX6w5 \u00b7 geb. 1952 in Leningrad. Politiker, Pr\u00e4sident der Russischen F\u00f6deration, ehem. KGB-Offizier. Der Wolf, der Angst durch Kontrolle \u00fcber andere zu bezwingen versucht.",
     land:"Russland", tags:["Politik"], gender:"m"},
+  { route:"beruehmte-otto-von-bismarck", name:"Otto von Bismarck", added:"2026-08-27", subtyp:"SX6w5",
+    heading:"Otto von Bismarck \u2013 Sexueller Typ 6",
+    teaser:"SX6w5 \u00b7 1815\u20131898. Erster Reichskanzler des Deutschen Kaiserreichs, \u203aEiserner Kanzler\u2039. Der Wolf, der Angst durch Einsch\u00fcchterung und R\u00fccktrittsdrohungen bezwang.",
+    land:"Deutschland", tags:["Politik","Geschichte"], gender:"m"},
   { route:"beruehmte-platon", name:"Platon", added:"2026-08-14", subtyp:"SX6w5",
     heading:"Platon – Sexueller Typ 6",
     teaser:"SX6w5 · ca. 428–348 v. Chr. Griechischer Philosoph, Schüler des Sokrates, Gründer der Akademie. Ideenlehre, Höhlengleichnis, ›Politeia‹. Der Wolf mit Fünferflügel: aus dem Verrat an Sokrates eine unerschütterliche Ordnung geschaffen. Tierentsprechung: Wolf.",
@@ -44270,12 +44275,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
-    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht"],
+    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck"],
     fingerabdruecke: [
       {
         titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
         beschreibung: "Anders als die anderen Sechser-Subtypen sucht diese Ausprägung Sicherheit nicht durch Anpassung oder Rückzug, sondern durch das direkte Konfrontieren der eigenen Angst – Stärke wird zur Gegenreaktion auf eine tief sitzende Unsicherheit.",
-        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen; Scarlett Johansson, deren Rollen – die kühle Black Widow, die kontrollierte KI-Stimme in ›Her‹ – immer wieder Stärke performen, während darunter etwas Verletzliches, Suchendes liegt; Moses, der sich der Berufung am Dornbusch viermal widersetzte, dann aber wiederholt und ohne erkennbares Zögern vor den mächtigsten Herrscher der bekannten Welt trat; Friedrich Schiller, der als Kadett heimlich ›Die Räuber‹ gegen die Zensur seines Herzogs verfasste und schließlich mittellos aus Württemberg floh, statt sich der Willkürherrschaft zu beugen – und der später mit derselben Härte, mit der er einst dem Herzog begegnet war, vierzehn Jahre gegen den eigenen, tödlich fortschreitenden Krankheitsverfall arbeitete; Beethoven, der zwei parallel fortschreitenden Erkrankungen – Taubheit und Leberzirrhose – nie mit Rückzug, sondern bis zur geballten Faust im Moment seines Todes mit fortgesetzter Arbeit begegnete"
+        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen; Scarlett Johansson, deren Rollen – die kühle Black Widow, die kontrollierte KI-Stimme in ›Her‹ – immer wieder Stärke performen, während darunter etwas Verletzliches, Suchendes liegt; Moses, der sich der Berufung am Dornbusch viermal widersetzte, dann aber wiederholt und ohne erkennbares Zögern vor den mächtigsten Herrscher der bekannten Welt trat; Friedrich Schiller, der als Kadett heimlich ›Die Räuber‹ gegen die Zensur seines Herzogs verfasste und schließlich mittellos aus Württemberg floh, statt sich der Willkürherrschaft zu beugen – und der später mit derselben Härte, mit der er einst dem Herzog begegnet war, vierzehn Jahre gegen den eigenen, tödlich fortschreitenden Krankheitsverfall arbeitete; Beethoven, der zwei parallel fortschreitenden Erkrankungen – Taubheit und Leberzirrhose – nie mit Rückzug, sondern bis zur geballten Faust im Moment seines Todes mit fortgesetzter Arbeit begegnete; Otto von Bismarck, der Kaiser Wilhelm I. wiederholt mit dem eigenen Rücktritt drohte, statt sich politischen Niederlagen zu beugen, und dessen eigenes Eingeständnis ›Ich bin ganz Nerven, sodass Selbstbeherrschung stets die größte Aufgabe meines Lebens war‹ zeigt, wie viel Kraft es kostete, die eigene Angst hinter Drohgebärden zu verbergen."
       },
       {
         titel: "Direkter Blickkontakt und Klartext statt Rückzug oder Diplomatie",
@@ -48628,6 +48633,77 @@ function wladimirPutinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-otto-von-bismarck", label:"Portr\u00e4t: Otto von Bismarck (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function ottoVonBismarckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto von Bismarck</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Erster Reichskanzler des Deutschen Kaiserreichs, geb. 1815 in Sch\u00f6nhausen, gest. 1898 in Friedrichsruh &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Rudeltier, das seine Position durch St\u00e4rke behauptet und jede Bedrohung des Territoriums mit Z\u00e4hnen beantwortet. Der Wolf vertraut nicht leicht. Er prescht nicht blind vor, sondern beobachtet, wittert, wartet auf den richtigen Moment &ndash; und wenn er zuschl\u00e4gt, dann entschlossen und ohne halbe Sachen.</p>
+          <p class="vb-intro">Otto von Bismarck, geboren 1815 auf dem Gut Sch\u00f6nhausen in der Altmark, ist dieser Wolf in seiner reinsten politischen Gestalt. Zeitgenossen beschrieben ihn als \u00bbd\u00e4monisch\u00ab, als \u00bbdiabolisch\u00ab &ndash; Formulierungen, die weniger sein Wesen treffen als das, was er bewusst nach au\u00dfen kehrte: eine Bedrohlichkeit, die keinen Zweifel daran lie\u00df, dass es gef\u00e4hrlich war, sich mit ihm anzulegen. Als seine Mutter starb, war er dreizehn Jahre alt; sein Vater, ein biederer Landjunker, hielt den ambitionslosen, unsteten Sohn zeitlebens f\u00fcr eine Entt\u00e4uschung. Aus diesem doppelten Mangel &ndash; fr\u00fch verlorene N\u00e4he, nie erhaltene Anerkennung &ndash; erwuchs kein R\u00fcckzug, sondern das genaue Gegenteil: eine zwanghafte, lebenslange Suche nach Dominanz und Best\u00e4tigung, die sich niemand mehr entziehen konnte.</p>
+          <p class="vb-intro">Sein eigenes Urteil \u00fcber sich selbst best\u00e4tigt, wie viel Kraft es kostete, diese Fassade aufrechtzuerhalten: \u203aIch bin ganz Nerven, sodass Selbstbeherrschung stets die gr\u00f6\u00dfte Aufgabe meines Lebens war.\u2039 Das ist kein Satz eines Mannes ohne Angst. Es ist das Gest\u00e4ndnis eines Wolfes, der seine eigene Nervosit\u00e4t so gr\u00fcndlich hinter Drohgeb\u00e4rden verbarg, dass ganze Generationen von Zeitgenossen und Historikern sie f\u00fcr Kaltbl\u00fctigkeit hielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Einsch\u00fcchterung statt R\u00fcckzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit Vorsicht oder Meidung, sondern mit pr\u00e4ventivem Angriff. <em>Wenn ich bedrohlicher bin als die Bedrohung selbst, dann kann mir nichts geschehen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Macht, weil sie die Erfahrung von Ohnmacht kennt und sich geschworen hat, ihr nie wieder ausgeliefert zu sein.</p>
+          <p class="vb-intro">Bismarcks politisches Handwerkszeug bestand aus genau dieser Logik. Sein bekanntestes Machtinstrument gegen\u00fcber Kaiser Wilhelm I. war die wiederholte R\u00fccktrittsdrohung: Wann immer der Kaiser sich seiner Linie widersetzen wollte, drohte Bismarck mit dem eigenen Abgang &ndash; ein Druckmittel, das er so oft und so wirkungsvoll einsetzte, dass der weit \u00e4ltere Monarch ihm in den meisten strittigen Fragen nachgab, aus Angst, den unentbehrlichen Kanzler tats\u00e4chlich zu verlieren. Das ist kein diplomatisches Nachgeben, das ist Einsch\u00fcchterung als Regierungsstil &ndash; die Drohung wird zur Waffe, weil der offene R\u00fcckzug f\u00fcr die SX6 keine Option ist.</p>
+          <p class="vb-intro">Hinzu kam eine ausgepr\u00e4gte Neigung zur Projektion: Bismarck war zutiefst \u00fcberzeugt, von Rivalen und vermeintlichen Verschw\u00f6rern umgeben zu sein &ndash; am Hof, in der Presse, in den Parlamentsfraktionen. Tageb\u00fccher und Korrespondenz belegen ein zwanghaftes Kreisen um m\u00f6glichen Verrat, um vergangene Kr\u00e4nkungen, um imagin\u00e4re Umsturzpl\u00e4ne. Diese Angst wurde nicht introspektiv verarbeitet, sondern nach au\u00dfen projiziert und in Pr\u00e4ventivschl\u00e4ge \u00fcbersetzt: Wer als Gefahr galt, wurde politisch kaltgestellt, bevor er selbst zuschlagen konnte. Sein eigenes Rudel &ndash; ein enger Kreis loyaler Vertrauter wie Albrecht von Roon oder Robert von Keudell &ndash; wurde entsprechend eng gef\u00fchrt und gegen jede Konkurrenz von au\u00dfen verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Hypochondrie und strategische Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine analytische Tiefe und eine Neigung zum R\u00fcckzug in die eigene Innenwelt, die ihre K\u00e4mpfernatur um eine zweite, stillere Seite erg\u00e4nzt. Die SX6w5 handelt nicht impulsiv &ndash; sie beobachtet, w\u00e4gt ab, durchdenkt Konstellationen weit im Voraus, und zieht sich, wenn die Spannung zu gro\u00df wird, in eine br\u00fctende Isolation zur\u00fcck, statt sie im Au\u00dfen abzureagieren.</p>
+          <p class="vb-intro">Bei Bismarck zeigte sich dieser Fl\u00fcgel doppelt: einerseits in einer au\u00dfergew\u00f6hnlichen strategischen Begabung, die europ\u00e4ische M\u00e4chtekonstellationen \u00fcber Jahre hinweg antizipierte und geduldig auf den richtigen Moment hinarbeitete &ndash; nie das Ergebnis blinder Impulsivit\u00e4t, sondern jahrelanger Vorausplanung. Andererseits in einer ausgepr\u00e4gten Hypochondrie und einer Neigung, sich bei Stress tagelang auf seine G\u00fcter zur\u00fcckzuziehen: erst nach Varzin in Hinterpommern, sp\u00e4ter nach Friedrichsruh im Sachsenwald. Dort verbrachte er ganze Phasen im Bett liegend, klagte \u00fcber Nervenleiden, Schlaflosigkeit, Verdauungsbeschwerden &ndash; k\u00f6rperliche Symptome, die eng mit seinem chronischen Misstrauen und seiner Gr\u00fcbelneigung verwoben waren. Der Wolf, der sich in seine H\u00f6hle zur\u00fcckzieht, wenn die Jagd zu viel Kraft gekostet hat, aber von dort aus weiter das ganze Territorium im Blick beh\u00e4lt.</p>
+          <p class="vb-intro">Die gesundheitlichen Folgen dieses Musters &ndash; die Ersch\u00f6pfungskrise der fr\u00fchen 1880er-Jahre und die verweigerte Behandlung einer Gangr\u00e4n in seinen letzten Lebensjahren &ndash; werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-otto-von-bismarck">Krankheitsportr\u00e4t zu Bismarck</a> ausf\u00fchrlich gedeutet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Lebenswerk: Blut und Eisen, Reichsgr\u00fcndung, Sozialstaat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1862 zum preu\u00dfischen Ministerpr\u00e4sidenten berufen, formulierte Bismarck in seiner ber\u00fchmten Rede vor dem Budgetausschuss des Abgeordnetenhauses das Programm seiner Politik: nicht Reden und Mehrheitsbeschl\u00fcsse w\u00fcrden die gro\u00dfen Fragen der Zeit entscheiden, sondern \u00bbEisen und Blut\u00ab. Es folgten drei kalkulierte Kriege &ndash; gegen D\u00e4nemark 1864, gegen \u00d6sterreich 1866, gegen Frankreich 1870/71 &ndash;, mit denen er die deutschen Einzelstaaten unter preu\u00dfischer F\u00fchrung zusammenschmiedete. 1871 wurde im Spiegelsaal von Versailles das Deutsche Kaiserreich ausgerufen, Bismarck sein erster Reichskanzler.</p>
+          <p class="vb-intro">Nach der Reichsgr\u00fcndung wandelte sich sein Kurs: Deutschland sei nun \u00bbsaturiert\u00ab, weitere territoriale Expansion in Europa unn\u00f6tig &ndash; stattdessen baute er ein komplexes B\u00fcndnissystem auf, das den Frieden auf dem Kontinent sichern sollte. Innenpolitisch f\u00fchrte er den Kulturkampf gegen die katholische Kirche und sp\u00e4ter die Sozialistengesetze gegen die erstarkende Sozialdemokratie &ndash; zugleich aber auch, teils aus genau diesem taktischen Kalk\u00fcl, die weltweit ersten Sozialversicherungen: Krankenversicherung 1883, Unfallversicherung 1884, Alters- und Invalidit\u00e4tsversicherung 1889. Eine fr\u00fche Form des Sozialstaats, die zugleich F\u00fcrsorge und ein Instrument war, um der Arbeiterschaft den Boden f\u00fcr revolution\u00e4re Ideen zu entziehen &ndash; typisch f\u00fcr einen Wolf, der auch F\u00fcrsorge strategisch als Mittel zur Sicherung des eigenen Rudels einsetzte.</p>
+          <p class="vb-intro">1890, zwei Jahre nach dem Regierungsantritt des jungen, ungeduldigen Kaisers Wilhelm II., wurde Bismarck entlassen. Eine Karikatur der Zeit fasste den Bruch in vier Worten: \u00bbDer Lotse geht von Bord.\u00ab Der Mann, der drei Jahrzehnte lang durch Drohung und Kalk\u00fcl regiert hatte, konnte den Machtverlust an einen j\u00fcngeren Herrscher nicht durch dieselben Mittel abwenden &ndash; das R\u00fctteln an den F\u00e4den funktionierte nur, solange das Gegen\u00fcber Angst vor dem eigenen Abgang hatte, und Wilhelm II. hatte diese Angst nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist die F\u00e4higkeit, aus Angst heraus au\u00dfergew\u00f6hnliche strategische Weitsicht zu entwickeln und in Krisen Stabilit\u00e4t zu stiften. Bismarcks B\u00fcndnispolitik nach 1871 hielt Europa fast zwei Jahrzehnte lang in einem fragilen, aber funktionierenden Gleichgewicht &ndash; eine Leistung, die viele seiner Nachfolger nicht fortzuf\u00fchren wussten. Auch seine Sozialgesetzgebung, so taktisch sie gemeint war, wirkte weit \u00fcber ihren urspr\u00fcnglichen Zweck hinaus und wurde zum Vorbild moderner Sozialstaaten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und die Kontrareaktion der SX6 darauf ist eine H\u00e4rte, die keine Grenze mehr kennt, sobald die wahrgenommene Bedrohung existenziell wird. Der Kulturkampf traf die katholische Kirche und ihre Anh\u00e4nger mit Gesetzen, die Priester inhaftierten und Bist\u00fcmer verwaisen lie\u00dfen; die Sozialistengesetze verboten sozialdemokratische Organisationen, Versammlungen und Publikationen \u00fcber ein Jahrzehnt lang. Beides Ausdruck desselben Musters: Wer als Bedrohung des Rudels &ndash; des jungen Kaiserreichs, der eigenen Machtposition &ndash; identifiziert wurde, wurde mit staatlicher H\u00e4rte bek\u00e4mpft, ungeachtet des Preises f\u00fcr die Betroffenen. Diese Politik ist eigenst\u00e4ndig kritisch zu bewerten, unabh\u00e4ngig von der psychologischen Einordnung, die sie erkl\u00e4rt, aber nicht rechtfertigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Sicherheit ohne Drohung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich muss die Welt nicht kontrollieren, um sicher zu sein.</em> F\u00fcr die SX6w5 bedeutet das, St\u00e4rke nicht l\u00e4nger als Drohkulisse zu verstehen, sondern als innere Festigkeit, die kein Gegen\u00fcber mehr einsch\u00fcchtern muss, um sich sicher zu f\u00fchlen.</p>
+          <p class="vb-intro">Dieser Weg blieb Bismarck bis zuletzt verwehrt. Auch in den acht Jahren seines Ruhestands in Friedrichsruh, bis zu seinem Tod 1898, hielt er an Misstrauen und Kontrolle fest &ndash; er grollte \u00f6ffentlich gegen seinen kaiserlichen Nachfolger, kommentierte die Tagespolitik unaufgefordert und unvers\u00f6hnlich, und pflegte bis zuletzt das Bild des unentbehrlichen Staatsmanns, dem Unrecht geschehen war. Das Portr\u00e4t endet damit nicht mit einer Auss\u00f6hnung, sondern mit der Feststellung, die f\u00fcr jeden Kontratyp der Sechs gilt: Solange Sicherheit nur durch Drohung und Kontrolle \u00fcber andere gesucht wird, bleibt der Wolf gefangen in genau der Angst, die er zeitlebens zu bek\u00e4mpfen versuchte. Der Weg nach drau\u00dfen f\u00fchrt nicht \u00fcber mehr Macht, sondern \u00fcber das Vertrauen, das Bismarck sein Leben lang zu vermeiden gelernt hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-wladimir-putin", label:"Portr\u00e4t: Wladimir Putin (SX6w5)"},
+        {route:"beruehmte-friedrich-schiller", label:"Portr\u00e4t: Friedrich Schiller (SX6w5)"},
+        {route:"krankheitsportraets-otto-von-bismarck", label:"Krankheitsportr\u00e4t: Otto von Bismarck (SX6w5)"},
       ])}
     </div>
   `);
@@ -77659,7 +77735,208 @@ function friedrichSchillerKrankheitsportraetPage() {
         {route:"beruehmte-friedrich-schiller", label:"Porträt: Friedrich Schiller (SX6w5) – Lebenswerk"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6) – enger Freund und Briefpartner"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
+        {route:"krankheitsportraets-otto-von-bismarck", label:"Krankheitsporträt: Otto von Bismarck (SX6w5) – gleicher Subtyp, gegenläufige Ausprägung"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function ottoVonBismarckKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto von Bismarck</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel · 1815–1898</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Otto von Bismarck</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-otto-von-bismarck">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, den Wolf als Tiermotiv und
+        seine Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur
+        gestreift wird: der Erschöpfungskrise und dem massiven Übergewicht Anfang der 1880er-Jahre,
+        der radikalen Behandlung durch Dr. Ernst Schweninger – und der verweigerten Behandlung
+        einer Gangrän am Fuß, die zu seinen letzten Lebenswochen 1898 führte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bismarck</strong> ist der <strong>sexuellen Sechs mit Fünferflügel</strong>
+        zugeordnet. Naranjo beschrieb die SX6 als Kontratyp der Sechs: Statt sich vor Bedrohung
+        zurückzuziehen, begegnet sie ihr mit demonstrativer Stärke – auch wenn die Bedrohung der
+        eigene, alternde Körper ist. Der Fünferflügel bringt eine Neigung zu Hypochondrie und
+        Rückzug in die eigene Innenwelt, die bei Bismarck in einer strikten Trennung zwischen dem,
+        was er öffentlich zeigte, und dem, was er körperlich wirklich durchmachte, sichtbar wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der Jahrzehnte politischer Dauerspannung aufsummierte:</strong>
+        Bereits Ende der 1870er-Jahre war Bismarcks Gewicht auf rund 123 Kilogramm angestiegen –
+        die Summe jahrzehntelanger Bewältigungsstrategien gegen chronischen Stress: reichhaltiges
+        Essen, starkes Rauchen und erheblicher Alkoholkonsum, während er zugleich Reichsgründung,
+        Kulturkampf und Sozialistengesetze im Zaum hielt.</p>
+        <p class="vb-intro"><strong>b) Nur noch zwei Stunden Arbeitsfähigkeit am Tag:</strong>
+        Anfang der 1880er-Jahre schätzte Bismarck selbst ein, nur noch etwa zwei Stunden täglich
+        wirklich arbeitsfähig zu sein – für einen Mann, der drei Jahrzehnte lang Europas
+        Mächtekonstellationen im Kopf jonglierte, ein dramatischer Einbruch, den er lange Zeit
+        nicht öffentlich eingestand.</p>
+        <p class="vb-intro"><strong>c) Ein zeitgenössisch belegter Griff zu starken Mitteln:</strong>
+        Der Tagebucheintrag einer Bekannten aus dem Jahr 1872 erwähnt, dass der Kanzler Morphium
+        nahm – ein früher Hinweis darauf, dass Bismarck gegen Schlaflosigkeit, Nervenleiden und
+        Schmerzen bereits Jahre vor der offenen Erschöpfungskrise zu starken Mitteln griff, statt
+        die zugrunde liegende Überlastung anzugehen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Weg zu Dr. Schweninger über den eigenen Sohn:</strong>
+        Bismarck kam über seinen Sohn Wilhelm, der selbst unter adipositasbedingten Herz- und
+        Gichtproblemen litt, mit dem jungen bayerischen Arzt Ernst Schweninger in Kontakt – 1882
+        brachte Wilhelm ihn auf das Gut Varzin in Hinterpommern, im Frühsommer 1883 übernahm
+        Schweninger die Behandlung des Kanzlers.</p>
+        <p class="vb-intro"><strong>b) Ein einfaches, aber radikal konsequentes Regime:</strong>
+        Schweningers Rezept war schlicht: Bewegung an frischer Luft, einfache, reduzierte
+        Ernährung, deutlich weniger Alkohol und regelmäßiger Schlaf – gegen den erklärten
+        Widerstand der etablierten Hofärzte, die auf klassischere Kuren gesetzt hatten.</p>
+        <p class="vb-intro"><strong>c) Rund 20 Kilogramm in wenigen Jahren:</strong>
+        Von rund 123 Kilogramm im Jahr 1879 sank Bismarcks Gewicht bis 1884 auf etwa 100
+        Kilogramm – ein für die Zeit spektakulärer Erfolg, der Schweninger 1884 die Berufung zum
+        Leiter der Berliner Dermatologie-Klinik und zum außerordentlichen Professor einbrachte,
+        auf Bismarcks eigenes Betreiben hin.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vertrauen, das nur wenigen Menschen je zuteilwurde:</strong>
+        Dass Bismarck – ein Mann, dessen politischer Stil auf tiefem, chronischem Misstrauen
+        beruhte – sich einem jungen, in Hofkreisen zunächst belächelten Außenseiterarzt derart
+        rückhaltlos anvertraute, ist für die SX6w5 bemerkenswert: Vertrauen wird selten vergeben,
+        aber wenn es vergeben wird, dann kompromisslos.</p>
+        <p class="vb-intro"><strong>b) Deutlich gesteigerte Aktivität nach der Kur:</strong>
+        Nach der erfolgreichen Behandlung wurde Bismarck spürbar aktiver und belastbarer – die
+        radikale Umstellung wirkte, wo Jahrzehnte an Selbstüberforderung den Körper zuvor an den
+        Rand der Handlungsunfähigkeit gebracht hatten.</p>
+        <p class="vb-intro"><strong>c) Ein Muster, das sich nach 1890 wiederholte:</strong>
+        Nach der erzwungenen Entlassung 1890 zog sich Bismarck endgültig nach Friedrichsruh
+        zurück – wieder mit Klagen über Nervenleiden, Schlaflosigkeit und Verdauungsbeschwerden,
+        wieder in der für den Fünferflügel typischen Rückzugshaltung, sobald die politische Bühne
+        ihm entzogen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine zweite, endgültige Verschlechterung ab Mitte 1897:</strong>
+        Bismarcks Ärzte diagnostizierten Mitte 1897 eine sogenannte Altersbrand-Erkrankung –
+        eine chronische Durchblutungsstörung, die zum schmerzhaften Absterben von Gewebe am Fuß
+        führte und im Sommer 1898 zunehmend das gesamte Krankheitsbild bestimmte.</p>
+        <p class="vb-intro"><strong>b) Rollstuhl, Fieber und wachsende Atemnot:</strong>
+        Ab Sommer 1898 verschlechterte sich sein Zustand rasch: Bismarck war zunehmend an den
+        Rollstuhl gebunden, litt unter Fieber und einer hinzukommenden Lungenentzündung mit
+        schwerer Atemnot – ein körperlicher Verfall, der binnen weniger Wochen jede Genesung
+        unmöglich machte.</p>
+        <p class="vb-intro"><strong>c) Ein Tod kurz nach Mitternacht:</strong>
+        Otto von Bismarck starb am 30. Juli 1898 kurz nach Mitternacht in seinem Schlafzimmer in
+        Friedrichsruh, im Alter von 83 Jahren – an den Folgen von Gangrän, Lungenentzündung und
+        schweren Verdauungsstörungen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Wolf, der sich einem einzigen Vertrauten öffnete:</strong>
+        Dass ausgerechnet Schweninger, ein junger Außenseiter ohne höfischen Rückhalt, zum
+        einzigen Arzt wurde, dem Bismarck wirklich folgte, zeigt die SX6w5 in ihrer seltenen,
+        gesunden Form: Kontrolle abzugeben, wenn das Vertrauen wirklich verdient scheint.</p>
+        <p class="vb-intro"><strong>b) Dieselbe Härte, die zuvor politische Gegner traf, nun gegen den eigenen Körper:</strong>
+        Die Kompromisslosigkeit, mit der Bismarck einst gegen Kulturkampf-Gegner und
+        Sozialdemokraten vorging, richtete sich in den letzten Lebensjahren auch gegen die
+        eigenen Warnsignale – Schmerzen und Funktionsverlust wurden möglichst lange verdrängt,
+        statt ernst genommen zu werden.</p>
+        <p class="vb-intro"><strong>c) Rückzug statt öffentlicher Schwäche:</strong>
+        Wie schon in früheren Erschöpfungsphasen zog sich Bismarck auch in seiner letzten
+        Krankheit weitgehend aus der Öffentlichkeit zurück, statt Schwäche sichtbar werden zu
+        lassen – der Fünferflügel, der die Verletzlichkeit lieber hinter verschlossenen Türen in
+        Friedrichsruh verbarg als vor Publikum.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Friedrich Schiller (SX6w5):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-schiller">Friedrich
+        Schiller</a>, ebenfalls SX6w5, zeigt sich bei Bismarck das für diesen Subtyp typische
+        Grundmuster: der Bedrohung – auch der eigenen Sterblichkeit – nicht mit Rückzug, sondern
+        mit Konfrontation zu begegnen. Die Ausprägung ist jedoch gegenläufig: Schiller
+        konfrontierte seine Krankheit, indem er bis zur physischen Erschöpfung weiterarbeitete;
+        Bismarck konfrontierte die eigene Gangrän, indem er ihre Behandlung verweigerte – zwei
+        Varianten derselben SX6-Grundhaltung, der eigenen Verwundbarkeit nie nachzugeben, nur mit
+        entgegengesetztem äußerem Ausdruck: Aktivität bei Schiller, Verweigerung bei Bismarck.</p>
+        <p class="vb-intro"><strong>b) Zwei getrennte Krisen, ein wiederkehrendes Muster:</strong>
+        Zwischen der Erschöpfungskrise der frühen 1880er-Jahre und der tödlichen Gangrän der
+        späten 1890er-Jahre liegen anderthalb Jahrzehnte – doch beide Male reagierte Bismarcks
+        Körper auf jahrelang aufgestaute politische Anspannung, und beide Male stand am Anfang
+        ein Zustand, den er selbst lange heruntergespielt hatte, bevor überhaupt reagiert wurde.</p>
+        <p class="vb-intro"><strong>c) Warum die Behandlung durch Schweninger gelang, während die Gangrän-Behandlung scheiterte:</strong>
+        Der entscheidende Unterschied lässt sich am Vertrauen festmachen: 1883 übergab sich
+        Bismarck fast bedingungslos in die Hände eines einzelnen Arztes, dem er persönlich
+        vertraute. In seinen letzten Lebensjahren, isolierter und misstrauischer als je zuvor
+        gegenüber der offiziellen Ärzteschaft am Hof seines Nachfolgers Wilhelm II., fehlte
+        offenbar genau diese Vertrauensbeziehung, die 1883 den Ausschlag gegeben hatte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der Fuß, das Organ des eigenen Standpunkts?</strong>
+        Für eine sexuelle Sechs, deren gesamtes politisches Handwerk darauf beruhte, den eigenen
+        Standpunkt notfalls mit Drohung und Härte zu behaupten, liegt eine Deutung nahe:
+        ausgerechnet das Organ, das im übertragenen Sinn für den eigenen, unerschütterlichen
+        Stand steht, wurde in den letzten Lebensjahren zum Schauplatz eines Verfalls, den
+        Bismarck – anders als jede politische Bedrohung zuvor – nicht durch Kontrolle oder
+        Gegenangriff abwenden konnte. Die Weigerung, sich behandeln zu lassen, liest sich als
+        letzter Versuch, wenigstens die Deutungshoheit über den eigenen, unaufhaltsam
+        verfallenden Körper zu behalten – Kontrolle über die eigene Verletzlichkeit dadurch zu
+        wahren, dass man sie leugnet, statt sie behandeln zu lassen. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Durchblutungsstörungen
+        oder Gangrän führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Bismarcks Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, Schwäche – auch die eigene körperliche – nicht einzugestehen, in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Bismarck kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten noch nicht. Die Kontrareaktion der sexuellen Sechs, jeder Bedrohung mit Härte
+        statt mit Rückzug zu begegnen, kannte für ihn keinen eingebauten Warnmechanismus, der ihn
+        rechtzeitig zur Behandlung hätte bewegen können; im Gegenteil, das eigene, absterbende
+        Gewebe wurde offenbar in derselben Logik verarbeitet wie jede andere Bedrohung seines
+        Lebens zuvor: als etwas, dem man nicht nachgibt, sondern dem man die Stirn bietet, notfalls
+        auch durch bloßes Ignorieren. Wer das eigene Muster, Schwäche nie zuzugeben, nicht kennt,
+        kann es auch nicht rechtzeitig durchbrechen – bei Bismarck endete das erst mit dem Tod, am
+        30. Juli 1898.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Bismarcks</strong> sexuelle Sechs mit
+        Fünferflügel noch einmal ablesen: eine Erschöpfungskrise der frühen 1880er-Jahre, die er
+        nur durch fast bedingungslose Vertrauensvergabe an einen einzelnen Arzt überwand, und eine
+        Gangrän der späten 1890er-Jahre, deren Behandlung er verweigerte, bis am 30. Juli 1898
+        kein Widerstand mehr möglich war. Der Wolf, der einmal lernte, sich einem Einzelnen
+        anzuvertrauen – und der dieses Vertrauen am Ende seines Lebens niemandem mehr entgegenbringen
+        konnte, nicht einmal der eigenen Verletzlichkeit gegenüber.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-otto-von-bismarck", label:"Porträt: Otto von Bismarck (SX6w5) – Lebenswerk"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5) – gleicher Subtyp"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
     </div>
@@ -132498,6 +132775,7 @@ function render() {
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
+      "beruehmte-otto-von-bismarck": ottoVonBismarckPortraitPage,
       "beruehmte-friedrich-schiller": friedrichSchillerPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
       "beruehmte-platon": platonPortraitPage,
@@ -132887,6 +133165,7 @@ function render() {
       "krankheitsportraets-johann-sebastian-bach": johannSebastianBachKrankheitsportraetPage,
       "krankheitsportraets-konrad-adenauer": konradAdenauerKrankheitsportraetPage,
       "krankheitsportraets-friedrich-schiller": friedrichSchillerKrankheitsportraetPage,
+      "krankheitsportraets-otto-von-bismarck": ottoVonBismarckKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
