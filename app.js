@@ -71344,7 +71344,7 @@ function enneagrammHandanalysePage() {
             </div>
             <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1rem 1.2rem;border-left:4px solid #8a7a4a;">
               <strong style="display:block;margin-bottom:0.4rem;color:var(--ink);">Schicksalslinie</strong>
-              <p style="font-size:0.88rem;line-height:1.6;color:var(--muted);margin:0;">Die senkrechte Linie, die von der Handwurzel in Richtung Mittelfinger zieht – nicht bei jeder Hand gleich klar erkennbar. Sinnbildlich steht sie für Lebensrichtung, äußere Einflüsse und das Gefühl, einem erkennbaren Weg zu folgen.</p>
+              <p style="font-size:0.88rem;line-height:1.6;color:var(--muted);margin:0;">Die senkrechte Linie, die von der Handwurzel in Richtung Mittelfinger zieht – nicht bei jeder Hand gleich klar erkennbar. Sinnbildlich steht sie für Lebensrichtung, äußere Einflüsse und das Gefühl, einem erkennbaren Weg zu folgen. In der Chiromantie auch Saturnlinie genannt: Bei jüngeren Menschen ist sie oft noch schwächer ausgeprägt, unterbrochen oder ganz unsichtbar, weil sich der berufliche und lebensbestimmende Weg erst noch findet. Während die Hauptlinien wie Herz- und Kopflinie meist schon bei der Geburt klar angelegt sind, entsteht die Schicksalslinie erst nach und nach durch Handbeanspruchung, Gewohnheiten und gelebte Entscheidungen – und gräbt sich mit zunehmender Lebenserfahrung tiefer ein, je mehr sich der eigene Weg verfestigt.</p>
             </div>
           </div>
         </div>
