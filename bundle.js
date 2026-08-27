@@ -71228,7 +71228,7 @@ function enneagrammHandanalysePage() {
           "Bei der sicherheitsorientierten Sechs findet sich in der Handmitte häufig eine sehr gerade, gut sichtbare Schicksalslinie – jene senkrechte Linie, die sich klar durch die Handfläche zieht. Sie liest sich fast wie ein roter Faden, der Stabilität verspricht und einen klar erkennbaren Lebenspfad andeutet, selbst wenn die Sechs selbst innerlich oft zwischen Zweifel und Zuversicht schwankt.",
           "Diese Hand strahlt vor allem eines aus: Verlässlichkeit. Die Sechs sucht Halt in Struktur und Loyalität, und genau das zeigt sich in der festen, zugleich flexiblen Bauart ihrer Hand – stabil genug, um Sicherheit zu geben, beweglich genug, um sich nicht zu verkrampfen.",
         ]},
-        { typ: 7, titel: "Der Enthusiast – Die bewegliche Entdecker-Hand", punkte: [
+        { typ: 7, titel: "Der Enthusiast – Die dynamische Entdecker-Hand", punkte: [
           "Bei der Sieben fällt zuerst die Beweglichkeit auf: eine flexible Hand mit leicht biegsamen Fingern und Gelenken, die fast so wirken, als würden sie gleichzeitig nach allen Seiten greifen wollen. Die Abstände zwischen den Fingern sind dynamisch statt starr, und der kleine Finger steht oft leicht abgespreizt – ein körperliches Echo von Neugier und dem beständigen Drang nach Kommunikation.",
           "Die Lebenslinie, jener große Bogen, der sich um den Daumenballen zieht, verläuft bei der Sieben häufig weit geschwungen und bricht manchmal sogar nach außen hin aus – als suche sie sich abseits der gewohnten Bahn ihren eigenen Weg. Genau dieser Ausbruch signalisiert Bewegungsdrang und Experimentierfreude, das Gegenteil eines eng gezogenen, vorhersehbaren Pfades.",
           "Die Sieben will das Leben in vollen Zügen kosten, und ihre Hände sind selten wirklich still. Sie sind ständig in Bewegung, symbolisieren spielerische Leichtigkeit und den steten Drang, ja nichts zu verpassen, das das Leben noch zu bieten hat.",
@@ -71239,17 +71239,17 @@ function enneagrammHandanalysePage() {
       zentrum: "Das Bauch-Zentrum (Typ 8, 9, 1): Instinkt, Erdung und die „Erde-Hand“",
       intro: "Das instinktgetriebene Bauch-Zentrum ringt mit Präsenz, Kontrolle und innerem Frieden. Ihre Hände sind meist kräftige Erde- oder Feuer-Hände: breite Handflächen, dickere Knöchel und festere, kürzere Finger, die fest in der Materie stehen.",
       typen: [
-        { typ: 8, titel: "Der Herausforderer – Die kraftvolle Macht-Hand", punkte: [
+        { typ: 8, titel: "Der Herausforderer – Die entschlossene Macht-Hand", punkte: [
           "Die Acht besitzt eine breite, massive Handfläche mit einem sehr kräftigen, muskulösen Daumenballen – dem sogenannten Thenar. Die Finger selbst sind kurz, stämmig und stehen entschlossen beieinander, als würden sie keinen Zweifel an ihrer Zusammengehörigkeit dulden. Auffällig ist der Daumen: Er steht kraftvoll und weit von der Hand abgespreizt, fast wie ein eigener kleiner Willensbeweis.",
           "In dieser Hand sind alle Hauptlinien – Lebenslinie, Kopf- und Herzlinie – tief, kräftig und oft rot eingefärbt zu erkennen. Feine Ziselierungen, zarte Verzweigungen oder zögerliche Unterbrechungen sucht man hier vergeblich – stattdessen herrscht pure Direktheit, eine Hand ohne Umwege.",
           "Die Acht beansprucht Raum für sich, und genau das spiegeln der dominante Daumen und die breite Handfläche wider: unerschütterliche Willenskraft, ein instinktiver Schutzreflex für die eigenen Leute und eine natürliche Führungskraft, die keine großen Worte braucht.",
         ]},
-        { typ: 9, titel: "Der Vermittler – Die fließende Harmonie-Hand", punkte: [
+        { typ: 9, titel: "Der Vermittler – Die sanfte Friedens-Hand", punkte: [
           "Bei der Neun überwiegen weiche, runde Handformen, bei denen die Finger nahtlos und sanft in die Handfläche übergehen – ohne harte Kanten, ohne scharfe Übergänge. Die Finger selbst liegen oft dicht beieinander, wie zu einer Einheit verschmolzen, statt sich einzeln voneinander abzugrenzen.",
           "Auch die Linien wirken bei der Neun oft etwas verschwommen, weich und harmonisch – nichts drängt sich scharfkantig in den Vordergrund. Die Herzlinie verläuft dabei meist sanft und gerade quer über die Handfläche, ohne dramatische Brüche oder plötzliche Richtungswechsel.",
           "Die Neun sehnt sich nach Seelenfrieden und dem Ausgleich von Spannungen, und genau diese weiche Handform ist ihr körperlicher Ausdruck: das unbewusste Vermeiden von Konflikten, gepaart mit einer tiefen, fast mütterlich-väterlichen Sanftmut, die andere zur Ruhe kommen lässt.",
         ]},
-        { typ: 1, titel: "Der Perfektionist – Die geometrische Struktur-Hand", punkte: [
+        { typ: 1, titel: "Der Perfektionist – Die geordnete Struktur-Hand", punkte: [
           "Die Hand der Eins wirkt sehr aufgeräumt, fast symmetrisch. Die Finger sind gerade, präzise geformt und stehen in exakten, gleichmäßigen Abständen zueinander – nichts wirkt hier „wild“ oder ausgefranst, jedes Detail scheint an seinem vorgesehenen Platz zu sitzen.",
           "Kopflinie und Herzlinie laufen bei der Eins auffällig parallel und gerade, sauber geschnitten, fast so, als wären sie mit dem Lineal gezogen worden. Diese Ordnung im Kleinen ist kein Zufall, sondern das genaue Gegenstück zu jener inneren Stimme, die ständig Fehler und Unstimmigkeiten sucht.",
           "Die Eins liebt Ordnung und Prinzipien, und eine Hand, bei der jede Linie logisch und exakt verläuft, beruhigt genau diesen inneren Kritiker. Sie schenkt das Gefühl von absoluter Kontrolle und einer stillen, fast klassizistischen Ästhetik.",
@@ -71260,17 +71260,17 @@ function enneagrammHandanalysePage() {
       zentrum: "Das Herz-Zentrum (Typ 2, 3, 4): Emotion, Bühne und die „Wasser-Hand“",
       intro: "Im Herzzentrum dreht sich alles um Image, Beziehungen und tiefe Gefühlswelten. Ihre Hände entsprechen dem Typ der Wasser-Hand: oval, feingliedrig, mit geschmeidigen, weichen Gelenken und einer besonderen Betonung der Herzlinie – jener obersten der drei großen Hauptlinien, die am Rand der Hand unter dem kleinen Finger beginnt und quer über die Handfläche in Richtung des Raumes zwischen Zeige- und Mittelfinger verläuft. Sie gilt als das absolute Barometer für unsere emotionale Welt, Empathie und Beziehungsfähigkeit.",
       typen: [
-        { typ: 2, titel: "Der Helfer – Die zugewandte Herz-Hand", punkte: [
+        { typ: 2, titel: "Der Helfer – Die warme Herz-Hand", punkte: [
           "Die Zwei besitzt weiche, biegsame Hände, bei denen die Finger offen und einladend zueinander stehen – als würden sie sich instinktiv nach außen öffnen, statt sich abzuschotten.",
           "Der eigentliche Star dieser Hand ist ihre Herzlinie: lang, tief geschwungen, und am Ende deutlich nach oben gebogen – direkt zum Bereich zwischen Zeige- und Mittelfinger, manchmal sogar bis zum Zeigefinger hin.",
           "In der Handlesekunst zeigt eine solche, nach oben steigende Herzlinie eine enorme emotionale Hingabefähigkeit und Wärme an, dazu das tiefe Bedürfnis, geliebt zu werden und für andere da zu sein – die zentrale Melodie der Zwei, sichtbar bis in die Handfläche hinein.",
         ]},
-        { typ: 3, titel: "Der Erfolgreiche – Die repräsentative Präsentations-Hand", punkte: [
+        { typ: 3, titel: "Der Erfolgreiche – Die repräsentative Erfolgshand", punkte: [
           "Bei der Drei begegnen einem makellose, gepflegte Hände mit wohlproportionierten Fingern und Fingernägeln, die oft sehr bewusst eingesetzt werden – die Hand als Teil der äußeren Erscheinung, nicht nur als Werkzeug.",
           "Die Linien selbst sind klar, unauffällig und sauber gezeichnet: keine tiefen, dramatischen Furchen, sondern ein feines, klares Netz, das Effizienz und Kontrolle signalisiert statt innerer Turbulenz.",
           "Die Drei will glänzen und legt Wert auf Status, und genau so wirken ihre Hände: wie ein „Visitenkarten-Objekt“, dynamisch, zielgerichtet und stets bereit, zur erfolgreichen geschäftlichen oder gesellschaftlichen Begrüßung gereicht zu werden.",
         ]},
-        { typ: 4, titel: "Der Individualist – Die dramatische Tiefen-Hand", punkte: [
+        { typ: 4, titel: "Der Individualist – Die expressive Tiefen-Hand", punkte: [
           "Die Vier zeigt sich in langen, sehr expressiven Händen mit oft leicht unregelmäßigen, kreativen Fingern, deren Haut mitunter zart und dünn wirkt – fast so, als läge das Innenleben näher an der Oberfläche als bei anderen Typen.",
           "Die Herzlinie ist bei der Vier oft extrem tief geschnitten, manchmal wellenförmig oder von feinen Nebenlinien durchzogen – ein Ausdruck emotionaler Turbulenz und Melancholie. In seltenen Fällen findet sich hier sogar eine sogenannte Simian-Linie, eine einzige, durchgehende Quernaht, bei der Herz- und Kopflinie zu einer Linie verschmelzen: ein klassisches Zeichen für extreme Intensität, für das Gefühl, „anders“ zu sein, und für eine tiefe, unbändige Gefühlswelt.",
           "Die Vier sucht das Einzigartige und Kunstvolle, und ihre Hand spiegelt genau dieses innere Drama wider: die schöpferische Tiefe und die Sehnsucht nach authentischem Ausdruck, die sich nicht mit einer glatten Oberfläche zufriedengibt.",
@@ -71283,7 +71283,7 @@ function enneagrammHandanalysePage() {
     const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[t.typ] : null) || 'var(--copper)';
     return `<div style="border-left:3px solid ${col};padding-left:1.1rem;margin-bottom:1.2rem;">
       <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.4rem;">Typ ${t.typ}</div>
-      <h3 style="font-size:1.02rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">${t.titel}</h3>
+      <h3 style="font-size:1.02rem;font-weight:700;margin:0 0 0.6rem;color:${col};">${t.titel}</h3>
       ${t.punkte.map(p => `<p class="vb-intro" style="margin-bottom:0.7rem;">${p}</p>`).join('')}
     </div>`;
   }
@@ -71313,6 +71313,29 @@ function enneagrammHandanalysePage() {
         <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
           <img src="./assets/portraits/enneagramm-handanalyse-de.jpeg" alt="Übersicht: Enneagramm und Handanalyse – die drei Zentren im Spiegel von Handform und Handlinien" style="width:100%;display:block;" loading="lazy" />
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Von der kühlen Analyse-Hand der Fünf bis zur dramatischen Tiefen-Hand der Vier: Neun Handtypen als Spiegelbild der neun Enneagrammtypen.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Die Handlinien im Überblick</h2>
+          <p class="vb-intro" style="margin-bottom:1.2rem;">Bevor es in die einzelnen Handtypen geht, hier die vier Linien, auf die im Text immer wieder Bezug genommen wird. Nicht jede Linie ist bei jeder Hand gleich deutlich ausgeprägt – das gehört zur Individualität jeder einzelnen Hand dazu.</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
+            <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1rem 1.2rem;border-left:4px solid #7a9e5a;">
+              <strong style="display:block;margin-bottom:0.4rem;color:var(--ink);">Lebenslinie</strong>
+              <p style="font-size:0.88rem;line-height:1.6;color:var(--muted);margin:0;">Der große Bogen, der sich um den Daumenballen (das sogenannte Thenar) zieht. Sie steht für Vitalität und Lebenskraft, für die Art, wie jemand sich durchs Leben bewegt – entgegen einem verbreiteten Irrglauben sagt sie nichts über die Lebensdauer aus.</p>
+            </div>
+            <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1rem 1.2rem;border-left:4px solid #4a6e9e;">
+              <strong style="display:block;margin-bottom:0.4rem;color:var(--ink);">Kopflinie</strong>
+              <p style="font-size:0.88rem;line-height:1.6;color:var(--muted);margin:0;">Die mittlere der drei Hauptlinien, sie verläuft quer über die Handfläche. Sie gibt Auskunft über Denkweise und Konzentrationsfähigkeit – ob eher gerade und fokussiert oder geschwungen und assoziativ.</p>
+            </div>
+            <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1rem 1.2rem;border-left:4px solid #9e4a5a;">
+              <strong style="display:block;margin-bottom:0.4rem;color:var(--ink);">Herzlinie</strong>
+              <p style="font-size:0.88rem;line-height:1.6;color:var(--muted);margin:0;">Die oberste der drei Hauptlinien, sie beginnt am Handrand unter dem kleinen Finger. Sie gilt als das Barometer für Gefühlsleben, Empathie und Beziehungsfähigkeit – ihr Verlauf wird als Ausdruck emotionaler Offenheit gedeutet.</p>
+            </div>
+            <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1rem 1.2rem;border-left:4px solid #8a7a4a;">
+              <strong style="display:block;margin-bottom:0.4rem;color:var(--ink);">Schicksalslinie</strong>
+              <p style="font-size:0.88rem;line-height:1.6;color:var(--muted);margin:0;">Die senkrechte Linie, die von der Handwurzel in Richtung Mittelfinger zieht – nicht bei jeder Hand gleich klar erkennbar. Sinnbildlich steht sie für Lebensrichtung, äußere Einflüsse und das Gefühl, einem erkennbaren Weg zu folgen.</p>
+            </div>
+          </div>
         </div>
 
         ${HAND_ZENTREN.map(handZentrumBlock).join('')}
