@@ -1363,6 +1363,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vladimir Putin – Sexual Type 6",
     teaser:"SX6w5 · born 1952 in Leningrad. Politician, President of the Russian Federation, former KGB officer. The Wolf that tries to overcome fear by controlling others.",
     land:"Russia", tags:["Politics"], gender:"m"},
+{ route:"beruehmte-otto-von-bismarck", name:"Otto von Bismarck", added:"2026-08-27", subtyp:"SX6w5",
+    heading:"Otto von Bismarck – Sexual Type 6",
+    teaser:"SX6w5 · 1815–1898. First Chancellor of the German Empire, the \"Iron Chancellor.\" The Wolf that overcame fear through intimidation and resignation threats.",
+    land:"Germany", tags:["Politics","History"], gender:"m"},
 { route:"beruehmte-platon", name:"Plato", added:"2026-08-14", subtyp:"SX6w5",
     heading:"Plato – Sexual Type 6",
     teaser:"SX6w5 · c. 428–348 BC. Greek philosopher, student of Socrates, founder of the Academy. Theory of Forms, Allegory of the Cave, 'Republic'. The Wolf with the Five-wing: turning the betrayal of Socrates into an unshakeable order. Animal correspondence: Wolf.",
@@ -31899,6 +31903,75 @@ function wladimirPutinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-otto-von-bismarck", label:"Portrait: Otto von Bismarck (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function ottoVonBismarckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto von Bismarck</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">First Chancellor of the German Empire, born 1815 in Schönhausen, died 1898 in Friedrichsruh &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Wolf</strong> is the animal of the Sexual Type 6 &ndash; a pack animal that asserts its position through strength and answers any threat to its territory with bared teeth. The Wolf does not trust easily. It does not charge blindly, but watches, senses, waits for the right moment &ndash; and when it strikes, it does so decisively and without half measures.</p>
+          <p class="vb-intro">Otto von Bismarck, born 1815 on the estate of Schönhausen in the Altmark region, is this Wolf in its purest political form. Contemporaries described him as "demonic," as "diabolical" &ndash; terms that capture less his true nature than what he deliberately projected outward: a menace that left no doubt it was dangerous to cross him. His mother died when he was thirteen; his father, a plain country squire, considered his ambitionless, restless son a disappointment throughout his life. Out of this double deficit &ndash; early lost closeness, recognition never granted &ndash; grew not withdrawal but the exact opposite: a compulsive, lifelong pursuit of dominance and validation that no one could escape.</p>
+          <p class="vb-intro">His own verdict on himself confirms how much strength it took to maintain this facade: "I am all nerves, so that self-control has always been the greatest task of my life." That is not the sentence of a man without fear. It is the confession of a Wolf who concealed his own nervousness so thoroughly behind displays of menace that entire generations of contemporaries and historians mistook it for cold-bloodedness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Intimidation Instead of Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> is, according to Naranjo, the <strong>counter-type</strong> of the Six &ndash; the subtype in which the passion of fear and doubt is least visible, because it is turned into its opposite. The SX6 meets its fear not with caution or avoidance but with preemptive attack. <em>If I am more threatening than the threat itself, then nothing can happen to me.</em> Naranjo called this subtype <em>Strength</em>: the SX6 seeks power because it knows the experience of powerlessness and has sworn never to be at its mercy again.</p>
+          <p class="vb-intro">Bismarck's political toolkit rested on exactly this logic. His best-known instrument of power over Kaiser Wilhelm I was the repeated threat of resignation: whenever the Kaiser wanted to resist his course, Bismarck threatened to step down &ndash; a lever he used so often and so effectively that the far older monarch yielded to him on most contested questions, afraid of actually losing his indispensable chancellor. This is not diplomatic concession; it is intimidation as a style of governing &ndash; the threat becomes a weapon because open retreat is never an option for the SX6.</p>
+          <p class="vb-intro">Added to this was a pronounced tendency toward projection: Bismarck was deeply convinced he was surrounded by rivals and would-be conspirators &ndash; at court, in the press, in the parliamentary factions. Diaries and correspondence document a compulsive circling around possible betrayal, past slights, imagined coups. This fear was not processed introspectively but projected outward and translated into preemptive strikes: whoever was seen as a danger was politically sidelined before he could strike first. His own pack &ndash; a tight circle of loyal confidants such as Albrecht von Roon and Robert von Keudell &ndash; was accordingly kept close and defended against any outside competition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Hypochondria and Strategic Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Sexual Six an analytical depth and a tendency to withdraw into its own inner world, adding a second, quieter side to its combative nature. The SX6w5 does not act impulsively &ndash; it observes, weighs options, thinks through constellations far in advance, and, when the tension grows too great, withdraws into brooding isolation rather than discharging it outward.</p>
+          <p class="vb-intro">In Bismarck this wing showed itself in two ways: on the one hand, in an extraordinary strategic gift that anticipated European power constellations years in advance and patiently worked toward the right moment &ndash; never the result of blind impulsiveness, but of years of forethought. On the other hand, in a pronounced hypochondria and a tendency to withdraw to his estates for days at a time under stress &ndash; first to Varzin in Farther Pomerania, later to Friedrichsruh in the Sachsenwald. There he spent entire stretches lying in bed, complaining of nervous ailments, insomnia, digestive troubles &ndash; physical symptoms closely interwoven with his chronic mistrust and his tendency to brood. The Wolf that retreats to its den when the hunt has cost too much strength, but from there keeps watch over the whole territory all the same.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Life's Work: Blood and Iron, Founding an Empire, the Welfare State</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Appointed Prussian Minister President in 1862, Bismarck laid out the program of his politics in his famous speech before the Prussian parliament's budget committee: not speeches and majority votes would decide the great questions of the age, but "iron and blood." Three calculated wars followed &ndash; against Denmark in 1864, against Austria in 1866, against France in 1870/71 &ndash; through which he forged the German states together under Prussian leadership. In 1871, the German Empire was proclaimed in the Hall of Mirrors at Versailles, with Bismarck as its first chancellor.</p>
+          <p class="vb-intro">After the empire's founding, his course shifted: Germany was now "satiated," further territorial expansion in Europe unnecessary &ndash; instead he built a complex alliance system meant to secure peace on the continent. Domestically he led the Kulturkampf against the Catholic Church and later the Anti-Socialist Laws against the rising Social Democratic movement &ndash; yet at the same time, partly out of exactly this tactical calculation, introduced the world's first social insurance systems: health insurance in 1883, accident insurance in 1884, old-age and disability insurance in 1889. An early form of the welfare state that was at once genuine provision and an instrument to deny the working class fertile ground for revolutionary ideas &ndash; typical of a Wolf who deployed even care strategically as a means of securing his own pack.</p>
+          <p class="vb-intro">In 1890, two years after the young, impatient Kaiser Wilhelm II took the throne, Bismarck was dismissed. A cartoon of the time captured the break in four words: "Dropping the Pilot." The man who had governed for three decades through threat and calculation could not fend off the loss of power to a younger ruler by the same means &ndash; pulling the strings only worked as long as the other side feared his departure, and Wilhelm II did not.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 is the ability to turn fear into extraordinary strategic foresight and to provide stability in crises. Bismarck's alliance policy after 1871 held Europe in a fragile but functioning balance for almost two decades &ndash; an achievement many of his successors failed to sustain. His social legislation, too, however tactically intended, reached far beyond its original purpose and became a model for modern welfare states.</p>
+          <p class="vb-intro">The core passion of the Six is <strong>fear</strong> &ndash; and the SX6's counter-reaction to it is a toughness that recognises no limit once the perceived threat becomes existential. The Kulturkampf struck the Catholic Church and its followers with laws that imprisoned priests and left dioceses without bishops; the Anti-Socialist Laws banned Social Democratic organisations, assemblies and publications for more than a decade. Both are expressions of the same pattern: whoever was identified as a threat to the pack &ndash; the young empire, his own position of power &ndash; was fought with the full force of the state, regardless of the cost to those affected. This policy deserves independent criticism, irrespective of the psychological framing that explains it but does not justify it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: Safety Without Threats</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Six leads from the question <em>How do I protect myself from the threat?</em> to the recognition <em>I do not need to control the world in order to be safe.</em> For the SX6w5 this means no longer understanding strength as a backdrop of threat, but as an inner firmness that needs no one to be intimidated in order to feel safe.</p>
+          <p class="vb-intro">This path remained closed to Bismarck to the end. Even during the eight years of his retirement in Friedrichsruh, until his death in 1898, he held on to mistrust and control &ndash; he publicly grumbled against his imperial successor, commented on current politics unbidden and unreconciled, and to the last cultivated the image of the indispensable statesman who had been wronged. The portrait therefore does not end in reconciliation but in the observation that holds for every counter-type Six: as long as safety is sought only through threat and control over others, the Wolf remains trapped in exactly the fear it spent a lifetime trying to fight. The way out does not lead through more power, but through the trust Bismarck spent his life learning to avoid.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
+        {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5)"},
       ])}
     </div>
   `);
@@ -44261,12 +44334,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Fear is not avoided but confronted head-on – strength as counter-fear (Naranjo: countertype of the Six)",
-    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller"],
+    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck"],
     fingerabdruecke: [
       {
         titel: "Fear is not avoided, but confronted head-on",
         beschreibung: "Unlike the other Six subtypes, this expression seeks security not through adaptation or retreat, but through directly confronting one's own fear – strength becomes the counter-reaction to a deep-seated insecurity.",
-        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness; Beethoven, who met two parallel, progressing illnesses – deafness and liver cirrhosis – never with retreat but with continued work, right up to the clenched fist at the moment of his death."
+        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness; Beethoven, who met two parallel, progressing illnesses – deafness and liver cirrhosis – never with retreat but with continued work, right up to the clenched fist at the moment of his death; Otto von Bismarck, who repeatedly threatened Kaiser Wilhelm I with his own resignation rather than bow to political defeats, and whose own admission, 'I am all nerves, so that self-control has always been the greatest task of my life,' shows how much strength it took to conceal his own fear behind displays of menace."
       },
       {
         titel: "Direct eye contact and plain speech instead of retreat or diplomacy",
@@ -96803,6 +96876,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
+      "beruehmte-otto-von-bismarck": ottoVonBismarckPortraitPage,
       "beruehmte-friedrich-schiller": friedrichSchillerPortraitPage,
       "beruehmte-ludwig-van-beethoven": ludwigVanBeethovenPortraitPage,
       "beruehmte-platon": platonPortraitPage,
