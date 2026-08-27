@@ -269,6 +269,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexual Type 3", krankheit:"B-cell lymphoma", teaser:"SP3w4 – the Night Stalker, 1960–2013. Diagnosed with B-cell lymphoma on death row, died on June 7, 2013, in Greenbrae, California, before his execution could be carried out." , land:"USA", gender:"m", jahre:"1960–2013"},
   { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Self-Preservation Type 5", krankheit:"Chronic lung disease from glass dust", teaser:"SP5w6 – rationalist philosopher, 1632–1677. Decades of inhaling glass dust while grinding lenses, likely cause of his fatal lung disease. Died on February 21, 1677, in The Hague at age 44." , land:"Netherlands", gender:"m", jahre:"1632–1677"},
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Self-Preservation Type 5", krankheit:"Migraine, eye ailments, recurring depressive crises", teaser:"SP5w6 – writer, Nobel laureate, 1877–1962. Lifelong severe migraines, chronic eye ailments, nervous breakdown in 1916, psychoanalysis with a student of C. G. Jung. Died in 1962 in his sleep in Montagnola at age 85." , land:"Germany/Switzerland", gender:"m", jahre:"1877–1962"},
+  { route:"krankheitsportraets-warren-buffett", name:"Warren Buffett", subtyp:"SE5w6", heading:"Warren Buffett – Self-Preservation Type 5", krankheit:"Early-Stage Prostate Cancer, Diagnosed 2012", teaser:"SE5w6 – investor and businessman, b. 1930. Diagnosed with Stage I prostate cancer in 2012 at age 81, disclosed in an open shareholder letter. Two-month course of radiation therapy, successfully completed in September 2012, with no interruption to his leadership role at Berkshire Hathaway." , land:"USA", gender:"m", jahre:"b. 1930"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexual Type 4", krankheit:"Chronic digestive and bladder ailments", teaser:"SX4w3 – Enlightenment writer and philosopher, 1694–1778. Decades of digestive and bladder complaints, obsessively documented in letters, unrelenting productivity despite constant complaints. Died on May 30, 1778, in Paris, weeks after his triumphant return from exile." , land:"France", gender:"m", jahre:"1694–1778"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Self-Preservation Type 4", krankheit:"Progressive obsessive-compulsive disorder, germophobia, complete isolation", teaser:"SP4w5 – inventor and engineer, 1856–1943. Pronounced obsessive-compulsive disorder with counting rituals and germophobia, decades of increasing social isolation, final bond to a single white dove. Died impoverished on January 7, 1943, alone in a New York hotel room." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Social Type 5", krankheit:"Nervous breakdown, likely from mercury poisoning", teaser:"SO5w6 – physicist and mathematician, 1642/43–1727. Severe nervous breakdown in 1693 with paranoid accusations against close friends, likely caused by decades of unprotected alchemical experiments with mercury. Recovered within a year, died in 1727 at age 84." , land:"England", gender:"m", jahre:"1642–1727"},
@@ -27965,6 +27966,9 @@ function warrenBuffettPortraitPage() {
           <p class="vb-intro">Warren Buffett is still in Omaha. Still in the same house. Still eating at McDonald's for breakfast. And still reading five hundred pages a day. The owl has never stopped watching. That is the Self-Preservation Five with a Six wing. That is Warren Buffett.</p>
         </blockquote>
 
+          <p class="vb-intro">In 2012, at age 81, Buffett was diagnosed with early-stage prostate cancer – news he disclosed himself in an open letter to shareholders, with the same matter-of-fact, unruffled clarity he otherwise reserves for annual reports. How the Self-Preservation Five with a Six-wing met that diagnosis is explored in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-warren-buffett">illness portrait on Warren Buffett</a>.</p>
+        </blockquote>
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -27974,6 +27978,190 @@ function warrenBuffettPortraitPage() {
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
+        {route:"krankheitsportraets-warren-buffett", label:"Illness Portrait: Warren Buffett (SE5w6) – the 2012 prostate cancer diagnosis"},
+      ])}
+    </div>
+  `);
+}
+
+function warrenBuffettKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-warren-buffett-portrait.jpg" alt="Warren Buffett – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Warren Buffett</p>
+        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing · b. 1930</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Owl</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Warren Buffett</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-warren-buffett">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as an investor and his type structure
+        in general. This page delves into a chapter not covered there: in April 2012, at age 81,
+        Buffett disclosed in an open letter to Berkshire Hathaway shareholders that he had been
+        diagnosed with early-stage prostate cancer. He underwent treatment, continued running the
+        company unchanged throughout, and announced the successful completion of therapy a few
+        months later. This page deliberately does <strong>not</strong> suggest that a cancer
+        diagnosis has any causal link to personality or subtype – anyone can develop cancer
+        regardless of their Enneagram pattern. The focus instead is on <em>how</em> a strongly
+        expressed Self-Preservation Type 5 handled such a diagnosis.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Buffett</strong> is classified as the <strong>Self-Preservation Type 5 with
+        Six-wing</strong> – the same subtype as <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Marie Curie</a>
+        in this Compass. Naranjo called the Self-Preservation Five the <em>Castle</em>: security
+        comes from retreating into a self-controlled, manageable space, where knowledge and facts
+        form the actual foundation – not feeling or drama. The Six-wing adds a tendency to first
+        assess any situation soberly for its actual risk, rather than falling into panic or
+        denial. This same posture also shaped how Buffett met his own cancer diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A blood test as the trigger:</strong>
+        The diagnosis began with a routine blood test that showed an elevated PSA level – a
+        finding with no noticeable symptoms, confirmed as a diagnosis only after a subsequent
+        biopsy.</p>
+        <p class="vb-intro"><strong>b) Diagnosis on a Wednesday, follow-up scans the next day:</strong>
+        By his own account, Buffett received the diagnosis on a Wednesday, with further scans
+        following the very next day – a swift, matter-of-fact process with no visible sign of
+        shock.</p>
+        <p class="vb-intro"><strong>c) Stage I – an early stage:</strong>
+        The prostate cancer was diagnosed at Stage I, an early, highly treatable stage – a fact
+        Buffett foregrounded from the very start of his public communication.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Disclosure via shareholder letter:</strong>
+        Rather than hiding the diagnosis or letting it leak out indirectly, Buffett announced it
+        himself, in his own words, on April 17–18, 2012, in an open letter to Berkshire Hathaway
+        shareholders – an unusually direct, unruffled way for a CEO to handle a health crisis.</p>
+        <p class="vb-intro"><strong>b) "Not remotely life-threatening":</strong>
+        His own words were that the condition was "not remotely life-threatening or even
+        debilitating in any meaningful way" – a deliberately sober framing that avoided
+        dramatization from the outset.</p>
+        <p class="vb-intro"><strong>c) "I feel great":</strong>
+        Buffett added that he felt "great – as if I were in my normal excellent health," and that
+        his energy level was "100 percent" – phrasing that reads more like an annual report than
+        a health announcement.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Two months of daily radiation instead of surgery:</strong>
+        Together with his doctors, Buffett opted for a two-month course of daily radiation
+        therapy, beginning in mid-July 2012 at the Nebraska Medical Center – no surgical
+        procedure, but a planned, steady process.</p>
+        <p class="vb-intro"><strong>b) 44 radiation sessions to completion:</strong>
+        On September 14, 2012, Buffett publicly announced the end of treatment: "Today I had my
+        44th and last day of radiation" – a plain, almost ledger-like summary of a months-long
+        process.</p>
+        <p class="vb-intro"><strong>c) No interruption to his leadership role:</strong>
+        Throughout the treatment period, Buffett emphasized that he continued working normally as
+        CEO of Berkshire Hathaway – no stand-in, no visible limitation to his leadership duties.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Calm in the capital markets:</strong>
+        Because Buffett communicated the diagnosis, treatment plan, and prognosis himself, early,
+        and with clear facts, investor reaction and Berkshire stock stayed comparatively calm –
+        uncertainty was replaced with information before it could build.</p>
+        <p class="vb-intro"><strong>b) A model for matter-of-fact illness communication:</strong>
+        Media repeatedly described Buffett's handling of the diagnosis as remarkably composed – a
+        public counterpoint to cases where prominent illnesses are hidden or dramatized for
+        years.</p>
+        <p class="vb-intro"><strong>c) No break in daily life:</strong>
+        Neither his well-known daily rhythm nor his public presence visibly changed during
+        treatment – the same routine, the same work, the same tone.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Facts before feeling as the first response:</strong>
+        For a Self-Preservation Five whose sense of security comes from precise knowledge, the
+        natural first response to the diagnosis was not emotional processing but the rapid
+        clarification of facts: what stage, what treatment, what prognosis. Only then came the
+        disclosure to the outside world.</p>
+        <p class="vb-intro"><strong>b) The Six-wing as risk assessment applied to illness:</strong>
+        The same Six-wing that drives Buffett to ask about risk first in his investment
+        decisions showed up here too: a quick, sober assessment that the diagnosis posed no
+        existential risk, followed by a planned, reliable treatment rather than any rushed steps.</p>
+        <p class="vb-intro"><strong>c) The castle stays occupied, not sealed off:</strong>
+        Unlike the withdrawal from public life one might expect from a closed-off Five, Buffett
+        deliberately opened the castle for this one announcement – not out of a need for
+        closeness, but because transparency toward shareholders struck him as the factually
+        correct, calculated choice.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Throughline</h3>
+        <p class="vb-intro"><strong>a) A diagnosis handled like an annual report:</strong>
+        Buffett's entire public language about his own illness – figures, deadlines,
+        probabilities, a clear timeline through to the end of treatment – followed the same sober
+        register with which he otherwise assesses balance sheets and market risk.</p>
+        <p class="vb-intro"><strong>b) The same owl that doesn't panic about money either:</strong>
+        Buffett became famous for advising investors to be fearful when others are greedy, and
+        greedy when others are fearful – a stance that demands calm precisely when things look
+        threatening. He showed that same calm toward his own diagnosis: no alarmism, just a cool
+        assessment of the actual situation.</p>
+        <p class="vb-intro"><strong>c) Why exactly this composed openness?</strong>
+        For a Self-Preservation Five with a Six-wing, whose sense of security comes from facts
+        and controlled communication, one plausible reading suggests itself: the public disclosure
+        was itself an act of risk management – better to supply one's own clear version of the
+        facts than to leave room for speculation and uncontrolled rumor. This reading is a
+        plausible interpretation, not a documented historical causal link, and will be developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framework without determinism:</strong>
+        This does not mean that the pattern of the Self-Preservation Five with a Six-wing
+        inevitably leads to or explains prostate cancer – <strong>anyone can develop any illness,
+        regardless of subtype.</strong> What Buffett's case can show is a pattern in how someone
+        handles a cancer diagnosis that recurs again and again in a strongly expressed
+        Self-Preservation Five with a Six-wing – one of many possible readings, not a verdict.
+        The corresponding illness picture will gradually be developed further in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Like most people, Buffett was not consciously aware of his own Enneagram pattern for most
+        of his life. Without that awareness, he nonetheless lived out the passion of the
+        Self-Preservation Five unchanged for decades: frugality, conservation of resources, and a
+        striking distance from his own body's warning signs. His well-known lifestyle – daily
+        fast-food breakfasts, large amounts of Cherry Coke, almost no exercise – stayed unchanged
+        for decades, even though he could long since have afforded any alternative imaginable.
+        That this physically undercared-for lifestyle nonetheless let him live well past ninety
+        changes nothing about the fact that the same SE5 persistence is visible here that also
+        kept his investment principles unchanged for decades: once a routine is recognized as
+        correct, it is not questioned out of consideration for the body, but simply continued.
+        That he stayed healthy for so long anyway is luck and constitution, not proof that the
+        routine itself was wise.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Five with a Six-wing shows itself in <strong>Warren Buffett</strong>
+        in how he met a cancer diagnosis: matter-of-fact, fact-based, without dramatization – and
+        with the same calm openness he otherwise brings to his shareholder letters. The owl that
+        watched closely all its life turned that same clear gaze on its own diagnosis – and once
+        treatment was complete, returned unchanged to its post.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6) – Life's Work"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6) – matter-of-fact to the point of ignoring her own warning signs"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se5", label:"Subtype Profile SE5"},
       ])}
     </div>
   `);
@@ -95380,6 +95568,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-bernie-madoff": bernieMadoffKrankheitsportraetPage,
       "krankheitsportraets-frida-kahlo": fridaKahloKrankheitsportraetPage,
       "krankheitsportraets-oprah-winfrey": oprahWinfreyKrankheitsportraetPage,
+      "krankheitsportraets-warren-buffett": warrenBuffettKrankheitsportraetPage,
       "krankheitsportraets-yayoi-kusama": yayoiKusamaKrankheitsportraetPage,
       "krankheitsportraets-michael-schumacher": michaelSchumacherKrankheitsportraetPage,
       "krankheitsportraets-klaus-kinski": klausKinskiKrankheitsportraetPage,

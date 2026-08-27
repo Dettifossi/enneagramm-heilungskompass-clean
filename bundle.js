@@ -24033,6 +24033,7 @@ const registerEntries = [
   { term: "John Gotti Krankheitsporträt", route: "krankheitsportraets-john-gotti", description: "Portrait: SO8w7 · Sozialer Typ 8 · Kehlkopfkrebs in Isolationshaft" },
   { term: "Ludwig XIV. Krankheitsporträt", route: "krankheitsportraets-ludwig-xiv", description: "Portrait: SO3w2 · Sozialer Typ 3 · Gicht, Analfistel, tödlicher Wundbrand" },
   { term: "O.J. Simpson Krankheitsporträt", route: "krankheitsportraets-oj-simpson", description: "Portrait: SO3w4 · Sozialer Typ 3 · Prostatakrebs, verborgen bis zum Tod" },
+  { term: "Warren Buffett Krankheitsporträt", route: "krankheitsportraets-warren-buffett", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Prostatakrebs 2012, offen kommuniziert, erfolgreich behandelt" },
   { term: "Richard Ramírez Krankheitsporträt", route: "krankheitsportraets-richard-ramirez", description: "Portrait: SX3w4 · Sexueller Typ 3 · B-Zell-Lymphom in der Todeszelle" },
   { term: "Baruch de Spinoza Krankheitsporträt", route: "krankheitsportraets-spinoza", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Chronische Lungenerkrankung durch Glasstaub" },
   { term: "Hermann Hesse Krankheitsporträt", route: "krankheitsportraets-hermann-hesse", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Migräne, Augenleiden, depressive Krisen" },
@@ -32217,6 +32218,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-richard-ramirez", name:"Richard Ramírez", subtyp:"SX3w4", heading:"Richard Ramírez – Sexueller Typ 3", krankheit:"B-Zell-Lymphom", teaser:"SX3w4 – ›Der Night Stalker‹, 1960–2013. Diagnose eines B-Zell-Lymphoms in der Todeszelle, gestorben am 7. Juni 2013 in Greenbrae, Kalifornien, vor Vollstreckung des Todesurteils." , land:"USA", gender:"m", jahre:"1960–2013"},
   { route:"krankheitsportraets-spinoza", name:"Baruch de Spinoza", subtyp:"SE5w6", heading:"Baruch de Spinoza – Selbsterhaltender Typ 5", krankheit:"Chronische Lungenerkrankung durch Glasstaub", teaser:"SE5w6 – rationalistischer Philosoph, 1632–1677. Jahrzehntelanges Einatmen von Glasstaub beim Linsenschleifen, vermutliche Ursache seiner tödlichen Lungenerkrankung. Starb am 21. Februar 1677 in Den Haag im Alter von 44 Jahren." , land:"Niederlande", gender:"m", jahre:"1632–1677"},
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Selbsterhaltender Typ 5", krankheit:"Migräne, Augenleiden, wiederkehrende depressive Krisen", teaser:"SE5w6 – Schriftsteller, Nobelpreisträger, 1877–1962. Lebenslange schwere Migräne, chronische Augenleiden, Nervenzusammenbruch 1916, Psychoanalyse bei einem Schüler C. G. Jungs. Starb 1962 im Schlaf in Montagnola im Alter von 85 Jahren." , land:"Deutschland/Schweiz", gender:"m", jahre:"1877–1962"},
+  { route:"krankheitsportraets-warren-buffett", name:"Warren Buffett", subtyp:"SE5w6", heading:"Warren Buffett – Selbsterhaltender Typ 5", krankheit:"Prostatakrebs im Frühstadium, 2012 diagnostiziert", teaser:"SE5w6 – Investor und Unternehmer, geb. 1930. 2012 im Alter von 81 Jahren mit Prostatakrebs im Stadium I diagnostiziert, per offenem Aktionärsbrief bekanntgegeben. Zweimonatige Strahlentherapie, im September 2012 erfolgreich abgeschlossen, ohne Unterbrechung seiner Führungsrolle bei Berkshire Hathaway." , land:"USA", gender:"m", jahre:"geb. 1930"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexueller Typ 4", krankheit:"Chronische Verdauungs- und Blasenleiden", teaser:"SX4w3 – Schriftsteller und Philosoph der Aufklärung, 1694–1778. Jahrzehntelange, in Briefen exzessiv dokumentierte Verdauungs- und Blasenbeschwerden, ungebremste Produktivität trotz ständiger Klagen. Starb am 30. Mai 1778 in Paris, wenige Wochen nach seiner triumphalen Rückkehr aus dem Exil." , land:"Frankreich", gender:"m", jahre:"1694–1778"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Selbsterhaltender Typ 4", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SE4w5 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Sozialer Typ 5", krankheit:"Nervenzusammenbruch, vermutlich durch Quecksilbervergiftung", teaser:"SO5w6 – Physiker und Mathematiker, 1642/43–1727. Schwerer Nervenzusammenbruch 1693 mit paranoiden Anschuldigungen gegen enge Freunde, vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit Quecksilber verursacht. Erholte sich innerhalb eines Jahres, starb 1727 im Alter von 84 Jahren." , land:"England", gender:"m", jahre:"1642–1727"},
@@ -59743,6 +59745,7 @@ function warrenBuffettPortraitPage() {
           <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Habe ich genug?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile &ndash; es wird mehr.</em> Bei Buffett sieht dieser Schritt aus wie Gro\xdfz\xfcgigkeit &ndash; und doch bleibt er SE5 bis in die letzte Konsequenz.</p>
           <p class="vb-intro">2006 k\xfcndigte Buffett an, rund 99 Prozent seines Verm\xf6gens zu spenden &ndash; haupts\xe4chlich an die Gates Foundation und die eigenen Familienstiftungen. Mit Bill Gates gr\xfcndete er den <em>Giving Pledge</em>, die \xf6ffentliche Selbstverpflichtung der Superreichen zum Spenden. Was davon \xfcbrigbleibt, wenn man genauer hinschaut: Buffett \xfcbertr\xe4gt keine Barmittel, sondern Berkshire-Anteile &ndash; Aktien, die er ohnehin nicht verkauft h\xe4tte, weil ein Verkauf Kapitalertragsteuer ausl\xf6sen w\xfcrde. Die Stiftungen, die diese Anteile erhalten, werden von Menschen gef\xfchrt, die Buffett nahe stehen. Das Verm\xf6gen wechselt den Namen, nicht die Kontrolle. Der Geiz der selbsterhaltenden F\xfcnf h\xf6rt auch dann nicht auf zu rechnen, wenn er das Gesicht der Gro\xdfz\xfcgigkeit tr\xe4gt.</p>
           <p class="vb-intro">Warren Buffett ist noch immer in Omaha. Noch immer im selben Haus. Noch immer bei McDonald\x27s zum Fr\xfchst\xfcck. Und noch immer liest er f\xfcnfhundert Seiten am Tag. Die Eule hat nie aufgeh\xf6rt zu schauen. Das ist die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel. Das ist Warren Buffett.</p>
+          <p class="vb-intro">2012 wurde bei Buffett, damals 81 Jahre alt, Prostatakrebs im Fr\xfchstadium diagnostiziert \u2013 eine Nachricht, die er per offenem Aktion\xe4rsbrief bekanntgab und mit derselben sachlichen, unaufgeregten Klarheit begleitete, mit der er sonst Bilanzen kommentiert. Wie die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel dieser Diagnose begegnete, vertieft das eigene <a href="javascript:void(0)" data-route="krankheitsportraets-warren-buffett">Krankheitsportr\xe4t zu Warren Buffett</a>.</p>
         </blockquote>
 
       </div>
@@ -59754,6 +59757,204 @@ function warrenBuffettPortraitPage() {
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portr\xe4t: Charles Darwin (SE5w6)"},
+        {route:"krankheitsportraets-warren-buffett", label:"Krankheitsportr\xe4t: Warren Buffett (SE5w6) \u2013 die Prostatakrebs-Diagnose 2012"},
+      ])}
+    </div>
+  `);
+}
+
+function warrenBuffettKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-warren-buffett-portrait.jpg" alt="Warren Buffett – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Warren Buffett</p>
+        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel · geb. 1930</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Eule</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Warren Buffett</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-warren-buffett">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Investor und seine
+        Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das dort nicht vorkommt:
+        Im April 2012 gab Buffett, damals 81 Jahre alt, in einem offenen Brief an die
+        Aktionärinnen und Aktionäre von Berkshire Hathaway bekannt, dass bei ihm ein
+        Prostatakrebs im Frühstadium diagnostiziert worden war. Er ließ sich behandeln, führte
+        das Unternehmen währenddessen unverändert weiter und meldete wenige Monate später den
+        erfolgreichen Abschluss der Therapie. Diese Seite ordnet ausdrücklich <strong>nicht</strong>
+        ein: Eine Krebserkrankung steht in keinem ursächlichen Zusammenhang mit Persönlichkeit
+        oder Subtyp – jeder Mensch kann unabhängig von seinem Enneagramm-Muster daran erkranken.
+        Im Mittelpunkt steht stattdessen, <em>wie</em> ein ausgeprägter selbsterhaltender Typ 5
+        mit einer solchen Diagnose umging.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Buffett</strong> ist dem <strong>selbsterhaltenden Typ 5 mit Sechserflügel</strong>
+        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-marie-curie">Marie Curie</a>
+        in diesem Kompass. Naranjo nannte die selbsterhaltende Fünf die <em>Burg</em>: Sicherheit
+        entsteht durch Rückzug in einen selbst kontrollierten, überschaubaren Raum, in dem Wissen
+        und Fakten die eigentliche Grundlage bilden – nicht Gefühl oder Dramatik. Der
+        Sechserflügel bringt zusätzlich die Neigung, jede Situation zuerst nüchtern auf ihr
+        tatsächliches Risiko abzuklopfen, statt in Panik oder Verdrängung zu verfallen. Genau
+        diese Haltung bestimmte auch, wie Buffett seiner eigenen Krebsdiagnose begegnete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Bluttest als Auslöser:</strong>
+        Die Diagnose begann mit einem routinemäßigen Bluttest, der einen erhöhten PSA-Wert
+        zeigte – ein Befund ohne spürbare Symptome, der erst durch eine anschließende Biopsie zur
+        gesicherten Diagnose wurde.</p>
+        <p class="vb-intro"><strong>b) Diagnose an einem Mittwoch, Folgeuntersuchungen am Donnerstag:</strong>
+        Nach eigener Schilderung erhielt Buffett die Diagnose an einem Mittwoch, bereits am
+        folgenden Tag fanden weitere Scans statt – ein zügiges, sachliches Vorgehen ohne
+        erkennbare Schockstarre.</p>
+        <p class="vb-intro"><strong>c) Stage I – ein frühes Stadium:</strong>
+        Der Prostatakrebs wurde im Stadium I diagnostiziert, also in einem frühen, gut
+        behandelbaren Stadium – eine Tatsache, die Buffett in seiner öffentlichen Kommunikation
+        von Anfang an in den Vordergrund stellte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Bekanntgabe per Aktionärsbrief:</strong>
+        Statt die Diagnose zu verbergen oder über Umwege durchsickern zu lassen, teilte Buffett
+        sie am 17./18. April 2012 direkt und in eigenen Worten in einem offenen Brief an die
+        Berkshire-Hathaway-Aktionärinnen und -Aktionäre mit – ein für einen CEO ungewöhnlich
+        direkter, unaufgeregter Umgang mit einer gesundheitlichen Krise.</p>
+        <p class="vb-intro"><strong>b) „Nicht im Entferntesten lebensbedrohlich":</strong>
+        Sein eigenes Zitat lautete sinngemäß, die Erkrankung sei „not remotely life-threatening
+        or even debilitating in any meaningful way" – eine bewusst nüchterne Einordnung, die
+        Dramatisierung von vornherein vermied.</p>
+        <p class="vb-intro"><strong>c) „Ich fühle mich großartig":</strong>
+        Buffett ergänzte, er fühle sich „großartig – als wäre ich in meiner normalen,
+        ausgezeichneten gesundheitlichen Verfassung", und sein Energielevel liege bei „100
+        Prozent" – eine Formulierung, die eher an einen Geschäftsbericht als an eine
+        Krankheitsmitteilung erinnert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Zwei Monate tägliche Bestrahlung statt Operation:</strong>
+        Buffett entschied sich gemeinsam mit seinen Ärzten für eine zweimonatige Behandlung mit
+        täglicher Strahlentherapie, Beginn Mitte Juli 2012 im Nebraska Medical Center – kein
+        operativer Eingriff, sondern ein planbarer, gleichmäßiger Ablauf.</p>
+        <p class="vb-intro"><strong>b) 44 Bestrahlungssitzungen bis zum Abschluss:</strong>
+        Am 14. September 2012 meldete Buffett öffentlich den Abschluss der Behandlung: „Today I
+        had my 44th and last day of radiation" – eine schlichte, fast buchhalterische Bilanz
+        eines mehrmonatigen Prozesses.</p>
+        <p class="vb-intro"><strong>c) Keine Unterbrechung der Führungsrolle:</strong>
+        Während der gesamten Behandlungszeit betonte Buffett, weiterhin normal als
+        Vorstandsvorsitzender von Berkshire Hathaway zu arbeiten – keine Vertretung, keine
+        sichtbare Einschränkung seiner Führungsaufgaben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ruhe an den Kapitalmärkten:</strong>
+        Weil Buffett Diagnose, Behandlungsplan und Prognose selbst, frühzeitig und mit klaren
+        Fakten kommunizierte, blieb die Reaktion der Investoren und der Berkshire-Aktie
+        vergleichsweise gelassen – Unsicherheit wurde durch Information ersetzt, bevor sie sich
+        aufbauen konnte.</p>
+        <p class="vb-intro"><strong>b) Ein Vorbild für sachliche Krankheitskommunikation:</strong>
+        Medien beschrieben Buffetts Umgang mit der Diagnose wiederholt als bemerkenswert
+        unaufgeregt – ein öffentlicher Kontrapunkt zu Fällen, in denen prominente Erkrankungen
+        über Jahre verschwiegen oder dramatisiert werden.</p>
+        <p class="vb-intro"><strong>c) Kein Bruch im Alltag:</strong>
+        Weder sein bekannter Lebensrhythmus noch seine öffentliche Präsenz veränderten sich
+        während der Behandlung sichtbar – dieselbe Routine, dieselbe Arbeit, derselbe Ton.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Fakten statt Gefühl als erste Reaktion:</strong>
+        Für eine selbsterhaltende Fünf, deren Sicherheit aus genauem Wissen entsteht, lag die
+        naheliegende erste Reaktion auf die Diagnose nicht in emotionaler Verarbeitung, sondern
+        in der raschen Klärung der Fakten: Welches Stadium, welche Behandlung, welche Prognose.
+        Erst danach folgte die Mitteilung nach außen.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel als Risikoabwägung im Krankheitsfall:</strong>
+        Derselbe Sechserflügel, der bei Buffetts Investitionsentscheidungen zuerst nach dem
+        Risiko fragt, zeigte sich auch hier: eine schnelle, nüchterne Einschätzung, dass die
+        Diagnose kein existenzielles Risiko darstellte, gefolgt von einer planbaren, verlässlichen
+        Behandlung statt überstürzter Schritte.</p>
+        <p class="vb-intro"><strong>c) Die Burg bleibt bewohnt, nicht verrammelt:</strong>
+        Anders als ein Rückzug aus der Öffentlichkeit, den man von einer verschlossenen Fünf
+        erwarten könnte, öffnete Buffett die Burg für diese eine Mitteilung bewusst – nicht aus
+        Bedürfnis nach Nähe, sondern weil Transparenz gegenüber den Aktionären ihm als
+        sachlich richtige, kalkulierte Entscheidung erschien.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Diagnose, behandelt wie ein Geschäftsbericht:</strong>
+        Buffetts gesamte öffentliche Sprache zur eigenen Erkrankung – Zahlen, Fristen,
+        Wahrscheinlichkeiten, ein klarer Zeitplan bis zum Abschluss der Behandlung – folgte
+        demselben nüchternen Duktus, mit dem er sonst Bilanzen und Marktrisiken einordnet.</p>
+        <p class="vb-intro"><strong>b) Die gleiche Eule, die auch beim Geld nicht in Panik verfällt:</strong>
+        Buffett wurde berühmt für seinen Rat, ängstlich zu sein, wenn andere gierig sind, und
+        gierig, wenn andere ängstlich sind – eine Haltung, die Ruhe gerade dann verlangt, wenn
+        die Lage bedrohlich wirkt. Genau diese Ruhe zeigte er auch gegenüber der eigenen
+        Diagnose: kein Alarmismus, sondern eine kühle Einschätzung der tatsächlichen Lage.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet diese unaufgeregte Offenheit?</strong>
+        Für eine selbsterhaltende Fünf mit Sechserflügel, deren Sicherheit aus Fakten und
+        kontrollierter Kommunikation entsteht, liegt eine Deutung nahe: Die öffentliche
+        Bekanntgabe war selbst ein Akt der Risikominimierung – lieber die eigene, klare Version
+        der Fakten liefern, als Raum für Spekulation und unkontrollierte Gerüchte zu lassen.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf mit Sechserflügel
+        zwangsläufig zu Prostatakrebs führt oder ihn erklärt – <strong>jeder Mensch kann jede
+        Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Buffetts Fall zeigen
+        lässt, ist ein Muster im Umgang mit einer Krebsdiagnose, das bei einer ausgeprägten
+        selbsterhaltenden Fünf mit Sechserflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Buffett kannte, wie die meisten Menschen, sein eigenes Enneagramm-Muster über weite
+        Strecken seines Lebens nicht bewusst. Ohne dieses Wissen lebte er dennoch jahrzehntelang
+        unverändert die Leidenschaft der selbsterhaltenden Fünf aus: Genügsamkeit,
+        Ressourcenschonung und eine auffällige Distanz gegenüber Warnsignalen des eigenen
+        Körpers. Sein bekannter Lebensstil – tägliche Fastfood-Frühstücke, große Mengen Cherry
+        Coke, kaum sportliche Betätigung – blieb über Jahrzehnte unverändert, obwohl er sich
+        längst jede erdenkliche Alternative hätte leisten können. Dass ausgerechnet dieser
+        körperlich wenig gepflegte Lebensstil ihn dennoch weit über die neunzig Jahre alt werden
+        ließ, ändert nichts daran, dass hier dieselbe SE5-Beharrlichkeit sichtbar wird, mit der
+        Buffett auch seine Investitionsprinzipien jahrzehntelang unverändert beibehielt: einmal
+        als richtig erkannte Routinen werden nicht aus Rücksicht auf den eigenen Körper
+        hinterfragt, sondern schlicht fortgesetzt. Dass er trotzdem so lange gesund blieb, ist
+        Glück und Konstitution, kein Beleg für die Klugheit dieser Routine.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Fünf mit Sechserflügel zeigt sich bei <strong>Warren Buffett</strong>
+        in der Art, wie er einer Krebsdiagnose begegnete: sachlich, faktenbasiert, ohne
+        Dramatisierung – und mit derselben ruhigen Offenheit, mit der er sonst seine
+        Aktionärsbriefe schreibt. Die Eule, die ihr Leben lang genau hinschaute, richtete
+        denselben klaren Blick auch auf die eigene Diagnose – und kehrte, sobald die Behandlung
+        abgeschlossen war, unverändert an ihren Platz zurück.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-warren-buffett", label:"Porträt: Warren Buffett (SE5w6) – Lebenswerk"},
+        {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6) – sachlich bis zur eigenen Warnung"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se5", label:"Subtyp-Profil SE5"},
       ])}
     </div>
   `);
@@ -131728,6 +131929,7 @@ function render() {
       "krankheitsportraets-larry-king": larryKingKrankheitsportraetPage,
       "krankheitsportraets-mr-t": mrTKrankheitsportraetPage,
       "krankheitsportraets-oprah-winfrey": oprahWinfreyKrankheitsportraetPage,
+      "krankheitsportraets-warren-buffett": warrenBuffettKrankheitsportraetPage,
       "krankheitsportraets-muhammad-ali": muhammadAliKrankheitsportraetPage,
       "krankheitsportraets-friedrich-nietzsche": friedrichNietzscheKrankheitsportraetPage,
       "krankheitsportraets-frederic-chopin": fredericChopinKrankheitsportraetPage,
