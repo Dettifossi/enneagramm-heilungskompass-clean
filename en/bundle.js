@@ -317,6 +317,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sting – Self-Preservation Type 1",
     teaser:"SP1w9 · “The Eagle”, born 1951. Singer, bassist, composer. The Police and an unparalleled solo career – from jazz to lute, from Shakespeare to the Rainforest Foundation. Craft as conscience, stillness as second nature. Animal correspondence: Eagle.",
     land:"United Kingdom", tags:["Musik"] , gender:"m"},
+{ route:"beruehmte-ludwig-wittgenstein", name:"Ludwig Wittgenstein", added:"2026-08-28", subtyp:"SE1w9",
+    heading:"Ludwig Wittgenstein – Self-Preservation Type 1",
+    teaser:"SE1w9 · 1889–1951. Philosopher, author of the Tractatus Logico-Philosophicus and the Philosophical Investigations. Gave away his entire fortune, lived ascetically, worked at times as a village schoolteacher and monastery gardener. Animal correspondence: Eagle.",
+    land:"Austria/United Kingdom", tags:["Philosophy","Science"], gender:"m"},
 { route:"beruehmte-astrid-lindgren", name:"Astrid Lindgren", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Astrid Lindgren – Self-Preservation Type 1",
     teaser:"SP1w9 · 1907–2002. Swedish author, Pippi Longstocking, Karlsson on the Roof, The Brothers Lionheart. Discipline as daily ritual, a quiet late-life fight for animal welfare (the 'Lex Lindgren'). Animal correspondence: Eagle.",
@@ -25230,6 +25234,7 @@ function queenElizabethIIPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
       ])}
     </div>
   `);
@@ -29280,6 +29285,71 @@ function wolodymyrSelenskyjPortraitPage() {
   `);
 }
 
+function ludwigWittgensteinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ludwig-wittgenstein-portrait.jpg" alt="Ludwig Wittgenstein – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Wittgenstein</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, 1889–1951 – Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the Self-Preservation One—a loner who circles at great height, far above what others consider sufficient. It needs no audience. It needs only the certainty of living up to its own, unforgiving standard.</p>
+          <p class="vb-intro">Ludwig Wittgenstein, born in Vienna in 1889 as the youngest of eight children of the steel magnate Karl Wittgenstein, grew up in a household where brilliance was assumed and weakness was quietly but relentlessly punished. Three of his four brothers took their own lives—Hans in 1902, likely by drowning himself in Chesapeake Bay; Rudi in 1904 with cyanide in a Berlin bar; Kurt in 1918 by his own hand as his troops deserted at the end of the war. Ludwig himself carried suicidal thoughts throughout his life. Out of this family inheritance grew not a retreat into despair, but an even sharper, inward-directed demand: there had to be something to which one could submit with absolute rigor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Asceticism as Self-Examination</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> carries its demand for perfection not outward, but inward. Naranjo called this subtype <em>Worry</em>—the constant inner examination of whether one truly lives up to one's own standard. This worry is not directed at others, but mercilessly at one's own thinking, one's own behavior, one's own character.</p>
+          <p class="vb-intro">Wittgenstein lived out this pattern in a form that is extraordinary even for an SE1. In 1913 he inherited a fortune that made him one of the wealthiest young men in Europe. After the First World War, during a period of deep personal crisis, he gave away this entire fortune to his siblings—not out of generosity in the ordinary sense, but out of the conviction that wealth corrupts one's character. He later lived in the sparest possible conditions: a deck chair instead of an armchair, a room almost without furniture. The SE1 does not renounce in order to suffer. It renounces because any comfort one has not truly earned feels like a moral flaw.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Retreat into Simplicity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Self-Preservation One a longing for simplicity, anonymity, and withdrawal from the busyness of the world. It seeks not the stage, but the silence in which its own demand can be fulfilled undisturbed.</p>
+          <p class="vb-intro">In Wittgenstein this wing showed itself in a series of radical exits. After publishing the <em>Tractatus Logico-Philosophicus</em> in 1921—which he initially believed to be the complete, final solution to all philosophical problems—he withdrew from academic life and worked from 1920 to 1926 as a primary school teacher in Austrian mountain villages such as Trattenbach. Later, after this teaching period ended, he worked for a time as a gardener at a monastery near Vienna. No prestige, no public visibility—only simple physical labor and the chance to remain true to his own standard in seclusion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Wrath That Mostly Turns Inward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called <strong>wrath</strong>—in the SE1w9 it almost always turns against the self: as merciless self-criticism, as the constant feeling of not yet having met one's own standard. Wittgenstein's entire philosophical work—from the uncompromising <em>Tractatus</em> to the never-finished <em>Philosophical Investigations</em>—bears the trace of this inward wrath: no sentence that was not discarded and rewritten again and again until it satisfied his own, almost unattainable demand for clarity.</p>
+          <p class="vb-intro">As a teacher at Cambridge in the 1930s and 1940s, he shaped an entire generation of philosophers—his lectures were not lectures but shared, often agonizingly slow thinking in front of his students, in which he himself wrestled for the right formulation. Whoever wanted to hold their own with him had to bring the same uncompromising honesty toward themselves that he demanded of himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Crisis as Mirror: The Village Teaching Years in Lower Austria</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The SE1w9 has a weak point: inward-directed wrath can, when outer pressure grows too great, break outward without warning. As a primary school teacher in the Lower Austrian villages of Trattenbach, Puchberg, and Otterthal, Wittgenstein was, for stretches, an ardent conveyor of mathematics, natural science, and Latin to his pupils—but he was also known for harsh, at times violent disciplinary measures, including slapping and hair-pulling of pupils who fell short of his standard.</p>
+          <p class="vb-intro">In 1926, a pupil collapsed after Wittgenstein struck him, leading to an official investigation and his resignation from teaching. From an Enneagram perspective, this is not a contradiction of his otherwise controlled image, but the reverse side of the same pattern: whoever directs their own wrath inward for years can, in moments of overload, discharge that very wrath outward unfiltered—against those who could not meet his standard, because they were children.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Radical Honesty in Thought</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Wittgenstein left philosophy is an uncompromising rigor that remains unmatched to this day: the refusal to settle for a formulation as long as it is not truly correct. The eagle that would rather think entirely alone and entirely precisely than settle for half-clarity.</p>
+          <p class="vb-intro">He died on April 29, 1951 in Cambridge of prostate cancer. His last words, as recorded by his physician: <em>"Tell them I've had a wonderful life."</em> A sentence that strikes many as surprising, given a life full of self-denial, inner hardness, and family tragedy—and yet it shows exactly the SE1w9 he had been throughout his life: fulfillment not through enjoyment, but through the certainty of having remained true to his own, unforgiving standard.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function stingPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -29336,6 +29406,7 @@ function stingPortraitPage() {
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
       ])}
     </div>
   `);
@@ -44864,12 +44935,12 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
         beschreibung: "Naranjo called this subtype 'Worry': a constant, mostly quiet inner question of whether one truly lives up to one's own standard. Unlike the social or sexual One, this perfectionism is not aimed at correcting others, but inward, at one's own craft, one's own preparation, one's own integrity.",
-        beleg: "Robert De Niro: 'No interview in which he explains himself' – the perfectionism shows itself only in the work itself; Christoph Waltz, who asks himself whether he 'lives up to his own standard of truthfulness'; Magnus Carlsen, who constantly asks himself 'whether this position has truly been optimally exploited'; Marie Kondo, whose unease is about 'whether her own environment truly feels right'; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristotle, and Adenauer show the same inward-directed, incorruptible self-examination – never as reproach toward others, always as a demand on themselves; Sting, who to this day patiently insists that his best-known song be understood correctly – the One insists things be accurate, even against the public reading."
+        beleg: "Robert De Niro: 'No interview in which he explains himself' – the perfectionism shows itself only in the work itself; Christoph Waltz, who asks himself whether he 'lives up to his own standard of truthfulness'; Magnus Carlsen, who constantly asks himself 'whether this position has truly been optimally exploited'; Marie Kondo, whose unease is about 'whether her own environment truly feels right'; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristotle, and Adenauer show the same inward-directed, incorruptible self-examination – never as reproach toward others, always as a demand on themselves; Sting, who to this day patiently insists that his best-known song be understood correctly – the One insists things be accurate, even against the public reading; Ludwig Wittgenstein, who discarded and rewrote entire passages of his Philosophical Investigations again and again until they satisfied his own, almost unattainable demand for clarity."
       },
       {
         titel: "Quiet precision without a show – the dive after a long circling",
@@ -97297,6 +97368,7 @@ function subtypeSchaubilderPage() {
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
+      "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-peter-sharpe": peterSharpePortraitPage,
