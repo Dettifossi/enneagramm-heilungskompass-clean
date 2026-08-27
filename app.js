@@ -39697,7 +39697,7 @@ function sectionBlock(key, title, inner, color) {
   if (!inner) return "";
   const titleStyle = color ? ` style="color:${color}"` : "";
   return `
-    <section class="subtype-section subtype-section--${key}">
+    <section class="subtype-section subtype-section--${key}" id="subtype-section-${key}">
       <h2 class="subtype-section__title"${titleStyle}>${title}</h2>
       <div class="subtype-section__body">${inner}</div>
     </section>
@@ -71424,7 +71424,15 @@ function enneagrammAkupunkturPage() {
 
         <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
           <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Akupressur: der Weg in Eigenregie</h2>
-          <p class="vb-intro">Wer nicht bis zum n\u00e4chsten Termin bei einem erfahrenen Therapeuten warten m\u00f6chte, findet in der verwandten Akupressur einen Zugang, der sich in Eigenregie \u00fcben l\u00e4sst \u2013 mit \u00e4hnlich guten Effekten wie die Nadelakupunktur, nur ohne Nadel. Dieser Kompass behandelt Akupressur bereits auf allen 27 Subtyp-Detailseiten, jeweils auf \u203aSeite 3 \u00b7 K\u00f6rperarbeit & Akupressur\u2039 \u2013 exemplarisch etwa bei <a href="javascript:void(0)" data-route="subtype/se1">SE1</a>, <a href="javascript:void(0)" data-route="subtype/so4">SO4</a> oder <a href="javascript:void(0)" data-route="subtype/sx7">SX7</a> \u2013 je eine Person aus einem der drei Zentren.</p>
+          <p class="vb-intro">Wer nicht bis zum n\u00e4chsten Termin bei einem erfahrenen Therapeuten warten m\u00f6chte, findet in der verwandten Akupressur einen Zugang, der sich in Eigenregie \u00fcben l\u00e4sst \u2013 mit \u00e4hnlich guten Effekten wie die Nadelakupunktur, nur ohne Nadel. Vier K\u00f6rperzonen kommen dabei zum Einsatz: Gesichtsakupressur, Handakupressur, Fu\u00dfakupressur und Ohrakupressur \u2013 jeweils eigene Punktesysteme, die sich unabh\u00e4ngig voneinander oder kombiniert nutzen lassen.</p>
+          <p class="vb-intro">Dieser Kompass behandelt Akupressur bereits auf allen 27 Subtyp-Detailseiten im Abschnitt \u203aRegulieren \u00b7 K\u00f6rperarbeit & Akupressur\u2039 \u2013 ein Klick auf den eigenen Subtyp f\u00fchrt direkt dorthin, statt nur auf die allgemeine Profilseite:</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin:0 0 1.2rem;">
+            ${[1,2,3,4,5,6,7,8,9].flatMap(n => ['SE','SO','SX'].map(inst => {
+              const code = (inst + n).toLowerCase();
+              const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[n] : null) || 'var(--copper)';
+              return `<a href="javascript:void(0)" data-route="subtype/${code}|subtype-section-regulieren" style="font-size:0.8rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:20px;border:1.5px solid ${col};color:${col};text-decoration:none;">${inst}${n}</a>`;
+            })).join('')}
+          </div>
           <p class="vb-intro" style="margin-bottom:0;">Wichtig dabei: Akupressur entfaltet ihre Wirkung erst bei l\u00e4ngerer, regelm\u00e4\u00dfiger Anwendung. Und sie funktioniert nicht rein kopfgesteuert \u2013 wer die Punkte nur mechanisch abhakt, wird wenig sp\u00fcren. Erst wenn die \u00dcbung auch intuitiv, herz- und bauchfokussiert erfolgt, wenn man sich also bewusst mit sich selbst und dem eigenen K\u00f6rper als unmittelbarem Ausdruck des menschlichen Seins besch\u00e4ftigt, stellen sich langfristig deutliche Verbesserungen ein. Wie innen, so au\u00dfen \u2013 dieser alte Grundsatz gilt f\u00fcr die Akupressur ganz besonders.</p>
         </div>
 
