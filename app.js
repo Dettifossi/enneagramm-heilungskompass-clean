@@ -63960,7 +63960,7 @@ function yayoiKusamaPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Zwei: Kunst als Überlebensmittel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf das eigene Überleben. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; nicht aus Egoismus, sondern weil die SE2 zuerst für sich selbst sorgen muss, bevor sie sich anderen zuwenden kann. Bei der SE2 ist Fürsorge oft untrennbar mit einer existenziellen Bedrohung verbunden, gegen die sie sich wehrt.</p>
-          <p class="vb-intro">Kusama leidet seit ihrer frühen Kindheit an visuellen und akustischen Halluzinationen &ndash; Blumenmuster, die zu sprechen begannen, endlose Netze aus Punkten, die sich über ihr Blickfeld legten und drohten, sie und die ganze Welt aufzulösen. Anstatt daran zu zerbrechen, begann sie schon als Kind, diese Visionen zu zeichnen &ndash; ein Akt, den sie <em>Selbstauslöschung</em> nannte: sich selbst in das unendliche Muster aufzulösen, um nicht von ihm zerstört zu werden. Kunst wurde zu ihrer einzigen, lebensrettenden Strategie gegen eine innere Realität, die sie sonst überwältigt hätte.</p>
+          <p class="vb-intro">Kusama litt seit ihrer frühen Kindheit an visuellen und akustischen Halluzinationen &ndash; Blumenmuster, die zu sprechen begannen, endlose Netze aus Punkten, die sich über ihr Blickfeld legten und drohten, sie und die ganze Welt aufzulösen. Anstatt daran zu zerbrechen, begann sie schon als Kind, diese Visionen zu zeichnen &ndash; ein Akt, den sie <em>Selbstauslöschung</em> nannte: sich selbst in das unendliche Muster aufzulösen, um nicht von ihm zerstört zu werden. Kunst wurde zu ihrer einzigen, lebensrettenden Strategie gegen eine innere Realität, die sie sonst überwältigt hätte.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Dreierflügel: Der unbedingte Wille zur Sichtbarkeit</h2>
@@ -63997,6 +63997,7 @@ function yayoiKusamaPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Porträt: Ai Weiwei (SE2w3)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3)"},
         {route:"beruehmte-frida-kahlo", label:"Porträt: Frida Kahlo (SE2w3)"},
+        {route:"krankheitsportraets-yayoi-kusama", label:"Krankheitsporträt: Yayoi Kusama – Halluzinationen und Depersonalisation"},
       ])}
     </div>
   `);
@@ -82202,11 +82203,11 @@ function yayoiKusamaKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) Diagnose einer Zwangsneurose:</strong>
         Kusama wurde mit einer obsessiv-zwanghaften Störung diagnostiziert; nach eigener
-        Aussage lehnt sie die häufig kolportierte Fremdzuschreibung einer manisch-depressiven
-        Psychose ab und führt ihre Symptome unter anderem auf eine Schilddrüsenerkrankung
+        Aussage lehnte sie die häufig kolportierte Fremdzuschreibung einer manisch-depressiven
+        Psychose ab und führte ihre Symptome unter anderem auf eine Schilddrüsenerkrankung
         zurück.</p>
         <p class="vb-intro"><strong>b) Depersonalisation als zusätzliches Symptom:</strong>
-        Neben den Halluzinationen leidet Kusama an einer Depersonalisationsstörung (japanisch
+        Neben den Halluzinationen litt Kusama an einer Depersonalisationsstörung (japanisch
         <em>rijinshō</em>, wörtlich „Getrennt-Person-Symptom") – dem Gefühl, sich selbst und die
         eigene Umgebung als fremd, unwirklich oder aufgelöst wahrzunehmen.</p>
         <p class="vb-intro"><strong>c) Fortgesetztes künstlerisches Arbeiten trotz akuter Symptome:</strong>
