@@ -19786,7 +19786,7 @@ function eminemPortraitPage() {
         <h2 class="vb-section">2. The Sexual One: Zeal as a Driving Force</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The sexual One (SX1) directs its demand for perfection not at outer order, but at intensity: at the complete, unpolished revealing of what is true—in one cause, one relationship, one mission, with full force rather than spread thin. Naranjo called this subtype <em>Zeal</em>—an intensified, uncompromising form of indignation and perfectionism that concentrates with missionary force on a single target.</p>
-          <p class="vb-intro">Few rappers have lived this pattern out as consistently in their craft as Eminem: a merciless, often furious, highly precise rhyme technique that tolerates no half sentences and tests every syllable for impact. In 1997, he caught Dr. Dre's attention at the Rap Olympics in Los Angeles, who signed him shortly after—not for a pleasing surface, but for an intensity that could not be faked.</p>
+          <p class="vb-intro">Few rappers have lived this pattern out as consistently in their craft as Eminem: a merciless, often furious, highly precise rhyme technique that tolerates no half sentences and tests every syllable for impact. In 1997, he caught Dr. Dre's (SO2w3) attention at the Rap Olympics in Los Angeles, who signed him shortly after—not for a pleasing surface, but for an intensity that could not be faked.</p>
           <p class="vb-intro">His uncompromising nature also shows in the unsparing honesty with which he processes his own failures in his lyrics—drug addiction, his failed marriage to Kim Scott, a difficult childhood, conflict with his own mother. Nothing is softened, nothing smoothed over. And the same intensity drove his feuds: public conflicts with boy bands and peers in the late 1990s, the battle-rap sharpness he never fully set aside, even long after becoming the biggest solo artist in his genre.</p>
         </blockquote>
 
@@ -19811,7 +19811,7 @@ function eminemPortraitPage() {
         <h2 class="vb-section">6. The Gift: Honesty Without Filter</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Eminem gave pop culture is a radical rejection of the polished pop-star facade: that rage, shame, addiction, and fatherly love can stand in the same song without one disproving the other. That is the gift of the SX1w2—the refusal to pretend, combined with the need to be there for the people who matter most.</p>
-          <p class="vb-intro">The Black Mamba with the Two wing does not bite to hurt—it bites because it cannot bear a lie, not even its own. And afterward it seeks the closeness that this honesty makes possible in the first place.</p>
+          <p class="vb-intro">The Black Mamba with the Two wing does not bite to hurt—it bites because it cannot bear a lie, not even its own, but it also pauses afterward and seeks the closeness that this honesty makes possible in the first place.</p>
         </blockquote>
 
       </div>
