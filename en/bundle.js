@@ -42214,7 +42214,7 @@ function enneagrammHandanalysePage() {
             </div>
             <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1rem 1.2rem;border-left:4px solid #8a7a4a;">
               <strong style="display:block;margin-bottom:0.4rem;color:var(--ink);">Fate Line</strong>
-              <p style="font-size:0.88rem;line-height:1.6;color:var(--muted);margin:0;">The vertical line running from the base of the palm toward the middle finger – not equally distinct on every hand. Symbolically, it stands for life direction, outside influences, and the sense of following a recognizable path.</p>
+              <p style="font-size:0.88rem;line-height:1.6;color:var(--muted);margin:0;">The vertical line running from the base of the palm toward the middle finger – not equally distinct on every hand. Symbolically, it stands for life direction, outside influences, and the sense of following a recognizable path. Also called the Saturn line in palmistry: in younger people it is often still faint, broken, or entirely absent, since their career and life direction are still taking shape. While the main lines such as the heart and head line are usually clearly laid out from birth, the fate line develops gradually through how the hand is used, habits, and lived decisions – etching itself deeper as life experience accumulates and one's path becomes more settled.</p>
             </div>
           </div>
         </div>
