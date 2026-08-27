@@ -255,6 +255,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-bob-marley", name:"Bob Marley", subtyp:"SO2w1", heading:"Bob Marley – Social Type 2", krankheit:"Malignant melanoma in the toe, amputation refused for religious reasons", teaser:"SO2w1 – Jamaican musician, 1945–1981. Malignant melanoma diagnosed in 1977, amputation refused for religious reasons, cancer spreading over years, died on 11 May 1981 at age 36." , land:"Jamaica", gender:"m", jahre:"1945–1981"},
   { route:"krankheitsportraets-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2", heading:"Angelina Jolie – Social Type 1", krankheit:"BRCA1 gene mutation, preventive double mastectomy in 2013, removal of ovaries and fallopian tubes in 2015", teaser:"SO1w2 – actress and director, b. 1975. BRCA1 gene mutation confirmed after a family history of cancer, publicly disclosed preventive double mastectomy in 2013, removal of ovaries and fallopian tubes in 2015." , land:"USA", gender:"f", jahre:"b. 1975"},
   { route:"krankheitsportraets-adele", name:"Adele", subtyp:"SE4w3", heading:"Adele – Self-Preservation Type 4", krankheit:"Severe postnatal depression with panic attacks, kept private for almost a decade", teaser:"SE4w3 – singer and songwriter, b. 1988. Postnatal depression after the birth of her son in 2012, accompanying panic attacks before performances, publicly disclosed only in 2021." , land:"United Kingdom", gender:"f", jahre:"b. 1988"},
+  { route:"krankheitsportraets-honore-de-balzac", name:"Honoré de Balzac", subtyp:"SE4w3", heading:"Honoré de Balzac – Self-Preservation Type 4", krankheit:"Decades of exploiting his body through compulsive overwork and caffeine excess, heart failure with fatal gangrene", teaser:"SE4w3 – French writer, 1799–1850. Decades of all-night writing marathons and excessive coffee consumption, progressive heart failure, gangrene following repeated trocar procedures for leg edema, died August 18, 1850, five months after his wedding to Ewelina Hańska." , land:"France", gender:"m", jahre:"1799–1850"},
   { route:"krankheitsportraets-jamie-lee-curtis", name:"Jamie Lee Curtis", subtyp:"SX1w2", heading:"Jamie Lee Curtis – Sexual Type 1", krankheit:"22-year opioid dependency after cosmetic surgery", teaser:"SX1w2 – actress and activist, b. 1958. Opioid dependency beginning in 1989 after a cosmetic procedure, kept secret for over ten years, sober since 19 February 1999." , land:"USA", gender:"f", jahre:"b. 1958"},
   { route:"krankheitsportraets-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9", heading:"Genesis P-Orridge – Sexual Type 8", krankheit:"Leukemia, progressing over years, died 2020", teaser:"SX8w9 – musician, performance artist, and occultist, 1950–2020. Leukemia spanning several years, artistically active until shortly before death, died on 14 March 2020 in New York." , land:"United Kingdom", gender:"nonbinary", jahre:"1950–2020"},
   { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexual Type 4", krankheit:"Tourette syndrome, kept secret for years; severe depressive period with self-harm as a teenager", teaser:"SX4w3 – singer and songwriter, b. 2001. Tourette syndrome since childhood, publicly confirmed only in 2018; also severe depression with self-harm from around age twelve, documented in 2021." , land:"USA", gender:"f", jahre:"b. 2001"},
@@ -30756,11 +30757,215 @@ function honoreDeBalzacPortraitPage() {
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <p class="vb-intro" style="max-width:100%;">
+        The health consequences of this decades-long exploitation of his own body – caffeine
+        excess, sleep deprivation, obesity, and the progressive heart failure that eventually
+        caused his death – are explored in depth in his own
+        <a href="javascript:void(0)" data-route="krankheitsportraets-honore-de-balzac">Illness Portrait</a>.
+      </p>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SP4w3) – heart failure"},
+      ])}
+    </div>
+  `);
+}
+
+function honoreDeBalzacKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-honore-de-balzac-portrait.jpg" alt="Honoré de Balzac" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Honoré de Balzac</p>
+        <p class="krim-portrait-typ">SP4w3 · Self-Preservation Type 4 with Three-wing · 1799–1850</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Honoré de Balzac</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-honore-de-balzac">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work, his background, and his type
+        structure in general. This portrait is devoted to a chapter only touched on there: the
+        decades-long exploitation of his own body through compulsive overwork, caffeine excess,
+        and sleep deprivation – and the heart failure with fatal gangrene that killed him five
+        months after his wedding.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Balzac</strong> is classified as the <strong>Self-Preservation Four with
+        Three-wing</strong>. The SE4 does not carry its suffering outward but endures it
+        tenaciously and alone – for Balzac, that meant paying off debts with sentences, night
+        after night, without yielding to his own exhaustion. The Three-wing gave that tenacity
+        a goal beyond mere survival – social rank, visible success – and that very goal let him
+        ignore his body's warning signs for decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A daily rhythm that no body can sustain indefinitely:</strong>
+        Already in the 1830s, barely thirty years old, Balzac's notorious work rhythm was in
+        place: a brief dinner, a nap until midnight, then uninterrupted writing well into the
+        following morning – fifteen to eighteen hours at a stretch, night after night, for
+        decades.</p>
+        <p class="vb-intro"><strong>b) Coffee as both engine and poison:</strong>
+        To stay awake, Balzac drank enormous quantities of extremely strong, at times almost
+        undrinkably concentrated black coffee – contemporaries and later biographers report
+        dozens of cups in a single working day. He himself described how the coffee kept him
+        awake when his body had long wanted to sleep – a substance he quite literally wrung
+        from his own health.</p>
+        <p class="vb-intro"><strong>c) A body visibly out of balance from early on:</strong>
+        Already in his middle years, contemporaries describe Balzac as increasingly stout – a
+        consequence of his sedentary work style, his irregular, often hurried meals, and the
+        lack of any counterbalance to the nightly strain.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A heart weakness progressing over a decade and a half:</strong>
+        Medical-historical studies of Balzac's illness assume that a marked deterioration was
+        already evident about a year and a half before his death – with growing breathlessness
+        attributed to progressive thickening of the heart's ventricular wall (ventricular
+        hypertrophy), and severe fluid retention in his legs.</p>
+        <p class="vb-intro"><strong>b) The leg edema and a risky procedure:</strong>
+        To relieve the massive fluid buildup in his legs, Balzac's doctors repeatedly used a
+        trocar – a sharp surgical instrument – to drain the accumulated fluid. Without the
+        later possibilities of disinfection and without antibiotics, an infection entered the
+        open wounds through these repeated punctures.</p>
+        <p class="vb-intro"><strong>c) The infection turns into gangrene:</strong>
+        This infection developed into gangrene in his legs – tissue death that further
+        overwhelmed Balzac's already weakened circulation in his final weeks and ultimately
+        became the cause of death, together with the underlying heart failure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Working to the physical limit, even after the first warning signs:</strong>
+        Even as his health problems became clearly noticeable, Balzac barely reduced his
+        workload – the debts that had produced his body of work at this scale in the first
+        place kept demanding new pages, new contracts, new advances.</p>
+        <p class="vb-intro"><strong>b) A life torn between Hańska and the duty to write:</strong>
+        In the years before his marriage to Ewelina Hańska, Balzac repeatedly traveled back and
+        forth between Paris and Ukraine – exhausting journeys that placed further strain on his
+        already weakened body, all while he kept writing to secure his financial and social
+        standing before the long-awaited wedding.</p>
+        <p class="vb-intro"><strong>c) The marriage as a brief respite:</strong>
+        On March 14, 1850, Balzac married Ewelina Hańska in Ukraine – finally reaching his goal
+        after seventeen years of correspondence. But the journey back to Paris in early summer
+        1850 was already overshadowed by a dramatically deteriorating health; there could be no
+        talk of a fresh start with a settled life that might have let his body recover.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A rapid decline in the final months:</strong>
+        According to consistent sources, Balzac's condition deteriorated dramatically in his
+        final three months of life – growing breathlessness, mounting exhaustion, and the
+        advancing gangrene left him increasingly bedridden.</p>
+        <p class="vb-intro"><strong>b) Victor Hugo's visit:</strong>
+        Victor Hugo, summoned by Balzac's wife, visited the dying man on August 18, 1850, and
+        later recorded his observations in writing: Balzac lay on a sofa, his face darkly
+        discolored, barely able to rise – only his eyes still showed life. A few hours later,
+        Balzac was dead.</p>
+        <p class="vb-intro"><strong>c) A eulogy that captured the scale of the loss:</strong>
+        Two days later, on August 20, 1850, Hugo delivered the graveside eulogy and honored
+        Balzac as one of the greatest writers of his era – a public echo that stood in stark
+        contrast to the final weeks marked by pain and physical decline.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Tenacity turned against his own body:</strong>
+        The same SE4 tenacity that enabled Balzac to write against his debts for decades turned,
+        in his final years, unabated against the signals of his own body – exhaustion,
+        breathlessness, swelling were not read as reasons to change course, but as further
+        obstacles to be overcome.</p>
+        <p class="vb-intro"><strong>b) The Three-wing as amplifier, not brake:</strong>
+        Rather than enjoying the status he had so laboriously written his way into, the
+        status-conscious Three-wing kept driving Balzac to achieve more, to secure more – even
+        when the price was his own body.</p>
+        <p class="vb-intro"><strong>c) A pattern that intensified rather than resolved within the marriage:</strong>
+        In his final years, Balzac shows a trait that goes beyond the pure SE4 pattern: a
+        growing, almost clinging emotional dependence on Hańska's attention and approval,
+        intensified by years of uncertainty about the marriage and his own financial distress.
+        Under chronic stress, the Four moves along its stress line toward the Two – and exactly
+        this pattern of a needy, approval-seeking closeness can be read in his late letters to
+        Hańska, without his core type having changed.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Parallel within the same subtype – Lady Diana (SE4w3):</strong>
+        As with <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady
+        Diana</a>, also SE4w3, Balzac shows the pattern typical of this subtype: suffering is
+        not carried outward loudly, but endured alone and tenaciously for years, while
+        unabated performance – for Diana a public facade, for Balzac literary output – is
+        shown outwardly. For Diana the suffering broke through as years of concealed bulimia,
+        for Balzac as decades of exploiting his own body that was never hidden from anyone and
+        yet was never stopped – two variants of the same SE4 core movement: endure rather than
+        give up.</p>
+        <p class="vb-intro"><strong>b) An exhaustion built over decades, not a sudden catastrophe:</strong>
+        From the first all-night writing marathons in the 1830s to the gangrene of his final
+        weeks runs a continuous line of steady, self-chosen overexertion – not a single event,
+        but a pattern repeated for more than twenty years.</p>
+        <p class="vb-intro"><strong>c) Two symptoms, one shared origin:</strong>
+        His excessive coffee consumption and his chronic sleep deprivation can be read as two
+        sides of the same strategy: keeping his own body functional for as long as possible in
+        order to meet a self-imposed, ultimately never-ending duty to write.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, the heart?</strong>
+        For a Self-Preservation Four whose instinct is actually directed at securing its own
+        survival, one reading suggests itself: precisely the organ that, figuratively, stands
+        for endurance, strength, and constant, unnoticed giving was strained by Balzac for
+        decades until exhausted – while the Three-wing made sure that this exhaustion stayed
+        invisible outwardly for as long as possible. This reading is a plausible interpretation,
+        not a documented historical causal link, and is explored in more depth in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik/herzinsuffizienz">Psychosomatics
+        Register entry on heart failure</a>.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the Self-Preservation Four's pattern inevitably leads to heart
+        failure – <strong>every person can develop any illness, regardless of subtype.</strong>
+        What Balzac's case can show is a pattern that stands out again and again in practice
+        wherever the tendency exists to endure exhaustion silently rather than give in to it –
+        one possible explanation among many, not a verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Balzac did not know his own Enneagram pattern – the concept did not yet exist in this
+        form during his lifetime. The self-preservation tenacity that enabled him to write
+        against his debts carried, for him, no built-in warning mechanism that could have made
+        him pause in time; on the contrary, every physical warning sign was processed in
+        exactly the same logic he applied to financial setbacks: as one more obstacle to work
+        through tenaciously rather than yield to. Someone who does not know their own
+        exhaustion pattern cannot interrupt it in time either – for Balzac, that ended only
+        with death, five months after the wedding he had waited seventeen years for.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Balzac's</strong> illness history, the Self-Preservation Four with
+        Three-wing shows itself at its most uncompromising: a tenacity that produced a
+        literary work of a century-defining scale – and the very same tenacity that demanded
+        of his own body, decade after decade, exhaustion without ever pausing. The dove that
+        for seventeen years unwaveringly carried its message reached its goal on March 14,
+        1850 – and died five months later, on August 18, 1850, of heart failure and the
+        gangrene it produced, at the age of 51.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SE4w3) – life's work"},
+        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3) – same subtype"},
+        {route:"psychosomatik/herzinsuffizienz", label:"Psychosomatics Register: Heart Failure"},
+        {route:"subtype/se4", label:"Subtype Profile SE4"},
       ])}
     </div>
   `);
@@ -52318,6 +52523,7 @@ function ladyDianaKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3) – life's work"},
         {route:"krankheitsportraets-adele", label:"Illness Portrait: Adele (SE4w3) – same subtype"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SE4w3) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se4", label:"Subtype Profile SE4"},
       ])}
@@ -96951,6 +97157,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-bob-marley": bobMarleyKrankheitsportraetPage,
       "krankheitsportraets-angelina-jolie": angelinaJolieKrankheitsportraetPage,
       "krankheitsportraets-adele": adeleKrankheitsportraetPage,
+      "krankheitsportraets-honore-de-balzac": honoreDeBalzacKrankheitsportraetPage,
       "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
       "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
