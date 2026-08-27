@@ -433,6 +433,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Robbie Williams \u2013 Sexual Type 1",
     teaser:"SX1w2 \u00b7 born 1974. Singer, entertainer, formerly of Take That. Radical honesty about addiction, depression and self-doubt \u2013 the Black Mamba that cannot tolerate a lie, not even its own. Animal correspondence: Black Mamba.",
     land:"United Kingdom", tags:["Music"], gender:"m"},
+{ route:"beruehmte-eminem", name:"Eminem", added:"2026-08-27", subtyp:"SX1w2",
+    heading:"Eminem \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 born 1972. Rapper and songwriter, born Marshall Bruce Mathers III. Merciless, highly precise rhyme technique, radical honesty about addiction and a failed marriage, single father to his daughter Hailie. Animal correspondence: Black Mamba.",
+    land:"USA", tags:["Music"], gender:"m"},
 { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
     heading:"Jamie Lee Curtis – Sexual Type 1",
     teaser:"SX1w2 · born 1958. Actress, Oscar winner 2023, activist. 22 years of addiction, 25 years of sobriety - the Black Mamba who cannot tolerate hypocrisy and burns for others as well as for herself. Animal correspondence: Black Mamba.",
@@ -19758,6 +19762,72 @@ function theaLitschkaKoenPortraitPage() {
   `);
 }
 
+function eminemPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-eminem-portrait.jpg" alt="Eminem – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eminem</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-Wing</p>
+        <p class="krim-portrait-subtitle">Rapper & songwriter, b. 1972 – Marshall Bruce Mathers III, "Slim Shady" – Animal equivalent: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Black Mamba is the animal of the sexual One—lightning-fast, precise, uncompromising, with no detour between feeling and expression. Marshall Bruce Mathers III, born October 17, 1972 in St. Joseph, Missouri, grew up amid constantly shifting living situations between Missouri and the Detroit suburb of Warren—with a single mother, an absent father, and a childhood repeatedly marked by moves and bullying. He dropped out of high school at seventeen.</p>
+          <p class="vb-intro">Before the world knew him, he fought his way up through Detroit's battle-rap circles, above all the legendary Hip-Hop Shop—an environment where any weakness is exploited instantly and only the one who strikes faster, harder, and truer than the opponent survives. It is exactly there, in the direct verbal duel, that the mamba shows itself at its purest: it does not bite out of malice, but because it cannot do otherwise once untruth or weakness become visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Zeal as a Driving Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual One (SX1) directs its demand for perfection not at outer order, but at intensity: at the complete, unpolished revealing of what is true—in one cause, one relationship, one mission, with full force rather than spread thin. Naranjo called this subtype <em>Zeal</em>—an intensified, uncompromising form of indignation and perfectionism that concentrates with missionary force on a single target.</p>
+          <p class="vb-intro">Few rappers have lived this pattern out as consistently in their craft as Eminem: a merciless, often furious, highly precise rhyme technique that tolerates no half sentences and tests every syllable for impact. In 1997, he caught Dr. Dre's attention at the Rap Olympics in Los Angeles, who signed him shortly after—not for a pleasing surface, but for an intensity that could not be faked.</p>
+          <p class="vb-intro">His uncompromising nature also shows in the unsparing honesty with which he processes his own failures in his lyrics—drug addiction, his failed marriage to Kim Scott, a difficult childhood, conflict with his own mother. Nothing is softened, nothing smoothed over. And the same intensity drove his feuds: public conflicts with boy bands and peers in the late 1990s, the battle-rap sharpness he never fully set aside, even long after becoming the biggest solo artist in his genre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two Wing: The Father Behind the Mask</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two wing (w2) gives the sexual One a second, surprisingly caring note: the need to be there for someone, to look after them, to take on responsibility. In Eminem, this shows most clearly in his role as a single father to his daughter Hailie Jade, born in 1995—a theme that recurs throughout his songs, from tender dedications to open admissions of his own shortcomings as a father.</p>
+          <p class="vb-intro">His public processing of his own drug addiction also carries this Two note: after a severe medication overdose in 2007—he came close to death at the time—he has pursued sobriety since April 2008, completed a twelve-step program, and has since repeatedly spoken publicly about his addiction, including acting as a sponsor for others in recovery. This is no longer pure self-exposure, but a return to responsibility for his family—the Two wing translating the mamba's hardness into care.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Breakthrough: Slim Shady and the Marshall Mathers LP</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1999, Eminem released <em>The Slim Shady LP</em>, his breakthrough album on Dr. Dre's newly founded label Aftermath Entertainment—a work that made him known through an aggressive, often shocking alter ego, behind which lay a merciless self-analysis. In 2000 followed <em>The Marshall Mathers LP</em>, which sold over nineteen million copies, won the Grammy for Best Rap Album, and is still considered one of the most influential albums in the genre's history.</p>
+          <p class="vb-intro">In 2003, he won the Academy Award for Best Original Song for "Lose Yourself" from the film <em>8 Mile</em>—the first hip-hop artist ever to do so. More Grammys followed, fifteen in total over his career, and with the albums <em>Relapse</em> (2009) and <em>Recovery</em> (2010) he processed his own fall and comeback sober for the first time—the One examining itself most relentlessly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called <strong>wrath</strong>—and for Eminem it long showed on both sides: outward in battle-rap feuds and public conflicts, inward in an addiction that nearly cost him his life in 2007. The sexual One tolerates no half measures, not even toward itself—what makes this intensity a strength can also turn unchecked against one's own health.</p>
+          <p class="vb-intro">The Two wing kept him from remaining alone in this hardness: the responsibility for Hailie, the publicly shared vulnerability around his sobriety, the role of mentor for other addicts—all of it shows a mamba that bites, but afterward also holds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Honesty Without Filter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Eminem gave pop culture is a radical rejection of the polished pop-star facade: that rage, shame, addiction, and fatherly love can stand in the same song without one disproving the other. That is the gift of the SX1w2—the refusal to pretend, combined with the need to be there for the people who matter most.</p>
+          <p class="vb-intro">The Black Mamba with the Two wing does not bite to hurt—it bites because it cannot bear a lie, not even its own. And afterward it seeks the closeness that this honesty makes possible in the first place.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2)"},
+        {route:"beruehmte-dr-dre", label:"Portrait: Dr. Dre (SO2w3) – his discoverer and mentor"},
+      ])}
+    </div>
+  `);
+}
+
 function robbieWilliamsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -19820,6 +19890,7 @@ function robbieWilliamsPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
         {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2)"},
+        {route:"beruehmte-eminem", label:"Portrait: Eminem (SX1w2)"},
         {route:"krankheitsportraets-robbie-williams", label:"Illness Portrait: Robbie Williams (SX1w2) – depression and addiction"},
       ])}
     </div>
@@ -39521,6 +39592,7 @@ function drDrePortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
         {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+        {route:"beruehmte-eminem", label:"Portrait: Eminem (SX1w2)"},
       ])}
     </div>
   `);
@@ -95536,6 +95608,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
+      "beruehmte-eminem": eminemPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-marilyn-monroe": marilynMonroePortraitPage,

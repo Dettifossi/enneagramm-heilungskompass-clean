@@ -32406,6 +32406,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Robbie Williams \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1974. S\u00e4nger, Entertainer, ehemals Take That. Radikale Offenheit \u00fcber Sucht, Depression und Selbstzweifel \u2013 die Schwarze Mamba, die keine L\u00fcge ertr\u00e4gt, auch nicht die eigene. Tierentsprechung: Schwarze Mamba.",
     land:"Großbritannien", tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-eminem", name:"Eminem", added:"2026-08-27", subtyp:"SX1w2",
+    heading:"Eminem \u2013 Sexueller Typ 1",
+    teaser:"SX1w2 \u00b7 geb. 1972. Rapper und Songwriter, b\u00fcrgerlich Marshall Bruce Mathers III. Schonungslose, hochpr\u00e4zise Reimtechnik, radikale Wahrhaftigkeit \u00fcber Sucht und gescheiterte Ehe, alleinerziehender Vater seiner Tochter Hailie. Tierentsprechung: Schwarze Mamba.",
+    land:"USA", tags:["Musik"], gender:"m"},
   { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
     heading:"Jamie Lee Curtis \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1958. Schauspielerin, Oscar-Gewinnerin 2023, Aktivistin. 22 Jahre Sucht, 25 Jahre N\u00fcchternheit \u2013 die Schwarze Mamba, die keine Heuchelei ertr\u00e4gt und f\u00fcr andere ebenso brennt wie f\u00fcr sich selbst. Tierentsprechung: Schwarze Mamba.",
@@ -64319,6 +64323,72 @@ function theaLitschkaKoenPortraitPage() {
   `);
 }
 
+function eminemPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-eminem-portrait.jpg" alt="Eminem \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eminem</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Rapper &amp; Songwriter, geb. 1972 &ndash; Marshall Bruce Mathers III, \u201eSlim Shady\u201c &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins &ndash; blitzschnell, pr\u00e4zise, kompromisslos, ohne Umweg zwischen Empfinden und Aussage. Marshall Bruce Mathers III, geboren am 17. Oktober 1972 in St. Joseph, Missouri, wuchs in st\u00e4ndig wechselnden Wohnverh\u00e4ltnissen zwischen Missouri und dem Detroiter Vorort Warren auf &ndash; mit einer alleinerziehenden Mutter, einem abwesenden Vater und einer Kindheit, die immer wieder von Umz\u00fcgen und Mobbing gepr\u00e4gt war. Mit siebzehn brach er die High School ab.</p>
+          <p class="vb-intro">Bevor die Welt ihn kannte, k\u00e4mpfte er sich in den Battle-Rap-Kreisen von Detroit hoch, vor allem im legend\u00e4ren Hip-Hop Shop &ndash; einem Umfeld, in dem jede Schw\u00e4che sofort ausgenutzt wird und nur derjenige besteht, der schneller, h\u00e4rter und wahrer zuschl\u00e4gt als der Gegner. Genau dort, im direkten verbalen Duell, zeigt sich die Mamba am reinsten: Sie bei\u00dft nicht aus Bosheit, sondern weil sie nicht anders kann, wenn Unwahrheit oder Schw\u00e4che sichtbar werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> richtet ihren Vollkommenheitsanspruch nicht auf \u00e4u\u00dfere Ordnung, sondern auf Intensit\u00e4t: auf das vollst\u00e4ndige, ungesch\u00f6nte Zeigen dessen, was wahr ist &ndash; in einer Sache, einer Beziehung, einer Mission, mit voller Wucht statt allgemein verteilt. Naranjo nannte diesen Subtyp <em>Zeal</em> &ndash; Eifer, eine gesteigerte, kompromisslose Form von Emp\u00f6rung und Perfektionsanspruch, die sich mit missionarischer Kraft auf ein einziges Ziel konzentriert.</p>
+          <p class="vb-intro">Kaum ein Rapper hat dieses Muster so konsequent in seiner Technik ausgelebt wie Eminem: eine schonungslose, oft w\u00fctende, hochpr\u00e4zise Reimtechnik, die keine halben S\u00e4tze duldet und jede Silbe auf Wirkung pr\u00fcft. 1997 fiel er beim Rap Olympics in Los Angeles Dr. Dre auf, der ihn kurz darauf unter Vertrag nahm &ndash; nicht wegen einer gef\u00e4lligen Oberfl\u00e4che, sondern wegen einer Intensit\u00e4t, die sich nicht verstellen lie\u00df.</p>
+          <p class="vb-intro">Seine Kompromisslosigkeit zeigt sich auch in der schonungslosen Wahrhaftigkeit, mit der er die eigenen Fehler in seinen Texten verarbeitet &ndash; Drogensucht, die gescheiterte Ehe mit Kim Scott, die schwierige Kindheit, der Konflikt mit der eigenen Mutter. Nichts wird besch\u00f6nigt, nichts weichgesp\u00fclt. Und dieselbe Intensit\u00e4t trieb ihn auch in seine Fehden: der \u00f6ffentliche Konflikt mit Boygroups und Kollegen der sp\u00e4ten 1990er, die Battle-Rap-Sch\u00e4rfe, die er nie ganz ablegte, selbst als er l\u00e4ngst zum gr\u00f6\u00dften Solok\u00fcnstler seines Genres geworden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Der Vater hinter der Maske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> gibt der sexuellen Eins eine zweite, \u00fcberraschend f\u00fcrsorgliche Note: das Bed\u00fcrfnis, f\u00fcr jemanden da zu sein, sich zu k\u00fcmmern, Verantwortung zu \u00fcbernehmen. Bei Eminem zeigt sich das am deutlichsten in seiner Rolle als alleinerziehender Vater seiner Tochter Hailie Jade, geboren 1995 &ndash; ein Thema, das in seinen Songs immer wieder auftaucht, von z\u00e4rtlichen Widmungen bis zu offenen Eingest\u00e4ndnissen eigener Unzul\u00e4nglichkeit als Vater.</p>
+          <p class="vb-intro">Auch seine \u00f6ffentliche Verarbeitung der eigenen Drogenabh\u00e4ngigkeit tr\u00e4gt diese Zweier-Note: Nach einer schweren Medikamenten\u00fcberdosis im Jahr 2007 &ndash; er stand damals kurz vor dem Tod &ndash; ging er seit April 2008 den Weg der N\u00fcchternheit, absolvierte ein Zw\u00f6lf-Schritte-Programm und sprach seither wiederholt \u00f6ffentlich \u00fcber seine Sucht, unter anderem um anderen Betroffenen als Sponsor beizustehen. Das ist keine reine Selbstoffenbarung mehr, sondern ein Zur\u00fcckfinden zur Verantwortung f\u00fcr seine Familie &ndash; der Zweierfl\u00fcgel, der die H\u00e4rte der Mamba in F\u00fcrsorge \u00fcbersetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Durchbruch: Slim Shady und die Marshall Mathers LP</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1999 ver\u00f6ffentlichte Eminem <em>The Slim Shady LP</em>, sein Durchbruchsalbum unter Dr. Dres neu gegr\u00fcndetem Label Aftermath Entertainment &ndash; ein Werk, das ihn mit einer aggressiven, oft schockierenden Kunstfigur bekannt machte, hinter der sich zugleich eine schonungslose Selbstanalyse verbarg. 2000 folgte <em>The Marshall Mathers LP</em>, das \u00fcber neunzehn Millionen Mal verkauft wurde, den Grammy f\u00fcr das beste Rap-Album gewann und bis heute als eines der einflussreichsten Alben der Genregeschichte gilt.</p>
+          <p class="vb-intro">2003 gewann er mit \u201eLose Yourself\u201c aus dem Film <em>8 Mile</em> den Oscar f\u00fcr den besten Filmsong &ndash; als erster Hip-Hop-K\u00fcnstler \u00fcberhaupt. Es folgten weitere Grammys, insgesamt f\u00fcnfzehn im Laufe seiner Karriere, und mit den Alben <em>Relapse</em> (2009) und <em>Recovery</em> (2010) verarbeitete er erstmals n\u00fcchtern seinen eigenen Absturz und Wiederaufstieg &ndash; die Eins, die sich selbst am unerbittlichsten pr\u00fcft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins hei\u00dft <strong>Zorn</strong> &ndash; und bei Eminem zeigte er sich lange nach beiden Seiten: nach au\u00dfen in Battle-Rap-Fehden und \u00f6ffentlichen Konflikten, nach innen in einer Sucht, die ihn 2007 beinahe das Leben kostete. Die sexuelle Eins ertr\u00e4gt keine Halbheiten, auch nicht im eigenen Umgang mit sich selbst &ndash; was diese Intensit\u00e4t zur St\u00e4rke macht, kann sich ungebremst auch gegen die eigene Gesundheit richten.</p>
+          <p class="vb-intro">Der Zweierfl\u00fcgel bewahrte ihn davor, in dieser H\u00e4rte allein zu bleiben: Die Verantwortung f\u00fcr Hailie, die \u00f6ffentlich gemachte Verletzlichkeit rund um seine N\u00fcchternheit, die Rolle als Mentor f\u00fcr andere S\u00fcchtige &ndash; all das zeigt eine Mamba, die bei\u00dft, aber danach auch h\u00e4lt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Wahrhaftigkeit ohne Filter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Eminem der Popkultur gegeben hat, ist eine radikale Absage an die gegl\u00e4ttete Popstar-Fassade: dass Wut, Scham, Sucht und Vaterliebe im selben Song stehen d\u00fcrfen, ohne dass eines das andere widerlegt. Das ist das Geschenk der SX1w2 &ndash; die Weigerung, sich zu verstellen, kombiniert mit dem Bed\u00fcrfnis, f\u00fcr die Menschen da zu sein, die einem am wichtigsten sind.</p>
+          <p class="vb-intro">Die Schwarze Mamba mit Zweierfl\u00fcgel bei\u00dft nicht, um zu verletzen &ndash; sie bei\u00dft, weil sie keine L\u00fcge ertr\u00e4gt, auch nicht die eigene. Und sie sucht danach die N\u00e4he, die sie durch diese Ehrlichkeit erst m\u00f6glich macht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-robbie-williams", label:"Portr\u00e4t: Robbie Williams (SX1w2)"},
+        {route:"beruehmte-dr-dre", label:"Portr\u00e4t: Dr. Dre (SO2w3) \u2013 sein Entdecker und Mentor"},
+      ])}
+    </div>
+  `);
+}
+
 function robbieWilliamsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -64381,6 +64451,7 @@ function robbieWilliamsPortraitPage() {
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
         {route:"beruehmte-leonardo-dicaprio", label:"Portr\u00e4t: Leonardo DiCaprio (SX1w2)"},
+        {route:"beruehmte-eminem", label:"Portr\u00e4t: Eminem (SX1w2)"},
         {route:"krankheitsportraets-robbie-williams", label:"Krankheitsportr\u00e4t: Robbie Williams (SX1w2) \u2013 Depression und Sucht"},
       ])}
     </div>
@@ -66527,6 +66598,7 @@ function drDrePortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
         {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+        {route:"beruehmte-eminem", label:"Portrait: Eminem (SX1w2)"},
       ])}
     </div>
   `);
@@ -131904,6 +131976,7 @@ function render() {
       "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
+      "beruehmte-eminem": eminemPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-marie-antoinette": marieAntoinettePortraitPage,
       "beruehmte-natascha-kampusch": nataschaKampuschPortraitPage,
