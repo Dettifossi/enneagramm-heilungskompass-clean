@@ -70829,6 +70829,14 @@ function enneagrammOdysseePage() {
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Wie Instinkt und Typ zusammenwirken \u2013 die verborgene Dynamik hinter den 27 Subtypen, jenseits der neun Grundtypen.", "Die verborgene Dynamik der 27 Subtypen")}
         ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        <a class="book-tip" href="https://www.amazon.de/Die-Odyssee-Schmuckausgabe-Motiv-Farbschnitt-Christopher/dp/345864573X?linkCode=ll2&tag=enneagrammkom-21&linkId=63836859f1c80e6d43e322266418842b&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">📖</span>
+          <div class="book-tip__text">
+            <strong>Buchtipp: \u00bbDie Odyssee \u2013 Schmuckausgabe\u00ab</strong>
+            <span>Homers Epos \u00fcber die legend\u00e4ren Irrfahrten des Odysseus \u2013 zur Vertiefung als hochwertige, illustrierte Schmuckausgabe.</span>
+          </div>
+          <span class="book-tip__arrow">\u2192</span>
+        </a>
         ${relatedLinks([
           {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
           {route:"enneagramm-wohnraumarchitektur", label:"Enneagramm meets Wohnraumarchitektur"},
