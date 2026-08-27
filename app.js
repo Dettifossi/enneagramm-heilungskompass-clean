@@ -71309,7 +71309,7 @@ function enneagrammHandanalysePage() {
       <div class="page-content">
         <p class="eyebrow">Wissen · Körperarbeit</p>
         <h1 class="section-title">Enneagramm meets Handanalyse</h1>
-        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Hand und Seele: Die 9 Enneagramm-Typen im Spiegel der Handanalyse</h2>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Hand und Seele: Die 9 Enneagrammtypen im Spiegel der Handanalyse</h2>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
           <p class="vb-intro">Jede Hand erzählt eine Geschichte. Während die Form unserer Hände und die Abstände unserer Finger unseren angeborenen Wesenskern widerspiegeln, zeigen uns die Handlinien – insbesondere die Herzlinie –, wie wir fühlen, lieben und mit inneren Konflikten umgehen.</p>
