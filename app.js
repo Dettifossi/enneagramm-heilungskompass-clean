@@ -33206,6 +33206,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dirk Rossmann \u2013 Sozialer Typ 5",
     teaser:"SO5w6 \xb7 geb. 1946, Hannover. Unternehmer, Gr\xfcnder der Drogeriemarktkette ROSSMANN. Schrieb eine Oktopus-Buchreihe \u2013 unwissentlich exakt sein eigenes Tiertotem.",
     land:"Deutschland", tags:["Wirtschaft"], gender:"m"},
+  { route:"beruehmte-eckhard-freise", name:"Eckhard Freise", added:"2026-08-27", subtyp:"SO5w6",
+    heading:"Eckhard Freise \u2013 Sozialer Typ 5",
+    teaser:"SO5w6 \xb7 geb. 1943/44. Historiker, Professor f\xfcr mittelalterliche Geschichte, Experte der Hersfelder Memorial\xfcberlieferung. Erster Million\xe4r bei Wer wird Million\xe4r?, 2. Dezember 2000.",
+    land:"Deutschland", tags:["Wissenschaft","Medien"], gender:"m"},
   { route:"beruehmte-frederic-chopin", name:"Fr\xe9d\xe9ric Chopin", added:"2026-07-21", subtyp:"SX5w4",
     heading:"Fr\xe9d\xe9ric Chopin \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \xb7 1810\u20131849. Komponist, Pianist. Nocturnes, \xc9tuden, Mazurken, Balladen. Der Igel, der fast nie auftrat \u2013 und dessen Musik zweihundert Jahre sp\xe4ter noch in jedem Konzertsaal klingt.",
@@ -44374,12 +44378,12 @@ const LEBENSMUSTERKOMPASS = {
   SO5: {
     tier: "Oktopus",
     kernthema: "Vielarmiges, paralleles Wissen, das der Gemeinschaft dient (Naranjo: Totem) – oder als Machtinstrument kontrolliert wird",
-    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dr. Ted Kaczynski", "Dr. Harold Shipman"],
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Dr. Ted Kaczynski", "Dr. Harold Shipman"],
     fingerabdruecke: [
       {
         titel: "Vielarmiges, paralleles Denken, das der Gemeinschaft zur Verfügung gestellt wird",
         beschreibung: "Naranjo nannte diesen Subtyp den des ›Totems‹: gesammeltes Wissen wird nicht für sich behalten, sondern der Gruppe als Beitrag angeboten. Charakteristisch ist dabei, gleichzeitig in mehreren Bereichen oder Richtungen zu denken, ohne sich in einem einzigen zu erschöpfen.",
-        beleg: "Leonardo da Vinci: ›Ein Wesen mit außergewöhnlicher Intelligenz, das die Welt mit unzähligen Armen gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verfügung stellt, statt es nur für sich zu horten‹ – Maler, Anatom, Ingenieur, Botaniker zugleich, der noch nach einem Schlaganfall mit gelähmter rechter Hand in seinen letzten Lebensjahren auf die linke Hand auswich, statt sein Schaffen aufzugeben; Gertrude Belle Elion, ›die gleichzeitig in mehreren Richtungen dachte‹ und ›mit ihrer Arbeit Millionen von Menschenleben gerettet hat, ohne dass die meisten Menschen heute ihren Namen kennen‹; Jennifer Mather: ›Wissen als Beitrag zur Gemeinschaft.‹; Dr. Albert Einstein, der seine bahnbrechenden Arbeiten des Wunderjahres 1905 nicht zurückhielt, sondern sofort zur Veröffentlichung und Diskussion in die wissenschaftliche Gemeinschaft gab; Günther Jauch, der sein Wissen buchstäblich zum zentralen Format eines ganzen Sendungssystems machte, ruhig und unaufgeregt im Zentrum – der Oktopus in seinem Element."
+        beleg: "Leonardo da Vinci: ›Ein Wesen mit außergewöhnlicher Intelligenz, das die Welt mit unzähligen Armen gleichzeitig erforscht und sein Wissen der Gemeinschaft zur Verfügung stellt, statt es nur für sich zu horten‹ – Maler, Anatom, Ingenieur, Botaniker zugleich, der noch nach einem Schlaganfall mit gelähmter rechter Hand in seinen letzten Lebensjahren auf die linke Hand auswich, statt sein Schaffen aufzugeben; Gertrude Belle Elion, ›die gleichzeitig in mehreren Richtungen dachte‹ und ›mit ihrer Arbeit Millionen von Menschenleben gerettet hat, ohne dass die meisten Menschen heute ihren Namen kennen‹; Jennifer Mather: ›Wissen als Beitrag zur Gemeinschaft.‹; Dr. Albert Einstein, der seine bahnbrechenden Arbeiten des Wunderjahres 1905 nicht zurückhielt, sondern sofort zur Veröffentlichung und Diskussion in die wissenschaftliche Gemeinschaft gab; Günther Jauch, der sein Wissen buchstäblich zum zentralen Format eines ganzen Sendungssystems machte, ruhig und unaufgeregt im Zentrum – der Oktopus in seinem Element; Eckhard Freise, dessen über Jahrzehnte in stiller Tiefe angesammeltes Fachwissen sich in einem einzigen, öffentlich abgefragten Moment als vollständig abrufbar erwies, ohne dass er danach sein Leben änderte: ›Wir sind so geblieben, wie wir vorher schon waren.‹"
       },
       {
         titel: "Wissen wird über Jahre im Verborgenen entwickelt, bevor es kontrolliert freigegeben wird",
@@ -60388,6 +60392,7 @@ function guentherJauchPortraitPage() {
         {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-bill-gates", label:"Portr\xe4t: Bill Gates (SO5w6)"},
         {route:"beruehmte-dirk-rossmann", label:"Portr\xe4t: Dirk Rossmann (SO5w6) \u2013 schrieb unwissentlich eine Buchreihe \u00fcber sein eigenes Tiertotem"},
+        {route:"beruehmte-eckhard-freise", label:"Portr\xe4t: Eckhard Freise (SO5w6) \u2013 erster Million\xe4r bei Wer wird Million\xe4r?"},
       ])}
     </div>
   `);
@@ -60458,7 +60463,75 @@ function dirkRossmannPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
+        {route:"beruehmte-eckhard-freise", label:"Portr\u00e4t: Eckhard Freise (SO5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function eckhardFreisePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-eckhard-freise-portrait.jpg" alt="Eckhard Freise – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Eckhard Freise</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Historiker, Professor f\xfcr mittelalterliche Geschichte, geb. 1943/44 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus mit den tastenden Armen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; ein Wesen, das mit mehreren Armen gleichzeitig tastet, greift und pr\xfcft, bevor es sich festlegt. Bei Eckhard Freise zeigt sich dieses Bild auf eine besonders unmittelbare, k\xf6rperliche Weise: Wenn er im Fernsehen eine Antwort begr\xfcndet, geraten seine H\xe4nde in eine eigent\xfcmliche Bewegung &ndash; die Finger schnellen fast tentakelartig nach vorne, ziehen sich wieder zur\xfcck, schnellen erneut vor, in einem wellenartigen Vor und Zur\xfcck, das ganz unwillk\xfcrlich wirkt. Es ist, als w\xfcrde das Wissen selbst nach einer greifbaren Form suchen, bevor es in Worte gefasst wird &ndash; acht Arme, die pr\xfcfend durch das Wasser der Erinnerung tasten, ehe einer von ihnen zupackt.</p>
+          <p class="vb-intro">Freise wurde 1943/44 geboren, studierte ab 1966 in M\xfcnster Latein, Geschichte und Philosophie, promovierte dort 1979 bei Joachim Wollasch und habilitierte sich 1987. Es folgten Professuren in Mannheim (1989&ndash;1996) und an der Bergischen Universit\xe4t Wuppertal (1996&ndash;2011). Ein Leben, das \xfcber Jahrzehnte in der stillen Tiefe der mittelalterlichen Geschichtsforschung verbracht wurde &ndash; bis am 2. Dezember 2000 ein einziger Fernsehabend diesen Oktopus schlagartig an die Oberfl\xe4che sp\xfclte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Wissen, das pl\xf6tzlich der ganzen Nation geh\xf6rte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> &ndash; die Verkn\xfcpfung von Wissen mit Zugeh\xf6rigkeit und Ansehen. Die SO5 h\xe4lt ihr Wissen nicht zur\xfcck wie die introvertierte SE5, sondern tr\xe4gt es in die Gemeinschaft, wird dadurch zur Instanz. Am 2. Dezember 2000 wurde Freise bei <em>Wer wird Million\xe4r?</em> mit G\xfcnther Jauch (SO5w6, siehe <a href="javascript:void(0)" data-route="beruehmte-guenther-jauch">Portr\xe4t</a>) zum ersten Kandidaten in der Geschichte der Sendung, der die volle Million &ndash; damals eine Million Deutsche Mark &ndash; gewann. Die entscheidende Frage lautete, mit wem Edmund Hillary 1953 gemeinsam auf dem Gipfel des Mount Everest gestanden habe. Freise wusste es, ohne einen Joker zu ben\xf6tigen.</p>
+          <p class="vb-intro">Bezeichnend ist, wie er selbst \xfcber diesen Moment spricht: Ihm sei es nicht ums Geld gegangen &ndash; sein Sohn habe einen neuen Computer gebraucht &ndash; und die Geldsummen h\xe4tten sich zun\xe4chst surreal angef\xfchlt, eher wie Spielgeld. Das ist die SO5 im Kern: Das Totem-Wissen wird geteilt, weil es geteilt werden will, nicht in erster Linie, um daraus Kapital zu schlagen. Und ganz im Sinne des Sechserfl\xfcgels, der auf Verl\xe4sslichkeit und Kontinuit\xe4t setzt, sein eigener Kommentar danach: ›Wir sind so geblieben, wie wir vorher schon waren.‹ Kein Umbruch, kein neues Leben &ndash; nur ein System, das um eine Facette reicher geworden war.</p>
+          <p class="vb-intro">Auch sein Verh\xe4ltnis zu seinem eigenen Titel zeigt das Totem-Muster in seiner bescheidenen, nicht selbstinszenierenden Variante: Auf die f\xf6rmliche Anrede mit Professorentitel reagierte er mit einem knappen ›Um Gottes willen &ndash; bitte nicht!‹ Wissen als Dienst an der Gemeinschaft, nicht als Status, den man vor sich hertr\xe4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Die Hersfelder Memorialüberlieferung als Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong> bringt der sozialen F\xfcnf ein tiefes Bed\xfcrfnis nach Verl\xe4sslichkeit und einem tragf\xe4higen System, an dem man \xfcber Jahrzehnte arbeiten kann. Genau das zeigt Freises wissenschaftliche Laufbahn: Er wurde zum ausgewiesenen Experten der <strong>Hersfelder Memorialüberlieferung</strong> &ndash; jener mittelalterlichen Gedenk\xfcberlieferung des Klosters Hersfeld, die verzeichnet, wessen im liturgischen Totengedenken zu gedenken war. Seine \xfcber Jahre angelegten Vorarbeiten bildeten die Grundlage einer erst 2018 ver\xf6ffentlichten wissenschaftlichen Edition &ndash; ein Forschungsgegenstand, der selbst ein System der Kontinuit\xe4t und des verl\xe4sslichen Gedenkens \xfcber Jahrhunderte ist. Ein Sechserfl\xfcgel-Fund m\xf6chte man fast sagen: Ein SO5w6 widmet sein wissenschaftliches Lebenswerk ausgerechnet der Frage, wie eine Gemeinschaft \xfcber die Zeit hinweg verl\xe4sslich an ihre Mitglieder erinnert.</p>
+          <p class="vb-intro">Auch nach dem Fernsehruhm blieb dieses Muster bestehen: Freise f\xfchrte seine Professur bis zur reg\xe4ren Emeritierung 2011 fort und unterrichtete danach noch einige Jahre weiter. Ein eigenes, dauerhaftes Fernsehformat &ndash; die naheliegende Verwertung seines pl\xf6tzlichen Bekanntheitsgrads &ndash; lehnte er ab, weil es ihn zu sehr gebunden h\xe4tte. Der Sechserfl\xfcgel h\xe4lt am bew\xe4hrten System fest &ndash; hier: der akademischen Laufbahn &ndash; statt sich von einem kurzlebigen Hype forttragen zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Alte vom Quizberge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anders als G\xfcnther Jauch, der sich nach dem Fernsehruhm vollst\xe4ndig der \xd6ffentlichkeit entzog, blieb Freise ihr auf eigene, milde Weise verbunden &ndash; als wiederkehrender Gast in Quizformaten: <em>Quizduell</em> (2015), <em>Wer wei\xdf denn sowas?</em> (2015, 2020), <em>Der Super Champion</em> (2012) und seit 2016 als Mitglied des ›Olymp‹-Teams bei <em>Quizduell &ndash; Olymp</em>. Ein IQ-Test bescheinigte ihm 2001 einen Wert von 132. Doch entscheidender als die Zahl ist, wie er selbst sein Verh\xe4ltnis zum Quiz beschreibt: die wichtigsten Tugenden eines Quizzers seien Unersch\xfctterlichkeit (Ataraxia) und die F\xe4higkeit, sich selbst herabzusetzen. Er sieht sich als ›Amateur‹, nicht als Sportler &ndash; und nennt sich mit trockenem Selbstspott ›Der Alte vom Quizberge‹.</p>
+          <p class="vb-intro">Diese Selbstironie ist typisch f\xfcr die reife SO5w6: Das Wissen wird ernst genommen, die eigene Person nicht. Freise r\xe4umt offen ein, wo seine Grenzen liegen &ndash; bei Fragen zu Lifestyle und Mode k\xf6nne er h\xf6chstens ›intelligent raten‹, und altersbedingte Ged\xe4chtnisl\xfccken erschwerten mittlerweile schnelle Antworten. Kein Verstecken hinter dem Ruhm des Jahres 2000, sondern ein n\xfcchterner, fast wissenschaftlicher Blick auf die eigenen Grenzen &ndash; derselbe Blick, mit dem er jahrzehntelang mittelalterliche Quellen gepr\xfcft hat.</p>
+          <p class="vb-intro">Sein Fazit \xfcber das Genre, dem er seinen Ruhm verdankt, ist ebenso pr\xe4zise wie distanziert: Quiz sei ›die gut gelaunte Parodie der Gesellschaft auf ihr eigenes Wissen‹. Und mit Blick auf andere L\xe4nder, in denen Quiz-Million\xe4re zu Volkshelden werden, konstatiert er den deutschen Fall eher n\xfcchtern &ndash; eine Beobachtung von au\xdfen, wie sie nur jemand formulieren kann, der selbst mittendrin stand und trotzdem Distanz gewahrt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen F\xfcnf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Freise die SO5w6 als Gelehrter, der Wissen als Dienst versteht &ndash; ob in der jahrzehntelangen Kleinarbeit an mittelalterlichen Quellen oder im Millionen-Publikum einer Samstagabendshow. Beides ist f\xfcr ihn dieselbe Bewegung: genau hinsehen, verstehen, weitergeben. Dass er den Ruhm nicht zum Selbstzweck machte, sondern in seine bestehende, verl\xe4ssliche Laufbahn integrierte, ist reifer Sechserfl\xfcgel: Sicherheit nicht durch neue Bühnen, sondern durch das Festhalten am tragf\xe4higen System.</p>
+          <p class="vb-intro">Der Schatten der F\xfcnf ist <strong>Geiz</strong> &ndash; das Zur\xfcckhalten, nicht nur von Besitz, sondern von sich selbst. Bei Freise zeigt sich das nicht als Kn\xe4userigkeit, sondern in der bewussten Begrenzung, wie viel er von sich preisgibt: Er blieb Wissenschaftler, kein \xf6ffentlicher Selbstdarsteller, lehnte das eigene Format ab, das ihn dauerhaft ausgestellt h\xe4tte. Die tastenden, tentakelartigen Handbewegungen, mit denen er seine Antworten begr\xfcndet, lassen sich in diesem Licht auch so lesen: ein K\xf6rper, der nach au\xdfen greift, um Wissen zu \xfcbergeben, sich dabei aber nie ganz \xf6ffnet &ndash; die Arme schnellen vor und ziehen sich sofort wieder zur\xfcck, bevor sie sich vollst\xe4ndig ausstrecken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Horten zum Teilen aus Fülle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Reicht mein Wissen, meine Energie, meine Zeit \xfcberhaupt?</em> zur Erkenntnis <em>Ich habe genug, um zu geben, ohne mich zu verlieren.</em> Freises Biografie liest sich wie eine gelungene Ann\xe4herung an diese Erkenntnis: Ein Forscher, der sein Wissen \xfcber Jahrzehnte in stiller Tiefe angesammelt hat, konnte in dem einen entscheidenden Moment, in dem es \xf6ffentlich abgefragt wurde, ohne Z\xf6gern und ohne Angst vor dem eigenen Versagen antworten &ndash; und blieb danach derselbe.</p>
+          <p class="vb-intro">Dass er weiterhin, Jahrzehnte nach der Million, in Quizformaten auftritt &ndash; nicht aus N\xf6tigung, sondern sichtlich mit Freude an der Sache selbst &ndash; zeigt eine F\xfcnf, die gelernt hat, ihr Wissen ohne Angst vor Ersch\xf6pfung zu teilen. Der Oktopus, dessen Arme immer noch tastend nach vorne schnellen, wenn er eine Antwort begr\xfcndet &ndash; nicht mehr aus Unsicherheit, sondern aus der schieren Freude am Denken selbst, das ein ganzes Forscherleben lang sein eigentliches Zuhause war.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-guenther-jauch", label:"Portr\xe4t: G\xfcnther Jauch (SO5w6) – Moderator derselben Sendung"},
+        {route:"beruehmte-dirk-rossmann", label:"Portr\xe4t: Dirk Rossmann (SO5w6)"},
       ])}
     </div>
   `);
@@ -132648,6 +132721,7 @@ function render() {
       "beruehmte-charles-darwin": charlesDarwinPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
       "beruehmte-dirk-rossmann": dirkRossmannPortraitPage,
+      "beruehmte-eckhard-freise": eckhardFreisePortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
