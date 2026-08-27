@@ -440,6 +440,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Eminem \u2013 Sexual Type 1",
     teaser:"SX1w2 \u00b7 born 1972. Rapper and songwriter, born Marshall Bruce Mathers III. Merciless, highly precise rhyme technique, radical honesty about addiction and a failed marriage, single father to his daughter Hailie. Animal correspondence: Black Mamba.",
     land:"USA", tags:["Music"], gender:"m"},
+{ route:"beruehmte-martin-luther", name:"Martin Luther", added:"2026-08-27", subtyp:"SX1w2",
+    heading:"Martin Luther \u2013 Sexual Type 1",
+    teaser:"SX1w2 \u00b7 1483\u20131546. Reformer, Bible translator. 95 Theses in 1517, \u203aHere I stand, I can do no other\u2039 before the Diet of Worms in 1521, uncompromising zeal for pure doctrine \u2013 with a dark shadow in the 1543 tract. Animal correspondence: Black Mamba.",
+    land:"Germany", tags:["History","Religion"], gender:"m"},
 { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
     heading:"Jamie Lee Curtis – Sexual Type 1",
     teaser:"SX1w2 · born 1958. Actress, Oscar winner 2023, activist. 22 years of addiction, 25 years of sobriety - the Black Mamba who cannot tolerate hypocrisy and burns for others as well as for herself. Animal correspondence: Black Mamba.",
@@ -20437,6 +20441,84 @@ function eminemPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2)"},
         {route:"beruehmte-dr-dre", label:"Portrait: Dr. Dre (SO2w3) – his discoverer and mentor"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function martinLutherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-martin-luther-portrait.jpg" alt="Martin Luther – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martin Luther</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with Two-Wing</p>
+        <p class="krim-portrait-subtitle">Reformer, b. 1483 in Eisleben, d. 1546 in the same town – Animal equivalent: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Some snakes retreat when a bite would not be necessary. The Black Mamba does not, once it feels cornered—it rears up and strikes, repeatedly, with lethal precision. On April 18, 1521, an Augustinian monk stood before the assembled Diet of Worms, before emperor and imperial estates, and was asked to recant his writings. He could have dodged, softened his stance, bought time. Instead he spoke the words still associated with him today: "Here I stand, I can do no other."</p>
+          <p class="vb-intro">Martin Luther, born November 10, 1483 in Eisleben as the son of a rising foundry master, was no man of quiet nuance. His colleague Philip Melanchthon described him as spirited, combative, blunt in tone once he had settled on a position—and at the same time as someone plagued by deep inner torment, by guilt and fear of death that he never fully shook off in his life. This mixture of outward hardness and inner turmoil is exactly the picture of the mamba: a creature that does not strike out of cold-bloodedness, but because the threat—real or perceived—leaves no other way out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Zeal as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual One (SX1)</strong> does not spread its demand for perfection thin across many fronts, but bundles it into a single, all-consuming fixation. Naranjo called this subtype <em>Zeal</em>: a passion that does not settle for order in small things, but is directed with missionary force at one cause, one person, one mission—uncompromising, with no room for negotiation.</p>
+          <p class="vb-intro">On October 31, 1517, Luther, according to tradition, nailed his 95 Theses against the sale of indulgences to the door of Wittenberg's Castle Church—the opening act of a movement he drove forward for decades with tireless writing and preaching. When he had to go into hiding at the Wartburg in 1521, he translated the New Testament into German in just eleven weeks—a workload that speaks less of diligence than of an almost obsessive inner urgency. The sexual One knows no half measures: either the doctrine is pure, or it isn't, and then the fight must go on until clarity prevails.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two Wing: The Family Man Behind the Church Rebel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the sexual One a warmer, more personally hands-on side: the need to care for concrete individuals, not only abstract principles. In Luther this shows in his 1525 marriage to Katharina von Bora, a former nun whom he himself had helped escape her convent—a deeply personal, provocative challenge to celibacy, not an abstract declaration.</p>
+          <p class="vb-intro">Within his own family and congregation, this Two-wing closeness became a way of life: Luther wrote a catechism specifically for families, penned countless personal letters of pastoral care, and his table talks were recorded so eagerly by guests and students that they later became the famous <em>Table Talk</em>—a man who did not only preach his convictions but lived them at his own dinner table, with the same intensity with which he fought the Pope. The Two wing also brings a shadow side: a tendency to intrude, to lecture, to know exactly what is good for the other person—and to say so, uninvited.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Why Not 1w9?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Some popular attributions type Luther as "1w9"—a supposedly calm, contemplative, harmony-seeking nature behind the reformer's facade. That contradicts the historical record: a Nine wing avoids conflict, and Luther sought it out actively, at Worms as much as during the Peasants' War. The warmer but assertive, closeness-seeking Two wing fits far better a man who lived warmth and confrontation in the same breath.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Life's Work: Reformation and Bible Translation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Within a few years, the 1517 posting of the theses grew into a movement that split the Western church. Before the Diet of Worms in 1521, Luther refused to recant his writings, was subsequently placed under imperial ban, and had to hide at the Wartburg—where, rather than settling into safety, he immediately began his Bible translation. His German shaped the German written language for centuries and made the biblical text directly accessible to a broad population for the first time—a democratization of access to faith scarcely conceivable without the missionary intensity of the sexual One.</p>
+          <p class="vb-intro">In 1525 he married Katharina von Bora, with whom he had six children, and from then on ran a household that became a model of a new, evangelical way of life for many of his contemporaries. That same year, he took a sharp and uncompromising stance against the rebelling peasants during the Peasants' War—in the pamphlet <em>Against the Robbing and Murdering Hordes of Peasants</em>, he called on the princes to crush the revolt by force, without qualification, without nuance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX1w2 is the capacity to spark historic change out of deep moral conviction while combining it with personal warmth: the Reformation and the Bible translation changed access to faith for centuries, while Luther lived a very personal, hands-on care in the small scale—as husband, father, pastoral counselor.</p>
+          <p class="vb-intro">The shadow must be named just as unflinchingly: in 1543 Luther published <em>On the Jews and Their Lies</em>, a massively antisemitic tract that called for persecution and expulsion and was later exploited by the Nazis. This is a dark part of his legacy to be condemned in its own right, not to be relativized by anything else. Within the Enneagram pattern, it can be read as the tipping point of the One's passion: when the demand for pure doctrine no longer tolerates dissent, moral certainty turns into a logic of annihilation against anything perceived as a threat to one's own truth—the same uncompromising stance that became courageous steadfastness at Worms in 1521 turned destructively outward in 1543.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Illness as a Recurring Thread</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In his final decades, Luther suffered from kidney stones, heart problems, digestive complaints, arthritis, and recurring dizzy spells now retrospectively interpreted as a possible Ménière's disease. None of these ailments stopped his nearly tireless writing and preaching—until his death on February 18, 1546 in Eisleben, likely from a stroke or heart failure, he remained publicly active. Physical exhaustion never became a brake; it ran in parallel to an undiminished zeal—a pattern that often appears in the sexual One: the inner drive knows no pause, even once the body has long been signaling otherwise.</p>
+          <p class="vb-intro"><strong>A frame without determinism:</strong> anyone can develop any illness, regardless of subtype—the ailments described here are medically explicable, not a psychosomatic inevitability of Luther's Enneagram pattern.</p>
+          <p class="vb-intro"><strong>The unconscious fixation as its own factor:</strong> Luther did not know his own behavioral pattern in these terms—the Enneagram did not exist in his time. He therefore lived out his zeal unchecked, without the possibility of recognizing it as a recurring pattern and correcting course in time: neither in his uncompromising stance toward the peasants in 1525, nor in the 1543 tract, nor in ignoring his own body's warning signs until the end. This explains why the pattern continued undiminished into his final years rather than softening—not out of guilt, but out of not knowing his own nature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. The Path to Healing: A Perfection Already Present</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from the question <em>How do I get it right, how do I keep everything pure?</em> to the serenity that the world is already perfect as it is. Luther himself wrestled with exactly this question throughout his life—what he called his own "afflictions" were nothing other than the constant inner test of whether he lived up to his own standard.</p>
+          <p class="vb-intro">He never fully found his way to that serenity. Until his death he remained a man of struggle, of relentless fighting for pure doctrine—with all the light that grew from it for the Reformation, and all the shadow this uncompromising stance inflicted on peasants and on Jewish people. The Black Mamba with the Two wing bites because it cannot bear untruth—and holds close at the same time because it wants to care for those nearest to it. Together, these do not add up to a simple picture, but to one of the most contradictory and consequential lives in European history.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-eminem", label:"Portrait: Eminem (SX1w2)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
       ])}
     </div>
   `);
@@ -44733,7 +44815,7 @@ const LEBENSMUSTERKOMPASS = {
   SX1: {
     tier: "Black Mamba",
     kernthema: "Uncompromising intensity in the closest circle instead of reforming the whole world",
-    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl"],
+    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem"],
     fingerabdruecke: [
       {
         titel: "Penetrating, inescapable presence instead of flattering charisma",
@@ -44748,7 +44830,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Radical honesty that cannot be faked – even against one's own image",
         beschreibung: "Adapting to expectations, image management, or diplomatic silence are barely possible when something feels false or inauthentic – even when speaking up damages one's own career or reputation.",
-        beleg: "Robbie Williams: 'What's wrong gets named, even when it concerns oneself ... The mamba can't be permanently forced into a choreography'; Marie-Agnes Strack-Zimmermann: 'The mamba doesn't wait for everyone to agree'; Jamie Lee Curtis, who early on developed 'an inner resistance' to the false world of her Hollywood family."
+        beleg: "Robbie Williams: 'What's wrong gets named, even when it concerns oneself ... The mamba can't be permanently forced into a choreography'; Marie-Agnes Strack-Zimmermann: 'The mamba doesn't wait for everyone to agree'; Jamie Lee Curtis, who early on developed 'an inner resistance' to the false world of her Hollywood family; Martin Luther, who before the Diet of Worms refused under threat of the imperial ban to recant his writings: 'Here I stand, I can do no other.'"
       },
       {
         titel: "Lethal control in the most private circle – behind an impeccable civic facade (shadow form)",
@@ -97399,6 +97481,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-eminem": eminemPortraitPage,
+      "beruehmte-martin-luther": martinLutherPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-marilyn-monroe": marilynMonroePortraitPage,

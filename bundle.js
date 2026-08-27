@@ -32415,6 +32415,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Eminem \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1972. Rapper und Songwriter, b\u00fcrgerlich Marshall Bruce Mathers III. Schonungslose, hochpr\u00e4zise Reimtechnik, radikale Wahrhaftigkeit \u00fcber Sucht und gescheiterte Ehe, alleinerziehender Vater seiner Tochter Hailie. Tierentsprechung: Schwarze Mamba.",
     land:"USA", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-martin-luther", name:"Martin Luther", added:"2026-08-27", subtyp:"SX1w2",
+    heading:"Martin Luther \u2013 Sexueller Typ 1",
+    teaser:"SX1w2 \u00b7 1483\u20131546. Reformator, Bibel\u00fcbersetzer. 95 Thesen 1517, \u203aHier stehe ich, ich kann nicht anders\u2039 vor dem Reichstag zu Worms 1521, kompromissloser Eifer f\u00fcr die reine Lehre \u2013 mit dunklem Schatten in der Hetzschrift von 1543. Tierentsprechung: Schwarze Mamba.",
+    land:"Deutschland", tags:["Geschichte","Religion"], gender:"m"},
   { route:"beruehmte-jamie-lee-curtis", name:"Jamie Lee Curtis", added:"2026-07-20", subtyp:"SX1w2",
     heading:"Jamie Lee Curtis \u2013 Sexueller Typ 1",
     teaser:"SX1w2 \u00b7 geb. 1958. Schauspielerin, Oscar-Gewinnerin 2023, Aktivistin. 22 Jahre Sucht, 25 Jahre N\u00fcchternheit \u2013 die Schwarze Mamba, die keine Heuchelei ertr\u00e4gt und f\u00fcr andere ebenso brennt wie f\u00fcr sich selbst. Tierentsprechung: Schwarze Mamba.",
@@ -44663,7 +44667,7 @@ const LEBENSMUSTERKOMPASS = {
   SX1: {
     tier: "Schwarze Mamba",
     kernthema: "Kompromisslose Intensität im engsten Kreis statt Reformanspruch an die ganze Welt",
-    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl"],
+    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem"],
     fingerabdruecke: [
       {
         titel: "Durchdringende, unausweichliche Präsenz statt schmeichelndes Charisma",
@@ -44678,7 +44682,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Radikale Ehrlichkeit, die sich nicht verstellen lässt – auch gegen das eigene Image",
         beschreibung: "Anpassung an Erwartungen, Image-Pflege oder diplomatisches Schweigen sind kaum möglich, wenn etwas als falsch oder unecht empfunden wird – auch wenn das Aussprechen der eigenen Karriere oder dem eigenen Ansehen schadet.",
-        beleg: "Robbie Williams: ›Was falsch ist, wird benannt, auch wenn es das eigene Selbst betrifft … Die Mamba lässt sich nicht dauerhaft in eine Choreografie zwingen‹; Marie-Agnes Strack-Zimmermann: ›Die Mamba wartet nicht, bis alle einverstanden sind‹; Jamie Lee Curtis, die früh ›einen inneren Widerstand‹ gegen die Schein-Welt ihrer Hollywood-Familie entwickelte."
+        beleg: "Robbie Williams: ›Was falsch ist, wird benannt, auch wenn es das eigene Selbst betrifft … Die Mamba lässt sich nicht dauerhaft in eine Choreografie zwingen‹; Marie-Agnes Strack-Zimmermann: ›Die Mamba wartet nicht, bis alle einverstanden sind‹; Jamie Lee Curtis, die früh ›einen inneren Widerstand‹ gegen die Schein-Welt ihrer Hollywood-Familie entwickelte; Martin Luther, der vor dem Reichstag zu Worms unter Androhung der Reichsacht den Widerruf seiner Schriften verweigerte: ›Hier stehe ich, ich kann nicht anders.‹"
       },
       {
         titel: "Tödliche Kontrolle im privatesten Kreis – hinter einer untadeligen bürgerlichen Fassade (Schattenform)",
@@ -64898,6 +64902,84 @@ function eminemPortraitPage() {
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-robbie-williams", label:"Portr\u00e4t: Robbie Williams (SX1w2)"},
         {route:"beruehmte-dr-dre", label:"Portr\u00e4t: Dr. Dre (SO2w3) \u2013 sein Entdecker und Mentor"},
+        {route:"beruehmte-martin-luther", label:"Portr\u00e4t: Martin Luther (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function martinLutherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-martin-luther-portrait.jpg" alt="Martin Luther \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martin Luther</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Reformator, geb. 1483 in Eisleben, gest. 1546 ebenda &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es gibt Schlangen, die vor dem Biss ausweichen, wenn ein Fluchtweg offensteht. Die <strong>Schwarze Mamba</strong> tut das nicht, sobald sie sich in die Enge getrieben f\u00fchlt &ndash; sie richtet sich auf und schl\u00e4gt zu, mehrfach, mit t\u00f6dlicher Pr\u00e4zision. Am 18. April 1521 stand ein Augustinerm\u00f6nch vor dem versammelten Reichstag zu Worms, vor Kaiser und Reichsst\u00e4nden, und wurde aufgefordert, seine Schriften zu widerrufen. Er h\u00e4tte ausweichen, relativieren, Zeit gewinnen k\u00f6nnen. Stattdessen sprach er die Worte, die bis heute mit ihm verbunden werden: \u203aHier stehe ich, ich kann nicht anders.\u2039</p>
+          <p class="vb-intro">Martin Luther, geboren am 10. November 1483 in Eisleben als Sohn eines aufstrebenden H\u00fcttenmeisters, war kein Mann der leisen Zwischent\u00f6ne. Sein Weggef\u00e4hrte Philipp Melanchthon beschrieb ihn als temperamentvoll, streitlustig, grob im Ton, sobald er sich einmal festgelegt hatte &ndash; und zugleich als jemanden, der von tiefen inneren Anfechtungen geplagt wurde, von Schuld- und Todesangst, die er sein Leben lang nie ganz absch\u00fctteln konnte. Diese Mischung aus au\u00dfen gerichteter H\u00e4rte und innerer Zerrissenheit ist genau das Bild der Mamba: eine Kreatur, die nicht aus Kaltbl\u00fctigkeit zubeisst, sondern weil die Bedrohung &ndash; real oder empfunden &ndash; keinen anderen Ausweg mehr zul\u00e4sst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> streut ihren Vollkommenheitsanspruch nicht breit \u00fcber viele Baustellen, sondern b\u00fcndelt ihn zu einer einzigen, alles verzehrenden Fixierung. Naranjo nannte diesen Subtyp <em>Eifer</em>: eine Leidenschaft, die sich nicht mit Ordnung im Kleinen begn\u00fcgt, sondern mit missionarischer Wucht auf eine Sache, eine Person, eine Mission gerichtet wird &ndash; kompromisslos, ohne Verhandlungsspielraum.</p>
+          <p class="vb-intro">Am 31. Oktober 1517 schlug Luther, der \u00dcberlieferung nach, seine 95 Thesen gegen den Ablasshandel an die T\u00fcr der Wittenberger Schlosskirche &ndash; der Auftakt zu einer Bewegung, die er in den folgenden Jahrzehnten mit unerm\u00fcdlicher Schreib- und Predigtt\u00e4tigkeit vorantrieb. Als er 1521 auf der Wartburg untertauchen musste, \u00fcbersetzte er das Neue Testament in gerade einmal elf Wochen ins Deutsche &ndash; ein Arbeitspensum, das weniger von Fleiss als von einer fast besessenen inneren Dringlichkeit zeugt. Die SX1 kennt keine halben Sachen: Entweder die Lehre ist rein, oder sie ist es nicht, und dann muss gek\u00e4mpft werden, bis Klarheit herrscht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Der Hausvater hinter dem Kirchenrebellen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> gibt der sexuellen Eins eine w\u00e4rmere, pers\u00f6nlich zupackende Seite: das Bed\u00fcrfnis, sich um konkrete Menschen zu k\u00fcmmern, nicht nur um abstrakte Prinzipien. Bei Luther zeigt sich das 1525 in seiner Heirat mit Katharina von Bora, einer ehemaligen Nonne, der er selbst bei der Flucht aus dem Kloster geholfen hatte &ndash; eine ganz pers\u00f6nliche, provokante Kampfansage gegen den Z\u00f6libat, kein abstraktes Bekenntnis.</p>
+          <p class="vb-intro">In der eigenen Familie und Gemeinde wurde diese Zweier-N\u00e4he zur Lebensform: Luther verfasste einen Katechismus eigens f\u00fcr Familien, f\u00fchrte unz\u00e4hlige pers\u00f6nliche Seelsorgebriefe, und seine Tischgespr\u00e4che wurden von G\u00e4sten und Sch\u00fclern so eifrig mitgeschrieben, dass daraus die sp\u00e4ter ber\u00fchmten \u203aTischreden\u2039 entstanden &ndash; ein Mann, der seine \u00dcberzeugungen nicht nur predigte, sondern am eigenen Esstisch auslebte, mit derselben Intensit\u00e4t, mit der er gegen den Papst focht. Der Zweierfl\u00fcgel bringt dabei auch eine Schattenseite mit: die Neigung, sich einzumischen, zu bevormunden, genau zu wissen, was f\u00fcr den anderen gut ist &ndash; und es ihm auch unaufgefordert zu sagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Warum nicht 1w9?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Manche popul\u00e4re Zuschreibungen tippen Luther als \u203a1w9\u2039 &ndash; ein angeblich ruhiges, kontemplatives, harmoniesuchendes Wesen hinter der reformatorischen Fassade. Das widerspricht der Quellenlage: Ein Neunerfl\u00fcgel meidet Konflikt, Luther suchte ihn aktiv, in Worms ebenso wie im Bauernkrieg. Der w\u00e4rmere, aber durchsetzungsstarke, in pers\u00f6nliche N\u00e4he dr\u00e4ngende Zweierfl\u00fcgel passt erheblich besser zu einem Mann, der Zuwendung und Konfrontation im selben Atemzug lebte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Lebenswerk: Reformation und Bibel\u00fcbersetzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aus dem Thesenanschlag von 1517 wurde binnen weniger Jahre eine Bewegung, die die abendl\u00e4ndische Kirche spaltete. 1521 vor dem Reichstag zu Worms weigerte sich Luther, seine Schriften zu widerrufen, wurde in der Folge mit der Reichsacht belegt und musste sich auf der Wartburg verstecken &ndash; wo er, statt sich zur Ruhe zu setzen, sofort mit der Bibel\u00fcbersetzung begann. Sein Deutsch pr\u00e4gte die deutsche Schriftsprache \u00fcber Jahrhunderte und machte den Bibeltext erstmals einer breiten Bev\u00f6lkerung unmittelbar zug\u00e4nglich &ndash; eine Demokratisierung des Glaubenszugangs, die ohne die missionarische Intensit\u00e4t der sexuellen Eins kaum denkbar gewesen w\u00e4re.</p>
+          <p class="vb-intro">1525 heiratete er Katharina von Bora, mit der er sechs Kinder hatte, und f\u00fchrte fortan ein Haus, das f\u00fcr viele Zeitgenossen zum Vorbild einer neuen, evangelischen Lebensform wurde. Im selben Jahr positionierte er sich im Bauernkrieg scharf und kompromisslos gegen die aufst\u00e4ndischen Bauern &ndash; in der Schrift \u203aWider die r\u00e4uberischen und m\u00f6rderischen Rotten der Bauern\u2039 rief er die F\u00fcrsten geradezu zur gewaltsamen Niederschlagung auf, ohne Abstriche, ohne Zwischenton.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX1w2 ist die F\u00e4higkeit, aus tiefer moralischer \u00dcberzeugung historische Ver\u00e4nderung anzusto\u00dfen und sie mit pers\u00f6nlicher W\u00e4rme zu verbinden: Die Reformation und die Bibel\u00fcbersetzung ver\u00e4nderten den Zugang zum Glauben f\u00fcr Jahrhunderte, w\u00e4hrend Luther im Kleinen &ndash; als Ehemann, Vater, Seelsorger &ndash; eine ganz pers\u00f6nliche, zupackende F\u00fcrsorge lebte.</p>
+          <p class="vb-intro">Der Schatten ist ebenso unvers\u00f6hnlich zu benennen: 1543 ver\u00f6ffentlichte Luther die Schrift \u203aVon den Juden und ihren L\u00fcgen\u2039, eine massiv antisemitische Hetzschrift, die zu Verfolgung und Vertreibung aufrief und sp\u00e4ter von Nationalsozialisten missbraucht wurde. Das ist ein eigenst\u00e4ndig zu verurteilender, dunkler Teil seines Werks, der durch nichts zu relativieren ist. Im Rahmen des Enneagramm-Musters l\u00e4sst er sich als Kippung der Eins-Leidenschaft deuten: Wenn der Anspruch auf reine Lehre keine Gegenrede mehr duldet, wird aus moralischer Gewissheit eine Vernichtungslogik gegen\u00fcber allem, was als Bedrohung der eigenen Wahrheit erscheint &ndash; dieselbe Kompromisslosigkeit, die 1521 in Worms zur mutigen Standfestigkeit wurde, richtete sich 1543 zerst\u00f6rerisch nach au\u00dfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Die Krankheit als roter Faden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In seinen letzten Lebensjahrzehnten litt Luther an Nierensteinen, Herzproblemen, Verdauungsbeschwerden, Arthritis und wiederkehrenden Schwindelanf\u00e4llen, die heute r\u00fcckblickend als m\u00f6gliche Meni\u00e8re-Erkrankung gedeutet werden. Keines dieser Leiden hielt ihn von einer nahezu unerm\u00fcdlichen Schreib- und Predigtt\u00e4tigkeit ab &ndash; bis zu seinem Tod am 18. Februar 1546 in Eisleben, vermutlich an Schlaganfall oder Herzversagen, blieb er publizistisch aktiv. Die k\u00f6rperliche Ersch\u00f6pfung wurde nicht zur Bremse, sondern lief parallel zur unverminderten Eifer-Intensit\u00e4t weiter &ndash; ein Muster, das sich bei der sexuellen Eins h\u00e4ufig zeigt: Der innere Antrieb kennt keine Pause, auch wenn der K\u00f6rper l\u00e4ngst Signale sendet.</p>
+          <p class="vb-intro"><strong>Einordnung ohne Determinismus:</strong> Jeder Mensch kann jede Krankheit bekommen, unabh\u00e4ngig vom Subtyp &ndash; die genannten Leiden erkl\u00e4ren sich medizinisch, nicht psychosomatisch-zwingend aus Luthers Enneagramm-Muster.</p>
+          <p class="vb-intro"><strong>Die unbewusste Fixierung als eigener Faktor:</strong> Luther kannte sein eigenes Handlungsmuster nicht in dieser Begrifflichkeit &ndash; das Enneagramm existierte zu seiner Zeit nicht. Er lebte seinen Eifer deshalb ungebremst aus, ohne die M\u00f6glichkeit, ihn als wiederkehrendes Muster zu erkennen und rechtzeitig gegenzusteuern: weder in der Kompromisslosigkeit gegen\u00fcber den Bauern 1525 noch in der Hetzschrift von 1543, noch im Ignorieren der eigenen k\u00f6rperlichen Warnsignale bis zuletzt. Das erkl\u00e4rt, warum sich das Muster bis in die letzten Lebensjahre hinein unvermindert fortsetzte, statt sich abzumildern &ndash; nicht aus Schuld, sondern aus Unwissenheit \u00fcber das eigene Wesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Der Heilungsweg: Vollkommenheit, die schon da ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins f\u00fchrt von der Frage <em>Wie mache ich es richtig, wie halte ich alles rein?</em> zur Gelassenheit, dass die Welt bereits vollkommen ist, so wie sie ist. Luther selbst rang zeitlebens mit genau dieser Frage &ndash; seine Anfechtungen, wie er sie selbst nannte, waren nichts anderes als die st\u00e4ndige innere Pr\u00fcfung, ob er dem eigenen Massstab gerecht wurde.</p>
+          <p class="vb-intro">Diesen Weg zur Gelassenheit fand er nie vollst\u00e4ndig. Bis zu seinem Tod blieb er ein Mann des K\u00e4mpfens, des unerbittlichen Ringens um die reine Lehre &ndash; mit allem Licht, das daraus f\u00fcr die Reformation erwuchs, und allem Schatten, den diese Kompromisslosigkeit gegen\u00fcber Bauern und J\u00fcdinnen und Juden anrichtete. Die Schwarze Mamba mit Zweierfl\u00fcgel bei\u00dft, weil sie keine Unwahrheit ertr\u00e4gt &ndash; und h\u00e4lt zugleich, weil sie f\u00fcr die N\u00e4hesten sorgen will. Beides zusammen ergibt kein einfaches Bild, sondern eines der widerspr\u00fcchlichsten und folgenreichsten Leben der europ\u00e4ischen Geschichte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-eminem", label:"Portr\u00e4t: Eminem (SX1w2)"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
       ])}
     </div>
   `);
@@ -133058,6 +133140,7 @@ function render() {
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-eminem": eminemPortraitPage,
+      "beruehmte-martin-luther": martinLutherPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,
       "beruehmte-marie-antoinette": marieAntoinettePortraitPage,
       "beruehmte-natascha-kampusch": nataschaKampuschPortraitPage,
