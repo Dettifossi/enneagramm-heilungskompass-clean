@@ -33187,6 +33187,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"G\xfcnther Jauch \u2013 Sozialer Typ 5",
     teaser:"SO5w6 \xb7 geb. 1956, M\xfcnster. Moderator, Journalist, Produzent. Wer wird Million\xe4r?, stern TV, ARD-Sonntagstalk. Der Oktopus, der Jahrzehnte lang das Wissen der Nation moderiert hat \u2013 und dabei selbst nie wirklich sichtbar wurde.",
     land:"Deutschland", tags:["Medien","Fernsehen"], gender:"m"},
+  { route:"beruehmte-dirk-rossmann", name:"Dirk Rossmann", added:"2026-08-27", subtyp:"SO5w6",
+    heading:"Dirk Rossmann \u2013 Sozialer Typ 5",
+    teaser:"SO5w6 \xb7 geb. 1946, Hannover. Unternehmer, Gr\xfcnder der Drogeriemarktkette ROSSMANN. Schrieb eine Oktopus-Buchreihe \u2013 unwissentlich exakt sein eigenes Tiertotem.",
+    land:"Deutschland", tags:["Wirtschaft"], gender:"m"},
   { route:"beruehmte-frederic-chopin", name:"Fr\xe9d\xe9ric Chopin", added:"2026-07-21", subtyp:"SX5w4",
     heading:"Fr\xe9d\xe9ric Chopin \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \xb7 1810\u20131849. Komponist, Pianist. Nocturnes, \xc9tuden, Mazurken, Balladen. Der Igel, der fast nie auftrat \u2013 und dessen Musik zweihundert Jahre sp\xe4ter noch in jedem Konzertsaal klingt.",
@@ -48059,6 +48063,7 @@ function isaacNewtonPortraitPage() {
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4) – sein erbittertster wissenschaftlicher Rivale"},
         {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
         {route:"beruehmte-bill-gates", label:"Porträt: Bill Gates (SO5w6)"},
+        {route:"beruehmte-dirk-rossmann", label:"Porträt: Dirk Rossmann (SO5w6)"},
         {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – Nervenzusammenbruch durch Quecksilbervergiftung"},
       ])}
     </div>
@@ -59817,6 +59822,78 @@ function guentherJauchPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-bill-gates", label:"Portr\xe4t: Bill Gates (SO5w6)"},
+        {route:"beruehmte-dirk-rossmann", label:"Portr\xe4t: Dirk Rossmann (SO5w6) \u2013 schrieb unwissentlich eine Buchreihe \u00fcber sein eigenes Tiertotem"},
+      ])}
+    </div>
+  `);
+}
+
+function dirkRossmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dirk-rossmann-portrait.jpg" alt="Dirk Rossmann \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dirk Rossmann</p>
+        <p class="krim-portrait-typ">SO5w6 \u00b7 Sozialer Typ 5 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, Gr\u00fcnder der Drogeriemarktkette ROSSMANN, geb. 1946 \u2013 Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus mit dem Fahrrad</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 \u2013 ein Tier ohne festes Zentrum, das mit mehreren Armen gleichzeitig operiert, sich seinem Umfeld anpasst und dabei nie ganz zu fassen ist. Dirk Ro\u00dfmann wurde am 7. September 1946 in Hannover geboren, als Sohn eines Drogisten in zweiter Generation, der starb, als Dirk zw\u00f6lf Jahre alt war. Mit f\u00fcnfundzwanzig, 1972, er\u00f6ffnete er in Hannover den ersten deutschen Selbstbedienungs-Drogeriemarkt auf 120 Quadratmetern \u2013 neben einem Bestattungsunternehmen gelegen, was er selbst sp\u00e4ter mit trockenem Humor kommentierte.</p>
+          <p class="vb-intro">Das Prinzip Selbstbedienung war in der deutschen Drogeriebranche 1972 eine Neuerfindung des Systems, nicht blo\u00df eine Filialer\u00f6ffnung. Genau das ist die soziale F\u00fcnf im Licht: Sie beobachtet ein bestehendes System lange und genau, erkennt seine Schwachstelle \u2013 hier die bediente Theke, an der jeder Kunde einzeln bedient werden musste \u2013 und baut daraus ein neues, effizienteres System, das sie dann mit vielen Armen gleichzeitig in die Fl\u00e4che tr\u00e4gt. Aus einem Laden wurden \u00fcber die folgenden Jahrzehnte mehrere tausend M\u00e4rkte in mehreren europ\u00e4ischen L\u00e4ndern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Wissen, das die Gemeinschaft tr\u00e4gt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> \u2013 die Verkn\u00fcpfung von Wissen mit Zugeh\u00f6rigkeit und Ansehen. Anders als die introvertierte SE5, die ihr Wissen eher zur\u00fcckh\u00e4lt, tr\u00e4gt die SO5 es aktiv in die Gemeinschaft hinein und wird dadurch zur Instanz. Ro\u00dfmann ist daf\u00fcr ein Lehrbuchfall: Er gibt regelm\u00e4\u00dfig Interviews \u00fcber Unternehmensf\u00fchrung, hat eine vielgelesene Autobiografie ver\u00f6ffentlicht und spricht \u00f6ffentlich \u00fcber sein Gesch\u00e4ftsmodell \u2013 ohne dabei ins Rampenlicht der Prominenz im klassischen Sinn zu dr\u00e4ngen. Das Wissen wird geteilt, damit es der Gemeinschaft \u2013 Mitarbeitenden, Nachfolgern, Lesern \u2013 n\u00fctzt.</p>
+          <p class="vb-intro">Auch sein F\u00fchrungsstil folgt diesem Muster: Ro\u00dfmann ist in Themenzentrierter Interaktion (TZI) ausgebildet, einem Konzept zur Arbeit in Gruppen, das soziales Lernen und pers\u00f6nliche Entwicklung f\u00f6rdern soll, und praktiziert t\u00e4glich autogenes Training zur Entspannung. Beides sind Werkzeuge, mit denen die soziale F\u00fcnf ihr System \u2013 hier: das Unternehmen mit seinen Zehntausenden Mitarbeitenden \u2013 bewusst und methodisch steuert, statt es dem Zufall zu \u00fcberlassen. Sein B\u00fcro gilt als schlicht, im Unternehmen herrscht kein Krawattenzwang \u2013 N\u00e4he durch Zug\u00e4nglichkeit, nicht durch Distanzlosigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: \u203aNiemals aufgeben\u2039</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> bringt der sozialen F\u00fcnf ein tiefes Bed\u00fcrfnis nach Verl\u00e4sslichkeit, Loyalit\u00e4t und einem tragf\u00e4higen System, dem man vertrauen kann. 1996 stand Ro\u00dfmann an einem doppelten Abgrund: Er hatte sich privat an der B\u00f6rse verspekuliert, das Unternehmen stand vor der Insolvenz, und im selben Jahr erlitt er einen Herzinfarkt. Statt aufzugeben, schrieb er pers\u00f6nliche Briefe an zwanzig Gl\u00e4ubigerbanken \u2013 siebzehn lie\u00dfen sich \u00fcberzeugen, ihre Kredite zu verl\u00e4ngern. Das Unternehmen \u00fcberlebte.</p>
+          <p class="vb-intro">Sein seither vielzitiertes Credo lautet sinngem\u00e4\u00df, niemals aufzugeben. Das ist der w6-Zug in Reinform: nicht die abenteuerlustige Neuerfindung um jeden Preis, sondern das z\u00e4he Festhalten am tragf\u00e4higen System, das Bem\u00fchen um Vertrauen bei denen, die es einem entgegenbringen. In einem Interview betonte Ro\u00dfmann, wie sehr sein Handeln auf gegenseitigem Vertrauen aufbaue \u2013 eine Aussage, die man sich von einer reinen SO5 ohne Sechserfl\u00fcgel so kaum vorstellen kann, da dort Distanz eher als Schutz vor Verletzlichkeit dient. Die Bodenst\u00e4ndigkeit und Nahbarkeit, mit der Ro\u00dfmann intern wie extern auftritt, ist ebenfalls ein Sechser-Zug: Loyalit\u00e4t nach unten und oben, nicht nur nach au\u00dfen sichtbares Wissen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Oktopus, der \u00fcber sich selbst schreibt, ohne es zu wissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das verbl\u00fcffendste Kapitel in Ro\u00dfmanns Biografie liegt nicht im Handel, sondern in der Literatur. Ab 2020 ver\u00f6ffentlichte er, ab dem zweiten Band gemeinsam mit dem Journalisten Ralf Hoppe, eine \u00d6ko-Thriller-Trilogie mit dem Titel <strong>\u203aDie Oktopus-Reihe\u2039</strong>: <em>Der neunte Arm des Oktopus</em> (2020, Platz eins der Spiegel-Bestsellerliste), <em>Der Zorn des Oktopus</em> (2021) und <em>Das dritte Herz des Oktopus</em> (2023). Alle drei behandeln den Klimawandel als zentrales Thema \u2013 Ro\u00dfmanns erkl\u00e4rtes pers\u00f6nliches Anliegen.</p>
+          <p class="vb-intro">Der Oktopus ist in diesem Kompass die Tierentsprechung genau des Subtyps, den Ro\u00dfmann selbst verk\u00f6rpert: SO5. Er w\u00e4hlte diesen Titel nicht mit Blick auf eine Typologie, die er vermutlich nie zu Gesicht bekommen hat \u2013 und traf trotzdem, dreimal hintereinander, exakt sein eigenes Tiertotem. Noch pr\u00e4ziser wird die Parallele beim dritten Band: <em>Das dritte Herz des Oktopus</em> trifft w\u00f6rtlich eine der Tierfakten-Zeilen, die diesem Kompass f\u00fcr den SO5-Oktopus zugeordnet sind \u2013 \u203aOktopusse haben drei Herzen \u2013 zwei pumpen Blut zu den Kiemen, eines zum restlichen K\u00f6rper. Die SO5 hat mehrere Zentren. Sie operiert auf verschiedenen Ebenen gleichzeitig.\u2039 Ro\u00dfmann, der als Unternehmer, Autor, Stifter und Familienvater tats\u00e4chlich auf mehreren Ebenen gleichzeitig operiert, hat mit seinem Buchtitel unbewusst genau das Bild gew\u00e4hlt, das sein eigenes psychologisches Muster am treffendsten beschreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk jenseits der Regale</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ro\u00dfmann ist Mitbegr\u00fcnder der Deutschen Stiftung Weltbev\u00f6lkerung, die sich auf Sexualaufkl\u00e4rung und Familienplanung konzentriert, mit einem Schwerpunkt in Ostafrika. Auch hier zeigt sich das Totem-Muster der SO5: Wissen \u2013 \u00fcber K\u00f6rper, Verh\u00fctung, Familienplanung \u2013 wird als Gr\u00f6\u00dfe verstanden, die Gemeinschaften strukturell ver\u00e4ndert, wenn man sie zug\u00e4nglich macht. Es ist keine impulsive Wohlt\u00e4tigkeit, sondern ein langfristig angelegtes System, das \u00fcber Jahrzehnte tr\u00e4gt \u2013 genau die Art von Engagement, die dem Sechserfl\u00fcgel Sicherheit gibt.</p>
+          <p class="vb-intro">Auch die Unternehmensnachfolge folgte diesem Muster: Ro\u00dfmann \u00fcbergab die operative F\u00fchrung schrittweise, blieb aber als Gesellschafter und pr\u00e4gende Figur im Hintergrund pr\u00e4sent \u2013 nicht als abrupter R\u00fcckzug, sondern als geordneter \u00dcbergang in einem System, das er selbst \u00fcber Jahrzehnte gebaut hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich die SO5w6 bei Ro\u00dfmann als Systembauer, der sein Wissen nicht horten, sondern in tragf\u00e4hige Strukturen \u00fcbersetzen will \u2013 ein Drogeriemarkt-Konzept, ein F\u00fchrungsstil, eine Stiftung, eine Romantrilogie. \u00dcberall dieselbe Bewegung: erkennen, ordnen, weitergeben, damit es tr\u00e4gt.</p>
+          <p class="vb-intro">Der Schatten der F\u00fcnf ist der <strong>Geiz</strong> \u2013 bei der SO5w6 oft weniger mit Geld als mit Kontrolle: das Bed\u00fcrfnis, das eigene System selbst zu Ende zu denken und zu steuern, auch wenn das bedeutet, Verantwortung erst sp\u00e4t abzugeben. Die Krise von 1996, in der die private B\u00f6rsenspekulation das Unternehmen fast in den Ruin trieb, zeigt, dass auch die SO5 blinde Flecken hat, wenn sie das eigene Systemdenken au\u00dferhalb ihres vertrauten Rahmens \u2013 hier: den Finanzmarkt \u2013 \u00fcbersch\u00e4tzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Oktopus, der weiterschreibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dirk Ro\u00dfmann ist heute weit \u00fcber achtzig und noch immer \u00f6ffentlich pr\u00e4sent \u2013 als pr\u00e4gende Figur im Hintergrund des Unternehmens, als Stifter, als Autor. Sein Weg von der kleinen Drogerie neben dem Bestattungsunternehmen bis zur europ\u00e4ischen Handelskette liest sich wie eine klassische SO5-Biografie: langsamer Aufbau von Wissen und System, das doppelte Beinaheversagen 1996, das den Sechserfl\u00fcgel sichtbar machte, und schlie\u00dflich die sp\u00e4te literarische Wende, in der er \u2013 ohne es zu ahnen \u2013 sein eigenes Tiertotem gleich dreifach zu Papier brachte.</p>
+          <p class="vb-intro">Das ist die soziale F\u00fcnf mit Sechserfl\u00fcgel in ihrer reifsten Form: ein System bauen, das andere tr\u00e4gt. Daran festhalten, wenn es wankt. Und am Ende, ohne es geplant zu haben, selbst zum Bild dessen werden, was man immer war.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
+        {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
       ])}
     </div>
   `);
@@ -131316,6 +131393,7 @@ function render() {
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
       "beruehmte-charles-darwin": charlesDarwinPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
+      "beruehmte-dirk-rossmann": dirkRossmannPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
