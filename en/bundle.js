@@ -1828,7 +1828,11 @@ const BERUEHMT_PORTRAITS = [
 { route:"beruehmte-iga-swiatek", name:"Iga Świątek", added:"2026-07-22", subtyp:"SX9w1",
     heading:"Iga Świątek – Sexual Type 9",
     teaser:"SX9w1 · born 2001. Tennis professional. Roland Garros 2020, 2022, 2023, 2024, US Open 2022. The most dominant player of her era - and the sloth who flies in the flow.",
-    land:"France", tags:["Sports","Tennis"], gender:"f"}
+    land:"France", tags:["Sports","Tennis"], gender:"f"},
+{ route:"beruehmte-arthur-rimbaud", name:"Arthur Rimbaud", added:"2026-08-27", subtyp:"SX4w3",
+    heading:"Arthur Rimbaud – Sexual Type 4",
+    teaser:"SX4w3 · 1854–1891. French poet. At fifteen to twenty wanted to surpass all of French poetry, tempestuous relationship with Paul Verlaine, radical break with writing at twenty-one, then merchant and arms trader in Africa. Animal correspondence: Chihuahua.",
+    land:"France", tags:["Literature"], gender:"m"}
 ];
 
 const ENNEAGRAMM_KUNST = {
@@ -30085,7 +30089,73 @@ function voltairePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-arthur-rimbaud", label:"Portrait: Arthur Rimbaud (SX4w3)"},
         {route:"krankheitsportraets-voltaire", label:"Illness Portrait: Voltaire (SX4w3) – chronic digestive and bladder ailments"},
+      ])}
+    </div>
+  `);
+}
+
+function arthurRimbaudPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-arthur-rimbaud-portrait.jpg" alt="Arthur Rimbaud" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arthur Rimbaud</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">French poet, 1854&ndash;1891 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua From Charleville</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the smallest dog breed in the world &ndash; and behaves like the largest. It knows no distance between what it feels and what it shows: it barks the instant something is wrong, unfiltered, regardless of the size of whoever stands opposite it. Jean-Nicolas-Arthur Rimbaud was born in 1854 in Charleville, a small provincial town in the Ardennes that he experienced his whole life as a mental prison. His father Frédéric, an army officer, was mostly away on postings and eventually left the family entirely when Arthur was six. His mother, strict and authoritarian, ran the household and the five children with iron discipline &ndash; in Rimbaud's early poems she appears again and again as an oppressive, controlling figure.</p>
+          <p class="vb-intro">The Chihuahua, who learned early that affection came with conditions, developed something else instead: an extraordinary academic gift that let him write significant poems at fifteen and sixteen, and an equally extraordinary instinct to flee. He ran away from home repeatedly; when his school closed during the Franco-Prussian War, he seized the opportunity and, at sixteen and entirely on his own, ended up in Paris, where he lived on the streets at times, penniless.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Four: Rivalry as a Radical Break With Convention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> does not carry the Four's pain as quiet longing but as open confrontation &ndash; Naranjo called this subtype <em>Competition</em>, sometimes also <em>Hatred</em>: an intensity defined by directly outdoing, provoking, and radically breaking with what exists, often with a self-destructive edge. Few poets embodied this pattern as uncompromisingly as Rimbaud: at just fifteen to twenty years old, he wanted to surpass and leave behind the whole of French poetry of his time. His ambition was not to join the conversation &ndash; he wanted it so that nothing could be written the same way after him.</p>
+          <p class="vb-intro">He captured this stance in the famous formula <em>"il faut être absolument moderne"</em> &ndash; "one must be absolutely modern" &ndash; which appears in his prose poem <em>Une Saison en Enfer</em> (A Season in Hell, 1873). It is not a programmatic piece of advice but a battle cry: a break with everything that came before, as both an end in itself and proof of itself. Rimbaud deliberately sought scandal &ndash; provocative appearances in literary Paris, wounding remarks against established poets, a manner calculated to offend. The SX4 does not measure itself against an inner standard but in direct duel &ndash; and Rimbaud fought that duel against the entire French literary tradition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Drive Toward a Visible Revolution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the sexual Four the ambition not merely to feel its own fire but to stage it for public effect. Rimbaud did not want to write in obscurity &ndash; he wanted to be seen, read, recognized, and not eventually but immediately. At sixteen he sent the established poet Paul Verlaine a letter along with his poem <em>Le Bateau ivre</em> (The Drunken Boat) &ndash; a calculated gesture that hit its mark exactly: Verlaine was so impressed that he invited the young Rimbaud to Paris, into his own home.</p>
+          <p class="vb-intro">The Three-wing also shows in how deliberately Rimbaud shaped his own image &ndash; as the enfant terrible, the genius who does not know the rules because he stands above them. Works such as <em>Illuminations</em>, a collection of visionary prose poems, became foundational texts of literary modernism, far beyond his own lifetime &ndash; Rimbaud counted on impact, even though he did not live to see the full recognition himself, since much of the work was published only posthumously. The Three-wing's ambition needs an audience, and Rimbaud found one by provoking it rather than courting it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Relationship With Verlaine: A Fire That Consumed Itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Between 1871 and 1873, Rimbaud and Verlaine carried on a stormy, publicly scandalous relationship that destroyed Verlaine's marriage and took both men through Belgium and England. It was no calm bond: quarrels, jealousy, and violence were part of it as much as intense shared creative stretches. In July 1873, the relationship finally escalated &ndash; a drunk, desperate Verlaine shot Rimbaud in Brussels and wounded him in the wrist. Verlaine was subsequently sentenced to two years in prison.</p>
+          <p class="vb-intro">This relationship bears the signature of the SX4 in pure form: an intensity that knows no boundary, a love inseparable from destruction. The sexual Four does not seek the manageable bond but the fusion that stakes everything on one hand &ndash; and it was exactly this that became the trigger for his greatest literary work. <em>Une Saison en Enfer</em> was written directly in the aftermath of this catastrophe, as an attempt to press his own failure into language.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX4w3 shows in Rimbaud's ability to anticipate the entire development of modern poetry with a handful of poems written between the ages of fifteen and twenty &ndash; Surrealists, Symbolists, and Existentialists alike later claimed him as a forerunner. Scarcely any poet has achieved so great an impact with so little time spent actually writing.</p>
+          <p class="vb-intro">The shadow lies in the same intensity that knows no rest: Rimbaud's relationships &ndash; with Verlaine, with his mother, with the literary circles of Paris &ndash; were almost without exception marked by conflict. The SX4 with a strong Three-wing can seek recognition and destroy it in the same breath, because the rivalry that drives it also poisons the closeness it actually longs for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Radical Break: From Poet to Merchant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1875, at only twenty-one, Rimbaud abruptly stopped writing. Not a slow fading, not a gradual withdrawal &ndash; a complete, final break with his own former identity. He traveled through Europe, briefly served in the Dutch colonial army, and eventually settled as a merchant in Aden (Yemen) and in Harar (Ethiopia), where he traded, among other things, in coffee and at times in arms. He barely mentioned poetry in his letters from Africa &ndash; as if it were a closed chapter that no longer concerned him.</p>
+          <p class="vb-intro">This break is itself an expression of the SX4w3: once the rivalry with the old role is exhausted, the role is not modified or developed further but radically discarded, so that an equally uncompromising new identity can be built. In 1891, Rimbaud returned to France gravely ill: a knee tumor, presumed to be an osteosarcoma, made the amputation of his right leg necessary. A few months later, on November 10, 1891, he died at thirty-seven in Marseille &ndash; a life reinvented completely, twice over, within the span of a few years.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
       ])}
     </div>
   `);
@@ -95287,6 +95357,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-marlene-zuk": marleneZukPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
+      "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
