@@ -71315,29 +71315,6 @@ function enneagrammHandanalysePage() {
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Von der kühlen Analyse-Hand der Fünf bis zur dramatischen Tiefen-Hand der Vier: Neun Handtypen als Spiegelbild der neun Enneagrammtypen.</p>
         </div>
 
-        <div style="margin:0 0 1.4rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);background:var(--ivory);padding:0.8rem;">
-          <svg viewBox="0 0 600 560" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" role="img" aria-label="Schaubild der vier wichtigsten Handlinien: Lebenslinie, Kopflinie, Herzlinie und Schicksalslinie">
-            <rect x="180" y="260" width="240" height="220" rx="55" fill="none" stroke="var(--ink)" stroke-width="3"/>
-            <g transform="rotate(-38 195 320)"><rect x="140" y="270" width="140" height="55" rx="27" fill="none" stroke="var(--ink)" stroke-width="3"/></g>
-            <rect x="195" y="150" width="42" height="112" rx="21" fill="none" stroke="var(--ink)" stroke-width="3"/>
-            <rect x="248" y="90"  width="42" height="172" rx="21" fill="none" stroke="var(--ink)" stroke-width="3"/>
-            <rect x="301" y="108" width="42" height="154" rx="21" fill="none" stroke="var(--ink)" stroke-width="3"/>
-            <rect x="354" y="168" width="42" height="94"  rx="21" fill="none" stroke="var(--ink)" stroke-width="3"/>
-            <path d="M 218 275 C 190 320, 185 400, 215 468" fill="none" stroke="#7a9e5a" stroke-width="5" stroke-linecap="round"/>
-            <path d="M 216 288 C 260 330, 330 345, 398 345" fill="none" stroke="#4a6e9e" stroke-width="5" stroke-linecap="round"/>
-            <path d="M 400 292 C 330 268, 290 268, 252 270" fill="none" stroke="#9e4a5a" stroke-width="5" stroke-linecap="round"/>
-            <path d="M 300 470 L 300 268" fill="none" stroke="#8a7a4a" stroke-width="4" stroke-linecap="round"/>
-            <line x1="252" y1="270" x2="452" y2="150" stroke="#9e4a5a" stroke-width="1.5"/>
-            <text x="458" y="146" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#9e4a5a">Herzlinie</text>
-            <line x1="398" y1="345" x2="480" y2="365" stroke="#4a6e9e" stroke-width="1.5"/>
-            <text x="486" y="372" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#4a6e9e">Kopflinie</text>
-            <line x1="196" y1="410" x2="70" y2="440" stroke="#7a9e5a" stroke-width="1.5"/>
-            <text x="20" y="465" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#7a9e5a">Lebenslinie</text>
-            <line x1="300" y1="440" x2="420" y2="495" stroke="#8a7a4a" stroke-width="1.5"/>
-            <text x="345" y="520" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#8a7a4a">Schicksalslinie</text>
-          </svg>
-          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0.6rem 0 0;">Schaubild der vier wichtigsten Handlinien – Lebenslinie um den Daumenballen, Kopflinie und Herzlinie als Querlinien, Schicksalslinie senkrecht durch die Handmitte.</p>
-        </div>
 
         <div class="vb-section" style="max-width:100%;margin-bottom:2rem;">
           <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Die Handlinien im Überblick</h2>
