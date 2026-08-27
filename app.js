@@ -15876,6 +15876,7 @@ const uiText = {
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "enneagramm-odyssee", label: "Enneagramm meets Odyssee" },
       { route: "enneagramm-wohnraumarchitektur", label: "Enneagramm meets Wohnraumarchitektur" },
+      { route: "enneagramm-zimmerpflanzen", label: "Enneagramm meets Zimmerpflanzen" },
       { route: "enneagramm-kunst", label: "Enneagramm-Kunstgalerie" },
       { route: "enneagramm-filme", label: "Enneagramm-Filmempfehlungen" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
@@ -71463,6 +71464,122 @@ function enneagrammWohnraumarchitekturPage() {
   `);
 }
 
+function enneagrammZimmerpflanzenPage() {
+  const PFLANZEN_ZENTREN = [
+    {
+      zentrum: "Das Kopf-Zentrum (Typ 5, 6, 7): Licht, Struktur und bewusste Grenzen",
+      intro: "Menschen aus dem Kopf-Zentrum leben im Verstand. Ihre Pflanzen sollten entweder extrem pflegeleicht sein (um keine mentale Zusatzlast zu erzeugen), Stabilit\u00e4t ausstrahlen oder dem Drang nach Abwechslung Raum geben.",
+      typen: [
+        { typ: 5, titel: "Der Beobachter \u2013 Die Sansevieria (Bogenhanf)", punkte: [
+          "Der Bogenhanf ist minimalistisch, extrem gen\u00fcgsam, braucht kaum Wasser und steht f\u00fcr klare, aufrechte Linien. Er gibt im Hintergrund verl\u00e4sslich Sauerstoff ab, ohne sich in den Vordergrund zu dr\u00e4ngen.",
+          "Die F\u00fcnf sch\u00e4tzt es, wenn Dinge unkompliziert sind und ihren intellektuellen R\u00fcckzugsort nicht belasten. Der Bogenhanf verzeiht es, wenn man ihn tagelang vergisst \u2013 genau wie die F\u00fcnf in ihren Gedankenwelten versinkt.",
+        ]},
+        { typ: 6, titel: "Der Loyale \u2013 Der robuste Gummibaum (Ficus elastica)", punkte: [
+          "Mit seinen dicken, ledrigen Bl\u00e4ttern und dem kr\u00e4ftigen Stamm strahlt der Gummibaum absolute Verl\u00e4sslichkeit und Verwurzelung aus. Er ist z\u00e4h und \u00fcbersteht auch widrigere Phasen.",
+          "Die sicherheitsorientierte Sechs braucht Pflanzen, die nicht sofort bei jedem Pflegefehler die Bl\u00e4tter h\u00e4ngen lassen. Der Gummibaum bietet einen stabilen, sch\u00fctzenden Anker im Raum und symbolisiert Halt und Loyalit\u00e4t.",
+        ]},
+        { typ: 7, titel: "Der Enthusiast \u2013 Die Monstera Deliciosa (Fensterblatt)", punkte: [
+          "Die Monstera w\u00e4chst rasant, ist exotisch, f\u00e4llt durch ihre gro\u00dfen, geschlitzten Bl\u00e4tter auf und liebt das Licht. Sie bringt Dschungel-Feeling und Fernweh in die Wohnung.",
+          "Die freiheitsliebende Sieben braucht optische Dynamik und Abwechslung. Die Monstera w\u00e4chst unaufhaltsam in alle Richtungen und spiegelt den experimentierfreudigen, optimistischen und lebendigen Geist der Sieben wider.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "Das Bauch-Zentrum (Typ 8, 9, 1): Erdung, Sanftheit und klare Form",
+      intro: "Das instinktgetriebene Bauch-Zentrum ringt mit Kontrolle, Pr\u00e4senz und innerem Frieden. Die passenden Pflanzen reichen von markanten Kraftpaketen bis hin zu harmonisierenden Begleitern.",
+      typen: [
+        { typ: 8, titel: "Der Herausforderer \u2013 Die Yucca-Palme oder der Kaktus", punkte: [
+          "Dicke, holzige St\u00e4mme, harte Bl\u00e4tter oder wehrhafte Dornen. Diese Pflanzen strahlen pure Ur-Kraft, Widerstandsf\u00e4higkeit und eine nat\u00fcrliche H\u00e4rte aus. Die Acht braucht keine weichen, verletzlichen Gew\u00e4chse.",
+          "Eine Yucca oder ein robuster Kaktus unterstreicht die starke, unerschrockene Pr\u00e4senz im Raum. Sie signalisieren klare Grenzen: \u203aHier stehe ich, und ich lasse mich nicht so schnell umwerfen.\u2039",
+        ]},
+        { typ: 9, titel: "Der Vermittler \u2013 Das Einblatt (Spathiphyllum)", punkte: [
+          "Sanfte, geschwungene gr\u00fcne Bl\u00e4tter und rein wei\u00dfe Bl\u00fcten. Das Einblatt gilt im Feng Shui als absoluter Harmonie- und Friedensbringer, der sanft das Raumklima reinigt. Die Neun sehnt sich nach Seelenfrieden und dem Ausgleich von Spannungen \u2013 das Einblatt verstr\u00f6mt eine weiche, beruhigende Energie.",
+          "Einziger \u203aTest\u2039 f\u00fcr die Neun: Es zeigt recht schnell durch h\u00e4ngende Bl\u00e4tter, wenn es Durst hat \u2013 ein sanfter Weckruf, achtsam zu bleiben.",
+        ]},
+        { typ: 1, titel: "Der Perfektionist \u2013 Der Gl\u00fccksbambus oder symmetrische Sukkulenten", punkte: [
+          "Exakte geometrische Formen, gerade St\u00e4ngel, klare Struktur, absolut aufger\u00e4umtes Erscheinungsbild ohne wildes, wucherndes Chaos. Die Eins liebt Ordnung und Prinzipien.",
+          "Eine Pflanze, die schnurgerade w\u00e4chst und bei der jedes Blatt seinen logischen Platz hat, beruhigt den inneren Kritiker und schenkt das beruhigende Gef\u00fchl von Kontrolle und \u00c4sthetik.",
+        ]},
+      ]
+    },
+    {
+      zentrum: "Das Herz-Zentrum (Typ 2, 3, 4): Ausdruck, B\u00fchne und emotionale Tiefe",
+      intro: "Im Herzzentrum dreht sich alles um Image, Beziehungen und tiefe Gef\u00fchlswelten. Die Pflanzen dieser Typen sind auff\u00e4llig, emotional aufgeladen oder brauchen intensive Zuwendung.",
+      typen: [
+        { typ: 2, titel: "Der Helfer \u2013 Das Herzblatt-Philodendron (Philodendron scandens)", punkte: [
+          "Die Bl\u00e4tter haben die Form von perfekten kleinen Herzen. Die Pflanze w\u00e4chst \u00fcppig, rankt sich liebevoll um Ecken und dankt jede Zuwendung mit sattem, schnellem Wachstum.",
+          "Die Zwei gibt gerne Liebe und F\u00fcrsorge. Sich um eine Pflanze zu k\u00fcmmern, deren Bl\u00e4tter buchst\u00e4blich kleine Herzen formen, entspricht ihrem Bed\u00fcrfnis, R\u00e4ume mit Herzensw\u00e4rme und Verbundenheit zu f\u00fcllen.",
+        ]},
+        { typ: 3, titel: "Der Erfolgreiche \u2013 Die Orchidee (Phalaenopsis)", punkte: [
+          "Edle, skulpturale Eleganz, makellose Bl\u00fcten in perfekten Farben. Die Orchidee sieht aus wie ein Designer-Objekt, verlangt aber ein feines Gesp\u00fcr f\u00fcr den richtigen Standort und die passende Pflege.",
+          "Die Drei will gl\u00e4nzen und legt Wert auf Status und \u00c4sthetik. Eine pr\u00e4chtige Orchidee im Wohnzimmer ist die perfekte, repr\u00e4sentative Visitenkarte f\u00fcr den eigenen Erfolg und das Gesp\u00fcr f\u00fcr Stil.",
+        ]},
+        { typ: 4, titel: "Der Individualist \u2013 Die Alocasia (Elefantenohr) oder die Schwarze Katzentreppe", punkte: [
+          "Dramatische, fast schon avantgardistische Bl\u00e4tter mit auff\u00e4lligen Adern, manchmal in tiefem Dunkelgr\u00fcn bis Schwarz-Violett. Sie sind etwas z\u00f6gerlicher in der Pflege und verlangen einen Hauch von Hingabe.",
+          "Die Vier sucht das Einzigartige, das Melancholische und das Kunstvolle. Eine Alocasia ist keine gew\u00f6hnliche 08/15-Blume, sondern ein echtes Statement mit Charakter, Tiefe und einer Prise Exzentrik.",
+        ]},
+      ]
+    },
+  ];
+
+  function pflanzeBlock(t) {
+    const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[t.typ] : null) || 'var(--copper)';
+    return `<div style="border-left:3px solid ${col};padding-left:1.1rem;margin-bottom:1.2rem;">
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.4rem;">Typ ${t.typ}</div>
+      <h3 style="font-size:1.02rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">${t.titel}</h3>
+      <ul style="margin:0;padding-left:1.2rem;font-size:0.92rem;line-height:1.7;color:var(--ink);">
+        ${t.punkte.map(p => `<li style="margin-bottom:0.5rem;">${p}</li>`).join('')}
+      </ul>
+    </div>`;
+  }
+
+  function pflanzenZentrumBlock(z, i) {
+    return `<div class="vb-section" style="max-width:100%;margin-top:${i === 0 ? '0' : '2rem'};">
+      <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">${i + 1}. ${z.zentrum}</h2>
+      <p class="vb-intro" style="margin-bottom:1.2rem;">${z.intro}</p>
+      ${z.typen.map(pflanzeBlock).join('')}
+    </div>`;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-zimmerpflanzen')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen \u00b7 Pflanzenpsychologie</p>
+        <h1 class="section-title">Enneagramm meets Zimmerpflanzen</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Gr\u00fcn f\u00fcr die Seele: Die 9 Enneagrammtypen und ihre perfekten Seelen-Pflanzen</h2>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Schon beim Betreten einer Wohnung verr\u00e4t oft die erste Pflanze auf der Fensterbank mehr \u00fcber die Bewohnerin oder den Bewohner, als so manches Gespr\u00e4ch es k\u00f6nnte \u2013 der gen\u00fcgsame Bogenhanf im Regal erz\u00e4hlt eine andere Geschichte als die pr\u00e4chtige Orchidee auf dem Esstisch oder die wuchernde Monstera im Erkerfenster. Pflanzen sind stille Mitbewohner, und wie bei jedem Mitbewohner-Verh\u00e4ltnis entscheidet die Chemie zwischen Mensch und Gew\u00e4chs dar\u00fcber, ob daraus eine dauerhafte Beziehung wird oder ein rasch verwelktes Kapitel.</p>
+          <p class="vb-intro">Nach der Betrachtung von Wohnr\u00e4umen und Feng Shui im vorigen Kapitel dieses Wissensbereichs lohnt sich der Blick auf eine kleinere, aber nicht minder aufschlussreiche Ebene: die einzelne Pflanze selbst. Jede Pflanze bringt eine ganz eigene Energie, Wachstumsform und Widerstandskraft mit \u2013 von der robusten Sukkulente bis zur zarten, anspruchsvollen Orchidee spiegelt die botanische Welt nahezu jede Facette menschlicher Charaktere wider. Verkn\u00fcpfen wir das Enneagramm \u2013 das tiefenpsychologische Modell der neun Pers\u00f6nlichkeitstypen \u2013 mit der Welt der Zimmerpflanzen, entsteht ein faszinierender Spiegel unserer inneren Bed\u00fcrfnisse.</p>
+          <p class="vb-intro">Welche Pflanze passt zur eigenen Struktur? Welche Art von Pflege und Energie entspricht dem eigenen Wesenskern? Eine Betrachtung der neun Typen durch die gr\u00fcne Brille der Botanik.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/portraits/enneagramm-zimmerpflanzen-de.jpeg" alt="Enneagramm & Zimmerpflanzen \u2013 die drei Zentren und ihre botanischen Seelen-Entsprechungen" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Von der gen\u00fcgsamen Sansevieria bis zur dramatischen Alocasia: Neun Zimmerpflanzen als botanisches Spiegelbild der neun Enneagrammtypen.</p>
+        </div>
+
+        ${PFLANZEN_ZENTREN.map(pflanzenZentrumBlock).join('')}
+
+        <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">Fazit: Das botanische Spiegelbild</h2>
+          <p class="vb-intro">Ob die gen\u00fcgsame Sansevieria der F\u00fcnf, die herzf\u00f6rmige Ranke der Zwei oder die dramatische Alocasia der Vier \u2013 unsere Zimmerpflanzen sind mehr als gr\u00fcne Dekoration. Sie sind lebendige Gef\u00e4hrten, die uns unbewusst genau die Energie spiegeln, die wir in unserem Alltag suchen oder kultivieren wollen.</p>
+          <p class="vb-intro" style="margin-bottom:0;">Wer seine Seelen-Pflanze pflegt, tut letztlich immer auch etwas Gutes f\u00fcr das eigene innere Wachstum.</p>
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("archetypen-der-tiere-im-enneagramm", "Wenn Tiere zu Spiegeln der Seele werden \u2013 die archetypische Methode, die sich hier auf die Pflanzenwelt \u00fcbertragen l\u00e4sst.", "Archetypen der Tiere im Enneagramm")}
+        ${relatedLinks([
+          {route:"baumarten", label:"Baumarten der 9 Typen"},
+          {route:"enneagramm-wohnraumarchitektur", label:"Enneagramm meets Wohnraumarchitektur"},
+          {route:"enneagramm-kunst", label:"Enneagramm-Kunstgalerie"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function persoenlichkeitsmodelleVergleichPage() {
   const MODELLE = [
     {
@@ -111895,6 +112012,7 @@ function baumartenPage() {
         {route:"affenarten", label:"Affenarten der Typen"},
         {route:"berge-der-9-typen", label:"Berge der 9 Typen"},
         {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
+        {route:"enneagramm-zimmerpflanzen", label:"Enneagramm meets Zimmerpflanzen"},
       ])}
     </div>
   `);
@@ -131723,6 +131841,7 @@ function render() {
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "enneagramm-odyssee": enneagrammOdysseePage,
       "enneagramm-wohnraumarchitektur": enneagrammWohnraumarchitekturPage,
+      "enneagramm-zimmerpflanzen": enneagrammZimmerpflanzenPage,
       "enneagramm-reflexzonentherapie": enneagrammReflexzonentherapiePage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
