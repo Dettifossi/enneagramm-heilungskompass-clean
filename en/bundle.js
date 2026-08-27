@@ -294,7 +294,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexual Type 3", krankheit:"Endometriosis since the early 1980s, later cancer", teaser:"SX3w4 – singer, songwriter, 1946–2026. Endometriosis diagnosed in the early 1980s with a partial hysterectomy in 1985, decades of recurring health crises. Died on August 25, 2026, following a brief battle with cancer. Connected to Marilyn Monroe (also SX3w4, also endometriosis)." , land:"USA", gender:"f", jahre:"1946–2026"},
   { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Social Type 4", krankheit:"Kidney surgery, escalating alcohol and pill dependency, unresolved death", teaser:"SO4w3 – actress, 1938–1982. Severe kidney operation, suicide of her first husband Harry Meyen in 1979, fatal accident of her son David in 1981. Died on May 29, 1982, officially of heart failure, no autopsy performed. Connected to Michael Jackson (also SO4w3, also substance dependency behind a flawless façade)." , land:"Austria/Germany", gender:"f", jahre:"1938–1982"},
-  { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Self-Preservation Type 2", krankheit:"Hallucinations and depersonalization since childhood, voluntarily in a psychiatric hospital since 1977", teaser:"SP2w3 – Japanese artist, born 1929. Hallucinations since early childhood, several suicide attempts in the 1970s, voluntarily admitted to Tokyo's Seiwa Hospital for the mentally ill since 1977. Still works daily in her studio today. Connected to Frida Kahlo (also SP2w3, also art born from lifelong suffering)." , land:"Japan", gender:"f", jahre:"born 1929"},
+  { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Self-Preservation Type 2", krankheit:"Hallucinations and depersonalization since childhood, voluntarily in a psychiatric hospital since 1977", teaser:"SP2w3 – Japanese artist, 1929–2026. Hallucinations since early childhood, several suicide attempts in the 1970s, voluntarily admitted to Tokyo's Seiwa Hospital for the mentally ill since 1977. Worked in her studio almost daily until near the end. Connected to Frida Kahlo (also SP2w3, also art born from lifelong suffering)." , land:"Japan", gender:"f", jahre:"1929–2026"},
   { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexual Type 6", krankheit:"Severe traumatic brain injury after 2013 skiing accident, since then a total media blackout", teaser:"SX6w7 – Formula 1 racing driver, seven-time world champion, born 1969. Skiing accident on December 29, 2013, in Méribel with a severe traumatic brain injury, several emergency surgeries, months in a medically induced coma. Since his 2014 discharge, the family has kept his health condition entirely private." , land:"Germany", gender:"m", jahre:"born 1969"},
   { route:"krankheitsportraets-klaus-kinski", name:"Klaus Kinski", subtyp:"SX1w9", heading:"Klaus Kinski – Sexual Type 1", krankheit:"Involuntary psychiatric commitment in 1950 with a preliminary schizophrenia diagnosis, lifelong rage outbursts", teaser:"SX1w9 – actor, 1926–1991. Involuntary commitment on September 5, 1950, following a suicide attempt and a violent outburst, preliminary diagnosis of schizophrenia, later revised to psychopathy. Legendary outbursts on set across decades, 2013 posthumous abuse allegations from his daughter Pola." , land:"Germany", gender:"m", jahre:"1926–1991"},
   { route:"krankheitsportraets-natascha-kampusch", name:"Natascha Kampusch", subtyp:"SE2w1", heading:"Natascha Kampusch – Self-Preservation Type 2", krankheit:"Post-traumatic stress disorder, severe psychological breakdown twenty years after liberation", teaser:"SP2w1 – author and activist, born 1988. Post-traumatic stress disorder following eight years of captivity (1998–2006), severe psychological breakdown made public by her family in 2026. Connected to Greta Thunberg (also SP2w1, also retreat into a world of her own under extreme pressure)." , land:"Austria", gender:"f", jahre:"born 1988"},
@@ -619,7 +619,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland", tags:["Schauspiel","Musik"], gender:"m"},
 { route:"beruehmte-yayoi-kusama", name:"Yayoi Kusama", added:"2026-08-14", subtyp:"SE2w3",
     heading:"Yayoi Kusama – Self-Preservation Type 2",
-    teaser:"SP2w3 · b. 1929 in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Voluntarily living in a Tokyo psychiatric hospital since 1977, working daily in her studio. Animal correspondence: Hippopotamus.",
+    teaser:"SP2w3 · 1929–2026, born in Matsumoto, Japan. Artist, Infinity Mirror Rooms, dot patterns as life-saving self-obliteration. Lived voluntarily in a Tokyo psychiatric hospital from 1977, working in her studio almost daily until near the end. Animal correspondence: Hippopotamus.",
     land:"Japan", tags:["Art"], gender:"f"},
 { route:"beruehmte-frida-kahlo", name:"Frida Kahlo", added:"2026-08-15", subtyp:"SE2w3",
     heading:"Frida Kahlo – Self-Preservation Type 2",
@@ -27456,7 +27456,7 @@ function yayoiKusamaPortraitPage() {
         </div>
         <p class="krim-portrait-name">Yayoi Kusama</p>
         <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
-        <p class="krim-portrait-subtitle">Artist, born 1929 in Matsumoto, Japan &ndash; Animal correspondence: Hippopotamus</p>
+        <p class="krim-portrait-subtitle">Artist, 1929&ndash;2026, born in Matsumoto, Japan &ndash; Animal correspondence: Hippopotamus</p>
       </div>
       <div class="page-content">
 
@@ -27480,20 +27480,20 @@ function yayoiKusamaPortraitPage() {
 
         <h2 class="vb-section">4. The Work: Infinity as Invitation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kusama's most famous works, the walk-in <em>Infinity Mirror Rooms</em>, invite visitors to immerse themselves for a few minutes in exactly the experience of dissolution that has accompanied Kusama her entire life &ndash; mirrored, endless points of light that blur the boundary between one's own body and the space around it. Millions of people worldwide have visited these installations; she is today among the most-visited living artists in the world.</p>
+          <p class="vb-intro">Kusama's most famous works, the walk-in <em>Infinity Mirror Rooms</em>, invite visitors to immerse themselves for a few minutes in exactly the experience of dissolution that has accompanied Kusama her entire life &ndash; mirrored, endless points of light that blur the boundary between one's own body and the space around it. Millions of people worldwide have visited these installations; she was among the most-visited artists in the world.</p>
           <p class="vb-intro">Success came late: only from the 1990s onward, after decades of relative invisibility in the art world, was her work rediscovered and celebrated internationally &ndash; with retrospectives at the world's most important museums and collaborations such as with Louis Vuitton. The Hippopotamus, underestimated for decades, until no one could doubt its power any longer.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP2w3 is its ability to create, out of existential hardship, something that not only saves itself but touches millions of others. Kusama's art gives shape to her own inner chaos &ndash; and turns that shape into a gift that invites other people into the very state of awe and dissolution she herself has lived through.</p>
-          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable, necessary, needed, through one's own achievement. In 1973 Kusama returned from New York to Japan, physically and psychologically exhausted, after several suicide attempts. In 1977 she voluntarily admitted herself to a psychiatric hospital in Tokyo &ndash; where she still lives today, well into her nineties, while walking daily to her nearby studio to work. This is the SP2w3 in its most radical form: a woman who never denies her own fragility, but who has deliberately placed herself within a protective structure &ndash; and who, within that structure, keeps creating tirelessly.</p>
+          <p class="vb-intro">The fate pattern of the Two is <strong>pride</strong> &ndash; the conviction of being indispensable, necessary, needed, through one's own achievement. In 1973 Kusama returned from New York to Japan, physically and psychologically exhausted, after several suicide attempts. In 1977 she voluntarily admitted herself to a psychiatric hospital in Tokyo &ndash; where she lived until her death in August 2026 at the age of 97, walking to her nearby studio to work almost daily until near the end. This is the SP2w3 in its most radical form: a woman who never denies her own fragility, but who has deliberately placed herself within a protective structure &ndash; and who, within that structure, keeps creating tirelessly.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Path of Healing: From Dissolution to Connection</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Two leads from the question <em>Am I needed?</em> to the recognition <em>I am already connected, even without dissolving myself.</em> For the SP2w3, this path shows in the fact that what was once a private, survival-necessary self-obliteration becomes a deliberately shared, public experience &ndash; no longer a flight from her own fragility, but a gift born out of it.</p>
-          <p class="vb-intro">To this day, in extreme old age, Kusama creates new works daily &ndash; no longer only to save herself from dissolution, but because she has learned to translate her deepest vulnerability into a universal language that people around the world understand. The Hippopotamus that never left its water &ndash; and that, precisely through this, became one of the most influential voices in contemporary art.</p>
+          <p class="vb-intro">Into extreme old age, Kusama created new works almost daily &ndash; no longer only to save herself from dissolution, but because she had learned to translate her deepest vulnerability into a universal language that people around the world understand. Kusama died on August 26, 2026, at the age of 97, in Tokyo. The Hippopotamus that never left its water &ndash; and that, precisely through this, became one of the most influential voices in contemporary art.</p>
         </blockquote>
 
       </div>
@@ -54792,7 +54792,7 @@ function yayoiKusamaKrankheitsportraetPage() {
           <img src="../assets/portraits/beruehmte-yayoi-kusama-portrait.jpg" alt="Yayoi Kusama" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Yayoi Kusama</p>
-        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing · born 1929</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing · 1929–2026</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Hippopotamus</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
@@ -54807,7 +54807,8 @@ function yayoiKusamaKrankheitsportraetPage() {
         a brief mention of her life in a psychiatric hospital. This page delves deeper into
         that chapter: a psychiatric condition present since early childhood involving
         hallucinations and depersonalization, a difficult upbringing, several suicide attempts,
-        and a life in a psychiatric hospital that continues to this day, since 1977.
+        and a life in a psychiatric hospital, since 1977, that continued until her death in
+        August 2026.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
@@ -54816,7 +54817,7 @@ function yayoiKusamaKrankheitsportraetPage() {
         first; the Three-wing adds an unconditional will to become visible through one's own
         distress and to achieve something from it. Exactly this combination – not hiding one's
         own psychiatric illness, but making it the foundation of a world-renowned body of work
-        – continues to define her relationship to her own condition to this day.</p>
+        – continued to define her relationship to her own condition until the end.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -54870,12 +54871,13 @@ function yayoiKusamaKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
         <p class="vb-intro"><strong>a) Nearly fifty years of voluntary inpatient care:</strong>
-        Kusama, now well over ninety, still lives in the same psychiatric hospital today – one
-        of the longest known voluntary psychiatric stays of an internationally recognized
-        artistic figure.</p>
+        Kusama lived in the same psychiatric hospital until her death in August 2026, at the
+        age of 97 – one of the longest known voluntary psychiatric stays of an internationally
+        recognized artistic figure.</p>
         <p class="vb-intro"><strong>b) Daily work despite and alongside the illness:</strong>
-        From the hospital, Kusama walks daily to her nearby studio to work – the illness did
-        not end her creative output, but became its structuring framework.</p>
+        From the hospital, Kusama walked to her nearby studio to work almost daily until near
+        the end – the illness never ended her creative output, but became its structuring
+        framework.</p>
         <p class="vb-intro"><strong>c) Open engagement instead of concealment:</strong>
         Unlike many other portraits in this Compass, Kusama's case shows a person who did not
         hide her psychiatric illness for decades, but named it publicly and explicitly
@@ -54943,10 +54945,12 @@ function yayoiKusamaKrankheitsportraetPage() {
         <p class="vb-intro" style="margin-bottom:0;">
         <strong>Kusama's</strong> Self-Preservation Two with a Three-wing, too, can be read
         once more through her illness history: a psychiatric condition present since
-        childhood that she neither hid nor let destroy her, but transformed into a daily,
-        world-successful body of work. The hippopotamus that never left its water – and, in
-        nearly fifty years of voluntary inpatient care, became one of the most influential
-        voices in contemporary art precisely because of it.</p>
+        childhood that she neither hid nor let destroy her, but transformed into a body of
+        work she kept building almost until the end. Kusama died on August 26, 2026, at the
+        age of 97 – nearly fifty years after her voluntary admission, in the same hospital from
+        which she walked to her studio until near the end. The hippopotamus that never left its
+        water – and, precisely because of it, became one of the most influential voices in
+        contemporary art.</p>
       </div>
 
       ${relatedLinks([
