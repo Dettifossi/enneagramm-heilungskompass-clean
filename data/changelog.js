@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v1539", date: "2026-08-27", text: "Neues Porträt bei den Berühmten Persönlichkeiten: Dirk Rossmann (SO5w6) – Gründer der Drogeriemarktkette ROSSMANN. Tierentsprechung: Oktopus – seine Öko-Thriller-Trilogie 'Die Oktopus-Reihe' trifft unwissentlich exakt sein eigenes Enneagramm-Tiertotem.", text_en: "New portrait under Famous Personalities: Dirk Rossmann (SO5w6) – founder of the ROSSMANN drugstore chain. Animal correspondence: Octopus – his eco-thriller trilogy 'Die Oktopus-Reihe' unknowingly matches his own Enneagram animal totem exactly.", route: "beruehmte-dirk-rossmann" },
     { version: "v1538", date: "2026-08-26", text: "Neues Krankheitsporträt: Mr. T (SE2w3) – seltenes T-Zell-Lymphom, diagnostiziert 1995, behandelt mit Bestrahlung und Chemotherapie, mehrjähriger Rückzug aus der Öffentlichkeit. Verknüpft mit dem bestehenden Porträt zu Mr. Ts Lebenswerk und mit Frida Kahlo (ebenfalls SE2w3).", text_en: "New illness portrait: Mr. T (SP2w3) – rare T-cell lymphoma, diagnosed in 1995, treated with radiation and chemotherapy, followed by a multi-year withdrawal from public life. Connected to the existing portrait on Mr. T's life's work and to Frida Kahlo (also SP2w3).", route: "krankheitsportraets-mr-t" },
     { version: "v1536", date: "2026-08-26", text: "Neues Krankheitsporträt: Natascha Kampusch (SE2w1) – posttraumatische Belastungsstörung nach achtjähriger Gefangenschaft und ein schwerer psychischer Zusammenbruch, den ihre Familie zwanzig Jahre nach ihrer Befreiung öffentlich machte.", text_en: "New illness portrait: Natascha Kampusch (SP2w1) – post-traumatic stress disorder after eight years of captivity, and a severe psychological breakdown her family made public twenty years after her liberation.", route: "krankheitsportraets-natascha-kampusch" },
     { version: "v1535", date: "2026-08-26", text: "Neues Krankheitsporträt: Klaus Kinski (SX1w9) – psychiatrische Zwangseinweisung 1950 mit vorläufiger Schizophrenie-Diagnose nach Suizidversuch und Gewaltausbruch, lebenslange Wutausbrüche am Set, 2013 posthume Missbrauchsvorwürfe seiner Tochter Pola.", text_en: "New illness portrait: Klaus Kinski (SX1w9) – involuntary psychiatric commitment in 1950 with a preliminary schizophrenia diagnosis after a suicide attempt and violent outburst, lifelong rage outbursts on set, and posthumous abuse allegations from his daughter Pola in 2013.", route: "krankheitsportraets-klaus-kinski" },
@@ -884,11 +885,5 @@ var CHANGELOG = [
     date: "2026-07-19",
     text: "Übersetzen-Funktion für Rezensionen eingeführt",
     text_en: "Translation feature added for reviews"
-  },
-  {
-    date: "2026-08-27",
-    text: "Neues Porträt: Dirk Rossmann (SO5w6) – Drogeriemarkt-Gründer, dessen Öko-Thriller-Trilogie unwissentlich sein eigenes Tiertotem trifft",
-    text_en: "New portrait: Dirk Rossmann (SO5w6) – drugstore chain founder whose eco-thriller trilogy unknowingly matches his own animal totem",
-    route: "beruehmte-dirk-rossmann"
   }
 ];
