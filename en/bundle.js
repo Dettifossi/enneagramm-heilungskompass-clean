@@ -45183,7 +45183,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -45193,7 +45193,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
         beschreibung: "The delicate, sensitive appearance is deceptive about considerable inner endurance: the path continues even through storms and setbacks, not because fear is absent, but because a deep knowledge of one's own direction carries it.",
-        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Nikola Tesla, who lost his life's work at the Wardenclyffe Tower and nonetheless held to its rightness to the end – and who, far from any human closeness, found his deepest bond in a single white dove; Honoré de Balzac, who for decades wrote through the night against crushing debt, often fifteen to eighteen hours at a stretch – no giving up despite constant financial hardship, but a tenacious persistence that ended only with his death, five months after the marriage to Ewelina Hańska he had hoped for over seventeen years."
+        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Nikola Tesla, who lost his life's work at the Wardenclyffe Tower and nonetheless held to its rightness to the end – and who, far from any human closeness, found his deepest bond in a single white dove; Honoré de Balzac, who for decades wrote through the night against crushing debt, often fifteen to eighteen hours at a stretch – no giving up despite constant financial hardship, but a tenacious persistence that ended only with his death, five months after the marriage to Ewelina Hańska he had hoped for over seventeen years; T. E. Lawrence, who as a British liaison officer rode through the desert for weeks, sharing hunger and exhaustion with the Arab fighters instead of commanding from a distance – and who, after the war, turned that same quiet tenacity inward, in a years-long, self-arranged punishment ritual, rather than speaking of the humiliation he suffered at Deraa."
       },
       {
         titel: "Complete inner processing before stepping outward",
