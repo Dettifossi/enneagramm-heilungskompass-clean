@@ -1111,6 +1111,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla – Self-Preservation Type 4",
     teaser:"SE4w5 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The dove that invented for all humanity and, in the end, loved only a single white dove. Animal correspondence: Dove.",
     land:"Serbia/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
+{ route:"beruehmte-miguel-de-unamuno", name:"Miguel de Unamuno", added:"2026-08-28", subtyp:"SE4w5",
+    heading:"Miguel de Unamuno – Self-Preservation Type 4",
+    teaser:"SE4w5 · 1864–1936. Spanish philosopher and writer, rector of the University of Salamanca. Lifelong struggle with his own mortality in \"Tragic Sense of Life,\" inventor of the \"nivola.\" Famous confrontation with General Millán-Astray in 1936, removal from office and house arrest until his death. Animal correspondence: Dove.",
+    land:"Spain", tags:["Philosophy","Literature"], gender:"m"},
 { route:"beruehmte-vincent-van-gogh", name:"Vincent van Gogh", added:"2026-08-28", subtyp:"SE4w5",
     heading:"Vincent van Gogh – Self-Preservation Type 4",
     teaser:"SE4w5 · 1853–1890. Dutch painter. Around 2,100 works in just over ten years, sold only one painting in his lifetime, almost entirely dependent financially on his brother Theo. Systematic self-taught study of color theory and Japanese woodblock prints, the 1888 ear incident, \"The Starry Night\" painted from the asylum. Animal correspondence: Dove.",
@@ -22933,6 +22937,72 @@ function leoTolstoiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function miguelDeUnamunoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-miguel-de-unamuno-portrait.jpg" alt="Miguel de Unamuno" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Miguel de Unamuno</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Spanish philosopher and writer, 1864&ndash;1936 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. Miguel de Unamuno was born in 1864 in the Basque city of Bilbao, lost his father at the age of six, and grew up in a strictly Catholic, middle-class household that instilled in him early on a deep, never fully resolved struggle with faith, doubt, and his own mortality. This question – whether personal existence continues after death or not – would run through his entire intellectual life's work, not as an abstract philosophical problem, but as an agonizing, deeply personal wound.</p>
+          <p class="vb-intro">Unamuno studied philosophy and literature in Madrid, largely taught himself German, Danish, and other languages in order to read Kierkegaard, Hegel, and other thinkers in the original, and in 1891 became professor of Greek at the University of Salamanca – the city that would remain his intellectual home for the rest of his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: The Wound as a Lifelong Theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> does not carry its suffering outward but endures it stoically – it tells itself: I suffer better, more quietly, more deeply than others, and precisely there lies my dignity. In Unamuno this shows in a lifelong, almost obsessive struggle with his own mortality, which he laid bare in his major work "Del sentimiento trágico de la vida" ("Tragic Sense of Life," 1913): the irresolvable contradiction between reason, which recognizes one's own extinction as inevitable, and the unconquerable, deeply personal wish to continue existing nonetheless.</p>
+          <p class="vb-intro">Rather than repressing this struggle or letting the Church or philosophy resolve it for him, Unamuno deliberately kept it open and unresolved his entire life – a quiet, never-ending inner tension that he kept rethinking in dozens of books, essays, and poems, without ever claiming a final answer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Life as a Question of System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance from its own pain – the feeling is not merely lived through but cast into a carefully considered, almost encyclopedic structure of thought. By the end of his life Unamuno commanded several languages, most of them self-taught, wrote novels, plays, poetry, philosophical treatises, and thousands of newspaper articles, and even invented his own literary genre, the "nivola" – demonstrated in his novel "Niebla" ("Mist," 1914), in which the fictional character confronts his own author and debates his own existence.</p>
+          <p class="vb-intro">This love of system also showed in his two terms as rector of the University of Salamanca (1900–1924 and 1930–1936), which he ran with the same intellectual thoroughness he applied to his philosophical questions – not as a mere administrative task, but as a carefully considered project of its own, aimed at renewing Spanish education.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. October 12, 1936</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unamuno had initially welcomed the Nationalist uprising of 1936 as a hope for order, but grew increasingly disillusioned within a few months. On October 12, 1936, the aging rector delivered an improvised speech at a "Day of the Race" ceremony at the University of Salamanca, in the presence of General José Millán-Astray, in which he publicly spoke out against the violence and hatred of the emerging Franco regime. His famous line to Millán-Astray – "Venceréis, pero no convenceréis" ("You will win, but you will not convince") – still stands today as one of the most courageous acts of intellectual resistance in the Spanish Civil War.</p>
+          <p class="vb-intro">Carmen Polo, Franco's wife, led the 72-year-old out of the enraged hall under the pretext of accompanying him home. That same afternoon, Franco signed Unamuno's removal as rector. Unamuno was placed under constant guard in his own house, cut off from newspapers and visitors – a quiet, forced isolation in which he spent the final ten weeks of his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 lies in its ability to turn <strong>a deeply personal existential wound into a carefully considered, universal structure of thought</strong> – Unamuno's "Tragic Sense of Life" still ranks today among the most influential works of European existentialism, because he worked through his own conflict between faith and doubt so honestly and so systematically that it became a timeless philosophical legacy.</p>
+          <p class="vb-intro">The shadow showed at the end of his life in the forced silence of his months under house arrest: no public trial, no opportunity to speak out further, only an old man, alone with his thoughts, guarded within his own four walls. On December 31, 1936, Unamuno died of a cerebral hemorrhage – ten weeks after his last great public appearance, quietly, without further stir, almost as though the quiet persistence of the Self-Preservation Four had continued to his final breath.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove That Never Resolved Its Own Inner Conflict</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Miguel de Unamuno is regarded today as one of the most important Spanish thinkers of the twentieth century – not because he found a final answer to life's great questions, but because he refused to let Church, state, or philosophy dictate them to him, and instead wrestled with them himself his entire life.</p>
+          <p class="vb-intro">The dove that lost its father early in childhood and spent a lifetime grappling with its own mortality, and that, at the very end of its life, stood up once more, publicly, for the truth – even when it cost the last remnant of outward freedom – that is the lasting image of this subtype: a quiet, carefully worked-through struggle for its own truth, never given up until the final day.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
       ])}
     </div>
   `);
@@ -45448,7 +45518,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -45463,7 +45533,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Complete inner processing before stepping outward",
         beschreibung: "Before anything becomes visible – a work, a stance, a decision – it is first fully lived through, observed, and processed inwardly. No spontaneous action, but a conscious landing only once the inner process is complete.",
-        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years."
+        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years; Miguel de Unamuno, who largely taught himself German, Danish, and other languages in order to read Kierkegaard and Hegel in the original, and who never answered his lifelong question about his own mortality too quickly, but kept rethinking it in dozens of books, without ever claiming a final answer."
       },
       {
         titel: "When the inner burden overwhelms – from radical self-assertion to self-dissolution (shadow form)",
@@ -100559,6 +100629,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
+      "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,

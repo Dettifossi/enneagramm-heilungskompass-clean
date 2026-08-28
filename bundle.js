@@ -33104,6 +33104,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1856\u20131943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Die Taube, die f\u00fcr die ganze Menschheit erfand und am Ende nur noch eine einzelne wei\u00dfe Taube liebte. Tierentsprechung: Taube.",
     land:"Serbien/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
+  { route:"beruehmte-miguel-de-unamuno", name:"Miguel de Unamuno", added:"2026-08-28", subtyp:"SE4w5",
+    heading:"Miguel de Unamuno – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · 1864–1936. Spanischer Philosoph und Schriftsteller, Rektor der Universität Salamanca. Lebenslanges Ringen mit der eigenen Sterblichkeit in ›Del sentimiento trágico de la vida‹, Erfinder der ›nivola‹. Berühmte Konfrontation mit General Millán-Astray 1936, Amtsenthebung und Hausarrest bis zu seinem Tod. Tierentsprechung: Taube.",
+    land:"Spanien", tags:["Philosophie","Literatur"], gender:"m"},
   { route:"beruehmte-vincent-van-gogh", name:"Vincent van Gogh", added:"2026-08-28", subtyp:"SE4w5",
     heading:"Vincent van Gogh – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1853–1890. Niederländischer Maler. Rund 2100 Werke in gut zehn Jahren, nur ein Bild zu Lebzeiten verkauft, finanziell fast vollständig von Bruder Theo abhängig. Systematisches Selbststudium von Farbtheorie und japanischen Holzschnitten, der Ohrschnitt 1888, ›Sternennacht‹ aus der Heilanstalt. Tierentsprechung: Taube.",
@@ -44737,7 +44741,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -44752,7 +44756,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
         beschreibung: "Bevor etwas sichtbar wird – ein Werk, eine Haltung, eine Entscheidung –, wird es zunächst vollständig innerlich durchlebt, beobachtet und verarbeitet. Kein spontanes Handeln, sondern ein bewusstes Landen erst dann, wenn der innere Prozess abgeschlossen ist.",
-        beleg: "Karoline Herfurth: ›Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, trägt innerlich, was sie gesehen hat – und landet dann genau dort, wo sie gebraucht wird‹; Leo Tolstois lebenslanges Tagebuch-Ritual ›der schonungslosen Selbstbeobachtung‹, das zur ›Grundlage seines gesamten literarischen Werks‹ wurde; Vincent van Gogh, der als Autodidakt hunderte Werke Millets kopierte, sich einen eigenen Perspektivrahmen baute und Delacroix' Farbtheorie so gründlich studierte, dass er eigene Farbkreise in seinen Briefen skizzierte – kein spontaner Gefühlsausbruch, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System."
+        beleg: "Karoline Herfurth: ›Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, trägt innerlich, was sie gesehen hat – und landet dann genau dort, wo sie gebraucht wird‹; Leo Tolstois lebenslanges Tagebuch-Ritual ›der schonungslosen Selbstbeobachtung‹, das zur ›Grundlage seines gesamten literarischen Werks‹ wurde; Vincent van Gogh, der als Autodidakt hunderte Werke Millets kopierte, sich einen eigenen Perspektivrahmen baute und Delacroix' Farbtheorie so gründlich studierte, dass er eigene Farbkreise in seinen Briefen skizzierte – kein spontaner Gefühlsausbruch, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System; Miguel de Unamuno, der sich Deutsch, Dänisch und weitere Sprachen größtenteils selbst beibrachte, um Kierkegaard und Hegel im Original zu lesen, und der seine lebenslange Frage nach der eigenen Sterblichkeit nie vorschnell beantwortete, sondern in Dutzenden Büchern immer wieder neu durchdachte, ohne je eine endgültige Antwort zu beanspruchen."
       },
       {
         titel: "Wenn die innere Last überwältigt – von radikaler Selbstbehauptung bis zur Selbstauflösung (Schattenform)",
@@ -55462,6 +55466,72 @@ function tELawrencePortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – der erfundene Mythos"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function miguelDeUnamunoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-miguel-de-unamuno-portrait.jpg" alt="Miguel de Unamuno" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Miguel de Unamuno</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Spanischer Philosoph und Schriftsteller, 1864–1936 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Miguel de Unamuno wurde 1864 im baskischen Bilbao geboren, verlor mit sechs Jahren seinen Vater und wuchs in einem streng katholischen, bürgerlichen Elternhaus auf, das ihm früh eine tiefe, nie ganz aufgelöste Auseinandersetzung mit Glauben, Zweifel und dem eigenen Sterben mitgab. Diese Frage – ob es nach dem Tod ein persönliches Fortbestehen gibt oder nicht – sollte sein gesamtes intellektuelles Lebenswerk durchziehen, nicht als abstraktes philosophisches Problem, sondern als quälende, ganz persönliche Wunde.</p>
+          <p class="vb-intro">Unamuno studierte Philosophie und Literatur in Madrid, brachte sich weitgehend autodidaktisch Deutsch, Dänisch und weitere Sprachen bei, um Kierkegaard, Hegel und andere Denker im Original zu lesen, und wurde 1891 Professor für Griechische Sprache an der Universität Salamanca – der Stadt, die für den Rest seines Lebens sein geistiges Zuhause blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Die Wunde als lebenslanges Thema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht öffentlich vor sich her, sondern erträgt es stoisch – sie sagt sich: Ich leide besser, stiller, tiefer als andere, und genau darin liegt meine Würde. Bei Unamuno zeigt sich das in einem lebenslangen, fast obsessiven Ringen mit der eigenen Sterblichkeit, das er in seinem Hauptwerk „Del sentimiento trágico de la vida" (1913) offenlegte: der unauflösbare Widerspruch zwischen dem Verstand, der die eigene Auslöschung als unausweichlich erkennt, und dem unbezwingbaren, tief persönlichen Wunsch, dennoch fortzubestehen.</p>
+          <p class="vb-intro">Statt dieses Ringen zu verdrängen oder es sich von der Kirche oder der Philosophie abnehmen zu lassen, hielt Unamuno es sein ganzes Leben lang bewusst offen und ungelöst – eine stille, nie endende innere Zerreißprobe, die er in Dutzenden Büchern, Essays und Gedichten immer wieder neu durchdachte, ohne je eine endgültige Antwort zu beanspruchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Leben als Systemfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Schmerz – das Gefühl wird nicht nur durchlebt, sondern in ein durchdachtes, oft geradezu enzyklopädisches Gedankengebäude gefasst. Unamuno beherrschte am Ende seines Lebens mehrere Sprachen, die er sich größtenteils selbst beigebracht hatte, verfasste Romane, Theaterstücke, Lyrik, philosophische Traktate und tausende Zeitungsartikel, und erfand mit der „nivola" – vorgeführt in seinem Roman „Niebla" (1914) – sogar eine eigene literarische Gattung, in der die Romanfigur ihrem eigenen Autor gegenübertritt und über die eigene Existenz debattiert.</p>
+          <p class="vb-intro">Diese Systemliebe zeigte sich auch in seiner zweimaligen Amtszeit als Rektor der Universität Salamanca (1900–1924 und 1930–1936), die er mit derselben intellektuellen Gründlichkeit führte, mit der er auch seine philosophischen Fragen bearbeitete – nicht als reine Verwaltungsaufgabe, sondern als eigenes, durchdachtes Projekt zur Erneuerung der spanischen Bildung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der 12. Oktober 1936</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unamuno hatte den nationalistischen Aufstand von 1936 zunächst als Hoffnung auf Ordnung begrüßt, wurde aber binnen weniger Monate zunehmend desillusioniert. Am 12. Oktober 1936 hielt der greise Rektor bei einer Feier zum „Tag der Rasse" an der Universität Salamanca, im Beisein von General José Millán-Astray, eine improvisierte Rede, in der er sich öffentlich gegen die Gewalt und den Hass des aufkommenden Franco-Regimes wandte. Sein berühmter Satz an Millán-Astray – „Venceréis, pero no convenceréis" („Ihr werdet siegen, aber ihr werdet nicht überzeugen") – gilt bis heute als einer der mutigsten intellektuellen Widerstandsakte im spanischen Bürgerkrieg.</p>
+          <p class="vb-intro">Carmen Polo, die Ehefrau Francos, führte den 72-Jährigen unter dem Vorwand, ihn nach Hause zu begleiten, aus dem aufgebrachten Saal. Noch am selben Nachmittag unterzeichnete Franco Unamunos Amtsenthebung als Rektor. Unamuno wurde in seinem eigenen Haus unter ständige Bewachung gestellt, von Zeitungen und Besuchen abgeschnitten – eine stille, erzwungene Isolation, in der er die letzten zehn Wochen seines Lebens verbrachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>die eigene existenzielle Wunde in ein durchdachtes, universelles Gedankengebäude</strong> zu verwandeln – Unamunos „Del sentimiento trágico de la vida" gilt bis heute als eines der einflussreichsten Werke des europäischen Existenzialismus, weil er seine eigene Zerrissenheit zwischen Glauben und Zweifel so ehrlich und zugleich so systematisch durchdachte, dass daraus ein zeitloses philosophisches Vermächtnis wurde.</p>
+          <p class="vb-intro">Der Schatten zeigte sich am Ende seines Lebens in der erzwungenen Stille der Hausarrest-Monate: kein öffentlicher Prozess, keine Möglichkeit zur weiteren Gegenrede, nur ein alter Mann, allein mit seinen Gedanken, bewacht in den eigenen vier Wänden. Am 31. Dezember 1936 starb Unamuno an einer Hirnblutung – zehn Wochen nach seinem letzten großen öffentlichen Auftritt, still, ohne weiteres Aufsehen, fast so, als habe sich die stille Konsequenz der selbsterhaltenden Vier bis zum letzten Atemzug fortgesetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die ihre eigene Zerrissenheit nie auflöste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Miguel de Unamuno gilt heute als einer der bedeutendsten spanischen Denker des zwanzigsten Jahrhunderts – nicht weil er eine endgültige Antwort auf die großen Fragen des Lebens fand, sondern weil er sich weigerte, sie sich von Kirche, Staat oder Philosophie vorschreiben zu lassen, und stattdessen sein ganzes Leben lang selbst mit ihnen rang.</p>
+          <p class="vb-intro">Die Taube, die als Kind früh den Vater verlor und sich ein Leben lang mit der eigenen Sterblichkeit auseinandersetzte, und die am Ende ihres Lebens noch einmal öffentlich für die Wahrheit einstand, auch als es sie den letzten Rest äußerer Freiheit kostete – das ist das bleibende Bild dieses Subtyps: ein stilles, durchdachtes Ringen um die eigene Wahrheit, das bis zum letzten Tag nicht aufgegeben wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
       ])}
     </div>
   `);
@@ -136375,6 +136445,7 @@ function render() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
+      "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
