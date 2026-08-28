@@ -4526,6 +4526,11 @@ function startPage() {
                   font-size:0.85rem;font-weight:700;text-decoration:none;letter-spacing:0.02em;">
           ✨ Wegweiser Premium – discover access to 40+ books
         </a>
+        <div style="margin-top:0.35rem;">
+          <a href="https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M" target="_blank" rel="noopener" style="font-size:0.76rem;color:var(--muted,#886);text-decoration:underline;">
+            or €49.99 per year – cheaper than monthly →
+          </a>
+        </div>
       </div>
       <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
         <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
