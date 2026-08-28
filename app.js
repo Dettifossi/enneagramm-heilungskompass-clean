@@ -32162,6 +32162,10 @@ const BIBEL_PORTRAITS = [
     heading:"Saulus auf dem Weg nach Damaskus – Sexueller Typ 8",
     teaser:"SX8w7 · Vom Feuer getroffen. Ein Eiferer, verzehrend wie ein Brand – bis ein Licht stärker ist als sein Wille und drei Tage Blindheit zum Sturz ins Innere werden.",
     land:"Judäa/Syrien", tags:["Bibel"], gender:"m"},
+  { route:"bibel-jakobus", name:"Jakobus, der Sohn des Alphäus", added:"2026-08-28", subtyp:"SE9w1",
+    heading:"Jakobus – Selbsterhaltender Typ 9",
+    teaser:"SE9w1 · Der Schlaf vor dem Sturm. Er schläft, wo Jesus Wachen bittet – doch seine stille Treue bleibt, auch als er sich das eigene Versagen nicht verzeihen kann.",
+    land:"Judäa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44219,12 +44223,12 @@ const LEBENSMUSTERKOMPASS = {
   SE9: {
     tier: "Elefant",
     kernthema: "Ruhige, gewichtige Präsenz statt Lautstärke – wer einmal in Bewegung ist, ist nicht mehr aufzuhalten (Naranjo: Appetit)",
-    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laotse (Laozi)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas von Aquin", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss", "Dietmar Bär"],
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laotse (Laozi)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas von Aquin", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss", "Dietmar Bär", "Jakobus, der Sohn des Alphäus"],
     fingerabdruecke: [
       {
         titel: "Ruhige, gewichtige Präsenz statt Lautstärke",
         beschreibung: "Wirkung entsteht nicht durch Reden oder Auftreten, sondern durch bloße, gewichtige Anwesenheit – der Raum verändert sich, ohne dass ein Wort nötig wäre.",
-        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹; Bärbel Bas, die als Bundestagspräsidentin nicht mit großen Gesten auffällt, sondern durch Verlässlichkeit und beharrliches Bemühen um Ordnung wirkt; David Hume, der die Grundfesten der Welt infrage stellte und dabei erstaunlich unaufgeregt blieb – ›le bon David‹ selbst in Kreisen, die seine Ideen für gefährlich hielten; Johannes Brahms, dessen letzter öffentlicher Auftritt bei einer Aufführung seiner 4. Sinfonie im März 1897 – sichtbar todkrank, kaum noch in der Lage, die Treppen zu seiner Loge zu steigen – ohne ein Wort ein ganzes Publikum zu Tränen rührte; Dr. Cynthia Moss, die über fünfzig Jahre dieselben Elefantenfamilien begleitete, ohne je durch spektakuläre Einzelaktionen aufzufallen – Wirkung durch stille, geduldige Kontinuität statt durch Auftritt."
+        beleg: "James Levine: ›Er braucht keine Aktion, um zu wirken. Es genügt, dass er da ist‹; Angela Merkel: ›Eine Präsenz, die nicht durch Lautstärke entsteht, sondern durch Gewicht … Sie sprach selten laut. Sie machte keine großen Gesten‹; Thomas von Aquin, genannt ›der stumme Ochse‹, über den sein Lehrer sagte: ›Sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen.‹; Bärbel Bas, die als Bundestagspräsidentin nicht mit großen Gesten auffällt, sondern durch Verlässlichkeit und beharrliches Bemühen um Ordnung wirkt; David Hume, der die Grundfesten der Welt infrage stellte und dabei erstaunlich unaufgeregt blieb – ›le bon David‹ selbst in Kreisen, die seine Ideen für gefährlich hielten; Johannes Brahms, dessen letzter öffentlicher Auftritt bei einer Aufführung seiner 4. Sinfonie im März 1897 – sichtbar todkrank, kaum noch in der Lage, die Treppen zu seiner Loge zu steigen – ohne ein Wort ein ganzes Publikum zu Tränen rührte; Dr. Cynthia Moss, die über fünfzig Jahre dieselben Elefantenfamilien begleitete, ohne je durch spektakuläre Einzelaktionen aufzufallen – Wirkung durch stille, geduldige Kontinuität statt durch Auftritt.; Jakobus, der Sohn des Alphäus (Bibel-Porträt), der unter den Zwölf kaum auffiel und dessen Treue sich nie in Worten zeigte: ›Er hatte gelernt, dass auch in der Passivität Kraft liegt – wenn sie nicht Flucht ist, sondern Warten auf das Richtige.‹"
       },
       {
         titel: "Einmal in Bewegung, ist nichts mehr aufzuhalten",
@@ -66113,6 +66117,7 @@ function laoziPortraitPage() {
         {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SX5w4)"},
         {route:"beruehmte-konfuzius", label:"Portr\u00e4t: Konfuzius (Kong Fuzi) (SO1w2)"},
         {route:"beruehmte-cynthia-moss", label:"Portr\u00e4t: Dr. Cynthia Moss (SE9w1)"},
+        {route:"bibel-jakobus", label:"Bibel-Porträt: Jakobus, der Sohn des Alphäus (SE9w1)"},
       ])}
     </div>
   `);
@@ -95608,6 +95613,87 @@ function saulusAufDemWegNachDamaskusPage() {
         {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7)"},
         {route:"bibel-kaiphas", label:"Bibel-Porträt: Der Hohepriester Kaiphas (SO8w9)"},
+        {route:"bibel-jakobus", label:"Bibel-Porträt: Jakobus, der Sohn des Alphäus (SE9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function jakobusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-jakobus-portrait.jpg" alt="Jakobus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jakobus, der Sohn des Alphäus</p>
+        <p class="krim-portrait-typ">SE9w1 · Selbsterhaltende Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Schlaf vor dem Sturm – Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Und als sie hineingekommen waren, stiegen sie hinauf in das Obergemach … Jakobus, der Sohn des Alphäus.« (Apostelgeschichte 1,13)</p>
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun – er vergisst nicht und bewegt sich in seinem eigenen Rhythmus, ruhig, gründend, mit einer Präsenz, die den Raum verändert, ohne ihn zu beherrschen. Jakobus war ein stilles Kind. Nicht, weil er nichts zu sagen gehabt hätte, sondern weil er instinktiv wusste, dass Worte Gewicht haben – und dass jedes ausgesprochene Wort eine Bewegung im Raum erzeugt, eine Welle im Teich des Miteinanders. Seine Mutter erzählte später oft, wie friedlich er als Säugling geschlafen habe, selbst wenn draußen ein Gewitter tobte: »Wie ein Fels in der Brandung, als ob nichts ihn erreichen könnte.«</p>
+          <p class="vb-intro">Doch es war weniger Fels als Nebel – ein Rückzug nach innen, weich und unbeirrbar. Wenn andere Kinder tobten, blieb er sitzen; wenn Konflikte drohten, zog er sich in die hinteren Reihen zurück, nicht aus Angst, sondern aus einem tiefen, kaum bewussten Bedürfnis nach Harmonie. Genau wie der Elefant nichts vergisst und dennoch nie hastet, empfand Jakobus sein Unsichtbarwerden als seine stille Aufgabe, das Gleichgewicht der Welt zu wahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Sicherheit durch Rituale und Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er liebte Rituale. Das morgendliche Teekochen, das sorgfältige Falten seiner Kleidung, das stille Sitzen im Garten Gethsemane – all das verlieh ihm ein Gefühl von Sicherheit, von innerer Ordnung in einer Welt, die ihm oft zu laut, zu fordernd erschien. Schon früh begann er, sich in Geschichten zu flüchten, in Bücher und innere Landschaften. Dort konnte er sein, ohne sich erklären zu müssen. Dort konnte er bestehen, ohne Stellung zu beziehen.</p>
+          <p class="vb-intro">Und so wuchs Jakobus heran wie eine Pflanze im Schatten – unbehelligt, unauffällig, aber mit tiefen Wurzeln. Die Stille war sein Element, nicht aus Mangel, sondern aus Wahl. Doch wie jedes Gleichgewicht, das durch Vermeidung entsteht, war auch seines fragil. Denn unter der glatten Oberfläche ruhte etwas, das noch keine Stimme hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Innere Ordnung als stiller Kompass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Neun ein feines Gespür für Richtigkeit, für die Ordnung der Dinge – nicht als lautstarke Prinzipientreue, sondern als eine leise, zurückgezogene Genauigkeit im eigenen Ritual. Gethsemane war für Jakobus kein Ort der Lehre, sondern ein Ort des Innehaltens. Manchmal lehnte er sich gegen einen Baum, schloss die Augen, lauschte dem Wind. In dieser Nähe fand er Frieden, nicht als Verdrängung, sondern als Zustand des Einverstandenseins.</p>
+          <p class="vb-intro">Jesus vertraute ihm, nicht als Sprecher, nicht als Führer, sondern als stillen Begleiter. Und Jakobus folgte, wie er immer folgte, mit einem ruhigen Schritt und dem Wunsch, Teil zu sein, ohne zu stören. Diese Genauigkeit im Kleinen, dieses treue Einhalten des eigenen inneren Maßes, selbst wenn niemand hinsah, trägt die Handschrift des Einserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Sturm, vor dem er schlief</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Doch etwas veränderte sich. In den letzten Tagen vor dem Passahfest lag eine Spannung in der Luft, die selbst Jakobus nicht ignorieren konnte. Als sie in jener Nacht wieder nach Gethsemane gingen, war es nicht wie zuvor. Jakobus spürte es. Und dennoch, als Jesus ihn bat zu wachen, als der Sturm der Angst durch die Seele des Meisters fuhr, da schlief er. Nicht aus Gleichgültigkeit. Nicht aus Trotz. Sondern weil seine Seele den Schmerz noch nicht halten konnte. Wie ein Kind, das sich einrollt, wenn der Donner zu laut wird, suchte er im Schlaf Schutz vor dem Unaussprechlichen.</p>
+          <p class="vb-intro">Er wachte auf, als der Wind aufrischte. Kein Gleichmaß, keine Ruhe mehr im Atem des Meisters. Etwas kämpfte. Und Jakobus war zu spät. Er hatte geschlafen, wo Wachen verlangt war. Er hatte Frieden gesucht, wo ein Mensch im Kampf stand. In seinem Schweigen lag kein Trotz, sondern ein schmerzliches Eingeständnis: Er hatte versagt, nicht in Taten, sondern im Sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Welt ohne Mitte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit jener Nacht im Garten war etwas zerbrochen, das er nicht benennen konnte. Er hatte nicht nur den Meister verloren, sondern auch die Ordnung in sich selbst. Was ihm Halt gegeben hatte – die Nähe, das Dienen, das stille Mitgehen – war aus den Fugen geraten. Jakobus zog sich zurück, wie ein Tier, das seine Wunden leckt, nicht sichtbar, aber auch nicht gänzlich fort. Er war noch da. Er blieb. Aber sein Dasein war wie Nebel, formbar, tastend, auf der Suche nach etwas, das noch keinen Namen hatte.</p>
+          <p class="vb-intro">Denn tief in ihm regte sich ein Wissen, das älter war als alle Worte: Dass es Zeiten gibt, in denen man nicht kämpfen, nicht fliehen, nicht handeln kann. Zeiten, in denen man nur ausharren kann, nicht als Schwäche, sondern als Form des Überlebens. Und Jakobus harrte aus. Wie eine Wurzel, die nicht blüht, aber weiterträgt. Wie die Stille, die nicht bricht, aber alles in sich birgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Treue, die bleibt, auch ohne Worte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch Jakobus sah den Auferstandenen, nicht wie Thomas, nicht wie Petrus, nicht wie Maria. Sondern auf seine Weise. Wortlos. In Präsenz. Im Frieden. Und Jakobus verstand: Es war nicht sein Versagen, das zählte. Es war seine Treue. Dass er geblieben war. Dass er nicht davongelaufen war vor der eigenen Ohnmacht. Dass er sich selbst, trotz allem, nicht aufgegeben hatte.</p>
+          <p class="vb-intro">Von da an wandelte sich etwas in ihm, nicht dramatisch, sondern wie ein Fluss, der wieder seinen Lauf findet. Jakobus wurde ein Träger der Beständigkeit, kein Anführer im klassischen Sinn, aber ein ruhender Pol. Einer, auf den man sich verlassen konnte. Einer, der nicht reden musste, um gehört zu werden. Er hatte gelernt, dass auch in der Passivität Kraft liegt, wenn sie nicht Flucht ist, sondern Warten auf das Richtige – und dass der Sturm, den er einst verschlafen hatte, nicht das Ende war, sondern der Anfang eines Weges, der seine eigene Tiefe brauchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Jakobus – der Leise im Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Jakobus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/_l-CH4kXIiQ?rel=0" title="Jakobus – der Leise im Schatten" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-laozi", label:"Portrait: Laotse (SE9w1)"},
+        {route:"bibel-saulus-auf-dem-weg-nach-damaskus", label:"Bibel-Porträt: Saulus auf dem Weg nach Damaskus (SX8w7)"},
       ])}
     </div>
   `);
@@ -135770,6 +135856,7 @@ function render() {
       "bibel-der-hauptmann-unter-dem-kreuz": derHauptmannUnterDemKreuzPage,
       "bibel-kaiphas": kaiphasPage,
       "bibel-saulus-auf-dem-weg-nach-damaskus": saulusAufDemWegNachDamaskusPage,
+      "bibel-jakobus": jakobusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
