@@ -36064,7 +36064,7 @@ function startPage() {
                   border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
                   text-decoration:none;min-width:150px;">
           <span style="font-size:0.92rem;font-weight:700;">49,99 € / Jahr</span>
-          <span style="font-size:0.72rem;color:var(--muted,#886);">Einmalzahlung, läuft nach 12 Monaten automatisch ab</span>
+          <span style="font-size:0.72rem;color:var(--muted,#886);">Abo, verlängert sich automatisch, jederzeit kündbar</span>
         </a>
       </div>
       <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
@@ -136799,7 +136799,7 @@ setTimeout(showTagesimpuls, 600);
         subscribeYearly.target = "_blank";
         subscribeYearly.rel = "noopener";
         subscribeYearly.textContent = "Jährlich sparen";
-        subscribeYearly.title = "49,99 € / Jahr (Einmalzahlung, läuft nach 12 Monaten automatisch ab)";
+        subscribeYearly.title = "49,99 € / Jahr (Abo, verlängert sich automatisch, jederzeit kündbar)";
         subscribeYearly.style.cssText = "color:var(--copper,#a5652f);text-decoration:underline;font-size:0.76rem;";
         actions.appendChild(subscribeYearly);
       }
