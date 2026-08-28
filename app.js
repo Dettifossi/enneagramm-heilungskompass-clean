@@ -32339,6 +32339,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-warren-buffett", name:"Warren Buffett", subtyp:"SE5w6", heading:"Warren Buffett – Selbsterhaltender Typ 5", krankheit:"Prostatakrebs im Frühstadium, 2012 diagnostiziert", teaser:"SE5w6 – Investor und Unternehmer, geb. 1930. 2012 im Alter von 81 Jahren mit Prostatakrebs im Stadium I diagnostiziert, per offenem Aktionärsbrief bekanntgegeben. Zweimonatige Strahlentherapie, im September 2012 erfolgreich abgeschlossen, ohne Unterbrechung seiner Führungsrolle bei Berkshire Hathaway." , land:"USA", gender:"m", jahre:"geb. 1930"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexueller Typ 4", krankheit:"Chronische Verdauungs- und Blasenleiden", teaser:"SX4w3 – Schriftsteller und Philosoph der Aufklärung, 1694–1778. Jahrzehntelange, in Briefen exzessiv dokumentierte Verdauungs- und Blasenbeschwerden, ungebremste Produktivität trotz ständiger Klagen. Starb am 30. Mai 1778 in Paris, wenige Wochen nach seiner triumphalen Rückkehr aus dem Exil." , land:"Frankreich", gender:"m", jahre:"1694–1778"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Selbsterhaltender Typ 4", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SE4w5 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
+  { route:"krankheitsportraets-vincent-van-gogh", name:"Vincent van Gogh", subtyp:"SE4w5", heading:"Vincent van Gogh – Selbsterhaltender Typ 4", krankheit:"Wiederkehrende psychotische und mutmaßlich epileptische Krisen, Ohrschnitt 1888, Tod durch vermutlich selbst beigebrachte Schussverletzung", teaser:"SE4w5 – niederländischer Maler, 1853–1890. Wiederholte schwere psychische Krisen ab 1888, freiwillige Einweisung nach Saint-Rémy, Ohrschnitt nach dem Bruch mit Gauguin, ›Sternennacht‹ mitten in der Krise gemalt, Tod zwei Tage nach einer Schussverletzung am 29. Juli 1890." , land:"Niederlande", gender:"m", jahre:"1853–1890"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Sozialer Typ 5", krankheit:"Nervenzusammenbruch, vermutlich durch Quecksilbervergiftung", teaser:"SO5w6 – Physiker und Mathematiker, 1642/43–1727. Schwerer Nervenzusammenbruch 1693 mit paranoiden Anschuldigungen gegen enge Freunde, vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit Quecksilber verursacht. Erholte sich innerhalb eines Jahres, starb 1727 im Alter von 84 Jahren." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Sozialer Typ 6", krankheit:"Chronische Hypochondrie, Atembeklemmung, später geistiger Verfall", teaser:"SO6w5 – Philosoph, 1724–1804. Lebenslange, extrem dokumentierte Hypochondrie mit chronischer Atembeklemmung, philosophische Verarbeitung der eigenen Krankheit im Spätwerk, geistiger Verfall in den letzten Lebensjahren. Starb am 12. Februar 1804 in Königsberg im Alter von 79 Jahren." , land:"Deutschland", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Sozialer Typ 5", krankheit:"Schlaganfall mit Lähmung der rechten Hand", teaser:"SO5w4 – Universalgelehrter und Künstler, 1452–1519. Schlaganfall um 1517 mit Lähmung der rechten Hand, Umstellung auf die linke Hand, fortgesetzte Arbeit an der Mona Lisa bis zuletzt. Starb am 2. Mai 1519 in Amboise, Frankreich, im Alter von 67 Jahren." , land:"Italien/Frankreich", gender:"m", jahre:"1452–1519"},
@@ -48014,6 +48015,205 @@ function tELawrenceKrankheitsportraetPage() {
         {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – gleicher Subtyp"},
         {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp"},
         {route:"psychosomatik/depression", label:"Psychosomatik-Register: Depression"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+      ])}
+    </div>
+  `);
+}
+
+function vincentVanGoghKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-vincent-van-gogh-portrait.jpg" alt="Vincent van Gogh" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vincent van Gogh</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel · 1853–1890</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Vincent van Gogh</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und sein systematisches
+        Selbststudium. Dieses Porträt widmet sich einem Kapitel, das dort nur gestreift wird:
+        den wiederkehrenden psychotischen und mutmaßlich epileptischen Krisen der letzten
+        beiden Lebensjahre, dem Ohrschnitt 1888 und dem Tod durch eine vermutlich selbst
+        beigebrachte Schussverletzung 1890.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Van Gogh</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Fünferflügel</strong>
+        zugeordnet. Die SE4 trägt ihr Leiden nicht nach außen, sondern hält es zäh und allein
+        aus – bei Van Gogh hieß das: seine Krisen fast nie in Briefen an Theo direkt zu
+        benennen, sondern stattdessen über Farbe, Komposition und Bildaufbau zu schreiben,
+        selbst wenn er sie unmittelbar nach einem Anfall verfasste. Der Fünferflügel hielt
+        selbst inmitten der akuten Krise die analytische Distanz zum eigenen Werk aufrecht –
+        Van Gogh malte methodisch weiter, während seine Psyche zunehmend zerbrach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Leben, das schon früh keine Mitte fand:</strong>
+        Van Goghs Jugend war geprägt von wiederholten beruflichen Brüchen – Kunsthändler,
+        Lehrer, Laienprediger – und von einer zunehmenden sozialen Isolation. Schon vor seinem
+        Wechsel zur Malerei beschrieben Familienangehörige ihn als schwer zugänglich, zu
+        Grübeleien neigend und in Beziehungen häufig scheiternd.</p>
+        <p class="vb-intro"><strong>b) Absinth, Terpentin und ein ungesunder Lebensstil:</strong>
+        In seinen Pariser und Arles-Jahren konsumierte Van Gogh regelmäßig Absinth und lebte
+        über weite Strecken von wenig mehr als Brot, Kaffee und Tabak – ein Lebensstil, der
+        seinen ohnehin labilen körperlichen und seelischen Zustand zusätzlich schwächte.</p>
+        <p class="vb-intro"><strong>c) Erste dokumentierte Verwirrtheitszustände:</strong>
+        Bereits vor dem Ereignis vom Dezember 1888 berichten Zeitgenossen von Phasen
+        plötzlicher Verwirrtheit und ungewöhnlichen Verhaltens bei Van Gogh – Vorboten dessen,
+        was sich in Arles zur offenen Krise zuspitzen sollte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Ohrschnitt als erster offener Zusammenbruch:</strong>
+        Nach dem heftigen Streit mit Paul Gauguin am 23. Dezember 1888 schnitt sich Van Gogh
+        einen Teil seines linken Ohrs ab. Zeitgenössische Berichte beschreiben massive
+        Verwirrtheit und Erinnerungslücken in den Stunden danach – Van Gogh selbst konnte sich
+        später an weite Teile des Vorfalls nicht erinnern.</p>
+        <p class="vb-intro"><strong>b) Wiederkehrende Krisen in der Heilanstalt:</strong>
+        Während seines freiwilligen Aufenthalts in Saint-Paul-de-Mausole bei Saint-Rémy
+        (1889–1890) erlitt Van Gogh mehrere weitere schwere Krisen, teils mit Halluzinationen
+        und dem Impuls, Farbe zu verschlucken. Sein behandelnder Arzt, Dr. Théophile Peyron,
+        diagnostizierte eine Form der Epilepsie – eine der bis heute meistdiskutierten
+        historischen Deutungen seines Zustands, neben Hypothesen zu einer bipolaren Störung
+        oder einer Borderline-Persönlichkeitsstruktur.</p>
+        <p class="vb-intro"><strong>c) Klare Phasen zwischen den Krisen:</strong>
+        Bemerkenswert ist, dass Van Gogh zwischen den akuten Episoden meist wieder vollständig
+        klar und arbeitsfähig war – in genau diesen Phasen entstanden einige seiner bekanntesten
+        Werke, darunter „Sternennacht", direkt aus dem Fenster seines Zimmers in der Anstalt
+        gemalt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die freiwillige Einweisung als stille Konsequenz:</strong>
+        Statt sich seiner Krise öffentlich zu stellen oder Hilfe im gewohnten sozialen Umfeld
+        zu suchen, wählte Van Gogh den stillen Rückzug in die Anstalt – eine strukturierte,
+        selbst gewählte Isolation, die ihm zugleich Sicherheit und die Möglichkeit zum
+        Weiterarbeiten gab.</p>
+        <p class="vb-intro"><strong>b) Ein fast wissenschaftlicher Tagesablauf trotz Krise:</strong>
+        Auch in der Anstalt hielt Van Gogh an einer strengen, selbst auferlegten Arbeitsstruktur
+        fest – geregelte Mal-Zeiten, systematische Studien der Umgebung, minutiöse
+        Farbentscheidungen, dokumentiert in Briefen an Theo, die bis in die Details technischer
+        Fragen reichen.</p>
+        <p class="vb-intro"><strong>c) Kein Wort der Klage nach außen:</strong>
+        Selbst in den Briefen aus der akuten Krisenzeit dominiert bei Van Gogh die sachliche
+        Beschreibung seiner Arbeit – nur selten und meist beiläufig erwähnt er die eigene
+        Erschöpfung oder Angst, nie in dramatischer oder anklagender Form.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der Umzug nach Auvers-sur-Oise:</strong>
+        Im Mai 1890 verließ Van Gogh die Anstalt und zog nach Auvers-sur-Oise, in die Nähe des
+        homöopathisch interessierten Arztes Dr. Paul Gachet, der sich um psychisch labile
+        Künstler kümmerte. In den letzten zehn Wochen seines Lebens entstanden dort mehr als
+        siebzig Gemälde – eine der produktivsten Phasen seines gesamten Lebenswerks.</p>
+        <p class="vb-intro"><strong>b) Der 27. Juli 1890:</strong>
+        Van Gogh erlitt in der Nähe eines Weizenfelds eine Schussverletzung in der Brust und
+        schleppte sich zurück in sein Gasthauszimmer. Die genauen Umstände sind bis heute nicht
+        vollständig geklärt, gelten in der Forschung aber überwiegend als Selbstbeibringung.</p>
+        <p class="vb-intro"><strong>c) Zwei Tage bis zum Tod:</strong>
+        Theo eilte an Vincents Bett, wo dieser am 29. Juli 1890 im Alter von 37 Jahren starb.
+        Berichten zufolge sollen seine letzten Worte gewesen sein: „Die Traurigkeit wird ewig
+        andauern" – ein letzter, stiller Satz über einen Zustand, den er zeitlebens kaum je laut
+        ausgesprochen hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Zähigkeit, die sich zunehmend gegen den eigenen Körper richtete:</strong>
+        Dieselbe SE4-Zähigkeit, die Van Gogh befähigte, jahrelange Armut und öffentliche
+        Nichtbeachtung unbeirrt zu ertragen, richtete sich in den Krisenjahren zunehmend gegen
+        ihn selbst – vom Ohrschnitt bis zur mutmaßlich selbst beigebrachten Schussverletzung.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel als Gegenkraft, nicht als Schutz:</strong>
+        Wie bei Nikola Tesla (ebenfalls SE4w5) hielt der analytische Fünferflügel auch bei Van
+        Gogh selbst in tiefster Krise ein systematisches, fast wissenschaftliches Arbeiten
+        aufrecht – ein Werk wie „Sternennacht" entstand mitten in einer der schwersten Phasen
+        seines Lebens. Der Fünferflügel schützte jedoch nicht vor der Krise selbst, sondern gab
+        ihr lediglich eine geordnete, kanalisierte Form nach außen.</p>
+        <p class="vb-intro"><strong>c) Die Farbe als einzige zugelassene Sprache des Leidens:</strong>
+        Während Van Gogh seine innere Not im persönlichen Austausch fast vollständig
+        verschwieg, lässt sie sich in der zunehmend aufgewühlten, wirbelnden Bildsprache seiner
+        letzten Lebensmonate deutlich ablesen – das Leiden fand seinen einzigen Ausdruck dort,
+        wo die selbsterhaltende Vier ihn erlaubte: im Werk, nicht im Wort.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Nikola Tesla (SE4w5):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-nikola-tesla">Nikola
+        Tesla</a>, ebenfalls SE4w5, zeigt sich bei Van Gogh das für diesen Subtyp typische
+        Zusammenspiel: eine fortschreitende psychische Belastung, die kaum je offen
+        angesprochen wird, während der Fünferflügel parallel dazu ein hochgradig systematisches,
+        analytisches Schaffen aufrechterhält. Bei Tesla war es eine fortschreitende
+        Zwangsstörung neben bahnbrechenden Erfindungen, bei Van Gogh psychotische Krisen neben
+        methodisch durchdachter Malerei – zwei Varianten derselben SE4w5-Grundbewegung: das
+        Leiden wird stumm ertragen, während die geistige Systemarbeit ungebrochen weiterläuft.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre gewachsene Krise, kein plötzlicher Einbruch:</strong>
+        Von den ersten Anzeichen sozialer Isolation in den 1870er-Jahren bis zum Tod 1890 zieht
+        sich eine durchgehende Linie zunehmender psychischer Instabilität – keine einzelne
+        Katastrophe, sondern ein über rund fünfzehn Jahre gewachsenes Muster.</p>
+        <p class="vb-intro"><strong>c) Zwei Symptome, ein gemeinsamer Ursprung:</strong>
+        Der Ohrschnitt 1888 und die tödliche Schussverletzung 1890 lassen sich als zwei
+        Ausprägungen derselben Grundbewegung lesen: In akuten Krisen richtete sich Van Goghs
+        sonst nach innen gewandtes Leiden abrupt und körperlich gegen ihn selbst.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet wiederkehrende Anfälle und Psychosen?</strong>
+        Für eine selbsterhaltende Vier, die ihr Leiden für gewöhnlich in stille, kontrollierte
+        Bahnen lenkt, liegt eine Deutung nahe: Wenn die eigene Kontrolle über den Verstand
+        selbst zeitweise zusammenbricht, trifft das die SE4 in ihrem verletzlichsten Punkt – der
+        Fähigkeit, das eigene innere Erleben geordnet zu verarbeiten. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        <a href="javascript:void(0)" data-route="psychosomatik/epilepsie">Psychosomatik-Register
+        zur Epilepsie</a> dieses Kompasses ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu
+        wiederkehrenden psychotischen Krisen führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Van Goghs Fall zeigen lässt, ist
+        ein Muster, das bei der Neigung, seelisches Leiden allein und schweigend zu verarbeiten,
+        in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
+        Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Van Gogh kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten in dieser Form noch nicht. Die selbsterhaltende Zähigkeit, die ihn befähigte,
+        Armut und öffentliche Ablehnung jahrelang zu ertragen, kannte für ihn keinen
+        eingebauten Warnmechanismus, der ihn rechtzeitig zu dauerhafter Hilfe hätte finden
+        lassen; im Gegenteil, jede Krise wurde in genau derselben Logik verarbeitet, mit der er
+        auch materielle Not behandelte: allein durchhalten, weiterarbeiten, nicht klagen. Wer
+        das eigene Erschöpfungsmuster nicht kennt, kann es auch nicht rechtzeitig unterbrechen –
+        bei Van Gogh endete das erst mit seinem Tod im Alter von 37 Jahren.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Van Goghs</strong> letzten beiden Lebensjahren zeigt sich die selbsterhaltende
+        Vier mit Fünferflügel in ihrer eindrücklichsten Form: eine Psyche, die zunehmend
+        zerbrach, während derselbe Mensch mit unveränderter analytischer Genauigkeit
+        weitermalte – bis kurz vor seinem Tod entstanden noch Werke von methodischer Klarheit.
+        Die Taube, die ihr Leiden zeitlebens kaum in Worte fasste, sprach es stattdessen in
+        Farbe – bis sie am 29. Juli 1890, zwei Tage nach der Schussverletzung, im Alter von 37
+        Jahren für immer verstummte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SE4w5) – gleicher Subtyp"},
+        {route:"psychosomatik/epilepsie", label:"Psychosomatik-Register: Epilepsie"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
@@ -87272,6 +87472,7 @@ function nikolaTeslaKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5) – Erfinder"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Krankheitsporträt: Vincent van Gogh (SE4w5) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
@@ -136556,6 +136757,7 @@ function render() {
       "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
+      "krankheitsportraets-vincent-van-gogh": vincentVanGoghKrankheitsportraetPage,
       "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,
