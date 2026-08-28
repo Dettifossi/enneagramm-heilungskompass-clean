@@ -2717,7 +2717,7 @@ text.nav = [
     { route: "knowledge", label: "Knowledge Base" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
-    { route: "enneagramm-bibel", label: "Enneagram & the Bible" },
+    { route: "enneagramm-bibel", label: "Enneagram in the Mirror of the New Testament" },
     { route: "krankheitsportraets", label: "Illness Portraits" },
     { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
@@ -65465,7 +65465,7 @@ function enneagrammBibelPage() {
   return shell(`
     <div class="page-container">
       ${pageHeader("enneagramm-bibel")}
-      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Enneagram &amp; the Bible</h1>
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Enneagram in the Mirror of the New Testament</h1>
       <p class="psycho-intro">27 figures from Jesus's circle – one for each of the 27 subtypes – interpreted literarily and psychologically according to their Enneagram pattern. The texts are drawn from <em>»27 Faces of the Soul«</em> by Detlef Rathmer and are being adapted chapter by chapter for the Compass, each with a specially composed song about the figure.</p>
       <p class="psycho-intro" style="font-size:0.88rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:0.8rem 1rem;border-radius:8px;">
         <strong>Important note on classification:</strong> Unlike the "Famous Personalities" or "Illness Portraits" sections, these are not exhaustively documented historical biographies. The New Testament figures are interpreted literarily and typologically – based on the received narratives, using free but text-oriented retelling. Some figures are historically contested or uncertainly attested. The illustrations are AI-generated, deliberately fictional depictions – no one knows how these people actually looked.
@@ -65495,7 +65495,12 @@ function josefVonArimathaeaPage() {
         </div>
         <p class="krim-portrait-name">Joseph of Arimathea</p>
         <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
-        <p class="krim-portrait-subtitle">Council member from Arimathea – Animal correspondence: Eagle</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Council member from Arimathea – Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
       </div>
       <div class="page-content">
 
@@ -65540,6 +65545,7 @@ function josefVonArimathaeaPage() {
         </blockquote>
 
       </div>
+      ${bookTip("27-gesichter-der-seele", "All 27 chapters in full, with every song – the source material for this section, as a complete psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
