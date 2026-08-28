@@ -32074,6 +32074,10 @@ const BIBEL_PORTRAITS = [
     heading:"Ruben, der Schriftgelehrte \u2013 Sozialer Typ 1",
     teaser:"SO1w2 \u00b7 Schriftgelehrter in dritter Generation. Gesetzesw\u00e4chter, der Jesus \u00f6ffentlich im Tempelhof zur Rede stellt \u2013 und nach dessen Tod beginnt, das Gesetz nicht mehr nur nach Richtigkeit, sondern nach Barmherzigkeit zu lesen.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-johannes-der-taeufer", name:"Johannes der T\u00e4ufer", added:"2026-08-28", subtyp:"SX1w9",
+    heading:"Johannes der T\u00e4ufer \u2013 Sexueller Typ 1",
+    teaser:"SX1w9 \u00b7 Asketischer Rufer in der W\u00fcste am Jordan. Kompromissloses Feuer gegen Heuchelei, tauft Jesus \u2013 und zieht sich am Ende bewusst zur\u00fcck: \u00bbEr muss wachsen, ich aber muss abnehmen.\u00ab",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44686,12 +44690,12 @@ const LEBENSMUSTERKOMPASS = {
   SX1: {
     tier: "Schwarze Mamba",
     kernthema: "Kompromisslose Intensität im engsten Kreis statt Reformanspruch an die ganze Welt",
-    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem"],
+    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem", "Johannes der Täufer"],
     fingerabdruecke: [
       {
         titel: "Durchdringende, unausweichliche Präsenz statt schmeichelndes Charisma",
         beschreibung: "Die Wirkung entsteht nicht durch Sympathiewerben, sondern durch eine Intensität, der man sich in unmittelbarer Nähe kaum entziehen kann – ein Blick, eine Bühnenpräsenz, eine Konzentration, die vollständige Wachheit beim Gegenüber erzwingt.",
-        beleg: "›In ihrer Nähe zu sein, bedeutet, vollständig wach zu sein‹ (Klaus Kinski); Rasputins Blick, unter dem sich Petersburger Salondamen ›vollständig gesehen, ausgezogen bis auf den Grund‹ fühlten – ›kein Charisma, das schmeichelt, sondern eines, das durchdringt‹; Leonardo DiCaprios Rollenvorbereitung ›ohne Halbheiten‹ – ›der Biss der Mamba: vollständig, präzise‹; Thea Litschka-Koen, Bill Haast und Romulus Whitaker, deren jahrzehntelange, unerbittlich genaue praktische Auseinandersetzung mit hochgiftigen Schlangen sich in ihrer Präzision durch nichts von einer akademischen Forscherkarriere unterscheidet – ganz auf ein einziges Gesetz konzentriert, das keine Ausnahme kennt."
+        beleg: "›In ihrer Nähe zu sein, bedeutet, vollständig wach zu sein‹ (Klaus Kinski); Rasputins Blick, unter dem sich Petersburger Salondamen ›vollständig gesehen, ausgezogen bis auf den Grund‹ fühlten – ›kein Charisma, das schmeichelt, sondern eines, das durchdringt‹; Leonardo DiCaprios Rollenvorbereitung ›ohne Halbheiten‹ – ›der Biss der Mamba: vollständig, präzise‹; Thea Litschka-Koen, Bill Haast und Romulus Whitaker, deren jahrzehntelange, unerbittlich genaue praktische Auseinandersetzung mit hochgiftigen Schlangen sich in ihrer Präzision durch nichts von einer akademischen Forscherkarriere unterscheidet – ganz auf ein einziges Gesetz konzentriert, das keine Ausnahme kennt; Johannes der Täufer, dessen Stimme am Jordan ›niemanden gleichgültig ließ‹ – man fürchtete ihn oder folgte ihm, ein Rufer, dem man sich in seiner Nähe kaum entziehen konnte."
       },
       {
         titel: "Unscheinbare, zurückgezogene Fassade, die bei verletzter Integrität abrupt in kompromisslose Härte umschlägt",
@@ -66287,6 +66291,7 @@ function klausKinskiPortraitPage() {
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portr\u00e4t: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
         {route:"krankheitsportraets-klaus-kinski", label:"Krankheitsporträt: Klaus Kinski (SX1w9)"},
+        {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
       ])}
     </div>
   `);
@@ -93714,6 +93719,87 @@ function rubenSchriftgelehrterPage() {
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"beruehmte-konfuzius", label:"Portrait: Konfuzius (SO1w2)"},
         {route:"bibel-josef-von-arimathaea", label:"Bibel-Porträt: Josef von Arimathäa (SE1w9)"},
+        {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesDerTaeuferPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-johannes-der-taeufer-portrait.jpg" alt="Johannes der Täufer – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes der Täufer</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Rufer in der Wüste am Jordan – Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Bereitet den Weg des Herrn, macht seine Pfade gerade.« (Mt 3,3)</p>
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins – sie beißt nicht aus Bosheit, sondern weil sie eine Bedrohung erkannt hat und keine zweite Warnung ausspricht. Johannes sprach mit einer Stimme, die nicht diskutierte. Sie kam nicht aus dem Kopf, nicht aus dem Bauch – sie kam aus der Tiefe, jenem Ort, an dem sich Urteil und Feuer küssen. Er war kein Mann, den man mochte. Man fürchtete ihn, oder man folgte ihm. Aber niemand war ihm gleichgültig.</p>
+          <p class="vb-intro">Er trug Kamelhaar, nicht aus Armut, sondern aus Absicht. Er aß Heuschrecken, getränkt in wildem Honig – nicht, weil er nichts anderes bekam, sondern weil er sich dem Überfluss, der Lüge, dem bequemen Selbstbetrug verweigerte. Er lebte außerhalb, geografisch und geistig, jenseits der Mauern Jerusalems, am Jordan, wo das Land rauer war und das Herz weniger abgelenkt. Dort stand er, Tag für Tag, und rief: »Kehrt um! Die Axt ist schon an die Wurzel gelegt!«</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer, der keine Heuchelei duldet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> richtet ihre Leidenschaft der Vollkommenheit mit missionarischer Wucht auf eine einzige Sache – bei Johannes auf die Reinheit vor Gott. Er war nicht gerecht, weil er alle Regeln einhielt, sondern weil er sie auf ihre Wurzel prüfte: Was aus Bequemlichkeit gelebt wurde, verachtete er; was aus echtem Hunger nach Gott kam, ehrte er, selbst wenn es in Staub und Schwäche gekleidet war. Er konnte in einem Zöllner mehr Wahrheit erkennen als in einem Priester mit goldenem Saum.</p>
+          <p class="vb-intro">Als eine Gruppe Pharisäer und Sadduzäer sich näherte, um über ihn zu urteilen, rief er ihnen entgegen: »Ihr Schlangenbrut! Wer hat euch gelehrt, dem kommenden Zorn zu entfliehen? Bringt Frucht, die der Umkehr würdig ist!« Kein Gespräch, keine Verhandlung – der Ruf einer SX1, die spürt, dass unter Selbstbild und System eine gefangene Wahrheit liegt, und die keine zweite Warnung ausspricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Rückzug in die Wüste, Selbstverkleinerung am Ende</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sexuellen Eins eine Sehnsucht nach Rückzug, Askese und Verschmelzung mit etwas Größerem als sich selbst. Johannes kannte das Unreine in sich selbst nicht als Schuld, sondern als Erinnerung – Zeiten, in denen sein Glaube Fassade war, in denen seine Wut ihm als Schild diente. Doch dann war er in die Wüste gegangen, und dort, im Sand, im Schweigen, im Verzicht, war sein Blick geschärft worden.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich dieser Flügel am Ende: »Er muss wachsen. Ich aber muss abnehmen.« Kein Rückzug aus Enttäuschung, sondern Hingabe – nicht an einen Menschen, sondern an den Ruf, der ihn von Anfang an gelenkt hatte. Eine Eins mit Zweierflügel würde um Nähe und Anerkennung ringen; die SX1w9 tritt zurück, sobald ihre Aufgabe erfüllt ist, und löst sich in das auf, wofür sie gerufen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Begegnung am Jordan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Morgen war kühl, der Himmel grau wie ungebrannter Ton. Johannes stand im Fluss, bereit wie jeden Tag, das Reine vom Falschen zu trennen. Dann kam Jesus – nicht mit Getöse, nicht mit Gefolge, sondern mit einer Stille, die größer war als jede Ansprache. Johannes sah ihn und wusste es, nicht durch Zeichen, sondern durch dieselbe Stimme, die ihn einst in die Wüste gerufen hatte: Das ist der Eine.</p>
+          <p class="vb-intro">Jesus trat ans Wasser und sagte nur: »Tauf mich.« Johannes wich zurück: »Ich sollte von dir getauft werden – und du kommst zu mir?« Sein eigenes Maß war plötzlich infrage gestellt. Jesus antwortete: »Lass es geschehen. Es gebührt sich so, damit alle Gerechtigkeit erfüllt werde.« Johannes nickte, langsam, als legte er sein Schwert nieder – führte ihn ins Wasser, senkte ihn unter die Oberfläche und hob ihn zurück ins Licht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Zweifel in der Zelle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Herodes ihn festsetzen ließ – nicht aus Überzeugung, sondern weil Wahrheit immer stört, wenn sie auf Macht trifft –, kam mit der Dunkelheit der Zweifel. Er ließ Jesus fragen: <em>Bist du es wirklich? Oder sollen wir auf einen anderen warten?</em> Nicht aus theologischem Interesse, sondern weil sein Herz, das immer gebrannt hatte, nun nur noch Glut war, und er wissen musste: War alles nicht vergeblich?</p>
+          <p class="vb-intro">Jesu Antwort kam ohne Selbstbehauptung: »Geht und sagt Johannes, was ihr seht: Blinde sehen, Lahme gehen, Aussätzige werden rein, Taube hören, Tote stehen auf, Armen wird das Evangelium gepredigt.« Johannes lehnte sich an die kalte Wand, schloss die Augen – und lächelte, zum ersten Mal seit Wochen. Er hatte gesehen, was er sehen sollte. Er hatte gerufen, bis es nicht mehr nötig war zu rufen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Feuer, das sich selbst zurücknimmt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Johannes hinterlässt, ist ein Feuer, das nicht um sich selbst kreist. Er hatte geliebt – mit brennendem Herzen, unvollkommen, aber wahrhaftig – und war doch bereit, in dem Moment zurückzutreten, in dem ein Größerer erschien. Das ist das Geschenk der SX1w9: eine Kompromisslosigkeit, die sich nicht in der eigenen Bedeutung verliert, sondern sich am Ende freiwillig auflöst, weil die Sache größer ist als der Rufer.</p>
+          <p class="vb-intro">Er ging seinem Ende entgegen – ohne Bitterkeit, ohne Rückruf, ohne Klage. Die Schwarze Mamba, die zubiss, wo Heuchelei war, und die sich still zurückzog, sobald das Licht, dem sie den Weg bereitet hatte, selbst zu leuchten begann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Feuer am Jordan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Johannes dem Täufer ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/mSDVJQpCVF8?rel=0" title="Feuer am Jordan – Johannes der Täufer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Porträt: Ruben, der Schriftgelehrte (SO1w2)"},
       ])}
     </div>
   `);
@@ -133854,6 +133940,7 @@ function render() {
       "enneagramm-bibel": enneagrammBibelPage,
       "bibel-josef-von-arimathaea": josefVonArimathaeaPage,
       "bibel-ruben-schriftgelehrter": rubenSchriftgelehrterPage,
+      "bibel-johannes-der-taeufer": johannesDerTaeuferPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
