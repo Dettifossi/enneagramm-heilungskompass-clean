@@ -170,6 +170,10 @@ const BIBEL_PORTRAITS = [
     heading:"Lazarus – Self-Preservation Type 7",
     teaser:"SE7w6 · The friend of life. A hospitable brother in Bethany, who dies and, at Jesus's call, steps alive from the tomb – deeper, gentler, truer.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-samariterin-am-jakobsbrunnen", name:"The Samaritan Woman at Jacob's Well", added:"2026-08-28", subtyp:"SO7w6",
+    heading:"The Samaritan Woman at Jacob's Well – Social Type 7",
+    teaser:"SO7w6 · The enthusiast who calls out. Jesus mirrors her life without accusation – and she leaves her jar to call the whole town: \"Come and see!\"",
+    land:"Samaria", tags:["Bible"], gender:"f"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -34709,6 +34713,7 @@ function julesVernePortraitPage() {
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
         {route:"krankheitsportraets-jules-verne", label:"Illness Portrait: Jules Verne (SO7w6) – gunshot wound and lifelong lameness"},
+        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bible Portrait: The Samaritan Woman at Jacob's Well (SO7w6)"},
       ])}
     </div>
   `);
@@ -44567,7 +44572,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "The Samaritan Woman at Jacob's Well"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -44582,7 +44587,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public."
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
@@ -67109,6 +67114,85 @@ function lazarusPage() {
         {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
         {route:"bibel-petrus", label:"Bible Portrait: Peter (SX6w7)"},
+        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bible Portrait: The Samaritan Woman at Jacob's Well (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function samariterinAmJakobsbrunnenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-samariterin-am-jakobsbrunnen-portrait.jpg" alt="The Samaritan Woman at Jacob's Well – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">The Samaritan Woman at Jacob's Well</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The enthusiast who calls out – Animal correspondence: Beaver</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Animal correspondence: Beaver" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Come, see a man who told me everything I ever did. Can this be the Christ?" (John 4:29)</p>
+
+        <h2 class="vb-section">1. The Beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven – it builds, connects, shares its discoveries with the whole community, and never rests long before beginning the next project. The sun stood high, no one was out, only a woman with a jar, at the well outside the city. Not in the morning, not in the evening – she came at the hottest hour. Perhaps because she wanted to meet no one. Perhaps because she sought more than water alone.</p>
+          <p class="vb-intro">Jesus sat there, tired, dusty, silent. And then he spoke: "Give me a drink." A sentence, a look, a tear through the familiar. She was surprised, not only because he was a man, not only because he was a Jew, but because he addressed her, and because he showed thirst. She asked. He answered. She asked further, and he answered deeper, not with condemnation, not with instruction, but with an offer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Truth Through Enthusiasm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">"Whoever drinks of this water will thirst again, but whoever drinks of the water that I will give him will never thirst again; it will become in him a spring of water." Something within her stirred, not frightened, not guilt-ridden, but curious. The social Seven recognizes truth through enthusiasm, through encounter, through the fire that brings hope. And then: a sentence that turned everything. "You are right, you have had five husbands, and the one you now have is not your husband." No accusation, no exposure, only a mirror.</p>
+          <p class="vb-intro">She evades, speaks of religion, of the right place for worship, of prophets, of the future. But she stays in the conversation. The SO7 does not like depth that hurts, but it loves depth that connects. And Jesus said: "I who speak to you am he."</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Enthusiasm That Invites Instead of Provokes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Seven a connective, loyal quality – enthusiasm does not become provocation or performance, but an invitation drawing others into a shared community. Something broke open. She left her jar, ran, called out, not quietly, not timidly, but with enthusiasm: "Come and see!" She ran, no longer careful, no longer reserved.</p>
+          <p class="vb-intro">The woman who otherwise came at the hot hour now spoke in full publicity: "Come with me! Look at him! He told me everything, everything I ever did!" It was no confession of guilt, no plea. It was a call, one that meant more than words: I was seen, without being shamed. This exact calling that invites others in and brings them together, rather than dividing or provoking them, carries the signature of the Six-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The City Moves: The Water Becomes Alive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The people stopped, looked at one another. Really her? The woman who otherwise moved between glances now spoke from the center. And they sensed: there was no madness, no hysteria, only a light that came from her, without her being able to explain it herself. In the middle of her being something burned, a spring that had nothing to do with the well, and yet everything. She had not become wiser, but more alive.</p>
+          <p class="vb-intro">The city listened to her, not because she was important, but because she was truthful. And because she spoke of something everyone knew and no one could ever put into words: the wish to be seen, and not to run from it. Jesus stayed two days. The people came. Questions, glances, curiosity, hesitation. And as they listened to him, many began to believe, not because of her words, but because of the resonance she had produced in them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Arrived at Herself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the end they said to her: "It is no longer because of what you said that we believe, for we have heard for ourselves, and we know that this is indeed the Savior of the world." But the woman sat quietly, at a well that no longer needed water. She smiled, not out of pride, but out of healing. She had arrived, not at Jesus, not in the city, but at herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: From Avoidance to Calling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">This is the gift of the SO7w6: an enthusiasm that no longer has to flee from its own story, but turns it into a bridge over which others may find their own truth – a beaver that no longer comes at the hottest hour to meet no one, but instead calls out from the center of community: Come and see.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: At Jacob's Well – She Saw Him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for the Samaritan Woman at Jacob's Well, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/k3ffDHKpbFE?rel=0" title="At Jacob's Well – She Saw Him – The Samaritan Woman" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+        {route:"bibel-lazarus", label:"Bible Portrait: Lazarus (SE7w6)"},
       ])}
     </div>
   `);
@@ -99638,6 +99722,7 @@ function subtypeSchaubilderPage() {
       "bibel-philippus": philippusPage,
       "bibel-petrus": petrusPage,
       "bibel-lazarus": lazarusPage,
+      "bibel-samariterin-am-jakobsbrunnen": samariterinAmJakobsbrunnenPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
