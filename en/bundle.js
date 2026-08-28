@@ -65634,6 +65634,7 @@ function rubenSchriftgelehrterPage() {
       </div>
       ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
         {route:"enneagramm-bibel", label:"All Bible Portraits"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
