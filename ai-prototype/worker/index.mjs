@@ -139,7 +139,7 @@ async function askGemini(question, chunks, encyclopediaChunks, apiKey, lang) {
 // ---------------------------------------------------------------------------
 
 const SESSION_TTL_SECONDS = 60 * 60 * 24 * 30; // 30 Tage
-const MAGIC_LINK_TTL_SECONDS = 60 * 15; // 15 Minuten
+const MAGIC_LINK_TTL_SECONDS = 60 * 30; // 30 Minuten - genug Puffer bei Rückfragen/Support
 const STRIPE_WEBHOOK_TOLERANCE_SECONDS = 60 * 5; // Replay-Schutz
 
 function randomToken() {
@@ -209,7 +209,7 @@ async function sendMagicLinkEmail(email, code, apiKey) {
       from: "Wegweiser <wegweiser@verlagshausrathmer.com>",
       to: [email],
       subject: "Dein Zugangscode zum Wegweiser Premium",
-      html: `<p>Hallo,</p><p>hier ist dein Zugang zum Wegweiser Premium (gültig 15 Minuten):</p><p style="font-size:1.8rem;font-weight:700;letter-spacing:0.15em;">${code}</p><p>Diesen Code direkt in der App eintippen (Wegweiser-Chat → „Anmelden"). Falls du diese E-Mail nicht angefordert hast, kannst du sie ignorieren.</p>`,
+      html: `<p>Hallo,</p><p>hier ist dein Zugang zum Wegweiser Premium (gültig 30 Minuten):</p><p style="font-size:1.8rem;font-weight:700;letter-spacing:0.15em;">${code}</p><p>Diesen Code direkt in der App eintippen (Wegweiser-Chat → „Anmelden"). Falls du diese E-Mail nicht angefordert hast, kannst du sie ignorieren.</p>`,
     }),
   });
   if (!res.ok) throw new Error(`Resend-Fehler ${res.status}: ${await res.text()}`);
