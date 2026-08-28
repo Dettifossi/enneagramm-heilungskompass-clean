@@ -136863,14 +136863,41 @@ setTimeout(showTagesimpuls, 600);
   async function requestMagicLink() {
     const email = prompt("Mit welcher E-Mail-Adresse hast du Wegweiser Premium abonniert?");
     if (!email) return;
+    const trimmedEmail = email.trim();
     try {
       const res = await fetch(WORKER_URL + "/auth/request-link", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.trim() }),
+        body: JSON.stringify({ email: trimmedEmail }),
       });
       const data = await res.json();
       addMsg(data.message || data.error || "Bitte pr\u00fcfe dein Postfach.", "meta");
+      // Code-Eingabe direkt anbieten - funktioniert auch, wenn die App als
+      // Home-Bildschirm-Icon l\u00e4uft (der Link in der Mail \u00f6ffnet auf iOS
+      // sonst immer Safari, das hat dann einen eigenen, getrennten Speicher).
+      requestAnimationFrame(function () { promptForCode(trimmedEmail); });
+    } catch (e) {
+      addMsg("Verbindungsfehler. Bitte sp\u00e4ter erneut versuchen.", "meta");
+    }
+  }
+
+  async function promptForCode(email) {
+    const code = prompt("Gib den 6-stelligen Code aus der E-Mail ein (oder Abbrechen, falls du stattdessen den Link antippst):");
+    if (!code) return;
+    try {
+      const res = await fetch(WORKER_URL + "/auth/verify-code", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email, code: code.trim() }),
+      });
+      const data = await res.json();
+      if (data.sessionToken) {
+        setSessionToken(data.sessionToken);
+        renderPremiumBar();
+        addMsg("Erfolgreich angemeldet.", "meta");
+      } else {
+        addMsg(data.error || "Code ung\u00fcltig oder abgelaufen.", "meta");
+      }
     } catch (e) {
       addMsg("Verbindungsfehler. Bitte sp\u00e4ter erneut versuchen.", "meta");
     }

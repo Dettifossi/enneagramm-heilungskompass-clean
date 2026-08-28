@@ -101159,14 +101159,41 @@ setTimeout(showTagesimpuls, 600);
   async function requestMagicLink() {
     const email = prompt("Which email address did you subscribe to Wegweiser Premium with?");
     if (!email) return;
+    const trimmedEmail = email.trim();
     try {
       const res = await fetch(WORKER_URL + "/auth/request-link", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.trim() }),
+        body: JSON.stringify({ email: trimmedEmail }),
       });
       const data = await res.json();
       addMsg(data.message || data.error || "Please check your inbox.", "meta");
+      // Offer code entry right away - also works when the app runs as a
+      // Home Screen icon (the email link always opens Safari on iOS,
+      // which then has its own, separate storage).
+      requestAnimationFrame(function () { promptForCode(trimmedEmail); });
+    } catch (e) {
+      addMsg("Connection error. Please try again later.", "meta");
+    }
+  }
+
+  async function promptForCode(email) {
+    const code = prompt("Enter the 6-digit code from the email (or Cancel if you'll tap the link instead):");
+    if (!code) return;
+    try {
+      const res = await fetch(WORKER_URL + "/auth/verify-code", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email, code: code.trim() }),
+      });
+      const data = await res.json();
+      if (data.sessionToken) {
+        setSessionToken(data.sessionToken);
+        renderPremiumBar();
+        addMsg("Successfully logged in.", "meta");
+      } else {
+        addMsg(data.error || "Code invalid or expired.", "meta");
+      }
     } catch (e) {
       addMsg("Connection error. Please try again later.", "meta");
     }

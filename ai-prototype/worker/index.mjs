@@ -190,7 +190,14 @@ async function verifyStripeSignature(rawBody, sigHeader, secret) {
   return timingSafeEqual(expected, v1);
 }
 
-async function sendMagicLinkEmail(email, link, apiKey) {
+// Neben dem Klick-Link auch ein manuell eintippbarer 6-stelliger Code, weil
+// der Link auf iOS immer Safari öffnet, auch wenn die App als "Zum Home-
+// Bildschirm hinzugefügt"-Icon genutzt wird - iOS behandelt das als
+// komplett getrennten Speicherbereich (eigenes localStorage/eigene
+// Cookies), sodass ein per Link erhaltener Login dort nicht ankommt. Der
+// Code lässt sich dagegen direkt in der App eintippen, unabhängig davon,
+// wo die E-Mail geöffnet wurde - Standardmuster, u.a. bei Banking-Apps.
+async function sendMagicLinkEmail(email, link, code, apiKey) {
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: {
@@ -200,11 +207,15 @@ async function sendMagicLinkEmail(email, link, apiKey) {
     body: JSON.stringify({
       from: "Wegweiser <wegweiser@verlagshausrathmer.com>",
       to: [email],
-      subject: "Dein Zugangslink zum Wegweiser Premium",
-      html: `<p>Hallo,</p><p>hier ist dein persönlicher Zugangslink zum Wegweiser Premium (gültig 15 Minuten):</p><p><a href="${link}">${link}</a></p><p>Falls du diese E-Mail nicht angefordert hast, kannst du sie ignorieren.</p>`,
+      subject: "Dein Zugangscode zum Wegweiser Premium",
+      html: `<p>Hallo,</p><p>hier ist dein Zugang zum Wegweiser Premium (gültig 15 Minuten):</p><p style="font-size:1.8rem;font-weight:700;letter-spacing:0.15em;">${code}</p><p>Diesen Code kannst du direkt in der App eintippen (Wegweiser-Chat → „Anmelden") - das funktioniert auch, wenn du die App über ein Home-Bildschirm-Icon nutzt.</p><p>Alternativ kannst du auch einfach auf diesen Link tippen:</p><p><a href="${link}">${link}</a></p><p>Falls du diese E-Mail nicht angefordert hast, kannst du sie ignorieren.</p>`,
     }),
   });
   if (!res.ok) throw new Error(`Resend-Fehler ${res.status}: ${await res.text()}`);
+}
+
+function randomSixDigitCode() {
+  return String(crypto.getRandomValues(new Uint32Array(1))[0] % 1000000).padStart(6, "0");
 }
 
 // Direkt nach dem Kauf der Jahreslizenz verschickt, NICHT erst bei der
@@ -285,14 +296,41 @@ async function handleAuthRequestLink(request, env) {
   const sub = await getSubscriberStatus(env, normalized);
   if (isSubscriberActive(sub)) {
     const token = randomToken();
+    const code = randomSixDigitCode();
     await env.AUTH_TOKENS.put(`magic:${token}`, normalized, { expirationTtl: MAGIC_LINK_TTL_SECONDS });
+    // Code getrennt vom Link gespeichert (nicht dieselbe TTL-Einheit
+    // wiederverwendet), damit Link und Code unabhängig voneinander
+    // eingelöst werden können - beide führen zum selben Ergebnis.
+    await env.AUTH_TOKENS.put(`code:${normalized}:${code}`, "1", { expirationTtl: MAGIC_LINK_TTL_SECONDS });
     const link = `https://kompass.verlagshausrathmer.com/?wegweiser-token=${token}`;
-    await sendMagicLinkEmail(normalized, link, env.RESEND_API_KEY);
+    await sendMagicLinkEmail(normalized, link, code, env.RESEND_API_KEY);
   }
 
   return jsonResponse(request, {
-    message: "Falls diese E-Mail-Adresse ein aktives Wegweiser-Premium-Abo hat, ist gerade ein Zugangslink unterwegs.",
+    message: "Falls diese E-Mail-Adresse ein aktives Wegweiser-Premium-Abo hat, ist gerade ein Zugangscode unterwegs.",
   });
+}
+
+async function issueSessionToken(env, email) {
+  const sessionToken = randomToken();
+  await env.AUTH_TOKENS.put(`session:${sessionToken}`, email, { expirationTtl: SESSION_TTL_SECONDS });
+  return sessionToken;
+}
+
+// Bestätigt den 6-stelligen Code aus der Login-Mail - funktioniert unabhängig
+// davon, in welchem Browser-/App-Kontext die Mail geöffnet wurde (siehe
+// Kommentar bei sendMagicLinkEmail), anders als der Klick-Link.
+async function handleAuthVerifyCode(request, env) {
+  const { email, code } = await request.json();
+  if (!email || !code) return jsonResponse(request, { error: "E-Mail und Code erforderlich." }, 400);
+  const normalized = email.toLowerCase().trim();
+  const key = `code:${normalized}:${code.trim()}`;
+  const exists = await env.AUTH_TOKENS.get(key);
+  if (!exists) return jsonResponse(request, { error: "Code ungültig oder abgelaufen." }, 401);
+
+  await env.AUTH_TOKENS.delete(key);
+  const sessionToken = await issueSessionToken(env, normalized);
+  return jsonResponse(request, { sessionToken, email: normalized });
 }
 
 async function handleAuthVerify(request, env) {
@@ -304,8 +342,7 @@ async function handleAuthVerify(request, env) {
   if (!email) return jsonResponse(request, { error: "Link ungültig oder abgelaufen." }, 401);
 
   await env.AUTH_TOKENS.delete(`magic:${token}`);
-  const sessionToken = randomToken();
-  await env.AUTH_TOKENS.put(`session:${sessionToken}`, email, { expirationTtl: SESSION_TTL_SECONDS });
+  const sessionToken = await issueSessionToken(env, email);
 
   return jsonResponse(request, { sessionToken, email });
 }
@@ -648,6 +685,9 @@ export default {
       }
       if (url.pathname === "/auth/verify" && request.method === "GET") {
         return await handleAuthVerify(request, env);
+      }
+      if (url.pathname === "/auth/verify-code" && request.method === "POST") {
+        return await handleAuthVerifyCode(request, env);
       }
       if (url.pathname === "/stripe/webhook" && request.method === "POST") {
         return await handleStripeWebhook(request, env);
