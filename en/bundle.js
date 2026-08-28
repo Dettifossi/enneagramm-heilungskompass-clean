@@ -1110,6 +1110,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla – Self-Preservation Type 4",
     teaser:"SE4w5 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The dove that invented for all humanity and, in the end, loved only a single white dove. Animal correspondence: Dove.",
     land:"Serbia/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
+{ route:"beruehmte-vincent-van-gogh", name:"Vincent van Gogh", added:"2026-08-28", subtyp:"SE4w5",
+    heading:"Vincent van Gogh – Self-Preservation Type 4",
+    teaser:"SE4w5 · 1853–1890. Dutch painter. Around 2,100 works in just over ten years, sold only one painting in his lifetime, almost entirely dependent financially on his brother Theo. Systematic self-taught study of color theory and Japanese woodblock prints, the 1888 ear incident, \"The Starry Night\" painted from the asylum. Animal correspondence: Dove.",
+    land:"Netherlands", tags:["Art"], gender:"m"},
 { route:"beruehmte-derek-goodwin", name:"Derek Goodwin", added:"2026-08-18", subtyp:"SE4w5",
     heading:"Derek Goodwin – Self-Preservation Type 4",
     teaser:"SE4w5 · 1920–2008. British ornithologist at the Natural History Museum London, definitive works on doves, crows and estrildid finches. A life spent in the background, devoted to its own archetypal animal. Animal correspondence: Dove.",
@@ -22928,6 +22932,72 @@ function leoTolstoiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function vincentVanGoghPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-vincent-van-gogh-portrait.jpg" alt="Vincent van Gogh" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vincent van Gogh</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Dutch painter, 1853&ndash;1890 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. Vincent van Gogh was born on March 30, 1853, in Groot-Zundert – exactly one year to the day after his mother had given birth to a stillborn son, who had also been baptized Vincent. In the village cemetery stood a gravestone bearing his own name and birth year, past which the family walked every Sunday – a child who literally grew up in the shadow of a predecessor he could never replace.</p>
+          <p class="vb-intro">This early experience of never being fully one's own, unmistakable self, but always also a replacement, is the soil in which the Self-Preservation Four grows. Van Gogh, son of a Calvinist pastor, worked first as an art dealer in The Hague, London, and Paris, then briefly as a teacher, and finally as a lay preacher in the Belgian coal-mining region of the Borinage – where, to stay as close as possible to the miners, he gave away his own clothing, slept on straw, and renounced comfort so radically that his church superiors dismissed him in 1880 for "excessive zeal."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Suffering as a Quiet Burden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> does not carry its suffering outward but endures it stoically – it tells itself: I suffer better, more quietly, more deeply than others, and precisely there lies my dignity. Only at twenty-seven, after failing as a preacher, did Van Gogh turn to painting – almost entirely dependent financially on his younger brother Theo, an art dealer in Paris, who supported him with a modest monthly allowance for over a decade. More than 650 surviving letters to Theo document this quiet, never publicly voiced struggle for material survival, while outwardly Van Gogh wrote almost exclusively about color, light, and composition.</p>
+          <p class="vb-intro">In just over ten productive years, Van Gogh created around 2,100 works, including more than 860 oil paintings – an output that recalls Balzac's nightly writing marathons, except that Van Gogh often completed several paintings in a single day, frequently outdoors, in wind and heat, with paint he could barely afford. During his lifetime he demonstrably sold only a single painting – "The Red Vineyard" – and carried this almost total public disregard of his life's work without ever giving it up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Life as a Question of System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance from its own pain – the feeling is not merely lived through but cast into a carefully considered, almost encyclopedic structure of thought. Van Gogh, largely self-taught, pursued his artistic education with systematic thoroughness: he copied hundreds of works by Jean-François Millet to understand composition, built himself a wooden perspective frame to calculate depth precisely, and studied Eugène Delacroix's color theory so intensively that he sketched his own color wheels and rules of contrast in his letters to Theo.</p>
+          <p class="vb-intro">This love of system also showed in his enthusiasm for Japanese woodblock prints (ukiyo-e), which he collected, copied, and whose flat coloring and unusual framing he methodically translated into his own painting. Not a spontaneous, unreflected outburst of feeling, then, but a coherent painterly system built up over years – documented in hundreds of letters in which Van Gogh justified his color choices with the same precision a scientist uses to support a thesis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Arles, Gauguin, and the Night of December 23, 1888</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1888, Van Gogh moved into the "Yellow House" in Arles and invited the painter Paul Gauguin to found an artists' colony with him there. Their nine weeks together grew increasingly overshadowed by tension – artistic rivalry, clashing temperaments, Van Gogh's mounting inner agitation. On the evening of December 23, 1888, a violent argument broke out; shortly afterward, Van Gogh cut off part of his own left ear and brought it, wrapped in newspaper, to a woman at a nearby brothel.</p>
+          <p class="vb-intro">Following this breakdown, Van Gogh voluntarily admitted himself in May 1889 to the Saint-Paul-de-Mausole asylum near Saint-Rémy-de-Provence – not a forced retreat, but a self-chosen, quiet consequence. It was there, amid recurring psychiatric crises, that he produced one of his most famous works, "The Starry Night" – the Self-Preservation Four, still working on unwaveringly even in its deepest personal upheaval.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 lies in its ability to turn <strong>the deepest personal suffering into a carefully considered, universal visual system</strong> – Van Gogh's work today moves millions of people worldwide, because he worked through his own inner conflict so honestly and so methodically that an entirely new, unmistakable visual language emerged from it, one that decisively shaped twentieth-century art.</p>
+          <p class="vb-intro">The shadow showed in a life that scarcely ever paused: no financial security, almost no human closeness outside his correspondence with Theo, recurring psychiatric crises he rarely shared with anyone, translating them almost exclusively into painting instead. On July 27, 1890, Van Gogh suffered a gunshot wound to the chest near Auvers-sur-Oise and died two days later – the circumstances remain not fully resolved to this day, though they are generally believed to be self-inflicted. The other side of the Self-Preservation Four: the quiet, unwavering persistence with which a life keeps working against every outward resistance can, in the end, turn against life itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove That Painted Its Own Light Into the Storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vincent van Gogh is regarded today as one of the most influential painters in art history – not despite but precisely because he translated his deepest, often painful inner experience into color and form with an analytical precision hardly any other artist of his time achieved.</p>
+          <p class="vb-intro">The dove that grew up as a child in the shadow of a stillborn namesake, and who had only a single sold painting to show for an entire life's work – and who nonetheless kept painting unwaveringly until two days before his death – that is the lasting image of this subtype: a quiet, carefully worked-through struggle for its own truth, one that found the recognition it never received in life only decades after its death.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
+        {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
       ])}
     </div>
   `);
@@ -45183,7 +45253,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -45198,7 +45268,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Complete inner processing before stepping outward",
         beschreibung: "Before anything becomes visible – a work, a stance, a decision – it is first fully lived through, observed, and processed inwardly. No spontaneous action, but a conscious landing only once the inner process is complete.",
-        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work.'"
+        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years."
       },
       {
         titel: "When the inner burden overwhelms – from radical self-assertion to self-dissolution (shadow form)",
@@ -100292,6 +100362,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
+      "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
