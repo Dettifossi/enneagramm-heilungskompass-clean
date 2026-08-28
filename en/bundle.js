@@ -190,6 +190,10 @@ const BIBEL_PORTRAITS = [
     heading:"Saul on the Road to Damascus – Sexual Type 8",
     teaser:"SX8w7 · Struck by the light. A zealot, consuming like wildfire – until a light proves stronger than his will and three days of blindness become a fall into his own depths.",
     land:"Judea/Syria", tags:["Bible"], gender:"m"},
+  { route:"bibel-jakobus", name:"James, Son of Alphaeus", added:"2026-08-28", subtyp:"SE9w1",
+    heading:"James – Self-Preservation Type 9",
+    teaser:"SE9w1 · The sleep before the storm. He sleeps where Jesus asks him to keep watch – yet his quiet loyalty remains, even as he cannot forgive himself for failing.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -23800,6 +23804,7 @@ function laoziPortraitPage() {
         {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SX5w4)"},
         {route:"beruehmte-konfuzius", label:"Portrait: Confucius (Kong Fuzi) (SO1w2)"},
         {route:"beruehmte-cynthia-moss", label:"Portrait: Dr. Cynthia Moss (SE9w1)"},
+        {route:"bibel-jakobus", label:"Bible Portrait: James, Son of Alphaeus (SE9w1)"},
       ])}
     </div>
   `);
@@ -44452,12 +44457,12 @@ const LEBENSMUSTERKOMPASS = {
   SE9: {
     tier: "Elephant",
     kernthema: "Calm, weighty presence instead of volume – once in motion, nothing stops it (Naranjo: Appetite)",
-    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss"],
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss", "James, Son of Alphaeus"],
     fingerabdruecke: [
       {
         titel: "Calm, weighty presence instead of volume",
         beschreibung: "Impact arises not from talking or performing, but from mere, weighty presence – the room changes without a single word being necessary.",
-        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'; Bärbel Bas, who as President of the Bundestag stands out through reliability and persistent efforts toward order rather than grand gestures; David Hume, who questioned the foundations of the world while remaining remarkably unruffled – 'le bon David' even among those who considered his ideas dangerous; Dr. Cynthia Moss, who followed the same elephant families for over fifty years without ever standing out through spectacular individual actions – impact through quiet, patient continuity rather than performance."
+        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'; Bärbel Bas, who as President of the Bundestag stands out through reliability and persistent efforts toward order rather than grand gestures; David Hume, who questioned the foundations of the world while remaining remarkably unruffled – 'le bon David' even among those who considered his ideas dangerous; Dr. Cynthia Moss, who followed the same elephant families for over fifty years without ever standing out through spectacular individual actions – impact through quiet, patient continuity rather than performance.; James, Son of Alphaeus (Bible portrait), who barely stood out among the Twelve and whose loyalty never showed itself in words: 'He had learned that even in passivity there is strength, when it is not flight but waiting for the right moment.'"
       },
       {
         titel: "Once in motion, nothing stops it anymore",
@@ -67534,6 +67539,87 @@ function saulusAufDemWegNachDamaskusPage() {
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7)"},
         {route:"bibel-kaiphas", label:"Bible Portrait: High Priest Caiaphas (SO8w9)"},
+        {route:"bibel-jakobus", label:"Bible Portrait: James, Son of Alphaeus (SE9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function jakobusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-jakobus-portrait.jpg" alt="James, Son of Alphaeus – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James, Son of Alphaeus</p>
+        <p class="krim-portrait-typ">SE9w1 · Self-Preservation Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The sleep before the storm – animal correspondence: Elephant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"And when they had entered, they went up to the upper room … James the son of Alphaeus." (Acts 1:13)</p>
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>elephant</strong> is the animal of the self-preservation Nine – it does not forget, and it moves at its own rhythm, calm, grounding, with a presence that changes a room without dominating it. James was a quiet child. Not because he had nothing to say, but because he instinctively knew that words carry weight – and that every spoken word creates a ripple in the room, a wave across the pond of togetherness. His mother would later often tell how peacefully he slept as an infant, even when a storm raged outside: "Like a rock in the surf, as though nothing could reach him."</p>
+          <p class="vb-intro">Yet it was less rock than mist – a withdrawal inward, soft and unshakeable. When other children raged, he stayed seated; when conflict threatened, he retreated to the back rows, not out of fear, but out of a deep, barely conscious need for harmony. Just as the elephant forgets nothing yet never hurries, James felt his own invisibility to be his quiet task: to keep the world's balance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: Security Through Ritual and Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He loved rituals. The morning tea-making, the careful folding of his clothes, the quiet sitting in the Garden of Gethsemane – all of it gave him a sense of security, of inner order in a world that often felt too loud, too demanding. Early on he began to flee into stories, into books and inner landscapes. There he could exist without having to explain himself. There he could simply be, without taking a position.</p>
+          <p class="vb-intro">And so James grew up like a plant in the shade – unmolested, unremarkable, but with deep roots. Stillness was his element, not from lack, but by choice. Yet like any balance born of avoidance, his too was fragile. For beneath the smooth surface rested something that had no voice yet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Inner Order as a Quiet Compass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the self-preservation Nine a fine sense for rightness, for the order of things – not as loud adherence to principle, but as a quiet, withdrawn precision in one's own ritual. Gethsemane was for James not a place of teaching, but a place to pause. Sometimes he leaned against a tree, closed his eyes, listened to the wind. In that closeness he found peace, not as suppression, but as a state of being at one with things.</p>
+          <p class="vb-intro">Jesus trusted him – not as a speaker, not as a leader, but as a quiet companion. And James followed, as he always followed, with a calm step and the wish to belong without disturbing. This precision in small things, this faithful keeping of his own inner measure even when no one was watching, carries the signature of the One-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Storm He Slept Through</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">But something changed. In the final days before Passover, a tension hung in the air that even James could not ignore. When they went to Gethsemane again that night, it was not as before. James sensed it. And yet, when Jesus asked him to keep watch, when the storm of fear tore through the Master's soul, he slept. Not out of indifference. Not out of defiance. But because his soul could not yet hold the pain. Like a child curling up when the thunder grows too loud, he sought shelter in sleep from the unspeakable.</p>
+          <p class="vb-intro">He woke as the wind picked up. No steadiness, no calm left in the Master's breath. Something was struggling. And James was too late. He had slept where watching was demanded. He had sought peace where a man stood in agony. In his silence there was no defiance, but a painful admission: he had failed – not in deed, but in presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A World Without a Center</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Since that night in the garden, something had broken that he could not name. He had lost not only the Master, but the order within himself. What had given him footing – the closeness, the serving, the quiet accompanying – had come apart. James withdrew, like an animal licking its wounds, not visible, but not entirely gone either. He was still there. He remained. But his presence was like mist, formless, groping, searching for something that had no name yet.</p>
+          <p class="vb-intro">For deep within him stirred a knowledge older than words: that there are times when one cannot fight, cannot flee, cannot act. Times when one can only endure – not as weakness, but as a form of survival. And James endured. Like a root that does not bloom, but keeps carrying. Like the silence that does not break, but holds everything within it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Loyalty That Remains, Even Without Words</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">James too saw the risen Christ, not like Thomas, not like Peter, not like Mary. But in his own way. Wordlessly. In presence. In peace. And James understood: it was not his failure that counted. It was his loyalty. That he had stayed. That he had not fled from his own powerlessness. That he had not given up on himself, despite everything.</p>
+          <p class="vb-intro">From then on something shifted in him, not dramatically, but like a river finding its course again. James became a bearer of steadiness, not a leader in the classic sense, but a resting pole. Someone one could rely on. Someone who did not need to speak to be heard. He had learned that even in passivity there is strength, when it is not flight but waiting for the right moment – and that the storm he had once slept through was not the end, but the beginning of a path that needed its own depth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: James – The Quiet One in the Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for James, giving voice to his inner journey.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/_l-CH4kXIiQ?rel=0" title="James – The Quiet One in the Shadow" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source material for this rubric as a psychological novel of subtypes.", "Die 27 Gesichter der Seele – A Psychological Novel of Subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-laozi", label:"Portrait: Laozi (SE9w1)"},
+        {route:"bibel-saulus-auf-dem-weg-nach-damaskus", label:"Bible Portrait: Saul on the Road to Damascus (SX8w7)"},
       ])}
     </div>
   `);
@@ -100068,6 +100154,7 @@ function subtypeSchaubilderPage() {
       "bibel-der-hauptmann-unter-dem-kreuz": derHauptmannUnterDemKreuzPage,
       "bibel-kaiphas": kaiphasPage,
       "bibel-saulus-auf-dem-weg-nach-damaskus": saulusAufDemWegNachDamaskusPage,
+      "bibel-jakobus": jakobusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
