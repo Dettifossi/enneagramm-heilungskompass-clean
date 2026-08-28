@@ -125,6 +125,223 @@ async function askGemini(question, chunks, encyclopediaChunks, apiKey, lang) {
   return data?.candidates?.[0]?.content?.parts?.[0]?.text || "(keine Antwort erhalten)";
 }
 
+// ---------------------------------------------------------------------------
+// Premium-Bezahlschranke ("Wegweiser Premium", Bücher-Wissensbasis).
+//
+// Baustein-Status: Grundgerüst steht (KV-Namespaces, Magic-Link-Auth,
+// Stripe-Webhook mit manueller Signaturprüfung, Premium-Retrieval), aber
+// bewusst NICHT scharf geschaltet. Ohne die drei Secrets STRIPE_SECRET_KEY,
+// STRIPE_WEBHOOK_SECRET und RESEND_API_KEY antworten /auth/* und
+// /stripe/webhook mit einem klaren 501-Hinweis statt stillem Fehlschlag,
+// und die Bücher-Vectorize-Abfrage bleibt so oder so ungenutzt, bis das
+// Frontend Checkout/Login tatsächlich anbietet. Kernregel (siehe Projekt-
+// Notizen): Bücher-Freischaltung und Bezahlschranke gehen NUR gemeinsam live.
+// ---------------------------------------------------------------------------
+
+const SESSION_TTL_SECONDS = 60 * 60 * 24 * 30; // 30 Tage
+const MAGIC_LINK_TTL_SECONDS = 60 * 15; // 15 Minuten
+const STRIPE_WEBHOOK_TOLERANCE_SECONDS = 60 * 5; // Replay-Schutz
+
+function randomToken() {
+  // 256 Bit Zufall, URL-sicher kodiert - ausreichend für Magic-Link- und
+  // Session-Tokens, kein Bedarf an einer weiteren Abhängigkeit.
+  const bytes = crypto.getRandomValues(new Uint8Array(32));
+  return btoa(String.fromCharCode(...bytes)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+async function hmacSha256Hex(secret, message) {
+  const key = await crypto.subtle.importKey(
+    "raw",
+    new TextEncoder().encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign"]
+  );
+  const sig = await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(message));
+  return [...new Uint8Array(sig)].map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
+function timingSafeEqual(a, b) {
+  if (a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return diff === 0;
+}
+
+// Manuelle Stripe-Webhook-Signaturprüfung (statt stripe-npm-SDK, das in
+// Workers zusätzliche Kompatibilitätsarbeit bräuchte) - Verfahren exakt
+// nach Stripe-Doku: https://stripe.com/docs/webhooks/signatures
+async function verifyStripeSignature(rawBody, sigHeader, secret) {
+  if (!sigHeader) return false;
+  const parts = Object.fromEntries(
+    sigHeader.split(",").map((kv) => {
+      const [k, v] = kv.split("=");
+      return [k, v];
+    })
+  );
+  const timestamp = parts.t;
+  const v1 = parts.v1;
+  if (!timestamp || !v1) return false;
+
+  const age = Math.abs(Date.now() / 1000 - Number(timestamp));
+  if (age > STRIPE_WEBHOOK_TOLERANCE_SECONDS) return false;
+
+  const expected = await hmacSha256Hex(secret, `${timestamp}.${rawBody}`);
+  return timingSafeEqual(expected, v1);
+}
+
+async function sendMagicLinkEmail(email, link, apiKey) {
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      from: "Wegweiser <wegweiser@verlagshausrathmer.com>",
+      to: [email],
+      subject: "Dein Zugangslink zum Wegweiser Premium",
+      html: `<p>Hallo,</p><p>hier ist dein persönlicher Zugangslink zum Wegweiser Premium (gültig 15 Minuten):</p><p><a href="${link}">${link}</a></p><p>Falls du diese E-Mail nicht angefordert hast, kannst du sie ignorieren.</p>`,
+    }),
+  });
+  if (!res.ok) throw new Error(`Resend-Fehler ${res.status}: ${await res.text()}`);
+}
+
+async function getSubscriberStatus(env, email) {
+  const raw = await env.SUBSCRIBERS.get(email.toLowerCase());
+  if (!raw) return null;
+  return JSON.parse(raw);
+}
+
+async function setSubscriberStatus(env, email, data) {
+  await env.SUBSCRIBERS.put(
+    email.toLowerCase(),
+    JSON.stringify({ ...data, updatedAt: new Date().toISOString() })
+  );
+}
+
+// Liest den Session-Token aus dem Header und prüft, ob der zugehörige
+// Nutzer ein aktives Abo hat. Gibt null zurück, wenn nicht eingeloggt oder
+// nicht (mehr) aktiv - der Aufrufer fällt dann einfach auf die kostenlose
+// Basis-Wissensbasis zurück, kein Fehler.
+async function resolvePremiumAccess(request, env) {
+  const token = request.headers.get("X-Session-Token");
+  if (!token) return null;
+  const email = await env.AUTH_TOKENS.get(`session:${token}`);
+  if (!email) return null;
+  const sub = await getSubscriberStatus(env, email);
+  if (!sub || sub.status !== "active") return null;
+  return { email };
+}
+
+async function handleAuthRequestLink(request, env) {
+  if (!env.RESEND_API_KEY) {
+    return jsonResponse(request, { error: "Login noch nicht aktiv." }, 501);
+  }
+  const { email } = await request.json();
+  if (!email || typeof email !== "string" || !email.includes("@")) {
+    return jsonResponse(request, { error: "Gültige E-Mail-Adresse erforderlich." }, 400);
+  }
+  const normalized = email.toLowerCase().trim();
+
+  // Absichtlich nur an tatsächliche Abonnenten verschicken (verhindert
+  // Missbrauch unseres Mailversands für beliebige Adressen), aber die
+  // Antwort ist für beide Fälle identisch, um Adressen nicht zu verraten.
+  const sub = await getSubscriberStatus(env, normalized);
+  if (sub && sub.status === "active") {
+    const token = randomToken();
+    await env.AUTH_TOKENS.put(`magic:${token}`, normalized, { expirationTtl: MAGIC_LINK_TTL_SECONDS });
+    const link = `https://kompass.verlagshausrathmer.com/?wegweiser-token=${token}`;
+    await sendMagicLinkEmail(normalized, link, env.RESEND_API_KEY);
+  }
+
+  return jsonResponse(request, {
+    message: "Falls diese E-Mail-Adresse ein aktives Wegweiser-Premium-Abo hat, ist gerade ein Zugangslink unterwegs.",
+  });
+}
+
+async function handleAuthVerify(request, env) {
+  const url = new URL(request.url);
+  const token = url.searchParams.get("token");
+  if (!token) return jsonResponse(request, { error: "Token fehlt." }, 400);
+
+  const email = await env.AUTH_TOKENS.get(`magic:${token}`);
+  if (!email) return jsonResponse(request, { error: "Link ungültig oder abgelaufen." }, 401);
+
+  await env.AUTH_TOKENS.delete(`magic:${token}`);
+  const sessionToken = randomToken();
+  await env.AUTH_TOKENS.put(`session:${sessionToken}`, email, { expirationTtl: SESSION_TTL_SECONDS });
+
+  return jsonResponse(request, { sessionToken, email });
+}
+
+async function handleStripeWebhook(request, env) {
+  if (!env.STRIPE_WEBHOOK_SECRET) {
+    return jsonResponse(request, { error: "Webhook noch nicht aktiv." }, 501);
+  }
+  const rawBody = await request.text();
+  const sigHeader = request.headers.get("Stripe-Signature");
+  const valid = await verifyStripeSignature(rawBody, sigHeader, env.STRIPE_WEBHOOK_SECRET);
+  if (!valid) return jsonResponse(request, { error: "Ungültige Signatur." }, 400);
+
+  const event = JSON.parse(rawBody);
+
+  switch (event.type) {
+    case "checkout.session.completed": {
+      const session = event.data.object;
+      const email = session.customer_details?.email || session.customer_email;
+      if (email) {
+        await setSubscriberStatus(env, email, {
+          status: "active",
+          stripeCustomerId: session.customer,
+          stripeSubscriptionId: session.subscription,
+        });
+      }
+      break;
+    }
+    case "customer.subscription.updated": {
+      const sub = event.data.object;
+      const active = ["active", "trialing"].includes(sub.status);
+      // Nur Status aktualisieren, falls wir die E-Mail bereits kennen
+      // (kommt normalerweise über checkout.session.completed zuerst).
+      const existing = await findSubscriberByCustomerId(env, sub.customer);
+      if (existing) {
+        await setSubscriberStatus(env, existing.email, {
+          ...existing.data,
+          status: active ? "active" : "inactive",
+        });
+      }
+      break;
+    }
+    case "customer.subscription.deleted": {
+      const sub = event.data.object;
+      const existing = await findSubscriberByCustomerId(env, sub.customer);
+      if (existing) {
+        await setSubscriberStatus(env, existing.email, { ...existing.data, status: "inactive" });
+      }
+      break;
+    }
+    default:
+      break; // andere Event-Typen ignorieren wir bewusst
+  }
+
+  return jsonResponse(request, { received: true });
+}
+
+// KV kennt keine Sekundärindizes - da SUBSCRIBERS klein bleibt (ein Eintrag
+// pro Abonnent, nicht pro Event), reicht ein einfacher list()-Scan für die
+// seltenen Fälle, in denen ein Subscription-Update ohne vorheriges
+// checkout.session.completed eintrifft.
+async function findSubscriberByCustomerId(env, customerId) {
+  const list = await env.SUBSCRIBERS.list();
+  for (const key of list.keys) {
+    const raw = await env.SUBSCRIBERS.get(key.name);
+    const data = JSON.parse(raw);
+    if (data.stripeCustomerId === customerId) return { email: key.name, data };
+  }
+  return null;
+}
+
 const ALLOWED_ORIGINS = new Set([
   "https://kompass.verlagshausrathmer.com",
   "http://localhost:4174",
@@ -135,10 +352,75 @@ function corsHeaders(request) {
   const allowOrigin = ALLOWED_ORIGINS.has(origin) ? origin : "https://kompass.verlagshausrathmer.com";
   return {
     "Access-Control-Allow-Origin": allowOrigin,
-    "Access-Control-Allow-Methods": "POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type, X-Session-Token",
     Vary: "Origin",
   };
+}
+
+function jsonResponse(request, body, status = 200) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { ...corsHeaders(request), "Content-Type": "application/json" },
+  });
+}
+
+async function handleAsk(request, env) {
+  const { question, lang } = await request.json();
+  if (!question || typeof question !== "string") {
+    return jsonResponse(request, { error: "Feld 'question' fehlt." }, 400);
+  }
+
+  const isEN = lang === "en";
+  const knowledge = isEN ? knowledgeEN : knowledgeDE;
+  const knowledgeByCode = isEN ? knowledgeByCodeEN : knowledgeByCodeDE;
+  const vectorizeIndex = isEN ? env.VECTORIZE_EN : env.VECTORIZE_DE;
+
+  const relevant = await hybridRetrieve(question, {
+    knowledge,
+    knowledgeByCode,
+    vectorizeIndex,
+    apiKey: env.GEMINI_API_KEY,
+  });
+
+  // Enzyklopädie-Anbindung bewusst deaktiviert (nicht gelöscht): eigenes,
+  // von der Bücher-Bezahlschranke unabhängiges Vorhaben, siehe Kommentar
+  // bei retrieveEncyclopedia().
+  const encyclopediaChunks = [];
+
+  // Bücher-Wissensbasis: nur für eingeloggte, aktive Premium-Abonnenten.
+  // Ohne gültige Premium-Session bleibt bookChunks immer leer - für alle
+  // anderen Nutzer verhält sich der Wegweiser exakt wie zuvor.
+  let bookChunks = [];
+  const premium = await resolvePremiumAccess(request, env);
+  if (premium && env.VECTORIZE_BUECHER) {
+    bookChunks = await retrieveEncyclopedia(question, {
+      vectorizeIndex: env.VECTORIZE_BUECHER,
+      apiKey: env.GEMINI_API_KEY,
+    });
+  }
+
+  if (relevant.length === 0 && encyclopediaChunks.length === 0 && bookChunks.length === 0) {
+    const noMatch = isEN
+      ? "I couldn't find matching content in the knowledge base for that."
+      : "Dazu finde ich in der Wissensbasis keine passenden Inhalte.";
+    return jsonResponse(request, { answer: noMatch, sources: [] });
+  }
+
+  const answer = await askGemini(
+    question,
+    relevant,
+    [...encyclopediaChunks, ...bookChunks],
+    env.GEMINI_API_KEY,
+    lang
+  );
+  const sources = [
+    ...new Set(relevant.map((c) => c.code)),
+    ...encyclopediaChunks.map((c) => c.source),
+    ...bookChunks.map((c) => c.source),
+  ];
+
+  return jsonResponse(request, { answer, sources });
 }
 
 export default {
@@ -146,59 +428,26 @@ export default {
     if (request.method === "OPTIONS") {
       return new Response(null, { headers: corsHeaders(request) });
     }
-    if (request.method !== "POST") {
-      return new Response("Method not allowed", { status: 405, headers: corsHeaders(request) });
-    }
+
+    const url = new URL(request.url);
 
     try {
-      const { question, lang } = await request.json();
-      if (!question || typeof question !== "string") {
-        return new Response(JSON.stringify({ error: "Feld 'question' fehlt." }), {
-          status: 400,
-          headers: { ...corsHeaders(request), "Content-Type": "application/json" },
-        });
+      if (url.pathname === "/auth/request-link" && request.method === "POST") {
+        return await handleAuthRequestLink(request, env);
+      }
+      if (url.pathname === "/auth/verify" && request.method === "GET") {
+        return await handleAuthVerify(request, env);
+      }
+      if (url.pathname === "/stripe/webhook" && request.method === "POST") {
+        return await handleStripeWebhook(request, env);
       }
 
-      const isEN = lang === "en";
-      const knowledge = isEN ? knowledgeEN : knowledgeDE;
-      const knowledgeByCode = isEN ? knowledgeByCodeEN : knowledgeByCodeDE;
-      const vectorizeIndex = isEN ? env.VECTORIZE_EN : env.VECTORIZE_DE;
-
-      const relevant = await hybridRetrieve(question, {
-        knowledge,
-        knowledgeByCode,
-        vectorizeIndex,
-        apiKey: env.GEMINI_API_KEY,
-      });
-
-      // Enzyklopädie-Anbindung bewusst deaktiviert (nicht gelöscht): Premium-
-      // Wissensbasis wird erst zusammen mit der Bezahlschranke live geschaltet,
-      // nicht vorher. Bis dahin bleibt sie für alle Nutzer unsichtbar.
-      const encyclopediaChunks = [];
-
-      if (relevant.length === 0 && encyclopediaChunks.length === 0) {
-        const noMatch = isEN
-          ? "I couldn't find matching content in the knowledge base for that."
-          : "Dazu finde ich in der Wissensbasis keine passenden Inhalte.";
-        return new Response(JSON.stringify({ answer: noMatch, sources: [] }), {
-          headers: { ...corsHeaders(request), "Content-Type": "application/json" },
-        });
+      if (request.method !== "POST") {
+        return new Response("Method not allowed", { status: 405, headers: corsHeaders(request) });
       }
-
-      const answer = await askGemini(question, relevant, encyclopediaChunks, env.GEMINI_API_KEY, lang);
-      const sources = [
-        ...new Set(relevant.map((c) => c.code)),
-        ...encyclopediaChunks.map((c) => c.source),
-      ];
-
-      return new Response(JSON.stringify({ answer, sources }), {
-        headers: { ...corsHeaders(request), "Content-Type": "application/json" },
-      });
+      return await handleAsk(request, env);
     } catch (err) {
-      return new Response(JSON.stringify({ error: err.message }), {
-        status: 500,
-        headers: { ...corsHeaders(request), "Content-Type": "application/json" },
-      });
+      return jsonResponse(request, { error: err.message }, 500);
     }
   },
 };

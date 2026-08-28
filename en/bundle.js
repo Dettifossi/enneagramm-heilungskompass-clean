@@ -100969,6 +100969,21 @@ setTimeout(showTagesimpuls, 600);
 // base via a Cloudflare Worker + Gemini and cites its sources.
 (function initGuide() {
   const WORKER_URL = "https://kompass-assistent.9rathmer.workers.dev";
+  // Set once the Stripe Payment Link for "Wegweiser Premium" exists (see
+  // project notes). Until then, the premium area only shows a notice
+  // instead of a purchase link.
+  const STRIPE_PAYMENT_LINK_URL = "";
+  const SESSION_TOKEN_KEY = "wegweiser-session-token";
+
+  function getSessionToken() {
+    try { return localStorage.getItem(SESSION_TOKEN_KEY) || ""; } catch (e) { return ""; }
+  }
+  function setSessionToken(token) {
+    try { localStorage.setItem(SESSION_TOKEN_KEY, token); } catch (e) {}
+  }
+  function clearSessionToken() {
+    try { localStorage.removeItem(SESSION_TOKEN_KEY); } catch (e) {}
+  }
 
   const btn = document.createElement("button");
   btn.id = "wegweiser-btn";
@@ -100990,6 +101005,7 @@ setTimeout(showTagesimpuls, 600);
     "<span>🧭 The Guide</span>" +
     '<button id="wegweiser-close" aria-label="Close" style="background:none;border:none;font-size:1.4rem;cursor:pointer;color:inherit;padding:0.3rem;line-height:1;">×</button>' +
     "</div>" +
+    '<div id="wegweiser-premium-bar" style="padding:0.4rem 0.9rem;border-bottom:1px solid var(--line,#ddd);font-size:0.76rem;display:flex;justify-content:space-between;align-items:center;gap:0.5rem;"></div>' +
     '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;overflow-x:hidden;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;word-wrap:break-word;overflow-wrap:break-word;"></div>' +
     '<form id="wegweiser-form" style="display:flex;align-items:center;gap:0.2rem;border-top:1px solid var(--line,#ddd);padding:0.3rem;box-sizing:border-box;">' +
     '<input id="wegweiser-input" type="text" placeholder="Ask about a subtype..." style="flex:1;min-width:0;border:none;padding:0.6rem 0.4rem;font-size:0.95rem;background:transparent;color:inherit;" />' +
@@ -101005,6 +101021,86 @@ setTimeout(showTagesimpuls, 600);
   const inputEl = panel.querySelector("#wegweiser-input");
   const closeEl = panel.querySelector("#wegweiser-close");
   const micEl = panel.querySelector("#wegweiser-mic");
+  const premiumBarEl = panel.querySelector("#wegweiser-premium-bar");
+
+  // Premium bar: shows either a login/purchase hint or "Premium active"
+  // with logout, depending on login state. Purely cosmetic/optimistic -
+  // the actual authorization check happens server-side on every request;
+  // an expired/invalid token simply falls back to the free answer scope
+  // server-side, never an error.
+  function renderPremiumBar() {
+    const token = getSessionToken();
+    premiumBarEl.innerHTML = "";
+    if (token) {
+      const status = document.createElement("span");
+      status.textContent = "✨ Premium access active";
+      status.style.color = "var(--copper,#a5652f)";
+      const logout = document.createElement("button");
+      logout.type = "button";
+      logout.textContent = "Log out";
+      logout.style.cssText = "background:none;border:none;color:var(--muted,#886);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
+      logout.addEventListener("click", function () {
+        clearSessionToken();
+        renderPremiumBar();
+        addMsg("You are logged out.", "meta");
+      });
+      premiumBarEl.appendChild(status);
+      premiumBarEl.appendChild(logout);
+    } else {
+      const info = document.createElement("span");
+      info.textContent = "Wegweiser Premium: access to all books";
+      info.style.color = "var(--muted,#886)";
+      const login = document.createElement("button");
+      login.type = "button";
+      login.textContent = "Log in";
+      login.style.cssText = "background:none;border:none;color:var(--copper,#a5652f);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
+      login.addEventListener("click", requestMagicLink);
+      premiumBarEl.appendChild(info);
+      premiumBarEl.appendChild(login);
+    }
+  }
+
+  async function requestMagicLink() {
+    const email = prompt("Which email address did you subscribe to Wegweiser Premium with?");
+    if (!email) return;
+    try {
+      const res = await fetch(WORKER_URL + "/auth/request-link", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email.trim() }),
+      });
+      const data = await res.json();
+      addMsg(data.message || data.error || "Please check your inbox.", "meta");
+    } catch (e) {
+      addMsg("Connection error. Please try again later.", "meta");
+    }
+  }
+
+  // After clicking the magic link, the user lands back on the app with
+  // ?wegweiser-token=... - verify it against the worker and store it as a
+  // session, then strip the parameter from the URL.
+  (async function consumeMagicLinkTokenFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("wegweiser-token");
+    if (!token) return;
+    try {
+      const res = await fetch(WORKER_URL + "/auth/verify?token=" + encodeURIComponent(token));
+      const data = await res.json();
+      if (data.sessionToken) {
+        setSessionToken(data.sessionToken);
+        renderPremiumBar();
+      }
+    } catch (e) {
+      // fail silently - the user can retry via "Log in"
+    } finally {
+      params.delete("wegweiser-token");
+      const newSearch = params.toString();
+      const newUrl = window.location.pathname + (newSearch ? "?" + newSearch : "") + window.location.hash;
+      window.history.replaceState({}, "", newUrl);
+    }
+  })();
+
+  renderPremiumBar();
 
   // Voice input via Web Speech API (well supported on Chrome/Android,
   // limited/unavailable on Safari/iOS – falls back to a text hint there).
@@ -101114,9 +101210,13 @@ setTimeout(showTagesimpuls, 600);
     const loadingEl = addMsg("… thinking …", "meta");
 
     try {
+      const headers = { "Content-Type": "application/json" };
+      const sessionToken = getSessionToken();
+      if (sessionToken) headers["X-Session-Token"] = sessionToken;
+
       const res = await fetch(WORKER_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: headers,
         body: JSON.stringify({ question: question, lang: "en" }),
       });
       const data = await res.json();
