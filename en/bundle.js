@@ -1968,7 +1968,11 @@ const BERUEHMT_PORTRAITS = [
 { route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
     heading:"Honoré de Balzac – Self-Preservation Type 4",
     teaser:"SE4w3 · 1799–1850. French writer, \"La Comédie humaine\" (almost 100 novels/stories). Gave himself the noble \"de\" that wasn't his by birth, wrote through the night up to 18 hours a day fueled by coffee to pay off crushing debts, 17 years of correspondence with Countess Hańska before marrying her shortly before his death. Animal correspondence: Dove.",
-    land:"France", tags:["Literature"], gender:"m"}
+    land:"France", tags:["Literature"], gender:"m"},
+{ route:"beruehmte-t-e-lawrence", name:"T. E. Lawrence", added:"2026-08-28", subtyp:"SE4w3",
+    heading:"T. E. Lawrence (Lawrence of Arabia) – Self-Preservation Type 4",
+    teaser:"SE4w3 · 1888–1935. British officer, archaeologist and writer, key figure of the Arab Revolt in World War I. Helped create the \"Lawrence of Arabia\" myth himself, then fled into the lowest military ranks under false names, arranged to be flogged as self-punishment. Rewrote \"Seven Pillars of Wisdom\" multiple times. Animal correspondence: Dove.",
+    land:"United Kingdom", tags:["Military","Literature"], gender:"m"}
 ];
 
 const ENNEAGRAMM_KUNST = {
@@ -31192,6 +31196,71 @@ function honoreDeBalzacPortraitPage() {
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
         {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SP4w3) – heart failure"},
+      ])}
+    </div>
+  `);
+}
+
+function tELawrencePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-t-e-lawrence-portrait.jpg" alt="T. E. Lawrence (Lawrence of Arabia)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">T. E. Lawrence (Lawrence of Arabia)</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">British officer, archaeologist and writer, 1888&ndash;1935 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> carries messages over long distances and returns, even through storms &ndash; resilient at its core, even when it looks delicate. It is not an animal of loud gestures, but one that proves itself through persistence. Thomas Edward Lawrence was born in 1888 in Tremadog, Wales &ndash; out of wedlock. His father, an Irish baronet, had left his first family to live with his daughters' governess, Sarah Junner; divorce was impossible on religious grounds, so the couple lived under the assumed name "Lawrence" and passed themselves off as married. His entire childhood thus unfolded under the sign of a carefully guarded family secret, which Lawrence only learned in full as a young adult.</p>
+          <p class="vb-intro">This early experience &ndash; that the real truth must stay hidden behind a carefully maintained facade &ndash; is the soil in which the self-preservation Four grows. Lawrence studied history at Oxford, undertook a months-long solo walking tour through Syria as a student to research Crusader castles for his thesis, and afterward worked as an archaeologist at the excavation site of Carchemish on the Euphrates &ndash; years in which he came to know the Arabic language, the desert, and its tribes at close range, long before the war would draw him back there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Tenacity as a Way to Survive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> is the counter-type of the Four: it does not turn its suffering into dramatic self-display, but endures it &ndash; alone, with quiet harshness toward itself. Naranjo called this subtype <em>tenacity</em>. As a British liaison officer to the Arab Revolt against the Ottoman Empire (1916&ndash;1918), Lawrence rode for weeks through the desert, often hundreds of kilometers at a stretch, under the same harsh conditions as the Arab fighters he had joined &ndash; not an officer issuing orders from a distance, but one who physically endured hunger, exhaustion, and injury, both at the capture of Aqaba in 1917 and in countless demolition raids on the Hejaz Railway.</p>
+          <p class="vb-intro">This tenacity showed itself even more extremely later on: from 1922, Lawrence &ndash; by then world-famous as "Lawrence of Arabia" &ndash; voluntarily gave up his officer's rank and enlisted under the false name "John Hume Ross" as an ordinary recruit in the Royal Air Force &ndash; lowest possible rank, the plainest quarters, hard physical labor. After the press exposed him, he switched to the Tank Corps, this time under the name "T. E. Shaw," before later returning to the RAF. No public protest, no explanatory appearance &ndash; only a quiet, persistent retreat into the lowest, most anonymous level of military service.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: The Myth He Helped Create Himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Four a pronounced sense for how a story lands &ndash; and the wish to make its own inner uniqueness visible. In 1918 the American journalist Lowell Thomas met Lawrence in Jerusalem and had his photographer, Harry Chase, photograph him in splendid Arab dress &ndash; images that later became among the most widely reproduced photographs of the twentieth century. Lawrence posed for them repeatedly, even in Thomas's own London garden, wearing a business suit and polished shoes underneath the robes, still visible in uncropped versions of the photographs. Thomas's multimedia show about "Lawrence of Arabia" went on to reach several million spectators in London and New York &ndash; and Lawrence himself actively helped build this myth.</p>
+          <p class="vb-intro">Almost simultaneously with this fame came the countermovement: the retreat under a false name into the lowest ranks (see section 2). The Three-wing produced the need for the great, visible role &ndash; yet once it was achieved, the Four underneath experienced it as unbearable self-alienation. A striking parallel exists with another SP4w3 in this compass, the writer <a href="javascript:void(0)" data-route="beruehmte-honore-de-balzac">Honoré de Balzac</a>, who appropriated a noble title to which he had no claim: both men created a glamorous public image of themselves &ndash; and both carried the weight of that self-made myth for the rest of their lives, because it never quite matched what they felt inside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Deraa 1917: The Wound He Never Spoke of Publicly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In November 1917, Lawrence was captured by Ottoman troops during a reconnaissance mission in the town of Deraa, beaten, and, according to his own later written account, sexually assaulted. He almost never spoke of this event publicly &ndash; yet in his war memoir "Seven Pillars of Wisdom" he devoted an agonizingly detailed chapter to it. He nearly lost the manuscript entirely at a train station in 1919, rewrote it afterward entirely from memory, revised it fundamentally several more times in the following years, and initially had it printed only in a limited, expensive subscription edition for a few hundred subscribers, earning nothing from it himself.</p>
+          <p class="vb-intro">From 1923 onward, Lawrence arranged with a fellow serviceman, John Bruce, to be flogged at irregular intervals &ndash; a ritual he orchestrated himself and continued for years. Biographers agree in interpreting it as a form of self-punishment connected to the humiliation he suffered at Deraa. True to form for the self-preservation Four: the deepest pain was never shared, but processed alone, in silence, on his own body, over years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w3 lies in its ability to turn a deeply personal, often unspeakable experience into a work of lasting literary power. "Seven Pillars of Wisdom" still ranks among the most significant war memoirs and self-testimonies of the twentieth century &ndash; precisely because Lawrence never smoothed over his own inner conflict between heroic myth and private shame, but worked through it honestly across draft after draft.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the deep feeling that others were effortlessly given what one lacks oneself: belonging, an untainted origin, a self-image without a fracture. The Three-wing sharpened this struggle by driving Lawrence to publicly create exactly the flawless, heroic self-image he felt least inside &ndash; and then made him suffer all the more heavily under its weight. The shadow showed in a life torn between world fame and self-chosen anonymity, between literary masterpiece and physical self-punishment, until Lawrence died on May 19, 1935 from the injuries of a motorcycle accident in Dorset &ndash; six days after swerving to avoid two cyclists on a narrow road.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove That Never Quite Believed Its Own Message</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">T. E. Lawrence is one of the few historical figures who became a myth within his own lifetime &ndash; and who carried precisely that burden most heavily. This is the peculiar tension of the self-preservation Four with a Three-wing: the ability to create an image the world admires, while carrying a deep, private certainty that the image never quite fits.</p>
+          <p class="vb-intro">The dove that learned, as a child born out of wedlock, that the truth must stay hidden behind a facade &ndash; and who lived through that same experience once more as an adult, first as a self-made hero, then as an anonymous recruit under a false name &ndash; that is the lasting image of this subtype: a man who achieved greatness and yet doubted, for the rest of his life, whether he himself matched what the world saw in him.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3) – the invented myth"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
       ])}
     </div>
   `);
@@ -99991,6 +100060,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
+      "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,

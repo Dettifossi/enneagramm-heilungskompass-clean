@@ -33946,6 +33946,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Honoré de Balzac – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1799–1850. Französischer Schriftsteller, „La Comédie humaine“ (fast 100 Romane/Erzählungen). Eignete sich selbst das Adelsprädikat „de“ an, schrieb nächtelang bis zu 18 Stunden koffeingetrieben gegen drückende Schulden an, 17 Jahre Briefwechsel mit Gräfin Hańska vor der Heirat kurz vor seinem Tod. Tierentsprechung: Taube.",
     land:"Frankreich", tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-t-e-lawrence", name:"T. E. Lawrence", added:"2026-08-28", subtyp:"SE4w3",
+    heading:"T. E. Lawrence (Lawrence von Arabien) – Selbsterhaltender Typ 4",
+    teaser:"SE4w3 · 1888–1935. Britischer Offizier, Archäologe und Schriftsteller, Schlüsselfigur der arabischen Revolte im Ersten Weltkrieg. Half selbst am Mythos „Lawrence von Arabien“ mit, floh danach unter falschem Namen in niedrigste Militärränge, ließ sich zur Selbstbestrafung auspeitschen. „Die sieben Säulen der Weisheit“ mehrfach neu geschrieben. Tierentsprechung: Taube.",
+    land:"Vereinigtes Königreich", tags:["Militär","Literatur"], gender:"m"},
 ];
 
 const ASTROLOGIE_PORTRAITS = [
@@ -54985,6 +54989,71 @@ function leoTolstoiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
         {route:"beruehmte-paul-mccartney", label:"Portr\xe4t: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function tELawrencePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-t-e-lawrence-portrait.jpg" alt="T. E. Lawrence (Lawrence von Arabien)" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">T. E. Lawrence (Lawrence von Arabien)</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Offizier, Archäologe und Schriftsteller, 1888–1935 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> trägt Botschaften über weite Strecken und kehrt zurück, selbst durch Sturm – zäh im Kern, auch wenn sie zart wirkt. Sie ist kein Tier der lauten Geste, sondern eines, das sich durch Beharrlichkeit beweist. Thomas Edward Lawrence wurde 1888 in Tremadog, Wales, geboren – als uneheliches Kind. Sein Vater, ein irischer Baronet, hatte seine erste Familie verlassen, um mit der Gouvernante seiner Töchter, Sarah Junner, zusammenzuleben; eine Scheidung war aus religiösen Gründen unmöglich, das Paar lebte fortan unter dem angenommenen Namen „Lawrence“ und gab sich als verheiratet aus. Die gesamte Kindheit stand damit unter dem Zeichen eines gehüteten Familiengeheimnisses, das Lawrence erst als junger Erwachsener in voller Tragweite erfuhr.</p>
+          <p class="vb-intro">Diese früh gelernte Erfahrung, dass die eigentliche Wahrheit hinter einer sorgsam gepflegten Fassade verborgen bleiben muss, ist der Boden, auf dem die selbsterhaltende Vier wächst. Lawrence studierte Geschichte in Oxford, unternahm als Student allein und zu Fuß eine monatelange Reise durch Syrien zur Erforschung der Kreuzritterburgen für seine Abschlussarbeit, und arbeitete danach als Archäologe an der Ausgrabungsstätte Karkemisch am Euphrat – Jahre, in denen er die arabische Sprache, die Wüste und ihre Stämme aus der Nähe kennenlernte, lange bevor der Krieg ihn dorthin zurückführen sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Zähigkeit als Überlebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zieht das eigene Leiden nicht in dramatische Selbstdarstellung, sondern hält es aus – allein, in stiller Härte gegen sich selbst. Naranjo nannte diesen Subtyp <em>Zähigkeit</em>. Als britischer Verbindungsoffizier zur arabischen Revolte gegen das Osmanische Reich (1916–1918) ritt Lawrence wochenlang durch die Wüste, oft hunderte Kilometer am Stück, unter denselben harten Bedingungen wie die arabischen Kämpfer, denen er sich anschloss – kein Offizier, der aus der Distanz Befehle gab, sondern einer, der Hunger, Erschöpfung und Verletzungen körperlich mit aushielt, bei der Eroberung von Akaba 1917 ebenso wie bei unzähligen Sprengaktionen an der Hedschasbahn.</p>
+          <p class="vb-intro">Diese Zähigkeit zeigte sich später auf noch extremere Weise: Ab 1922 verließ Lawrence, inzwischen als „Lawrence von Arabien“ weltberühmt, freiwillig seinen Offiziersrang und meldete sich unter dem falschen Namen „John Hume Ross“ als einfacher Rekrut bei der Royal Air Force – niedrigster Dienstgrad, ärmlichste Unterkunft, harte körperliche Arbeit. Nachdem die Presse ihn enttarnt hatte, wechselte er in den Tank Corps, diesmal unter dem Namen „T. E. Shaw“, bevor er später wieder in die RAF zurückkehrte. Kein öffentliches Aufbegehren, kein erklärender Auftritt – nur der stille, beharrliche Rückzug in die unterste, anonymste Stufe des militärischen Dienstes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der Mythos, den er selbst mit erschuf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein ausgeprägtes Gespür dafür, wie eine Geschichte wirkt – und den Wunsch, die eigene innere Einzigartigkeit sichtbar zu machen. 1918 traf der amerikanische Journalist Lowell Thomas in Jerusalem auf Lawrence und ließ ihn von seinem Fotografen Harry Chase in prachtvoller arabischer Tracht ablichten – Aufnahmen, die später zu den meistverbreiteten Bildern des 20. Jahrhunderts wurden. Lawrence posierte dafür wiederholt, auch in Thomas' eigenem Londoner Garten, unter dem Straßenanzug samt blank geputzten Schuhen, die auf unbeschnittenen Fotografien noch unter dem Gewand hervorschauen. Thomas' Multimedia-Show über „Lawrence von Arabien“ erreichte in den folgenden Jahren mehrere Millionen Zuschauer in London und New York – und Lawrence trug an der Entstehung dieses Mythos selbst aktiv mit.</p>
+          <p class="vb-intro">Fast zeitgleich mit diesem Ruhm begann die Gegenbewegung: der Rückzug unter falschem Namen in die untersten Ränge (siehe Abschnitt 2). Der Dreierflügel erzeugte das Bedürfnis nach der großen, sichtbaren Rolle – doch sobald sie errungen war, empfand die darunterliegende Vier sie als unerträgliche Fremdbestimmung. Eine bemerkenswerte Parallele findet sich bei einem anderen SE4w3 in diesem Kompass, dem Schriftsteller <a href="javascript:void(0)" data-route="beruehmte-honore-de-balzac">Honoré de Balzac</a>, der sich selbst ein Adelsprädikat aneignete, das ihm nicht zustand: Beide Männer erschufen sich ein glanzvolles öffentliches Bild ihrer selbst – und beide trugen an diesem selbstgeschaffenen Mythos zeitlebens schwer, weil er nie ganz mit dem übereinstimmte, was sie innerlich fühlten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Deraa 1917: Die Wunde, die er nie öffentlich aussprach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im November 1917 wurde Lawrence bei einem Erkundungsgang in der Stadt Deraa von osmanischen Truppen gefangen genommen, geschlagen und nach eigener, später schriftlich niedergelegter Darstellung sexuell missbraucht. Über dieses Ereignis sprach er öffentlich so gut wie nie – doch in seinem Kriegsbericht „Die sieben Säulen der Weisheit“ widmete er ihm ein eigenes, quälend detailliertes Kapitel. Das Manuskript verlor er 1919 auf einem Bahnhof beinahe vollständig, schrieb es danach aus dem Gedächtnis noch einmal komplett neu, überarbeitete es in den Folgejahren mehrfach grundlegend und ließ es zunächst nur in einer limitierten, kostspieligen Subskriptionsausgabe für wenige hundert Abonnenten drucken, ohne selbst daran zu verdienen.</p>
+          <p class="vb-intro">Ab 1923 vereinbarte Lawrence mit einem befreundeten Unteroffizier, John Bruce, in unregelmäßigen Abständen ausgepeitscht zu werden – ein Ritual, das er selbst inszenierte und über Jahre fortsetzte. Biografen deuten es einhellig als eine Form der Selbstbestrafung, die mit der in Deraa erlittenen Erniedrigung zusammenhängt. Für die selbsterhaltende Vier typisch: Der tiefste Schmerz wurde nicht mitgeteilt, sondern allein, in aller Stille und über Jahre hinweg, am eigenen Körper verarbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 liegt in der Fähigkeit, aus einer zutiefst persönlichen, oft unaussprechlichen Erfahrung ein Werk von bleibender literarischer Kraft zu schaffen. „Die sieben Säulen der Weisheit“ gilt bis heute als eines der bedeutendsten Kriegs- und Selbstzeugnisse des 20. Jahrhunderts – gerade weil Lawrence seine eigene Zerrissenheit zwischen Heldenmythos und innerer Scham nicht glättete, sondern in immer neuen Fassungen ehrlich durchdrang.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – das tiefe Gefühl, dass anderen mühelos zusteht, was einem selbst fehlt: Zugehörigkeit, eine unbeschädigte Herkunft, ein Selbstbild ohne Bruch. Der Dreierflügel verschärfte dieses Ringen, indem er Lawrence dazu trieb, genau jenes makellose, heroische Selbstbild öffentlich zu erschaffen, das er innerlich am wenigsten empfand – und ihn danach umso schwerer unter dessen Gewicht leiden ließ. Der Schatten zeigte sich in einem Leben, das zwischen Weltruhm und selbstgewählter Anonymität, zwischen literarischem Meisterwerk und körperlicher Selbstbestrafung zerrissen blieb, bis Lawrence am 19. Mai 1935 an den Folgen eines Motorradunfalls in Dorset starb – sechs Tage, nachdem er zwei Fahrradfahrern auf schmaler Straße ausgewichen war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die ihre eigene Botschaft nie ganz glaubte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">T. E. Lawrence gehört zu den wenigen historischen Gestalten, die zu Lebzeiten zum Mythos wurden – und die genau daran am schwersten zu tragen hatten. Das ist die eigentümliche Spannung der selbsterhaltenden Vier mit Dreierflügel: die Fähigkeit, ein Bild zu erschaffen, das die Welt bewundert, bei gleichzeitiger, tiefer Gewissheit, dass dieses Bild nie ganz stimmt.</p>
+          <p class="vb-intro">Die Taube, die als uneheliches Kind lernte, dass die Wahrheit hinter einer Fassade verborgen bleiben muss, und die als Erwachsener genau diese Erfahrung noch einmal durchlebte – erst als selbst geschaffener Held, dann als anonymer Rekrut unter falschem Namen – das ist das bleibende Bild dieses Subtyps: ein Mensch, der Großes vollbrachte und zugleich zeitlebens daran zweifelte, ob er selbst mit dem übereinstimmte, was die Welt in ihm sah.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – der erfundene Mythos"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
       ])}
     </div>
   `);
@@ -135747,6 +135816,7 @@ function render() {
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
+      "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
