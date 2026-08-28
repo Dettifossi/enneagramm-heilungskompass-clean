@@ -32170,6 +32170,10 @@ const BIBEL_PORTRAITS = [
     heading:"Barabbas – Sozialer Typ 9",
     teaser:"SO9w1 · Der Freigelassene ohne Stimme. Ein Mann, der ganz in der Menge aufgeht – bis er anstelle eines Schweigenden freikommt und die Frage »Warum ich?« nie mehr loslässt.",
     land:"Judäa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-mutter-maria", name:"Mutter Maria", added:"2026-08-28", subtyp:"SX9w1",
+    heading:"Mutter Maria – Sexuelle Typ 9",
+    teaser:"SX9w1 · Die Tiefe trägt. Sie liebt, indem sie bleibt – unter dem Kreuz, am leeren Grab, ein Leben lang, ohne je loszulassen, was einmal in Liebe gebunden war. Das 27. und letzte Kapitel.",
+    land:"Judäa", tags:["Bibel"], gender:"w"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44863,12 +44867,12 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
     kernthema: "Verschmelzung mit einem einzelnen Wesen, Werk oder Stil statt Zugehörigkeit zu einer Gruppe",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Kris Marshall", "Ed Gein"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Kris Marshall", "Ed Gein", "Mutter Maria"],
     fingerabdruecke: [
       {
         titel: "Die eine Bindung statt der vielen Kontakte",
         beschreibung: "Immer wieder zentriert sich das Leben nicht um ein Netzwerk, eine Institution oder ein Publikum, sondern um eine einzelne, oft nicht-menschliche oder sehr private Beziehung bzw. ein einzelnes Werk oder eine einzelne Rolle. Diese eine Verschmelzung wird zum Dreh- und Angelpunkt der gesamten weiteren Biografie – bis hin zur Auflösung der Grenze zwischen dem eigenen Ich und dem Gegenüber.",
-        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber; Mario Barth, der seit seinem Bühnendebüt 2001 ›von da an mit einer Bühnenfigur verschmolz, die zum Millionenpublikum sprach‹ – dem Berliner Kumpeltyp; Keanu Reeves' Verschmelzung mit einzelnen ikonischen Rollen (Neo, John Wick), ohne die dazugehörige Star-Fassade je mitzuleben; Elizabeth Barrett Browning, deren zwanzig Jahre Isolation im Vaterhaus sich binnen zwanzig Monaten Briefwechsel in die eine zentrale Bindung ihres restlichen Lebens verwandelten – ›die SX9 investiert ihre gesamte Energie in die eine Beziehung, die zählt, und lässt alles andere – auch die eigene Sicherheit – dahinter zurücktreten‹; Kris Marshall, der elf Jahre lang in ›My Family‹ denselben Charakter spielte und über ein Jahrzehnt hinweg dieselbe Werbefigur verkörperte, bevor er ›Death in Paradise‹ nach eigenen Angaben verließ, ›um mehr Zeit mit seiner Familie zu verbringen‹ – wenige, dafür sehr lange gehaltene Bindungen statt vieler kurzer."
+        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber; Mario Barth, der seit seinem Bühnendebüt 2001 ›von da an mit einer Bühnenfigur verschmolz, die zum Millionenpublikum sprach‹ – dem Berliner Kumpeltyp; Keanu Reeves' Verschmelzung mit einzelnen ikonischen Rollen (Neo, John Wick), ohne die dazugehörige Star-Fassade je mitzuleben; Elizabeth Barrett Browning, deren zwanzig Jahre Isolation im Vaterhaus sich binnen zwanzig Monaten Briefwechsel in die eine zentrale Bindung ihres restlichen Lebens verwandelten – ›die SX9 investiert ihre gesamte Energie in die eine Beziehung, die zählt, und lässt alles andere – auch die eigene Sicherheit – dahinter zurücktreten‹; Kris Marshall, der elf Jahre lang in ›My Family‹ denselben Charakter spielte und über ein Jahrzehnt hinweg dieselbe Werbefigur verkörperte, bevor er ›Death in Paradise‹ nach eigenen Angaben verließ, ›um mehr Zeit mit seiner Familie zu verbringen‹ – wenige, dafür sehr lange gehaltene Bindungen statt vieler kurzer.; Mutter Maria (Bibel-Porträt), deren gesamtes Leben sich um die eine Verbindung zu ihrem Sohn zentrierte, unter dem Kreuz, am leeren Grab und darüber hinaus: ›Ich bin da, weil du bist‹ – keine Rolle, kein Netzwerk, sondern die eine Bindung, die nie losgelassen wurde."
       },
       {
         titel: "Scheinbare Trägheit, die sich bei Bedarf in volle, präzise Intensität verwandelt",
@@ -56804,6 +56808,7 @@ function carlRogersPortraitPage() {
           {route:"beruehmte-hundertwasser", label:"Portr\xe4t: Friedensreich Hundertwasser (SX9w8)"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-dakota-johnson", label:"Portr\xe4t: Dakota Johnson (SX9w8)"},
+          {route:"bibel-mutter-maria", label:"Bibel-Porträt: Mutter Maria (SX9w1)"},
         ])}
       </div>
     </div>
@@ -93641,7 +93646,7 @@ function enneagrammBibelPage() {
   const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p + n));
   const registerBox = `
     <div style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">
-      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Die 27 Subtypen (nach und nach vervollständigt)</p>
+      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Die 27 Subtypen – vollständig</p>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">
         ${allCodes.map(code => {
           const n = parseInt(code.slice(-1));
@@ -95774,6 +95779,87 @@ function barabbasPage() {
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
         {route:"bibel-jakobus", label:"Bibel-Porträt: Jakobus, der Sohn des Alphäus (SE9w1)"},
+        {route:"bibel-mutter-maria", label:"Bibel-Porträt: Mutter Maria (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function mutterMariaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-mutter-maria-portrait.jpg" alt="Mutter Maria – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mutter Maria</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexuelle Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Tiefe trägt – Tierentsprechung: Faultier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Bei dem Kreuz Jesu standen seine Mutter und die Schwester seiner Mutter, Maria, die Frau des Klopas, und Maria Magdalena.« (Johannes 19,25)</p>
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun – es umklammert, ohne zu greifen, es trägt sein Gewicht in aller Ruhe, ganz gegenwärtig, ganz verbunden, ohne Eile. Maria war nie laut gewesen. Nicht als Mädchen, nicht als Mutter, nicht als Jüngerin. Ihre Stimme war wie das Licht am frühen Morgen, kaum zu greifen, aber nicht zu übersehen. Sie war dort, wo Leben begann. Und sie blieb, wo Leben endete. Immer in der Nähe, nicht im Vordergrund, aber als innerer Mittelpunkt dessen, was geschah.</p>
+          <p class="vb-intro">Menschen kamen zur Ruhe, wenn sie in ihrer Gegenwart waren, ohne zu wissen, warum. Vielleicht, weil sie nichts forderte. Vielleicht, weil sie alles empfing. Genau wie das Faultier, das sich an seinen Ast klammert, ohne ihn zu besitzen, war Marias Nähe nicht besitzergreifend, aber unverrückbar. Sie konnte sich in den Hintergrund stellen, ohne sich selbst zu verlieren. Und doch, ihr Dasein hatte Gewicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Lieben durch Bleiben, nicht durch Besitz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihre Art zu lieben war keine Frage, keine Geste, kein Anspruch. Sie liebte, indem sie blieb. Maria war nicht naiv. Sie wusste, dass sein Weg nicht ins Haus zurückführen würde. Sie kannte die Schriften, die Zeichen, die Tiefe seines Blicks. Und doch war ihre Hoffnung keine Forderung. Sie wollte ihn nicht retten. Sie wollte nur nicht von ihm getrennt sein. Die Verbindung war ihr Halt, nicht um ihn zu besitzen, sondern um ihn nicht allein zu lassen.</p>
+          <p class="vb-intro">Die anderen diskutierten, widersprachen, forderten, flohen. Sie blieb. Und in diesem Bleiben war sie nicht schwach. Sie war der Anker, an dem die Liebe sich erinnerte, wer sie war. Sondern: Ich bin da, weil du bist – diese vollständige, bedingungslose Verschmelzung ohne jeden Anspruch auf Gegenleistung ist der Kern der sexuellen Neun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Reine, prinzipientreue Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Neun eine stille moralische Klarheit, eine Reinheit der Hingabe, die nicht aus Berechnung oder Bedürfnis entsteht, sondern aus einer inneren, fast unbeirrbaren Richtigkeit. Der Weg nach Golgatha war kein Weg, den man freiwillig ging. Nicht als Freund, nicht als Mutter. Und doch ging sie ihn, nicht aus Pflicht, sondern weil sie nicht anders konnte. In der Menge war sie nicht laut, nicht auffällig, nicht haltend. Sie ging. Wie eine Linie durch das Chaos.</p>
+          <p class="vb-intro">Andere wichen zurück. Selbst die Jünger, stark in der Stunde der Wunder, wurden klein in der Stunde der Angst. Aber Maria stand. Sie weinte nicht laut. Sie klagte nicht. Sie schrie nicht gegen das Unrecht. Ihr Schmerz hatte keine Worte, aber er hatte Tiefe. Diese unbestechliche, fast asketische Stille inmitten des Zusammenbruchs aller anderen trägt die Handschrift des Einserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Im Innersten verwundet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es war vorbei. Das Licht war gegangen, das Wort war verstummt, der Leib war kalt. Maria stand noch da, als die Menge sich verlor. Denn sie sah nicht mit den Augen, sondern mit dem Herzensgrund, in dem Liebe nicht stirbt, auch wenn der Körper fällt. Ihre Hände waren leer, aber nicht hilflos. Ihre Augen waren trocken, aber nicht kalt. Ihr Inneres war verwundet, nicht von einem Schlag, sondern von einem Riss, der nicht außen sichtbar war, sondern innen ewig blieb. Und doch: Es war kein Zorn in ihr. Kein Aufstand. Kein Schrei nach Gerechtigkeit.</p>
+          <p class="vb-intro">Andere hätten sich verloren, in Bitterkeit, in Wut, in Schuld. Maria nicht. Nicht, weil sie stärker war, sondern weil sie tiefer war. Sie hatte sich nie aus der Mitte herausbewegt. Ihre Nähe zu Jesus war nicht äußerlich gewesen, nicht Besitz, nicht Mutterstolz, nicht Projektion. Sie nahm den Schmerz auf wie ein Gefäß, nicht um daran zu zerbrechen, sondern um ihn zu tragen. Für die, die flohen. Für die, die es nicht aushielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die unsichtbare Mitte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Und dann kam der Morgen. Maria Magdalena kehrte zurück, atemlos, fassungslos: »Ich habe den Herrn gesehen.« Die Jünger zweifelten, rannten, stritten, hofften. Doch Maria, die Mutter, tat keines dieser Dinge. Sie saß still, mit dem Wissen in sich, dass die Liebe nicht stirbt. Es war, als hätte sie auf ihn gewartet, nicht auf den Beweis. Als wüsste sie, dass die Liebe, wenn sie ganz ist, auch den Tod mitnimmt, und dennoch wiederkehrt.</p>
+          <p class="vb-intro">Maria lebte weiter. Nicht als Figur des Glanzes, nicht als Stimme der Bewegung. Sie schrieb keine Briefe, predigte keine Worte, gründete keine Kirchen. Und doch, sie war die Mitte, um die sich vieles ordnete. Nicht sichtbar, nicht offiziell, aber spürbar. Wo sie war, da war Sammlung. Wo sie schwieg, da wuchs Vertrauen. Sie war kein Zentrum der Macht, sondern der Tiefe. Keine Anführerin, sondern eine Quelle. Sie wollte nichts für sich, und gerade deshalb fand jeder bei ihr Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Nicht dass sie trug, sondern was sie trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Man sagt, sie sei gestorben in Frieden. Kein dramatischer Abschied, kein letztes Wort. Sondern ein Hineingehen, wie jemand, der heimkehrt. Sie hatte nicht das Weltliche überwunden. Sie hatte es durchliebt. Und das war ihre Größe: Nicht, dass sie stand, sondern wie sie stand. Nicht, dass sie trug, sondern was sie trug. Und dass sie nie losließ, was einmal in Liebe gebunden war.</p>
+          <p class="vb-intro">Sie war wie Wasser, das umhüllt, ohne zu verschlingen. Wie Licht, das wärmt, ohne zu blenden. Ihre Präsenz brauchte keine Erklärung, keinen Trost, kein Warum. Sie war da. Und weil sie da war, war selbst der Tod nicht leer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Sie barg Ihn in sich – Mutter Maria</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Mutter Maria ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/gJc3U025VpA?rel=0" title="Sie barg Ihn in sich – Mutter Maria" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-carl-rogers", label:"Portrait: Dr. Carl Rogers (SX9w1)"},
+        {route:"bibel-barabbas", label:"Bibel-Porträt: Barabbas (SO9w1)"},
       ])}
     </div>
   `);
@@ -135938,6 +136024,7 @@ function render() {
       "bibel-saulus-auf-dem-weg-nach-damaskus": saulusAufDemWegNachDamaskusPage,
       "bibel-jakobus": jakobusPage,
       "bibel-barabbas": barabbasPage,
+      "bibel-mutter-maria": mutterMariaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

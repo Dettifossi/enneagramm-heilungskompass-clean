@@ -198,6 +198,10 @@ const BIBEL_PORTRAITS = [
     heading:"Barabbas – Social Type 9",
     teaser:"SO9w1 · The freed man without a voice. A man who dissolves entirely into the crowd – until he goes free in place of a silent man, and the question \"Why me?\" never lets go.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-mutter-maria", name:"Mother Mary", added:"2026-08-28", subtyp:"SX9w1",
+    heading:"Mother Mary – Sexual Type 9",
+    teaser:"SX9w1 · The depth that carries. She loves by staying – beneath the cross, at the empty tomb, for a lifetime, never letting go of what was once bound in love. The 27th and final chapter.",
+    land:"Judea", tags:["Bible"], gender:"f"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -18418,6 +18422,7 @@ function carlRogersPortraitPage() {
           {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
+          {route:"bibel-mutter-maria", label:"Bible Portrait: Mother Mary (SX9w1)"},
         ])}
       </div>
     </div>
@@ -45098,12 +45103,12 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Merging with a single being, work, or style instead of belonging to a group",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein", "Mother Mary"],
     fingerabdruecke: [
       {
         titel: "The one bond instead of many contacts",
         beschreibung: "Life repeatedly centers not around a network, an institution, or an audience, but around a single, often non-human or very private relationship, or a single work or role. This one merging becomes the pivot of the entire further biography – up to a dissolving of the boundary between self and other.",
-        beleg: "Foster and his nameless octopus, Goodall and the chimpanzee David Greybeard, Salceda and the sloth Velcro; Velázquez in 'Las Meninas,' where 'the boundary between viewer and viewed blurs'; Beltracchi, whose art forgeries are described as 'merging with the spirit of dead masters'; Carl Rogers' unconditionally accepting therapeutic presence for the person before him; Mario Barth, who since his stage debut in 2001 'merged from then on with a stage persona that spoke to a mass audience' – the Berlin working-class guy character; Keanu Reeves' merging with individual iconic roles (Neo, John Wick), without ever living out the star facade that comes with them; Elizabeth Barrett Browning, whose twenty years of isolation in her father's house dissolved, within twenty months of correspondence, into the one central bond of the rest of her life – 'the SX9 invests her entire energy in the one relationship that counts, letting everything else – even her own safety – fall away.'"
+        beleg: "Foster and his nameless octopus, Goodall and the chimpanzee David Greybeard, Salceda and the sloth Velcro; Velázquez in 'Las Meninas,' where 'the boundary between viewer and viewed blurs'; Beltracchi, whose art forgeries are described as 'merging with the spirit of dead masters'; Carl Rogers' unconditionally accepting therapeutic presence for the person before him; Mario Barth, who since his stage debut in 2001 'merged from then on with a stage persona that spoke to a mass audience' – the Berlin working-class guy character; Keanu Reeves' merging with individual iconic roles (Neo, John Wick), without ever living out the star facade that comes with them; Elizabeth Barrett Browning, whose twenty years of isolation in her father's house dissolved, within twenty months of correspondence, into the one central bond of the rest of her life – 'the SX9 invests her entire energy in the one relationship that counts, letting everything else – even her own safety – fall away.'; Mother Mary (Bible portrait), whose entire life centered on the one bond with her son, beneath the cross, at the empty tomb, and beyond: 'I am here, because you are' – no role, no network, but the one bond that was never let go."
       },
       {
         titel: "Apparent sluggishness that turns, when needed, into full, precise intensity",
@@ -65567,7 +65572,7 @@ function enneagrammBibelPage() {
   const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p + n));
   const registerBox = `
     <div style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">
-      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">The 27 subtypes (filled in gradually)</p>
+      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">The 27 subtypes – complete</p>
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">
         ${allCodes.map(code => {
           const n = parseInt(code.slice(-1));
@@ -67700,6 +67705,87 @@ function barabbasPage() {
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
         {route:"bibel-jakobus", label:"Bible Portrait: James, Son of Alphaeus (SE9w1)"},
+        {route:"bibel-mutter-maria", label:"Bible Portrait: Mother Mary (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function mutterMariaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-mutter-maria-portrait.jpg" alt="Mother Mary – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mother Mary</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The depth that carries – animal correspondence: Sloth</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Animal correspondence: Sloth" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Standing near the cross of Jesus were his mother and his mother's sister, Mary the wife of Clopas, and Mary Magdalene." (John 19:25)</p>
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of the sexual Nine – it clings without grasping, it carries its weight in perfect calm, fully present, fully connected, without haste. Mary had never been loud. Not as a girl, not as a mother, not as a disciple. Her voice was like the light of early morning, hard to grasp, yet impossible to overlook. She was there where life began. And she stayed where life ended. Always nearby, never in the foreground, but as the inner center of what happened.</p>
+          <p class="vb-intro">People found calm in her presence, without knowing why. Perhaps because she demanded nothing. Perhaps because she received everything. Just as the sloth clings to its branch without possessing it, Mary's closeness was not possessive, yet unshakeable. She could place herself in the background without losing herself. And yet, her presence carried weight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Loving by Staying, Not by Possessing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her way of loving was no question, no gesture, no claim. She loved by staying. Mary was not naive. She knew his path would not lead back to the house. She knew the scriptures, the signs, the depth of his gaze. And yet her hope made no demand. She did not want to save him. She only wanted not to be separated from him. The bond was her anchor, not to possess him, but not to leave him alone.</p>
+          <p class="vb-intro">The others argued, objected, demanded, fled. She stayed. And in that staying she was not weak. She was the anchor by which love remembered who it was. Rather: I am here, because you are – this complete, unconditional merging without any claim to return is the core of the sexual Nine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Pure, Principled Devotion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine a quiet moral clarity, a purity of devotion that arises not from calculation or need, but from an inner, almost unshakeable rightness. The road to Golgotha was not a road one walked willingly. Not as a friend, not as a mother. And yet she walked it, not out of duty, but because she could not do otherwise. In the crowd she was not loud, not conspicuous, not clinging. She walked. Like a line through chaos.</p>
+          <p class="vb-intro">Others drew back. Even the disciples, strong in the hour of miracles, grew small in the hour of fear. But Mary stood. She did not weep loudly. She did not lament. She did not cry out against the injustice. Her pain had no words, but it had depth. This incorruptible, almost ascetic stillness amid everyone else's collapse carries the signature of the One-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Wounded to the Core</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It was over. The light had gone, the word had fallen silent, the body was cold. Mary still stood there as the crowd dispersed. For she saw not with her eyes, but with the depth of her heart, where love does not die, even when the body falls. Her hands were empty, but not helpless. Her eyes were dry, but not cold. Her inner self was wounded, not by a blow, but by a tear invisible from outside yet eternally present within. And yet: there was no anger in her. No uprising. No cry for justice.</p>
+          <p class="vb-intro">Others would have lost themselves, in bitterness, in rage, in guilt. Not Mary. Not because she was stronger, but because she was deeper. She had never moved out of her center. Her closeness to Jesus had never been outward, not possession, not maternal pride, not projection. She took the pain in like a vessel, not to be broken by it, but to carry it. For those who fled. For those who could not bear it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Invisible Center</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">And then the morning came. Mary Magdalene returned, breathless, stunned: "I have seen the Lord." The disciples doubted, ran, argued, hoped. But Mary, the mother, did none of these things. She sat still, holding within her the knowledge that love does not die. It was as though she had waited for him, not for the proof. As if she knew that love, when whole, takes even death along with it, and yet returns.</p>
+          <p class="vb-intro">Mary lived on. Not as a figure of splendor, not as a voice of the movement. She wrote no letters, preached no words, founded no churches. And yet, she was the center around which much was ordered. Not visibly, not officially, but perceptibly. Where she was, there was gathering. Where she was silent, trust grew. She was not a center of power, but of depth. Not a leader, but a source. She wanted nothing for herself, and precisely because of that, everyone found room beside her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Not That She Stood, but How She Stood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is said she died in peace. No dramatic farewell, no final word. Rather a going-in, like someone returning home. She had not overcome the worldly. She had loved it through. And that was her greatness: not that she stood, but how she stood. Not that she carried, but what she carried. And that she never let go of what had once been bound in love.</p>
+          <p class="vb-intro">She was like water that envelops without swallowing. Like light that warms without blinding. Her presence needed no explanation, no comfort, no why. She was there. And because she was there, even death was not empty.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: She Held Him Within Her – Mother Mary</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Mother Mary, giving voice to her inner journey.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/gJc3U025VpA?rel=0" title="She Held Him Within Her – Mother Mary" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source material for this rubric as a psychological novel of subtypes.", "Die 27 Gesichter der Seele – A Psychological Novel of Subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-carl-rogers", label:"Portrait: Dr. Carl Rogers (SX9w1)"},
+        {route:"bibel-barabbas", label:"Bible Portrait: Barabbas (SO9w1)"},
       ])}
     </div>
   `);
@@ -100236,6 +100322,7 @@ function subtypeSchaubilderPage() {
       "bibel-saulus-auf-dem-weg-nach-damaskus": saulusAufDemWegNachDamaskusPage,
       "bibel-jakobus": jakobusPage,
       "bibel-barabbas": barabbasPage,
+      "bibel-mutter-maria": mutterMariaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
