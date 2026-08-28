@@ -186,6 +186,10 @@ const BIBEL_PORTRAITS = [
     heading:"High Priest Caiaphas – Social Type 8",
     teaser:"SO8w9 · The guardian of order. \"It is better that one man should die than that the whole nation should perish\" – until one silent gaze from Jesus reveals the cracks in his own foundation.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-saulus-auf-dem-weg-nach-damaskus", name:"Saul on the Road to Damascus", added:"2026-08-28", subtyp:"SX8w7",
+    heading:"Saul on the Road to Damascus – Sexual Type 8",
+    teaser:"SX8w7 · Struck by the light. A zealot, consuming like wildfire – until a light proves stronger than his will and three days of blindness become a fall into his own depths.",
+    land:"Judea/Syria", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -25682,6 +25686,7 @@ function giacomoPucciniPortraitPage() {
         {route:"beruehmte-diogenes", label:"Portrait: Diogenes of Sinope (SX8w7)"},
         {route:"beruehmte-gerhard-schroeder", label:"Portrait: Gerhard Schröder (SX8w7)"},
         {route:"krankheitsportraets-giacomo-puccini", label:"Illness Portrait: Giacomo Puccini – Throat Cancer & Turandot"},
+        {route:"bibel-saulus-auf-dem-weg-nach-damaskus", label:"Bible Portrait: Saul on the Road to Damascus (SX8w7)"},
       ])}
     </div>
   `);
@@ -44479,7 +44484,7 @@ const LEBENSMUSTERKOMPASS = {
   SX8: {
     tier: "Crocodile",
     kernthema: "Patient waiting, then complete, lightning-fast seizure (Naranjo: Possession)",
-    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes of Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne"],
+    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes of Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne", "Saul on the Road to Damascus"],
     fingerabdruecke: [
       {
         titel: "Patient waiting, then complete, lightning-fast seizure",
@@ -44494,7 +44499,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Relentless drive that never fades over a whole lifetime",
         beschreibung: "One's own hunger for expression, experience, or impact does not diminish over decades – no retreat, no creative pause, no noticeable drop in intensity with age.",
-        beleg: "Pablo Picasso, who for 91 years worked 'tirelessly, insatiably, unswayed by any expectation that was not his own' and left behind more than 20,000 works: 'The crocodile eats as long as it's hungry. And Picasso's hunger ... never went out'; Gerhard Schröder, whose 'entire instinctual orientation' was already visible as a young Juso chairman at the Chancellery fence: 'I want to get in there.'; Prof. Grahame Webb, who before specializing in crocodiles had already researched kangaroos, sharks, sea turtles, monkeys, tuna, and whales, and afterward built a research station, crocodile farm, school, and novel on top of that – never a single territory, always a growing empire."
+        beleg: "Pablo Picasso, who for 91 years worked 'tirelessly, insatiably, unswayed by any expectation that was not his own' and left behind more than 20,000 works: 'The crocodile eats as long as it's hungry. And Picasso's hunger ... never went out'; Gerhard Schröder, whose 'entire instinctual orientation' was already visible as a young Juso chairman at the Chancellery fence: 'I want to get in there.'; Prof. Grahame Webb, who before specializing in crocodiles had already researched kangaroos, sharks, sea turtles, monkeys, tuna, and whales, and afterward built a research station, crocodile farm, school, and novel on top of that – never a single territory, always a growing empire.; Saul on the Road to Damascus (Bible portrait), whose zeal against the Nazarenes did not soften after his conversion but redirected its full force toward a new target: 'He was like a fire in a dry landscape: fast, unstoppable ... consuming everything' – the drive itself remained, only its direction reversed."
       },
       {
         titel: "When possession-taking turns into a network of control over people (shadow form)",
@@ -67448,6 +67453,87 @@ function kaiphasPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
         {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bible Portrait: The Centurion at the Cross (SE8w9)"},
+        {route:"bibel-saulus-auf-dem-weg-nach-damaskus", label:"Bible Portrait: Saul on the Road to Damascus (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function saulusAufDemWegNachDamaskusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-saulus-auf-dem-weg-nach-damaskus-portrait.jpg" alt="Saul on the Road to Damascus – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Saul on the Road to Damascus</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexual Type 8 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Struck by the light – animal correspondence: Crocodile</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Animal correspondence: Crocodile" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Saul was still breathing out murderous threats against the Lord's disciples." (Acts 9:1)</p>
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Eight – unstoppable, consuming in its intensity, bound to strength, to clarity, to what is true, even when it burns. He was like a fire in a dry landscape: fast, unstoppable, not malicious, but consuming everything that stood in its way. Saul was young, educated, mentored by the best, a student of Gamaliel, a Pharisee with a sharp eye and a heart that did not rest as long as anything untrue still breathed.</p>
+          <p class="vb-intro">He did not hate, he pursued – not out of malice, but out of a sense of rightness. The new movement of the Nazarenes threatened what was holy, diluted the Law. Saul saw himself as a guardian, as the one who did not merely see the crack in the foundation but sealed it with fire. The sexual Eight does not love mildly. There was no uncertainty in his gaze. He was consistent, never inconsistent – he killed not with his hands, but with words, with mandates, with system.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: An Oath, Lived with Full Passion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Loyalty to the Law was no construct for him – it was an oath he lived, as the sexual subtype of the Eight, with his whole passion. As he set out on the road to Damascus, he did so with a letter in his hand and a fire in his heart. He wanted to purify, to save, to destroy, so that what was true would remain. That he himself was the one who needed to be purified, he did not yet suspect.</p>
+          <p class="vb-intro">The heat of the sun burned through the dusty robe as Saul continued forging his way. Fueled by anger at what he perceived as blasphemy, he felt carried by a mission greater than himself. And yet, hidden beneath this flaming sense of purpose, a barely perceptible tremor flickered.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Consuming, Expansive Energy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the sexual Eight a blazing, outward-expanding intensity – the energy seeks movement, targets, trajectories, instead of gathering quietly within. Then came the light – not like the light of the sun, not like fire or lightning, but a force, a beam that did not merely strike but penetrated. It was not a light that illuminated, but one that revealed. Saul cried out, but his voice went unheard.</p>
+          <p class="vb-intro">"Saul, Saul, why do you persecute me?" The voice did not come from outside – it came from where, until now, only his will had lived. Saul had fallen, not only physically. And for the first time in his life, he did not know what to do next. It is precisely this unrestrained, outward-driving force, which seizes hold of everything even in collapse, that carries the signature of the Seven-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Three Days of Blindness: The Fall Inward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He did not know how long he had been lying there. The light was gone, but it had marked him. He saw nothing, only darkness. Yet this darkness was not empty – it was pregnant with truth. In Damascus he remained for three days, neither eating nor drinking nor speaking – he wrestled, with God, with himself, with what was. The sexual Eight does not fall gently into a new life – it fights its way through. Its transformation does not happen quietly, but through inner tremor.</p>
+          <p class="vb-intro">In the darkness there was no comfort, but presence. He could not see it, but he knew: something was with him. And for the first time he understood the word "grace" not as theory, but as something that cannot be earned, only received.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Hand on His Eyes: The First Sight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ananias, a Jewish Christian in Damascus, heard a voice in the night: "Get up, go to the street called Straight, and ask for Saul of Tarsus." Ananias was startled – not by the voice, but by the name. "Lord, I have heard from many about this man, how much evil he has done." But the answer was simple: "He is my chosen instrument." Ananias obeyed, not out of courage, but out of trust.</p>
+          <p class="vb-intro">He approached, laid his hands on him, and said only: "Brother Saul, the Lord has sent me…" Saul heard and wept, not loudly, but so that his whole body trembled. The hand on his eyes was like a weight that did not press down but set free. And then: light. Not the light of Damascus, but the light within. He saw – not only the world, but his place in it. And he stood up, not proud, not powerful, but connected.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. From Burning to Surrender</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The man who stepped out of the house in Damascus was no longer the one who had entered it. Saul, the zealot, had not vanished, but transformed. He had not become gentle, yet his strength had found a new target: no longer to crush, but to build up; no longer to eradicate, but to proclaim. The sexual Eight does not lose its strength – it surrenders it. And that is its greatest victory. He began to teach, not timidly, but with the same passion that once pursued the disciples. Only now it burned for them.</p>
+          <p class="vb-intro">He became Paul – not because he reinvented himself, but because he finally became what he had always been meant to be. He would suffer, be persecuted, abandoned, imprisoned, misunderstood. But he would not stop. For the light that had struck him now burned within him, and through him. "I live, yet not I, but Christ lives in me."</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Saul on the Road to Damascus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Saul, giving voice to his inner journey.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/mEc9zE0a-Ow?rel=0" title="Saul on the Road to Damascus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source material for this rubric as a psychological novel of subtypes.", "Die 27 Gesichter der Seele – A Psychological Novel of Subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7)"},
+        {route:"bibel-kaiphas", label:"Bible Portrait: High Priest Caiaphas (SO8w9)"},
       ])}
     </div>
   `);
@@ -99981,6 +100067,7 @@ function subtypeSchaubilderPage() {
       "bibel-johannes-der-geliebte": johannesDerGeliebtePage,
       "bibel-der-hauptmann-unter-dem-kreuz": derHauptmannUnterDemKreuzPage,
       "bibel-kaiphas": kaiphasPage,
+      "bibel-saulus-auf-dem-weg-nach-damaskus": saulusAufDemWegNachDamaskusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

@@ -32158,6 +32158,10 @@ const BIBEL_PORTRAITS = [
     heading:"Der Hohepriester Kaiphas – Sozialer Typ 8",
     teaser:"SO8w9 · Der Wächter der Ordnung. »Es ist besser, dass ein Mensch stirbt, als dass das ganze Volk zugrunde geht« – bis ein einziger stiller Blick Jesu die Risse in seinem eigenen Fundament sichtbar macht.",
     land:"Judäa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-saulus-auf-dem-weg-nach-damaskus", name:"Saulus auf dem Weg nach Damaskus", added:"2026-08-28", subtyp:"SX8w7",
+    heading:"Saulus auf dem Weg nach Damaskus – Sexueller Typ 8",
+    teaser:"SX8w7 · Vom Feuer getroffen. Ein Eiferer, verzehrend wie ein Brand – bis ein Licht stärker ist als sein Wille und drei Tage Blindheit zum Sturz ins Innere werden.",
+    land:"Judäa/Syrien", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44247,7 +44251,7 @@ const LEBENSMUSTERKOMPASS = {
   SX8: {
     tier: "Krokodil",
     kernthema: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff (Naranjo: Besitz/Besitzergreifung)",
-    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes von Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne"],
+    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes von Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne", "Saulus auf dem Weg nach Damaskus"],
     fingerabdruecke: [
       {
         titel: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff",
@@ -44262,7 +44266,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unermüdlicher, über ein ganzes Leben nie erlöschender Antrieb",
         beschreibung: "Der eigene Hunger nach Ausdruck, Erfahrung oder Wirkung lässt über Jahrzehnte nicht nach – ohne Rückzug, ohne Schaffenspause, ohne dass die Intensität mit dem Alter spürbar abnimmt.",
-        beleg: "Pablo Picasso, der 91 Jahre lang ›unermüdlich, unersättlich, unbeirrbar von jeder Erwartung, die nicht seine eigene war‹ arbeitete und über 20.000 Werke hinterließ: ›Das Krokodil frisst, solange es Hunger hat. Und Picassos Hunger … erlosch nie‹; Gerhard Schröder, dessen ›ganze Instinktausrichtung‹ bereits als Jusochef am Kanzleramtszaun sichtbar wurde: ›Ich will da rein.‹; Prof. Grahame Webb, der vor der Spezialisierung auf Krokodile bereits an Kängurus, Haien, Meeresschildkröten, Affen, Thunfischen und Walen forschte und danach zusätzlich Forschungsstation, Krokodilfarm, Schule und Roman aufbaute – nie ein einziges Revier, immer ein wachsendes Imperium."
+        beleg: "Pablo Picasso, der 91 Jahre lang ›unermüdlich, unersättlich, unbeirrbar von jeder Erwartung, die nicht seine eigene war‹ arbeitete und über 20.000 Werke hinterließ: ›Das Krokodil frisst, solange es Hunger hat. Und Picassos Hunger … erlosch nie‹; Gerhard Schröder, dessen ›ganze Instinktausrichtung‹ bereits als Jusochef am Kanzleramtszaun sichtbar wurde: ›Ich will da rein.‹; Prof. Grahame Webb, der vor der Spezialisierung auf Krokodile bereits an Kängurus, Haien, Meeresschildkröten, Affen, Thunfischen und Walen forschte und danach zusätzlich Forschungsstation, Krokodilfarm, Schule und Roman aufbaute – nie ein einziges Revier, immer ein wachsendes Imperium.; Saulus auf dem Weg nach Damaskus (Bibel-Porträt), dessen Eifer gegen die Nazarener sich nach der Bekehrung nicht abschwächte, sondern mit derselben Wucht auf ein neues Ziel richtete: ›Er war wie ein Brand in einer trockenen Landschaft: schnell, unaufhaltsam … alles verzehrend‹ – der Antrieb selbst blieb, nur seine Richtung kehrte sich um."
       },
       {
         titel: "Wenn Besitzergreifung sich in ein Netzwerk der Kontrolle über Menschen verwandelt (Schattenform)",
@@ -53210,6 +53214,7 @@ function giacomoPucciniPortraitPage() {
         {route:"beruehmte-diogenes", label:"Porträt: Diogenes von Sinope (SX8w7)"},
         {route:"beruehmte-gerhard-schroeder", label:"Porträt: Gerhard Schröder (SX8w7)"},
         {route:"krankheitsportraets-giacomo-puccini", label:"Krankheitsporträt: Giacomo Puccini – Kehlkopfkrebs & Turandot"},
+        {route:"bibel-saulus-auf-dem-weg-nach-damaskus", label:"Bibel-Porträt: Saulus auf dem Weg nach Damaskus (SX8w7)"},
       ])}
     </div>
   `);
@@ -95522,6 +95527,87 @@ function kaiphasPage() {
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
         {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
+        {route:"bibel-saulus-auf-dem-weg-nach-damaskus", label:"Bibel-Porträt: Saulus auf dem Weg nach Damaskus (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function saulusAufDemWegNachDamaskusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-saulus-auf-dem-weg-nach-damaskus-portrait.jpg" alt="Saulus auf dem Weg nach Damaskus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Saulus auf dem Weg nach Damaskus</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Vom Feuer getroffen – Tierentsprechung: Krokodil</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Tierentsprechung: Krokodil" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Noch schnaubte Saulus Drohung und Mord gegen die Jünger des Herrn.« (Apg 9,1)</p>
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht – unaufhaltsam, verzehrend in seiner Intensität, gebunden an Kraft, an Klarheit, an das Wahre, auch wenn es brennt. Er war wie ein Brand in einer trockenen Landschaft: schnell, unaufhaltsam, nicht böswillig, aber alles verzehrend, was sich ihm in den Weg stellte. Saulus war jung, gebildet, gefördert von den Besten, ein Schüler des Gamaliel, ein Pharisäer mit scharfem Blick und einem Herzen, das nicht ruhte, solange etwas Unwahres atmete.</p>
+          <p class="vb-intro">Er hasste nicht, er verfolgte, nicht aus Bosheit, sondern aus einem Gefühl von Richtigkeit. Die neue Bewegung der Nazarener bedrohte das Heilige, verwässerte das Gesetz. Saulus verstand sich als Wächter, als der, der den Riss im Fundament nicht nur sah, sondern mit Feuer schloss. Die sexuelle Acht liebt nicht milde. In seinem Blick lag keine Unsicherheit. Er war konsequent, niemals inkonsequent, tötete nicht mit den Händen, aber mit Worten, mit Mandaten, mit System.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Ein Eid, mit ganzer Leidenschaft gelebt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Loyalität zum Gesetz war für ihn kein Konstrukt, sie war ein Eid, den er als sexueller Subtyp der Acht mit ganzer Leidenschaft lebte. Als er sich auf den Weg nach Damaskus machte, tat er es mit einem Brief in der Hand und einem Feuer im Herzen. Er wollte reinigen, retten, zerstören, damit das Wahre blieb. Dass er selbst der war, der gereinigt werden musste, ahnte er nicht, noch nicht.</p>
+          <p class="vb-intro">Die Hitze der Sonne brannte durch das staubige Gewand, als Saulus sich weiter seinen Weg bahnte. Befeuert vom Zorn über das, was er als Gotteslästerung empfand, fühlte er sich getragen von einer Mission, größer als er selbst. Und doch, verborgen unter diesem flammenden Sendungsbewusstsein, zuckte ein kaum erkennbares Vibrieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Verzehrende, expansive Energie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Acht eine flammende, nach außen expandierende Intensität – die Energie sucht sich Bewegung, Ziele, Bahnen, statt sich still zu sammeln. Dann kam das Licht, nicht wie das Licht der Sonne, nicht wie Feuer oder Blitz, sondern eine Wucht, ein Strahl, der nicht nur traf, sondern eindrang. Es war kein Licht, das beleuchtete, sondern eines, das offenbarte. Saulus schrie, doch seine Stimme wurde nicht gehört.</p>
+          <p class="vb-intro">»Saul, Saul, warum verfolgst du mich?« Die Stimme kam nicht von außen, sie kam von dort, wo bisher nur der Wille gewohnt hatte. Saulus war gefallen, nicht nur körperlich. Und zum ersten Mal in seinem Leben wusste er nicht, was als Nächstes zu tun sei. Genau diese ungebremste, nach außen drängende Wucht, die selbst im Zusammenbruch noch alles ergreift, trägt die Handschrift des Siebenerflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Drei Tage Blindheit: Der Sturz ins Innere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er wusste nicht, wie lange er gelegen hatte. Das Licht war fort, aber es hatte ihn markiert. Er sah nichts, nur Dunkelheit. Doch diese Dunkelheit war nicht leer, sie war schwanger mit Wahrheit. In Damaskus blieb er drei Tage, aß nicht, trank nicht, sprach nicht, er rang, mit Gott, mit sich, mit dem, was war. Die sexuelle Acht fällt nicht in ein neues Leben, sie kämpft sich hindurch. Ihre Wandlung geschieht nicht leise, sondern durch inneres Beben.</p>
+          <p class="vb-intro">In der Dunkelheit war kein Trost, aber Gegenwart. Er konnte sie nicht sehen, aber er wusste: Etwas war bei ihm. Und zum ersten Mal verstand er das Wort »Gnade« nicht als Theorie, sondern als etwas, das nicht verdient werden kann, nur angenommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Hand auf den Augen: Der erste Blick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ananias, ein jüdischer Christ in Damaskus, hörte in der Nacht eine Stimme: »Steh auf, geh in die gerade Straße, frage nach Saulus von Tarsus.« Ananias erschrak, nicht vor der Stimme, sondern vor dem Namen. »Herr, von vielen habe ich gehört, wie viel Böses dieser Mann getan hat.« Doch die Antwort war einfach: »Er ist mein auserwähltes Werkzeug.« Ananias gehorchte, nicht aus Mut, sondern aus Vertrauen.</p>
+          <p class="vb-intro">Er trat heran, legte ihm die Hände auf und sprach nur: »Bruder Saulus, der Herr hat mich gesandt…« Saulus hörte und weinte, nicht laut, aber so, dass sein ganzer Körper zuckte. Die Hand auf seinen Augen war wie ein Gewicht, das nicht drückte, sondern freisetzte. Und dann: Licht. Nicht das Licht von Damaskus, sondern das Licht im Inneren. Er sah, nicht nur die Welt, sondern seinen Platz in ihr. Und er stand auf, nicht stolz, nicht mächtig, aber verbunden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Vom Brennen zur Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Mann, der aus dem Haus in Damaskus trat, war nicht mehr der, der es betreten hatte. Saulus, der Eiferer, war nicht verschwunden, aber verwandelt. Er war nicht sanft geworden, doch seine Kraft hatte ein neues Ziel: nicht mehr zerschlagen, sondern aufrichten, nicht mehr ausmerzen, sondern verkündigen. Die sexuelle Acht verliert nicht ihre Stärke, sie übergibt sie. Und das ist ihr größter Sieg. Er begann zu lehren, nicht zaghaft, sondern mit derselben Leidenschaft, die einst die Jünger verfolgte. Doch nun brannte sie für sie.</p>
+          <p class="vb-intro">Er wurde zum Paulus, nicht weil er sich neu erfand, sondern weil er endlich der wurde, der immer gemeint war. Er würde leiden, verfolgt werden, verlassen, eingekerkert, missverstanden. Aber er würde nicht aufhören. Denn das Licht, das ihn getroffen hatte, brannte nun in ihm, und durch ihn. »Ich lebe, doch nun nicht ich, sondern Christus lebt in mir.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Saulus auf dem Weg nach Damaskus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Saulus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/mEc9zE0a-Ow?rel=0" title="Saulus auf dem Weg nach Damaskus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7)"},
+        {route:"bibel-kaiphas", label:"Bibel-Porträt: Der Hohepriester Kaiphas (SO8w9)"},
       ])}
     </div>
   `);
@@ -135683,6 +135769,7 @@ function render() {
       "bibel-johannes-der-geliebte": johannesDerGeliebtePage,
       "bibel-der-hauptmann-unter-dem-kreuz": derHauptmannUnterDemKreuzPage,
       "bibel-kaiphas": kaiphasPage,
+      "bibel-saulus-auf-dem-weg-nach-damaskus": saulusAufDemWegNachDamaskusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
