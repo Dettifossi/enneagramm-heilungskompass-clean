@@ -32106,6 +32106,10 @@ const BIBEL_PORTRAITS = [
     heading:"Andreas \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 Der Verborgene im innersten Kreis. Erstberufener J\u00fcnger, der nie im Mittelpunkt steht \u2013 bis er begreift: \u00bbMan muss nicht im Zentrum stehen, um nah zu sein.\u00ab",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-thomas", name:"Thomas", added:"2026-08-28", subtyp:"SO4w5",
+    heading:"Thomas \u2013 Sozialer Typ 4",
+    teaser:"SO4w5 \u00b7 Die Sehnsucht nach Wahrheit. Glaubt nicht, was andere bezeugen, nur was er selbst durchlebt \u2013 bis Jesu Blick alle Trennung \u00fcberwindet: \u00bbMein Herr und mein Gott!\u00ab",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44519,12 +44523,12 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Gürteltier",
     kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Cat Stevens", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Reinhard Mey", "Elliot Rodger", "Dr. Mariella Superina"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Cat Stevens", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Reinhard Mey", "Elliot Rodger", "Dr. Mariella Superina", "Thomas"],
     fingerabdruecke: [
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Scham‹: das tiefe Gefühl, strukturell anders und mangelhaft zu sein. Nach außen zeigt sich häufig eine wirkende, undurchdringliche Fassade – Coolness, Perfektion, Humor –, die ein extrem verletzliches Inneres schützt, ohne es je ganz zu verbergen.",
-        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb; Ajeet Kaur, deren chronische Autoimmunerkrankung seit der Kindheit zur Quelle einer öffentlichen Rolle als Heilerin durch Musik wurde, während sie selbst betont, sich schon als Kind ›in die Musik zurückgezogen‹ zu haben, ›um verschwinden und mich wieder mit einem tieferen, ruhigeren Teil von mir selbst verbunden fühlen zu können‹; Leonard Cohen, dessen tiefe, gefasste Bühnenpräsenz im makellosen Anzug jahrzehntelang eine Melancholie verbarg, die er zugleich unablässig in Liedern offenlegte – ›das Gürteltier, das sich einrollt, um sich zu schützen, und hervortritt, wenn es gebraucht wird‹; Jackson, dessen fünfundzwanzigjährige, weitgehend verborgene Abhängigkeit von Schmerz- und Schlafmitteln bis zu seinem Tod hinter derselben makellosen Bühnenfassade verschwand, die auch die Vitiligo-Flecken jahrelang unsichtbar machte; Reinhard Mey, der trotz über fünf Jahrzehnten Bühnenpräsenz als ausgesprochen privater Mensch gilt, Medienrummel meidet und den tiefen Verlust seines 2014 verstorbenen Sohnes nie zur Bühnen-Inszenierung machte – das Persönliche fließt in die Musik, ohne je zur Selbstdarstellung zu werden."
+        beleg: "Romy Schneider: ›Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt‹ – ›Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden‹; Michael Jackson: ›Das Gürteltier zeigt der Welt seine Rüstung. Was darunter liegt, zeigt es fast niemandem‹; Til Schweiger und Taddl, deren ›glatte Außenfassade‹ bzw. ›scheinbar sorgloser Humor‹ dieselbe tiefe emotionale Verletzlichkeit schützt; Hugh Grant, der sich selbst wiederholt als ›terribly insecure‹ bezeichnete und dessen charmant-stotternde Leinwandfigur genau jene Unsicherheit zur Schau trug, die er privat als chronisches Selbsthass-Gefühl beschrieb; Ajeet Kaur, deren chronische Autoimmunerkrankung seit der Kindheit zur Quelle einer öffentlichen Rolle als Heilerin durch Musik wurde, während sie selbst betont, sich schon als Kind ›in die Musik zurückgezogen‹ zu haben, ›um verschwinden und mich wieder mit einem tieferen, ruhigeren Teil von mir selbst verbunden fühlen zu können‹; Leonard Cohen, dessen tiefe, gefasste Bühnenpräsenz im makellosen Anzug jahrzehntelang eine Melancholie verbarg, die er zugleich unablässig in Liedern offenlegte – ›das Gürteltier, das sich einrollt, um sich zu schützen, und hervortritt, wenn es gebraucht wird‹; Jackson, dessen fünfundzwanzigjährige, weitgehend verborgene Abhängigkeit von Schmerz- und Schlafmitteln bis zu seinem Tod hinter derselben makellosen Bühnenfassade verschwand, die auch die Vitiligo-Flecken jahrelang unsichtbar machte; Reinhard Mey, der trotz über fünf Jahrzehnten Bühnenpräsenz als ausgesprochen privater Mensch gilt, Medienrummel meidet und den tiefen Verlust seines 2014 verstorbenen Sohnes nie zur Bühnen-Inszenierung machte – das Persönliche fließt in die Musik, ohne je zur Selbstdarstellung zu werden; Thomas, dessen trotzige Forderung – ›Wenn ich nicht seine Wunden sehe, werde ich nicht glauben‹ – in Wahrheit ein Hilfeschrei war: ›Bitte, lasst mich es fühlen. Nicht hören, nicht wiederholen, sondern selbst durchleben.‹"
       },
       {
         titel: "Trägt das eigene Anderssein sichtbar zur Schau, statt es zu verbergen",
@@ -63549,6 +63553,7 @@ function leonardCohenPortraitPage() {
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
       ])}
     </div>
   `);
@@ -94406,6 +94411,87 @@ function andreasPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
         {route:"bibel-judas-iskariot", label:"Bibel-Porträt: Judas Iskariot (SX3w4)"},
+        {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function thomasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-thomas-portrait.jpg" alt="Thomas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Sehnsucht nach Wahrheit – Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Wenn ich nicht die Male der Nägel sehe, werde ich nicht glauben.« (Joh 20,25)</p>
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – es zieht sich in eine schützende Schale zurück, wenn die Welt zu roh wird, und öffnet sich nur dort, wo es sich wirklich sicher fühlt. Thomas war nicht da, als Jesus kam. Nicht weil er nicht glaubte, sondern weil er anders glaubte. Die anderen hatten ihn gefunden, den Auferstandenen, den Lichtvollen, den Lebenden nach dem Tod. Aber Thomas war draußen gewesen, allein, im Gehen, im Denken, im Ringen.</p>
+          <p class="vb-intro">Die soziale Vier glaubt nicht leicht, aber wenn sie glaubt, dann mit allem, was sie ist. Er kam zurück, sah die Gesichter, die veränderte Atmosphäre, und fühlte sich ausgeschlossen. Nicht aus Bosheit, aber: Sie haben erlebt, was mir fehlt. Und das traf ihn tiefer, als er es zeigen konnte. Denn die soziale Vier leidet nicht am Alleinsein – sie leidet daran, nicht dabei gewesen zu sein, wo das Eigentliche geschah.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Nicht dabei gewesen zu sein, wo das Eigentliche geschah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als sie sagten: »Wir haben den Herrn gesehen!«, antwortete Thomas: »Wenn ich nicht seine Wunden sehe und meine Finger hineinlege, werde ich nicht glauben.« Es klang trotzig. Aber in Wahrheit war es ein Hilfeschrei: Bitte, lasst mich es fühlen. Nicht hören, nicht wiederholen, sondern selbst durchleben. Denn soziale Vierer glauben nicht, was andere bezeugen – sie glauben, was sie in sich selbst spüren.</p>
+          <p class="vb-intro">Acht Tage lang schwieg Thomas, hörte sich die anderen an, wie ihre Stimmen zitterten vor Freude, vor Staunen, vor etwas, das er nicht hatte: Erfahrung. Und in ihm loderte etwas auf, nicht Neid, sondern Entbehrung. Warum war ich nicht da? Soziale Vierer leben von Verbindung. Doch ihre tiefste Angst ist, dass diese Verbindung nicht für sie bestimmt ist – dass sie sehen, aber nicht gesehen werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug in die eigene Schale</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zurückgezogene, grüblerische Qualität – sie zieht sich zurück statt sich mitzuteilen, prüft innerlich, statt vorschnell zu glauben, und braucht direktes eigenes Erleben, bevor sie einer Erzählung vertraut. Er war geblieben, hatte sich nicht zurückgezogen, war nicht gegangen. Denn trotz allem war da etwas in ihm, das hoffte, dass Wahrheit ihn finden würde.</p>
+          <p class="vb-intro">Und dann kam Jesus, nicht mit Posaunen, nicht mit Tadel, einfach so, mitten im Raum, mitten im Moment. Und bevor jemand sprechen konnte, wandte sich Jesus direkt an Thomas: »Streck deinen Finger aus, sieh meine Hände. Streck deine Hand aus, leg sie in meine Seite. Sei nicht ungläubig, sondern gläubig.« Jesus wusste, nicht vom Hörensagen, nicht durch Erzählung, was Thomas gesagt hatte, als er nicht da war. Genau dieses stille, prüfende Zurückhalten, das nur dann weicht, wenn wirkliche, direkte Erkenntnis möglich wird, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Gesehenwerden in der Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas stieg nicht gleich auf. Er prüfte nichts. Er tastete nicht. Denn in dem Moment, in dem Jesus ihn wirklich ansah, war alle Trennung überwunden. Und Thomas sagte nur: »Mein Herr und mein Gott!« Nicht aus Beweis, nicht aus Pflicht, sondern aus dem Innersten seines Seins, das endlich gespiegelt wurde. Soziale Vierer brauchen keine Bühne, aber sie sehnen sich danach, dass ihr Innerstes erkannt wird, auch wenn sie es verborgen halten.</p>
+          <p class="vb-intro">Thomas hatte Jesus nicht festgehalten. Doch jetzt wurde er gehalten, von einem Blick, der mehr sagte als Worte. Und Jesus, dessen Liebe nie bloß bestätigt, sondern verwandelt, sagte: »Selig sind, die nicht sehen und doch glauben.« Nicht als Tadel, sondern als Einladung, dass Thomas nicht nur fühlen darf, sondern lernen kann, zu vertrauen, auch wenn die Tiefe einmal still bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die innere Wandlung: Meine Tiefe braucht Weite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas blieb, auch nach der Auferstehung, auch nach Pfingsten, auch nach dem Aufbruch der anderen. Doch in ihm hatte sich etwas verändert, nicht laut, nicht sichtbar, aber grundlegend. Die soziale Vier ringt mit dem Gefühl: Ich bin nicht gemeint. Doch wenn sie erkennt, dass sie zutiefst gesehen wird, entsteht eine stille, tiefe Kraft. Und Thomas hatte gespürt: Ich wurde erkannt, nicht in meinem Glanz, sondern in meinem Ringen.</p>
+          <p class="vb-intro">Er war nicht der Prediger wie Petrus, nicht der Mystiker wie Johannes, nicht der Organisator wie Jakobus. Aber er war bereit, zu gehen, wohin ihn niemand sonst schickte. Denn das Herz der SO4 ruft nicht nach Ruhm, es ruft nach Sinn, nach Einmaligkeit und nach einer Geschichte, die nur sie selbst schreiben kann. Und so brach Thomas auf, nicht gen Westen, wo die Straßen bekannter waren, sondern gen Osten, nach Syrien, nach Parthien, bis nach Indien, sagt die Überlieferung. Nicht aus Trotz, sondern weil er spürte: Meine Tiefe braucht Weite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Innere Stimmigkeit statt Applaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dort heilte er Kranke, sprach zu Fremden, gründete Gemeinschaften, die ihn nicht kannten, aber seine Echtheit fühlten. Und manchmal, nachts, wenn er allein war, legte er seine Hand an sein Herz und erinnerte sich an jenen einen Blick Jesu. Nicht, weil er zweifelte, sondern weil er spürte: Das war der Anfang. Am Ende starb er als Märtyrer, in einem fremden Land, fern der Heimat, aber mitten in seinem Ruf. Nicht gefeiert, nicht umringt, aber vollendet.</p>
+          <p class="vb-intro">Denn die soziale Vier endet nicht in Applaus, sondern in innerer Stimmigkeit. Und Thomas hatte sie gefunden. Das ist das Geschenk der SO4w5: eine Wahrhaftigkeit, die sich nicht mit gehörten Wahrheiten begnügt, sondern selbst durchlebt sein will – ein Gürteltier, das seine Schale erst öffnet, wenn wirkliche Begegnung möglich wird, und das dann ganz und ohne Vorbehalt glaubt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Bis ich ihn sehe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Thomas ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/1WerclI4m18?rel=0" title="Bis ich ihn sehe – Thomas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
+        {route:"bibel-andreas", label:"Bibel-Porträt: Andreas (SE4w5)"},
       ])}
     </div>
   `);
@@ -134554,6 +134640,7 @@ function render() {
       "bibel-pontius-pilatus": pontiusPilatusPage,
       "bibel-judas-iskariot": judasIskariotPage,
       "bibel-andreas": andreasPage,
+      "bibel-thomas": thomasPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

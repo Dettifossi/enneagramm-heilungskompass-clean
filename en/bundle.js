@@ -134,6 +134,10 @@ const BIBEL_PORTRAITS = [
     heading:"Andrew – Self-Preservation Type 4",
     teaser:"SE4w5 · The hidden one in the inner circle. The first-called disciple, never at the center – until he grasps: \"One need not stand at the center to be close.\"",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-thomas", name:"Thomas", added:"2026-08-28", subtyp:"SO4w5",
+    heading:"Thomas – Social Type 4",
+    teaser:"SO4w5 · The longing for truth. Believes not what others testify, only what he lives through himself – until Jesus's gaze overcomes all separation: \"My Lord and my God!\"",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -30114,6 +30118,7 @@ function leonardCohenPortraitPage() {
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"bibel-thomas", label:"Bible Portrait: Thomas (SO4w5)"},
       ])}
     </div>
   `);
@@ -44738,12 +44743,12 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A hard shell on the outside, an extraordinarily sensitive inside underneath (Naranjo: Shame)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas"],
     fingerabdruecke: [
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
         beschreibung: "Naranjo called this subtype the one of 'Shame': the deep feeling of being structurally different and lacking. Outwardly, an effective, impenetrable facade often shows itself – coolness, perfection, humor – protecting an extremely vulnerable interior without ever fully hiding it.",
-        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability; Hugh Grant, who repeatedly described himself as 'terribly insecure' and whose charmingly stammering screen persona displayed the very insecurity he privately called chronic self-hatred; Ajeet Kaur, whose chronic autoimmune illness since childhood became the source of a public role as a healer through music, while she herself stresses that she 'retreated into music' since childhood 'to disappear and feel reunited with a deeper and more peaceful part of myself.'; Jackson, whose twenty-five-year, largely concealed dependence on pain and sleep medication disappeared, right up to his death, behind the same flawless stage facade that also kept his vitiligo patches hidden for years."
+        beleg: "Romy Schneider: 'The armadillo that shows itself in public while curling up inside' – 'pain, loneliness, the feeling of never truly being seen'; Michael Jackson: 'The armadillo shows the world its armor. What lies beneath, it shows almost no one'; Til Schweiger and Taddl, whose 'smooth outer facade' and 'seemingly carefree humor,' respectively, protect the same deep emotional vulnerability; Hugh Grant, who repeatedly described himself as 'terribly insecure' and whose charmingly stammering screen persona displayed the very insecurity he privately called chronic self-hatred; Ajeet Kaur, whose chronic autoimmune illness since childhood became the source of a public role as a healer through music, while she herself stresses that she 'retreated into music' since childhood 'to disappear and feel reunited with a deeper and more peaceful part of myself.'; Jackson, whose twenty-five-year, largely concealed dependence on pain and sleep medication disappeared, right up to his death, behind the same flawless stage facade that also kept his vitiligo patches hidden for years; Thomas, whose defiant demand – 'Unless I see his wounds, I will not believe' – was in truth a cry for help: 'Please, let me feel it. Not hear it, not have it repeated, but live through it myself.'"
       },
       {
         titel: "Wears one's own otherness visibly, instead of hiding it",
@@ -66332,6 +66337,87 @@ function andreasPage() {
         {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
         {route:"bibel-judas-iskariot", label:"Bible Portrait: Judas Iscariot (SX3w4)"},
+        {route:"bibel-thomas", label:"Bible Portrait: Thomas (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function thomasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-thomas-portrait.jpg" alt="Thomas – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The longing for truth – Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Unless I see the mark of the nails ... I will not believe." (John 20:25)</p>
+
+        <h2 class="vb-section">1. The Armadillo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four – it withdraws into a protective shell when the world grows too rough, and opens only where it truly feels safe. Thomas was not there when Jesus came. Not because he didn't believe, but because he believed differently. The others had found him, the risen one, the radiant one, the living one after death. But Thomas had been outside, alone, walking, thinking, wrestling.</p>
+          <p class="vb-intro">The social Four does not believe easily, but when it believes, it believes with everything it is. He came back, saw the faces, the changed atmosphere, and felt excluded. Not out of malice, but: they experienced what I lack. And that struck him deeper than he could show. For the social Four does not suffer from being alone – it suffers from not having been there when the real thing happened.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Not Having Been There When It Mattered</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When they said: "We have seen the Lord!" Thomas answered: "Unless I see his wounds and put my finger into them, I will not believe." It sounded defiant. But in truth it was a cry for help: Please, let me feel it. Not hear it, not have it repeated, but live through it myself. For social Fours do not believe what others testify – they believe what they sense within themselves.</p>
+          <p class="vb-intro">For eight days Thomas was silent, listening to the others, how their voices trembled with joy, with wonder, with something he did not have: experience. And within him something flared, not envy, but deprivation. Why wasn't I there? Social Fours live for connection. But their deepest fear is that this connection is not meant for them – that they see, but are not seen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Withdrawal Into One's Own Shell</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four a withdrawn, brooding quality – it retreats rather than shares, examines inwardly rather than believing prematurely, and needs direct experience of its own before trusting a report. He had stayed, had not withdrawn, had not left. For despite everything there was something in him that hoped truth would find him.</p>
+          <p class="vb-intro">And then Jesus came, not with trumpets, not with reproach, simply there, in the middle of the room, in the middle of the moment. And before anyone could speak, Jesus turned directly to Thomas: "Put your finger here, see my hands. Reach out your hand, put it in my side. Do not disbelieve, but believe." Jesus knew, not from hearsay, not through a story, what Thomas had said when he was not there. This exact quiet, examining reserve that only yields once genuine, direct knowledge becomes possible carries the signature of the Five-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Being Known in Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas did not step forward at once. He examined nothing. He touched nothing. For in the moment Jesus truly looked at him, all separation was overcome. And Thomas said only: "My Lord and my God!" Not out of proof, not out of duty, but from the innermost core of his being, finally mirrored back. Social Fours need no stage, but they long for their innermost self to be recognized, even when they keep it hidden.</p>
+          <p class="vb-intro">Thomas had not held on to Jesus. But now he was held, by a gaze that said more than words. And Jesus, whose love never merely confirms, but transforms, said: "Blessed are those who have not seen and yet have believed." Not as reproach, but as an invitation that Thomas may not only feel, but can learn to trust, even when depth falls silent.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Inner Transformation: My Depth Needs Distance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas stayed, even after the resurrection, even after Pentecost, even after the others set out. But something within him had changed, not loudly, not visibly, but fundamentally. The social Four wrestles with the feeling: I am not meant. But when it recognizes that it is deeply seen, a quiet, deep strength arises. And Thomas had sensed: I was recognized, not in my brilliance, but in my struggle.</p>
+          <p class="vb-intro">He was not the preacher like Peter, not the mystic like John, not the organizer like James. But he was willing to go where no one else was sent. For the heart of the SO4 does not call for fame – it calls for meaning, for uniqueness, and for a story only it can write. And so Thomas set out, not toward the west, where the roads were better known, but toward the east, to Syria, to Parthia, as far as India, tradition says. Not out of defiance, but because he sensed: My depth needs distance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Inner Consistency Instead of Applause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">There he healed the sick, spoke to strangers, founded communities that did not know him, but felt his authenticity. And sometimes, at night, when he was alone, he placed his hand on his heart and remembered that one gaze of Jesus. Not because he doubted, but because he sensed: that was the beginning. In the end he died as a martyr, in a foreign land, far from home, but in the middle of his calling. Not celebrated, not surrounded, but complete.</p>
+          <p class="vb-intro">For the social Four does not end in applause, but in inner consistency. And Thomas had found it. This is the gift of the SO4w5: a truthfulness that does not settle for heard truths, but wants to be lived through itself – an armadillo that opens its shell only when real encounter becomes possible, and then believes completely and without reservation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Until I See Him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Thomas, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/1WerclI4m18?rel=0" title="Until I See Him – Thomas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
+        {route:"bibel-andreas", label:"Bible Portrait: Andrew (SE4w5)"},
       ])}
     </div>
   `);
@@ -98852,6 +98938,7 @@ function subtypeSchaubilderPage() {
       "bibel-pontius-pilatus": pontiusPilatusPage,
       "bibel-judas-iskariot": judasIskariotPage,
       "bibel-andreas": andreasPage,
+      "bibel-thomas": thomasPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
