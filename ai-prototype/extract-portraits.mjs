@@ -19,9 +19,9 @@ const appJs = fs.readFileSync(path.join(rootDir, "app.js"), "utf-8");
 //    "...PortraitPage"-Konvention als auch abweichende Namen wie
 //    "astrologieAlbertEinsteinPage", "bellaThornePage" oder "borisBeckerKriminalPage" —
 //    wichtig ist nur, dass die Route mit beruehmte-/astrologie-/kriminalpsychologie-/
-//    krankheitsportraets- beginnt.
+//    krankheitsportraets-/bibel- beginnt.
 const routeMap = new Map(); // funktionsname -> route
-const routeRegex = /"((?:beruehmte|astrologie|kriminalpsychologie|krankheitsportraets)-[a-z0-9-]+)":\s*([a-zA-Z0-9]+),/g;
+const routeRegex = /"((?:beruehmte|astrologie|kriminalpsychologie|krankheitsportraets|bibel)-[a-z0-9-]+)":\s*([a-zA-Z0-9]+),/g;
 let m;
 while ((m = routeRegex.exec(appJs))) {
   routeMap.set(m[2], m[1]);

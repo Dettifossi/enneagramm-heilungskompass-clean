@@ -35,6 +35,7 @@ function extractConst(name) {
 const BERUEHMT_PORTRAITS = extractConst("BERUEHMT_PORTRAITS");
 const KRIMINAL_PORTRAITS = extractConst("KRIMINAL_PORTRAITS");
 const KRANKHEITS_PORTRAITS = extractConst("KRANKHEITS_PORTRAITS");
+const BIBEL_PORTRAITS = extractConst("BIBEL_PORTRAITS");
 
 const chunks = [];
 
@@ -59,6 +60,14 @@ for (const p of KRANKHEITS_PORTRAITS) {
     code: `PORTRAIT-${p.route}`,
     source: "portraits-en",
     text: `Illness portrait: ${p.heading || p.name} (Subtype ${p.subtyp}) – ${p.krankheit || ""}. ${p.teaser || ""}`,
+  });
+}
+
+for (const p of BIBEL_PORTRAITS) {
+  chunks.push({
+    code: `PORTRAIT-${p.route}`,
+    source: "portraits-en",
+    text: `Bible portrait: ${p.heading || p.name} (Subtype ${p.subtyp}). ${p.teaser || ""}`,
   });
 }
 
