@@ -114,6 +114,10 @@ const BIBEL_PORTRAITS = [
     heading:"Jesus – Social Type 2",
     teaser:"SO2w1 · At the feeding of the five thousand. Gives before anyone raises a hand, then deliberately withdraws: \"Giving must not become dependency.\" A source, not someone in need.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-maria-magdalena", name:"Mary Magdalene", added:"2026-08-28", subtyp:"SX2w1",
+    heading:"Mary Magdalene – Sexual Type 2",
+    teaser:"SX2w1 · First witness of the resurrection. Her love seeks not possession but merging – until Jesus teaches her: \"Do not hold on to me.\" Love means witness, not clinging.",
+    land:"Judea", tags:["Bible"], gender:"f"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -24984,6 +24988,7 @@ function monikaGruberPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+        {route:"bibel-maria-magdalena", label:"Bible Portrait: Mary Magdalene (SX2w1)"},
       ])}
     </div>
   `);
@@ -44826,7 +44831,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Camel",
     kernthema: "Turning an entire audience into a single, personal encounter",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Mary Magdalene"],
     fingerabdruecke: [
       {
         titel: "Intimacy at scale – the many become one",
@@ -44836,7 +44841,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Carries and gives itself fully without pushing forward",
         beschreibung: "Devotion shows itself not as loud courting, but as steady, patient carrying – in service of a connection, a path, a partner, without asking for much in return.",
-        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall.'"
+        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional."
       },
       {
         titel: "Stores energy, then releases it in a single, complete outburst",
@@ -65898,6 +65903,87 @@ function jesusPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1)"},
         {route:"bibel-marta", label:"Bible Portrait: Martha (SE2w1)"},
+        {route:"bibel-maria-magdalena", label:"Bible Portrait: Mary Magdalene (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function mariaMagdalenaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-maria-magdalena-portrait.jpg" alt="Mary Magdalene – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mary Magdalene</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexual Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>First witness of the resurrection – Animal correspondence: Camel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Animal correspondence: Camel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"She loved much." (cf. Luke 7:47)</p>
+
+        <h2 class="vb-section">1. The Camel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal of the sexual Two – tireless to the point of exhaustion, able to keep walking for days without visible provision, as long as it follows a single goal. Mary had carried many names. Some whispered them, others spat them out, some fell silent when she appeared. But none of them were truly hers. Her closeness was intense, too much for some, too direct. She did not look past people – she looked through them.</p>
+          <p class="vb-intro">She wanted not possession, not power, but merging. She could not stand at the edge, could not merely watch, could not love by halves. When she turned toward someone, she turned completely, with skin, heart, eyes, and soul. And when she was pushed away – which happened often – her insides did not burn with anger, but with the fear of loss. People called her unstable, restless, unclear. But she was clear – in her hunger for someone who could hold her depth without using it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: Merging Instead of Half-Measures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Two (SX2)</strong> does not seek the broad recognition of a community, but complete merging with a single person. It was not a loud moment, no cry, no miracle – only a look. Jesus did not see her as the other men did, not with hunger, not with judgment, but with recognition. He looked into her, to the very point she herself could never quite name: where the longing to be loved without purpose lived.</p>
+          <p class="vb-intro">In his presence, the constant tension fell silent – the chase for connection, the question: <em>Am I enough?</em> Not because he answered it, but because he made it superfluous. She did not see in Jesus the teacher, the rabbi, the miracle-worker. She saw the one who did not fear her depth and did not use it. And she stayed – not because she had to, but because at last she was allowed to be.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Faithfulness as Principle, Not Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Two a note of principled steadfastness that does not display its intensity, but lives it in unshakeable commitment. Mary stayed with him, not as one student among many, but as someone who wanted not merely to follow, but to merge. Yet Jesus could not be grasped – he was with everyone, and yet never fully with one alone.</p>
+          <p class="vb-intro">"I want to be with you," she said. And he answered only: "Then stay – without losing yourself." That was the hardest thing for her, for her heart wanted to give itself away, entirely. But he showed her: love is not dissolution, but clarity within connection. This exact ability – to hold to a principle despite burning longing, instead of losing herself or demanding her closeness theatrically – carries the signature of the One-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Faithfulness Beyond Death</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">She had sensed the day of the arrest before it happened – not through words or signs, but in her body, like a sudden emptiness in the space where his light had been. When they led him away, with ropes, with mockery, she was there. Not loud, not weeping, but with a gaze that said more than any defense. She stood beneath the cross – not because there was hope, but because it was love. Not romantic, not heroic, but raw, non-negotiable, awake: <em>I remain. Even if you go.</em></p>
+          <p class="vb-intro">When he died, something in her died with him – but not her love. Where others fled, she stayed. Where others said <em>It is over</em>, she thought: <em>He is not yet finished.</em> She helped anoint the body. She did not weep like a widow, but like someone bound to him, who knew: this death ends nothing. It transforms.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Empty Tomb and the Resurrection of Love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The morning was grey, the stone was gone, the tomb was empty. Mary stood there – not with hope, but with despair. For what does an SX2 do when even the body is gone, when she can no longer anoint, no longer serve, no longer grieve in closeness? Then he stepped toward her, not as a figure of light, not as a victor, but as a man. She did not recognize him, not at once – for love, when it is deeply wounded, expects only loss.</p>
+          <p class="vb-intro">Then he said only: "Mary." Her name, not as information, but as a calling. And she knew: He lives. And I – I am not left behind. She wanted to embrace him, to hold him, never to let go again. But he said: "Do not hold on to me, for I have not yet ascended to the Father." Not because he rejected her, but because he taught her: love does not mean possession. Love means witness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Proclaiming Instead of Binding</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">And so Mary Magdalene became the first witness – not because she had understood something, but because she had loved much. And because she was willing to let him go, in order to carry him into the world. Not in an embrace, but in her voice, in her gaze, in her unshakeable conviction: He lives.</p>
+          <p class="vb-intro">This is the gift of the SX2w1: an intensity that does not exhaust itself in taking possession, but becomes a message – a camel that devotes its entire strength to a single goal and, once that goal seems reached, becomes free precisely there to carry onward what it has carried.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: She Saw Him Break – Not the Bread Alone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Mary Magdalene, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/bw3-nPmE3OA?rel=0" title="She Saw Him Break – Not the Bread Alone – Mary Magdalene" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
+        {route:"bibel-jesus", label:"Bible Portrait: Jesus (SO2w1)"},
       ])}
     </div>
   `);
@@ -98413,6 +98499,7 @@ function subtypeSchaubilderPage() {
       "bibel-johannes-der-taeufer": johannesDerTaeuferPage,
       "bibel-marta": martaPage,
       "bibel-jesus": jesusPage,
+      "bibel-maria-magdalena": mariaMagdalenaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

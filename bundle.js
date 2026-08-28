@@ -32086,6 +32086,10 @@ const BIBEL_PORTRAITS = [
     heading:"Jesus \u2013 Sozialer Typ 2",
     teaser:"SO2w1 \u00b7 Bei der Speisung der F\u00fcnftausend. Gibt, bevor jemand die Hand hebt, und zieht sich danach bewusst zur\u00fcck: \u00bbGeben darf nicht zur Abh\u00e4ngigkeit werden.\u00ab Quelle statt Bed\u00fcrftiger.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-maria-magdalena", name:"Maria Magdalena", added:"2026-08-28", subtyp:"SX2w1",
+    heading:"Maria Magdalena \u2013 Sexueller Typ 2",
+    teaser:"SX2w1 \u00b7 Erste Zeugin der Auferstehung. Ihre Liebe sucht nicht Besitz, sondern Verschmelzung \u2013 bis Jesus sie lehrt: \u00bbR\u00fchr mich nicht an.\u00ab Liebe hei\u00dft Zeugenschaft, nicht Festhalten.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"f"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44612,7 +44616,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Kamel",
     kernthema: "Ein ganzes Publikum in eine einzige, persönliche Begegnung verwandeln",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Maria Magdalena"],
     fingerabdruecke: [
       {
         titel: "Intimität im Großen – aus vielen wird ein Einzelner",
@@ -44622,7 +44626,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Trägt und gibt sich vollständig, ohne sich aufzudrängen",
         beschreibung: "Hingabe zeigt sich nicht als lautes Werben, sondern als beständiges, geduldiges Mittragen – im Dienst einer Verbindung, eines Weges, eines Partners, ohne dabei viel zurückzuverlangen.",
-        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz.‹"
+        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz‹; Maria Magdalena, die unter dem Kreuz blieb, als andere flohen – ›Ich bleibe. Auch wenn du gehst‹ – und die half, den Leichnam zu salben, nicht aus Pflicht, sondern weil Nähe für sie nie an Bedingungen geknüpft war."
       },
       {
         titel: "Speichert Energie, um sie dann in einem einzigen, vollständigen Ausbruch zu geben",
@@ -71259,6 +71263,7 @@ function monikaGruberPortraitPage() {
         {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
         {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
+        {route:"bibel-maria-magdalena", label:"Bibel-Portr\u00e4t: Maria Magdalena (SX2w1)"},
       ])}
     </div>
   `);
@@ -93972,6 +93977,87 @@ function jesusPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1)"},
         {route:"bibel-marta", label:"Bibel-Porträt: Marta (SE2w1)"},
+        {route:"bibel-maria-magdalena", label:"Bibel-Porträt: Maria Magdalena (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function mariaMagdalenaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-maria-magdalena-portrait.jpg" alt="Maria Magdalena – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Maria Magdalena</p>
+        <p class="krim-portrait-typ">SX2w1 · Sexueller Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Erste Zeugin der Auferstehung – Tierentsprechung: Kamel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Tierentsprechung: Kamel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Sie hat viel geliebt.« (vgl. Lk 7,47)</p>
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ausdauernd bis zur Erschöpfung, fähig, tagelang ohne sichtbare Versorgung weiterzugehen, solange es einem einzigen Ziel folgt. Maria hatte viele Namen gehabt. Manche flüsterten sie, andere spuckten sie aus, einige schwiegen, wenn sie erschien. Aber keiner davon war wirklich ihrer. Ihre Nähe war intensiv, zu viel für manche, zu direkt. Sie sah nicht über Menschen hinweg – sie sah durch sie hindurch.</p>
+          <p class="vb-intro">Sie wollte nicht Besitz, nicht Macht, sondern Verschmelzung. Sie konnte nicht am Rand stehen, nicht zuschauen, nicht halb lieben. Wenn sie sich jemandem zuwandte, dann ganz, mit Haut, Herz, Augen und Seele. Und wenn sie weggestoßen wurde – was oft geschah –, dann brannte ihr Inneres nicht vor Zorn, sondern vor Verlustangst. Die Menschen nannten sie labil, unstet, unklar. Aber sie war klar – in ihrem Hunger nach jemandem, der ihre Tiefe hielt, ohne sie zu benutzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Verschmelzung statt Halbheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> sucht nicht die breite Anerkennung einer Gemeinschaft, sondern die vollständige Verschmelzung mit einer einzigen Person. Es war kein lauter Moment, kein Ruf, kein Wunder – nur ein Blick. Jesus sah sie nicht wie die anderen Männer, nicht mit Hunger, nicht mit Urteil, sondern mit Erkenntnis. Er sah in sie hinein, an jenen Punkt, den sie selbst nie ganz benennen konnte: wo die Sehnsucht wohnte, geliebt zu werden ohne Zweck.</p>
+          <p class="vb-intro">In seiner Gegenwart verstummte die ständige Anspannung, die Jagd nach Verbindung, das Fragen: <em>Bin ich genug?</em> Nicht, weil er sie beantwortete, sondern weil er sie überflüssig machte. Sie sah in Jesus nicht den Lehrer, nicht den Rabbi, nicht den Wundertäter. Sie sah den Einen, der ihre Tiefe nicht fürchtete und nicht benutzte. Und sie blieb – nicht weil sie musste, sondern weil sie endlich sein durfte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Treue als Prinzip statt Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Zwei eine Note von Prinzipientreue, die ihre Intensität nicht zur Schau stellt, sondern in unverrückbarer Verbindlichkeit lebt. Maria blieb bei ihm, nicht als Schülerin unter vielen, sondern wie jemand, der nicht nur folgen wollte, sondern verschmelzen. Doch Jesus ließ sich nicht greifen – er war bei allen, und doch nie ganz bei einem allein.</p>
+          <p class="vb-intro">»Ich will bei dir sein«, sagte sie. Und er erwiderte nur: »Dann bleib – ohne dich zu verlieren.« Das war für sie das Schwerste, denn ihr Herz wollte sich verschenken, ganz. Aber er zeigte ihr: Liebe ist nicht Auflösung, sondern Klarheit im Verbundensein. Genau diese Fähigkeit, trotz brennender Sehnsucht an einem Prinzip festzuhalten, statt sich zu verlieren oder ihre Nähe theatralisch einzufordern, trägt die Handschrift des Einserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Treue über den Tod hinaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Den Tag der Verhaftung hatte sie gespürt, bevor er geschah – nicht durch Worte oder Zeichen, sondern in ihrem Körper, wie eine plötzliche Leere im Raum, wo sonst sein Licht war. Als sie ihn führten, mit Stricken, mit Spott, war sie da. Nicht laut, nicht weinend, sondern mit Blicken, die mehr sprachen als jede Verteidigung. Sie stand unter dem Kreuz – nicht weil es Hoffnung gab, sondern weil es Liebe war. Nicht romantisch, nicht heroisch, sondern roh, unverhandelbar, wach: <em>Ich bleibe. Auch wenn du gehst.</em></p>
+          <p class="vb-intro">Als er starb, starb etwas in ihr mit – aber nicht ihre Liebe. Wo andere flohen, blieb sie. Wo andere sagten <em>Es ist vorbei</em>, dachte sie: <em>Er ist noch nicht fertig.</em> Sie half, den Leichnam zu salben. Sie weinte nicht wie eine Witwe, sondern wie eine Verbundene, die wusste: Dieser Tod beendet nichts. Er verändert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das leere Grab und die Auferstehung der Liebe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Morgen war grau, der Stein war weg, das Grab war leer. Maria stand da – nicht mit Hoffnung, sondern mit Verzweiflung. Denn was macht eine SX2, wenn selbst der Körper nicht mehr da ist, wenn sie nicht mehr salben, nicht mehr dienen, nicht mehr in Nähe trauern darf? Da trat er zu ihr, nicht als Lichtgestalt, nicht als Sieger, sondern als Mensch. Sie erkannte ihn nicht, nicht sofort – denn Liebe, wenn sie tief verwundet ist, erwartet nur Verlust.</p>
+          <p class="vb-intro">Dann sagte er nur: »Maria.« Ihren Namen, nicht als Information, sondern als Anrufung. Und sie wusste: Er lebt. Und ich – ich werde nicht zurückgelassen. Sie wollte ihn umarmen, festhalten, nie wieder loslassen. Doch er sagte: »Rühr mich nicht an – denn ich bin noch nicht zum Vater aufgefahren.« Nicht weil er sie abwies, sondern weil er sie lehrte: Liebe heißt nicht Besitz. Liebe heißt Zeugenschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Verkünden statt binden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">So wurde Maria Magdalena die erste Zeugin – nicht, weil sie etwas verstanden hatte, sondern weil sie viel geliebt hatte. Und weil sie bereit war, ihn loszulassen, um ihn in der Welt weiterzutragen. Nicht in Umarmung, sondern in ihrer Stimme, in ihrem Blick, in ihrem unverrückbaren Glauben: Er lebt.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX2w1: eine Intensität, die sich nicht in Besitzergreifung erschöpft, sondern zur Botschaft wird – ein Kamel, das seine ganze Kraft einem einzigen Ziel widmet und, sobald das Ziel erreicht scheint, gerade darin frei wird, weiterzutragen, was es getragen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Sie sah ihn brechen – nicht das Brot allein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Maria Magdalena ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/bw3-nPmE3OA?rel=0" title="Sie sah ihn brechen – nicht das Brot allein – Maria Magdalena" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
+        {route:"bibel-jesus", label:"Bibel-Porträt: Jesus (SO2w1)"},
       ])}
     </div>
   `);
@@ -134115,6 +134201,7 @@ function render() {
       "bibel-johannes-der-taeufer": johannesDerTaeuferPage,
       "bibel-marta": martaPage,
       "bibel-jesus": jesusPage,
+      "bibel-maria-magdalena": mariaMagdalenaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
