@@ -32138,6 +32138,10 @@ const BIBEL_PORTRAITS = [
     heading:"Petrus – Sexueller Typ 6",
     teaser:"SX6w7 · Das Feuer der Bindung und die Angst, sich zu verlieren. Verleugnet Jesus dreimal aus Furcht – und wird gerade durch den Fall zum Fels, geformt aus Feuer.",
     land:"Judäa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-lazarus", name:"Lazarus", added:"2026-08-28", subtyp:"SE7w6",
+    heading:"Lazarus – Selbsterhaltender Typ 7",
+    teaser:"SE7w6 · Der Freund des Lebens. Gastfreundlicher Bruder in Bethanien, der stirbt und auf Jesu Ruf hin lebendig aus dem Grab tritt – tiefer, sanfter, echter.",
+    land:"Judäa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44863,7 +44867,7 @@ const LEBENSMUSTERKOMPASS = {
   SE7: {
     tier: "Gorilla",
     kernthema: "Aufbau eines geschützten, familienähnlichen Systems statt Einzelkämpfertum",
-    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn"],
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus"],
     fingerabdruecke: [
       {
         titel: "Ein selbst geschaffenes Territorium statt einer fremden Karriereleiter",
@@ -44873,7 +44877,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Raumfüllende Ruhe statt Kampf um Aufmerksamkeit",
         beschreibung: "Die Wirkung entsteht nicht durch Show oder Konfrontation, sondern durch eine bloße, beruhigende oder unaufdringlich gewichtige Präsenz – die jedoch, sobald es auf sie ankommt, in volle Intensität umschlagen kann.",
-        beleg: "›Larry Kings bloße Anwesenheit in einem Fernsehstudio hatte etwas Beruhigendes‹ – über sechzig Jahre, mehr als 50.000 Interviews, ohne aggressive Gesprächsführung, und dieselbe Ruhe trug ihn auch durch eine 34 Jahre währende Kette von Herzinfarkten, Krebsdiagnosen und Schlaganfall zurück ins vertraute Studio-Nest, statt sich je aus der Sendung zurückzuziehen; Wallace Shawn, der ›gemütlich aussieht – und das Schwergewicht der Ideen trägt‹, ohne je auffallen zu wollen; Jasmine Paolini, die abseits des Platzes ›warm, lachend, familiär‹ wirkt, ›nie wie jemand, der Tennis spielt, um Ruhm zu ernten‹ – während sie auf dem Platz selbst ›explosiv, kampfstark, unermüdlich‹ ist: ›Der Gorilla tanzt nicht – aber wenn er lächelt, leuchtet der ganze Wald.‹"
+        beleg: "›Larry Kings bloße Anwesenheit in einem Fernsehstudio hatte etwas Beruhigendes‹ – über sechzig Jahre, mehr als 50.000 Interviews, ohne aggressive Gesprächsführung, und dieselbe Ruhe trug ihn auch durch eine 34 Jahre währende Kette von Herzinfarkten, Krebsdiagnosen und Schlaganfall zurück ins vertraute Studio-Nest, statt sich je aus der Sendung zurückzuziehen; Wallace Shawn, der ›gemütlich aussieht – und das Schwergewicht der Ideen trägt‹, ohne je auffallen zu wollen; Jasmine Paolini, die abseits des Platzes ›warm, lachend, familiär‹ wirkt, ›nie wie jemand, der Tennis spielt, um Ruhm zu ernten‹ – während sie auf dem Platz selbst ›explosiv, kampfstark, unermüdlich‹ ist: ›Der Gorilla tanzt nicht – aber wenn er lächelt, leuchtet der ganze Wald.‹; Lazarus, dessen Haus in Bethanien ›ein offenes Haus‹ war, ›nicht verschwenderisch, aber gastlich‹ – er war präsent, nicht durch Lautstärke, sondern durch Wärme, und selbst nach seiner Auferweckung sagten die, die ihn kannten: ›Er hört anders zu.‹"
       },
       {
         titel: "Genuss und Fülle als gelebtes Prinzip statt Askese",
@@ -59969,6 +59973,7 @@ function larryKingPortraitPage() {
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-wallace-shawn", label:"Portr\u00e4t: Wallace Shawn (SE7w6)"},
         {route:"krankheitsportraets-larry-king", label:"Krankheitsporträt: Larry King – Herz, Krebs & COVID-19"},
+        {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
       ])}
     </div>
   `);
@@ -95098,6 +95103,86 @@ function petrusPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
         {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
+        {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function lazarusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-lazarus-portrait.jpg" alt="Lazarus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lazarus</p>
+        <p class="krim-portrait-typ">SE7w6 · Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Freund des Lebens – Tierentsprechung: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Tierentsprechung: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Unser Freund Lazarus schläft; aber ich gehe hin, ihn aufzuwecken.« (Joh 11,11)</p>
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben – ruhig, gastfreundlich, präsent durch Wärme statt durch Lautstärke, ein Wesen, in dessen Nähe man sich sicher und wohl fühlt. Lazarus war kein Mann vieler Worte. Wenn seine Schwestern diskutierten, lächelte er still. Wenn Gäste kamen, deckte er den Tisch und ließ die anderen reden. Er war präsent, nicht durch Lautstärke, sondern durch Wärme, ein Mensch, bei dem man sich wohlfühlte.</p>
+          <p class="vb-intro">Sein Haus in Bethanien war ein offenes Haus, nicht verschwenderisch, aber gastlich, ein Haus, in dem gegessen, gelacht und geschwiegen werden konnte, ein Ort, an dem auch Jesus sich zurückzog. Lazarus war kein Schüler, kein Lehrer, kein Prediger, aber er war ein Freund, und Freundschaft war für ihn Lebenskunst. Die selbsterhaltende Sieben sucht kein Abenteuer im Außen, sondern die intensive, stille Fülle im Innen. Sie liebt das Leben, aber mit Bedacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Maßvolle Freude statt Exzess</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus war kein Asket. Er kannte den Wein, das Brot, den Duft von Öl, aber nie in Exzess, nie in Hast. Er lebte in maßvoller Freude, nicht um zu fliehen, sondern um zu bleiben. Er konnte zuhören, ohne sich zu verlieren. Er konnte da sein, ohne sich aufzudrängen. Er war kein Aufbruch, sondern ein Ankommen. Und dann wurde er krank. Still, wie er lebte, so wurde er schwächer. Er klagte nicht, wollte die anderen nicht belasten. Doch Marta und Maria schickten nach Jesus, denn sie wussten: Du liebst ihn. Doch Jesus kam nicht sofort. Und Lazarus starb.</p>
+          <p class="vb-intro">Vier Tage lag er im Fels, gebettet in Tücher, umgeben von Myrrhe, umhüllt von Schweigen. Nicht der Tod war das Schreckliche, sondern die Unterbrechung, dieser gewohnte Strom von milder Lebendigkeit, von Brot, Öl, Licht und Zärtlichkeit, war zum Stillstand gekommen. Und dann kam Jesus. Spät. Zu spät? Marta lief ihm entgegen: »Herr, wärst du hier gewesen, mein Bruder wäre nicht gestorben.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyale Wärme statt intensiven Antriebs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Sieben eine treue, verbindliche Qualität – Fülle entsteht nicht durch treibende Intensität, sondern durch verlässliche, warme Nähe zu den Menschen, die man liebt, ein Zuhause, in dem andere sich sicher fühlen können. Jesus hörte zu, er weinte, nicht nur um Lazarus, sondern um alle, die sich im Schatten verloren glaubten. Dann ging er zum Grab: »Nehmt den Stein weg.« Marta zögerte: »Herr, er riecht schon…« Jesus blickte sie an: »Habe ich dir nicht gesagt: Wenn du glaubst, wirst du die Herrlichkeit Gottes sehen?«</p>
+          <p class="vb-intro">Dann rief er mit lauter Stimme: »Lazarus, komm heraus!« Und Lazarus kam, langsam, gebunden, lebendig. Die SE7 glaubt lange, man könne Schmerz vermeiden. Aber in der Tiefe geschieht Verwandlung erst dann, wenn man durch den Schmerz hindurch wieder ans Licht tritt. Genau diese stille, treue Verlässlichkeit, die sich nicht durch das eigene Leiden von der Gemeinschaft entfernt, sondern gerade dadurch tiefer verwurzelt, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die letzte Mahlzeit: Das Lächeln der Auferstandenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus trat nicht zurück ins alte Leben. Er trat in ein neues Leben, mit dem Geschmack von Erde und Ewigkeit auf der Zunge. Er sprach nicht viel danach, aber seine Gegenwart sprach. Denn wer den Tod gesehen hat und trotzdem wieder bei Tisch sitzt, mit Brot in der Hand und dem Licht im Gesicht, der lebt anders, tiefer, sanfter, echter. Der Hof war erfüllt vom Duft gebratenen Lamms, ein Fest war bereitet, kein Triumph, sondern ein stilles Mahl der Dankbarkeit. Lazarus saß bei Tisch, zwischen Freunden.</p>
+          <p class="vb-intro">Er sprach nicht viel, doch wenn seine Augen einen trafen, dann geschah etwas: eine Ruhe übertrug sich, als hätte man eben erst gelernt, was Leben eigentlich ist. Die, die ihn kannten, sagten: »Er hört anders zu.« Denn wer durch das Dunkel geht, hört die Töne feiner, schmeckt das Brot tiefer, liebt mit weniger Angst. Die SE7 wird reif nicht durch Rückzug, sondern durch Anwesenheit mit offenem Herzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Ein Ort, an dem Leben tiefer ging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus lächelte öfter, nicht aus Leichtigkeit, sondern aus Annahme. Er wusste jetzt, dass das Leben nicht perfekt sein musste, nur wahrhaftig, und dass der Geschmack von Datteln süßer ist, wenn man den Tod schon gekostet hat. Später, als alles vorbei war, als Jesus gekreuzigt war und der Aufbruch der ersten Gemeinschaft begann, da blieb Lazarus in Bethanien. Ein Haus, ein Garten, ein Tisch, ein Ort, an dem Menschen sich erinnerten: Hier hat Jesus gewohnt, hier hat Lazarus gegessen, hier war Leben, das tiefer ging.</p>
+          <p class="vb-intro">Er wurde nicht Apostel, nicht Lehrer. Aber wenn jemand fragte: »Und du, was hast du erlebt?« Dann sagte Lazarus: »Ich war tot. Und nun bin ich hier. Lass uns essen.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Fülle ohne Flucht vor dem Schmerz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das ist das Geschenk der SE7w6: eine Freude, die nicht mehr vor dem Schmerz fliehen muss, um echt zu sein, sondern die gerade durch das Erlebte an Wärme gewinnt – ein Gorilla, dessen ruhige Gegenwart nach dem Durchleben der Dunkelheit noch tiefer trägt, weil er weiß, dass das Wesentliche nicht laut ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Komm heraus, Lazarus!</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Lazarus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/kKxF8Dx-Sc8?rel=0" title="Komm heraus, Lazarus! – Lazarus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
+        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
       ])}
     </div>
   `);
@@ -135254,6 +135339,7 @@ function render() {
       "bibel-zachaeus": zachaeusPage,
       "bibel-philippus": philippusPage,
       "bibel-petrus": petrusPage,
+      "bibel-lazarus": lazarusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
