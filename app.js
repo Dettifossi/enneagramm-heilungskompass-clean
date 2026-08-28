@@ -32102,6 +32102,10 @@ const BIBEL_PORTRAITS = [
     heading:"Judas Iskariot \u2013 Sexueller Typ 3",
     teaser:"SX3w4 \u00b7 Der Wunsch, unersetzlich zu sein. Sucht Bedeutung durch die eine exklusive Bindung \u2013 bis der Verrats-Kuss zur Enth\u00fcllung des eigenen, zerbrechenden Selbstbilds wird.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-andreas", name:"Andreas", added:"2026-08-28", subtyp:"SE4w5",
+    heading:"Andreas \u2013 Selbsterhaltender Typ 4",
+    teaser:"SE4w5 \u00b7 Der Verborgene im innersten Kreis. Erstberufener J\u00fcnger, der nie im Mittelpunkt steht \u2013 bis er begreift: \u00bbMan muss nicht im Zentrum stehen, um nah zu sein.\u00ab",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44542,12 +44546,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
         beschreibung: "Anders als bei den lauteren Vierer-Subtypen zeigt sich der innere Schmerz oder die innere Tiefe kaum nach außen. Die Verarbeitung geschieht in stiller, oft jahrzehntelanger Beharrlichkeit – ohne Applaus für das eigene Ringen zu suchen.",
-        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet; Adele, die im Alltag als humorvoll und bodenständig beschrieben wird, während der Schmerz, aus dem ihre größten Songs entstehen, im Privaten verarbeitet wird, bevor er auf die Bühne kommt – ›man klagt nicht öffentlich, man schreibt ein Album‹; Lady Diana, die ihre über Jahre andauernde Bulimie so vollständig hinter der makellosen öffentlichen Fassade verbarg, dass selbst ihr nächstes Umfeld lange nichts Genaues davon wusste, und erst 1995 selbst öffentlich darüber sprach."
+        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet; Adele, die im Alltag als humorvoll und bodenständig beschrieben wird, während der Schmerz, aus dem ihre größten Songs entstehen, im Privaten verarbeitet wird, bevor er auf die Bühne kommt – ›man klagt nicht öffentlich, man schreibt ein Album‹; Lady Diana, die ihre über Jahre andauernde Bulimie so vollständig hinter der makellosen öffentlichen Fassade verbarg, dass selbst ihr nächstes Umfeld lange nichts Genaues davon wusste, und erst 1995 selbst öffentlich darüber sprach; Andreas, der Erstberufene der Jünger, der ›den Zwölf immer dabei, aber selten im Mittelpunkt‹ war und sein größtes Erlebnis nie herausstellte: ›Ich war der Erste, der ihn erkannt hat. Und das reicht.‹"
       },
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
@@ -61003,6 +61007,7 @@ function paulMccartneyPortraitPage() {
         {route:"beruehmte-john-lennon", label:"Portr\u00e4t: John Lennon (SO4w5)"},
         {route:"beruehmte-karoline-herfurth", label:"Portr\u00e4t: Karoline Herfurth (SE4w5)"},
         {route:"beruehmte-clemens-arvay", label:"Portr\u00e4t: Clemens G. Arvay (SE4w5)"},
+        {route:"bibel-andreas", label:"Bibel-Portr\u00e4t: Andreas (SE4w5)"},
       ])}
     </div>
   `);
@@ -94320,6 +94325,87 @@ function judasIskariotPage() {
         {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         {route:"bibel-pontius-pilatus", label:"Bibel-Porträt: Pontius Pilatus (SO3w4)"},
+        {route:"bibel-andreas", label:"Bibel-Porträt: Andreas (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function andreasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-andreas-portrait.jpg" alt="Andreas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andreas</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Verborgene im innersten Kreis – Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Da führte Andreas Simon, seinen Bruder, zu Jesus.« (Joh 1,42)</p>
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – still, zurückhaltend, ohne das Bedürfnis, gesehen zu werden, aber mit einer tiefen inneren Wahrnehmung für das, was zwischen den Zeilen geschieht. Andreas war der Erste, der Jesus folgte – nicht der Lauteste, nicht der Fels, aber der Erste. Und doch erinnerte man sich selten daran. Wenn man von den Jüngern sprach, fiel sein Name später, hinter Petrus, Jakobus, Johannes: immer im Hintergrund, nie vergessen, aber auch nie genannt.</p>
+          <p class="vb-intro">Das störte ihn nicht – nach außen. Aber in seinem Inneren regte sich etwas: eine stille Melancholie, ein leiser Wunsch, nicht berühmt, aber bedeutend zu sein. Wo sein Bruder Simon sprach, hörte Andreas zu. Wo Simon handelte, überlegte Andreas noch. Er war kein Führer, aber auch kein Mitläufer – er war ein innerer Zeuge, und er lebte von dem, was niemand sah.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Tiefe statt Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihre Besonderheit nicht auf der Zunge – sie bewahrt sie im Innern. Sie lebt von der Vorstellung, anders zu sein, nicht besser, nicht schlechter, aber tief, wahr, einzig. Und wenn niemand diese Tiefe erkennt, zieht sie sich zurück, nicht aus Groll, sondern aus Schutz. Andreas stand am Rand der Menge, nicht aus Unsicherheit, sondern aus Gewohnheit. Er war nicht der, der sich vordrängte. Er war der, der beobachtete.</p>
+          <p class="vb-intro">Als Johannes der Täufer sprach: »Siehe, das Lamm Gottes«, folgte er nicht aus Impuls, sondern aus einer inneren Bewegung, die viel früher begonnen hatte. Jesus drehte sich um, sah ihn – nicht nur äußerlich, er sah ihn wirklich. »Was sucht ihr?« Andreas antwortete nicht sofort. Wie hätte er es sagen sollen, dass er suchte, was er selbst kaum benennen konnte: ein Zuhause in der Tiefe, ein Erkanntwerden ohne Preisgabe, eine Verbindung ohne Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Beobachten statt sich zeigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Vier eine zurückgezogene, beobachtende Qualität – die innere Tiefe wird nicht ausgedrückt, sondern gehütet, und Nähe entsteht nicht durch Auftritt, sondern durch stilles, genaues Wahrnehmen. »Meister, wo wohnst du?« fragte Andreas. Es war mehr als eine Frage nach einem Ort – es war die Bitte: Darf ich wissen, wie du bist? Darf ich bei dir ankommen? Jesus antwortete nicht erklärend, sondern sagte: »Kommt und seht.« Keine Definition, keine Distanz, nur Einladung.</p>
+          <p class="vb-intro">Und genau das traf Andreas ins Herz, nicht als Erschütterung, sondern wie eine Tür, die endlich aufging nach Jahren innerer Enge. Die Schrift sagt nicht, was gesprochen wurde – vielleicht war es auch nicht viel. Aber für Andreas war es genug, denn zum ersten Mal fühlte er sich nicht nur aufgenommen, sondern verstanden. Genau dieses stille, unaufdringliche Beobachten, das erst bei absoluter Sicherheit in Nähe übergeht, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Rolle im Kreis: Die Sehnsucht nach Einmaligkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kreis der Zwölf war Andreas immer dabei, aber selten im Mittelpunkt. Petrus sprach, Johannes ruhte an Jesu Brust, Jakobus war energisch. Und Andreas hörte zu. Er war nicht übersehen, aber auch nicht benannt. Und in einer SE4 wächst daraus eine leise Spannung: Ich bin hier, aber nicht gemeint. Er hatte keine Eifersucht, aber manchmal diese Frage: Was ist mein Platz?</p>
+          <p class="vb-intro">Einmal brachte Andreas einen Jungen mit fünf Broten und zwei Fischen – lächerlich wenig. Aber er brachte ihn trotzdem, nicht weil er an das Wunder glaubte, sondern weil er an das Verborgene glaubte. Das ist SE4: Sie erkennt Wert, wo andere achtlos vorbeigehen. Jesus nahm es, das Kleine, das Unscheinbare, und es reichte für Tausende. Aber niemand sagte: »Danke, Andreas.« Er sagte es sich selbst, leise, nicht aus Stolz, sondern aus einem inneren Wissen: Ich sehe, was zählt, auch wenn es für andere nicht zählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Unsichtbarkeit als Gabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Andreas begann, seine Stellung zu verstehen, nicht als Nachteil, nicht als Strafe, sondern als Ort. Er war der, der Dinge sah, bevor sie ausgesprochen wurden, der Menschen verband, ohne sich dazwischenzustellen, der die Spannungen im Kreis spürte und durch seine bloße Anwesenheit etwas beruhigte, ohne dass es jemand merkte. Manchmal saß er allein am Rand, wenn die anderen schliefen, schaute in den Himmel und dachte nicht an seinen Namen, sondern an seinen Wert.</p>
+          <p class="vb-intro">Er hatte gelernt: Man muss nicht im Zentrum stehen, um nah zu sein. Die SE4 ringt ihr Leben lang mit der Frage nach Bedeutung. Aber wenn sie reift, hört sie auf, sie im Außen zu suchen, und beginnt, den Wert in der Tiefe selbst zu tragen. Andreas wurde nicht gefeiert, aber Jesus nannte ihn nie falsch, nie zu viel, nie zu wenig. Er ließ ihn einfach sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Bedeutung ohne Applaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als der Kreis kleiner wurde, die Wege einsamer, die Tage gefährlicher, spürte Andreas: Er war bereit – nicht, weil er laut geworden war, sondern weil er innerlich Wurzeln geschlagen hatte. Und wenn jemand ihn fragte: »Was war dein größter Beitrag?«, dann lächelte er nur, blickte zurück auf den Moment, als er seinen Bruder zu Jesus führte, und sagte leise: »Ich war der Erste, der ihn erkannt hat. Und das reicht.«</p>
+          <p class="vb-intro">Das ist das Geschenk der SE4w5: eine Tiefe, die keine Bühne mehr braucht, um wahr zu sein – eine Taube, die nicht mehr beweisen muss, dass sie gesehen wird, weil sie gelernt hat, sich selbst zu sehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Im Schatten des Lichts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Andreas ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/yI-zk3aHGBQ?rel=0" title="Im Schatten des Lichts – Andreas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+        {route:"bibel-judas-iskariot", label:"Bibel-Porträt: Judas Iskariot (SX3w4)"},
       ])}
     </div>
   `);
@@ -134467,6 +134553,7 @@ function render() {
       "bibel-salome": salomePage,
       "bibel-pontius-pilatus": pontiusPilatusPage,
       "bibel-judas-iskariot": judasIskariotPage,
+      "bibel-andreas": andreasPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
