@@ -32142,6 +32142,10 @@ const BIBEL_PORTRAITS = [
     heading:"Lazarus – Selbsterhaltender Typ 7",
     teaser:"SE7w6 · Der Freund des Lebens. Gastfreundlicher Bruder in Bethanien, der stirbt und auf Jesu Ruf hin lebendig aus dem Grab tritt – tiefer, sanfter, echter.",
     land:"Judäa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-samariterin-am-jakobsbrunnen", name:"Die Samariterin am Jakobsbrunnen", added:"2026-08-28", subtyp:"SO7w6",
+    heading:"Die Samariterin am Jakobsbrunnen – Sozialer Typ 7",
+    teaser:"SO7w6 · Die Begeisterte, die ruft. Jesus spiegelt ihr Leben ohne Anklage – und sie lässt den Krug stehen, um der ganzen Stadt zuzurufen: »Kommt und seht!«",
+    land:"Samaria", tags:["Bibel"], gender:"f"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44339,7 +44343,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Die Samariterin am Jakobsbrunnen"],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
@@ -44354,7 +44358,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Dienst an etwas Größerem als sich selbst, statt persönlichem Ruhm",
         beschreibung: "Das eigene Werk wird nicht als Selbstdarstellung verstanden, sondern als Beitrag zu einer Gemeinschaft, einer Idee oder einem System, das größer ist als die eigene Person.",
-        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹; Goethe, der sich 1775 auf dem Höhepunkt seines literarischen Ruhms für fast fünfzig Jahre einer Verwaltungsarbeit für Herzog Carl August verpflichtete, die seiner eigentlichen künstlerischen Natur oft diametral entgegenstand – Dienst am Weimarer Gemeinwesen statt am eigenen Künstlerruhm; Alexander Bommes, der 2007 seine Handballkarriere beendete und statt der juristischen Laufbahn nach seinem ersten Staatsexamen ein Journalismus-Volontariat begann – ein Bruch mit dem naheliegenden, sicheren Weg zugunsten einer neuen Aufgabe im Dienst der Öffentlichkeit; Molière, der seine jahrelang verschwiegene, fortschreitende Lungenerkrankung nicht zum Anlass nahm, sich zurückzuziehen, sondern bis zur vierten Aufführung von ›Der eingebildete Kranke‹ weiterspielte, ausgerechnet in der Rolle eines Hypochonders – Dienst an der eigenen Theatertruppe und am Publikum, bis der Körper buchstäblich auf der Bühne zusammenbrach; Jules Verne, der nach der Schussverletzung durch seinen eigenen Neffen 1886 nicht mit öffentlicher Klage reagierte, sondern das Familientrauma weitgehend privat hielt und sein literarisches Werk trotz dauerhaften Hinkens fortsetzte – Weiterbauen statt Rückzug, auch als der eigene Damm längst Risse zeigte."
+        beleg: "Jeanne-Marie Guyon, die ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹; Jules Verne, dessen literarisches Universum ›die gesamte damals bekannte Welt und weit darüber hinaus umspannte‹; Rowan Atkinson: ›Sein Bau ist nicht Versteck, sondern Werk – eine komplexe Konstruktion, die dem Schutz aller dient.‹; Goethe, der sich 1775 auf dem Höhepunkt seines literarischen Ruhms für fast fünfzig Jahre einer Verwaltungsarbeit für Herzog Carl August verpflichtete, die seiner eigentlichen künstlerischen Natur oft diametral entgegenstand – Dienst am Weimarer Gemeinwesen statt am eigenen Künstlerruhm; Alexander Bommes, der 2007 seine Handballkarriere beendete und statt der juristischen Laufbahn nach seinem ersten Staatsexamen ein Journalismus-Volontariat begann – ein Bruch mit dem naheliegenden, sicheren Weg zugunsten einer neuen Aufgabe im Dienst der Öffentlichkeit; Molière, der seine jahrelang verschwiegene, fortschreitende Lungenerkrankung nicht zum Anlass nahm, sich zurückzuziehen, sondern bis zur vierten Aufführung von ›Der eingebildete Kranke‹ weiterspielte, ausgerechnet in der Rolle eines Hypochonders – Dienst an der eigenen Theatertruppe und am Publikum, bis der Körper buchstäblich auf der Bühne zusammenbrach; Jules Verne, der nach der Schussverletzung durch seinen eigenen Neffen 1886 nicht mit öffentlicher Klage reagierte, sondern das Familientrauma weitgehend privat hielt und sein literarisches Werk trotz dauerhaften Hinkens fortsetzte – Weiterbauen statt Rückzug, auch als der eigene Damm längst Risse zeigte; die Samariterin am Jakobsbrunnen, die ihren Krug stehen ließ und in die Stadt lief, um zu rufen: ›Kommt und seht!‹ – ihre eigene, lange verschwiegene Geschichte wurde zur Brücke, über die eine ganze Stadt zum Glauben fand."
       },
       {
         titel: "Wenn die perfekte, dienende Fassade eine maßlose, zerstörerische Realität verbirgt (Schattenform)",
@@ -51560,6 +51564,7 @@ function julesVernePortraitPage() {
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
         {route:"krankheitsportraets-jules-verne", label:"Krankheitsporträt: Jules Verne (SO7w6) – Schussverletzung und lebenslange Lähmung"},
+        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
       ])}
     </div>
   `);
@@ -95183,6 +95188,85 @@ function lazarusPage() {
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
         {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
+        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function samariterinAmJakobsbrunnenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-samariterin-am-jakobsbrunnen-portrait.jpg" alt="Die Samariterin am Jakobsbrunnen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Die Samariterin am Jakobsbrunnen</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Begeisterte, die ruft – Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Kommt, seht einen Menschen, der mir alles gesagt hat, was ich getan habe – ob er wohl der Christus ist?« (Joh 4,29)</p>
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – er baut, verbindet, teilt seine Entdeckungen mit der ganzen Gemeinschaft und ruht nie lange, bevor er das nächste Projekt beginnt. Die Sonne stand hoch, kein Mensch war unterwegs, nur eine Frau mit einem Krug, am Brunnen außerhalb der Stadt. Nicht morgens, nicht abends, zur heißesten Stunde kam sie. Vielleicht, weil sie niemanden treffen wollte. Vielleicht, weil sie mehr suchte als nur Wasser.</p>
+          <p class="vb-intro">Jesus saß dort, müde, staubig, schweigend. Und dann sprach er: »Gib mir zu trinken.« Ein Satz, ein Blick, ein Riss durch das Gewohnte. Sie war überrascht, nicht nur, weil er ein Mann war, nicht nur, weil er ein Jude war, sondern weil er sie ansprach, und weil er Durst zeigte. Sie fragte, er antwortete, sie fragte weiter, und er antwortete tiefer, nicht mit Verurteilung, nicht mit Belehrung, sondern mit einem Angebot.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Wahrheit durch Begeisterung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">»Wer von diesem Wasser trinkt, wird wieder dürsten. Wer aber von dem Wasser trinkt, das ich ihm geben werde, in dem wird es eine Quelle des Lebens.« Etwas in ihr wurde wach, nicht erschrocken, nicht schuldbewusst, sondern neugierig. Die soziale Sieben erkennt Wahrheit durch Begeisterung, durch Begegnung, durch das Feuer, das Hoffnung macht. Und dann: ein Satz, der alles wendete: »Du hast recht, fünf Männer hast du gehabt, und der, den du jetzt hast, ist nicht dein Mann.« Keine Anklage, keine Bloßstellung, nur ein Spiegel.</p>
+          <p class="vb-intro">Sie weicht aus, redet von Religion, vom richtigen Ort für den Gottesdienst, von Propheten, von Zukunft. Aber sie bleibt im Gespräch. Die SO7 mag keine Tiefe, die weh tut, aber sie liebt Tiefe, die verbindet. Und Jesus sagte: »Ich bin's, der mit dir spricht.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Begeisterung, die einlädt statt provoziert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine verbindende, loyale Qualität – Begeisterung wird nicht zur Provokation oder zum Auftritt, sondern zur Einladung, die andere in eine gemeinsame Gemeinschaft hineinzieht. Etwas brach auf. Sie ließ den Krug stehen, lief, rief, nicht leise, nicht zaghaft, sondern mit Begeisterung: »Kommt und seht!« Sie lief, nicht mehr bedacht, nicht mehr zurückhaltend.</p>
+          <p class="vb-intro">Die Frau, die sonst zur heißen Stunde kam, sprach nun in aller Öffentlichkeit: »Kommt mit! Seht ihn euch an! Er hat mir alles gesagt, alles, was ich je getan habe!« Es war kein Schuldbekenntnis, kein Flehen, es war ein Ruf, einer, der mehr meinte als Worte: Ich wurde gesehen, ohne beschämt zu werden. Genau dieses Rufen, das andere einlädt und zusammenbringt, statt sie zu spalten oder zu provozieren, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Stadt bewegt sich: Das Wasser wird lebendig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Menschen blieben stehen, schauten sich an. Wirklich sie? Die Frau, die sich sonst zwischen den Blicken hindurchbewegte, sprach jetzt aus dem Zentrum heraus. Und sie spürten: Da war kein Wahnsinn, keine Hysterie, nur ein Licht, das aus ihr kam, ohne dass sie es selbst erklären konnte. In der Mitte ihres Leibes brannte etwas, eine Quelle, die nichts mit dem Brunnen zu tun hatte, und doch alles mit ihm. Sie war nicht klüger geworden, aber lebendiger.</p>
+          <p class="vb-intro">Die Stadt hörte ihr zu, nicht weil sie wichtig war, sondern weil sie wahrhaftig war. Und weil sie von etwas sprach, das alle kannten und keiner je in Worte fassen konnte: den Wunsch, gesehen zu werden, und nicht davon zu rennen. Jesus blieb zwei Tage. Die Menschen kamen, Fragen, Blicke, Neugier, Zögern. Und während sie ihm zuhörten, begannen viele zu glauben, nicht wegen ihrer Worte, sondern wegen der Resonanz, die sie in ihnen erzeugt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Angekommen bei sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am Ende sagten sie zu ihr: »Jetzt glauben wir nicht mehr nur wegen deiner Rede, sondern weil wir ihn selbst gehört haben, und wissen: Er ist wirklich der Retter der Welt.« Die Frau aber saß still, an einem Brunnen, der kein Wasser mehr brauchte. Sie lächelte, nicht aus Stolz, sondern aus der Heilung. Sie war angekommen, nicht bei Jesus, nicht in der Stadt, sondern bei sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Von der Vermeidung zum Ruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das ist das Geschenk der SO7w6: eine Begeisterung, die nicht mehr vor der eigenen Geschichte davonlaufen muss, sondern sie zur Brücke macht, über die andere zur eigenen Wahrheit finden können – ein Biber, der nicht mehr allein zur heißesten Stunde kommt, um niemandem zu begegnen, sondern der aus dem Zentrum der Gemeinschaft heraus ruft: Kommt und seht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Am Jakobsbrunnen – Sie sah Ihn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zur Samariterin am Jakobsbrunnen ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/k3ffDHKpbFE?rel=0" title="Am Jakobsbrunnen – Sie sah Ihn – Die Samariterin" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+        {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
       ])}
     </div>
   `);
@@ -135340,6 +135424,7 @@ function render() {
       "bibel-philippus": philippusPage,
       "bibel-petrus": petrusPage,
       "bibel-lazarus": lazarusPage,
+      "bibel-samariterin-am-jakobsbrunnen": samariterinAmJakobsbrunnenPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
