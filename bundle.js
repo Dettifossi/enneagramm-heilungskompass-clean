@@ -38150,6 +38150,7 @@ function kaufenPage() {
 
 function wegweiserPremiumPage() {
   return shell(`
+    ${pageHeader("wegweiser-premium")}
     <section class="narrow centered" style="padding:2rem 1rem 1rem;">
       <p class="eyebrow">Wegweiser Premium</p>
       <h1 style="font-size:2rem;margin-bottom:.5rem;">Mehr als 40 Bücher, direkt im Gespräch</h1>
