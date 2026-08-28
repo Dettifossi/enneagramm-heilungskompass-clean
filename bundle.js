@@ -32134,6 +32134,10 @@ const BIBEL_PORTRAITS = [
     heading:"Philippus – Sozialer Typ 6",
     teaser:"SO6w5 · Die Sehnsucht nach Gewissheit und der Mut zur Nähe. »Herr, zeige uns den Vater« – bis Jesus ihm zeigt: Vertrauen ist ein Entschluss, kein vollendeter Beweis.",
     land:"Judäa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-petrus", name:"Petrus", added:"2026-08-28", subtyp:"SX6w7",
+    heading:"Petrus – Sexueller Typ 6",
+    teaser:"SX6w7 · Das Feuer der Bindung und die Angst, sich zu verlieren. Verleugnet Jesus dreimal aus Furcht – und wird gerade durch den Fall zum Fels, geformt aus Feuer.",
+    land:"Judäa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44358,12 +44362,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
-    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck"],
+    beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Petrus"],
     fingerabdruecke: [
       {
         titel: "Angst wird nicht vermieden, sondern frontal angegriffen",
         beschreibung: "Anders als die anderen Sechser-Subtypen sucht diese Ausprägung Sicherheit nicht durch Anpassung oder Rückzug, sondern durch das direkte Konfrontieren der eigenen Angst – Stärke wird zur Gegenreaktion auf eine tief sitzende Unsicherheit.",
-        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen; Scarlett Johansson, deren Rollen – die kühle Black Widow, die kontrollierte KI-Stimme in ›Her‹ – immer wieder Stärke performen, während darunter etwas Verletzliches, Suchendes liegt; Moses, der sich der Berufung am Dornbusch viermal widersetzte, dann aber wiederholt und ohne erkennbares Zögern vor den mächtigsten Herrscher der bekannten Welt trat; Friedrich Schiller, der als Kadett heimlich ›Die Räuber‹ gegen die Zensur seines Herzogs verfasste und schließlich mittellos aus Württemberg floh, statt sich der Willkürherrschaft zu beugen – und der später mit derselben Härte, mit der er einst dem Herzog begegnet war, vierzehn Jahre gegen den eigenen, tödlich fortschreitenden Krankheitsverfall arbeitete; Beethoven, der zwei parallel fortschreitenden Erkrankungen – Taubheit und Leberzirrhose – nie mit Rückzug, sondern bis zur geballten Faust im Moment seines Todes mit fortgesetzter Arbeit begegnete; Otto von Bismarck, der Kaiser Wilhelm I. wiederholt mit dem eigenen Rücktritt drohte, statt sich politischen Niederlagen zu beugen, und dessen eigenes Eingeständnis ›Ich bin ganz Nerven, sodass Selbstbeherrschung stets die größte Aufgabe meines Lebens war‹ zeigt, wie viel Kraft es kostete, die eigene Angst hinter Drohgebärden zu verbergen."
+        beleg: "Beethoven: ›Wer schon als Kind lernt, dass Verletzlichkeit bestraft wird, lernt, ihr mit Härte zuvorzukommen‹; Michael Schumacher: ›Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und läuft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Ausprägung: Angst nicht als Lähmung, sondern als Treibstoff‹; Kollegah: ›Der Wolf hat Angst – und er verwandelt diese Angst in Kraft‹; Putins Kindheitserinnerung an eine in die Enge getriebene Ratte, die ihm ins Gesicht sprang: ›Wer in die Enge getrieben ist, darf sich niemals zurückziehen‹; Dr. Douglas W. Smith, der die Wiederansiedlung der Wölfe in Yellowstone gegen erheblichen politischen Widerstand von Ranchern und Jägern durchsetzte, statt dem Konflikt auszuweichen; Scarlett Johansson, deren Rollen – die kühle Black Widow, die kontrollierte KI-Stimme in ›Her‹ – immer wieder Stärke performen, während darunter etwas Verletzliches, Suchendes liegt; Moses, der sich der Berufung am Dornbusch viermal widersetzte, dann aber wiederholt und ohne erkennbares Zögern vor den mächtigsten Herrscher der bekannten Welt trat; Friedrich Schiller, der als Kadett heimlich ›Die Räuber‹ gegen die Zensur seines Herzogs verfasste und schließlich mittellos aus Württemberg floh, statt sich der Willkürherrschaft zu beugen – und der später mit derselben Härte, mit der er einst dem Herzog begegnet war, vierzehn Jahre gegen den eigenen, tödlich fortschreitenden Krankheitsverfall arbeitete; Beethoven, der zwei parallel fortschreitenden Erkrankungen – Taubheit und Leberzirrhose – nie mit Rückzug, sondern bis zur geballten Faust im Moment seines Todes mit fortgesetzter Arbeit begegnete; Otto von Bismarck, der Kaiser Wilhelm I. wiederholt mit dem eigenen Rücktritt drohte, statt sich politischen Niederlagen zu beugen, und dessen eigenes Eingeständnis ›Ich bin ganz Nerven, sodass Selbstbeherrschung stets die größte Aufgabe meines Lebens war‹ zeigt, wie viel Kraft es kostete, die eigene Angst hinter Drohgebärden zu verbergen; Petrus, der aus dem Boot sprang, um auf dem Wasser zu Jesus zu gehen, und im Garten das Schwert zog, um ihn zu verteidigen – ›er brauchte die Nähe Jesu wie Luft zum Atmen‹, und genau diese Wucht der Bindung ließ ihn dreimal verleugnen, aus Angst, sie zu verlieren, bevor sie ihn zum Fels machte."
       },
       {
         titel: "Direkter Blickkontakt und Klartext statt Rückzug oder Diplomatie",
@@ -49300,6 +49304,7 @@ function michaelSchumacherPortraitPage() {
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
         {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SX6w7)"},
+        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
       ])}
     </div>
   `);
@@ -95012,6 +95017,87 @@ function philippusPage() {
         {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
         {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
+        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function petrusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-petrus-portrait.jpg" alt="Petrus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Petrus</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Das Feuer der Bindung und die Angst, sich zu verlieren – Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, ich bin bereit, mit dir ins Gefängnis und in den Tod zu gehen!« Jesus sprach: »Ehe der Hahn heute kräht, wirst du dreimal leugnen, dass du mich kennst.« (Lk 22,33–34)</p>
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs – er liebt mit Wucht, verteidigt sein Rudel mit ganzem Körper, und seine Furchtlosigkeit ist keine Abwesenheit von Angst, sondern deren Umkehrung in Handlung. Petrus sprach zuerst, immer. Wenn die anderen schwiegen, warf er sich vor, mit Worten, mit Gesten, mit seinem ganzen Körper. Er verließ das Boot, um auf dem Wasser zu Jesus zu gehen. Er zog das Schwert im Garten, um ihn zu verteidigen.</p>
+          <p class="vb-intro">Bindung ist das Zuhause der SX6, aber dieses Zuhause ist von inneren Stürmen umgeben. Petrus glaubte, aber sein Glaube war nicht ruhig. Er war zwingend, unentbehrlich, und voller Angst, dass er verlassen werden könnte, wenn er nicht genügte. Er sagte nicht: »Ich glaube an dich.« Er sagte: »Ich lasse dich nicht im Stich.« Er brauchte die Nähe Jesu wie Luft zum Atmen, nicht als Idee, sondern als verkörperte Bindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Mutig aus Bindung, zerbrechlich in der Furcht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Jesus begann, vom Leiden zu sprechen, rief Petrus: »Das soll dir nicht widerfahren!«, fast wie ein Kind, das einen geliebten Vater zu schützen versucht. Aber Jesus antwortete scharf: »Weiche von mir, Satan!« Es war kein Ablehnen von Petrus, sondern ein Erschrecken über die Macht der Angst, die sich in Liebe kleidete. Petrus schwankte zwischen Mut und Angst, zwischen Treue und Selbstschutz. Und Jesus ließ ihn, liebte ihn nicht trotz, sondern mit dieser Spannung.</p>
+          <p class="vb-intro">Es war kalt in jener Nacht, Jesus war gefangen, die Gemeinschaft zerrissen. Petrus folgte, nicht offen, aber nah genug, um nichts zu verpassen, nah genug, um noch etwas retten zu können. Die SX6 ist mutig aus Bindung, aber voller Furcht, wenn Bindung zu zerbrechen droht. Er setzte sich ans Feuer, wärmte die Hände, beobachtete. »Warst nicht auch du einer von ihnen?« Er wich aus, schüttelte den Kopf, lachte gezwungen. Einmal, zweimal, dreimal. Und dann krähte der Hahn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Impulsive Wucht statt stiller Grübelei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Sechs eine energetische, impulsive Qualität – Mut zeigt sich nicht in stiller, abwägender Intensität, sondern in spontaner, körperlicher, fast überschäumender Handlung, bevor der Verstand nachkommt. Jesus wurde in diesem Moment vorbeigeführt, geschlagen, gebunden, verhüllt. Aber sein Blick ging durch alles hindurch, durch die Nacht, durch den Lärm, durch Petrus' Rüstung aus Angst. Er sah ihn an, nicht strafend, nicht enttäuscht, sondern erkennend.</p>
+          <p class="vb-intro">Petrus zerbrach nicht, weil er schwach war, sondern weil er so tief gebunden war, dass der Verlust ihn erschütterte bis ins Mark. Er lief hinaus, weinte bitterlich, nicht über sich, sondern über das, was er verletzte, weil er es so sehr liebte. Genau dieses schnelle, ungebremste Handeln aus dem Bauch heraus, aus dem Boot springen, das Schwert ziehen, laut sprechen, bevor gedacht ist, trägt die Handschrift des Siebenerflügels – die Tragik der SX6: Sie will schützen, aber aus Angst zu versagen, kann sie genau das verlieren, was sie am meisten bewahren wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Frage am Morgen: Drei Atemzüge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Morgen roch nach Salz und Asche. Die Jünger waren zurück am See, zurück bei den Netzen, zurück bei dem, was sie kannten, weil sie nicht wussten, wie es weitergehen sollte. Petrus war innerlich still geworden, nicht aus Frieden, sondern aus Scham. Doch da stand Jesus am Ufer, mit Kohlen, mit Brot, mit Fisch. »Kommt und frühstückt.« Keine Vorwürfe, keine Predigt, nur Nähe.</p>
+          <p class="vb-intro">Nach dem Mahl sprach Jesus ihn an: »Simon, Sohn des Johannes, liebst du mich?« Dreimal fragte er, nicht um ihn zu prüfen, sondern um ihn zurückzuführen, sanft, beharrlich, wie man ein verletztes Tier zurück ins Licht lockt. Am Ende sagte Jesus nicht: »Du bist wieder würdig.« Sondern: »Weide meine Schafe.« Er gab ihm Verantwortung, gerade weil er gefallen war. Denn nur wer zerbricht, kann die Zerbrochenen wirklich sehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Sturm des Pfingsttags zur Treue im Angesicht der Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jerusalem bebte, Feuerzungen auf ihren Häuptern, eine Stimme in vielen Sprachen, und mitten darin: Petrus. Er, der gezögert hatte, er, der gefallen war, trat hervor, nicht mit Berechnung, nicht mit Gelehrsamkeit, sondern mit Brennweite im Herzen: »Ihr Männer von Judäa, hört meine Worte!« Petrus war kein Rhetoriker, er war ein Zeuge. Die SX6 bleibt nicht mutig, weil sie frei von Angst wäre. Sie bleibt mutig, weil sie der Bindung mehr traut als der eigenen Furcht.</p>
+          <p class="vb-intro">Der Preis stieg: Gefangennahmen, Drohungen, Folter. Und doch sagte Petrus, als man ihn zum Schweigen bringen wollte: »Man muss Gott mehr gehorchen als den Menschen.« Nicht trotzig, nicht heldenhaft, sondern aus gelebtem Vertrauen. Er, der aus Angst gelogen hatte, sprach nun mit Klarheit, weil er wusste, dass selbst der Tod nicht mehr trennen konnte, was durch Liebe verbunden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Der Fels, der aus Zweifeln gehauen war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er wurde alt, doch der Sturm verließ ihn nie ganz. Immer wieder zogen die alten Fragen durch sein Inneres: Genüge ich? Wird man mich halten? Aber sie bekamen keine Macht mehr, denn er kannte jetzt den Blick, der durch Versagen hindurch liebte, und diese Liebe verankerte ihn. Man nannte ihn später »den Fels«, nicht weil er unerschütterlich war, sondern weil er lernen musste, standzuhalten, trotz Angst, trotz innerer Zerrissenheit.</p>
+          <p class="vb-intro">Als er verhaftet wurde, bat er darum, nicht wie Jesus gekreuzigt zu werden: »Nicht würdig bin ich, so zu sterben wie mein Herr.« Und so starb er am Kreuz mit dem Kopf nach unten, aber mit dem Herzen aufrecht. Das ist das Geschenk der SX6w7: ein Mut, der aus Treue geboren wird, nicht aus Stärke, eine Bindung, die alle Brüche durchhält – ein Wolf, der begreift, dass wahre Furchtlosigkeit nicht heißt, nie zu versagen, sondern nach jedem Fall wieder aufzustehen und zu lieben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Und doch liebte er ihn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Petrus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/QqRezX3O6VA?rel=0" title="Und doch liebte er ihn – Petrus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+        {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
       ])}
     </div>
   `);
@@ -135167,6 +135253,7 @@ function render() {
       "bibel-der-mann-von-gerasa": derMannVonGerasaPage,
       "bibel-zachaeus": zachaeusPage,
       "bibel-philippus": philippusPage,
+      "bibel-petrus": petrusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

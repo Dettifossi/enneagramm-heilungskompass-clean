@@ -162,6 +162,10 @@ const BIBEL_PORTRAITS = [
     heading:"Philip – Social Type 6",
     teaser:"SO6w5 · The longing for certainty and the courage for closeness. \"Lord, show us the Father\" – until Jesus shows him: trust is a decision, not completed proof.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-petrus", name:"Peter", added:"2026-08-28", subtyp:"SX6w7",
+    heading:"Peter – Sexual Type 6",
+    teaser:"SX6w7 · The fire of bonding and the fear of losing oneself. Denies Jesus three times out of fear – and through that fall becomes the rock, forged from fire.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -24970,6 +24974,7 @@ function michaelSchumacherPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
         {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SX6w7)"},
+        {route:"bibel-petrus", label:"Bible Portrait: Peter (SX6w7)"},
       ])}
     </div>
   `);
@@ -44584,12 +44589,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Fear is not avoided but confronted head-on – strength as counter-fear (Naranjo: countertype of the Six)",
-    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck"],
+    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Peter"],
     fingerabdruecke: [
       {
         titel: "Fear is not avoided, but confronted head-on",
         beschreibung: "Unlike the other Six subtypes, this expression seeks security not through adaptation or retreat, but through directly confronting one's own fear – strength becomes the counter-reaction to a deep-seated insecurity.",
-        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness; Beethoven, who met two parallel, progressing illnesses – deafness and liver cirrhosis – never with retreat but with continued work, right up to the clenched fist at the moment of his death; Otto von Bismarck, who repeatedly threatened Kaiser Wilhelm I with his own resignation rather than bow to political defeats, and whose own admission, 'I am all nerves, so that self-control has always been the greatest task of my life,' shows how much strength it took to conceal his own fear behind displays of menace."
+        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness; Beethoven, who met two parallel, progressing illnesses – deafness and liver cirrhosis – never with retreat but with continued work, right up to the clenched fist at the moment of his death; Otto von Bismarck, who repeatedly threatened Kaiser Wilhelm I with his own resignation rather than bow to political defeats, and whose own admission, 'I am all nerves, so that self-control has always been the greatest task of my life,' shows how much strength it took to conceal his own fear behind displays of menace; Peter, who jumped out of the boat to walk on water to Jesus, and drew the sword in the garden to defend him – 'he needed Jesus's closeness like air to breathe,' and this exact force of bonding made him deny him three times, out of fear of losing it, before it made him the rock."
       },
       {
         titel: "Direct eye contact and plain speech instead of retreat or diplomacy",
@@ -66938,6 +66943,87 @@ function philippusPage() {
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
         {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SE6w5)"},
+        {route:"bibel-petrus", label:"Bible Portrait: Peter (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function petrusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-petrus-portrait.jpg" alt="Peter – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The fire of bonding and the fear of losing oneself – Animal correspondence: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Animal correspondence: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Lord, I am ready to go with you to prison and to death!" Jesus said: "The rooster will not crow today until you have denied three times that you know me." (Luke 22:33–34)</p>
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six – it loves with force, defends its pack with its whole body, and its fearlessness is not the absence of fear, but its reversal into action. Peter spoke first, always. When others fell silent, he threw himself forward, with words, with gestures, with his whole body. He left the boat to walk on water to Jesus. He drew the sword in the garden to defend him.</p>
+          <p class="vb-intro">Bonding is the home of the SX6, but this home is surrounded by inner storms. Peter believed, but his faith was not calm. It was compelling, indispensable, and full of fear that he might be abandoned if he were not enough. He did not say: "I believe in you." He said: "I will not fail you." He needed Jesus's closeness like air to breathe, not as an idea, but as embodied bond.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Bold Through Bonding, Fragile in Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When Jesus began to speak of suffering, Peter cried out: "This shall never happen to you!" almost like a child trying to protect a beloved father. But Jesus answered sharply: "Get behind me, Satan!" It was no rejection of Peter, but alarm at the power of fear dressed as love. Peter wavered between courage and fear, between loyalty and self-protection. And Jesus let him, loved him not despite this tension, but with it.</p>
+          <p class="vb-intro">It was cold that night, Jesus was captured, the community torn apart. Peter followed, not openly, but close enough not to miss anything, close enough to still be able to save something. The SX6 is bold through bonding, but full of fear when bonding threatens to break. He sat by the fire, warmed his hands, watched. "Weren't you also one of them?" He evaded, shook his head, laughed forcedly. Once, twice, three times. And then the rooster crowed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Impulsive Force Instead of Silent Brooding</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the sexual Six an energetic, impulsive quality – courage shows itself not in quiet, weighed intensity, but in spontaneous, physical, almost overflowing action, before thought catches up. Jesus was led past in this moment, beaten, bound, veiled. But his gaze went through everything, through the night, through the noise, through Peter's armor of fear. He looked at him, not punishing, not disappointed, but recognizing.</p>
+          <p class="vb-intro">Peter did not break because he was weak, but because he was so deeply bonded that the loss shook him to the core. He ran out, wept bitterly, not over himself, but over what he had wounded, because he loved it so much. This exact fast, unbraked action from the gut, jumping out of the boat, drawing the sword, speaking loudly before thinking, carries the signature of the Seven-wing – the tragedy of the SX6: it wants to protect, but out of fear of failing, it can lose exactly what it wanted to preserve most.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Question in the Morning: Three Breaths</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The morning smelled of salt and ash. The disciples were back at the lake, back with the nets, back with what they knew, because they did not know how to go on. Peter had grown quiet within, not out of peace, but out of shame. Yet there stood Jesus on the shore, with coals, with bread, with fish. "Come and have breakfast." No reproach, no sermon, only closeness.</p>
+          <p class="vb-intro">After the meal Jesus addressed him: "Simon, son of John, do you love me?" Three times he asked, not to test him, but to lead him back, gently, persistently, like coaxing a wounded animal back into the light. In the end Jesus did not say: "You are worthy again." But: "Feed my sheep." He gave him responsibility, precisely because he had fallen. For only one who breaks can truly see the broken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From the Storm of Pentecost to Loyalty in the Face of Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jerusalem trembled, tongues of fire on their heads, a voice in many languages, and in the middle of it: Peter. He, who had hesitated, he, who had fallen, stepped forward, not with calculation, not with learning, but with fire in his heart: "Men of Judea, hear my words!" Peter was no orator, he was a witness. The SX6 does not remain bold because it is free of fear. It remains bold because it trusts the bond more than its own fear.</p>
+          <p class="vb-intro">The price rose: arrests, threats, torture. And yet Peter said, when they tried to silence him: "We must obey God rather than men." Not defiantly, not heroically, but out of lived trust. He, who had lied out of fear, now spoke with clarity, because he knew that not even death could sever what love had bound.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: The Rock Hewn From Doubt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He grew old, but the storm never fully left him. Again and again the old questions moved through him: Am I enough? Will I be held? But they lost their power, for he now knew the gaze that loved through failure, and that love anchored him. He was later called "the rock," not because he was unshakeable, but because he had to learn to stand firm, despite fear, despite inner turmoil.</p>
+          <p class="vb-intro">When he was arrested, he asked not to be crucified like Jesus: "I am not worthy to die as my Lord did." And so he died on the cross with his head downward, but with his heart upright. This is the gift of the SX6w7: a courage born of loyalty, not strength, a bond that survives every break – a wolf that understands true fearlessness does not mean never failing, but rising and loving again after every fall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: And Yet He Loved Him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Peter, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/QqRezX3O6VA?rel=0" title="And Yet He Loved Him – Peter" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+        {route:"bibel-philippus", label:"Bible Portrait: Philip (SO6w5)"},
       ])}
     </div>
   `);
@@ -99465,6 +99551,7 @@ function subtypeSchaubilderPage() {
       "bibel-der-mann-von-gerasa": derMannVonGerasaPage,
       "bibel-zachaeus": zachaeusPage,
       "bibel-philippus": philippusPage,
+      "bibel-petrus": petrusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
