@@ -138,6 +138,10 @@ const BIBEL_PORTRAITS = [
     heading:"Thomas – Social Type 4",
     teaser:"SO4w5 · The longing for truth. Believes not what others testify, only what he lives through himself – until Jesus's gaze overcomes all separation: \"My Lord and my God!\"",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-judas-thaddaeus", name:"Jude Thaddaeus", added:"2026-08-28", subtyp:"SX4w5",
+    heading:"Jude Thaddaeus – Sexual Type 4",
+    teaser:"SX4w5 · The wish to be wholly chosen. Watches quietly for whether Jesus's gaze is meant for him – until a question no one else dared to ask brings an answer straight to his innermost self.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -24391,6 +24395,7 @@ function danteAlighieriPortraitPage() {
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
         {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology shaped the Divine Comedy's architecture"},
         {route:"hoellenkreise-dante", label:"Chart: The 9 Circles of Hell According to Dante's Inferno"},
+        {route:"bibel-judas-thaddaeus", label:"Bible Portrait: Jude Thaddaeus (SX4w5)"},
       ])}
     </div>
   `);
@@ -44716,12 +44721,12 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Small in stature, immense inner life – intensity that knows no half-measures (Naranjo: Competitiveness)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Jude Thaddaeus"],
     fingerabdruecke: [
       {
         titel: "Small in stature or origin, immense inner life – intensity without half-measures",
         beschreibung: "Naranjo called this subtype the one of 'Competitiveness': an intensity utterly disproportionate to outward appearance or starting conditions. No half-feeling, no moderate demeanor – whatever is felt is felt completely.",
-        beleg: "Freddie Mercury: 'The Chihuahua who turns into a lion – and never stops being a Chihuahua'; Rihanna, from 'a child from the Caribbean to the most global entertainer of her generation': 'Small, where she comes from. Unstoppable, where she's going'; Billie Eilish: 'It doesn't shake out of weakness, but out of alertness: every fiber of its small body is tuned to intensity'; Dante, Debussy, and the Marquis de Sade are described in almost identical terms: 'Small in stature, immense inner life, incapable of half-measures'; Paris Hilton, whose years-long companion, the Chihuahua Tinkerbell, became a literal emblem of her own unmistakable stage intensity."
+        beleg: "Freddie Mercury: 'The Chihuahua who turns into a lion – and never stops being a Chihuahua'; Rihanna, from 'a child from the Caribbean to the most global entertainer of her generation': 'Small, where she comes from. Unstoppable, where she's going'; Billie Eilish: 'It doesn't shake out of weakness, but out of alertness: every fiber of its small body is tuned to intensity'; Dante, Debussy, and the Marquis de Sade are described in almost identical terms: 'Small in stature, immense inner life, incapable of half-measures'; Paris Hilton, whose years-long companion, the Chihuahua Tinkerbell, became a literal emblem of her own unmistakable stage intensity; Jude Thaddaeus, the barely mentioned disciple, whose entire being was nonetheless 'full of longing, full of fire, full of questions, full of hunger for deep, real connection' – small at the edge of tradition, immense in the one question he dared to ask."
       },
       {
         titel: "Rejection or exile becomes creative power, rather than leading to revenge or resignation",
@@ -66418,6 +66423,87 @@ function thomasPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
         {route:"bibel-andreas", label:"Bible Portrait: Andrew (SE4w5)"},
+        {route:"bibel-judas-thaddaeus", label:"Bible Portrait: Jude Thaddaeus (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function judasThaddaeusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-judas-thaddaeus-portrait.jpg" alt="Jude Thaddaeus – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jude Thaddaeus</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The wish to be wholly chosen – Animal correspondence: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Animal correspondence: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Lord, how is it that you will reveal yourself to us, and not to the world?" (John 14:22)</p>
+
+        <h2 class="vb-section">1. The Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four – small in outer appearance, but full of intensity, with a heart that loves nothing by halves and stakes everything on the one, exclusive bond. Jude Thaddaeus was one of the Twelve, yet he was rarely spoken of. When his name came up, it was only for distinction: not Judas Iscariot, the other Judas. As if he were a footnote, an echo, the shadow of a name that would later carry burden and shame.</p>
+          <p class="vb-intro">But Jude Thaddaeus was not empty, not incidental. He was full – full of longing, full of fire, full of questions, full of hunger for deep, real connection. He was not a man of the crowd. He sought closeness, but chosen closeness – not following along, but a bond built on mutuality. In the soul of the SX4 lives a sentence: I do not want to be one of many – I want to be the One.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: The Longing to Be Meant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jude Thaddaeus was often quiet, but watchful. He observed, listened for nuances in Jesus's voice, for small movements in his face. He hoped he saw more than the others. And sometimes, when Jesus happened to turn toward him, his gaze lingered a breath longer than necessary. And in that moment something bloomed within him: Perhaps I am the One after all. Perhaps he recognizes what is in me.</p>
+          <p class="vb-intro">But then Jesus turned away again, spoke with Peter, smiled with John, held dialogue with James. And Jude Thaddaeus felt: the light did not touch him for long, not often, not visibly. He was not jealous, but hungry. Not envious, but longing. And within him grew a feeling SX4s know well: I am deep, but no one sees it. I love, but no one returns it this way. I am faithful, but not chosen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Quiet Watching Instead of Loud Wanting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four a withdrawn, attentive quality – burning longing is not carried outward loudly, but observed within, interpreted, guarded. The night was warm, the meal nearly over, the air heavy with expectation. Jesus had spoken of departure, of setting out, of a path no one understood. Only Jude Thaddaeus could no longer hold it in, for the SX4 can carry much, but not the darkness of the unresolved.</p>
+          <p class="vb-intro">He leaned forward, not defiantly, not loudly, but full of inner urgency: "Lord, how is it that you will reveal yourself to us, and not to the world?" It was not a theological question. It was a soul's question: Why us? Why me? What makes me meant, and not the others? This exact long, inward observing and weighing, before longing finally discharges into one single, precise sentence, carries the signature of the Five-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Answer: Seen Beyond the Role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus looked at him, long, without judgment, without answering at once. And in that gaze something happened that no answer could explain. He saw him not as a role, not as a number among Twelve, but as the one heart asking: Do you see me – or only us? Jesus then spoke of love, of revelation, of a coming and remaining – but no longer to the crowd. To him.</p>
+          <p class="vb-intro">"If anyone loves me, he will keep my word, and my Father will love him, and we will come to him and make our home with him." An answer that did not go over his head, but struck straight into his innermost self. Jude Thaddaeus said nothing more, for he had sensed: he had been meant, completely, without qualification, without mistaking him for another. And that is enough for an SX4 for a long time: one moment in which it knows itself seen, mirrored, loved – not for its strength, but for its wound.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Blank in the Name: The Wish to Still Be Unforgotten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After that evening Jude Thaddaeus hardly spoke again. His heart had grown quiet, but not mute – more like a light that no longer flickered, but glowed, steady, calm, deep. And yet something remained open: his name, or rather, what did not happen to it. He did not heal publicly, did not preach before thousands, wrote no gospel, founded no great community. In tradition he appears at the edge, sometimes even confused: was he Lebbaeus? Or Judas, son of James?</p>
+          <p class="vb-intro">The SX4 does not suffer from being invisible – it suffers from being mistaken for someone else. It does not want to be prominent – it wants to be singular. Within him burned a thought: What if I disappear? What if no one remembers who I was, even though I felt everything? But exactly there lay his maturing: he recognized that Jesus did not measure by effect, but by truthfulness – and that one gaze, one question, one faithful closeness could say more than ten sermons.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: The Voice of the Quiet Longing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is told that Jude Thaddaeus went far into the East, to Mesopotamia, Armenia, Persia – far from Jerusalem, from the roads the others walked, like a stream that buries itself in depth, not visible, but alive. The SX4 does not seek the center of the stage, but the authentic trace. He died, it is said, together with Simon the Zealot, a martyr's death, without spectacle, without a recorded last word. But his name lives on, not as a hero, but as a witness of longing.</p>
+          <p class="vb-intro">Catholic tradition names him the patron of desperate cases – perhaps because he himself knew what it feels like to have a heart that feels unseen, unmeant, unremembered, and because he was one who loved anyway, without certainty, without proof, without guarantees. This is the gift of the SX4w5: an intensity that guards itself in quiet watching, until it finally, in one single precise sentence, reveals its whole depth – a Chihuahua whose entire heart finds fulfillment in one single, shared gaze.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Why Not the World?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Jude Thaddaeus, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/12JIwPNwZN4?rel=0" title="Why Not the World? – Jude Thaddaeus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
+        {route:"bibel-thomas", label:"Bible Portrait: Thomas (SO4w5)"},
       ])}
     </div>
   `);
@@ -98939,6 +99025,7 @@ function subtypeSchaubilderPage() {
       "bibel-judas-iskariot": judasIskariotPage,
       "bibel-andreas": andreasPage,
       "bibel-thomas": thomasPage,
+      "bibel-judas-thaddaeus": judasThaddaeusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

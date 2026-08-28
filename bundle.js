@@ -32110,6 +32110,10 @@ const BIBEL_PORTRAITS = [
     heading:"Thomas \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 Die Sehnsucht nach Wahrheit. Glaubt nicht, was andere bezeugen, nur was er selbst durchlebt \u2013 bis Jesu Blick alle Trennung \u00fcberwindet: \u00bbMein Herr und mein Gott!\u00ab",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-judas-thaddaeus", name:"Judas Thadd\u00e4us", added:"2026-08-28", subtyp:"SX4w5",
+    heading:"Judas Thadd\u00e4us \u2013 Sexueller Typ 4",
+    teaser:"SX4w5 \u00b7 Der Wunsch, ganz erw\u00e4hlt zu sein. Beobachtet still, ob Jesu Blick ihm gilt \u2013 bis eine Frage, die andere nicht wagten, eine Antwort direkt ins Innerste bringt.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44496,12 +44500,12 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Klein von Gestalt, riesig im Innenleben – Intensität, die keine Halbheiten kennt (Naranjo: Konkurrenzneid)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Judas Thaddäus"],
     fingerabdruecke: [
       {
         titel: "Klein von Gestalt oder Herkunft, riesig im Innenleben – Intensität ohne Halbheiten",
         beschreibung: "Naranjo nannte diesen Subtyp den des ›Konkurrenzneids‹: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt.",
-        beleg: "Freddie Mercury: ›Der Chihuahua, der sich in einen Löwen verwandelt – und dabei nie aufhört, ein Chihuahua zu sein‹; Rihanna, vom ›Kind aus der Karibik zur globalsten Entertainerin ihrer Generation‹: ›Klein, woher er kommt. Unaufhaltsam, wohin er geht‹; Billie Eilish: ›Er zittert nicht aus Schwäche, sondern aus Wachheit: jede Faser seines kleinen Körpers ist auf Intensität ausgerichtet‹; Dante, Debussy und Marquis de Sade werden fast wortgleich beschrieben: ›Klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten‹; Paris Hilton, deren jahrelanger Begleiter, der Chihuahua Tinkerbell, buchstäblich zum Sinnbild ihrer eigenen, unübersehbaren Bühnenintensität wurde; Bill Kaulitz, dessen ungewöhnlich hohe, durchdringende Stimme ihn schon als Kind von Gleichaltrigen unterschied – ein Merkmal, das er nie zu verstecken versuchte, sondern über zwei Jahrzehnte konsequent in ein unübersehbares öffentliches Erscheinungsbild verwandelte."
+        beleg: "Freddie Mercury: ›Der Chihuahua, der sich in einen Löwen verwandelt – und dabei nie aufhört, ein Chihuahua zu sein‹; Rihanna, vom ›Kind aus der Karibik zur globalsten Entertainerin ihrer Generation‹: ›Klein, woher er kommt. Unaufhaltsam, wohin er geht‹; Billie Eilish: ›Er zittert nicht aus Schwäche, sondern aus Wachheit: jede Faser seines kleinen Körpers ist auf Intensität ausgerichtet‹; Dante, Debussy und Marquis de Sade werden fast wortgleich beschrieben: ›Klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten‹; Paris Hilton, deren jahrelanger Begleiter, der Chihuahua Tinkerbell, buchstäblich zum Sinnbild ihrer eigenen, unübersehbaren Bühnenintensität wurde; Bill Kaulitz, dessen ungewöhnlich hohe, durchdringende Stimme ihn schon als Kind von Gleichaltrigen unterschied – ein Merkmal, das er nie zu verstecken versuchte, sondern über zwei Jahrzehnte konsequent in ein unübersehbares öffentliches Erscheinungsbild verwandelte; Judas Thaddäus, der kaum je erwähnte Jünger, dessen ganzes Sein doch »voll Sehnsucht, voll Feuer, voll Fragen, voll Hunger nach tiefer, echter Verbindung« war – klein am Rand der Überlieferung, riesig in der einen Frage, die er zu stellen wagte."
       },
       {
         titel: "Zurückweisung oder Verbannung wird zu schöpferischer Kraft, statt in Rache oder Resignation zu münden",
@@ -48040,6 +48044,7 @@ function danteAlighieriPortraitPage() {
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
         {route:"beruehmte-thomas-von-aquin", label:"Porträt: Thomas von Aquin (SE9w8) – dessen Theologie die Architektur der Göttlichen Komödie stützte"},
         {route:"hoellenkreise-dante", label:"Schaubild: Die 9 Kreise der Hölle nach Dantes Inferno"},
+        {route:"bibel-judas-thaddaeus", label:"Bibel-Porträt: Judas Thaddäus (SX4w5)"},
       ])}
     </div>
   `);
@@ -94492,6 +94497,87 @@ function thomasPage() {
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
         {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
         {route:"bibel-andreas", label:"Bibel-Porträt: Andreas (SE4w5)"},
+        {route:"bibel-judas-thaddaeus", label:"Bibel-Porträt: Judas Thaddäus (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function judasThaddaeusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-judas-thaddaeus-portrait.jpg" alt="Judas Thaddäus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Judas Thaddäus</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Wunsch, ganz erwählt zu sein – Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, wie kommt es, dass du dich uns offenbaren willst – und nicht der Welt?« (Joh 14,22)</p>
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier – klein an äußerer Erscheinung, aber voller Intensität, mit einem Herzen, das nichts halb liebt und alles auf die eine, exklusive Bindung setzt. Judas Thaddäus war einer von Zwölf, doch man sprach selten von ihm. Wenn sein Name fiel, dann nur zur Abgrenzung: nicht Judas Iskariot, der andere Judas. Als sei er eine Randnotiz, ein Echo, ein Schatten eines Namens, der später Last und Scham tragen würde.</p>
+          <p class="vb-intro">Doch Judas Thaddäus war nicht leer, nicht nebensächlich. Er war voll – voll Sehnsucht, voll Feuer, voll Fragen, voll Hunger nach tiefer, echter Verbindung. Er war kein Mann der Masse. Er suchte Nähe, aber gewählte Nähe – kein Mitlaufen, sondern Verbundenheit, die auf Gegenseitigkeit beruhte. In der Seele der SX4 lebt ein Satz: Ich will nicht einer von vielen sein, ich will der Eine sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Die Sehnsucht, gemeint zu sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Judas Thaddäus war oft still, aber wachsam. Er beobachtete, lauschte auf Nuancen in Jesu Stimme, auf kleine Regungen in dessen Gesicht. Er hoffte, er sah mehr als die anderen. Und manchmal, wenn Jesus ihm zufällig zugewandt war, verweilte sein Blick einen Atemzug länger als nötig. Und in diesem Moment blühte etwas in ihm auf: Vielleicht bin ich doch der Eine. Vielleicht erkennt er, was in mir ist.</p>
+          <p class="vb-intro">Doch dann wandte Jesus sich wieder ab, sprach mit Petrus, lächelte mit Johannes, hielt Zwiesprache mit Jakobus. Und Judas Thaddäus spürte: Das Licht traf ihn nicht lange, nicht oft, nicht sichtbar. Er war nicht eifersüchtig, aber hungrig. Nicht neidisch, aber sehnsüchtig. Und in ihm wuchs ein Gefühl, das SX4er gut kennen: Ich bin tief, aber niemand sieht es. Ich liebe, aber niemand erwidert es so. Ich bin treu, aber nicht gewählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Stilles Beobachten statt lauten Verlangens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Vier eine zurückgezogene, aufmerksame Qualität – die brennende Sehnsucht wird nicht laut hinausgetragen, sondern im Innern beobachtet, gedeutet, gehütet. Die Nacht war warm, das Mahl fast vorbei, die Luft schwer von Erwartung. Jesus hatte von Abschied gesprochen, von Aufbruch, von einem Weg, den keiner verstand. Nur Judas Thaddäus konnte es nicht mehr halten, denn die SX4 kann viel tragen, aber nicht die Dunkelheit des Ungeklärten.</p>
+          <p class="vb-intro">Er beugte sich vor, nicht trotzig, nicht laut, aber voller innerer Dringlichkeit: »Herr, wie kommt es, dass du dich uns offenbaren willst und nicht der Welt?« Es war keine theologische Frage, es war eine seelische: Warum wir? Warum ich? Was macht mich gemeint, und nicht die anderen? Genau dieses lange innere Beobachten und Abwägen, bevor sich die Sehnsucht endlich in einem einzigen, präzisen Satz entlädt, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Antwort: Gesehen jenseits der Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus blickte ihn an, lang, ohne Urteil, ohne sofort zu antworten. Und in diesem Blick geschah etwas, was keine Antwort erklären konnte. Er sah ihn nicht als Rolle, nicht als Nummer unter Zwölf, sondern als einziges Herz, das fragte: Siehst du mich, oder nur uns? Jesus sprach dann von Liebe, von Offenbarung, von einem Kommen und Bleiben – aber nicht mehr an die Menge, sondern an ihn.</p>
+          <p class="vb-intro">»Wenn jemand mich liebt, wird er mein Wort halten, und mein Vater wird ihn lieben, und wir werden zu ihm kommen und Wohnung bei ihm nehmen.« Eine Antwort, die nicht über den Kopf ging, sondern direkt ins Innerste traf. Judas Thaddäus sagte nichts mehr, denn er hatte gespürt: Er war gemeint gewesen, ganz, ohne Abstrich, ohne Verwechslung. Und das reicht einer SX4 für lange Zeit: ein Moment, in dem sie sich gesehen, gespiegelt, geliebt weiß, nicht wegen ihrer Stärke, sondern wegen ihrer Wunde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Leerstelle im Namen: Der Wunsch, dennoch unvergessen zu sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach diesem Abend sprach Judas Thaddäus kaum noch. Sein Herz war still geworden, aber nicht stumm – eher wie ein Licht, das nicht mehr flackerte, sondern glimmte, konstant, ruhig, tief. Und doch blieb etwas offen: sein Name, oder besser, das, was mit ihm nicht geschah. Er heilte nicht öffentlich, predigte nicht vor Tausenden, schrieb kein Evangelium, gründete keine große Gemeinde. In den Überlieferungen tauchte er auf am Rand, manchmal sogar verwechselt: War er nun Lebbäus? Oder Judas, Sohn des Jakobus?</p>
+          <p class="vb-intro">Die SX4 leidet nicht am Unsichtbarsein, sondern daran, verwechselt zu werden. Sie will nicht prominent sein, sondern einzig. In seinem Innersten brannte ein Gedanke: Was, wenn ich verschwinde? Was, wenn niemand erinnert, wer ich war, obwohl ich alles gefühlt habe? Aber genau darin lag seine Reifung: Er erkannte, dass Jesus nicht nach Wirkung maß, sondern nach Wahrhaftigkeit – und dass ein Blick, eine Frage, eine treue Nähe mehr sagen konnte als zehn Predigten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Der Sprecher der leisen Sehnsucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Man erzählte später, dass Judas Thaddäus bis weit in den Osten ging, nach Mesopotamien, Armenien, Persien – weit weg von Jerusalem, von den Wegen der anderen, wie ein Strom, der sich in die Tiefe vergräbt, nicht sichtbar, aber lebendig. Die SX4 sucht nicht das Zentrum der Bühne, sondern die authentische Spur. Er starb, sagt man, mit Simon dem Kananäer den Märtyrertod, ohne Spektakel, ohne aufgeschriebenes letztes Wort. Aber sein Name lebt weiter, nicht als Held, sondern als Zeuge der Sehnsucht.</p>
+          <p class="vb-intro">Die katholische Tradition nennt ihn den Patron der Ausweglosen – vielleicht, weil er selbst wusste, wie sich ein Herz anfühlt, das sich nicht gesehen, nicht gemeint, nicht erinnert fühlt, und weil er einer war, der trotzdem liebte, ohne Sicherheit, ohne Beweis, ohne Garantien. Das ist das Geschenk der SX4w5: eine Intensität, die sich still beobachtend hütet, bis sie einmal, in einem einzigen genauen Satz, ihre ganze Tiefe zeigt – ein Chihuahua, dessen ganzes Herz in einem einzigen, geteilten Blick Erfüllung findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Warum nicht der Welt?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Judas Thaddäus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/12JIwPNwZN4?rel=0" title="Warum nicht der Welt? – Judas Thaddäus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
+        {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
       ])}
     </div>
   `);
@@ -134641,6 +134727,7 @@ function render() {
       "bibel-judas-iskariot": judasIskariotPage,
       "bibel-andreas": andreasPage,
       "bibel-thomas": thomasPage,
+      "bibel-judas-thaddaeus": judasThaddaeusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
