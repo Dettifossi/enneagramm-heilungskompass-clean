@@ -32078,6 +32078,10 @@ const BIBEL_PORTRAITS = [
     heading:"Johannes der T\u00e4ufer \u2013 Sexueller Typ 1",
     teaser:"SX1w9 \u00b7 Asketischer Rufer in der W\u00fcste am Jordan. Kompromissloses Feuer gegen Heuchelei, tauft Jesus \u2013 und zieht sich am Ende bewusst zur\u00fcck: \u00bbEr muss wachsen, ich aber muss abnehmen.\u00ab",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-marta", name:"Marta", added:"2026-08-28", subtyp:"SE2w1",
+    heading:"Marta \u2013 Selbsterhaltender Typ 2",
+    teaser:"SE2w1 \u00b7 Gastgeberin aus Bethanien, Schwester der Maria. Dient unerm\u00fcdlich, bis Jesus sie sanft spiegelt: \u00bbNur eines ist notwendig.\u00ab Lernt, da zu sein, auch ohne zu leisten.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"f"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44658,12 +44662,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Flusspferd",
     kernthema: "Unentbehrlichkeit als Zugang zu Nähe – ruhige, verwurzelte Kraft statt lauter Selbstdarstellung",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Wilson Gonzalez Ochsenknecht", "Mr. T", "Mickey Rourke", "Monica Simpson", "Nate Dogg", "Nusrat Fateh Ali Khan", "Stromae", "Thomas Chaanhing", "Tracie D. Hall", "Quentin Tarantino", "Storm Reid", "Tom Kaulitz", "Tutty Tran", "Lebo M", "Lionel Boyce", "Lisa Antoni", "Loi", "Loni Hui", "Madeline Stuart", "Mariacarla Boscono", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Nero", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Lena Urzendowsky", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Carlos Santana", "Harald Glööckler", "Harnaam Kaur", "Ice Cube", "Jack Ma", "Jimi Blue Ochsenknecht", "Wilson Gonzalez Ochsenknecht", "Mr. T", "Mickey Rourke", "Monica Simpson", "Nate Dogg", "Nusrat Fateh Ali Khan", "Stromae", "Thomas Chaanhing", "Tracie D. Hall", "Quentin Tarantino", "Storm Reid", "Tom Kaulitz", "Tutty Tran", "Lebo M", "Lionel Boyce", "Lisa Antoni", "Loi", "Loni Hui", "Madeline Stuart", "Mariacarla Boscono", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Nero", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof", "Marta"],
     fingerabdruecke: [
       {
         titel: "Unentbehrlichkeit als Zugang zu Nähe und Bedeutung (Naranjo: ›Privileg‹)",
         beschreibung: "Zugehörigkeit und Bedeutung werden nicht eingefordert, sondern durch Fürsorge, Einsatz und das stille Gefühl, gebraucht zu werden, gesichert. Naranjo nannte diesen Subtyp den des ›Privilegs‹: einen besonderen Platz im Leben anderer durch Unentbehrlichkeit zu gewinnen.",
-        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist – und der nach einer schweren Polizeigewalt 2009 mit Hirnblutung die eigene Verletzung nicht verbarg, sondern öffentlich zum Beweisstück gegen den Staat machte; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; sein älterer Bruder Wilson Gonzalez Ochsenknecht, der genau diesen ersten Filmauftritt mit zehn Jahren gemeinsam mit Vater und Bruder erlebte und heute als selbst gewordener Vater alle beruflichen Projekte bewusst der eigenen Tochter unterordnet; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht; Tutty Tran, dessen gesamtes Bühnenwerk um die eigene Familie kreist – nicht als distanzierte Beobachtung, sondern als direkt gelebte, selbstironisch verarbeitete Nähe zu den Eltern, die als vietnamesische Boatpeople nach Deutschland kamen; Lebo M, der demselben Filmfranchise seit 1994 über drei Jahrzehnte treu blieb und seinen Zulu-Ruf zur akustischen Signatur eines ganzen Welterfolgs machte; Lionel Boyce, dessen kreative Laufbahn untrennbar mit der jahrzehntelangen Freundschaft und Zusammenarbeit mit Tyler, the Creator verbunden blieb, von Odd Future bis zur eigenen Produktionsfirma; Lisa Antoni, die sich über ein breites Repertoire im deutschsprachigen Musicaltheater Schritt für Schritt bis zur Christine Daaé am Ronacher vorarbeitete; Loi, deren Künstlername auf ihren Kindheitsspitznamen ›Leonie Löwenherz‹ zurückgeht und die erst über Jahre geduldigen Übens an Gitarre und Klavier zum internationalen Charterfolg mit ›Gold‹ fand; Loni Hui, die ihrem Pokerspiel erst ein Finanzstudium voranstellte, bevor sie zur zweifachen WSOP-Bracelet-Gewinnerin wurde; Madeline Stuart, die ihre eigene, sehr persönliche Geschichte in eine internationale Botschaft für Inklusion von Menschen mit Down-Syndrom in der Modeindustrie verwandelte; Mariacarla Boscono, die ihre mehr als zehnjährige, enge kreative Bindung an Riccardo Tisci bei Givenchy und Burberry aufrechterhielt, während sie zugleich zu einer der sichtbarsten Musen der internationalen Modewelt wurde."
+        beleg: "›Naranjo beschrieb diesen Subtyp auch als denjenigen, der sich selbst zuerst um andere kümmert, um auf Umwegen die eigene Bedürftigkeit zu stillen‹ (Ulrike Meinhof, deren ›Fürsorge für die vermeintlich Schwachen echt war – und zugleich der Kern ihrer Identität‹); Dr. Camille Fritsch als führende Stimme des Flusspferdschutzes; Ai Weiwei, dessen Kunst untrennbar mit dem Einsatz für andere verbunden ist – und der nach einer schweren Polizeigewalt 2009 mit Hirnblutung die eigene Verletzung nicht verbarg, sondern öffentlich zum Beweisstück gegen den Staat machte; Buster Murdaugh, dessen Fall zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext überlebt – als Glaube, dass Zugehörigkeit zu einer bestimmten Welt vor Konsequenzen schützt; Anna Delvey, deren gesamter Betrug auf der fingierten Zugehörigkeit zur New Yorker Erbinnen-Welt beruhte; Lena Urzendowsky, die sich bei beruflichen Unsicherheiten regelmäßig bei ihrem fünfzehn Jahre älteren Bruder Sebastian Rat holt – Sicherheit durch die engste, vertrauteste Bindung statt durch Distanz oder Reichweite; Ice Cube, der die Rolle seines jüngeren Ichs im Film über sein eigenes Leben mit niemand anderem als seinem eigenen Sohn besetzte – die eigene Geschichte bleibt buchstäblich in der Familie; Jack Ma, der nach seinem Rückzug aus Alibaba und Ant Group zu seiner ursprünglichen Rolle zurückkehrte und mit derselben konkreten Zuwendung, mit der er einst selbst für zwölf Dollar im Monat unterrichtete, heute persönlich Lehrerinnen und Lehrer in ländlichen Regionen Chinas fördert; Jimi Blue Ochsenknecht, dessen erste Filmrolle er bereits als Kind gemeinsam mit Vater und Bruder vor derselben Kamera übernahm – die eigene Identität von Anfang an untrennbar mit dem engsten Familienkreis verwoben; sein älterer Bruder Wilson Gonzalez Ochsenknecht, der genau diesen ersten Filmauftritt mit zehn Jahren gemeinsam mit Vater und Bruder erlebte und heute als selbst gewordener Vater alle beruflichen Projekte bewusst der eigenen Tochter unterordnet; Nusrat Fateh Ali Khan, dessen erster öffentlicher Auftritt als Sänger bei der Totenfeier für seinen eigenen, verstorbenen Vater stattfand – aus dem Verlust wurde unmittelbar der persönliche Auftrag, eine sechshundert Jahre alte Familientradition am Leben zu erhalten; Quentin Tarantino, der seit 2007 persönlich ein eigenes 35-mm-Kino in Los Angeles betreibt und dort größtenteils aus der eigenen, über Jahrzehnte gesammelten Filmkopien-Sammlung programmiert – Fürsorge für ein ganzes Medium, konkret verankert im eigenen Besitz; Storm Reid, die gemeinsam mit ihrer Mutter Robyn eine eigene Produktionsfirma gründete – Karriere nicht als Alleingang, sondern von Anfang an als geteiltes Familienprojekt; Tom Kaulitz, dessen musikalische Laufbahn mit zehn Jahren als gemeinsame Bandgründung mit seinem eineiigen Zwillingsbruder begann und bis zum gemeinsamen Erfolgspodcast im Erwachsenenalter fortbesteht; Tutty Tran, dessen gesamtes Bühnenwerk um die eigene Familie kreist – nicht als distanzierte Beobachtung, sondern als direkt gelebte, selbstironisch verarbeitete Nähe zu den Eltern, die als vietnamesische Boatpeople nach Deutschland kamen; Lebo M, der demselben Filmfranchise seit 1994 über drei Jahrzehnte treu blieb und seinen Zulu-Ruf zur akustischen Signatur eines ganzen Welterfolgs machte; Lionel Boyce, dessen kreative Laufbahn untrennbar mit der jahrzehntelangen Freundschaft und Zusammenarbeit mit Tyler, the Creator verbunden blieb, von Odd Future bis zur eigenen Produktionsfirma; Lisa Antoni, die sich über ein breites Repertoire im deutschsprachigen Musicaltheater Schritt für Schritt bis zur Christine Daaé am Ronacher vorarbeitete; Loi, deren Künstlername auf ihren Kindheitsspitznamen ›Leonie Löwenherz‹ zurückgeht und die erst über Jahre geduldigen Übens an Gitarre und Klavier zum internationalen Charterfolg mit ›Gold‹ fand; Loni Hui, die ihrem Pokerspiel erst ein Finanzstudium voranstellte, bevor sie zur zweifachen WSOP-Bracelet-Gewinnerin wurde; Madeline Stuart, die ihre eigene, sehr persönliche Geschichte in eine internationale Botschaft für Inklusion von Menschen mit Down-Syndrom in der Modeindustrie verwandelte; Mariacarla Boscono, die ihre mehr als zehnjährige, enge kreative Bindung an Riccardo Tisci bei Givenchy und Burberry aufrechterhielt, während sie zugleich zu einer der sichtbarsten Musen der internationalen Modewelt wurde; Marta, die auf die Frage, wie sie das alles schaffe, antwortete: ›Es muss ja gemacht werden‹ – gemeint war: ›Ich kann nicht anders. Wenn ich nicht gebe, verschwinde ich.‹"
       },
       {
         titel: "Gutmütig-plumpe Fassade, die bei Bedrohung des eigenen Reviers in unbändige Kraft umschlägt",
@@ -62392,6 +62396,7 @@ function margotFriedlaenderPortraitPage() {
         {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
         {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1)"},
+        {route:"bibel-marta", label:"Bibel-Porträt: Marta (SE2w1)"},
       ])}
     </div>
   `);
@@ -93800,6 +93805,87 @@ function johannesDerTaeuferPage() {
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
         {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Porträt: Ruben, der Schriftgelehrte (SO1w2)"},
+        {route:"bibel-marta", label:"Bibel-Porträt: Marta (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function martaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-marta-portrait.jpg" alt="Marta – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marta</p>
+        <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Gastgeberin aus Bethanien – Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Marta, Marta, du machst dir viele Sorgen und Mühen…« (Lk 10,41)</p>
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – massiv, unauffällig, dem Anschein nach träge, und doch das Tier, das im gesamten Ökosystem am unentbehrlichsten ist: Es hält die Flusswege offen, formt den Lebensraum für alle anderen, meist ungesehen unter der Oberfläche. Marta konnte Stille nicht gut ertragen – nicht, weil sie laut dachte, sondern weil sie in der Stille die anderen nicht mehr hörte. Das Haus war ihr Reich, nicht wie ein Palast, sondern wie ein Gefäß: Sie kannte jede Kachel im Innenhof, jede Kerbe in der Backplatte des Herdes, wusste, wie viel Öl im Krug war, bevor sie ihn anhob.</p>
+          <p class="vb-intro">Sie war früh aufgestanden. Der Brotteig musste ruhen, das Wasser erhitzt, der Platz für Gäste gereinigt werden – auch wenn noch niemand kam. Wenn jemand fragte, wie sie das alles schaffe, lächelte sie und sagte: »Es muss ja gemacht werden.« Aber was sie meinte, war: <em>Ich kann nicht anders. Wenn ich nicht gebe, verschwinde ich.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Liebe als Lohn für Nützlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> gibt nicht, um zu strahlen, sondern um zu überleben – Fürsorge wird zur stillen Voraussetzung dafür, gebraucht und damit gehalten zu werden. In ihrer Kindheit war Marta oft übersehen worden: die stille Tochter, die Vernünftige, die hilft, ohne zu fragen. So hatte sie gelernt: Liebe kommt, wenn man gebraucht wird. Nähe entsteht durch Nützlichkeit. Zuwendung ist kein Geschenk – sie ist ein Lohn.</p>
+          <p class="vb-intro">Als Jesus kam und Maria sich zu seinen Füßen setzte, blieb Marta stehen – das Tuch in der einen Hand, das Wort, das sie nicht sagen wollte, in der anderen. <em>Warum hilft sie nicht?</em> Schließlich trat sie näher und sagte, nicht bitter, aber mit einem Unterton: »Herr, kümmert es dich nicht, dass meine Schwester mich die ganze Arbeit allein tun lässt? Sag ihr, sie soll mir helfen.« Es war kein Zorn. Es war Sehnsucht in der Kleidung der Anklage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplin als Rechtfertigung des Gebens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei eine strenge, fast moralische Note: Dienst wird nicht als Wahl erlebt, sondern als Pflicht, die korrekt erfüllt werden muss. Marta portionierte das Salz streng, hielt jede Kachel sauber, führte den Haushalt mit kontrolliertem Griff. Versorgen war für sie keine Pflicht im engeren Sinn – es war Identität. Ein Raum, in dem sie spürte: Ich bin gebraucht.</p>
+          <p class="vb-intro">Diese Kombination aus Fürsorge und Disziplin macht das Geben für die SE2w1 zugleich zur Bürde und zum einzigen legitimen Weg, Zuwendung zu verdienen – wer aufhört zu arbeiten, hat scheinbar keinen Anspruch mehr auf Liebe. Genau dieser innere Zwang war es, den Jesus später berührte, nicht Martas Fleiß selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Spiegel in Jesu Antwort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus erhob sich nicht, hob nicht einmal die Stimme. Aber als er sprach, legte sich eine stille Weite über den Hof: »Marta, Marta, du machst dir viele Sorgen und Mühen. Aber nur eines ist notwendig. Maria hat den guten Teil erwählt – und er wird ihr nicht genommen werden.« Es war keine Zurechtweisung. Es war ein Spiegel.</p>
+          <p class="vb-intro">Marta sah sich darin – nicht als Fehler, sondern als Mensch, der zu viel trägt, weil er fürchtet, sonst nicht zu genügen. Es ging nicht um Maria. Es ging um die Art, wie Marta ihr Geben mit Bedingungen füllte, wie sie Nähe durch Leistung eintauschte, wie sie nur dann ruhig atmete, wenn sie sicher war: Ich werde gebraucht. Sie ging zurück in die Küche – aber langsamer. Zum ersten Mal saß sie, inmitten der Arbeit, und dachte nicht an das, was noch zu tun war, sondern an das, was in ihr gerufen worden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk der Zuwendung ohne Forderung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am Abend war das Haus erfüllt vom Duft gerösteter Körner und warmer Oliven. Nach dem Essen setzte sich Marta – nicht zu Jesus, nicht zu Maria, sondern auf die Stufe gegenüber, so, dass sie beide sah, aber ohne bedienen zu müssen. Jesus lächelte ihr zu. Sie erwiderte es und spürte etwas Neues: <em>Ich darf da sein, auch wenn ich nichts tue.</em></p>
+          <p class="vb-intro">In jener Nacht schlief sie ruhiger als sonst – nicht, weil alles getan war, sondern weil sie begriff: Nicht jede Liebe muss sichtbar sein. Nicht jedes Geben muss zu Dank führen. Und nicht jede Mühe ist ein Schlüssel zur Anerkennung. Manchmal genügt es, dazusein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Dienen ohne sich zu verlieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Tage vergingen, Jesus kam und ging, und jedes Mal brachte er Bewegung – nicht in den Räumen, in den Menschen. Marta blieb Marta: Sie kochte, sie sorgte. Aber sie drängte weniger, atmete tiefer. Wenn Maria in der Laube saß, fragte sie nicht mehr <em>Warum hilft sie nicht?</em>, sondern dachte: <em>Vielleicht hilft sie gerade anders.</em></p>
+          <p class="vb-intro">Und wenn sie betete, sprach sie nicht mehr nur: <em>Zeig mir, wem ich dienen soll.</em> Sondern manchmal einfach nur: <em>Herr, sei du bei mir. Auch wenn ich nichts tue.</em> Das ist das Geschenk der SE2w1: Fürsorge, die nicht mehr beweisen muss, dass sie einen Platz verdient – ein Flusspferd, das den Fluss weiter offenhält, aber nicht mehr fürchtet zu verschwinden, wenn es einmal stillsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Hände voll, Herz offen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Marta ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/QrKeNWPeBiU?rel=0" title="Hände voll, Herz offen – Marta" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
+        {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
       ])}
     </div>
   `);
@@ -133941,6 +134027,7 @@ function render() {
       "bibel-josef-von-arimathaea": josefVonArimathaeaPage,
       "bibel-ruben-schriftgelehrter": rubenSchriftgelehrterPage,
       "bibel-johannes-der-taeufer": johannesDerTaeuferPage,
+      "bibel-marta": martaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
