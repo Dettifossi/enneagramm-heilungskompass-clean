@@ -101046,6 +101046,13 @@ setTimeout(showTagesimpuls, 600);
       const status = document.createElement("span");
       status.textContent = "✨ Premium access active";
       status.style.color = "var(--copper,#a5652f)";
+      const actions = document.createElement("span");
+      actions.style.cssText = "display:flex;gap:0.6rem;flex-shrink:0;";
+      const manage = document.createElement("button");
+      manage.type = "button";
+      manage.textContent = "Manage subscription";
+      manage.style.cssText = "background:none;border:none;color:var(--copper,#a5652f);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
+      manage.addEventListener("click", openBillingPortal);
       const logout = document.createElement("button");
       logout.type = "button";
       logout.textContent = "Log out";
@@ -101055,8 +101062,10 @@ setTimeout(showTagesimpuls, 600);
         renderPremiumBar();
         addMsg("You are logged out.", "meta");
       });
+      actions.appendChild(manage);
+      actions.appendChild(logout);
       premiumBarEl.appendChild(status);
-      premiumBarEl.appendChild(logout);
+      premiumBarEl.appendChild(actions);
     } else {
       const info = document.createElement("span");
       info.textContent = "Wegweiser Premium: access to more than 40 books";
@@ -101094,6 +101103,24 @@ setTimeout(showTagesimpuls, 600);
       });
       const data = await res.json();
       addMsg(data.message || data.error || "Please check your inbox.", "meta");
+    } catch (e) {
+      addMsg("Connection error. Please try again later.", "meta");
+    }
+  }
+
+  async function openBillingPortal() {
+    const token = getSessionToken();
+    if (!token) return;
+    try {
+      const res = await fetch(WORKER_URL + "/billing/portal", {
+        headers: { "X-Session-Token": token },
+      });
+      const data = await res.json();
+      if (data.url) {
+        window.open(data.url, "_blank", "noopener");
+      } else {
+        addMsg(data.error || "Could not open the customer portal.", "meta");
+      }
     } catch (e) {
       addMsg("Connection error. Please try again later.", "meta");
     }

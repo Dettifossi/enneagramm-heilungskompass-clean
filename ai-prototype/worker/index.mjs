@@ -275,6 +275,44 @@ async function handleAuthVerify(request, env) {
   return jsonResponse(request, { sessionToken, email });
 }
 
+// Erzeugt einen Stripe-Kundenportal-Link für den eingeloggten Nutzer (Abo
+// verwalten/kündigen/Rechnungen einsehen). Funktioniert unabhängig vom
+// aktuellen Abo-Status (auch für gekündigte Konten, z.B. um erneut zu
+// abonnieren) - anders als resolvePremiumAccess, das nur aktive Abos gelten
+// lässt.
+async function handleBillingPortal(request, env) {
+  if (!env.STRIPE_SECRET_KEY) {
+    return jsonResponse(request, { error: "Kundenportal noch nicht aktiv." }, 501);
+  }
+  const token = request.headers.get("X-Session-Token");
+  if (!token) return jsonResponse(request, { error: "Nicht eingeloggt." }, 401);
+
+  const email = await env.AUTH_TOKENS.get(`session:${token}`);
+  if (!email) return jsonResponse(request, { error: "Sitzung abgelaufen." }, 401);
+
+  const sub = await getSubscriberStatus(env, email);
+  if (!sub || !sub.stripeCustomerId) {
+    return jsonResponse(request, { error: "Kein Stripe-Kundenkonto gefunden." }, 404);
+  }
+
+  const res = await fetch("https://api.stripe.com/v1/billing_portal/sessions", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${env.STRIPE_SECRET_KEY}`,
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: new URLSearchParams({
+      customer: sub.stripeCustomerId,
+      return_url: "https://kompass.verlagshausrathmer.com/",
+    }),
+  });
+  if (!res.ok) {
+    return jsonResponse(request, { error: `Stripe-Fehler ${res.status}: ${await res.text()}` }, 502);
+  }
+  const data = await res.json();
+  return jsonResponse(request, { url: data.url });
+}
+
 async function handleStripeWebhook(request, env) {
   if (!env.STRIPE_WEBHOOK_SECRET) {
     return jsonResponse(request, { error: "Webhook noch nicht aktiv." }, 501);
@@ -440,6 +478,9 @@ export default {
       }
       if (url.pathname === "/stripe/webhook" && request.method === "POST") {
         return await handleStripeWebhook(request, env);
+      }
+      if (url.pathname === "/billing/portal" && request.method === "GET") {
+        return await handleBillingPortal(request, env);
       }
 
       if (request.method !== "POST") {

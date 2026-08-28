@@ -136750,6 +136750,13 @@ setTimeout(showTagesimpuls, 600);
       const status = document.createElement("span");
       status.textContent = "\u2728 Premium-Zugang aktiv";
       status.style.color = "var(--copper,#a5652f)";
+      const actions = document.createElement("span");
+      actions.style.cssText = "display:flex;gap:0.6rem;flex-shrink:0;";
+      const manage = document.createElement("button");
+      manage.type = "button";
+      manage.textContent = "Abo verwalten";
+      manage.style.cssText = "background:none;border:none;color:var(--copper,#a5652f);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
+      manage.addEventListener("click", openBillingPortal);
       const logout = document.createElement("button");
       logout.type = "button";
       logout.textContent = "Abmelden";
@@ -136759,8 +136766,10 @@ setTimeout(showTagesimpuls, 600);
         renderPremiumBar();
         addMsg("Du bist abgemeldet.", "meta");
       });
+      actions.appendChild(manage);
+      actions.appendChild(logout);
       premiumBarEl.appendChild(status);
-      premiumBarEl.appendChild(logout);
+      premiumBarEl.appendChild(actions);
     } else {
       const info = document.createElement("span");
       info.textContent = "Wegweiser Premium: Zugriff auf mehr als 40 B\u00fccher";
@@ -136798,6 +136807,24 @@ setTimeout(showTagesimpuls, 600);
       });
       const data = await res.json();
       addMsg(data.message || data.error || "Bitte pr\u00fcfe dein Postfach.", "meta");
+    } catch (e) {
+      addMsg("Verbindungsfehler. Bitte sp\u00e4ter erneut versuchen.", "meta");
+    }
+  }
+
+  async function openBillingPortal() {
+    const token = getSessionToken();
+    if (!token) return;
+    try {
+      const res = await fetch(WORKER_URL + "/billing/portal", {
+        headers: { "X-Session-Token": token },
+      });
+      const data = await res.json();
+      if (data.url) {
+        window.open(data.url, "_blank", "noopener");
+      } else {
+        addMsg(data.error || "Kundenportal konnte nicht ge\u00f6ffnet werden.", "meta");
+      }
     } catch (e) {
       addMsg("Verbindungsfehler. Bitte sp\u00e4ter erneut versuchen.", "meta");
     }
