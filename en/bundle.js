@@ -126,6 +126,10 @@ const BIBEL_PORTRAITS = [
     heading:"Pontius Pilate – Social Type 3",
     teaser:"SO3w4 · Roman prefect at the trial. Jesus's silence reflects nothing back – Pilate finds only emptiness within. Washes his hands in innocence, yet the question \"What is truth?\" stays with him.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-judas-iskariot", name:"Judas Iscariot", added:"2026-08-28", subtyp:"SX3w4",
+    heading:"Judas Iscariot – Sexual Type 3",
+    teaser:"SX3w4 · The wish to be irreplaceable. Seeks significance through the one exclusive bond – until the kiss of betrayal becomes a revelation of his own collapsing self-image.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -38743,6 +38747,7 @@ function dieterBohlenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
+        {route:"bibel-judas-iskariot", label:"Bible Portrait: Judas Iscariot (SX3w4)"},
       ])}
     </div>
   `);
@@ -44782,12 +44787,12 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Peacock",
     kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot"],
     fingerabdruecke: [
       {
         titel: "Immediate, magnetic presence instead of calculated staging",
         beschreibung: "The effect arises not through planned strategy, but through a presence that escapes analysis – one can hardly resist it without being able to say exactly how it comes about.",
-        beleg: "Brad Pitt: 'The peacock, whose effect doesn't come from calculation, but from pure, immediate presence. He has nothing to prove, he only needs to be there'; Brigitte Bardot: 'An animal that doesn't unfold its feathers to calculate an effect, but because splendor is its nature'; Marilyn Monroe: 'Her presence wasn't technique, but a presence no one could escape.'"
+        beleg: "Brad Pitt: 'The peacock, whose effect doesn't come from calculation, but from pure, immediate presence. He has nothing to prove, he only needs to be there'; Brigitte Bardot: 'An animal that doesn't unfold its feathers to calculate an effect, but because splendor is its nature'; Marilyn Monroe: 'Her presence wasn't technique, but a presence no one could escape.'; Judas Iscariot, who 'had stood out early – not through volume, not through miracles, but through magnetism. When he spoke, people listened, not because he pushed, but because he struck the tone others wanted to hear.'"
       },
       {
         titel: "Radiates without deliberately deploying it",
@@ -66156,6 +66161,91 @@ function pontiusPilatusPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"bibel-salome", label:"Bible Portrait: Salome (SE3w4)"},
+        {route:"bibel-judas-iskariot", label:"Bible Portrait: Judas Iscariot (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function judasIskariotPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-judas-iskariot-portrait.jpg" alt="Judas Iscariot – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Judas Iscariot</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The wish to be irreplaceable – Animal correspondence: Peacock</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Animal correspondence: Peacock" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"The one to whom I give this piece of bread ... it is he." (John 13:26)</p>
+
+        <div class="vb-hinweis-box" style="background:rgba(139,94,60,0.08);border:1px solid rgba(139,94,60,0.25);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0 1.5rem;font-size:0.92rem;line-height:1.6;">
+          <strong>Note:</strong> This chapter interprets one of the most complex and heavily burdened figures in biblical tradition, typologically by subtype. It ends with Judas's suicide – historically recorded, depicted here without embellishment or dramatization. The goal is psychological understanding of a tragic pattern, not a justification of betrayal, and not a trivialization of suicide. If you are in crisis yourself: in Germany, the Telefonseelsorge is reachable free of charge around the clock at 0800 111 0 111; in the US, the 988 Suicide & Crisis Lifeline is available at 988.
+        </div>
+
+        <h2 class="vb-section">1. The Peacock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three – oriented toward the one magnetic connection that proves significance through closeness. Judas had stood out early, not through volume, not through miracles, but through magnetism. When he spoke, people listened, not because he pushed, but because he struck the tone others wanted to hear. He knew the effect of words, of closeness, of devotion – and of control.</p>
+          <p class="vb-intro">Jesus had called him, like the others. But Judas sensed: with me it is different. He wanted not merely to be part of the circle – he wanted to be the key, the one through whom everything happens, the one Jesus perhaps needed most. Not tenderly, not romantically, but in that way that seeks the leading role, not merely applause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Significance Through the One Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> needs closeness, but not just any – it needs the decisive position in the other's heart. Judas understood himself as a mediator between the spiritual and the worldly, between vision and power. He was intelligent, planned along, administered, persuaded. And yet within him was a restlessness, a quiet burning: Am I truly irreplaceable?</p>
+          <p class="vb-intro">He had hoped Jesus would need him – not only outwardly, but at the innermost level, as an ally, a mirror, the right hand of a coming movement. But Jesus spoke of repentance, not of overthrow; of gentleness, not of strategy; of sacrifice, not of influence. And Judas sensed something within him transforming – not into hatred, but into disappointment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Desperate Search for Irreplaceability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the sexual Three a deep emotional intensity that seeks significance not in many relationships, but in the one unmistakable bond – and that grows desperate when this bond proves impossible to possess. If I cannot get closer to him through loyalty, then perhaps through decision, Judas thought. If I cannot move him through devotion, then perhaps through pressure.</p>
+          <p class="vb-intro">It was not revenge, but a last hope to release him from his role and force him into action. Judas was convinced he was doing the right thing – not out of malice, but out of a distorted sense of urgency: I am moving history forward. This almost painful confusion of significance with control, of love with necessity, carries the signature of the Four-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Kiss: Revelation Instead of Proof</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The garden was still, the night not calm, torches flickering through the branches. Judas walked ahead, not hesitating, but like a man completing a plan. "The one I kiss is the one." A sign, as tender as it was fatal. He approached Jesus and kissed him, with that strangely desperate intensity a SX3 feels when creating closeness to prove that it matters.</p>
+          <p class="vb-intro">Jesus said only: "Friend, do what you came for." Not bitter, not cold, only like a mirror. And in that moment something broke in Judas. For the kiss was no longer a gesture, but a revelation – not about Jesus, but about himself. He had not betrayed Jesus – he had betrayed his own image: the illusion that love is gained through influence, closeness through significance, worth through action.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Silver: The Realization That Love Cannot Be Forced</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He held the pouch in his hand, thirty pieces of silver, cold, clear, weighing heavier than guilt. He had believed this was the price of a turning point, of a truth that finally had to come to light. But truth cannot be hastened, and love cannot be bought. He went to the chief priests, laid down the silver: "I have betrayed innocent blood." They looked at him, unmoved: "What is that to us? See to it yourself."</p>
+          <p class="vb-intro">And in that moment Judas knew: he had not been an instrument of justice, only a means to an end. He had sought love through effect, through influence, through control. And now he sensed: Jesus had never used him – but had also never needed him in the way he had dreamed. He had loved him, but not at the price Judas had imagined. And the SX3, whose entire self-image is built on significance through bonding, collapsed exactly where the bond would not hold – not because it was false, but because it was free.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Placing This Without Determinism</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Judas walked the path up alone, without stage, without function, without connection – only the nakedness of the self, without mask, without significance. The SX3 lives for the relationship that makes it unique. When this bond proved impossible to possess, something that had carried him until then fell silent: no "I am loved," no "I am needed," no "I am irreplaceable." Only emptiness – and within it, despair that ended in suicide.</p>
+          <p class="vb-intro">He did not die as a monster, but as a man who confused love with significance and could not bear truth because it did not mirror, but stripped bare. Important: not every sexual Three with a Four-wing betrays or breaks this way – this chapter interprets a single, historically transmitted pattern, not an inevitable consequence of the subtype. Jesus never spoke against him, not even later, never with hatred, never with condemnation – for he knew: Judas had not acted out of malice, but out of a flaw in his longing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: The Kiss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Judas Iscariot, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/SK724DhEJns?rel=0" title="The Kiss – Judas Iscariot" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"bibel-pontius-pilatus", label:"Bible Portrait: Pontius Pilate (SO3w4)"},
       ])}
     </div>
   `);
@@ -98674,6 +98764,7 @@ function subtypeSchaubilderPage() {
       "bibel-maria-magdalena": mariaMagdalenaPage,
       "bibel-salome": salomePage,
       "bibel-pontius-pilatus": pontiusPilatusPage,
+      "bibel-judas-iskariot": judasIskariotPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

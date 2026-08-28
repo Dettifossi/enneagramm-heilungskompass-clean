@@ -32098,6 +32098,10 @@ const BIBEL_PORTRAITS = [
     heading:"Pontius Pilatus \u2013 Sozialer Typ 3",
     teaser:"SO3w4 \u00b7 R\u00f6mischer Pr\u00e4fekt im Verh\u00f6r. Jesu Schweigen wirft nichts zur\u00fcck \u2013 Pilatus findet in sich nur Leere. W\u00e4scht seine H\u00e4nde in Unschuld, doch die Frage \u00bbWas ist Wahrheit?\u00ab bleibt an ihm haften.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-judas-iskariot", name:"Judas Iskariot", added:"2026-08-28", subtyp:"SX3w4",
+    heading:"Judas Iskariot \u2013 Sexueller Typ 3",
+    teaser:"SX3w4 \u00b7 Der Wunsch, unersetzlich zu sein. Sucht Bedeutung durch die eine exklusive Bindung \u2013 bis der Verrats-Kuss zur Enth\u00fcllung des eigenen, zerbrechenden Selbstbilds wird.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44565,12 +44569,12 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Pfau",
     kernthema: "Unmittelbare Präsenz und Magnetismus – ohne Berechnung, aber mit ganzer Wirkung",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Dolly Parton", "Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Heidi Klum", "Dolly Parton", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iskariot"],
     fingerabdruecke: [
       {
         titel: "Unmittelbare, magnetische Präsenz statt berechneter Inszenierung",
         beschreibung: "Die Wirkung entsteht nicht durch geplante Strategie, sondern durch eine Präsenz, die sich der Analyse entzieht – man kann sich ihr kaum entziehen, ohne dass erkennbar wäre, wie genau sie entsteht.",
-        beleg: "Brad Pitt: ›Der Pfau, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz. Er muss nichts beweisen, er muss nur da sein‹; Brigitte Bardot: ›Ein Tier, das sein Gefieder nicht zur Berechnung entfaltet, sondern weil Pracht sein Wesen ist‹; Marilyn Monroe: ›Ihr Auftritt war nicht Technik, sondern eine Präsenz, der sich niemand entziehen konnte.‹"
+        beleg: "Brad Pitt: ›Der Pfau, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz. Er muss nichts beweisen, er muss nur da sein‹; Brigitte Bardot: ›Ein Tier, das sein Gefieder nicht zur Berechnung entfaltet, sondern weil Pracht sein Wesen ist‹; Marilyn Monroe: ›Ihr Auftritt war nicht Technik, sondern eine Präsenz, der sich niemand entziehen konnte.‹; Judas Iskariot, der ›früh aufgefallen war – nicht durch Lautstärke, nicht durch Wunder, sondern durch Zugkraft. Wenn er sprach, hörten Menschen zu, nicht weil er drängte, sondern weil er den Ton traf, den andere hören wollten.‹"
       },
       {
         titel: "Strahlt, ohne es selbst bewusst einzusetzen",
@@ -61267,6 +61271,7 @@ function dieterBohlenPortraitPage() {
         {route:"subtype/sx3", label:"SX3 \u2013 Der Pfau: Subtyp-Profil"},
         {route:"beruehmte-dolly-parton", label:"Portr\u00e4t: Dolly Parton (SX3w4)"},
         {route:"beruehmte-kai-pflaume", label:"Portr\u00e4t: Kai Pflaume (SX3w2)"},
+        {route:"bibel-judas-iskariot", label:"Bibel-Portr\u00e4t: Judas Iskariot (SX3w4)"},
       ])}
     </div>
   `);
@@ -94230,6 +94235,91 @@ function pontiusPilatusPage() {
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"bibel-salome", label:"Bibel-Porträt: Salome (SE3w4)"},
+        {route:"bibel-judas-iskariot", label:"Bibel-Porträt: Judas Iskariot (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function judasIskariotPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-judas-iskariot-portrait.jpg" alt="Judas Iskariot – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Judas Iskariot</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Wunsch, unersetzlich zu sein – Tierentsprechung: Pfau</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Tierentsprechung: Pfau" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Wem ich den Bissen geben werde, der ist's.« (Joh 13,26)</p>
+
+        <div class="vb-hinweis-box" style="background:rgba(139,94,60,0.08);border:1px solid rgba(139,94,60,0.25);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0 1.5rem;font-size:0.92rem;line-height:1.6;">
+          <strong>Hinweis:</strong> Dieses Kapitel deutet eine der komplexesten und am schwersten beladenen Figuren der biblischen Überlieferung literarisch-typologisch nach Subtyp. Es endet mit Judas' Suizid – historisch überliefert, hier ohne jede Ausschmückung oder Dramatisierung dargestellt. Ziel ist psychologisches Verständnis für ein tragisches Muster, keine Rechtfertigung des Verrats und keine Verharmlosung von Suizid. Wer selbst in einer Krise steckt: Die Telefonseelsorge ist unter 0800 111 0 111 kostenlos und rund um die Uhr erreichbar.
+        </div>
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei – auf die eine, magnetische Verbindung ausgerichtet, die Bedeutung durch Nähe beweist. Judas war früh aufgefallen, nicht durch Lautstärke, nicht durch Wunder, sondern durch Zugkraft. Wenn er sprach, hörten Menschen zu, nicht weil er drängte, sondern weil er den Ton traf, den andere hören wollten. Er kannte die Wirkung von Worten, von Nähe, von Hingabe – und von Kontrolle.</p>
+          <p class="vb-intro">Jesus hatte ihn berufen, wie die anderen. Doch Judas spürte: Bei mir ist es anders. Er wollte nicht nur Teil des Kreises sein – er wollte der Schlüssel sein, der, durch den alles geschieht, der, den Jesus vielleicht am meisten braucht. Nicht zärtlich, nicht romantisch, sondern in jener Art, die die tragende Rolle sucht, nicht bloß Beifall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Bedeutung durch die eine Bindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> braucht Nähe, aber nicht beliebige – sie braucht die entscheidende Position im Herzen des Anderen. Judas verstand sich als Vermittler zwischen dem Spirituellen und dem Weltlichen, zwischen Vision und Macht. Er war intelligent, plante mit, verwaltete, überzeugte. Und doch war in ihm eine Unruhe, ein leises Brennen: Bin ich wirklich unersetzlich?</p>
+          <p class="vb-intro">Er hatte gehofft, Jesus würde ihn brauchen – nicht nur im Außen, sondern im Innersten, als Verbündeten, als Spiegel, als rechten Arm einer kommenden Bewegung. Aber Jesus sprach von Umkehr, nicht von Umsturz, von Sanftmut, nicht von Strategie, von Opfer, nicht von Einfluss. Und Judas spürte, wie sich in ihm etwas verwandelte – nicht zu Hass, sondern zu Enttäuschung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die verzweifelte Suche nach Unersetzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine tiefe emotionale Intensität, die Bedeutung nicht in vielen Beziehungen, sondern in der einen unverwechselbaren Bindung sucht – und die verzweifelt wird, wenn diese Bindung sich als nicht besitzbar erweist. Wenn ich ihm nicht näherkomme durch Treue, dann vielleicht durch Entscheidung, dachte Judas. Wenn ich ihn nicht bewegen kann durch Loyalität, dann vielleicht durch Druck.</p>
+          <p class="vb-intro">Es war keine Rache, sondern eine letzte Hoffnung, ihn aus seiner Rolle zu lösen und zur Handlung zu zwingen. Judas war überzeugt, dass er das Richtige tat – nicht aus Bosheit, sondern aus einem verzerrten Sinn für Dringlichkeit: Ich bringe die Geschichte voran. Diese fast schmerzhafte Verwechslung von Bedeutung mit Kontrolle, von Liebe mit Notwendigkeit, trägt die Handschrift des Viererflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Kuss: Enthüllung statt Beweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Garten war still, die Nacht nicht ruhig, Fackeln zuckten durch die Zweige. Judas ging voraus, nicht zögernd, sondern wie ein Mann, der einen Plan vollendet. »Der, den ich küssen werde, der ist es.« Ein Zeichen, so zärtlich wie tödlich. Er trat zu Jesus und küsste ihn, mit jener seltsam verzweifelten Intensität, die eine SX3 empfindet, wenn sie Nähe herstellt, um zu beweisen, dass sie bedeutet.</p>
+          <p class="vb-intro">Jesus sagte nur: »Freund, dazu bist du gekommen?« Nicht bitter, nicht kalt, nur wie ein Spiegel. Und in diesem Moment brach etwas in Judas. Denn der Kuss war keine Geste mehr, sondern eine Enthüllung – nicht über Jesus, sondern über sich selbst. Er hatte nicht Jesus verraten, er hatte sein eigenes Bild verraten: die Illusion, dass Liebe durch Einfluss, Nähe durch Bedeutung, Wert durch Aktion zu erlangen sei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Silber: Die Erkenntnis, dass Liebe nicht erzwungen werden kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er hielt den Beutel in der Hand, dreißig Silberstücke, kalt, klar, schwerer wiegend als Schuld. Er hatte geglaubt, dies sei der Preis für eine Wende, für eine Wahrheit, die endlich ans Licht muss. Doch Wahrheit lässt sich nicht beschleunigen, und Liebe nicht kaufen. Er ging zu den Hohepriestern, legte das Silber hin: »Ich habe unschuldiges Blut verraten.« Sie sahen ihn an, ohne Erschütterung: »Was geht das uns an? Sieh du zu.«</p>
+          <p class="vb-intro">Und in diesem Moment wusste Judas: Er war kein Werkzeug der Gerechtigkeit gewesen, nur ein Mittel zum Zweck. Er hatte Liebe gesucht über Wirkung, über Einfluss, über Kontrolle. Und nun spürte er: Jesus hatte ihn nie benutzt – aber auch nie gebraucht in der Weise, die er sich erträumt hatte. Er hatte ihn geliebt, aber nicht zu dem Preis, den Judas sich vorgestellt hatte. Und die SX3, deren ganzes Selbstbild auf Bedeutung durch Bindung gebaut ist, brach dort zusammen, wo die Bindung nicht trug – nicht weil sie falsch war, sondern weil sie frei war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Einordnung ohne Determinismus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Judas ging allein den Weg hinauf, ohne Bühne, ohne Funktion, ohne Verbindung – nur die Nacktheit des Ichs, ohne Maske, ohne Bedeutung. Die SX3 lebt für die Beziehung, die sie einzigartig macht. Als diese Bindung sich als nicht besitzbar entpuppte, verstummte in ihm etwas, das ihn bis dahin getragen hatte: kein »Ich bin geliebt«, kein »Ich werde gebraucht«, kein »Ich bin unersetzlich«. Nur Leere – und darin Verzweiflung, die in Suizid endete.</p>
+          <p class="vb-intro">Er starb nicht als Monster, sondern als Mensch, der Liebe mit Bedeutung verwechselte und Wahrheit nicht ertrug, weil sie nicht spiegelte, sondern entkleidete. Wichtig: Nicht jede sexuelle Drei mit Viererflügel verrät oder zerbricht auf diese Weise – dieses Kapitel deutet ein einzelnes, historisch überliefertes Muster, keine zwangsläufige Konsequenz des Subtyps. Jesus sprach nie gegen ihn, auch später nicht, nie mit Hass, nie mit Verdammung – denn er wusste: Judas hatte nicht aus Bosheit gehandelt, sondern aus einem Sehnsuchtsfehler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Der Kuss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Judas Iskariot ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/SK724DhEJns?rel=0" title="Der Kuss – Judas Iskariot" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"bibel-pontius-pilatus", label:"Bibel-Porträt: Pontius Pilatus (SO3w4)"},
       ])}
     </div>
   `);
@@ -134376,6 +134466,7 @@ function render() {
       "bibel-maria-magdalena": mariaMagdalenaPage,
       "bibel-salome": salomePage,
       "bibel-pontius-pilatus": pontiusPilatusPage,
+      "bibel-judas-iskariot": judasIskariotPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
