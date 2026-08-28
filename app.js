@@ -32122,6 +32122,10 @@ const BIBEL_PORTRAITS = [
     heading:"Gamaliel \u2013 Sozialer Typ 5",
     teaser:"SO5w6 \u00b7 Der H\u00fcter des Gleichgewichts. Hoher-Rat-Gelehrter, der die Apostel sch\u00fctzt: \u00bbIst es aus Gott, so k\u00f6nnt ihr es nicht aufhalten.\u00ab Prinzip \u00fcber Instinkt, W\u00fcrde ohne Applaus.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-der-mann-von-gerasa", name:"Der Mann von Gerasa", added:"2026-08-28", subtyp:"SX5w4",
+    heading:"Der Mann von Gerasa \u2013 Sexueller Typ 5",
+    teaser:"SX5w4 \u00b7 Das Ich in der Zersplitterung. \u00bbLegion \u2013 denn wir sind viele.\u00ab Jesu Frage \u00bbWie hei\u00dft du?\u00ab wird zur Br\u00fccke zur\u00fcck zum eigenen, ungeteilten Ich.",
+    land:"Gerasa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44427,12 +44431,12 @@ const LEBENSMUSTERKOMPASS = {
   SX5: {
     tier: "Igel",
     kernthema: "Stacheln nach außen, Weichheit innen – Vertrauen als exklusiver, geschützter Raum",
-    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick"],
+    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick", "Der Mann von Gerasa"],
     fingerabdruecke: [
       {
         titel: "Stacheln nach außen, außergewöhnliche Weichheit darunter – nur für sehr wenige zugänglich",
         beschreibung: "Die abwehrende, unnahbare Außenseite ist keine Kälte, sondern Schutz für ein besonders intensives, empfindsames Inneres, das sich erst nach aufgebautem Vertrauen zeigt.",
-        beleg: "Taylor Swift: ›Wer ihn kennt, weiß: Darunter ist etwas außerordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu berühren‹; Mark Zuckerberg: ›Die Stacheln sind aus Code. Das Innere sieht nur, wem er wirklich vertraut‹; Edward Snowden: ›Wer ihn berühren will, muss sein Vertrauen gewinnen. Und wer ihn zwingt, wird sich stechen‹; Hugh Warwick, der seine eigene Verletzlichkeit hinter Humor und stachelig-pointierter publizistischer Arbeit schützt, während darunter die tiefste emotionale Resonanz zu seinem einen Lebensthema liegt."
+        beleg: "Taylor Swift: ›Wer ihn kennt, weiß: Darunter ist etwas außerordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu berühren‹; Mark Zuckerberg: ›Die Stacheln sind aus Code. Das Innere sieht nur, wem er wirklich vertraut‹; Edward Snowden: ›Wer ihn berühren will, muss sein Vertrauen gewinnen. Und wer ihn zwingt, wird sich stechen‹; Hugh Warwick, der seine eigene Verletzlichkeit hinter Humor und stachelig-pointierter publizistischer Arbeit schützt, während darunter die tiefste emotionale Resonanz zu seinem einen Lebensthema liegt; der Mann von Gerasa, dessen Stacheln – Ketten, Steine, das Leben zwischen den Gräbern – ein verzweifelter Schutzwall waren, bis ein einziger Blick genügte, damit er zum ersten Mal ohne zu fliehen gesehen werden konnte."
       },
       {
         titel: "Rückzug als gezielte Reservierung von Intimität für wenige exklusive Verbindungen",
@@ -59346,6 +59350,7 @@ function friedrichNietzschePortraitPage() {
         {route:"beruehmte-greta-garbo", label:"Portr\xe4t: Greta Garbo (SX5w4)"},
         {route:"beruehmte-immanuel-kant", label:"Portr\xe4t: Immanuel Kant (SO6w5) – dessen Pflichtethik er scharf kritisierte"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4)"},
+        {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
       ])}
     </div>
   `);
@@ -94750,6 +94755,91 @@ function gamalielPage() {
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"bibel-nikodemus", label:"Bibel-Porträt: Nikodemus (SE5w6)"},
+        {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function derMannVonGerasaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-der-mann-von-gerasa-portrait.jpg" alt="Der Mann von Gerasa – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Der Mann von Gerasa</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Das Ich in der Zersplitterung – Tierentsprechung: Igel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Wie heißt du?« Er antwortete: »Legion – denn wir sind viele.« (Mk 5,9)</p>
+
+        <div class="vb-hinweis-box" style="background:rgba(139,94,60,0.08);border:1px solid rgba(139,94,60,0.25);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0 1.5rem;font-size:0.92rem;line-height:1.6;">
+          <strong>Hinweis:</strong> Dieses Kapitel deutet die biblische Erzählung vom Besessenen von Gerasa literarisch-typologisch als Bild extremer innerer Zersplitterung nach Subtyp – nicht als klinische Diagnose. Die Erzählung erwähnt Selbstverletzung (»zerschnitt sich mit Steinen«); dies wird hier nicht ausgeschmückt, sondern nur im historischen Kontext benannt. Wer selbst betroffen ist: Die Telefonseelsorge ist unter 0800 111 0 111 kostenlos und rund um die Uhr erreichbar.
+        </div>
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf – er rollt sich bei Bedrohung vollständig ein, schützt sein empfindsames Inneres mit Stacheln nach außen, und öffnet sich nur, wenn absolute Sicherheit gewiss ist. Er lebte zwischen den Gräbern, dort, wo niemand wohnen will, dort, wo man vergisst, dort, wo nichts mehr heilt, aber auch nichts mehr stört. Er war nicht mehr »jemand«. Er war viele – ein Zersplittern von Stimme, Wille, Gesicht. Sein Name? Vergessen, verloren. »Legion«, sagte er, als Jesus ihn fragte, »denn wir sind viele.«</p>
+          <p class="vb-intro">Die SX5 ringt mit Identität in der Intensität. Sie spürt so viel, dass sie sich schützt, indem sie sich zurückzieht, oft bis zur Unkenntlichkeit. Sie lässt niemanden nahe, weil sie spürt: Nähe könnte mich zerstören. Aber sie will gleichzeitig genau das: gesehen werden, ganz, durchdrungen, erkannt trotz aller Masken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Zurückgezogen, um sich zu halten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was ihn zerriss, kam nicht von außen. Es war in ihm. Und dann kam Jesus, trat nicht laut auf, rief nicht nach Aufmerksamkeit, kam einfach an das Ufer, und das genügte. Denn der Gerasener spürte ihn, noch bevor er ihn sah. Er rannte, nicht aus Zorn, nicht aus Wut, sondern aus etwas Tieferem: einer verzweifelten Hoffnung, dass jemand stark genug sein könnte, ihn ganz zu halten.</p>
+          <p class="vb-intro">Jesus trat ihm entgegen, nicht mit Wucht, nicht mit Drohung, sondern mit einer stillen Präsenz, die stärker war als jedes Seil, jede Kette, jede Flucht. Der Mann warf sich vor ihn, zitternd, aber nicht aus Hass, sondern aus Überforderung. Denn die SX5 hat oft Angst vor Nähe, weil sie weiß, wie tief sie fallen könnte, wenn sie sich je wirklich zeigt. Er brüllte: »Was habe ich mit dir zu schaffen, Jesus, Sohn des höchsten Gottes? Quäle mich nicht!« Es war kein Widerstand, es war ein Hilferuf in der Sprache der Abwehr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Sehnsucht nach dem einen wahren Ich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Fünf eine existenzielle, identitätssuchende Tiefe – die Zersplitterung ist nicht nur Schutzmechanismus, sondern eine tiefe, fast dramatische Frage nach dem, wer man eigentlich ist, jenseits aller Masken. Die SX5 schreit oft nach Grenze, weil sie sich selbst nicht mehr halten kann. Sie wünscht sich Erlösung, aber in einem Tempo, das sie nicht vernichtet. Jesus antwortete nicht mit einer Formel, nicht mit Gewalt. Er fragte: »Wie heißt du?«</p>
+          <p class="vb-intro">Es war eine Einladung, eine Brücke, ein Akt der Würdigung. Und das Fragment in diesem Mann, das sich noch erinnern konnte, antwortete: »Legion.« Doch dieser Name war nicht wahr, er war ein Schild, ein System der Abwehr. Jesus wusste: Dieser Mensch braucht nicht nur Reinigung, er braucht Wieder-Zusammenführung. Genau dieses existenzielle Ringen um das eine, wahre Selbst hinter der Zersplitterung, das sich nicht mit bloßer Distanz begnügt, trägt die Handschrift des Viererflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das erste Ich: Der Blick, der endlich bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als der Staub sich legte, war Stille, zum ersten Mal seit Jahren. Keine Stimmen, keine innere Schlacht, nur Atem, nur Haut, nur Erde, nur Jetzt. Man brachte ihm Kleidung, nicht als Geste der Anständigkeit, sondern als Akt der Wiederaufnahme ins Leben. Die SX5 kennt das Gefühl, ein Geist ohne Hülle zu sein. Sie weiß, wie es ist, sich in Fragmenten zu verlieren, und wie tief das Verlangen ist, endlich gehalten zu werden, nicht durch Argumente, sondern durch Anwesenheit.</p>
+          <p class="vb-intro">Er setzte sich zu Jesu Füßen, nicht unterwürfig, nicht verzweifelt, sondern still, und sah ihn an. Nicht mit Misstrauen, nicht mit Gier, nicht mit Flucht, sondern mit Blick. Zum ersten Mal blickte er, ohne zu prüfen, ohne zu fliehen, ohne sich zu verbergen. Es war kein intensiver Ausdruck, keine dramatische Geste, sondern einfach: Gegenwärtigkeit. Der Gerasener sprach nur wenig, aber jeder Atemzug sagte: Ich bin. Ich bin wieder da.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Wunsch, zu bleiben: Die Einladung, zu gehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er wollte bei ihm bleiben, bei dem, der ihn wieder zusammengesetzt hatte, nicht aus Abhängigkeit, nicht aus Angst, sondern aus einer tiefen Wahrheit: Du hast mich gesehen, ganz, nicht wer ich sein sollte, nicht was mich zerstörte, sondern mich. Die SX5 bindet sich nicht leicht, doch wenn sie sich bindet, dann absolut. Und so bat er: »Lass mich mit dir gehen.« Doch Jesus sagte Nein, nicht aus Ablehnung, sondern aus Liebe zur Eigenständigkeit: »Geh heim zu deinen Leuten und berichte ihnen, was der Herr dir Gutes getan hat.«</p>
+          <p class="vb-intro">Jesus wollte keine Nachahmung, keine Anhaftung, keine Flucht in eine neue Abhängigkeit. Er wollte, dass dieser Mann nicht nur heil, sondern frei wurde. Es war ein Schmerz, ein Riss, wieder einmal – aber diesmal war der Riss nicht zerstörend, sondern Reifung. Die SX5 lernt nur langsam, dass sie bestehen kann, auch außerhalb der Tiefe, dass sie geben darf, was sie selbst durchlebt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein stiller Zeuge des Unaussprechlichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er kehrte zurück, nicht triumphierend, nicht predigend, sondern einfach als Mensch, dessen Augen nicht mehr flackerten, dessen Stimme nicht mehr zersplittert war. Er betrat die Dörfer, in denen man ihn einst fürchtete. Und wenn man ihn fragte, antwortete er nicht mit Argumenten, sondern mit Blick: »Ich war zersplittert. Jetzt bin ich eins. Ich war viele. Jetzt bin ich ich.«</p>
+          <p class="vb-intro">Er blieb kein Prediger, wurde kein Jünger im engeren Kreis, aber ein stiller Zeuge für alle, die selbst mit den Stimmen kämpfen, mit der Scham, mit dem Rückzug, mit der Angst, sich zu zeigen. Das ist das Geschenk der SX5w4: eine Tiefe, die gelernt hat, mitten unter den Menschen zu sein, ohne sich zu verlieren – ein Igel, der weiß, dass er sich nicht mehr einrollen muss, um ganz zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Legion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zum Mann von Gerasa ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/gAlYihN7QCE?rel=0" title="Legion – Der Mann von Gerasa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4)"},
+        {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
       ])}
     </div>
   `);
@@ -134902,6 +134992,7 @@ function render() {
       "bibel-judas-thaddaeus": judasThaddaeusPage,
       "bibel-nikodemus": nikodemusPage,
       "bibel-gamaliel": gamalielPage,
+      "bibel-der-mann-von-gerasa": derMannVonGerasaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
