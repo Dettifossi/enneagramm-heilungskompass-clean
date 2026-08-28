@@ -36050,17 +36050,22 @@ function startPage() {
     ${neuigkeitenSection()}
 
     <section style="max-width:680px;margin:0 auto 0;padding:0 1rem 0.8rem;">
-      <div style="text-align:center;margin-bottom:0.6rem;">
-        <a href="https://buy.stripe.com/aFa28r34s7Sq51ganp4gg3L" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
+      <div style="text-align:center;margin-bottom:0.5rem;">
+        <span style="font-size:0.85rem;font-weight:700;color:var(--copper,#a5652f);letter-spacing:0.02em;">✨ Wegweiser Premium – Zugriff auf 40+ Bücher</span>
+      </div>
+      <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;margin-bottom:0.8rem;">
+        <a href="https://buy.stripe.com/aFa28r34s7Sq51ganp4gg3L" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:0.15rem;padding:0.6rem 1.1rem;border-radius:12px;
                   border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
-                  font-size:0.85rem;font-weight:700;text-decoration:none;letter-spacing:0.02em;">
-          ✨ Wegweiser Premium – Zugriff auf 40+ Bücher entdecken
+                  text-decoration:none;min-width:150px;">
+          <span style="font-size:0.92rem;font-weight:700;">4,99 € / Monat</span>
+          <span style="font-size:0.72rem;color:var(--muted,#886);">Abo, jederzeit kündbar</span>
         </a>
-        <div style="margin-top:0.35rem;">
-          <a href="https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M" target="_blank" rel="noopener" style="font-size:0.76rem;color:var(--muted,#886);text-decoration:underline;">
-            oder 49,99 € im Jahr – günstiger als monatlich →
-          </a>
-        </div>
+        <a href="https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:0.15rem;padding:0.6rem 1.1rem;border-radius:12px;
+                  border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
+                  text-decoration:none;min-width:150px;">
+          <span style="font-size:0.92rem;font-weight:700;">49,99 € / Jahr</span>
+          <span style="font-size:0.72rem;color:var(--muted,#886);">Einmalzahlung, läuft nach 12 Monaten automatisch ab</span>
+        </a>
       </div>
       <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
         <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
@@ -136784,7 +136789,7 @@ setTimeout(showTagesimpuls, 600);
         subscribe.target = "_blank";
         subscribe.rel = "noopener";
         subscribe.textContent = "Monatlich";
-        subscribe.title = "4,99 € / Monat";
+        subscribe.title = "4,99 € / Monat (Abo, jederzeit kündbar)";
         subscribe.style.cssText = "color:var(--copper,#a5652f);text-decoration:underline;font-size:0.76rem;";
         actions.appendChild(subscribe);
       }
@@ -136794,7 +136799,7 @@ setTimeout(showTagesimpuls, 600);
         subscribeYearly.target = "_blank";
         subscribeYearly.rel = "noopener";
         subscribeYearly.textContent = "Jährlich sparen";
-        subscribeYearly.title = "49,99 € / Jahr";
+        subscribeYearly.title = "49,99 € / Jahr (Einmalzahlung, läuft nach 12 Monaten automatisch ab)";
         subscribeYearly.style.cssText = "color:var(--copper,#a5652f);text-decoration:underline;font-size:0.76rem;";
         actions.appendChild(subscribeYearly);
       }
