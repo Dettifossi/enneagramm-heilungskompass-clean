@@ -194,6 +194,10 @@ const BIBEL_PORTRAITS = [
     heading:"James – Self-Preservation Type 9",
     teaser:"SE9w1 · The sleep before the storm. He sleeps where Jesus asks him to keep watch – yet his quiet loyalty remains, even as he cannot forgive himself for failing.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-barabbas", name:"Barabbas", added:"2026-08-28", subtyp:"SO9w1",
+    heading:"Barabbas – Social Type 9",
+    teaser:"SO9w1 · The freed man without a voice. A man who dissolves entirely into the crowd – until he goes free in place of a silent man, and the question \"Why me?\" never lets go.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -21495,6 +21499,7 @@ function peterFalkPortraitPage() {
         {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
         {route:"krankheitsportraets-peter-falk", label:"Illness Portrait: Peter Falk – Alzheimer's disease"},
+        {route:"bibel-barabbas", label:"Bible Portrait: Barabbas (SO9w1)"},
       ])}
     </div>
   `);
@@ -44430,12 +44435,12 @@ const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Buffalo",
     kernthema: "Identity through belonging to a community, not through the individual person (Naranjo: Participation)",
-    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott"],
+    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott", "Barabbas"],
     fingerabdruecke: [
       {
         titel: "Identity through belonging to a cause or community, not through the individual person",
         beschreibung: "Naranjo called this subtype the one of 'Participation': the self does not appear as an individual, but merges with a group, an idea, or a larger cause – its thinking and feeling becomes one's own.",
-        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'; Sandra Hüller, who in interviews rarely talks about herself as a star, almost always about the ensemble, the team, the direction – and stayed loyal to her theater in Leipzig despite international fame; Wilma Mankiller, who carried a Cherokee honorific title that literally means 'protector of the people,' and laid her first major project's water line together with residents – not as an outside administrator, but as part of the cause itself; Dr. Alan McElligott, who studied not the single animal but the web of relationships across the entire buffalo herd – and whose own research style favors teams and collaboration over going it alone."
+        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'; Sandra Hüller, who in interviews rarely talks about herself as a star, almost always about the ensemble, the team, the direction – and stayed loyal to her theater in Leipzig despite international fame; Wilma Mankiller, who carried a Cherokee honorific title that literally means 'protector of the people,' and laid her first major project's water line together with residents – not as an outside administrator, but as part of the cause itself; Dr. Alan McElligott, who studied not the single animal but the web of relationships across the entire buffalo herd – and whose own research style favors teams and collaboration over going it alone.; Barabbas (Bible portrait), who as a young man dissolved completely into a rebellious crowd: 'He wanted to remain connected, with the people, with the cause, with the movement,' and who, even once freed, was perceived not as an individual but only as whatever the crowd had taken him to be."
       },
       {
         titel: "Calm, unhurried presence that the herd nonetheless follows",
@@ -67620,6 +67625,81 @@ function jakobusPage() {
         {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-laozi", label:"Portrait: Laozi (SE9w1)"},
         {route:"bibel-saulus-auf-dem-weg-nach-damaskus", label:"Bible Portrait: Saul on the Road to Damascus (SX8w7)"},
+        {route:"bibel-barabbas", label:"Bible Portrait: Barabbas (SO9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function barabbasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-barabbas-portrait.jpg" alt="Barabbas – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Barabbas</p>
+        <p class="krim-portrait-typ">SO9w1 · Social Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The freed man without a voice – animal correspondence: Buffalo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Animal correspondence: Buffalo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"They all shouted: Not this man, but Barabbas! – Now Barabbas was a rebel." (John 18:40)</p>
+
+        <h2 class="vb-section">1. The Buffalo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the social Nine – it lives within the herd, moves with it, merges with its direction, without leading the way itself. Barabbas was there before they called his name. He sat in a corner where the light only grazed, between stone and shadow, underground. The dungeon smelled of iron, of old fear and damp bread. Barabbas knew that smell. He had taken it into himself like an animal taking in a scent trail, not out of fear, but out of habit.</p>
+          <p class="vb-intro">No one asked Barabbas who he was. They said he was a murderer, a rebel, a disturber of order. And Barabbas did not object, not because it was true, but because he did not know himself that precisely. He had run along, back then, when the stones flew. Had shouted, when others shouted. Had struck, when he was struck. Not out of hatred, not even out of anger, but because he felt the tremor in the crowd and did not want to stand outside it. Like the buffalo in the herd, which joins the movement of the others without setting the direction itself, Barabbas was a man who wanted to belong, not through power, but through going along.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Merging with the Crowd Instead of a Voice of One's Own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barabbas was not one who stood out. He joined in, merged with the noise, with the anger, with the cry for justice. And at some point he was part of it, so much so that no one asked anymore what he himself thought. Not even he did. For thinking meant separating. And separation was what he feared. He wanted to remain connected, with the people, with the cause, with the movement.</p>
+          <p class="vb-intro">When he was arrested, he barely resisted. Not out of a lack of courage, but because he saw through the game: friend today, enemy tomorrow, celebrated today, forgotten tomorrow. Barabbas was tired, not of the world, but of the roles imposed on him. And yet: he stayed. Because it was still better to be somewhere than to belong nowhere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: A Quiet Moral Unease</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Nine a fine, mostly unspoken sense for right and wrong, one that does not judge loudly, but acts as a quiet inner unrest when something is not right. Barabbas was free. And yet nothing had been resolved. No rejoicing, no triumph. Only silence within him, and the nagging question: Why me? Not out of remorse, for he had nothing to confess that the whole city had not carried along with him. But out of an unease that ran deeper: he had become a symbol, freed, but not by his own doing, rather because another had been sacrificed.</p>
+          <p class="vb-intro">He did not know the other man's name until someone told him: Jesus of Nazareth. One who had not fought like him, who had not cried out, struck, or pushed. One who had remained silent when accused. Barabbas sensed that this silence said more than any slogan, questioned more than any verdict. And that unsettled him, for he did not understand it. It is precisely this quiet, persistent moral weighing that gives no rest until it is understood that carries the signature of the One-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Lost Center</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barabbas left the city. Not hastily, not in anger, but like one who is no longer needed. Jerusalem had freed him, but not taken him in. He wandered dusty roads, stopped here and there, said little, listened much, and remained a stranger everywhere, even to himself. What had once been strength, the running along, the resonating, the dissolving into the crowd's cry, now seemed hollow to him. And he realized: he was not who they had taken him for. But neither was he who he himself would have wanted to be.</p>
+          <p class="vb-intro">In a village on the edge of Galilee he stayed longer. No one recognized him. He worked with his hands, mended fences, helped with the olive harvest. The people there did not ask much. And that was good, for Barabbas had nothing to explain. He did not want to remember. He only wanted to be. But even there, in the seeming calm, there was an inner rumbling, not anger, he knew that. No, it was something deeper: a not-being-understood that came from within himself. It was not the world that had cast him out; he himself had fallen out of himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: A Quiet Awakening Over Years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The years passed, and no one spoke his name anymore. Barabbas had vanished, not dead, not fled, but faded into the fabric of the world. Yet something had changed. Not visibly, not at once, but perceptible in his gaze, in the way he looked at the evening sky. He no longer lived only in the world; he began to dwell within himself as well. He heard of the things that had happened, of the death on the cross, of the empty tomb. And in all of it he asked himself: What would have happened if I had stayed? If I had not been released, but transformed?</p>
+          <p class="vb-intro">But then a thought came, quiet as the wind in the olive trees: Perhaps my path too was part of the whole. He entered no synagogues, gave no speeches, became no disciple, no teacher, no apostle. And yet he carried something with him, an unspoken knowledge that his life did not belong to him alone, and yet was demanded of him. In the end, when his hair was gray and his hands calloused, Barabbas could say: I have lived. Not loudly. Not heroically. But awake. And whoever looked closely could see in his face the shadow of a transformation, not as a flash of lightning, but as light that had seeped, over years, through the cracks of the soul.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Song: The Freed Man – Barabbas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Barabbas, giving voice to his inner journey.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/Hz6P8Sr1iBk?rel=0" title="The Freed Man – Barabbas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source material for this rubric as a psychological novel of subtypes.", "Die 27 Gesichter der Seele – A Psychological Novel of Subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
+        {route:"bibel-jakobus", label:"Bible Portrait: James, Son of Alphaeus (SE9w1)"},
       ])}
     </div>
   `);
@@ -100155,6 +100235,7 @@ function subtypeSchaubilderPage() {
       "bibel-kaiphas": kaiphasPage,
       "bibel-saulus-auf-dem-weg-nach-damaskus": saulusAufDemWegNachDamaskusPage,
       "bibel-jakobus": jakobusPage,
+      "bibel-barabbas": barabbasPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

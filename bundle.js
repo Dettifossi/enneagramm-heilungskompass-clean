@@ -32166,6 +32166,10 @@ const BIBEL_PORTRAITS = [
     heading:"Jakobus – Selbsterhaltender Typ 9",
     teaser:"SE9w1 · Der Schlaf vor dem Sturm. Er schläft, wo Jesus Wachen bittet – doch seine stille Treue bleibt, auch als er sich das eigene Versagen nicht verzeihen kann.",
     land:"Judäa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-barabbas", name:"Barabbas", added:"2026-08-28", subtyp:"SO9w1",
+    heading:"Barabbas – Sozialer Typ 9",
+    teaser:"SO9w1 · Der Freigelassene ohne Stimme. Ein Mann, der ganz in der Menge aufgeht – bis er anstelle eines Schweigenden freikommt und die Frage »Warum ich?« nie mehr loslässt.",
+    land:"Judäa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44196,12 +44200,12 @@ const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Büffel",
     kernthema: "Identität durch Zugehörigkeit zu einer Gemeinschaft, nicht durch die einzelne Person (Naranjo: Teilhabe)",
-    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott"],
+    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott", "Barabbas"],
     fingerabdruecke: [
       {
         titel: "Identität durch Zugehörigkeit zu einer Sache oder Gemeinschaft, nicht durch die einzelne Person",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Teilhabe‹ (Participation): Das eigene Selbst tritt nicht als Einzelperson auf, sondern verschmilzt mit einer Gruppe, einer Idee oder einer größeren Sache – deren Denken und Fühlen wird zum eigenen.",
-        beleg: "Julian Assange: ›Ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert … Er kämpft nicht für sich selbst – er kämpft für etwas, das größer ist als das eigene Überleben‹; Kevin Costner: ›Er ist Teil von etwas Größerem, und er weiß es‹; Amelia Earhart, deren ›eigentliches Projekt nie der persönliche Nervenkitzel war, sondern der Beweis, dass Frauen fliegen können wie Männer.‹; Sandra Hüller, die in Interviews auffallend selten über sich selbst als Star spricht, fast immer über das Ensemble, das Team, die Regie – und ihrem Theater in Leipzig trotz internationalem Ruhm treu blieb; Wilma Mankiller, die einen Cherokee-Ehrentitel trug, der wörtlich ›Beschützerin der Menschen‹ bedeutet, und ihr erstes großes Projekt gemeinsam mit den Bewohnern eines Ortes verlegte – nicht als Verwalterin von außen, sondern als Teil der Sache selbst; Dr. Alan McElligott, der nicht das einzelne Tier, sondern das Beziehungsgeflecht der ganzen Büffelherde erforschte – und dessen eigener Forschungsstil auf Teams und Zusammenarbeit statt auf Alleingang setzt."
+        beleg: "Julian Assange: ›Ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine größere Sache definiert … Er kämpft nicht für sich selbst – er kämpft für etwas, das größer ist als das eigene Überleben‹; Kevin Costner: ›Er ist Teil von etwas Größerem, und er weiß es‹; Amelia Earhart, deren ›eigentliches Projekt nie der persönliche Nervenkitzel war, sondern der Beweis, dass Frauen fliegen können wie Männer.‹; Sandra Hüller, die in Interviews auffallend selten über sich selbst als Star spricht, fast immer über das Ensemble, das Team, die Regie – und ihrem Theater in Leipzig trotz internationalem Ruhm treu blieb; Wilma Mankiller, die einen Cherokee-Ehrentitel trug, der wörtlich ›Beschützerin der Menschen‹ bedeutet, und ihr erstes großes Projekt gemeinsam mit den Bewohnern eines Ortes verlegte – nicht als Verwalterin von außen, sondern als Teil der Sache selbst; Dr. Alan McElligott, der nicht das einzelne Tier, sondern das Beziehungsgeflecht der ganzen Büffelherde erforschte – und dessen eigener Forschungsstil auf Teams und Zusammenarbeit statt auf Alleingang setzt.; Barabbas (Bibel-Porträt), der sich als junger Mann restlos in eine aufständische Menge auflöste: ›Er wollte verbunden bleiben – mit dem Volk, mit der Sache, mit der Bewegung‹, und der noch als Freigelassener nicht als Einzelner, sondern nur als das, wofür ihn die Menge gehalten hatte, wahrgenommen wurde."
       },
       {
         titel: "Ruhige, unaufgeregte Präsenz, der die Herde dennoch folgt",
@@ -56351,6 +56355,7 @@ function peterFalkPortraitPage() {
         {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
         {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
         {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk – Alzheimer-Erkrankung"},
+        {route:"bibel-barabbas", label:"Bibel-Porträt: Barabbas (SO9w1)"},
       ])}
     </div>
   `);
@@ -95694,6 +95699,81 @@ function jakobusPage() {
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-laozi", label:"Portrait: Laotse (SE9w1)"},
         {route:"bibel-saulus-auf-dem-weg-nach-damaskus", label:"Bibel-Porträt: Saulus auf dem Weg nach Damaskus (SX8w7)"},
+        {route:"bibel-barabbas", label:"Bibel-Porträt: Barabbas (SO9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function barabbasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-barabbas-portrait.jpg" alt="Barabbas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Barabbas</p>
+        <p class="krim-portrait-typ">SO9w1 · Soziale Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Freigelassene ohne Stimme – Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Da schrien sie alle: Nicht diesen, sondern Barabbas! – Barabbas aber war ein Aufrührer.« (Johannes 18,40)</p>
+
+        <h2 class="vb-section">1. Der Büffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier der sozialen Neun – er lebt in der Herde, bewegt sich mit ihr, verschmilzt mit ihrer Richtung, ohne selbst vorauszuziehen. Barabbas war da, bevor sie seinen Namen riefen. Saß in einem Winkel, wo das Licht nur streifte, zwischen Stein und Schatten, unter der Erde. Der Kerker roch nach Eisen, nach alter Angst und feuchtem Brot. Barabbas kannte den Geruch. Er hatte ihn in sich aufgenommen wie ein Tier die Fährte, nicht aus Furcht, sondern aus Gewohnheit.</p>
+          <p class="vb-intro">Niemand fragte Barabbas, wer er war. Sie sagten, er sei ein Mörder, ein Aufrührer, ein Störer der Ordnung. Und Barabbas widersprach nicht, nicht weil es stimmte, sondern weil er sich selbst nicht so genau kannte. Er war mitgerannt, damals, als die Steine flogen. Hatte geschrien, als andere schrien. Hatte geschlagen, als man ihn schlug. Nicht aus Hass, nicht einmal aus Wut, sondern weil er das Beben in der Menge spürte und nicht draußen stehen wollte. Wie der Büffel in der Herde, der sich der Bewegung der anderen anschließt, ohne selbst die Richtung zu bestimmen, war Barabbas ein Mann, der dazugehören wollte, nicht durch Macht, sondern durch Mitgehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Verschmelzung mit der Menge statt eigener Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barabbas war keiner, der auffiel. Er schloss sich an, verschmolz mit dem Lärm, mit dem Zorn, mit dem Ruf nach Gerechtigkeit. Und irgendwann war er Teil davon, so sehr, dass niemand mehr fragte, was er selbst dachte. Er auch nicht. Denn denken, das bedeutete trennen. Und Trennung war das, was er fürchtete. Er wollte verbunden bleiben, mit dem Volk, mit der Sache, mit der Bewegung.</p>
+          <p class="vb-intro">Als man ihn festnahm, wehrte er sich kaum. Nicht aus Mutlosigkeit, sondern weil er das Spiel durchschaute: heute Freund, morgen Feind, heute gefeiert, morgen vergessen. Barabbas war müde, nicht von der Welt, sondern von den Rollen, die man ihm überstülpte. Und doch: er blieb. Weil es immer noch besser war, irgendwo zu sein, als nirgends dazuzugehören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ein leises moralisches Unbehagen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Neun ein feines, meist unausgesprochenes Gespür für Richtig und Falsch, das nicht laut urteilt, sondern als stille innere Unruhe wirkt, wenn etwas nicht stimmt. Barabbas war frei. Und doch hatte sich nichts gelöst. Kein Jubel, kein Triumph. Nur Stille in ihm, und die bohrende Frage: Warum ich? Nicht aus Reue, denn er hatte nichts zu beichten, was nicht die ganze Stadt mitgetragen hätte. Sondern aus einem Unbehagen, das tiefer ging: Er war zum Symbol geworden, freigelassen, aber nicht aus sich selbst heraus, sondern weil ein anderer geopfert wurde.</p>
+          <p class="vb-intro">Er wusste nicht, wie der andere hieß, bis jemand es ihm sagte: Jesus von Nazareth. Einer, der nicht kämpfte wie er, der nicht rief, nicht schlug, nicht drängte. Einer, der schwieg, als man ihn anklagte. Barabbas spürte, dass diese Stille mehr sagte als jede Parole, mehr fragte als jedes Urteil. Und das machte ihn unsicher, denn er verstand es nicht. Genau dieses leise, hartnäckige moralische Wägen, das keine Ruhe gibt, bis es verstanden ist, trägt die Handschrift des Einserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die verlorene Mitte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barabbas verließ die Stadt. Nicht überstürzt, nicht im Zorn, sondern wie einer, der nicht mehr gebraucht wird. Jerusalem hatte ihn befreit, aber nicht aufgenommen. Er wanderte durch staubige Wege, kehrte hier und da ein, sagte wenig, hörte viel, und blieb überall fremd, auch sich selbst. Was früher Stärke war, das Mitlaufen, das Mitschwingen, das Aufgehen im Ruf der Menge, erschien ihm jetzt hohl. Und er merkte: Er war nicht der, für den sie ihn gehalten hatten. Aber auch nicht der, der er selbst hätte sein wollen.</p>
+          <p class="vb-intro">In einem Dorf am Rand von Galiläa blieb er länger. Niemand erkannte ihn. Er arbeitete mit den Händen, reparierte Zäune, half bei der Olivenernte. Die Menschen dort fragten nicht viel. Und das war gut, denn Barabbas hatte nichts zu erklären. Er wollte nicht erinnern. Er wollte nur sein. Aber auch dort, in der scheinbaren Ruhe, war da ein inneres Grollen, kein Zorn, das kannte er. Nein, es war etwas Tieferes: ein Nichtverstandensein, das aus ihm selbst kam. Nicht die Welt hatte ihn verstoßen, er selbst war aus sich gefallen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Ein stilles Wachwerden über Jahre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Jahre vergingen, und niemand sprach mehr seinen Namen. Barabbas war verschwunden, nicht tot, nicht geflohen, sondern verklungen im Gewebe der Welt. Doch etwas war anders geworden. Nicht sichtbar, nicht sofort, aber spürbar in seinem Blick, in der Art, wie er auf den Abendhimmel sah. Er lebte nicht mehr nur in der Welt, er begann, auch in sich selbst zu wohnen. Er hörte von den Dingen, die geschahen, vom Tod am Kreuz, vom leeren Grab. Und in all dem fragte er sich: Was wäre gewesen, wenn ich geblieben wäre? Wenn ich nicht losgelöst, sondern verwandelt worden wäre?</p>
+          <p class="vb-intro">Doch dann kam ein Gedanke, leise wie der Wind in den Olivenbäumen: Vielleicht war auch mein Weg Teil des Ganzen. Er betrat keine Synagogen, hielt keine Reden, wurde kein Jünger, kein Lehrer, kein Apostel. Und doch trug er etwas mit sich, ein unausgesprochenes Wissen, dass sein Leben nicht ihm selbst gehörte, und doch von ihm verlangt war. Am Ende, als sein Haar grau war und seine Hände Schwielen trugen, konnte Barabbas sagen: Ich habe gelebt. Nicht laut. Nicht heldisch. Aber wach. Und wer genau hinsah, konnte in seinem Gesicht den Schatten einer Verwandlung erkennen, nicht als Blitz, sondern als Licht, das über Jahre durch die Risse der Seele sickerte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Lied: Der Freigelassene – Barabbas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Barabbas ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/Hz6P8Sr1iBk?rel=0" title="Der Freigelassene – Barabbas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
+        {route:"bibel-jakobus", label:"Bibel-Porträt: Jakobus, der Sohn des Alphäus (SE9w1)"},
       ])}
     </div>
   `);
@@ -135857,6 +135937,7 @@ function render() {
       "bibel-kaiphas": kaiphasPage,
       "bibel-saulus-auf-dem-weg-nach-damaskus": saulusAufDemWegNachDamaskusPage,
       "bibel-jakobus": jakobusPage,
+      "bibel-barabbas": barabbasPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
