@@ -178,6 +178,10 @@ const BIBEL_PORTRAITS = [
     heading:"John, the Beloved Disciple – Sexual Type 7",
     teaser:"SX7w6 · The gaze into the light that never fades. The disciple who rested at Jesus's chest, stayed beneath the cross, and began his gospel with the word: \"In the beginning was the Light.\"",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-der-hauptmann-unter-dem-kreuz", name:"The Centurion at the Cross", added:"2026-08-28", subtyp:"SE8w9",
+    heading:"The Centurion at the Cross – Self-Preservation Type 8",
+    teaser:"SE8w9 · The protector who opens up. A Roman centurion whose armor breaks without detour at the sight of Jesus's death: \"Truly this man was the Son of God.\"",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -19620,6 +19624,7 @@ function winstonChurchillPortraitPage() {
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
         {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
         {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9)"},
+        {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bible Portrait: The Centurion at the Cross (SE8w9)"},
       ])}
     </div>
   `);
@@ -44523,7 +44528,7 @@ const LEBENSMUSTERKOMPASS = {
   SE8: {
     tier: "Orangutan",
     kernthema: "Solitary, quiet territory with no need for an audience (Naranjo: Satisfaction)",
-    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Griselda Blanco", "Salvatore Riina"],
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Griselda Blanco", "Salvatore Riina", "The Centurion at the Cross"],
     fingerabdruecke: [
       {
         titel: "Solitary, quiet territory with no need for an audience or validation",
@@ -44538,7 +44543,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unshakable steadfastness under extreme pressure",
         beschreibung: "When the situation becomes most difficult, a physical and psychological immovability appears that does not yield even under the greatest external pressure – not through loud resistance, but through sheer, unshakable staying.",
-        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee' – and who concealed a severe stroke in 1953 from the public for weeks rather than give up his office; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break' – a will that also carried her through a cancer diagnosis kept secret for seventeen years, throughout her entire term as Prime Minister."
+        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee' – and who concealed a severe stroke in 1953 from the public for weeks rather than give up his office; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break' – a will that also carried her through a cancer diagnosis kept secret for seventeen years, throughout her entire term as Prime Minister; the centurion at the cross, who said nothing during the crucifixion, not at the mockery, not at the final cry, 'every fiber receiving, but outwardly very calm' – until a single sentence, spoken quietly, carried everything: 'Truly this man was the Son of God.'"
       },
       {
         titel: "When the same quiet territorial control becomes ruthless and lethal (shadow form)",
@@ -67277,6 +67282,86 @@ function johannesDerGeliebtePage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
         {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bible Portrait: The Samaritan Woman at Jacob's Well (SO7w6)"},
+        {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bible Portrait: The Centurion at the Cross (SE8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function derHauptmannUnterDemKreuzPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-der-hauptmann-unter-dem-kreuz-portrait.jpg" alt="The Centurion at the Cross – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">The Centurion at the Cross</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The protector who opens up – Animal correspondence: Orangutan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"And when the centurion, who stood facing him, saw that in this way he breathed his last, he said, 'Truly this man was the Son of God!'" (Mark 15:39)</p>
+
+        <h2 class="vb-section">1. The Orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> is the animal of the self-preservation Eight – withdrawn, self-sufficient, of enormous quiet strength that rarely shows itself, but is never in question. He knew pain, not only as a bystander. He had ordered it, seen it, endured it. He was a man of the empire, but also one who examined things himself. The centurion was no sadist, he was responsible, for men, for order, for procedures.</p>
+          <p class="vb-intro">Service in Judea was rough, chaotic, and today a crucifixion, like many before. But something was different. Jesus was not loud, not defiant, not broken in the usual sense. He breathed differently, looked differently, died differently. The self-preservation Eight recognizes not through feeling, but through what does not give way when everything else breaks. The centurion said nothing, not at the crucifixion, not at the mockery, not at the final cry. He stood there, watching, every fiber receiving, but outwardly very calm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: Perception That Becomes Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Then, in that final moment, when Jesus bowed his head and the day grew dark, something moved that needed no tear, no gesture. He said quietly: "Truly this man was the Son of God." No confession in a theological sense, no speech, only perception that became truth. An SE8 does not weep often. But when it opens, it happens without detour, without show, without protection. And it is real.</p>
+          <p class="vb-intro">The centurion said no more. He did not fall to his knees, he spoke no prayer. But something within him had broken, and at the same time become whole. He woke early, was on his feet before sunrise as always, personally inspected the weapons, checked the guards. He was no man for orders from a distance. Responsibility meant presence, meant being first to rise and last to leave, not hiding behind titles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Quiet Dignity Instead of Loud Presence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the self-preservation Eight a calm, inwardly gathered quality – strength does not show through expansion or address, but through quiet, dignified endurance that rarely speaks outward. The centurion grew up in a house where weakness was dangerous, where feelings stayed secret, where he learned early: security means control. He became strong, not loud, not brutal, but unyielding. And in that strength he had, at some point, become alone.</p>
+          <p class="vb-intro">Jesus had not changed that, but had opened something within him, not by force, not by argument, but through what did not break, through a dignity not of this world, yet not distant from it either. In the evening he stood long in the officers' tent, laid down his armor, closed his fingers around the chain with the emblem given to him as a child. This exact quiet, sparing processing in solitude, without anyone knowing of it, carries the signature of the Nine-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Recognition That Challenged</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He had recognized, without anyone saying it. And what he recognized challenged him: a man who was God, and did not defend himself. A man who suffered, without hating. A man who died, without losing. And in this recognition a new kind of responsibility rose within him: no longer only for men, but for humanity, no longer only for order, but for dignity. He would explain it to no one. But he knew: he was no longer the same.</p>
+          <p class="vb-intro">The self-preservation Eight protects, often quietly, sometimes harshly. But when it recognizes it does not have to hold everything, it begins to heal what it once only defended.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Homecoming: The Silence That Speaks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The days after the crucifixion were quiet. The centurion said nothing, not even when a comrade asked him whether it was true, what he had said: "You are said to have called him the Son of God." He did not answer. He did not nod either. He only looked, steady, awake, but without hardness. And yet something around him changed: the men began to behave differently. Less mockery, less anger, more attention. He had commanded nothing. But his presence had begun to radiate something: no longer only authority, but credibility.</p>
+          <p class="vb-intro">When his unit was relieved, he rode out of Jerusalem, no more heavily laden than usual, but inwardly transformed. He no longer spoke of what had happened on the hill of Golgotha. But sometimes he could be seen at sunrise, arms crossed, standing at the edge of the camp, still, awake, as if waiting for something that had already happened.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Being Seen Instead of Having to Convert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The matured self-preservation Eight does not carry its recognition on its tongue, but in its gaze. It becomes a protection, no longer only for order, but for what lives. The centurion was not converted. He had not been converted, he had been seen. And that was enough. This is the gift of the SE8w9: a strength that no longer needs to prove itself – an orangutan who understands that true strength sometimes lies in opening, for the first time, without detour.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Truly, This Was the Son of God</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for the Centurion at the Cross, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/44TD-meNBt4?rel=0" title="Truly, This Was the Son of God – The Centurion" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9)"},
+        {route:"bibel-johannes-der-geliebte", label:"Bible Portrait: John, the Beloved Disciple (SX7w6)"},
       ])}
     </div>
   `);
@@ -99808,6 +99893,7 @@ function subtypeSchaubilderPage() {
       "bibel-lazarus": lazarusPage,
       "bibel-samariterin-am-jakobsbrunnen": samariterinAmJakobsbrunnenPage,
       "bibel-johannes-der-geliebte": johannesDerGeliebtePage,
+      "bibel-der-hauptmann-unter-dem-kreuz": derHauptmannUnterDemKreuzPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

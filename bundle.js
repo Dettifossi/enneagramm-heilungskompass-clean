@@ -32150,6 +32150,10 @@ const BIBEL_PORTRAITS = [
     heading:"Johannes, der geliebte Jünger – Sexueller Typ 7",
     teaser:"SX7w6 · Der Blick ins Licht, das nicht vergeht. Der Jünger, der an Jesu Brust lag, unter dem Kreuz blieb und sein Evangelium mit dem Wort begann: »Im Anfang war das Licht.«",
     land:"Judäa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-der-hauptmann-unter-dem-kreuz", name:"Der Hauptmann unter dem Kreuz", added:"2026-08-28", subtyp:"SE8w9",
+    heading:"Der Hauptmann unter dem Kreuz – Selbsterhaltender Typ 8",
+    teaser:"SE8w9 · Der Beschützer, der sich öffnet. Ein römischer Centurio, dessen Panzer beim Anblick von Jesu Tod ohne Umweg zerbricht: »Wahrlich, dieser Mensch war Gottes Sohn.«",
+    land:"Judäa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44293,7 +44297,7 @@ const LEBENSMUSTERKOMPASS = {
   SE8: {
     tier: "Orang-Utan",
     kernthema: "Solitäres, stilles Territorium ohne Publikumsbedürfnis (Naranjo: Satisfaktion)",
-    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Griselda Blanco", "Salvatore Riina"],
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Griselda Blanco", "Salvatore Riina", "Der Hauptmann unter dem Kreuz"],
     fingerabdruecke: [
       {
         titel: "Solitäres, stilles Territorium ohne Bedürfnis nach Publikum oder Bestätigung",
@@ -44308,7 +44312,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unerschütterliche Standfestigkeit unter extremem Druck",
         beschreibung: "Wenn die Lage am schwierigsten wird, zeigt sich eine körperliche und psychische Unbeweglichkeit, die selbst unter größtem äußeren Druck nicht weicht – nicht durch lauten Widerstand, sondern durch bloßes, unerschütterliches Bleiben.",
-        beleg: "Winston Churchill, der 1940 ›auf dem Ast blieb, während der Sturm tobte‹: ›Sein Körper ist gebaut, um zu bleiben – nicht um zu fliehen‹ – und der einen schweren Schlaganfall 1953 wochenlang vor der Öffentlichkeit verbarg, statt sein Amt aufzugeben; Golda Meir: ›Das ist nicht die Geschichte einer Karriere. Es ist die Geschichte eines Überlebens – und eines Willens, der nicht zu brechen war‹ – ein Wille, der sie auch eine siebzehn Jahre lang verschwiegene Krebserkrankung durch ihre gesamte Amtszeit als Premierministerin tragen ließ; Salvatore Riina, dessen Verteidigung noch nach seinem Schlaganfall 2017 im komaähnlichen Zustand um seine Freilassung kämpfte, während die Gerichte seine fortbestehende Gefährlichkeit selbst im Sterben bestätigten."
+        beleg: "Winston Churchill, der 1940 ›auf dem Ast blieb, während der Sturm tobte‹: ›Sein Körper ist gebaut, um zu bleiben – nicht um zu fliehen‹ – und der einen schweren Schlaganfall 1953 wochenlang vor der Öffentlichkeit verbarg, statt sein Amt aufzugeben; Golda Meir: ›Das ist nicht die Geschichte einer Karriere. Es ist die Geschichte eines Überlebens – und eines Willens, der nicht zu brechen war‹ – ein Wille, der sie auch eine siebzehn Jahre lang verschwiegene Krebserkrankung durch ihre gesamte Amtszeit als Premierministerin tragen ließ; Salvatore Riina, dessen Verteidigung noch nach seinem Schlaganfall 2017 im komaähnlichen Zustand um seine Freilassung kämpfte, während die Gerichte seine fortbestehende Gefährlichkeit selbst im Sterben bestätigten; der Hauptmann unter dem Kreuz, der bei der Kreuzigung nichts sagte, nicht beim Spott, nicht beim letzten Aufschrei, ›jede Faser auf Empfang, aber äußerlich sehr ruhig‹ – bis ein einziger Satz, leise gesprochen, alles trug: ›Wahrlich, dieser Mensch war Gottes Sohn.‹"
       },
       {
         titel: "Wenn dieselbe stille Territorialkontrolle rücksichtslos und tödlich wird (Schattenform)",
@@ -52159,6 +52163,7 @@ function winstonChurchillPortraitPage() {
         {route:"subtype/se8", label:"SE8 \u2013 Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-golda-meir", label:"Portr\u00e4t: Golda Meir (SE8w9)"},
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
+        {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
       ])}
     </div>
   `);
@@ -95351,6 +95356,86 @@ function johannesDerGeliebtePage() {
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
         {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
+        {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function derHauptmannUnterDemKreuzPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-der-hauptmann-unter-dem-kreuz-portrait.jpg" alt="Der Hauptmann unter dem Kreuz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Der Hauptmann unter dem Kreuz</p>
+        <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Beschützer, der sich öffnet – Tierentsprechung: Orang-Utan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Tierentsprechung: Orang-Utan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Als aber der Hauptmann sah, wie Jesus starb, sprach er: Wahrlich, dieser Mensch war Gottes Sohn.« (Mk 15,39)</p>
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier der selbsterhaltenden Acht – zurückgezogen, autark, von enormer stiller Kraft, die sich selten zeigt, aber nie infrage steht. Er kannte Schmerz, nicht nur als Zuschauer. Er hatte ihn befohlen, gesehen, ausgehalten. Er war ein Mann des Imperiums, aber auch einer, der die Dinge selbst prüfte. Der Hauptmann war kein Sadist, er war verantwortlich, für Männer, für Ordnung, für Abläufe.</p>
+          <p class="vb-intro">Der Dienst in Judäa war rau, unübersichtlich, und heute eine Kreuzigung, wie viele zuvor. Doch etwas war anders. Jesus war nicht laut, nicht trotzig, nicht gebrochen im gewohnten Sinn. Er atmete anders, schaute anders, starb anders. Die selbsterhaltende Acht erkennt nicht durch Gefühl, sondern durch das, was nicht einbricht, wenn alles bricht. Der Hauptmann sagte nichts, nicht bei der Kreuzigung, nicht beim Spott, nicht beim letzten Aufschrei. Er stand da, beobachtete, jede Faser auf Empfang, aber äußerlich sehr ruhig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Wahrnehmung, die zur Wahrheit wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dann, in diesem letzten Moment, als Jesus sein Haupt neigte und der Tag sich verdunkelte, kam etwas in Bewegung, das keine Träne, keine Geste brauchte. Er sagte leise: »Wahrlich, dieser Mensch war Gottes Sohn.« Kein Bekenntnis im theologischen Sinn, keine Rede, nur Wahrnehmung, die zur Wahrheit wurde. Eine SE8 weint nicht oft. Aber wenn sie sich öffnet, dann geschieht es ohne Umweg, ohne Show, ohne Schutz. Und es ist echt.</p>
+          <p class="vb-intro">Der Hauptmann sagte nicht mehr. Er ging nicht in die Knie, er sprach kein Gebet. Aber etwas in ihm war zerbrochen, und zugleich heil geworden. Er wachte früh, noch vor Sonnenaufgang war er auf den Beinen, überprüfte persönlich die Waffen, kontrollierte die Wachen. Er war kein Mann für Anweisungen aus der Ferne. Verantwortung bedeutete Präsenz, bedeutete, dass man zuerst aufstand und zuletzt ging, dass man sich nicht versteckte hinter Titeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Stille Würde statt lautem Auftreten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Acht eine ruhige, in sich gesammelte Qualität – Kraft zeigt sich nicht in Expansion oder Ansprache, sondern in stillem, würdevollem Beharren, das kaum je nach außen redet. Der Hauptmann wuchs auf in einem Haus, in dem Schwäche gefährlich war, in dem Gefühle heimlich blieben, in dem er früh lernte: Sicherheit heißt Kontrolle. Er wurde stark, nicht laut, nicht brutal, aber unnachgiebig. Und in dieser Stärke war er irgendwann allein.</p>
+          <p class="vb-intro">Jesus hatte das nicht geändert, aber etwas in ihm geöffnet, nicht mit Gewalt, nicht mit Argumenten, sondern durch das, was nicht kaputtging, durch eine Würde, die nicht aus der Welt war, aber auch nicht von ihr. Am Abend stand er lange im Offizierszelt, legte seine Rüstung ab, schloss die Finger um die Kette mit dem Emblem, die ihm als Kind gegeben worden war. Genau dieses stille, wortkarge Verarbeiten in Einsamkeit, ohne dass jemand etwas davon erfährt, trägt die Handschrift des Neunerflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Erkennen, das forderte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er hatte erkannt, ohne dass es jemand aussprach. Und was er erkannte, forderte ihn heraus: Ein Mann, der Gott war, und sich nicht verteidigte. Ein Mann, der litt, ohne zu hassen. Ein Mann, der starb, ohne zu verlieren. Und in diesem Erkennen stieg eine neue Art von Verantwortung in ihm auf: nicht mehr nur für Männer, sondern für Menschlichkeit, nicht mehr nur für Ordnung, sondern für Würde. Er würde es niemandem erklären. Aber er wusste: Er war nicht mehr derselbe.</p>
+          <p class="vb-intro">Die selbsterhaltende Acht schützt, oft still, manchmal hart. Aber wenn sie erkennt, dass sie nicht alles halten muss, dann beginnt sie zu heilen, was sie einst nur verteidigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Heimkehr: Das Schweigen, das spricht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Tage nach der Kreuzigung waren ruhig. Der Hauptmann sagte nichts, auch nicht, als ihn ein Kamerad fragte, ob es stimme, was er gesagt hatte: »Du sollst gesagt haben, er sei Gottes Sohn gewesen.« Er antwortete nicht, er nickte auch nicht, er sah nur, fest, wach, aber ohne Härte. Und doch veränderte sich etwas um ihn: Die Männer begannen, sich anders zu verhalten. Weniger Spott, weniger Wut, mehr Aufmerksamkeit. Er hatte nichts befohlen. Aber seine Gegenwart hatte begonnen, etwas auszustrahlen: nicht mehr nur Autorität, sondern Glaubwürdigkeit.</p>
+          <p class="vb-intro">Als seine Einheit abgelöst wurde, ritt er hinaus aus Jerusalem, nicht schwerer bepackt als sonst, aber innen aufgebrochen. Er sprach nicht mehr über das, was am Hügel Golgatha geschehen war. Doch manchmal sah man ihn bei Sonnenaufgang mit verschränkten Armen am Rand des Lagers stehen, still, wach, als würde er etwas erwarten, das schon längst geschehen war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Gesehen werden statt sich bekehren müssen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die reife selbsterhaltende Acht trägt ihre Erkenntnis nicht auf der Zunge, sondern im Blick. Sie wird zum Schutz, nicht mehr nur für Ordnung, sondern für das, was lebt. Der Hauptmann war nicht bekehrt. Er war nicht bekehrt worden, er war gesehen worden. Und das reichte. Das ist das Geschenk der SE8w9: eine Stärke, die nicht mehr beweisen muss, dass sie stark ist – ein Orang-Utan, der begreift, dass wahre Kraft manchmal darin liegt, sich zum ersten Mal ohne Umweg zu öffnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Wahrlich, dieser war Gottes Sohn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zum Hauptmann unter dem Kreuz ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/44TD-meNBt4?rel=0" title="Wahrlich, dieser war Gottes Sohn – Der Hauptmann" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9)"},
+        {route:"bibel-johannes-der-geliebte", label:"Bibel-Porträt: Johannes, der geliebte Jünger (SX7w6)"},
       ])}
     </div>
   `);
@@ -135510,6 +135595,7 @@ function render() {
       "bibel-lazarus": lazarusPage,
       "bibel-samariterin-am-jakobsbrunnen": samariterinAmJakobsbrunnenPage,
       "bibel-johannes-der-geliebte": johannesDerGeliebtePage,
+      "bibel-der-hauptmann-unter-dem-kreuz": derHauptmannUnterDemKreuzPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
