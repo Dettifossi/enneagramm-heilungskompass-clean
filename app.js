@@ -33103,6 +33103,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1856\u20131943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Die Taube, die f\u00fcr die ganze Menschheit erfand und am Ende nur noch eine einzelne wei\u00dfe Taube liebte. Tierentsprechung: Taube.",
     land:"Serbien/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
+  { route:"beruehmte-vincent-van-gogh", name:"Vincent van Gogh", added:"2026-08-28", subtyp:"SE4w5",
+    heading:"Vincent van Gogh – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · 1853–1890. Niederländischer Maler. Rund 2100 Werke in gut zehn Jahren, nur ein Bild zu Lebzeiten verkauft, finanziell fast vollständig von Bruder Theo abhängig. Systematisches Selbststudium von Farbtheorie und japanischen Holzschnitten, der Ohrschnitt 1888, ›Sternennacht‹ aus der Heilanstalt. Tierentsprechung: Taube.",
+    land:"Niederlande", tags:["Kunst"], gender:"m"},
   { route:"beruehmte-derek-goodwin", name:"Derek Goodwin", added:"2026-08-18", subtyp:"SE4w5",
     heading:"Derek Goodwin \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1920\u20132008. Britischer Ornithologe am Natural History Museum London, Standardwerke \u00fcber Tauben, Kr\u00e4hen und Prachtfinken. Ein Leben im Hintergrund, gewidmet ausgerechnet dem eigenen archetypischen Tier. Tierentsprechung: Taube.",
@@ -44732,7 +44736,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -44747,7 +44751,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
         beschreibung: "Bevor etwas sichtbar wird – ein Werk, eine Haltung, eine Entscheidung –, wird es zunächst vollständig innerlich durchlebt, beobachtet und verarbeitet. Kein spontanes Handeln, sondern ein bewusstes Landen erst dann, wenn der innere Prozess abgeschlossen ist.",
-        beleg: "Karoline Herfurth: ›Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, trägt innerlich, was sie gesehen hat – und landet dann genau dort, wo sie gebraucht wird‹; Leo Tolstois lebenslanges Tagebuch-Ritual ›der schonungslosen Selbstbeobachtung‹, das zur ›Grundlage seines gesamten literarischen Werks‹ wurde."
+        beleg: "Karoline Herfurth: ›Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, trägt innerlich, was sie gesehen hat – und landet dann genau dort, wo sie gebraucht wird‹; Leo Tolstois lebenslanges Tagebuch-Ritual ›der schonungslosen Selbstbeobachtung‹, das zur ›Grundlage seines gesamten literarischen Werks‹ wurde; Vincent van Gogh, der als Autodidakt hunderte Werke Millets kopierte, sich einen eigenen Perspektivrahmen baute und Delacroix' Farbtheorie so gründlich studierte, dass er eigene Farbkreise in seinen Briefen skizzierte – kein spontaner Gefühlsausbruch, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System."
       },
       {
         titel: "Wenn die innere Last überwältigt – von radikaler Selbstbehauptung bis zur Selbstauflösung (Schattenform)",
@@ -55258,6 +55262,72 @@ function tELawrencePortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – der erfundene Mythos"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function vincentVanGoghPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-vincent-van-gogh-portrait.jpg" alt="Vincent van Gogh" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vincent van Gogh</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Niederländischer Maler, 1853–1890 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Vincent van Gogh wurde am 30. März 1853 in Groot-Zundert geboren – exakt ein Jahr nach dem Tag, an dem seine Mutter einen totgeborenen Sohn zur Welt gebracht hatte, der ebenfalls Vincent getauft worden war. Auf dem Dorffriedhof stand ein Grabstein mit seinem eigenen Namen und Geburtsjahr, an dem die Familie sonntäglich vorbeiging – ein Kind, das buchstäblich im Schatten eines Vorgängers aufwuchs, den es nie ersetzen konnte.</p>
+          <p class="vb-intro">Diese früh gelernte Erfahrung, nie ganz das eigene, unverwechselbare Selbst zu sein, sondern immer auch ein Ersatz, ist der Boden, auf dem die selbsterhaltende Vier wächst. Van Gogh, Sohn eines calvinistischen Pfarrers, arbeitete zunächst als Kunsthändler in Den Haag, London und Paris, dann kurzzeitig als Lehrer und schließlich als Laienprediger im belgischen Kohlerevier Borinage – wo er, um den Bergleuten möglichst nahe zu sein, seine eigene Kleidung verschenkte, auf Stroh schlief und derart radikal auf jeden Komfort verzichtete, dass ihn seine kirchlichen Vorgesetzten 1880 wegen „übertriebenen Eifers" wieder entließen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Leid als stille Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht öffentlich vor sich her, sondern erträgt es stoisch – sie sagt sich: Ich leide besser, stiller, tiefer als andere, und genau darin liegt meine Würde. Erst mit siebenundzwanzig Jahren, nach dem Scheitern als Prediger, wandte sich Van Gogh der Malerei zu – finanziell fast vollständig abhängig von seinem jüngeren Bruder Theo, einem Kunsthändler in Paris, der ihn über ein Jahrzehnt lang mit einer bescheidenen monatlichen Zuwendung unterstützte. Mehr als 650 erhaltene Briefe an Theo dokumentieren dieses stille, nie öffentlich beklagte Ringen um materielles Überleben, während Van Gogh nach außen fast ausschließlich über Farbe, Licht und Komposition schrieb.</p>
+          <p class="vb-intro">In gut zehn produktiven Jahren schuf Van Gogh rund 2100 Werke, darunter über 860 Ölgemälde – ein Arbeitspensum, das an Balzacs nächtliche Schreibmarathons erinnert, nur dass Van Gogh oft mehrere Bilder an einem einzigen Tag vollendete, häufig im Freien, bei Wind und Hitze, mit Farbe, die er sich kaum leisten konnte. Verkauft hat er zu Lebzeiten nachweislich nur ein einziges Gemälde – „Der rote Weinberg" – und trug diese fast vollständige öffentliche Nichtbeachtung seines Lebenswerks, ohne davon abzulassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Leben als Systemfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Schmerz – das Gefühl wird nicht nur durchlebt, sondern in ein durchdachtes, oft geradezu enzyklopädisches Gedankengebäude gefasst. Van Gogh, weitgehend Autodidakt, betrieb seine künstlerische Ausbildung mit systematischer Gründlichkeit: Er kopierte hunderte Werke von Jean-François Millet, um Komposition zu verstehen, baute sich einen eigenen hölzernen Perspektivrahmen, um Tiefenwirkung exakt zu berechnen, und studierte Eugène Delacroix' Farbtheorie so intensiv, dass er eigene Farbkreise und Kontrastregeln in seinen Briefen an Theo skizzierte.</p>
+          <p class="vb-intro">Diese Systemliebe zeigte sich auch in seiner Begeisterung für japanische Farbholzschnitte (Ukiyo-e), die er sammelte, kopierte und deren flächige Farbgebung und ungewöhnliche Bildausschnitte er methodisch in die eigene Malerei übersetzte. Kein spontaner, unreflektierter Gefühlsausbruch also, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System – nachlesbar in Hunderten Briefen, in denen Van Gogh seine Farbentscheidungen mit derselben Genauigkeit begründete, mit der ein Wissenschaftler eine These belegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Arles, Gauguin und die Nacht des 23. Dezember 1888</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1888 bezog Van Gogh das „Gelbe Haus" in Arles und lud den Maler Paul Gauguin ein, mit ihm dort eine Künstlerkolonie zu gründen. Die neun gemeinsamen Wochen wurden zunehmend von Spannungen überschattet – künstlerische Rivalität, gegensätzliche Temperamente, Van Goghs wachsende innere Erregung. Am Abend des 23. Dezember 1888 kam es zu einem heftigen Streit; wenig später schnitt sich Van Gogh einen Teil des eigenen linken Ohrs ab und brachte ihn, in Zeitungspapier gewickelt, einer Frau in einem nahegelegenen Bordell.</p>
+          <p class="vb-intro">Nach diesem Zusammenbruch begab sich Van Gogh im Mai 1889 freiwillig in die Heilanstalt Saint-Paul-de-Mausole bei Saint-Rémy-de-Provence – kein erzwungener Rückzug, sondern eine selbst gewählte, stille Konsequenz. Ausgerechnet dort, zwischen wiederkehrenden psychischen Krisen, entstand eines seiner berühmtesten Werke, „Sternennacht" – die selbsterhaltende Vier, die noch in der tiefsten persönlichen Erschütterung unbeirrt weiterarbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>tiefstes persönliches Leid in ein durchdachtes, universelles Bildsystem</strong> zu verwandeln – Van Goghs Werk berührt heute Millionen Menschen weltweit, weil er seine eigene Zerrissenheit so ehrlich und zugleich so methodisch durchdrang, dass daraus eine ganz neue, unverwechselbare Bildsprache wurde, die die Kunst des zwanzigsten Jahrhunderts maßgeblich mitprägte.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in einem Leben, das kaum je innehielt: keine finanzielle Sicherheit, kaum menschliche Nähe außerhalb des Briefwechsels mit Theo, wiederkehrende psychische Krisen, die er selten mit anderen teilte, sondern fast ausschließlich in Malerei übersetzte. Am 27. Juli 1890 erlitt Van Gogh in der Nähe von Auvers-sur-Oise eine Schussverletzung in der Brust, an der er zwei Tage später starb – die Umstände gelten bis heute als nicht vollständig geklärt, gelten aber überwiegend als Selbstbeibringung. Die Kehrseite der selbsterhaltenden Vier: Die stille, unbeirrte Konsequenz, mit der ein Leben lang gegen alle äußeren Widerstände weitergearbeitet wird, kann sich am Ende gegen das eigene Leben selbst richten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die im Sturm ihr eigenes Licht malte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vincent van Gogh gilt heute als einer der einflussreichsten Maler der Kunstgeschichte – nicht obwohl, sondern gerade weil er sein tiefstes, oft schmerzhaftes inneres Erleben mit einer analytischen Genauigkeit in Farbe und Form übersetzte, die kaum ein anderer Künstler seiner Zeit erreichte.</p>
+          <p class="vb-intro">Die Taube, die als Kind im Schatten eines totgeborenen Namensvetters aufwuchs und ihr ganzes Leben nur ein einziges verkauftes Bild vorzuweisen hatte – und die dennoch, bis zwei Tage vor ihrem Tod, unbeirrt weitermalte –, das ist das bleibende Bild dieses Subtyps: ein stilles, durchdachtes Ringen um die eigene Wahrheit, das erst Jahrzehnte nach dem eigenen Tod die Anerkennung fand, die es zu Lebzeiten nie bekam.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
       ])}
     </div>
   `);
@@ -136103,6 +136173,7 @@ function render() {
       "beruehmte-drew-barrymore": drewBarrymorePortraitPage,
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
+      "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
