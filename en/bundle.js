@@ -130,6 +130,10 @@ const BIBEL_PORTRAITS = [
     heading:"Judas Iscariot – Sexual Type 3",
     teaser:"SX3w4 · The wish to be irreplaceable. Seeks significance through the one exclusive bond – until the kiss of betrayal becomes a revelation of his own collapsing self-image.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-andreas", name:"Andrew", added:"2026-08-28", subtyp:"SE4w5",
+    heading:"Andrew – Self-Preservation Type 4",
+    teaser:"SE4w5 · The hidden one in the inner circle. The first-called disciple, never at the center – until he grasps: \"One need not stand at the center to be close.\"",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -30714,6 +30718,7 @@ function paulMccartneyPortraitPage() {
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-karoline-herfurth", label:"Portrait: Karoline Herfurth (SP4w5)"},
         {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SP4w5)"},
+        {route:"bibel-andreas", label:"Bible Portrait: Andrew (SE4w5)"},
       ])}
     </div>
   `);
@@ -44760,12 +44765,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
         beschreibung: "Unlike the louder Four subtypes, inner pain or depth shows itself hardly at all outwardly. Processing happens in quiet, often decades-long persistence – without seeking applause for one's own inner struggle.",
-        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995."
+        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
       },
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
@@ -66246,6 +66251,87 @@ function judasIskariotPage() {
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         {route:"bibel-pontius-pilatus", label:"Bible Portrait: Pontius Pilate (SO3w4)"},
+        {route:"bibel-andreas", label:"Bible Portrait: Andrew (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function andreasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-andreas-portrait.jpg" alt="Andrew – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andrew</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The hidden one in the inner circle – Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Andrew brought Simon, his brother, to Jesus." (John 1:42)</p>
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – quiet, reserved, without the need to be seen, yet with a deep inner perception for what happens between the lines. Andrew was the first to follow Jesus – not the loudest, not the rock, but the first. And yet he was rarely remembered for it. When people spoke of the disciples, his name came later, behind Peter, James, John: always in the background, never forgotten, but never named either.</p>
+          <p class="vb-intro">This did not bother him – outwardly. But within him something stirred: a quiet melancholy, a soft wish not to be famous, but to matter. Where his brother Simon spoke, Andrew listened. Where Simon acted, Andrew still considered. He was no leader, but no follower either – he was an inner witness, and he lived on what no one else saw.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Depth Instead of a Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> does not wear its distinctiveness on its sleeve – it keeps it within. It lives on the idea of being different, not better, not worse, but deep, true, singular. And when no one recognizes this depth, it withdraws, not out of resentment, but out of protection. Andrew stood at the edge of the crowd, not out of insecurity, but out of habit. He was not the one who pushed forward. He was the one who observed.</p>
+          <p class="vb-intro">When John the Baptist spoke: "Behold, the Lamb of God" – he did not follow on impulse, but out of an inner movement that had begun much earlier. Jesus turned around, saw him – not only outwardly, he truly saw him. "What are you seeking?" Andrew did not answer at once. How could he have said that he was seeking what he himself could hardly name: a home in depth, being known without exposure, a connection without a stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Observing Instead of Showing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Four a withdrawn, observant quality – inner depth is not expressed, but guarded, and closeness arises not through appearance, but through quiet, precise perception. "Teacher, where are you staying?" Andrew asked. It was more than a question about a place – it was the plea: May I know how you are? May I arrive at where you are? Jesus did not answer with explanation, but said: "Come and see." No definition, no distance, only invitation.</p>
+          <p class="vb-intro">And that struck Andrew's heart, not as a shock, but like a door finally opening after years of inner confinement. Scripture does not say what was spoken – perhaps it was not much. But for Andrew it was enough, for he felt, for the first time, not only received but understood. This exact quiet, unobtrusive observing that only turns into closeness once absolute safety is felt carries the signature of the Five-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Role in the Circle: The Longing for Uniqueness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Within the circle of the Twelve, Andrew was always present, but rarely at the center. Peter spoke, John rested at Jesus's chest, James was energetic. And Andrew listened. He was not overlooked, but not named either. And within an SE4 a quiet tension grows from this: I am here, but not meant. He felt no jealousy, but sometimes this question: What is my place?</p>
+          <p class="vb-intro">Once Andrew brought forward a boy with five loaves and two fish – laughably little. But he brought him nonetheless, not because he believed in the miracle, but because he believed in what was hidden. That is SE4: it recognizes value where others walk past without noticing. Jesus took it, the small, the unremarkable, and it was enough for thousands. But no one said: "Thank you, Andrew." He said it to himself, quietly, not out of pride, but out of an inner knowing: I see what counts, even when it doesn't count for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Invisibility as a Gift</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Andrew began to understand his position, not as a disadvantage, not as a punishment, but as a place. He was the one who saw things before they were spoken, who connected people without placing himself between them, who sensed the tensions within the circle and calmed something through his mere presence, without anyone noticing. Sometimes he sat alone at the edge, when the others slept, looked up at the sky and thought not of his name, but of his worth.</p>
+          <p class="vb-intro">He had learned: one need not stand at the center to be close. The SE4 wrestles all its life with the question of significance. But when it matures, it stops seeking that outwardly and begins to carry its worth in its own depth. Andrew was never celebrated, but Jesus never named him wrongly, never too much, never too little. He simply let him be.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Significance Without Applause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As the circle grew smaller, the roads lonelier, the days more dangerous, Andrew felt: he was ready – not because he had become loud, but because he had grown roots within. And when someone asked him: "What was your greatest contribution?" he only smiled, looked back on the moment when he brought his brother to Jesus, and said quietly: "I was the first to recognize him. And that is enough."</p>
+          <p class="vb-intro">This is the gift of the SE4w5: a depth that no longer needs a stage to be true – a dove that no longer has to prove it is seen, because it has learned to see itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: In the Shadow of the Light</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Andrew, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/yI-zk3aHGBQ?rel=0" title="In the Shadow of the Light – Andrew" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+        {route:"bibel-judas-iskariot", label:"Bible Portrait: Judas Iscariot (SX3w4)"},
       ])}
     </div>
   `);
@@ -98765,6 +98851,7 @@ function subtypeSchaubilderPage() {
       "bibel-salome": salomePage,
       "bibel-pontius-pilatus": pontiusPilatusPage,
       "bibel-judas-iskariot": judasIskariotPage,
+      "bibel-andreas": andreasPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
