@@ -146,6 +146,10 @@ const BIBEL_PORTRAITS = [
     heading:"Nicodemus – Self-Preservation Type 5",
     teaser:"SE5w6 · The search for knowledge under cover of night. A Pharisee and council member who visits Jesus in secret – and only at the cross, quietly but irreversibly, shows his colors.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-gamaliel", name:"Gamaliel", added:"2026-08-28", subtyp:"SO5w6",
+    heading:"Gamaliel – Social Type 5",
+    teaser:"SO5w6 · The guardian of balance. A Sanhedrin scholar who protects the apostles: \"If it is of God, you will not be able to overthrow them.\" Principle over instinct, dignity without applause.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -31779,6 +31783,7 @@ function isaacNewtonPortraitPage() {
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
         {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6)"},
         {route:"krankheitsportraets-isaac-newton", label:"Illness Portrait: Isaac Newton (SO5w6) – nervous breakdown from mercury poisoning"},
+        {route:"bibel-gamaliel", label:"Bible Portrait: Gamaliel (SO5w6)"},
       ])}
     </div>
   `);
@@ -44672,12 +44677,12 @@ const LEBENSMUSTERKOMPASS = {
   SO5: {
     tier: "Octopus",
     kernthema: "Multi-armed, parallel knowledge that serves the community (Naranjo: Totem) – or is controlled as an instrument of power",
-    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Dr. Ted Kaczynski", "Dr. Harold Shipman"],
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
     fingerabdruecke: [
       {
         titel: "Multi-armed, parallel thinking made available to the community",
         beschreibung: "Naranjo called this subtype the one of the 'Totem': gathered knowledge is not kept for oneself, but offered to the group as a contribution. Characteristic is thinking simultaneously in several areas or directions, without exhausting oneself in a single one.",
-        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'"
+        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position."
       },
       {
         titel: "Knowledge is developed in secret for years before being released in a controlled way",
@@ -66590,6 +66595,87 @@ function nikodemusPage() {
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
         {route:"bibel-judas-thaddaeus", label:"Bible Portrait: Jude Thaddaeus (SX4w5)"},
+        {route:"bibel-gamaliel", label:"Bible Portrait: Gamaliel (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function gamalielPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-gamaliel-portrait.jpg" alt="Gamaliel – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gamaliel</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The guardian of balance – Animal correspondence: Octopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Animal correspondence: Octopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Keep away from these men and let them alone; for if this plan or this undertaking is of man, it will fail; but if it is of God, you will not be able to overthrow them." (Acts 5:38–39)</p>
+
+        <h2 class="vb-section">1. The Octopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – it surveys its surroundings with calm, many-armed attention, processes countless impressions at once, and intervenes only once it has truly understood the pattern. Gamaliel did not sit at the front. He sat somewhat elevated, not to raise himself above others, but to see over them. The hall of the Sanhedrin was full, voices rising, indignation, arguments, theology, fear.</p>
+          <p class="vb-intro">Gamaliel listened, more than he spoke, as always. The social Five loves structures, but only when they are not applied blindly, but thought through, tested, and adapted. He saw not only the words, he saw patterns, developments, possibilities – and dangers, above all the danger of overreaction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Five: Knowledge That Serves the Larger Whole</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He raised his hand, not dramatically, not demandingly, but with that calm authority that arises when someone is inwardly clear: "Men of Israel, take care what you are about to do." And then he recalled Theudas, Judas the Galilean, movements that came and passed. His message was no mysticism, no conversion, but: let things reveal themselves. For Gamaliel knew: what has substance needs no haste, and what hurries often loses the truth.</p>
+          <p class="vb-intro">The social Five does not think for the now – it thinks for history. It does not act reactively, but responsibly. And when he had finished, the hall was quieter – not convinced, but subdued, not united, but drawn back.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Principle Over Instinct</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Five a reliable, principle-bound quality – authority arises not from charisma, but from consistent adherence to a well-considered framework that stands above personal inclination and party allegiance. Gamaliel had long grown used to standing between fronts, not because he wanted to please, but because he knew: truth often has more enemies than falsehood, because it cannot be instrumentalized.</p>
+          <p class="vb-intro">In him there was no haste, no agitation, no instinctive taking of sides. What moved him was the question: what remains, once all reactivity has fallen silent? Gamaliel was a man of principles, not interests. For the SO5, principle stands above feeling, measure above fear, insight above loyalty. That is why he could say: "If it is of God, you will not be able to overthrow them." That was not piety – it was intellectual humility. This exact unshakeable adherence to a principle greater than one's own opinion carries the signature of the Six-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Paul: Letting Go of What Cannot Be Possessed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gamaliel had many students, but one remained in memory: Saul of Tarsus. Clever, sharp-minded, ambitious, a mind that thought in systems, but was driven by passion. Gamaliel saw this and allowed it, for a social Five does not shape through force, but through framework, through clarity, through trust in what wants to grow. He never tried to keep Paul, imposed nothing on him, let him learn and develop, even later, when he no longer understood him.</p>
+          <p class="vb-intro">For the Saul he had taught became Paul, the apostle to the nations. To many in the council, Paul was a traitor. To Gamaliel, he was: a person on his path. The social Five can let go when it recognizes that truth is more manifold than the system it orders. It seeks not possession, but meaning. He never demanded recognition, never a return, never a correction. He remained silent. And in that, he preserved dignity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Justice of Those Who Need Not Rule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gamaliel was never the loudest, never the most powerful. And yet people listened to him – not out of fear, but out of respect, for his authority did not spring from his office, but from his bearing. He never spoke for what was momentarily convenient, never defended what benefited him. The social Five remains committed to what it has thought through, even when unpopular, even when it stands alone.</p>
+          <p class="vb-intro">"Let us wait, let us test, let us leave room for God." That was no evasion – it was courage, the courage of restraint in a time of irritability. Gamaliel was just because he did not want to be right. He wanted the right thing to happen, even if it happened without him. That was his purity, his freedom, his service without ego.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Effective Even in Silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Later others spoke, debated, condemned. Gamaliel had grown quiet, not because he had nothing left to say, but because he had understood that words only have power when they do not come too often, too loudly, too soon. The social Five remains effective even when it no longer intervenes. Its clarity shapes through memory, through bearing, through a measure that remains, even once it no longer speaks.</p>
+          <p class="vb-intro">He likely departed life quietly, no martyrdom, no dispute, no final sentence recorded. But his influence remained, like a calm tone echoing within an agitated symphony. This is the gift of the SO5w6: a wisdom that does not need recognition to be effective – an octopus who knows that true authority does not lie in always speaking, but in letting the right thing happen, even without itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: If It Is of God</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Gamaliel, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/MaAgqDEujDI?rel=0" title="If It Is of God – Gamaliel" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SE5w6)"},
       ])}
     </div>
   `);
@@ -99113,6 +99199,7 @@ function subtypeSchaubilderPage() {
       "bibel-thomas": thomasPage,
       "bibel-judas-thaddaeus": judasThaddaeusPage,
       "bibel-nikodemus": nikodemusPage,
+      "bibel-gamaliel": gamalielPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
