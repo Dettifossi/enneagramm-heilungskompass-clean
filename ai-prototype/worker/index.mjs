@@ -220,6 +220,17 @@ async function setSubscriberStatus(env, email, data) {
   );
 }
 
+// Ein Abonnent gilt als aktiv, wenn status "active" ist UND (falls gesetzt)
+// das Ablaufdatum noch nicht erreicht ist. expiresAt existiert nur bei der
+// einmalig bezahlten Jahreslizenz (kein Stripe-Abo im Hintergrund, das
+// automatisch endet) - beim Monatsabo bleibt es unbenutzt, der Status wird
+// stattdessen über die Stripe-Subscription-Webhooks aktuell gehalten.
+function isSubscriberActive(sub) {
+  if (!sub || sub.status !== "active") return false;
+  if (sub.expiresAt && new Date(sub.expiresAt) < new Date()) return false;
+  return true;
+}
+
 // Liest den Session-Token aus dem Header und prüft, ob der zugehörige
 // Nutzer ein aktives Abo hat. Gibt null zurück, wenn nicht eingeloggt oder
 // nicht (mehr) aktiv - der Aufrufer fällt dann einfach auf die kostenlose
@@ -230,7 +241,7 @@ async function resolvePremiumAccess(request, env) {
   const email = await env.AUTH_TOKENS.get(`session:${token}`);
   if (!email) return null;
   const sub = await getSubscriberStatus(env, email);
-  if (!sub || sub.status !== "active") return null;
+  if (!isSubscriberActive(sub)) return null;
   return { email };
 }
 
@@ -248,7 +259,7 @@ async function handleAuthRequestLink(request, env) {
   // Missbrauch unseres Mailversands für beliebige Adressen), aber die
   // Antwort ist für beide Fälle identisch, um Adressen nicht zu verraten.
   const sub = await getSubscriberStatus(env, normalized);
-  if (sub && sub.status === "active") {
+  if (isSubscriberActive(sub)) {
     const token = randomToken();
     await env.AUTH_TOKENS.put(`magic:${token}`, normalized, { expirationTtl: MAGIC_LINK_TTL_SECONDS });
     const link = `https://kompass.verlagshausrathmer.com/?wegweiser-token=${token}`;
@@ -329,11 +340,23 @@ async function handleStripeWebhook(request, env) {
       const session = event.data.object;
       const email = session.customer_details?.email || session.customer_email;
       if (email) {
-        await setSubscriberStatus(env, email, {
-          status: "active",
-          stripeCustomerId: session.customer,
-          stripeSubscriptionId: session.subscription,
-        });
+        if (session.mode === "subscription") {
+          await setSubscriberStatus(env, email, {
+            status: "active",
+            stripeCustomerId: session.customer,
+            stripeSubscriptionId: session.subscription,
+          });
+        } else {
+          // Einmalige Zahlung (z.B. Jahreslizenz) - kein Stripe-Abo im
+          // Hintergrund, das automatisch endet. Stattdessen läuft der
+          // Zugang nach 365 Tagen ab, siehe isSubscriberActive().
+          const expiresAt = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString();
+          await setSubscriberStatus(env, email, {
+            status: "active",
+            stripeCustomerId: session.customer,
+            expiresAt,
+          });
+        }
       }
       break;
     }
