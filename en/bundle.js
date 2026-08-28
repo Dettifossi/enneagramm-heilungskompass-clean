@@ -154,6 +154,10 @@ const BIBEL_PORTRAITS = [
     heading:"The Man of Gerasa – Sexual Type 5",
     teaser:"SX5w4 · The self, shattered. \"Legion, for we are many.\" Jesus's question \"What is your name?\" becomes a bridge back to his own, undivided self.",
     land:"Gerasa", tags:["Bible"], gender:"m"},
+  { route:"bibel-zachaeus", name:"Zacchaeus", added:"2026-08-28", subtyp:"SE6w5",
+    heading:"Zacchaeus – Self-Preservation Type 6",
+    teaser:"SE6w5 · The search for security and the courage to open up. A tax collector who flees up a tree – until Jesus's call draws him out of control into real trust.",
+    land:"Jericho", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -26508,6 +26512,7 @@ function fjodorDostojewskiPortraitPage() {
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
+        {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SE6w5)"},
       ])}
     </div>
   `);
@@ -44628,7 +44633,7 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Rabbit",
     kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
-    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride"],
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus"],
     fingerabdruecke: [
       {
         titel: "Perceiving danger earlier than others – constant, active alertness",
@@ -44638,7 +44643,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Security in the familiar rather than on the big stage",
         beschreibung: "The true home is not publicity or the spotlight, but the close, familiar circle – friends, family, a known place – from which extraordinary achievement can also arise.",
-        beleg: "Franz Schubert, who 'avoided the publicity of the concert hall his whole life and found his true home in the private circle of close friends' – the Schubertiads; Woody Allen, who has 'spent practically his entire life in Manhattan' and prefers 'familiar routes, at familiar times'; Neil Armstrong, who after the moon landing 'wanted nothing more than normalcy' and returned to his farm in Ohio; Beatrice Chebet: 'The rabbit doesn't run away. It runs home.'"
+        beleg: "Franz Schubert, who 'avoided the publicity of the concert hall his whole life and found his true home in the private circle of close friends' – the Schubertiads; Woody Allen, who has 'spent practically his entire life in Manhattan' and prefers 'familiar routes, at familiar times'; Neil Armstrong, who after the moon landing 'wanted nothing more than normalcy' and returned to his farm in Ohio; Beatrice Chebet: 'The rabbit doesn't run away. It runs home.'; Zacchaeus, the tax collector, whose tree was 'high enough to keep an overview, close enough to see' – security through controlled distance, until a single call drew him from safe distance into real closeness."
       },
       {
         titel: "Calm functioning under extreme pressure, because the danger was already calculated",
@@ -66766,6 +66771,87 @@ function derMannVonGerasaPage() {
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4)"},
         {route:"bibel-gamaliel", label:"Bible Portrait: Gamaliel (SO5w6)"},
+        {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function zachaeusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-zachaeus-portrait.jpg" alt="Zacchaeus – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Zacchaeus</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The search for security and the courage to open up – Animal correspondence: Rabbit</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Animal correspondence: Rabbit" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Zacchaeus, hurry and come down, for I must stay at your house today." (Luke 19:5)</p>
+
+        <h2 class="vb-section">1. The Rabbit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six – watchful, quick to retreat, always ready to secure itself before a danger has even been confirmed. Zacchaeus climbed, not because he was childlike, not because he was athletic, but because he did not want to be seen and yet had to see. He was small, not only in body. Inwardly, too, he was often bent under the weight of control. For to him, control meant: survival.</p>
+          <p class="vb-intro">The self-preservation Six lives in the tension between the need for order and a deep-seated basic distrust. Trust must be earned, proven, tested. Zacchaeus was a tax collector, one who dealt with the Romans, one no one trusted, and who trusted no one. The tree was his safe place, high enough to keep an overview, close enough to see the man everyone spoke of. He ventured up because there he could not be addressed. So he thought.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Security Through Control</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">But then Jesus stopped, looked not at the road, not at the crowd, but straight up, straight at him. "Zacchaeus…" And in that word lay no accusation, no contempt, no mockery, but a calling, a trust before anything had been clarified. Zacchaeus faltered, his safe distance suddenly tipping into vulnerability. But Jesus asked for little, only one thing: "Come down. I must stay at your house."</p>
+          <p class="vb-intro">Zacchaeus did not simply climb down from the tree, he loosened himself – from his camouflage, from his armor, from the habit of having everything under control. The crowd murmured, some laughed derisively, others looked bewildered. "He is going to be the guest of a sinner…" Zacchaeus heard the voices and at the same time noticed they no longer had the final word. Jesus did not look at him like a file, not like a traitor, not like a risk factor, but like a human being.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Withdrawal Into Observing and Calculating</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Six an analytical, distanced quality – security arises through withdrawal, calculation, and control over one's own space, not through social warmth or loud action. Arriving home, Zacchaeus nervously opened the door. Never before had anyone like him been visited by someone like this, not as a gesture of grace. He had prepared nothing, no cushions arranged, no bread baked, no answers rehearsed.</p>
+          <p class="vb-intro">But Jesus entered as if this house were exactly right. He sat down and was silent, a silence that did not oppress, but invited. Zacchaeus moved restlessly through the room, offered fruit, water, a cushion. Jesus took nothing, only let his gaze rest on Zacchaeus. This exact calmly calculating, observing distance, which yields only once absolute safety is felt, carries the signature of the Five-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Between Repentance and Resistance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zacchaeus began to speak, first in formulas: "I did my duty." "I only took what was demanded." Then in justifications: "It's not easy working for the Romans." "One needs reserves in times like these." But his voice broke. For years he had sought order and instead lost himself. He had played loyalty, but never felt real belonging. He had withdrawn into functioning.</p>
+          <p class="vb-intro">In that moment he whispered, not to Jesus, but into his own silence: "I want to give something back. I want to act differently." Not out of compulsion, not to look good, but because for the first time he felt he was seen before he functioned.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Quiet Breakthrough</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus did not answer with words. He nodded, a quiet, warm nod, like an affirmation of an inner change no eye could see. And Zacchaeus suddenly felt something: an emptiness that did not hurt, but gave space, for the new, for a different path. He would meet resistance, keep testing himself, feel doubt, and want to secure himself. But he had seen there was another way to live, without constant inner distrust.</p>
+          <p class="vb-intro">In the evening Jesus moved on. Zacchaeus accompanied him to the threshold. It was no dramatic farewell, no "thank you," no "I will follow you." Only a look, a look that said: "I meant you. And I trust you to live."</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Giving Differently, Looking Differently</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zacchaeus closed the door. But inwardly nothing was closed anymore. He looked around: the furniture was still the same, the coins still lay on the table. But his relationship to it was new. From now on he would give differently, speak differently, look differently. For someone had not only reached out a hand, but given him the trust that he no longer had to flee.</p>
+          <p class="vb-intro">This is the gift of the SE6w5: a security no longer fed by controlling every detail, but by trust experienced once, of being seen before one functions – a rabbit that has learned that not every open space is a danger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: I Am Staying at Your House</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Zacchaeus, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/z7BZ4KXOAsg?rel=0" title="I Am Staying at Your House – Zacchaeus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SE6w5)"},
+        {route:"bibel-der-mann-von-gerasa", label:"Bible Portrait: The Man of Gerasa (SX5w4)"},
       ])}
     </div>
   `);
@@ -99291,6 +99377,7 @@ function subtypeSchaubilderPage() {
       "bibel-nikodemus": nikodemusPage,
       "bibel-gamaliel": gamalielPage,
       "bibel-der-mann-von-gerasa": derMannVonGerasaPage,
+      "bibel-zachaeus": zachaeusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

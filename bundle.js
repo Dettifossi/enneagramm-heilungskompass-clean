@@ -32126,6 +32126,10 @@ const BIBEL_PORTRAITS = [
     heading:"Der Mann von Gerasa \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \u00b7 Das Ich in der Zersplitterung. \u00bbLegion \u2013 denn wir sind viele.\u00ab Jesu Frage \u00bbWie hei\u00dft du?\u00ab wird zur Br\u00fccke zur\u00fcck zum eigenen, ungeteilten Ich.",
     land:"Gerasa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-zachaeus", name:"Zachäus", added:"2026-08-28", subtyp:"SE6w5",
+    heading:"Zachäus – Selbsterhaltender Typ 6",
+    teaser:"SE6w5 · Die Suche nach Sicherheit und der Mut zur Offenheit. Zöllner, der sich auf einen Baum flüchtet – bis Jesu Anruf ihn aus der Kontrolle in echtes Vertrauen holt.",
+    land:"Jericho", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44404,7 +44408,7 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Kaninchen",
     kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
-    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt"],
+    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Zachäus"],
     fingerabdruecke: [
       {
         titel: "Gefahr früher wahrnehmen als andere – ständige, aktive Wachheit",
@@ -44414,7 +44418,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Sicherheit im Vertrauten statt auf der großen Bühne",
         beschreibung: "Die eigentliche Heimat ist nicht die Öffentlichkeit oder das Rampenlicht, sondern der enge, vertraute Kreis – Freunde, Familie, ein bekannter Ort –, aus dem heraus auch außergewöhnliche Leistung entstehen kann.",
-        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist – und der seine seit den 1950er-Jahren dokumentierte Gesundheitsangst nicht verbarg, sondern über Jahrzehnte in Sprache, Witz und über 35 Jahre Psychoanalyse verwandelte; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹; Klaus J. Behrendt, der trotz jahrzehntelanger Fernsehpräsenz als Tatort-Kommissar Schenk kaum Homestorys zulässt und sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet hat statt auf zusätzliche Sichtbarkeit."
+        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist – und der seine seit den 1950er-Jahren dokumentierte Gesundheitsangst nicht verbarg, sondern über Jahrzehnte in Sprache, Witz und über 35 Jahre Psychoanalyse verwandelte; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹; Klaus J. Behrendt, der trotz jahrzehntelanger Fernsehpräsenz als Tatort-Kommissar Schenk kaum Homestorys zulässt und sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet hat statt auf zusätzliche Sichtbarkeit; Zachäus, der Zöllner, dessen Baum ›hoch genug war, um den Überblick zu behalten, nah genug, um zu sehen‹ – Sicherheit durch kontrollierte Distanz, bis ein einziger Anruf ihn aus dem sicheren Abstand in echte Nähe holte."
       },
       {
         titel: "Ruhige Funktionsfähigkeit unter extremem Druck, weil die Gefahr längst kalkuliert wurde",
@@ -58737,6 +58741,7 @@ function fjodorDostojewskiPortraitPage() {
         {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Krankheitsportr\u00e4t: Fjodor Dostojewski (SE6w5)"},
+        {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
       ])}
     </div>
   `);
@@ -94840,6 +94845,87 @@ function derMannVonGerasaPage() {
         {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4)"},
         {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
+        {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function zachaeusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-zachaeus-portrait.jpg" alt="Zachäus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Zachäus</p>
+        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Suche nach Sicherheit und der Mut zur Offenheit – Tierentsprechung: Kaninchen</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Tierentsprechung: Kaninchen" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Zachäus, steig eilends herab; denn ich muss heute in deinem Haus einkehren.« (Lk 19,5)</p>
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs – wachsam, schnell im Rückzug, immer bereit, sich in Sicherheit zu bringen, bevor eine Gefahr sich überhaupt bestätigt hat. Zachäus kletterte, nicht weil er kindlich war, nicht weil er sportlich war, sondern weil er nicht gesehen werden wollte und doch sehen musste. Er war klein, nicht nur am Körper. Auch innerlich war er oft gekrümmt von der Last der Kontrolle. Denn Kontrolle bedeutete für ihn: Überleben.</p>
+          <p class="vb-intro">Die selbsterhaltende Sechs lebt in der Spannung zwischen Bedürfnis nach Ordnung und tief sitzendem Grundmisstrauen. Vertrauen muss erarbeitet, bewiesen, getestet werden. Zachäus war Zöllner, einer, der mit den Römern handelte, einer, dem keiner traute, und der keinem traute. Der Baum war sein sicherer Ort, hoch genug, um den Überblick zu behalten, nah genug, um den Mann zu sehen, von dem alle sprachen. Er wagte sich nach oben, weil er dort nicht angesprochen werden konnte. Dachte er.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch Kontrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Doch dann blieb Jesus stehen, sah nicht auf die Straße, nicht auf die Menge, sondern direkt nach oben, direkt zu ihm. »Zachäus…« Und in diesem Wort lag kein Vorwurf, keine Verachtung, kein Spott, sondern ein Anruf, ein Vertrauen, bevor irgendetwas geklärt war. Zachäus stockte, sein sicherer Abstand kippte plötzlich in Verletzlichkeit. Aber Jesus forderte nicht viel, nur eines: »Steig herab. Ich will bei dir einkehren.«</p>
+          <p class="vb-intro">Zachäus stieg nicht einfach vom Baum, er löste sich – von seiner Tarnung, von seinem Panzer, von der Gewohnheit, alles unter Kontrolle zu haben. Die Menschenmenge murmelte, einige lachten hämisch, andere blickten verwundert. »Er kehrt bei einem Sünder ein…« Zachäus hörte die Stimmen und merkte zugleich, dass sie nicht mehr das Letzte zu sagen hatten. Jesus sah ihn nicht an wie ein Aktenzeichen, nicht wie einen Verräter, nicht wie einen Risikofaktor, sondern wie einen Menschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug ins Beobachten und Berechnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Sechs eine analytische, distanzierte Qualität – Sicherheit entsteht durch Rückzug, Berechnung und Kontrolle über den eigenen Raum, nicht durch soziale Wärme oder lautes Handeln. Zuhause angekommen, öffnete Zachäus nervös die Tür. Noch nie hatte jemand wie er jemanden wie ihn besucht, nicht als Zeichen der Gnade. Er hatte nichts vorbereitet, keine Polster gerichtet, kein Brot gebacken, keine Antworten zurechtgelegt.</p>
+          <p class="vb-intro">Aber Jesus trat ein, als wäre dieses Haus genau richtig. Er setzte sich und schwieg, ein Schweigen, das nicht bedrückte, sondern einlud. Zachäus ging unruhig durch den Raum, bot Früchte an, Wasser, ein Kissen. Jesus nahm nichts, nur seinen Blick ließ er ruhen, auf Zachäus. Genau diese ruhig kalkulierende, beobachtende Distanz, die erst weicht, wenn absolute Sicherheit erfahren wird, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwischen Reue und Widerstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zachäus begann zu reden, zuerst in Formeln: »Ich habe meine Pflicht getan.« »Ich habe nur genommen, was verlangt wurde.« Dann in Rechtfertigungen: »Es ist nicht leicht, für die Römer zu arbeiten.« »Man braucht Rücklagen in dieser Zeit.« Doch seine Stimme brach. Er hatte jahrelang Ordnung gesucht und stattdessen sich selbst verloren. Er hatte Loyalität gespielt, aber nie echte Zugehörigkeit gespürt. Er hatte sich zurückgezogen ins Funktionieren.</p>
+          <p class="vb-intro">In diesem Moment flüsterte er, nicht an Jesus, sondern ins eigene Schweigen hinein: »Ich will etwas zurückgeben. Ich will anders handeln.« Nicht aus Zwang, nicht um gut dazustehen, sondern weil er zum ersten Mal das Gefühl hatte, dass er gesehen wurde, bevor er funktionierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der stille Durchbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus antwortete nicht mit Worten. Er nickte, ein stilles, warmes Nicken, wie eine Zustimmung zu einem inneren Wandel, den kein Auge sehen konnte. Und Zachäus spürte plötzlich etwas: eine Leere, die nicht schmerzte, sondern Raum gab, für das Neue, für einen anderen Weg. Er würde auf Widerstände stoßen, sich selbst immer wieder prüfen, Zweifel empfinden, und absichern wollen. Aber er hatte gesehen, dass es eine andere Art zu leben gab, ohne ständiges inneres Misstrauen.</p>
+          <p class="vb-intro">Am Abend ging Jesus weiter. Zachäus begleitete ihn bis zur Schwelle. Es war kein dramatischer Abschied, kein »Danke«, kein »Ich werde dir folgen«. Nur ein Blick, ein Blick, der sagte: »Ich habe dich gemeint. Und ich traue dir zu, dass du lebst.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Anders geben, anders schauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zachäus schloss die Tür. Aber innerlich war nichts mehr geschlossen. Er sah sich um: die Möbel waren noch dieselben, die Münzen lagen noch auf dem Tisch. Doch sein Verhältnis dazu war neu. Er würde fortan anders geben, anders sprechen, anders schauen. Denn jemand hatte ihm nicht nur die Hand gereicht, sondern das Vertrauen geschenkt, nicht mehr fliehen zu müssen.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE6w5: eine Sicherheit, die nicht mehr aus Kontrolle über jedes Detail gespeist wird, sondern aus dem einmal erfahrenen Vertrauen, gesehen zu sein, bevor man funktioniert – ein Kaninchen, das gelernt hat, dass nicht jeder offene Raum eine Gefahr ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Ich kehr' bei dir ein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Zachäus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/z7BZ4KXOAsg?rel=0" title="Ich kehr' bei dir ein – Zachäus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
+        {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
       ])}
     </div>
   `);
@@ -134993,6 +135079,7 @@ function render() {
       "bibel-nikodemus": nikodemusPage,
       "bibel-gamaliel": gamalielPage,
       "bibel-der-mann-von-gerasa": derMannVonGerasaPage,
+      "bibel-zachaeus": zachaeusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
