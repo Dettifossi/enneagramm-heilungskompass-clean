@@ -369,6 +369,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2", heading:"Angelina Jolie – Social Type 1", krankheit:"BRCA1 gene mutation, preventive double mastectomy in 2013, removal of ovaries and fallopian tubes in 2015", teaser:"SO1w2 – actress and director, b. 1975. BRCA1 gene mutation confirmed after a family history of cancer, publicly disclosed preventive double mastectomy in 2013, removal of ovaries and fallopian tubes in 2015." , land:"USA", gender:"f", jahre:"b. 1975"},
   { route:"krankheitsportraets-adele", name:"Adele", subtyp:"SE4w3", heading:"Adele – Self-Preservation Type 4", krankheit:"Severe postnatal depression with panic attacks, kept private for almost a decade", teaser:"SE4w3 – singer and songwriter, b. 1988. Postnatal depression after the birth of her son in 2012, accompanying panic attacks before performances, publicly disclosed only in 2021." , land:"United Kingdom", gender:"f", jahre:"b. 1988"},
   { route:"krankheitsportraets-honore-de-balzac", name:"Honoré de Balzac", subtyp:"SE4w3", heading:"Honoré de Balzac – Self-Preservation Type 4", krankheit:"Decades of exploiting his body through compulsive overwork and caffeine excess, heart failure with fatal gangrene", teaser:"SE4w3 – French writer, 1799–1850. Decades of all-night writing marathons and excessive coffee consumption, progressive heart failure, gangrene following repeated trocar procedures for leg edema, died August 18, 1850, five months after his wedding to Ewelina Hańska." , land:"France", gender:"m", jahre:"1799–1850"},
+  { route:"krankheitsportraets-t-e-lawrence", name:"T. E. Lawrence", subtyp:"SE4w3", heading:"T. E. Lawrence – Self-Preservation Type 4", krankheit:"Thirteen years of sustained depression and suspected post-traumatic stress disorder after Deraa 1917, self-arranged punishment ritual", teaser:"SE4w3 – British officer, archaeologist, 1888–1935. Chronic depression and self-hatred from 1922 until his death, voluntary retreat under two false names into the lowest military ranks, self-arranged flogging ritual from 1923, died May 19, 1935 after a motorcycle accident." , land:"United Kingdom", gender:"m", jahre:"1888–1935"},
   { route:"krankheitsportraets-jamie-lee-curtis", name:"Jamie Lee Curtis", subtyp:"SX1w2", heading:"Jamie Lee Curtis – Sexual Type 1", krankheit:"22-year opioid dependency after cosmetic surgery", teaser:"SX1w2 – actress and activist, b. 1958. Opioid dependency beginning in 1989 after a cosmetic procedure, kept secret for over ten years, sober since 19 February 1999." , land:"USA", gender:"f", jahre:"b. 1958"},
   { route:"krankheitsportraets-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9", heading:"Genesis P-Orridge – Sexual Type 8", krankheit:"Leukemia, progressing over years, died 2020", teaser:"SX8w9 – musician, performance artist, and occultist, 1950–2020. Leukemia spanning several years, artistically active until shortly before death, died on 14 March 2020 in New York." , land:"United Kingdom", gender:"nonbinary", jahre:"1950–2020"},
   { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexual Type 4", krankheit:"Tourette syndrome, kept secret for years; severe depressive period with self-harm as a teenager", teaser:"SX4w3 – singer and songwriter, b. 2001. Tourette syndrome since childhood, publicly confirmed only in 2018; also severe depression with self-harm from around age twelve, documented in 2021." , land:"USA", gender:"f", jahre:"b. 2001"},
@@ -31456,7 +31457,207 @@ function honoreDeBalzacKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SE4w3) – life's work"},
         {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3) – same subtype"},
+        {route:"krankheitsportraets-t-e-lawrence", label:"Illness Portrait: T. E. Lawrence (SE4w3) – same subtype"},
         {route:"psychosomatik/herzinsuffizienz", label:"Psychosomatics Register: Heart Failure"},
+        {route:"subtype/se4", label:"Subtype Profile SE4"},
+      ])}
+    </div>
+  `);
+}
+
+function tELawrenceKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-t-e-lawrence-portrait.jpg" alt="T. E. Lawrence" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">T. E. Lawrence (Lawrence of Arabia)</p>
+        <p class="krim-portrait-typ">SP4w3 · Self-Preservation Type 4 with Three-wing · 1888–1935</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>T. E. Lawrence</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-t-e-lawrence">portrait under Famous Personalities</a>
+        in this Compass – that page covers the desert war, the self-made world-fame myth, and
+        his retreat under a false name. This portrait is devoted to a chapter only touched on
+        there: his final thirteen years, marked by chronic depression, self-hatred, and what
+        biographers have long read as the lasting aftermath of a post-traumatic stress disorder
+        following his capture at Deraa in 1917.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Lawrence</strong> is classified as the <strong>Self-Preservation Four with
+        Three-wing</strong>. The SE4 does not carry its suffering outward but endures it
+        tenaciously and alone – for Lawrence, that meant staying almost entirely silent in
+        public about Deraa and instead processing it in a single chapter of his memoir, rewritten
+        again and again. The Three-wing, which had earlier made him a co-creator of his own
+        heroic myth, reversed direction in these years: instead of continuing to seek
+        visibility, Lawrence now worked actively to disappear from public view.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The return from war as rupture, not relief:</strong>
+        After the war ended and the Paris Peace Conference of 1919, where Lawrence advocated in
+        vain for Arab independence, he withdrew increasingly from public life. Contemporaries
+        describe a visibly changed man – more irritable, more restless, unable to find a place
+        for himself in the postwar civilian world.</p>
+        <p class="vb-intro"><strong>b) The voluntary descent of 1922:</strong>
+        At the height of his world fame, Lawrence gave up his officer's rank and enlisted under
+        the false name "John Hume Ross" as an ordinary recruit in the Royal Air Force – the
+        lowest possible rank, the plainest quarters. For biographers, this step is among the
+        clearest early signs of a deep inner crisis he himself never publicly named as illness.</p>
+        <p class="vb-intro"><strong>c) The memoir rewritten again and again:</strong>
+        Lawrence nearly lost the entire manuscript of "Seven Pillars of Wisdom" at a train
+        station in 1919, rewrote it from memory, and revised it fundamentally several more times
+        in the following years – a years-long, almost compulsive struggle to find the right
+        version of his own war experience.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Thirteen years of sustained depression:</strong>
+        Historians describe Lawrence's final thirteen years, from 1922 until his death in 1935,
+        as continuously marked by depression, self-hatred, and anxiety – not a passing low point,
+        but a sustained psychological state.</p>
+        <p class="vb-intro"><strong>b) Symptoms suggestive of post-traumatic stress disorder:</strong>
+        Psychiatrist and Lawrence biographer John E. Mack, in his widely cited study "A Prince
+        of Our Disorder" (1976), concludes that Lawrence's symptoms – low mood, a shattered
+        self-image, emotional withdrawal, heightened vulnerability – match the picture of a
+        severe, untreated trauma disorder triggered by the events at Deraa.</p>
+        <p class="vb-intro"><strong>c) Public silence alongside literary disclosure:</strong>
+        While Lawrence rarely spoke of Deraa in person, he devoted an agonizingly detailed
+        chapter to the event in "Seven Pillars of Wisdom" – the only form in which he approached
+        the experience at all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) A self-arranged punishment ritual:</strong>
+        From 1923 onward, Lawrence arranged with a fellow serviceman, John Bruce, to be flogged
+        at irregular intervals – a ritual he specified in detail himself and continued for
+        years. Biographers agree in reading it as self-punishment connected to the humiliation
+        he suffered at Deraa.</p>
+        <p class="vb-intro"><strong>b) Renouncing income from his own work:</strong>
+        The regular edition of "Seven Pillars of Wisdom" (1926) and the abridged "Revolt in the
+        Desert" sold well – yet Lawrence donated large parts of the proceeds to charity rather
+        than keeping them for himself.</p>
+        <p class="vb-intro"><strong>c) The second change of name:</strong>
+        After the press exposed him as "John Hume Ross" in 1923, Lawrence switched to the Tank
+        Corps, this time under the name "T. E. Shaw" – another attempt to remain invisible under
+        a new identity, rather than returning to the public life that had once celebrated him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Retreat to Clouds Hill:</strong>
+        In his final years, Lawrence withdrew to a small, deliberately plain cottage called
+        Clouds Hill in Dorset – a life of the greatest possible seclusion, far removed from the
+        world fame he had once helped create.</p>
+        <p class="vb-intro"><strong>b) Visibly aged and marked by self-doubt:</strong>
+        Contemporaries who met Lawrence shortly before his death described him as noticeably
+        aged, despondent, and plagued by lasting self-doubt – a striking contrast to the
+        energetic young officer of the war years.</p>
+        <p class="vb-intro"><strong>c) The motorcycle accident as an abrupt end:</strong>
+        On May 13, 1935, Lawrence swerved on his motorcycle to avoid two cyclists on a narrow
+        road in Dorset, crashed heavily, and died six days later, on May 19, 1935, from his head
+        injuries – with no documented connection to his psychological state, but at the end of a
+        life shaped by inner crisis since the final years of the war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Tenacity turned against his own body and psyche:</strong>
+        The same SE4 tenacity that enabled Lawrence to endure weeks-long desert marches and the
+        loss of his own manuscript turned, in the postwar years, unabated against his own
+        psychological wounds – exhaustion and despair were not read as reasons to change course,
+        but translated into ever stricter self-discipline and self-punishment.</p>
+        <p class="vb-intro"><strong>b) The Three-wing running in reverse:</strong>
+        In his younger years, the Three-wing had driven Lawrence to build a glamorous public
+        image (see the Famous Personalities portrait). In the postwar years, that same force
+        reversed itself: instead of seeking visibility, Lawrence actively worked toward his own
+        invisibility – two false names, the lowest ranks, renouncing royalties. The wish to
+        control his own image stayed the same; only the goal turned 180 degrees, from maximum
+        visibility to maximum disappearance.</p>
+        <p class="vb-intro"><strong>c) The flogging as self-judgment made physical:</strong>
+        The ritual continued for years with John Bruce can be read as a direct bodily
+        translation of the inner verdict the Self-Preservation Four passes on itself in such
+        crises: of not having been enough to prevent or survive Deraa unharmed – and turning
+        that feeling into a literal, self-chosen punishment.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Parallel within the same subtype – Honoré de Balzac and Lady Diana (SE4w3):</strong>
+        As with <a href="javascript:void(0)" data-route="krankheitsportraets-honore-de-balzac">Honoré
+        de Balzac</a> and <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady
+        Diana</a>, both also SE4w3, Lawrence shows the pattern typical of this subtype: suffering
+        is not carried outward loudly, but endured alone and tenaciously for years, while
+        composure is maintained outwardly for as long as possible. For Diana the suffering broke
+        through as concealed bulimia, for Balzac as continued physical self-exploitation, for
+        Lawrence as a self-arranged punishment ritual and retreat under a false name – three
+        variants of the same SE4 core movement: endure, rather than give up or ask for help.</p>
+        <p class="vb-intro"><strong>b) A crisis that grew over years, not a single collapse:</strong>
+        From the first noticeable change in behavior in 1919 to the motorcycle accident in 1935
+        runs a continuous line – thirteen years in which the psychological strain never
+        resolved, but was redirected again and again into new forms of self-control and
+        self-punishment.</p>
+        <p class="vb-intro"><strong>c) Two symptoms, one shared origin:</strong>
+        The arranged flogging and the two changes of identity into the lowest military ranks can
+        be read as two sides of the same coping strategy: retroactively controlling the very
+        powerlessness he suffered at Deraa, rather than leaving it unprocessed.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, a low, self-condemning mood?</strong>
+        For a Self-Preservation Four, who normally carries suffering silently and alone, one
+        reading suggests itself: an event like Deraa, which violently broke through his control
+        over his own body and dignity from the outside, strikes the SE4 at its most sensitive
+        point – and, rather than being shared, is turned into silent self-condemnation. This
+        reading is a plausible interpretation, not a documented historical causal link, and is
+        explored in more depth in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik/depression">Psychosomatics
+        Register entry on depression</a>.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the Self-Preservation Four's pattern inevitably leads to
+        post-traumatic depression – <strong>every person can develop any illness, regardless of
+        subtype.</strong> What Lawrence's case can show is a pattern that stands out again and
+        again in practice wherever the tendency exists to endure psychological suffering
+        silently rather than share it – one possible explanation among many, not a verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Lawrence did not know his own Enneagram pattern – the concept did not yet exist in this
+        form during his lifetime. The self-preservation tenacity that had enabled him to endure
+        the desert war physically and help build a world-fame myth carried, for him, no built-in
+        warning mechanism that could have led him to seek professional help after Deraa in time;
+        on the contrary, the psychological trauma was processed in exactly the same logic he had
+        applied to physical hardship in war: endure alone, do not complain, show no weakness.
+        Someone who does not know their own exhaustion pattern cannot interrupt it in time
+        either – for Lawrence, that ended only with his death at the age of 46.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Lawrence's</strong> final thirteen years, the Self-Preservation Four with
+        Three-wing shows itself at its most vulnerable: the same man who helped build a
+        world-fame myth worked afterward just as determinedly toward his own invisibility – two
+        false names, the lowest ranks, a self-arranged punishment ritual. The dove that once
+        carried messages across the desert fell almost entirely silent in its own final years –
+        until, on May 19, 1935, six days after a motorcycle accident in Dorset, it fell silent
+        for good, at the age of 46.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-t-e-lawrence", label:"Portrait: T. E. Lawrence (SE4w3) – life's work"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SE4w3) – same subtype"},
+        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3) – same subtype"},
+        {route:"psychosomatik/depression", label:"Psychosomatics Register: Depression"},
         {route:"subtype/se4", label:"Subtype Profile SE4"},
       ])}
     </div>
@@ -100531,6 +100732,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-angelina-jolie": angelinaJolieKrankheitsportraetPage,
       "krankheitsportraets-adele": adeleKrankheitsportraetPage,
       "krankheitsportraets-honore-de-balzac": honoreDeBalzacKrankheitsportraetPage,
+      "krankheitsportraets-t-e-lawrence": tELawrenceKrankheitsportraetPage,
       "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
       "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,
