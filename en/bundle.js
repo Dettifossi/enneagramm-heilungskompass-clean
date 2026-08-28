@@ -106,6 +106,10 @@ const BIBEL_PORTRAITS = [
     heading:"John the Baptist – Sexual Type 1",
     teaser:"SX1w9 · Ascetic voice crying in the wilderness by the Jordan. Uncompromising fire against hypocrisy, baptizes Jesus – and at the end deliberately withdraws: \"He must increase, I must decrease.\"",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-marta", name:"Martha", added:"2026-08-28", subtyp:"SE2w1",
+    heading:"Martha – Self-Preservation Type 2",
+    teaser:"SE2w1 · Hostess from Bethany, sister of Mary. Serves tirelessly until Jesus gently mirrors her: \"Only one thing is needed.\" Learns to be present without having to perform.",
+    land:"Judea", tags:["Bible"], gender:"f"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -39726,6 +39730,7 @@ function margotFriedlaenderPortraitPage() {
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},
+        {route:"bibel-marta", label:"Bible Portrait: Martha (SE2w1)"},
       ])}
     </div>
   `);
@@ -44870,12 +44875,12 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Hippopotamus",
     kernthema: "Indispensability as access to closeness – calm, rooted strength instead of loud self-display",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Mickey Rourke", "Monica Simpson", "Nate Dogg", "Stromae", "Thomas Chaanhing", "Tracie D. Hall", "Tutty Tran", "Lebo M", "Lionel Boyce", "Lisa Antoni", "Loi", "Loni Hui", "Madeline Stuart", "Mariacarla Boscono", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Mickey Rourke", "Monica Simpson", "Nate Dogg", "Stromae", "Thomas Chaanhing", "Tracie D. Hall", "Tutty Tran", "Lebo M", "Lionel Boyce", "Lisa Antoni", "Loi", "Loni Hui", "Madeline Stuart", "Mariacarla Boscono", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof", "Martha"],
     fingerabdruecke: [
       {
         titel: "Indispensability as access to closeness and significance (Naranjo: 'Privilege')",
         beschreibung: "Belonging and significance are not demanded, but secured through care, effort, and the quiet feeling of being needed. Naranjo called this subtype the one of 'Privilege': winning a special place in another's life through indispensability.",
-        beleg: "'Naranjo also described this subtype as one who takes care of others first, in order to soothe their own neediness indirectly' (Ulrike Meinhof, whose 'care for the seemingly weak was real – and at the same time the core of her identity'); Dr. Camille Fritsch as the leading voice of hippo conservation; Ai Weiwei, whose art is inseparable from his commitment to others; Buster Murdaugh, whose case shows how the Two's 'privilege' survives within a family dynasty – as the belief that belonging to a certain world protects one from consequences; Anna Delvey, whose entire fraud rested on a fabricated belonging to New York's heiress world; Tutty Tran, whose entire stage work circles around his own family – not as detached observation, but as directly lived, self-deprecatingly processed closeness to his parents, who came to Germany as Vietnamese boat people; Mickey Rourke, whose public image is defined by toughness, while his deepest, most faithful bond for decades was with his dogs – 'they were there when no one else was there'; Monica Simpson, who was often the only Black child in honors classes in Wingate, North Carolina, and turned that into a lifelong, Southern-rooted commitment to her own community; Nate Dogg, whose voice turned sixteen other people's songs into hits while his own solo albums never sold more than 500,000 copies each – care that would rather carry someone else's work than his own; Stromae, whose song ›Papaoutai‹ directly processes the loss of his father, killed in the Rwandan genocide – a deeply personal family wound that became the most widely heard expression of his work; Thomas Chaanhing, whose Danish-Chinese dual heritage and fluency in six languages became the foundation for supporting roles in several international major productions; Tracie D. Hall, who spent years working in public libraries across the United States before becoming the first African American woman to serve as Executive Director of the American Library Association; Lebo M, who stayed loyal to the same film franchise for over three decades since 1994, turning his Zulu call into the acoustic signature of a worldwide success; Lionel Boyce, whose creative path remained inseparable from his decades-long friendship and collaboration with Tyler, the Creator, from Odd Future to their own production company; Lisa Antoni, who worked her way step by step through a broad repertoire in German-speaking musical theatre to Christine Daaé at the Ronacher; Loi, whose stage name traces back to her childhood nickname 'Leonie Lionheart' and who found international chart success with 'Gold' only after years of patiently practicing guitar and piano; Loni Hui, who completed a finance degree before turning to poker, before becoming a two-time WSOP bracelet winner; Madeline Stuart, who turned her own, very personal story into an international message for the inclusion of people with Down syndrome in the fashion industry; Mariacarla Boscono, who sustained her close, decade-long creative bond with Riccardo Tisci at Givenchy and Burberry while becoming one of the most visible muses in international fashion."
+        beleg: "'Naranjo also described this subtype as one who takes care of others first, in order to soothe their own neediness indirectly' (Ulrike Meinhof, whose 'care for the seemingly weak was real – and at the same time the core of her identity'); Dr. Camille Fritsch as the leading voice of hippo conservation; Ai Weiwei, whose art is inseparable from his commitment to others; Buster Murdaugh, whose case shows how the Two's 'privilege' survives within a family dynasty – as the belief that belonging to a certain world protects one from consequences; Anna Delvey, whose entire fraud rested on a fabricated belonging to New York's heiress world; Tutty Tran, whose entire stage work circles around his own family – not as detached observation, but as directly lived, self-deprecatingly processed closeness to his parents, who came to Germany as Vietnamese boat people; Mickey Rourke, whose public image is defined by toughness, while his deepest, most faithful bond for decades was with his dogs – 'they were there when no one else was there'; Monica Simpson, who was often the only Black child in honors classes in Wingate, North Carolina, and turned that into a lifelong, Southern-rooted commitment to her own community; Nate Dogg, whose voice turned sixteen other people's songs into hits while his own solo albums never sold more than 500,000 copies each – care that would rather carry someone else's work than his own; Stromae, whose song ›Papaoutai‹ directly processes the loss of his father, killed in the Rwandan genocide – a deeply personal family wound that became the most widely heard expression of his work; Thomas Chaanhing, whose Danish-Chinese dual heritage and fluency in six languages became the foundation for supporting roles in several international major productions; Tracie D. Hall, who spent years working in public libraries across the United States before becoming the first African American woman to serve as Executive Director of the American Library Association; Lebo M, who stayed loyal to the same film franchise for over three decades since 1994, turning his Zulu call into the acoustic signature of a worldwide success; Lionel Boyce, whose creative path remained inseparable from his decades-long friendship and collaboration with Tyler, the Creator, from Odd Future to their own production company; Lisa Antoni, who worked her way step by step through a broad repertoire in German-speaking musical theatre to Christine Daaé at the Ronacher; Loi, whose stage name traces back to her childhood nickname 'Leonie Lionheart' and who found international chart success with 'Gold' only after years of patiently practicing guitar and piano; Loni Hui, who completed a finance degree before turning to poker, before becoming a two-time WSOP bracelet winner; Madeline Stuart, who turned her own, very personal story into an international message for the inclusion of people with Down syndrome in the fashion industry; Mariacarla Boscono, who sustained her close, decade-long creative bond with Riccardo Tisci at Givenchy and Burberry while becoming one of the most visible muses in international fashion; Martha, who, asked how she managed it all, answered, 'It has to be done' – what she meant was, 'I can't do otherwise. If I don't give, I disappear.'"
       },
       {
         titel: "A good-natured, unwieldy facade that turns into unstoppable force when the territory is threatened",
@@ -65726,6 +65731,87 @@ function johannesDerTaeuferPage() {
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
         {route:"bibel-ruben-schriftgelehrter", label:"Bible Portrait: Reuben the Scribe (SO1w2)"},
+        {route:"bibel-marta", label:"Bible Portrait: Martha (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function martaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-marta-portrait.jpg" alt="Martha – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martha</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Hostess from Bethany – Animal correspondence: Hippopotamus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Animal correspondence: Hippopotamus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Martha, Martha, you are worried and upset about many things…" (Luke 10:41)</p>
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the Self-Preservation Two – massive, unassuming, seemingly slow, and yet the animal most indispensable to its entire ecosystem: it keeps the waterways open, shapes the habitat for everyone else, mostly unseen beneath the surface. Martha could not bear silence well – not because she thought out loud, but because in silence she could no longer hear the others. The house was her realm, not like a palace, but like a vessel: she knew every tile in the courtyard, every notch in the baking stone, knew how much oil was left in the jug before she even lifted it.</p>
+          <p class="vb-intro">She had risen early. The bread dough needed to rest, the water needed heating, the space for guests needed cleaning – even before anyone had arrived. When someone asked how she managed it all, she would smile and say, "It has to be done." But what she meant was: <em>I can't do otherwise. If I don't give, I disappear.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Love as the Reward for Usefulness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Two (SE2)</strong> does not give to shine, but to survive – care becomes the quiet precondition for being needed, and thereby held. As a child, Martha had often been overlooked: the quiet daughter, the sensible one, the one who "helps without being asked." So she had learned: love comes when one is needed. Closeness arises through usefulness. Attention is not a gift – it is a wage.</p>
+          <p class="vb-intro">When Jesus arrived and Mary sat down at his feet, Martha stood still – the cloth in one hand, the word she did not want to say in the other. <em>Why isn't she helping?</em> Finally she stepped closer and said, not bitterly, but with an undertone: "Lord, don't you care that my sister has left me to do the work by myself? Tell her to help me." It was not anger. It was longing dressed as accusation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Discipline as Justification for Giving</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Self-Preservation Two a strict, almost moral note: service is not experienced as a choice, but as a duty that must be carried out correctly. Martha portioned the salt strictly, kept every tile clean, ran the household with a controlled grip. Providing for others was, for her, not merely duty in the narrower sense – it was identity. A space in which she felt: I am needed.</p>
+          <p class="vb-intro">This combination of care and discipline makes giving, for the SE2w1, both a burden and the only legitimate way to earn attention – whoever stops working seemingly forfeits their claim to love. It was precisely this inner compulsion that Jesus later touched, not Martha's industriousness itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Mirror in Jesus's Answer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus did not rise, did not even raise his voice. But when he spoke, a quiet expanse settled over the courtyard: "Martha, Martha, you are worried and upset about many things. But few things are needed – or indeed only one. Mary has chosen what is better, and it will not be taken away from her." It was not a rebuke. It was a mirror.</p>
+          <p class="vb-intro">Martha saw herself in it – not as a mistake, but as a person carrying too much because she feared she would otherwise not be enough. It was not about Mary. It was about the way Martha filled her giving with conditions, how she traded closeness for performance, how she only breathed calmly when certain: I am needed. She went back into the kitchen – but more slowly. For the first time she sat, in the midst of the work, and thought not of what still needed doing, but of what had just been called forth in her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift of Attention Without Demand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">By evening the house was filled with the scent of roasted grain and warm olives. After the meal, Martha sat down – not next to Jesus, not next to Mary, but on the step across from them, so that she could see them both, without having to serve. Jesus smiled at her. She returned it and felt something new: <em>I am allowed to be here, even while doing nothing.</em></p>
+          <p class="vb-intro">That night she slept more peacefully than usual – not because everything was done, but because she understood: not every love must be visible. Not every act of giving must lead to thanks. And not every effort is a key to recognition. Sometimes it is enough simply to be present.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Serving Without Losing Yourself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The days passed. Jesus came and went, and each time he brought movement – not in the rooms, but in the people. Martha remained Martha: she cooked, she cared. But she pressed less. She breathed deeper. When Mary sat in the courtyard, she no longer asked, <em>Why isn't she helping?</em>, but thought instead: <em>Maybe she's helping in a different way.</em></p>
+          <p class="vb-intro">And when she prayed, she no longer only asked: <em>Show me whom I should serve.</em> Sometimes she simply said: <em>Lord, be with me. Even when I do nothing.</em> This is the gift of the SE2w1: care that no longer needs to prove it has earned its place – a hippopotamus that keeps the river open, but no longer fears disappearing the moment it stands still.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Hands Full, Heart Open</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Martha, giving her soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/QrKeNWPeBiU?rel=0" title="Hands Full, Heart Open – Martha" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
+        {route:"bibel-johannes-der-taeufer", label:"Bible Portrait: John the Baptist (SX1w9)"},
       ])}
     </div>
   `);
@@ -98239,6 +98325,7 @@ function subtypeSchaubilderPage() {
       "bibel-josef-von-arimathaea": josefVonArimathaeaPage,
       "bibel-ruben-schriftgelehrter": rubenSchriftgelehrterPage,
       "bibel-johannes-der-taeufer": johannesDerTaeuferPage,
+      "bibel-marta": martaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
