@@ -4520,22 +4520,12 @@ function startPage() {
     ${neuigkeitenSection()}
 
     <section style="max-width:680px;margin:0 auto 0;padding:0 1rem 0.8rem;">
-      <div style="text-align:center;margin-bottom:0.5rem;">
-        <span style="font-size:0.85rem;font-weight:700;color:var(--copper,#a5652f);letter-spacing:0.02em;">✨ Wegweiser Premium – access to 40+ books</span>
-      </div>
-      <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;margin-bottom:0.8rem;">
-        <a href="https://buy.stripe.com/aFa28r34s7Sq51ganp4gg3L" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:0.15rem;padding:0.6rem 1.1rem;border-radius:12px;
+      <div style="text-align:center;margin-bottom:0.8rem;">
+        <button data-route="wegweiser-premium" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
                   border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
-                  text-decoration:none;min-width:150px;">
-          <span style="font-size:0.92rem;font-weight:700;">€4.99 / month</span>
-          <span style="font-size:0.72rem;color:var(--muted,#886);">Subscription, cancel anytime</span>
-        </a>
-        <a href="https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:0.15rem;padding:0.6rem 1.1rem;border-radius:12px;
-                  border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
-                  text-decoration:none;min-width:150px;">
-          <span style="font-size:0.92rem;font-weight:700;">€49.99 / year</span>
-          <span style="font-size:0.72rem;color:var(--muted,#886);">Subscription, renews automatically, cancel anytime</span>
-        </a>
+                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
+          ✨ Wegweiser Premium – discover access to 40+ books
+        </button>
       </div>
       <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
         <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
@@ -7070,6 +7060,49 @@ function kaufenPage() {
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
         <h3 style="margin-top:0;">Questions?</h3>
         <p style="margin:0;font-size:.95rem;">For questions about access, write to <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
+      </div>
+    </section>
+  `);
+}
+
+function wegweiserPremiumPage() {
+  return shell(`
+    <section class="narrow centered" style="padding:2rem 1rem 1rem;">
+      <p class="eyebrow">Wegweiser Premium</p>
+      <h1 style="font-size:2rem;margin-bottom:.5rem;">More than 40 books, right in the conversation</h1>
+      <p class="lead-small" style="margin-bottom:2rem;">The Guide is the AI assistant built into the Enneagram Healing Compass. Normally it only searches the app's content – with Premium, it also draws on Detlef Rathmer's entire published body of work.</p>
+    </section>
+    <section class="narrow" style="padding:0 1rem 1.5rem;">
+      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
+        <h3 style="margin-top:0;">What changes with Premium?</h3>
+        <p>Without Premium, the Guide answers from the app itself – already a lot. With Premium, it additionally draws on more than 40 books: over 30 years of writing on the Enneagram, homeopathy, Bach flowers, Schüssler salts, archetypes, relationships, and more. Answers become noticeably deeper and more precise, with real citations from the full body of work instead of just the app.</p>
+        <h3>What you get:</h3>
+        <ul style="list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.75rem;">
+          <li>📚 <strong>Access to over 40 books</strong> – from the core Enneagram works to the homeopathic reference books, all searchable at once</li>
+          <li>🎯 <strong>More precise answers</strong> – the Guide cites exactly which book a statement comes from, instead of generalizing</li>
+          <li>💬 <strong>Right in the chat</strong> – no need to search individual books, just ask</li>
+          <li>🔄 <strong>Keeps growing</strong> – new books are added regularly, at no extra cost</li>
+        </ul>
+        <h3>Who is this for?</h3>
+        <p>For anyone who already enjoys using the Guide and wants to go deeper – therapists, coaches, consultants, and anyone who wants to truly understand themselves, not just on the surface.</p>
+      </div>
+    </section>
+    <section class="narrow" style="padding:0 1rem 2rem;">
+      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;">
+        <h3 style="margin-top:0;text-align:center;">Choose your plan</h3>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-top:1rem;">
+          <a href="https://buy.stripe.com/aFa28r34s7Sq51ganp4gg3L" target="_blank" rel="noopener"
+             style="flex:1;min-width:220px;max-width:280px;background:#2d4a3e;color:#fff;padding:1.3rem 1rem;border-radius:12px;text-decoration:none;text-align:center;">
+            <div style="font-size:1.4rem;font-weight:700;font-family:'EB Garamond',serif;">€4.99<span style="font-size:.85rem;font-weight:400;"> / month</span></div>
+            <div style="font-size:.82rem;opacity:.85;margin-top:.3rem;">Subscription, cancel anytime</div>
+          </a>
+          <a href="https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M" target="_blank" rel="noopener"
+             style="flex:1;min-width:220px;max-width:280px;background:#2d4a3e;color:#fff;padding:1.3rem 1rem;border-radius:12px;text-decoration:none;text-align:center;">
+            <div style="font-size:1.4rem;font-weight:700;font-family:'EB Garamond',serif;">€49.99<span style="font-size:.85rem;font-weight:400;"> / year</span></div>
+            <div style="font-size:.82rem;opacity:.85;margin-top:.3rem;">Subscription, renews automatically, cancel anytime</div>
+          </a>
+        </div>
+        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:1.2rem;">Secure checkout via Stripe · Access via login link in the Guide chat</p>
       </div>
     </section>
   `);
@@ -100661,6 +100694,7 @@ function subtypeSchaubilderPage() {
     "lebensgluck": lebensgluckPage,
     diagnosetest: diagnosetestPage,
     kaufen: kaufenPage,
+    "wegweiser-premium": wegweiserPremiumPage,
     register: registerPage,
     "tischdialoge": tischdialogePage,
     "gesichtsausdruecke": gesichtsausdrueckePage,
@@ -100696,7 +100730,7 @@ function subtypeSchaubilderPage() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "table-of-contents" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));

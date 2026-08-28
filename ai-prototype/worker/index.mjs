@@ -391,6 +391,7 @@ async function handleStripeWebhook(request, env) {
       }
       break;
     }
+    case "customer.subscription.created":
     case "customer.subscription.updated": {
       const sub = event.data.object;
       const active = ["active", "trialing"].includes(sub.status);
@@ -398,9 +399,17 @@ async function handleStripeWebhook(request, env) {
       // (kommt normalerweise über checkout.session.completed zuerst).
       const existing = await findSubscriberByCustomerId(env, sub.customer);
       if (existing) {
+        // current_period_end wird für die Verlängerungs-Erinnerung gebraucht
+        // (siehe runRenewalReminders) - bei jeder Verlängerung rückt dieser
+        // Wert automatisch weiter, wodurch auch die Erinnerung für den
+        // nächsten Zyklus wieder greift (siehe renewalReminderSentFor).
+        const currentPeriodEnd = sub.current_period_end
+          ? new Date(sub.current_period_end * 1000).toISOString()
+          : existing.data.currentPeriodEnd;
         await setSubscriberStatus(env, existing.email, {
           ...existing.data,
           status: active ? "active" : "inactive",
+          currentPeriodEnd,
         });
       }
       break;
@@ -571,9 +580,60 @@ async function runExpiryReminders(env) {
   }
 }
 
+// Verlängerungs-Erinnerung für echte Stripe-Abos (Monats- und Jahresabo,
+// beide werden gleich behandelt). Anders als die Ablauf-Erinnerung oben
+// (nur für eine nie genutzte Einmalzahlungs-Variante) betrifft das den
+// tatsächlich aktiven Zahlungsweg: 14 Tage vor der automatischen
+// Verlängerung eine faire Erinnerung, mit Hinweis auf die
+// Kündigungsmöglichkeit. renewalReminderSentFor speichert, für welches
+// currentPeriodEnd die letzte Erinnerung ging - bei der nächsten
+// Verlängerung ändert sich currentPeriodEnd automatisch, wodurch die
+// Erinnerung für den neuen Zyklus von selbst wieder greift.
+async function sendRenewalReminderEmail(email, currentPeriodEnd, apiKey) {
+  const formattedDate = new Date(currentPeriodEnd).toLocaleDateString("de-DE", {
+    day: "2-digit", month: "2-digit", year: "numeric",
+  });
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      from: "Wegweiser <wegweiser@verlagshausrathmer.com>",
+      to: [email],
+      subject: "Dein Wegweiser-Premium-Abo verlängert sich bald",
+      html: `<p>Hallo,</p><p>dein Wegweiser-Premium-Abo verlängert sich am <strong>${formattedDate}</strong> automatisch um eine weitere Laufzeit.</p><p>Falls du weiterhin Zugriff auf die Bücher-Wissensbasis im Wegweiser haben möchtest, musst du nichts tun.</p><p>Falls du kündigen möchtest, kannst du das jederzeit vorher im Wegweiser-Chat-Fenster über "Abo verwalten" selbst erledigen.</p>`,
+    }),
+  });
+  if (!res.ok) throw new Error(`Resend-Fehler ${res.status}: ${await res.text()}`);
+}
+
+async function runRenewalReminders(env) {
+  if (!env.RESEND_API_KEY) return;
+  const list = await env.SUBSCRIBERS.list();
+  for (const key of list.keys) {
+    const raw = await env.SUBSCRIBERS.get(key.name);
+    if (!raw) continue;
+    const sub = JSON.parse(raw);
+    if (!isSubscriberActive(sub) || sub.expiresAt || !sub.currentPeriodEnd) continue;
+    if (sub.renewalReminderSentFor === sub.currentPeriodEnd) continue;
+    const days = daysUntil(sub.currentPeriodEnd);
+    if (days > 0 && days <= REMINDER_WINDOW_DAYS) {
+      try {
+        await sendRenewalReminderEmail(key.name, sub.currentPeriodEnd, env.RESEND_API_KEY);
+        await setSubscriberStatus(env, key.name, { ...sub, renewalReminderSentFor: sub.currentPeriodEnd });
+      } catch (err) {
+        console.error(`Verlängerungs-Erinnerung fehlgeschlagen für ${key.name}:`, err.message);
+      }
+    }
+  }
+}
+
 export default {
   async scheduled(event, env, ctx) {
     ctx.waitUntil(runExpiryReminders(env));
+    ctx.waitUntil(runRenewalReminders(env));
   },
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
