@@ -136774,6 +136774,7 @@ setTimeout(showTagesimpuls, 600);
     '<button id="wegweiser-close" aria-label="Schlie\u00dfen" style="background:none;border:none;font-size:1.4rem;cursor:pointer;color:inherit;padding:0.3rem;line-height:1;">\u00d7</button>' +
     "</div>" +
     '<div id="wegweiser-premium-bar" style="padding:0.4rem 0.9rem;border-bottom:1px solid var(--line,#ddd);font-size:0.76rem;display:flex;justify-content:space-between;align-items:center;gap:0.5rem;"></div>' +
+    '<div id="wegweiser-login-form" style="display:none;padding:0.7rem 0.9rem;border-bottom:1px solid var(--line,#ddd);"></div>' +
     '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;overflow-x:hidden;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;word-wrap:break-word;overflow-wrap:break-word;"></div>' +
     '<form id="wegweiser-form" style="display:flex;align-items:center;gap:0.2rem;border-top:1px solid var(--line,#ddd);padding:0.3rem;box-sizing:border-box;">' +
     '<input id="wegweiser-input" type="text" placeholder="Frag zu einem Subtyp..." style="flex:1;min-width:0;border:none;padding:0.6rem 0.4rem;font-size:0.95rem;background:transparent;color:inherit;" />' +
@@ -136790,6 +136791,7 @@ setTimeout(showTagesimpuls, 600);
   const closeEl = panel.querySelector("#wegweiser-close");
   const micEl = panel.querySelector("#wegweiser-mic");
   const premiumBarEl = panel.querySelector("#wegweiser-premium-bar");
+  const loginFormEl = panel.querySelector("#wegweiser-login-form");
 
   // Premium-Leiste: zeigt je nach Login-Status entweder einen Login-/Kauf-
   // Hinweis oder "Premium aktiv" mit Logout. Rein optisch/optimistisch -
@@ -136853,53 +136855,101 @@ setTimeout(showTagesimpuls, 600);
       login.type = "button";
       login.textContent = "Anmelden";
       login.style.cssText = "background:none;border:none;color:var(--copper,#a5652f);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
-      login.addEventListener("click", requestMagicLink);
+      login.addEventListener("click", showEmailStep);
       actions.appendChild(login);
       premiumBarEl.appendChild(info);
       premiumBarEl.appendChild(actions);
     }
   }
 
-  async function requestMagicLink() {
-    const email = prompt("Mit welcher E-Mail-Adresse hast du Wegweiser Premium abonniert?");
+  // Eingebettetes Login-Formular statt window.prompt(): zwei aufeinander-
+  // folgende native Dialoge mit einer Wartezeit dazwischen (Serveranfrage)
+  // werden von mobilem Safari nicht zuverl\u00e4ssig angezeigt, besonders wenn
+  // die App als Home-Bildschirm-Icon l\u00e4uft - der zweite prompt() kann
+  // lautlos ausbleiben. Ein normales Formular im Chat-Fenster hat dieses
+  // Problem nicht.
+  function closeLoginForm() {
+    loginFormEl.style.display = "none";
+    loginFormEl.innerHTML = "";
+  }
+
+  function showEmailStep() {
+    loginFormEl.style.display = "block";
+    loginFormEl.innerHTML =
+      '<p style="margin:0 0 0.5rem;font-size:0.8rem;color:var(--muted,#886);">Mit welcher E-Mail-Adresse hast du Wegweiser Premium abonniert?</p>' +
+      '<form id="wegweiser-email-form" style="display:flex;gap:0.4rem;">' +
+      '<input id="wegweiser-email-input" type="email" placeholder="deine@email.de" required style="flex:1;min-width:0;border:1px solid var(--line,#ddd);border-radius:6px;padding:0.5rem;font-size:0.9rem;" />' +
+      '<button type="submit" style="flex:0 0 auto;border:none;background:var(--copper,#a5652f);color:#fff;border-radius:6px;padding:0.5rem 0.8rem;font-size:0.85rem;cursor:pointer;">Weiter</button>' +
+      "</form>" +
+      '<button id="wegweiser-login-cancel" type="button" style="background:none;border:none;color:var(--muted,#886);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0.5rem 0 0;">Abbrechen</button>';
+
+    const emailForm = loginFormEl.querySelector("#wegweiser-email-form");
+    const emailInput = loginFormEl.querySelector("#wegweiser-email-input");
+    loginFormEl.querySelector("#wegweiser-login-cancel").addEventListener("click", closeLoginForm);
+    emailForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      requestCode(emailInput.value.trim());
+    });
+    emailInput.focus();
+  }
+
+  async function requestCode(email) {
     if (!email) return;
-    const trimmedEmail = email.trim();
+    loginFormEl.innerHTML = '<p style="margin:0;font-size:0.8rem;color:var(--muted,#886);">Sende Code \u2026</p>';
     try {
       const res = await fetch(WORKER_URL + "/auth/request-link", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: trimmedEmail }),
+        body: JSON.stringify({ email: email }),
       });
       const data = await res.json();
-      addMsg(data.message || data.error || "Bitte pr\u00fcfe dein Postfach.", "meta");
-      // Code-Eingabe direkt anbieten - funktioniert auch, wenn die App als
-      // Home-Bildschirm-Icon l\u00e4uft (der Link in der Mail \u00f6ffnet auf iOS
-      // sonst immer Safari, das hat dann einen eigenen, getrennten Speicher).
-      requestAnimationFrame(function () { promptForCode(trimmedEmail); });
+      showCodeStep(email, data.message || data.error);
     } catch (e) {
+      showEmailStep();
       addMsg("Verbindungsfehler. Bitte sp\u00e4ter erneut versuchen.", "meta");
     }
   }
 
-  async function promptForCode(email) {
-    const code = prompt("Gib den 6-stelligen Code aus der E-Mail ein (oder Abbrechen, falls du stattdessen den Link antippst):");
+  function showCodeStep(email, statusMessage) {
+    loginFormEl.innerHTML =
+      (statusMessage ? '<p style="margin:0 0 0.5rem;font-size:0.78rem;color:var(--muted,#886);">' + statusMessage + '</p>' : "") +
+      '<p style="margin:0 0 0.5rem;font-size:0.8rem;color:var(--muted,#886);">6-stelligen Code aus der E-Mail eingeben:</p>' +
+      '<form id="wegweiser-code-form" style="display:flex;gap:0.4rem;">' +
+      '<input id="wegweiser-code-input" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="6" placeholder="000000" required style="flex:1;min-width:0;border:1px solid var(--line,#ddd);border-radius:6px;padding:0.5rem;font-size:1.1rem;letter-spacing:0.2em;text-align:center;" />' +
+      '<button type="submit" style="flex:0 0 auto;border:none;background:var(--copper,#a5652f);color:#fff;border-radius:6px;padding:0.5rem 0.8rem;font-size:0.85rem;cursor:pointer;">Best\u00e4tigen</button>' +
+      "</form>" +
+      '<button id="wegweiser-login-cancel" type="button" style="background:none;border:none;color:var(--muted,#886);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0.5rem 0 0;">Abbrechen</button>';
+
+    const codeForm = loginFormEl.querySelector("#wegweiser-code-form");
+    const codeInput = loginFormEl.querySelector("#wegweiser-code-input");
+    loginFormEl.querySelector("#wegweiser-login-cancel").addEventListener("click", closeLoginForm);
+    codeForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      verifyCode(email, codeInput.value.trim());
+    });
+    codeInput.focus();
+  }
+
+  async function verifyCode(email, code) {
     if (!code) return;
+    loginFormEl.innerHTML = '<p style="margin:0;font-size:0.8rem;color:var(--muted,#886);">Pr\u00fcfe Code \u2026</p>';
     try {
       const res = await fetch(WORKER_URL + "/auth/verify-code", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email, code: code.trim() }),
+        body: JSON.stringify({ email: email, code: code }),
       });
       const data = await res.json();
       if (data.sessionToken) {
         setSessionToken(data.sessionToken);
+        closeLoginForm();
         renderPremiumBar();
         addMsg("Erfolgreich angemeldet.", "meta");
       } else {
-        addMsg(data.error || "Code ung\u00fcltig oder abgelaufen.", "meta");
+        showCodeStep(email, data.error || "Code ung\u00fcltig oder abgelaufen. Bitte erneut versuchen.");
       }
     } catch (e) {
-      addMsg("Verbindungsfehler. Bitte sp\u00e4ter erneut versuchen.", "meta");
+      showCodeStep(email, "Verbindungsfehler. Bitte erneut versuchen.");
     }
   }
 

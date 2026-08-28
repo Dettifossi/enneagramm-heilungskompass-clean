@@ -101070,6 +101070,7 @@ setTimeout(showTagesimpuls, 600);
     '<button id="wegweiser-close" aria-label="Close" style="background:none;border:none;font-size:1.4rem;cursor:pointer;color:inherit;padding:0.3rem;line-height:1;">×</button>' +
     "</div>" +
     '<div id="wegweiser-premium-bar" style="padding:0.4rem 0.9rem;border-bottom:1px solid var(--line,#ddd);font-size:0.76rem;display:flex;justify-content:space-between;align-items:center;gap:0.5rem;"></div>' +
+    '<div id="wegweiser-login-form" style="display:none;padding:0.7rem 0.9rem;border-bottom:1px solid var(--line,#ddd);"></div>' +
     '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;overflow-x:hidden;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;word-wrap:break-word;overflow-wrap:break-word;"></div>' +
     '<form id="wegweiser-form" style="display:flex;align-items:center;gap:0.2rem;border-top:1px solid var(--line,#ddd);padding:0.3rem;box-sizing:border-box;">' +
     '<input id="wegweiser-input" type="text" placeholder="Ask about a subtype..." style="flex:1;min-width:0;border:none;padding:0.6rem 0.4rem;font-size:0.95rem;background:transparent;color:inherit;" />' +
@@ -101086,6 +101087,7 @@ setTimeout(showTagesimpuls, 600);
   const closeEl = panel.querySelector("#wegweiser-close");
   const micEl = panel.querySelector("#wegweiser-mic");
   const premiumBarEl = panel.querySelector("#wegweiser-premium-bar");
+  const loginFormEl = panel.querySelector("#wegweiser-login-form");
 
   // Premium bar: shows either a login/purchase hint or "Premium active"
   // with logout, depending on login state. Purely cosmetic/optimistic -
@@ -101149,53 +101151,100 @@ setTimeout(showTagesimpuls, 600);
       login.type = "button";
       login.textContent = "Log in";
       login.style.cssText = "background:none;border:none;color:var(--copper,#a5652f);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
-      login.addEventListener("click", requestMagicLink);
+      login.addEventListener("click", showEmailStep);
       actions.appendChild(login);
       premiumBarEl.appendChild(info);
       premiumBarEl.appendChild(actions);
     }
   }
 
-  async function requestMagicLink() {
-    const email = prompt("Which email address did you subscribe to Wegweiser Premium with?");
+  // Inline login form instead of window.prompt(): two chained native
+  // dialogs with a server round-trip in between are not reliably shown by
+  // mobile Safari, especially when the app runs as a Home Screen icon -
+  // the second prompt() can silently fail to appear. A normal in-panel
+  // form doesn't have this problem.
+  function closeLoginForm() {
+    loginFormEl.style.display = "none";
+    loginFormEl.innerHTML = "";
+  }
+
+  function showEmailStep() {
+    loginFormEl.style.display = "block";
+    loginFormEl.innerHTML =
+      '<p style="margin:0 0 0.5rem;font-size:0.8rem;color:var(--muted,#886);">Which email address did you subscribe to Wegweiser Premium with?</p>' +
+      '<form id="wegweiser-email-form" style="display:flex;gap:0.4rem;">' +
+      '<input id="wegweiser-email-input" type="email" placeholder="you@email.com" required style="flex:1;min-width:0;border:1px solid var(--line,#ddd);border-radius:6px;padding:0.5rem;font-size:0.9rem;" />' +
+      '<button type="submit" style="flex:0 0 auto;border:none;background:var(--copper,#a5652f);color:#fff;border-radius:6px;padding:0.5rem 0.8rem;font-size:0.85rem;cursor:pointer;">Next</button>' +
+      "</form>" +
+      '<button id="wegweiser-login-cancel" type="button" style="background:none;border:none;color:var(--muted,#886);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0.5rem 0 0;">Cancel</button>';
+
+    const emailForm = loginFormEl.querySelector("#wegweiser-email-form");
+    const emailInput = loginFormEl.querySelector("#wegweiser-email-input");
+    loginFormEl.querySelector("#wegweiser-login-cancel").addEventListener("click", closeLoginForm);
+    emailForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      requestCode(emailInput.value.trim());
+    });
+    emailInput.focus();
+  }
+
+  async function requestCode(email) {
     if (!email) return;
-    const trimmedEmail = email.trim();
+    loginFormEl.innerHTML = '<p style="margin:0;font-size:0.8rem;color:var(--muted,#886);">Sending code …</p>';
     try {
       const res = await fetch(WORKER_URL + "/auth/request-link", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: trimmedEmail }),
+        body: JSON.stringify({ email: email }),
       });
       const data = await res.json();
-      addMsg(data.message || data.error || "Please check your inbox.", "meta");
-      // Offer code entry right away - also works when the app runs as a
-      // Home Screen icon (the email link always opens Safari on iOS,
-      // which then has its own, separate storage).
-      requestAnimationFrame(function () { promptForCode(trimmedEmail); });
+      showCodeStep(email, data.message || data.error);
     } catch (e) {
+      showEmailStep();
       addMsg("Connection error. Please try again later.", "meta");
     }
   }
 
-  async function promptForCode(email) {
-    const code = prompt("Enter the 6-digit code from the email (or Cancel if you'll tap the link instead):");
+  function showCodeStep(email, statusMessage) {
+    loginFormEl.innerHTML =
+      (statusMessage ? '<p style="margin:0 0 0.5rem;font-size:0.78rem;color:var(--muted,#886);">' + statusMessage + '</p>' : "") +
+      '<p style="margin:0 0 0.5rem;font-size:0.8rem;color:var(--muted,#886);">Enter the 6-digit code from the email:</p>' +
+      '<form id="wegweiser-code-form" style="display:flex;gap:0.4rem;">' +
+      '<input id="wegweiser-code-input" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="6" placeholder="000000" required style="flex:1;min-width:0;border:1px solid var(--line,#ddd);border-radius:6px;padding:0.5rem;font-size:1.1rem;letter-spacing:0.2em;text-align:center;" />' +
+      '<button type="submit" style="flex:0 0 auto;border:none;background:var(--copper,#a5652f);color:#fff;border-radius:6px;padding:0.5rem 0.8rem;font-size:0.85rem;cursor:pointer;">Confirm</button>' +
+      "</form>" +
+      '<button id="wegweiser-login-cancel" type="button" style="background:none;border:none;color:var(--muted,#886);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0.5rem 0 0;">Cancel</button>';
+
+    const codeForm = loginFormEl.querySelector("#wegweiser-code-form");
+    const codeInput = loginFormEl.querySelector("#wegweiser-code-input");
+    loginFormEl.querySelector("#wegweiser-login-cancel").addEventListener("click", closeLoginForm);
+    codeForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      verifyCode(email, codeInput.value.trim());
+    });
+    codeInput.focus();
+  }
+
+  async function verifyCode(email, code) {
     if (!code) return;
+    loginFormEl.innerHTML = '<p style="margin:0;font-size:0.8rem;color:var(--muted,#886);">Checking code …</p>';
     try {
       const res = await fetch(WORKER_URL + "/auth/verify-code", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email, code: code.trim() }),
+        body: JSON.stringify({ email: email, code: code }),
       });
       const data = await res.json();
       if (data.sessionToken) {
         setSessionToken(data.sessionToken);
+        closeLoginForm();
         renderPremiumBar();
         addMsg("Successfully logged in.", "meta");
       } else {
-        addMsg(data.error || "Code invalid or expired.", "meta");
+        showCodeStep(email, data.error || "Code invalid or expired. Please try again.");
       }
     } catch (e) {
-      addMsg("Connection error. Please try again later.", "meta");
+      showCodeStep(email, "Connection error. Please try again.");
     }
   }
 
