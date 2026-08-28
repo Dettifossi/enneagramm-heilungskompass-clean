@@ -150,6 +150,10 @@ const BIBEL_PORTRAITS = [
     heading:"Gamaliel – Social Type 5",
     teaser:"SO5w6 · The guardian of balance. A Sanhedrin scholar who protects the apostles: \"If it is of God, you will not be able to overthrow them.\" Principle over instinct, dignity without applause.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-der-mann-von-gerasa", name:"The Man of Gerasa", added:"2026-08-28", subtyp:"SX5w4",
+    heading:"The Man of Gerasa – Sexual Type 5",
+    teaser:"SX5w4 · The self, shattered. \"Legion, for we are many.\" Jesus's question \"What is your name?\" becomes a bridge back to his own, undivided self.",
+    land:"Gerasa", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -18705,6 +18709,7 @@ function friedrichNietzschePortraitPage() {
         {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – whose duty-based ethics he sharply criticized"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4)"},
+        {route:"bibel-der-mann-von-gerasa", label:"Bible Portrait: The Man of Gerasa (SX5w4)"},
       ])}
     </div>
   `);
@@ -44650,12 +44655,12 @@ const LEBENSMUSTERKOMPASS = {
   SX5: {
     tier: "Hedgehog",
     kernthema: "Spikes on the outside, softness within – trust as an exclusive, protected space",
-    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick"],
+    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick", "The Man of Gerasa"],
     fingerabdruecke: [
       {
         titel: "Spikes on the outside, extraordinary softness underneath – accessible only to very few",
         beschreibung: "The defensive, unapproachable exterior is not coldness, but protection for a particularly intense, sensitive interior that only shows itself once trust has been built.",
-        beleg: "Taylor Swift: 'Whoever knows him knows: underneath is something extraordinarily soft. But you have to have built trust to touch it'; Mark Zuckerberg: 'The spikes are made of code. The inside is seen only by those he truly trusts'; Edward Snowden: 'Whoever wants to touch it must earn its trust. And whoever forces it will get stung'; Hugh Warwick, who protects his own vulnerability behind humor and pointedly spiky writing, while underneath lies the deepest emotional resonance with his one life theme."
+        beleg: "Taylor Swift: 'Whoever knows him knows: underneath is something extraordinarily soft. But you have to have built trust to touch it'; Mark Zuckerberg: 'The spikes are made of code. The inside is seen only by those he truly trusts'; Edward Snowden: 'Whoever wants to touch it must earn its trust. And whoever forces it will get stung'; Hugh Warwick, who protects his own vulnerability behind humor and pointedly spiky writing, while underneath lies the deepest emotional resonance with his one life theme; the Man of Gerasa, whose spikes – chains, stones, a life among the tombs – were a desperate rampart, until a single gaze was enough for him, for the first time, to be seen without fleeing."
       },
       {
         titel: "Retreat as a deliberate reserving of intimacy for a few exclusive connections",
@@ -66676,6 +66681,91 @@ function gamalielPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SE5w6)"},
+        {route:"bibel-der-mann-von-gerasa", label:"Bible Portrait: The Man of Gerasa (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function derMannVonGerasaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-der-mann-von-gerasa-portrait.jpg" alt="The Man of Gerasa – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">The Man of Gerasa</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The self, shattered – Animal correspondence: Hedgehog</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Animal correspondence: Hedgehog" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"What is your name?" He replied: "My name is Legion, for we are many." (Mark 5:9)</p>
+
+        <div class="vb-hinweis-box" style="background:rgba(139,94,60,0.08);border:1px solid rgba(139,94,60,0.25);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0 1.5rem;font-size:0.92rem;line-height:1.6;">
+          <strong>Note:</strong> This chapter interprets the biblical account of the demon-possessed man of Gerasa typologically, as an image of extreme inner fragmentation by subtype – not as a clinical diagnosis. The narrative mentions self-harm ("cutting himself with stones"); this is named here only in its historical context, without embellishment. If you are affected yourself: in Germany, the Telefonseelsorge is reachable free of charge around the clock at 0800 111 0 111; in the US, the 988 Suicide & Crisis Lifeline is available at 988.
+        </div>
+
+        <h2 class="vb-section">1. The Hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five – it curls fully inward when threatened, protects its sensitive inside with spines facing outward, and opens only once absolute safety is certain. He lived among the tombs, where no one wants to dwell, where one is forgotten, where nothing heals anymore, but nothing disturbs either. He was no longer "someone." He was many – a shattering of voice, will, face. His name? Forgotten, lost. "Legion," he said, when Jesus asked him, "for we are many."</p>
+          <p class="vb-intro">The SX5 wrestles with identity within intensity. It feels so much that it protects itself by withdrawing, often to the point of unrecognizability. It lets no one close, because it senses: closeness could destroy me. But at the same time it wants exactly that: to be seen, fully, penetrated, recognized despite every mask.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Five: Withdrawn to Hold Itself Together</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What tore him apart did not come from outside. It was within him. And then Jesus came, did not appear loudly, did not call for attention, simply arrived at the shore – and that was enough. For the Gerasene sensed him even before he saw him. He ran, not out of anger, not out of rage, but out of something deeper: a desperate hope that someone might be strong enough to hold him whole.</p>
+          <p class="vb-intro">Jesus stepped toward him, not with force, not with threat, but with a quiet presence stronger than any rope, any chain, any flight. The man threw himself before him, trembling, but not out of hatred – out of being overwhelmed. For the SX5 often fears closeness, because it knows how far it could fall if it ever truly showed itself. He roared: "What have you to do with me, Jesus, Son of the Most High God? Do not torment me!" It was no resistance. It was a cry for help in the language of defense.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Longing for the One True Self</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the sexual Five an existential, identity-seeking depth – the fragmentation is not only a defense mechanism, but a deep, almost dramatic question of who one truly is, beyond every mask. The SX5 often cries out for boundaries, because it can no longer hold itself together. It longs for redemption, but at a pace that does not annihilate it. Jesus did not answer with a formula, not with force. He asked: "What is your name?"</p>
+          <p class="vb-intro">It was an invitation, a bridge, an act of dignifying. And the fragment in this man that could still remember answered: "Legion." But this name was not true. It was a shield, a system of defense. Jesus knew: this person needed not only cleansing, but reintegration. This exact existential wrestling for the one true self behind the fragmentation, which does not settle for mere distance, carries the signature of the Four-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The First Self: The Gaze That Finally Stays</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As the dust settled, there was silence, for the first time in years. No voices, no inner battle, only breath, only skin, only earth, only now. They brought him clothing, not as a gesture of propriety, but as an act of readmission into life. The SX5 knows the feeling of being a spirit without a shell. It knows what it is to lose oneself in fragments, and how deep the longing is to finally be held, not through argument, but through presence.</p>
+          <p class="vb-intro">He sat at Jesus's feet, not submissively, not desperately, but quietly, and looked at him. Not with mistrust, not with greed, not with flight, but with gaze. For the first time he looked without testing, without fleeing, without hiding. It was no intense expression, no dramatic gesture, but simply: presence. The Gerasene spoke only little, but every breath said: I am. I am here again.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Wish to Stay: The Invitation to Go</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He wanted to stay with him, with the one who had put him back together, not out of dependence, not out of fear, but out of a deep truth: You saw me, wholly – not who I was supposed to be, not what destroyed me, but me. The SX5 does not bond easily, but when it does, it does so absolutely. And so he asked: "Let me go with you." But Jesus said no, not out of rejection, but out of love for independence: "Go home to your own people and tell them how much the Lord has done for you."</p>
+          <p class="vb-intro">Jesus wanted no imitation, no attachment, no flight into a new dependency. He wanted this man not only healed, but free. It was a pain, a tear, once again – but this time the tear was not destructive. It was maturing. The SX5 learns only slowly that it can exist even outside of depth, that it may give what it has itself lived through.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: A Quiet Witness to the Unspeakable</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He returned, not triumphant, not preaching, but simply as a human being, whose eyes no longer flickered, whose voice no longer shattered. He entered the villages where he had once been feared. And when asked, he answered not with arguments, but with a look: "I was shattered. Now I am one. I was many. Now I am myself."</p>
+          <p class="vb-intro">He remained no preacher, became no disciple in the inner circle, but a quiet witness for all who wrestle with voices themselves, with shame, with withdrawal, with the fear of showing themselves. This is the gift of the SX5w4: a depth that has learned to be among people without losing itself – a hedgehog that knows it no longer needs to curl up to remain whole.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Legion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for the Man of Gerasa, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/gAlYihN7QCE?rel=0" title="Legion – The Man of Gerasa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4)"},
+        {route:"bibel-gamaliel", label:"Bible Portrait: Gamaliel (SO5w6)"},
       ])}
     </div>
   `);
@@ -99200,6 +99290,7 @@ function subtypeSchaubilderPage() {
       "bibel-judas-thaddaeus": judasThaddaeusPage,
       "bibel-nikodemus": nikodemusPage,
       "bibel-gamaliel": gamalielPage,
+      "bibel-der-mann-von-gerasa": derMannVonGerasaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
