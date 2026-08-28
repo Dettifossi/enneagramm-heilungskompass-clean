@@ -98,6 +98,10 @@ const BIBEL_PORTRAITS = [
     heading:"Joseph of Arimathea – Self-Preservation Type 1",
     teaser:"SE1w9 · Council member from Arimathea. Withdrawn, precise, a man of quiet steps – who, after the crucifixion, alone and without backing, goes to Pilate to ask for Jesus's body, and buries him with his own hands in his own rock-hewn tomb.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-ruben-schriftgelehrter", name:"Reuben the Scribe", added:"2026-08-28", subtyp:"SO1w2",
+    heading:"Reuben the Scribe – Social Type 1",
+    teaser:"SO1w2 · A third-generation scribe. A guardian of the law who publicly confronts Jesus in the temple courts – and after his death begins to read the law not only for correctness, but for mercy.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -23635,6 +23639,7 @@ function konfuziusPortraitPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype profile"},
         {route:"beruehmte-laozi", label:"Portrait: Laozi (Lao Tzu) (SE9w1)"},
         {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SX5w4)"},
+        {route:"bibel-ruben-schriftgelehrter", label:"Bible Portrait: Reuben the Scribe (SO1w2)"},
       ])}
     </div>
   `);
@@ -44919,12 +44924,12 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
         beschreibung: "Outwardly, the demeanor seems disciplined, civic, unobtrusively controlled. But as soon as one's own order or a principle felt to be just is violated, a decisive, often surprisingly harsh reaction follows – without drama, but without compromise.",
-        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites.'"
+        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined."
       },
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
@@ -65474,7 +65479,7 @@ function enneagrammBibelPage() {
       <div style="max-width:640px;margin-top:1rem;">
         ${cards}
       </div>
-      ${bookTip("27-gesichter-der-seele", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
 
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"},
@@ -65546,7 +65551,7 @@ function josefVonArimathaeaPage() {
         </blockquote>
 
       </div>
-      ${bookTip("27-gesichter-der-seele", "All 27 chapters in full, with every song – the source material for this section, as a complete psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the source material for this section, as a complete psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
@@ -65554,6 +65559,86 @@ function josefVonArimathaeaPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
+        {route:"bibel-ruben-schriftgelehrter", label:"Bible Portrait: Reuben the Scribe (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function rubenSchriftgelehrterPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-ruben-schriftgelehrter-portrait.jpg" alt="Reuben the Scribe – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Reuben the Scribe</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Third-generation scribe – Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"They tie up heavy burdens and lay them on people's shoulders, but they themselves are not willing to lift a finger to move them." (Matt 23:4)</p>
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One – a bird that flies in formation, holds the line, and insists with a loud, unyielding voice that everyone stays within the same order. Reuben loved the sound of the morning prayers – not because they moved him, but because they reminded him: of order, of the centuries-old line he had joined like a well-placed letter in a scroll of holy scripture. He was a scribe in the third generation. His father had known the Psalms by heart; his grandfather had copied the law at Masada as if it were divine music.</p>
+          <p class="vb-intro">His house was plain but disciplined: books stacked by age and importance, every corner swept, the oil jug always in its fixed place. For Reuben, order was not a concept but an obligation – a sacred rhythm one did not question but passed on and preserved, against arbitrariness, against the chaos of the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Order as the Salvation of the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> directs its demand for perfection not inward, like the Self-Preservation One, but outward, at society: if everyone did the right thing, the world would be whole. At the market gate, Reuben encountered a child who had dropped fish and bread. Instead of merely offering comfort, he immediately ruled with expert precision on which piece could still be salvaged under the purity laws and which could not. He was a man who helped – but through rule, not through plain compassion.</p>
+          <p class="vb-intro">When Jesus taught in the temple courts, Reuben stepped closer not out of curiosity but from an inner reflex: <em>something is wrong here.</em> Whoever speaks publicly must be examined. He stood before the crowd and demanded an account: "Why do you not keep the law as our fathers did?" The tone he struck was not that of a seeker but of a demand – the social One who believes that rules carry people, and who feels obliged to insist on this publicly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: The Teacher Who Reaches Beyond the Rule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social One a personal, attentive note: it corrects not from a distance, but in direct conversation, in teaching students, in listening. Reuben was a teacher in the third generation – someone who taught young men how to bring offerings correctly, how to stand in prayer, how many steps one may take on the Sabbath. His strictness was never anonymous; it always addressed a concrete person.</p>
+          <p class="vb-intro">This very attentiveness later became his turning point: when an old student asked him whether a woman weeping in prayer became unclean by it, Reuben no longer answered by citing the law, but personally, warmly: "If she weeps because she has loved – then she is purer than many who were never touched." The Two-wing, learning to read the rule anew through relationship.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Encounter: "You Read Past the Heart"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus answered Reuben's public rebuke not with a counterattack, but with a single, quietly spoken sentence: "You read the scripture. But you read past the heart." It struck Reuben like a stone – not theologically, but personally. For if Jesus was right, everything Reuben had devoted himself to for years was not wrong, but incomplete.</p>
+          <p class="vb-intro">In the silence that followed, Reuben remembered his brother's illness, his mother's early death – pain that had never discharged as grief but had transformed into discipline: if I do everything right, nothing will break again. The law had held him like scaffolding holds stone. Now a single sentence called into question not the law itself, but Reuben's relationship to it: what if the rule was a means – and not the goal?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Crucifixion and the Quiet Truthfulness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When news of the crucifixion came, Reuben did not go to the execution site. He stayed in his house, sat on the floor – not out of grief, but because his body found no other posture. <em>What if we misjudged him?</em> The thought was quiet, but it was there. He thought of Jesus's sentence about burdens placed on others that one is not willing to carry oneself – a sentence that had once made him angry and now only made him still.</p>
+          <p class="vb-intro">For the first time in his life, he asked himself: is the standard I apply to others truly the same one I apply to myself? Not a verdict – the beginning of a truthfulness that did not speak, but listened.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Reading the Law with Different Eyes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the days that followed, Reuben did not return to the temple court to teach. He grew quieter – not weaker, but softer in his gaze. He began to read the law anew: no less precisely, but asking what a commandment was meant to preserve, what it was meant to protect against. <em>The law without mercy is a knife without a handle.</em> This is the gift of the SO1w2: a strictness that learns, through attentiveness, that the rule must serve the person – not the other way around.</p>
+          <p class="vb-intro">Reuben never saw Jesus again. But one gaze stayed with him, neither strict nor soft, but penetrating and still: <em>Do not only see what is written. See what it wants to show you.</em> The scribe, the guardian of the law, the public admonisher began to write anew, inwardly – not on the tablets of the law, but at the quietest place of his heart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Between Law and Grace</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Reuben the Scribe, giving his soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/XOKO4asfeI8?rel=0" title="Between Law and Grace – Reuben the Scribe" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-konfuzius", label:"Portrait: Confucius (SO1w2)"},
+        {route:"bibel-josef-von-arimathaea", label:"Bible Portrait: Joseph of Arimathea (SE1w9)"},
       ])}
     </div>
   `);
@@ -98065,6 +98150,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie": kriminalpsychologiePage,
       "enneagramm-bibel": enneagrammBibelPage,
       "bibel-josef-von-arimathaea": josefVonArimathaeaPage,
+      "bibel-ruben-schriftgelehrter": rubenSchriftgelehrterPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
