@@ -65533,7 +65533,7 @@ function josefVonArimathaeaPage() {
 
         <h2 class="vb-section">6. The Song: In Silent Hands</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A dedicated song was written for Joseph of Arimathea, giving his soul's voice a sound. A narrated version of the story is also available as a <a href="https://youtu.be/cQ0n_sZimJU" target="_blank" rel="noopener">video on YouTube</a>.</p>
+          <p class="vb-intro">A dedicated song was written for Joseph of Arimathea, giving his soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
             <iframe src="https://www.youtube.com/embed/dKofTwCmedc?rel=0" title="In Silent Hands – Joseph of Arimathea" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>

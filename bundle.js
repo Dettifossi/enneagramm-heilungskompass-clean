@@ -93607,7 +93607,7 @@ function josefVonArimathaeaPage() {
 
         <h2 class="vb-section">6. Das Lied: In stiller Hand</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Josef von Arimathäa ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht. Eine Erzählfassung der Geschichte gibt es zudem als <a href="https://youtu.be/cQ0n_sZimJU" target="_blank" rel="noopener">Video auf YouTube</a>.</p>
+          <p class="vb-intro">Zu Josef von Arimathäa ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
             <iframe src="https://www.youtube.com/embed/dKofTwCmedc?rel=0" title="In stiller Hand – Josef von Arimathäa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
