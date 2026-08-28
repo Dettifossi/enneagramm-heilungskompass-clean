@@ -110,6 +110,10 @@ const BIBEL_PORTRAITS = [
     heading:"Martha – Self-Preservation Type 2",
     teaser:"SE2w1 · Hostess from Bethany, sister of Mary. Serves tirelessly until Jesus gently mirrors her: \"Only one thing is needed.\" Learns to be present without having to perform.",
     land:"Judea", tags:["Bible"], gender:"f"},
+  { route:"bibel-jesus", name:"Jesus", added:"2026-08-28", subtyp:"SO2w1",
+    heading:"Jesus – Social Type 2",
+    teaser:"SO2w1 · At the feeding of the five thousand. Gives before anyone raises a hand, then deliberately withdraws: \"Giving must not become dependency.\" A source, not someone in need.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -40095,6 +40099,7 @@ function muhammadAliPortraitPage() {
         {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
         {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali (SO2w1)"},
         {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
+        {route:"bibel-jesus", label:"Bible Portrait: Jesus (SO2w1)"},
       ])}
     </div>
   `);
@@ -65812,6 +65817,87 @@ function martaPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
         {route:"bibel-johannes-der-taeufer", label:"Bible Portrait: John the Baptist (SX1w9)"},
+        {route:"bibel-jesus", label:"Bible Portrait: Jesus (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function jesusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-jesus-portrait.jpg" alt="Jesus – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jesus</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>At the feeding of the five thousand – Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"You give them something to eat." (Luke 9:13)</p>
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two – an animal that does not wait to be called, but moves toward people on its own, that perceives every face in a crowd individually while setting itself aside. The day was hot, dust lay on the road, and Jesus was tired – not physically, but in the way one grows tired when many eyes rest on you, each one asking: <em>Do you see me?</em> And he saw them. All of them. Not as a mass, not as a crowd, but as individuals: the boy with the hollow gaze, the woman with the empty hand, the old man with the careful step.</p>
+          <p class="vb-intro">He knew their hunger – not only for bread, but for meaning. And that was his gift: not to preach, but to give before anyone raised a hand. When the disciples grew anxious – "The crowd is growing restless, there are too many, they have nothing to eat" – he answered: "You give them something to eat." The words were gentle, but they cut: not as a demand, but as a mirror. Don't look at the crowd. Look at your own capacity to give.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Principle Instead of Calculation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at a single relationship, but at the whole community – Naranjo called this subtype <em>Ambition</em>: the need to be indispensable to many, not just to one. "We have nothing," the disciples said, "only five loaves and two fish – from a boy." Jesus took the bread not as a gift, but as an answer. For wherever someone shares, the miracle begins. He did not look at how little there was. He looked at the willingness.</p>
+          <p class="vb-intro">He took the loaves, gave thanks, broke them – and as he broke them, abundance arose. Not suddenly, not like magic, but like an inner law unfolding whenever someone gives without calculating. There was no crowding, no fear of falling short. For everyone saw: if I receive, the other receives too. It was not only a feeding. It was a healing – the hunger was not only physical, it was a hunger for worth, for being seen, for <em>we belong</em>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Giving by an Inner Law</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two a clear, almost ethical structure: giving does not happen on impulse, but follows an inner principle. Not possession, but devotion. Not reserves, but trust. The disciples handed out baskets, passed hands, led children to open spots – they did what he had told them, but they did not yet fully understand it. For what they saw was the miracle. What they did not see was the principle behind it.</p>
+          <p class="vb-intro">Jesus had not lectured them. He had set them in motion – not through theory, but through a meal. When they gathered the leftovers at the end, twelve baskets full, they stood in silence, not from astonishment, but from humility: they had learned that what remains is not what one holds back, but what one gives away. Precisely this discipline – giving as a principle, not an exception – carries the signature of the One-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Closeness Without Neediness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Night came slowly, the people were full, laughing, singing softly. But Jesus withdrew – not because he was tired, but because he knew: <em>giving must not become dependency.</em> He climbed the hill behind the field, alone. He did not pray aloud, did not ask for anything. He simply was. For whoever gives out of love needs no answer.</p>
+          <p class="vb-intro">His closeness was radical, yet never demanding. He held no one, bound no one to himself. He gave – and left. And exactly there lay his depth: he was fully present, and yet let go. This is how he lived the social Two in its highest awareness – not as someone in need, but as a source; not as a rescuer, but as one who serves, and remains free precisely through giving.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Invisible Seed of Connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The next morning the field was empty. The people had gone, back to their towns, villages, farms. But something was different. They carried nothing tangible with them – no blessing, no keepsake, no visible sign. And yet: they carried something they could not name. A widening in the chest. A knowing that did not come from the head.</p>
+          <p class="vb-intro">They had experienced that closeness is not something you must earn, but something you can share. They had learned that dignity does not come from rank, but from the way people look at one another. Jesus rarely spoke of it directly. He said only, later: "I am the bread of life." And whoever understood him knew he was not speaking of the stomach, but of the heart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Being a Source Without Depleting Yourself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What this story shows of the social Two is its most mature, healthiest form: giving that draws not from scarcity, but from abundance, and that does not need to be confirmed by others' reactions. Most SO2s wrestle with the question of whether enough recognition returns for all their effort. Jesus gave himself away – and then withdrew, before care could turn into attachment, before giving could turn into expectation.</p>
+          <p class="vb-intro">This is the gift of the SO2w1: a generosity that follows an inner law rather than a ledger of giving and taking – a Golden Retriever that meets every face in the crowd as if it were the only one, and precisely because of that never needs to hold anyone close in order to be loved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Bread from His Hands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for this chapter, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/3NwdYJLeKN0?rel=0" title="Bread from His Hands" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1)"},
+        {route:"bibel-marta", label:"Bible Portrait: Martha (SE2w1)"},
       ])}
     </div>
   `);
@@ -98326,6 +98412,7 @@ function subtypeSchaubilderPage() {
       "bibel-ruben-schriftgelehrter": rubenSchriftgelehrterPage,
       "bibel-johannes-der-taeufer": johannesDerTaeuferPage,
       "bibel-marta": martaPage,
+      "bibel-jesus": jesusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
