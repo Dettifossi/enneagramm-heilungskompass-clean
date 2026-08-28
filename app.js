@@ -32090,6 +32090,10 @@ const BIBEL_PORTRAITS = [
     heading:"Maria Magdalena \u2013 Sexueller Typ 2",
     teaser:"SX2w1 \u00b7 Erste Zeugin der Auferstehung. Ihre Liebe sucht nicht Besitz, sondern Verschmelzung \u2013 bis Jesus sie lehrt: \u00bbR\u00fchr mich nicht an.\u00ab Liebe hei\u00dft Zeugenschaft, nicht Festhalten.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"f"},
+  { route:"bibel-salome", name:"Salome", added:"2026-08-28", subtyp:"SE3w4",
+    heading:"Salome \u2013 Selbsterhaltender Typ 3",
+    teaser:"SE3w4 \u00b7 Architektin des Eindrucks in Kana. Ihre makellose Fassade br\u00f6ckelt vor Jesu Stille \u2013 bis er ihr sagt: \u00bbDu bist \u2013 das reicht allein.\u00ab Vom Glanz zur echten Wirksamkeit.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"f"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44584,12 +44588,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
         beschreibung: "Anders als die sozialen und sexuellen Dreier sucht dieser Subtyp keine Bühne. Naranjo nannte ihn den ›Kontratyp‹ der Drei: Statt Selbstinszenierung zeigt sich Bescheidenheit, Bodenständigkeit, ein bewusstes Vermeiden des Rampenlichts – während die Energie darunter dieselbe bleibt.",
-        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Sterling North, jahrzehntelang Literaturredakteur im Hintergrund großer Zeitungen, während sein eigenes Buch ›Rascal‹ im Stillen zum Welterfolg wurde: ›Der Mann am Schreibtisch mit der Schreibmaschine wirkt nicht wie eine öffentliche Figur, sondern wie ein stiller, arbeitsamer Handwerker der Sprache.‹ Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹"
+        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Sterling North, jahrzehntelang Literaturredakteur im Hintergrund großer Zeitungen, während sein eigenes Buch ›Rascal‹ im Stillen zum Welterfolg wurde: ›Der Mann am Schreibtisch mit der Schreibmaschine wirkt nicht wie eine öffentliche Figur, sondern wie ein stiller, arbeitsamer Handwerker der Sprache.‹ Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹ Salome, die in Kana ›still, dezent, an der Seite‹ blieb, während ihr Blick jedes Detail erfasste – bis Jesus, ohne jede Inszenierung, genau die Wirkung erzielte, die sie selbst nie ohne Aufwand erreicht hatte: ›Wer ist dieser Mann, der wirken kann, ohne zu wirken?‹"
       },
       {
         titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
@@ -70731,6 +70735,7 @@ function davidLRathmerPortraitPage() {
         {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
+        {route:"bibel-salome", label:"Bibel-Portr\u00e4t: Salome (SE3w4)"},
       ])}
     </div>
   `);
@@ -94058,6 +94063,87 @@ function mariaMagdalenaPage() {
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
         {route:"bibel-jesus", label:"Bibel-Porträt: Jesus (SO2w1)"},
+        {route:"bibel-salome", label:"Bibel-Porträt: Salome (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function salomePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-salome-portrait.jpg" alt="Salome – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Salome</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Architektin des Eindrucks – Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Ihre Hände waren immer in Bewegung – aber ihr Herz war still geworden.«</p>
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – geschickt, wachsam, ein Meister der stillen Anpassung, der sich nie in den Vordergrund drängt und doch dafür sorgt, dass alles um ihn herum geordnet und versorgt ist. Salome hatte früh gelernt, was wirkt. Nicht was wahr ist, nicht was tief ist – sondern was ankommt. Sie war klug, ja. Aber vor allem: geschickt.</p>
+          <p class="vb-intro">In ihrem Haus war alles geordnet, die Krüge glänzten, das Brot lag exakt geschnitten auf dem Tuch. Denn wenn alles gut aussieht, ist es auch ein wenig gut – das war der Gedanke, der ihr Sicherheit gab. Sie hatte ihr wahres Selbst mit einer Art Panzer überzogen, nicht aus Kälte, sondern aus Notwendigkeit. Tief in ihr wohnte eine Stimme, die flüsterte: Wenn du nichts leistest, bist du nichts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Wirkung als Überlebensstrategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht Sicherheit nicht durch öffentlichen Glanz, sondern durch stille, makellose Kompetenz im eigenen Umfeld. Salome war nicht eingeladen gewesen zur Hochzeit in Kana – zumindest nicht offiziell. Aber sie war da, wie so oft: still, dezent, an der Seite. Ihr Blick erfasste die Szenerie wie ein erfahrener Gastgeber: die Menge, die Temperatur des Raumes, den Vorrat an Wein. Sie war nicht neugierig – sie war wach. Denn wer wach ist, hat Kontrolle.</p>
+          <p class="vb-intro">Als die Weinkrüge leer waren, war das in ihrer Welt ein Desaster – ein Makel, öffentlich. Doch Jesus sagte nur leise Worte zu den Dienenden, und Wasser wurde zu Wein. Ohne Auftritt, ohne Ankündigung, kein Lob, keine Geste der Selbstbestätigung. Salome konnte nicht wegblicken – nicht wegen des Wunders, sondern wegen seiner Stille, seines Mangels an Eitelkeit. Wer ist dieser Mann, der wirken kann, ohne zu wirken?</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die verborgene Unruhe hinter der Fassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine leise, kaum sichtbare Tiefe – eine Empfindsamkeit für das eigene Ungenügen, die unter der makellosen Oberfläche wach bleibt und sich irgendwann nicht mehr verdrängen lässt. Nach dem Fest ging Salome langsam nach Hause, und doch schien jeder Schritt schwerer zu wiegen als sonst. Sie hatte Jesus kein Wort gesagt. Denn was hätte sie sagen sollen – »Gut gemacht«? Sie wusste: Solche Worte hätten ihn nicht erreicht, denn er hatte nichts getan, um zu gefallen. Und das war es, was sie tief traf.</p>
+          <p class="vb-intro">Sie war es gewohnt, gewürdigt zu werden, hatte gelernt, dass Anerkennung das Maß aller Dinge ist. Doch dieser Mann war wirksam ohne Aufwand, präsent ohne Geltung. Wer bin ich, wenn ich nicht mehr funktioniere? Wenn keiner sieht, was ich tue? Genau dieses leise, unbestechliche Fragen nach dem eigenen Wert jenseits der Leistung – nicht als lauter Zusammenbruch, sondern als stiller innerer Sturm – trägt die Handschrift des Viererflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Angst, gesehen zu werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es war in Kapernaum, am Rand eines Marktes. Jesus saß auf einem flachen Stein, nicht erhöht, nicht hervorgehoben, aber in einem Kreis von Menschen, die in seiner Gegenwart atmeten, als sei endlich genug Luft da. Salome trat näher – nicht aus Mut, sondern aus etwas, das sie nicht kannte: Sehnsucht, nicht nach Anerkennung, sondern nach Erkanntwerden. Er sah sie. Nicht mit Überraschung, nicht mit Besitz, nicht mit Lob. Er sah – und das genügte.</p>
+          <p class="vb-intro">In seinem Blick lag ein Satz, den sie spürte, ohne dass er gesprochen wurde: Du brauchst dich nicht mehr beweisen. Ein Satz wie eine Klinge, wie eine Befreiung – und zugleich ein Entsetzen. Denn wer war sie, wenn sie nicht mehr geben, leisten, glänzen konnte? Er sprach leise, aber es klang in ihr wie Donner: »Was nützt es dem Menschen, wenn er die ganze Welt gewinnt, aber dabei seine Seele verliert?« Sie fühlte sich gemeint – nicht beschämt, sondern gesehen, jenseits der Maske.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das neue Maß: Wirksamkeit ohne Maske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sie änderte sich nicht plötzlich, nicht in ihren Gewohnheiten, nicht in ihrer Kleidung. Aber das Motiv hinter allem begann sich zu lösen – nicht sofort, aber stetig. Sie hörte auf, etwas zu sein, um jemand zu sein. Sie begann, Dinge zu tun, nicht um Eindruck zu machen, sondern weil sie gebraucht wurden. Der Unterschied war kaum sichtbar, aber spürbar: Ihr Lächeln wurde weicher, nicht strategisch, echt.</p>
+          <p class="vb-intro">Eines Tages, als sie Jesus wieder sah, trat sie zu ihm, setzte sich einfach hin und sagte leise: »Ich bin müde vom Machen.« Er schwieg, nickte kaum merklich und sagte: »Dann ruh dich aus – in dem, was du bist.« Für Salome war das der Wendepunkt. Nicht das Ende ihres Tuns, aber der Beginn ihres wirklichen Seins. Kein Glanz mehr ohne Grund, keine Masken mehr aus Angst, keine Wirkung ohne Wurzeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Führen ohne Applaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als sie später andere führte – jüngere Frauen, unsichere Männer, Kinder –, tat sie es nicht mehr, um Applaus zu bekommen, sondern weil sie wusste, dass das wahre Wirken dort beginnt, wo man nichts mehr darstellt, sondern einfach da ist.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE3w4: eine Kompetenz, die sich nicht mehr aus der Angst speist, ohne Leistung wertlos zu sein, sondern aus der stillen Gewissheit, gesehen zu sein, auch wenn niemand zuschaut – ein Waschbär, der nicht mehr jeden Winkel kontrollieren muss, um sich sicher zu fühlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Mehr als nur die Beste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Salome ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/2gklX1qArXw?rel=0" title="Mehr als nur die Beste – Salome bei Jesus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
+        {route:"bibel-maria-magdalena", label:"Bibel-Porträt: Maria Magdalena (SX2w1)"},
       ])}
     </div>
   `);
@@ -134202,6 +134288,7 @@ function render() {
       "bibel-marta": martaPage,
       "bibel-jesus": jesusPage,
       "bibel-maria-magdalena": mariaMagdalenaPage,
+      "bibel-salome": salomePage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
