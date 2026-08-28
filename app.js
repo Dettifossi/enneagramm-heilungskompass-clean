@@ -136684,6 +136684,7 @@ setTimeout(showTagesimpuls, 600);
   // eingerichtet ist (siehe Projekt-Notizen). Solange leer, zeigt der
   // Premium-Bereich nur einen Hinweis statt eines Kauf-Links.
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/aFa28r34s7Sq51ganp4gg3L";
+  const STRIPE_PAYMENT_LINK_YEARLY_URL = "https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M";
   const SESSION_TOKEN_KEY = "wegweiser-session-token";
 
   function getSessionToken() {
@@ -136777,9 +136778,20 @@ setTimeout(showTagesimpuls, 600);
         subscribe.href = STRIPE_PAYMENT_LINK_URL;
         subscribe.target = "_blank";
         subscribe.rel = "noopener";
-        subscribe.textContent = "Abonnieren";
+        subscribe.textContent = "Monatlich";
+        subscribe.title = "4,99 € / Monat";
         subscribe.style.cssText = "color:var(--copper,#a5652f);text-decoration:underline;font-size:0.76rem;";
         actions.appendChild(subscribe);
+      }
+      if (STRIPE_PAYMENT_LINK_YEARLY_URL) {
+        const subscribeYearly = document.createElement("a");
+        subscribeYearly.href = STRIPE_PAYMENT_LINK_YEARLY_URL;
+        subscribeYearly.target = "_blank";
+        subscribeYearly.rel = "noopener";
+        subscribeYearly.textContent = "Jährlich sparen";
+        subscribeYearly.title = "49,99 € / Jahr";
+        subscribeYearly.style.cssText = "color:var(--copper,#a5652f);text-decoration:underline;font-size:0.76rem;";
+        actions.appendChild(subscribeYearly);
       }
       const login = document.createElement("button");
       login.type = "button";
