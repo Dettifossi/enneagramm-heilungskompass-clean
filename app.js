@@ -35730,6 +35730,56 @@ window._adminLogin = function() {
   else { alert('Falscher Code'); }
 };
 
+function adminWegweiserCodePage() {
+  const app = document.getElementById('app');
+  const code = window.location.hash.split('/')[1] || '';
+  if (code !== ADMIN_CODE) {
+    app.innerHTML = '<div style="max-width:400px;margin:4rem auto;padding:2rem;text-align:center;">' +
+      '<p style="color:var(--ink);font-size:1rem;margin-bottom:1rem;">Admin-Code eingeben:</p>' +
+      '<input id="admin-code-input" type="password" placeholder="Code..." ' +
+      'style="width:100%;padding:0.6rem;font-size:1rem;border:1px solid var(--border);border-radius:8px;text-align:center;margin-bottom:0.8rem;">' +
+      '<button onclick="_adminWegweiserLogin()" ' +
+      'style="background:var(--gold);border:none;border-radius:8px;padding:0.6rem 1.5rem;font-weight:700;cursor:pointer;">Einloggen</button>' +
+      '</div>';
+    return;
+  }
+  app.innerHTML = '<div style="max-width:480px;margin:2rem auto;padding:1rem;">' +
+    '<h1 style="font-size:1.2rem;font-weight:700;color:var(--ink);margin-bottom:0.6rem;">Wegweiser-Zugangscode senden</h1>' +
+    '<p style="color:var(--muted);font-size:0.88rem;margin-bottom:1.2rem;line-height:1.5;">E-Mail-Adresse des Abonnenten eingeben und senden — er bekommt sofort eine neue E-Mail mit frischem 6-stelligem Code (30 Minuten gültig).</p>' +
+    '<input id="admin-wegweiser-email" type="email" placeholder="kunde@beispiel.de" ' +
+    'style="width:100%;padding:0.6rem;font-size:1rem;border:1px solid var(--border);border-radius:8px;margin-bottom:0.8rem;">' +
+    '<button onclick="window._adminWegweiserSend()" ' +
+    'style="background:var(--gold);border:none;border-radius:8px;padding:0.6rem 1.5rem;font-weight:700;cursor:pointer;">Code senden</button>' +
+    '<p id="admin-wegweiser-status" style="margin-top:1rem;font-size:0.88rem;color:var(--ink);"></p>' +
+    '</div>';
+}
+
+window._adminWegweiserLogin = function() {
+  var v = document.getElementById('admin-code-input').value;
+  if (v === ADMIN_CODE) { location.hash = 'admin-wegweiser/' + v; }
+  else { alert('Falscher Code'); }
+};
+
+window._adminWegweiserSend = function() {
+  var input = document.getElementById('admin-wegweiser-email');
+  var status = document.getElementById('admin-wegweiser-status');
+  var email = (input.value || '').trim();
+  if (!email) { return; }
+  status.textContent = 'Sende …';
+  fetch('https://kompass-assistent.9rathmer.workers.dev/auth/request-link', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email: email }),
+  }).then(function(r) { return r.json(); })
+    .then(function(data) {
+      status.textContent = data.message || data.error || 'Fertig.';
+      status.style.color = data.error ? '#e74c3c' : '#27ae60';
+    }).catch(function() {
+      status.textContent = 'Verbindungsfehler. Bitte erneut versuchen.';
+      status.style.color = '#e74c3c';
+    });
+};
+
 window._adminFreigeben = function(index) {
   fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND + '/latest', { cache: 'no-store',
     headers: { 'X-Master-Key': JSONBIN_KEY } })
@@ -136443,7 +136493,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
+    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -136489,6 +136539,7 @@ function render() {
     }
     }
     if (base === "admin") { adminPage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
+    if (base === "admin-wegweiser") { adminWegweiserCodePage(); requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; })); return; }
     if (base === "start") requestAnimationFrame(_bewertungSterneInit);
     if (base === "laenderzuordnungen") {
       requestAnimationFrame(window._llInitVideoObserver);
