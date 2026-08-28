@@ -4534,7 +4534,7 @@ function startPage() {
                   border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
                   text-decoration:none;min-width:150px;">
           <span style="font-size:0.92rem;font-weight:700;">€49.99 / year</span>
-          <span style="font-size:0.72rem;color:var(--muted,#886);">One-time payment, expires automatically after 12 months</span>
+          <span style="font-size:0.72rem;color:var(--muted,#886);">Subscription, renews automatically, cancel anytime</span>
         </a>
       </div>
       <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
@@ -101095,7 +101095,7 @@ setTimeout(showTagesimpuls, 600);
         subscribeYearly.target = "_blank";
         subscribeYearly.rel = "noopener";
         subscribeYearly.textContent = "Save yearly";
-        subscribeYearly.title = "€49.99 / year (one-time payment, expires automatically after 12 months)";
+        subscribeYearly.title = "€49.99 / year (subscription, renews automatically, cancel anytime)";
         subscribeYearly.style.cssText = "color:var(--copper,#a5652f);text-decoration:underline;font-size:0.76rem;";
         actions.appendChild(subscribeYearly);
       }
