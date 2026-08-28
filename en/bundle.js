@@ -118,6 +118,10 @@ const BIBEL_PORTRAITS = [
     heading:"Mary Magdalene – Sexual Type 2",
     teaser:"SX2w1 · First witness of the resurrection. Her love seeks not possession but merging – until Jesus teaches her: \"Do not hold on to me.\" Love means witness, not clinging.",
     land:"Judea", tags:["Bible"], gender:"f"},
+  { route:"bibel-salome", name:"Salome", added:"2026-08-28", subtyp:"SE3w4",
+    heading:"Salome – Self-Preservation Type 3",
+    teaser:"SE3w4 · The architect of appearances at Cana. Her flawless facade cracks before Jesus's stillness – until he tells her: \"You are – that is enough.\" From shine to true effectiveness.",
+    land:"Judea", tags:["Bible"], gender:"f"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -18471,6 +18475,7 @@ function davidLRathmerPortraitPage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Volodymyr Zelenskyy (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+        {route:"bibel-salome", label:"Bible Portrait: Salome (SE3w4)"},
       ])}
     </div>
   `);
@@ -44799,12 +44804,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
         beschreibung: "Unlike the social and sexual Threes, this subtype seeks no stage. Naranjo called it the 'countertype' of the Three: instead of self-staging, it shows modesty, groundedness, a deliberate avoidance of the spotlight – while the same energy runs underneath.",
-        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.'"
+        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?'"
       },
       {
         titel: "Building a working system out of little or from nothing",
@@ -65984,6 +65989,87 @@ function mariaMagdalenaPage() {
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
         {route:"bibel-jesus", label:"Bible Portrait: Jesus (SO2w1)"},
+        {route:"bibel-salome", label:"Bible Portrait: Salome (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function salomePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-salome-portrait.jpg" alt="Salome – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Salome</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The architect of appearances – Animal correspondence: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Her hands were always in motion – but her heart had grown still."</p>
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – clever, watchful, a master of quiet adaptation, never pushing itself into the foreground, yet making sure everything around it is orderly and provided for. Salome had learned early what works. Not what is true. Not what is deep. But what lands. She was clever, yes. But above all: skillful.</p>
+          <p class="vb-intro">In her house everything was in order, the jugs gleamed, the bread lay precisely cut on the cloth. For if everything looks good, it is also a little good – that was the thought that gave her security. She had covered her true self with a kind of armor, not out of coldness, but out of necessity. Deep within her lived a voice that whispered: If you accomplish nothing, you are nothing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Effectiveness as a Survival Strategy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> seeks security not through public glamour, but through quiet, flawless competence within its own domain. Salome had not been invited to the wedding at Cana – not officially, at least. But she was there, as so often: quiet, unobtrusive, at the edge. Her gaze took in the scene like an experienced host: the crowd, the temperature of the room, the supply of wine. She was not curious – she was watchful. For whoever is watchful has control.</p>
+          <p class="vb-intro">When the wine jars ran empty, that was a disaster in her world – a public flaw. But Jesus only spoke quiet words to the servants, and water became wine. No performance, no announcement, no praise, no gesture of self-confirmation. Salome could not look away – not because of the miracle, but because of his stillness, his lack of vanity. Who is this man, who can be effective without performing?</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Hidden Unrest Beneath the Facade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a quiet, barely visible depth – a sensitivity to her own sense of insufficiency that stays awake beneath the flawless surface and eventually can no longer be suppressed. After the feast Salome walked home slowly, and yet every step seemed to weigh heavier than usual. She had not said a word to Jesus. For what would she have said – "Well done"? She knew: such words would not have reached him, for he had done nothing to please. And that was what struck her deepest.</p>
+          <p class="vb-intro">She was used to being honored, had learned that recognition is the measure of all things. Yet this man was effective without effort, present without status. Who am I, if I no longer function? If no one sees what I do? This exact quiet, uncorruptible questioning of her own worth beyond achievement – not as a loud collapse, but as a silent inner storm – carries the signature of the Four-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Fear of Being Seen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It was in Capernaum, at the edge of a market. Jesus sat on a flat stone, not raised, not set apart, but within a circle of people who breathed in his presence as if there were finally enough air. Salome stepped closer – not out of courage, but out of something she did not know: a longing not for recognition, but for being known. He saw her. Not with surprise, not with possession, not with praise. He saw – and that was enough.</p>
+          <p class="vb-intro">In his gaze lay a sentence she felt without it being spoken: You no longer need to prove yourself. A sentence like a blade, like liberation – and at the same time terror. For who was she, if she could no longer give, achieve, shine? He spoke quietly, but it rang in her like thunder: "What does it profit a man if he gains the whole world, but loses his soul?" She felt addressed – not shamed, but seen, beyond the mask.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The New Measure: Effectiveness Without a Mask</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">She did not change suddenly, not in her habits, not in her clothing. But the motive behind it all began to loosen – not at once, but steadily. She stopped being something in order to be someone. She began to do things not to make an impression, but because they were needed. The difference was barely visible, but noticeable: her smile grew softer, not strategic, real.</p>
+          <p class="vb-intro">One day, when she saw Jesus again, she went to him, simply sat down, and said quietly: "I am tired of doing." He was silent, nodded almost imperceptibly, and said: "Then rest – in what you are." For Salome that was the turning point. Not the end of her doing, but the beginning of her true being. No more shine without reason, no more masks out of fear, no more effectiveness without roots.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Leading Without Applause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When she later led others – young women, uncertain men, children – she no longer did it to earn applause, but because she knew that true effectiveness begins where one no longer performs, but simply is.</p>
+          <p class="vb-intro">This is the gift of the SE3w4: a competence no longer fed by the fear of being worthless without achievement, but by the quiet certainty of being seen even when no one is watching – a raccoon that no longer needs to control every corner to feel safe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: More Than Just the Best</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Salome, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/2gklX1qArXw?rel=0" title="More Than Just the Best – Salome and Jesus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
+        {route:"bibel-maria-magdalena", label:"Bible Portrait: Mary Magdalene (SX2w1)"},
       ])}
     </div>
   `);
@@ -98500,6 +98586,7 @@ function subtypeSchaubilderPage() {
       "bibel-marta": martaPage,
       "bibel-jesus": jesusPage,
       "bibel-maria-magdalena": mariaMagdalenaPage,
+      "bibel-salome": salomePage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
