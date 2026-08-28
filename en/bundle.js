@@ -102,6 +102,10 @@ const BIBEL_PORTRAITS = [
     heading:"Reuben the Scribe – Social Type 1",
     teaser:"SO1w2 · A third-generation scribe. A guardian of the law who publicly confronts Jesus in the temple courts – and after his death begins to read the law not only for correctness, but for mercy.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-johannes-der-taeufer", name:"John the Baptist", added:"2026-08-28", subtyp:"SX1w9",
+    heading:"John the Baptist – Sexual Type 1",
+    teaser:"SX1w9 · Ascetic voice crying in the wilderness by the Jordan. Uncompromising fire against hypocrisy, baptizes Jesus – and at the end deliberately withdraws: \"He must increase, I must decrease.\"",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -21598,6 +21602,7 @@ function klausKinskiPortraitPage() {
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
         {route:"krankheitsportraets-klaus-kinski", label:"Illness Portrait: Klaus Kinski (SX1w9)"},
+        {route:"bibel-johannes-der-taeufer", label:"Bible Portrait: John the Baptist (SX1w9)"},
       ])}
     </div>
   `);
@@ -44897,12 +44902,12 @@ const LEBENSMUSTERKOMPASS = {
   SX1: {
     tier: "Black Mamba",
     kernthema: "Uncompromising intensity in the closest circle instead of reforming the whole world",
-    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem"],
+    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem", "John the Baptist"],
     fingerabdruecke: [
       {
         titel: "Penetrating, inescapable presence instead of flattering charisma",
         beschreibung: "The effect arises not through courting sympathy, but through an intensity one can hardly escape at close range – a gaze, a stage presence, a focus that forces the other person into complete wakefulness.",
-        beleg: "'To be near her means to be fully awake' (Klaus Kinski); Rasputin's gaze, under which St. Petersburg society ladies felt 'fully seen, stripped bare to the core' – 'not a charisma that flatters, but one that penetrates'; Leonardo DiCaprio's role preparation 'without half-measures' – 'the mamba's bite: complete, precise.'; Thea Litschka-Koen, Bill Haast, and Romulus Whitaker, whose decades of relentlessly precise practical engagement with highly venomous snakes differs in its precision from an academic research career in no way – entirely focused on a single law that admits no exception."
+        beleg: "'To be near her means to be fully awake' (Klaus Kinski); Rasputin's gaze, under which St. Petersburg society ladies felt 'fully seen, stripped bare to the core' – 'not a charisma that flatters, but one that penetrates'; Leonardo DiCaprio's role preparation 'without half-measures' – 'the mamba's bite: complete, precise.'; Thea Litschka-Koen, Bill Haast, and Romulus Whitaker, whose decades of relentlessly precise practical engagement with highly venomous snakes differs in its precision from an academic research career in no way – entirely focused on a single law that admits no exception; John the Baptist, whose voice by the Jordan 'left no one indifferent' – people feared him or followed him, a crier one could hardly escape in his presence."
       },
       {
         titel: "Unassuming, withdrawn facade that turns abruptly into uncompromising hardness when integrity is wounded",
@@ -65640,6 +65645,87 @@ function rubenSchriftgelehrterPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-konfuzius", label:"Portrait: Confucius (SO1w2)"},
         {route:"bibel-josef-von-arimathaea", label:"Bible Portrait: Joseph of Arimathea (SE1w9)"},
+        {route:"bibel-johannes-der-taeufer", label:"Bible Portrait: John the Baptist (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesDerTaeuferPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-johannes-der-taeufer-portrait.jpg" alt="John the Baptist – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John the Baptist</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>A voice crying in the wilderness by the Jordan – Animal correspondence: Black Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Animal correspondence: Black Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Prepare the way for the Lord, make straight paths for him." (Matt 3:3)</p>
+
+        <h2 class="vb-section">1. The Black Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual One – it does not bite out of malice, but because it has recognized a threat and gives no second warning. John spoke with a voice that did not argue. It came neither from the head nor the stomach – it came from a depth where judgment and fire meet. He was not a man people liked. They feared him, or they followed him. But no one was indifferent to him.</p>
+          <p class="vb-intro">He wore camel's hair, not out of poverty but by intention. He ate locusts soaked in wild honey – not because he had nothing else, but because he refused abundance, deceit, comfortable self-delusion. He lived outside, geographically and spiritually, beyond the walls of Jerusalem, by the Jordan, where the land was harsher and the heart less distracted. There he stood, day after day, and cried out: "Repent! The axe is already laid to the root!"</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Zeal That Tolerates No Hypocrisy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual One (SX1)</strong> directs its passion for perfection with missionary force at a single cause – for John, purity before God. He was not righteous because he kept every rule, but because he examined them down to their root: what was lived out of comfort, he despised; what came from a genuine hunger for God, he honored, even if clothed in dust and weakness. He could recognize more truth in a tax collector than in a priest with a golden hem.</p>
+          <p class="vb-intro">When a group of Pharisees and Sadducees approached to pass judgment on him, he cried out: "You brood of vipers! Who warned you to flee the coming wrath? Produce fruit in keeping with repentance!" No conversation, no negotiation – the cry of an SX1 who senses a truth trapped beneath self-image and system, and who gives no second warning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Retreat into the Wilderness, Self-Diminishment at the End</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the sexual One a longing for withdrawal, asceticism, and merging with something greater than itself. John knew the impurity within himself not as guilt but as memory – times when his faith was a facade, when his anger served him as a shield. But then he had gone into the wilderness, and there, in the sand, in the silence, in renunciation, his vision had been sharpened.</p>
+          <p class="vb-intro">This wing shows itself most clearly at the end: "He must increase. I must decrease." Not a withdrawal out of disappointment, but surrender – not to a person, but to the calling that had guided him from the start. A One with a Two-wing would struggle for closeness and recognition; the SX1w9 steps back the moment its task is fulfilled, dissolving into what it was called to serve.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Encounter at the Jordan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The morning was cool, the sky grey like unfired clay. John stood in the river, ready as every day, to separate the pure from the false. Then Jesus came – not with fanfare, not with a retinue, but with a stillness greater than any speech. John saw him and knew, not through signs, but through the same voice that had once called him into the wilderness: This is the One.</p>
+          <p class="vb-intro">Jesus stepped to the water and said only: "Baptize me." John drew back: "I should be baptized by you – and you come to me?" His own standard was suddenly called into question. Jesus answered: "Let it be so now. It is proper for us to do this to fulfill all righteousness." John nodded, slowly, as if laying down his sword – led him into the water, submerged him beneath the surface, and raised him back into the light.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Doubt in the Cell</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When Herod had him imprisoned – not out of conviction, but because truth always disturbs when it meets power – doubt came with the darkness. He sent word to ask Jesus: <em>Are you the one who is to come? Or should we expect someone else?</em> Not out of theological interest, but because his heart, which had always burned, was now only embers, and he had to know: was it all in vain?</p>
+          <p class="vb-intro">Jesus's answer came without self-assertion: "Go back and report to John what you see: the blind receive sight, the lame walk, those who have leprosy are cleansed, the deaf hear, the dead are raised, and the good news is proclaimed to the poor." John leaned against the cold wall, closed his eyes – and smiled, for the first time in weeks. He had seen what he was meant to see. He had cried out until it was no longer necessary to cry out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Fire That Withdraws Itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What John leaves behind is a fire that does not circle around itself. He had loved – with a burning heart, imperfectly, but truthfully – and was ready to step back the moment someone greater appeared. This is the gift of the SX1w9: an uncompromising nature that does not lose itself in its own importance, but voluntarily dissolves at the end, because the cause is greater than the one who calls out.</p>
+          <p class="vb-intro">He went to meet his end without bitterness, without recantation, without complaint. The Black Mamba that struck wherever hypocrisy was found, and that withdrew quietly the moment the light it had prepared the way for began to shine on its own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Fire at the Jordan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for John the Baptist, giving his soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/mSDVJQpCVF8?rel=0" title="Fire at the Jordan – John the Baptist" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"bibel-ruben-schriftgelehrter", label:"Bible Portrait: Reuben the Scribe (SO1w2)"},
       ])}
     </div>
   `);
@@ -98152,6 +98238,7 @@ function subtypeSchaubilderPage() {
       "enneagramm-bibel": enneagrammBibelPage,
       "bibel-josef-von-arimathaea": josefVonArimathaeaPage,
       "bibel-ruben-schriftgelehrter": rubenSchriftgelehrterPage,
+      "bibel-johannes-der-taeufer": johannesDerTaeuferPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
