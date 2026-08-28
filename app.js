@@ -35659,6 +35659,10 @@ function openSupportModal() {
 
 document.addEventListener("click", (e) => {
   if (e.target.closest(".support-trigger-btn")) openSupportModal();
+  if (e.target.closest(".wegweiser-premium-open")) {
+    const wegweiserBtn = document.getElementById("wegweiser-btn");
+    if (wegweiserBtn) wegweiserBtn.click();
+  }
 });
 
 
@@ -36005,6 +36009,8 @@ function startPage() {
   const p = state.profile;
   const copy = text.routes.start;
   const firstVisit = state.isFirstVisit;
+  let _wegweiserPremiumActive = false;
+  try { _wegweiserPremiumActive = !!localStorage.getItem("wegweiser-session-token"); } catch (e) {}
 
   const profileGlimpse = !firstVisit ? `
     <div class="first-glimpse">
@@ -36051,11 +36057,17 @@ function startPage() {
 
     <section style="max-width:680px;margin:0 auto 0;padding:0 1rem 0.8rem;">
       <div style="text-align:center;margin-bottom:0.8rem;">
+        ${_wegweiserPremiumActive ? `
+        <button class="wegweiser-premium-open" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
+                  border:1px solid var(--copper,#a5652f);background:var(--copper,#a5652f);color:#fff;
+                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
+          ✨ Premium aktiv – Zum Wegweiser
+        </button>` : `
         <button data-route="wegweiser-premium" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
                   border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
                   font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
           ✨ Wegweiser Premium – Zugriff auf 40+ Bücher entdecken
-        </button>
+        </button>`}
       </div>
       <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
         <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
