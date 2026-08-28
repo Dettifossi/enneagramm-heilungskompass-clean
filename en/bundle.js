@@ -100972,7 +100972,7 @@ setTimeout(showTagesimpuls, 600);
   // Set once the Stripe Payment Link for "Wegweiser Premium" exists (see
   // project notes). Until then, the premium area only shows a notice
   // instead of a purchase link.
-  const STRIPE_PAYMENT_LINK_URL = "";
+  const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/aFa28r34s7Sq51ganp4gg3L";
   const SESSION_TOKEN_KEY = "wegweiser-session-token";
 
   function getSessionToken() {
@@ -101048,15 +101048,27 @@ setTimeout(showTagesimpuls, 600);
       premiumBarEl.appendChild(logout);
     } else {
       const info = document.createElement("span");
-      info.textContent = "Wegweiser Premium: access to all books";
+      info.textContent = "Wegweiser Premium: access to more than 40 books";
       info.style.color = "var(--muted,#886)";
+      const actions = document.createElement("span");
+      actions.style.cssText = "display:flex;gap:0.6rem;flex-shrink:0;";
+      if (STRIPE_PAYMENT_LINK_URL) {
+        const subscribe = document.createElement("a");
+        subscribe.href = STRIPE_PAYMENT_LINK_URL;
+        subscribe.target = "_blank";
+        subscribe.rel = "noopener";
+        subscribe.textContent = "Subscribe";
+        subscribe.style.cssText = "color:var(--copper,#a5652f);text-decoration:underline;font-size:0.76rem;";
+        actions.appendChild(subscribe);
+      }
       const login = document.createElement("button");
       login.type = "button";
       login.textContent = "Log in";
       login.style.cssText = "background:none;border:none;color:var(--copper,#a5652f);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
       login.addEventListener("click", requestMagicLink);
+      actions.appendChild(login);
       premiumBarEl.appendChild(info);
-      premiumBarEl.appendChild(login);
+      premiumBarEl.appendChild(actions);
     }
   }
 
