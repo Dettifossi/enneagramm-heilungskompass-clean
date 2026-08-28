@@ -15866,6 +15866,7 @@ const uiText = {
       { route: "beruehmte-persoenlichkeiten", label: "Berühmte Persönlichkeiten" },
       { route: "kriminalpsychologie", label: "Spannende Kriminalfälle (Kriminalpsychologie)" },
       { route: "krankheitsportraets", label: "Krankheitsporträts" },
+      { route: "enneagramm-bibel", label: "Enneagramm & die Bibel" },
       { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
@@ -32063,6 +32064,14 @@ function setLizenzName(n) { localStorage.setItem(NAME_KEY, n); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
+// Bibel-Portraits \u2013 literarisch-typologische Deutungen biblischer/neutestamentlicher Figuren, aus "27 Gesichter der Seele" von Detlef Rathmer.
+const BIBEL_PORTRAITS = [
+  { route:"bibel-josef-von-arimathaea", name:"Josef von Arimath\u00e4a", added:"2026-08-28", subtyp:"SE1w9",
+    heading:"Josef von Arimath\u00e4a \u2013 Selbsterhaltender Typ 1",
+    teaser:"SE1w9 \u00b7 Ratsherr aus Arimath\u00e4a. Zur\u00fcckgezogen, genau, ein Mann der leisen Schritte \u2013 der nach der Kreuzigung allein und ohne R\u00fcckhalt zu Pilatus geht, um den Leichnam Jesu zu bitten, und ihn mit eigenen H\u00e4nden im eigenen Felsengrab bestattet.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+];
+
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
 const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SE1w2",  heading:"Dennis Nilsen \u2013 Selbsterhaltender Typ 1",                               teaser:"SE1w2 \u2013 'Der M\u00f6rder von Melrose Avenue', geb. 1945. 15 Morde an jungen M\u00e4nnern in London 1978\u20131983. Beamter, Gewerkschaftsaktivist, korrekter Nachbar \u2013 und ein T\u00e4ter, der seine Opfer nach dem Tod wochenlang in seiner Wohnung behielt. Adler-Energie: Kontrolle durch F\u00fcrsorge, Einsamkeit als Mordmotiv. Tierentsprechung: Adler." , land:"Großbritannien", tags:["Serienmord","Missbrauch"], gender:"m"},
@@ -34603,7 +34612,7 @@ const SCHAUBILDER_NEU = {
   "hoellenkreise-dante": "2026-08-14",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -44727,7 +44736,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Adler",
     kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa"],
     fingerabdruecke: [
       {
         titel: "Die Sorge nach innen statt die Welt korrigieren",
@@ -44737,7 +44746,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Stille Präzision ohne Show – der Sturzflug nach langem Kreisen",
         beschreibung: "Die Wirkung entsteht nicht durch Lautstärke oder Selbstdarstellung, sondern durch langes, geduldiges Beobachten, gefolgt von einer einzigen, hochpräzisen Handlung, die keine Wiederholung braucht.",
-        beleg: "›Der Adler beobachtet lange, bevor er handelt … und wenn er schließlich zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht‹ (De Niro); Anthony Hopkins wurde mit nur rund sechzehn Minuten Screentime als Hannibal Lecter oscarprämiert – ›der Adler muss nicht schreien, um gefürchtet zu werden‹; Magnus Carlsens Gegner beschreiben Partien gegen ihn als ›langsames Erdrücken‹; Christoph Waltz wartete fünfzig Jahre auf seine Rolle bei Tarantino: ›Der Adler hatte geduldig gekreist. Dann schlug er zu.‹; Joseph Aoun warb im Vorfeld seiner Präsidentschaftswahl in keinem einzigen öffentlichen Forum für sich und klapperte keine Fraktion ab – vierzig Jahre stiller Militärdienst, dann durch einen einzigen, überparteilichen Vertrauensvorschuss ins höchste Staatsamt gehoben."
+        beleg: "›Der Adler beobachtet lange, bevor er handelt … und wenn er schließlich zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht‹ (De Niro); Anthony Hopkins wurde mit nur rund sechzehn Minuten Screentime als Hannibal Lecter oscarprämiert – ›der Adler muss nicht schreien, um gefürchtet zu werden‹; Magnus Carlsens Gegner beschreiben Partien gegen ihn als ›langsames Erdrücken‹; Christoph Waltz wartete fünfzig Jahre auf seine Rolle bei Tarantino: ›Der Adler hatte geduldig gekreist. Dann schlug er zu.‹; Joseph Aoun warb im Vorfeld seiner Präsidentschaftswahl in keinem einzigen öffentlichen Forum für sich und klapperte keine Fraktion ab – vierzig Jahre stiller Militärdienst, dann durch einen einzigen, überparteilichen Vertrauensvorschuss ins höchste Staatsamt gehoben; Josef von Arimathäa, ein Mann der leisen Schritte, der Jesus einmal zuhörte, nie öffentlich für ihn eintrat – und nach dessen Tod ohne Zögern allein zu Pilatus ging, um mit einer einzigen, unumkehrbaren Handlung das zu tun, was kein anderer wagte."
       },
       {
         titel: "Jahrzehntelange Beharrlichkeit trotz Rückschlägen, bevor der Durchbruch kommt",
@@ -45854,6 +45863,7 @@ function ludwigWittgensteinPortraitPage() {
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"krankheitsportraets-ludwig-wittgenstein", label:"Krankheitsporträt: Ludwig Wittgenstein (SE1w9)"},
+        {route:"bibel-josef-von-arimathaea", label:"Bibel-Porträt: Josef von Arimathäa (SE1w9)"},
       ])}
     </div>
   `);
@@ -93479,6 +93489,143 @@ function johnHinckleyJrPortraitPage() {
   `);
 }
 
+function enneagrammBibelPage() {
+  const items = BIBEL_PORTRAITS;
+  const cards = items.map(p => {
+    const typ = parseInt((p.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
+    const farbe = typeColor(typ);
+    const subtypCode = (p.subtyp || "").substring(0, 3).toUpperCase();
+    const tierKey = subtypCode.toLowerCase();
+    const tierImg = tierKey ? `https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg` : "";
+    return `
+      <button class="tool-card--link kh-card" data-route="${p.route}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+        <div style="display:flex;gap:0.9rem;align-items:flex-start;">
+          ${tierImg ? `<span style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${farbe};margin-top:0.15rem;"><img src="${tierImg}" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(tierKey)};left:${tierAvatarLeft(tierKey)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" /></span>` : ""}
+          <div style="flex:1;min-width:0;">
+            <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
+              <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
+              <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
+            </div>
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
+          </div>
+        </div>
+      </button>
+    `;
+  }).join("");
+
+  const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p + n));
+  const registerBox = `
+    <div style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">
+      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Die 27 Subtypen (nach und nach vervollständigt)</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">
+        ${allCodes.map(code => {
+          const n = parseInt(code.slice(-1));
+          const col = TYPE_COLORS[n] || "var(--copper)";
+          const tierKey = code.toLowerCase();
+          const match = items.find(p => (p.subtyp || "").toUpperCase().startsWith(code));
+          const has = !!match;
+          return has
+            ? `<a href="javascript:void(0)" data-route="${match.route}"
+                style="display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .6rem .25rem .3rem;border-radius:6px;border:1.5px solid ${col};font-size:0.8rem;font-weight:700;color:${col};background:var(--bg);text-decoration:none;opacity:0.95;">
+                <span style="position:relative;width:18px;height:18px;border-radius:50%;overflow:hidden;flex-shrink:0;display:inline-block;box-shadow:0 0 0 1.5px ${col};">
+                  <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+                </span>${code}</a>`
+            : `<span style="display:inline-flex;align-items:center;padding:.25rem .6rem;border-radius:6px;border:1.5px dashed ${col};font-size:0.8rem;font-weight:700;color:${col};opacity:0.35;">${code}</span>`;
+        }).join("")}
+      </div>
+    </div>
+  `;
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Enneagramm &amp; die Bibel</h1>
+      <p class="psycho-intro">27 Figuren aus dem Umfeld Jesu – eine für jeden der 27 Subtypen –, literarisch und psychologisch gedeutet nach ihrem Enneagramm-Muster. Die Texte stammen aus <em>»27 Gesichter der Seele«</em> von Detlef Rathmer und werden hier Kapitel für Kapitel für den Kompass aufbereitet, jeweils mit einem eigens komponierten Song zur Figur.</p>
+      <p class="psycho-intro" style="font-size:0.88rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:0.8rem 1rem;border-radius:8px;">
+        <strong>Wichtiger Hinweis zur Einordnung:</strong> Anders als bei den Rubriken »Berühmte Persönlichkeiten« oder »Krankheitsporträts« handelt es sich hier nicht um historisch lückenlos dokumentierte Biografien. Die neutestamentlichen Figuren sind literarisch-typologisch gedeutet – auf Basis der überlieferten Erzählungen, mit den Mitteln der freien, aber am Text orientierten Nacherzählung. Manche der Figuren sind historisch umstritten oder unsicher belegt. Die Illustrationen sind KI-generierte, bewusst fiktive Darstellungen – niemand weiß, wie diese Menschen tatsächlich aussahen.
+      </p>
+      ${registerBox}
+      <div style="max-width:640px;margin-top:1rem;">
+        ${cards}
+      </div>
+
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+        {route:"krankheitsportraets", label:"Krankheitsporträts"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+function josefVonArimathaeaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-josef-von-arimathaea-portrait.jpg" alt="Josef von Arimathäa – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Josef von Arimathäa</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Ratsherr aus Arimathäa – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Dein Vater, der ins Verborgene sieht, wird es dir vergelten.« (Mt 6,6)</p>
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Einzelgänger, der nicht durch Auftritt auffällt, sondern durch Genauigkeit. Josef von Arimathäa liebte den Morgen – nicht den, an dem alles erblühte, sondern den unscheinbaren, in Grautönen, der noch keine Entscheidung forderte. Er war wach, bevor der Tag Licht zeigte. Immer. Die erste Handlung: Wasser schöpfen aus der Schale, nicht hastig, nicht zögerlich – ein kleines Ritual, das niemand sah, aber alles in Ordnung brachte.</p>
+          <p class="vb-intro">Er war ein Mann der leisen Schritte, den man nicht durch Auftritt, sondern durch Genauigkeit erinnerte. Er lebte allein – nicht aus Einsamkeit, sondern aus Klugheit. Gesellschaft brachte Unruhe, Lärm, Versäumnisse: ein Gast, der den Krug nie wieder an den Ort zurückstellte, wo er vorher gestanden hatte. Für Josef war Ordnung kein Zwang, sondern Respekt – eine stille Verneigung vor dem Leben, der Unterschied zwischen Unachtsamkeit und Würde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Würde als stiller Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Perfektionsanspruch nicht nach außen, sondern nach innen. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis: die ständige innere Frage, ob man dem eigenen Maßstab wirklich gerecht wird. Josef war kein Mann, der andere korrigierte. Er ordnete nicht die Welt, sondern sich selbst, Tag für Tag, Schritt für Schritt – jede Schriftrolle sorgfältig gebündelt, jede Markierung nicht für andere gesetzt, sondern für ihn selbst.</p>
+          <p class="vb-intro">Diese innere Strenge zeigte sich, als die Nachricht von Jesu Tod ihn erreichte. Ein Gekreuzigter galt nach dem Gesetz als unrein, verflucht – und ausgerechnet zur neunten Stunde, kurz vor dem Rüsttag, an dem ein Jude nichts Unreines mehr anfassen durfte. Josef spürte, wie das Gesetz in dieser Stunde klein wurde – nicht falsch, aber zu eng für das, was jetzt Wahrheit war. Kein lauter Bruch mit der Tradition, sondern die stille, unerbittliche Gewissheit einer Eins, die weiß, wann der eigene innere Maßstab höher steht als die äußere Regel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Zurückhaltung, die im entscheidenden Moment weicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins eine Sehnsucht nach Frieden, Rückzug und Konfliktvermeidung. Josef war kein politischer Mensch. Er kannte die Mechanismen der Macht, ihre Sprache, ihre Maske – und hatte gelernt, mit Vorsicht zu sprechen, wenn es um Rom ging. Ein Mann, der sich nicht in die Debatten um Jesus verwickeln ließ, der kein Wunder öffentlich bezeugte, sondern einmal, nur einmal, zuhörte – nicht wegen eines Satzes, sondern wegen einer Pause, in der plötzlich alles still wurde, weil der Sprechende wusste, was er sagte.</p>
+          <p class="vb-intro">Doch als es darauf ankam, trat genau dieser zurückhaltende Mann vor Pilatus – ohne Taktik, ohne Rückendeckung des Hohen Rats, der sich bereits zurückgezogen hatte. »Ich bitte nicht um seine Botschaft. Ich bitte um seinen Körper.« Das ist die stille Kraft der SE1w9: Sie sucht den Streit nicht, aber wenn eine Sache das eigene, unverhandelbare Gewissen berührt, verlässt sie ihre Zurückhaltung – einmalig, entschlossen, ohne Umwege.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Tat: Vor Pilatus und das eigene Grab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Josef ging zu Pilatus, ohne zu essen, ohne einen Knecht, ohne ein Wort zu viel. Pilatus gab nach: »Nehmt ihn. Aber sorgt dafür, dass es schnell geschieht.« Josef trug das mitgebrachte Leinentuch – das bestbewahrte, das er sich einst für besondere Anlässe oder, in stillen Gedanken, für sich selbst aufgehoben hatte – zusammen mit einem Gefäß Myrrhe zum Hügel Golgatha. Er reinigte das Gesicht, salbte Stirn und Hände, wickelte den Körper sorgfältig ein: Du bist gesehen. Du wirst nicht im Vergessen enden.</p>
+          <p class="vb-intro">Das Grab, in das er Jesus bettete, war ein Felsengrab, das Josef einst für sich selbst hatte ausheben lassen – ruhig, lichtgeschützt, von Kräutern umgeben. Ein Platz der Würde, der an diesem Tag seinem Namen gerecht wurde. Er trat zurück, die Hände gefaltet, nicht im Gebet, sondern in Dankbarkeit – nicht für das Geschehene, sondern dafür, dass er nicht gezögert hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Nachhall: Das innere Gesetz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Nacht danach konnte Josef nicht schlafen – nicht aus Zweifel, sondern weil sein Innerstes weiterdachte. Er hatte getan, was kein anderer getan hatte, und empfand doch keinen Stolz. Er war kein Mystiker, kein Prophet. Er glaubte an das, was sichtbar ist – aber er spürte, dass sich hier etwas Unsichtbares ereignet hatte, jenseits von Gesetz, Ritus und Rollen.</p>
+          <p class="vb-intro">In dieser Nacht spürte er vielleicht zum ersten Mal: Nicht alles muss verstanden werden. Manches muss nur getan werden – im Stillen, im Verborgenen, im Vertrauen darauf, dass das Richtige seinen eigenen Klang hat. Das ist das Geschenk der SE1w9: eine Würde, die keine Bühne braucht, um wahr zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Lied: In stiller Hand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Josef von Arimathäa ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht. Eine Erzählfassung der Geschichte gibt es zudem als <a href="https://youtu.be/cQ0n_sZimJU" target="_blank" rel="noopener">Video auf YouTube</a>.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/dKofTwCmedc?rel=0" title="In stiller Hand – Josef von Arimathäa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function kriminalpsychologiePage() {
   const allInst = ["SE","SO","SX"];
   const allTyp  = [1,2,3,4,5,6,7,8,9];
@@ -133611,6 +133758,8 @@ function render() {
       "beruehmte-pharrell-williams": pharrellWilliamsPortraitPage,
       "beruehmte-bella-thorne": bellaThornePage,
       "kriminalpsychologie": kriminalpsychologiePage,
+      "enneagramm-bibel": enneagrammBibelPage,
+      "bibel-josef-von-arimathaea": josefVonArimathaeaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

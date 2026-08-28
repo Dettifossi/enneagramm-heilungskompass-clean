@@ -93,6 +93,13 @@ function hasBasis()      { const t = getTier(); return t === "basis" || t === "h
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 
 // Zentrales Portraits-Register – neue Zeile hier → Übersicht, Table of Contents und Leseprobe aktualisieren sich automatisch.
+const BIBEL_PORTRAITS = [
+  { route:"bibel-josef-von-arimathaea", name:"Joseph of Arimathea", added:"2026-08-28", subtyp:"SE1w9",
+    heading:"Joseph of Arimathea – Self-Preservation Type 1",
+    teaser:"SE1w9 · Council member from Arimathea. Withdrawn, precise, a man of quiet steps – who, after the crucifixion, alone and without backing, goes to Pilate to ask for Jesus's body, and buries him with his own hands in his own rock-hewn tomb.",
+    land:"Judea", tags:["Bible"], gender:"m"},
+];
+
 const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-dennis-nilsen",        name:"Dennis Nilsen",                       subtyp:"SE1w2",  heading:"Dennis Nilsen – Self-Preservation Type 1",                               teaser:"SP1w2 – 'The Killer of Melrose Avenue', born 1945. 15 murders of young men in London 1978–1983. Civil servant, trade union activist, correct neighbor – and a perpetrator who kept his victims in his apartment for weeks after death. Eagle energy: control through care, loneliness as murder motive. Animal correspondence: Eagle." , land:"United Kingdom", tags:["Serienmord","Missbrauch"], gender:"m"},
   { route:"kriminalpsychologie-dorothea-puente",     name:"Dorothea Puente",                     subtyp:"SE1w2",  heading:"Dorothea Puente – Self-Preservation Type 1",                              teaser:"SP1w2 – 'The Landlady of Death', 1929–2011. At least 9 murders of seniors and disabled persons in Sacramento, 1982–1988. Operator of a boarding house, community benefactress – and a perpetrator who buried her victims in the garden and collected their social security checks. Eagle energy: moral order as facade, care as control. Animal correspondence: Eagle." , land:"USA", tags:["Serienmord"], gender:"f"},
@@ -2575,7 +2582,7 @@ const SCHAUBILDER_NEU = {
   "enneagramm-intellekt": "2026-08-08",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -2710,6 +2717,7 @@ text.nav = [
     { route: "knowledge", label: "Knowledge Base" },
     { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
     { route: "kriminalpsychologie", label: "Fascinating Criminal Cases (Criminal Psychology)" },
+    { route: "enneagramm-bibel", label: "Enneagram & the Bible" },
     { route: "krankheitsportraets", label: "Illness Portraits" },
     { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
@@ -29347,6 +29355,7 @@ function ludwigWittgensteinPortraitPage() {
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"krankheitsportraets-ludwig-wittgenstein", label:"Illness Portrait: Ludwig Wittgenstein (SE1w9)"},
+        {route:"bibel-josef-von-arimathaea", label:"Bible Portrait: Joseph of Arimathea (SE1w9)"},
       ])}
     </div>
   `);
@@ -44937,7 +44946,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
@@ -44947,7 +44956,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Quiet precision without a show – the dive after a long circling",
         beschreibung: "The effect arises not through volume or self-display, but through long, patient observation, followed by a single, highly precise action that needs no repetition.",
-        beleg: "'The eagle watches for a long time before acting ... and when it finally strikes, it does so with an accuracy that needs no repetition' (De Niro); Anthony Hopkins won an Oscar for just about sixteen minutes of screen time as Hannibal Lecter – 'the eagle doesn't need to scream to be feared'; Magnus Carlsen's opponents describe games against him as 'slow suffocation'; Christoph Waltz waited fifty years for his role with Tarantino: 'The eagle had circled patiently. Then it struck.'; Joseph Aoun campaigned in no public forum whatsoever ahead of his presidential election and made the rounds of no faction – forty years of quiet military service, then lifted into the nation's highest office by a single, cross-factional vote of confidence."
+        beleg: "'The eagle watches for a long time before acting ... and when it finally strikes, it does so with an accuracy that needs no repetition' (De Niro); Anthony Hopkins won an Oscar for just about sixteen minutes of screen time as Hannibal Lecter – 'the eagle doesn't need to scream to be feared'; Magnus Carlsen's opponents describe games against him as 'slow suffocation'; Christoph Waltz waited fifty years for his role with Tarantino: 'The eagle had circled patiently. Then it struck.'; Joseph Aoun campaigned in no public forum whatsoever ahead of his presidential election and made the rounds of no faction – forty years of quiet military service, then lifted into the nation's highest office by a single, cross-factional vote of confidence; Joseph of Arimathea, a man of quiet steps, who once listened to Jesus but never advocated for him publicly – and after his death went alone to Pilate without hesitation, performing with a single, irreversible act what no one else dared to do."
       },
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
@@ -65402,6 +65411,143 @@ function johnHinckleyJrPortraitPage() {
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">← Back to Criminal Psychology Overview</button>
       </div>
+    </div>
+  `);
+}
+
+function enneagrammBibelPage() {
+  const items = BIBEL_PORTRAITS;
+  const cards = items.map(p => {
+    const typ = parseInt((p.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
+    const farbe = typeColor(typ);
+    const subtypCode = (p.subtyp || "").substring(0, 3).toUpperCase();
+    const tierKey = subtypCode.toLowerCase();
+    const tierImg = tierKey ? `https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg` : "";
+    return `
+      <button class="tool-card--link kh-card" data-route="${p.route}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+        <div style="display:flex;gap:0.9rem;align-items:flex-start;">
+          ${tierImg ? `<span style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${farbe};margin-top:0.15rem;"><img src="${tierImg}" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(tierKey)};left:${tierAvatarLeft(tierKey)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" /></span>` : ""}
+          <div style="flex:1;min-width:0;">
+            <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
+              <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
+              <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
+            </div>
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
+          </div>
+        </div>
+      </button>
+    `;
+  }).join("");
+
+  const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p + n));
+  const registerBox = `
+    <div style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">
+      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">The 27 subtypes (filled in gradually)</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">
+        ${allCodes.map(code => {
+          const n = parseInt(code.slice(-1));
+          const col = TYPE_COLORS[n] || "var(--copper)";
+          const tierKey = code.toLowerCase();
+          const match = items.find(p => (p.subtyp || "").toUpperCase().startsWith(code));
+          const has = !!match;
+          return has
+            ? `<a href="javascript:void(0)" data-route="${match.route}"
+                style="display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .6rem .25rem .3rem;border-radius:6px;border:1.5px solid ${col};font-size:0.8rem;font-weight:700;color:${col};background:var(--bg);text-decoration:none;opacity:0.95;">
+                <span style="position:relative;width:18px;height:18px;border-radius:50%;overflow:hidden;flex-shrink:0;display:inline-block;box-shadow:0 0 0 1.5px ${col};">
+                  <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+                </span>${code}</a>`
+            : `<span style="display:inline-flex;align-items:center;padding:.25rem .6rem;border-radius:6px;border:1.5px dashed ${col};font-size:0.8rem;font-weight:700;color:${col};opacity:0.35;">${code}</span>`;
+        }).join("")}
+      </div>
+    </div>
+  `;
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Enneagram &amp; the Bible</h1>
+      <p class="psycho-intro">27 figures from Jesus's circle – one for each of the 27 subtypes – interpreted literarily and psychologically according to their Enneagram pattern. The texts are drawn from <em>»27 Faces of the Soul«</em> by Detlef Rathmer and are being adapted chapter by chapter for the Compass, each with a specially composed song about the figure.</p>
+      <p class="psycho-intro" style="font-size:0.88rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:0.8rem 1rem;border-radius:8px;">
+        <strong>Important note on classification:</strong> Unlike the "Famous Personalities" or "Illness Portraits" sections, these are not exhaustively documented historical biographies. The New Testament figures are interpreted literarily and typologically – based on the received narratives, using free but text-oriented retelling. Some figures are historically contested or uncertainly attested. The illustrations are AI-generated, deliberately fictional depictions – no one knows how these people actually looked.
+      </p>
+      ${registerBox}
+      <div style="max-width:640px;margin-top:1rem;">
+        ${cards}
+      </div>
+
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"},
+        {route:"krankheitsportraets", label:"Illness Portraits"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
+function josefVonArimathaeaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-josef-von-arimathaea-portrait.jpg" alt="Joseph of Arimathea – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joseph of Arimathea</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Council member from Arimathea – Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Your Father, who sees in secret, will reward you." (Matt 6:6)</p>
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the Self-Preservation One – a loner who stands out not through display, but through precision. Joseph of Arimathea loved the morning – not the one in which everything blossomed, but the unremarkable one, in grey tones, that demanded no decision yet. He was awake before the day showed light. Always. His first act: drawing water from the basin, neither hastily nor hesitantly – a small ritual no one saw, but that set everything in order.</p>
+          <p class="vb-intro">He was a man of quiet steps, remembered not for making an entrance but for exactness. He lived alone – not out of loneliness, but out of wisdom. Company brought unrest, noise, oversights: a guest who never put the jug back where it had stood before. For Joseph, order was not compulsion but respect – a silent bow before life, the difference between carelessness and dignity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Dignity as a Quiet Standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> carries its demand for perfection not outward, but inward. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one truly lives up to one's own standard. Joseph was not a man who corrected others. He did not order the world, but himself, day by day, step by step – every scroll carefully bundled, every marking set not for others, but for himself.</p>
+          <p class="vb-intro">This inner rigor showed when news of Jesus's death reached him. Under the law, a crucified man was unclean, cursed – and this at the ninth hour, just before the eve of the Sabbath, when a Jew was forbidden to touch anything unclean. Joseph felt the law grow small in that hour – not wrong, but too narrow for what was now truth. No loud break with tradition, but the quiet, unyielding certainty of a One who knows when one's own inner standard stands higher than the outer rule.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Restraint That Yields at the Decisive Moment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Self-Preservation One a longing for peace, withdrawal, and conflict avoidance. Joseph was no political man. He knew the mechanisms of power, their language, their mask – and had learned to speak with caution where Rome was concerned. A man who did not get drawn into the debates about Jesus, who bore public witness to no miracle, but once, only once, listened – not because of a sentence, but because of a pause in which everything suddenly fell silent, because the speaker knew what he was saying.</p>
+          <p class="vb-intro">Yet when it mattered, this very reticent man stepped before Pilate – without tactics, without the backing of the Sanhedrin, which had already withdrawn. "I do not ask for his message. I ask for his body." This is the quiet strength of the SE1w9: it does not seek conflict, but when a matter touches its own, non-negotiable conscience, it leaves its restraint behind – once, decisively, without detours.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Deed: Before Pilate and His Own Tomb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Joseph went to Pilate without eating, without a servant, without a word too many. Pilate relented: "Take him. But see that it is done quickly." Joseph carried the linen cloth he had brought – his best-kept one, once set aside for special occasions or, in quiet thought, for himself – together with a vessel of myrrh, to the hill of Golgotha. He cleaned the face, anointed forehead and hands, wrapped the body with care: You are seen. You will not end in forgetting.</p>
+          <p class="vb-intro">The tomb in which he laid Jesus was a rock-hewn grave Joseph had once had cut for himself – quiet, shaded, surrounded by herbs. A place of dignity that, on this day, lived up to its name. He stepped back, hands folded, not in prayer but in gratitude – not for what had happened, but for the fact that he had not hesitated.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Aftermath: The Inner Law</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That night Joseph could not sleep – not out of doubt, but because his innermost self kept thinking. He had done what no one else had done, and yet felt no pride. He was no mystic, no prophet. He believed in what is visible – but he sensed that something invisible had occurred here, beyond law, ritual, and roles.</p>
+          <p class="vb-intro">That night he perhaps sensed, for the first time: not everything must be understood. Some things must simply be done – quietly, in secret, trusting that the right thing has its own sound. That is the gift of the SE1w9: a dignity that needs no stage to be true.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Song: In Silent Hands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Joseph of Arimathea, giving his soul's voice a sound. A narrated version of the story is also available as a <a href="https://youtu.be/cQ0n_sZimJU" target="_blank" rel="noopener">video on YouTube</a>.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/dKofTwCmedc?rel=0" title="In Silent Hands – Joseph of Arimathea" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
+      ])}
     </div>
   `);
 }
@@ -97910,6 +98056,8 @@ function subtypeSchaubilderPage() {
       "beruehmte-will-smith": willSmithPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "kriminalpsychologie": kriminalpsychologiePage,
+      "enneagramm-bibel": enneagrammBibelPage,
+      "bibel-josef-von-arimathaea": josefVonArimathaeaPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
