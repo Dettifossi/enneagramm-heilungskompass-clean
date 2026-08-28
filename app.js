@@ -32070,6 +32070,10 @@ const BIBEL_PORTRAITS = [
     heading:"Josef von Arimath\u00e4a \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w9 \u00b7 Ratsherr aus Arimath\u00e4a. Zur\u00fcckgezogen, genau, ein Mann der leisen Schritte \u2013 der nach der Kreuzigung allein und ohne R\u00fcckhalt zu Pilatus geht, um den Leichnam Jesu zu bitten, und ihn mit eigenen H\u00e4nden im eigenen Felsengrab bestattet.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-ruben-schriftgelehrter", name:"Ruben, der Schriftgelehrte", added:"2026-08-28", subtyp:"SO1w2",
+    heading:"Ruben, der Schriftgelehrte \u2013 Sozialer Typ 1",
+    teaser:"SO1w2 \u00b7 Schriftgelehrter in dritter Generation. Gesetzesw\u00e4chter, der Jesus \u00f6ffentlich im Tempelhof zur Rede stellt \u2013 und nach dessen Tod beginnt, das Gesetz nicht mehr nur nach Richtigkeit, sondern nach Barmherzigkeit zu lesen.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44709,12 +44713,12 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Gans",
     kernthema: "Wachsame Verantwortung für die Ordnung der Gemeinschaft statt für sich allein",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Konfuzius (Kong Fuzi)", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Konfuzius (Kong Fuzi)", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Ruben, der Schriftgelehrte"],
     fingerabdruecke: [
       {
         titel: "Wachsame, unbestechliche Ordnungshüter-Haltung, die bei Verletzung abrupt hart reagiert",
         beschreibung: "Nach außen wirkt die Haltung diszipliniert, bürgerlich, unauffällig kontrolliert. Doch sobald die eigene Ordnung oder ein als gerecht empfundenes Prinzip verletzt wird, folgt eine entschiedene, oft überraschend harte Reaktion – ohne Drama, aber ohne Kompromiss.",
-        beleg: "›Die Gans ist tief territorial. Sie zögert nicht. Sie greift entschieden an, wenn sie das Gefühl hat, dass ihre Ordnung verletzt wird‹ (Ted Bundy); Friedrich Merz: ›Er sagt, was er denkt … Die Gans weicht nicht aus, wenn sie überzeugt ist, das Richtige zu tun‹; Xanthippe und Adam Smith werden beide fast wortgleich als ›wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht‹ beschrieben; Ursula von der Leyen ›steht Wache, meldet jede Störung laut, verteidigt ihr Territorium notfalls mit Bissen‹."
+        beleg: "›Die Gans ist tief territorial. Sie zögert nicht. Sie greift entschieden an, wenn sie das Gefühl hat, dass ihre Ordnung verletzt wird‹ (Ted Bundy); Friedrich Merz: ›Er sagt, was er denkt … Die Gans weicht nicht aus, wenn sie überzeugt ist, das Richtige zu tun‹; Xanthippe und Adam Smith werden beide fast wortgleich als ›wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht‹ beschrieben; Ursula von der Leyen ›steht Wache, meldet jede Störung laut, verteidigt ihr Territorium notfalls mit Bissen‹; Ruben, der Schriftgelehrte, der Jesus mitten im Tempelhof öffentlich zur Rede stellte, weil er als Wächter der Ordnung jede öffentliche Rede für prüfungspflichtig hielt."
       },
       {
         titel: "Verantwortung für das Kollektiv statt Einzelkämpfertum – Formation statt Solo",
@@ -65937,6 +65941,7 @@ function konfuziusPortraitPage() {
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-laozi", label:"Portr\u00e4t: Laotse (Laozi) (SE9w1)"},
         {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SX5w4)"},
+        {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Portr\u00e4t: Ruben, der Schriftgelehrte (SO1w2)"},
       ])}
     </div>
   `);
@@ -93548,7 +93553,7 @@ function enneagrammBibelPage() {
       <div style="max-width:640px;margin-top:1rem;">
         ${cards}
       </div>
-      ${bookTip("27-gesichter-der-seele", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
 
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
@@ -93620,7 +93625,7 @@ function josefVonArimathaeaPage() {
         </blockquote>
 
       </div>
-      ${bookTip("27-gesichter-der-seele", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die Grundlage dieser Rubrik als vollständiger psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die Grundlage dieser Rubrik als vollständiger psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
@@ -93628,6 +93633,86 @@ function josefVonArimathaeaPage() {
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
+        {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Porträt: Ruben, der Schriftgelehrte (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function rubenSchriftgelehrterPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-ruben-schriftgelehrter-portrait.jpg" alt="Ruben, der Schriftgelehrte – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ruben, der Schriftgelehrte</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Schriftgelehrter in dritter Generation – Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Sie binden schwere Lasten und legen sie den Menschen auf die Schultern, wollen sie aber selbst nicht mit einem Finger anrühren.« (Mt 23,4)</p>
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – ein Tier, das im Verband fliegt, die Formation hält und mit lauter, unnachgiebiger Stimme darauf besteht, dass alle in derselben Ordnung bleiben. Ruben liebte den Klang der Morgengebete – nicht weil sie ihn berührten, sondern weil sie ihn erinnerten: an die Ordnung, an die jahrhundertealte Linie, in die er sich eingereiht hatte wie ein wohlgesetzter Buchstabe in einer Rolle heiliger Schrift. Er war Schriftgelehrter in dritter Generation. Sein Vater hatte die Psalmen auswendig gekannt, sein Großvater in Masada die Gesetze kopiert, als wären sie göttliche Musik.</p>
+          <p class="vb-intro">Sein Haus war schlicht, aber diszipliniert: Die Bücher lagen gestapelt nach Alter und Bedeutung, jede Ecke gewischt, der Ölkrug hatte einen festen Platz. Ordnung war für Ruben kein Konzept, sondern Verpflichtung – ein heiliger Rhythmus, den man nicht hinterfragte, sondern weitergab und bewahrte, gegen die Willkür, gegen das Chaos der Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Ordnung als Rettung der Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Vollkommenheitsanspruch nicht wie die selbsterhaltende Eins nach innen, sondern nach außen, auf die Gesellschaft: Wenn jeder das Richtige täte, wäre die Welt heil. Am Markttor begegnete Ruben einem Kind, das Fisch und Brot fallen ließ. Statt nur zu trösten, urteilte er sofort mit fachkundiger Präzision, welches Stück nach dem Reinheitsgebot noch zu retten war und welches nicht. Er war ein Mann, der half – aber durch Vorschrift, nicht durch bloßes Mitgefühl.</p>
+          <p class="vb-intro">Als Jesus im Tempelhof lehrte, trat Ruben nicht aus Neugier näher, sondern aus einem inneren Reflex: <em>Etwas stimmt nicht.</em> Wer öffentlich spricht, muss geprüft werden. Er stellte sich vor die Menge und forderte Rechenschaft: »Warum achtest du das Gesetz nicht wie unsere Väter?« Der Ton, den er anschlug, war nicht der eines Suchenden, sondern der einer Forderung – die soziale Eins, die glaubt, dass Regeln den Menschen tragen, und die sich verpflichtet fühlt, das öffentlich einzufordern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Der Lehrer, der über die Vorschrift hinaus berührt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Eins eine persönliche, zuwendende Note: Sie korrigiert nicht aus der Distanz, sondern im direkten Gespräch, im Unterrichten von Schülern, im Zuhören. Ruben war Lehrer in dritter Generation – jemand, der jungen Männern beibrachte, wie man Opfer richtig darbringt, wie man betet, wie viele Schritte man am Sabbat gehen darf. Seine Strenge war nie anonym; sie richtete sich immer an ein konkretes Gegenüber.</p>
+          <p class="vb-intro">Genau diese Zuwendung wurde später zu seinem Wendepunkt: Als ein alter Schüler ihn fragte, ob eine weinende, betende Frau dadurch unrein werde, antwortete Ruben nicht mehr mit einem Verweis auf das Gesetz, sondern persönlich, warm: »Wenn sie weint, weil sie geliebt hat – dann ist sie reiner, als viele, die nie berührt wurden.« Der Zweierflügel, der die Regel durch die Beziehung hindurch neu lesen lernt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Begegnung: »Du überliest das Herz«</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus antwortete auf Rubens öffentliche Zurechtweisung nicht mit Gegenangriff, sondern mit einem einzigen, leise gesprochenen Satz: »Du liest die Schrift. Aber du überliest das Herz.« Er traf Ruben wie ein Stein – nicht theologisch, sondern persönlich. Denn wenn Jesus recht hatte, war alles, wofür Ruben sich seit Jahren verzehrt hatte, nicht falsch, aber unvollständig.</p>
+          <p class="vb-intro">In der Stille danach erinnerte sich Ruben an die Krankheit seines Bruders, an den frühen Tod seiner Mutter – Schmerz, der sich nie in Trauer entladen hatte, sondern in Disziplin verwandelt worden war: Wenn ich alles richtig mache, wird nichts mehr zerbrechen. Das Gesetz hatte ihn gehalten wie ein Gerüst den Stein. Jetzt stellte ein einziger Satz nicht das Gesetz infrage, sondern Rubens Verhältnis dazu: Was, wenn die Vorschrift ein Mittel war – und nicht das Ziel?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Kreuzigung und die stille Wahrhaftigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als die Nachricht von der Kreuzigung kam, ging Ruben nicht zum Richtplatz. Er blieb in seinem Haus, saß auf dem Boden – nicht aus Trauer, sondern weil sein Körper keine andere Haltung fand. <em>Was, wenn wir ihn verkannt haben?</em> Der Gedanke war leise, aber da. Er dachte an Jesu Satz über die Lasten, die man anderen aufbürdet, ohne sie selbst zu tragen – ein Satz, der ihn damals wütend gemacht hatte und ihn jetzt nur noch still machte.</p>
+          <p class="vb-intro">Zum ersten Mal in seinem Leben fragte er sich: Ist das Maß, das ich für andere anlege, wirklich dasselbe, das ich für mich selbst verwende? Kein Urteil – der Anfang einer Wahrhaftigkeit, die nicht sprach, sondern horchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Das Gesetz mit anderen Augen lesen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den Tagen danach kehrte Ruben nicht in den Tempelhof zurück, um zu lehren. Er wurde leiser – nicht schwächer, sondern weicher im Blick. Er begann, das Gesetz neu zu lesen: nicht weniger genau, aber mit der Frage, was ein Gebot eigentlich bewahren, wovor es schützen soll. <em>Das Gesetz ohne Barmherzigkeit ist ein Messer ohne Griff.</em> Das ist das Geschenk der SO1w2: eine Strenge, die durch Zuwendung hindurch lernt, dass die Regel dem Menschen dienen muss – nicht umgekehrt.</p>
+          <p class="vb-intro">Ruben sah Jesus nie wieder. Aber ein Blick blieb ihm im Sinn, nicht streng, nicht weich, sondern durchdringend und still: <em>Sieh nicht nur, was geschrieben steht. Sieh, was es dir zeigen will.</em> Der Schriftgelehrte, der Gesetzeswächter, der öffentliche Mahner begann, innerlich neu zu schreiben – nicht an den Tafeln des Gesetzes, sondern an der stillsten Stelle seines Herzens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Zwischen Gesetz und Gnade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Ruben, dem Schriftgelehrten, ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/XOKO4asfeI8?rel=0" title="Zwischen Gesetz und Gnade – Ruben, der Schriftgelehrte" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-konfuzius", label:"Portrait: Konfuzius (SO1w2)"},
+        {route:"bibel-josef-von-arimathaea", label:"Bibel-Porträt: Josef von Arimathäa (SE1w9)"},
       ])}
     </div>
   `);
@@ -133767,6 +133852,7 @@ function render() {
       "kriminalpsychologie": kriminalpsychologiePage,
       "enneagramm-bibel": enneagrammBibelPage,
       "bibel-josef-von-arimathaea": josefVonArimathaeaPage,
+      "bibel-ruben-schriftgelehrter": rubenSchriftgelehrterPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
