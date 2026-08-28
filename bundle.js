@@ -93540,7 +93540,7 @@ function enneagrammBibelPage() {
     <div class="page-container">
       ${pageHeader("enneagramm-bibel")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Enneagramm im Spiegel des Neuen Testaments</h1>
-      <p class="psycho-intro">27 Figuren aus dem Umfeld Jesu – eine für jeden der 27 Subtypen –, literarisch und psychologisch gedeutet nach ihrem Enneagramm-Muster. Die Texte stammen aus <em>»27 Gesichter der Seele«</em> von Detlef Rathmer und werden hier Kapitel für Kapitel für den Kompass aufbereitet, jeweils mit einem eigens komponierten Song zur Figur.</p>
+      <p class="psycho-intro">27 Figuren aus dem Umfeld Jesu – eine für jeden der 27 Subtypen –, literarisch und psychologisch gedeutet nach ihrem Enneagramm-Muster. Die Texte stammen aus <em>»27 Gesichter der Seele«</em> von Detlef Rathmer und werden hier Kapitel für Kapitel in gekürzter Fassung für den Kompass aufbereitet, jeweils mit einem eigens komponierten Song zur Figur. Die vollständigen Kapitel – mit der ganzen erzählerischen Tiefe und allen Songtexten – finden sich im E-Book, unten bei den Buchtipps verlinkt.</p>
       <p class="psycho-intro" style="font-size:0.88rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:0.8rem 1rem;border-radius:8px;">
         <strong>Wichtiger Hinweis zur Einordnung:</strong> Anders als bei den Rubriken »Berühmte Persönlichkeiten« oder »Krankheitsporträts« handelt es sich hier nicht um historisch lückenlos dokumentierte Biografien. Die neutestamentlichen Figuren sind literarisch-typologisch gedeutet – auf Basis der überlieferten Erzählungen, mit den Mitteln der freien, aber am Text orientierten Nacherzählung. Manche der Figuren sind historisch umstritten oder unsicher belegt. Die Illustrationen sind KI-generierte, bewusst fiktive Darstellungen – niemand weiß, wie diese Menschen tatsächlich aussahen.
       </p>
@@ -93548,6 +93548,7 @@ function enneagrammBibelPage() {
       <div style="max-width:640px;margin-top:1rem;">
         ${cards}
       </div>
+      ${bookTip("27-gesichter-der-seele", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
 
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},

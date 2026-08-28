@@ -65466,7 +65466,7 @@ function enneagrammBibelPage() {
     <div class="page-container">
       ${pageHeader("enneagramm-bibel")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Enneagram in the Mirror of the New Testament</h1>
-      <p class="psycho-intro">27 figures from Jesus's circle – one for each of the 27 subtypes – interpreted literarily and psychologically according to their Enneagram pattern. The texts are drawn from <em>»27 Faces of the Soul«</em> by Detlef Rathmer and are being adapted chapter by chapter for the Compass, each with a specially composed song about the figure.</p>
+      <p class="psycho-intro">27 figures from Jesus's circle – one for each of the 27 subtypes – interpreted literarily and psychologically according to their Enneagram pattern. The texts are drawn from <em>»27 Faces of the Soul«</em> by Detlef Rathmer and are adapted here chapter by chapter in a shortened form for the Compass, each with a specially composed song about the figure. The full chapters – with all the narrative depth and every song lyric – are found in the e-book, linked below under book recommendations.</p>
       <p class="psycho-intro" style="font-size:0.88rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:0.8rem 1rem;border-radius:8px;">
         <strong>Important note on classification:</strong> Unlike the "Famous Personalities" or "Illness Portraits" sections, these are not exhaustively documented historical biographies. The New Testament figures are interpreted literarily and typologically – based on the received narratives, using free but text-oriented retelling. Some figures are historically contested or uncertainly attested. The illustrations are AI-generated, deliberately fictional depictions – no one knows how these people actually looked.
       </p>
@@ -65474,6 +65474,7 @@ function enneagrammBibelPage() {
       <div style="max-width:640px;margin-top:1rem;">
         ${cards}
       </div>
+      ${bookTip("27-gesichter-der-seele", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
 
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"},
