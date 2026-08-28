@@ -166,6 +166,10 @@ const BIBEL_PORTRAITS = [
     heading:"Peter – Sexual Type 6",
     teaser:"SX6w7 · The fire of bonding and the fear of losing oneself. Denies Jesus three times out of fear – and through that fall becomes the rock, forged from fire.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-lazarus", name:"Lazarus", added:"2026-08-28", subtyp:"SE7w6",
+    heading:"Lazarus – Self-Preservation Type 7",
+    teaser:"SE7w6 · The friend of life. A hospitable brother in Bethany, who dies and, at Jesus's call, steps alive from the tomb – deeper, gentler, truer.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -28702,6 +28706,7 @@ function larryKingPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SP7w6)"},
         {route:"krankheitsportraets-larry-king", label:"Illness Portrait: Larry King – Heart, Cancer & COVID-19"},
+        {route:"bibel-lazarus", label:"Bible Portrait: Lazarus (SE7w6)"},
       ])}
     </div>
   `);
@@ -45090,7 +45095,7 @@ const LEBENSMUSTERKOMPASS = {
   SE7: {
     tier: "Gorilla",
     kernthema: "Building a protected, family-like system instead of going it alone",
-    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn"],
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus"],
     fingerabdruecke: [
       {
         titel: "A self-created territory instead of a foreign career ladder",
@@ -45100,7 +45105,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Room-filling calm instead of fighting for attention",
         beschreibung: "The effect arises not through show or confrontation, but through a mere, reassuring or unobtrusively weighty presence – which, however, can flip into full intensity the moment it truly matters.",
-        beleg: "'Larry King's mere presence in a TV studio had something reassuring about it' – over sixty years, more than 50,000 interviews, without aggressive interviewing, and that same calm carried him back to the familiar studio nest through a 34-year chain of heart attacks, cancer diagnoses, and a stroke, rather than ever withdrawing from the show; Wallace Shawn, who 'looks cozy – and carries the weight of ideas,' without ever wanting to stand out; Jasmine Paolini, who off the court appears 'warm, laughing, family-oriented,' 'never like someone playing tennis to reap glory' – while on court she is 'explosive, combative, tireless': 'The gorilla doesn't dance – but when it smiles, the whole forest lights up.'"
+        beleg: "'Larry King's mere presence in a TV studio had something reassuring about it' – over sixty years, more than 50,000 interviews, without aggressive interviewing, and that same calm carried him back to the familiar studio nest through a 34-year chain of heart attacks, cancer diagnoses, and a stroke, rather than ever withdrawing from the show; Wallace Shawn, who 'looks cozy – and carries the weight of ideas,' without ever wanting to stand out; Jasmine Paolini, who off the court appears 'warm, laughing, family-oriented,' 'never like someone playing tennis to reap glory' – while on court she is 'explosive, combative, tireless': 'The gorilla doesn't dance – but when it smiles, the whole forest lights up.'; Lazarus, whose house in Bethany was 'an open house,' 'not lavish, but hospitable' – he was present, not through volume, but through warmth, and even after his resurrection those who knew him said: 'He listens differently.'"
       },
       {
         titel: "Enjoyment and abundance as a lived principle instead of asceticism",
@@ -67024,6 +67029,86 @@ function petrusPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
         {route:"bibel-philippus", label:"Bible Portrait: Philip (SO6w5)"},
+        {route:"bibel-lazarus", label:"Bible Portrait: Lazarus (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function lazarusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-lazarus-portrait.jpg" alt="Lazarus – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lazarus</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The friend of life – Animal correspondence: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Our friend Lazarus has fallen asleep, but I go to awaken him." (John 11:11)</p>
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven – calm, hospitable, present through warmth rather than volume, a being in whose presence one feels safe and at ease. Lazarus was not a man of many words. When his sisters argued, he smiled quietly. When guests came, he set the table and let the others talk. He was present, not through volume, but through warmth, a person one felt good around.</p>
+          <p class="vb-intro">His house in Bethany was an open house, not lavish, but hospitable, a house where one could eat, laugh, and be silent, a place where even Jesus withdrew. Lazarus was no disciple, no teacher, no preacher, but he was a friend, and friendship was, to him, an art of living. The self-preservation Seven seeks no adventure outward, but intense, quiet fullness within. It loves life, but with restraint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Seven: Measured Joy Instead of Excess</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus was no ascetic. He knew wine, bread, the scent of oil, but never in excess, never in haste. He lived in measured joy, not to flee, but to remain. He could listen without losing himself. He could be present without imposing. He was not a departure, but an arrival. And then he fell ill. Quiet as he lived, so he grew weaker. He did not complain, did not want to burden the others. But Martha and Mary sent for Jesus, for they knew: You love him. But Jesus did not come at once. And Lazarus died.</p>
+          <p class="vb-intro">For four days he lay in the rock, wrapped in cloths, surrounded by myrrh, enveloped in silence. Not death was the terrible thing, but the interruption, this familiar stream of gentle vitality, of bread, oil, light and tenderness, had come to a standstill. And then Jesus came. Late. Too late? Martha ran to meet him: "Lord, if you had been here, my brother would not have died."</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyal Warmth Instead of Driving Intensity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the self-preservation Seven a faithful, committed quality – fullness arises not through driving intensity, but through reliable, warm closeness to those one loves, a home in which others can feel safe. Jesus listened, he wept, not only for Lazarus, but for all who felt lost in shadow. Then he went to the tomb: "Take away the stone." Martha hesitated: "Lord, by this time there will be an odor." Jesus looked at her: "Did I not tell you that if you believed you would see the glory of God?"</p>
+          <p class="vb-intro">Then he called with a loud voice: "Lazarus, come out!" And Lazarus came, slowly, bound, alive. The SE7 believes for a long time that pain can be avoided. But in depth, transformation only happens once one steps through the pain back into the light. This exact quiet, faithful reliability, which does not withdraw from community through one's own suffering but instead grows more deeply rooted through it, carries the signature of the Six-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Last Meal: The Smile of the Risen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus did not return to the old life. He entered a new life, with the taste of earth and eternity on his tongue. He did not speak much afterward, but his presence spoke. For whoever has seen death and yet sits again at table, with bread in hand and light on his face, lives differently, deeper, gentler, truer. The courtyard was filled with the scent of roasted lamb, a feast had been prepared, no triumph, but a quiet meal of gratitude. Lazarus sat at table, among friends.</p>
+          <p class="vb-intro">He did not speak much, but when his eyes met one's own, something happened: a calm was transmitted, as if one had just learned what life truly is. Those who knew him said: "He listens differently." For whoever passes through the dark hears the tones more finely, tastes the bread more deeply, loves with less fear. The SE7 matures not through withdrawal, but through presence with an open heart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A Place Where Life Went Deeper</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus smiled more often, not out of lightness, but out of acceptance. He now knew that life did not have to be perfect, only true, and that the taste of dates is sweeter once one has already tasted death. Later, when everything was over, when Jesus had been crucified and the first community began to set out, Lazarus stayed in Bethany. A house, a garden, a table, a place where people remembered: Here Jesus lived, here Lazarus ate, here was life that went deeper.</p>
+          <p class="vb-intro">He became no apostle, no teacher. But when someone asked: "And you, what did you experience?" Lazarus said: "I was dead. And now I am here. Let us eat."</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Fullness Without Fleeing Pain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">This is the gift of the SE7w6: a joy that no longer needs to flee pain in order to be genuine, but instead gains warmth precisely through what has been lived through – a gorilla whose calm presence, after passing through darkness, carries even deeper, because it knows the essential is never loud.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Come Out, Lazarus!</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Lazarus, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/kKxF8Dx-Sc8?rel=0" title="Come Out, Lazarus! – Lazarus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
+        {route:"bibel-petrus", label:"Bible Portrait: Peter (SX6w7)"},
       ])}
     </div>
   `);
@@ -99552,6 +99637,7 @@ function subtypeSchaubilderPage() {
       "bibel-zachaeus": zachaeusPage,
       "bibel-philippus": philippusPage,
       "bibel-petrus": petrusPage,
+      "bibel-lazarus": lazarusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
