@@ -36050,22 +36050,12 @@ function startPage() {
     ${neuigkeitenSection()}
 
     <section style="max-width:680px;margin:0 auto 0;padding:0 1rem 0.8rem;">
-      <div style="text-align:center;margin-bottom:0.5rem;">
-        <span style="font-size:0.85rem;font-weight:700;color:var(--copper,#a5652f);letter-spacing:0.02em;">✨ Wegweiser Premium – Zugriff auf 40+ Bücher</span>
-      </div>
-      <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;margin-bottom:0.8rem;">
-        <a href="https://buy.stripe.com/aFa28r34s7Sq51ganp4gg3L" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:0.15rem;padding:0.6rem 1.1rem;border-radius:12px;
+      <div style="text-align:center;margin-bottom:0.8rem;">
+        <button data-route="wegweiser-premium" style="display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;border-radius:20px;
                   border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
-                  text-decoration:none;min-width:150px;">
-          <span style="font-size:0.92rem;font-weight:700;">4,99 € / Monat</span>
-          <span style="font-size:0.72rem;color:var(--muted,#886);">Abo, jederzeit kündbar</span>
-        </a>
-        <a href="https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:0.15rem;padding:0.6rem 1.1rem;border-radius:12px;
-                  border:1px solid var(--copper,#a5652f);background:transparent;color:var(--copper,#a5652f);
-                  text-decoration:none;min-width:150px;">
-          <span style="font-size:0.92rem;font-weight:700;">49,99 € / Jahr</span>
-          <span style="font-size:0.72rem;color:var(--muted,#886);">Abo, verlängert sich automatisch, jederzeit kündbar</span>
-        </a>
+                  font-size:0.85rem;font-weight:700;cursor:pointer;letter-spacing:0.02em;">
+          ✨ Wegweiser Premium – Zugriff auf 40+ Bücher entdecken
+        </button>
       </div>
       <div style="display:flex;gap:0.6rem;justify-content:center;flex-wrap:wrap;">
         <a href="https://www.verlagshausrathmer.com" target="_blank" rel="noopener"
@@ -38091,6 +38081,49 @@ function kaufenPage() {
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
         <h3 style="margin-top:0;">Fragen?</h3>
         <p style="margin:0;font-size:.95rem;">Bei Fragen zum Zugang schreib an <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
+      </div>
+    </section>
+  `);
+}
+
+function wegweiserPremiumPage() {
+  return shell(`
+    <section class="narrow centered" style="padding:2rem 1rem 1rem;">
+      <p class="eyebrow">Wegweiser Premium</p>
+      <h1 style="font-size:2rem;margin-bottom:.5rem;">Mehr als 40 Bücher, direkt im Gespräch</h1>
+      <p class="lead-small" style="margin-bottom:2rem;">Der Wegweiser ist der KI-Assistent im Enneagramm-Heilungskompass. Normalerweise durchsucht er nur die App-Inhalte – mit Premium bezieht er zusätzlich das gesamte veröffentlichte Werk von Detlef Rathmer mit ein.</p>
+    </section>
+    <section class="narrow" style="padding:0 1rem 1.5rem;">
+      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
+        <h3 style="margin-top:0;">Was ändert sich mit Premium?</h3>
+        <p>Ohne Premium antwortet der Wegweiser aus der App selbst – schon das ist viel. Mit Premium bezieht er zusätzlich mehr als 40 Bücher mit ein: über 30 Jahre schriftstellerisches Schaffen zu Enneagramm, Homöopathie, Bachblüten, Schüsslersalzen, Archetypen, Beziehungen und mehr. Fragen werden dadurch spürbar tiefer und präziser beantwortet, mit echten Quellenangaben aus dem gesamten Werk statt nur aus der App.</p>
+        <h3>Was du bekommst:</h3>
+        <ul style="list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.75rem;">
+          <li>📚 <strong>Zugriff auf über 40 Bücher</strong> – von den Enneagramm-Standardwerken bis zu den homöopathischen Fachbüchern, alle gleichzeitig durchsuchbar</li>
+          <li>🎯 <strong>Präzisere Antworten</strong> – der Wegweiser zitiert konkret, aus welchem Buch eine Aussage stammt, statt zu verallgemeinern</li>
+          <li>💬 <strong>Direkt im Chat</strong> – keine Suche in einzelnen Büchern nötig, einfach fragen</li>
+          <li>🔄 <strong>Wächst mit</strong> – neue Bücher werden laufend ergänzt, ohne Aufpreis</li>
+        </ul>
+        <h3>Für wen ist das gedacht?</h3>
+        <p>Für alle, die mit dem Wegweiser schon gerne arbeiten und noch tiefer gehen wollen – Therapeuten, Berater, Coaches, und alle, die sich selbst wirklich verstehen wollen, nicht nur oberflächlich.</p>
+      </div>
+    </section>
+    <section class="narrow" style="padding:0 1rem 2rem;">
+      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;">
+        <h3 style="margin-top:0;text-align:center;">Wähle dein Modell</h3>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-top:1rem;">
+          <a href="https://buy.stripe.com/aFa28r34s7Sq51ganp4gg3L" target="_blank" rel="noopener"
+             style="flex:1;min-width:220px;max-width:280px;background:#2d4a3e;color:#fff;padding:1.3rem 1rem;border-radius:12px;text-decoration:none;text-align:center;">
+            <div style="font-size:1.4rem;font-weight:700;font-family:'EB Garamond',serif;">4,99 €<span style="font-size:.85rem;font-weight:400;"> / Monat</span></div>
+            <div style="font-size:.82rem;opacity:.85;margin-top:.3rem;">Abo, jederzeit kündbar</div>
+          </a>
+          <a href="https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M" target="_blank" rel="noopener"
+             style="flex:1;min-width:220px;max-width:280px;background:#2d4a3e;color:#fff;padding:1.3rem 1rem;border-radius:12px;text-decoration:none;text-align:center;">
+            <div style="font-size:1.4rem;font-weight:700;font-family:'EB Garamond',serif;">49,99 €<span style="font-size:.85rem;font-weight:400;"> / Jahr</span></div>
+            <div style="font-size:.82rem;opacity:.85;margin-top:.3rem;">Abo, verlängert sich automatisch, jederzeit kündbar</div>
+          </a>
+        </div>
+        <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:1.2rem;">Sicherer Kauf über Stripe · Zugang per Login-Link im Wegweiser-Chat</p>
       </div>
     </section>
   `);
@@ -136363,6 +136396,7 @@ function render() {
     "lebensgluck": lebensgluckPage,
     diagnosetest: diagnosetestPage,
     kaufen: kaufenPage,
+    "wegweiser-premium": wegweiserPremiumPage,
     register: registerPage,
     "tischdialoge": tischdialogePage,
     "gesichtsausdruecke": gesichtsausdrueckePage,
@@ -136397,7 +136431,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register") {
+    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
