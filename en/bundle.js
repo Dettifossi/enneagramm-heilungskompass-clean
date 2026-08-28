@@ -158,6 +158,10 @@ const BIBEL_PORTRAITS = [
     heading:"Zacchaeus – Self-Preservation Type 6",
     teaser:"SE6w5 · The search for security and the courage to open up. A tax collector who flees up a tree – until Jesus's call draws him out of control into real trust.",
     land:"Jericho", tags:["Bible"], gender:"m"},
+  { route:"bibel-philippus", name:"Philip", added:"2026-08-28", subtyp:"SO6w5",
+    heading:"Philip – Social Type 6",
+    teaser:"SO6w5 · The longing for certainty and the courage for closeness. \"Lord, show us the Father\" – until Jesus shows him: trust is a decision, not completed proof.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -37805,6 +37809,7 @@ function immanuelKantPortraitPage() {
         {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5) – jaw cancer despite warnings"},
         {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – hypochondria and breathing distress"},
+        {route:"bibel-philippus", label:"Bible Portrait: Philip (SO6w5)"},
       ])}
     </div>
   `);
@@ -44606,12 +44611,12 @@ const LEBENSMUSTERKOMPASS = {
   SO6: {
     tier: "Meerkat",
     kernthema: "Standing guard for the group, not for oneself – security through belonging and duty",
-    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser", "Prof. Tim Clutton-Brock"],
+    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser", "Prof. Tim Clutton-Brock", "Philip"],
     fingerabdruecke: [
       {
         titel: "Standing guard for the group, not for oneself",
         beschreibung: "One's own role is consistently subordinated to the collective: visibility or personal appearance take a back seat to reliably fulfilling one's own function within the system.",
-        beleg: "Melanie Kreis: 'She is described as reliable, precise, analytical – and as someone who works for the company, not for her own appearance. That's the meerkat: it stands guard. Not for itself. For the group'; Andy Reid: 'Not the loudest animal in the pack, but the one who stands guard longest and most reliably – for a system bigger than itself'; James Corden: 'It's rarely the biggest animal in the pack, but always the one that does the most to keep everyone together'; Prof. Dr. Marta Manser, who scientifically decoded how meerkats' alarm-call system protects the whole group – and, tellingly, titled her own public lecture on it 'Teamwork in the Savanna,' not 'my discovery'; Prof. Tim Clutton-Brock, whose central research question asks why individuals serve the group instead of reproducing themselves – and who spent decades building a collaborative research infrastructure instead of a solo career; Dr. Sigmund Freud, who did not keep his insights to himself but founded an entire movement of like-minded followers to carry and defend them – 'the meerkat sounds the alarm even when the group doesn't want to hear it.'"
+        beleg: "Melanie Kreis: 'She is described as reliable, precise, analytical – and as someone who works for the company, not for her own appearance. That's the meerkat: it stands guard. Not for itself. For the group'; Andy Reid: 'Not the loudest animal in the pack, but the one who stands guard longest and most reliably – for a system bigger than itself'; James Corden: 'It's rarely the biggest animal in the pack, but always the one that does the most to keep everyone together'; Prof. Dr. Marta Manser, who scientifically decoded how meerkats' alarm-call system protects the whole group – and, tellingly, titled her own public lecture on it 'Teamwork in the Savanna,' not 'my discovery'; Prof. Tim Clutton-Brock, whose central research question asks why individuals serve the group instead of reproducing themselves – and who spent decades building a collaborative research infrastructure instead of a solo career; Dr. Sigmund Freud, who did not keep his insights to himself but founded an entire movement of like-minded followers to carry and defend them – 'the meerkat sounds the alarm even when the group doesn't want to hear it.'; Philip, who stayed after the crucifixion, 'not loudly, not leading, but present, reliable' – he did not try to replace Peter or take the stage, he only wanted to remain part, part of something larger than his questions."
       },
       {
         titel: "Security through fixed, reliable routine instead of departure",
@@ -66852,6 +66857,87 @@ function zachaeusPage() {
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SE6w5)"},
         {route:"bibel-der-mann-von-gerasa", label:"Bible Portrait: The Man of Gerasa (SX5w4)"},
+        {route:"bibel-philippus", label:"Bible Portrait: Philip (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function philippusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-philippus-portrait.jpg" alt="Philip – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Philip</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The longing for certainty and the courage for closeness – Animal correspondence: Meerkat</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so6.jpg" alt="Animal correspondence: Meerkat" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO6")};left:${tierAvatarLeft("SO6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"Lord, show us the Father, and it is enough for us." (John 14:8)</p>
+
+        <h2 class="vb-section">1. The Meerkat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the social Six – it lives in a group, keeps watch for the community, and finds security not in going it alone, but in reliable togetherness. Philip was not one who pushed. He did not speak loudly, did not step forward. But he was there, always there. When others discussed, he listened. When others hurried, he checked.</p>
+          <p class="vb-intro">The social Six wants to belong, not out of status, but out of a deep need for support within social bonds. He was faithful, but his heart quietly asked, always: Can I really rely on this? He was the first Jesus directly addressed: "Follow me" – and Philip followed, not immediately with a burning heart, but with a watchful spirit. He was a bridge-builder, brought Nathanael to Jesus, translated between what was and what was becoming.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Six: Trust Through Tested Proportion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Philip was a man of proportion. He was no visionary, but no cynic either. He trusted, but not blindly. That made him stable, and sometimes indecisive. When the others rejoiced, Philip calculated. When they believed, he wanted to know: why? And Jesus let him be this way, took him along, precisely because he was this way.</p>
+          <p class="vb-intro">Philip stood at the edge of the crowd, five thousand men, plus women and children, an unsettled afternoon. Jesus turned to him, not to Peter, not to John, but to him: "Where are we to buy bread, so that these people may eat?" A simple question, but Philip sensed at once it meant more. He hesitated, calculated, ran the numbers. Two hundred denarii, even that would not be enough. He said it, not defiantly, not panicked, only soberly, matter-of-factly, realistically.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Security Through Calculation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Six a sober, analytical quality – certainty arises through testing, calculation, and intellectual clarity, not through spontaneous trust. Jesus did not answer, he smiled quietly, for he knew: Philip spoke not out of unbelief, but out of his way of securing the world. To a social Six, security is not a luxury – it is the basic condition for trust.</p>
+          <p class="vb-intro">Philip kept watching, saw Andrew bring the boy with the five loaves, saw Jesus give thanks, and then share. The bread did not multiply, but it was enough, a miracle, but also a lesson: it does not take calculation to justify trust, it takes trust to go beyond calculation. This exact sober, examining calculation before trust is admitted carries the signature of the Five-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Father He Does Not See</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The mood was heavy, Jesus had begun to speak of his departure, of ways no one understood. "I am the way, and the truth, and the life." The others fell silent, but Philip could not remain silent. Within him he longed for clarity, not poetry, not symbols: "Lord, show us the Father, and it is enough for us." There was no distrust in this request, no defiance, only a deep, almost childlike longing: Give me something to hold on to. Show me the foundation.</p>
+          <p class="vb-intro">But for Jesus this sentence was painfully honest. Philip had been with him so long. "Have I been with you so long, and you still do not know me?" The sentence struck Philip, but it was no reproach, it was a wake-up call. Trust is not the result of completed proof. Trust is a decision in the face of uncertainty. In that moment Philip began to see differently, not in certainties, but in relationships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Hour of Loyalty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the crucifixion everything became fragile, the group, the fabric, the trust, all hanging by a thread. Philip stayed, not loudly, not leading, but present, reliable. He held to what the social Six understands most deeply: loyalty beyond doubt. He did not try to replace Peter, did not want the stage, he only wanted to remain part, part of something larger than his questions.</p>
+          <p class="vb-intro">When Jesus appeared, not first to him, he did not wait for special treatment. He took the others' testimony seriously, examined it inwardly, but did not turn away. The social Six believes with heart and mind, but only when both are allowed to enter into relationship. Philip now understood: one can believe without understanding everything. One can give oneself without disappearing. One can trust, and still stay awake.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Stability Instead of Genius</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Philip later traveled to foreign lands, preached not with fire, but with credibility. The social Six leaves no mighty traces, but it leaves stability. He founded no churches, he held them together. His greatest strength was not boldness, but loyalty despite uncertainty, not genius, but a heart that does not run away when questions find no answers.</p>
+          <p class="vb-intro">At the end of his path, when he no longer calculated, no longer searched, no longer asked, he had found what he had longed for his whole life: inner permission to trust the one who had seen him first. This is the gift of the SO6w5: a certainty no longer derived from completed calculation, but from the decision to trust despite uncertainty – a meerkat that has learned that keeping watch and letting go do not exclude each other.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Show Us the Father</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Philip, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/bm3SEsot92E?rel=0" title="Show Us the Father – Philip" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SE6w5)"},
       ])}
     </div>
   `);
@@ -99378,6 +99464,7 @@ function subtypeSchaubilderPage() {
       "bibel-gamaliel": gamalielPage,
       "bibel-der-mann-von-gerasa": derMannVonGerasaPage,
       "bibel-zachaeus": zachaeusPage,
+      "bibel-philippus": philippusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

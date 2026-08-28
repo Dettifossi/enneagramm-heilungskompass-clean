@@ -32130,6 +32130,10 @@ const BIBEL_PORTRAITS = [
     heading:"Zachäus – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · Die Suche nach Sicherheit und der Mut zur Offenheit. Zöllner, der sich auf einen Baum flüchtet – bis Jesu Anruf ihn aus der Kontrolle in echtes Vertrauen holt.",
     land:"Jericho", tags:["Bibel"], gender:"m"},
+  { route:"bibel-philippus", name:"Philippus", added:"2026-08-28", subtyp:"SO6w5",
+    heading:"Philippus – Sozialer Typ 6",
+    teaser:"SO6w5 · Die Sehnsucht nach Gewissheit und der Mut zur Nähe. »Herr, zeige uns den Vater« – bis Jesus ihm zeigt: Vertrauen ist ein Entschluss, kein vollendeter Beweis.",
+    land:"Judäa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44381,12 +44385,12 @@ const LEBENSMUSTERKOMPASS = {
   SO6: {
     tier: "Erdmännchen",
     kernthema: "Wache halten für die Gruppe, nicht für sich selbst – Sicherheit durch Zugehörigkeit und Pflicht",
-    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser", "Prof. Tim Clutton-Brock"],
+    beispiele: ["Melanie Kreis", "Immanuel Kant", "Dr. Sigmund Freud", "Andy Reid", "Donata Hopfen", "Herbert Grönemeyer", "James Corden", "Adolf Eichmann", "Prof. Dr. Marta Manser", "Prof. Tim Clutton-Brock", "Philippus"],
     fingerabdruecke: [
       {
         titel: "Wache halten für die Gruppe, nicht für sich selbst",
         beschreibung: "Die eigene Rolle wird konsequent dem Kollektiv untergeordnet: Sichtbarkeit oder persönlicher Auftritt sind nachrangig gegenüber der zuverlässigen Erfüllung der eigenen Funktion im System.",
-        beleg: "Melanie Kreis: ›Sie wird beschrieben als zuverlässig, präzise, analytisch – und als jemand, der für den Konzern arbeitet, nicht für den eigenen Auftritt. Das ist das Erdmännchen: Es hält Wache. Nicht für sich. Für die Gruppe‹; Andy Reid: ›Nicht das lauteste Tier im Rudel, sondern dasjenige, das am längsten und zuverlässigsten Wache hält – für ein System, das größer ist als es selbst‹; James Corden: ›Es ist selten das größte Tier im Rudel, aber immer das, das am meisten dafür tut, dass alle zusammenbleiben‹; Prof. Dr. Marta Manser, die wissenschaftlich entschlüsselte, wie das Warnrufsystem der Erdmännchen die ganze Gruppe schützt – und ihren eigenen Vortrag dazu bezeichnenderweise ›Teamarbeit in der Savanne‹ nannte, nicht ›meine Entdeckung‹; Prof. Tim Clutton-Brock, dessen zentrale Forschungsfrage lautet, warum Individuen der Gruppe dienen, statt sich selbst fortzupflanzen – und der über Jahrzehnte selbst eine kollaborative Forschungsinfrastruktur statt einer Einzelgänger-Karriere aufbaute; Dr. Sigmund Freud, der seine Erkenntnisse nicht für sich behielt, sondern eine ganze Bewegung von Gleichgesinnten gründete, die sie tragen und verteidigen sollte – ›das Erdmännchen schlägt Alarm, auch wenn der Schwarm es nicht hören will.‹"
+        beleg: "Melanie Kreis: ›Sie wird beschrieben als zuverlässig, präzise, analytisch – und als jemand, der für den Konzern arbeitet, nicht für den eigenen Auftritt. Das ist das Erdmännchen: Es hält Wache. Nicht für sich. Für die Gruppe‹; Andy Reid: ›Nicht das lauteste Tier im Rudel, sondern dasjenige, das am längsten und zuverlässigsten Wache hält – für ein System, das größer ist als es selbst‹; James Corden: ›Es ist selten das größte Tier im Rudel, aber immer das, das am meisten dafür tut, dass alle zusammenbleiben‹; Prof. Dr. Marta Manser, die wissenschaftlich entschlüsselte, wie das Warnrufsystem der Erdmännchen die ganze Gruppe schützt – und ihren eigenen Vortrag dazu bezeichnenderweise ›Teamarbeit in der Savanne‹ nannte, nicht ›meine Entdeckung‹; Prof. Tim Clutton-Brock, dessen zentrale Forschungsfrage lautet, warum Individuen der Gruppe dienen, statt sich selbst fortzupflanzen – und der über Jahrzehnte selbst eine kollaborative Forschungsinfrastruktur statt einer Einzelgänger-Karriere aufbaute; Dr. Sigmund Freud, der seine Erkenntnisse nicht für sich behielt, sondern eine ganze Bewegung von Gleichgesinnten gründete, die sie tragen und verteidigen sollte – ›das Erdmännchen schlägt Alarm, auch wenn der Schwarm es nicht hören will.‹; Philippus, der nach der Kreuzigung blieb, ›nicht laut, nicht führend, aber anwesend, verlässlich‹ – er suchte nicht, Petrus zu ersetzen oder die Bühne zu übernehmen, er wollte nur Teil bleiben, Teil von etwas, das größer war als seine Fragen."
       },
       {
         titel: "Sicherheit durch feste, verlässliche Routine statt Aufbruch",
@@ -58200,6 +58204,7 @@ function immanuelKantPortraitPage() {
         {route:"beruehmte-sigmund-freud", label:"Portr\u00e4t: Sigmund Freud (SO6w5)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5) – Kieferkrebs trotz Warnungen"},
         {route:"krankheitsportraets-immanuel-kant", label:"Krankheitsporträt: Immanuel Kant (SO6w5) – Hypochondrie und Atembeklemmung"},
+        {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
       ])}
     </div>
   `);
@@ -94926,6 +94931,87 @@ function zachaeusPage() {
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
+        {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function philippusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-philippus-portrait.jpg" alt="Philippus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Philippus</p>
+        <p class="krim-portrait-typ">SO6w5 · Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Sehnsucht nach Gewissheit und der Mut zur Nähe – Tierentsprechung: Erdmännchen</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so6.jpg" alt="Tierentsprechung: Erdmännchen" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO6")};left:${tierAvatarLeft("SO6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, zeige uns den Vater – dann genügt es uns.« (Joh 14,8)</p>
+
+        <h2 class="vb-section">1. Das Erdmännchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs – es lebt im Verband, hält Wache für die Gruppe und findet Sicherheit nicht in Einzelgängertum, sondern im verlässlichen Miteinander. Philippus war keiner, der drängte. Er sprach nicht laut, trat nicht nach vorn. Aber er war da, immer da. Wenn andere diskutierten, hörte er zu. Wenn andere eilten, prüfte er.</p>
+          <p class="vb-intro">Die soziale Sechs will dazugehören, nicht aus Geltung, sondern aus einem tiefen Bedürfnis nach Halt in sozialen Verbindungen. Er war treu, aber sein Herz fragte leise, immer: Kann ich mich wirklich verlassen? Er war der Erste, den Jesus direkt ansprach: »Folge mir nach« – und Philippus folgte, nicht sofort mit glühendem Herzen, aber mit wachsamem Geist. Er war ein Brückenbauer, brachte Nathanael zu Jesus, übersetzte zwischen dem, was war, und dem, was wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Vertrauen durch geprüfte Verhältnismäßigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Philippus war ein Mann der Verhältnismäßigkeit. Er war kein Visionär, aber auch kein Zyniker. Er vertraute, aber nicht blind. Das machte ihn stabil, und manchmal unentschlossen. Wenn die anderen jubelten, rechnete Philippus nach. Wenn sie glaubten, wollte er wissen: Warum? Und Jesus ließ ihn so sein, nahm ihn mit, gerade weil er so war.</p>
+          <p class="vb-intro">Philippus stand am Rand der Menge, fünftausend Männer, dazu Frauen und Kinder, ein aufgewühlter Nachmittag. Jesus drehte sich zu ihm, nicht zu Petrus, nicht zu Johannes, sondern zu ihm: »Wo sollen wir Brot kaufen, damit diese essen können?« Eine einfache Frage, doch Philippus spürte sofort, dass sie mehr bedeutete. Er zögerte, rechnete, überschlug im Kopf. Zweihundert Denare, selbst das würde nicht genügen. Er sprach es aus, nicht trotzig, nicht panisch, nur nüchtern, sachlich, realistisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Sicherheit durch Berechnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Sechs eine nüchterne, analytische Qualität – Gewissheit entsteht durch Prüfung, Berechnung und intellektuelle Klarheit, nicht durch spontanes Vertrauen. Jesus antwortete nicht, er lächelte still, denn er wusste: Philippus sprach nicht aus Unglauben, sondern aus seiner Art, die Welt zu sichern. Für eine soziale Sechs ist Sicherheit nicht Luxus, sie ist Grundbedingung für Vertrauen.</p>
+          <p class="vb-intro">Philippus beobachtete weiter, sah Andreas den Jungen mit den fünf Broten bringen, sah Jesus danken, und dann teilen. Das Brot wurde nicht mehr, aber es reichte, ein Wunder, aber auch eine Lektion: Es braucht nicht Berechnung, um Vertrauen zu rechtfertigen, es braucht Vertrauen, um über die Berechnung hinauszugehen. Genau dieses nüchterne, prüfende Rechnen, bevor Vertrauen zugelassen wird, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Vater, den er nicht sieht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Stimmung war drückend, Jesus hatte begonnen, von seinem Abschied zu sprechen, von Wegen, die keiner verstand. »Ich bin der Weg und die Wahrheit und das Leben.« Die anderen schwiegen, aber Philippus konnte nicht schweigen. In seinem Innersten verlangte es nach Klarheit, nicht nach Poesie, nicht nach Symbolen: »Herr, zeige uns den Vater – dann genügt es uns.« Es war kein Misstrauen in dieser Bitte, kein Trotz, nur eine tiefe, beinahe kindliche Sehnsucht: Gib mir Halt. Zeig mir das Fundament.</p>
+          <p class="vb-intro">Für Jesus aber war dieser Satz schmerzlich ehrlich. So lange war Philippus schon bei ihm gewesen. »So lange bin ich bei euch – und du hast mich nicht erkannt?« Der Satz traf Philippus, aber er war kein Tadel, er war ein Weckruf. Vertrauen ist nicht die Folge vollendeter Beweise, Vertrauen ist ein Entschluss im Angesicht der Ungewissheit. In diesem Moment begann Philippus, anders zu sehen, nicht in Sicherheiten, sondern in Beziehungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Stunde der Treue</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach der Kreuzigung wurde alles fragil, die Gruppe, das Gefüge, das Vertrauen, alles stand auf der Kippe. Philippus blieb, nicht laut, nicht führend, aber anwesend, verlässlich. Er hielt sich an das, was die soziale Sechs am tiefsten versteht: Loyalität über Zweifel hinweg. Er suchte Petrus nicht zu ersetzen, wollte nicht die Bühne, er wollte nur Teil bleiben, Teil von etwas, das größer war als seine Fragen.</p>
+          <p class="vb-intro">Als Jesus erschien, nicht zuerst ihm, wartete er nicht auf Sonderrechte. Er nahm das Zeugnis der anderen ernst, prüfte innerlich, aber lehnte sich nicht ab. Die soziale Sechs glaubt mit Herz und Verstand, aber nur, wenn beides in Beziehung treten darf. Philippus verstand nun: Man kann glauben, ohne alles zu verstehen. Man kann sich hingeben, ohne zu verschwinden. Man kann vertrauen, und trotzdem wach bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Stabilität statt Genialität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Philippus reiste später in die Fremde, predigte nicht mit Feuer, sondern mit Glaubwürdigkeit. Die soziale Sechs hinterlässt keine gewaltigen Spuren, aber sie hinterlässt Stabilität. Er gründete nicht Kirchen, er hielt sie zusammen. Seine größte Stärke war nicht Kühnheit, sondern Loyalität trotz Ungewissheit, nicht Genialität, sondern ein Herz, das nicht wegläuft, wenn Fragen keine Antworten finden.</p>
+          <p class="vb-intro">Am Ende seines Weges, als er nicht mehr rechnete, nicht mehr suchte, nicht mehr fragte, hatte er etwas gefunden, das er ein Leben lang ersehnt hatte: innere Erlaubnis, dem zu trauen, der ihn zuerst gesehen hatte. Das ist das Geschenk der SO6w5: eine Gewissheit, die nicht mehr aus vollendeter Berechnung stammt, sondern aus dem Entschluss, trotz Ungewissheit zu vertrauen – ein Erdmännchen, das gelernt hat, dass Wache halten und sich fallen lassen sich nicht ausschließen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Zeig uns den Vater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Philippus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/bm3SEsot92E?rel=0" title="Zeig uns den Vater – Philippus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
       ])}
     </div>
   `);
@@ -135080,6 +135166,7 @@ function render() {
       "bibel-gamaliel": gamalielPage,
       "bibel-der-mann-von-gerasa": derMannVonGerasaPage,
       "bibel-zachaeus": zachaeusPage,
+      "bibel-philippus": philippusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
