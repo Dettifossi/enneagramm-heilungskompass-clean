@@ -136673,6 +136673,21 @@ setTimeout(showTagesimpuls, 600);
 // \u00fcber einen Cloudflare-Worker + Gemini ab und zitiert die Quellen.
 (function initWegweiser() {
   const WORKER_URL = "https://kompass-assistent.9rathmer.workers.dev";
+  // Wird gesetzt, sobald der Stripe Payment Link f\u00fcr "Wegweiser Premium"
+  // eingerichtet ist (siehe Projekt-Notizen). Solange leer, zeigt der
+  // Premium-Bereich nur einen Hinweis statt eines Kauf-Links.
+  const STRIPE_PAYMENT_LINK_URL = "";
+  const SESSION_TOKEN_KEY = "wegweiser-session-token";
+
+  function getSessionToken() {
+    try { return localStorage.getItem(SESSION_TOKEN_KEY) || ""; } catch (e) { return ""; }
+  }
+  function setSessionToken(token) {
+    try { localStorage.setItem(SESSION_TOKEN_KEY, token); } catch (e) {}
+  }
+  function clearSessionToken() {
+    try { localStorage.removeItem(SESSION_TOKEN_KEY); } catch (e) {}
+  }
 
   const btn = document.createElement("button");
   btn.id = "wegweiser-btn";
@@ -136694,6 +136709,7 @@ setTimeout(showTagesimpuls, 600);
     "<span>\ud83e\udded Der Wegweiser</span>" +
     '<button id="wegweiser-close" aria-label="Schlie\u00dfen" style="background:none;border:none;font-size:1.4rem;cursor:pointer;color:inherit;padding:0.3rem;line-height:1;">\u00d7</button>' +
     "</div>" +
+    '<div id="wegweiser-premium-bar" style="padding:0.4rem 0.9rem;border-bottom:1px solid var(--line,#ddd);font-size:0.76rem;display:flex;justify-content:space-between;align-items:center;gap:0.5rem;"></div>' +
     '<div id="wegweiser-msgs" style="flex:1;overflow-y:auto;overflow-x:hidden;padding:0.7rem 0.9rem;font-size:0.88rem;line-height:1.5;min-height:120px;max-height:45vh;word-wrap:break-word;overflow-wrap:break-word;"></div>' +
     '<form id="wegweiser-form" style="display:flex;align-items:center;gap:0.2rem;border-top:1px solid var(--line,#ddd);padding:0.3rem;box-sizing:border-box;">' +
     '<input id="wegweiser-input" type="text" placeholder="Frag zu einem Subtyp..." style="flex:1;min-width:0;border:none;padding:0.6rem 0.4rem;font-size:0.95rem;background:transparent;color:inherit;" />' +
@@ -136709,6 +136725,86 @@ setTimeout(showTagesimpuls, 600);
   const inputEl = panel.querySelector("#wegweiser-input");
   const closeEl = panel.querySelector("#wegweiser-close");
   const micEl = panel.querySelector("#wegweiser-mic");
+  const premiumBarEl = panel.querySelector("#wegweiser-premium-bar");
+
+  // Premium-Leiste: zeigt je nach Login-Status entweder einen Login-/Kauf-
+  // Hinweis oder "Premium aktiv" mit Logout. Rein optisch/optimistisch -
+  // die eigentliche Berechtigungspr\u00fcfung passiert serverseitig bei jeder
+  // Anfrage; ein abgelaufener/ung\u00fcltiger Token f\u00fchrt serverseitig einfach
+  // zum kostenlosen Antwortumfang, nie zu einem Fehler.
+  function renderPremiumBar() {
+    const token = getSessionToken();
+    premiumBarEl.innerHTML = "";
+    if (token) {
+      const status = document.createElement("span");
+      status.textContent = "\u2728 Premium-Zugang aktiv";
+      status.style.color = "var(--copper,#a5652f)";
+      const logout = document.createElement("button");
+      logout.type = "button";
+      logout.textContent = "Abmelden";
+      logout.style.cssText = "background:none;border:none;color:var(--muted,#886);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
+      logout.addEventListener("click", function () {
+        clearSessionToken();
+        renderPremiumBar();
+        addMsg("Du bist abgemeldet.", "meta");
+      });
+      premiumBarEl.appendChild(status);
+      premiumBarEl.appendChild(logout);
+    } else {
+      const info = document.createElement("span");
+      info.textContent = "Wegweiser Premium: Zugriff auf alle B\u00fccher";
+      info.style.color = "var(--muted,#886)";
+      const login = document.createElement("button");
+      login.type = "button";
+      login.textContent = "Anmelden";
+      login.style.cssText = "background:none;border:none;color:var(--copper,#a5652f);text-decoration:underline;cursor:pointer;font-size:0.76rem;padding:0;";
+      login.addEventListener("click", requestMagicLink);
+      premiumBarEl.appendChild(info);
+      premiumBarEl.appendChild(login);
+    }
+  }
+
+  async function requestMagicLink() {
+    const email = prompt("Mit welcher E-Mail-Adresse hast du Wegweiser Premium abonniert?");
+    if (!email) return;
+    try {
+      const res = await fetch(WORKER_URL + "/auth/request-link", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email.trim() }),
+      });
+      const data = await res.json();
+      addMsg(data.message || data.error || "Bitte pr\u00fcfe dein Postfach.", "meta");
+    } catch (e) {
+      addMsg("Verbindungsfehler. Bitte sp\u00e4ter erneut versuchen.", "meta");
+    }
+  }
+
+  // Nach Klick auf den Magic-Link landet der Nutzer mit ?wegweiser-token=...
+  // wieder auf der App - Token gegen den Worker pr\u00fcfen und als Session
+  // ablegen, danach den Parameter aus der URL entfernen.
+  (async function consumeMagicLinkTokenFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("wegweiser-token");
+    if (!token) return;
+    try {
+      const res = await fetch(WORKER_URL + "/auth/verify?token=" + encodeURIComponent(token));
+      const data = await res.json();
+      if (data.sessionToken) {
+        setSessionToken(data.sessionToken);
+        renderPremiumBar();
+      }
+    } catch (e) {
+      // still fehlschlagen - Nutzer kann es \u00fcber "Anmelden" erneut versuchen
+    } finally {
+      params.delete("wegweiser-token");
+      const newSearch = params.toString();
+      const newUrl = window.location.pathname + (newSearch ? "?" + newSearch : "") + window.location.hash;
+      window.history.replaceState({}, "", newUrl);
+    }
+  })();
+
+  renderPremiumBar();
 
   // Spracheingabe via Web Speech API (Chrome/Android gut unterst\u00fctzt,
   // Safari/iOS eingeschr\u00e4nkt/nicht verf\u00fcgbar \u2013 dann Fallback-Hinweis).
@@ -136824,9 +136920,13 @@ setTimeout(showTagesimpuls, 600);
     const loadingEl = addMsg("\u2026 denkt nach \u2026", "meta");
 
     try {
+      const headers = { "Content-Type": "application/json" };
+      const sessionToken = getSessionToken();
+      if (sessionToken) headers["X-Session-Token"] = sessionToken;
+
       const res = await fetch(WORKER_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: headers,
         body: JSON.stringify({ question: question, lang: "de" }),
       });
       const data = await res.json();
