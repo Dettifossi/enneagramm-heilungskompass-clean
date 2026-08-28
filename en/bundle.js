@@ -122,6 +122,10 @@ const BIBEL_PORTRAITS = [
     heading:"Salome – Self-Preservation Type 3",
     teaser:"SE3w4 · The architect of appearances at Cana. Her flawless facade cracks before Jesus's stillness – until he tells her: \"You are – that is enough.\" From shine to true effectiveness.",
     land:"Judea", tags:["Bible"], gender:"f"},
+  { route:"bibel-pontius-pilatus", name:"Pontius Pilate", added:"2026-08-28", subtyp:"SO3w4",
+    heading:"Pontius Pilate – Social Type 3",
+    teaser:"SO3w4 · Roman prefect at the trial. Jesus's silence reflects nothing back – Pilate finds only emptiness within. Washes his hands in innocence, yet the question \"What is truth?\" stays with him.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -20830,7 +20834,8 @@ function karlLagerfeldPortraitPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
-        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"}
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
+        {route:"bibel-pontius-pilatus", label:"Bible Portrait: Pontius Pilate (SO3w4)"}
       ])}
     </div>
   `);
@@ -45062,12 +45067,12 @@ const LEBENSMUSTERKOMPASS = {
   SO3: {
     tier: "Cheetah",
     kernthema: "Control over one's own image and the decisive public moment",
-    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Louis XIV", "Sean Connery", "Teresa of Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker"],
+    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Louis XIV", "Sean Connery", "Teresa of Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker", "Pontius Pilate"],
     fingerabdruecke: [
       {
         titel: "The controlled gaze as an instrument of power",
         beschreibung: "Strikingly often, one's own gaze – whether by concealing it or deploying it deliberately – becomes a conscious control instrument: whoever sees is seen; whoever withdraws becomes a mystery that holds attention.",
-        beleg: "Karl Lagerfeld's permanent sunglasses as an 'instrument of control'; Sahra Wagenknecht's 'calm, precise, slightly surveying' gaze that 'seeks the audience, measures the effect, calculates the resonance'; Dr. Laurie Marker's demeanor, carrying 'speed, visibility, flawless precision' – the same qualities she researches in the cheetah. Important: this is a visible behavioral pattern, not a reliable diagnostic criterion on its own."
+        beleg: "Karl Lagerfeld's permanent sunglasses as an 'instrument of control'; Sahra Wagenknecht's 'calm, precise, slightly surveying' gaze that 'seeks the audience, measures the effect, calculates the resonance'; Dr. Laurie Marker's demeanor, carrying 'speed, visibility, flawless precision' – the same qualities she researches in the cheetah. Important: this is a visible behavioral pattern, not a reliable diagnostic criterion on its own. Pontius Pilate, whose entire being was built on the questions 'What do I project? How am I perceived?' – and who, when Jesus's gaze gave him nothing to steer, felt for the first time how fragile effect is without truth."
       },
       {
         titel: "The one bold, publicly visible leap instead of gradual approach",
@@ -66070,6 +66075,87 @@ function salomePage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
         {route:"bibel-maria-magdalena", label:"Bible Portrait: Mary Magdalene (SX2w1)"},
+        {route:"bibel-pontius-pilatus", label:"Bible Portrait: Pontius Pilate (SO3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function pontiusPilatusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-pontius-pilatus-portrait.jpg" alt="Pontius Pilate – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pontius Pilate</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The image strategist at the trial – Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"What is truth?" (John 18:38)</p>
+
+        <h2 class="vb-section">1. The Cheetah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three – fast, precise, entirely oriented toward impact and position within the social order. Pilate always carried himself upright. His posture was not a question of the spine – it was a message. He was Roman prefect, representative of order, symbol of imperial presence in a defiant land – and he knew: whoever fills this post without image-awareness gets ground down.</p>
+          <p class="vb-intro">For him, leadership was not merely a task but a performance – daily, calculated, necessary. He spoke Greek, Latin, and some Aramaic, not out of love for language, but because clarity created impact. His entire being was built on: What do I project? How am I perceived? Not out of narcissism – out of necessity. For deep within him was a fear: If I lose the facade, I lose myself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: A Mirror That Reflects Nothing Back</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> lives in the space between masks – reading reactions, mirroring expectations, navigating social codes. Pilate had spoken with many: insurgents, high priests, merchants, philosophers. He knew the tones of submission, the mask of humility, calculated silence. But this Jesus was different – not through volume, but through what was missing: no self-protection, no ingratiation, no fear, no tactics.</p>
+          <p class="vb-intro">Jesus reflected nothing back. He was present – but ungraspable. "Are you the King of the Jews?" Pilate asked. Jesus answered: "Do you say this of your own accord, or did others tell you about me?" And with that sentence the facade did not fall – but it wavered. For Pilate was used to asking, not to being questioned himself. Then came the famous line: "What is truth?" – not ironic, not searching, but like a man who knows he may only administer truth, never possess it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Emptiness Behind the Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a sensitivity to its own inner emptiness that stays awake beneath the polished facade and inevitably surfaces in quiet moments. Jesus did not answer the question about truth. And that was precisely the answer – a mirror that reflected nothing back, forcing the questioner to look inside himself. And there Pilate found no image. Only emptiness.</p>
+          <p class="vb-intro">No loud collapse, no visible wavering – only an averted gaze, not visible, but inward. This exact quiet, uncorruptible confrontation with one's own emptiness behind the perfectly calculated facade, without it ever becoming visible from outside, carries the signature of the Four-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Political Calculation: Delegating the Conscience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pilate stepped out onto the stone pavement; the crowd waited, loud, restless, charged. It was not fear of violence – he had seen violence, commanded it, administered it. It was the fear of damaging his image in Rome. He had spoken with Jesus, enough to sense: this man is no danger to Rome, but very much a problem for Jerusalem. He spoke the sentence that sounded like a retreat: "I find no fault in him."</p>
+          <p class="vb-intro">And then the mechanism of the social Three: delegating the conscience. "You have a custom: I release a prisoner to you at the feast." Barabbas or Jesus. He let them decide – not because he was innocent, but because he wanted to remain invisible in the question of guilt. When they shouted: Barabbas! – it was like relief, and like a stab. For within him stirred the recognition that his decision did not rest on truth, but on effect. And effect was fragile.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gesture of the Hands: Performance, Not Cleansing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He had water brought, a basin, cool, clear, like a sign. Pilate dipped his hands into the water – the gesture was powerful, public, unmistakable: "I am innocent of this man's blood." The crowd kept shouting, yet within him there was stillness for a moment. And in that stillness he sensed: the water was cool, but it did not cleanse. For the social Three knows itself too well to truly deceive itself.</p>
+          <p class="vb-intro">He knew: this gesture was no act of conscience, it was a performance, a shield against posterity's judgment – and perhaps against himself. Jesus was silent, let it happen, without a look of accusation, without appeal, without defiance. And that was the most unbearable thing for Pilate: no resistance, no struggle – only presence, only stillness, only this presence that judges nothing and precisely because of that reflects everything.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Lasting Echo: Honesty Without an Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The files were closed, the name Jesus no longer came up in the forum. But in Pilate's mind another name would not fade. Not as guilt, not as hero – but as mirror. For he had been the only one who stood before him wanting nothing from him. And that had disarmed him, not through attack, but through truth without strategy. The image he had drawn of himself was not destroyed – but cracked.</p>
+          <p class="vb-intro">He had chosen against the truth and instead washed his hands, in innocence. But the memory remained, not as a curse, but as a quiet, lasting echo: What is truth? He knew: this question had never been directed at Jesus – but at himself. This is the actual gift held within this encounter, even though Pilate did not grasp it: a social Three who, for one moment, sensed that true effectiveness does not arise from the image one manages, but from what one is when no one is watching anymore – a cheetah that realizes it need not chase every expectation to have worth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: Clean Hands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Pontius Pilate, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/0I-4rThOvQ0?rel=0" title="Clean Hands – Pilate" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+        {route:"bibel-salome", label:"Bible Portrait: Salome (SE3w4)"},
       ])}
     </div>
   `);
@@ -98587,6 +98673,7 @@ function subtypeSchaubilderPage() {
       "bibel-jesus": jesusPage,
       "bibel-maria-magdalena": mariaMagdalenaPage,
       "bibel-salome": salomePage,
+      "bibel-pontius-pilatus": pontiusPilatusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

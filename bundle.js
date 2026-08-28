@@ -32094,6 +32094,10 @@ const BIBEL_PORTRAITS = [
     heading:"Salome \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 Architektin des Eindrucks in Kana. Ihre makellose Fassade br\u00f6ckelt vor Jesu Stille \u2013 bis er ihr sagt: \u00bbDu bist \u2013 das reicht allein.\u00ab Vom Glanz zur echten Wirksamkeit.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"f"},
+  { route:"bibel-pontius-pilatus", name:"Pontius Pilatus", added:"2026-08-28", subtyp:"SO3w4",
+    heading:"Pontius Pilatus \u2013 Sozialer Typ 3",
+    teaser:"SO3w4 \u00b7 R\u00f6mischer Pr\u00e4fekt im Verh\u00f6r. Jesu Schweigen wirft nichts zur\u00fcck \u2013 Pilatus findet in sich nur Leere. W\u00e4scht seine H\u00e4nde in Unschuld, doch die Frage \u00bbWas ist Wahrheit?\u00ab bleibt an ihm haften.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44846,12 +44850,12 @@ const LEBENSMUSTERKOMPASS = {
   SO3: {
     tier: "Gepard",
     kernthema: "Kontrolle über das eigene Bild und den entscheidenden öffentlichen Moment",
-    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Ludwig XIV.", "Sean Connery", "Teresa von Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker", "Pedro Alonso López", "Andrew Cunanan", "Vincenzo Peruggia", "Wade Wilson"],
+    beispiele: ["Karl Lagerfeld", "Cristiano Ronaldo", "Sahra Wagenknecht", "Pharrell Williams", "Dr. Christiaan Barnard", "Ludwig XIV.", "Sean Connery", "Teresa von Ávila", "Bella Thorne", "Gottfried Wilhelm Leibniz", "Dr. Laurie Marker", "Pedro Alonso López", "Andrew Cunanan", "Vincenzo Peruggia", "Wade Wilson", "Pontius Pilatus"],
     fingerabdruecke: [
       {
         titel: "Der kontrollierte Blick als Machtinstrument",
         beschreibung: "Auffällig häufig wird der eigene Blick – ob durch Verbergen oder durch gezielten Einsatz – zu einem bewussten Steuerungsinstrument: Wer sieht, wird gesehen; wer sich entzieht, wird zum Rätsel, das Aufmerksamkeit bindet.",
-        beleg: "Karl Lagerfelds permanente Sonnenbrille als ›Instrument der Kontrolle‹; Sahra Wagenknechts ›ruhiger, präziser, leicht überblickender‹ Blick, der ›das Publikum sucht, die Wirkung misst, die Resonanz berechnet‹; Dr. Laurie Markers Auftreten, das ›Tempo, Sichtbarkeit, makellose Zielgenauigkeit‹ trägt – dieselben Eigenschaften, die sie beim Geparden erforscht; O.J. Simpson, der noch wenige Wochen vor seinem Tod Videobotschaften veröffentlichte, in denen er Gerüchte über seinen Gesundheitszustand zurückwies, während seine Prostatakrebs-Diagnose der Öffentlichkeit bis zu seinem Tod verborgen blieb. Wichtig: Dies ist ein sichtbares Verhaltensmuster, kein zuverlässiges Diagnosekriterium für sich allein."
+        beleg: "Karl Lagerfelds permanente Sonnenbrille als ›Instrument der Kontrolle‹; Sahra Wagenknechts ›ruhiger, präziser, leicht überblickender‹ Blick, der ›das Publikum sucht, die Wirkung misst, die Resonanz berechnet‹; Dr. Laurie Markers Auftreten, das ›Tempo, Sichtbarkeit, makellose Zielgenauigkeit‹ trägt – dieselben Eigenschaften, die sie beim Geparden erforscht; O.J. Simpson, der noch wenige Wochen vor seinem Tod Videobotschaften veröffentlichte, in denen er Gerüchte über seinen Gesundheitszustand zurückwies, während seine Prostatakrebs-Diagnose der Öffentlichkeit bis zu seinem Tod verborgen blieb. Wichtig: Dies ist ein sichtbares Verhaltensmuster, kein zuverlässiges Diagnosekriterium für sich allein. Pontius Pilatus, dessen ganzes Wesen auf die Fragen ›Was strahle ich aus? Wie werde ich wahrgenommen?‹ gebaut war – und der, als Jesu Blick ihm nichts zum Steuern zurückgab, zum ersten Mal spürte, wie brüchig Wirkung ohne Wahrheit ist."
       },
       {
         titel: "Der eine gewagte, öffentlich sichtbare Sprung statt schrittweiser Annäherung",
@@ -69831,7 +69835,8 @@ function karlLagerfeldPortraitPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsportr\u00e4t: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-sahra-wagenknecht", label:"Portr\u00e4t: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
-        {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"}
+        {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
+        {route:"bibel-pontius-pilatus", label:"Bibel-Portr\u00e4t: Pontius Pilatus (SO3w4)"}
       ])}
     </div>
   `);
@@ -94144,6 +94149,87 @@ function salomePage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
         {route:"bibel-maria-magdalena", label:"Bibel-Porträt: Maria Magdalena (SX2w1)"},
+        {route:"bibel-pontius-pilatus", label:"Bibel-Porträt: Pontius Pilatus (SO3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function pontiusPilatusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-pontius-pilatus-portrait.jpg" alt="Pontius Pilatus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pontius Pilatus</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Image-Stratege im Verhör – Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Was ist Wahrheit?« (Joh 18,38)</p>
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, präzise, ganz auf Wirkung und Position im sozialen Gefüge ausgerichtet. Pilatus trat stets aufrecht auf. Seine Haltung war keine Frage des Rückens, sie war Botschaft. Er war römischer Präfekt, Vertreter der Ordnung, Symbol imperialer Präsenz in einem widerspenstigen Land – und er wusste: Wer diesen Posten nicht mit Imagebewusstsein versieht, wird zerrieben.</p>
+          <p class="vb-intro">Für ihn war Führung nicht nur eine Aufgabe, sondern ein Auftritt – ein täglicher, ein kalkulierter, ein notwendiger. Er sprach Griechisch, Latein und etwas Aramäisch, nicht aus Liebe zur Sprache, sondern weil Verständlichkeit Wirkung schuf. Sein ganzes Wesen war gebaut auf: Was strahle ich aus? Wie werde ich wahrgenommen? Nicht aus Narzissmus – aus Notwendigkeit. Denn in seinem Innersten war eine Angst: Wenn ich die Fassade verliere, verliere ich mich selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Ein Spiegel, der nichts zurückwirft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> lebt vom Spielraum zwischen Masken – sie liest Reaktionen, spiegelt Erwartungen, navigiert durch soziale Codes. Pilatus hatte mit vielen gesprochen: Aufständischen, Hohepriestern, Kaufleuten, Philosophen. Er kannte die Töne der Unterwerfung, die Maske der Demut, das kalkulierte Schweigen. Doch dieser Jesus war anders – nicht durch Lautstärke, sondern durch das, was fehlte: kein Selbstschutz, keine Einschmeichelei, keine Furcht, keine Taktik.</p>
+          <p class="vb-intro">Jesus spiegelte nichts zurück. Er war da – aber nicht zu fassen. »Bist du der König der Juden?«, fragte Pilatus. Jesus antwortete: »Sagst du das von dir aus, oder haben dir andere davon erzählt?« Und mit diesem Satz fiel die Fassade nicht, aber sie wackelte. Denn Pilatus war gewohnt, zu fragen, aber nicht, selbst befragt zu werden. Dann kam der berühmte Satz: »Was ist Wahrheit?« – nicht ironisch, nicht suchend, sondern wie ein Mann, der weiß, dass er Wahrheit nur verwalten darf, aber sie nicht besitzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Leere hinter dem Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Empfindsamkeit für die eigene innere Leere, die unter der glänzenden Fassade wach bleibt und sich in stillen Momenten unweigerlich meldet. Jesus antwortete nicht auf die Frage nach der Wahrheit. Und gerade das war die Antwort – ein Spiegel, der nichts zurückwarf und so den Fragenden zwang, in sich selbst zu schauen. Und dort fand Pilatus kein Bild. Nur Leere.</p>
+          <p class="vb-intro">Kein lauter Zusammenbruch, kein sichtbares Wanken – nur ein Ausweichen des Blicks, nicht sichtbar, aber innerlich. Genau diese leise, unbestechliche Konfrontation mit der eigenen Leere hinter der perfekt kalkulierten Fassade, ohne dass sie nach außen sichtbar würde, trägt die Handschrift des Viererflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das politische Kalkül: Delegation des Gewissens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pilatus trat hinaus auf den Steinboden, die Menge wartete, laut, unruhig, aufgeladen. Es war nicht Angst vor Gewalt – er hatte Gewalt gesehen, befehligt, verwaltet. Es war die Angst, sein Bild in Rom zu beschädigen. Er hatte mit Jesus gesprochen, genug, um zu spüren: Dieser Mann ist keine Gefahr für Rom, aber sehr wohl ein Problem für Jerusalem. Er sprach den Satz, der wie ein Rückzug klang: »Ich finde keine Schuld an ihm.«</p>
+          <p class="vb-intro">Und dann der Mechanismus der sozialen Drei: Delegation des Gewissens. »Ihr habt einen Brauch: Ich gebe euch zum Fest einen Gefangenen frei.« Barabbas oder Jesus. Er ließ sie entscheiden – nicht weil er unschuldig war, sondern weil er unsichtbar bleiben wollte in der Schuldfrage. Als sie schrien: Barabbas!, war es wie eine Erleichterung – und wie ein Stich. Denn in ihm regte sich die Erkenntnis, dass seine Entscheidung nicht auf Wahrheit ruhte, sondern auf Wirkung. Und Wirkung war brüchig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Geste der Hände: Inszenierung statt Reinigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er ließ Wasser bringen, eine Schale, kühl, klar, wie zum Zeichen. Pilatus tauchte die Hände ins Wasser – die Geste war machtvoll, öffentlich, deutlich: »Ich bin unschuldig am Blut dieses Menschen.« Die Masse schrie weiter, doch in ihm war für einen Moment Stille. Und in dieser Stille spürte er: Das Wasser war kühl, aber es reinigte nicht. Denn die soziale Drei kennt sich selbst zu gut, um sich wirklich zu täuschen.</p>
+          <p class="vb-intro">Er wusste: Diese Geste war kein Gewissensakt, sie war eine Inszenierung, ein Schutzschild vor dem Urteil der Nachwelt – und vielleicht auch vor sich selbst. Jesus schwieg, ließ es geschehen, ohne Blick der Anklage, ohne Appell, ohne Trotz. Und gerade das war für Pilatus das Unerträglichste: kein Widerstand, kein Kampf – nur Präsenz, nur Stille, nur diese Gegenwart, die nicht urteilt und gerade deshalb alles spiegelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das bleibende Echo: Ehrlichkeit ohne Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Akten waren geschlossen, der Name Jesus fiel nicht mehr auf dem Forum. Aber in Pilatus' Geist ging ein anderer Name nicht mehr fort. Nicht als Schuld, nicht als Held – sondern als Spiegel. Denn er war der Einzige gewesen, der ihm gegenüberstand, ohne etwas von ihm zu wollen. Und das hatte ihn entwaffnet, nicht durch Angriff, sondern durch Wahrheit ohne Strategie. Das Bild, das er von sich gezeichnet hatte, war nicht zerstört – aber rissig.</p>
+          <p class="vb-intro">Er hatte sich gegen die Wahrheit entschieden und sich stattdessen die Hände gewaschen, in Unschuld. Doch die Erinnerung blieb, nicht als Fluch, sondern als leises, bleibendes Echo: Was ist Wahrheit? Er wusste: Diese Frage war nie an Jesus gerichtet gewesen, sondern an sich selbst. Das ist das eigentliche Geschenk, das dieser Begegnung innewohnt, auch wenn Pilatus es nicht ergriff: eine soziale Drei, die für einen Moment merkte, dass echte Wirksamkeit nicht aus dem Bild entsteht, das man verwaltet, sondern aus dem, was man ist, wenn niemand mehr zusieht – ein Gepard, der begreift, dass er nicht jeder Erwartung hinterherjagen muss, um seinen Wert zu haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Die Hände rein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Pontius Pilatus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/0I-4rThOvQ0?rel=0" title="Die Hände rein – Pilatus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+        {route:"bibel-salome", label:"Bibel-Porträt: Salome (SE3w4)"},
       ])}
     </div>
   `);
@@ -134289,6 +134375,7 @@ function render() {
       "bibel-jesus": jesusPage,
       "bibel-maria-magdalena": mariaMagdalenaPage,
       "bibel-salome": salomePage,
+      "bibel-pontius-pilatus": pontiusPilatusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
