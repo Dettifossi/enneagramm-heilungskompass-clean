@@ -190,14 +190,15 @@ async function verifyStripeSignature(rawBody, sigHeader, secret) {
   return timingSafeEqual(expected, v1);
 }
 
-// Neben dem Klick-Link auch ein manuell eintippbarer 6-stelliger Code, weil
-// der Link auf iOS immer Safari öffnet, auch wenn die App als "Zum Home-
-// Bildschirm hinzugefügt"-Icon genutzt wird - iOS behandelt das als
-// komplett getrennten Speicherbereich (eigenes localStorage/eigene
-// Cookies), sodass ein per Link erhaltener Login dort nicht ankommt. Der
-// Code lässt sich dagegen direkt in der App eintippen, unabhängig davon,
-// wo die E-Mail geöffnet wurde - Standardmuster, u.a. bei Banking-Apps.
-async function sendMagicLinkEmail(email, link, code, apiKey) {
+// Nur der 6-stellige Code, bewusst OHNE Klick-Link: Der Link öffnet auf iOS
+// immer Safari, auch wenn die App als "Zum Home-Bildschirm hinzugefügt"-
+// Icon genutzt wird - iOS behandelt das als komplett getrennten
+// Speicherbereich (eigenes localStorage/eigene Cookies), sodass ein per
+// Link erhaltener Login dort nie ankommt. Ein Link in der Mail würde also
+// aktiv in die falsche Richtung führen. Der Code lässt sich dagegen direkt
+// in der App eintippen, unabhängig davon, wo die E-Mail geöffnet wurde -
+// Standardmuster, u.a. bei Banking-Apps.
+async function sendMagicLinkEmail(email, code, apiKey) {
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: {
@@ -208,7 +209,7 @@ async function sendMagicLinkEmail(email, link, code, apiKey) {
       from: "Wegweiser <wegweiser@verlagshausrathmer.com>",
       to: [email],
       subject: "Dein Zugangscode zum Wegweiser Premium",
-      html: `<p>Hallo,</p><p>hier ist dein Zugang zum Wegweiser Premium (gültig 15 Minuten):</p><p style="font-size:1.8rem;font-weight:700;letter-spacing:0.15em;">${code}</p><p>Diesen Code kannst du direkt in der App eintippen (Wegweiser-Chat → „Anmelden") - das funktioniert auch, wenn du die App über ein Home-Bildschirm-Icon nutzt.</p><p>Alternativ kannst du auch einfach auf diesen Link tippen:</p><p><a href="${link}">${link}</a></p><p>Falls du diese E-Mail nicht angefordert hast, kannst du sie ignorieren.</p>`,
+      html: `<p>Hallo,</p><p>hier ist dein Zugang zum Wegweiser Premium (gültig 15 Minuten):</p><p style="font-size:1.8rem;font-weight:700;letter-spacing:0.15em;">${code}</p><p>Diesen Code direkt in der App eintippen (Wegweiser-Chat → „Anmelden"). Falls du diese E-Mail nicht angefordert hast, kannst du sie ignorieren.</p>`,
     }),
   });
   if (!res.ok) throw new Error(`Resend-Fehler ${res.status}: ${await res.text()}`);
@@ -295,15 +296,16 @@ async function handleAuthRequestLink(request, env) {
   // Antwort ist für beide Fälle identisch, um Adressen nicht zu verraten.
   const sub = await getSubscriberStatus(env, normalized);
   if (isSubscriberActive(sub)) {
+    // Der Klick-Link (magic:<token>, per /auth/verify eingelöst) wird
+    // weiterhin im Hintergrund erzeugt und bleibt als Route aktiv, aber
+    // NICHT mehr in die E-Mail geschrieben - er würde Home-Bildschirm-
+    // Icon-Nutzer aktiv in die falsche Richtung führen (öffnet immer
+    // Safari, siehe Kommentar bei sendMagicLinkEmail). Nur der Code zählt.
     const token = randomToken();
     const code = randomSixDigitCode();
     await env.AUTH_TOKENS.put(`magic:${token}`, normalized, { expirationTtl: MAGIC_LINK_TTL_SECONDS });
-    // Code getrennt vom Link gespeichert (nicht dieselbe TTL-Einheit
-    // wiederverwendet), damit Link und Code unabhängig voneinander
-    // eingelöst werden können - beide führen zum selben Ergebnis.
     await env.AUTH_TOKENS.put(`code:${normalized}:${code}`, "1", { expirationTtl: MAGIC_LINK_TTL_SECONDS });
-    const link = `https://kompass.verlagshausrathmer.com/?wegweiser-token=${token}`;
-    await sendMagicLinkEmail(normalized, link, code, env.RESEND_API_KEY);
+    await sendMagicLinkEmail(normalized, code, env.RESEND_API_KEY);
   }
 
   return jsonResponse(request, {
