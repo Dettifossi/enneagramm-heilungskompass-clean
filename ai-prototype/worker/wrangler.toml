@@ -41,9 +41,13 @@ id = "933c79ebfa264d928b07c1c56a5706e6"
 binding = "AUTH_TOKENS"
 id = "1fc1fdf4ff8841b693c830f5c143a7de"
 
-# Secrets, die noch fehlen (npx wrangler secret put <NAME>):
-#   STRIPE_SECRET_KEY       - Stripe Secret Key (sk_live_... / sk_test_...)
-#   STRIPE_WEBHOOK_SECRET   - Signing Secret des Stripe-Webhook-Endpoints (whsec_...)
-#   RESEND_API_KEY          - für den Versand der Magic-Link-E-Mails (resend.com)
-# Bis alle drei gesetzt sind, bleiben /auth/* und /stripe/webhook inaktiv
-# (liefern bewusst einen Hinweis-Fehler statt eines stillen Fehlschlags).
+# Secrets (gesetzt per npx wrangler secret put <NAME>, nie im Repo):
+#   STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, RESEND_API_KEY
+# Fehlt eines davon, liefern /auth/*, /stripe/webhook und /billing/portal
+# bewusst einen Hinweis-Fehler statt eines stillen Fehlschlags.
+
+# Täglicher Cron Trigger: prüft Jahreslizenzen auf bevorstehenden Ablauf
+# (14 Tage vorher) und verschickt einmalig eine Erinnerungsmail, siehe
+# runExpiryReminders() in index.mjs. 8 Uhr UTC = 9/10 Uhr deutsche Zeit.
+[triggers]
+crons = ["0 8 * * *"]

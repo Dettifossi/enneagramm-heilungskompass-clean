@@ -207,6 +207,30 @@ async function sendMagicLinkEmail(email, link, apiKey) {
   if (!res.ok) throw new Error(`Resend-Fehler ${res.status}: ${await res.text()}`);
 }
 
+// Direkt nach dem Kauf der Jahreslizenz verschickt, NICHT erst bei der
+// 14-Tage-Erinnerung (siehe sendExpiryReminderEmail weiter unten) - der
+// Kunde soll von Anfang an wissen, dass die Lizenz eine einmalige Zahlung
+// ohne automatische Verlängerung ist, nicht erst kurz vor Ablauf.
+async function sendYearlyPurchaseConfirmationEmail(email, expiresAt, apiKey) {
+  const formattedDate = new Date(expiresAt).toLocaleDateString("de-DE", {
+    day: "2-digit", month: "2-digit", year: "numeric",
+  });
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      from: "Wegweiser <wegweiser@verlagshausrathmer.com>",
+      to: [email],
+      subject: "Deine Wegweiser-Premium-Jahreslizenz ist aktiv",
+      html: `<p>Hallo,</p><p>vielen Dank für deinen Kauf! Deine Wegweiser-Premium-Jahreslizenz ist ab sofort aktiv und läuft bis zum <strong>${formattedDate}</strong>.</p><p><strong>Wichtig:</strong> Es handelt sich um eine einmalige Zahlung ohne automatische Verlängerung. Dein Zugang erlischt an diesem Datum automatisch, falls du nicht selbst rechtzeitig verlängerst. Du bekommst rund 14 Tage vorher noch einmal eine Erinnerung von uns.</p><p>Zum Einloggen im Wegweiser einfach im Chat-Fenster auf "Anmelden" klicken und deine E-Mail-Adresse eingeben - du bekommst dann einen Zugangslink per Mail.</p>`,
+    }),
+  });
+  if (!res.ok) throw new Error(`Resend-Fehler ${res.status}: ${await res.text()}`);
+}
+
 async function getSubscriberStatus(env, email) {
   const raw = await env.SUBSCRIBERS.get(email.toLowerCase());
   if (!raw) return null;
@@ -356,6 +380,13 @@ async function handleStripeWebhook(request, env) {
             stripeCustomerId: session.customer,
             expiresAt,
           });
+          if (env.RESEND_API_KEY) {
+            try {
+              await sendYearlyPurchaseConfirmationEmail(email, expiresAt, env.RESEND_API_KEY);
+            } catch (err) {
+              console.error(`Kaufbestätigung fehlgeschlagen für ${email}:`, err.message);
+            }
+          }
         }
       }
       break;
@@ -484,7 +515,66 @@ async function handleAsk(request, env) {
   return jsonResponse(request, { answer, sources });
 }
 
+// ---------------------------------------------------------------------------
+// Ablauf-Erinnerung für die Jahreslizenz (einmalige Zahlung, kein Stripe-Abo,
+// siehe isSubscriberActive/expiresAt). Läuft täglich als Cloudflare Cron
+// Trigger (siehe wrangler.toml [triggers]), scannt SUBSCRIBERS und schickt
+// 14 Tage vor Ablauf einmalig eine Erinnerungsmail. reminderSent verhindert
+// mehrfachen Versand; wird bei einer Verlängerung automatisch zurückgesetzt,
+// weil setSubscriberStatus() den Datensatz beim nächsten Checkout komplett
+// neu schreibt (siehe handleStripeWebhook).
+const REMINDER_WINDOW_DAYS = 14;
+
+function daysUntil(isoDate) {
+  const ms = new Date(isoDate).getTime() - Date.now();
+  return ms / (24 * 60 * 60 * 1000);
+}
+
+async function sendExpiryReminderEmail(email, expiresAt, apiKey) {
+  const formattedDate = new Date(expiresAt).toLocaleDateString("de-DE", {
+    day: "2-digit", month: "2-digit", year: "numeric",
+  });
+  const renewLink = "https://buy.stripe.com/6oU00j9sQ3Ca9hw5354gg3M";
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      from: "Wegweiser <wegweiser@verlagshausrathmer.com>",
+      to: [email],
+      subject: "Dein Wegweiser-Premium-Jahreszugang läuft bald ab",
+      html: `<p>Hallo,</p><p>dein Wegweiser-Premium-Jahreszugang läuft am <strong>${formattedDate}</strong> ab.</p><p>Die Jahreslizenz ist eine <strong>einmalige Zahlung ohne automatische Verlängerung</strong> – dein Zugang erlischt an diesem Datum automatisch, falls du nicht selbst rechtzeitig verlängerst.</p><p>Falls du weiter Zugriff auf die Bücher-Wissensbasis im Wegweiser haben möchtest, kannst du hier verlängern:</p><p><a href="${renewLink}">${renewLink}</a></p><p>Falls du nicht verlängern möchtest, musst du nichts tun.</p>`,
+    }),
+  });
+  if (!res.ok) throw new Error(`Resend-Fehler ${res.status}: ${await res.text()}`);
+}
+
+async function runExpiryReminders(env) {
+  if (!env.RESEND_API_KEY) return;
+  const list = await env.SUBSCRIBERS.list();
+  for (const key of list.keys) {
+    const raw = await env.SUBSCRIBERS.get(key.name);
+    if (!raw) continue;
+    const sub = JSON.parse(raw);
+    if (!isSubscriberActive(sub) || !sub.expiresAt || sub.reminderSent) continue;
+    const days = daysUntil(sub.expiresAt);
+    if (days > 0 && days <= REMINDER_WINDOW_DAYS) {
+      try {
+        await sendExpiryReminderEmail(key.name, sub.expiresAt, env.RESEND_API_KEY);
+        await setSubscriberStatus(env, key.name, { ...sub, reminderSent: true });
+      } catch (err) {
+        console.error(`Erinnerungsmail fehlgeschlagen für ${key.name}:`, err.message);
+      }
+    }
+  }
+}
+
 export default {
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(runExpiryReminders(env));
+  },
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
       return new Response(null, { headers: corsHeaders(request) });
