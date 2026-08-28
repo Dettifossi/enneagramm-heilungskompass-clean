@@ -32146,6 +32146,10 @@ const BIBEL_PORTRAITS = [
     heading:"Die Samariterin am Jakobsbrunnen – Sozialer Typ 7",
     teaser:"SO7w6 · Die Begeisterte, die ruft. Jesus spiegelt ihr Leben ohne Anklage – und sie lässt den Krug stehen, um der ganzen Stadt zuzurufen: »Kommt und seht!«",
     land:"Samaria", tags:["Bibel"], gender:"f"},
+  { route:"bibel-johannes-der-geliebte", name:"Johannes, der geliebte Jünger", added:"2026-08-28", subtyp:"SX7w6",
+    heading:"Johannes, der geliebte Jünger – Sexueller Typ 7",
+    teaser:"SX7w6 · Der Blick ins Licht, das nicht vergeht. Der Jünger, der an Jesu Brust lag, unter dem Kreuz blieb und sein Evangelium mit dem Wort begann: »Im Anfang war das Licht.«",
+    land:"Judäa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44316,12 +44320,12 @@ const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Schimpanse",
     kernthema: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment (Naranjo: Suggestibilität)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch", "Dr. Jill Pruetz"],
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch", "Dr. Jill Pruetz", "Johannes, der geliebte Jünger"],
     fingerabdruecke: [
       {
         titel: "Vollständige Verschmelzung mit einer Idee, Person oder einem Moment",
         beschreibung: "Naranjo nannte diesen Subtyp den der ›Suggestibilität‹: Statt Begeisterung zu streuen, bündelt sich die gesamte Intensität auf einen einzigen Punkt – eine Überzeugung, einen Menschen, eine Sache –, mit einer Kraft, die keine halben Bindungen kennt.",
-        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war; Prof. Dr. Frans de Waal, der den direkten, persönlichen intellektuellen Austausch mit Einzelnen suchte statt sich in institutionellen Netzwerken zu verlieren, und dessen Spätwerk sich fast ausschließlich der einen Frage nach Empathie und Bindung widmete; Prof. Dr. Christophe Boesch, der fünf Jahre mit seiner jungen Familie im unerschlossenen Regenwald lebte, um eine einzige wilde Schimpansengruppe zu erforschen – keine halben Sachen, sondern volle, riskante Hingabe; Dr. Jill Pruetz, die bewusst eines der unwirtlichsten Terrains der Primatenforschung wählte und jeden einzelnen Schimpansen ihrer Gruppe beim Namen kennt – eine tief individuelle, hoch persönliche Verbindung statt distanzierter Beobachtung."
+        beleg: "Gudrun Ensslin: ›Sie verschmilzt vollständig mit einer Idee, einem Menschen, einer Vision – und wird von dieser Verschmelzung buchstäblich fortgerissen … Wenn die neue Überzeugung da ist, wird das alte Leben vollständig abgeworfen‹; Victor Lustig: ›Eine Fähigkeit, sich vollständig in eine Idee, eine Person, einen Moment hineinzuversetzen – und dabei so überzeugend zu wirken, dass die eigene Begeisterung ansteckend wird‹; Clyde Barrow, dessen ›gesamtes Leben von ständiger Bewegung, immer neuen Fluchtwegen‹ geprägt war; Prof. Dr. Frans de Waal, der den direkten, persönlichen intellektuellen Austausch mit Einzelnen suchte statt sich in institutionellen Netzwerken zu verlieren, und dessen Spätwerk sich fast ausschließlich der einen Frage nach Empathie und Bindung widmete; Prof. Dr. Christophe Boesch, der fünf Jahre mit seiner jungen Familie im unerschlossenen Regenwald lebte, um eine einzige wilde Schimpansengruppe zu erforschen – keine halben Sachen, sondern volle, riskante Hingabe; Dr. Jill Pruetz, die bewusst eines der unwirtlichsten Terrains der Primatenforschung wählte und jeden einzelnen Schimpansen ihrer Gruppe beim Namen kennt – eine tief individuelle, hoch persönliche Verbindung statt distanzierter Beobachtung; Johannes, der geliebte Jünger, der beim letzten Abendmahl an Jesu Brust lag, nicht aus Bedürftigkeit, sondern weil seine Seele wissen wollte, was nicht gesagt werden konnte – und dessen ganzes Evangelium später aus dieser einen Verschmelzung heraus geschrieben wurde: ›Wir haben seine Herrlichkeit gesehen.‹"
       },
       {
         titel: "Ansteckende Intensität, die eine ganze Gruppe oder einen ganzen Raum mitreißt",
@@ -54713,6 +54717,7 @@ function morganFreemanPortraitPage() {
         {route:"beruehmte-thomas-gottschalk", label:"Portr\xe4t: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
         {route:"krankheitsportraets-morgan-freeman", label:"Krankheitsporträt: Morgan Freeman (SX7w6) – Fibromyalgie seit 2008"},
+        {route:"bibel-johannes-der-geliebte", label:"Bibel-Porträt: Johannes, der geliebte Jünger (SX7w6)"},
       ])}
     </div>
   `);
@@ -95267,6 +95272,85 @@ function samariterinAmJakobsbrunnenPage() {
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
+        {route:"bibel-johannes-der-geliebte", label:"Bibel-Porträt: Johannes, der geliebte Jünger (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesDerGeliebtePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-johannes-der-geliebte-portrait.jpg" alt="Johannes, der geliebte Jünger – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes, der geliebte Jünger</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Blick ins Licht, das nicht vergeht – Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Der Jünger, den Jesus liebte, lag an seiner Brust.« (Joh 13,23)</p>
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – hochsensibel für Beziehung, aufmerksam für feinste Regungen, ganz auf die eine intensive Verbindung ausgerichtet, die mehr verspricht als das Gewöhnliche. Er sprach nicht viel. Aber wenn er sprach, spürte man: Er hatte gesehen. Johannes war jünger als die anderen, nicht naiv, sondern hellhörig, nicht ungestüm, sondern empfindsam mit einem inneren Leuchten. Er war nicht laut wie Petrus, nicht tief verwundet wie Thomas. Er war da, mit offenen Augen und einem Herzen, das auf Lichtresonanz eingestellt war.</p>
+          <p class="vb-intro">Die SX7 sucht das Höhere im Nahen, die Ewigkeit im Moment. Sie will sich verlieren, um mehr zu empfangen. Jesus spürte das. Vielleicht war das der Grund, warum Johannes immer wieder nah war, nicht als Liebling, sondern als Sehender. Am Abend, als Jesus vom Verrat sprach, lag Johannes an seiner Brust, nicht aus Bedürftigkeit, sondern weil seine Seele wissen wollte, was nicht gesagt werden konnte. Er fragte nicht direkt: »Wer ist es, der dich verraten wird?« Er fragte leise, durch die Nähe, durch das Atmen, durch Dasein im Vertrauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Die Schwingung der Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus antwortete ihm nicht mit Worten. Er tauchte ein Brotstück und reichte es. Ein Zeichen. Und Johannes verstand, nicht alles, aber genug, um zu bleiben. Er suchte keinen Beweis, keine Versicherung, nur die Schwingung der Wahrheit. Die sexuelle Sieben liebt die Welt, aber sie ist nie ganz von hier. Sie trägt einen Ruf in sich, der nicht aufhört zu leuchten. Als die anderen später flohen, stand Johannes noch da, nicht weil er stärker war, sondern weil er verbundener war als seine Angst.</p>
+          <p class="vb-intro">Er stand da, nicht wie ein Held, nicht wie ein Sprecher, einfach nur stehend. Die anderen waren geflohen, Angst, Entsetzen, Ohnmacht. Aber Johannes blieb. Eine sexuelle Sieben verlässt selten den Ort, wo ihr Herz sich gebunden hat, nicht weil sie stark ist, sondern weil sie tief gebunden ist, in einem Ideal, in einer Hoffnung, in einer Wahrheit, die größer ist als ihr persönliches Ich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue als leiser innerer Kompass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sexuellen Sieben eine loyale, verbindliche Qualität – die Sehnsucht nach dem Höheren äußert sich nicht in ungestümem Drang, sondern in stiller, verlässlicher Treue, die auch in der dunkelsten Stunde nicht weicht. Die Sonne brannte, der Staub hing still, ein Körper hing am Kreuz, und das Licht schien ausgelöscht. Aber Johannes sah, und sein Blick war nicht leer, er war gefüllt, mit Fragen, mit Liebe, mit Schmerz, aber auch mit einer Art strahlender Gewissheit.</p>
+          <p class="vb-intro">Unter dem Kreuz: Maria, die Mutter, einige Frauen, und Johannes, der Jüngste, der an der Brust Jesu gelegen hatte. Jesus sprach: »Frau, siehe, dein Sohn. Siehe, deine Mutter.« Kein Theologe hätte diesen Moment erklären können. Aber Johannes verstand: Er hatte einen Auftrag, nicht aus Pflicht, sondern aus Herzensverbindung. Er nahm Maria zu sich, nicht als Vormund, sondern als jemand, der den Wert von Nähe erkannte, weil er selbst in ihr geheilt worden war. Genau diese stille, verlässliche Treue, die bleibt, wo andere fliehen, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Paradoxon der Nähe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SX7 kennt das Paradoxon: In der größten Nähe kann das eigene Licht manchmal erst wirklich leuchten. Und in der tiefsten Dunkelheit wird sichtbar, was Bestand hat. Johannes blickte zum Kreuz, die Sonne wurde schwächer, die Schatten länger. Aber in seinem Inneren brannte eine Flamme, nicht laut, nicht grell, aber bleibend. Er würde schreiben, erzählen, Zeuge sein, nicht für sich, sondern für das, was er gesehen hatte: Licht, das in die Dunkelheit kam, und nicht erloschen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Evangelium des Lichts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Kreuz kam das Schweigen. Die Auferstehung war geschehen, manche sprachen davon, andere schwiegen. Johannes aber blieb wach. Petrus war fort, Jakobus tot, die anderen zerstreut. Und er schrieb. Die sexuelle Sieben, wenn sie reift, verliert nicht ihre Sehnsucht, sie vertieft sie, sie wandelt das Feuer der Verbindung in ein brennendes Wort. Johannes sammelte, nicht die Geschichten, nicht die Daten, sondern das Wesen. Er wusste: Das Sichtbare war nicht das Ganze. »Im Anfang war das Wort, und das Wort war bei Gott, und das Wort war Gott.«</p>
+          <p class="vb-intro">Er begann nicht mit Maria, nicht mit Bethlehem, nicht mit Sternen. Er begann mit Licht. Sein Evangelium war kein Protokoll, es war das Bekenntnis eines Geliebten, nicht aus Schwärmerei, sondern aus Erkenntnis. Er hatte geliebt, und er war geliebt worden, und das hatte ihn bewahrt, getragen, und jetzt ließ es ihn leuchten. Die sexuelle Sieben sucht das Ideal, nicht um ihm zu entkommen, sondern um sich in ihm selbst zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Zeuge des Lichts, das nicht vergeht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Johannes schrieb: »Wir haben seine Herrlichkeit gesehen, eine Herrlichkeit voller Gnade und Wahrheit.« Und während andere sich an Geschichten hielten, war Johannes der, der das Unsichtbare mit Worten einhüllte, damit es spürbar wurde. Er war alt geworden, manche nannten ihn den Seher, andere den Mystiker. Er selbst aber fühlte sich nur als Zeuge: »Was wir gesehen haben, was wir gehört haben, das verkünden wir euch, damit auch ihr Gemeinschaft habt.« Das ist das Geschenk der SX7w6: eine Sehnsucht, die reift, statt zu verglühen, ein Schimpanse, der lernt, dass die tiefste Verbindung nicht im Besitz des anderen liegt, sondern im treuen Zeugnis dessen, was Liebe wirklich vermag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Johannes, der Geliebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Johannes ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/kv4pxB6-GAQ?rel=0" title="Johannes, der Geliebte" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
       ])}
     </div>
   `);
@@ -135425,6 +135509,7 @@ function render() {
       "bibel-petrus": petrusPage,
       "bibel-lazarus": lazarusPage,
       "bibel-samariterin-am-jakobsbrunnen": samariterinAmJakobsbrunnenPage,
+      "bibel-johannes-der-geliebte": johannesDerGeliebtePage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

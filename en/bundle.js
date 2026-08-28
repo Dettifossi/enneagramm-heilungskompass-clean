@@ -174,6 +174,10 @@ const BIBEL_PORTRAITS = [
     heading:"The Samaritan Woman at Jacob's Well – Social Type 7",
     teaser:"SO7w6 · The enthusiast who calls out. Jesus mirrors her life without accusation – and she leaves her jar to call the whole town: \"Come and see!\"",
     land:"Samaria", tags:["Bible"], gender:"f"},
+  { route:"bibel-johannes-der-geliebte", name:"John, the Beloved Disciple", added:"2026-08-28", subtyp:"SX7w6",
+    heading:"John, the Beloved Disciple – Sexual Type 7",
+    teaser:"SX7w6 · The gaze into the light that never fades. The disciple who rested at Jesus's chest, stayed beneath the cross, and began his gospel with the word: \"In the beginning was the Light.\"",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -22633,6 +22637,7 @@ function morganFreemanPortraitPage() {
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
         {route:"krankheitsportraets-morgan-freeman", label:"Illness Portrait: Morgan Freeman (SX7w6) – fibromyalgia since 2008"},
+        {route:"bibel-johannes-der-geliebte", label:"Bible Portrait: John, the Beloved Disciple (SX7w6)"},
       ])}
     </div>
   `);
@@ -44545,12 +44550,12 @@ const LEBENSMUSTERKOMPASS = {
   SX7: {
     tier: "Chimpanzee",
     kernthema: "Complete merging with an idea, person, or moment (Naranjo: Suggestibility)",
-    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch", "Dr. Jill Pruetz"],
+    beispiele: ["Caroline Peters", "Thomas Gottschalk", "Miley Cyrus", "Morgan Freeman", "Leonard Bernstein", "Ina Müller", "Robert Schumann", "Franz Liszt", "Shakira", "Boris Becker", "Gudrun Ensslin", "Sean 'P. Diddy' Combs", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig", "Ronnie Biggs", "Prof. Dr. Frans de Waal", "Prof. Dr. Christophe Boesch", "Dr. Jill Pruetz", "John, the Beloved Disciple"],
     fingerabdruecke: [
       {
         titel: "Complete merging with an idea, person, or moment",
         beschreibung: "Naranjo called this subtype the one of 'Suggestibility': instead of spreading enthusiasm, the entire intensity bundles onto a single point – a conviction, a person, a cause – with a force that knows no half-commitments.",
-        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes'; Prof. Dr. Frans de Waal, who sought direct, personal intellectual exchange with individuals rather than losing himself in institutional networks, and whose late work devoted itself almost exclusively to the single question of empathy and bonding; Prof. Dr. Christophe Boesch, who lived five years with his young family in untamed rainforest to study a single wild chimpanzee community – no half measures, but full, risky devotion; Dr. Jill Pruetz, who deliberately chose one of the harshest terrains in primatology and knows every single chimpanzee in her group by name – a deeply individual, highly personal bond rather than distant observation."
+        beleg: "Gudrun Ensslin: 'She merges completely with an idea, a person, a vision – and is literally swept away by that merging ... Once the new conviction is there, the old life is completely cast off'; Victor Lustig: 'An ability to fully immerse himself in an idea, a person, a moment – and to appear so convincing that his own enthusiasm becomes contagious'; Clyde Barrow, whose 'entire life was shaped by constant movement, ever new escape routes'; Prof. Dr. Frans de Waal, who sought direct, personal intellectual exchange with individuals rather than losing himself in institutional networks, and whose late work devoted itself almost exclusively to the single question of empathy and bonding; Prof. Dr. Christophe Boesch, who lived five years with his young family in untamed rainforest to study a single wild chimpanzee community – no half measures, but full, risky devotion; Dr. Jill Pruetz, who deliberately chose one of the harshest terrains in primatology and knows every single chimpanzee in her group by name – a deeply individual, highly personal bond rather than distant observation; John, the beloved disciple, who at the Last Supper rested against Jesus's chest, not out of neediness, but because his soul wanted to know what could not be said – and whose entire gospel was later written out of that one merging: 'We have seen his glory.'"
       },
       {
         titel: "Contagious intensity that sweeps up an entire group or room",
@@ -67193,6 +67198,85 @@ function samariterinAmJakobsbrunnenPage() {
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"bibel-lazarus", label:"Bible Portrait: Lazarus (SE7w6)"},
+        {route:"bibel-johannes-der-geliebte", label:"Bible Portrait: John, the Beloved Disciple (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesDerGeliebtePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-johannes-der-geliebte-portrait.jpg" alt="John, the Beloved Disciple – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John, the Beloved Disciple</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The gaze into the light that never fades – Animal correspondence: Chimpanzee</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Animal correspondence: Chimpanzee" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"The disciple whom Jesus loved was reclining at his side." (John 13:23)</p>
+
+        <h2 class="vb-section">1. The Chimpanzee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven – highly sensitive to relationship, attentive to the finest movements, entirely oriented toward the one intense bond that promises more than the ordinary. He did not speak much. But when he spoke, one felt: he had seen. John was younger than the others, not naive, but keenly attuned, not impetuous, but sensitive with an inner glow. He was not loud like Peter, not deeply wounded like Thomas. He was present, with open eyes and a heart tuned to the resonance of light.</p>
+          <p class="vb-intro">The SX7 seeks the higher within the near, eternity within the moment. It wants to lose itself in order to receive more. Jesus sensed this. Perhaps that was why John was always close, not as a favorite, but as one who saw. In the evening, when Jesus spoke of betrayal, John lay against his chest, not out of neediness, but because his soul wanted to know what could not be said. He did not ask directly: "Who is it that will betray you?" He asked quietly, through closeness, through breathing, through simply being present in trust.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: The Vibration of Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus did not answer him with words. He dipped a piece of bread and gave it to him. A sign. And John understood, not everything, but enough to stay. He sought no proof, no assurance, only the vibration of truth. The sexual Seven loves the world, but it is never entirely of it. It carries within itself a call that never stops glowing. When the others fled later, John still stood there, not because he was stronger, but because he was more bound than his fear.</p>
+          <p class="vb-intro">He stood there, not like a hero, not like a spokesman, simply standing. The others had fled, fear, horror, helplessness. But John stayed. A sexual Seven rarely leaves the place where its heart has bound itself, not because it is strong, but because it is deeply bound, to an ideal, to a hope, to a truth greater than its personal self.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty as a Quiet Inner Compass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the sexual Seven a loyal, committed quality – the longing for the higher does not express itself in impetuous drive, but in quiet, reliable faithfulness that does not yield even in the darkest hour. The sun burned, the dust hung still, a body hung on the cross, and the light seemed extinguished. But John saw, and his gaze was not empty, it was filled, with questions, with love, with pain, but also with a kind of radiant certainty.</p>
+          <p class="vb-intro">Beneath the cross: Mary, the mother, some women, and John, the youngest, who had rested against Jesus's chest. Jesus said: "Woman, behold your son." "Behold your mother." No theologian could have explained this moment. But John understood: he had a task, not out of duty, but out of a bond of the heart. He took Mary to himself, not as a guardian, not as a substitute son, but as someone who recognized the value of closeness because he himself had been healed within it. This exact quiet, reliable faithfulness that remains where others flee carries the signature of the Six-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Paradox of Closeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The SX7 knows the paradox: in the greatest closeness, one's own light can sometimes only truly shine. And in the deepest darkness, what endures becomes visible. John looked toward the cross, the sun grew weaker, the shadows longer. But within him a flame burned, not loud, not glaring, but lasting. He would write, tell, bear witness, not for himself, but for what he had seen: light that came into the darkness, and has not gone out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gospel of Light</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the cross came silence. The resurrection had happened, some spoke of it, others were silent. But John stayed awake. Peter was gone, James dead, the others scattered. And he wrote. The sexual Seven, when it matures, does not lose its longing, it deepens it, it transforms the fire of connection into a burning word. John gathered, not the stories, not the data, but the essence. He knew: the visible was not the whole. "In the beginning was the Word, and the Word was with God, and the Word was God."</p>
+          <p class="vb-intro">He did not begin with Mary, not with Bethlehem, not with stars. He began with light. His gospel was no protocol, it was the confession of a beloved, not out of infatuation, but out of recognition. He had loved, and he had been loved, and that had preserved him, carried him, and now let him shine. The sexual Seven seeks the ideal, not to escape it, but to lose itself within it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: A Witness to the Light That Does Not Fade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">John wrote: "We have seen his glory, glory as of the only Son from the Father, full of grace and truth." And while others held onto stories, John was the one who wrapped the invisible in words so it could be felt. He had grown old, some called him the seer, others the mystic. He himself felt only like a witness: "That which we have seen and heard we proclaim also to you, so that you too may have fellowship with us." This is the gift of the SX7w6: a longing that matures instead of burning out, a chimpanzee that learns the deepest bond does not lie in possessing the other, but in the faithful witness of what love can truly do.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: John, the Beloved</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for John, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/kv4pxB6-GAQ?rel=0" title="John, the Beloved" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bible Portrait: The Samaritan Woman at Jacob's Well (SO7w6)"},
       ])}
     </div>
   `);
@@ -99723,6 +99807,7 @@ function subtypeSchaubilderPage() {
       "bibel-petrus": petrusPage,
       "bibel-lazarus": lazarusPage,
       "bibel-samariterin-am-jakobsbrunnen": samariterinAmJakobsbrunnenPage,
+      "bibel-johannes-der-geliebte": johannesDerGeliebtePage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
