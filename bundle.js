@@ -32154,6 +32154,10 @@ const BIBEL_PORTRAITS = [
     heading:"Der Hauptmann unter dem Kreuz – Selbsterhaltender Typ 8",
     teaser:"SE8w9 · Der Beschützer, der sich öffnet. Ein römischer Centurio, dessen Panzer beim Anblick von Jesu Tod ohne Umweg zerbricht: »Wahrlich, dieser Mensch war Gottes Sohn.«",
     land:"Judäa", tags:["Bibel"], gender:"m"},
+  { route:"bibel-kaiphas", name:"Der Hohepriester Kaiphas", added:"2026-08-28", subtyp:"SO8w9",
+    heading:"Der Hohepriester Kaiphas – Sozialer Typ 8",
+    teaser:"SO8w9 · Der Wächter der Ordnung. »Es ist besser, dass ein Mensch stirbt, als dass das ganze Volk zugrunde geht« – bis ein einziger stiller Blick Jesu die Risse in seinem eigenen Fundament sichtbar macht.",
+    land:"Judäa", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44270,12 +44274,12 @@ const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Löwe",
     kernthema: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird (Naranjo: Freundschaft und Bruderschaft)",
-    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht"],
+    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht", "Der Hohepriester Kaiphas"],
     fingerabdruecke: [
       {
         titel: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird",
         beschreibung: "Naranjo beschrieb diesen Subtyp als den Typus der ›Freundschaft und Bruderschaft‹: Stärke dient nicht der persönlichen Selbstbehauptung, sondern dem Schutz und Zusammenhalt einer Gemeinschaft, für die man sich verantwortlich fühlt.",
-        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹; Cynthia Lummis, die seit Jahrzehnten für einen der bevölkerungsärmsten und in Washington oft übersehenen US-Bundesstaaten kämpft – konkret für Rancher, Bergarbeiter und Wähler, die sie kennt, statt für ferne ideologische Debatten; Mohammed ibn Abdullah, der als Waise aufwuchs und sich zeitlebens für die Rechtlosesten seiner Gesellschaft einsetzte – Waisen, Witwen, Sklaven; Dr. Laurence Frank, der sein Leben nicht nur den Löwen, sondern zugleich den Massai widmete, die mit ihnen leben mussten – Stärke im Dienst zweier Gemeinschaften zugleich; Natascha Ochsenknecht, die auch nach der Scheidung von Uwe Ochsenknecht und trotz offener Konflikte innerhalb der Familie das verbindende Zentrum blieb – zuletzt sichtbar in der gemeinsamen Reality-Doku mit ihren erwachsenen Kindern."
+        beleg: "Michelle Obama: ›Stärke ist hier kein Selbstzweck – sie ist im Dienst des Wir. Der Löwe schützt sein Rudel. Michelle Obama schützt ihr Volk‹; Carsten Stahl: ›Seine Kraft ist nicht für sich selbst – sie ist für die, die neben ihm stehen. Wenn Schwache bedroht werden, steht der Löwe auf‹; Karl Marx: ›Er kämpfte nicht für sich. Er kämpfte für ein Rudel, das er nie persönlich kannte: die Arbeiterklasse der ganzen Welt.‹; Cynthia Lummis, die seit Jahrzehnten für einen der bevölkerungsärmsten und in Washington oft übersehenen US-Bundesstaaten kämpft – konkret für Rancher, Bergarbeiter und Wähler, die sie kennt, statt für ferne ideologische Debatten; Mohammed ibn Abdullah, der als Waise aufwuchs und sich zeitlebens für die Rechtlosesten seiner Gesellschaft einsetzte – Waisen, Witwen, Sklaven; Dr. Laurence Frank, der sein Leben nicht nur den Löwen, sondern zugleich den Massai widmete, die mit ihnen leben mussten – Stärke im Dienst zweier Gemeinschaften zugleich; Natascha Ochsenknecht, die auch nach der Scheidung von Uwe Ochsenknecht und trotz offener Konflikte innerhalb der Familie das verbindende Zentrum blieb – zuletzt sichtbar in der gemeinsamen Reality-Doku mit ihren erwachsenen Kindern; der Hohepriester Kaiphas, der als Wächter eines ganzen Volkes handelte, nicht aus persönlicher Machtgier: ›Es ist besser, dass ein Mensch stirbt, als dass das ganze Volk zugrunde geht‹ – ein Satz, in dem nicht der Zorn sprach, sondern die Verantwortung."
       },
       {
         titel: "Bloße Präsenz genügt – kein ständiges Brüllen nötig",
@@ -52802,6 +52806,7 @@ function karlMarxPortraitPage() {
         {route:"beruehmte-jamaica-kincaid", label:"Portr\u00e4t: Jamaica Kincaid (SO8w9)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6) \u2013 dessen Dialektik er \u203avom Kopf auf die F\u00fc\u00dfe\u2039 stellte"},
         {route:"krankheitsportraets-karl-marx", label:"Krankheitsporträt: Karl Marx (SO8w9)"},
+        {route:"bibel-kaiphas", label:"Bibel-Porträt: Der Hohepriester Kaiphas (SO8w9)"},
       ])}
     </div>
   `);
@@ -95436,6 +95441,87 @@ function derHauptmannUnterDemKreuzPage() {
         {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9)"},
         {route:"bibel-johannes-der-geliebte", label:"Bibel-Porträt: Johannes, der geliebte Jünger (SX7w6)"},
+        {route:"bibel-kaiphas", label:"Bibel-Porträt: Der Hohepriester Kaiphas (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function kaiphasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-kaiphas-portrait.jpg" alt="Der Hohepriester Kaiphas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Der Hohepriester Kaiphas</p>
+        <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Wächter der Ordnung – Tierentsprechung: Löwe</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Tierentsprechung: Löwe" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Ihr versteht nichts; ihr bedenkt nicht, dass es besser ist, wenn ein einziger Mensch für das Volk stirbt, als dass das ganze Volk zugrunde geht.« (Joh 11,50)</p>
+
+        <h2 class="vb-section">1. Der Löwe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier der sozialen Acht – er verteidigt nicht sich selbst, sondern das Rudel, das System, das Kollektiv, mit einer Autorität, die niemand infrage stellt, auch wenn sie dafür gehasst wird. Er hatte früh gelernt, dass Führung kein Privileg war, sondern Last. Kaiphas war kein Träumer, kein Theoretiker. Er kannte die politischen Spannungen, die Risse in der Tempelmauer, die Unruhe im Volk. Er war Priester, aber zuerst: Verwalter eines bedrohten Gleichgewichts.</p>
+          <p class="vb-intro">Rom atmete ihm im Nacken, die Zeloten zündelten im Untergrund, das Volk war gläubig, aber unberechenbar. Kaiphas war nicht zum Hohepriester geboren, aber er hatte sich hineingebissen, gelernt, den Rat zu führen, ohne zu schreien, Respekt zu erzeugen, ohne geliebt zu werden. Die soziale Acht strebt nicht nach Beliebtheit. Sie verteidigt das Kollektiv, selbst wenn sie dafür gehasst wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Machtverantwortung statt Machtgier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er trug das Brustschild des Amtes wie eine zweite Haut. Er kannte das Gesetz und auch die Grauzonen. Er kannte die Macht, aber er war nicht machtgierig, er war machtverantwortlich. Wenn etwas einstürzte, würde er darunter liegen, nicht die Pharisäer, nicht das Volk, er. Dann kam dieser Mann, wortgewaltig, mit den Armen, mit den Frauen, mit den Krüppeln und den Kindern. Jesus von Nazareth. Kaiphas hatte ihn beobachtet, nicht aus Neugier, aus Pflicht.</p>
+          <p class="vb-intro">Was er sah, machte ihm keine Angst, aber es beunruhigte ihn, nicht weil Jesus Gesetze brach, sondern weil er Menschen verband, ohne Machtmittel. Kaiphas spürte: Das war gefährlich, nicht für ihn, nicht für den Tempel, sondern für das, was das Volk zusammenhielt. Er berief den Hohen Rat, wog Worte ab, ließ Stimmen sprechen. Und dann sagte er: »Ihr versteht nichts.« Und in ihm sprach nicht der Zorn, sondern die Verantwortung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Schwere, in sich ruhende Ordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Acht eine gewichtige, tief in sich ruhende Autorität – sie herrscht nicht durch charismatische Dynamik, sondern durch bedächtiges, fast unerschütterliches Abwägen des Rechts. Die Nacht hatte sich über Jerusalem gesenkt wie ein Mantel aus Granit. Kaiphas saß allein im Inneren des Tempelkomplexes. Nun war Stille, doch es war keine friedliche Stille, sondern die aufgeladene Spannung vor einem Gewitter.</p>
+          <p class="vb-intro">Er erinnerte sich an seine eigenen Worte, gesprochen mit der Autorität eines Mannes, der sich sicher wähnt: »Es ist besser, dass ein Mensch stirbt, als dass das ganze Volk zugrunde geht.« In diesem Satz lag das ganze Dilemma: Ordnung oder Gnade, Stabilität oder Wahrheit. Und plötzlich, in der Stille dieser Nacht, überkam ihn die Ahnung, dass das, was er als Ordnung verteidigte, in Wahrheit vielleicht schon lange keine war. Genau dieses schwere, wortkarge Ringen im Verborgenen, statt im lauten Auftritt, trägt die Handschrift des Neunerflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Brüche im eigenen Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Tage nach dem Prozess waren wie in Nebel gehüllt. Kaiphas war nicht müde, sondern innerlich ausgelaugt, wie eine Mauer, die über Jahrzehnte jedem Sturm getrotzt hatte, nun aber haarfeine Risse in sich spürte. Er hatte die Ordnung gewahrt, das System vor dem Chaos geschützt. Aber tief in ihm meldete sich eine andere Stimme, keine laute, eine leise. War es wirklich Gottes Wille gewesen, was dort vor sich ging? Hatte er aus Pflicht oder aus Angst gehandelt?</p>
+          <p class="vb-intro">Er schloss die Augen und sah das Gesicht Jesu, still und aufrecht, nicht trotzig, sondern durchdringend. Kaiphas hatte diesen Blick zuerst als Herausforderung empfunden. Doch nun erschien er ihm wie eine Einladung, nicht zu Rebellion, nicht zu Auflösung, sondern zu Wahrheit. In der Stille, verborgen vor aller Welt, kam ihm das erste Mal ein schlichtes Gebet über die Lippen: »Herr, wenn ich gefehlt habe, lass mich nicht in der Lüge erstarren.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Macht verliert ihren Halt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Woche nach dem Tod Jesu brachte Unruhe, nicht wie ein Aufstand, sondern wie eine Verdichtung. Ein Gerücht durchlief die Stadt: Der Gekreuzigte sei nicht mehr im Grab. Er hörte davon, nicht wie ein neugieriger Beobachter, sondern wie ein Mann, dem man ein vertrautes Fundament entzogen hatte. Und in Kaiphas wuchs keine Wut, sondern etwas anderes: Erschöpfung. Die soziale Acht lebt aus Überzeugung. Aber wenn das, woran sie geglaubt hat, brüchig wird, dann beginnt nicht ein äußerer Sturm, sondern ein innerer Zerfall.</p>
+          <p class="vb-intro">Er sah wieder diesen Blick, den einen, stillen, letzten Blick Jesu, und zum ersten Mal wagte er zu denken: Was, wenn er tatsächlich… Er sprach es nicht aus, aber es war da, ein Gedanke, der ihn nicht losließ. Er erinnerte sich an Mose, an Elia, an Jeremia, und dachte: Sie waren alle unbequem, alle wurden bekämpft, nicht weil sie Unrecht taten, sondern weil sie das Unsagbare wagten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Nicht mehr blind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Jahre vergingen. Kaiphas blieb Hohepriester, führte das Amt weiter, sorgte für Ordnung. Er war kein gebrochener Mann, nicht äußerlich. Aber etwas in ihm war still geworden, nicht aus Schwäche, sondern aus Einsicht. Eines Morgens blickte er in den polierten Bronze-Spiegel und flüsterte: »Wenn er es wirklich war, dann möge er mich finden.« Er war nicht bekehrt, er war nicht erlöst, aber: Er war nicht mehr blind.</p>
+          <p class="vb-intro">Die reife soziale Acht erkennt, dass Stärke nicht im Schutz liegt, sondern im Mut, sich zu hinterfragen, und dass nicht jedes Urteil, das man im Namen der Ordnung fällt, vor dem Licht bestehen kann. Das ist das Geschenk der SO8w9: eine Macht, die lernt, dass wahrer Schutz manchmal bedeutet, die eigene Autorität selbst zu prüfen – ein Löwe, dessen Tür sich nur einen Spalt öffnet, aber genug, damit ein anderer Wind ihn erreichen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Der Hüter des Volkes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Kaiphas ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/mCXz3BLUgeo?rel=0" title="Der Hüter des Volkes – Kaiphas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
+        {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
       ])}
     </div>
   `);
@@ -135596,6 +135682,7 @@ function render() {
       "bibel-samariterin-am-jakobsbrunnen": samariterinAmJakobsbrunnenPage,
       "bibel-johannes-der-geliebte": johannesDerGeliebtePage,
       "bibel-der-hauptmann-unter-dem-kreuz": derHauptmannUnterDemKreuzPage,
+      "bibel-kaiphas": kaiphasPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

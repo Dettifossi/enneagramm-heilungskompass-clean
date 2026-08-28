@@ -182,6 +182,10 @@ const BIBEL_PORTRAITS = [
     heading:"The Centurion at the Cross – Self-Preservation Type 8",
     teaser:"SE8w9 · The protector who opens up. A Roman centurion whose armor breaks without detour at the sight of Jesus's death: \"Truly this man was the Son of God.\"",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-kaiphas", name:"High Priest Caiaphas", added:"2026-08-28", subtyp:"SO8w9",
+    heading:"High Priest Caiaphas – Social Type 8",
+    teaser:"SO8w9 · The guardian of order. \"It is better that one man should die than that the whole nation should perish\" – until one silent gaze from Jesus reveals the cracks in his own foundation.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -35288,6 +35292,7 @@ function karlMarxPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6) – whose dialectic he turned 'right side up again'"},
+        {route:"bibel-kaiphas", label:"Bible Portrait: High Priest Caiaphas (SO8w9)"},
       ])}
     </div>
   `);
@@ -44501,12 +44506,12 @@ const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Lion",
     kernthema: "Strength used not for oneself, but for the pride (Naranjo: Friendship and Brotherhood)",
-    beispiele: ["Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank"],
+    beispiele: ["Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank", "High Priest Caiaphas"],
     fingerabdruecke: [
       {
         titel: "Strength used not for oneself, but for the pride",
         beschreibung: "Naranjo described this subtype as the type of 'Friendship and Brotherhood': strength does not serve personal self-assertion, but the protection and cohesion of a community one feels responsible for.",
-        beleg: "Michelle Obama: 'Strength here is not an end in itself – it serves the We. The lion protects its pride. Michelle Obama protects her people'; Carsten Stahl: 'His strength isn't for himself – it's for those standing next to him. When the weak are threatened, the lion rises'; Karl Marx: 'He didn't fight for himself. He fought for a pride he never knew personally: the working class of the whole world.'; Cynthia Lummis, who for decades has fought for one of the least populous US states, often overlooked in Washington – concretely for ranchers, miners, and voters she knows, not distant ideological debates; Mohammed ibn Abdullah, who grew up an orphan and spent his life advocating for the most disenfranchised in his society – orphans, widows, slaves; Dr. Laurence Frank, who devoted his life not only to lions but simultaneously to the Maasai who had to live alongside them – strength in service of two communities at once."
+        beleg: "Michelle Obama: 'Strength here is not an end in itself – it serves the We. The lion protects its pride. Michelle Obama protects her people'; Carsten Stahl: 'His strength isn't for himself – it's for those standing next to him. When the weak are threatened, the lion rises'; Karl Marx: 'He didn't fight for himself. He fought for a pride he never knew personally: the working class of the whole world.'; Cynthia Lummis, who for decades has fought for one of the least populous US states, often overlooked in Washington – concretely for ranchers, miners, and voters she knows, not distant ideological debates; Mohammed ibn Abdullah, who grew up an orphan and spent his life advocating for the most disenfranchised in his society – orphans, widows, slaves; Dr. Laurence Frank, who devoted his life not only to lions but simultaneously to the Maasai who had to live alongside them – strength in service of two communities at once; High Priest Caiaphas, who acted as guardian of an entire people, not out of personal lust for power: 'It is better that one man should die than that the whole nation should perish' – a sentence in which spoke not anger, but responsibility."
       },
       {
         titel: "Mere presence is enough – no constant roaring needed",
@@ -67362,6 +67367,87 @@ function derHauptmannUnterDemKreuzPage() {
         {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9)"},
         {route:"bibel-johannes-der-geliebte", label:"Bible Portrait: John, the Beloved Disciple (SX7w6)"},
+        {route:"bibel-kaiphas", label:"Bible Portrait: High Priest Caiaphas (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function kaiphasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-kaiphas-portrait.jpg" alt="High Priest Caiaphas – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">High Priest Caiaphas</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The guardian of order – Animal correspondence: Lion</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Animal correspondence: Lion" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"You know nothing at all. Nor do you understand that it is better for you that one man should die for the people, not that the whole nation should perish." (John 11:49–50)</p>
+
+        <h2 class="vb-section">1. The Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight – it does not defend itself, but the pride, the system, the collective, with an authority no one questions, even when hated for it. He had learned early that leadership was no privilege, but a burden. Caiaphas was no dreamer, no theorist. He knew the political tensions, the cracks in the temple wall, the unrest among the people. He was a priest, but first: administrator of a threatened balance.</p>
+          <p class="vb-intro">Rome breathed down his neck, the Zealots stirred underground, the people were faithful but unpredictable. Caiaphas had not been born high priest, but he had bitten his way in, learned to lead the council without shouting, to command respect without being loved. The social Eight does not strive for popularity. It defends the collective, even when hated for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Power's Responsibility, Not Power's Greed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He wore the breastplate of his office like a second skin. He knew the law, and the gray zones too. He knew power, but he was not power-hungry, he was power-responsible. If something collapsed, he would lie beneath it, not the Pharisees, not the people, him. Then came this man, forceful in word, with the poor, with the women, with the crippled and the children. Jesus of Nazareth. Caiaphas had observed him, not out of curiosity, out of duty.</p>
+          <p class="vb-intro">What he saw did not frighten him, but it unsettled him, not because Jesus broke laws, but because he bound people together, without means of power. Caiaphas sensed: this was dangerous, not for him, not for the temple, but for what held the people together. He called the Sanhedrin, weighed words, let voices speak. And then he said: "You know nothing at all." And within him spoke not anger, but responsibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Heavy, Inwardly Settled Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social Eight a weighty, deeply settled authority – it rules not through charismatic dynamism, but through deliberate, almost unshakeable weighing of the law. Night had descended over Jerusalem like a cloak of granite. Caiaphas sat alone within the temple complex. Now there was silence, but it was no peaceful silence, rather the charged tension before a storm.</p>
+          <p class="vb-intro">He remembered his own words, spoken with the authority of a man who felt certain: "It is better that one man should die than that the whole nation should perish." In that sentence lay the entire dilemma: order or grace, stability or truth. And suddenly, in the stillness of that night, the suspicion overcame him that what he defended as order was, in truth, perhaps no longer one. This exact heavy, sparing-with-words wrestling in seclusion, rather than in loud performance, carries the signature of the Nine-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Cracks in His Own Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The days after the trial were as if wrapped in fog. Caiaphas was not tired, but inwardly drained, like a wall that had withstood every storm for decades, now feeling hairline cracks within itself. He had preserved order, protected the system from chaos. But deep within him another voice spoke, not a loud one, a quiet one. Had it truly been God's will, what happened there? Had he acted out of duty or out of fear?</p>
+          <p class="vb-intro">He closed his eyes and saw Jesus's face, still and upright, not defiant, but penetrating. Caiaphas had first felt that gaze as a challenge. But now it seemed to him like an invitation, not to rebellion, not to dissolution, but to truth. In the silence, hidden from the world, a simple prayer crossed his lips for the first time: "Lord, if I have erred, do not let me harden in the lie."</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Power Loses Its Grip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The week after Jesus's death brought unrest, not like a revolt, but like a thickening. A rumor spread through the city: the crucified one was no longer in the tomb. He heard of it, not like a curious observer, but like a man from whom a familiar foundation had been taken. And within Caiaphas grew no anger, but something else: exhaustion. The social Eight lives from conviction. But when what it has believed grows brittle, no outer storm begins, but an inner decay.</p>
+          <p class="vb-intro">He saw again that gaze, that one, still, final gaze of Jesus, and for the first time dared to think: What if he truly… He did not say it aloud, but it was there, a thought that would not release him. He remembered Moses, Elijah, Jeremiah, and thought: they were all inconvenient, all fought, not because they did wrong, but because they dared the unspeakable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: No Longer Blind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The years passed. Caiaphas remained high priest, continued in office, preserved order. He was no broken man, not outwardly. But something within him had grown quiet, not out of weakness, but out of insight. One morning he looked into the polished bronze mirror and whispered: "If it truly was him, then may he find me." He was not converted, he was not redeemed, but: he was no longer blind.</p>
+          <p class="vb-intro">The mature social Eight recognizes that strength does not lie in protection, but in the courage to question itself, and that not every judgment made in the name of order can stand before the light. This is the gift of the SO8w9: a power that learns true protection sometimes means examining one's own authority – a lion whose door opens only a crack, but enough for another wind to reach him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: The Guardian of the People</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Caiaphas, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/mCXz3BLUgeo?rel=0" title="The Guardian of the People – Caiaphas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
+        {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bible Portrait: The Centurion at the Cross (SE8w9)"},
       ])}
     </div>
   `);
@@ -99894,6 +99980,7 @@ function subtypeSchaubilderPage() {
       "bibel-samariterin-am-jakobsbrunnen": samariterinAmJakobsbrunnenPage,
       "bibel-johannes-der-geliebte": johannesDerGeliebtePage,
       "bibel-der-hauptmann-unter-dem-kreuz": derHauptmannUnterDemKreuzPage,
+      "bibel-kaiphas": kaiphasPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
