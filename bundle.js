@@ -32114,6 +32114,10 @@ const BIBEL_PORTRAITS = [
     heading:"Judas Thadd\u00e4us \u2013 Sexueller Typ 4",
     teaser:"SX4w5 \u00b7 Der Wunsch, ganz erw\u00e4hlt zu sein. Beobachtet still, ob Jesu Blick ihm gilt \u2013 bis eine Frage, die andere nicht wagten, eine Antwort direkt ins Innerste bringt.",
     land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
+  { route:"bibel-nikodemus", name:"Nikodemus", added:"2026-08-28", subtyp:"SE5w6",
+    heading:"Nikodemus \u2013 Selbsterhaltender Typ 5",
+    teaser:"SE5w6 \u00b7 Die Suche nach Erkenntnis im Schutz der Nacht. Pharis\u00e4er und Ratsherr, der Jesus heimlich aufsucht \u2013 und erst am Kreuz, still, aber unumkehrbar, sichtbar Farbe bekennt.",
+    land:"Jud\u00e4a", tags:["Bibel"], gender:"m"},
 ];
 
 // Zentrales Portraits-Register \u2013 neue Zeile hier \u2192 \u00dcbersicht, Inhaltsverzeichnis und Leseprobe aktualisieren sich automatisch.
@@ -44473,7 +44477,7 @@ const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Eule",
     kernthema: "Der Rückzug als bewusst gebaute Burg – stille Beobachtung statt Flucht",
-    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß", "Prof. Dr. Ingo Zimmermann"],
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß", "Prof. Dr. Ingo Zimmermann", "Nikodemus"],
     fingerabdruecke: [
       {
         titel: "Der Rückzug als bewusst gebaute ›Burg‹ statt bloße Flucht",
@@ -44483,7 +44487,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Geduldiges Warten, bis das Wissen oder der Moment unangreifbar ist",
         beschreibung: "Handeln oder Veröffentlichen geschieht nicht impulsiv, sondern erst, wenn jeder Einwand vorweggenommen und jedes Detail gesichert ist – ein Vorgehen, das von außen wie Zögern wirken kann, aber Ausdruck äußerster Sorgfalt ist.",
-        beleg: "Charles Darwin, der seine Evolutionstheorie ›zwanzig Jahre lang zurückhielt, bevor er sie veröffentlichte … bis das Beobachtete unangreifbar war‹; Warren Buffett: ›Sie handelt erst, wenn sie wirklich verstanden hat, was sie sieht. Und wenn sie handelt, dann mit einer Präzision, die andere für Glück halten, die aber Jahrzehnte geduldiger Beobachtung voraussetzt‹; Carl Friedrich Gauß, dessen Lebensmotto ›pauca sed matura‹ – wenig, aber reif – lautete und der ganze mathematische Entdeckungen jahrzehntelang zurückhielt, aus Furcht vor dem ›Geschrei der Böotier‹, bevor er sie für vollkommen ausgereift hielt; Franz Kafka, der lieber sein gesamtes unveröffentlichtes Lebenswerk vernichten lassen wollte, als es der Welt in unvollendetem Zustand auszusetzen; René Descartes, der sein fertiges Manuskript ›Le Monde‹ aus Vorsicht zurückzog und zu Lebzeiten nie veröffentlichte, nachdem er von Galileos Verurteilung erfahren hatte."
+        beleg: "Charles Darwin, der seine Evolutionstheorie ›zwanzig Jahre lang zurückhielt, bevor er sie veröffentlichte … bis das Beobachtete unangreifbar war‹; Warren Buffett: ›Sie handelt erst, wenn sie wirklich verstanden hat, was sie sieht. Und wenn sie handelt, dann mit einer Präzision, die andere für Glück halten, die aber Jahrzehnte geduldiger Beobachtung voraussetzt‹; Carl Friedrich Gauß, dessen Lebensmotto ›pauca sed matura‹ – wenig, aber reif – lautete und der ganze mathematische Entdeckungen jahrzehntelang zurückhielt, aus Furcht vor dem ›Geschrei der Böotier‹, bevor er sie für vollkommen ausgereift hielt; Franz Kafka, der lieber sein gesamtes unveröffentlichtes Lebenswerk vernichten lassen wollte, als es der Welt in unvollendetem Zustand auszusetzen; René Descartes, der sein fertiges Manuskript ›Le Monde‹ aus Vorsicht zurückzog und zu Lebzeiten nie veröffentlichte, nachdem er von Galileos Verurteilung erfahren hatte; Nikodemus, der nach seiner nächtlichen Begegnung mit Jesus jahrelang schwieg, bis ein einziger Satz ›wie tropfendes Wasser, das langsam Gestein formt‹ in ihm arbeitete – und der erst am Kreuz, als seine innere Gewissheit unumkehrbar geworden war, öffentlich handelte."
       },
       {
         titel: "Verstoßung oder Krise wird zur Methode des Rückzugs, statt zum offenen Bruch zu führen",
@@ -60342,6 +60346,7 @@ function warrenBuffettPortraitPage() {
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portr\xe4t: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-warren-buffett", label:"Krankheitsportr\xe4t: Warren Buffett (SE5w6) \u2013 die Prostatakrebs-Diagnose 2012"},
+        {route:"bibel-nikodemus", label:"Bibel-Portr\u00e4t: Nikodemus (SE5w6)"},
       ])}
     </div>
   `);
@@ -94578,6 +94583,87 @@ function judasThaddaeusPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
         {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
+        {route:"bibel-nikodemus", label:"Bibel-Porträt: Nikodemus (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function nikodemusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-nikodemus-portrait.jpg" alt="Nikodemus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nikodemus</p>
+        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Suche nach Erkenntnis im Schutz der Nacht – Tierentsprechung: Eule</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Er kam bei Nacht.« (Joh 3,2)</p>
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der selbsterhaltenden Fünf – sie beobachtet aus der Deckung, sammelt Wissen im Verborgenen und wagt sich erst dann ins Offene, wenn sie ganz sicher ist. Nikodemus wusste viel. Er war Schriftgelehrter, ein Pharisäer, ein Mitglied des Hohen Rates – ein Mann, der Sicherheit fand in Struktur, Überlieferung, Ordnung. Ein Denker, ein Bewahrer, ein Abwäger.</p>
+          <p class="vb-intro">Die SE5 vertraut dem, was sie verstehen kann. Sie fühlt sich sicher, wenn sie nicht überflutet wird, sondern Zugang behält, geistig wie emotional. Und Jesus war für Nikodemus ein Rätsel, ein Unruhepol im System – aber kein Feind, vielmehr eine Art offenes Fenster in einem streng gebauten Haus. Doch Nikodemus wagte es nicht, ihn offen zu besuchen. Zu viele Augen, zu viele Fragen, zu wenig Kontrolle. Er kam bei Nacht – nicht aus Feigheit, aus Selbstschutz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Sicherheit in geistiger Klarheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er trat ein, schritt leise, begrüßte Jesus nicht als Gegner, sondern sagte: »Meister, wir wissen: Du bist ein Lehrer, von Gott gekommen.« Ein Satz, vorsichtig formuliert, und doch ein erstes Öffnen. Nicht das System sprach hier, sondern der Mensch hinter dem System. Jesus antwortete nicht mit Bestätigung, sondern entgegnete: »Wenn jemand nicht von Neuem geboren wird, kann er das Reich Gottes nicht sehen.« Und damit traf er die SE5 genau an ihrem Nerv: an der Grenze zwischen Wissen und Nicht-Wissen, zwischen Kontrolle und Hingabe.</p>
+          <p class="vb-intro">Nikodemus fragte weiter, nicht ironisch, sondern wirklich fragend: »Wie kann ein Mensch geboren werden, wenn er alt ist?« Diese Frage war mehr als biologisch, sie war existentiell. Die selbsterhaltende Fünf sucht nach Sicherheit, nicht im Materiellen, sondern in der geistigen Klarheit. Und was Jesus sagte, entsprach keiner seiner bisherigen Kategorien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Sicherheit im System, bevor sie es infrage stellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Fünf eine loyale, systemverankerte Qualität – Sicherheit entsteht zuerst durch Zugehörigkeit zu einer verlässlichen Ordnung, und erst nach sorgfältigem, oft jahrelangem Abwägen wird diese Ordnung vorsichtig infrage gestellt. »Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen.« Wasser kannte Nikodemus, Gesetz kannte er, Reinheitsvorschriften, Opferordnungen, die Thora. Aber Geist? Geist war nicht greifbar, nicht speicherbar, nicht steuerbar.</p>
+          <p class="vb-intro">Nikodemus spürte, dass Jesus ihm ein Angebot machte, kein System, sondern eine Wirklichkeit, die sich nur durch Hingabe erschloss. Aber das war gefährlich, denn für eine SE5 bedeutete das: Ich verliere Kontrolle, ich betrete Räume, in denen mein Denken nicht reicht. Er rang, im Stillen, wie in einer inneren Wüste. Er sagte schließlich: »Wie kann das geschehen?« Kein Rückzug, keine Abwehr, sondern ein Geständnis, ein erstes, tastendes Öffnen. Genau dieses vorsichtige, an bestehenden Kategorien geprüfte Ringen, bevor Vertrauen wachsen darf, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Rückzug ins Verborgene: Das stille Wachsen einer Entscheidung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach jener Nacht verschwand Nikodemus aus dem Blickfeld der Öffentlichkeit. Keine weiteren Gespräche mit Jesus sind überliefert. Aber das war nur die Oberfläche, denn so handelt eine SE5: Sie zieht sich zurück, nicht aus Feigheit, sondern um in der Tiefe zu verarbeiten, was die Oberfläche nicht fassen kann. Nikodemus lebte weiter im Tempelkreis, beobachtete, lauschte, machte Notizen im Inneren seines Denkens. Was er hatte, war ein Nachklang, ein Satz, der nicht mehr aus seinem Innern wich: »Wenn jemand nicht von Neuem geboren wird…« Dieser Satz arbeitete in ihm, nicht wie ein Hammerschlag, sondern wie tropfendes Wasser, das langsam Gestein formt.</p>
+          <p class="vb-intro">Als Jesus später im Hohen Rat zur Sprache kam, wagte er, vorsichtig, aber deutlich, zu widersprechen: »Richtet denn unser Gesetz einen Menschen, bevor man ihn verhört und erkannt hat, was er tut?« Ein kleiner Satz, aber in jenem Kreis ein Wagnis. Denn wo andere schrien, fragte Nikodemus. Und wer fragt, der stellt infrage. In ihm wuchs eine Entscheidung, still, aber unumkehrbar: Vielleicht bin ich nicht geboren, um alles zu wissen. Vielleicht bin ich geboren, um das Wahre zu empfangen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Am Kreuz: Das leise Erkennen, dass Leben stärker ist als Denken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nikodemus hatte nie gesagt: »Ich folge ihm.« Er hatte nie die Netze zurückgelassen, nie öffentlich gepredigt. Aber als Jesus starb, war er da – nicht aus Impuls, nicht aus Strategie, sondern aus einer gewachsenen Gewissheit, die sich in der Stille gereift hatte. Mit Josef von Arimathäa, einem Mann ähnlich zurückhaltend, bat er um den Leichnam. Und das war nicht harmlos, denn in diesem Moment machte sich Nikodemus sichtbar: Jetzt bin ich nicht mehr nur Fragender. Jetzt handle ich, auch ohne vollständige Antwort.</p>
+          <p class="vb-intro">Er brachte Myrrhe und Aloe, etwa hundert Pfund, viel zu viel, kostbar, zärtlich, üppig – eine Tat, wie sie eine SE5 nur selten tut, aber wenn, dann mit ganzem Herzen: sich verausgaben für das, was wahr geworden ist. Er salbte den toten Körper, wusch ihn, wickelte ihn in Leinentücher, nicht als Ritual, sondern als Zeichen: Ich habe erkannt, was ich nicht mehr erklären muss. Ich ehre das, was mich verwandelt hat. Und während andere Jünger flohen, sich versteckten, war Nikodemus anwesend, nicht als Prophet, sondern als Zeuge der Tiefe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Unsichtbar werden, aber nicht unbedeutend</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nikodemus verschwand aus den Berichten. Keine weiteren Erwähnungen, kein Nachspiel, kein Martyrium, kein Grab, kein Evangelium mit seinem Namen. Nur Stille. Aber in dieser Stille lag kein Verschwinden, sondern eine Form von Vollendung, die typisch ist für die SE5: unsichtbar werden, aber nicht unbedeutend. Er musste niemanden mehr überzeugen, er musste sich nicht mehr erklären. Er hatte erkannt, was er einst nicht greifen konnte: dass Wahrheit nicht in Begriffe passt, dass Liebe keine Theorie braucht, und dass Leben mehr ist als das, was sich kontrollieren lässt.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE5w6: eine Klarheit, die nicht mehr auf äußere Bestätigung durch das System angewiesen ist, sondern aus innerer Gewissheit trägt – eine Eule, die endlich weiß, dass ihr Wissen nicht ausreicht, um alles zu erklären, und die genau darin frei wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Bei Nacht zu ihm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Nikodemus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/T65cXVpkx9Y?rel=0" title="Bei Nacht zu ihm – Nikodemus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+        {route:"bibel-judas-thaddaeus", label:"Bibel-Porträt: Judas Thaddäus (SX4w5)"},
       ])}
     </div>
   `);
@@ -134728,6 +134814,7 @@ function render() {
       "bibel-andreas": andreasPage,
       "bibel-thomas": thomasPage,
       "bibel-judas-thaddaeus": judasThaddaeusPage,
+      "bibel-nikodemus": nikodemusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,

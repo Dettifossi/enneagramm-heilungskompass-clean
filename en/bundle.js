@@ -142,6 +142,10 @@ const BIBEL_PORTRAITS = [
     heading:"Jude Thaddaeus – Sexual Type 4",
     teaser:"SX4w5 · The wish to be wholly chosen. Watches quietly for whether Jesus's gaze is meant for him – until a question no one else dared to ask brings an answer straight to his innermost self.",
     land:"Judea", tags:["Bible"], gender:"m"},
+  { route:"bibel-nikodemus", name:"Nicodemus", added:"2026-08-28", subtyp:"SE5w6",
+    heading:"Nicodemus – Self-Preservation Type 5",
+    teaser:"SE5w6 · The search for knowledge under cover of night. A Pharisee and council member who visits Jesus in secret – and only at the cross, quietly but irreversibly, shows his colors.",
+    land:"Judea", tags:["Bible"], gender:"m"},
 ];
 
 const KRIMINAL_PORTRAITS = [
@@ -28817,6 +28821,7 @@ function warrenBuffettPortraitPage() {
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-warren-buffett", label:"Illness Portrait: Warren Buffett (SE5w6) – the 2012 prostate cancer diagnosis"},
+        {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SE5w6)"},
       ])}
     </div>
   `);
@@ -44694,7 +44699,7 @@ const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Owl",
     kernthema: "Retreat as a deliberately built fortress – quiet observation instead of flight",
-    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss", "Prof. Dr. Ingo Zimmermann"],
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss", "Prof. Dr. Ingo Zimmermann", "Nicodemus"],
     fingerabdruecke: [
       {
         titel: "Retreat as a deliberately built 'fortress' instead of mere flight",
@@ -44704,7 +44709,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Patient waiting until the knowledge or the moment is unassailable",
         beschreibung: "Acting or publishing happens not impulsively, but only once every objection has been anticipated and every detail secured – a process that may look like hesitation from outside but is an expression of extreme care.",
-        beleg: "Charles Darwin, who 'held back his theory of evolution for twenty years before publishing it ... until what he'd observed was unassailable'; Warren Buffett: 'She only acts once she has truly understood what she sees. And when she acts, she does so with a precision others mistake for luck, but which presupposes decades of patient observation'; Carl Friedrich Gauss, whose lifelong motto was 'pauca sed matura' – few but ripe – and who withheld mathematical discoveries for decades, fearing the 'outcry of the Boeotians,' until he considered them fully mature; Franz Kafka, who would rather have had his entire unpublished life's work destroyed than expose it to the world unfinished; René Descartes, who cautiously withdrew his finished manuscript 'Le Monde' and never published it in his lifetime, after learning of Galileo's condemnation."
+        beleg: "Charles Darwin, who 'held back his theory of evolution for twenty years before publishing it ... until what he'd observed was unassailable'; Warren Buffett: 'She only acts once she has truly understood what she sees. And when she acts, she does so with a precision others mistake for luck, but which presupposes decades of patient observation'; Carl Friedrich Gauss, whose lifelong motto was 'pauca sed matura' – few but ripe – and who withheld mathematical discoveries for decades, fearing the 'outcry of the Boeotians,' until he considered them fully mature; Franz Kafka, who would rather have had his entire unpublished life's work destroyed than expose it to the world unfinished; René Descartes, who cautiously withdrew his finished manuscript 'Le Monde' and never published it in his lifetime, after learning of Galileo's condemnation; Nicodemus, who stayed silent for years after his nighttime encounter with Jesus, until a single sentence worked within him 'like dripping water that slowly shapes stone' – and who only acted publicly at the cross, once his inner certainty had become irreversible."
       },
       {
         titel: "Rejection or crisis becomes a method of retreat, rather than leading to open rupture",
@@ -66504,6 +66509,87 @@ function judasThaddaeusPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
         {route:"bibel-thomas", label:"Bible Portrait: Thomas (SO4w5)"},
+        {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function nikodemusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/bibel-nikodemus-portrait.jpg" alt="Nicodemus – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nicodemus</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>The search for knowledge under cover of night – Animal correspondence: Owl</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">"He came to Jesus by night." (John 3:2)</p>
+
+        <h2 class="vb-section">1. The Owl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of the self-preservation Five – it observes from cover, gathers knowledge in hiding, and only ventures into the open once it is entirely certain. Nicodemus knew much. He was a scribe, a Pharisee, a member of the Sanhedrin – a man who found security in structure, tradition, order. A thinker, a keeper, a weigher.</p>
+          <p class="vb-intro">The SE5 trusts what it can understand. It feels safe when it is not overwhelmed, but retains access, mentally as much as emotionally. And Jesus was a riddle to Nicodemus, a source of unrest within the system – but not an enemy, rather a kind of open window in a strictly built house. Yet Nicodemus did not dare visit him openly. Too many eyes, too many questions, too little control. He came by night – not out of cowardice, but out of self-protection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: Security in Mental Clarity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">He entered, stepped quietly, greeted Jesus not as an opponent, but said: "Rabbi, we know that you are a teacher come from God." A sentence, carefully phrased, and yet a first opening. Not the system speaking here, but the person behind the system. Jesus did not answer with confirmation, but replied: "Unless one is born again, he cannot see the kingdom of God." And with that he struck the SE5 exactly at its nerve: at the border between knowing and not-knowing, between control and surrender.</p>
+          <p class="vb-intro">Nicodemus asked further, not ironically, but truly asking: "How can a man be born when he is old?" This question was more than biological. It was existential. The self-preservation Five seeks security, not in the material, but in mental clarity. And what Jesus said fit none of his existing categories.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Security Within the System, Before Questioning It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the self-preservation Five a loyal, system-anchored quality – security first arises through belonging to a reliable order, and only after careful, often years-long weighing is that order carefully questioned. "Unless one is born of water and the Spirit, he cannot enter the kingdom of God." Water he knew, law he knew, purity regulations, sacrifice ordinances, the Torah. But Spirit? Spirit was not tangible, not storable, not controllable.</p>
+          <p class="vb-intro">Nicodemus sensed that Jesus was offering him not a system, but a reality that opened only through surrender. But that was dangerous, for to an SE5 it meant: I lose control, I enter spaces where my thinking does not reach. He wrestled, in silence, as in an inner desert. He finally said: "How can these things be?" No retreat, no defense, but a confession, a first, tentative opening. This exact careful wrestling, tested against existing categories, before trust is allowed to grow, carries the signature of the Six-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Withdrawal Into Hiding: The Quiet Growth of a Decision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After that night Nicodemus vanished from public view. No further conversations with Jesus are recorded. But that was only the surface, for that is how an SE5 acts: it withdraws, not out of cowardice, but to process in depth what the surface cannot hold. Nicodemus continued living within the temple circle, observing, listening, taking notes within his own thinking. What he had was an echo, a sentence that no longer left him: "Unless one is born again…" This sentence worked within him, not like a hammer blow, but like dripping water that slowly shapes stone.</p>
+          <p class="vb-intro">When Jesus later came up in the Sanhedrin, he dared, carefully but clearly, to object: "Does our law judge a man without first hearing him and learning what he does?" A small sentence, but a risk in that circle. For where others shouted, Nicodemus asked. And whoever asks, questions. Within him a decision grew, quiet, but irreversible: Perhaps I was not born to know everything. Perhaps I was born to receive what is true.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. At the Cross: The Quiet Recognition That Life Is Stronger Than Thought</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nicodemus had never said: "I follow him." He had never left his nets behind, never preached publicly. But when Jesus died, he was there – not out of impulse, not out of strategy, but out of a certainty grown in silence. Together with Joseph of Arimathea, a man similarly reserved, he asked for the body. And that was not harmless, for in that moment Nicodemus made himself visible: Now I am no longer only the one who asks. Now I act, even without a complete answer.</p>
+          <p class="vb-intro">He brought myrrh and aloe, about a hundred pounds, far too much, costly, tender, lavish – a deed an SE5 rarely does, but when it does, it does with a whole heart: spending itself for what has become true. He anointed the dead body, washed it, wrapped it in linen cloths, not as ritual, but as a sign: I have recognized what I no longer need to explain. I honor what has transformed me. And while other disciples fled, hid themselves, Nicodemus was present, not as a prophet, but as a witness to depth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Becoming Invisible, But Not Insignificant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nicodemus disappeared from the record. No further mentions, no aftermath, no martyrdom, no grave, no gospel bearing his name. Only silence. But in that silence lay no vanishing, but a form of completion typical of the SE5: becoming invisible, but not insignificant. He no longer needed to convince anyone, no longer needed to explain himself. He had recognized what he once could not grasp: that truth does not fit into concepts, that love needs no theory, and that life is more than what can be controlled.</p>
+          <p class="vb-intro">This is the gift of the SE5w6: a clarity that no longer depends on outer confirmation from the system, but carries from inner certainty – an owl that finally knows its knowledge is not enough to explain everything, and becomes free exactly there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The Song: To Him by Night</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A dedicated song was written for Nicodemus, giving this soul's voice a sound.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/T65cXVpkx9Y?rel=0" title="To Him by Night – Nicodemus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "All 27 chapters in full, with every song – the complete source for this section, as a psychological subtype novel.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"All Bible Portraits"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+        {route:"bibel-judas-thaddaeus", label:"Bible Portrait: Jude Thaddaeus (SX4w5)"},
       ])}
     </div>
   `);
@@ -99026,6 +99112,7 @@ function subtypeSchaubilderPage() {
       "bibel-andreas": andreasPage,
       "bibel-thomas": thomasPage,
       "bibel-judas-thaddaeus": judasThaddaeusPage,
+      "bibel-nikodemus": nikodemusPage,
       "krankheitsportraets": krankheitsportraetsPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
