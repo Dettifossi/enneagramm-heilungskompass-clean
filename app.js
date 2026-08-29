@@ -32932,6 +32932,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 1732\u20131809. \u00d6sterreichischer Komponist. Drei Jahrzehnte im Dienst der Esterh\u00e1zys, \u203aPapa Haydn\u2039, 104 Symphonien, Mentor von Mozart und Beethoven. Der Waschb\u00e4r mit Zweierfl\u00fcgel: stille Leistung, F\u00fcrsorge und sp\u00e4te Anerkennung durch die Londoner Reisen. Tierentsprechung: Waschb\u00e4r.",
     land:"Deutschland", tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-horst-tappert", name:"Horst Tappert", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Horst Tappert – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · 1923–2008. Deutscher Schauspieler, 24 Jahre und 281 Folgen lang Oberinspektor Derrick, der meistverkauften deutschen Fernsehserie aller Zeiten. Über zwei Jahrzehnte enge Zusammenarbeit mit Fritz Wepper. Verschwieg zeitlebens seine Mitgliedschaft in der Waffen-SS, die erst 2013 posthum bekannt wurde. Tierentsprechung: Waschbär.",
+    land:"Deutschland", tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-bastian-pastewka", name:"Bastian Pastewka", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Bastian Pastewka – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1972. Deutscher Schauspieler, Komiker und Synchronsprecher, bekannt aus ›Die Wochenshow‹ und seiner eigenen Sitcom ›Pastewka‹. Seit 1996 enge, jahrzehntelange Zusammenarbeit mit Anke Engelke in zahlreichen Formaten. Gilt als akribischer Perfektionist mit hohem handwerklichem Anspruch. Tierentsprechung: Waschbär.",
@@ -44858,12 +44862,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
         beschreibung: "Anders als die sozialen und sexuellen Dreier sucht dieser Subtyp keine Bühne. Naranjo nannte ihn den ›Kontratyp‹ der Drei: Statt Selbstinszenierung zeigt sich Bescheidenheit, Bodenständigkeit, ein bewusstes Vermeiden des Rampenlichts – während die Energie darunter dieselbe bleibt.",
-        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Sterling North, jahrzehntelang Literaturredakteur im Hintergrund großer Zeitungen, während sein eigenes Buch ›Rascal‹ im Stillen zum Welterfolg wurde: ›Der Mann am Schreibtisch mit der Schreibmaschine wirkt nicht wie eine öffentliche Figur, sondern wie ein stiller, arbeitsamer Handwerker der Sprache.‹ Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹ Salome, die in Kana ›still, dezent, an der Seite‹ blieb, während ihr Blick jedes Detail erfasste – bis Jesus, ohne jede Inszenierung, genau die Wirkung erzielte, die sie selbst nie ohne Aufwand erreicht hatte: ›Wer ist dieser Mann, der wirken kann, ohne zu wirken?‹"
+        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Sterling North, jahrzehntelang Literaturredakteur im Hintergrund großer Zeitungen, während sein eigenes Buch ›Rascal‹ im Stillen zum Welterfolg wurde: ›Der Mann am Schreibtisch mit der Schreibmaschine wirkt nicht wie eine öffentliche Figur, sondern wie ein stiller, arbeitsamer Handwerker der Sprache.‹ Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹ Salome, die in Kana ›still, dezent, an der Seite‹ blieb, während ihr Blick jedes Detail erfasste – bis Jesus, ohne jede Inszenierung, genau die Wirkung erzielte, die sie selbst nie ohne Aufwand erreicht hatte: ›Wer ist dieser Mann, der wirken kann, ohne zu wirken?‹ Horst Tappert, der über 24 Jahre und 281 Folgen dieselbe Rolle spielte, ohne sich neu erfinden zu müssen – kein spektakulärer Senkrechtstart, sondern eine spät begonnene, dafür umso beständiger getragene Karriere, deren Substanz sich erst über Jahrzehnte voll entfaltete."
       },
       {
         titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
@@ -72778,6 +72782,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function horstTappertPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-horst-tappert-portrait.jpg" alt="Horst Tappert" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Horst Tappert</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1923–2008 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Sicherheit aus stetigem, nachweisbarem Können zieht, nicht aus lauter Selbstdarstellung. Horst Tappert wurde 1923 im heutigen Wuppertaler Stadtteil Elberfeld geboren, wurde im Zweiten Weltkrieg eingezogen und geriet in Kriegsgefangenschaft. Erst Ende der 1950er Jahre, mit Mitte dreißig, begann er seine Film- und Fernsehkarriere – deutlich später als die meisten seiner späteren Kollegen.</p>
+          <p class="vb-intro">Diese verspätete, dafür umso methodischere Karriereentwicklung ist typisch für die selbsterhaltende Drei: kein früher Senkrechtstart, sondern der geduldige Aufbau von Rollenkontinuität und Zuverlässigkeit im deutschen Nachkriegsfernsehen, Schritt für Schritt, bis daraus über Jahrzehnte tragfähige Substanz wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch eine über Jahrzehnte getragene Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch wechselndes Image, sondern durch nachweisbare, über Jahre bewiesene Verlässlichkeit sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich neu erfindet, sondern weil man tut, was man kann, wieder und wieder, mit gleichbleibender Qualität.</p>
+          <p class="vb-intro">Von 1974 bis 1998 spielte Tappert in 281 Folgen den Oberinspektor Derrick – 24 Jahre lang dieselbe Figur, ohne dass die Serie an Zugkraft verlor. ›Derrick‹ wurde in 102 Länder verkauft und gilt bis heute als die international erfolgreichste deutsche Fernsehserie aller Zeiten. Kein spektakulärer Ausreißer, sondern das Ergebnis von Jahrzehnten gleichbleibender, disziplinierter Professionalität – die SE3, die ihre Sicherheit aus konstant abgelieferter Qualität bezieht, nicht aus ständiger Neuerfindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Ein Vierteljahrhundert kollegiale Verbundenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und zum kollegialen Miteinander. An Tapperts Seite spielte über all die 24 Jahre Fritz Wepper den Assistenten Harry Klein – trotz eines Altersunterschieds von achtzehn Jahren fanden die beiden schnell einen gemeinsamen Rhythmus, beruflich wie persönlich. Wepper selbst beschrieb ihr Verhältnis später als ›ein Vierteljahrhundert kollegiale Harmonie in der gemeinsamen Fernseharbeit‹.</p>
+          <p class="vb-intro">Diese über Jahrzehnte getragene, tragfähige Arbeitsbeziehung ist typische SE3w2-Energie: keine spektakuläre, kurzlebige Chemie, sondern eine still gewachsene, verlässliche Verbindung, die dem Format über Jahrzehnte hinweg Stabilität gab – zwei Menschen, die einander über ein ganzes Berufsleben hinweg trugen, ohne dass es viel Aufhebens darum gab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das verschwiegene Kapitel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zeitlebens sprach Tappert kaum über seine Jahre im Zweiten Weltkrieg. Erst 2013, fünf Jahre nach seinem Tod, wurde öffentlich bekannt, dass er 1943, mit neunzehn Jahren, von der Wehrmacht in die Waffen-SS versetzt worden war und dort als Grenadier der 3. SS-Division ›Totenkopf‹ geführt wurde – eine Information, die der Soziologe Jörg Becker im Rahmen von Recherchen zu einer ganz anderen Biografie zufällig entdeckte. Tappert selbst hatte diesen Teil seiner Vergangenheit zeitlebens nicht erwähnt.</p>
+          <p class="vb-intro">Diese jahrzehntelange, konsequente Zurückhaltung passt zu einem Muster, das sich bei der selbsterhaltenden Drei in ihrer Schattenform wiederholt zeigt: eine makellose, verlässliche öffentliche Fassade, hinter der unangenehme oder belastende Fakten über Jahrzehnte verschwiegen werden, ohne dass dies je öffentlich auffiel. Ob es sich dabei um eine bewusste Vertuschung oder um das schlichte Schweigen einer Generation handelte, die selten über die Kriegsjahre sprach, lässt sich im Nachhinein nicht mit letzter Sicherheit klären – festzuhalten bleibt, dass die über fünfzig Jahre gewahrte Diskretion selbst schon eine bemerkenswert konsequente Leistung war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>über Jahrzehnte verlässliche Qualität mit echter kollegialer Wärme</strong> zu verbinden. Tappert hat mit seiner Rolle als Derrick eine der prägendsten Figuren des deutschen Fernsehens geschaffen – nicht durch spektakuläre Neuerfindung, sondern durch die schlichte, unermüdliche Konstanz, mit der er sie über ein Vierteljahrhundert trug.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei zeigt sich in genau dem, was ihre Stärke ausmacht: der Fähigkeit, eine makellose öffentliche Fassade so beständig zu pflegen, dass selbst gewichtige, unangenehme Wahrheiten dahinter jahrzehntelang unsichtbar bleiben. Bei Tappert wurde diese Fähigkeit erst posthum offenbar – ein Erinnerungsstück daran, dass die glatte, verlässliche Oberfläche der SE3 nicht automatisch bedeutet, dass darunter nichts verborgen liegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der eine Figur zum Weltphänomen machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Horst Tappert gehört zu den prägendsten Schauspielern des deutschen Nachkriegsfernsehens – nicht, weil er sich immer wieder neu erfand, sondern weil er eine einzige Rolle mit einer Beständigkeit trug, die weltweit Millionen von Zuschauern über Jahrzehnte hinweg begleitete.</p>
+          <p class="vb-intro">Vom spät beginnenden Nachkriegs-Schauspieler zum Gesicht der erfolgreichsten deutschen Fernsehserie aller Zeiten, getragen von einer fast fünfundzwanzigjährigen kollegialen Partnerschaft: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer öffentlich sichtbarsten Form – Beständigkeit als Lebensleistung, mit allem Licht und allem Schatten, den ein so lange gewahrtes Schweigen mit sich bringen kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function bastianPastewkaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -72837,8 +72907,8 @@ function bastianPastewkaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
-        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
       ])}
     </div>
   `);
@@ -137369,6 +137439,7 @@ function render() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-horst-tappert": horstTappertPortraitPage,
       "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
       "beruehmte-grahame-webb": grahameWebbPortraitPage,
