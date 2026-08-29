@@ -465,6 +465,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function serdarSomuncuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-serdar-somuncu-portrait.jpg" alt="Serdar Somuncu" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Serdar Somuncu</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Kabarettist, Regisseur &amp; Autor, geb. 1968 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Sicherheit aus nachweisbarem Handwerk zieht. Serdar Somuncu wurde 1968 in Istanbul geboren und zog schon als Kleinkind mit seiner Familie nach Deutschland, wo er in Neuss aufwuchs. Bevor er als Kabarettist bekannt wurde, durchlief er eine gründliche musikalische und schauspielerische Ausbildung: von 1984 bis 1986 studierte er am Konservatorium für Musik in Maastricht, von 1986 bis 1992 Schlagzeug an der Staatlichen Hochschule für Musik in Wuppertal, anschließend von 1992 bis 1995 Schauspiel und Regie in Frankfurt am Main.</p>
+          <p class="vb-intro">Über 100 Theaterstücke inszenierte er, bevor sein eigentlicher öffentlicher Durchbruch kam – Jahre disziplinierter, oft unsichtbarer Vorarbeit, bevor sich das eigentliche, öffentlich sichtbare Werk zeigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Substanz statt Provokation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch öffentliches Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht. Somuncus Durchbruch 1996 mit der szenischen Lesung aus Hitlers ›Mein Kampf‹ war kein plumper Skandal-Auftritt, sondern eine dramaturgisch präzise gearbeitete Auseinandersetzung, die den ›Schrecken durch Konfrontation‹ aus dem Text nehmen sollte.</p>
+          <p class="vb-intro">Sein eigener Anspruch dahinter war klar formuliert: ›Wer über Mein Kampf lacht, hat verstanden, was für ein Unsinn da drinsteht.‹ Über 1.500 Aufführungen in ganz Europa folgten, mit mehr als einer halben Million Zuschauern – keine kurzfristige Provokation, sondern ein über Jahrzehnte tragfähiges Werk, dessen Wirkung sich durch stetige Wiederholung und handwerkliche Genauigkeit erst voll entfaltete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Auftreten trotz persönlichem Risiko</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls, sich für andere einzusetzen, selbst wenn es persönliche Kosten mit sich bringt. Wegen der ›Mein Kampf‹-Lesungen erhielt Somuncu wiederholt Drohungen von Neonazis und trat zeitweise unter Polizeischutz und mit kugelsicherer Weste auf – kein einmaliger Vorfall, sondern eine über Jahre anhaltende Belastung, die er in Kauf nahm, weil er von der Wirkung seiner Arbeit überzeugt war.</p>
+          <p class="vb-intro">Diese Überzeugung bestätigte sich: Bis heute erhält Somuncu Briefe von Menschen, die die Lesungen als entscheidenden Wendepunkt in ihrem Leben beschreiben. Der Zweierflügel zeigt sich hier nicht als bloße Sympathiewerbung, sondern als konkrete, über Jahrzehnte gepflegte Verbindung zu einem Publikum, das durch seine Arbeit tatsächlich verändert wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die kugelsichere Weste als Symbol</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Statt die Lesungen nach den ersten Drohungen einzustellen, entschied sich Somuncu, unter erhöhtem Sicherheitsaufwand weiterzumachen – eine nüchterne, wenig glamouröse Entscheidung, die keine öffentliche Heldenpose war, sondern die konsequente Fortsetzung einer als richtig erkannten Arbeit unter widrigen Bedingungen.</p>
+          <p class="vb-intro">Diese Episode zeigt die typische SE3w2-Haltung: keine große öffentliche Geste, sondern die stille, beharrliche Weiterführung einer Aufgabe, deren Wert sich am tatsächlichen Ergebnis misst – Sicherheit und Substanz, nicht Show, auch unter Bedrohung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>gründliche handwerkliche Vorbereitung mit echtem Engagement für andere</strong> zu verbinden – Somuncus jahrzehntelange musikalische und schauspielerische Ausbildung bildete das Fundament für ein Werk, das über eine halbe Million Menschen europaweit direkt erreichte und nachweislich verändert hat.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> – bei der SE3 subtiler als bei den lauteren Dreier-Subtypen, aber dennoch vorhanden: das Bedürfnis, den eigenen Wert durch immer neue, überprüfbare Wirkung zu bestätigen. Somuncus konsequentes Festhalten an einem riskanten, jahrzehntelang fortgesetzten Format zeigt, wie viel Kraft es kostet, den eigenen Anspruch an Substanz auch unter äußerem Druck nicht aufzugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der Aufklärung zum Lebenswerk machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Serdar Somuncu gehört zu den prägendsten Figuren der deutschen Kabarettszene – nicht wegen einer einzelnen provokanten Aktion, sondern wegen eines über Jahrzehnte fortgesetzten, handwerklich fundierten Werks, das historische Aufklärung mit künstlerischer Präzision verband.</p>
+          <p class="vb-intro">Vom klassisch ausgebildeten Schlagzeuger über den Regisseur von mehr als hundert Theaterstücken bis zum Kabarettisten, der über 1.500 Mal aus ›Mein Kampf‹ las, auch unter kugelsicherer Weste: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Substanz, die sich nicht in Provokation erschöpft, sondern in tatsächlicher, über Jahrzehnte bewiesener Wirkung fortsetzt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function michaelDellPortraitPage() {
   return shell(`
     <div class="page-container">

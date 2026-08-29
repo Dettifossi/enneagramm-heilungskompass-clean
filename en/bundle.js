@@ -967,6 +967,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn – Self-Preservation Type 3",
     teaser:"SP3w2 · 1732–1809. Austrian composer. Three decades in service of the Esterházys, \"Papa Haydn\", 104 symphonies, mentor to Mozart and Beethoven. The raccoon with the Two-wing: quiet achievement, care, and late recognition through the London trips. Animal correspondence: Raccoon.",
     land:"Austria", tags:["Music","History"], gender:"m"},
+{ route:"beruehmte-serdar-somuncu", name:"Serdar Somuncu", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Serdar Somuncu – Self-Preservation Type 3",
+    teaser:"SP3w2 · b. 1968. German-Turkish comedian, director, and author. Classically trained percussionist and theater director, known for over 1,500 staged readings from Hitler's \"Mein Kampf,\" at times under police protection and wearing a bulletproof vest. Reached over half a million viewers across Europe. Animal correspondence: Raccoon.",
+    land:"Germany/Turkey", tags:["Comedy"], gender:"m"},
 { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Self-Preservation Type 3",
     teaser:"SP3w2 · b. 1965. American entrepreneur, founded Dell Computer in 1984 from a dorm room with $1,000 in startup capital. Known for operational discipline and direct customer contact rather than self-promotion, pledged over $10 billion to charitable causes together with his wife Susan. Animal correspondence: Raccoon.",
@@ -44452,6 +44456,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function serdarSomuncuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-serdar-somuncu-portrait.jpg" alt="Serdar Somuncu" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Serdar Somuncu</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Comedian, director &amp; author, b. 1968 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that works with tireless diligence out of sight before it shows itself, and that draws its security from demonstrable craft. Serdar Somuncu was born in 1968 in Istanbul and moved to Germany with his family as a toddler, growing up in Neuss. Before becoming known as a comedian, he underwent thorough musical and acting training: from 1984 to 1986 he studied at the Conservatory of Music in Maastricht, from 1986 to 1992 percussion at the State University of Music in Wuppertal, and from 1992 to 1995 acting and directing in Frankfurt am Main.</p>
+          <p class="vb-intro">He directed more than 100 stage plays before his actual public breakthrough came – years of disciplined, often invisible groundwork before the work that would truly become publicly visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Substance Over Provocation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three – the subtype that seeks security not through public image but through demonstrable, verifiable competence. Naranjo called this subtype <em>Security</em>: one is not admired for selling oneself well, but for actually delivering what one promises. Somuncu's 1996 breakthrough with his staged reading of Hitler's "Mein Kampf" was not a crude publicity stunt but a dramaturgically precise engagement meant to take the "horror out of the text through confrontation."</p>
+          <p class="vb-intro">His own stated aim was clear: "Whoever laughs at Mein Kampf has understood what nonsense is in there." More than 1,500 performances followed across Europe, reaching over half a million viewers – not a short-lived provocation, but a body of work sustained across decades, whose effect only fully unfolded through steady repetition and craft precision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Performing Despite Personal Risk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse to commit to others, even at personal cost. Because of the "Mein Kampf" readings, Somuncu repeatedly received threats from neo-Nazis and at times performed under police protection and wearing a bulletproof vest – not a one-time incident, but a strain sustained over years that he accepted because he was convinced of his work's impact.</p>
+          <p class="vb-intro">That conviction was confirmed: to this day, Somuncu receives letters from people who describe the readings as a decisive turning point in their lives. Here the Two-wing shows itself not as mere charm, but as a concrete, decades-maintained connection to an audience genuinely changed by his work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Bulletproof Vest as Symbol</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rather than ending the readings after the first threats, Somuncu chose to continue under heightened security – a sober, hardly glamorous decision that was no public heroic pose, but the consistent continuation of work he had recognized as right, under adverse conditions.</p>
+          <p class="vb-intro">This episode shows the typical SP3w2 stance: no grand public gesture, but the quiet, persistent continuation of a task whose value is measured by actual results – security and substance, not showmanship, even under threat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 lies in the ability to <strong>combine thorough craft preparation with genuine commitment to others</strong> – Somuncu's decades of musical and acting training formed the foundation for a body of work that directly reached and demonstrably changed over half a million people across Europe.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity</strong> – subtler in the SP3 than in the louder Three subtypes, but present nonetheless: the need to keep confirming one's own worth through ever-new, verifiable impact. Somuncu's consistent commitment to a risky format sustained for decades shows how much strength it takes to hold on to one's own standard of substance even under external pressure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon That Made Enlightenment a Life's Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Serdar Somuncu is among the most defining figures of German comedy – not because of a single provocative act, but because of a craft-grounded body of work sustained across decades that combined historical enlightenment with artistic precision.</p>
+          <p class="vb-intro">From a classically trained percussionist, through a director of more than a hundred stage plays, to a comedian who read from "Mein Kampf" more than 1,500 times, at times wearing a bulletproof vest: this is the Self-Preservation Three with a Two-wing in its most mature form – substance that does not exhaust itself in provocation, but continues into real, decades-proven impact.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function michaelDellPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46775,7 +46845,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
@@ -46790,7 +46860,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
         beschreibung: "Skills that later seem effortless almost never arise overnight, but through years of quiet, often painfully consistent repetition, long before the public knows anything about it.",
-        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work; Edita Gruberová, who at fifteen began six years of vocal training at the Bratislava Conservatory and kept up the same relentless vocal maintenance into old age – she still sang the most demanding coloratura roles at seventy-two, an exceptional career length for her voice type and the direct result of decades of technical discipline."
+        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work; Edita Gruberová, who at fifteen began six years of vocal training at the Bratislava Conservatory and kept up the same relentless vocal maintenance into old age – she still sang the most demanding coloratura roles at seventy-two, an exceptional career length for her voice type and the direct result of decades of technical discipline; Serdar Somuncu, who completed over ten years of classical music and acting training and directed more than a hundred stage plays before his actual public breakthrough with the "Mein Kampf" readings – years of invisible groundwork as the foundation for a body of work sustained across decades."
       },
       {
         titel: "Trading achieved visibility for substance, on purpose",
@@ -102049,6 +102119,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
