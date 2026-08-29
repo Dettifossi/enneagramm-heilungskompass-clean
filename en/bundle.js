@@ -955,6 +955,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn – Self-Preservation Type 3",
     teaser:"SP3w2 · 1732–1809. Austrian composer. Three decades in service of the Esterházys, \"Papa Haydn\", 104 symphonies, mentor to Mozart and Beethoven. The raccoon with the Two-wing: quiet achievement, care, and late recognition through the London trips. Animal correspondence: Raccoon.",
     land:"Austria", tags:["Music","History"], gender:"m"},
+{ route:"beruehmte-horst-tappert", name:"Horst Tappert", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Horst Tappert – Self-Preservation Type 3",
+    teaser:"SP3w2 · 1923–2008. German actor, 24 years and 281 episodes as Chief Inspector Derrick, the best-selling German TV series of all time. Over two decades of close collaboration with Fritz Wepper. Concealed his Waffen-SS membership throughout his life, which only became known posthumously in 2013. Animal correspondence: Raccoon.",
+    land:"Germany", tags:["Schauspiel"], gender:"m"},
 { route:"beruehmte-bastian-pastewka", name:"Bastian Pastewka", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Bastian Pastewka – Self-Preservation Type 3",
     teaser:"SP3w2 · b. 1972. German actor, comedian, and voice actor, known from \"Die Wochenshow\" and his own sitcom \"Pastewka.\" Close, decades-long collaboration with Anke Engelke since 1996 across numerous formats. Regarded as a meticulous perfectionist with high craft standards. Animal correspondence: Raccoon.",
@@ -44250,6 +44254,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function horstTappertPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-horst-tappert-portrait.jpg" alt="Horst Tappert" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Horst Tappert</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actor, 1923&ndash;2008 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that works with tireless diligence out of sight before it shows itself, and that draws its security from steady, demonstrable competence rather than loud self-promotion. Horst Tappert was born in 1923 in what is today the Elberfeld district of Wuppertal, was drafted during the Second World War, and was held as a prisoner of war. Only at the end of the 1950s, in his mid-thirties, did he begin his film and television career – considerably later than most of his later colleagues.</p>
+          <p class="vb-intro">This late but all the more methodical career development is typical of the Self-Preservation Three: no early meteoric rise, but the patient building of role continuity and reliability in postwar German television, step by step, until it became load-bearing substance across decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Security Through a Role Carried Across Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three – the subtype that seeks security not through a changing image but through demonstrable reliability proven over years. Naranjo called this subtype <em>Security</em>: one is not admired for reinventing oneself, but for doing what one can, again and again, with consistent quality.</p>
+          <p class="vb-intro">From 1974 to 1998, Tappert played Chief Inspector Derrick in 281 episodes – the same character for 24 years, without the series ever losing its pull. "Derrick" sold to 102 countries and is still regarded today as the most internationally successful German television series of all time. Not a spectacular outlier, but the result of decades of consistent, disciplined professionalism – the SP3, which draws its security from steadily delivered quality rather than constant reinvention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: A Quarter-Century of Collegial Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse toward connection and collegial closeness. At Tappert's side for all 24 years, Fritz Wepper played the assistant Harry Klein – despite an eighteen-year age gap, the two quickly found a shared rhythm, both professionally and personally. Wepper himself later described their relationship as "a quarter-century of collegial harmony working together on television."</p>
+          <p class="vb-intro">This decades-long, load-bearing working relationship is typical SP3w2 energy: not a spectacular, short-lived chemistry, but a quietly grown, reliable bond that gave the format stability across decades – two people who carried each other through an entire professional life, without much fuss being made about it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Untold Chapter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Throughout his life, Tappert rarely spoke about his years during the Second World War. Only in 2013, five years after his death, did it become publicly known that in 1943, at age nineteen, he had been transferred from the Wehrmacht to the Waffen-SS and was listed there as a grenadier with the 3rd SS Division "Totenkopf" – information the sociologist Jörg Becker discovered by chance while researching an entirely different biography. Tappert himself had never mentioned this part of his past during his lifetime.</p>
+          <p class="vb-intro">This decades-long, consistent reticence fits a pattern that recurs in the shadow form of the Self-Preservation Three: a flawless, reliable public facade behind which uncomfortable or burdensome facts remain concealed for decades without ever drawing public attention. Whether this amounted to a deliberate cover-up or simply the silence of a generation that rarely spoke about the war years cannot be established with final certainty in hindsight – what remains notable is that the discretion maintained for over fifty years was itself a remarkably consistent achievement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 lies in the ability to <strong>combine decades of reliable quality with genuine collegial warmth</strong>. With his role as Derrick, Tappert created one of the most defining figures of German television – not through spectacular reinvention, but through the plain, tireless consistency with which he carried it for a quarter-century.</p>
+          <p class="vb-intro">The shadow of the Self-Preservation Three shows in exactly what constitutes its strength: the ability to maintain a flawless public facade so consistently that even weighty, uncomfortable truths remain invisible behind it for decades. In Tappert's case, this ability only became apparent posthumously – a reminder that the smooth, reliable surface of the SP3 does not automatically mean nothing lies hidden beneath it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon That Turned a Character into a World Phenomenon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Horst Tappert is among the most defining actors of postwar German television – not because he kept reinventing himself, but because he carried a single role with a consistency that accompanied millions of viewers worldwide across decades.</p>
+          <p class="vb-intro">From a late-starting postwar actor to the face of the most successful German television series of all time, carried by a nearly twenty-five-year collegial partnership: this is the Self-Preservation Three with a Two-wing in its most publicly visible form – consistency as a life's work, with all the light and all the shadow that so long-kept a silence can bring.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function bastianPastewkaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -44309,8 +44379,8 @@ function bastianPastewkaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
-        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
       ])}
     </div>
   `);
@@ -46375,12 +46445,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
         beschreibung: "Unlike the social and sexual Threes, this subtype seeks no stage. Naranjo called it the 'countertype' of the Three: instead of self-staging, it shows modesty, groundedness, a deliberate avoidance of the spotlight – while the same energy runs underneath.",
-        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?'"
+        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades."
       },
       {
         titel: "Building a working system out of little or from nothing",
@@ -101646,6 +101716,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-horst-tappert": horstTappertPortraitPage,
       "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
