@@ -1111,6 +1111,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla – Self-Preservation Type 4",
     teaser:"SE4w5 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The dove that invented for all humanity and, in the end, loved only a single white dove. Animal correspondence: Dove.",
     land:"Serbia/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
+{ route:"beruehmte-ludwig-goeransson", name:"Ludwig Göransson", added:"2026-08-29", subtyp:"SE4w5",
+    heading:"Ludwig Göransson – Self-Preservation Type 4",
+    teaser:"SE4w5 · b. 1984. Swedish film composer and producer, two Oscars (\"Black Panther,\" \"Oppenheimer\"). Months-long research trips and scientific immersion for every score, longtime collaborator of Donald Glover and Ryan Coogler, always in the background rather than the spotlight. Animal correspondence: Dove.",
+    land:"Sweden", tags:["Music","Film"], gender:"m"},
 { route:"beruehmte-miguel-de-unamuno", name:"Miguel de Unamuno", added:"2026-08-28", subtyp:"SE4w5",
     heading:"Miguel de Unamuno – Self-Preservation Type 4",
     teaser:"SE4w5 · 1864–1936. Spanish philosopher and writer, rector of the University of Salamanca. Lifelong struggle with his own mortality in \"Tragic Sense of Life,\" inventor of the \"nivola.\" Famous confrontation with General Millán-Astray in 1936, removal from office and house arrest until his death. Animal correspondence: Dove.",
@@ -23025,6 +23029,72 @@ function paulGauguinPortraitPage() {
           {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function ludwigGoeranssonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ludwig-goeransson-portrait.jpg" alt="Ludwig Göransson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Göransson</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Swedish film composer and producer, b. 1984 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often years-long persistence. Ludwig Göransson was born in 1984 in Linköping, Sweden, the son of a music teacher, and began early on playing drums and systematically studying music. Unlike many pop stars of his generation, he never stepped into the spotlight himself – his career unfolds almost entirely behind the scenes, as a composer and producer whose name remains unknown to most moviegoers, even though his music touches millions of people worldwide.</p>
+          <p class="vb-intro">Göransson moved to the United States in the late 2000s to study film scoring at the University of Southern California – there he met a fellow student named Donald Glover, who would later achieve world fame as Childish Gambino. That early encounter grew into one of the most defining creative partnerships of the past fifteen years, yet true to the Self-Preservation Four, Göransson always remained the man behind the scenes, never the man on stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Impact Without Visibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> does not carry its inner struggle outward but processes it quietly, often for years – and even then, the work usually takes precedence over the person. Göransson has won two Oscars as a composer – for "Black Panther" (2019) and "Oppenheimer" (2024) – two utterly different works, an Afrofuturist superhero film and a historical biopic about the development of the atomic bomb. Despite this extraordinary success, he remains largely unknown to the general public – not a name that makes headlines, but one that appears in the credits.</p>
+          <p class="vb-intro">As a producer, too, Göransson played a major role on albums by Rihanna, Justin Timberlake, and Kendrick Lamar, always in the background, always serving another artist's vision, never appearing as a public figure in his own right. This consistent reticence paired with enormous creative impact is a core pattern of the Self-Preservation Four: significance arises not through visibility, but through the quiet quality of the work itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Life as a Question of System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance from its own expression – the feeling is not merely captured but translated into a carefully considered, almost scientific process. For the score to "Black Panther," Göransson traveled to Senegal and South Africa specifically to study traditional instruments and musical traditions on the ground, worked with local musicians, and methodically integrated those sounds into his score instead of superficially imitating them.</p>
+          <p class="vb-intro">For "Oppenheimer" (2023), he spent roughly nine months composing more than three hours of music, immersing himself in nuclear physics and the biography of the title character in order to write a score that, in his own words, should sound like the restless mind of Oppenheimer, marked by "haunting loneliness." One deliberate compositional choice reveals this love of system especially clearly: the entire score contains no drums or percussion whatsoever – a radical, carefully considered restriction that gives the work its unmistakable, almost weightless sound world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Two Oscars, Two Entirely Different Worlds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Between the West African-rooted, rhythmically driving music of "Black Panther" and the string-carried, almost claustrophobic sound world of "Oppenheimer" lie entire worlds apart – hardly any other composer of his generation moves between such different musical languages with the same methodical depth. For Göransson, every new project appears to be its own self-contained question of system: what sound world does exactly this story, this character, this historical moment need – and how can it be uncovered with the greatest possible precision, rather than falling back on what has worked before?</p>
+          <p class="vb-intro">This attitude already showed in his collaboration with director Ryan Coogler, which began in 2013 with the small, personal drama "Fruitvale Station" and continued through "Creed" (2015) to the two "Black Panther" films – a creative partnership grown over more than a decade, built on exactly the same quiet, persistent trust the Self-Preservation Four develops in its closest creative bonds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 is its ability to <strong>translate an emotional truth into sound through meticulous, often months-long research</strong>, reaching an audience of millions without the creator ever needing to stand at the center himself. Göransson's music today shapes some of the biggest cultural moments in cinema of the past decade – "Black Panther" became a global cultural event, "Oppenheimer" one of the most successful serious dramas in film history – and yet the man behind it remains nameless to most viewers.</p>
+          <p class="vb-intro">The shadow of this constellation lies precisely in that invisibility: whoever never puts themselves forward risks having their own achievement underestimated or overlooked – a risk the Self-Preservation Four takes on knowingly, because the quality of the work matters more to it than the recognition for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove That Shaped the Great Sounds From the Background</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ludwig Göransson is among the most influential film composers of his generation – not because he is the loudest voice in the room, but because he approaches every new project with the same quiet, methodical devotion with which other members of this subtype work through a question of a lifetime.</p>
+          <p class="vb-intro">The dove that learned its craft from the ground up as the son of a music teacher, and that never pushed itself into the foreground, yet nonetheless helped shape some of the decade's most defining film moments with its music – that is the lasting image of this subtype: quiet, carefully considered mastery that needs no stage of its own to have an effect.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
+        {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
+      ])}
     </div>
   `);
 }
@@ -45606,12 +45676,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
         beschreibung: "Unlike the louder Four subtypes, inner pain or depth shows itself hardly at all outwardly. Processing happens in quiet, often decades-long persistence – without seeking applause for one's own inner struggle.",
-        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
+        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Ludwig Göransson, whose scores for 'Black Panther' and 'Oppenheimer' earned two Oscars and global cultural impact while his own name remains unknown to most viewers – significance without visibility; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
       },
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
@@ -100718,6 +100788,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
+      "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
