@@ -32932,6 +32932,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 1732\u20131809. \u00d6sterreichischer Komponist. Drei Jahrzehnte im Dienst der Esterh\u00e1zys, \u203aPapa Haydn\u2039, 104 Symphonien, Mentor von Mozart und Beethoven. Der Waschb\u00e4r mit Zweierfl\u00fcgel: stille Leistung, F\u00fcrsorge und sp\u00e4te Anerkennung durch die Londoner Reisen. Tierentsprechung: Waschb\u00e4r.",
     land:"Deutschland", tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-bastian-pastewka", name:"Bastian Pastewka", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Bastian Pastewka – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · geb. 1972. Deutscher Schauspieler, Komiker und Synchronsprecher, bekannt aus ›Die Wochenshow‹ und seiner eigenen Sitcom ›Pastewka‹. Seit 1996 enge, jahrzehntelange Zusammenarbeit mit Anke Engelke in zahlreichen Formaten. Gilt als akribischer Perfektionist mit hohem handwerklichem Anspruch. Tierentsprechung: Waschbär.",
+    land:"Deutschland", tags:["Comedy","Schauspiel"], gender:"m"},
   { route:"beruehmte-lang-lang", name:"Lang Lang", added:"2026-08-15", subtyp:"SE3w2",
     heading:"Lang Lang \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1982. Pianist. Durchbruch 1999 beim Ravinia Festival, Olympia-Er\u00f6ffnungsfeier Peking 2008, Lang Lang International Music Foundation. Der Waschb\u00e4r mit Zweierfl\u00fcgel: jahrelange stille Meisterschaft, die zur Br\u00fccke f\u00fcr andere wird. Tierentsprechung: Waschb\u00e4r.",
@@ -44854,7 +44858,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
@@ -44869,7 +44873,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
         beschreibung: "Fähigkeiten, die später mühelos wirken, entstehen fast nie über Nacht, sondern über Jahre stiller, oft schmerzhaft konsequenter Wiederholung, lange bevor eine Öffentlichkeit davon erfährt.",
-        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde."
+        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde; Bastian Pastewka, der als akribischer Perfektionist gilt, der jede Rolle, jede Pointe und jedes Timing gründlich vorbereitet, statt sich auf spontane Kreativität zu verlassen – ein Anspruch, der sich sowohl in seiner eigenen, über Jahre entwickelten Sitcom als auch in seiner international geschätzten Synchronarbeit zeigt."
       },
       {
         titel: "Erreichte Sichtbarkeit bewusst gegen Substanz eintauschen",
@@ -49792,6 +49796,7 @@ function ankeEngelkePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel</strong> verleiht der sexuellen Sechs eine Leichtigkeit, die ihr ohne ihn fehlen w\u00fcrde. Bei schwach ausgepr\u00e4gtem Siebenerfl\u00fcgel tendiert die Sechs zur Schwere: Gr\u00fcbeln, Misstrauen, das st\u00e4ndige Abw\u00e4gen von Risiken. Der Siebenerfl\u00fcgel hellt das auf &ndash; er bringt Neugier, Spielfreude, die F\u00e4higkeit, Verbindungen herzustellen, die anderen nicht auffallen.</p>
           <p class="vb-intro">Bei Anke Engelke zeigt sich das schon im Beginn ihrer Karriere. Mit 14 Jahren moderiert sie das <em>ZDF-Ferienprogramm</em> und die w\u00f6chentliche Kindersport-Sendung <em>Pfiff</em> &ndash; als Teenager, der anderen Kindern Sommer und Sport n\u00e4herbringt. Diese fr\u00fche Selbstverst\u00e4ndlichkeit auf der B\u00fchne hat einen Grund: Es ist der Siebenerfl\u00fcgel, der die Angst \u00fcberspielt, bevor sie sich festsetzen kann. Aus diesem Beginn w\u00e4chst eine Karriere voller Wechsel &ndash; Fernsehen, Radio, Comedy, Schauspiel, Synchron, Gesang. Kein Format zu viel, keine Richtung zu eng. Ihr Humor ist selten bitter &ndash; er ist warm, absurd, bisweilen kindlich. Das ist der Siebenerfl\u00fcgel: Angst in Spiel verwandeln, und zwar schon mit vierzehn.</p>
+          <p class="vb-intro">Seit 1996 verbindet sie eine der langlebigsten Partnerschaften der deutschen Comedy-Geschichte mit <a href="#beruehmte-bastian-pastewka">Bastian Pastewka (SE3w2)</a>, den sie bei ›Die Wochenshow‹ kennenlernte – gemeinsame Formate von ›Fröhliche Weihnachten! – mit Wolfgang und Anneliese‹ bis ›Wiedersehen macht Freude‹ zeugen von einer Zusammenarbeit, die über Jahrzehnte trug.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Angst als unsichtbarer Motor</h2>
@@ -49813,6 +49818,7 @@ function ankeEngelkePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-bastian-pastewka", label:"Portr\u00e4t: Bastian Pastewka (SE3w2)"},
         {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
       ])}
     </div>
@@ -72767,6 +72773,72 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function bastianPastewkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bastian-pastewka-portrait.jpg" alt="Bastian Pastewka" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bastian Pastewka</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Komiker &amp; Synchronsprecher, geb. 1972 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Geschicklichkeit nicht dem Zufall, sondern jahrelanger, geduldiger Vorbereitung verdankt. Bastian Pastewka wurde 1972 in Bochum geboren und wurde Ende der 1990er Jahre einem breiten Publikum durch die Sketchsendung ›Die Wochenshow‹ bekannt, in der er eigene, sorgfältig ausgearbeitete Figuren wie Brisko Schneider und Ottmar Zittlau erschuf.</p>
+          <p class="vb-intro">Der Weg dorthin führte nicht über spontane Improvisation, sondern über handwerkliche Vorbereitung – Pastewka gilt bis heute als Perfektionist, der akribisch an jeder Rolle, jeder Pointe, jedem Timing feilt, bevor er auf die Bühne oder vor die Kamera tritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch nachweisbares Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht.</p>
+          <p class="vb-intro">Bei Pastewka zeigt sich das besonders deutlich in seiner Arbeit als Synchronsprecher, unter anderem für die Hauptfigur in ›Stuart Little‹ und für Bloofy in ›Alles steht Kopf 2‹ (2024): In der Branche gilt er als einer der akkuratesten Sprecher überhaupt, jemand, der die Arbeit gründlich vorbereitet, statt sich auf spontane Kreativität zu verlassen. Auch seine eigene, nach ihm benannte Sitcom ›Pastewka‹ entstand über Jahre hinweg mit demselben Anspruch an handwerkliche Genauigkeit – kein schnell produziertes Format, sondern ein sorgfältig entwickeltes Werk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Die jahrzehntelange Partnerschaft mit Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und zum kollegialen Miteinander. Pastewka und <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> lernten sich 1996 bei ›Die Wochenshow‹ kennen und arbeiten seither, über fast dreißig Jahre hinweg, in zahlreichen gemeinsamen Formaten des deutschen Fernsehens zusammen – von der zweiteiligen Comedyreihe ›Fröhliche Weihnachten! – mit Wolfgang und Anneliese‹ über die gemeinsame Moderation von ›Unser schönes Deutschland‹ bis zur Wiedersehensshow ›Wiedersehen macht Freude‹. Aus der beruflichen Zusammenarbeit ist längst eine echte, tragfähige Freundschaft geworden.</p>
+          <p class="vb-intro">Diese Konstellation – eine selbsterhaltende Drei neben einer sexuellen Sechs mit Siebenerflügel – ist keine Ausnahme, sondern ein Muster, das sich in über dreißig Jahren Praxiserfahrung mit dem Enneagramm immer wieder zeigt: SE3 und SX6 verstehen sich auffällig häufig, sei es als Paar, unter Kollegen oder in Gemeinschaften. Die verlässliche, handwerklich saubere Substanz der SE3 trifft auf die wache, loyale und zugleich humorvoll-warme Energie der SX6 – zwei Energien, die sich gegenseitig tragen, statt sich zu reiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Eitelkeit im Dienst der Verlässlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – bei der SE3 nicht als lautes Geltungsbedürfnis, sondern als das feine Bedürfnis, durch nachweisbare Leistung als unentbehrlich zu gelten. Bei Pastewka zeigt sich das darin, dass er in der Branche vor allem für seine Zuverlässigkeit geschätzt wird: Wer mit ihm arbeitet, weiß, dass die Vorbereitung stimmt, dass die Pointe sitzt, dass nichts dem Zufall überlassen bleibt.</p>
+          <p class="vb-intro">Genau diese Verlässlichkeit ist es, die ihn über Jahrzehnte zu einem gefragten Partner in ganz unterschiedlichen Formaten machte – von der Comedy über die Moderation bis zur internationalen Synchronarbeit für Hollywood-Großproduktionen wie ›Madagascar‹ und ›Bee Movie‹. Die SE3w2 sucht nicht die große Bühne um ihrer selbst willen, sondern das Vertrauen, das aus wiederholt bewiesener Kompetenz entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>echtes handwerkliches Können mit echter kollegialer Wärme</strong> zu verbinden. Pastewka hat sich über Jahrzehnte als einer der verlässlichsten Comedians und Sprecher des deutschen Fernsehens etabliert, ohne sich dabei über Skandale oder Selbstinszenierung zu profilieren – seine Substanz spricht für sich.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei zeigt sich in einem hohen, manchmal unerbittlichen Perfektionsanspruch an sich selbst und andere: Wer mit weniger Sorgfalt arbeitet, stößt bei ihm auf wenig Verständnis. Doch genau dieser Anspruch, gepaart mit der warmen, verbindenden Energie des Zweierflügels, hat ihm über Jahrzehnte hinweg sowohl den Respekt der Branche als auch echte, langjährige Freundschaften eingebracht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der Verlässlichkeit zur Kunstform macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bastian Pastewka gehört zu den prägendsten Figuren der deutschen Comedy-Landschaft – nicht, weil er lauter oder auffälliger war als andere, sondern weil er sein Handwerk mit einer Genauigkeit betrieb, die Kolleginnen und Kollegen wie Publikum gleichermaßen überzeugte.</p>
+          <p class="vb-intro">Vom akribischen Figurenschöpfer bei ›Die Wochenshow‹ bis zum international gefragten Synchronsprecher, von der eigenen Sitcom bis zur fast dreißigjährigen Partnerschaft mit Anke Engelke: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Können, das durch Beständigkeit und echte Verbundenheit erst seine volle Wirkung entfaltet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
       ])}
     </div>
   `);
@@ -137297,6 +137369,7 @@ function render() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
       "beruehmte-grahame-webb": grahameWebbPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,

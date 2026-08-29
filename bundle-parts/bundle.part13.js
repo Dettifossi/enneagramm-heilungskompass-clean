@@ -1,3 +1,103 @@
+function tedKaczynskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ted Kaczynski \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/ted-kaczynski-portrait.jpg" alt="Ted Kaczynski \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Ted Kaczynski</p>
+        <p class="krim-portrait-typ">SO5w4 \u00b7 Sozialer Typ 5 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-sub">Der Unabomber &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Oktopus</h3>
+        <p class="vb-intro">Der <strong>Oktopus</strong> ist die Tierentsprechung der sozialen F\xfcnf &ndash; und er beschreibt Ted Kaczynskis innere Architektur mit einer Pr\xe4zision, die \xfcberrascht. Der Oktopus ist hochintelligent, r\xe4tselhaft und weitgehend unsichtbar. Er lebt im R\xfcckzug, beobachtet aus der Distanz, l\xe4sst sich nicht greifen. Wenn er angreift, macht er es nicht mit roher Kraft &ndash; sondern mit Geschwindigkeit, Pr\xe4zision und Gift. Er hinterl\xe4sst keine Spur. Und er kommuniziert: durch Farbver\xe4nderung, Musterwechsel, kr\xe4nkungslose Signale an eine Welt, die ihn nie wirklich verstanden hat. Ted Kaczynski war dieser Oktopus: ein Intellekt im Verborgenen, dessen Botschaft lautete &ndash; <em>ihr habt es nicht verstanden</em>.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale F\xfcnf: Wissen als Weltgericht</h3>
+        <p class="vb-intro">Die <strong>soziale F\xfcnf (SO5)</strong> ist paradox: Sie ist der gesellschaftsbezogenste aller F\xfcnf-Subtypen &ndash; und gleichzeitig h\xe4ufig der sch\xe4rfste Kritiker der Gesellschaft. Die SO5 sucht nicht Zugeh\xf6rigkeit um ihrer selbst willen, sondern eine intellektuelle Grundlage, von der aus die Welt beurteilt und verstanden werden kann. Naranjo nannte diesen Subtyp <em>Totem</em>: die F\xfcnf als Tr\xe4gerin einer Idee, die \xfcber das Individuum hinausweist.</p>
+        <p class="vb-intro"><strong>Theodore John Kaczynski</strong>, geboren am 22. Mai 1942 in Chicago, war ein Wunderkind. Mit 16 Jahren Abitur, mit 20 Harvard-Abschluss, mit 25 Doktorat in Mathematik an der University of Michigan, mit 26 Assistenzprofessor an der UC Berkeley &ndash; einer der j\xfcngsten in der Geschichte der Universit\xe4t. Dann k\xfcndigte er. Ohne Erkl\xe4rung, ohne Plan. Er verschwand in eine selbst gebaute Holzh\xfctte in der Wildnis von Montana, ohne Strom und Wasser, und begann &ndash; zu denken.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Tiefe, Sendungsbewusstsein, Einsamkeit</h3>
+        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> verleiht der sozialen F\xfcnf etwas, was sie ohne ihn nicht h\xe4tte: eine emotionale Tiefe und ein ausgepr\xe4gtes Gef\xfchl des Andersseins, des Missverstandenwerdens. Der Viererfl\u00fcgel f\xfcgt der k\xfchlen Analyse der F\xfcnf eine fast k\xfcnstlerische Intensit\xe4t hinzu &ndash; das Gef\xfchl, etwas zu tragen, das die Welt h\xf6ren m\xfcsse.</p>
+        <p class="vb-intro">Bei Kaczynski zeigte sich das in seiner Schreibweise: Sein Manifest ist kein trockenes akademisches Werk. Es ist leidenschaftlich, fast prophetisch. Er schrieb \xfcber Entfremdung, \xfcber den Verlust autonomen Lebens, \xfcber die Zersetzung des menschlichen Wesens durch Technologie &ndash; mit einer Dringlichkeit, die den Viererfl\u00fcgel deutlich erkennbar macht. Kaczynski f\xfchlte sich nicht als K\xe4mpfer f\xfcr eine politische Sache. Er f\xfchlte sich als einziger, der wirklich sah, was geschah.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Hochbegabung und innerer R\xfcckzug</h3>
+        <p class="vb-intro">Kaczynskis Biografie ist die einer zunehmenden Entfremdung. Als Kind hochbegabt, aber sozial isoliert &ndash; zwei Jahre wurde er fr\xfchversetzt, wodurch er mit \xe4lteren Mitsch\xfclern in Klassen kam, zu denen er keinen Zugang fand. An der Harvard-Universit\xe4t nahm er als 16-J\xe4hriger an einem psychologischen Stressexperiment teil, das sp\xe4ter als ethisch problematisch eingestuft wurde: Studenten wurden \xfcber Monate intensiven verbal-psychologischen Angriffen ausgesetzt. Kaczynski erw\xe4hnte dieses Experiment sp\xe4ter mehrfach.</p>
+        <p class="vb-intro">Die Entscheidung, die Universit\xe4t zu verlassen, war keine Krise &ndash; sie war eine Konsequenz. F\xfcr einen SO5w4 ist das Gef\xfchl, in einem System zu arbeiten, das man f\xfcr fundamental falsch h\xe4lt, nicht lange auszuhalten. Er baute sich seine H\xfctte. Er j\xe4gte, pflanzte Gem\xfcse an, lebte autark. Der Enneagramm-Kompass der F\xfcnf funktioniert hier: maximale Ressourcenschonung nach innen, maximale intellektuelle Kapazit\xe4t f\xfcr das eigentliche Projekt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Bombenanschl\xe4ge 1978&ndash;1995</h3>
+        <p class="vb-intro">Zwischen 1978 und 1995 schickte oder deponierte Kaczynski 16 Sprengstoffpakete an Universit\xe4ten und Fluggesellschaften &ndash; daher der FBI-Codename <em>UNABOM</em> (Universities and Airlines Bomber). Drei Menschen wurden get\xf6tet, 23 verletzt.</p>
+        <p class="vb-intro">Die ersten Pakete waren noch relativ grob. \xdcber die Jahre verfeinerte Kaczynski seine Bomben handwerklich erheblich &ndash; er fertigte alle Teile selbst, hinterlie\xdf kaum Spuren. Er wechselte Versandorte, \xe4nderte Absenderangaben, verwendete kein Schreibmaschinenpapier aus dem Handel. Die Ermittler standen 17 Jahre lang vor einem R\xe4tsel. Das FBI investierte in den 1990er Jahren eine der gr\xf6\xdften Fahndungsoperationen seiner Geschichte.</p>
+        <p class="vb-intro">Die Opfer waren nicht zuf\xe4llig: Er zielte auf Informatikprofessoren, Ingenieure der Luft- und Raumfahrt, Werbeleute &ndash; Menschen, die in seinen Augen Repr\xe4sentanten des technologisch-industriellen Systems waren. Das ist SO5: kein blindes T\xf6ten, sondern ein <em>gezieltes Urteil</em> &ndash; vollstreckt von dem Einzigen, der die Konsequenz hatte, es auszuf\xfchren.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Manifest: <em>Industrial Society and Its Future</em></h3>
+        <p class="vb-intro">1995 sandte Kaczynski sein 35.000 W\u00f6rter langes Manifest an die <em>New York Times</em> und die <em>Washington Post</em> mit der Drohung, andernfalls weitere Anschl\xe4ge zu ver\u00fcben. Das FBI riet zur Ver\xf6ffentlichung. Das Manifest erschien im September 1995.</p>
+        <p class="vb-intro">Es ist ein bemerkenswertes Dokument. Kaczynski argumentiert klar und konsequent: Die Industriegesellschaft zerst\xf6rt die psychologische Autonomie des Menschen, indem sie nat\xfcrliche Bed\xfcrfnisse nach Macht, Herausforderung und Sinn durch surrogat-Aktivit\xe4ten ersetzt. Der Einzelne wird abh\xe4ngig von einem System, das er nicht kontrolliert und nicht versteht. Der einzige Ausweg sei ein radikaler Zusammenbruch der technologischen Zivilisation.</p>
+        <p class="vb-intro">Philosophen, Soziologen und Technik-Kritiker haben seither einzelne Analysen des Manifests als intellektuell bemerkenswert bezeichnet &ndash; abgel\xf6st von seiner kriminellen Handlung betrachtet. Das ist das SO5w4-Paradox: ein Denker, dessen Ideen partiell diskutierbar w\xe4ren &ndash; und dessen Mittel inakzeptabel sind.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Verhaftung und Prozess</h3>
+        <p class="vb-intro">Die Ver\xf6ffentlichung des Manifests wurde zu Kaczynskis Verh\u00e4ngnis. Sein Bruder David las den Text und erkannte den Schreibstil. Er meldete sich beim FBI. Am 3. April 1996 wurde Kaczynski in seiner H\xfctte in Lincoln, Montana, verhaftet.</p>
+        <p class="vb-intro">Der Prozess 1997/98 wurde kompliziert durch Kaczynskis Weigerung, eine psychiatrische Verteidigung zuzulassen. Er wollte nicht als geistig krank dargestellt werden &ndash; das w\xe4re in seinen Augen eine Entwertung seiner Argumente gewesen. Er pl\u00e4dierte schlie\xdflich auf schuldig und wurde zu lebenslanger Haft ohne Bew\xe4hrung verurteilt. Am 10. Juni 2023 wurde er tot in seiner Gef\xe4ngniszelle gefunden &ndash; mutma\xdflich durch Suizid. Er war 81 Jahre alt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Naranjos SO5 &ndash; &bdquo;Totem&ldquo;:</strong> Claudio Naranjo beschreibt die SO5 als den Subtyp, der Ideen als Br\xfccke zur Welt benutzt &ndash; nicht Zugeh\xf6rigkeit, sondern intellektuelles Zeugnis. Der SO5er ist nicht weltfremd: Er beobachtet die Gesellschaft intensiv, analysiert sie, richtet \xfcber sie. Im gesunden Bereich wird das zum Philosophen, zum Kulturkritiker, zum Vision\u00e4r. Im ungesunden Bereich &ndash; wie bei Kaczynski &ndash; wird die Analyse zum Urteil, das Urteil zum Auftrag.</p>
+        <p class="vb-intro"><strong>b) Der Viererfl\xfcgel als Verst\xe4rker:</strong> Ohne w4 h\xe4tte Kaczynski m\xf6glicherweise seine Kritik in Schriften kanalisiert. Der Viererfl\u00fcgel gab diesem Denken eine existenzielle Dringlichkeit: Das war nicht nur intellektuelle \xdcberzeugung &ndash; das war Identit\xe4t, Sendung, Leiden. Die F\xfcnf allein zieht sich zur\xfcck. Die F\xfcnf mit Viererfl\xfcgel zieht sich zur\xfcck und brennt.</p>
+        <p class="vb-intro"><strong>c) Das Kernproblem:</strong> Ein SO5w4 ohne menschliche Bindung und ohne korrektive Gegenstimmen kann in eine intellektuelle Eigenwelt abdriften, in der die eigene Analyse zur einzigen Realit\xe4t wird. Kaczynskis 17 Jahre in der Waldeins\xe4mkeit waren genau das: ein Denksystem ohne Reibung, ohne Widerspruch, ohne Liebe &ndash; das sich zunehmend zur totalen \xdcberzeugung verdichtete. Das Enneagramm nennt das den Kollaps in die Gier der F\xfcnf: das Horten von Wissen, bis kein Kontakt mehr m\xf6glich ist.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Fazit: Der Oktopus, der die Welt verurteilte</h3>
+        <p class="vb-intro">Ted Kaczynski ist kein Fall von blindem Hass und kein Fall von geistiger Umnachtung. Er ist der Fall eines au\xdfergew\xf6hnlich begabten Menschen, der &ndash; mangels menschlicher Bindung, mangels korrektiver Gegenstimmen, mangels der einfachen Erfahrung, geliebt und widersprochen zu werden &ndash; in ein Denksystem hineingeglitten ist, das sich von innen heraus vollst\xe4ndig stimmig anf\xfchlte. Das ist die tiefste Gef\xe4hrlichkeit der ungesunden sozialen F\xfcnf: nicht Impulsivit\xe4t, nicht Empathielosigkeit im klinischen Sinne &ndash; sondern die F\xe4higkeit, jahrzehntelang in einem hermetisch geschlossenen intellektuellen System zu leben, das jeden Zweifel l\xe4ngst hat aufgezehrt.</p>
+        <p class="vb-intro">Sein Viererfl\xfcgel machte aus dieser \xdcberzeugung eine Sendung. Und seine soziale Instinktvariante sorgte daf\xfcr, dass er die Welt nicht einfach aufgab &ndash; sondern richtete. Er wollte geh\xf6rt werden. Er wollte, dass die Menschheit versteht. Die Bomben waren in seiner Logik keine Angriffe, sondern Argumente &ndash; die letzte Sprache eines Denkenden, der glaubte, alle anderen Sprachen seien gescheitert.</p>
+        <p class="vb-intro">Was bleibt: ein Manifest, das partiell weiterhin gelesen wird. Drei Tote, die nie zur\xfckkehren. Und die Frage, was aus diesem Intellekt geworden w\xe4re, h\xe4tte ihn irgendwann jemand wirklich erreicht.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Theodore John Kaczynski</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO5w4 &ndash; Soziale F\xfcnf mit Viererfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Gier (als Horten von Wissen und Distanz zur Welt)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Oktopus</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 22. Mai 1942 &ndash; 10. Juni 2023</span>
+          <span style="display:block;"><strong>Verurteilung:</strong> Dreifacher Mord, 23-facher K\xf6rperverletzung; lebensl\xe4nglich ohne Bew\xe4hrung</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale F\xfcnf im Vergleich: Wie sich Gier bei SE5, SO5 und SX5 unterschiedlich ausdr\xfcckt \u2013 und warum die SO5 Ideen als Weltbr\xfccke nutzt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Gier als Grundmotiv der F\xfcnf: Wie der R\xfcckzug entsteht und wie Kontakt zur Welt w\xe4chst.", "Wer du wirklich bist (Band 1)")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Ted Kaczynski bekannte sich 1998 in 13 Anklagepunkten schuldig und verb\u00fc\u00dfte lebenslange Haft bis zu seinem Tod 2023. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-harold-shipman", label:"Kriminalpsychologie: Harold Shipman (SO5w6)"},
+          {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4)"},
+          {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 function haroldShipmanPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -8823,57 +8923,6 @@ function schildkroetenartenDer9TypenPage() {
         {route:"reptilienarten-der-9-typen", label:"Reptilienarten der 9 Typen"},
         {route:"fischarten-der-9-typen", label:"Fischarten der 9 Typen"},
         {route:"walarten-der-9-typen", label:"Walarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function fischartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Fischarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Fische bev\u00f6lkern die Erde seit \u00fcber 500 Millionen Jahren \u2013 sie waren vor den Dinosauriern da und werden nach uns noch da sein. Jede Art hat dabei ein unverwechselbares Prinzip entwickelt, das ihr das \u00dcberleben sichert. Neun Fischarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/fischarten-der-9-typen.jpg" alt="Fischarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Regenbogenforelle: Perfektion in Bewegung</h3>
-        <p class="vb-intro">Die Regenbogenforelle ist einer der pr\u00e4zisesten Fische, die es gibt: Ihr stromlinienf\u00f6rmiger K\u00f6rper ist ein Meisterwerk der Evolution, optimiert f\u00fcr kristallklares Flie\u00dfwasser mit h\u00f6chstem Sauerstoffgehalt. Sie lebt ausschlie\u00dflich in sauberem, kaltem Wasser \u2013 die kleinste Verschmutzung vertreibt sie sofort. Als nat\u00fcrlicher Bioanzeiger gilt ihr Vorkommen als Zeichen f\u00fcr intaktes, gesundes Gew\u00e4sser. Ihre Bewegungen im Wasser sind von au\u00dferordentlicher Pr\u00e4zision: Sie h\u00e4lt im Str\u00f6mungsschatten von Steinen millimetergenau Position, wartet auf Insekten, die auf die Wasseroberfl\u00e4che treffen, und schnappt mit einem einzigen, gezielten Satz zu. Keine Verschwendung, keine Improvisation. Ihr schillerndes Farbenkleid \u2013 der charakteristische Regenbogenstreifen \u2013 ist nicht Protz, sondern nat\u00fcrliches Erkennungszeichen ihrer Art. Das Prinzip des Enneagrammtyps 1: Ordnung und Reinheit sind keine Anspr\u00fcche an andere \u2013 sie sind der innere Standard, nach dem die Regenbogenforelle lebt. Wer ihr Revier verschmutzt, bekommt sie nie zu sehen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Clownfisch: Schutz durch Hingabe</h3>
-        <p class="vb-intro">Der Clownfisch lebt in einer der erstaunlichsten Symbiosen des Meereslebens: Er wohnt in den Tentakeln der Seeanemone \u2013 ein Tier, das jeden anderen Fisch mit seinen Giftzellen sofort t\u00f6tet. Der Clownfisch ist immun, weil er sich in einer langsamen, geduldigen Ann\u00e4herung einen Schutzfilm aus Schleimsubstanz der Anemone zulegt. Was er daf\u00fcr gibt: Er verteidigt die Anemone vor ihren Fressfeinden, reinigt ihre Tentakeln und lockt durch sein buntes Aussehen andere Fische an \u2013 die dann der Anemone zur Nahrung dienen. Diese gegenseitige F\u00fcrsorge und Unterst\u00fctzung ist keine Nebensache \u2013 sie ist das Lebensprinzip des Clownfisches. Erstaunlich: Alle Clownfische werden als M\u00e4nnchen geboren; der dominante Fisch in einer Gruppe wird zum Weibchen. Verliert die Gruppe ihr Weibchen, \u00fcbernimmt das rangh\u00f6chste M\u00e4nnchen sofort dessen Rolle. Das Prinzip des Enneagrammtyps 2: Der Clownfisch hat keinen sicheren Ort f\u00fcr sich allein \u2013 aber er schafft f\u00fcr andere einen sicheren Ort. Und genau darin findet er seinen eigenen Schutz.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Lachs: Leistung bis zum letzten Atemzug</h3>
-        <p class="vb-intro">Der Lachs ist der ausdauerndste Leistungstr\u00e4ger unter den Fischen: Er wird im S\u00fc\u00dfwasser geboren, wandert als Jungtier ins Meer, lebt dort drei bis f\u00fcnf Jahre \u2013 und kehrt dann, mit unfehlbarem Geruchssinn, zur\u00fcck in exakt denselben Fluss, in dem er geschl\u00fcpft ist. Der R\u00fcckweg kann tausende Kilometer betragen, gegen die Str\u00f6mung, \u00fcber Wasserf\u00e4lle, durch Untiefen. Der Lachs frisst auf dieser Reise nicht. Er lebt von seinen K\u00f6rperreserven, bis er das Laichgebiet erreicht, ablegt \u2013 und stirbt. Sein letzter Akt ist sein gr\u00f6\u00dfter: Der verwesende K\u00f6rper d\u00fcngt den Flussboden und sichert das \u00dcberleben der n\u00e4chsten Generation. Kein anderer Fisch verk\u00f6rpert Einsatzbereitschaft so kompromisslos. Das Prinzip des Enneagrammtyps 3: Der Lachs fragt nicht, ob sich der Aufwand lohnt. Er wei\u00df, wohin er muss \u2013 und er kommt an, egal was auf dem Weg liegt. Erfolg ist keine Option. Er ist das Ziel.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Mandarinfisch: Einzigartigkeit als Lebensform</h3>
-        <p class="vb-intro">Der Mandarinfisch ist der farbenpr\u00e4chtigste Fisch der Welt: ein leuchtendes Mosaik aus Blau, Orange, Gr\u00fcn und T\u00fcrkis, in Mustern, die kein zwei Tiere gleich tragen. Was ihn noch bemerkenswerter macht: Diese Farben entstehen nicht durch Pigmente \u2013 sondern durch eine einzigartige Zellstruktur, die Licht bricht und reflektiert. Der Mandarinfisch ist einer der wenigen Fische, die keine Schuppen haben; seine Haut ist mit einer giftigen Schleimschicht bedeckt, die Fressfeinde abschreckt. Er lebt in versteckten Riffen, scheu und r\u00fcckzugsbereit, taucht aber abends zum Sonnenuntergang auf, um sich zu paaren \u2013 in einem Tanz, der so pr\u00e4zise choreographiert ist, dass Paare einander nach nur einer Begegnung wiedererkennen. Das Prinzip des Enneagrammtyps 4: Der Mandarinfisch muss sich nicht anpassen. Er tr\u00e4gt seine Einzigartigkeit auf der Haut \u2013 buchst\u00e4blich. Wer ihn sehen will, muss zu ihm kommen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Anglerfisch: Wissen aus der Dunkelheit</h3>
-        <p class="vb-intro">Der Anglerfisch lebt in den tiefsten, dunkelsten Schichten des Meeres \u2013 in Tiefen bis zu 2.000 Metern, wo kein Sonnenlicht mehr ankommt, der Druck Menschen zerquetschen w\u00fcrde und die Temperatur kaum \u00fcber null Grad steigt. Er tr\u00e4gt seine eigene Lichtquelle: ein biolumineszentes Organ \u00fcber dem Kopf, das er wie eine Angel ausf\u00e4hrt und damit Beute in die Dunkelheit lockt. Der Anglerfisch bewegt sich kaum \u2013 er beobachtet, wartet, analysiert. Wenn Beute kommt, reagiert er mit einem Maul voller r\u00fcckw\u00e4rts gebogener Z\u00e4hne, die kein Entkommen erlauben. Erstaunlich: Das Weibchen ist bis zu zehnmal gr\u00f6\u00dfer als das M\u00e4nnchen. Das M\u00e4nnchen verschmilzt beim Paaren buchst\u00e4blich mit dem Weibchen und wird Teil ihres K\u00f6rpers. Das Prinzip des Enneagrammtyps 5: Der Anglerfisch braucht keine Au\u00dfenwelt, um zu \u00fcberleben. Er schafft sich sein eigenes Licht in der Dunkelheit \u2013 und lockt damit genau das an, was er braucht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Korallenw\u00e4chter: Loyalit\u00e4t als Schutzschild</h3>
-        <p class="vb-intro">Der Korallenw\u00e4chter \u2013 auch Putzerlippfisch genannt \u2013 \u00fcbernimmt eine der wichtigsten Rollen im Korallenriff: Er betreibt sogenannte Putzerstationen, an denen gr\u00f6\u00dfere Fische anhalten, um sich von Parasiten, abgestorbener Haut und Wundkeimen befreien zu lassen. Was bemerkenswert ist: Diese gr\u00f6\u00dferen Fische \u2013 die den Korallenw\u00e4chter normalerweise fressen w\u00fcrden \u2013 bleiben ruhig, \u00f6ffnen M\u00e4uler und Kiemen, und vertrauen dem kleinen Fisch vollst\u00e4ndig. Er kommt ihnen buchst\u00e4blich ins Maul und verl\u00e4sst es unbeschadet. Dieses Vertrauen ist kein Gl\u00fcck: Es ist das Ergebnis jahrmillionen alter Kooperation, in der beide Seiten gelernt haben, dass Loyalit\u00e4t mehr sch\u00fctzt als St\u00e4rke. Das Prinzip des Enneagrammtyps 6: Der Korallenw\u00e4chter sch\u00fctzt andere \u2013 und wird dadurch selbst gesch\u00fctzt. Sicherheit entsteht nicht durch Isolation, sondern durch Vertrauen, das verdient ist.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Papageienfisch: Das Riff als Spielwiese</h3>
-        <p class="vb-intro">Der Papageienfisch ist einer der lebendigsten Bewohner des Korallenriffs: bunt wie ein Papagei, mit einem schnabelartigen Mundapparat aus zusammengewachsenen Z\u00e4hnen, mit dem er buchst\u00e4blich Korallen abbei\u00dft, verdaut und als feinen wei\u00dfen Sand wieder ausscheidet. Der wei\u00dfe Sandstrand vieler tropischer Inseln besteht zu einem gro\u00dfen Teil aus dem Verdauungsprodukt von Papageienfischen. Er schl\u00e4ft nachts in einer selbst produzierten Schleimblase \u2013 einer Art Schlafsack, der ihn vor Parasiten und Raubtieren sch\u00fctzt. Tags\u00fcber ist er unabl\u00e4ssig in Bewegung: knabbert hier, schwimmt dort, erkundet jede Ecke des Riffs. Das Prinzip des Enneagrammtyps 7: Der Papageienfisch verwandelt, was er ber\u00fchrt \u2013 im w\u00f6rtlichen Sinne. Sein Hunger f\u00fchrt nicht zur Zerst\u00f6rung, sondern zur Sch\u00f6pfung. Neugier als Lebensform, die die Welt ver\u00e4ndert.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Zackenbarsch: Herrscher des Reviers</h3>
-        <p class="vb-intro">Der Zackenbarsch ist einer der dominantesten Raubfische des Meeres: ein massiger, schneller Hinterhaltj\u00e4ger, der sein Revier mit klar erkennbarer Pr\u00e4senz beansprucht und Eindringlinge kompromisslos vertreibt. Er kann beachtliche Gr\u00f6\u00dfen erreichen \u2013 manche Arten \u00fcber zwei Meter und 400 Kilogramm \u2013 und ist dabei von einer Beweglichkeit, die seiner Gr\u00f6\u00dfe widerspricht. Was wenige wissen: Auch Zackenbarsche \u00e4ndern ihr Geschlecht \u2013 aber umgekehrt zum Clownfisch: Sie beginnen als Weibchen und werden, wenn sie gro\u00df und stark genug sind, zum M\u00e4nnchen. St\u00e4rke und Status werden nicht verliehen \u2013 sie werden erarbeitet und errungen. Das Prinzip des Enneagrammtyps 8: Der Zackenbarsch fragt nicht um Erlaubnis, wer das Revier besetzt. Er setzt es durch \u2013 mit Pr\u00e4senz, Kraft und der Klarheit, die keine Erkl\u00e4rung braucht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Koi: Harmonie in jedem Becken</h3>
-        <p class="vb-intro">Der Koi ist der friedlichste und geliebteste Zierfisch der Welt: In Japan gilt er als Symbol f\u00fcr Gl\u00fcck, Langlebigkeit, Ausdauer und Harmonie. Er lebt in Gemeinschaft, vertr\u00e4gt sich mit fast allen anderen Fischarten, und seine ruhige Bewegung im Wasser \u2013 langsam, flie\u00dfend, ohne Eile \u2013 hat seit Jahrhunderten meditativen Charakter f\u00fcr Menschen, die an Teichen sitzen. Koi k\u00f6nnen \u00fcber 200 Jahre alt werden, erkennen ihre Pfleger und lassen sich von ihnen streicheln. Sie sind hochgradig anpassungsf\u00e4hig: Sie gedeihen in fast jedem sauberen Gew\u00e4sser, tolerieren K\u00e4lte und W\u00e4rme, kommen mit wenig aus. Ihr Frieden macht ihnen keine Angst \u2013 er ist ihr nat\u00fcrlicher Zustand. Das Prinzip des Enneagrammtyps 9: Der Koi braucht kein Drama, um zu existieren. Er bringt Ruhe in jedes Becken, das er bew\u00f6hnt \u2013 einfach dadurch, dass er so ist, wie er ist. Und in dieser Stille ber\u00fchrt er etwas, das jeder Mensch kennt: den Wunsch nach Frieden.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"schildkroetenarten-der-9-typen", label:"Schildkr\u00f6tenarten der 9 Typen"},
-        {route:"walarten-der-9-typen", label:"Walarten der 9 Typen"},
-        {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
       ])}
     </div>
   `);

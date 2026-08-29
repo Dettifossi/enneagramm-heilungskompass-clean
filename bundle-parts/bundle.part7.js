@@ -1,3 +1,68 @@
+function drewBarrymorePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-drew-barrymore-portrait.jpg" alt="Drew Barrymore – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Drew Barrymore</p>
+        <p class="krim-portrait-typ">SO7w8 &middot; Sozialer Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Produzentin &amp; Talkshow-Moderatorin, geb. 1975 in Los Angeles &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; ein Baumeister, der Katastrophen \u00fcbersteht, weil er st\u00e4ndig weiterbaut. F\u00e4llt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten. Er arbeitet nicht f\u00fcr sich allein, sondern f\u00fcr ein ganzes \u00d6kosystem, das von seiner Konstruktion abh\u00e4ngt.</p>
+          <p class="vb-intro">Die US-amerikanische Schauspielerin Drew Barrymore, geboren 1975 in Los Angeles als Spross der legend\u00e4ren Schauspielerdynastie Barrymore, ist dieser Biber. Mit sieben Jahren wurde sie durch ihre Rolle als Gertie in <em>E.T. &ndash; Der Au\u00dferirdische</em> (1982) weltber\u00fchmt &ndash; und st\u00fcrzte anschlie\u00dfend in eine der \u00f6ffentlichsten Kindheitskrisen Hollywoods. Doch statt daran zu zerbrechen, baute sie ihr Leben immer wieder neu auf: als Schauspielerin, als Unternehmerin, als eine der erfolgreichsten Produzentinnen ihrer Generation, und schlie\u00dflich als eine der beliebtesten Talkshow-Moderatorinnen Amerikas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Freude als geteiltes Gut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> lenkt die Leidenschaft der Sieben &ndash; den unstillbaren Hunger nach Erfahrung &ndash; nicht auf den eigenen Genuss, sondern in den Dienst einer Gemeinschaft. Naranjo beschrieb diesen Subtyp treffend: Freude, die geteilt werden will, verwandelt sich in Idealismus, in das Bed\u00fcrfnis, andere an der eigenen Begeisterung teilhaben zu lassen.</p>
+          <p class="vb-intro">Barrymores gesamte \u00f6ffentliche Persona ist von diesem Impuls gepr\u00e4gt: die spontane Umarmung fremder Talkshow-G\u00e4ste, die Tr\u00e4nen, die ihr bei emotionalen Momenten unverhohlen \u00fcber das Gesicht laufen, die unerm\u00fcdliche Botschaft von Selbstakzeptanz und Optimismus, die sie in Interviews wiederholt. Freude ist f\u00fcr sie kein privates Vergn\u00fcgen, sondern etwas, das erst vollst\u00e4ndig wird, wenn es geteilt wird &ndash; eine Haltung, die sie sp\u00e4ter zur Grundlage einer ganzen Sendung machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kontrolle \u00fcber das eigene Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> gibt der sozialen Sieben eine Durchsetzungskraft und Direktheit, die einer SO7 mit schwach ausgeprägtem Achterflügel fehlt. Wo die SO7 allein zur Zerstreuung neigen k\u00f6nnte, verwandelt der Achterfl\u00fcgel diese Energie in aktives Gestalten &ndash; in den Willen, die eigenen Verh\u00e4ltnisse selbst in die Hand zu nehmen, statt sich ihnen auszuliefern.</p>
+          <p class="vb-intro">Mit gerade einmal 14 Jahren lie\u00df sich Barrymore, nach Jahren von Alkohol- und Drogenkonsum, zwei Klinikaufenthalten und einem gescheiterten Suizidversuch, gerichtlich von ihren Eltern emanzipieren &ndash; ein radikaler, in dieser Form ungew\u00f6hnlicher Schritt f\u00fcr eine Minderj\u00e4hrige. 1995 gr\u00fcndete sie mit gerade 20 Jahren ihre eigene Produktionsfirma, Flower Films, um nie wieder von den Entscheidungen anderer \u00fcber ihre Karriere abh\u00e4ngig zu sein. \u00dcber diese Firma produzierte sie unter anderem die erfolgreiche <em>Drei Engel f\u00fcr Charlie</em>-Reihe. Der Achterfl\u00fcgel zeigt sich hier nicht als Aggression, sondern als entschlossene Selbsterm\u00e4chtigung: Niemand sonst sollte je wieder \u00fcber ihr Leben bestimmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Absturz und Wiederaufbau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barrymores Kindheit ist eine der bekanntesten Warnungen Hollywoods vor den Schattenseiten des Kinderstar-Daseins: erste Zigarette mit neun Jahren, Alkohol mit neun, Marihuana mit zehn, Kokain mit zw\u00f6lf oder dreizehn. Ihre eigene Mutter nahm sie mit in Nachtclubs. Mit 13 Jahren erschien ihre erste Autobiografie, <em>Little Girl Lost</em> &ndash; ein Kind, das \u00f6ffentlich \u00fcber seine eigene Selbstzerst\u00f6rung schrieb.</p>
+          <p class="vb-intro">Der Wiederaufbau begann in den 1990er Jahren: Rollen in <em>Poison Ivy</em> und <em>Scream</em> (1996) zeigten eine erwachsene, eigenst\u00e4ndige K\u00fcnstlerin. Mit <em>Der Hochzeitsplaner</em>, <em>Nie wieder verliebt!</em> und <em>50 erste Dates</em> etablierte sie sich als eine der gefragtesten Kom\u00f6diendarstellerinnen ihrer Zeit &ndash; parallel dazu als Produzentin, die anderen jungen Talenten dieselben Chancen erm\u00f6glichte, die sie sich selbst erk\u00e4mpft hatte. Der Biber, der seinen eingest\u00fcrzten Bau nicht nur reparierte, sondern gr\u00f6\u00dfer und stabiler wieder aufbaute als zuvor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w8 ist ihre F\u00e4higkeit, aus eigenem Leid eine ansteckende, \u00f6ffentlich geteilte Lebensfreude zu machen, ohne diese Freude als Fassade zu missbrauchen. Barrymore spricht offen \u00fcber ihre Vergangenheit, \u00fcber Therapie, \u00fcber R\u00fcckschl\u00e4ge &ndash; und macht gerade dadurch anderen Mut, mit den eigenen Br\u00fcchen offen umzugehen.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einem Muster, das sich durch ihr gesamtes Erwachsenenleben zieht: drei gescheiterte Ehen (mit Jeremy Thomas, Tom Green und Will Kopelman), zwischenzeitliche R\u00fcckf\u00e4lle in problematischen Substanzkonsum, und eine Rastlosigkeit, die trotz aller Stabilit\u00e4t nie ganz verschwunden ist. Die soziale Sieben mit Achterfl\u00fcgel k\u00e4mpft daf\u00fcr, niemals wieder ohnm\u00e4chtig zu sein &ndash; doch genau diese Kampfbereitschaft kann verhindern, zur Ruhe zu kommen, selbst wenn \u00e4u\u00dferlich l\u00e4ngst alles gut zu sein scheint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: The Drew Barrymore Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Zerstreuung zur N\u00fcchternheit &ndash; der F\u00e4higkeit, bei einer Sache und bei den eigenen Gef\u00fchlen zu bleiben, statt vor ihnen davonzulaufen. F\u00fcr die SO7w8 bedeutet das, die eigene Durchsetzungskraft nicht mehr nur zum Selbstschutz einzusetzen, sondern in den Dienst echter, verletzlicher Verbindung mit anderen zu stellen.</p>
+          <p class="vb-intro">Seit 2020 moderiert Barrymore <em>The Drew Barrymore Show</em> &ndash; eine Talkshow, die sich bewusst von zynischer Distanz abgrenzt und stattdessen auf Empathie, Tr\u00e4nen und echte Umarmungen setzt. Kritiker nennen das mitunter zu sentimental. Doch genau darin liegt die Essenz der geheilten SO7w8: der Biber, der gelernt hat, sein Bauwerk nicht mehr aus Angst vor dem n\u00e4chsten Einsturz zu errichten, sondern aus der ehrlichen Freude daran, dass andere darin Schutz finden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-hazel-brugger", label:"Portr\u00e4t: Hazel Brugger (SO7w8)"},
+        {route:"krankheitsportraets-drew-barrymore", label:"Krankheitsportr\u00e4t: Drew Barrymore (SO7w8) \u2013 Kindheitssucht"},
+      ])}
+    </div>
+  `);
+}
+
 function mileyCyrusPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7456,64 +7521,4 @@ function igaSwiatekPortraitPage() {
   `);
 }
 
-
-function steffiGrafPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-steffi-graf-portrait.jpg" alt="Steffi Graf" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Steffi Graf</p>
-        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Tennisspielerin, 22 Grand-Slam-Titel, geb. 1969 &ndash; Tierentsprechung: B\u00fcffel</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der B\u00fcffel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Steffi Graf genauer. Der B\u00fcffel ist kein Tier des Showrooms. Er ist kein Tier der Posen und der Gesten. Er senkt den Kopf und l\u00e4uft. Er geht durch, was auch immer vor ihm liegt &ndash; ruhig, massiv, unaufhaltsam. Er macht kein Drama. Er braucht kein Publikum, um zu wissen, dass er da ist.</p>
-          <p class="vb-intro">Die deutsche Tennisspielerin Steffi Graf hatte diese Qualit\u00e4t auf dem Tennisplatz wie sonst kaum jemand. Sie hat 22 Grand-Slam-Titel gewonnen &ndash; mehr als jede andere Spielerin ihrer Generation. 1988 gelang ihr der <strong>Golden Slam</strong>: alle vier Grand-Slam-Turniere und die Olympische Goldmedaille in einem Jahr. Eine Leistung, die in der Geschichte des Tennis einmalig ist. Und sie hat das alles gemacht, ohne dass man je das Gef\u00fchl hatte, sie m\u00fcsse es sich beweisen. Der B\u00fcffel beweist nichts. Er ist einfach da &ndash; und er gewinnt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Neun: Partizipation</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugeh\u00f6rigkeit, durch das Eingebundensein in eine Gemeinschaft, durch das Mitlaufen im Strom des Lebens. Die SO9 findet ihren Platz nicht durch Dominanz, sondern durch Anwesenheit &ndash; durch das einfache Dasein, das anderen Stabilit\u00e4t gibt.</p>
-          <p class="vb-intro">Steffi Graf hat dieses Prinzip gelebt, ohne je gro\u00dfe Worte dar\u00fcber zu verlieren. Sie war nicht die Lauteste im Raum. Sie war nicht diejenige, die Interviews suchte oder Kameras anzog. Sie hat Tennis gespielt &ndash; und das mit einer Selbstverst\u00e4ndlichkeit, als sei es das Normalste der Welt. Ihre Zugeh\u00f6rigkeit galt dem Sport, dem Spiel, der Bewegung &ndash; nicht dem Ruhm, der als Nebenprodukt davon entstand.</p>
-          <p class=vb-intro>Dabei ist die SO9 etwas Besonderes innerhalb des Enneagramms: Sie ist der <strong>Kontratyp der Neun</strong>. Das bedeutet, dass die soziale Neun ihre eigene Leidenschaft &ndash; die Tr\u00e4gheit &ndash; innerlich negiert und gegen sie anarbeitet. W\u00e4hrend die selbsterhaltende und die sexuelle Neun die Tr\u00e4gheit eher offen ausdr\u00fccken, wirkt die SO9 nach au\u00dfen oft aktiv, ehrgeizig und leistungsorientiert &ndash; so sehr, dass man sie manchmal mit dem Typ 3 verwechselt. Wer nicht wei\u00df, dass diese Energie aus der Negation der Tr\u00e4gheit entsteht, versteht nicht, warum jemand mit dem Kernthema Schlaf und Selbstvergessenheit 22 Grand-Slam-Titel gewinnen kann. Die Antwort liegt genau hier: Die SO9 schl\u00e4ft nicht &ndash; sie k\u00e4mpft innerlich dagegen an. Und dieser Kampf treibt sie zu Leistungen, die von au\u00dfen wie reiner Ehrgeiz wirken.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Die stille Pflichterf\u00fcllung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel</strong> verleiht der sozialen Neun eine Qualit\u00e4t, die \u00fcber blo\u00dfes Mitmachen hinausgeht: Disziplin, Prinzipientreue und ein innerer Ma\u00dfstab, der unabh\u00e4ngig von Au\u00dfenerwartungen funktioniert. Die <strong>SO9w1</strong> macht nicht, was andere von ihr erwarten &ndash; sie macht, was sie selbst f\u00fcr richtig h\u00e4lt. Und sie macht es gr\u00fcndlich.</p>
-          <p class="vb-intro">Bei Steffi Graf war das sp\u00fcrbar in ihrer Trainingsethik, ihrer Beharrlichkeit und ihrer F\u00e4higkeit, auch nach R\u00fcckschl\u00e4gen &ndash; Verletzungen, pers\u00f6nliche Krisen rund um ihren Vater &ndash; ruhig zur\u00fcckzukehren und weiterzumachen. Der Einserfl\u00fcgel gibt der Neun die F\u00e4higkeit zur Selbstkorrektur: nicht als Selbstkritik, sondern als stilles Nachjustieren auf dem Weg zu dem, was sie werden will.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Tr\u00e4gheit als Beharrlichkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Neun hei\u00dft <strong>Tr\u00e4gheit</strong> &ndash; das Beharren im einmal eingeschlagenen Weg, die Tendenz, im Fluss zu bleiben statt umzuschwenken. F\u00fcr Steffi Graf hat sich diese Tr\u00e4gheit in das verwandelt, was Menschen Ausdauer nennen: die F\u00e4higkeit, Jahr f\u00fcr Jahr auf h\u00f6chstem Niveau zu spielen, ohne den inneren Motor abstellen zu m\u00fcssen.</p>
-          <p class="vb-intro">17 Jahre Profikarriere, davon acht Jahre als Weltranglistenerste. Nicht weil Steffi Graf die Sensation suchte, sondern weil sie einfach weitermachte. Der B\u00fcffel wechselt nicht die Richtung, wenn der Wind sich dreht. Er l\u00e4uft. Und am Ende des Feldes steht er noch &ndash; ruhig, geerdet, unbeeindruckt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Die Stille der Meisterschaft</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Steffi Graf hinterlassen hat, ist mehr als eine Rekordliste. Es ist ein Bild von Meisterschaft, das ohne L\u00e4rm auskommt. Sie hat gezeigt, dass man der Gr\u00f6\u00dfte sein kann &ndash; und dabei bescheiden bleiben. Dass man gewinnen kann, ohne den anderen zu erniedrigen. Dass Sport eine innere Haltung ist und nicht nur eine \u00e4u\u00dfere Leistung.</p>
-          <p class="vb-intro">Das Geschenk der SO9w1 ist diese stille Integrit\u00e4t: die F\u00e4higkeit, pr\u00e4sent zu sein, ohne sich in den Vordergrund zu dr\u00e4ngen &ndash; und dabei dennoch unverkennbar zu sein. Steffi Graf braucht keine Geste, um erkannt zu werden. Der B\u00fcffel auch nicht. Er ist einfach da &ndash; und alle wissen, wer er ist.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
-        {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
-      ])}
-    </div>
-  `);
-}
 

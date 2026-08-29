@@ -1,3 +1,165 @@
+function nikodemusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-nikodemus-portrait.jpg" alt="Nikodemus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nikodemus</p>
+        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Suche nach Erkenntnis im Schutz der Nacht – Tierentsprechung: Eule</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Er kam bei Nacht.« (Joh 3,2)</p>
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der selbsterhaltenden Fünf – sie beobachtet aus der Deckung, sammelt Wissen im Verborgenen und wagt sich erst dann ins Offene, wenn sie ganz sicher ist. Nikodemus wusste viel. Er war Schriftgelehrter, ein Pharisäer, ein Mitglied des Hohen Rates – ein Mann, der Sicherheit fand in Struktur, Überlieferung, Ordnung. Ein Denker, ein Bewahrer, ein Abwäger.</p>
+          <p class="vb-intro">Die SE5 vertraut dem, was sie verstehen kann. Sie fühlt sich sicher, wenn sie nicht überflutet wird, sondern Zugang behält, geistig wie emotional. Und Jesus war für Nikodemus ein Rätsel, ein Unruhepol im System – aber kein Feind, vielmehr eine Art offenes Fenster in einem streng gebauten Haus. Doch Nikodemus wagte es nicht, ihn offen zu besuchen. Zu viele Augen, zu viele Fragen, zu wenig Kontrolle. Er kam bei Nacht – nicht aus Feigheit, aus Selbstschutz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Sicherheit in geistiger Klarheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er trat ein, schritt leise, begrüßte Jesus nicht als Gegner, sondern sagte: »Meister, wir wissen: Du bist ein Lehrer, von Gott gekommen.« Ein Satz, vorsichtig formuliert, und doch ein erstes Öffnen. Nicht das System sprach hier, sondern der Mensch hinter dem System. Jesus antwortete nicht mit Bestätigung, sondern entgegnete: »Wenn jemand nicht von Neuem geboren wird, kann er das Reich Gottes nicht sehen.« Und damit traf er die SE5 genau an ihrem Nerv: an der Grenze zwischen Wissen und Nicht-Wissen, zwischen Kontrolle und Hingabe.</p>
+          <p class="vb-intro">Nikodemus fragte weiter, nicht ironisch, sondern wirklich fragend: »Wie kann ein Mensch geboren werden, wenn er alt ist?« Diese Frage war mehr als biologisch, sie war existentiell. Die selbsterhaltende Fünf sucht nach Sicherheit, nicht im Materiellen, sondern in der geistigen Klarheit. Und was Jesus sagte, entsprach keiner seiner bisherigen Kategorien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Sicherheit im System, bevor sie es infrage stellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Fünf eine loyale, systemverankerte Qualität – Sicherheit entsteht zuerst durch Zugehörigkeit zu einer verlässlichen Ordnung, und erst nach sorgfältigem, oft jahrelangem Abwägen wird diese Ordnung vorsichtig infrage gestellt. »Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen.« Wasser kannte Nikodemus, Gesetz kannte er, Reinheitsvorschriften, Opferordnungen, die Thora. Aber Geist? Geist war nicht greifbar, nicht speicherbar, nicht steuerbar.</p>
+          <p class="vb-intro">Nikodemus spürte, dass Jesus ihm ein Angebot machte, kein System, sondern eine Wirklichkeit, die sich nur durch Hingabe erschloss. Aber das war gefährlich, denn für eine SE5 bedeutete das: Ich verliere Kontrolle, ich betrete Räume, in denen mein Denken nicht reicht. Er rang, im Stillen, wie in einer inneren Wüste. Er sagte schließlich: »Wie kann das geschehen?« Kein Rückzug, keine Abwehr, sondern ein Geständnis, ein erstes, tastendes Öffnen. Genau dieses vorsichtige, an bestehenden Kategorien geprüfte Ringen, bevor Vertrauen wachsen darf, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Rückzug ins Verborgene: Das stille Wachsen einer Entscheidung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach jener Nacht verschwand Nikodemus aus dem Blickfeld der Öffentlichkeit. Keine weiteren Gespräche mit Jesus sind überliefert. Aber das war nur die Oberfläche, denn so handelt eine SE5: Sie zieht sich zurück, nicht aus Feigheit, sondern um in der Tiefe zu verarbeiten, was die Oberfläche nicht fassen kann. Nikodemus lebte weiter im Tempelkreis, beobachtete, lauschte, machte Notizen im Inneren seines Denkens. Was er hatte, war ein Nachklang, ein Satz, der nicht mehr aus seinem Innern wich: »Wenn jemand nicht von Neuem geboren wird…« Dieser Satz arbeitete in ihm, nicht wie ein Hammerschlag, sondern wie tropfendes Wasser, das langsam Gestein formt.</p>
+          <p class="vb-intro">Als Jesus später im Hohen Rat zur Sprache kam, wagte er, vorsichtig, aber deutlich, zu widersprechen: »Richtet denn unser Gesetz einen Menschen, bevor man ihn verhört und erkannt hat, was er tut?« Ein kleiner Satz, aber in jenem Kreis ein Wagnis. Denn wo andere schrien, fragte Nikodemus. Und wer fragt, der stellt infrage. In ihm wuchs eine Entscheidung, still, aber unumkehrbar: Vielleicht bin ich nicht geboren, um alles zu wissen. Vielleicht bin ich geboren, um das Wahre zu empfangen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Am Kreuz: Das leise Erkennen, dass Leben stärker ist als Denken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nikodemus hatte nie gesagt: »Ich folge ihm.« Er hatte nie die Netze zurückgelassen, nie öffentlich gepredigt. Aber als Jesus starb, war er da – nicht aus Impuls, nicht aus Strategie, sondern aus einer gewachsenen Gewissheit, die sich in der Stille gereift hatte. Mit Josef von Arimathäa, einem Mann ähnlich zurückhaltend, bat er um den Leichnam. Und das war nicht harmlos, denn in diesem Moment machte sich Nikodemus sichtbar: Jetzt bin ich nicht mehr nur Fragender. Jetzt handle ich, auch ohne vollständige Antwort.</p>
+          <p class="vb-intro">Er brachte Myrrhe und Aloe, etwa hundert Pfund, viel zu viel, kostbar, zärtlich, üppig – eine Tat, wie sie eine SE5 nur selten tut, aber wenn, dann mit ganzem Herzen: sich verausgaben für das, was wahr geworden ist. Er salbte den toten Körper, wusch ihn, wickelte ihn in Leinentücher, nicht als Ritual, sondern als Zeichen: Ich habe erkannt, was ich nicht mehr erklären muss. Ich ehre das, was mich verwandelt hat. Und während andere Jünger flohen, sich versteckten, war Nikodemus anwesend, nicht als Prophet, sondern als Zeuge der Tiefe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Unsichtbar werden, aber nicht unbedeutend</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nikodemus verschwand aus den Berichten. Keine weiteren Erwähnungen, kein Nachspiel, kein Martyrium, kein Grab, kein Evangelium mit seinem Namen. Nur Stille. Aber in dieser Stille lag kein Verschwinden, sondern eine Form von Vollendung, die typisch ist für die SE5: unsichtbar werden, aber nicht unbedeutend. Er musste niemanden mehr überzeugen, er musste sich nicht mehr erklären. Er hatte erkannt, was er einst nicht greifen konnte: dass Wahrheit nicht in Begriffe passt, dass Liebe keine Theorie braucht, und dass Leben mehr ist als das, was sich kontrollieren lässt.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE5w6: eine Klarheit, die nicht mehr auf äußere Bestätigung durch das System angewiesen ist, sondern aus innerer Gewissheit trägt – eine Eule, die endlich weiß, dass ihr Wissen nicht ausreicht, um alles zu erklären, und die genau darin frei wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Bei Nacht zu ihm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Nikodemus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/T65cXVpkx9Y?rel=0" title="Bei Nacht zu ihm – Nikodemus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+        {route:"bibel-judas-thaddaeus", label:"Bibel-Porträt: Judas Thaddäus (SX4w5)"},
+        {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function gamalielPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-gamaliel-portrait.jpg" alt="Gamaliel – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gamaliel</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Hüter des Gleichgewichts – Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Lasst ab von diesen Menschen und lasst sie gehen! Denn ist dieses Vorhaben aus Menschen, so wird's untergehen; ist's aber aus Gott, so könnt ihr's nicht aufhalten.« (Apg 5,38–39)</p>
+
+        <h2 class="vb-section">1. Der Oktopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – er überblickt sein Umfeld mit ruhiger, vielarmiger Aufmerksamkeit, verarbeitet unzählige Eindrücke gleichzeitig und greift erst ein, wenn er das Muster wirklich verstanden hat. Gamaliel saß nicht vorne. Er saß etwas erhöht, aber nicht, um sich zu erheben, sondern um zu überblicken. Der Saal des Hohen Rates war voll, Stimmen erhoben sich, Empörung, Argumente, Theologie, Angst.</p>
+          <p class="vb-intro">Gamaliel hörte zu, mehr als er sprach, wie immer. Die soziale Fünf liebt Strukturen, aber nur, wenn sie nicht blind angewendet, sondern durchdacht, geprüft und angepasst werden. Er sah nicht nur die Worte, er sah Muster, Entwicklungen, Möglichkeiten – und Gefahren, vor allem die der Überreaktion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Wissen, das dem größeren Ganzen dient</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er hob die Hand, nicht dramatisch, nicht fordernd, aber mit jener ruhigen Autorität, die entsteht, wenn jemand innerlich klar ist: »Männer von Israel, gebt Acht auf euch…« Und dann erinnerte er an Theudas, an Judas den Galiläer, an Bewegungen, die kamen und vergingen. Seine Botschaft war keine Mystik, keine Bekehrung, sondern: Lasst die Dinge sich zeigen. Denn Gamaliel wusste: Was Bestand hat, braucht keine Hast, und was eilt, verliert oft die Wahrheit.</p>
+          <p class="vb-intro">Die soziale Fünf denkt nicht fürs Jetzt, sie denkt für die Geschichte. Sie handelt nicht reaktiv, sondern verantwortlich. Und als er geendet hatte, war der Saal stiller – nicht überzeugt, aber gedämpft, nicht einig, aber zurückgeholt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Prinzip über Instinkt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Fünf eine verlässliche, prinzipientreue Qualität – Autorität entsteht nicht aus Charisma, sondern aus konsequenter Bindung an ein durchdachtes Regelwerk, das über persönlicher Neigung und Parteizugehörigkeit steht. Gamaliel hatte sich längst daran gewöhnt, zwischen Fronten zu stehen, nicht weil er gefallen wollte, sondern weil er wusste: Wahrheit hat oft mehr Feinde als Lüge, weil sie sich nicht instrumentalisieren lässt.</p>
+          <p class="vb-intro">In ihm war keine Eile, keine Erregung, keine Parteinahme aus Instinkt. Was ihn bewegte, war die Frage: Was bleibt, wenn alles Reaktive verstummt? Gamaliel war ein Mann der Prinzipien, nicht der Interessen. Für die SO5 steht das Prinzip über dem Gefühl, das Maß über der Angst, die Einsicht über die Loyalität. Darum konnte er sagen: »Ist es aus Gott, so könnt ihr es nicht aufhalten.« Das war keine Frömmigkeit, es war intellektuelle Demut. Genau diese unverrückbare Bindung an ein Prinzip, das größer ist als die eigene Meinung, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Paulus: Loslassen, was man nicht besitzen kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gamaliel hatte viele Schüler, doch einer blieb in Erinnerung: Saulus von Tarsus. Klug, scharfsinnig, ehrgeizig, ein Geist, der in Systemen dachte, aber durch Leidenschaft getrieben war. Gamaliel sah das und ließ es zu, denn eine soziale Fünf formt nicht durch Zwang, sondern durch Rahmen, durch Klarheit, durch Vertrauen in das, was wachsen will. Er versuchte nie, Paulus zu behalten, drängte ihm nichts auf, ließ ihn lernen und sich entwickeln, auch dann, als er ihn später nicht mehr verstand.</p>
+          <p class="vb-intro">Denn der Saulus, den er unterwiesen hatte, wurde zu Paulus, dem Völkerapostel. Für viele im Rat war Paulus ein Verräter. Für Gamaliel war er: ein Mensch auf seinem Weg. Die soziale Fünf kann loslassen, wenn sie erkennt, dass Wahrheit vielfältiger ist als das System, das sie ordnet. Sie sucht nicht Besitz, sondern Bedeutung. Er forderte nie Anerkennung, nie Rückkehr, nie Richtigstellung. Er schwieg. Und damit bewahrte er: Würde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Gerechtigkeit derer, die nicht herrschen müssen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gamaliel war nie der Lauteste, nie der Mächtigste. Und doch hörte man auf ihn, nicht aus Furcht, sondern aus Respekt, denn seine Autorität entsprang nicht dem Amt, sondern der Haltung. Er sprach nie für das, was gerade günstig war, verteidigte nicht das, was ihm nützte. Die soziale Fünf bleibt dem verpflichtet, was sie durchdacht hat, auch wenn es unpopulär ist, auch wenn sie dafür allein steht.</p>
+          <p class="vb-intro">»Lasst uns abwarten, lasst uns prüfen, lasst uns Gott Raum lassen.« Das war keine Ausflucht, es war Mut, der Mut zur Zurückhaltung in einer Zeit der Reizbarkeit. Gamaliel war ein Gerechter, weil er nicht Recht behalten wollte. Er wollte, dass das Rechte geschehe, auch wenn es ohne ihn geschah. Das war seine Reinheit, seine Freiheit, sein Dienst ohne Ego.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Wirksam auch im Schweigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Später sprachen andere, debattierten, verurteilten. Gamaliel war still geworden, nicht weil er nichts mehr zu sagen hatte, sondern weil er verstanden hatte, dass Worte nur dann Kraft haben, wenn sie nicht zu oft, zu laut, zu früh kommen. Die soziale Fünf lebt auch dann wirksam, wenn sie nicht mehr eingreift. Ihre Klarheit formt durch Erinnerung, durch Haltung, durch ein Maß, das bleibt, auch wenn sie selbst nicht mehr spricht.</p>
+          <p class="vb-intro">Er ging vermutlich still aus dem Leben, kein Märtyrertod, kein Streit, kein letzter Satz, der überliefert wurde. Aber sein Wirken blieb, wie ein ruhiger Ton, der in einer aufgeregten Symphonie nachklingt. Das ist das Geschenk der SO5w6: eine Weisheit, die nicht nach Anerkennung verlangt, um wirksam zu sein – ein Oktopus, der weiß, dass echte Autorität nicht darin liegt, immer zu sprechen, sondern darin, das Richtige geschehen zu lassen, auch ohne sich selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Wenn es von Gott ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Gamaliel ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/MaAgqDEujDI?rel=0" title="Wenn es von Gott ist – Gamaliel" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"bibel-nikodemus", label:"Bibel-Porträt: Nikodemus (SE5w6)"},
+        {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function derMannVonGerasaPage() {
   return shell(`
     <div class="page-container">
@@ -11362,103 +11524,3 @@ function joachimKrollPortraitPage() {
 }
 
 
-function tedKaczynskiPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ted Kaczynski \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/ted-kaczynski-portrait.jpg" alt="Ted Kaczynski \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dr. Ted Kaczynski</p>
-        <p class="krim-portrait-typ">SO5w4 \u00b7 Sozialer Typ 5 mit Viererfl\xfcgel</p>
-        <p class="krim-portrait-sub">Der Unabomber &ndash; Tierentsprechung: Oktopus</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Oktopus</h3>
-        <p class="vb-intro">Der <strong>Oktopus</strong> ist die Tierentsprechung der sozialen F\xfcnf &ndash; und er beschreibt Ted Kaczynskis innere Architektur mit einer Pr\xe4zision, die \xfcberrascht. Der Oktopus ist hochintelligent, r\xe4tselhaft und weitgehend unsichtbar. Er lebt im R\xfcckzug, beobachtet aus der Distanz, l\xe4sst sich nicht greifen. Wenn er angreift, macht er es nicht mit roher Kraft &ndash; sondern mit Geschwindigkeit, Pr\xe4zision und Gift. Er hinterl\xe4sst keine Spur. Und er kommuniziert: durch Farbver\xe4nderung, Musterwechsel, kr\xe4nkungslose Signale an eine Welt, die ihn nie wirklich verstanden hat. Ted Kaczynski war dieser Oktopus: ein Intellekt im Verborgenen, dessen Botschaft lautete &ndash; <em>ihr habt es nicht verstanden</em>.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale F\xfcnf: Wissen als Weltgericht</h3>
-        <p class="vb-intro">Die <strong>soziale F\xfcnf (SO5)</strong> ist paradox: Sie ist der gesellschaftsbezogenste aller F\xfcnf-Subtypen &ndash; und gleichzeitig h\xe4ufig der sch\xe4rfste Kritiker der Gesellschaft. Die SO5 sucht nicht Zugeh\xf6rigkeit um ihrer selbst willen, sondern eine intellektuelle Grundlage, von der aus die Welt beurteilt und verstanden werden kann. Naranjo nannte diesen Subtyp <em>Totem</em>: die F\xfcnf als Tr\xe4gerin einer Idee, die \xfcber das Individuum hinausweist.</p>
-        <p class="vb-intro"><strong>Theodore John Kaczynski</strong>, geboren am 22. Mai 1942 in Chicago, war ein Wunderkind. Mit 16 Jahren Abitur, mit 20 Harvard-Abschluss, mit 25 Doktorat in Mathematik an der University of Michigan, mit 26 Assistenzprofessor an der UC Berkeley &ndash; einer der j\xfcngsten in der Geschichte der Universit\xe4t. Dann k\xfcndigte er. Ohne Erkl\xe4rung, ohne Plan. Er verschwand in eine selbst gebaute Holzh\xfctte in der Wildnis von Montana, ohne Strom und Wasser, und begann &ndash; zu denken.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Tiefe, Sendungsbewusstsein, Einsamkeit</h3>
-        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> verleiht der sozialen F\xfcnf etwas, was sie ohne ihn nicht h\xe4tte: eine emotionale Tiefe und ein ausgepr\xe4gtes Gef\xfchl des Andersseins, des Missverstandenwerdens. Der Viererfl\u00fcgel f\xfcgt der k\xfchlen Analyse der F\xfcnf eine fast k\xfcnstlerische Intensit\xe4t hinzu &ndash; das Gef\xfchl, etwas zu tragen, das die Welt h\xf6ren m\xfcsse.</p>
-        <p class="vb-intro">Bei Kaczynski zeigte sich das in seiner Schreibweise: Sein Manifest ist kein trockenes akademisches Werk. Es ist leidenschaftlich, fast prophetisch. Er schrieb \xfcber Entfremdung, \xfcber den Verlust autonomen Lebens, \xfcber die Zersetzung des menschlichen Wesens durch Technologie &ndash; mit einer Dringlichkeit, die den Viererfl\u00fcgel deutlich erkennbar macht. Kaczynski f\xfchlte sich nicht als K\xe4mpfer f\xfcr eine politische Sache. Er f\xfchlte sich als einziger, der wirklich sah, was geschah.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Hochbegabung und innerer R\xfcckzug</h3>
-        <p class="vb-intro">Kaczynskis Biografie ist die einer zunehmenden Entfremdung. Als Kind hochbegabt, aber sozial isoliert &ndash; zwei Jahre wurde er fr\xfchversetzt, wodurch er mit \xe4lteren Mitsch\xfclern in Klassen kam, zu denen er keinen Zugang fand. An der Harvard-Universit\xe4t nahm er als 16-J\xe4hriger an einem psychologischen Stressexperiment teil, das sp\xe4ter als ethisch problematisch eingestuft wurde: Studenten wurden \xfcber Monate intensiven verbal-psychologischen Angriffen ausgesetzt. Kaczynski erw\xe4hnte dieses Experiment sp\xe4ter mehrfach.</p>
-        <p class="vb-intro">Die Entscheidung, die Universit\xe4t zu verlassen, war keine Krise &ndash; sie war eine Konsequenz. F\xfcr einen SO5w4 ist das Gef\xfchl, in einem System zu arbeiten, das man f\xfcr fundamental falsch h\xe4lt, nicht lange auszuhalten. Er baute sich seine H\xfctte. Er j\xe4gte, pflanzte Gem\xfcse an, lebte autark. Der Enneagramm-Kompass der F\xfcnf funktioniert hier: maximale Ressourcenschonung nach innen, maximale intellektuelle Kapazit\xe4t f\xfcr das eigentliche Projekt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Bombenanschl\xe4ge 1978&ndash;1995</h3>
-        <p class="vb-intro">Zwischen 1978 und 1995 schickte oder deponierte Kaczynski 16 Sprengstoffpakete an Universit\xe4ten und Fluggesellschaften &ndash; daher der FBI-Codename <em>UNABOM</em> (Universities and Airlines Bomber). Drei Menschen wurden get\xf6tet, 23 verletzt.</p>
-        <p class="vb-intro">Die ersten Pakete waren noch relativ grob. \xdcber die Jahre verfeinerte Kaczynski seine Bomben handwerklich erheblich &ndash; er fertigte alle Teile selbst, hinterlie\xdf kaum Spuren. Er wechselte Versandorte, \xe4nderte Absenderangaben, verwendete kein Schreibmaschinenpapier aus dem Handel. Die Ermittler standen 17 Jahre lang vor einem R\xe4tsel. Das FBI investierte in den 1990er Jahren eine der gr\xf6\xdften Fahndungsoperationen seiner Geschichte.</p>
-        <p class="vb-intro">Die Opfer waren nicht zuf\xe4llig: Er zielte auf Informatikprofessoren, Ingenieure der Luft- und Raumfahrt, Werbeleute &ndash; Menschen, die in seinen Augen Repr\xe4sentanten des technologisch-industriellen Systems waren. Das ist SO5: kein blindes T\xf6ten, sondern ein <em>gezieltes Urteil</em> &ndash; vollstreckt von dem Einzigen, der die Konsequenz hatte, es auszuf\xfchren.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Manifest: <em>Industrial Society and Its Future</em></h3>
-        <p class="vb-intro">1995 sandte Kaczynski sein 35.000 W\u00f6rter langes Manifest an die <em>New York Times</em> und die <em>Washington Post</em> mit der Drohung, andernfalls weitere Anschl\xe4ge zu ver\u00fcben. Das FBI riet zur Ver\xf6ffentlichung. Das Manifest erschien im September 1995.</p>
-        <p class="vb-intro">Es ist ein bemerkenswertes Dokument. Kaczynski argumentiert klar und konsequent: Die Industriegesellschaft zerst\xf6rt die psychologische Autonomie des Menschen, indem sie nat\xfcrliche Bed\xfcrfnisse nach Macht, Herausforderung und Sinn durch surrogat-Aktivit\xe4ten ersetzt. Der Einzelne wird abh\xe4ngig von einem System, das er nicht kontrolliert und nicht versteht. Der einzige Ausweg sei ein radikaler Zusammenbruch der technologischen Zivilisation.</p>
-        <p class="vb-intro">Philosophen, Soziologen und Technik-Kritiker haben seither einzelne Analysen des Manifests als intellektuell bemerkenswert bezeichnet &ndash; abgel\xf6st von seiner kriminellen Handlung betrachtet. Das ist das SO5w4-Paradox: ein Denker, dessen Ideen partiell diskutierbar w\xe4ren &ndash; und dessen Mittel inakzeptabel sind.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Verhaftung und Prozess</h3>
-        <p class="vb-intro">Die Ver\xf6ffentlichung des Manifests wurde zu Kaczynskis Verh\u00e4ngnis. Sein Bruder David las den Text und erkannte den Schreibstil. Er meldete sich beim FBI. Am 3. April 1996 wurde Kaczynski in seiner H\xfctte in Lincoln, Montana, verhaftet.</p>
-        <p class="vb-intro">Der Prozess 1997/98 wurde kompliziert durch Kaczynskis Weigerung, eine psychiatrische Verteidigung zuzulassen. Er wollte nicht als geistig krank dargestellt werden &ndash; das w\xe4re in seinen Augen eine Entwertung seiner Argumente gewesen. Er pl\u00e4dierte schlie\xdflich auf schuldig und wurde zu lebenslanger Haft ohne Bew\xe4hrung verurteilt. Am 10. Juni 2023 wurde er tot in seiner Gef\xe4ngniszelle gefunden &ndash; mutma\xdflich durch Suizid. Er war 81 Jahre alt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO5 &ndash; &bdquo;Totem&ldquo;:</strong> Claudio Naranjo beschreibt die SO5 als den Subtyp, der Ideen als Br\xfccke zur Welt benutzt &ndash; nicht Zugeh\xf6rigkeit, sondern intellektuelles Zeugnis. Der SO5er ist nicht weltfremd: Er beobachtet die Gesellschaft intensiv, analysiert sie, richtet \xfcber sie. Im gesunden Bereich wird das zum Philosophen, zum Kulturkritiker, zum Vision\u00e4r. Im ungesunden Bereich &ndash; wie bei Kaczynski &ndash; wird die Analyse zum Urteil, das Urteil zum Auftrag.</p>
-        <p class="vb-intro"><strong>b) Der Viererfl\xfcgel als Verst\xe4rker:</strong> Ohne w4 h\xe4tte Kaczynski m\xf6glicherweise seine Kritik in Schriften kanalisiert. Der Viererfl\u00fcgel gab diesem Denken eine existenzielle Dringlichkeit: Das war nicht nur intellektuelle \xdcberzeugung &ndash; das war Identit\xe4t, Sendung, Leiden. Die F\xfcnf allein zieht sich zur\xfcck. Die F\xfcnf mit Viererfl\xfcgel zieht sich zur\xfcck und brennt.</p>
-        <p class="vb-intro"><strong>c) Das Kernproblem:</strong> Ein SO5w4 ohne menschliche Bindung und ohne korrektive Gegenstimmen kann in eine intellektuelle Eigenwelt abdriften, in der die eigene Analyse zur einzigen Realit\xe4t wird. Kaczynskis 17 Jahre in der Waldeins\xe4mkeit waren genau das: ein Denksystem ohne Reibung, ohne Widerspruch, ohne Liebe &ndash; das sich zunehmend zur totalen \xdcberzeugung verdichtete. Das Enneagramm nennt das den Kollaps in die Gier der F\xfcnf: das Horten von Wissen, bis kein Kontakt mehr m\xf6glich ist.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Fazit: Der Oktopus, der die Welt verurteilte</h3>
-        <p class="vb-intro">Ted Kaczynski ist kein Fall von blindem Hass und kein Fall von geistiger Umnachtung. Er ist der Fall eines au\xdfergew\xf6hnlich begabten Menschen, der &ndash; mangels menschlicher Bindung, mangels korrektiver Gegenstimmen, mangels der einfachen Erfahrung, geliebt und widersprochen zu werden &ndash; in ein Denksystem hineingeglitten ist, das sich von innen heraus vollst\xe4ndig stimmig anf\xfchlte. Das ist die tiefste Gef\xe4hrlichkeit der ungesunden sozialen F\xfcnf: nicht Impulsivit\xe4t, nicht Empathielosigkeit im klinischen Sinne &ndash; sondern die F\xe4higkeit, jahrzehntelang in einem hermetisch geschlossenen intellektuellen System zu leben, das jeden Zweifel l\xe4ngst hat aufgezehrt.</p>
-        <p class="vb-intro">Sein Viererfl\xfcgel machte aus dieser \xdcberzeugung eine Sendung. Und seine soziale Instinktvariante sorgte daf\xfcr, dass er die Welt nicht einfach aufgab &ndash; sondern richtete. Er wollte geh\xf6rt werden. Er wollte, dass die Menschheit versteht. Die Bomben waren in seiner Logik keine Angriffe, sondern Argumente &ndash; die letzte Sprache eines Denkenden, der glaubte, alle anderen Sprachen seien gescheitert.</p>
-        <p class="vb-intro">Was bleibt: ein Manifest, das partiell weiterhin gelesen wird. Drei Tote, die nie zur\xfckkehren. Und die Frage, was aus diesem Intellekt geworden w\xe4re, h\xe4tte ihn irgendwann jemand wirklich erreicht.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Theodore John Kaczynski</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO5w4 &ndash; Soziale F\xfcnf mit Viererfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Gier (als Horten von Wissen und Distanz zur Welt)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Oktopus</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 22. Mai 1942 &ndash; 10. Juni 2023</span>
-          <span style="display:block;"><strong>Verurteilung:</strong> Dreifacher Mord, 23-facher K\xf6rperverletzung; lebensl\xe4nglich ohne Bew\xe4hrung</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale F\xfcnf im Vergleich: Wie sich Gier bei SE5, SO5 und SX5 unterschiedlich ausdr\xfcckt \u2013 und warum die SO5 Ideen als Weltbr\xfccke nutzt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Gier als Grundmotiv der F\xfcnf: Wie der R\xfcckzug entsteht und wie Kontakt zur Welt w\xe4chst.", "Wer du wirklich bist (Band 1)")}
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Ted Kaczynski bekannte sich 1998 in 13 Anklagepunkten schuldig und verb\u00fc\u00dfte lebenslange Haft bis zu seinem Tod 2023. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-
-        ${relatedLinks([
-          {route:"kriminalpsychologie-harold-shipman", label:"Kriminalpsychologie: Harold Shipman (SO5w6)"},
-          {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4)"},
-          {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
-        ])}
-      </div>
-    </div>
-  `);
-}

@@ -1,3 +1,98 @@
+function homoeopathieSongsPage() {
+  const songs = [
+    { id: "i_BW505pltc",  label: "1. Die sanfte Heilung \u2013 DER Hom\u00f6opathie-Song" },
+    { id: "SYIFgh3DTMA",  label: "2. Gentle Healing \u2013 The Homeopathy Song No.\u00a01" },
+    { id: "2L7S1fLhucA",  label: "3. Gu\u00e9rison douce \u2013 la chanson de l\u2019hom\u00e9opathie" },
+    { id: "bAbmGCml6Ro",  label: "4. Sanft und stark \u2013 der Hom\u00f6opathie-Song Nr.\u00a02" },
+    { id: "9IQVG9o4HAk",  label: "5. Gentle and Strong \u2013 The Homeopathy Song No.\u00a02" },
+    { id: "K3juL1t_fVs",  label: "6. Gemeinsam heilen \u2013 zwei Wege, ein Ziel!" },
+    { id: "hUacc8X0O6U",  label: "7. Stille, sanfte Kraft (Song \u00fcber das Wesen der Hom\u00f6opathie)" },
+    { id: "oEs0VlT7WfI",  label: "8. Heilung in der Stille (2.\u00a0Song \u00fcber das Wesen der Hom\u00f6opathie)" },
+    { id: "A6xBEHS5F1c",  label: "9. Tiefer als die Masken (Hommage an die Enneagramm-Hom\u00f6opathie)" },
+    { id: "cDQjVJyJgSk",  label: "10. Hom\u00f6opathie \u2013 die wahre Heilkunst!" },
+    { id: "f76ujLEpVWM",  label: "11. Hom\u00f6opathie. Was sonst?" },
+    { id: "87SMopSaPQw",  label: "12. Hom\u00f6opathie \u2013 die sanfte Kraft!" },
+    { id: "eaSw6b0Kbwo",  label: "13. Loblied auf die Hom\u00f6opathie" },
+
+    { id: "trV1Zfjps6M",  label: "14. DIE WEISHEIT DER GRO\u00dfEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Hochdeutsch)" },
+    { id: "Mc8eWUPgmGA",  label: "15. D\u2019 WEISHEIT VO DE GRO\u00dfEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Schw\u00e4bisch)" },
+    { id: "lJk4fvkyxxM",  label: "16. WEISHEIT DER GRO\u00df\u2019N \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Hessisch)" },
+    { id: "ejmHTVhWctI",  label: "17. DIE WEISHEIT VON DIE JR\u00dfEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Berlinerisch)" },
+    { id: "CdJkHBg1uZU",  label: "18. DE WEISHEIT DER GRO\u00dfEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Th\u00fcringisch)" },
+    { id: "cNmWcQgOZUs",  label: "19. DE KLAUKHEIT VAN DE GROTEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (M\u00fcnsterl\u00e4ndisch)" },
+    { id: "V5pf7eGdVBg",  label: "20. DE WIESENHEIT VUN DE GROTEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Mecklenburgisch)" },
+    { id: "OlARiATUSvA",  label: "21. DE WAISHEIT VUN DE GROTEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Hamburgisch)" },
+    { id: "49gzcMAYl4o",  label: "22. DE WAISHEIT VUN DE GROTEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Nieders\u00e4chsisch)" },
+    { id: "Ad2V2BGIXNU",  label: "23. DIE WIE\u00dfHEIT VUN DE GROTEN \u2013 Hom\u00f6opathie-Song Nr.\u00a03 (Niederdeutsch/Plattdeutsch)" },
+    { id: "8Wwtb__JQPU",  label: "24. THE WISDOM OF THE GREATS \u2013 The Homeopathy Song No.\u00a03 (Englisch)" },
+  ];
+
+  const songKacheln = songs.map(s => `
+    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
+      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${s.label}</p>
+      <div style="position:relative;aspect-ratio:16/9;background:#000;">
+        <iframe width="100%" height="100%" style="border:none;display:block;"
+          src="https://www.youtube.com/embed/${s.id}?rel=0"
+          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  `).join("");
+
+  const song25 = `
+    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
+      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">25. De Weisheit vo de Gro\u00dfen \u2013 Hom\u00f6opathie-Song Nr. 3 (Bairisch)</p>
+      <div style="background:linear-gradient(135deg,#4a1c1c 0%,#2d0e0e 100%);padding:2rem 1.2rem;display:flex;flex-direction:column;align-items:center;gap:1rem;">
+        <span style="font-size:3rem;">&#127925;</span>
+        <p style="margin:0;font-size:0.85rem;color:rgba(255,255,255,0.7);text-align:center;">Audio-only \u00b7 ca. 3:51 Min.</p>
+        <audio controls style="width:100%;max-width:380px;">
+          <source src="https://res.cloudinary.com/ymooybdl/video/upload/kompass/audio/homoeopathie-song-25-bairisch-mp3.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+  `;
+
+  return shell(`
+    ${pageHeader("homoeopathie-songs")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder \u00b7 Hom\u00f6opathie \u00b7 Musik</p>
+      <h1>Hom\u00f6opathie- und Enneagramm-Hom\u00f6opathie-Songs</h1>
+      <p style="font-style:italic;color:var(--copper);margin:0.2rem 0 1rem;font-size:1.05rem;">Die Essenz der Hom\u00f6opathie in Liedern</p>
+      <p class="lead-small">Diese Playlist vereint Songs, die das Wesen der Hom\u00f6opathie aus unterschiedlichsten Perspektiven beleuchten. Von feinsten Schwingungen \u00fcber Resonanz und \u00c4hnlichkeitsprinzip bis hin zur Kraft der Information \u2013 hier finden sich Lieder, die auf metaphorische, poetische oder philosophische Weise das tiefere Wirken der Hom\u00f6opathie erfahrbar machen. Eine inspirierende musikalische Reise voller Erkenntnisse und klanglicher \u00dcberraschungen. Viel Freude beim H\u00f6ren und Entdecken!</p>
+      <p class="lead-small"><strong>Enneagramm-Hom\u00f6opathie</strong> verbindet zwei Ebenen: das Pers\u00f6nlichkeitsmodell des Enneagramms mit der individuellen Arzneimittelwahl in der Hom\u00f6opathie. Jeder Enneagrammtyp hat bestimmte emotionale Muster, Stressreaktionen und tiefere Grund\u00e4ngste \u2013 diese inneren Dynamiken pr\u00e4gen nicht nur die Psyche, sondern oft auch k\u00f6rperliche Beschwerden. Die Songs spiegeln diese seelischen Qualit\u00e4ten und machen sie h\u00f6rbar.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="${R2_CDN}schaubilder/enneagramm-homoeopathie-songs.png"
+             alt="Enneagramm-Hom\u00f6opathie-Songs"
+             class="psycho-img" />
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;margin-top:2rem;">
+        ${songKacheln}
+        ${song25}
+      </div>
+
+      ${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Hom\u00f6opathie \u2013 wie Pers\u00f6nlichkeitstyp und Heilmittelwahl zusammenh\u00e4ngen.", "Enneagramm-Hom\u00f6opathie \u2013 Band\u00a01")}
+      ${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen hom\u00f6opathischen Heilmittel.", "Enneagramm-Hom\u00f6opathie \u2013 Band\u00a02")}
+      ${bookTip("rathmer-s-repertorium-gebundene-ausgabe", "Das weltweit umfangreichste hom\u00f6opathische Gem\u00fctsrepertorium \u2013 1568 Seiten, 20.000 Rubriken.", "Rathmer\u2019s Repertorium")}
+      ${bookTip("der-kern-der-heilmittel-the-core-of-the-remedies-gebunden", "Das geistige Wesen der 500 wichtigsten hom\u00f6opathischen Arzneimittel \u2013 \u00fcber 8.500 Single-Rubriken.", "Der Kern der Heilmittel")}
+      ${bookTip("homoeopathische-arzneimittellehre-der-single-rubriken-aus-de", "8.594 Single-Rubriken der 500 wichtigsten hom\u00f6opathischen Arzneimittel \u2013 das Standardwerk zur Sehgal-Methode.", "Hom\u00f6opathische Arzneimittellehre der Single-Rubriken")}
+      ${bookTip("repertorium-der-hervorstechenden-gemuetsrubriken-gebundene-a", "Die hervorstechendsten Gem\u00fctsrubriken kompakt und kommentiert \u2013 das Praxisrepertorium f\u00fcr den hom\u00f6opathischen Alltag.", "Repertorium der hervorstechenden Gem\u00fctsrubriken")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-1-taschenbuch", "Das Lehrbuch zur Enneagramm-Hom\u00f6opathie \u2013 Band\u00a01: Grundlagen, Typen und Heilmittel.", "Lehrbuch der Enneagramm-Hom\u00f6opathie \u2013 Band\u00a01")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-2-taschenbuch", "Band\u00a02 des Lehrbuchs: Vertiefte Heilmittelzuordnungen f\u00fcr alle 27 Subtypen.", "Lehrbuch der Enneagramm-Hom\u00f6opathie \u2013 Band\u00a02")}
+      ${bookTip("lehrbuch-der-enneagramm-homoeopathie-band-3-taschenbuch", "Band\u00a03 des Lehrbuchs: Das vollst\u00e4ndige System der Enneagramm-Hom\u00f6opathie in der Praxis.", "Lehrbuch der Enneagramm-Hom\u00f6opathie \u2013 Band\u00a03")}
+      ${bookTip("die-enneagramm-homoeopathie-unterrichtsmaterial", "Das Unterrichtsskript zur Enneagramm-Hom\u00f6opathie \u2013 376 Seiten kompaktes Lernmaterial f\u00fcr das Selbststudium.", "Enneagramm-Hom\u00f6opathie \u2013 Unterrichtsmaterial (376 Seiten)")}
+      ${bookTip("das-unterrichtsskript-zur-sehgal-ausbildung-ebook", "Das vollst\u00e4ndige Unterrichtsskript der Sehgal-Schule \u2013 500 Seiten f\u00fcr alle, die die Sehgal-Methode tiefgreifend erlernen m\u00f6chten.", "Unterrichtsskript zur Sehgal-Ausbildung (500 Seiten)")}
+      ${bookTip("heilung-als-erinnerung", "K\u00f6rper, Seele und Heilung als untrennbare Einheit \u2013 der hom\u00f6opathische Blick auf das Enneagramm.", "Heilung als Erinnerung")}
+      ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften und ihre enneagrammatischen Wurzeln \u2013 mit Heilungsweg aus der hom\u00f6opathischen Praxis.", "Leidenschaft und Heilung")}
+      ${relatedLinks([
+        {route:"musik",               label:"Entspannungs- und Heilungsmusik"},
+        {route:"solfeggio-frequenzen", label:"Die 9 Solfeggio-Frequenzen"},
+        {route:"beruhmte-komponisten", label:"Ber\u00fchmte Komponisten im Enneagramm"},
+      ])}
+    </section>
+  `);
+}
+
 function ber\u00fchmteKomponistenPage() {
   return shell(`
     ${pageHeader("beruhmte-komponisten")}
@@ -1665,7 +1760,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
@@ -1680,7 +1775,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
         beschreibung: "Fähigkeiten, die später mühelos wirken, entstehen fast nie über Nacht, sondern über Jahre stiller, oft schmerzhaft konsequenter Wiederholung, lange bevor eine Öffentlichkeit davon erfährt.",
-        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde."
+        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde; Bastian Pastewka, der als akribischer Perfektionist gilt, der jede Rolle, jede Pointe und jedes Timing gründlich vorbereitet, statt sich auf spontane Kreativität zu verlassen – ein Anspruch, der sich sowohl in seiner eigenen, über Jahre entwickelten Sitcom als auch in seiner international geschätzten Synchronarbeit zeigt."
       },
       {
         titel: "Erreichte Sichtbarkeit bewusst gegen Substanz eintauschen",
@@ -6603,6 +6698,7 @@ function ankeEngelkePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel</strong> verleiht der sexuellen Sechs eine Leichtigkeit, die ihr ohne ihn fehlen w\u00fcrde. Bei schwach ausgepr\u00e4gtem Siebenerfl\u00fcgel tendiert die Sechs zur Schwere: Gr\u00fcbeln, Misstrauen, das st\u00e4ndige Abw\u00e4gen von Risiken. Der Siebenerfl\u00fcgel hellt das auf &ndash; er bringt Neugier, Spielfreude, die F\u00e4higkeit, Verbindungen herzustellen, die anderen nicht auffallen.</p>
           <p class="vb-intro">Bei Anke Engelke zeigt sich das schon im Beginn ihrer Karriere. Mit 14 Jahren moderiert sie das <em>ZDF-Ferienprogramm</em> und die w\u00f6chentliche Kindersport-Sendung <em>Pfiff</em> &ndash; als Teenager, der anderen Kindern Sommer und Sport n\u00e4herbringt. Diese fr\u00fche Selbstverst\u00e4ndlichkeit auf der B\u00fchne hat einen Grund: Es ist der Siebenerfl\u00fcgel, der die Angst \u00fcberspielt, bevor sie sich festsetzen kann. Aus diesem Beginn w\u00e4chst eine Karriere voller Wechsel &ndash; Fernsehen, Radio, Comedy, Schauspiel, Synchron, Gesang. Kein Format zu viel, keine Richtung zu eng. Ihr Humor ist selten bitter &ndash; er ist warm, absurd, bisweilen kindlich. Das ist der Siebenerfl\u00fcgel: Angst in Spiel verwandeln, und zwar schon mit vierzehn.</p>
+          <p class="vb-intro">Seit 1996 verbindet sie eine der langlebigsten Partnerschaften der deutschen Comedy-Geschichte mit <a href="#beruehmte-bastian-pastewka">Bastian Pastewka (SE3w2)</a>, den sie bei ›Die Wochenshow‹ kennenlernte – gemeinsame Formate von ›Fröhliche Weihnachten! – mit Wolfgang und Anneliese‹ bis ›Wiedersehen macht Freude‹ zeugen von einer Zusammenarbeit, die über Jahrzehnte trug.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Angst als unsichtbarer Motor</h2>
@@ -6624,6 +6720,7 @@ function ankeEngelkePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-bastian-pastewka", label:"Portr\u00e4t: Bastian Pastewka (SE3w2)"},
         {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
       ])}
     </div>
@@ -7310,71 +7407,6 @@ function hazelBruggerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-elon-musk", label:"Portr\u00e4t: Elon Musk (SO7w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function drewBarrymorePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-drew-barrymore-portrait.jpg" alt="Drew Barrymore – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Drew Barrymore</p>
-        <p class="krim-portrait-typ">SO7w8 &middot; Sozialer Typ 7 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Schauspielerin, Produzentin &amp; Talkshow-Moderatorin, geb. 1975 in Los Angeles &ndash; Tierentsprechung: Biber</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Biber</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; ein Baumeister, der Katastrophen \u00fcbersteht, weil er st\u00e4ndig weiterbaut. F\u00e4llt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten. Er arbeitet nicht f\u00fcr sich allein, sondern f\u00fcr ein ganzes \u00d6kosystem, das von seiner Konstruktion abh\u00e4ngt.</p>
-          <p class="vb-intro">Die US-amerikanische Schauspielerin Drew Barrymore, geboren 1975 in Los Angeles als Spross der legend\u00e4ren Schauspielerdynastie Barrymore, ist dieser Biber. Mit sieben Jahren wurde sie durch ihre Rolle als Gertie in <em>E.T. &ndash; Der Au\u00dferirdische</em> (1982) weltber\u00fchmt &ndash; und st\u00fcrzte anschlie\u00dfend in eine der \u00f6ffentlichsten Kindheitskrisen Hollywoods. Doch statt daran zu zerbrechen, baute sie ihr Leben immer wieder neu auf: als Schauspielerin, als Unternehmerin, als eine der erfolgreichsten Produzentinnen ihrer Generation, und schlie\u00dflich als eine der beliebtesten Talkshow-Moderatorinnen Amerikas.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Sieben: Freude als geteiltes Gut</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> lenkt die Leidenschaft der Sieben &ndash; den unstillbaren Hunger nach Erfahrung &ndash; nicht auf den eigenen Genuss, sondern in den Dienst einer Gemeinschaft. Naranjo beschrieb diesen Subtyp treffend: Freude, die geteilt werden will, verwandelt sich in Idealismus, in das Bed\u00fcrfnis, andere an der eigenen Begeisterung teilhaben zu lassen.</p>
-          <p class="vb-intro">Barrymores gesamte \u00f6ffentliche Persona ist von diesem Impuls gepr\u00e4gt: die spontane Umarmung fremder Talkshow-G\u00e4ste, die Tr\u00e4nen, die ihr bei emotionalen Momenten unverhohlen \u00fcber das Gesicht laufen, die unerm\u00fcdliche Botschaft von Selbstakzeptanz und Optimismus, die sie in Interviews wiederholt. Freude ist f\u00fcr sie kein privates Vergn\u00fcgen, sondern etwas, das erst vollst\u00e4ndig wird, wenn es geteilt wird &ndash; eine Haltung, die sie sp\u00e4ter zur Grundlage einer ganzen Sendung machte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kontrolle \u00fcber das eigene Leben</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> gibt der sozialen Sieben eine Durchsetzungskraft und Direktheit, die einer SO7 mit schwach ausgeprägtem Achterflügel fehlt. Wo die SO7 allein zur Zerstreuung neigen k\u00f6nnte, verwandelt der Achterfl\u00fcgel diese Energie in aktives Gestalten &ndash; in den Willen, die eigenen Verh\u00e4ltnisse selbst in die Hand zu nehmen, statt sich ihnen auszuliefern.</p>
-          <p class="vb-intro">Mit gerade einmal 14 Jahren lie\u00df sich Barrymore, nach Jahren von Alkohol- und Drogenkonsum, zwei Klinikaufenthalten und einem gescheiterten Suizidversuch, gerichtlich von ihren Eltern emanzipieren &ndash; ein radikaler, in dieser Form ungew\u00f6hnlicher Schritt f\u00fcr eine Minderj\u00e4hrige. 1995 gr\u00fcndete sie mit gerade 20 Jahren ihre eigene Produktionsfirma, Flower Films, um nie wieder von den Entscheidungen anderer \u00fcber ihre Karriere abh\u00e4ngig zu sein. \u00dcber diese Firma produzierte sie unter anderem die erfolgreiche <em>Drei Engel f\u00fcr Charlie</em>-Reihe. Der Achterfl\u00fcgel zeigt sich hier nicht als Aggression, sondern als entschlossene Selbsterm\u00e4chtigung: Niemand sonst sollte je wieder \u00fcber ihr Leben bestimmen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Absturz und Wiederaufbau</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Barrymores Kindheit ist eine der bekanntesten Warnungen Hollywoods vor den Schattenseiten des Kinderstar-Daseins: erste Zigarette mit neun Jahren, Alkohol mit neun, Marihuana mit zehn, Kokain mit zw\u00f6lf oder dreizehn. Ihre eigene Mutter nahm sie mit in Nachtclubs. Mit 13 Jahren erschien ihre erste Autobiografie, <em>Little Girl Lost</em> &ndash; ein Kind, das \u00f6ffentlich \u00fcber seine eigene Selbstzerst\u00f6rung schrieb.</p>
-          <p class="vb-intro">Der Wiederaufbau begann in den 1990er Jahren: Rollen in <em>Poison Ivy</em> und <em>Scream</em> (1996) zeigten eine erwachsene, eigenst\u00e4ndige K\u00fcnstlerin. Mit <em>Der Hochzeitsplaner</em>, <em>Nie wieder verliebt!</em> und <em>50 erste Dates</em> etablierte sie sich als eine der gefragtesten Kom\u00f6diendarstellerinnen ihrer Zeit &ndash; parallel dazu als Produzentin, die anderen jungen Talenten dieselben Chancen erm\u00f6glichte, die sie sich selbst erk\u00e4mpft hatte. Der Biber, der seinen eingest\u00fcrzten Bau nicht nur reparierte, sondern gr\u00f6\u00dfer und stabiler wieder aufbaute als zuvor.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO7w8 ist ihre F\u00e4higkeit, aus eigenem Leid eine ansteckende, \u00f6ffentlich geteilte Lebensfreude zu machen, ohne diese Freude als Fassade zu missbrauchen. Barrymore spricht offen \u00fcber ihre Vergangenheit, \u00fcber Therapie, \u00fcber R\u00fcckschl\u00e4ge &ndash; und macht gerade dadurch anderen Mut, mit den eigenen Br\u00fcchen offen umzugehen.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in einem Muster, das sich durch ihr gesamtes Erwachsenenleben zieht: drei gescheiterte Ehen (mit Jeremy Thomas, Tom Green und Will Kopelman), zwischenzeitliche R\u00fcckf\u00e4lle in problematischen Substanzkonsum, und eine Rastlosigkeit, die trotz aller Stabilit\u00e4t nie ganz verschwunden ist. Die soziale Sieben mit Achterfl\u00fcgel k\u00e4mpft daf\u00fcr, niemals wieder ohnm\u00e4chtig zu sein &ndash; doch genau diese Kampfbereitschaft kann verhindern, zur Ruhe zu kommen, selbst wenn \u00e4u\u00dferlich l\u00e4ngst alles gut zu sein scheint.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: The Drew Barrymore Show</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Zerstreuung zur N\u00fcchternheit &ndash; der F\u00e4higkeit, bei einer Sache und bei den eigenen Gef\u00fchlen zu bleiben, statt vor ihnen davonzulaufen. F\u00fcr die SO7w8 bedeutet das, die eigene Durchsetzungskraft nicht mehr nur zum Selbstschutz einzusetzen, sondern in den Dienst echter, verletzlicher Verbindung mit anderen zu stellen.</p>
-          <p class="vb-intro">Seit 2020 moderiert Barrymore <em>The Drew Barrymore Show</em> &ndash; eine Talkshow, die sich bewusst von zynischer Distanz abgrenzt und stattdessen auf Empathie, Tr\u00e4nen und echte Umarmungen setzt. Kritiker nennen das mitunter zu sentimental. Doch genau darin liegt die Essenz der geheilten SO7w8: der Biber, der gelernt hat, sein Bauwerk nicht mehr aus Angst vor dem n\u00e4chsten Einsturz zu errichten, sondern aus der ehrlichen Freude daran, dass andere darin Schutz finden.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
-        {route:"beruehmte-hazel-brugger", label:"Portr\u00e4t: Hazel Brugger (SO7w8)"},
-        {route:"krankheitsportraets-drew-barrymore", label:"Krankheitsportr\u00e4t: Drew Barrymore (SO7w8) \u2013 Kindheitssucht"},
       ])}
     </div>
   `);

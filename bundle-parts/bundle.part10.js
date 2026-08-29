@@ -265,6 +265,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function bastianPastewkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bastian-pastewka-portrait.jpg" alt="Bastian Pastewka" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bastian Pastewka</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Komiker &amp; Synchronsprecher, geb. 1972 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Geschicklichkeit nicht dem Zufall, sondern jahrelanger, geduldiger Vorbereitung verdankt. Bastian Pastewka wurde 1972 in Bochum geboren und wurde Ende der 1990er Jahre einem breiten Publikum durch die Sketchsendung ›Die Wochenshow‹ bekannt, in der er eigene, sorgfältig ausgearbeitete Figuren wie Brisko Schneider und Ottmar Zittlau erschuf.</p>
+          <p class="vb-intro">Der Weg dorthin führte nicht über spontane Improvisation, sondern über handwerkliche Vorbereitung – Pastewka gilt bis heute als Perfektionist, der akribisch an jeder Rolle, jeder Pointe, jedem Timing feilt, bevor er auf die Bühne oder vor die Kamera tritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch nachweisbares Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht.</p>
+          <p class="vb-intro">Bei Pastewka zeigt sich das besonders deutlich in seiner Arbeit als Synchronsprecher, unter anderem für die Hauptfigur in ›Stuart Little‹ und für Bloofy in ›Alles steht Kopf 2‹ (2024): In der Branche gilt er als einer der akkuratesten Sprecher überhaupt, jemand, der die Arbeit gründlich vorbereitet, statt sich auf spontane Kreativität zu verlassen. Auch seine eigene, nach ihm benannte Sitcom ›Pastewka‹ entstand über Jahre hinweg mit demselben Anspruch an handwerkliche Genauigkeit – kein schnell produziertes Format, sondern ein sorgfältig entwickeltes Werk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Die jahrzehntelange Partnerschaft mit Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und zum kollegialen Miteinander. Pastewka und <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> lernten sich 1996 bei ›Die Wochenshow‹ kennen und arbeiten seither, über fast dreißig Jahre hinweg, in zahlreichen gemeinsamen Formaten des deutschen Fernsehens zusammen – von der zweiteiligen Comedyreihe ›Fröhliche Weihnachten! – mit Wolfgang und Anneliese‹ über die gemeinsame Moderation von ›Unser schönes Deutschland‹ bis zur Wiedersehensshow ›Wiedersehen macht Freude‹. Aus der beruflichen Zusammenarbeit ist längst eine echte, tragfähige Freundschaft geworden.</p>
+          <p class="vb-intro">Diese Konstellation – eine selbsterhaltende Drei neben einer sexuellen Sechs mit Siebenerflügel – ist keine Ausnahme, sondern ein Muster, das sich in über dreißig Jahren Praxiserfahrung mit dem Enneagramm immer wieder zeigt: SE3 und SX6 verstehen sich auffällig häufig, sei es als Paar, unter Kollegen oder in Gemeinschaften. Die verlässliche, handwerklich saubere Substanz der SE3 trifft auf die wache, loyale und zugleich humorvoll-warme Energie der SX6 – zwei Energien, die sich gegenseitig tragen, statt sich zu reiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Eitelkeit im Dienst der Verlässlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – bei der SE3 nicht als lautes Geltungsbedürfnis, sondern als das feine Bedürfnis, durch nachweisbare Leistung als unentbehrlich zu gelten. Bei Pastewka zeigt sich das darin, dass er in der Branche vor allem für seine Zuverlässigkeit geschätzt wird: Wer mit ihm arbeitet, weiß, dass die Vorbereitung stimmt, dass die Pointe sitzt, dass nichts dem Zufall überlassen bleibt.</p>
+          <p class="vb-intro">Genau diese Verlässlichkeit ist es, die ihn über Jahrzehnte zu einem gefragten Partner in ganz unterschiedlichen Formaten machte – von der Comedy über die Moderation bis zur internationalen Synchronarbeit für Hollywood-Großproduktionen wie ›Madagascar‹ und ›Bee Movie‹. Die SE3w2 sucht nicht die große Bühne um ihrer selbst willen, sondern das Vertrauen, das aus wiederholt bewiesener Kompetenz entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>echtes handwerkliches Können mit echter kollegialer Wärme</strong> zu verbinden. Pastewka hat sich über Jahrzehnte als einer der verlässlichsten Comedians und Sprecher des deutschen Fernsehens etabliert, ohne sich dabei über Skandale oder Selbstinszenierung zu profilieren – seine Substanz spricht für sich.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei zeigt sich in einem hohen, manchmal unerbittlichen Perfektionsanspruch an sich selbst und andere: Wer mit weniger Sorgfalt arbeitet, stößt bei ihm auf wenig Verständnis. Doch genau dieser Anspruch, gepaart mit der warmen, verbindenden Energie des Zweierflügels, hat ihm über Jahrzehnte hinweg sowohl den Respekt der Branche als auch echte, langjährige Freundschaften eingebracht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der Verlässlichkeit zur Kunstform macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bastian Pastewka gehört zu den prägendsten Figuren der deutschen Comedy-Landschaft – nicht, weil er lauter oder auffälliger war als andere, sondern weil er sein Handwerk mit einer Genauigkeit betrieb, die Kolleginnen und Kollegen wie Publikum gleichermaßen überzeugte.</p>
+          <p class="vb-intro">Vom akribischen Figurenschöpfer bei ›Die Wochenshow‹ bis zum international gefragten Synchronsprecher, von der eigenen Sitcom bis zur fast dreißigjährigen Partnerschaft mit Anke Engelke: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Können, das durch Beständigkeit und echte Verbundenheit erst seine volle Wirkung entfaltet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function langLangPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11097,175 +11163,6 @@ function karlMarxKrankheitsportraetPage() {
         {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SO8w9) – dasselbe Muster ungebrochener Kontrolle"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so8", label:"Subtyp-Profil SO8"},
-      ])}
-    </div>
-  `);
-}
-
-function jamesLevineKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-james-levine-portrait.jpg" alt="James Levine" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">James Levine</p>
-        <p class="krim-portrait-typ">SE9w1 · Selbsterhaltender Typ 9 mit Einserflügel · 1943–2021</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Elefant</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>James Levine</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-james-levine">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein musikalisches Lebenswerk an der
-        Metropolitan Opera und, im letzten Abschnitt, um die 2017 öffentlich gewordenen
-        Missbrauchsvorwürfe. Hier geht es ausschließlich um ein davon getrenntes Kapitel: eine
-        über Jahrzehnte fortschreitende Parkinson-Erkrankung und schwere Rückenleiden, die ihn
-        zunehmend körperlich einschränkten, während er weiter dirigierte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Levine</strong> ist der <strong>selbsterhaltenden Neun mit Einserflügel</strong>
-        zugeordnet. Naranjo nannte die selbsterhaltende Neun <em>Appetit</em>: die Sehnsucht,
-        vollständig in etwas zu wohnen, das nährt und trägt. Der Einserflügel gibt dieser
-        Sehnsucht einen inneren Maßstab, der keine Abkürzungen duldet. Genau diese Kombination
-        aus tiefer Verwurzelung und unnachgiebigem Anspruch an sich selbst prägte auch, wie
-        Levine mit einem Körper umging, der ihm zunehmend die Kontrolle entzog.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Erste Tremorsymptome bereits in den 1990er-Jahren:</strong>
-        Kollegen und Orchestermitglieder bemerkten schon früh ein leichtes Zittern in Levines
-        Händen, das er über Jahre hinweg weitgehend verbarg und nicht öffentlich thematisierte.</p>
-        <p class="vb-intro"><strong>b) Rückenprobleme als frühes Warnsignal:</strong>
-        Parallel zu den ersten neurologischen Anzeichen häuften sich bei Levine schwere
-        Rückenbeschwerden, die mehrere operative Eingriffe notwendig machten und ihn wiederholt
-        für längere Zeit von der Bühne fernhielten.</p>
-        <p class="vb-intro"><strong>c) Ein Sturz 2006 als erster gravierender Einschnitt:</strong>
-        Bei einem Sturz während eines Konzertes in Boston zog sich Levine einen Rotatorenmanschettenriss
-        zu – ein Vorfall, der die zunehmende körperliche Verwundbarkeit erstmals öffentlich
-        sichtbar machte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Die Parkinson-Diagnose, jahrelang privat gehalten:</strong>
-        Levine erhielt die Diagnose Parkinson vermutlich bereits in den 1990er-Jahren, machte sie
-        aber erst 2013 öffentlich – ein Muster der Geheimhaltung, das sich durch weite Teile
-        seiner Karriere zog.</p>
-        <p class="vb-intro"><strong>b) Ein schwerer Sturz 2011 als Wendepunkt:</strong>
-        Ein Sturz während der Sommerpause 2011 führte zu einer schweren Rückenmarksverletzung,
-        die eine Notoperation erforderlich machte und Levine für fast zwei Jahre komplett von
-        der Bühne fernhielt.</p>
-        <p class="vb-intro"><strong>c) Zunehmende Abhängigkeit von technischen Hilfsmitteln:</strong>
-        Die Metropolitan Opera baute eigens einen motorisierten Rollstuhl-Lift, um Levine auf
-        das Podium zu bringen – ein sichtbares Zeichen dafür, wie sehr sich sein Körper von
-        seinem Willen, weiter zu dirigieren, entkoppelt hatte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Dirigieren im Sitzen, mit minimaler Handbewegung:</strong>
-        In seinen letzten aktiven Jahren dirigierte Levine sitzend, mit stark eingeschränkter
-        Armbeweglichkeit – er kommunizierte mit dem Orchester zunehmend über Blickkontakt und
-        Mimik statt über die klassische Dirigierbewegung.</p>
-        <p class="vb-intro"><strong>b) Kein Rückzug, sondern Anpassung:</strong>
-        Statt sich aus der aktiven Leitung zurückzuziehen, passte Levine seine Arbeitsweise
-        immer wieder neu an die fortschreitende Erkrankung an – ein Muster, das über Jahrzehnte
-        anhielt, bis die körperlichen Grenzen keine weitere Anpassung mehr zuließen.</p>
-        <p class="vb-intro"><strong>c) Öffentliche Zurückhaltung trotz sichtbarer Symptome:</strong>
-        Auch nachdem der Tremor und die eingeschränkte Mobilität für das Publikum unübersehbar
-        geworden waren, sprach Levine selbst kaum öffentlich über seine Erkrankung – ein
-        Schweigen, das zur selbsterhaltenden Neun passt, die Schwäche lieber in sich trägt, als
-        sie auszusprechen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Rückkehr nach zwei Jahren Pause:</strong>
-        2013 kehrte Levine, nun dauerhaft im Rollstuhl, an die Metropolitan Opera zurück – ein
-        Comeback, das in der Klassikwelt als bemerkenswerter Ausdruck von Beharrlichkeit
-        gewürdigt wurde.</p>
-        <p class="vb-intro"><strong>b) Das Ende der aktiven Karriere 2017/2018:</strong>
-        Levines Vertrag mit der Met endete 2018 – offiziell im Zusammenhang mit den
-        Missbrauchsermittlungen, doch bereits zuvor hatte seine fortschreitende Erkrankung seine
-        Möglichkeiten, das Orchester zu leiten, spürbar eingeschränkt.</p>
-        <p class="vb-intro"><strong>c) Tod 2021 an den Folgen der Parkinson-Erkrankung:</strong>
-        James Levine starb am 9. März 2021 in Palm Springs, Kalifornien, offiziell an den
-        Komplikationen seiner langjährigen Parkinson-Erkrankung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Einserflügel, der keine Kompromisse mit der Krankheit einging:</strong>
-        Levines innerer Anspruch an musikalische Präzision blieb auch dann bestehen, als sein
-        Körper diese Präzision zunehmend erschwerte – der Wille zur Richtigkeit ließ sich von
-        der Erkrankung nicht aufweichen.</p>
-        <p class="vb-intro"><strong>b) Appetit, der sich an die veränderten Bedingungen anpasste:</strong>
-        Die selbsterhaltende Neun sucht Vollständigkeit im Vertrauten – Levine fand diese
-        Vollständigkeit weiterhin in der Musik, auch als der Zugang zu ihr immer eingeschränkter
-        wurde, und bewahrte sich dadurch eine Form von innerer Stabilität.</p>
-        <p class="vb-intro"><strong>c) Ein Territorium, das er bis zuletzt verteidigte:</strong>
-        Wie beim Elefanten, der sein Revier nicht kampflos aufgibt, blieb die Met für Levine bis
-        zum erzwungenen Ende sein Zuhause – der Rückzug kam nicht aus eigenem Entschluss, sondern
-        wurde ihm von außen und von seinem eigenen Körper zugleich auferlegt.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Vierteljahrhundert stiller Anpassung:</strong>
-        Von den ersten Tremorsymptomen in den 1990er-Jahren bis zu seinem Tod 2021 zieht sich
-        die fortschreitende Parkinson-Erkrankung wie ein roter Faden durch Levines gesamte
-        späte Karriere – begleitet von schweren, wiederholten Rückenverletzungen.</p>
-        <p class="vb-intro"><strong>b) Geheimhaltung als durchgängiges Muster:</strong>
-        Ähnlich wie bei anderen Krankheitsporträts dieses Kompasses hielt Levine seine
-        Diagnose über Jahre privat – ein Verhalten, das sich bei der selbsterhaltenden Neun
-        besonders deutlich zeigt: Stabilität nach außen zu wahren, auch wenn im Inneren längst
-        etwas ins Wanken geraten war.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet die Kontrolle über den eigenen Körper?</strong>
-        Für eine selbsterhaltende Neun mit Einserflügel, deren tiefstes Bedürfnis die
-        vollständige, ungestörte Verschmelzung mit ihrem Territorium ist, liegt eine Deutung
-        nahe: Ausgerechnet eine Krankheit, die schrittweise die Kontrolle über die eigenen
-        Bewegungen raubt, traf einen Mann, dessen gesamte Identität an der präzisen,
-        körperlichen Beherrschung eines Orchesters hing. Diese Deutung wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
-        Parkinson führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Was sich an Levines Fall zeigen lässt, ist ein Muster, das bei stiller,
-        anpassungsbereiter Beharrlichkeit trotz fortschreitendem Kontrollverlust in der Praxis
-        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Levine kannte sein eigenes Muster nicht – die selbsterhaltende Neun mit Einerflügel vermeidet lieber jede Aufmerksamkeit auf die eigene Schwäche, und genau das ließ ihn erste Tremorsymptome jahrelang privat verbergen, statt frühzeitig kürzerzutreten. Wer das eigene Vermeidungsmuster nicht kennt, verschiebt die notwendige Entscheidung, bis sie ihm von außen abgenommen wird.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        An <strong>Levines</strong> jahrzehntelanger Parkinson-Erkrankung lässt sich die
-        selbsterhaltende Neun mit Einserflügel in ihrer beharrlichsten Form ablesen: eine
-        stille, über Jahre verborgene Anpassung an fortschreitenden Kontrollverlust, ein
-        unnachgiebiger innerer Anspruch, der sich von der Krankheit nicht erweichen ließ, und
-        ein Territorium, das erst aufgegeben wurde, als kein Verbleiben mehr möglich war. Der
-        Elefant, der sein Haus bewohnte, bis der eigene Körper und die äußeren Umstände ihm
-        keine andere Wahl mehr ließen.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1) – Lebenswerk"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
       ])}
     </div>
   `);

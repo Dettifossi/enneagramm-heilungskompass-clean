@@ -955,6 +955,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn – Self-Preservation Type 3",
     teaser:"SP3w2 · 1732–1809. Austrian composer. Three decades in service of the Esterházys, \"Papa Haydn\", 104 symphonies, mentor to Mozart and Beethoven. The raccoon with the Two-wing: quiet achievement, care, and late recognition through the London trips. Animal correspondence: Raccoon.",
     land:"Austria", tags:["Music","History"], gender:"m"},
+{ route:"beruehmte-bastian-pastewka", name:"Bastian Pastewka", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Bastian Pastewka – Self-Preservation Type 3",
+    teaser:"SP3w2 · b. 1972. German actor, comedian, and voice actor, known from \"Die Wochenshow\" and his own sitcom \"Pastewka.\" Close, decades-long collaboration with Anke Engelke since 1996 across numerous formats. Regarded as a meticulous perfectionist with high craft standards. Animal correspondence: Raccoon.",
+    land:"Germany", tags:["Comedy","Schauspiel"], gender:"m"},
 { route:"beruehmte-lang-lang", name:"Lang Lang", added:"2026-08-15", subtyp:"SE3w2",
     heading:"Lang Lang – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1982. Pianist. Breakthrough in 1999 at the Ravinia Festival, 2008 Beijing Olympics opening ceremony, Lang Lang International Music Foundation. The raccoon with the Two-wing: years of quiet mastery that becomes a bridge for others. Animal correspondence: Raccoon.",
@@ -33694,6 +33698,7 @@ function ankeEngelkePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Seven-wing</strong> lends the Sexual Six a lightness it would lack without it. A Six with a more muted Seven wing tends toward heaviness: brooding, mistrust, the constant weighing of risks. The Seven-wing brightens that &ndash; it brings curiosity, playfulness, the ability to make connections that others do not notice.</p>
           <p class="vb-intro">In Anke Engelke this is visible from the very start of her career. At 14 she presents the <em>ZDF Ferienprogramm</em> and the weekly children's sports show <em>Pfiff</em> &ndash; as a teenager bringing summer and sport closer to other children. This early ease on stage has a clear source: it is the Seven-wing that plays over the fear before it can take hold. From this beginning grows a career of constant change &ndash; television, radio, comedy, acting, voice-over, singing. No format too many, no direction too narrow. Her humour is rarely bitter &ndash; it is warm, absurd, at times childlike. That is the Seven-wing: turning fear into play, and doing so from the age of fourteen.</p>
+          <p class="vb-intro">Since 1996 she has shared one of the longest-running partnerships in German comedy history with <a href="#beruehmte-bastian-pastewka">Bastian Pastewka (SP3w2)</a>, whom she met on "Die Wochenshow" – joint formats from "Fröhliche Weihnachten! – mit Wolfgang und Anneliese" to "Wiedersehen macht Freude" bear witness to a collaboration that carried across decades.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Fear as an Invisible Engine</h2>
@@ -33715,6 +33720,7 @@ function ankeEngelkePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
       ])}
     </div>
@@ -44244,6 +44250,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function bastianPastewkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-bastian-pastewka-portrait.jpg" alt="Bastian Pastewka" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bastian Pastewka</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actor, comedian &amp; voice actor, b. 1972 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that works with tireless diligence out of sight before it shows itself, and whose dexterity owes not to chance but to years of patient preparation. Bastian Pastewka was born in 1972 in Bochum and became known to a broad audience in the late 1990s through the sketch show "Die Wochenshow," in which he created carefully worked-out characters of his own, such as Brisko Schneider and Ottmar Zittlau.</p>
+          <p class="vb-intro">The path there did not run through spontaneous improvisation but through craft preparation – Pastewka is still regarded today as a perfectionist who meticulously refines every role, every punchline, every piece of timing before stepping on stage or in front of the camera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Security Through Demonstrable Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three – the subtype that seeks security not through image but through demonstrable, verifiable competence. Naranjo called this subtype <em>Security</em>: one is not admired for selling oneself well, but for actually delivering what one promises.</p>
+          <p class="vb-intro">This shows especially clearly in Pastewka's work as a voice actor, including the lead role in "Stuart Little" and Bloofy in "Inside Out 2" (2024): in the industry he is regarded as one of the most accurate voice actors around, someone who prepares thoroughly rather than relying on spontaneous creativity. His own self-titled sitcom, "Pastewka," was likewise developed over years with the same standard of craft precision – not a quickly produced format, but a carefully built body of work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: The Decades-Long Partnership with Anke Engelke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse toward connection and collegial closeness. Pastewka and <a href="#beruehmte-anke-engelke">Anke Engelke (SX6w7)</a> met in 1996 on "Die Wochenshow" and have since worked together, across nearly thirty years, in numerous joint formats of German television – from the two-part comedy series "Fröhliche Weihnachten! – mit Wolfgang und Anneliese" to co-hosting "Unser schönes Deutschland" to the reunion show "Wiedersehen macht Freude." What began as professional collaboration has long since become a genuine, load-bearing friendship.</p>
+          <p class="vb-intro">This constellation – a Self-Preservation Three alongside a Sexual Six with a Seven-wing – is not an exception but a pattern that shows up again and again across more than thirty years of practical experience with the Enneagram: SP3 and SX6 get along strikingly often, whether as a couple, among colleagues, or within communities. The reliable, craft-solid substance of the SP3 meets the alert, loyal, and warmly humorous energy of the SX6 – two energies that carry each other rather than grinding against one another.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Vanity in the Service of Reliability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's passion is called <strong>vanity</strong> – in the SP3 not as a loud need for recognition, but as the fine need to be regarded as indispensable through demonstrable performance. In Pastewka this shows in the fact that he is valued in the industry above all for his reliability: whoever works with him knows the preparation will be right, the punchline will land, nothing will be left to chance.</p>
+          <p class="vb-intro">It is exactly this reliability that made him a sought-after partner across decades in very different formats – from comedy to hosting to international voice work for major Hollywood productions such as "Madagascar" and "Bee Movie." The SP3w2 does not seek the big stage for its own sake, but the trust that grows out of repeatedly proven competence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 lies in the ability to <strong>combine genuine craft mastery with genuine collegial warmth</strong>. Pastewka has established himself over decades as one of the most reliable comedians and voice actors in German television, without building his profile on scandal or self-promotion – his substance speaks for itself.</p>
+          <p class="vb-intro">The shadow of the Self-Preservation Three shows in a high, sometimes unforgiving standard of perfection applied to himself and others: those who work with less care find little understanding from him. Yet it is precisely this standard, paired with the warm, connecting energy of the Two-wing, that has earned him both the industry's respect and genuine, long-standing friendships over the decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon That Turns Reliability into an Art Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bastian Pastewka is among the most defining figures of German comedy – not because he was louder or more conspicuous than others, but because he pursued his craft with a precision that convinced colleagues and audiences alike.</p>
+          <p class="vb-intro">From meticulous character creation on "Die Wochenshow" to internationally sought-after voice work, from his own sitcom to a nearly thirty-year partnership with Anke Engelke: this is the Self-Preservation Three with a Two-wing in its most mature form – competence that unfolds its full effect only through consistency and genuine connection.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function langLangPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46303,7 +46375,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
@@ -46318,7 +46390,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
         beschreibung: "Skills that later seem effortless almost never arise overnight, but through years of quiet, often painfully consistent repetition, long before the public knows anything about it.",
-        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history."
+        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work."
       },
       {
         titel: "Trading achieved visibility for substance, on purpose",
@@ -101574,6 +101646,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,
       "beruehmte-giacomo-puccini": giacomoPucciniPortraitPage,
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,

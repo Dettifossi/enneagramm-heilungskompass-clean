@@ -1,3 +1,63 @@
+function steffiGrafPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-steffi-graf-portrait.jpg" alt="Steffi Graf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steffi Graf</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Tennisspielerin, 22 Grand-Slam-Titel, geb. 1969 &ndash; Tierentsprechung: B\u00fcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\u00fcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Steffi Graf genauer. Der B\u00fcffel ist kein Tier des Showrooms. Er ist kein Tier der Posen und der Gesten. Er senkt den Kopf und l\u00e4uft. Er geht durch, was auch immer vor ihm liegt &ndash; ruhig, massiv, unaufhaltsam. Er macht kein Drama. Er braucht kein Publikum, um zu wissen, dass er da ist.</p>
+          <p class="vb-intro">Die deutsche Tennisspielerin Steffi Graf hatte diese Qualit\u00e4t auf dem Tennisplatz wie sonst kaum jemand. Sie hat 22 Grand-Slam-Titel gewonnen &ndash; mehr als jede andere Spielerin ihrer Generation. 1988 gelang ihr der <strong>Golden Slam</strong>: alle vier Grand-Slam-Turniere und die Olympische Goldmedaille in einem Jahr. Eine Leistung, die in der Geschichte des Tennis einmalig ist. Und sie hat das alles gemacht, ohne dass man je das Gef\u00fchl hatte, sie m\u00fcsse es sich beweisen. Der B\u00fcffel beweist nichts. Er ist einfach da &ndash; und er gewinnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Partizipation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugeh\u00f6rigkeit, durch das Eingebundensein in eine Gemeinschaft, durch das Mitlaufen im Strom des Lebens. Die SO9 findet ihren Platz nicht durch Dominanz, sondern durch Anwesenheit &ndash; durch das einfache Dasein, das anderen Stabilit\u00e4t gibt.</p>
+          <p class="vb-intro">Steffi Graf hat dieses Prinzip gelebt, ohne je gro\u00dfe Worte dar\u00fcber zu verlieren. Sie war nicht die Lauteste im Raum. Sie war nicht diejenige, die Interviews suchte oder Kameras anzog. Sie hat Tennis gespielt &ndash; und das mit einer Selbstverst\u00e4ndlichkeit, als sei es das Normalste der Welt. Ihre Zugeh\u00f6rigkeit galt dem Sport, dem Spiel, der Bewegung &ndash; nicht dem Ruhm, der als Nebenprodukt davon entstand.</p>
+          <p class=vb-intro>Dabei ist die SO9 etwas Besonderes innerhalb des Enneagramms: Sie ist der <strong>Kontratyp der Neun</strong>. Das bedeutet, dass die soziale Neun ihre eigene Leidenschaft &ndash; die Tr\u00e4gheit &ndash; innerlich negiert und gegen sie anarbeitet. W\u00e4hrend die selbsterhaltende und die sexuelle Neun die Tr\u00e4gheit eher offen ausdr\u00fccken, wirkt die SO9 nach au\u00dfen oft aktiv, ehrgeizig und leistungsorientiert &ndash; so sehr, dass man sie manchmal mit dem Typ 3 verwechselt. Wer nicht wei\u00df, dass diese Energie aus der Negation der Tr\u00e4gheit entsteht, versteht nicht, warum jemand mit dem Kernthema Schlaf und Selbstvergessenheit 22 Grand-Slam-Titel gewinnen kann. Die Antwort liegt genau hier: Die SO9 schl\u00e4ft nicht &ndash; sie k\u00e4mpft innerlich dagegen an. Und dieser Kampf treibt sie zu Leistungen, die von au\u00dfen wie reiner Ehrgeiz wirken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Die stille Pflichterf\u00fcllung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel</strong> verleiht der sozialen Neun eine Qualit\u00e4t, die \u00fcber blo\u00dfes Mitmachen hinausgeht: Disziplin, Prinzipientreue und ein innerer Ma\u00dfstab, der unabh\u00e4ngig von Au\u00dfenerwartungen funktioniert. Die <strong>SO9w1</strong> macht nicht, was andere von ihr erwarten &ndash; sie macht, was sie selbst f\u00fcr richtig h\u00e4lt. Und sie macht es gr\u00fcndlich.</p>
+          <p class="vb-intro">Bei Steffi Graf war das sp\u00fcrbar in ihrer Trainingsethik, ihrer Beharrlichkeit und ihrer F\u00e4higkeit, auch nach R\u00fcckschl\u00e4gen &ndash; Verletzungen, pers\u00f6nliche Krisen rund um ihren Vater &ndash; ruhig zur\u00fcckzukehren und weiterzumachen. Der Einserfl\u00fcgel gibt der Neun die F\u00e4higkeit zur Selbstkorrektur: nicht als Selbstkritik, sondern als stilles Nachjustieren auf dem Weg zu dem, was sie werden will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Tr\u00e4gheit als Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun hei\u00dft <strong>Tr\u00e4gheit</strong> &ndash; das Beharren im einmal eingeschlagenen Weg, die Tendenz, im Fluss zu bleiben statt umzuschwenken. F\u00fcr Steffi Graf hat sich diese Tr\u00e4gheit in das verwandelt, was Menschen Ausdauer nennen: die F\u00e4higkeit, Jahr f\u00fcr Jahr auf h\u00f6chstem Niveau zu spielen, ohne den inneren Motor abstellen zu m\u00fcssen.</p>
+          <p class="vb-intro">17 Jahre Profikarriere, davon acht Jahre als Weltranglistenerste. Nicht weil Steffi Graf die Sensation suchte, sondern weil sie einfach weitermachte. Der B\u00fcffel wechselt nicht die Richtung, wenn der Wind sich dreht. Er l\u00e4uft. Und am Ende des Feldes steht er noch &ndash; ruhig, geerdet, unbeeindruckt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Die Stille der Meisterschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Steffi Graf hinterlassen hat, ist mehr als eine Rekordliste. Es ist ein Bild von Meisterschaft, das ohne L\u00e4rm auskommt. Sie hat gezeigt, dass man der Gr\u00f6\u00dfte sein kann &ndash; und dabei bescheiden bleiben. Dass man gewinnen kann, ohne den anderen zu erniedrigen. Dass Sport eine innere Haltung ist und nicht nur eine \u00e4u\u00dfere Leistung.</p>
+          <p class="vb-intro">Das Geschenk der SO9w1 ist diese stille Integrit\u00e4t: die F\u00e4higkeit, pr\u00e4sent zu sein, ohne sich in den Vordergrund zu dr\u00e4ngen &ndash; und dabei dennoch unverkennbar zu sein. Steffi Graf braucht keine Geste, um erkannt zu werden. Der B\u00fcffel auch nicht. Er ist einfach da &ndash; und alle wissen, wer er ist.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
+        {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
 function julianAssangePortraitPage() {
   return shell(`
     <div class="page-container">

@@ -1,3 +1,172 @@
+function jamesLevineKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-james-levine-portrait.jpg" alt="James Levine" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Levine</p>
+        <p class="krim-portrait-typ">SE9w1 · Selbsterhaltender Typ 9 mit Einserflügel · 1943–2021</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>James Levine</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-james-levine">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein musikalisches Lebenswerk an der
+        Metropolitan Opera und, im letzten Abschnitt, um die 2017 öffentlich gewordenen
+        Missbrauchsvorwürfe. Hier geht es ausschließlich um ein davon getrenntes Kapitel: eine
+        über Jahrzehnte fortschreitende Parkinson-Erkrankung und schwere Rückenleiden, die ihn
+        zunehmend körperlich einschränkten, während er weiter dirigierte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Levine</strong> ist der <strong>selbsterhaltenden Neun mit Einserflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Neun <em>Appetit</em>: die Sehnsucht,
+        vollständig in etwas zu wohnen, das nährt und trägt. Der Einserflügel gibt dieser
+        Sehnsucht einen inneren Maßstab, der keine Abkürzungen duldet. Genau diese Kombination
+        aus tiefer Verwurzelung und unnachgiebigem Anspruch an sich selbst prägte auch, wie
+        Levine mit einem Körper umging, der ihm zunehmend die Kontrolle entzog.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Tremorsymptome bereits in den 1990er-Jahren:</strong>
+        Kollegen und Orchestermitglieder bemerkten schon früh ein leichtes Zittern in Levines
+        Händen, das er über Jahre hinweg weitgehend verbarg und nicht öffentlich thematisierte.</p>
+        <p class="vb-intro"><strong>b) Rückenprobleme als frühes Warnsignal:</strong>
+        Parallel zu den ersten neurologischen Anzeichen häuften sich bei Levine schwere
+        Rückenbeschwerden, die mehrere operative Eingriffe notwendig machten und ihn wiederholt
+        für längere Zeit von der Bühne fernhielten.</p>
+        <p class="vb-intro"><strong>c) Ein Sturz 2006 als erster gravierender Einschnitt:</strong>
+        Bei einem Sturz während eines Konzertes in Boston zog sich Levine einen Rotatorenmanschettenriss
+        zu – ein Vorfall, der die zunehmende körperliche Verwundbarkeit erstmals öffentlich
+        sichtbar machte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Parkinson-Diagnose, jahrelang privat gehalten:</strong>
+        Levine erhielt die Diagnose Parkinson vermutlich bereits in den 1990er-Jahren, machte sie
+        aber erst 2013 öffentlich – ein Muster der Geheimhaltung, das sich durch weite Teile
+        seiner Karriere zog.</p>
+        <p class="vb-intro"><strong>b) Ein schwerer Sturz 2011 als Wendepunkt:</strong>
+        Ein Sturz während der Sommerpause 2011 führte zu einer schweren Rückenmarksverletzung,
+        die eine Notoperation erforderlich machte und Levine für fast zwei Jahre komplett von
+        der Bühne fernhielt.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Abhängigkeit von technischen Hilfsmitteln:</strong>
+        Die Metropolitan Opera baute eigens einen motorisierten Rollstuhl-Lift, um Levine auf
+        das Podium zu bringen – ein sichtbares Zeichen dafür, wie sehr sich sein Körper von
+        seinem Willen, weiter zu dirigieren, entkoppelt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Dirigieren im Sitzen, mit minimaler Handbewegung:</strong>
+        In seinen letzten aktiven Jahren dirigierte Levine sitzend, mit stark eingeschränkter
+        Armbeweglichkeit – er kommunizierte mit dem Orchester zunehmend über Blickkontakt und
+        Mimik statt über die klassische Dirigierbewegung.</p>
+        <p class="vb-intro"><strong>b) Kein Rückzug, sondern Anpassung:</strong>
+        Statt sich aus der aktiven Leitung zurückzuziehen, passte Levine seine Arbeitsweise
+        immer wieder neu an die fortschreitende Erkrankung an – ein Muster, das über Jahrzehnte
+        anhielt, bis die körperlichen Grenzen keine weitere Anpassung mehr zuließen.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Zurückhaltung trotz sichtbarer Symptome:</strong>
+        Auch nachdem der Tremor und die eingeschränkte Mobilität für das Publikum unübersehbar
+        geworden waren, sprach Levine selbst kaum öffentlich über seine Erkrankung – ein
+        Schweigen, das zur selbsterhaltenden Neun passt, die Schwäche lieber in sich trägt, als
+        sie auszusprechen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Rückkehr nach zwei Jahren Pause:</strong>
+        2013 kehrte Levine, nun dauerhaft im Rollstuhl, an die Metropolitan Opera zurück – ein
+        Comeback, das in der Klassikwelt als bemerkenswerter Ausdruck von Beharrlichkeit
+        gewürdigt wurde.</p>
+        <p class="vb-intro"><strong>b) Das Ende der aktiven Karriere 2017/2018:</strong>
+        Levines Vertrag mit der Met endete 2018 – offiziell im Zusammenhang mit den
+        Missbrauchsermittlungen, doch bereits zuvor hatte seine fortschreitende Erkrankung seine
+        Möglichkeiten, das Orchester zu leiten, spürbar eingeschränkt.</p>
+        <p class="vb-intro"><strong>c) Tod 2021 an den Folgen der Parkinson-Erkrankung:</strong>
+        James Levine starb am 9. März 2021 in Palm Springs, Kalifornien, offiziell an den
+        Komplikationen seiner langjährigen Parkinson-Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Einserflügel, der keine Kompromisse mit der Krankheit einging:</strong>
+        Levines innerer Anspruch an musikalische Präzision blieb auch dann bestehen, als sein
+        Körper diese Präzision zunehmend erschwerte – der Wille zur Richtigkeit ließ sich von
+        der Erkrankung nicht aufweichen.</p>
+        <p class="vb-intro"><strong>b) Appetit, der sich an die veränderten Bedingungen anpasste:</strong>
+        Die selbsterhaltende Neun sucht Vollständigkeit im Vertrauten – Levine fand diese
+        Vollständigkeit weiterhin in der Musik, auch als der Zugang zu ihr immer eingeschränkter
+        wurde, und bewahrte sich dadurch eine Form von innerer Stabilität.</p>
+        <p class="vb-intro"><strong>c) Ein Territorium, das er bis zuletzt verteidigte:</strong>
+        Wie beim Elefanten, der sein Revier nicht kampflos aufgibt, blieb die Met für Levine bis
+        zum erzwungenen Ende sein Zuhause – der Rückzug kam nicht aus eigenem Entschluss, sondern
+        wurde ihm von außen und von seinem eigenen Körper zugleich auferlegt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Vierteljahrhundert stiller Anpassung:</strong>
+        Von den ersten Tremorsymptomen in den 1990er-Jahren bis zu seinem Tod 2021 zieht sich
+        die fortschreitende Parkinson-Erkrankung wie ein roter Faden durch Levines gesamte
+        späte Karriere – begleitet von schweren, wiederholten Rückenverletzungen.</p>
+        <p class="vb-intro"><strong>b) Geheimhaltung als durchgängiges Muster:</strong>
+        Ähnlich wie bei anderen Krankheitsporträts dieses Kompasses hielt Levine seine
+        Diagnose über Jahre privat – ein Verhalten, das sich bei der selbsterhaltenden Neun
+        besonders deutlich zeigt: Stabilität nach außen zu wahren, auch wenn im Inneren längst
+        etwas ins Wanken geraten war.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Kontrolle über den eigenen Körper?</strong>
+        Für eine selbsterhaltende Neun mit Einserflügel, deren tiefstes Bedürfnis die
+        vollständige, ungestörte Verschmelzung mit ihrem Territorium ist, liegt eine Deutung
+        nahe: Ausgerechnet eine Krankheit, die schrittweise die Kontrolle über die eigenen
+        Bewegungen raubt, traf einen Mann, dessen gesamte Identität an der präzisen,
+        körperlichen Beherrschung eines Orchesters hing. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
+        Parkinson führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Levines Fall zeigen lässt, ist ein Muster, das bei stiller,
+        anpassungsbereiter Beharrlichkeit trotz fortschreitendem Kontrollverlust in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Levine kannte sein eigenes Muster nicht – die selbsterhaltende Neun mit Einerflügel vermeidet lieber jede Aufmerksamkeit auf die eigene Schwäche, und genau das ließ ihn erste Tremorsymptome jahrelang privat verbergen, statt frühzeitig kürzerzutreten. Wer das eigene Vermeidungsmuster nicht kennt, verschiebt die notwendige Entscheidung, bis sie ihm von außen abgenommen wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Levines</strong> jahrzehntelanger Parkinson-Erkrankung lässt sich die
+        selbsterhaltende Neun mit Einserflügel in ihrer beharrlichsten Form ablesen: eine
+        stille, über Jahre verborgene Anpassung an fortschreitenden Kontrollverlust, ein
+        unnachgiebiger innerer Anspruch, der sich von der Krankheit nicht erweichen ließ, und
+        ein Territorium, das erst aufgegeben wurde, als kein Verbleiben mehr möglich war. Der
+        Elefant, der sein Haus bewohnte, bis der eigene Körper und die äußeren Umstände ihm
+        keine andere Wahl mehr ließen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}
+
 function davidHumeKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12474,168 +12643,6 @@ function judasThaddaeusPage() {
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
         {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
         {route:"bibel-nikodemus", label:"Bibel-Porträt: Nikodemus (SE5w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function nikodemusPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-nikodemus-portrait.jpg" alt="Nikodemus – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Nikodemus</p>
-        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Die Suche nach Erkenntnis im Schutz der Nacht – Tierentsprechung: Eule</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Er kam bei Nacht.« (Joh 3,2)</p>
-
-        <h2 class="vb-section">1. Die Eule</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der selbsterhaltenden Fünf – sie beobachtet aus der Deckung, sammelt Wissen im Verborgenen und wagt sich erst dann ins Offene, wenn sie ganz sicher ist. Nikodemus wusste viel. Er war Schriftgelehrter, ein Pharisäer, ein Mitglied des Hohen Rates – ein Mann, der Sicherheit fand in Struktur, Überlieferung, Ordnung. Ein Denker, ein Bewahrer, ein Abwäger.</p>
-          <p class="vb-intro">Die SE5 vertraut dem, was sie verstehen kann. Sie fühlt sich sicher, wenn sie nicht überflutet wird, sondern Zugang behält, geistig wie emotional. Und Jesus war für Nikodemus ein Rätsel, ein Unruhepol im System – aber kein Feind, vielmehr eine Art offenes Fenster in einem streng gebauten Haus. Doch Nikodemus wagte es nicht, ihn offen zu besuchen. Zu viele Augen, zu viele Fragen, zu wenig Kontrolle. Er kam bei Nacht – nicht aus Feigheit, aus Selbstschutz.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Sicherheit in geistiger Klarheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Er trat ein, schritt leise, begrüßte Jesus nicht als Gegner, sondern sagte: »Meister, wir wissen: Du bist ein Lehrer, von Gott gekommen.« Ein Satz, vorsichtig formuliert, und doch ein erstes Öffnen. Nicht das System sprach hier, sondern der Mensch hinter dem System. Jesus antwortete nicht mit Bestätigung, sondern entgegnete: »Wenn jemand nicht von Neuem geboren wird, kann er das Reich Gottes nicht sehen.« Und damit traf er die SE5 genau an ihrem Nerv: an der Grenze zwischen Wissen und Nicht-Wissen, zwischen Kontrolle und Hingabe.</p>
-          <p class="vb-intro">Nikodemus fragte weiter, nicht ironisch, sondern wirklich fragend: »Wie kann ein Mensch geboren werden, wenn er alt ist?« Diese Frage war mehr als biologisch, sie war existentiell. Die selbsterhaltende Fünf sucht nach Sicherheit, nicht im Materiellen, sondern in der geistigen Klarheit. Und was Jesus sagte, entsprach keiner seiner bisherigen Kategorien.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserflügel: Sicherheit im System, bevor sie es infrage stellt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Fünf eine loyale, systemverankerte Qualität – Sicherheit entsteht zuerst durch Zugehörigkeit zu einer verlässlichen Ordnung, und erst nach sorgfältigem, oft jahrelangem Abwägen wird diese Ordnung vorsichtig infrage gestellt. »Wenn jemand nicht aus Wasser und Geist geboren wird, kann er nicht in das Reich Gottes kommen.« Wasser kannte Nikodemus, Gesetz kannte er, Reinheitsvorschriften, Opferordnungen, die Thora. Aber Geist? Geist war nicht greifbar, nicht speicherbar, nicht steuerbar.</p>
-          <p class="vb-intro">Nikodemus spürte, dass Jesus ihm ein Angebot machte, kein System, sondern eine Wirklichkeit, die sich nur durch Hingabe erschloss. Aber das war gefährlich, denn für eine SE5 bedeutete das: Ich verliere Kontrolle, ich betrete Räume, in denen mein Denken nicht reicht. Er rang, im Stillen, wie in einer inneren Wüste. Er sagte schließlich: »Wie kann das geschehen?« Kein Rückzug, keine Abwehr, sondern ein Geständnis, ein erstes, tastendes Öffnen. Genau dieses vorsichtige, an bestehenden Kategorien geprüfte Ringen, bevor Vertrauen wachsen darf, trägt die Handschrift des Sechserflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Der Rückzug ins Verborgene: Das stille Wachsen einer Entscheidung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach jener Nacht verschwand Nikodemus aus dem Blickfeld der Öffentlichkeit. Keine weiteren Gespräche mit Jesus sind überliefert. Aber das war nur die Oberfläche, denn so handelt eine SE5: Sie zieht sich zurück, nicht aus Feigheit, sondern um in der Tiefe zu verarbeiten, was die Oberfläche nicht fassen kann. Nikodemus lebte weiter im Tempelkreis, beobachtete, lauschte, machte Notizen im Inneren seines Denkens. Was er hatte, war ein Nachklang, ein Satz, der nicht mehr aus seinem Innern wich: »Wenn jemand nicht von Neuem geboren wird…« Dieser Satz arbeitete in ihm, nicht wie ein Hammerschlag, sondern wie tropfendes Wasser, das langsam Gestein formt.</p>
-          <p class="vb-intro">Als Jesus später im Hohen Rat zur Sprache kam, wagte er, vorsichtig, aber deutlich, zu widersprechen: »Richtet denn unser Gesetz einen Menschen, bevor man ihn verhört und erkannt hat, was er tut?« Ein kleiner Satz, aber in jenem Kreis ein Wagnis. Denn wo andere schrien, fragte Nikodemus. Und wer fragt, der stellt infrage. In ihm wuchs eine Entscheidung, still, aber unumkehrbar: Vielleicht bin ich nicht geboren, um alles zu wissen. Vielleicht bin ich geboren, um das Wahre zu empfangen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Am Kreuz: Das leise Erkennen, dass Leben stärker ist als Denken</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nikodemus hatte nie gesagt: »Ich folge ihm.« Er hatte nie die Netze zurückgelassen, nie öffentlich gepredigt. Aber als Jesus starb, war er da – nicht aus Impuls, nicht aus Strategie, sondern aus einer gewachsenen Gewissheit, die sich in der Stille gereift hatte. Mit Josef von Arimathäa, einem Mann ähnlich zurückhaltend, bat er um den Leichnam. Und das war nicht harmlos, denn in diesem Moment machte sich Nikodemus sichtbar: Jetzt bin ich nicht mehr nur Fragender. Jetzt handle ich, auch ohne vollständige Antwort.</p>
-          <p class="vb-intro">Er brachte Myrrhe und Aloe, etwa hundert Pfund, viel zu viel, kostbar, zärtlich, üppig – eine Tat, wie sie eine SE5 nur selten tut, aber wenn, dann mit ganzem Herzen: sich verausgaben für das, was wahr geworden ist. Er salbte den toten Körper, wusch ihn, wickelte ihn in Leinentücher, nicht als Ritual, sondern als Zeichen: Ich habe erkannt, was ich nicht mehr erklären muss. Ich ehre das, was mich verwandelt hat. Und während andere Jünger flohen, sich versteckten, war Nikodemus anwesend, nicht als Prophet, sondern als Zeuge der Tiefe.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Unsichtbar werden, aber nicht unbedeutend</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nikodemus verschwand aus den Berichten. Keine weiteren Erwähnungen, kein Nachspiel, kein Martyrium, kein Grab, kein Evangelium mit seinem Namen. Nur Stille. Aber in dieser Stille lag kein Verschwinden, sondern eine Form von Vollendung, die typisch ist für die SE5: unsichtbar werden, aber nicht unbedeutend. Er musste niemanden mehr überzeugen, er musste sich nicht mehr erklären. Er hatte erkannt, was er einst nicht greifen konnte: dass Wahrheit nicht in Begriffe passt, dass Liebe keine Theorie braucht, und dass Leben mehr ist als das, was sich kontrollieren lässt.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE5w6: eine Klarheit, die nicht mehr auf äußere Bestätigung durch das System angewiesen ist, sondern aus innerer Gewissheit trägt – eine Eule, die endlich weiß, dass ihr Wissen nicht ausreicht, um alles zu erklären, und die genau darin frei wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Bei Nacht zu ihm</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Nikodemus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/T65cXVpkx9Y?rel=0" title="Bei Nacht zu ihm – Nikodemus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
-        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
-        {route:"bibel-judas-thaddaeus", label:"Bibel-Porträt: Judas Thaddäus (SX4w5)"},
-        {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function gamalielPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-gamaliel-portrait.jpg" alt="Gamaliel – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Gamaliel</p>
-        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Der Hüter des Gleichgewichts – Tierentsprechung: Oktopus</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Lasst ab von diesen Menschen und lasst sie gehen! Denn ist dieses Vorhaben aus Menschen, so wird's untergehen; ist's aber aus Gott, so könnt ihr's nicht aufhalten.« (Apg 5,38–39)</p>
-
-        <h2 class="vb-section">1. Der Oktopus</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – er überblickt sein Umfeld mit ruhiger, vielarmiger Aufmerksamkeit, verarbeitet unzählige Eindrücke gleichzeitig und greift erst ein, wenn er das Muster wirklich verstanden hat. Gamaliel saß nicht vorne. Er saß etwas erhöht, aber nicht, um sich zu erheben, sondern um zu überblicken. Der Saal des Hohen Rates war voll, Stimmen erhoben sich, Empörung, Argumente, Theologie, Angst.</p>
-          <p class="vb-intro">Gamaliel hörte zu, mehr als er sprach, wie immer. Die soziale Fünf liebt Strukturen, aber nur, wenn sie nicht blind angewendet, sondern durchdacht, geprüft und angepasst werden. Er sah nicht nur die Worte, er sah Muster, Entwicklungen, Möglichkeiten – und Gefahren, vor allem die der Überreaktion.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Fünf: Wissen, das dem größeren Ganzen dient</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Er hob die Hand, nicht dramatisch, nicht fordernd, aber mit jener ruhigen Autorität, die entsteht, wenn jemand innerlich klar ist: »Männer von Israel, gebt Acht auf euch…« Und dann erinnerte er an Theudas, an Judas den Galiläer, an Bewegungen, die kamen und vergingen. Seine Botschaft war keine Mystik, keine Bekehrung, sondern: Lasst die Dinge sich zeigen. Denn Gamaliel wusste: Was Bestand hat, braucht keine Hast, und was eilt, verliert oft die Wahrheit.</p>
-          <p class="vb-intro">Die soziale Fünf denkt nicht fürs Jetzt, sie denkt für die Geschichte. Sie handelt nicht reaktiv, sondern verantwortlich. Und als er geendet hatte, war der Saal stiller – nicht überzeugt, aber gedämpft, nicht einig, aber zurückgeholt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserflügel: Prinzip über Instinkt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Fünf eine verlässliche, prinzipientreue Qualität – Autorität entsteht nicht aus Charisma, sondern aus konsequenter Bindung an ein durchdachtes Regelwerk, das über persönlicher Neigung und Parteizugehörigkeit steht. Gamaliel hatte sich längst daran gewöhnt, zwischen Fronten zu stehen, nicht weil er gefallen wollte, sondern weil er wusste: Wahrheit hat oft mehr Feinde als Lüge, weil sie sich nicht instrumentalisieren lässt.</p>
-          <p class="vb-intro">In ihm war keine Eile, keine Erregung, keine Parteinahme aus Instinkt. Was ihn bewegte, war die Frage: Was bleibt, wenn alles Reaktive verstummt? Gamaliel war ein Mann der Prinzipien, nicht der Interessen. Für die SO5 steht das Prinzip über dem Gefühl, das Maß über der Angst, die Einsicht über die Loyalität. Darum konnte er sagen: »Ist es aus Gott, so könnt ihr es nicht aufhalten.« Das war keine Frömmigkeit, es war intellektuelle Demut. Genau diese unverrückbare Bindung an ein Prinzip, das größer ist als die eigene Meinung, trägt die Handschrift des Sechserflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Paulus: Loslassen, was man nicht besitzen kann</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Gamaliel hatte viele Schüler, doch einer blieb in Erinnerung: Saulus von Tarsus. Klug, scharfsinnig, ehrgeizig, ein Geist, der in Systemen dachte, aber durch Leidenschaft getrieben war. Gamaliel sah das und ließ es zu, denn eine soziale Fünf formt nicht durch Zwang, sondern durch Rahmen, durch Klarheit, durch Vertrauen in das, was wachsen will. Er versuchte nie, Paulus zu behalten, drängte ihm nichts auf, ließ ihn lernen und sich entwickeln, auch dann, als er ihn später nicht mehr verstand.</p>
-          <p class="vb-intro">Denn der Saulus, den er unterwiesen hatte, wurde zu Paulus, dem Völkerapostel. Für viele im Rat war Paulus ein Verräter. Für Gamaliel war er: ein Mensch auf seinem Weg. Die soziale Fünf kann loslassen, wenn sie erkennt, dass Wahrheit vielfältiger ist als das System, das sie ordnet. Sie sucht nicht Besitz, sondern Bedeutung. Er forderte nie Anerkennung, nie Rückkehr, nie Richtigstellung. Er schwieg. Und damit bewahrte er: Würde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die Gerechtigkeit derer, die nicht herrschen müssen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Gamaliel war nie der Lauteste, nie der Mächtigste. Und doch hörte man auf ihn, nicht aus Furcht, sondern aus Respekt, denn seine Autorität entsprang nicht dem Amt, sondern der Haltung. Er sprach nie für das, was gerade günstig war, verteidigte nicht das, was ihm nützte. Die soziale Fünf bleibt dem verpflichtet, was sie durchdacht hat, auch wenn es unpopulär ist, auch wenn sie dafür allein steht.</p>
-          <p class="vb-intro">»Lasst uns abwarten, lasst uns prüfen, lasst uns Gott Raum lassen.« Das war keine Ausflucht, es war Mut, der Mut zur Zurückhaltung in einer Zeit der Reizbarkeit. Gamaliel war ein Gerechter, weil er nicht Recht behalten wollte. Er wollte, dass das Rechte geschehe, auch wenn es ohne ihn geschah. Das war seine Reinheit, seine Freiheit, sein Dienst ohne Ego.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Wirksam auch im Schweigen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Später sprachen andere, debattierten, verurteilten. Gamaliel war still geworden, nicht weil er nichts mehr zu sagen hatte, sondern weil er verstanden hatte, dass Worte nur dann Kraft haben, wenn sie nicht zu oft, zu laut, zu früh kommen. Die soziale Fünf lebt auch dann wirksam, wenn sie nicht mehr eingreift. Ihre Klarheit formt durch Erinnerung, durch Haltung, durch ein Maß, das bleibt, auch wenn sie selbst nicht mehr spricht.</p>
-          <p class="vb-intro">Er ging vermutlich still aus dem Leben, kein Märtyrertod, kein Streit, kein letzter Satz, der überliefert wurde. Aber sein Wirken blieb, wie ein ruhiger Ton, der in einer aufgeregten Symphonie nachklingt. Das ist das Geschenk der SO5w6: eine Weisheit, die nicht nach Anerkennung verlangt, um wirksam zu sein – ein Oktopus, der weiß, dass echte Autorität nicht darin liegt, immer zu sprechen, sondern darin, das Richtige geschehen zu lassen, auch ohne sich selbst.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Wenn es von Gott ist</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Gamaliel ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/MaAgqDEujDI?rel=0" title="Wenn es von Gott ist – Gamaliel" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
-        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
-        {route:"bibel-nikodemus", label:"Bibel-Porträt: Nikodemus (SE5w6)"},
-        {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
       ])}
     </div>
   `);
