@@ -1,3 +1,348 @@
+function joachimKrollPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Joachim Kroll \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/joachim-kroll-portrait.jpg" alt="Joachim Kroll \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joachim Kroll</p>
+        <p class="krim-portrait-typ">SE5w6 \u00b7 Selbsterhaltender Typ 5 mit Sechserfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienm\u00f6rder und Kannibale \u00b7 Tierentsprechung: Eule</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Joachim Georg Kroll</strong>, geboren am 17. April 1933 in Hindenburg
+        (heute Zabrze, Polen), starb am 1. Juli 1991 in der Justizvollzugsanstalt Rheinbach.
+        Zwischen 1955 und 1976 ermordete er mindestens acht Menschen im Ruhrgebiet \u2013
+        Frauen und Kinder, die er in Parks, W\u00e4ldern und auf Feldern aufgriff.
+        Kroll lebte allein in einer kleinen Wohnung in Duisburg-Laar,
+        arbeitete als Kanalreiniger und fiel seinen Nachbarn als
+        stiller, unauff\u00e4lliger, fast kindlicher Mann auf.
+        Verhaftet wurde er 1976, als Nachbarn sich \u00fcber
+        einen verstopften Abfluss beschwerten \u2013
+        der Installateur fand dort Ged\u00e4rme.
+        In Krolls Wohnung entdeckte die Polizei Leichenteile im K\u00fchlschrank
+        und ein Kleinkind-H\u00e4ndchen im Kochtopf.
+        Er gestand umgehend und wirkte dabei v\u00f6llig emotionslos.
+        1982 wurde er zu lebenslanger Haft verurteilt.
+        Die Presse nannte ihn den \u201eRuhrkannibalen" und den \u201eDuisburger Menschenfresser".
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Joachim Kroll</strong> wird der <strong>Selbsterhaltenden F\u00fcnf mit Sechserfl\u00fcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der F\u00fcnf ist <em>Geiz</em> \u2013
+        nicht im monet\u00e4ren Sinne, sondern als radikales Horten von Energie, Ressourcen
+        und innerem Erleben. Die selbsterhaltende F\u00fcnf (SE5) ist der
+        am st\u00e4rksten auf \u00dcberleben ausgerichtete Subtyp der F\u00fcnf:
+        Sie beschr\u00e4nkt Bed\u00fcrfnisse auf ein absolutes Minimum,
+        zieht sich aus sozialen Kontakten nahezu vollst\u00e4ndig zur\u00fcck
+        und entwickelt eine eigenwillige innere Welt, die f\u00fcr andere
+        kaum zug\u00e4nglich ist. Der Sechserfl\u00fcgel f\u00fcgt Misstrauen,
+        Angst und eine tiefe Orientierung an eigenen Sicherheitsregeln hinzu \u2013
+        bei Kroll wurde diese Angst zur absoluten Isolation.
+        Sein Fall ist der dunkelste Ausdruck dessen, was entsteht,
+        wenn die SE5 jeden Kontakt mit menschlicher W\u00e4rme verloren hat:
+        andere Menschen werden zu reinen Ressourcen \u2013 buchst\u00e4blich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
+        <p class="vb-intro"><strong>a) Leer und abwesend:</strong>
+        Zeugen und Ermittler beschrieben Krolls Blick als leer,
+        flach und ohne emotionale Resonanz. Kein Erschrecken,
+        keine Scham, keine Erregung \u2013 nur eine gleichg\u00fcltige Leere,
+        die alle, die mit ihm sprachen, tief verunsicherte.
+        Die F\u00fcnf wohnt hinter ihren Augen \u2013 sie beobachtet,
+        aber nimmt kaum Kontakt auf. Bei Kroll war diese Distanz absolut:
+        Der Blick eines Menschen, der andere nicht wirklich als Menschen wahrnimmt.</p>
+        <p class="vb-intro"><strong>b) Kindlich und arglos:</strong>
+        Trotz seiner Taten wirkte Kroll auf viele wie ein gro\u00dfes Kind \u2013
+        naiv, hilflos, ohne Hintergedanken. Dieser Eindruck entstand
+        nicht durch Berechnung, sondern war echt:
+        Kroll hatte eine stark eingeschr\u00e4nkte emotionale Entwicklung,
+        einen Intelligenzquotienten von etwa 76 und keinen Zugang
+        zu dem, was andere als moralisches Empfinden erleben.
+        Die SE5 in ihrer tiefsten Regression erscheint manchmal
+        nicht gef\u00e4hrlich, sondern schlicht nicht ganz pr\u00e4sent \u2013
+        als fehle eine grundlegende menschliche Schicht.</p>
+        <p class="vb-intro"><strong>c) Kein Warnsignal, keine Maske:</strong>
+        Kroll brauchte keine Charme-Fassade und keine soziale T\u00e4uschung.
+        Er erschien schlicht und harmlos, weil er tats\u00e4chlich keine
+        soziale Kompetenz besa\u00df \u2013 keine Selbstdarstellung, kein Kalk\u00fcl,
+        keine Mimikry. Das machte ihn f\u00fcr Umgebung und Beh\u00f6rden
+        so schwer einsch\u00e4tzbar: Wer keine Maske tr\u00e4gt,
+        dessen Gesicht l\u00e4sst sich nicht lesen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Radikale Isolation als Lebensprinzip:</strong>
+        <strong>Kroll</strong> hatte keine Freunde, keine Beziehungen, keine sozialen Bindungen.
+        Er lebte seit Jahrzehnten allein in einer kleinen Mietwohnung,
+        sprach kaum mit Nachbarn und verbrachte seine Zeit
+        mit einer einfachen Routine: Arbeit, Wohnung, Fantasien.
+        Die SE5 reduziert soziale Bed\u00fcrfnisse auf ein Minimum \u2013
+        bei Kroll war dieses Minimum gleich null.
+        Die Au\u00dfenwelt existierte f\u00fcr ihn nur als Ressourcenfeld,
+        nicht als Beziehungsraum.</p>
+        <p class="vb-intro"><strong>b) Extremer Minimalismus:</strong>
+        <strong>Krolls</strong> Wohnung war sp\u00e4rlich eingerichtet, seine Lebensf\u00fchrung
+        auf das Notwendigste beschr\u00e4nkt. Er a\u00df einfach, besa\u00df wenig,
+        brauchte wenig. Dieser Minimalismus ist das Kernmerkmal
+        der SE5: Sie empfindet sich als Menschen mit minimalen Anspr\u00fcchen
+        und maximaler innerer Selbstgen\u00fcgsamkeit.
+        Was bei gesunden SE5-Typen zu einem asketischen, fokussierten
+        Lebensstil f\u00fchrt, wurde bei Kroll zur totalen Verarmung
+        aller menschlichen Dimensionen \u2013 emotional, sozial, moralisch.</p>
+        <p class="vb-intro"><strong>c) Doppelleben ohne Bewusstsein des Widerspruchs:</strong>
+        <strong>Kroll</strong> f\u00fchrte kein bewusstes Doppelleben wie andere T\u00e4ter \u2013
+        er trennte nicht aktiv zwischen einer Fassade und einer verborgenen Seite.
+        Er erschien seinen Nachbarn als schlicht und unverd\u00e4chtig,
+        weil er genau das war: ein Mann ohne soziale Tiefe.
+        Die Morde waren f\u00fcr ihn offenbar kein Widerspruch
+        zu seinem Alltag \u2013 sie wurden nicht integriert
+        und nicht versteckt, sondern einfach nicht als
+        relevant f\u00fcr seine Alltagsidentit\u00e4t erlebt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fantasiewelt als Ersatz f\u00fcr Beziehung:</strong>
+        <strong>Kroll</strong> entwickelte \u00fcber Jahrzehnte eine ausgepr\u00e4gte innere Fantasiewelt,
+        die sexuelle Vorstellungen mit Gewalt und Nahrungsaufnahme verband.
+        Die F\u00fcnf lebt intensiv im Inneren \u2013 ihre eigentliche Welt
+        ist die Vorstellung, nicht die Wirklichkeit.
+        Krolls Innenwelt ersetzte vollst\u00e4ndig, was anderen
+        durch echte menschliche Begegnung gegeben wird:
+        W\u00e4rme, N\u00e4he, Verbindung. Das Ergebnis war eine
+        Fantasiewelt, die sich zunehmend von jeder
+        menschlichen Empathie entkoppelt hatte.</p>
+        <p class="vb-intro"><strong>b) Kannibalismus als Selbsterhaltungslogik:</strong>
+        <strong>Kroll</strong> a\u00df Teile seiner Opfer \u2013 das ist historisch belegt
+        und von ihm selbst unaufgeregt best\u00e4tigt worden.
+        Aus Sicht der Enneagramm-Psychologie ist dies der dunkelste
+        denkbare Ausdruck der SE5-Leidenschaft:
+        Der Selbsterhaltungsinstinkt der F\u00fcnf dreht sich im Kern
+        um Ressourcen \u2013 Energie beschaffen, sichern, einverleiben.
+        Was bei der gesunden SE5 als Sparsamkeit, Vorratshaltung
+        und innerer R\u00fcckzug erscheint, hat bei Kroll eine buchst\u00e4bliche,
+        k\u00f6rperliche Gestalt angenommen:
+        Der andere Mensch wird zur Nahrungsressource \u2013
+        einverleibt im direktesten Sinne.<br><br>
+        Besonders aufschlussreich ist dabei, <em>wie</em> er dar\u00fcber sprach:
+        ohne Scham, ohne Ekel, ohne das Bewusstsein eines Tabubruchs.
+        Ermittler berichteten, er habe erkl\u00e4rt, er habe Fleisch
+        im K\u00fchlschrank aufbewahrt, weil das billiger sei als Einkaufen \u2013
+        eine reine Versorgungslogik, kein Sadismus, kein rituelles Motiv.
+        Genau das macht den Fall so psychologisch aufschlussreich:
+        Kroll erlebte den Kannibalismus nicht als Exzess,
+        sondern als naheliegende Konsequenz seiner inneren Welt,
+        in der andere Menschen schlicht keine eigenst\u00e4ndige Realit\u00e4t besa\u00dfen.
+        Die SE5 in ihrer tiefsten Regression kennt keine Grenze
+        zwischen Ressource und Person \u2013 bei Kroll war diese Grenze
+        nie vorhanden gewesen.</p>
+        <p class="vb-intro"><strong>c) Kooperation ohne Schuldgef\u00fchl:</strong>
+        Nach seiner Verhaftung gestand <strong>Kroll</strong> bereitwillig
+        alle Taten \u2013 ohne erkennbare Scham oder Reue,
+        aber auch ohne Kalk\u00fcl. Er wirkte, als erkl\u00e4re er
+        Alltagsvorg\u00e4nge. Kriminalisten berichteten,
+        er habe nicht begriffen, warum man
+        so aufgeregt sei. Diese radikale Gef\u00fchllosigkeit
+        ist keine psychopathische K\u00e4lte im klinischen Sinne \u2013
+        sie ist die vollst\u00e4ndige Abwesenheit von dem,
+        was Kontakt und Empathie erst erm\u00f6glicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Unsichtbarkeit als Schutz:</strong>
+        <strong>Kroll</strong> war \u00fcber zwanzig Jahre aktiv, ohne ernsthaft in Verdacht zu geraten.
+        Nicht weil er clever tarnte, sondern weil er zu unscheinbar war,
+        um als T\u00e4ter in Betracht gezogen zu werden.
+        Ein stiller Kanalarbeiter ohne Auff\u00e4lligkeiten,
+        ohne bekannte Vorstrafen, ohne sichtbare Aggression.
+        Die SE5 ist von Natur aus unsichtbar \u2013
+        sie beansprucht keinen Raum, f\u00e4llt nicht auf,
+        zieht sich zur\u00fcck. Diese Eigenschaft sch\u00fctzte Kroll
+        l\u00e4nger als jede aktive Tarnung es h\u00e4tte k\u00f6nnen.</p>
+        <p class="vb-intro"><strong>b) Schlicht und nicht bedrohlich wirkend:</strong>
+        Nachbarn beschrieben <strong>Kroll</strong> als freundlich, fast kindlich.
+        Er redete gerne \u00fcber Kleinigkeiten, wirkte harmlos.
+        Diese Wirkung entstand nicht durch Manipulation,
+        sondern war ein echtes Merkmal seiner Pers\u00f6nlichkeit:
+        Er hatte tats\u00e4chlich keine komplexe soziale Agenda.
+        Was fehlte, war nicht die Fassade \u2013 was fehlte,
+        war die gesamte Tiefe einer entwickelten Pers\u00f6nlichkeit.</p>
+        <p class="vb-intro"><strong>c) Kein erkennbares Motiv im klassischen Sinne:</strong>
+        <strong>Krolls</strong> Taten hatten kein nachvollziehbares \u00e4u\u00dferes Motiv \u2013
+        keine Rache, kein Machtanspruch, kein ideologisches Programm.
+        Sie entsprangen einer Innenwelt, die sich vollst\u00e4ndig
+        von moralischen und sozialen Koordinaten gel\u00f6st hatte.
+        Das macht ihn in der forensischen Psychologie
+        zu einem besonders verst\u00f6renden Fall:
+        nicht weil er b\u00f6se war im aktiven Sinne,
+        sondern weil er schlicht kein Mitgef\u00fchl kannte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Leere statt Bedrohung:</strong>
+        Die energetische Wirkung, die <strong>Kroll</strong> auf Gespr\u00e4chspartner hatte,
+        war nicht Schrecken oder Dominanz, sondern Leere \u2013
+        ein tiefes Gef\u00fchl der Abwesenheit.
+        Wer mit ihm sprach, traf niemanden an.
+        Die SE5 h\u00e4lt Energie zur\u00fcck \u2013 sie gibt kaum etwas
+        nach au\u00dfen. Bei Kroll war auch der Empfang abgeschaltet:
+        Keine Resonanz, keine Reaktion, keine Spur von
+        Verstehen oder Interesse an dem, was der andere erlebt.</p>
+        <p class="vb-intro"><strong>b) Gleichmut als Grundton:</strong>
+        <strong>Kroll</strong> wirkte in allen Situationen gleichm\u00fctig \u2013
+        bei der Verhaftung, im Verh\u00f6r, beim Gest\u00e4ndnis.
+        Kein Ausbruch, keine Panik, keine Emp\u00f6rung.
+        Diese gleichm\u00fctige Ruhe ist das Gegenteil von Kontrolle \u2013
+        es ist das Fehlen von Impulsen, die \u00fcberhaupt kontrolliert
+        werden m\u00fcssten. Die SE5 lebt in ged\u00e4mpfter Intensit\u00e4t;
+        bei Kroll war die D\u00e4mpfung vollst\u00e4ndig.</p>
+        <p class="vb-intro"><strong>c) Sechserfl\u00fcgel: Angst ohne Ausweg:</strong>
+        Der Sechserfl\u00fcgel der SE5 f\u00fcgt der Isolation eine Grundangst hinzu \u2013
+        das Gef\u00fchl, nicht sicher zu sein, immer auf der Hut sein zu m\u00fcssen.
+        Bei <strong>Kroll</strong> \u00e4u\u00dferte sich diese Angst nicht als Paranoia,
+        sondern als totaler R\u00fcckzug: Wenn niemand an mich herankommt,
+        kann niemand mir etwas antun. Seine Wohnung war sein Bunker,
+        seine Einsamkeit sein Sicherheitssystem.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Die Eule</h3>
+        <p class="vb-intro"><strong>a) Die Eule beobachtet, greift aber nicht ein:</strong>
+        Die Eule ist das Tier der SE5 im Tierlexikon:
+        sie sieht alles, bleibt aber unsichtbar \u2013
+        still auf ihrem Ast, wachsam, ohne sich zu zeigen.
+        Bei <strong>Kroll</strong> war diese Qualit\u00e4t absolut:
+        Er beobachtete seine Umgebung, ohne jemals
+        wirklich in sie einzutreten.
+        Kein Auftritt, keine Geste, kein Anspruch \u2013
+        nur ein stilles Registrieren aus dem Schatten heraus.</p>
+        <p class="vb-intro"><strong>b) Nachtaktiv und im Verborgenen:</strong>
+        Die Eule lebt in der Stille der Nacht \u2013
+        ihr eigentliches Dasein ist f\u00fcr andere kaum wahrnehmbar.
+        <strong>Krolls</strong> Taten fanden in abgelegenen Orten statt:
+        Parkanlagen, Felder, W\u00e4lder am Stadtrand.
+        Er suchte keine B\u00fchne, keine \u00d6ffentlichkeit.
+        Was er tat, tat er im Verborgenen \u2013
+        nicht aus Kalk\u00fcl, sondern weil er ohnehin
+        in einer inneren Welt lebte, die kein Licht nach au\u00dfen warf.</p>
+        <p class="vb-intro"><strong>c) Stille als Wesensmerkmal:</strong>
+        Die Eule ist kein lautes Tier \u2013 ihr Flug ist lautlos,
+        ihre Pr\u00e4senz kaum sp\u00fcrbar, bis sie zuschl\u00e4gt.
+        <strong>Krolls</strong> Lebensf\u00fchrung war von derselben Qualit\u00e4t:
+        keine Regungen, kein Drama, kein Aufsehen.
+        Was f\u00fcr die Eule ein Jagdprinzip ist,
+        wurde bei Kroll zum einzigen Lebensmodus:
+        vollst\u00e4ndige Unsichtbarkeit als Grundzustand \u2013
+        nach au\u00dfen hin, und am Ende auch nach innen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Joachim Kroll</strong> ist in der Kriminalpsychologie ein Grenzfall,
+        der die selbsterhaltende F\u00fcnf in ihrer radikalsten Verfallsform zeigt.
+        Anders als T\u00e4ter, die eine Fassade aufrechterhalten oder ein Motiv verfolgen,
+        war Kroll ein Mensch, dem grundlegende menschliche Schichten schlicht fehlten:
+        Empathie, Bindungsf\u00e4higkeit, moralische Bewertung des eigenen Handelns.
+        Der Sechserfl\u00fcgel verst\u00e4rkte die Isolation durch Misstrauen und Angst \u2013
+        sein einziger Schutz war totaler R\u00fcckzug.
+        Was die SE5 im gesunden Pol zu Gen\u00fcgsamkeit, Fokus und tiefer
+        innerer St\u00e4rke bef\u00e4higt, wurde bei Kroll zur vollst\u00e4ndigen
+        Aufl\u00f6sung der Grenze zwischen Selbst und Welt.
+        Er ist kein Beispiel f\u00fcr die SE5 als Typ \u2013
+        er ist ihr dunkelster Abgrund.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SE5 \u2013 \u201eGeiz / Avarice":</strong>
+        Claudio Naranjo beschrieb die selbsterhaltende F\u00fcnf als den Subtyp,
+        der am st\u00e4rksten auf die Sicherung des eigenen \u00dcberlebens
+        durch Reduktion ausgerichtet ist \u2013 weniger wollen hei\u00dft,
+        weniger von anderen abh\u00e4ngig zu sein.
+        Bei <strong>Kroll</strong> nahm diese Logik eine pathologische Wendung:
+        Er wollte so wenig, dass er am Ende nicht einmal mehr
+        die Menschlichkeit des anderen wahrnahm.</p>
+        <p class="vb-intro"><strong>b) Fehlende Mentalisierungsf\u00e4higkeit:</strong>
+        Forensische Gutachter bescheinigten <strong>Kroll</strong>
+        eine erheblich eingeschr\u00e4nkte F\u00e4higkeit zur Mentalisierung \u2013
+        also dazu, sich vorzustellen, dass andere Menschen
+        eine innere Welt, Gef\u00fchle und Perspektiven haben.
+        Dies ist kein spezifisches Enneagramm-Merkmal,
+        aber es erkl\u00e4rt, warum der SE5-Mechanismus des R\u00fcckzugs
+        bei ihm eine so extreme Form annahm:
+        Wer keine innere Welt im anderen erkennt,
+        der hat keine Grenze mehr,
+        die ihn davor sch\u00fctzt, den anderen zu instrumentalisieren.</p>
+        <p class="vb-intro"><strong>c) Der Sechserfl\u00fcgel als Angstsystem:</strong>
+        Die Sechs bringt der SE5 eine chronische Grundangst,
+        die sich als hypervigilantes Sicherheitsdenken \u00e4u\u00dfert.
+        Bei <strong>Kroll</strong> zeigte sich dies als totale soziale Abschottung:
+        Keine Beziehung, kein Vertrauen, keine \u00d6ffnung.
+        Das Paradox: Ausgerechnet diese absolute Isolation
+        schuf den Raum, in dem die Taten m\u00f6glich wurden.
+        Der Sechserfl\u00fcgel sch\u00fctzte ihn nicht \u2013 er schloss ihn ein.</p>
+        <p class="vb-intro"><strong>d) Gest\u00e4ndnis als sachliche Berichterstattung:</strong>
+        <strong>Krolls</strong> Gest\u00e4ndnisse waren aus Ermittlersicht
+        bemerkenswert pr\u00e4zise und kooperativ \u2013 er erinnerte sich
+        an Daten, Orte und Details ohne erkennbare emotionale Reaktion.
+        Diese sachliche Distanz ist das F\u00fcnfer-Prinzip in seiner
+        extremsten Form: Informationen werden geliefert,
+        ohne dass eine Verbindung zur erlebten Situation besteht.
+        F\u00fcr <strong>Kroll</strong> schien das Erz\u00e4hlen kein Bekenntnis zu sein \u2013
+        nur eine Antwort auf gestellte Fragen.</p>
+        <p class="vb-intro"><strong>e) Der Wachstumsweg der F\u00fcnf \u2013 die Acht:</strong>
+        Der Wachstumspunkt der F\u00fcnf ist die Acht \u2013
+        Handlungskraft, Pr\u00e4senz, das Wagnis echter Begegnung.
+        F\u00fcr <strong>Kroll</strong> blieb dieser Weg vollst\u00e4ndig versperrt.
+        Er kannte keine Handlungskraft im sozialen Sinne,
+        keine F\u00e4higkeit, mit anderen in echten Kontakt zu treten.
+        Der Gegenpunkt der F\u00fcnf, die Sieben, bringt Begeisterung
+        und Verbindung zur Au\u00dfenwelt \u2013 auch dieser Impuls fehlte vollst\u00e4ndig.
+        Kroll lebte dauerhaft in der tiefsten Schicht der F\u00fcnf:
+        R\u00fcckzug, Reduktion, Aufl\u00f6sung.</p>
+        <p class="vb-intro"><strong>f) Bedeutung f\u00fcr das Verst\u00e4ndnis der SE5:</strong>
+        <strong>Krolls</strong> Fall ist lehrreich nicht weil er typisch ist \u2013
+        sondern weil er zeigt, wohin der SE5-Mechanismus f\u00fchren kann,
+        wenn alle menschlichen Korrektive fehlen:
+        Beziehung, Empathie, Entwicklung.
+        Die gesunde SE5 ist ein Mensch von gro\u00dfer innerer St\u00e4rke,
+        Gen\u00fcgsamkeit und Tiefe. Was Kroll fehlte,
+        war nicht der Typ \u2013 sondern alles,
+        was einen Typ zu einem Menschen macht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende F\u00fcnf im Vergleich: Wie sich Geiz bei SE5, SO5 und SX5 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausf\u00fchrlich portr\u00e4tiert \u2013 Geiz, R\u00fcckzug und der Heilungsweg \u00fcber echte Gro\u00dfz\u00fcgigkeit.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Joachim Kroll wurde 1982 in acht F\u00e4llen des Mordes schuldig gesprochen und starb 1991 in Haft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
+        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+        {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
+
 function tedKaczynskiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -8821,108 +9166,6 @@ function spinnenartenDer9TypenPage() {
         {route:"froscharten-der-9-typen", label:"Froscharten der 9 Typen"},
         {route:"reptilienarten-der-9-typen", label:"Reptilienarten der 9 Typen"},
         {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function reptilienartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Reptilienarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Reptilien sind die \u00e4ltesten Landwirbeltiere der Erde \u2013 sie haben die Dinosaurier \u00fcberlebt, Eiszeiten \u00fcberdauert und jeden Kontinent besiedelt. Jede Art tr\u00e4gt ein uraltes Prinzip in sich, das sich \u00fcber Millionen von Jahren bew\u00e4hrt hat. Neun Reptilienarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/reptilienarten-der-9-typen.jpg" alt="Reptilienarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Gr\u00fcner Leguan: Haltung als Prinzip</h3>
-        <p class="vb-intro">Der Gr\u00fcne Leguan ist eines der formvollendetsten Reptilien der Welt: aufrecht, pr\u00e4zise in jeder Bewegung, mit einem K\u00f6rper, der wie f\u00fcr die Ewigkeit entworfen wirkt. Er sonnt sich mit einer Sorgfalt, die beinahe rituell anmutet \u2013 immer auf demselben Ast, immer in derselben Haltung, immer zur selben Tageszeit. Seine K\u00f6rpertemperatur reguliert er mit chirurgischer Pr\u00e4zision: zu kalt, und er ist tr\u00e4ge; zu warm, und er sucht sofort Schatten. Er kennt sein optimales Fenster \u2013 und h\u00e4lt es. Der Leguan ist ein reiner Pflanzenfresser und duldet keine Kompromisse bei seiner Nahrungswahl: faule Fr\u00fcchte, schimmeliges Blatt, vergammelte Aste werden ignoriert. Nur das Richtige kommt ins Maul. Sein Kehlsack und sein Nacken-Kamm sind keine Angriffswaffen \u2013 sie sind Kommunikation: Signale f\u00fcr andere, die zeigen, wer er ist und wo seine Grenze liegt. Das Prinzip des Enneagrammtyps 1: Der Gr\u00fcne Leguan lebt nicht gegen eine Welt voller Fehler. Er lebt einfach nach seinem Standard \u2013 und dieser Standard ist so klar und konsequent, dass ihn die Umgebung respektiert, ohne dass er je k\u00e4mpfen m\u00fcsste.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Gr\u00fcne Baumpython: Geborgenheit als Gabe</h3>
-        <p class="vb-intro">Die Gr\u00fcne Baumpython gilt unter Reptilienliebhabern als eine der f\u00fcrsorglich-sten Schlangen: Weibchen bewachen ihre Eier mit einer Hingabe, die f\u00fcr Schlangen ungew\u00f6hnlich ist \u2013 monatelang verlassen sie das Gelege nicht, w\u00e4rmen es mit Muskelzuckungen und sch\u00fctzen es gegen jeden Eindringling. Junge Baumpythons sind leuchtend gelb oder rot \u2013 erst mit der Zeit wandelt sich ihr Gefieder zum charakteristischen Smaragdgr\u00fcn. Diese Verwandlung spiegelt etwas Tiefes: Das, was n\u00e4hrt und begleitet, ver\u00e4ndert sich mit seinen Sch\u00fctzlingen. Im Baum bewegt sich die Baumpython mit einer Eleganz und Sanftheit, die ihrer Gr\u00f6\u00dfe widerspricht \u2013 sie gleitet, statt zu kriechen. Sie wartet auf Beute nicht mit Aggression, sondern mit Geduld: aufgewickelt auf einem Ast, den Kopf locker h\u00e4ngend, entspannt bis zum entscheidenden Moment. Das Prinzip des Enneagrammtyps 2: Die Gr\u00fcne Baumpython ist dort, wo man sie braucht \u2013 still, geduldig, v\u00f6llig pr\u00e4sent. Ihre Kraft liegt nicht in der Muskelkraft allein, sondern in der Bereitschaft zu bleiben, wenn andere gehen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Komodowaran: Effizienz ohne Mitgef\u00fchl</h3>
-        <p class="vb-intro">Der Komodowaran ist das gr\u00f6\u00dfte lebende Eidechse der Welt \u2013 und eines der eindrucksvollsten Jagdtiere des Planeten. Er kann bis zu drei Meter lang werden, l\u00e4uft kurzzeitig so schnell wie ein Mensch und hat ein Jagdsystem entwickelt, das in seiner K\u00fclte beeindruckt: Er bei\u00dft, l\u00e4sst los \u2013 und wartet. Sein Speichel ist eine Mischung aus Giftstoffen, Bakterien und gerinnungshemmenden Substanzen; die Wunde des Opfers \u00f6ffnet sich weiter, w\u00e4hrend der Waran in sicherem Abstand folgt. Stundenlang. Tage, wenn n\u00f6tig. Bis das Opfer kollabiert. Der Komodowaran verhandelt nicht. Er kalkuliert. Sein Sinn f\u00fcr K\u00f6rpergr\u00f6\u00dfe, Hunger und Distanz ist pr\u00e4zise \u2013 er greift nie an, wenn das Risiko zu gro\u00df ist, und er gibt nie auf, wenn das Ziel erreichbar ist. Er frisst alles \u2013 Hirsche, Wasserb\u00fcffel, gelegentlich auch Menschen. Sein Erfolg ist sein einziges Kriterium. Das Prinzip des Enneagrammtyps 3: Der Komodowaran hat kein Interesse an Moral. Er hat Interesse an Ergebnissen. Und er bekommt sie \u2013 zuverl\u00e4ssig, methodisch und ohne einen Gedanken an Umwege.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Basilisk: Der L\u00e4ufer \u00fcber das Wasser</h3>
-        <p class="vb-intro">Der Basilisk ist das einzige Reptil der Welt, das \u00fcber Wasser laufen kann: Mit rasender Geschwindigkeit und einer besonderen Technik \u2013 die Hinterbeine schlagen so schnell auf die Wasseroberfl\u00e4che, dass Luftblasen entstehen, auf denen er kurz steht \u2013 l\u00e4uft er bis zu 1,5 Meter pro Sekunde \u00fcber Fl\u00fcsse und Seen. In Lateinamerika nennen ihn die Menschen \u201eJesuschristuseidechse\u201c \u2013 wegen dieser Gabe. Noch bemerkenswerter: Sein Aussehen ist von einer r\u00e4tselhaften Einzigartigkeit, die ihn unverwechselbar macht. Der Helm auf seinem Kopf, der R\u00fcckenkamm, die Farbspiele \u2013 kein anderes Tier sieht so aus wie er. Er ist ein Einzelg\u00e4nger, der sein Revier kennt und verteidigt, sich aber nicht in Gruppen aufh\u00e4lt. Er hat keinen Pferdef\u00fc\u00df \u2013 er ist tats\u00e4chlich so au\u00dfergew\u00f6hnlich, wie er aussieht. Das Prinzip des Enneagrammtyps 4: Der Basilisk kann etwas, das kein anderes Tier kann \u2013 und er sieht dabei so aus, als w\u00e4re es selbstverst\u00e4ndlich. Einzigartigkeit und F\u00e4higkeit fallen bei ihm in eins.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Braunschlange: Stille Meisterin des R\u00fcckzugs</h3>
-        <p class="vb-intro">Die Braunschlange \u2013 eine der giftigsten Schlangen Australiens \u2013 f\u00e4llt durch das auf, was sie nicht tut: Sie macht keinen L\u00e4rm, zeigt keine Farbe, sucht keine Konfrontation. Sie ist die unauff\u00e4lligste Schlange in einer Umgebung voller unauff\u00e4lliger Schlangen \u2013 und gerade deshalb so gef\u00e4hrlich. Wer ihr begegnet, sieht sie oft erst im letzten Moment. Sie tr\u00e4gt das st\u00e4rkste Gift aller Landschlangen der Welt \u2013 und setzt es dennoch nur als letztes Mittel ein. Zun\u00e4chst flieht sie. Dann friert sie ein. Erst wenn der Weg versperrt ist und keine andere Option bleibt, schl\u00e4gt sie zu \u2013 schnell, pr\u00e4zise, ohne Warnung. Die Braunschlange lebt im Verborgenen, jagt in der D\u00e4mmerung und ruht tags\u00fcber unter Steinen und Rinde. Sie sammelt Erfahrung \u00fcber ihre Umgebung, ohne selbst gesehen zu werden. Das Prinzip des Enneagrammtyps 5: Das Gef\u00e4hrlichste an der Braunschlange ist nicht ihr Gift \u2013 es ist das Wissen, das sie \u00fcber ihre Umgebung akkumuliert, w\u00e4hrend niemand sie beobachtet. Sie wei\u00df alles. Und niemand wei\u00df, dass sie da ist.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 W\u00fcstengecko: Wachsam bis in die Poren</h3>
-        <p class="vb-intro">Der W\u00fcstengecko ist ein Wunderwerk der Anpassung: Seine Haftlamellen an den Zehenballen erlauben ihm, senkrechte Glasfl\u00e4chen zu erklettern \u2013 durch Van-der-Waals-Kr\u00e4fte, die zwischen Millionen von Nanofasern und der Oberfl\u00e4che wirken. Kein Klebstoff, keine Saugn\u00e4pfe. Nur Physik, perfekt ausgenutzt. Er h\u00f6rt in der Nacht Ger\u00e4usche, die f\u00fcr das menschliche Ohr nicht existieren, und kann seine Augen unabh\u00e4ngig voneinander bewegen \u2013 jedes Auge sieht seinen eigenen Horizont. Im W\u00fcstengecko lebt die Wachsamkeit als Grundzustand: Er registriert jede Ver\u00e4nderung in seinem Umfeld, passt sich Temperatur, Beute und Bedrohungslage in Echtzeit an und kommuniziert mit Artgenossen \u00fcber ein komplexes Repertoire an Lauten \u2013 Geckos sind die lautesten Reptilien der Welt, gemessen an ihrer K\u00f6rpergr\u00f6\u00dfe. Das Prinzip des Enneagrammtyps 6: Der W\u00fcstengecko ist nie v\u00f6llig entspannt \u2013 aber er ist auch nie paralysiert. Er hat gelernt, mit seiner Wachsamkeit zu leben, und hat daraus eine F\u00e4higkeit gemacht, die ihm in jeder Umgebung das \u00dcberleben sichert.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Anolis: Das Leben ist ein Spiel mit Farben</h3>
-        <p class="vb-intro">Der Anolis ist einer der lebendigsten und vielf\u00e4ltigsten Reptilien der Welt: \u00fcber 400 Arten, auf jeder Insel der Karibik eine andere, jede mit ihrer eigenen Farbvariante, eigenem Kehlsackfarbe, eigenem Rhythmus. Anolisse wechseln ihre Farbe \u2013 nicht wie das Cham\u00e4leon als Tarnung, sondern als Stimmungsausdruck: leuchtendes Gr\u00fcn bedeutet Aufregung, Braun bedeutet Stress oder K\u00e4lte. Ihr Kehlsack, der in der Sonne aufgeblasen wird, ist eine der farbenfrohesten Strukturen im gesamten Tierreich. Sie sind klein, blitzschnell, neugierig \u2013 und ungl\u00fccklich still k\u00f6nnen sie nicht bleiben. Anolisse erkunden st\u00e4ndig, klettern st\u00e4ndig, wechseln st\u00e4ndig die Position. Ein Anolis, der zehn Minuten lang auf demselben Ast sitzt, ist ein kranker Anolis. Das Prinzip des Enneagrammtyps 7: Der Anolis bringt Farbe in eine Welt, die ohne ihn grauer w\u00e4re. Seine Unrast ist kein Defizit \u2013 sie ist seine Art, die Welt zu entdecken. Immer der n\u00e4chste Ast, immer die n\u00e4chste Farbe.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Krokodil: Urkraft ohne Verkleidung</h3>
-        <p class="vb-intro">Das Krokodil ist seit 200 Millionen Jahren nahezu unver\u00e4ndert \u2013 weil es von Anfang an perfekt war. Es hat die Dinosaurier \u00fcberlebt, Eiszeiten \u00fcberdauert, alle Massenaussterben \u00fcbestanden. Sein K\u00f6rperbau ist eine Ingenieursleistung der Evolution: Augen und Nasenl\u00f6cher liegen oben, sodass es vollst\u00e4ndig unter Wasser verschwinden und gleichzeitig atmen und sehen kann. Sein Biss \u00fcbertrifft den jedes anderen Tieres \u2013 eine Bisst\u00e4rke von bis zu 16.000 Newton, mehr als das Dreifache des L\u00f6wen. Und dennoch sitzt das Krokodil stundenlang reglos am Ufer \u2013 ein Fels, ein Stein, ein \u00e4sthetisches Nichts. Bis die Beute in Reichweite kommt. Dann ist er in einem Zehntel einer Sekunde da \u2013 ohne Anlauf, ohne Warnung, ohne Chance zur Gegenwehr. Das Prinzip des Enneagrammtyps 8: Das Krokodil hat keine Zeit f\u00fcr Spiele. Es kennt seinen Wert, kennt seine Kraft \u2013 und braucht keinen, der ihm das best\u00e4tigt. Es wartet, bis der Moment kommt. Und dann ist es vollst\u00e4ndig da.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Schildkr\u00f6te: Die Weisheit der Langsamkeit</h3>
-        <p class="vb-intro">Die Schildkr\u00f6te ist das \u00e4lteste und friedlichste Reptil, das die Menschheit kennt \u2013 und in nahezu allen Kulturen der Welt ein Symbol f\u00fcr Weisheit, Langlebigkeit und inneren Frieden. In der Irokesen-Kosmologie tr\u00e4gt die Schildkr\u00f6te die Erde auf ihrem R\u00fccken. Im chinesischen Denken repr\u00e4sentiert sie die Einheit von Himmel und Erde \u2013 ihr gew\u00f6lbter R\u00fccken ist der Himmel, ihr flacher Bauchpanzer ist die Erde. Sie hat keinen nat\u00fcrlichen Feind, dem sie durch Geschwindigkeit entkommt \u2013 stattdessen tr\u00e4gt sie ihr Haus auf dem R\u00fccken: immer und \u00fcberall zu Hause, immer gesch\u00fctzt, nie heimatlos. Schildkr\u00f6ten leben in Gemeinschaft, ohne zu konkurrieren. Sie teilen Sonnenpl\u00e4tze, ohne zu streiten. Sie ziehen sich zur\u00fcck, ohne zu fliehen. Das Prinzip des Enneagrammtyps 9: Die Schildkr\u00f6te wei\u00df, was die meisten Lebewesen vergessen: Wer nicht k\u00e4mpfen muss, weil er in sich ruht, hat die tiefste Form von St\u00e4rke gefunden. Ihr Panzer ist nicht Schutz vor der Welt \u2013 er ist der Ausdruck, dass sie die Welt nicht besiegen muss, um in ihr zu leben.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"spinnenarten-der-9-typen", label:"Spinnenarten der 9 Typen"},
-        {route:"schildkroetenarten-der-9-typen", label:"Schildkr\u00f6tenarten der 9 Typen"},
-        {route:"fischarten-der-9-typen", label:"Fischarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function schildkroetenartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Schildkr\u00f6tenarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Schildkr\u00f6ten sind die \u00e4ltesten Reptilien der Erde \u2013 sie existieren seit \u00fcber 220 Millionen Jahren nahezu unver\u00e4ndert. W\u00e4hrend Dinosaurier kamen und gingen, hat die Schildkr\u00f6te \u00fcberlebt. Nicht durch Schnelligkeit, nicht durch Gr\u00f6\u00dfe \u2013 sondern weil jede Art ein unverwechselbares Prinzip perfektioniert hat. Neun Schildkr\u00f6tenarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/schildkroetenarten-der-9-typen.jpg" alt="Schildkr\u00f6tenarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Gr\u00fcne Meeresschildkr\u00f6te: Der innere Kompass</h3>
-        <p class="vb-intro">Die Gr\u00fcne Meeresschildkr\u00f6te kehrt zur Eiablage immer an denselben Strand zur\u00fcck, an dem sie selbst geschl\u00fcpft ist \u2013 auch wenn dieser tausende Kilometer entfernt liegt. Sie navigiert dabei \u00fcber das Magnetfeld der Erde mit einer Pr\u00e4zision, die GPS-Systeme besch\u00e4mt. Forscher haben einzelne Tiere \u00fcber Jahrzehnte verfolgt und festgestellt: Sie legen Eier auf demselben Strandabschnitt, manchmal auf demselben Meter wie ihre Mutter und Gro\u00dfmutter. Kein Umweg, keine Abweichung. Die Gr\u00fcne Meeresschildkr\u00f6te ist ihrem Namen wegen ihres gr\u00fcnen K\u00f6rperfetts benannt \u2013 nicht wegen ihrer Schuppen \u2013, weil sie ausschlie\u00dflich Seegras und Algen frisst und damit das Gras der Meere wie ein Rasend\u00fcnger pflegt: durch regelm\u00e4\u00dfiges Abweiden h\u00e4lt sie die Seegraswiesen vital, die der gesamten Meeresnahrungskette dienen. Das Prinzip des Enneagrammtyps 1: Sie folgt keinem Regelwerk von au\u00dfen. Sie folgt einem inneren Kompass, der immer stimmt \u2013 und sie erm\u00f6glicht damit nicht nur ihr eigenes Leben, sondern das \u00d6kosystem um sie herum.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Suppenschildkr\u00f6te: Hingabe, die tr\u00e4gt</h3>
-        <p class="vb-intro">Die Suppenschildkr\u00f6te \u2013 auch Unechte Karettschildkr\u00f6te \u2013 ist die sozialste der gro\u00dfen Meeresschildkr\u00f6ten: Sie sucht aktiv Kontakt zu Artgenossen, versammelt sich mit Hunderten von Tieren an Futterpl\u00e4tzen und an Niststr\u00e4nden. Weibchen kehren gemeinsam zur\u00fcck, legen nebeneinander Eier, und ihre Jungtiere schl\u00fcpfen in koordinierten Wellen \u2013 gemeinsam haben sie eine h\u00f6here \u00dcberlebenschance, weil Raubtiere mit der Menge nicht umgehen k\u00f6nnen. Jahrhundertelang war sie das Tier, das Menschen auf langen Seereisen am Leben hielt \u2013 lebendes Proviant, das monatelang ohne Wasser und Nahrung \u00fcberlebt. Sie hat dem Menschen gedient, bis er sie nahezu ausgerottet hatte. Ihr Name kommt davon, dass ihr Fleisch tats\u00e4chlich wie Kalb schmeckt \u2013 zu ihrem Ungl\u00fcck. Das Prinzip des Enneagrammtyps 2: Die Suppenschildkr\u00f6te tr\u00e4gt andere \u2013 buchst\u00e4blich. Ihre Hingabe an die Gemeinschaft ist ihr st\u00e4rkstes Merkmal. Und ihr gr\u00f6\u00dftes Risiko.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Lederschildkr\u00f6te: Rekorde als Lebensweise</h3>
-        <p class="vb-intro">Die Lederschildkr\u00f6te ist die gr\u00f6\u00dfte, schnellste und tieftauchendste Schildkr\u00f6te der Welt: bis zu 2,1 Meter lang, 900 Kilogramm schwer, Tauchtiefe bis zu 1.280 Meter \u2013 tiefer als jede andere Meeresschildkr\u00f6te. Sie legt die l\u00e4ngsten Wanderstrecken aller Schildkr\u00f6ten zur\u00fcck: bis zu 20.000 Kilometer pro Jahr, von den Niststr\u00e4nden in den Tropen bis zu den Quallenschw\u00e4rmen in polaren Gew\u00e4ssern. Sie hat keine harte Schale \u2013 ihr R\u00fccken ist von lederartiger Haut bedeckt \u2013, ist daf\u00fcr aber w\u00e4rmeregulierend: als einzige Schildkr\u00f6te kann sie ihre K\u00f6rpertemperatur \u00fcber der Umgebungstemperatur halten und so auch in eiskaltem Wasser aktiv bleiben. Das Prinzip des Enneagrammtyps 3: Die Lederschildkr\u00f6te h\u00e4lt keinen Rekord um des Rekords willen. Sie ist so gebaut, dass sie das Unm\u00f6gliche gew\u00f6hnlich macht \u2013 und tut es dann, als w\u00e4re es selbstverst\u00e4ndlich.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Echte Karettschildkr\u00f6te: Sch\u00f6nheit als Schicksal</h3>
-        <p class="vb-intro">Die Echte Karettschildkr\u00f6te ist die sch\u00f6nste Schildkr\u00f6te der Welt: Ihr Panzer ist ein Kunstwerk aus bernsteinfarbenen, geflammten Platten \u2013 jeder ein Unikat, kein zwei Tiere gleich. Genau diese Einzigartigkeit wurde ihr beinahe zum Verh\u00e4ngnis: Jahrhundertelang wurde ihr Panzer als \u201eSchildpatt\u201c zu Schmuck, K\u00e4mmen, Brillengestellen und Kunstgegenst\u00e4nden verarbeitet \u2013 sie wurde ihrer Identit\u00e4t buchst\u00e4chlich beraubt. Heute ist sie vom Aussterben bedroht. Sie erinnert damit an eine tiefe Wahrheit des Typ-4-Prinzips: Die Einzigartigkeit, die andere anzieht, kann auch zur B\u00fcrde werden, wenn die Welt daraus nur Nutzen zieht. Die Karettschildkr\u00f6te lebt an bestimmten Korallenstellen, die nur sie kennt, frisst Schw\u00e4mme, die andere Tiere meiden \u2013 und h\u00e4lt damit als einzige das \u00d6kosystem der Schwamm-Riffe im Gleichgewicht. Das Prinzip des Enneagrammtyps 4: Ihre Einzigartigkeit ist keine Zierde \u2013 sie ist ihr Beitrag, den kein anderer leisten kann.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Weichschildkr\u00f6te: Verborgen und unbesiegbar</h3>
-        <p class="vb-intro">Die Weichschildkr\u00f6te hat keinen harten Panzer \u2013 ihre R\u00fcckendecke ist aus flexiblem, lederartigem Gewebe. Was wie eine Schw\u00e4che klingt, ist ihre st\u00e4rkste Eigenschaft: Sie kann sich blitzschnell in Fl\u00fcsssohle und Schlamm eingraben und dort v\u00f6llig unsichtbar auf Beute lauern. Niemand sieht sie. Niemand sucht sie. Sie taucht auf, wenn sie bereit ist \u2013 und greift dann mit einer Geschwindigkeit zu, die das Auge kaum verfolgen kann. Weichschildkr\u00f6ten k\u00f6nnen \u00fcber die Haut atmen, wenn sie eingegraben sind \u2013 sie brauchen nicht einmal den Weg an die Oberfl\u00e4che. Ihre R\u00fcckzugsf\u00e4higkeit ist absolut: Sie ziehen nicht nur den Kopf ein \u2013 sie verschwinden buchst\u00e4blich in ihrer Umgebung. Das Prinzip des Enneagrammtyps 5: Die Weichschildkr\u00f6te kontrolliert, wann sie sichtbar ist und wann nicht. Ihre Kraft liegt nicht in ihrer Panzerung \u2013 sondern in ihrer vollst\u00e4ndigen Autonomie dar\u00fcber, wann sie erscheint.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Rotwangen-Schmuckschildkr\u00f6te: Sicherheit in der Gemeinschaft</h3>
-        <p class="vb-intro">Die Rotwangen-Schmuckschildkr\u00f6te ist die bekannteste Wasserschildkr\u00f6te der Welt \u2013 und eine der wachsamsten: Sie sonnt sich auf Steinen und Baumst\u00e4mmen in Gruppen, immer bereit, beim kleinsten Anzeichen von Gefahr blitzschnell ins Wasser zu gleiten. Sie duldet keine \u00dcberraschungen. Sobald sich ein Schatten bewegt oder ein Ger\u00e4usch ert\u00f6nt, ist sie weg \u2013 sie \u00fcberlegt nicht lange. Diese Vorsicht ist kein Schw\u00e4chezeichen, sondern ein erprobtes Sch\u00fctzungsprinzip: Wer immer wachsam ist, lebt l\u00e4nger. Gleichzeitig ist die Rotwangen-Schmuckschildkr\u00f6te hochgradig sozial \u2013 sie sonnt sich immer im Verbund, und je gr\u00f6\u00dfer die Gruppe, desto sicherer f\u00fchlt sie sich. Viele Augen sehen mehr als zwei. Das Prinzip des Enneagrammtyps 6: Sicherheit entsteht nicht durch R\u00fcckzug, sondern durch Zusammenhalt und Wachsamkeit. Die Rotwangen-Schmuckschildkr\u00f6te hat beides zur Perfektion entwickelt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 H\u00f6ckerschildkr\u00f6te: Neugier ohne Grenzen</h3>
-        <p class="vb-intro">Die H\u00f6ckerschildkr\u00f6te \u2013 benannt nach den H\u00f6ckern auf ihrem Panzer \u2013 ist eine der aktivsten und neugierigsten Landschilkr\u00f6ten: Sie wandert weite Strecken, erkundet ihr Territorium systematisch, frisst alles, was ihr vor die Nase kommt \u2013 Pflanzen, Fr\u00fcchte, Insekten, Pilze \u2013 und zeigt dabei eine Aufgeschlossenheit, die Tierbeobachter immer wieder \u00fcberrascht. Sie ist ausdauernd aktiv, auch in der Mittagssonne, wenn andere Schildkr\u00f6ten im Schatten ruhen. Ihre Panzeroberfl\u00e4che \u2013 diese charakteristischen H\u00f6cker, die mit dem Alter eingeebnet werden \u2013 gibt ihr eine unverwechselbare Silhouette, die wie ein R\u00fcckgrat aus vergangenen Abenteuern aussieht. Das Prinzip des Enneagrammtyps 7: Die H\u00f6ckerschildkr\u00f6te ruht nicht, solange es noch etwas zu erkunden gibt. Das Leben ist ein gro\u00dfes Men\u00fc \u2013 und sie m\u00f6chte von allem probieren.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Schnappschildkr\u00f6te: Macht ohne Verhandlung</h3>
-        <p class="vb-intro">Die Schnappschildkr\u00f6te ist die aggressivste Schildkr\u00f6te der Welt: Ihr Kiefer entwickelt eine Beissraft, die Holz zerbricht, und anders als die meisten Schildkr\u00f6ten zieht sie ihren Kopf nicht in den Panzer zur\u00fcck \u2013 ihr Panzer ist zu klein daf\u00fcr. Stattdessen greift sie an. Das ist ihre Strategie: kein R\u00fcckzug, kein Verstecken, keine Defensive. Wenn sie sich bedroht f\u00fchlt, schnappt sie. Dieser Schnapp kann in 50 Millisekunden erfolgen \u2013 f\u00fcr das menschliche Auge kaum wahrnehmbar. Dabei ist die Schnappschildkr\u00f6te im Wasser \u2013 ihrem eigentlichen Lebensraum \u2013 erstaunlich friedlich: Sie taucht ab, meidet Konflikte, jagt ruhig. Nur au\u00df erhalb des Wassers, f\u00fcr sie fremdes Terrain, wird sie zum Risiko. Das Prinzip des Enneagrammtyps 8: Die Schnappschildkr\u00f6te hat keine Maske. Im eigenen Revier ist sie souver\u00e4n und ruhig \u2013 aber wer sie bedroht, erf\u00e4hrt ihre Antwort sofort und ohne Ank\u00fcndigung.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Europ\u00e4ische Sumpfschildkr\u00f6te: Stille Bestand\u00e4ndigkeit</h3>
-        <p class="vb-intro">Die Europ\u00e4ische Sumpfschildkr\u00f6te ist eine der \u00e4ltesten einheimischen Reptilienarten Mitteleuropas \u2013 und eine der unaufdringlichsten. Sie lebt in Teichen, Feuchtgebieten und ruhigen Fl\u00fclussabschnitten, sonnt sich auf treibenden Holzst\u00fccken und taucht bei jedem St\u00f6rung lautlos unter. Sie k\u00e4mpft nicht, sie flieht nicht weit \u2013 sie wartet einfach, bis die Gefahr vorbei ist. Dann taucht sie wieder auf, als w\u00e4re nichts gewesen. Sumpfschildkr\u00f6ten k\u00f6nnen \u00fcber 100 Jahre alt werden und zeigen dabei eine Anpassungsf\u00e4higkeit an ver\u00e4nderte Umgebungen, die bemerkenswert ist: Sie gedeihen in fast jedem sauberen Feuchtgebiet, tolerieren Hitze und K\u00e4lte, kommen mit viel oder wenig aus. Verschiedene Tiere in einem Gew\u00e4sser kennen sich \u2013 sie teilen Sonnenpl\u00e4tze, ohne zu streiten, wechseln ruhig ab. Das Prinzip des Enneagrammtyps 9: Die Sumpfschildkr\u00f6te braucht kein Zentrum der Aufmerksamkeit. Sie braucht nur ihr Gew\u00e4sser, ihre Ruhe und den n\u00e4chsten ruhigen Morgen. Und in dieser Stille tr\u00e4gt sie mehr zur Harmonie des \u00d6kosystems bei, als die meisten Lauteren je werden.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"reptilienarten-der-9-typen", label:"Reptilienarten der 9 Typen"},
-        {route:"fischarten-der-9-typen", label:"Fischarten der 9 Typen"},
-        {route:"walarten-der-9-typen", label:"Walarten der 9 Typen"},
       ])}
     </div>
   `);

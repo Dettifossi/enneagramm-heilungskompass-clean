@@ -955,6 +955,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn – Self-Preservation Type 3",
     teaser:"SP3w2 · 1732–1809. Austrian composer. Three decades in service of the Esterházys, \"Papa Haydn\", 104 symphonies, mentor to Mozart and Beethoven. The raccoon with the Two-wing: quiet achievement, care, and late recognition through the London trips. Animal correspondence: Raccoon.",
     land:"Austria", tags:["Music","History"], gender:"m"},
+{ route:"beruehmte-edita-gruberova", name:"Edita Gruberová", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Edita Gruberová – Self-Preservation Type 3",
+    teaser:"SP3w2 · 1946–2021. Slovak coloratura soprano, the \"Queen of Coloratura,\" over 45 years at the Vienna State Opera. Fled Czechoslovakia for Vienna in 1971, still sang the most demanding roles at 72 – an exceptional career length for her voice type. Animal correspondence: Raccoon.",
+    land:"Slovakia/Austria", tags:["Music"], gender:"f"},
 { route:"beruehmte-horst-tappert", name:"Horst Tappert", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Horst Tappert – Self-Preservation Type 3",
     teaser:"SP3w2 · 1923–2008. German actor, 24 years and 281 episodes as Chief Inspector Derrick, the best-selling German TV series of all time. Over two decades of close collaboration with Fritz Wepper. Concealed his Waffen-SS membership throughout his life, which only became known posthumously in 2013. Animal correspondence: Raccoon.",
@@ -44254,6 +44258,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function editaGruberovaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-edita-gruberova-portrait.jpg" alt="Edita Gruberová" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edita Gruberová</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Coloratura soprano, 1946&ndash;2021 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that works with tireless diligence out of sight before it shows itself, and that draws its security from demonstrable, hard-earned skill. Edita Gruberová was born in 1946 in Bratislava and, at fifteen, began six years of vocal training at the conservatory there under Mária Medvecká – not a spontaneous talent that unfolded on its own, but years of disciplined technical schooling, long before she stepped onto a stage where she was noticed internationally.</p>
+          <p class="vb-intro">She debuted in 1968 at the Slovak National Theatre as Rosina in "The Barber of Seville" – a solid, unspectacular beginning that only gained real substance through years of continued work on her own technique.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Fleeing Toward Substance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three – the subtype that seeks security not through public image but through demonstrable, verifiable competence. Naranjo called this subtype <em>Security</em>: one is not admired for selling oneself well, but for actually delivering what one promises.</p>
+          <p class="vb-intro">On March 23, 1971, Gruberová fled socialist Czechoslovakia for Vienna – a consequential, risky decision she made not out of political calculation but to pursue her art where it could unfold without restriction. The Vienna State Opera engaged her the very same day, and she debuted as the Queen of the Night in "The Magic Flute" – an immediate success that only came about because the technical foundation had already been solidified over years. Over the following forty-five years she remained loyal to the house and was celebrated worldwide as the "Queen of Coloratura" – not because of a single dazzling performance, but because of decades of consistently precise technical mastery.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Bonds with Mentors and Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse toward connection – not toward the wider public, but toward the few people who truly shaped and carried her craft. In Vienna, Gruberová worked closely with voice teacher Ruthilde Boesch to perfect her voice and repertoire, and her decisive artistic breakthrough as Zerbinetta in "Ariadne auf Naxos" was inseparable from her encounter with conductor Karl Böhm, who championed her and gave her crucial artistic impulses.</p>
+          <p class="vb-intro">This loyalty to the people and places that had helped shape her craft also showed in her bond with the Vienna State Opera itself: in 2015 the house celebrated her forty-five-year stage anniversary with its own gala concert – a reciprocal bond grown over decades between an artist and the house that had trusted her first, in 1971.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Flight, 1971</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gruberová's flight from Czechoslovakia was not a political statement but a quietly and consistently executed decision to perfect her own abilities wherever circumstances allowed. She left her home country without grand gesture, without public declaration – and began again in Vienna immediately, with the same disciplined work on her own voice that had already distinguished her as a fifteen-year-old at the conservatory.</p>
+          <p class="vb-intro">This episode shows the SP3w2 logic in its purest form: it is not the risk itself that stands in the foreground, but the calm, purposeful action needed to keep working in a safer, more sustainable place – the security the Self-Preservation Three seeks lies in its own competence, not in the external status quo.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 lies in the ability to <strong>combine decades of consistent technical precision with genuine loyalty to mentors and audience</strong>. Gruberová still sang the most demanding coloratura roles at seventy-two – her final stage role was Queen Elisabeth in Donizetti's "Roberto Devereux" in 2019 at the Bavarian State Opera in Munich. For a voice type that reaches its limits considerably earlier for most singers, this career length is extraordinary – the direct result of decades of tireless technical maintenance rather than short-lived brilliance.</p>
+          <p class="vb-intro">The shadow of the Self-Preservation Three shows in the unrelenting discipline such a career length demands: those who draw their security exclusively from demonstrable skill can rarely afford to let up. Gruberová's decades of consistent vocal maintenance was the expression of exactly this inner standard – a discipline that produced impressive results but also left little room for slack.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon That Redefined an Entire Voice Type</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Edita Gruberová is still regarded today as one of the most significant coloratura sopranos in opera history – not because of a single legendary performance, but because of an artistic career spanning half a century with unwavering precision, far beyond what was considered normal in her voice type.</p>
+          <p class="vb-intro">From the young conservatory student in Bratislava, through the risky flight to Vienna, to the "Queen of Coloratura" who still met the highest technical demands at seventy-two: this is the Self-Preservation Three with a Two-wing in its most mature form – mastery that is never exhausted in a single dazzling moment, but is steadily carried forward across decades.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
+        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function horstTappertPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46445,7 +46515,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
@@ -46460,7 +46530,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
         beschreibung: "Skills that later seem effortless almost never arise overnight, but through years of quiet, often painfully consistent repetition, long before the public knows anything about it.",
-        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work."
+        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work; Edita Gruberová, who at fifteen began six years of vocal training at the Bratislava Conservatory and kept up the same relentless vocal maintenance into old age – she still sang the most demanding coloratura roles at seventy-two, an exceptional career length for her voice type and the direct result of decades of technical discipline."
       },
       {
         titel: "Trading achieved visibility for substance, on purpose",
@@ -101716,6 +101786,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
       "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

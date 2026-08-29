@@ -32932,6 +32932,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 1732\u20131809. \u00d6sterreichischer Komponist. Drei Jahrzehnte im Dienst der Esterh\u00e1zys, \u203aPapa Haydn\u2039, 104 Symphonien, Mentor von Mozart und Beethoven. Der Waschb\u00e4r mit Zweierfl\u00fcgel: stille Leistung, F\u00fcrsorge und sp\u00e4te Anerkennung durch die Londoner Reisen. Tierentsprechung: Waschb\u00e4r.",
     land:"Deutschland", tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-edita-gruberova", name:"Edita Gruberová", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Edita Gruberová – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · 1946–2021. Slowakische Koloratursopranistin, ›Königin der Koloratur‹, über 45 Jahre an der Wiener Staatsoper. Floh 1971 aus der Tschechoslowakei nach Wien, sang noch mit 72 Jahren anspruchsvollste Partien – für ihr Fach eine außergewöhnliche Karrierelänge. Tierentsprechung: Waschbär.",
+    land:"Slowakei/Österreich", tags:["Musik"], gender:"f"},
   { route:"beruehmte-horst-tappert", name:"Horst Tappert", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Horst Tappert – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · 1923–2008. Deutscher Schauspieler, 24 Jahre und 281 Folgen lang Oberinspektor Derrick, der meistverkauften deutschen Fernsehserie aller Zeiten. Über zwei Jahrzehnte enge Zusammenarbeit mit Fritz Wepper. Verschwieg zeitlebens seine Mitgliedschaft in der Waffen-SS, die erst 2013 posthum bekannt wurde. Tierentsprechung: Waschbär.",
@@ -44862,7 +44866,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
@@ -44877,7 +44881,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
         beschreibung: "Fähigkeiten, die später mühelos wirken, entstehen fast nie über Nacht, sondern über Jahre stiller, oft schmerzhaft konsequenter Wiederholung, lange bevor eine Öffentlichkeit davon erfährt.",
-        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde; Bastian Pastewka, der als akribischer Perfektionist gilt, der jede Rolle, jede Pointe und jedes Timing gründlich vorbereitet, statt sich auf spontane Kreativität zu verlassen – ein Anspruch, der sich sowohl in seiner eigenen, über Jahre entwickelten Sitcom als auch in seiner international geschätzten Synchronarbeit zeigt."
+        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde; Bastian Pastewka, der als akribischer Perfektionist gilt, der jede Rolle, jede Pointe und jedes Timing gründlich vorbereitet, statt sich auf spontane Kreativität zu verlassen – ein Anspruch, der sich sowohl in seiner eigenen, über Jahre entwickelten Sitcom als auch in seiner international geschätzten Synchronarbeit zeigt; Edita Gruberová, die mit fünfzehn Jahren eine sechsjährige Gesangsausbildung am Konservatorium Bratislava begann und bis ins hohe Alter dieselbe unerbittliche Stimmpflege fortsetzte – noch mit zweiundsiebzig Jahren sang sie anspruchsvollste Koloraturpartien, eine für ihr Fach außergewöhnliche Karrierelänge, die direkte Folge jahrzehntelanger technischer Disziplin."
       },
       {
         titel: "Erreichte Sichtbarkeit bewusst gegen Substanz eintauschen",
@@ -72777,6 +72781,72 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function editaGruberovaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-edita-gruberova-portrait.jpg" alt="Edita Gruberová" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edita Gruberová</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Koloratursopranistin, 1946–2021 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Sicherheit aus nachweisbarem, hart erarbeitetem Können zieht. Edita Gruberová wurde 1946 in Bratislava geboren und begann mit fünfzehn Jahren eine sechsjährige Gesangsausbildung am dortigen Konservatorium bei Mária Medvecká – kein spontanes Talent, das sich von selbst entfaltete, sondern eine über Jahre disziplinierte technische Schulung, lange bevor sie eine Bühne betrat, auf der sie international wahrgenommen wurde.</p>
+          <p class="vb-intro">Sie debütierte 1968 am Slowakischen Nationaltheater als Rosina in ›Der Barbier von Sevilla‹ – ein solider, unspektakulärer Anfang, dem erst durch jahrelange Weiterarbeit an der eigenen Technik echte Substanz folgte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Flucht in die Substanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch öffentliches Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht.</p>
+          <p class="vb-intro">Am 23. März 1971 floh Gruberová aus der sozialistischen Tschechoslowakei nach Wien – eine folgenschwere, riskante Entscheidung, die sie nicht aus politischem Kalkül traf, sondern um ihrer Kunst dort nachzugehen, wo sie sich uneingeschränkt entfalten konnte. An der Wiener Staatsoper wurde sie noch am selben Tag engagiert und debütierte als Königin der Nacht in ›Die Zauberflöte‹ – ein Sofort-Erfolg, der sich jedoch nur deshalb einstellte, weil die technische Grundlage bereits jahrelang gefestigt war. Über die folgenden fünfundvierzig Jahre blieb sie dem Haus treu und wurde weltweit als ›Königin der Koloratur‹ gefeiert – nicht wegen einer einzigen glänzenden Vorstellung, sondern wegen jahrzehntelang gleichbleibend präziser technischer Meisterschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Die Bindung an Mentoren und Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung – nicht zur großen Öffentlichkeit, sondern zu den wenigen Menschen, die ihr Können wirklich formten und trugen. In Wien arbeitete Gruberová eng mit der Gesangslehrerin Ruthilde Boesch an der Perfektionierung von Stimme und Repertoire, und ihr entscheidender künstlerischer Durchbruch als Zerbinetta in ›Ariadne auf Naxos‹ war untrennbar mit der Begegnung mit dem Dirigenten Karl Böhm verbunden, der sie förderte und ihr entscheidende Impulse gab.</p>
+          <p class="vb-intro">Diese Treue zu den Menschen und Orten, die ihr Können mitgeformt hatten, zeigte sich auch in ihrer Bindung an die Wiener Staatsoper selbst: 2015 wurde dort ihr fünfundvierzigjähriges Bühnenjubiläum mit einem eigenen Galakonzert gefeiert – eine über Jahrzehnte gewachsene, wechselseitige Verbundenheit zwischen einer Künstlerin und dem Haus, das ihr 1971 als Erstes vertraute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Flucht, 1971</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gruberovás Flucht aus der Tschechoslowakei war kein politisches Statement, sondern eine still und konsequent umgesetzte Entscheidung, die eigenen Fähigkeiten dort zu vervollkommnen, wo es die Umstände erlaubten. Sie verließ ihr Heimatland ohne große Geste, ohne öffentliche Erklärung – und begann in Wien sofort wieder von vorn, mit derselben disziplinierten Arbeit an der eigenen Stimme, die sie schon als Fünfzehnjährige am Konservatorium ausgezeichnet hatte.</p>
+          <p class="vb-intro">Diese Episode zeigt die SE3w2-Logik in Reinform: Nicht das Risiko selbst steht im Vordergrund, sondern das ruhige, zielgerichtete Handeln, das nötig ist, um an einem sichereren, tragfähigeren Ort weiterzuarbeiten – die Sicherheit, die die selbsterhaltende Drei sucht, liegt in der eigenen Kompetenz, nicht im äußeren Status quo.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>über Jahrzehnte gleichbleibende technische Präzision mit echter Verbundenheit zu Mentoren und Publikum</strong> zu verbinden. Gruberová sang noch mit zweiundsiebzig Jahren anspruchsvollste Koloraturpartien – ihre letzte Bühnenrolle war die Königin Elisabeth in Donizettis ›Roberto Devereux‹ 2019 an der Bayerischen Staatsoper in München. Für ein Stimmfach, das bei den meisten Sängerinnen deutlich früher an seine Grenzen stößt, ist diese Karrierelänge außergewöhnlich – das direkte Ergebnis jahrzehntelanger, unermüdlicher technischer Pflege statt kurzfristigen Glanzes.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei zeigt sich in der unerbittlichen Disziplin, die eine solche Karrierelänge erfordert: Wer seine Sicherheit ausschließlich aus nachweisbarem Können zieht, kann sich selten erlauben, nachzulassen. Gruberovás jahrzehntelange, konsequente Stimmpflege war Ausdruck genau dieses inneren Anspruchs – eine Disziplin, die beeindruckende Ergebnisse hervorbrachte, aber auch wenig Raum für Nachlässigkeit ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der eine ganze Fachrichtung neu definierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Edita Gruberová gilt bis heute als eine der bedeutendsten Koloratursopranistinnen der Operngeschichte – nicht wegen einer einzigen legendären Vorstellung, sondern wegen einer über ein halbes Jahrhundert reichenden, gleichbleibend präzisen künstlerischen Laufbahn, die weit über das hinausging, was in ihrem Fach als normal galt.</p>
+          <p class="vb-intro">Von der jungen Konservatoriumsschülerin in Bratislava über die riskante Flucht nach Wien bis zur ›Königin der Koloratur‹, die noch mit zweiundsiebzig Jahren höchste technische Ansprüche erfüllte: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Meisterschaft, die sich nicht in einem einzigen glänzenden Moment erschöpft, sondern über Jahrzehnte hinweg beständig weitergetragen wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+        {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2)"},
       ])}
     </div>
   `);
@@ -137439,6 +137509,7 @@ function render() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
       "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

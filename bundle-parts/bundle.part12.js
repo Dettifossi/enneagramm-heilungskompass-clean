@@ -1,3 +1,84 @@
+function judasThaddaeusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-judas-thaddaeus-portrait.jpg" alt="Judas Thaddäus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Judas Thaddäus</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Wunsch, ganz erwählt zu sein – Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, wie kommt es, dass du dich uns offenbaren willst – und nicht der Welt?« (Joh 14,22)</p>
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier – klein an äußerer Erscheinung, aber voller Intensität, mit einem Herzen, das nichts halb liebt und alles auf die eine, exklusive Bindung setzt. Judas Thaddäus war einer von Zwölf, doch man sprach selten von ihm. Wenn sein Name fiel, dann nur zur Abgrenzung: nicht Judas Iskariot, der andere Judas. Als sei er eine Randnotiz, ein Echo, ein Schatten eines Namens, der später Last und Scham tragen würde.</p>
+          <p class="vb-intro">Doch Judas Thaddäus war nicht leer, nicht nebensächlich. Er war voll – voll Sehnsucht, voll Feuer, voll Fragen, voll Hunger nach tiefer, echter Verbindung. Er war kein Mann der Masse. Er suchte Nähe, aber gewählte Nähe – kein Mitlaufen, sondern Verbundenheit, die auf Gegenseitigkeit beruhte. In der Seele der SX4 lebt ein Satz: Ich will nicht einer von vielen sein, ich will der Eine sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Die Sehnsucht, gemeint zu sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Judas Thaddäus war oft still, aber wachsam. Er beobachtete, lauschte auf Nuancen in Jesu Stimme, auf kleine Regungen in dessen Gesicht. Er hoffte, er sah mehr als die anderen. Und manchmal, wenn Jesus ihm zufällig zugewandt war, verweilte sein Blick einen Atemzug länger als nötig. Und in diesem Moment blühte etwas in ihm auf: Vielleicht bin ich doch der Eine. Vielleicht erkennt er, was in mir ist.</p>
+          <p class="vb-intro">Doch dann wandte Jesus sich wieder ab, sprach mit Petrus, lächelte mit Johannes, hielt Zwiesprache mit Jakobus. Und Judas Thaddäus spürte: Das Licht traf ihn nicht lange, nicht oft, nicht sichtbar. Er war nicht eifersüchtig, aber hungrig. Nicht neidisch, aber sehnsüchtig. Und in ihm wuchs ein Gefühl, das SX4er gut kennen: Ich bin tief, aber niemand sieht es. Ich liebe, aber niemand erwidert es so. Ich bin treu, aber nicht gewählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Stilles Beobachten statt lauten Verlangens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Vier eine zurückgezogene, aufmerksame Qualität – die brennende Sehnsucht wird nicht laut hinausgetragen, sondern im Innern beobachtet, gedeutet, gehütet. Die Nacht war warm, das Mahl fast vorbei, die Luft schwer von Erwartung. Jesus hatte von Abschied gesprochen, von Aufbruch, von einem Weg, den keiner verstand. Nur Judas Thaddäus konnte es nicht mehr halten, denn die SX4 kann viel tragen, aber nicht die Dunkelheit des Ungeklärten.</p>
+          <p class="vb-intro">Er beugte sich vor, nicht trotzig, nicht laut, aber voller innerer Dringlichkeit: »Herr, wie kommt es, dass du dich uns offenbaren willst und nicht der Welt?« Es war keine theologische Frage, es war eine seelische: Warum wir? Warum ich? Was macht mich gemeint, und nicht die anderen? Genau dieses lange innere Beobachten und Abwägen, bevor sich die Sehnsucht endlich in einem einzigen, präzisen Satz entlädt, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Antwort: Gesehen jenseits der Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus blickte ihn an, lang, ohne Urteil, ohne sofort zu antworten. Und in diesem Blick geschah etwas, was keine Antwort erklären konnte. Er sah ihn nicht als Rolle, nicht als Nummer unter Zwölf, sondern als einziges Herz, das fragte: Siehst du mich, oder nur uns? Jesus sprach dann von Liebe, von Offenbarung, von einem Kommen und Bleiben – aber nicht mehr an die Menge, sondern an ihn.</p>
+          <p class="vb-intro">»Wenn jemand mich liebt, wird er mein Wort halten, und mein Vater wird ihn lieben, und wir werden zu ihm kommen und Wohnung bei ihm nehmen.« Eine Antwort, die nicht über den Kopf ging, sondern direkt ins Innerste traf. Judas Thaddäus sagte nichts mehr, denn er hatte gespürt: Er war gemeint gewesen, ganz, ohne Abstrich, ohne Verwechslung. Und das reicht einer SX4 für lange Zeit: ein Moment, in dem sie sich gesehen, gespiegelt, geliebt weiß, nicht wegen ihrer Stärke, sondern wegen ihrer Wunde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Leerstelle im Namen: Der Wunsch, dennoch unvergessen zu sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach diesem Abend sprach Judas Thaddäus kaum noch. Sein Herz war still geworden, aber nicht stumm – eher wie ein Licht, das nicht mehr flackerte, sondern glimmte, konstant, ruhig, tief. Und doch blieb etwas offen: sein Name, oder besser, das, was mit ihm nicht geschah. Er heilte nicht öffentlich, predigte nicht vor Tausenden, schrieb kein Evangelium, gründete keine große Gemeinde. In den Überlieferungen tauchte er auf am Rand, manchmal sogar verwechselt: War er nun Lebbäus? Oder Judas, Sohn des Jakobus?</p>
+          <p class="vb-intro">Die SX4 leidet nicht am Unsichtbarsein, sondern daran, verwechselt zu werden. Sie will nicht prominent sein, sondern einzig. In seinem Innersten brannte ein Gedanke: Was, wenn ich verschwinde? Was, wenn niemand erinnert, wer ich war, obwohl ich alles gefühlt habe? Aber genau darin lag seine Reifung: Er erkannte, dass Jesus nicht nach Wirkung maß, sondern nach Wahrhaftigkeit – und dass ein Blick, eine Frage, eine treue Nähe mehr sagen konnte als zehn Predigten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Der Sprecher der leisen Sehnsucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Man erzählte später, dass Judas Thaddäus bis weit in den Osten ging, nach Mesopotamien, Armenien, Persien – weit weg von Jerusalem, von den Wegen der anderen, wie ein Strom, der sich in die Tiefe vergräbt, nicht sichtbar, aber lebendig. Die SX4 sucht nicht das Zentrum der Bühne, sondern die authentische Spur. Er starb, sagt man, mit Simon dem Kananäer den Märtyrertod, ohne Spektakel, ohne aufgeschriebenes letztes Wort. Aber sein Name lebt weiter, nicht als Held, sondern als Zeuge der Sehnsucht.</p>
+          <p class="vb-intro">Die katholische Tradition nennt ihn den Patron der Ausweglosen – vielleicht, weil er selbst wusste, wie sich ein Herz anfühlt, das sich nicht gesehen, nicht gemeint, nicht erinnert fühlt, und weil er einer war, der trotzdem liebte, ohne Sicherheit, ohne Beweis, ohne Garantien. Das ist das Geschenk der SX4w5: eine Intensität, die sich still beobachtend hütet, bis sie einmal, in einem einzigen genauen Satz, ihre ganze Tiefe zeigt – ein Chihuahua, dessen ganzes Herz in einem einzigen, geteilten Blick Erfüllung findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Warum nicht der Welt?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Judas Thaddäus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/12JIwPNwZN4?rel=0" title="Warum nicht der Welt? – Judas Thaddäus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
+        {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
+        {route:"bibel-nikodemus", label:"Bibel-Porträt: Nikodemus (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function nikodemusPage() {
   return shell(`
     <div class="page-container">
@@ -11178,349 +11259,4 @@ function nielsHoegelPortraitPage() {
     </div>
   `);
 }
-
-function joachimKrollPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Joachim Kroll \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/joachim-kroll-portrait.jpg" alt="Joachim Kroll \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Joachim Kroll</p>
-        <p class="krim-portrait-typ">SE5w6 \u00b7 Selbsterhaltender Typ 5 mit Sechserfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienm\u00f6rder und Kannibale \u00b7 Tierentsprechung: Eule</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Joachim Georg Kroll</strong>, geboren am 17. April 1933 in Hindenburg
-        (heute Zabrze, Polen), starb am 1. Juli 1991 in der Justizvollzugsanstalt Rheinbach.
-        Zwischen 1955 und 1976 ermordete er mindestens acht Menschen im Ruhrgebiet \u2013
-        Frauen und Kinder, die er in Parks, W\u00e4ldern und auf Feldern aufgriff.
-        Kroll lebte allein in einer kleinen Wohnung in Duisburg-Laar,
-        arbeitete als Kanalreiniger und fiel seinen Nachbarn als
-        stiller, unauff\u00e4lliger, fast kindlicher Mann auf.
-        Verhaftet wurde er 1976, als Nachbarn sich \u00fcber
-        einen verstopften Abfluss beschwerten \u2013
-        der Installateur fand dort Ged\u00e4rme.
-        In Krolls Wohnung entdeckte die Polizei Leichenteile im K\u00fchlschrank
-        und ein Kleinkind-H\u00e4ndchen im Kochtopf.
-        Er gestand umgehend und wirkte dabei v\u00f6llig emotionslos.
-        1982 wurde er zu lebenslanger Haft verurteilt.
-        Die Presse nannte ihn den \u201eRuhrkannibalen" und den \u201eDuisburger Menschenfresser".
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Joachim Kroll</strong> wird der <strong>Selbsterhaltenden F\u00fcnf mit Sechserfl\u00fcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der F\u00fcnf ist <em>Geiz</em> \u2013
-        nicht im monet\u00e4ren Sinne, sondern als radikales Horten von Energie, Ressourcen
-        und innerem Erleben. Die selbsterhaltende F\u00fcnf (SE5) ist der
-        am st\u00e4rksten auf \u00dcberleben ausgerichtete Subtyp der F\u00fcnf:
-        Sie beschr\u00e4nkt Bed\u00fcrfnisse auf ein absolutes Minimum,
-        zieht sich aus sozialen Kontakten nahezu vollst\u00e4ndig zur\u00fcck
-        und entwickelt eine eigenwillige innere Welt, die f\u00fcr andere
-        kaum zug\u00e4nglich ist. Der Sechserfl\u00fcgel f\u00fcgt Misstrauen,
-        Angst und eine tiefe Orientierung an eigenen Sicherheitsregeln hinzu \u2013
-        bei Kroll wurde diese Angst zur absoluten Isolation.
-        Sein Fall ist der dunkelste Ausdruck dessen, was entsteht,
-        wenn die SE5 jeden Kontakt mit menschlicher W\u00e4rme verloren hat:
-        andere Menschen werden zu reinen Ressourcen \u2013 buchst\u00e4blich.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
-        <p class="vb-intro"><strong>a) Leer und abwesend:</strong>
-        Zeugen und Ermittler beschrieben Krolls Blick als leer,
-        flach und ohne emotionale Resonanz. Kein Erschrecken,
-        keine Scham, keine Erregung \u2013 nur eine gleichg\u00fcltige Leere,
-        die alle, die mit ihm sprachen, tief verunsicherte.
-        Die F\u00fcnf wohnt hinter ihren Augen \u2013 sie beobachtet,
-        aber nimmt kaum Kontakt auf. Bei Kroll war diese Distanz absolut:
-        Der Blick eines Menschen, der andere nicht wirklich als Menschen wahrnimmt.</p>
-        <p class="vb-intro"><strong>b) Kindlich und arglos:</strong>
-        Trotz seiner Taten wirkte Kroll auf viele wie ein gro\u00dfes Kind \u2013
-        naiv, hilflos, ohne Hintergedanken. Dieser Eindruck entstand
-        nicht durch Berechnung, sondern war echt:
-        Kroll hatte eine stark eingeschr\u00e4nkte emotionale Entwicklung,
-        einen Intelligenzquotienten von etwa 76 und keinen Zugang
-        zu dem, was andere als moralisches Empfinden erleben.
-        Die SE5 in ihrer tiefsten Regression erscheint manchmal
-        nicht gef\u00e4hrlich, sondern schlicht nicht ganz pr\u00e4sent \u2013
-        als fehle eine grundlegende menschliche Schicht.</p>
-        <p class="vb-intro"><strong>c) Kein Warnsignal, keine Maske:</strong>
-        Kroll brauchte keine Charme-Fassade und keine soziale T\u00e4uschung.
-        Er erschien schlicht und harmlos, weil er tats\u00e4chlich keine
-        soziale Kompetenz besa\u00df \u2013 keine Selbstdarstellung, kein Kalk\u00fcl,
-        keine Mimikry. Das machte ihn f\u00fcr Umgebung und Beh\u00f6rden
-        so schwer einsch\u00e4tzbar: Wer keine Maske tr\u00e4gt,
-        dessen Gesicht l\u00e4sst sich nicht lesen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Radikale Isolation als Lebensprinzip:</strong>
-        <strong>Kroll</strong> hatte keine Freunde, keine Beziehungen, keine sozialen Bindungen.
-        Er lebte seit Jahrzehnten allein in einer kleinen Mietwohnung,
-        sprach kaum mit Nachbarn und verbrachte seine Zeit
-        mit einer einfachen Routine: Arbeit, Wohnung, Fantasien.
-        Die SE5 reduziert soziale Bed\u00fcrfnisse auf ein Minimum \u2013
-        bei Kroll war dieses Minimum gleich null.
-        Die Au\u00dfenwelt existierte f\u00fcr ihn nur als Ressourcenfeld,
-        nicht als Beziehungsraum.</p>
-        <p class="vb-intro"><strong>b) Extremer Minimalismus:</strong>
-        <strong>Krolls</strong> Wohnung war sp\u00e4rlich eingerichtet, seine Lebensf\u00fchrung
-        auf das Notwendigste beschr\u00e4nkt. Er a\u00df einfach, besa\u00df wenig,
-        brauchte wenig. Dieser Minimalismus ist das Kernmerkmal
-        der SE5: Sie empfindet sich als Menschen mit minimalen Anspr\u00fcchen
-        und maximaler innerer Selbstgen\u00fcgsamkeit.
-        Was bei gesunden SE5-Typen zu einem asketischen, fokussierten
-        Lebensstil f\u00fchrt, wurde bei Kroll zur totalen Verarmung
-        aller menschlichen Dimensionen \u2013 emotional, sozial, moralisch.</p>
-        <p class="vb-intro"><strong>c) Doppelleben ohne Bewusstsein des Widerspruchs:</strong>
-        <strong>Kroll</strong> f\u00fchrte kein bewusstes Doppelleben wie andere T\u00e4ter \u2013
-        er trennte nicht aktiv zwischen einer Fassade und einer verborgenen Seite.
-        Er erschien seinen Nachbarn als schlicht und unverd\u00e4chtig,
-        weil er genau das war: ein Mann ohne soziale Tiefe.
-        Die Morde waren f\u00fcr ihn offenbar kein Widerspruch
-        zu seinem Alltag \u2013 sie wurden nicht integriert
-        und nicht versteckt, sondern einfach nicht als
-        relevant f\u00fcr seine Alltagsidentit\u00e4t erlebt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Fantasiewelt als Ersatz f\u00fcr Beziehung:</strong>
-        <strong>Kroll</strong> entwickelte \u00fcber Jahrzehnte eine ausgepr\u00e4gte innere Fantasiewelt,
-        die sexuelle Vorstellungen mit Gewalt und Nahrungsaufnahme verband.
-        Die F\u00fcnf lebt intensiv im Inneren \u2013 ihre eigentliche Welt
-        ist die Vorstellung, nicht die Wirklichkeit.
-        Krolls Innenwelt ersetzte vollst\u00e4ndig, was anderen
-        durch echte menschliche Begegnung gegeben wird:
-        W\u00e4rme, N\u00e4he, Verbindung. Das Ergebnis war eine
-        Fantasiewelt, die sich zunehmend von jeder
-        menschlichen Empathie entkoppelt hatte.</p>
-        <p class="vb-intro"><strong>b) Kannibalismus als Selbsterhaltungslogik:</strong>
-        <strong>Kroll</strong> a\u00df Teile seiner Opfer \u2013 das ist historisch belegt
-        und von ihm selbst unaufgeregt best\u00e4tigt worden.
-        Aus Sicht der Enneagramm-Psychologie ist dies der dunkelste
-        denkbare Ausdruck der SE5-Leidenschaft:
-        Der Selbsterhaltungsinstinkt der F\u00fcnf dreht sich im Kern
-        um Ressourcen \u2013 Energie beschaffen, sichern, einverleiben.
-        Was bei der gesunden SE5 als Sparsamkeit, Vorratshaltung
-        und innerer R\u00fcckzug erscheint, hat bei Kroll eine buchst\u00e4bliche,
-        k\u00f6rperliche Gestalt angenommen:
-        Der andere Mensch wird zur Nahrungsressource \u2013
-        einverleibt im direktesten Sinne.<br><br>
-        Besonders aufschlussreich ist dabei, <em>wie</em> er dar\u00fcber sprach:
-        ohne Scham, ohne Ekel, ohne das Bewusstsein eines Tabubruchs.
-        Ermittler berichteten, er habe erkl\u00e4rt, er habe Fleisch
-        im K\u00fchlschrank aufbewahrt, weil das billiger sei als Einkaufen \u2013
-        eine reine Versorgungslogik, kein Sadismus, kein rituelles Motiv.
-        Genau das macht den Fall so psychologisch aufschlussreich:
-        Kroll erlebte den Kannibalismus nicht als Exzess,
-        sondern als naheliegende Konsequenz seiner inneren Welt,
-        in der andere Menschen schlicht keine eigenst\u00e4ndige Realit\u00e4t besa\u00dfen.
-        Die SE5 in ihrer tiefsten Regression kennt keine Grenze
-        zwischen Ressource und Person \u2013 bei Kroll war diese Grenze
-        nie vorhanden gewesen.</p>
-        <p class="vb-intro"><strong>c) Kooperation ohne Schuldgef\u00fchl:</strong>
-        Nach seiner Verhaftung gestand <strong>Kroll</strong> bereitwillig
-        alle Taten \u2013 ohne erkennbare Scham oder Reue,
-        aber auch ohne Kalk\u00fcl. Er wirkte, als erkl\u00e4re er
-        Alltagsvorg\u00e4nge. Kriminalisten berichteten,
-        er habe nicht begriffen, warum man
-        so aufgeregt sei. Diese radikale Gef\u00fchllosigkeit
-        ist keine psychopathische K\u00e4lte im klinischen Sinne \u2013
-        sie ist die vollst\u00e4ndige Abwesenheit von dem,
-        was Kontakt und Empathie erst erm\u00f6glicht.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Unsichtbarkeit als Schutz:</strong>
-        <strong>Kroll</strong> war \u00fcber zwanzig Jahre aktiv, ohne ernsthaft in Verdacht zu geraten.
-        Nicht weil er clever tarnte, sondern weil er zu unscheinbar war,
-        um als T\u00e4ter in Betracht gezogen zu werden.
-        Ein stiller Kanalarbeiter ohne Auff\u00e4lligkeiten,
-        ohne bekannte Vorstrafen, ohne sichtbare Aggression.
-        Die SE5 ist von Natur aus unsichtbar \u2013
-        sie beansprucht keinen Raum, f\u00e4llt nicht auf,
-        zieht sich zur\u00fcck. Diese Eigenschaft sch\u00fctzte Kroll
-        l\u00e4nger als jede aktive Tarnung es h\u00e4tte k\u00f6nnen.</p>
-        <p class="vb-intro"><strong>b) Schlicht und nicht bedrohlich wirkend:</strong>
-        Nachbarn beschrieben <strong>Kroll</strong> als freundlich, fast kindlich.
-        Er redete gerne \u00fcber Kleinigkeiten, wirkte harmlos.
-        Diese Wirkung entstand nicht durch Manipulation,
-        sondern war ein echtes Merkmal seiner Pers\u00f6nlichkeit:
-        Er hatte tats\u00e4chlich keine komplexe soziale Agenda.
-        Was fehlte, war nicht die Fassade \u2013 was fehlte,
-        war die gesamte Tiefe einer entwickelten Pers\u00f6nlichkeit.</p>
-        <p class="vb-intro"><strong>c) Kein erkennbares Motiv im klassischen Sinne:</strong>
-        <strong>Krolls</strong> Taten hatten kein nachvollziehbares \u00e4u\u00dferes Motiv \u2013
-        keine Rache, kein Machtanspruch, kein ideologisches Programm.
-        Sie entsprangen einer Innenwelt, die sich vollst\u00e4ndig
-        von moralischen und sozialen Koordinaten gel\u00f6st hatte.
-        Das macht ihn in der forensischen Psychologie
-        zu einem besonders verst\u00f6renden Fall:
-        nicht weil er b\u00f6se war im aktiven Sinne,
-        sondern weil er schlicht kein Mitgef\u00fchl kannte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Leere statt Bedrohung:</strong>
-        Die energetische Wirkung, die <strong>Kroll</strong> auf Gespr\u00e4chspartner hatte,
-        war nicht Schrecken oder Dominanz, sondern Leere \u2013
-        ein tiefes Gef\u00fchl der Abwesenheit.
-        Wer mit ihm sprach, traf niemanden an.
-        Die SE5 h\u00e4lt Energie zur\u00fcck \u2013 sie gibt kaum etwas
-        nach au\u00dfen. Bei Kroll war auch der Empfang abgeschaltet:
-        Keine Resonanz, keine Reaktion, keine Spur von
-        Verstehen oder Interesse an dem, was der andere erlebt.</p>
-        <p class="vb-intro"><strong>b) Gleichmut als Grundton:</strong>
-        <strong>Kroll</strong> wirkte in allen Situationen gleichm\u00fctig \u2013
-        bei der Verhaftung, im Verh\u00f6r, beim Gest\u00e4ndnis.
-        Kein Ausbruch, keine Panik, keine Emp\u00f6rung.
-        Diese gleichm\u00fctige Ruhe ist das Gegenteil von Kontrolle \u2013
-        es ist das Fehlen von Impulsen, die \u00fcberhaupt kontrolliert
-        werden m\u00fcssten. Die SE5 lebt in ged\u00e4mpfter Intensit\u00e4t;
-        bei Kroll war die D\u00e4mpfung vollst\u00e4ndig.</p>
-        <p class="vb-intro"><strong>c) Sechserfl\u00fcgel: Angst ohne Ausweg:</strong>
-        Der Sechserfl\u00fcgel der SE5 f\u00fcgt der Isolation eine Grundangst hinzu \u2013
-        das Gef\u00fchl, nicht sicher zu sein, immer auf der Hut sein zu m\u00fcssen.
-        Bei <strong>Kroll</strong> \u00e4u\u00dferte sich diese Angst nicht als Paranoia,
-        sondern als totaler R\u00fcckzug: Wenn niemand an mich herankommt,
-        kann niemand mir etwas antun. Seine Wohnung war sein Bunker,
-        seine Einsamkeit sein Sicherheitssystem.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Die Eule</h3>
-        <p class="vb-intro"><strong>a) Die Eule beobachtet, greift aber nicht ein:</strong>
-        Die Eule ist das Tier der SE5 im Tierlexikon:
-        sie sieht alles, bleibt aber unsichtbar \u2013
-        still auf ihrem Ast, wachsam, ohne sich zu zeigen.
-        Bei <strong>Kroll</strong> war diese Qualit\u00e4t absolut:
-        Er beobachtete seine Umgebung, ohne jemals
-        wirklich in sie einzutreten.
-        Kein Auftritt, keine Geste, kein Anspruch \u2013
-        nur ein stilles Registrieren aus dem Schatten heraus.</p>
-        <p class="vb-intro"><strong>b) Nachtaktiv und im Verborgenen:</strong>
-        Die Eule lebt in der Stille der Nacht \u2013
-        ihr eigentliches Dasein ist f\u00fcr andere kaum wahrnehmbar.
-        <strong>Krolls</strong> Taten fanden in abgelegenen Orten statt:
-        Parkanlagen, Felder, W\u00e4lder am Stadtrand.
-        Er suchte keine B\u00fchne, keine \u00d6ffentlichkeit.
-        Was er tat, tat er im Verborgenen \u2013
-        nicht aus Kalk\u00fcl, sondern weil er ohnehin
-        in einer inneren Welt lebte, die kein Licht nach au\u00dfen warf.</p>
-        <p class="vb-intro"><strong>c) Stille als Wesensmerkmal:</strong>
-        Die Eule ist kein lautes Tier \u2013 ihr Flug ist lautlos,
-        ihre Pr\u00e4senz kaum sp\u00fcrbar, bis sie zuschl\u00e4gt.
-        <strong>Krolls</strong> Lebensf\u00fchrung war von derselben Qualit\u00e4t:
-        keine Regungen, kein Drama, kein Aufsehen.
-        Was f\u00fcr die Eule ein Jagdprinzip ist,
-        wurde bei Kroll zum einzigen Lebensmodus:
-        vollst\u00e4ndige Unsichtbarkeit als Grundzustand \u2013
-        nach au\u00dfen hin, und am Ende auch nach innen.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Joachim Kroll</strong> ist in der Kriminalpsychologie ein Grenzfall,
-        der die selbsterhaltende F\u00fcnf in ihrer radikalsten Verfallsform zeigt.
-        Anders als T\u00e4ter, die eine Fassade aufrechterhalten oder ein Motiv verfolgen,
-        war Kroll ein Mensch, dem grundlegende menschliche Schichten schlicht fehlten:
-        Empathie, Bindungsf\u00e4higkeit, moralische Bewertung des eigenen Handelns.
-        Der Sechserfl\u00fcgel verst\u00e4rkte die Isolation durch Misstrauen und Angst \u2013
-        sein einziger Schutz war totaler R\u00fcckzug.
-        Was die SE5 im gesunden Pol zu Gen\u00fcgsamkeit, Fokus und tiefer
-        innerer St\u00e4rke bef\u00e4higt, wurde bei Kroll zur vollst\u00e4ndigen
-        Aufl\u00f6sung der Grenze zwischen Selbst und Welt.
-        Er ist kein Beispiel f\u00fcr die SE5 als Typ \u2013
-        er ist ihr dunkelster Abgrund.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE5 \u2013 \u201eGeiz / Avarice":</strong>
-        Claudio Naranjo beschrieb die selbsterhaltende F\u00fcnf als den Subtyp,
-        der am st\u00e4rksten auf die Sicherung des eigenen \u00dcberlebens
-        durch Reduktion ausgerichtet ist \u2013 weniger wollen hei\u00dft,
-        weniger von anderen abh\u00e4ngig zu sein.
-        Bei <strong>Kroll</strong> nahm diese Logik eine pathologische Wendung:
-        Er wollte so wenig, dass er am Ende nicht einmal mehr
-        die Menschlichkeit des anderen wahrnahm.</p>
-        <p class="vb-intro"><strong>b) Fehlende Mentalisierungsf\u00e4higkeit:</strong>
-        Forensische Gutachter bescheinigten <strong>Kroll</strong>
-        eine erheblich eingeschr\u00e4nkte F\u00e4higkeit zur Mentalisierung \u2013
-        also dazu, sich vorzustellen, dass andere Menschen
-        eine innere Welt, Gef\u00fchle und Perspektiven haben.
-        Dies ist kein spezifisches Enneagramm-Merkmal,
-        aber es erkl\u00e4rt, warum der SE5-Mechanismus des R\u00fcckzugs
-        bei ihm eine so extreme Form annahm:
-        Wer keine innere Welt im anderen erkennt,
-        der hat keine Grenze mehr,
-        die ihn davor sch\u00fctzt, den anderen zu instrumentalisieren.</p>
-        <p class="vb-intro"><strong>c) Der Sechserfl\u00fcgel als Angstsystem:</strong>
-        Die Sechs bringt der SE5 eine chronische Grundangst,
-        die sich als hypervigilantes Sicherheitsdenken \u00e4u\u00dfert.
-        Bei <strong>Kroll</strong> zeigte sich dies als totale soziale Abschottung:
-        Keine Beziehung, kein Vertrauen, keine \u00d6ffnung.
-        Das Paradox: Ausgerechnet diese absolute Isolation
-        schuf den Raum, in dem die Taten m\u00f6glich wurden.
-        Der Sechserfl\u00fcgel sch\u00fctzte ihn nicht \u2013 er schloss ihn ein.</p>
-        <p class="vb-intro"><strong>d) Gest\u00e4ndnis als sachliche Berichterstattung:</strong>
-        <strong>Krolls</strong> Gest\u00e4ndnisse waren aus Ermittlersicht
-        bemerkenswert pr\u00e4zise und kooperativ \u2013 er erinnerte sich
-        an Daten, Orte und Details ohne erkennbare emotionale Reaktion.
-        Diese sachliche Distanz ist das F\u00fcnfer-Prinzip in seiner
-        extremsten Form: Informationen werden geliefert,
-        ohne dass eine Verbindung zur erlebten Situation besteht.
-        F\u00fcr <strong>Kroll</strong> schien das Erz\u00e4hlen kein Bekenntnis zu sein \u2013
-        nur eine Antwort auf gestellte Fragen.</p>
-        <p class="vb-intro"><strong>e) Der Wachstumsweg der F\u00fcnf \u2013 die Acht:</strong>
-        Der Wachstumspunkt der F\u00fcnf ist die Acht \u2013
-        Handlungskraft, Pr\u00e4senz, das Wagnis echter Begegnung.
-        F\u00fcr <strong>Kroll</strong> blieb dieser Weg vollst\u00e4ndig versperrt.
-        Er kannte keine Handlungskraft im sozialen Sinne,
-        keine F\u00e4higkeit, mit anderen in echten Kontakt zu treten.
-        Der Gegenpunkt der F\u00fcnf, die Sieben, bringt Begeisterung
-        und Verbindung zur Au\u00dfenwelt \u2013 auch dieser Impuls fehlte vollst\u00e4ndig.
-        Kroll lebte dauerhaft in der tiefsten Schicht der F\u00fcnf:
-        R\u00fcckzug, Reduktion, Aufl\u00f6sung.</p>
-        <p class="vb-intro"><strong>f) Bedeutung f\u00fcr das Verst\u00e4ndnis der SE5:</strong>
-        <strong>Krolls</strong> Fall ist lehrreich nicht weil er typisch ist \u2013
-        sondern weil er zeigt, wohin der SE5-Mechanismus f\u00fchren kann,
-        wenn alle menschlichen Korrektive fehlen:
-        Beziehung, Empathie, Entwicklung.
-        Die gesunde SE5 ist ein Mensch von gro\u00dfer innerer St\u00e4rke,
-        Gen\u00fcgsamkeit und Tiefe. Was Kroll fehlte,
-        war nicht der Typ \u2013 sondern alles,
-        was einen Typ zu einem Menschen macht.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende F\u00fcnf im Vergleich: Wie sich Geiz bei SE5, SO5 und SX5 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausf\u00fchrlich portr\u00e4tiert \u2013 Geiz, R\u00fcckzug und der Heilungsweg \u00fcber echte Gro\u00dfz\u00fcgigkeit.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Joachim Kroll wurde 1982 in acht F\u00e4llen des Mordes schuldig gesprochen und starb 1991 in Haft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
-        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
-        {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
 

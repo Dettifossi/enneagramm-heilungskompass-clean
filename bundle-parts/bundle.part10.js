@@ -265,6 +265,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function editaGruberovaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-edita-gruberova-portrait.jpg" alt="Edita Gruberová" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edita Gruberová</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Koloratursopranistin, 1946–2021 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Sicherheit aus nachweisbarem, hart erarbeitetem Können zieht. Edita Gruberová wurde 1946 in Bratislava geboren und begann mit fünfzehn Jahren eine sechsjährige Gesangsausbildung am dortigen Konservatorium bei Mária Medvecká – kein spontanes Talent, das sich von selbst entfaltete, sondern eine über Jahre disziplinierte technische Schulung, lange bevor sie eine Bühne betrat, auf der sie international wahrgenommen wurde.</p>
+          <p class="vb-intro">Sie debütierte 1968 am Slowakischen Nationaltheater als Rosina in ›Der Barbier von Sevilla‹ – ein solider, unspektakulärer Anfang, dem erst durch jahrelange Weiterarbeit an der eigenen Technik echte Substanz folgte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Flucht in die Substanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch öffentliches Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht.</p>
+          <p class="vb-intro">Am 23. März 1971 floh Gruberová aus der sozialistischen Tschechoslowakei nach Wien – eine folgenschwere, riskante Entscheidung, die sie nicht aus politischem Kalkül traf, sondern um ihrer Kunst dort nachzugehen, wo sie sich uneingeschränkt entfalten konnte. An der Wiener Staatsoper wurde sie noch am selben Tag engagiert und debütierte als Königin der Nacht in ›Die Zauberflöte‹ – ein Sofort-Erfolg, der sich jedoch nur deshalb einstellte, weil die technische Grundlage bereits jahrelang gefestigt war. Über die folgenden fünfundvierzig Jahre blieb sie dem Haus treu und wurde weltweit als ›Königin der Koloratur‹ gefeiert – nicht wegen einer einzigen glänzenden Vorstellung, sondern wegen jahrzehntelang gleichbleibend präziser technischer Meisterschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Die Bindung an Mentoren und Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung – nicht zur großen Öffentlichkeit, sondern zu den wenigen Menschen, die ihr Können wirklich formten und trugen. In Wien arbeitete Gruberová eng mit der Gesangslehrerin Ruthilde Boesch an der Perfektionierung von Stimme und Repertoire, und ihr entscheidender künstlerischer Durchbruch als Zerbinetta in ›Ariadne auf Naxos‹ war untrennbar mit der Begegnung mit dem Dirigenten Karl Böhm verbunden, der sie förderte und ihr entscheidende Impulse gab.</p>
+          <p class="vb-intro">Diese Treue zu den Menschen und Orten, die ihr Können mitgeformt hatten, zeigte sich auch in ihrer Bindung an die Wiener Staatsoper selbst: 2015 wurde dort ihr fünfundvierzigjähriges Bühnenjubiläum mit einem eigenen Galakonzert gefeiert – eine über Jahrzehnte gewachsene, wechselseitige Verbundenheit zwischen einer Künstlerin und dem Haus, das ihr 1971 als Erstes vertraute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Flucht, 1971</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gruberovás Flucht aus der Tschechoslowakei war kein politisches Statement, sondern eine still und konsequent umgesetzte Entscheidung, die eigenen Fähigkeiten dort zu vervollkommnen, wo es die Umstände erlaubten. Sie verließ ihr Heimatland ohne große Geste, ohne öffentliche Erklärung – und begann in Wien sofort wieder von vorn, mit derselben disziplinierten Arbeit an der eigenen Stimme, die sie schon als Fünfzehnjährige am Konservatorium ausgezeichnet hatte.</p>
+          <p class="vb-intro">Diese Episode zeigt die SE3w2-Logik in Reinform: Nicht das Risiko selbst steht im Vordergrund, sondern das ruhige, zielgerichtete Handeln, das nötig ist, um an einem sichereren, tragfähigeren Ort weiterzuarbeiten – die Sicherheit, die die selbsterhaltende Drei sucht, liegt in der eigenen Kompetenz, nicht im äußeren Status quo.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>über Jahrzehnte gleichbleibende technische Präzision mit echter Verbundenheit zu Mentoren und Publikum</strong> zu verbinden. Gruberová sang noch mit zweiundsiebzig Jahren anspruchsvollste Koloraturpartien – ihre letzte Bühnenrolle war die Königin Elisabeth in Donizettis ›Roberto Devereux‹ 2019 an der Bayerischen Staatsoper in München. Für ein Stimmfach, das bei den meisten Sängerinnen deutlich früher an seine Grenzen stößt, ist diese Karrierelänge außergewöhnlich – das direkte Ergebnis jahrzehntelanger, unermüdlicher technischer Pflege statt kurzfristigen Glanzes.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei zeigt sich in der unerbittlichen Disziplin, die eine solche Karrierelänge erfordert: Wer seine Sicherheit ausschließlich aus nachweisbarem Können zieht, kann sich selten erlauben, nachzulassen. Gruberovás jahrzehntelange, konsequente Stimmpflege war Ausdruck genau dieses inneren Anspruchs – eine Disziplin, die beeindruckende Ergebnisse hervorbrachte, aber auch wenig Raum für Nachlässigkeit ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der eine ganze Fachrichtung neu definierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Edita Gruberová gilt bis heute als eine der bedeutendsten Koloratursopranistinnen der Operngeschichte – nicht wegen einer einzigen legendären Vorstellung, sondern wegen einer über ein halbes Jahrhundert reichenden, gleichbleibend präzisen künstlerischen Laufbahn, die weit über das hinausging, was in ihrem Fach als normal galt.</p>
+          <p class="vb-intro">Von der jungen Konservatoriumsschülerin in Bratislava über die riskante Flucht nach Wien bis zur ›Königin der Koloratur‹, die noch mit zweiundsiebzig Jahren höchste technische Ansprüche erfüllte: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Meisterschaft, die sich nicht in einem einzigen glänzenden Moment erschöpft, sondern über Jahrzehnte hinweg beständig weitergetragen wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+        {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function horstTappertPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11054,181 +11120,6 @@ function francisBaconKrankheitsportraetPage() {
         {route:"beruehmte-francis-bacon", label:"Porträt: Francis Bacon (SE7w8) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se7", label:"Subtyp-Profil SE7"},
-      ])}
-    </div>
-  `);
-}
-
-function karlMarxKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Karl Marx" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Karl Marx</p>
-        <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel · 1818–1883</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Löwe</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Tierentsprechung: Löwe" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Karl Marx</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-karl-marx">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seinen jahrzehntelangen
-        Kampf gegen den Kapitalismus. Hier geht es ausschließlich um ein Kapitel, das dort nur
-        gestreift wird: eine über Jahrzehnte chronische, extrem schmerzhafte Hauterkrankung, die
-        ihn buchstäblich am Sitzen hinderte, während er am "Kapital" schrieb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Marx</strong> ist der <strong>sozialen Acht mit Neunerflügel</strong>
-        zugeordnet. Naranjo nannte die soziale Acht <em>Solidarität</em>: Kraft im Dienst der
-        Unterdrückten. Der Neunerflügel bringt Geduld und die Fähigkeit, ein gewaltiges System
-        über Jahrzehnte gedanklich zu durchdringen, statt impulsiv zu handeln. Genau diese
-        stille, unerbittliche Beharrlichkeit trug Marx auch durch einen Körper, der sich ihm
-        über Jahrzehnte hinweg schmerzhaft widersetzte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Erste Hautbeschwerden schon in den 1840er-Jahren:</strong>
-        Bereits in seinen Zwanzigern klagte Marx in Briefen über wiederkehrende Furunkel und
-        Hautentzündungen – ein Leiden, das ihn von diesem Zeitpunkt an nie wieder ganz verließ.</p>
-        <p class="vb-intro"><strong>b) Verschärfung im Londoner Exil:</strong>
-        Mit dem Umzug nach London 1849, unter beengten Wohnverhältnissen, chronischem
-        Geldmangel und schlechter Ernährung, nahmen die Hautbeschwerden deutlich an Häufigkeit
-        und Schwere zu – ein Muster, das viele Ärzte seiner Zeit mit den Lebensbedingungen des
-        Exils in Verbindung brachten.</p>
-        <p class="vb-intro"><strong>c) Ein Leiden, das er selbst schonungslos benannte:</strong>
-        In Briefen an Friedrich Engels beschrieb Marx seine Beschwerden mit erstaunlicher
-        Offenheit und schwarzem Humor – ein früher Hinweis darauf, dass er die Krankheit nicht
-        verdrängte, sondern sie, wie so vieles andere, in sein politisches Selbstverständnis
-        einordnete.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Karbunkel an den schmerzhaftesten Stellen:</strong>
-        Marx litt über Jahrzehnte an schweren, eitrigen Furunkeln und Karbunkeln – vor allem an
-        Gesäß, Rücken und im Genitalbereich –, die medizinhistorisch heute häufig als Hidradenitis
-        suppurativa gedeutet werden, eine chronisch-entzündliche Erkrankung der Schweißdrüsen.</p>
-        <p class="vb-intro"><strong>b) Monatelange Schreibunterbrechungen:</strong>
-        In besonders schweren Phasen konnte Marx wochenlang nicht sitzen und musste im Stehen
-        oder auf der Seite liegend arbeiten – die Fertigstellung des ersten Bandes von "Das
-        Kapital" verzögerte sich dadurch wiederholt um Monate.</p>
-        <p class="vb-intro"><strong>c) Ein Netz weiterer chronischer Beschwerden:</strong>
-        Neben den Karbunkeln dokumentieren seine Briefe und die Berichte seines Arztes
-        chronische Bronchitis, Leberbeschwerden, Rheuma, Kopfschmerzen und wiederkehrende
-        Augenentzündungen, vermutlich verstärkt durch nächtliches Arbeiten bei schlechtem
-        Kerzenlicht.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Der berühmte Galgenhumor gegenüber der Bourgeoisie:</strong>
-        Überliefert ist ein Ausspruch Marx' gegenüber Engels, er hoffe, die Bourgeoisie werde
-        sich seiner Karbunkel bis an ihr Lebensende erinnern – eine Formulierung, die den
-        eigenen körperlichen Schmerz direkt mit seinem politischen Kampf verknüpfte.</p>
-        <p class="vb-intro"><strong>b) Familientragödien als zusätzliche Last:</strong>
-        Drei seiner sieben Kinder starben in jungen Jahren, teils an den Folgen der Armut, in
-        der die Familie lebte – ein Kummer, der sich nach Berichten von Zeitgenossen auch
-        körperlich auf Marx' Gesundheitszustand auswirkte.</p>
-        <p class="vb-intro"><strong>c) Arbeit trotz Diagnose, nicht wegen ihrer Abwesenheit:</strong>
-        Anders als bei manch anderem Krankheitsporträt dieses Kompasses war sich Marx seiner
-        chronischen Beschwerden voll bewusst – er verbarg sie nicht, sondern integrierte sie in
-        seinen Alltag als ständigen, nie ganz überwundenen Gegner.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Der erste Band von "Das Kapital" 1867:</strong>
-        Trotz jahrelanger, durch Krankheit bedingter Unterbrechungen vollendete Marx den ersten
-        Band seines Hauptwerks – ein Kraftakt, der auch als Sieg über den eigenen, oft
-        widerspenstigen Körper gelesen werden kann.</p>
-        <p class="vb-intro"><strong>b) Die Bände zwei und drei blieben unvollendet:</strong>
-        Die Fortsetzung des "Kapitals" wurde von Marx nie abgeschlossen; erst Friedrich Engels
-        stellte die weiteren Bände nach Marx' Tod aus dessen Notizen zusammen – ein Hinweis
-        darauf, wie sehr die chronische Krankheit sein Lebenswerk am Ende doch begrenzte.</p>
-        <p class="vb-intro"><strong>c) Zunehmende Isolation in den letzten Lebensjahren:</strong>
-        In seinen letzten Jahren, geschwächt durch Bronchitis und wiederkehrende
-        Lungenentzündungen, zog sich Marx zunehmend aus dem öffentlichen politischen Leben
-        zurück und war auf die Pflege durch seine Tochter Eleanor und Engels angewiesen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Neunerflügel, der auch den Körper stillhielt:</strong>
-        Dieselbe stille, unerbittliche Beharrlichkeit, mit der Marx über Jahrzehnte an seinem
-        Systemwerk arbeitete, zeigte sich auch im Umgang mit der eigenen Krankheit – kein
-        dramatisches Aufbegehren, sondern zähes Weiterarbeiten trotz wiederkehrender,
-        monatelanger Rückschläge.</p>
-        <p class="vb-intro"><strong>b) Wut, die den Körper nach innen richtete:</strong>
-        Die soziale Acht kämpft normalerweise nach außen, gegen sichtbare Feinde und
-        Ungerechtigkeit – bei Marx richtete sich ein Teil dieser Intensität, medizinhistorisch
-        diskutiert, möglicherweise auch nach innen, in Form chronischer, entzündlicher
-        Körperreaktionen.</p>
-        <p class="vb-intro"><strong>c) Die Löwen-Energie im Krankenzimmer:</strong>
-        Selbst ans Bett gefesselt, ließ Marx laut Berichten von Besuchern kaum von seiner Arbeit
-        ab – Bücher, Zeitungen und Notizen blieben griffbereit, auch wenn er zeitweise kaum
-        sitzen konnte.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Leiden, das über vier Jahrzehnte begleitete:</strong>
-        Von den ersten dokumentierten Furunkeln in den 1840er-Jahren bis zu seinem Tod 1883
-        zieht sich die chronische Hauterkrankung wie ein roter Faden durch Marx' gesamtes
-        erwachsenes Leben – parallel zu seinem gesamten literarischen und politischen
-        Lebenswerk.</p>
-        <p class="vb-intro"><strong>b) Ein Körper, der sich weigerte, sich niederzuwerfen:</strong>
-        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses ist hier keine
-        Geheimhaltung dokumentiert – Marx sprach offen über seine Beschwerden, verarbeitete sie
-        sogar humoristisch, und ließ sich von ihnen dennoch nie vollständig aufhalten.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet die Haut?</strong>
-        Für eine soziale Acht mit Neunerflügel, deren Kampfgeist sich normalerweise nach außen,
-        gegen konkrete Ungerechtigkeit richtet, liegt eine Deutung nahe: Ausgerechnet die Haut –
-        die Grenze zwischen Innen und Außen, zwischen dem Körper und der feindlichen Welt, gegen
-        die Marx sein ganzes Leben kämpfte – wurde selbst zum Schauplatz eines chronischen,
-        schmerzhaften Konflikts. Diese Deutung wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Acht zwangsläufig zu Hauterkrankungen
-        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
-        Was sich an Marx' Fall zeigen lässt, ist ein Muster, das bei chronisch nach außen
-        gerichtetem Kampfgeist in der Praxis immer wieder auffällt – eine von vielen möglichen
-        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
-        und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Marx kannte sein eigenes Muster nicht – die soziale Acht duldet keine Unterbrechung der eigenen Mission, und genau das ließ ihn über vier Jahrzehnte trotz schmerzhafter Karbunkel unbeirrt an seinem Lebenswerk weiterarbeiten, statt sich die nötige Schonung zuzugestehen. Wer das eigene Durchhaltemuster nicht kennt, verwechselt Nachgeben mit Niederlage, selbst wenn der eigene Körper längst innehalten müsste.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        An <strong>Marx'</strong> chronischer Krankheitsgeschichte lässt sich die soziale Acht
-        mit Neunerflügel in ihrer zähesten Form ablesen: ein Körper, der über Jahrzehnte
-        rebellierte, ein Kampfgeist, der sich davon nie ganz aufhalten ließ, und eine Arbeit,
-        die trotz monatelanger Schmerzphasen zu einem der einflussreichsten Werke der
-        Geistesgeschichte wurde. Der Löwe, der aus dem Krankenbett heraus weiterschrieb – weil
-        Stillstand für ihn keine Option war, selbst wenn der eigene Körper ihn dazu zwingen
-        wollte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9) – Lebenswerk"},
-        {route:"krankheitsportraets-winston-churchill", label:"Krankheitsporträt: Winston Churchill (SE8w9)"},
-        {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SO8w9) – dasselbe Muster ungebrochener Kontrolle"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so8", label:"Subtyp-Profil SO8"},
       ])}
     </div>
   `);

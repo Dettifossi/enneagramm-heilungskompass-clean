@@ -1,3 +1,178 @@
+function karlMarxKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Karl Marx" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Marx</p>
+        <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel · 1818–1883</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Löwe</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Tierentsprechung: Löwe" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Karl Marx</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-karl-marx">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seinen jahrzehntelangen
+        Kampf gegen den Kapitalismus. Hier geht es ausschließlich um ein Kapitel, das dort nur
+        gestreift wird: eine über Jahrzehnte chronische, extrem schmerzhafte Hauterkrankung, die
+        ihn buchstäblich am Sitzen hinderte, während er am "Kapital" schrieb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Marx</strong> ist der <strong>sozialen Acht mit Neunerflügel</strong>
+        zugeordnet. Naranjo nannte die soziale Acht <em>Solidarität</em>: Kraft im Dienst der
+        Unterdrückten. Der Neunerflügel bringt Geduld und die Fähigkeit, ein gewaltiges System
+        über Jahrzehnte gedanklich zu durchdringen, statt impulsiv zu handeln. Genau diese
+        stille, unerbittliche Beharrlichkeit trug Marx auch durch einen Körper, der sich ihm
+        über Jahrzehnte hinweg schmerzhaft widersetzte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Hautbeschwerden schon in den 1840er-Jahren:</strong>
+        Bereits in seinen Zwanzigern klagte Marx in Briefen über wiederkehrende Furunkel und
+        Hautentzündungen – ein Leiden, das ihn von diesem Zeitpunkt an nie wieder ganz verließ.</p>
+        <p class="vb-intro"><strong>b) Verschärfung im Londoner Exil:</strong>
+        Mit dem Umzug nach London 1849, unter beengten Wohnverhältnissen, chronischem
+        Geldmangel und schlechter Ernährung, nahmen die Hautbeschwerden deutlich an Häufigkeit
+        und Schwere zu – ein Muster, das viele Ärzte seiner Zeit mit den Lebensbedingungen des
+        Exils in Verbindung brachten.</p>
+        <p class="vb-intro"><strong>c) Ein Leiden, das er selbst schonungslos benannte:</strong>
+        In Briefen an Friedrich Engels beschrieb Marx seine Beschwerden mit erstaunlicher
+        Offenheit und schwarzem Humor – ein früher Hinweis darauf, dass er die Krankheit nicht
+        verdrängte, sondern sie, wie so vieles andere, in sein politisches Selbstverständnis
+        einordnete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Karbunkel an den schmerzhaftesten Stellen:</strong>
+        Marx litt über Jahrzehnte an schweren, eitrigen Furunkeln und Karbunkeln – vor allem an
+        Gesäß, Rücken und im Genitalbereich –, die medizinhistorisch heute häufig als Hidradenitis
+        suppurativa gedeutet werden, eine chronisch-entzündliche Erkrankung der Schweißdrüsen.</p>
+        <p class="vb-intro"><strong>b) Monatelange Schreibunterbrechungen:</strong>
+        In besonders schweren Phasen konnte Marx wochenlang nicht sitzen und musste im Stehen
+        oder auf der Seite liegend arbeiten – die Fertigstellung des ersten Bandes von "Das
+        Kapital" verzögerte sich dadurch wiederholt um Monate.</p>
+        <p class="vb-intro"><strong>c) Ein Netz weiterer chronischer Beschwerden:</strong>
+        Neben den Karbunkeln dokumentieren seine Briefe und die Berichte seines Arztes
+        chronische Bronchitis, Leberbeschwerden, Rheuma, Kopfschmerzen und wiederkehrende
+        Augenentzündungen, vermutlich verstärkt durch nächtliches Arbeiten bei schlechtem
+        Kerzenlicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der berühmte Galgenhumor gegenüber der Bourgeoisie:</strong>
+        Überliefert ist ein Ausspruch Marx' gegenüber Engels, er hoffe, die Bourgeoisie werde
+        sich seiner Karbunkel bis an ihr Lebensende erinnern – eine Formulierung, die den
+        eigenen körperlichen Schmerz direkt mit seinem politischen Kampf verknüpfte.</p>
+        <p class="vb-intro"><strong>b) Familientragödien als zusätzliche Last:</strong>
+        Drei seiner sieben Kinder starben in jungen Jahren, teils an den Folgen der Armut, in
+        der die Familie lebte – ein Kummer, der sich nach Berichten von Zeitgenossen auch
+        körperlich auf Marx' Gesundheitszustand auswirkte.</p>
+        <p class="vb-intro"><strong>c) Arbeit trotz Diagnose, nicht wegen ihrer Abwesenheit:</strong>
+        Anders als bei manch anderem Krankheitsporträt dieses Kompasses war sich Marx seiner
+        chronischen Beschwerden voll bewusst – er verbarg sie nicht, sondern integrierte sie in
+        seinen Alltag als ständigen, nie ganz überwundenen Gegner.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der erste Band von "Das Kapital" 1867:</strong>
+        Trotz jahrelanger, durch Krankheit bedingter Unterbrechungen vollendete Marx den ersten
+        Band seines Hauptwerks – ein Kraftakt, der auch als Sieg über den eigenen, oft
+        widerspenstigen Körper gelesen werden kann.</p>
+        <p class="vb-intro"><strong>b) Die Bände zwei und drei blieben unvollendet:</strong>
+        Die Fortsetzung des "Kapitals" wurde von Marx nie abgeschlossen; erst Friedrich Engels
+        stellte die weiteren Bände nach Marx' Tod aus dessen Notizen zusammen – ein Hinweis
+        darauf, wie sehr die chronische Krankheit sein Lebenswerk am Ende doch begrenzte.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Isolation in den letzten Lebensjahren:</strong>
+        In seinen letzten Jahren, geschwächt durch Bronchitis und wiederkehrende
+        Lungenentzündungen, zog sich Marx zunehmend aus dem öffentlichen politischen Leben
+        zurück und war auf die Pflege durch seine Tochter Eleanor und Engels angewiesen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Neunerflügel, der auch den Körper stillhielt:</strong>
+        Dieselbe stille, unerbittliche Beharrlichkeit, mit der Marx über Jahrzehnte an seinem
+        Systemwerk arbeitete, zeigte sich auch im Umgang mit der eigenen Krankheit – kein
+        dramatisches Aufbegehren, sondern zähes Weiterarbeiten trotz wiederkehrender,
+        monatelanger Rückschläge.</p>
+        <p class="vb-intro"><strong>b) Wut, die den Körper nach innen richtete:</strong>
+        Die soziale Acht kämpft normalerweise nach außen, gegen sichtbare Feinde und
+        Ungerechtigkeit – bei Marx richtete sich ein Teil dieser Intensität, medizinhistorisch
+        diskutiert, möglicherweise auch nach innen, in Form chronischer, entzündlicher
+        Körperreaktionen.</p>
+        <p class="vb-intro"><strong>c) Die Löwen-Energie im Krankenzimmer:</strong>
+        Selbst ans Bett gefesselt, ließ Marx laut Berichten von Besuchern kaum von seiner Arbeit
+        ab – Bücher, Zeitungen und Notizen blieben griffbereit, auch wenn er zeitweise kaum
+        sitzen konnte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leiden, das über vier Jahrzehnte begleitete:</strong>
+        Von den ersten dokumentierten Furunkeln in den 1840er-Jahren bis zu seinem Tod 1883
+        zieht sich die chronische Hauterkrankung wie ein roter Faden durch Marx' gesamtes
+        erwachsenes Leben – parallel zu seinem gesamten literarischen und politischen
+        Lebenswerk.</p>
+        <p class="vb-intro"><strong>b) Ein Körper, der sich weigerte, sich niederzuwerfen:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses ist hier keine
+        Geheimhaltung dokumentiert – Marx sprach offen über seine Beschwerden, verarbeitete sie
+        sogar humoristisch, und ließ sich von ihnen dennoch nie vollständig aufhalten.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Haut?</strong>
+        Für eine soziale Acht mit Neunerflügel, deren Kampfgeist sich normalerweise nach außen,
+        gegen konkrete Ungerechtigkeit richtet, liegt eine Deutung nahe: Ausgerechnet die Haut –
+        die Grenze zwischen Innen und Außen, zwischen dem Körper und der feindlichen Welt, gegen
+        die Marx sein ganzes Leben kämpfte – wurde selbst zum Schauplatz eines chronischen,
+        schmerzhaften Konflikts. Diese Deutung wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Acht zwangsläufig zu Hauterkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Marx' Fall zeigen lässt, ist ein Muster, das bei chronisch nach außen
+        gerichtetem Kampfgeist in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Marx kannte sein eigenes Muster nicht – die soziale Acht duldet keine Unterbrechung der eigenen Mission, und genau das ließ ihn über vier Jahrzehnte trotz schmerzhafter Karbunkel unbeirrt an seinem Lebenswerk weiterarbeiten, statt sich die nötige Schonung zuzugestehen. Wer das eigene Durchhaltemuster nicht kennt, verwechselt Nachgeben mit Niederlage, selbst wenn der eigene Körper längst innehalten müsste.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Marx'</strong> chronischer Krankheitsgeschichte lässt sich die soziale Acht
+        mit Neunerflügel in ihrer zähesten Form ablesen: ein Körper, der über Jahrzehnte
+        rebellierte, ein Kampfgeist, der sich davon nie ganz aufhalten ließ, und eine Arbeit,
+        die trotz monatelanger Schmerzphasen zu einem der einflussreichsten Werke der
+        Geistesgeschichte wurde. Der Löwe, der aus dem Krankenbett heraus weiterschrieb – weil
+        Stillstand für ihn keine Option war, selbst wenn der eigene Körper ihn dazu zwingen
+        wollte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9) – Lebenswerk"},
+        {route:"krankheitsportraets-winston-churchill", label:"Krankheitsporträt: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SO8w9) – dasselbe Muster ungebrochener Kontrolle"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so8", label:"Subtyp-Profil SO8"},
+      ])}
+    </div>
+  `);
+}
+
 function jamesLevineKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12562,87 +12737,6 @@ function thomasPage() {
         {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
         {route:"bibel-andreas", label:"Bibel-Porträt: Andreas (SE4w5)"},
         {route:"bibel-judas-thaddaeus", label:"Bibel-Porträt: Judas Thaddäus (SX4w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function judasThaddaeusPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-judas-thaddaeus-portrait.jpg" alt="Judas Thaddäus – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Judas Thaddäus</p>
-        <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Der Wunsch, ganz erwählt zu sein – Tierentsprechung: Chihuahua</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, wie kommt es, dass du dich uns offenbaren willst – und nicht der Welt?« (Joh 14,22)</p>
-
-        <h2 class="vb-section">1. Der Chihuahua</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier – klein an äußerer Erscheinung, aber voller Intensität, mit einem Herzen, das nichts halb liebt und alles auf die eine, exklusive Bindung setzt. Judas Thaddäus war einer von Zwölf, doch man sprach selten von ihm. Wenn sein Name fiel, dann nur zur Abgrenzung: nicht Judas Iskariot, der andere Judas. Als sei er eine Randnotiz, ein Echo, ein Schatten eines Namens, der später Last und Scham tragen würde.</p>
-          <p class="vb-intro">Doch Judas Thaddäus war nicht leer, nicht nebensächlich. Er war voll – voll Sehnsucht, voll Feuer, voll Fragen, voll Hunger nach tiefer, echter Verbindung. Er war kein Mann der Masse. Er suchte Nähe, aber gewählte Nähe – kein Mitlaufen, sondern Verbundenheit, die auf Gegenseitigkeit beruhte. In der Seele der SX4 lebt ein Satz: Ich will nicht einer von vielen sein, ich will der Eine sein.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Vier: Die Sehnsucht, gemeint zu sein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Judas Thaddäus war oft still, aber wachsam. Er beobachtete, lauschte auf Nuancen in Jesu Stimme, auf kleine Regungen in dessen Gesicht. Er hoffte, er sah mehr als die anderen. Und manchmal, wenn Jesus ihm zufällig zugewandt war, verweilte sein Blick einen Atemzug länger als nötig. Und in diesem Moment blühte etwas in ihm auf: Vielleicht bin ich doch der Eine. Vielleicht erkennt er, was in mir ist.</p>
-          <p class="vb-intro">Doch dann wandte Jesus sich wieder ab, sprach mit Petrus, lächelte mit Johannes, hielt Zwiesprache mit Jakobus. Und Judas Thaddäus spürte: Das Licht traf ihn nicht lange, nicht oft, nicht sichtbar. Er war nicht eifersüchtig, aber hungrig. Nicht neidisch, aber sehnsüchtig. Und in ihm wuchs ein Gefühl, das SX4er gut kennen: Ich bin tief, aber niemand sieht es. Ich liebe, aber niemand erwidert es so. Ich bin treu, aber nicht gewählt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Fünferflügel: Stilles Beobachten statt lauten Verlangens</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Vier eine zurückgezogene, aufmerksame Qualität – die brennende Sehnsucht wird nicht laut hinausgetragen, sondern im Innern beobachtet, gedeutet, gehütet. Die Nacht war warm, das Mahl fast vorbei, die Luft schwer von Erwartung. Jesus hatte von Abschied gesprochen, von Aufbruch, von einem Weg, den keiner verstand. Nur Judas Thaddäus konnte es nicht mehr halten, denn die SX4 kann viel tragen, aber nicht die Dunkelheit des Ungeklärten.</p>
-          <p class="vb-intro">Er beugte sich vor, nicht trotzig, nicht laut, aber voller innerer Dringlichkeit: »Herr, wie kommt es, dass du dich uns offenbaren willst und nicht der Welt?« Es war keine theologische Frage, es war eine seelische: Warum wir? Warum ich? Was macht mich gemeint, und nicht die anderen? Genau dieses lange innere Beobachten und Abwägen, bevor sich die Sehnsucht endlich in einem einzigen, präzisen Satz entlädt, trägt die Handschrift des Fünferflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Antwort: Gesehen jenseits der Rolle</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jesus blickte ihn an, lang, ohne Urteil, ohne sofort zu antworten. Und in diesem Blick geschah etwas, was keine Antwort erklären konnte. Er sah ihn nicht als Rolle, nicht als Nummer unter Zwölf, sondern als einziges Herz, das fragte: Siehst du mich, oder nur uns? Jesus sprach dann von Liebe, von Offenbarung, von einem Kommen und Bleiben – aber nicht mehr an die Menge, sondern an ihn.</p>
-          <p class="vb-intro">»Wenn jemand mich liebt, wird er mein Wort halten, und mein Vater wird ihn lieben, und wir werden zu ihm kommen und Wohnung bei ihm nehmen.« Eine Antwort, die nicht über den Kopf ging, sondern direkt ins Innerste traf. Judas Thaddäus sagte nichts mehr, denn er hatte gespürt: Er war gemeint gewesen, ganz, ohne Abstrich, ohne Verwechslung. Und das reicht einer SX4 für lange Zeit: ein Moment, in dem sie sich gesehen, gespiegelt, geliebt weiß, nicht wegen ihrer Stärke, sondern wegen ihrer Wunde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die Leerstelle im Namen: Der Wunsch, dennoch unvergessen zu sein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach diesem Abend sprach Judas Thaddäus kaum noch. Sein Herz war still geworden, aber nicht stumm – eher wie ein Licht, das nicht mehr flackerte, sondern glimmte, konstant, ruhig, tief. Und doch blieb etwas offen: sein Name, oder besser, das, was mit ihm nicht geschah. Er heilte nicht öffentlich, predigte nicht vor Tausenden, schrieb kein Evangelium, gründete keine große Gemeinde. In den Überlieferungen tauchte er auf am Rand, manchmal sogar verwechselt: War er nun Lebbäus? Oder Judas, Sohn des Jakobus?</p>
-          <p class="vb-intro">Die SX4 leidet nicht am Unsichtbarsein, sondern daran, verwechselt zu werden. Sie will nicht prominent sein, sondern einzig. In seinem Innersten brannte ein Gedanke: Was, wenn ich verschwinde? Was, wenn niemand erinnert, wer ich war, obwohl ich alles gefühlt habe? Aber genau darin lag seine Reifung: Er erkannte, dass Jesus nicht nach Wirkung maß, sondern nach Wahrhaftigkeit – und dass ein Blick, eine Frage, eine treue Nähe mehr sagen konnte als zehn Predigten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Der Sprecher der leisen Sehnsucht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Man erzählte später, dass Judas Thaddäus bis weit in den Osten ging, nach Mesopotamien, Armenien, Persien – weit weg von Jerusalem, von den Wegen der anderen, wie ein Strom, der sich in die Tiefe vergräbt, nicht sichtbar, aber lebendig. Die SX4 sucht nicht das Zentrum der Bühne, sondern die authentische Spur. Er starb, sagt man, mit Simon dem Kananäer den Märtyrertod, ohne Spektakel, ohne aufgeschriebenes letztes Wort. Aber sein Name lebt weiter, nicht als Held, sondern als Zeuge der Sehnsucht.</p>
-          <p class="vb-intro">Die katholische Tradition nennt ihn den Patron der Ausweglosen – vielleicht, weil er selbst wusste, wie sich ein Herz anfühlt, das sich nicht gesehen, nicht gemeint, nicht erinnert fühlt, und weil er einer war, der trotzdem liebte, ohne Sicherheit, ohne Beweis, ohne Garantien. Das ist das Geschenk der SX4w5: eine Intensität, die sich still beobachtend hütet, bis sie einmal, in einem einzigen genauen Satz, ihre ganze Tiefe zeigt – ein Chihuahua, dessen ganzes Herz in einem einzigen, geteilten Blick Erfüllung findet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Warum nicht der Welt?</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Judas Thaddäus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/12JIwPNwZN4?rel=0" title="Warum nicht der Welt? – Judas Thaddäus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
-        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
-        {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
-        {route:"bibel-nikodemus", label:"Bibel-Porträt: Nikodemus (SE5w6)"},
       ])}
     </div>
   `);
