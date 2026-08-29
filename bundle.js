@@ -33973,10 +33973,25 @@ const BERUEHMT_PORTRAITS = [
     teaser:"SE4w3 · 1888–1935. Britischer Offizier, Archäologe und Schriftsteller, Schlüsselfigur der arabischen Revolte im Ersten Weltkrieg. Half selbst am Mythos „Lawrence von Arabien“ mit, floh danach unter falschem Namen in niedrigste Militärränge, ließ sich zur Selbstbestrafung auspeitschen. „Die sieben Säulen der Weisheit“ mehrfach neu geschrieben. Tierentsprechung: Taube.",
     land:"Vereinigtes Königreich", tags:["Militär","Literatur"], gender:"m"},
 ];
-// Einmalig nach Subtyp-Code sortieren (z.B. alle SE4w3 vor allen SE4w5),
-// statt in der zufälligen Einfüge-Reihenfolge zu bleiben - betrifft sowohl
-// die paginierte Standardansicht als auch die Schnellnavigation-Sprünge.
-BERUEHMT_PORTRAITS.sort(function(a, b) { return (a.subtyp||"").localeCompare(b.subtyp||""); });
+// Einmalig sortieren: erst nach Typ-Nummer (1-9), dann Instinkt (SE/SO/SX),
+// dann Flügel - exakt dieselbe Reihenfolge wie die Schnellnavigation-Chips
+// (SE1, SO1, SX1, SE2, SO2, SX2, ...). Eine reine String-Sortierung des
+// Subtyp-Codes (SE1...SE9, dann erst SO1...) würde von der Chip-Reihenfolge
+// abweichen und beim Weiterscrollen nach z.B. SE4 unerwartet zu SE5 statt
+// SO4 springen.
+function bpSortKey(subtyp) {
+  const s = subtyp || "";
+  const typ = parseInt(s.replace(/[^0-9]/g, "")[0] || "0");
+  const instOrder = { SE: 0, SO: 1, SX: 2 }[s.slice(0, 2).toUpperCase()] ?? 9;
+  const wing = s.slice(-1);
+  return [typ, instOrder, wing];
+}
+BERUEHMT_PORTRAITS.sort(function(a, b) {
+  const ka = bpSortKey(a.subtyp), kb = bpSortKey(b.subtyp);
+  if (ka[0] !== kb[0]) return ka[0] - kb[0];
+  if (ka[1] !== kb[1]) return ka[1] - kb[1];
+  return String(ka[2]).localeCompare(String(kb[2]));
+});
 
 const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-reinhold-messner",  name:"Reinhold Messner",  subtyp:"SE1w9",  heading:"Reinhold Messner \u2013 Selbsterhaltender Typ 1",  teaser:"SE1w9 \u00b7 geb. 1944. Bergsteiger, Abenteurer, Autor. Erster Mensch, der alle 14 Achttausender ohne Sauerstoffmaske bestieg. Sonne Jungfrau im 9. Haus, Mond Jungfrau, AC Krebs, MC Widder \u2013 Perfektionismus als \u00dcberlebensstrategie." },
