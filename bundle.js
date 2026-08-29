@@ -45895,7 +45895,7 @@ function beruehmtePersoenlichkeitenPage() {
     +allCodes.map(function(code){
       const n = parseInt(code.slice(-1));
       const col = TYPE_COLORS[n]||"var(--copper)";
-      return '<a href="#" onclick="event.preventDefault();var el=document.getElementById(\'bp-'+code.toLowerCase()+'\');if(el)el.scrollIntoView({behavior:\'smooth\',block:\'start\'});"'
+      return '<a href="#" onclick="event.preventDefault();bpJumpToCode(\''+code+'\');"'
         +' style="display:inline-block;padding:0.25rem 0.6rem;border-radius:6px;border:1.5px solid '+col+';'
         +'font-size:0.8rem;font-weight:700;color:'+col+';background:var(--bg);text-decoration:none;opacity:0.85;"'
         +' onmouseover="this.style.opacity=\'1\';this.style.background=\''+col+'20\'"'
@@ -45993,6 +45993,22 @@ window.bpSet = function(dim, val) {
 window.bpSetLand = function(val) {
   window.bpState.land = val;
   bpApply();
+};
+// Ersetzt das frühere Scroll-zu-Abschnitt-Verhalten der "Schnellnavigation
+// nach Subtyp"-Chips: Seit die Liste seitenweise nachgeladen wird (siehe
+// bpBuildNextBatch), existiert die Ziel-Abschnittsüberschrift oft noch gar
+// nicht im DOM - der Klick tat dann sichtbar nichts. Filtert stattdessen
+// direkt auf den gewählten Subtyp, was unabhängig vom Ladezustand
+// zuverlässig funktioniert.
+window.bpJumpToCode = function(code) {
+  window.bpState = {
+    inst: code.slice(0, 2).toUpperCase(),
+    typ: parseInt(code.slice(-1)),
+    kat: "ALL", gender: "ALL", land: "ALL"
+  };
+  bpApply();
+  const list = document.getElementById("bp-list");
+  if (list) list.scrollIntoView({ behavior: "smooth", block: "start" });
 };
 window.bpRandom = function() {
   // Wählt direkt aus BERUEHMT_PORTRAITS statt aus dem DOM, da bei
