@@ -33104,6 +33104,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1856\u20131943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Die Taube, die f\u00fcr die ganze Menschheit erfand und am Ende nur noch eine einzelne wei\u00dfe Taube liebte. Tierentsprechung: Taube.",
     land:"Serbien/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
+  { route:"beruehmte-charlotte-wells", name:"Charlotte Wells", added:"2026-08-29", subtyp:"SE4w5",
+    heading:"Charlotte Wells – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · geb. 1987. Schottische Regisseurin, Spielfilmdebüt ›Aftersun‹ (2022), lose basierend auf dem Verlust ihres Vaters in der Jugend. Studium der Klassischen Philologie, MFA und MBA an der NYU Tisch School, auffallend zurückhaltend gegenüber der Presse zu den autobiografischen Bezügen des Films. Tierentsprechung: Taube.",
+    land:"Schottland", tags:["Film"], gender:"f"},
   { route:"beruehmte-ludwig-goeransson", name:"Ludwig Göransson", added:"2026-08-29", subtyp:"SE4w5",
     heading:"Ludwig Göransson – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · geb. 1984. Schwedischer Filmkomponist und Produzent, zwei Oscars (›Black Panther‹, ›Oppenheimer‹). Monatelange Recherchereisen und wissenschaftliche Vertiefung für jede Partitur, langjähriger Weggefährte Donald Glovers und Ryan Cooglers, stets im Hintergrund statt im Rampenlicht. Tierentsprechung: Taube.",
@@ -44749,12 +44753,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
         beschreibung: "Anders als bei den lauteren Vierer-Subtypen zeigt sich der innere Schmerz oder die innere Tiefe kaum nach außen. Die Verarbeitung geschieht in stiller, oft jahrzehntelanger Beharrlichkeit – ohne Applaus für das eigene Ringen zu suchen.",
-        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet; Ludwig Göransson, dessen Filmmusik zu ›Black Panther‹ und ›Oppenheimer‹ zwei Oscars und globale kulturelle Wirkung einbrachte, während sein eigener Name den meisten Zuschauern unbekannt bleibt – Bedeutung ohne Sichtbarkeit; Adele, die im Alltag als humorvoll und bodenständig beschrieben wird, während der Schmerz, aus dem ihre größten Songs entstehen, im Privaten verarbeitet wird, bevor er auf die Bühne kommt – ›man klagt nicht öffentlich, man schreibt ein Album‹; Lady Diana, die ihre über Jahre andauernde Bulimie so vollständig hinter der makellosen öffentlichen Fassade verbarg, dass selbst ihr nächstes Umfeld lange nichts Genaues davon wusste, und erst 1995 selbst öffentlich darüber sprach; Andreas, der Erstberufene der Jünger, der ›den Zwölf immer dabei, aber selten im Mittelpunkt‹ war und sein größtes Erlebnis nie herausstellte: ›Ich war der Erste, der ihn erkannt hat. Und das reicht.‹"
+        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet; Ludwig Göransson, dessen Filmmusik zu ›Black Panther‹ und ›Oppenheimer‹ zwei Oscars und globale kulturelle Wirkung einbrachte, während sein eigener Name den meisten Zuschauern unbekannt bleibt – Bedeutung ohne Sichtbarkeit; Adele, die im Alltag als humorvoll und bodenständig beschrieben wird, während der Schmerz, aus dem ihre größten Songs entstehen, im Privaten verarbeitet wird, bevor er auf die Bühne kommt – ›man klagt nicht öffentlich, man schreibt ein Album‹; Lady Diana, die ihre über Jahre andauernde Bulimie so vollständig hinter der makellosen öffentlichen Fassade verbarg, dass selbst ihr nächstes Umfeld lange nichts Genaues davon wusste, und erst 1995 selbst öffentlich darüber sprach; Charlotte Wells, die den frühen Verlust ihres Vaters fast zwei Jahrzehnte lang nicht öffentlich verarbeitete und bis heute nicht bestätigt, wie viel ihres gefeierten Films ›Aftersun‹ tatsächlich autobiografisch ist; Andreas, der Erstberufene der Jünger, der ›den Zwölf immer dabei, aber selten im Mittelpunkt‹ war und sein größtes Erlebnis nie herausstellte: ›Ich war der Erste, der ihn erkannt hat. Und das reicht.‹"
       },
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
@@ -55474,6 +55478,72 @@ function tELawrencePortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – der erfundene Mythos"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function charlotteWellsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-charlotte-wells-portrait.jpg" alt="Charlotte Wells" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charlotte Wells</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schottische Filmregisseurin und Drehbuchautorin, geb. 1987 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrelanger Beharrlichkeit. Charlotte Wells wurde 1987 in Schottland geboren und verlor als Teenager ihren Vater – ein Verlust, den sie über Jahre hinweg nicht öffentlich verarbeitete, sondern still, in sich gekehrt, mit sich selbst austrug. Erst 2015, mit ihrem Kurzfilm „Tuesday", näherte sie sich diesem Verlust erstmals künstlerisch an – und noch einmal sieben Jahre später, 2022, mit ihrem gefeierten Spielfilmdebüt „Aftersun", das lose auf gemeinsamen Urlauben mit ihrem Vater basiert.</p>
+          <p class="vb-intro">Bevor sie sich der Regie zuwandte, studierte Wells zunächst Klassische Philologie am King's College London und schloss ein weiteres Studium an der University of Oxford ab – kein direkter Weg zum Film, sondern ein Umweg über akademische Disziplin und Struktur. Anschließend arbeitete sie mehrere Jahre in der Finanzbranche und leitete gemeinsam mit einer Freundin eine Agentur für Filmschaffende, bevor sie mit Anfang dreißig noch einmal von vorn begann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Der Verlust als stille Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht öffentlich vor sich her, sondern erträgt es stoisch – sie sagt sich: Ich verarbeite besser, stiller, tiefer als andere, und genau darin liegt meine Würde. Wells gilt bis heute als auffallend zurückhaltend gegenüber der Presse, wenn es um die genauen autobiografischen Bezüge von „Aftersun" geht – sie bestätigt weder, wie viel des Films tatsächlich ihrem eigenen Leben entspricht, noch spricht sie ausführlich über ihren verstorbenen Vater. Der Schmerz bleibt im Film sichtbar, in ihren eigenen Worten darüber aber weitgehend verborgen.</p>
+          <p class="vb-intro">Diese Zurückhaltung zeigt sich auch stilistisch: „Aftersun" erzählt fast ausschließlich in Andeutungen, Auslassungen und stimmungsvollen Bildern statt in expliziten Dialogen oder erklärenden Szenen – ein Film, der seinem Publikum zutraut, das Ungesagte selbst zu verstehen, weil die Regisseurin selbst nie zu viel preisgibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Leben als Systemfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Schmerz – das Gefühl wird nicht nur durchlebt, sondern in ein durchdachtes, methodisch erarbeitetes Werk übersetzt. Wells näherte sich der Filmregie nicht spontan, sondern über einen ungewöhnlich strukturierten Weg: nach Klassischer Philologie und Jahren in der Finanzbranche absolvierte sie an der Tisch School of the Arts der New York University sowohl einen Master of Fine Arts in Filmregie als auch einen Master of Business Administration – eine seltene, bewusst gewählte Doppelqualifikation aus künstlerischer und betriebswirtschaftlicher Systematik.</p>
+          <p class="vb-intro">Vor „Aftersun" drehte sie drei Kurzfilme, wurde 2018 von der Fachzeitschrift Filmmaker als eine der „25 New Faces of Independent Film" ausgezeichnet und 2020 als Stipendiatin in die renommierten Sundance Institute Screenwriters and Directors Labs aufgenommen – ein über Jahre systematisch aufgebautes Handwerk, bevor sie sich an ihr persönlichstes Thema wagte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. „Aftersun": Ein Jahrzehnt vom Verlust zum Film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zwischen dem Tod ihres Vaters in ihrer Jugend und der Premiere von „Aftersun" beim Filmfestival Cannes 2022 liegen fast zwei Jahrzehnte – und selbst dann näherte sich Wells dem Thema nur über den Umweg der Erinnerung: Der Film erzählt aus der Perspektive einer erwachsenen Frau, die sich an einen gemeinsamen Urlaub mit ihrem Vater in der Türkei erinnert, teils durch alte Camcorder-Aufnahmen vermittelt – eine erzählerische Distanz, die es erlaubt, dem Schmerz nahezukommen, ohne ihn direkt auszusprechen.</p>
+          <p class="vb-intro">Der Film wurde international gefeiert, Hauptdarsteller Paul Mescal erhielt eine Oscar-Nominierung, und Wells selbst avancierte praktisch über Nacht zu einer der gefragtesten neuen Regiestimmen des Kinos – doch sie blieb dabei auffallend unaufgeregt, gab nur wenige, meist zurückhaltende Interviews und mied den lauten Teil des plötzlichen Ruhms.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>einen sehr persönlichen, jahrzehntelang stillen Verlust in ein präzise durchdachtes, universelles Werk</strong> zu verwandeln – „Aftersun" berührte weltweit Millionen Zuschauer, gerade weil Wells ihren eigenen Schmerz nicht ausstellte, sondern in eine kunstvoll zurückhaltende, andeutungsreiche Form übersetzte, die jeder Betrachter mit der eigenen Erfahrung von Verlust füllen kann.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in derselben Zurückhaltung: Wells' konsequente Weigerung, ihre eigene Geschichte öffentlich auszubreiten, schützt sie zwar vor Vereinnahmung, lässt aber auch offen, wie viel emotionale Verarbeitung tatsächlich stattgefunden hat oder ob der Schmerz, wie bei vielen selbsterhaltenden Vieren, eher kanalisiert als wirklich aufgelöst wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die ihren Verlust in Andeutungen erzählte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Charlotte Wells gehört zu den bemerkenswertesten neuen Stimmen des internationalen Kinos – nicht weil sie ihre eigene Geschichte lautstark erzählte, sondern weil sie fast zwei Jahrzehnte brauchte, um sich ihr in aller Stille, mit größter handwerklicher Sorgfalt, überhaupt zu nähern.</p>
+          <p class="vb-intro">Die Taube, die als Teenager ihren Vater verlor und diesen Verlust erst über einen Kurzfilm, dann über ein gefeiertes Spielfilmdebüt langsam, methodisch verarbeitete, ohne ihn je vollständig offenzulegen – das ist das bleibende Bild dieses Subtyps: ein stilles, durchdachtes Ringen um die eigene Wahrheit, das lieber andeutet als erklärt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        {route:"beruehmte-ludwig-goeransson", label:"Porträt: Ludwig Göransson (SE4w5)"},
       ])}
     </div>
   `);
@@ -136605,6 +136675,7 @@ function render() {
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,
+      "beruehmte-charlotte-wells": charlotteWellsPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,

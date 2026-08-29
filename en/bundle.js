@@ -1111,6 +1111,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla – Self-Preservation Type 4",
     teaser:"SE4w5 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The dove that invented for all humanity and, in the end, loved only a single white dove. Animal correspondence: Dove.",
     land:"Serbia/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
+{ route:"beruehmte-charlotte-wells", name:"Charlotte Wells", added:"2026-08-29", subtyp:"SE4w5",
+    heading:"Charlotte Wells – Self-Preservation Type 4",
+    teaser:"SE4w5 · b. 1987. Scottish director, feature debut \"Aftersun\" (2022), loosely based on the loss of her father in her youth. Studied Classics, MFA and MBA at NYU's Tisch School, noticeably guarded with the press about the film's autobiographical connections. Animal correspondence: Dove.",
+    land:"Scotland", tags:["Film"], gender:"f"},
 { route:"beruehmte-ludwig-goeransson", name:"Ludwig Göransson", added:"2026-08-29", subtyp:"SE4w5",
     heading:"Ludwig Göransson – Self-Preservation Type 4",
     teaser:"SE4w5 · b. 1984. Swedish film composer and producer, two Oscars (\"Black Panther,\" \"Oppenheimer\"). Months-long research trips and scientific immersion for every score, longtime collaborator of Donald Glover and Ryan Coogler, always in the background rather than the spotlight. Animal correspondence: Dove.",
@@ -23029,6 +23033,72 @@ function paulGauguinPortraitPage() {
           {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function charlotteWellsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-charlotte-wells-portrait.jpg" alt="Charlotte Wells" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charlotte Wells</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Scottish film director and screenwriter, b. 1987 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often years-long persistence. Charlotte Wells was born in 1987 in Scotland and lost her father as a teenager – a loss she did not process publicly for years, but carried quietly, turned inward, working through it on her own. Only in 2015, with her short film "Tuesday," did she first approach this loss artistically – and once more, seven years later in 2022, with her acclaimed feature debut "Aftersun," loosely based on holidays she took with her father.</p>
+          <p class="vb-intro">Before turning to directing, Wells first studied Classics at King's College London and completed a further degree at the University of Oxford – not a direct path into film, but a detour through academic discipline and structure. She then worked for several years in finance and, together with a friend, ran an agency for people working in film, before starting over again in her early thirties.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Loss as a Quiet Burden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> does not carry its suffering outward but endures it stoically – it tells itself: I process better, more quietly, more deeply than others, and precisely there lies my dignity. To this day, Wells remains noticeably guarded with the press about the exact autobiographical connections in "Aftersun" – she confirms neither how much of the film actually mirrors her own life nor speaks at length about her late father. The pain remains visible in the film, but largely hidden in her own words about it.</p>
+          <p class="vb-intro">This reticence also shows stylistically: "Aftersun" tells its story almost entirely through suggestion, omission, and mood-driven imagery rather than explicit dialogue or explanatory scenes – a film that trusts its audience to understand what remains unsaid, because the director herself never reveals too much.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Life as a Question of System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance from its own pain – the feeling is not merely lived through but translated into a carefully considered, methodically built work. Wells did not arrive at directing spontaneously but through an unusually structured path: after Classics and years in finance, she completed both a Master of Fine Arts in film directing and a Master of Business Administration at NYU's Tisch School of the Arts – a rare, deliberately chosen double qualification combining artistic and business systematics.</p>
+          <p class="vb-intro">Before "Aftersun," she directed three short films, was named one of Filmmaker magazine's "25 New Faces of Independent Film" in 2018, and was accepted as a fellow into the prestigious Sundance Institute Screenwriters and Directors Labs in 2020 – a craft built systematically over years before she dared approach her most personal subject.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. "Aftersun": A Decade From Loss to Film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Between her father's death in her youth and the premiere of "Aftersun" at the Cannes Film Festival in 2022 lie nearly two decades – and even then, Wells approached the subject only through the detour of memory: the film is told from the perspective of a grown woman recalling a shared holiday with her father in Turkey, partly mediated through old camcorder footage – a narrative distance that allows her to come close to the pain without ever stating it directly.</p>
+          <p class="vb-intro">The film was celebrated internationally, lead actor Paul Mescal received an Oscar nomination, and Wells herself became, practically overnight, one of the most sought-after new directorial voices in cinema – yet she remained noticeably unflustered by it, gave only a few, mostly reserved interviews, and avoided the louder side of sudden fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 lies in its ability to turn <strong>a very personal, decades-quiet loss into a precisely considered, universal work</strong> – "Aftersun" moved millions of viewers worldwide, precisely because Wells did not put her own pain on display, but translated it into an artfully restrained, suggestive form that any viewer can fill with their own experience of loss.</p>
+          <p class="vb-intro">The shadow shows in that same reticence: Wells's consistent refusal to lay her own story out in public protects her from being claimed by others, but also leaves open how much emotional processing has actually taken place, or whether the pain, as with many Self-Preservation Fours, was channeled rather than truly resolved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove That Told Its Loss Through Suggestion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Charlotte Wells is among the most remarkable new voices in international cinema – not because she told her own story loudly, but because it took her nearly two decades to approach it at all, quietly and with the utmost craftsmanship.</p>
+          <p class="vb-intro">The dove that lost her father as a teenager and processed that loss slowly, methodically – first through a short film, then through an acclaimed feature debut – without ever fully laying it bare, that is the lasting image of this subtype: a quiet, carefully considered struggle for its own truth that would rather suggest than explain.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
+        {route:"beruehmte-ludwig-goeransson", label:"Portrait: Ludwig Göransson (SP4w5)"},
+      ])}
     </div>
   `);
 }
@@ -45676,12 +45746,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
         beschreibung: "Unlike the louder Four subtypes, inner pain or depth shows itself hardly at all outwardly. Processing happens in quiet, often decades-long persistence – without seeking applause for one's own inner struggle.",
-        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Ludwig Göransson, whose scores for 'Black Panther' and 'Oppenheimer' earned two Oscars and global cultural impact while his own name remains unknown to most viewers – significance without visibility; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
+        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Ludwig Göransson, whose scores for 'Black Panther' and 'Oppenheimer' earned two Oscars and global cultural impact while his own name remains unknown to most viewers – significance without visibility; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Charlotte Wells, who did not process the early loss of her father publicly for nearly two decades and to this day has not confirmed how much of her acclaimed film "Aftersun" is actually autobiographical; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
       },
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
@@ -100789,6 +100859,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,
+      "beruehmte-charlotte-wells": charlotteWellsPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
