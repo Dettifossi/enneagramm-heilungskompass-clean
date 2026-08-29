@@ -22,6 +22,14 @@ Nach **jeder** inhaltlichen Änderung an `bundle.js`, `en/bundle.js` oder `data/
 
 Dieser Schritt ist **nicht** Teil des automatisierten Post-Commit-Hooks (der kümmert sich nur um `app.js`-Sync und die Wegweiser-Wissensbasis) — er muss aktiv bei jedem Content-Commit mit erledigt werden.
 
+### bundle-parts/ — bundle.js wird für die Auslieferung zerlegt (seit 29.08.2026)
+
+`bundle.js` war auf 16 MB angewachsen und führte auf dem Handy zu Safaris „Es ist wiederholt ein Problem aufgetreten"-Absturzmeldung (WebKit-Speicherdruck) bei Seiten mit vielen Karten (z. B. „Berühmte Persönlichkeiten"). Ausgeliefert wird `bundle.js` deshalb nicht mehr direkt, sondern in 16 Teile zerlegt als `bundle-parts/bundle.part1.js` … `bundle.part16.js`, die `index.html` als sequenzielle `<script>`-Tags lädt (siehe `ai-prototype/split-bundle.mjs`).
+
+**Der Bearbeitungsworkflow ändert sich dadurch nicht:** Es wird weiterhin ausschließlich `bundle.js` inhaltlich bearbeitet, nie `bundle-parts/`. Der Post-Commit-Hook regeneriert `bundle-parts/` automatisch bei jedem Commit, der `bundle.js` verändert, und committet das Ergebnis mit. Nur bei Änderungen außerhalb von git müsste `node ai-prototype/split-bundle.mjs` manuell nachgeholt werden.
+
+Bei der Cache-Busting-Versionsnummer in `index.html` (Schritt 1 oben) jetzt **alle 16 Vorkommen** von `bundle-parts/bundle.partN.js?v=inhalt-vXXXX` auf dieselbe neue Nummer hochzählen (ein globales Such-Ersetzen der alten Versionsnummer erledigt das in einem Schritt). `en/bundle.js` ist von diesem Split **nicht** betroffen — es ist (anders als `bundle.js`) ein echtes ES-Modul mit `import`-Statements aus `data/*.js` und bleibt vorerst als eine Datei bestehen; eigenständiges Folgeprojekt, falls die englische Version dieselben Speicherprobleme zeigt.
+
 ## 2. Antwortverhalten
 
 - Knapp und konkret. Keine Wiederholungen, keine ausführlichen Zusammenfassungen, außer ausdrücklich gewünscht.

@@ -29805,7 +29805,7 @@ const TIERLEXIKON = {
 // Felder: id, d (leicht/mittel/schwer), q (Frage), a (4 Antworten), c (Index der richtigen Antwort)
 // Bitte vor Ver\u00f6ffentlichung inhaltlich pr\u00fcfen \u2014 insbesondere schwere Fragen zu Subtyp-Namen.
 
-const quizData = [
+const quizDataBundle = [
 
   // \u2500\u2500 LEICHT \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
   {id:1,  d:"leicht", q:"Wie viele Grundtypen hat das Enneagramm?",
@@ -30832,14 +30832,14 @@ const quizData = [
 
 ];
 
-window._quizData = quizData;
+window._quizData = quizDataBundle;
 
 
 // Zitate aus 2500 Jahren Weltgeschichte mit Enneagramm-Bezug
 // Themen: Selbsterkenntnis \u00b7 Leidenschaft & Schatten \u00b7 Wachstum \u00b7 Freiheit & Authentizit\u00e4t
 //         Mitgef\u00fchl \u00b7 Mut & Angst \u00b7 Stille \u00b7 Weisheit \u00b7 Verbindung \u00b7 Frieden
 
-const zitateData = [
+const zitateDataBundle = [
 
   // \u2500\u2500 SELBSTERKENNTNIS \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
   { q: "Erkenne dich selbst.",
@@ -31974,7 +31974,7 @@ const zitateData = [
 
 ];
 
-window._zitateData = zitateData;
+window._zitateData = zitateDataBundle;
 
 
 
@@ -35873,8 +35873,6 @@ const COUNTRY_NAME_DE = {
   'JP':'Japan','CN':'China','IN':'Indien','BR':'Brasilien','MX':'Mexiko',
 };
 
-window._bewertungSenden = _bewertungSenden;
-window._switchLangVoice = _switchLangVoice;
 window.translateReview = function(btn) {
   try {
     var card = btn.parentElement;
@@ -35988,6 +35986,8 @@ function _bewertungSenden() {
     })
     .catch(function() {});
 }
+
+window._bewertungSenden = _bewertungSenden;
 
 function _formatGermanDate(iso) {
   const MONATE = ["Januar","Februar","M\u00e4rz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
@@ -137543,7 +137543,7 @@ document.addEventListener("click", (e) => {
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const MY_VERSION = (function() {
-    try { return new URL(import.meta.url).searchParams.get('v'); } catch (e) { return null; }
+    try { return new URL(document.currentScript.src).searchParams.get('v'); } catch (e) { return null; }
   })();
   if (!MY_VERSION) return;
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;
@@ -138224,3 +138224,4 @@ function _switchLangVoice(evt, url, audioFile) {
   } catch (e) { go(); return; }
   setTimeout(go, 4000);
 }
+window._switchLangVoice = _switchLangVoice;
