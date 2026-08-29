@@ -1795,6 +1795,10 @@ const BERUEHMT_PORTRAITS = [
     teaser:"SE4w3 · 1888–1935. Britischer Offizier, Archäologe und Schriftsteller, Schlüsselfigur der arabischen Revolte im Ersten Weltkrieg. Half selbst am Mythos „Lawrence von Arabien“ mit, floh danach unter falschem Namen in niedrigste Militärränge, ließ sich zur Selbstbestrafung auspeitschen. „Die sieben Säulen der Weisheit“ mehrfach neu geschrieben. Tierentsprechung: Taube.",
     land:"Vereinigtes Königreich", tags:["Militär","Literatur"], gender:"m"},
 ];
+// Einmalig nach Subtyp-Code sortieren (z.B. alle SE4w3 vor allen SE4w5),
+// statt in der zufälligen Einfüge-Reihenfolge zu bleiben - betrifft sowohl
+// die paginierte Standardansicht als auch die Schnellnavigation-Sprünge.
+BERUEHMT_PORTRAITS.sort(function(a, b) { return (a.subtyp||"").localeCompare(b.subtyp||""); });
 
 const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-reinhold-messner",  name:"Reinhold Messner",  subtyp:"SE1w9",  heading:"Reinhold Messner \u2013 Selbsterhaltender Typ 1",  teaser:"SE1w9 \u00b7 geb. 1944. Bergsteiger, Abenteurer, Autor. Erster Mensch, der alle 14 Achttausender ohne Sauerstoffmaske bestieg. Sonne Jungfrau im 9. Haus, Mond Jungfrau, AC Krebs, MC Widder \u2013 Perfektionismus als \u00dcberlebensstrategie." },
