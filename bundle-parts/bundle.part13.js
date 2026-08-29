@@ -1,3 +1,218 @@
+function nielsHoegelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Niels H\xf6gel \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/niels-hoegel-portrait.jpg" alt="Niels H\u00f6gel \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Niels H\u00f6gel</p>
+        <p class="krim-portrait-typ">SE7w8 \u00b7 Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Krankenpfleger und Serienm\u00f6rder \u00b7 Tierentsprechung: Gorilla</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Niels H\xf6gel</strong> ist ein ehemaliger deutscher Krankenpfleger, der zwischen 2000 und 2005
+        f\xfcr den Tod von mindestens 85 Menschen verantwortlich war. Er t\xf6tete seine Opfer,
+        indem er ihnen t\xf6dliche Medikamente verabreichte \u2013 um sich anschlie\xdfend durch
+        Wiederbelebungsversuche als Retter zu inszenieren. Diese Morde wurden als
+        \u201eEngelmorde" bekannt. Er wurde 2019 zu lebenslanger Haft verurteilt und gilt als
+        einer der schlimmsten Serienm\u00f6rder in der Geschichte Deutschlands.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Niels H\xf6gel</strong> wird der <strong>Selbsterhaltenden Sieben mit Achterfl\xfcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Sieben ist <em>Ma\u00dflosigkeit</em>
+        (Gluttony) \u2013 nicht prim\xe4r im materiellen Sinne, sondern als unstillbares Verlangen
+        nach Stimulation, Erleben und Positivit\xe4t, um innere Leere und Schmerz zu
+        vermeiden. Die selbsterhaltende Sieben (SE7) sucht diesen Schutz besonders
+        durch Sicherheit, warme Verbindungen und das Gef\xfchl, im eigenen Lebensumfeld
+        unverzichtbar zu sein. Der Achterfl\xfcgel erg\xe4nzt dies mit einem verborgenen
+        Machttrieb. Niels H\xf6gel wird in der Enneagramm-Literatur daher auch als
+        \u201eversteckter Achter" bezeichnet: freundliche Siebener-Oberfl\xe4che,
+        Acht-Wille zur Kontrolle darunter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <p class="vb-intro"><strong>a) Ruhig, gefasst, bed\xe4chtig:</strong>
+        H\xf6gels Blick wurde oft als ruhig und unscheinbar beschrieben. Es war diese
+        Unauff\xe4lligkeit, die es ihm erm\xf6glichte, jahrelang seine Verbrechen
+        unentdeckt zu begehen.</p>
+        <p class="vb-intro"><strong>b) Berechnend und manipulativ:</strong>
+        Sein Blick konnte in den entscheidenden Momenten berechnend und manipulativ
+        sein, insbesondere wenn es darum ging, Kollegen und Vorgesetzte zu t\xe4uschen.</p>
+        <p class="vb-intro"><strong>c) Gef\xfchlsarm:</strong>
+        Augenzeugen und Ermittler berichteten, dass sein Blick oft emotionslos wirkte,
+        besonders in Momenten, in denen er \xfcber seine Verbrechen sprach. Empathie
+        oder Reue f\xfcr seine Taten fehlten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Unauff\xe4llige Erscheinung:</strong>
+        <strong>H\xf6gel</strong> war \xe4u\xdferlich der unscheinbare, wohlwollende und hilfsbereite
+        Krankenpfleger. Seine ruhige, bed\xe4chtige und freundliche Art erm\xf6glichte es
+        ihm, das Vertrauen sowohl seiner Kollegen als auch seiner Patienten zu gewinnen.</p>
+        <p class="vb-intro"><strong>b) Pathologisches Bed\xfcrfnis nach Kontrolle:</strong>
+        Trotz seiner stillen Fassade hatte H\xf6gel ein tiefes, pathologisches Bed\xfcrfnis
+        nach Kontrolle \xfcber Leben und Tod. Er spielte mit dem Schicksal seiner Patienten
+        und genoss die Macht, die er \xfcber sie hatte. Die SE7 und speziell die SE7 mit
+        Achterfl\xfcgel werden auch als \u201eversteckter Achter" bezeichnet.</p>
+        <p class="vb-intro"><strong>c) Scheinbare Bescheidenheit:</strong>
+        <strong>H\xf6gel</strong> machte nach au\xdfen hin nie den Eindruck eines Narzissten oder egomanen
+        Charakters, doch seine inneren Motive waren extrem selbstbezogen und von einem
+        ausgepr\xe4gten narzisstischen Bed\xfcrfnis nach Anerkennung gepr\xe4gt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Sucht nach Nervenkitzel:</strong>
+        H\xf6gels Taten lassen sich mit einer typischen Eigenschaft der
+        selbsterhaltenden Sieben erkl\xe4ren: der Suche nach Stimulation und dem
+        Bed\xfcrfnis, Langeweile zu vermeiden. Er brachte absichtlich Patienten in
+        kritische Situationen, um den Adrenalinkick zu erleben, sie zu retten.</p>
+        <p class="vb-intro"><strong>b) Gef\xfchl der Unbesiegbarkeit:</strong>
+        <strong>H\xf6gel</strong> f\xfchlte sich lange Zeit unantastbar. Er genoss die Gefahr und das Spiel
+        mit dem Tod, glaubte jedoch auf seine kindliche, naive Art, dass er niemals
+        erwischt werden w\xfcrde. Diese \xdcberheblichkeit spiegelt die negative Seite der
+        Selbsterhaltungsstrategie einer tief unbewussten Sieben wider.</p>
+        <p class="vb-intro"><strong>c) Verdr\xe4ngung von Schuld:</strong>
+        Wie bei Siebenern in sehr unbewusstem Zustand \xfcblich, konnte H\xf6gel
+        Schuldgef\xfchle f\xfcr seine Verbrechen scheinbar leicht verdr\xe4ngen. Er rationalisierte
+        seine Taten und baute eine innere Distanz zu seinen Opfern auf. Als Kopfmenschen
+        k\xf6nnen Siebener sehr gut eine Welt der Phantasie aufbauen, in der sie sich
+        unschuldig und heil f\xfchlen. Gleichzeitig sind Siebener intelligent genug,
+        ihre Untaten rein verstandesm\xe4\xdfig \xfcber ein ganzes Leben rational zu begr\xfcnden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ruhig, aber unberechenbar:</strong>
+        <strong>H\xf6gel</strong> trat ruhig und professionell auf, aber hinter dieser Fassade versteckte
+        sich ein t\xf6dlicher Instinkt. Seine Au\xdfenwirkung war die eines zuverl\xe4ssigen
+        Krankenpflegers, w\xe4hrend seine innere Motivation von einem destruktiven Drang
+        nach besonderer Aufmerksamkeit und Anerkennung getrieben wurde.</p>
+        <p class="vb-intro"><strong>b) Doppelgesichtige Wirkung:</strong>
+        <strong>Niels H\xf6gel</strong> pr\xe4sentierte sich stets als freundlicher Helfer, obwohl er in
+        Wahrheit das Gegenteil tat. Diese Doppeldeutigkeit machte ihn besonders
+        gef\xe4hrlich, da niemand seine wahren Motive erkennen konnte, bevor es zu sp\xe4t war.</p>
+        <p class="vb-intro"><strong>c) Kalt und pragmatisch:</strong>
+        Seine Verbrechen waren nicht von impulsiver Gewalt gepr\xe4gt, sondern von k\xfchler,
+        planender Berechnung und emotionsloser Methodik. Dies verst\xe4rkte die
+        Unberechenbarkeit seiner Taten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Innere Rastlosigkeit:</strong>
+        <strong>H\xf6gel</strong> versp\xfcrte eine st\xe4ndige innere Unruhe, die ihn dazu trieb, immer wieder
+        neue Verbrechen zu begehen. Diese Rastlosigkeit ist typisch f\xfcr die
+        selbsterhaltende Sieben, die st\xe4ndig nach neuen Reizen und Erfahrungen sucht.</p>
+        <p class="vb-intro"><strong>b) K\xfcnstliche \xdcberlegenheit:</strong>
+        Seine Energie war von einer scheinbaren \xdcberlegenheit gepr\xe4gt \u2013 er f\xfchlte sich
+        \xfcber normale Menschen erhaben, da er die Macht \xfcber Leben und Tod besa\xdf.
+        Dies gab ihm ein Gef\xfchl der Erhabenheit, das auf t\xf6dlichen Motiven beruhte.</p>
+        <p class="vb-intro"><strong>c) Flucht vor Langeweile:</strong>
+        Seine Energie war darauf ausgerichtet, jegliche Langeweile zu vermeiden.
+        Die Monotonie des Krankenhausalltags schien ihn so sehr zu bedr\xfccken, dass
+        er sie mit extremen und t\xf6dlichen Handlungen durchbrach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Gorilla</h3>
+        <p class="vb-intro"><strong>a) Kontrollierte St\xe4rke:</strong>
+        Wie der Gorilla wirkte H\xf6gel in seiner Rolle als Krankenpfleger ruhig und
+        kontrolliert, w\xe4hrend er gleichzeitig die Macht \xfcber Leben und Tod seiner
+        Patienten in den H\xe4nden hielt.</p>
+        <p class="vb-intro"><strong>b) Territorialverhalten:</strong>
+        Gorillas sch\xfctzen ihr Territorium aggressiv. In \xe4hnlicher Weise beherrschte
+        H\xf6gel das Krankenhausumfeld und sah seine Patienten als Teil seines Reviers,
+        in dem er die ultimative Kontrolle aus\xfcbte.</p>
+        <p class="vb-intro"><strong>c) Bedrohliche Ruhe:</strong>
+        Gorillas sind oft ruhig, k\xf6nnen aber blitzschnell reagieren. Diese Parallele
+        spiegelt sich in H\xf6gels Verhalten wider: Er f\xfchrte seine t\xf6dlichen Handlungen
+        unauff\xe4llig und kalt durch, w\xe4hrend er nach au\xdfen hin ruhig und besonnen blieb.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Niels H\xf6gel</strong> zeigt die negativen Auspr\xe4gungen der selbsterhaltenden Sieben.
+        Sein Streben nach Aufregung, seine spielerisch-manipulative Art, mit dem Leben
+        seiner Patienten empathielos zu spielen, und sein Bed\xfcrfnis nach Kontrolle
+        spiegeln die verzerrten Eigenschaften des Typ 7 in sehr unbewusstem Zustand
+        wider. Er nutzte seine Position als Krankenpfleger, um Macht auszu\xfcben und
+        seinem Leben Spannung zu verleihen, ohne dabei Empathie oder Mitgef\xfchl f\xfcr
+        seine Opfer zu empfinden.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SE7 \u2013 \u201eFamilie / Corviviality":</strong>
+        Claudio Naranjo nannte die selbsterhaltende Sieben \u201eFamilie": Sie sucht Sicherheit
+        durch warme Zugeh\xf6rigkeit, durch das Gef\xfchl, in ihrem n\xe4heren Lebensumfeld
+        unverzichtbar und geliebt zu sein. Das Krankenhaus war H\xf6gels Familie \u2013
+        er der geliebte, kompetente Retter. Seine Morde waren der perverse Versuch,
+        in dieser Familie dauerhaft unersetzlich zu bleiben: kein Pfleger rettet
+        so eindrucksvoll wie einer, der die Krise selbst herbeif\u00fchrt.</p>
+        <p class="vb-intro"><strong>b) Reframing \u2013 die gef\xe4hrlichste Gabe der Sieben:</strong>
+        Siebener sind Meister im Umdeuten von Realit\xe4t. H\xf6gel rahmte seine Morde
+        kognitiv als Rettungsaktionen um: Er t\xf6tete keine Patienten, er schuf
+        Gelegenheiten f\xfcr Heldenmomente. Dies ist der Siebener-Mechanismus in seiner
+        perversesten Form \u2013 die F\xe4higkeit, jede eigene Handlung so zu deuten, dass
+        sie innerlich ertr\xe4glich bleibt. Ohne dieses Reframing w\xe4re die Serie nicht
+        \xfcber f\xfcnf Jahre m\xf6glich gewesen.</p>
+        <p class="vb-intro"><strong>c) Der Achterfl\xfcgel \u2013 Macht unter der freundlichen Oberfl\xe4che:</strong>
+        Der Achterfl\xfcgel verleiht der Sieben einen Machttrieb, der nach au\xdfen nicht
+        sichtbar ist. H\xf6gel wirkte sanft, f\xfcrsorglich und hilfreich \u2013 darunter lag
+        das Acht-Bed\xfcrfnis nach totaler Kontrolle. Dieser \u201eversteckte Achter" ist
+        das Gef\xe4hrlichste an der SE7w8: Die Achterkraft ist vorhanden, aber verkleidet.
+        Niemand warnt sich vor einem freundlichen Krankenpfleger.</p>
+        <p class="vb-intro"><strong>d) Die Sieben flieht vor Schmerz und Bedeutungslosigkeit:</strong>
+        Der fundamentale Sieben-Mechanismus ist die Vermeidung von Schmerz,
+        Entbehrung und Bedeutungslosigkeit. F\xfcr H\xf6gel war das Unertr\xe4gliche,
+        nur einer von vielen anonymen Pflegern zu sein. Der Moment, in dem ein
+        Kollege rief \u201eH\xf6gel hat ihn gerettet!" \u2013 das war sein Drogenmoment.
+        Nicht Sadismus trieb ihn an, sondern die Angst vor dem Verschwinden im
+        Gew\xf6hnlichen.</p>
+        <p class="vb-intro"><strong>e) Suchtdynamik und Eskalation:</strong>
+        Siebener tendieren zu Suchtstrukturen \u2013 der n\xe4chste Kick muss gr\xf6\xdfer sein als
+        der letzte. H\xf6gels Eskalation \xfcber f\xfcnf Jahre ist eine klassische
+        Suchtdynamik: Der Adrenalinkick beim Retten wurde zur Droge,
+        die immer h\xe4ufiger gebraucht wurde. 85 Tote sind das Endstadium
+        einer Sucht, nicht das Ergebnis eines Plans.</p>
+        <p class="vb-intro"><strong>f) Das kindliche Unschuldsbild als letzte Abwehr:</strong>
+        Siebener halten tief in sich ein Selbstbild der Unschuld und inneren
+        G\xfcte aufrecht \u2013 ein psychisches Kleinkind, das \u201enichts B\xf6ses tut".
+        H\xf6gel schien auf einer Ebene tats\xe4chlich zu glauben, etwas Gutes zu tun.
+        Dieses kindliche Unschuldsbild ist die letzte Abwehrlinie der Sieben
+        gegen die eigene Schuld \u2013 und gleichzeitig die gef\xe4hrlichste Selbstt\xe4uschung,
+        die ein Typ 7 aufbauen kann.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sieben im Vergleich: Wie sich Ma\xdflosigkeit bei den drei Siebener-Subtypen unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausf\xfchrlich portr\xe4tiert \u2013 Ma\xdflosigkeit, Reframing und der Heilungsweg \xfcber echte N\xfcchternheit.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Niels H\u00f6gel wurde 2019 wegen 85-fachen Mordes zu lebenslanger Haft verurteilt \u2013 einer der gr\u00f6\u00dften Serienmordprozesse der deutschen Nachkriegsgeschichte. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+        {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
+        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function joachimKrollPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -9115,57 +9330,6 @@ function froschartenDer9TypenPage() {
         {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
         {route:"spinnenarten-der-9-typen", label:"Spinnenarten der 9 Typen"},
         {route:"reptilienarten-der-9-typen", label:"Reptilienarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function spinnenartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Spinnenarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Spinnen existieren seit \u00fcber 380 Millionen Jahren \u2013 l\u00e4nger als die Dinosaurier, l\u00e4nger als die Bl\u00fctenpflanzen. Auf jedem Kontinent, in jedem Lebensraum, in jeder H\u00f6henlage. Jede Art hat dabei eine vollkommen eigene Strategie entwickelt: zu bauen, zu lauern, zu jagen, zu verf\u00fchren. Neun Spinnenarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/spinnenarten-der-9-typen.jpg" alt="Spinnenarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Kreuzspinne: Das Netz als Kunstwerk</h3>
-        <p class="vb-intro">Die Kreuzspinne baut eines der pr\u00e4zisesten Konstrukte der Natur: ein radiales Fangnetz mit bis zu 1.500 einzelnen Verbindungspunkten, exakt symmetrisch, jeden Morgen neu errichtet, das alte nach einer Nacht aufgefressen und recycelt. Sie beginnt mit einem einzigen Haltefaden im Wind, wartet geduldig auf den Luftzug, der ihn zur Gegenseite tr\u00e4gt \u2013 und baut von dort aus nach einem internen Bauplan, der sich in ihrer DNA findet und seit Millionen von Jahren nicht ge\u00e4ndert hat. Das Netz folgt der Logarithmischen Spirale \u2013 derselben mathematischen Kurve, die in Muschelgeh\u00e4usen, Galaxienarmen und Pflanzenwachstum auftaucht. Die Kreuzspinne erfindet das Rad nicht neu. Sie baut es mit einer Pr\u00e4zision, die keine Erkl\u00e4rung braucht. Das Prinzip des Enneagrammtyps 1: Das Netz ist kein Werkzeug. Es ist ein Ausdruck dessen, was richtig ist \u2013 gebaut nach Ma\u00dfst\u00e4ben, die tiefer liegen als Absicht. Wenn es fertig ist, ist es vollkommen. Und es wird morgen wieder neu sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Krabbenspinne: Die wartende Gastgeberin</h3>
-        <p class="vb-intro">Die Krabbenspinne baut kein Netz \u2013 sie wartet. Auf Bl\u00fctenbl\u00e4ttern, in Kelchen, zwischen Staubf\u00e4den sitzt sie, vollkommen still, perfekt getarnt: Wei\u00df auf wei\u00dfer Bl\u00fcte, gelb auf gelber Bl\u00fcte. Sie kann ihre Farbe innerhalb von Tagen anpassen. Sie versteckt sich nicht \u2013 sie wird eins mit dem Ort, an dem andere Nahrung suchen, und emp\u00e4ngt sie. Bienen, Schwebefliegen, Schmetterlinge kommen freiwillig n\u00e4her, angezogen vom Duft der Bl\u00fcte, und die Krabbenspinne greift zu \u2013 ohne Gift in gro\u00dfen Mengen, daf\u00fcr mit einem einzigen, pr\u00e4zisen Biss in den Nacken. Die Beute sp\u00fcrt kaum etwas. Was f\u00fcr den Beobachter wie eine lauernde J\u00e4gerin aussieht, ist f\u00fcr die Krabbenspinne einfach ihr Ort: Sie ist dort, wo andere hinwollen. Das Prinzip des Enneagrammtyps 2: Die Krabbenspinne er\u00f6ffnet keinen Kampf. Sie schafft einen Raum \u2013 und andere kommen von selbst. Ihr Geheimnis ist nicht Kraft, sondern die F\u00e4higkeit, sich vollst\u00e4ndig einzuf\u00fcgen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Springspinne: Leistung mit Augenkontakt</h3>
-        <p class="vb-intro">Die Springspinne ist die sportlichste Spinne der Welt: Sie kann das 50-fache ihrer K\u00f6rperl\u00e4nge in einem einzigen Sprung zur\u00fccklegen \u2013 f\u00fcr einen Menschen w\u00e4re das ein Sprung \u00fcber ein Fu\u00dfballfeld. Dabei trifft sie Beute mit einer Pr\u00e4zision, die selbst High-Speed-Kameras kaum erfassen k\u00f6nnen. Was die Springspinne von anderen Jagdspinnen unterscheidet: Sie dreht sich vor dem Angriff um, schaut direkt in die Augen ihrer Beute \u2013 und entscheidet dann. Ihre vier gro\u00dfen Augen geben ihr ein dreidimensionales Sichtfeld, das dem des Menschen \u00e4hnelt. Springspinnen sind auch die einzigen Spinnen, die auf Blicke von Menschen reagieren: Sie schauen zur\u00fcck. Sie wissen, dass sie beobachtet werden. Das Prinzip des Enneagrammtyps 3: Die Springspinne versteckt sich nicht hinter ihrem Netz. Sie steht in der Mitte des Raumes, macht Augenkontakt \u2013 und springt dann so pr\u00e4zise, dass das Ergebnis unausweichlich ist. Leistung, die man sieht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Pfauenspinne: Sch\u00f6nheit als \u00dcberlebensstrategie</h3>
-        <p class="vb-intro">Die Pfauenspinne ist die farbenpr\u00e4chtigste Spinne der Welt \u2013 und das M\u00e4nnchen hat einen Balztanz entwickelt, der unter Biologen als eines der eindrucksvollsten Verhaltensrepertoires im Tierreich gilt. Es klappt seinen bunten Hinterleib auf, streckt seine Beine aus, und beginnt zu tanzen: rhythmisch, pr\u00e4zise, mit einer Begeisterung, die zu seiner Winzigkeit (kaum 5 Millimeter) in einem komischen Missverh\u00e4ltnis steht. Wenn der Tanz nicht \u00fcberzeugt, frisst das Weibchen ihn. Wenn er \u00fcberzeugt, hat er etwas geschaffen, das kein anderes Tier schafft: Er hat mit purer Einzigartigkeit \u00fcberlebt. Jede Pfauenspinnen-Art hat ein anderes Muster \u2013 kein zwei sind gleich, und innerhalb einer Art unterscheiden sich die M\u00e4nnchen in Farbe, Bewegung und Stil. Das Prinzip des Enneagrammtyps 4: Die Pfauenspinne zeigt, was in ihr ist \u2013 vollst\u00e4ndig, ohne R\u00fcckhalt, auf Leben und Tod. Einzigartigkeit ist nicht Dekoration. Sie ist die einzige M\u00f6glichkeit zu \u00fcberleben.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Wolfsspinne: Einzelg\u00e4ngerin mit System</h3>
-        <p class="vb-intro">Die Wolfsspinne jagt wie ein Wolf: allein, am Boden, mit einer Kombination aus Ausdauer, Beobachtung und dem richtigen Moment. Sie baut kein Netz \u2013 sie verfolgt ihre Beute aktiv, beobachtet sie aus sicherer Entfernung und schl\u00e4gt zu, wenn die Situation optimal ist. Ihre acht Augen sind in drei Reihen angeordnet und geben ihr einen nahezu vollst\u00e4ndigen Rundblick; die beiden gro\u00dfen Hauptaugen leuchten im Dunkeln wie kleine Scheinwerfer \u2013 weshalb man Wolfsspinnen nachts mit einer Taschenlampe aufsp\u00fcren kann. Was die Wolfsspinne von anderen Jagdspinnen unterscheidet: Sie tr\u00e4gt ihre Eier am K\u00f6rper mit sich \u2013 und nach dem Schl\u00fcpfen klettern die Jungen auf den R\u00fccken der Mutter, wo sie bis zu ihrer ersten H\u00e4utung bleiben. Diese Spinne, die sonst alles allein tut, gibt in diesem Moment vollst\u00e4ndig. Das Prinzip des Enneagrammtyps 5: Die Wolfsspinne wei\u00df alles \u00fcber ihr Revier. Sie braucht niemanden, um zu jagen \u2013 aber wenn Verantwortung entsteht, \u00fcbernimmt sie sie vollst\u00e4ndig.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Spaltenkreuzspinne: Sicherheit durch Struktur</h3>
-        <p class="vb-intro">Die Spaltenkreuzspinne baut ihre Netze mit einer Konsequenz, die selbst unter Spinnen auff\u00e4llt: immer in gesch\u00fctzten Spalten, immer mit einem R\u00fcckzugsweg, immer so, dass sie bei Gef\u00e4hrdung sofort verschwinden kann. Ihr Netz ist symmetrisch und pr\u00e4zise \u2013 aber sie sitzt nicht im Zentrum, wo andere Spinnen warten. Sie sitzt am Rand, im Spalt, verbunden mit dem Netz \u00fcber einen Signalfaden: Sie sp\u00fcrt jede Vibration, ohne exponiert zu sein. Diese Kombination aus Pr\u00e4senz und Schutz ist ihr charakteristisches Merkmal. Sie kennt ihre Umgebung genau, baut immer an denselben Stellen, und verl\u00e4sst ihr Revier nicht ohne Not. Das Prinzip des Enneagrammtyps 6: Die Spaltenkreuzspinne zeigt, dass Sicherheit keine Angst voraussetzt \u2013 sie setzt Klugheit voraus. Sie baut nicht trotz der Gefahren. Sie baut so, dass die Gefahren ihr nichts anhaben k\u00f6nnen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Bananenspinne: Gro\u00df, bunt, \u00fcberall</h3>
-        <p class="vb-intro">Die Bananenspinne \u2013 auch Riesenradnetzspinne \u2013 baut die gr\u00f6\u00dften freistehenden Netze aller Spinnen: bis zu zwei Meter Durchmesser, aufgespannt zwischen B\u00e4umen, quer \u00fcber Wege, von Ast zu Ast. Ihre Seide ist goldgelb und so rei\u00dffest, dass Forscher sie als m\u00f6gliches Material f\u00fcr kugelsichere Westen untersuchen. Die Bananenspinne selbst ist auff\u00e4llig gro\u00df, lebhaft gef\u00e4rbt und bewegt sich mit einer Energie, die ihrer Gr\u00f6\u00dfe widerspricht \u2013 sie repariert ihr Netz bei laufendem Betrieb, springt von Abschnitt zu Abschnitt, gibt auf nichts. Was wenige wissen: Bananenspinnen leben manchmal in sogenannten Haremsstrukturen \u2013 ein Weibchen, mehrere winzige M\u00e4nnchen um sie herum. Lebhaft, gesellig, immer etwas los. Das Prinzip des Enneagrammtyps 7: Die Bananenspinne baut kein kleines, sicheres Netz. Sie spannt es zwischen den gr\u00f6\u00dften B\u00e4umen, die sie findet \u2013 und wenn es rei\u00dft, f\u00e4ngt sie sofort mit dem n\u00e4chsten an.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Vogelspinne: Macht ohne Entschuldigung</h3>
-        <p class="vb-intro">Die Vogelspinne ist die gr\u00f6\u00dfte Spinne der Welt \u2013 und die, die den meisten Menschen den meisten Respekt einfl\u00f6\u00dft. Ihr K\u00f6rper kann die Gr\u00f6\u00dfe einer menschlichen Hand erreichen; ihre Fangh\u00e4kchen sind stark genug, M\u00e4use, Fr\u00f6sche, kleine V\u00f6gel zu \u00fcberw\u00e4ltigen. Und dennoch: Vogelspinnen sind keine aggressiven Tiere. Sie greifen nicht an, wenn sie nicht provoziert werden. Sie leben jahrzehntelang in denselben H\u00f6hlen, verteidigen ihr Revier mit Klarheit \u2013 aber ohne Hysterie. Ihr Gift ist in der Regel f\u00fcr Menschen weniger gef\u00e4hrlich als ein Bienenstich. Was Menschen an ihr erschreckt, ist nicht ihre Gef\u00e4hrlichkeit \u2013 es ist ihre pure Pr\u00e4senz. Sie versteckt sich nicht. Sie kommt heraus, wenn sie will. Das Prinzip des Enneagrammtyps 8: Die Vogelspinne braucht weder Tarnung noch List. Ihre Gr\u00f6\u00dfe ist ihre Kommunikation \u2013 direkt, unmissverst\u00e4ndlich, ohne Entschuldigung. Wer Respekt zeigt, hat nichts zu bef\u00fcrchten. Wer provoziert, lernt schnell, warum das keine gute Idee war.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Goldene Seidenspinne: Harmonie als Meisterwerk</h3>
-        <p class="vb-intro">Die Goldene Seidenspinne spinnt die st\u00e4rkste nat\u00fcrliche Faser der Welt: Ihre Seide ist rei\u00dffester als Stahl, elastischer als Nylon und leichter als Baumwolle \u2013 und sie schimmert im Sonnenlicht tats\u00e4chlich golden. In Papua-Neuguinea weben Fischer seit Jahrhunderten Fischernetze aus ihren F\u00e4den. Ihr Netz ist ein dauerhaftes Werk \u2013 sie baut nicht jeden Tag neu, sondern pflegt, repariert, erweitert. Dasselbe Netz kann Monate halten. Was es so besonders macht: Es ist nicht nur stark, es ist sch\u00f6n. Die goldene F\u00e4rbung zieht Bienen an, die Licht suchen \u2013 Beute, die freiwillig kommt, weil das Netz strahlt. Die Spinne selbst ist ruhig, wenig aggressiv, fast geduldig. Sie sitzt im Zentrum ihres Werkes und wartet. Das Prinzip des Enneagrammtyps 9: Die Goldene Seidenspinne braucht keine Eile, keinen L\u00e4rm, keine \u00fcbertriebene Aktion. Sie hat das St\u00e4rkste geschaffen, das es gibt \u2013 und es strahlt von selbst. Harmonie, die tr\u00e4gt.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"froscharten-der-9-typen", label:"Froscharten der 9 Typen"},
-        {route:"reptilienarten-der-9-typen", label:"Reptilienarten der 9 Typen"},
-        {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
       ])}
     </div>
   `);

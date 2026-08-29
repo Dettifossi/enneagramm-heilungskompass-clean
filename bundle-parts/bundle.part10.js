@@ -1,3 +1,69 @@
+function johnnyCashPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johnny-cash-portrait.jpg" alt="Johnny Cash" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johnny Cash</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Sänger und Songwriter, 1932–2003 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das aus kargen Verhältnissen mit findiger Cleverness etwas Funktionierendes baut, statt auf Kraft oder Auftreten zu setzen. J. R. Cash wurde 1932 in Kingsland, Arkansas, als Sohn armer Baumwollpächter geboren; mit drei Jahren zog die Familie in die staatliche Siedlungskolonie Dyess, wo er bis zu seinem fünfzehnten Lebensjahr täglich auf den Feldern arbeitete. Aus dieser Kargheit erwuchs kein Selbstmitleid, sondern ein früh geschultes Gespür dafür, was man mit den eigenen Händen tatsächlich zustande bringt.</p>
+          <p class="vb-intro">1944 starb sein älterer Bruder Jack im Alter von vierzehn Jahren, eine Woche nach einem schweren Unfall an einer Kreissäge in der Schulwerkstatt. Jack war der erklärte Lieblingssohn des Vaters Ray Cash gewesen, und Ray ließ seinen überlebenden Sohn jahrzehntelang spüren, wer aus seiner Sicht hätte sterben sollen. Johnny trug diese Schuld sein Leben lang mit sich – und begann früh, sich etwas aufzubauen, das niemand ihm mehr streitig machen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Baumeister der eigenen Karriere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Wert entsteht nicht durch öffentliche Selbstinszenierung, sondern durch das funktionierende Ergebnis. Cash suchte nie die Anziehungskraft der sexuellen Drei oder die permanente Bühnenpräsenz der sozialen Drei – seine Energie floss in etwas Dauerhaftes: über fünf Jahrzehnte Tourneen, Hunderte von Alben, eine der längsten und stabilsten Karrieren der amerikanischen Musikgeschichte, aufgebaut trotz jahrzehntelanger Sucht, mehrerer Karriereeinbrüche und tiefer familiärer Krisen.</p>
+          <p class="vb-intro">Diese SE3-Logik zeigte sich auch strategisch: Sein legendäres Konzert im Folsom State Prison 1968 war keine spontane Geste, sondern eine sorgfältig geplante Karriereentscheidung, nachdem seine Verkaufszahlen eingebrochen waren – ein kalkulierter Neuanfang, der zugleich zu einem seiner künstlerisch bedeutendsten Werke wurde. Wo andere Musiker ihrer Zeit nachließen oder sich neu erfanden, um im Rampenlicht zu bleiben, baute Cash systematisch an einer Karrierestruktur, die auch Rückschläge überstehen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der Mann in Schwarz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine Dimension, die reine Funktionalität übersteigt: den Hunger nach Tiefe, nach dem, was unter der glänzenden Oberfläche der Country-Musik liegt. 1971 erklärte Cash in seinem Song „Man in Black", warum er stets schwarz gekleidet auftrat – als stellvertretende Trauer für die Armen, die Gefangenen, die Kranken, die alten Menschen, die im Vietnamkrieg Gefallenen. Kein Marketing-Gag, sondern eine bewusst gewählte, düster-authentische Bühnenfigur, die Solidarität mit den Übersehenen zur eigenen Identität machte.</p>
+          <p class="vb-intro">Dieselbe Vierertiefe durchzieht sein Songwriting: Lieder über Mord, Schuld, Gefängnis und Verzweiflung – „Folsom Prison Blues" mit der Zeile „I shot a man in Reno just to watch him die" schrieb er, ohne selbst je einen Menschen getötet zu haben, aus reiner Vorstellungskraft für das Dunkelste im Menschen. Diese Fähigkeit, sich in Schuld und Abgrund einzufühlen, dürfte auch aus der eigenen, nie vollständig verarbeiteten Schuld am Tod seines Bruders gespeist gewesen sein – die Vier, die die eigene Wunde in Kunst übersetzt, statt sie zu verbergen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Folsom Prison, 1968</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 13. Januar 1968 spielte Cash vor Insassen des Folsom State Prison in Kalifornien – ein Konzert, das er seit Jahren angeregt hatte, gegen den Widerstand seines eigenen Labels. Das Publikum aus verurteilten Straftätern reagierte mit einer Begeisterung, die Cashs eigene, jahrelange Nähe zu Sucht, Gesetzeskonflikten und persönlichem Absturz spiegelte – er selbst war zuvor mehrfach wegen Drogenbesitzes verhaftet worden, ohne je eine Haftstrafe abzusitzen.</p>
+          <p class="vb-intro">Das daraus entstandene Live-Album „At Folsom Prison" wurde zu einem der kommerziell erfolgreichsten und kulturell bedeutendsten Werke seiner Karriere – der Moment, in dem strategischer Karriereaufbau (SE3) und echte, tief empfundene Verbundenheit mit den Ausgestoßenen der Gesellschaft (w4) untrennbar zusammenfielen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, <strong>aus echter innerer Tiefe eine dauerhafte, tragfähige Struktur zu bauen</strong>, statt Tiefe entweder zu verbergen oder sie flüchtig zur Schau zu stellen. Cash verband eine der beständigsten Karrieren der Musikgeschichte mit Songs, die bis heute als schonungslos ehrlich gelten – ein seltenes Gleichgewicht zwischen Struktur und Substanz.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei Cash zeigte sich das in der über Jahre aufrechterhaltenen öffentlichen Fassade des kontrollierten „Man in Black", während er in den 1960er Jahren heimlich amphetamin- und barbituratabhängig war, bis zum körperlichen Zusammenbruch. Erst 1967/68 gelang mit Hilfe von June Carter (SE4w3) und ihrer Familie der Ausstieg – eine Krise, die zeigt, wie viel Kraft es die SE3 kostet, ein funktionierendes Bild aufrechtzuerhalten, während im Inneren längst alles zu zerbrechen droht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Bild zur Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich aufgebaut?</em> zur Erkenntnis <em>Ich bin – auch ohne das Bild, das ich pflege.</em> Für die SE3w4 bedeutet das, Tiefe nicht länger nur als Songmaterial zu nutzen, sondern die eigene Verletzlichkeit ungeschminkt zuzulassen.</p>
+          <p class="vb-intro">Genau das geschah in seinen letzten Lebensjahren: Ab 1994 nahm Cash gemeinsam mit Produzent Rick Rubin die Reihe „American Recordings" auf – meist nur seine Stimme und eine akustische Gitarre, ohne die gewohnte Studio-Inszenierung. Seine 2002 veröffentlichte Coverversion von „Hurt" (Nine Inch Nails), aufgenommen kurz vor seinem Tod, zeigt einen sichtlich gezeichneten, gealterten Mann, der keine Rolle mehr spielt. Der Waschbär, der ein Leben lang Systeme baute, endete mit der Geste, sich selbst ganz ohne Fassade zu zeigen – vier Monate nach dem Tod seiner Frau June starb Johnny Cash am 12. September 2003.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
+        {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function davidLRathmerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10877,203 +10943,6 @@ function robertSchumannKrankheitsportraetPage() {
         {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Schumann entdeckt, besuchte ihn regelmäßig in Endenich"},
         {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8)"},
         {route:"krankheitsportraets-franz-liszt", label:"Krankheitsporträt: Franz Liszt (SX7w8) – dieselbe Unfähigkeit, kürzerzutreten"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
-      ])}
-    </div>
-  `);
-}
-
-function franzLisztKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-franz-liszt-portrait.jpg" alt="Franz Liszt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Franz Liszt</p>
-        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel · 1811–1886</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Schimpanse</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Franz Liszt</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-franz-liszt">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Klaviervirtuose und
-        Komponist und seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das
-        dort kurz thematisiert wird: Herzschwäche, Wassersucht und fortschreitende Erblindung in
-        seinen letzten Lebensjahren, die ihn nicht zum Innehalten brachten, sondern bis nach
-        Bayreuth trieben, wo er 1886 an einer Lungenentzündung starb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Liszt</strong> ist dem <strong>sexuellen Typ 7 mit Achterflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Suggestibilität</em>: die vollständige
-        Hingabe an das, was begeistert, ohne Vorbehalt oder Bremse. Der Achterflügel bringt die
-        Bereitschaft zum offenen Kampf statt zum Ausweichen hinzu. Genau diese Maßlosigkeit –
-        die Leidenschaft der Sieben – bestimmte auch, wie Liszt mit seiner eigenen,
-        fortschreitenden Krankheit umging.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Fortschreitende Herzschwäche und Wassersucht ab den 1870er-Jahren:</strong>
-        Schon Jahre vor seinem Tod litt Liszt zunehmend an Herzbeschwerden und Ödemen
-        („Wassersucht"), die seine körperliche Belastbarkeit spürbar einschränkten.</p>
-        <p class="vb-intro"><strong>b) Fortschreitende Erblindung eines Auges:</strong>
-        Grauer Star ließ Liszts Sehkraft auf einem Auge in seinen letzten Lebensjahren
-        zunehmend nachlassen – für einen Pianisten und Dirigenten eine erhebliche
-        Beeinträchtigung, die er kaum thematisierte.</p>
-        <p class="vb-intro"><strong>c) Unverändertes Reisepensum trotz der Beschwerden:</strong>
-        Trotz seiner gesundheitlichen Probleme hielt Liszt an seiner „vie trifurquée" fest –
-        einem Leben, das er beharrlich zwischen Weimar, Rom und Budapest aufteilte, mit
-        ständigem Unterrichten, Reisen und öffentlichen Auftritten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Kein Rückzug vom Unterrichten und Reisen:</strong>
-        Liszt unterrichtete bis in seine letzten Lebensjahre Hunderte Schüler und reiste
-        weiterhin unermüdlich zwischen seinen drei Wohnorten – eine Lebensweise, die er trotz
-        nachlassender Kräfte nicht einschränkte.</p>
-        <p class="vb-intro"><strong>b) Zunehmender Alkoholkonsum in den letzten Lebensjahren:</strong>
-        Zeitgenossen berichteten besorgt von einem wachsenden Cognac-Konsum, der mit
-        depressiven Verstimmungen und den zahlreichen persönlichen Verlusten seiner späten
-        Jahre in Verbindung gebracht wurde.</p>
-        <p class="vb-intro"><strong>c) Depressive Phasen nach schweren persönlichen Verlusten:</strong>
-        Der frühe Tod seines Sohnes Daniel 1859 und seiner Tochter Blandine 1862 hinterließ
-        tiefe Spuren, die sich in den letzten Lebensjahren zunehmend mit den körperlichen
-        Beschwerden vermischten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Die Reise nach Bayreuth im Juli 1886:</strong>
-        Trotz sich rapide verschlechternder Gesundheit reiste der bereits schwer kranke Liszt
-        zu den von seinem Schwiegersohn Richard Wagner begründeten Festspielen, um seine
-        Tochter Cosima zu unterstützen.</p>
-        <p class="vb-intro"><strong>b) Teilnahme an einer Aufführung trotz Fieber:</strong>
-        Bereits mit einer schweren Erkältung und Fieber geschwächt, bestand Liszt darauf, eine
-        Aufführung von „Tristan und Isolde" zu besuchen – gegen den ausdrücklichen Rat der
-        behandelnden Ärzte, die ihm strikte Bettruhe verordnet hatten.</p>
-        <p class="vb-intro"><strong>c) Tod am 31. Juli 1886 in Bayreuth:</strong>
-        Franz Liszt starb im Alter von 74 Jahren an einer Lungenentzündung, mitten im Zentrum
-        jener Festspiele, die untrennbar mit seinem eigenen musikalischen Erbe verbunden waren.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: Robert Schumann</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch <a href="javascript:void(0)" data-route="beruehmte-robert-schumann">Robert
-        Schumann</a> (SX7w8) kannte diese Unfähigkeit, eine Intensität rechtzeitig zu bremsen –
-        bei ihm eskalierte sie in den Sprung in den Rhein 1854. Sein
-        <a href="javascript:void(0)" data-route="krankheitsportraets-robert-schumann">eigenes
-        Krankheitsporträt</a> zeigt dasselbe SX7w8-Muster wie bei Liszt: eine Hingabefähigkeit
-        ohne eingebaute Bremse, die sich, wenn sie an eine Grenze stößt, nicht in Rückzug,
-        sondern in eine weitere Zuspitzung entlädt – bei Liszt die Reise nach Bayreuth trotz
-        schwerer Krankheit, bei Schumann der verzweifelte Sprung ins eiskalte Wasser.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein Tod mitten im eigenen Vermächtnis:</strong>
-        Dass Liszt ausgerechnet bei den Bayreuther Festspielen starb, die ohne seine
-        Unterstützung Wagners und seine familiäre Verbindung zu Cosima kaum in dieser Form
-        existiert hätten, wirkt wie eine bittere Pointe seines Lebens.</p>
-        <p class="vb-intro"><strong>b) Ein Ende, das lange unterschätzt wurde:</strong>
-        Weil Liszt seine Beschwerden über Jahre kaum öffentlich thematisierte und weiterhin
-        unterrichtete und reiste, wurde der Ernst seines Zustands von seinem Umfeld erst in den
-        letzten Wochen wirklich erkannt.</p>
-        <p class="vb-intro"><strong>c) Eine letzte, kompromisslose Geste:</strong>
-        Die Teilnahme an der Aufführung trotz Fieber und ärztlichem Verbot wurde im Nachhinein
-        oft als letzte, typische Geste eines Mannes gedeutet, der sich nie von äußeren Grenzen
-        hatte einschränken lassen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Schimpanse, der bis zuletzt nicht kürzertrat:</strong>
-        Dieselbe unerschöpfliche Begeisterungsfähigkeit, die Liszt jahrzehntelang durch ganz
-        Europa trieb, ließ ihn auch angesichts massiver gesundheitlicher Warnsignale nicht
-        innehalten.</p>
-        <p class="vb-intro"><strong>b) Ärztlicher Rat gegen den eigenen Antrieb:</strong>
-        Die Weigerung, dem Rat seiner Ärzte zu folgen und die Aufführung auszulassen, zeigt
-        denselben Achterflügel-Trotz, der Liszt einst dazu brachte, sich öffentlich gegen die
-        etablierte Leipziger Musikwelt zu stellen – Widerstand macht ihn nur entschlossener.</p>
-        <p class="vb-intro"><strong>c) Kein geordneter Rückzug, sondern ein Zusammenbruch mitten im Geschehen:</strong>
-        Statt eines ruhigen Lebensabends endete Liszts Leben mitten im Zentrum eines
-        öffentlichen Ereignisses – der Schimpanse, der bis zuletzt im Geschehen blieb, statt
-        sich zurückzuziehen.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Jahre wachsender Beschwerden, die das Lebenstempo nicht bremsten:</strong>
-        Herzschwäche, Wassersucht und Erblindung entwickelten sich über Jahre – doch Liszts
-        Reise- und Arbeitspensum blieb bis fast zum Schluss praktisch unverändert. Die
-        Leidenschaft der Sieben, die <strong>Völlerei</strong>, kannte auch angesichts des
-        eigenen körperlichen Verfalls keine Bremse.</p>
-        <p class="vb-intro"><strong>b) Alkohol als stille Begleiterscheinung der Maßlosigkeit:</strong>
-        Der zunehmende Cognac-Konsum seiner letzten Jahre passt in dasselbe Muster wie sein
-        gesamtes Leben: Intensität als Antwort auf jede Erfahrung, auch auf Trauer und
-        körperlichen Verfall, statt Rückzug oder Schonung.</p>
-        <p class="vb-intro"><strong>c) Wenn die Sieben unter chronischem Stress zur Eins wird:</strong>
-        Dass Liszt trotz Fieber und ausdrücklichem ärztlichem Verbot auf den Besuch der
-        Aufführung bestand, wirkt weniger wie die spielerische Wahlfreiheit der gesunden Sieben
-        als wie eine fast pflichtbewusste, rigide Weigerung nachzugeben. Wer über Jahre in
-        chronischem körperlichem Verfall lebt, bewegt sich zunehmend entlang seiner
-        Stresslinie in Richtung seines Stresspunkts – bei der Sieben ist das die Eins. Dieses
-        unnachgiebige „Ich lasse mich davon nicht abhalten" in seinen letzten Lebenswochen
-        erinnert an die starre Pflichterfüllung des Stresspunkts, nicht an die Leichtigkeit
-        des Kerntyps – bei unverändertem Kerntyp SX7w8.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet Herz und Lunge?</strong>
-        Für eine sexuelle Sieben, deren gesamte Lebenskraft sich in unermüdlicher, körperlicher
-        Präsenz auf der Bühne und in ständigem Reisen ausdrückte, liegt eine Deutung nahe:
-        Ausgerechnet jene Organe, die Ausdauer und Durchhaltevermögen ermöglichten, wurden zum
-        Schauplatz des Verfalls – als hätte der Körper irgendwann die Rechnung für ein Leben
-        ohne eingebaute Pause präsentiert. Diese Deutung ist eine plausible Interpretation,
-        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
-        dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu Herz- oder
-        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Liszts Fall zeigen lässt, ist ein Muster im
-        Umgang mit fortschreitender Krankheit, das bei einer ausgeprägten sexuellen Sieben mit
-        Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Liszt kannte sein eigenes Muster nicht – die sexuelle Sieben mit Achterflügel lässt
-        sich von Widerstand nicht bremsen, sondern erst recht anspornen, und genau dieses
-        Muster trieb ihn trotz Herzschwäche, Erblindung und Fieber unbeirrt weiter, statt
-        rechtzeitig kürzerzutreten. Wer die eigene Unfähigkeit, eine Grenze zu akzeptieren,
-        nicht als wiederkehrendes Muster erkennt, kann sie auch nicht durchbrechen, wenn der
-        eigene Körper längst unübersehbare Warnsignale sendet.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Liszts</strong> sexuelle Sieben mit
-        Achterflügel noch einmal ablesen: Jahre wachsender körperlicher Beschwerden, die das
-        Lebenstempo nicht bremsten, und ein letzter, kompromissloser Auftritt gegen ärztlichen
-        Rat, der zum Todesstoß wurde. Der Schimpanse, der ganze Säle in Ekstase versetzte – und
-        dessen eigener Körper am Ende der einzige war, der ihn endgültig zum Stillstand
-        brachte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8) – Lebenswerk"},
-        {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – dieselbe Unfähigkeit, kürzerzutreten"},
-        {route:"krankheitsportraets-leonard-bernstein", label:"Krankheitsporträt: Leonard Bernstein (SX7w6) – letztes Konzert gegen ärztlichen Rat"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}

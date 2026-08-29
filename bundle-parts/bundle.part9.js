@@ -4004,6 +4004,65 @@ function ashtonKutcherPortraitPage() {
   `);
 }
 
+function jennaOrtegaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jenna-ortega-portrait.jpg" alt="Jenna Ortega – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jenna Ortega</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin, geb. 2002 – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – ein Tier, das seine Energie nicht für sich behält, sondern für eine größere Gemeinschaft einsetzt. Jenna Ortega wurde 2002 in Rancho Mirage, Kalifornien, geboren, als viertes von sechs Kindern einer Familie mit mexikanischen und puerto-ricanischen Wurzeln. Ihr Vater arbeitete im Strafverfolgungswesen, ihre Mutter als Krankenschwester in der Notaufnahme – ein Elternhaus, dessen berufliche Prägung durchgehend im Dienst am Gemeinwohl stand.</p>
+          <p class="vb-intro">Ihre Schauspielkarriere begann früh, mit Rollen als junge Jane in ›Jane the Virgin‹ und als Harley Diaz in ›Stuck in the Middle‹ – Kinderdarstellerin in einem Umfeld, das ihr schon in jungen Jahren beibrachte, öffentliche Aufmerksamkeit zu tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Sichtbarkeit im Dienst größerer Anliegen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die <strong>soziale Zwei (SO2)</strong> <em>Ehrgeiz</em>: Sie will nicht nur begabt sein, sie will diese Begabung sichtbar und wirksam für andere einsetzen. Ortega nutzt ihre wachsende Bekanntheit konsequent als Plattform – für Repräsentation lateinamerikanischer Communitys in Hollywood, für Aufklärung über psychische Gesundheit, für LGBTQ+-Rechte und soziale Gerechtigkeit. Ihr mexikanisch-puerto-ricanisches Erbe beschreibt sie selbst als zentralen Teil ihrer Identität, den sie öffentlich sichtbar macht, statt ihn im Hintergrund zu halten.</p>
+          <p class="vb-intro">2025 machte sie ihre eigene Zwangsstörung (OCD) öffentlich – nicht als beiläufige Randnotiz, sondern in einem ausführlichen Interview, in dem sie konkrete, teils erschöpfende Rituale beschrieb: das Zählen bestimmter Zahlen unter der Dusche, eine feste Reihenfolge beim Anziehen, nächtliches sechsmaliges Treppensteigen aus der zwingenden Überzeugung heraus, damit einen Einbruch verhindern zu müssen. Diese Offenheit löste eine breite öffentliche Debatte über psychische Gesundheit aus – die soziale Zwei, die ihre eigene Verletzlichkeit zum Anlass macht, anderen die Auseinandersetzung mit ähnlichen Themen zu erleichtern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Nebendarsteller zum globalen Phänomen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb, aus Begabung sichtbaren, messbaren Erfolg zu formen. Für ihre Titelrolle in der Netflix-Serie ›Wednesday‹ (2022) lernte Ortega eigens Cello spielen, um die Figur möglichst authentisch zu verkörpern – ein Beispiel für die disziplinierte, zielgerichtete Vorbereitung, mit der die SO2w3 aus Talent handfesten, überprüfbaren Erfolg macht. Die Serie wurde zur meistgesehenen englischsprachigen Serie in der Geschichte von Netflix und brachte ihr Nominierungen für Golden Globe, Primetime Emmy und Screen Actors Guild Award ein.</p>
+          <p class="vb-intro">Zuvor hatte sie sich bereits im Horror- und Thriller-Genre etabliert, unter anderem in ›Scream‹ (2022) und ›X‹ – eine bewusst aufgebaute, genreübergreifende Karriere, die Sichtbarkeit gezielt suchte, statt sie dem Zufall zu überlassen. Der Dreierflügel übersetzt frühen Kinderstar-Status in eine strategisch ausgebaute, international sichtbare Filmografie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 liegt in der Fähigkeit, enorme öffentliche Sichtbarkeit konsequent für Anliegen einzusetzen, die über die eigene Karriere hinausreichen – Ortegas Engagement für Repräsentation und psychische Gesundheit erreicht durch ihre Reichweite ein Millionenpublikum, das viele kleinere Initiativen nie erreichen könnten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die Überzeugung, für andere wichtig sein zu müssen, verbunden mit der Schwierigkeit, die eigenen Bedürfnisse offen zu benennen. Bei Ortega zeigt sich der Schatten in einem deutlichen Kontrast: Trotz enormer öffentlicher Präsenz beschreibt sie sich selbst als ›völlig missverstanden‹ und schildert die erschöpfenden, oft verborgenen Zwangsrituale, mit denen sie im Privaten ringt – ein Hinweis darauf, wie viel Kraft es kostet, ständig für andere sichtbar und verfügbar zu sein, während die eigene innere Realität unsichtbar bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Von der Kinderdarstellerin zur Stimme einer Generation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von den ersten Kinderrollen über den Durchbruch im Horror-Genre bis zur weltweiten ›Wednesday‹-Bekanntheit und dem öffentlichen Umgang mit der eigenen OCD-Erkrankung zieht sich ein roter Faden durch Ortegas Weg: Sichtbarkeit, die von Anfang an genutzt wurde, um mehr als nur die eigene Karriere zu tragen.</p>
+          <p class="vb-intro">Der Golden Retriever teilt seine Gaben, statt sie für sich zu behalten. Jenna Ortegas Weg vom Kinderstar zur meistgesehenen Netflix-Hauptdarstellerin ihrer Generation zeigt, wie aus früher Disziplin, gezielt aufgebauter Sichtbarkeit und der Bereitschaft, eigene Verletzlichkeit öffentlich zu machen, echte Wirkung für andere entstehen kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-ayo-edebiri", label:"Portrait: Ayo Edebiri (SO2w3)"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function ayoEdebiriPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7252,72 +7311,6 @@ function brynKenneyPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-annika-von-mutius", label:"Porträt: Dr. Annika von Mutius (SE3w4)"},
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function johnnyCashPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-johnny-cash-portrait.jpg" alt="Johnny Cash" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Johnny Cash</p>
-        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">US-amerikanischer Sänger und Songwriter, 1932–2003 – Tierentsprechung: Waschbär</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das aus kargen Verhältnissen mit findiger Cleverness etwas Funktionierendes baut, statt auf Kraft oder Auftreten zu setzen. J. R. Cash wurde 1932 in Kingsland, Arkansas, als Sohn armer Baumwollpächter geboren; mit drei Jahren zog die Familie in die staatliche Siedlungskolonie Dyess, wo er bis zu seinem fünfzehnten Lebensjahr täglich auf den Feldern arbeitete. Aus dieser Kargheit erwuchs kein Selbstmitleid, sondern ein früh geschultes Gespür dafür, was man mit den eigenen Händen tatsächlich zustande bringt.</p>
-          <p class="vb-intro">1944 starb sein älterer Bruder Jack im Alter von vierzehn Jahren, eine Woche nach einem schweren Unfall an einer Kreissäge in der Schulwerkstatt. Jack war der erklärte Lieblingssohn des Vaters Ray Cash gewesen, und Ray ließ seinen überlebenden Sohn jahrzehntelang spüren, wer aus seiner Sicht hätte sterben sollen. Johnny trug diese Schuld sein Leben lang mit sich – und begann früh, sich etwas aufzubauen, das niemand ihm mehr streitig machen konnte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Baumeister der eigenen Karriere</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Wert entsteht nicht durch öffentliche Selbstinszenierung, sondern durch das funktionierende Ergebnis. Cash suchte nie die Anziehungskraft der sexuellen Drei oder die permanente Bühnenpräsenz der sozialen Drei – seine Energie floss in etwas Dauerhaftes: über fünf Jahrzehnte Tourneen, Hunderte von Alben, eine der längsten und stabilsten Karrieren der amerikanischen Musikgeschichte, aufgebaut trotz jahrzehntelanger Sucht, mehrerer Karriereeinbrüche und tiefer familiärer Krisen.</p>
-          <p class="vb-intro">Diese SE3-Logik zeigte sich auch strategisch: Sein legendäres Konzert im Folsom State Prison 1968 war keine spontane Geste, sondern eine sorgfältig geplante Karriereentscheidung, nachdem seine Verkaufszahlen eingebrochen waren – ein kalkulierter Neuanfang, der zugleich zu einem seiner künstlerisch bedeutendsten Werke wurde. Wo andere Musiker ihrer Zeit nachließen oder sich neu erfanden, um im Rampenlicht zu bleiben, baute Cash systematisch an einer Karrierestruktur, die auch Rückschläge überstehen konnte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Der Mann in Schwarz</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine Dimension, die reine Funktionalität übersteigt: den Hunger nach Tiefe, nach dem, was unter der glänzenden Oberfläche der Country-Musik liegt. 1971 erklärte Cash in seinem Song „Man in Black", warum er stets schwarz gekleidet auftrat – als stellvertretende Trauer für die Armen, die Gefangenen, die Kranken, die alten Menschen, die im Vietnamkrieg Gefallenen. Kein Marketing-Gag, sondern eine bewusst gewählte, düster-authentische Bühnenfigur, die Solidarität mit den Übersehenen zur eigenen Identität machte.</p>
-          <p class="vb-intro">Dieselbe Vierertiefe durchzieht sein Songwriting: Lieder über Mord, Schuld, Gefängnis und Verzweiflung – „Folsom Prison Blues" mit der Zeile „I shot a man in Reno just to watch him die" schrieb er, ohne selbst je einen Menschen getötet zu haben, aus reiner Vorstellungskraft für das Dunkelste im Menschen. Diese Fähigkeit, sich in Schuld und Abgrund einzufühlen, dürfte auch aus der eigenen, nie vollständig verarbeiteten Schuld am Tod seines Bruders gespeist gewesen sein – die Vier, die die eigene Wunde in Kunst übersetzt, statt sie zu verbergen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Folsom Prison, 1968</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am 13. Januar 1968 spielte Cash vor Insassen des Folsom State Prison in Kalifornien – ein Konzert, das er seit Jahren angeregt hatte, gegen den Widerstand seines eigenen Labels. Das Publikum aus verurteilten Straftätern reagierte mit einer Begeisterung, die Cashs eigene, jahrelange Nähe zu Sucht, Gesetzeskonflikten und persönlichem Absturz spiegelte – er selbst war zuvor mehrfach wegen Drogenbesitzes verhaftet worden, ohne je eine Haftstrafe abzusitzen.</p>
-          <p class="vb-intro">Das daraus entstandene Live-Album „At Folsom Prison" wurde zu einem der kommerziell erfolgreichsten und kulturell bedeutendsten Werke seiner Karriere – der Moment, in dem strategischer Karriereaufbau (SE3) und echte, tief empfundene Verbundenheit mit den Ausgestoßenen der Gesellschaft (w4) untrennbar zusammenfielen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, <strong>aus echter innerer Tiefe eine dauerhafte, tragfähige Struktur zu bauen</strong>, statt Tiefe entweder zu verbergen oder sie flüchtig zur Schau zu stellen. Cash verband eine der beständigsten Karrieren der Musikgeschichte mit Songs, die bis heute als schonungslos ehrlich gelten – ein seltenes Gleichgewicht zwischen Struktur und Substanz.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei Cash zeigte sich das in der über Jahre aufrechterhaltenen öffentlichen Fassade des kontrollierten „Man in Black", während er in den 1960er Jahren heimlich amphetamin- und barbituratabhängig war, bis zum körperlichen Zusammenbruch. Erst 1967/68 gelang mit Hilfe von June Carter (SE4w3) und ihrer Familie der Ausstieg – eine Krise, die zeigt, wie viel Kraft es die SE3 kostet, ein funktionierendes Bild aufrechtzuerhalten, während im Inneren längst alles zu zerbrechen droht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: Vom Bild zur Verletzlichkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich aufgebaut?</em> zur Erkenntnis <em>Ich bin – auch ohne das Bild, das ich pflege.</em> Für die SE3w4 bedeutet das, Tiefe nicht länger nur als Songmaterial zu nutzen, sondern die eigene Verletzlichkeit ungeschminkt zuzulassen.</p>
-          <p class="vb-intro">Genau das geschah in seinen letzten Lebensjahren: Ab 1994 nahm Cash gemeinsam mit Produzent Rick Rubin die Reihe „American Recordings" auf – meist nur seine Stimme und eine akustische Gitarre, ohne die gewohnte Studio-Inszenierung. Seine 2002 veröffentlichte Coverversion von „Hurt" (Nine Inch Nails), aufgenommen kurz vor seinem Tod, zeigt einen sichtlich gezeichneten, gealterten Mann, der keine Rolle mehr spielt. Der Waschbär, der ein Leben lang Systeme baute, endete mit der Geste, sich selbst ganz ohne Fassade zu zeigen – vier Monate nach dem Tod seiner Frau June starb Johnny Cash am 12. September 2003.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
-        {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
-        {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
       ])}
     </div>
   `);

@@ -831,6 +831,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ashton Kutcher – Social Type 2",
     teaser:"SO2w3 · b. 1978 in Cedar Rapids, Iowa. American actor and entrepreneur. Co-founder of Thorn against child trafficking, ›digital defender of children‹. Reach deliberately put in service of a cause. Animal correspondence: Golden Retriever.",
     land:"USA", tags:["Schauspiel","Unternehmen"], gender:"m"},
+{ route:"beruehmte-jenna-ortega", name:"Jenna Ortega", added:"2026-08-29", subtyp:"SO2w3",
+    heading:"Jenna Ortega – Social Type 2",
+    teaser:"SO2w3 · b. 2002. American actress, \"Wednesday,\" advocate for Latina representation, mental health awareness, and LGBTQ+ rights. Went public with her own OCD in 2025. Golden Globe, Emmy, and SAG nominee. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Schauspiel"], gender:"f"},
 { route:"beruehmte-ayo-edebiri", name:"Ayo Edebiri", added:"2026-08-24", subtyp:"SO2w3",
     heading:"Ayo Edebiri – Social Type 2",
     teaser:"SO2w3 · b. 1995 in Boston. American actress, writer, and comedian, ›The Bear‹. Years of background writing work, then Emmy, Golden Globe, and SAG Award. Success as a shared project, not a solo act. Animal correspondence: Golden Retriever.",
@@ -42101,6 +42105,65 @@ function brunoMarsPortraitPage() {
   `);
 }
 
+function jennaOrtegaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jenna-ortega-portrait.jpg" alt="Jenna Ortega – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jenna Ortega</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American actress, b. 2002 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the Social Two – an animal that does not keep its energy to itself but puts it to work for a larger community. Jenna Ortega was born in 2002 in Rancho Mirage, California, the fourth of six children in a family of Mexican and Puerto Rican descent. Her father worked in law enforcement, her mother as an emergency-room nurse – a household whose professional imprint was consistently oriented toward serving the public good.</p>
+          <p class="vb-intro">Her acting career began early, with roles as the young Jane in "Jane the Virgin" and as Harley Diaz in "Stuck in the Middle" – a child actress in an environment that taught her, from a young age, to carry public attention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Visibility in Service of Larger Causes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Social Two (SO2)</strong> <em>Ambition</em>: it does not merely want to be gifted, it wants to put that gift visibly and effectively in service of others. Ortega consistently uses her growing fame as a platform – for the representation of Latino communities in Hollywood, for raising awareness about mental health, for LGBTQ+ rights, and for social justice. She describes her Mexican-Puerto Rican heritage as a central part of her identity, one she makes publicly visible rather than keeping in the background.</p>
+          <p class="vb-intro">In 2025, she went public with her own obsessive-compulsive disorder (OCD) – not as an offhand aside, but in an extensive interview in which she described concrete, sometimes exhausting rituals: counting to certain numbers in the shower, a fixed order for getting dressed, climbing the stairs six times at night out of a compelling conviction that this was necessary to prevent a break-in. This openness sparked a wide public conversation about mental health – the Social Two turning its own vulnerability into an opportunity to make similar struggles easier for others to face.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: From Supporting Actress to Global Phenomenon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Social Two the drive to shape talent into visible, measurable success. For her title role in the Netflix series "Wednesday" (2022), Ortega specifically learned to play cello to portray the character as authentically as possible – an example of the disciplined, purposeful preparation with which the SO2w3 turns talent into tangible, verifiable success. The series became the most-watched English-language series in Netflix history and earned her nominations for the Golden Globe, Primetime Emmy, and Screen Actors Guild Award.</p>
+          <p class="vb-intro">She had already established herself in the horror and thriller genre beforehand, including in "Scream" (2022) and "X" – a deliberately built, genre-spanning career that actively sought visibility rather than leaving it to chance. The Three-wing translates early child-star status into a strategically built, internationally visible filmography.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability to consistently use enormous public visibility for causes that reach beyond one's own career – Ortega's engagement for representation and mental health reaches, through her reach, an audience of millions that many smaller initiatives could never achieve.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – the conviction of needing to matter to others, combined with the difficulty of openly naming one's own needs. In Ortega, the shadow shows in a stark contrast: despite enormous public presence, she describes herself as "incredibly misunderstood" and describes the exhausting, often hidden compulsive rituals she wrestles with in private – a sign of how much strength it takes to remain constantly visible and available for others while one's own inner reality stays invisible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From Child Actress to a Voice for a Generation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her earliest child roles, through her breakthrough in the horror genre, to worldwide "Wednesday" fame and the public handling of her own OCD, a common thread runs through Ortega's path: visibility that was used from the start to carry more than just her own career.</p>
+          <p class="vb-intro">The golden retriever shares its gifts rather than keeping them to itself. Jenna Ortega's path from child star to her generation's most-watched Netflix leading actress shows how early discipline, deliberately built visibility, and the willingness to make one's own vulnerability public can create genuine impact for others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-ayo-edebiri", label:"Portrait: Ayo Edebiri (SO2w3)"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function ayoEdebiriPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46701,12 +46764,12 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Devotion that belongs not to the individual, but to the whole community",
-    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jenna Ortega", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
         beschreibung: "Unlike the other Two subtypes, care is directed not at the one relationship or one's own family, but at a collective – a congregation, an audience, a nation, everyone currently within reach.",
-        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone; Indila, whose song "Dernière Danse" became the first French-language song with over a billion YouTube views – a success that only came after years as a backing vocalist for other artists, lending her voice to other people's projects before she herself reached an audience of millions across language and cultural boundaries."
+        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone; Indila, whose song "Dernière Danse" became the first French-language song with over a billion YouTube views – a success that only came after years as a backing vocalist for other artists, lending her voice to other people's projects before she herself reached an audience of millions across language and cultural boundaries; Jenna Ortega, who in 2025 went public with her own obsessive-compulsive disorder, describing concrete rituals and exhausting nightly compulsions – a deliberately used vulnerability that sparked a wide public conversation about mental health, extending its impact far beyond her own person."
       },
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
@@ -101858,6 +101921,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-indila": indilaPortraitPage,
       "beruehmte-alicia-keys": aliciaKeysPortraitPage,
       "beruehmte-ashton-kutcher": ashtonKutcherPortraitPage,
+      "beruehmte-jenna-ortega": jennaOrtegaPortraitPage,
       "beruehmte-ayo-edebiri": ayoEdebiriPortraitPage,
       "beruehmte-bruno-mars": brunoMarsPortraitPage,
       "beruehmte-carl-weathers": carlWeathersPortraitPage,

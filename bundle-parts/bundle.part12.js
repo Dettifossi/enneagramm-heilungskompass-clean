@@ -1,3 +1,169 @@
+function judasIskariotPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-judas-iskariot-portrait.jpg" alt="Judas Iskariot – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Judas Iskariot</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Wunsch, unersetzlich zu sein – Tierentsprechung: Pfau</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Tierentsprechung: Pfau" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Wem ich den Bissen geben werde, der ist's.« (Joh 13,26)</p>
+
+        <div class="vb-hinweis-box" style="background:rgba(139,94,60,0.08);border:1px solid rgba(139,94,60,0.25);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0 1.5rem;font-size:0.92rem;line-height:1.6;">
+          <strong>Hinweis:</strong> Dieses Kapitel deutet eine der komplexesten und am schwersten beladenen Figuren der biblischen Überlieferung literarisch-typologisch nach Subtyp. Es endet mit Judas' Suizid – historisch überliefert, hier ohne jede Ausschmückung oder Dramatisierung dargestellt. Ziel ist psychologisches Verständnis für ein tragisches Muster, keine Rechtfertigung des Verrats und keine Verharmlosung von Suizid. Wer selbst in einer Krise steckt: Die Telefonseelsorge ist unter 0800 111 0 111 kostenlos und rund um die Uhr erreichbar.
+        </div>
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei – auf die eine, magnetische Verbindung ausgerichtet, die Bedeutung durch Nähe beweist. Judas war früh aufgefallen, nicht durch Lautstärke, nicht durch Wunder, sondern durch Zugkraft. Wenn er sprach, hörten Menschen zu, nicht weil er drängte, sondern weil er den Ton traf, den andere hören wollten. Er kannte die Wirkung von Worten, von Nähe, von Hingabe – und von Kontrolle.</p>
+          <p class="vb-intro">Jesus hatte ihn berufen, wie die anderen. Doch Judas spürte: Bei mir ist es anders. Er wollte nicht nur Teil des Kreises sein – er wollte der Schlüssel sein, der, durch den alles geschieht, der, den Jesus vielleicht am meisten braucht. Nicht zärtlich, nicht romantisch, sondern in jener Art, die die tragende Rolle sucht, nicht bloß Beifall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Bedeutung durch die eine Bindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> braucht Nähe, aber nicht beliebige – sie braucht die entscheidende Position im Herzen des Anderen. Judas verstand sich als Vermittler zwischen dem Spirituellen und dem Weltlichen, zwischen Vision und Macht. Er war intelligent, plante mit, verwaltete, überzeugte. Und doch war in ihm eine Unruhe, ein leises Brennen: Bin ich wirklich unersetzlich?</p>
+          <p class="vb-intro">Er hatte gehofft, Jesus würde ihn brauchen – nicht nur im Außen, sondern im Innersten, als Verbündeten, als Spiegel, als rechten Arm einer kommenden Bewegung. Aber Jesus sprach von Umkehr, nicht von Umsturz, von Sanftmut, nicht von Strategie, von Opfer, nicht von Einfluss. Und Judas spürte, wie sich in ihm etwas verwandelte – nicht zu Hass, sondern zu Enttäuschung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die verzweifelte Suche nach Unersetzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine tiefe emotionale Intensität, die Bedeutung nicht in vielen Beziehungen, sondern in der einen unverwechselbaren Bindung sucht – und die verzweifelt wird, wenn diese Bindung sich als nicht besitzbar erweist. Wenn ich ihm nicht näherkomme durch Treue, dann vielleicht durch Entscheidung, dachte Judas. Wenn ich ihn nicht bewegen kann durch Loyalität, dann vielleicht durch Druck.</p>
+          <p class="vb-intro">Es war keine Rache, sondern eine letzte Hoffnung, ihn aus seiner Rolle zu lösen und zur Handlung zu zwingen. Judas war überzeugt, dass er das Richtige tat – nicht aus Bosheit, sondern aus einem verzerrten Sinn für Dringlichkeit: Ich bringe die Geschichte voran. Diese fast schmerzhafte Verwechslung von Bedeutung mit Kontrolle, von Liebe mit Notwendigkeit, trägt die Handschrift des Viererflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Kuss: Enthüllung statt Beweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Garten war still, die Nacht nicht ruhig, Fackeln zuckten durch die Zweige. Judas ging voraus, nicht zögernd, sondern wie ein Mann, der einen Plan vollendet. »Der, den ich küssen werde, der ist es.« Ein Zeichen, so zärtlich wie tödlich. Er trat zu Jesus und küsste ihn, mit jener seltsam verzweifelten Intensität, die eine SX3 empfindet, wenn sie Nähe herstellt, um zu beweisen, dass sie bedeutet.</p>
+          <p class="vb-intro">Jesus sagte nur: »Freund, dazu bist du gekommen?« Nicht bitter, nicht kalt, nur wie ein Spiegel. Und in diesem Moment brach etwas in Judas. Denn der Kuss war keine Geste mehr, sondern eine Enthüllung – nicht über Jesus, sondern über sich selbst. Er hatte nicht Jesus verraten, er hatte sein eigenes Bild verraten: die Illusion, dass Liebe durch Einfluss, Nähe durch Bedeutung, Wert durch Aktion zu erlangen sei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Silber: Die Erkenntnis, dass Liebe nicht erzwungen werden kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er hielt den Beutel in der Hand, dreißig Silberstücke, kalt, klar, schwerer wiegend als Schuld. Er hatte geglaubt, dies sei der Preis für eine Wende, für eine Wahrheit, die endlich ans Licht muss. Doch Wahrheit lässt sich nicht beschleunigen, und Liebe nicht kaufen. Er ging zu den Hohepriestern, legte das Silber hin: »Ich habe unschuldiges Blut verraten.« Sie sahen ihn an, ohne Erschütterung: »Was geht das uns an? Sieh du zu.«</p>
+          <p class="vb-intro">Und in diesem Moment wusste Judas: Er war kein Werkzeug der Gerechtigkeit gewesen, nur ein Mittel zum Zweck. Er hatte Liebe gesucht über Wirkung, über Einfluss, über Kontrolle. Und nun spürte er: Jesus hatte ihn nie benutzt – aber auch nie gebraucht in der Weise, die er sich erträumt hatte. Er hatte ihn geliebt, aber nicht zu dem Preis, den Judas sich vorgestellt hatte. Und die SX3, deren ganzes Selbstbild auf Bedeutung durch Bindung gebaut ist, brach dort zusammen, wo die Bindung nicht trug – nicht weil sie falsch war, sondern weil sie frei war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Einordnung ohne Determinismus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Judas ging allein den Weg hinauf, ohne Bühne, ohne Funktion, ohne Verbindung – nur die Nacktheit des Ichs, ohne Maske, ohne Bedeutung. Die SX3 lebt für die Beziehung, die sie einzigartig macht. Als diese Bindung sich als nicht besitzbar entpuppte, verstummte in ihm etwas, das ihn bis dahin getragen hatte: kein »Ich bin geliebt«, kein »Ich werde gebraucht«, kein »Ich bin unersetzlich«. Nur Leere – und darin Verzweiflung, die in Suizid endete.</p>
+          <p class="vb-intro">Er starb nicht als Monster, sondern als Mensch, der Liebe mit Bedeutung verwechselte und Wahrheit nicht ertrug, weil sie nicht spiegelte, sondern entkleidete. Wichtig: Nicht jede sexuelle Drei mit Viererflügel verrät oder zerbricht auf diese Weise – dieses Kapitel deutet ein einzelnes, historisch überliefertes Muster, keine zwangsläufige Konsequenz des Subtyps. Jesus sprach nie gegen ihn, auch später nicht, nie mit Hass, nie mit Verdammung – denn er wusste: Judas hatte nicht aus Bosheit gehandelt, sondern aus einem Sehnsuchtsfehler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Der Kuss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Judas Iskariot ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/SK724DhEJns?rel=0" title="Der Kuss – Judas Iskariot" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"bibel-pontius-pilatus", label:"Bibel-Porträt: Pontius Pilatus (SO3w4)"},
+        {route:"bibel-andreas", label:"Bibel-Porträt: Andreas (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function andreasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-andreas-portrait.jpg" alt="Andreas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andreas</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Verborgene im innersten Kreis – Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Da führte Andreas Simon, seinen Bruder, zu Jesus.« (Joh 1,42)</p>
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – still, zurückhaltend, ohne das Bedürfnis, gesehen zu werden, aber mit einer tiefen inneren Wahrnehmung für das, was zwischen den Zeilen geschieht. Andreas war der Erste, der Jesus folgte – nicht der Lauteste, nicht der Fels, aber der Erste. Und doch erinnerte man sich selten daran. Wenn man von den Jüngern sprach, fiel sein Name später, hinter Petrus, Jakobus, Johannes: immer im Hintergrund, nie vergessen, aber auch nie genannt.</p>
+          <p class="vb-intro">Das störte ihn nicht – nach außen. Aber in seinem Inneren regte sich etwas: eine stille Melancholie, ein leiser Wunsch, nicht berühmt, aber bedeutend zu sein. Wo sein Bruder Simon sprach, hörte Andreas zu. Wo Simon handelte, überlegte Andreas noch. Er war kein Führer, aber auch kein Mitläufer – er war ein innerer Zeuge, und er lebte von dem, was niemand sah.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Tiefe statt Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihre Besonderheit nicht auf der Zunge – sie bewahrt sie im Innern. Sie lebt von der Vorstellung, anders zu sein, nicht besser, nicht schlechter, aber tief, wahr, einzig. Und wenn niemand diese Tiefe erkennt, zieht sie sich zurück, nicht aus Groll, sondern aus Schutz. Andreas stand am Rand der Menge, nicht aus Unsicherheit, sondern aus Gewohnheit. Er war nicht der, der sich vordrängte. Er war der, der beobachtete.</p>
+          <p class="vb-intro">Als Johannes der Täufer sprach: »Siehe, das Lamm Gottes«, folgte er nicht aus Impuls, sondern aus einer inneren Bewegung, die viel früher begonnen hatte. Jesus drehte sich um, sah ihn – nicht nur äußerlich, er sah ihn wirklich. »Was sucht ihr?« Andreas antwortete nicht sofort. Wie hätte er es sagen sollen, dass er suchte, was er selbst kaum benennen konnte: ein Zuhause in der Tiefe, ein Erkanntwerden ohne Preisgabe, eine Verbindung ohne Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Beobachten statt sich zeigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Vier eine zurückgezogene, beobachtende Qualität – die innere Tiefe wird nicht ausgedrückt, sondern gehütet, und Nähe entsteht nicht durch Auftritt, sondern durch stilles, genaues Wahrnehmen. »Meister, wo wohnst du?« fragte Andreas. Es war mehr als eine Frage nach einem Ort – es war die Bitte: Darf ich wissen, wie du bist? Darf ich bei dir ankommen? Jesus antwortete nicht erklärend, sondern sagte: »Kommt und seht.« Keine Definition, keine Distanz, nur Einladung.</p>
+          <p class="vb-intro">Und genau das traf Andreas ins Herz, nicht als Erschütterung, sondern wie eine Tür, die endlich aufging nach Jahren innerer Enge. Die Schrift sagt nicht, was gesprochen wurde – vielleicht war es auch nicht viel. Aber für Andreas war es genug, denn zum ersten Mal fühlte er sich nicht nur aufgenommen, sondern verstanden. Genau dieses stille, unaufdringliche Beobachten, das erst bei absoluter Sicherheit in Nähe übergeht, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Rolle im Kreis: Die Sehnsucht nach Einmaligkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kreis der Zwölf war Andreas immer dabei, aber selten im Mittelpunkt. Petrus sprach, Johannes ruhte an Jesu Brust, Jakobus war energisch. Und Andreas hörte zu. Er war nicht übersehen, aber auch nicht benannt. Und in einer SE4 wächst daraus eine leise Spannung: Ich bin hier, aber nicht gemeint. Er hatte keine Eifersucht, aber manchmal diese Frage: Was ist mein Platz?</p>
+          <p class="vb-intro">Einmal brachte Andreas einen Jungen mit fünf Broten und zwei Fischen – lächerlich wenig. Aber er brachte ihn trotzdem, nicht weil er an das Wunder glaubte, sondern weil er an das Verborgene glaubte. Das ist SE4: Sie erkennt Wert, wo andere achtlos vorbeigehen. Jesus nahm es, das Kleine, das Unscheinbare, und es reichte für Tausende. Aber niemand sagte: »Danke, Andreas.« Er sagte es sich selbst, leise, nicht aus Stolz, sondern aus einem inneren Wissen: Ich sehe, was zählt, auch wenn es für andere nicht zählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Unsichtbarkeit als Gabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Andreas begann, seine Stellung zu verstehen, nicht als Nachteil, nicht als Strafe, sondern als Ort. Er war der, der Dinge sah, bevor sie ausgesprochen wurden, der Menschen verband, ohne sich dazwischenzustellen, der die Spannungen im Kreis spürte und durch seine bloße Anwesenheit etwas beruhigte, ohne dass es jemand merkte. Manchmal saß er allein am Rand, wenn die anderen schliefen, schaute in den Himmel und dachte nicht an seinen Namen, sondern an seinen Wert.</p>
+          <p class="vb-intro">Er hatte gelernt: Man muss nicht im Zentrum stehen, um nah zu sein. Die SE4 ringt ihr Leben lang mit der Frage nach Bedeutung. Aber wenn sie reift, hört sie auf, sie im Außen zu suchen, und beginnt, den Wert in der Tiefe selbst zu tragen. Andreas wurde nicht gefeiert, aber Jesus nannte ihn nie falsch, nie zu viel, nie zu wenig. Er ließ ihn einfach sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Bedeutung ohne Applaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als der Kreis kleiner wurde, die Wege einsamer, die Tage gefährlicher, spürte Andreas: Er war bereit – nicht, weil er laut geworden war, sondern weil er innerlich Wurzeln geschlagen hatte. Und wenn jemand ihn fragte: »Was war dein größter Beitrag?«, dann lächelte er nur, blickte zurück auf den Moment, als er seinen Bruder zu Jesus führte, und sagte leise: »Ich war der Erste, der ihn erkannt hat. Und das reicht.«</p>
+          <p class="vb-intro">Das ist das Geschenk der SE4w5: eine Tiefe, die keine Bühne mehr braucht, um wahr zu sein – eine Taube, die nicht mehr beweisen muss, dass sie gesehen wird, weil sie gelernt hat, sich selbst zu sehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Im Schatten des Lichts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Andreas ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/yI-zk3aHGBQ?rel=0" title="Im Schatten des Lichts – Andreas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
+        {route:"bibel-judas-iskariot", label:"Bibel-Porträt: Judas Iskariot (SX3w4)"},
+        {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function thomasPage() {
   return shell(`
     <div class="page-container">
@@ -11120,221 +11286,6 @@ function wolfgangBeltracchiPortraitPage() {
         {route:"kriminalpsychologie-ed-gein", label:"Kriminalpsychologie: Ed Gein (SX9w1) – dieselbe Verschmelzungsdynamik, extrem entgleist"},
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\xf6gel"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function nielsHoegelPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Niels H\xf6gel \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/niels-hoegel-portrait.jpg" alt="Niels H\u00f6gel \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Niels H\u00f6gel</p>
-        <p class="krim-portrait-typ">SE7w8 \u00b7 Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Krankenpfleger und Serienm\u00f6rder \u00b7 Tierentsprechung: Gorilla</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Niels H\xf6gel</strong> ist ein ehemaliger deutscher Krankenpfleger, der zwischen 2000 und 2005
-        f\xfcr den Tod von mindestens 85 Menschen verantwortlich war. Er t\xf6tete seine Opfer,
-        indem er ihnen t\xf6dliche Medikamente verabreichte \u2013 um sich anschlie\xdfend durch
-        Wiederbelebungsversuche als Retter zu inszenieren. Diese Morde wurden als
-        \u201eEngelmorde" bekannt. Er wurde 2019 zu lebenslanger Haft verurteilt und gilt als
-        einer der schlimmsten Serienm\u00f6rder in der Geschichte Deutschlands.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Niels H\xf6gel</strong> wird der <strong>Selbsterhaltenden Sieben mit Achterfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Sieben ist <em>Ma\u00dflosigkeit</em>
-        (Gluttony) \u2013 nicht prim\xe4r im materiellen Sinne, sondern als unstillbares Verlangen
-        nach Stimulation, Erleben und Positivit\xe4t, um innere Leere und Schmerz zu
-        vermeiden. Die selbsterhaltende Sieben (SE7) sucht diesen Schutz besonders
-        durch Sicherheit, warme Verbindungen und das Gef\xfchl, im eigenen Lebensumfeld
-        unverzichtbar zu sein. Der Achterfl\xfcgel erg\xe4nzt dies mit einem verborgenen
-        Machttrieb. Niels H\xf6gel wird in der Enneagramm-Literatur daher auch als
-        \u201eversteckter Achter" bezeichnet: freundliche Siebener-Oberfl\xe4che,
-        Acht-Wille zur Kontrolle darunter.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Ruhig, gefasst, bed\xe4chtig:</strong>
-        H\xf6gels Blick wurde oft als ruhig und unscheinbar beschrieben. Es war diese
-        Unauff\xe4lligkeit, die es ihm erm\xf6glichte, jahrelang seine Verbrechen
-        unentdeckt zu begehen.</p>
-        <p class="vb-intro"><strong>b) Berechnend und manipulativ:</strong>
-        Sein Blick konnte in den entscheidenden Momenten berechnend und manipulativ
-        sein, insbesondere wenn es darum ging, Kollegen und Vorgesetzte zu t\xe4uschen.</p>
-        <p class="vb-intro"><strong>c) Gef\xfchlsarm:</strong>
-        Augenzeugen und Ermittler berichteten, dass sein Blick oft emotionslos wirkte,
-        besonders in Momenten, in denen er \xfcber seine Verbrechen sprach. Empathie
-        oder Reue f\xfcr seine Taten fehlten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Unauff\xe4llige Erscheinung:</strong>
-        <strong>H\xf6gel</strong> war \xe4u\xdferlich der unscheinbare, wohlwollende und hilfsbereite
-        Krankenpfleger. Seine ruhige, bed\xe4chtige und freundliche Art erm\xf6glichte es
-        ihm, das Vertrauen sowohl seiner Kollegen als auch seiner Patienten zu gewinnen.</p>
-        <p class="vb-intro"><strong>b) Pathologisches Bed\xfcrfnis nach Kontrolle:</strong>
-        Trotz seiner stillen Fassade hatte H\xf6gel ein tiefes, pathologisches Bed\xfcrfnis
-        nach Kontrolle \xfcber Leben und Tod. Er spielte mit dem Schicksal seiner Patienten
-        und genoss die Macht, die er \xfcber sie hatte. Die SE7 und speziell die SE7 mit
-        Achterfl\xfcgel werden auch als \u201eversteckter Achter" bezeichnet.</p>
-        <p class="vb-intro"><strong>c) Scheinbare Bescheidenheit:</strong>
-        <strong>H\xf6gel</strong> machte nach au\xdfen hin nie den Eindruck eines Narzissten oder egomanen
-        Charakters, doch seine inneren Motive waren extrem selbstbezogen und von einem
-        ausgepr\xe4gten narzisstischen Bed\xfcrfnis nach Anerkennung gepr\xe4gt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Sucht nach Nervenkitzel:</strong>
-        H\xf6gels Taten lassen sich mit einer typischen Eigenschaft der
-        selbsterhaltenden Sieben erkl\xe4ren: der Suche nach Stimulation und dem
-        Bed\xfcrfnis, Langeweile zu vermeiden. Er brachte absichtlich Patienten in
-        kritische Situationen, um den Adrenalinkick zu erleben, sie zu retten.</p>
-        <p class="vb-intro"><strong>b) Gef\xfchl der Unbesiegbarkeit:</strong>
-        <strong>H\xf6gel</strong> f\xfchlte sich lange Zeit unantastbar. Er genoss die Gefahr und das Spiel
-        mit dem Tod, glaubte jedoch auf seine kindliche, naive Art, dass er niemals
-        erwischt werden w\xfcrde. Diese \xdcberheblichkeit spiegelt die negative Seite der
-        Selbsterhaltungsstrategie einer tief unbewussten Sieben wider.</p>
-        <p class="vb-intro"><strong>c) Verdr\xe4ngung von Schuld:</strong>
-        Wie bei Siebenern in sehr unbewusstem Zustand \xfcblich, konnte H\xf6gel
-        Schuldgef\xfchle f\xfcr seine Verbrechen scheinbar leicht verdr\xe4ngen. Er rationalisierte
-        seine Taten und baute eine innere Distanz zu seinen Opfern auf. Als Kopfmenschen
-        k\xf6nnen Siebener sehr gut eine Welt der Phantasie aufbauen, in der sie sich
-        unschuldig und heil f\xfchlen. Gleichzeitig sind Siebener intelligent genug,
-        ihre Untaten rein verstandesm\xe4\xdfig \xfcber ein ganzes Leben rational zu begr\xfcnden.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ruhig, aber unberechenbar:</strong>
-        <strong>H\xf6gel</strong> trat ruhig und professionell auf, aber hinter dieser Fassade versteckte
-        sich ein t\xf6dlicher Instinkt. Seine Au\xdfenwirkung war die eines zuverl\xe4ssigen
-        Krankenpflegers, w\xe4hrend seine innere Motivation von einem destruktiven Drang
-        nach besonderer Aufmerksamkeit und Anerkennung getrieben wurde.</p>
-        <p class="vb-intro"><strong>b) Doppelgesichtige Wirkung:</strong>
-        <strong>Niels H\xf6gel</strong> pr\xe4sentierte sich stets als freundlicher Helfer, obwohl er in
-        Wahrheit das Gegenteil tat. Diese Doppeldeutigkeit machte ihn besonders
-        gef\xe4hrlich, da niemand seine wahren Motive erkennen konnte, bevor es zu sp\xe4t war.</p>
-        <p class="vb-intro"><strong>c) Kalt und pragmatisch:</strong>
-        Seine Verbrechen waren nicht von impulsiver Gewalt gepr\xe4gt, sondern von k\xfchler,
-        planender Berechnung und emotionsloser Methodik. Dies verst\xe4rkte die
-        Unberechenbarkeit seiner Taten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Innere Rastlosigkeit:</strong>
-        <strong>H\xf6gel</strong> versp\xfcrte eine st\xe4ndige innere Unruhe, die ihn dazu trieb, immer wieder
-        neue Verbrechen zu begehen. Diese Rastlosigkeit ist typisch f\xfcr die
-        selbsterhaltende Sieben, die st\xe4ndig nach neuen Reizen und Erfahrungen sucht.</p>
-        <p class="vb-intro"><strong>b) K\xfcnstliche \xdcberlegenheit:</strong>
-        Seine Energie war von einer scheinbaren \xdcberlegenheit gepr\xe4gt \u2013 er f\xfchlte sich
-        \xfcber normale Menschen erhaben, da er die Macht \xfcber Leben und Tod besa\xdf.
-        Dies gab ihm ein Gef\xfchl der Erhabenheit, das auf t\xf6dlichen Motiven beruhte.</p>
-        <p class="vb-intro"><strong>c) Flucht vor Langeweile:</strong>
-        Seine Energie war darauf ausgerichtet, jegliche Langeweile zu vermeiden.
-        Die Monotonie des Krankenhausalltags schien ihn so sehr zu bedr\xfccken, dass
-        er sie mit extremen und t\xf6dlichen Handlungen durchbrach.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Gorilla</h3>
-        <p class="vb-intro"><strong>a) Kontrollierte St\xe4rke:</strong>
-        Wie der Gorilla wirkte H\xf6gel in seiner Rolle als Krankenpfleger ruhig und
-        kontrolliert, w\xe4hrend er gleichzeitig die Macht \xfcber Leben und Tod seiner
-        Patienten in den H\xe4nden hielt.</p>
-        <p class="vb-intro"><strong>b) Territorialverhalten:</strong>
-        Gorillas sch\xfctzen ihr Territorium aggressiv. In \xe4hnlicher Weise beherrschte
-        H\xf6gel das Krankenhausumfeld und sah seine Patienten als Teil seines Reviers,
-        in dem er die ultimative Kontrolle aus\xfcbte.</p>
-        <p class="vb-intro"><strong>c) Bedrohliche Ruhe:</strong>
-        Gorillas sind oft ruhig, k\xf6nnen aber blitzschnell reagieren. Diese Parallele
-        spiegelt sich in H\xf6gels Verhalten wider: Er f\xfchrte seine t\xf6dlichen Handlungen
-        unauff\xe4llig und kalt durch, w\xe4hrend er nach au\xdfen hin ruhig und besonnen blieb.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Niels H\xf6gel</strong> zeigt die negativen Auspr\xe4gungen der selbsterhaltenden Sieben.
-        Sein Streben nach Aufregung, seine spielerisch-manipulative Art, mit dem Leben
-        seiner Patienten empathielos zu spielen, und sein Bed\xfcrfnis nach Kontrolle
-        spiegeln die verzerrten Eigenschaften des Typ 7 in sehr unbewusstem Zustand
-        wider. Er nutzte seine Position als Krankenpfleger, um Macht auszu\xfcben und
-        seinem Leben Spannung zu verleihen, ohne dabei Empathie oder Mitgef\xfchl f\xfcr
-        seine Opfer zu empfinden.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE7 \u2013 \u201eFamilie / Corviviality":</strong>
-        Claudio Naranjo nannte die selbsterhaltende Sieben \u201eFamilie": Sie sucht Sicherheit
-        durch warme Zugeh\xf6rigkeit, durch das Gef\xfchl, in ihrem n\xe4heren Lebensumfeld
-        unverzichtbar und geliebt zu sein. Das Krankenhaus war H\xf6gels Familie \u2013
-        er der geliebte, kompetente Retter. Seine Morde waren der perverse Versuch,
-        in dieser Familie dauerhaft unersetzlich zu bleiben: kein Pfleger rettet
-        so eindrucksvoll wie einer, der die Krise selbst herbeif\u00fchrt.</p>
-        <p class="vb-intro"><strong>b) Reframing \u2013 die gef\xe4hrlichste Gabe der Sieben:</strong>
-        Siebener sind Meister im Umdeuten von Realit\xe4t. H\xf6gel rahmte seine Morde
-        kognitiv als Rettungsaktionen um: Er t\xf6tete keine Patienten, er schuf
-        Gelegenheiten f\xfcr Heldenmomente. Dies ist der Siebener-Mechanismus in seiner
-        perversesten Form \u2013 die F\xe4higkeit, jede eigene Handlung so zu deuten, dass
-        sie innerlich ertr\xe4glich bleibt. Ohne dieses Reframing w\xe4re die Serie nicht
-        \xfcber f\xfcnf Jahre m\xf6glich gewesen.</p>
-        <p class="vb-intro"><strong>c) Der Achterfl\xfcgel \u2013 Macht unter der freundlichen Oberfl\xe4che:</strong>
-        Der Achterfl\xfcgel verleiht der Sieben einen Machttrieb, der nach au\xdfen nicht
-        sichtbar ist. H\xf6gel wirkte sanft, f\xfcrsorglich und hilfreich \u2013 darunter lag
-        das Acht-Bed\xfcrfnis nach totaler Kontrolle. Dieser \u201eversteckte Achter" ist
-        das Gef\xe4hrlichste an der SE7w8: Die Achterkraft ist vorhanden, aber verkleidet.
-        Niemand warnt sich vor einem freundlichen Krankenpfleger.</p>
-        <p class="vb-intro"><strong>d) Die Sieben flieht vor Schmerz und Bedeutungslosigkeit:</strong>
-        Der fundamentale Sieben-Mechanismus ist die Vermeidung von Schmerz,
-        Entbehrung und Bedeutungslosigkeit. F\xfcr H\xf6gel war das Unertr\xe4gliche,
-        nur einer von vielen anonymen Pflegern zu sein. Der Moment, in dem ein
-        Kollege rief \u201eH\xf6gel hat ihn gerettet!" \u2013 das war sein Drogenmoment.
-        Nicht Sadismus trieb ihn an, sondern die Angst vor dem Verschwinden im
-        Gew\xf6hnlichen.</p>
-        <p class="vb-intro"><strong>e) Suchtdynamik und Eskalation:</strong>
-        Siebener tendieren zu Suchtstrukturen \u2013 der n\xe4chste Kick muss gr\xf6\xdfer sein als
-        der letzte. H\xf6gels Eskalation \xfcber f\xfcnf Jahre ist eine klassische
-        Suchtdynamik: Der Adrenalinkick beim Retten wurde zur Droge,
-        die immer h\xe4ufiger gebraucht wurde. 85 Tote sind das Endstadium
-        einer Sucht, nicht das Ergebnis eines Plans.</p>
-        <p class="vb-intro"><strong>f) Das kindliche Unschuldsbild als letzte Abwehr:</strong>
-        Siebener halten tief in sich ein Selbstbild der Unschuld und inneren
-        G\xfcte aufrecht \u2013 ein psychisches Kleinkind, das \u201enichts B\xf6ses tut".
-        H\xf6gel schien auf einer Ebene tats\xe4chlich zu glauben, etwas Gutes zu tun.
-        Dieses kindliche Unschuldsbild ist die letzte Abwehrlinie der Sieben
-        gegen die eigene Schuld \u2013 und gleichzeitig die gef\xe4hrlichste Selbstt\xe4uschung,
-        die ein Typ 7 aufbauen kann.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sieben im Vergleich: Wie sich Ma\xdflosigkeit bei den drei Siebener-Subtypen unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausf\xfchrlich portr\xe4tiert \u2013 Ma\xdflosigkeit, Reframing und der Heilungsweg \xfcber echte N\xfcchternheit.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Niels H\u00f6gel wurde 2019 wegen 85-fachen Mordes zu lebenslanger Haft verurteilt \u2013 einer der gr\u00f6\u00dften Serienmordprozesse der deutschen Nachkriegsgeschichte. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
-        {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>

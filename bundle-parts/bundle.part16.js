@@ -5166,6 +5166,7 @@ function render() {
       "beruehmte-indila": indilaPortraitPage,
       "beruehmte-alicia-keys": aliciaKeysPortraitPage,
       "beruehmte-ashton-kutcher": ashtonKutcherPortraitPage,
+      "beruehmte-jenna-ortega": jennaOrtegaPortraitPage,
       "beruehmte-ayo-edebiri": ayoEdebiriPortraitPage,
       "beruehmte-bruno-mars": brunoMarsPortraitPage,
       "beruehmte-carl-weathers": carlWeathersPortraitPage,
