@@ -33968,6 +33968,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"June Carter Cash – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1929–2003. US-amerikanische Sängerin, Songwriterin und Schauspielerin aus der legendären Carter Family, fünffache Grammy-Gewinnerin. Schrieb ›Ring of Fire‹, organisierte 1967/68 die Intervention, die Johnny Cash das Leben rettete, öffentlicher Heiratsantrag 1968 mitten im Konzert. Tierentsprechung: Taube.",
     land:"USA", tags:["Musik"], gender:"f"},
+  { route:"beruehmte-peter-gabriel", name:"Peter Gabriel", added:"2026-08-29", subtyp:"SE4w3",
+    heading:"Peter Gabriel – Selbsterhaltender Typ 4",
+    teaser:"SE4w3 · geb. 1950. Britischer Musiker, Genesis-Frontmann bis 1975, danach gefeierte Solokarriere („So“, „Sledgehammer“). Trat in selbst entworfenen Masken und Kostümen auf, gründete WOMAD, Real World Records und die Menschenrechtsorganisation Witness. Tierentsprechung: Taube.",
+    land:"Großbritannien", tags:["Musik"], gender:"m"},
   { route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
     heading:"Honoré de Balzac – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1799–1850. Französischer Schriftsteller, „La Comédie humaine“ (fast 100 Romane/Erzählungen). Eignete sich selbst das Adelsprädikat „de“ an, schrieb nächtelang bis zu 18 Stunden koffeingetrieben gegen drückende Schulden an, 17 Jahre Briefwechsel mit Gräfin Hańska vor der Heirat kurz vor seinem Tod. Tierentsprechung: Taube.",
@@ -44776,7 +44780,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -44791,7 +44795,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
         beschreibung: "Bevor etwas sichtbar wird – ein Werk, eine Haltung, eine Entscheidung –, wird es zunächst vollständig innerlich durchlebt, beobachtet und verarbeitet. Kein spontanes Handeln, sondern ein bewusstes Landen erst dann, wenn der innere Prozess abgeschlossen ist.",
-        beleg: "Karoline Herfurth: ›Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, trägt innerlich, was sie gesehen hat – und landet dann genau dort, wo sie gebraucht wird‹; Leo Tolstois lebenslanges Tagebuch-Ritual ›der schonungslosen Selbstbeobachtung‹, das zur ›Grundlage seines gesamten literarischen Werks‹ wurde; Vincent van Gogh, der als Autodidakt hunderte Werke Millets kopierte, sich einen eigenen Perspektivrahmen baute und Delacroix' Farbtheorie so gründlich studierte, dass er eigene Farbkreise in seinen Briefen skizzierte – kein spontaner Gefühlsausbruch, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System; Miguel de Unamuno, der sich Deutsch, Dänisch und weitere Sprachen größtenteils selbst beibrachte, um Kierkegaard und Hegel im Original zu lesen, und der seine lebenslange Frage nach der eigenen Sterblichkeit nie vorschnell beantwortete, sondern in Dutzenden Büchern immer wieder neu durchdachte, ohne je eine endgültige Antwort zu beanspruchen."
+        beleg: "Karoline Herfurth: ›Diese Taube landet nicht gleich. Sie kreist zuerst. Sie beobachtet, nimmt wahr, trägt innerlich, was sie gesehen hat – und landet dann genau dort, wo sie gebraucht wird‹; Leo Tolstois lebenslanges Tagebuch-Ritual ›der schonungslosen Selbstbeobachtung‹, das zur ›Grundlage seines gesamten literarischen Werks‹ wurde; Vincent van Gogh, der als Autodidakt hunderte Werke Millets kopierte, sich einen eigenen Perspektivrahmen baute und Delacroix' Farbtheorie so gründlich studierte, dass er eigene Farbkreise in seinen Briefen skizzierte – kein spontaner Gefühlsausbruch, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System; Miguel de Unamuno, der sich Deutsch, Dänisch und weitere Sprachen größtenteils selbst beibrachte, um Kierkegaard und Hegel im Original zu lesen, und der seine lebenslange Frage nach der eigenen Sterblichkeit nie vorschnell beantwortete, sondern in Dutzenden Büchern immer wieder neu durchdachte, ohne je eine endgültige Antwort zu beanspruchen; Peter Gabriel, dessen selbst entworfene Bühnenfiguren – vom Fuchskopf bis zum Slipperman – stets vollständig im Alleingang ausgearbeitet waren, bevor sie ohne Vorwarnung auf der Bühne erschienen, und der zwischen seinen Soloalben regelmäßig vier bis zehn Jahre verstreichen ließ, weil einzelne Stücke so lange verworfen und neu aufgebaut wurden, bis sie seinem inneren Bild vollständig entsprachen."
       },
       {
         titel: "Wenn die innere Last überwältigt – von radikaler Selbstbehauptung bis zur Selbstauflösung (Schattenform)",
@@ -55691,6 +55695,72 @@ function juneCarterCashPortraitPage() {
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
         {route:"beruehmte-t-e-lawrence", label:"Porträt: T. E. Lawrence (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function peterGabrielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-peter-gabriel-portrait.jpg" alt="Peter Gabriel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Gabriel</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Musiker, geb. 1950 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Tiefe nicht lautstark zur Schau, sondern verarbeitet sie in beharrlicher, oft jahrelanger Zurückgezogenheit. Peter Gabriel wurde 1950 im englischen Woking geboren, sang als Kind im Kirchenchor und lernte Schlagzeug, bevor er an der Charterhouse-Schule gemeinsam mit Mitschülern wie Tony Banks und Mike Rutherford eine Band gründete, aus der 1967 Genesis hervorging. Aus dieser behüteten, bürgerlichen Herkunft heraus entwickelte sich kein lauter Selbstdarsteller, sondern ein grüblerischer, introvertierter junger Mann, der seine innere Welt zunächst vor allem in Songtexten verarbeitete.</p>
+          <p class="vb-intro">Erst mit den Jahren wuchs aus dieser stillen Tiefe eine ganz eigene, unverwechselbare Bühnenpräsenz – ein Muster, das sich bei der selbsterhaltenden Vier immer wieder zeigt: Nicht das Rampenlicht sucht die Vier von sich aus, sondern die Notwendigkeit, komplexe innere Bilder überhaupt mitteilbar zu machen, drängt sie irgendwann fast zwangsläufig auf die Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Die Familie vor der Band</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> stellt in existenziellen Krisen die eigene Familie über alles andere – auch über eine gerade auf ihrem Höhepunkt stehende Karriere. 1974, während der aufwendigen Produktion des Genesis-Doppelalbums „The Lamb Lies Down on Broadway", kam Gabriels Tochter Anna nach einer schwierigen Geburt mit lebensbedrohlichen Komplikationen zur Welt. Während die Band in Wales an den Aufnahmen arbeitete, lag seine Frau Jill mit dem Kind zwischen Leben und Tod in einer Londoner Klinik.</p>
+          <p class="vb-intro">Gabriel fuhr wiederholt die fünf Stunden zwischen Studio und Krankenbett hin und her, weigerte sich, seine Familie in dieser Ausnahmesituation allein zu lassen, und geriet damit zunehmend in Konflikt mit seinen Bandkollegen. Die Spannungen, die aus dieser Priorisierung entstanden, waren einer der zentralen Gründe, warum er die Band im August 1975 – auf dem Gipfel ihres kommerziellen Erfolgs – verließ. Eine typische SE4-Entscheidung: das eigene, engste Beziehungsgeflecht wiegt schwerer als öffentlicher Ruhm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die selbst erschaffene Bühnenfigur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein ausgeprägtes Gespür für Wirkung, Inszenierung und öffentliches Auftreten – die innere Bildwelt wird nicht verborgen, sondern in eine sichtbare, oft selbst erdachte Rolle übersetzt. Als Genesis-Sänger erfand Gabriel während der Konzerte eine ganze Galerie selbst entworfener Kostüme und Masken: „The Watcher of the Skies", „Britannia", „The Slipperman", die Blüte für „Supper's Ready" – jede Figur eigens für einen bestimmten Songinhalt geschaffen, meist ohne Absprache mit dem Rest der Band.</p>
+          <p class="vb-intro">Diese Praxis, komplexe innere Erzählungen in ein selbst gestaltetes, unverwechselbares äußeres Bild zu übersetzen, setzte sich in seiner Solokarriere fort: die vier titellosen Alben zu Beginn seiner Solozeit, das mit „Sledgehammer" 1986 auf neun MTV Video Music Awards ausgezeichnete Stop-Motion-Video, das millionenfach verkaufte Album „So" – bei allen stand Gabriel selbst als visueller Erfinder hinter der Umsetzung. Darin ähnelt sein Muster dem der übrigen SE4w3 dieses Kompasses: eine zutiefst private Bildsprache, die nicht verborgen bleibt, sondern öffentlich sichtbar gemacht wird (vergleiche das Porträt von <a href="#beruehmte-honore-de-balzac">Honoré de Balzac (SE4w3)</a>, der sich ebenfalls eine eigene öffentliche Figur erschuf).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Fuchskopf und das rote Kleid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 28. September 1972 überraschte Gabriel während eines Konzerts in Dublin sowohl das Publikum als auch seine eigenen Bandkollegen, als er beim Song „The Musical Box" plötzlich mit einem Fuchskopf und einem langen roten Kleid seiner Frau auf der Bühne erschien – ohne Ankündigung, ohne Probe. Die anderen Musiker erfuhren erst in diesem Moment, welche Figur er sich für diesen Auftritt ausgedacht hatte.</p>
+          <p class="vb-intro">Diese Episode steht exemplarisch für das SE4w3-Muster: die kreative Entscheidung entstand ganz allein, im Rückzug, und wurde erst im Moment der Aufführung öffentlich – Innerlichkeit und Auftritt fielen bei Gabriel oft in genau diesem einen Augenblick zusammen, ohne Umweg über Absprache oder Kompromiss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 ist die Fähigkeit, <strong>eine ganz eigene innere Bildwelt in eine öffentlich wirksame Form zu übersetzen, die zugleich anderen dient</strong>. Gabriel nutzte diese Gabe weit über die eigene Musik hinaus: 1982 gründete er das WOMAD-Festival für Weltmusik, mit Real World Records ein Label, das unzähligen Musikern außerhalb des westlichen Mainstreams eine Bühne gab, und 1992 die Menschenrechtsorganisation Witness, die Aktivisten weltweit mit Videotechnik ausstattete, um Menschenrechtsverletzungen zu dokumentieren – wofür er 2006 von Nobelpreisträgern mit dem „Man of Peace"-Preis ausgezeichnet wurde.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in Gabriels notorischem Perfektionismus: Zwischen seinen Soloalben lagen oft vier, fünf, teils zehn Jahre Pause, weil er einzelne Stücke immer wieder verwarf und neu aufbaute, bis sie seinem inneren Bild vollständig entsprachen – eine Gründlichkeit, die künstlerisch beeindruckende Ergebnisse hervorbrachte, kommerziell aber wiederholt gegen ihn arbeitete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube hinter der Maske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Gabriel gehört zu den einflussreichsten Musikern der zweiten Hälfte des zwanzigsten Jahrhunderts – nicht weil er sich lauter in Szene setzte als andere, sondern weil er seine private Bildwelt so konsequent und eigenständig gestaltete, dass daraus eine ganz eigene künstlerische Sprache wurde, von den Genesis-Masken bis zu „Sledgehammer".</p>
+          <p class="vb-intro">Die Taube, die im Kirchenchor begann und sich Jahrzehnte später hinter selbst erdachten Masken auf der Bühne zeigte, ohne dabei je die eigene Familie aus den Augen zu verlieren – das ist das bleibende Bild dieses Subtyps: ein Mensch, der die eigene Tiefe nicht versteckt, sondern in Form, Bild und Auftritt übersetzt, ohne sich dabei selbst zu verlieren.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
       ])}
     </div>
   `);
@@ -136803,6 +136873,7 @@ function render() {
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
       "beruehmte-june-carter-cash": juneCarterCashPortraitPage,
+      "beruehmte-peter-gabriel": peterGabrielPortraitPage,
       "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,

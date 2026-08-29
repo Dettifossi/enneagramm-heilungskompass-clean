@@ -1991,6 +1991,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"June Carter Cash – Self-Preservation Type 4",
     teaser:"SE4w3 · 1929–2003. American singer, songwriter, and actress from the legendary Carter Family, five-time Grammy winner. Wrote \"Ring of Fire,\" organized the 1967/68 intervention that saved Johnny Cash's life, public marriage proposal mid-concert in 1968. Animal correspondence: Dove.",
     land:"USA", tags:["Music"], gender:"f"},
+{ route:"beruehmte-peter-gabriel", name:"Peter Gabriel", added:"2026-08-29", subtyp:"SE4w3",
+    heading:"Peter Gabriel – Self-Preservation Type 4",
+    teaser:"SE4w3 · b. 1950. British musician, Genesis frontman until 1975, then a celebrated solo career (\"So,\" \"Sledgehammer\"). Performed in self-designed masks and costumes, founded WOMAD, Real World Records, and the human-rights organization Witness. Animal correspondence: Dove.",
+    land:"United Kingdom", tags:["Music"], gender:"m"},
 { route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
     heading:"Honoré de Balzac – Self-Preservation Type 4",
     teaser:"SE4w3 · 1799–1850. French writer, \"La Comédie humaine\" (almost 100 novels/stories). Gave himself the noble \"de\" that wasn't his by birth, wrote through the night up to 18 hours a day fueled by coffee to pay off crushing debts, 17 years of correspondence with Countess Hańska before marrying her shortly before his death. Animal correspondence: Dove.",
@@ -23102,6 +23106,72 @@ function juneCarterCashPortraitPage() {
         {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
         {route:"beruehmte-t-e-lawrence", label:"Portrait: T. E. Lawrence (SP4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function peterGabrielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-peter-gabriel-portrait.jpg" alt="Peter Gabriel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Gabriel</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">British musician, b. 1950 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its depth on loud display, but processes it in persistent, often years-long withdrawal. Peter Gabriel was born in 1950 in Woking, England, sang as a child in the church choir, and learned drums before forming a band with schoolmates Tony Banks and Mike Rutherford at Charterhouse School – the group that became Genesis in 1967. Out of this sheltered, middle-class upbringing came not a loud self-promoter but a brooding, introverted young man who first processed his inner world mainly through song lyrics.</p>
+          <p class="vb-intro">Only over the years did this quiet depth grow into a wholly distinctive stage presence – a pattern that recurs again and again in the Self-Preservation Four: it is rarely the spotlight itself that the Four seeks out, but the need to make complex inner images communicable at all that eventually, almost inevitably, drives them onto the stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Family Before the Band</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> places its own family above all else in existential crises – even above a career that has just reached its peak. In 1974, during the elaborate production of the Genesis double album "The Lamb Lies Down on Broadway," Gabriel's daughter Anna was born after a difficult delivery with life-threatening complications. While the band worked on the recordings in Wales, his wife Jill lay with the baby between life and death in a London clinic.</p>
+          <p class="vb-intro">Gabriel repeatedly made the five-hour drive between the studio and the hospital bedside, refused to leave his family alone in this extraordinary situation, and increasingly clashed with his bandmates as a result. The tension arising from this prioritization was one of the central reasons he left the band in August 1975 – at the height of its commercial success. A typical SP4 decision: one's own closest bonds outweigh public fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: The Self-Made Stage Figure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Self-Preservation Four a pronounced sense for impact, staging, and public performance – the inner world of images is not hidden but translated into a visible, often self-invented role. As Genesis's singer, Gabriel devised an entire gallery of self-designed costumes and masks for the band's concerts: "The Watcher of the Skies," "Britannia," "The Slipperman," the flower for "Supper's Ready" – each figure created specifically for a particular song's content, usually without consulting the rest of the band.</p>
+          <p class="vb-intro">This practice of translating deeply private inner narratives into a self-made, unmistakable outer image continued into his solo career: the four untitled albums at the start of his solo years, the stop-motion "Sledgehammer" video that won nine MTV Video Music Awards in 1986, the multi-million-selling album "So" – in every case, Gabriel himself stood behind the visual concept. In this his pattern resembles that of the other SP4w3s in this compass: a deeply private imagery that does not stay hidden but is made publicly visible (compare the portrait of <a href="#beruehmte-honore-de-balzac">Honoré de Balzac (SP4w3)</a>, who likewise created his own public figure).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Fox's Head and the Red Dress</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On September 28, 1972, during a concert in Dublin, Gabriel surprised both the audience and his own bandmates when he suddenly appeared on stage during "The Musical Box" wearing a fox's head and his wife's long red dress – without announcement, without rehearsal. The other musicians learned of the figure he had devised for this performance only at that very moment.</p>
+          <p class="vb-intro">This episode stands as an exemplary case of the SP4w3 pattern: the creative decision was made entirely alone, in withdrawal, and became public only at the moment of performance – for Gabriel, interiority and performance often coincided in that single instant, without the detour of consultation or compromise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w3 lies in its ability to <strong>translate a wholly personal inner imagery into a publicly effective form that also serves others</strong>. Gabriel used this gift far beyond his own music: in 1982 he founded the WOMAD festival for world music, with Real World Records a label that gave countless musicians outside the Western mainstream a platform, and in 1992 the human-rights organization Witness, which equipped activists worldwide with video technology to document human-rights abuses – for which he received the "Man of Peace" award from Nobel laureates in 2006.</p>
+          <p class="vb-intro">The shadow showed in Gabriel's notorious perfectionism: gaps of four, five, sometimes ten years often separated his solo albums, because individual tracks were repeatedly discarded and rebuilt until they fully matched his inner image – a thoroughness that produced artistically striking results but repeatedly worked against him commercially.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove Behind the Mask</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Gabriel is among the most influential musicians of the second half of the twentieth century – not because he put himself forward more loudly than others, but because he shaped his private imagery so consistently and independently that it became an entirely distinct artistic language, from the Genesis masks to "Sledgehammer."</p>
+          <p class="vb-intro">The dove that began in a church choir and, decades later, appeared on stage behind self-invented masks without ever losing sight of his own family – that is the lasting image of this subtype: a person who does not hide their own depth, but translates it into form, image, and performance without losing themselves in the process.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
+        {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
       ])}
     </div>
   `);
@@ -45816,7 +45886,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -45831,7 +45901,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Complete inner processing before stepping outward",
         beschreibung: "Before anything becomes visible – a work, a stance, a decision – it is first fully lived through, observed, and processed inwardly. No spontaneous action, but a conscious landing only once the inner process is complete.",
-        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years; Miguel de Unamuno, who largely taught himself German, Danish, and other languages in order to read Kierkegaard and Hegel in the original, and who never answered his lifelong question about his own mortality too quickly, but kept rethinking it in dozens of books, without ever claiming a final answer."
+        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years; Miguel de Unamuno, who largely taught himself German, Danish, and other languages in order to read Kierkegaard and Hegel in the original, and who never answered his lifelong question about his own mortality too quickly, but kept rethinking it in dozens of books, without ever claiming a final answer; Peter Gabriel, whose self-designed stage figures – from the fox's head to the Slipperman – were always worked out entirely alone before appearing on stage without warning, and who regularly let four to ten years pass between solo albums because individual tracks were discarded and rebuilt again and again until they fully matched his inner image."
       },
       {
         titel: "When the inner burden overwhelms – from radical self-assertion to self-dissolution (shadow form)",
@@ -100896,6 +100966,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
       "beruehmte-june-carter-cash": juneCarterCashPortraitPage,
+      "beruehmte-peter-gabriel": peterGabrielPortraitPage,
       "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,

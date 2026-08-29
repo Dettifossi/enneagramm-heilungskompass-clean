@@ -1,3 +1,65 @@
+function heikeMakatschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heike-makatsch-portrait.jpg" alt="Heike Makatsch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heike Makatsch</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1971 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer dabei an Passivit\u00e4t denkt, versteht das Faultier falsch. Faultiere sind keine faulen Tiere. Sie sind Meister der Energieeffizienz: Sie warten, bis der richtige Moment kommt &ndash; und dann bewegen sie sich mit einer Pr\u00e4zision und Ausdauer, die \u00fcberrascht. Ihr Gleichgewicht im Baum ist keine Schw\u00e4che. Es ist eine Form von Kontrolle, die nach innen gerichtet ist.</p>
+          <p class="vb-intro">Die deutsche Schauspielerin Heike Makatsch tr\u00e4gt diese Qualit\u00e4t auf der Leinwand und dahinter. Sie ist keine Schauspielerin der gro\u00dfen Gesten, der bewusst platzierten Auftritte. Sie ist jemand, der wartet &ndash; auf die richtige Rolle, den richtigen Moment, den richtigen Ton &ndash; und dann vollst\u00e4ndig eintaucht. Das Faultier h\u00e4ngt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Der Verst\u00e4rkungstyp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Union</em>: das Verlangen nach vollst\u00e4ndiger Verschmelzung mit dem anderen Menschen, der anderen Welt, der anderen Figur. Unter den drei Neuner-Subtypen ist die SX9 der <strong>Verst\u00e4rkungstyp</strong>: Sie lebt ihre Neuner-Themen &ndash; Verschmelzung, Selbstvergessenheit, Hingabe &ndash; nicht zur\u00fcckgehalten, sondern mit maximaler Intensit\u00e4t. Was die selbsterhaltende Neun im Stillen tut und die soziale Neun in der Gruppe verteilt, bringt die sexuelle Neun in ein einziges, vollst\u00e4ndiges Eintauchen &ndash; in eine Person, eine Rolle, einen Augenblick.</p>
+          <p class="vb-intro">Bei Heike Makatsch zeigt sich das in einer schauspielerischen Qualit\u00e4t, die Kritiker immer wieder bemerkt haben: Sie verschwindet. In <em>Aim\u00e9e &amp; Jaguar</em> (1999) spielt sie Felice Sch\u00f6nherr, eine j\u00fcdische Frau in der NS-Zeit, die sich leidenschaftlich in eine andere Frau verliebt &ndash; eine Rolle, die totale emotionale Anwesenheit verlangt. Heike Makatsch gibt genau das. Sie ist nicht die Schauspielerin, die eine Figur spielt. Sie ist die Figur &ndash; f\u00fcr die Dauer des Films. Und danach kehrt sie zur\u00fcck in die Stille, als w\u00e4re nichts gewesen.</p>
+          <p class="vb-intro">Dieselbe Energie zeigt sich in ihrer langen, diskreten Privatheit. Jahrelange Beziehungen, Kinder, ein Leben au\u00dferhalb des Rampenlichts &ndash; nicht weil sie sich verweigert, sondern weil die wirkliche Verschmelzung im Privaten stattfindet, nicht vor der Kamera. Die SX9 gibt ihr Intensivtestes dem, was ihr wirklich wichtig ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Die Kraft hinter der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> ver\u00e4ndert die sexuelle Neun grundlegend. Wo die <strong>SX9w1</strong> (wie Keanu Reeves) ruhig und prinzipientreu agiert, bringt der Achterfl\u00fcgel eine andere Qualit\u00e4t: Direktheit, Leidenschaft, eine unterschwellige Kraft, die man sp\u00fcrt, ohne dass sie laut wird. Die <strong>SX9w8</strong> ist keine sanfte Verschmelzerin &ndash; sie verschmilzt mit Vehemenz. Sie gibt nicht nach. Sie weicht nicht aus. Und wenn sie in eine Rolle eintaucht, nimmt sie das Ernst bis zur letzten Konsequenz.</p>
+          <p class="vb-intro">Bei Heike Makatsch ist dieser Fl\u00fcgel in ihrer schauspielerischen Wahl ablesbar: Sie w\u00e4hlt schwierige Stoffe. Historische Figuren mit moralischer Komplexit\u00e4t, Charaktere am Rand, Geschichten, die nicht bequem enden. Der Achterfl\u00fcgel gibt der Neun die F\u00e4higkeit, sich der Dunkelheit nicht zu entziehen &ndash; und trotzdem geerdet zu bleiben. Er ist das R\u00fcckgrat hinter der Sanftheit: Man sp\u00fcrt, dass da jemand wei\u00df, was er tut &ndash; auch wenn er es leise tut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Tr\u00e4gheit als Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun hei\u00dft <strong>Tr\u00e4gheit</strong> &ndash; das Beharren im Strom des Anderen, das Zur\u00fcckstellen des eigenen Willens zugunsten der Verbindung. Bei der sexuellen Neun nimmt diese Tr\u00e4gheit eine besondere Form an: Sie erscheint nicht als Passivit\u00e4t, sondern als vollst\u00e4ndige Hingabe. Die SX9 <em>will</em> verschwinden &ndash; im Partner, in der Figur, im Werk. Das ist keine Flucht. Das ist ihre h\u00f6chste Form von Anwesenheit.</p>
+          <p class="vb-intro">Heike Makatsch hat \u00fcber Jahrzehnte hinweg eine Karriere aufgebaut, die nicht auf Selbstvermarktung basiert, sondern auf Verl\u00e4sslichkeit und Tiefe. Sie ist keine Medienpers\u00f6nlichkeit, die ihren Namen zu einer Marke gemacht hat. Sie ist eine Schauspielerin &ndash; und das mit einer Konsequenz, die den Achterfl\u00fcgel sichtbar macht: nicht laut, aber unbedingt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Vollst\u00e4ndige Anwesenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Heike Makatsch als Schauspielerin auszeichnet, ist auch das, was die SX9w8 in echten Beziehungen anbieten kann: vollst\u00e4ndige Anwesenheit. Kein halbes Eintauchen, kein Abstand halten, kein Sich-Schonen. Die SX9w8 gibt ihr Ganzes &ndash; und der Achterfl\u00fcgel sorgt daf\u00fcr, dass dieses Ganze auch eine gewisse Kraft hat. Man sp\u00fcrt: Hier ist jemand wirklich dabei.</p>
+          <p class="vb-intro">Das Geschenk der SX9w8 ist diese Verbindung aus Tiefe und St\u00e4rke. Heike Makatsch bringt in jede Rolle etwas mit, das nicht einstudiert werden kann: die F\u00e4higkeit, sich aufzugeben, ohne sich zu verlieren. Das Faultier h\u00e4ngt im Baum &ndash; ruhig, geerdet, vollkommen pr\u00e4sent. Es wartet nicht auf den Applaus. Es wartet auf den Moment, in dem es sich bewegen darf. Und dann &ndash; bewegt es sich ganz.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-keanu-reeves", label:"Portr\u00e4t: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-willy-brandt", label:"Portr\u00e4t: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Portr\u00e4t: Kris Marshall (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function marioBarthPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7125,67 +7187,6 @@ function stormReidPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
         {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function quentinTarantinoPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-quentin-tarantino-portrait.jpg" alt="Quentin Tarantino – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Quentin Tarantino</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">US-amerikanischer Regisseur, Drehbuchautor &amp; Schauspieler, geb. 1963 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein eigenes Gewässer genau kennt, es sich Stück für Stück aneignet und von dort aus verteidigt, was ihm gehört. Quentin Tarantino baute sein Revier zunächst nicht auf einem Filmset, sondern zwischen den Regalen einer Videothek auf &ndash; und kehrt bis heute buchstäblich dorthin zurück, wo alles begann.</p>
-          <p class="vb-intro">Der US-amerikanische Regisseur Quentin Tarantino wurde am 27. März 1963 in Knoxville, Tennessee, geboren und zog mit vier Jahren mit seiner Mutter Connie nach Torrance, Kalifornien. Seine Mutter, eine Krankenschwester, nahm ihn schon früh mit ins Kino &ndash; mit sechs Jahren sah er <em>The Wild Bunch</em>, mit acht <em>Carnal Knowledge</em>, mit neun <em>Deliverance</em>. Aus einem unruhigen häuslichen Umfeld heraus wurde das Kino für ihn zu einem verlässlichen, immer verfügbaren Zufluchtsort.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Ein Revier aus Film aufbauen und verteidigen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis, bevor sie sich nach außen wendet. Bei Tarantino war diese Basis von Anfang an das Wissen über Filme selbst: Mit 22 begann er bei Video Archives in Manhattan Beach zu arbeiten, einer inzwischen legendären Videothek, in der er gemeinsam mit anderen Kinobesessenen wie Roger Avary tagein, tagaus Filme ansah, besprach und Kunden empfahl &ndash; eine selbstgebaute Filmschule, finanziert durch den eigenen Job.</p>
-          <p class="vb-intro">Dieses Fürsorgeprinzip zeigt sich bis heute in seiner Arbeitsweise: Ein enger Kreis wiederkehrender Schauspieler &ndash; Samuel L. Jackson, Uma Thurman, Michael Madsen, Tim Roth &ndash; taucht Film für Film wieder auf, ebenso Produzent Lawrence Bender, der bereits <em>Reservoir Dogs</em> (1992) realisierte. Tarantino baut nicht bei jedem Projekt neu auf, sondern vertieft dieselbe, vertraute Basis aus Menschen, die er kennt und denen er vertraut.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Vom Videothekar zum Weltkino-Ereignis</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. <em>Reservoir Dogs</em> feierte 1992 beim Sundance Film Festival einen umjubelten Erfolg und machte Tarantino praktisch über Nacht zu einem gefragten Namen in Hollywood. <em>Pulp Fiction</em> (1994) folgte zwei Jahre später und gewann die Goldene Palme in Cannes sowie den Oscar für das beste Originaldrehbuch &ndash; aus dem Videothekar wurde einer der stilprägendsten Regisseure seiner Generation.</p>
-          <p class="vb-intro">Bis heute hat Tarantino gezielt ein überschaubares, sichtbares Gesamtwerk aufgebaut, statt in die Breite zu gehen: <em>Jackie Brown</em>, <em>Kill Bill</em>, <em>Inglourious Basterds</em>, <em>Django Unchained</em>, <em>The Hateful Eight</em>, <em>Once Upon a Time in Hollywood</em> &ndash; jeder Film ein eigenes, unverwechselbares Ereignis. Sein erklärter Plan, nach zehn Filmen aufzuhören, statt endlos weiterzumachen, zeigt den Dreierflügel von seiner kontrollierten Seite: lieber ein begrenztes, makelloses Werk als ein ausuferndes.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, eine tiefe, fast besitzergreifende Liebe zu einer Sache in ein sichtbares, weltweit anerkanntes Lebenswerk zu übersetzen, ohne die ursprüngliche Basis je zu verlassen. Seit 2007 besitzt und betreibt Tarantino persönlich das New Beverly Cinema in Los Angeles, eines der letzten reinen 35-mm-Kinos der Stadt &ndash; rund sechzig bis fünfundsechzig Prozent des Programms stammen aus seiner eigenen, seit Jahrzehnten gesammelten Filmkopien-Sammlung, die er selbst kuratiert.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Aufbau unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Kompromisslosigkeit werden, mit der das eigene Terrain &ndash; sei es das Drehbuch, der Schnitt oder das Kino selbst &ndash; gegen jede Einmischung von außen verteidigt wird. Tarantinos Ruf als Regisseur, der auf jedem Detail seiner Filme beharrt und selbst als Produzent kaum Kompromisse eingeht, zeigt diese Seite ebenso deutlich wie sein künstlerischer Erfolg.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Ein Revier, das größer wurde, ohne die Wurzeln zu verlieren</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Tarantinos Filme erzählen fast durchgehend von Loyalität, Verrat und dem, was eine Gruppe zusammenhält oder zerreißt &ndash; von den titelgebenden Gaunern in <em>Reservoir Dogs</em> bis zur Kampftruppe in <em>Inglourious Basterds</em>. Auch die eigene Filmografie funktioniert nach diesem Prinzip: eine feste Besetzung, wiederkehrende Handschriften, ein Werk, das sich selbst zitiert und weiterentwickelt, statt bei null neu anzufangen.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein Gewässer nicht, um zu gefallen &ndash; es macht sein Revier größer, ohne die eigene Basis aufzugeben. Vom Regal einer Videothek in Manhattan Beach bis zum eigenen Kino in Los Angeles hat Tarantino genau das getan: dieselbe Liebe zum Film, mit der alles begann, immer weiter ausgebaut, ohne sie je hinter sich zu lassen.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
-        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
-        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3)"},
-        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
       ])}
     </div>
   `);

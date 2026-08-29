@@ -5105,6 +5105,72 @@ function juneCarterCashPortraitPage() {
   `);
 }
 
+function peterGabrielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-peter-gabriel-portrait.jpg" alt="Peter Gabriel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Gabriel</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Musiker, geb. 1950 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Tiefe nicht lautstark zur Schau, sondern verarbeitet sie in beharrlicher, oft jahrelanger Zurückgezogenheit. Peter Gabriel wurde 1950 im englischen Woking geboren, sang als Kind im Kirchenchor und lernte Schlagzeug, bevor er an der Charterhouse-Schule gemeinsam mit Mitschülern wie Tony Banks und Mike Rutherford eine Band gründete, aus der 1967 Genesis hervorging. Aus dieser behüteten, bürgerlichen Herkunft heraus entwickelte sich kein lauter Selbstdarsteller, sondern ein grüblerischer, introvertierter junger Mann, der seine innere Welt zunächst vor allem in Songtexten verarbeitete.</p>
+          <p class="vb-intro">Erst mit den Jahren wuchs aus dieser stillen Tiefe eine ganz eigene, unverwechselbare Bühnenpräsenz – ein Muster, das sich bei der selbsterhaltenden Vier immer wieder zeigt: Nicht das Rampenlicht sucht die Vier von sich aus, sondern die Notwendigkeit, komplexe innere Bilder überhaupt mitteilbar zu machen, drängt sie irgendwann fast zwangsläufig auf die Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Die Familie vor der Band</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> stellt in existenziellen Krisen die eigene Familie über alles andere – auch über eine gerade auf ihrem Höhepunkt stehende Karriere. 1974, während der aufwendigen Produktion des Genesis-Doppelalbums „The Lamb Lies Down on Broadway", kam Gabriels Tochter Anna nach einer schwierigen Geburt mit lebensbedrohlichen Komplikationen zur Welt. Während die Band in Wales an den Aufnahmen arbeitete, lag seine Frau Jill mit dem Kind zwischen Leben und Tod in einer Londoner Klinik.</p>
+          <p class="vb-intro">Gabriel fuhr wiederholt die fünf Stunden zwischen Studio und Krankenbett hin und her, weigerte sich, seine Familie in dieser Ausnahmesituation allein zu lassen, und geriet damit zunehmend in Konflikt mit seinen Bandkollegen. Die Spannungen, die aus dieser Priorisierung entstanden, waren einer der zentralen Gründe, warum er die Band im August 1975 – auf dem Gipfel ihres kommerziellen Erfolgs – verließ. Eine typische SE4-Entscheidung: das eigene, engste Beziehungsgeflecht wiegt schwerer als öffentlicher Ruhm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die selbst erschaffene Bühnenfigur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein ausgeprägtes Gespür für Wirkung, Inszenierung und öffentliches Auftreten – die innere Bildwelt wird nicht verborgen, sondern in eine sichtbare, oft selbst erdachte Rolle übersetzt. Als Genesis-Sänger erfand Gabriel während der Konzerte eine ganze Galerie selbst entworfener Kostüme und Masken: „The Watcher of the Skies", „Britannia", „The Slipperman", die Blüte für „Supper's Ready" – jede Figur eigens für einen bestimmten Songinhalt geschaffen, meist ohne Absprache mit dem Rest der Band.</p>
+          <p class="vb-intro">Diese Praxis, komplexe innere Erzählungen in ein selbst gestaltetes, unverwechselbares äußeres Bild zu übersetzen, setzte sich in seiner Solokarriere fort: die vier titellosen Alben zu Beginn seiner Solozeit, das mit „Sledgehammer" 1986 auf neun MTV Video Music Awards ausgezeichnete Stop-Motion-Video, das millionenfach verkaufte Album „So" – bei allen stand Gabriel selbst als visueller Erfinder hinter der Umsetzung. Darin ähnelt sein Muster dem der übrigen SE4w3 dieses Kompasses: eine zutiefst private Bildsprache, die nicht verborgen bleibt, sondern öffentlich sichtbar gemacht wird (vergleiche das Porträt von <a href="#beruehmte-honore-de-balzac">Honoré de Balzac (SE4w3)</a>, der sich ebenfalls eine eigene öffentliche Figur erschuf).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Fuchskopf und das rote Kleid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 28. September 1972 überraschte Gabriel während eines Konzerts in Dublin sowohl das Publikum als auch seine eigenen Bandkollegen, als er beim Song „The Musical Box" plötzlich mit einem Fuchskopf und einem langen roten Kleid seiner Frau auf der Bühne erschien – ohne Ankündigung, ohne Probe. Die anderen Musiker erfuhren erst in diesem Moment, welche Figur er sich für diesen Auftritt ausgedacht hatte.</p>
+          <p class="vb-intro">Diese Episode steht exemplarisch für das SE4w3-Muster: die kreative Entscheidung entstand ganz allein, im Rückzug, und wurde erst im Moment der Aufführung öffentlich – Innerlichkeit und Auftritt fielen bei Gabriel oft in genau diesem einen Augenblick zusammen, ohne Umweg über Absprache oder Kompromiss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 ist die Fähigkeit, <strong>eine ganz eigene innere Bildwelt in eine öffentlich wirksame Form zu übersetzen, die zugleich anderen dient</strong>. Gabriel nutzte diese Gabe weit über die eigene Musik hinaus: 1982 gründete er das WOMAD-Festival für Weltmusik, mit Real World Records ein Label, das unzähligen Musikern außerhalb des westlichen Mainstreams eine Bühne gab, und 1992 die Menschenrechtsorganisation Witness, die Aktivisten weltweit mit Videotechnik ausstattete, um Menschenrechtsverletzungen zu dokumentieren – wofür er 2006 von Nobelpreisträgern mit dem „Man of Peace"-Preis ausgezeichnet wurde.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in Gabriels notorischem Perfektionismus: Zwischen seinen Soloalben lagen oft vier, fünf, teils zehn Jahre Pause, weil er einzelne Stücke immer wieder verwarf und neu aufbaute, bis sie seinem inneren Bild vollständig entsprachen – eine Gründlichkeit, die künstlerisch beeindruckende Ergebnisse hervorbrachte, kommerziell aber wiederholt gegen ihn arbeitete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube hinter der Maske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Gabriel gehört zu den einflussreichsten Musikern der zweiten Hälfte des zwanzigsten Jahrhunderts – nicht weil er sich lauter in Szene setzte als andere, sondern weil er seine private Bildwelt so konsequent und eigenständig gestaltete, dass daraus eine ganz eigene künstlerische Sprache wurde, von den Genesis-Masken bis zu „Sledgehammer".</p>
+          <p class="vb-intro">Die Taube, die im Kirchenchor begann und sich Jahrzehnte später hinter selbst erdachten Masken auf der Bühne zeigte, ohne dabei je die eigene Familie aus den Augen zu verlieren – das ist das bleibende Bild dieses Subtyps: ein Mensch, der die eigene Tiefe nicht versteckt, sondern in Form, Bild und Auftritt übersetzt, ohne sich dabei selbst zu verlieren.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function charlotteWellsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7457,66 +7523,4 @@ function dakotaJohnsonPortraitPage() {
   `);
 }
 
-
-function heikeMakatschPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-heike-makatsch-portrait.jpg" alt="Heike Makatsch" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Heike Makatsch</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1971 &ndash; Tierentsprechung: Faultier</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Faultier</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer dabei an Passivit\u00e4t denkt, versteht das Faultier falsch. Faultiere sind keine faulen Tiere. Sie sind Meister der Energieeffizienz: Sie warten, bis der richtige Moment kommt &ndash; und dann bewegen sie sich mit einer Pr\u00e4zision und Ausdauer, die \u00fcberrascht. Ihr Gleichgewicht im Baum ist keine Schw\u00e4che. Es ist eine Form von Kontrolle, die nach innen gerichtet ist.</p>
-          <p class="vb-intro">Die deutsche Schauspielerin Heike Makatsch tr\u00e4gt diese Qualit\u00e4t auf der Leinwand und dahinter. Sie ist keine Schauspielerin der gro\u00dfen Gesten, der bewusst platzierten Auftritte. Sie ist jemand, der wartet &ndash; auf die richtige Rolle, den richtigen Moment, den richtigen Ton &ndash; und dann vollst\u00e4ndig eintaucht. Das Faultier h\u00e4ngt still, bis es sich bewegt. Wenn es sich bewegt, gibt es alles.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Neun: Der Verst\u00e4rkungstyp</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Union</em>: das Verlangen nach vollst\u00e4ndiger Verschmelzung mit dem anderen Menschen, der anderen Welt, der anderen Figur. Unter den drei Neuner-Subtypen ist die SX9 der <strong>Verst\u00e4rkungstyp</strong>: Sie lebt ihre Neuner-Themen &ndash; Verschmelzung, Selbstvergessenheit, Hingabe &ndash; nicht zur\u00fcckgehalten, sondern mit maximaler Intensit\u00e4t. Was die selbsterhaltende Neun im Stillen tut und die soziale Neun in der Gruppe verteilt, bringt die sexuelle Neun in ein einziges, vollst\u00e4ndiges Eintauchen &ndash; in eine Person, eine Rolle, einen Augenblick.</p>
-          <p class="vb-intro">Bei Heike Makatsch zeigt sich das in einer schauspielerischen Qualit\u00e4t, die Kritiker immer wieder bemerkt haben: Sie verschwindet. In <em>Aim\u00e9e &amp; Jaguar</em> (1999) spielt sie Felice Sch\u00f6nherr, eine j\u00fcdische Frau in der NS-Zeit, die sich leidenschaftlich in eine andere Frau verliebt &ndash; eine Rolle, die totale emotionale Anwesenheit verlangt. Heike Makatsch gibt genau das. Sie ist nicht die Schauspielerin, die eine Figur spielt. Sie ist die Figur &ndash; f\u00fcr die Dauer des Films. Und danach kehrt sie zur\u00fcck in die Stille, als w\u00e4re nichts gewesen.</p>
-          <p class="vb-intro">Dieselbe Energie zeigt sich in ihrer langen, diskreten Privatheit. Jahrelange Beziehungen, Kinder, ein Leben au\u00dferhalb des Rampenlichts &ndash; nicht weil sie sich verweigert, sondern weil die wirkliche Verschmelzung im Privaten stattfindet, nicht vor der Kamera. Die SX9 gibt ihr Intensivtestes dem, was ihr wirklich wichtig ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Die Kraft hinter der Stille</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> ver\u00e4ndert die sexuelle Neun grundlegend. Wo die <strong>SX9w1</strong> (wie Keanu Reeves) ruhig und prinzipientreu agiert, bringt der Achterfl\u00fcgel eine andere Qualit\u00e4t: Direktheit, Leidenschaft, eine unterschwellige Kraft, die man sp\u00fcrt, ohne dass sie laut wird. Die <strong>SX9w8</strong> ist keine sanfte Verschmelzerin &ndash; sie verschmilzt mit Vehemenz. Sie gibt nicht nach. Sie weicht nicht aus. Und wenn sie in eine Rolle eintaucht, nimmt sie das Ernst bis zur letzten Konsequenz.</p>
-          <p class="vb-intro">Bei Heike Makatsch ist dieser Fl\u00fcgel in ihrer schauspielerischen Wahl ablesbar: Sie w\u00e4hlt schwierige Stoffe. Historische Figuren mit moralischer Komplexit\u00e4t, Charaktere am Rand, Geschichten, die nicht bequem enden. Der Achterfl\u00fcgel gibt der Neun die F\u00e4higkeit, sich der Dunkelheit nicht zu entziehen &ndash; und trotzdem geerdet zu bleiben. Er ist das R\u00fcckgrat hinter der Sanftheit: Man sp\u00fcrt, dass da jemand wei\u00df, was er tut &ndash; auch wenn er es leise tut.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Tr\u00e4gheit als Hingabe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Neun hei\u00dft <strong>Tr\u00e4gheit</strong> &ndash; das Beharren im Strom des Anderen, das Zur\u00fcckstellen des eigenen Willens zugunsten der Verbindung. Bei der sexuellen Neun nimmt diese Tr\u00e4gheit eine besondere Form an: Sie erscheint nicht als Passivit\u00e4t, sondern als vollst\u00e4ndige Hingabe. Die SX9 <em>will</em> verschwinden &ndash; im Partner, in der Figur, im Werk. Das ist keine Flucht. Das ist ihre h\u00f6chste Form von Anwesenheit.</p>
-          <p class="vb-intro">Heike Makatsch hat \u00fcber Jahrzehnte hinweg eine Karriere aufgebaut, die nicht auf Selbstvermarktung basiert, sondern auf Verl\u00e4sslichkeit und Tiefe. Sie ist keine Medienpers\u00f6nlichkeit, die ihren Namen zu einer Marke gemacht hat. Sie ist eine Schauspielerin &ndash; und das mit einer Konsequenz, die den Achterfl\u00fcgel sichtbar macht: nicht laut, aber unbedingt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Vollst\u00e4ndige Anwesenheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Heike Makatsch als Schauspielerin auszeichnet, ist auch das, was die SX9w8 in echten Beziehungen anbieten kann: vollst\u00e4ndige Anwesenheit. Kein halbes Eintauchen, kein Abstand halten, kein Sich-Schonen. Die SX9w8 gibt ihr Ganzes &ndash; und der Achterfl\u00fcgel sorgt daf\u00fcr, dass dieses Ganze auch eine gewisse Kraft hat. Man sp\u00fcrt: Hier ist jemand wirklich dabei.</p>
-          <p class="vb-intro">Das Geschenk der SX9w8 ist diese Verbindung aus Tiefe und St\u00e4rke. Heike Makatsch bringt in jede Rolle etwas mit, das nicht einstudiert werden kann: die F\u00e4higkeit, sich aufzugeben, ohne sich zu verlieren. Das Faultier h\u00e4ngt im Baum &ndash; ruhig, geerdet, vollkommen pr\u00e4sent. Es wartet nicht auf den Applaus. Es wartet auf den Moment, in dem es sich bewegen darf. Und dann &ndash; bewegt es sich ganz.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
-        {route:"beruehmte-keanu-reeves", label:"Portr\u00e4t: Keanu Reeves (SX9w1)"},
-        {route:"beruehmte-willy-brandt", label:"Portr\u00e4t: Willy Brandt (SO9w8)"},
-        {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
-        {route:"beruehmte-kris-marshall", label:"Portr\u00e4t: Kris Marshall (SX9w1)"},
-      ])}
-    </div>
-  `);
-}
 
