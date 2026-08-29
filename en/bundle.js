@@ -1987,6 +1987,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Arthur Rimbaud – Sexual Type 4",
     teaser:"SX4w3 · 1854–1891. French poet. At fifteen to twenty wanted to surpass all of French poetry, tempestuous relationship with Paul Verlaine, radical break with writing at twenty-one, then merchant and arms trader in Africa. Animal correspondence: Chihuahua.",
     land:"France", tags:["Literature"], gender:"m"},
+{ route:"beruehmte-june-carter-cash", name:"June Carter Cash", added:"2026-08-29", subtyp:"SE4w3",
+    heading:"June Carter Cash – Self-Preservation Type 4",
+    teaser:"SE4w3 · 1929–2003. American singer, songwriter, and actress from the legendary Carter Family, five-time Grammy winner. Wrote \"Ring of Fire,\" organized the 1967/68 intervention that saved Johnny Cash's life, public marriage proposal mid-concert in 1968. Animal correspondence: Dove.",
+    land:"USA", tags:["Music"], gender:"f"},
 { route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
     heading:"Honoré de Balzac – Self-Preservation Type 4",
     teaser:"SE4w3 · 1799–1850. French writer, \"La Comédie humaine\" (almost 100 novels/stories). Gave himself the noble \"de\" that wasn't his by birth, wrote through the night up to 18 hours a day fueled by coffee to pay off crushing debts, 17 years of correspondence with Countess Hańska before marrying her shortly before his death. Animal correspondence: Dove.",
@@ -23033,6 +23037,72 @@ function paulGauguinPortraitPage() {
           {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function juneCarterCashPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-june-carter-cash-portrait.jpg" alt="June Carter Cash" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">June Carter Cash</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American singer, songwriter, and actress, 1929&ndash;2003 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. June Carter was born in 1929 in rural Maces Spring, Virginia, the daughter of Maybelle Carter, a founding figure of the legendary Carter Family, one of the most influential groups in American country and folk music. As a child, June already performed on stage alongside her sisters Helen and Anita – born into a family whose entire identity depended on its public musical presence.</p>
+          <p class="vb-intro">Out of this early imprint grew a lifelong pattern: from childhood on, her own person and her stage persona were barely distinguishable. Rather than resisting this externally imposed role, June turned it into something distinctly her own – a quick-witted, comedic performance style with her own sketches and monologues that set her apart early on from her equally talented sisters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: The Carrier in the Background</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> does not carry its own suffering outward but endures it – often by placing itself entirely in service of another person or a family. Biographers and fellow musicians repeatedly described June as the quiet "holder-upper" of the Cash-Carter family: the one who carried its cohesion while others stood in the spotlight. She repeatedly chose this role deliberately over her own independent career.</p>
+          <p class="vb-intro">This showed most clearly in 1967/68, when Johnny Cash nearly succumbed to severe pill and alcohol addiction. Together with family and friends, June organized one of the first publicly known interventions of its kind in the music world, and accompanied him through years of recovery afterward – a quiet, tenacious burden carried over years that she never made the center of her own story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: The Stage as Second Nature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Self-Preservation Four a pronounced sense for impact and performance – inner depth is not turned inward but translated into a visible, often charmingly comedic public role. June was a sought-after entertainer throughout her life: singer, songwriter, actress, and author, winner of five Grammy Awards, most recently in 1999 for her solo album "Press On" – a late, entirely independent artistic statement, after decades spent largely in the shadow of Johnny Cash's world fame.</p>
+          <p class="vb-intro">Her best-known songwriting contribution, "Ring of Fire" (co-written with Merle Kilgore), grew out of her own, then-forbidden love for Johnny Cash, while both were still married to other partners – a deeply personal feeling June did not conceal but turned into one of the greatest country hits of all time. In the Four, the Three-wing translates inner truth not into privacy, but into a work meant to be seen and heard.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Marriage Proposal on Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On February 22, 1968, during a joint concert in London, Ontario, Johnny Cash paused mid-song during "Jackson" and proposed to June live in front of the audience. She accepted – a public moment visible to the whole world that finally brought their years-long, previously discreet relationship into the spotlight. They married a few weeks later, and June became not only his wife but, for decades, also his most important stage partner, moral anchor, and, as many companions later confirmed, quite literally the person who saved his life.</p>
+          <p class="vb-intro">This episode, too, shows the typical SP4w3 constellation: a deeply personal, emotional moment that did not stay hidden but was deliberately carried out in public – for June, closeness and stage, the private and the performed, were barely separable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w3 lies in its ability to turn <strong>a deeply personal inner truth into a stage presence</strong> that carries and steadies others without losing its own depth. Through humor, music, and her mere presence, June Carter Cash gave an entire family, and one of the most famous artists of the twentieth century, steady ground for decades.</p>
+          <p class="vb-intro">The shadow showed in how June's own artistic voice receded behind this supporting role for much of her life – her independent solo album came only late, in her sixties. June Carter Cash died on May 15, 2003, in Nashville from complications following heart surgery, only months before Johnny Cash himself died that September – inseparably bound to each other to the very end.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove That Carried the Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">June Carter Cash is among the most defining women in American country music – not because she pushed herself into the foreground louder than others, but because she translated her own depth so convincingly into stage presence, humor, and quiet persistence that she became the load-bearing figure of an entire musical dynasty.</p>
+          <p class="vb-intro">The dove that was born as a child into a musical family and spent her whole life moving between her own stage presence and quiet care for others – that is the lasting image of this subtype: a person who does not hide her own truth, but lives it in performance and devotion at once.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
+        {route:"beruehmte-t-e-lawrence", label:"Portrait: T. E. Lawrence (SP4w3)"},
+      ])}
     </div>
   `);
 }
@@ -45746,7 +45816,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -45756,7 +45826,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
         beschreibung: "The delicate, sensitive appearance is deceptive about considerable inner endurance: the path continues even through storms and setbacks, not because fear is absent, but because a deep knowledge of one's own direction carries it.",
-        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Nikola Tesla, who lost his life's work at the Wardenclyffe Tower and nonetheless held to its rightness to the end – and who, far from any human closeness, found his deepest bond in a single white dove; Honoré de Balzac, who for decades wrote through the night against crushing debt, often fifteen to eighteen hours at a stretch – no giving up despite constant financial hardship, but a tenacious persistence that ended only with his death, five months after the marriage to Ewelina Hańska he had hoped for over seventeen years; T. E. Lawrence, who as a British liaison officer rode through the desert for weeks, sharing hunger and exhaustion with the Arab fighters instead of commanding from a distance – and who, after the war, turned that same quiet tenacity inward, in a years-long, self-arranged punishment ritual, rather than speaking of the humiliation he suffered at Deraa."
+        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Nikola Tesla, who lost his life's work at the Wardenclyffe Tower and nonetheless held to its rightness to the end – and who, far from any human closeness, found his deepest bond in a single white dove; Honoré de Balzac, who for decades wrote through the night against crushing debt, often fifteen to eighteen hours at a stretch – no giving up despite constant financial hardship, but a tenacious persistence that ended only with his death, five months after the marriage to Ewelina Hańska he had hoped for over seventeen years; T. E. Lawrence, who as a British liaison officer rode through the desert for weeks, sharing hunger and exhaustion with the Arab fighters instead of commanding from a distance – and who, after the war, turned that same quiet tenacity inward, in a years-long, self-arranged punishment ritual, rather than speaking of the humiliation he suffered at Deraa; June Carter Cash, who in 1967/68, together with family and friends, confronted Johnny Cash's addiction to pills and alcohol and accompanied him through years of recovery afterward – a quiet, tenacious burden she never made the center of her own story."
       },
       {
         titel: "Complete inner processing before stepping outward",
@@ -100825,6 +100895,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
+      "beruehmte-june-carter-cash": juneCarterCashPortraitPage,
       "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
@@ -101780,7 +101851,7 @@ document.addEventListener("click", (e) => {
 (function() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const MY_VERSION = (function() {
-    try { return new URL(import.meta.url).searchParams.get('v'); } catch (e) { return null; }
+    try { return new URL(document.currentScript.src).searchParams.get('v'); } catch (e) { return null; }
   })();
   if (!MY_VERSION) return;
   const GUARD_KEY = 'kompass-reload-guard-' + MY_VERSION;

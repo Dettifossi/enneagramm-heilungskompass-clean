@@ -1,3 +1,65 @@
+function nusratFatehAliKhanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nusrat-fateh-ali-khan-portrait.jpg" alt="Nusrat Fateh Ali Khan – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nusrat Fateh Ali Khan</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Pakistanischer Qawwali-Sänger, 1948&ndash;1997 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das tief in seinem angestammten Gewässer verwurzelt ist und aus dieser Verwurzelung heraus eine Kraft entfaltet, die weit über das eigene Revier hinausreicht. Nusrat Fateh Ali Khan trug ein solches Gewässer buchstäblich in sich: eine Qawwali-Tradition, die in seiner Familie fast sechshundert Jahre lang von Generation zu Generation weitergegeben worden war, bevor er sie an die ganze Welt weitergab.</p>
+          <p class="vb-intro">Der pakistanische Sänger Nusrat Fateh Ali Khan wurde am 13. Oktober 1948 in Lyallpur, dem heutigen Faisalabad, geboren, als fünftes Kind und erster Sohn des renommierten Qawwal-Meisters Fateh Ali Khan. Seine Familie war nach der Teilung Indiens 1947 aus dem ostpunjabischen Jalandhar nach Pakistan geflohen &ndash; ihr wertvollstes Gepäck war das über Generationen verfeinerte Wissen um den Sufi-Gesang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge für das Überleben der Familientradition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Nusrat Fateh Ali Khan zeigte sich das nicht als Fürsorge für einzelne Menschen, sondern für eine ganze, jahrhundertealte Familienlinie: Sein Vater wollte ihn zunächst gar nicht in die Qawwali-Laufbahn führen, da Musikern damals oft ein niedriger sozialer Status anhaftete &ndash; Nusrat begann dennoch früh als Tabla-Spieler in der Gruppe seines Vaters und lernte parallel heimlich den Gesang.</p>
+          <p class="vb-intro">Als sein Vater 1964 starb, war Nusrat noch Schüler. Sein erster öffentlicher Auftritt als Sänger fand vierzig Tage später statt &ndash; bei der Totenfeier für den eigenen Vater, wie es die Tradition vorsah. Die Ausbildung übernahm anschließend sein Onkel Mubarak Ali Khan. Aus einer Situation des Verlusts wurde so unmittelbar der Auftrag, die Familienlinie persönlich am Leben zu erhalten &ndash; die denkbar konkreteste Form selbsterhaltender Fürsorge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Familienerbe zur Weltbühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Nusrat Fateh Ali Khan blieb nicht bei der traditionellen Aufführung in Pakistan stehen: 1985 trat er beim WOMAD-Festival erstmals vor einem überwiegend westlichen Publikum auf &ndash; ein Wendepunkt, der ihn wenig später bei Peter Gabriels Label Real World Records unter Vertrag brachte.</p>
+          <p class="vb-intro">Es folgten eine Zusammenarbeit an Gabriels Album <em>Passion</em> (1989, Soundtrack zu <em>Die letzte Versuchung Christi</em>), die stilprägenden Fusionsalben <em>Mustt Mustt</em> (1990) und das grammy-nominierte <em>Night Song</em> (1996) mit Produzent Michael Brook sowie ein gemeinsamer Song mit Eddie Vedder für den Film <em>Dead Man Walking</em> (1995). Bewunderer wie Jeff Buckley und die Rolling Stones zeigen, wie weit die Reichweite reichte, die der Dreierflügel aus einer sechshundert Jahre alten Familientradition heraus erschloss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer ererbten, existenziellen Verantwortung heraus etwas zu erschaffen, das weit über den ursprünglichen, engen Rahmen hinauswächst, ohne die Wurzeln zu verlieren. Nusrat Fateh Ali Khan verband mit seinem außergewöhnlichen Stimmumfang von über drei Oktaven und seiner Fähigkeit zu minutenlangen, atemlosen Improvisationen die strenge klassische Form mit einer Offenheit für Kollaborationen, wie sie in der traditionellen Qawwali-Welt zuvor undenkbar war.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Einsatz unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Notwendigkeit werden, sich selbst restlos für die übernommene Aufgabe zu verausgaben, statt auf die eigenen Grenzen zu achten. Khans gesundheitliche Probleme in den letzten Lebensjahren, verbunden mit einem Arbeitspensum von hunderten Alben und unzähligen Live-Auftritten, zeigen, wie hoch der körperliche Preis dieser Unentbehrlichkeit sein kann. Seine über Jahre fortschreitende Diabetes-Erkrankung und der plötzliche Tod 1997 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-nusrat-fateh-ali-khan">Krankheitsporträt zu Nusrat Fateh Ali Khan</a> gedeutet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine Stimme, die eine Tradition am Leben hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nusrat Fateh Ali Khans Diskografie umfasst nach unterschiedlichen Zählungen weit über hundert Alben &ndash; ein Ausmaß, das seine eigene, sechshundertjährige Familientradition selbst noch übertraf. Bereits zu Lebzeiten begann er, seinen Neffen Rahat Fateh Ali Khan als Nachfolger auszubilden, um sicherzustellen, dass die Linie auch nach ihm weiterbestehen würde &ndash; dieselbe Fürsorge für die Kontinuität der Familie, mit der seine eigene Karriere einst am Grab seines Vaters begonnen hatte.</p>
+          <p class="vb-intro">Am 16. August 1997 starb Nusrat Fateh Ali Khan in London im Alter von 48 Jahren. Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen &ndash; es trägt sein Revier dorthin, wo es gebraucht wird, und macht es größer, ohne es preiszugeben. Mit heute über einer Milliarde Aufrufen seiner Aufnahmen weltweit ist Khans Stimme längst über die Grenzen der Familie, der Qawwali-Tradition und Pakistans hinausgewachsen &ndash; und bleibt doch untrennbar mit ihrem Ursprung verbunden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Krankheitsporträt: Nusrat Fateh Ali Khan (SE2w3)"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function tuttyTranPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7168,73 +7230,6 @@ function monikaGruberPortraitPage() {
         {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
         {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
         {route:"bibel-maria-magdalena", label:"Bibel-Portr\u00e4t: Maria Magdalena (SX2w1)"},
-      ])}
-    </div>
-  `);
-}
-
-function pamelaReifPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-pamela-reif-portrait.jpg" alt="Pamela Reif" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Pamela Reif</p>
-        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierfl\u00fcgel &middot; Herztyp</p>
-        <p class="krim-portrait-subtitle">Fitness-Influencerin, Unternehmerin, geb. 1996 &ndash; Millionen Verbindungen durch einen Bildschirm &ndash; Tierentsprechung: Kamel</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Kamel, das durch den Bildschirm reicht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; geduldig, ausdauernd, in der Lage, unter extremen Bedingungen f\u00fcr andere bereitzustehen. Das Kamel speichert. Es tr\u00e4gt Ressourcen in sich, die es dann genau dann freigibt, wenn andere sie am n\u00f6tigsten brauchen &ndash; in der W\u00fcste, auf der langen Reise, wenn keine andere Hilfe in Sicht ist. Das ist das Bild, das Pamela Reif millionenfach auf Bildschirmen verk\u00f6rpert: die Frau, die da ist &ndash; immer, p\u00fcnktlich, mit einer neuen \u00dcbung, einem neuen Plan, einem ruhigen Blick, der sagt: Ich begleite dich.</p>
-          <p class="vb-intro">Die deutsche Pamela Reif, geboren 1996 in Karlsruhe, startete 2012 mit sechzehn Jahren auf Instagram. Was als Hobby begann, wurde zu einem der erfolgreichsten Fitness-Imperien Europas: Millionen Abonnenten auf Instagram und YouTube, die <em>Pam App</em>, der Bestseller <em>You Deserve This</em>, Kollektionen, Markenkooperationen &ndash; und dahinter ein Mensch, der all das nicht prim\u00e4r als Business betrachtet, sondern als Verbindungsangebot. Das Kamel kennt die W\u00fcste. Es wei\u00df, wie lange die Reise dauert. Und es gibt trotzdem alles, was es hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. SX2: Verf\u00fchrung durch den Bildschirm</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verf\u00fchrung</strong> &ndash; die F\u00e4higkeit, andere durch emotionale N\u00e4he und intensive Pr\u00e4senz zu sich zu ziehen. Was bei der sexuellen Zwei entsteht, ist kein distanziertes Sender-Empf\u00e4nger-Verh\u00e4ltnis, sondern das Gef\u00fchl einer echten, pers\u00f6nlichen Begegnung. Das Besondere bei Pamela Reif: Sie schafft diese Qualit\u00e4t durch einen Bildschirm. Menschen, die ihre Videos verfolgen, haben nicht das Gef\u00fchl, einem Workout-Programm zu folgen &ndash; sie haben das Gef\u00fchl, mit jemandem zu trainieren, der sie kennt, der f\u00fcr sie da ist, der sie nicht aufgibt.</p>
-          <p class="vb-intro">Ihr Blick in die Kamera ist direkt und einladend zugleich. Keine performative Aufgeregtheit, keine aufgesetzte Motivation &ndash; sondern eine ruhige, intensive Zugewandtheit, die typisch f\u00fcr die SX2 ist. Die sexuelle Zwei sucht nicht die Masse. Sie sucht die eine Person &ndash; und Pamela Reif hat die F\u00e4higkeit, bei Millionen Menschen gleichzeitig das Gef\u00fchl zu erzeugen, genau diese eine Person zu sein. Das ist selten. Das ist Verf\u00fchrung im tiefsten Enneagramm-Sinn: nicht unbedingt Manipulation, sondern echte Verbindungskunst.</p>
-          <p class="vb-intro">Dazu geh\u00f6rt auch die Bereitschaft zur Selbstaufopferung, die das PDF ihrer Pers\u00f6nlichkeitsanalyse betont: Pamela investiert enorm viel Zeit und Energie &ndash; nicht um sich selbst zu zeigen, sondern um anderen das Beste zu geben. Die SX2 erf\u00fcllt sich durch das Geben. Und wenn das Geben zur\u00fcckkommt &ndash; als Kommentar, als Dankbarkeit, als geteiltes Video &ndash;, ist das keine Belohnung. Es ist die Antwort auf die tiefste Frage der Zwei: Bin ich wirklich wichtig f\u00fcr dich?</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Perfektion als Liebesbeweis</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> bringt der leidenschaftlichen Verbindungsenergie der SX2 eine zweite Dimension: Leistung, Bild, Qualit\u00e4t. Die Drei will nicht nur verbinden &ndash; sie will <em>gl\u00e4nzen</em>. Sie will, dass das, was sie gibt, auch so gut ist, dass es gesehen wird. Bei Pamela Reif zeigt sich das in der au\u00dfergew\u00f6hnlichen Qualit\u00e4t ihrer Inhalte: pr\u00e4zise produziert, \u00e4sthetisch stimmig, handwerklich durchdacht. Jedes Video, jede Kollaboration, jede Seite der App tr\u00e4gt die Handschrift eines Menschen, der Exzellenz nicht als Selbstdarstellung, sondern als Respekt dem Publikum gegen\u00fcber versteht.</p>
-          <p class="vb-intro">Der Dreierfl\u00fcgel ist auch der Grund, warum Pamela Reif nicht nur bei einer Sache bleibt. Die Drei diversifiziert, expandiert, entwickelt &ndash; immer mit dem Ziel, den Kreis derer zu erweitern, die sie erreichen kann. App, Buch, Marke, Kooperation: Das ist kein Eitelkeitsprojekt, das ist die SX2w3 bei der Arbeit &ndash; je gr\u00f6\u00dfer die Reichweite, desto mehr Menschen kann die Verbindungssehnsucht erf\u00fcllen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Gesamtwirkung: Stille Kraft, die bewegt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Wer Pamela Reifs Videos sieht, begegnet keiner lauten Pers\u00f6nlichkeit. Sie dr\u00e4ngt sich nicht auf, sie schreit nicht, sie \u00fcbertreibt nicht. Ihre Energie ist ruhig &ndash; aber sie ist da. Vollst\u00e4ndig da. Der Blick, die Haltung, die Pr\u00e4zision der Bewegung: alles kommuniziert dasselbe &ndash; <em>Ich mache das mit dir. Du schaffst das.</em> Das ist die stille Kraft des Kamels: keine Dramatik, keine Geste, aber eine Verl\u00e4sslichkeit, die tiefer wirkt als jede Inszenierung.</p>
-          <p class="vb-intro">Das Publikum sp\u00fcrt das. Millionen Menschen haben ihre Workout-Routine an Pamela Reif ausgerichtet &ndash; nicht weil ihre Videos die spektakul\u00e4rsten sind, sondern weil sie das Gef\u00fchl erzeugen, nicht allein zu sein. Das ist der Kern der SX2w3-Wirkung: sanfte Pr\u00e4senz, die st\u00e4rkt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Energetische Wirkung: Emotionale Intensit\u00e4t hinter der Ruhe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Obwohl Pamela nach au\u00dfen oft ausgeglichen und gelassen wirkt, schwingt in ihren Inhalten eine hohe emotionale Intensit\u00e4t mit &ndash; die Intensit\u00e4t der sexuellen Zwei, die in jeder Interaktion eine echte Begegnung sucht. Diese Energie ist verbindend: Sie zieht das Publikum nicht als Konsumenten an, sondern als Mitreisende auf einer gemeinsamen Reise zu einem ges\u00fcnderen, bewussteren Leben.</p>
-          <p class="vb-intro">Der Dreierfl\u00fcgel gibt dieser Energie Form und Richtung &ndash; er kanalisiert die leidenschaftliche Verbindungssehnsucht der SX2 in konkrete, qualit\u00e4tsvolle Angebote. Das Ergebnis ist eine Energie, die gleichzeitig motiviert und tr\u00f6stet: Du musst nicht perfekt sein. Aber ich gehe mit dir.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Fitnessinhalte als Beziehungsangebot</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Pamela Reif der Welt gibt, ist mehr als Fitness. Sie hat einer Generation gezeigt, dass der eigene K\u00f6rper kein Feind ist, den man bezwingen muss, sondern ein Zuhause, das man einladen kann &ndash; mit W\u00fcrde, mit Ausdauer, mit Freude. <em>You Deserve This</em> ist nicht nur ein Buchtitel: Es ist die Botschaft der SX2w3 an alle, die das Gef\u00fchl kennen, f\u00fcr F\u00fcrsorge erst etwas leisten zu m\u00fcssen.</p>
-          <p class="vb-intro">Das Kamel kennt die W\u00fcste. Es wei\u00df, wie man tr\u00e4gt. Und es wei\u00df, dass auch die l\u00e4ngste Reise einen Moment hat, in dem man ankommt &ndash; und einfach dankbar ist, nicht allein gewesen zu sein. Das ist Pamela Reif. Das ist die SX2w3 auf ihrer h\u00f6chsten Ausdrucksstufe.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
-        {route:"beruehmte-monika-gruber", label:"Portr\u00e4t: Monika Gruber (SX2w1)"},
-        {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
-        {route:"beruehmte-anastasiia-metelkina", label:"Portr\u00e4t: Anastasiia Metelkina (SX2w3)"},
       ])}
     </div>
   `);

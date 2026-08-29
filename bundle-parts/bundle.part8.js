@@ -1,3 +1,70 @@
+function marioBarthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mario-barth-portrait.jpg" alt="Mario Barth – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mario Barth</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Comedian, geb. 1972 in Berlin &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht k\u00e4mpft, sondern verschmilzt. Es h\u00e4ngt entspannt im Ge\u00e4st, l\u00e4sst die Welt an sich vorbeiziehen und geht ganz in seiner Umgebung auf. Doch wer glaubt, das Faultier sei wehrlos, irrt: Ber\u00fchrt man es an der falschen Stelle, reagiert es pl\u00f6tzlich mit \u00fcberraschender Wucht.</p>
+          <p class="vb-intro">Der deutsche Komiker Mario Barth, 1972 in Berlin-Mariendorf geboren, eines von sechs Geschwistern, lernte zun\u00e4chst Fernmeldeelektroniker bei Siemens, bevor er sich der Comedy zuwandte. 2001 deb\u00fctierte er mit seinem ersten B\u00fchnenprogramm &ndash; und verschmolz von da an mit einer B\u00fchnenfigur, die zum Millionenpublikum sprach: der Berliner Kumpeltyp, der die ewigen Reibereien zwischen M\u00e4nnern und Frauen auf den Punkt bringt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Masse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollst\u00e4ndiges Aufgehen in einer anderen Person, einem Publikum, einer Stimmung. Die SX9 verliert dabei nicht sich selbst &ndash; sie findet sich gerade in diesem Zustand des Einsseins mit dem Gegen\u00fcber.</p>
+          <p class="vb-intro">Barths B\u00fchnenprogramme &ndash; \u201eM\u00e4nner sind Schweine, Frauen aber auch", \u201eM\u00e4nner sind primitiv, aber gl\u00fccklich!", \u201eM\u00e4nner sind peinlich, Frauen manchmal auch!" &ndash; leben genau von dieser Verschmelzung: Er spricht nicht \u00fcber das Publikum, er wird zur Stimme des Publikums. Jeder Scherz \u00fcber Alltagsstreitigkeiten zwischen Mann und Frau funktioniert nur, weil Millionen sich darin sofort wiedererkennen. Das ist keine Beobachtung von au\u00dfen &ndash; das ist Einssein mit der kollektiven Erfahrung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Wucht im entspannten Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> verleiht der sexuellen Neun eine Kraft, die einer SX9 mit schwach ausgeprägtem Achterflügel fehlt: Durchsetzungsverm\u00f6gen, Direktheit, eine gewisse unternehmerische H\u00e4rte. Die <strong>SX9w8</strong> wirkt entspannt und gem\u00fctlich &ndash; und ist zugleich f\u00e4hig, mit vollem K\u00f6rpereinsatz f\u00fcr die eigene Sache zu k\u00e4mpfen.</p>
+          <p class="vb-intro">Am 12. Juli 2008 stellte Barth im Berliner Olympiastadion vor 70.000 Zuschauern einen Weltrekord f\u00fcr die gr\u00f6\u00dfte Live-Comedy-Show auf &ndash; 2014 \u00fcberbot er sich selbst mit 116.498 Zuschauern binnen 24 Stunden. Solche Dimensionen entstehen nicht aus reiner Gem\u00fctlichkeit: Es brauchte den Achterfl\u00fcgel, um aus einer entspannten B\u00fchnenfigur ein Unternehmen mit eigenem Verlag, eigener Stiftung und millionenschweren Tourneen zu machen. Das Faultier h\u00e4ngt im Baum &ndash; aber es ist der Baum eines ganzen Waldes, den es sich erobert hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Alltag als gro\u00dfe B\u00fchne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barths Humor basiert nicht auf politischer Satire oder intellektuellem Wortwitz, sondern auf dem, was jeder kennt: der Streit ums Autofahren, das Aufr\u00e4umen, die Kommunikation zwischen den Geschlechtern. Er verschmilzt so vollst\u00e4ndig mit dem gemeinsamen Nenner des Alltags, dass sein Publikum sich nicht belehrt, sondern verstanden f\u00fchlt.</p>
+          <p class="vb-intro">Neben der B\u00fchne baute er ein Medienimperium auf: eigene Verlagsprojekte, eine Stiftung, TV-Formate. 2016 gr\u00fcndete er die Mario-Barth-Stiftung, die sich unter anderem f\u00fcr Kinder- und Jugendprojekte engagiert. Auch hier zeigt sich das Muster der SX9w8: die entspannte Pr\u00e4senz des Faultiers, verbunden mit der Tatkraft des Achterfl\u00fcgels, die aus Sympathie tragf\u00e4hige Strukturen macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>F\u00e4higkeit, mit einer riesigen Menschenmenge zu verschmelzen, ohne sich dabei zu verstellen</strong>. Barth wirkt auf der B\u00fchne, als w\u00fcrde er mit jedem Einzelnen im Stadion pers\u00f6nlich reden &ndash; eine seltene Gabe, die aus echter Verbindung entsteht, nicht aus Technik.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihn seit Jahren begleitet: Sein Humor wurde vielfach als plump, klischeehaft und wiederholend bezeichnet, seine Themen als immer gleiche M\u00e4nner-Frauen-Gegen\u00fcberstellung ohne Weiterentwicklung. Die SX9w8, die sich so vollst\u00e4ndig mit dem verschmilzt, was funktioniert, tut sich schwer, davon abzuweichen &ndash; aus Angst, die Verbindung zum Publikum zu verlieren, die genau dieses vertraute Muster \u00fcberhaupt erst geschaffen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das ein Stadion f\u00fcllte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mario Barth ist bis in die Gegenwart einer der erfolgreichsten deutschsprachigen Comedians &ndash; seine B\u00fchnenprogramme f\u00fcllten wiederholt die gr\u00f6\u00dften Stadien und Hallen des Landes. Seine Rekorde im Olympiastadion bleiben unerreicht: kein anderer Comedian der Welt hat je vor so vielen Menschen gleichzeitig live gearbeitet.</p>
+          <p class="vb-intro">Was bleibt, ist das Bild eines Faultiers, das sich nicht zur\u00fcckzieht, sondern sich mit der gr\u00f6\u00dftm\u00f6glichen Menge verschmilzt, die man sich vorstellen kann &ndash; und dabei genau die Kraft entwickelt, die es braucht, um ein ganzes Stadion zu f\u00fcllen. Entspannung und Wucht, Gem\u00fctlichkeit und Durchsetzung: Das ist die SX9w8 in ihrer massentauglichsten Form.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-heike-makatsch", label:"Portr\u00e4t: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-dakota-johnson", label:"Portr\u00e4t: Dakota Johnson (SX9w8)"},
+          {route:"beruehmte-lucy-cooke", label:"Portr\u00e4t: Lucy Cooke (SX9w8)"},
+          {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function krisMarshallPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7119,68 +7186,6 @@ function quentinTarantinoPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2w3)"},
         {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function nusratFatehAliKhanPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-nusrat-fateh-ali-khan-portrait.jpg" alt="Nusrat Fateh Ali Khan – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Nusrat Fateh Ali Khan</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Pakistanischer Qawwali-Sänger, 1948&ndash;1997 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das tief in seinem angestammten Gewässer verwurzelt ist und aus dieser Verwurzelung heraus eine Kraft entfaltet, die weit über das eigene Revier hinausreicht. Nusrat Fateh Ali Khan trug ein solches Gewässer buchstäblich in sich: eine Qawwali-Tradition, die in seiner Familie fast sechshundert Jahre lang von Generation zu Generation weitergegeben worden war, bevor er sie an die ganze Welt weitergab.</p>
-          <p class="vb-intro">Der pakistanische Sänger Nusrat Fateh Ali Khan wurde am 13. Oktober 1948 in Lyallpur, dem heutigen Faisalabad, geboren, als fünftes Kind und erster Sohn des renommierten Qawwal-Meisters Fateh Ali Khan. Seine Familie war nach der Teilung Indiens 1947 aus dem ostpunjabischen Jalandhar nach Pakistan geflohen &ndash; ihr wertvollstes Gepäck war das über Generationen verfeinerte Wissen um den Sufi-Gesang.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge für das Überleben der Familientradition</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Nusrat Fateh Ali Khan zeigte sich das nicht als Fürsorge für einzelne Menschen, sondern für eine ganze, jahrhundertealte Familienlinie: Sein Vater wollte ihn zunächst gar nicht in die Qawwali-Laufbahn führen, da Musikern damals oft ein niedriger sozialer Status anhaftete &ndash; Nusrat begann dennoch früh als Tabla-Spieler in der Gruppe seines Vaters und lernte parallel heimlich den Gesang.</p>
-          <p class="vb-intro">Als sein Vater 1964 starb, war Nusrat noch Schüler. Sein erster öffentlicher Auftritt als Sänger fand vierzig Tage später statt &ndash; bei der Totenfeier für den eigenen Vater, wie es die Tradition vorsah. Die Ausbildung übernahm anschließend sein Onkel Mubarak Ali Khan. Aus einer Situation des Verlusts wurde so unmittelbar der Auftrag, die Familienlinie persönlich am Leben zu erhalten &ndash; die denkbar konkreteste Form selbsterhaltender Fürsorge.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Vom Familienerbe zur Weltbühne</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Nusrat Fateh Ali Khan blieb nicht bei der traditionellen Aufführung in Pakistan stehen: 1985 trat er beim WOMAD-Festival erstmals vor einem überwiegend westlichen Publikum auf &ndash; ein Wendepunkt, der ihn wenig später bei Peter Gabriels Label Real World Records unter Vertrag brachte.</p>
-          <p class="vb-intro">Es folgten eine Zusammenarbeit an Gabriels Album <em>Passion</em> (1989, Soundtrack zu <em>Die letzte Versuchung Christi</em>), die stilprägenden Fusionsalben <em>Mustt Mustt</em> (1990) und das grammy-nominierte <em>Night Song</em> (1996) mit Produzent Michael Brook sowie ein gemeinsamer Song mit Eddie Vedder für den Film <em>Dead Man Walking</em> (1995). Bewunderer wie Jeff Buckley und die Rolling Stones zeigen, wie weit die Reichweite reichte, die der Dreierflügel aus einer sechshundert Jahre alten Familientradition heraus erschloss.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer ererbten, existenziellen Verantwortung heraus etwas zu erschaffen, das weit über den ursprünglichen, engen Rahmen hinauswächst, ohne die Wurzeln zu verlieren. Nusrat Fateh Ali Khan verband mit seinem außergewöhnlichen Stimmumfang von über drei Oktaven und seiner Fähigkeit zu minutenlangen, atemlosen Improvisationen die strenge klassische Form mit einer Offenheit für Kollaborationen, wie sie in der traditionellen Qawwali-Welt zuvor undenkbar war.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Einsatz unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Notwendigkeit werden, sich selbst restlos für die übernommene Aufgabe zu verausgaben, statt auf die eigenen Grenzen zu achten. Khans gesundheitliche Probleme in den letzten Lebensjahren, verbunden mit einem Arbeitspensum von hunderten Alben und unzähligen Live-Auftritten, zeigen, wie hoch der körperliche Preis dieser Unentbehrlichkeit sein kann. Seine über Jahre fortschreitende Diabetes-Erkrankung und der plötzliche Tod 1997 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-nusrat-fateh-ali-khan">Krankheitsporträt zu Nusrat Fateh Ali Khan</a> gedeutet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Eine Stimme, die eine Tradition am Leben hielt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nusrat Fateh Ali Khans Diskografie umfasst nach unterschiedlichen Zählungen weit über hundert Alben &ndash; ein Ausmaß, das seine eigene, sechshundertjährige Familientradition selbst noch übertraf. Bereits zu Lebzeiten begann er, seinen Neffen Rahat Fateh Ali Khan als Nachfolger auszubilden, um sicherzustellen, dass die Linie auch nach ihm weiterbestehen würde &ndash; dieselbe Fürsorge für die Kontinuität der Familie, mit der seine eigene Karriere einst am Grab seines Vaters begonnen hatte.</p>
-          <p class="vb-intro">Am 16. August 1997 starb Nusrat Fateh Ali Khan in London im Alter von 48 Jahren. Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen &ndash; es trägt sein Revier dorthin, wo es gebraucht wird, und macht es größer, ohne es preiszugeben. Mit heute über einer Milliarde Aufrufen seiner Aufnahmen weltweit ist Khans Stimme längst über die Grenzen der Familie, der Qawwali-Tradition und Pakistans hinausgewachsen &ndash; und bleibt doch untrennbar mit ihrem Ursprung verbunden.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Krankheitsporträt: Nusrat Fateh Ali Khan (SE2w3)"},
-        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
-        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
-        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
-        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
       ])}
     </div>
   `);

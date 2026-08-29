@@ -5039,6 +5039,72 @@ function tELawrencePortraitPage() {
   `);
 }
 
+function juneCarterCashPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-june-carter-cash-portrait.jpg" alt="June Carter Cash" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">June Carter Cash</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Sängerin, Songwriterin und Schauspielerin, 1929–2003 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. June Carter wurde 1929 im ländlichen Maces Spring, Virginia, geboren, als Tochter von Maybelle Carter, einer Gründungsfigur der legendären Carter Family, die als eine der einflussreichsten Formationen der amerikanischen Country- und Folkmusik gilt. Bereits als Kind stand June mit ihren Schwestern Helen und Anita auf der Bühne – hineingeboren in eine Familie, deren gesamte Identität an ihrem öffentlichen musikalischen Auftreten hing.</p>
+          <p class="vb-intro">Aus dieser frühen Prägung erwuchs ein lebenslanges Muster: Die eigene Person und die Bühnenfigur waren von klein auf kaum zu trennen. Statt sich dieser Fremdbestimmung zu entziehen, entwickelte June daraus etwas sehr Eigenes – einen schlagfertigen, komödiantischen Auftrittsstil mit eigenen Sketchen und Monologen, der sie schon früh von ihren musikalisch ebenso begabten Schwestern unterschied.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Die Trägerin im Hintergrund</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr eigenes Leiden nicht öffentlich vor sich her, sondern hält es aus – oft, indem sie sich ganz in den Dienst eines anderen oder einer Familie stellt. June wurde in Biografien und von Weggefährten wiederholt als die stille „Holder-upper" der Cash-Carter-Familie beschrieben: diejenige, die den Zusammenhalt trug, während andere im Rampenlicht standen. Diese Rolle wählte sie wiederholt bewusst über die eigene, eigenständige Karriere.</p>
+          <p class="vb-intro">Am deutlichsten zeigte sich das 1967/68, als Johnny Cash an einer schweren Tabletten- und Alkoholabhängigkeit fast zugrunde ging. June organisierte gemeinsam mit Familie und Freunden eine der ersten öffentlich bekannt gewordenen Interventionen dieser Art in der Musikszene und begleitete ihn danach über Jahre durch seine Genesung – eine stille, zähe, über Jahre getragene Last, die sie nie zum Zentrum der eigenen Geschichte machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Bühne als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein ausgeprägtes Gespür für Wirkung und Auftritt – die innere Tiefe wird nicht ins Verborgene gekehrt, sondern in eine sichtbare, oft charmant-komödiantische öffentliche Rolle übersetzt. June war zeitlebens eine gefragte Entertainerin: Sängerin, Songwriterin, Schauspielerin und Autorin, ausgezeichnet mit fünf Grammy Awards, zuletzt 1999 für ihr Soloalbum „Press On" – ein spätes, ganz eigenständiges künstlerisches Zeugnis, nachdem sie jahrzehntelang vor allem im Schatten von Johnny Cashs Weltruhm gestanden hatte.</p>
+          <p class="vb-intro">Ihr bekanntester eigener Songwriting-Beitrag, „Ring of Fire" (gemeinsam mit Merle Kilgore geschrieben), entstand aus der eigenen, damals noch verbotenen Liebe zu Johnny Cash, während beide noch mit anderen Partnern verheiratet waren – ein zutiefst persönliches Gefühl, das June nicht verschwieg, sondern in einen der größten Country-Hits aller Zeiten verwandelte. Der Dreierflügel übersetzt bei der Vier die innere Wahrheit nicht ins Private, sondern in ein Werk, das gesehen und gehört werden soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Heiratsantrag auf offener Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 22. Februar 1968 hielt Johnny Cash während eines gemeinsamen Konzerts in London, Ontario, mitten im Song „Jackson" inne und machte June live vor Publikum einen Heiratsantrag. Sie nahm an – ein öffentlicher, für die ganze Welt sichtbarer Moment, der die jahrelange, zuvor diskrete Beziehung endgültig ins Rampenlicht holte. Wenige Wochen später heirateten die beiden, und June wurde nicht nur seine Ehefrau, sondern über Jahrzehnte hinweg auch seine wichtigste Bühnenpartnerin, moralische Stütze und, wie viele Weggefährten später bestätigten, tatsächlich diejenige, die sein Leben rettete.</p>
+          <p class="vb-intro">Auch diese Episode zeigt die typische SE4w3-Konstellation: ein zutiefst persönlicher, emotionaler Moment, der nicht im Verborgenen blieb, sondern ganz bewusst öffentlich vollzogen wurde – Nähe und Bühne, Privates und Auftritt, ließen sich bei June kaum trennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 ist die Fähigkeit, <strong>eine zutiefst persönliche innere Wahrheit in eine Bühnenpräsenz zu verwandeln</strong>, die andere trägt und stützt, ohne dabei die eigene Tiefe zu verlieren. June Carter Cash gab mit Humor, Musik und ihrer bloßen Anwesenheit über Jahrzehnte einer ganzen Familie und einem der bekanntesten Künstler des zwanzigsten Jahrhunderts Halt.</p>
+          <p class="vb-intro">Der Schatten zeigte sich darin, dass Junes eigene künstlerische Stimme über weite Strecken ihres Lebens hinter dieser stützenden Rolle zurücktrat – ihr eigenständiges Soloalbum kam erst spät, mit über sechzig Jahren. June Carter Cash starb am 15. Mai 2003 in Nashville an den Folgen einer Herzoperation, nur wenige Monate bevor auch Johnny Cash im September desselben Jahres starb – bis zuletzt untrennbar miteinander verbunden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die die Familie trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">June Carter Cash gehört zu den prägendsten Frauen der amerikanischen Countrymusik – nicht weil sie sich lauter in den Vordergrund drängte als andere, sondern weil sie ihre eigene Tiefe so überzeugend in Bühnenpräsenz, Humor und stille Beharrlichkeit übersetzte, dass sie zur tragenden Figur einer ganzen musikalischen Dynastie wurde.</p>
+          <p class="vb-intro">Die Taube, die als Kind in eine musikalische Familie hineingeboren wurde und ihr ganzes Leben zwischen eigener Bühnenpräsenz und stiller Fürsorge für andere pendelte – das ist das bleibende Bild dieses Subtyps: ein Mensch, der die eigene Wahrheit nicht versteckt, sondern in Auftritt und Hingabe zugleich lebt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"beruehmte-t-e-lawrence", label:"Porträt: T. E. Lawrence (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function charlotteWellsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7450,73 +7516,6 @@ function heikeMakatschPortraitPage() {
         {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
         {route:"beruehmte-kris-marshall", label:"Portr\u00e4t: Kris Marshall (SX9w1)"},
       ])}
-    </div>
-  `);
-}
-
-function marioBarthPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-mario-barth-portrait.jpg" alt="Mario Barth – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Mario Barth</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Comedian, geb. 1972 in Berlin &ndash; Tierentsprechung: Faultier</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Faultier</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht k\u00e4mpft, sondern verschmilzt. Es h\u00e4ngt entspannt im Ge\u00e4st, l\u00e4sst die Welt an sich vorbeiziehen und geht ganz in seiner Umgebung auf. Doch wer glaubt, das Faultier sei wehrlos, irrt: Ber\u00fchrt man es an der falschen Stelle, reagiert es pl\u00f6tzlich mit \u00fcberraschender Wucht.</p>
-          <p class="vb-intro">Der deutsche Komiker Mario Barth, 1972 in Berlin-Mariendorf geboren, eines von sechs Geschwistern, lernte zun\u00e4chst Fernmeldeelektroniker bei Siemens, bevor er sich der Comedy zuwandte. 2001 deb\u00fctierte er mit seinem ersten B\u00fchnenprogramm &ndash; und verschmolz von da an mit einer B\u00fchnenfigur, die zum Millionenpublikum sprach: der Berliner Kumpeltyp, der die ewigen Reibereien zwischen M\u00e4nnern und Frauen auf den Punkt bringt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Masse</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollst\u00e4ndiges Aufgehen in einer anderen Person, einem Publikum, einer Stimmung. Die SX9 verliert dabei nicht sich selbst &ndash; sie findet sich gerade in diesem Zustand des Einsseins mit dem Gegen\u00fcber.</p>
-          <p class="vb-intro">Barths B\u00fchnenprogramme &ndash; \u201eM\u00e4nner sind Schweine, Frauen aber auch", \u201eM\u00e4nner sind primitiv, aber gl\u00fccklich!", \u201eM\u00e4nner sind peinlich, Frauen manchmal auch!" &ndash; leben genau von dieser Verschmelzung: Er spricht nicht \u00fcber das Publikum, er wird zur Stimme des Publikums. Jeder Scherz \u00fcber Alltagsstreitigkeiten zwischen Mann und Frau funktioniert nur, weil Millionen sich darin sofort wiedererkennen. Das ist keine Beobachtung von au\u00dfen &ndash; das ist Einssein mit der kollektiven Erfahrung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Wucht im entspannten Auftritt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> verleiht der sexuellen Neun eine Kraft, die einer SX9 mit schwach ausgeprägtem Achterflügel fehlt: Durchsetzungsverm\u00f6gen, Direktheit, eine gewisse unternehmerische H\u00e4rte. Die <strong>SX9w8</strong> wirkt entspannt und gem\u00fctlich &ndash; und ist zugleich f\u00e4hig, mit vollem K\u00f6rpereinsatz f\u00fcr die eigene Sache zu k\u00e4mpfen.</p>
-          <p class="vb-intro">Am 12. Juli 2008 stellte Barth im Berliner Olympiastadion vor 70.000 Zuschauern einen Weltrekord f\u00fcr die gr\u00f6\u00dfte Live-Comedy-Show auf &ndash; 2014 \u00fcberbot er sich selbst mit 116.498 Zuschauern binnen 24 Stunden. Solche Dimensionen entstehen nicht aus reiner Gem\u00fctlichkeit: Es brauchte den Achterfl\u00fcgel, um aus einer entspannten B\u00fchnenfigur ein Unternehmen mit eigenem Verlag, eigener Stiftung und millionenschweren Tourneen zu machen. Das Faultier h\u00e4ngt im Baum &ndash; aber es ist der Baum eines ganzen Waldes, den es sich erobert hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Werk: Der Alltag als gro\u00dfe B\u00fchne</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Barths Humor basiert nicht auf politischer Satire oder intellektuellem Wortwitz, sondern auf dem, was jeder kennt: der Streit ums Autofahren, das Aufr\u00e4umen, die Kommunikation zwischen den Geschlechtern. Er verschmilzt so vollst\u00e4ndig mit dem gemeinsamen Nenner des Alltags, dass sein Publikum sich nicht belehrt, sondern verstanden f\u00fchlt.</p>
-          <p class="vb-intro">Neben der B\u00fchne baute er ein Medienimperium auf: eigene Verlagsprojekte, eine Stiftung, TV-Formate. 2016 gr\u00fcndete er die Mario-Barth-Stiftung, die sich unter anderem f\u00fcr Kinder- und Jugendprojekte engagiert. Auch hier zeigt sich das Muster der SX9w8: die entspannte Pr\u00e4senz des Faultiers, verbunden mit der Tatkraft des Achterfl\u00fcgels, die aus Sympathie tragf\u00e4hige Strukturen macht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>F\u00e4higkeit, mit einer riesigen Menschenmenge zu verschmelzen, ohne sich dabei zu verstellen</strong>. Barth wirkt auf der B\u00fchne, als w\u00fcrde er mit jedem Einzelnen im Stadion pers\u00f6nlich reden &ndash; eine seltene Gabe, die aus echter Verbindung entsteht, nicht aus Technik.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihn seit Jahren begleitet: Sein Humor wurde vielfach als plump, klischeehaft und wiederholend bezeichnet, seine Themen als immer gleiche M\u00e4nner-Frauen-Gegen\u00fcberstellung ohne Weiterentwicklung. Die SX9w8, die sich so vollst\u00e4ndig mit dem verschmilzt, was funktioniert, tut sich schwer, davon abzuweichen &ndash; aus Angst, die Verbindung zum Publikum zu verlieren, die genau dieses vertraute Muster \u00fcberhaupt erst geschaffen hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Faultier, das ein Stadion f\u00fcllte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mario Barth ist bis in die Gegenwart einer der erfolgreichsten deutschsprachigen Comedians &ndash; seine B\u00fchnenprogramme f\u00fcllten wiederholt die gr\u00f6\u00dften Stadien und Hallen des Landes. Seine Rekorde im Olympiastadion bleiben unerreicht: kein anderer Comedian der Welt hat je vor so vielen Menschen gleichzeitig live gearbeitet.</p>
-          <p class="vb-intro">Was bleibt, ist das Bild eines Faultiers, das sich nicht zur\u00fcckzieht, sondern sich mit der gr\u00f6\u00dftm\u00f6glichen Menge verschmilzt, die man sich vorstellen kann &ndash; und dabei genau die Kraft entwickelt, die es braucht, um ein ganzes Stadion zu f\u00fcllen. Entspannung und Wucht, Gem\u00fctlichkeit und Durchsetzung: Das ist die SX9w8 in ihrer massentauglichsten Form.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-        </blockquote>
-
-        ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-          {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
-          {route:"beruehmte-heike-makatsch", label:"Portr\u00e4t: Heike Makatsch (SX9w8)"},
-          {route:"beruehmte-dakota-johnson", label:"Portr\u00e4t: Dakota Johnson (SX9w8)"},
-          {route:"beruehmte-lucy-cooke", label:"Portr\u00e4t: Lucy Cooke (SX9w8)"},
-          {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},
-        ])}
-      </div>
     </div>
   `);
 }
