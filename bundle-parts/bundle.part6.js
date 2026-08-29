@@ -2852,21 +2852,23 @@ window.bpSetLand = function(val) {
   window.bpState.land = val;
   bpApply();
 };
-// Ersetzt das frühere Scroll-zu-Abschnitt-Verhalten der "Schnellnavigation
-// nach Subtyp"-Chips: Seit die Liste seitenweise nachgeladen wird (siehe
-// bpBuildNextBatch), existiert die Ziel-Abschnittsüberschrift oft noch gar
-// nicht im DOM - der Klick tat dann sichtbar nichts. Filtert stattdessen
-// direkt auf den gewählten Subtyp, was unabhängig vom Ladezustand
-// zuverlässig funktioniert.
+// Behält das ursprüngliche Verhalten der "Schnellnavigation nach Subtyp"-
+// Chips bei (scrollt zum Abschnitt, verändert keinen Filter, Register-Box
+// bleibt immer sichtbar - genau wie bei Krankheitsporträts/Kriminalfälle).
+// Da die Liste seit der Pagination (siehe bpBuildNextBatch) nur seitenweise
+// im DOM steht, wird bei Bedarf erst automatisch nachgeladen, bis der
+// Zielabschnitt existiert, und erst dann dorthin gescrollt.
 window.bpJumpToCode = function(code) {
-  window.bpState = {
-    inst: code.slice(0, 2).toUpperCase(),
-    typ: parseInt(code.slice(-1)),
-    kat: "ALL", gender: "ALL", land: "ALL"
-  };
-  bpApply();
-  const list = document.getElementById("bp-list");
-  if (list) list.scrollIntoView({ behavior: "smooth", block: "start" });
+  const targetId = "bp-" + code.toLowerCase();
+  let guard = 0;
+  while (!document.getElementById(targetId) && guard < 20) {
+    const wrap = document.getElementById("bp-loadmore-wrap");
+    if (!wrap || !wrap.querySelector("button")) break; // komplett durchgeladen, Subtyp existiert nicht
+    window.bpRenderMore();
+    guard++;
+  }
+  const el = document.getElementById(targetId);
+  if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
 };
 window.bpRandom = function() {
   // Wählt direkt aus BERUEHMT_PORTRAITS statt aus dem DOM, da bei
@@ -2918,10 +2920,11 @@ window.bpApply = function() {
     matches.sort(function(a, b) { return (a.subtyp||"").localeCompare(b.subtyp||""); });
     vis = matches.length;
     if (list) list.innerHTML = bpCardsFlatHTML(matches);
-    // Register-Box (Schnellnavigation) bleibt bewusst immer sichtbar, auch
-    // gefiltert - sonst kann man nach einem Chip-Klick keinen anderen Subtyp
-    // mehr anklicken, ohne erst manuell zurückzusetzen.
-    if (reg) reg.style.display = "";
+    // Original-Verhalten: Register-Box blendet sich aus, sobald über die
+    // Instinkt/Typ/Kategorie-Filterleiste aktiv gefiltert wird (bpJumpToCode
+    // - die Schnellnavigation-Chips - setzt keinen Filter mehr, läuft also
+    // nie durch diesen Zweig, siehe dort).
+    if (reg) reg.style.display = "none";
   } else {
     window.bpRenderedCount = 0;
     window.bpLastSectionCode = null;
