@@ -32940,6 +32940,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 1732\u20131809. \u00d6sterreichischer Komponist. Drei Jahrzehnte im Dienst der Esterh\u00e1zys, \u203aPapa Haydn\u2039, 104 Symphonien, Mentor von Mozart und Beethoven. Der Waschb\u00e4r mit Zweierfl\u00fcgel: stille Leistung, F\u00fcrsorge und sp\u00e4te Anerkennung durch die Londoner Reisen. Tierentsprechung: Waschb\u00e4r.",
     land:"Deutschland", tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Michael Dell – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · geb. 1965. US-amerikanischer Unternehmer, gründete Dell Computer 1984 im Studentenwohnheim mit 1.000 Dollar Startkapital. Bekannt für operative Disziplin und direkten Kundenkontakt statt Selbstinszenierung, gemeinsam mit seiner Frau Susan über 10 Milliarden Dollar für wohltätige Zwecke zugesagt. Tierentsprechung: Waschbär.",
+    land:"USA", tags:["Wirtschaft"], gender:"m"},
   { route:"beruehmte-edita-gruberova", name:"Edita Gruberová", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Edita Gruberová – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · 1946–2021. Slowakische Koloratursopranistin, ›Königin der Koloratur‹, über 45 Jahre an der Wiener Staatsoper. Floh 1971 aus der Tschechoslowakei nach Wien, sang noch mit 72 Jahren anspruchsvollste Partien – für ihr Fach eine außergewöhnliche Karrierelänge. Tierentsprechung: Waschbär.",
@@ -44878,7 +44882,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
@@ -44888,7 +44892,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
         beschreibung: "Statt auf vorhandene Ressourcen oder Startvorteile zu warten, entsteht aus begrenzten Mitteln, oft aus purer Findigkeit, ein tragfähiges, manchmal jahrzehntelang funktionierendes System.",
-        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹; Dr. Annika von Mutius, die statt auf lautes Marketing über Jahre auf die technische Substanz eines KI-Matching-Systems setzte, bevor Empion mit Konzernen wie Procter & Gamble zusammenarbeitete – Aufmerksamkeit, die der Substanz folgte, nicht umgekehrt; Changpeng Zhao, der Binance nicht über öffentlichen Auftritt, sondern über technische Infrastruktur zur größten Kryptobörse der Welt aufbaute – ein radikal eigener Weg außerhalb bestehender Regelwerke, still errichtet statt inszeniert; Johnny Cash, der aus den Baumwollfeldern der Siedlungskolonie Dyess kommend über fünf Jahrzehnte eine der stabilsten Karrieren der Country-Musik aufbaute – trotz jahrzehntelanger Sucht und mehrerer Karriereeinbrüche eine Struktur, die auch schwerste Rückschläge überstand."
+        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹; Dr. Annika von Mutius, die statt auf lautes Marketing über Jahre auf die technische Substanz eines KI-Matching-Systems setzte, bevor Empion mit Konzernen wie Procter & Gamble zusammenarbeitete – Aufmerksamkeit, die der Substanz folgte, nicht umgekehrt; Changpeng Zhao, der Binance nicht über öffentlichen Auftritt, sondern über technische Infrastruktur zur größten Kryptobörse der Welt aufbaute – ein radikal eigener Weg außerhalb bestehender Regelwerke, still errichtet statt inszeniert; Johnny Cash, der aus den Baumwollfeldern der Siedlungskolonie Dyess kommend über fünf Jahrzehnte eine der stabilsten Karrieren der Country-Musik aufbaute – trotz jahrzehntelanger Sucht und mehrerer Karriereeinbrüche eine Struktur, die auch schwerste Rückschläge überstand; Michael Dell, der mit neunzehn Jahren aus einem Studentenwohnheim heraus mit rund 1.000 Dollar Startkapital ein Unternehmen aufbaute, das im ersten vollständigen Geschäftsjahr bereits sechs Millionen Dollar Umsatz erwirtschaftete – kein Zufallserfolg, sondern konsequente operative Disziplin von Anfang an."
       },
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
@@ -72971,6 +72975,72 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function michaelDellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-michael-dell-portrait.jpg" alt="Michael Dell" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Dell</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, geb. 1965 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet und aus begrenzten Mitteln ein funktionierendes System baut. Michael Dell wurde 1965 in Houston, Texas, geboren und begann 1984, als neunzehnjähriger Vormedizinstudent, aus seinem Studentenwohnheim an der University of Texas heraus mit rund 1.000 Dollar Startkapital Computer zusammenzubauen und zu verkaufen.</p>
+          <p class="vb-intro">Schon in der zweiten Hälfte seines ersten Studienjahres hatte er Computer im Wert von 80.000 Dollar verkauft – eine Zahl, mit der er seine Eltern davon überzeugte, das Medizinstudium zugunsten des eigenen Unternehmens aufzugeben. Kein spontaner Geniestreich, sondern der frühe Beweis, dass ein funktionierendes Geschäftsmodell tatsächlich trägt, bevor er sich vollständig darauf einließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Operative Disziplin statt Selbstinszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch öffentliches Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht. Dells Unternehmen erwirtschaftete bereits im ersten vollständigen Geschäftsjahr sechs Millionen Dollar Umsatz und machte ihn 1992, mit siebenundzwanzig Jahren, zum bis dahin jüngsten CEO eines Fortune-500-Unternehmens.</p>
+          <p class="vb-intro">Sein Unternehmen gehörte zu den ersten, die eine Just-in-time-Lagerhaltung konsequent umsetzten – Bauteile wurden erst bestellt, wenn ein Kundenauftrag tatsächlich vorlag, was Kosten senkte und die Effizienz steigerte. Diese Methode war kein Marketing-Schlagwort, sondern gelebte operative Disziplin: Die SE3, die ihre Sicherheit aus einem tatsächlich funktionierenden System bezieht, nicht aus dessen öffentlicher Darstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Kundennähe und gemeinsame Philanthropie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung – bei Dell zeigt sich das im direkten Vertriebsmodell, das von Beginn an auf unmittelbarem Kundenkontakt statt auf anonymem Einzelhandel beruhte, und in einer Unternehmenskultur, die konsequent auf Kundenzufriedenheit ausgerichtet war, statt auf reine Markenpflege.</p>
+          <p class="vb-intro">Gemeinsam mit seiner Frau Susan gründete er 1999 die Michael & Susan Dell Foundation, die sich zunächst auf Kinder in Armut in Texas, dann in den gesamten USA, in Südafrika und in Indien konzentrierte. Über 10 Milliarden Dollar haben die beiden inzwischen gemeinnützigen Organisationen und sozialen Unternehmen zugesagt – 2024 allein rund 308 Millionen Dollar, etwa doppelt so viel wie im Vorjahr. Der Zweierflügel übersetzt unternehmerischen Erfolg in konkrete, messbare Unterstützung für andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Rückzug von der Börse, 2013</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2013 führte Dell eine der größten fremdfinanzierten Übernahmen der Technologiegeschichte durch, um sein eigenes Unternehmen von der Börse zu nehmen – eine Entscheidung, die dem kurzfristigen Erwartungsdruck der Wall Street entgegenstand und stattdessen langfristigen, strukturellen Umbau ermöglichte. Kein spektakulärer öffentlicher Auftritt, sondern eine nüchterne, operative Entscheidung, um dem Unternehmen die Substanz zurückzugeben, die unter permanentem Quartalsdruck zu leiden drohte.</p>
+          <p class="vb-intro">Diese Episode zeigt die typische SE3-Logik: Sicherheit entsteht nicht durch das Gefallen an äußeren Erwartungen, sondern durch die konsequente Kontrolle über die eigenen operativen Grundlagen – notfalls auch gegen den Trend der öffentlichen Meinung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>operative Substanz mit echter Fürsorge für andere</strong> zu verbinden – Dell baute nicht nur eines der größten Technologieunternehmen der Welt auf, sondern übersetzte den daraus entstandenen Reichtum konsequent in messbare wohltätige Wirkung, gemeinsam mit seiner Frau als gleichberechtigter Partnerin.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> – bei der SE3 subtiler als bei den lauteren Dreier-Subtypen, aber dennoch vorhanden: das Bedürfnis, den eigenen Wert durch immer neue, überprüfbare Erfolge zu bestätigen. Dells Werdegang vom Studentenwohnheim zum weltweit tätigen Technologiekonzern zeigt eine Disziplin, die beeindruckende Ergebnisse hervorbrachte, aber auch kaum je innehielt, um den erreichten Erfolg einfach nur zu genießen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der aus einem Studentenzimmer ein Weltunternehmen baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Dell gehört zu den einflussreichsten Unternehmern der Technologiebranche – nicht wegen einer spektakulären Erfindung, sondern wegen eines konsequent umgesetzten, operativ durchdachten Geschäftsmodells, das direkten Kundenkontakt mit schlanker, effizienter Produktion verband.</p>
+          <p class="vb-intro">Vom neunzehnjährigen Studenten mit 1.000 Dollar Startkapital zum Lenker eines milliardenschweren Technologiekonzerns und einer der größten privaten Stiftungen der Welt: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Substanz, die sich nicht in Selbstdarstellung erschöpft, sondern in tatsächlicher, überprüfbarer Wirkung für andere fortsetzt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
       ])}
     </div>
   `);
@@ -137700,6 +137770,7 @@ function render() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
       "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
