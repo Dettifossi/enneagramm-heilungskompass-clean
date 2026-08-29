@@ -1,3 +1,224 @@
+function wolfgangBeltracchiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Wolfgang Beltracchi \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/wolfgang-beltracchi-portrait.jpg" alt="Wolfgang Beltracchi \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Beltracchi</p>
+        <p class="krim-portrait-typ">SX9w1 \u00b7 Sexueller Typ 9 mit Einserfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Kunstf\u00e4lscher, Jahrhundertbetrug \u00b7 Tierentsprechung: Faultier</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Wolfgang Beltracchi</strong> gilt als einer der bekanntesten Kunstf\xe4lscher der Welt.
+        Nach eigenen Angaben f\xe4lschte er rund 300 Kunstwerke ber\xfchmter Maler, die heute
+        noch in Museen weltweit als vermeintliche Originale ausgestellt sind. Im Herbst 2011
+        wurde er wegen gewerbsm\xe4\xdfigen Bandenbetrugs in 14 nachgewiesenen F\xe4llen zu sechs
+        Jahren Haft verurteilt; der Betrugsgewinn wurde auf 20 bis 50 Millionen Euro gesch\xe4tzt.
+        Was Beltracchi von anderen Betr\xfcgern unterscheidet: Er handelte nicht aus Hass,
+        Machtgier oder Destruktivit\xe4t \u2013 sondern aus einer tiefen, fast liebevollen
+        Verschmelzung mit der Kunstwelt. Das Enneagramm macht diesen Unterschied lesbar.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Wolfgang Beltracchi</strong> wird der <strong>Sexuellen Neun mit Einserfl\xfcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Neun ist <em>Tr\xe4gheit</em> (Sloth) \u2013
+        nicht k\xf6rperliche Tr\xe4gheit, sondern eine innere Tr\xe4gheit gegen\xfcber der eigenen
+        Pr\xe4senz und Identit\xe4t: die Neigung, sich selbst zu vergessen und in etwas
+        Gr\xf6\xdferes aufzugehen. Die sexuelle Neun (SX9) sucht diesen Zustand durch
+        vollst\xe4ndige Verschmelzung \u2013 mit Menschen, Ideen oder k\xfcnstlerischen Welten.
+        Der Einserfl\xfcgel erg\xe4nzt dies mit Perfektionismus und einem tiefen Gef\xfchl daf\xfcr,
+        was \u201erichtig" und \u201eecht" ist. In Beltracchis Fall f\xfchrt diese Kombination zu
+        einem der \xe4sthetisch und psychologisch faszinantesten F\xe4lle der Kriminalgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <p class="vb-intro"><strong>a) Sehnsucht nach Verschmelzung:</strong>
+        Die sexuelle Neun hat ein tiefes Bed\xfcrfnis nach intensiver Verschmelzung mit
+        Menschen oder Konzepten. Beltracchi baute eine intime Beziehung zu den Kunstwerken
+        auf, als ob er selbst die Originale geschaffen h\xe4tte. Er malte nicht nur F\xe4lschungen \u2013
+        er schuf in seinem Empfinden das, was die Meister h\xe4tten malen sollen.</p>
+        <p class="vb-intro"><strong>b) Vermeidung von Konflikten:</strong>
+        Sexuelle Neunen neigen dazu, Konflikten aus dem Weg zu gehen und sich auf sanfte
+        Weise in die Umgebung einzuf\xfcgen. Beltracchi lebte lange in einer fast traumhaften
+        Welt ohne Konfrontation mit der Realit\xe4t \u2013 erkennbar auch am ruhigen, etwas
+        schl\xe4frigen Ausdruck, den Neuner oft in ihrem Blick tragen.</p>
+        <p class="vb-intro"><strong>c) Blick in die Vergangenheit:</strong>
+        Diese Neunen tendieren zu nostalgischen Verbindungen mit fr\xfcheren Zeiten.
+        Beltracchi griff auf vergangene Kunststile zur\xfcck und f\xfchlte sich in der Rolle
+        der alten Meister offensichtlich vollkommen zu Hause.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Sehnsucht nach innerem Frieden:</strong>
+        SX9er streben nach tiefem innerem Frieden und Harmonie. Beltracchis Leben als
+        F\xe4lscher kann als Versuch gesehen werden, sich in eine ideale, friedliche Welt
+        der Kunst zu integrieren \u2013 auf versteckte, stille, unauff\xe4llige Weise als
+        K\xfcnstler respektiert und bewundert zu werden.</p>
+        <p class="vb-intro"><strong>b) Anpassungsf\xe4higkeit:</strong>
+        Sexuelle Neuner sind sehr anpassungsf\xe4hig. Beltracchi zeigte diese F\xe4higkeit,
+        indem er sich sowohl in der Kunstwelt als auch in der Rolle des Betr\xfcgers
+        nahtlos bewegen konnte.</p>
+        <p class="vb-intro"><strong>c) Tendenz zur Selbstvergessenheit:</strong>
+        Neuner neigen dazu, ihre eigene Identit\xe4t zu verlieren und sich in etwas
+        Gr\xf6\xdferes aufzul\xf6sen. Dies erkl\xe4rt, warum Beltracchi sich in den Identit\xe4ten der
+        K\xfcnstler aufgehen lie\xdf und damit seine eigene Person in den Hintergrund stellte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tiefe Suche nach Einheit:</strong>
+        <strong>Beltracchi</strong> schien st\xe4ndig nach einem Zustand der Einheit mit der Kunst zu streben.
+        Er wollte nicht nur Werke nachahmen \u2013 er vertiefte sich teilweise wochenlang in
+        s\xe4mtliche Literatur und Informationen \xfcber die jeweiligen Meister, deren Pers\xf6nlichkeit,
+        Psyche, Motive und Absichten, um vollst\xe4ndig mit ihnen zu verschmelzen und ihre
+        Werke perfekt nachahmen zu k\xf6nnen.</p>
+        <p class="vb-intro"><strong>b) Verdr\xe4ngung unangenehmer Wahrheiten:</strong>
+        Sexuelle Neuner haben die Tendenz, unangenehme Realit\xe4ten zu verdr\xe4ngen.
+        Beltracchi lebte jahrelang in der Illusion, dass seine F\xe4lschungen nicht entdeckt
+        werden w\xfcrden, und mied so die Realit\xe4t der Konsequenzen.</p>
+        <p class="vb-intro"><strong>c) Instinktive Intuition:</strong>
+        Diese Neuner handeln oft sehr instinktiv und intuitiv. Beltracchis F\xe4lschungen
+        entstanden aus einem tiefen intuitiven Verst\xe4ndnis f\xfcr Kunst und \xc4sthetik,
+        ohne dass er dabei ausschlie\xdflich rational vorging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Charismatische Pers\xf6nlichkeit:</strong>
+        SX9er k\xf6nnen eine fast magnetische Anziehungskraft aus\xfcben. Beltracchi war trotz
+        seiner T\xe4uschungen eine charmante und faszinierende Pers\xf6nlichkeit, die in der
+        Kunstwelt und den Medien viel Aufmerksamkeit erregte.</p>
+        <p class="vb-intro"><strong>b) F\xe4higkeit, andere zu bezaubern:</strong>
+        Wie viele Neuner hatte Beltracchi die F\xe4higkeit, andere Menschen zu bezaubern.
+        Er \xfcberzeugte nicht nur Kunstexperten, sondern auch K\xe4ufer seiner F\xe4lschungen,
+        indem er eine authentische, \xfcberzeugende Fassade aufrechterhielt.</p>
+        <p class="vb-intro"><strong>c) Widerspr\xfcchliche Harmonie:</strong>
+        Die sexuelle Neun wirkt oft harmonisch und friedfertig, obwohl sie innerlich eine
+        intensive, manchmal widerspr\xfcchliche Energie tr\xe4gt. Beltracchi wirkte nach au\xdfen
+        hin entspannt und gelassen, obwohl er ein Doppelleben f\xfchrte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Sanfte, aber durchdringende Pr\xe4senz:</strong>
+        Sexuelle Neuner haben eine ruhige, aber dennoch intensive Ausstrahlung.
+        Beltracchi zeigte diese Pr\xe4senz in seiner F\xe4higkeit, Menschen zu t\xe4uschen,
+        ohne dabei aufdringlich oder aggressiv zu wirken.</p>
+        <p class="vb-intro"><strong>b) Verbindende Energie:</strong>
+        Diese Neuner suchen immer nach Verbindung und verschmelzen mit ihrer Umwelt.
+        Beltracchi verband sich auf energetischer Ebene mit der Kunstwelt, indem er
+        sich in die Werke einf\xfchlte und so die Illusion einer echten
+        K\xfcnstlerpers\xf6nlichkeit schuf.</p>
+        <p class="vb-intro"><strong>c) Unbewusste Dominanz:</strong>
+        Obwohl sie nicht aktiv dominieren wollen, \xfcben sexuelle Neuner oft eine subtile
+        Form der Kontrolle aus. Beltracchi beherrschte die Kunst, seine Umwelt durch
+        Manipulation zu kontrollieren, ohne dass dies sofort auffiel.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Faultier</h3>
+        <p class="vb-intro"><strong>a) Innere Tr\xe4gheit:</strong>
+        Wie das Faultier neigt die sexuelle Neun zur inneren Tr\xe4gheit und vermeidet
+        direkte Konfrontationen. Beltracchi mied es, sich den Folgen seiner Handlungen
+        zu stellen, bis er keine andere Wahl mehr hatte.</p>
+        <p class="vb-intro"><strong>b) Vermeidung von Unruhe:</strong>
+        Faultiere bewegen sich langsam und bed\xe4chtig, um Aufruhr zu vermeiden. Auch
+        Beltracchi schien durch seine ruhige und besonnene Art Konflikte zu umgehen
+        und so lange wie m\xf6glich unentdeckt zu bleiben.</p>
+        <p class="vb-intro"><strong>c) Leben in ruhigem Tempo:</strong>
+        Trotz seiner kriminellen Aktivit\xe4ten f\xfchrte Beltracchi ein relativ ruhiges und
+        unauff\xe4lliges Leben, \xe4hnlich wie ein Faultier, das im Hintergrund bleibt und
+        sich nur langsam bewegt, um seine Umgebung nicht zu st\xf6ren.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Wolfgang Beltracchi</strong> passt mit seiner Pers\xf6nlichkeit in perfekter Hinsicht zur
+        sexuellen Neun. Seine charismatische, aber zur\xfckhaltende Pers\xf6nlichkeit, sein
+        Bed\xfcrfnis nach Harmonie und Verbindung sowie seine Vermeidung von Konflikten
+        spiegeln die Kernmerkmale dieses Typus wider. Seine F\xe4higkeit, sich in die Welt
+        der Kunst einzuf\xfchlen und in die Rolle der gro\xdfen K\xfcnstler zu schl\xfcpfen, zeigt
+        das Streben nach Verschmelzung, das f\xfcr die sexuelle Neun typisch ist. In diesem
+        Sinne verk\xf6rperte Beltracchi das paradoxe Wesen der sexuellen Neun: ruhig und
+        charmant nach au\xdfen, aber im Hintergrund tiefe Energien und innere Spannungen.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SX9 \u2013 \u201eUnion / Verschmelzung":</strong>
+        Claudio Naranjo nannte die sexuelle Neun \u201eUnion": Sie sucht vollst\xe4ndige Einheit
+        mit dem Geliebten \u2013 ob Mensch, Idee oder k\xfcnstlerische Welt. Beltracchis
+        wochenlange Versenkung in die Psyche der Meister vor jedem Werk ist diese Fusion
+        w\u00f6rtlich genommen. Er kopierte nicht \u2013 er <em>wurde</em> der jeweilige Meister,
+        zumindest f\xfcr die Dauer des Sch\xf6pfungsprozesses. Das macht seine Werke in
+        gewissem Sinne authentischer als viele Kopien: Sie entstanden aus echter
+        Verschmelzung, nicht aus mechanischer Nachahmung.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel \u2013 Perfektion als inneres Gesetz:</strong>
+        Der Einserfl\xfcgel verleiht der Neun einen tiefen Perfektionismus. Beltracchis
+        Verwendung historisch korrekter Pigmente, gealterter Leinw\xe4nde und
+        periodengerechter Materialien ist der Einserfl\xfcgel in Aktion: Er konnte kein
+        schlechtes Fake malen \u2013 seine inneren Standards lie\xdfen das nicht zu.
+        Bemerkenswerterweise zeigte er kaum Schuld gegen\xfcber betrogenen Sammlern,
+        w\xe4re aber tief befremdet gewesen, h\xe4tte jemand einen technischen Fehler
+        in seinen Werken gefunden. Sein Gewissen galt dem Werk, nicht dem Betrug.</p>
+        <p class="vb-intro"><strong>c) Der schlafende Riese:</strong>
+        Die Neun besitzt h\xe4ufig enorme latente Begabung, richtet sie aber auf andere,
+        nicht auf sich selbst. Beltracchi war m\xf6glicherweise talentierter als manche
+        der Meister, die er f\xe4lschte \u2013 aber das Neuner-Muster verhinderte, dass er seiner
+        eigenen k\xfcnstlerischen Stimme traute. Sich unter eigenem Namen zu
+        positionieren \u2013 das h\xe4tte Pr\xe4senz, Ich-Behauptung, Sichtbarkeit erfordert.
+        F\xfcr die Neun ist das der schwerere Weg.</p>
+        <p class="vb-intro"><strong>d) Das Leben als Kunstwerk \u2013 SX9 erschafft eine Gesamtwelt:</strong>
+        <strong>Beltracchi</strong> und seine Frau Helene lebten wie Boh\xe8me-Adel: Ch\u00e2teau in Frankreich,
+        ein Netzwerk aus Prominenz und Kunstkennern, ein Leben voller \xc4sthetik und
+        Eleganz. Die sexuelle Neun erschafft eine \u00e4sthetische Gesamtwelt und lebt
+        vollst\xe4ndig darin. Die F\xe4lschungen finanzierten nicht nur Geld \u2013 sie
+        finanzierten die <em>Existenz</em> als gro\xdfer K\xfcnstler. Das war der eigentliche
+        Gewinn.</p>
+        <p class="vb-intro"><strong>e) Kein Gewissen f\xfcr Betrug, aber Gewissen f\xfcr Qualit\xe4t:</strong>
+        Der Einserfl\xfcgel schafft Gewissen f\xfcr das Werk selbst, nicht zwingend f\xfcr
+        die moralische Dimension. Beltracchi rationalisierte seine F\xe4lschungen als
+        \u201eErg\xe4nzung" der Meisterwerke \u2013 er schuf das, was die gro\xdfen K\xfcnstler
+        \u201eh\xe4tten malen k\xf6nnen". In dieser Logik war er kein Betr\xfcger, sondern
+        ein Erg\xe4nzer der Kunstgeschichte. Das ist die Selbstt\xe4uschung der SX9w1:
+        Verschmelzung als Legitimation, Perfektion als moralischer Freispruch.</p>
+        <p class="vb-intro"><strong>f) Das paradoxe Selbst der Neun:</strong>
+        Beltracchis eigene Aussage ist die reinste SX9-Selbstbeschreibung: Er konnte
+        unzugeordnete Werke aus der richtigen Epoche \u201ef\xfchlen" und dann weitere davon
+        malen \u2013 als ob er das Original in sich tr\xfcge. Das Ich l\xf6st sich in den anderen
+        auf. F\xfcr die sexuelle Neun ist das kein Verlust \u2013 es ist die h\xf6chste Form
+        von Verbindung, die sie kennt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Neun im Vergleich: Verschmelzung, Selbstvergessenheit und die Suche nach Union.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX9, SO9, SE9 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 9 ausf\xfchrlich portr\xe4tiert \u2013 Tr\xe4gheit, Selbstvergessenheit und der Heilungsweg \xfcber echte Pr\xe4senz.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Wolfgang Beltracchi wurde 2011 wegen Kunstf\u00e4lschung und Betrugs zu sechs Jahren Haft verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-ed-gein", label:"Kriminalpsychologie: Ed Gein (SX9w1) – dieselbe Verschmelzungsdynamik, extrem entgleist"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\xf6gel"},
+        {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta"},
+        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function nielsHoegelPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -9279,57 +9500,6 @@ function vogelartenDer9TypenPage() {
         {route:"milchkuharten-der-9-typen", label:"Milchkuharten der 9 Typen"},
         {route:"froscharten-der-9-typen", label:"Froscharten der 9 Typen"},
         {route:"spinnenarten-der-9-typen", label:"Spinnenarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function froschartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Froscharten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Fr\u00f6sche geh\u00f6ren zu den \u00e4ltesten Lebewesen der Erde \u2013 sie existieren seit \u00fcber 250 Millionen Jahren und haben seither fast jede feuchte Nische des Planeten besiedelt: W\u00fcste, Regenwald, Gebirge, Polarregionen. Jede Art tr\u00e4gt dabei ein eigenes Prinzip in sich. Neun Froscharten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/froscharten-der-9-typen.jpg" alt="Froscharten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Glasfrosch: Nichts zu verbergen</h3>
-        <p class="vb-intro">Der Glasfrosch ist der transparenteste Frosch der Welt \u2013 buchst\u00e4blich: Seine Bauchseite ist vollst\u00e4ndig durchsichtig. Wer ihn von unten betrachtet, sieht Herz, Leber, Darm und die Gef\u00e4\u00dfe, durch die das Blut flie\u00dft. Kein anderes Wirbeltier legt sich so vollst\u00e4ndig offen. Diese Transparenz ist kein Defizit \u2013 sie ist eine Schutzstrategie der Evolution: Auf gr\u00fcnen Bl\u00e4ttern, von oben gesehen, ist der Glasfrosch nahezu unsichtbar; wer ihn von unten sieht, sieht durch ihn hindurch in den Himmel. Er verschwindet in seiner eigenen Klarheit. Der Glasfrosch bew\u00e4chst seine Eier mit beeindruckender Sorgfalt \u2013 das M\u00e4nnchen bleibt tagelang beim Gelege, feuchtet es mit dem eigenen K\u00f6rper und vertreibt Parasiten. Was er sch\u00fctzt, sch\u00fctzt er vollst\u00e4ndig. Das Prinzip des Enneagrammtyps 1: Der Glasfrosch hat keine Maske und braucht keine. Er lebt so, dass er nichts verbergen muss \u2013 und wird dadurch zu etwas, das die Natur selbst nicht verbessern konnte.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Wei\u00dfer Baumfrosch: Sanftheit als St\u00e4rke</h3>
-        <p class="vb-intro">Der Wei\u00dfe Baumfrosch \u2013 auch Korallenfinger-Laubfrosch genannt \u2013 ist der gem\u00fctlichste Frosch der Welt. Seine gr\u00fcnlich-wei\u00dfe, fast wachsartige Haut, sein entspannter Gesichtsausdruck und sein phlegmatisches Temperament haben ihm den Ruf eingebracht, der freundlichste Frosch zu sein, den es gibt. Er passt sich v\u00f6llig an seine Umgebung an: Er schl\u00e4ft, wo er sitzt; er frisst, was kommt; er zeigt keine Aggression, keine Hektik, keine \u00fcberm\u00e4\u00dfige Wachheit. Was ihn dabei auszeichnet: Er ist \u00fcberraschend robust. Sein Hautsekret enth\u00e4lt antibakterielle und antivirale Substanzen, die Forscher als Grundlage f\u00fcr Medikamente untersuchen \u2013 er hilft, auch wenn er nicht wei\u00df, dass er hilft. Er ruft in der D\u00e4mmerung mit einem sanften, tiefen Bellen \u2013 einladend, nie aufdringlich. Das Prinzip des Enneagrammtyps 2: Der Wei\u00dfe Baumfrosch gibt, ohne Aufhebens darum zu machen. Seine Sanftheit ist keine Schw\u00e4che \u2013 sie ist das, womit er die Welt ber\u00fchrt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Rotaugenlaubfrosch: Der Auftritt ist die Botschaft</h3>
-        <p class="vb-intro">Der Rotaugenlaubfrosch ist der bekannteste Frosch der Welt \u2013 und das aus gutem Grund. Seine leuchtendroten Augen, der gr\u00fcne K\u00f6rper, die orangefarbenen F\u00fc\u00dfe und die blauen Flankenstreifen sind so unwahrscheinlich bunt, dass er auf Postern, Logos und Buchcovern verewigt wurde, seit der Mensch Kameras hat. Er ist das Gesicht des tropischen Regenwaldes. Was kaum jemand wei\u00df: Diese Farben sind keine Warnung vor Gift \u2013 der Rotaugenlaubfrosch ist harmlos. Seine leuchtenden Farben sind reines Signal: Schreckfarbe, die Fressfeinde im Moment des Angriffs durch den pl\u00f6tzlichen Anblick der roten Augen kurz \u00fcberrascht und damit Zeit gewinnt. Er lebt vom Auftritt. Und er hat den besten der Welt entwickelt. Das Prinzip des Enneagrammtyps 3: Der Rotaugenlaubfrosch zeigt, was m\u00f6glich ist, wenn Wirkung zur Kunst wird. Er ist nicht gef\u00e4hrlich \u2013 aber er sieht so aus, als k\u00f6nnte er es sein. Und das reicht vollkommen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Laubfrosch: Der Tr\u00e4umer im Schilf</h3>
-        <p class="vb-intro">Der Laubfrosch ist der poetischste Frosch Mitteleuropas. Klein, leuchtend gr\u00fcn, mit gro\u00dfen Haftscheiben an den Zehen, sitzt er allein auf einem Blatt und singt \u2013 ein trillerndes, klares Lied, das in warmen N\u00e4chten weithin zu h\u00f6ren ist. Er ist dabei often das einzige Lebewesen, das in dieser Nacht ruft \u2013 als h\u00e4tte er die ganze Klangwelt f\u00fcr sich. Der Laubfrosch lebt ein introvertiertes Leben: Er jagt allein, schl\u00e4ft allein, kletert nach eigenen Routen durch Buschwerk und Schilf. Nur in der Paarungszeit findet er sich kurz mit anderen zusammen \u2013 und auch dann bleibt er unverwechselbar er selbst. Was wenige wissen: Laubfr\u00f6sche k\u00f6nnen ihre Farbe von leuchtendem Gr\u00fcn zu Graubraun wechseln \u2013 je nach Stimmung, Temperatur und Licht. Sie tragen ihre innere Welt nach au\u00dfen. Das Prinzip des Enneagrammtyps 4: Der Laubfrosch singt nicht f\u00fcr das Publikum. Er singt, weil er muss \u2013 und weil sein Lied in keiner anderen Kehle klingt wie in seiner.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 W\u00fcstenfrosch: Meister des Zur\u00fcckziehens</h3>
-        <p class="vb-intro">Der W\u00fcstenfrosch l\u00f6st ein Problem, das eigentlich unl\u00f6sbar ist: Er lebt in einer Umgebung, die Fr\u00f6sche t\u00f6tet. Kein Wasser. Extreme Hitze. Monate ohne Regen. Seine L\u00f6sung ist radikal: Er vergr\u00e4bt sich bis zu einem Meter tief in die Erde, h\u00fcllt sich in eine mehrlagige Schleimh\u00fclle, die zu einer pergamentartigen Kapsel austrocknet, und schaltet seinen Stoffwechsel auf ein Minimum \u2013 bis zu sieben Jahre lang. Kein Fressen, kein Bewegen, kein Atmen im eigentlichen Sinne. Nur Warten. Wenn der Regen kommt, rehydriert er innerhalb von Stunden, taucht auf und hat wenige Wochen Zeit, um zu fressen, sich zu paaren und wieder zu verschwinden. Sein gesamtes Leben spielt sich in kurzen, intensiven Phasen ab \u2013 unterbrochen von langen Phasen vollst\u00e4ndigen R\u00fcckzugs. Das Prinzip des Enneagrammtyps 5: Der W\u00fcstenfrosch hat gelernt, dass man nicht immer pr\u00e4sent sein muss, um zu \u00fcberleben. Manchmal ist der R\u00fcckzug die intelligenteste Entscheidung \u2013 und das Auftauchen, wenn die Zeit stimmt, umso wirkungsvoller.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Grasfrosch: Treue zum bew\u00e4hrten Weg</h3>
-        <p class="vb-intro">Der Grasfrosch ist der verl\u00e4sslichste Frosch Europas: Jedes Jahr im Fr\u00fchjahr, p\u00fcnktlich nach dem ersten Tauwetter, wandert er zum selben Teich zur\u00fcck, in dem er selbst geschl\u00fcpft ist \u2013 manchmal \u00fcber Kilometer, \u00fcber Stra\u00dfen, durch W\u00e4lder, trotz aller Hindernisse. Forscher haben einzelne Grasfr\u00f6sche \u00fcber zehn Jahre lang am selben Laichgew\u00e4sser nachgewiesen. Er kennt seinen Ort \u2013 und er kehrt dorthin zur\u00fcck, weil er funktioniert. Im Herbst \u00fcberwintert er in Gruppen, tief im Schlamm von Teichen und Fl\u00fcssen, wo die Temperatur stabil bleibt. Gemeinschaft als Schutzstrategie: Viele K\u00f6rper erzeugen genug W\u00e4rme, um gemeinsam zu \u00fcberleben. Was ihn auszeichnet, ist nicht Heroismus \u2013 es ist Verl\u00e4sslichkeit. Er tut, was er immer getan hat, und er tut es rechtzeitig. Das Prinzip des Enneagrammtyps 6: Der Grasfrosch vertraut nicht dem Unbekannten. Er vertraut dem Weg, der sich bew\u00e4hrt hat \u2013 und dieser Weg f\u00fchrt ihn, Jahr f\u00fcr Jahr, genau dorthin, wo das Leben weitergeht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Pfeilgiftfrosch: Farbe als Freiheitserkl\u00e4rung</h3>
-        <p class="vb-intro">Der Pfeilgiftfrosch tr\u00e4gt die lauteste Farbe des Regenwaldes: Kobaltblau, Feuerorange, Smaragdgr\u00fcn mit schwarzen Punkten \u2013 so grell, so unwahrscheinlich, dass jeder Raubtierinstinkt sofort sagt: Nicht anfassen. Und das zu Recht: Manche Arten tr\u00e4gen genug Gift, um tausende Menschen zu t\u00f6ten. Was fasziniert: Der Pfeilgiftfrosch braucht kein Versteck, keine Tarnung, keine Strategie der Unsichtbarkeit. Er spaziert tags\u00fcber \u00fcber den Waldboden \u2013 in aller \u00d6ffentlichkeit, in voller Farbe. Sein Gift tr\u00e4gt er wie ein Ticket zur Freiheit. Er gewinnt sein Gift \u00fcbrigens aus seiner Nahrung \u2013 aus bestimmten Ameisen und Milben des Regenwaldes. In Gefangenschaft, ohne diese Nahrung, verliert er sein Gift vollst\u00e4ndig. Das Prinzip des Enneagrammtyps 7: Der Pfeilgiftfrosch hat die radikalste L\u00f6sung f\u00fcr das Problem der Sicherheit gefunden \u2013 er leuchtet so hell, dass ihn niemand angreift. Freiheit durch Farbe. Schutz durch Aufmerksamkeit.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Ochsenfrosch: Territorium ohne Kompromiss</h3>
-        <p class="vb-intro">Der Ochsenfrosch ist der gr\u00f6\u00dfte Frosch Nordamerikas \u2013 und der lauteste: Sein Ruf, der von einem Stierrullen kaum zu unterscheiden ist, kann auf mehrere Kilometer Entfernung geh\u00f6rt werden. Er beansprucht sein Revier am Ufer mit einer Eindeutigkeit, die keine Missverst\u00e4ndnisse zul\u00e4sst: Andere M\u00e4nnchen, die zu nah kommen, werden angegriffen und manchmal gefressen. Der Ochsenfrosch ist kein w\u00e4hlerischer Fresser \u2013 er frisst alles, was in sein Maul passt: Insekten, M\u00e4use, kleine Schlangen, andere Fr\u00f6sche, gelegentlich V\u00f6gel. Sein Maul ist verh\u00e4ltnism\u00e4\u00dfig riesig. Er sitzt dabei reglos am Ufer \u2013 ein Fels, eine Pr\u00e4senz \u2013 und wartet auf das, was kommt. Das Prinzip des Enneagrammtyps 8: Der Ochsenfrosch erkl\u00e4rt sein Revier nicht. Er f\u00fcllt es aus \u2013 mit seiner Stimme, seiner Gr\u00f6\u00dfe, seiner Bereitschaft, jeden Konflikt sofort zu beenden. Wer nah kommt, wei\u00df, woran er ist.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Teichfrosch: Der Frieden des Augenblicks</h3>
-        <p class="vb-intro">Der Teichfrosch sitzt. Auf einem Stein, auf einem Seerosenblatt, auf dem Teichrand \u2013 und er sitzt so vollst\u00e4ndig, so v\u00f6llig im Moment, dass er zum Symbol der Kontemplation geworden ist. In Japan ist der Frosch am Teich ein klassisches Haiku-Motiv \u2013 Matsuo Bash\u014d schrieb 1686 das ber\u00fchmteste Haiku der Weltliteratur \u00fcber den Sprung eines Frosches ins Wasser: F\u00fcr einen Moment wird die Stille sichtbar durch das Ger\u00e4usch, das sie unterbricht. Der Teichfrosch ist hochgradig anpassungsf\u00e4hig \u2013 er gedeiht in nahezu jedem Gew\u00e4sser, vertr\u00e4gt sich mit fast allen Artgenossen, sucht keinen Konflikt und l\u00e4sst sich von den meisten Bedrohungen erst im letzten Moment st\u00f6ren. Er springt ins Wasser \u2013 und sitzt kurz darauf schon wieder auf dem n\u00e4chsten Stein. Das Prinzip des Enneagrammtyps 9: Der Teichfrosch widersteht dem Drang, die Welt zu ver\u00e4ndern. Er findet seinen Frieden in ihr \u2013 genau so, wie sie ist. Und dieser Friede ist kein Mangel. Er ist eine Gabe.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
-        {route:"spinnenarten-der-9-typen", label:"Spinnenarten der 9 Typen"},
-        {route:"reptilienarten-der-9-typen", label:"Reptilienarten der 9 Typen"},
       ])}
     </div>
   `);

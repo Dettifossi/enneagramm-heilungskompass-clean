@@ -465,6 +465,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function michaelDellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-michael-dell-portrait.jpg" alt="Michael Dell" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Dell</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, geb. 1965 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet und aus begrenzten Mitteln ein funktionierendes System baut. Michael Dell wurde 1965 in Houston, Texas, geboren und begann 1984, als neunzehnjähriger Vormedizinstudent, aus seinem Studentenwohnheim an der University of Texas heraus mit rund 1.000 Dollar Startkapital Computer zusammenzubauen und zu verkaufen.</p>
+          <p class="vb-intro">Schon in der zweiten Hälfte seines ersten Studienjahres hatte er Computer im Wert von 80.000 Dollar verkauft – eine Zahl, mit der er seine Eltern davon überzeugte, das Medizinstudium zugunsten des eigenen Unternehmens aufzugeben. Kein spontaner Geniestreich, sondern der frühe Beweis, dass ein funktionierendes Geschäftsmodell tatsächlich trägt, bevor er sich vollständig darauf einließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Operative Disziplin statt Selbstinszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch öffentliches Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht. Dells Unternehmen erwirtschaftete bereits im ersten vollständigen Geschäftsjahr sechs Millionen Dollar Umsatz und machte ihn 1992, mit siebenundzwanzig Jahren, zum bis dahin jüngsten CEO eines Fortune-500-Unternehmens.</p>
+          <p class="vb-intro">Sein Unternehmen gehörte zu den ersten, die eine Just-in-time-Lagerhaltung konsequent umsetzten – Bauteile wurden erst bestellt, wenn ein Kundenauftrag tatsächlich vorlag, was Kosten senkte und die Effizienz steigerte. Diese Methode war kein Marketing-Schlagwort, sondern gelebte operative Disziplin: Die SE3, die ihre Sicherheit aus einem tatsächlich funktionierenden System bezieht, nicht aus dessen öffentlicher Darstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Kundennähe und gemeinsame Philanthropie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung – bei Dell zeigt sich das im direkten Vertriebsmodell, das von Beginn an auf unmittelbarem Kundenkontakt statt auf anonymem Einzelhandel beruhte, und in einer Unternehmenskultur, die konsequent auf Kundenzufriedenheit ausgerichtet war, statt auf reine Markenpflege.</p>
+          <p class="vb-intro">Gemeinsam mit seiner Frau Susan gründete er 1999 die Michael & Susan Dell Foundation, die sich zunächst auf Kinder in Armut in Texas, dann in den gesamten USA, in Südafrika und in Indien konzentrierte. Über 10 Milliarden Dollar haben die beiden inzwischen gemeinnützigen Organisationen und sozialen Unternehmen zugesagt – 2024 allein rund 308 Millionen Dollar, etwa doppelt so viel wie im Vorjahr. Der Zweierflügel übersetzt unternehmerischen Erfolg in konkrete, messbare Unterstützung für andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Rückzug von der Börse, 2013</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2013 führte Dell eine der größten fremdfinanzierten Übernahmen der Technologiegeschichte durch, um sein eigenes Unternehmen von der Börse zu nehmen – eine Entscheidung, die dem kurzfristigen Erwartungsdruck der Wall Street entgegenstand und stattdessen langfristigen, strukturellen Umbau ermöglichte. Kein spektakulärer öffentlicher Auftritt, sondern eine nüchterne, operative Entscheidung, um dem Unternehmen die Substanz zurückzugeben, die unter permanentem Quartalsdruck zu leiden drohte.</p>
+          <p class="vb-intro">Diese Episode zeigt die typische SE3-Logik: Sicherheit entsteht nicht durch das Gefallen an äußeren Erwartungen, sondern durch die konsequente Kontrolle über die eigenen operativen Grundlagen – notfalls auch gegen den Trend der öffentlichen Meinung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>operative Substanz mit echter Fürsorge für andere</strong> zu verbinden – Dell baute nicht nur eines der größten Technologieunternehmen der Welt auf, sondern übersetzte den daraus entstandenen Reichtum konsequent in messbare wohltätige Wirkung, gemeinsam mit seiner Frau als gleichberechtigter Partnerin.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> – bei der SE3 subtiler als bei den lauteren Dreier-Subtypen, aber dennoch vorhanden: das Bedürfnis, den eigenen Wert durch immer neue, überprüfbare Erfolge zu bestätigen. Dells Werdegang vom Studentenwohnheim zum weltweit tätigen Technologiekonzern zeigt eine Disziplin, die beeindruckende Ergebnisse hervorbrachte, aber auch kaum je innehielt, um den erreichten Erfolg einfach nur zu genießen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der aus einem Studentenzimmer ein Weltunternehmen baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Dell gehört zu den einflussreichsten Unternehmern der Technologiebranche – nicht wegen einer spektakulären Erfindung, sondern wegen eines konsequent umgesetzten, operativ durchdachten Geschäftsmodells, das direkten Kundenkontakt mit schlanker, effizienter Produktion verband.</p>
+          <p class="vb-intro">Vom neunzehnjährigen Studenten mit 1.000 Dollar Startkapital zum Lenker eines milliardenschweren Technologiekonzerns und einer der größten privaten Stiftungen der Welt: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Substanz, die sich nicht in Selbstdarstellung erschöpft, sondern in tatsächlicher, überprüfbarer Wirkung für andere fortsetzt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function editaGruberovaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10767,184 +10833,6 @@ function albertEinsteinKrankheitsportraetPage() {
         {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
-      ])}
-    </div>
-  `);
-}
-
-function robertSchumannKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-robert-schumann-portrait.jpg" alt="Robert Schumann" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Robert Schumann</p>
-        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel · 1810–1856</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Schimpanse</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Robert Schumann</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-robert-schumann">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk und seine
-        Typstruktur im Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort nur
-        gestreift wird: eine psychische Erkrankung, die sich über sein gesamtes Erwachsenenleben
-        zog und ihn 1854 in den Rhein und in eine Heilanstalt führte, in der er 1856 starb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Schumann</strong> ist der <strong>sexuellen Sieben mit Achterflügel</strong>
-        zugeordnet. Die SX7 sucht die volle, ungebremste Hingabe an das, was sie begeistert –
-        an eine Komposition, eine Idee, einen Menschen. Der Achterflügel gibt dieser Hingabe
-        Kampfkraft und Durchsetzungswillen: Wo eine reine Sieben ausweicht, bleibt die SX7w8 und
-        kämpft. Genau diese Intensität, die sein Leben lang schöpferisch trug, wandte sich in
-        seinen letzten Jahren gegen ihn selbst.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Ein ständiger Ton im Ohr:</strong>
-        Schumann berichtete bereits in jungen Jahren von einem beständigen, hohen Ton, den er
-        innerlich hörte – eine Art chronischer Tinnitus, der ihn zeitlebens begleitete und den
-        er selbst als frühes Anzeichen seiner nervlichen Anfälligkeit deutete.</p>
-        <p class="vb-intro"><strong>b) Die erste schwere Krise 1833:</strong>
-        Nach dem Tod seines Bruders Julius und seiner Schwägerin erlitt der 23-jährige Schumann
-        einen schweren Nervenzusammenbruch mit Todesangst und der wiederkehrenden Furcht, den
-        Verstand zu verlieren – Jahrzehnte bevor die Krankheit ihn endgültig einholte.</p>
-        <p class="vb-intro"><strong>c) Die Hand, die nicht mehr gehorchte:</strong>
-        Um 1832 verlor Schumann durch eine bis heute nicht zweifelsfrei geklärte Verletzung der
-        rechten Hand die Fähigkeit, als Konzertpianist aufzutreten. Ob eine mechanische
-        Übungsapparatur, eine Nervenschädigung oder eine Nebenwirkung damaliger
-        Quecksilberbehandlungen die Ursache war, bleibt bis heute Gegenstand medizinhistorischer
-        Debatten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Extreme Wechsel zwischen Hochform und Erschöpfung:</strong>
-        Schumanns produktivste Phasen – etwa das "Liederjahr" 1840 mit über 140 Kompositionen –
-        wechselten sich mit Phasen tiefer Erschöpfung und Schwermut ab, ein Muster, das
-        Musikhistoriker retrospektiv häufig als Hinweis auf eine bipolare Störung deuten.</p>
-        <p class="vb-intro"><strong>b) Die Doppelfigur als frühe Selbstdiagnose:</strong>
-        Schon in seinen Zwanzigern spaltete Schumann seine Persönlichkeit literarisch in den
-        stürmischen Florestan und den träumerischen Eusebius auf – eine Selbstbeobachtung, die
-        rückblickend wie eine intuitive Beschreibung der eigenen Stimmungsextreme wirkt, lange
-        bevor die Psychiatrie über entsprechende Diagnosekategorien verfügte.</p>
-        <p class="vb-intro"><strong>c) Eine bis heute umstrittene Ursachenfrage:</strong>
-        Neben der bipolaren Störung diskutiert die medizinhistorische Forschung auch eine
-        mögliche Spätfolge einer Syphilis-Infektion als Mitursache seines geistigen Verfalls –
-        eine These, die durch Schumanns eigene Tagebucheinträge über frühere Behandlungen
-        gestützt, aber nie abschließend bewiesen wurde.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Stimmen, die Musik diktierten:</strong>
-        Im Februar 1854 berichtete Schumann, eine engelsgleiche Stimme habe ihm ein musikalisches
-        Thema vorgesungen, das er sofort niederschrieb – wenige Tage später verwandelte sich
-        dieselbe Stimme in seiner Wahrnehmung in eine dämonische, quälende Erscheinung.</p>
-        <p class="vb-intro"><strong>b) Der Sprung in den Rhein:</strong>
-        Am 27. Februar 1854 verließ Schumann in einem Anfall völliger Verzweiflung sein Haus in
-        Düsseldorf, im Nachthemd, und sprang von der Rheinbrücke in den eisigen Fluss. Fischer
-        zogen ihn heraus, kaum am Leben.</p>
-        <p class="vb-intro"><strong>c) Die eigene Bitte um Einweisung:</strong>
-        Kurz nach dem Selbstmordversuch bat Schumann selbst darum, in eine Heilanstalt gebracht
-        zu werden – ein Akt, der noch einen letzten Rest bewusster Selbstkontrolle über eine
-        Situation zeigt, die für ihn längst außer Kontrolle geraten war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Zwei Jahre in der Anstalt bei Bonn:</strong>
-        Schumann verbrachte die letzten gut zwei Jahre seines Lebens in der privaten
-        Heilanstalt des Dr. Franz Richarz in Endenich bei Bonn – weitgehend isoliert von seiner
-        Frau Clara, der die Ärzte lange Zeit jeden Besuch untersagten, aus Sorge, ein
-        Wiedersehen könnte seinen Zustand weiter verschlechtern.</p>
-        <p class="vb-intro"><strong>b) Der junge Brahms als einzige Konstante:</strong>
-        Während Clara ferngehalten wurde, besuchte der 20-jährige Johannes Brahms (SE9w8), den Schumann
-        wenige Monate zuvor als kommenden Meister gefeiert hatte, ihn regelmäßig in Endenich und
-        wurde in dieser Zeit zur engsten Stütze der gesamten Familie.</p>
-        <p class="vb-intro"><strong>c) Ein Wiedersehen erst kurz vor dem Tod:</strong>
-        Erst als sein Zustand unumkehrbar erschien, erlaubten die Ärzte Clara im Juli 1856
-        endlich den Zugang zu ihrem Mann – zwei Tage vor seinem Tod, nach mehr als zwei Jahren
-        erzwungener Trennung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Die Intensität, die sich gegen sich selbst wandte:</strong>
-        Dieselbe schrankenlose Hingabefähigkeit, die Schumanns kreative Schübe trug – ganze
-        Jahre, die ausschließlich einem einzigen Genre gewidmet waren –, richtete sich in der
-        Krise mit derselben Wucht gegen ihn selbst: keine gebremste Traurigkeit, sondern ein
-        Sog ohne erkennbaren Boden.</p>
-        <p class="vb-intro"><strong>b) Kampf bis zur Erschöpfung:</strong>
-        Der Achterflügel, der Schumann Jahre zuvor half, gegen den erklärten Willen seines
-        Lehrers Friedrich Wieck um die Heirat mit Clara zu kämpfen, zeigte sich auch in der
-        Krankheit als Widerstandskraft, die sich nicht kampflos ergab – bis zum offenen
-        Selbstmordversuch reichte diese Gegenwehr, dann kippte sie in die Erschöpfung.</p>
-        <p class="vb-intro"><strong>c) Musik bis zuletzt als Ausdrucksform:</strong>
-        Auch in Endenich componierte und notierte Schumann zeitweise noch, wenn auch in
-        deutlich reduziertem Umfang – die Fähigkeit, innere Zustände unmittelbar in Musik zu
-        übersetzen, verließ ihn selbst in der schwersten Phase nicht vollständig.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Krankheit ohne gesicherte Diagnose:</strong>
-        Bis heute ist unklar, ob Schumann an einer bipolaren Störung, einer schizoaffektiven
-        Erkrankung oder den neurologischen Spätfolgen einer Syphilis-Infektion litt – die
-        Symptome, die in den Krankenakten von Endenich dokumentiert sind, lassen mehrere
-        Deutungen zu, keine gilt als abschließend bewiesen.</p>
-        <p class="vb-intro"><strong>b) Die Stresslinie zur Eins:</strong>
-        Unter dem chronischen Druck seiner Krankheit rückte Schumann zunehmend entlang seiner
-        Stresslinie in Richtung des Einser-Punkts der Sieben: Statt der spielerischen Leichtigkeit
-        früherer Jahre zeigte er in den letzten Lebensjahren eine fast zwanghafte
-        Selbstverurteilung, die eigene Unzulänglichkeit als moralisches Versagen zu deuten –
-        typische Einser-Muster, ohne dass sich sein Kerntyp dadurch änderte.</p>
-        <p class="vb-intro"><strong>c) Ein Sog, dem der Achterflügel nicht mehr standhielt:</strong>
-        Die Intensität, die Schumann Zeit seines Lebens trug – im Komponieren, im Kampf um
-        Clara, in der Begeisterung für Brahms –, kannte keine eingebaute Bremse. Wenn sich diese
-        Intensität nach innen richtete, fehlte offenbar der Mechanismus, der sie hätte
-        auffangen können.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu psychischer
-        Erkrankung führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Was sich an Schumanns Fall zeigen lässt, ist ein Muster, das bei
-        ungebremster, grenzenloser Hingabefähigkeit in der Praxis immer wieder auffällt – eine
-        von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Schumann kannte sein eigenes Muster nicht – die sexuelle Sieben mit Achterflügel sucht Intensität ohne Grenzen, bis keine Reserve mehr bleibt, und genau das trieb ihn in einen Zustand völliger Verzweiflung, aus dem er selbst um Einweisung in eine Heilanstalt bat. Wer das eigene Bedürfnis nach grenzenloser Intensität nicht als Muster erkennt, merkt erst am Punkt des völligen Zusammenbruchs, dass eine Grenze nötig gewesen wäre.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        An <strong>Schumanns</strong> letzten Jahren lässt sich die sexuelle Sieben mit
-        Achterflügel in ihrer verletzlichsten Form ablesen: eine Hingabefähigkeit ohne Bremse,
-        die sein Leben lang schöpferisch trug und sich am Ende gegen ihn selbst wandte, ein
-        letzter, verzweifelter Kampf im eisigen Rhein, und zwei Jahre erzwungener Trennung von
-        der Frau, für die er einst gegen die ganze Welt gekämpft hatte. Der Schimpanse, der bis
-        zuletzt um Verbindung rang – und sie erst zwei Tage vor seinem Tod noch einmal fand.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – Lebenswerk"},
-        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – von Schumann entdeckt, besuchte ihn regelmäßig in Endenich"},
-        {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8)"},
-        {route:"krankheitsportraets-franz-liszt", label:"Krankheitsporträt: Franz Liszt (SX7w8) – dieselbe Unfähigkeit, kürzerzutreten"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
     </div>
   `);

@@ -967,6 +967,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn – Self-Preservation Type 3",
     teaser:"SP3w2 · 1732–1809. Austrian composer. Three decades in service of the Esterházys, \"Papa Haydn\", 104 symphonies, mentor to Mozart and Beethoven. The raccoon with the Two-wing: quiet achievement, care, and late recognition through the London trips. Animal correspondence: Raccoon.",
     land:"Austria", tags:["Music","History"], gender:"m"},
+{ route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Michael Dell – Self-Preservation Type 3",
+    teaser:"SP3w2 · b. 1965. American entrepreneur, founded Dell Computer in 1984 from a dorm room with $1,000 in startup capital. Known for operational discipline and direct customer contact rather than self-promotion, pledged over $10 billion to charitable causes together with his wife Susan. Animal correspondence: Raccoon.",
+    land:"USA", tags:["Business"], gender:"m"},
 { route:"beruehmte-edita-gruberova", name:"Edita Gruberová", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Edita Gruberová – Self-Preservation Type 3",
     teaser:"SP3w2 · 1946–2021. Slovak coloratura soprano, the \"Queen of Coloratura,\" over 45 years at the Vienna State Opera. Fled Czechoslovakia for Vienna in 1971, still sang the most demanding roles at 72 – an exceptional career length for her voice type. Animal correspondence: Raccoon.",
@@ -44448,6 +44452,72 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function michaelDellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-michael-dell-portrait.jpg" alt="Michael Dell" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Dell</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Entrepreneur, b. 1965 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that works with tireless diligence out of sight and builds a functioning system out of limited means. Michael Dell was born in 1965 in Houston, Texas, and in 1984, as a nineteen-year-old pre-med student, began assembling and selling computers out of his dorm room at the University of Texas with roughly $1,000 in startup capital.</p>
+          <p class="vb-intro">By the second half of his freshman year, he had already sold $80,000 worth of computers – a figure he used to convince his parents to let him give up medical school for his own business. Not a spontaneous stroke of genius, but early proof that a working business model actually held up, before he committed to it fully.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Operational Discipline Over Self-Promotion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three – the subtype that seeks security not through public image but through demonstrable, verifiable competence. Naranjo called this subtype <em>Security</em>: one is not admired for selling oneself well, but for actually delivering what one promises. Dell's company generated six million dollars in revenue in its first full year of business and made him, at twenty-seven in 1992, the youngest CEO of a Fortune 500 company up to that point.</p>
+          <p class="vb-intro">His company was among the first to consistently implement just-in-time inventory management – components were ordered only once an actual customer order existed, which cut costs and increased efficiency. This method was no marketing slogan but lived operational discipline: the SP3, which draws its security from a system that actually works, not from how it is presented publicly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Customer Closeness and Shared Philanthropy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse toward connection – in Dell this shows in the direct sales model that from the start relied on immediate customer contact rather than anonymous retail, and in a corporate culture consistently oriented toward customer satisfaction rather than pure brand management.</p>
+          <p class="vb-intro">Together with his wife Susan, he founded the Michael & Susan Dell Foundation in 1999, initially focused on children in poverty in Texas, then across the entire United States, in South Africa, and in India. The two have since pledged over $10 billion to nonprofits and social enterprises – in 2024 alone around $308 million, roughly twice as much as the year before. The Two-wing translates business success into concrete, measurable support for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Taking the Company Private, 2013</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2013, Dell carried out one of the largest leveraged buyouts in technology history to take his own company off the stock market – a decision that ran against the short-term expectations of Wall Street and instead enabled long-term, structural transformation. Not a spectacular public gesture, but a sober, operational decision to restore the substance the company risked losing under permanent quarterly pressure.</p>
+          <p class="vb-intro">This episode shows the typical SP3 logic: security does not come from pleasing external expectations, but from consistent control over one's own operational foundations – if necessary, even against the tide of public opinion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 lies in the ability to <strong>combine operational substance with genuine care for others</strong> – Dell not only built one of the largest technology companies in the world, but consistently translated the wealth it generated into measurable charitable impact, together with his wife as an equal partner.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity</strong> – subtler in the SP3 than in the louder Three subtypes, but present nonetheless: the need to keep confirming one's own worth through ever-new, verifiable successes. Dell's path from a dorm room to a globally operating technology corporation shows a discipline that produced impressive results but rarely paused to simply enjoy the success already achieved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon That Built a World Company from a Dorm Room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Dell is among the most influential entrepreneurs in the technology industry – not because of a spectacular invention, but because of a consistently executed, operationally sound business model that combined direct customer contact with lean, efficient production.</p>
+          <p class="vb-intro">From a nineteen-year-old student with $1,000 in startup capital to the head of a multi-billion-dollar technology corporation and one of the largest private foundations in the world: this is the Self-Preservation Three with a Two-wing in its most mature form – substance that does not exhaust itself in self-presentation, but continues into real, verifiable impact for others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function editaGruberovaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46705,7 +46775,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
@@ -46715,7 +46785,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Building a working system out of little or from nothing",
         beschreibung: "Instead of waiting for existing resources or head starts, a viable, sometimes decades-functioning system emerges from limited means, often out of sheer resourcefulness.",
-        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'; Dr. Annika von Mutius, who spent years building the technical substance of an AI matching system instead of relying on loud marketing, before Empion began working with corporations like Procter & Gamble – attention that followed the substance, not the other way around; Johnny Cash, who came from the cotton fields of the Dyess resettlement colony and built one of the most stable careers in country music over five decades – a structure that survived even the worst setbacks despite decades of addiction and several career collapses."
+        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'; Dr. Annika von Mutius, who spent years building the technical substance of an AI matching system instead of relying on loud marketing, before Empion began working with corporations like Procter & Gamble – attention that followed the substance, not the other way around; Johnny Cash, who came from the cotton fields of the Dyess resettlement colony and built one of the most stable careers in country music over five decades – a structure that survived even the worst setbacks despite decades of addiction and several career collapses; Michael Dell, who at nineteen built a company out of a dorm room with roughly $1,000 in startup capital, generating six million dollars in revenue in its first full year of business – no lucky break, but consistent operational discipline from the very start."
       },
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
@@ -101979,6 +102049,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
       "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,

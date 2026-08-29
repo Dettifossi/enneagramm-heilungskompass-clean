@@ -1,3 +1,84 @@
+function pontiusPilatusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-pontius-pilatus-portrait.jpg" alt="Pontius Pilatus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pontius Pilatus</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Image-Stratege im Verhör – Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Was ist Wahrheit?« (Joh 18,38)</p>
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, präzise, ganz auf Wirkung und Position im sozialen Gefüge ausgerichtet. Pilatus trat stets aufrecht auf. Seine Haltung war keine Frage des Rückens, sie war Botschaft. Er war römischer Präfekt, Vertreter der Ordnung, Symbol imperialer Präsenz in einem widerspenstigen Land – und er wusste: Wer diesen Posten nicht mit Imagebewusstsein versieht, wird zerrieben.</p>
+          <p class="vb-intro">Für ihn war Führung nicht nur eine Aufgabe, sondern ein Auftritt – ein täglicher, ein kalkulierter, ein notwendiger. Er sprach Griechisch, Latein und etwas Aramäisch, nicht aus Liebe zur Sprache, sondern weil Verständlichkeit Wirkung schuf. Sein ganzes Wesen war gebaut auf: Was strahle ich aus? Wie werde ich wahrgenommen? Nicht aus Narzissmus – aus Notwendigkeit. Denn in seinem Innersten war eine Angst: Wenn ich die Fassade verliere, verliere ich mich selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Ein Spiegel, der nichts zurückwirft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> lebt vom Spielraum zwischen Masken – sie liest Reaktionen, spiegelt Erwartungen, navigiert durch soziale Codes. Pilatus hatte mit vielen gesprochen: Aufständischen, Hohepriestern, Kaufleuten, Philosophen. Er kannte die Töne der Unterwerfung, die Maske der Demut, das kalkulierte Schweigen. Doch dieser Jesus war anders – nicht durch Lautstärke, sondern durch das, was fehlte: kein Selbstschutz, keine Einschmeichelei, keine Furcht, keine Taktik.</p>
+          <p class="vb-intro">Jesus spiegelte nichts zurück. Er war da – aber nicht zu fassen. »Bist du der König der Juden?«, fragte Pilatus. Jesus antwortete: »Sagst du das von dir aus, oder haben dir andere davon erzählt?« Und mit diesem Satz fiel die Fassade nicht, aber sie wackelte. Denn Pilatus war gewohnt, zu fragen, aber nicht, selbst befragt zu werden. Dann kam der berühmte Satz: »Was ist Wahrheit?« – nicht ironisch, nicht suchend, sondern wie ein Mann, der weiß, dass er Wahrheit nur verwalten darf, aber sie nicht besitzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Leere hinter dem Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Empfindsamkeit für die eigene innere Leere, die unter der glänzenden Fassade wach bleibt und sich in stillen Momenten unweigerlich meldet. Jesus antwortete nicht auf die Frage nach der Wahrheit. Und gerade das war die Antwort – ein Spiegel, der nichts zurückwarf und so den Fragenden zwang, in sich selbst zu schauen. Und dort fand Pilatus kein Bild. Nur Leere.</p>
+          <p class="vb-intro">Kein lauter Zusammenbruch, kein sichtbares Wanken – nur ein Ausweichen des Blicks, nicht sichtbar, aber innerlich. Genau diese leise, unbestechliche Konfrontation mit der eigenen Leere hinter der perfekt kalkulierten Fassade, ohne dass sie nach außen sichtbar würde, trägt die Handschrift des Viererflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das politische Kalkül: Delegation des Gewissens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pilatus trat hinaus auf den Steinboden, die Menge wartete, laut, unruhig, aufgeladen. Es war nicht Angst vor Gewalt – er hatte Gewalt gesehen, befehligt, verwaltet. Es war die Angst, sein Bild in Rom zu beschädigen. Er hatte mit Jesus gesprochen, genug, um zu spüren: Dieser Mann ist keine Gefahr für Rom, aber sehr wohl ein Problem für Jerusalem. Er sprach den Satz, der wie ein Rückzug klang: »Ich finde keine Schuld an ihm.«</p>
+          <p class="vb-intro">Und dann der Mechanismus der sozialen Drei: Delegation des Gewissens. »Ihr habt einen Brauch: Ich gebe euch zum Fest einen Gefangenen frei.« Barabbas oder Jesus. Er ließ sie entscheiden – nicht weil er unschuldig war, sondern weil er unsichtbar bleiben wollte in der Schuldfrage. Als sie schrien: Barabbas!, war es wie eine Erleichterung – und wie ein Stich. Denn in ihm regte sich die Erkenntnis, dass seine Entscheidung nicht auf Wahrheit ruhte, sondern auf Wirkung. Und Wirkung war brüchig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Geste der Hände: Inszenierung statt Reinigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er ließ Wasser bringen, eine Schale, kühl, klar, wie zum Zeichen. Pilatus tauchte die Hände ins Wasser – die Geste war machtvoll, öffentlich, deutlich: »Ich bin unschuldig am Blut dieses Menschen.« Die Masse schrie weiter, doch in ihm war für einen Moment Stille. Und in dieser Stille spürte er: Das Wasser war kühl, aber es reinigte nicht. Denn die soziale Drei kennt sich selbst zu gut, um sich wirklich zu täuschen.</p>
+          <p class="vb-intro">Er wusste: Diese Geste war kein Gewissensakt, sie war eine Inszenierung, ein Schutzschild vor dem Urteil der Nachwelt – und vielleicht auch vor sich selbst. Jesus schwieg, ließ es geschehen, ohne Blick der Anklage, ohne Appell, ohne Trotz. Und gerade das war für Pilatus das Unerträglichste: kein Widerstand, kein Kampf – nur Präsenz, nur Stille, nur diese Gegenwart, die nicht urteilt und gerade deshalb alles spiegelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das bleibende Echo: Ehrlichkeit ohne Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Akten waren geschlossen, der Name Jesus fiel nicht mehr auf dem Forum. Aber in Pilatus' Geist ging ein anderer Name nicht mehr fort. Nicht als Schuld, nicht als Held – sondern als Spiegel. Denn er war der Einzige gewesen, der ihm gegenüberstand, ohne etwas von ihm zu wollen. Und das hatte ihn entwaffnet, nicht durch Angriff, sondern durch Wahrheit ohne Strategie. Das Bild, das er von sich gezeichnet hatte, war nicht zerstört – aber rissig.</p>
+          <p class="vb-intro">Er hatte sich gegen die Wahrheit entschieden und sich stattdessen die Hände gewaschen, in Unschuld. Doch die Erinnerung blieb, nicht als Fluch, sondern als leises, bleibendes Echo: Was ist Wahrheit? Er wusste: Diese Frage war nie an Jesus gerichtet gewesen, sondern an sich selbst. Das ist das eigentliche Geschenk, das dieser Begegnung innewohnt, auch wenn Pilatus es nicht ergriff: eine soziale Drei, die für einen Moment merkte, dass echte Wirksamkeit nicht aus dem Bild entsteht, das man verwaltet, sondern aus dem, was man ist, wenn niemand mehr zusieht – ein Gepard, der begreift, dass er nicht jeder Erwartung hinterherjagen muss, um seinen Wert zu haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Die Hände rein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Pontius Pilatus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/0I-4rThOvQ0?rel=0" title="Die Hände rein – Pilatus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+        {route:"bibel-salome", label:"Bibel-Porträt: Salome (SE3w4)"},
+        {route:"bibel-judas-iskariot", label:"Bibel-Porträt: Judas Iskariot (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function judasIskariotPage() {
   return shell(`
     <div class="page-container">
@@ -11067,227 +11148,6 @@ function nickLeesonPortraitPage() {
           {route:"subtypen-schaubilder", label:"Schaubild: Die 27 Subtypen im \xdcberblick"},
         ])}
       </div>
-    </div>
-  `);
-}
-
-function wolfgangBeltracchiPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Wolfgang Beltracchi \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/wolfgang-beltracchi-portrait.jpg" alt="Wolfgang Beltracchi \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Wolfgang Beltracchi</p>
-        <p class="krim-portrait-typ">SX9w1 \u00b7 Sexueller Typ 9 mit Einserfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Kunstf\u00e4lscher, Jahrhundertbetrug \u00b7 Tierentsprechung: Faultier</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Wolfgang Beltracchi</strong> gilt als einer der bekanntesten Kunstf\xe4lscher der Welt.
-        Nach eigenen Angaben f\xe4lschte er rund 300 Kunstwerke ber\xfchmter Maler, die heute
-        noch in Museen weltweit als vermeintliche Originale ausgestellt sind. Im Herbst 2011
-        wurde er wegen gewerbsm\xe4\xdfigen Bandenbetrugs in 14 nachgewiesenen F\xe4llen zu sechs
-        Jahren Haft verurteilt; der Betrugsgewinn wurde auf 20 bis 50 Millionen Euro gesch\xe4tzt.
-        Was Beltracchi von anderen Betr\xfcgern unterscheidet: Er handelte nicht aus Hass,
-        Machtgier oder Destruktivit\xe4t \u2013 sondern aus einer tiefen, fast liebevollen
-        Verschmelzung mit der Kunstwelt. Das Enneagramm macht diesen Unterschied lesbar.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Wolfgang Beltracchi</strong> wird der <strong>Sexuellen Neun mit Einserfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Neun ist <em>Tr\xe4gheit</em> (Sloth) \u2013
-        nicht k\xf6rperliche Tr\xe4gheit, sondern eine innere Tr\xe4gheit gegen\xfcber der eigenen
-        Pr\xe4senz und Identit\xe4t: die Neigung, sich selbst zu vergessen und in etwas
-        Gr\xf6\xdferes aufzugehen. Die sexuelle Neun (SX9) sucht diesen Zustand durch
-        vollst\xe4ndige Verschmelzung \u2013 mit Menschen, Ideen oder k\xfcnstlerischen Welten.
-        Der Einserfl\xfcgel erg\xe4nzt dies mit Perfektionismus und einem tiefen Gef\xfchl daf\xfcr,
-        was \u201erichtig" und \u201eecht" ist. In Beltracchis Fall f\xfchrt diese Kombination zu
-        einem der \xe4sthetisch und psychologisch faszinantesten F\xe4lle der Kriminalgeschichte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Sehnsucht nach Verschmelzung:</strong>
-        Die sexuelle Neun hat ein tiefes Bed\xfcrfnis nach intensiver Verschmelzung mit
-        Menschen oder Konzepten. Beltracchi baute eine intime Beziehung zu den Kunstwerken
-        auf, als ob er selbst die Originale geschaffen h\xe4tte. Er malte nicht nur F\xe4lschungen \u2013
-        er schuf in seinem Empfinden das, was die Meister h\xe4tten malen sollen.</p>
-        <p class="vb-intro"><strong>b) Vermeidung von Konflikten:</strong>
-        Sexuelle Neunen neigen dazu, Konflikten aus dem Weg zu gehen und sich auf sanfte
-        Weise in die Umgebung einzuf\xfcgen. Beltracchi lebte lange in einer fast traumhaften
-        Welt ohne Konfrontation mit der Realit\xe4t \u2013 erkennbar auch am ruhigen, etwas
-        schl\xe4frigen Ausdruck, den Neuner oft in ihrem Blick tragen.</p>
-        <p class="vb-intro"><strong>c) Blick in die Vergangenheit:</strong>
-        Diese Neunen tendieren zu nostalgischen Verbindungen mit fr\xfcheren Zeiten.
-        Beltracchi griff auf vergangene Kunststile zur\xfcck und f\xfchlte sich in der Rolle
-        der alten Meister offensichtlich vollkommen zu Hause.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Sehnsucht nach innerem Frieden:</strong>
-        SX9er streben nach tiefem innerem Frieden und Harmonie. Beltracchis Leben als
-        F\xe4lscher kann als Versuch gesehen werden, sich in eine ideale, friedliche Welt
-        der Kunst zu integrieren \u2013 auf versteckte, stille, unauff\xe4llige Weise als
-        K\xfcnstler respektiert und bewundert zu werden.</p>
-        <p class="vb-intro"><strong>b) Anpassungsf\xe4higkeit:</strong>
-        Sexuelle Neuner sind sehr anpassungsf\xe4hig. Beltracchi zeigte diese F\xe4higkeit,
-        indem er sich sowohl in der Kunstwelt als auch in der Rolle des Betr\xfcgers
-        nahtlos bewegen konnte.</p>
-        <p class="vb-intro"><strong>c) Tendenz zur Selbstvergessenheit:</strong>
-        Neuner neigen dazu, ihre eigene Identit\xe4t zu verlieren und sich in etwas
-        Gr\xf6\xdferes aufzul\xf6sen. Dies erkl\xe4rt, warum Beltracchi sich in den Identit\xe4ten der
-        K\xfcnstler aufgehen lie\xdf und damit seine eigene Person in den Hintergrund stellte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Tiefe Suche nach Einheit:</strong>
-        <strong>Beltracchi</strong> schien st\xe4ndig nach einem Zustand der Einheit mit der Kunst zu streben.
-        Er wollte nicht nur Werke nachahmen \u2013 er vertiefte sich teilweise wochenlang in
-        s\xe4mtliche Literatur und Informationen \xfcber die jeweiligen Meister, deren Pers\xf6nlichkeit,
-        Psyche, Motive und Absichten, um vollst\xe4ndig mit ihnen zu verschmelzen und ihre
-        Werke perfekt nachahmen zu k\xf6nnen.</p>
-        <p class="vb-intro"><strong>b) Verdr\xe4ngung unangenehmer Wahrheiten:</strong>
-        Sexuelle Neuner haben die Tendenz, unangenehme Realit\xe4ten zu verdr\xe4ngen.
-        Beltracchi lebte jahrelang in der Illusion, dass seine F\xe4lschungen nicht entdeckt
-        werden w\xfcrden, und mied so die Realit\xe4t der Konsequenzen.</p>
-        <p class="vb-intro"><strong>c) Instinktive Intuition:</strong>
-        Diese Neuner handeln oft sehr instinktiv und intuitiv. Beltracchis F\xe4lschungen
-        entstanden aus einem tiefen intuitiven Verst\xe4ndnis f\xfcr Kunst und \xc4sthetik,
-        ohne dass er dabei ausschlie\xdflich rational vorging.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Charismatische Pers\xf6nlichkeit:</strong>
-        SX9er k\xf6nnen eine fast magnetische Anziehungskraft aus\xfcben. Beltracchi war trotz
-        seiner T\xe4uschungen eine charmante und faszinierende Pers\xf6nlichkeit, die in der
-        Kunstwelt und den Medien viel Aufmerksamkeit erregte.</p>
-        <p class="vb-intro"><strong>b) F\xe4higkeit, andere zu bezaubern:</strong>
-        Wie viele Neuner hatte Beltracchi die F\xe4higkeit, andere Menschen zu bezaubern.
-        Er \xfcberzeugte nicht nur Kunstexperten, sondern auch K\xe4ufer seiner F\xe4lschungen,
-        indem er eine authentische, \xfcberzeugende Fassade aufrechterhielt.</p>
-        <p class="vb-intro"><strong>c) Widerspr\xfcchliche Harmonie:</strong>
-        Die sexuelle Neun wirkt oft harmonisch und friedfertig, obwohl sie innerlich eine
-        intensive, manchmal widerspr\xfcchliche Energie tr\xe4gt. Beltracchi wirkte nach au\xdfen
-        hin entspannt und gelassen, obwohl er ein Doppelleben f\xfchrte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Sanfte, aber durchdringende Pr\xe4senz:</strong>
-        Sexuelle Neuner haben eine ruhige, aber dennoch intensive Ausstrahlung.
-        Beltracchi zeigte diese Pr\xe4senz in seiner F\xe4higkeit, Menschen zu t\xe4uschen,
-        ohne dabei aufdringlich oder aggressiv zu wirken.</p>
-        <p class="vb-intro"><strong>b) Verbindende Energie:</strong>
-        Diese Neuner suchen immer nach Verbindung und verschmelzen mit ihrer Umwelt.
-        Beltracchi verband sich auf energetischer Ebene mit der Kunstwelt, indem er
-        sich in die Werke einf\xfchlte und so die Illusion einer echten
-        K\xfcnstlerpers\xf6nlichkeit schuf.</p>
-        <p class="vb-intro"><strong>c) Unbewusste Dominanz:</strong>
-        Obwohl sie nicht aktiv dominieren wollen, \xfcben sexuelle Neuner oft eine subtile
-        Form der Kontrolle aus. Beltracchi beherrschte die Kunst, seine Umwelt durch
-        Manipulation zu kontrollieren, ohne dass dies sofort auffiel.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Faultier</h3>
-        <p class="vb-intro"><strong>a) Innere Tr\xe4gheit:</strong>
-        Wie das Faultier neigt die sexuelle Neun zur inneren Tr\xe4gheit und vermeidet
-        direkte Konfrontationen. Beltracchi mied es, sich den Folgen seiner Handlungen
-        zu stellen, bis er keine andere Wahl mehr hatte.</p>
-        <p class="vb-intro"><strong>b) Vermeidung von Unruhe:</strong>
-        Faultiere bewegen sich langsam und bed\xe4chtig, um Aufruhr zu vermeiden. Auch
-        Beltracchi schien durch seine ruhige und besonnene Art Konflikte zu umgehen
-        und so lange wie m\xf6glich unentdeckt zu bleiben.</p>
-        <p class="vb-intro"><strong>c) Leben in ruhigem Tempo:</strong>
-        Trotz seiner kriminellen Aktivit\xe4ten f\xfchrte Beltracchi ein relativ ruhiges und
-        unauff\xe4lliges Leben, \xe4hnlich wie ein Faultier, das im Hintergrund bleibt und
-        sich nur langsam bewegt, um seine Umgebung nicht zu st\xf6ren.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Wolfgang Beltracchi</strong> passt mit seiner Pers\xf6nlichkeit in perfekter Hinsicht zur
-        sexuellen Neun. Seine charismatische, aber zur\xfckhaltende Pers\xf6nlichkeit, sein
-        Bed\xfcrfnis nach Harmonie und Verbindung sowie seine Vermeidung von Konflikten
-        spiegeln die Kernmerkmale dieses Typus wider. Seine F\xe4higkeit, sich in die Welt
-        der Kunst einzuf\xfchlen und in die Rolle der gro\xdfen K\xfcnstler zu schl\xfcpfen, zeigt
-        das Streben nach Verschmelzung, das f\xfcr die sexuelle Neun typisch ist. In diesem
-        Sinne verk\xf6rperte Beltracchi das paradoxe Wesen der sexuellen Neun: ruhig und
-        charmant nach au\xdfen, aber im Hintergrund tiefe Energien und innere Spannungen.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SX9 \u2013 \u201eUnion / Verschmelzung":</strong>
-        Claudio Naranjo nannte die sexuelle Neun \u201eUnion": Sie sucht vollst\xe4ndige Einheit
-        mit dem Geliebten \u2013 ob Mensch, Idee oder k\xfcnstlerische Welt. Beltracchis
-        wochenlange Versenkung in die Psyche der Meister vor jedem Werk ist diese Fusion
-        w\u00f6rtlich genommen. Er kopierte nicht \u2013 er <em>wurde</em> der jeweilige Meister,
-        zumindest f\xfcr die Dauer des Sch\xf6pfungsprozesses. Das macht seine Werke in
-        gewissem Sinne authentischer als viele Kopien: Sie entstanden aus echter
-        Verschmelzung, nicht aus mechanischer Nachahmung.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel \u2013 Perfektion als inneres Gesetz:</strong>
-        Der Einserfl\xfcgel verleiht der Neun einen tiefen Perfektionismus. Beltracchis
-        Verwendung historisch korrekter Pigmente, gealterter Leinw\xe4nde und
-        periodengerechter Materialien ist der Einserfl\xfcgel in Aktion: Er konnte kein
-        schlechtes Fake malen \u2013 seine inneren Standards lie\xdfen das nicht zu.
-        Bemerkenswerterweise zeigte er kaum Schuld gegen\xfcber betrogenen Sammlern,
-        w\xe4re aber tief befremdet gewesen, h\xe4tte jemand einen technischen Fehler
-        in seinen Werken gefunden. Sein Gewissen galt dem Werk, nicht dem Betrug.</p>
-        <p class="vb-intro"><strong>c) Der schlafende Riese:</strong>
-        Die Neun besitzt h\xe4ufig enorme latente Begabung, richtet sie aber auf andere,
-        nicht auf sich selbst. Beltracchi war m\xf6glicherweise talentierter als manche
-        der Meister, die er f\xe4lschte \u2013 aber das Neuner-Muster verhinderte, dass er seiner
-        eigenen k\xfcnstlerischen Stimme traute. Sich unter eigenem Namen zu
-        positionieren \u2013 das h\xe4tte Pr\xe4senz, Ich-Behauptung, Sichtbarkeit erfordert.
-        F\xfcr die Neun ist das der schwerere Weg.</p>
-        <p class="vb-intro"><strong>d) Das Leben als Kunstwerk \u2013 SX9 erschafft eine Gesamtwelt:</strong>
-        <strong>Beltracchi</strong> und seine Frau Helene lebten wie Boh\xe8me-Adel: Ch\u00e2teau in Frankreich,
-        ein Netzwerk aus Prominenz und Kunstkennern, ein Leben voller \xc4sthetik und
-        Eleganz. Die sexuelle Neun erschafft eine \u00e4sthetische Gesamtwelt und lebt
-        vollst\xe4ndig darin. Die F\xe4lschungen finanzierten nicht nur Geld \u2013 sie
-        finanzierten die <em>Existenz</em> als gro\xdfer K\xfcnstler. Das war der eigentliche
-        Gewinn.</p>
-        <p class="vb-intro"><strong>e) Kein Gewissen f\xfcr Betrug, aber Gewissen f\xfcr Qualit\xe4t:</strong>
-        Der Einserfl\xfcgel schafft Gewissen f\xfcr das Werk selbst, nicht zwingend f\xfcr
-        die moralische Dimension. Beltracchi rationalisierte seine F\xe4lschungen als
-        \u201eErg\xe4nzung" der Meisterwerke \u2013 er schuf das, was die gro\xdfen K\xfcnstler
-        \u201eh\xe4tten malen k\xf6nnen". In dieser Logik war er kein Betr\xfcger, sondern
-        ein Erg\xe4nzer der Kunstgeschichte. Das ist die Selbstt\xe4uschung der SX9w1:
-        Verschmelzung als Legitimation, Perfektion als moralischer Freispruch.</p>
-        <p class="vb-intro"><strong>f) Das paradoxe Selbst der Neun:</strong>
-        Beltracchis eigene Aussage ist die reinste SX9-Selbstbeschreibung: Er konnte
-        unzugeordnete Werke aus der richtigen Epoche \u201ef\xfchlen" und dann weitere davon
-        malen \u2013 als ob er das Original in sich tr\xfcge. Das Ich l\xf6st sich in den anderen
-        auf. F\xfcr die sexuelle Neun ist das kein Verlust \u2013 es ist die h\xf6chste Form
-        von Verbindung, die sie kennt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Neun im Vergleich: Verschmelzung, Selbstvergessenheit und die Suche nach Union.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SX9, SO9, SE9 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 9 ausf\xfchrlich portr\xe4tiert \u2013 Tr\xe4gheit, Selbstvergessenheit und der Heilungsweg \xfcber echte Pr\xe4senz.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Wolfgang Beltracchi wurde 2011 wegen Kunstf\u00e4lschung und Betrugs zu sechs Jahren Haft verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-ed-gein", label:"Kriminalpsychologie: Ed Gein (SX9w1) – dieselbe Verschmelzungsdynamik, extrem entgleist"},
-        {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\xf6gel"},
-        {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
-      ])}
     </div>
   `);
 }

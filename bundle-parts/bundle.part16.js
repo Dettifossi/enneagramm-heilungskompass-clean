@@ -4878,6 +4878,7 @@ function render() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
       "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
