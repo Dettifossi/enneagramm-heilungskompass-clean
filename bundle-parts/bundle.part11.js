@@ -1,3 +1,195 @@
+function elizabethBarrettBrowningKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-elizabeth-barrett-browning-portrait.jpg" alt="Elizabeth Barrett Browning" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elizabeth Barrett Browning</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel &middot; 1806&ndash;1861</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Faultier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elizabeth Barrett Browning</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-elizabeth-barrett-browning">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr dichterisches Lebenswerk und die
+        Flucht nach Italien. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift
+        wird: eine jahrzehntelange, nie eindeutig diagnostizierte chronische Krankheit, verbunden
+        mit einer über Jahrzehnte fortgeführten Opiumbehandlung – und die Frage, was es bedeutet,
+        wenn eine sexuelle Neun buchstäblich gegen die eigene Bewusstlosigkeit ankämpfen muss.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Barrett Browning</strong> ist der <strong>sexuellen Neun mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte die sexuelle Neun <em>Verschmelzung</em>: die Sehnsucht, in
+        einem einzigen Gegenüber vollständig aufzugehen. Der Achterflügel gibt dieser
+        Verschmelzung eine Kraft, die sich notfalls kämpferisch behauptet, statt sich einfach nur
+        anzupassen. Genau dieses Wechselspiel – jahrzehntelange, medikamentös vertiefte
+        Bewusstlosigkeit gegenüber dem eigenen Leben, unterbrochen von einem einzigen, radikal
+        wachen Akt der Selbstbehauptung – prägte Barrett Brownings gesamten Krankheitsverlauf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste chronische Beschwerden in der Jugend:</strong>
+        Ab etwa ihrem fünfzehnten Lebensjahr litt Elizabeth Barrett an anhaltenden Schmerzen,
+        vermutlich im Zusammenhang mit einer Rückenverletzung – möglicherweise Folge eines
+        Reitunfalls –, die bis heute medizinhistorisch nicht abschließend geklärt ist.</p>
+        <p class="vb-intro"><strong>b) Frühe Verordnung von Opium:</strong>
+        Schon als junge Frau verschrieben ihr die Ärzte Laudanum (Opiumtinktur) gegen die
+        Schmerzen – ein damals gängiges, aber stark abhängig machendes Mittel, das sie bis an ihr
+        Lebensende begleiten sollte.</p>
+        <p class="vb-intro"><strong>c) Verschlechterung durch eine Lungenerkrankung:</strong>
+        Parallel zu den Rückenbeschwerden entwickelte sich eine chronische Lungenschwäche, die
+        die Familie 1838 dazu bewog, sie zur Kur in das mildere Klima von Torquay an der
+        englischen Südküste zu schicken.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine bis heute nicht eindeutig rekonstruierbare Diagnose:</strong>
+        Medizinhistoriker diskutieren als mögliche Ursachen unter anderem eine Wirbelsäulenerkrankung,
+        eine frühe Form der Tuberkulose oder eine funktionelle, durch chronischen Schmerz und
+        familiäre Enge verstärkte Erkrankung – eine moderne, eindeutige Diagnose lässt sich aus
+        den historischen Quellen nicht mehr gewinnen.</p>
+        <p class="vb-intro"><strong>b) Jahrzehntelange Opiumabhängigkeit als eigenständiges Krankheitsbild:</strong>
+        Anders als bei den meisten Krankheitsporträts dieses Kompasses trat neben die ursprüngliche
+        körperliche Erkrankung ein zweites, selbst erzeugtes Leiden: die medikamentöse
+        Dauerbehandlung mit Opium führte zu einer physischen Abhängigkeit, die ihr Leben über
+        Jahrzehnte mitbestimmte.</p>
+        <p class="vb-intro"><strong>c) Ein Trauma, das die Krankheit vertiefte:</strong>
+        1840 ertrank ihr geliebter Bruder Edward bei einem Segelunglück vor Torquay – wenige
+        Wochen, nachdem er gegen den Willen ihres Vaters bei ihr geblieben war, um sie zu
+        pflegen. Elizabeth machte sich für seinen Tod mitverantwortlich und zog sich danach für
+        Jahre noch weiter aus dem Leben zurück.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Über zwanzig Jahre kaum aus dem eigenen Zimmer heraus:</strong>
+        Nach dem Tod ihres Bruders verschärfte sich ihre Isolation im Elternhaus in der Londoner
+        Wimpole Street erheblich – Zeitgenossen beschrieben sie als eine Frau, die ihr Zimmer
+        kaum noch verließ, das Bett fast nie und Besuch fast nur noch liegend empfing.</p>
+        <p class="vb-intro"><strong>b) Ein Leben, das sich zunehmend im Halbschlaf abspielte:</strong>
+        Die tägliche Opiumdosis dämpfte nicht nur den Schmerz, sondern auch die Wachheit – Barrett
+        selbst beschrieb in Briefen Phasen benommener Müdigkeit, die sie von ihrer Umwelt
+        abschnitten, lange bevor irgendjemand das Wort Abhängigkeit dafür benutzt hätte.</p>
+        <p class="vb-intro"><strong>c) Und mitten darin: eine ungebrochene literarische Produktivität:</strong>
+        Ausgerechnet aus diesem Zustand heraus entstanden einige ihrer bekanntesten Werke – ein
+        Befund, der Ärzte und Biografen bis heute beschäftigt, wie viel geistige Klarheit neben
+        der körperlichen und medikamentösen Schwäche erhalten blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Die Flucht 1846 als körperlicher Wendepunkt:</strong>
+        Nach der heimlichen Heirat und der Übersiedlung nach Italien besserte sich Barrett
+        Brownings Gesundheit spürbar – wärmeres Klima, ein selbstbestimmtes Leben und die
+        Distanz zum Vaterhaus wirkten sich messbar positiv aus, auch wenn die Opiumeinnahme
+        bestehen blieb.</p>
+        <p class="vb-intro"><strong>b) Vier Fehlgeburten und ein überlebendes Kind:</strong>
+        In Italien erlitt sie mehrere Fehlgeburten, bevor 1849 ihr Sohn Robert Wiedeman Barrett
+        Browning (genannt „Pen“) gesund zur Welt kam – für eine Frau ihres damaligen
+        Gesundheitszustands ein medizinisch bemerkenswertes Ereignis.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahrzehnt zwischen Schaffenskraft und Verfall:</strong>
+        Die 1850er-Jahre brachten sowohl ihr politisch engagiertestes Werk als auch einen
+        erneuten, schleichenden gesundheitlichen Verfall, der sich in den letzten Lebensjahren
+        deutlich beschleunigte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der aus dem Nebel heraus handelte:</strong>
+        Die Entscheidung zur Flucht 1846 traf eine Frau, die seit Jahren in einem Zustand
+        medikamentöser Gedämpftheit lebte – und die trotzdem in der Lage war, einen
+        hochriskanten, monatelang geheim gehaltenen Plan bis ins Detail durchzuziehen. Das ist
+        die Signatur des Achterflügels: Kraft, die auch durch Nebel hindurch handlungsfähig
+        bleibt.</p>
+        <p class="vb-intro"><strong>b) Verschmelzung, die sich gegen die eigene Bewusstlosigkeit richtete:</strong>
+        Die sexuelle Neun sucht Verschmelzung – bei Barrett Browning geschah das über zwanzig
+        Jahre lang vor allem als Verschmelzung mit der eigenen Passivität, dem Krankenzimmer, der
+        Dämpfung. Die Bindung an Robert Browning war die erste Verschmelzung, die sie aus dieser
+        Bewusstlosigkeit heraus- statt weiter hineinzog.</p>
+        <p class="vb-intro"><strong>c) Eine Wachheit, die nur im äußersten Ernstfall auftauchte:</strong>
+        Auffällig ist, wie punktuell sich ihre Kraft zeigte – nicht als dauerhafte Rebellion gegen
+        die eigene Situation, sondern als ein einziger, hochkonzentrierter Ausbruch, wenn wirklich
+        alles auf dem Spiel stand. Dazwischen blieb die vertraute Dämpfung bestehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die zur wörtlichen Bewusstlosigkeit wurde:</strong>
+        Die sexuelle Neun trägt als Schattenseite die Gefahr, sich so vollständig anzupassen und
+        zu verschmelzen, dass die eigene Wachheit dem Leben gegenüber verloren geht – bei kaum
+        einem anderen Porträt dieses Kompasses wird dieses Muster so konkret körperlich, wie bei
+        einer Frau, deren tägliche Opiumdosis genau diese Unbewusstheit über Jahrzehnte hinweg
+        buchstäblich chemisch verstärkte.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel als der Teil, der aufwachte:</strong>
+        Wäre Elizabeth Barrett eine sexuelle Neun ohne ausgeprägten Achterflügel gewesen, hätte
+        diese jahrzehntelange Dämpfung vermutlich bis zum Ende angehalten. Stattdessen brach
+        genau in dem Moment, in dem die eine Bindung – die einzige, die für sie zählte – bedroht
+        war, eine Entschlossenheit durch, die stark genug war, den eigenen Nebel zu durchbrechen
+        und einen Fluchtplan bis zum letzten Detail umzusetzen. Die Krankheit forderte den
+        Achterflügel geradezu heraus, sich zu zeigen.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Opium?</strong>
+        Für eine sexuelle Neun, deren tiefstes Muster die Verschmelzung mit dem Anderen bis zur
+        Auflösung der eigenen Grenzen ist, liegt eine Deutung nahe: Opium erzeugt chemisch genau
+        jenen Zustand der Entgrenzung und gedämpften Wachheit, den die sexuelle Neun psychisch
+        ohnehin anstrebt – eine Substanz, die dem eigenen Muster nicht entgegenwirkt, sondern es
+        potenziert. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Das Stresspunkt-Mittel, verordnet an eine Neun:</strong>
+        Aus Sicht der Enneagramm-Homöopathie, wie sie in diesem Kompass verwendet wird, ist Opium
+        (Schlafmohn) das homöopathische Heilmittel des Typs 6 – der Stresspunkt der Neun. Ein
+        homöopathisches Stresspunkt-Mittel ist bei einem anderen Typ nie neutral: Es verstärkt
+        genau jenes Muster, in das der Mensch unter Belastung ohnehin abgleitet – bei der Neun ist
+        das die Passivität, die Schläfrigkeit, die Unbewusstheit gegenüber dem eigenen Leben.
+        Barrett Browning erhielt über Jahrzehnte, medizinisch begründet als Schmerzmittel,
+        ausgerechnet jenes Mittel, das ihr eigenes Notfallmuster nicht auflöste, sondern
+        chemisch vertiefte – aus enneagrammhomöopathischer Sicht denkbar ungünstig, auch wenn die
+        damalige Medizin von dieser Zuordnung naturgemäß nichts wissen konnte.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu Abhängigkeitserkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Barrett Brownings Fall zeigen lässt, ist ein Muster, das bei tiefer
+        Verschmelzungsneigung in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Barrett Browning kannte ihr eigenes Muster nicht – die sexuelle Neun mit Achterflügel verschmilzt leicht mit dem Willen anderer, statt den eigenen Weg zu gehen, und genau das hielt sie über zwanzig Jahre in der Isolation des Vaterhauses und in der Opiumabhängigkeit gefangen. Erst die eine intensive Verbindung, die sie schließlich aus diesem Haus herausriss, durchbrach ein Muster, das ihr selbst nie bewusst war.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Barrett Brownings</strong> Krankengeschichte lässt sich die sexuelle Neun mit
+        Achterflügel in einer besonders klaren Zuspitzung ablesen: eine über Jahrzehnte
+        vertiefte, auch chemisch erzeugte Bewusstlosigkeit gegenüber dem eigenen Leben – und ein
+        einziger, radikal wacher Akt, der genau diese Dämpfung durchbrach, als die eine Bindung
+        auf dem Spiel stand, die zählte. Das Faultier, das die meiste Zeit im Halbschlaf hängt –
+        und in dem einen Moment, in dem es darauf ankommt, mit aller Kraft zugreift.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Porträt: Elizabeth Barrett Browning (SX9w8) – Lebenswerk"},
+        {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
+      ])}
+    </div>
+  `);
+}
+
 function peterFalkKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12243,168 +12435,6 @@ function zachaeusPage() {
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
         {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function philippusPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-philippus-portrait.jpg" alt="Philippus – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Philippus</p>
-        <p class="krim-portrait-typ">SO6w5 · Sozialer Typ 6 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Die Sehnsucht nach Gewissheit und der Mut zur Nähe – Tierentsprechung: Erdmännchen</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so6.jpg" alt="Tierentsprechung: Erdmännchen" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO6")};left:${tierAvatarLeft("SO6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, zeige uns den Vater – dann genügt es uns.« (Joh 14,8)</p>
-
-        <h2 class="vb-section">1. Das Erdmännchen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs – es lebt im Verband, hält Wache für die Gruppe und findet Sicherheit nicht in Einzelgängertum, sondern im verlässlichen Miteinander. Philippus war keiner, der drängte. Er sprach nicht laut, trat nicht nach vorn. Aber er war da, immer da. Wenn andere diskutierten, hörte er zu. Wenn andere eilten, prüfte er.</p>
-          <p class="vb-intro">Die soziale Sechs will dazugehören, nicht aus Geltung, sondern aus einem tiefen Bedürfnis nach Halt in sozialen Verbindungen. Er war treu, aber sein Herz fragte leise, immer: Kann ich mich wirklich verlassen? Er war der Erste, den Jesus direkt ansprach: »Folge mir nach« – und Philippus folgte, nicht sofort mit glühendem Herzen, aber mit wachsamem Geist. Er war ein Brückenbauer, brachte Nathanael zu Jesus, übersetzte zwischen dem, was war, und dem, was wurde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Sechs: Vertrauen durch geprüfte Verhältnismäßigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Philippus war ein Mann der Verhältnismäßigkeit. Er war kein Visionär, aber auch kein Zyniker. Er vertraute, aber nicht blind. Das machte ihn stabil, und manchmal unentschlossen. Wenn die anderen jubelten, rechnete Philippus nach. Wenn sie glaubten, wollte er wissen: Warum? Und Jesus ließ ihn so sein, nahm ihn mit, gerade weil er so war.</p>
-          <p class="vb-intro">Philippus stand am Rand der Menge, fünftausend Männer, dazu Frauen und Kinder, ein aufgewühlter Nachmittag. Jesus drehte sich zu ihm, nicht zu Petrus, nicht zu Johannes, sondern zu ihm: »Wo sollen wir Brot kaufen, damit diese essen können?« Eine einfache Frage, doch Philippus spürte sofort, dass sie mehr bedeutete. Er zögerte, rechnete, überschlug im Kopf. Zweihundert Denare, selbst das würde nicht genügen. Er sprach es aus, nicht trotzig, nicht panisch, nur nüchtern, sachlich, realistisch.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Fünferflügel: Sicherheit durch Berechnung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Sechs eine nüchterne, analytische Qualität – Gewissheit entsteht durch Prüfung, Berechnung und intellektuelle Klarheit, nicht durch spontanes Vertrauen. Jesus antwortete nicht, er lächelte still, denn er wusste: Philippus sprach nicht aus Unglauben, sondern aus seiner Art, die Welt zu sichern. Für eine soziale Sechs ist Sicherheit nicht Luxus, sie ist Grundbedingung für Vertrauen.</p>
-          <p class="vb-intro">Philippus beobachtete weiter, sah Andreas den Jungen mit den fünf Broten bringen, sah Jesus danken, und dann teilen. Das Brot wurde nicht mehr, aber es reichte, ein Wunder, aber auch eine Lektion: Es braucht nicht Berechnung, um Vertrauen zu rechtfertigen, es braucht Vertrauen, um über die Berechnung hinauszugehen. Genau dieses nüchterne, prüfende Rechnen, bevor Vertrauen zugelassen wird, trägt die Handschrift des Fünferflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Der Vater, den er nicht sieht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Stimmung war drückend, Jesus hatte begonnen, von seinem Abschied zu sprechen, von Wegen, die keiner verstand. »Ich bin der Weg und die Wahrheit und das Leben.« Die anderen schwiegen, aber Philippus konnte nicht schweigen. In seinem Innersten verlangte es nach Klarheit, nicht nach Poesie, nicht nach Symbolen: »Herr, zeige uns den Vater – dann genügt es uns.« Es war kein Misstrauen in dieser Bitte, kein Trotz, nur eine tiefe, beinahe kindliche Sehnsucht: Gib mir Halt. Zeig mir das Fundament.</p>
-          <p class="vb-intro">Für Jesus aber war dieser Satz schmerzlich ehrlich. So lange war Philippus schon bei ihm gewesen. »So lange bin ich bei euch – und du hast mich nicht erkannt?« Der Satz traf Philippus, aber er war kein Tadel, er war ein Weckruf. Vertrauen ist nicht die Folge vollendeter Beweise, Vertrauen ist ein Entschluss im Angesicht der Ungewissheit. In diesem Moment begann Philippus, anders zu sehen, nicht in Sicherheiten, sondern in Beziehungen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die Stunde der Treue</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach der Kreuzigung wurde alles fragil, die Gruppe, das Gefüge, das Vertrauen, alles stand auf der Kippe. Philippus blieb, nicht laut, nicht führend, aber anwesend, verlässlich. Er hielt sich an das, was die soziale Sechs am tiefsten versteht: Loyalität über Zweifel hinweg. Er suchte Petrus nicht zu ersetzen, wollte nicht die Bühne, er wollte nur Teil bleiben, Teil von etwas, das größer war als seine Fragen.</p>
-          <p class="vb-intro">Als Jesus erschien, nicht zuerst ihm, wartete er nicht auf Sonderrechte. Er nahm das Zeugnis der anderen ernst, prüfte innerlich, aber lehnte sich nicht ab. Die soziale Sechs glaubt mit Herz und Verstand, aber nur, wenn beides in Beziehung treten darf. Philippus verstand nun: Man kann glauben, ohne alles zu verstehen. Man kann sich hingeben, ohne zu verschwinden. Man kann vertrauen, und trotzdem wach bleiben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Stabilität statt Genialität</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Philippus reiste später in die Fremde, predigte nicht mit Feuer, sondern mit Glaubwürdigkeit. Die soziale Sechs hinterlässt keine gewaltigen Spuren, aber sie hinterlässt Stabilität. Er gründete nicht Kirchen, er hielt sie zusammen. Seine größte Stärke war nicht Kühnheit, sondern Loyalität trotz Ungewissheit, nicht Genialität, sondern ein Herz, das nicht wegläuft, wenn Fragen keine Antworten finden.</p>
-          <p class="vb-intro">Am Ende seines Weges, als er nicht mehr rechnete, nicht mehr suchte, nicht mehr fragte, hatte er etwas gefunden, das er ein Leben lang ersehnt hatte: innere Erlaubnis, dem zu trauen, der ihn zuerst gesehen hatte. Das ist das Geschenk der SO6w5: eine Gewissheit, die nicht mehr aus vollendeter Berechnung stammt, sondern aus dem Entschluss, trotz Ungewissheit zu vertrauen – ein Erdmännchen, das gelernt hat, dass Wache halten und sich fallen lassen sich nicht ausschließen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Zeig uns den Vater</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Philippus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/bm3SEsot92E?rel=0" title="Zeig uns den Vater – Philippus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
-        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
-        {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
-        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
-      ])}
-    </div>
-  `);
-}
-
-function petrusPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-petrus-portrait.jpg" alt="Petrus – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Petrus</p>
-        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Das Feuer der Bindung und die Angst, sich zu verlieren – Tierentsprechung: Wolf</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, ich bin bereit, mit dir ins Gefängnis und in den Tod zu gehen!« Jesus sprach: »Ehe der Hahn heute kräht, wirst du dreimal leugnen, dass du mich kennst.« (Lk 22,33–34)</p>
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs – er liebt mit Wucht, verteidigt sein Rudel mit ganzem Körper, und seine Furchtlosigkeit ist keine Abwesenheit von Angst, sondern deren Umkehrung in Handlung. Petrus sprach zuerst, immer. Wenn die anderen schwiegen, warf er sich vor, mit Worten, mit Gesten, mit seinem ganzen Körper. Er verließ das Boot, um auf dem Wasser zu Jesus zu gehen. Er zog das Schwert im Garten, um ihn zu verteidigen.</p>
-          <p class="vb-intro">Bindung ist das Zuhause der SX6, aber dieses Zuhause ist von inneren Stürmen umgeben. Petrus glaubte, aber sein Glaube war nicht ruhig. Er war zwingend, unentbehrlich, und voller Angst, dass er verlassen werden könnte, wenn er nicht genügte. Er sagte nicht: »Ich glaube an dich.« Er sagte: »Ich lasse dich nicht im Stich.« Er brauchte die Nähe Jesu wie Luft zum Atmen, nicht als Idee, sondern als verkörperte Bindung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: Mutig aus Bindung, zerbrechlich in der Furcht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als Jesus begann, vom Leiden zu sprechen, rief Petrus: »Das soll dir nicht widerfahren!«, fast wie ein Kind, das einen geliebten Vater zu schützen versucht. Aber Jesus antwortete scharf: »Weiche von mir, Satan!« Es war kein Ablehnen von Petrus, sondern ein Erschrecken über die Macht der Angst, die sich in Liebe kleidete. Petrus schwankte zwischen Mut und Angst, zwischen Treue und Selbstschutz. Und Jesus ließ ihn, liebte ihn nicht trotz, sondern mit dieser Spannung.</p>
-          <p class="vb-intro">Es war kalt in jener Nacht, Jesus war gefangen, die Gemeinschaft zerrissen. Petrus folgte, nicht offen, aber nah genug, um nichts zu verpassen, nah genug, um noch etwas retten zu können. Die SX6 ist mutig aus Bindung, aber voller Furcht, wenn Bindung zu zerbrechen droht. Er setzte sich ans Feuer, wärmte die Hände, beobachtete. »Warst nicht auch du einer von ihnen?« Er wich aus, schüttelte den Kopf, lachte gezwungen. Einmal, zweimal, dreimal. Und dann krähte der Hahn.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Siebenerflügel: Impulsive Wucht statt stiller Grübelei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Sechs eine energetische, impulsive Qualität – Mut zeigt sich nicht in stiller, abwägender Intensität, sondern in spontaner, körperlicher, fast überschäumender Handlung, bevor der Verstand nachkommt. Jesus wurde in diesem Moment vorbeigeführt, geschlagen, gebunden, verhüllt. Aber sein Blick ging durch alles hindurch, durch die Nacht, durch den Lärm, durch Petrus' Rüstung aus Angst. Er sah ihn an, nicht strafend, nicht enttäuscht, sondern erkennend.</p>
-          <p class="vb-intro">Petrus zerbrach nicht, weil er schwach war, sondern weil er so tief gebunden war, dass der Verlust ihn erschütterte bis ins Mark. Er lief hinaus, weinte bitterlich, nicht über sich, sondern über das, was er verletzte, weil er es so sehr liebte. Genau dieses schnelle, ungebremste Handeln aus dem Bauch heraus, aus dem Boot springen, das Schwert ziehen, laut sprechen, bevor gedacht ist, trägt die Handschrift des Siebenerflügels – die Tragik der SX6: Sie will schützen, aber aus Angst zu versagen, kann sie genau das verlieren, was sie am meisten bewahren wollte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Frage am Morgen: Drei Atemzüge</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Morgen roch nach Salz und Asche. Die Jünger waren zurück am See, zurück bei den Netzen, zurück bei dem, was sie kannten, weil sie nicht wussten, wie es weitergehen sollte. Petrus war innerlich still geworden, nicht aus Frieden, sondern aus Scham. Doch da stand Jesus am Ufer, mit Kohlen, mit Brot, mit Fisch. »Kommt und frühstückt.« Keine Vorwürfe, keine Predigt, nur Nähe.</p>
-          <p class="vb-intro">Nach dem Mahl sprach Jesus ihn an: »Simon, Sohn des Johannes, liebst du mich?« Dreimal fragte er, nicht um ihn zu prüfen, sondern um ihn zurückzuführen, sanft, beharrlich, wie man ein verletztes Tier zurück ins Licht lockt. Am Ende sagte Jesus nicht: »Du bist wieder würdig.« Sondern: »Weide meine Schafe.« Er gab ihm Verantwortung, gerade weil er gefallen war. Denn nur wer zerbricht, kann die Zerbrochenen wirklich sehen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Vom Sturm des Pfingsttags zur Treue im Angesicht der Angst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jerusalem bebte, Feuerzungen auf ihren Häuptern, eine Stimme in vielen Sprachen, und mitten darin: Petrus. Er, der gezögert hatte, er, der gefallen war, trat hervor, nicht mit Berechnung, nicht mit Gelehrsamkeit, sondern mit Brennweite im Herzen: »Ihr Männer von Judäa, hört meine Worte!« Petrus war kein Rhetoriker, er war ein Zeuge. Die SX6 bleibt nicht mutig, weil sie frei von Angst wäre. Sie bleibt mutig, weil sie der Bindung mehr traut als der eigenen Furcht.</p>
-          <p class="vb-intro">Der Preis stieg: Gefangennahmen, Drohungen, Folter. Und doch sagte Petrus, als man ihn zum Schweigen bringen wollte: »Man muss Gott mehr gehorchen als den Menschen.« Nicht trotzig, nicht heldenhaft, sondern aus gelebtem Vertrauen. Er, der aus Angst gelogen hatte, sprach nun mit Klarheit, weil er wusste, dass selbst der Tod nicht mehr trennen konnte, was durch Liebe verbunden war.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Der Fels, der aus Zweifeln gehauen war</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Er wurde alt, doch der Sturm verließ ihn nie ganz. Immer wieder zogen die alten Fragen durch sein Inneres: Genüge ich? Wird man mich halten? Aber sie bekamen keine Macht mehr, denn er kannte jetzt den Blick, der durch Versagen hindurch liebte, und diese Liebe verankerte ihn. Man nannte ihn später »den Fels«, nicht weil er unerschütterlich war, sondern weil er lernen musste, standzuhalten, trotz Angst, trotz innerer Zerrissenheit.</p>
-          <p class="vb-intro">Als er verhaftet wurde, bat er darum, nicht wie Jesus gekreuzigt zu werden: »Nicht würdig bin ich, so zu sterben wie mein Herr.« Und so starb er am Kreuz mit dem Kopf nach unten, aber mit dem Herzen aufrecht. Das ist das Geschenk der SX6w7: ein Mut, der aus Treue geboren wird, nicht aus Stärke, eine Bindung, die alle Brüche durchhält – ein Wolf, der begreift, dass wahre Furchtlosigkeit nicht heißt, nie zu versagen, sondern nach jedem Fall wieder aufzustehen und zu lieben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Und doch liebte er ihn</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Petrus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/QqRezX3O6VA?rel=0" title="Und doch liebte er ihn – Petrus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
-        {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
-        {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
       ])}
     </div>
   `);

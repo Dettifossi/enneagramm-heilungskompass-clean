@@ -1,3 +1,69 @@
+function carlRogersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carl-rogers-portrait.jpg" alt="Dr. Carl Rogers – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Carl Rogers</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Psychologe, Begr\u00fcnder der klientenzentrierten Gespr\u00e4chstherapie, 1902&ndash;1987 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht k\u00e4mpft, nicht jagt, nicht dr\u00e4ngt. Es h\u00e4ngt einfach da, vollkommen pr\u00e4sent, und l\u00e4sst die Dinge zu sich kommen. Wer sich ihm n\u00e4hert, sp\u00fcrt keine Bedrohung, keine Bewertung &ndash; nur eine stille, tragende Anwesenheit, in der man selbst ganz sein darf.</p>
+          <p class="vb-intro">Der US-amerikanische Psychologe Carl Rogers, 1902 in Oak Park, Illinois geboren, war genau dieses Faultier: kein Therapeut, der urteilte, diagnostizierte oder von oben herab Ratschl\u00e4ge erteilte, sondern einer, der einfach da war &ndash; mit einer Gegenwart, die so bedingungslos annehmend war, dass Menschen in ihr zum ersten Mal wagten, sich selbst zu zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung ohne Bewertung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollst\u00e4ndiges Eintauchen in eine andere Person oder eine Erfahrung, ohne die eigene Position dazwischenzuschieben. Die SX9 verliert sich nicht aus Schw\u00e4che im Gegen\u00fcber, sondern weil sie genau darin ihre tiefste Form der Verbindung findet &ndash; ein Zustand, in dem kein Urteil, keine Trennung, kein Bewerten mehr existiert.</p>
+          <p class="vb-intro">Rogers begann seine Laufbahn urspr\u00fcnglich am Union Theological Seminary, wechselte aber zur Psychologie, nachdem er in der klinischen Arbeit mit Kindern erkannte, dass Menschen ihre eigenen Antworten in sich tragen &ndash; wenn man ihnen nur den Raum daf\u00fcr gibt. Diese Grund\u00fcberzeugung, dass ein Mensch sich am besten entfaltet, wenn man sich ganz auf ihn einl\u00e4sst, statt ihn zu belehren, ist die SX9 in ihrer reinsten fachlichen Auspr\u00e4gung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Prinzip statt Beliebigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel</strong> verleiht der sexuellen Neun eine Qualit\u00e4t, die \u00fcber reines Verschmelzen hinausgeht: eine klare, fast disziplinierte Verpflichtung auf ein Prinzip. Die <strong>SX9w1</strong> verschmilzt nicht beliebig mit allem &ndash; sie verschmilzt konsequent mit einer Haltung, der sie sich mit gro\u00dfer innerer Genauigkeit verschreibt.</p>
+          <p class="vb-intro">Rogers formulierte seine drei \u201eKernbedingungen" f\u00fcr therapeutische Ver\u00e4nderung &ndash; bedingungslose positive Wertsch\u00e4tzung, Empathie und Kongruenz &ndash; mit der Pr\u00e4zision eines Wissenschaftlers und der Beharrlichkeit eines Prinzipientreuen. Er verteidigte diese Haltung jahrzehntelang gegen eine Fachwelt, die von Diagnose, Deutung und therapeutischer Autorit\u00e4t gepr\u00e4gt war. Der Einserfl\u00fcgel gab ihm die Klarheit, sein Prinzip nicht zu verw\u00e4ssern &ndash; auch wenn es gegen den damaligen Mainstream der Psychotherapie stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Methode: Der wertfreie Raum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rogers' zentrale Erkenntnis war denkbar einfach und zugleich radikal: Ver\u00e4nderung entsteht nicht dadurch, dass ein Therapeut den Klienten repariert, sondern dadurch, dass er ihm einen Raum bietet, in dem keine Bewertung stattfindet. In diesem Raum &ndash; getragen von <em>bedingungsloser positiver Wertsch\u00e4tzung</em> &ndash; muss sich niemand verstellen, rechtfertigen oder ein bestimmtes Bild von sich aufrechterhalten. Genau das ist die SX9 in ihrer therapeutischen Vollendung: eine Pr\u00e4senz, die so vollst\u00e4ndig frei von Urteil ist, dass der andere sich darin selbst wieder begegnen kann.</p>
+          <p class="vb-intro">Diese Haltung war keine Technik im herk\u00f6mmlichen Sinn, sondern eine Seinsweise. Rogers verzichtete bewusst auf Deutung und Diagnose &ndash; die klassischen Werkzeuge der Autorit\u00e4t in der Psychotherapie seiner Zeit &ndash; und ersetzte sie durch etwas, das viel schwerer zu erlernen ist: echtes, urteilsfreies Zuh\u00f6ren. Er nannte dies \u201eklientenzentrierte" (sp\u00e4ter \u201epersonzentrierte") Therapie, weil nicht der Experte, sondern der Klient selbst der Mittelpunkt und die eigentliche Autorit\u00e4t \u00fcber sein Erleben war. Sein 1961 erschienenes Buch <em>On Becoming a Person</em> wurde zu einem der einflussreichsten Werke der Psychotherapiegeschichte und pr\u00e4gte Generationen von Beratern, Lehrern und Eltern weit \u00fcber die Therapie hinaus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 ist ihre <strong>F\u00e4higkeit, einen Raum zu schaffen, in dem ein anderer Mensch zum ersten Mal ganz er selbst sein darf</strong>. Rogers' Ansatz ver\u00e4nderte nicht nur die Psychotherapie, sondern auch P\u00e4dagogik, Konfliktvermittlung und F\u00fchrung &ndash; \u00fcberall dort, wo Menschen aufbl\u00fchen, wenn man ihnen wertfreies Vertrauen entgegenbringt, statt sie zu kontrollieren.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser vollst\u00e4ndigen Verschmelzung: Kritiker warfen dem klientenzentrierten Ansatz vor, in manchen F\u00e4llen zu wenig Struktur und Konfrontation zu bieten &ndash; gerade bei Klienten, die klare Grenzen oder aktive Anleitung brauchten, statt nur gespiegelt zu werden. Die SX9, die sich ganz in die Verbindung aufl\u00f6st, kann dabei die eigene Position, die eigene F\u00fchrung aus dem Blick verlieren &ndash; ein Preis, den auch Rogers' Methode in bestimmten Grenzf\u00e4llen zahlte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das zuh\u00f6rte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carl Rogers starb 1987, kurz nachdem er f\u00fcr den Friedensnobelpreis nominiert worden war &ndash; f\u00fcr seine Arbeit an Konfliktvermittlung in Krisenregionen wie Nordirland und S\u00fcdafrika, die auf denselben Prinzipien beruhte wie seine Therapie: zuh\u00f6ren, ohne zu urteilen. 1947 war er Pr\u00e4sident der American Psychological Association geworden &ndash; ein Beweis daf\u00fcr, dass sein leiser, unaufdringlicher Ansatz die Fachwelt letztlich \u00fcberzeugte, nicht weil er lauter war, sondern weil er wirkte.</p>
+          <p class="vb-intro">Was bleibt, ist eine der einfachsten und zugleich schwersten Erkenntnisse der Psychologie: dass Menschen sich nicht durch Druck ver\u00e4ndern, sondern durch echte, wertfreie Begegnung. Das Faultier h\u00e4ngt bewegungslos da &ndash; und genau darin liegt seine ganze Kraft. Es dr\u00e4ngt nicht, es wertet nicht, es verschmilzt einfach mit dem, was ist. Und in diesem Raum wird Heilung m\u00f6glich.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-hundertwasser", label:"Portr\xe4t: Friedensreich Hundertwasser (SX9w8)"},
+          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-dakota-johnson", label:"Portr\xe4t: Dakota Johnson (SX9w8)"},
+          {route:"bibel-mutter-maria", label:"Bibel-Porträt: Mutter Maria (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function dakotaJohnsonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7067,68 +7133,6 @@ function billKaulitzPortraitPage() {
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – Schwägerin"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function dollyPartonPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-dolly-parton-portrait.jpg" alt="Dolly Parton – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dolly Parton</p>
-        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Sängerin, Songwriterin &amp; Unternehmerin, 1946&ndash;2026, geb. in Locust Ridge, Tennessee &ndash; Tierentsprechung: Pfau</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Pfau</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, das nicht trotz, sondern wegen seiner Auffälligkeit überlebt, dessen Wirkung aus reiner, selbstbewusst zur Schau gestellter Präsenz entsteht. Kaum jemand hat dieses Prinzip so unverwechselbar zur eigenen Marke gemacht wie Dolly Parton: die überdimensionierte blonde Perücke, das strassbesetzte Bühnenkostüm, die betont weibliche Silhouette &ndash; ein Erscheinungsbild, das sie selbst mit einem einzigen, legendären Satz erklärt: „Es kostet eine Menge Geld, so billig auszusehen.“</p>
-          <p class="vb-intro">Die amerikanische Sängerin und Songwriterin wurde am 19. Januar 1946 in einer Blockhütte in Locust Ridge, Tennessee, geboren &ndash; das vierte von zwölf Kindern einer bettelarmen Familie in den Great Smoky Mountains. Als Vorbild für ihre spätere Selbstinszenierung nannte sie später eine Frau aus ihrer Kindheit, die im Dorf als „Flittchen“ verschrien war, deren grelle Erscheinung die junge Dolly aber fasziniert statt abgeschreckt habe: „Ich dachte, sie sei die schönste Sache, die ich je gesehen hatte.“</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als bewusst gebaute Bühnenfigur</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht den abstrakten Erfolg vor einer breiten Öffentlichkeit wie die soziale Drei, sondern unmittelbare, körperlich-charismatische Präsenz. Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten Form. Partons ikonisches Äußeres &ndash; Silikon, Perücken, körperbetonte Kostüme, meterlange Wimpern &ndash; ist keine zufällige Marotte, sondern eine bewusst gebaute, jahrzehntelang konsequent gepflegte Kunstfigur, die sie selbst gerne als „billig aussehende Frau, die es sich leisten kann, teuer zu wirken“ beschreibt.</p>
-          <p class="vb-intro">Bereits 1967 holte der Countrysänger Porter Wagoner die junge Parton in seine landesweit ausgestrahlte TV-Show &ndash; der Beginn einer Karriere, die sie über Solo-Alben, Filmrollen und eigene Fernsehformate bis an die Spitze der Countrymusik trug. Die SX3 zieht an, und Parton verstand früh, dass sich diese Anziehungskraft nicht auf ein einziges Medium beschränken muss: Musik, Film, Fernsehen, Freizeitpark &ndash; überall dieselbe unverwechselbare Präsenz.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Die Wunde hinter dem Glitzer</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine emotionale Tiefe und erzählerische Authentizität, die weit über reine Oberflächenwirkung hinausgeht &ndash; die Bühnenfigur bleibt an eine sehr persönliche, oft schmerzhafte Innenwelt rückgebunden. Genau das zeigt sich in Partons Songwriting: „Coat of Many Colors“ (1971) erzählt unverblümt von der Armut ihrer Kindheit und dem selbstgenähten Flickenmantel, für den sie als Schulkind verspottet wurde. „Jolene“ (1973) besingt die nackte Angst, einen geliebten Menschen an eine schönere Rivalin zu verlieren &ndash; eine Verletzlichkeit, die im schrillen Rampenlicht der Drei sonst kaum Platz hätte.</p>
-          <p class="vb-intro">Auch „I Will Always Love You“, 1973 geschrieben als Abschied an ihren langjährigen Mentor Porter Wagoner, verdankt seine Wirkung genau dieser Kombination: eine große, öffentlichkeitswirksame Geste (später durch Whitney Houstons Version 1992 zum meistverkauften Single-Hit einer Solokünstlerin) und zugleich eine zutiefst persönliche, fast intime Emotion darunter. Der Viererflügel fragt immer wieder: Wie mache ich aus dem, was mich innerlich bewegt, ein Bild oder einen Song, der niemanden kaltlässt?</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX3w4 ist die Fähigkeit, aus einer jahrzehntelang gepflegten, hochglänzenden Bühnenfigur heraus ein vielschichtiges, künstlerisch ernsthaftes Lebenswerk zu bauen &ndash; über 3.000 geschriebene Songs, elf Grammys, ein eigener Freizeitpark (Dollywood, eröffnet 1986 in ihrer Heimatregion) und die Imagination Library, eine Stiftung, die seit 1995 weltweit über 200 Millionen Bücher kostenlos an Kinder verschenkt hat.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> &ndash; die Überzeugung, dass das eigene Image mit dem eigenen Wert identisch sei. Bei der SX3w4 kann das zur ständigen Notwendigkeit werden, sich immer glänzender zu inszenieren, um nicht als das verletzliche, arme Bergmädchen von einst gesehen zu werden. Bemerkenswert an Parton ist jedoch, wie bewusst sie diese Maske selbst reflektiert: „Ich sehe aus wie eine Kunstfigur, aber im Inneren weiß ich genau, wer ich bin“, sagte sie einmal &ndash; eine seltene Klarheit über das eigene Muster, statt ihm blind zu unterliegen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Die stille Konstante hinter dem Glitzer</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dolly Partons Karriere lässt sich als fortlaufende Übersetzung persönlicher Anziehungskraft in immer neue Bühnen lesen: von der ländlichen Radioshow zur Countrymusik-Ikone, von der Sängerin zur Filmschauspielerin (u. a. „9 to 5“, 1980, samt gleichnamigem Nummer-eins-Hit), von der Songwriterin zur Unternehmerin mit eigenem Freizeitpark. Jede Station bleibt an dieselbe Grundfähigkeit gebunden &ndash; Aufmerksamkeit zu erregen und sie in etwas Bleibendes zu verwandeln.</p>
-          <p class="vb-intro">Auffällig unter all dem schrillen Glanz ist eine einzige, außergewöhnlich stabile Konstante: ihre Ehe mit dem Geschäftsmann Carl Dean, den sie 1966 kennenlernte und 1966 heiratete &ndash; fast sechzig Jahre, in denen Dean die Öffentlichkeit fast vollständig mied und kaum je an ihrer Seite fotografiert wurde, bis zu seinem Tod im März 2025. Die Pfau-Feder nach außen, die stille Zurückgezogenheit im Innersten: Bei kaum einer anderen SX3w4 zeigt sich der Kontrast zwischen glitzernder Bühnenfigur und geschütztem Privatleben so deutlich wie bei Dolly Parton.</p>
-          <p class="vb-intro" style="margin-top:1rem;">Nur eineinhalb Jahre nach Deans Tod starb Dolly Parton selbst am 25. August 2026 in Nashville im Alter von 80 Jahren, nach eigenen Angaben ihres Umfelds nach kurzer Krebserkrankung. Sie hatte in ihren letzten Lebensjahren offen eingeräumt, die eigene Gesundheit während der Pflege ihres Mannes vernachlässigt zu haben &ndash; ein letztes, leises Muster der SX3w4: Die volle Wirkung nach außen zu wahren, bis zuletzt aufzutreten und öffentlich zu strahlen, während die eigene Verletzlichkeit hinter der Bühne nur zögerlich zugegeben wird.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
-        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
-        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
-        {route:"beruehmte-marlene-zuk", label:"Portrait: Marlene Zuk (SX3w4)"},
-        {route:"krankheitsportraets-dolly-parton", label:"Krankheitsporträt: Dolly Parton (SX3w4)"},
       ])}
     </div>
   `);

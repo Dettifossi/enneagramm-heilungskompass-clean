@@ -1123,6 +1123,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ludwig Göransson – Self-Preservation Type 4",
     teaser:"SE4w5 · b. 1984. Swedish film composer and producer, two Oscars (\"Black Panther,\" \"Oppenheimer\"). Months-long research trips and scientific immersion for every score, longtime collaborator of Donald Glover and Ryan Coogler, always in the background rather than the spotlight. Animal correspondence: Dove.",
     land:"Sweden", tags:["Music","Film"], gender:"m"},
+{ route:"beruehmte-sally-rooney", name:"Sally Rooney", added:"2026-08-29", subtyp:"SE4w5",
+    heading:"Sally Rooney – Self-Preservation Type 4",
+    teaser:"SE4w5 · b. 1991. Irish novelist, \"Normal People,\" \"Conversations with Friends,\" self-described Marxist. Former European debating champion, consistently avoids public attention, in 2021 declined a Hebrew translation on political grounds. Animal correspondence: Dove.",
+    land:"Ireland", tags:["Literature"], gender:"f"},
 { route:"beruehmte-virginia-woolf", name:"Virginia Woolf", added:"2026-08-29", subtyp:"SE4w5",
     heading:"Virginia Woolf – Self-Preservation Type 4",
     teaser:"SE4w5 · 1882–1941. British writer, co-founder of the Bloomsbury Group, invented the stream-of-consciousness technique as a literary form of her own. Self-taught, marked throughout her life by severe depressive episodes, founded the Hogarth Press with her husband Leonard. Animal correspondence: Dove.",
@@ -23383,6 +23387,72 @@ function ludwigGoeranssonPortraitPage() {
   `);
 }
 
+function sallyRooneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sally-rooney-portrait.jpg" alt="Sally Rooney" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sally Rooney</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Irish novelist, b. 1991 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. Sally Rooney was born in 1991 in Castlebar, in the west of Ireland; her mother ran a local cultural center, her father worked for the Irish telephone company. Even as a child she wrote a great deal while staying socially reserved – a quiet observer who registered her surroundings closely without pushing herself into the foreground.</p>
+          <p class="vb-intro">At Trinity College Dublin she studied English literature while also competing as a debater – an apparent contradiction to the reserved observer that resolves from an SP4w5 perspective: it was not the spotlight itself that drew her, but the structured, analytically rigorous engagement with a subject.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: The Boundary Between Life and Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> does not carry its suffering outward but endures it stoically – telling itself: I suffer better, more quietly, more deeply than others, and that is exactly where my dignity lies. Rooney has said this outright: "I have no appetite for writing about myself and things that have actually happened to me" – her own experiences instead serve her as a kind of "mental library" she draws on while writing, without disclosing them directly.</p>
+          <p class="vb-intro">Despite international fame from "Conversations with Friends" (2017) and "Normal People" (2018), she has remained notably reserved toward public appearances and media attention: "I'm really paranoid about my personal life. I feel self-conscious," she said in one interview – preserving the boundary between her public and private lives, she has described, is a constant, deliberate concern in a media environment that does not always respect that boundary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: The Thought System Behind the Narrative</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance from its own pain – feeling is not only lived through but cast into a deliberate, often almost theoretical framework of thought. In 2011, Rooney was named top individual speaker at the European Universities Debating Championships – an intense training in rhetoric, rapid analytical thinking, and structured argument that shows directly in the sharp, intellectually engaged dialogue and finely balanced ideological arguments of her novels' characters.</p>
+          <p class="vb-intro">Rooney describes herself as a Marxist, and her novels treat class inequality, intimacy, and politics not incidentally but as a deliberate theoretical scaffold on which the emotional plot is built. When she gets stuck writing a novel, she turns specifically to philosophical works – for her novel "Intermezzo," reading Wittgenstein's "Philosophical Investigations" helped her find a way to finish the book. Not spontaneous writing, but a system that draws, when needed, on a larger framework of thought.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Decision Against the Hebrew Translation, 2021</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In October 2021, Rooney declined to sell the rights for a Hebrew translation of her novel "Beautiful World, Where Are You?" to the same Israeli publisher that had previously released her earlier books in Hebrew. She grounded the decision in her support for the BDS movement (Boycott, Divestment, Sanctions) and the demand that a publisher publicly distance itself from the Israeli apartheid system and support the UN-stipulated rights of the Palestinian people.</p>
+          <p class="vb-intro">The decision sparked fierce controversy worldwide, including calls to boycott her own work – she did not retract it. Not a loud political appearance, but a quietly reached, clearly reasoned, and consistently upheld decision – the Five, which treats its political conviction as a closed principle, not up for negotiation once it has been thought through.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 lies in the ability to <strong>combine a carefully reasoned theoretical worldview with immediately touching emotional narrative</strong> – Rooney's novels are regarded as a literary voice for an entire generation because they never play intellectual sharpness and intimate, often painfully precise observation of human closeness against each other, but weave them together.</p>
+          <p class="vb-intro">The shadow shows in the constant inner tension of keeping her own person out of the public image: Rooney describes herself as "really paranoid" about her private life and avoids interviews, social media, and public appearances so consistently that her reticence itself has become a media topic – a dove conspicuous precisely through its own invisibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove in the Mental Library</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sally Rooney is regarded as one of the most defining literary voices of her generation – not because she puts her own life on public display, but because she shapes, out of quiet, carefully guarded inner experience, a deliberate, theoretically grounded literary work that touches millions of readers worldwide directly.</p>
+          <p class="vb-intro">The dove that, as a child, was a quiet observer; that built a sharp analytical thought system as a debater; and that to this day resolutely defends the boundary between her own life and her literary work – that is the lasting image of this subtype: a depth that does not show itself publicly, but is carefully translated into form before it reaches the world.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-miguel-de-unamuno", label:"Portrait: Miguel de Unamuno (SP4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function virginiaWoolfPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -23441,8 +23511,8 @@ function virginiaWoolfPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
-        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
       ])}
     </div>
@@ -46026,7 +46096,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -46041,7 +46111,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Complete inner processing before stepping outward",
         beschreibung: "Before anything becomes visible – a work, a stance, a decision – it is first fully lived through, observed, and processed inwardly. No spontaneous action, but a conscious landing only once the inner process is complete.",
-        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years; Miguel de Unamuno, who largely taught himself German, Danish, and other languages in order to read Kierkegaard and Hegel in the original, and who never answered his lifelong question about his own mortality too quickly, but kept rethinking it in dozens of books, without ever claiming a final answer; Peter Gabriel, whose self-designed stage figures – from the fox's head to the Slipperman – were always worked out entirely alone before appearing on stage without warning, and who regularly let four to ten years pass between solo albums because individual tracks were discarded and rebuilt again and again until they fully matched his inner image."
+        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years; Miguel de Unamuno, who largely taught himself German, Danish, and other languages in order to read Kierkegaard and Hegel in the original, and who never answered his lifelong question about his own mortality too quickly, but kept rethinking it in dozens of books, without ever claiming a final answer; Peter Gabriel, whose self-designed stage figures – from the fox's head to the Slipperman – were always worked out entirely alone before appearing on stage without warning, and who regularly let four to ten years pass between solo albums because individual tracks were discarded and rebuilt again and again until they fully matched his inner image; Sally Rooney, who trained a sharp analytical thought system as a competitive debater, builds her novels on a deliberate theoretical scaffold, and turns specifically to philosophical works when stuck, seeking a way to finish a novel rather than simply writing on."
       },
       {
         titel: "When the inner burden overwhelms – from radical self-assertion to self-dissolution (shadow form)",
@@ -101139,6 +101209,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
+      "beruehmte-sally-rooney": sallyRooneyPortraitPage,
       "beruehmte-virginia-woolf": virginiaWoolfPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,

@@ -1,3 +1,391 @@
+function rudolfPleilPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Rudolf Pleil \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/rudolf-pleil-portrait.jpg" alt="Rudolf Pleil \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rudolf Pleil</p>
+        <p class="krim-portrait-typ">SE2w3 \u00b7 Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienm\u00f6rder, selbsternannter \u201eHenker" \u00b7 Tierentsprechung: Flusspferd</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Rudolf Pleil</strong>, geboren am 28. April 1924 in Zwickau,
+        starb am 8. Februar 1958 in der Strafanstalt Wolfenb\u00fcttel \u2013
+        er erh\u00e4ngte sich in seiner Zelle mit seinem eigenen Schl\u00fcpfer.
+        Zuvor hatte er sich selbst den Beinamen gegeben,
+        der ihn in der deutschen Kriminalgeschichte unsterblich machte:
+        \u201eder beste Totmacher".
+        Zwischen 1945 und 1947 ermordete Pleil, oft gemeinsam mit Komplizen,
+        mindestens neun Frauen und M\u00e4dchen in der Grenzzone
+        zwischen der sowjetischen und der britischen Besatzungszone \u2013
+        einer Niemandsland-Region, in der staatliche Ordnung
+        weitgehend zusammengebrochen war.
+        Die Opfer waren Fl\u00fcchtlinge, Heimkehrer, Grenzg\u00e4ngerinnen \u2013
+        schutzlose Menschen in einem schutzlosen Raum.
+        Pleil nutzte diesen Raum systematisch.
+        Nach seiner Verhaftung 1950 gestand er bereitwillig,
+        br\u00fcstete sich mit seinen Taten und versuchte, die H\u00f6chstzahl
+        seiner Opfer immer weiter nach oben zu treiben \u2013
+        er wollte der Rekordhalter sein.
+        Die Taten selbst waren von extremer k\u00f6rperlicher Brutalit\u00e4t gepr\u00e4gt:
+        Pleil schlug, erdrosselte und misshandelte seine Opfer \u2013
+        oft \u00fcber das f\u00fcr den Tod Notwendige hinaus.
+        Die Gewalt war kein Mittel, sie war ein Ausdruck.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Rudolf Pleil</strong> wird der <strong>Selbsterhaltenden Zwei mit Dreierfl\u00fcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> \u2013
+        nicht im Sinne gesunden Selbstwertgef\u00fchls, sondern als aufgebl\u00e4htes
+        Selbstbild, das Grenzen nicht kennt: Ich bin au\u00dfergew\u00f6hnlich,
+        ich bin unentbehrlich, mein Wille hat Vorrang.
+        Die selbsterhaltende Zwei (SE2) k\u00e4mpft tief im Inneren
+        um Sicherheit, Anerkennung und das Gef\u00fchl, unverzichtbar zu sein.
+        Der Dreierfl\u00fcgel verleiht dieser Dynamik eine
+        performative, auf Au\u00dfenwirkung ausgerichtete Dimension:
+        Er will nicht nur herrschen \u2013 er will <em>gesehen</em> werden dabei.
+        Pleils Selbstbezeichnung als \u201ebester Totmacher" ist das
+        pr\u00e4ziseste psychologische Selbstportr\u00e4t eines SE2w3:
+        Stolz gepaart mit dem Bed\u00fcrfnis nach Anerkennung \u2013
+        selbst f\u00fcr das Unfassbarste.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
+        <p class="vb-intro"><strong>a) Fordernd und kontrollierend:</strong>
+        Zeugen beschrieben <strong>Pleils</strong> Blick als durchdringend,
+        fordernd, einsch\u00fcchternd.
+        Er suchte Augenkontakt nicht, um Verbindung herzustellen,
+        sondern um zu pr\u00fcfen, wer hier das Sagen hat.
+        Die Zwei schaut mit der stillen Erwartung,
+        gesehen und anerkannt zu werden \u2013
+        bei Pleil war diese Erwartung zur Dominanzgeste geworden:
+        Wer seinen Blick nicht erwiderte, verlor in seiner Wahrnehmung
+        sofort an Bedeutung. Wer ihm standhielt, wurde zur Herausforderung.</p>
+        <p class="vb-intro"><strong>b) Gespielt warm, im Kern kalt:</strong>
+        Im Verh\u00f6r und vor Gericht konnte <strong>Pleil</strong> charmant, fast
+        jovial wirken \u2013 ein Merkmal des Dreierfl\u00fcgels, der die soziale
+        Oberfl\u00e4che beherrscht. Doch hinter dieser W\u00e4rme lag keine
+        echte Anteilnahme: Die Zwei t\u00e4uscht Empathie vor,
+        wenn sie sich davon Vorteil verspricht.
+        Pleils \u201eHerzlichkeit" im Gerichtssaal war eine Inszenierung \u2013
+        sie diente dem Publikum, nicht den Menschen, denen er gegen\u00fcbersa\u00df.</p>
+        <p class="vb-intro"><strong>c) Eitelkeit im Blick:</strong>
+        <strong>Pleil</strong> wusste, dass er beobachtet wurde \u2013
+        und er spielte diese Rolle mit unverh\u00fcllter Freude.
+        Der Dreierfl\u00fcgel bringt eine tiefe Orientierung
+        an Au\u00dfenwirkung und Image.
+        Pleil inszenierte sich als Hauptdarsteller seiner eigenen Geschichte:
+        der ber\u00fchmteste, der beste, der produktivste M\u00f6rder Deutschlands.
+        Sein Blick sagte immer dasselbe: Schaut her, ich bin hier.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Br\u00fcsten als Grundbed\u00fcrfnis:</strong>
+        <strong>Pleil</strong> war nicht jemand, der seine Taten versteckte \u2013
+        er wollte, dass man ihn daf\u00fcr bewunderte.
+        Nach seiner Verhaftung gestand er weit mehr,
+        als die Beh\u00f6rden ihm nachweisen konnten,
+        und korrigierte seine Opferzahlen immer nach oben.
+        Das ist kein Gest\u00e4ndnisdrang aus schlechtem Gewissen \u2013
+        es ist der Stolz der Zwei: Ich habe mehr geleistet als alle anderen.
+        Seht mich an. Tragt meinen Namen.</p>
+        <p class="vb-intro"><strong>b) Anspruchsdenken ohne Schranken:</strong>
+        Die SE2 entwickelt im Verfall das Gef\u00fchl,
+        dass ihr alles zusteht \u2013 weil sie so viel gibt,
+        so viel leistet, so unentbehrlich ist.
+        Bei <strong>Pleil</strong> war dieser Anspruch von jedem sozialen Korrektiv
+        befreit: In der Grenzzone gab es keinen Staat,
+        keine Gemeinschaft, keine Gegenkraft.
+        Er entschied, wer lebte und wer starb \u2013
+        und erlebte das als sein nat\u00fcrliches Recht.</p>
+        <p class="vb-intro"><strong>c) Bindung durch Kontrolle:</strong>
+        <strong>Pleil</strong> agierte h\u00e4ufig mit Komplizen \u2013
+        er war kein Einzelg\u00e4nger im klassischen Sinne.
+        Die Zwei braucht Menschen, aber zu ihren Bedingungen.
+        Er zog andere in seinen Orbit, machte sie
+        abh\u00e4ngig, verwickelt, mitschuldig.
+        Diese Form der Bindung ist das Kernmuster der SE2:
+        Ich sorge daf\u00fcr, dass du mich brauchst \u2013
+        und dann entscheide ich, was mit dir geschieht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Stolz als Treibkraft:</strong>
+        Die Leidenschaft der Zwei ist Stolz \u2013
+        nicht Hochmut im gew\u00f6hnlichen Sinne, sondern eine tiefe,
+        verzerrte \u00dcberzeugung: Ich bin besonders, mein Empfinden
+        z\u00e4hlt mehr als das der anderen, mein Wille hat Vorrang.
+        Bei <strong>Pleil</strong> war dieser Stolz vollst\u00e4ndig von
+        moralischen und sozialen Grenzen entkoppelt.
+        Er sah sich nicht als T\u00e4ter \u2013 er sah sich als Ausnahmeerscheinung.
+        \u201eDer beste Totmacher" ist ein Ehrentitel, kein Schuldbekenntnis.</p>
+        <p class="vb-intro"><strong>b) Die Zwei als Geberin \u2013 und als Nehmerin:</strong>
+        Die Zwei ist im Kern ein Geber-Typ: Sie hilft, unterst\u00fctzt,
+        umsorgt \u2013 aber nie ohne Erwartung.
+        Im Verfall dreht sich diese Dynamik um:
+        Die Zwei nimmt, was ihr zusteht.
+        Bei <strong>Pleil</strong> war diese Umkehrung total:
+        Die Schutzlosigkeit der Opfer \u2013
+        Frauen auf der Flucht, ohne Obdach, ohne Schutz \u2013
+        empfand er nicht als Verantwortung,
+        sondern als Gelegenheit.
+        Die Zwei sieht Bed\u00fcrftigkeit immer \u2013
+        aber bei Pleil wurde dieser Blick zur Jagdoptik.</p>
+        <p class="vb-intro"><strong>c) Dreierfl\u00fcgel: Leistung als Identit\u00e4t:</strong>
+        Der Dreierfl\u00fcgel bringt die Frage: Wer bin ich in den Augen anderer?
+        F\u00fcr <strong>Pleil</strong> war die Antwort klar: der Produktivste,
+        der R\u00fccksichtsloseste, der Beste.
+        Er konkurrierte mit anderen T\u00e4tern um Opferzahlen
+        wie ein Handwerker um seinen Ruf konkurriert.
+        Das ist die pathologische Schnittmenge von Zwei und Drei:
+        Ich definiere meinen Wert \u00fcber das, was ich leiste \u2013
+        und ich lasse keinen Zweifel daran, dass ich der Ma\u00dfstab bin.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Unversch\u00e4mte Selbstsicherheit:</strong>
+        <strong>Pleil</strong> wirkte auf Zeitgenossen nicht wie ein Mensch,
+        der sich sch\u00e4mt oder f\u00fcrchtet \u2013 sondern wie jemand,
+        der glaubt, dass man ihm endlich die Aufmerksamkeit gibt,
+        die ihm schon immer zugestanden h\u00e4tte.
+        Im Gerichtssaal zeigte er keine Reue \u2013
+        er genoss das Spektakel.
+        Die SE2 im Verfall verliert jede F\u00e4higkeit,
+        die Wirkung des eigenen Handelns auf andere
+        wirklich wahrzunehmen.</p>
+        <p class="vb-intro"><strong>b) Anziehung und Absto\u00dfung zugleich:</strong>
+        Trotz \u2013 oder wegen \u2013 seiner Unversch\u00e4mtheit
+        \u00fcbte <strong>Pleil</strong> auf viele eine eigenartige Faszination aus.
+        Die Zwei hat von Natur aus etwas Anziehendes:
+        Sie wei\u00df, wie man Aufmerksamkeit erzeugt, wie man
+        Menschen f\u00fcr sich einnimmt.
+        Bei Pleil war das zur Groteske geworden:
+        Er zog Blicke auf sich, weil er sich auff\u00fchrte,
+        als sei er eine Hauptattraktion \u2013
+        und auf eine verst\u00f6rende Weise war er das.</p>
+        <p class="vb-intro"><strong>c) Achter-Stresspunkt: die Zwei wird zur Acht:</strong>
+        Im Enneagramm bewegt sich die Zwei unter extremem Stress
+        in Richtung Typ Acht \u2013 dem Typ der rohen Macht,
+        der k\u00f6rperlichen Dominanz, der \u00dcberwaltigungs-Energie.
+        Was bei der gesunden Zwei als F\u00fcrsorge und Geben erscheint,
+        kippt im Stress in offene Aggression, R\u00fccksichtslosigkeit
+        und das nackte Durchsetzen des eigenen Willens.
+        Bei <strong>Pleil</strong> war dieser Mechanismus dauerhaft aktiviert:
+        Die Brutalit\u00e4t seiner Taten \u2013 das exzessive Schlagen,
+        W\u00fcrgen, k\u00f6rperliche \u00dcberw\u00e4ltigen \u2013
+        ist die Signatur der Zwei in der Acht.
+        Er t\u00f6tete nicht k\u00fchl oder distanziert.
+        Er t\u00f6tete mit K\u00f6rper und Wucht,
+        mit einer physischen Unmittelbarkeit,
+        die den Achter-Modus unverkennbar macht:
+        Ich bin die st\u00e4rkste Kraft im Raum,
+        und du kannst nichts dagegen tun.</p>
+        <p class="vb-intro"><strong>d) Der Nachkriegskontext als Verst\u00e4rker:</strong>
+        <strong>Pleil</strong> operierte in einem gesellschaftlichen Vakuum.
+        Die Grenzzone der Nachkriegszeit war ein Raum ohne Gesetz,
+        ohne Schutz, ohne Zeugen.
+        Die SE2 braucht eine B\u00fchne \u2013 und die Chaos-Jahre nach 1945
+        boten ihm eine, auf der keine Regeln galten.
+        Sein Typus h\u00e4tte in geordneten Verh\u00e4ltnissen
+        vielleicht andere Wege gefunden, Macht auszu\u00fcben \u2013
+        Kontrolle durch F\u00fcrsorge, durch Abh\u00e4ngigkeit erzeugen.
+        Stattdessen fand er eine Welt, in der er buchst\u00e4blich
+        \u00fcber Leben und Tod entscheiden konnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Saugend und vereinnahmend:</strong>
+        Die energetische Signatur der Zwei ist fordernd \u2013
+        sie zieht Aufmerksamkeit an, beansprucht Raum,
+        erwartet Resonanz.
+        <strong>Pleil</strong> verk\u00f6rperte diese Eigenschaft ohne jede D\u00e4mpfung:
+        Wer in seiner N\u00e4he war, wurde in seine Geschichte hineingezogen.
+        Die Zwei gibt viel \u2013 aber sie zieht auch viel ab.
+        Bei Pleil war das Geben l\u00e4ngst weggefallen;
+        was blieb, war der reine Sog.</p>
+        <p class="vb-intro"><strong>b) Selbsterhaltung als Grundangst:</strong>
+        Hinter allem Stolz und aller Inszenierung liegt
+        bei der SE2 eine tiefe Angst: nicht zu \u00fcberleben,
+        nicht zu gen\u00fcgen, nicht gebraucht zu werden.
+        <strong>Pleils</strong> Kindheit war von Armut, Instabilit\u00e4t
+        und Gewalt gepr\u00e4gt \u2013 ein Umfeld, in dem die SE2-Grundangst
+        fr\u00fch und brutal aktiviert wird.
+        Was entstand, war ein Mensch, der um jeden Preis
+        sicherstellen wollte, dass er Bedeutung hat \u2013
+        notfalls durch Vernichtung.</p>
+        <p class="vb-intro"><strong>c) Dreierfl\u00fcgel: Energie f\u00fcr die Galerie:</strong>
+        Der Dreierfl\u00fcgel macht die Energie nach au\u00dfen gerichtet,
+        auf Publikum angewiesen.
+        <strong>Pleil</strong> brauchte Zeugen \u2013
+        sei es Komplizen, sei es das Gericht, sei es die Presse.
+        Ohne Publikum verlor seine Identit\u00e4t ihren Halt.
+        Das ist die tiefste Not der SE2w3:
+        Ich existiere nur, solange jemand zuschaut.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Das Flusspferd</h3>
+        <p class="vb-intro"><strong>a) Massiv, territorial und untersch\u00e4tzt:</strong>
+        Das Flusspferd ist das Tier der SE2 im Tierlexikon:
+        Es wirkt schwerf\u00e4llig und harmlos \u2013 und ist doch
+        eines der gef\u00e4hrlichsten Tiere Afrikas.
+        Es beansprucht sein Territorium absolut,
+        duldet keine Konkurrenz und greift ohne Vorwarnung an.
+        <strong>Pleil</strong> entsprach diesem Bild:
+        Nach au\u00dfen hin der joviale, br\u00fcstende Mann \u2013
+        innen ein Wesen, das seinen Anspruch auf Raum
+        mit aller Konsequenz durchsetzte.</p>
+        <p class="vb-intro"><strong>b) T\u00e4uschende Oberfl\u00e4che:</strong>
+        Das Flusspferd verbringt viel Zeit im Wasser \u2013
+        ruhig, kaum sichtbar, scheinbar passiv.
+        Doch es schl\u00e4ft nie wirklich.
+        <strong>Pleil</strong> verstand es, sich in Situationen einzuf\u00fcgen,
+        harmlos zu wirken, Vertrauen zu erzeugen \u2013
+        um dann zuzuschlagen.
+        Diese F\u00e4higkeit, die echte Bedrohung unter einer
+        sozialen Oberfl\u00e4che zu verbergen,
+        ist ein Kernmerkmal des SE2w3.</p>
+        <p class="vb-intro"><strong>c) Selbsterhaltung als oberstes Gesetz:</strong>
+        Das Flusspferd kennt keine Feinde \u2013
+        es kennt nur Bedrohungen f\u00fcr seinen Bestand.
+        Alles, was ihm in die Quere kommt, wird eliminiert.
+        F\u00fcr <strong>Pleil</strong> war die eigene Bedeutung,
+        der eigene Anspruch, die eigene \u00dcberlegenheit
+        das oberste Schutzgut \u2013
+        und jede Bedrohung dieses Selbstbildes
+        wurde zur existenziellen Gefahr,
+        auf die er mit \u00e4u\u00dferster Konsequenz reagierte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Rudolf Pleil</strong> ist einer der psychologisch aufschlussreichsten
+        und gleichzeitig unheimlichsten F\u00e4lle in der deutschen Kriminalgeschichte \u2013
+        nicht wegen der Brutalit\u00e4t seiner Taten,
+        sondern wegen der unverh\u00fcllten Selbstdarstellung dahinter.
+        Kein anderer T\u00e4ter hat sein eigenes Profil so offen formuliert wie er:
+        \u201eder beste Totmacher" ist kein Deckname \u2013 es ist ein Selbstbild.
+        Der SE2w3-Mechanismus im Verfall erzeugt genau das:
+        Stolz ohne Mitgef\u00fchl, Leistungsdenken ohne moralisches Fundament,
+        das Bed\u00fcrfnis nach Anerkennung ohne die F\u00e4higkeit,
+        den anderen als Person wahrzunehmen.
+        Was die gesunde Zwei zu au\u00dferordentlicher W\u00e4rme, F\u00fcrsorge
+        und menschlicher St\u00e4rke bef\u00e4higt,
+        wurde bei Pleil zur totalen Verf\u00fcgungsgewalt \u00fcber andere.
+        Er ist kein Beispiel f\u00fcr den Typ \u2013
+        er ist sein abgr\u00fcndigster Spiegel.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 \u201eIch zuerst":</strong>
+        Claudio Naranjo bezeichnete die selbsterhaltende Zwei
+        als den Subtyp mit dem st\u00e4rksten \u00dcberlebenswillen \u2013
+        \u201eIch zuerst" als Lebensmotto.
+        Alle Gesten der F\u00fcrsorge dienen letztlich dem eigenen Bestand.
+        Bei <strong>Pleil</strong> war dieser Mechanismus ohne jede
+        soziale Verkleidung: Was er wollte, nahm er sich.
+        Was im Weg stand, r\u00e4umte er aus dem Weg.
+        Die Maske der F\u00fcrsorge hatte er nie wirklich getragen.</p>
+        <p class="vb-intro"><strong>b) Die Nachkriegsbiografie als Verst\u00e4rker:</strong>
+        <strong>Pleil</strong> wuchs in extremer Armut auf,
+        erlebte fr\u00fch Gewalt und soziale Entwurzelung.
+        F\u00fcr die SE2 ist das Umfeld entscheidend:
+        Wer fr\u00fch lernt, dass F\u00fcrsorge nicht kommt,
+        es sei denn man fordert sie ein,
+        entwickelt ein \u00dcberlebenssystem, das auf Einfordern,
+        Manipulieren und Kontrolle basiert.
+        Die Nachkriegswirren verst\u00e4rkten das:
+        In einer Welt ohne Regeln blieb nur der
+        eigene Wille als Ordnungsprinzip.</p>
+        <p class="vb-intro"><strong>c) Komplizen als Zwei-Dynamik:</strong>
+        <strong>Pleil</strong> begann seine Mordserie nicht allein \u2013
+        er zog M\u00e4nner in seinen Bann, die mitgemacht haben.
+        Das ist eine klassische SE2-Dynamik:
+        Die Zwei schafft Abh\u00e4ngigkeit, macht andere mitschuldig,
+        h\u00e4lt sie durch gemeinsame Schuld in Reichweite.
+        Das Muster \u201eIch sorge daf\u00fcr, dass du mich brauchst"
+        gilt auch hier: Wer mit Pleil t\u00f6tete,
+        war an ihn gebunden \u2013 durch die Tat.</p>
+        <p class="vb-intro"><strong>d) Der Selbstmord als letzter Auftritt:</strong>
+        <strong>Pleils</strong> Tod in der Zelle war kein stiller Abgang.
+        Er hinterlie\u00df Briefe, Erkl\u00e4rungen, inszenierte seinen Abgang.
+        Selbst das Sterben wurde zur B\u00fchne.
+        Der Dreierfl\u00fcgel l\u00e4sst das Ich nicht verschwinden \u2013
+        er sorgt daf\u00fcr, dass der letzte Eindruck sitzt.
+        Pleil wollte nicht vergessen werden.
+        Und er wurde es nicht.</p>
+        <p class="vb-intro"><strong>e) Der Wachstumsweg der Zwei \u2013 die Vier:</strong>
+        Der Wachstumspunkt der Zwei ist die Vier \u2013
+        die F\u00e4higkeit, in die eigene innere Tiefe zu gehen,
+        Schmerz und Verlust wirklich zu f\u00fchlen, statt ihn
+        durch Wichtigsein und Leistung zu \u00fcberdecken.
+        F\u00fcr <strong>Pleil</strong> blieb dieser Weg vollst\u00e4ndig versperrt.
+        Er hat offenbar nie begonnen, sich selbst als
+        empfindenden, verletzlichen Menschen wahrzunehmen \u2013
+        nur als Protagonisten einer Geschichte,
+        in der er immer gewinnen musste.</p>
+        <p class="vb-intro"><strong>f) Stresspunkt Acht \u2013 Gewalt als Selbstausdruck:</strong>
+        Der Stresspunkt der Zwei ist die Acht \u2013
+        und bei <strong>Pleil</strong> ist er das entscheidende Schl\u00fcssel zum
+        Verst\u00e4ndnis der konkreten Tathandlungen.
+        Die Zwei neigt in gesunden Auspr\u00e4gungen dazu,
+        Kontrolle durch F\u00fcrsorge auszu\u00fcben \u2013
+        durch Geben, Binden, Abh\u00e4ngig-Machen.
+        Wenn diese Strategie versagt oder nie gelernt wurde,
+        greift der Stresspunkt: rohe Achter-Energie,
+        die Kontrolle durch k\u00f6rperliche \u00dcberlegenheit herstellt.
+        Pleils Morde hatten eine ausgepr\u00e4gt physische Qualit\u00e4t:
+        Erw\u00fcrgen, Schlagen, brutale k\u00f6rperliche Gewalt \u2013
+        keine distanzierte, geplante T\u00f6tung,
+        sondern ein \u00dcberrollen durch K\u00f6rperkraft und Wucht.
+        Das ist die Zwei in der Acht:
+        Wenn ich nicht durch Liebe binden kann,
+        erzwinge ich die Unterwerfung durch St\u00e4rke.
+        In Pleils Fall war die Achter-Energie nicht nur der Stressabfluss \u2013
+        sie war der einzige Kontaktmodus,
+        den er mit anderen Menschen kannte.</p>
+        <p class="vb-intro"><strong>g) Bedeutung f\u00fcr das Verst\u00e4ndnis der SE2:</strong>
+        <strong>Pleils</strong> Fall macht sichtbar, wohin die SE2-Logik
+        f\u00fchren kann, wenn alle menschlichen Korrektive fehlen:
+        Empathie, echte Bindung, das Erleben von Grenzen.
+        Die gesunde SE2 ist ein Mensch von gro\u00dfer W\u00e4rme,
+        Aufmerksamkeit und echter Sorge um andere.
+        Was Pleil fehlte, war nicht der Typ \u2013
+        sondern alles, was einen Typ zu einem Menschen macht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Rudolf Pleil bekannte sich zu mindestens neun Morden und wurde 1952 zu mehrfacher lebenslanger Haft verurteilt. Er starb 1958 durch Suizid in der Zelle. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll"},
+        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+        {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function jackUnterweegerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -8402,60 +8790,6 @@ function insektenartenDer9TypenPage() {
         {route:"walarten-der-9-typen", label:"Walarten der 9 Typen"},
         {route:"flugzeugmodelle-der-9-typen", label:"Flugzeugmodelle der 9 Typen"},
         {route:"baumarten", label:"Baumarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function flugzeugmodelleDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Flugzeugmodelle der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Neun Flugzeuge \u2013 jedes ein Meisterwerk der Ingenieurskunst, jedes mit einem unverwechselbaren Charakter und Zweck. Vom Kampfjet bis zum Rettungshubschrauber, vom Oldtimer-Doppeldecker bis zum Langstrecken-Business-Jet: Welches Enneagrammprinzip steckt hinter diesen neun Flugzeugtypen?</p>
-      <img src="./assets/flugzeugmodelle-der-9-typen.jpg" alt="Flugzeugmodelle der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Airbus A-380: Pr\u00e4zision im gro\u00dfen Ma\u00dfstab</h3>
-        <p class="vb-intro">Der Airbus A-380 ist das gr\u00f6\u00dfte Passagierflugzeug der Welt \u2013 und das pr\u00e4ziseste. Entwickelt von \u00fcber 1.500 Ingenieuren in sieben L\u00e4ndern, tr\u00e4gt er bis zu 853 Passagiere \u00fcber Distanzen von mehr als 15.000 Kilometern, mit einem L\u00e4rmpegel, der trotz seiner Gr\u00f6\u00dfe leiser ist als viele kleinere Flugzeuge. Jede Niete, jede Schwei\u00dfnaht, jede Systemredundanz folgt einem ausgefeilten Plan. Was den A-380 auszeichnet, ist nicht blo\u00dfe Gr\u00f6\u00dfe, sondern die Konsequenz, mit der er seinen Auftrag erf\u00fcllt: zuverl\u00e4ssig, leise, effizient \u2013 alles an seinem richtigen Platz. Das Prinzip des Enneagrammtyps 1: Gr\u00f6\u00dfe verpflichtet. Der A-380 ist nicht deshalb der beste, weil er der gr\u00f6\u00dfte ist \u2013 sondern weil er in seiner Gr\u00f6\u00dfe keine Abstriche bei der Pr\u00e4zision macht.</p>
-        <p class="vb-intro">Der vielleicht eindrucksvollste Beweis f\u00fcr diese Verbindung ist Prinz Al-Waleed bin Talal \u2013 saudi-arabischer Milliard\u00e4r, einer der reichsten Menschen der Welt und vom Enneagramm her nach Einsch\u00e4tzung von Detlef Rathmer eine Selbsterhaltungs-Eins mit Neunerfl\u00fcgel (SE1w9). Er lie\u00df einen Airbus A-380 zu einem fliegenden Palast ausbauen: mit Thronsaal, Konzertfl\u00fcgel, Schlafgem\u00e4chern, einer Garage f\u00fcr sein Auto und einem Aufenthaltsbereich, der einem F\u00fcnf-Sterne-Hotel entspricht. Das ist nicht Protzerei \u2013 das ist die Selbsterhaltungs-Eins in ihrer unverfälschtesten Gestalt: vollst\u00e4ndig vorbereitet sein, alles Notwendige immer dabei haben, auf keine \u00e4u\u00dfere Ressource angewiesen sein. Ein Konzertfl\u00fcgel an Bord \u2013 das ist bewusst gewählt – ein Statement des Typ-1-Prinzips: Der Fl\u00fcgel ist das vielleicht pr\u00e4ziseste Instrument der klassischen Musik, gebaut auf hundertstel Millimeter genau, gestimmt auf physikalische Gesetze, die keine Kompromisse dulden. Ob Al-Waleed selbst spielt oder schlicht die Gegenwart dieses Instruments als Ausdruck von Vollkommenheit sch\u00e4tzt \u2013 es geh\u00f6rt f\u00fcr ihn zur Grundausstattung. Er kommt nicht als K\u00f6nig an. Er reist als K\u00f6nig.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Eurocopter EC-145: Hilfe, die kommt</h3>
-        <p class="vb-intro">Der Eurocopter EC-145 ist der Rettungshubschrauber der deutschen Luftrettung \u2013 das rote Fahrzeug mit dem DRF-Logo, das Menschen in ihrer schlimmsten Stunde erreicht, wenn kein anderes Fahrzeug mehr rechtzeitig kommen kann. Er landet auf Berggipfeln, Autobahnen, engen Hofeinfahrten, Meeresstr\u00e4nden. Sein einziger Zweck: zum anderen kommen, so schnell wie m\u00f6glich, und helfen. Der EC-145 hat keine Waffensysteme, keine Luxusausstattung, keinen Statuscharakter. Er ist vollst\u00e4ndig auf den Anderen ausgerichtet. Das Prinzip des Enneagrammtyps 2: Das wichtigste Flugzeug ist nicht das schnellste oder das gr\u00f6\u00dfte \u2013 sondern das, das kommt, wenn niemand sonst kommt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Bombardier Global 6000: Erfolg auf Reisen</h3>
-        <p class="vb-intro">Der Bombardier Global 6000 ist der Business-Jet der Weltklasse: 11.000 Kilometer Reichweite, bis zu 17 Passagiere, eine Kabine mit stehendem Innenraum, Schlafkojen und Konferenzbereich \u2013 und das alles in einer Reisezeit, die jeden kommerziellen Flug um Stunden schl\u00e4gt. Er fliegt CEOs zu \u00dcbernahmeverhandlungen, Staatschefs zu Gipfeltreffen, Investoren zu ihren n\u00e4chsten Deals. Der Global 6000 ist nicht nur Transportmittel \u2013 er ist ein Signal: Die Zeit dieser Person ist zu wertvoll, um sie mit anderen zu teilen. Das Prinzip des Enneagrammtyps 3: Effizienz ist keine Bequemlichkeit \u2013 sie ist Respekt vor dem eigenen Potenzial. Wer direkt ans Ziel fliegt, verliert keine Zeit an Zwischenlandungen.</p>
-        <p class="vb-intro">Larry Ellison \u2013 Gr\u00fcnder und langj\u00e4hriger CEO von Oracle, einer der reichsten Menschen der Welt \u2013 ist ein sozialer Typ Drei mit Viererfl\u00fcgel (SO3w4). Er besitzt mehrere Bombardier-Businessjets und nutzt sie als das, was sie f\u00fcr den sozialen Dreier sind: B\u00fchne und Werkzeug zugleich. Der soziale Dreier will nicht nur erfolgreich sein \u2013 er will als erfolgreich wahrgenommen werden, will Ma\u00dfst\u00e4be setzen und andere inspirieren. Ellison ist bekannt daf\u00fcr, dass er nicht nur Oracle aufbaute, sondern auch den America's Cup gewann, eine hawaiianische Insel kaufte und Tesla-Aktion\u00e4r wurde \u2013 immer mit dem Anspruch, der Beste in dem zu sein, was er tut. Der Viererfl\u00fcgel gibt ihm dabei eine ungew\u00f6hnliche Tiefe: Er ist nicht nur ehrgeizig, er ist auch \u00e4sthetisch \u2013 seine Yacht, sein Anwesen, sein Jet sind immer auch Ausdruck eines pers\u00f6nlichen Stils.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Piper Cub: Freiheit in der Einfachheit</h3>
-        <p class="vb-intro">Die Piper Cub ist das romantischste aller Flugzeuge: gelb, offen, langsam, dicht \u00fcber den Baumwipfeln. Seit 1937 produziert und kaum ver\u00e4ndert, ist sie das Flugzeug der Freigeister \u2013 der Farmer, die \u00fcber ihre Felder fliegen, der K\u00fcnstler, die Landschaften aus der Vogelperspektive erkunden, der Tr\u00e4umer, f\u00fcr die Fliegen kein Transport ist, sondern Ausdruck. Die Piper Cub fliegt bei offenem Fenster, der Wind kommt direkt ins Cockpit. Sie ist nicht schnell. Sie ist nicht komfortabel. Sie ist einzigartig in ihrer Einfachheit und genau deshalb unvergesslich. Das Prinzip des Enneagrammtyps 4: Das sch\u00f6nste Flugzeug ist nicht das leistungsst\u00e4rkste \u2013 sondern das, das dem Piloten das Gef\u00fchl gibt, wirklich zu fliegen. Mit der Piper Cub ber\u00fchrt man den Himmel pers\u00f6nlich.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Boeing E-3 Sentry (AWACS): Der fliegende Beobachter</h3>
-        <p class="vb-intro">Der Boeing E-3 Sentry ist kein Kampfflugzeug \u2013 er ist ein fliegendes Analysezentrum. AWACS steht f\u00fcr Airborne Warning and Control System: ein umgebauter Boeing 707 mit einer riesigen Radarscheibe auf dem R\u00fccken, der aus gro\u00dfer H\u00f6he das gesamte Luftbild eines Konfliktes erfasst, auswertet und koordiniert. Er schie\u00dft nicht, er wirft keine Bomben \u2013 er sieht alles, analysiert alles und gibt dieses Wissen weiter. Ein E-3-Crewmitglied verbringt seinen Einsatz vor Bildschirmen voller Datenpunkte, die er in Lagebild und Strategie \u00fcbersetzt. Das Prinzip des Enneagrammtyps 5: Wissen ist Macht \u2013 aber nur, wenn es verstanden ist. Der AWACS gewinnt keine Schlachten durch St\u00e4rke, sondern durch vollst\u00e4ndige \u00dcbersicht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Lockheed C-130 Hercules: Der verl\u00e4sslichste Tr\u00e4ger der Welt</h3>
-        <p class="vb-intro">Die Lockheed C-130 Hercules ist seit 1954 in Produktion \u2013 und wird es noch heute. Kein anderes Milit\u00e4rflugzeug hat so viele Varianten, so viele Einsatzl\u00e4nder, so viele Jahrzehnte \u00fcberlebt. Die Hercules landet auf unbefestigten Pisten in der W\u00fcste, auf Eis in der Antarktis, auf H\u00f6henflugpl\u00e4tzen in den Anden. Sie versorgt Truppen, transportiert Hilfsg\u00fcter nach Katastrophen, evakuiert Zivilisten aus Krisengebieten. \u00dcber 70 Nationen vertrauen ihr. Sie hat keine elegante Linienf\u00fchrung \u2013 aber sie kommt immer an. Das Prinzip des Enneagrammtyps 6: Das verl\u00e4sslichste Flugzeug der Geschichte ist nicht das sch\u00f6nste oder das schnellste. Es ist das, das seit 70 Jahren nie aufgeh\u00f6rt hat, seine Pflicht zu erf\u00fcllen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Extra EA-300: Abenteuer in drei Dimensionen</h3>
-        <p class="vb-intro">Die Extra EA-300 ist das spektakul\u00e4rste Kunstflugzeug der Welt: gebaut f\u00fcr Figuren, die kein anderes Flugzeug \u00fcberlebt, mit einer Belastbarkeit von +10/-10 G und einer Wendegeschwindigkeit, die Piloten zu Weltmeistern macht. Sie wurde von Walter Extra in Dinslaken entworfen \u2013 einem deutschen Ingenieur, der das Kunstfliegen als Hochleistungssport neu definierte. Extra EA-300-Piloten fliegen senkrechte Messerfl\u00fcge, R\u00fcckenflug, Torques und Flatspin-Man\u00f6ver, die dem Publikum den Atem verschlagen. Das Flugzeug lebt f\u00fcr den Moment, f\u00fcr die Freude am K\u00f6nnen. Das Prinzip des Enneagrammtyps 7: Der Himmel ist kein Weg \u2013 er ist ein Spielfeld. Die Extra EA-300 verwandelt jeden Horizont in eine neue M\u00f6glichkeit.</p>
-        <p class="vb-intro">John Travolta \u2013 Schauspieler, T\u00e4nzer und leidenschaftlicher Pilot \u2013 ist eine sexuelle Sieben mit Achterfl\u00fcgel (SX7w8). Er besitzt mehrere Flugzeuge, flog jahrzehntelang selbst Boeing 707 und Gulfstream-Jets und hat das Fliegen als zweite Lebensidentit\u00e4t neben der Schauspielerei etabliert. Der sexuelle Siebener mit Achterfl\u00fcgel lebt Abenteuer intensiv und k\u00f6rperlich \u2013 nicht als Zuschauer, sondern als Akteur. Travolta wollte nicht nur in Filmen Helden spielen, er wollte selbst einer sein: am Steuer, in der Luft, mit vollem K\u00f6rpereinsatz. Das Achter-Feuer gibt ihm dabei die Entschlossenheit, Grenzen zu \u00fcberschreiten \u2013 auch im Cockpit. Die Extra EA-300 mit ihren \u00b110 G ist genau das richtige Flugzeug f\u00fcr jemanden, dem der Horizont nie weit genug ist.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 F-16 Fighting Falcon: Ungeb\u00e4ndigte Luft\u00fcberlegenheit</h3>
-        <p class="vb-intro">Die F-16 Fighting Falcon ist einer der erfolgreichsten Kampfjets der Geschichte: \u00fcber 4.600 gebaut, in mehr als 25 Nationen im Einsatz, mit einer Kampfbilanz von \u00fcber 70 Luftsiegen ohne einen einzigen Verlust im Luftkampf. Sie wurde in den 1970er Jahren entwickelt mit einer klaren Maxime: \u00dcberlegenheit durch Agilit\u00e4t. Die F-16 ist kleiner als viele ihrer Feinde, aber schneller, wendiger, direkter. Im Cockpit sitzt der Pilot in einem 30-Grad-Schleudersitz, der G-Kr\u00e4fte bis 9 G erm\u00f6glicht \u2013 mehr als jeder andere Jet seiner Zeit. Sie k\u00e4mpft, um zu gewinnen. Das Prinzip des Enneagrammtyps 8: Dominanz entsteht nicht durch Gr\u00f6\u00dfe \u2013 sondern durch die Entschlossenheit, jeden Konfrontationsvorteil zu nutzen. Die F-16 fragt nicht. Sie handelt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Cessna 172: Ruhe \u00fcber den Wolken</h3>
-        <p class="vb-intro">Die Cessna 172 ist das meistgebaute Flugzeug der Geschichte: \u00fcber 44.000 St\u00fcck seit 1956, noch heute in Produktion. Sie ist das erste Flugzeug, das die meisten Piloten der Welt fliegen lernten \u2013 gutm\u00fctig, stabil, verzeihend. Sie ist nicht schnell, nicht glamour\u00f6s, nicht f\u00fcr Extremman\u00f6ver ausgelegt. Aber sie fliegt \u00fcberall, mit fast jedem, sicher und ruhig. Ein Cessna-172-Pilot, der in ruhiger Luft \u00fcber einer Landschaft gleitet, erlebt etwas Seltenes: vollkommene Stille bei gleichzeitiger Bewegung. Das Flugzeug erfordert wenig Kraft \u2013 es m\u00f6chte von allein geradeaus fliegen. Das Prinzip des Enneagrammtyps 9: Das harmonischste Flugzeug der Welt braucht keine Unterwerfung des Himmels. Es gleitet einfach mit \u2013 und findet dabei seinen eigenen Frieden.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"brillenmodelle-der-9-typen", label:"Brillenmodelle der 9 Typen"},
-        {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
-        {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
       ])}
     </div>
   `);

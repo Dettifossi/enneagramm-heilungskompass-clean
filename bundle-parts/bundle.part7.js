@@ -5386,6 +5386,72 @@ function paulGauguinPortraitPage() {
   `);
 }
 
+function sallyRooneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sally-rooney-portrait.jpg" alt="Sally Rooney" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sally Rooney</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Irische Schriftstellerin, geb. 1991 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sally Rooney wurde 1991 im westirischen Castlebar geboren; ihre Mutter leitete ein örtliches Kulturzentrum, ihr Vater arbeitete für die irische Telefongesellschaft. Schon als Kind schrieb sie viel, blieb dabei aber sozial zurückhaltend – eine stille Beobachterin, die ihre Umgebung genau registrierte, ohne sich selbst in den Vordergrund zu drängen.</p>
+          <p class="vb-intro">Am Trinity College Dublin studierte sie englische Literatur und trat parallel als Wettkampf-Debattiererin an – ein scheinbarer Widerspruch zur zurückhaltenden Beobachterin, der sich aus SE4w5-Perspektive auflöst: Nicht das Rampenlicht selbst reizte sie, sondern die strukturierte, analytisch durchdachte Auseinandersetzung mit einer Sache.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Die Grenze zwischen Leben und Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht öffentlich vor sich her, sondern erträgt es stoisch – sie sagt sich: Ich leide besser, stiller, tiefer als andere, und genau darin liegt meine Würde. Rooney formulierte das selbst unmissverständlich: „Ich habe keinen Appetit darauf, über mich selbst und Dinge zu schreiben, die mir tatsächlich passiert sind" – ihre eigenen Erfahrungen dienen ihr stattdessen als eine Art ›mentale Bibliothek‹, aus der sie beim Schreiben schöpft, ohne sie direkt preiszugeben.</p>
+          <p class="vb-intro">Trotz internationalen Ruhms durch ›Conversations with Friends‹ (2017) und ›Normal People‹ (2018) blieb sie öffentlichen Auftritten und Medienrummel gegenüber ausgesprochen zurückhaltend: „Ich bin wirklich paranoid, was mein Privatleben angeht. Ich fühle mich selbstbewusst darüber", sagte sie in einem Interview – die Grenze zwischen ihrem öffentlichen und privaten Leben zu wahren, beschrieb sie als ständige, bewusste Sorge in einem Medienumfeld, das diese Grenze nicht immer respektiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Denksystem hinter der Erzählung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Schmerz – das Gefühl wird nicht nur durchlebt, sondern in ein durchdachtes, oft geradezu theoretisches Gedankengebäude gefasst. 2011 wurde Rooney bei den European Universities Debating Championships zur besten Einzelrednerin gekürt – ein intensives Training in Rhetorik, schnellem analytischem Denken und strukturierter Argumentation, das sich direkt in ihrer scharfen, intellektuell durchdrungenen Dialogführung und den fein austarierten ideologischen Auseinandersetzungen ihrer Romanfiguren niederschlägt.</p>
+          <p class="vb-intro">Rooney bezeichnet sich selbst als Marxistin, und ihre Romane verhandeln Klassenungleichheit, Intimität und Politik nicht beiläufig, sondern als durchdachtes theoretisches Gerüst, auf dem die emotionale Handlung aufbaut. Wenn sie beim Schreiben an einem Roman feststeckt, greift sie gezielt zu philosophischen Werken – bei ihrem Roman ›Intermezzo‹ etwa half ihr die Lektüre von Wittgensteins „Philosophischen Untersuchungen", einen Weg zum Abschluss des Buches zu finden. Kein spontanes Schreiben, sondern ein System, das sich bei Bedarf aus einem größeren Denkgebäude bedient.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Entscheidung gegen die hebräische Übersetzung, 2021</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Oktober 2021 lehnte Rooney es ab, die Rechte für eine hebräische Übersetzung ihres Romans ›Beautiful World, Where Are You?‹ an denselben israelischen Verlag zu vergeben, der zuvor bereits ihre früheren Bücher auf Hebräisch veröffentlicht hatte. Sie begründete den Schritt mit ihrer Unterstützung der BDS-Bewegung (Boycott, Divestment, Sanctions) und der Forderung, ein Verlag müsse sich öffentlich vom israelischen Apartheidsystem distanzieren und die von den Vereinten Nationen festgelegten Rechte des palästinensischen Volkes unterstützen.</p>
+          <p class="vb-intro">Die Entscheidung löste weltweit heftige Kontroversen aus, Boykottaufrufe gegen ihr eigenes Werk eingeschlossen – sie zog sie dennoch nicht zurück. Kein lautes politisches Auftreten, sondern eine still im Hintergrund getroffene, klar durchdachte und konsequent durchgehaltene Entscheidung: die Fünf, die ihre politische Überzeugung als geschlossenes Prinzip behandelt, das nicht verhandelbar ist, sobald es einmal durchdacht wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>ein durchdachtes theoretisches Weltbild mit unmittelbar berührender emotionaler Erzählung</strong> zu verbinden – Rooneys Romane gelten als literarische Stimme einer ganzen Generation, weil sie intellektuelle Schärfe und intime, oft schmerzhaft genaue Beobachtung menschlicher Nähe nie gegeneinander ausspielt, sondern miteinander verwebt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der beständigen inneren Anspannung, die eigene Person aus dem öffentlichen Bild herauszuhalten: Rooney beschreibt sich selbst als „wirklich paranoid" in Bezug auf ihr Privatleben und meidet Interviews, Social Media und öffentliche Auftritte so konsequent, dass ihre Zurückhaltung selbst zum medialen Thema wurde – eine Taube, die gerade durch ihre Unsichtbarkeit auffällt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube in der mentalen Bibliothek</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sally Rooney gilt als eine der prägendsten literarischen Stimmen ihrer Generation – nicht weil sie ihr eigenes Leben öffentlich ausbreitet, sondern weil sie aus stiller, sorgsam gehüteter innerer Erfahrung ein durchdachtes, theoretisch fundiertes literarisches Werk formt, das Millionen Leserinnen und Leser weltweit unmittelbar berührt.</p>
+          <p class="vb-intro">Die Taube, die als Kind eine stille Beobachterin war, sich als Debattiererin ein scharfes analytisches Denksystem erarbeitete und die bis heute entschlossen die Grenze zwischen dem eigenen Leben und dem literarischen Werk verteidigt – das ist das bleibende Bild dieses Subtyps: eine Tiefe, die sich nicht öffentlich zeigt, sondern in eine sorgsam durchdachte Form übersetzt wird, bevor sie die Welt erreicht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-virginia-woolf", label:"Porträt: Virginia Woolf (SE4w5)"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-miguel-de-unamuno", label:"Porträt: Miguel de Unamuno (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function virginiaWoolfPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -5444,8 +5510,8 @@ function virginiaWoolfPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-sally-rooney", label:"Porträt: Sally Rooney (SE4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
-        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
       ])}
     </div>
@@ -7457,70 +7523,4 @@ function alanMcelligottPortraitPage() {
     </div>
   `);
 }
-
-function carlRogersPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-carl-rogers-portrait.jpg" alt="Dr. Carl Rogers – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dr. Carl Rogers</p>
-        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Psychologe, Begr\u00fcnder der klientenzentrierten Gespr\u00e4chstherapie, 1902&ndash;1987 &ndash; Tierentsprechung: Faultier</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Faultier</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht k\u00e4mpft, nicht jagt, nicht dr\u00e4ngt. Es h\u00e4ngt einfach da, vollkommen pr\u00e4sent, und l\u00e4sst die Dinge zu sich kommen. Wer sich ihm n\u00e4hert, sp\u00fcrt keine Bedrohung, keine Bewertung &ndash; nur eine stille, tragende Anwesenheit, in der man selbst ganz sein darf.</p>
-          <p class="vb-intro">Der US-amerikanische Psychologe Carl Rogers, 1902 in Oak Park, Illinois geboren, war genau dieses Faultier: kein Therapeut, der urteilte, diagnostizierte oder von oben herab Ratschl\u00e4ge erteilte, sondern einer, der einfach da war &ndash; mit einer Gegenwart, die so bedingungslos annehmend war, dass Menschen in ihr zum ersten Mal wagten, sich selbst zu zeigen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung ohne Bewertung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollst\u00e4ndiges Eintauchen in eine andere Person oder eine Erfahrung, ohne die eigene Position dazwischenzuschieben. Die SX9 verliert sich nicht aus Schw\u00e4che im Gegen\u00fcber, sondern weil sie genau darin ihre tiefste Form der Verbindung findet &ndash; ein Zustand, in dem kein Urteil, keine Trennung, kein Bewerten mehr existiert.</p>
-          <p class="vb-intro">Rogers begann seine Laufbahn urspr\u00fcnglich am Union Theological Seminary, wechselte aber zur Psychologie, nachdem er in der klinischen Arbeit mit Kindern erkannte, dass Menschen ihre eigenen Antworten in sich tragen &ndash; wenn man ihnen nur den Raum daf\u00fcr gibt. Diese Grund\u00fcberzeugung, dass ein Mensch sich am besten entfaltet, wenn man sich ganz auf ihn einl\u00e4sst, statt ihn zu belehren, ist die SX9 in ihrer reinsten fachlichen Auspr\u00e4gung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Prinzip statt Beliebigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel</strong> verleiht der sexuellen Neun eine Qualit\u00e4t, die \u00fcber reines Verschmelzen hinausgeht: eine klare, fast disziplinierte Verpflichtung auf ein Prinzip. Die <strong>SX9w1</strong> verschmilzt nicht beliebig mit allem &ndash; sie verschmilzt konsequent mit einer Haltung, der sie sich mit gro\u00dfer innerer Genauigkeit verschreibt.</p>
-          <p class="vb-intro">Rogers formulierte seine drei \u201eKernbedingungen" f\u00fcr therapeutische Ver\u00e4nderung &ndash; bedingungslose positive Wertsch\u00e4tzung, Empathie und Kongruenz &ndash; mit der Pr\u00e4zision eines Wissenschaftlers und der Beharrlichkeit eines Prinzipientreuen. Er verteidigte diese Haltung jahrzehntelang gegen eine Fachwelt, die von Diagnose, Deutung und therapeutischer Autorit\u00e4t gepr\u00e4gt war. Der Einserfl\u00fcgel gab ihm die Klarheit, sein Prinzip nicht zu verw\u00e4ssern &ndash; auch wenn es gegen den damaligen Mainstream der Psychotherapie stand.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Methode: Der wertfreie Raum</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Rogers' zentrale Erkenntnis war denkbar einfach und zugleich radikal: Ver\u00e4nderung entsteht nicht dadurch, dass ein Therapeut den Klienten repariert, sondern dadurch, dass er ihm einen Raum bietet, in dem keine Bewertung stattfindet. In diesem Raum &ndash; getragen von <em>bedingungsloser positiver Wertsch\u00e4tzung</em> &ndash; muss sich niemand verstellen, rechtfertigen oder ein bestimmtes Bild von sich aufrechterhalten. Genau das ist die SX9 in ihrer therapeutischen Vollendung: eine Pr\u00e4senz, die so vollst\u00e4ndig frei von Urteil ist, dass der andere sich darin selbst wieder begegnen kann.</p>
-          <p class="vb-intro">Diese Haltung war keine Technik im herk\u00f6mmlichen Sinn, sondern eine Seinsweise. Rogers verzichtete bewusst auf Deutung und Diagnose &ndash; die klassischen Werkzeuge der Autorit\u00e4t in der Psychotherapie seiner Zeit &ndash; und ersetzte sie durch etwas, das viel schwerer zu erlernen ist: echtes, urteilsfreies Zuh\u00f6ren. Er nannte dies \u201eklientenzentrierte" (sp\u00e4ter \u201epersonzentrierte") Therapie, weil nicht der Experte, sondern der Klient selbst der Mittelpunkt und die eigentliche Autorit\u00e4t \u00fcber sein Erleben war. Sein 1961 erschienenes Buch <em>On Becoming a Person</em> wurde zu einem der einflussreichsten Werke der Psychotherapiegeschichte und pr\u00e4gte Generationen von Beratern, Lehrern und Eltern weit \u00fcber die Therapie hinaus.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w1 ist ihre <strong>F\u00e4higkeit, einen Raum zu schaffen, in dem ein anderer Mensch zum ersten Mal ganz er selbst sein darf</strong>. Rogers' Ansatz ver\u00e4nderte nicht nur die Psychotherapie, sondern auch P\u00e4dagogik, Konfliktvermittlung und F\u00fchrung &ndash; \u00fcberall dort, wo Menschen aufbl\u00fchen, wenn man ihnen wertfreies Vertrauen entgegenbringt, statt sie zu kontrollieren.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser vollst\u00e4ndigen Verschmelzung: Kritiker warfen dem klientenzentrierten Ansatz vor, in manchen F\u00e4llen zu wenig Struktur und Konfrontation zu bieten &ndash; gerade bei Klienten, die klare Grenzen oder aktive Anleitung brauchten, statt nur gespiegelt zu werden. Die SX9, die sich ganz in die Verbindung aufl\u00f6st, kann dabei die eigene Position, die eigene F\u00fchrung aus dem Blick verlieren &ndash; ein Preis, den auch Rogers' Methode in bestimmten Grenzf\u00e4llen zahlte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Faultier, das zuh\u00f6rte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Carl Rogers starb 1987, kurz nachdem er f\u00fcr den Friedensnobelpreis nominiert worden war &ndash; f\u00fcr seine Arbeit an Konfliktvermittlung in Krisenregionen wie Nordirland und S\u00fcdafrika, die auf denselben Prinzipien beruhte wie seine Therapie: zuh\u00f6ren, ohne zu urteilen. 1947 war er Pr\u00e4sident der American Psychological Association geworden &ndash; ein Beweis daf\u00fcr, dass sein leiser, unaufdringlicher Ansatz die Fachwelt letztlich \u00fcberzeugte, nicht weil er lauter war, sondern weil er wirkte.</p>
-          <p class="vb-intro">Was bleibt, ist eine der einfachsten und zugleich schwersten Erkenntnisse der Psychologie: dass Menschen sich nicht durch Druck ver\u00e4ndern, sondern durch echte, wertfreie Begegnung. Das Faultier h\u00e4ngt bewegungslos da &ndash; und genau darin liegt seine ganze Kraft. Es dr\u00e4ngt nicht, es wertet nicht, es verschmilzt einfach mit dem, was ist. Und in diesem Raum wird Heilung m\u00f6glich.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-        </blockquote>
-
-        ${relatedLinks([
-          {route:"beruehmte-hundertwasser", label:"Portr\xe4t: Friedensreich Hundertwasser (SX9w8)"},
-          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-dakota-johnson", label:"Portr\xe4t: Dakota Johnson (SX9w8)"},
-          {route:"bibel-mutter-maria", label:"Bibel-Porträt: Mutter Maria (SX9w1)"},
-        ])}
-      </div>
-    </div>
-  `);
-}
-
 

@@ -1,3 +1,65 @@
+function dollyPartonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dolly-parton-portrait.jpg" alt="Dolly Parton – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dolly Parton</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, Songwriterin &amp; Unternehmerin, 1946&ndash;2026, geb. in Locust Ridge, Tennessee &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, das nicht trotz, sondern wegen seiner Auffälligkeit überlebt, dessen Wirkung aus reiner, selbstbewusst zur Schau gestellter Präsenz entsteht. Kaum jemand hat dieses Prinzip so unverwechselbar zur eigenen Marke gemacht wie Dolly Parton: die überdimensionierte blonde Perücke, das strassbesetzte Bühnenkostüm, die betont weibliche Silhouette &ndash; ein Erscheinungsbild, das sie selbst mit einem einzigen, legendären Satz erklärt: „Es kostet eine Menge Geld, so billig auszusehen.“</p>
+          <p class="vb-intro">Die amerikanische Sängerin und Songwriterin wurde am 19. Januar 1946 in einer Blockhütte in Locust Ridge, Tennessee, geboren &ndash; das vierte von zwölf Kindern einer bettelarmen Familie in den Great Smoky Mountains. Als Vorbild für ihre spätere Selbstinszenierung nannte sie später eine Frau aus ihrer Kindheit, die im Dorf als „Flittchen“ verschrien war, deren grelle Erscheinung die junge Dolly aber fasziniert statt abgeschreckt habe: „Ich dachte, sie sei die schönste Sache, die ich je gesehen hatte.“</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als bewusst gebaute Bühnenfigur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht den abstrakten Erfolg vor einer breiten Öffentlichkeit wie die soziale Drei, sondern unmittelbare, körperlich-charismatische Präsenz. Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten Form. Partons ikonisches Äußeres &ndash; Silikon, Perücken, körperbetonte Kostüme, meterlange Wimpern &ndash; ist keine zufällige Marotte, sondern eine bewusst gebaute, jahrzehntelang konsequent gepflegte Kunstfigur, die sie selbst gerne als „billig aussehende Frau, die es sich leisten kann, teuer zu wirken“ beschreibt.</p>
+          <p class="vb-intro">Bereits 1967 holte der Countrysänger Porter Wagoner die junge Parton in seine landesweit ausgestrahlte TV-Show &ndash; der Beginn einer Karriere, die sie über Solo-Alben, Filmrollen und eigene Fernsehformate bis an die Spitze der Countrymusik trug. Die SX3 zieht an, und Parton verstand früh, dass sich diese Anziehungskraft nicht auf ein einziges Medium beschränken muss: Musik, Film, Fernsehen, Freizeitpark &ndash; überall dieselbe unverwechselbare Präsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Wunde hinter dem Glitzer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine emotionale Tiefe und erzählerische Authentizität, die weit über reine Oberflächenwirkung hinausgeht &ndash; die Bühnenfigur bleibt an eine sehr persönliche, oft schmerzhafte Innenwelt rückgebunden. Genau das zeigt sich in Partons Songwriting: „Coat of Many Colors“ (1971) erzählt unverblümt von der Armut ihrer Kindheit und dem selbstgenähten Flickenmantel, für den sie als Schulkind verspottet wurde. „Jolene“ (1973) besingt die nackte Angst, einen geliebten Menschen an eine schönere Rivalin zu verlieren &ndash; eine Verletzlichkeit, die im schrillen Rampenlicht der Drei sonst kaum Platz hätte.</p>
+          <p class="vb-intro">Auch „I Will Always Love You“, 1973 geschrieben als Abschied an ihren langjährigen Mentor Porter Wagoner, verdankt seine Wirkung genau dieser Kombination: eine große, öffentlichkeitswirksame Geste (später durch Whitney Houstons Version 1992 zum meistverkauften Single-Hit einer Solokünstlerin) und zugleich eine zutiefst persönliche, fast intime Emotion darunter. Der Viererflügel fragt immer wieder: Wie mache ich aus dem, was mich innerlich bewegt, ein Bild oder einen Song, der niemanden kaltlässt?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 ist die Fähigkeit, aus einer jahrzehntelang gepflegten, hochglänzenden Bühnenfigur heraus ein vielschichtiges, künstlerisch ernsthaftes Lebenswerk zu bauen &ndash; über 3.000 geschriebene Songs, elf Grammys, ein eigener Freizeitpark (Dollywood, eröffnet 1986 in ihrer Heimatregion) und die Imagination Library, eine Stiftung, die seit 1995 weltweit über 200 Millionen Bücher kostenlos an Kinder verschenkt hat.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> &ndash; die Überzeugung, dass das eigene Image mit dem eigenen Wert identisch sei. Bei der SX3w4 kann das zur ständigen Notwendigkeit werden, sich immer glänzender zu inszenieren, um nicht als das verletzliche, arme Bergmädchen von einst gesehen zu werden. Bemerkenswert an Parton ist jedoch, wie bewusst sie diese Maske selbst reflektiert: „Ich sehe aus wie eine Kunstfigur, aber im Inneren weiß ich genau, wer ich bin“, sagte sie einmal &ndash; eine seltene Klarheit über das eigene Muster, statt ihm blind zu unterliegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Die stille Konstante hinter dem Glitzer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dolly Partons Karriere lässt sich als fortlaufende Übersetzung persönlicher Anziehungskraft in immer neue Bühnen lesen: von der ländlichen Radioshow zur Countrymusik-Ikone, von der Sängerin zur Filmschauspielerin (u. a. „9 to 5“, 1980, samt gleichnamigem Nummer-eins-Hit), von der Songwriterin zur Unternehmerin mit eigenem Freizeitpark. Jede Station bleibt an dieselbe Grundfähigkeit gebunden &ndash; Aufmerksamkeit zu erregen und sie in etwas Bleibendes zu verwandeln.</p>
+          <p class="vb-intro">Auffällig unter all dem schrillen Glanz ist eine einzige, außergewöhnlich stabile Konstante: ihre Ehe mit dem Geschäftsmann Carl Dean, den sie 1966 kennenlernte und 1966 heiratete &ndash; fast sechzig Jahre, in denen Dean die Öffentlichkeit fast vollständig mied und kaum je an ihrer Seite fotografiert wurde, bis zu seinem Tod im März 2025. Die Pfau-Feder nach außen, die stille Zurückgezogenheit im Innersten: Bei kaum einer anderen SX3w4 zeigt sich der Kontrast zwischen glitzernder Bühnenfigur und geschütztem Privatleben so deutlich wie bei Dolly Parton.</p>
+          <p class="vb-intro" style="margin-top:1rem;">Nur eineinhalb Jahre nach Deans Tod starb Dolly Parton selbst am 25. August 2026 in Nashville im Alter von 80 Jahren, nach eigenen Angaben ihres Umfelds nach kurzer Krebserkrankung. Sie hatte in ihren letzten Lebensjahren offen eingeräumt, die eigene Gesundheit während der Pflege ihres Mannes vernachlässigt zu haben &ndash; ein letztes, leises Muster der SX3w4: Die volle Wirkung nach außen zu wahren, bis zuletzt aufzutreten und öffentlich zu strahlen, während die eigene Verletzlichkeit hinter der Bühne nur zögerlich zugegeben wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-marlene-zuk", label:"Portrait: Marlene Zuk (SX3w4)"},
+        {route:"krankheitsportraets-dolly-parton", label:"Krankheitsporträt: Dolly Parton (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function tomKaulitzPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7217,71 +7279,4 @@ function sadhguruPortraitPage() {
   `);
 }
 
-
-function josephHaydnPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-joseph-haydn-portrait.jpg" alt="Joseph Haydn" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Joseph Haydn</p>
-        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Österreichischer Komponist, 1732–1809 – Tierentsprechung: Waschbär</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das beim ersten Hinsehen unscheinbar wirkt, geschickt, anpassungsfähig, ohne das Bedürfnis, im grellen Licht zu stehen. Joseph Haydn war genau dieser Waschbär: kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven, sondern ein Mann, der drei Jahrzehnte lang loyal in einem einzigen Dienstverhältnis arbeitete – und daraus das umfangreichste, verlässlichste Lebenswerk der Wiener Klassik schuf.</p>
-          <p class="vb-intro">Der \u00f6sterreichische Komponist Joseph Haydn, geboren 1732 in Rohrau als Sohn eines Wagners, wurde als Kind Chorknabe am Stephansdom in Wien, bis ihm der Stimmbruch diese Existenz nahm. Es folgten Jahre als freischaffender, oft mittelloser Musiker, bevor er 1761 in den Dienst der Fürstenfamilie Esterházy trat – eine Anstellung, die er, mit wachsender Machtfülle und wachsendem Ruhm, bis kurz vor seinem Lebensende nie wirklich verließ.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch stille Leistung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der am wenigsten wie eine Drei wirkt. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Statt auf der Bühne zu glänzen, richtet die SE3 ihre Energie auf Kompetenz, Aufbau, Verlässlichkeit. Kein Auftritt um seiner selbst willen, sondern Wirksamkeit im Dienst eines größeren Ganzen.</p>
-          <p class="vb-intro">Bei Haydn zeigt sich das in einer schier unfassbaren Produktivität ohne Starallüren: 104 Symphonien, 68 Streichquartette, Dutzende Klaviersonaten, Messen, Oratorien – entstanden in einem geregelten, fast handwerklichen Tagesablauf am Hof der Esterházys. Er selbst sagte später, die Abgeschiedenheit des Fürstensitzes Eszterháza habe ihn gezwungen, "originell zu werden", weil er niemanden hatte, den er nachahmen konnte. Die SE3 investiert in Wirksamkeit, nicht in Image – das Image entstand bei Haydn erst als Nebenprodukt jahrzehntelanger, unspektakulärer Beständigkeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Führungsstil</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und Fürsorge. Haydns Orchestermusiker nannten ihn liebevoll "Papa Haydn" – ein Spitzname, den sich nur verdient, wer als Vorgesetzter tatsächlich für seine Leute sorgt. Als seine Musiker 1772 lange von ihren Familien getrennt waren, komponierte er statt einer direkten Beschwerde die "Abschiedssymphonie": Im letzten Satz verlassen die Musiker nacheinander die Bühne und löschen ihre Kerzen, bis nur noch zwei Violinen übrig bleiben – eine musikalische Bitte an Fürst Nikolaus Esterházy, endlich die Heimreise zu erlauben. Der Fürst verstand die Botschaft und gab nach.</p>
-          <p class="vb-intro">Auch die "Symphonie mit dem Paukenschlag" (Nr. 94), deren plötzlicher lauter Akkord dösende Zuhörer aufschreckt, zeigt denselben Zug: Humor als Beziehungsmittel, nicht als Selbstzweck. Die SE3w2 baut nicht nur auf – sie will, dass die Menschen um sie herum sich gesehen und gut behandelt fühlen. Das Geben ist bei Haydn kein Mittel zum Zweck, sondern Teil seines Führungsstils.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Eitelkeit im Gewand der Bescheidenheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – bei der SE3 nicht als lautes Geltungsbedürfnis, sondern als das feine, kaum bemerkte Bedürfnis, als kompetent und unentbehrlich wahrgenommen zu werden. Haydn trat nie als Rivale um Aufmerksamkeit auf, wie es viele seiner Zeitgenossen taten – und genau diese Zurückhaltung wurde selbst zu einem wirkungsvollen Image: der bescheidene, treue Diener, dem man vertrauen kann.</p>
-          <p class="vb-intro">Als er 1791 und 1794 nach London reiste, zeigte sich, wie sehr auch die SE3 nach Sicherheit durch sichtbaren Erfolg sucht: Die Reisen brachten ihm enormen Ruhm, eine Ehrendoktorwürde der Universität Oxford und – für den vorher vergleichsweise bescheiden entlohnten Hofkomponisten – beträchtlichen Wohlstand. Nach Jahrzehnten stiller Loyalität nahm Haydn diesen späten, öffentlichen Erfolg mit spürbarer Genugtuung an. Bescheidenheit und der Wunsch nach abgesicherter Anerkennung schlossen sich bei ihm nie aus.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Mozart und Beethoven: Der Waschbär als Mentor</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Haydn und Wolfgang Amadeus Mozart (SE2w3) verband eine der herzlichsten Freundschaften der Musikgeschichte, frei von der Rivalität, die man zwischen zwei derart bedeutenden Komponisten hätte erwarten können. Mozart widmete Haydn 1785 sechs Streichquartette als "die Frucht einer langen und mühevollen Arbeit", und Haydn sagte später zu Mozarts Vater Leopold, sein Sohn sei "der größte Komponist, den ich von Person oder Namen nach kenne". Zwei sehr unterschiedliche Naturen – der stürmische, in Bühnenauftritten lebende Mozart und der bedächtige, im Hintergrund wirkende Haydn – erkannten im jeweils anderen etwas, das sie selbst nicht waren.</p>
-          <p class="vb-intro">Auch dem jungen Ludwig van Beethoven (SX6w5) wurde Haydn 1792 in Wien für kurze Zeit zum Lehrer – eine Beziehung, die nie ganz spannungsfrei blieb, da Beethoven sich unzureichend unterrichtet fühlte, Haydn aber dennoch Anerkennung und Förderung nicht verweigerte. Der Waschbär mit dem Zweierflügel fand seine tiefste Erfüllung nicht im eigenen Rampenlicht, sondern darin, jüngeren, lauteren Talenten eine verlässliche Grundlage zu bieten, auf der sie ihr eigenes Feuer entfachen konnten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Vater der Symphonie</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Haydn gilt nach wie vor als "Vater der Symphonie" und "Vater des Streichquartetts" – nicht weil er diese Formen erfand, sondern weil er sie über Jahrzehnte geduldiger, systematischer Arbeit zu dem entwickelte, was die Wiener Klassik daraus machte. Seine späten Oratorien "Die Schöpfung" und "Die Jahreszeiten" wurden zu Publikumserfolgen, wie sie nur wenige Werke seiner Zeit erreichten.</p>
-          <p class="vb-intro">Er starb 1809 in Wien, während napoleonische Truppen die Stadt beschossen – der Überlieferung nach spielte er in seinen letzten Tagen noch die von ihm komponierte Kaiserhymne, um sich selbst und seinem Haushalt Trost zu spenden, dieselbe Melodie, die später zur deutschen Nationalhymne wurde. Der Waschbär mit dem Zweierflügel: unauffällig in der eigenen Selbstdarstellung, unermüdlich fürsorglich gegenüber allen, die auf ihn angewiesen waren, und am Ende doch von einer stillen, verdienten Größe, die lauteren Zeitgenossen oft verwehrt blieb.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – enger Freund und bewunderter Kollege"},
-        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – sein kurzzeitiger Schüler"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
-        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
-      ])}
-    </div>
-  `);
-}
 

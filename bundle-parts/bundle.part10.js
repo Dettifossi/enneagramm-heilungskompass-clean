@@ -1,3 +1,70 @@
+function josephHaydnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-joseph-haydn-portrait.jpg" alt="Joseph Haydn" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joseph Haydn</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Komponist, 1732–1809 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das beim ersten Hinsehen unscheinbar wirkt, geschickt, anpassungsfähig, ohne das Bedürfnis, im grellen Licht zu stehen. Joseph Haydn war genau dieser Waschbär: kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven, sondern ein Mann, der drei Jahrzehnte lang loyal in einem einzigen Dienstverhältnis arbeitete – und daraus das umfangreichste, verlässlichste Lebenswerk der Wiener Klassik schuf.</p>
+          <p class="vb-intro">Der \u00f6sterreichische Komponist Joseph Haydn, geboren 1732 in Rohrau als Sohn eines Wagners, wurde als Kind Chorknabe am Stephansdom in Wien, bis ihm der Stimmbruch diese Existenz nahm. Es folgten Jahre als freischaffender, oft mittelloser Musiker, bevor er 1761 in den Dienst der Fürstenfamilie Esterházy trat – eine Anstellung, die er, mit wachsender Machtfülle und wachsendem Ruhm, bis kurz vor seinem Lebensende nie wirklich verließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch stille Leistung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der am wenigsten wie eine Drei wirkt. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Statt auf der Bühne zu glänzen, richtet die SE3 ihre Energie auf Kompetenz, Aufbau, Verlässlichkeit. Kein Auftritt um seiner selbst willen, sondern Wirksamkeit im Dienst eines größeren Ganzen.</p>
+          <p class="vb-intro">Bei Haydn zeigt sich das in einer schier unfassbaren Produktivität ohne Starallüren: 104 Symphonien, 68 Streichquartette, Dutzende Klaviersonaten, Messen, Oratorien – entstanden in einem geregelten, fast handwerklichen Tagesablauf am Hof der Esterházys. Er selbst sagte später, die Abgeschiedenheit des Fürstensitzes Eszterháza habe ihn gezwungen, "originell zu werden", weil er niemanden hatte, den er nachahmen konnte. Die SE3 investiert in Wirksamkeit, nicht in Image – das Image entstand bei Haydn erst als Nebenprodukt jahrzehntelanger, unspektakulärer Beständigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Führungsstil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und Fürsorge. Haydns Orchestermusiker nannten ihn liebevoll "Papa Haydn" – ein Spitzname, den sich nur verdient, wer als Vorgesetzter tatsächlich für seine Leute sorgt. Als seine Musiker 1772 lange von ihren Familien getrennt waren, komponierte er statt einer direkten Beschwerde die "Abschiedssymphonie": Im letzten Satz verlassen die Musiker nacheinander die Bühne und löschen ihre Kerzen, bis nur noch zwei Violinen übrig bleiben – eine musikalische Bitte an Fürst Nikolaus Esterházy, endlich die Heimreise zu erlauben. Der Fürst verstand die Botschaft und gab nach.</p>
+          <p class="vb-intro">Auch die "Symphonie mit dem Paukenschlag" (Nr. 94), deren plötzlicher lauter Akkord dösende Zuhörer aufschreckt, zeigt denselben Zug: Humor als Beziehungsmittel, nicht als Selbstzweck. Die SE3w2 baut nicht nur auf – sie will, dass die Menschen um sie herum sich gesehen und gut behandelt fühlen. Das Geben ist bei Haydn kein Mittel zum Zweck, sondern Teil seines Führungsstils.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Eitelkeit im Gewand der Bescheidenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – bei der SE3 nicht als lautes Geltungsbedürfnis, sondern als das feine, kaum bemerkte Bedürfnis, als kompetent und unentbehrlich wahrgenommen zu werden. Haydn trat nie als Rivale um Aufmerksamkeit auf, wie es viele seiner Zeitgenossen taten – und genau diese Zurückhaltung wurde selbst zu einem wirkungsvollen Image: der bescheidene, treue Diener, dem man vertrauen kann.</p>
+          <p class="vb-intro">Als er 1791 und 1794 nach London reiste, zeigte sich, wie sehr auch die SE3 nach Sicherheit durch sichtbaren Erfolg sucht: Die Reisen brachten ihm enormen Ruhm, eine Ehrendoktorwürde der Universität Oxford und – für den vorher vergleichsweise bescheiden entlohnten Hofkomponisten – beträchtlichen Wohlstand. Nach Jahrzehnten stiller Loyalität nahm Haydn diesen späten, öffentlichen Erfolg mit spürbarer Genugtuung an. Bescheidenheit und der Wunsch nach abgesicherter Anerkennung schlossen sich bei ihm nie aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Mozart und Beethoven: Der Waschbär als Mentor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Haydn und Wolfgang Amadeus Mozart (SE2w3) verband eine der herzlichsten Freundschaften der Musikgeschichte, frei von der Rivalität, die man zwischen zwei derart bedeutenden Komponisten hätte erwarten können. Mozart widmete Haydn 1785 sechs Streichquartette als "die Frucht einer langen und mühevollen Arbeit", und Haydn sagte später zu Mozarts Vater Leopold, sein Sohn sei "der größte Komponist, den ich von Person oder Namen nach kenne". Zwei sehr unterschiedliche Naturen – der stürmische, in Bühnenauftritten lebende Mozart und der bedächtige, im Hintergrund wirkende Haydn – erkannten im jeweils anderen etwas, das sie selbst nicht waren.</p>
+          <p class="vb-intro">Auch dem jungen Ludwig van Beethoven (SX6w5) wurde Haydn 1792 in Wien für kurze Zeit zum Lehrer – eine Beziehung, die nie ganz spannungsfrei blieb, da Beethoven sich unzureichend unterrichtet fühlte, Haydn aber dennoch Anerkennung und Förderung nicht verweigerte. Der Waschbär mit dem Zweierflügel fand seine tiefste Erfüllung nicht im eigenen Rampenlicht, sondern darin, jüngeren, lauteren Talenten eine verlässliche Grundlage zu bieten, auf der sie ihr eigenes Feuer entfachen konnten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Vater der Symphonie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Haydn gilt nach wie vor als "Vater der Symphonie" und "Vater des Streichquartetts" – nicht weil er diese Formen erfand, sondern weil er sie über Jahrzehnte geduldiger, systematischer Arbeit zu dem entwickelte, was die Wiener Klassik daraus machte. Seine späten Oratorien "Die Schöpfung" und "Die Jahreszeiten" wurden zu Publikumserfolgen, wie sie nur wenige Werke seiner Zeit erreichten.</p>
+          <p class="vb-intro">Er starb 1809 in Wien, während napoleonische Truppen die Stadt beschossen – der Überlieferung nach spielte er in seinen letzten Tagen noch die von ihm komponierte Kaiserhymne, um sich selbst und seinem Haushalt Trost zu spenden, dieselbe Melodie, die später zur deutschen Nationalhymne wurde. Der Waschbär mit dem Zweierflügel: unauffällig in der eigenen Selbstdarstellung, unermüdlich fürsorglich gegenüber allen, die auf ihn angewiesen waren, und am Ende doch von einer stillen, verdienten Größe, die lauteren Zeitgenossen oft verwehrt blieb.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3) – enger Freund und bewunderter Kollege"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – sein kurzzeitiger Schüler"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function langLangPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11366,198 +11433,6 @@ function johannesBrahmsKrankheitsportraetPage() {
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
-      ])}
-    </div>
-  `);
-}
-
-function elizabethBarrettBrowningKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-elizabeth-barrett-browning-portrait.jpg" alt="Elizabeth Barrett Browning" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Elizabeth Barrett Browning</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel &middot; 1806&ndash;1861</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Faultier</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Elizabeth Barrett Browning</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-elizabeth-barrett-browning">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um ihr dichterisches Lebenswerk und die
-        Flucht nach Italien. Hier geht es ausschließlich um ein Kapitel, das dort nur gestreift
-        wird: eine jahrzehntelange, nie eindeutig diagnostizierte chronische Krankheit, verbunden
-        mit einer über Jahrzehnte fortgeführten Opiumbehandlung – und die Frage, was es bedeutet,
-        wenn eine sexuelle Neun buchstäblich gegen die eigene Bewusstlosigkeit ankämpfen muss.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Barrett Browning</strong> ist der <strong>sexuellen Neun mit Achterflügel</strong>
-        zugeordnet. Naranjo nannte die sexuelle Neun <em>Verschmelzung</em>: die Sehnsucht, in
-        einem einzigen Gegenüber vollständig aufzugehen. Der Achterflügel gibt dieser
-        Verschmelzung eine Kraft, die sich notfalls kämpferisch behauptet, statt sich einfach nur
-        anzupassen. Genau dieses Wechselspiel – jahrzehntelange, medikamentös vertiefte
-        Bewusstlosigkeit gegenüber dem eigenen Leben, unterbrochen von einem einzigen, radikal
-        wachen Akt der Selbstbehauptung – prägte Barrett Brownings gesamten Krankheitsverlauf.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Erste chronische Beschwerden in der Jugend:</strong>
-        Ab etwa ihrem fünfzehnten Lebensjahr litt Elizabeth Barrett an anhaltenden Schmerzen,
-        vermutlich im Zusammenhang mit einer Rückenverletzung – möglicherweise Folge eines
-        Reitunfalls –, die bis heute medizinhistorisch nicht abschließend geklärt ist.</p>
-        <p class="vb-intro"><strong>b) Frühe Verordnung von Opium:</strong>
-        Schon als junge Frau verschrieben ihr die Ärzte Laudanum (Opiumtinktur) gegen die
-        Schmerzen – ein damals gängiges, aber stark abhängig machendes Mittel, das sie bis an ihr
-        Lebensende begleiten sollte.</p>
-        <p class="vb-intro"><strong>c) Verschlechterung durch eine Lungenerkrankung:</strong>
-        Parallel zu den Rückenbeschwerden entwickelte sich eine chronische Lungenschwäche, die
-        die Familie 1838 dazu bewog, sie zur Kur in das mildere Klima von Torquay an der
-        englischen Südküste zu schicken.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Eine bis heute nicht eindeutig rekonstruierbare Diagnose:</strong>
-        Medizinhistoriker diskutieren als mögliche Ursachen unter anderem eine Wirbelsäulenerkrankung,
-        eine frühe Form der Tuberkulose oder eine funktionelle, durch chronischen Schmerz und
-        familiäre Enge verstärkte Erkrankung – eine moderne, eindeutige Diagnose lässt sich aus
-        den historischen Quellen nicht mehr gewinnen.</p>
-        <p class="vb-intro"><strong>b) Jahrzehntelange Opiumabhängigkeit als eigenständiges Krankheitsbild:</strong>
-        Anders als bei den meisten Krankheitsporträts dieses Kompasses trat neben die ursprüngliche
-        körperliche Erkrankung ein zweites, selbst erzeugtes Leiden: die medikamentöse
-        Dauerbehandlung mit Opium führte zu einer physischen Abhängigkeit, die ihr Leben über
-        Jahrzehnte mitbestimmte.</p>
-        <p class="vb-intro"><strong>c) Ein Trauma, das die Krankheit vertiefte:</strong>
-        1840 ertrank ihr geliebter Bruder Edward bei einem Segelunglück vor Torquay – wenige
-        Wochen, nachdem er gegen den Willen ihres Vaters bei ihr geblieben war, um sie zu
-        pflegen. Elizabeth machte sich für seinen Tod mitverantwortlich und zog sich danach für
-        Jahre noch weiter aus dem Leben zurück.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Über zwanzig Jahre kaum aus dem eigenen Zimmer heraus:</strong>
-        Nach dem Tod ihres Bruders verschärfte sich ihre Isolation im Elternhaus in der Londoner
-        Wimpole Street erheblich – Zeitgenossen beschrieben sie als eine Frau, die ihr Zimmer
-        kaum noch verließ, das Bett fast nie und Besuch fast nur noch liegend empfing.</p>
-        <p class="vb-intro"><strong>b) Ein Leben, das sich zunehmend im Halbschlaf abspielte:</strong>
-        Die tägliche Opiumdosis dämpfte nicht nur den Schmerz, sondern auch die Wachheit – Barrett
-        selbst beschrieb in Briefen Phasen benommener Müdigkeit, die sie von ihrer Umwelt
-        abschnitten, lange bevor irgendjemand das Wort Abhängigkeit dafür benutzt hätte.</p>
-        <p class="vb-intro"><strong>c) Und mitten darin: eine ungebrochene literarische Produktivität:</strong>
-        Ausgerechnet aus diesem Zustand heraus entstanden einige ihrer bekanntesten Werke – ein
-        Befund, der Ärzte und Biografen bis heute beschäftigt, wie viel geistige Klarheit neben
-        der körperlichen und medikamentösen Schwäche erhalten blieb.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Die Flucht 1846 als körperlicher Wendepunkt:</strong>
-        Nach der heimlichen Heirat und der Übersiedlung nach Italien besserte sich Barrett
-        Brownings Gesundheit spürbar – wärmeres Klima, ein selbstbestimmtes Leben und die
-        Distanz zum Vaterhaus wirkten sich messbar positiv aus, auch wenn die Opiumeinnahme
-        bestehen blieb.</p>
-        <p class="vb-intro"><strong>b) Vier Fehlgeburten und ein überlebendes Kind:</strong>
-        In Italien erlitt sie mehrere Fehlgeburten, bevor 1849 ihr Sohn Robert Wiedeman Barrett
-        Browning (genannt „Pen“) gesund zur Welt kam – für eine Frau ihres damaligen
-        Gesundheitszustands ein medizinisch bemerkenswertes Ereignis.</p>
-        <p class="vb-intro"><strong>c) Ein letztes Jahrzehnt zwischen Schaffenskraft und Verfall:</strong>
-        Die 1850er-Jahre brachten sowohl ihr politisch engagiertestes Werk als auch einen
-        erneuten, schleichenden gesundheitlichen Verfall, der sich in den letzten Lebensjahren
-        deutlich beschleunigte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Achterflügel, der aus dem Nebel heraus handelte:</strong>
-        Die Entscheidung zur Flucht 1846 traf eine Frau, die seit Jahren in einem Zustand
-        medikamentöser Gedämpftheit lebte – und die trotzdem in der Lage war, einen
-        hochriskanten, monatelang geheim gehaltenen Plan bis ins Detail durchzuziehen. Das ist
-        die Signatur des Achterflügels: Kraft, die auch durch Nebel hindurch handlungsfähig
-        bleibt.</p>
-        <p class="vb-intro"><strong>b) Verschmelzung, die sich gegen die eigene Bewusstlosigkeit richtete:</strong>
-        Die sexuelle Neun sucht Verschmelzung – bei Barrett Browning geschah das über zwanzig
-        Jahre lang vor allem als Verschmelzung mit der eigenen Passivität, dem Krankenzimmer, der
-        Dämpfung. Die Bindung an Robert Browning war die erste Verschmelzung, die sie aus dieser
-        Bewusstlosigkeit heraus- statt weiter hineinzog.</p>
-        <p class="vb-intro"><strong>c) Eine Wachheit, die nur im äußersten Ernstfall auftauchte:</strong>
-        Auffällig ist, wie punktuell sich ihre Kraft zeigte – nicht als dauerhafte Rebellion gegen
-        die eigene Situation, sondern als ein einziger, hochkonzentrierter Ausbruch, wenn wirklich
-        alles auf dem Spiel stand. Dazwischen blieb die vertraute Dämpfung bestehen.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Krankheit, die zur wörtlichen Bewusstlosigkeit wurde:</strong>
-        Die sexuelle Neun trägt als Schattenseite die Gefahr, sich so vollständig anzupassen und
-        zu verschmelzen, dass die eigene Wachheit dem Leben gegenüber verloren geht – bei kaum
-        einem anderen Porträt dieses Kompasses wird dieses Muster so konkret körperlich, wie bei
-        einer Frau, deren tägliche Opiumdosis genau diese Unbewusstheit über Jahrzehnte hinweg
-        buchstäblich chemisch verstärkte.</p>
-        <p class="vb-intro"><strong>b) Der Achterflügel als der Teil, der aufwachte:</strong>
-        Wäre Elizabeth Barrett eine sexuelle Neun ohne ausgeprägten Achterflügel gewesen, hätte
-        diese jahrzehntelange Dämpfung vermutlich bis zum Ende angehalten. Stattdessen brach
-        genau in dem Moment, in dem die eine Bindung – die einzige, die für sie zählte – bedroht
-        war, eine Entschlossenheit durch, die stark genug war, den eigenen Nebel zu durchbrechen
-        und einen Fluchtplan bis zum letzten Detail umzusetzen. Die Krankheit forderte den
-        Achterflügel geradezu heraus, sich zu zeigen.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet Opium?</strong>
-        Für eine sexuelle Neun, deren tiefstes Muster die Verschmelzung mit dem Anderen bis zur
-        Auflösung der eigenen Grenzen ist, liegt eine Deutung nahe: Opium erzeugt chemisch genau
-        jenen Zustand der Entgrenzung und gedämpften Wachheit, den die sexuelle Neun psychisch
-        ohnehin anstrebt – eine Substanz, die dem eigenen Muster nicht entgegenwirkt, sondern es
-        potenziert. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Das Stresspunkt-Mittel, verordnet an eine Neun:</strong>
-        Aus Sicht der Enneagramm-Homöopathie, wie sie in diesem Kompass verwendet wird, ist Opium
-        (Schlafmohn) das homöopathische Heilmittel des Typs 6 – der Stresspunkt der Neun. Ein
-        homöopathisches Stresspunkt-Mittel ist bei einem anderen Typ nie neutral: Es verstärkt
-        genau jenes Muster, in das der Mensch unter Belastung ohnehin abgleitet – bei der Neun ist
-        das die Passivität, die Schläfrigkeit, die Unbewusstheit gegenüber dem eigenen Leben.
-        Barrett Browning erhielt über Jahrzehnte, medizinisch begründet als Schmerzmittel,
-        ausgerechnet jenes Mittel, das ihr eigenes Notfallmuster nicht auflöste, sondern
-        chemisch vertiefte – aus enneagrammhomöopathischer Sicht denkbar ungünstig, auch wenn die
-        damalige Medizin von dieser Zuordnung naturgemäß nichts wissen konnte.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu Abhängigkeitserkrankungen
-        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
-        Was sich an Barrett Brownings Fall zeigen lässt, ist ein Muster, das bei tiefer
-        Verschmelzungsneigung in der Praxis immer wieder auffällt – eine von vielen möglichen
-        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
-        und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Barrett Browning kannte ihr eigenes Muster nicht – die sexuelle Neun mit Achterflügel verschmilzt leicht mit dem Willen anderer, statt den eigenen Weg zu gehen, und genau das hielt sie über zwanzig Jahre in der Isolation des Vaterhauses und in der Opiumabhängigkeit gefangen. Erst die eine intensive Verbindung, die sie schließlich aus diesem Haus herausriss, durchbrach ein Muster, das ihr selbst nie bewusst war.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        In <strong>Barrett Brownings</strong> Krankengeschichte lässt sich die sexuelle Neun mit
-        Achterflügel in einer besonders klaren Zuspitzung ablesen: eine über Jahrzehnte
-        vertiefte, auch chemisch erzeugte Bewusstlosigkeit gegenüber dem eigenen Leben – und ein
-        einziger, radikal wacher Akt, der genau diese Dämpfung durchbrach, als die eine Bindung
-        auf dem Spiel stand, die zählte. Das Faultier, das die meiste Zeit im Halbschlaf hängt –
-        und in dem einen Moment, in dem es darauf ankommt, mit aller Kraft zugreift.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-elizabeth-barrett-browning", label:"Porträt: Elizabeth Barrett Browning (SX9w8) – Lebenswerk"},
-        {route:"beruehmte-lucy-cooke", label:"Porträt: Lucy Cooke (SX9w8)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
       ])}
     </div>
   `);

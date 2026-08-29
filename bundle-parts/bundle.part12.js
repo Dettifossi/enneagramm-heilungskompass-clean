@@ -1,3 +1,165 @@
+function philippusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-philippus-portrait.jpg" alt="Philippus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Philippus</p>
+        <p class="krim-portrait-typ">SO6w5 · Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Sehnsucht nach Gewissheit und der Mut zur Nähe – Tierentsprechung: Erdmännchen</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so6.jpg" alt="Tierentsprechung: Erdmännchen" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO6")};left:${tierAvatarLeft("SO6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, zeige uns den Vater – dann genügt es uns.« (Joh 14,8)</p>
+
+        <h2 class="vb-section">1. Das Erdmännchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs – es lebt im Verband, hält Wache für die Gruppe und findet Sicherheit nicht in Einzelgängertum, sondern im verlässlichen Miteinander. Philippus war keiner, der drängte. Er sprach nicht laut, trat nicht nach vorn. Aber er war da, immer da. Wenn andere diskutierten, hörte er zu. Wenn andere eilten, prüfte er.</p>
+          <p class="vb-intro">Die soziale Sechs will dazugehören, nicht aus Geltung, sondern aus einem tiefen Bedürfnis nach Halt in sozialen Verbindungen. Er war treu, aber sein Herz fragte leise, immer: Kann ich mich wirklich verlassen? Er war der Erste, den Jesus direkt ansprach: »Folge mir nach« – und Philippus folgte, nicht sofort mit glühendem Herzen, aber mit wachsamem Geist. Er war ein Brückenbauer, brachte Nathanael zu Jesus, übersetzte zwischen dem, was war, und dem, was wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Vertrauen durch geprüfte Verhältnismäßigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Philippus war ein Mann der Verhältnismäßigkeit. Er war kein Visionär, aber auch kein Zyniker. Er vertraute, aber nicht blind. Das machte ihn stabil, und manchmal unentschlossen. Wenn die anderen jubelten, rechnete Philippus nach. Wenn sie glaubten, wollte er wissen: Warum? Und Jesus ließ ihn so sein, nahm ihn mit, gerade weil er so war.</p>
+          <p class="vb-intro">Philippus stand am Rand der Menge, fünftausend Männer, dazu Frauen und Kinder, ein aufgewühlter Nachmittag. Jesus drehte sich zu ihm, nicht zu Petrus, nicht zu Johannes, sondern zu ihm: »Wo sollen wir Brot kaufen, damit diese essen können?« Eine einfache Frage, doch Philippus spürte sofort, dass sie mehr bedeutete. Er zögerte, rechnete, überschlug im Kopf. Zweihundert Denare, selbst das würde nicht genügen. Er sprach es aus, nicht trotzig, nicht panisch, nur nüchtern, sachlich, realistisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Sicherheit durch Berechnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Sechs eine nüchterne, analytische Qualität – Gewissheit entsteht durch Prüfung, Berechnung und intellektuelle Klarheit, nicht durch spontanes Vertrauen. Jesus antwortete nicht, er lächelte still, denn er wusste: Philippus sprach nicht aus Unglauben, sondern aus seiner Art, die Welt zu sichern. Für eine soziale Sechs ist Sicherheit nicht Luxus, sie ist Grundbedingung für Vertrauen.</p>
+          <p class="vb-intro">Philippus beobachtete weiter, sah Andreas den Jungen mit den fünf Broten bringen, sah Jesus danken, und dann teilen. Das Brot wurde nicht mehr, aber es reichte, ein Wunder, aber auch eine Lektion: Es braucht nicht Berechnung, um Vertrauen zu rechtfertigen, es braucht Vertrauen, um über die Berechnung hinauszugehen. Genau dieses nüchterne, prüfende Rechnen, bevor Vertrauen zugelassen wird, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Vater, den er nicht sieht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Stimmung war drückend, Jesus hatte begonnen, von seinem Abschied zu sprechen, von Wegen, die keiner verstand. »Ich bin der Weg und die Wahrheit und das Leben.« Die anderen schwiegen, aber Philippus konnte nicht schweigen. In seinem Innersten verlangte es nach Klarheit, nicht nach Poesie, nicht nach Symbolen: »Herr, zeige uns den Vater – dann genügt es uns.« Es war kein Misstrauen in dieser Bitte, kein Trotz, nur eine tiefe, beinahe kindliche Sehnsucht: Gib mir Halt. Zeig mir das Fundament.</p>
+          <p class="vb-intro">Für Jesus aber war dieser Satz schmerzlich ehrlich. So lange war Philippus schon bei ihm gewesen. »So lange bin ich bei euch – und du hast mich nicht erkannt?« Der Satz traf Philippus, aber er war kein Tadel, er war ein Weckruf. Vertrauen ist nicht die Folge vollendeter Beweise, Vertrauen ist ein Entschluss im Angesicht der Ungewissheit. In diesem Moment begann Philippus, anders zu sehen, nicht in Sicherheiten, sondern in Beziehungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Stunde der Treue</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach der Kreuzigung wurde alles fragil, die Gruppe, das Gefüge, das Vertrauen, alles stand auf der Kippe. Philippus blieb, nicht laut, nicht führend, aber anwesend, verlässlich. Er hielt sich an das, was die soziale Sechs am tiefsten versteht: Loyalität über Zweifel hinweg. Er suchte Petrus nicht zu ersetzen, wollte nicht die Bühne, er wollte nur Teil bleiben, Teil von etwas, das größer war als seine Fragen.</p>
+          <p class="vb-intro">Als Jesus erschien, nicht zuerst ihm, wartete er nicht auf Sonderrechte. Er nahm das Zeugnis der anderen ernst, prüfte innerlich, aber lehnte sich nicht ab. Die soziale Sechs glaubt mit Herz und Verstand, aber nur, wenn beides in Beziehung treten darf. Philippus verstand nun: Man kann glauben, ohne alles zu verstehen. Man kann sich hingeben, ohne zu verschwinden. Man kann vertrauen, und trotzdem wach bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Stabilität statt Genialität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Philippus reiste später in die Fremde, predigte nicht mit Feuer, sondern mit Glaubwürdigkeit. Die soziale Sechs hinterlässt keine gewaltigen Spuren, aber sie hinterlässt Stabilität. Er gründete nicht Kirchen, er hielt sie zusammen. Seine größte Stärke war nicht Kühnheit, sondern Loyalität trotz Ungewissheit, nicht Genialität, sondern ein Herz, das nicht wegläuft, wenn Fragen keine Antworten finden.</p>
+          <p class="vb-intro">Am Ende seines Weges, als er nicht mehr rechnete, nicht mehr suchte, nicht mehr fragte, hatte er etwas gefunden, das er ein Leben lang ersehnt hatte: innere Erlaubnis, dem zu trauen, der ihn zuerst gesehen hatte. Das ist das Geschenk der SO6w5: eine Gewissheit, die nicht mehr aus vollendeter Berechnung stammt, sondern aus dem Entschluss, trotz Ungewissheit zu vertrauen – ein Erdmännchen, das gelernt hat, dass Wache halten und sich fallen lassen sich nicht ausschließen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Zeig uns den Vater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Philippus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/bm3SEsot92E?rel=0" title="Zeig uns den Vater – Philippus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
+        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function petrusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-petrus-portrait.jpg" alt="Petrus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Petrus</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Das Feuer der Bindung und die Angst, sich zu verlieren – Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Herr, ich bin bereit, mit dir ins Gefängnis und in den Tod zu gehen!« Jesus sprach: »Ehe der Hahn heute kräht, wirst du dreimal leugnen, dass du mich kennst.« (Lk 22,33–34)</p>
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs – er liebt mit Wucht, verteidigt sein Rudel mit ganzem Körper, und seine Furchtlosigkeit ist keine Abwesenheit von Angst, sondern deren Umkehrung in Handlung. Petrus sprach zuerst, immer. Wenn die anderen schwiegen, warf er sich vor, mit Worten, mit Gesten, mit seinem ganzen Körper. Er verließ das Boot, um auf dem Wasser zu Jesus zu gehen. Er zog das Schwert im Garten, um ihn zu verteidigen.</p>
+          <p class="vb-intro">Bindung ist das Zuhause der SX6, aber dieses Zuhause ist von inneren Stürmen umgeben. Petrus glaubte, aber sein Glaube war nicht ruhig. Er war zwingend, unentbehrlich, und voller Angst, dass er verlassen werden könnte, wenn er nicht genügte. Er sagte nicht: »Ich glaube an dich.« Er sagte: »Ich lasse dich nicht im Stich.« Er brauchte die Nähe Jesu wie Luft zum Atmen, nicht als Idee, sondern als verkörperte Bindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Mutig aus Bindung, zerbrechlich in der Furcht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Jesus begann, vom Leiden zu sprechen, rief Petrus: »Das soll dir nicht widerfahren!«, fast wie ein Kind, das einen geliebten Vater zu schützen versucht. Aber Jesus antwortete scharf: »Weiche von mir, Satan!« Es war kein Ablehnen von Petrus, sondern ein Erschrecken über die Macht der Angst, die sich in Liebe kleidete. Petrus schwankte zwischen Mut und Angst, zwischen Treue und Selbstschutz. Und Jesus ließ ihn, liebte ihn nicht trotz, sondern mit dieser Spannung.</p>
+          <p class="vb-intro">Es war kalt in jener Nacht, Jesus war gefangen, die Gemeinschaft zerrissen. Petrus folgte, nicht offen, aber nah genug, um nichts zu verpassen, nah genug, um noch etwas retten zu können. Die SX6 ist mutig aus Bindung, aber voller Furcht, wenn Bindung zu zerbrechen droht. Er setzte sich ans Feuer, wärmte die Hände, beobachtete. »Warst nicht auch du einer von ihnen?« Er wich aus, schüttelte den Kopf, lachte gezwungen. Einmal, zweimal, dreimal. Und dann krähte der Hahn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Impulsive Wucht statt stiller Grübelei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Sechs eine energetische, impulsive Qualität – Mut zeigt sich nicht in stiller, abwägender Intensität, sondern in spontaner, körperlicher, fast überschäumender Handlung, bevor der Verstand nachkommt. Jesus wurde in diesem Moment vorbeigeführt, geschlagen, gebunden, verhüllt. Aber sein Blick ging durch alles hindurch, durch die Nacht, durch den Lärm, durch Petrus' Rüstung aus Angst. Er sah ihn an, nicht strafend, nicht enttäuscht, sondern erkennend.</p>
+          <p class="vb-intro">Petrus zerbrach nicht, weil er schwach war, sondern weil er so tief gebunden war, dass der Verlust ihn erschütterte bis ins Mark. Er lief hinaus, weinte bitterlich, nicht über sich, sondern über das, was er verletzte, weil er es so sehr liebte. Genau dieses schnelle, ungebremste Handeln aus dem Bauch heraus, aus dem Boot springen, das Schwert ziehen, laut sprechen, bevor gedacht ist, trägt die Handschrift des Siebenerflügels – die Tragik der SX6: Sie will schützen, aber aus Angst zu versagen, kann sie genau das verlieren, was sie am meisten bewahren wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Frage am Morgen: Drei Atemzüge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Morgen roch nach Salz und Asche. Die Jünger waren zurück am See, zurück bei den Netzen, zurück bei dem, was sie kannten, weil sie nicht wussten, wie es weitergehen sollte. Petrus war innerlich still geworden, nicht aus Frieden, sondern aus Scham. Doch da stand Jesus am Ufer, mit Kohlen, mit Brot, mit Fisch. »Kommt und frühstückt.« Keine Vorwürfe, keine Predigt, nur Nähe.</p>
+          <p class="vb-intro">Nach dem Mahl sprach Jesus ihn an: »Simon, Sohn des Johannes, liebst du mich?« Dreimal fragte er, nicht um ihn zu prüfen, sondern um ihn zurückzuführen, sanft, beharrlich, wie man ein verletztes Tier zurück ins Licht lockt. Am Ende sagte Jesus nicht: »Du bist wieder würdig.« Sondern: »Weide meine Schafe.« Er gab ihm Verantwortung, gerade weil er gefallen war. Denn nur wer zerbricht, kann die Zerbrochenen wirklich sehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Sturm des Pfingsttags zur Treue im Angesicht der Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jerusalem bebte, Feuerzungen auf ihren Häuptern, eine Stimme in vielen Sprachen, und mitten darin: Petrus. Er, der gezögert hatte, er, der gefallen war, trat hervor, nicht mit Berechnung, nicht mit Gelehrsamkeit, sondern mit Brennweite im Herzen: »Ihr Männer von Judäa, hört meine Worte!« Petrus war kein Rhetoriker, er war ein Zeuge. Die SX6 bleibt nicht mutig, weil sie frei von Angst wäre. Sie bleibt mutig, weil sie der Bindung mehr traut als der eigenen Furcht.</p>
+          <p class="vb-intro">Der Preis stieg: Gefangennahmen, Drohungen, Folter. Und doch sagte Petrus, als man ihn zum Schweigen bringen wollte: »Man muss Gott mehr gehorchen als den Menschen.« Nicht trotzig, nicht heldenhaft, sondern aus gelebtem Vertrauen. Er, der aus Angst gelogen hatte, sprach nun mit Klarheit, weil er wusste, dass selbst der Tod nicht mehr trennen konnte, was durch Liebe verbunden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Der Fels, der aus Zweifeln gehauen war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er wurde alt, doch der Sturm verließ ihn nie ganz. Immer wieder zogen die alten Fragen durch sein Inneres: Genüge ich? Wird man mich halten? Aber sie bekamen keine Macht mehr, denn er kannte jetzt den Blick, der durch Versagen hindurch liebte, und diese Liebe verankerte ihn. Man nannte ihn später »den Fels«, nicht weil er unerschütterlich war, sondern weil er lernen musste, standzuhalten, trotz Angst, trotz innerer Zerrissenheit.</p>
+          <p class="vb-intro">Als er verhaftet wurde, bat er darum, nicht wie Jesus gekreuzigt zu werden: »Nicht würdig bin ich, so zu sterben wie mein Herr.« Und so starb er am Kreuz mit dem Kopf nach unten, aber mit dem Herzen aufrecht. Das ist das Geschenk der SX6w7: ein Mut, der aus Treue geboren wird, nicht aus Stärke, eine Bindung, die alle Brüche durchhält – ein Wolf, der begreift, dass wahre Furchtlosigkeit nicht heißt, nie zu versagen, sondern nach jedem Fall wieder aufzustehen und zu lieben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Und doch liebte er ihn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Petrus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/QqRezX3O6VA?rel=0" title="Und doch liebte er ihn – Petrus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+        {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
+        {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function lazarusPage() {
   return shell(`
     <div class="page-container">
@@ -11315,394 +11477,6 @@ function haroldShipmanPortraitPage() {
         {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll (SE5w6)"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4)"},
         {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\u00f6gel (SE2w1) \u2013 Krankenpfleger, Serienm\u00f6rder"},
-      ])}
-    </div>
-  `);
-}
-
-function rudolfPleilPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Rudolf Pleil \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/rudolf-pleil-portrait.jpg" alt="Rudolf Pleil \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Rudolf Pleil</p>
-        <p class="krim-portrait-typ">SE2w3 \u00b7 Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienm\u00f6rder, selbsternannter \u201eHenker" \u00b7 Tierentsprechung: Flusspferd</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Rudolf Pleil</strong>, geboren am 28. April 1924 in Zwickau,
-        starb am 8. Februar 1958 in der Strafanstalt Wolfenb\u00fcttel \u2013
-        er erh\u00e4ngte sich in seiner Zelle mit seinem eigenen Schl\u00fcpfer.
-        Zuvor hatte er sich selbst den Beinamen gegeben,
-        der ihn in der deutschen Kriminalgeschichte unsterblich machte:
-        \u201eder beste Totmacher".
-        Zwischen 1945 und 1947 ermordete Pleil, oft gemeinsam mit Komplizen,
-        mindestens neun Frauen und M\u00e4dchen in der Grenzzone
-        zwischen der sowjetischen und der britischen Besatzungszone \u2013
-        einer Niemandsland-Region, in der staatliche Ordnung
-        weitgehend zusammengebrochen war.
-        Die Opfer waren Fl\u00fcchtlinge, Heimkehrer, Grenzg\u00e4ngerinnen \u2013
-        schutzlose Menschen in einem schutzlosen Raum.
-        Pleil nutzte diesen Raum systematisch.
-        Nach seiner Verhaftung 1950 gestand er bereitwillig,
-        br\u00fcstete sich mit seinen Taten und versuchte, die H\u00f6chstzahl
-        seiner Opfer immer weiter nach oben zu treiben \u2013
-        er wollte der Rekordhalter sein.
-        Die Taten selbst waren von extremer k\u00f6rperlicher Brutalit\u00e4t gepr\u00e4gt:
-        Pleil schlug, erdrosselte und misshandelte seine Opfer \u2013
-        oft \u00fcber das f\u00fcr den Tod Notwendige hinaus.
-        Die Gewalt war kein Mittel, sie war ein Ausdruck.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Rudolf Pleil</strong> wird der <strong>Selbsterhaltenden Zwei mit Dreierfl\u00fcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> \u2013
-        nicht im Sinne gesunden Selbstwertgef\u00fchls, sondern als aufgebl\u00e4htes
-        Selbstbild, das Grenzen nicht kennt: Ich bin au\u00dfergew\u00f6hnlich,
-        ich bin unentbehrlich, mein Wille hat Vorrang.
-        Die selbsterhaltende Zwei (SE2) k\u00e4mpft tief im Inneren
-        um Sicherheit, Anerkennung und das Gef\u00fchl, unverzichtbar zu sein.
-        Der Dreierfl\u00fcgel verleiht dieser Dynamik eine
-        performative, auf Au\u00dfenwirkung ausgerichtete Dimension:
-        Er will nicht nur herrschen \u2013 er will <em>gesehen</em> werden dabei.
-        Pleils Selbstbezeichnung als \u201ebester Totmacher" ist das
-        pr\u00e4ziseste psychologische Selbstportr\u00e4t eines SE2w3:
-        Stolz gepaart mit dem Bed\u00fcrfnis nach Anerkennung \u2013
-        selbst f\u00fcr das Unfassbarste.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
-        <p class="vb-intro"><strong>a) Fordernd und kontrollierend:</strong>
-        Zeugen beschrieben <strong>Pleils</strong> Blick als durchdringend,
-        fordernd, einsch\u00fcchternd.
-        Er suchte Augenkontakt nicht, um Verbindung herzustellen,
-        sondern um zu pr\u00fcfen, wer hier das Sagen hat.
-        Die Zwei schaut mit der stillen Erwartung,
-        gesehen und anerkannt zu werden \u2013
-        bei Pleil war diese Erwartung zur Dominanzgeste geworden:
-        Wer seinen Blick nicht erwiderte, verlor in seiner Wahrnehmung
-        sofort an Bedeutung. Wer ihm standhielt, wurde zur Herausforderung.</p>
-        <p class="vb-intro"><strong>b) Gespielt warm, im Kern kalt:</strong>
-        Im Verh\u00f6r und vor Gericht konnte <strong>Pleil</strong> charmant, fast
-        jovial wirken \u2013 ein Merkmal des Dreierfl\u00fcgels, der die soziale
-        Oberfl\u00e4che beherrscht. Doch hinter dieser W\u00e4rme lag keine
-        echte Anteilnahme: Die Zwei t\u00e4uscht Empathie vor,
-        wenn sie sich davon Vorteil verspricht.
-        Pleils \u201eHerzlichkeit" im Gerichtssaal war eine Inszenierung \u2013
-        sie diente dem Publikum, nicht den Menschen, denen er gegen\u00fcbersa\u00df.</p>
-        <p class="vb-intro"><strong>c) Eitelkeit im Blick:</strong>
-        <strong>Pleil</strong> wusste, dass er beobachtet wurde \u2013
-        und er spielte diese Rolle mit unverh\u00fcllter Freude.
-        Der Dreierfl\u00fcgel bringt eine tiefe Orientierung
-        an Au\u00dfenwirkung und Image.
-        Pleil inszenierte sich als Hauptdarsteller seiner eigenen Geschichte:
-        der ber\u00fchmteste, der beste, der produktivste M\u00f6rder Deutschlands.
-        Sein Blick sagte immer dasselbe: Schaut her, ich bin hier.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Br\u00fcsten als Grundbed\u00fcrfnis:</strong>
-        <strong>Pleil</strong> war nicht jemand, der seine Taten versteckte \u2013
-        er wollte, dass man ihn daf\u00fcr bewunderte.
-        Nach seiner Verhaftung gestand er weit mehr,
-        als die Beh\u00f6rden ihm nachweisen konnten,
-        und korrigierte seine Opferzahlen immer nach oben.
-        Das ist kein Gest\u00e4ndnisdrang aus schlechtem Gewissen \u2013
-        es ist der Stolz der Zwei: Ich habe mehr geleistet als alle anderen.
-        Seht mich an. Tragt meinen Namen.</p>
-        <p class="vb-intro"><strong>b) Anspruchsdenken ohne Schranken:</strong>
-        Die SE2 entwickelt im Verfall das Gef\u00fchl,
-        dass ihr alles zusteht \u2013 weil sie so viel gibt,
-        so viel leistet, so unentbehrlich ist.
-        Bei <strong>Pleil</strong> war dieser Anspruch von jedem sozialen Korrektiv
-        befreit: In der Grenzzone gab es keinen Staat,
-        keine Gemeinschaft, keine Gegenkraft.
-        Er entschied, wer lebte und wer starb \u2013
-        und erlebte das als sein nat\u00fcrliches Recht.</p>
-        <p class="vb-intro"><strong>c) Bindung durch Kontrolle:</strong>
-        <strong>Pleil</strong> agierte h\u00e4ufig mit Komplizen \u2013
-        er war kein Einzelg\u00e4nger im klassischen Sinne.
-        Die Zwei braucht Menschen, aber zu ihren Bedingungen.
-        Er zog andere in seinen Orbit, machte sie
-        abh\u00e4ngig, verwickelt, mitschuldig.
-        Diese Form der Bindung ist das Kernmuster der SE2:
-        Ich sorge daf\u00fcr, dass du mich brauchst \u2013
-        und dann entscheide ich, was mit dir geschieht.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Stolz als Treibkraft:</strong>
-        Die Leidenschaft der Zwei ist Stolz \u2013
-        nicht Hochmut im gew\u00f6hnlichen Sinne, sondern eine tiefe,
-        verzerrte \u00dcberzeugung: Ich bin besonders, mein Empfinden
-        z\u00e4hlt mehr als das der anderen, mein Wille hat Vorrang.
-        Bei <strong>Pleil</strong> war dieser Stolz vollst\u00e4ndig von
-        moralischen und sozialen Grenzen entkoppelt.
-        Er sah sich nicht als T\u00e4ter \u2013 er sah sich als Ausnahmeerscheinung.
-        \u201eDer beste Totmacher" ist ein Ehrentitel, kein Schuldbekenntnis.</p>
-        <p class="vb-intro"><strong>b) Die Zwei als Geberin \u2013 und als Nehmerin:</strong>
-        Die Zwei ist im Kern ein Geber-Typ: Sie hilft, unterst\u00fctzt,
-        umsorgt \u2013 aber nie ohne Erwartung.
-        Im Verfall dreht sich diese Dynamik um:
-        Die Zwei nimmt, was ihr zusteht.
-        Bei <strong>Pleil</strong> war diese Umkehrung total:
-        Die Schutzlosigkeit der Opfer \u2013
-        Frauen auf der Flucht, ohne Obdach, ohne Schutz \u2013
-        empfand er nicht als Verantwortung,
-        sondern als Gelegenheit.
-        Die Zwei sieht Bed\u00fcrftigkeit immer \u2013
-        aber bei Pleil wurde dieser Blick zur Jagdoptik.</p>
-        <p class="vb-intro"><strong>c) Dreierfl\u00fcgel: Leistung als Identit\u00e4t:</strong>
-        Der Dreierfl\u00fcgel bringt die Frage: Wer bin ich in den Augen anderer?
-        F\u00fcr <strong>Pleil</strong> war die Antwort klar: der Produktivste,
-        der R\u00fccksichtsloseste, der Beste.
-        Er konkurrierte mit anderen T\u00e4tern um Opferzahlen
-        wie ein Handwerker um seinen Ruf konkurriert.
-        Das ist die pathologische Schnittmenge von Zwei und Drei:
-        Ich definiere meinen Wert \u00fcber das, was ich leiste \u2013
-        und ich lasse keinen Zweifel daran, dass ich der Ma\u00dfstab bin.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Unversch\u00e4mte Selbstsicherheit:</strong>
-        <strong>Pleil</strong> wirkte auf Zeitgenossen nicht wie ein Mensch,
-        der sich sch\u00e4mt oder f\u00fcrchtet \u2013 sondern wie jemand,
-        der glaubt, dass man ihm endlich die Aufmerksamkeit gibt,
-        die ihm schon immer zugestanden h\u00e4tte.
-        Im Gerichtssaal zeigte er keine Reue \u2013
-        er genoss das Spektakel.
-        Die SE2 im Verfall verliert jede F\u00e4higkeit,
-        die Wirkung des eigenen Handelns auf andere
-        wirklich wahrzunehmen.</p>
-        <p class="vb-intro"><strong>b) Anziehung und Absto\u00dfung zugleich:</strong>
-        Trotz \u2013 oder wegen \u2013 seiner Unversch\u00e4mtheit
-        \u00fcbte <strong>Pleil</strong> auf viele eine eigenartige Faszination aus.
-        Die Zwei hat von Natur aus etwas Anziehendes:
-        Sie wei\u00df, wie man Aufmerksamkeit erzeugt, wie man
-        Menschen f\u00fcr sich einnimmt.
-        Bei Pleil war das zur Groteske geworden:
-        Er zog Blicke auf sich, weil er sich auff\u00fchrte,
-        als sei er eine Hauptattraktion \u2013
-        und auf eine verst\u00f6rende Weise war er das.</p>
-        <p class="vb-intro"><strong>c) Achter-Stresspunkt: die Zwei wird zur Acht:</strong>
-        Im Enneagramm bewegt sich die Zwei unter extremem Stress
-        in Richtung Typ Acht \u2013 dem Typ der rohen Macht,
-        der k\u00f6rperlichen Dominanz, der \u00dcberwaltigungs-Energie.
-        Was bei der gesunden Zwei als F\u00fcrsorge und Geben erscheint,
-        kippt im Stress in offene Aggression, R\u00fccksichtslosigkeit
-        und das nackte Durchsetzen des eigenen Willens.
-        Bei <strong>Pleil</strong> war dieser Mechanismus dauerhaft aktiviert:
-        Die Brutalit\u00e4t seiner Taten \u2013 das exzessive Schlagen,
-        W\u00fcrgen, k\u00f6rperliche \u00dcberw\u00e4ltigen \u2013
-        ist die Signatur der Zwei in der Acht.
-        Er t\u00f6tete nicht k\u00fchl oder distanziert.
-        Er t\u00f6tete mit K\u00f6rper und Wucht,
-        mit einer physischen Unmittelbarkeit,
-        die den Achter-Modus unverkennbar macht:
-        Ich bin die st\u00e4rkste Kraft im Raum,
-        und du kannst nichts dagegen tun.</p>
-        <p class="vb-intro"><strong>d) Der Nachkriegskontext als Verst\u00e4rker:</strong>
-        <strong>Pleil</strong> operierte in einem gesellschaftlichen Vakuum.
-        Die Grenzzone der Nachkriegszeit war ein Raum ohne Gesetz,
-        ohne Schutz, ohne Zeugen.
-        Die SE2 braucht eine B\u00fchne \u2013 und die Chaos-Jahre nach 1945
-        boten ihm eine, auf der keine Regeln galten.
-        Sein Typus h\u00e4tte in geordneten Verh\u00e4ltnissen
-        vielleicht andere Wege gefunden, Macht auszu\u00fcben \u2013
-        Kontrolle durch F\u00fcrsorge, durch Abh\u00e4ngigkeit erzeugen.
-        Stattdessen fand er eine Welt, in der er buchst\u00e4blich
-        \u00fcber Leben und Tod entscheiden konnte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Saugend und vereinnahmend:</strong>
-        Die energetische Signatur der Zwei ist fordernd \u2013
-        sie zieht Aufmerksamkeit an, beansprucht Raum,
-        erwartet Resonanz.
-        <strong>Pleil</strong> verk\u00f6rperte diese Eigenschaft ohne jede D\u00e4mpfung:
-        Wer in seiner N\u00e4he war, wurde in seine Geschichte hineingezogen.
-        Die Zwei gibt viel \u2013 aber sie zieht auch viel ab.
-        Bei Pleil war das Geben l\u00e4ngst weggefallen;
-        was blieb, war der reine Sog.</p>
-        <p class="vb-intro"><strong>b) Selbsterhaltung als Grundangst:</strong>
-        Hinter allem Stolz und aller Inszenierung liegt
-        bei der SE2 eine tiefe Angst: nicht zu \u00fcberleben,
-        nicht zu gen\u00fcgen, nicht gebraucht zu werden.
-        <strong>Pleils</strong> Kindheit war von Armut, Instabilit\u00e4t
-        und Gewalt gepr\u00e4gt \u2013 ein Umfeld, in dem die SE2-Grundangst
-        fr\u00fch und brutal aktiviert wird.
-        Was entstand, war ein Mensch, der um jeden Preis
-        sicherstellen wollte, dass er Bedeutung hat \u2013
-        notfalls durch Vernichtung.</p>
-        <p class="vb-intro"><strong>c) Dreierfl\u00fcgel: Energie f\u00fcr die Galerie:</strong>
-        Der Dreierfl\u00fcgel macht die Energie nach au\u00dfen gerichtet,
-        auf Publikum angewiesen.
-        <strong>Pleil</strong> brauchte Zeugen \u2013
-        sei es Komplizen, sei es das Gericht, sei es die Presse.
-        Ohne Publikum verlor seine Identit\u00e4t ihren Halt.
-        Das ist die tiefste Not der SE2w3:
-        Ich existiere nur, solange jemand zuschaut.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Massiv, territorial und untersch\u00e4tzt:</strong>
-        Das Flusspferd ist das Tier der SE2 im Tierlexikon:
-        Es wirkt schwerf\u00e4llig und harmlos \u2013 und ist doch
-        eines der gef\u00e4hrlichsten Tiere Afrikas.
-        Es beansprucht sein Territorium absolut,
-        duldet keine Konkurrenz und greift ohne Vorwarnung an.
-        <strong>Pleil</strong> entsprach diesem Bild:
-        Nach au\u00dfen hin der joviale, br\u00fcstende Mann \u2013
-        innen ein Wesen, das seinen Anspruch auf Raum
-        mit aller Konsequenz durchsetzte.</p>
-        <p class="vb-intro"><strong>b) T\u00e4uschende Oberfl\u00e4che:</strong>
-        Das Flusspferd verbringt viel Zeit im Wasser \u2013
-        ruhig, kaum sichtbar, scheinbar passiv.
-        Doch es schl\u00e4ft nie wirklich.
-        <strong>Pleil</strong> verstand es, sich in Situationen einzuf\u00fcgen,
-        harmlos zu wirken, Vertrauen zu erzeugen \u2013
-        um dann zuzuschlagen.
-        Diese F\u00e4higkeit, die echte Bedrohung unter einer
-        sozialen Oberfl\u00e4che zu verbergen,
-        ist ein Kernmerkmal des SE2w3.</p>
-        <p class="vb-intro"><strong>c) Selbsterhaltung als oberstes Gesetz:</strong>
-        Das Flusspferd kennt keine Feinde \u2013
-        es kennt nur Bedrohungen f\u00fcr seinen Bestand.
-        Alles, was ihm in die Quere kommt, wird eliminiert.
-        F\u00fcr <strong>Pleil</strong> war die eigene Bedeutung,
-        der eigene Anspruch, die eigene \u00dcberlegenheit
-        das oberste Schutzgut \u2013
-        und jede Bedrohung dieses Selbstbildes
-        wurde zur existenziellen Gefahr,
-        auf die er mit \u00e4u\u00dferster Konsequenz reagierte.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Rudolf Pleil</strong> ist einer der psychologisch aufschlussreichsten
-        und gleichzeitig unheimlichsten F\u00e4lle in der deutschen Kriminalgeschichte \u2013
-        nicht wegen der Brutalit\u00e4t seiner Taten,
-        sondern wegen der unverh\u00fcllten Selbstdarstellung dahinter.
-        Kein anderer T\u00e4ter hat sein eigenes Profil so offen formuliert wie er:
-        \u201eder beste Totmacher" ist kein Deckname \u2013 es ist ein Selbstbild.
-        Der SE2w3-Mechanismus im Verfall erzeugt genau das:
-        Stolz ohne Mitgef\u00fchl, Leistungsdenken ohne moralisches Fundament,
-        das Bed\u00fcrfnis nach Anerkennung ohne die F\u00e4higkeit,
-        den anderen als Person wahrzunehmen.
-        Was die gesunde Zwei zu au\u00dferordentlicher W\u00e4rme, F\u00fcrsorge
-        und menschlicher St\u00e4rke bef\u00e4higt,
-        wurde bei Pleil zur totalen Verf\u00fcgungsgewalt \u00fcber andere.
-        Er ist kein Beispiel f\u00fcr den Typ \u2013
-        er ist sein abgr\u00fcndigster Spiegel.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 \u201eIch zuerst":</strong>
-        Claudio Naranjo bezeichnete die selbsterhaltende Zwei
-        als den Subtyp mit dem st\u00e4rksten \u00dcberlebenswillen \u2013
-        \u201eIch zuerst" als Lebensmotto.
-        Alle Gesten der F\u00fcrsorge dienen letztlich dem eigenen Bestand.
-        Bei <strong>Pleil</strong> war dieser Mechanismus ohne jede
-        soziale Verkleidung: Was er wollte, nahm er sich.
-        Was im Weg stand, r\u00e4umte er aus dem Weg.
-        Die Maske der F\u00fcrsorge hatte er nie wirklich getragen.</p>
-        <p class="vb-intro"><strong>b) Die Nachkriegsbiografie als Verst\u00e4rker:</strong>
-        <strong>Pleil</strong> wuchs in extremer Armut auf,
-        erlebte fr\u00fch Gewalt und soziale Entwurzelung.
-        F\u00fcr die SE2 ist das Umfeld entscheidend:
-        Wer fr\u00fch lernt, dass F\u00fcrsorge nicht kommt,
-        es sei denn man fordert sie ein,
-        entwickelt ein \u00dcberlebenssystem, das auf Einfordern,
-        Manipulieren und Kontrolle basiert.
-        Die Nachkriegswirren verst\u00e4rkten das:
-        In einer Welt ohne Regeln blieb nur der
-        eigene Wille als Ordnungsprinzip.</p>
-        <p class="vb-intro"><strong>c) Komplizen als Zwei-Dynamik:</strong>
-        <strong>Pleil</strong> begann seine Mordserie nicht allein \u2013
-        er zog M\u00e4nner in seinen Bann, die mitgemacht haben.
-        Das ist eine klassische SE2-Dynamik:
-        Die Zwei schafft Abh\u00e4ngigkeit, macht andere mitschuldig,
-        h\u00e4lt sie durch gemeinsame Schuld in Reichweite.
-        Das Muster \u201eIch sorge daf\u00fcr, dass du mich brauchst"
-        gilt auch hier: Wer mit Pleil t\u00f6tete,
-        war an ihn gebunden \u2013 durch die Tat.</p>
-        <p class="vb-intro"><strong>d) Der Selbstmord als letzter Auftritt:</strong>
-        <strong>Pleils</strong> Tod in der Zelle war kein stiller Abgang.
-        Er hinterlie\u00df Briefe, Erkl\u00e4rungen, inszenierte seinen Abgang.
-        Selbst das Sterben wurde zur B\u00fchne.
-        Der Dreierfl\u00fcgel l\u00e4sst das Ich nicht verschwinden \u2013
-        er sorgt daf\u00fcr, dass der letzte Eindruck sitzt.
-        Pleil wollte nicht vergessen werden.
-        Und er wurde es nicht.</p>
-        <p class="vb-intro"><strong>e) Der Wachstumsweg der Zwei \u2013 die Vier:</strong>
-        Der Wachstumspunkt der Zwei ist die Vier \u2013
-        die F\u00e4higkeit, in die eigene innere Tiefe zu gehen,
-        Schmerz und Verlust wirklich zu f\u00fchlen, statt ihn
-        durch Wichtigsein und Leistung zu \u00fcberdecken.
-        F\u00fcr <strong>Pleil</strong> blieb dieser Weg vollst\u00e4ndig versperrt.
-        Er hat offenbar nie begonnen, sich selbst als
-        empfindenden, verletzlichen Menschen wahrzunehmen \u2013
-        nur als Protagonisten einer Geschichte,
-        in der er immer gewinnen musste.</p>
-        <p class="vb-intro"><strong>f) Stresspunkt Acht \u2013 Gewalt als Selbstausdruck:</strong>
-        Der Stresspunkt der Zwei ist die Acht \u2013
-        und bei <strong>Pleil</strong> ist er das entscheidende Schl\u00fcssel zum
-        Verst\u00e4ndnis der konkreten Tathandlungen.
-        Die Zwei neigt in gesunden Auspr\u00e4gungen dazu,
-        Kontrolle durch F\u00fcrsorge auszu\u00fcben \u2013
-        durch Geben, Binden, Abh\u00e4ngig-Machen.
-        Wenn diese Strategie versagt oder nie gelernt wurde,
-        greift der Stresspunkt: rohe Achter-Energie,
-        die Kontrolle durch k\u00f6rperliche \u00dcberlegenheit herstellt.
-        Pleils Morde hatten eine ausgepr\u00e4gt physische Qualit\u00e4t:
-        Erw\u00fcrgen, Schlagen, brutale k\u00f6rperliche Gewalt \u2013
-        keine distanzierte, geplante T\u00f6tung,
-        sondern ein \u00dcberrollen durch K\u00f6rperkraft und Wucht.
-        Das ist die Zwei in der Acht:
-        Wenn ich nicht durch Liebe binden kann,
-        erzwinge ich die Unterwerfung durch St\u00e4rke.
-        In Pleils Fall war die Achter-Energie nicht nur der Stressabfluss \u2013
-        sie war der einzige Kontaktmodus,
-        den er mit anderen Menschen kannte.</p>
-        <p class="vb-intro"><strong>g) Bedeutung f\u00fcr das Verst\u00e4ndnis der SE2:</strong>
-        <strong>Pleils</strong> Fall macht sichtbar, wohin die SE2-Logik
-        f\u00fchren kann, wenn alle menschlichen Korrektive fehlen:
-        Empathie, echte Bindung, das Erleben von Grenzen.
-        Die gesunde SE2 ist ein Mensch von gro\u00dfer W\u00e4rme,
-        Aufmerksamkeit und echter Sorge um andere.
-        Was Pleil fehlte, war nicht der Typ \u2013
-        sondern alles, was einen Typ zu einem Menschen macht.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Rudolf Pleil bekannte sich zu mindestens neun Morden und wurde 1952 zu mehrfacher lebenslanger Haft verurteilt. Er starb 1958 durch Suizid in der Zelle. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll"},
-        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
-        {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
       ])}
     </div>
   `);
