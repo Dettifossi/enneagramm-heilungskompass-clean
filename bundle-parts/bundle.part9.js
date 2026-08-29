@@ -3826,6 +3826,65 @@ function usherPortraitPage() {
   `);
 }
 
+function indilaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-indila-portrait.jpg" alt="Indila – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Indila</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Französische Sängerin, geb. 1984 – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – ein Tier, dessen Erfolg sich für die soziale Zwei erst dann vollständig anfühlt, wenn er mit anderen geteilt wird. Adila Sedraïa, besser bekannt als Indila, wurde 1984 in Paris geboren und beschrieb sich selbst als ›Kind der Welt‹ – algerischer, kambodschanischer, indischer und ägyptischer Abstammung. Ihre Mutter arbeitete als Pflegekraft, ihre Großmutter sang auf Hochzeiten; Musik war von Kindheit an eine gemeinschaftliche, verbindende Praxis, kein privates Talent, das für sich allein stand.</p>
+          <p class="vb-intro">Bevor sie selbst zur Musikerin wurde, arbeitete Indila als Reiseleiterin auf dem Großmarkt Rungis bei Paris – ein unspektakulärer, dienstleistungsorientierter Beruf, der zu einem Muster passt, das sich später in ihrer musikalischen Laufbahn fortsetzte: erst für andere da sein, bevor man selbst im Mittelpunkt steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Jahre im Dienst anderer Künstler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die <strong>soziale Zwei (SO2)</strong> <em>Ehrgeiz</em>: Sie will nicht nur begabt sein, sie will diese Begabung sichtbar und wirksam in den Dienst einer größeren Gemeinschaft stellen. Indila begann ihre musikalische Karriere 2009 nicht mit eigenen Songs, sondern als Background- und Gastsängerin für andere Künstler – unter anderem für Vitaa, L'Algérino und Admiral T. Jahrelang lieh sie ihre Stimme fremden Projekten, bevor sie mit einem eigenen Werk hervortrat.</p>
+          <p class="vb-intro">Diese Phase war keine bloße Vorstufe zum eigentlichen Ziel, sondern Ausdruck einer Grundhaltung: Zugehörigkeit zu einer musikalischen Gemeinschaft, das Gefühl, gebraucht zu werden, ging der eigenen Sichtbarkeit voraus. Die SO2 baut ihren Wert zunächst über die Beiträge auf, die sie für andere leistet – erst danach folgt der Schritt ins eigene Rampenlicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: ›Dernière Danse‹ und der globale Durchbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb, aus Begabung sichtbaren, messbaren Erfolg zu formen. Im Dezember 2013 veröffentlichte Indila ihre erste eigene Single ›Dernière Danse‹, die auf Platz zwei der französischen Charts stieg. Im Dezember 2023, zehn Jahre nach Veröffentlichung, wurde der Song zum ersten französischsprachigen Lied, das die Marke von einer Milliarde YouTube-Aufrufen überschritt – ein Erfolg von historischer Dimension für die französische Musik.</p>
+          <p class="vb-intro">Ihr Debütalbum ›Mini World‹ (Februar 2014) wurde ebenfalls ein kommerzieller Erfolg und brachte ihr 2015 bei den Victoires de la Musique die Auszeichnung als bestes Enthüllungsalbum des Jahres ein. Der Dreierflügel sorgte dafür, dass aus jahrelanger Hintergrundarbeit ein international sichtbares, mehrfach ausgezeichnetes eigenes Werk wurde – Talent, das nicht länger im Dienst anderer, sondern unter eigenem Namen strahlte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 liegt in der Fähigkeit, jahrelange, unsichtbare Arbeit im Dienst anderer in einen Erfolg zu verwandeln, der am Ende Millionen Menschen weltweit verbindet – ›Dernière Danse‹ wurde zu einem Lied, das über Sprach- und Kulturgrenzen hinweg gehört und gesungen wird, ganz im Sinne der gemeinschaftsstiftenden Energie der sozialen Zwei.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die Überzeugung, für andere unentbehrlich zu sein, verbunden mit der Schwierigkeit, die eigenen Grenzen zu benennen. Bei Indila zeigte sich die reifere Seite dieses Musters: Statt sich vom wachsenden Ruhm und der öffentlichen Aufmerksamkeit weiter vereinnahmen zu lassen, zog sie sich nach dem Erfolg von ›Mini World‹ bewusst und über Jahre aus der Öffentlichkeit zurück, um ihr Privatleben – bis hin zu einer nie öffentlich bestätigten Schwangerschaft – konsequent zu schützen. Ein eigenes, bewusstes Nein zur ständigen Sichtbarkeit, die der Dreierflügel sonst so leicht anzieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Vom Rungis-Großmarkt zur weltweit gehörten Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von den ersten Background-Gesängen für andere Künstler über den globalen Durchbruch mit ›Dernière Danse‹ bis zum bewussten Rückzug aus dem Rampenlicht zieht sich ein roter Faden durch Indilas Weg: musikalisches Talent, das zunächst im Dienst einer Gemeinschaft stand, dann öffentlich sichtbar wurde – und schließlich, auf eigenen Wunsch, wieder in den privaten Raum zurückgeholt wurde.</p>
+          <p class="vb-intro">Der Golden Retriever teilt seine Gaben, ohne sich von ihnen vereinnahmen zu lassen. Indilas Weg von der Reiseleiterin auf dem Großmarkt zur Stimme hinter dem meistgesehenen französischsprachigen Lied der Geschichte zeigt, dass echte Verbundenheit mit einem Publikum nicht bedeutet, sich diesem Publikum auf Dauer auszuliefern.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+        {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aliciaKeysPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7259,75 +7318,6 @@ function johnnyCashPortraitPage() {
         {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
         {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function davidLRathmerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-david-l-rathmer-portrait.jpg" alt="David L. Rathmer" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">David L. Rathmer</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel &middot; Kontratyp der Drei</p>
-        <p class="krim-portrait-subtitle">Enneagramm-Profiler, Gr\u00fcnder der Ennea Scholars Academy, geb. 2003 in M\u00fcnster &ndash; Sohn von Detlef Rathmer &ndash; Tierentsprechung: Waschb\u00e4r</p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic; opacity:0.75; margin-bottom:1.5rem;">David L. Rathmer ist keine Celebrity im \u00fcblichen Sinn &ndash; aber er ist der Mitentwickler dieses Kompass, Begr\u00fcnder der Rathmer-Profiling-Methode und Sohn des Autors. Ein Portr\u00e4t im eigenen Werk.</p>
-
-        <h2 class="vb-section">1. Der Waschb\u00e4r, der im Licht arbeitet</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; klug, anpassungsf\u00e4hig, mit geschickten Pfoten und einem wachen Blick f\u00fcr das, was sich lohnt. Wenn der Waschb\u00e4r bewusst lebt, nutzt er seine au\u00dfergew\u00f6hnliche Intelligenz nicht f\u00fcr die Nacht &ndash; sondern f\u00fcr das Licht. Er liest Situationen pr\u00e4zise, handelt effizient, und schafft aus dem, was da ist, etwas N\u00fctzliches. Er sieht, was andere \u00fcbersehen. Er \u00f6ffnet, was andere nicht \u00f6ffnen k\u00f6nnen.</p>
-          <p class="vb-intro">David L. Rathmer, geboren 2003 in M\u00fcnster, ist einer der seltenen Waschb\u00e4ren, die fr\u00fch erwacht sind. Mit acht Jahren in die Welt des Enneagramms eingef\u00fchrt durch seinen Vater, den Heilpraktiker und Enneagramm-Experten Detlef Rathmer, hat er nicht einfach ein Interesse entwickelt &ndash; er hat es zur Wissenschaft gemacht. Was mit einem Kind begann, das Fotos von Menschen betrachtete und fragte: \u201eWas ist das f\u00fcr ein Typ?", wurde zu \u00fcber f\u00fcnfzehn Jahren empirischer Forschung und schlie\u00dflich zu einer eigenst\u00e4ndigen Methode, die heute international eingesetzt wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. SE3: Der Kontratyp der Drei &ndash; Bescheidenheit als Haltung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei: der Subtyp, der seinen Ehrgeiz hinter Bescheidenheit verbirgt &ndash; nicht als T\u00e4uschung, sondern weil Sicherheit f\u00fcr ihn wichtiger ist als Glanz. Die SE3 sucht keine gro\u00dfe B\u00fchne. Sie sucht Effizienz. Sie sucht das Richtige, das Funktionale, das Substanzielle &ndash; und findet ihren Wert nicht im Applaus, sondern im Ergebnis.</p>
-          <p class="vb-intro">Bei David zeigt sich das in einer auffallenden Ruhe f\u00fcr sein Alter. Er tritt nicht auf, um zu beeindrucken. Er zeigt, was er kann &ndash; und das gen\u00fcgt ihm. In Beratungsgespr\u00e4chen, in Schulungen, in der Arbeit mit F\u00fchrungskr\u00e4ften und Unternehmen, die seine Expertise im Personalbereich und in der Mitarbeiterf\u00fchrung nutzen: \u00fcberall wirkt er geerdet, fokussiert, klar. Kein Geltungsdrang. Keine Inszenierung. Nur das Handwerk.</p>
-          <p class="vb-intro">Mit zwanzig Jahren wurde er zum j\u00fcngsten Wirtschaftssenator in der Geschichte des Europ\u00e4ischen Wirtschaftssenats ernannt &ndash; nicht weil er sich beworben hatte, sondern weil seine Arbeit \u00fcberzeugte. Das ist die SE3 in ihrer bewussten Form: Erfolg als Konsequenz, nicht als Ziel.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Tiefe hinter der Effizienz</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> ist das, was David L. Rathmer von einem reinen Effizienz-Techniker unterscheidet. Die Vier sucht Tiefe, Authentizit\u00e4t, den Kern der Dinge. Sie kann nicht an der Oberfl\u00e4che bleiben &ndash; sie muss wissen, was wirklich dahintersteckt. Bei einem SE3w4er verbindet sich das mit der praktischen Intelligenz der Drei: Die Tiefe wird nicht zum Selbstzweck, sondern zum Werkzeug. Was tief verstanden ist, kann pr\u00e4zise eingesetzt werden.</p>
-          <p class="vb-intro">Genau das ist der Schl\u00fcssel zur Rathmer-Profiling-Methode (RP-Methode): David kann Menschen allein anhand von Portraitfotos und k\u00f6rperlichen Merkmalen pr\u00e4zise nach dem Enneagramm typisieren. Diese F\u00e4higkeit ist nicht intuitives Raten &ndash; sie ist das Ergebnis von \u00fcber f\u00fcnfzehn Jahren beobachtender Forschung, systematisch aufgebaut, empirisch validiert. Der Viererfl\u00fcgel hat ihn gelehrt, genau hinzusehen. Die selbsterhaltende Drei hat die Methode daraus gemacht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Ennea Scholars Academy: Wissen in Anwendung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Ennea Scholars Academy</strong>, die David L. Rathmer gegr\u00fcndet hat, ist der institutionelle Ausdruck seiner SE3w4-Energie: ein Unternehmen, das Wissen nicht speichert, sondern transferiert. Teilnehmer aus aller Welt lernen dort das \u201eMenschenlesen" &ndash; die F\u00e4higkeit, Menschen anhand des Enneagramms pr\u00e4zise zu verstehen, ein Werkzeug, das in F\u00fchrung, Personalauswahl, Kommunikation und Therapie eingesetzt wird.</p>
-          <p class="vb-intro">Der SE3w4er baut keine Kathedralen f\u00fcr sich. Er baut Systeme, die ohne ihn funktionieren. Das ist der bewusste Ausdruck der selbsterhaltenden Drei: nicht Abh\u00e4ngigkeit erzeugen, sondern Kompetenz weitergeben. Was David weitergeben kann, ist das Ergebnis einer Kindheit und Jugend, die vollst\u00e4ndig dem Enneagramm gewidmet war &ndash; nicht als Verzicht, sondern als Berufung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Energetische Wirkung: Stille Klarheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Wer David L. Rathmer in der Arbeit erlebt, begegnet einer Energie, die ruhig und dennoch vollst\u00e4ndig pr\u00e4sent ist. Keine \u00dcberw\u00e4ltigungsenergie, kein Charisma-Feuerwerk &ndash; sondern die konzentrierte Klarheit eines Menschen, der wei\u00df, was er sieht und warum. Der Blick des SE3w4ers ist zielgerichtet und gleichzeitig offen: Er beobachtet, ohne zu urteilen &ndash; analysiert, ohne zu distanzieren.</p>
-          <p class="vb-intro">Der Viererfl\u00fcgel bringt dabei eine W\u00e4rme mit, die bei Dreien mit schwach ausgepr\u00e4gtem Viererfl\u00fcgel oft fehlt: David interessiert sich f\u00fcr den Menschen hinter dem Typ. Die Typisierung ist f\u00fcr ihn kein Ende, sondern ein Anfang &ndash; der Beginn eines Gespr\u00e4chs \u00fcber das, was jemand braucht, um wirklich er selbst zu sein. Das ist der Waschb\u00e4r im Licht: geschickt, pr\u00e4zise, und mit der W\u00fcrde des echten Kontakts.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Ein Erbe, das weitergebaut wird</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">David L. Rathmer ist mit 23 Jahren in einem Alter, in dem die meisten Menschen erst beginnen zu verstehen, womit sie ihr Leben verbringen wollen. Er wei\u00df es bereits seit f\u00fcnfzehn Jahren. Das ist weder Zufall noch blo\u00dfes Talent &ndash; es ist das Ergebnis einer seltenen Kombination: ein fr\u00fches Umfeld, das Tiefe erm\u00f6glicht, eine Pers\u00f6nlichkeitsstruktur, die Effizienz mit Sinn verbindet, und ein innerer Antrieb, der keine Best\u00e4tigung von au\u00dfen braucht, um weiterzugehen.</p>
-          <p class="vb-intro">Was er dem Enneagramm gegeben hat, ist die Br\u00fccke ins digitale Zeitalter &ndash; und ins Unternehmertum. Was das Werk von Detlef Rathmer in der Tiefe aufgebaut hat, tr\u00e4gt David in die Breite. Vater und Sohn &ndash; zwei Menschen, die zusammen das Ganze abdecken: die Wurzel und das Wachstum.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
-        {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
-        {route:"bibel-salome", label:"Bibel-Portr\u00e4t: Salome (SE3w4)"},
       ])}
     </div>
   `);

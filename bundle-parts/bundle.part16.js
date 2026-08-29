@@ -5163,6 +5163,7 @@ function render() {
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-dr-dre": drDrePortraitPage,
       "beruehmte-usher": usherPortraitPage,
+      "beruehmte-indila": indilaPortraitPage,
       "beruehmte-alicia-keys": aliciaKeysPortraitPage,
       "beruehmte-ashton-kutcher": ashtonKutcherPortraitPage,
       "beruehmte-ayo-edebiri": ayoEdebiriPortraitPage,

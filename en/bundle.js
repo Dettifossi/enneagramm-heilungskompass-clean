@@ -819,6 +819,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kamala Harris – Social Type 2",
     teaser:"SO2w3 · born 1964. Politician, former US Vice President. Prosecutor, Senator, Vice President – service as political calling, several historic firsts. Animal correspondence: Golden Retriever.",
     land:"USA", tags:["Politik"] , gender:"f"},
+{ route:"beruehmte-indila", name:"Indila", added:"2026-08-29", subtyp:"SO2w3",
+    heading:"Indila – Social Type 2",
+    teaser:"SO2w3 · b. 1984. French singer, \"Dernière Danse\" – the first French-language song to surpass one billion YouTube views. Sang for other artists for years before her own breakthrough, then deliberately withdrew from public life after global success. Animal correspondence: Golden Retriever.",
+    land:"France", tags:["Music"], gender:"f"},
 { route:"beruehmte-alicia-keys", name:"Alicia Keys", added:"2026-08-24", subtyp:"SO2w3",
     heading:"Alicia Keys – Social Type 2",
     teaser:"SO2w3 · b. 1981 in New York. American singer and pianist. Three number-one albums, co-founder of Keep a Child Alive for families affected by HIV. Musical success as a platform for social engagement. Animal correspondence: Golden Retriever.",
@@ -42216,6 +42220,65 @@ function ashtonKutcherPortraitPage() {
   `);
 }
 
+function indilaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-indila-portrait.jpg" alt="Indila – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Indila</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">French singer, b. 1984 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the Social Two – an animal whose success only feels complete for the Social Two once it is shared with others. Adila Sedraïa, better known as Indila, was born in 1984 in Paris and described herself as a "child of the world" of Algerian, Cambodian, Indian, and Egyptian descent. Her mother worked as a caregiver, her grandmother sang at weddings; music was a communal, connecting practice from childhood on, not a private talent that stood on its own.</p>
+          <p class="vb-intro">Before becoming a musician herself, Indila worked as a tour guide at the Rungis wholesale market near Paris – an unspectacular, service-oriented job that fits a pattern that would later continue in her musical career: being there for others before stepping into the center herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Years in Service of Other Artists</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Social Two (SO2)</strong> <em>Ambition</em>: it does not merely want to be gifted, it wants to put that gift visibly and effectively in service of a larger community. Indila began her musical career in 2009 not with songs of her own, but as a backing and guest vocalist for other artists – including Vitaa, L'Algérino, and Admiral T. For years she lent her voice to other people's projects before stepping forward with a work of her own.</p>
+          <p class="vb-intro">This phase was not merely a stepping stone to the real goal, but the expression of a basic stance: belonging to a musical community, the feeling of being needed, came before her own visibility. The SO2 first builds its worth through what it contributes to others – only then does the step into its own spotlight follow.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: "Dernière Danse" and the Global Breakthrough</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Social Two the drive to shape talent into visible, measurable success. In December 2013, Indila released her first solo single, "Dernière Danse" (Last Dance), which climbed to number two on the French charts. In December 2023, ten years after its release, the song became the first French-language song to surpass one billion YouTube views – a success of historic scale for French music.</p>
+          <p class="vb-intro">Her debut album, "Mini World" (February 2014), also became a commercial success and earned her the award for Best Revelation Album of the Year at the 2015 Victoires de la Musique. The Three-wing turned years of behind-the-scenes work into an internationally visible, multiply awarded body of work of her own – talent that no longer served others but shone under her own name.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 lies in the ability to turn years of invisible work in service of others into a success that ultimately connects millions of people worldwide – "Dernière Danse" became a song heard and sung across language and cultural boundaries, entirely in keeping with the community-building energy of the Social Two.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – the conviction of being indispensable to others, combined with difficulty naming one's own limits. In Indila, the more mature side of this pattern showed itself: rather than letting herself be further absorbed by growing fame and public attention, she deliberately withdrew from public life for years after the success of "Mini World," to consistently protect her private life – including a pregnancy she never publicly confirmed. A conscious, deliberate no to the constant visibility the Three-wing so easily attracts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Work: From the Rungis Market to a Voice Heard Worldwide</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From her first backing vocals for other artists, through the global breakthrough with "Dernière Danse," to the deliberate withdrawal from the spotlight, a common thread runs through Indila's path: musical talent that first served a community, then became publicly visible – and was finally, by her own choice, brought back into private space.</p>
+          <p class="vb-intro">The golden retriever shares its gifts without letting itself be consumed by them. Indila's path from tour guide at the wholesale market to the voice behind the most-viewed French-language song in history shows that genuine connection with an audience does not require surrendering to that audience indefinitely.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-alicia-keys", label:"Portrait: Alicia Keys (SO2w3)"},
+        {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function aliciaKeysPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46638,12 +46701,12 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Devotion that belongs not to the individual, but to the whole community",
-    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
         beschreibung: "Unlike the other Two subtypes, care is directed not at the one relationship or one's own family, but at a collective – a congregation, an audience, a nation, everyone currently within reach.",
-        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone."
+        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone; Indila, whose song "Dernière Danse" became the first French-language song with over a billion YouTube views – a success that only came after years as a backing vocalist for other artists, lending her voice to other people's projects before she herself reached an audience of millions across language and cultural boundaries."
       },
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
@@ -101792,6 +101855,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-dr-dre": drDrePortraitPage,
       "beruehmte-usher": usherPortraitPage,
+      "beruehmte-indila": indilaPortraitPage,
       "beruehmte-alicia-keys": aliciaKeysPortraitPage,
       "beruehmte-ashton-kutcher": ashtonKutcherPortraitPage,
       "beruehmte-ayo-edebiri": ayoEdebiriPortraitPage,
