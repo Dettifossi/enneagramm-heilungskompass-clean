@@ -33964,6 +33964,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Arthur Rimbaud – Sexueller Typ 4",
     teaser:"SX4w3 · 1854–1891. Französischer Dichter. Wollte mit 15–20 Jahren die gesamte französische Dichtung übertreffen, stürmische Beziehung mit Paul Verlaine, radikaler Bruch mit dem Schreiben mit 21 Jahren, danach Kaufmann und Waffenhändler in Afrika. Tierentsprechung: Chihuahua.",
     land:"Frankreich", tags:["Literatur"], gender:"m"},
+  { route:"beruehmte-june-carter-cash", name:"June Carter Cash", added:"2026-08-29", subtyp:"SE4w3",
+    heading:"June Carter Cash – Selbsterhaltender Typ 4",
+    teaser:"SE4w3 · 1929–2003. US-amerikanische Sängerin, Songwriterin und Schauspielerin aus der legendären Carter Family, fünffache Grammy-Gewinnerin. Schrieb ›Ring of Fire‹, organisierte 1967/68 die Intervention, die Johnny Cash das Leben rettete, öffentlicher Heiratsantrag 1968 mitten im Konzert. Tierentsprechung: Taube.",
+    land:"USA", tags:["Musik"], gender:"f"},
   { route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
     heading:"Honoré de Balzac – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1799–1850. Französischer Schriftsteller, „La Comédie humaine“ (fast 100 Romane/Erzählungen). Eignete sich selbst das Adelsprädikat „de“ an, schrieb nächtelang bis zu 18 Stunden koffeingetrieben gegen drückende Schulden an, 17 Jahre Briefwechsel mit Gräfin Hańska vor der Heirat kurz vor seinem Tod. Tierentsprechung: Taube.",
@@ -44772,7 +44776,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -44782,7 +44786,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
         beschreibung: "Die zarte, empfindsame Erscheinung täuscht über eine erhebliche innere Ausdauer hinweg: Der Weg wird auch durch Sturm und Rückschläge fortgesetzt, nicht weil Angst fehlt, sondern weil eine tiefe Kenntnis der eigenen Richtung trägt.",
-        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe und trotz einer fortschreitenden Zwangsstörung, seine tiefste Bindung an eine einzelne weiße Taube; Honoré de Balzac, der über Jahrzehnte nächtelang, oft fünfzehn bis achtzehn Stunden am Stück, gegen drückende Schulden anschrieb – kein Aufgeben trotz ständiger finanzieller Not, sondern ein zähes Weiterschreiben, das erst mit seinem Tod endete, fünf Monate nach der siebzehn Jahre lang erhofften Hochzeit mit Ewelina Hańska; T. E. Lawrence, der als britischer Verbindungsoffizier wochenlang durch die Wüste ritt, Hunger und Erschöpfung körperlich mit den arabischen Kämpfern teilte, statt aus der Distanz zu befehligen – und der nach dem Krieg dieselbe stille Zähigkeit nach innen kehrte, in einem über Jahre selbst organisierten Bestrafungsritual, statt über die erlittene Erniedrigung von Deraa zu sprechen."
+        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe und trotz einer fortschreitenden Zwangsstörung, seine tiefste Bindung an eine einzelne weiße Taube; Honoré de Balzac, der über Jahrzehnte nächtelang, oft fünfzehn bis achtzehn Stunden am Stück, gegen drückende Schulden anschrieb – kein Aufgeben trotz ständiger finanzieller Not, sondern ein zähes Weiterschreiben, das erst mit seinem Tod endete, fünf Monate nach der siebzehn Jahre lang erhofften Hochzeit mit Ewelina Hańska; T. E. Lawrence, der als britischer Verbindungsoffizier wochenlang durch die Wüste ritt, Hunger und Erschöpfung körperlich mit den arabischen Kämpfern teilte, statt aus der Distanz zu befehligen – und der nach dem Krieg dieselbe stille Zähigkeit nach innen kehrte, in einem über Jahre selbst organisierten Bestrafungsritual, statt über die erlittene Erniedrigung von Deraa zu sprechen; June Carter Cash, die 1967/68 gemeinsam mit Familie und Freunden Johnny Cashs Tabletten- und Alkoholabhängigkeit entgegentrat und ihn danach über Jahre durch seine Genesung begleitete – eine stille, zähe Last, die sie nie zum Zentrum der eigenen Geschichte machte."
       },
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
@@ -55621,6 +55625,72 @@ function tELawrencePortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – der erfundene Mythos"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function juneCarterCashPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-june-carter-cash-portrait.jpg" alt="June Carter Cash" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">June Carter Cash</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Sängerin, Songwriterin und Schauspielerin, 1929–2003 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. June Carter wurde 1929 im ländlichen Maces Spring, Virginia, geboren, als Tochter von Maybelle Carter, einer Gründungsfigur der legendären Carter Family, die als eine der einflussreichsten Formationen der amerikanischen Country- und Folkmusik gilt. Bereits als Kind stand June mit ihren Schwestern Helen und Anita auf der Bühne – hineingeboren in eine Familie, deren gesamte Identität an ihrem öffentlichen musikalischen Auftreten hing.</p>
+          <p class="vb-intro">Aus dieser frühen Prägung erwuchs ein lebenslanges Muster: Die eigene Person und die Bühnenfigur waren von klein auf kaum zu trennen. Statt sich dieser Fremdbestimmung zu entziehen, entwickelte June daraus etwas sehr Eigenes – einen schlagfertigen, komödiantischen Auftrittsstil mit eigenen Sketchen und Monologen, der sie schon früh von ihren musikalisch ebenso begabten Schwestern unterschied.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Die Trägerin im Hintergrund</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr eigenes Leiden nicht öffentlich vor sich her, sondern hält es aus – oft, indem sie sich ganz in den Dienst eines anderen oder einer Familie stellt. June wurde in Biografien und von Weggefährten wiederholt als die stille „Holder-upper" der Cash-Carter-Familie beschrieben: diejenige, die den Zusammenhalt trug, während andere im Rampenlicht standen. Diese Rolle wählte sie wiederholt bewusst über die eigene, eigenständige Karriere.</p>
+          <p class="vb-intro">Am deutlichsten zeigte sich das 1967/68, als Johnny Cash an einer schweren Tabletten- und Alkoholabhängigkeit fast zugrunde ging. June organisierte gemeinsam mit Familie und Freunden eine der ersten öffentlich bekannt gewordenen Interventionen dieser Art in der Musikszene und begleitete ihn danach über Jahre durch seine Genesung – eine stille, zähe, über Jahre getragene Last, die sie nie zum Zentrum der eigenen Geschichte machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Bühne als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein ausgeprägtes Gespür für Wirkung und Auftritt – die innere Tiefe wird nicht ins Verborgene gekehrt, sondern in eine sichtbare, oft charmant-komödiantische öffentliche Rolle übersetzt. June war zeitlebens eine gefragte Entertainerin: Sängerin, Songwriterin, Schauspielerin und Autorin, ausgezeichnet mit fünf Grammy Awards, zuletzt 1999 für ihr Soloalbum „Press On" – ein spätes, ganz eigenständiges künstlerisches Zeugnis, nachdem sie jahrzehntelang vor allem im Schatten von Johnny Cashs Weltruhm gestanden hatte.</p>
+          <p class="vb-intro">Ihr bekanntester eigener Songwriting-Beitrag, „Ring of Fire" (gemeinsam mit Merle Kilgore geschrieben), entstand aus der eigenen, damals noch verbotenen Liebe zu Johnny Cash, während beide noch mit anderen Partnern verheiratet waren – ein zutiefst persönliches Gefühl, das June nicht verschwieg, sondern in einen der größten Country-Hits aller Zeiten verwandelte. Der Dreierflügel übersetzt bei der Vier die innere Wahrheit nicht ins Private, sondern in ein Werk, das gesehen und gehört werden soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Heiratsantrag auf offener Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 22. Februar 1968 hielt Johnny Cash während eines gemeinsamen Konzerts in London, Ontario, mitten im Song „Jackson" inne und machte June live vor Publikum einen Heiratsantrag. Sie nahm an – ein öffentlicher, für die ganze Welt sichtbarer Moment, der die jahrelange, zuvor diskrete Beziehung endgültig ins Rampenlicht holte. Wenige Wochen später heirateten die beiden, und June wurde nicht nur seine Ehefrau, sondern über Jahrzehnte hinweg auch seine wichtigste Bühnenpartnerin, moralische Stütze und, wie viele Weggefährten später bestätigten, tatsächlich diejenige, die sein Leben rettete.</p>
+          <p class="vb-intro">Auch diese Episode zeigt die typische SE4w3-Konstellation: ein zutiefst persönlicher, emotionaler Moment, der nicht im Verborgenen blieb, sondern ganz bewusst öffentlich vollzogen wurde – Nähe und Bühne, Privates und Auftritt, ließen sich bei June kaum trennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 ist die Fähigkeit, <strong>eine zutiefst persönliche innere Wahrheit in eine Bühnenpräsenz zu verwandeln</strong>, die andere trägt und stützt, ohne dabei die eigene Tiefe zu verlieren. June Carter Cash gab mit Humor, Musik und ihrer bloßen Anwesenheit über Jahrzehnte einer ganzen Familie und einem der bekanntesten Künstler des zwanzigsten Jahrhunderts Halt.</p>
+          <p class="vb-intro">Der Schatten zeigte sich darin, dass Junes eigene künstlerische Stimme über weite Strecken ihres Lebens hinter dieser stützenden Rolle zurücktrat – ihr eigenständiges Soloalbum kam erst spät, mit über sechzig Jahren. June Carter Cash starb am 15. Mai 2003 in Nashville an den Folgen einer Herzoperation, nur wenige Monate bevor auch Johnny Cash im September desselben Jahres starb – bis zuletzt untrennbar miteinander verbunden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die die Familie trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">June Carter Cash gehört zu den prägendsten Frauen der amerikanischen Countrymusik – nicht weil sie sich lauter in den Vordergrund drängte als andere, sondern weil sie ihre eigene Tiefe so überzeugend in Bühnenpräsenz, Humor und stille Beharrlichkeit übersetzte, dass sie zur tragenden Figur einer ganzen musikalischen Dynastie wurde.</p>
+          <p class="vb-intro">Die Taube, die als Kind in eine musikalische Familie hineingeboren wurde und ihr ganzes Leben zwischen eigener Bühnenpräsenz und stiller Fürsorge für andere pendelte – das ist das bleibende Bild dieses Subtyps: ein Mensch, der die eigene Wahrheit nicht versteckt, sondern in Auftritt und Hingabe zugleich lebt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"beruehmte-t-e-lawrence", label:"Porträt: T. E. Lawrence (SE4w3)"},
       ])}
     </div>
   `);
@@ -136732,6 +136802,7 @@ function render() {
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
+      "beruehmte-june-carter-cash": juneCarterCashPortraitPage,
       "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
