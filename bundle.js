@@ -46055,9 +46055,15 @@ window.bpApply = function() {
         && (s.gender==="ALL" || p.gender===s.gender)
         && (s.land==="ALL" || p.land===s.land);
     });
+    // Innerhalb desselben Subtyp-Codes nach Flügel sortieren (w2 vor w4 usw.),
+    // statt in der zufälligen Einfüge-Reihenfolge der Gesamtliste zu bleiben.
+    matches.sort(function(a, b) { return (a.subtyp||"").localeCompare(b.subtyp||""); });
     vis = matches.length;
     if (list) list.innerHTML = bpCardsFlatHTML(matches);
-    if (reg) reg.style.display = "none";
+    // Register-Box (Schnellnavigation) bleibt bewusst immer sichtbar, auch
+    // gefiltert - sonst kann man nach einem Chip-Klick keinen anderen Subtyp
+    // mehr anklicken, ohne erst manuell zurückzusetzen.
+    if (reg) reg.style.display = "";
   } else {
     window.bpRenderedCount = 0;
     window.bpLastSectionCode = null;
