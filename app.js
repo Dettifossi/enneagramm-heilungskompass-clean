@@ -32940,6 +32940,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Joseph Haydn \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 1732\u20131809. \u00d6sterreichischer Komponist. Drei Jahrzehnte im Dienst der Esterh\u00e1zys, \u203aPapa Haydn\u2039, 104 Symphonien, Mentor von Mozart und Beethoven. Der Waschb\u00e4r mit Zweierfl\u00fcgel: stille Leistung, F\u00fcrsorge und sp\u00e4te Anerkennung durch die Londoner Reisen. Tierentsprechung: Waschb\u00e4r.",
     land:"Deutschland", tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-serdar-somuncu", name:"Serdar Somuncu", added:"2026-08-29", subtyp:"SE3w2",
+    heading:"Serdar Somuncu – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · geb. 1968. Deutsch-türkischer Kabarettist, Regisseur und Autor. Klassisch ausgebildeter Schlagzeuger und Schauspielregisseur, bekannt für über 1.500 szenische Lesungen aus Hitlers ›Mein Kampf‹, teils unter Polizeischutz mit kugelsicherer Weste. Über eine halbe Million Zuschauer europaweit erreicht. Tierentsprechung: Waschbär.",
+    land:"Deutschland/Türkei", tags:["Comedy"], gender:"m"},
   { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1965. US-amerikanischer Unternehmer, gründete Dell Computer 1984 im Studentenwohnheim mit 1.000 Dollar Startkapital. Bekannt für operative Disziplin und direkten Kundenkontakt statt Selbstinszenierung, gemeinsam mit seiner Frau Susan über 10 Milliarden Dollar für wohltätige Zwecke zugesagt. Tierentsprechung: Waschbär.",
@@ -44882,7 +44886,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
@@ -44897,7 +44901,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
         beschreibung: "Fähigkeiten, die später mühelos wirken, entstehen fast nie über Nacht, sondern über Jahre stiller, oft schmerzhaft konsequenter Wiederholung, lange bevor eine Öffentlichkeit davon erfährt.",
-        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde; Bastian Pastewka, der als akribischer Perfektionist gilt, der jede Rolle, jede Pointe und jedes Timing gründlich vorbereitet, statt sich auf spontane Kreativität zu verlassen – ein Anspruch, der sich sowohl in seiner eigenen, über Jahre entwickelten Sitcom als auch in seiner international geschätzten Synchronarbeit zeigt; Edita Gruberová, die mit fünfzehn Jahren eine sechsjährige Gesangsausbildung am Konservatorium Bratislava begann und bis ins hohe Alter dieselbe unerbittliche Stimmpflege fortsetzte – noch mit zweiundsiebzig Jahren sang sie anspruchsvollste Koloraturpartien, eine für ihr Fach außergewöhnliche Karrierelänge, die direkte Folge jahrzehntelanger technischer Disziplin."
+        beleg: "Lang Lang: ›Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung‹; Judit Polgár, deren Meisterschaft das Ergebnis ›Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste‹ war; Tom Keating, der über zwei Jahrzehnte mehr als 2.000 Gemälde im Stil von rund 100 Meistern schuf – Handwerksbeherrschung, die er bewusst gegen den Kunstmarkt richtete; Penélope Cruz, die sich in klassischem Ballett und dramatischer Kunst ausbilden ließ, bevor sie überhaupt vor die Kamera trat – jahrelanges Training als Fundament, nicht als Fußnote; David L. Rathmer, der mit acht Jahren an das Enneagramm herangeführt wurde und daraus über fünfzehn Jahre empirischer Forschung machte, lange bevor daraus eine eigenständige, international eingesetzte Methode wurde; Bryn Kenney, der mit sechzehn Jahren online Poker zu spielen begann, ›lange bevor ihn irgendjemand kannte‹, und dessen jahrelange, im Verborgenen erarbeitete Spielstärke erst 2019 mit dem größten Einzelgewinn der Pokergeschichte sichtbar wurde; Bastian Pastewka, der als akribischer Perfektionist gilt, der jede Rolle, jede Pointe und jedes Timing gründlich vorbereitet, statt sich auf spontane Kreativität zu verlassen – ein Anspruch, der sich sowohl in seiner eigenen, über Jahre entwickelten Sitcom als auch in seiner international geschätzten Synchronarbeit zeigt; Edita Gruberová, die mit fünfzehn Jahren eine sechsjährige Gesangsausbildung am Konservatorium Bratislava begann und bis ins hohe Alter dieselbe unerbittliche Stimmpflege fortsetzte – noch mit zweiundsiebzig Jahren sang sie anspruchsvollste Koloraturpartien, eine für ihr Fach außergewöhnliche Karrierelänge, die direkte Folge jahrzehntelanger technischer Disziplin; Serdar Somuncu, der ein klassisches Musik- und Schauspielstudium mit über zehn Jahren Dauer absolvierte und mehr als hundert Theaterstücke inszenierte, bevor sein eigentlicher öffentlicher Durchbruch mit den ›Mein Kampf‹-Lesungen kam – jahrelange, unsichtbare Vorarbeit als Fundament für ein über Jahrzehnte tragfähiges Werk."
       },
       {
         titel: "Erreichte Sichtbarkeit bewusst gegen Substanz eintauschen",
@@ -72975,6 +72979,72 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function serdarSomuncuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-serdar-somuncu-portrait.jpg" alt="Serdar Somuncu" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Serdar Somuncu</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Kabarettist, Regisseur &amp; Autor, geb. 1968 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das seine Sicherheit aus nachweisbarem Handwerk zieht. Serdar Somuncu wurde 1968 in Istanbul geboren und zog schon als Kleinkind mit seiner Familie nach Deutschland, wo er in Neuss aufwuchs. Bevor er als Kabarettist bekannt wurde, durchlief er eine gründliche musikalische und schauspielerische Ausbildung: von 1984 bis 1986 studierte er am Konservatorium für Musik in Maastricht, von 1986 bis 1992 Schlagzeug an der Staatlichen Hochschule für Musik in Wuppertal, anschließend von 1992 bis 1995 Schauspiel und Regie in Frankfurt am Main.</p>
+          <p class="vb-intro">Über 100 Theaterstücke inszenierte er, bevor sein eigentlicher öffentlicher Durchbruch kam – Jahre disziplinierter, oft unsichtbarer Vorarbeit, bevor sich das eigentliche, öffentlich sichtbare Werk zeigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Substanz statt Provokation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch öffentliches Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht. Somuncus Durchbruch 1996 mit der szenischen Lesung aus Hitlers ›Mein Kampf‹ war kein plumper Skandal-Auftritt, sondern eine dramaturgisch präzise gearbeitete Auseinandersetzung, die den ›Schrecken durch Konfrontation‹ aus dem Text nehmen sollte.</p>
+          <p class="vb-intro">Sein eigener Anspruch dahinter war klar formuliert: ›Wer über Mein Kampf lacht, hat verstanden, was für ein Unsinn da drinsteht.‹ Über 1.500 Aufführungen in ganz Europa folgten, mit mehr als einer halben Million Zuschauern – keine kurzfristige Provokation, sondern ein über Jahrzehnte tragfähiges Werk, dessen Wirkung sich durch stetige Wiederholung und handwerkliche Genauigkeit erst voll entfaltete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Auftreten trotz persönlichem Risiko</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls, sich für andere einzusetzen, selbst wenn es persönliche Kosten mit sich bringt. Wegen der ›Mein Kampf‹-Lesungen erhielt Somuncu wiederholt Drohungen von Neonazis und trat zeitweise unter Polizeischutz und mit kugelsicherer Weste auf – kein einmaliger Vorfall, sondern eine über Jahre anhaltende Belastung, die er in Kauf nahm, weil er von der Wirkung seiner Arbeit überzeugt war.</p>
+          <p class="vb-intro">Diese Überzeugung bestätigte sich: Bis heute erhält Somuncu Briefe von Menschen, die die Lesungen als entscheidenden Wendepunkt in ihrem Leben beschreiben. Der Zweierflügel zeigt sich hier nicht als bloße Sympathiewerbung, sondern als konkrete, über Jahrzehnte gepflegte Verbindung zu einem Publikum, das durch seine Arbeit tatsächlich verändert wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die kugelsichere Weste als Symbol</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Statt die Lesungen nach den ersten Drohungen einzustellen, entschied sich Somuncu, unter erhöhtem Sicherheitsaufwand weiterzumachen – eine nüchterne, wenig glamouröse Entscheidung, die keine öffentliche Heldenpose war, sondern die konsequente Fortsetzung einer als richtig erkannten Arbeit unter widrigen Bedingungen.</p>
+          <p class="vb-intro">Diese Episode zeigt die typische SE3w2-Haltung: keine große öffentliche Geste, sondern die stille, beharrliche Weiterführung einer Aufgabe, deren Wert sich am tatsächlichen Ergebnis misst – Sicherheit und Substanz, nicht Show, auch unter Bedrohung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>gründliche handwerkliche Vorbereitung mit echtem Engagement für andere</strong> zu verbinden – Somuncus jahrzehntelange musikalische und schauspielerische Ausbildung bildete das Fundament für ein Werk, das über eine halbe Million Menschen europaweit direkt erreichte und nachweislich verändert hat.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> – bei der SE3 subtiler als bei den lauteren Dreier-Subtypen, aber dennoch vorhanden: das Bedürfnis, den eigenen Wert durch immer neue, überprüfbare Wirkung zu bestätigen. Somuncus konsequentes Festhalten an einem riskanten, jahrzehntelang fortgesetzten Format zeigt, wie viel Kraft es kostet, den eigenen Anspruch an Substanz auch unter äußerem Druck nicht aufzugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der Aufklärung zum Lebenswerk machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Serdar Somuncu gehört zu den prägendsten Figuren der deutschen Kabarettszene – nicht wegen einer einzelnen provokanten Aktion, sondern wegen eines über Jahrzehnte fortgesetzten, handwerklich fundierten Werks, das historische Aufklärung mit künstlerischer Präzision verband.</p>
+          <p class="vb-intro">Vom klassisch ausgebildeten Schlagzeuger über den Regisseur von mehr als hundert Theaterstücken bis zum Kabarettisten, der über 1.500 Mal aus ›Mein Kampf‹ las, auch unter kugelsicherer Weste: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Substanz, die sich nicht in Provokation erschöpft, sondern in tatsächlicher, über Jahrzehnte bewiesener Wirkung fortsetzt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
       ])}
     </div>
   `);
@@ -137770,6 +137840,7 @@ function render() {
       "beruehmte-jimi-blue-ochsenknecht": jimiBlueOchsenknechtPortraitPage,
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
+      "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
